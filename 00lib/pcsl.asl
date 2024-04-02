@@ -2,6 +2,7 @@
 @signlist pcsl
 
 @inote	uage meanings:
+	0=do not encode
 	1=AP;
 	2=add from CUSAS;
 	3=add from BAU;
@@ -11793,16 +11794,15 @@
 @end sign
 
 @sign |ŠE.GAR|
-@smap	|ŠE~a.GAR|~a
+@smap	|ŠE~a.GAR|
 @uage	0
-@form |ŠE~a.GAR|~a
-@aka	|ŠE~a.GAR|
+@form |ŠE~a@t.GAR|
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
 @@
-@form |ŠE~a.GAR|~b
-@inote	CUSAS01
+@form |ŠE~a.GAR|
+@inote	CUSAS01 |ŠE~a.GAR~b|
 @uage	2
 @sys	AP23 not
 @@
