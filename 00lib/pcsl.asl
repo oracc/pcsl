@@ -2,6 +2,7 @@
 @signlist pcsl
 
 @inote	uage meanings:
+	0=do not encode
 	1=AP;
 	2=add from CUSAS;
 	3=add from BAU;
@@ -1764,7 +1765,8 @@
 @sys	AP23 |DARA3~dxKAR2|
 @@
 @form |DARA₃~d×KAR₂~b|
-@aka |DARA₃~d×KAR₂|~v1
+@aka	|DARA₃~d×KAR₂|
+@aka	|DARA₃~d×KAR₂|~v1
 @uname	PROTO-CUNEIFORM SIGN DARA3-D TIMES KAR2 VARIANT 1
 @uage	1
 @sys	AP23 |DARA3~dxKAR2|
@@ -2678,6 +2680,7 @@
 @sys	AP23 |DUG~cx1(N57)| 1601.1
 @@
 @form |DUG~c~v2×1(N57)|
+@aka 	|DUG~c×1(N57)|
 @aka	|DUG+AŠ~c|
 @uname	PROTO-CUNEIFORM SIGN DUG-C TIMES ONE-N57
 @uage	1
@@ -4295,14 +4298,14 @@
 @sign |GA₂×((SUKUD+SUKUD))|
 @uage	0
 @form |GA₂~a1×((SUKUD+SUKUD)~a)|
-@aka	|GA₂~a1×((SUKUD&SUKUD)~a)|
+@aka	|GA₂~a1×(SUKUD&SUKUD)~a|
 @inote	AP CDLI correction
 @uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD JOINING SUKUD FORM A
 @uage	1
 @sys	AP23 |GA2~a1x((SUKUD+SUKUD)~a)|
 @@
 @form |GA₂~a1×((SUKUD+SUKUD)~b)|
-@aka	|GA₂~a1×((SUKUD&SUKUD)~b)|
+@aka	|GA₂~a1×(SUKUD&SUKUD)~b|
 @inote	AP CDLI correction
 @uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD JOINING SUKUD FORM B
 @uage	1
@@ -6857,6 +6860,11 @@
 @uage	1
 @sys	LLATU:248_02 KISAL~b3
 @sys	AP23 KISAL~b3
+@@
+@form KISAL~c
+@uage	0
+@unote P325744 r i 3b but sign "KISAL~c" is broken and could be the remains of a known KISAL. Do not encode.
+@sys	AP23 not
 @@
 @end sign
 
@@ -9749,6 +9757,8 @@
 @list	ZATU135
 @sys	LLATU:209_01 EN~a+NUN~a
 @form |NUN~a+EN~a|
+@aka	|EN~a+NUN~a|
+@aka	|EN~a×NUN~a|
 @uname	PROTO-CUNEIFORM SIGN NUN-A JOINING EN-A
 @uage	1
 @sys	AP23 |NUN~a+EN~a|
@@ -9763,9 +9773,10 @@
 @uage	1
 @sys	AP23 |NUN~a+EN~d|
 @@
-@form |NUN~b+EN~a~v2|
+@form |NUN~b+EN~a|
 @aka 	|EN~a×NUN~b|
 @aka	|EN~a+NUN~b|
+@aka	|NUN~b+EN~a~v3|
 @uname	PROTO-CUNEIFORM SIGN NUN-B JOINING EN-A
 @uage	1
 @sys	AP23 |NUN~b+EN~a|
@@ -10262,6 +10273,7 @@
 @sign |SAG+UKKIN×1(N57)|
 @uage	0
 @form |SAG+UKKIN~b~v1×1(N57)|
+@aka |SAG+UKKIN~b1×1(N57)|
 @inote	CHECK
 @uage	8
 @sys	AP23 not
@@ -10398,6 +10410,7 @@
 @sys	AP23 SANGA~c
 @@
 @form SANGA~e1
+@aka SANGA~e
 @inote	CUSAS01; two variants given there
 @uage	2
 @sys	AP23 not
@@ -11783,16 +11796,15 @@
 @end sign
 
 @sign |ŠE.GAR|
-@smap	|ŠE~a.GAR|~a
+@smap	|ŠE~a.GAR|
 @uage	0
-@form |ŠE~a.GAR|~a
-@aka	|ŠE~a.GAR|
+@form |ŠE~a@t.GAR|
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
 @@
-@form |ŠE~a.GAR|~b
-@inote	CUSAS01
+@form |ŠE~a.GAR|
+@inote	CUSAS01 |ŠE~a.GAR~b|
 @uage	2
 @sys	AP23 not
 @@
