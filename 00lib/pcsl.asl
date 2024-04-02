@@ -1765,7 +1765,8 @@
 @sys	AP23 |DARA3~dxKAR2|
 @@
 @form |DARA₃~d×KAR₂~b|
-@aka |DARA₃~d×KAR₂|~v1
+@aka	|DARA₃~d×KAR₂|
+@aka	|DARA₃~d×KAR₂|~v1
 @uname	PROTO-CUNEIFORM SIGN DARA3-D TIMES KAR2 VARIANT 1
 @uage	1
 @sys	AP23 |DARA3~dxKAR2|
