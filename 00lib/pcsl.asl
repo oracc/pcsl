@@ -6859,6 +6859,11 @@
 @sys	LLATU:248_02 KISAL~b3
 @sys	AP23 KISAL~b3
 @@
+@form KISAL~c
+@uage	0
+@unote P325744 r i 3b but sign "KISAL~c" is broken and could be the remains of a known KISAL. Do not encode.
+@sys	AP23 not
+@@
 @end sign
 
 @sign KISAL@t
@@ -9750,6 +9755,8 @@
 @list	ZATU135
 @sys	LLATU:209_01 EN~a+NUN~a
 @form |NUN~a+EN~a|
+@aka	|EN~a+NUN~a|
+@aka	|EN~a×NUN~a|
 @uname	PROTO-CUNEIFORM SIGN NUN-A JOINING EN-A
 @uage	1
 @sys	AP23 |NUN~a+EN~a|
@@ -10400,6 +10407,7 @@
 @sys	AP23 SANGA~c
 @@
 @form SANGA~e1
+@aka SANGA~e
 @inote	CUSAS01; two variants given there
 @uage	2
 @sys	AP23 not
