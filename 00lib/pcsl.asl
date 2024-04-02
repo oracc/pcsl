@@ -10273,6 +10273,7 @@
 @sign |SAG+UKKIN×1(N57)|
 @uage	0
 @form |SAG+UKKIN~b~v1×1(N57)|
+@aka |SAG+UKKIN~b1×1(N57)|
 @inote	CHECK
 @uage	8
 @sys	AP23 not
