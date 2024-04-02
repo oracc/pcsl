@@ -77,11 +77,7 @@
 
 @images 00etc/im-cdli-gh.tab
 
-@images 00etc/im-bau.tab
-
 @images 00etc/im-add.tab
-
-@images 00etc/im-llatu.tab
 
 @sign A
 @list	BAU416
