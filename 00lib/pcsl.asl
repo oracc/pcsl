@@ -4298,14 +4298,14 @@
 @sign |GA₂×((SUKUD+SUKUD))|
 @uage	0
 @form |GA₂~a1×((SUKUD+SUKUD)~a)|
-@aka	|GA₂~a1×((SUKUD&SUKUD)~a)|
+@aka	|GA₂~a1×(SUKUD&SUKUD)~a|
 @inote	AP CDLI correction
 @uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD JOINING SUKUD FORM A
 @uage	1
 @sys	AP23 |GA2~a1x((SUKUD+SUKUD)~a)|
 @@
 @form |GA₂~a1×((SUKUD+SUKUD)~b)|
-@aka	|GA₂~a1×((SUKUD&SUKUD)~b)|
+@aka	|GA₂~a1×(SUKUD&SUKUD)~b|
 @inote	AP CDLI correction
 @uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD JOINING SUKUD FORM B
 @uage	1
