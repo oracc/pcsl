@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+  <esp:name>Home</esp:name>
+  <esp:title>Proto-Cuneiform Sign List</esp:title>
+  <html>
+    <head/>
+    <body>
+      <esp:image file="" description=""/>
+
+      <p>This project is based on the CDLI corpus of Proto-Cuneiform
+      texts from the Uruk IV and III periods. It also hosts a
+      signlist which is based on several sources: the <esp:link
+      url="https://github.com/cdli-gh/proto-cuneiform_signs">CDLI
+      proto-cuneiform signs GitHub repository</esp:link>; Anshuman
+      Pandey's <esp:link
+      url="https://www.unicode.org/L2/L2023/23190-proto-cuneiform.pdf">Revised
+      proposal to encode Proto-Cuneiform in Unicode</esp:link>; and
+      revisions and additions by Steve Tinney.</p>
+
+      <p>You can view the PCSL corpus <esp:link
+      url="/pcsl/pager">here</esp:link>.</p>
+
+      <p>You can browse the signlist <esp:link
+      url="/pcsl/signlist">here</esp:link></p>
+    </body>
+  </html>
+</esp:page>
