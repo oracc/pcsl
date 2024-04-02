@@ -2678,6 +2678,7 @@
 @sys	AP23 |DUG~cx1(N57)| 1601.1
 @@
 @form |DUG~c~v2×1(N57)|
+@aka 	|DUG~c×1(N57)|
 @aka	|DUG+AŠ~c|
 @uname	PROTO-CUNEIFORM SIGN DUG-C TIMES ONE-N57
 @uage	1
