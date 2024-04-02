@@ -5,7 +5,7 @@
   <html>
     <head/>
     <body>
-      <esp:image file="" description=""/>
+      <esp:image file="kasz-a-v1.png" description="KASZ-a-v1, an archaic sign for beer"/>
 
       <p>This project is based on the CDLI corpus of Proto-Cuneiform
       texts from the Uruk IV and III periods. It also hosts a
