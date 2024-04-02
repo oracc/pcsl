@@ -9764,9 +9764,10 @@
 @uage	1
 @sys	AP23 |NUN~a+EN~d|
 @@
-@form |NUN~b+EN~a~v2|
+@form |NUN~b+EN~a|
 @aka 	|EN~a×NUN~b|
 @aka	|EN~a+NUN~b|
+@aka	|NUN~b+EN~a~v3|
 @uname	PROTO-CUNEIFORM SIGN NUN-B JOINING EN-A
 @uage	1
 @sys	AP23 |NUN~b+EN~a|
