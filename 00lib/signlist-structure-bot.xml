@@ -2,12 +2,14 @@
   <struct:page file="signlist-x-addsources.xml" id="addsources" type="page"/>
   <struct:page file="signlist-x-missimg.xml" id="missimg" type="page"/>
   <struct:page file="signlist-x-notfound.xml" id="notfound" type="page"/>
-  <struct:page file="signlist-x-BAU-index.xml" id="indexbau" type="page"/>
+  <!--<struct:page file="signlist-x-BAU-index.xml" id="indexbau" type="page"/>-->
   <struct:page file="signlist-x-LLATU-index.xml" id="indexllatu" type="page"/>
   <struct:page file="signlist-x-LLATU-cchart.xml" id="cchartllatu" type="page"/>
   <struct:page file="signlist-x-ZATU-index.xml" id="indexzatu" type="page"/>
-  <struct:page file="sx-period-V.xml" id="onlyinv" type="page"/>
-  <struct:page file="sx-period-IV.xml" id="onlyiniv" type="page"/>
-  <struct:page file="sx-period-III.xml" id="onlyiniii" type="page"/>
-  <struct:page file="sx-period-I.xml" id="onlyini" type="page"/>
+  <!--
+      <struct:page file="sx-period-V.xml" id="onlyinv" type="page"/>
+      <struct:page file="sx-period-IV.xml" id="onlyiniv" type="page"/>
+      <struct:page file="sx-period-III.xml" id="onlyiniii" type="page"/>
+      <struct:page file="sx-period-I.xml" id="onlyini" type="page"/>
+  -->
 </wrapper>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <param:parameters xmlns:param="http://oracc.org/ns/esp-param/1.0" xmlns:xpd="http://oracc.org/ns/xpd/1.0" xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml">
-  <param:title>Proto-Cuneiform Text Corpus</param:title>
-  <param:publisher>The PCTC Project</param:publisher>
+  <param:title>Proto-Cuneiform Sign List</param:title>
+  <param:publisher>The PCSL Project</param:publisher>
   <param:host>http://oracc.org</param:host>
   <param:root/>
   <param:common-headers>
-    <meta name="DC.publisher" content="The PCTC Project"/>
+    <meta name="DC.publisher" content="The PCSL Project"/>
     <meta name="DC.language" scheme="ISO 639-2/T" content="eng"/>
-    <meta name="DC.rights.copyright" content="CC BY-SA The PCTC Project, 2014-"/>
+    <meta name="DC.rights.copyright" content="CC BY-SA The PCSL Project, 2014-"/>
     <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text"/>
     <meta name="DC.format" content="text/html"/>
     <meta name="robots" content="noindex,nofollow"/>
   </param:common-headers>
-  <param:dc-id-prefix>pctc-oracc-org/page/</param:dc-id-prefix>
+  <param:dc-id-prefix>pcsl-oracc-org/page/</param:dc-id-prefix>
   <param:main-menu-caption>Main menu</param:main-menu-caption>
   <param:navbar>yes</param:navbar>
-  <param:footer><a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a> The PCTC Project, 2014-</param:footer>
+  <param:footer><a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a> The PCSL Project, 2024-</param:footer>
 </param:parameters>

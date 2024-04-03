@@ -1,1 +1,1783 @@
-00bin/sxweb-list-page.sh: no [LIST] file and no sx-lists.out to grep for [LIST]. Stop.
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page
+    xmlns:esp="http://oracc.org/ns/esp/1.0"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xh="http://www.w3.org/1999/xhtml">
+  <esp:name>ZATU Index</esp:name>
+  <esp:title>ZATU Index</esp:title>
+  <html>
+    <head/>
+    <body>
+<table class="pretty">
+<tr>
+<td>ZATU001</td><td><esp:link page="o0000087">A</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000087.jpg" description="Image of A."/></td><td></td></tr>
+<tr>
+<td>ZATU002</td><td><esp:link page="o0036943">|A×EN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028291.jpg" description="Image of |A×EN|."/></td><td></td></tr>
+<tr>
+<td>ZATU003</td><td><esp:link page="o0028293">|A×ŠUBUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028293.jpg" description="Image of |A×ŠUBUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU004</td><td><esp:link page="o0028288">|A×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028288.jpg" description="Image of |A×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU005</td><td><esp:link page="o0028295">|A×ZATU672|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028295.jpg" description="Image of |A×ZATU672|."/></td><td></td></tr>
+<tr>
+<td>ZATU006</td><td><esp:link page="o0000112">A₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000112.jpg" description="Image of A₂."/></td><td></td></tr>
+<tr>
+<td>ZATU007</td><td><esp:link page="o0000088">AB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028198.jpg" description="Image of AB."/></td><td></td></tr>
+<tr>
+<td>ZATU008</td><td><esp:link page="o0000744">|AB×A|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028213.jpg" description="Image of |AB×A|."/></td><td></td></tr>
+<tr>
+<td>ZATU009</td><td><esp:link page="o0000745">|AB×AŠ₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028201.jpg" description="Image of |AB×AŠ₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU010</td><td><esp:link page="o0036936">|AB×ZATU659|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028211.jpg" description="Image of |AB×ZATU659|."/></td><td></td></tr>
+<tr>
+<td>ZATU011</td><td><esp:link page="o0000089">AB@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028196.jpg" description="Image of AB@g."/></td><td></td></tr>
+<tr>
+<td>ZATU012</td><td><esp:link page="o0000090">AB₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035504.jpg" description="Image of AB₂."/></td><td></td></tr>
+<tr>
+<td>ZATU013</td><td><esp:link page="o0028194">|AB₂×2(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035502.jpg" description="Image of |AB₂×2(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU014</td><td/><td/><td></td></tr>
+<tr>
+<td>ZATU014a</td><td><esp:link page="o0028152">|2(N57).AB₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028152.jpg" description="Image of |2(N57).AB₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU014b</td><td/><td/><td>|3(N57).AB₂|/|4(N57).AB₂| in ATU 1, 610 = P005961 ii 5-6 read 3(N57) AB₂ 4(N57) AB₂ in CDLI.</td></tr>
+<tr>
+<td>ZATU015</td><td><esp:link page="o0028219">ABGAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035508.jpg" description="Image of ABGAL."/></td><td></td></tr>
+<tr>
+<td>ZATU016</td><td><esp:link page="o0028221">ABRIG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028221.jpg" description="Image of ABRIG."/></td><td></td></tr>
+<tr>
+<td>ZATU017</td><td><esp:link page="o0037686">ABZU</esp:link></td><td><esp:image url="/pcsl/images/add/ABZUb.png" description="Image of ABZU."/></td><td></td></tr>
+<tr>
+<td>ZATU018</td><td><esp:link page="o0000092">AD</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028227.jpg" description="Image of AD."/></td><td></td></tr>
+<tr>
+<td>ZATU019</td><td><esp:link page="o0028225">ADAB</esp:link></td><td><esp:image url="/pcsl/images/add/ADABv1.png" description="Image of ADAB."/></td><td></td></tr>
+<tr>
+<td>ZATU020</td><td><esp:link page="o0028232">ADDA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028232.jpg" description="Image of ADDA."/></td><td></td></tr>
+<tr>
+<td>ZATU021</td><td><esp:link page="o0037427">|NINDA₂×(HI@g.1(N06))|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029624.jpg" description="Image of |NINDA₂×(HI@g.1(N06))|."/></td><td></td></tr>
+<tr>
+<td>ZATU022</td><td><esp:link page="o0028234">AGAR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028234.jpg" description="Image of AGAR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU023</td><td><esp:link page="o0000093">AK</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028236.jpg" description="Image of AK."/></td><td></td></tr>
+<tr>
+<td>ZATU024</td><td><esp:link page="o0000094">AL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000094.jpg" description="Image of AL."/></td><td></td></tr>
+<tr>
+<td>ZATU025</td><td><esp:link page="o0000095">ALAN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028239.jpg" description="Image of ALAN."/></td><td></td></tr>
+<tr>
+<td>ZATU026</td><td><esp:link page="o0028249">ALIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028249.jpg" description="Image of ALIM."/></td><td></td></tr>
+<tr>
+<td>ZATU027</td><td><esp:link page="o0036068">AM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028257.jpg" description="Image of AM."/></td><td></td></tr>
+<tr>
+<td>ZATU028</td><td><esp:link page="o0036069">AMA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028251.jpg" description="Image of AMA."/></td><td></td></tr>
+<tr>
+<td>ZATU029</td><td><esp:link page="o0000097">AMAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035514.jpg" description="Image of AMAR."/></td><td></td></tr>
+<tr>
+<td>ZATU030</td><td><esp:link page="o0028260">|AMAR×TAR~d|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028260.jpg" description="Image of |AMAR×TAR~d|."/></td><td></td></tr>
+<tr>
+<td>ZATU031</td><td><esp:link page="o0000099">AN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035518.jpg" description="Image of AN."/></td><td></td></tr>
+<tr>
+<td>ZATU032</td><td><esp:link page="o0000101">ANŠE</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028263.jpg" description="Image of ANŠE."/></td><td></td></tr>
+<tr>
+<td>ZATU033</td><td><esp:link page="o0000102">APIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028274.jpg" description="Image of APIN."/></td><td></td></tr>
+<tr>
+<td>ZATU034</td><td><esp:link page="o0036071">ARARMA₂~a</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027166.jpg" description="Image of ARARMA₂~a."/></td><td></td></tr>
+<tr>
+<td>ZATU035</td><td><esp:link page="o0028282">ARATTA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028282.jpg" description="Image of ARATTA."/></td><td></td></tr>
+<tr>
+<td>ZATU036</td><td><esp:link page="o0028286">ASAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028286.jpg" description="Image of ASAR."/></td><td></td></tr>
+<tr>
+<td>ZATU037</td><td><esp:link page="o0027284">1(N57)</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027284.jpg" description="Image of 1(N57)."/></td><td></td></tr>
+<tr>
+<td>ZATU038</td><td><esp:link page="o0028297">AZ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028297.jpg" description="Image of AZ."/></td><td></td></tr>
+<tr>
+<td>ZATU039</td><td><esp:link page="o0028299">AZU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028299.jpg" description="Image of AZU."/></td><td></td></tr>
+<tr>
+<td>ZATU040</td><td><esp:link page="o0000113">BA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000113.jpg" description="Image of BA."/></td><td></td></tr>
+<tr>
+<td>ZATU040</td><td><esp:link page="o0000247">IGI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000247.jpg" description="Image of IGI."/></td><td></td></tr>
+<tr>
+<td>ZATU041</td><td><esp:link page="o0000114">BAD</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU042</td><td><esp:link page="o0023035">|BAD&amp;BAD|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0023035.jpg" description="Image of |BAD&amp;BAD|."/></td><td></td></tr>
+<tr>
+<td>ZATU043</td><td><esp:link page="o0036898">|1(N58).BAD|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035489.jpg" description="Image of |1(N58).BAD|."/></td><td></td></tr>
+<tr>
+<td>ZATU044</td><td><esp:link page="o0036073">BAD₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028300.jpg" description="Image of BAD₃."/></td><td></td></tr>
+<tr>
+<td>ZATU044a</td><td><esp:link page="o0036073">BAD₃~a</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028300.jpg" description="Image of BAD₃~a."/></td><td></td></tr>
+<tr>
+<td>ZATU044b</td><td><esp:link page="o0036073">BAD₃~b1</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028302.jpg" description="Image of BAD₃~b1."/></td><td></td></tr>
+<tr>
+<td>ZATU044b</td><td><esp:link page="o0036073">BAD₃~b2</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028304.jpg" description="Image of BAD₃~b2."/></td><td></td></tr>
+<tr>
+<td>ZATU044b</td><td><esp:link page="o0036073">BAD₃~b1</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028302.jpg" description="Image of BAD₃~b1."/></td><td></td></tr>
+<tr>
+<td>ZATU044b</td><td><esp:link page="o0036073">BAD₃~b2</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028304.jpg" description="Image of BAD₃~b2."/></td><td></td></tr>
+<tr>
+<td>ZATU045</td><td><esp:link page="o0000117">BAHAR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028306.jpg" description="Image of BAHAR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU046</td><td><esp:link page="o0036075">BALA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028311.jpg" description="Image of BALA."/></td><td></td></tr>
+<tr>
+<td>ZATU047</td><td><esp:link page="o0000119">BALAG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035529.jpg" description="Image of BALAG."/></td><td></td></tr>
+<tr>
+<td>ZATU048</td><td><esp:link page="o0036077">BAN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028314.jpg" description="Image of BAN."/></td><td></td></tr>
+<tr>
+<td>ZATU049</td><td><esp:link page="o0036078">BANŠUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028318.jpg" description="Image of BANŠUR."/></td><td></td></tr>
+<tr>
+<td>ZATU050</td><td><esp:link page="o0036080">BAPPIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028328.jpg" description="Image of BAPPIR."/></td><td></td></tr>
+<tr>
+<td>ZATU051</td><td><esp:link page="o0000120">BAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000120.jpg" description="Image of BAR."/></td><td></td></tr>
+<tr>
+<td>ZATU052</td><td><esp:link page="o0000121">BARA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028339.jpg" description="Image of BARA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU053</td><td><esp:link page="o0028342">BARA₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028342.jpg" description="Image of BARA₃."/></td><td></td></tr>
+<tr>
+<td>ZATU054</td><td><esp:link page="o0036082">BIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028350.jpg" description="Image of BIR."/></td><td></td></tr>
+<tr>
+<td>ZATU055</td><td><esp:link page="o0036077">BAN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028314.jpg" description="Image of BAN."/></td><td></td></tr>
+<tr>
+<td>ZATU056</td><td><esp:link page="o0000124">BU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028363.jpg" description="Image of BU."/></td><td></td></tr>
+<tr>
+<td>ZATU057</td><td><esp:link page="o0036958">|BU~a×A|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028367.jpg" description="Image of |BU~a×A|."/></td><td></td></tr>
+<tr>
+<td>ZATU058</td><td><esp:link page="o0036879">|(BU&amp;BU).NA₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028357.jpg" description="Image of |(BU&amp;BU).NA₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU059</td><td><esp:link page="o0036948">|BU+DU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028361.jpg" description="Image of |BU+DU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU060</td><td><esp:link page="o0028356">BU₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028356.jpg" description="Image of BU₃."/></td><td></td></tr>
+<tr>
+<td>ZATU061</td><td><esp:link page="o0000128">BULUG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000128.jpg" description="Image of BULUG."/></td><td></td></tr>
+<tr>
+<td>ZATU062</td><td><esp:link page="o0028375">BULUG₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028375.jpg" description="Image of BULUG₃."/></td><td></td></tr>
+<tr>
+<td>ZATU063</td><td><esp:link page="o0000129">BUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028377.jpg" description="Image of BUR."/></td><td></td></tr>
+<tr>
+<td>ZATU064</td><td><esp:link page="o0000131">BUR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000131.jpg" description="Image of BUR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU065</td><td><esp:link page="o0000132">DA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028385.jpg" description="Image of DA."/></td><td></td></tr>
+<tr>
+<td>ZATU066</td><td><esp:link page="o0028395">DAH</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028395.jpg" description="Image of DAH."/></td><td></td></tr>
+<tr>
+<td>ZATU067</td><td><esp:link page="o0000134">DAM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000134.jpg" description="Image of DAM."/></td><td></td></tr>
+<tr>
+<td>ZATU068</td><td><esp:link page="o0028397">DANNA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028397.jpg" description="Image of DANNA."/></td><td></td></tr>
+<tr>
+<td>ZATU069</td><td><esp:link page="o0000135">DAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028429.jpg" description="Image of DAR."/></td><td></td></tr>
+<tr>
+<td>ZATU070</td><td><esp:link page="o0000136">DARA₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028399.jpg" description="Image of DARA₃."/></td><td></td></tr>
+<tr>
+<td>ZATU071</td><td><esp:link page="o0036964">|DARA₃×KAR₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028404.jpg" description="Image of |DARA₃×KAR₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU072</td><td><esp:link page="o0036963">|DARA₃×(KAR₂.ŠE)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028406.jpg" description="Image of |DARA₃×(KAR₂.ŠE)|."/></td><td></td></tr>
+<tr>
+<td>ZATU073</td><td><esp:link page="o0000137">DARA₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028413.jpg" description="Image of DARA₄."/></td><td></td></tr>
+<tr>
+<td>ZATU074</td><td/><td/><td>ZATU074 DARA₄+BAD+BAD reread in ATU 3 p.154 W20421,2 = Lú Vorläufer (Tf.23) O0305 as RI₈~a? DARA₄~b.</td></tr>
+<tr>
+<td>ZATU075</td><td><esp:link page="o0000139">DI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000139.jpg" description="Image of DI."/></td><td></td></tr>
+<tr>
+<td>ZATU076</td><td><esp:link page="o0000140">DIB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035553.jpg" description="Image of DIB."/></td><td></td></tr>
+<tr>
+<td>ZATU077</td><td><esp:link page="o0028439">DILMUN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035555.jpg" description="Image of DILMUN."/></td><td></td></tr>
+<tr>
+<td>ZATU078</td><td><esp:link page="o0000141">DIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028441.jpg" description="Image of DIM."/></td><td></td></tr>
+<tr>
+<td>ZATU079</td><td><esp:link page="o0000516">RU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035803.jpg" description="Image of RU."/></td><td></td></tr>
+<tr>
+<td>ZATU080</td><td><esp:link page="o0027171">DIN@t</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027171.jpg" description="Image of DIN@t."/></td><td></td></tr>
+<tr>
+<td>ZATU081</td><td><esp:link page="o0027286">1(N58)</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU082</td><td><esp:link page="o0000149">DU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000149.jpg" description="Image of DU."/></td><td></td></tr>
+<tr>
+<td>ZATU083</td><td><esp:link page="o0036086">DU₆</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028453.jpg" description="Image of DU₆."/></td><td></td></tr>
+<tr>
+<td>ZATU084</td><td><esp:link page="o0028461">DU₇</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028461.jpg" description="Image of DU₇."/></td><td></td></tr>
+<tr>
+<td>ZATU085</td><td><esp:link page="o0036088">DU₈</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028463.jpg" description="Image of DU₈."/></td><td></td></tr>
+<tr>
+<td>ZATU086</td><td><esp:link page="o0000153">DUB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028477.jpg" description="Image of DUB."/></td><td></td></tr>
+<tr>
+<td>ZATU087</td><td><esp:link page="o0036882">|DUB@n×1(N58)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028488.jpg" description="Image of |DUB@n×1(N58)|."/></td><td></td></tr>
+<tr>
+<td>ZATU088</td><td><esp:link page="o0000155">DUG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028492.jpg" description="Image of DUG."/></td><td></td></tr>
+<tr>
+<td>ZATU089</td><td><esp:link page="o0037049">|DUG×AB₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028516.jpg" description="Image of |DUG×AB₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU090</td><td><esp:link page="o0001009">|DUG×ANŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028518.jpg" description="Image of |DUG×ANŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU091</td><td><esp:link page="o0037045">|DUG×1(N57)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028494.jpg" description="Image of |DUG×1(N57)|."/></td><td></td></tr>
+<tr>
+<td>ZATU092</td><td><esp:link page="o0037025">|DUG×(1(N57).KU₃)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028514.jpg" description="Image of |DUG×(1(N57).KU₃)|."/></td><td></td></tr>
+<tr>
+<td>ZATU093</td><td><esp:link page="o0037752">|DUG×BA|</esp:link></td><td><esp:image url="/pcsl/images/add/DUGbxBA.png" description="Image of |DUG×BA|."/></td><td></td></tr>
+<tr>
+<td>ZATU094</td><td><esp:link page="o0037051">|DUG×BALA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028522.jpg" description="Image of |DUG×BALA|."/></td><td></td></tr>
+<tr>
+<td>ZATU095</td><td><esp:link page="o0037053">|DUG×BIR₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028524.jpg" description="Image of |DUG×BIR₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU096</td><td><esp:link page="o0001012">|DUG×DIN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028526.jpg" description="Image of |DUG×DIN|."/></td><td></td></tr>
+<tr>
+<td>ZATU097</td><td><esp:link page="o0001015">|DUG×GA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028532.jpg" description="Image of |DUG×GA|."/></td><td></td></tr>
+<tr>
+<td>ZATU098</td><td><esp:link page="o0037057">|DUG×GEŠTU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028534.jpg" description="Image of |DUG×GEŠTU|."/></td><td></td></tr>
+<tr>
+<td>ZATU099</td><td><esp:link page="o0037058">|DUG×GI₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028538.jpg" description="Image of |DUG×GI₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU100</td><td><esp:link page="o0001018">|DUG×GIŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028540.jpg" description="Image of |DUG×GIŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU101</td><td><esp:link page="o0001020">|DUG×HI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028496.jpg" description="Image of |DUG×HI|."/></td><td></td></tr>
+<tr>
+<td>ZATU102</td><td><esp:link page="o0037060">|DUG×HI@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028542.jpg" description="Image of |DUG×HI@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU103</td><td><esp:link page="o0001022">|DUG×KASKAL|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028497.jpg" description="Image of |DUG×KASKAL|."/></td><td></td></tr>
+<tr>
+<td>ZATU104</td><td><esp:link page="o0037064">|DUG×KU₆|</esp:link></td><td><esp:image url="/pcsl/images/add/DUGaxKU6.png" description="Image of |DUG×KU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU105</td><td><esp:link page="o0001023">|DUG×KUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028550.jpg" description="Image of |DUG×KUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU106</td><td><esp:link page="o0001026">|DUG×LAM|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028498.jpg" description="Image of |DUG×LAM|."/></td><td></td></tr>
+<tr>
+<td>ZATU107</td><td><esp:link page="o0037062">|DUG×KUR@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028556.jpg" description="Image of |DUG×KUR@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU108</td><td><esp:link page="o0001027">|DUG×MAŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028560.jpg" description="Image of |DUG×MAŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU109</td><td><esp:link page="o0037066">|DUG×NAGA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028500.jpg" description="Image of |DUG×NAGA|."/></td><td></td></tr>
+<tr>
+<td>ZATU110</td><td><esp:link page="o0037069">|DUG×SA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028567.jpg" description="Image of |DUG×SA|."/></td><td></td></tr>
+<tr>
+<td>ZATU111</td><td><esp:link page="o0037031">|DUG×(SA.GI)|</esp:link></td><td><esp:image url="/pcsl/images/add/DUGxSA-GI.png" description="Image of |DUG×(SA.GI)|."/></td><td></td></tr>
+<tr>
+<td>ZATU112</td><td><esp:link page="o0037073">|DUG×SI₄|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028569.jpg" description="Image of |DUG×SI₄|."/></td><td></td></tr>
+<tr>
+<td>ZATU113</td><td><esp:link page="o0037071">|DUG×SIG₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028573.jpg" description="Image of |DUG×SIG₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU114</td><td><esp:link page="o0037072">|DUG×SIG₇|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028577.jpg" description="Image of |DUG×SIG₇|."/></td><td></td></tr>
+<tr>
+<td>ZATU115</td><td><esp:link page="o0037075">|DUG×SUHUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028578.jpg" description="Image of |DUG×SUHUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU116</td><td><esp:link page="o0037077">|DUG×SUKUD|</esp:link></td><td><esp:image url="/pcsl/images/add/DUGxSUKUD.png" description="Image of |DUG×SUKUD|."/></td><td></td></tr>
+<tr>
+<td>ZATU117</td><td><esp:link page="o0037095">|DUG×ŠAH₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028580.jpg" description="Image of |DUG×ŠAH₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU118</td><td><esp:link page="o0001033">|DUG×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028582.jpg" description="Image of |DUG×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU119</td><td><esp:link page="o0037043">|DUG×(ŠE.NAM₂)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028584.jpg" description="Image of |DUG×(ŠE.NAM₂)|."/></td><td></td></tr>
+<tr>
+<td>ZATU120</td><td><esp:link page="o0037079">|DUG×TAK₄|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028586.jpg" description="Image of |DUG×TAK₄|."/></td><td></td></tr>
+<tr>
+<td>ZATU121</td><td><esp:link page="o0037081">|DUG×TI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028592.jpg" description="Image of |DUG×TI|."/></td><td></td></tr>
+<tr>
+<td>ZATU122</td><td><esp:link page="o0037086">|DUG×U₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028502.jpg" description="Image of |DUG×U₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU123</td><td><esp:link page="o0037084">|DUG×UH₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028597.jpg" description="Image of |DUG×UH₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU124</td><td><esp:link page="o0037090">|DUG×ZATU764|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028605.jpg" description="Image of |DUG×ZATU764|."/></td><td></td></tr>
+<tr>
+<td>ZATU125</td><td><esp:link page="o0000156">DUGUD</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000156.jpg" description="Image of DUGUD."/></td><td></td></tr>
+<tr>
+<td>ZATU126</td><td><esp:link page="o0036089">DUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028622.jpg" description="Image of DUR."/></td><td></td></tr>
+<tr>
+<td>ZATU127</td><td><esp:link page="o0000165">DUR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000165.jpg" description="Image of DUR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU128</td><td><esp:link page="o0000166">E</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028644.jpg" description="Image of E."/></td><td></td></tr>
+<tr>
+<td>ZATU129</td><td><esp:link page="o0000180">E₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028627.jpg" description="Image of E₂."/></td><td></td></tr>
+<tr>
+<td>ZATU130</td><td><esp:link page="o0037303">|KUR.E₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029258.jpg" description="Image of |KUR.E₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU131</td><td><esp:link page="o0037156">|E₂×1(N58@t)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028630.jpg" description="Image of |E₂×1(N58@t)|."/></td><td></td></tr>
+<tr>
+<td>ZATU132</td><td><esp:link page="o0036091">E₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028641.jpg" description="Image of E₃."/></td><td></td></tr>
+<tr>
+<td>ZATU133</td><td><esp:link page="o0000167">EDIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000167.jpg" description="Image of EDIN."/></td><td></td></tr>
+<tr>
+<td>ZATU134</td><td><esp:link page="o0000173">EN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028659.jpg" description="Image of EN."/></td><td></td></tr>
+<tr>
+<td>ZATU135</td><td><esp:link page="o0037447">|NUN+EN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029662.jpg" description="Image of |NUN+EN|."/></td><td></td></tr>
+<tr>
+<td>ZATU136</td><td/><td/><td>ZATU EN+UDU(?) read in CDLI as X in hapax ATU 1, 342=P001563 ATU 5, pl. 104, W 9656,es i 1.</td></tr>
+<tr>
+<td>ZATU137</td><td><esp:link page="o0036093">EN@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028668.jpg" description="Image of EN@g."/></td><td></td></tr>
+<tr>
+<td>ZATU138</td><td><esp:link page="o0028657">EN₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028657.jpg" description="Image of EN₂."/></td><td></td></tr>
+<tr>
+<td>ZATU139</td><td><esp:link page="o0028665">ENDIB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028665.jpg" description="Image of ENDIB."/></td><td></td></tr>
+<tr>
+<td>ZATU140</td><td><esp:link page="o0028671">ENGIZ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028671.jpg" description="Image of ENGIZ."/></td><td></td></tr>
+<tr>
+<td>ZATU141</td><td><esp:link page="o0028672">ENKUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035614.jpg" description="Image of ENKUM."/></td><td></td></tr>
+<tr>
+<td>ZATU142</td><td><esp:link page="o0028673">ENLIL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028673.jpg" description="Image of ENLIL."/></td><td></td></tr>
+<tr>
+<td>ZATU143</td><td><esp:link page="o0036095">ERIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028680.jpg" description="Image of ERIM."/></td><td></td></tr>
+<tr>
+<td>ZATU144</td><td><esp:link page="o0028678">ERIM₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028678.jpg" description="Image of ERIM₂."/></td><td></td></tr>
+<tr>
+<td>ZATU145</td><td><esp:link page="o0028686">ERIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028686.jpg" description="Image of ERIN."/></td><td></td></tr>
+<tr>
+<td>ZATU146</td><td><esp:link page="o0027344">3(N57)</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027344.jpg" description="Image of 3(N57)."/></td><td></td></tr>
+<tr>
+<td>ZATU147</td><td><esp:link page="o0028688">EŠDA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028688.jpg" description="Image of EŠDA."/></td><td></td></tr>
+<tr>
+<td>ZATU148</td><td><esp:link page="o0028690">|EŠDA×TAR~a|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028690.jpg" description="Image of |EŠDA×TAR~a|."/></td><td></td></tr>
+<tr>
+<td>ZATU149</td><td><esp:link page="o0028692">EŠGAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028692.jpg" description="Image of EŠGAR."/></td><td></td></tr>
+<tr>
+<td>ZATU150</td><td><esp:link page="o0000177">EZEN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028694.jpg" description="Image of EZEN."/></td><td></td></tr>
+<tr>
+<td>ZATU151</td><td><esp:link page="o0037132">|EZEN×EN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028696.jpg" description="Image of |EZEN×EN|."/></td><td></td></tr>
+<tr>
+<td>ZATU152</td><td><esp:link page="o0037134">|EZEN×KAB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028701.jpg" description="Image of |EZEN×KAB|."/></td><td></td></tr>
+<tr>
+<td>ZATU153</td><td><esp:link page="o0037142">|EZEN×NIM|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028707.jpg" description="Image of |EZEN×NIM|."/></td><td></td></tr>
+<tr>
+<td>ZATU154</td><td><esp:link page="o0037140">|EZEN×NIMGIR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028708.jpg" description="Image of |EZEN×NIMGIR|."/></td><td></td></tr>
+<tr>
+<td>ZATU155</td><td><esp:link page="o0037144">|EZEN×RAD|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028710.jpg" description="Image of |EZEN×RAD|."/></td><td></td></tr>
+<tr>
+<td>ZATU156</td><td><esp:link page="o0001117">|EZEN×SU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028714.jpg" description="Image of |EZEN×SU|."/></td><td></td></tr>
+<tr>
+<td>ZATU157</td><td><esp:link page="o0037128">|EZEN×(U₂.A)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028716.jpg" description="Image of |EZEN×(U₂.A)|."/></td><td></td></tr>
+<tr>
+<td>ZATU158</td><td><esp:link page="o0036097">EZINU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028729.jpg" description="Image of EZINU."/></td><td></td></tr>
+<tr>
+<td>ZATU159</td><td><esp:link page="o0000187">GA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028831.jpg" description="Image of GA."/></td><td></td></tr>
+<tr>
+<td>ZATU160</td><td><esp:link page="o0037180">|GA×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028846.jpg" description="Image of |GA×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU161</td><td><esp:link page="o0037159">|GA.ZATU753|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028841.jpg" description="Image of |GA.ZATU753|."/></td><td></td></tr>
+<tr>
+<td>ZATU162</td><td><esp:link page="o0000206">GA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028737.jpg" description="Image of GA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU163</td><td><esp:link page="o0037642">|ZATU762×AB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030857.jpg" description="Image of |ZATU762×AB|."/></td><td></td></tr>
+<tr>
+<td>ZATU164</td><td><esp:link page="o0037205">|GA₂×1(N57)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028741.jpg" description="Image of |GA₂×1(N57)|."/></td><td></td></tr>
+<tr>
+<td>ZATU165</td><td><esp:link page="o0037756">|GA₂×(1(N58).BAD)|</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU166</td><td><esp:link page="o0001296">|GA₂×DUB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028824.jpg" description="Image of |GA₂×DUB|."/></td><td></td></tr>
+<tr>
+<td>ZATU167</td><td><esp:link page="o0037214">|GA₂×GIR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028751.jpg" description="Image of |GA₂×GIR|."/></td><td></td></tr>
+<tr>
+<td>ZATU168</td><td><esp:link page="o0037216">|GA₂×GIŠ@t|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028755.jpg" description="Image of |GA₂×GIŠ@t|."/></td><td></td></tr>
+<tr>
+<td>ZATU169</td><td><esp:link page="o0037196">|GA₂×(GU₄.ŠE₃)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028802.jpg" description="Image of |GA₂×(GU₄.ŠE₃)|."/></td><td></td></tr>
+<tr>
+<td>ZATU170</td><td><esp:link page="o0037220">|GA₂×HI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028761.jpg" description="Image of |GA₂×HI|."/></td><td></td></tr>
+<tr>
+<td>ZATU171</td><td><esp:link page="o0037198">|GA₂×(HI.SUHUR)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028763.jpg" description="Image of |GA₂×(HI.SUHUR)|."/></td><td></td></tr>
+<tr>
+<td>ZATU172</td><td><esp:link page="o0037221">|GA₂×KU₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028765.jpg" description="Image of |GA₂×KU₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU173</td><td><esp:link page="o0037223">|GA₂×KU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028767.jpg" description="Image of |GA₂×KU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU174</td><td><esp:link page="o0037200">|GA₂×(KU₆.KU₆)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028768.jpg" description="Image of |GA₂×(KU₆.KU₆)|."/></td><td></td></tr>
+<tr>
+<td>ZATU175</td><td><esp:link page="o0037341">|LAGAB~b×KUR~e|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029339.jpg" description="Image of |LAGAB~b×KUR~e|."/></td><td></td></tr>
+<tr>
+<td>ZATU176</td><td><esp:link page="o0037225">|GA₂×MAŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028772.jpg" description="Image of |GA₂×MAŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU177</td><td><esp:link page="o0037226">|GA₂×NAGA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028774.jpg" description="Image of |GA₂×NAGA|."/></td><td></td></tr>
+<tr>
+<td>ZATU178</td><td><esp:link page="o0037228">|GA₂×NI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028804.jpg" description="Image of |GA₂×NI|."/></td><td></td></tr>
+<tr>
+<td>ZATU179</td><td><esp:link page="o0037231">|GA₂×SUHUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028782.jpg" description="Image of |GA₂×SUHUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU180</td><td><esp:link page="o0037232">|GA₂×SUKUD|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028783.jpg" description="Image of |GA₂×SUKUD|."/></td><td></td></tr>
+<tr>
+<td>ZATU181</td><td><esp:link page="o0037233">|GA₂×SUMAŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028787.jpg" description="Image of |GA₂×SUMAŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU182</td><td><esp:link page="o0037203">|GA₂×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028739.jpg" description="Image of |GA₂×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU183</td><td><esp:link page="o0037237">|GA₂×U₄|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028793.jpg" description="Image of |GA₂×U₄|."/></td><td></td></tr>
+<tr>
+<td>ZATU184</td><td><esp:link page="o0036801">GAʾAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028833.jpg" description="Image of GAʾAR."/></td><td></td></tr>
+<tr>
+<td>ZATU185</td><td><esp:link page="o0037618">|ZATU737×BUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030780.jpg" description="Image of |ZATU737×BUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU186</td><td><esp:link page="o0036098">GADA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028850.jpg" description="Image of GADA."/></td><td></td></tr>
+<tr>
+<td>ZATU187</td><td><esp:link page="o0036800">GADA@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028852.jpg" description="Image of GADA@g."/></td><td></td></tr>
+<tr>
+<td>ZATU188</td><td><esp:link page="o0000194">GAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028854.jpg" description="Image of GAL."/></td><td></td></tr>
+<tr>
+<td>ZATU189</td><td><esp:link page="o0036100">GALGA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028856.jpg" description="Image of GALGA."/></td><td></td></tr>
+<tr>
+<td>ZATU190</td><td><esp:link page="o0000197">GAN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028858.jpg" description="Image of GAN."/></td><td></td></tr>
+<tr>
+<td>ZATU191</td><td><esp:link page="o0037162">|GAN×(HI.DIN)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028862.jpg" description="Image of |GAN×(HI.DIN)|."/></td><td></td></tr>
+<tr>
+<td>ZATU192</td><td><esp:link page="o0037170">|GAN×LAGAB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028870.jpg" description="Image of |GAN×LAGAB|."/></td><td></td></tr>
+<tr>
+<td>ZATU193</td><td><esp:link page="o0037172">|GAN×NE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028872.jpg" description="Image of |GAN×NE|."/></td><td></td></tr>
+<tr>
+<td>ZATU194</td><td><esp:link page="o0037176">|GAN×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028878.jpg" description="Image of |GAN×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU195</td><td><esp:link page="o0000199">GAN₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000199.jpg" description="Image of GAN₂."/></td><td></td></tr>
+<tr>
+<td>ZATU196</td><td><esp:link page="o0000202">GAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000202.jpg" description="Image of GAR."/></td><td></td></tr>
+<tr>
+<td>ZATU197</td><td><esp:link page="o0000203">GAR@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028893.jpg" description="Image of GAR@g."/></td><td></td></tr>
+<tr>
+<td>ZATU198</td><td><esp:link page="o0000204">GAR₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000204.jpg" description="Image of GAR₃."/></td><td></td></tr>
+<tr>
+<td>ZATU199</td><td><esp:link page="o0036102">GARA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028889.jpg" description="Image of GARA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU200</td><td><esp:link page="o0028899">GAZI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028899.jpg" description="Image of GAZI."/></td><td></td></tr>
+<tr>
+<td>ZATU201</td><td><esp:link page="o0002304">|SAL.KUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029753.jpg" description="Image of |SAL.KUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU202</td><td><esp:link page="o0000208">GEŠTIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028901.jpg" description="Image of GEŠTIN."/></td><td></td></tr>
+<tr>
+<td>ZATU203</td><td><esp:link page="o0036104">GEŠTU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028907.jpg" description="Image of GEŠTU."/></td><td></td></tr>
+<tr>
+<td>ZATU204</td><td><esp:link page="o0000210">GI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035664.jpg" description="Image of GI."/></td><td></td></tr>
+<tr>
+<td>ZATU205</td><td/><td/><td>ATU 1, 28=P001294 ATU 5, pl. 068, W 9579,av read |GI&amp;GI| |GI×SIG₂~d1|;</td></tr>
+<tr>
+<td>ZATU206</td><td><esp:link page="o0028934">|(GI&amp;GI)×ŠE₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028934.jpg" description="Image of |(GI&amp;GI)×ŠE₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU207</td><td><esp:link page="o0029008">|GI×GIŠ@t|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029008.jpg" description="Image of |GI×GIŠ@t|."/></td><td></td></tr>
+<tr>
+<td>ZATU208</td><td><esp:link page="o0037260">|GI×LAGAB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029012.jpg" description="Image of |GI×LAGAB|."/></td><td></td></tr>
+<tr>
+<td>ZATU209</td><td><esp:link page="o0029014">|GI×NAM₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029014.jpg" description="Image of |GI×NAM₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU210</td><td><esp:link page="o0037261">|GI×SIG₂~d1|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029016.jpg" description="Image of |GI×SIG₂~d1|."/></td><td></td></tr>
+<tr>
+<td>ZATU211</td><td><esp:link page="o0029005">|GI×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029005.jpg" description="Image of |GI×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU212</td><td><esp:link page="o0000219">GI₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028916.jpg" description="Image of GI₄."/></td><td></td></tr>
+<tr>
+<td>ZATU213</td><td><esp:link page="o0028923">GI₆</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035654.jpg" description="Image of GI₆."/></td><td></td></tr>
+<tr>
+<td>ZATU214</td><td><esp:link page="o0028927">GIBIL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028927.jpg" description="Image of GIBIL."/></td><td></td></tr>
+<tr>
+<td>ZATU215</td><td><esp:link page="o0028925">GIBIL₆</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028925.jpg" description="Image of GIBIL₆."/></td><td></td></tr>
+<tr>
+<td>ZATU216</td><td><esp:link page="o0036106">GIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028960.jpg" description="Image of GIR."/></td><td></td></tr>
+<tr>
+<td>ZATU217</td><td><esp:link page="o0000213">GIR₂~b</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028942.jpg" description="Image of GIR₂~b."/></td><td></td></tr>
+<tr>
+<td>ZATU218</td><td><esp:link page="o0000213">GIR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028940.jpg" description="Image of GIR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU219</td><td><esp:link page="o0028249">ALIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028249.jpg" description="Image of ALIM."/></td><td></td></tr>
+<tr>
+<td>ZATU220</td><td><esp:link page="o0221866">|GIR₃×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028945.jpg" description="Image of |GIR₃×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU221</td><td><esp:link page="o0036108">GIR₃@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028953.jpg" description="Image of GIR₃@g."/></td><td></td></tr>
+<tr>
+<td>ZATU222</td><td><esp:link page="o0000216">GISAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028970.jpg" description="Image of GISAL."/></td><td></td></tr>
+<tr>
+<td>ZATU223</td><td><esp:link page="o0000217">GIŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028997.jpg" description="Image of GIŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU224</td><td><esp:link page="o0036888">|GIŠ×(DIN.DIN)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028991.jpg" description="Image of |GIŠ×(DIN.DIN)|."/></td><td></td></tr>
+<tr>
+<td>ZATU225</td><td><esp:link page="o0037269">|GIŠ×ŠU₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028999.jpg" description="Image of |GIŠ×ŠU₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU226</td><td><esp:link page="o0028989">|GIŠ.TE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028989.jpg" description="Image of |GIŠ.TE|."/></td><td></td></tr>
+<tr>
+<td>ZATU227</td><td><esp:link page="o0000218">GIŠ@t</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000218.jpg" description="Image of GIŠ@t."/></td><td></td></tr>
+<tr>
+<td>ZATU228</td><td><esp:link page="o0000595">UŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030434.jpg" description="Image of UŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU229</td><td><esp:link page="o0028977">GIŠGAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035658.jpg" description="Image of GIŠGAL."/></td><td></td></tr>
+<tr>
+<td>ZATU230</td><td><esp:link page="o0036807">GIŠIMMAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028978.jpg" description="Image of GIŠIMMAR."/></td><td></td></tr>
+<tr>
+<td>ZATU231</td><td><esp:link page="o0036805">GIZZAL~v</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029022.jpg" description="Image of GIZZAL~v."/></td><td></td></tr>
+<tr>
+<td>ZATU232</td><td><esp:link page="o0000221">GU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000221.jpg" description="Image of GU."/></td><td></td></tr>
+<tr>
+<td>ZATU233</td><td><esp:link page="o0000230">GU₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000230.jpg" description="Image of GU₂."/></td><td></td></tr>
+<tr>
+<td>ZATU234</td><td><esp:link page="o0029026">GU₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035666.jpg" description="Image of GU₄."/></td><td></td></tr>
+<tr>
+<td>ZATU235</td><td><esp:link page="o0029030">GU₇</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035668.jpg" description="Image of GU₇."/></td><td></td></tr>
+<tr>
+<td>ZATU236</td><td><esp:link page="o0036112">GUB₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029032.jpg" description="Image of GUB₃."/></td><td></td></tr>
+<tr>
+<td>ZATU237</td><td><esp:link page="o0029039">GUG₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035670.jpg" description="Image of GUG₂."/></td><td></td></tr>
+<tr>
+<td>ZATU238</td><td><esp:link page="o0037275">|GUG₂×SILA₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029042.jpg" description="Image of |GUG₂×SILA₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU239</td><td><esp:link page="o0029045">|GUG₂×TUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029045.jpg" description="Image of |GUG₂×TUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU240</td><td><esp:link page="o0036114">GUKKAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029048.jpg" description="Image of GUKKAL."/></td><td></td></tr>
+<tr>
+<td>ZATU241</td><td><esp:link page="o0037279">|GUKKAL.HI@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029047.jpg" description="Image of |GUKKAL.HI@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU242</td><td><esp:link page="o0000224">GUL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000224.jpg" description="Image of GUL."/></td><td></td></tr>
+<tr>
+<td>ZATU243</td><td><esp:link page="o0000225">GUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029053.jpg" description="Image of GUM."/></td><td></td></tr>
+<tr>
+<td>ZATU244</td><td><esp:link page="o0036809">GUM@n</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029056.jpg" description="Image of GUM@n."/></td><td></td></tr>
+<tr>
+<td>ZATU245</td><td><esp:link page="o0036116">GUN₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029058.jpg" description="Image of GUN₃."/></td><td></td></tr>
+<tr>
+<td>ZATU246</td><td><esp:link page="o0000226">GUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000226.jpg" description="Image of GUR."/></td><td></td></tr>
+<tr>
+<td>ZATU247</td><td><esp:link page="o0000228">GURUŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029061.jpg" description="Image of GURUŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU248</td><td><esp:link page="o0037281">|GURUŠ×2(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029062.jpg" description="Image of |GURUŠ×2(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU248a</td><td><esp:link page="o0037281">|GURUŠ~a×2(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029062.jpg" description="Image of |GURUŠ~a×2(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU248b</td><td><esp:link page="o0037281">|GURUŠ~b×2(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029064.jpg" description="Image of |GURUŠ~b×2(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU249</td><td><esp:link page="o0029066">GURUŠDA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029066.jpg" description="Image of GURUŠDA."/></td><td></td></tr>
+<tr>
+<td>ZATU250</td><td><esp:link page="o0000236">HAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000236.jpg" description="Image of HAL."/></td><td></td></tr>
+<tr>
+<td>ZATU251</td><td><esp:link page="o0029068">HALUB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029068.jpg" description="Image of HALUB."/></td><td></td></tr>
+<tr>
+<td>ZATU252</td><td><esp:link page="o0029070">HAŠHUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029070.jpg" description="Image of HAŠHUR."/></td><td></td></tr>
+<tr>
+<td>ZATU253</td><td><esp:link page="o0029072">|HAŠHUR×MA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029072.jpg" description="Image of |HAŠHUR×MA|."/></td><td></td></tr>
+<tr>
+<td>ZATU254</td><td><esp:link page="o0000237">HI</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU255</td><td><esp:link page="o0029084">|HI×1(N57@t)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029084.jpg" description="Image of |HI×1(N57@t)|."/></td><td></td></tr>
+<tr>
+<td>ZATU256</td><td><esp:link page="o0027607">|HI.SUHUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035684.jpg" description="Image of |HI.SUHUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU257</td><td><esp:link page="o0037286">|HI×ZATU707|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029090.jpg" description="Image of |HI×ZATU707|."/></td><td></td></tr>
+<tr>
+<td>ZATU258</td><td><esp:link page="o0000238">HI@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029074.jpg" description="Image of HI@g."/></td><td></td></tr>
+<tr>
+<td>ZATU259</td><td><esp:link page="o0000242">I</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000242.jpg" description="Image of I."/></td><td></td></tr>
+<tr>
+<td>ZATU260</td><td><esp:link page="o0000244">IB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029091.jpg" description="Image of IB."/></td><td></td></tr>
+<tr>
+<td>ZATU261</td><td><esp:link page="o0029097">IDIGNA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035688.jpg" description="Image of IDIGNA."/></td><td></td></tr>
+<tr>
+<td>ZATU262</td><td><esp:link page="o0000249">IL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000249.jpg" description="Image of IL."/></td><td></td></tr>
+<tr>
+<td>ZATU263</td><td><esp:link page="o0036118">ILDUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029103.jpg" description="Image of ILDUM."/></td><td></td></tr>
+<tr>
+<td>ZATU264</td><td><esp:link page="o0000254">IM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029109.jpg" description="Image of IM."/></td><td></td></tr>
+<tr>
+<td>ZATU265</td><td><esp:link page="o0000256">IN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029113.jpg" description="Image of IN."/></td><td></td></tr>
+<tr>
+<td>ZATU266</td><td><esp:link page="o0000256">IN~d</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029115.jpg" description="Image of IN~d."/></td><td></td></tr>
+<tr>
+<td>ZATU267</td><td><esp:link page="o0000257">IR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029120.jpg" description="Image of IR."/></td><td></td></tr>
+<tr>
+<td>ZATU268</td><td><esp:link page="o0029116">IR₁₁</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035692.jpg" description="Image of IR₁₁."/></td><td></td></tr>
+<tr>
+<td>ZATU269</td><td><esp:link page="o0029127">IRHAN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029127.jpg" description="Image of IRHAN."/></td><td></td></tr>
+<tr>
+<td>ZATU270</td><td><esp:link page="o0000259">IŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029129.jpg" description="Image of IŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU271</td><td><esp:link page="o0000260">KA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029144.jpg" description="Image of KA."/></td><td></td></tr>
+<tr>
+<td>ZATU272</td><td/><td/><td>Read as sequence KA GI.</td></tr>
+<tr>
+<td>ZATU273</td><td><esp:link page="o0001655">|KA×SAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029148.jpg" description="Image of |KA×SAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU274</td><td><esp:link page="o0037292">|KA.ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029146.jpg" description="Image of |KA.ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU275</td><td><esp:link page="o0000277">KA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029134.jpg" description="Image of KA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU276</td><td><esp:link page="o0036511">|KA₂×LAM|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029142.jpg" description="Image of |KA₂×LAM|."/></td><td></td></tr>
+<tr>
+<td>ZATU277</td><td><esp:link page="o0000263">KAB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000263.jpg" description="Image of KAB."/></td><td></td></tr>
+<tr>
+<td>ZATU278</td><td><esp:link page="o0029150">|KAB×1(N58)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029150.jpg" description="Image of |KAB×1(N58)|."/></td><td></td></tr>
+<tr>
+<td>ZATU279</td><td><esp:link page="o0000267">KAD₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029151.jpg" description="Image of KAD₄."/></td><td></td></tr>
+<tr>
+<td>ZATU280</td><td><esp:link page="o0000269">KAK</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029161.jpg" description="Image of KAK."/></td><td></td></tr>
+<tr>
+<td>ZATU281</td><td><esp:link page="o0000270">KAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029165.jpg" description="Image of KAL."/></td><td></td></tr>
+<tr>
+<td>ZATU282</td><td><esp:link page="o0036120">KALAM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029167.jpg" description="Image of KALAM."/></td><td></td></tr>
+<tr>
+<td>ZATU283</td><td><esp:link page="o0029185">KAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029185.jpg" description="Image of KAR."/></td><td></td></tr>
+<tr>
+<td>ZATU284</td><td><esp:link page="o0036122">KAR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029181.jpg" description="Image of KAR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU285</td><td><esp:link page="o0000275">KASKAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000275.jpg" description="Image of KASKAL."/></td><td></td></tr>
+<tr>
+<td>ZATU286</td><td><esp:link page="o0036124">KAŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029188.jpg" description="Image of KAŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU287</td><td><esp:link page="o0036124">KAŠ~c</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029196.jpg" description="Image of KAŠ~c."/></td><td></td></tr>
+<tr>
+<td>ZATU288</td><td><esp:link page="o0037296">|KAŠ×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029194.jpg" description="Image of |KAŠ×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU289</td><td><esp:link page="o0000279">KI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000279.jpg" description="Image of KI."/></td><td></td></tr>
+<tr>
+<td>ZATU290</td><td><esp:link page="o0029200">KIB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029200.jpg" description="Image of KIB."/></td><td></td></tr>
+<tr>
+<td>ZATU291</td><td><esp:link page="o0000281">KID</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029201.jpg" description="Image of KID."/></td><td></td></tr>
+<tr>
+<td>ZATU292</td><td><esp:link page="o0000282">KIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000282.jpg" description="Image of KIN."/></td><td></td></tr>
+<tr>
+<td>ZATU293</td><td><esp:link page="o0036126">KIN₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029209.jpg" description="Image of KIN₂."/></td><td></td></tr>
+<tr>
+<td>ZATU294</td><td><esp:link page="o0029216">KINGAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035713.jpg" description="Image of KINGAL."/></td><td></td></tr>
+<tr>
+<td>ZATU295</td><td/><td/><td></td></tr>
+<tr>
+<td>ZATU295a</td><td><esp:link page="o0000284">KISAL~a1</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029222.jpg" description="Image of KISAL~a1."/></td><td></td></tr>
+<tr>
+<td>ZATU295b</td><td><esp:link page="o0000284">KISAL~b2</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029227.jpg" description="Image of KISAL~b2."/></td><td></td></tr>
+<tr>
+<td>ZATU296</td><td><esp:link page="o0036128">KISIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029231.jpg" description="Image of KISIM."/></td><td></td></tr>
+<tr>
+<td>ZATU297</td><td><esp:link page="o0000286">KIŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000286.jpg" description="Image of KIŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU298</td><td><esp:link page="o0036129">KIŠIK</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029234.jpg" description="Image of KIŠIK."/></td><td></td></tr>
+<tr>
+<td>ZATU299</td><td><esp:link page="o0029236">KITI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035721.jpg" description="Image of KITI."/></td><td></td></tr>
+<tr>
+<td>ZATU300</td><td><esp:link page="o0000289">KU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029252.jpg" description="Image of KU."/></td><td></td></tr>
+<tr>
+<td>ZATU301</td><td><esp:link page="o0000296">KU₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029237.jpg" description="Image of KU₃."/></td><td></td></tr>
+<tr>
+<td>ZATU302</td><td><esp:link page="o0036131">KU₆</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029244.jpg" description="Image of KU₆."/></td><td></td></tr>
+<tr>
+<td>ZATU303</td><td><esp:link page="o0037309">|KU₆+KU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029246.jpg" description="Image of |KU₆+KU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU304</td><td><esp:link page="o0000294">KUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029259.jpg" description="Image of KUR."/></td><td></td></tr>
+<tr>
+<td>ZATU305</td><td><esp:link page="o0000295">KUŠU₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029270.jpg" description="Image of KUŠU₂."/></td><td></td></tr>
+<tr>
+<td>ZATU306</td><td><esp:link page="o0000305">LA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029281.jpg" description="Image of LA."/></td><td></td></tr>
+<tr>
+<td>ZATU307</td><td><esp:link page="o0029279">LA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029279.jpg" description="Image of LA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU308</td><td><esp:link page="o0000306">LAGAB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029288.jpg" description="Image of LAGAB."/></td><td></td></tr>
+<tr>
+<td>ZATU309</td><td><esp:link page="o0037329">|LAGAB×BANŠUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029333.jpg" description="Image of |LAGAB×BANŠUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU310</td><td><esp:link page="o0037333">|LAGAB×DU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029295.jpg" description="Image of |LAGAB×DU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU311</td><td><esp:link page="o0037335">|LAGAB×GAʾAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029335.jpg" description="Image of |LAGAB×GAʾAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU312</td><td><esp:link page="o0037337">|LAGAB×HI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029337.jpg" description="Image of |LAGAB×HI|."/></td><td></td></tr>
+<tr>
+<td>ZATU313</td><td><esp:link page="o0037344">|LAGAB×KU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029298.jpg" description="Image of |LAGAB×KU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU314</td><td><esp:link page="o0037343">|LAGAB×KUŠU₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029302.jpg" description="Image of |LAGAB×KUŠU₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU315</td><td><esp:link page="o0001829">|LAGAB×ME|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029306.jpg" description="Image of |LAGAB×ME|."/></td><td></td></tr>
+<tr>
+<td>ZATU316</td><td><esp:link page="o0027707">|LAGAB×NUN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029308.jpg" description="Image of |LAGAB×NUN|."/></td><td></td></tr>
+<tr>
+<td>ZATU317</td><td><esp:link page="o0221968">|LAGAB×PA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029310.jpg" description="Image of |LAGAB×PA|."/></td><td></td></tr>
+<tr>
+<td>ZATU318</td><td><esp:link page="o0037364">|LAGAB×ŠA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029317.jpg" description="Image of |LAGAB×ŠA|."/></td><td></td></tr>
+<tr>
+<td>ZATU319</td><td><esp:link page="o0023059">|LAGAB×ŠITA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029319.jpg" description="Image of |LAGAB×ŠITA|."/></td><td></td></tr>
+<tr>
+<td>ZATU320</td><td><esp:link page="o0037327">|LAGAB×2(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029290.jpg" description="Image of |LAGAB×2(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU321</td><td><esp:link page="o0037362">|LAGAB×ZATU753|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029327.jpg" description="Image of |LAGAB×ZATU753|."/></td><td></td></tr>
+<tr>
+<td>ZATU322</td><td/><td/><td>|LAGAB×ZATU766|; collation on P004228 o i 4b suggests not all of LAGAB is present; read X in CDLI-tc</td></tr>
+<tr>
+<td>ZATU323</td><td><esp:link page="o0000307">LAGAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029355.jpg" description="Image of LAGAR."/></td><td></td></tr>
+<tr>
+<td>ZATU324</td><td><esp:link page="o0029363">LAHTAN₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029363.jpg" description="Image of LAHTAN₂."/></td><td></td></tr>
+<tr>
+<td>ZATU325</td><td><esp:link page="o0000423">LAL₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029374.jpg" description="Image of LAL₂."/></td><td></td></tr>
+<tr>
+<td>ZATU326</td><td><esp:link page="o0037366">|LAL₂×EZEN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029376.jpg" description="Image of |LAL₂×EZEN|."/></td><td></td></tr>
+<tr>
+<td>ZATU327</td><td><esp:link page="o0036135">LAL₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029382.jpg" description="Image of LAL₃."/></td><td></td></tr>
+<tr>
+<td>ZATU328</td><td/><td/><td></td></tr>
+<tr>
+<td>ZATU328a</td><td><esp:link page="o0000424">LAM~a</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029387.jpg" description="Image of LAM~a."/></td><td></td></tr>
+<tr>
+<td>ZATU328b</td><td><esp:link page="o0000424">LAM~b</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029389.jpg" description="Image of LAM~b."/></td><td></td></tr>
+<tr>
+<td>ZATU329</td><td><esp:link page="o0036823">LAM~b@s</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029393.jpg" description="Image of LAM~b@s."/></td><td></td></tr>
+<tr>
+<td>ZATU330</td><td><esp:link page="o0000425">LI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035730.jpg" description="Image of LI."/></td><td></td></tr>
+<tr>
+<td>ZATU331</td><td><esp:link page="o0000431">LIŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000431.jpg" description="Image of LIŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU332</td><td><esp:link page="o0000439">LU₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035732.jpg" description="Image of LU₂."/></td><td></td></tr>
+<tr>
+<td>ZATU333</td><td><esp:link page="o0037374">|LU₂×GEŠTU~c3|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029399.jpg" description="Image of |LU₂×GEŠTU~c3|."/></td><td></td></tr>
+<tr>
+<td>ZATU334</td><td><esp:link page="o0000434">LUGAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035735.jpg" description="Image of LUGAL."/></td><td></td></tr>
+<tr>
+<td>ZATU335</td><td><esp:link page="o0000438">LUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000438.jpg" description="Image of LUM."/></td><td></td></tr>
+<tr>
+<td>ZATU336</td><td><esp:link page="o0000444">MA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035738.jpg" description="Image of MA."/></td><td></td></tr>
+<tr>
+<td>ZATU337</td><td><esp:link page="o0029451">|MA×A|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029451.jpg" description="Image of |MA×A|."/></td><td></td></tr>
+<tr>
+<td>ZATU338</td><td><esp:link page="o0029452">|MA×MA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029452.jpg" description="Image of |MA×MA|."/></td><td></td></tr>
+<tr>
+<td>ZATU339</td><td><esp:link page="o0000452">MA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000452.jpg" description="Image of MA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU340</td><td><esp:link page="o0036137">MAGUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029401.jpg" description="Image of MAGUR."/></td><td></td></tr>
+<tr>
+<td>ZATU341</td><td><esp:link page="o0000446">MAH</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029405.jpg" description="Image of MAH."/></td><td></td></tr>
+<tr>
+<td>ZATU342</td><td><esp:link page="o0037380">|MAH×GUKKAL|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029409.jpg" description="Image of |MAH×GUKKAL|."/></td><td></td></tr>
+<tr>
+<td>ZATU343</td><td><esp:link page="o0037382">|MAH×KU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029411.jpg" description="Image of |MAH×KU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU344</td><td><esp:link page="o0037384">|MAH×MAŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029413.jpg" description="Image of |MAH×MAŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU345</td><td><esp:link page="o0037388">|MAH×SAL|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029438.jpg" description="Image of |MAH×SAL|."/></td><td></td></tr>
+<tr>
+<td>ZATU346</td><td><esp:link page="o0037376">|MAH×(SILA₃×UMBIN)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029417.jpg" description="Image of |MAH×(SILA₃×UMBIN)|."/></td><td></td></tr>
+<tr>
+<td>ZATU347</td><td><esp:link page="o0037390">|MAH×TUG₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029419.jpg" description="Image of |MAH×TUG₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU348</td><td><esp:link page="o0037396">|MAH×UD₅|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029421.jpg" description="Image of |MAH×UD₅|."/></td><td></td></tr>
+<tr>
+<td>ZATU349</td><td><esp:link page="o0037394">|MAH×UDU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029422.jpg" description="Image of |MAH×UDU|."/></td><td></td></tr>
+<tr>
+<td>ZATU350</td><td><esp:link page="o0037398">|MAH×UR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029423.jpg" description="Image of |MAH×UR|."/></td><td></td></tr>
+<tr>
+<td>ZATU351</td><td><esp:link page="o0037400">|MAH×UTUA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029425.jpg" description="Image of |MAH×UTUA|."/></td><td></td></tr>
+<tr>
+<td>ZATU352</td><td><esp:link page="o0000448">MAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029440.jpg" description="Image of MAR."/></td><td></td></tr>
+<tr>
+<td>ZATU353</td><td><esp:link page="o0037406">|MAR×(LAGAB.ŠE₃)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029445.jpg" description="Image of |MAR×(LAGAB.ŠE₃)|."/></td><td></td></tr>
+<tr>
+<td>ZATU354</td><td><esp:link page="o0037410">|MAR×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029446.jpg" description="Image of |MAR×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU355</td><td><esp:link page="o0000449">MAŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000449.jpg" description="Image of MAŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU356</td><td/><td/><td>ZATU |MAŠ+GAN₂| read as MAŠ GAN₂ in CDLI-tc</td></tr>
+<tr>
+<td>ZATU357</td><td><esp:link page="o0000451">MAŠ₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000451.jpg" description="Image of MAŠ₂."/></td><td></td></tr>
+<tr>
+<td>ZATU358</td><td><esp:link page="o0000453">ME</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029456.jpg" description="Image of ME."/></td><td></td></tr>
+<tr>
+<td>ZATU359</td><td><esp:link page="o0029454">ME₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029454.jpg" description="Image of ME₃."/></td><td></td></tr>
+<tr>
+<td>ZATU360</td><td><esp:link page="o0036139">MEN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029460.jpg" description="Image of MEN."/></td><td></td></tr>
+<tr>
+<td>ZATU361</td><td><esp:link page="o0000454">MES</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035742.jpg" description="Image of MES."/></td><td></td></tr>
+<tr>
+<td>ZATU362</td><td><esp:link page="o0036141">MIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029464.jpg" description="Image of MIR."/></td><td></td></tr>
+<tr>
+<td>ZATU363</td><td><esp:link page="o0000457">MU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000457.jpg" description="Image of MU."/></td><td></td></tr>
+<tr>
+<td>ZATU364</td><td><esp:link page="o0029479">MUD</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035744.jpg" description="Image of MUD."/></td><td></td></tr>
+<tr>
+<td>ZATU365</td><td><esp:link page="o0036143">MUD₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029472.jpg" description="Image of MUD₃."/></td><td></td></tr>
+<tr>
+<td>ZATU366</td><td><esp:link page="o0031846">MUD₃~a@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029468.jpg" description="Image of MUD₃~a@g."/></td><td></td></tr>
+<tr>
+<td>ZATU367</td><td><esp:link page="o0029480">MUL</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU368</td><td/><td/><td></td></tr>
+<tr>
+<td>ZATU368a</td><td><esp:link page="o0036831">MUN~a1</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029482.jpg" description="Image of MUN~a1."/></td><td></td></tr>
+<tr>
+<td>ZATU368b</td><td><esp:link page="o0036831">MUN~b</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029489.jpg" description="Image of MUN~b."/></td><td></td></tr>
+<tr>
+<td>ZATU369</td><td><esp:link page="o0036145">MUNŠUB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029491.jpg" description="Image of MUNŠUB."/></td><td></td></tr>
+<tr>
+<td>ZATU370</td><td><esp:link page="o0029495">MUNU₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029495.jpg" description="Image of MUNU₃."/></td><td></td></tr>
+<tr>
+<td>ZATU371</td><td><esp:link page="o0029497">MURUB₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029497.jpg" description="Image of MURUB₂."/></td><td></td></tr>
+<tr>
+<td>ZATU372</td><td/><td/><td>ZATU MURUB₃ read ME~a EN~b LAGAR~b1 in hapax P000849=ATU 1, 480=ATU 5 pl. 17, W 6855, i 1.</td></tr>
+<tr>
+<td>ZATU373</td><td><esp:link page="o0000463">MUŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000463.jpg" description="Image of MUŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU374</td><td><esp:link page="o0000466">MUŠ₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029501.jpg" description="Image of MUŠ₃."/></td><td></td></tr>
+<tr>
+<td>ZATU375</td><td><esp:link page="o0000467">MUŠ₃~a@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029499.jpg" description="Image of MUŠ₃~a@g."/></td><td></td></tr>
+<tr>
+<td>ZATU376</td><td><esp:link page="o0029505">MUŠEN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029505.jpg" description="Image of MUŠEN."/></td><td></td></tr>
+<tr>
+<td>ZATU377</td><td><esp:link page="o0037412">|MUŠEN.UR₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029507.jpg" description="Image of |MUŠEN.UR₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU378</td><td><esp:link page="o0000469">NA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029520.jpg" description="Image of NA."/></td><td></td></tr>
+<tr>
+<td>ZATU379</td><td><esp:link page="o0000476">NA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029515.jpg" description="Image of NA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU380</td><td><esp:link page="o0029524">NAB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035753.jpg" description="Image of NAB."/></td><td></td></tr>
+<tr>
+<td>ZATU381</td><td><esp:link page="o0000470">NAGA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029530.jpg" description="Image of NAGA."/></td><td></td></tr>
+<tr>
+<td>ZATU382</td><td><esp:link page="o0000473">NAGAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029536.jpg" description="Image of NAGAR."/></td><td></td></tr>
+<tr>
+<td>ZATU383</td><td><esp:link page="o0000474">NAM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029541.jpg" description="Image of NAM."/></td><td></td></tr>
+<tr>
+<td>ZATU384</td><td><esp:link page="o0000475">NAM₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000475.jpg" description="Image of NAM₂."/></td><td></td></tr>
+<tr>
+<td>ZATU385</td><td><esp:link page="o0029540">|NAM₂×1(N01)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029540.jpg" description="Image of |NAM₂×1(N01)|."/></td><td></td></tr>
+<tr>
+<td>ZATU386</td><td><esp:link page="o0029539">NAM₂@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029539.jpg" description="Image of NAM₂@g."/></td><td></td></tr>
+<tr>
+<td>ZATU387</td><td><esp:link page="o0029549">NAMEŠDA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035764.jpg" description="Image of NAMEŠDA."/></td><td></td></tr>
+<tr>
+<td>ZATU388</td><td><esp:link page="o0036147">NANNA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029551.jpg" description="Image of NANNA."/></td><td></td></tr>
+<tr>
+<td>ZATU389</td><td><esp:link page="o0036149">NANŠE</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029555.jpg" description="Image of NANŠE."/></td><td></td></tr>
+<tr>
+<td>ZATU390</td><td><esp:link page="o0029558">NAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029558.jpg" description="Image of NAR."/></td><td></td></tr>
+<tr>
+<td>ZATU391</td><td><esp:link page="o0000477">NE</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029559.jpg" description="Image of NE."/></td><td></td></tr>
+<tr>
+<td>ZATU392</td><td><esp:link page="o0036833">NERGAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029566.jpg" description="Image of NERGAL."/></td><td></td></tr>
+<tr>
+<td>ZATU393</td><td><esp:link page="o0000479">NI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029575.jpg" description="Image of NI."/></td><td></td></tr>
+<tr>
+<td>ZATU394</td><td/><td/><td>See new copy of ATU 1, 143 in P001212=ATU 5, pl. 054, W 9335,i.</td></tr>
+<tr>
+<td>ZATU395</td><td/><td/><td></td></tr>
+<tr>
+<td>ZATU396</td><td><esp:link page="o0000486">NI₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000486.jpg" description="Image of NI₂."/></td><td></td></tr>
+<tr>
+<td>ZATU397</td><td><esp:link page="o0029586">NIGIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029586.jpg" description="Image of NIGIN."/></td><td></td></tr>
+<tr>
+<td>ZATU398</td><td><esp:link page="o0000482">NIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029588.jpg" description="Image of NIM."/></td><td></td></tr>
+<tr>
+<td>ZATU399</td><td><esp:link page="o0029596">NIMGIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035776.jpg" description="Image of NIMGIR."/></td><td></td></tr>
+<tr>
+<td>ZATU400</td><td><esp:link page="o0029645">NIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029645.jpg" description="Image of NIN."/></td><td></td></tr>
+<tr>
+<td>ZATU401</td><td><esp:link page="o0000483">NINDA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035783.jpg" description="Image of NINDA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU402</td><td><esp:link page="o0029608">|NINDA₂×BA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029608.jpg" description="Image of |NINDA₂×BA|."/></td><td></td></tr>
+<tr>
+<td>ZATU403</td><td><esp:link page="o0037429">|NINDA₂×EZEN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029610.jpg" description="Image of |NINDA₂×EZEN|."/></td><td></td></tr>
+<tr>
+<td>ZATU404</td><td><esp:link page="o0029614">|NINDA₂×GAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029614.jpg" description="Image of |NINDA₂×GAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU405</td><td><esp:link page="o0002101">|NINDA₂×GIŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0002101.jpg" description="Image of |NINDA₂×GIŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU406</td><td><esp:link page="o0037425">|NINDA₂×(HI~a1.ME~a)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029620.jpg" description="Image of |NINDA₂×(HI~a1.ME~a)|."/></td><td></td></tr>
+<tr>
+<td>ZATU407</td><td><esp:link page="o0002104">|NINDA₂×HI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0002104.jpg" description="Image of |NINDA₂×HI|."/></td><td></td></tr>
+<tr>
+<td>ZATU408</td><td><esp:link page="o0037435">|NINDA₂×MAR|</esp:link></td><td><esp:image url="/pcsl/images/add/NINDA2xMAR.png" description="Image of |NINDA₂×MAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU409</td><td><esp:link page="o0029637">|NINDA₂×U₄|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029637.jpg" description="Image of |NINDA₂×U₄|."/></td><td></td></tr>
+<tr>
+<td>ZATU410</td><td><esp:link page="o0037420">|NINDA₂×(UDU×TAR)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029640.jpg" description="Image of |NINDA₂×(UDU×TAR)|."/></td><td></td></tr>
+<tr>
+<td>ZATU411</td><td><esp:link page="o0029598">|NINDA₂×1(N01)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029598.jpg" description="Image of |NINDA₂×1(N01)|."/></td><td></td></tr>
+<tr>
+<td>ZATU411</td><td><esp:link page="o0027699">|NINDA₂×2(N01)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027699.jpg" description="Image of |NINDA₂×2(N01)|."/></td><td></td></tr>
+<tr>
+<td>ZATU411</td><td><esp:link page="o0029600">|NINDA₂×1(N08)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029600.jpg" description="Image of |NINDA₂×1(N08)|."/></td><td></td></tr>
+<tr>
+<td>ZATU412</td><td><esp:link page="o0029646">NINKUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029646.jpg" description="Image of NINKUM."/></td><td></td></tr>
+<tr>
+<td>ZATU413</td><td><esp:link page="o0029648">NINLIL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029648.jpg" description="Image of NINLIL."/></td><td></td></tr>
+<tr>
+<td>ZATU414</td><td><esp:link page="o0036152">NIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029650.jpg" description="Image of NIR."/></td><td></td></tr>
+<tr>
+<td>ZATU415</td><td><esp:link page="o0037437">|NIR~a×AN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029652.jpg" description="Image of |NIR~a×AN|."/></td><td></td></tr>
+<tr>
+<td>ZATU416</td><td><esp:link page="o0036150">NESAG₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029568.jpg" description="Image of NESAG₂."/></td><td></td></tr>
+<tr>
+<td>ZATU417</td><td><esp:link page="o0000487">NU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000487.jpg" description="Image of NU."/></td><td></td></tr>
+<tr>
+<td>ZATU418</td><td><esp:link page="o0029657">NU@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029657.jpg" description="Image of NU@g."/></td><td></td></tr>
+<tr>
+<td>ZATU419</td><td><esp:link page="o0000491">NU₁₁</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000491.jpg" description="Image of NU₁₁."/></td><td></td></tr>
+<tr>
+<td>ZATU420</td><td><esp:link page="o0029658">NUMUN₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029658.jpg" description="Image of NUMUN₂."/></td><td></td></tr>
+<tr>
+<td>ZATU421</td><td><esp:link page="o0000488">NUN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029665.jpg" description="Image of NUN."/></td><td></td></tr>
+<tr>
+<td>ZATU422</td><td><esp:link page="o0037445">|NUN~a+A|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029660.jpg" description="Image of |NUN~a+A|."/></td><td></td></tr>
+<tr>
+<td>ZATU423</td><td><esp:link page="o0000490">NUNUZ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029677.jpg" description="Image of NUNUZ."/></td><td></td></tr>
+<tr>
+<td>ZATU424</td><td><esp:link page="o0036910">|3(N57).NUNUZ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028167.jpg" description="Image of |3(N57).NUNUZ|."/></td><td></td></tr>
+<tr>
+<td>ZATU425</td><td><esp:link page="o0000497">PA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029693.jpg" description="Image of PA."/></td><td></td></tr>
+<tr>
+<td>ZATU426</td><td><esp:link page="o0000498">PAD</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029697.jpg" description="Image of PAD."/></td><td></td></tr>
+<tr>
+<td>ZATU427</td><td><esp:link page="o0000500">PAP</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029701.jpg" description="Image of PAP."/></td><td></td></tr>
+<tr>
+<td>ZATU428</td><td><esp:link page="o0000503">PIRIG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029707.jpg" description="Image of PIRIG."/></td><td></td></tr>
+<tr>
+<td>ZATU429</td><td><esp:link page="o0036911">|3(N57).PIRIG|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028170.jpg" description="Image of |3(N57).PIRIG|."/></td><td></td></tr>
+<tr>
+<td>ZATU430</td><td><esp:link page="o0029719">PU₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029719.jpg" description="Image of PU₂."/></td><td></td></tr>
+<tr>
+<td>ZATU431</td><td><esp:link page="o0000510">RA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000510.jpg" description="Image of RA."/></td><td></td></tr>
+<tr>
+<td>ZATU432</td><td><esp:link page="o0036154">RAD</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029722.jpg" description="Image of RAD."/></td><td></td></tr>
+<tr>
+<td>ZATU433</td><td><esp:link page="o0036841">RAD@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029720.jpg" description="Image of RAD@g."/></td><td></td></tr>
+<tr>
+<td>ZATU434</td><td><esp:link page="o0036156">RI₈</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029726.jpg" description="Image of RI₈."/></td><td></td></tr>
+<tr>
+<td>ZATU435</td><td><esp:link page="o0000516">RU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035803.jpg" description="Image of RU."/></td><td></td></tr>
+<tr>
+<td>ZATU436</td><td><esp:link page="o0000517">SA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029734.jpg" description="Image of SA."/></td><td></td></tr>
+<tr>
+<td>ZATU437</td><td><esp:link page="o0000518">SAG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035811.jpg" description="Image of SAG."/></td><td></td></tr>
+<tr>
+<td>ZATU438</td><td><esp:link page="o0037463">|SAG×GEŠTU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029742.jpg" description="Image of |SAG×GEŠTU|."/></td><td></td></tr>
+<tr>
+<td>ZATU439</td><td><esp:link page="o0029750">|SAG×MA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029750.jpg" description="Image of |SAG×MA|."/></td><td></td></tr>
+<tr>
+<td>ZATU440</td><td><esp:link page="o0029740">|SAG×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029740.jpg" description="Image of |SAG×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU441</td><td><esp:link page="o0000520">SAG@n</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000520.jpg" description="Image of SAG@n."/></td><td></td></tr>
+<tr>
+<td>ZATU442</td><td><esp:link page="o0029738">SAGŠU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029738.jpg" description="Image of SAGŠU."/></td><td></td></tr>
+<tr>
+<td>ZATU443</td><td><esp:link page="o0000522">SAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000522.jpg" description="Image of SAL."/></td><td></td></tr>
+<tr>
+<td>ZATU444</td><td><esp:link page="o0036158">SANGA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029759.jpg" description="Image of SANGA."/></td><td></td></tr>
+<tr>
+<td>ZATU445</td><td><esp:link page="o0000524">SAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029765.jpg" description="Image of SAR."/></td><td></td></tr>
+<tr>
+<td>ZATU446</td><td><esp:link page="o0036817">KU₆@s</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029248.jpg" description="Image of KU₆@s."/></td><td></td></tr>
+<tr>
+<td>ZATU447</td><td><esp:link page="o0000525">SI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035863.jpg" description="Image of SI."/></td><td></td></tr>
+<tr>
+<td>ZATU448</td><td><esp:link page="o0029897">|SI×GU₄|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029897.jpg" description="Image of |SI×GU₄|."/></td><td></td></tr>
+<tr>
+<td>ZATU449</td><td><esp:link page="o0029899">|SI×ŠE₃|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029899.jpg" description="Image of |SI×ŠE₃|."/></td><td></td></tr>
+<tr>
+<td>ZATU450</td><td><esp:link page="o0036160">SI₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029773.jpg" description="Image of SI₄."/></td><td></td></tr>
+<tr>
+<td>ZATU451</td><td><esp:link page="o0000527">SIG</esp:link></td><td><esp:image url="/pcsl/images/add/SIGb.png" description="Image of SIG."/></td><td></td></tr>
+<tr>
+<td>ZATU452</td><td><esp:link page="o0036845">SIG₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029780.jpg" description="Image of SIG₂."/></td><td></td></tr>
+<tr>
+<td>ZATU453</td><td><esp:link page="o0037473">|SIG₂×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029789.jpg" description="Image of |SIG₂×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU454</td><td><esp:link page="o0000528">SIG₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000528.jpg" description="Image of SIG₄."/></td><td></td></tr>
+<tr>
+<td>ZATU455</td><td><esp:link page="o0029801">SIG₇</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035846.jpg" description="Image of SIG₇."/></td><td></td></tr>
+<tr>
+<td>ZATU456</td><td><esp:link page="o0000530">SILA₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029808.jpg" description="Image of SILA₃."/></td><td></td></tr>
+<tr>
+<td>ZATU457</td><td><esp:link page="o0037492">|SILA₃×A|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029814.jpg" description="Image of |SILA₃×A|."/></td><td></td></tr>
+<tr>
+<td>ZATU458</td><td><esp:link page="o0037494">|SILA₃×DUG|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029818.jpg" description="Image of |SILA₃×DUG|."/></td><td></td></tr>
+<tr>
+<td>ZATU459</td><td><esp:link page="o0037496">|SILA₃×GA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029821.jpg" description="Image of |SILA₃×GA|."/></td><td></td></tr>
+<tr>
+<td>ZATU460</td><td><esp:link page="o0037520">|SILA₃×NI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029848.jpg" description="Image of |SILA₃×NI|."/></td><td></td></tr>
+<tr>
+<td>ZATU461</td><td><esp:link page="o0037495">|SILA₃×GARA₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029822.jpg" description="Image of |SILA₃×GARA₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU462</td><td><esp:link page="o0037498">|SILA₃×GEŠTU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029823.jpg" description="Image of |SILA₃×GEŠTU|."/></td><td></td></tr>
+<tr>
+<td>ZATU463</td><td><esp:link page="o0037501">|SILA₃×HAŠHUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029828.jpg" description="Image of |SILA₃×HAŠHUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU464</td><td><esp:link page="o0037505">|SILA₃×HI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029832.jpg" description="Image of |SILA₃×HI|."/></td><td></td></tr>
+<tr>
+<td>ZATU465</td><td><esp:link page="o0037503">|SILA₃×HI@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029830.jpg" description="Image of |SILA₃×HI@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU466</td><td><esp:link page="o0037507">|SILA₃×IB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029834.jpg" description="Image of |SILA₃×IB|."/></td><td></td></tr>
+<tr>
+<td>ZATU467</td><td><esp:link page="o0037509">|SILA₃×KAŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029836.jpg" description="Image of |SILA₃×KAŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU468</td><td><esp:link page="o0037510">|SILA₃×KUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029843.jpg" description="Image of |SILA₃×KUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU469</td><td><esp:link page="o0037498">|SILA₃×GEŠTU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029823.jpg" description="Image of |SILA₃×GEŠTU|."/></td><td></td></tr>
+<tr>
+<td>ZATU470</td><td><esp:link page="o0037516">|SILA₃×MAŠ|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029845.jpg" description="Image of |SILA₃×MAŠ|."/></td><td></td></tr>
+<tr>
+<td>ZATU471</td><td><esp:link page="o0037518">|SILA₃×NAGA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029846.jpg" description="Image of |SILA₃×NAGA|."/></td><td></td></tr>
+<tr>
+<td>ZATU472</td><td><esp:link page="o0037520">|SILA₃×NI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029848.jpg" description="Image of |SILA₃×NI|."/></td><td></td></tr>
+<tr>
+<td>ZATU473</td><td><esp:link page="o0037514">|SILA₃×MA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029844.jpg" description="Image of |SILA₃×MA|."/></td><td></td></tr>
+<tr>
+<td>ZATU474</td><td><esp:link page="o0037525">|SILA₃×SUM|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029853.jpg" description="Image of |SILA₃×SUM|."/></td><td></td></tr>
+<tr>
+<td>ZATU475</td><td><esp:link page="o0027489">|SILA₃×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029857.jpg" description="Image of |SILA₃×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU476</td><td><esp:link page="o0037536">|SILA₃×ŠU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029861.jpg" description="Image of |SILA₃×ŠU|."/></td><td></td></tr>
+<tr>
+<td>ZATU477</td><td><esp:link page="o0037538">|SILA₃×ŠU₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029860.jpg" description="Image of |SILA₃×ŠU₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU478</td><td><esp:link page="o0037484">|SILA₃×(ZATU659.TU)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029865.jpg" description="Image of |SILA₃×(ZATU659.TU)|."/></td><td></td></tr>
+<tr>
+<td>ZATU479</td><td/><td/><td>Delete, W 16012,b+ = P002571 now read UDU ŠITA.</td></tr>
+<tr>
+<td>ZATU480</td><td><esp:link page="o0037533">|SILA₃×ZATU687|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029882.jpg" description="Image of |SILA₃×ZATU687|."/></td><td></td></tr>
+<tr>
+<td>ZATU481</td><td><esp:link page="o0037486">|SILA₃×1(N57)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029810.jpg" description="Image of |SILA₃×1(N57)|."/></td><td></td></tr>
+<tr>
+<td>ZATU481</td><td><esp:link page="o0037488">|SILA₃×1(N58)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029812.jpg" description="Image of |SILA₃×1(N58)|."/></td><td></td></tr>
+<tr>
+<td>ZATU482</td><td/><td/><td></td></tr>
+<tr>
+<td>ZATU482a</td><td><esp:link page="o0036162">SILA₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029886.jpg" description="Image of SILA₄."/></td><td></td></tr>
+<tr>
+<td>ZATU482b</td><td><esp:link page="o0036162">SILA₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029886.jpg" description="Image of SILA₄."/></td><td></td></tr>
+<tr>
+<td>ZATU482c</td><td><esp:link page="o0036162">SILA₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029886.jpg" description="Image of SILA₄."/></td><td></td></tr>
+<tr>
+<td>ZATU482d</td><td><esp:link page="o0036162">SILA₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029886.jpg" description="Image of SILA₄."/></td><td></td></tr>
+<tr>
+<td>ZATU483</td><td><esp:link page="o0029892">SILANITA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029892.jpg" description="Image of SILANITA."/></td><td></td></tr>
+<tr>
+<td>ZATU484</td><td><esp:link page="o0029894">SIMUG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035854.jpg" description="Image of SIMUG."/></td><td></td></tr>
+<tr>
+<td>ZATU485</td><td><esp:link page="o0000531">SU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029903.jpg" description="Image of SU."/></td><td></td></tr>
+<tr>
+<td>ZATU486</td><td><esp:link page="o0037548">|SU×1(N58)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029905.jpg" description="Image of |SU×1(N58)|."/></td><td></td></tr>
+<tr>
+<td>ZATU487</td><td><esp:link page="o0029901">SU₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029901.jpg" description="Image of SU₃."/></td><td></td></tr>
+<tr>
+<td>ZATU488</td><td><esp:link page="o0029911">SUG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029911.jpg" description="Image of SUG."/></td><td></td></tr>
+<tr>
+<td>ZATU489</td><td><esp:link page="o0029909">SUG₅</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029909.jpg" description="Image of SUG₅."/></td><td></td></tr>
+<tr>
+<td>ZATU490</td><td><esp:link page="o0029912">SUH₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029912.jpg" description="Image of SUH₃."/></td><td></td></tr>
+<tr>
+<td>ZATU491</td><td><esp:link page="o0000535">SUHUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000535.jpg" description="Image of SUHUR."/></td><td></td></tr>
+<tr>
+<td>ZATU492</td><td><esp:link page="o0029917">SUKKAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029917.jpg" description="Image of SUKKAL."/></td><td></td></tr>
+<tr>
+<td>ZATU493</td><td><esp:link page="o0029926">SUKUD</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU494</td><td><esp:link page="o0036890">|SUKUD+SUKUD|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029928.jpg" description="Image of |SUKUD+SUKUD|."/></td><td></td></tr>
+<tr>
+<td>ZATU495</td><td><esp:link page="o0036164">SUKUD@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029919.jpg" description="Image of SUKUD@g."/></td><td></td></tr>
+<tr>
+<td>ZATU496</td><td><esp:link page="o0000536">SUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029934.jpg" description="Image of SUM."/></td><td></td></tr>
+<tr>
+<td>ZATU497</td><td><esp:link page="o0000537">SUMAŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000537.jpg" description="Image of SUMAŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU498</td><td><esp:link page="o0000539">SUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000539.jpg" description="Image of SUR."/></td><td></td></tr>
+<tr>
+<td>ZATU499</td><td><esp:link page="o0029939">SUSA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029939.jpg" description="Image of SUSA."/></td><td></td></tr>
+<tr>
+<td>ZATU500</td><td><esp:link page="o0002824">ŠA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035817.jpg" description="Image of ŠA."/></td><td></td></tr>
+<tr>
+<td>ZATU501</td><td><esp:link page="o0036599">|ŠA×HI@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029977.jpg" description="Image of |ŠA×HI@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU502</td><td><esp:link page="o0029959">ŠA@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029959.jpg" description="Image of ŠA@g."/></td><td></td></tr>
+<tr>
+<td>ZATU503</td><td><esp:link page="o0002828">ŠA₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029941.jpg" description="Image of ŠA₃."/></td><td></td></tr>
+<tr>
+<td>ZATU504</td><td><esp:link page="o0036166">ŠAB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029951.jpg" description="Image of ŠAB."/></td><td></td></tr>
+<tr>
+<td>ZATU505</td><td/><td/><td>Delete, W 14777,e = P002181 now read GAL~a ŠAB~a AL.</td></tr>
+<tr>
+<td>ZATU506</td><td><esp:link page="o0029955">ŠAGAN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035809.jpg" description="Image of ŠAGAN."/></td><td></td></tr>
+<tr>
+<td>ZATU507</td><td><esp:link page="o0029957">ŠAGINA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029957.jpg" description="Image of ŠAGINA."/></td><td></td></tr>
+<tr>
+<td>ZATU508</td><td><esp:link page="o0036168">ŠAH₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029961.jpg" description="Image of ŠAH₂."/></td><td></td></tr>
+<tr>
+<td>ZATU509</td><td><esp:link page="o0036170">ŠAKIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029967.jpg" description="Image of ŠAKIR."/></td><td></td></tr>
+<tr>
+<td>ZATU510</td><td><esp:link page="o0029973">ŠAM₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029973.jpg" description="Image of ŠAM₂."/></td><td></td></tr>
+<tr>
+<td>ZATU511</td><td><esp:link page="o0002831">ŠE</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029985.jpg" description="Image of ŠE."/></td><td></td></tr>
+<tr>
+<td>ZATU512</td><td><esp:link page="o0037654">|ŠE.KIN₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029987.jpg" description="Image of |ŠE.KIN₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU513</td><td><esp:link page="o0002724">|ŠE.NAM₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029989.jpg" description="Image of |ŠE.NAM₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU514</td><td><esp:link page="o0002335">|SAR×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029767.jpg" description="Image of |SAR×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU515</td><td><esp:link page="o0002709">|ŠE&amp;ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029991.jpg" description="Image of |ŠE&amp;ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU516</td><td><esp:link page="o0029981">ŠE₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035822.jpg" description="Image of ŠE₃."/></td><td></td></tr>
+<tr>
+<td>ZATU517</td><td/><td/><td>Delete, W 17586 = P002625 now read as 1(N01) KU₃.</td></tr>
+<tr>
+<td>ZATU518</td><td><esp:link page="o0029983">ŠE₃@t</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035820.jpg" description="Image of ŠE₃@t."/></td><td></td></tr>
+<tr>
+<td>ZATU519</td><td><esp:link page="o0002832">ŠEG₉</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0002832.jpg" description="Image of ŠEG₉."/></td><td></td></tr>
+<tr>
+<td>ZATU520</td><td><esp:link page="o0029999">ŠELU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029999.jpg" description="Image of ŠELU."/></td><td></td></tr>
+<tr>
+<td>ZATU521</td><td><esp:link page="o0002833">ŠEN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030001.jpg" description="Image of ŠEN."/></td><td></td></tr>
+<tr>
+<td>ZATU522</td><td><esp:link page="o0036174">ŠENNUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030011.jpg" description="Image of ŠENNUR."/></td><td></td></tr>
+<tr>
+<td>ZATU523</td><td><esp:link page="o0002834">ŠEŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030015.jpg" description="Image of ŠEŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU524</td><td><esp:link page="o0030017">ŠIDIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030017.jpg" description="Image of ŠIDIM."/></td><td></td></tr>
+<tr>
+<td>ZATU525</td><td><esp:link page="o0002838">ŠIM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030021.jpg" description="Image of ŠIM."/></td><td></td></tr>
+<tr>
+<td>ZATU526</td><td><esp:link page="o0002840">ŠIR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030025.jpg" description="Image of ŠIR."/></td><td></td></tr>
+<tr>
+<td>ZATU527</td><td><esp:link page="o0002842">ŠITA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030029.jpg" description="Image of ŠITA."/></td><td></td></tr>
+<tr>
+<td>ZATU528</td><td><esp:link page="o0037670">|ŠITA×ŠU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030037.jpg" description="Image of |ŠITA×ŠU|."/></td><td></td></tr>
+<tr>
+<td>ZATU529</td><td><esp:link page="o0037666">|ŠITA×KAK|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030033.jpg" description="Image of |ŠITA×KAK|."/></td><td></td></tr>
+<tr>
+<td>ZATU530</td><td><esp:link page="o0036176">ŠITA@g</esp:link></td><td><esp:image url="/pcsl/images/add/SZITAa3g.png" description="Image of ŠITA@g."/></td><td></td></tr>
+<tr>
+<td>ZATU531</td><td><esp:link page="o0037660">|ŠITA@g×1(N04)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030058.jpg" description="Image of |ŠITA@g×1(N04)|."/></td><td></td></tr>
+<tr>
+<td>ZATU532</td><td><esp:link page="o0002845">ŠU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0002845.jpg" description="Image of ŠU."/></td><td></td></tr>
+<tr>
+<td>ZATU533</td><td><esp:link page="o0030080">ŠU@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030080.jpg" description="Image of ŠU@g."/></td><td></td></tr>
+<tr>
+<td>ZATU534</td><td><esp:link page="o0002850">ŠU₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036044.jpg" description="Image of ŠU₂."/></td><td></td></tr>
+<tr>
+<td>ZATU535</td><td><esp:link page="o0027760">|ŠU₂.E₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030068.jpg" description="Image of |ŠU₂.E₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU536</td><td><esp:link page="o0037674">|ŠU₂.EN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030071.jpg" description="Image of |ŠU₂.EN|."/></td><td></td></tr>
+<tr>
+<td>ZATU537</td><td/><td/><td>|ŠU₂.U₄| in ATU 206 read as AB₂ in P001387=ATU 5 pl.80, W 9655,o.</td></tr>
+<tr>
+<td>ZATU538</td><td><esp:link page="o0030064">ŠU₁₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030064.jpg" description="Image of ŠU₁₂."/></td><td></td></tr>
+<tr>
+<td>ZATU539</td><td><esp:link page="o0002848">ŠUBUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0002848.jpg" description="Image of ŠUBUR."/></td><td></td></tr>
+<tr>
+<td>ZATU540</td><td><esp:link page="o0028148">|1(N57).ŠUBUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035487.jpg" description="Image of |1(N57).ŠUBUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU540</td><td><esp:link page="o0028172">|3(N57).ŠUBUR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028172.jpg" description="Image of |3(N57).ŠUBUR|."/></td><td></td></tr>
+<tr>
+<td>ZATU541</td><td><esp:link page="o0030082">ŠUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030082.jpg" description="Image of ŠUM."/></td><td></td></tr>
+<tr>
+<td>ZATU542</td><td><esp:link page="o0000132">DA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028385.jpg" description="Image of DA."/></td><td></td></tr>
+<tr>
+<td>ZATU543</td><td><esp:link page="o0036178">ŠUR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030084.jpg" description="Image of ŠUR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU544</td><td><esp:link page="o0036180">ŠURUPPAK</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030088.jpg" description="Image of ŠURUPPAK."/></td><td></td></tr>
+<tr>
+<td>ZATU545</td><td><esp:link page="o0000541">TA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030098.jpg" description="Image of TA."/></td><td></td></tr>
+<tr>
+<td>ZATU546</td><td><esp:link page="o0018502">2(N57)</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0018502.jpg" description="Image of 2(N57)."/></td><td></td></tr>
+<tr>
+<td>ZATU547</td><td><esp:link page="o0000546">TAG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030112.jpg" description="Image of TAG."/></td><td></td></tr>
+<tr>
+<td>ZATU548</td><td><esp:link page="o0000547">TAK₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030126.jpg" description="Image of TAK₄."/></td><td></td></tr>
+<tr>
+<td>ZATU549</td><td><esp:link page="o0000548">TAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030132.jpg" description="Image of TAR."/></td><td></td></tr>
+<tr>
+<td>ZATU550</td><td><esp:link page="o0000550">TE</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000550.jpg" description="Image of TE."/></td><td></td></tr>
+<tr>
+<td>ZATU551</td><td><esp:link page="o0000553">TI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035882.jpg" description="Image of TI."/></td><td></td></tr>
+<tr>
+<td>ZATU552</td><td><esp:link page="o0030136">TIDNUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030136.jpg" description="Image of TIDNUM."/></td><td></td></tr>
+<tr>
+<td>ZATU553</td><td><esp:link page="o0030139">TILLA₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030139.jpg" description="Image of TILLA₂."/></td><td></td></tr>
+<tr>
+<td>ZATU554</td><td><esp:link page="o0000556">TU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030143.jpg" description="Image of TU."/></td><td></td></tr>
+<tr>
+<td>ZATU555</td><td><esp:link page="o0000557">TUG₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030150.jpg" description="Image of TUG₂."/></td><td></td></tr>
+<tr>
+<td>ZATU556</td><td><esp:link page="o0037552">|TUG₂.(BAD&amp;BAD)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030148.jpg" description="Image of |TUG₂.(BAD&amp;BAD)|."/></td><td></td></tr>
+<tr>
+<td>ZATU557</td><td><esp:link page="o0036853">TUG₂@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030149.jpg" description="Image of TUG₂@g."/></td><td></td></tr>
+<tr>
+<td>ZATU558</td><td><esp:link page="o0037760">|TUG₂@g.(BAD&amp;BAD)|</esp:link></td><td/><td></td></tr>
+<tr>
+<td>ZATU559</td><td/><td/><td>Damaged, identification uncertain, possibly KAB.</td></tr>
+<tr>
+<td>ZATU560</td><td><esp:link page="o0000559">TUM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030157.jpg" description="Image of TUM."/></td><td></td></tr>
+<tr>
+<td>ZATU561</td><td><esp:link page="o0036182">TUN₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030163.jpg" description="Image of TUN₃."/></td><td></td></tr>
+<tr>
+<td>ZATU562</td><td><esp:link page="o0000560">TUR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035885.jpg" description="Image of TUR."/></td><td></td></tr>
+<tr>
+<td>ZATU563</td><td><esp:link page="o0036184">TUR₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030168.jpg" description="Image of TUR₃."/></td><td></td></tr>
+<tr>
+<td>ZATU564</td><td><esp:link page="o0027244">1(N14)</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027244.jpg" description="Image of 1(N14)."/></td><td></td></tr>
+<tr>
+<td>ZATU565</td><td><esp:link page="o0000599">U₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030180.jpg" description="Image of U₂."/></td><td></td></tr>
+<tr>
+<td>ZATU566</td><td><esp:link page="o0030211">U₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030211.jpg" description="Image of U₄."/></td><td></td></tr>
+<tr>
+<td>ZATU567</td><td><esp:link page="o0037299">|KI@n×DUB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029219.jpg" description="Image of |KI@n×DUB|."/></td><td></td></tr>
+<tr>
+<td>ZATU568</td><td><esp:link page="o0030213">|U₄.ŠU₂|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030213.jpg" description="Image of |U₄.ŠU₂|."/></td><td></td></tr>
+<tr>
+<td>ZATU569</td><td><esp:link page="o0030223">|U₄×1(N01)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030223.jpg" description="Image of |U₄×1(N01)|."/></td><td></td></tr>
+<tr>
+<td>ZATU570</td><td><esp:link page="o0036150">NESAG₂~b</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029570.jpg" description="Image of NESAG₂~b."/></td><td></td></tr>
+<tr>
+<td>ZATU571</td><td><esp:link page="o0030283">U₈</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035897.jpg" description="Image of U₈."/></td><td></td></tr>
+<tr>
+<td>ZATU572</td><td><esp:link page="o0000564">UB</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000564.jpg" description="Image of UB."/></td><td></td></tr>
+<tr>
+<td>ZATU573</td><td><esp:link page="o0036186">UBI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030287.jpg" description="Image of UBI."/></td><td></td></tr>
+<tr>
+<td>ZATU574</td><td><esp:link page="o0036188">UD₅</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030293.jpg" description="Image of UD₅."/></td><td></td></tr>
+<tr>
+<td>ZATU575</td><td><esp:link page="o0036190">UDU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030299.jpg" description="Image of UDU."/></td><td></td></tr>
+<tr>
+<td>ZATU576</td><td><esp:link page="o0036891">|UDU×TAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030301.jpg" description="Image of |UDU×TAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU577</td><td><esp:link page="o0037726">|3(N57).UDU|</esp:link></td><td><esp:image url="/pcsl/images/add/3N57-UDUa.png" description="Image of |3(N57).UDU|."/></td><td></td></tr>
+<tr>
+<td>ZATU578</td><td><esp:link page="o0036192">UDUNITA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030309.jpg" description="Image of UDUNITA."/></td><td></td></tr>
+<tr>
+<td>ZATU579</td><td><esp:link page="o0036194">UH₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030315.jpg" description="Image of UH₃."/></td><td></td></tr>
+<tr>
+<td>ZATU580</td><td><esp:link page="o0036196">UKKIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030322.jpg" description="Image of UKKIN."/></td><td></td></tr>
+<tr>
+<td>ZATU581</td><td><esp:link page="o0000572">UMBIN</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030342.jpg" description="Image of UMBIN."/></td><td></td></tr>
+<tr>
+<td>ZATU582</td><td><esp:link page="o0030348">UMUN₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035913.jpg" description="Image of UMUN₂."/></td><td></td></tr>
+<tr>
+<td>ZATU583</td><td><esp:link page="o0036198">UNUG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030349.jpg" description="Image of UNUG."/></td><td></td></tr>
+<tr>
+<td>ZATU584</td><td><esp:link page="o0037573">|UNUG×A@t|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030351.jpg" description="Image of |UNUG×A@t|."/></td><td></td></tr>
+<tr>
+<td>ZATU585</td><td><esp:link page="o0036863">UNUG@s</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030350.jpg" description="Image of UNUG@s."/></td><td></td></tr>
+<tr>
+<td>ZATU586</td><td><esp:link page="o0000576">UR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030376.jpg" description="Image of UR."/></td><td></td></tr>
+<tr>
+<td>ZATU587</td><td><esp:link page="o0036865">UR@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030374.jpg" description="Image of UR@g."/></td><td></td></tr>
+<tr>
+<td>ZATU588</td><td><esp:link page="o0000585">UR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000585.jpg" description="Image of UR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU589</td><td><esp:link page="o0030354">|UR₂×1(N57)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030354.jpg" description="Image of |UR₂×1(N57)|."/></td><td></td></tr>
+<tr>
+<td>ZATU590</td><td><esp:link page="o0000585">UR₂</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000585.jpg" description="Image of UR₂."/></td><td></td></tr>
+<tr>
+<td>ZATU591</td><td><esp:link page="o0036869">UR₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030356.jpg" description="Image of UR₃."/></td><td></td></tr>
+<tr>
+<td>ZATU592</td><td><esp:link page="o0000588">UR₄</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030366.jpg" description="Image of UR₄."/></td><td></td></tr>
+<tr>
+<td>ZATU593</td><td><esp:link page="o0036200">UR₅</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030371.jpg" description="Image of UR₅."/></td><td></td></tr>
+<tr>
+<td>ZATU594</td><td><esp:link page="o0000579">URI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0000579.jpg" description="Image of URI."/></td><td></td></tr>
+<tr>
+<td>ZATU595</td><td><esp:link page="o0002834">ŠEŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030015.jpg" description="Image of ŠEŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU596</td><td><esp:link page="o0030389">URI₅</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030389.jpg" description="Image of URI₅."/></td><td></td></tr>
+<tr>
+<td>ZATU597</td><td><esp:link page="o0000582">URU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030391.jpg" description="Image of URU."/></td><td></td></tr>
+<tr>
+<td>ZATU598</td><td><esp:link page="o0037586">|URU×AMAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030400.jpg" description="Image of |URU×AMAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU599</td><td><esp:link page="o0037590">|URU×KALAM|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030414.jpg" description="Image of |URU×KALAM|."/></td><td></td></tr>
+<tr>
+<td>ZATU600</td><td><esp:link page="o0037592">|URU×NIMGIR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030405.jpg" description="Image of |URU×NIMGIR|."/></td><td></td></tr>
+<tr>
+<td>ZATU601</td><td><esp:link page="o0037579">|URU~a1×1(N57)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030395.jpg" description="Image of |URU~a1×1(N57)|."/></td><td></td></tr>
+<tr>
+<td>ZATU601</td><td><esp:link page="o0037583">|URU~a1×2(N57)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030397.jpg" description="Image of |URU~a1×2(N57)|."/></td><td></td></tr>
+<tr>
+<td>ZATU601</td><td><esp:link page="o0037581">|URU~a2×1(N58)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030412.jpg" description="Image of |URU~a2×1(N58)|."/></td><td></td></tr>
+<tr>
+<td>ZATU602</td><td><esp:link page="o0036202">URUDU</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030422.jpg" description="Image of URUDU."/></td><td></td></tr>
+<tr>
+<td>ZATU603</td><td><esp:link page="o0036204">URUDU@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030427.jpg" description="Image of URUDU@g."/></td><td></td></tr>
+<tr>
+<td>ZATU604</td><td><esp:link page="o0000595">UŠ</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030434.jpg" description="Image of UŠ."/></td><td></td></tr>
+<tr>
+<td>ZATU605</td><td><esp:link page="o0027493">|UŠ×TAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030441.jpg" description="Image of |UŠ×TAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU606</td><td><esp:link page="o0031033">1(N02)</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031033.jpg" description="Image of 1(N02)."/></td><td></td></tr>
+<tr>
+<td>ZATU607</td><td><esp:link page="o0030444">UŠUMGAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030444.jpg" description="Image of UŠUMGAL."/></td><td></td></tr>
+<tr>
+<td>ZATU608</td><td><esp:link page="o0036205">UŠUR₃</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030446.jpg" description="Image of UŠUR₃."/></td><td></td></tr>
+<tr>
+<td>ZATU609</td><td><esp:link page="o0036207">UTUA</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030452.jpg" description="Image of UTUA."/></td><td></td></tr>
+<tr>
+<td>ZATU610</td><td><esp:link page="o0036209">UTUL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030457.jpg" description="Image of UTUL."/></td><td></td></tr>
+<tr>
+<td>ZATU611</td><td><esp:link page="o0036873">UZ</esp:link></td><td><esp:image url="/pcsl/images/add/UZ.png" description="Image of UZ."/></td><td></td></tr>
+<tr>
+<td>ZATU612</td><td><esp:link page="o0000603">ZA~v</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031011.jpg" description="Image of ZA~v."/></td><td></td></tr>
+<tr>
+<td>ZATU613</td><td><esp:link page="o0036211">ZABALAM</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030466.jpg" description="Image of ZABALAM."/></td><td></td></tr>
+<tr>
+<td>ZATU614</td><td><esp:link page="o0037521">|SILA₃×NUN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029850.jpg" description="Image of |SILA₃×NUN|."/></td><td></td></tr>
+<tr>
+<td>ZATU615</td><td><esp:link page="o0000605">ZAG</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030472.jpg" description="Image of ZAG."/></td><td></td></tr>
+<tr>
+<td>ZATU616</td><td><esp:link page="o0036213">ZAR</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030476.jpg" description="Image of ZAR."/></td><td></td></tr>
+<tr>
+<td>ZATU617</td><td><esp:link page="o0000609">ZI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031013.jpg" description="Image of ZI."/></td><td></td></tr>
+<tr>
+<td>ZATU618</td><td><esp:link page="o0027236">1(N04)</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0027236.jpg" description="Image of 1(N04)."/></td><td></td></tr>
+<tr>
+<td>ZATU619</td><td><esp:link page="o0000615">ZUBI</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031018.jpg" description="Image of ZUBI."/></td><td></td></tr>
+<tr>
+<td>ZATU620</td><td><esp:link page="o0030483">ZATU620</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030483.jpg" description="Image of ZATU620."/></td><td></td></tr>
+<tr>
+<td>ZATU621</td><td><esp:link page="o0036215">ZATU621</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030485.jpg" description="Image of ZATU621."/></td><td></td></tr>
+<tr>
+<td>ZATU622</td><td><esp:link page="o0030493">ZATU622</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030493.jpg" description="Image of ZATU622."/></td><td></td></tr>
+<tr>
+<td>ZATU623</td><td><esp:link page="o0030495">ZATU623</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035933.jpg" description="Image of ZATU623."/></td><td></td></tr>
+<tr>
+<td>ZATU624</td><td><esp:link page="o0036217">ZATU624</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030497.jpg" description="Image of ZATU624."/></td><td></td></tr>
+<tr>
+<td>ZATU625</td><td><esp:link page="o0030502">ZATU625</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035937.jpg" description="Image of ZATU625."/></td><td></td></tr>
+<tr>
+<td>ZATU626</td><td><esp:link page="o0036219">ZATU626</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030504.jpg" description="Image of ZATU626."/></td><td></td></tr>
+<tr>
+<td>ZATU627</td><td><esp:link page="o0030509">ZATU627</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030509.jpg" description="Image of ZATU627."/></td><td></td></tr>
+<tr>
+<td>ZATU628</td><td><esp:link page="o0036221">ZATU628</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030511.jpg" description="Image of ZATU628."/></td><td></td></tr>
+<tr>
+<td>ZATU629</td><td><esp:link page="o0030514">ZATU629</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035941.jpg" description="Image of ZATU629."/></td><td></td></tr>
+<tr>
+<td>ZATU630</td><td><esp:link page="o0030516">ZATU630</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030516.jpg" description="Image of ZATU630."/></td><td></td></tr>
+<tr>
+<td>ZATU631</td><td><esp:link page="o0030518">ZATU631</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030518.jpg" description="Image of ZATU631."/></td><td></td></tr>
+<tr>
+<td>ZATU632</td><td><esp:link page="o0036223">ZATU632</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030520.jpg" description="Image of ZATU632."/></td><td></td></tr>
+<tr>
+<td>ZATU633</td><td><esp:link page="o0036225">ZATU633</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030526.jpg" description="Image of ZATU633."/></td><td></td></tr>
+<tr>
+<td>ZATU634</td><td><esp:link page="o0030530">ZATU634</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030530.jpg" description="Image of ZATU634."/></td><td></td></tr>
+<tr>
+<td>ZATU635</td><td><esp:link page="o0030532">ZATU635</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030532.jpg" description="Image of ZATU635."/></td><td></td></tr>
+<tr>
+<td>ZATU636</td><td><esp:link page="o0030533">ZATU636</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035945.jpg" description="Image of ZATU636."/></td><td></td></tr>
+<tr>
+<td>ZATU637</td><td><esp:link page="o0030535">ZATU637</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030535.jpg" description="Image of ZATU637."/></td><td></td></tr>
+<tr>
+<td>ZATU638</td><td><esp:link page="o0029917">SUKKAL</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0029917.jpg" description="Image of SUKKAL."/></td><td></td></tr>
+<tr>
+<td>ZATU639</td><td><esp:link page="o0030537">ZATU639</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030537.jpg" description="Image of ZATU639."/></td><td></td></tr>
+<tr>
+<td>ZATU640</td><td><esp:link page="o0030539">ZATU640</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030539.jpg" description="Image of ZATU640."/></td><td></td></tr>
+<tr>
+<td>ZATU641</td><td><esp:link page="o0030541">ZATU641</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030541.jpg" description="Image of ZATU641."/></td><td></td></tr>
+<tr>
+<td>ZATU642</td><td><esp:link page="o0030543">ZATU642</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030543.jpg" description="Image of ZATU642."/></td><td></td></tr>
+<tr>
+<td>ZATU643</td><td><esp:link page="o0030545">ZATU643</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030545.jpg" description="Image of ZATU643."/></td><td></td></tr>
+<tr>
+<td>ZATU644</td><td><esp:link page="o0036227">ZATU644</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030546.jpg" description="Image of ZATU644."/></td><td></td></tr>
+<tr>
+<td>ZATU645</td><td><esp:link page="o0037602">|ZATU644×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030548.jpg" description="Image of |ZATU644×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU646</td><td><esp:link page="o0030552">ZATU646</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030552.jpg" description="Image of ZATU646."/></td><td></td></tr>
+<tr>
+<td>ZATU647</td><td><esp:link page="o0030554">ZATU647</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035946.jpg" description="Image of ZATU647."/></td><td></td></tr>
+<tr>
+<td>ZATU648</td><td><esp:link page="o0030556">ZATU648</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030556.jpg" description="Image of ZATU648."/></td><td></td></tr>
+<tr>
+<td>ZATU649</td><td><esp:link page="o0030558">ZATU649</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035947.jpg" description="Image of ZATU649."/></td><td></td></tr>
+<tr>
+<td>ZATU650</td><td><esp:link page="o0030560">ZATU650</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030560.jpg" description="Image of ZATU650."/></td><td></td></tr>
+<tr>
+<td>ZATU651</td><td><esp:link page="o0030564">ZATU651</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035949.jpg" description="Image of ZATU651."/></td><td></td></tr>
+<tr>
+<td>ZATU652</td><td><esp:link page="o0030565">|ZATU651×AN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030565.jpg" description="Image of |ZATU651×AN|."/></td><td></td></tr>
+<tr>
+<td>ZATU653</td><td><esp:link page="o0037604">|ZATU651×EN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030566.jpg" description="Image of |ZATU651×EN|."/></td><td></td></tr>
+<tr>
+<td>ZATU654</td><td><esp:link page="o0030567">|ZATU651×GAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030567.jpg" description="Image of |ZATU651×GAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU655</td><td><esp:link page="o0030569">|ZATU651×MA|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030569.jpg" description="Image of |ZATU651×MA|."/></td><td></td></tr>
+<tr>
+<td>ZATU656</td><td><esp:link page="o0037606">|ZATU651×NUN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030571.jpg" description="Image of |ZATU651×NUN|."/></td><td></td></tr>
+<tr>
+<td>ZATU657</td><td><esp:link page="o0037610">|ZATU651×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030573.jpg" description="Image of |ZATU651×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU658</td><td><esp:link page="o0030562">ZATU651@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030562.jpg" description="Image of ZATU651@g."/></td><td></td></tr>
+<tr>
+<td>ZATU659</td><td><esp:link page="o0030578">ZATU659</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030578.jpg" description="Image of ZATU659."/></td><td></td></tr>
+<tr>
+<td>ZATU660</td><td><esp:link page="o0030584">|ZATU659×1(N58@t)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030584.jpg" description="Image of |ZATU659×1(N58@t)|."/></td><td></td></tr>
+<tr>
+<td>ZATU661</td><td><esp:link page="o0030582">|ZATU659×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030582.jpg" description="Image of |ZATU659×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU662</td><td><esp:link page="o0030585">ZATU662</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035957.jpg" description="Image of ZATU662."/></td><td></td></tr>
+<tr>
+<td>ZATU663</td><td><esp:link page="o0030587">|ZATU662×1(N14)|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035953.jpg" description="Image of |ZATU662×1(N14)|."/></td><td></td></tr>
+<tr>
+<td>ZATU664</td><td><esp:link page="o0030589">ZATU664</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030589.jpg" description="Image of ZATU664."/></td><td></td></tr>
+<tr>
+<td>ZATU665</td><td><esp:link page="o0030591">ZATU665</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030591.jpg" description="Image of ZATU665."/></td><td></td></tr>
+<tr>
+<td>ZATU666</td><td><esp:link page="o0030593">ZATU666</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030593.jpg" description="Image of ZATU666."/></td><td></td></tr>
+<tr>
+<td>ZATU667</td><td><esp:link page="o0030594">ZATU667</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030594.jpg" description="Image of ZATU667."/></td><td></td></tr>
+<tr>
+<td>ZATU668</td><td><esp:link page="o0030596">ZATU668</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030596.jpg" description="Image of ZATU668."/></td><td></td></tr>
+<tr>
+<td>ZATU669</td><td><esp:link page="o0030598">ZATU669</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030598.jpg" description="Image of ZATU669."/></td><td></td></tr>
+<tr>
+<td>ZATU670</td><td><esp:link page="o0030600">ZATU670</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030600.jpg" description="Image of ZATU670."/></td><td></td></tr>
+<tr>
+<td>ZATU671</td><td/><td/><td>Damaged, identification uncertain.</td></tr>
+<tr>
+<td>ZATU672</td><td><esp:link page="o0030602">ZATU672</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030602.jpg" description="Image of ZATU672."/></td><td></td></tr>
+<tr>
+<td>ZATU673</td><td><esp:link page="o0000101">ANŠE~e</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028269.jpg" description="Image of ANŠE~e."/></td><td></td></tr>
+<tr>
+<td>ZATU674</td><td><esp:link page="o0030603">ZATU674</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030603.jpg" description="Image of ZATU674."/></td><td></td></tr>
+<tr>
+<td>ZATU675</td><td><esp:link page="o0036229">ZATU675</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030604.jpg" description="Image of ZATU675."/></td><td></td></tr>
+<tr>
+<td>ZATU676</td><td><esp:link page="o0036231">ZATU676</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030609.jpg" description="Image of ZATU676."/></td><td></td></tr>
+<tr>
+<td>ZATU677</td><td><esp:link page="o0036233">ZATU677</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030613.jpg" description="Image of ZATU677."/></td><td></td></tr>
+<tr>
+<td>ZATU678</td><td><esp:link page="o0030617">ZATU678</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030617.jpg" description="Image of ZATU678."/></td><td></td></tr>
+<tr>
+<td>ZATU679</td><td><esp:link page="o0030619">ZATU679</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030619.jpg" description="Image of ZATU679."/></td><td></td></tr>
+<tr>
+<td>ZATU680</td><td><esp:link page="o0036875">ZATU680</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030621.jpg" description="Image of ZATU680."/></td><td></td></tr>
+<tr>
+<td>ZATU681</td><td><esp:link page="o0030631">ZATU681</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030631.jpg" description="Image of ZATU681."/></td><td></td></tr>
+<tr>
+<td>ZATU682</td><td><esp:link page="o0030633">ZATU682</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030633.jpg" description="Image of ZATU682."/></td><td></td></tr>
+<tr>
+<td>ZATU683</td><td><esp:link page="o0036234">ZATU683</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030635.jpg" description="Image of ZATU683."/></td><td></td></tr>
+<tr>
+<td>ZATU684</td><td><esp:link page="o0030641">ZATU684</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030641.jpg" description="Image of ZATU684."/></td><td></td></tr>
+<tr>
+<td>ZATU685</td><td><esp:link page="o0030643">ZATU685</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030643.jpg" description="Image of ZATU685."/></td><td></td></tr>
+<tr>
+<td>ZATU686</td><td><esp:link page="o0036235">ZATU686</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030645.jpg" description="Image of ZATU686."/></td><td></td></tr>
+<tr>
+<td>ZATU687</td><td><esp:link page="o0030651">ZATU687</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030651.jpg" description="Image of ZATU687."/></td><td></td></tr>
+<tr>
+<td>ZATU688</td><td><esp:link page="o0036236">ZATU688</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030653.jpg" description="Image of ZATU688."/></td><td></td></tr>
+<tr>
+<td>ZATU689</td><td><esp:link page="o0030656">ZATU689</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030656.jpg" description="Image of ZATU689."/></td><td></td></tr>
+<tr>
+<td>ZATU690</td><td><esp:link page="o0030658">ZATU690</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030658.jpg" description="Image of ZATU690."/></td><td></td></tr>
+<tr>
+<td>ZATU691</td><td><esp:link page="o0030660">ZATU691</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030660.jpg" description="Image of ZATU691."/></td><td></td></tr>
+<tr>
+<td>ZATU692</td><td><esp:link page="o0030662">ZATU692</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030662.jpg" description="Image of ZATU692."/></td><td></td></tr>
+<tr>
+<td>ZATU693</td><td><esp:link page="o0030664">ZATU693</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035967.jpg" description="Image of ZATU693."/></td><td></td></tr>
+<tr>
+<td>ZATU694</td><td><esp:link page="o0036238">ZATU694</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030668.jpg" description="Image of ZATU694."/></td><td></td></tr>
+<tr>
+<td>ZATU695</td><td><esp:link page="o0030676">ZATU695</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030676.jpg" description="Image of ZATU695."/></td><td></td></tr>
+<tr>
+<td>ZATU696</td><td><esp:link page="o0030678">ZATU696</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030678.jpg" description="Image of ZATU696."/></td><td></td></tr>
+<tr>
+<td>ZATU697</td><td><esp:link page="o0036240">ZATU697</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030680.jpg" description="Image of ZATU697."/></td><td></td></tr>
+<tr>
+<td>ZATU698</td><td><esp:link page="o0036795">DU₈~c@g</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0028467.jpg" description="Image of DU₈~c@g."/></td><td></td></tr>
+<tr>
+<td>ZATU699</td><td><esp:link page="o0036241">ZATU699</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030686.jpg" description="Image of ZATU699."/></td><td></td></tr>
+<tr>
+<td>ZATU700</td><td><esp:link page="o0030690">ZATU700</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030690.jpg" description="Image of ZATU700."/></td><td></td></tr>
+<tr>
+<td>ZATU701</td><td><esp:link page="o0030692">ZATU701</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030692.jpg" description="Image of ZATU701."/></td><td></td></tr>
+<tr>
+<td>ZATU702</td><td><esp:link page="o0030694">ZATU702</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030694.jpg" description="Image of ZATU702."/></td><td></td></tr>
+<tr>
+<td>ZATU703</td><td><esp:link page="o0030696">ZATU703</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030696.jpg" description="Image of ZATU703."/></td><td></td></tr>
+<tr>
+<td>ZATU704</td><td><esp:link page="o0030698">ZATU704</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030698.jpg" description="Image of ZATU704."/></td><td></td></tr>
+<tr>
+<td>ZATU705</td><td><esp:link page="o0030700">ZATU705</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030700.jpg" description="Image of ZATU705."/></td><td></td></tr>
+<tr>
+<td>ZATU706</td><td><esp:link page="o0030702">ZATU706</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030702.jpg" description="Image of ZATU706."/></td><td></td></tr>
+<tr>
+<td>ZATU707</td><td><esp:link page="o0036243">ZATU707</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030704.jpg" description="Image of ZATU707."/></td><td></td></tr>
+<tr>
+<td>ZATU708</td><td><esp:link page="o0030708">ZATU708</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030708.jpg" description="Image of ZATU708."/></td><td></td></tr>
+<tr>
+<td>ZATU709</td><td><esp:link page="o0030710">ZATU709</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030710.jpg" description="Image of ZATU709."/></td><td></td></tr>
+<tr>
+<td>ZATU710</td><td><esp:link page="o0030712">ZATU710</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035978.jpg" description="Image of ZATU710."/></td><td></td></tr>
+<tr>
+<td>ZATU711</td><td><esp:link page="o0030714">ZATU711</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035980.jpg" description="Image of ZATU711."/></td><td></td></tr>
+<tr>
+<td>ZATU712</td><td><esp:link page="o0037612">|ZATU711×HI@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030715.jpg" description="Image of |ZATU711×HI@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU713</td><td><esp:link page="o0030719">ZATU713</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030719.jpg" description="Image of ZATU713."/></td><td></td></tr>
+<tr>
+<td>ZATU714</td><td><esp:link page="o0030721">ZATU714</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030721.jpg" description="Image of ZATU714."/></td><td></td></tr>
+<tr>
+<td>ZATU715</td><td><esp:link page="o0036696">|ZATU714×HI@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030725.jpg" description="Image of |ZATU714×HI@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU716</td><td><esp:link page="o0030723">|ZATU714.RU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030723.jpg" description="Image of |ZATU714.RU|."/></td><td></td></tr>
+<tr>
+<td>ZATU717</td><td><esp:link page="o0030729">ZATU717</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030729.jpg" description="Image of ZATU717."/></td><td></td></tr>
+<tr>
+<td>ZATU718</td><td><esp:link page="o0030731">ZATU718</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030731.jpg" description="Image of ZATU718."/></td><td></td></tr>
+<tr>
+<td>ZATU719</td><td><esp:link page="o0030733">ZATU719</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030733.jpg" description="Image of ZATU719."/></td><td></td></tr>
+<tr>
+<td>ZATU720</td><td><esp:link page="o0030735">ZATU720</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030735.jpg" description="Image of ZATU720."/></td><td></td></tr>
+<tr>
+<td>ZATU721</td><td><esp:link page="o0030737">ZATU721</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030737.jpg" description="Image of ZATU721."/></td><td></td></tr>
+<tr>
+<td>ZATU722</td><td><esp:link page="o0030739">ZATU722</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030739.jpg" description="Image of ZATU722."/></td><td></td></tr>
+<tr>
+<td>ZATU723</td><td><esp:link page="o0030741">ZATU723</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030741.jpg" description="Image of ZATU723."/></td><td></td></tr>
+<tr>
+<td>ZATU724</td><td><esp:link page="o0030743">ZATU724</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030743.jpg" description="Image of ZATU724."/></td><td></td></tr>
+<tr>
+<td>ZATU725</td><td><esp:link page="o0030744">ZATU725</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035982.jpg" description="Image of ZATU725."/></td><td></td></tr>
+<tr>
+<td>ZATU726</td><td><esp:link page="o0036244">ZATU726</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030746.jpg" description="Image of ZATU726."/></td><td></td></tr>
+<tr>
+<td>ZATU727</td><td><esp:link page="o0030752">ZATU727</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030752.jpg" description="Image of ZATU727."/></td><td></td></tr>
+<tr>
+<td>ZATU728</td><td><esp:link page="o0030754">ZATU728</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030754.jpg" description="Image of ZATU728."/></td><td></td></tr>
+<tr>
+<td>ZATU729</td><td><esp:link page="o0030755">ZATU729</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035984.jpg" description="Image of ZATU729."/></td><td></td></tr>
+<tr>
+<td>ZATU730</td><td><esp:link page="o0030757">ZATU730</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030757.jpg" description="Image of ZATU730."/></td><td></td></tr>
+<tr>
+<td>ZATU731</td><td><esp:link page="o0030578">ZATU659</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030578.jpg" description="Image of ZATU659."/></td><td></td></tr>
+<tr>
+<td>ZATU732</td><td><esp:link page="o0030759">ZATU732</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030759.jpg" description="Image of ZATU732."/></td><td></td></tr>
+<tr>
+<td>ZATU733</td><td><esp:link page="o0030761">ZATU733</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030761.jpg" description="Image of ZATU733."/></td><td></td></tr>
+<tr>
+<td>ZATU734</td><td><esp:link page="o0030763">ZATU734</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030763.jpg" description="Image of ZATU734."/></td><td></td></tr>
+<tr>
+<td>ZATU735</td><td><esp:link page="o0036246">ZATU735</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030765.jpg" description="Image of ZATU735."/></td><td></td></tr>
+<tr>
+<td>ZATU736</td><td><esp:link page="o0036248">ZATU736</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030771.jpg" description="Image of ZATU736."/></td><td></td></tr>
+<tr>
+<td>ZATU737</td><td><esp:link page="o0030775">ZATU737</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035992.jpg" description="Image of ZATU737."/></td><td></td></tr>
+<tr>
+<td>ZATU738</td><td><esp:link page="o0037616">|ZATU737×AB|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030776.jpg" description="Image of |ZATU737×AB|."/></td><td></td></tr>
+<tr>
+<td>ZATU739</td><td><esp:link page="o0030782">|ZATU737×DI|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035994.jpg" description="Image of |ZATU737×DI|."/></td><td></td></tr>
+<tr>
+<td>ZATU740</td><td><esp:link page="o0037622">|ZATU737×EN|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030786.jpg" description="Image of |ZATU737×EN|."/></td><td></td></tr>
+<tr>
+<td>ZATU741</td><td><esp:link page="o0030790">|ZATU737×GAR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0035990.jpg" description="Image of |ZATU737×GAR|."/></td><td></td></tr>
+<tr>
+<td>ZATU742</td><td><esp:link page="o0030794">|ZATU737×NIMGIR|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030794.jpg" description="Image of |ZATU737×NIMGIR|."/></td><td></td></tr>
+<tr>
+<td>ZATU743</td><td><esp:link page="o0030796">|ZATU737×SAL|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030796.jpg" description="Image of |ZATU737×SAL|."/></td><td></td></tr>
+<tr>
+<td>ZATU744</td><td><esp:link page="o0037628">|ZATU737×SU|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030798.jpg" description="Image of |ZATU737×SU|."/></td><td></td></tr>
+<tr>
+<td>ZATU745</td><td><esp:link page="o0037631">|ZATU737×ŠE|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030800.jpg" description="Image of |ZATU737×ŠE|."/></td><td></td></tr>
+<tr>
+<td>ZATU746</td><td><esp:link page="o0037633">|ZATU737×ŠITA@g|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030804.jpg" description="Image of |ZATU737×ŠITA@g|."/></td><td></td></tr>
+<tr>
+<td>ZATU747</td><td><esp:link page="o0030806">|ZATU737×U₄|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030806.jpg" description="Image of |ZATU737×U₄|."/></td><td></td></tr>
+<tr>
+<td>ZATU748</td><td><esp:link page="o0037629">|ZATU737×UNUG|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030808.jpg" description="Image of |ZATU737×UNUG|."/></td><td></td></tr>
+<tr>
+<td>ZATU749</td><td><esp:link page="o0036250">ZATU749</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030812.jpg" description="Image of ZATU749."/></td><td></td></tr>
+<tr>
+<td>ZATU750</td><td><esp:link page="o0030818">ZATU750</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036000.jpg" description="Image of ZATU750."/></td><td></td></tr>
+<tr>
+<td>ZATU751</td><td><esp:link page="o0036252">ZATU751</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030820.jpg" description="Image of ZATU751."/></td><td></td></tr>
+<tr>
+<td>ZATU752</td><td><esp:link page="o0030824">ZATU752</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036006.jpg" description="Image of ZATU752."/></td><td></td></tr>
+<tr>
+<td>ZATU753</td><td><esp:link page="o0030826">ZATU753</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030826.jpg" description="Image of ZATU753."/></td><td></td></tr>
+<tr>
+<td>ZATU754</td><td><esp:link page="o0030828">ZATU754</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030828.jpg" description="Image of ZATU754."/></td><td></td></tr>
+<tr>
+<td>ZATU755</td><td><esp:link page="o0036254">ZATU755</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030830.jpg" description="Image of ZATU755."/></td><td></td></tr>
+<tr>
+<td>ZATU756</td><td><esp:link page="o0030834">ZATU756</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036008.jpg" description="Image of ZATU756."/></td><td></td></tr>
+<tr>
+<td>ZATU757</td><td><esp:link page="o0030835">ZATU757</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036010.jpg" description="Image of ZATU757."/></td><td></td></tr>
+<tr>
+<td>ZATU758</td><td><esp:link page="o0030837">ZATU758</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030837.jpg" description="Image of ZATU758."/></td><td></td></tr>
+<tr>
+<td>ZATU759</td><td><esp:link page="o0030839">ZATU759</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036011.jpg" description="Image of ZATU759."/></td><td></td></tr>
+<tr>
+<td>ZATU760</td><td><esp:link page="o0037640">|ZATU759×KU₆|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030843.jpg" description="Image of |ZATU759×KU₆|."/></td><td></td></tr>
+<tr>
+<td>ZATU761</td><td><esp:link page="o0030849">ZATU761</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030849.jpg" description="Image of ZATU761."/></td><td></td></tr>
+<tr>
+<td>ZATU762</td><td><esp:link page="o0036256">ZATU762</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030851.jpg" description="Image of ZATU762."/></td><td></td></tr>
+<tr>
+<td>ZATU763</td><td><esp:link page="o0037644">|ZATU762×NIM|</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030853.jpg" description="Image of |ZATU762×NIM|."/></td><td></td></tr>
+<tr>
+<td>ZATU764</td><td><esp:link page="o0030858">ZATU764</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030858.jpg" description="Image of ZATU764."/></td><td></td></tr>
+<tr>
+<td>ZATU765</td><td><esp:link page="o0030859">ZATU765</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030859.jpg" description="Image of ZATU765."/></td><td></td></tr>
+<tr>
+<td>ZATU766</td><td><esp:link page="o0030860">ZATU766</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030860.jpg" description="Image of ZATU766."/></td><td></td></tr>
+<tr>
+<td>ZATU767</td><td><esp:link page="o0030861">ZATU767</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030861.jpg" description="Image of ZATU767."/></td><td></td></tr>
+<tr>
+<td>ZATU768</td><td><esp:link page="o0030863">ZATU768</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030863.jpg" description="Image of ZATU768."/></td><td></td></tr>
+<tr>
+<td>ZATU769</td><td><esp:link page="o0030865">ZATU769</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030865.jpg" description="Image of ZATU769."/></td><td></td></tr>
+<tr>
+<td>ZATU770</td><td/><td/><td>Damaged; ATU 833 = ATU 1, 442 = P001011 ATU 5, pl. 034, W 9071,h; excluded from CDLI list.</td></tr>
+<tr>
+<td>ZATU771</td><td><esp:link page="o0030867">ZATU771</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030867.jpg" description="Image of ZATU771."/></td><td></td></tr>
+<tr>
+<td>ZATU772</td><td><esp:link page="o0030869">ZATU772</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030869.jpg" description="Image of ZATU772."/></td><td></td></tr>
+<tr>
+<td>ZATU773</td><td><esp:link page="o0036258">ZATU773</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030871.jpg" description="Image of ZATU773."/></td><td></td></tr>
+<tr>
+<td>ZATU774</td><td><esp:link page="o0030874">ZATU774</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030874.jpg" description="Image of ZATU774."/></td><td></td></tr>
+<tr>
+<td>ZATU775</td><td><esp:link page="o0030876">ZATU775</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030876.jpg" description="Image of ZATU775."/></td><td></td></tr>
+<tr>
+<td>ZATU776</td><td><esp:link page="o0030878">ZATU776</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036018.jpg" description="Image of ZATU776."/></td><td></td></tr>
+<tr>
+<td>ZATU777</td><td><esp:link page="o0030880">ZATU777</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036019.jpg" description="Image of ZATU777."/></td><td></td></tr>
+<tr>
+<td>ZATU778</td><td><esp:link page="o0030881">ZATU778</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030881.jpg" description="Image of ZATU778."/></td><td></td></tr>
+<tr>
+<td>ZATU779</td><td><esp:link page="o0030883">ZATU779</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030883.jpg" description="Image of ZATU779."/></td><td></td></tr>
+<tr>
+<td>ZATU780</td><td><esp:link page="o0030885">ZATU780</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030885.jpg" description="Image of ZATU780."/></td><td></td></tr>
+<tr>
+<td>ZATU781</td><td><esp:link page="o0030886">ZATU781</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030886.jpg" description="Image of ZATU781."/></td><td></td></tr>
+<tr>
+<td>ZATU782</td><td><esp:link page="o0030887">ZATU782</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030887.jpg" description="Image of ZATU782."/></td><td></td></tr>
+<tr>
+<td>ZATU783</td><td><esp:link page="o0030888">ZATU783</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030888.jpg" description="Image of ZATU783."/></td><td></td></tr>
+<tr>
+<td>ZATU784</td><td><esp:link page="o0030889">ZATU784</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030889.jpg" description="Image of ZATU784."/></td><td></td></tr>
+<tr>
+<td>ZATU785</td><td><esp:link page="o0030891">ZATU785</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030891.jpg" description="Image of ZATU785."/></td><td></td></tr>
+<tr>
+<td>ZATU786</td><td><esp:link page="o0030893">ZATU786</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030893.jpg" description="Image of ZATU786."/></td><td></td></tr>
+<tr>
+<td>ZATU787</td><td><esp:link page="o0030895">ZATU787</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030895.jpg" description="Image of ZATU787."/></td><td></td></tr>
+<tr>
+<td>ZATU788</td><td><esp:link page="o0030896">ZATU788</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030896.jpg" description="Image of ZATU788."/></td><td></td></tr>
+<tr>
+<td>ZATU789</td><td><esp:link page="o0030898">ZATU789</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030898.jpg" description="Image of ZATU789."/></td><td></td></tr>
+<tr>
+<td>ZATU790</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU791</td><td><esp:link page="o0030900">ZATU791</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030900.jpg" description="Image of ZATU791."/></td><td></td></tr>
+<tr>
+<td>ZATU792</td><td><esp:link page="o0030902">ZATU792</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030902.jpg" description="Image of ZATU792."/></td><td></td></tr>
+<tr>
+<td>ZATU793</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU794</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU795</td><td><esp:link page="o0030904">ZATU795</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030904.jpg" description="Image of ZATU795."/></td><td></td></tr>
+<tr>
+<td>ZATU796</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU797</td><td><esp:link page="o0030906">ZATU797</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030906.jpg" description="Image of ZATU797."/></td><td></td></tr>
+<tr>
+<td>ZATU798</td><td><esp:link page="o0030907">ZATU798</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030907.jpg" description="Image of ZATU798."/></td><td></td></tr>
+<tr>
+<td>ZATU799</td><td><esp:link page="o0030909">ZATU799</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030909.jpg" description="Image of ZATU799."/></td><td></td></tr>
+<tr>
+<td>ZATU800</td><td><esp:link page="o0030911">ZATU800</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030911.jpg" description="Image of ZATU800."/></td><td></td></tr>
+<tr>
+<td>ZATU801</td><td><esp:link page="o0030913">ZATU801</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030913.jpg" description="Image of ZATU801."/></td><td></td></tr>
+<tr>
+<td>ZATU802</td><td><esp:link page="o0030915">ZATU802</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030915.jpg" description="Image of ZATU802."/></td><td></td></tr>
+<tr>
+<td>ZATU803</td><td><esp:link page="o0030916">ZATU803</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030916.jpg" description="Image of ZATU803."/></td><td></td></tr>
+<tr>
+<td>ZATU804</td><td><esp:link page="o0030918">ZATU804</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030918.jpg" description="Image of ZATU804."/></td><td></td></tr>
+<tr>
+<td>ZATU805</td><td><esp:link page="o0030920">ZATU805</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030920.jpg" description="Image of ZATU805."/></td><td></td></tr>
+<tr>
+<td>ZATU806</td><td><esp:link page="o0030921">ZATU806</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030921.jpg" description="Image of ZATU806."/></td><td></td></tr>
+<tr>
+<td>ZATU807</td><td><esp:link page="o0030923">ZATU807</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030923.jpg" description="Image of ZATU807."/></td><td></td></tr>
+<tr>
+<td>ZATU808</td><td><esp:link page="o0030925">ZATU808</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030925.jpg" description="Image of ZATU808."/></td><td></td></tr>
+<tr>
+<td>ZATU809</td><td><esp:link page="o0030927">ZATU809</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030927.jpg" description="Image of ZATU809."/></td><td></td></tr>
+<tr>
+<td>ZATU810</td><td><esp:link page="o0030929">ZATU810</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030929.jpg" description="Image of ZATU810."/></td><td></td></tr>
+<tr>
+<td>ZATU811</td><td><esp:link page="o0030931">ZATU811</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030931.jpg" description="Image of ZATU811."/></td><td></td></tr>
+<tr>
+<td>ZATU812</td><td><esp:link page="o0030933">ZATU812</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030933.jpg" description="Image of ZATU812."/></td><td></td></tr>
+<tr>
+<td>ZATU813</td><td><esp:link page="o0030935">ZATU813</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030935.jpg" description="Image of ZATU813."/></td><td></td></tr>
+<tr>
+<td>ZATU814</td><td><esp:link page="o0030937">ZATU814</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030937.jpg" description="Image of ZATU814."/></td><td></td></tr>
+<tr>
+<td>ZATU815</td><td><esp:link page="o0030939">ZATU815</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030939.jpg" description="Image of ZATU815."/></td><td></td></tr>
+<tr>
+<td>ZATU816</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU817</td><td><esp:link page="o0030941">ZATU817</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030941.jpg" description="Image of ZATU817."/></td><td></td></tr>
+<tr>
+<td>ZATU818</td><td><esp:link page="o0030942">ZATU818</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030942.jpg" description="Image of ZATU818."/></td><td></td></tr>
+<tr>
+<td>ZATU819</td><td><esp:link page="o0030943">ZATU819</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030943.jpg" description="Image of ZATU819."/></td><td></td></tr>
+<tr>
+<td>ZATU820</td><td><esp:link page="o0030945">ZATU820</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030945.jpg" description="Image of ZATU820."/></td><td></td></tr>
+<tr>
+<td>ZATU821</td><td><esp:link page="o0030947">ZATU821</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030947.jpg" description="Image of ZATU821."/></td><td></td></tr>
+<tr>
+<td>ZATU822</td><td><esp:link page="o0030949">ZATU822</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030949.jpg" description="Image of ZATU822."/></td><td></td></tr>
+<tr>
+<td>ZATU823</td><td><esp:link page="o0030951">ZATU823</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030951.jpg" description="Image of ZATU823."/></td><td></td></tr>
+<tr>
+<td>ZATU824</td><td><esp:link page="o0030953">ZATU824</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030953.jpg" description="Image of ZATU824."/></td><td></td></tr>
+<tr>
+<td>ZATU825</td><td><esp:link page="o0030955">ZATU825</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030955.jpg" description="Image of ZATU825."/></td><td></td></tr>
+<tr>
+<td>ZATU826</td><td><esp:link page="o0030957">ZATU826</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030957.jpg" description="Image of ZATU826."/></td><td></td></tr>
+<tr>
+<td>ZATU827</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU828</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU829</td><td><esp:link page="o0030959">ZATU829</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030959.jpg" description="Image of ZATU829."/></td><td></td></tr>
+<tr>
+<td>ZATU830</td><td/><td/><td>Vacat.</td></tr>
+<tr>
+<td>ZATU831</td><td><esp:link page="o0030963">ZATU831</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030963.jpg" description="Image of ZATU831."/></td><td></td></tr>
+<tr>
+<td>ZATU832</td><td><esp:link page="o0030965">ZATU832</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030965.jpg" description="Image of ZATU832."/></td><td></td></tr>
+<tr>
+<td>ZATU833</td><td><esp:link page="o0030967">ZATU833</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030967.jpg" description="Image of ZATU833."/></td><td></td></tr>
+<tr>
+<td>ZATU834</td><td><esp:link page="o0030969">ZATU834</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030969.jpg" description="Image of ZATU834."/></td><td></td></tr>
+<tr>
+<td>ZATU835</td><td><esp:link page="o0030971">ZATU835</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030971.jpg" description="Image of ZATU835."/></td><td></td></tr>
+<tr>
+<td>ZATU836</td><td><esp:link page="o0030973">ZATU836</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030973.jpg" description="Image of ZATU836."/></td><td></td></tr>
+<tr>
+<td>ZATU837</td><td><esp:link page="o0036260">ZATU837</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030975.jpg" description="Image of ZATU837."/></td><td></td></tr>
+<tr>
+<td>ZATU838</td><td><esp:link page="o0030978">ZATU838</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030978.jpg" description="Image of ZATU838."/></td><td></td></tr>
+<tr>
+<td>ZATU839</td><td><esp:link page="o0030980">ZATU839</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0036023.jpg" description="Image of ZATU839."/></td><td></td></tr>
+<tr>
+<td>ZATU840</td><td><esp:link page="o0030982">ZATU840</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030982.jpg" description="Image of ZATU840."/></td><td></td></tr>
+<tr>
+<td>ZATU841</td><td><esp:link page="o0030984">ZATU841</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030984.jpg" description="Image of ZATU841."/></td><td></td></tr>
+<tr>
+<td>ZATU842</td><td><esp:link page="o0030985">ZATU842</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030985.jpg" description="Image of ZATU842."/></td><td></td></tr>
+<tr>
+<td>ZATU843</td><td><esp:link page="o0030986">ZATU843</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030986.jpg" description="Image of ZATU843."/></td><td></td></tr>
+<tr>
+<td>ZATU844</td><td><esp:link page="o0030988">ZATU844</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030988.jpg" description="Image of ZATU844."/></td><td></td></tr>
+<tr>
+<td>ZATU845</td><td><esp:link page="o0030990">ZATU845</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030990.jpg" description="Image of ZATU845."/></td><td></td></tr>
+<tr>
+<td>ZATU846</td><td><esp:link page="o0030992">ZATU846</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030992.jpg" description="Image of ZATU846."/></td><td></td></tr>
+<tr>
+<td>ZATU847</td><td><esp:link page="o0030994">ZATU847</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030994.jpg" description="Image of ZATU847."/></td><td></td></tr>
+<tr>
+<td>ZATU848</td><td><esp:link page="o0030995">ZATU848</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030995.jpg" description="Image of ZATU848."/></td><td></td></tr>
+<tr>
+<td>ZATU849</td><td><esp:link page="o0030997">ZATU849</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030997.jpg" description="Image of ZATU849."/></td><td></td></tr>
+<tr>
+<td>ZATU850</td><td><esp:link page="o0030999">ZATU850</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0030999.jpg" description="Image of ZATU850."/></td><td></td></tr>
+<tr>
+<td>ZATU851</td><td><esp:link page="o0031001">ZATU851</esp:link></td><td><esp:image url="/pcsl/images/add/ZATU851.png" description="Image of ZATU851."/></td><td></td></tr>
+<tr>
+<td>ZATU852</td><td><esp:link page="o0031003">ZATU852</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031003.jpg" description="Image of ZATU852."/></td><td></td></tr>
+<tr>
+<td>ZATU853</td><td><esp:link page="o0031005">ZATU853</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031005.jpg" description="Image of ZATU853."/></td><td></td></tr>
+<tr>
+<td>ZATU854</td><td><esp:link page="o0031007">ZATU854</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031007.jpg" description="Image of ZATU854."/></td><td></td></tr>
+<tr>
+<td>ZATU855</td><td><esp:link page="o0031009">ZATU855</esp:link></td><td><esp:image url="/pcsl/images/cdli-gh/o0031009.jpg" description="Image of ZATU855."/></td><td></td></tr>
+<tr>
+<td>ZATU856</td><td><esp:link page="o0030077">ZATU856</esp:link></td><td><esp:image url="/pcsl/images/add/ZATU856.png" description="Image of ZATU856."/></td><td></td></tr>
+<tr>
+<td>ZATU857</td><td><esp:link page="o0035626">ZATU857</esp:link></td><td><esp:image url="/pcsl/images/add/ZATU857.png" description="Image of ZATU857."/></td><td></td></tr>
+<tr>
+<td>ZATU858</td><td><esp:link page="o0035628">ZATU858</esp:link></td><td><esp:image url="/pcsl/images/add/ZATU858.png" description="Image of ZATU858."/></td><td></td></tr>
+<tr>
+<td>ZATU859</td><td><esp:link page="o0036713">ZATU859</esp:link></td><td><esp:image url="/pcsl/images/add/ZATU859.png" description="Image of ZATU859."/></td><td></td></tr>
+</table>
+</body></html></esp:page>

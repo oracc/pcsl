@@ -13,14 +13,14 @@
       sources.</p>
 
       <p>You can browse the signlist <esp:link
-      url="/pctc/signlist">here</esp:link></p>
+      url="/pcsl/signlist">here</esp:link></p>
 
       <esp:sh>PCSL File Format</esp:sh>
 
       <p>PCSL is maintained in the Oracc ASL format as defined for
       <esp:link
-      url="https://build-oracc.museum.upenn.edu/ogsl/aslogslfileformat/">the
-      Oracc Global Sign List</esp:link>.</p>
+      url="https://build-oracc.museum.upenn.edu/osl/asloslfileformat/">the
+      Oracc Sign List</esp:link>.</p>
       
       <esp:sh>PCSL Architecture</esp:sh>
 

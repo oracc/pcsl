@@ -1,4 +1,4 @@
-@project pctc
+@project pcsl
 @signlist pcsl
 
 @inote	uage meanings:
@@ -48,8 +48,8 @@
 @sysdef CDLI-gh CDLI-github sign list
 @note	Available at https://cdli-gh.github.io/proto-cuneiform_signs/.
 
-@sysdef CDLI-tc CDLI text corpus--the CDLI transliterations
-@note	The CDLI corpus is available at https://cdli.mpiwg-berlin.mpg.de/ or at http://oracc.org/pctc.
+@sysdef CDLI-tc CDLI text corpus--the CDLI transliterations of Uruk IV and Uruk III texts
+@note	This corpus is available at https://cdli.mpiwg-berlin.mpg.de/ or at http://oracc.org/pcsl.
 	Transliteration conventions do not always match CDLI-gh.
 
 @sysdef CUSAS01 S.F. Monaco, The Cornell University Archaic Tablets (CUSAS 1), Bethesda, MD, 2007.
