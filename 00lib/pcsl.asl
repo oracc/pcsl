@@ -76,7 +76,7 @@
 @sysdef UNMKEY INTERNAL
 @inote	An internal uname key for correctly generating AP23 Unicode names with VARIANT.
 
-@images 00etc/im-cdli-gh.tab
+@images 00etc/im-l23190.tab
 
 @images 00etc/im-add.tab
 

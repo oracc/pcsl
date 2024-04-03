@@ -9,7 +9,7 @@
   <xsl:value-of select="concat(
 			.,'&#x9;',
 			ancestor::*[@xml:id][1]/@xml:id,'&#x9;',
-			ancestor::*[@xml:id][1]/@n,
+			ancestor::*[@xml:id][1]/@n,'&#x9;',
 			ancestor::*[@xml:id][1]/@sort,
 			'&#xa;')"/>
 </xsl:template>

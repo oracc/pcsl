@@ -24,7 +24,7 @@ my %unin = ();
 my %unir = ();
 
 my @frompdf = `cat data/ap-list-from-pdf.tab`; chomp @frompdf;
-my @pcsl = `cat data/pcsl-swaps.tab`; chomp @pcsl;
+my @pcsl = `cat data/pcsl-noswaps.tab`; chomp @pcsl;
 my @ignore = `cat data/ignore`; chomp @ignore;
 my %ignore = (); @ignore{@ignore} = ();
 my @unidata = `cat data/ap23-proto-cuneiform-chardata.txt`; chomp @unidata;

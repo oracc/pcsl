@@ -1,18 +1,14 @@
 all: swaps master compare
 
 MASTER_FILES= \
+	Makefile \
 	bin/master.plx \
 	data/ap-list-from-pdf.tab \
 	data/pcsl-noswaps.tab \
-	data/pcsl-swaps.tab \
 	data/ignore \
 	data/ap23-proto-cuneiform-chardata.txt
 
-slxml: data/sl.xml
-
-pcsl: /home/oracc/pctc/02xml/sl.xml
-
-/home/oracc/pctc/02xml/sl.xml: 
+#	data/pcsl-swaps.tab 
 
 data: data/sl.xml data/pcsl-noswaps.tab
 
