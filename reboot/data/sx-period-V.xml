@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esp:page xmlns="http://www.w3.org/1999/xhtml" xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns:g="http://oracc.org/ns/gdl/1.0">
+  <esp:name>Only in Uruk V</esp:name>
+  <esp:title>Only in Uruk V</esp:title>
+  <html>
+    <head/>
+    <body>
+      <table class="pretty">
+        <thead>
+          <td style="width:40%;">NAME</td>
+          <td style="width:10%;">UAGE</td>
+          <td style="width:40%;">IMAGE</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0031343">5(N23)</esp:link>
+            </td>
+            <td>1</td>
+            <td>
+              <esp:image class="middle" height="30px" url="/pctc/images/cdli-gh/o0031343.jpg" description="CDLI image of 5N23"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0036270">11(N14)</esp:link>
+            </td>
+            <td>9</td>
+            <td>
+              <esp:image class="middle" height="30px" url="/pctc/images/add/11N14.png" description="ADD image of 11N14"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0036291">1(N45~t)</esp:link>
+            </td>
+            <td>0</td>
+            <td>
+              <p>The ~t in this sign stands for 'token'.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0036294">22(N14)</esp:link>
+            </td>
+            <td>9</td>
+            <td>
+              <esp:image class="middle" height="30px" url="/pctc/images/add/22N14.png" description="ADD image of 22N14"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0036296">2(N14~t)</esp:link>
+            </td>
+            <td>0</td>
+            <td>
+              <p>The ~t in this sign stands for 'token'.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0036300">2(N39~t)</esp:link>
+            </td>
+            <td>0</td>
+            <td>
+              <p>the ~t in this sign stands for 'token'.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <esp:link url="/pctc/signlist/o0036310">5(N39~t)</esp:link>
+            </td>
+            <td>0</td>
+            <td>
+              <p>the ~t in this sign stands for 'token'.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </body>
+  </html>
+</esp:page>
