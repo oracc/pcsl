@@ -6,7 +6,9 @@
     <head/>
     <body>
       <esp:image height="200px" position="float"
-		 file="kasz-a-v1.png" description="KASZ-a-v1, an archaic sign for beer"/>
+		 file="kasz-a-v1.png" description="KASZ-a-v1, an archaic sign for beer">
+	<esp:caption>Uruk IV period sign for KAŠ, "beer".</esp:caption>
+      </esp:image>
 
       <p>This project is based on the CDLI corpus of Proto-Cuneiform
       texts from the Uruk IV and III periods. It also hosts a
