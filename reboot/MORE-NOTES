@@ -1,8 +1,6 @@
 AN~v1 should be deleted because functionally identical to AN
 KIŠ~a glyph
 MA and MA~v1 should be reversed
-RAD~a@t has wrong glyph, not TENU but identical to RAD~a
-RIₓ delete because RI₈~v2 is same
 ŠE₃@t~v1 should be ŠE₃~v1@t
 ŠUBUR broken
 ŠITA@g names need realigning
@@ -16,6 +14,17 @@ NINDA₂×AN+ME broken x3
 |DUG~b×X|~v1 |DUG~b~v1×X|
 are there really any @f numbers in Uruk IV/III?
 KA₂×LAM broken
-|MUŠEN×PAP~a| is wrong glyph; extant glyph is another form of |MUŠEN.UR₃|
 |NUN~b+EN~a~v2| CDLI-gh is broken
 |UŠ~b×TAR~c|~v1 should be |UŠ~b~v1×TAR~c|?
+SUHUR was renamed to SUHUR~a but this is now undone
+|MUŠEN.UR₃~b2| reference glyph is from a less fully written version of the sign than the occurrence in P003441 because ref glyph is in ATU 5
+
+DELETE DUG~d
+ADD DUG~cx@t
+
+DELETE |MUŠEN×PAP~a| questionable, occurring once in an unpublished Umma text P006107 = MS 2686 ii 3
+RIₓ delete because RI₈~v2 is same
+
+NEEDGLYPH
+RAD~a should be rotated to align with RAD~b; RAD~a@t is the horizontal version and is correct
+GUG₂×ŠITA~a1 has SILA₃ instead of ŠITA~a1--needs vertical at start or drop because only Umma P006324 ii 1

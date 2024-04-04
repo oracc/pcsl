@@ -6322,6 +6322,10 @@
 @sys	LLATU:242_01 KA~a
 @sys	AP23 KA~a
 @@
+@compoundonly KA~a~v1
+@inote KA with closed eye like SAG with closed eye and with teeth like KA~a
+@compoundonly KA~a~v2
+@inote KA with closed eye but only one outward tooth
 @end sign
 
 @sign |KA.ŠE|
@@ -7213,6 +7217,8 @@
 @sys	AP23 KUSZU2~f
 @@
 @end sign
+
+@compoundonly KUŠU₂~a@t
 
 @sign LA
 @list	ZATU306
@@ -11361,16 +11367,15 @@
 @end sign
 
 @sign SUHUR
-@smap	SUHUR~a
 @list	BAU215
 @list	ZATU491
 @uage	0
 @sys	LLATU:286_03 SUHUR
-@form SUHUR~a
 @uname	PROTO-CUNEIFORM SIGN SUHUR
 @uage	1
 @sys	AP23 SUHUR
-@@
+@compoundonly SUHUR~v1
+@compoundonly SUHUR~v2
 @form SUHUR~b
 @inote	CUSAS01
 @uage	2
@@ -11798,7 +11803,7 @@
 @sign |ŠE.GAR|
 @smap	|ŠE~a.GAR|
 @uage	0
-@form |ŠE~a@t.GAR|
+@form |ŠE~a@t~v1.GAR|
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -11865,6 +11870,8 @@
 @sys	LLATU:292_06 ŠE~a@t
 @sys	AP23 SZE~a@t
 @@
+@compoundonly ŠE₃@t~v1
+@inote This is the 45 degree tenu ŠE~a@t
 @end sign
 
 @sign ŠE₃
