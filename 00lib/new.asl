@@ -4068,7 +4068,7 @@
 @sign |GA₂×(GU₄.ŠE₃)|
 @list	ZATU169
 @uage	0
-@form |GA₂~a2×(ŠE₃~v1.GU4)|
+@form |GA₂~a2×(ŠE₃~v1.GU₄)|
 @aka	|GA₂~a2×(GU₄.ŠE₃)|
 @uname	PROTO-CUNEIFORM SIGN GA2-A2 TIMES GU4 BESIDE SHE3
 @uage	1
@@ -11451,7 +11451,6 @@
 @sign SUHUR
 @list	BAU215
 @list	ZATU491
-@uage	0
 @sys	LLATU:286_03 SUHUR
 @uname	PROTO-CUNEIFORM SIGN SUHUR
 @uage	1
@@ -20049,21 +20048,28 @@
 @uage	1
 @sys	AP23 1(N63)
 @end sign
+
+@compoundonly	3(N08)~v1
+@compoundonly	4(N08)~v1
+@compoundonly	SILA₃~a~v1
 @compoundonly	|(BU.DU₆)&(BU.DU₆)|
 @compoundonly	|(BU~a.DU₆~a)&(BU~a.DU₆)|
-@compoundonly	|DUG&DUG|
-@compoundonly	|DUG~b&DUG~b|
-@compoundonly	|HI×N04|
-@compoundonly	|SILA₃×UMBIN|
-@compoundonly	|SILA₃~a×UMBIN~a|
-@compoundonly	|UDU~a×TAR|
-@compoundonly	|UKKIN×1(N57)|
-@compoundonly	|UKKIN~b~v1×1(N57)|
-@compoundonly	|HI×HI|
-@compoundonly	|ŠA×HI@g~a|
 @compoundonly	|(HI×1(N57))&(HI×1(N57))|
+@compoundonly	|BAR×UŠ|
+@compoundonly	|BAR×UŠ~a|
+@compoundonly	|DUG&DUG|
+@compoundonly	|DUG~b~v1&DUG~b~v1|
+@compoundonly	|HI×HI|
+@compoundonly	|HI×N04|
+@compoundonly	|SILA₃~a×UMBIN~a|
+@compoundonly	|SILA₃×UMBIN|
+@compoundonly	|UDU~a×TAR|
+@compoundonly	|UKKIN~b~v1×1(N57)|
+@compoundonly	|UKKIN×1(N57)|
 @compoundonly	|U₄×(1(N14).3(N01))|
 @compoundonly	|ZI₃&ZI₃|
 @compoundonly	|ZU&ZU|
-@compoundonly	|BAR×UŠ|
-@compoundonly	|BAR×UŠ~a|
+@compoundonly	|ŠA×HI@g~a|
+@compoundonly	ŠE~a@t~v1
+@compoundonly	ŠITA~b1@g
+@compoundonly	ŠUBUR~v1
