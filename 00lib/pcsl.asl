@@ -5945,7 +5945,8 @@
 @uage	1
 @sys	AP23 |HI.SUHUR|
 @@
-@form |HI.SUHUR|~v2
+@form |HI.SUHUR~v2|
+@aka |HI.SUHUR|~v2
 @uname	PROTO-CUNEIFORM SIGN HI BESIDE SUHUR VARIANT 2
 @uage	1
 @sys	AP23 |HI.SUHUR|
