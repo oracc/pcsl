@@ -22453,3 +22453,4 @@
 @compoundonly	|ŠA×HI@g~a|
 @compoundonly	ŠITA~b1@g
 @compoundonly	ŠUBUR~v1
+@compoundonly	GUDU₄
