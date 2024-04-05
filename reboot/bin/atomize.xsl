@@ -6,7 +6,11 @@
 	       version="1.0">
 
 <xsl:output method="text" encoding="utf-8"/>
-  
+
+<xsl:key name="sign" match="sl:sign" use="@n"/>
+<xsl:key name="form" match="sl:form" use="@n"/>
+<xsl:key name="aka" match="sl:aka" use="@n"/>
+
 <xsl:template match="sl:sign|sl:form">
   <xsl:if test="not(sl:uage='0') and sl:sys[@name='AP23'][not(@token='not')]">
     <xsl:if test="starts-with(@n,'|')">
@@ -20,6 +24,50 @@
     </xsl:if>
   </xsl:if>
   <xsl:apply-templates select="sl:form"/>
+</xsl:template>
+
+<xsl:template name="print-atom">
+  <xsl:param name="atom"/>
+  <xsl:variable name="anode">
+    <xsl:for-each select="key('aka',$atom)">
+      <xsl:value-of select="ancestor::*[@xml:id][1]/@xml:id"/>
+    </xsl:for-each>
+  </xsl:variable>
+  <xsl:choose>
+    <xsl:when test="string-length($anode)">
+      <xsl:if test="id($anode)/@compoundonly='yes'"><xsl:text>--</xsl:text></xsl:if>
+      <xsl:value-of select="id($anode)/@n"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:variable name="snode">
+	<xsl:for-each select="key('sign',$atom)">
+	  <xsl:value-of select="@xml:id"/>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:choose>
+	<xsl:when test="string-length($snode)>0">
+	  <xsl:if test="id($snode)/@compoundonly='yes'"><xsl:text>--</xsl:text></xsl:if>
+	  <xsl:value-of select="$atom"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:variable name="fnode">
+	    <xsl:for-each select="key('form',$atom)">
+	      <xsl:value-of select="@xml:id"/>
+	    </xsl:for-each>
+	  </xsl:variable>
+	  <xsl:choose>
+	    <xsl:when test="string-length($fnode)>0">
+	      <xsl:if test="id($fnode)/@compoundonly='yes'"><xsl:text>--</xsl:text></xsl:if>
+	      <xsl:value-of select="$atom"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:message>atom = <xsl:value-of select="$atom"/> is not a sign or form</xsl:message>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
 <xsl:template mode="atom" match="g:o"/>
@@ -41,36 +89,73 @@
 </xsl:template>
 
 <xsl:template mode="atom" match="g:n">
-  <xsl:value-of select="@form"/>
+  <xsl:call-template name="print-atom">
+    <xsl:with-param name="atom" select="@form"/>
+  </xsl:call-template>
 </xsl:template>
 
 <xsl:template mode="atom" match="g:s">
   <xsl:choose>
     <xsl:when test="g:b">
+      <!--if this is inside a compound treat the whole grapheme with m
+           and a nodes as a unit; if not, treat each segment ending
+           with an m node as a unit-->
       <xsl:choose>
-	<xsl:when test="g:m">
-	  <xsl:for-each select="g:m">
-	    <xsl:for-each select="preceding-sibling::*|.">
-	      <xsl:apply-templates mode="atom" select="."/>
-	    </xsl:for-each>
-	    <xsl:if test="not(position()=last())">
-	      <xsl:text>&#x9;</xsl:text>
-	    </xsl:if>
-	  </xsl:for-each>
+	<xsl:when test="ancestor::g:c">
+	  <xsl:variable name="form">
+	    <xsl:apply-templates mode="group"/>
+	  </xsl:variable>
+	  <xsl:message>g:b unit = <xsl:value-of select="$form"/></xsl:message>
+	  <xsl:call-template name="print-atom">
+	    <xsl:with-param name="atom" select="$form"/>
+	  </xsl:call-template>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:apply-templates mode="atom"/>
+	  <xsl:choose>
+	    <xsl:when test="g:m">
+	      <xsl:for-each select="g:m">
+		<xsl:for-each select="preceding-sibling::*|.">
+		  <xsl:apply-templates mode="atom" select="."/>
+		</xsl:for-each>
+		<xsl:if test="not(position()=last())">
+		  <xsl:text>&#x9;</xsl:text>
+		</xsl:if>
+	      </xsl:for-each>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:apply-templates mode="atom"/>
+	    </xsl:otherwise>
+	  </xsl:choose>
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:when>
     <xsl:otherwise>
-      <xsl:value-of select="."/>
+      <xsl:call-template name="print-atom">
+	<xsl:with-param name="atom" select="text()"/>
+      </xsl:call-template>
     </xsl:otherwise>
   </xsl:choose>
 </xsl:template>
 
 <xsl:template mode="atom" match="g:g">
-  <xsl:apply-templates mode="group"/>
+  <xsl:choose>
+    <xsl:when test="g:o[not(@g:type='beside')]">
+      <xsl:variable name="form">
+	<xsl:text>|</xsl:text>
+	<xsl:apply-templates mode="group"/>
+	<xsl:text>|</xsl:text>
+      </xsl:variable>
+      <xsl:call-template name="print-atom">
+	<xsl:with-param name="atom" select="$form"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:for-each select="*">
+	<xsl:text>&#x9;</xsl:text>
+	<xsl:apply-templates mode="atom" select="."/>
+      </xsl:for-each>
+    </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
 <xsl:template mode="group" match="g:o">

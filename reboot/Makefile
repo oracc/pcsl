@@ -12,8 +12,8 @@ MASTER_FILES= \
 
 data: data/sl.xml data/pcsl-noswaps.tab
 
-data/sl.xml:
-	scp dev:/home/oracc/pctc/02xml/sl.xml data
+data/sl.xml: /home/oracc/pcsl/02xml/sl.xml
+	cp -a /home/oracc/pcsl/02xml/sl.xml data
 
 data/pcsl-noswaps.tab: data/sl.xml bin/pcsl.xsl
 	xsltproc bin/pcsl.xsl data/sl.xml >data/pcsl-noswaps.tab
@@ -40,8 +40,8 @@ c1.html c2.html c3.html: master.tab
 
 atoms: atoms.html
 
-data/atomized.tab: data/sl.xml
-	xsltproc bin/atomized.xsl data/sl.xml >data/atomized.tab
+data/atomized.tab: data/sl.xml bin/atomize.xsl master.tab
+	xsltproc bin/atomize.xsl data/sl.xml >data/atomized.tab 2>atomizer.log
 
 atoms.html: data/atomized.tab bin/compare-atoms.plx
-	bin/compare-atoms.plx -f data/atomized.tab 2>atoms.log
+	bin/compare-atoms.plx -f data/atomized.tab 2>atomized.log

@@ -36,16 +36,17 @@ foreach (@r) {
 		%d = %{$m{$a}};
 		print "<td>";
 		if ($font) {
-		    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span>";
+		    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span></td>";
 		} else {
 		    print "<img height=\"80px\" src=\"/Users/stinney/orc/pctc/00res/images/L23190/u$d{'ucode'}.png\"/></td>";
 		}
 	    } else {
 		my $xa = xmlify($a);
 		print "<td>$xa</td>";
-		warn "$nm: atom $a not in master.tab\n" unless $a eq 'X';
+		warn "$nm: atom $a not in master.tab\n" unless $a =~ /^--/;
 	    }
 	}
+	print '</tr>';
     } else {
 	warn "$nm: not in master.tab\n";
     }
@@ -55,7 +56,7 @@ html_tail();
 #####################################################################
 
 sub html_head {
-    print '<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/><title>Atom Comparison</title></head><body><table>';
+    print '<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>Atom Comparison</title></head><body><table>';
 }
 
 sub html_tail {
