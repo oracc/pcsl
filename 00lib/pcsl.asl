@@ -11951,7 +11951,7 @@
 @sys	LLATU:292_06 ŠE~a@t
 @sys	AP23 SZE~a@t
 @@
-@compoundonly ŠE₃~a@t~v1
+@compoundonly ŠE~a@t~v1
 @inote This is the 45 degree tenu ŠE~a@t
 @end sign
 
