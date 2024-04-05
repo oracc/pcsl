@@ -5931,7 +5931,7 @@
 @@
 @end sign
 
-@sign |HI.SUHUR~v2|
+@sign |HI.SUHUR|
 @aka	|HI.SUHUR|
 @aka	|HI+SUHUR|
 @list	ZATU256
