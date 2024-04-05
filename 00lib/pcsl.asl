@@ -12784,6 +12784,7 @@
 @inote This is the plus-shaped cross that is called ×TAR in |NINDA₂×((UDU~a×TAR)~b)|, |(UDU~a×TAR)~b|, |(U₈×TAR)~b|
 @@
 @compoundonly TAR~c
+@inote This is the reversed ŠU₂-like sign in |AMAR×TAR|, |UŠ×TAR~c|
 @@
 @form TAR~d
 @list	BAU117
@@ -12791,7 +12792,6 @@
 @uname	PROTO-CUNEIFORM SIGN TAR-D
 @uage	1
 @sys	AP23 TAR~d
-@inote This is the reversed ŠU₂-like sign in |AMAR×TAR|, |UŠ×TAR~c|
 @@
 @end sign
 
@@ -20070,6 +20070,5 @@
 @compoundonly	|ZI₃&ZI₃|
 @compoundonly	|ZU&ZU|
 @compoundonly	|ŠA×HI@g~a|
-@compoundonly	ŠE~a@t~v1
 @compoundonly	ŠITA~b1@g
 @compoundonly	ŠUBUR~v1
