@@ -105,7 +105,7 @@
 	  <xsl:variable name="form">
 	    <xsl:apply-templates mode="group"/>
 	  </xsl:variable>
-	  <xsl:message>g:b unit = <xsl:value-of select="$form"/></xsl:message>
+	  <!--<xsl:message>g:b unit = <xsl:value-of select="$form"/></xsl:message>-->
 	  <xsl:call-template name="print-atom">
 	    <xsl:with-param name="atom" select="$form"/>
 	  </xsl:call-template>
@@ -150,9 +150,11 @@
       </xsl:call-template>
     </xsl:when>
     <xsl:otherwise>
-      <xsl:for-each select="*">
-	<xsl:text>&#x9;</xsl:text>
+      <xsl:for-each select="*[not(local-name()='o')]">
 	<xsl:apply-templates mode="atom" select="."/>
+	<xsl:if test="not(position()=last())">
+	  <xsl:text>&#x9;</xsl:text>
+	</xsl:if>
       </xsl:for-each>
     </xsl:otherwise>
   </xsl:choose>
