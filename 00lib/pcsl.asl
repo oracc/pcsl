@@ -4417,15 +4417,19 @@
 @end sign
 
 @sign |EZEN×6(N57)|
+@uage 0
+@form	|EZEN~b×6(N57)|
 @list	U+12CE0
 @ucun	𒳠
 @uname	PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57 VARIANT 1
 @uage	1
 @sys	LLATU:212_02 EZEN~b+6(N57)
 @sys	AP23 |EZEN~bx6(N57)|
+@@
 @form |EZEN~b×6(N57)|~v1
 @aka	|EZEN~b+6(N57)|
 @list	U+12CDF
+@uage	1
 @ucun	𒳟
 @uname	PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57
 @sys	AP23 |EZEN~bx6(N57)|
