@@ -13,6 +13,12 @@ GetOptions(
     f=>\$font,
     );
 
+my %ignore = (
+    '@r'=>1,
+    '|SUKUD+SUKUD|'=>1,
+    '|BU~a&BU~a|'=>1,
+    );
+
 my @r = (<>); chomp @r;
 my %m = (); load_master();
 open(H,'>atoms.html'); select H;
@@ -41,9 +47,11 @@ foreach (@r) {
 		    print "<img height=\"80px\" src=\"/Users/stinney/orc/pctc/00res/images/L23190/u$d{'ucode'}.png\"/></td>";
 		}
 	    } else {
-		my $xa = xmlify($a);
-		print "<td>$xa</td>";
-		warn "$nm: atom $a not in master.tab\n" unless $a =~ /^--/;
+		unless ($ignore{$a}) {
+		    my $xa = xmlify($a);
+		    print "<td>$xa</td>";
+		    warn "$nm: atom $a not in master.tab\n" unless $a =~ /^--/;
+		}
 	    }
 	}
 	print '</tr>';

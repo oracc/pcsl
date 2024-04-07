@@ -1,4 +1,6 @@
-all: swaps master compare
+all: master compare
+
+# swaps
 
 MASTER_FILES= \
 	Makefile \
