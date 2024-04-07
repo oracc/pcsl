@@ -4418,6 +4418,7 @@
 
 @sign |EZEN×6(N57)|
 @uage 0
+@note PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
 @form	|EZEN~b×6(N57)|
 @list	U+12CE0
 @ucun	𒳠
