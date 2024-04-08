@@ -24812,6 +24812,10 @@
 @uage 0
 @end sign
 
+@sign	|HI×1(N57).AN|
+@uage 0
+@end sign
+
 @compoundonly	3(N08)~v1
 @compoundonly	4(N08)~v1
 @compoundonly	SILA₃~a~v1
