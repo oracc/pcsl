@@ -32,7 +32,7 @@ data/pcsl-swaps.tab: data/swap1.tab data/swap2.tab data/pcsl-noswaps.tab
 
 renames: data/renames.tab
 
-data/renames.tab: data/pcsl-swaps.tab data/pcsl.tab
+data/renames.tab: data/pcsl-noswaps.tab data/pcsl.tab bin/renames.sh bin/rename-diff.plx bin/compare-renames.plx
 	bin/renames.sh
 
 compare: c1.html c2.html c3.html

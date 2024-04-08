@@ -27,7 +27,7 @@ foreach (@porder) {
     my $nname = $n{$_};
     if ($nname && $oname ne $nname) {
 	if (!$k{$nname}) {
-	    print "$p{$p{$_}}\t$oname\t$nname\n";
+	    print "$_\t$p{$p{$_}}\t$oname\t$nname\n";
 	}
     }
     # print "$p{$_}\t$p{$p{$_}}\t$_\n";
@@ -52,7 +52,7 @@ sub load_newnames {
 }
 
 sub load_pcsl {
-    my @p = `cat data/pcsl-swaps.tab`; chomp @p;
+    my @p = `cat data/pcsl-noswaps.tab`; chomp @p;
     foreach (@p) {
 	my($n,$o,$t) = split(/\t/,$_);
 	push @porder, $t;
