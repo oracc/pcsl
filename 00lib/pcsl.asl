@@ -24807,8 +24807,10 @@
 @sys	AP23 1(N63)
 @end sign
 
-@compoundonly	|X.2(N01)|
-@compoundonly	|(X.2(N01))|
+@sign	|X+2(N01)|
+@uage 0
+@end sign
+
 @compoundonly	3(N08)~v1
 @compoundonly	4(N08)~v1
 @compoundonly	SILA₃~a~v1
