@@ -9534,8 +9534,6 @@
 @uage	1
 @sys	AP23 LAM~b
 @@
-@compoundonly LAM~b3
-@@
 @form LAM~c
 @list	BAU120
 @list	BAU122
