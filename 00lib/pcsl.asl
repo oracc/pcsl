@@ -7814,14 +7814,12 @@
 @uage	1
 @sys	AP23 KA2~d
 @@
-@compoundonly KA₂~d1
-@@
 @end sign
 
 @sign |KA₂×LAM|
+@aka	|KA₂+LAM|
 @uage 0
 @form |KA₂~d×LAM~b~v2|
-@aka	|KA₂+LAM|
 @list	ZATU276
 @uname	PROTO-CUNEIFORM SIGN KA2 TIMES LAM
 @list	U+12D5A
