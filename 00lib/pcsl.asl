@@ -24808,6 +24808,7 @@
 @end sign
 
 @compoundonly	|X.2(N01)|
+@compoundonly	|(X.2(N01))|
 @compoundonly	3(N08)~v1
 @compoundonly	4(N08)~v1
 @compoundonly	SILA₃~a~v1
