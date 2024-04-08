@@ -72,14 +72,15 @@ h3 { text-align: center; }
 .newname { font-size: 80%; }
 .tlit { font-size: 80%; }
 thead { border: 2px solid black; }
-thead td { text-align: center; }
+thead td { text-align: left; }
+thead td.atoms { text-align: center; }
 </style></head><body>';
     print <<EOF;
 <h3>AP23 Unicode Names versus AP23 Unicode Names</h3
 ><p>This table contains signs whose Unicode names have changed in PCSL versus AP23.</p>
 EOF
-    print '<table rules="rows">';
-    print '<thead><tr><td>PCSL</td><td>AP23 name/PCSL name</td><td>Glyph</td><td colspan="2">Atoms</td></tr></thead>';
+    print '<table rules="rows" width="80%" style="margin: auto;">';
+    print '<thead><tr><td>PCSL</td><td>AP23 name/PCSL name</td><td>Glyph</td><td colspan="2" class="atoms">Atoms</td></tr></thead>';
 }
 
 sub html_tail {

@@ -77,14 +77,15 @@ h3 { text-align: center; }
 .newname { font-size: 80%; }
 .tlit { font-size: 80%; }
 thead { border: 2px solid black; }
-thead td { text-align: center; }
+thead td { text-align: left; }
+thead td.atoms { text-align: center; }
 </style></head><body>';
     print <<EOF;
 <h3>Glyphs and their Atoms</h3
 ><p>This table contains signs that have other signs as components.</p>
 EOF
-    print '<table rules="rows" width="90%" style="margin: auto;">';
-    print '<thead><tr><td>PCSL</td><td>Glyph</td><td colspan="2">Atoms</td></tr></thead>';
+    print '<table rules="rows" width="80%" style="margin: auto;">';
+    print '<thead><tr><td>PCSL</td><td>Glyph</td><td colspan="2" class="atoms">Atoms</td></tr></thead>';
 }
 
 sub html_tail {
