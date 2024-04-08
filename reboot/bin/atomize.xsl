@@ -139,7 +139,7 @@
 
 <xsl:template mode="atom" match="g:g">
   <xsl:choose>
-    <xsl:when test="g:o[not(@g:type='beside')]">
+    <xsl:when test="g:o[not(@g:type='beside')] or count(g:g)>0">
       <xsl:variable name="form">
 	<xsl:text>|</xsl:text>
 	<xsl:apply-templates mode="group"/>
@@ -170,6 +170,12 @@
       <xsl:message>no render for g:o <xsl:value-of select="g:type"/></xsl:message>
     </xsl:otherwise>
   </xsl:choose>
+</xsl:template>
+
+<xsl:template mode="group" match="g:g">
+  <xsl:text>(</xsl:text>
+  <xsl:apply-templates mode="group"/>
+  <xsl:text>)</xsl:text>
 </xsl:template>
 
 <xsl:template mode="group" match="g:b">

@@ -49,8 +49,8 @@
 |DU₈~c×HI|	DU₈~c	HI
 |DU₈~c×UDU~a|	DU₈~c	UDU~a
 |DU₈~c×X|	DU₈~c	--X
-|(DUB@n~a×1(N58))~a|	--|DUB@n~a×1(N58)|	
-|(DUB@n~a×1(N58))~b|	--|DUB@n~a×1(N58)|	
+|(DUB@n~a×1(N58))~a|	|(DUB@n~a×1(N58))~a|
+|(DUB@n~a×1(N58))~b|	|(DUB@n~a×1(N58))~b|
 |DUB@n~b×1(N58)~a|	--DUB@n~b	1(N58)
 |DUG~b~v1×AB₂|	DUG~b~v1	AB₂
 |DUG~b×ANŠE~b|	DUG~b	ANŠE~b
@@ -59,7 +59,7 @@
 |DUG~b×BIR₃~c|	DUG~b	BIR₃~c
 |DUG~b×DIN|	DUG~b	DIN
 |DUG~b~v1×DIN|	DUG~b~v1	DIN
-|(DUG~b×DIN)@r|	|DUG~b×DIN|	@r
+|(DUG~b×DIN)@r|	|(DUG~b×DIN)@r|
 |DUG~b×E~a|	DUG~b	E~a
 |DUG~b×GA~a~v4|	DUG~b	GA~a~v4
 |DUG~b×GA~b|	DUG~b	GA~b
@@ -194,8 +194,8 @@
 |GA₂~a1×SUHUR|	GA₂~a1	SUHUR
 |GA₂~a2×SUHUR|	GA₂~a2	SUHUR
 |GA₂~a1×SUKUD|	GA₂~a1	SUKUD
-|GA₂~a1×((SUKUD+SUKUD)~a)|	GA₂~a1	|SUKUD+SUKUD|	
-|GA₂~a1×((SUKUD+SUKUD)~b)|	GA₂~a1	|SUKUD+SUKUD|	
+|GA₂~a1×((SUKUD+SUKUD)~a)|	GA₂~a1	|(SUKUD+SUKUD)~a|
+|GA₂~a1×((SUKUD+SUKUD)~b)|	GA₂~a1	|(SUKUD+SUKUD)~b|
 |GA₂~a1×SUMAŠ|	GA₂~a1	SUMAŠ
 |GA₂~a1×ŠA|	GA₂~a1	ŠA
 |GA₂~a2×ŠE₃~v1|	GA₂~a2	ŠE₃~v1
@@ -244,9 +244,9 @@
 |GIR₃~a×ŠE~b|	GIR₃~a	ŠE~b
 |GIR₃~c×ŠE₃~v1|	GIR₃~c	ŠE₃~v1
 |GIŠ.TE|	GIŠ	TE
-|(GIŠ×(DIN.DIN))~a|		
-|(GIŠ×(DIN.DIN))~b|		
-|(GIŠ×(DIN.DIN))~c|		
+|(GIŠ×(DIN.DIN))~a|	|(GIŠ×(DIN.DIN))~a|
+|(GIŠ×(DIN.DIN))~b|	|(GIŠ×(DIN.DIN))~b|
+|(GIŠ×(DIN.DIN))~c|	|(GIŠ×(DIN.DIN))~c|
 |GIŠ×ŠU₂~a|	GIŠ	ŠU₂~a
 |GIŠ×ŠU₂~b|	GIŠ	ŠU₂~b
 |GIŠ@t.E₂~a|	GIŠ@t	E₂~a
@@ -275,7 +275,7 @@
 |KA~a~v1.ŠE~a|	--KA~a~v1	ŠE~a
 |KA~a~v2.ŠE~a@t|	--KA~a~v2	ŠE~a@t
 |KA~a×SAR~a|	KA~a	SAR~a
-|KA₂×LAM|	KA₂	LAM
+|KA₂~d×LAM~b~v2|	KA₂~d	LAM~b~v2
 |KAB×1(N58)|	KAB	1(N58)
 |KAK~a.GA₂~a1|	KAK~a	GA₂~a1
 |KAŠ~b~v1×ŠE~a@t~v1|	KAŠ~b~v1	--ŠE~a@t~v1
@@ -469,12 +469,12 @@
 |SILA₃~a×(ZATU659.TU~c)|	SILA₃~a	ZATU659	TU~c
 |SILA₃~c×ZATU687|	SILA₃~c	ZATU687
 |SU~a×1(N58)|	SU~a	1(N58)
-|(SUKUD+SUKUD)~a|	|SUKUD+SUKUD|	
-|(SUKUD+SUKUD)~b|	|SUKUD+SUKUD|	
-|(SUKUD+SUKUD)~c|	|SUKUD+SUKUD|	
-|(SUKUD+SUKUD)~d|	|SUKUD+SUKUD|	
-|(ŠA×HI@g~a)~a|	--|ŠA×HI@g~a|	
-|(ŠA×HI@g~a)~b|	--|ŠA×HI@g~a|	
+|(SUKUD+SUKUD)~a|	|(SUKUD+SUKUD)~a|
+|(SUKUD+SUKUD)~b|	|(SUKUD+SUKUD)~b|
+|(SUKUD+SUKUD)~c|	|(SUKUD+SUKUD)~c|
+|(SUKUD+SUKUD)~d|	|(SUKUD+SUKUD)~d|
+|(ŠA×HI@g~a)~a|	|(ŠA×HI@g~a)~a|
+|(ŠA×HI@g~a)~b|	|(ŠA×HI@g~a)~b|
 |ŠE~a.KIN₂~c|	ŠE~a	KIN₂~c
 |ŠE~a.NAM₂|	ŠE~a	NAM₂
 |ŠE~a.NAM₂|~v1	ŠE~a	NAM₂	
@@ -498,7 +498,7 @@
 |ŠU₂~a.EN~b~v1|	ŠU₂~a	EN~b~v1
 |ŠU₂~a.URI₃~a~v1|	ŠU₂~a	URI₃~a~v1
 |ŠU₂~a.AN|	ŠU₂~a	AN
-|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	ŠU₂~a	
+|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	ŠU₂~a	|(HI×1(N57)).(HI×1(N57))|
 |ŠU₂~b.GIŠ|	ŠU₂~b	GIŠ
 |ŠU₂~b.1(N02)|	ŠU₂~b	1(N02)
 |ŠU₂~b.2(N57)|	ŠU₂~b	2(N57)
@@ -557,7 +557,7 @@
 |U₄×10(N57)|	U₄	10(N57)
 |U₄×1(N58@t)|	U₄	1(N58)
 |U₄×X|	U₄	--X
-|U₄×(X+2(N01))|	U₄	
+|U₄×(X+2(N01))|	U₄	|X+2(N01)|
 |U₈×TAR~b|	U₈	--TAR~b
 |UDU~a×TAR~a|	UDU~a	TAR~a
 |UDU~a×TAR~b|	UDU~a	--TAR~b

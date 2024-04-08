@@ -17,6 +17,7 @@ my %ignore = (
     '@r'=>1,
     '|SUKUD+SUKUD|'=>1,
     '|BU~a&BU~a|'=>1,
+    '|X+2(N01)|'=>1,
     );
 
 my @r = (<>); chomp @r;
