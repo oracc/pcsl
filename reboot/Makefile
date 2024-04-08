@@ -1,4 +1,4 @@
-all: master compare
+all: master compare atoms
 
 # swaps
 
