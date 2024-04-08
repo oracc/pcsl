@@ -16,7 +16,9 @@ my %ignore = (); @ignore{@ignore} = ();
 my @r = (<>); chomp @r;
 my %a = (); load_atoms();
 my %d = (); load_drop();
+my %ser = ();
 my %m = (); my %k = (); load_master();
+my @rev = ();
 
 html_head();
 foreach (@r) {
@@ -37,11 +39,20 @@ foreach (@r) {
 	    atoms_of($d{'pcsl'});
 	}
 	print '</tr>';
+	# warn "pcsl = $d{'pcsl'}; ser = $ser{$d{'pcsl'}}\n";
+	push @rev, [ $ser{$d{'pcsl'}}, $nnm ];
     } else {
 	warn "$oid = $onm = $nnm not in master.tab\n" unless exists $ignore{$onm};
     }
 }
 html_tail();
+
+open(R,'>rev/rename.rev') || die;
+foreach (@rev) {
+    my($s,$n) = @{$_};
+    print R "$s\t$n\n";
+}
+close(R);
 
 #####################################################################
 
@@ -118,6 +129,7 @@ sub load_master {
 	$k{$d{'full'}} = $d{'short'};
 	$k{$d{'ooid'}} = $d{'short'};
 	$k{$d{'pcsl'}} = $d{'short'};
+	$ser{$d{'pcsl'}} = $d{'serial'};
     }
     close(M);
 }

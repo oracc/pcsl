@@ -1,8 +1,9 @@
-384.1	AN~v1
-500	DUG~d
-541	EZEN~c
-928	RI~x
-1723	|GUG₂~v1×ŠITA~a1|
-1820	|MUŠEN×PAP~a|
-1844.2	|NINDA₂×GUDU₄|~v2
-1844.3	|NINDA₂×GUDU₄|~v3
+384.1	AN~v1	# Duplicates 384 AN
+500	DUG~d	# Duplicates 499 DUG~c@t
+541	EZEN~c	# Duplicates 540 EZEN~b@t
+928	RI~x	# Duplicates 930 RI₈~b
+1516	|(BU~a&BU~a).NA2~b|	# Duplicates 1517 |(BU~a&BU~a).NA2~b|
+1723	|GUG₂~v1×ŠITA~a1|	# Incorrect glyph in unpublished Umma text
+1820	|MUŠEN×PAP~a|	# Incorrect glyph in unpublished Umma text
+1844.2	|NINDA₂×GUDU₄|~v2	# Duplicates 1846 |NINDA₂×(HI.AN.ME~a)|
+1844.3	|NINDA₂×GUDU₄|~v3	# Duplicates 1835 |NINDA₂×(AN.ME~a)|
