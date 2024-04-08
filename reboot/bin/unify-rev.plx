@@ -10,6 +10,7 @@ use Getopt::Long;
 GetOptions(
     );
 
+my @rfields = qw/a u n c/;
 my %r = ();
 
 load_add();
@@ -19,9 +20,30 @@ load_newglyph();
 load_remove();
 load_rename();
 
-print Dumper \%r;
+open(M,'master.tab') || die;
+open(N,'>revise.tab') || die; select N;
+while (<M>) {
+    chomp;
+    my($s,$rest) = (/^(.*?)\t(.*)$/);
+    if ($r{$s}) {
+	print_rev($s,$rest,%{$r{$s}});
+    } else {
+	print_rev($s,$rest,());
+    }
+}
+close(N);
+close(M);
 
 #############################################################################
+
+sub print_rev {
+    my($s,$rest,%r) = @_;
+    my $a = $r{'a'} || '';
+    my $c = $r{'c'} || '';
+    my $n = $r{'n'} || '';
+    my $u = $r{'u'} || '';
+    print "$s\t$a\t$u\t$n\t$c\t$rest\n";
+}
 
 sub load_add {
     my @r = load_rev('rev/add.rev');
@@ -29,7 +51,7 @@ sub load_add {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/s p u c t/} = (@f, 'add');
+	@d{qw/u c a/} = ($f[2], $f[3], 'add');
 	%{$r{$f[0]}} = %d;
     }
 }
@@ -40,7 +62,7 @@ sub load_delete {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/s p c t/} = (@f, 'delete');
+	@d{qw/c a/} = ($f[2], 'delete');
 	%{$r{$f[0]}} = %d;
     }
 }
@@ -51,7 +73,7 @@ sub load_ignore {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/s n t/} = (@f, 'ignore');
+	@d{qw/a/} = ('ignore');
 	%{$r{$f[0]}} = %d;
     }
 }
@@ -62,7 +84,7 @@ sub load_newglyph {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/s p u t/} = (@f, 'newglyph');
+	@d{qw/u a/} = ($f[2], 'newglyph');
 	%{$r{$f[0]}} = %d;
     }
 }
@@ -73,7 +95,7 @@ sub load_remove {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/s n t/} = (@f, 'remove');
+	@d{qw/a/} = ($f[2], 'remove');
 	%{$r{$f[0]}} = %d;
     }
 }
@@ -84,7 +106,7 @@ sub load_rename {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/s N t/} = (@f, 'rename');
+	@d{qw/n a/} = ($f[1], 'rename');
 	%{$r{$f[0]}} = %d;
     }
 }
