@@ -7827,7 +7827,13 @@
 @uage	1
 @sys	LLATU:242_03 KA₂+LAM
 @sys	AP23 |KA2xLAM|
-@note Needs new reference glyph based on P002179 = ATU 6, pl. 056, W 14777,c
+@note Needs new reference glyph based on P002179 = ATU 6, pl. 056, W
+      14777,c. The current glyph from CDLI-gh is used in LLATU 242_03
+      but the reference there, P000034 = ATU 3, pl. 76, W 20266,74 o i
+      7, is broken and the remaining traces do not conform to the
+      LLATU form of the sign.  Attested forms of KA₂×LAM are diverse
+      but the form in W 14777,c correlates to existing forms of KA₂
+      and LAM and is therefore a reasonable choice for reference glyph.
 @@
 @end sign
 
@@ -14016,6 +14022,7 @@
 @uage	0
 @form |(SUKUD+SUKUD)~a|
 @aka	|SUKUD+SUKUD~a|
+@aka	|((SUKUD+SUKUD)~a)|
 @uname	PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM A
 @list	U+12E39
 @ucun	𒸹
@@ -14024,6 +14031,7 @@
 @sys	AP23 |(SUKUD+SUKUD)~a|
 @@
 @form |(SUKUD+SUKUD)~b|
+@aka	|((SUKUD+SUKUD)~b)|
 @uname	PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM B
 @list	U+12E3A
 @ucun	𒸺
@@ -24799,6 +24807,7 @@
 @sys	AP23 1(N63)
 @end sign
 
+@compoundonly	|X+2(N01)|
 @compoundonly	3(N08)~v1
 @compoundonly	4(N08)~v1
 @compoundonly	SILA₃~a~v1
