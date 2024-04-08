@@ -15,20 +15,23 @@ my %ignore = (); @ignore{@ignore} = ();
 
 my @r = (<>); chomp @r;
 my %a = (); load_atoms();
+my %d = (); load_drop();
 my %m = (); my %k = (); load_master();
 
 html_head();
 foreach (@r) {
     my($pcsl,$oid,$onm,$nnm) = split(/\t/,$_);
+    next if exists $d{$pcsl};
     my $mkey = $k{$oid};
     if ($mkey && $m{$mkey}) {
 	my %d = %{$m{$mkey}};
-	my $xo = xmlify($onm);
-	my $xn = xmlify($nnm);
+	my $xo = xmlify(shorten($onm));
+	my $xn = xmlify(shorten($nnm));
 	my $xt = xmlify($d{'pcsl'});
 	my $img = img_of($d{'ucode'});
-	print "<tr><td>$xo<br/>$xn</td><td>$img</td>";
-	print "<td>$xt</td>";
+	print '<tr>';
+	print "<td><br/><span class=\"tlit\">$xt</span></td>";
+	print "<td><span class=\"oldname\">$xo</span><br/><span class=\"newname\">$xn</span></td><td>$img</td>";
 #<td>$xn</td>
 	if ($d{'pcsl'} =~ /^\|/) {
 	    atoms_of($d{'pcsl'});
@@ -54,7 +57,7 @@ sub atoms_of {
 	    } else {
 		s/^--//;
 		my $xt = xmlify($_);
-		print "<td>$xt</td>";
+		print "<td><span class=\"tlit\">$xt</span></td>";
 	    }
 	}
     } else {
@@ -63,7 +66,20 @@ sub atoms_of {
 }
 
 sub html_head {
-    print '<html><head><title>Comparison Table</title></head><body><table>';
+    print '<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>New Name Comparison Table</title><style>
+h3 { text-align: center; }
+.oldname { color: gray; font-size: 80%; }
+.newname { font-size: 80%; }
+.tlit { font-size: 80%; }
+thead { border: 2px solid black; }
+thead td { text-align: center; }
+</style></head><body>';
+    print <<EOF;
+<h3>AP23 Unicode Names versus AP23 Unicode Names</h3
+><p>This table contains signs whose Unicode names have changed in PCSL versus AP23.</p>
+EOF
+    print '<table rules="rows">';
+    print '<thead><tr><td>PCSL</td><td>AP23 name/PCSL name</td><td>Glyph</td><td colspan="2">Atoms</td></tr></thead>';
 }
 
 sub html_tail {
@@ -72,7 +88,7 @@ sub html_tail {
 
 sub img_of {
     my $u = shift;
-    "<img height=\"80px\" src=\"/pcsl/00res/images/L23190/u$u.png\"/>";
+    "<img height=\"80px\" src=\"/pcsl/images/L23190/u$u.png\"/>";
 }
 
 sub load_atoms {
@@ -81,6 +97,14 @@ sub load_atoms {
 	my($p,$atoms) = (/^(.*?)\t(.*?)$/);
 	$a{$p} = $atoms;
     }
+}
+
+sub load_drop {
+    my @d = `cat rev/remove.rev rev/delete.rev | cut -f2`; chomp @d;
+    @d{@d} = ();
+#    open(D,'>DROP') || die;
+#    print D Dumper \%d;
+#    close(D);
 }
 
 sub load_master {
@@ -95,6 +119,12 @@ sub load_master {
 	$k{$d{'pcsl'}} = $d{'short'};
     }
     close(M);
+}
+
+sub shorten {
+    my $n = shift;
+    $n =~ s/^PROTO-CUNEIFORM SIGN\s+//;
+    $n;
 }
 
 sub xmlify {

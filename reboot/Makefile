@@ -1,4 +1,4 @@
-all: master compare atoms
+all: master compare atoms renames
 
 # swaps
 
@@ -9,6 +9,11 @@ MASTER_FILES= \
 	data/pcsl-noswaps.tab \
 	data/ignore \
 	data/ap23-proto-cuneiform-chardata.txt
+
+RENAMES_FILES= \
+	data/pcsl-noswaps.tab data/pcsl.tab \
+	rev/remove.rev rev/delete.rev \
+	bin/renames.sh bin/rename-diff.plx bin/compare-renames.plx
 
 #	data/pcsl-swaps.tab 
 
@@ -32,7 +37,7 @@ data/pcsl-swaps.tab: data/swap1.tab data/swap2.tab data/pcsl-noswaps.tab
 
 renames: data/renames.tab
 
-data/renames.tab: data/pcsl-noswaps.tab data/pcsl.tab bin/renames.sh bin/rename-diff.plx bin/compare-renames.plx
+data/renames.tab: $(RENAMES_FILES)
 	bin/renames.sh
 
 compare: c1.html c2.html c3.html
@@ -46,4 +51,6 @@ data/atomized.tab: data/sl.xml bin/atomize.xsl master.tab
 	xsltproc bin/atomize.xsl data/sl.xml >data/atomized.tab 2>atomizer.log
 
 atoms.html: data/atomized.tab bin/compare-atoms.plx
-	bin/compare-atoms.plx -f data/atomized.tab 2>atomized.log
+	bin/compare-atoms.plx data/atomized.tab 2>atomized.log
+	sudo cp atoms.html /home/oracc/www/pcsl
+	sudo chmod o+r /home/oracc/www/pcsl/atoms.html

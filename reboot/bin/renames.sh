@@ -5,4 +5,6 @@ grep -v NUMBER data/pcsl-noswaps.tab | \
 # list AP23 and PCSL names that are different but not in known-renames.tab
 bin/rename-diff.plx >data/renames.tab
 # create proofing html for changed names
-bin/compare-renames.plx <data/renames.tab >r.html
+bin/compare-renames.plx <data/renames.tab >newnames.html
+sudo cp newnames.html /home/oracc/www/pcsl/newnames.html
+sudo chmod o+r /home/oracc/www/pcsl/newnames.html

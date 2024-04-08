@@ -4355,7 +4355,8 @@
 
 @sign |EZEN×(HI.1(N57).AN)|
 @uage	0
-@form |EZEN~a×(HI.1(N57).AN)|
+@form |EZEN~a×(HI×1(N57).AN)|
+@aka |EZEN~a×(HI.1(N57).AN)|
 @uname	PROTO-CUNEIFORM SIGN EZEN-A TIMES HI BESIDE ONE-N57 BESIDE AN
 @list	U+12CD2
 @ucun	𒳒

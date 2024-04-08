@@ -20,36 +20,42 @@ my %ignore = (
     '|X+2(N01)|'=>1,
     );
 
+my %d = (); load_drop();
 my @r = (<>); chomp @r;
 my %m = (); load_master();
 open(H,'>atoms.html'); select H;
 html_head();
 foreach (@r) {
     my($nm,@atoms) = split(/\t/,$_);
+    next if exists $d{$nm};
     if ($m{$nm}) {
 	my $xnm = xmlify($nm);
 	my %d = %{$m{$nm}};
-	print "<tr><td>+</td><td>$xnm</td><td>";
+	print "<tr><td>$xnm</td><td>";
 	if ($font) {
 	    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span>";
 	} else {
-	    print "<img height=\"80px\" src=\"/Users/stinney/orc/pctc/00res/images/L23190/u$d{'ucode'}.png\"/>";
+	    my $img = img_of($d{'ucode'});
+	    print "<td>$img</td>";
 	}
-	print "</td>";
+	print '</td>';
 	my %seen = ();
 	foreach my $a (@atoms) {
 	    next if $seen{$a}++;
 	    if ($m{$a}) {
 		%d = %{$m{$a}};
-		print "<td>";
+		print '<td>';
 		if ($font) {
-		    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span></td>";
+		    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span>";
 		} else {
-		    print "<img height=\"80px\" src=\"/Users/stinney/orc/pctc/00res/images/L23190/u$d{'ucode'}.png\"/></td>";
+		    my $img = img_of($d{'ucode'});
+		    print "$img";
 		}
+		print '</td>';
 	    } else {
 		unless ($ignore{$a}) {
 		    my $xa = xmlify($a);
+		    $xa =~ s/^--//;
 		    print "<td>$xa</td>";
 		    warn "$nm: atom $a not in master.tab\n" unless $a =~ /^--/;
 		}
@@ -65,11 +71,37 @@ html_tail();
 #####################################################################
 
 sub html_head {
-    print '<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>Atom Comparison</title></head><body><table>';
+    print '<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>Atoms Table</title><style>
+h3 { text-align: center; }
+.oldname { color: gray; font-size: 80%; }
+.newname { font-size: 80%; }
+.tlit { font-size: 80%; }
+thead { border: 2px solid black; }
+thead td { text-align: center; }
+</style></head><body>';
+    print <<EOF;
+<h3>Glyphs and their Atoms</h3
+><p>This table contains signs that have other signs as components.</p>
+EOF
+    print '<table rules="rows" width="90%" style="margin: auto;">';
+    print '<thead><tr><td>PCSL</td><td>Glyph</td><td colspan="2">Atoms</td></tr></thead>';
 }
 
 sub html_tail {
     print '</table></body></html>';
+}
+
+sub img_of {
+    my $u = shift;
+    "<img height=\"80px\" src=\"/pcsl/images/L23190/u$u.png\"/>";
+}
+
+sub load_drop {
+    my @d = `cat rev/remove.rev rev/delete.rev | cut -f2`; chomp @d;
+    @d{@d} = ();
+#    open(D,'>DROP') || die;
+#    print D Dumper \%d;
+#    close(D);
 }
 
 sub load_master {
