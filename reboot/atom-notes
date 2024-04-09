@@ -1,0 +1,60 @@
+AB₂×2(N14)~v1 better AB₂~v1×2(N14)
+
+BU~a×A should be BU~a~v1×A
+
+|(BU~a&BU~a).NA₂~a@n| should be |(BU~a~v1&BU~a~v1).NA₂~a@n| (ideally should be '%'/CROSSING)
+
+|GA₂~a1×(HI.SUHUR)| needs fixing
+
+|GA₂~a2×SUHUR| needs fixing
+
+|GAN~c×ŠE~a| should be |GAN~c~v2×ŠE~a|
+
+|GAN~c×ŠE₃@t~v1| should be |GAN~c~v2×ŠE₃@t~v1|
+
+|KAŠ~b~v1×ŠE~a@t~v1| is an approximation
+
+|LAGAB~a×DU₆~b| should be |LAGAB~a×DU₆~a~v1|
+
+|LAGAB~a×SI| should be |LAGAB~a×SI~v1|
+
+|MUŠEN.UR₃~b2| new ref glyph?
+
+|SAG×1(N14)| check fix has stuck
+
+|SILA₃~a×(ZATU659.TU~c)| could reasonably be |SILA₃~a×(ZATU659.TU~c~v1)|
+
+|ŠU₂~a.(HI×1(N57))&(HI×1(N57))| HI&HI element wrong in PCSL?
+
+|UŠ~b×TAR~c| check fix
+
+|ZATU651×MA| use ZATU651~v3?
+
+|ZATU737~v2×SAL| really |ZATU737~v3×SAL|
+
+|ZATU737~v2×U₄| really |ZATU737~v3×U₄|
+
+
+
+
+Stacking patterns:
+
+|U₄.3(N08)|
+
+|U₄.4(N08)~v1|
+
+|U₄.(1(N14).5(N08))|
+
+|U₄×1(N01).5(N08)|
+
+|U₄×3(N01).3(N08)~v1|
+
+|U₄×5(N01)|
+
+|U₄×6(N01)|
+
+|U₄×8(N01)|
+
+|U₄×(3(N14).7(N01))|
+
+|UKKIN~b×5(N01)|
