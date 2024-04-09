@@ -3048,7 +3048,7 @@
 @sys	LLATU:200_01 DUG~b+HI
 @sys	AP23 |DUG~bxHI|
 @@
-@form |DUG~b~v1×HI|~v1
+@form |DUG~b~v1×HI|
 @aka	|DUG~b×HI|~v1
 @list	BAU074
 @uname	PROTO-CUNEIFORM SIGN DUG-B TIMES HI VARIANT 1
@@ -3194,7 +3194,7 @@
 @sys	LLATU:201_01 DUG~b+MAŠ
 @sys	AP23 |DUG~bxMASZ|
 @@
-@form |DUG~b~v1×MAŠ|~v1
+@form |DUG~b~v1×MAŠ|
 @aka	|DUG~b×MAŠ|~v1
 @uname	PROTO-CUNEIFORM SIGN DUG-B TIMES MASH VARIANT 1
 @list	U+12CA3
@@ -20716,16 +20716,12 @@
 @end sign
 
 @sign ZATU802
-@smap	ZATU802~a
 @list	ZATU802
-@uage	0
-@form ZATU802~a
 @uname	PROTO-CUNEIFORM SIGN ZATU802
 @list	U+12BE8
 @ucun	𒯨
 @uage	1
 @sys	AP23 ZATU802
-@@
 @form ZATU802~b
 @inote	CUSAS01
 @uage	2
