@@ -7659,22 +7659,22 @@
 @sys	AP23 ISZ~a
 @@
 @form IŠ~b
-@uname	PROTO-CUNEIFORM SIGN ISH-B
-@list	U+12875
-@ucun	𒡵
-@uage	1
-@sys	LLATU:241_04 IŠ~b
-@sys	AP23 ISZ~b
-@@
-@form	IŠ~b~v1
-@list	BAU104
 @uname	PROTO-CUNEIFORM SIGN ISH-B VARIANT 1
 @list	U+12876
 @ucun	𒡶
 @uage	1
+@sys	AP23 ISZ~b
+@sys	LLATU:241_04 IŠ~b
+@@
+@form	IŠ~b~v1
+@list	BAU104
+@uname	PROTO-CUNEIFORM SIGN ISH-B
+@list	U+12875
+@ucun	𒡵
+@sys	AP23 ISZ~b
+@uage	1
 @sys	ATFU-S IŠ~b1
 @sys	ATFU-v kuš₇ sušₓ?
-@sys	AP23 ISZ~b
 @@
 @form	IŠ~b~v2
 @list	BAU105
@@ -8481,20 +8481,15 @@
 @end sign
 
 @sign KIŠ
-@smap	KIŠ~a
 @list	BAU164
 @list	ZATU297
-@uage	0
 @sys	LLATU:248_05 KIŠ
-@form KIŠ~a
 @uname	PROTO-CUNEIFORM SIGN KISH
 @list	U+128B6
 @ucun	𒢶
 @uage	1
 @sys	AP23 KISZ
-@@
-@form KIŠ~b
-@aka	KIŠ~v1
+@form KIŠ~v1
 @inote	Neither KIŠ~v1 nor KIŠ~b occur in CDLI transliterations, but CUSAS 1, p.281, KIŠ~b is very similar to CDLI KIŠ variant 1
 @lit	CUSAS 1, 15 n.106 provides several references [MS4511=P006311 mistakenly cited as MS4510=P006310]
 @inote	CUSAS01
