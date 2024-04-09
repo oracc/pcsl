@@ -44,7 +44,7 @@
 |DARA₃~d2×(KAR₂~a1.ŠE~a)|	--DARA₃~d2	--KAR₂~a1	ŠE~a
 |DIM~a×GU|	DIM~a	GU
 |DIM~a×X|	DIM~a	--X
-|DU×1(N58@t)|	DU	1(N58)
+|DU×1(N58@t)|	DU	1(N58@t)
 |DU₆~a~v1×1(N58)|	DU₆~a~v1	1(N58)
 |DU₈~c×HI|	DU₈~c	HI
 |DU₈~c×UDU~a|	DU₈~c	UDU~a
@@ -70,7 +70,7 @@
 |DUG~b×GIŠ|	DUG~b	GIŠ
 |DUG~a×HI|	DUG~a	HI
 |DUG~b×HI|	DUG~b	HI
-|DUG~b~v1×HI|~v1	DUG~b~v1	HI	
+|DUG~b~v1×HI|	DUG~b~v1	HI
 |DUG~b~v1×HI@g~a|	DUG~b~v1	HI@g~a
 |DUG~a×KASKAL|	DUG~a	KASKAL
 |DUG~b×KASKAL|	DUG~b	KASKAL
@@ -82,7 +82,7 @@
 |DUG~a×LAM~b|	DUG~a	LAM~b
 |DUG~b×LAM~a|	DUG~b	LAM~a
 |DUG~b×MAŠ|	DUG~b	MAŠ
-|DUG~b~v1×MAŠ|~v1	DUG~b~v1	MAŠ	
+|DUG~b~v1×MAŠ|	DUG~b~v1	MAŠ
 |DUG~a×1(N57)|	DUG~a	1(N57)
 |DUG~b×1(N57)|	DUG~b	1(N57)
 |DUG~b~v1×1(N57)|	DUG~b~v1	1(N57)
@@ -130,8 +130,8 @@
 |(DUG~b~v1&DUG~b~v1)×1(N58)|	--|DUG~b~v1&DUG~b~v1|	1(N58)
 |E₂~a.LIŠ|	E₂~a	LIŠ
 |E₂~b.LIŠ|	E₂~b	LIŠ
-|E₂~a×1(N58@t)|	E₂~a	1(N58)
-|E₂~b×1(N58@t)|	E₂~b	1(N58)
+|E₂~a×1(N58@t)|	E₂~a	1(N58@t)
+|E₂~b×1(N58@t)|	E₂~b	1(N58@t)
 |E₂~a×3(N58)|	E₂~a	3(N58)
 |EN~c&EN~c|	EN~c	EN~c
 |EN₂.E₂~a|	EN₂	E₂~a
@@ -223,7 +223,7 @@
 |GEŠTU~a×ŠE~a@t~v1|	GEŠTU~a	--ŠE~a@t~v1
 |GI×KU~b1|	GI	KU~b1
 |GI~v1×LAGAB~a|	GI~v1	LAGAB~a
-|GI×1(N58@t)|	GI	1(N58)
+|GI×1(N58@t)|	GI	1(N58@t)
 |GI×NAM₂|	GI	NAM₂
 |GI×SIG₂~d1|	GI	SIG₂~d1
 |GI×ŠE₃~v1|	GI	ŠE₃~v1
@@ -264,10 +264,10 @@
 |HI.SUHUR~v1|	HI	--SUHUR~v1
 |HI.SUHUR~v2|	HI	--SUHUR~v2
 |HI×LAGAB~a|	HI	LAGAB~a
-|HI×1(N01@f)|	HI	1(N01)
+|HI×1(N01@f)|	HI	1(N01@f)
 |HI×1(N57)|	HI	1(N57)
 |(HI×1(N57)).(HI×1(N57))|	|HI×1(N57)|	|HI×1(N57)|
-|HI×1(N57@t)|	HI	1(N57)
+|HI×1(N57@t)|	HI	--1(N57@t)
 |HI×1(N58)|	HI	1(N58)
 |HI×ŠE₃@t~v1|	HI	ŠE₃@t~v1
 |HI×ZATU707~a|	HI	ZATU707~a
@@ -523,7 +523,7 @@
 |U₄.ŠU₂~b|	U₄	ŠU₂~b
 |U₄×1(N01)|	U₄	1(N01)
 |U₄×1(N01).5(N08)|	|U₄×1(N01)|	5(N08)
-|U₄×1(N01@f)|	U₄	1(N01)
+|U₄×1(N01@f)|	U₄	1(N01@f)
 |U₄×2(N01)|	U₄	2(N01)
 |U₄×2(N01).2(N14)|	|U₄×2(N01)|	2(N14)
 |U₄×2(N01).(2(N14).1(N08))|	|U₄×2(N01)|	2(N14)	1(N08)
@@ -555,7 +555,7 @@
 |U₄×7(N57)|	U₄	7(N57)
 |U₄×8(N57)|	U₄	8(N57)
 |U₄×10(N57)|	U₄	10(N57)
-|U₄×1(N58@t)|	U₄	1(N58)
+|U₄×1(N58@t)|	U₄	1(N58@t)
 |U₄×X|	U₄	--X
 |U₄×(X+2(N01))|	U₄	|X+2(N01)|
 |U₈×TAR~b|	U₈	--TAR~b
@@ -604,7 +604,7 @@
 |ZATU651×ZAR~c|	ZATU651	ZAR~c
 |ZATU659×1(N01)|	ZATU659	1(N01)
 |ZATU659×1(N14)|	ZATU659	1(N14)
-|ZATU659×1(N58@t)|	ZATU659	1(N58)
+|ZATU659×1(N58@t)|	ZATU659	1(N58@t)
 |ZATU662×1(N14)|	ZATU662	1(N14)
 |ZATU662~v1×1(N14)|	ZATU662~v1	1(N14)
 |ZATU662~v2×1(N14)|	ZATU662~v2	1(N14)
@@ -642,7 +642,7 @@
 |ZATU762~a×NIM~a|	ZATU762~a	NIM~a
 |(ZU&ZU).SAR~a|	--|ZU&ZU|	SAR~a
 |1(N02).RU|	1(N02)	RU
-|1(N08@f)×1(N57)|	1(N08)	1(N57)
+|1(N08@f)×1(N57)|	1(N08@f)	1(N57)
 |1(N34)×1(N58)|	1(N34)	1(N58)
 |1(N57).AB₂|	1(N57)	AB₂
 |1(N57).1(N57)|	1(N57)	1(N57)

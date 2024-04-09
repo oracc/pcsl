@@ -50,7 +50,7 @@ atoms: atoms.html
 data/atomized.tab: data/sl.xml bin/atomize.xsl master.tab
 	xsltproc bin/atomize.xsl data/sl.xml >data/atomized.tab 2>atomizer.log
 
-atoms.html: data/atomized.tab bin/compare-atoms.plx
+atoms.html: data/atomized.tab bin/compare-atoms.plx $(RENAMES_FILES)
 	bin/compare-atoms.plx data/atomized.tab 2>atomized.log
 	sudo cp atoms.html /home/oracc/www/pcsl
 	sudo chmod o+r /home/oracc/www/pcsl/atoms.html
