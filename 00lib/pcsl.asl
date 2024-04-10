@@ -377,6 +377,7 @@
 @uage	1
 @sys	AP23 AB2
 @@
+@compoundonly AB₂~v2
 @end sign
 
 @sign |AB₂×2(N14)|

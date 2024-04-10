@@ -16,7 +16,7 @@
 |AB~a×X|	AB~a	--X
 |AB~a×ZATU659|	AB~a	ZATU659
 |AB₂×2(N14)|	AB₂	2(N14)
-|AB₂~v1×2(N14)|	AB₂~v1	2(N14)
+|AB₂~v2×2(N14)|		2(N14)
 |AMA~a×E₂~a|	AMA~a	E₂~a
 |AMAR.1(N02)|	AMAR	1(N02)
 |AMAR&AMAR|	AMAR	AMAR
@@ -589,7 +589,7 @@
 |URU~a1×X|	URU~a1	--X
 |UŠ~b×TAR~c|	UŠ~b	--TAR~c
 |UŠ~b×TAR~d|	UŠ~b	TAR~d
-|UŠ~b~v2×TAR~c|		--TAR~c
+|UŠ~b~v2×TAR~c|	--UŠ~b~v2	--TAR~c
 |UŠ~a&UŠ~a|	UŠ~a	UŠ~a
 |UŠ~b&UŠ~b|	UŠ~b	UŠ~b
 |X(N57).GAR|	--X(N57)	GAR
