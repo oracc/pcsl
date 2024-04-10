@@ -74,7 +74,7 @@ ZUBI~b
 |AB~b×KU₆~a|
 |AB~b×ŠA₃~a1|
 |AB₂×2(N14)|
-|AB₂×2(N14)|~v1
+|AB₂~v1×2(N14)|
 |AMA~a×E₂~a|
 |AMAR.1(N02)|
 |AMAR&AMAR|
@@ -82,10 +82,10 @@ ZUBI~b
 |APIN~a.APIN~a|
 |BAD&BAD|
 |BU~a×1(N58)|
-|BU~a×A|
+|BU~a~v1×A|
 |(BU~a&BU~a).NA₂~a|
 |(BU~a&BU~a).NA₂~a~v1|
-|(BU~a&BU~a).NA₂~a@n|
+|(BU~a~v1%BU~a~v1).NA₂~a@n|
 |(BU~a&BU~a).NA₂~b|
 |(BU~a&BU~a).X|
 |BU~a+DU₆~a|
@@ -230,7 +230,7 @@ ZUBI~b
 |GA₂~a1×GU₄|
 |GA₂~a1×HAL|
 |GA₂~a1×HI|
-|GA₂~a1×(HI.SUHUR)|
+|GA₂~a1×(HI.SUHUR~v1)|
 |GA₂~a1×KU₃~a|
 |GA₂~a1×KU₆~a|
 |GA₂~a1×(KU₆~a.KU₆~a)|
@@ -270,8 +270,8 @@ ZUBI~b
 |GAN~c~v1×(KUR~a.A)|
 |GAN~c×LAGAB~b|
 |GAN~c×NE~a|
-|GAN~c×ŠE~a|
-|GAN~c×ŠE₃@t~v1|
+|GAN~c~v2×ŠE~a|
+|GAN~c~v2×ŠE₃@t~v1|
 |GAN~c×SIG₇|
 |GAN~c×X|
 |GAN~c~v1×ZATU777~v1|
@@ -347,7 +347,7 @@ ZUBI~b
 |LAGAB~a×2(N14)|
 |LAGAB~a×BA|
 |LAGAB~a×BIR₃~b|
-|LAGAB~a×DU₆~b|
+|LAGAB~a×DU₆~a~v1|
 |LAGAB~a×KAK~a|
 |LAGAB~a×KU₆~a|
 |LAGAB~a×(KU₆~a+KU₆~a)|
@@ -358,7 +358,7 @@ ZUBI~b
 |LAGAB~a×PA~a|
 |LAGAB~a×ŠA|
 |LAGAB~a×ŠITA~a1|
-|LAGAB~a×SI|
+|LAGAB~a×SI~v1|
 |LAGAB~a×SIG₇~v1|
 |LAGAB~a×SU~a|
 |LAGAB~a×TI|
@@ -463,7 +463,7 @@ ZUBI~b
 |NUN~a+NAM₂|
 |NUN~b+EN~a|
 |PIRIG~b1×UR₂|
-|SAG×1(N14)|
+|SAG~v1×1(N14)|
 |SAG×GEŠTU~a|
 |SAG@n×GEŠTU~b|
 |SAG~v2×GEŠTU~b|
@@ -546,7 +546,7 @@ ZUBI~b
 |SILA₃~a×X|
 |SILA₃~a×ZATU629~v1|
 |SILA₃~a×ZATU646|
-|SILA₃~a×(ZATU659.TU~c)|
+|SILA₃~a×(ZATU659.TU~c~v1)|
 |SILA₃~b×DUG~a|
 |SILA₃~b×GUG₂|
 |SILA₃~b×NAGA~b|
@@ -647,7 +647,7 @@ ZUBI~b
 |URU~a3×KALAM~a|
 |UŠ~a&UŠ~a|
 |UŠ~b×TAR~c|
-|UŠ~b×TAR~c|~v1
+|UŠ~b~v2×TAR~c|
 |UŠ~b×TAR~d|
 |UŠ~b&UŠ~b|
 |ZATU644~a×1(N14)|
@@ -682,12 +682,12 @@ ZUBI~b
 |ZATU737~v1×GAR|
 |ZATU737×NI~a@g|
 |ZATU737×NIMGIR|
-|ZATU737~v2×SAL|
+|ZATU737~v3×SAL|
 |ZATU737×ŠE~a|
 |ZATU737×ŠITA~a1|
 |ZATU737×ŠITA@g~a|
 |ZATU737×SU~a|
-|ZATU737~v2×U₄|
+|ZATU737~v3×U₄|
 |ZATU737×UNUG~a~v1|
 |ZATU737~v2×X|
 |ZATU759×KU₆~a|

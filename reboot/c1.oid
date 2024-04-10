@@ -396,8 +396,8 @@ IR₁₁~v1
 IRHAN
 IŠ~a
 IŠ~a~v1
-IŠ~b
 IŠ~b~v1
+IŠ~b
 IŠ~b~v2
 IŠ~b~v3
 IŠ~b~v4
@@ -461,8 +461,8 @@ KISAL~b1
 KISAL~b2
 KISAL~b2@t
 KISAL~b3
-KIŠ~a
-KIŠ~b
+KIŠ
+KIŠ~v1
 KIŠIK~a
 KIŠIK~b
 KISIM~a

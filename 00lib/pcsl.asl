@@ -387,7 +387,7 @@
 @uage	1
 @sys	LLATU:180_01 AB₂+2(N14)
 @sys	AP23 |AB2x2(N14)|
-@for 	|AB₂~v1×2(N14)|
+@form 	|AB₂~v2×2(N14)|
 @aka	|AB₂×2(N14)|~v1
 @uname	PROTO-CUNEIFORM SIGN AB2 TIMES TWO-N14 VARIANT 1
 @list	U+12C57
@@ -1719,6 +1719,8 @@
 @inote	CHECK
 @uage	8
 @sys	AP23 not
+@@
+@compoundonly |BU~a~v1%BU~a~v1|
 @@
 @end sign
 
@@ -17688,23 +17690,26 @@
 @uage	1
 @sys	AP23 USZ~b
 @@
+@compoundonly UŠ~b~v2
+@@
 @end sign
 
 @sign |UŠ×TAR|
 @list	ZATU605
 @uage	0
-@form |UŠ~b×TAR~c|
-@uname	PROTO-CUNEIFORM SIGN USH-B TIMES TAR-C
-@list	U+12E93
-@ucun	𒺓
-@uage	1
-@sys	AP23 |USZ~bxTAR~c|
-@@
-@form	|UŠ~b~v2×TAR~c|
+@form	|UŠ~b×TAR~c|
 @aka	|UŠ~b×TAR~c|~v1
 @uname	PROTO-CUNEIFORM SIGN USH-B TIMES TAR-C VARIANT 1
 @list	U+12E94
 @ucun	𒺔
+@uage	1
+@sys	AP23 |USZ~bxTAR~c|
+@@
+@form	|UŠ~b~v2×TAR~c|
+@aka	|UŠ~b×TAR~c|
+@uname	PROTO-CUNEIFORM SIGN USH-B TIMES TAR-C
+@list	U+12E93
+@ucun	𒺓
 @uage	1
 @sys	AP23 |USZ~bxTAR~c|
 @@
