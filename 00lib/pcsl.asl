@@ -17707,7 +17707,6 @@
 @sys	AP23 |USZ~bxTAR~c|
 @@
 @form	|UŠ~b~v2×TAR~c|
-@aka	|UŠ~b×TAR~c|
 @uname	PROTO-CUNEIFORM SIGN USH-B TIMES TAR-C
 @list	U+12E93
 @ucun	𒺓
@@ -24825,10 +24824,7 @@
 @uage 0
 @end sign
 
-@sign	|HI×1(N57).AN|
-@uage 0
-@end sign
-
+@compoundonly	|HI×1(N57).AN|
 @compoundonly	3(N08)~v1
 @compoundonly	4(N08)~v1
 @compoundonly	SILA₃~a~v1

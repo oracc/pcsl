@@ -139,7 +139,7 @@
 |EŠDA×TAR~a|	EŠDA	TAR~a
 |EZEN~a×EN~b~v1|	EZEN~a	EN~b~v1
 |EZEN~a~v1×EN~a|	EZEN~a~v1	EN~a
-|EZEN~a×(HI×1(N57).AN)|	EZEN~a	|HI×1(N57).AN|
+|EZEN~a×(HI×1(N57).AN)|	EZEN~a	--|HI×1(N57).AN|
 |EZEN~a×KAB|	EZEN~a	KAB
 |EZEN~a×KI|	EZEN~a	KI
 |EZEN~a×LA~e|	EZEN~a	LA~e
