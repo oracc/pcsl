@@ -387,7 +387,8 @@
 @uage	1
 @sys	LLATU:180_01 AB₂+2(N14)
 @sys	AP23 |AB2x2(N14)|
-@form |AB₂×2(N14)|~v1
+@for 	|AB₂~v1×2(N14)|
+@aka	|AB₂×2(N14)|~v1
 @uname	PROTO-CUNEIFORM SIGN AB2 TIMES TWO-N14 VARIANT 1
 @list	U+12C57
 @ucun	𒱗
@@ -1679,7 +1680,8 @@
 
 @sign |BU×A|
 @uage	0
-@form |BU~a×A|
+@form	|BU~a~v1×A|
+@aka	|BU~a×A|
 @list	ZATU057
 @uname	PROTO-CUNEIFORM SIGN BU-A TIMES A
 @list	U+12C5F
@@ -1750,7 +1752,8 @@
 
 @sign |(BU&BU).NA₂@n|
 @uage	0
-@form |(BU~a&BU~a).NA₂~a@n|
+@form	|(BU~a~v1%BU~a~v1).NA₂~a@n|
+@aka	|(BU~a&BU~a).NA₂~a@n|
 @uname	PROTO-CUNEIFORM SIGN BU-A OVER BU-A BESIDE NA2-A NUTILLU
 @list	U+12C62
 @ucun	𒱢
@@ -4951,7 +4954,7 @@
 @sign |GA₂×(HI.SUHUR)|
 @list	ZATU171
 @uage	0
-@form |GA₂~a1×(HI.SUHUR)|
+@form |GA₂~a1×(HI.SUHUR~v1)|
 @uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES HI BESIDE SUHUR
 @list	U+12CF3
 @ucun	𒳳
@@ -5542,6 +5545,7 @@
 @ucun	𒟴
 @uage	1
 @sys	AP23 GAN~c
+@compoundonly GAN~c~v2
 @@
 @form GAN~d
 @list	BAU047
@@ -5687,7 +5691,8 @@
 @sign |GAN×ŠE|
 @list	ZATU194
 @uage	0
-@form |GAN~c×ŠE~a|
+@form	|GAN~c~v2×ŠE~a|
+@aka	|GAN~c×ŠE~a|
 @uname	PROTO-CUNEIFORM SIGN GAN-C TIMES SHE-A
 @list	U+12D1B
 @ucun	𒴛
@@ -5698,7 +5703,8 @@
 
 @sign |GAN×ŠE₃@t|
 @uage	0
-@form |GAN~c×ŠE₃@t~v1|
+@form	|GAN~c~v2×ŠE₃@t~v1|
+@aka	|GAN~c×ŠE₃@t~v1|
 @aka	|GAN~c×ŠE₃@t|
 @uname	PROTO-CUNEIFORM SIGN GAN-C TIMES SHE3 TENU
 @list	U+12D1C
@@ -7247,14 +7253,14 @@
 @end sign
 
 @sign |(HI×1(N57)).(HI×1(N57))|
-@aka	|(HI×1(N57))&(HI×1(N57))|
-@aka	|(HI×1(N57))&(HI+1(N57))|
 @inote	AP CDLI correction
 @uname	PROTO-CUNEIFORM SIGN HI TIMES ONE-N57 BESIDE HI TIMES ONE-N57
 @list	U+12D4D
 @ucun	𒵍
 @uage	1
 @sys	AP23 |(HIx1(N57)).(HIx1(N57))|
+@compoundonly	|(HI×1(N57))&(HI×1(N57))|
+@@
 @end sign
 
 @sign |HI×1(N57@t)|
@@ -8975,7 +8981,8 @@
 @sign |LAGAB×DU₆|
 @list	ZATU310
 @uage	0
-@form |LAGAB~a×DU₆~b|
+@form	|LAGAB~a×DU₆~a~v1|
+@aka	|LAGAB~a×DU₆~b|
 @uname	PROTO-CUNEIFORM SIGN LAGAB-A TIMES DU6-B
 @list	U+12D68
 @ucun	𒵨
@@ -9185,7 +9192,8 @@
 
 @sign |LAGAB×SI|
 @uage	0
-@form |LAGAB~a×SI|
+@form	|LAGAB~a×SI~v1|
+@aka	|LAGAB~a×SI|
 @uname	PROTO-CUNEIFORM SIGN LAGAB-A TIMES SI
 @list	U+12D73
 @ucun	𒵳
@@ -12581,7 +12589,8 @@
 @sys	AP23 |SAGxMA|
 @end sign
 
-@sign |SAG×1(N14)|
+@sign	|SAG~v1×1(N14)|
+@aka	|SAG×1(N14)|
 @list	ZATU440
 @uname	PROTO-CUNEIFORM SIGN SAG TIMES ONE-N14
 @list	U+12DDC
@@ -13735,7 +13744,8 @@
 @sign |SILA₃×(ZATU659.TU)|
 @list	ZATU478
 @uage	0
-@form |SILA₃~a×(ZATU659.TU~c)|
+@form	|SILA₃~a×(ZATU659.TU~c~v1)|
+@aka	|SILA₃~a×(ZATU659.TU~c)|
 @uname	PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU659 BESIDE TU-C
 @list	U+12E2F
 @ucun	𒸯
@@ -15719,6 +15729,7 @@
 @uage	1
 @sys	AP23 TU~c
 @@
+@compoundonly TU~c~v1
 @end sign
 
 @sign TUG₂
@@ -17689,7 +17700,8 @@
 @uage	1
 @sys	AP23 |USZ~bxTAR~c|
 @@
-@form |UŠ~b×TAR~c|~v1
+@form	|UŠ~b~v2×TAR~c|
+@aka	|UŠ~b×TAR~c|~v1
 @uname	PROTO-CUNEIFORM SIGN USH-B TIMES TAR-C VARIANT 1
 @list	U+12E94
 @ucun	𒺔
@@ -19788,6 +19800,8 @@
 @uage	1
 @sys	AP23 ZATU737
 @@
+@compoundonly ZATU737~v3
+@@
 @end sign
 
 @sign |ZATU737×AB|
@@ -19925,7 +19939,8 @@
 @sys	AP23 |ZATU737xNIMGIR|
 @end sign
 
-@sign |ZATU737~v2×SAL|
+@sign	|ZATU737~v3×SAL|
+@aka	|ZATU737~v2×SAL|
 @aka	|ZATU737×SAL|
 @aka	|ZATU737+SAL|
 @list	ZATU743
@@ -19984,7 +19999,8 @@
 @@
 @end sign
 
-@sign |ZATU737~v2×U₄|
+@sign	|ZATU737~v3×U₄|
+@aka	|ZATU737~v2×U₄|
 @aka	|ZATU737×U₄|
 @aka	|ZATU737+U₄|
 @list	ZATU747
@@ -24812,7 +24828,6 @@
 @compoundonly	SILA₃~a~v1
 @compoundonly	|(BU.DU₆)&(BU.DU₆)|
 @compoundonly	|(BU~a.DU₆~a)&(BU~a.DU₆)|
-@compoundonly	|(HI×1(N57))&(HI×1(N57))|
 @compoundonly	|BAR×UŠ|
 @compoundonly	|BAR×UŠ~a|
 @compoundonly	|DUG&DUG|
