@@ -16,7 +16,7 @@
 |AB~a×X|	AB~a	--X
 |AB~a×ZATU659|	AB~a	ZATU659
 |AB₂×2(N14)|	AB₂	2(N14)
-|AB₂~v2×2(N14)|		2(N14)
+|AB₂~v2×2(N14)|	--AB₂~v2	2(N14)
 |AMA~a×E₂~a|	AMA~a	E₂~a
 |AMAR.1(N02)|	AMAR	1(N02)
 |AMAR&AMAR|	AMAR	AMAR
@@ -30,7 +30,7 @@
 |(BU~a&BU~a).NA₂~a|	|BU~a&BU~a|	NA₂~a
 |(BU~a&BU~a).NA₂~a~v1|	|BU~a&BU~a|	NA₂~a~v1
 |(BU~a&BU~a).NA₂~b|	|BU~a&BU~a|	--NA₂~b
-|(BU~a~v1%BU~a~v1).NA₂~a@n|		--NA₂~a@n
+|(BU~a~v1%BU~a~v1).NA₂~a@n|	--|BU~a~v1%BU~a~v1|	--NA₂~a@n
 |(BU~a&BU~a).X|	|BU~a&BU~a|	--X
 |BU~a+DU₆~a|	BU~a	DU₆~a
 |BU~a+DU₆~a~v1|	BU~a	DU₆~a~v1

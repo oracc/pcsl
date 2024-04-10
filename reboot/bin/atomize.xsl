@@ -166,6 +166,7 @@
     <xsl:when test="@g:type='beside'"><xsl:text>.</xsl:text></xsl:when>
     <xsl:when test="@g:type='containing'"><xsl:text>×</xsl:text></xsl:when>
     <xsl:when test="@g:type='joining'"><xsl:text>+</xsl:text></xsl:when>
+    <xsl:when test="@g:type='crossing'"><xsl:text>%</xsl:text></xsl:when>
     <xsl:otherwise>
       <xsl:message>no render for g:o <xsl:value-of select="g:type"/></xsl:message>
     </xsl:otherwise>
