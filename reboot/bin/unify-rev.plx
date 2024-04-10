@@ -14,12 +14,12 @@ my @add = ();
 my @rfields = qw/a u n c/;
 my %r = ();
 
-load_add();
-load_delete();
 load_ignore();
-load_newglyph();
 load_remove();
+load_delete();
+load_newglyph();
 load_rename();
+load_add();
 
 open(M,'master.tab') || die;
 open(N,'>revise.tab') || die; select N;
@@ -39,6 +39,16 @@ foreach my $a (@add) {
 close(N);
 
 #############################################################################
+
+sub isgood {
+    my $k = shift;
+    if ($r{$k}) {
+	my $a = ${$r{$k}}{'a'};
+	return 0
+	    if $a eq 'ignore' || $a eq 'remove' || $a eq 'delete';
+    }
+    1;
+}
 
 sub print_rev {
     my($s,$rest,%r) = @_;
@@ -87,10 +97,12 @@ sub load_newglyph {
     my @r = load_rev('rev/newglyph.rev');
     foreach (@r) {
 	my @f = split(/\t/,$_);
-	my %d = ();
-	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/u a/} = ($f[2], 'newglyph');
-	%{$r{$f[0]}} = %d;
+	if (isgood($f[0])) {
+	    my %d = ();
+	    %d = %{$r{$f[0]}} if $r{$f[0]};
+	    @d{qw/u a/} = ($f[2], 'newglyph');
+	    %{$r{$f[0]}} = %d;
+	}
     }
 }
 
@@ -100,7 +112,7 @@ sub load_remove {
 	my @f = split(/\t/,$_);
 	my %d = ();
 	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/a/} = ($f[2], 'remove');
+	$d{'a'} = 'remove' unless $d{'a'} && $d{'a'} eq 'ignore';
 	%{$r{$f[0]}} = %d;
     }
 }
@@ -109,10 +121,12 @@ sub load_rename {
     my @r = load_rev('rev/rename.rev');
     foreach (@r) {
 	my @f = split(/\t/,$_);
-	my %d = ();
-	%d = %{$r{$f[0]}} if $r{$f[0]};
-	@d{qw/n a/} = ($f[1], 'rename');
-	%{$r{$f[0]}} = %d;
+	if (isgood($f[0])) {
+	    my %d = ();
+	    %d = %{$r{$f[0]}} if $r{$f[0]};
+	    @d{qw/n a/} = ($f[1], 'rename');
+	    %{$r{$f[0]}} = %d;
+	}
     }
 }
 
