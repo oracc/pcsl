@@ -10,6 +10,7 @@ use Getopt::Long;
 GetOptions(
     );
 
+my @add = ();
 my @rfields = qw/a u n c/;
 my %r = ();
 
@@ -31,8 +32,11 @@ while (<M>) {
 	print_rev($s,$rest,());
     }
 }
-close(N);
 close(M);
+foreach my $a (@add) {
+    print_rev($a,'',%{$r{$a}});
+}
+close(N);
 
 #############################################################################
 
@@ -53,6 +57,7 @@ sub load_add {
 	%d = %{$r{$f[0]}} if $r{$f[0]};
 	@d{qw/u c a/} = ($f[2], $f[3], 'add');
 	%{$r{$f[0]}} = %d;
+	push @add, $f[0];
     }
 }
 
