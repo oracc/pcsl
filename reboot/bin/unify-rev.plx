@@ -39,9 +39,11 @@ while (<M>) {
     }
 }
 close(M);
-foreach my $a (@add) {
-    print_rev($a,[''],%{$r{$a}});
-}
+
+# redundant now because adds are in master
+#foreach my $a (@add) {
+#    print_rev($a,[''],%{$r{$a}});
+#}
 close(N);
 
 #############################################################################

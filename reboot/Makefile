@@ -1,4 +1,4 @@
-all: master compare atoms renames
+all: master compare atoms renames revise componly
 
 # swaps
 
@@ -55,3 +55,13 @@ atoms.html: data/atomized.tab bin/compare-atoms.plx $(RENAMES_FILES)
 	bin/compare-atoms.plx data/atomized.tab 2>atomized.log
 	sudo cp atoms.html /home/oracc/www/pcsl
 	sudo chmod o+r /home/oracc/www/pcsl/atoms.html
+
+revise: revise.tab
+
+revise.tab: master.tab rev/*.rev
+	bin/unify-rev.plx
+
+componly: componly-by-sign.tab
+
+componly-by-sign.tab: revise.tab
+	bin/compoundonly.plx
