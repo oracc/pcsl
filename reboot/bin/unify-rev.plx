@@ -119,7 +119,7 @@ sub load_newglyph {
 	if (isgood($f[0])) {
 	    my %d = ();
 	    %d = %{$r{$f[0]}} if $r{$f[0]};
-	    @d{qw/u a/} = ($f[2], 'newglyph');
+	    @d{qw/u c a/} = ($f[2], $f[3], 'newglyph');
 	    %{$r{$f[0]}} = %d;
 	}
     }
@@ -143,7 +143,12 @@ sub load_rename {
 	if (isgood($f[0])) {
 	    my %d = ();
 	    %d = %{$r{$f[0]}} if $r{$f[0]};
-	    @d{qw/n a/} = ($f[1], 'rename');
+	    if ($d{'a'}) {
+		$d{'a'} .= ' rename';
+		$d{'n'} = $f[1];
+	    } else {
+		@d{qw/n a/} = ($f[1], 'rename');
+	    }
 	    %{$r{$f[0]}} = %d;
 	}
     }
