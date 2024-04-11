@@ -2696,9 +2696,7 @@
 @end sign
 
 @compoundonly DUB@n
-@sign DUB@n~a
-@uage 0
-@end sign
+@compoundonly DUB@n~a
 @compoundonly DUB@n~b
 @compoundonly |DUB@n~a×1(N58)|
 
@@ -3591,8 +3589,9 @@
 @@
 @form |DUG~b×U₂~b|
 @uage	8
+@uname PROTO-CUNEIFORM SIGN DUG-B TIMES U2-B
 @sys	LLATU:203_06 DUG~b+U₂~b
-@sys	AP23 not
+@sys	AP23 add
 @@
 @form	|DUG~b~v1×U₂~b|
 @uname	PROTO-CUNEIFORM SIGN DUG-B VARIANT 1 TIMES U2-B
@@ -3763,6 +3762,9 @@
 @sign DUG@t
 @uage	0
 @form DUG~a@t
+@uage 8
+@uname	PROTO-CUNEIFORM SIGN DUG-A TENU
+@sys	AP23 add
 @inote add 2403
 @@
 @form DUG~c@t
@@ -3771,6 +3773,11 @@
 @ucun	𒞟
 @uage	1
 @sys	AP23 DUG~c@t
+@@
+@form DUG~c2@t
+@uage 8
+@uname PROTO-CUNEIFORM SIGN DUG-C2 TENU
+@sys	AP23 add
 @@
 @end sign
 

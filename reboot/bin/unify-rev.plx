@@ -11,6 +11,7 @@ GetOptions(
     );
 
 my @add = ();
+my %atoms = ();
 my @rfields = qw/a u n c/;
 my %r = ();
 
@@ -20,21 +21,26 @@ load_delete();
 load_newglyph();
 load_rename();
 load_add();
+load_atoms();
 
+my @mfields = qw/serial sort code char cdli pcsl oid uname fname udata/;
+    
 open(M,'master.tab') || die;
 open(N,'>revise.tab') || die; select N;
 while (<M>) {
     chomp;
-    my($s,$rest) = (/^(.*?)\t(.*)$/);
+    my($s,@rest) = split(/\t/,$_); # (/^(.*?)\t(.*)$/);
+    warn "master.tab:$.: bad column count\n" unless $#rest+1 == $#mfields;
+    splice(@rest, 5, 0, $atoms{$s} || '');
     if ($r{$s}) {
-	print_rev($s,$rest,%{$r{$s}});
+	print_rev($s,[@rest],%{$r{$s}});
     } else {
-	print_rev($s,$rest,());
+	print_rev($s,[@rest],());
     }
 }
 close(M);
 foreach my $a (@add) {
-    print_rev($a,'',%{$r{$a}});
+    print_rev($a,[''],%{$r{$a}});
 }
 close(N);
 
@@ -56,7 +62,8 @@ sub print_rev {
     my $c = $r{'c'} || '';
     my $n = $r{'n'} || '';
     my $u = $r{'u'} || '';
-    print "$s\t$a\t$u\t$n\t$c\t$rest\n";
+    my $r = join("\t", @{$rest});
+    print "$s\t$a\t$u\t$n\t$c\t$r\n";
 }
 
 sub load_add {
@@ -68,6 +75,16 @@ sub load_add {
 	@d{qw/u c a/} = ($f[2], $f[3], 'add');
 	%{$r{$f[0]}} = %d;
 	push @add, $f[0];
+    }
+}
+
+sub load_atoms {
+    my @r = load_rev('rev/atoms.rev');
+    foreach (@r) {
+	my @f = split(/\t/,$_);
+	if (isgood($f[0])) {
+	    $atoms{$f[0]} = $f[1];
+	}
     }
 }
 

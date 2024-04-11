@@ -11,14 +11,20 @@
 <xsl:key name="form" match="sl:form" use="@n"/>
 <xsl:key name="aka" match="sl:aka" use="@n"/>
 
+<xsl:template name="do-atoms">
+  <xsl:for-each select="*[not(local-name()='o')]">
+    <xsl:apply-templates mode="atom" select="."/>
+    <xsl:if test="not(position()=last())"><xsl:text>&#x9;</xsl:text></xsl:if>
+  </xsl:for-each>
+</xsl:template>
+
 <xsl:template match="sl:sign|sl:form">
   <xsl:if test="not(sl:uage='0') and sl:sys[@name='AP23'][not(@token='not')]">
     <xsl:if test="starts-with(@n,'|')">
       <xsl:value-of select="@n"/>
       <xsl:text>&#x9;</xsl:text>
-      <xsl:for-each select="sl:name/g:w/g:c/*[not(local-name()='o')]">
-	<xsl:apply-templates mode="atom" select="."/>
-	<xsl:if test="not(position()=last())"><xsl:text>&#x9;</xsl:text></xsl:if>
+      <xsl:for-each select="sl:name/g:w/g:c">
+	<xsl:call-template name="do-atoms"/>
       </xsl:for-each>
       <xsl:text>&#xa;</xsl:text>
     </xsl:if>
@@ -137,8 +143,20 @@
   </xsl:choose>
 </xsl:template>
 
+<xsl:template mode="atom" match="g:g[@implicit='1']">
+  <xsl:call-template name="do-atoms"/>
+</xsl:template>
+
 <xsl:template mode="atom" match="g:g">
   <xsl:choose>
+    <xsl:when test="g:o[@g:type='containing']">
+      <xsl:for-each select="*[not(local-name()='o')]">
+	<xsl:apply-templates mode="atom" select="."/>
+	<xsl:if test="not(position()=last())">
+	  <xsl:text>&#x9;</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
+    </xsl:when>
     <xsl:when test="g:o[not(@g:type='beside')] or count(g:g)>0">
       <xsl:variable name="form">
 	<xsl:text>|</xsl:text>

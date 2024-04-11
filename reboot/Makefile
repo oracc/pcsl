@@ -47,8 +47,9 @@ c1.html c2.html c3.html: master.tab
 
 atoms: atoms.html
 
-data/atomized.tab: data/sl.xml bin/atomize.xsl master.tab
+data/atomized.tab: data/sl.xml bin/atomize.xsl master.tab bin/atom-num.plx
 	xsltproc bin/atomize.xsl data/sl.xml >data/atomized.tab 2>atomizer.log
+	bin/atom-num.plx >rev/atoms.rev
 
 atoms.html: data/atomized.tab bin/compare-atoms.plx $(RENAMES_FILES)
 	bin/compare-atoms.plx data/atomized.tab 2>atomized.log

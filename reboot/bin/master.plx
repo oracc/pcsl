@@ -24,13 +24,15 @@ my %unin = ();
 my %unir = ();
 
 my @frompdf = `cat data/ap-list-from-pdf.tab`; chomp @frompdf;
+my @addpdf = `cat data/add-frompdf.tab`; chomp @addpdf;
 my @pcsl = `cat data/pcsl-noswaps.tab`; chomp @pcsl;
 my @ignore = `cat data/ignore`; chomp @ignore;
 my %ignore = (); @ignore{@ignore} = ();
 my @unidata = `cat data/ap23-proto-cuneiform-chardata.txt`; chomp @unidata;
+my @adddata = `cat data/add-chardata.txt`; chomp @adddata;
 
 my $i = 0;
-foreach (@unidata) {
+foreach (@unidata, @adddata) {
     ++$i;
     s/\x{2010}/-/g;
     my($ucode,$uname,@x) = split(/;/,$_);
@@ -60,7 +62,7 @@ foreach (@pcsl) {
 }
 
 $i = 0;
-foreach (@frompdf) {
+foreach (@frompdf, @addpdf) {
     ++$i;
     s/\x{2010}/-/g;
     my($s,$c,$t,$n) = split(/\t/, $_);

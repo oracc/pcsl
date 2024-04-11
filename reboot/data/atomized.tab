@@ -49,8 +49,8 @@
 |DU₈~c×HI|	DU₈~c	HI
 |DU₈~c×UDU~a|	DU₈~c	UDU~a
 |DU₈~c×X|	DU₈~c	--X
-|(DUB@n~a×1(N58))~a|	|(DUB@n~a×1(N58))~a|
-|(DUB@n~a×1(N58))~b|	|(DUB@n~a×1(N58))~b|
+|(DUB@n~a×1(N58))~a|	--DUB@n~a	1(N58)	
+|(DUB@n~a×1(N58))~b|	--DUB@n~a	1(N58)	
 |DUB@n~b×1(N58)~a|	--DUB@n~b	1(N58)
 |DUG~b~v1×AB₂|	DUG~b~v1	AB₂
 |DUG~b×ANŠE~b|	DUG~b	ANŠE~b
@@ -59,7 +59,7 @@
 |DUG~b×BIR₃~c|	DUG~b	BIR₃~c
 |DUG~b×DIN|	DUG~b	DIN
 |DUG~b~v1×DIN|	DUG~b~v1	DIN
-|(DUG~b×DIN)@r|	|(DUG~b×DIN)@r|
+|(DUG~b×DIN)@r|	DUG~b	DIN	@r
 |DUG~b×E~a|	DUG~b	E~a
 |DUG~b×GA~a~v4|	DUG~b	GA~a~v4
 |DUG~b×GA~b|	DUG~b	GA~b
@@ -114,6 +114,7 @@
 |DUG~a×U₂~a|	DUG~a	U₂~a
 |DUG~a×U₂~b|	DUG~a	U₂~b
 |DUG~b×U₂~a|	DUG~b	U₂~a
+|DUG~b×U₂~b|	DUG~b	U₂~b
 |DUG~b~v1×U₂~b|	DUG~b~v1	U₂~b
 |DUG~b~v2×U₂~b|	--DUG~b~v2	U₂~b
 |DUG~b×UH₃~a|	DUG~b	UH₃~a
@@ -139,7 +140,7 @@
 |EŠDA×TAR~a|	EŠDA	TAR~a
 |EZEN~a×EN~b~v1|	EZEN~a	EN~b~v1
 |EZEN~a~v1×EN~a|	EZEN~a~v1	EN~a
-|EZEN~a×(HI×1(N57).AN)|	EZEN~a	--|HI×1(N57).AN|
+|EZEN~a×(HI×1(N57).AN)|	EZEN~a	HI	1(N57)	AN
 |EZEN~a×KAB|	EZEN~a	KAB
 |EZEN~a×KI|	EZEN~a	KI
 |EZEN~a×LA~e|	EZEN~a	LA~e
@@ -244,9 +245,9 @@
 |GIR₃~a×ŠE~b|	GIR₃~a	ŠE~b
 |GIR₃~c×ŠE₃~v1|	GIR₃~c	ŠE₃~v1
 |GIŠ.TE|	GIŠ	TE
-|(GIŠ×(DIN.DIN))~a|	|(GIŠ×(DIN.DIN))~a|
-|(GIŠ×(DIN.DIN))~b|	|(GIŠ×(DIN.DIN))~b|
-|(GIŠ×(DIN.DIN))~c|	|(GIŠ×(DIN.DIN))~c|
+|(GIŠ×(DIN.DIN))~a|	GIŠ	DIN	DIN	
+|(GIŠ×(DIN.DIN))~b|	GIŠ	DIN	DIN	
+|(GIŠ×(DIN.DIN))~c|	GIŠ	DIN	DIN	
 |GIŠ×ŠU₂~a|	GIŠ	ŠU₂~a
 |GIŠ×ŠU₂~b|	GIŠ	ŠU₂~b
 |GIŠ@t.E₂~a|	GIŠ@t	E₂~a
@@ -266,7 +267,7 @@
 |HI×LAGAB~a|	HI	LAGAB~a
 |HI×1(N01@f)|	HI	1(N01@f)
 |HI×1(N57)|	HI	1(N57)
-|(HI×1(N57)).(HI×1(N57))|	|HI×1(N57)|	|HI×1(N57)|
+|(HI×1(N57)).(HI×1(N57))|	HI	1(N57)	HI	1(N57)
 |HI×1(N57@t)|	HI	--1(N57@t)
 |HI×1(N58)|	HI	1(N58)
 |HI×ŠE₃@t~v1|	HI	ŠE₃@t~v1
@@ -337,7 +338,7 @@
 |MAH~a×NA~a|	MAH~a	NA~a
 |MAH~b×NA~a|	MAH~b	NA~a
 |MAH~b×SAL|	MAH~b	SAL
-|MAH~a×(SILA₃~a×UMBIN~a)|	MAH~a	--|SILA₃~a×UMBIN~a|
+|MAH~a×(SILA₃~a×UMBIN~a)|	MAH~a	SILA₃~a	UMBIN~a
 |MAH~a×TUG₂~a|	MAH~a	TUG₂~a
 |MAH~a×UD₅~a~v1|	MAH~a	UD₅~a~v1
 |MAH~a×UDU~a|	MAH~a	UDU~a
@@ -391,11 +392,11 @@
 |NINDA₂×ŠIM~a~v2|	NINDA₂	ŠIM~a~v2
 |NINDA₂×U₄|	NINDA₂	U₄
 |NINDA₂×(U₄.X)|	NINDA₂	U₄	--X
-|NINDA₂×(UDU~a×TAR~a)|	NINDA₂	|UDU~a×TAR~a|
-|NINDA₂×(UDU~a×TAR~b)|	NINDA₂	|UDU~a×TAR~b|
+|NINDA₂×(UDU~a×TAR~a)|	NINDA₂	UDU~a	TAR~a
+|NINDA₂×(UDU~a×TAR~b)|	NINDA₂	UDU~a	--TAR~b
 |NINDA₂×X|	NINDA₂	--X
 |NINDA₂×(X.MAŠ)|	NINDA₂	--X	MAŠ
-|NINDA₂×(ZATU659×1(N01))|	NINDA₂	|ZATU659×1(N01)|
+|NINDA₂×(ZATU659×1(N01))|	NINDA₂	ZATU659	1(N01)
 |NIR~a×AN|	NIR~a	AN
 |NU₁₁&NU₁₁|	NU₁₁	NU₁₁
 |NUN~a+A|	NUN~a	A
@@ -469,12 +470,12 @@
 |SILA₃~a×(ZATU659.TU~c~v1)|	SILA₃~a	ZATU659	--TU~c~v1
 |SILA₃~c×ZATU687|	SILA₃~c	ZATU687
 |SU~a×1(N58)|	SU~a	1(N58)
-|(SUKUD+SUKUD)~a|	|(SUKUD+SUKUD)~a|
-|(SUKUD+SUKUD)~b|	|(SUKUD+SUKUD)~b|
-|(SUKUD+SUKUD)~c|	|(SUKUD+SUKUD)~c|
-|(SUKUD+SUKUD)~d|	|(SUKUD+SUKUD)~d|
-|(ŠA×HI@g~a)~a|	|(ŠA×HI@g~a)~a|
-|(ŠA×HI@g~a)~b|	|(ŠA×HI@g~a)~b|
+|(SUKUD+SUKUD)~a|	|SUKUD+SUKUD|	
+|(SUKUD+SUKUD)~b|	|SUKUD+SUKUD|	
+|(SUKUD+SUKUD)~c|	|SUKUD+SUKUD|	
+|(SUKUD+SUKUD)~d|	|SUKUD+SUKUD|	
+|(ŠA×HI@g~a)~a|	ŠA	HI@g~a	
+|(ŠA×HI@g~a)~b|	ŠA	HI@g~a	
 |ŠE~a.KIN₂~c|	ŠE~a	KIN₂~c
 |ŠE~a.NAM₂|	ŠE~a	NAM₂
 |ŠE~a.NAM₂|~v1	ŠE~a	NAM₂	
@@ -498,7 +499,7 @@
 |ŠU₂~a.EN~b~v1|	ŠU₂~a	EN~b~v1
 |ŠU₂~a.URI₃~a~v1|	ŠU₂~a	URI₃~a~v1
 |ŠU₂~a.AN|	ŠU₂~a	AN
-|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	ŠU₂~a	--|(HI×1(N57))&(HI×1(N57))|
+|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	ŠU₂~a	HI	1(N57)	HI	1(N57)
 |ŠU₂~b.GIŠ|	ŠU₂~b	GIŠ
 |ŠU₂~b.1(N02)|	ŠU₂~b	1(N02)
 |ŠU₂~b.2(N57)|	ŠU₂~b	2(N57)
@@ -522,21 +523,21 @@
 |U₄.2(N14)|	U₄	2(N14)
 |U₄.ŠU₂~b|	U₄	ŠU₂~b
 |U₄×1(N01)|	U₄	1(N01)
-|U₄×1(N01).5(N08)|	|U₄×1(N01)|	5(N08)
+|U₄×1(N01).5(N08)|	U₄	1(N01)	5(N08)
 |U₄×1(N01@f)|	U₄	1(N01@f)
 |U₄×2(N01)|	U₄	2(N01)
-|U₄×2(N01).2(N14)|	|U₄×2(N01)|	2(N14)
-|U₄×2(N01).(2(N14).1(N08))|	|U₄×2(N01)|	2(N14)	1(N08)
-|U₄×2(N01).X|	|U₄×2(N01)|	--X
+|U₄×2(N01).2(N14)|	U₄	2(N01)	2(N14)
+|U₄×2(N01).(2(N14).1(N08))|	U₄	2(N01)	2(N14)	1(N08)
+|U₄×2(N01).X|	U₄	2(N01)	--X
 |U₄×3(N01)|	U₄	3(N01)
-|U₄×3(N01).3(N08)~v1|	|U₄×3(N01)|	3(N08)
+|U₄×3(N01).3(N08)~v1|	U₄	3(N01)	3(N08)
 |U₄×4(N01)|	U₄	4(N01)
-|U₄×4(N01).2(N14)|	|U₄×4(N01)|	2(N14)
+|U₄×4(N01).2(N14)|	U₄	4(N01)	2(N14)
 |U₄×5(N01)|	U₄	5(N01)
-|U₄×5(N01).1(N14)|	|U₄×5(N01)|	1(N14)
+|U₄×5(N01).1(N14)|	U₄	5(N01)	1(N14)
 |U₄×6(N01)|	U₄	6(N01)
 |U₄×8(N01)|	U₄	8(N01)
-|U₄×8(N01).X|	|U₄×8(N01)|	--X
+|U₄×8(N01).X|	U₄	8(N01)	--X
 |U₄×N(N01)|	U₄	--N(N01)
 |U₄×1(N14)|	U₄	1(N14)
 |U₄×(1(N14).2(N01))|	U₄	1(N14)	2(N01)
