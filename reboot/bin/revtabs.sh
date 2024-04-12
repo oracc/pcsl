@@ -12,7 +12,8 @@ grep newglyph revise.tab | cut -f1,3,5,10,14 >rev-newglyph.tab
 # REMOVE
 grep remove revise.tab | cut -f1,9,14 >rev-remove.tab
 # RENAME
-grep rename revise.tab | cut -f1,4,9,10,14 >rev-rename.tab
+grep rename revise.tab | cut -f1,4,9,10,14 | rocox -C13452 | \
+    rocox -n -R'%1	%2#%3	%4##%5' >rev-rename.tab
 rm -fr revtabs
 mkdir -p revtabs
 for a in rev-*.tab ; do
