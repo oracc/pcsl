@@ -1,9 +1,9 @@
-384.1	AN	AN VARIANT 1	# Duplicates 384 AN
-500	DUG~d	DUG-D	# Duplicates 499 DUG~c@t
-541	EZEN~c	EZEN-C	# Duplicates 540 EZEN~b@t
-928	RI~x	RI-X	# Duplicates 930 RI₈~b
-1516	|(BU~a&BU~a).NA2~b|	BU-A OVER BU-A BESIDE NA2-B	# Duplicates 1517 |(BU~a&BU~a).NA2~a@n|
-1723	|GUG2xSZITA~a1|	GUG2 TIMES SHITA-A1	# Incorrect glyph in unpublished Umma text
-1820	|MUSZENxPAP~a|	MUSHEN TIMES PAP-A	# Incorrect glyph in unpublished Umma text
-1844.2	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 2	# Duplicates 1846 |NINDA₂×(HI.AN.ME~a)|
-1844.3	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 3	# Duplicates 1835 |NINDA₂×(AN.ME~a)|
+384.1	AN	𒜐	AN VARIANT 1	# Duplicates 384 AN 
+500	DUG~d	𒞠	DUG-D	# Duplicates 499 DUG~c@t 𒠄
+541	EZEN~c	𒟐	EZEN-C	# Duplicates 540 EZEN~b@t 𒡅
+928	RI~x	𒦤	RI-X	# Duplicates 930 RI₈~b 𒪿
+1516	|(BU~a&BU~a).NA2~b|	𒱣	BU-A OVER BU-A BESIDE NA2-B	# Duplicates 1515 |(BU~a&BU~a).NA2~a@n| 𒝮
+1723	|GUG2xSZITA~a1|	𒵃	GUG2 TIMES SHITA-A1	# Incorrect glyph in unpublished Umma text
+1820	|MUSZENxPAP~a|	𒶧	MUSHEN TIMES PAP-A	# Incorrect glyph in unpublished Umma text
+1844.2	|NINDA2xGUDU4|	𒷁	NINDA2 TIMES GUDU4 VARIANT 2	# Duplicates 1846 |NINDA₂×(HI.AN.ME~a)| 𒩼
+1844.3	|NINDA2xGUDU4|	𒷂	NINDA2 TIMES GUDU4 VARIANT 3	# Duplicates 1835 |NINDA₂×(AN.ME~a)| 𒩱

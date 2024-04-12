@@ -3,7 +3,7 @@
 # ADD
 grep add revise.tab | cut -f1,3,8,10,14 | rocox -C14235 >rev-add.tab
 # DELETE
-grep delete revise.tab | cut -f1,5,9,14 | rocox -C 1342 >rev-delete.tab
+grep delete revise.tab | cut -f1,5,8,9,14 | rocox -C 14352 >rev-delete.tab
 # IGNORE
 # no rev-ignore.tab
 # NEWGLYPH
