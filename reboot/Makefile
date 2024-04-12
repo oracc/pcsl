@@ -1,6 +1,4 @@
-all: master compare atoms renames revise componly
-
-# swaps
+all: master compare atoms renames revise componly revtabs
 
 MASTER_FILES= \
 	Makefile \
@@ -14,8 +12,6 @@ RENAMES_FILES= \
 	data/pcsl-noswaps.tab data/pcsl.tab \
 	rev/remove.rev rev/delete.rev \
 	bin/renames.sh bin/rename-diff.plx bin/compare-renames.plx
-
-#	data/pcsl-swaps.tab 
 
 data: data/sl.xml data/pcsl-noswaps.tab
 
@@ -58,10 +54,15 @@ atoms.html: data/atomized.tab bin/compare-atoms.plx $(RENAMES_FILES)
 
 revise: revise.tab
 
-revise.tab: master.tab rev/*.rev
+revise.tab: master.tab rev/*.rev bin/unify-rev.plx
 	bin/unify-rev.plx
 
 componly: componly-by-sign.tab
 
 componly-by-sign.tab: revise.tab
 	bin/compoundonly.plx
+
+revtabs: rev-add.tab
+
+rev-add.tab: revise.tab bin/revtabs.sh
+	bin/revtabs.sh
