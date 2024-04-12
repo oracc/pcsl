@@ -20,17 +20,21 @@ my %ignore = (
     '|X+2(N01)|'=>1,
     );
 
-my %d = (); load_drop();
+my %D = (); load_drop();
 my @r = (<>); chomp @r;
 my %m = (); load_master();
+open(T,'>atoms.tab') || die;
 open(H,'>atoms.html'); select H;
 html_head();
 foreach (@r) {
     my($nm,@atoms) = split(/\t/,$_);
-    next if exists $d{$nm};
+    next if exists $D{$nm};
     if ($m{$nm}) {
-	my $xnm = xmlify($nm);
 	my %d = %{$m{$nm}};
+	
+	print T "$d{'serial'}\t$nm\t$d{'ucun'}\t";
+
+	my $xnm = xmlify($nm);
 	print "<tr><td>$xnm</td><td>";
 	if ($font) {
 	    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span>";
@@ -40,10 +44,16 @@ foreach (@r) {
 	}
 	print '</td>';
 	my %seen = ();
+	my $Tatoms = 0;
+	my @Tcomponly = (); # in text mode we save compoundonly items in a list and output them in a separate column
 	foreach my $a (@atoms) {
 	    next if $seen{$a}++;
 	    if ($m{$a}) {
 		%d = %{$m{$a}};
+
+		print ' ' if $Tatoms++;
+		print T $d{'ucun'};
+
 		print '<td>';
 		if ($font) {
 		    print "<span style=\"font-size: 500%;\">$d{'ucun'}</span>";
@@ -54,6 +64,11 @@ foreach (@r) {
 		print '</td>';
 	    } else {
 		unless ($ignore{$a}) {
+
+		    my $t = $a;
+		    $t =~ s/^--//;
+		    push @Tcomponly, $t;
+
 		    my $xa = xmlify($a);
 		    $xa =~ s/^--//;
 		    print "<td>$xa</td>";
@@ -62,11 +77,18 @@ foreach (@r) {
 	    }
 	}
 	print '</tr>';
+
+	if ($#Tcomponly >= 0) {
+	    print T "\t@Tcomponly";
+	}
+	print T "\n";
     } else {
 	warn "$nm: not in master.tab\n";
     }
 }
 html_tail();
+close(H);
+close(T);
 
 #####################################################################
 
@@ -99,7 +121,7 @@ sub img_of {
 
 sub load_drop {
     my @d = `cat rev/remove.rev rev/delete.rev | cut -f2`; chomp @d;
-    @d{@d} = ();
+    @D{@d} = ();
 #    open(D,'>DROP') || die;
 #    print D Dumper \%d;
 #    close(D);
