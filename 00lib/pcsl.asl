@@ -15051,30 +15051,33 @@
 @smap	ŠITA@g~a
 @list	ZATU530
 @uage	0
+@form	ŠITA~a1@g
+@aka ŠITA@g~b
+@uname	PROTO-CUNEIFORM SIGN SHITA GUNU-B
+@list	U+12A03
+@ucun	𒨃
+@uage	1
+@sys	AP23 SZITA@g~b
+@@
 @form ŠITA~a3@g
 @uage	9
 @sys	AP23 not
 @@
-@form ŠITA@g~a
+@form	ŠITA~b3@g
+@aka ŠITA@g~a
 @uname	PROTO-CUNEIFORM SIGN SHITA GUNU-A
 @list	U+12A01
 @ucun	𒨁
 @uage	1
 @sys	AP23 SZITA@g~a
 @@
-@form	ŠITA@g~a~v1
+@form	ŠITA~b1@g
+@aka ŠITA@g~a~v1
 @uname	PROTO-CUNEIFORM SIGN SHITA GUNU-A VARIANT 1
 @list	U+12A02
 @ucun	𒨂
 @uage	1
 @sys	AP23 SZITA@g~a
-@@
-@form ŠITA@g~b
-@uname	PROTO-CUNEIFORM SIGN SHITA GUNU-B
-@list	U+12A03
-@ucun	𒨃
-@uage	1
-@sys	AP23 SZITA@g~b
 @@
 @end sign
 
