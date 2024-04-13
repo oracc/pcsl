@@ -7665,29 +7665,29 @@
 @ucun	𒡳
 @uage	1
 @sys	LLATU:241_03 IŠ~a
-@sys	AP23 ISZ~a
+@sys	AP23 ISZ~a 677
 @@
 @form	IŠ~a~v1
 @uname	PROTO-CUNEIFORM SIGN ISH-A VARIANT 1
 @list	U+12874
 @ucun	𒡴
 @uage	1
-@sys	AP23 ISZ~a
+@sys	AP23 ISZ~a 677.1
 @@
 @form IŠ~b
-@uname	PROTO-CUNEIFORM SIGN ISH-B VARIANT 1
+@uname	PROTO-CUNEIFORM SIGN ISH-B
 @list	U+12876
 @ucun	𒡶
 @uage	1
-@sys	AP23 ISZ~b
+@sys	AP23 ISZ~b 678.1
 @sys	LLATU:241_04 IŠ~b
 @@
 @form	IŠ~b~v1
 @list	BAU104
-@uname	PROTO-CUNEIFORM SIGN ISH-B
+@uname	PROTO-CUNEIFORM SIGN ISH-B VARIANT1
 @list	U+12875
 @ucun	𒡵
-@sys	AP23 ISZ~b
+@sys	AP23 ISZ~b 678
 @uage	1
 @sys	ATFU-S IŠ~b1
 @sys	ATFU-v kuš₇ sušₓ?
@@ -17875,13 +17875,13 @@
 @end sign
 
 @sign UZ
-@list	ZATU611
-@uage	0
+@uage	9
+@note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
 @form UZ~a
 @list 	BAU035
-@aka	UZ
+@list	ZATU611
 @aka	|HU.ŠE|
-@uname	PROTO-CUNEIFORM SIGN UZ
+@uname	PROTO-CUNEIFORM SIGN UZ-A
 @uage	8
 @inote 2403
 @sys	LLATU:311_09 UZ~a
