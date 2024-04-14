@@ -21,7 +21,7 @@ atab=ad-L23-190/ad-L23-190.tab
 echo 'serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components' >$atab
 cut -f6,11 revise.tab | paste ap-reordered-extract.tab - >>$atab
 dst=data-sample.tab
-rm -f $dst
+head -1 $atab >$dst
 for a in remove delete add newglyph rename ; do
     grep $a $atab | head -1 >>$dst
 done
