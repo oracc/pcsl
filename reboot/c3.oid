@@ -484,10 +484,10 @@ ZUBI~b
 |ŠITA~a1×ŠU|
 |ŠITA~a1×ŠU₂~b|
 |ŠITA~a1×UDU~a|
-|ŠITA~b1@g×HI@g~a|
+|ŠITA~b2@g×HI@g~a|
 |ŠITA~b3×NAM₂|
-|ŠITA@g~a×1(N04)|
-|ŠITA@g~a×1(N06)|
+|ŠITA~b3@g×1(N04)|
+|ŠITA~b3@g×1(N06)|
 |ŠU×1(N58)|
 |ŠU&ŠU|
 |ŠU₂~b.1(N02)|
@@ -681,7 +681,7 @@ ZUBI~b
 |ZATU737~v3×SAL|
 |ZATU737×ŠE~a|
 |ZATU737×ŠITA~a1|
-|ZATU737×ŠITA@g~a|
+|ZATU737×ŠITA~b1@g|
 |ZATU737×SU~a|
 |ZATU737~v3×U₄|
 |ZATU737×UNUG~a~v1|

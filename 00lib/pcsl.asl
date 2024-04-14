@@ -7684,7 +7684,7 @@
 @@
 @form	IŠ~b~v1
 @list	BAU104
-@uname	PROTO-CUNEIFORM SIGN ISH-B VARIANT1
+@uname	PROTO-CUNEIFORM SIGN ISH-B VARIANT 1
 @list	U+12875
 @ucun	𒡵
 @sys	AP23 ISZ~b 678
@@ -14964,9 +14964,10 @@
 @@
 @end sign
 
-@sign |ŠITA×HI@g|
+@sign |ŠITA@g×HI@g|
 @uage	0
-@form |ŠITA~b1@g×HI@g~a|
+@form |ŠITA~b2@g×HI@g~a|
+@aka |ŠITA~b1@g×HI@g~a|
 @aka	|ŠITA~b1×HI@g~a|
 @uname	PROTO-CUNEIFORM SIGN SHITA-B1 TIMES HI GUNU-A
 @list	U+12DF5
@@ -15048,7 +15049,7 @@
 @end sign
 
 @sign ŠITA@g
-@smap	ŠITA@g~b3@g
+@smap	ŠITA~b3@g
 @list	ZATU530
 @uage	0
 @form	ŠITA~a1@g
@@ -15064,12 +15065,13 @@
 @sys	AP23 not
 @@
 @compoundonly	ŠITA~b1@g
-@aka ŠITA@g~a~v1
 @uname	PROTO-CUNEIFORM SIGN SHITA GUNU-A VARIANT 1
 @list	U+12A02
 @ucun	𒨂
 @uage	1
 @sys	AP23 SZITA@g~a 997.1
+@@
+@compoundonly	ŠITA~b2@g
 @@
 @form	ŠITA~b3@g
 @aka ŠITA@g~a
@@ -15084,7 +15086,8 @@
 @sign |ŠITA@g×1(N04)|
 @list	ZATU531
 @uage	0
-@form |ŠITA@g~a×1(N04)|
+@form |ŠITA~b3@g×1(N04)|
+@aka |ŠITA@g~a×1(N04)|
 @uname	PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE-N4
 @list	U+12DF7
 @ucun	𒷷
@@ -15095,7 +15098,8 @@
 
 @sign |ŠITA@g×1(N06)|
 @uage	0
-@form |ŠITA@g~a×1(N06)|
+@form |ŠITA~b3@g×1(N06)|
+@aka |ŠITA@g~a×1(N06)|
 @uname	PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE-N6
 @list	U+12DF8
 @ucun	𒷸
@@ -20005,7 +20009,8 @@
 @sign |ZATU737×ŠITA@g|
 @list	ZATU746
 @uage	0
-@form |ZATU737×ŠITA@g~a|
+@form |ZATU737×ŠITA~b1@g|
+@aka |ZATU737×ŠITA@g~a|
 @uname	PROTO-CUNEIFORM SIGN ZATU737 TIMES SHITA GUNU-A
 @list	U+12EBA
 @ucun	𒺺

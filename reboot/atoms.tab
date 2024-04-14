@@ -3,8 +3,8 @@
 1488	|A×1(N14)|	𒱅	𒛧𒖑
 1492	|A×ŠUBUR|	𒱉	𒛧𒨊
 1493	|A×ZATU672|	𒱊	𒛧𒬽
-1495	|AB~a×A@t|	𒱌	𒛫𒛨
 1502	|AB~b×A|	𒱓	𒛮𒛧
+1495	|AB~a×A@t|	𒱌	𒛫𒛨
 1496	|AB~a×AŠ₂|	𒱍	𒛫𒜠
 1497	|AB~a×KU₆~a|	𒱎	𒛫𒣈
 1503	|AB~b×KU₆~a|	𒱔	𒛮𒣈
@@ -17,21 +17,21 @@
 1505	|AB₂×2(N14)|	𒱖	𒛯𒗪
 1505.1	|AB₂~v2×2(N14)|	𒱗	𒗪	AB₂~v2
 1506	|AMA~a×E₂~a|	𒱘	𒜈𒞪
-1509	|AMAR~v2×TAR~c|	𒱛	𒜍	TAR~c
 1507	|AMAR.1(N02)|	𒱙	𒜋𒖃
 1508	|AMAR&AMAR|	𒱚	𒜋
+1509	|AMAR~v2×TAR~c|	𒱛	𒜍	TAR~c
 1510	|APIN~a.APIN~a|	𒱜	𒜗
 1511	|BAD&BAD|	𒱝	𒜤
 1520	|BU~b.NA₂~a~v1|	𒱨	𒝑𒤻
 1513	|BU~a~v1×A|	𒱟	𒝐𒛧
 1519	|BU~a×GIŠ@t|	𒱧	𒝏𒠦
 1512	|BU~a×1(N58)|	𒱞	𒝏𒗛
-1514.1	|(BU~a&BU~a).NA₂~a~v1|	𒱡	𒤻
 1514	|(BU~a&BU~a).NA₂~a|	𒱠	𒤺
+1514.1	|(BU~a&BU~a).NA₂~a~v1|	𒱡	𒤻
 1515	|(BU~a~v1%BU~a~v1).NA₂~a@n|	𒱢		|BU~a~v1%BU~a~v1| NA₂~a@n
 1517	|(BU~a&BU~a).X|	𒱤		X
-1518.1	|BU~a+DU₆~a~v1|	𒱦	𒝏𒞃
 1518	|BU~a+DU₆~a|	𒱥	𒝏𒞂
+1518.1	|BU~a+DU₆~a~v1|	𒱦	𒝏𒞃
 1521	|DA~a.LIŠ|	𒱩	𒝚𒣼
 1522	|DAR~a×A|	𒱪	𒝢𒛧
 1523	|DARA₃~c×KAR₂~b|	𒱫	𒝨𒢔
@@ -53,34 +53,34 @@
 1550	|DUG~b×ANŠE~d|	𒲉	𒞛	ANŠE~d
 1551	|DUG~b×BALA~a|	𒲊	𒞛𒜭
 1552	|DUG~b×BIR₃~c|	𒲋	𒞛𒝎
-1553.1	|DUG~b~v1×DIN|	𒲍	𒞜𒝾
 1553	|DUG~b×DIN|	𒲌	𒞛𒝾
+1553.1	|DUG~b~v1×DIN|	𒲍	𒞜𒝾
 1554	|(DUG~b×DIN)@r|	𒲎	𒞛𒝾
 1556	|DUG~b×E~a|	𒲐	𒞛𒞥
 1557	|DUG~b×GA~a~v4|	𒲑	𒞛𒟙
 1558	|DUG~b×GA~b|	𒲒	𒞛𒟚
-1559.1	|DUG~b~v1×GEŠTU~a~v2|	𒲔	𒞜𒠃
 1559	|DUG~b×GEŠTU~a~v2|	𒲓	𒞛𒠃
 1560	|DUG~b×GEŠTU~b|	𒲕	𒞛𒠄
+1559.1	|DUG~b~v1×GEŠTU~a~v2|	𒲔	𒞜𒠃
 1561	|DUG~b×GI₆|	𒲖	𒞛𒠍
 1562	|DUG~b×GIŠ|	𒲗	𒞛𒠤
-1564	|DUG~b~v1×HI@g~a|	𒲚	𒞜𒡖
-1563.1	|DUG~b~v1×HI|	𒲙	𒞜𒡕
 1563	|DUG~b×HI|	𒲘	𒞛𒡕
+1563.1	|DUG~b~v1×HI|	𒲙	𒞜𒡕
+1564	|DUG~b~v1×HI@g~a|	𒲚	𒞜𒡖
 1539	|DUG~a×KASKAL|	𒱽	𒞘𒢜
 1565	|DUG~b×KASKAL|	𒲛	𒞛𒢜
 1566	|DUG~b×KU₆~a|	𒲜	𒞛𒣈
-1570	|DUG~b×KUR@g~a|	𒲠	𒞛𒣒
 1567	|DUG~b×KUR~a|	𒲝	𒞛𒣍
 1569	|DUG~b×KUR~b|	𒲟	𒞛𒣎
 1568	|DUG~b×(KUR~a.X)|	𒲞	𒞛𒣍	X
+1570	|DUG~b×KUR@g~a|	𒲠	𒞛𒣒
 1540	|DUG~a×LAM~b|	𒱾	𒞘𒣳
 1571	|DUG~b×LAM~a|	𒲡	𒞛𒣲
-1572.1	|DUG~b~v1×MAŠ|	𒲣	𒞜𒤏
 1572	|DUG~b×MAŠ|	𒲢	𒞛𒤏
+1572.1	|DUG~b~v1×MAŠ|	𒲣	𒞜𒤏
 1537	|DUG~a×1(N57)|	𒱻	𒞘𒗚
-1545.1	|DUG~b~v1×1(N57)|	𒲄	𒞜𒗚
 1545	|DUG~b×1(N57)|	𒲃	𒞛𒗚
+1545.1	|DUG~b~v1×1(N57)|	𒲄	𒞜𒗚
 1601.1	|DUG~c~v1×1(N57)|	𒳅	𒞝𒗚
 1601	|DUG~c~v2×1(N57)|	𒳄	𒗚	DUG~c~v2
 1601.2	|DUG~c~v3×1(N57)|	𒳆	𒞞𒗚
@@ -98,9 +98,9 @@
 1584	|DUG~b×SIG₇|	𒲱	𒞛𒨮
 1585	|DUG~b×SUHUR|	𒲲	𒞛𒩃
 1577	|DUG~b×ŠAH₂~a|	𒲨	𒞛𒧍
-1578.2	|DUG~b~v1×ŠE~a@t|	𒲫	𒞜𒧗
-1578.1	|DUG~b~v1×ŠE~a|	𒲪	𒞜𒧖
 1578	|DUG~b×ŠE~a|	𒲩	𒞛𒧖
+1578.1	|DUG~b~v1×ŠE~a|	𒲪	𒞜𒧖
+1578.2	|DUG~b~v1×ŠE~a@t|	𒲫	𒞜𒧗
 1579	|DUG~b×(ŠE~a.NAM₂)|	𒲬	𒞛𒧖𒥍
 1586	|DUG~b×TAK₄~a|	𒲳	𒞛𒩢
 1587	|DUG~b×(TAK₄~a.SA~a)|	𒲴	𒞛𒩢𒦪
@@ -108,14 +108,14 @@
 1589	|DUG~b×TI|	𒲶	𒞛𒩩
 1542	|DUG~a×U₂~a|	𒲀	𒞘𒪊
 1543	|DUG~a×U₂~b|	𒲁	𒞘𒪋
-1591	|DUG~b~v1×U₂~b|	𒲸	𒞜𒪋
-1591.1	|DUG~b~v2×U₂~b|	𒲹	𒪋	DUG~b~v2
 1590	|DUG~b×U₂~a|	𒲷	𒞛𒪊
 3000	|DUG~b×U₂~b|	󿿼	𒞛𒪋
+1591	|DUG~b~v1×U₂~b|	𒲸	𒞜𒪋
+1591.1	|DUG~b~v2×U₂~b|	𒲹	𒪋	DUG~b~v2
 1592	|DUG~b×UH₃~a|	𒲺	𒞛𒪧
 1593	|DUG~b×UH₃~a@t|	𒲻	𒞛𒪨
-1594.1	|DUG~b~v1×X|	𒲽	𒞜	X
 1594	|DUG~b×X|	𒲼	𒞛	X
+1594.1	|DUG~b~v1×X|	𒲽	𒞜	X
 1595	|DUG~b×ZATU707~a|	𒲾	𒞛𒭼
 1596	|DUG~b×ZATU764|	𒲿	𒞛𒯂
 1597	|DUG~b×ZATU779|	𒳀	𒞛𒯕
@@ -132,8 +132,8 @@
 1608	|EN₂.E₂~a|	𒳍	𒞽𒞪
 1609	|EN₂.E₂~b|	𒳎	𒞽𒞫
 1610	|EŠDA×TAR~a|	𒳏	𒟊𒩦
-1611	|EZEN~a~v1×EN~a|	𒳐	𒟍𒞱
 1612	|EZEN~a×EN~b~v1|	𒳑	𒟌𒞶
+1611	|EZEN~a~v1×EN~a|	𒳐	𒟍𒞱
 1613	|EZEN~a×(HI×1(N57).AN)|	𒳒	𒟌𒡕𒗚𒜏
 1614	|EZEN~a×KAB|	𒳓	𒟌𒢁
 1615	|EZEN~a×KI|	𒳔	𒟌𒢟
@@ -210,9 +210,6 @@
 1686	|GAN~c×X|	𒴞	𒟳	X
 1687	|GAN~c~v1×ZATU777~v1|	𒴟	𒟴𒯒
 1691	|GEŠTU~a×ŠE~a@t~v1|	𒴣	𒠁	ŠE~a@t~v1
-1699	|GI~v1×GIŠ@t|	𒴫	𒠉𒠦
-1692	|GI~v1×1(N14)|	𒴤	𒠉𒖑
-1695	|GI~v1&GI~v1&GI~v1|	𒴧	𒠉
 1700	|GI×KU~b1|	𒴬	𒠈𒣄
 1701	|GI~v1×LAGAB~a|	𒴭	𒠉𒣟
 1693	|GI×1(N58@t)|	𒴥	𒠈𒗜
@@ -224,6 +221,9 @@
 1696	|(GI&GI)×GIŠ@t|	𒴨	𒴦𒠦
 1697	|(GI&GI)×ŠE₃~v1|	𒴩	𒴦𒧛
 1698	|(GI&GI)×X|	𒴪	𒴦	X
+1699	|GI~v1×GIŠ@t|	𒴫	𒠉𒠦
+1692	|GI~v1×1(N14)|	𒴤	𒠉𒖑
+1695	|GI~v1&GI~v1&GI~v1|	𒴧	𒠉
 1706	|GI₄~a×A|	𒴲	𒠋𒛧
 1707	|GI₄~a&GI₄~a|	𒴳	𒠋
 1708	|GI₄~b&GI₄~b|	𒴴	𒠌
@@ -305,11 +305,11 @@
 1788	|LAL₂~a×EZEN~a~v1|	𒶇	𒣭𒟍
 1789	|LAL₂~a×NIM~b2|	𒶈	𒣭𒥫
 1790	|LU₂×GEŠTU~c3|	𒶉	𒣽𒠅
+1794	|MA×MA|	𒶍	𒤄
+1791	|MA×1(N58)|	𒶊	𒤄𒗛
 1793	|MA~v1×A|	𒶌	𒤅𒛧
 1792	|MA~v1×2(N57)|	𒶋	𒤅𒘐
 1795	|MA~v1×X|	𒶎	𒤅	X
-1794	|MA×MA|	𒶍	𒤄
-1791	|MA×1(N58)|	𒶊	𒤄𒗛
 1796	|MAH~a×AB₂|	𒶏	𒤉𒛯
 1797	|MAH~a×GUKKAL~a|	𒶐	𒤉𒡁
 1798	|MAH~a×KU₆~a|	𒶑	𒤉𒣈
@@ -351,13 +351,13 @@
 1841	|NINDA₂×GIŠ|	𒶼	𒥰𒠤
 1843	|NINDA₂×GU₄|	𒶾	𒥰𒠵
 1835	|NINDA₂×(AN.ME~a)|	𒶶	𒥰𒜏𒤒
-1844.1	|NINDA₂×(HI~a1.AN.ME~a)|	𒷀	𒥰𒜏𒤒	HI~a1
-1844	|NINDA₂×(HI~a1.ME~a)|	𒶿	𒥰𒤒	HI~a1
 1846	|NINDA₂×(HI.AN.ME~a)|	𒷄	𒥰𒡕𒜏𒤒
 1847	|NINDA₂×(HI.ME~a)|	𒷅	𒥰𒡕𒤒
-1849	|NINDA₂×(1(N06).HI@g~a)|	𒷇	𒥰𒖈𒡖
+1844.1	|NINDA₂×(HI~a1.AN.ME~a)|	𒷀	𒥰𒜏𒤒	HI~a1
+1844	|NINDA₂×(HI~a1.ME~a)|	𒶿	𒥰𒤒	HI~a1
 1845	|NINDA₂×HI|	𒷃	𒥰𒡕
 1848	|NINDA₂×(HI.X)|	𒷆	𒥰𒡕	X
+1849	|NINDA₂×(1(N06).HI@g~a)|	𒷇	𒥰𒖈𒡖
 1850	|NINDA₂×KAŠ~b|	𒷈	𒥰𒢗
 1851	|NINDA₂×MAR~b|	𒷉	𒥰𒤎
 1829	|NINDA₂×1(N01)|	𒶰	𒥰𒖀
@@ -380,13 +380,13 @@
 1868	|NUN~b+EN~a|	𒷚	𒥽𒞱
 1867	|NUN~a+NAM₂|	𒷙	𒥼𒥍
 1869	|PIRIG~b1×UR₂|	𒷛	𒦛𒪾
-1875	|SAG~v1×MA~v1|	𒷢	𒦮𒤅
-1870	|SAG~v1×1(N14)|	𒷜	𒦮𒖑
+1871	|SAG×GEŠTU~a|	𒷝	𒦭𒠁
 1873	|SAG~v1×GEŠTU~c|	𒷠	𒦮	GEŠTU~c
 1872.1	|SAG~v2×GEŠTU~b|	𒷟	𒦯𒠄
 1872	|SAG@n×GEŠTU~b|	𒷞	𒦱𒠄
-1871	|SAG×GEŠTU~a|	𒷝	𒦭𒠁
 1874	|SAG~v1×LAM~c|	𒷡	𒦮𒣹
+1875	|SAG~v1×MA~v1|	𒷢	𒦮𒤅
+1870	|SAG~v1×1(N14)|	𒷜	𒦮𒖑
 1878	|SAL.KUR~a|	𒷥	𒦳𒣍
 1879	|SAL.LAM~b|	𒷦	𒦳𒣳
 1880	|SAL.ŠU₂~b|	𒷧	𒦳𒨈
@@ -399,8 +399,8 @@
 1913	|SIG₂~b&SIG₂~b|	𒸊	𒨤
 1916	|SILA₃~a×A|	𒸍	𒨱𒛧
 1917	|SILA₃~a×AMAR|	𒸎	𒨱𒜋
-1918	|SILA₃~a~v1×DUG~a|	𒸏	𒞘	SILA₃~a~v1
 1918.1	|SILA₃~a×DUG~a|~v1	𒸐	𒨱𒞘
+1918	|SILA₃~a~v1×DUG~a|	𒸏	𒞘	SILA₃~a~v1
 1920	|SILA₃~a×GA~a~v3|	𒸒	𒨱𒟘
 1921	|SILA₃~a×GARA₂~a|	𒸓	𒨱𒟼
 1922	|SILA₃~a×GEŠTU~a~v2|	𒸔	𒨱𒠃
@@ -408,8 +408,8 @@
 1924	|SILA₃~a×GEŠTU~c5|	𒸖	𒨱𒠇
 1951	|SILA₃~b×GUG₂|	𒸱	𒨲𒠾
 1925	|SILA₃~a×HAŠHUR|	𒸗	𒨱𒡔
-1927	|SILA₃~a×HI@g~a|	𒸙	𒨱𒡖
 1926	|SILA₃~a×HI|	𒸘	𒨱𒡕
+1927	|SILA₃~a×HI@g~a|	𒸙	𒨱𒡖
 1928	|SILA₃~a×IB~a|	𒸚	𒨱𒡛
 1929	|SILA₃~a×KAŠ~a|	𒸛	𒨱𒢕
 1930	|SILA₃~a×KAŠ~c|	𒸜	𒨱𒢚
@@ -430,8 +430,8 @@
 1943	|SILA₃~a×SUHUR|	𒸩	𒨱𒩃
 1944	|SILA₃~a×SUM~a~v1|	𒸪	𒨱𒩎
 1945	|SILA₃~a×SUM~b|	𒸫	𒨱𒩐
-1940	|SILA₃~a×ŠE~a@t|	𒸦	𒨱𒧗
 1939	|SILA₃~a×ŠE~a|	𒸥	𒨱𒧖
+1940	|SILA₃~a×ŠE~a@t|	𒸦	𒨱𒧗
 1941	|SILA₃~a×ŠU|	𒸧	𒨱𒨄
 1955	|SILA₃~c×ŠU|	𒸵	𒨳𒨄
 1942	|SILA₃~a×ŠU₂~b|	𒸨	𒨱𒨈
@@ -451,15 +451,15 @@
 1885.1	|ŠE~a.NAM₂|~v1	𒷭	𒧖𒥍
 1886	|ŠE~a&ŠE~a|	𒷮	𒧖
 1887	|ŠEN~d×A|	𒷯	𒧦𒛧
-1895	|ŠITA@g~a×1(N04)|	𒷷	𒨁𒖅
-1896	|ŠITA@g~a×1(N06)|	𒷸	𒨁𒖈
-1893	|ŠITA~b1@g×HI@g~a|	𒷵	𒡖	ŠITA~b1@g
 1889	|ŠITA~a1×KAK~a|	𒷱	𒧺𒢆
 1888	|ŠITA~a1×1(N06)|	𒷰	𒧺𒖈
 1894	|ŠITA~b3×NAM₂|	𒷶	𒧿𒥍
 1890	|ŠITA~a1×ŠU|	𒷲	𒧺𒨄
 1891	|ŠITA~a1×ŠU₂~b|	𒷳	𒧺𒨈
 1892	|ŠITA~a1×UDU~a|	𒷴	𒧺𒪟
+1893	|ŠITA~b2@g×HI@g~a|	𒷵	𒡖	ŠITA~b2@g
+1895	|ŠITA~b3@g×1(N04)|	𒷷	𒨁𒖅
+1896	|ŠITA~b3@g×1(N06)|	𒷸	𒨁𒖈
 1897	|ŠU×1(N58)|	𒷹	𒨄𒗛
 1898	|ŠU&ŠU|	𒷺	𒨄
 1902	|ŠU₂~b.E₂~a|	𒷾	𒨈𒞪
@@ -553,8 +553,8 @@
 2043	|URU~a1×NIMGIR|	𒺍	𒫐𒥭
 2044	|URU~a1×U₄|	𒺎	𒫐𒪏
 2045	|URU~a1×X|	𒺏	𒫐	X
-2049	|UŠ~b~v2×TAR~c|	𒺓		UŠ~b~v2 TAR~c
 2049.1	|UŠ~b×TAR~c|	𒺔	𒫠	TAR~c
+2049	|UŠ~b~v2×TAR~c|	𒺓		UŠ~b~v2 TAR~c
 2048	|UŠ~a&UŠ~a|	𒺒	𒫟
 2051	|UŠ~b&UŠ~b|	𒺖	𒫠
 1487	|X(N57).GAR|	𒱄	𒟷	X(N57)
@@ -573,22 +573,19 @@
 2064	|ZATU662×1(N14)|	𒺣	𒬲𒖑
 2064.1	|ZATU662~v1×1(N14)|	𒺤	𒬳𒖑
 2064.2	|ZATU662~v2×1(N14)|	𒺥	𒬴𒖑
-2066	|ZATU711~v1×X|	𒺧	𒮃	X
 2065	|ZATU711~v1×HI@g~a|	𒺦	𒮃𒡖
+2066	|ZATU711~v1×X|	𒺧	𒮃	X
 2068	|ZATU714.RU|	𒺩	𒮅𒦧
 2067	|ZATU714×HI@g~a|	𒺨	𒮅𒡖
 2069	|ZATU714×X|	𒺪	𒮅	X
-2087	|ZATU737~v2×X|	𒺾	𒮤	X
-2080	|ZATU737~v3×SAL|	𒺷	𒦳	ZATU737~v3
-2085	|ZATU737~v3×U₄|	𒺼	𒪏	ZATU737~v3
 2070	|ZATU737×AB~a|	𒺫	𒮢𒛫
 2071	|ZATU737×BU~a|	𒺬	𒮢𒝏
 2072	|ZATU737×BUR~a|	𒺭	𒮢𒝕
 2073	|ZATU737×DI|	𒺮	𒮢𒝴
 2073.1	|ZATU737~v2×DI|	𒺯	𒮤𒝴
 2074	|ZATU737×E~a|	𒺰	𒮢𒞥
-2076	|ZATU737~v1×EN~b~v1|	𒺲	𒮣𒞶
 2075	|ZATU737×EN~a~v2|	𒺱	𒮢𒞳
+2076	|ZATU737~v1×EN~b~v1|	𒺲	𒮣𒞶
 2077	|ZATU737×GAR|	𒺳	𒮢𒟷
 2077.1	|ZATU737~v1×GAR|	𒺴	𒮣𒟷
 2078	|ZATU737×NI~a@g|	𒺵	𒮢𒥥
@@ -596,12 +593,16 @@
 2084	|ZATU737×SU~a|	𒺻	𒮢𒨼
 2081	|ZATU737×ŠE~a|	𒺸	𒮢𒧖
 2082	|ZATU737×ŠITA~a1|	𒺹	𒮢𒧺
+2083	|ZATU737×ŠITA~b1@g|	𒺺	𒮢	ŠITA~b1@g
 2086	|ZATU737×UNUG~a~v1|	𒺽	𒮢𒪶
-2092	|ZATU759@t×X|	𒻃		ZATU759@t X
+2087	|ZATU737~v2×X|	𒺾	𒮤	X
+2080	|ZATU737~v3×SAL|	𒺷	𒦳	ZATU737~v3
+2085	|ZATU737~v3×U₄|	𒺼	𒪏	ZATU737~v3
 2088	|ZATU759×KU₆~a|	𒺿	𒮻𒣈
 2090	|ZATU759×KU₆~d|	𒻁	𒮻𒣋
 2089	|ZATU759×(KU₆~a+KU₆~a)|	𒻀	𒮻𒵡
 2091	|ZATU759×X|	𒻂	𒮻	X
+2092	|ZATU759@t×X|	𒻃		ZATU759@t X
 2094	|ZATU762~b×AB~a|	𒻅	𒯁𒛫
 2093	|ZATU762~a×NIM~a|	𒻄	𒮾𒥩
 1456	|1(N02).RU|	𒰣	𒖃𒦧
@@ -633,6 +634,6 @@
 1485	|6(N57).KU₃~a|	𒱂	𒚢𒣆
 1486	|8(N57).NI~b|	𒱃	𒛉𒥦
 1463	|1(N58).BAD|	𒰫	𒗛𒜤
-1464	|1(N58)~a.BAD~a|	𒰬	𒗛	BAD~a
 1464.1	|1(N58)~a.BAD|	𒰭	𒗛𒜤
+1464	|1(N58)~a.BAD~a|	𒰬	𒗛	BAD~a
 1477	|3(N58).UR₃~b1|	𒰺	𒘾𒫃

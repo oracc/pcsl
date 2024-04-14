@@ -69,7 +69,7 @@ sub load_oid {
 }
 
 sub load_pcsl {
-    my @p = `cat data/pcsl.tab`; chomp @p;
+    my @p = `cat data/pcsl-noswaps.tab`; chomp @p;
     foreach (@p) {
 	my($n,$o,$t) = split(/\t/,$_);
 	$p{$o} = $t;
