@@ -399,7 +399,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 382.2	𒜍	AMAR	AMAR VARIANT 2			AMAR~v2			97	
 383	𒜎	AMAR@g	AMAR GUNU			AMAR@g			99	
 384	𒜏	AN	AN			AN			100	
-384.1	𒜐	AN	AN VARIANT 1	delete	Duplicates 384 AN 	AN~v1			103	
+384.1	𒜐	AN	AN VARIANT 1	delete	# Duplicates 384 AN 𒜏 	AN~v1			103	
 384.2	𒜑	AN	AN VARIANT 2			AN~v2			104	
 385	𒜒	ANSZE~a	ANSHE-A			ANŠE~a			106	
 386	𒜓	ANSZE~b	ANSHE-B			ANŠE~b			107	
@@ -543,7 +543,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 498	𒞝	DUG~c	DUG-C			DUG~c~v1			1046	
 498.1	𒞞	DUG~c	DUG-C VARIANT 1			DUG~c~v3			1050	
 499	𒞟	DUG~c@t	DUG-C TENU			DUG~c@t			1052	
-500	𒞠	DUG~d	DUG-D	delete	Duplicates 499 DUG~c@t 𒠄	DUG~d			1055	
+500	𒞠	DUG~d	DUG-D	delete	# Duplicates 499 DUG~c@t 𒞟	DUG~d			1055	
 501	𒞡	DUGUD	DUGUD			DUGUD			1057	
 502	𒞢	DUR~a	DUR-A			DUR~a			1061	
 503	𒞣	DUR~b	DUR-B			DUR~b			1062	
@@ -591,7 +591,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 538.1	𒟍	EZEN~a	EZEN-A VARIANT 1			EZEN~a~v1			1185	
 539	𒟎	EZEN~b	EZEN-B			EZEN~b			1187	
 540	𒟏	EZEN~b@t	EZEN-B TENU			EZEN~b@t			1192	
-541	𒟐	EZEN~c	EZEN-C	delete	Duplicates 540 EZEN~b@t 𒡅	EZEN~c			1194	
+541	𒟐	EZEN~c	EZEN-C	delete	# Duplicates 540 EZEN~b@t 𒟏	EZEN~c			1194	
 542	𒟑	EZINU~a	EZINU-A			EZINU~a			1197	
 543	𒟒	EZINU~b	EZINU-B			EZINU~b			1198	
 544	𒟓	EZINU~c	EZINU-C			EZINU~c			1199	
@@ -1059,7 +1059,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 925	𒦡	RAD~a@g	RAD-A GUNU			RAD~a@g			2873	
 926	𒦢	RAD~b	RAD-B			RAD~b			2875	
 927	𒦣	RI	RI	remove		RI			2878	
-928	𒦤	RI~x	RI-X	delete	Duplicates 930 RI₈~b 𒪿	RI~x			2879	
+928	𒦤	RI~x	RI-X	delete	# Duplicates 930 RI₈~b 𒦤	RI~x			2879	
 929	𒦥	RI8~a	RI8-A			RI₈~a			2881	
 930	𒦦	RI8~b	RI8-B			RI₈~b			2882	
 931	𒦧	RU	RU			RU			2883	
@@ -1762,7 +1762,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 1514	𒱠	|(BU~a&BU~a).NA2~a|	BU-A OVER BU-A BESIDE NA2-A			|(BU~a&BU~a).NA₂~a|			683	|BU~a&BU~a| NA₂~a
 1514.1	𒱡	|(BU~a&BU~a).NA2~a|	BU-A OVER BU-A BESIDE NA2-A VARIANT 1			|(BU~a&BU~a).NA₂~a~v1|			685	|BU~a&BU~a| NA₂~a~v1
 1515	𒱢	|(BU~a&BU~a).NA2~a@n|	BU-A OVER BU-A BESIDE NA2-A NUTILLU	newglyph rename	NEW GLYPH=𒱣	|(BU~a~v1%BU~a~v1).NA₂~a@n|	PROTO-CUNEIFORM SIGN BU-A VARIANT 1 CROSSING BU-A VARIANT 1 BESIDE NA2-A NUTILLU	12C63	697	--|BU~a~v1%BU~a~v1| --NA₂~a@n
-1516	𒱣	|(BU~a&BU~a).NA2~b|	BU-A OVER BU-A BESIDE NA2-B	delete	Duplicates 1515 |(BU~a&BU~a).NA2~a@n| 𒝮	|(BU~a&BU~a).NA₂~b|			687	
+1516	𒱣	|(BU~a&BU~a).NA2~b|	BU-A OVER BU-A BESIDE NA2-B	delete	# Duplicates 1515 |(BU~a&BU~a).NA2~a@n| 𒱢	|(BU~a&BU~a).NA₂~b|			687	
 1517	𒱤	|(BU~a&BU~a).X|	BU-A OVER BU-A BESIDE X			|(BU~a&BU~a).X|			688	|BU~a&BU~a| --X
 1518	𒱥	|BU~a+DU6~a|	BU-A JOINING DU6-A			|BU~a+DU₆~a|			689	BU~a DU₆~a
 1518.1	𒱦	|BU~a+DU6~a|	BU-A JOINING DU6-A VARIANT 1			|BU~a+DU₆~a~v1|			691	BU~a DU₆~a~v1
@@ -1986,7 +1986,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 1720	𒵀	|GISZ@t.E2~a|	GISH TENU BESIDE E2-A	remove		|GIŠ@t.E₂~a|			1536	
 1721	𒵁	|GISZ3~a&GISZ3~a|	GISH3-A OVER GISH3-A			|GIŠ₃~a&GIŠ₃~a|			1540	GIŠ₃~a GIŠ₃~a
 1722	𒵂	|GU4.ZATU755~a|	GU4 BESIDE ZATU755-A	rename		|GU₄.ZATU755~b|	PROTO-CUNEIFORM SIGN GU4 BESIDE ZATU755-B		1562	GU₄ ZATU755~b
-1723	𒵃	|GUG2xSZITA~a1|	GUG2 TIMES SHITA-A1	delete	Incorrect glyph in unpublished Umma text	|GUG₂~v1×ŠITA~a1|			1582	
+1723	𒵃	|GUG2xSZITA~a1|	GUG2 TIMES SHITA-A1	delete	# Incorrect glyph in unpublished Umma text	|GUG₂~v1×ŠITA~a1|			1582	
 1724	𒵄	|GUG2xSILA3~a|	GUG2 TIMES SILA3-A	rename		|GUG₂~v1×SILA₃~a|	PROTO-CUNEIFORM SIGN GUG2 VARIANT 1 TIMES SILA3-A		1581	GUG₂~v1 SILA₃~a
 1725	𒵅	|GUG2xTUR|	GUG2 TIMES TUR	rename		|GUG₂~v1×TUR~v1|	PROTO-CUNEIFORM SIGN GUG2 VARIANT 1 TIMES TUR VARIANT 1		1583	GUG₂~v1 TUR~v1
 1726	𒵆	|GUKKAL~a.HI@g~a|	GUKKAL-A BESIDE HI GUNU-A			|GUKKAL~a.HI@g~a|			1588	GUKKAL~a HI@g~a
@@ -2086,7 +2086,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 1817	𒶤	|MUSZENx1(N57)|	MUSHEN TIMES ONE-N57			|MUŠEN×1(N57)|			2147	MUŠEN 1(N57)
 1818	𒶥	|MUSZENx2(N57)|	MUSHEN TIMES TWO-N57			|MUŠEN×2(N57)|			2148	MUŠEN 2(N57)
 1819	𒶦	|MUSZENx3(N57)|	MUSHEN TIMES THREE-N57			|MUŠEN×3(N57)|			2149	MUŠEN 3(N57)
-1820	𒶧	|MUSZENxPAP~a|	MUSHEN TIMES PAP-A	delete	Incorrect glyph in unpublished Umma text	|MUŠEN×PAP~a|			2151	
+1820	𒶧	|MUSZENxPAP~a|	MUSHEN TIMES PAP-A	delete	# Incorrect glyph in unpublished Umma text	|MUŠEN×PAP~a|			2151	
 1821	𒶨	|MUSZEN.UR3~b2|	MUSHEN BESIDE UR3-B2			|MUŠEN.UR₃~b2|			2145	MUŠEN UR₃~b2
 1822	𒶩	|MUSZENxX|	MUSHEN TIMES X			|MUŠEN×X|			2152	MUŠEN --X
 1823	𒶪	|NAGA~axTAK4~a|	NAGA-A TIMES TAK4-A			|NAGA~a×TAK₄~a|			2644	NAGA~a TAK₄~a
@@ -2112,8 +2112,8 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 1843	𒶾	|NINDA2xGU4|	NINDA2 TIMES GU4			|NINDA₂×GU₄|			2733	NINDA₂ GU₄
 1844	𒶿	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4	rename		|NINDA₂×(HI~a1.ME~a)|	PROTO-CUNEIFORM SIGN NINDA2 TIMES HI-A1 PLUS ME-A		2746	NINDA₂ --HI~a1 ME~a
 1844.1	𒷀	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 1	rename		|NINDA₂×(HI~a1.AN.ME~a)|	PROTO-CUNEIFORM SIGN NINDA2 TIMES HI-A1 PLUS AN PLUS ME-A		2745	NINDA₂ --HI~a1 AN ME~a
-1844.2	𒷁	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 2	delete	Duplicates 1846 |NINDA₂×(HI.AN.ME~a)| 𒩼	|NINDA₂×GUDU₄|~v2			2736	
-1844.3	𒷂	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 3	delete	Duplicates 1835 |NINDA₂×(AN.ME~a)| 𒩱	|NINDA₂×GUDU₄|~v3			2737	
+1844.2	𒷁	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 2	delete	# Duplicates 1846 |NINDA₂×(HI.AN.ME~a)| 𒷄	|NINDA₂×GUDU₄|~v2			2736	
+1844.3	𒷂	|NINDA2xGUDU4|	NINDA2 TIMES GUDU4 VARIANT 3	delete	# Duplicates 1835 |NINDA₂×(AN.ME~a)| 𒶶	|NINDA₂×GUDU₄|~v3			2737	
 1845	𒷃	|NINDA2xHI|	NINDA2 TIMES HI			|NINDA₂×HI|			2738	NINDA₂ HI
 1846	𒷄	|NINDA2x(HI.AN.ME~a)|	NINDA2 TIMES HI BESIDE AN BESIDE ME-A	rename		|NINDA₂×(HI.AN.ME~a)|	PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS AN PLUS ME-A		2740	NINDA₂ HI AN ME~a
 1847	𒷅	|NINDA2x(HI.ME~a)|	NINDA2 TIMES HI BESIDE ME-A	rename		|NINDA₂×(HI.ME~a)|	PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS ME-A		2742	NINDA₂ HI ME~a
@@ -2374,7 +2374,7 @@ serial	char	cdli	ap23-name	action	comment	pcsl	new-name	new-code	sort	components
 2093	𒻄	|ZATU762~axNIM~a|	ZATU762-A TIMES NIM-A			|ZATU762~a×NIM~a|			7133	ZATU762~a NIM~a
 2094	𒻅	|ZATU762~bxAB~a|	ZATU762-B TIMES AB-A			|ZATU762~b×AB~a|			7137	ZATU762~b AB~a
 2095	𒻆	|(ZU&ZU).SAR~a|	ZU OVER ZU BESIDE SAR-A	remove		|(ZU&ZU).SAR~a|			7257	
-3000	󿿼	|DUG~b×U₂~b|	DUG-B TIMES U2-B	add	Add from VAT 17858+ = P000015 o ii 9 (Uruk)	|DUG~b×U₂~b|		FFFFC	981	DUG~b U₂~b
-3001	󿿸	DUG~a@t	DUG-A TENU	add	Add from W 9168,v = P001077 o ii 4 (Uruk)	DUG~a@t		FFFF8	923	
-3002	󿿻	DUG~c2@t	DUG-C2 TENU	add	Add from W 20274,010 = P003508 o ii 2 and r 1 (Uruk)	DUG~c2@t		FFFFB	1054	
-3003	󿿺	UZ~a	UZ-A	add	Add from LLATU:311_09, with refs (Uruk)	UZ~a		FFFFA	6122	
+3000	󿿼	|DUG~b×U₂~b|	DUG-B TIMES U2-B	add	# Add from VAT 17858+ = P000015 o ii 9 (Uruk)	|DUG~b×U₂~b|		FFFFC	981	DUG~b U₂~b
+3001	󿿸	DUG~a@t	DUG-A TENU	add	# Add from W 9168,v = P001077 o ii 4 (Uruk)	DUG~a@t		FFFF8	923	
+3002	󿿻	DUG~c2@t	DUG-C2 TENU	add	# Add from W 20274,010 = P003508 o ii 2 and r 1 (Uruk)	DUG~c2@t		FFFFB	1054	
+3003	󿿺	UZ~a	UZ-A	add	# Add from LLATU:311_09, with refs (Uruk)	UZ~a		FFFFA	6122	
