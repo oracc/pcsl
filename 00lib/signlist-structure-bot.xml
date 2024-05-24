@@ -1,4 +1,5 @@
 <wrapper xmlns:struct="http://oracc.org/ns/esp-struct/1.0">
+  <struct:page file="signlist-x-sortorder.xml" id="sortorder" type="page"/>
   <struct:page file="signlist-x-addsources.xml" id="addsources" type="page"/>
   <struct:page file="signlist-x-missimg.xml" id="missimg" type="page"/>
   <struct:page file="signlist-x-notfound.xml" id="notfound" type="page"/>
