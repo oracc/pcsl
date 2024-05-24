@@ -16848,7 +16848,7 @@
 	which has the ×HI.
 
 @sign UŠUR₃
-@smap	UŠUR₃~a
+@smap	UŠUR₃~b1
 @list	ZATU608
 @uage	0
 @form UŠUR₃~b1
