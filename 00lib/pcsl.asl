@@ -98,14 +98,6 @@
 @sys	AP23 |AxAB2|
 @end sign
 
-@sign |A×AN|
-@list	BAU417a
-@uname	PROTO-CUNEIFORM SIGN A TIMES AN
-@list	U+12C47
-@ucun	𒱇
-@uage	1
-@sys	AP23 |AxAN|
-@end sign
 
 @sign |A×EN|
 @list	ZATU002
@@ -147,16 +139,6 @@
 @sys	AP23 |AxZATU672|
 @end sign
 
-@sign A@g
-@list	BAU114
-@list	BAU115
-@list	BAU115a
-@uname	PROTO-CUNEIFORM SIGN A GUNU
-@list	U+126E9
-@ucun	𒛩
-@uage	1
-@sys	AP23 A@g
-@end sign
 
 @sign A@t
 @uname	PROTO-CUNEIFORM SIGN A TENU
@@ -398,11 +380,6 @@
 @@
 @end sign
 
-@sign |AB₂×ŠA₃|
-@list	BAU171
-@uage	3
-@sys	AP23 not
-@end sign
 
 @sign AB₂@g
 @inote	CHECK
@@ -612,14 +589,6 @@
 @ucun	𒜃
 @uage	1
 @sys	AP23 ALAN~e
-@@
-@form ALAN~f
-@list	BAU090
-@uname	PROTO-CUNEIFORM SIGN ALAN-F
-@list	U+12704
-@ucun	𒜄
-@uage	1
-@sys	AP23 ALAN~f
 @@
 @end sign
 
@@ -844,17 +813,6 @@
 @@
 @end sign
 
-@sign ANZU₂
-@aka	|AN.IM.MI|
-@inote	|AN.IM.MI| in OGSL is anzu₂; ATFU anzu.
-@uname	PROTO-CUNEIFORM SIGN ANZU2
-@list	U+12716
-@ucun	𒜖
-@uage	1
-@sys	ATFU-S ANZU
-@sys	ATFU-v anzu
-@sys	AP23 ANZU2
-@end sign
 
 @sign APIN
 @smap	APIN~a
@@ -940,16 +898,6 @@
 @sys	AP23 ARATTA
 @end sign
 
-@sign ASAL₂
-@list	BAU134
-@uname	PROTO-CUNEIFORM SIGN ASAL2
-@list	U+1271E
-@ucun	𒜞
-@uage	1
-@sys	ATFU-S ASAL₂
-@sys	ATFU-v asalₓ
-@sys	AP23 ASAL2
-@end sign
 
 @sign ASAR
 @list	ZATU036
@@ -1044,11 +992,6 @@
 @uage	1
 @sys	LLATU:188_05 BAD₃~a
 @sys	AP23 BAD3~a
-@@
-@form BAD₃~a1
-@list	BAU302
-@uage	3
-@sys	AP23 not
 @@
 @form BAD₃~b1
 @aka	|EZEN~a×AN|
@@ -1532,14 +1475,6 @@
 @lref	BAU402
 @note	Read as sequence SAL E₂~a
 
-@sign BAU405
-@list	BAU405
-@uname	PROTO-CUNEIFORM SIGN UET2_405
-@list	U+12AA5
-@ucun	𒪥
-@uage	1
-@sys	AP23 UET2_405
-@end sign
 
 @lref	BAU407
 @note	Read as sequence NI U₄ (or possibly NA₄)
@@ -1961,14 +1896,6 @@
 @@
 @end sign
 
-@sign DAG
-@list	BAU362
-@uname	PROTO-CUNEIFORM SIGN DAG
-@list	U+1275E
-@ucun	𒝞
-@uage	1
-@sys	AP23 DAG
-@end sign
 
 @sign DAH
 @list	ZATU066
@@ -2304,11 +2231,6 @@
 @uage	1
 @sys	AP23 DILMUN
 @@
-@form |NI.TUK|
-@list	BAU409
-@uage 4
-@sys	AP23 not
-@@
 @end sign
 
 @sign DIM
@@ -2339,27 +2261,7 @@
 @@
 @end sign
 
-@sign |DIM×GU|
-@uage	0
-@form |DIM~a×GU|
-@uname	PROTO-CUNEIFORM SIGN DIM-A TIMES GU
-@list	U+12C71
-@ucun	𒱱
-@uage	1
-@sys	AP23 |DIM~axGU|
-@@
-@end sign
 
-@sign |DIM×X|
-@uage	0
-@form |DIM~a×X|
-@uname	PROTO-CUNEIFORM SIGN DIM-A TIMES X
-@list	U+12C72
-@ucun	𒱲
-@uage	1
-@sys	AP23 |DIM~axX|
-@@
-@end sign
 
 @sign DIN
 @list	BAU144
@@ -2401,12 +2303,6 @@
 @sys	AP23 DU
 @end sign
 
-@sign |DU.KASKAL|
-@list	BAU376
-@uage	4
-@sys	ATFU-S KAS₄
-@sys	ATFU-v kas₄
-@end sign
 
 @sign |DU×1(N58@t)|
 @aka |DU×DIŠ|
@@ -3034,13 +2930,6 @@
 @sign |DUG×HI|
 @list	ZATU101
 @uage	0
-@form |DUG~a×HI|
-@uname	PROTO-CUNEIFORM SIGN DUG-A TIMES HI
-@list	U+12C7C
-@ucun	𒱼
-@uage	1
-@sys	AP23 |DUG~axHI|
-@@
 @form |DUG~b×HI|
 @aka	|DUG~b+HI|
 @list	BAU343
@@ -3647,13 +3536,6 @@
 
 @sign |DUG×X|
 @uage	0
-@form |DUG~a×X|
-@uname	PROTO-CUNEIFORM SIGN DUG-A TIMES X
-@list	U+12C82
-@ucun	𒲂
-@uage	1
-@sys	AP23 |DUG~axX|
-@@
 @form |DUG~b×X|
 @uname	PROTO-CUNEIFORM SIGN DUG-B TIMES X
 @list	U+12CBC
@@ -3855,14 +3737,6 @@
 @uage	1
 @sys	AP23 E~d
 @@
-@form E~e
-@list	BAU089
-@uname	PROTO-CUNEIFORM SIGN E-E
-@list	U+127A9
-@ucun	𒞩
-@uage	1
-@sys	AP23 E~e
-@@
 @end sign
 
 @sign E₂
@@ -3982,12 +3856,6 @@
 @ucun	𒞮
 @uage	1
 @sys	AP23 E3~a
-@@
-@form E₃~a1
-@aka |UD.DU|
-@list	BAU198a
-@uage	4
-@sys	AP23 not
 @@
 @form E₃~b
 @uname	PROTO-CUNEIFORM SIGN E3-B
@@ -4201,21 +4069,7 @@
 @sys	AP23 ENLIL
 @end sign
 
-@sign ENSI
-@uname	PROTO-CUNEIFORM SIGN ENSI
-@list	U+127C3
-@ucun	𒟃
-@uage	1
-@sys	AP23 ENSI
-@end sign
 
-@sign ENSI₂
-@uname	PROTO-CUNEIFORM SIGN ENSI2
-@list	U+127C4
-@ucun	𒟄
-@uage	1
-@sys	AP23 ENSI2
-@end sign
 
 @sign ERIM
 @smap	ERIM~a
@@ -4330,12 +4184,6 @@
 @sys	LLATU:212_01 EZEN~b
 @sys	AP23 EZEN~b
 @@
-@form EZEN~b1
-@list	BAU298
-@uage 3
-@sys	ATFU-S EZEN~b
-@sys	ATFU-v ezem
-@@
 @form EZEN~c
 @aka	EZEM~c
 @uname	PROTO-CUNEIFORM SIGN EZEN-C
@@ -4414,14 +4262,6 @@
 
 @sign |EZEN×LA|
 @uage	0
-@form |EZEN~a×LA~e|
-@list	BAU305
-@uname	PROTO-CUNEIFORM SIGN EZEN-A TIMES LA-E
-@list	U+12CD5
-@ucun	𒳕
-@uage	1
-@sys	AP23 |EZEN~axLA~e|
-@@
 @form |EZEN~a×LA~e|~v1
 @uname	PROTO-CUNEIFORM SIGN EZEN-A TIMES LA-E VARIANT 1
 @list	U+12CD6
@@ -4441,13 +4281,6 @@
 @uname	PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57 VARIANT 1
 @uage	1
 @sys	LLATU:212_02 EZEN~b+6(N57)
-@sys	AP23 |EZEN~bx6(N57)|
-@@
-@form |EZEN~b×6(N57)|~v1
-@list	U+12CDF
-@uage	1
-@ucun	𒳟
-@uname	PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57
 @sys	AP23 |EZEN~bx6(N57)|
 @@
 @end sign
@@ -4558,11 +4391,6 @@
 @@
 @end sign
 
-@sign |EZEN~a×LA@n|
-@list	BAU304
-@uage	3
-@sys	AP23 not
-@end sign
 
 @sign EZEN@t
 @uage	0
@@ -4718,17 +4546,6 @@
 @@
 @end sign
 
-@sign |GA×X|
-@uage	0
-@form |GA~a~v4×X|
-@aka	|GA~a×X|
-@uname	PROTO-CUNEIFORM SIGN GA-A TIMES X
-@list	U+12CE1
-@ucun	𒳡
-@uage	1
-@sys	AP23 |GA~axX|
-@@
-@end sign
 
 @sign GA₂
 @list	ZATU162
@@ -4906,14 +4723,6 @@
 
 @sign |GA₂×GU₄|
 @uage	0
-@form |GA₂~a1×GU₄|
-@list	BAU321
-@uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES GU4
-@list	U+12CF0
-@ucun	𒳰
-@uage	1
-@sys	AP23 |GA2~a1xGU4|
-@@
 @form |GA₂~a2×GU₄|
 @uname	PROTO-CUNEIFORM SIGN GA2-A2 TIMES GU4
 @list	U+12D08
@@ -5147,14 +4956,6 @@
 
 @sign |GA₂×NUN|
 @uage	0
-@form |GA₂~a1×NUN~a|
-@list	BAU318
-@uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES NUN-A
-@list	U+12CFB
-@ucun	𒳻
-@uage	1
-@sys	AP23 |GA2~a1xNUN~a|
-@@
 @form |GA₂~b×NUN~b|
 @inote	CHECK
 @uage	9
@@ -5486,11 +5287,6 @@
 
 @compoundonly GAM
 
-@sign |GAM.GAM|
-@uage 4
-@list BAU116
-@inote fish name
-@end sign
 
 @sign GAN
 @smap	GAN~a
@@ -5558,14 +5354,6 @@
 @sys	AP23 GAN~c
 @compoundonly GAN~c~v2
 @@
-@form GAN~d
-@list	BAU047
-@uname	PROTO-CUNEIFORM SIGN GAN-D
-@list	U+127F5
-@ucun	𒟵
-@uage	1
-@sys	AP23 GAN~d
-@@
 @form GAN~e
 @list	BAU047
 @uage	9
@@ -5603,19 +5391,6 @@
 @ucun	𒴕
 @uage	1
 @sys	AP23 |GAN~cxHI|
-@@
-@form |GAN~d×HI|
-@uname	PROTO-CUNEIFORM SIGN GAN-D TIMES HI
-@list	U+12D21
-@ucun	𒴡
-@uage	1
-@sys	ATFU-S |GAN~d×HI|
-@sys	ATFU-v he₂
-@sys	AP23 |GAN~dxHI|
-@@
-@form |GAN~e×HI|
-@list	BAU048
-@uage 3
 @@
 @end sign
 
@@ -5749,14 +5524,6 @@
 @@
 @end sign
 
-@sign	|(GAN×HI)&(GAN×HI)|
-@uage 0
-@form   |(GAN~e×HI)&(GAN~e×HI)|
-@list	BAU049
-@uage	3
-@sys	AP23 not
-@@
-@end sign
 
 @sign GAN₂
 @list	BAU061
@@ -5870,14 +5637,6 @@
 @sys	LLATU:226_03 GEŠTIN~a
 @sys	AP23 GESZTIN~a
 @@
-@form GEŠTIN~c
-@list	BAU314
-@uname	PROTO-CUNEIFORM SIGN GESHTIN-C
-@list	U+12800
-@ucun	𒠀
-@uage	1
-@sys	AP23 GESZTIN~c
-@@
 @form GEŠTIN~d
 @inote	CHECK
 @uage	9
@@ -5890,16 +5649,6 @@
 @@
 @end sign
 
-@sign |GEŠTIN×X|
-@uage	0
-@form |GEŠTIN~c×X|
-@uname	PROTO-CUNEIFORM SIGN GESHTIN-C TIMES X
-@list	U+12D22
-@ucun	𒴢
-@uage	1
-@sys	AP23 |GESZTIN~cxX|
-@@
-@end sign
 
 @sign GEŠTU
 @smap	GEŠTU~a
@@ -5961,17 +5710,6 @@
 @@
 @end sign
 
-@sign |GEŠTU×ŠE@t|
-@uage	0
-@form |GEŠTU~a×ŠE~a@t~v1|
-@aka	|GEŠTU~a×ŠE~a@t|
-@uname	PROTO-CUNEIFORM SIGN GESHTU-A TIMES SHE-A TENU
-@list	U+12D23
-@ucun	𒴣
-@uage	1
-@sys	AP23 |GESZTU~axSZE~a@t|
-@@
-@end sign
 
 @sign GI
 @list	ZATU204
@@ -5993,11 +5731,6 @@
 @@
 @end sign
 
-@sign |GI.NE.GIŠ~v|
-@uage	4
-@sys	ATFU-S |GI.NE.BAU377|
-@sys	ATFU-v gibilₓ?
-@end sign
 
 @sign |GI×A|
 @aka	|GI+A|
@@ -6228,11 +5961,6 @@
 @@
 @end sign
 
-@sign |GI₆&GI₆|
-@list	BAU174
-@uage	3
-@sys	AP23 not
-@end sign
 
 @sign GIBIL
 @list	BAU103c
@@ -6266,22 +5994,7 @@
 @sys	AP23 GIBIL6
 @end sign
 
-@sign GIG
-@list	BAU175
-@uname	PROTO-CUNEIFORM SIGN GIG
-@list	U+12812
-@ucun	𒠒
-@uage	1
-@sys	AP23 GIG
-@end sign
 
-@sign GIL
-@uname	PROTO-CUNEIFORM SIGN GIL
-@list	U+12813
-@ucun	𒠓
-@uage	1
-@sys	AP23 GIL
-@end sign
 
 @sign GIR
 @smap	GIR~a
@@ -6450,14 +6163,6 @@
 @@
 @end sign
 
-@sign GIR₄
-@list	BAU181
-@uname	PROTO-CUNEIFORM SIGN GIR4
-@list	U+12821
-@ucun	𒠡
-@uage	1
-@sys	AP23 GIR4
-@end sign
 
 @sign GIR₃@g
 @smap	GIR₃@g~a
@@ -6518,15 +6223,6 @@
 @sys	LLATU:230_04 GIŠ
 @sys	ATFU-S GIŠ
 @sys	AP23 GISZ
-@form GIŠ~v
-@aka	GIŠ~x
-@list	BAU377
-@uname	PROTO-CUNEIFORM SIGN GISH-X
-@list	U+12825
-@ucun	𒠥
-@uage	1
-@sys	AP23 GISZ~x
-@@
 @end sign
 
 @sign |GIŠ.TE|
@@ -6599,16 +6295,6 @@
 @sys	AP23 GISZ@t
 @end sign
 
-@sign |GIŠ@t.E₂|
-@uage	0
-@form |GIŠ@t.E₂~a|
-@uname	PROTO-CUNEIFORM SIGN GISH TENU BESIDE E2-A
-@list	U+12D40
-@ucun	𒵀
-@uage	1
-@sys	AP23 |GISZ@t.E2~a|
-@@
-@end sign
 
 @sign GIŠ₃
 @smap	GIŠ₃~a
@@ -7244,16 +6930,6 @@
 @@
 @end sign
 
-@sign |HI×1(N01@f)|
-@aka	|HI×1(N01)F|
-@list	BAU186
-@inote	AP CDLI correction
-@uname	PROTO-CUNEIFORM SIGN HI TIMES ONE-N1 FLAT
-@list	U+12D4B
-@ucun	𒵋
-@uage	1
-@sys	AP23 |HIx1(N01@f)|
-@end sign
 
 @sign |HI×1(N57)|
 @uname	PROTO-CUNEIFORM SIGN HI TIMES ONE-N57
@@ -7296,18 +6972,6 @@
 @sys	ATFU-S |HI×1(N58)|
 @end sign
 
-@sign |HI×ŠE₃@t~v1|
-@aka	|HI×ŠE₃@t|
-@list	BAU387b
-@inote	ATFU "BAU189?" but this is unlikely.
-@uname	PROTO-CUNEIFORM SIGN HI TIMES SHE3 TENU
-@list	U+12D51
-@ucun	𒵑
-@uage	1
-@sys	ATFU-S |HI×ŠE₃@t|
-@sys	AP23 |HIxSZE3@t|
-@sys	ATFU-S |HI×ŠE₃@t|
-@end sign
 
 @sign |HI×ZATU707|
 @list	ZATU257
@@ -7349,20 +7013,7 @@
 @@
 @end sign
 
-@sign HUB₂
-@list BAU281
-@uname	PROTO-CUNEIFORM SIGN HUB2
-@list	U+12859
-@ucun	𒡙
-@uage	1
-@sys	AP23 HUB2
-@end sign
 
-@sign |HUB₂×KASKAL|
-@list	BAU282
-@uage	3
-@sys	AP23 not
-@end sign
 
 @sign I
 @list	BAU085
@@ -7457,24 +7108,7 @@
 @@
 @end sign
 
-@sign IGI
-@list	BAU185
-@list	BAU240
-@list	ZATU040
-@uname	PROTO-CUNEIFORM SIGN IGI
-@list	U+12862
-@ucun	𒡢
-@uage	1
-@sys	ATFU-S IGI
-@sys	ATFU-v igi
-@sys	AP23 IGI
-@end sign
 
-@sign |IGI.BUR|
-@list	BAU242
-@uage	4
-@sys	ATFU-S |IGI+BUR|
-@end sign
 
 @sign IL
 @list	ZATU262
@@ -7530,16 +7164,6 @@
 @@
 @end sign
 
-@sign IM@g
-@uage	0
-@form IM~a@g
-@uname	PROTO-CUNEIFORM SIGN IM-A GUNU
-@list	U+12867
-@ucun	𒡧
-@uage	1
-@sys	AP23 IM~a@g
-@@
-@end sign
 
 @sign IN
 @list	ZATU265
@@ -7776,13 +7400,6 @@
 @@
 @end sign
 
-@sign |KA×A|
-@list	BAU232
-@note	The instance in UET 2 143 ii 7 is read SAG! in CDLI.
-@uage	3
-@sys	ATFU-S NAG
-@sys	ATFU-v naŋ
-@end sign
 
 @sign |KA×SAR|
 @list	ZATU273
@@ -7823,15 +7440,6 @@
 @ucun	𒡿
 @uage	1
 @sys	AP23 KA2~c
-@@
-@form KA₂~d
-@list	BAU363
-@list	BAU364
-@uname	PROTO-CUNEIFORM SIGN KA2-D
-@list	U+12880
-@ucun	𒢀
-@uage	1
-@sys	AP23 KA2~d
 @@
 @end sign
 
@@ -8200,14 +7808,6 @@
 @@
 @end sign
 
-@sign KEŠ₂
-@list	BAU307
-@uname	PROTO-CUNEIFORM SIGN KESH2
-@list	U+1289E
-@ucun	𒢞
-@uage	1
-@sys	AP23 KESZ2
-@end sign
 
 @sign KI
 @aka	KI~a
@@ -8589,17 +8189,6 @@
 @@
 @end sign
 
-@sign KU@t
-@uage	0
-@form KU~a@t
-@list	BAU384b
-@uname	PROTO-CUNEIFORM SIGN KU-A TENU
-@list	U+128C3
-@ucun	𒣃
-@uage	1
-@sys	AP23 KU~a@t
-@@
-@end sign
 
 @sign KU₃
 @smap	KU₃~a
@@ -8703,14 +8292,6 @@
 @@
 @end sign
 
-@sign KUN
-@list	BAU027
-@uname	PROTO-CUNEIFORM SIGN KUN
-@list	U+128CC
-@ucun	𒣌
-@uage	1
-@sys	AP23 KUN
-@end sign
 
 @sign KUR
 @smap	KUR~a
@@ -8894,22 +8475,8 @@
 @uage	1
 @sys	AP23 LA~d
 @@
-@form LA~e
-@list	BAU205
-@list	BAU287
-@uname	PROTO-CUNEIFORM SIGN LA-E
-@list	U+128DD
-@ucun	𒣝
-@uage	1
-@sys	AP23 LA~e
-@@
 @end sign
 
-@sign LA@n
-@list	BAU286
-@uage	3
-@sys	AP23 not
-@end sign
 
 @sign LA₂
 @aka	LA₂~a
@@ -9129,17 +8696,6 @@
 @@
 @end sign
 
-@sign |LAGAB×1(N01)|
-@uage	0
-@form |LAGAB~b×1(N01)|
-@list	BAU268
-@uname	PROTO-CUNEIFORM SIGN LAGAB-B TIMES ONE-N1
-@list	U+12D7B
-@ucun	𒵻
-@uage	1
-@sys	AP23 |LAGAB~bx1(N01)|
-@@
-@end sign
 
 @sign |LAGAB×2(N14)|
 @list	ZATU320
@@ -9212,14 +8768,6 @@
 @uage	1
 @sys	AP23 |LAGAB~axSI|
 @@
-@form |LAGAB~b×SI|
-@list	BAU262
-@uname	PROTO-CUNEIFORM SIGN LAGAB-B TIMES SI
-@list	U+12D83
-@ucun	𒶃
-@uage	1
-@sys	AP23 |LAGAB~bxSI|
-@@
 @end sign
 
 @sign |LAGAB×SIG₇|
@@ -9282,14 +8830,6 @@
 @sys	LLATU:252_06 LAGAB~a+ŠITA~a1
 @sys	AP23 |LAGAB~axSZITA~a1|
 @@
-@form |LAGAB~b×ŠITA~c|
-@list	BAU270
-@uname	PROTO-CUNEIFORM SIGN LAGAB-B TIMES SHITA-C
-@list	U+12D82
-@ucun	𒶂
-@uage	1
-@sys	AP23 |LAGAB~bxSZITA~c|
-@@
 @end sign
 
 @sign |LAGAB×TI|
@@ -9342,13 +8882,6 @@
 @uage	1
 @sys	LLATU:252_09 LAGAB~a+?
 @sys	AP23 |LAGAB~axX|
-@@
-@form |LAGAB~b×X|
-@uname	PROTO-CUNEIFORM SIGN LAGAB-B TIMES X
-@list	U+12D86
-@ucun	𒶆
-@uage	1
-@sys	AP23 |LAGAB~bxX|
 @@
 @end sign
 
@@ -9512,13 +9045,6 @@
 @uage	1
 @sys	AP23 LAL3~b
 @@
-@form LAL₃~c
-@uname	PROTO-CUNEIFORM SIGN LAL3-C
-@list	U+128F1
-@ucun	𒣱
-@uage	1
-@sys	AP23 LAL3~c
-@@
 @end sign
 
 @sign LAM
@@ -9556,22 +9082,8 @@
 @uage	1
 @sys	AP23 LAM~b
 @@
-@form LAM~c
-@list	BAU120
-@list	BAU122
-@uname	PROTO-CUNEIFORM SIGN LAM-C
-@list	U+128F9
-@ucun	𒣹
-@uage	1
-@sys	AP23 LAM~c
-@@
 @end sign
 
-@sign |LAM~c×KUR|
-@list	BAU121
-@uage	3
-@sys	AP23 not
-@end sign
 
 @sign LAM@r
 @uage	0
@@ -9607,65 +9119,13 @@
 @@
 @end sign
 
-@sign LAK025
-@list	BAU076
-@uname	PROTO-CUNEIFORM SIGN LAK025
-@list	U+128E7
-@ucun	𒣧
-@uage	1
-@sys	LLATU:319_04 LAK25
-@sys	AP23 LAK025
-@end sign
 
-@sign LAK050
-@uname	PROTO-CUNEIFORM SIGN LAK050
-@list	U+128E8
-@ucun	𒣨
-@uage	1
-@sys	AP23 LAK050
-@end sign
 
-@sign LAK172
-@list	BAU412
-@uname	PROTO-CUNEIFORM SIGN LAK172
-@list	U+128E9
-@ucun	𒣩
-@uage	1
-@sys	ATFU-S LAK172
-@sys	AP23 LAK172
-@end sign
 
-@sign LAK251
-@list	BAU212a
-@uname	PROTO-CUNEIFORM SIGN LAK251
-@list	U+128EA
-@ucun	𒣪
-@uage	1
-@sys	AP23 LAK251
-@end sign
 
-@sign LAK350
-@list	BAU213
-@uname	PROTO-CUNEIFORM SIGN LAK350
-@list	U+128EB
-@ucun	𒣫
-@uage	1
-@sys	AP23 LAK350
-@end sign
 
 @compoundonly	LAK672
 
-@sign LAK777
-@list	BAU277
-@uname	PROTO-CUNEIFORM SIGN LAK777
-@list	U+128EC
-@ucun	𒣬
-@uage	1
-@sys	LLATU:319_05 LAK777
-@sys	ATFU-S LAK777
-@sys	ATFU-v rin₅?
-@sys	AP23 LAK777
-@end sign
 
 @sign LI
 @list	BAU131
@@ -9735,13 +9195,6 @@
 @@
 @end sign
 
-@sign LU₂@t
-@uname	PROTO-CUNEIFORM SIGN LU2 TENU
-@list	U+12900
-@ucun	𒤀
-@uage	1
-@sys	AP23 LU2@t
-@end sign
 
 @sign LUGAL
 @list	ZATU334
@@ -9811,14 +9264,6 @@
 @sys	AP23 |MAxMA|
 @end sign
 
-@sign |MA~v1×2(N57)|
-@aka	|MA×2(N57)|
-@uname	PROTO-CUNEIFORM SIGN MA TIMES TWO-N57
-@list	U+12D8B
-@ucun	𒶋
-@uage	1
-@sys	AP23 |MAx2(N57)|
-@end sign
 
 @sign |MA×1(N58)|
 @uname	PROTO-CUNEIFORM SIGN MA TIMES ONE-N58
@@ -9828,14 +9273,6 @@
 @sys	AP23 |MAx1(N58)|
 @end sign
 
-@sign |MA~v1×X|
-@aka	|MA×X|
-@uname	PROTO-CUNEIFORM SIGN MA TIMES X
-@list	U+12D8E
-@ucun	𒶎
-@uage	1
-@sys	AP23 |MAxX|
-@end sign
 
 @sign MA₂
 @list	ZATU339
@@ -10404,17 +9841,6 @@
 @@
 @end sign
 
-@sign |MUD₃@g×GU|
-@uage	0
-@form |MUD₃~a@g×GU|
-@list	BAU129
-@uname	PROTO-CUNEIFORM SIGN MUD3-A GUNU TIMES GU
-@list	U+12DA3
-@ucun	𒶣
-@uage	1
-@sys	AP23 |MUD3~a@gxGU|
-@@
-@end sign
 
 @sign MUL
 @list	ZATU367
@@ -10425,10 +9851,6 @@
 @sys	LLATU:258_06 MUL
 @sys	AP23 MUL
 @inote add BAR×MUL from P000299?
-@form |AN.AN.AN|
-@uage 4
-@list	BAU008
-@@
 @end sign
 
 @sign MUN
@@ -10748,11 +10170,6 @@
 @@
 @end sign
 
-@sign NA₂@n
-@uage	0
-@compoundonly NA₂~a@n
-@@
-@end sign
 
 @sign NAB
 @list	ZATU380
@@ -11086,12 +10503,6 @@
 @@
 @end sign
 
-@sign |NE.GIŠ~v|
-@inote	ATFU lists as |NE.BAU377.PAP| but reads, e.g., pa-bilₓ(NE.BAU377), in the examples.
-@uage	4
-@sys	ATFU-S |NE.BAU377|
-@sys	ATFU-v bilₓ
-@end sign
 
 @sign NERGAL
 @smap	NERGAL~v
@@ -11122,13 +10533,6 @@
 @ucun	𒥟
 @uage	1
 @sys	LLATU:270_09 NESAG₂~a
-@sys	AP23 NESAG2~a
-@@
-@form NESAG₂~a1
-@uname	PROTO-CUNEIFORM SIGN NESAG2-A VARIANT 1
-@list	U+12960
-@ucun	𒥠
-@uage	1
 @sys	AP23 NESAG2~a
 @@
 @form NESAG₂~a2
@@ -11347,13 +10751,6 @@
 @@
 @end sign
 
-@sign NIMGIR₂
-@list BAU156
-@uage 3
-@sys	AP23 not
-@sys	ATFU-S NIMGIR₂
-@sys	ATFU-v nimgir₂ ulₓ?
-@end sign
 
 @sign NIN
 @list	BAU401
@@ -11528,17 +10925,6 @@
 @sys	AP23 |NINDA2xGISZ|
 @end sign
 
-@sign |NINDA₂×(GIŠ.DAR)|
-@uage	0
-@form |NINDA₂×(GIŠ.DAR~a)|
-@list	BAU069
-@uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES GISH BESIDE DAR-A
-@list	U+12DBD
-@ucun	𒶽
-@uage	1
-@sys	AP23 |NINDA2x(GISZ.DAR~a)|
-@@
-@end sign
 
 @sign |NINDA₂×GU₄|
 @uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES GU4
@@ -11628,13 +11014,6 @@
 @sys	AP23 |NINDA2x2(N01)|
 @end sign
 
-@sign |NINDA₂×1(N06)|
-@uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N6
-@list	U+12DB1
-@ucun	𒶱
-@uage	1
-@sys	AP23 |NINDA2x1(N06)|
-@end sign
 
 @sign |NINDA₂×1(N08)|
 @list	ZATU411
@@ -11645,18 +11024,6 @@
 @sys	AP23 |NINDA2x1(N08)|
 @end sign
 
-@sign |NINDA₂×NE|
-@uage	0
-@form |NINDA₂×NE~a~v1|
-@aka	|NINDA₂×NE~a|
-@list	BAU068
-@uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES NE-A
-@list	U+12DCA
-@ucun	𒷊
-@uage	1
-@sys	AP23 |NINDA2xNE~a|
-@@
-@end sign
 
 @sign |NINDA₂×NUN|
 @uage	0
@@ -11667,19 +11034,6 @@
 @@
 @end sign
 
-@sign |NINDA₂×ŠIM|
-@uage	0
-@form |NINDA₂×ŠIM~a~v2|
-@aka	|NINDA₂×ŠIM~a|
-@list	BAU070
-@uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES SHIM-A
-@list	U+12DCB
-@ucun	𒷋
-@uage	1
-@sys	ATFU-S |NINDA₂×ŠIM~a|
-@sys	AP23 |NINDA2xSZIM~a|
-@@
-@end sign
 
 @sign |NINDA₂×U₄|
 @list	ZATU409
@@ -11729,22 +11083,7 @@
 @sys	ATFU-S |NINDA₂×X|
 @end sign
 
-@sign |NINDA₂×(X₁.MAŠ)|
-@list	BAU050
-@inote	This sign has a legible but unidentifiable component before MAŠ
-	as opposed to |NINDA₂×(X.MAŠ)| in which the X-component is damaged.
-@uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES X-1 BESIDE MASH
-@uage	3
-@sys	AP23 not
-@end sign
 
-@sign |NINDA₂×(X.MAŠ)|
-@uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES X BESIDE MASH
-@list	U+12DD1
-@ucun	𒷑
-@uage	1
-@sys	AP23 |NINDA2x(X.MASZ)|
-@end sign
 
 @sign |NINDA₂×(ZATU659×1(N01))|
 @uname	PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU659 TIMES ONE-N1
@@ -11954,11 +11293,6 @@
 @@
 @end sign
 
-@sign |NUN.ME|
-@uage	4
-@sys	ATFU-S ABGAL
-@sys	ATFU-v abgal
-@end sign
 
 @sign |NUN.U₄|
 @uage	0
@@ -11981,9 +11315,6 @@
 @@
 @end sign
 
-@sign |EN×NUN|
-@uage	0
-@end sign
 
 @sign |NUN+EN|
 @uage	0
@@ -12163,43 +11494,11 @@
 @@
 @end sign
 
-@sign |PA.KASKAL.DU|
-@uage	4
-@sys	ATFU-S |PA.KASKAL.DU|
-@sys	ATFU-v maškim
-@end sign
 
-@sign |PA.LAK672|
-@uage	4
-@sys	ATFU-S |PA.LAK672|
-@sys	ATFU-v musubₓ
-@end sign
 
-@sign |PA.SI|
-@uage	4
-@sys	ATFU-S |PA.SI|
-@sys	ATFU-v ensiₓ
-@end sign
 
-@sign |PA.SU₃.SIKIL|
-@uage	4
-@sys	ATFU-S |PA.SUD.EL|
-@end sign
 
-@sign |PA.UDU|
-@uage	4
-@sys	ATFU-S SIPA
-@sys	ATFU-v sipa
-@end sign
 
-@sign PA₃
-@list	BAU243
-@uname	PROTO-CUNEIFORM SIGN PA3
-@list	U+12991
-@ucun	𒦑
-@uage	1
-@sys	AP23 PA3
-@end sign
 
 @sign PAD
 @smap	PAD~a
@@ -12418,21 +11717,6 @@
 @@
 @end sign
 
-@sign RI
-@uname	PROTO-CUNEIFORM SIGN RI
-@list	U+129A3
-@ucun	𒦣
-@uage	1
-@sys	AP23 RI
-@form RI~x
-@uname	PROTO-CUNEIFORM SIGN RI-X
-@list	U+129A4
-@ucun	𒦤
-@unote	Do not encode, identical to RI8-B
-@uage	0
-@sys	AP23 RI~x
-@@
-@end sign
 
 @sign RI₈
 @smap	RI₈~a
@@ -12579,17 +11863,6 @@
 @@
 @end sign
 
-@sign |SAG×LAM|
-@uage	0
-@form |SAG~v1×LAM~c|
-@aka	|SAG×LAM~c|
-@uname	PROTO-CUNEIFORM SIGN SAG TIMES LAM-C
-@list	U+12DE1
-@ucun	𒷡
-@uage	1
-@sys	AP23 |SAGxLAM~c|
-@@
-@end sign
 
 @sign |SAG~v1×MA~v1|
 @aka	|SAG×MA|
@@ -12617,17 +11890,6 @@
 @sys	AP23 not
 @end sign
 
-@sign |SAG×SAR|
-@uage	0
-@form |SAG×SAR~a|
-@list	BAU235
-@uname	PROTO-CUNEIFORM SIGN SAG TIMES SAR-A
-@list	U+12DE3
-@ucun	𒷣
-@uage	1
-@sys	AP23 |SAGxSAR~a|
-@@
-@end sign
 
 @sign |SAG+UKKIN×1(N57)|
 @uage	0
@@ -12883,11 +12145,6 @@
 @@
 @end sign
 
-@sign |SI.A|
-@list	BAU032
-@uage	4
-@sys	AP23 not
-@end sign
 
 @sign |SI×EN|
 @uage	0
@@ -13217,15 +12474,6 @@
 @@
 @end sign
 
-@sign SIKIL
-@list	BAU399
-@uname	PROTO-CUNEIFORM SIGN SIKIL
-@list	U+12A30
-@ucun	𒨰
-@uage	1
-@sys	ATFU-S SIKIL
-@sys	AP23 SIKIL
-@end sign
 
 @sign SILA₃
 @smap	SILA₃~a
@@ -13261,17 +12509,7 @@
 @@
 @end sign
 
-@sign |SILA₃.ŠU|
-@uage	4
-@sys	ATFU-S |SILA₃.ŠU|
-@sys	ATFU-v sagi
-@end sign
 
-@sign |SILA₃.TAK₄|
-@uage	4
-@sys	ATFU-S |SILA₃.TAK₄|
-@sys	ATFU-v sagiₓ
-@end sign
 
 @sign |SILA₃×A|
 @list	ZATU457
@@ -13314,20 +12552,6 @@
 @ucun	𒸐
 @uage	1
 @sys	AP23 |SILA3~axDUG~a|
-@@
-@form |SILA₃~a×DUG~b|
-@uname	PROTO-CUNEIFORM SIGN SILA3-A TIMES DUG-B
-@list	U+12E11
-@ucun	𒸑
-@uage	1
-@sys	AP23 |SILA3~axDUG~b|
-@@
-@form |SILA₃~b×DUG~a|
-@uname	PROTO-CUNEIFORM SIGN SILA3-B TIMES DUG-A
-@list	U+12E30
-@ucun	𒸰
-@uage	1
-@sys	AP23 |SILA3~bxDUG~a|
 @@
 @end sign
 
@@ -13922,11 +13146,6 @@
 @sys	AP23 SU3
 @end sign
 
-@sign |SU₃.SU₃.KALAM|
-@uage	4
-@sys	ATFU-S |SU₃.SU₃.KALAM|
-@sys	ATFU-v kiti gutir?
-@end sign
 
 @sign SUG
 @list	BAU271
@@ -14056,14 +13275,6 @@
 @uage	1
 @sys	LLATU:288_04 SUKUD+SUKUD~b
 @sys	AP23 |(SUKUD+SUKUD)~b|
-@@
-@form |(SUKUD+SUKUD)~c|
-@uname	PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM C
-@list	U+12E3B
-@ucun	𒸻
-@uage	1
-@sys	LLATU:288_05 SUKUD+SUKUD~x
-@sys	AP23 |(SUKUD+SUKUD)~c|
 @@
 @form |(SUKUD+SUKUD)~d|
 @uname	PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM D
@@ -14793,11 +14004,6 @@
 @@
 @end sign
 
-@sign |ŠEŠ.IB|
-@list	BAU013
-@uage	4
-@sys	AP23 not
-@end sign
 
 @sign ŠIDIM
 @list	BAU381
@@ -14955,14 +14161,6 @@
 @uage	1
 @sys	LLATU:295_05 ŠITA~b3
 @sys	AP23 SZITA~b3
-@@
-@form ŠITA~c
-@list	BAU395
-@uname	PROTO-CUNEIFORM SIGN SHITA-C
-@list	U+12A00
-@ucun	𒨀
-@uage	1
-@sys	AP23 SZITA~c
 @@
 @end sign
 
@@ -15149,14 +14347,6 @@
 @sys	AP23 SZU@g
 @end sign
 
-@sign ŠU@s
-@list	BAU098
-@uname	PROTO-CUNEIFORM SIGN SHU SHESSHIG
-@list	U+12A06
-@ucun	𒨆
-@uage	1
-@sys	AP23 SZU@s
-@end sign
 
 @sign ŠU₂
 @smap	ŠU₂~b
@@ -15273,14 +14463,6 @@
 @sys	AP23 |SZU2.1(N02)|
 @end sign
 
-@sign |ŠU₂~b.2(N57)|
-@aka	|ŠU₂.2(N57)|
-@uname	PROTO-CUNEIFORM SIGN SHU2 BESIDE TWO-N57
-@list	U+12DFC
-@ucun	𒷼
-@uage	1
-@sys	AP23 |SZU2.2(N57)|
-@end sign
 
 @sign |ŠU₂.PAP|
 @uage	0
@@ -15415,13 +14597,6 @@
 @uage	1
 @sys	AP23 SZURUPPAK~b
 @@
-@form ŠURUPPAK~c
-@uname	PROTO-CUNEIFORM SIGN SHURUPPAK-C
-@list	U+12A12
-@ucun	𒨒
-@uage	1
-@sys	AP23 SZURUPPAK~c
-@@
 @end sign
 
 @sign TA
@@ -15465,14 +14640,6 @@
 @ucun	𒩘
 @uage	1
 @sys	AP23 TA~e
-@@
-@form TA~f
-@list	BAU346
-@uname	PROTO-CUNEIFORM SIGN TA-F
-@list	U+12A59
-@ucun	𒩙
-@uage	1
-@sys	AP23 TA~f
 @@
 @end sign
 
@@ -15622,15 +14789,6 @@
 @@
 @compoundonly TAR~c
 @inote This is the reversed ŠU₂-like sign in |AMAR×TAR|, |UŠ×TAR~c|
-@@
-@form TAR~d
-@list	BAU117
-@list	BAU127
-@uname	PROTO-CUNEIFORM SIGN TAR-D
-@list	U+12A67
-@ucun	𒩧
-@uage	1
-@sys	AP23 TAR~d
 @@
 @end sign
 
@@ -15953,14 +15111,6 @@
 @@
 @end sign
 
-@sign |TUR~v1×X|
-@aka	|TUR×X|
-@uname	PROTO-CUNEIFORM SIGN TUR TIMES X
-@list	U+12E3F
-@ucun	𒸿
-@uage	1
-@sys	AP23 |TURxX|
-@end sign
 
 @sign TUR@g
 @uname	PROTO-CUNEIFORM SIGN TUR GUNU
@@ -16009,16 +15159,6 @@
 @@
 @end sign
 
-@sign |TUR₃×TAK₄|
-@uage	0
-@form |TUR₃~b×TAK₄~a|
-@uname	PROTO-CUNEIFORM SIGN TUR3-B TIMES TAK4-A
-@list	U+12E40
-@ucun	𒹀
-@uage	1
-@sys	AP23 |TUR3~bxTAK4~a|
-@@
-@end sign
 
 @sign TUR₃@n
 @uage	0
@@ -16090,11 +15230,6 @@
 @sys	AP23 U4
 @end sign
 
-@sign |U₄.KA.BAR|
-@list	BAU198b
-@uage	4
-@sys	AP23 not
-@end sign
 
 @sign |U₄.1(N08)|
 @uname	PROTO-CUNEIFORM SIGN U4 BESIDE ONE-N8
@@ -16246,14 +15381,6 @@
 @sys	AP23 not
 @end sign
 
-@sign |U₄×1(N01@f)|
-@aka	|U₄×1(N01)F|
-@uname	PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1 FLAT
-@list	U+12E43
-@ucun	𒹃
-@uage	1
-@sys	AP23 |U4x1(N01@f)|
-@end sign
 
 @sign |U₄×2(N01)|
 @uname	PROTO-CUNEIFORM SIGN U4 TIMES TWO-N1
@@ -16696,11 +15823,6 @@
 @uage	1
 @sys	AP23 UD5~c
 @@
-@form UD₅~d
-@list	BAU276
-@uage	3
-@sys	AP23 not
-@@
 @end sign
 
 @sign UD₅@g
@@ -16915,18 +16037,6 @@
 @@
 @end sign
 
-@sign |UKKIN×DUG|
-@uage	0
-@form |UKKIN~b×DUG~a|
-@list	BAU358
-@uname	PROTO-CUNEIFORM SIGN UKKIN-B TIMES DUG-A
-@list	U+12E7D
-@ucun	𒹽
-@uage	1
-@sys	ATFU-S |UKKIN~b×DUG~a|
-@sys	AP23 |UKKIN~bxDUG~a|
-@@
-@end sign
 
 @sign |UKKIN×HI@g|
 @uage	0
@@ -17332,13 +16442,6 @@
 @sys	AP23 URI
 @end sign
 
-@sign URI₂
-@uname	PROTO-CUNEIFORM SIGN URI2
-@list	U+12ACB
-@ucun	𒫋
-@uage	1
-@sys	AP23 URI2
-@end sign
 
 @sign URI₃
 @smap	URI₃~a
@@ -17370,16 +16473,6 @@
 @@
 @end sign
 
-@sign |URI₃+IB|
-@uage	0
-@form |URI₃~a+IB~a|
-@uname	PROTO-CUNEIFORM SIGN URI3-A JOINING IB-A
-@list	U+12E86
-@ucun	𒺆
-@uage	1
-@sys	AP23 |URI3~a+IB~a|
-@@
-@end sign
 
 @sign URI₅
 @list	BAU014
@@ -17441,17 +16534,6 @@
 @@
 @end sign
 
-@sign |URU×A|
-@uage	0
-@form |URU~a1×A|
-@list	BAU337
-@uname	PROTO-CUNEIFORM SIGN URU-A1 TIMES A
-@list	U+12E89
-@ucun	𒺉
-@uage	1
-@sys	AP23 |URU~a1xA|
-@@
-@end sign
 
 @sign |URU×AMAR|
 @list	ZATU598
@@ -17729,13 +16811,6 @@
 @uage	1
 @sys	AP23 |USZ~bxTAR~c|
 @@
-@form |UŠ~b×TAR~d|
-@uname	PROTO-CUNEIFORM SIGN USH-B TIMES TAR-D
-@list	U+12E95
-@ucun	𒺕
-@uage	1
-@sys	AP23 |USZ~bxTAR~d|
-@@
 @end sign
 
 @sign |UŠ&UŠ|
@@ -17776,14 +16851,6 @@
 @smap	UŠUR₃~a
 @list	ZATU608
 @uage	0
-@form UŠUR₃~a
-@list	BAU293a
-@uname	PROTO-CUNEIFORM SIGN USHUR3-A
-@list	U+12AE3
-@ucun	𒫣
-@uage	1
-@sys	AP23 USZUR3~a
-@@
 @form UŠUR₃~b1
 @uname	PROTO-CUNEIFORM SIGN USHUR3-B1
 @list	U+12AE4
@@ -17965,14 +17032,6 @@
 @@
 @end sign
 
-@sign ZADIM
-@list	BAU055
-@uname	PROTO-CUNEIFORM SIGN ZADIM
-@list	U+12AF2
-@ucun	𒫲
-@uage	1
-@sys	AP23 ZADIM
-@end sign
 
 @sign ZAG
 @smap	ZAG~a
@@ -18705,12 +17764,6 @@
 @sys	AP23 |ZATU659x1(N58)@t|
 @end sign
 
-@sign ZATU659@t
-@unote	Single instance is not clear on photograph and questioned in transliteration;
-	do not encode. Could equally be transliterated as 'X'.
-@uage	0
-@sys	AP23 not
-@end sign
 
 @sign ZATU662
 @list	ZATU662
@@ -20008,18 +19061,6 @@
 @@
 @end sign
 
-@sign |ZATU737×ŠITA@g|
-@list	ZATU746
-@uage	0
-@form |ZATU737×ŠITA~b1@g|
-@aka |ZATU737×ŠITA@g~a|
-@uname	PROTO-CUNEIFORM SIGN ZATU737 TIMES SHITA GUNU-A
-@list	U+12EBA
-@ucun	𒺺
-@uage	1
-@sys	AP23 |ZATU737xSZITA@g~a|
-@@
-@end sign
 
 @sign	|ZATU737~v3×U₄|
 @aka	|ZATU737~v2×U₄|
@@ -21311,33 +20352,8 @@
 
 @compoundonly	ZI₃
 
-@sign |ZI₃&ZI₃.SAR|
-@list	BAU137
-@uage	3
-@sys	AP23 not
-@end sign
 
-@sign ZU
-@list	BAU224
-@note	The UET 2 instance of ZU is in text 310, said to be a later text.
-@uage	3
-@sys	ATFU-S ZU
-@sys	ATFU-v zu
-@end sign
 
-@sign |(ZU&ZU).SAR|
-@uage	0
-@form |(ZU&ZU).SAR~a|
-@list	BAU136
-@uname	PROTO-CUNEIFORM SIGN ZU OVER ZU BESIDE SAR-A
-@list	U+12EC6
-@ucun	𒻆
-@uage	1
-@sys	ATFU-S |(ZU&ZU).SAR~a|
-@sys	ATFU-v lumₓ
-@sys	AP23 |(ZU&ZU).SAR~a|
-@@
-@end sign
 
 @sign ZUBI
 @smap	ZUBI~a
@@ -21423,21 +20439,7 @@
 @sys	AP23 2(N01@f)
 @end sign
 
-@sign 3(N01@f)
-@uname	PROTO-CUNEIFORM NUMBER THREE-N1 FLAT
-@list	U+12615
-@ucun	𒘕
-@uage	1
-@sys	AP23 3(N01@f)
-@end sign
 
-@sign 4(N01@f)
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N1 FLAT
-@list	U+12642
-@ucun	𒙂
-@uage	1
-@sys	AP23 4(N01@f)
-@end sign
 
 @sign 5(N01@f)
 @uname	PROTO-CUNEIFORM NUMBER FIVE-N1 FLAT
@@ -21447,29 +20449,8 @@
 @sys	AP23 5(N01@f)
 @end sign
 
-@sign 6(N01@f)
-@uname	PROTO-CUNEIFORM NUMBER SIX-N1 FLAT
-@list	U+1268E
-@ucun	𒚎
-@uage	1
-@sys	AP23 6(N01@f)
-@end sign
 
-@sign 7(N01@f)
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N1 FLAT
-@list	U+126A6
-@ucun	𒚦
-@uage	1
-@sys	AP23 7(N01@f)
-@end sign
 
-@sign 8(N01@f)
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N1 FLAT
-@list	U+126BA
-@ucun	𒚺
-@uage	1
-@sys	AP23 8(N01@f)
-@end sign
 
 @sign 9(N01@f)
 @uname	PROTO-CUNEIFORM NUMBER NINE-N1 FLAT
@@ -21746,45 +20727,10 @@
 @sys	AP23 5(N04)
 @end sign
 
-@sign 1(N04@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N4 FLAT
-@list	U+12586
-@ucun	𒖆
-@uage	1
-@sys	AP23 1(N04@f)
-@end sign
 
-@sign 2(N04@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N4 FLAT
-@list	U+125E4
-@ucun	𒗤
-@uage	1
-@sys	AP23 2(N04@f)
-@end sign
 
-@sign 3(N04@f)
-@uname	PROTO-CUNEIFORM NUMBER THREE-N4 FLAT
-@list	U+12619
-@ucun	𒘙
-@uage	1
-@sys	AP23 3(N04@f)
-@end sign
 
-@sign 4(N04@f)
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N4 FLAT
-@list	U+12646
-@ucun	𒙆
-@uage	1
-@sys	AP23 4(N04@f)
-@end sign
 
-@sign 5(N04@f)
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N4 FLAT
-@list	U+12671
-@ucun	𒙱
-@uage	1
-@sys	AP23 5(N04@f)
-@end sign
 
 @sign 1(N05)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N5
@@ -22003,13 +20949,6 @@
 @sys	AP23 9(N08)
 @end sign
 
-@sign 1(N08@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N8 FLAT
-@list	U+1258D
-@ucun	𒖍
-@uage	1
-@sys	AP23 1(N08@f)
-@end sign
 
 @sign |1(N08@f)×1(N57)|
 @uname	PROTO-CUNEIFORM SIGN ONE-N8 FLAT TIMES ONE-N57
@@ -22175,77 +21114,14 @@
 @sys	AP23 1(N14@f)
 @end sign
 
-@sign 2(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N14 FLAT
-@list	U+125EB
-@ucun	𒗫
-@uage	1
-@sys	AP23 2(N14@f)
-@end sign
 
-@sign 3(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER THREE-N14 FLAT
-@list	U+12620
-@ucun	𒘠
-@uage	1
-@sys	AP23 3(N14@f)
-@end sign
 
-@sign 4(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N14 FLAT
-@list	U+1264C
-@ucun	𒙌
-@uage	1
-@sys	AP23 4(N14@f)
-@end sign
 
-@sign 5(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N14 FLAT
-@list	U+12676
-@ucun	𒙶
-@uage	1
-@sys	AP23 5(N14@f)
-@end sign
 
-@sign 6(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER SIX-N14 FLAT
-@list	U+12693
-@ucun	𒚓
-@uage	1
-@sys	AP23 6(N14@f)
-@end sign
 
-@sign 7(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N14 FLAT
-@list	U+126AA
-@ucun	𒚪
-@uage	1
-@sys	AP23 7(N14@f)
-@end sign
 
-@sign 8(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N14 FLAT
-@list	U+126BE
-@ucun	𒚾
-@uage	1
-@sys	AP23 8(N14@f)
-@end sign
 
-@sign 9(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER NINE-N14 FLAT
-@list	U+126D1
-@ucun	𒛑
-@uage	1
-@sys	AP23 9(N14@f)
-@end sign
 
-@sign 10(N14@f)
-@uname	PROTO-CUNEIFORM NUMBER TEN-N14 FLAT
-@list	U+126E2
-@ucun	𒛢
-@uage	1
-@sys	AP23 10(N14@f)
-@end sign
 
 @sign 1(N15)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N15
@@ -22463,61 +21339,12 @@
 @@
 @end sign
 
-@sign 1(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N19 FLAT
-@list	U+12598
-@ucun	𒖘
-@uage	1
-@sys	AP23 1(N19@f)
-@end sign
 
-@sign 2(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N19 FLAT
-@list	U+125EF
-@ucun	𒗯
-@uage	1
-@sys	AP23 2(N19@f)
-@end sign
 
-@sign 3(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER THREE-N19 FLAT
-@list	U+12624
-@ucun	𒘤
-@uage	1
-@sys	AP23 3(N19@f)
-@end sign
 
-@sign 4(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N19 FLAT
-@list	U+12650
-@ucun	𒙐
-@uage	1
-@sys	AP23 4(N19@f)
-@end sign
 
-@sign 5(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N19 FLAT
-@list	U+1267A
-@ucun	𒙺
-@uage	1
-@sys	AP23 5(N19@f)
-@end sign
 
-@sign 6(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER SIX-N19 FLAT
-@list	U+12696
-@ucun	𒚖
-@uage	1
-@sys	AP23 6(N19@f)
-@end sign
 
-@sign 7(N19@f)
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N19 FLAT
-@list	U+126AD
-@ucun	𒚭
-@uage	1
-@sys	AP23 7(N19@f)
-@end sign
 
 @sign 8(N19@f)
 @uname	PROTO-CUNEIFORM NUMBER EIGHT-N19 FLAT
@@ -22669,21 +21496,7 @@
 @sys	AP23 not
 @end sign
 
-@sign 1(N22@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N22 FLAT
-@list	U+1259B
-@ucun	𒖛
-@uage	1
-@sys	AP23 1(N22@f)
-@end sign
 
-@sign 2(N22@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N22 FLAT
-@list	U+125F3
-@ucun	𒗳
-@uage	1
-@sys	AP23 2(N22@f)
-@end sign
 
 @sign 1(N23)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N23
@@ -22709,13 +21522,6 @@
 @sys	AP23 3(N23)
 @end sign
 
-@sign 5(N23)
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N23
-@list	U+1267D
-@ucun	𒙽
-@uage	1
-@sys	AP23 5(N23)
-@end sign
 
 @sign 7(N23)
 @uname	PROTO-CUNEIFORM NUMBER SEVEN-N23
@@ -22755,13 +21561,6 @@
 @@
 @end sign
 
-@sign 2(N24)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N24
-@list	U+125F5
-@ucun	𒗵
-@uage	1
-@sys	AP23 2(N24)
-@end sign
 
 @sign 4(N24)
 @uname	PROTO-CUNEIFORM NUMBER FOUR-N24
@@ -23106,15 +21905,6 @@
 @sys	AP23 9(N34)
 @end sign
 
-@sign 1(N34@f@t)
-@aka	"1(N34F@t)"
-@inote	AP CDLI correction
-@uname	PROTO-CUNEIFORM NUMBER ONE-N34 FLAT TENU
-@list	U+125BC
-@ucun	𒖼
-@uage	1
-@sys	AP23 |1(N34@f@t)|
-@end sign
 
 @sign 1(N34@f)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N34 FLAT
@@ -23124,45 +21914,10 @@
 @sys	AP23 1(N34@f)
 @end sign
 
-@sign 2(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N34 FLAT
-@list	U+125F9
-@ucun	𒗹
-@uage	1
-@sys	AP23 2(N34@f)
-@end sign
 
-@sign 3(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER THREE-N34 FLAT
-@list	U+12629
-@ucun	𒘩
-@uage	1
-@sys	AP23 3(N34@f)
-@end sign
 
-@sign 4(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N34 FLAT
-@list	U+12655
-@ucun	𒙕
-@uage	1
-@sys	AP23 4(N34@f)
-@end sign
 
-@sign 5(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N34 FLAT
-@list	U+1267F
-@ucun	𒙿
-@uage	1
-@sys	AP23 5(N34@f)
-@end sign
 
-@sign 6(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER SIX-N34 FLAT
-@list	U+1269B
-@ucun	𒚛
-@uage	1
-@sys	AP23 6(N34@f)
-@end sign
 
 @sign 7(N34@f)
 @uname	PROTO-CUNEIFORM NUMBER SEVEN-N34 FLAT
@@ -23172,21 +21927,7 @@
 @sys	AP23 7(N34@f)
 @end sign
 
-@sign 8(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N34 FLAT
-@list	U+126C4
-@ucun	𒛄
-@uage	1
-@sys	AP23 8(N34@f)
-@end sign
 
-@sign 9(N34@f)
-@uname	PROTO-CUNEIFORM NUMBER NINE-N34 FLAT
-@list	U+126D9
-@ucun	𒛙
-@uage	1
-@sys	AP23 9(N34@f)
-@end sign
 
 @sign 1(N35)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N35
@@ -23284,13 +22025,6 @@
 @sys	AP23 9(N36)
 @end sign
 
-@sign 1(N36@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N36 FLAT
-@list	U+125BF
-@ucun	𒖿
-@uage	1
-@sys	AP23 1(N36@f)
-@end sign
 
 @sign 1(N37)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N37
@@ -23316,14 +22050,6 @@
 @sys	AP23 1(N38)
 @end sign
 
-@sign 1(N39@b)
-@umap	1(N14)
-@unote	This sign occurs once in Uruk V, on a tablet where the number before it is 2(N01).
-	Englund's transliteration as 1(N39@b) presumably results from the fact that although
-	the number has the form 1(N14) it occurs "after" 2(N01), making 1(N14) a questionable
-	interpretation.  It is not clear what 1(N39@b) might be.
-@uage	0
-@end sign
 
 @sign 1(N39)
 @uage	0
@@ -23645,21 +22371,7 @@
 @sys	AP23 9(N45)
 @end sign
 
-@sign 1(N45@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N45 FLAT
-@list	U+125CC
-@ucun	𒗌
-@uage	1
-@sys	AP23 1(N45@f)
-@end sign
 
-@sign 2(N45@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N45 FLAT
-@list	U+12604
-@ucun	𒘄
-@uage	1
-@sys	AP23 2(N45@f)
-@end sign
 
 @sign 3(N45@f)
 @uname	PROTO-CUNEIFORM NUMBER THREE-N45 FLAT
@@ -23749,13 +22461,6 @@
 @sys	AP23 1(N46@f)
 @end sign
 
-@sign 2(N46@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N46 FLAT
-@list	U+12606
-@ucun	𒘆
-@uage	1
-@sys	AP23 2(N46@f)
-@end sign
 
 @sign 1(N47)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N47
@@ -23837,13 +22542,6 @@
 @sys	AP23 7(N48)
 @end sign
 
-@sign 1(N48@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N48 FLAT
-@list	U+125D1
-@ucun	𒗑
-@uage	1
-@sys	AP23 1(N48@f)
-@end sign
 
 @sign 1(N49)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N49
@@ -23925,45 +22623,10 @@
 @sys	AP23 5(N50)
 @end sign
 
-@sign 1(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER ONE-N51 FLAT
-@list	U+125D5
-@ucun	𒗕
-@uage	1
-@sys	AP23 1(N51@f)
-@end sign
 
-@sign 2(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER TWO-N51 FLAT
-@list	U+1260C
-@ucun	𒘌
-@uage	1
-@sys	AP23 2(N51@f)
-@end sign
 
-@sign 3(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER THREE-N51 FLAT
-@list	U+12639
-@ucun	𒘹
-@uage	1
-@sys	AP23 3(N51@f)
-@end sign
 
-@sign 4(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N51 FLAT
-@list	U+12664
-@ucun	𒙤
-@uage	1
-@sys	AP23 4(N51@f)
-@end sign
 
-@sign 5(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N51 FLAT
-@list	U+12688
-@ucun	𒚈
-@uage	1
-@sys	AP23 5(N51@f)
-@end sign
 
 @sign 6(N51@f)
 @uname	PROTO-CUNEIFORM NUMBER SIX-N51 FLAT
@@ -23981,21 +22644,7 @@
 @sys	AP23 7(N51@f)
 @end sign
 
-@sign 8(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N51 FLAT
-@list	U+126C8
-@ucun	𒛈
-@uage	1
-@sys	AP23 8(N51@f)
-@end sign
 
-@sign 9(N51@f)
-@uname	PROTO-CUNEIFORM NUMBER NINE-N51 FLAT
-@list	U+126DD
-@ucun	𒛝
-@uage	1
-@sys	AP23 9(N51@f)
-@end sign
 
 @sign 1(N51)
 @uname	PROTO-CUNEIFORM NUMBER ONE-N51
@@ -24194,7 +22843,7 @@
 @end sign
 
 @sign |1(N57).BU₃|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24208,20 +22857,13 @@
 @end sign
 
 @sign |1(N57).MUŠEN|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
-@sign |1(N57).1(N57)|
-@uname	PROTO-CUNEIFORM SIGN ONE-N57 BESIDE ONE-N57
-@list	U+12C26
-@ucun	𒰦
-@uage	1
-@sys	AP23 |1(N57).1(N57)|
-@end sign
 
 @sign |1(N57).SAG|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24297,7 +22939,7 @@
 @end sign
 
 @sign |2(N57).MUŠEN|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24350,7 +22992,7 @@
 @end sign
 
 @sign |3(N57).AZ|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24383,7 +23025,7 @@
 @end sign
 
 @sign |3(N57).EN₂|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24438,7 +23080,7 @@
 @end sign
 
 @sign |3(N57).SI|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24590,7 +23232,7 @@
 @end sign
 
 @sign |7(N57).GAR|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24802,7 +23444,7 @@
 
 @sign 7(N59)
 @note	Monaco CUSAS 31, 185 o vi 3: 7(N59)? but preserved sign does not have the added wedges that distinguish N59 from N01.
-@uage	0
+@uage	9
 @end sign
 
 @sign 1(N60)
@@ -24837,9 +23479,6 @@
 @sys	AP23 1(N63)
 @end sign
 
-@sign	|X+2(N01)|
-@uage 0
-@end sign
 
 @compoundonly	|HI×1(N57).AN|
 @compoundonly	3(N08)~v1

@@ -3102,7 +3102,7 @@
 @uage	0
 @form |DUG~a×KU₆~a|
 @inote	Collated from photo.
-@uage	3
+@uage	8
 @sys	AP23 not
 @@
 @form |DUG~b×KU₆~a|
@@ -4332,6 +4332,7 @@
 @@
 @form EZEN~b1
 @list	BAU298
+@uage 3
 @sys	ATFU-S EZEN~b
 @sys	ATFU-v ezem
 @@
@@ -5614,6 +5615,7 @@
 @@
 @form |GAN~e×HI|
 @list	BAU048
+@uage 3
 @@
 @end sign
 
@@ -8949,7 +8951,7 @@
 @uage	0
 @form |LAGAB~b.TE|
 @unote	Encode as sequence, not as a single codepoint.
-@uage	4
+@uage	44
 @sys	AP23 not
 @@
 @end sign
@@ -11962,7 +11964,7 @@
 @uage	0
 @form |NUN~b.U₄|
 @inote	CHECK
-@uage	4
+@uage	44
 @sys	AP23 not
 @@
 @end sign
@@ -12705,7 +12707,7 @@
 
 @sign |SAL.ME|
 @aka	LUKUR
-@uage	4
+@uage	44
 @sys	AP23 not
 @end sign
 
@@ -15825,7 +15827,7 @@
 @form |TUG₂~a@g.(BAD&BAD)|
 @uname	PROTO-CUNEIFORM SIGN TUG2-A GUNU BESIDE BAD OVER BAD
 @unote	Encoding as a sequence is inconsistent with encoding of non-gunufied form.
-@uage	4
+@uage	9
 @sys	AP23 not
 @@
 @end sign
@@ -16544,7 +16546,7 @@
 @sign |U₄+1(N14)+1(N08)|
 @aka	|(U₄+1(N14)).1(N08)|
 @inote	OK, but encode as sequence; l-to-r sequence on tablet is 1(N08) 1(N14) U4
-@uage	4
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24192,7 +24194,7 @@
 @end sign
 
 @sign |1(N57).BU₃|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24200,13 +24202,13 @@
 @uage	0
 @form |1(N57).E₂~a|
 @inote	CUSAS 21, p.166
-@uage	4
+@uage	9
 @sys	AP23 not
 @@
 @end sign
 
 @sign |1(N57).MUŠEN|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24219,7 +24221,7 @@
 @end sign
 
 @sign |1(N57).SAG|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24295,7 +24297,7 @@
 @end sign
 
 @sign |2(N57).MUŠEN|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24348,7 +24350,7 @@
 @end sign
 
 @sign |3(N57).AZ|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24381,7 +24383,7 @@
 @end sign
 
 @sign |3(N57).EN₂|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24430,13 +24432,13 @@
 @form |3(N57).SANGA~a|
 @inote	CHECK
 @unote	If other 3(N57).X sequences are encoded as single codepoints this should be as well.
-@uage	4
+@uage	9
 @sys	AP23 not
 @@
 @end sign
 
 @sign |3(N57).SI|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24588,7 +24590,7 @@
 @end sign
 
 @sign |7(N57).GAR|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24800,7 +24802,7 @@
 
 @sign 7(N59)
 @note	Monaco CUSAS 31, 185 o vi 3: 7(N59)? but preserved sign does not have the added wedges that distinguish N59 from N01.
-@uage	0
+@uage	9
 @end sign
 
 @sign 1(N60)

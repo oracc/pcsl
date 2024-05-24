@@ -24194,7 +24194,7 @@
 @end sign
 
 @sign |1(N57).BU₃|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24208,7 +24208,7 @@
 @end sign
 
 @sign |1(N57).MUŠEN|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24221,7 +24221,7 @@
 @end sign
 
 @sign |1(N57).SAG|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24297,7 +24297,7 @@
 @end sign
 
 @sign |2(N57).MUŠEN|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24350,7 +24350,7 @@
 @end sign
 
 @sign |3(N57).AZ|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24383,7 +24383,7 @@
 @end sign
 
 @sign |3(N57).EN₂|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24438,7 +24438,7 @@
 @end sign
 
 @sign |3(N57).SI|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24590,7 +24590,7 @@
 @end sign
 
 @sign |7(N57).GAR|
-@uage	0
+@uage	9
 @sys	AP23 not
 @end sign
 
@@ -24802,7 +24802,7 @@
 
 @sign 7(N59)
 @note	Monaco CUSAS 31, 185 o vi 3: 7(N59)? but preserved sign does not have the added wedges that distinguish N59 from N01.
-@uage	0
+@uage	9
 @end sign
 
 @sign 1(N60)
