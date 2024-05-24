@@ -19,7 +19,7 @@ while (<>) {
 	    warn "$.: detected sign/form with no uage\n";
 	}
 	$curr = $1;
-    } elsif (/^\@uage\s+(\d)/) {
+    } elsif (/^\@uage\s+(-?\d)/) {
 	if ($curr) {
 	    print "$curr\t$1\n";
 	    $curr = '';

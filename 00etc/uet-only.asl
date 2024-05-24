@@ -159,14 +159,6 @@
 @end sign
 
 @needsign
-@form	BU~a~v1
-@list	BAU148
-@uname	PROTO-CUNEIFORM SIGN BU-A VARIANT 1
-@list	U+12750
-@ucun	𒝐
-@uage	1
-@sys	AP23 BU~a
-@@
 @end needsign
 
 @sign DAG
@@ -727,25 +719,9 @@
 @end needsign
 
 @needsign
-@form KALAM~a
-@list	BAU367
-@uname	PROTO-CUNEIFORM SIGN KALAM-A
-@list	U+1288C
-@ucun	𒢌
-@uage	1
-@sys	AP23 KALAM~a
-@@
 @end needsign
 
 @needsign
-@form	KAŠ~b~v1
-@list	BAU344
-@uname	PROTO-CUNEIFORM SIGN KASH-B VARIANT 1
-@list	U+12898
-@ucun	𒢘
-@uage	1
-@sys	AP23 KASZ~b
-@@
 @end needsign
 
 @sign KEŠ₂
@@ -852,6 +828,38 @@
 @sys	AP23 |LAGAB~bxSZITA~c|
 @@
 @end needsign
+
+@sign LAK025
+@list	BAU076
+@uname	PROTO-CUNEIFORM SIGN LAK025
+@list	U+128E7
+@ucun	𒣧
+@uage	1
+@sys	LLATU:319_04 LAK25
+@sys	AP23 LAK025
+@end sign
+
+@sign LAK050
+@uname	PROTO-CUNEIFORM SIGN LAK050
+@list	U+128E8
+@ucun	𒣨
+@uage	1
+@sys	AP23 LAK050
+@end sign
+
+@compoundonly	LAK672
+
+@sign LAK777
+@list	BAU277
+@uname	PROTO-CUNEIFORM SIGN LAK777
+@list	U+128EC
+@ucun	𒣬
+@uage	1
+@sys	LLATU:319_05 LAK777
+@sys	ATFU-S LAK777
+@sys	ATFU-v rin₅?
+@sys	AP23 LAK777
+@end sign
 
 @needsign
 @form LAL₃~b
@@ -1307,13 +1315,10 @@
 @end needsign
 
 @needsign
-@form ŠEŠ~a
+@form ŠEŠ~c
 @list	BAU011
-@uname	PROTO-CUNEIFORM SIGN SHESH-A
-@list	U+129EC
-@ucun	𒧬
-@uage	1
-@sys	AP23 SZESZ~a
+@sys	ATFU-S ŠEŠ
+@sys	ATFU-v šeš
 @@
 @end needsign
 
@@ -1448,13 +1453,14 @@
 @end sign
 
 @needsign
-@form UBI~a
-@list	BAU216
-@uname	PROTO-CUNEIFORM SIGN UBI-A
-@list	U+12A96
-@ucun	𒪖
+@form	UBI~c~v1
+@uname	PROTO-CUNEIFORM SIGN UBI-C VARIANT 1
+@list	U+12A98
+@ucun	𒪘
 @uage	1
-@sys	AP23 UBI~a
+@sys	LLATU:305_05 UBI~c
+@sys	AP23 UBI~c
+@inote  This is the ED I Ur form called UBI~c in LLATU but UBI~c~v1 in AP23
 @@
 @end needsign
 
@@ -1504,14 +1510,6 @@
 @end needsign
 
 @needsign
-@form UR₅~a
-@list	BAU192
-@uname	PROTO-CUNEIFORM SIGN UR5-A
-@list	U+12AC8
-@ucun	𒫈
-@uage	1
-@sys	AP23 UR5~a
-@@
 @end needsign
 
 @sign |URU×A|
