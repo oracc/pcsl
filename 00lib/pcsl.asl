@@ -1,5 +1,6 @@
 @project pcsl
 @signlist pcsl
+@inote @domain pc
 
 @inote	uage meanings:
 	0=do not encode
@@ -35,6 +36,8 @@
 
 @listdef U+ 0x12580-0x12EC6
 @lit	Unofficial unicode codepoints used in AP23.
+
+@sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numbers" draft proposal of 2024-09-14.
 
 @sysdef AP23 Anshuman Pandey's CDLI-NAME field as used in the proposal L2/23-190
 @lit	https://www.unicode.org/L2/L2023/23190-proto-cuneiform.pdf
@@ -20350,10 +20353,7 @@
 @@
 @end sign
 
-@compoundonly	ZI₃
-
-
-
+@compoundonly	ZU
 
 @sign ZUBI
 @smap	ZUBI~a
@@ -23498,8 +23498,305 @@
 @compoundonly	|UKKIN~b~v1×1(N57)|
 @compoundonly	|UKKIN×1(N57)|
 @compoundonly	|U₄×(1(N14).3(N01))|
-@compoundonly	|ZI₃&ZI₃|
-@compoundonly	|ZU&ZU|
 @compoundonly	|ŠA×HI@g~a|
 @compoundonly	ŠUBUR~v1
 @compoundonly	GUDU₄
+@sign 8(N45)
+@sys ACN ditto
+@end sign
+@sign 9(N51)
+@sys ACN ditto
+@end sign
+@sign 1(N29B)
+@sys ACN ditto
+@end sign
+@sign 1(N30D)
+@sys ACN ditto
+@end sign
+@sign 1(N30E)
+@sys ACN ditto
+@end sign
+@sign 1(N39A)
+@sys ACN ditto
+@end sign
+@sign 2(N39A)
+@sys ACN ditto
+@end sign
+@sign 3(N39A)
+@sys ACN ditto
+@end sign
+@sign 4(N39A)
+@sys ACN ditto
+@end sign
+@sign 1(N39B)
+@sys ACN ditto
+@end sign
+@sign 2(N39B)
+@sys ACN ditto
+@end sign
+@sign 3(N39B)
+@sys ACN ditto
+@end sign
+@sign 4(N39B)
+@sys ACN ditto
+@end sign
+@sign 3(N35)
+@sys ACN ditto
+@end sign
+@sign 4(N35)
+@sys ACN ditto
+@end sign
+@sign 2(N06)
+@sys ACN ditto
+@end sign
+@sign 3(N06)
+@sys ACN ditto
+@end sign
+@sign 4(N06)
+@sys ACN ditto
+@end sign
+@sign 5(N06)
+@sys ACN ditto
+@end sign
+@sign 6(N06)
+@sys ACN ditto
+@end sign
+@sign 7(N06)
+@sys ACN ditto
+@end sign
+@sign 8(N06)
+@sys ACN ditto
+@end sign
+
+@sign 9(N06)
+@sys ACN ditto
+@end sign
+
+@sign 1(N21)
+@sys ACN ditto
+@end sign
+@sign 6(N52)
+@sys ACN ditto
+@end sign
+@sign 7(N52)
+@sys ACN ditto
+@end sign
+@sign 8(N52)
+@sys ACN ditto
+@end sign
+@sign 9(N52)
+@sys ACN ditto
+@end sign
+@sign 1(N24A)
+@sys ACN ditto
+@end sign
+@sign 1(N45A)
+@sys ACN ditto
+@end sign
+@sign 1(N24B)
+@sys ACN ditto
+@end sign
+@sign 1(N26B)
+@sys ACN ditto
+@end sign
+@sign 1(N28B)
+@sys ACN ditto
+@end sign
+@sign 1(N29AB)
+@sys ACN ditto
+@end sign
+@sign 1(N28C)
+@sys ACN ditto
+@end sign
+@sign 1(N29AC)
+@sys ACN ditto
+@end sign
+@sign 1(N30AC)
+@sys ACN ditto
+@end sign
+@sign 1(N30CC)
+@sys ACN ditto
+@end sign
+@sign 1(N42A)
+@sys ACN ditto
+@end sign
+@sign 2(N42A)
+@sys ACN ditto
+@end sign
+@sign 3(N42A)
+@sys ACN ditto
+@end sign
+@sign 4(N42A)
+@sys ACN ditto
+@end sign
+@sign 1(N42B)
+@sys ACN ditto
+@end sign
+@sign 2(N42B)
+@sys ACN ditto
+@end sign
+@sign 3(N42B)
+@sys ACN ditto
+@end sign
+@sign 4(N42B)
+@sys ACN ditto
+@end sign
+@sign 1(N07A)
+@sys ACN ditto
+@end sign
+@sign 2(N07A)
+@sys ACN ditto
+@end sign
+@sign 3(N07A)
+@sys ACN ditto
+@end sign
+@sign 1(N07B)
+@sys ACN ditto
+@end sign
+@sign 2(N07B)
+@sys ACN ditto
+@end sign
+@sign 3(N07B)
+@sys ACN ditto
+@end sign
+@sign 3(N01@f)
+@sys ACN ditto
+@end sign
+@sign 4(N01@f)
+@sys ACN ditto
+@end sign
+@sign 6(N01@f)
+@sys ACN ditto
+@end sign
+@sign 7(N01@f)
+@sys ACN ditto
+@end sign
+@sign 8(N01@f)
+@sys ACN ditto
+@end sign
+@sign 1(N08@f)
+@sys ACN ditto
+@end sign
+@sign 2(N14@f)
+@sys ACN ditto
+@end sign
+@sign 3(N14@f)
+@sys ACN ditto
+@end sign
+@sign 4(N14@f)
+@sys ACN ditto
+@end sign
+@sign 5(N14@f)
+@sys ACN ditto
+@end sign
+@sign 6(N14@f)
+@sys ACN ditto
+@end sign
+@sign 7(N14@f)
+@sys ACN ditto
+@end sign
+@sign 8(N14@f)
+@sys ACN ditto
+@end sign
+@sign 9(N14@f)
+@sys ACN ditto
+@end sign
+@sign 2(N34@f)
+@sys ACN ditto
+@end sign
+@sign 3(N34@f)
+@sys ACN ditto
+@end sign
+@sign 4(N34@f)
+@sys ACN ditto
+@end sign
+@sign 5(N34@f)
+@sys ACN ditto
+@end sign
+@sign 6(N34@f)
+@sys ACN ditto
+@end sign
+@sign 8(N34@f)
+@sys ACN ditto
+@end sign
+@sign 9(N34@f)
+@sys ACN ditto
+@end sign
+@sign 1(N45@f)
+@sys ACN ditto
+@end sign
+@sign 2(N45@f)
+@sys ACN ditto
+@end sign
+@sign 1(N22@f)
+@sys ACN ditto
+@end sign
+@sign 2(N22@f)
+@sys ACN ditto
+@end sign
+@sign 1(N51@f)
+@sys ACN ditto
+@end sign
+@sign 2(N51@f)
+@sys ACN ditto
+@end sign
+@sign 3(N51@f)
+@sys ACN ditto
+@end sign
+@sign 4(N51@f)
+@sys ACN ditto
+@end sign
+@sign 5(N51@f)
+@sys ACN ditto
+@end sign
+@sign 8(N51@f)
+@sys ACN ditto
+@end sign
+@sign 9(N51@f)
+@sys ACN ditto
+@end sign
+@sign 1(N34@f@t)
+@sys ACN ditto
+@end sign
+@sign 1(N04@f)
+@sys ACN ditto
+@end sign
+@sign 2(N04@f)
+@sys ACN ditto
+@end sign
+@sign 3(N04@f)
+@sys ACN ditto
+@end sign
+@sign 4(N04@f)
+@sys ACN ditto
+@end sign
+@sign 5(N04@f)
+@sys ACN ditto
+@end sign
+@sign 1(N19@f)
+@sys ACN ditto
+@end sign
+@sign 2(N19@f)
+@sys ACN ditto
+@end sign
+@sign 3(N19@f)
+@sys ACN ditto
+@end sign
+@sign 4(N19@f)
+@sys ACN ditto
+@end sign
+@sign 5(N19@f)
+@sys ACN ditto
+@end sign
+@sign 6(N19@f)
+@sys ACN ditto
+@end sign
+@sign 7(N19@f)
+@sys ACN ditto
+@end sign
+@sign 2(N46@f)
+@sys ACN ditto
+@end sign
+@sign 1(N36@f)
+@sys ACN ditto
+@end sign
