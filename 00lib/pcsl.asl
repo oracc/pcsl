@@ -1,6 +1,6 @@
 @project pcsl
 @signlist pcsl
-@inote @domain pc
+@domain pc
 
 @inote	uage meanings:
 	0=do not encode
@@ -76,9 +76,9 @@
 
 @sysdef RKEZ R.K.Englund, “Liste der zusätzlichen Zeichen der Text der 33. und 34. Kampagne” Pp. 347-351 in ZATU.
 
-@images 00etc/im-l23190.tab
+@inote @images 00etc/im-l23190.tab
 
-@images 00etc/im-add.tab
+@inote @images 00etc/im-add.tab
 
 @sign A
 @list	BAU416
@@ -13187,6 +13187,7 @@
 @end sign
 
 @sign SUHUR
+@aka SUHUR~a
 @list	BAU215
 @list	ZATU491
 @sys	LLATU:286_03 SUHUR
