@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+  <esp:name>AP24-Q-A</esp:name>
+  <esp:title>Anshu's Questions with Answers</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>This page provides SJT's answers to the AP questions asked in
+      <esp:link url="/pcsl/downloads/ap24-questions.pdf">the
+      2024-10-05 draft PC proposal</esp:link>.  This page is
+      transient; it will be removed when all the issues are
+      resolved.</p>
+      <ol>
+	
+	<!--1--><li>The removed signs are either Uruk V (very, very
+	     few) or Early Dynastice I/II (the majority).  Most of the
+	     ED I/II are from Ur--I can provide lists of each in the
+	     course of this phase of work, and I am also going to
+	     double-check the Uruk IV/III vs ED I/II repertoires.</li>
+	
+	<!--2--><li>From the description it sounds like the Unicode
+	     and PCSL orders are closely aligned; let's see how that
+	     looks when we have a "finished" proposal and see how to
+	     tweak the orders if necessary.  I agree that in this case
+	     we might as well align the sort orders as closely as
+	     possible.</li>
+
+	<!--3--><li>There is very little standardization of practice
+	     in scholarly use of the <i>tenu</i> designation; I would
+	     recommend keeping existing naming practices where we can
+	     as a general approach. In the case in point, if I were to
+	     change the names, I would think of AD~a as a tenu form of
+	     AD~b not vice-versa (because tenu means "slanting" and
+	     AD~b is horizontal but AD~a is turned). That would be a
+	     double-renaming, so for practical purposes it would be
+	     easier to accept that the practice of marking with
+	     <code>~</code>-allographs versus labeling as
+	     <code>@t</code> is inconsistent.</li>
+
+	<!--4--><li>We should definitely have @compoundonly entries in
+	     PCSL for these--I have probably already done this because
+	     the Oracc sign list tool (sx) requires all compound
+	     components to be declared either as @sign or
+	     @compoundonly.  As the proposal goes along in the next
+	     few weeks I will keep the @compoundonly updated.</li>
+
+	<!--5--><li>I will keep this question front-of-mind as I
+	     process the new signs in CUSAS, but in general there are
+	     not new designations.</li>
+
+	<!--6--><li>We should definitely rename AN~v2 to AN~v1,
+	     yes. For AN~a, I think the differences are so neglible
+	     that it is not worth retaining as an allograph.  We could
+	     keep it in the font as a SALT alternative if you don't
+	     want it to be lost forever.</li>
+
+	<!--7--><li>This is a tricky one--for me, the BU&amp;BU are
+	     not crossing as such--they are not parallel either, it's
+	     true.  You do see this kind of non-parallel alternative
+	     in other contexts, for example in ED when PA is inside a
+	     compound the horizontals are sometimes a bit splayed.  I
+	     would leave this as BU&amp;BU and treat it as a
+	     paleographic variation that is below the threshold of
+	     sign list differntiation.</li>
+
+	<!--8--><li></li>
+
+	<!--9--><li></li>
+
+	<!--10--><li></li>
+
+	<!--11--><li></li>
+
+	<!--12--><li></li>
+
+	<!--13--><li></li>
+
+	<!--14--><li></li>
+
+	<!--15--><li></li>
+
+	<!--16--><li></li>
+
+	<!--17--><li></li>
+
+	<!--18--><li></li>
+
+	<!--19--><li></li>
+
+	<!--20--><li></li>
+
+	<!--21--><li></li>
+
+	<!--22--><li></li>
+
+	<!--23--><li></li>
+
+	<!--24--><li></li>
+
+	<!--25--><li></li>
+
+	<!--26--><li></li>
+
+	<!--27--><li></li>
+
+	<!--28--><li></li>
+
+	<!--29--><li></li>
+
+	<!--30--><li></li>
+
+	<!--31--><li></li>
+
+	<!--32--><li></li>
+
+	<!--33--><li></li>
+
+	<!--34--><li></li>
+
+	<!--35--><li></li>
+
+	<!--36--><li></li>
+
+	<!--37--><li></li>
+
+	<!--38--><li></li>
+
+	<!--39--><li></li>
+
+	<!--40--><li></li>
+
+	<!--41--><li></li>
+
+	<!--42--><li></li>
+
+	<!--43--><li></li>
+
+	<!--44--><li></li>
+
+	<!--45--><li></li>
+
+	<!--46--><li></li>
+
+	<!--47--><li></li>
+
+	<!--48--><li></li>
+
+	<!--49--><li></li>
+
+	<!--50--><li></li>
+
+	<!--51--><li></li>
+
+	<!--52--><li></li>
+
+	<!--53--><li></li>
+
+	<!--54--><li></li>
+
+	<!--55--><li></li>
+
+	<!--56--><li></li>
+
+	<!--57--><li></li>
+
+	<!--58--><li></li>
+
+	<!--59--><li></li>
+
+	<!--60--><li></li>
+
+	<!--61--><li></li>
+
+	<!--62--><li></li>
+
+	<!--63--><li></li>
+
+	<!--64--><li></li>
+
+      </ol>
+  
+    </body>
+  </html>
+</esp:page>
