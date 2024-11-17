@@ -429,7 +429,6 @@
 @uage	1
 @sys	AP23 ABZU
 @inote are ZU/SU un(der)differentiated in PC
-@@
 @form |AB×ZU|
 @aka	ABZU~b
 @inote	CUSAS 01
@@ -502,7 +501,6 @@
 @ucun	𒛺
 @uage	1
 @sys	AP23 ADDA@t-2
-@@
 @end sign
 
 @sign AGAR₂
@@ -5288,9 +5286,6 @@
 @@
 @end sign
 
-@compoundonly GAM
-
-
 @sign GAN
 @smap	GAN~a
 @list	ZATU190
@@ -5356,6 +5351,8 @@
 @uage	1
 @sys	AP23 GAN~c
 @compoundonly GAN~c~v2
+@@
+@compoundonly GAN~d
 @@
 @form GAN~e
 @list	BAU047
@@ -7444,6 +7441,7 @@
 @uage	1
 @sys	AP23 KA2~c
 @@
+@compoundonly KA₂~d
 @end sign
 
 @sign |KA₂×LAM|
@@ -8478,6 +8476,7 @@
 @uage	1
 @sys	AP23 LA~d
 @@
+@compoundonly LA~e
 @end sign
 
 
@@ -9121,14 +9120,6 @@
 @sys	AP23 LAM~b@t
 @@
 @end sign
-
-
-
-
-
-
-@compoundonly	LAK672
-
 
 @sign LI
 @list	BAU131
@@ -10173,6 +10164,9 @@
 @@
 @end sign
 
+@compoundonly NA₂@n
+
+@compoundonly NA₂~a@n
 
 @sign NAB
 @list	ZATU380
@@ -10337,6 +10331,9 @@
 @sys	ATFU-S NAM₂
 @sys	ATFU-v nam₂
 @sys	AP23 NAM2
+@form	NAM₂~v2
+@inote this is a work around for a parse bug in |ŠE~a.NAM₂|~v2
+@@
 @end sign
 
 @sign |NAM₂×1(N01)|
@@ -14268,7 +14265,7 @@
 @uage	9
 @sys	AP23 not
 @@
-@compoundonly	ŠITA~b1@g
+@form	ŠITA~b1@g
 @uname	PROTO-CUNEIFORM SIGN SHITA GUNU-A VARIANT 1
 @list	U+12A02
 @ucun	𒨂
@@ -14951,10 +14948,10 @@
 @@
 @end sign
 
-@sign |TUG₂.(BAD&BAD)|
+@sign |TUG₂.BAD&BAD|
 @list	ZATU556
 @uage	0
-@form |TUG₂~a.(BAD&BAD)|
+@form |TUG₂~a.BAD&BAD|
 @uname	PROTO-CUNEIFORM SIGN TUG2-A BESIDE BAD OVER BAD
 @list	U+12E3E
 @ucun	𒸾
@@ -14983,10 +14980,10 @@
 @@
 @end sign
 
-@sign |TUG₂@g.(BAD&BAD)|
+@sign |TUG₂@g.BAD&BAD|
 @list	ZATU558
 @uage	0
-@form |TUG₂~a@g.(BAD&BAD)|
+@form |TUG₂~a@g.BAD&BAD|
 @uname	PROTO-CUNEIFORM SIGN TUG2-A GUNU BESIDE BAD OVER BAD
 @unote	Encoding as a sequence is inconsistent with encoding of non-gunufied form.
 @uage	9
@@ -20991,6 +20988,10 @@
 @uage	1
 @sys	LLATU:322_08 1(N14)
 @sys	AP23 1(N14)
+@end sign
+
+@sign |(1(N14).4(N08))|
+@inote This should be a @compoundonly but the sx/gvl parser fails with that as of 2024-11-16.
 @end sign
 
 @sign 2(N14)
