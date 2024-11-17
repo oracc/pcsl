@@ -34,8 +34,8 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12580-0x12EC6
-@lit	Unofficial unicode codepoints used in AP23.
+@listdef U+ 0x12580-0x12EC6 0xF1000-0xF1003
+@lit	Unofficial unicode codepoints used in AP23, plus some PUA entries for added signs.
 
 @sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numbers" draft proposal of 2024-09-14.
 
@@ -3913,6 +3913,7 @@
 @@
 @form |DUG~b×U₂~b|
 @oid o0900450
+@list U+F1003
 @uage	8
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES U2-B
 @sys	LLATU:203_06 DUG~b+U₂~b
@@ -4107,6 +4108,7 @@
 @uage	0
 @form DUG~a@t
 @oid o0900478
+@list U+F1000
 @uage 8
 @uname	PROTO-CUNEIFORM SIGN DUG-A TENU
 @sys	AP23 add
@@ -4122,6 +4124,7 @@
 @@
 @form DUG~c2@t
 @oid o0900480
+@list U+F1001
 @uage 8
 @uname PROTO-CUNEIFORM SIGN DUG-C2 TENU
 @sys	AP23 add
@@ -19229,6 +19232,7 @@
 @note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
 @form UZ~a
 @oid o0902411
+@list U+F1002
 @list 	BAU035
 @list	ZATU611
 @aka	|HU.ŠE|
