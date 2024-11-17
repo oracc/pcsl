@@ -20,20 +20,33 @@ sub unsubify;
 my %names = ();
 my %pcsl = ();
 my %uname = ();
+my %ucode = ();
 
-my @p = `grep '^@\\(sign\\|form\\)' 00lib/pcsl.asl`;
-foreach (@p) {
+my $curr = undef;
+
+open(P,'00lib/pcsl.asl') || die;
+while (<P>) {
     chomp;
-    s/^\S+\s+//;
-    s/\s*$//;
-    my $red = $_;
-    $red =~ tr/|()ʾ//d;
-    if ($pcsl{$red}) {
-	warn "pcsl reduction has duplicate $red from $_ and $pcsl{$red}\n";
-    } else {
-	$pcsl{$red} = $_;
+    if (/^@(?:sign|form)\s+(\S+)\s*$/) {
+	my $orig = $1;
+	my $red = $orig;
+	$red =~ tr/|()ʾ//d;
+	if ($pcsl{$red}) {
+	    warn "pcsl reduction has duplicate $red from $orig and $pcsl{$red}\n";
+	} else {
+	    $pcsl{$red} = $orig;
+	}
+	$curr = $red;
+    } elsif (/^\@oid\s+(\S+)\s*$/) {
+	$pcsl{$curr,'oid'} = $1;
+    } elsif (/^\@list\s+U\+(\S+)\s*$/) {
+	$pcsl{$curr,'ucode'} = $1;
     }
 }
+close(P);
+
+#print Dumper \%pcsl;
+#exit 1;
 
 while (<>) {
     chomp;
@@ -63,12 +76,20 @@ while (<>) {
     } else {
 	$names{$red} = $p;
 	$uname{$p} = $n;
+	$ucode{$p} = $u;
     }
 }
 
 foreach my $n (keys %names) {
     if ($pcsl{$n}) {
-	# warn "found $n => $pcsl{$n}\n";
+	my $oid = $pcsl{$n,'oid'};
+	my $ucode = $pcsl{$n,'ucode'};
+	if ($oid && $ucode) {
+	    print "$oid\t$ucode\t$pcsl{$n}\t$ucode{$names{$n}}\t$uname{$names{$n}}\n";
+	} else {
+	    warn "no OID for $pcsl{$n}\n" unless $oid;
+	    warn "no UCODE for $pcsl{$n}\n" unless $ucode;
+	}
     } else {
 	warn "$uname{$names{$n}} => $names{$n} not found in pcsl\n";
     }
