@@ -4822,7 +4822,7 @@
 @oid o0900569
 @uage 0
 @note PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
-@form	|EZEN~b×6(N57)|
+@form	|EZEN~b×6(N57)|~v1
 @oid o0900570
 @aka	|EZEN~b+6(N57)|
 @list	U+12CE0
@@ -13921,7 +13921,8 @@
 @@
 @end sign
 
-@sign |SIG×1(N57)|
+@sign |1(N57).SIG|
+@aka |SIG×1(N57)|
 @oid o0901748
 @uname	PROTO-CUNEIFORM SIGN SIG TIMES ONE-N57
 @list	U+12E08

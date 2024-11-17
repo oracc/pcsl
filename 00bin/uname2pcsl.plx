@@ -41,8 +41,10 @@ while (<>) {
     my $p = $n;
     $p =~ s/^PROTO-CUNEIFORM SIGN //;
     $p =~ s/(ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|X)-(\S+)/nify($1,$2)/eg;
+    $p =~ s/N-N1/N(N01)/; # special case this isolate
     $p =~ s/-([A-Z])/~\L$1/g;
     $p =~ s/ VARIANT /~v/g;
+    $p =~ s/ FORM ([A-Z])/~\L$1/g;
     $p =~ s/\s+(BESIDE|CROSSING|JOINING|OVER|PLUS|TIMES)\s+/opify($1)/eg;
     $p =~ s/^([A-ZŠ])(\d+)/subify('',$1,$2)/eg;
     $p =~ s/(.)([A-ZŠ])(\d+)/subify($1,$2,$3)/eg;
@@ -53,6 +55,7 @@ while (<>) {
     $p =~ s/ SHESHIG/\@s/g;
     $p =~ s/ TENU/\@t/g;
     $p =~ s/SH/Š/g;
+    $p =~ s/\(N([0-9])\)/(N0$1)/g;
     my $red = $p;
     $red =~ tr/|()//d;
     if ($names{$red}) {
@@ -67,7 +70,7 @@ foreach my $n (keys %names) {
     if ($pcsl{$n}) {
 	# warn "found $n => $pcsl{$n}\n";
     } else {
-	print "$uname{$names{$n}} => $names{$n} not found in pcsl\n";
+	warn "$uname{$names{$n}} => $names{$n} not found in pcsl\n";
     }
 }
 
