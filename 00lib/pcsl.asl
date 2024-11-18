@@ -37,7 +37,8 @@
 @listdef U+ 0x12580-0x12EC6 0xF1000-0xF1003
 @lit	Unofficial unicode codepoints used in AP23, plus some PUA entries for added signs.
 
-@sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numbers" draft proposal of 2024-09-14.
+@sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numerals"
+@lit	Draft proposal at https://www.unicode.org/L2/L2024/24210r-archaic-numerals.pdf
 
 @sysdef AP23 Anshuman Pandey's CDLI-NAME field as used in the proposal L2/23-190
 @lit	https://www.unicode.org/L2/L2023/23190-proto-cuneiform.pdf

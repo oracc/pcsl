@@ -1,0 +1,184 @@
+@import url("/css/fonts.css");
+
+.@@hproject@@-info h3 { font-style: normal; }
+
+#NavBar { border-style: outset; border-width: 2px; border-color: red; margin-bottom: 10px; }
+
+#NavBar p { margin: 0px !important; }
+
+#HeadTitleForm { text-align-last: center; }
+
+#HeadTitle { display: inline-block; vertical-align: middle; top: 0px; }
+
+#HeadForm { display: inline-block; vertical-align: middle; text-align: right; }
+
+#HeadForm form { vertical-align: middle; text-align-last: left; margin: 1em; display: inline-block; }
+
+#FormJumps p {
+    text-indent: -2in;
+    margin-left: 2.5in;
+}
+
+#FormJumps img {
+    vertical-align: middle;
+}
+
+#SelPage #Forms { width: 80%; margin: auto; }
+
+#Forms { }
+
+#FormsInner { }
+
+table.pretty { background-color: white; }
+
+/* Common ASL formatting; the colours here need to be redone to work with project colours */
+
+a:link	{ color: blue; text-decoration: none; }
+a:link:hover { color: black; background-color: lightgrey; text-decoration: underline; }
+a:visited { color: red; text-decoration: none; }
+a:visited:hover { color: black; background-color: lightgrey; text-decoration: underline; }
+a:has(span.asl-lem-cnt):link	{ color: cornflowerblue; text-decoration: none; }
+a:has(span.asl-lem-cnt):visited { color: #e35335; text-decoration: none; }
+
+/* Common sub-block formatting */
+
+p.sl-hang { padding-left: 120px; }
+
+.sl-ibody { font-size: 90%; font-weight: normal; }
+
+.sl-ihead { font-size: 75%; font-weight: bold; display: inline-block; width: 120px; padding: 0px; }
+
+.sl-ihead-h { font-size: 75%; font-weight: bold; display: inline-block;
+	      width: 120px; margin-left: -120px; }
+
+.sl-ihead-h-r { text-align: right; font-size: 75%; font-weight: bold;
+		display: inline-block; width: 120px; margin-left: -120px; }
+
+#FormsInner .sl-ihead-h1 { font-size: 100%; font-weight: bold; display: inline-block;
+	      width: 120px; margin-left: -120px; }
+
+/* Different sub-block types */
+
+.asl-form { border-top: 3px solid gray; }
+
+.asl-variant { font-weight: bold; font-size: 90%; }
+
+div.asl-cite-url { margin-top: 3em; }
+
+.asl-cun-img   { margin-bottom: 1em; }
+
+.asl-cite-url p { margin: 0px; }
+
+div.asl-cuneiform { display: inline-block; vertical-align: top; }
+
+div.asl-unicode { display: inline-block; vertical-align: top; }
+
+p.asl-ucun    { font-size: 500%; margin: 0px; }
+
+#Forms p.asl-ucun    { font-size: 500%; margin: 0px; }
+
+div.asl-images  { display: inline-block; vertical-align: top; }
+
+.asl-lem-base { font-weight: bold; }
+
+.asl-lem-cnt  { font-size: 90%; }
+
+.snames  { font-size: 90%; }
+
+.asl-sign-form { border-top: solid lightgray 4px; }
+
+.asl-sys-name { font-size: 85%; font-weight: bold; }
+
+.asl-sys-subname { font-size: 85%; font-weight: normal; }
+
+.asl-sys-token { font-size: 90%; font-weight: normal; }
+
+.itable { display: inline-table; vertical-align: middle; margin-right: 1em; }
+
+.itable .imageinline { margin: 0px; }
+
+/* Selection page formatting */
+
+#SelPage h2	  { text-align: center; }
+
+table.selpage , table.lemsel 	  { margin: auto; }
+
+table.selpage td  { padding-left: 1em; padding-right: 1em; vertical-align: top; }
+
+tr.lemsel-h2 { font-weight: bold; }
+
+tr.lemsel-h3 { font-style: italic; }
+
+.lemlem td:first-child { text-indent: 1em; }
+
+span.homophone-n { padding-right: 1em; }
+
+.sl-numset-name { }
+
+.sl-numset-char { text-align: center; font-size: 150%; }
+
+.mcol5 td { width: 18%; }
+
+/* Needs to be modulated by viewport size */
+table.lemsel td  { padding-left: 1em; padding-right: 1em; }
+
+.lex-read h3 { text-align: left; font-weight: bold; }
+
+.notemark { vertical-align: super; font-size: 60%; }
+.notetext { font-size: 90%; }
+
+@media screen and (min-width: 625px) {
+    .asl-lexdata { width: 80%; margin: auto; }
+    table.selpage { width: 80%; margin: auto; }
+}
+
+.ivs-IM_NI2 span { font-size: 0; }
+.ivs-IM_NI2:after { content: '𒉎'; }
+
+/* CSS for parent SL */
+
+h4 { font-family: Georgia, Times, "Times New Roman", serif;
+     font-size: 90%; font-weight: bold; margin-block-end: 0.65em; }
+
+h5 { font-size: 90%; font-weight: bold; margin-block-end: 0.65em; }
+
+/* CSS that might be needed when PCSL is ported to this subsystem */
+
+.pcsl-info { border-bottom: solid; }
+
+.pcsl-info p { margin: 0; }
+
+.ii-signs { margin-right: 10px; padding-right: 10px; padding-left: 0px; margin-left: 0px; }
+
+.ii-signs hr:first-child { margin-block-start: 0px; }
+
+.ii-signs p { margin: 0px; }
+
+.ii-insts { border-left: inset; padding-left: 10px; vertical-align: top; }
+
+.ce { margin: 0px; }
+
+.middle { vertical-align: middle; }
+
+.image-insts { margin-top: 1em; }
+
+.sl-td-name { font-size: 80%; font-family: arial,sans-serif; }
+
+.sl-td-sign { font-size: 200%; text-align: center; }
+
+.sl-td-seq  { width: 100%; text-align: center; }
+
+.sl-td-comment { text-align: left; }
+
+.sl-unattested { font-size: 80%; }
+
+.pcsl-oid { font-weight: normal; font-size: 80%; }
+
+tr.tithe { border-bottom: solid 2px; }
+
+td.name-sign { width: 10%; }
+td.name-nosign { width: 10%; background-color: lightgray; }
+td.name-sign img { }
+
+.strut { display: none; height: 12px; }
+
