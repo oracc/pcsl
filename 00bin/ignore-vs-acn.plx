@@ -29,9 +29,9 @@ foreach my $i (sort keys %ignore) {
 	} elsif ($i =~ /N45\@f/) {
 	    print "$i\tencode in ACN; also note Chambon's N45\@f″ as possible addition\n";
 	} elsif ($i =~ /N16/) {
-	    print "$i\tencode in ACN\n";
+	    print "$i\tencode in ACN; see ACN p.43\n";
 	} elsif ($i =~ /N17/) {
-	    print "$i\tencode in ACN? (possibly another fraction like N16)\n";
+	    print "$i\tencode in ACN? (possibly another fraction like N16); see ACN p.43\n";
 	} elsif ($i =~ /N23/) {
 	    print "$i\tencode in Pelm\n";
 	} elsif ($i =~ /N44|N53|N55/) {
