@@ -42,6 +42,9 @@
 @sysdef AP23 Anshuman Pandey's CDLI-NAME field as used in the proposal L2/23-190
 @lit	https://www.unicode.org/L2/L2023/23190-proto-cuneiform.pdf
 
+@sysdef AP24 Anshuman Pandey's revised repertoire giving the new codepoints (which will change soon)
+@lit	PDF from AP
+
 @sysdef ATFU-S ATFU sign name for PCSL sign
 @lit	C. Lecompte and L. Verderame (ed.) Archaic Tablets and Fragments from Ur. (Nisaba 25). Messina, 2013.
 @note	Because the ATFU sign list is unnumbered we use @sys ATFU-S entries to catalogue ATFU
@@ -89,6 +92,7 @@
 @ucun	𒛧
 @uage	1
 @sys	LLATU:177_01 A
+@sys AP24 A 126E7
 @sys	ATFU-S A
 @sys	ATFU-v aya₂ a?
 @sys	AP23 A
@@ -101,6 +105,7 @@
 @ucun	𒱆
 @uage	1
 @sys	AP23 |AxAB2|
+@sys AP24 |A×AB₂| 12C46
 @end sign
 
 
@@ -116,6 +121,7 @@
 @ucun	𒱈
 @uage	1
 @sys	AP23 |AxEN~a|
+@sys AP24 |A×EN~a~v2| 12C48
 @@
 @end sign
 
@@ -127,6 +133,7 @@
 @ucun	𒱅
 @uage	1
 @sys	AP23 |Ax1(N14)|
+@sys AP24 |A×1(N14)| 12C45
 @end sign
 
 @sign |A×ŠUBUR|
@@ -137,6 +144,7 @@
 @ucun	𒱉
 @uage	1
 @sys	AP23 |AxSZUBUR|
+@sys AP24 |A×ŠUBUR| 12C49
 @end sign
 
 @sign |A×ZATU672|
@@ -147,6 +155,7 @@
 @ucun	𒱊
 @uage	1
 @sys	AP23 |AxZATU672|
+@sys AP24 |A×ZATU672| 12C4A
 @end sign
 
 
@@ -157,6 +166,7 @@
 @ucun	𒛨
 @uage	1
 @sys	AP23 A@t
+@sys AP24 A@t 126E8
 @end sign
 
 @sign A₂
@@ -168,6 +178,7 @@
 @ucun	𒛪
 @uage	1
 @sys	LLATU:178_01 A₂
+@sys AP24 A₂ 126EA
 @sys	AP23 A2
 @end sign
 
@@ -183,6 +194,7 @@
 @ucun	𒛫
 @uage	1
 @sys	LLATU:178_02 AB~a
+@sys AP24 AB~a 126EB
 @sys	AP23 AB~a
 @@
 @form	AB~a~v1
@@ -193,6 +205,7 @@
 @ucun	𒛬
 @uage	1
 @sys	ATFU-S AB
+@sys AP24 AB~a~v1 126EC
 @sys	ATFU-v eš₃?
 @sys	AP23 AB~a
 @@
@@ -203,6 +216,7 @@
 @ucun	𒛮
 @uage	1
 @sys	LLATU:179_04 AB~b
+@sys AP24 AB~b 126EE
 @sys	AP23 AB~b
 @@
 @end sign
@@ -218,6 +232,7 @@
 @ucun	𒱓
 @uage	1
 @sys	AP23 |AB~bxA|
+@sys AP24 |AB~b×A| 12C53
 @@
 @end sign
 
@@ -231,6 +246,7 @@
 @ucun	𒱌
 @uage	1
 @sys	AP23 |AB~axA@t|
+@sys AP24 |AB~a×A@t| 12C4C
 @@
 @end sign
 
@@ -245,6 +261,7 @@
 @ucun	𒱍
 @uage	1
 @sys	LLATU:179_01 AB~a+AŠ₂
+@sys AP24 |AB~a×AŠ₂| 12C4D
 @sys	AP23 |AB~axASZ2|
 @@
 @end sign
@@ -259,6 +276,7 @@
 @ucun	𒱎
 @uage	1
 @sys	AP23 |AB~axKU6~a|
+@sys AP24 |AB~a×KU₆~a| 12C4E
 @@
 @form |AB~b×KU₆~a|
 @oid o0900023
@@ -267,6 +285,7 @@
 @ucun	𒱔
 @uage	1
 @sys	AP23 |AB~bxKU6~a|
+@sys AP24 |AB~b×KU₆~a| 12C54
 @@
 @end sign
 
@@ -280,6 +299,7 @@
 @ucun	𒱋
 @uage	1
 @sys	AP23 |AB~ax1(N01)|
+@sys AP24 |AB~a×1(N01)| 12C4B
 @@
 @end sign
 
@@ -304,6 +324,7 @@
 @ucun	𒱐
 @uage	1
 @sys	AP23 |AB~axSUKKAL|
+@sys AP24 |AB~a×SUKKAL| 12C50
 @@
 @end sign
 
@@ -317,6 +338,7 @@
 @ucun	𒱕
 @uage	1
 @sys	AP23 |AB~bxSZA3~a1|
+@sys AP24 |AB~b×ŠA₃~a1| 12C55
 @@
 @end sign
 
@@ -330,6 +352,7 @@
 @ucun	𒱏
 @uage	1
 @sys	AP23 |AB~ax(SZE~a&SZE~a)|
+@sys AP24 |AB~a×(ŠE~a&ŠE~a)| 12C4F
 @@
 @end sign
 
@@ -343,6 +366,7 @@
 @ucun	𒱑
 @uage	1
 @sys	AP23 |AB~axX|
+@sys AP24 |AB~a×X| 12C51
 @@
 @form |AB~b×X|
 @oid o0900036
@@ -363,6 +387,7 @@
 @ucun	𒱒
 @uage	1
 @sys	LLATU:179_02 AB~a+ZATU659
+@sys AP24 |AB~a×ZATU659| 12C52
 @sys	AP23 |AB~axZATU659|
 @@
 @end sign
@@ -378,6 +403,7 @@
 @ucun	𒛭
 @uage	1
 @sys	LLATU:179_03 AB~a@g
+@sys AP24 AB~a@g 126ED
 @sys	AP23 AB~a@g
 @@
 @end sign
@@ -392,6 +418,7 @@
 @ucun	𒛯
 @uage	1
 @sys	LLATU:179_05 AB₂
+@sys AP24 AB₂ 126EF
 @sys	ATFU-S AB₂
 @sys	ATFU-v ab₂
 @sys	AP23 AB2
@@ -402,6 +429,7 @@
 @ucun	𒛰
 @uage	1
 @sys	AP23 AB2
+@sys AP24 AB₂~v1 126F0
 @@
 @compoundonly AB₂~v2
 @end sign
@@ -414,6 +442,7 @@
 @ucun	𒱖
 @uage	1
 @sys	LLATU:180_01 AB₂+2(N14)
+@sys AP24 |AB₂×2(N14)| 12C56
 @sys	AP23 |AB2x2(N14)|
 @form 	|AB₂~v2×2(N14)|
 @oid o0900044
@@ -423,6 +452,7 @@
 @ucun	𒱗
 @uage	1
 @sys	AP23 |AB2x2(N14)|
+@sys AP24 |AB₂~v2×2(N14)| 12C57
 @@
 @end sign
 
@@ -442,6 +472,7 @@
 @ucun	𒛱
 @uage	1
 @sys	LLATU:180_02 ABGAL
+@sys AP24 ABGAL 126F1
 @sys	AP23 ABGAL
 @form ABGAL~v1
 @oid o0900048
@@ -450,6 +481,7 @@
 @ucun	𒛲
 @uage	1
 @sys	AP23 ABGAL
+@sys AP24 ABGAL~v1 126F2
 @@
 @end sign
 
@@ -461,6 +493,7 @@
 @ucun	𒛳
 @uage	1
 @sys	LLATU:181_01 ABRIG
+@sys AP24 ABRIG 126F3
 @sys	AP23 ABRIG
 @end sign
 
@@ -469,6 +502,7 @@
 @list	BAU225
 @list	ZATU017
 @sys	LLATU:181_02 ABZU
+@sys AP24 ABZU 126F4
 @sys	ATFU-S ABZU
 @sys	ATFU-v abzu
 @uname	PROTO-CUNEIFORM SIGN ABZU
@@ -499,6 +533,7 @@
 @ucun	𒛵
 @uage	1
 @sys	LLATU:181_03 AD~a
+@sys AP24 AD~a 126F5
 @sys	AP23 AD~a
 @@
 @form AD~b
@@ -508,6 +543,7 @@
 @ucun	𒛶
 @uage	1
 @sys	LLATU:181_04 AD~b
+@sys AP24 AD~b 126F6
 @sys	AP23 AD~b
 @@
 @form AD~c
@@ -517,6 +553,7 @@
 @ucun	𒛷
 @uage	1
 @sys	AP23 AD~c
+@sys AP24 AD~c 126F7
 @@
 @end sign
 
@@ -529,6 +566,7 @@
 @ucun	𒛸
 @uage	1
 @sys	LLATU:181_05 ADAB
+@sys AP24 ADAB 126F8
 @sys	AP23 ADAB
 @form ADAB~v1
 @oid o0900057
@@ -547,6 +585,7 @@
 @ucun	𒛹
 @uage	1
 @sys	LLATU:181_06 ADDA
+@sys AP24 ADDA 126F9
 @sys	AP23 ADDA
 @end sign
 
@@ -558,6 +597,7 @@
 @ucun	𒛺
 @uage	1
 @sys	AP23 ADDA@t-2
+@sys AP24 ADDA@t 126FA
 @end sign
 
 @sign AGAR₂
@@ -568,6 +608,7 @@
 @ucun	𒛻
 @uage	1
 @sys	LLATU:182_01 AGAR₂
+@sys AP24 AGAR₂ 126FB
 @sys	AP23 AGAR2
 @end sign
 
@@ -586,6 +627,7 @@
 @ucun	𒛼
 @uage	1
 @sys	LLATU:182_02 AK~a
+@sys AP24 AK~a 126FC
 @sys	AP23 AK~a
 @@
 @form AK~b
@@ -595,6 +637,7 @@
 @ucun	𒛽
 @uage	1
 @sys	AP23 AK~b
+@sys AP24 AK~b 126FD
 @@
 @end sign
 
@@ -607,6 +650,7 @@
 @ucun	𒛾
 @uage	1
 @sys	LLATU:182_03 AL
+@sys AP24 AL 126FE
 @sys	ATFU-S AL
 @sys	AP23 AL
 @end sign
@@ -625,6 +669,7 @@
 @ucun	𒛿
 @uage	1
 @sys	AP23 ALAN~a
+@sys AP24 ALAN~a 126FF
 @@
 @form ALAN~b
 @oid o0900067
@@ -633,6 +678,7 @@
 @ucun	𒜀
 @uage	1
 @sys	LLATU:183_01 ALAN~b
+@sys AP24 ALAN~b 12700
 @sys	AP23 ALAN~b
 @@
 @form ALAN~c
@@ -642,6 +688,7 @@
 @ucun	𒜁
 @uage	1
 @sys	AP23 ALAN~c
+@sys AP24 ALAN~c 12701
 @@
 @form ALAN~d
 @oid o0900069
@@ -650,6 +697,7 @@
 @ucun	𒜂
 @uage	1
 @sys	AP23 ALAN~d
+@sys AP24 ALAN~d 12702
 @@
 @form ALAN~e
 @oid o0900070
@@ -658,6 +706,7 @@
 @ucun	𒜃
 @uage	1
 @sys	AP23 ALAN~e
+@sys AP24 ALAN~e 12703
 @@
 @end sign
 
@@ -671,6 +720,7 @@
 @ucun	𒜅
 @uage	1
 @sys	LLATU:183_02 ALIM~a
+@sys AP24 ALIM 12705
 @sys	AP23 ALIM
 @end sign
 
@@ -686,6 +736,7 @@
 @ucun	𒜆
 @uage	1
 @sys	AP23 AM~a
+@sys AP24 AM~a 12706
 @@
 @form AM~b
 @oid o0900075
@@ -694,6 +745,7 @@
 @ucun	𒜇
 @uage	1
 @sys	LLATU:183_03 AM~b
+@sys AP24 AM~b 12707
 @sys	AP23 AM~b
 @@
 @end sign
@@ -712,6 +764,7 @@
 @ucun	𒜈
 @uage	1
 @sys	LLATU:183_04 AMA~a
+@sys AP24 AMA~a 12708
 @sys	AP23 AMA~a
 @@
 @form	AMA~a~v1
@@ -721,6 +774,7 @@
 @ucun	𒜉
 @uage	1
 @sys	AP23 AMA~a
+@sys AP24 AMA~a~v1 12709
 @@
 @form AMA~b
 @oid o0900079
@@ -731,6 +785,7 @@
 @ucun	𒜊
 @uage	1
 @sys	LLATU:183_05 AMA~b
+@sys AP24 AMA~b 1270A
 @sys	ATFU-S AMA~b
 @sys	ATFU-v engur
 @sys	ATFU-S AMA~b
@@ -749,6 +804,7 @@
 @ucun	𒱘
 @uage	1
 @sys	AP23 |AMA~axE2~a|
+@sys AP24 |AMA~a×E₂~a| 12C58
 @@
 @end sign
 
@@ -760,6 +816,7 @@
 @ucun	𒜋
 @uage	1
 @sys	LLATU:183_06 AMAR
+@sys AP24 AMAR 1270B
 @sys	ATFU-S AMAR
 @sys	ATFU-v amar zur
 @sys	AP23 AMAR
@@ -771,6 +828,7 @@
 @ucun	𒜌
 @uage	1
 @sys	AP23 AMAR
+@sys AP24 AMAR~v1 1270C
 @@
 @form AMAR~v2
 @oid o0900084
@@ -779,6 +837,7 @@
 @ucun	𒜍
 @uage	1
 @sys	AP23 AMAR
+@sys AP24 AMAR~v2 1270D
 @@
 @end sign
 
@@ -789,6 +848,7 @@
 @ucun	𒱙
 @uage	1
 @sys	AP23 |AMAR.1(N02)|
+@sys AP24 |AMAR.1(N02)| 12C59
 @end sign
 
 @sign |AMAR~v2×TAR~c|
@@ -801,6 +861,7 @@
 @ucun	𒱛
 @uage	1
 @sys	AP23 |AMARxTAR|
+@sys AP24 |AMAR~v2×TAR~c| 12C5B
 @end sign
 
 @sign |AMAR&AMAR|
@@ -810,6 +871,7 @@
 @ucun	𒱚
 @uage	1
 @sys	AP23 |AMAR&AMAR|
+@sys AP24 |AMAR&AMAR| 12C5A
 @end sign
 
 @sign AMAR@g
@@ -819,6 +881,7 @@
 @ucun	𒜎
 @uage	1
 @sys	AP23 AMAR@g
+@sys AP24 AMAR@g 1270E
 @end sign
 
 @sign AN
@@ -829,6 +892,7 @@
 @ucun	𒜏
 @uage	1
 @sys	LLATU:184_01 AN
+@sys AP24 AN 1270F
 @sys	ATFU-S AN
 @sys	ATFU-v an d diŋir
 @sys	AP23 AN
@@ -839,6 +903,7 @@
 @ucun	𒜐
 @uage	1
 @sys	AP23 AN
+@sys AP24 AN~v1 12710
 @@
 @form AN~v2
 @oid o0900091
@@ -848,6 +913,7 @@
 @ucun	𒜑
 @uage	1
 @sys	AP23 AN
+@sys AP24 AN~v2 12711
 @@
 @end sign
 
@@ -863,6 +929,7 @@
 @ucun	𒜒
 @uage	1
 @sys	AP23 ANSZE~a
+@sys AP24 ANŠE~a 12712
 @@
 @form ANŠE~b
 @oid o0900094
@@ -873,6 +940,7 @@
 @ucun	𒜓
 @uage	1
 @sys	LLATU:186_01 ANŠE~b
+@sys AP24 ANŠE~b 12713
 @sys	ATFU-S ANŠE~b
 @sys	ATFU-v anše
 @sys	ATFU-S ANŠE~b
@@ -888,6 +956,7 @@
 @ucun	𒜔
 @uage	1
 @sys	AP23 ANSZE~c
+@sys AP24 ANŠE~c 12714
 @@
 @compoundonly ANŠE~d
 @@
@@ -899,6 +968,7 @@
 @ucun	𒜕
 @uage	1
 @sys	AP23 ANSZE~e
+@sys AP24 ANŠE~e 12715
 @@
 @form ANŠE~f
 @oid o0900097
@@ -924,6 +994,7 @@
 @ucun	𒜗
 @uage	1
 @sys	LLATU:186_02 APIN~a
+@sys AP24 APIN~a 12717
 @sys	AP23 APIN~a
 @@
 @form APIN~b
@@ -933,6 +1004,7 @@
 @ucun	𒜘
 @uage	1
 @sys	LLATU:187_01 APIN~b
+@sys AP24 APIN~b 12718
 @sys	AP23 APIN~b
 @@
 @form APIN~c
@@ -942,6 +1014,7 @@
 @ucun	𒜙
 @uage	1
 @sys	LLATU:187_02 APIN~c
+@sys AP24 APIN~c 12719
 @sys	AP23 APIN~c
 @@
 @end sign
@@ -956,6 +1029,7 @@
 @ucun	𒱜
 @uage	1
 @sys	AP23 |APIN~a.APIN~a|
+@sys AP24 |APIN~a.APIN~a| 12C5C
 @@
 @end sign
 
@@ -974,6 +1048,7 @@
 @ucun	𒜚
 @uage	1
 @sys	LLATU:187_03 ARARMA₂~a
+@sys AP24 ARARMA₂~a 1271A
 @sys	AP23 ARARMA2~a
 @@
 @form	ARARMA₂~a~v1
@@ -983,6 +1058,7 @@
 @ucun	𒜛
 @uage	1
 @sys	AP23 ARARMA2~a
+@sys AP24 ARARMA₂~a~v1 1271B
 @@
 @form ARARMA₂~b
 @oid o0900108
@@ -991,6 +1067,7 @@
 @ucun	𒜜
 @uage	1
 @sys	AP23 ARARMA2~b
+@sys AP24 ARARMA₂~b 1271C
 @@
 @end sign
 
@@ -1002,6 +1079,7 @@
 @ucun	𒜝
 @uage	1
 @sys	AP23 ARATTA
+@sys AP24 ARATTA 1271D
 @end sign
 
 
@@ -1013,6 +1091,7 @@
 @ucun	𒜟
 @uage	1
 @sys	LLATU:187_04 ASAR
+@sys AP24 ASAR 1271F
 @sys	AP23 ASAR
 @end sign
 
@@ -1024,6 +1103,7 @@
 @ucun	𒜠
 @uage	1
 @sys	ATFU-S AŠ₂
+@sys AP24 AŠ₂ 12720
 @sys	ATFU-v aš₂ ziz₂
 @sys	AP23 ASZ2
 @end sign
@@ -1036,6 +1116,7 @@
 @ucun	𒜡
 @uage	1
 @sys	AP23 AZ
+@sys AP24 AZ 12721
 @end sign
 
 @sign AZU
@@ -1047,6 +1128,7 @@
 @ucun	𒜢
 @uage	1
 @sys	AP23 AZU
+@sys AP24 AZU 12722
 @end sign
 
 @sign BA
@@ -1058,6 +1140,7 @@
 @ucun	𒜣
 @uage	1
 @sys	LLATU:187_05 BA
+@sys AP24 BA 12723
 @sys	ATFU-S BA
 @sys	ATFU-v ba
 @sys	AP23 BA
@@ -1072,6 +1155,7 @@
 @ucun	𒜤
 @uage	1
 @sys	LLATU:188_01 BAD
+@sys AP24 BAD 12724
 @sys	AP23 BAD
 @compoundonly BAD~a
 @@
@@ -1086,6 +1170,7 @@
 @ucun	𒱝
 @uage	1
 @sys	LLATU:188_02 BAD+BAD
+@sys AP24 |BAD&BAD| 12C5D
 @sys	AP23 |BAD&BAD|
 @end sign
 
@@ -1106,6 +1191,7 @@
 @ucun	𒜥
 @uage	1
 @sys	LLATU:188_05 BAD₃~a
+@sys AP24 BAD₃~a 12725
 @sys	AP23 BAD3~a
 @@
 @form BAD₃~b1
@@ -1117,6 +1203,7 @@
 @ucun	𒜦
 @uage	1
 @sys	AP23 BAD3~b1
+@sys AP24 BAD₃~b1 12726
 @@
 @form BAD₃~b2
 @oid o0900122
@@ -1128,6 +1215,7 @@
 @ucun	𒜧
 @uage	1
 @sys	AP23 BAD3~b2
+@sys AP24 BAD₃~b2 12727
 @@
 @end sign
 
@@ -1145,6 +1233,7 @@
 @ucun	𒜨
 @uage	1
 @sys	LLATU:188_06 BAHAR₂~a
+@sys AP24 BAHAR₂~a 12728
 @sys	AP23 BAHAR2~a
 @@
 @form	BAHAR₂~a~v1
@@ -1154,6 +1243,7 @@
 @ucun	𒜩
 @uage	1
 @sys	AP23 BAHAR2~a
+@sys AP24 BAHAR₂~a~v1 12729
 @@
 @form BAHAR₂~b
 @oid o0900126
@@ -1162,6 +1252,7 @@
 @ucun	𒜪
 @uage	1
 @sys	LLATU:188_07 BAHAR₂~b
+@sys AP24 BAHAR₂~b 1272A
 @sys	AP23 BAHAR2~b
 @@
 @form	BAHAR₂~b~v1
@@ -1172,6 +1263,7 @@
 @ucun	𒜫
 @uage	1
 @sys	AP23 BAHAR2~b
+@sys AP24 BAHAR₂~b~v1 1272B
 @@
 @form BAHAR₂~c
 @oid o0900128
@@ -1180,6 +1272,7 @@
 @ucun	𒜬
 @uage	1
 @sys	AP23 BAHAR2~c
+@sys AP24 BAHAR₂~c 1272C
 @@
 @end sign
 
@@ -1195,6 +1288,7 @@
 @ucun	𒜭
 @uage	1
 @sys	LLATU:189_01 BALA~a
+@sys AP24 BALA~a 1272D
 @sys	AP23 BALA~a
 @@
 @form BALA~b
@@ -1204,6 +1298,7 @@
 @ucun	𒜮
 @uage	1
 @sys	AP23 BALA~b
+@sys AP24 BALA~b 1272E
 @@
 @form	BALA~b~v1
 @oid o0900132
@@ -1212,6 +1307,7 @@
 @ucun	𒜯
 @uage	1
 @sys	AP23 BALA~b
+@sys AP24 BALA~b~v1 1272F
 @@
 @end sign
 
@@ -1224,6 +1320,7 @@
 @ucun	𒜰
 @uage	1
 @sys	LLATU:189_02 BALAG
+@sys AP24 BALAG 12730
 @sys	ATFU-S BALAG
 @sys	ATFU-v balaŋ
 @sys	AP23 BALAG
@@ -1234,6 +1331,7 @@
 @ucun	𒜱
 @uage	1
 @sys	AP23 BALAG
+@sys AP24 BALAG~v1 12731
 @@
 @end sign
 
@@ -1252,6 +1350,7 @@
 @ucun	𒜲
 @uage	1
 @sys	AP23 BAN~a
+@sys AP24 BAN~a 12732
 @@
 @form	BAN~a~v1
 @oid o0900137
@@ -1260,6 +1359,7 @@
 @ucun	𒜳
 @uage	1
 @sys	AP23 BAN~a
+@sys AP24 BAN~a~v1 12733
 @@
 @form	BAN~a~v2
 @oid o0900138
@@ -1268,6 +1368,7 @@
 @ucun	𒜴
 @uage	1
 @sys	AP23 BAN~a
+@sys AP24 BAN~a~v2 12734
 @@
 @form BAN~b
 @oid o0900139
@@ -1277,6 +1378,7 @@
 @ucun	𒜵
 @uage	1
 @sys	LLATU:189_03 BAN~b
+@sys AP24 BAN~b 12735
 @sys	AP23 BAN~b
 @@
 @end sign
@@ -1293,6 +1395,7 @@
 @ucun	𒜶
 @uage	1
 @sys	AP23 BANSZUR~a
+@sys AP24 BANŠUR~a 12736
 @@
 @form BANŠUR~b1
 @oid o0900142
@@ -1301,6 +1404,7 @@
 @ucun	𒜸
 @uage	1
 @sys	LLATU:189_04 BANŠUR~b1
+@sys AP24 BANŠUR~b1 12738
 @sys	AP23 BANSZUR~b1
 @@
 @form BANŠUR~b2
@@ -1310,6 +1414,7 @@
 @ucun	𒜹
 @uage	1
 @sys	LLATU:189_05 BANŠUR~b2
+@sys AP24 BANŠUR~b2 12739
 @sys	AP23 BANSZUR~b2
 @@
 @form BANŠUR~c
@@ -1319,6 +1424,7 @@
 @ucun	𒜺
 @uage	1
 @sys	LLATU:189_06 BANŠUR~c
+@sys AP24 BANŠUR~c 1273A
 @sys	AP23 BANSZUR~c
 @@
 @end sign
@@ -1333,6 +1439,7 @@
 @ucun	𒜷
 @uage	1
 @sys	AP23 BANSZUR~a@t
+@sys AP24 BANŠUR~a@t 12737
 @@
 @end sign
 
@@ -1352,6 +1459,7 @@
 @ucun	𒜻
 @uage	1
 @sys	AP23 BAPPIR~a
+@sys AP24 BAPPIR~a 1273B
 @@
 @form BAPPIR~b
 @oid o0900149
@@ -1360,6 +1468,7 @@
 @ucun	𒜼
 @uage	1
 @sys	LLATU:189_07 BAPPIR~b
+@sys AP24 BAPPIR~b 1273C
 @sys	AP23 BAPPIR~b
 @@
 @form BAPPIR~c
@@ -1369,6 +1478,7 @@
 @ucun	𒜽
 @uage	1
 @sys	AP23 BAPPIR~c
+@sys AP24 BAPPIR~c 1273D
 @@
 @form BAPPIR~d
 @oid o0900151
@@ -1377,6 +1487,7 @@
 @ucun	𒜾
 @uage	1
 @sys	LLATU:189_08 BAPPIR~d
+@sys AP24 BAPPIR~d 1273E
 @sys	AP23 BAPPIR~d
 @@
 @form BAPPIR~e
@@ -1388,6 +1499,7 @@
 @ucun	𒜿
 @uage	1
 @sys	AP23 BAPPIR~e
+@sys AP24 BAPPIR~e 1273F
 @@
 @form BAPPIR~f
 @oid o0900153
@@ -1396,6 +1508,7 @@
 @ucun	𒝀
 @uage	1
 @sys	AP23 BAPPIR~f
+@sys AP24 BAPPIR~f 12740
 @@
 @end sign
 
@@ -1408,6 +1521,7 @@
 @ucun	𒝁
 @uage	1
 @sys	LLATU:190_01 BAR
+@sys AP24 BAR 12741
 @sys	AP23 BAR
 @end sign
 
@@ -1434,6 +1548,7 @@
 @ucun	𒝂
 @uage	1
 @sys	LLATU:190_02 BARA₂~a
+@sys AP24 BARA₂~a 12742
 @sys	AP23 BARA2~a
 @@
 @form	BARA₂~a~v1
@@ -1446,6 +1561,7 @@
 @ucun	𒝃
 @uage	1
 @sys	AP23 BARA2~a
+@sys AP24 BARA₂~a~v1 12743
 @@
 @form BARA₂~b
 @oid o0900160
@@ -1454,6 +1570,7 @@
 @ucun	𒝄
 @uage	1
 @sys	AP23 BARA2~b
+@sys AP24 BARA₂~b 12744
 @@
 @form	BARA₂~b~v1
 @oid o0900161
@@ -1462,6 +1579,7 @@
 @ucun	𒝅
 @uage	1
 @sys	AP23 BARA2~b
+@sys AP24 BARA₂~b~v1 12745
 @@
 @end sign
 
@@ -1473,6 +1591,7 @@
 @ucun	𒝆
 @uage	1
 @sys	LLATU:190_03 BARA₃
+@sys AP24 BARA₃ 12746
 @sys	AP23 BARA3
 @end sign
 
@@ -1659,6 +1778,7 @@
 @ucun	𒝇
 @uage	1
 @sys	LLATU:190_04 BIR~a
+@sys AP24 BIR~a 12747
 @sys	AP23 BIR~a
 @@
 @form BIR~b
@@ -1668,6 +1788,7 @@
 @ucun	𒝈
 @uage	1
 @sys	AP23 BIR~b
+@sys AP24 BIR~b 12748
 @@
 @form BIR~c
 @oid o0900167
@@ -1676,6 +1797,7 @@
 @ucun	𒝉
 @uage	1
 @sys	LLATU:190_05 BIR~c
+@sys AP24 BIR~c 12749
 @sys	AP23 BIR~c
 @@
 @end sign
@@ -1691,6 +1813,7 @@
 @ucun	𒝊
 @uage	1
 @sys	AP23 BIR3~a
+@sys AP24 BIR₃~a 1274A
 @@
 @form	BIR₃~a~v1
 @oid o0900170
@@ -1699,6 +1822,7 @@
 @ucun	𒝋
 @uage	1
 @sys	AP23 BIR3~a
+@sys AP24 BIR₃~a~v1 1274B
 @@
 @form BIR₃~b
 @oid o0900171
@@ -1707,6 +1831,7 @@
 @ucun	𒝌
 @uage	1
 @sys	AP23 BIR3~b
+@sys AP24 BIR₃~b 1274C
 @@
 @form	BIR₃~b~v1
 @oid o0900172
@@ -1715,6 +1840,7 @@
 @ucun	𒝍
 @uage	1
 @sys	AP23 BIR3~b
+@sys AP24 BIR₃~b~v1 1274D
 @@
 @form BIR₃~c
 @oid o0900173
@@ -1723,6 +1849,7 @@
 @ucun	𒝎
 @uage	1
 @sys	LLATU:190_06 BIR₃~c
+@sys AP24 BIR₃~c 1274E
 @sys	AP23 BIR3~c
 @@
 @end sign
@@ -1740,6 +1867,7 @@
 @ucun	𒝏
 @uage	1
 @sys	LLATU:190_07 BU~a
+@sys AP24 BU~a 1274F
 @sys	AP23 BU~a
 @@
 @form	BU~a~v1
@@ -1750,6 +1878,7 @@
 @ucun	𒝐
 @uage	1
 @sys	AP23 BU~a
+@sys AP24 BU~a~v1 12750
 @@
 @form BU~b
 @oid o0900177
@@ -1758,6 +1887,7 @@
 @ucun	𒝑
 @uage	1
 @sys	LLATU:192_02 BU~b
+@sys AP24 BU~b 12751
 @sys	AP23 BU~b
 @@
 @end sign
@@ -1786,6 +1916,7 @@
 @ucun	𒱨
 @uage	1
 @sys	AP23 |BU~b.NA2~a|
+@sys AP24 |BU~b.NA₂~a~v1| 12C68
 @@
 @end sign
 
@@ -1801,6 +1932,7 @@
 @ucun	𒱟
 @uage	1
 @sys	AP23 |BU~axA|
+@sys AP24 |BU~a~v1×A| 12C5F
 @@
 @end sign
 
@@ -1814,6 +1946,7 @@
 @ucun	𒱧
 @uage	1
 @sys	AP23 |BU~axGISZ@t|
+@sys AP24 |BU~a×GIŠ@t| 12C67
 @@
 @end sign
 
@@ -1827,6 +1960,7 @@
 @ucun	𒱞
 @uage	1
 @sys	AP23 |BU~ax1(N58)|
+@sys AP24 |BU~a×1(N58)| 12C5E
 @@
 @end sign
 
@@ -1854,6 +1988,7 @@
 @ucun	𒱠
 @uage	1
 @sys	LLATU:191_01 BU~a+BU~a+NA₂~a
+@sys AP24 |(BU~a&BU~a).NA₂~a| 12C60
 @sys	AP23 |(BU~a&BU~a).NA2~a|
 @@
 @form |(BU~a&BU~a).NA₂~a~v1|
@@ -1864,6 +1999,7 @@
 @ucun	𒱡
 @uage	1
 @sys	AP23 |(BU~a&BU~a).NA2~a|
+@sys AP24 |(BU~a&BU~a).NA₂~a~v1| 12C61
 @@
 @form |(BU~a&BU~a).NA₂~b|
 @oid o0900193
@@ -1872,6 +2008,7 @@
 @ucun	𒱣
 @uage	1
 @sys	AP23 |(BU~a&BU~a).NA2~b|
+@sys AP24 |(BU~a&BU~a).NA₂~b| 12C63
 @@
 @end sign
 
@@ -1886,6 +2023,7 @@
 @ucun	𒱢
 @uage	1
 @sys	AP23 |(BU~a&BU~a).NA2~a@n|
+@sys AP24 |(BU~a~v1%BU~a~v1).NA₂~a@n| 12C62
 @@
 @end sign
 
@@ -1899,6 +2037,7 @@
 @ucun	𒱤
 @uage	1
 @sys	AP23 |(BU~a&BU~a).X|
+@sys AP24 |(BU~a&BU~a).X| 12C64
 @@
 @end sign
 
@@ -1915,6 +2054,7 @@
 @ucun	𒱥
 @uage	1
 @sys	LLATU:192_01 BU~a+DU₆
+@sys AP24 |BU~a+DU₆~a| 12C65
 @sys	AP23 |BU~a+DU6~a|
 @@
 @form |BU~a+DU₆~a~v1|
@@ -1925,6 +2065,7 @@
 @ucun	𒱦
 @uage	1
 @sys	AP23 |BU~a+DU6~a|
+@sys AP24 |BU~a+DU₆~a~v1| 12C66
 @@
 @end sign
 
@@ -1959,6 +2100,7 @@
 @ucun	𒝒
 @uage	1
 @sys	LLATU:192_03 BU₃~a
+@sys AP24 BU₃ 12752
 @sys	AP23 BU3
 @end sign
 
@@ -1970,6 +2112,7 @@
 @ucun	𒝓
 @uage	1
 @sys	AP23 BULUG
+@sys AP24 BULUG 12753
 @end sign
 
 @sign BULUG₃
@@ -1981,6 +2124,7 @@
 @ucun	𒝔
 @uage	1
 @sys	LLATU:192_04 BULUG₃
+@sys AP24 BULUG₃ 12754
 @sys	ATFU-S BULUG₃
 @sys	ATFU-v munu₄?
 @sys	AP23 BULUG3
@@ -2010,6 +2154,7 @@
 @ucun	𒝕
 @uage	1
 @sys	LLATU:192_05 BUR~a
+@sys AP24 BUR~a 12755
 @sys	AP23 BUR~a
 @@
 @form BUR~b
@@ -2019,6 +2164,7 @@
 @ucun	𒝖
 @uage	1
 @sys	AP23 BUR~b
+@sys AP24 BUR~b 12756
 @@
 @form BUR~c
 @oid o0900213
@@ -2027,6 +2173,7 @@
 @ucun	𒝗
 @uage	1
 @sys	AP23 BUR~c
+@sys AP24 BUR~c 12757
 @@
 @form BUR~d
 @oid o0900214
@@ -2035,6 +2182,7 @@
 @ucun	𒝘
 @uage	1
 @sys	AP23 BUR~d
+@sys AP24 BUR~d 12758
 @@
 @end sign
 
@@ -2048,6 +2196,7 @@
 @ucun	𒝙
 @uage	1
 @sys	LLATU:192_06 BUR₂
+@sys AP24 BUR₂ 12759
 @sys	ATFU-S BUR₂
 @sys	ATFU-v ušum
 @sys	AP23 BUR2
@@ -2070,6 +2219,7 @@
 @ucun	𒝚
 @uage	1
 @sys	LLATU:192_07 DA~a
+@sys AP24 DA~a 1275A
 @sys	AP23 DA~a
 @@
 @form DA~b
@@ -2079,6 +2229,7 @@
 @ucun	𒝛
 @uage	1
 @sys	LLATU:193_01 DA~b
+@sys AP24 DA~b 1275B
 @sys	AP23 DA~b
 @@
 @form DA~c
@@ -2088,6 +2239,7 @@
 @ucun	𒝜
 @uage	1
 @sys	AP23 DA~c
+@sys AP24 DA~c 1275C
 @@
 @form DA~d
 @oid o0900220
@@ -2096,6 +2248,7 @@
 @ucun	𒝝
 @uage	1
 @sys	AP23 DA~d
+@sys AP24 DA~d 1275D
 @@
 @end sign
 
@@ -2109,6 +2262,7 @@
 @ucun	𒱩
 @uage	1
 @sys	AP23 |DA~a.LISZ|
+@sys AP24 |DA~a.LIŠ| 12C69
 @@
 @end sign
 
@@ -2121,6 +2275,7 @@
 @ucun	𒝟
 @uage	1
 @sys	ATFU-S DAH
+@sys AP24 DAH 1275F
 @sys	ATFU-v dah?
 @sys	AP23 DAH
 @end sign
@@ -2134,6 +2289,7 @@
 @ucun	𒝠
 @uage	1
 @sys	LLATU:193_02 DAM
+@sys AP24 DAM 12760
 @sys	AP23 DAM
 @end sign
 
@@ -2145,6 +2301,7 @@
 @ucun	𒝡
 @uage	1
 @sys	AP23 DANNA
+@sys AP24 DANNA 12761
 @end sign
 
 @sign DAR
@@ -2162,6 +2319,7 @@
 @ucun	𒝢
 @uage	1
 @sys	LLATU:193_03 DAR~a
+@sys AP24 DAR~a 12762
 @sys	AP23 DAR~a
 @@
 @form DAR~b
@@ -2171,6 +2329,7 @@
 @ucun	𒝣
 @uage	1
 @sys	AP23 DAR~b
+@sys AP24 DAR~b 12763
 @@
 @form DAR~c
 @oid o0900230
@@ -2179,6 +2338,7 @@
 @ucun	𒝤
 @uage	1
 @sys	LLATU:193_04 DAR~c
+@sys AP24 DAR~c 12764
 @sys	AP23 DAR~c
 @@
 @form DAR~d
@@ -2188,6 +2348,7 @@
 @ucun	𒝥
 @uage	1
 @sys	AP23 DAR~d
+@sys AP24 DAR~d 12765
 @@
 @end sign
 
@@ -2201,6 +2362,7 @@
 @ucun	𒱪
 @uage	1
 @sys	AP23 |DAR~axA|
+@sys AP24 |DAR~a×A| 12C6A
 @@
 @end sign
 
@@ -2216,6 +2378,7 @@
 @ucun	𒝦
 @uage	1
 @sys	AP23 DARA3~a
+@sys AP24 DARA₃~a 12766
 @@
 @form DARA₃~b
 @oid o0900236
@@ -2224,6 +2387,7 @@
 @ucun	𒝧
 @uage	1
 @sys	AP23 DARA3~b
+@sys AP24 DARA₃~b 12767
 @@
 @form DARA₃~c
 @oid o0900237
@@ -2232,6 +2396,7 @@
 @ucun	𒝨
 @uage	1
 @sys	LLATU:193_05 DARA₃~c
+@sys AP24 DARA₃~c 12768
 @sys	AP23 DARA3~c
 @@
 @form	DARA₃~c~v1
@@ -2241,6 +2406,7 @@
 @ucun	𒝩
 @uage	1
 @sys	AP23 DARA3~c
+@sys AP24 DARA₃~c~v1 12769
 @@
 @form DARA₃~d
 @oid o0900239
@@ -2249,6 +2415,7 @@
 @ucun	𒝪
 @uage	1
 @sys	LLATU:193_06 DARA₃~d
+@sys AP24 DARA₃~d 1276A
 @sys	AP23 DARA3~d
 @@
 @compoundonly DARA₃~d1
@@ -2268,6 +2435,7 @@
 @ucun	𒱫
 @uage	1
 @sys	AP23 |DARA3~cxKAR2|
+@sys AP24 |DARA₃~c×KAR₂~b| 12C6B
 @@
 @form |DARA₃~d1×KAR₂~b|
 @oid o0900242
@@ -2276,6 +2444,7 @@
 @ucun	𒱭
 @uage	1
 @sys	LLATU:193_07 DARA₃~d+KAR₂
+@sys AP24 |DARA₃~d1×KAR₂~b| 12C6D
 @sys	AP23 |DARA3~dxKAR2|
 @@
 @form |DARA₃~d×KAR₂~b|
@@ -2287,6 +2456,7 @@
 @ucun	𒱮
 @uage	1
 @sys	AP23 |DARA3~dxKAR2|
+@sys AP24 |DARA₃~d×KAR₂~b| 12C6E
 @@
 @form	|DARA₃~d2×KAR₂~a1|
 @oid o0900244
@@ -2296,6 +2466,7 @@
 @ucun	𒱯
 @uage	1
 @sys	AP23 |DARA3~dxKAR2|
+@sys AP24 |DARA₃~d2×KAR₂~a1| 12C6F
 @@
 @end sign
 
@@ -2311,6 +2482,7 @@
 @ucun	𒱬
 @uage	1
 @sys	AP23 |DARA3~cx(KAR2.SZE~a)|
+@sys AP24 |DARA₃~c×(KAR₂~c.ŠE~a)| 12C6C
 @@
 @form |DARA₃~d2×(KAR₂~a1.ŠE~a)|
 @oid o0900247
@@ -2320,6 +2492,7 @@
 @ucun	𒱰
 @uage	1
 @sys	AP23 |DARA3~dx(KAR2.SZE~a)|
+@sys AP24 |DARA₃~d2×(KAR₂~a1.ŠE~a)| 12C70
 @@
 @end sign
 
@@ -2336,6 +2509,7 @@
 @ucun	𒝫
 @uage	1
 @sys	LLATU:193_10 DARA₄~a1
+@sys AP24 DARA₄~a1 1276B
 @sys	AP23 DARA4~a1
 @@
 @form DARA₄~a2
@@ -2345,6 +2519,7 @@
 @ucun	𒝬
 @uage	1
 @sys	AP23 DARA4~a2
+@sys AP24 DARA₄~a2 1276C
 @@
 @form DARA₄~a3
 @oid o0900251
@@ -2353,6 +2528,7 @@
 @ucun	𒝭
 @uage	1
 @sys	LLATU:194_01 DARA₄~a3
+@sys AP24 DARA₄~a3 1276D
 @sys	AP23 DARA4~a3
 @@
 @form DARA₄~b
@@ -2362,6 +2538,7 @@
 @ucun	𒝮
 @uage	1
 @sys	LLATU:194_02 DARA₄~b
+@sys AP24 DARA₄~b 1276E
 @sys	AP23 DARA4~b
 @@
 @form DARA₄~c
@@ -2377,6 +2554,7 @@
 @ucun	𒝯
 @uage	1
 @sys	LLATU:194_03 DARA₄~c1
+@sys AP24 DARA₄~c1 1276F
 @sys	AP23 DARA4~c1
 @@
 @form DARA₄~c2
@@ -2386,6 +2564,7 @@
 @ucun	𒝰
 @uage	1
 @sys	AP23 DARA4~c2
+@sys AP24 DARA₄~c2 12770
 @@
 @form DARA₄~c3
 @oid o0900256
@@ -2394,6 +2573,7 @@
 @ucun	𒝱
 @uage	1
 @sys	AP23 DARA4~c3
+@sys AP24 DARA₄~c3 12771
 @@
 @form DARA₄~c4
 @oid o0900257
@@ -2402,6 +2582,7 @@
 @ucun	𒝲
 @uage	1
 @sys	AP23 DARA4~c4
+@sys AP24 DARA₄~c4 12772
 @@
 @form DARA₄~c5
 @oid o0900258
@@ -2410,6 +2591,7 @@
 @ucun	𒝳
 @uage	1
 @sys	AP23 DARA4~c5
+@sys AP24 DARA₄~c5 12773
 @@
 @form DARA₄~d
 @oid o0900259
@@ -2428,6 +2610,7 @@
 @ucun	𒝴
 @uage	1
 @sys	LLATU:194_04 DI
+@sys AP24 DI 12774
 @sys	AP23 DI
 @end sign
 
@@ -2438,6 +2621,7 @@
 @ucun	𒝵
 @uage	1
 @sys	LLATU:195_01 DI@t
+@sys AP24 DI@t 12775
 @sys	AP23 DI@t
 @end sign
 
@@ -2450,6 +2634,7 @@
 @ucun	𒝶
 @uage	1
 @sys	LLATU:195_02 DIB
+@sys AP24 DIB 12776
 @sys	AP23 DIB
 @form DIB~v1
 @oid o0900263
@@ -2460,6 +2645,7 @@
 @ucun	𒝷
 @uage	1
 @sys	AP23 DIB
+@sys AP24 DIB~v1 12777
 @sys	ATFU-S DIB?
 @@
 @end sign
@@ -2472,6 +2658,7 @@
 @ucun	𒝸
 @uage	1
 @sys	LLATU:195_03 DILMUN
+@sys AP24 DILMUN 12778
 @sys	ATFU-S DILMUN
 @sys	AP23 DILMUN
 @form DILMUN~v1
@@ -2481,6 +2668,7 @@
 @ucun	𒝹
 @uage	1
 @sys	AP23 DILMUN
+@sys AP24 DILMUN~v1 12779
 @@
 @form DILMUN~v2
 @oid o0900266
@@ -2489,6 +2677,7 @@
 @ucun	𒝺
 @uage	1
 @sys	AP23 DILMUN
+@sys AP24 DILMUN~v2 1277A
 @@
 @end sign
 
@@ -2504,6 +2693,7 @@
 @ucun	𒝻
 @uage	1
 @sys	AP23 DIM~a
+@sys AP24 DIM~a 1277B
 @@
 @form DIM~b
 @oid o0900270
@@ -2512,6 +2702,7 @@
 @ucun	𒝼
 @uage	1
 @sys	AP23 DIM~b
+@sys AP24 DIM~b 1277C
 @@
 @form DIM~c
 @oid o0900271
@@ -2520,6 +2711,7 @@
 @ucun	𒝽
 @uage	1
 @sys	LLATU:195_04 DIM~c
+@sys AP24 DIM~c 1277D
 @sys	AP23 DIM~c
 @@
 @end sign
@@ -2534,6 +2726,7 @@
 @ucun	𒝾
 @uage	1
 @sys	LLATU:195_05 DIN
+@sys AP24 DIN 1277E
 @sys	AP23 DIN
 @end sign
 
@@ -2554,6 +2747,7 @@
 @ucun	𒝿
 @uage	1
 @sys	AP23 DIN@t
+@sys AP24 DIN@t 1277F
 @end sign
 
 @sign DU
@@ -2565,6 +2759,7 @@
 @ucun	𒞀
 @uage	1
 @sys	LLATU:195_06 DU
+@sys AP24 DU 12780
 @sys	ATFU-S DU
 @sys	ATFU-v du?
 @sys	AP23 DU
@@ -2579,6 +2774,7 @@
 @ucun	𒱳
 @uage	1
 @sys	AP23 |DUxDISZ|
+@sys AP24 |DU×1(N58@t)| 12C73
 @end sign
 
 @sign DU@g
@@ -2588,6 +2784,7 @@
 @ucun	𒞁
 @uage	1
 @sys	AP23 DU@g
+@sys AP24 DU@g 12781
 @end sign
 
 @sign DU₆
@@ -2602,6 +2799,7 @@
 @ucun	𒞂
 @uage	1
 @sys	AP23 DU6~a
+@sys AP24 DU₆~a 12782
 @@
 @form	DU₆~a~v1
 @oid o0900285
@@ -2610,6 +2808,7 @@
 @ucun	𒞃
 @uage	1
 @sys	AP23 DU6~a
+@sys AP24 DU₆~a~v1 12783
 @@
 @form DU₆~a2
 @oid o0900286
@@ -2626,6 +2825,7 @@
 @ucun	𒞄
 @uage	1
 @sys	LLATU:196_02 DU₆~b
+@sys AP24 DU₆~b 12784
 @sys	AP23 DU6~b
 @@
 @form DU₆~c
@@ -2635,6 +2835,7 @@
 @ucun	𒞅
 @uage	1
 @sys	LLATU:196_03 DU₆~c
+@sys AP24 DU₆~c 12785
 @sys	AP23 DU6~c
 @@
 @end sign
@@ -2653,6 +2854,7 @@
 @ucun	𒱴
 @uage	1
 @sys	AP23 |DU6~axDISZ|
+@sys AP24 |DU₆~a~v1×1(N58)| 12C74
 @@
 @end sign
 
@@ -2665,6 +2867,7 @@
 @ucun	𒞆
 @uage	1
 @sys	LLATU:196_04 DU₇
+@sys AP24 DU₇ 12786
 @sys	AP23 DU7
 @end sign
 
@@ -2682,6 +2885,7 @@
 @ucun	𒞇
 @uage	1
 @sys	AP23 DU8~a
+@sys AP24 DU₈~a 12787
 @@
 @form DU₈~b
 @oid o0900294
@@ -2690,6 +2894,7 @@
 @ucun	𒞈
 @uage	1
 @sys	AP23 DU8~b
+@sys AP24 DU₈~b 12788
 @@
 @form	DU₈~b~v1
 @oid o0900295
@@ -2698,6 +2903,7 @@
 @ucun	𒞉
 @uage	1
 @sys	AP23 DU8~b
+@sys AP24 DU₈~b~v1 12789
 @@
 @form DU₈~c
 @oid o0900296
@@ -2707,6 +2913,7 @@
 @ucun	𒞊
 @uage	1
 @sys	AP23 DU8~c
+@sys AP24 DU₈~c 1278A
 @@
 @form DU₈~d
 @oid o0900297
@@ -2747,6 +2954,7 @@
 @ucun	𒱵
 @uage	1
 @sys	AP23 |DU8~cxHI|
+@sys AP24 |DU₈~c×HI| 12C75
 @@
 @end sign
 
@@ -2760,6 +2968,7 @@
 @ucun	𒱶
 @uage	1
 @sys	LLATU:196_05 DU₈~c+UDU~a
+@sys AP24 |DU₈~c×UDU~a| 12C76
 @sys	AP23 |DU8~cxUDU~a|
 @@
 @end sign
@@ -2774,6 +2983,7 @@
 @ucun	𒱷
 @uage	1
 @sys	AP23 |DU8~cxX|
+@sys AP24 |DU₈~c×X| 12C77
 @@
 @end sign
 
@@ -2788,6 +2998,7 @@
 @ucun	𒞋
 @uage	1
 @sys	LLATU:197_01 DU₈~c@g
+@sys AP24 DU₈~c@g 1278B
 @sys	AP23 DU8~c@g
 @@
 @form DU₈~c@g~v1
@@ -2798,6 +3009,7 @@
 @ucun	𒞌
 @uage	1
 @sys	AP23 DU8~c@g
+@sys AP24 DU₈~c@g~v1 1278C
 @@
 @end sign
 
@@ -2817,6 +3029,7 @@
 @ucun	𒞍
 @uage	1
 @sys	LLATU:197_02 DUB~a
+@sys AP24 DUB~a 1278D
 @sys	AP23 DUB~a
 @@
 @form DUB~b
@@ -2826,6 +3039,7 @@
 @ucun	𒞎
 @uage	1
 @sys	LLATU:197_03 DUB~b
+@sys AP24 DUB~b 1278E
 @sys	AP23 DUB~b
 @@
 @form	DUB~b~v1
@@ -2835,6 +3049,7 @@
 @ucun	𒞏
 @uage	1
 @sys	AP23 DUB~b
+@sys AP24 DUB~b~v1 1278F
 @@
 @form	DUB~b~v2
 @oid o0900315
@@ -2843,6 +3058,7 @@
 @ucun	𒞐
 @uage	1
 @sys	AP23 DUB~b
+@sys AP24 DUB~b~v2 12790
 @@
 @form	DUB~b~v3
 @oid o0900316
@@ -2851,6 +3067,7 @@
 @ucun	𒞑
 @uage	1
 @sys	AP23 DUB~b
+@sys AP24 DUB~b~v3 12791
 @@
 @form	DUB~b~v4
 @oid o0900317
@@ -2859,6 +3076,7 @@
 @ucun	𒞒
 @uage	1
 @sys	AP23 DUB~b
+@sys AP24 DUB~b~v4 12792
 @@
 @form DUB~c
 @oid o0900318
@@ -2867,6 +3085,7 @@
 @ucun	𒞓
 @uage	1
 @sys	AP23 DUB~c
+@sys AP24 DUB~c 12793
 @@
 @form DUB~d
 @oid o0900319
@@ -2875,6 +3094,7 @@
 @ucun	𒞔
 @uage	1
 @sys	AP23 DUB~d
+@sys AP24 DUB~d 12794
 @@
 @form DUB~e
 @oid o0900320
@@ -2883,6 +3103,7 @@
 @ucun	𒞕
 @uage	1
 @sys	AP23 DUB~e
+@sys AP24 DUB~e 12795
 @@
 @form DUB~f
 @oid o0900321
@@ -2891,6 +3112,7 @@
 @ucun	𒞖
 @uage	1
 @sys	AP23 DUB~f
+@sys AP24 DUB~f 12796
 @@
 @form DUB~h
 @oid o0900322
@@ -2919,6 +3141,7 @@
 @ucun	𒱸
 @uage	1
 @sys	AP23 |(DUBxDISZ)~a|
+@sys AP24 |(DUB@n~a×1(N58))~a| 12C78
 @@
 @form |DUB@n~b×1(N58)~a|
 @oid o0900325
@@ -2928,6 +3151,7 @@
 @ucun	𒱹
 @uage	1
 @sys	AP23 |(DUBxDISZ)~b|
+@sys AP24 |DUB@n~b×1(N58)~a| 12C79
 @@
 @form |(DUB@n~a×1(N58))~b|
 @oid o0900326
@@ -2937,6 +3161,7 @@
 @ucun	𒱺
 @uage	1
 @sys	LLATU:197_04 DUB+DIŠ~c
+@sys AP24 |(DUB@n~a×1(N58))~b| 12C7A
 @sys	AP23 |(DUBxDISZ)~c|
 @@
 @end sign
@@ -2958,6 +3183,7 @@
 @ucun	𒞗
 @uage	1
 @sys	LLATU:197_05 DUB₂
+@sys AP24 DUB₂ 12797
 @sys	AP23 DUB2
 @end sign
 
@@ -2976,6 +3202,7 @@
 @ucun	𒞘
 @uage	1
 @sys	LLATU:197_06 DUG~a
+@sys AP24 DUG~a 12798
 @sys	ATFU-S DUG~a
 @sys	ATFU-v dug
 @sys	AP23 DUG~a
@@ -2987,6 +3214,7 @@
 @ucun	𒞙
 @uage	1
 @sys	AP23 DUG~a
+@sys AP24 DUG~a~v1 12799
 @@
 @form	DUG~a~v2
 @oid o0900333
@@ -2995,6 +3223,7 @@
 @ucun	𒞚
 @uage	1
 @sys	AP23 DUG~a
+@sys AP24 DUG~a~v2 1279A
 @@
 @form DUG~b
 @oid o0900334
@@ -3003,6 +3232,7 @@
 @ucun	𒞛
 @uage	1
 @sys	LLATU:197_07 DUG~b
+@sys AP24 DUG~b 1279B
 @sys	AP23 DUG~b
 @@
 @form	DUG~b~v1
@@ -3013,6 +3243,7 @@
 @ucun	𒞜
 @uage	1
 @sys	AP23 DUG~b
+@sys AP24 DUG~b~v1 1279C
 @@
 @compoundonly DUG~b~v2
 @@
@@ -3024,6 +3255,7 @@
 @ucun	𒞝
 @uage	1
 @sys	LLATU:205_01 DUG~c
+@sys AP24 DUG~c~v1 1279D
 @sys	AP23 DUG~c
 @@
 @compoundonly DUG~c~v2
@@ -3037,6 +3269,7 @@
 @ucun	𒞞
 @uage	1
 @sys	AP23 DUG~c 498.1
+@sys AP24 DUG~c~v3 1279E
 @@
 @form DUG~d
 @oid o0900338
@@ -3047,6 +3280,7 @@
 @inote 2403
 @uage	1
 @sys	AP23 DUG~d
+@sys AP24 DUG~d 127A0
 @@
 @end sign
 
@@ -3063,6 +3297,7 @@
 @ucun	𒲇
 @uage	1
 @sys	LLATU:198_05 DUG~b+AB₂
+@sys AP24 |DUG~b~v1×AB₂| 12C87
 @sys	AP23 |DUG~bxAB2|
 @@
 @end sign
@@ -3079,6 +3314,7 @@
 @ucun	𒲈
 @uage	1
 @sys	LLATU:198_06 DUG~b+ANŠE~b
+@sys AP24 |DUG~b×ANŠE~b| 12C88
 @sys	AP23 |DUG~bxANSZE~b|
 @@
 @form |DUG~b×ANŠE~d|
@@ -3088,6 +3324,7 @@
 @ucun	𒲉
 @uage	1
 @sys	LLATU:198_07 DUG~b+ANŠE~d
+@sys AP24 |DUG~b×ANŠE~d| 12C89
 @sys	AP23 |DUG~bxANSZE~d|
 @@
 @end sign
@@ -3116,6 +3353,7 @@
 @ucun	𒲊
 @uage	1
 @sys	LLATU:198_08 DUG~b+BALA~a
+@sys AP24 |DUG~b×BALA~a| 12C8A
 @sys	AP23 |DUG~bxBALA~a|
 @@
 @end sign
@@ -3132,6 +3370,7 @@
 @ucun	𒲋
 @uage	1
 @sys	LLATU:199_01 DUG~b+BIR₃~c
+@sys AP24 |DUG~b×BIR₃~c| 12C8B
 @sys	AP23 |DUG~bxBIR3~c|
 @@
 @end sign
@@ -3148,6 +3387,7 @@
 @ucun	𒲌
 @uage	1
 @sys	LLATU:199_02 DUG~b+DIN
+@sys AP24 |DUG~b×DIN| 12C8C
 @sys	AP23 |DUG~bxDIN|
 @@
 @form |DUG~b~v1×DIN|
@@ -3158,6 +3398,7 @@
 @ucun	𒲍
 @uage	1
 @sys	AP23 |DUG~bxDIN|
+@sys AP24 |DUG~b~v1×DIN| 12C8D
 @@
 @end sign
 
@@ -3172,6 +3413,7 @@
 @ucun	𒲎
 @uage	1
 @sys	AP23 |(DUG~bxDIN)@r|
+@sys AP24 |(DUG~b×DIN)@r| 12C8E
 @@
 @end sign
 
@@ -3185,6 +3427,7 @@
 @ucun	𒲐
 @uage	1
 @sys	AP23 |DUG~bxE~a|
+@sys AP24 |DUG~b×E~a| 12C90
 @@
 @end sign
 
@@ -3200,6 +3443,7 @@
 @ucun	𒲑
 @uage	1
 @sys	LLATU:199_03 DUG~b+GA~a
+@sys AP24 |DUG~b×GA~a~v4| 12C91
 @sys	AP23 |DUG~bxGA~a|
 @@
 @form |DUG~b×GA~b|
@@ -3210,6 +3454,7 @@
 @ucun	𒲒
 @uage	1
 @sys	LLATU:199_04 DUG~b+GA~b
+@sys AP24 |DUG~b×GA~b| 12C92
 @sys	AP23 |DUG~bxGA~b|
 @@
 @end sign
@@ -3227,6 +3472,7 @@
 @ucun	𒲓
 @uage	1
 @sys	LLATU:199_05 DUG~b+GEŠTU~a
+@sys AP24 |DUG~b×GEŠTU~a~v2| 12C93
 @sys	AP23 |DUG~bxGESZTU~a|
 @@
 @form |DUG~b~v1×GEŠTU~a~v2|
@@ -3237,6 +3483,7 @@
 @ucun	𒲔
 @uage	1
 @sys	AP23 |DUG~bxGESZTU~a|
+@sys AP24 |DUG~b~v1×GEŠTU~a~v2| 12C94
 @@
 @form |DUG~b×GEŠTU~b|
 @oid o0900363
@@ -3245,6 +3492,7 @@
 @ucun	𒲕
 @uage	1
 @sys	LLATU:199_06 DUG~b+GEŠTU~b
+@sys AP24 |DUG~b×GEŠTU~b| 12C95
 @sys	AP23 |DUG~bxGESZTU~b|
 @@
 @end sign
@@ -3261,6 +3509,7 @@
 @ucun	𒲖
 @uage	1
 @sys	LLATU:199_07 DUG~b+GI₆
+@sys AP24 |DUG~b×GI₆| 12C96
 @sys	AP23 |DUG~bxGI6|
 @@
 @end sign
@@ -3277,6 +3526,7 @@
 @ucun	𒲗
 @uage	1
 @sys	LLATU:199_08 DUG~b+GIŠ
+@sys AP24 |DUG~b×GIŠ| 12C97
 @sys	AP23 |DUG~bxGISZ|
 @@
 @end sign
@@ -3295,6 +3545,7 @@
 @ucun	𒲘
 @uage	1
 @sys	LLATU:200_01 DUG~b+HI
+@sys AP24 |DUG~b×HI| 12C98
 @sys	AP23 |DUG~bxHI|
 @@
 @form |DUG~b~v1×HI|
@@ -3306,6 +3557,7 @@
 @ucun	𒲙
 @uage	1
 @sys	AP23 |DUG~bxHI|
+@sys AP24 |DUG~b~v1×HI| 12C99
 @@
 @end sign
 
@@ -3321,6 +3573,7 @@
 @ucun	𒲚
 @uage	1
 @sys	AP23 |DUG~bxHI@g~a|
+@sys AP24 |DUG~b~v1×HI@g~a| 12C9A
 @@
 @end sign
 
@@ -3335,6 +3588,7 @@
 @ucun	𒱽
 @uage	1
 @sys	AP23 |DUG~axKASKAL|
+@sys AP24 |DUG~a×KASKAL| 12C7D
 @@
 @form |DUG~b×KASKAL|
 @oid o0900376
@@ -3344,6 +3598,7 @@
 @ucun	𒲛
 @uage	1
 @sys	LLATU:200_02 DUG~b+KASKAL
+@sys AP24 |DUG~b×KASKAL| 12C9B
 @sys	AP23 |DUG~bxKASKAL|
 @@
 @end sign
@@ -3366,6 +3621,7 @@
 @ucun	𒲜
 @uage	1
 @sys	LLATU:200_03 DUG~b+KU₆~a
+@sys AP24 |DUG~b×KU₆~a| 12C9C
 @sys	AP23 |DUG~bxKU6~a|
 @@
 @end sign
@@ -3382,6 +3638,7 @@
 @ucun	𒲝
 @uage	1
 @sys	LLATU:200_04 DUG~b+KUR~a
+@sys AP24 |DUG~b×KUR~a| 12C9D
 @sys	AP23 |DUG~bxKUR~a|
 @@
 @form |DUG~b×KUR~b|
@@ -3391,6 +3648,7 @@
 @ucun	𒲟
 @uage	1
 @sys	LLATU:200_06 DUG~b+KUR~b
+@sys AP24 |DUG~b×KUR~b| 12C9F
 @sys	AP23 |DUG~bxKUR~b|
 @@
 @end sign
@@ -3406,6 +3664,7 @@
 @ucun	𒲞
 @uage	1
 @sys	LLATU:200_05 DUG~b+KUR~a+?
+@sys AP24 |DUG~b×(KUR~a.X)| 12C9E
 @sys	AP23 |DUG~bx(KUR~a.X)|
 @@
 @end sign
@@ -3422,6 +3681,7 @@
 @ucun	𒲠
 @uage	1
 @sys	LLATU:200_08 DUG~b+LAM+KUR~a
+@sys AP24 |DUG~b×KUR@g~a| 12CA0
 @sys	AP23 |DUG~bxKUR@g~a|
 @@
 @end sign
@@ -3437,6 +3697,7 @@
 @ucun	𒱾
 @uage	1
 @sys	AP23 |DUG~axLAM~b|
+@sys AP24 |DUG~a×LAM~b| 12C7E
 @@
 @form |DUG~b×LAM~a|
 @oid o0900389
@@ -3446,6 +3707,7 @@
 @ucun	𒲡
 @uage	1
 @sys	LLATU:200_07 DUG~b+LAM~a
+@sys AP24 |DUG~b×LAM~a| 12CA1
 @sys	AP23 |DUG~bxLAM~a|
 @@
 @end sign
@@ -3462,6 +3724,7 @@
 @ucun	𒲢
 @uage	1
 @sys	LLATU:201_01 DUG~b+MAŠ
+@sys AP24 |DUG~b×MAŠ| 12CA2
 @sys	AP23 |DUG~bxMASZ|
 @@
 @form |DUG~b~v1×MAŠ|
@@ -3472,6 +3735,7 @@
 @ucun	𒲣
 @uage	1
 @sys	AP23 |DUG~bxMASZ|
+@sys AP24 |DUG~b~v1×MAŠ| 12CA3
 @@
 @end sign
 
@@ -3486,6 +3750,7 @@
 @ucun	𒱻
 @uage	1
 @sys	LLATU:198_01 DUG+AŠ~a
+@sys AP24 |DUG~a×1(N57)| 12C7B
 @sys	AP23 |DUG~ax1(N57)|
 @@
 @form |DUG~b×1(N57)|
@@ -3496,6 +3761,7 @@
 @ucun	𒲃
 @uage	1
 @sys	LLATU:198_02 DUG+AŠ~b
+@sys AP24 |DUG~b×1(N57)| 12C83
 @sys	AP23 |DUG~bx1(N57)|
 @@
 @form |DUG~b~v1×1(N57)|
@@ -3505,6 +3771,7 @@
 @ucun	𒲄
 @uage	1
 @sys	AP23 |DUG~bx1(N57)|
+@sys AP24 |DUG~b~v1×1(N57)| 12C84
 @@
 @form |DUG~c~v1×1(N57)|
 @oid o0900397
@@ -3513,6 +3780,7 @@
 @ucun	𒳅
 @uage	1
 @sys	AP23 |DUG~cx1(N57)| 1601.1
+@sys AP24 |DUG~c~v1×1(N57)| 12CC5
 @@
 @form |DUG~c~v2×1(N57)|
 @oid o0900398
@@ -3523,6 +3791,7 @@
 @ucun	𒳄
 @uage	1
 @sys	LLATU:198_03 DUG+AŠ~c
+@sys AP24 |DUG~c~v2×1(N57)| 12CC4
 @sys	AP23 |DUG~cx1(N57)| 1601
 @@
 @form |DUG~c~v3×1(N57)|
@@ -3532,6 +3801,7 @@
 @ucun	𒳆
 @uage	1
 @sys	AP23 |DUG~cx1(N57)| 1601.2
+@sys AP24 |DUG~c~v3×1(N57)| 12CC6
 @@
 @end sign
 
@@ -3546,6 +3816,7 @@
 @ucun	𒲅
 @uage	1
 @sys	LLATU:198_04 DUG~b+1(N57)+KU₃~a
+@sys AP24 |DUG~b×(1(N57).KU₃~a)| 12C85
 @sys	AP23 |DUG~bx(1(N57).KU3~a)|
 @@
 @end sign
@@ -3560,6 +3831,7 @@
 @ucun	𒲆
 @uage	1
 @sys	AP23 |DUG~bx3(N57)|
+@sys AP24 |DUG~b×3(N57)| 12C86
 @@
 @end sign
 
@@ -3586,6 +3858,7 @@
 @ucun	𒱿
 @uage	1
 @sys	AP23 |DUG~axNAGA~a|
+@sys AP24 |DUG~a×NAGA~a| 12C7F
 @@
 @form |DUG~b×NAGA~a|
 @oid o0900408
@@ -3595,6 +3868,7 @@
 @ucun	𒲤
 @uage	1
 @sys	LLATU:201_02 DUG~b+NAGA~a
+@sys AP24 |DUG~b×NAGA~a| 12CA4
 @sys	AP23 |DUG~bxNAGA~a|
 @@
 @end sign
@@ -3609,6 +3883,7 @@
 @ucun	𒲥
 @uage	1
 @sys	LLATU:201_03 DUG~b+NAM₂
+@sys AP24 |DUG~b×NAM₂| 12CA5
 @sys	AP23 |DUG~bxNAM2|
 @@
 @end sign
@@ -3623,6 +3898,7 @@
 @ucun	𒲦
 @uage	1
 @sys	AP23 |DUG~bx(NI~a@g.ZATU779)|
+@sys AP24 |DUG~b×(NI~a@g.ZATU779)| 12CA6
 @@
 @end sign
 
@@ -3638,6 +3914,7 @@
 @ucun	𒲧
 @uage	1
 @sys	LLATU:201_04 DUG~b+SA~a
+@sys AP24 |DUG~b×SA~a| 12CA7
 @sys	AP23 |DUG~bxSA~a|
 @@
 @end sign
@@ -3668,6 +3945,7 @@
 @ucun	𒲭
 @uage	1
 @sys	LLATU:201_06 DUG~b+SI₄~a
+@sys AP24 |DUG~b×SI₄~a| 12CAD
 @sys	AP23 |DUG~bxSI4~a|
 @@
 @end sign
@@ -3682,6 +3960,7 @@
 @ucun	𒲮
 @uage	1
 @sys	LLATU:201_07 DUG~b+SI₄~a+?
+@sys AP24 |DUG~b×(SI₄~a.X)| 12CAE
 @sys	AP23 |DUG~bx(SI4~a.X)|
 @@
 @end sign
@@ -3698,6 +3977,7 @@
 @ucun	𒲯
 @uage	1
 @sys	LLATU:201_08 DUG~b+SIG₂~a1
+@sys AP24 |DUG~b×SIG₂~a1| 12CAF
 @sys	AP23 |DUG~bxSIG2~a1|
 @@
 @form |DUG~b×SIG₂~a2|
@@ -3707,6 +3987,7 @@
 @ucun	𒲰
 @uage	1
 @sys	LLATU:202_01 DUG~b+SIG₂~a2
+@sys AP24 |DUG~b×SIG₂~a2| 12CB0
 @sys	AP23 |DUG~bxSIG2~a2|
 @@
 @end sign
@@ -3723,6 +4004,7 @@
 @ucun	𒲱
 @uage	1
 @sys	LLATU:202_02 DUG~b+SIG₇
+@sys AP24 |DUG~b×SIG₇| 12CB1
 @sys	AP23 |DUG~bxSIG7|
 @@
 @end sign
@@ -3738,6 +4020,7 @@
 @ucun	𒲲
 @uage	1
 @sys	LLATU:202_03 DUG~b+SUHUR
+@sys AP24 |DUG~b×SUHUR| 12CB2
 @sys	AP23 |DUG~bxSUHUR|
 @@
 @end sign
@@ -3767,6 +4050,7 @@
 @ucun	𒲨
 @uage	1
 @sys	LLATU:202_04 DUG~b+ŠAH₂~a
+@sys AP24 |DUG~b×ŠAH₂~a| 12CA8
 @sys	AP23 |DUG~bxSZAH2~a|
 @@
 @end sign
@@ -3783,6 +4067,7 @@
 @ucun	𒲩
 @uage	1
 @sys	LLATU:202_05 DUG~b+ŠE~a
+@sys AP24 |DUG~b×ŠE~a| 12CA9
 @sys	AP23 |DUG~bxSZE~a|
 @@
 @form |DUG~b~v1×ŠE~a|
@@ -3793,6 +4078,7 @@
 @ucun	𒲪
 @uage	1
 @sys	AP23 |DUG~bxSZE~a|
+@sys AP24 |DUG~b~v1×ŠE~a| 12CAA
 @@
 @form |DUG~b~v1×ŠE~a@t|
 @oid o0900435
@@ -3802,6 +4088,7 @@
 @ucun	𒲫
 @uage	1
 @sys	AP23 |DUG~bxSZE~a|
+@sys AP24 |DUG~b~v1×ŠE~a@t| 12CAB
 @@
 @end sign
 
@@ -3818,6 +4105,7 @@
 @ucun	𒲬
 @uage	1
 @sys	AP23 |DUG~bx(SZE~a.NAM2)|
+@sys AP24 |DUG~b×(ŠE~a.NAM₂)| 12CAC
 @@
 @end sign
 
@@ -3833,6 +4121,7 @@
 @ucun	𒲳
 @uage	1
 @sys	LLATU:203_01 DUG~b+TAK₄~a
+@sys AP24 |DUG~b×TAK₄~a| 12CB3
 @sys	AP23 |DUG~bxTAK4~a|
 @@
 @end sign
@@ -3847,6 +4136,7 @@
 @ucun	𒲴
 @uage	1
 @sys	LLATU:203_02 DUG~b+TAK₄~a+SA~a
+@sys AP24 |DUG~b×(TAK₄~a.SA~a)| 12CB4
 @sys	AP23 |DUG~bx(TAK4~a.SA~a)|
 @@
 @end sign
@@ -3861,6 +4151,7 @@
 @ucun	𒲵
 @uage	1
 @sys	LLATU:203_03 DUG~b+TAK₄~a+SAL
+@sys AP24 |DUG~b×(TAK₄~a.SAL)| 12CB5
 @sys	AP23 |DUG~bx(TAK4~a.SAL)|
 @@
 @end sign
@@ -3877,6 +4168,7 @@
 @ucun	𒲶
 @uage	1
 @sys	LLATU:203_04 DUG~b+TI~a
+@sys AP24 |DUG~b×TI| 12CB6
 @sys	AP23 |DUG~bxTI|
 @@
 @end sign
@@ -3892,6 +4184,7 @@
 @ucun	𒲀
 @uage	1
 @sys	AP23 |DUG~axU2~a|
+@sys AP24 |DUG~a×U₂~a| 12C80
 @@
 @form |DUG~a×U₂~b|
 @oid o0900448
@@ -3900,6 +4193,7 @@
 @ucun	𒲁
 @uage	1
 @sys	AP23 |DUG~axU2~b|
+@sys AP24 |DUG~a×U₂~b| 12C81
 @@
 @form |DUG~b×U₂~a|
 @oid o0900449
@@ -3909,6 +4203,7 @@
 @ucun	𒲷
 @uage	1
 @sys	LLATU:203_05 DUG~b+U₂~a
+@sys AP24 |DUG~b×U₂~a| 12CB7
 @sys	AP23 |DUG~bxU2~a|
 @@
 @form |DUG~b×U₂~b|
@@ -3926,6 +4221,7 @@
 @ucun	𒲸
 @uage	1
 @sys	AP23 |DUG~bxU2~b|
+@sys AP24 |DUG~b~v1×U₂~b| 12CB8
 @@
 @form	|DUG~b~v2×U₂~b|
 @oid o0900452
@@ -3935,6 +4231,7 @@
 @ucun	𒲹
 @uage	1
 @sys	AP23 |DUG~bxU2~b|
+@sys AP24 |DUG~b~v2×U₂~b| 12CB9
 @@
 @end sign
 
@@ -3961,6 +4258,7 @@
 @ucun	𒲺
 @uage	1
 @sys	LLATU:203_07 DUG~b+UH₃~a
+@sys AP24 |DUG~b×UH₃~a| 12CBA
 @sys	AP23 |DUG~bxUH3~a|
 @@
 @end sign
@@ -3975,6 +4273,7 @@
 @ucun	𒲻
 @uage	1
 @sys	LLATU:203_08 DUG~b+UH₃~a@t
+@sys AP24 |DUG~b×UH₃~a@t| 12CBB
 @sys	AP23 |DUG~bxUH3~a@t|
 @@
 @end sign
@@ -3989,6 +4288,7 @@
 @ucun	𒲼
 @uage	1
 @sys	LLATU:204_04 DUG~b+?
+@sys AP24 |DUG~b×X| 12CBC
 @sys	AP23 |DUG~bxX|
 @@
 @form |DUG~b~v1×X|
@@ -3999,6 +4299,7 @@
 @ucun	𒲽
 @uage	1
 @sys	AP23 |DUG~bxX|
+@sys AP24 |DUG~b~v1×X| 12CBD
 @@
 @end sign
 
@@ -4012,6 +4313,7 @@
 @ucun	𒲾
 @uage	1
 @sys	AP23 |DUG~bxZATU707~a|
+@sys AP24 |DUG~b×ZATU707~a| 12CBE
 @@
 @end sign
 
@@ -4026,6 +4328,7 @@
 @ucun	𒲿
 @uage	1
 @sys	LLATU:203_09 DUG~b+ZATU764
+@sys AP24 |DUG~b×ZATU764| 12CBF
 @sys	AP23 |DUG~bxZATU764|
 @@
 @end sign
@@ -4041,6 +4344,7 @@
 @ucun	𒳀
 @uage	1
 @sys	LLATU:203_10 DUG~b+ZATU779
+@sys AP24 |DUG~b×ZATU779| 12CC0
 @sys	AP23 |DUG~bxZATU779|
 @@
 @end sign
@@ -4055,6 +4359,7 @@
 @ucun	𒳁
 @uage	1
 @sys	LLATU:204_01 DUG~b+ZATU780
+@sys AP24 |DUG~b×ZATU780| 12CC1
 @sys	AP23 |DUG~bxZATU780|
 @@
 @end sign
@@ -4070,6 +4375,7 @@
 @ucun	𒳂
 @uage	1
 @sys	LLATU:204_02 DUG~b+ZATU781
+@sys AP24 |DUG~b×ZATU781| 12CC2
 @sys	AP23 |DUG~bxZATU781|
 @@
 @end sign
@@ -4084,6 +4390,7 @@
 @ucun	𒳃
 @uage	1
 @sys	LLATU:204_03 DUG~b+ZATU789+SA~a
+@sys AP24 |DUG~b×(ZATU789.SA~a)| 12CC3
 @sys	AP23 |DUG~bx(ZATU789.SA~a)|
 @@
 @end sign
@@ -4100,6 +4407,7 @@
 @ucun	𒲏
 @uage	1
 @sys	AP23 |(DUG~b&DUG~b)x1(N58)|
+@sys AP24 |(DUG~b~v1&DUG~b~v1)×1(N58)| 12C8F
 @@
 @end sign
 
@@ -4121,6 +4429,7 @@
 @ucun	𒞟
 @uage	1
 @sys	AP23 DUG~c@t
+@sys AP24 DUG~c@t 1279F
 @@
 @form DUG~c2@t
 @oid o0900480
@@ -4139,6 +4448,7 @@
 @ucun	𒞡
 @uage	1
 @sys	AP23 DUGUD
+@sys AP24 DUGUD 127A1
 @end sign
 
 @sign DUR
@@ -4153,6 +4463,7 @@
 @ucun	𒞢
 @uage	1
 @sys	AP23 DUR~a
+@sys AP24 DUR~a 127A2
 @@
 @form DUR~b
 @oid o0900484
@@ -4162,6 +4473,7 @@
 @ucun	𒞣
 @uage	1
 @sys	AP23 DUR~b
+@sys AP24 DUR~b 127A3
 @@
 @end sign
 
@@ -4174,6 +4486,7 @@
 @ucun	𒞤
 @uage	1
 @sys	LLATU:206_01 DUR₂
+@sys AP24 DUR₂ 127A4
 @sys	ATFU-S DUR₂
 @sys	AP23 DUR2
 @end sign
@@ -4190,6 +4503,7 @@
 @ucun	𒞥
 @uage	1
 @sys	AP23 E~a
+@sys AP24 E~a 127A5
 @@
 @form E~b
 @oid o0900488
@@ -4198,6 +4512,7 @@
 @ucun	𒞦
 @uage	1
 @sys	AP23 E~b
+@sys AP24 E~b 127A6
 @@
 @form E~c
 @oid o0900489
@@ -4206,6 +4521,7 @@
 @ucun	𒞧
 @uage	1
 @sys	AP23 E~c
+@sys AP24 E~c 127A7
 @@
 @form E~d
 @oid o0900490
@@ -4214,6 +4530,7 @@
 @ucun	𒞨
 @uage	1
 @sys	AP23 E~d
+@sys AP24 E~d 127A8
 @@
 @end sign
 
@@ -4232,6 +4549,7 @@
 @ucun	𒞪
 @uage	1
 @sys	LLATU:206_02 E₂~a
+@sys AP24 E₂~a 127AA
 @sys	AP23 E2~a
 @@
 @form E₂~b
@@ -4241,6 +4559,7 @@
 @ucun	𒞫
 @uage	1
 @sys	LLATU:207_01 E₂~b
+@sys AP24 E₂~b 127AB
 @sys	AP23 E2~b
 @@
 @form E₂~c
@@ -4250,6 +4569,7 @@
 @ucun	𒞬
 @uage	1
 @sys	AP23 E2~c
+@sys AP24 E₂~c 127AC
 @@
 @form E₂~d
 @oid o0900496
@@ -4258,6 +4578,7 @@
 @ucun	𒞭
 @uage	1
 @sys	AP23 E2~d
+@sys AP24 E₂~d 127AD
 @@
 @end sign
 
@@ -4271,6 +4592,7 @@
 @ucun	𒳉
 @uage	1
 @sys	AP23 |E2~a.LISZ|
+@sys AP24 |E₂~a.LIŠ| 12CC9
 @@
 @form |E₂~b.LIŠ|
 @oid o0900499
@@ -4279,6 +4601,7 @@
 @ucun	𒳋
 @uage	1
 @sys	AP23 |E2~b.LISZ|
+@sys AP24 |E₂~b.LIŠ| 12CCB
 @@
 @end sign
 
@@ -4307,6 +4630,7 @@
 @ucun	𒳇
 @uage	1
 @sys	AP23 |E2~ax1(N58@t)|
+@sys AP24 |E₂~a×1(N58@t)| 12CC7
 @@
 @form |E₂~b×1(N58@t)|
 @oid o0900504
@@ -4320,6 +4644,7 @@
 @unote	correct name PROTO-CUNEIFORM SIGN E2-B TIMES ONE-N58 TENU
 @uage	1
 @sys	LLATU:207_02 E₂~b+AŠ~c
+@sys AP24 |E₂~b×1(N58@t)| 12CCA
 @sys	AP23 |E2~bx1(N57)@t|
 @@
 @end sign
@@ -4334,6 +4659,7 @@
 @ucun	𒳈
 @uage	1
 @sys	AP23 |E2~ax3(N58)|
+@sys AP24 |E₂~a×3(N58)| 12CC8
 @@
 @end sign
 
@@ -4351,6 +4677,7 @@
 @ucun	𒞮
 @uage	1
 @sys	AP23 E3~a
+@sys AP24 E₃~a 127AE
 @@
 @form E₃~b
 @oid o0900510
@@ -4359,6 +4686,7 @@
 @ucun	𒞯
 @uage	1
 @sys	AP23 E3~b
+@sys AP24 E₃~b 127AF
 @@
 @end sign
 
@@ -4370,6 +4698,7 @@
 @ucun	𒞰
 @uage	1
 @sys	LLATU:207_03 EDIN
+@sys AP24 EDIN 127B0
 @sys	AP23 EDIN
 @end sign
 
@@ -4387,6 +4716,7 @@
 @ucun	𒞱
 @uage	1
 @sys	LLATU:208_01 EN~a
+@sys AP24 EN~a 127B1
 @sys	AP23 EN~a
 @@
 @form	EN~a~v1
@@ -4396,6 +4726,7 @@
 @ucun	𒞲
 @uage	1
 @sys	AP23 EN~a
+@sys AP24 EN~a~v1 127B2
 @@
 @form	EN~a~v2
 @oid o0900515
@@ -4404,6 +4735,7 @@
 @ucun	𒞳
 @uage	1
 @sys	AP23 EN~a
+@sys AP24 EN~a~v2 127B3
 @@
 @form	EN~a~v3
 @oid o0900516
@@ -4413,6 +4745,7 @@
 @ucun	𒞴
 @uage	1
 @sys	AP23 EN~a
+@sys AP24 EN~a~v3 127B4
 @@
 @form EN~b
 @oid o0900517
@@ -4421,6 +4754,7 @@
 @ucun	𒞵
 @uage	1
 @sys	LLATU:210_01 EN~b
+@sys AP24 EN~b 127B5
 @sys	AP23 EN~b
 @@
 @form	EN~b~v1
@@ -4430,6 +4764,7 @@
 @ucun	𒞶
 @uage	1
 @sys	AP23 EN~b
+@sys AP24 EN~b~v1 127B6
 @@
 @form EN~c
 @oid o0900519
@@ -4438,6 +4773,7 @@
 @ucun	𒞸
 @uage	1
 @sys	AP23 EN~c
+@sys AP24 EN~c 127B8
 @@
 @form	EN~c~v1
 @oid o0900520
@@ -4446,6 +4782,7 @@
 @ucun	𒞹
 @uage	1
 @sys	AP23 EN~c
+@sys AP24 EN~c~v1 127B9
 @@
 @compoundonly EN~d
 @@
@@ -4456,6 +4793,7 @@
 @ucun	𒞺
 @uage	1
 @sys	AP23 EN~e
+@sys AP24 EN~e 127BA
 @@
 @end sign
 
@@ -4469,6 +4807,7 @@
 @ucun	𒳌
 @uage	1
 @sys	AP23 |EN~c&EN~c|
+@sys AP24 |EN~c&EN~c| 12CCC
 @@
 @end sign
 
@@ -4484,6 +4823,7 @@
 @ucun	𒞻
 @uage	1
 @sys	AP23 EN@g~a
+@sys AP24 EN@g~a 127BB
 @@
 @form EN@g~b
 @oid o0900526
@@ -4492,6 +4832,7 @@
 @ucun	𒞼
 @uage	1
 @sys	AP23 EN@g~b
+@sys AP24 EN@g~b 127BC
 @@
 @end sign
 
@@ -4505,6 +4846,7 @@
 @ucun	𒞷
 @uage	1
 @sys	AP23 EN~b@t
+@sys AP24 EN~b@t 127B7
 @@
 @end sign
 
@@ -4516,6 +4858,7 @@
 @ucun	𒞽
 @uage	1
 @sys	AP23 EN2
+@sys AP24 EN₂ 127BD
 @end sign
 
 @sign |EN₂.E₂|
@@ -4528,6 +4871,7 @@
 @ucun	𒳍
 @uage	1
 @sys	AP23 |EN2.E2~a|
+@sys AP24 |EN₂.E₂~a| 12CCD
 @@
 @form |EN₂.E₂~b|
 @oid o0900532
@@ -4537,6 +4881,7 @@
 @ucun	𒳎
 @uage	1
 @sys	AP23 |EN2.E2~b|
+@sys AP24 |EN₂.E₂~b| 12CCE
 @@
 @end sign
 
@@ -4548,6 +4893,7 @@
 @ucun	𒞾
 @uage	1
 @sys	LLATU:210_02 ENDIB
+@sys AP24 ENDIB 127BE
 @sys	AP23 ENDIB
 @end sign
 
@@ -4559,6 +4905,7 @@
 @ucun	𒞿
 @uage	1
 @sys	LLATU:210_03 ENGIZ
+@sys AP24 ENGIZ 127BF
 @sys	AP23 ENGIZ
 @end sign
 
@@ -4570,6 +4917,7 @@
 @ucun	𒟀
 @uage	1
 @sys	LLATU:210_04 ENKUM
+@sys AP24 ENKUM 127C0
 @sys	AP23 ENKUM
 @form ENKUM~v1
 @oid o0900536
@@ -4578,6 +4926,7 @@
 @ucun	𒟁
 @uage	1
 @sys	AP23 ENKUM
+@sys AP24 ENKUM~v1 127C1
 @@
 @end sign
 
@@ -4589,6 +4938,7 @@
 @ucun	𒟂
 @uage	1
 @sys	LLATU:210_05 ENLIL
+@sys AP24 ENLIL 127C2
 @sys	AP23 ENLIL
 @end sign
 
@@ -4608,6 +4958,7 @@
 @ucun	𒟅
 @uage	1
 @sys	LLATU:210_06 ERIM~a
+@sys AP24 ERIM~a 127C5
 @sys	ATFU-S ERIM~a
 @sys	AP23 ERIM~a
 @@
@@ -4618,6 +4969,7 @@
 @ucun	𒟆
 @uage	1
 @sys	AP23 ERIM~b1
+@sys AP24 ERIM~b1 127C6
 @@
 @form ERIM~b2
 @oid o0900543
@@ -4627,6 +4979,7 @@
 @ucun	𒟇
 @uage	1
 @sys	LLATU:210_07 ERIM~b
+@sys AP24 ERIM~b2 127C7
 @sys	AP23 ERIM~b2
 @@
 @end sign
@@ -4639,6 +4992,7 @@
 @ucun	𒟈
 @uage	1
 @sys	LLATU:210_08 ERIM₂
+@sys AP24 ERIM₂ 127C8
 @sys	AP23 ERIM2
 @end sign
 
@@ -4651,6 +5005,7 @@
 @ucun	𒟉
 @uage	1
 @sys	LLATU:211_01 ERIN
+@sys AP24 ERIN 127C9
 @sys	AP23 ERIN
 @end sign
 
@@ -4662,6 +5017,7 @@
 @ucun	𒟊
 @uage	1
 @sys	LLATU:211_02 EŠDA
+@sys AP24 EŠDA 127CA
 @sys	AP23 ESZDA
 @end sign
 
@@ -4674,6 +5030,7 @@
 @ucun	𒳏
 @uage	1
 @sys	AP23 |ESZDAxTAR|
+@sys AP24 |EŠDA×TAR~a| 12CCF
 @end sign
 
 @sign EŠGAR
@@ -4684,6 +5041,7 @@
 @ucun	𒟋
 @uage	1
 @sys	AP23 ESZGAR
+@sys AP24 EŠGAR 127CB
 @end sign
 
 @sign EZEN
@@ -4699,6 +5057,7 @@
 @ucun	𒟌
 @uage	1
 @sys	LLATU:211_03 EZEN~a
+@sys AP24 EZEN~a 127CC
 @sys	AP23 EZEN~a
 @@
 @form	EZEN~a~v1
@@ -4709,6 +5068,7 @@
 @ucun	𒟍
 @uage	1
 @sys	AP23 EZEN~a
+@sys AP24 EZEN~a~v1 127CD
 @@
 @form EZEN~b
 @oid o0900552
@@ -4718,6 +5078,7 @@
 @ucun	𒟎
 @uage	1
 @sys	LLATU:212_01 EZEN~b
+@sys AP24 EZEN~b 127CE
 @sys	AP23 EZEN~b
 @@
 @form EZEN~c
@@ -4728,6 +5089,7 @@
 @ucun	𒟐
 @uage	1
 @sys	AP23 EZEN~c
+@sys AP24 EZEN~c 127D0
 @@
 @end sign
 
@@ -4743,6 +5105,7 @@
 @ucun	𒳐
 @uage	1
 @sys	AP23 |EZEN~axEN~a|
+@sys AP24 |EZEN~a~v1×EN~a| 12CD0
 @@
 @form |EZEN~a×EN~b~v1|
 @oid o0900557
@@ -4752,6 +5115,7 @@
 @ucun	𒳑
 @uage	1
 @sys	AP23 |EZEN~axEN~b|
+@sys AP24 |EZEN~a×EN~b~v1| 12CD1
 @@
 @end sign
 
@@ -4766,6 +5130,7 @@
 @ucun	𒳒
 @uage	1
 @sys	AP23 |EZEN~ax(HI.1(N57).AN)|
+@sys AP24 |EZEN~a×(HI×1(N57).AN)| 12CD2
 @@
 @end sign
 
@@ -4780,6 +5145,7 @@
 @ucun	𒳓
 @uage	1
 @sys	AP23 |EZEN~axKAB|
+@sys AP24 |EZEN~a×KAB| 12CD3
 @@
 @end sign
 
@@ -4805,6 +5171,7 @@
 @ucun	𒳔
 @uage	1
 @sys	AP23 |EZEN~axKI|
+@sys AP24 |EZEN~a×KI| 12CD4
 @@
 @end sign
 
@@ -4818,6 +5185,7 @@
 @ucun	𒳖
 @uage	1
 @sys	AP23 |EZEN~axLA~e|
+@sys AP24 |EZEN~a×LA~e|~v1 12CD6
 @@
 @end sign
 
@@ -4833,6 +5201,7 @@
 @uname	PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57 VARIANT 1
 @uage	1
 @sys	LLATU:212_02 EZEN~b+6(N57)
+@sys AP24 |EZEN~b×6(N57)|~v1 12CE0
 @sys	AP23 |EZEN~bx6(N57)|
 @@
 @end sign
@@ -4848,6 +5217,7 @@
 @ucun	𒳗
 @uage	1
 @sys	AP23 |EZEN~axNIM~b2|
+@sys AP24 |EZEN~a×NIM~b2| 12CD7
 @@
 @end sign
 
@@ -4862,6 +5232,7 @@
 @ucun	𒳘
 @uage	1
 @sys	AP23 |EZEN~axNIMGIR|
+@sys AP24 |EZEN~a×NIMGIR| 12CD8
 @@
 @end sign
 
@@ -4876,6 +5247,7 @@
 @ucun	𒳙
 @uage	1
 @sys	AP23 |EZEN~axRAD~a|
+@sys AP24 |EZEN~a×RAD~a| 12CD9
 @@
 @end sign
 
@@ -4890,6 +5262,7 @@
 @ucun	𒳚
 @uage	1
 @sys	AP23 |EZEN~axSAG|
+@sys AP24 |EZEN~a×SAG~v1| 12CDA
 @@
 @end sign
 
@@ -4904,6 +5277,7 @@
 @ucun	𒳛
 @uage	1
 @sys	LLATU:211_04 EZEN~a+SU~a
+@sys AP24 |EZEN~a×SU~a| 12CDB
 @sys	AP23 |EZEN~axSU~a|
 @@
 @end sign
@@ -4919,6 +5293,7 @@
 @ucun	𒳜
 @uage	1
 @sys	AP23 |EZEN~ax(U2~b.A)|
+@sys AP24 |EZEN~a×(U₂~b.A)| 12CDC
 @@
 @end sign
 
@@ -4932,6 +5307,7 @@
 @ucun	𒳝
 @uage	1
 @sys	AP23 |EZEN~axU4|
+@sys AP24 |EZEN~a×U₄| 12CDD
 @@
 @end sign
 
@@ -4945,6 +5321,7 @@
 @ucun	𒳞
 @uage	1
 @sys	AP23 |EZEN~axX|
+@sys AP24 |EZEN~a×X| 12CDE
 @@
 @end sign
 
@@ -4972,6 +5349,7 @@
 @ucun	𒟏
 @uage	1
 @sys	AP23 EZEN~b@t
+@sys AP24 EZEN~b@t 127CF
 @@
 @end sign
 
@@ -4987,6 +5365,7 @@
 @ucun	𒟑
 @uage	1
 @sys	LLATU:212_03 EZINU~a
+@sys AP24 EZINU~a 127D1
 @sys	AP23 EZINU~a
 @@
 @form EZINU~b
@@ -4996,6 +5375,7 @@
 @ucun	𒟒
 @uage	1
 @sys	AP23 EZINU~b
+@sys AP24 EZINU~b 127D2
 @@
 @form EZINU~c
 @oid o0900596
@@ -5004,6 +5384,7 @@
 @ucun	𒟓
 @uage	1
 @sys	AP23 EZINU~c
+@sys AP24 EZINU~c 127D3
 @@
 @form EZINU~d
 @oid o0900597
@@ -5012,6 +5393,7 @@
 @ucun	𒟔
 @uage	1
 @sys	LLATU:212_04 EZINU~d
+@sys AP24 EZINU~d 127D4
 @sys	AP23 EZINU~d
 @@
 @end sign
@@ -5028,6 +5410,7 @@
 @ucun	𒟕
 @uage	1
 @sys	LLATU:212_05 GA~a
+@sys AP24 GA~a 127D5
 @sys	AP23 GA~a
 @@
 @form	GA~a~v1
@@ -5037,6 +5420,7 @@
 @ucun	𒟖
 @uage	1
 @sys	AP23 GA~a
+@sys AP24 GA~a~v1 127D6
 @@
 @form	GA~a~v2
 @oid o0900601
@@ -5045,6 +5429,7 @@
 @ucun	𒟗
 @uage	1
 @sys	AP23 GA~a
+@sys AP24 GA~a~v2 127D7
 @@
 @form	GA~a~v3
 @oid o0900602
@@ -5053,6 +5438,7 @@
 @ucun	𒟘
 @uage	1
 @sys	AP23 GA~a
+@sys AP24 GA~a~v3 127D8
 @@
 @form	GA~a~v4
 @oid o0900603
@@ -5062,6 +5448,7 @@
 @ucun	𒟙
 @uage	1
 @sys	AP23 GA~a
+@sys AP24 GA~a~v4 127D9
 @sys	ATFU-S GA
 @sys	ATFU-v ga
 @@
@@ -5073,6 +5460,7 @@
 @ucun	𒟚
 @uage	1
 @sys	LLATU:213_01 GA~b
+@sys AP24 GA~b 127DA
 @sys	AP23 GA~b
 @@
 @form GA~c
@@ -5082,6 +5470,7 @@
 @ucun	𒟛
 @uage	1
 @sys	LLATU:213_02 GA~c
+@sys AP24 GA~c 127DB
 @sys	AP23 GA~c
 @@
 @end sign
@@ -5098,6 +5487,7 @@
 @ucun	𒳢
 @uage	1
 @sys	AP23 |GA~a.ZATU753|
+@sys AP24 |GA~a~v1.ZATU753| 12CE2
 @@
 @form |GA~a~v4.ZATU753|~v1
 @oid o0900608
@@ -5107,6 +5497,7 @@
 @ucun	𒳣
 @uage	1
 @sys	AP23 |GA~a.ZATU753|
+@sys AP24 |GA~a~v4.ZATU753|~v1 12CE3
 @@
 @end sign
 
@@ -5120,6 +5511,7 @@
 @ucun	𒳥
 @uage	1
 @sys	AP23 |GA~cxKASKAL|
+@sys AP24 |GA~c×KASKAL| 12CE5
 @@
 @end sign
 
@@ -5134,6 +5526,7 @@
 @ucun	𒳤
 @uage	1
 @sys	LLATU:213_03 GA~c+1(N14)
+@sys AP24 |GA~c×1(N14)| 12CE4
 @sys	AP23 |GA~cx1(N14)|
 @@
 @end sign
@@ -5153,6 +5546,7 @@
 @ucun	𒟜
 @uage	1
 @sys	LLATU:213_04 GA₂~a1
+@sys AP24 GA₂~a1 127DC
 @sys	AP23 GA2~a1
 @@
 @form GA₂~a2
@@ -5162,6 +5556,7 @@
 @ucun	𒟝
 @uage	1
 @sys	AP23 GA2~a2
+@sys AP24 GA₂~a2 127DD
 @@
 @form GA₂~a3
 @oid o0900618
@@ -5170,6 +5565,7 @@
 @ucun	𒟞
 @uage	1
 @sys	LLATU:215_01 GA₂~a3
+@sys AP24 GA₂~a3 127DE
 @sys	AP23 GA2~a3
 @@
 @form GA₂~a4
@@ -5179,6 +5575,7 @@
 @ucun	𒟟
 @uage	1
 @sys	AP23 GA2~a4
+@sys AP24 GA₂~a4 127DF
 @@
 @form GA₂~b
 @oid o0900620
@@ -5187,6 +5584,7 @@
 @ucun	𒟠
 @uage	1
 @sys	LLATU:215_02 GA₂~b
+@sys AP24 GA₂~b 127E0
 @sys	AP23 GA2~b
 @@
 @form GA₂~c
@@ -5196,6 +5594,7 @@
 @ucun	𒟡
 @uage	1
 @sys	AP23 GA2~c
+@sys AP24 GA₂~c 127E1
 @@
 @end sign
 
@@ -5210,6 +5609,7 @@
 @ucun	𒳩
 @uage	1
 @sys	LLATU:213_05 GA₂~a1+A
+@sys AP24 |GA₂~a1×A| 12CE9
 @sys	AP23 |GA2~a1xA|
 @@
 @end sign
@@ -5226,6 +5626,7 @@
 @ucun	𒴐
 @uage	1
 @sys	LLATU:215_03 GA₂~b+DUB~a
+@sys AP24 |GA₂~b×DUB~a| 12D10
 @sys	AP23 |GA2~bxDUB~a|
 @@
 @form |GA₂~b×DUB~b~v2|
@@ -5236,6 +5637,7 @@
 @ucun	𒴑
 @uage	1
 @sys	AP23 |GA2~bxDUB~b|
+@sys AP24 |GA₂~b×DUB~b~v2| 12D11
 @@
 @end sign
 
@@ -5268,6 +5670,7 @@
 @ucun	𒳪
 @uage	1
 @sys	AP23 |GA2~a1xEN~b|
+@sys AP24 |GA₂~a1×EN~b~v1| 12CEA
 @@
 @end sign
 
@@ -5287,6 +5690,7 @@
 @ucun	𒳫
 @uage	1
 @sys	AP23 |GA2~a1xGESZTU~c3|
+@sys AP24 |GA₂~a1×GEŠTU~c3| 12CEB
 @@
 @form |GA₂~a1×GEŠTU~c5|
 @oid o0900635
@@ -5295,6 +5699,7 @@
 @ucun	𒳬
 @uage	1
 @sys	AP23 |GA2~a1xGESZTU~c5|
+@sys AP24 |GA₂~a1×GEŠTU~c5| 12CEC
 @@
 @end sign
 
@@ -5309,6 +5714,7 @@
 @ucun	𒳭
 @uage	1
 @sys	AP23 |GA2~a1xGIR~a|
+@sys AP24 |GA₂~a1×GIR~a| 12CED
 @@
 @end sign
 
@@ -5322,6 +5728,7 @@
 @ucun	𒳮
 @uage	1
 @sys	AP23 |GA2~a1x(GIR~a.KU6~a)|
+@sys AP24 |GA₂~a1×(GIR~a.KU₆~a)| 12CEE
 @@
 @end sign
 
@@ -5336,6 +5743,7 @@
 @ucun	𒳯
 @uage	1
 @sys	LLATU:214_01 GA₂~a1+GIŠ@t
+@sys AP24 |GA₂~a1×GIŠ@t| 12CEF
 @sys	AP23 |GA2~a1xGISZ@t|
 @@
 @end sign
@@ -5350,6 +5758,7 @@
 @ucun	𒴈
 @uage	1
 @sys	AP23 |GA2~a2xGU4|
+@sys AP24 |GA₂~a2×GU₄| 12D08
 @@
 @end sign
 
@@ -5365,6 +5774,7 @@
 @ucun	𒴉
 @uage	1
 @sys	AP23 |GA2~a2x(GU4.SZE3)|
+@sys AP24 |GA₂~a2×(ŠE₃~v1.GU₄)| 12D09
 @@
 @end sign
 
@@ -5378,6 +5788,7 @@
 @ucun	𒳱
 @uage	1
 @sys	LLATU:214_02 GA₂~a1+HAL
+@sys AP24 |GA₂~a1×HAL| 12CF1
 @sys	AP23 |GA2~a1xHAL|
 @@
 @end sign
@@ -5394,6 +5805,7 @@
 @ucun	𒳲
 @uage	1
 @sys	LLATU:214_03 GA₂~a1+HI
+@sys AP24 |GA₂~a1×HI| 12CF2
 @sys	AP23 |GA2~a1xHI|
 @@
 @end sign
@@ -5409,6 +5821,7 @@
 @ucun	𒳳
 @uage	1
 @sys	AP23 |GA2~a1x(HI.SUHUR)|
+@sys AP24 |GA₂~a1×(HI.SUHUR~v1)| 12CF3
 @@
 @end sign
 
@@ -5423,6 +5836,7 @@
 @ucun	𒳴
 @uage	1
 @sys	LLATU:214_04 GA₂~a1+KU₃~a
+@sys AP24 |GA₂~a1×KU₃~a| 12CF4
 @sys	AP23 |GA2~a1xKU3~a|
 @@
 @form |GA₂~b×KU₃~a|
@@ -5432,6 +5846,7 @@
 @ucun	𒴒
 @uage	1
 @sys	AP23 |GA2~bxKU3~a|
+@sys AP24 |GA₂~b×KU₃~a| 12D12
 @@
 @end sign
 
@@ -5447,6 +5862,7 @@
 @ucun	𒳵
 @uage	1
 @sys	LLATU:214_05 GA₂~a1+KU₆~a
+@sys AP24 |GA₂~a1×KU₆~a| 12CF5
 @sys	AP23 |GA2~a1xKU6~a|
 @@
 @form |GA₂~b×KU₆~a|
@@ -5468,6 +5884,7 @@
 @ucun	𒳶
 @uage	1
 @sys	AP23 |GA2~a1x(KU6~a.KU6~a)|
+@sys AP24 |GA₂~a1×(KU₆~a.KU₆~a)| 12CF6
 @@
 @end sign
 
@@ -5481,6 +5898,7 @@
 @ucun	𒳷
 @uage	1
 @sys	AP23 |GA2~a1xLAGAB~b|
+@sys AP24 |GA₂~a1×LAGAB~b| 12CF7
 @@
 @end sign
 
@@ -5495,6 +5913,7 @@
 @ucun	𒳸
 @uage	1
 @sys	LLATU:214_06 GA₂~a1+MAŠ
+@sys AP24 |GA₂~a1×MAŠ| 12CF8
 @sys	AP23 |GA2~a1xMASZ|
 @@
 @end sign
@@ -5510,6 +5929,7 @@
 @ucun	𒳦
 @uage	1
 @sys	AP23 |GA2~a1x1(N14)|
+@sys AP24 |GA₂~a1×1(N14)| 12CE6
 @@
 @end sign
 
@@ -5524,6 +5944,7 @@
 @ucun	𒳧
 @uage	1
 @sys	AP23 |GA2~a1x1(N57)|
+@sys AP24 |GA₂~a1×1(N57)| 12CE7
 @@
 @end sign
 
@@ -5539,6 +5960,7 @@
 @ucun	𒳨
 @uage	1
 @sys	AP23 |GA2~a1x3(N57)|
+@sys AP24 |GA₂~a1×3(N57)| 12CE8
 @@
 @form |GA₂~a2×3(N57)|
 @oid o0900671
@@ -5571,6 +5993,7 @@
 @ucun	𒳹
 @uage	1
 @sys	AP23 |GA2~a1xNAGA~a|
+@sys AP24 |GA₂~a1×NAGA~a| 12CF9
 @@
 @end sign
 
@@ -5585,6 +6008,7 @@
 @ucun	𒴊
 @uage	1
 @sys	AP23 |GA2~a2xNI~a|
+@sys AP24 |GA₂~a2×NI~a| 12D0A
 @@
 @form |GA₂~a2×NI~b|
 @oid o0900678
@@ -5593,6 +6017,7 @@
 @ucun	𒴋
 @uage	1
 @sys	AP23 |GA2~a2xNI~b|
+@sys AP24 |GA₂~a2×NI~b| 12D0B
 @@
 @end sign
 
@@ -5608,6 +6033,7 @@
 @ucun	𒳺
 @uage	1
 @sys	AP23 |GA2~a1xNIM~b1|
+@sys AP24 |GA₂~a1×NIM~b1| 12CFA
 @@
 @end sign
 
@@ -5632,6 +6058,7 @@
 @ucun	𒳼
 @uage	1
 @sys	AP23 |GA2~a1xPAD~b|
+@sys AP24 |GA₂~a1×PAD~b| 12CFC
 @@
 @end sign
 
@@ -5645,6 +6072,7 @@
 @ucun	𒳽
 @uage	1
 @sys	LLATU:214_07 GA₂~a1+PAP~a
+@sys AP24 |GA₂~a1×PAP~a| 12CFD
 @sys	AP23 |GA2~a1xPAP~a|
 @@
 @end sign
@@ -5659,6 +6087,7 @@
 @ucun	𒳿
 @uage	1
 @sys	AP23 |GA2~a1xSU~a|
+@sys AP24 |GA₂~a1×SU~a| 12CFF
 @@
 @end sign
 
@@ -5674,6 +6103,7 @@
 @ucun	𒴀
 @uage	1
 @sys	LLATU:214_08 GA₂~a1+SUHUR
+@sys AP24 |GA₂~a1×SUHUR| 12D00
 @sys	AP23 |GA2~a1xSUHUR|
 @@
 @form |GA₂~a2×SUHUR|
@@ -5683,6 +6113,7 @@
 @ucun	𒴍
 @uage	1
 @sys	AP23 |GA2~a2xSUHUR|
+@sys AP24 |GA₂~a2×SUHUR| 12D0D
 @@
 @end sign
 
@@ -5697,6 +6128,7 @@
 @ucun	𒴁
 @uage	1
 @sys	AP23 |GA2~a1xSUKUD|
+@sys AP24 |GA₂~a1×SUKUD| 12D01
 @@
 @end sign
 
@@ -5712,6 +6144,7 @@
 @ucun	𒴂
 @uage	1
 @sys	AP23 |GA2~a1x((SUKUD+SUKUD)~a)|
+@sys AP24 |GA₂~a1×((SUKUD+SUKUD)~a)| 12D02
 @@
 @form |GA₂~a1×((SUKUD+SUKUD)~b)|
 @oid o0900697
@@ -5722,6 +6155,7 @@
 @ucun	𒴃
 @uage	1
 @sys	AP23 |GA2~a1x((SUKUD+SUKUD)~b)|
+@sys AP24 |GA₂~a1×((SUKUD+SUKUD)~b)| 12D03
 @@
 @end sign
 
@@ -5736,6 +6170,7 @@
 @ucun	𒴄
 @uage	1
 @sys	AP23 |GA2~a1xSUMASZ|
+@sys AP24 |GA₂~a1×SUMAŠ| 12D04
 @@
 @end sign
 
@@ -5749,6 +6184,7 @@
 @ucun	𒳾
 @uage	1
 @sys	AP23 |GA2~a1xSZA|
+@sys AP24 |GA₂~a1×ŠA| 12CFE
 @@
 @end sign
 
@@ -5763,6 +6199,7 @@
 @ucun	𒴌
 @uage	1
 @sys	AP23 |GA2~a2xSZE3|
+@sys AP24 |GA₂~a2×ŠE₃~v1| 12D0C
 @@
 @end sign
 
@@ -5776,6 +6213,7 @@
 @ucun	𒴅
 @uage	1
 @sys	LLATU:214_09 GA₂~a1+TI~a
+@sys AP24 |GA₂~a1×TI| 12D05
 @sys	AP23 |GA2~a1xTI|
 @@
 @end sign
@@ -5791,6 +6229,7 @@
 @ucun	𒴆
 @uage	1
 @sys	LLATU:214_10 GA₂~a1+U₄
+@sys AP24 |GA₂~a1×U₄| 12D06
 @sys	AP23 |GA2~a1xU4|
 @@
 @end sign
@@ -5805,6 +6244,7 @@
 @ucun	𒴇
 @uage	1
 @sys	LLATU:214_11 GA₂~a1+?
+@sys AP24 |GA₂~a1×X| 12D07
 @sys	AP23 |GA2~a1xX|
 @@
 @form |GA₂~a1×X|~v1
@@ -5821,6 +6261,7 @@
 @ucun	𒴎
 @uage	1
 @sys	AP23 |GA2~a2xX|
+@sys AP24 |GA₂~a2×X| 12D0E
 @@
 @form |GA₂~a3×X|
 @oid o0900712
@@ -5829,6 +6270,7 @@
 @ucun	𒴏
 @uage	1
 @sys	AP23 |GA2~a3xX|
+@sys AP24 |GA₂~a3×X| 12D0F
 @@
 @form |GA₂~b×X|
 @oid o0900713
@@ -5847,6 +6289,7 @@
 @ucun	𒴓
 @uage	1
 @sys	AP23 |GA2~bxZATU659|
+@sys AP24 |GA₂~b×ZATU659| 12D13
 @@
 @end sign
 
@@ -5872,6 +6315,7 @@
 @ucun	𒟢
 @uage	1
 @sys	LLATU:215_04 GAʾAR~a1
+@sys AP24 GAʾAR~a1 127E2
 @sys	AP23 GA'AR~a1
 @@
 @form GAʾAR~a2
@@ -5881,6 +6325,7 @@
 @ucun	𒟣
 @uage	1
 @sys	AP23 GA'AR~a2
+@sys AP24 GAʾAR~a2 127E3
 @@
 @form GAʾAR~b1
 @oid o0900721
@@ -5889,6 +6334,7 @@
 @ucun	𒟤
 @uage	1
 @sys	LLATU:215_05 GAʾAR~b1
+@sys AP24 GAʾAR~b1 127E4
 @sys	AP23 GA'AR~b1
 @@
 @form GAʾAR~b2
@@ -5898,6 +6344,7 @@
 @ucun	𒟥
 @uage	1
 @sys	AP23 GA'AR~b2
+@sys AP24 GAʾAR~b2 127E5
 @@
 @end sign
 
@@ -5915,6 +6362,7 @@
 @ucun	𒟦
 @uage	1
 @sys	LLATU:216_01 GADA~a
+@sys AP24 GADA~a 127E6
 @sys	AP23 GADA~a
 @@
 @form GADA~b
@@ -5924,6 +6372,7 @@
 @ucun	𒟧
 @uage	1
 @sys	AP23 GADA~b
+@sys AP24 GADA~b 127E7
 @@
 @end sign
 
@@ -5938,6 +6387,7 @@
 @ucun	𒟨
 @uage	1
 @sys	AP23 GADA~b@g
+@sys AP24 GADA~b@g 127E8
 @@
 @end sign
 
@@ -5956,6 +6406,7 @@
 @ucun	𒟩
 @uage	1
 @sys	LLATU:216_02 GAL~a
+@sys AP24 GAL~a 127E9
 @sys	AP23 GAL~a
 @@
 @form GAL~b
@@ -5965,6 +6416,7 @@
 @ucun	𒟪
 @uage	1
 @sys	LLATU:223_01 GAL~b
+@sys AP24 GAL~b 127EA
 @sys	AP23 GAL~b
 @@
 @end sign
@@ -5982,6 +6434,7 @@
 @ucun	𒟫
 @uage	1
 @sys	LLATU:223_02 GALGA~a
+@sys AP24 GALGA~a 127EB
 @sys	AP23 GALGA~a
 @@
 @form GALGA~b
@@ -5991,6 +6444,7 @@
 @ucun	𒟬
 @uage	1
 @sys	AP23 GALGA~b
+@sys AP24 GALGA~b 127EC
 @@
 @end sign
 
@@ -6008,6 +6462,7 @@
 @ucun	𒟭
 @uage	1
 @sys	LLATU:224_01 GAN~a
+@sys AP24 GAN~a 127ED
 @sys	AP23 GAN~a
 @@
 @form	GAN~a~v1
@@ -6017,6 +6472,7 @@
 @ucun	𒟮
 @uage	1
 @sys	AP23 GAN~a
+@sys AP24 GAN~a~v1 127EE
 @@
 @form GAN~b
 @oid o0900738
@@ -6025,6 +6481,7 @@
 @ucun	𒟯
 @uage	1
 @sys	LLATU:224_02 GAN~b
+@sys AP24 GAN~b 127EF
 @sys	AP23 GAN~b
 @@
 @form	GAN~b~v1
@@ -6034,6 +6491,7 @@
 @ucun	𒟰
 @uage	1
 @sys	AP23 GAN~b
+@sys AP24 GAN~b~v1 127F0
 @@
 @form	GAN~b~v2
 @oid o0900740
@@ -6042,6 +6500,7 @@
 @ucun	𒟱
 @uage	1
 @sys	AP23 GAN~b
+@sys AP24 GAN~b~v2 127F1
 @@
 @form	GAN~b~v3
 @oid o0900741
@@ -6050,6 +6509,7 @@
 @ucun	𒟲
 @uage	1
 @sys	AP23 GAN~b
+@sys AP24 GAN~b~v3 127F2
 @@
 @form GAN~c
 @oid o0900742
@@ -6058,6 +6518,7 @@
 @ucun	𒟳
 @uage	1
 @sys	LLATU:224_04 GAN~c
+@sys AP24 GAN~c 127F3
 @sys	AP23 GAN~c
 @@
 @form	GAN~c~v1
@@ -6067,6 +6528,7 @@
 @ucun	𒟴
 @uage	1
 @sys	AP23 GAN~c
+@sys AP24 GAN~c~v1 127F4
 @compoundonly GAN~c~v2
 @@
 @compoundonly GAN~d
@@ -6088,6 +6550,7 @@
 @ucun	𒴔
 @uage	1
 @sys	AP23 |GAN~cxDIN|
+@sys AP24 |GAN~c×DIN| 12D14
 @@
 @end sign
 
@@ -6102,6 +6565,7 @@
 @ucun	𒴠
 @uage	1
 @sys	AP23 |GAN~dxGESZTU~a|
+@sys AP24 |GAN~d×GEŠTU~a~v2| 12D20
 @@
 @end sign
 
@@ -6115,6 +6579,7 @@
 @ucun	𒴕
 @uage	1
 @sys	AP23 |GAN~cxHI|
+@sys AP24 |GAN~c×HI| 12D15
 @@
 @end sign
 
@@ -6129,6 +6594,7 @@
 @ucun	𒴖
 @uage	1
 @sys	AP23 |GAN~cx(HI.DIN)|
+@sys AP24 |GAN~c×(HI.DIN)| 12D16
 @@
 @end sign
 
@@ -6143,6 +6609,7 @@
 @ucun	𒴗
 @uage	1
 @sys	AP23 |GAN~cxKASZ~c|
+@sys AP24 |GAN~c~v1×KAŠ~c| 12D17
 @@
 @end sign
 
@@ -6157,6 +6624,7 @@
 @ucun	𒴘
 @uage	1
 @sys	AP23 |GAN~cx(KUR~a.A)|
+@sys AP24 |GAN~c~v1×(KUR~a.A)| 12D18
 @@
 @end sign
 
@@ -6171,6 +6639,7 @@
 @ucun	𒴙
 @uage	1
 @sys	AP23 |GAN~cxLAGAB~b|
+@sys AP24 |GAN~c×LAGAB~b| 12D19
 @@
 @end sign
 
@@ -6197,6 +6666,7 @@
 @ucun	𒴚
 @uage	1
 @sys	AP23 |GAN~cxNE~a|
+@sys AP24 |GAN~c×NE~a| 12D1A
 @@
 @end sign
 
@@ -6210,6 +6680,7 @@
 @ucun	𒴝
 @uage	1
 @sys	AP23 |GAN~cxSIG7|
+@sys AP24 |GAN~c×SIG₇| 12D1D
 @@
 @end sign
 
@@ -6225,6 +6696,7 @@
 @ucun	𒴛
 @uage	1
 @sys	AP23 |GAN~cxSZE~a|
+@sys AP24 |GAN~c~v2×ŠE~a| 12D1B
 @@
 @end sign
 
@@ -6240,6 +6712,7 @@
 @ucun	𒴜
 @uage	1
 @sys	AP23 |GAN~cxSZE3@t|
+@sys AP24 |GAN~c~v2×ŠE₃@t~v1| 12D1C
 @@
 @end sign
 
@@ -6253,6 +6726,7 @@
 @ucun	𒴞
 @uage	1
 @sys	AP23 |GAN~cxX|
+@sys AP24 |GAN~c×X| 12D1E
 @@
 @end sign
 
@@ -6267,6 +6741,7 @@
 @ucun	𒴟
 @uage	1
 @sys	AP23 |GAN~cxZATU777|
+@sys AP24 |GAN~c~v1×ZATU777~v1| 12D1F
 @@
 @end sign
 
@@ -6280,6 +6755,7 @@
 @ucun	𒟶
 @uage	1
 @sys	LLATU:224_05 GAN₂
+@sys AP24 GAN₂ 127F6
 @sys	ATFU-S GAN₂
 @sys	AP23 GAN2
 @end sign
@@ -6293,6 +6769,7 @@
 @ucun	𒟷
 @uage	1
 @sys	LLATU:225_01 GAR
+@sys AP24 GAR 127F7
 @sys	ATFU-S GAR
 @sys	ATFU-v ninda
 @sys	AP23 GAR
@@ -6310,6 +6787,7 @@
 @ucun	𒟸
 @uage	1
 @sys	AP23 GAR@g~a
+@sys AP24 GAR@g~a 127F8
 @@
 @form GAR@g~b
 @oid o0900782
@@ -6318,6 +6796,7 @@
 @ucun	𒟹
 @uage	1
 @sys	LLATU:225_02 GAR@g~b
+@sys AP24 GAR@g~b 127F9
 @sys	AP23 GAR@g~b
 @@
 @form GAR@g~c
@@ -6327,6 +6806,7 @@
 @ucun	𒟺
 @uage	1
 @sys	LLATU:225_03 GAR@g~c
+@sys AP24 GAR@g~c 127FA
 @sys	AP23 GAR@g~c
 @@
 @end sign
@@ -6340,6 +6820,7 @@
 @ucun	𒟻
 @uage	1
 @sys	ATFU-S GAR₃
+@sys AP24 GAR₃ 127FB
 @sys	ATFU-v gar₃
 @sys	AP23 GAR3
 @end sign
@@ -6357,6 +6838,7 @@
 @ucun	𒟼
 @uage	1
 @sys	LLATU:225_04 GARA₂~a
+@sys AP24 GARA₂~a 127FC
 @sys	AP23 GARA2~a
 @@
 @form GARA₂~b
@@ -6366,6 +6848,7 @@
 @ucun	𒟽
 @uage	1
 @sys	AP23 GARA2~b
+@sys AP24 GARA₂~b 127FD
 @@
 @end sign
 
@@ -6377,6 +6860,7 @@
 @ucun	𒟾
 @uage	1
 @sys	LLATU:226_02 GAZI
+@sys AP24 GAZI 127FE
 @sys	AP23 GAZI
 @end sign
 
@@ -6394,6 +6878,7 @@
 @ucun	𒟿
 @uage	1
 @sys	LLATU:226_03 GEŠTIN~a
+@sys AP24 GEŠTIN~a 127FF
 @sys	AP23 GESZTIN~a
 @@
 @form GEŠTIN~d
@@ -6424,6 +6909,7 @@
 @ucun	𒠁
 @uage	1
 @sys	LLATU:226_04 GEŠTU~a
+@sys AP24 GEŠTU~a 12801
 @sys	AP23 GESZTU~a
 @@
 @form	GEŠTU~a~v1
@@ -6433,6 +6919,7 @@
 @ucun	𒠂
 @uage	1
 @sys	AP23 GESZTU~a
+@sys AP24 GEŠTU~a~v1 12802
 @@
 @form	GEŠTU~a~v2
 @oid o0900799
@@ -6441,6 +6928,7 @@
 @ucun	𒠃
 @uage	1
 @sys	AP23 GESZTU~a
+@sys AP24 GEŠTU~a~v2 12803
 @@
 @form GEŠTU~b
 @oid o0900800
@@ -6449,6 +6937,7 @@
 @ucun	𒠄
 @uage	1
 @sys	LLATU:226_05 GEŠTU~b
+@sys AP24 GEŠTU~b 12804
 @sys	AP23 GESZTU~b
 @@
 @compoundonly GEŠTU~c
@@ -6460,6 +6949,7 @@
 @ucun	𒠅
 @uage	1
 @sys	AP23 GESZTU~c3
+@sys AP24 GEŠTU~c3 12805
 @@
 @form	GEŠTU~c3~v1
 @oid o0900802
@@ -6468,6 +6958,7 @@
 @ucun	𒠆
 @uage	1
 @sys	AP23 GESZTU~c3
+@sys AP24 GEŠTU~c3~v1 12806
 @@
 @form GEŠTU~c5
 @oid o0900803
@@ -6476,6 +6967,7 @@
 @ucun	𒠇
 @uage	1
 @sys	AP23 GESZTU~c5
+@sys AP24 GEŠTU~c5 12807
 @@
 @end sign
 
@@ -6488,10 +6980,12 @@
 @ucun	𒠈
 @uage	1
 @sys	AP23 GI
+@sys AP24 GI 12808
 @form GI~v1
 @oid o0900807
 @list	BAU255
 @sys	LLATU:226_06 GI
+@sys AP24 GI~v1 12809
 @sys	ATFU-S GI
 @sys	ATFU-v gi
 @uname	PROTO-CUNEIFORM SIGN GI VARIANT 1
@@ -6520,6 +7014,7 @@
 @ucun	𒴫
 @uage	1
 @sys	AP23 |GIxGISZ@t|
+@sys AP24 |GI~v1×GIŠ@t| 12D2B
 @end sign
 
 @sign |GI×KU|
@@ -6532,6 +7027,7 @@
 @ucun	𒴬
 @uage	1
 @sys	AP23 |GIxKU~b1|
+@sys AP24 |GI×KU~b1| 12D2C
 @@
 @end sign
 
@@ -6547,6 +7043,7 @@
 @ucun	𒴭
 @uage	1
 @sys	AP23 |GIxLAGAB~a|
+@sys AP24 |GI~v1×LAGAB~a| 12D2D
 @@
 @end sign
 
@@ -6559,6 +7056,7 @@
 @ucun	𒴤
 @uage	1
 @sys	AP23 |GIx1(N14)|
+@sys AP24 |GI~v1×1(N14)| 12D24
 @end sign
 
 @sign |GI×1(N58@t)|
@@ -6569,6 +7067,7 @@
 @ucun	𒴥
 @uage	1
 @sys	AP23 |GIx1(N58)@t|
+@sys AP24 |GI×1(N58@t)| 12D25
 @end sign
 
 @sign |GI×NAM₂|
@@ -6579,6 +7078,7 @@
 @ucun	𒴮
 @uage	1
 @sys	AP23 |GIxNAM2|
+@sys AP24 |GI×NAM₂| 12D2E
 @end sign
 
 @sign |GI×SIG₂|
@@ -6592,6 +7092,7 @@
 @ucun	𒴰
 @uage	1
 @sys	AP23 |GIxSIG2~d1|
+@sys AP24 |GI×SIG₂~d1| 12D30
 @@
 @end sign
 
@@ -6603,6 +7104,7 @@
 @ucun	𒴯
 @uage	1
 @sys	LLATU:228_01 GI+ŠE₃
+@sys AP24 |GI×ŠE₃~v1| 12D2F
 @sys	AP23 |GIxSZE3|
 @end sign
 
@@ -6613,6 +7115,7 @@
 @ucun	𒴱
 @uage	1
 @sys	AP23 |GIxX|
+@sys AP24 |GI×X| 12D31
 @end sign
 
 @sign |GI&GI|
@@ -6623,6 +7126,7 @@
 @ucun	𒴦
 @uage	1
 @sys	LLATU:227_01 GI+GI
+@sys AP24 |GI&GI| 12D26
 @sys	AP23 |GI&GI|
 @end sign
 
@@ -6633,6 +7137,7 @@
 @ucun	𒴨
 @uage	1
 @sys	AP23 |(GI&GI)xGISZ@t|
+@sys AP24 |(GI&GI)×GIŠ@t| 12D28
 @end sign
 
 @sign |(GI&GI)×ŠE₃~v1|
@@ -6644,6 +7149,7 @@
 @ucun	𒴩
 @uage	1
 @sys	AP23 |(GI+&GI)xSZE3|
+@sys AP24 |(GI&GI)×ŠE₃~v1| 12D29
 @end sign
 
 @sign |(GI&GI)×X|
@@ -6653,6 +7159,7 @@
 @ucun	𒴪
 @uage	1
 @sys	AP23 |(GI&GI)xX|
+@sys AP24 |(GI&GI)×X| 12D2A
 @end sign
 
 @sign |GI~v1&GI~v1&GI~v1|
@@ -6663,6 +7170,7 @@
 @ucun	𒴧
 @uage	1
 @sys	AP23 |GI&GI&GI|
+@sys AP24 |GI~v1&GI~v1&GI~v1| 12D27
 @end sign
 
 @sign GI@t
@@ -6672,6 +7180,7 @@
 @ucun	𒠊
 @uage	1
 @sys	AP23 GI@t
+@sys AP24 GI@t 1280A
 @end sign
 
 @sign GI₄
@@ -6687,6 +7196,7 @@
 @ucun	𒠋
 @uage	1
 @sys	LLATU:228_02 GI₄~a
+@sys AP24 GI₄~a 1280B
 @sys	AP23 GI4~a
 @@
 @form GI₄~b
@@ -6699,6 +7209,7 @@
 @ucun	𒠌
 @uage	1
 @sys	ATFU-S GI₄~b
+@sys AP24 GI₄~b 1280C
 @sys	ATFU-v gi₄
 @sys	AP23 GI4~b
 @@
@@ -6714,6 +7225,7 @@
 @ucun	𒴲
 @uage	1
 @sys	AP23 |GI4~axA|
+@sys AP24 |GI₄~a×A| 12D32
 @@
 @end sign
 
@@ -6727,6 +7239,7 @@
 @ucun	𒴳
 @uage	1
 @sys	AP23 |GI4~a&GI4~a|
+@sys AP24 |GI₄~a&GI₄~a| 12D33
 @@
 @form |GI₄~b&GI₄~b|
 @oid o0900835
@@ -6735,6 +7248,7 @@
 @ucun	𒴴
 @uage	1
 @sys	AP23 |GI4~b&GI4~b|
+@sys AP24 |GI₄~b&GI₄~b| 12D34
 @@
 @end sign
 
@@ -6747,6 +7261,7 @@
 @ucun	𒠍
 @uage	1
 @sys	LLATU:228_03 GI₆
+@sys AP24 GI₆ 1280D
 @sys	ATFU-S GI₆
 @sys	ATFU-v ŋi₆?
 @sys	AP23 GI6
@@ -6758,6 +7273,7 @@
 @ucun	𒠎
 @uage	1
 @sys	AP23 GI6
+@sys AP24 GI₆~v1 1280E
 @@
 @end sign
 
@@ -6773,6 +7289,7 @@
 @ucun	𒠏
 @uage	1
 @sys	ATFU-S GIBIL
+@sys AP24 GIBIL 1280F
 @sys	ATFU-v gibil
 @sys	AP23 GIBIL
 @end sign
@@ -6784,6 +7301,7 @@
 @ucun	𒠐
 @uage	1
 @sys	AP23 GIBIL@t
+@sys AP24 GIBIL@t 12810
 @end sign
 
 @sign GIBIL₆
@@ -6794,6 +7312,7 @@
 @ucun	𒠑
 @uage	1
 @sys	LLATU:228_04 GIBIL₆
+@sys AP24 GIBIL₆ 12811
 @sys	AP23 GIBIL6
 @end sign
 
@@ -6812,6 +7331,7 @@
 @ucun	𒠔
 @uage	1
 @sys	LLATU:228_05 GIR~a
+@sys AP24 GIR~a 12814
 @sys	AP23 GIR~a
 @@
 @form GIR~b
@@ -6821,6 +7341,7 @@
 @ucun	𒠕
 @uage	1
 @sys	LLATU:228_06 GIR~b
+@sys AP24 GIR~b 12815
 @sys	AP23 GIR~b
 @@
 @form	GIR~b~v1
@@ -6830,6 +7351,7 @@
 @ucun	𒠖
 @uage	1
 @sys	AP23 GIR~b
+@sys AP24 GIR~b~v1 12816
 @@
 @form GIR~c
 @oid o0900848
@@ -6838,6 +7360,7 @@
 @ucun	𒠗
 @uage	1
 @sys	LLATU:229_02 GIR~c
+@sys AP24 GIR~c 12817
 @sys	AP23 GIR~c
 @@
 @form GIR~d
@@ -6847,6 +7370,7 @@
 @ucun	𒠘
 @uage	1
 @sys	AP23 GIR~d
+@sys AP24 GIR~d 12818
 @@
 @end sign
 
@@ -6861,6 +7385,7 @@
 @ucun	𒴶
 @uage	1
 @sys	LLATU:229_01 GIR~b+GIR~b
+@sys AP24 |GIR~b~v1.GIR~b~v1| 12D36
 @sys	AP23 |GIR~b.GIR~b|
 @@
 @end sign
@@ -6875,6 +7400,7 @@
 @ucun	𒴵
 @uage	1
 @sys	AP23 |GIR~a.KU6~a|
+@sys AP24 |GIR~a.KU₆~a| 12D35
 @@
 @end sign
 
@@ -6893,6 +7419,7 @@
 @ucun	𒠙
 @uage	1
 @sys	LLATU:229_03 GIR₂~a
+@sys AP24 GIR₂~a 12819
 @sys	ATFU-S GIR₂~a
 @sys	ATFU-v ul₄ kiši₁₇ ad₂?
 @sys	ATFU-S GIR₂~a
@@ -6908,6 +7435,7 @@
 @ucun	𒠚
 @uage	1
 @sys	AP23 GIR2~b
+@sys AP24 GIR₂~b 1281A
 @@
 @end sign
 
@@ -6922,6 +7450,7 @@
 @ucun	𒠛
 @uage	1
 @sys	LLATU:229_04 GIR₃~a
+@sys AP24 GIR₃~a 1281B
 @sys	AP23 GIR3~a
 @@
 @form GIR₃~b
@@ -6931,6 +7460,7 @@
 @ucun	𒠜
 @uage	1
 @sys	AP23 GIR3~b
+@sys AP24 GIR₃~b 1281C
 @@
 @form GIR₃~c
 @oid o0900860
@@ -6939,6 +7469,7 @@
 @ucun	𒠝
 @uage	1
 @sys	LLATU:230_01 GIR₃~c
+@sys AP24 GIR₃~c 1281D
 @sys	AP23 GIR3~c
 @@
 @end sign
@@ -6955,6 +7486,7 @@
 @ucun	𒴸
 @uage	1
 @sys	ATFU-S |GIR₃~c×KAR₂|
+@sys AP24 |GIR₃~c×KAR₂~b| 12D38
 @sys	ATFU-v giri₁₆
 @sys	AP23 |GIR3~cxKAR2|
 @@
@@ -6971,6 +7503,7 @@
 @ucun	𒴷
 @uage	1
 @sys	AP23 |GIR3~axSZE~b|
+@sys AP24 |GIR₃~a×ŠE~b| 12D37
 @@
 @end sign
 
@@ -6985,6 +7518,7 @@
 @ucun	𒴹
 @uage	1
 @sys	LLATU:230_02 GIR₃~c+ŠE₃
+@sys AP24 |GIR₃~c×ŠE₃~v1| 12D39
 @sys	AP23 |GIR3~cxSZE3|
 @@
 @end sign
@@ -7002,6 +7536,7 @@
 @ucun	𒠞
 @uage	1
 @sys	LLATU:230_03 GIR₃@g~a
+@sys AP24 GIR₃@g~a 1281E
 @sys	AP23 GIR3@g~a
 @@
 @form GIR₃@g~b
@@ -7011,6 +7546,7 @@
 @ucun	𒠟
 @uage	1
 @sys	AP23 GIR3@g~b
+@sys AP24 GIR₃@g~b 1281F
 @@
 @form GIR₃@g~c
 @oid o0900871
@@ -7020,6 +7556,7 @@
 @ucun	𒠠
 @uage	1
 @sys	AP23 GIR3@g~c
+@sys AP24 GIR₃@g~c 12820
 @@
 @end sign
 
@@ -7035,6 +7572,7 @@
 @ucun	𒠢
 @uage	1
 @sys	AP23 GISAL~a
+@sys AP24 GISAL~a 12822
 @@
 @form GISAL~b
 @oid o0900874
@@ -7043,6 +7581,7 @@
 @ucun	𒠣
 @uage	1
 @sys	AP23 GISAL~b
+@sys AP24 GISAL~b 12823
 @@
 @end sign
 
@@ -7055,6 +7594,7 @@
 @ucun	𒠤
 @uage	1
 @sys	LLATU:230_04 GIŠ
+@sys AP24 GIŠ 12824
 @sys	ATFU-S GIŠ
 @sys	AP23 GISZ
 @end sign
@@ -7067,6 +7607,7 @@
 @ucun	𒴿
 @uage	1
 @sys	AP23 |GISZ.TE|
+@sys AP24 |GIŠ.TE| 12D3F
 @end sign
 
 @sign |GIŠ×(DIN.DIN)|
@@ -7080,6 +7621,7 @@
 @ucun	𒴺
 @uage	1
 @sys	LLATU:233_02 GIŠ+DIN+DIN~c
+@sys AP24 |(GIŠ×(DIN.DIN))~a| 12D3A
 @sys	AP23 |(GISZx(DIN.DIN))~a|
 @@
 @form |(GIŠ×(DIN.DIN))~b|
@@ -7089,6 +7631,7 @@
 @ucun	𒴻
 @uage	1
 @sys	AP23 |(GISZx(DIN.DIN))~b|
+@sys AP24 |(GIŠ×(DIN.DIN))~b| 12D3B
 @@
 @form |(GIŠ×(DIN.DIN))~c|
 @oid o0900881
@@ -7097,6 +7640,7 @@
 @ucun	𒴼
 @uage	1
 @sys	AP23 |(GISZx(DIN.DIN))~c|
+@sys AP24 |(GIŠ×(DIN.DIN))~c| 12D3C
 @@
 @end sign
 
@@ -7112,6 +7656,7 @@
 @ucun	𒴽
 @uage	1
 @sys	LLATU:233_03 GIŠ+ŠU₂~a
+@sys AP24 |GIŠ×ŠU₂~a| 12D3D
 @sys	AP23 |GISZxSZU2~a|
 @@
 @form |GIŠ×ŠU₂~b|
@@ -7122,6 +7667,7 @@
 @ucun	𒴾
 @uage	1
 @sys	LLATU:234_01 GIŠ+ŠU₂~b
+@sys AP24 |GIŠ×ŠU₂~b| 12D3E
 @sys	AP23 |GISZxSZU2~b|
 @@
 @end sign
@@ -7135,6 +7681,7 @@
 @ucun	𒠦
 @uage	1
 @sys	LLATU:234_02 GIŠ@t
+@sys AP24 GIŠ@t 12826
 @sys	AP23 GISZ@t
 @end sign
 
@@ -7150,6 +7697,7 @@
 @ucun	𒠧
 @uage	1
 @sys	AP23 GISZ3~a
+@sys AP24 GIŠ₃~a 12827
 @@
 @form GIŠ₃~b
 @oid o0900890
@@ -7158,6 +7706,7 @@
 @ucun	𒠨
 @uage	1
 @sys	LLATU:234_04 GIŠ₃~b
+@sys AP24 GIŠ₃~b 12828
 @sys	AP23 GISZ3~b
 @@
 @end sign
@@ -7172,6 +7721,7 @@
 @ucun	𒵁
 @uage	1
 @sys	LLATU:234_03 GIŠ₃~a+GIŠ₃~a
+@sys AP24 |GIŠ₃~a&GIŠ₃~a| 12D41
 @sys	AP23 |GISZ3~a&GISZ3~a|
 @@
 @end sign
@@ -7184,6 +7734,7 @@
 @ucun	𒠩
 @uage	1
 @sys	LLATU:234_05 GIŠGAL
+@sys AP24 GIŠGAL 12829
 @sys	AP23 GISZGAL
 @form GIŠGAL~v1
 @oid o0900894
@@ -7192,6 +7743,7 @@
 @ucun	𒠪
 @uage	1
 @sys	AP23 GISZGAL
+@sys AP24 GIŠGAL~v1 1282A
 @@
 @end sign
 
@@ -7210,6 +7762,7 @@
 @ucun	𒠫
 @uage	1
 @sys	AP23 GISZIMMAR~a1
+@sys AP24 GIŠIMMAR~a1 1282B
 @@
 @form GIŠIMMAR~a2
 @oid o0900897
@@ -7218,6 +7771,7 @@
 @ucun	𒠬
 @uage	1
 @sys	LLATU:234_06 GIŠIMMAR~a2
+@sys AP24 GIŠIMMAR~a2 1282C
 @sys	AP23 GISZIMMAR~a2
 @@
 @form GIŠIMMAR~a3
@@ -7227,6 +7781,7 @@
 @ucun	𒠭
 @uage	1
 @sys	AP23 GISZIMMAR~a3
+@sys AP24 GIŠIMMAR~a3 1282D
 @@
 @form GIŠIMMAR~b1
 @oid o0900899
@@ -7235,6 +7790,7 @@
 @ucun	𒠮
 @uage	1
 @sys	LLATU:234_07 GIŠIMMAR~b1
+@sys AP24 GIŠIMMAR~b1 1282E
 @sys	AP23 GISZIMMAR~b1
 @@
 @form	GIŠIMMAR~b1~v1
@@ -7246,6 +7802,7 @@
 @ucun	𒠯
 @uage	1
 @sys	AP23 GISZIMMAR~b1
+@sys AP24 GIŠIMMAR~b1~v1 1282F
 @@
 @form	GIŠIMMAR~b1~v2
 @oid o0900901
@@ -7254,6 +7811,7 @@
 @ucun	𒠰
 @uage	1
 @sys	AP23 GISZIMMAR~b1
+@sys AP24 GIŠIMMAR~b1~v2 12830
 @@
 @form GIŠIMMAR~b2
 @oid o0900902
@@ -7268,6 +7826,7 @@
 @ucun	𒠱
 @uage	1
 @sys	AP23 GISZIMMAR~b3
+@sys AP24 GIŠIMMAR~b3 12831
 @@
 @end sign
 
@@ -7284,6 +7843,7 @@
 @ucun	𒠲
 @uage	1
 @sys	AP23 GIZZAL~x
+@sys AP24 GIZZAL~v 12832
 @@
 @end sign
 
@@ -7297,6 +7857,7 @@
 @ucun	𒠳
 @uage	1
 @sys	LLATU:235_01 GU~a
+@sys AP24 GU 12833
 @sys	AP23 GU
 @end sign
 
@@ -7311,6 +7872,7 @@
 @ucun	𒠴
 @uage	1
 @sys	LLATU:235_02 GU₂
+@sys AP24 GU₂ 12834
 @sys	ATFU-S GU₂
 @sys	ATFU-v gu₂?
 @sys	AP23 GU2
@@ -7324,6 +7886,7 @@
 @ucun	𒠵
 @uage	1
 @sys	LLATU:235_03 GU₄
+@sys AP24 GU₄ 12835
 @sys	ATFU-S GU₄
 @sys	ATFU-v gu₄
 @sys	AP23 GU4
@@ -7335,6 +7898,7 @@
 @ucun	𒠶
 @uage	1
 @sys	AP23 GU4
+@sys AP24 GU₄~v1 12836
 @@
 @end sign
 
@@ -7349,6 +7913,7 @@
 @ucun	𒵂
 @uage	1
 @sys	AP23 |GU4.ZATU755~a|
+@sys AP24 |GU₄.ZATU755~b| 12D42
 @@
 @end sign
 
@@ -7361,6 +7926,7 @@
 @ucun	𒠸
 @uage	1
 @sys	ATFU-S GU₇
+@sys AP24 GU₇ 12838
 @sys	ATFU-v gu₇
 @sys	AP23 GU7
 @form GU₇~v1
@@ -7370,6 +7936,7 @@
 @ucun	𒠹
 @uage	1
 @sys	AP23 GU7
+@sys AP24 GU₇~v1 12839
 @@
 @end sign
 
@@ -7380,6 +7947,7 @@
 @ucun	𒠷
 @uage	1
 @sys	AP23 GU4@g
+@sys AP24 GU₄@g 12837
 @end sign
 
 @sign GUB₃
@@ -7396,6 +7964,7 @@
 @ucun	𒠺
 @uage	1
 @sys	LLATU:236_01 GUB₃~a
+@sys AP24 GUB₃~a 1283A
 @sys	AP23 GUB3~a
 @@
 @form GUB₃~b
@@ -7405,6 +7974,7 @@
 @ucun	𒠻
 @uage	1
 @sys	LLATU:236_02 GUB₃~b
+@sys AP24 GUB₃~b 1283B
 @sys	AP23 GUB3~b
 @@
 @form GUB₃~c
@@ -7414,6 +7984,7 @@
 @ucun	𒠼
 @uage	1
 @sys	AP23 GUB3~c
+@sys AP24 GUB₃~c 1283C
 @@
 @form GUB₃~d
 @oid o0900919
@@ -7422,6 +7993,7 @@
 @ucun	𒠽
 @uage	1
 @sys	AP23 GUB3~d
+@sys AP24 GUB₃~d 1283D
 @@
 @end sign
 
@@ -7434,6 +8006,7 @@
 @ucun	𒠾
 @uage	1
 @sys	LLATU:236_03 GUG₂~a
+@sys AP24 GUG₂ 1283E
 @sys	AP23 GUG2
 @form GUG₂~v1
 @oid o0900921
@@ -7443,6 +8016,7 @@
 @ucun	𒠿
 @uage	1
 @sys	AP23 GUG2
+@sys AP24 GUG₂~v1 1283F
 @@
 @end sign
 
@@ -7458,6 +8032,7 @@
 @ucun	𒵄
 @uage	1
 @sys	AP23 |GUG2xSILA3~a|
+@sys AP24 |GUG₂~v1×SILA₃~a| 12D44
 @@
 @end sign
 
@@ -7472,6 +8047,7 @@
 @ucun	𒵃
 @uage	1
 @sys	AP23 |GUG2xSZITA~a1|
+@sys AP24 |GUG₂~v1×ŠITA~a1| 12D43
 @@
 @end sign
 
@@ -7484,6 +8060,7 @@
 @ucun	𒵅
 @uage	1
 @sys	AP23 |GUG2xTUR|
+@sys AP24 |GUG₂~v1×TUR~v1| 12D45
 @end sign
 
 @sign GUG₂@t
@@ -7493,6 +8070,7 @@
 @ucun	𒡀
 @uage	1
 @sys	AP23 GUG2@t
+@sys AP24 GUG₂@t 12840
 @end sign
 
 @sign GUKKAL
@@ -7511,6 +8089,7 @@
 @ucun	𒡁
 @uage	1
 @sys	AP23 GUKKAL~a
+@sys AP24 GUKKAL~a 12841
 @@
 @form GUKKAL~b
 @oid o0900930
@@ -7519,6 +8098,7 @@
 @ucun	𒡂
 @uage	1
 @sys	AP23 GUKKAL~b
+@sys AP24 GUKKAL~b 12842
 @@
 @form GUKKAL~c
 @oid o0900931
@@ -7527,6 +8107,7 @@
 @ucun	𒡃
 @uage	1
 @sys	LLATU:236_04 GUKKAL~c
+@sys AP24 GUKKAL~c 12843
 @sys	AP23 GUKKAL~c
 @@
 @form GUKKAL~d
@@ -7536,6 +8117,7 @@
 @ucun	𒡄
 @uage	1
 @sys	AP23 GUKKAL~d
+@sys AP24 GUKKAL~d 12844
 @@
 @end sign
 
@@ -7550,6 +8132,7 @@
 @ucun	𒵆
 @uage	1
 @sys	AP23 |GUKKAL~a.HI@g~a|
+@sys AP24 |GUKKAL~a.HI@g~a| 12D46
 @@
 @end sign
 
@@ -7562,6 +8145,7 @@
 @ucun	𒡅
 @uage	1
 @sys	LLATU:236_05 GUL
+@sys AP24 GUL 12845
 @sys	AP23 GUL
 @end sign
 
@@ -7579,6 +8163,7 @@
 @ucun	𒡆
 @uage	1
 @sys	AP23 GUM~a
+@sys AP24 GUM~a 12846
 @@
 @form GUM~b
 @oid o0900938
@@ -7587,6 +8172,7 @@
 @ucun	𒡇
 @uage	1
 @sys	LLATU:236_06 GUM~b
+@sys AP24 GUM~b 12847
 @sys	AP23 GUM~b
 @@
 @form	GUM~b~v1
@@ -7596,6 +8182,7 @@
 @ucun	𒡈
 @uage	1
 @sys	AP23 GUM~b
+@sys AP24 GUM~b~v1 12848
 @@
 @end sign
 
@@ -7611,6 +8198,7 @@
 @ucun	𒡉
 @uage	1
 @sys	LLATU:236_07 GUM@n~b
+@sys AP24 GUM~b@n 12849
 @sys	AP23 GUM~b@n
 @@
 @form GUM~b@n~v1
@@ -7620,6 +8208,7 @@
 @ucun	𒡊
 @uage	1
 @sys	AP23 GUM~b@n
+@sys AP24 GUM~b@n~v1 1284A
 @@
 @end sign
 
@@ -7635,6 +8224,7 @@
 @ucun	𒡋
 @uage	1
 @sys	AP23 GUN3~a
+@sys AP24 GUN₃~a 1284B
 @@
 @form GUN₃~b
 @oid o0900945
@@ -7643,6 +8233,7 @@
 @ucun	𒡌
 @uage	1
 @sys	LLATU:237_01 GUN₃~b
+@sys AP24 GUN₃~b 1284C
 @sys	AP23 GUN3~b
 @@
 @end sign
@@ -7656,6 +8247,7 @@
 @ucun	𒡍
 @uage	1
 @sys	LLATU:237_02 GUR
+@sys AP24 GUR 1284D
 @sys	ATFU-S GUR
 @sys	AP23 GUR
 @end sign
@@ -7673,6 +8265,7 @@
 @ucun	𒡎
 @uage	1
 @sys	LLATU:237_03 GURUŠ~a
+@sys AP24 GURUŠ~a 1284E
 @sys	AP23 GURUSZ~a
 @@
 @form	GURUŠ~a~v1
@@ -7682,6 +8275,7 @@
 @ucun	𒡏
 @uage	1
 @sys	AP23 GURUSZ~a
+@sys AP24 GURUŠ~a~v1 1284F
 @@
 @form GURUŠ~b
 @oid o0900950
@@ -7690,6 +8284,7 @@
 @ucun	𒡐
 @uage	1
 @sys	AP23 GURUSZ~b
+@sys AP24 GURUŠ~b 12850
 @@
 @compoundonly GURUŠ~c
 @@
@@ -7707,6 +8302,7 @@
 @ucun	𒵇
 @uage	1
 @sys	LLATU:237_04 GURUŠ~a+2(N14)
+@sys AP24 |GURUŠ~a×2(N14)| 12D47
 @sys	AP23 |GURUSZ~ax2(N14)|
 @@
 @form |GURUŠ~b×2(N14)|
@@ -7717,6 +8313,7 @@
 @ucun	𒵈
 @uage	1
 @sys	AP23 |GURUSZ~bx2(N14)|
+@sys AP24 |GURUŠ~b×2(N14)| 12D48
 @@
 @form |GURUŠ~c×2(N14)|
 @oid o0900954
@@ -7725,6 +8322,7 @@
 @ucun	𒵉
 @uage	1
 @sys	AP23 |GURUSZ~cx2(N14)|
+@sys AP24 |GURUŠ~c×2(N14)| 12D49
 @@
 @end sign
 
@@ -7737,6 +8335,7 @@
 @ucun	𒡑
 @uage	1
 @sys	LLATU:237_05 GURUŠDA~a
+@sys AP24 GURUŠDA 12851
 @sys	AP23 GURUSZDA
 @end sign
 
@@ -7749,6 +8348,7 @@
 @ucun	𒡒
 @uage	1
 @sys	LLATU:237_06 HAL
+@sys AP24 HAL 12852
 @sys	AP23 HAL
 @end sign
 
@@ -7760,6 +8360,7 @@
 @ucun	𒡓
 @uage	1
 @sys	LLATU:237_07 HALUB
+@sys AP24 HALUB 12853
 @sys	AP23 HALUB
 @end sign
 
@@ -7771,6 +8372,7 @@
 @ucun	𒡔
 @uage	1
 @sys	LLATU:237_08 HAŠHUR
+@sys AP24 HAŠHUR 12854
 @sys	AP23 HASZHUR
 @end sign
 
@@ -7782,6 +8384,7 @@
 @ucun	𒵊
 @uage	1
 @sys	LLATU:238_01 HAŠHUR+MA
+@sys AP24 |HAŠHUR×MA| 12D4A
 @sys	AP23 |HASZHURxMA|
 @end sign
 
@@ -7795,6 +8398,7 @@
 @ucun	𒡕
 @uage	1
 @sys	LLATU:238_02 HI
+@sys AP24 HI 12855
 @sys	ATFU-S HI
 @sys	ATFU-v du₁₀ dug₃
 @sys	AP23 HI
@@ -7818,6 +8422,7 @@
 @ucun	𒵒
 @uage	1
 @sys	LLATU:239_01 HI+SUHUR
+@sys AP24 |HI.SUHUR| 12D52
 @sys	AP23 |HI.SUHUR|
 @form |HI.SUHUR~v1|
 @oid o0900963
@@ -7827,6 +8432,7 @@
 @ucun	𒵓
 @uage	1
 @sys	AP23 |HI.SUHUR|
+@sys AP24 |HI.SUHUR~v1| 12D53
 @@
 @form |HI.SUHUR~v2|
 @oid o0900964
@@ -7836,6 +8442,7 @@
 @ucun	𒵔
 @uage	1
 @sys	AP23 |HI.SUHUR|
+@sys AP24 |HI.SUHUR~v2| 12D54
 @@
 @end sign
 
@@ -7849,6 +8456,7 @@
 @ucun	𒵐
 @uage	1
 @sys	AP23 |HIxLAGAB~a|
+@sys AP24 |HI×LAGAB~a| 12D50
 @@
 @end sign
 
@@ -7860,6 +8468,7 @@
 @ucun	𒵌
 @uage	1
 @sys	LLATU:238_03 HI+AŠ~b
+@sys AP24 |HI×1(N57)| 12D4C
 @sys	AP23 |HIx1(N57)|
 @end sign
 
@@ -7871,6 +8480,7 @@
 @ucun	𒵍
 @uage	1
 @sys	AP23 |(HIx1(N57)).(HIx1(N57))|
+@sys AP24 |(HI×1(N57)).(HI×1(N57))| 12D4D
 @compoundonly	|(HI×1(N57))&(HI×1(N57))|
 @@
 @end sign
@@ -7885,6 +8495,7 @@
 @ucun	𒵎
 @uage	1
 @sys	AP23 |HIx1(N57@t)|
+@sys AP24 |HI×1(N57@t)| 12D4E
 @end sign
 
 @sign |HI×1(N58)|
@@ -7895,6 +8506,7 @@
 @ucun	𒵏
 @uage	1
 @sys	AP23 |HIx1(N58)|
+@sys AP24 |HI×1(N58)| 12D4F
 @sys	ATFU-S |HI×1(N58)|
 @end sign
 
@@ -7910,6 +8522,7 @@
 @ucun	𒵕
 @uage	1
 @sys	AP23 |HIxZATU707~a|
+@sys AP24 |HI×ZATU707~a| 12D55
 @@
 @end sign
 
@@ -7925,6 +8538,7 @@
 @ucun	𒡖
 @uage	1
 @sys	AP23 HI@g~a
+@sys AP24 HI@g~a 12856
 @@
 @form HI@g~b
 @oid o0900977
@@ -7933,6 +8547,7 @@
 @ucun	𒡗
 @uage	1
 @sys	LLATU:239_02 HI@g~b
+@sys AP24 HI@g~b 12857
 @sys	AP23 HI@g~b
 @@
 @form HI@g~c
@@ -7942,6 +8557,7 @@
 @ucun	𒡘
 @uage	1
 @sys	AP23 HI@g~c
+@sys AP24 HI@g~c 12858
 @@
 @end sign
 
@@ -7956,6 +8572,7 @@
 @ucun	𒡚
 @uage	1
 @sys	LLATU:239_03 I
+@sys AP24 I 1285A
 @sys	ATFU-S I
 @sys	AP23 I
 @end sign
@@ -7976,6 +8593,7 @@
 @ucun	𒡛
 @uage	1
 @sys	LLATU:239_04 IB~a
+@sys AP24 IB~a 1285B
 @sys	AP23 IB~a
 @@
 @form IB~b
@@ -7985,6 +8603,7 @@
 @ucun	𒡝
 @uage	1
 @sys	LLATU:239_05 IB~b
+@sys AP24 IB~b 1285D
 @sys	AP23 IB~b
 @@
 @form IB~c
@@ -8005,6 +8624,7 @@
 @ucun	𒡜
 @uage	1
 @sys	AP23 IB~a@n
+@sys AP24 IB~a@n 1285C
 @@
 @end sign
 
@@ -8016,6 +8636,7 @@
 @ucun	𒡞
 @uage	1
 @sys	LLATU:239_06 IDIGNA
+@sys AP24 IDIGNA 1285E
 @sys	AP23 IDIGNA
 @form IDIGNA~v1
 @oid o0900989
@@ -8024,6 +8645,7 @@
 @ucun	𒡟
 @uage	1
 @sys	AP23 IDIGNA
+@sys AP24 IDIGNA~v1 1285F
 @@
 @end sign
 
@@ -8041,6 +8663,7 @@
 @ucun	𒡠
 @uage	1
 @sys	AP23 IG~a
+@sys AP24 IG~a 12860
 @@
 @form IG~b
 @oid o0900992
@@ -8049,6 +8672,7 @@
 @ucun	𒡡
 @uage	1
 @sys	AP23 IG~b
+@sys AP24 IG~b 12861
 @@
 @end sign
 
@@ -8062,6 +8686,7 @@
 @ucun	𒡣
 @uage	1
 @sys	AP23 IL
+@sys AP24 IL 12863
 @end sign
 
 @sign ILDUM
@@ -8076,6 +8701,7 @@
 @ucun	𒡤
 @uage	1
 @sys	AP23 ILDUM~a
+@sys AP24 ILDUM~a 12864
 @@
 @form ILDUM~b
 @oid o0900998
@@ -8084,6 +8710,7 @@
 @ucun	𒡥
 @uage	1
 @sys	LLATU:240_01 ILDUM~b
+@sys AP24 ILDUM~b 12865
 @sys	AP23 ILDUM~b
 @@
 @end sign
@@ -8102,6 +8729,7 @@
 @ucun	𒡦
 @uage	1
 @sys	LLATU:240_02 IM~a
+@sys AP24 IM~a 12866
 @sys	AP23 IM~a
 @@
 @form IM~b
@@ -8111,6 +8739,7 @@
 @ucun	𒡨
 @uage	1
 @sys	LLATU:240_03 IM~b
+@sys AP24 IM~b 12868
 @sys	AP23 IM~b
 @@
 @end sign
@@ -8128,6 +8757,7 @@
 @ucun	𒡩
 @uage	1
 @sys	LLATU:240_04 IN~b
+@sys AP24 IN~b 12869
 @sys	AP23 IN~b
 @@
 @form	IN~b~v1
@@ -8137,6 +8767,7 @@
 @ucun	𒡪
 @uage	1
 @sys	AP23 IN~b
+@sys AP24 IN~b~v1 1286A
 @@
 @form IN~d
 @oid o0901007
@@ -8146,6 +8777,7 @@
 @ucun	𒡫
 @uage	1
 @sys	AP23 IN~d
+@sys AP24 IN~d 1286B
 @@
 @end sign
 
@@ -8161,6 +8793,7 @@
 @ucun	𒡬
 @uage	1
 @sys	LLATU:241_01 IR~a
+@sys AP24 IR~a 1286C
 @sys	AP23 IR~a
 @@
 @form IR~b
@@ -8170,6 +8803,7 @@
 @ucun	𒡭
 @uage	1
 @sys	LLATU:241_02 IR~b
+@sys AP24 IR~b 1286D
 @sys	AP23 IR~b
 @@
 @form IR~c
@@ -8179,6 +8813,7 @@
 @ucun	𒡮
 @uage	1
 @sys	AP23 IR~c
+@sys AP24 IR~c 1286E
 @@
 @form IR~d
 @oid o0901012
@@ -8188,6 +8823,7 @@
 @ucun	𒡯
 @uage	1
 @sys	AP23 IR~d
+@sys AP24 IR~d 1286F
 @@
 @end sign
 
@@ -8201,6 +8837,7 @@
 @ucun	𒵖
 @uage	1
 @sys	AP23 |IR~a.GA2~a1|
+@sys AP24 |IR~a.GA₂~a1| 12D56
 @@
 @end sign
 
@@ -8224,6 +8861,7 @@
 @ucun	𒡰
 @uage	1
 @sys	ATFU-S IR₁₁
+@sys AP24 IR₁₁ 12870
 @sys	ATFU-v nita₂ ir₃?
 @sys	AP23 IR11
 @form IR₁₁~v1
@@ -8233,6 +8871,7 @@
 @ucun	𒡱
 @uage	1
 @sys	AP23 IR11
+@sys AP24 IR₁₁~v1 12871
 @@
 @end sign
 
@@ -8244,6 +8883,7 @@
 @ucun	𒡲
 @uage	1
 @sys	AP23 IRHAN
+@sys AP24 IRHAN 12872
 @end sign
 
 @sign IŠ
@@ -8259,6 +8899,7 @@
 @ucun	𒡳
 @uage	1
 @sys	LLATU:241_03 IŠ~a
+@sys AP24 IŠ~a 12873
 @sys	AP23 ISZ~a 677
 @@
 @form	IŠ~a~v1
@@ -8268,6 +8909,7 @@
 @ucun	𒡴
 @uage	1
 @sys	AP23 ISZ~a 677.1
+@sys AP24 IŠ~a~v1 12874
 @@
 @form IŠ~b
 @oid o0901022
@@ -8276,6 +8918,7 @@
 @ucun	𒡶
 @uage	1
 @sys	AP23 ISZ~b 678.1
+@sys AP24 IŠ~b 12876
 @sys	LLATU:241_04 IŠ~b
 @@
 @form	IŠ~b~v1
@@ -8285,6 +8928,7 @@
 @list	U+12875
 @ucun	𒡵
 @sys	AP23 ISZ~b 678
+@sys AP24 IŠ~b~v1 12875
 @uage	1
 @sys	ATFU-S IŠ~b1
 @sys	ATFU-v kuš₇ sušₓ?
@@ -8297,6 +8941,7 @@
 @ucun	𒡷
 @uage	1
 @sys	ATFU-S IŠ~b2
+@sys AP24 IŠ~b~v2 12877
 @sys	ATFU-v kuš₇ sušₓ?
 @sys	AP23 ISZ~b
 @@
@@ -8307,6 +8952,7 @@
 @ucun	𒡸
 @uage	1
 @sys	AP23 ISZ~b
+@sys AP24 IŠ~b~v3 12878
 @@
 @form	IŠ~b~v4
 @oid o0901026
@@ -8315,6 +8961,7 @@
 @ucun	𒡹
 @uage	1
 @sys	AP23 ISZ~b
+@sys AP24 IŠ~b~v4 12879
 @@
 @form	IŠ~b~v5
 @oid o0901027
@@ -8323,6 +8970,7 @@
 @ucun	𒡺
 @uage	1
 @sys	AP23 ISZ~b
+@sys AP24 IŠ~b~v5 1287A
 @@
 @form IŠ~c
 @oid o0901028
@@ -8331,6 +8979,7 @@
 @ucun	𒡻
 @uage	1
 @sys	AP23 ISZ~c
+@sys AP24 IŠ~c 1287B
 @@
 @end sign
 
@@ -8349,6 +8998,7 @@
 @ucun	𒡼
 @uage	1
 @sys	LLATU:242_01 KA~a
+@sys AP24 KA~a 1287C
 @sys	AP23 KA~a
 @@
 @compoundonly KA~a~v1
@@ -8369,6 +9019,7 @@
 @ucun	𒵘
 @uage	1
 @sys	AP23 |KA~a.SZE~a|
+@sys AP24 |KA~a~v2.ŠE~a@t| 12D58
 @@
 @form |KA~a~v1.ŠE~a|
 @oid o0901033
@@ -8378,6 +9029,7 @@
 @ucun	𒵙
 @uage	1
 @sys	AP23 |KA~a.SZE~a|
+@sys AP24 |KA~a~v1.ŠE~a| 12D59
 @@
 @end sign
 
@@ -8394,6 +9046,7 @@
 @ucun	𒵗
 @uage	1
 @sys	LLATU:242_02 KA~a+SAR~a
+@sys AP24 |KA~a×SAR~a| 12D57
 @sys	AP23 |KA~axSAR~a|
 @@
 @end sign
@@ -8411,6 +9064,7 @@
 @ucun	𒡽
 @uage	1
 @sys	AP23 KA2~a
+@sys AP24 KA₂~a 1287D
 @@
 @form KA₂~b
 @oid o0901039
@@ -8419,6 +9073,7 @@
 @ucun	𒡾
 @uage	1
 @sys	AP23 KA2~b
+@sys AP24 KA₂~b 1287E
 @@
 @form KA₂~c
 @oid o0901040
@@ -8427,6 +9082,7 @@
 @ucun	𒡿
 @uage	1
 @sys	AP23 KA2~c
+@sys AP24 KA₂~c 1287F
 @@
 @compoundonly KA₂~d
 @end sign
@@ -8443,6 +9099,7 @@
 @ucun	𒵚
 @uage	1
 @sys	LLATU:242_03 KA₂+LAM
+@sys AP24 |KA₂~d×LAM~b~v2| 12D5A
 @sys	AP23 |KA2xLAM|
 @note Needs new reference glyph based on P002179 = ATU 6, pl. 056, W
       14777,c. The current glyph from CDLI-gh is used in LLATU 242_03
@@ -8464,6 +9121,7 @@
 @ucun	𒢁
 @uage	1
 @sys	LLATU:242_04 KAB
+@sys AP24 KAB 12881
 @sys	AP23 KAB
 @end sign
 
@@ -8476,6 +9134,7 @@
 @ucun	𒵛
 @uage	1
 @sys	AP23 |KABx1(N58)|
+@sys AP24 |KAB×1(N58)| 12D5B
 @end sign
 
 @sign KAD₄
@@ -8490,6 +9149,7 @@
 @ucun	𒢂
 @uage	1
 @sys	LLATU:243_01 KAD₄~a
+@sys AP24 KAD₄~a 12882
 @sys	AP23 KAD4~a
 @@
 @form KAD₄~b
@@ -8499,6 +9159,7 @@
 @ucun	𒢃
 @uage	1
 @sys	LLATU:243_02 KAD₄~b
+@sys AP24 KAD₄~b 12883
 @sys	AP23 KAD4~b
 @@
 @form KAD₄~c1
@@ -8508,6 +9169,7 @@
 @ucun	𒢄
 @uage	1
 @sys	AP23 KAD4~c1
+@sys AP24 KAD₄~c1 12884
 @@
 @form KAD₄~c2
 @oid o0901050
@@ -8516,6 +9178,7 @@
 @ucun	𒢅
 @uage	1
 @sys	AP23 KAD4~c2
+@sys AP24 KAD₄~c2 12885
 @@
 @end sign
 
@@ -8534,6 +9197,7 @@
 @ucun	𒢆
 @uage	1
 @sys	LLATU:243_03 KAK~a
+@sys AP24 KAK~a 12886
 @sys	AP23 KAK~a
 @@
 @form KAK~b
@@ -8543,6 +9207,7 @@
 @ucun	𒢇
 @uage	1
 @sys	AP23 KAK~b
+@sys AP24 KAK~b 12887
 @@
 @end sign
 
@@ -8556,6 +9221,7 @@
 @ucun	𒵜
 @uage	1
 @sys	LLATU:243_04 KAK~a+GA₂~a1
+@sys AP24 |KAK~a.GA₂~a1| 12D5C
 @sys	AP23 |KAK~a.GA2~a1|
 @@
 @end sign
@@ -8572,6 +9238,7 @@
 @ucun	𒢈
 @uage	1
 @sys	LLATU:243_05 KAL~a
+@sys AP24 KAL~a 12888
 @sys	AP23 KAL~a
 @@
 @form KAL~b1
@@ -8581,6 +9248,7 @@
 @ucun	𒢉
 @uage	1
 @sys	LLATU:244_01 KAL~b1
+@sys AP24 KAL~b1 12889
 @sys	AP23 KAL~b1
 @@
 @form	KAL~b1~v1
@@ -8590,6 +9258,7 @@
 @ucun	𒢊
 @uage	1
 @sys	AP23 KAL~b1
+@sys AP24 KAL~b1~v1 1288A
 @@
 @form KAL~b2
 @oid o0901060
@@ -8600,6 +9269,7 @@
 @ucun	𒢋
 @uage	1
 @sys	LLATU:244_02 KAL~b2
+@sys AP24 KAL~b2 1288B
 @sys	AP23 KAL~b2
 @@
 @end sign
@@ -8619,6 +9289,7 @@
 @ucun	𒢌
 @uage	1
 @sys	AP23 KALAM~a
+@sys AP24 KALAM~a 1288C
 @@
 @form KALAM~b
 @oid o0901063
@@ -8627,6 +9298,7 @@
 @ucun	𒢍
 @uage	1
 @sys	AP23 KALAM~b
+@sys AP24 KALAM~b 1288D
 @@
 @form KALAM~c
 @oid o0901064
@@ -8635,6 +9307,7 @@
 @ucun	𒢎
 @uage	1
 @sys	AP23 KALAM~c
+@sys AP24 KALAM~c 1288E
 @@
 @form KALAM~d
 @oid o0901065
@@ -8643,6 +9316,7 @@
 @ucun	𒢏
 @uage	1
 @sys	AP23 KALAM~d
+@sys AP24 KALAM~d 1288F
 @@
 @form KALAM~e
 @oid o0901066
@@ -8651,6 +9325,7 @@
 @ucun	𒢐
 @uage	1
 @sys	AP23 KALAM~e
+@sys AP24 KALAM~e 12890
 @@
 @form KALAM~f
 @oid o0901067
@@ -8659,6 +9334,7 @@
 @ucun	𒢑
 @uage	1
 @sys	AP23 KALAM~f
+@sys AP24 KALAM~f 12891
 @@
 @form KALAM~g
 @oid o0901068
@@ -8689,6 +9365,7 @@
 @ucun	𒢒
 @uage	1
 @sys	LLATU:244_03 KAR
+@sys AP24 KAR 12892
 @sys	AP23 KAR
 @end sign
 
@@ -8704,6 +9381,7 @@
 @ucun	𒢓
 @uage	1
 @sys	LLATU:244_04 KAR₂~a
+@sys AP24 KAR₂~a 12893
 @sys	AP23 KAR2~a
 @@
 @compoundonly KAR₂~a1
@@ -8716,6 +9394,7 @@
 @ucun	𒢔
 @uage	1
 @sys	LLATU:244_05 KAR₂~b
+@sys AP24 KAR₂~b 12894
 @sys	AP23 KAR2~b
 @@
 @compoundonly KAR₂~c
@@ -8732,6 +9411,7 @@
 @ucun	𒢜
 @uage	1
 @sys	LLATU:244_06 KASKAL
+@sys AP24 KASKAL 1289C
 @sys	ATFU-S KASKAL
 @sys	AP23 KASKAL
 @end sign
@@ -8743,6 +9423,7 @@
 @ucun	𒢝
 @uage	1
 @sys	AP23 KASKAL@g
+@sys AP24 KASKAL@g 1289D
 @end sign
 
 @sign KAŠ
@@ -8759,6 +9440,7 @@
 @ucun	𒢕
 @uage	1
 @sys	LLATU:245_01 KAŠ~a
+@sys AP24 KAŠ~a 12895
 @sys	ATFU-S KAŠ~a
 @sys	ATFU-v kaš
 @sys	AP23 KASZ~a
@@ -8770,6 +9452,7 @@
 @ucun	𒢖
 @uage	1
 @sys	AP23 KASZ~a
+@sys AP24 KAŠ~a~v1 12896
 @@
 @form KAŠ~b
 @oid o0901080
@@ -8778,6 +9461,7 @@
 @ucun	𒢗
 @uage	1
 @sys	LLATU:245_02 KAŠ~b
+@sys AP24 KAŠ~b 12897
 @sys	AP23 KASZ~b
 @@
 @form	KAŠ~b~v1
@@ -8788,6 +9472,7 @@
 @ucun	𒢘
 @uage	1
 @sys	AP23 KASZ~b
+@sys AP24 KAŠ~b~v1 12898
 @@
 @form KAŠ~c
 @oid o0901082
@@ -8797,6 +9482,7 @@
 @ucun	𒢚
 @uage	1
 @sys	LLATU:245_03 KAŠ~c
+@sys AP24 KAŠ~c 1289A
 @sys	AP23 KASZ~c
 @@
 @form KAŠ~d
@@ -8806,6 +9492,7 @@
 @ucun	𒢛
 @uage	1
 @sys	AP23 KASZ~d
+@sys AP24 KAŠ~d 1289B
 @@
 @form KAŠ~d1
 @oid o0901084
@@ -8827,6 +9514,7 @@
 @ucun	𒵝
 @uage	1
 @sys	AP23 |KASZ~bxSZE~a|
+@sys AP24 |KAŠ~b~v1×ŠE~a@t~v1| 12D5D
 @@
 @end sign
 
@@ -8840,6 +9528,7 @@
 @ucun	𒢙
 @uage	1
 @sys	AP23 KASZ~b@t
+@sys AP24 KAŠ~b@t 12899
 @@
 @end sign
 
@@ -8854,6 +9543,7 @@
 @ucun	𒢟
 @uage	1
 @sys	LLATU:245_04 KI~a
+@sys AP24 KI 1289F
 @sys	ATFU-S KI
 @sys	ATFU-v ki
 @sys	AP23 KI
@@ -8866,6 +9556,7 @@
 @ucun	𒢠
 @uage	1
 @sys	AP23 KI@n
+@sys AP24 KI@n 128A0
 @end sign
 
 @sign |KI@n×DUB|
@@ -8880,6 +9571,7 @@
 @ucun	𒵞
 @uage	1
 @sys	AP23 |KI@nxDUB~a|
+@sys AP24 |KI@n×DUB~a| 12D5E
 @@
 @end sign
 
@@ -8891,6 +9583,7 @@
 @ucun	𒢡
 @uage	1
 @sys	LLATU:246_01 KIB
+@sys AP24 KIB 128A1
 @sys	AP23 KIB
 @sys	ATFU-S KIB?
 @end sign
@@ -8902,6 +9595,7 @@
 @ucun	𒢢
 @uage	1
 @sys	AP23 KIB@g
+@sys AP24 KIB@g 128A2
 @end sign
 
 @sign KID
@@ -8916,6 +9610,7 @@
 @ucun	𒢣
 @uage	1
 @sys	LLATU:246_02 KID~a
+@sys AP24 KID~a 128A3
 @sys	AP23 KID~a
 @@
 @form KID~b
@@ -8925,6 +9620,7 @@
 @ucun	𒢤
 @uage	1
 @sys	LLATU:246_03 KID~b
+@sys AP24 KID~b 128A4
 @sys	AP23 KID~b
 @@
 @form KID~c
@@ -8934,6 +9630,7 @@
 @ucun	𒢥
 @uage	1
 @sys	AP23 KID~c
+@sys AP24 KID~c 128A5
 @@
 @form KID~d
 @oid o0901100
@@ -8942,6 +9639,7 @@
 @ucun	𒢦
 @uage	1
 @sys	AP23 KID~d
+@sys AP24 KID~d 128A6
 @@
 @form KID~e
 @oid o0901101
@@ -8950,6 +9648,7 @@
 @ucun	𒢧
 @uage	1
 @sys	AP23 KID~e
+@sys AP24 KID~e 128A7
 @@
 @end sign
 
@@ -8964,6 +9663,7 @@
 @ucun	𒢨
 @uage	1
 @sys	LLATU:246_04 KIN
+@sys AP24 KIN 128A8
 @sys	AP23 KIN
 @end sign
 
@@ -8979,6 +9679,7 @@
 @ucun	𒢩
 @uage	1
 @sys	AP23 KIN2~a
+@sys AP24 KIN₂~a 128A9
 @@
 @form KIN₂~b
 @oid o0901105
@@ -8993,6 +9694,7 @@
 @ucun	𒢪
 @uage	1
 @sys	LLATU:247_01 KIN₂~c
+@sys AP24 KIN₂~c 128AA
 @sys	AP23 KIN2~c
 @@
 @form KIN₂~d
@@ -9002,6 +9704,7 @@
 @ucun	𒢫
 @uage	1
 @sys	LLATU:247_02 KIN₂~d
+@sys AP24 KIN₂~d 128AB
 @sys	AP23 KIN2~d
 @@
 @form KIN₂~e
@@ -9011,6 +9714,7 @@
 @ucun	𒢬
 @uage	1
 @sys	AP23 KIN2~e
+@sys AP24 KIN₂~e 128AC
 @@
 @end sign
 
@@ -9022,6 +9726,7 @@
 @ucun	𒢭
 @uage	1
 @sys	LLATU:247_03 KINGAL
+@sys AP24 KINGAL 128AD
 @sys	AP23 KINGAL
 @form KINGAL~v1
 @oid o0901110
@@ -9030,6 +9735,7 @@
 @ucun	𒢮
 @uage	1
 @sys	AP23 KINGAL
+@sys AP24 KINGAL~v1 128AE
 @@
 @end sign
 
@@ -9040,6 +9746,7 @@
 @ucun	𒢯
 @uage	1
 @sys	AP23 KIR11
+@sys AP24 KIR₁₁ 128AF
 @end sign
 
 @sign KISAL
@@ -9054,6 +9761,7 @@
 @ucun	𒢰
 @uage	1
 @sys	LLATU:247_04 KISAL~a1
+@sys AP24 KISAL~a1 128B0
 @sys	AP23 KISAL~a1
 @@
 @form KISAL~a2
@@ -9063,6 +9771,7 @@
 @ucun	𒢱
 @uage	1
 @sys	AP23 KISAL~a2
+@sys AP24 KISAL~a2 128B1
 @@
 @form KISAL~b1
 @oid o0901115
@@ -9072,6 +9781,7 @@
 @ucun	𒢲
 @uage	1
 @sys	LLATU:247_05 KISAL~b1
+@sys AP24 KISAL~b1 128B2
 @sys	AP23 KISAL~b1
 @@
 @form KISAL~b2
@@ -9082,6 +9792,7 @@
 @ucun	𒢳
 @uage	1
 @sys	LLATU:248_01 KISAL~b2
+@sys AP24 KISAL~b2 128B3
 @sys	AP23 KISAL~b2
 @@
 @form KISAL~b3
@@ -9091,6 +9802,7 @@
 @ucun	𒢵
 @uage	1
 @sys	LLATU:248_02 KISAL~b3
+@sys AP24 KISAL~b3 128B5
 @sys	AP23 KISAL~b3
 @@
 @form KISAL~c
@@ -9111,6 +9823,7 @@
 @ucun	𒢴
 @uage	1
 @sys	AP23 KISAL~b2@t
+@sys AP24 KISAL~b2@t 128B4
 @@
 @end sign
 
@@ -9126,6 +9839,7 @@
 @ucun	𒢺
 @uage	1
 @sys	LLATU:248_03 KISIM~a
+@sys AP24 KISIM~a 128BA
 @sys	AP23 KISIM~a
 @@
 @form KISIM~b
@@ -9135,6 +9849,7 @@
 @ucun	𒢻
 @uage	1
 @sys	LLATU:248_04 KISIM~b
+@sys AP24 KISIM~b 128BB
 @sys	AP23 KISIM~b
 @@
 @form	KISIM~b~v1
@@ -9144,6 +9859,7 @@
 @ucun	𒢼
 @uage	1
 @sys	AP23 KISIM~b
+@sys AP24 KISIM~b~v1 128BC
 @@
 @form	KISIM~b~v2
 @oid o0901125
@@ -9152,6 +9868,7 @@
 @ucun	𒢽
 @uage	1
 @sys	AP23 KISIM~b
+@sys AP24 KISIM~b~v2 128BD
 @@
 @form	KISIM~b~v3
 @oid o0901126
@@ -9160,6 +9877,7 @@
 @ucun	𒢾
 @uage	1
 @sys	AP23 KISIM~b
+@sys AP24 KISIM~b~v3 128BE
 @@
 @form KISIM~c
 @oid o0901127
@@ -9168,6 +9886,7 @@
 @ucun	𒢿
 @uage	1
 @sys	AP23 KISIM~c
+@sys AP24 KISIM~c 128BF
 @@
 @end sign
 
@@ -9176,6 +9895,7 @@
 @list	BAU164
 @list	ZATU297
 @sys	LLATU:248_05 KIŠ
+@sys AP24 KIŠ 128B6
 @uname	PROTO-CUNEIFORM SIGN KISH
 @list	U+128B6
 @ucun	𒢶
@@ -9191,6 +9911,7 @@
 @ucun	𒢷
 @uage	1
 @sys	AP23 KISZ
+@sys AP24 KIŠ~v1 128B7
 @@
 @end sign
 
@@ -9206,6 +9927,7 @@
 @ucun	𒢸
 @uage	1
 @sys	LLATU:248_06 KIŠIK~a
+@sys AP24 KIŠIK~a 128B8
 @sys	AP23 KISZIK~a
 @@
 @form KIŠIK~b
@@ -9215,6 +9937,7 @@
 @ucun	𒢹
 @uage	1
 @sys	AP23 KISZIK~b
+@sys AP24 KIŠIK~b 128B9
 @@
 @end sign
 
@@ -9226,6 +9949,7 @@
 @ucun	𒣀
 @uage	1
 @sys	LLATU:249_01 KITI
+@sys AP24 KITI 128C0
 @sys	AP23 KITI
 @form KITI~v1
 @oid o0901134
@@ -9234,6 +9958,7 @@
 @ucun	𒣁
 @uage	1
 @sys	AP23 KITI
+@sys AP24 KITI~v1 128C1
 @@
 @end sign
 
@@ -9250,6 +9975,7 @@
 @ucun	𒣂
 @uage	1
 @sys	LLATU:249_02 KU~a
+@sys AP24 KU~a 128C2
 @sys	ATFU-S KU~a
 @sys	AP23 KU~a
 @@
@@ -9260,6 +9986,7 @@
 @ucun	𒣄
 @uage	1
 @sys	AP23 KU~b1
+@sys AP24 KU~b1 128C4
 @@
 @form KU~b2
 @oid o0901138
@@ -9269,6 +9996,7 @@
 @ucun	𒣅
 @uage	1
 @sys	LLATU:249_03 KU~b2
+@sys AP24 KU~b2 128C5
 @sys	AP23 KU~b2
 @@
 @end sign
@@ -9287,6 +10015,7 @@
 @ucun	𒣆
 @uage	1
 @sys	LLATU:249_04 KU₃~a
+@sys AP24 KU₃~a 128C6
 @sys	AP23 KU3~a
 @@
 @form KU₃~c
@@ -9296,6 +10025,7 @@
 @ucun	𒣇
 @uage	1
 @sys	LLATU:249_05 KU₃~c
+@sys AP24 KU₃~c 128C7
 @sys	AP23 KU3~c
 @@
 @end sign
@@ -9315,6 +10045,7 @@
 @ucun	𒣈
 @uage	1
 @sys	LLATU:249_06 KU₆~a
+@sys AP24 KU₆~a 128C8
 @sys	AP23 KU6~a
 @@
 @form KU₆~c
@@ -9324,6 +10055,7 @@
 @ucun	𒣊
 @uage	1
 @sys	AP23 KU6~c
+@sys AP24 KU₆~c 128CA
 @@
 @form KU₆~d
 @oid o0901147
@@ -9332,6 +10064,7 @@
 @ucun	𒣋
 @uage	1
 @sys	AP23 KU6~d
+@sys AP24 KU₆~d 128CB
 @@
 @end sign
 
@@ -9345,6 +10078,7 @@
 @ucun	𒵟
 @uage	1
 @sys	AP23 |KU6~a.1(N02)|
+@sys AP24 |KU₆~a.1(N02)| 12D5F
 @@
 @end sign
 
@@ -9359,6 +10093,7 @@
 @ucun	𒵠
 @uage	1
 @sys	AP23 |KU6~a+GISZ|
+@sys AP24 |KU₆~a+GIŠ| 12D60
 @@
 @end sign
 
@@ -9373,6 +10108,7 @@
 @ucun	𒵡
 @uage	1
 @sys	LLATU:251_01 KU₆~a+KU₆~a
+@sys AP24 |KU₆~a+KU₆~a| 12D61
 @sys	AP23 |KU6~a+KU6~a|
 @@
 @end sign
@@ -9388,6 +10124,7 @@
 @ucun	𒣉
 @uage	1
 @sys	AP23 KU6~a@s
+@sys AP24 KU₆~a@s 128C9
 @@
 @end sign
 
@@ -9406,6 +10143,7 @@
 @ucun	𒣍
 @uage	1
 @sys	LLATU:251_02 KUR~a
+@sys AP24 KUR~a 128CD
 @sys	AP23 KUR~a
 @@
 @form KUR~b
@@ -9416,6 +10154,7 @@
 @ucun	𒣎
 @uage	1
 @sys	AP23 KUR~b
+@sys AP24 KUR~b 128CE
 @@
 @form KUR~c
 @oid o0901160
@@ -9424,6 +10163,7 @@
 @ucun	𒣏
 @uage	1
 @sys	LLATU:251_03 KUR~c
+@sys AP24 KUR~c 128CF
 @sys	AP23 KUR~c
 @@
 @form	KUR~c~v1
@@ -9433,6 +10173,7 @@
 @ucun	𒣐
 @uage	1
 @sys	AP23 KUR~c
+@sys AP24 KUR~c~v1 128D0
 @@
 @form KUR~d
 @oid o0901162
@@ -9441,6 +10182,7 @@
 @ucun	𒣑
 @uage	1
 @sys	AP23 KUR~d
+@sys AP24 KUR~d 128D1
 @@
 @compoundonly KUR~e
 @@
@@ -9457,6 +10199,7 @@
 @ucun	𒵢
 @uage	1
 @sys	AP23 |KUR~a.E2~a|
+@sys AP24 |KUR~a.E₂~a| 12D62
 @@
 @form |KUR~b.E₂~a|
 @oid o0901165
@@ -9465,6 +10208,7 @@
 @ucun	𒵤
 @uage	1
 @sys	AP23 |KUR~b.E2~a|
+@sys AP24 |KUR~b.E₂~a| 12D64
 @@
 @end sign
 
@@ -9478,6 +10222,7 @@
 @ucun	𒵣
 @uage	1
 @sys	AP23 |KUR~a.NUNUZ~a1|
+@sys AP24 |KUR~a.NUNUZ~a1| 12D63
 @@
 @end sign
 
@@ -9493,6 +10238,7 @@
 @ucun	𒣒
 @uage	1
 @sys	LLATU:254_02 LAM+KUR~a
+@sys AP24 KUR@g~a 128D2
 @sys	AP23 KUR@g~a
 @@
 @form KUR@g~b
@@ -9502,6 +10248,7 @@
 @ucun	𒣓
 @uage	1
 @sys	AP23 KUR@g~b
+@sys AP24 KUR@g~b 128D3
 @@
 @end sign
 
@@ -9517,6 +10264,7 @@
 @ucun	𒣔
 @uage	1
 @sys	AP23 KUSZU2~a
+@sys AP24 KUŠU₂~a 128D4
 @@
 @form KUŠU₂~b
 @oid o0901173
@@ -9525,6 +10273,7 @@
 @ucun	𒣕
 @uage	1
 @sys	LLATU:251_04 KUŠU₂~b
+@sys AP24 KUŠU₂~b 128D5
 @sys	AP23 KUSZU2~b
 @@
 @form KUŠU₂~c
@@ -9534,6 +10283,7 @@
 @ucun	𒣖
 @uage	1
 @sys	LLATU:251_05 KUŠU₂~c
+@sys AP24 KUŠU₂~c 128D6
 @sys	AP23 KUSZU2~c
 @@
 @form KUŠU₂~d
@@ -9543,6 +10293,7 @@
 @ucun	𒣗
 @uage	1
 @sys	LLATU:251_06 KUŠU₂~d
+@sys AP24 KUŠU₂~d 128D7
 @sys	AP23 KUSZU2~d
 @@
 @form KUŠU₂~e
@@ -9552,6 +10303,7 @@
 @ucun	𒣘
 @uage	1
 @sys	LLATU:251_07 KUŠU₂~e
+@sys AP24 KUŠU₂~e 128D8
 @sys	AP23 KUSZU2~e
 @@
 @form KUŠU₂~f
@@ -9561,6 +10313,7 @@
 @ucun	𒣙
 @uage	1
 @sys	LLATU:251_08 KUŠU₂~f
+@sys AP24 KUŠU₂~f 128D9
 @sys	AP23 KUSZU2~f
 @@
 @end sign
@@ -9581,6 +10334,7 @@
 @ucun	𒣚
 @uage	1
 @sys	LLATU:252_01 LA~b
+@sys AP24 LA~b 128DA
 @sys	AP23 LA~b
 @@
 @form LA~c
@@ -9590,6 +10344,7 @@
 @ucun	𒣛
 @uage	1
 @sys	AP23 LA~c
+@sys AP24 LA~c 128DB
 @@
 @form LA~d
 @oid o0901181
@@ -9598,6 +10353,7 @@
 @ucun	𒣜
 @uage	1
 @sys	AP23 LA~d
+@sys AP24 LA~d 128DC
 @@
 @compoundonly LA~e
 @end sign
@@ -9613,6 +10369,7 @@
 @ucun	𒣞
 @uage	1
 @sys	LLATU:252_02 LA₂
+@sys AP24 LA₂ 128DE
 @sys	AP23 LA2
 @end sign
 
@@ -9629,6 +10386,7 @@
 @ucun	𒣟
 @uage	1
 @sys	LLATU:252_03 LAGAB~a
+@sys AP24 LAGAB~a 128DF
 @sys	AP23 LAGAB~a
 @@
 @form LAGAB~b
@@ -9639,6 +10397,7 @@
 @ucun	𒣠
 @uage	1
 @sys	LLATU:252_10 LAGAB~b
+@sys AP24 LAGAB~b 128E0
 @sys	AP23 LAGAB~b
 @@
 @end sign
@@ -9664,6 +10423,7 @@
 @ucun	𒵦
 @uage	1
 @sys	AP23 |LAGAB~axBA|
+@sys AP24 |LAGAB~a×BA| 12D66
 @@
 @end sign
 
@@ -9678,6 +10438,7 @@
 @ucun	𒵼
 @uage	1
 @sys	AP23 |LAGAB~bxBANSZUR~a|
+@sys AP24 |LAGAB~b×BANŠUR~a| 12D7C
 @@
 @end sign
 
@@ -9691,6 +10452,7 @@
 @ucun	𒵧
 @uage	1
 @sys	AP23 |LAGAB~axBIR3~b|
+@sys AP24 |LAGAB~a×BIR₃~b| 12D67
 @@
 @end sign
 
@@ -9706,6 +10468,7 @@
 @ucun	𒵨
 @uage	1
 @sys	AP23 |LAGAB~axDU6~b|
+@sys AP24 |LAGAB~a×DU₆~a~v1| 12D68
 @@
 @end sign
 
@@ -9721,6 +10484,7 @@
 @ucun	𒵽
 @uage	1
 @sys	AP23 |LAGAB~bxGAʾAR~a1|
+@sys AP24 |LAGAB~b×GAʾAR~a1| 12D7D
 @@
 @end sign
 
@@ -9735,6 +10499,7 @@
 @ucun	𒵾
 @uage	1
 @sys	AP23 |LAGAB~bxHI|
+@sys AP24 |LAGAB~b×HI| 12D7E
 @@
 @end sign
 
@@ -9759,6 +10524,7 @@
 @ucun	𒵩
 @uage	1
 @sys	AP23 |LAGAB~axKAK~a|
+@sys AP24 |LAGAB~a×KAK~a| 12D69
 @@
 @end sign
 
@@ -9773,6 +10539,7 @@
 @ucun	𒵪
 @uage	1
 @sys	AP23 |LAGAB~axKU6~a|
+@sys AP24 |LAGAB~a×KU₆~a| 12D6A
 @@
 @end sign
 
@@ -9786,6 +10553,7 @@
 @ucun	𒵫
 @uage	1
 @sys	AP23 |LAGAB~ax(KU6~a+KU6~a)|
+@sys AP24 |LAGAB~a×(KU₆~a+KU₆~a)| 12D6B
 @@
 @end sign
 
@@ -9800,6 +10568,7 @@
 @ucun	𒵿
 @uage	1
 @sys	AP23 |LAGAB~bxKUR~e|
+@sys AP24 |LAGAB~b×KUR~e| 12D7F
 @@
 @end sign
 
@@ -9815,6 +10584,7 @@
 @ucun	𒵬
 @uage	1
 @sys	AP23 |LAGAB~axKUSZU2~b|
+@sys AP24 |LAGAB~a×KUŠU₂~a@t| 12D6C
 @@
 @end sign
 
@@ -9839,6 +10609,7 @@
 @ucun	𒵭
 @uage	1
 @sys	AP23 |LAGAB~axLAGAB~a|
+@sys AP24 |LAGAB~a×LAGAB~a| 12D6D
 @@
 @end sign
 
@@ -9853,6 +10624,7 @@
 @ucun	𒵮
 @uage	1
 @sys	LLATU:252_04 LAGAB~a+ME~a
+@sys AP24 |LAGAB~a×ME~a| 12D6E
 @sys	AP23 |LAGAB~axME~a|
 @@
 @end sign
@@ -9869,6 +10641,7 @@
 @ucun	𒵥
 @uage	1
 @sys	AP23 |LAGAB~ax2(N14)|
+@sys AP24 |LAGAB~a×2(N14)| 12D65
 @@
 @end sign
 
@@ -9905,6 +10678,7 @@
 @ucun	𒵯
 @uage	1
 @sys	AP23 |LAGAB~axNUN~b|
+@sys AP24 |LAGAB~a×NUN~b| 12D6F
 @@
 @end sign
 
@@ -9919,6 +10693,7 @@
 @ucun	𒵰
 @uage	1
 @sys	AP23 |LAGAB~axPA~a|
+@sys AP24 |LAGAB~a×PA~a| 12D70
 @@
 @form |LAGAB~b×PA~a|
 @oid o0901232
@@ -9927,6 +10702,7 @@
 @ucun	𒶁
 @uage	1
 @sys	AP23 |LAGAB~bxPA~a|
+@sys AP24 |LAGAB~b×PA~a| 12D81
 @@
 @end sign
 
@@ -9941,6 +10717,7 @@
 @ucun	𒵳
 @uage	1
 @sys	AP23 |LAGAB~axSI|
+@sys AP24 |LAGAB~a×SI~v1| 12D73
 @@
 @end sign
 
@@ -9955,6 +10732,7 @@
 @ucun	𒵴
 @uage	1
 @sys	AP23 |LAGAB~axSIG7|
+@sys AP24 |LAGAB~a×SIG₇~v1| 12D74
 @@
 @end sign
 
@@ -9968,6 +10746,7 @@
 @ucun	𒵵
 @uage	1
 @sys	AP23 |LAGAB~axSU~a|
+@sys AP24 |LAGAB~a×SU~a| 12D75
 @@
 @end sign
 
@@ -9981,6 +10760,7 @@
 @ucun	𒶄
 @uage	1
 @sys	AP23 |LAGAB~bxSUH3|
+@sys AP24 |LAGAB~b×SUH₃| 12D84
 @@
 @end sign
 
@@ -9996,6 +10776,7 @@
 @ucun	𒵱
 @uage	1
 @sys	LLATU:252_05 LAGAB~a+ŠA
+@sys AP24 |LAGAB~a×ŠA| 12D71
 @sys	AP23 |LAGAB~axSZA|
 @@
 @end sign
@@ -10012,6 +10793,7 @@
 @ucun	𒵲
 @uage	1
 @sys	LLATU:252_06 LAGAB~a+ŠITA~a1
+@sys AP24 |LAGAB~a×ŠITA~a1| 12D72
 @sys	AP23 |LAGAB~axSZITA~a1|
 @@
 @end sign
@@ -10026,6 +10808,7 @@
 @ucun	𒵶
 @uage	1
 @sys	LLATU:252_07 LAGAB~a+TI~a
+@sys AP24 |LAGAB~a×TI| 12D76
 @sys	AP23 |LAGAB~axTI|
 @@
 @end sign
@@ -10040,6 +10823,7 @@
 @ucun	𒵷
 @uage	1
 @sys	AP23 |LAGAB~axU4|
+@sys AP24 |LAGAB~a×U₄| 12D77
 @@
 @form |LAGAB~b×U₄|
 @oid o0901251
@@ -10048,6 +10832,7 @@
 @ucun	𒶅
 @uage	1
 @sys	AP23 |LAGAB~bxU4|
+@sys AP24 |LAGAB~b×U₄| 12D85
 @@
 @end sign
 
@@ -10061,6 +10846,7 @@
 @ucun	𒵸
 @uage	1
 @sys	AP23 |LAGAB~axUB|
+@sys AP24 |LAGAB~a×UB| 12D78
 @@
 @end sign
 
@@ -10074,6 +10860,7 @@
 @ucun	𒵹
 @uage	1
 @sys	LLATU:252_09 LAGAB~a+?
+@sys AP24 |LAGAB~a×X| 12D79
 @sys	AP23 |LAGAB~axX|
 @@
 @end sign
@@ -10089,6 +10876,7 @@
 @ucun	𒵺
 @uage	1
 @sys	LLATU:252_08 LAGAB~a+ZATU753
+@sys AP24 |LAGAB~a×ZATU753| 12D7A
 @sys	AP23 |LAGAB~axZATU753|
 @@
 @end sign
@@ -10106,6 +10894,7 @@
 @ucun	𒶀
 @uage	1
 @sys	LLATU:253_01 LAGAB~b+LAGAB~b
+@sys AP24 |LAGAB~b&LAGAB~b| 12D80
 @sys	AP23 |LAGAB~b&LAGAB~b|
 @@
 @end sign
@@ -10122,6 +10911,7 @@
 @ucun	𒣡
 @uage	1
 @sys	LLATU:253_02 LAGAR~a
+@sys AP24 LAGAR~a 128E1
 @sys	AP23 LAGAR~a
 @@
 @form LAGAR~b1
@@ -10131,6 +10921,7 @@
 @ucun	𒣣
 @uage	1
 @sys	AP23 LAGAR~b1
+@sys AP24 LAGAR~b1 128E3
 @@
 @form LAGAR~b2
 @oid o0901264
@@ -10139,6 +10930,7 @@
 @ucun	𒣤
 @uage	1
 @sys	LLATU:253_03 LAGAR~b2
+@sys AP24 LAGAR~b2 128E4
 @sys	AP23 LAGAR~b2
 @@
 @form LAGAR~c
@@ -10148,6 +10940,7 @@
 @ucun	𒣥
 @uage	1
 @sys	LLATU:253_04 LAGAR~c
+@sys AP24 LAGAR~c 128E5
 @sys	AP23 LAGAR~c
 @@
 @end sign
@@ -10162,6 +10955,7 @@
 @ucun	𒣢
 @uage	1
 @sys	AP23 LAGAR~a@r
+@sys AP24 LAGAR~a@r 128E2
 @@
 @end sign
 
@@ -10173,6 +10967,7 @@
 @ucun	𒣦
 @uage	1
 @sys	LLATU:253_05 LAHTAN₂
+@sys AP24 LAHTAN₂ 128E6
 @sys	AP23 LAHTAN2
 @end sign
 
@@ -10188,6 +10983,7 @@
 @ucun	𒣭
 @uage	1
 @sys	LLATU:253_06 LAL₂~a
+@sys AP24 LAL₂~a 128ED
 @sys	AP23 LAL2~a
 @@
 @form LAL₂~b
@@ -10197,6 +10993,7 @@
 @ucun	𒣮
 @uage	1
 @sys	AP23 LAL2~b
+@sys AP24 LAL₂~b 128EE
 @@
 @end sign
 
@@ -10212,6 +11009,7 @@
 @ucun	𒶇
 @uage	1
 @sys	AP23 |LAL2~axEZEN~a|
+@sys AP24 |LAL₂~a×EZEN~a~v1| 12D87
 @@
 @end sign
 
@@ -10236,6 +11034,7 @@
 @ucun	𒶈
 @uage	1
 @sys	AP23 |LAL2~axNIM~b2|
+@sys AP24 |LAL₂~a×NIM~b2| 12D88
 @@
 @end sign
 
@@ -10252,6 +11051,7 @@
 @ucun	𒣯
 @uage	1
 @sys	AP23 LAL3~a
+@sys AP24 LAL₃~a 128EF
 @@
 @form LAL₃~b
 @oid o0901280
@@ -10261,6 +11061,7 @@
 @ucun	𒣰
 @uage	1
 @sys	AP23 LAL3~b
+@sys AP24 LAL₃~b 128F0
 @@
 @end sign
 
@@ -10276,6 +11077,7 @@
 @ucun	𒣲
 @uage	1
 @sys	LLATU:253_07 LAM~a
+@sys AP24 LAM~a 128F2
 @sys	AP23 LAM~a
 @@
 @form LAM~b
@@ -10286,6 +11088,7 @@
 @ucun	𒣳
 @uage	1
 @sys	LLATU:254_01 LAM~b
+@sys AP24 LAM~b 128F3
 @sys	AP23 LAM~b
 @@
 @form	LAM~b~v1
@@ -10295,6 +11098,7 @@
 @ucun	𒣴
 @uage	1
 @sys	AP23 LAM~b
+@sys AP24 LAM~b~v1 128F4
 @@
 @form	LAM~b~v2
 @oid o0901286
@@ -10303,6 +11107,7 @@
 @ucun	𒣵
 @uage	1
 @sys	AP23 LAM~b
+@sys AP24 LAM~b~v2 128F5
 @@
 @end sign
 
@@ -10317,6 +11122,7 @@
 @ucun	𒣸
 @uage	1
 @sys	AP23 LAM~b@r
+@sys AP24 LAM~b@r 128F8
 @@
 @end sign
 
@@ -10331,6 +11137,7 @@
 @ucun	𒣷
 @uage	1
 @sys	AP23 LAM~b@s
+@sys AP24 LAM~b@s 128F7
 @@
 @end sign
 
@@ -10344,6 +11151,7 @@
 @ucun	𒣶
 @uage	1
 @sys	AP23 LAM~b@t
+@sys AP24 LAM~b@t 128F6
 @@
 @end sign
 
@@ -10356,6 +11164,7 @@
 @ucun	𒣺
 @uage	1
 @sys	LLATU:254_03 LI
+@sys AP24 LI 128FA
 @sys	ATFU-S LI
 @sys	AP23 LI
 @form LI~v1
@@ -10365,6 +11174,7 @@
 @ucun	𒣻
 @uage	1
 @sys	AP23 LI
+@sys AP24 LI~v1 128FB
 @@
 @end sign
 
@@ -10376,6 +11186,7 @@
 @ucun	𒣼
 @uage	1
 @sys	LLATU:254_04 LIŠ
+@sys AP24 LIŠ 128FC
 @sys	AP23 LISZ
 @end sign
 
@@ -10388,6 +11199,7 @@
 @ucun	𒣽
 @uage	1
 @sys	LLATU:254_05 LU₂
+@sys AP24 LU₂ 128FD
 @sys	ATFU-S LU₂
 @sys	ATFU-v lu₂
 @sys	AP23 LU2
@@ -10398,6 +11210,7 @@
 @ucun	𒣾
 @uage	1
 @sys	AP23 LU2
+@sys AP24 LU₂~v1 128FE
 @@
 @form LU₂~v2
 @oid o0901306
@@ -10406,6 +11219,7 @@
 @ucun	𒣿
 @uage	1
 @sys	AP23 LU2
+@sys AP24 LU₂~v2 128FF
 @@
 @end sign
 
@@ -10420,6 +11234,7 @@
 @ucun	𒶉
 @uage	1
 @sys	AP23 |LU2xGESZTU~c3|
+@sys AP24 |LU₂×GEŠTU~c3| 12D89
 @@
 @end sign
 
@@ -10432,6 +11247,7 @@
 @ucun	𒤁
 @uage	1
 @sys	AP23 LUGAL
+@sys AP24 LUGAL 12901
 @sys	ATFU-S LUGAL
 @sys	ATFU-v lugal
 @form LUGAL~v1
@@ -10441,6 +11257,7 @@
 @ucun	𒤂
 @uage	1
 @sys	AP23 LUGAL
+@sys AP24 LUGAL~v1 12902
 @@
 @end sign
 
@@ -10453,6 +11270,7 @@
 @ucun	𒤃
 @uage	1
 @sys	LLATU:254_06 LUM
+@sys AP24 LUM 12903
 @sys	AP23 LUM
 @end sign
 
@@ -10464,6 +11282,7 @@
 @ucun	𒤄
 @uage	1
 @sys	LLATU:254_07 MA
+@sys AP24 MA 12904
 @sys	ATFU-S MA
 @sys	ATFU-v ma
 @sys	AP23 MA
@@ -10475,6 +11294,7 @@
 @ucun	𒤅
 @uage	1
 @sys	AP23 MA
+@sys AP24 MA~v1 12905
 @@
 @end sign
 
@@ -10487,6 +11307,7 @@
 @ucun	𒶌
 @uage	1
 @sys	AP23 |MAxA|
+@sys AP24 |MA~v1×A| 12D8C
 @end sign
 
 @sign |MA×MA|
@@ -10497,6 +11318,7 @@
 @ucun	𒶍
 @uage	1
 @sys	AP23 |MAxMA|
+@sys AP24 |MA×MA| 12D8D
 @end sign
 
 
@@ -10507,6 +11329,7 @@
 @ucun	𒶊
 @uage	1
 @sys	AP23 |MAx1(N58)|
+@sys AP24 |MA×1(N58)| 12D8A
 @end sign
 
 
@@ -10518,6 +11341,7 @@
 @ucun	𒤆
 @uage	1
 @sys	AP23 MA2
+@sys AP24 MA₂ 12906
 @end sign
 
 @sign MAGUR
@@ -10532,6 +11356,7 @@
 @ucun	𒤇
 @uage	1
 @sys	AP23 MAGUR~a
+@sys AP24 MAGUR~a 12907
 @@
 @form MAGUR~b
 @oid o0901323
@@ -10540,6 +11365,7 @@
 @ucun	𒤈
 @uage	1
 @sys	AP23 MAGUR~b
+@sys AP24 MAGUR~b 12908
 @@
 @end sign
 
@@ -10555,6 +11381,7 @@
 @ucun	𒤉
 @uage	1
 @sys	LLATU:255_01 MAH~a
+@sys AP24 MAH~a 12909
 @sys	AP23 MAH~a
 @@
 @form MAH~b
@@ -10564,6 +11391,7 @@
 @ucun	𒤊
 @uage	1
 @sys	AP23 MAH~b
+@sys AP24 MAH~b 1290A
 @@
 @end sign
 
@@ -10577,6 +11405,7 @@
 @ucun	𒶏
 @uage	1
 @sys	AP23 |MAH~axAB2|
+@sys AP24 |MAH~a×AB₂| 12D8F
 @@
 @end sign
 
@@ -10591,6 +11420,7 @@
 @ucun	𒶐
 @uage	1
 @sys	AP23 |MAH~axGUKKAL~a|
+@sys AP24 |MAH~a×GUKKAL~a| 12D90
 @@
 @end sign
 
@@ -10605,6 +11435,7 @@
 @ucun	𒶑
 @uage	1
 @sys	AP23 |MAH~axKU6~a|
+@sys AP24 |MAH~a×KU₆~a| 12D91
 @@
 @form |MAH~b×KU₆~a|
 @oid o0901333
@@ -10613,6 +11444,7 @@
 @ucun	𒶜
 @uage	1
 @sys	AP23 |MAH~bxKU6~a|
+@sys AP24 |MAH~b×KU₆~a| 12D9C
 @@
 @end sign
 
@@ -10627,6 +11459,7 @@
 @ucun	𒶒
 @uage	1
 @sys	AP23 |MAH~axMASZ|
+@sys AP24 |MAH~a×MAŠ| 12D92
 @@
 @form |MAH~b×MAŠ|
 @oid o0901336
@@ -10635,6 +11468,7 @@
 @ucun	𒶝
 @uage	1
 @sys	AP23 |MAH~bxMASZ|
+@sys AP24 |MAH~b×MAŠ| 12D9D
 @@
 @end sign
 
@@ -10648,6 +11482,7 @@
 @ucun	𒶓
 @uage	1
 @sys	AP23 |MAH~axNA~a|
+@sys AP24 |MAH~a×NA~a| 12D93
 @@
 @form |MAH~b×NA~a|
 @oid o0901339
@@ -10656,6 +11491,7 @@
 @ucun	𒶞
 @uage	1
 @sys	AP23 |MAH~bxNA~a|
+@sys AP24 |MAH~b×NA~a| 12D9E
 @@
 @end sign
 
@@ -10670,6 +11506,7 @@
 @ucun	𒶟
 @uage	1
 @sys	AP23 |MAH~bxSAL|
+@sys AP24 |MAH~b×SAL| 12D9F
 @@
 @end sign
 
@@ -10684,6 +11521,7 @@
 @ucun	𒶔
 @uage	1
 @sys	AP23 |MAH~ax(SILA3~axUMBIN~a)|
+@sys AP24 |MAH~a×(SILA₃~a×UMBIN~a)| 12D94
 @@
 @end sign
 
@@ -10698,6 +11536,7 @@
 @ucun	𒶕
 @uage	1
 @sys	AP23 |MAH~axTUG2~a|
+@sys AP24 |MAH~a×TUG₂~a| 12D95
 @@
 @end sign
 
@@ -10724,6 +11563,7 @@
 @ucun	𒶖
 @uage	1
 @sys	AP23 |MAH~axUD5~a|
+@sys AP24 |MAH~a×UD₅~a~v1| 12D96
 @@
 @end sign
 
@@ -10738,6 +11578,7 @@
 @ucun	𒶗
 @uage	1
 @sys	AP23 |MAH~axUDU~a|
+@sys AP24 |MAH~a×UDU~a| 12D97
 @@
 @end sign
 
@@ -10752,6 +11593,7 @@
 @ucun	𒶘
 @uage	1
 @sys	AP23 |MAH~axUR~a|
+@sys AP24 |MAH~a×UR~a| 12D98
 @@
 @end sign
 
@@ -10766,6 +11608,7 @@
 @ucun	𒶙
 @uage	1
 @sys	AP23 |MAH~axUTUA~a|
+@sys AP24 |MAH~a×UTUA~a| 12D99
 @@
 @end sign
 
@@ -10779,6 +11622,7 @@
 @ucun	𒶚
 @uage	1
 @sys	AP23 |MAH~axX|
+@sys AP24 |MAH~a×X| 12D9A
 @@
 @end sign
 
@@ -10792,6 +11636,7 @@
 @ucun	𒶛
 @uage	1
 @sys	AP23 |MAH~axZATU659|
+@sys AP24 |MAH~a×ZATU659| 12D9B
 @@
 @end sign
 
@@ -10808,6 +11653,7 @@
 @ucun	𒤋
 @uage	1
 @sys	LLATU:255_02 MAR~a
+@sys AP24 MAR~a 1290B
 @sys	AP23 MAR~a
 @@
 @form	MAR~a~v1
@@ -10817,6 +11663,7 @@
 @ucun	𒤌
 @uage	1
 @sys	AP23 MAR~a
+@sys AP24 MAR~a~v1 1290C
 @@
 @form MAR~b
 @oid o0901363
@@ -10825,6 +11672,7 @@
 @ucun	𒤎
 @uage	1
 @sys	LLATU:255_05 MAR~b
+@sys AP24 MAR~b 1290E
 @sys	AP23 MAR~b
 @@
 @end sign
@@ -10852,6 +11700,7 @@
 @ucun	𒶠
 @uage	1
 @sys	AP23 |MAR~bx(LAGAB~b.SZE3)|
+@sys AP24 |MAR~b×(LAGAB~b.ŠE₃~v1)| 12DA0
 @@
 @end sign
 
@@ -10866,6 +11715,7 @@
 @ucun	𒶡
 @uage	1
 @sys	AP23 |MAR~bxSZE~a|
+@sys AP24 |MAR~b×ŠE~a| 12DA1
 @@
 @end sign
 
@@ -10879,6 +11729,7 @@
 @ucun	𒶢
 @uage	1
 @sys	LLATU:255_06 MAR~b+?
+@sys AP24 |MAR~b×X| 12DA2
 @sys	AP23 |MAR~bxX|
 @@
 @end sign
@@ -10910,6 +11761,7 @@
 	a different form of MAR@g--named there MAR@g~a.  We probably need to call
 	the CUSAS form MAR~a@g~v1.
 @sys	LLATU:255_04 MAR~a@t
+@sys AP24 MAR~a@t 1290D
 @sys	AP23 MAR~a@t
 @@
 @end sign
@@ -10923,6 +11775,7 @@
 @ucun	𒤏
 @uage	1
 @sys	LLATU:255_07 MAŠ
+@sys AP24 MAŠ 1290F
 @sys	AP23 MASZ
 @end sign
 
@@ -10936,6 +11789,7 @@
 @ucun	𒤐
 @uage	1
 @sys	LLATU:255_08 MAŠ₂
+@sys AP24 MAŠ₂ 12910
 @sys	ATFU-S MAŠ₂
 @sys	ATFU-v maš₂
 @sys	AP23 MASZ2
@@ -10948,6 +11802,7 @@
 @ucun	𒤑
 @uage	1
 @sys	AP23 MASZ2@g
+@sys AP24 MAŠ₂@g 12911
 @end sign
 
 @sign ME
@@ -10965,6 +11820,7 @@
 @ucun	𒤒
 @uage	1
 @sys	LLATU:256_01 ME~a
+@sys AP24 ME~a 12912
 @sys	AP23 ME~a
 @@
 @form ME~b
@@ -10974,6 +11830,7 @@
 @ucun	𒤓
 @uage	1
 @sys	LLATU:257_01 ME~b
+@sys AP24 ME~b 12913
 @sys	AP23 ME~b
 @@
 @end sign
@@ -10986,6 +11843,7 @@
 @ucun	𒤔
 @uage	1
 @sys	AP23 ME3
+@sys AP24 ME₃ 12914
 @end sign
 
 @sign MEN
@@ -11000,6 +11858,7 @@
 @ucun	𒤕
 @uage	1
 @sys	LLATU:257_02 MEN~a
+@sys AP24 MEN~a 12915
 @sys	AP23 MEN~a
 @@
 @form	MEN~a~v1
@@ -11010,6 +11869,7 @@
 @ucun	𒤖
 @uage	1
 @sys	AP23 MEN~a
+@sys AP24 MEN~a~v1 12916
 @@
 @form MEN~b
 @oid o0901386
@@ -11018,6 +11878,7 @@
 @ucun	𒤗
 @uage	1
 @sys	AP23 MEN~b
+@sys AP24 MEN~b 12917
 @@
 @end sign
 
@@ -11030,6 +11891,7 @@
 @ucun	𒤘
 @uage	1
 @sys	LLATU:257_03 MES~a
+@sys AP24 MES 12918
 @sys	AP23 MES
 @form MES~v1
 @oid o0901388
@@ -11038,6 +11900,7 @@
 @ucun	𒤙
 @uage	1
 @sys	AP23 MES
+@sys AP24 MES~v1 12919
 @@
 @end sign
 
@@ -11053,6 +11916,7 @@
 @ucun	𒤚
 @uage	1
 @sys	LLATU:257_04 MIR~a
+@sys AP24 MIR~a 1291A
 @sys	AP23 MIR~a
 @@
 @form MIR~b
@@ -11062,6 +11926,7 @@
 @ucun	𒤛
 @uage	1
 @sys	LLATU:257_05 MIR~b
+@sys AP24 MIR~b 1291B
 @sys	AP23 MIR~b
 @@
 @end sign
@@ -11075,6 +11940,7 @@
 @ucun	𒤜
 @uage	1
 @sys	LLATU:258_01 MU
+@sys AP24 MU 1291C
 @sys	ATFU-S MU
 @sys	ATFU-v ŋu₁₀
 @sys	AP23 MU
@@ -11089,6 +11955,7 @@
 @ucun	𒤝
 @uage	1
 @sys	LLATU:258_02 MUD
+@sys AP24 MUD 1291D
 @sys	ATFU-S MUD
 @sys	ATFU-v mud
 @sys	AP23 MUD
@@ -11099,6 +11966,7 @@
 @ucun	𒤞
 @uage	1
 @sys	AP23 MUD
+@sys AP24 MUD~v1 1291E
 @@
 @end sign
 
@@ -11114,6 +11982,7 @@
 @ucun	𒤟
 @uage	1
 @sys	LLATU:258_03 MUD₃~a
+@sys AP24 MUD₃~a 1291F
 @sys	AP23 MUD3~a
 @@
 @form MUD₃~b
@@ -11123,6 +11992,7 @@
 @ucun	𒤡
 @uage	1
 @sys	AP23 MUD3~b
+@sys AP24 MUD₃~b 12921
 @@
 @form MUD₃~c
 @oid o0901398
@@ -11131,6 +12001,7 @@
 @ucun	𒤢
 @uage	1
 @sys	LLATU:258_04 MUD₃~c
+@sys AP24 MUD₃~c 12922
 @sys	AP23 MUD3~c
 @@
 @form MUD₃~d
@@ -11140,6 +12011,7 @@
 @ucun	𒤣
 @uage	1
 @sys	AP23 MUD3~d
+@sys AP24 MUD₃~d 12923
 @@
 @end sign
 
@@ -11156,6 +12028,7 @@
 @ucun	𒤠
 @uage	1
 @sys	AP23 MUD3~a@g
+@sys AP24 MUD₃~a@g 12920
 @@
 @end sign
 
@@ -11168,6 +12041,7 @@
 @ucun	𒤤
 @uage	1
 @sys	LLATU:258_06 MUL
+@sys AP24 MUL 12924
 @sys	AP23 MUL
 @inote add BAR×MUL from P000299?
 @end sign
@@ -11184,6 +12058,7 @@
 @ucun	𒤥
 @uage	1
 @sys	AP23 MUN~a1
+@sys AP24 MUN~a1 12925
 @@
 @form MUN~a2
 @oid o0901408
@@ -11192,6 +12067,7 @@
 @ucun	𒤦
 @uage	1
 @sys	LLATU:258_07 MUN~a2
+@sys AP24 MUN~a2 12926
 @sys	AP23 MUN~a2
 @@
 @form MUN~a3
@@ -11201,6 +12077,7 @@
 @ucun	𒤧
 @uage	1
 @sys	AP23 MUN~a3
+@sys AP24 MUN~a3 12927
 @@
 @form MUN~a4
 @oid o0901410
@@ -11209,6 +12086,7 @@
 @ucun	𒤨
 @uage	1
 @sys	LLATU:258_08 MUN~a4
+@sys AP24 MUN~a4 12928
 @sys	AP23 MUN~a4
 @@
 @form MUN~b
@@ -11220,6 +12098,7 @@
 @ucun	𒤩
 @uage	1
 @sys	LLATU:259_01 MUN~b
+@sys AP24 MUN~b 12929
 @sys	AP23 MUN~b
 @@
 @end sign
@@ -11236,6 +12115,7 @@
 @ucun	𒤪
 @uage	1
 @sys	AP23 MUNSZUB~a
+@sys AP24 MUNŠUB~a 1292A
 @@
 @form MUNŠUB~b
 @oid o0901414
@@ -11244,6 +12124,7 @@
 @ucun	𒤫
 @uage	1
 @sys	LLATU:259_02 MUNŠUB~b
+@sys AP24 MUNŠUB~b 1292B
 @sys	AP23 MUNSZUB~b
 @@
 @end sign
@@ -11256,6 +12137,7 @@
 @ucun	𒤬
 @uage	1
 @sys	LLATU:259_03 MUNU₃
+@sys AP24 MUNU₃ 1292C
 @sys	AP23 MUNU3
 @end sign
 
@@ -11267,6 +12149,7 @@
 @ucun	𒤭
 @uage	1
 @sys	AP23 MURUB2
+@sys AP24 MURUB₂ 1292D
 @end sign
 
 @sign MUŠ
@@ -11279,6 +12162,7 @@
 @ucun	𒤮
 @uage	1
 @sys	LLATU:259_04 MUŠ
+@sys AP24 MUŠ 1292E
 @sys	ATFU-S MUŠ
 @sys	ATFU-v nirah
 @sys	AP23 MUSZ
@@ -11298,6 +12182,7 @@
 @ucun	𒤯
 @uage	1
 @sys	AP23 MUSZ3~a
+@sys AP24 MUŠ₃~a 1292F
 @@
 @form	MUŠ₃~a~v1
 @oid o0901420
@@ -11306,11 +12191,13 @@
 @ucun	𒤰
 @uage	1
 @sys	AP23 MUSZ3~a
+@sys AP24 MUŠ₃~a~v1 12930
 @@
 @form	MUŠ₃~a~v2
 @oid o0901421
 @list	BAU249
 @sys	LLATU:259_05 MUŠ₃~a
+@sys AP24 MUŠ₃~a~v2 12931
 @uname	PROTO-CUNEIFORM SIGN MUSH3-A VARIANT 2
 @list	U+12931
 @ucun	𒤱
@@ -11324,6 +12211,7 @@
 @ucun	𒤴
 @uage	1
 @sys	AP23 MUSZ3~b
+@sys AP24 MUŠ₃~b 12934
 @@
 @end sign
 
@@ -11338,6 +12226,7 @@
 @ucun	𒤲
 @uage	1
 @sys	AP23 MUSZ3~a@g
+@sys AP24 MUŠ₃~a@g 12932
 @@
 @form MUŠ₃~a@g~v1
 @oid o0901425
@@ -11346,6 +12235,7 @@
 @ucun	𒤳
 @uage	1
 @sys	AP23 MUSZ3~a@g
+@sys AP24 MUŠ₃~a@g~v1 12933
 @@
 @end sign
 
@@ -11358,6 +12248,7 @@
 @ucun	𒤵
 @uage	1
 @sys	LLATU:259_06 MUŠEN
+@sys AP24 MUŠEN 12935
 @sys	ATFU-S MUŠEN
 @sys	AP23 MUSZEN
 @end sign
@@ -11379,6 +12270,7 @@
 @ucun	𒶨
 @uage	1
 @sys	AP23 |MUSZEN.UR3~b2|
+@sys AP24 |MUŠEN.UR₃~b2| 12DA8
 @@
 @end sign
 
@@ -11389,6 +12281,7 @@
 @ucun	𒶤
 @uage	1
 @sys	AP23 |MUSZENx1(N57)|
+@sys AP24 |MUŠEN×1(N57)| 12DA4
 @end sign
 
 @sign |MUŠEN×2(N57)|
@@ -11398,6 +12291,7 @@
 @ucun	𒶥
 @uage	1
 @sys	AP23 |MUSZENx2(N57)|
+@sys AP24 |MUŠEN×2(N57)| 12DA5
 @end sign
 
 @sign |MUŠEN×3(N57)|
@@ -11407,6 +12301,7 @@
 @ucun	𒶦
 @uage	1
 @sys	AP23 |MUSZENx3(N57)|
+@sys AP24 |MUŠEN×3(N57)| 12DA6
 @end sign
 
 @sign |MUŠEN×PAP|
@@ -11419,6 +12314,7 @@
 @ucun	𒶧
 @uage	1
 @sys	AP23 |MUSZENxPAP~a|
+@sys AP24 |MUŠEN×PAP~a| 12DA7
 @@
 @end sign
 
@@ -11430,6 +12326,7 @@
 @ucun	𒶩
 @uage	1
 @sys	AP23 |MUSZENxX|
+@sys AP24 |MUŠEN×X| 12DA9
 @end sign
 
 @compoundonly	N(N01)
@@ -11451,6 +12348,7 @@
 @ucun	𒤶
 @uage	1
 @sys	LLATU:260_01 NA~a
+@sys AP24 NA~a 12936
 @sys	AP23 NA~a
 @@
 @form NA~b
@@ -11460,6 +12358,7 @@
 @ucun	𒤷
 @uage	1
 @sys	LLATU:260_02 NA~b
+@sys AP24 NA~b 12937
 @sys	AP23 NA~b
 @@
 @form NA~c
@@ -11469,6 +12368,7 @@
 @ucun	𒤸
 @uage	1
 @sys	LLATU:261_01 NA~c
+@sys AP24 NA~c 12938
 @sys	AP23 NA~c
 @@
 @form NA~d
@@ -11478,6 +12378,7 @@
 @ucun	𒤹
 @uage	1
 @sys	AP23 NA~d
+@sys AP24 NA~d 12939
 @@
 @end sign
 
@@ -11494,6 +12395,7 @@
 @ucun	𒤺
 @uage	1
 @sys	LLATU:261_02 NA₂~a
+@sys AP24 NA₂~a 1293A
 @sys	AP23 NA2~a
 @@
 @form	NA₂~a~v1
@@ -11503,6 +12405,7 @@
 @ucun	𒤻
 @uage	1
 @sys	AP23 NA2~a
+@sys AP24 NA₂~a~v1 1293B
 @@
 @compoundonly NA₂~b
 @@
@@ -11513,6 +12416,7 @@
 @ucun	𒤼
 @uage	1
 @sys	AP23 NA2~b1
+@sys AP24 NA₂~b1 1293C
 @@
 @form NA₂~b2
 @oid o0901445
@@ -11521,6 +12425,7 @@
 @ucun	𒤽
 @uage	1
 @sys	AP23 NA2~b2
+@sys AP24 NA₂~b2 1293D
 @@
 @form NA₂~c
 @oid o0901446
@@ -11542,6 +12447,7 @@
 @ucun	𒤾
 @uage	1
 @sys	ATFU-S NAB
+@sys AP24 NAB 1293E
 @sys	ATFU-v nab?
 @sys	AP23 NAB
 @form NAB~v1
@@ -11551,6 +12457,7 @@
 @ucun	𒤿
 @uage	1
 @sys	AP23 NAB
+@sys AP24 NAB~v1 1293F
 @@
 @form NAB~v2
 @oid o0901450
@@ -11560,6 +12467,7 @@
 @ucun	𒥀
 @uage	1
 @sys	AP23 NAB
+@sys AP24 NAB~v2 12940
 @@
 @end sign
 
@@ -11578,6 +12486,7 @@
 @ucun	𒥁
 @uage	1
 @sys	LLATU:261_03 NAGA~a
+@sys AP24 NAGA~a 12941
 @sys	AP23 NAGA~a
 @@
 @form NAGA~b
@@ -11587,6 +12496,7 @@
 @ucun	𒥂
 @uage	1
 @sys	LLATU:261_04 NAGA~b
+@sys AP24 NAGA~b 12942
 @sys	AP23 NAGA~b
 @@
 @end sign
@@ -11601,6 +12511,7 @@
 @ucun	𒶪
 @uage	1
 @sys	AP23 |NAGA~axTAK4~a|
+@sys AP24 |NAGA~a×TAK₄~a| 12DAA
 @@
 @end sign
 
@@ -11616,6 +12527,7 @@
 @ucun	𒥃
 @uage	1
 @sys	LLATU:261_05 NAGAR~a
+@sys AP24 NAGAR~a 12943
 @sys	AP23 NAGAR~a
 @@
 @form	NAGAR~a~v1
@@ -11625,6 +12537,7 @@
 @ucun	𒥄
 @uage	1
 @sys	AP23 NAGAR~a
+@sys AP24 NAGAR~a~v1 12944
 @@
 @form	NAGAR~a~v2
 @oid o0901459
@@ -11633,6 +12546,7 @@
 @ucun	𒥅
 @uage	1
 @sys	AP23 NAGAR~a
+@sys AP24 NAGAR~a~v2 12945
 @@
 @form	NAGAR~a~v3
 @oid o0901460
@@ -11641,6 +12555,7 @@
 @ucun	𒥆
 @uage	1
 @sys	AP23 NAGAR~a
+@sys AP24 NAGAR~a~v3 12946
 @@
 @form NAGAR~b
 @oid o0901461
@@ -11651,6 +12566,7 @@
 @ucun	𒥇
 @uage	1
 @sys	LLATU:262_01 NAGAR~b
+@sys AP24 NAGAR~b 12947
 @sys	AP23 NAGAR~b
 @@
 @form	NAGAR~b~v1
@@ -11660,6 +12576,7 @@
 @ucun	𒥈
 @uage	1
 @sys	AP23 NAGAR~b
+@sys AP24 NAGAR~b~v1 12948
 @@
 @end sign
 
@@ -11677,6 +12594,7 @@
 @ucun	𒥉
 @uage	1
 @sys	AP23 NAM~a
+@sys AP24 NAM~a 12949
 @@
 @form NAM~b
 @oid o0901465
@@ -11685,6 +12603,7 @@
 @ucun	𒥊
 @uage	1
 @sys	AP23 NAM~b
+@sys AP24 NAM~b 1294A
 @@
 @form NAM~c
 @oid o0901466
@@ -11694,6 +12613,7 @@
 @ucun	𒥋
 @uage	1
 @sys	AP23 NAM~c
+@sys AP24 NAM~c 1294B
 @@
 @form NAM~d
 @oid o0901467
@@ -11702,6 +12622,7 @@
 @ucun	𒥌
 @uage	1
 @sys	LLATU:263_01 NAM~d
+@sys AP24 NAM~d 1294C
 @sys	AP23 NAM~d
 @@
 @end sign
@@ -11715,6 +12636,7 @@
 @ucun	𒥍
 @uage	1
 @sys	LLATU:263_02 NAM₂
+@sys AP24 NAM₂ 1294D
 @sys	ATFU-S NAM₂
 @sys	ATFU-v nam₂
 @sys	AP23 NAM2
@@ -11732,6 +12654,7 @@
 @ucun	𒶫
 @uage	1
 @sys	AP23 |NAM2x1(N01)|
+@sys AP24 |NAM₂×1(N01)| 12DAB
 @end sign
 
 @sign NAM₂@g
@@ -11743,6 +12666,7 @@
 @ucun	𒥏
 @uage	1
 @sys	LLATU:265_01 NAM₂@g
+@sys AP24 NAM₂@g 1294F
 @sys	AP23 NAM2@g
 @end sign
 
@@ -11754,6 +12678,7 @@
 @ucun	𒥎
 @uage	1
 @sys	AP23 NAM2@t
+@sys AP24 NAM₂@t 1294E
 @end sign
 
 @sign NAMEŠDA
@@ -11766,6 +12691,7 @@
 @ucun	𒥐
 @uage	1
 @sys	LLATU:265_02 NAMEŠDA
+@sys AP24 NAMEŠDA 12950
 @sys	AP23 NAMESZDA
 @form NAMEŠDA~v1
 @oid o0901473
@@ -11774,6 +12700,7 @@
 @ucun	𒥑
 @uage	1
 @sys	AP23 NAMESZDA
+@sys AP24 NAMEŠDA~v1 12951
 @@
 @end sign
 
@@ -11790,6 +12717,7 @@
 @ucun	𒥒
 @uage	1
 @sys	ATFU-S NANNA~a
+@sys AP24 NANNA~a 12952
 @sys	ATFU-v nannaₓ
 @sys	AP23 NANNA~a
 @@
@@ -11800,6 +12728,7 @@
 @ucun	𒥓
 @uage	1
 @sys	AP23 NANNA~a
+@sys AP24 NANNA~a~v1 12953
 @@
 @form NANNA~b
 @oid o0901477
@@ -11808,6 +12737,7 @@
 @ucun	𒥔
 @uage	1
 @sys	AP23 NANNA~b
+@sys AP24 NANNA~b 12954
 @@
 @end sign
 
@@ -11825,6 +12755,7 @@
 @ucun	𒥕
 @uage	1
 @sys	AP23 NANSZE~a
+@sys AP24 NANŠE~a 12955
 @@
 @form NANŠE~b
 @oid o0901480
@@ -11833,6 +12764,7 @@
 @ucun	𒥖
 @uage	1
 @sys	LLATU:266_01 NANŠE~b
+@sys AP24 NANŠE~b 12956
 @sys	AP23 NANSZE~b
 @@
 @end sign
@@ -11846,6 +12778,7 @@
 @ucun	𒥗
 @uage	1
 @sys	LLATU:266_02 NAR
+@sys AP24 NAR 12957
 @sys	ATFU-S NAR
 @sys	ATFU-v nar
 @sys	AP23 NAR
@@ -11864,6 +12797,7 @@
 @list	BAU103a
 @uage	1
 @sys	LLATU:266_03 NE~a
+@sys AP24 NE~a 12958
 @sys	ATFU-S NE~a
 @sys	ATFU-v bil?
 @sys	AP23 NE~a
@@ -11875,6 +12809,7 @@
 @ucun	𒥙
 @uage	1
 @sys	AP23 NE~a
+@sys AP24 NE~a~v1 12959
 @@
 @form	NE~a~v2
 @oid o0901485
@@ -11883,6 +12818,7 @@
 @ucun	𒥚
 @uage	1
 @sys	AP23 NE~a
+@sys AP24 NE~a~v2 1295A
 @@
 @form NE~b
 @oid o0901486
@@ -11891,6 +12827,7 @@
 @ucun	𒥛
 @uage	1
 @sys	AP23 NE~b
+@sys AP24 NE~b 1295B
 @@
 @form NE~c
 @oid o0901487
@@ -11899,6 +12836,7 @@
 @ucun	𒥜
 @uage	1
 @sys	AP23 NE~c
+@sys AP24 NE~c 1295C
 @@
 @form NE~d
 @oid o0901488
@@ -11907,6 +12845,7 @@
 @ucun	𒥝
 @uage	1
 @sys	LLATU:266_04 NE~d
+@sys AP24 NE~d 1295D
 @sys	AP23 NE~d
 @@
 @end sign
@@ -11925,6 +12864,7 @@
 @ucun	𒥞
 @uage	1
 @sys	LLATU:267_01 NERGAL~x
+@sys AP24 NERGAL~v 1295E
 @sys	AP23 NERGAL~x
 @@
 @end sign
@@ -11945,6 +12885,7 @@
 @ucun	𒥟
 @uage	1
 @sys	LLATU:270_09 NESAG₂~a
+@sys AP24 NESAG₂~a 1295F
 @sys	AP23 NESAG2~a
 @@
 @form NESAG₂~a2
@@ -11968,6 +12909,7 @@
 @ucun	𒥡
 @uage	1
 @sys	LLATU:271_01 NESAG₂~b
+@sys AP24 NESAG₂~b 12961
 @sys	AP23 NESAG2~b
 @@
 @form	NESAG₂~b~v1
@@ -11977,6 +12919,7 @@
 @ucun	𒥢
 @uage	1
 @sys	AP23 NESAG2~b
+@sys AP24 NESAG₂~b~v1 12962
 @@
 @end sign
 
@@ -11990,6 +12933,7 @@
 @ucun	𒥣
 @uage	1
 @sys	AP23 NESAG2~b@t
+@sys AP24 NESAG₂~b@t 12963
 @@
 @end sign
 
@@ -12010,6 +12954,7 @@
 @ucun	𒥤
 @uage	1
 @sys	LLATU:267_02 NI~a
+@sys AP24 NI~a 12964
 @sys	AP23 NI~a
 @sys	ATFU-S NI~a
 @sys	ATFU-v i₃ ni
@@ -12022,6 +12967,7 @@
 @ucun	𒥦
 @uage	1
 @sys	LLATU:267_03 NI~b
+@sys AP24 NI~b 12966
 @sys	ATFU-S NI~b
 @sys	ATFU-v ni?
 @sys	AP23 NI~b
@@ -12039,6 +12985,7 @@
 @ucun	𒶭
 @uage	1
 @sys	AP23 |NI~a.RU|
+@sys AP24 |NI~a.RU~v1| 12DAD
 @@
 @end sign
 
@@ -12052,6 +12999,7 @@
 @ucun	𒶬
 @uage	1
 @sys	AP23 |NI~ax1(N57)|
+@sys AP24 |NI~a×1(N57)| 12DAC
 @@
 @end sign
 
@@ -12065,6 +13013,7 @@
 @ucun	𒶮
 @uage	1
 @sys	LLATU:268_01 NI~b+4(N57)
+@sys AP24 |NI~b×4(N57)| 12DAE
 @sys	AP23 |NI~bx4(N57)|
 @@
 @end sign
@@ -12079,6 +13028,7 @@
 @ucun	𒶯
 @uage	1
 @sys	LLATU:268_03 NI~b+?
+@sys AP24 |NI~b×X| 12DAF
 @sys	AP23 |NI~bxX|
 @@
 @end sign
@@ -12095,6 +13045,7 @@
 @ucun	𒥥
 @uage	1
 @sys	AP23 NI~a@g
+@sys AP24 NI~a@g 12965
 @@
 @end sign
 
@@ -12108,6 +13059,7 @@
 @ucun	𒥧
 @uage	1
 @sys	LLATU:268_04 NI₂
+@sys AP24 NI₂ 12967
 @sys	ATFU-S NI₂
 @sys	ATFU-v ni₂
 @sys	AP23 NI2
@@ -12121,6 +13073,7 @@
 @ucun	𒥨
 @uage	1
 @sys	LLATU:268_05 NIGIN
+@sys AP24 NIGIN 12968
 @sys	AP23 NIGIN
 @end sign
 
@@ -12136,6 +13089,7 @@
 @ucun	𒥩
 @uage	1
 @sys	LLATU:269_01 NIM~a
+@sys AP24 NIM~a 12969
 @sys	AP23 NIM~a
 @@
 @form NIM~b1
@@ -12145,6 +13099,7 @@
 @ucun	𒥪
 @uage	1
 @sys	LLATU:269_02 NIM~b1
+@sys AP24 NIM~b1 1296A
 @sys	AP23 NIM~b1
 @@
 @form NIM~b2
@@ -12154,6 +13109,7 @@
 @ucun	𒥫
 @uage	1
 @sys	LLATU:269_03 NIM~b2
+@sys AP24 NIM~b2 1296B
 @sys	AP23 NIM~b2
 @@
 @form NIM~b3
@@ -12163,6 +13119,7 @@
 @ucun	𒥬
 @uage	1
 @sys	AP23 NIM~b3
+@sys AP24 NIM~b3 1296C
 @@
 @form NIM~d
 @oid o0901520
@@ -12180,6 +13137,7 @@
 @ucun	𒥭
 @uage	1
 @sys	LLATU:269_04 NIMGIR
+@sys AP24 NIMGIR 1296D
 @sys	AP23 NIMGIR
 @form NIMGIR~v1
 @oid o0901522
@@ -12188,6 +13146,7 @@
 @ucun	𒥮
 @uage	1
 @sys	AP23 NIMGIR
+@sys AP24 NIMGIR~v1 1296E
 @@
 @end sign
 
@@ -12201,6 +13160,7 @@
 @ucun	𒥯
 @uage	1
 @sys	LLATU:269_05 NIN
+@sys AP24 NIN 1296F
 @sys	ATFU-S NIN
 @sys	ATFU-v nin
 @sys	AP23 NIN
@@ -12214,6 +13174,7 @@
 @ucun	𒥰
 @uage	1
 @sys	LLATU:269_06 NINDA₂
+@sys AP24 NINDA₂ 12970
 @sys	AP23 NINDA2
 @form NINDA₂~v1
 @oid o0901526
@@ -12222,6 +13183,7 @@
 @ucun	𒥱
 @uage	1
 @sys	AP23 NINDA2
+@sys AP24 NINDA₂~v1 12971
 @@
 @end sign
 
@@ -12232,6 +13194,7 @@
 @ucun	𒶴
 @uage	1
 @sys	AP23 |NINDA2xAN|
+@sys AP24 |NINDA₂×AN| 12DB4
 @end sign
 
 @sign |NINDA₂×(AN.HI)|
@@ -12241,6 +13204,7 @@
 @ucun	𒶵
 @uage	1
 @sys	AP23 |NINDA2x(AN.HI)|
+@sys AP24 |NINDA₂×(AN.HI)| 12DB5
 @end sign
 
 @sign |NINDA₂×GUDU₄|
@@ -12255,6 +13219,7 @@
 @ucun	𒷅
 @uage	1
 @sys	AP23 |NINDA2x(HI.ME~a)| 1847
+@sys AP24 |NINDA₂×(HI.ME~a)| 12DC5
 @@
 @form |NINDA₂×(HI~a1.ME~a)|
 @oid o0901531
@@ -12266,6 +13231,7 @@
 @ucun	𒶿
 @uage	1
 @sys	AP23 |NINDA2xGUDU4| 1844
+@sys AP24 |NINDA₂×(HI~a1.ME~a)| 12DBF
 @@
 @form	|NINDA₂×(HI~a1.AN.ME~a)|
 @oid o0901532
@@ -12275,6 +13241,7 @@
 @ucun	𒷀
 @uage	1
 @sys	AP23 |NINDA2xGUDU4| 1844.1
+@sys AP24 |NINDA₂×(HI~a1.AN.ME~a)| 12DC0
 @@
 @form |NINDA₂×(HI.AN.ME~a)|
 @oid o0901533
@@ -12285,6 +13252,7 @@
 @ucun	𒷄
 @uage	1
 @sys	AP23 |NINDA2x(HI.AN.ME~a)|
+@sys AP24 |NINDA₂×(HI.AN.ME~a)| 12DC4
 @@
 @form |NINDA₂×GUDU₄|~v2
 @oid o0901534
@@ -12293,6 +13261,7 @@
 @list	U+12DC1
 @ucun	𒷁
 @sys	AP23 |NINDA2xGUDU4| 1844.2
+@sys AP24 |NINDA₂×GUDU₄|~v2 12DC1
 @note Delete: duplicate	of |NINDA₂×(HI.AN.ME~a)| = PROTO-CUNEIFORM SIGN NINDA2 TIMES HI BESIDE AN BESIDE ME-A
 @@
 @form |NINDA₂×(AN.ME~a)|
@@ -12304,6 +13273,7 @@
 @ucun	𒶶
 @uage	1
 @sys	AP23 |NINDA2x(AN.ME~a)|
+@sys AP24 |NINDA₂×(AN.ME~a)| 12DB6
 @@
 @form |NINDA₂×GUDU₄|~v3
 @oid o0901536
@@ -12312,6 +13282,7 @@
 @list	U+12DC2
 @ucun	𒷂
 @sys	AP23 |NINDA2xGUDU4| 1844.3
+@sys AP24 |NINDA₂×GUDU₄|~v3 12DC2
 @note Delete: duplicate of |NINDA₂×(AN.ME~a)| = PROTO-CUNEIFORM SIGN NINDA2 TIMES AN BESIDE ME-A
 @@
 @end sign
@@ -12323,6 +13294,7 @@
 @ucun	𒶷
 @uage	1
 @sys	LLATU:270_03 NINDA₂+AN+?
+@sys AP24 |NINDA₂×(AN.X)| 12DB7
 @sys	AP23 |NINDA2x(AN.X)|
 @end sign
 
@@ -12334,6 +13306,7 @@
 @ucun	𒶸
 @uage	1
 @sys	AP23 |NINDA2xBA|
+@sys AP24 |NINDA₂×BA| 12DB8
 @end sign
 
 @sign |NINDA₂×EZEN|
@@ -12347,6 +13320,7 @@
 @ucun	𒶹
 @uage	1
 @sys	AP23 |NINDA2xEZEN~b|
+@sys AP24 |NINDA₂×EZEN~b| 12DB9
 @@
 @end sign
 
@@ -12361,6 +13335,7 @@
 @ucun	𒶺
 @uage	1
 @sys	AP23 |NINDA2xGAʾAR~a1|
+@sys AP24 |NINDA₂×GAʾAR~a1| 12DBA
 @@
 @end sign
 
@@ -12372,6 +13347,7 @@
 @ucun	𒶻
 @uage	1
 @sys	AP23 |NINDA2xGAR|
+@sys AP24 |NINDA₂×GAR| 12DBB
 @end sign
 
 @sign |NINDA₂×GIŠ|
@@ -12383,6 +13359,7 @@
 @ucun	𒶼
 @uage	1
 @sys	LLATU:270_04 NINDA₂+GIŠ
+@sys AP24 |NINDA₂×GIŠ| 12DBC
 @sys	AP23 |NINDA2xGISZ|
 @end sign
 
@@ -12394,6 +13371,7 @@
 @ucun	𒶾
 @uage	1
 @sys	AP23 |NINDA2xGU4|
+@sys AP24 |NINDA₂×GU₄| 12DBE
 @end sign
 
 @sign |NINDA₂×HI|
@@ -12404,6 +13382,7 @@
 @ucun	𒷃
 @uage	1
 @sys	AP23 |NINDA2xHI|
+@sys AP24 |NINDA₂×HI| 12DC3
 @end sign
 
 @sign |NINDA₂×(HI.X)|
@@ -12413,6 +13392,7 @@
 @ucun	𒷆
 @uage	1
 @sys	AP23 |NINDA2x(HI.X)|
+@sys AP24 |NINDA₂×(HI.X)| 12DC6
 @end sign
 
 @sign |NINDA₂×(HI@g.1(N06))|
@@ -12427,6 +13407,7 @@
 @ucun	𒷇
 @uage	1
 @sys	AP23 |NINDA2x(HI@g~a.1(N06))|
+@sys AP24 |NINDA₂×(1(N06).HI@g~a)| 12DC7
 @@
 @end sign
 
@@ -12440,6 +13421,7 @@
 @ucun	𒷈
 @uage	1
 @sys	AP23 |NINDA2xKASZ~b|
+@sys AP24 |NINDA₂×KAŠ~b| 12DC8
 @@
 @end sign
 
@@ -12460,6 +13442,7 @@
 @ucun	𒷉
 @uage	1
 @sys	AP23 |NINDA2xMAR~b|
+@sys AP24 |NINDA₂×MAR~b| 12DC9
 @@
 @end sign
 
@@ -12472,6 +13455,7 @@
 @ucun	𒶰
 @uage	1
 @sys	LLATU:270_01 NINDA₂+1(N1)
+@sys AP24 |NINDA₂×1(N01)| 12DB0
 @sys	AP23 |NINDA2x1(N01)|
 @end sign
 
@@ -12484,6 +13468,7 @@
 @ucun	𒶳
 @uage	1
 @sys	LLATU:270_02 NINDA₂+2(N1)
+@sys AP24 |NINDA₂×2(N01)| 12DB3
 @sys	AP23 |NINDA2x2(N01)|
 @end sign
 
@@ -12496,6 +13481,7 @@
 @ucun	𒶲
 @uage	1
 @sys	AP23 |NINDA2x1(N08)|
+@sys AP24 |NINDA₂×1(N08)| 12DB2
 @end sign
 
 
@@ -12519,6 +13505,7 @@
 @ucun	𒷌
 @uage	1
 @sys	AP23 |NINDA2xU4|
+@sys AP24 |NINDA₂×U₄| 12DCC
 @end sign
 
 @sign |NINDA₂×(U₄.X)|
@@ -12528,6 +13515,7 @@
 @ucun	𒷍
 @uage	1
 @sys	AP23 |NINDA2x(U4.X)|
+@sys AP24 |NINDA₂×(U₄.X)| 12DCD
 @end sign
 
 @sign |NINDA₂×(UDU×TAR)|
@@ -12542,6 +13530,7 @@
 @ucun	𒷎
 @uage	1
 @sys	AP23 |NINDA2x((UDU~axTAR)~a)|
+@sys AP24 |NINDA₂×(UDU~a×TAR~a)| 12DCE
 @@
 @form	|NINDA₂×(UDU~a×TAR~b)|
 @oid o0901571
@@ -12552,6 +13541,7 @@
 @ucun	𒷏
 @uage	1
 @sys	AP23 |NINDA2x((UDU~axTAR)~b)|
+@sys AP24 |NINDA₂×(UDU~a×TAR~b)| 12DCF
 @@
 @end sign
 
@@ -12562,6 +13552,7 @@
 @ucun	𒷐
 @uage	1
 @sys	AP23 |NINDA2xX|
+@sys AP24 |NINDA₂×X| 12DD0
 @sys	ATFU-S |NINDA₂×X|
 @end sign
 
@@ -12574,6 +13565,7 @@
 @ucun	𒷒
 @uage	1
 @sys	AP23 |NINDA2x(ZATU659x1(N01))|
+@sys AP24 |NINDA₂×(ZATU659×1(N01))| 12DD2
 @end sign
 
 @sign |NINDA₂×ZATU710|
@@ -12591,6 +13583,7 @@
 @ucun	𒥲
 @uage	1
 @sys	LLATU:270_05 NINKUM
+@sys AP24 NINKUM 12972
 @sys	AP23 NINKUM
 @end sign
 
@@ -12602,6 +13595,7 @@
 @ucun	𒥳
 @uage	1
 @sys	LLATU:270_06 NINLIL
+@sys AP24 NINLIL 12973
 @sys	AP23 NINLIL
 @end sign
 
@@ -12620,6 +13614,7 @@
 @ucun	𒥴
 @uage	1
 @sys	LLATU:270_07 NIR~a
+@sys AP24 NIR~a 12974
 @sys	AP23 NIR~a
 @@
 @form NIR~b
@@ -12629,6 +13624,7 @@
 @ucun	𒥵
 @uage	1
 @sys	LLATU:270_08 NIR~b
+@sys AP24 NIR~b 12975
 @sys	AP23 NIR~b
 @@
 @end sign
@@ -12644,6 +13640,7 @@
 @ucun	𒷓
 @uage	1
 @sys	AP23 |NIR~axAN|
+@sys AP24 |NIR~a×AN| 12DD3
 @@
 @end sign
 
@@ -12657,6 +13654,7 @@
 @ucun	𒥶
 @uage	1
 @sys	LLATU:271_02 NU
+@sys AP24 NU 12976
 @sys	ATFU-S NU
 @sys	ATFU-v nu
 @sys	AP23 NU
@@ -12671,6 +13669,7 @@
 @ucun	𒥷
 @uage	1
 @sys	LLATU:271_03 NU@g
+@sys AP24 NU@g 12977
 @sys	AP23 NU@g
 @end sign
 
@@ -12683,6 +13682,7 @@
 @ucun	𒥸
 @uage	1
 @sys	LLATU:271_04 NU₁₁
+@sys AP24 NU₁₁ 12978
 @sys	AP23 NU11
 @end sign
 
@@ -12694,6 +13694,7 @@
 @ucun	𒷔
 @uage	1
 @sys	LLATU:272_01 NU₁₁+NU₁₁
+@sys AP24 |NU₁₁&NU₁₁| 12DD4
 @sys	AP23 |NU11&NU11|
 @end sign
 
@@ -12704,6 +13705,7 @@
 @ucun	𒥹
 @uage	1
 @sys	AP23 NU11@t
+@sys AP24 NU₁₁@t 12979
 @end sign
 
 @lref	BAU040
@@ -12717,6 +13719,7 @@
 @ucun	𒥺
 @uage	1
 @sys	ATFU-S NUMUN
+@sys AP24 NUMUN 1297A
 @sys	ATFU-v kul
 @sys	AP23 NUMUN
 @end sign
@@ -12729,6 +13732,7 @@
 @ucun	𒥻
 @uage	1
 @sys	AP23 NUMUN2
+@sys AP24 NUMUN₂ 1297B
 @end sign
 
 @sign NUN
@@ -12746,6 +13750,7 @@
 @ucun	𒥼
 @uage	1
 @sys	LLATU:272_02 NUN~a
+@sys AP24 NUN~a 1297C
 @sys	AP23 NUN~a
 @@
 @form NUN~b
@@ -12755,6 +13760,7 @@
 @ucun	𒥽
 @uage	1
 @sys	LLATU:273_01 NUN~b
+@sys AP24 NUN~b 1297D
 @sys	AP23 NUN~b
 @@
 @form NUN~c
@@ -12764,6 +13770,7 @@
 @ucun	𒥾
 @uage	1
 @sys	AP23 NUN~c
+@sys AP24 NUN~c 1297E
 @@
 @form	NUN~c~v1
 @oid o0901595
@@ -12772,6 +13779,7 @@
 @ucun	𒥿
 @uage	1
 @sys	AP23 NUN~c
+@sys AP24 NUN~c~v1 1297F
 @@
 @form	NUN~c~v2
 @oid o0901596
@@ -12780,6 +13788,7 @@
 @ucun	𒦀
 @uage	1
 @sys	AP23 NUN~c
+@sys AP24 NUN~c~v2 12980
 @@
 @form	NUN~c~v3
 @oid o0901597
@@ -12788,6 +13797,7 @@
 @ucun	𒦁
 @uage	1
 @sys	AP23 NUN~c
+@sys AP24 NUN~c~v3 12981
 @@
 @form NUN~d
 @oid o0901598
@@ -12796,6 +13806,7 @@
 @ucun	𒦂
 @uage	1
 @sys	AP23 NUN~d
+@sys AP24 NUN~d 12982
 @@
 @end sign
 
@@ -12822,6 +13833,7 @@
 @ucun	𒷕
 @uage	1
 @sys	AP23 |NUN~a+A|
+@sys AP24 |NUN~a+A| 12DD5
 @@
 @end sign
 
@@ -12841,6 +13853,7 @@
 @ucun	𒷖
 @uage	1
 @sys	AP23 |NUN~a+EN~a|
+@sys AP24 |NUN~a+EN~a~v2| 12DD6
 @@
 @form |NUN~a+EN~b~v1|
 @oid o0901607
@@ -12850,6 +13863,7 @@
 @ucun	𒷗
 @uage	1
 @sys	AP23 |NUN~a+EN~b|
+@sys AP24 |NUN~a+EN~b~v1| 12DD7
 @@
 @form |NUN~a+EN~d|
 @oid o0901608
@@ -12858,6 +13872,7 @@
 @ucun	𒷘
 @uage	1
 @sys	AP23 |NUN~a+EN~d|
+@sys AP24 |NUN~a+EN~d| 12DD8
 @@
 @form |NUN~b+EN~a|
 @oid o0901609
@@ -12869,6 +13884,7 @@
 @ucun	𒷚
 @uage	1
 @sys	AP23 |NUN~b+EN~a|
+@sys AP24 |NUN~b+EN~a| 12DDA
 @@
 @end sign
 
@@ -12882,6 +13898,7 @@
 @ucun	𒷙
 @uage	1
 @sys	AP23 |NUN~a+NAM2|
+@sys AP24 |NUN~a+NAM₂| 12DD9
 @@
 @end sign
 
@@ -12897,6 +13914,7 @@
 @ucun	𒦃
 @uage	1
 @sys	AP23 NUNUZ~a0
+@sys AP24 NUNUZ~a0 12983
 @@
 @form NUNUZ~a1
 @oid o0901614
@@ -12906,6 +13924,7 @@
 @ucun	𒦄
 @uage	1
 @sys	LLATU:273_02 NUNUZ~a1
+@sys AP24 NUNUZ~a1 12984
 @sys	ATFU-S NUNUZ~a1
 @sys	ATFU-v za₇
 @sys	AP23 NUNUZ~a1
@@ -12917,6 +13936,7 @@
 @ucun	𒦆
 @uage	1
 @sys	AP23 NUNUZ~a2
+@sys AP24 NUNUZ~a2 12986
 @@
 @form NUNUZ~b1
 @oid o0901616
@@ -12925,6 +13945,7 @@
 @ucun	𒦇
 @uage	1
 @sys	LLATU:273_03 NUNUZ~b1
+@sys AP24 NUNUZ~b1 12987
 @sys	AP23 NUNUZ~b1
 @@
 @form NUNUZ~b2
@@ -12934,6 +13955,7 @@
 @ucun	𒦈
 @uage	1
 @sys	AP23 NUNUZ~b2
+@sys AP24 NUNUZ~b2 12988
 @@
 @form NUNUZ~c
 @oid o0901618
@@ -12943,6 +13965,7 @@
 @ucun	𒦉
 @uage	1
 @sys	AP23 NUNUZ~c
+@sys AP24 NUNUZ~c 12989
 @@
 @form	NUNUZ~c~v1
 @oid o0901619
@@ -12951,6 +13974,7 @@
 @ucun	𒦊
 @uage	1
 @sys	LLATU:273_04 NUNUZ~c1
+@sys AP24 NUNUZ~c~v1 1298A
 @sys	AP23 NUNUZ~c
 @@
 @form	NUNUZ~c~v2
@@ -12960,6 +13984,7 @@
 @ucun	𒦋
 @uage	1
 @sys	AP23 NUNUZ~c
+@sys AP24 NUNUZ~c~v2 1298B
 @@
 @form	NUNUZ~c~v3
 @oid o0901621
@@ -12968,6 +13993,7 @@
 @ucun	𒦌
 @uage	1
 @sys	AP23 NUNUZ~c
+@sys AP24 NUNUZ~c~v3 1298C
 @@
 @end sign
 
@@ -12981,6 +14007,7 @@
 @ucun	𒦅
 @uage	1
 @sys	AP23 NUNUZ~a1@t
+@sys AP24 NUNUZ~a1@t 12985
 @@
 @end sign
 
@@ -12998,6 +14025,7 @@
 @ucun	𒦍
 @uage	1
 @sys	LLATU:274_01 PA~a
+@sys AP24 PA~a 1298D
 @sys	AP23 PA~a
 @@
 @form	PA~a~v1
@@ -13008,6 +14036,7 @@
 @ucun	𒦎
 @uage	1
 @sys	AP23 PA~a
+@sys AP24 PA~a~v1 1298E
 @@
 @form	PA~a~v2
 @oid o0901627
@@ -13017,6 +14046,7 @@
 @ucun	𒦏
 @uage	1
 @sys	AP23 PA~a
+@sys AP24 PA~a~v2 1298F
 @@
 @form PA~b
 @oid o0901628
@@ -13025,6 +14055,7 @@
 @ucun	𒦐
 @uage	1
 @sys	AP23 PA~b
+@sys AP24 PA~b 12990
 @@
 @end sign
 
@@ -13050,6 +14081,7 @@
 @ucun	𒦒
 @uage	1
 @sys	LLATU:274_02 PAD~a
+@sys AP24 PAD~a 12992
 @sys	AP23 PAD~a
 @@
 @form PAD~b
@@ -13059,6 +14091,7 @@
 @ucun	𒦓
 @uage	1
 @sys	LLATU:274_03 PAD~b
+@sys AP24 PAD~b 12993
 @sys	AP23 PAD~b
 @@
 @end sign
@@ -13076,6 +14109,7 @@
 @ucun	𒦔
 @uage	1
 @sys	LLATU:274_04 PAP~a
+@sys AP24 PAP~a 12994
 @sys	AP23 PAP~a
 @@
 @form PAP~b
@@ -13085,6 +14119,7 @@
 @ucun	𒦖
 @uage	1
 @sys	LLATU:275_01 PAP~b
+@sys AP24 PAP~b 12996
 @sys	AP23 PAP~b
 @@
 @form	PAP~b~v1
@@ -13095,6 +14130,7 @@
 @ucun	𒦗
 @uage	1
 @sys	AP23 PAP~b
+@sys AP24 PAP~b~v1 12997
 @@
 @end sign
 
@@ -13110,6 +14146,7 @@
 @ucun	𒦕
 @uage	1
 @sys	AP23 PAP~a@t
+@sys AP24 PAP~a@t 12995
 @@
 @end sign
 
@@ -13125,6 +14162,7 @@
 @ucun	𒦘
 @uage	1
 @sys	LLATU:275_02 PIRIG~a1
+@sys AP24 PIRIG~a1 12998
 @sys	AP23 PIRIG~a1
 @@
 @form PIRIG~a2
@@ -13134,6 +14172,7 @@
 @ucun	𒦙
 @uage	1
 @sys	AP23 PIRIG~a2
+@sys AP24 PIRIG~a2 12999
 @@
 @form PIRIG~a3
 @oid o0901647
@@ -13142,6 +14181,7 @@
 @ucun	𒦚
 @uage	1
 @sys	AP23 PIRIG~a3
+@sys AP24 PIRIG~a3 1299A
 @@
 @form PIRIG~b1
 @oid o0901648
@@ -13151,6 +14191,7 @@
 @ucun	𒦛
 @uage	1
 @sys	LLATU:275_03 PIRIG~b1
+@sys AP24 PIRIG~b1 1299B
 @sys	ATFU-S PIRIG~b1
 @sys	AP23 PIRIG~b1
 @@
@@ -13162,6 +14203,7 @@
 @ucun	𒦜
 @uage	1
 @sys	AP23 PIRIG~b2
+@sys AP24 PIRIG~b2 1299C
 @@
 @end sign
 
@@ -13188,6 +14230,7 @@
 @ucun	𒷛
 @uage	1
 @sys	AP23 |PIRIG~b1xUR2|
+@sys AP24 |PIRIG~b1×UR₂| 12DDB
 @@
 @end sign
 
@@ -13211,6 +14254,7 @@
 @ucun	𒦝
 @uage	1
 @sys	LLATU:275_05 PU₂
+@sys AP24 PU₂ 1299D
 @sys	AP23 PU2
 @end sign
 
@@ -13224,6 +14268,7 @@
 @ucun	𒦞
 @uage	1
 @sys	ATFU-S RA
+@sys AP24 RA 1299E
 @sys	ATFU-v ra
 @sys	AP23 RA
 @end sign
@@ -13240,6 +14285,7 @@
 @ucun	𒦟
 @uage	1
 @sys	LLATU:276_01 RAD~a
+@sys AP24 RAD~a 1299F
 @sys	AP23 RAD~a
 @@
 @form RAD~b
@@ -13249,6 +14295,7 @@
 @ucun	𒦢
 @uage	1
 @sys	LLATU:276_02 RAD~b
+@sys AP24 RAD~b 129A2
 @sys	AP23 RAD~b
 @@
 @end sign
@@ -13265,6 +14312,7 @@
 @ucun	𒦡
 @uage	1
 @sys	AP23 RAD~a@g
+@sys AP24 RAD~a@g 129A1
 @@
 @end sign
 
@@ -13278,6 +14326,7 @@
 @ucun	𒦠
 @uage	1
 @sys	AP23 RAD~a@t
+@sys AP24 RAD~a@t 129A0
 @@
 @end sign
 
@@ -13294,6 +14343,7 @@
 @ucun	𒦥
 @uage	1
 @sys	LLATU:276_04 RI₈~a
+@sys AP24 RI₈~a 129A5
 @sys	AP23 RI8~a
 @@
 @form RI₈~b
@@ -13303,6 +14353,7 @@
 @ucun	𒦦
 @uage	1
 @sys	LLATU:276_05 RI₈~b
+@sys AP24 RI₈~b 129A6
 @sys	AP23 RI8~b
 @@
 @end sign
@@ -13319,6 +14370,7 @@
 @ucun	𒦧
 @uage	1
 @sys	LLATU:277_01 RU
+@sys AP24 RU 129A7
 @sys	ATFU-S RU
 @sys	AP23 RU
 @form RU~v1
@@ -13328,6 +14380,7 @@
 @ucun	𒦨
 @uage	1
 @sys	AP23 RU
+@sys AP24 RU~v1 129A8
 @@
 @end sign
 
@@ -13338,6 +14391,7 @@
 @ucun	𒦩
 @uage	1
 @sys	AP23 RU@t
+@sys AP24 RU@t 129A9
 @end sign
 
 @sign SA
@@ -13353,6 +14407,7 @@
 @ucun	𒦪
 @uage	1
 @sys	LLATU:277_02 SA~a
+@sys AP24 SA~a 129AA
 @sys	AP23 SA~a
 @@
 @form SA~c
@@ -13362,6 +14417,7 @@
 @ucun	𒦫
 @uage	1
 @sys	AP23 SA~c
+@sys AP24 SA~c 129AB
 @@
 @form	SA~c~v1
 @oid o0901676
@@ -13370,6 +14426,7 @@
 @ucun	𒦬
 @uage	1
 @sys	AP23 SA~c
+@sys AP24 SA~c~v1 129AC
 @@
 @end sign
 
@@ -13381,6 +14438,7 @@
 @ucun	𒦭
 @uage	1
 @sys	LLATU:277_03 SAG
+@sys AP24 SAG 129AD
 @sys	AP23 SAG
 @form SAG~v1
 @oid o0901678
@@ -13389,11 +14447,13 @@
 @ucun	𒦮
 @uage	1
 @sys	AP23 SAG
+@sys AP24 SAG~v1 129AE
 @@
 @form SAG~v2
 @oid o0901679
 @list	BAU228
 @sys	ATFU-S SAG
+@sys AP24 SAG~v2 129AF
 @sys	ATFU-v saŋ
 @uname	PROTO-CUNEIFORM SIGN SAG VARIANT 2
 @list	U+129AF
@@ -13415,6 +14475,7 @@
 @ucun	𒷝
 @uage	1
 @sys	AP23 |SAGxGESZTU~a|
+@sys AP24 |SAG×GEŠTU~a| 12DDD
 @@
 @form |SAG@n×GEŠTU~b|
 @oid o0901682
@@ -13424,6 +14485,7 @@
 @ucun	𒷞
 @uage	1
 @sys	AP23 |SAGxGESZTU~b|
+@sys AP24 |SAG@n×GEŠTU~b| 12DDE
 @@
 @form |SAG~v2×GEŠTU~b|
 @oid o0901683
@@ -13433,6 +14495,7 @@
 @ucun	𒷟
 @uage	1
 @sys	AP23 |SAGxGESZTU~b|
+@sys AP24 |SAG~v2×GEŠTU~b| 12DDF
 @@
 @form |SAG~v1×GEŠTU~c|
 @oid o0901684
@@ -13442,6 +14505,7 @@
 @ucun	𒷠
 @uage	1
 @sys	AP23 |SAGxGESZTU~c|
+@sys AP24 |SAG~v1×GEŠTU~c| 12DE0
 @@
 @end sign
 
@@ -13455,6 +14519,7 @@
 @ucun	𒷢
 @uage	1
 @sys	AP23 |SAGxMA|
+@sys AP24 |SAG~v1×MA~v1| 12DE2
 @end sign
 
 @sign	|SAG~v1×1(N14)|
@@ -13466,6 +14531,7 @@
 @ucun	𒷜
 @uage	1
 @sys	AP23 |SAGx1(N14)|
+@sys AP24 |SAG~v1×1(N14)| 12DDC
 @end sign
 
 @sign |SAG×NAM₂|
@@ -13496,6 +14562,7 @@
 @ucun	𒦰
 @uage	1
 @sys	AP23 SAG@g
+@sys AP24 SAG@g 129B0
 @end sign
 
 @sign SAG@n
@@ -13506,6 +14573,7 @@
 @ucun	𒦱
 @uage	1
 @sys	LLATU:278_01 SAG@n
+@sys AP24 SAG@n 129B1
 @sys	AP23 SAG@n
 @end sign
 
@@ -13517,6 +14585,7 @@
 @ucun	𒦲
 @uage	1
 @sys	LLATU:278_02 SAGŠU
+@sys AP24 SAGŠU 129B2
 @sys	AP23 SAGSZU
 @end sign
 
@@ -13529,6 +14598,7 @@
 @ucun	𒦳
 @uage	1
 @sys	LLATU:278_03 SAL
+@sys AP24 SAL 129B3
 @sys	ATFU-S SAL
 @sys	ATFU-v munus nunuzₓ
 @sys	AP23 SAL
@@ -13546,6 +14616,7 @@
 @ucun	𒷥
 @uage	1
 @sys	AP23 |SAL.KUR~a|
+@sys AP24 |SAL.KUR~a| 12DE5
 @@
 @end sign
 
@@ -13559,6 +14630,7 @@
 @ucun	𒷦
 @uage	1
 @sys	AP23 |SAL.LAM~b|
+@sys AP24 |SAL.LAM~b| 12DE6
 @@
 @end sign
 
@@ -13577,6 +14649,7 @@
 @ucun	𒷧
 @uage	1
 @sys	AP23 |SAL.SZU2|
+@sys AP24 |SAL.ŠU₂~b| 12DE7
 @end sign
 
 @sign |SAL×1(N58)|
@@ -13587,6 +14660,7 @@
 @ucun	𒷤
 @uage	1
 @sys	AP23 |SALx1(N58)|
+@sys AP24 |SAL×1(N58)| 12DE4
 @end sign
 
 @sign |SAL+HI×HI|
@@ -13624,6 +14698,7 @@
 @ucun	𒦴
 @uage	1
 @sys	LLATU:278_04 SANGA~a
+@sys AP24 SANGA~a 129B4
 @sys	AP23 SANGA~a
 @@
 @form	SANGA~a~v1
@@ -13633,6 +14708,7 @@
 @ucun	𒦵
 @uage	1
 @sys	AP23 SANGA~a
+@sys AP24 SANGA~a~v1 129B5
 @@
 @form	SANGA~a~v2
 @oid o0901711
@@ -13641,6 +14717,7 @@
 @ucun	𒦶
 @uage	1
 @sys	AP23 SANGA~a
+@sys AP24 SANGA~a~v2 129B6
 @@
 @form SANGA~b
 @oid o0901712
@@ -13649,6 +14726,7 @@
 @ucun	𒦷
 @uage	1
 @sys	LLATU:280_01 SANGA~b
+@sys AP24 SANGA~b 129B7
 @sys	AP23 SANGA~b
 @@
 @form	SANGA~b~v1
@@ -13658,6 +14736,7 @@
 @ucun	𒦸
 @uage	1
 @sys	AP23 SANGA~b
+@sys AP24 SANGA~b~v1 129B8
 @@
 @form SANGA~c
 @oid o0901714
@@ -13666,6 +14745,7 @@
 @ucun	𒦹
 @uage	1
 @sys	AP23 SANGA~c
+@sys AP24 SANGA~c 129B9
 @@
 @form SANGA~e1
 @oid o0901715
@@ -13697,6 +14777,7 @@
 @ucun	𒦺
 @uage	1
 @sys	LLATU:280_02 SAR~a
+@sys AP24 SAR~a 129BA
 @sys	AP23 SAR~a
 @@
 @form SAR~b
@@ -13706,6 +14787,7 @@
 @ucun	𒦻
 @uage	1
 @sys	LLATU:280_03 SAR~b
+@sys AP24 SAR~b 129BB
 @sys	AP23 SAR~b
 @@
 @form SAR~c
@@ -13715,6 +14797,7 @@
 @ucun	𒦼
 @uage	1
 @sys	LLATU:280_04 SAR~c
+@sys AP24 SAR~c 129BC
 @sys	AP23 SAR~c
 @@
 @form SAR~d
@@ -13738,6 +14821,7 @@
 @ucun	𒷨
 @uage	1
 @sys	LLATU:292_04 ŠE~a+SAR~a
+@sys AP24 |SAR~a×ŠE~a| 12DE8
 @sys	AP23 |SAR~axSZE~a|
 @@
 @end sign
@@ -13751,6 +14835,7 @@
 @ucun	𒨓
 @uage	1
 @sys	LLATU:280_05 SI
+@sys AP24 SI 12A13
 @sys	ATFU-S SI
 @sys	ATFU-v si
 @sys	AP23 SI
@@ -13761,6 +14846,7 @@
 @ucun	𒨔
 @uage	1
 @sys	AP23 SI
+@sys AP24 SI~v1 12A14
 @@
 @end sign
 
@@ -13784,6 +14870,7 @@
 @ucun	𒸆
 @uage	1
 @sys	AP23 |SIxGU4|
+@sys AP24 |SI×GU₄| 12E06
 @end sign
 
 @sign |SI×KU|
@@ -13820,6 +14907,7 @@
 @ucun	𒸇
 @uage	1
 @sys	LLATU:281_01 SI+ŠE₃
+@sys AP24 |SI×ŠE₃~v1| 12E07
 @sys	AP23 |SIxSZE3|
 @end sign
 
@@ -13854,6 +14942,7 @@
 @ucun	𒨕
 @uage	1
 @sys	LLATU:281_02 SI₄~a
+@sys AP24 SI₄~a 12A15
 @sys	AP23 SI4~a
 @@
 @form SI₄~b
@@ -13863,6 +14952,7 @@
 @ucun	𒨖
 @uage	1
 @sys	AP23 SI4~b
+@sys AP24 SI₄~b 12A16
 @@
 @form SI₄~c
 @oid o0901741
@@ -13871,6 +14961,7 @@
 @ucun	𒨗
 @uage	1
 @sys	AP23 SI4~c
+@sys AP24 SI₄~c 12A17
 @@
 @form SI₄~d
 @oid o0901742
@@ -13879,6 +14970,7 @@
 @ucun	𒨘
 @uage	1
 @sys	AP23 SI4~d
+@sys AP24 SI₄~d 12A18
 @@
 @form	SI₄~d~v1
 @oid o0901743
@@ -13887,6 +14979,7 @@
 @ucun	𒨙
 @uage	1
 @sys	AP23 SI4~d
+@sys AP24 SI₄~d~v1 12A19
 @@
 @form SI₄~f
 @oid o0901744
@@ -13895,6 +14988,7 @@
 @ucun	𒨚
 @uage	1
 @sys	AP23 SI4~f
+@sys AP24 SI₄~f 12A1A
 @@
 @form	SI₄~f~v1
 @oid o0901745
@@ -13903,6 +14997,7 @@
 @ucun	𒨛
 @uage	1
 @sys	AP23 SI4~f
+@sys AP24 SI₄~f~v1 12A1B
 @@
 @end sign
 
@@ -13915,6 +15010,7 @@
 @ucun	𒨜
 @uage	1
 @sys	LLATU:281_03 SIG
+@sys AP24 SIG 12A1C
 @sys	AP23 SIG
 @form SIG~b
 @oid o0901747
@@ -13932,6 +15028,7 @@
 @ucun	𒸈
 @uage	1
 @sys	AP23 |SIGx1(N57)|
+@sys AP24 |1(N57).SIG| 12E08
 @end sign
 
 @sign SIG@g
@@ -13941,6 +15038,7 @@
 @ucun	𒨝
 @uage	1
 @sys	AP23 SIG@g
+@sys AP24 SIG@g 12A1D
 @end sign
 
 @sign SIG₂
@@ -13956,6 +15054,7 @@
 @ucun	𒨞
 @uage	1
 @sys	LLATU:281_04 SIG₂~a1
+@sys AP24 SIG₂~a1 12A1E
 @sys	AP23 SIG2~a1
 @@
 @form SIG₂~a2
@@ -13965,6 +15064,7 @@
 @ucun	𒨟
 @uage	1
 @sys	LLATU:282_01 SIG₂~a2
+@sys AP24 SIG₂~a2 12A1F
 @sys	AP23 SIG2~a2
 @@
 @form SIG₂~a3
@@ -13974,6 +15074,7 @@
 @ucun	𒨠
 @uage	1
 @sys	LLATU:282_02 SIG₂~a3
+@sys AP24 SIG₂~a3 12A20
 @sys	AP23 SIG2~a3
 @@
 @form	SIG₂~a3~v1
@@ -13984,6 +15085,7 @@
 @ucun	𒨡
 @uage	1
 @sys	AP23 SIG2~a3
+@sys AP24 SIG₂~a3~v1 12A21
 @@
 @form	SIG₂~a3~v2
 @oid o0901755
@@ -13992,6 +15094,7 @@
 @ucun	𒨢
 @uage	1
 @sys	AP23 SIG2~a3
+@sys AP24 SIG₂~a3~v2 12A22
 @@
 @form SIG₂~a4
 @oid o0901756
@@ -14000,6 +15103,7 @@
 @ucun	𒨣
 @uage	1
 @sys	AP23 SIG2~a4
+@sys AP24 SIG₂~a4 12A23
 @@
 @form SIG₂~b
 @oid o0901757
@@ -14008,6 +15112,7 @@
 @ucun	𒨤
 @uage	1
 @sys	LLATU:282_03 SIG₂~b
+@sys AP24 SIG₂~b 12A24
 @sys	AP23 SIG2~b
 @@
 @form SIG₂~c1
@@ -14017,6 +15122,7 @@
 @ucun	𒨥
 @uage	1
 @sys	LLATU:282_04 SIG₂~c1
+@sys AP24 SIG₂~c1 12A25
 @sys	AP23 SIG2~c1
 @@
 @form SIG₂~c2
@@ -14026,6 +15132,7 @@
 @ucun	𒨦
 @uage	1
 @sys	LLATU:282_05 SIG₂~c2
+@sys AP24 SIG₂~c2 12A26
 @sys	AP23 SIG2~c2
 @@
 @form SIG₂~d1
@@ -14035,6 +15142,7 @@
 @ucun	𒨧
 @uage	1
 @sys	LLATU:282_06 SIG₂~d1
+@sys AP24 SIG₂~d1 12A27
 @sys	AP23 SIG2~d1
 @@
 @form SIG₂~d2
@@ -14044,6 +15152,7 @@
 @ucun	𒨨
 @uage	1
 @sys	AP23 SIG2~d2
+@sys AP24 SIG₂~d2 12A28
 @@
 @form	SIG₂~d2~v1
 @oid o0901762
@@ -14052,6 +15161,7 @@
 @ucun	𒨩
 @uage	1
 @sys	AP23 SIG2~d2
+@sys AP24 SIG₂~d2~v1 12A29
 @@
 @form SIG₂~d3
 @oid o0901763
@@ -14060,6 +15170,7 @@
 @ucun	𒨪
 @uage	1
 @sys	AP23 SIG2~d3
+@sys AP24 SIG₂~d3 12A2A
 @@
 @form SIG₂~d4
 @oid o0901764
@@ -14068,6 +15179,7 @@
 @ucun	𒨫
 @uage	1
 @sys	AP23 SIG2~d4
+@sys AP24 SIG₂~d4 12A2B
 @@
 @form SIG₂~e
 @oid o0901765
@@ -14076,6 +15188,7 @@
 @ucun	𒨬
 @uage	1
 @sys	AP23 SIG2~e
+@sys AP24 SIG₂~e 12A2C
 @@
 @end sign
 
@@ -14090,6 +15203,7 @@
 @ucun	𒸉
 @uage	1
 @sys	AP23 |SIG2~bx1(N14)|
+@sys AP24 |SIG₂~b×1(N14)| 12E09
 @@
 @end sign
 
@@ -14105,6 +15219,7 @@
 @ucun	𒸊
 @uage	1
 @sys	AP23 |SIG2~b&SIG2~b|
+@sys AP24 |SIG₂~b&SIG₂~b| 12E0A
 @@
 @end sign
 
@@ -14117,6 +15232,7 @@
 @ucun	𒨭
 @uage	1
 @sys	LLATU:283_01 SIG₄
+@sys AP24 SIG₄ 12A2D
 @sys	AP23 SIG4
 @end sign
 
@@ -14129,6 +15245,7 @@
 @ucun	𒨮
 @uage	1
 @sys	LLATU:283_02 SIG₇
+@sys AP24 SIG₇ 12A2E
 @sys	AP23 SIG7
 @form SIG₇~v1
 @oid o0901772
@@ -14137,6 +15254,7 @@
 @ucun	𒨯
 @uage	1
 @sys	AP23 SIG7
+@sys AP24 SIG₇~v1 12A2F
 @@
 @end sign
 
@@ -14156,6 +15274,7 @@
 @ucun	𒨱
 @uage	1
 @sys	LLATU:283_03 SILA₃~a
+@sys AP24 SILA₃~a 12A31
 @sys	AP23 SILA3~a
 @@
 @form SILA₃~b
@@ -14165,6 +15284,7 @@
 @ucun	𒨲
 @uage	1
 @sys	LLATU:284_02 SILA₃~b
+@sys AP24 SILA₃~b 12A32
 @sys	AP23 SILA3~b
 @@
 @form SILA₃~c
@@ -14174,6 +15294,7 @@
 @ucun	𒨳
 @uage	1
 @sys	AP23 SILA3~c
+@sys AP24 SILA₃~c 12A33
 @@
 @compoundonly SILA₃~d
 @@
@@ -14192,6 +15313,7 @@
 @ucun	𒸍
 @uage	1
 @sys	LLATU:283_04 SILA₃~a+A
+@sys AP24 |SILA₃~a×A| 12E0D
 @sys	AP23 |SILA3~axA|
 @@
 @end sign
@@ -14206,6 +15328,7 @@
 @ucun	𒸎
 @uage	1
 @sys	AP23 |SILA3~axAMAR|
+@sys AP24 |SILA₃~a×AMAR| 12E0E
 @@
 @end sign
 
@@ -14221,6 +15344,7 @@
 @ucun	𒸏
 @uage	1
 @sys	AP23 |SILA3~axDUG~a|
+@sys AP24 |SILA₃~a~v1×DUG~a| 12E0F
 @@
 @form |SILA₃~a×DUG~a|~v1
 @oid o0901786
@@ -14229,6 +15353,7 @@
 @ucun	𒸐
 @uage	1
 @sys	AP23 |SILA3~axDUG~a|
+@sys AP24 |SILA₃~a×DUG~a|~v1 12E10
 @@
 @end sign
 
@@ -14244,6 +15369,7 @@
 @ucun	𒸒
 @uage	1
 @sys	AP23 |SILA3~axGA~a|
+@sys AP24 |SILA₃~a×GA~a~v3| 12E12
 @@
 @end sign
 
@@ -14260,6 +15386,7 @@
 @ucun	𒸓
 @uage	1
 @sys	LLATU:226_01 GARA₂~a+SILA₃~a
+@sys AP24 |SILA₃~a×GARA₂~a| 12E13
 @sys	AP23 |SILA3~axGARA2~a|
 @@
 @end sign
@@ -14277,6 +15404,7 @@
 @ucun	𒸔
 @uage	1
 @sys	LLATU:283_05 SILA₃~a+GEŠTU~a
+@sys AP24 |SILA₃~a×GEŠTU~a~v2| 12E14
 @sys	AP23 |SILA3~axGESZTU~a|
 @@
 @form |SILA₃~a×GEŠTU~c3|
@@ -14286,6 +15414,7 @@
 @ucun	𒸕
 @uage	1
 @sys	AP23 |SILA3~axGESZTU~c3|
+@sys AP24 |SILA₃~a×GEŠTU~c3| 12E15
 @@
 @form |SILA₃~a×GEŠTU~c5|
 @oid o0901796
@@ -14294,6 +15423,7 @@
 @ucun	𒸖
 @uage	1
 @sys	AP23 |SILA3~axGESZTU~c5|
+@sys AP24 |SILA₃~a×GEŠTU~c5| 12E16
 @@
 @end sign
 
@@ -14307,6 +15437,7 @@
 @ucun	𒸱
 @uage	1
 @sys	AP23 |SILA3~bxGUG2|
+@sys AP24 |SILA₃~b×GUG₂| 12E31
 @@
 @end sign
 
@@ -14321,6 +15452,7 @@
 @ucun	𒸗
 @uage	1
 @sys	AP23 |SILA3~axHASZHUR|
+@sys AP24 |SILA₃~a×HAŠHUR| 12E17
 @@
 @end sign
 
@@ -14335,6 +15467,7 @@
 @ucun	𒸘
 @uage	1
 @sys	LLATU:283_06 SILA₃~a+HI~a
+@sys AP24 |SILA₃~a×HI| 12E18
 @sys	AP23 |SILA3~axHI|
 @@
 @end sign
@@ -14350,6 +15483,7 @@
 @ucun	𒸙
 @uage	1
 @sys	AP23 |SILA3~axHI@g~a|
+@sys AP24 |SILA₃~a×HI@g~a| 12E19
 @@
 @end sign
 
@@ -14364,6 +15498,7 @@
 @ucun	𒸚
 @uage	1
 @sys	AP23 |SILA3~axIB~a|
+@sys AP24 |SILA₃~a×IB~a| 12E1A
 @@
 @end sign
 
@@ -14379,6 +15514,7 @@
 @ucun	𒸛
 @uage	1
 @sys	AP23 |SILA3~axKASZ~a|
+@sys AP24 |SILA₃~a×KAŠ~a| 12E1B
 @@
 @form |SILA₃~a×KAŠ~c|
 @oid o0901809
@@ -14387,6 +15523,7 @@
 @ucun	𒸜
 @uage	1
 @sys	AP23 |SILA3~axKASZ~c|
+@sys AP24 |SILA₃~a×KAŠ~c| 12E1C
 @@
 @form |SILA₃~a×KAŠ~d|
 @oid o0901810
@@ -14395,6 +15532,7 @@
 @ucun	𒸝
 @uage	1
 @sys	AP23 |SILA3~axKASZ~d|
+@sys AP24 |SILA₃~a×KAŠ~d| 12E1D
 @@
 @end sign
 
@@ -14408,6 +15546,7 @@
 @ucun	𒸞
 @uage	1
 @sys	AP23 |SILA3~axKU6~a|
+@sys AP24 |SILA₃~a×KU₆~a| 12E1E
 @@
 @end sign
 
@@ -14422,6 +15561,7 @@
 @ucun	𒸟
 @uage	1
 @sys	AP23 |SILA3~axKUR~a|
+@sys AP24 |SILA₃~a×KUR~a| 12E1F
 @@
 @end sign
 
@@ -14437,6 +15577,7 @@
 @ucun	𒸠
 @uage	1
 @sys	AP23 |SILA3~axMA|
+@sys AP24 |SILA₃~a×MA~v1| 12E20
 @@
 @end sign
 
@@ -14451,6 +15592,7 @@
 @ucun	𒸡
 @uage	1
 @sys	AP23 |SILA3~axMASZ|
+@sys AP24 |SILA₃~a×MAŠ| 12E21
 @@
 @end sign
 
@@ -14478,6 +15620,7 @@
 @ucun	𒸋
 @uage	1
 @sys	AP23 |SILA3~ax1(N57)|
+@sys AP24 |SILA₃~a×1(N57)| 12E0B
 @@
 @end sign
 
@@ -14492,6 +15635,7 @@
 @ucun	𒸌
 @uage	1
 @sys	AP23 |SILA3~ax1(N58)|
+@sys AP24 |SILA₃~a×1(N58)| 12E0C
 @@
 @end sign
 
@@ -14506,6 +15650,7 @@
 @ucun	𒸢
 @uage	1
 @sys	LLATU:283_07 SILA₃~a+NAGA~a
+@sys AP24 |SILA₃~a×NAGA~a| 12E22
 @sys	AP23 |SILA3~axNAGA~a|
 @@
 @form |SILA₃~b×NAGA~b|
@@ -14515,6 +15660,7 @@
 @ucun	𒸲
 @uage	1
 @sys	AP23 |SILA3~bxNAGA~b|
+@sys AP24 |SILA₃~b×NAGA~b| 12E32
 @@
 @end sign
 
@@ -14530,6 +15676,7 @@
 @ucun	𒸣
 @uage	1
 @sys	AP23 |SILA3~axNI~a|
+@sys AP24 |SILA₃~a×NI~a| 12E23
 @@
 @form |SILA₃~c×NI~a|
 @oid o0901830
@@ -14539,6 +15686,7 @@
 @ucun	𒸳
 @uage	1
 @sys	AP23 |SILA3~bxNI~a|
+@sys AP24 |SILA₃~c×NI~a| 12E33
 @@
 @form |SILA₃~b×NI~b|
 @oid o0901831
@@ -14547,6 +15695,7 @@
 @ucun	𒸴
 @uage	1
 @sys	LLATU:284_03 SILA₃~b+NI~b
+@sys AP24 |SILA₃~b×NI~b| 12E34
 @sys	AP23 |SILA3~bxNI~b|
 @@
 @form |SILA₃~d×NI~a|
@@ -14556,6 +15705,7 @@
 @ucun	𒸷
 @uage	1
 @sys	AP23 |SILA3~dxNI~a|
+@sys AP24 |SILA₃~d×NI~a| 12E37
 @@
 @end sign
 
@@ -14570,6 +15720,7 @@
 @ucun	𒸤
 @uage	1
 @sys	LLATU:283_08 SILA₃~a+NUN~b
+@sys AP24 |SILA₃~a×NUN~b| 12E24
 @sys	AP23 |SILA3~axNUN~b|
 @@
 @end sign
@@ -14584,6 +15735,7 @@
 @ucun	𒸩
 @uage	1
 @sys	AP23 |SILA3~axSUHUR|
+@sys AP24 |SILA₃~a×SUHUR| 12E29
 @@
 @end sign
 
@@ -14599,6 +15751,7 @@
 @ucun	𒸪
 @uage	1
 @sys	AP23 |SILA3~axSUM~a|
+@sys AP24 |SILA₃~a×SUM~a~v1| 12E2A
 @@
 @form |SILA₃~a×SUM~b|
 @oid o0901839
@@ -14607,6 +15760,7 @@
 @ucun	𒸫
 @uage	1
 @sys	AP23 |SILA3~axSUM~b|
+@sys AP24 |SILA₃~a×SUM~b| 12E2B
 @@
 @end sign
 
@@ -14621,6 +15775,7 @@
 @ucun	𒸥
 @uage	1
 @sys	AP23 |SILA3~axSZE~a|
+@sys AP24 |SILA₃~a×ŠE~a| 12E25
 @@
 @end sign
 
@@ -14634,6 +15789,7 @@
 @ucun	𒸦
 @uage	1
 @sys	AP23 |SILA3~axSZE~a@t|
+@sys AP24 |SILA₃~a×ŠE~a@t| 12E26
 @@
 @end sign
 
@@ -14649,6 +15805,7 @@
 @ucun	𒸧
 @uage	1
 @sys	LLATU:283_09 SILA₃~a+ŠU
+@sys AP24 |SILA₃~a×ŠU| 12E27
 @sys	AP23 |SILA3~axSZU|
 @@
 @form |SILA₃~c×ŠU|
@@ -14658,6 +15815,7 @@
 @ucun	𒸵
 @uage	1
 @sys	AP23 |SILA3~cxSZU|
+@sys AP24 |SILA₃~c×ŠU| 12E35
 @@
 @end sign
 
@@ -14673,6 +15831,7 @@
 @ucun	𒸨
 @uage	1
 @sys	AP23 |SILA3~axSZU2|
+@sys AP24 |SILA₃~a×ŠU₂~b| 12E28
 @@
 @end sign
 
@@ -14686,6 +15845,7 @@
 @ucun	𒸬
 @uage	1
 @sys	AP23 |SILA3~axX|
+@sys AP24 |SILA₃~a×X| 12E2C
 @@
 @end sign
 
@@ -14701,6 +15861,7 @@
 @ucun	𒸭
 @uage	1
 @sys	LLATU:283_10 SILA₃~a+ZATU629
+@sys AP24 |SILA₃~a×ZATU629~v1| 12E2D
 @sys	AP23 |SILA3~axZATU629|
 @@
 @end sign
@@ -14716,6 +15877,7 @@
 @ucun	𒸮
 @uage	1
 @sys	LLATU:284_01 SILA₃~a+ZATU646~b
+@sys AP24 |SILA₃~a×ZATU646| 12E2E
 @sys	AP23 |SILA3~axZATU646|
 @@
 @end sign
@@ -14732,6 +15894,7 @@
 @ucun	𒸯
 @uage	1
 @sys	AP23 |SILA3~ax(ZATU659.TU~c)|
+@sys AP24 |SILA₃~a×(ZATU659.TU~c~v1)| 12E2F
 @@
 @end sign
 
@@ -14746,6 +15909,7 @@
 @ucun	𒸶
 @uage	1
 @sys	LLATU:284_04 SILA₃~c+ZATU687
+@sys AP24 |SILA₃~c×ZATU687| 12E36
 @sys	AP23 |SILA3~cxZATU687|
 @@
 @end sign
@@ -14765,6 +15929,7 @@
 @ucun	𒨴
 @uage	1
 @sys	LLATU:284_05 SILA₄~a
+@sys AP24 SILA₄~a 12A34
 @sys	AP23 SILA4~a
 @@
 @form SILA₄~b
@@ -14775,6 +15940,7 @@
 @ucun	𒨵
 @uage	1
 @sys	LLATU:284_06 SILA₄~b
+@sys AP24 SILA₄~b 12A35
 @sys	AP23 SILA4~b
 @@
 @form SILA₄~c
@@ -14784,6 +15950,7 @@
 @ucun	𒨶
 @uage	1
 @sys	AP23 SILA4~c
+@sys AP24 SILA₄~c 12A36
 @@
 @form SILA₄~c1
 @oid o0901863
@@ -14798,6 +15965,7 @@
 @ucun	𒨷
 @uage	1
 @sys	LLATU:284_07 SILA₄~d
+@sys AP24 SILA₄~d 12A37
 @sys	AP23 SILA4~d
 @@
 @end sign
@@ -14811,6 +15979,7 @@
 @ucun	𒨸
 @uage	1
 @sys	AP23 SILANITA
+@sys AP24 SILANITA 12A38
 @end sign
 
 @sign SIMUG
@@ -14822,6 +15991,7 @@
 @ucun	𒨹
 @uage	1
 @sys	LLATU:284_08 SIMUG
+@sys AP24 SIMUG 12A39
 @sys	AP23 SIMUG
 @form SIMUG~v1
 @oid o0901867
@@ -14830,6 +16000,7 @@
 @ucun	𒨺
 @uage	1
 @sys	AP23 SIMUG
+@sys AP24 SIMUG~v1 12A3A
 @@
 @end sign
 
@@ -14840,6 +16011,7 @@
 @ucun	𒨻
 @uage	1
 @sys	LLATU:284_09 SIPA
+@sys AP24 SIPA 12A3B
 @sys	AP23 SIPA
 @end sign
 
@@ -14856,6 +16028,7 @@
 @ucun	𒨼
 @uage	1
 @sys	LLATU:285_01 SU~a
+@sys AP24 SU~a 12A3C
 @sys	AP23 SU~a
 @@
 @form	SU~a~v1
@@ -14865,6 +16038,7 @@
 @ucun	𒨽
 @uage	1
 @sys	AP23 SU~a
+@sys AP24 SU~a~v1 12A3D
 @@
 @form SU~b
 @oid o0901872
@@ -14873,6 +16047,7 @@
 @ucun	𒨾
 @uage	1
 @sys	AP23 SU~b
+@sys AP24 SU~b 12A3E
 @@
 @form SU~c
 @oid o0901873
@@ -14894,6 +16069,7 @@
 @ucun	𒸸
 @uage	1
 @sys	LLATU:285_02 SU~a+1(N58)
+@sys AP24 |SU~a×1(N58)| 12E38
 @sys	AP23 |SU~ax1(N58)|
 @@
 @end sign
@@ -14908,6 +16084,7 @@
 @ucun	𒨿
 @uage	1
 @sys	LLATU:285_03 SU₃
+@sys AP24 SU₃ 12A3F
 @sys	AP23 SU3
 @end sign
 
@@ -14921,6 +16098,7 @@
 @ucun	𒩀
 @uage	1
 @sys	LLATU:285_04 SUG
+@sys AP24 SUG 12A40
 @sys	ATFU-S SUG
 @sys	ATFU-v ambar? sug?
 @sys	AP23 SUG
@@ -14937,6 +16115,7 @@
 @ucun	𒩁
 @uage	1
 @sys	LLATU:286_01 SUG₅
+@sys AP24 SUG₅ 12A41
 @sys	AP23 SUG5
 @end sign
 
@@ -14948,6 +16127,7 @@
 @ucun	𒩂
 @uage	1
 @sys	LLATU:286_02 SUH₃
+@sys AP24 SUH₃ 12A42
 @sys	AP23 SUH3
 @end sign
 
@@ -14957,6 +16137,7 @@
 @list	BAU215
 @list	ZATU491
 @sys	LLATU:286_03 SUHUR
+@sys AP24 SUHUR 12A43
 @uname	PROTO-CUNEIFORM SIGN SUHUR
 @list	U+12A43
 @ucun	𒩃
@@ -14979,6 +16160,7 @@
 @ucun	𒩄
 @uage	1
 @sys	LLATU:287_01 SUHUR@g
+@sys AP24 SUHUR@g 12A44
 @sys	AP23 SUHUR@g
 @end sign
 
@@ -14989,6 +16171,7 @@
 @ucun	𒩅
 @uage	1
 @sys	AP23 SUHUR@n
+@sys AP24 SUHUR@n 12A45
 @end sign
 
 @sign SUHUR@t
@@ -15013,6 +16196,7 @@
 @ucun	𒩆
 @uage	1
 @sys	LLATU:287_02 SUKKAL
+@sys AP24 SUKKAL 12A46
 @sys	AP23 SUKKAL
 @end sign
 
@@ -15026,6 +16210,7 @@
 @ucun	𒩇
 @uage	1
 @sys	LLATU:288_01 SUKUD~a
+@sys AP24 SUKUD 12A47
 @sys	AP23 SUKUD
 @compoundonly SUKUD~d
 @@
@@ -15044,6 +16229,7 @@
 @ucun	𒸹
 @uage	1
 @sys	LLATU:288_03 SUKUD+SUKUD~a
+@sys AP24 |(SUKUD+SUKUD)~a| 12E39
 @sys	AP23 |(SUKUD+SUKUD)~a|
 @@
 @form |(SUKUD+SUKUD)~b|
@@ -15054,6 +16240,7 @@
 @ucun	𒸺
 @uage	1
 @sys	LLATU:288_04 SUKUD+SUKUD~b
+@sys AP24 |(SUKUD+SUKUD)~b| 12E3A
 @sys	AP23 |(SUKUD+SUKUD)~b|
 @@
 @form |(SUKUD+SUKUD)~d|
@@ -15063,6 +16250,7 @@
 @ucun	𒸼
 @uage	1
 @sys	AP23 |(SUKUD+SUKUD)~d|
+@sys AP24 |(SUKUD+SUKUD)~d| 12E3C
 @@
 @end sign
 
@@ -15078,6 +16266,7 @@
 @ucun	𒩈
 @uage	1
 @sys	AP23 SUKUD@g~a
+@sys AP24 SUKUD@g~a 12A48
 @@
 @form SUKUD@g~b
 @oid o0901896
@@ -15086,6 +16275,7 @@
 @ucun	𒩉
 @uage	1
 @sys	LLATU:288_02 SUKUD@g~b
+@sys AP24 SUKUD@g~b 12A49
 @sys	AP23 SUKUD@g~b
 @@
 @form	SUKUD@g~b~v1
@@ -15095,6 +16285,7 @@
 @ucun	𒩊
 @uage	1
 @sys	AP23 SUKUD@g~b
+@sys AP24 SUKUD@g~b~v1 12A4A
 @@
 @form SUKUD@g~c
 @oid o0901898
@@ -15103,6 +16294,7 @@
 @ucun	𒩋
 @uage	1
 @sys	AP23 SUKUD@g~c
+@sys AP24 SUKUD@g~c 12A4B
 @@
 @form SUKUD@g~d
 @oid o0901899
@@ -15111,6 +16303,7 @@
 @ucun	𒩌
 @uage	1
 @sys	AP23 SUKUD@g~d
+@sys AP24 SUKUD@g~d 12A4C
 @@
 @end sign
 
@@ -15134,6 +16327,7 @@
 @ucun	𒩍
 @uage	1
 @sys	LLATU:288_06 SUM~a
+@sys AP24 SUM~a 12A4D
 @sys	AP23 SUM~a
 @@
 @form	SUM~a~v1
@@ -15143,6 +16337,7 @@
 @ucun	𒩎
 @uage	1
 @sys	AP23 SUM~a
+@sys AP24 SUM~a~v1 12A4E
 @@
 @form SUM~b
 @oid o0901904
@@ -15152,6 +16347,7 @@
 @ucun	𒩐
 @uage	1
 @sys	LLATU:288_07 SUM~b
+@sys AP24 SUM~b 12A50
 @sys	AP23 SUM~b
 @@
 @end sign
@@ -15166,6 +16362,7 @@
 @ucun	𒩏
 @uage	1
 @sys	AP23 SUM~a@t
+@sys AP24 SUM~a@t 12A4F
 @@
 @end sign
 
@@ -15178,6 +16375,7 @@
 @ucun	𒩑
 @uage	1
 @sys	LLATU:288_08 SUMAŠ
+@sys AP24 SUMAŠ 12A51
 @sys	AP23 SUMASZ
 @end sign
 
@@ -15190,6 +16388,7 @@
 @ucun	𒩒
 @uage	1
 @sys	LLATU:288_09 SUR
+@sys AP24 SUR 12A52
 @sys	ATFU-S SUR
 @sys	AP23 SUR
 @end sign
@@ -15202,6 +16401,7 @@
 @ucun	𒩓
 @uage	1
 @sys	LLATU:289_01 SUSA
+@sys AP24 SUSA 12A53
 @sys	AP23 SUSA
 @end sign
 
@@ -15213,6 +16413,7 @@
 @ucun	𒦽
 @uage	1
 @sys	LLATU:289_02 ŠA
+@sys AP24 ŠA 129BD
 @sys	ATFU-S ŠA
 @sys	AP23 SZA
 @form ŠA~v1
@@ -15222,6 +16423,7 @@
 @ucun	𒦾
 @uage	1
 @sys	AP23 SZA
+@sys AP24 ŠA~v1 129BE
 @@
 @form ŠA~v2
 @oid o0901912
@@ -15231,6 +16433,7 @@
 @ucun	𒦿
 @uage	1
 @sys	AP23 SZA
+@sys AP24 ŠA~v2 129BF
 @@
 @end sign
 
@@ -15246,6 +16449,7 @@
 @ucun	𒷩
 @uage	1
 @sys	LLATU:289_03 ŠA+HI@g~a
+@sys AP24 |(ŠA×HI@g~a)~a| 12DE9
 @sys	AP23 |(SZAxHI@g~a)~a|
 @@
 @form |(ŠA×HI@g~a)~b|
@@ -15255,6 +16459,7 @@
 @ucun	𒷪
 @uage	1
 @sys	AP23 |(SZAxHI@g~a)~b|
+@sys AP24 |(ŠA×HI@g~a)~b| 12DEA
 @@
 @end sign
 
@@ -15266,6 +16471,7 @@
 @ucun	𒧀
 @uage	1
 @sys	LLATU:289_04 ŠA@g
+@sys AP24 ŠA@g 129C0
 @sys	AP23 SZA@g
 @end sign
 
@@ -15282,6 +16488,7 @@
 @ucun	𒧁
 @uage	1
 @sys	LLATU:289_05 ŠA₃~a1
+@sys AP24 ŠA₃~a1 129C1
 @sys	AP23 SZA3~a1
 @@
 @form ŠA₃~a2
@@ -15293,6 +16500,7 @@
 @ucun	𒧂
 @uage	1
 @sys	LLATU:290_01 ŠA₃~a2
+@sys AP24 ŠA₃~a2 129C2
 @sys	AP23 SZA3~a2
 @@
 @form ŠA₃~b
@@ -15302,6 +16510,7 @@
 @ucun	𒧃
 @uage	1
 @sys	AP23 SZA3~b
+@sys AP24 ŠA₃~b 129C3
 @@
 @form ŠA₃~c
 @oid o0901921
@@ -15310,6 +16519,7 @@
 @ucun	𒧄
 @uage	1
 @sys	AP23 SZA3~c
+@sys AP24 ŠA₃~c 129C4
 @@
 @form ŠA₃~d
 @oid o0901922
@@ -15318,6 +16528,7 @@
 @ucun	𒧅
 @uage	1
 @sys	AP23 SZA3~d
+@sys AP24 ŠA₃~d 129C5
 @@
 @end sign
 
@@ -15344,6 +16555,7 @@
 @ucun	𒧆
 @uage	1
 @sys	LLATU:290_02 ŠAB~a
+@sys AP24 ŠAB~a 129C6
 @sys	AP23 SZAB~a
 @@
 @form	ŠAB~a~v1
@@ -15353,6 +16565,7 @@
 @ucun	𒧇
 @uage	1
 @sys	AP23 SZAB~a
+@sys AP24 ŠAB~a~v1 129C7
 @@
 @form ŠAB~b
 @oid o0901928
@@ -15361,6 +16574,7 @@
 @ucun	𒧈
 @uage	1
 @sys	AP23 SZAB~b
+@sys AP24 ŠAB~b 129C8
 @@
 @form	ŠAB~b~v1
 @oid o0901929
@@ -15369,6 +16583,7 @@
 @ucun	𒧉
 @uage	1
 @sys	AP23 SZAB~b
+@sys AP24 ŠAB~b~v1 129C9
 @@
 @end sign
 
@@ -15381,6 +16596,7 @@
 @ucun	𒧊
 @uage	1
 @sys	LLATU:290_03 ŠAGAN
+@sys AP24 ŠAGAN 129CA
 @sys	AP23 SZAGAN
 @form ŠAGAN~v1
 @oid o0901931
@@ -15389,6 +16605,7 @@
 @ucun	𒧋
 @uage	1
 @sys	AP23 SZAGAN
+@sys AP24 ŠAGAN~v1 129CB
 @@
 @end sign
 
@@ -15400,6 +16617,7 @@
 @ucun	𒧌
 @uage	1
 @sys	LLATU:291_01 ŠAGINA
+@sys AP24 ŠAGINA 129CC
 @sys	AP23 SZAGINA
 @end sign
 
@@ -15418,6 +16636,7 @@
 @ucun	𒧍
 @uage	1
 @sys	LLATU:291_02 ŠAH₂~a
+@sys AP24 ŠAH₂~a 129CD
 @sys	ATFU-S ŠAH₂~a
 @sys	ATFU-v sul šul
 @sys	AP23 SZAH2~a
@@ -15429,6 +16648,7 @@
 @ucun	𒧎
 @uage	1
 @sys	AP23 SZAH2~b
+@sys AP24 ŠAH₂~b 129CE
 @@
 @form ŠAH₂~c
 @oid o0901936
@@ -15437,6 +16657,7 @@
 @ucun	𒧏
 @uage	1
 @sys	AP23 SZAH2~c
+@sys AP24 ŠAH₂~c 129CF
 @@
 @end sign
 
@@ -15452,6 +16673,7 @@
 @ucun	𒧐
 @uage	1
 @sys	LLATU:291_04 ŠAKIR~a
+@sys AP24 ŠAKIR~a 129D0
 @sys	AP23 SZAKIR~a
 @@
 @form ŠAKIR~b
@@ -15461,6 +16683,7 @@
 @ucun	𒧑
 @uage	1
 @sys	LLATU:291_05 ŠAKIR~b
+@sys AP24 ŠAKIR~b 129D1
 @sys	AP23 SZAKIR~b
 @@
 @form ŠAKIR~c
@@ -15470,6 +16693,7 @@
 @ucun	𒧒
 @uage	1
 @sys	LLATU:291_06 ŠAKIR~c
+@sys AP24 ŠAKIR~c 129D2
 @sys	AP23 SZAKIR~c
 @@
 @end sign
@@ -15483,6 +16707,7 @@
 @ucun	𒧓
 @uage	1
 @sys	LLATU:291_07 ŠAM₂
+@sys AP24 ŠAM₂ 129D3
 @sys	ATFU-S ŠAM₂
 @sys	ATFU-v sa₁₀ šaₓ?
 @sys	AP23 SZAM2
@@ -15499,6 +16724,7 @@
 @ucun	𒧔
 @uage	1
 @sys	AP23 SZANDANA~a
+@sys AP24 ŠANDANA~a 129D4
 @@
 @form ŠANDANA~b
 @oid o0901944
@@ -15507,6 +16733,7 @@
 @ucun	𒧕
 @uage	1
 @sys	AP23 SZANDANA~b
+@sys AP24 ŠANDANA~b 129D5
 @@
 @end sign
 
@@ -15527,6 +16754,7 @@
 @ucun	𒧖
 @uage	1
 @sys	LLATU:292_01 ŠE~a
+@sys AP24 ŠE~a 129D6
 @sys	AP23 SZE~a
 @@
 @form ŠE~b
@@ -15536,6 +16764,7 @@
 @ucun	𒧘
 @uage	1
 @sys	LLATU:293_01 ŠE~b
+@sys AP24 ŠE~b 129D8
 @sys	AP23 SZE~b
 @@
 @form ŠE~c
@@ -15545,6 +16774,7 @@
 @ucun	𒧙
 @uage	1
 @sys	AP23 SZE~c
+@sys AP24 ŠE~c 129D9
 @@
 @end sign
 
@@ -15577,6 +16807,7 @@
 @ucun	𒷫
 @uage	1
 @sys	LLATU:292_02 ŠE~a+KIN₂~c
+@sys AP24 |ŠE~a.KIN₂~c| 12DEB
 @sys	AP23 |SZE~a.KIN2~c|
 @@
 @end sign
@@ -15595,6 +16826,7 @@
 @ucun	𒷬
 @uage	1
 @sys	LLATU:292_03 ŠE~a+NAM₂
+@sys AP24 |ŠE~a.NAM₂| 12DEC
 @sys	AP23 |SZE~a.NAM2|
 @@
 @form |ŠE~a.NAM₂|~v1
@@ -15604,6 +16836,7 @@
 @ucun	𒷭
 @uage	1
 @sys	AP23 |SZE~a.NAM2|
+@sys AP24 |ŠE~a.NAM₂|~v1 12DED
 @@
 @form |ŠE~a.NAM₂|~v2
 @oid o0901957
@@ -15625,6 +16858,7 @@
 @ucun	𒷮
 @uage	1
 @sys	LLATU:292_05 ŠE~a+ŠE~a
+@sys AP24 |ŠE~a&ŠE~a| 12DEE
 @sys	AP23 |SZE~a&SZE~a|
 @@
 @end sign
@@ -15639,6 +16873,7 @@
 @ucun	𒧗
 @uage	1
 @sys	LLATU:292_06 ŠE~a@t
+@sys AP24 ŠE~a@t 129D7
 @sys	AP23 SZE~a@t
 @@
 @compoundonly ŠE~a@t~v1
@@ -15654,6 +16889,7 @@
 @ucun	𒧚
 @uage	1
 @sys	LLATU:293_02 ŠE₃
+@sys AP24 ŠE₃ 129DA
 @sys	ATFU-S ŠE₃
 @sys	ATFU-v še₃
 @sys	AP23 SZE3
@@ -15664,6 +16900,7 @@
 @ucun	𒧛
 @uage	1
 @sys	AP23 SZE3
+@sys AP24 ŠE₃~v1 129DB
 @@
 @end sign
 
@@ -15676,6 +16913,7 @@
 @ucun	𒧜
 @uage	1
 @sys	LLATU:293_03 ŠE₃@t
+@sys AP24 ŠE₃@t 129DC
 @sys	AP23 SZE3@t
 @form ŠE₃@t~v1
 @oid o0901965
@@ -15684,6 +16922,7 @@
 @ucun	𒧝
 @uage	1
 @sys	AP23 SZE3@t
+@sys AP24 ŠE₃@t~v1 129DD
 @@
 @end sign
 
@@ -15696,6 +16935,7 @@
 @ucun	𒧞
 @uage	1
 @sys	LLATU:293_04 ŠEG₉
+@sys AP24 ŠEG₉ 129DE
 @sys	AP23 SZEG9
 @end sign
 
@@ -15707,6 +16947,7 @@
 @ucun	𒧟
 @uage	1
 @sys	LLATU:293_05 ŠELU
+@sys AP24 ŠELU 129DF
 @sys	AP23 SZELU
 @end sign
 
@@ -15725,6 +16966,7 @@
 @ucun	𒧠
 @uage	1
 @sys	LLATU:293_06 ŠEN~a
+@sys AP24 ŠEN~a 129E0
 @sys	AP23 SZEN~a
 @@
 @form	ŠEN~a~v1
@@ -15734,6 +16976,7 @@
 @ucun	𒧡
 @uage	1
 @sys	AP23 SZEN~a
+@sys AP24 ŠEN~a~v1 129E1
 @@
 @form ŠEN~b
 @oid o0901971
@@ -15742,6 +16985,7 @@
 @ucun	𒧢
 @uage	1
 @sys	LLATU:293_07 ŠEN~b
+@sys AP24 ŠEN~b 129E2
 @sys	AP23 SZEN~b
 @@
 @form	ŠEN~b~v1
@@ -15751,6 +16995,7 @@
 @ucun	𒧣
 @uage	1
 @sys	AP23 SZEN~b
+@sys AP24 ŠEN~b~v1 129E3
 @@
 @form ŠEN~c
 @oid o0901973
@@ -15759,6 +17004,7 @@
 @ucun	𒧤
 @uage	1
 @sys	LLATU:293_08 ŠEN~c
+@sys AP24 ŠEN~c 129E4
 @sys	AP23 SZEN~c
 @@
 @form ŠEN~d
@@ -15768,6 +17014,7 @@
 @ucun	𒧦
 @uage	1
 @sys	AP23 SZEN~d
+@sys AP24 ŠEN~d 129E6
 @@
 @form	ŠEN~d~v1
 @oid o0901975
@@ -15776,6 +17023,7 @@
 @ucun	𒧧
 @uage	1
 @sys	AP23 SZEN~d
+@sys AP24 ŠEN~d~v1 129E7
 @@
 @form	ŠEN~d~v2
 @oid o0901976
@@ -15784,6 +17032,7 @@
 @ucun	𒧨
 @uage	1
 @sys	AP23 SZEN~d
+@sys AP24 ŠEN~d~v2 129E8
 @@
 @form ŠEN~e
 @oid o0901977
@@ -15792,6 +17041,7 @@
 @ucun	𒧩
 @uage	1
 @sys	AP23 SZEN~e
+@sys AP24 ŠEN~e 129E9
 @@
 @end sign
 
@@ -15805,6 +17055,7 @@
 @ucun	𒷯
 @uage	1
 @sys	AP23 |SZEN~dxA|
+@sys AP24 |ŠEN~d×A| 12DEF
 @@
 @end sign
 
@@ -15818,6 +17069,7 @@
 @ucun	𒧥
 @uage	1
 @sys	AP23 SZEN~c@t
+@sys AP24 ŠEN~c@t 129E5
 @@
 @end sign
 
@@ -15833,6 +17085,7 @@
 @ucun	𒧪
 @uage	1
 @sys	LLATU:294_01 ŠENNUR~a
+@sys AP24 ŠENNUR~a 129EA
 @sys	AP23 SZENNUR~a
 @@
 @form ŠENNUR~b
@@ -15842,6 +17095,7 @@
 @ucun	𒧫
 @uage	1
 @sys	AP23 SZENNUR~b
+@sys AP24 ŠENNUR~b 129EB
 @@
 @end sign
 
@@ -15861,6 +17115,7 @@
 @ucun	𒧬
 @uage	1
 @sys	AP23 SZESZ~a
+@sys AP24 ŠEŠ~a 129EC
 @@
 @form	ŠEŠ~a~v1
 @oid o0901987
@@ -15869,6 +17124,7 @@
 @ucun	𒧭
 @uage	1
 @sys	AP23 SZESZ~a
+@sys AP24 ŠEŠ~a~v1 129ED
 @@
 @form ŠEŠ~b
 @oid o0901988
@@ -15877,6 +17133,7 @@
 @ucun	𒧮
 @uage	1
 @sys	AP23 SZESZ~b
+@sys AP24 ŠEŠ~b 129EE
 @@
 @end sign
 
@@ -15890,6 +17147,7 @@
 @ucun	𒧯
 @uage	1
 @sys	LLATU:294_02 ŠIDIM
+@sys AP24 ŠIDIM 129EF
 @sys	ATFU-S ŠIDIM
 @sys	ATFU-v gin₇
 @sys	AP23 SZIDIM
@@ -15902,6 +17160,7 @@
 @ucun	𒧰
 @uage	1
 @sys	AP23 SZIDIM@t
+@sys AP24 ŠIDIM@t 129F0
 @end sign
 
 @sign ŠIM
@@ -15918,6 +17177,7 @@
 @ucun	𒧱
 @uage	1
 @sys	LLATU:294_03 ŠIM~a
+@sys AP24 ŠIM~a 129F1
 @sys	AP23 SZIM~a
 @@
 @form	ŠIM~a~v1
@@ -15927,6 +17187,7 @@
 @ucun	𒧲
 @uage	1
 @sys	AP23 SZIM~a
+@sys AP24 ŠIM~a~v1 129F2
 @@
 @form	ŠIM~a~v2
 @oid o0901995
@@ -15936,6 +17197,7 @@
 @ucun	𒧳
 @uage	1
 @sys	AP23 SZIM~a
+@sys AP24 ŠIM~a~v2 129F3
 @@
 @form ŠIM~b
 @oid o0901996
@@ -15944,6 +17206,7 @@
 @ucun	𒧴
 @uage	1
 @sys	AP23 SZIM~b
+@sys AP24 ŠIM~b 129F4
 @@
 @end sign
 
@@ -15960,6 +17223,7 @@
 @ucun	𒧵
 @uage	1
 @sys	LLATU:294_04 ŠIR~a
+@sys AP24 ŠIR~a 129F5
 @sys	AP23 SZIR~a
 @@
 @form	ŠIR~a~v1
@@ -15970,6 +17234,7 @@
 @ucun	𒧶
 @uage	1
 @sys	AP23 SZIR~a
+@sys AP24 ŠIR~a~v1 129F6
 @@
 @form ŠIR~b
 @oid o0902000
@@ -15978,6 +17243,7 @@
 @ucun	𒧷
 @uage	1
 @sys	AP23 SZIR~b
+@sys AP24 ŠIR~b 129F7
 @@
 @form	ŠIR~b~v1
 @oid o0902001
@@ -15986,6 +17252,7 @@
 @ucun	𒧸
 @uage	1
 @sys	AP23 SZIR~b
+@sys AP24 ŠIR~b~v1 129F8
 @@
 @form	ŠIR~b~v2
 @oid o0902002
@@ -15994,6 +17261,7 @@
 @ucun	𒧹
 @uage	1
 @sys	AP23 SZIR~b
+@sys AP24 ŠIR~b~v2 129F9
 @@
 @end sign
 
@@ -16011,6 +17279,7 @@
 @ucun	𒧺
 @uage	1
 @sys	LLATU:294_05 ŠITA~a1
+@sys AP24 ŠITA~a1 129FA
 @sys	ATFU-S ŠITA~a1
 @sys	ATFU-v šita
 @sys	AP23 SZITA~a1
@@ -16022,6 +17291,7 @@
 @ucun	𒧻
 @uage	1
 @sys	AP23 SZITA~a2
+@sys AP24 ŠITA~a2 129FB
 @@
 @form ŠITA~a3
 @oid o0902006
@@ -16030,6 +17300,7 @@
 @ucun	𒧼
 @uage	1
 @sys	LLATU:295_03 ŠITA~a3
+@sys AP24 ŠITA~a3 129FC
 @sys	AP23 SZITA~a3
 @@
 @form ŠITA~b1
@@ -16039,6 +17310,7 @@
 @ucun	𒧽
 @uage	1
 @sys	LLATU:295_04 ŠITA~b1
+@sys AP24 ŠITA~b1 129FD
 @sys	AP23 SZITA~b1
 @@
 @form ŠITA~b2
@@ -16048,6 +17320,7 @@
 @ucun	𒧾
 @uage	1
 @sys	AP23 SZITA~b2
+@sys AP24 ŠITA~b2 129FE
 @@
 @form ŠITA~b3
 @oid o0902009
@@ -16056,6 +17329,7 @@
 @ucun	𒧿
 @uage	1
 @sys	LLATU:295_05 ŠITA~b3
+@sys AP24 ŠITA~b3 129FF
 @sys	AP23 SZITA~b3
 @@
 @end sign
@@ -16072,6 +17346,7 @@
 @ucun	𒷵
 @uage	1
 @sys	AP23 |SZITA~b1xHI@g~a|
+@sys AP24 |ŠITA~b2@g×HI@g~a| 12DF5
 @@
 @end sign
 
@@ -16086,6 +17361,7 @@
 @ucun	𒷱
 @uage	1
 @sys	LLATU:295_01 ŠITA~a1+KAK
+@sys AP24 |ŠITA~a1×KAK~a| 12DF1
 @sys	AP23 |SZITA~a1xKAK~a|
 @@
 @end sign
@@ -16100,6 +17376,7 @@
 @ucun	𒷰
 @uage	1
 @sys	AP23 |SZITA~a1x1(N06)|
+@sys AP24 |ŠITA~a1×1(N06)| 12DF0
 @@
 @end sign
 
@@ -16113,6 +17390,7 @@
 @ucun	𒷶
 @uage	1
 @sys	AP23 |SZITA~b3xNAM2|
+@sys AP24 |ŠITA~b3×NAM₂| 12DF6
 @@
 @end sign
 
@@ -16127,6 +17405,7 @@
 @ucun	𒷲
 @uage	1
 @sys	LLATU:295_02 ŠITA~a1+ŠU
+@sys AP24 |ŠITA~a1×ŠU| 12DF2
 @sys	AP23 |SZITA~a1xSZU|
 @@
 @end sign
@@ -16142,6 +17421,7 @@
 @ucun	𒷳
 @uage	1
 @sys	AP23 |SZITA~a1xSZU2|
+@sys AP24 |ŠITA~a1×ŠU₂~b| 12DF3
 @@
 @end sign
 
@@ -16155,6 +17435,7 @@
 @ucun	𒷴
 @uage	1
 @sys	AP23 |SZITA~a1xUDU~a|
+@sys AP24 |ŠITA~a1×UDU~a| 12DF4
 @@
 @end sign
 
@@ -16171,6 +17452,7 @@
 @ucun	𒨃
 @uage	1
 @sys	AP23 SZITA@g~b 998
+@sys AP24 ŠITA~a1@g 12A03
 @@
 @form ŠITA~a3@g
 @oid o0902027
@@ -16184,6 +17466,7 @@
 @ucun	𒨂
 @uage	1
 @sys	AP23 SZITA@g~a 997.1
+@sys AP24 ŠITA~b1@g 12A02
 @@
 @compoundonly	ŠITA~b2@g
 @@
@@ -16195,6 +17478,7 @@
 @ucun	𒨁
 @uage	1
 @sys	AP23 SZITA@g~a 997
+@sys AP24 ŠITA~b3@g 12A01
 @@
 @end sign
 
@@ -16210,6 +17494,7 @@
 @ucun	𒷷
 @uage	1
 @sys	AP23 |SZITA@g~ax1(N04)|
+@sys AP24 |ŠITA~b3@g×1(N04)| 12DF7
 @@
 @end sign
 
@@ -16224,6 +17509,7 @@
 @ucun	𒷸
 @uage	1
 @sys	AP23 |SZITA@g~ax1(N06)|
+@sys AP24 |ŠITA~b3@g×1(N06)| 12DF8
 @@
 @end sign
 
@@ -16236,6 +17522,7 @@
 @ucun	𒨄
 @uage	1
 @sys	LLATU:295_06 ŠU
+@sys AP24 ŠU 12A04
 @sys	ATFU-S ŠU
 @sys	ATFU-v šu
 @sys	AP23 SZU
@@ -16248,6 +17535,7 @@
 @ucun	𒷹
 @uage	1
 @sys	AP23 |SZUx1(N58)|
+@sys AP24 |ŠU×1(N58)| 12DF9
 @end sign
 
 @sign |ŠU&ŠU|
@@ -16257,6 +17545,7 @@
 @ucun	𒷺
 @uage	1
 @sys	AP23 |SZU&SZU|
+@sys AP24 |ŠU&ŠU| 12DFA
 @end sign
 
 @sign ŠU@g
@@ -16267,6 +17556,7 @@
 @ucun	𒨅
 @uage	1
 @sys	LLATU:296_01 ŠU@g
+@sys AP24 ŠU@g 12A05
 @sys	AP23 SZU@g
 @end sign
 
@@ -16285,6 +17575,7 @@
 @unote	correct name PROTO-CUNEIFORM SIGN SHU2-A
 @uage	1
 @sys	AP23 SZU2
+@sys AP24 ŠU₂~a 12A07
 @@
 @form ŠU₂~b
 @oid o0902040
@@ -16294,6 +17585,7 @@
 @unote	correct name PROTO-CUNEIFORM SIGN SHU2-B
 @uage	1
 @sys	AP23 SZU2
+@sys AP24 ŠU₂~b 12A08
 @@
 @end sign
 
@@ -16307,6 +17599,7 @@
 @ucun	𒷽
 @uage	1
 @sys	AP23 |SZU2.AN|
+@sys AP24 |ŠU₂~a.AN| 12DFD
 @end sign
 
 @sign |ŠU₂.E₂|
@@ -16321,6 +17614,7 @@
 @ucun	𒷾
 @uage	1
 @sys	AP23 |SZU2.E2~a|
+@sys AP24 |ŠU₂~b.E₂~a| 12DFE
 @@
 @form |ŠU₂~b.E₂~b|
 @oid o0902044
@@ -16330,6 +17624,7 @@
 @ucun	𒷿
 @uage	1
 @sys	AP23 |SZU2.E2~b|
+@sys AP24 |ŠU₂~b.E₂~b| 12DFF
 @@
 @end sign
 
@@ -16346,6 +17641,7 @@
 @ucun	𒸀
 @uage	1
 @sys	LLATU:296_03 ŠU₂+EN~a
+@sys AP24 |ŠU₂~a.EN~a~v1| 12E00
 @sys	AP23 |SZU2.EN~a|
 @@
 @form |ŠU₂~a.EN~a~v2|
@@ -16356,6 +17652,7 @@
 @ucun	𒸁
 @uage	1
 @sys	AP23 |SZU2.EN~a|
+@sys AP24 |ŠU₂~a.EN~a~v2| 12E01
 @@
 @form |ŠU₂~a.EN~b~v1|
 @oid o0902048
@@ -16365,6 +17662,7 @@
 @ucun	𒸂
 @uage	1
 @sys	AP23 |SZU2.EN~b|
+@sys AP24 |ŠU₂~a.EN~b~v1| 12E02
 @@
 @end sign
 
@@ -16376,6 +17674,7 @@
 @ucun	𒸃
 @uage	1
 @sys	AP23 |SZU2.GISZ|
+@sys AP24 |ŠU₂~b.GIŠ| 12E03
 @end sign
 
 @sign |ŠU₂~a.(HI×1(N57))&(HI×1(N57))|
@@ -16388,6 +17687,7 @@
 @ucun	𒸄
 @uage	1
 @sys	AP23 |SZU2.((HIx1(N57))&(HIx1(N57)))|
+@sys AP24 |ŠU₂~a.(HI×1(N57))&(HI×1(N57))| 12E04
 @end sign
 
 @sign |ŠU₂~b.1(N02)|
@@ -16398,6 +17698,7 @@
 @ucun	𒷻
 @uage	1
 @sys	AP23 |SZU2.1(N02)|
+@sys AP24 |ŠU₂~b.1(N02)| 12DFB
 @end sign
 
 
@@ -16423,6 +17724,7 @@
 @ucun	𒸅
 @uage	1
 @sys	AP23 |SZU2.URI3~a|
+@sys AP24 |ŠU₂~a.URI₃~a~v1| 12E05
 @@
 @end sign
 
@@ -16449,6 +17751,7 @@
 @ucun	𒨉
 @uage	1
 @sys	LLATU:296_04 ŠU₁₂
+@sys AP24 ŠU₁₂ 12A09
 @sys	AP23 SZU12
 @end sign
 
@@ -16460,6 +17763,7 @@
 @ucun	𒨊
 @uage	1
 @sys	LLATU:297_01 ŠUBUR
+@sys AP24 ŠUBUR 12A0A
 @sys	ATFU-S ŠUBUR
 @sys	ATFU-v šubur
 @sys	AP23 SZUBUR
@@ -16473,6 +17777,7 @@
 @ucun	𒨋
 @uage	1
 @sys	LLATU:298_04 ŠUM
+@sys AP24 ŠUM 12A0B
 @sys	AP23 SZUM
 @end sign
 
@@ -16488,6 +17793,7 @@
 @ucun	𒨌
 @uage	1
 @sys	AP23 SZUR2~a
+@sys AP24 ŠUR₂~a 12A0C
 @@
 @form ŠUR₂~b
 @oid o0902064
@@ -16497,6 +17803,7 @@
 @ucun	𒨍
 @uage	1
 @sys	ATFU-S ŠUR₂~b
+@sys AP24 ŠUR₂~b 12A0D
 @sys	ATFU-v sur₂?
 @sys	AP23 SZUR2~b
 @@
@@ -16527,6 +17834,7 @@
 @ucun	𒨎
 @uage	1
 @sys	LLATU:298_05 ŠURUPPAK~a
+@sys AP24 ŠURUPPAK~a 12A0E
 @sys	AP23 SZURUPPAK~a
 @@
 @form	ŠURUPPAK~a~v1
@@ -16536,6 +17844,7 @@
 @ucun	𒨏
 @uage	1
 @sys	AP23 SZURUPPAK~a
+@sys AP24 ŠURUPPAK~a~v1 12A0F
 @@
 @form ŠURUPPAK~b
 @oid o0902070
@@ -16544,6 +17853,7 @@
 @ucun	𒨐
 @uage	1
 @sys	AP23 SZURUPPAK~b
+@sys AP24 ŠURUPPAK~b 12A10
 @@
 @form	ŠURUPPAK~b~v1
 @oid o0902071
@@ -16552,6 +17862,7 @@
 @ucun	𒨑
 @uage	1
 @sys	AP23 SZURUPPAK~b
+@sys AP24 ŠURUPPAK~b~v1 12A11
 @@
 @end sign
 
@@ -16569,6 +17880,7 @@
 @ucun	𒩔
 @uage	1
 @sys	AP23 TA~a
+@sys AP24 TA~a 12A54
 @@
 @form TA~b
 @oid o0902075
@@ -16577,6 +17889,7 @@
 @ucun	𒩕
 @uage	1
 @sys	AP23 TA~b
+@sys AP24 TA~b 12A55
 @@
 @form TA~c
 @oid o0902076
@@ -16585,6 +17898,7 @@
 @ucun	𒩖
 @uage	1
 @sys	LLATU:298_06 TA~c
+@sys AP24 TA~c 12A56
 @sys	AP23 TA~c
 @@
 @form TA~d
@@ -16594,6 +17908,7 @@
 @ucun	𒩗
 @uage	1
 @sys	AP23 TA~d
+@sys AP24 TA~d 12A57
 @@
 @form TA~e
 @oid o0902078
@@ -16602,6 +17917,7 @@
 @ucun	𒩘
 @uage	1
 @sys	AP23 TA~e
+@sys AP24 TA~e 12A58
 @@
 @end sign
 
@@ -16615,6 +17931,7 @@
 @ucun	𒸽
 @uage	1
 @sys	AP23 |TA~dxMASZ|
+@sys AP24 |TA~d×MAŠ| 12E3D
 @@
 @end sign
 
@@ -16630,6 +17947,7 @@
 @ucun	𒩚
 @uage	1
 @sys	LLATU:298_07 TAG~a1
+@sys AP24 TAG~a1 12A5A
 @sys	AP23 TAG~a1
 @@
 @form TAG~a2
@@ -16639,6 +17957,7 @@
 @ucun	𒩜
 @uage	1
 @sys	LLATU:298_08 TAG~a2
+@sys AP24 TAG~a2 12A5C
 @sys	AP23 TAG~a2
 @@
 @form TAG~a3
@@ -16648,6 +17967,7 @@
 @ucun	𒩝
 @uage	1
 @sys	AP23 TAG~a3
+@sys AP24 TAG~a3 12A5D
 @@
 @form TAG~a4
 @oid o0902086
@@ -16656,6 +17976,7 @@
 @ucun	𒩞
 @uage	1
 @sys	LLATU:298_09 TAG~a4
+@sys AP24 TAG~a4 12A5E
 @sys	AP23 TAG~a4
 @@
 @form TAG~b
@@ -16665,6 +17986,7 @@
 @ucun	𒩟
 @uage	1
 @sys	LLATU:299_01 TAG~b
+@sys AP24 TAG~b 12A5F
 @sys	AP23 TAG~b
 @@
 @form TAG~c
@@ -16674,6 +17996,7 @@
 @ucun	𒩠
 @uage	1
 @sys	AP23 TAG~c
+@sys AP24 TAG~c 12A60
 @@
 @form TAG~d
 @oid o0902089
@@ -16682,6 +18005,7 @@
 @ucun	𒩡
 @uage	1
 @sys	AP23 TAG~d
+@sys AP24 TAG~d 12A61
 @@
 @form TAG~e
 @oid o0902090
@@ -16701,6 +18025,7 @@
 @ucun	𒩛
 @uage	1
 @sys	AP23 TAG~a1@t
+@sys AP24 TAG~a1@t 12A5B
 @@
 @end sign
 
@@ -16717,6 +18042,7 @@
 @ucun	𒩢
 @uage	1
 @sys	LLATU:299_02 TAK₄~a
+@sys AP24 TAK₄~a 12A62
 @sys	AP23 TAK4~a
 @@
 @form	TAK₄~a~v1
@@ -16726,6 +18052,7 @@
 @ucun	𒩣
 @uage	1
 @sys	AP23 TAK4~a
+@sys AP24 TAK₄~a~v1 12A63
 @@
 @form TAK₄~c
 @oid o0902096
@@ -16734,6 +18061,7 @@
 @ucun	𒩥
 @uage	1
 @sys	AP23 TAK4~c
+@sys AP24 TAK₄~c 12A65
 @@
 @end sign
 
@@ -16747,6 +18075,7 @@
 @ucun	𒩤
 @uage	1
 @sys	AP23 TAK4~a@n
+@sys AP24 TAK₄~a@n 12A64
 @@
 @end sign
 
@@ -16764,6 +18093,7 @@
 @ucun	𒩦
 @uage	1
 @sys	LLATU:299_03 TAR~a
+@sys AP24 TAR~a 12A66
 @sys	AP23 TAR~a
 @inote This is the parallel but vertically offset pair of strokes called ×TAR in |(UDU~a×TAR)~a|
 @@
@@ -16786,6 +18116,7 @@
 @ucun	𒩨
 @uage	1
 @sys	LLATU:300_01 TE
+@sys AP24 TE 12A68
 @sys	ATFU-S TE
 @sys	AP23 TE
 @end sign
@@ -16800,6 +18131,7 @@
 @ucun	𒩩
 @uage	1
 @sys	LLATU:300_02 TI~a
+@sys AP24 TI 12A69
 @sys	ATFU-S TI
 @sys	ATFU-v ti
 @sys	AP23 TI
@@ -16810,6 +18142,7 @@
 @ucun	𒩪
 @uage	1
 @sys	AP23 TI
+@sys AP24 TI~v1 12A6A
 @@
 @end sign
 
@@ -16820,6 +18153,7 @@
 @ucun	𒩬
 @uage	1
 @sys	LLATU:300_03 TI~a@g
+@sys AP24 TI@g 12A6C
 @sys	AP23 TI@g
 @end sign
 
@@ -16830,6 +18164,7 @@
 @ucun	𒩭
 @uage	1
 @sys	AP23 TI@r
+@sys AP24 TI@r 12A6D
 @end sign
 
 @sign TI@t
@@ -16839,6 +18174,7 @@
 @ucun	𒩫
 @uage	1
 @sys	AP23 TI@t
+@sys AP24 TI@t 12A6B
 @end sign
 
 @sign TIDNUM
@@ -16849,6 +18185,7 @@
 @ucun	𒩮
 @uage	1
 @sys	LLATU:300_04 TIDNUM
+@sys AP24 TIDNUM 12A6E
 @sys	AP23 TIDNUM
 @end sign
 
@@ -16861,6 +18198,7 @@
 @ucun	𒩯
 @uage	1
 @sys	LLATU:300_05 TILLA₂
+@sys AP24 TILLA₂ 12A6F
 @sys	AP23 TILLA2
 @end sign
 
@@ -16876,6 +18214,7 @@
 @ucun	𒩰
 @uage	1
 @sys	LLATU:301_01 TU~a
+@sys AP24 TU~a 12A70
 @sys	AP23 TU~a
 @@
 @form TU~b
@@ -16885,6 +18224,7 @@
 @ucun	𒩱
 @uage	1
 @sys	LLATU:301_02 TU~b
+@sys AP24 TU~b 12A71
 @sys	AP23 TU~b
 @@
 @form TU~b1
@@ -16901,6 +18241,7 @@
 @ucun	𒩲
 @uage	1
 @sys	AP23 TU~c
+@sys AP24 TU~c 12A72
 @@
 @compoundonly TU~c~v1
 @end sign
@@ -16920,6 +18261,7 @@
 @ucun	𒩳
 @uage	1
 @sys	LLATU:301_03 TUG₂~a
+@sys AP24 TUG₂~a 12A73
 @sys	AP23 TUG2~a
 @@
 @form TUG₂~b
@@ -16929,6 +18271,7 @@
 @ucun	𒩶
 @uage	1
 @sys	AP23 TUG2~b
+@sys AP24 TUG₂~b 12A76
 @@
 @form TUG₂~c
 @oid o0902118
@@ -16937,6 +18280,7 @@
 @ucun	𒩷
 @uage	1
 @sys	AP23 TUG2~c
+@sys AP24 TUG₂~c 12A77
 @@
 @form TUG₂~d
 @oid o0902119
@@ -16945,6 +18289,7 @@
 @ucun	𒩸
 @uage	1
 @sys	AP23 TUG2~d
+@sys AP24 TUG₂~d 12A78
 @@
 @end sign
 
@@ -16959,6 +18304,7 @@
 @ucun	𒸾
 @uage	1
 @sys	AP23 |TUG2~a.(BAD&BAD)|
+@sys AP24 |TUG₂~a.BAD&BAD| 12E3E
 @@
 @end sign
 
@@ -16973,6 +18319,7 @@
 @ucun	𒩴
 @uage	1
 @sys	LLATU:301_04 TUG₂~a@g
+@sys AP24 TUG₂~a@g 12A74
 @sys	AP23 TUG2~a@g
 @@
 @form TUG₂~a@g~v1
@@ -16982,6 +18329,7 @@
 @ucun	𒩵
 @uage	1
 @sys	AP23 TUG2~a@g
+@sys AP24 TUG₂~a@g~v1 12A75
 @@
 @end sign
 
@@ -17011,6 +18359,7 @@
 @ucun	𒩹
 @uage	1
 @sys	LLATU:301_05 TUM~a
+@sys AP24 TUM~a 12A79
 @sys	AP23 TUM~a
 @@
 @form TUM~b
@@ -17020,6 +18369,7 @@
 @ucun	𒩻
 @uage	1
 @sys	LLATU:302_01 TUM~b
+@sys AP24 TUM~b 12A7B
 @sys	AP23 TUM~b
 @@
 @form TUM~c
@@ -17029,6 +18379,7 @@
 @ucun	𒩼
 @uage	1
 @sys	AP23 TUM~c
+@sys AP24 TUM~c 12A7C
 @@
 @form TUM~d
 @oid o0902131
@@ -17037,6 +18388,7 @@
 @ucun	𒩽
 @uage	1
 @sys	AP23 TUM~d
+@sys AP24 TUM~d 12A7D
 @@
 @end sign
 
@@ -17051,6 +18403,7 @@
 @ucun	𒩺
 @uage	1
 @sys	AP23 TUM~a@g
+@sys AP24 TUM~a@g 12A7A
 @@
 @end sign
 
@@ -17075,6 +18428,7 @@
 @ucun	𒩾
 @uage	1
 @sys	LLATU:302_02 TUN₃~a
+@sys AP24 TUN₃~a 12A7E
 @inote @sys	ATFU-S TUN₃~a ### this does not seem to be in their index
 @sys	AP23 TUN3~a
 @@
@@ -17085,6 +18439,7 @@
 @ucun	𒩿
 @uage	1
 @sys	LLATU:302_03 TUN₃~b
+@sys AP24 TUN₃~b 12A7F
 @sys	AP23 TUN3~b
 @@
 @form TUN₃~c
@@ -17094,6 +18449,7 @@
 @ucun	𒪀
 @uage	1
 @sys	AP23 TUN3~c
+@sys AP24 TUN₃~c 12A80
 @@
 @end sign
 
@@ -17105,6 +18461,7 @@
 @ucun	𒪁
 @uage	1
 @sys	LLATU:302_04 TUR
+@sys AP24 TUR 12A81
 @sys	ATFU-S TUR
 @sys	ATFU-v dumu tur
 @sys	AP23 TUR
@@ -17115,6 +18472,7 @@
 @ucun	𒪂
 @uage	1
 @sys	AP23 TUR
+@sys AP24 TUR~v1 12A82
 @@
 @form TUR~v2
 @oid o0902141
@@ -17123,6 +18481,7 @@
 @ucun	𒪃
 @uage	1
 @sys	AP23 TUR
+@sys AP24 TUR~v2 12A83
 @@
 @form TUR~v3
 @oid o0902142
@@ -17132,6 +18491,7 @@
 @ucun	𒪄
 @uage	1
 @sys	AP23 TUR
+@sys AP24 TUR~v3 12A84
 @@
 @end sign
 
@@ -17143,6 +18503,7 @@
 @ucun	𒪅
 @uage	1
 @sys	AP23 TUR@g
+@sys AP24 TUR@g 12A85
 @end sign
 
 @sign TUR₃
@@ -17157,6 +18518,7 @@
 @ucun	𒪆
 @uage	1
 @sys	LLATU:303_01 TUR₃~a
+@sys AP24 TUR₃~a 12A86
 @sys	AP23 TUR3~a
 @@
 @form TUR₃~b
@@ -17167,6 +18529,7 @@
 @ucun	𒪈
 @uage	1
 @sys	LLATU:303_02 TUR₃~b
+@sys AP24 TUR₃~b 12A88
 @sys	AP23 TUR3~b
 @@
 @form TUR₃~c
@@ -17176,6 +18539,7 @@
 @ucun	𒪉
 @uage	1
 @sys	AP23 TUR3~c
+@sys AP24 TUR₃~c 12A89
 @@
 @end sign
 
@@ -17201,6 +18565,7 @@
 @ucun	𒪇
 @uage	1
 @sys	AP23 TUR3~a@n
+@sys AP24 TUR₃~a@n 12A87
 @@
 @end sign
 
@@ -17219,6 +18584,7 @@
 @ucun	𒪊
 @uage	1
 @sys	LLATU:303_03 U₂~a
+@sys AP24 U₂~a 12A8A
 @sys	AP23 U2~a
 @@
 @form U₂~b
@@ -17228,6 +18594,7 @@
 @ucun	𒪋
 @uage	1
 @sys	LLATU:303_04 U₂~b
+@sys AP24 U₂~b 12A8B
 @sys	AP23 U2~b
 @@
 @form	U₂~b~v1
@@ -17237,6 +18604,7 @@
 @ucun	𒪌
 @uage	1
 @sys	AP23 U2~b
+@sys AP24 U₂~b~v1 12A8C
 @@
 @form	U₂~b~v2
 @oid o0902159
@@ -17245,6 +18613,7 @@
 @ucun	𒪍
 @uage	1
 @sys	AP23 U2~b
+@sys AP24 U₂~b~v2 12A8D
 @@
 @form U₂~c
 @oid o0902160
@@ -17253,6 +18622,7 @@
 @ucun	𒪎
 @uage	1
 @sys	AP23 U2~c
+@sys AP24 U₂~c 12A8E
 @@
 @end sign
 
@@ -17265,6 +18635,7 @@
 @ucun	𒪏
 @uage	1
 @sys	LLATU:304_01 U₄
+@sys AP24 U₄ 12A8F
 @sys	ATFU-S U₄
 @sys	ATFU-v utu u₄
 @sys	AP23 U4
@@ -17278,6 +18649,7 @@
 @ucun	𒹄
 @uage	1
 @sys	AP23 |U4.1(N08)|
+@sys AP24 |U₄.1(N08)| 12E44
 @end sign
 
 @sign |U₄.2(N08)|
@@ -17287,6 +18659,7 @@
 @ucun	𒹔
 @uage	1
 @sys	AP23 |U4.2(N08)|
+@sys AP24 |U₄.2(N08)| 12E54
 @end sign
 
 @sign |U₄.3(N08)|
@@ -17296,6 +18669,7 @@
 @ucun	𒹛
 @uage	1
 @sys	AP23 |U4.3(N08)|
+@sys AP24 |U₄.3(N08)| 12E5B
 @end sign
 
 @sign |U₄.4(N08)~v1|
@@ -17306,6 +18680,7 @@
 @ucun	𒹡
 @uage	1
 @sys	AP23 |U4.4(N08)|
+@sys AP24 |U₄.4(N08)~v1| 12E61
 @end sign
 
 @sign |U₄.5(N08)|
@@ -17315,6 +18690,7 @@
 @ucun	𒹥
 @uage	1
 @sys	AP23 |U4.5(N08)|
+@sys AP24 |U₄.5(N08)| 12E65
 @end sign
 
 @sign |U₄.6(N08)|
@@ -17324,6 +18700,7 @@
 @ucun	𒹨
 @uage	1
 @sys	AP23 |U4.6(N08)|
+@sys AP24 |U₄.6(N08)| 12E68
 @end sign
 
 @sign |U₄.7(N08)|
@@ -17333,6 +18710,7 @@
 @ucun	𒹪
 @uage	1
 @sys	AP23 |U4.7(N08)|
+@sys AP24 |U₄.7(N08)| 12E6A
 @end sign
 
 @sign |U₄.8(N08)|
@@ -17342,6 +18720,7 @@
 @ucun	𒹮
 @uage	1
 @sys	AP23 |U4.8(N08)|
+@sys AP24 |U₄.8(N08)| 12E6E
 @end sign
 
 @sign |U₄.1(N14)|
@@ -17351,6 +18730,7 @@
 @ucun	𒹅
 @uage	1
 @sys	AP23 |U4.1(N14)|
+@sys AP24 |U₄.1(N14)| 12E45
 @end sign
 
 @sign |U₄.(1(N14).3(N08))|
@@ -17361,6 +18741,7 @@
 @ucun	𒹈
 @uage	1
 @sys	AP23 |U4.(1(N14).3(N08))|
+@sys AP24 |U₄.(1(N14).3(N08))| 12E48
 @end sign
 
 @sign |U₄.(1(N14).4(N08))|
@@ -17370,6 +18751,7 @@
 @ucun	𒹊
 @uage	1
 @sys	AP23 |U4.(1(N14).4(N08))|
+@sys AP24 |U₄.(1(N14).4(N08))| 12E4A
 @end sign
 
 @sign |U₄.(1(N14).5(N08))|
@@ -17379,6 +18761,7 @@
 @ucun	𒹋
 @uage	1
 @sys	AP23 |U4.(1(N14).5(N08))|
+@sys AP24 |U₄.(1(N14).5(N08))| 12E4B
 @end sign
 
 @sign |U₄.(1(N14).8(N08))|
@@ -17388,6 +18771,7 @@
 @ucun	𒹍
 @uage	1
 @sys	AP23 |U4.(1(N14).8(N08))|
+@sys AP24 |U₄.(1(N14).8(N08))| 12E4D
 @end sign
 
 @sign |U₄.2(N14)|
@@ -17397,6 +18781,7 @@
 @ucun	𒹕
 @uage	1
 @sys	AP23 |U4.2(N14)|
+@sys AP24 |U₄.2(N14)| 12E55
 @end sign
 
 @sign |U₄.ŠU₂~b|
@@ -17408,6 +18793,7 @@
 @ucun	𒹲
 @uage	1
 @sys	LLATU:305_02 U₄+ŠU₂
+@sys AP24 |U₄.ŠU₂~b| 12E72
 @sys	AP23 |U4.SZU2|
 @end sign
 
@@ -17420,6 +18806,7 @@
 @ucun	𒹁
 @uage	1
 @sys	AP23 |U4x1(N01)|
+@sys AP24 |U₄×1(N01)| 12E41
 @end sign
 
 @sign |U₄×1(N01).5(N08)|
@@ -17429,6 +18816,7 @@
 @ucun	𒹂
 @uage	1
 @sys	AP23 |U4x1(N01).5(N08)|
+@sys AP24 |U₄×1(N01).5(N08)| 12E42
 @end sign
 
 @sign |U₄×(1(N01).1(N24))|
@@ -17447,6 +18835,7 @@
 @ucun	𒹐
 @uage	1
 @sys	AP23 |U4x2(N01)|
+@sys AP24 |U₄×2(N01)| 12E50
 @end sign
 
 @sign |U₄×2(N01).2(N14)|
@@ -17456,6 +18845,7 @@
 @ucun	𒹑
 @uage	1
 @sys	AP23 |U4x2(N01).2(N14)|
+@sys AP24 |U₄×2(N01).2(N14)| 12E51
 @end sign
 
 @sign |U₄×2(N01).(2(N14).1(N08))|
@@ -17465,6 +18855,7 @@
 @ucun	𒹒
 @uage	1
 @sys	AP23 |U4x2(N01).(2(N14).1(N08))|
+@sys AP24 |U₄×2(N01).(2(N14).1(N08))| 12E52
 @end sign
 
 @sign |U₄×2(N01).X|
@@ -17474,6 +18865,7 @@
 @ucun	𒹓
 @uage	1
 @sys	AP23 |U4x2(N01).X|
+@sys AP24 |U₄×2(N01).X| 12E53
 @end sign
 
 @sign |U₄×3(N01)|
@@ -17483,6 +18875,7 @@
 @ucun	𒹙
 @uage	1
 @sys	AP23 |U4x3(N01)|
+@sys AP24 |U₄×3(N01)| 12E59
 @end sign
 
 @sign |U₄×3(N01).3(N08)~v1|
@@ -17493,6 +18886,7 @@
 @ucun	𒹚
 @uage	1
 @sys	AP23 |U4x3(N01).3(N08)|
+@sys AP24 |U₄×3(N01).3(N08)~v1| 12E5A
 @end sign
 
 @sign |U₄×4(N01)|
@@ -17502,6 +18896,7 @@
 @ucun	𒹟
 @uage	1
 @sys	AP23 |U4x4(N01)|
+@sys AP24 |U₄×4(N01)| 12E5F
 @end sign
 
 @sign |U₄×4(N01).2(N14)|
@@ -17511,6 +18906,7 @@
 @ucun	𒹠
 @uage	1
 @sys	AP23 |U4x4(N01).2(N14)|
+@sys AP24 |U₄×4(N01).2(N14)| 12E60
 @end sign
 
 @sign |U₄×5(N01)|
@@ -17520,6 +18916,7 @@
 @ucun	𒹣
 @uage	1
 @sys	AP23 |U4x5(N01)|
+@sys AP24 |U₄×5(N01)| 12E63
 @end sign
 
 @sign |U₄×5(N01).1(N14)|
@@ -17529,6 +18926,7 @@
 @ucun	𒹤
 @uage	1
 @sys	AP23 |U4x5(N01).1(N14)|
+@sys AP24 |U₄×5(N01).1(N14)| 12E64
 @end sign
 
 @sign |U₄×6(N01)|
@@ -17538,6 +18936,7 @@
 @ucun	𒹧
 @uage	1
 @sys	AP23 |U4x6(N01)|
+@sys AP24 |U₄×6(N01)| 12E67
 @end sign
 
 @sign |U₄×8(N01)|
@@ -17547,6 +18946,7 @@
 @ucun	𒹬
 @uage	1
 @sys	AP23 |U4x8(N01)|
+@sys AP24 |U₄×8(N01)| 12E6C
 @end sign
 
 @sign |U₄×8(N01).X|
@@ -17556,6 +18956,7 @@
 @ucun	𒹭
 @uage	1
 @sys	AP23 |U4x8(N01).X|
+@sys AP24 |U₄×8(N01).X| 12E6D
 @end sign
 
 @sign |U₄×N(N01)|
@@ -17565,6 +18966,7 @@
 @ucun	𒹱
 @uage	1
 @sys	AP23 |U4x(X(N01))|
+@sys AP24 |U₄×N(N01)| 12E71
 @end sign
 
 @sign |U₄×1(N14)|
@@ -17574,6 +18976,7 @@
 @ucun	𒹆
 @uage	1
 @sys	AP23 |U4x1(N14)|
+@sys AP24 |U₄×1(N14)| 12E46
 @end sign
 
 @sign |U₄×(1(N14).1(N01))|
@@ -17590,6 +18993,7 @@
 @ucun	𒹇
 @uage	1
 @sys	AP23 |U4x(1(N14).2(N01))|
+@sys AP24 |U₄×(1(N14).2(N01))| 12E47
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
@@ -17606,6 +19010,7 @@
 @ucun	𒹉
 @uage	1
 @sys	AP23 |U4x(1(N14).4(N01))|
+@sys AP24 |U₄×(1(N14).4(N01))| 12E49
 @end sign
 
 @sign |U₄×(1(N14).8(N01))|
@@ -17615,6 +19020,7 @@
 @ucun	𒹌
 @uage	1
 @sys	AP23 |U4x(1(N14).8(N01))|
+@sys AP24 |U₄×(1(N14).8(N01))| 12E4C
 @end sign
 
 @sign |U₄×2(N14)|
@@ -17624,6 +19030,7 @@
 @ucun	𒹖
 @uage	1
 @sys	AP23 |U4x2(N14)|
+@sys AP24 |U₄×2(N14)| 12E56
 @end sign
 
 @sign |U₄×(2(N14).4(N01))|
@@ -17633,6 +19040,7 @@
 @ucun	𒹗
 @uage	1
 @sys	AP23 |U4x(2(N14).4(N01))|
+@sys AP24 |U₄×(2(N14).4(N01))| 12E57
 @end sign
 
 @sign |U₄×(3(N14).2(N01))|
@@ -17642,6 +19050,7 @@
 @ucun	𒹜
 @uage	1
 @sys	AP23 |U4x(3(N14).2(N01))|
+@sys AP24 |U₄×(3(N14).2(N01))| 12E5C
 @end sign
 
 @sign |U₄×(3(N14).7(N01))|
@@ -17651,6 +19060,7 @@
 @ucun	𒹝
 @uage	1
 @sys	AP23 |U4x(3(N14).7(N01))|
+@sys AP24 |U₄×(3(N14).7(N01))| 12E5D
 @end sign
 
 @sign |U₄×1(N57)|
@@ -17660,6 +19070,7 @@
 @ucun	𒹎
 @uage	1
 @sys	AP23 |U4x1(N57)|
+@sys AP24 |U₄×1(N57)| 12E4E
 @end sign
 
 @sign |U₄×2(N57)|
@@ -17670,6 +19081,7 @@
 @ucun	𒹘
 @uage	1
 @sys	LLATU:305_01 U₄+2(N57)
+@sys AP24 |U₄×2(N57)| 12E58
 @sys	AP23 |U4x2(N57)|
 @end sign
 
@@ -17680,6 +19092,7 @@
 @ucun	𒹞
 @uage	1
 @sys	AP23 |U4x3(N57)|
+@sys AP24 |U₄×3(N57)| 12E5E
 @end sign
 
 @sign |U₄×4(N57)|
@@ -17689,6 +19102,7 @@
 @ucun	𒹢
 @uage	1
 @sys	AP23 |U4x4(N57)|
+@sys AP24 |U₄×4(N57)| 12E62
 @end sign
 
 @sign |U₄×5(N57)|
@@ -17698,6 +19112,7 @@
 @ucun	𒹦
 @uage	1
 @sys	AP23 |U4x5(N57)|
+@sys AP24 |U₄×5(N57)| 12E66
 @end sign
 
 @sign |U₄×6(N57)|
@@ -17707,6 +19122,7 @@
 @ucun	𒹩
 @uage	1
 @sys	AP23 |U4x6(N57)|
+@sys AP24 |U₄×6(N57)| 12E69
 @end sign
 
 @sign |U₄×7(N57)|
@@ -17716,6 +19132,7 @@
 @ucun	𒹫
 @uage	1
 @sys	AP23 |U4x7(N57)|
+@sys AP24 |U₄×7(N57)| 12E6B
 @end sign
 
 @sign |U₄×8(N57)|
@@ -17725,6 +19142,7 @@
 @ucun	𒹯
 @uage	1
 @sys	AP23 |U4x8(N57)|
+@sys AP24 |U₄×8(N57)| 12E6F
 @end sign
 
 @sign |U₄×10(N57)|
@@ -17734,6 +19152,7 @@
 @ucun	𒹰
 @uage	1
 @sys	AP23 |U4x10(N57)|
+@sys AP24 |U₄×10(N57)| 12E70
 @end sign
 
 @sign |U₄×1(N58@t)|
@@ -17744,6 +19163,7 @@
 @ucun	𒹏
 @uage	1
 @sys	AP23 |U4x1(N58)@t|
+@sys AP24 |U₄×1(N58@t)| 12E4F
 @end sign
 
 @sign |U₄×X|
@@ -17753,6 +19173,7 @@
 @ucun	𒹳
 @uage	1
 @sys	AP23 |U4xX|
+@sys AP24 |U₄×X| 12E73
 @end sign
 
 @sign |U₄×(X+2(N01))|
@@ -17762,6 +19183,7 @@
 @ucun	𒹴
 @uage	1
 @sys	AP23 |U4x(X+2(N01))|
+@sys AP24 |U₄×(X+2(N01))| 12E74
 @end sign
 
 @sign |U₄+1(N14)+1(N08)|
@@ -17787,6 +19209,7 @@
 @ucun	𒪑
 @uage	1
 @sys	AP23 U8
+@sys AP24 U₈ 12A91
 @form U₈~v1
 @oid o0902221
 @uname	PROTO-CUNEIFORM SIGN U8 VARIANT 1
@@ -17794,10 +19217,12 @@
 @ucun	𒪒
 @uage	1
 @sys	AP23 U8
+@sys AP24 U₈~v1 12A92
 @@
 @form U₈~v2
 @oid o0902222
 @sys	LLATU:305_03 U₈
+@sys AP24 U₈~v2 12A93
 @list	BAU265
 @uname	PROTO-CUNEIFORM SIGN U8 VARIANT 2
 @list	U+12A93
@@ -17812,6 +19237,7 @@
 @ucun	𒪔
 @uage	1
 @sys	AP23 U8
+@sys AP24 U₈~v3 12A94
 @@
 @end sign
 
@@ -17826,6 +19252,7 @@
 @ucun	𒹵
 @uage	1
 @sys	AP23 |(U8xTAR)~b|
+@sys AP24 |U₈×TAR~b| 12E75
 @@
 @end sign
 
@@ -17836,6 +19263,7 @@
 @ucun	𒪐
 @uage	1
 @sys	AP23 U4@t
+@sys AP24 U₄@t 12A90
 @end sign
 
 @sign UB
@@ -17847,6 +19275,7 @@
 @ucun	𒪕
 @uage	1
 @sys	LLATU:305_04 UB
+@sys AP24 UB 12A95
 @sys	AP23 UB
 @end sign
 
@@ -17863,6 +19292,7 @@
 @ucun	𒪖
 @uage	1
 @sys	AP23 UBI~a
+@sys AP24 UBI~a 12A96
 @@
 @form UBI~c
 @oid o0902230
@@ -17871,6 +19301,7 @@
 @ucun	𒪗
 @uage	1
 @sys	LLATU:305_05 UBI~c
+@sys AP24 UBI~c 12A97
 @sys	AP23 UBI~c
 @@
 @form	UBI~c~v1
@@ -17880,6 +19311,7 @@
 @ucun	𒪘
 @uage	1
 @sys	AP23 UBI~c
+@sys AP24 UBI~c~v1 12A98
 @@
 @form UBI~d
 @oid o0902232
@@ -17903,6 +19335,7 @@
 @ucun	𒪙
 @uage	1
 @sys	AP23 UD5~a
+@sys AP24 UD₅~a 12A99
 @@
 @form	UD₅~a~v1
 @oid o0902235
@@ -17912,6 +19345,7 @@
 @ucun	𒪚
 @uage	1
 @sys	LLATU:306_01 UD₅~a
+@sys AP24 UD₅~a~v1 12A9A
 @sys	AP23 UD5~a
 @@
 @form	UD₅~a~v2
@@ -17921,6 +19355,7 @@
 @ucun	𒪛
 @uage	1
 @sys	AP23 UD5~a
+@sys AP24 UD₅~a~v2 12A9B
 @@
 @form UD₅~b
 @oid o0902237
@@ -17929,6 +19364,7 @@
 @ucun	𒪝
 @uage	1
 @sys	AP23 UD5~b
+@sys AP24 UD₅~b 12A9D
 @@
 @form UD₅~c
 @oid o0902238
@@ -17937,6 +19373,7 @@
 @ucun	𒪞
 @uage	1
 @sys	AP23 UD5~c
+@sys AP24 UD₅~c 12A9E
 @@
 @end sign
 
@@ -17950,6 +19387,7 @@
 @ucun	𒪜
 @uage	1
 @sys	LLATU:306_02 UD₅~a@g
+@sys AP24 UD₅~a@g 12A9C
 @sys	AP23 UD5~a@g
 @@
 @end sign
@@ -17969,6 +19407,7 @@
 @ucun	𒪟
 @uage	1
 @sys	LLATU:306_03 UDU~a
+@sys AP24 UDU~a 12A9F
 @sys	AP23 UDU~a
 @@
 @form UDU~b
@@ -17978,6 +19417,7 @@
 @ucun	𒪠
 @uage	1
 @sys	AP23 UDU~b
+@sys AP24 UDU~b 12AA0
 @@
 @form UDU~c
 @oid o0902245
@@ -17986,6 +19426,7 @@
 @ucun	𒪡
 @uage	1
 @sys	LLATU:306_04 UDU~c
+@sys AP24 UDU~c 12AA1
 @sys	AP23 UDU~c
 @@
 @end sign
@@ -18002,6 +19443,7 @@
 @ucun	𒹶
 @uage	1
 @sys	AP23 |(UDU~axTAR)~a|
+@sys AP24 |UDU~a×TAR~a| 12E76
 @@
 @form	|UDU~a×TAR~b|
 @oid o0902248
@@ -18011,6 +19453,7 @@
 @ucun	𒹷
 @uage	1
 @sys	AP23 |(UDU~axTAR)~b|
+@sys AP24 |UDU~a×TAR~b| 12E77
 @@
 @end sign
 
@@ -18026,6 +19469,7 @@
 @ucun	𒪢
 @uage	1
 @sys	LLATU:306_05 UDUNITA~a
+@sys AP24 UDUNITA~a 12AA2
 @sys	AP23 UDUNITA~a
 @@
 @form UDUNITA~b
@@ -18035,6 +19479,7 @@
 @ucun	𒪣
 @uage	1
 @sys	AP23 UDUNITA~b
+@sys AP24 UDUNITA~b 12AA3
 @@
 @form UDUNITA~c
 @oid o0902252
@@ -18043,6 +19488,7 @@
 @ucun	𒪤
 @uage	1
 @sys	AP23 UDUNITA~c
+@sys AP24 UDUNITA~c 12AA4
 @@
 @form UDUNITA~d
 @oid o0902253
@@ -18059,6 +19505,7 @@
 @ucun	𒪦
 @uage	1
 @sys	AP23 UH
+@sys AP24 UH 12AA6
 @end sign
 
 @sign UH₃
@@ -18073,6 +19520,7 @@
 @ucun	𒪧
 @uage	1
 @sys	LLATU:306_06 UH₃~a
+@sys AP24 UH₃~a 12AA7
 @sys	AP23 UH3~a
 @@
 @form UH₃~b
@@ -18082,6 +19530,7 @@
 @ucun	𒪩
 @uage	1
 @sys	AP23 UH3~b
+@sys AP24 UH₃~b 12AA9
 @@
 @end sign
 
@@ -18095,6 +19544,7 @@
 @ucun	𒪨
 @uage	1
 @sys	LLATU:306_07 UH₃~a@t
+@sys AP24 UH₃~a@t 12AA8
 @sys	AP23 UH3~a@t
 @@
 @end sign
@@ -18113,6 +19563,7 @@
 @ucun	𒪪
 @uage	1
 @sys	LLATU:306_08 UKKIN~a
+@sys AP24 UKKIN~a 12AAA
 @sys	AP23 UKKIN~a
 @@
 @form	UKKIN~a~v1
@@ -18123,6 +19574,7 @@
 @ucun	𒪫
 @uage	1
 @sys	AP23 UKKIN~a
+@sys AP24 UKKIN~a~v1 12AAB
 @@
 @form UKKIN~b
 @oid o0902263
@@ -18131,6 +19583,7 @@
 @ucun	𒪬
 @uage	1
 @sys	LLATU:307_01 UKKIN~b
+@sys AP24 UKKIN~b 12AAC
 @sys	AP23 UKKIN~b
 @@
 @form	UKKIN~b~v1
@@ -18140,6 +19593,7 @@
 @ucun	𒪭
 @uage	1
 @sys	AP23 UKKIN~b
+@sys AP24 UKKIN~b~v1 12AAD
 @@
 @form UKKIN~c
 @oid o0902265
@@ -18148,6 +19602,7 @@
 @ucun	𒪮
 @uage	1
 @sys	AP23 UKKIN~c
+@sys AP24 UKKIN~c 12AAE
 @@
 @form UKKIN~d
 @oid o0902266
@@ -18167,6 +19622,7 @@
 @ucun	𒹻
 @uage	1
 @sys	AP23 |UKKIN~bxDIN|
+@sys AP24 |UKKIN~b×DIN| 12E7B
 @@
 @end sign
 
@@ -18180,6 +19636,7 @@
 @ucun	𒹼
 @uage	1
 @sys	AP23 |UKKIN~bx(DIN.1(N01))|
+@sys AP24 |UKKIN~b×(DIN.1(N01))| 12E7C
 @@
 @end sign
 
@@ -18194,6 +19651,7 @@
 @ucun	𒹾
 @uage	1
 @sys	AP23 |UKKIN~bxHI@g~a|
+@sys AP24 |UKKIN~b×HI@g~a| 12E7E
 @@
 @end sign
 
@@ -18207,6 +19665,7 @@
 @ucun	𒹸
 @uage	1
 @sys	AP23 |UKKIN~bx2(N01)|
+@sys AP24 |UKKIN~b×2(N01)| 12E78
 @@
 @end sign
 
@@ -18220,6 +19679,7 @@
 @ucun	𒹹
 @uage	1
 @sys	AP23 |UKKIN~bx3(N01)|
+@sys AP24 |UKKIN~b×3(N01)| 12E79
 @@
 @end sign
 
@@ -18233,6 +19693,7 @@
 @ucun	𒹺
 @uage	1
 @sys	AP23 |UKKIN~bx5(N01)|
+@sys AP24 |UKKIN~b×5(N01)| 12E7A
 @@
 @end sign
 
@@ -18246,6 +19707,7 @@
 @ucun	𒹿
 @uage	1
 @sys	AP23 |UKKIN~bxNI~a|
+@sys AP24 |UKKIN~b×NI~a| 12E7F
 @@
 @end sign
 
@@ -18259,6 +19721,7 @@
 @ucun	𒺀
 @uage	1
 @sys	AP23 |UKKIN~bxX|
+@sys AP24 |UKKIN~b×X| 12E80
 @@
 @end sign
 
@@ -18274,6 +19737,7 @@
 @ucun	𒪯
 @uage	1
 @sys	AP23 UMBIN~a
+@sys AP24 UMBIN~a 12AAF
 @@
 @form UMBIN~b1
 @oid o0902287
@@ -18282,6 +19746,7 @@
 @ucun	𒪰
 @uage	1
 @sys	AP23 UMBIN~b1
+@sys AP24 UMBIN~b1 12AB0
 @@
 @form UMBIN~b2
 @oid o0902288
@@ -18290,6 +19755,7 @@
 @ucun	𒪱
 @uage	1
 @sys	AP23 UMBIN~b2
+@sys AP24 UMBIN~b2 12AB1
 @@
 @form UMBIN~c
 @oid o0902289
@@ -18298,6 +19764,7 @@
 @ucun	𒪲
 @uage	1
 @sys	AP23 UMBIN~c
+@sys AP24 UMBIN~c 12AB2
 @@
 @end sign
 
@@ -18310,6 +19777,7 @@
 @ucun	𒪳
 @uage	1
 @sys	LLATU:307_02 UMUN₂
+@sys AP24 UMUN₂ 12AB3
 @sys	ATFU-S UMUN₂
 @sys	ATFU-v simug?
 @sys	AP23 UMUN2
@@ -18320,6 +19788,7 @@
 @ucun	𒪴
 @uage	1
 @sys	AP23 UMUN2
+@sys AP24 UMUN₂~v1 12AB4
 @@
 @end sign
 
@@ -18335,6 +19804,7 @@
 @ucun	𒪵
 @uage	1
 @sys	LLATU:308_01 UNUG~a
+@sys AP24 UNUG~a 12AB5
 @sys	AP23 UNUG~a
 @@
 @form	UNUG~a~v1
@@ -18345,6 +19815,7 @@
 @ucun	𒪶
 @uage	1
 @sys	AP23 UNUG~a
+@sys AP24 UNUG~a~v1 12AB6
 @sys	ATFU-S UNUG
 @sys	ATFU-v aba₄ unug
 @@
@@ -18355,6 +19826,7 @@
 @ucun	𒪸
 @uage	1
 @sys	AP23 UNUG~b
+@sys AP24 UNUG~b 12AB8
 @@
 @form UNUG~c
 @oid o0902296
@@ -18363,6 +19835,7 @@
 @ucun	𒪹
 @uage	1
 @sys	AP23 UNUG~c
+@sys AP24 UNUG~c 12AB9
 @@
 @end sign
 
@@ -18378,6 +19851,7 @@
 @ucun	𒺁
 @uage	1
 @sys	AP23 |UNUG~axA@t|
+@sys AP24 |UNUG~a~v1×A@t| 12E81
 @@
 @end sign
 
@@ -18393,6 +19867,7 @@
 @ucun	𒪷
 @uage	1
 @sys	AP23 UNUG~a@s
+@sys AP24 UNUG~a@s 12AB7
 @@
 @end sign
 
@@ -18411,6 +19886,7 @@
 @ucun	𒪺
 @uage	1
 @sys	LLATU:308_03 UR~a
+@sys AP24 UR~a 12ABA
 @sys	AP23 UR~a
 @@
 @form UR~b
@@ -18420,6 +19896,7 @@
 @ucun	𒪼
 @uage	1
 @sys	AP23 UR~b
+@sys AP24 UR~b 12ABC
 @@
 @form UR~c
 @oid o0902304
@@ -18428,6 +19905,7 @@
 @ucun	𒪽
 @uage	1
 @sys	AP23 UR~c
+@sys AP24 UR~c 12ABD
 @@
 @end sign
 
@@ -18442,6 +19920,7 @@
 @ucun	𒺂
 @uage	1
 @sys	AP23 |UR~axKAR2|
+@sys AP24 |UR~a×KAR₂~b| 12E82
 @@
 @end sign
 
@@ -18456,6 +19935,7 @@
 @ucun	𒪻
 @uage	1
 @sys	AP23 UR~a@g
+@sys AP24 UR~a@g 12ABB
 @@
 @end sign
 
@@ -18469,6 +19949,7 @@
 @ucun	𒪾
 @uage	1
 @sys	LLATU:308_04 UR₂
+@sys AP24 UR₂ 12ABE
 @sys	AP23 UR2
 @end sign
 
@@ -18480,6 +19961,7 @@
 @ucun	𒺃
 @uage	1
 @sys	LLATU:308_05 UR₂+1(N57)
+@sys AP24 |UR₂×1(N57)| 12E83
 @sys	AP23 |UR2x1(N57)|
 @end sign
 
@@ -18492,6 +19974,7 @@
 @ucun	𒺄
 @uage	1
 @sys	LLATU:308_06 UR₂+TAR
+@sys AP24 |UR₂×TAR~c| 12E84
 @sys	AP23 |UR2xTAR|
 @end sign
 
@@ -18507,6 +19990,7 @@
 @ucun	𒪿
 @uage	1
 @sys	AP23 UR3~a1
+@sys AP24 UR₃~a1 12ABF
 @@
 @form	UR₃~a1~v1
 @oid o0902314
@@ -18515,6 +19999,7 @@
 @ucun	𒫀
 @uage	1
 @sys	AP23 UR3~a1
+@sys AP24 UR₃~a1~v1 12AC0
 @@
 @form UR₃~a2
 @oid o0902315
@@ -18523,6 +20008,7 @@
 @ucun	𒫁
 @uage	1
 @sys	LLATU:308_07 UR₃~a2
+@sys AP24 UR₃~a2 12AC1
 @sys	AP23 UR3~a2
 @@
 @form UR₃~a3
@@ -18532,6 +20018,7 @@
 @ucun	𒫂
 @uage	1
 @sys	AP23 UR3~a3
+@sys AP24 UR₃~a3 12AC2
 @@
 @form UR₃~b1
 @oid o0902317
@@ -18540,6 +20027,7 @@
 @ucun	𒫃
 @uage	1
 @sys	LLATU:309_01 UR₃~b1
+@sys AP24 UR₃~b1 12AC3
 @sys	AP23 UR3~b1
 @@
 @form UR₃~b2
@@ -18549,6 +20037,7 @@
 @ucun	𒫄
 @uage	1
 @sys	LLATU:309_03 UR₃~b2
+@sys AP24 UR₃~b2 12AC4
 @sys	AP23 UR3~b2
 @@
 @form UR₃~d2
@@ -18569,6 +20058,7 @@
 @ucun	𒺅
 @uage	1
 @sys	AP23 |UR3~b1xMASZ|
+@sys AP24 |UR₃~b1×MAŠ| 12E85
 @@
 @end sign
 
@@ -18584,6 +20074,7 @@
 @ucun	𒫅
 @uage	1
 @sys	LLATU:309_04 UR₄~a
+@sys AP24 UR₄~a 12AC5
 @sys	AP23 UR4~a
 @@
 @form UR₄~b
@@ -18594,6 +20085,7 @@
 @ucun	𒫆
 @uage	1
 @sys	LLATU:309_05 UR₄~b
+@sys AP24 UR₄~b 12AC6
 @sys	AP23 UR4~b
 @@
 @form UR₄~c
@@ -18603,6 +20095,7 @@
 @ucun	𒫇
 @uage	1
 @sys	AP23 UR4~c
+@sys AP24 UR₄~c 12AC7
 @@
 @end sign
 
@@ -18621,6 +20114,7 @@
 @ucun	𒫈
 @uage	1
 @sys	AP23 UR5~a
+@sys AP24 UR₅~a 12AC8
 @@
 @form UR₅~b
 @oid o0902328
@@ -18629,6 +20123,7 @@
 @ucun	𒫉
 @uage	1
 @sys	LLATU:309_06 UR₅~b
+@sys AP24 UR₅~b 12AC9
 @sys	AP23 UR5~b
 @@
 @end sign
@@ -18642,6 +20137,7 @@
 @ucun	𒫊
 @uage	1
 @sys	LLATU:309_07 URI
+@sys AP24 URI 12ACA
 @sys	AP23 URI
 @end sign
 
@@ -18658,6 +20154,7 @@
 @ucun	𒫌
 @uage	1
 @sys	LLATU:309_08 URI₃~a
+@sys AP24 URI₃~a 12ACC
 @sys	ATFU-S URI₃~a
 @sys	ATFU-v kinda₂
 @sys	AP23 URI3~a
@@ -18669,6 +20166,7 @@
 @ucun	𒫍
 @uage	1
 @sys	AP23 URI3~a
+@sys AP24 URI₃~a~v1 12ACD
 @@
 @form URI₃~b
 @oid o0902334
@@ -18677,6 +20175,7 @@
 @ucun	𒫎
 @uage	1
 @sys	AP23 URI3~b
+@sys AP24 URI₃~b 12ACE
 @@
 @end sign
 
@@ -18690,6 +20189,7 @@
 @ucun	𒫏
 @uage	1
 @sys	LLATU:310_01 URI₅
+@sys AP24 URI₅ 12ACF
 @sys	ATFU-S URI₅
 @sys	ATFU-v uri₅
 @sys	AP23 URI5
@@ -18710,6 +20210,7 @@
 @ucun	𒫐
 @uage	1
 @sys	LLATU:310_02 URU~a1
+@sys AP24 URU~a1 12AD0
 @sys	AP23 URU~a1
 @@
 @form URU~a2
@@ -18719,6 +20220,7 @@
 @ucun	𒫒
 @uage	1
 @sys	AP23 URU~a2
+@sys AP24 URU~a2 12AD2
 @@
 @compoundonly URU~a3
 @@
@@ -18729,6 +20231,7 @@
 @ucun	𒫓
 @uage	1
 @sys	AP23 URU~b1
+@sys AP24 URU~b1 12AD3
 @@
 @form URU~b2
 @oid o0902342
@@ -18737,6 +20240,7 @@
 @ucun	𒫔
 @uage	1
 @sys	AP23 URU~b2
+@sys AP24 URU~b2 12AD4
 @@
 @form URU~c
 @oid o0902343
@@ -18745,6 +20249,7 @@
 @ucun	𒫕
 @uage	1
 @sys	AP23 URU~c
+@sys AP24 URU~c 12AD5
 @@
 @end sign
 
@@ -18761,6 +20266,7 @@
 @ucun	𒺊
 @uage	1
 @sys	AP23 |URU~a1xAMAR|
+@sys AP24 |URU~a1×AMAR~v2| 12E8A
 @@
 @end sign
 
@@ -18774,6 +20280,7 @@
 @ucun	𒺋
 @uage	1
 @sys	AP23 |URU~a1xGU4|
+@sys AP24 |URU~a1×GU₄| 12E8B
 @@
 @end sign
 
@@ -18787,6 +20294,7 @@
 @ucun	𒺌
 @uage	1
 @sys	AP23 |URU~a1xHI@g~a|
+@sys AP24 |URU~a1×HI@g~a| 12E8C
 @@
 @end sign
 
@@ -18801,6 +20309,7 @@
 @ucun	𒺑
 @uage	1
 @sys	AP23 |URU~a3xKALAM~a|
+@sys AP24 |URU~a3×KALAM~a| 12E91
 @@
 @end sign
 
@@ -18827,6 +20336,7 @@
 @ucun	𒺇
 @uage	1
 @sys	AP23 |URU~a1x1(N57)|
+@sys AP24 |URU~a1×1(N57)| 12E87
 @@
 @end sign
 
@@ -18841,6 +20351,7 @@
 @ucun	𒺈
 @uage	1
 @sys	AP23 |URU~a1x2(N57)|
+@sys AP24 |URU~a1×2(N57)| 12E88
 @@
 @end sign
 
@@ -18867,6 +20378,7 @@
 @ucun	𒺐
 @uage	1
 @sys	AP23 |URU~a2x1(N58)|
+@sys AP24 |URU~a2×1(N58)| 12E90
 @@
 @end sign
 
@@ -18881,6 +20393,7 @@
 @ucun	𒺍
 @uage	1
 @sys	AP23 |URU~a1xNIMGIR|
+@sys AP24 |URU~a1×NIMGIR| 12E8D
 @@
 @end sign
 
@@ -18894,6 +20407,7 @@
 @ucun	𒺎
 @uage	1
 @sys	AP23 |URU~a1xU4|
+@sys AP24 |URU~a1×U₄| 12E8E
 @@
 @end sign
 
@@ -18907,6 +20421,7 @@
 @ucun	𒺏
 @uage	1
 @sys	AP23 |URU~a1xX|
+@sys AP24 |URU~a1×X| 12E8F
 @@
 @end sign
 
@@ -18920,6 +20435,7 @@
 @ucun	𒫑
 @uage	1
 @sys	AP23 URU~a1@n
+@sys AP24 URU~a1@n 12AD1
 @@
 @end sign
 
@@ -18935,6 +20451,7 @@
 @ucun	𒫖
 @uage	1
 @sys	LLATU:310_03 URUDU~a
+@sys AP24 URUDU~a 12AD6
 @sys	AP23 URUDU~a
 @@
 @form	URUDU~a~v1
@@ -18944,6 +20461,7 @@
 @ucun	𒫗
 @uage	1
 @sys	AP23 URUDU~a
+@sys AP24 URUDU~a~v1 12AD7
 @@
 @form	URUDU~a~v2
 @oid o0902375
@@ -18953,6 +20471,7 @@
 @ucun	𒫘
 @uage	1
 @sys	AP23 URUDU~a
+@sys AP24 URUDU~a~v2 12AD8
 @@
 @form URUDU~c
 @oid o0902376
@@ -18961,6 +20480,7 @@
 @ucun	𒫙
 @uage	1
 @sys	AP23 URUDU~c
+@sys AP24 URUDU~c 12AD9
 @@
 @form URUDU~d
 @oid o0902377
@@ -18969,6 +20489,7 @@
 @ucun	𒫚
 @uage	1
 @sys	AP23 URUDU~d
+@sys AP24 URUDU~d 12ADA
 @@
 @end sign
 
@@ -18984,6 +20505,7 @@
 @ucun	𒫛
 @uage	1
 @sys	AP23 URUDU@g~a
+@sys AP24 URUDU@g~a 12ADB
 @@
 @form URUDU@g~b
 @oid o0902380
@@ -18992,6 +20514,7 @@
 @ucun	𒫜
 @uage	1
 @sys	AP23 URUDU@g~b
+@sys AP24 URUDU@g~b 12ADC
 @@
 @form URUDU@g~c
 @oid o0902381
@@ -19000,6 +20523,7 @@
 @ucun	𒫝
 @uage	1
 @sys	LLATU:310_04 URUDU@g~c
+@sys AP24 URUDU@g~c 12ADD
 @sys	AP23 URUDU@g~c
 @@
 @form URUDU@g~d
@@ -19009,6 +20533,7 @@
 @ucun	𒫞
 @uage	1
 @sys	AP23 URUDU@g~d
+@sys AP24 URUDU@g~d 12ADE
 @@
 @end sign
 
@@ -19025,6 +20550,7 @@
 @ucun	𒫟
 @uage	1
 @sys	LLATU:310_05 UŠ~a
+@sys AP24 UŠ~a 12ADF
 @sys	AP23 USZ~a
 @@
 @form UŠ~b
@@ -19034,6 +20560,7 @@
 @ucun	𒫠
 @uage	1
 @sys	LLATU:311_01 UŠ~b
+@sys AP24 UŠ~b 12AE0
 @sys	AP23 USZ~b
 @@
 @form	UŠ~b~v1
@@ -19043,6 +20570,7 @@
 @ucun	𒫡
 @uage	1
 @sys	AP23 USZ~b
+@sys AP24 UŠ~b~v1 12AE1
 @@
 @compoundonly UŠ~b~v2
 @@
@@ -19060,6 +20588,7 @@
 @ucun	𒺔
 @uage	1
 @sys	AP23 |USZ~bxTAR~c|
+@sys AP24 |UŠ~b×TAR~c| 12E94
 @@
 @form	|UŠ~b~v2×TAR~c|
 @oid o0902389
@@ -19068,6 +20597,7 @@
 @ucun	𒺓
 @uage	1
 @sys	AP23 |USZ~bxTAR~c|
+@sys AP24 |UŠ~b~v2×TAR~c| 12E93
 @@
 @end sign
 
@@ -19081,6 +20611,7 @@
 @ucun	𒺒
 @uage	1
 @sys	AP23 |USZ~a&USZ~a|
+@sys AP24 |UŠ~a&UŠ~a| 12E92
 @@
 @form |UŠ~b&UŠ~b|
 @oid o0902393
@@ -19089,6 +20620,7 @@
 @ucun	𒺖
 @uage	1
 @sys	LLATU:311_02 UŠ~b+UŠ~b
+@sys AP24 |UŠ~b&UŠ~b| 12E96
 @sys	AP23 |USZ~b&USZ~b|
 @@
 @end sign
@@ -19101,6 +20633,7 @@
 @ucun	𒫢
 @uage	1
 @sys	LLATU:311_03 UŠUMGAL
+@sys AP24 UŠUMGAL 12AE2
 @sys	AP23 USZUMGAL
 @end sign
 
@@ -19125,6 +20658,7 @@
 	The photo of P000534 is indistinct; Falkenstein's copy of that sign
 	instance has LAL₂×N(01). (In ZATU608, UET 2, 197 is a typo for UET 2, 297.)
 @sys	LLATU:311_04 UŠUR₃~b1
+@sys AP24 UŠUR₃~b1 12AE4
 @sys	AP23 USZUR3~b1
 @@
 @form UŠUR₃~b2
@@ -19134,6 +20668,7 @@
 @ucun	𒫥
 @uage	1
 @sys	LLATU:311_05 UŠUR₃~b2
+@sys AP24 UŠUR₃~b2 12AE5
 @sys	AP23 USZUR3~b2
 @@
 @end sign
@@ -19152,6 +20687,7 @@
 @ucun	𒫦
 @uage	1
 @sys	AP23 UTUA~a
+@sys AP24 UTUA~a 12AE6
 @@
 @form UTUA~b
 @oid o0902401
@@ -19160,6 +20696,7 @@
 @ucun	𒫨
 @uage	1
 @sys	LLATU:311_06 UTUA~b
+@sys AP24 UTUA~b 12AE8
 @sys	AP23 UTUA~b
 @@
 @form	UTUA~b~v1
@@ -19169,6 +20706,7 @@
 @ucun	𒫩
 @uage	1
 @sys	AP23 UTUA~b
+@sys AP24 UTUA~b~v1 12AE9
 @@
 @end sign
 
@@ -19182,6 +20720,7 @@
 @ucun	𒫧
 @uage	1
 @sys	AP23 UTUA~a@t
+@sys AP24 UTUA~a@t 12AE7
 @@
 @end sign
 
@@ -19197,6 +20736,7 @@
 @ucun	𒫪
 @uage	1
 @sys	LLATU:311_07 UTUL~a
+@sys AP24 UTUL~a 12AEA
 @sys	AP23 UTUL~a
 @@
 @form UTUL~b
@@ -19206,6 +20746,7 @@
 @ucun	𒫫
 @uage	1
 @sys	LLATU:311_08 UTUL~b
+@sys AP24 UTUL~b 12AEB
 @sys	AP23 UTUL~b
 @@
 @form UTUL~c
@@ -19215,6 +20756,7 @@
 @ucun	𒫬
 @uage	1
 @sys	AP23 UTUL~c
+@sys AP24 UTUL~c 12AEC
 @@
 @form UTUL~d
 @oid o0902409
@@ -19223,6 +20765,7 @@
 @ucun	𒫭
 @uage	1
 @sys	AP23 UTUL~d
+@sys AP24 UTUL~d 12AED
 @@
 @end sign
 
@@ -19251,6 +20794,7 @@
 @ucun	𒫮
 @uage	1
 @sys	AP23 UZU
+@sys AP24 UZU 12AEE
 @end sign
 
 @compoundonly	X(N57)
@@ -19265,6 +20809,7 @@
 @ucun	𒱄
 @uage	1
 @sys	AP23 |X(N57).GAR|
+@sys AP24 |X(N57).GAR| 12C44
 @end sign
 
 @compoundonly	X
@@ -19290,6 +20835,7 @@
 @ucun	𒫯
 @uage	1
 @sys	LLATU:312_01 ZA~x
+@sys AP24 ZA~v 12AEF
 @sys	AP23 ZA~x
 @@
 @end sign
@@ -19307,6 +20853,7 @@
 @ucun	𒫰
 @uage	1
 @sys	LLATU:312_02 ZABALAM~a
+@sys AP24 ZABALAM~a 12AF0
 @sys	AP23 ZABALAM~a
 @@
 @form ZABALAM~b
@@ -19316,6 +20863,7 @@
 @ucun	𒫱
 @uage	1
 @sys	AP23 ZABALAM~b
+@sys AP24 ZABALAM~b 12AF1
 @@
 @end sign
 
@@ -19334,6 +20882,7 @@
 @ucun	𒫳
 @uage	1
 @sys	LLATU:312_03 ZAG~a
+@sys AP24 ZAG~a 12AF3
 @sys	AP23 ZAG~a
 @@
 @form	ZAG~a~v1
@@ -19343,6 +20892,7 @@
 @ucun	𒫴
 @uage	1
 @sys	AP23 ZAG~a
+@sys AP24 ZAG~a~v1 12AF4
 @@
 @form ZAG~b
 @oid o0902424
@@ -19351,6 +20901,7 @@
 @ucun	𒫵
 @uage	1
 @sys	AP23 ZAG~b
+@sys AP24 ZAG~b 12AF5
 @@
 @form ZAG~c
 @oid o0902425
@@ -19359,6 +20910,7 @@
 @ucun	𒫶
 @uage	1
 @sys	AP23 ZAG~c
+@sys AP24 ZAG~c 12AF6
 @@
 @end sign
 
@@ -19374,6 +20926,7 @@
 @ucun	𒫷
 @uage	1
 @sys	AP23 ZAR~a
+@sys AP24 ZAR~a 12AF7
 @@
 @form ZAR~b1
 @oid o0902428
@@ -19382,6 +20935,7 @@
 @ucun	𒫸
 @uage	1
 @sys	AP23 ZAR~b1
+@sys AP24 ZAR~b1 12AF8
 @@
 @form ZAR~b2
 @oid o0902429
@@ -19390,6 +20944,7 @@
 @ucun	𒫹
 @uage	1
 @sys	AP23 ZAR~b2
+@sys AP24 ZAR~b2 12AF9
 @@
 @form ZAR~c
 @oid o0902430
@@ -19398,6 +20953,7 @@
 @ucun	𒫺
 @uage	1
 @sys	AP23 ZAR~c
+@sys AP24 ZAR~c 12AFA
 @@
 @end sign
 
@@ -19453,6 +21009,7 @@
 @ucun	𒫻
 @uage	1
 @sys	AP23 ZATU620
+@sys AP24 ZATU620 12AFB
 @end sign
 
 @sign ZATU621
@@ -19467,6 +21024,7 @@
 @ucun	𒫼
 @uage	1
 @sys	LLATU:313_02 ZATU621~a
+@sys AP24 ZATU621~a 12AFC
 @sys	AP23 ZATU621~a
 @@
 @form ZATU621~b
@@ -19476,6 +21034,7 @@
 @ucun	𒫽
 @uage	1
 @sys	AP23 ZATU621~b
+@sys AP24 ZATU621~b 12AFD
 @@
 @form ZATU621~c
 @oid o0902435
@@ -19484,6 +21043,7 @@
 @ucun	𒫾
 @uage	1
 @sys	AP23 ZATU621~c
+@sys AP24 ZATU621~c 12AFE
 @@
 @form ZATU621~d
 @oid o0902436
@@ -19492,6 +21052,7 @@
 @ucun	𒫿
 @uage	1
 @sys	AP23 ZATU621~d
+@sys AP24 ZATU621~d 12AFF
 @@
 @end sign
 
@@ -19503,6 +21064,7 @@
 @ucun	𒬀
 @uage	1
 @sys	AP23 ZATU622
+@sys AP24 ZATU622 12B00
 @end sign
 
 @sign ZATU623
@@ -19513,6 +21075,7 @@
 @ucun	𒬁
 @uage	1
 @sys	LLATU:313_03 ZATU623
+@sys AP24 ZATU623 12B01
 @sys	AP23 ZATU623
 @form ZATU623~v1
 @oid o0902439
@@ -19521,6 +21084,7 @@
 @ucun	𒬂
 @uage	1
 @sys	AP23 ZATU623
+@sys AP24 ZATU623~v1 12B02
 @@
 @form ZATU623~v2
 @oid o0902440
@@ -19529,6 +21093,7 @@
 @ucun	𒬃
 @uage	1
 @sys	AP23 ZATU623
+@sys AP24 ZATU623~v2 12B03
 @@
 @end sign
 
@@ -19544,6 +21109,7 @@
 @ucun	𒬄
 @uage	1
 @sys	AP23 ZATU624~a
+@sys AP24 ZATU624~a 12B04
 @@
 @form ZATU624~b
 @oid o0902443
@@ -19552,6 +21118,7 @@
 @ucun	𒬅
 @uage	1
 @sys	AP23 ZATU624~b
+@sys AP24 ZATU624~b 12B05
 @@
 @form ZATU624~c
 @oid o0902444
@@ -19560,6 +21127,7 @@
 @ucun	𒬆
 @uage	1
 @sys	AP23 ZATU624~c
+@sys AP24 ZATU624~c 12B06
 @@
 @end sign
 
@@ -19571,6 +21139,7 @@
 @ucun	𒬇
 @uage	1
 @sys	AP23 ZATU625
+@sys AP24 ZATU625 12B07
 @form ZATU625~v1
 @oid o0902446
 @uname	PROTO-CUNEIFORM SIGN ZATU625 VARIANT 1
@@ -19578,6 +21147,7 @@
 @ucun	𒬈
 @uage	1
 @sys	AP23 ZATU625
+@sys AP24 ZATU625~v1 12B08
 @@
 @end sign
 
@@ -19593,6 +21163,7 @@
 @ucun	𒬉
 @uage	1
 @sys	AP23 ZATU626~a
+@sys AP24 ZATU626~a 12B09
 @@
 @form ZATU626~b
 @oid o0902449
@@ -19601,6 +21172,7 @@
 @ucun	𒬊
 @uage	1
 @sys	AP23 ZATU626~b
+@sys AP24 ZATU626~b 12B0A
 @@
 @form ZATU626~c
 @oid o0902450
@@ -19609,6 +21181,7 @@
 @ucun	𒬋
 @uage	1
 @sys	AP23 ZATU626~c
+@sys AP24 ZATU626~c 12B0B
 @@
 @end sign
 
@@ -19620,6 +21193,7 @@
 @ucun	𒬌
 @uage	1
 @sys	AP23 ZATU627
+@sys AP24 ZATU627 12B0C
 @end sign
 
 @sign ZATU628
@@ -19634,6 +21208,7 @@
 @ucun	𒬍
 @uage	1
 @sys	AP23 ZATU628~a
+@sys AP24 ZATU628~a 12B0D
 @@
 @form	ZATU628~a~v1
 @oid o0902454
@@ -19642,6 +21217,7 @@
 @ucun	𒬎
 @uage	1
 @sys	AP23 ZATU628~a
+@sys AP24 ZATU628~a~v1 12B0E
 @@
 @form ZATU628~b
 @oid o0902455
@@ -19650,6 +21226,7 @@
 @ucun	𒬏
 @uage	1
 @sys	AP23 ZATU628~b
+@sys AP24 ZATU628~b 12B0F
 @@
 @end sign
 
@@ -19661,6 +21238,7 @@
 @ucun	𒬐
 @uage	1
 @sys	AP23 ZATU629
+@sys AP24 ZATU629 12B10
 @form ZATU629~v1
 @oid o0902457
 @uname	PROTO-CUNEIFORM SIGN ZATU629 VARIANT 1
@@ -19668,6 +21246,7 @@
 @ucun	𒬑
 @uage	1
 @sys	AP23 ZATU629
+@sys AP24 ZATU629~v1 12B11
 @@
 @end sign
 
@@ -19679,6 +21258,7 @@
 @ucun	𒬒
 @uage	1
 @sys	LLATU:313_04 ZATU630
+@sys AP24 ZATU630 12B12
 @sys	AP23 ZATU630
 @end sign
 
@@ -19690,6 +21270,7 @@
 @ucun	𒬓
 @uage	1
 @sys	AP23 ZATU631
+@sys AP24 ZATU631 12B13
 @end sign
 
 @sign ZATU632
@@ -19704,6 +21285,7 @@
 @ucun	𒬔
 @uage	1
 @sys	LLATU:313_05 ZATU632~a
+@sys AP24 ZATU632~a 12B14
 @sys	AP23 ZATU632~a
 @@
 @form	ZATU632~a~v1
@@ -19713,6 +21295,7 @@
 @ucun	𒬕
 @uage	1
 @sys	AP23 ZATU632~a
+@sys AP24 ZATU632~a~v1 12B15
 @@
 @form ZATU632~b
 @oid o0902463
@@ -19721,6 +21304,7 @@
 @ucun	𒬖
 @uage	1
 @sys	AP23 ZATU632~b
+@sys AP24 ZATU632~b 12B16
 @@
 @form ZATU632~c
 @oid o0902464
@@ -19729,6 +21313,7 @@
 @ucun	𒬗
 @uage	1
 @sys	AP23 ZATU632~c
+@sys AP24 ZATU632~c 12B17
 @@
 @end sign
 
@@ -19744,6 +21329,7 @@
 @ucun	𒬘
 @uage	1
 @sys	LLATU:313_06 ZATU633~a
+@sys AP24 ZATU633~a 12B18
 @sys	AP23 ZATU633~a
 @@
 @form ZATU633~b
@@ -19753,6 +21339,7 @@
 @ucun	𒬙
 @uage	1
 @sys	LLATU:313_07 ZATU633~b
+@sys AP24 ZATU633~b 12B19
 @sys	AP23 ZATU633~b
 @@
 @end sign
@@ -19765,6 +21352,7 @@
 @ucun	𒬚
 @uage	1
 @sys	AP23 ZATU634
+@sys AP24 ZATU634 12B1A
 @end sign
 
 @sign ZATU635
@@ -19775,6 +21363,7 @@
 @ucun	𒬛
 @uage	1
 @sys	AP23 ZATU635
+@sys AP24 ZATU635 12B1B
 @end sign
 
 @sign ZATU636
@@ -19785,6 +21374,7 @@
 @ucun	𒬜
 @uage	1
 @sys	LLATU:313_08 ZATU636
+@sys AP24 ZATU636 12B1C
 @sys	AP23 ZATU636
 @form ZATU636~v1
 @oid o0902471
@@ -19793,6 +21383,7 @@
 @ucun	𒬝
 @uage	1
 @sys	AP23 ZATU636
+@sys AP24 ZATU636~v1 12B1D
 @@
 @end sign
 
@@ -19804,6 +21395,7 @@
 @ucun	𒬞
 @uage	1
 @sys	AP23 ZATU637
+@sys AP24 ZATU637 12B1E
 @end sign
 
 @sign ZATU639
@@ -19814,6 +21406,7 @@
 @ucun	𒬟
 @uage	1
 @sys	AP23 ZATU639
+@sys AP24 ZATU639 12B1F
 @end sign
 
 @sign ZATU640
@@ -19824,6 +21417,7 @@
 @ucun	𒬠
 @uage	1
 @sys	AP23 ZATU640
+@sys AP24 ZATU640 12B20
 @end sign
 
 @sign ZATU641
@@ -19834,6 +21428,7 @@
 @ucun	𒬡
 @uage	1
 @sys	AP23 ZATU641
+@sys AP24 ZATU641 12B21
 @end sign
 
 @sign ZATU642
@@ -19844,6 +21439,7 @@
 @ucun	𒬢
 @uage	1
 @sys	AP23 ZATU642
+@sys AP24 ZATU642 12B22
 @end sign
 
 @sign ZATU643
@@ -19854,6 +21450,7 @@
 @ucun	𒬣
 @uage	1
 @sys	AP23 ZATU643
+@sys AP24 ZATU643 12B23
 @end sign
 
 @sign ZATU644
@@ -19868,6 +21465,7 @@
 @ucun	𒬤
 @uage	1
 @sys	AP23 ZATU644~a
+@sys AP24 ZATU644~a 12B24
 @@
 @form ZATU644~b
 @oid o0902480
@@ -19876,6 +21474,7 @@
 @ucun	𒬥
 @uage	1
 @sys	LLATU:313_09 ZATU644~b
+@sys AP24 ZATU644~b 12B25
 @sys	AP23 ZATU644~b
 @@
 @end sign
@@ -19891,6 +21490,7 @@
 @ucun	𒺗
 @uage	1
 @sys	AP23 |ZATU644~ax1(N14)|
+@sys AP24 |ZATU644~a×1(N14)| 12E97
 @@
 @end sign
 
@@ -19902,6 +21502,7 @@
 @ucun	𒬦
 @uage	1
 @sys	AP23 ZATU646
+@sys AP24 ZATU646 12B26
 @end sign
 
 @sign ZATU647
@@ -19912,6 +21513,7 @@
 @ucun	𒬧
 @uage	1
 @sys	LLATU:313_10 ZATU647
+@sys AP24 ZATU647 12B27
 @sys	AP23 ZATU647
 @form ZATU647~v1
 @oid o0902485
@@ -19920,6 +21522,7 @@
 @ucun	𒬨
 @uage	1
 @sys	AP23 ZATU647
+@sys AP24 ZATU647~v1 12B28
 @@
 @end sign
 
@@ -19931,6 +21534,7 @@
 @ucun	𒬩
 @uage	1
 @sys	LLATU:314_01 ZATU648
+@sys AP24 ZATU648 12B29
 @sys	AP23 ZATU648
 @end sign
 
@@ -19942,6 +21546,7 @@
 @ucun	𒬪
 @uage	1
 @sys	AP23 ZATU649
+@sys AP24 ZATU649 12B2A
 @form ZATU649~v1
 @oid o0902488
 @uname	PROTO-CUNEIFORM SIGN ZATU649 VARIANT 1
@@ -19949,6 +21554,7 @@
 @ucun	𒬫
 @uage	1
 @sys	AP23 ZATU649
+@sys AP24 ZATU649~v1 12B2B
 @@
 @end sign
 
@@ -19960,6 +21566,7 @@
 @ucun	𒬬
 @uage	1
 @sys	AP23 ZATU650
+@sys AP24 ZATU650 12B2C
 @end sign
 
 @sign ZATU651
@@ -19970,6 +21577,7 @@
 @ucun	𒬭
 @uage	1
 @sys	LLATU:314_02 ZATU651
+@sys AP24 ZATU651 12B2D
 @sys	AP23 ZATU651
 @form ZATU651~v1
 @oid o0902491
@@ -19978,6 +21586,7 @@
 @ucun	𒬮
 @uage	1
 @sys	AP23 ZATU651
+@sys AP24 ZATU651~v1 12B2E
 @@
 @form ZATU651~v2
 @oid o0902492
@@ -19986,6 +21595,7 @@
 @ucun	𒬯
 @uage	1
 @sys	AP23 ZATU651
+@sys AP24 ZATU651~v2 12B2F
 @@
 @end sign
 
@@ -19997,6 +21607,7 @@
 @ucun	𒺘
 @uage	1
 @sys	LLATU:314_03 ZATU651+AN
+@sys AP24 |ZATU651×AN| 12E98
 @sys	AP23 |ZATU651xAN|
 @end sign
 
@@ -20012,6 +21623,7 @@
 @ucun	𒺙
 @uage	1
 @sys	AP23 |ZATU651xEN~a|
+@sys AP24 |ZATU651×EN~a~v2| 12E99
 @@
 @end sign
 
@@ -20023,6 +21635,7 @@
 @ucun	𒺚
 @uage	1
 @sys	AP23 |ZATU651xGAR|
+@sys AP24 |ZATU651×GAR| 12E9A
 @end sign
 
 @sign |ZATU651×MA|
@@ -20033,6 +21646,7 @@
 @ucun	𒺛
 @uage	1
 @sys	AP23 |ZATU651xMA|
+@sys AP24 |ZATU651×MA| 12E9B
 @end sign
 
 @sign |ZATU651×NUN|
@@ -20046,6 +21660,7 @@
 @ucun	𒺜
 @uage	1
 @sys	AP23 |ZATU651xNUN~a|
+@sys AP24 |ZATU651×NUN~a| 12E9C
 @@
 @end sign
 
@@ -20061,6 +21676,7 @@
 @ucun	𒺝
 @uage	1
 @sys	AP23 |ZATU651xSZE~a|
+@sys AP24 |ZATU651~v2×ŠE~a| 12E9D
 @@
 @end sign
 
@@ -20071,6 +21687,7 @@
 @ucun	𒺞
 @uage	1
 @sys	AP23 |ZATU651xX|
+@sys AP24 |ZATU651×X| 12E9E
 @end sign
 
 @sign |ZATU651×ZAR|
@@ -20083,6 +21700,7 @@
 @ucun	𒺟
 @uage	1
 @sys	AP23 |ZATU651xZAR~c|
+@sys AP24 |ZATU651×ZAR~c| 12E9F
 @@
 @end sign
 
@@ -20094,6 +21712,7 @@
 @ucun	𒬰
 @uage	1
 @sys	LLATU:314_04 ZATU651@g
+@sys AP24 ZATU651@g 12B30
 @sys	AP23 ZATU651@g
 @end sign
 
@@ -20106,6 +21725,7 @@
 @ucun	𒬱
 @uage	1
 @sys	LLATU:314_05 ZATU659
+@sys AP24 ZATU659 12B31
 @sys	AP23 ZATU659
 @end sign
 
@@ -20116,6 +21736,7 @@
 @ucun	𒺠
 @uage	1
 @sys	AP23 |ZATU659x1(N01)|
+@sys AP24 |ZATU659×1(N01)| 12EA0
 @end sign
 
 @sign |ZATU659×1(N14)|
@@ -20126,6 +21747,7 @@
 @ucun	𒺡
 @uage	1
 @sys	AP23 |ZATU659x1(N14)|
+@sys AP24 |ZATU659×1(N14)| 12EA1
 @end sign
 
 @sign |ZATU659×1(N58@t)|
@@ -20137,6 +21759,7 @@
 @ucun	𒺢
 @uage	1
 @sys	LLATU:314_06 ZATU659+1(N58)
+@sys AP24 |ZATU659×1(N58@t)| 12EA2
 @sys	AP23 |ZATU659x1(N58)@t|
 @end sign
 
@@ -20149,6 +21772,7 @@
 @ucun	𒬲
 @uage	1
 @sys	LLATU:314_07 ZATU662
+@sys AP24 ZATU662 12B32
 @sys	AP23 ZATU662
 @form ZATU662~v1
 @oid o0902512
@@ -20157,6 +21781,7 @@
 @ucun	𒬳
 @uage	1
 @sys	AP23 ZATU662
+@sys AP24 ZATU662~v1 12B33
 @@
 @form ZATU662~v2
 @oid o0902513
@@ -20165,6 +21790,7 @@
 @ucun	𒬴
 @uage	1
 @sys	AP23 ZATU662
+@sys AP24 ZATU662~v2 12B34
 @@
 @form ZATU662~v3
 @oid o0902514
@@ -20173,6 +21799,7 @@
 @ucun	𒬵
 @uage	1
 @sys	AP23 ZATU662
+@sys AP24 ZATU662~v3 12B35
 @@
 @end sign
 
@@ -20185,6 +21812,7 @@
 @ucun	𒺣
 @uage	1
 @sys	LLATU:315_01 ZATU662+1(N14)
+@sys AP24 |ZATU662×1(N14)| 12EA3
 @sys	AP23 |ZATU662x1(N14)|
 @form |ZATU662~v1×1(N14)|
 @oid o0902516
@@ -20194,6 +21822,7 @@
 @ucun	𒺤
 @uage	1
 @sys	AP23 |ZATU662x1(N14)|
+@sys AP24 |ZATU662~v1×1(N14)| 12EA4
 @@
 @form |ZATU662~v2×1(N14)|
 @oid o0902517
@@ -20203,6 +21832,7 @@
 @ucun	𒺥
 @uage	1
 @sys	AP23 |ZATU662x1(N14)|
+@sys AP24 |ZATU662~v2×1(N14)| 12EA5
 @@
 @end sign
 
@@ -20214,6 +21844,7 @@
 @ucun	𒬶
 @uage	1
 @sys	AP23 ZATU664
+@sys AP24 ZATU664 12B36
 @end sign
 
 @sign ZATU665
@@ -20224,6 +21855,7 @@
 @ucun	𒬷
 @uage	1
 @sys	AP23 ZATU665
+@sys AP24 ZATU665 12B37
 @end sign
 
 @sign ZATU666
@@ -20234,6 +21866,7 @@
 @ucun	𒬸
 @uage	1
 @sys	AP23 ZATU666
+@sys AP24 ZATU666 12B38
 @end sign
 
 @sign ZATU667
@@ -20244,6 +21877,7 @@
 @ucun	𒬹
 @uage	1
 @sys	AP23 ZATU667
+@sys AP24 ZATU667 12B39
 @end sign
 
 @sign ZATU668
@@ -20254,6 +21888,7 @@
 @ucun	𒬺
 @uage	1
 @sys	AP23 ZATU668
+@sys AP24 ZATU668 12B3A
 @end sign
 
 @sign ZATU669
@@ -20264,6 +21899,7 @@
 @ucun	𒬻
 @uage	1
 @sys	AP23 ZATU669
+@sys AP24 ZATU669 12B3B
 @end sign
 
 @sign ZATU670
@@ -20274,6 +21910,7 @@
 @ucun	𒬼
 @uage	1
 @sys	AP23 ZATU670
+@sys AP24 ZATU670 12B3C
 @end sign
 
 @lref	ZATU671
@@ -20287,6 +21924,7 @@
 @ucun	𒬽
 @uage	1
 @sys	AP23 ZATU672
+@sys AP24 ZATU672 12B3D
 @end sign
 
 @sign ZATU674
@@ -20297,6 +21935,7 @@
 @ucun	𒬾
 @uage	1
 @sys	AP23 ZATU674
+@sys AP24 ZATU674 12B3E
 @end sign
 
 @sign ZATU675
@@ -20311,6 +21950,7 @@
 @ucun	𒬿
 @uage	1
 @sys	AP23 ZATU675~a
+@sys AP24 ZATU675~a 12B3F
 @@
 @form ZATU675~b
 @oid o0902529
@@ -20319,6 +21959,7 @@
 @ucun	𒭀
 @uage	1
 @sys	AP23 ZATU675~b
+@sys AP24 ZATU675~b 12B40
 @@
 @form	ZATU675~b~v1
 @oid o0902530
@@ -20327,6 +21968,7 @@
 @ucun	𒭁
 @uage	1
 @sys	AP23 ZATU675~b
+@sys AP24 ZATU675~b~v1 12B41
 @@
 @form ZATU675~c
 @oid o0902531
@@ -20335,6 +21977,7 @@
 @ucun	𒭂
 @uage	1
 @sys	AP23 ZATU675~c
+@sys AP24 ZATU675~c 12B42
 @@
 @form ZATU675~d
 @oid o0902532
@@ -20343,6 +21986,7 @@
 @ucun	𒭃
 @uage	1
 @sys	AP23 ZATU675~d
+@sys AP24 ZATU675~d 12B43
 @@
 @end sign
 
@@ -20358,6 +22002,7 @@
 @ucun	𒭄
 @uage	1
 @sys	AP23 ZATU676~a
+@sys AP24 ZATU676~a 12B44
 @@
 @form ZATU676~b
 @oid o0902535
@@ -20366,6 +22011,7 @@
 @ucun	𒭅
 @uage	1
 @sys	AP23 ZATU676~b
+@sys AP24 ZATU676~b 12B45
 @@
 @end sign
 
@@ -20381,6 +22027,7 @@
 @ucun	𒭆
 @uage	1
 @sys	AP23 ZATU677~a
+@sys AP24 ZATU677~a 12B46
 @@
 @form ZATU677~b
 @oid o0902538
@@ -20389,6 +22036,7 @@
 @ucun	𒭇
 @uage	1
 @sys	AP23 ZATU677~b
+@sys AP24 ZATU677~b 12B47
 @@
 @end sign
 
@@ -20400,6 +22048,7 @@
 @ucun	𒭈
 @uage	1
 @sys	AP23 ZATU678
+@sys AP24 ZATU678 12B48
 @end sign
 
 @sign ZATU679
@@ -20410,6 +22059,7 @@
 @ucun	𒭉
 @uage	1
 @sys	LLATU:315_02 ZATU679
+@sys AP24 ZATU679 12B49
 @sys	AP23 ZATU679
 @end sign
 
@@ -20425,6 +22075,7 @@
 @ucun	𒭊
 @uage	1
 @sys	AP23 ZATU680~a1
+@sys AP24 ZATU680~a1 12B4A
 @@
 @form ZATU680~a2
 @oid o0902543
@@ -20433,6 +22084,7 @@
 @ucun	𒭋
 @uage	1
 @sys	AP23 ZATU680~a2
+@sys AP24 ZATU680~a2 12B4B
 @@
 @form ZATU680~b
 @oid o0902544
@@ -20441,6 +22093,7 @@
 @ucun	𒭌
 @uage	1
 @sys	LLATU:315_03 ZATU680~b
+@sys AP24 ZATU680~b 12B4C
 @sys	AP23 ZATU680~b
 @@
 @form	ZATU680~b~v1
@@ -20450,6 +22103,7 @@
 @ucun	𒭍
 @uage	1
 @sys	AP23 ZATU680~b
+@sys AP24 ZATU680~b~v1 12B4D
 @@
 @form ZATU680~d
 @oid o0902546
@@ -20458,6 +22112,7 @@
 @ucun	𒭎
 @uage	1
 @sys	AP23 ZATU680~d
+@sys AP24 ZATU680~d 12B4E
 @@
 @form ZATU680~e
 @oid o0902547
@@ -20466,6 +22121,7 @@
 @ucun	𒭏
 @uage	1
 @sys	AP23 ZATU680~e
+@sys AP24 ZATU680~e 12B4F
 @@
 @end sign
 
@@ -20477,6 +22133,7 @@
 @ucun	𒭐
 @uage	1
 @sys	LLATU:315_04 ZATU681
+@sys AP24 ZATU681 12B50
 @sys	AP23 ZATU681
 @end sign
 
@@ -20488,6 +22145,7 @@
 @ucun	𒭑
 @uage	1
 @sys	AP23 ZATU682
+@sys AP24 ZATU682 12B51
 @end sign
 
 @sign ZATU683
@@ -20502,6 +22160,7 @@
 @ucun	𒭒
 @uage	1
 @sys	AP23 ZATU683~a
+@sys AP24 ZATU683~a 12B52
 @@
 @form ZATU683~b
 @oid o0902552
@@ -20510,6 +22169,7 @@
 @ucun	𒭓
 @uage	1
 @sys	AP23 ZATU683~b
+@sys AP24 ZATU683~b 12B53
 @@
 @end sign
 
@@ -20520,6 +22180,7 @@
 @ucun	𒭔
 @uage	1
 @sys	AP23 ZATU683@t
+@sys AP24 ZATU683@t 12B54
 @end sign
 
 @sign ZATU684
@@ -20530,6 +22191,7 @@
 @ucun	𒭕
 @uage	1
 @sys	LLATU:315_05 ZATU684
+@sys AP24 ZATU684 12B55
 @sys	AP23 ZATU684
 @end sign
 
@@ -20541,6 +22203,7 @@
 @ucun	𒭖
 @uage	1
 @sys	AP23 ZATU685
+@sys AP24 ZATU685 12B56
 @end sign
 
 @sign ZATU686
@@ -20555,6 +22218,7 @@
 @ucun	𒭗
 @uage	1
 @sys	LLATU:315_06 ZATU686~a
+@sys AP24 ZATU686~a 12B57
 @sys	AP23 ZATU686~a
 @@
 @form ZATU686~b
@@ -20564,6 +22228,7 @@
 @ucun	𒭘
 @uage	1
 @sys	AP23 ZATU686~b
+@sys AP24 ZATU686~b 12B58
 @@
 @form ZATU686~c
 @oid o0902559
@@ -20572,6 +22237,7 @@
 @ucun	𒭙
 @uage	1
 @sys	LLATU:315_07 ZATU686~c
+@sys AP24 ZATU686~c 12B59
 @sys	AP23 ZATU686~c
 @@
 @end sign
@@ -20585,6 +22251,7 @@
 @ucun	𒭚
 @uage	1
 @sys	LLATU:315_08 ZATU687
+@sys AP24 ZATU687 12B5A
 @sys	AP23 ZATU687
 @end sign
 
@@ -20600,6 +22267,7 @@
 @ucun	𒭛
 @uage	1
 @sys	AP23 ZATU688~a
+@sys AP24 ZATU688~a 12B5B
 @@
 @form ZATU688~b
 @oid o0902563
@@ -20608,6 +22276,7 @@
 @ucun	𒭜
 @uage	1
 @sys	AP23 ZATU688~b
+@sys AP24 ZATU688~b 12B5C
 @@
 @end sign
 
@@ -20619,6 +22288,7 @@
 @ucun	𒭝
 @uage	1
 @sys	AP23 ZATU689
+@sys AP24 ZATU689 12B5D
 @end sign
 
 @sign ZATU690
@@ -20629,6 +22299,7 @@
 @ucun	𒭞
 @uage	1
 @sys	AP23 ZATU690
+@sys AP24 ZATU690 12B5E
 @end sign
 
 @sign ZATU691
@@ -20639,6 +22310,7 @@
 @ucun	𒭟
 @uage	1
 @sys	AP23 ZATU691
+@sys AP24 ZATU691 12B5F
 @end sign
 
 @sign ZATU692
@@ -20649,6 +22321,7 @@
 @ucun	𒭠
 @uage	1
 @sys	AP23 ZATU692
+@sys AP24 ZATU692 12B60
 @end sign
 
 @sign ZATU693
@@ -20659,6 +22332,7 @@
 @ucun	𒭡
 @uage	1
 @sys	LLATU:315_09 ZATU693
+@sys AP24 ZATU693 12B61
 @sys	AP23 ZATU693
 @form ZATU693~v1
 @oid o0902569
@@ -20667,6 +22341,7 @@
 @ucun	𒭢
 @uage	1
 @sys	AP23 ZATU693
+@sys AP24 ZATU693~v1 12B62
 @@
 @form ZATU693~v2
 @oid o0902570
@@ -20675,6 +22350,7 @@
 @ucun	𒭣
 @uage	1
 @sys	AP23 ZATU693
+@sys AP24 ZATU693~v2 12B63
 @@
 @end sign
 
@@ -20685,6 +22361,7 @@
 @ucun	𒭤
 @uage	1
 @sys	AP23 ZATU693@t
+@sys AP24 ZATU693@t 12B64
 @end sign
 
 @sign ZATU694
@@ -20699,6 +22376,7 @@
 @ucun	𒭥
 @uage	1
 @sys	AP23 ZATU694~a
+@sys AP24 ZATU694~a 12B65
 @@
 @form ZATU694~b
 @oid o0902574
@@ -20707,6 +22385,7 @@
 @ucun	𒭦
 @uage	1
 @sys	AP23 ZATU694~b
+@sys AP24 ZATU694~b 12B66
 @@
 @form ZATU694~c
 @oid o0902575
@@ -20715,6 +22394,7 @@
 @ucun	𒭧
 @uage	1
 @sys	LLATU:315_10 ZATU694~c
+@sys AP24 ZATU694~c 12B67
 @sys	AP23 ZATU694~c
 @@
 @form	ZATU694~c~v1
@@ -20724,6 +22404,7 @@
 @ucun	𒭨
 @uage	1
 @sys	AP23 ZATU694~c
+@sys AP24 ZATU694~c~v1 12B68
 @@
 @form ZATU694~d
 @oid o0902577
@@ -20732,6 +22413,7 @@
 @ucun	𒭩
 @uage	1
 @sys	AP23 ZATU694~d
+@sys AP24 ZATU694~d 12B69
 @@
 @form ZATU694~e
 @oid o0902578
@@ -20751,6 +22433,7 @@
 @ucun	𒭪
 @uage	1
 @sys	AP23 ZATU694~d@t
+@sys AP24 ZATU694~d@t 12B6A
 @@
 @end sign
 
@@ -20762,6 +22445,7 @@
 @ucun	𒭫
 @uage	1
 @sys	AP23 ZATU695
+@sys AP24 ZATU695 12B6B
 @end sign
 
 @sign ZATU696
@@ -20772,6 +22456,7 @@
 @ucun	𒭬
 @uage	1
 @sys	AP23 ZATU696
+@sys AP24 ZATU696 12B6C
 @end sign
 
 @sign ZATU697
@@ -20786,6 +22471,7 @@
 @ucun	𒭭
 @uage	1
 @sys	LLATU:316_01 ZATU697~a
+@sys AP24 ZATU697~a 12B6D
 @sys	AP23 ZATU697~a
 @@
 @form	ZATU697~a~v1
@@ -20795,6 +22481,7 @@
 @ucun	𒭮
 @uage	1
 @sys	AP23 ZATU697~a
+@sys AP24 ZATU697~a~v1 12B6E
 @@
 @form	ZATU697~a~v2
 @oid o0902586
@@ -20803,6 +22490,7 @@
 @ucun	𒭯
 @uage	1
 @sys	AP23 ZATU697~a
+@sys AP24 ZATU697~a~v2 12B6F
 @@
 @form	ZATU697~a~v3
 @oid o0902587
@@ -20811,6 +22499,7 @@
 @ucun	𒭰
 @uage	1
 @sys	AP23 ZATU697~a
+@sys AP24 ZATU697~a~v3 12B70
 @@
 @form ZATU697~b
 @oid o0902588
@@ -20819,6 +22508,7 @@
 @ucun	𒭱
 @uage	1
 @sys	AP23 ZATU697~b
+@sys AP24 ZATU697~b 12B71
 @@
 @form ZATU697~c
 @oid o0902589
@@ -20827,6 +22517,7 @@
 @ucun	𒭲
 @uage	1
 @sys	AP23 ZATU697~c
+@sys AP24 ZATU697~c 12B72
 @@
 @end sign
 
@@ -20842,6 +22533,7 @@
 @ucun	𒭳
 @uage	1
 @sys	AP23 ZATU699~a
+@sys AP24 ZATU699~a 12B73
 @@
 @form ZATU699~b
 @oid o0902592
@@ -20850,6 +22542,7 @@
 @ucun	𒭴
 @uage	1
 @sys	AP23 ZATU699~b
+@sys AP24 ZATU699~b 12B74
 @@
 @end sign
 
@@ -20861,6 +22554,7 @@
 @ucun	𒭵
 @uage	1
 @sys	AP23 ZATU700
+@sys AP24 ZATU700 12B75
 @end sign
 
 @sign ZATU701
@@ -20871,6 +22565,7 @@
 @ucun	𒭶
 @uage	1
 @sys	AP23 ZATU701
+@sys AP24 ZATU701 12B76
 @end sign
 
 @sign ZATU702
@@ -20881,6 +22576,7 @@
 @ucun	𒭷
 @uage	1
 @sys	AP23 ZATU702
+@sys AP24 ZATU702 12B77
 @end sign
 
 @sign ZATU703
@@ -20891,6 +22587,7 @@
 @ucun	𒭸
 @uage	1
 @sys	AP23 ZATU703
+@sys AP24 ZATU703 12B78
 @end sign
 
 @sign ZATU704
@@ -20901,6 +22598,7 @@
 @ucun	𒭹
 @uage	1
 @sys	AP23 ZATU704
+@sys AP24 ZATU704 12B79
 @end sign
 
 @sign ZATU705
@@ -20911,6 +22609,7 @@
 @ucun	𒭺
 @uage	1
 @sys	AP23 ZATU705
+@sys AP24 ZATU705 12B7A
 @end sign
 
 @sign ZATU706
@@ -20921,6 +22620,7 @@
 @ucun	𒭻
 @uage	1
 @sys	AP23 ZATU706
+@sys AP24 ZATU706 12B7B
 @end sign
 
 @sign ZATU707
@@ -20935,6 +22635,7 @@
 @ucun	𒭼
 @uage	1
 @sys	LLATU:316_02 ZATU707~a
+@sys AP24 ZATU707~a 12B7C
 @sys	AP23 ZATU707~a
 @@
 @form ZATU707~b
@@ -20944,6 +22645,7 @@
 @ucun	𒭽
 @uage	1
 @sys	AP23 ZATU707~b
+@sys AP24 ZATU707~b 12B7D
 @@
 @end sign
 
@@ -20955,6 +22657,7 @@
 @ucun	𒭾
 @uage	1
 @sys	AP23 ZATU708
+@sys AP24 ZATU708 12B7E
 @end sign
 
 @sign ZATU709
@@ -20965,6 +22668,7 @@
 @ucun	𒭿
 @uage	1
 @sys	AP23 ZATU709
+@sys AP24 ZATU709 12B7F
 @end sign
 
 @sign ZATU710
@@ -20975,6 +22679,7 @@
 @ucun	𒮀
 @uage	1
 @sys	AP23 ZATU710
+@sys AP24 ZATU710 12B80
 @form ZATU710~v1
 @oid o0902606
 @uname	PROTO-CUNEIFORM SIGN ZATU710 VARIANT 1
@@ -20982,6 +22687,7 @@
 @ucun	𒮁
 @uage	1
 @sys	AP23 ZATU710
+@sys AP24 ZATU710~v1 12B81
 @@
 @end sign
 
@@ -20993,6 +22699,7 @@
 @ucun	𒮂
 @uage	1
 @sys	AP23 ZATU711
+@sys AP24 ZATU711 12B82
 @form ZATU711~v1
 @oid o0902608
 @uname	PROTO-CUNEIFORM SIGN ZATU711 VARIANT 1
@@ -21000,6 +22707,7 @@
 @ucun	𒮃
 @uage	1
 @sys	AP23 ZATU711
+@sys AP24 ZATU711~v1 12B83
 @@
 @end sign
 
@@ -21015,6 +22723,7 @@
 @ucun	𒺦
 @uage	1
 @sys	AP23 |ZATU711xHI@g~a|
+@sys AP24 |ZATU711~v1×HI@g~a| 12EA6
 @@
 @end sign
 
@@ -21026,6 +22735,7 @@
 @ucun	𒺧
 @uage	1
 @sys	AP23 |ZATU711xX|
+@sys AP24 |ZATU711~v1×X| 12EA7
 @end sign
 
 @sign ZATU713
@@ -21036,6 +22746,7 @@
 @ucun	𒮄
 @uage	1
 @sys	AP23 ZATU713
+@sys AP24 ZATU713 12B84
 @end sign
 
 @sign ZATU714
@@ -21046,6 +22757,7 @@
 @ucun	𒮅
 @uage	1
 @sys	LLATU:316_03 ZATU714
+@sys AP24 ZATU714 12B85
 @sys	AP23 ZATU714
 @end sign
 
@@ -21057,6 +22769,7 @@
 @ucun	𒺩
 @uage	1
 @sys	AP23 |ZATU714.RU|
+@sys AP24 |ZATU714.RU| 12EA9
 @end sign
 
 @sign |ZATU714×HI@g|
@@ -21072,6 +22785,7 @@
 @ucun	𒺨
 @uage	1
 @sys	AP23 |ZATU714xHI@g~a|
+@sys AP24 |ZATU714×HI@g~a| 12EA8
 @@
 @end sign
 
@@ -21082,6 +22796,7 @@
 @ucun	𒺪
 @uage	1
 @sys	AP23 |ZATU714xX|
+@sys AP24 |ZATU714×X| 12EAA
 @end sign
 
 @sign ZATU717
@@ -21092,6 +22807,7 @@
 @ucun	𒮆
 @uage	1
 @sys	AP23 ZATU717
+@sys AP24 ZATU717 12B86
 @end sign
 
 @sign ZATU718
@@ -21102,6 +22818,7 @@
 @ucun	𒮇
 @uage	1
 @sys	LLATU:316_04 ZATU718
+@sys AP24 ZATU718 12B87
 @sys	AP23 ZATU718
 @end sign
 
@@ -21113,6 +22830,7 @@
 @ucun	𒮈
 @uage	1
 @sys	AP23 ZATU719
+@sys AP24 ZATU719 12B88
 @end sign
 
 @sign ZATU720
@@ -21123,6 +22841,7 @@
 @ucun	𒮉
 @uage	1
 @sys	AP23 ZATU720
+@sys AP24 ZATU720 12B89
 @end sign
 
 @sign ZATU721
@@ -21133,6 +22852,7 @@
 @ucun	𒮊
 @uage	1
 @sys	AP23 ZATU721
+@sys AP24 ZATU721 12B8A
 @end sign
 
 @sign ZATU722
@@ -21143,6 +22863,7 @@
 @ucun	𒮋
 @uage	1
 @sys	AP23 ZATU722
+@sys AP24 ZATU722 12B8B
 @end sign
 
 @sign ZATU723
@@ -21153,6 +22874,7 @@
 @ucun	𒮌
 @uage	1
 @sys	AP23 ZATU723
+@sys AP24 ZATU723 12B8C
 @end sign
 
 @sign ZATU724
@@ -21163,6 +22885,7 @@
 @ucun	𒮍
 @uage	1
 @sys	AP23 ZATU724
+@sys AP24 ZATU724 12B8D
 @end sign
 
 @sign ZATU725
@@ -21173,6 +22896,7 @@
 @ucun	𒮎
 @uage	1
 @sys	LLATU:316_05 ZATU725
+@sys AP24 ZATU725 12B8E
 @sys	AP23 ZATU725
 @form ZATU725~v1
 @oid o0902627
@@ -21181,6 +22905,7 @@
 @ucun	𒮏
 @uage	1
 @sys	AP23 ZATU725
+@sys AP24 ZATU725~v1 12B8F
 @@
 @end sign
 
@@ -21196,6 +22921,7 @@
 @ucun	𒮐
 @uage	1
 @sys	AP23 ZATU726~a
+@sys AP24 ZATU726~a 12B90
 @@
 @form ZATU726~c
 @oid o0902630
@@ -21204,6 +22930,7 @@
 @ucun	𒮑
 @uage	1
 @sys	AP23 ZATU726~c
+@sys AP24 ZATU726~c 12B91
 @@
 @form ZATU726~d
 @oid o0902631
@@ -21212,6 +22939,7 @@
 @ucun	𒮒
 @uage	1
 @sys	AP23 ZATU726~d
+@sys AP24 ZATU726~d 12B92
 @@
 @end sign
 
@@ -21223,6 +22951,7 @@
 @ucun	𒮓
 @uage	1
 @sys	AP23 ZATU727
+@sys AP24 ZATU727 12B93
 @end sign
 
 @sign ZATU728
@@ -21233,6 +22962,7 @@
 @ucun	𒮔
 @uage	1
 @sys	AP23 ZATU728
+@sys AP24 ZATU728 12B94
 @end sign
 
 @sign ZATU729
@@ -21243,6 +22973,7 @@
 @ucun	𒮕
 @uage	1
 @sys	AP23 ZATU729
+@sys AP24 ZATU729 12B95
 @form ZATU729~v1
 @oid o0902635
 @uname	PROTO-CUNEIFORM SIGN ZATU729 VARIANT 1
@@ -21250,6 +22981,7 @@
 @ucun	𒮖
 @uage	1
 @sys	AP23 ZATU729
+@sys AP24 ZATU729~v1 12B96
 @@
 @end sign
 
@@ -21261,6 +22993,7 @@
 @ucun	𒮗
 @uage	1
 @sys	AP23 ZATU730
+@sys AP24 ZATU730 12B97
 @end sign
 
 @sign ZATU732
@@ -21271,6 +23004,7 @@
 @ucun	𒮘
 @uage	1
 @sys	LLATU:316_06 ZATU732
+@sys AP24 ZATU732 12B98
 @sys	AP23 ZATU732
 @end sign
 
@@ -21282,6 +23016,7 @@
 @ucun	𒮙
 @uage	1
 @sys	AP23 ZATU733
+@sys AP24 ZATU733 12B99
 @end sign
 
 @sign ZATU734
@@ -21292,6 +23027,7 @@
 @ucun	𒮚
 @uage	1
 @sys	AP23 ZATU734
+@sys AP24 ZATU734 12B9A
 @end sign
 
 @sign ZATU735
@@ -21306,6 +23042,7 @@
 @ucun	𒮛
 @uage	1
 @sys	AP23 ZATU735~a
+@sys AP24 ZATU735~a 12B9B
 @@
 @form ZATU735~b
 @oid o0902642
@@ -21314,6 +23051,7 @@
 @ucun	𒮜
 @uage	1
 @sys	LLATU:316_07 ZATU735~b
+@sys AP24 ZATU735~b 12B9C
 @sys	AP23 ZATU735~b
 @@
 @form	ZATU735~b~v1
@@ -21323,6 +23061,7 @@
 @ucun	𒮝
 @uage	1
 @sys	AP23 ZATU735~b
+@sys AP24 ZATU735~b~v1 12B9D
 @@
 @form	ZATU735~b~v2
 @oid o0902644
@@ -21331,6 +23070,7 @@
 @ucun	𒮞
 @uage	1
 @sys	AP23 ZATU735~b
+@sys AP24 ZATU735~b~v2 12B9E
 @@
 @form ZATU735~c
 @oid o0902645
@@ -21339,6 +23079,7 @@
 @ucun	𒮟
 @uage	1
 @sys	AP23 ZATU735~c
+@sys AP24 ZATU735~c 12B9F
 @@
 @end sign
 
@@ -21354,6 +23095,7 @@
 @ucun	𒮠
 @uage	1
 @sys	AP23 ZATU736~a
+@sys AP24 ZATU736~a 12BA0
 @@
 @form ZATU736~b
 @oid o0902648
@@ -21362,6 +23104,7 @@
 @ucun	𒮡
 @uage	1
 @sys	LLATU:316_08 ZATU736~b
+@sys AP24 ZATU736~b 12BA1
 @sys	AP23 ZATU736~b
 @@
 @end sign
@@ -21374,6 +23117,7 @@
 @ucun	𒮢
 @uage	1
 @sys	LLATU:317_01 ZATU737
+@sys AP24 ZATU737 12BA2
 @sys	AP23 ZATU737
 @form ZATU737~v1
 @oid o0902650
@@ -21382,6 +23126,7 @@
 @ucun	𒮣
 @uage	1
 @sys	AP23 ZATU737
+@sys AP24 ZATU737~v1 12BA3
 @@
 @form ZATU737~v2
 @oid o0902651
@@ -21390,6 +23135,7 @@
 @ucun	𒮤
 @uage	1
 @sys	AP23 ZATU737
+@sys AP24 ZATU737~v2 12BA4
 @@
 @compoundonly ZATU737~v3
 @@
@@ -21406,6 +23152,7 @@
 @ucun	𒺫
 @uage	1
 @sys	AP23 |ZATU737xAB~a|
+@sys AP24 |ZATU737×AB~a| 12EAB
 @@
 @end sign
 
@@ -21419,6 +23166,7 @@
 @ucun	𒺬
 @uage	1
 @sys	AP23 |ZATU737xBU~a|
+@sys AP24 |ZATU737×BU~a| 12EAC
 @@
 @end sign
 
@@ -21434,6 +23182,7 @@
 @ucun	𒺭
 @uage	1
 @sys	LLATU:215_06 GABURRA
+@sys AP24 |ZATU737×BUR~a| 12EAD
 @sys	AP23 |ZATU737xBUR~a|
 @@
 @end sign
@@ -21448,6 +23197,7 @@
 @ucun	𒺮
 @uage	1
 @sys	LLATU:317_02 ZATU737+DI
+@sys AP24 |ZATU737×DI| 12EAE
 @sys	AP23 |ZATU737xDI|
 @sys	CDLI-tc |ZATU737+DI| => |ZATU737×DI|
 @form |ZATU737~v2×DI|
@@ -21457,6 +23207,7 @@
 @ucun	𒺯
 @uage	1
 @sys	AP23 |ZATU737xDI|
+@sys AP24 |ZATU737~v2×DI| 12EAF
 @@
 @end sign
 
@@ -21470,6 +23221,7 @@
 @ucun	𒺰
 @uage	1
 @sys	AP23 |ZATU737xE~a|
+@sys AP24 |ZATU737×E~a| 12EB0
 @@
 @end sign
 
@@ -21485,6 +23237,7 @@
 @ucun	𒺱
 @uage	1
 @sys	AP23 |ZATU737xEN~a|
+@sys AP24 |ZATU737×EN~a~v2| 12EB1
 @@
 @form |ZATU737~v1×EN~b~v1|
 @oid o0902664
@@ -21494,6 +23247,7 @@
 @ucun	𒺲
 @uage	1
 @sys	AP23 |ZATU737xEN~b|
+@sys AP24 |ZATU737~v1×EN~b~v1| 12EB2
 @@
 @end sign
 
@@ -21506,6 +23260,7 @@
 @ucun	𒺳
 @uage	1
 @sys	LLATU:317_03 ZATU737+GAR
+@sys AP24 |ZATU737×GAR| 12EB3
 @sys	AP23 |ZATU737xGAR|
 @form |ZATU737~v1×GAR|
 @oid o0902666
@@ -21515,6 +23270,7 @@
 @ucun	𒺴
 @uage	1
 @sys	AP23 |ZATU737xGAR|
+@sys AP24 |ZATU737~v1×GAR| 12EB4
 @@
 @end sign
 
@@ -21535,6 +23291,7 @@
 @ucun	𒺵
 @uage	1
 @sys	LLATU:317_04 ZATU737+NI~a@g
+@sys AP24 |ZATU737×NI~a@g| 12EB5
 @sys	AP23 |ZATU737xNI~a@g|
 @@
 @end sign
@@ -21547,6 +23304,7 @@
 @ucun	𒺶
 @uage	1
 @sys	AP23 |ZATU737xNIMGIR|
+@sys AP24 |ZATU737×NIMGIR| 12EB6
 @end sign
 
 @sign	|ZATU737~v3×SAL|
@@ -21560,6 +23318,7 @@
 @ucun	𒺷
 @uage	1
 @sys	LLATU:317_05 ZATU737+SAL
+@sys AP24 |ZATU737~v3×SAL| 12EB7
 @sys	AP23 |ZATU737xSAL|
 @end sign
 
@@ -21574,6 +23333,7 @@
 @ucun	𒺻
 @uage	1
 @sys	AP23 |ZATU737xSU~a|
+@sys AP24 |ZATU737×SU~a| 12EBB
 @@
 @end sign
 
@@ -21588,6 +23348,7 @@
 @ucun	𒺸
 @uage	1
 @sys	AP23 |ZATU737xSZE~a|
+@sys AP24 |ZATU737×ŠE~a| 12EB8
 @@
 @end sign
 
@@ -21601,6 +23362,7 @@
 @ucun	𒺹
 @uage	1
 @sys	AP23 |ZATU737xSZITA~a1|
+@sys AP24 |ZATU737×ŠITA~a1| 12EB9
 @@
 @end sign
 
@@ -21616,6 +23378,7 @@
 @ucun	𒺼
 @uage	1
 @sys	LLATU:317_06 ZATU737+U₄
+@sys AP24 |ZATU737~v3×U₄| 12EBC
 @sys	AP23 |ZATU737xU4|
 @end sign
 
@@ -21631,6 +23394,7 @@
 @ucun	𒺽
 @uage	1
 @sys	AP23 |ZATU737xUNUG~a|
+@sys AP24 |ZATU737×UNUG~a~v1| 12EBD
 @@
 @end sign
 
@@ -21643,6 +23407,7 @@
 @ucun	𒺾
 @uage	1
 @sys	LLATU:318_01 ZATU737+?
+@sys AP24 |ZATU737~v2×X| 12EBE
 @sys	AP23 |ZATU737xX|
 @end sign
 
@@ -21671,6 +23436,7 @@
 @ucun	𒮥
 @uage	1
 @sys	AP23 ZATU749~a
+@sys AP24 ZATU749~a 12BA5
 @@
 @form	ZATU749~a~v1
 @oid o0902688
@@ -21679,6 +23445,7 @@
 @ucun	𒮦
 @uage	1
 @sys	AP23 ZATU749~a
+@sys AP24 ZATU749~a~v1 12BA6
 @@
 @form	ZATU749~a~v2
 @oid o0902689
@@ -21687,6 +23454,7 @@
 @ucun	𒮧
 @uage	1
 @sys	AP23 ZATU749~a
+@sys AP24 ZATU749~a~v2 12BA7
 @@
 @form ZATU749~b
 @oid o0902690
@@ -21695,6 +23463,7 @@
 @ucun	𒮨
 @uage	1
 @sys	AP23 ZATU749~b
+@sys AP24 ZATU749~b 12BA8
 @@
 @form ZATU749~c
 @oid o0902691
@@ -21703,6 +23472,7 @@
 @ucun	𒮩
 @uage	1
 @sys	AP23 ZATU749~c
+@sys AP24 ZATU749~c 12BA9
 @@
 @end sign
 
@@ -21714,6 +23484,7 @@
 @ucun	𒮪
 @uage	1
 @sys	LLATU:318_02 ZATU750
+@sys AP24 ZATU750 12BAA
 @sys	AP23 ZATU750
 @form ZATU750~v1
 @oid o0902693
@@ -21722,6 +23493,7 @@
 @ucun	𒮫
 @uage	1
 @sys	AP23 ZATU750
+@sys AP24 ZATU750~v1 12BAB
 @@
 @form ZATU750~v2
 @oid o0902694
@@ -21730,6 +23502,7 @@
 @ucun	𒮬
 @uage	1
 @sys	AP23 ZATU750
+@sys AP24 ZATU750~v2 12BAC
 @@
 @form ZATU750~v3
 @oid o0902695
@@ -21738,6 +23511,7 @@
 @ucun	𒮭
 @uage	1
 @sys	AP23 ZATU750
+@sys AP24 ZATU750~v3 12BAD
 @@
 @end sign
 
@@ -21753,6 +23527,7 @@
 @ucun	𒮮
 @uage	1
 @sys	LLATU:318_03 ZATU751~a
+@sys AP24 ZATU751~a 12BAE
 @sys	AP23 ZATU751~a
 @@
 @form ZATU751~b
@@ -21762,6 +23537,7 @@
 @ucun	𒮯
 @uage	1
 @sys	LLATU:318_04 ZATU751~b
+@sys AP24 ZATU751~b 12BAF
 @sys	AP23 ZATU751~b
 @@
 @end sign
@@ -21774,6 +23550,7 @@
 @ucun	𒮰
 @uage	1
 @sys	LLATU:318_05 ZATU752
+@sys AP24 ZATU752 12BB0
 @sys	AP23 ZATU752
 @form ZATU752~v1
 @oid o0902700
@@ -21782,6 +23559,7 @@
 @ucun	𒮱
 @uage	1
 @sys	AP23 ZATU752
+@sys AP24 ZATU752~v1 12BB1
 @@
 @end sign
 
@@ -21793,6 +23571,7 @@
 @ucun	𒮲
 @uage	1
 @sys	LLATU:318_06 ZATU753
+@sys AP24 ZATU753 12BB2
 @sys	AP23 ZATU753
 @end sign
 
@@ -21804,6 +23583,7 @@
 @ucun	𒮳
 @uage	1
 @sys	AP23 ZATU754
+@sys AP24 ZATU754 12BB3
 @end sign
 
 @sign ZATU755
@@ -21818,6 +23598,7 @@
 @ucun	𒮴
 @uage	1
 @sys	AP23 ZATU755~a
+@sys AP24 ZATU755~a 12BB4
 @@
 @form ZATU755~b
 @oid o0902705
@@ -21826,6 +23607,7 @@
 @ucun	𒮵
 @uage	1
 @sys	AP23 ZATU755~b
+@sys AP24 ZATU755~b 12BB5
 @@
 @end sign
 
@@ -21837,6 +23619,7 @@
 @ucun	𒮶
 @uage	1
 @sys	AP23 ZATU756
+@sys AP24 ZATU756 12BB6
 @form ZATU756~v1
 @oid o0902707
 @uname	PROTO-CUNEIFORM SIGN ZATU756 VARIANT 1
@@ -21844,6 +23627,7 @@
 @ucun	𒮷
 @uage	1
 @sys	AP23 ZATU756
+@sys AP24 ZATU756~v1 12BB7
 @@
 @end sign
 
@@ -21855,6 +23639,7 @@
 @ucun	𒮸
 @uage	1
 @sys	AP23 ZATU757
+@sys AP24 ZATU757 12BB8
 @form ZATU757~v1
 @oid o0902709
 @uname	PROTO-CUNEIFORM SIGN ZATU757 VARIANT 1
@@ -21862,6 +23647,7 @@
 @ucun	𒮹
 @uage	1
 @sys	AP23 ZATU757
+@sys AP24 ZATU757~v1 12BB9
 @@
 @end sign
 
@@ -21873,6 +23659,7 @@
 @ucun	𒮺
 @uage	1
 @sys	LLATU:318_07 ZATU758
+@sys AP24 ZATU758 12BBA
 @sys	AP23 ZATU758
 @end sign
 
@@ -21884,6 +23671,7 @@
 @ucun	𒮻
 @uage	1
 @sys	AP23 ZATU759
+@sys AP24 ZATU759 12BBB
 @form ZATU759~v1
 @oid o0902712
 @uname	PROTO-CUNEIFORM SIGN ZATU759 VARIANT 1
@@ -21891,6 +23679,7 @@
 @ucun	𒮼
 @uage	1
 @sys	AP23 ZATU759
+@sys AP24 ZATU759~v1 12BBC
 @@
 @end sign
 
@@ -21907,6 +23696,7 @@
 @ucun	𒺿
 @uage	1
 @sys	AP23 |ZATU759xKU6~a|
+@sys AP24 |ZATU759×KU₆~a| 12EBF
 @@
 @form |ZATU759×KU₆~d|
 @oid o0902715
@@ -21915,6 +23705,7 @@
 @ucun	𒻁
 @uage	1
 @sys	AP23 |ZATU759xKU6~d|
+@sys AP24 |ZATU759×KU₆~d| 12EC1
 @@
 @end sign
 
@@ -21928,6 +23719,7 @@
 @ucun	𒻀
 @uage	1
 @sys	AP23 |ZATU759x(KU6~a+KU6~a)|
+@sys AP24 |ZATU759×(KU₆~a+KU₆~a)| 12EC0
 @@
 @end sign
 
@@ -21938,6 +23730,7 @@
 @ucun	𒻂
 @uage	1
 @sys	AP23 |ZATU759xX|
+@sys AP24 |ZATU759×X| 12EC2
 @end sign
 
 @compoundonly	ZATU759@t
@@ -21949,6 +23742,7 @@
 @ucun	𒻃
 @uage	1
 @sys	AP23 |ZATU759@txX|
+@sys AP24 |ZATU759@t×X| 12EC3
 @end sign
 
 @sign ZATU761
@@ -21959,6 +23753,7 @@
 @ucun	𒮽
 @uage	1
 @sys	AP23 ZATU761
+@sys AP24 ZATU761 12BBD
 @end sign
 
 @sign ZATU762
@@ -21973,6 +23768,7 @@
 @ucun	𒮾
 @uage	1
 @sys	AP23 ZATU762~a
+@sys AP24 ZATU762~a 12BBE
 @@
 @form	ZATU762~a~v1
 @oid o0902723
@@ -21981,6 +23777,7 @@
 @ucun	𒮿
 @uage	1
 @sys	AP23 ZATU762~a
+@sys AP24 ZATU762~a~v1 12BBF
 @@
 @form	ZATU762~a~v2
 @oid o0902724
@@ -21989,6 +23786,7 @@
 @ucun	𒯀
 @uage	1
 @sys	AP23 ZATU762~a
+@sys AP24 ZATU762~a~v2 12BC0
 @@
 @form ZATU762~b
 @oid o0902725
@@ -21997,6 +23795,7 @@
 @ucun	𒯁
 @uage	1
 @sys	AP23 ZATU762~b
+@sys AP24 ZATU762~b 12BC1
 @@
 @end sign
 
@@ -22011,6 +23810,7 @@
 @ucun	𒻅
 @uage	1
 @sys	AP23 |ZATU762~bxAB~a|
+@sys AP24 |ZATU762~b×AB~a| 12EC5
 @@
 @end sign
 
@@ -22025,6 +23825,7 @@
 @ucun	𒻄
 @uage	1
 @sys	AP23 |ZATU762~axNIM~a|
+@sys AP24 |ZATU762~a×NIM~a| 12EC4
 @@
 @end sign
 
@@ -22036,6 +23837,7 @@
 @ucun	𒯂
 @uage	1
 @sys	AP23 ZATU764
+@sys AP24 ZATU764 12BC2
 @end sign
 
 @sign ZATU765
@@ -22046,6 +23848,7 @@
 @ucun	𒯃
 @uage	1
 @sys	AP23 ZATU765
+@sys AP24 ZATU765 12BC3
 @end sign
 
 @sign ZATU766
@@ -22056,6 +23859,7 @@
 @ucun	𒯄
 @uage	1
 @sys	LLATU:318_09 ZATU766
+@sys AP24 ZATU766 12BC4
 @sys	AP23 ZATU766
 @end sign
 
@@ -22067,6 +23871,7 @@
 @ucun	𒯅
 @uage	1
 @sys	AP23 ZATU767
+@sys AP24 ZATU767 12BC5
 @end sign
 
 @sign ZATU768
@@ -22077,6 +23882,7 @@
 @ucun	𒯆
 @uage	1
 @sys	AP23 ZATU768
+@sys AP24 ZATU768 12BC6
 @end sign
 
 @sign ZATU769
@@ -22087,6 +23893,7 @@
 @ucun	𒯇
 @uage	1
 @sys	AP23 ZATU769
+@sys AP24 ZATU769 12BC7
 @end sign
 
 @lref	ZATU770
@@ -22100,6 +23907,7 @@
 @ucun	𒯈
 @uage	1
 @sys	AP23 ZATU771
+@sys AP24 ZATU771 12BC8
 @end sign
 
 @sign ZATU772
@@ -22110,6 +23918,7 @@
 @ucun	𒯉
 @uage	1
 @sys	AP23 ZATU772
+@sys AP24 ZATU772 12BC9
 @end sign
 
 @sign ZATU773
@@ -22124,6 +23933,7 @@
 @ucun	𒯊
 @uage	1
 @sys	AP23 ZATU773~a
+@sys AP24 ZATU773~a 12BCA
 @@
 @form	ZATU773~a~v1
 @oid o0902740
@@ -22132,6 +23942,7 @@
 @ucun	𒯋
 @uage	1
 @sys	AP23 ZATU773~a
+@sys AP24 ZATU773~a~v1 12BCB
 @@
 @form ZATU773~b
 @oid o0902741
@@ -22140,6 +23951,7 @@
 @ucun	𒯌
 @uage	1
 @sys	AP23 ZATU773~b
+@sys AP24 ZATU773~b 12BCC
 @@
 @end sign
 
@@ -22151,6 +23963,7 @@
 @ucun	𒯍
 @uage	1
 @sys	AP23 ZATU774
+@sys AP24 ZATU774 12BCD
 @end sign
 
 @sign ZATU775
@@ -22161,6 +23974,7 @@
 @ucun	𒯎
 @uage	1
 @sys	AP23 ZATU775
+@sys AP24 ZATU775 12BCE
 @end sign
 
 @sign ZATU776
@@ -22171,6 +23985,7 @@
 @ucun	𒯏
 @uage	1
 @sys	AP23 ZATU776
+@sys AP24 ZATU776 12BCF
 @form ZATU776~v1
 @oid o0902745
 @uname	PROTO-CUNEIFORM SIGN ZATU776 VARIANT 1
@@ -22178,6 +23993,7 @@
 @ucun	𒯐
 @uage	1
 @sys	AP23 ZATU776
+@sys AP24 ZATU776~v1 12BD0
 @@
 @end sign
 
@@ -22189,6 +24005,7 @@
 @ucun	𒯑
 @uage	1
 @sys	LLATU:319_01 ZATU777
+@sys AP24 ZATU777 12BD1
 @sys	AP23 ZATU777
 @form ZATU777~v1
 @oid o0902747
@@ -22197,6 +24014,7 @@
 @ucun	𒯒
 @uage	1
 @sys	AP23 ZATU777
+@sys AP24 ZATU777~v1 12BD2
 @@
 @form ZATU777~v2
 @oid o0902748
@@ -22205,6 +24023,7 @@
 @ucun	𒯓
 @uage	1
 @sys	AP23 ZATU777
+@sys AP24 ZATU777~v2 12BD3
 @@
 @end sign
 
@@ -22216,6 +24035,7 @@
 @ucun	𒯔
 @uage	1
 @sys	AP23 ZATU778
+@sys AP24 ZATU778 12BD4
 @end sign
 
 @sign ZATU779
@@ -22226,6 +24046,7 @@
 @ucun	𒯕
 @uage	1
 @sys	AP23 ZATU779
+@sys AP24 ZATU779 12BD5
 @end sign
 
 @sign ZATU780
@@ -22236,6 +24057,7 @@
 @ucun	𒯖
 @uage	1
 @sys	AP23 ZATU780
+@sys AP24 ZATU780 12BD6
 @end sign
 
 @sign ZATU781
@@ -22246,6 +24068,7 @@
 @ucun	𒯗
 @uage	1
 @sys	AP23 ZATU781
+@sys AP24 ZATU781 12BD7
 @end sign
 
 @sign ZATU782
@@ -22256,6 +24079,7 @@
 @ucun	𒯘
 @uage	1
 @sys	AP23 ZATU782
+@sys AP24 ZATU782 12BD8
 @end sign
 
 @sign ZATU783
@@ -22266,6 +24090,7 @@
 @ucun	𒯙
 @uage	1
 @sys	AP23 ZATU783
+@sys AP24 ZATU783 12BD9
 @end sign
 
 @sign ZATU784
@@ -22276,6 +24101,7 @@
 @ucun	𒯚
 @uage	1
 @sys	AP23 ZATU784
+@sys AP24 ZATU784 12BDA
 @end sign
 
 @sign ZATU785
@@ -22286,6 +24112,7 @@
 @ucun	𒯛
 @uage	1
 @sys	AP23 ZATU785
+@sys AP24 ZATU785 12BDB
 @end sign
 
 @sign ZATU786
@@ -22296,6 +24123,7 @@
 @ucun	𒯜
 @uage	1
 @sys	LLATU:319_02 ZATU786
+@sys AP24 ZATU786 12BDC
 @sys	AP23 ZATU786
 @end sign
 
@@ -22307,6 +24135,7 @@
 @ucun	𒯝
 @uage	1
 @sys	AP23 ZATU787
+@sys AP24 ZATU787 12BDD
 @end sign
 
 @sign ZATU788
@@ -22317,6 +24146,7 @@
 @ucun	𒯞
 @uage	1
 @sys	AP23 ZATU788
+@sys AP24 ZATU788 12BDE
 @end sign
 
 @sign ZATU789
@@ -22327,6 +24157,7 @@
 @ucun	𒯟
 @uage	1
 @sys	AP23 ZATU789
+@sys AP24 ZATU789 12BDF
 @end sign
 
 @lref	ZATU790
@@ -22340,6 +24171,7 @@
 @ucun	𒯠
 @uage	1
 @sys	AP23 ZATU791
+@sys AP24 ZATU791 12BE0
 @end sign
 
 @sign ZATU792
@@ -22350,6 +24182,7 @@
 @ucun	𒯡
 @uage	1
 @sys	AP23 ZATU792
+@sys AP24 ZATU792 12BE1
 @end sign
 
 @lref	ZATU793
@@ -22366,6 +24199,7 @@
 @ucun	𒯢
 @uage	1
 @sys	AP23 ZATU795
+@sys AP24 ZATU795 12BE2
 @end sign
 
 @lref	ZATU796
@@ -22379,6 +24213,7 @@
 @ucun	𒯣
 @uage	1
 @sys	AP23 ZATU797
+@sys AP24 ZATU797 12BE3
 @end sign
 
 @sign ZATU798
@@ -22389,6 +24224,7 @@
 @ucun	𒯤
 @uage	1
 @sys	AP23 ZATU798
+@sys AP24 ZATU798 12BE4
 @end sign
 
 @sign ZATU799
@@ -22399,6 +24235,7 @@
 @ucun	𒯥
 @uage	1
 @sys	AP23 ZATU799
+@sys AP24 ZATU799 12BE5
 @end sign
 
 @sign ZATU800
@@ -22409,6 +24246,7 @@
 @ucun	𒯦
 @uage	1
 @sys	AP23 ZATU800
+@sys AP24 ZATU800 12BE6
 @end sign
 
 @sign ZATU801
@@ -22419,6 +24257,7 @@
 @ucun	𒯧
 @uage	1
 @sys	AP23 ZATU801
+@sys AP24 ZATU801 12BE7
 @end sign
 
 @sign ZATU802
@@ -22429,6 +24268,7 @@
 @ucun	𒯨
 @uage	1
 @sys	AP23 ZATU802
+@sys AP24 ZATU802 12BE8
 @form ZATU802~b
 @oid o0902770
 @inote	CUSAS01
@@ -22445,6 +24285,7 @@
 @ucun	𒯩
 @uage	1
 @sys	AP23 ZATU803
+@sys AP24 ZATU803 12BE9
 @end sign
 
 @sign ZATU804
@@ -22455,6 +24296,7 @@
 @ucun	𒯪
 @uage	1
 @sys	AP23 ZATU804
+@sys AP24 ZATU804 12BEA
 @end sign
 
 @sign ZATU805
@@ -22465,6 +24307,7 @@
 @ucun	𒯫
 @uage	1
 @sys	AP23 ZATU805
+@sys AP24 ZATU805 12BEB
 @end sign
 
 @sign ZATU806
@@ -22475,6 +24318,7 @@
 @ucun	𒯬
 @uage	1
 @sys	LLATU:319_03 ZATU806
+@sys AP24 ZATU806 12BEC
 @sys	AP23 ZATU806
 @end sign
 
@@ -22486,6 +24330,7 @@
 @ucun	𒯭
 @uage	1
 @sys	AP23 ZATU807
+@sys AP24 ZATU807 12BED
 @end sign
 
 @sign ZATU808
@@ -22496,6 +24341,7 @@
 @ucun	𒯮
 @uage	1
 @sys	AP23 ZATU808
+@sys AP24 ZATU808 12BEE
 @end sign
 
 @sign ZATU809
@@ -22506,6 +24352,7 @@
 @ucun	𒯯
 @uage	1
 @sys	AP23 ZATU809
+@sys AP24 ZATU809 12BEF
 @end sign
 
 @sign ZATU810
@@ -22516,6 +24363,7 @@
 @ucun	𒯰
 @uage	1
 @sys	AP23 ZATU810
+@sys AP24 ZATU810 12BF0
 @end sign
 
 @sign ZATU811
@@ -22526,6 +24374,7 @@
 @ucun	𒯱
 @uage	1
 @sys	AP23 ZATU811
+@sys AP24 ZATU811 12BF1
 @end sign
 
 @sign ZATU812
@@ -22536,6 +24385,7 @@
 @ucun	𒯲
 @uage	1
 @sys	AP23 ZATU812
+@sys AP24 ZATU812 12BF2
 @end sign
 
 @sign ZATU813
@@ -22546,6 +24396,7 @@
 @ucun	𒯳
 @uage	1
 @sys	AP23 ZATU813
+@sys AP24 ZATU813 12BF3
 @end sign
 
 @sign ZATU814
@@ -22556,6 +24407,7 @@
 @ucun	𒯴
 @uage	1
 @sys	AP23 ZATU814
+@sys AP24 ZATU814 12BF4
 @end sign
 
 @sign ZATU815
@@ -22566,6 +24418,7 @@
 @ucun	𒯵
 @uage	1
 @sys	AP23 ZATU815
+@sys AP24 ZATU815 12BF5
 @end sign
 
 @lref	ZATU816
@@ -22579,6 +24432,7 @@
 @ucun	𒯶
 @uage	1
 @sys	AP23 ZATU817
+@sys AP24 ZATU817 12BF6
 @end sign
 
 @sign ZATU818
@@ -22589,6 +24443,7 @@
 @ucun	𒯷
 @uage	1
 @sys	AP23 ZATU818
+@sys AP24 ZATU818 12BF7
 @end sign
 
 @sign ZATU819
@@ -22599,6 +24454,7 @@
 @ucun	𒯸
 @uage	1
 @sys	AP23 ZATU819
+@sys AP24 ZATU819 12BF8
 @end sign
 
 @sign ZATU820
@@ -22609,6 +24465,7 @@
 @ucun	𒯹
 @uage	1
 @sys	AP23 ZATU820
+@sys AP24 ZATU820 12BF9
 @end sign
 
 @sign ZATU821
@@ -22619,6 +24476,7 @@
 @ucun	𒯺
 @uage	1
 @sys	AP23 ZATU821
+@sys AP24 ZATU821 12BFA
 @end sign
 
 @sign ZATU822
@@ -22629,6 +24487,7 @@
 @ucun	𒯻
 @uage	1
 @sys	AP23 ZATU822
+@sys AP24 ZATU822 12BFB
 @end sign
 
 @sign ZATU823
@@ -22639,6 +24498,7 @@
 @ucun	𒯼
 @uage	1
 @sys	AP23 ZATU823
+@sys AP24 ZATU823 12BFC
 @end sign
 
 @sign ZATU824
@@ -22649,6 +24509,7 @@
 @ucun	𒯽
 @uage	1
 @sys	AP23 ZATU824
+@sys AP24 ZATU824 12BFD
 @end sign
 
 @sign ZATU825
@@ -22659,6 +24520,7 @@
 @ucun	𒯾
 @uage	1
 @sys	AP23 ZATU825
+@sys AP24 ZATU825 12BFE
 @end sign
 
 @sign ZATU826
@@ -22669,6 +24531,7 @@
 @ucun	𒯿
 @uage	1
 @sys	AP23 ZATU826
+@sys AP24 ZATU826 12BFF
 @end sign
 
 @lref	ZATU827
@@ -22685,6 +24548,7 @@
 @ucun	𒰀
 @uage	1
 @sys	AP23 ZATU829
+@sys AP24 ZATU829 12C00
 @end sign
 
 @lref	ZATU830
@@ -22698,6 +24562,7 @@
 @ucun	𒰁
 @uage	1
 @sys	AP23 ZATU831
+@sys AP24 ZATU831 12C01
 @end sign
 
 @sign ZATU831@g
@@ -22707,6 +24572,7 @@
 @ucun	𒰂
 @uage	1
 @sys	AP23 ZATU831@g
+@sys AP24 ZATU831@g 12C02
 @end sign
 
 @sign ZATU832
@@ -22717,6 +24583,7 @@
 @ucun	𒰃
 @uage	1
 @sys	AP23 ZATU832
+@sys AP24 ZATU832 12C03
 @end sign
 
 @sign ZATU833
@@ -22727,6 +24594,7 @@
 @ucun	𒰄
 @uage	1
 @sys	AP23 ZATU833
+@sys AP24 ZATU833 12C04
 @end sign
 
 @sign ZATU834
@@ -22737,6 +24605,7 @@
 @ucun	𒰅
 @uage	1
 @sys	AP23 ZATU834
+@sys AP24 ZATU834 12C05
 @end sign
 
 @sign ZATU835
@@ -22747,6 +24616,7 @@
 @ucun	𒰆
 @uage	1
 @sys	AP23 ZATU835
+@sys AP24 ZATU835 12C06
 @end sign
 
 @sign ZATU836
@@ -22757,6 +24627,7 @@
 @ucun	𒰇
 @uage	1
 @sys	AP23 ZATU836
+@sys AP24 ZATU836 12C07
 @end sign
 
 @sign ZATU837
@@ -22771,6 +24642,7 @@
 @ucun	𒰈
 @uage	1
 @sys	AP23 ZATU837~a
+@sys AP24 ZATU837~a 12C08
 @@
 @form ZATU837~b
 @oid o0902804
@@ -22779,6 +24651,7 @@
 @ucun	𒰉
 @uage	1
 @sys	AP23 ZATU837~b
+@sys AP24 ZATU837~b 12C09
 @@
 @end sign
 
@@ -22790,6 +24663,7 @@
 @ucun	𒰊
 @uage	1
 @sys	AP23 ZATU838
+@sys AP24 ZATU838 12C0A
 @end sign
 
 @sign ZATU839
@@ -22800,6 +24674,7 @@
 @ucun	𒰋
 @uage	1
 @sys	AP23 ZATU839
+@sys AP24 ZATU839 12C0B
 @form ZATU839~v1
 @oid o0902807
 @uname	PROTO-CUNEIFORM SIGN ZATU839 VARIANT 1
@@ -22807,6 +24682,7 @@
 @ucun	𒰌
 @uage	1
 @sys	AP23 ZATU839
+@sys AP24 ZATU839~v1 12C0C
 @@
 @end sign
 
@@ -22818,6 +24694,7 @@
 @ucun	𒰍
 @uage	1
 @sys	AP23 ZATU840
+@sys AP24 ZATU840 12C0D
 @end sign
 
 @sign ZATU841
@@ -22828,6 +24705,7 @@
 @ucun	𒰎
 @uage	1
 @sys	AP23 ZATU841
+@sys AP24 ZATU841 12C0E
 @end sign
 
 @sign ZATU842
@@ -22838,6 +24716,7 @@
 @ucun	𒰏
 @uage	1
 @sys	AP23 ZATU842
+@sys AP24 ZATU842 12C0F
 @end sign
 
 @sign ZATU843
@@ -22848,6 +24727,7 @@
 @ucun	𒰐
 @uage	1
 @sys	AP23 ZATU843
+@sys AP24 ZATU843 12C10
 @end sign
 
 @sign ZATU844
@@ -22858,6 +24738,7 @@
 @ucun	𒰑
 @uage	1
 @sys	AP23 ZATU844
+@sys AP24 ZATU844 12C11
 @end sign
 
 @sign ZATU845
@@ -22868,6 +24749,7 @@
 @ucun	𒰒
 @uage	1
 @sys	AP23 ZATU845
+@sys AP24 ZATU845 12C12
 @end sign
 
 @sign ZATU846
@@ -22878,6 +24760,7 @@
 @ucun	𒰓
 @uage	1
 @sys	AP23 ZATU846
+@sys AP24 ZATU846 12C13
 @end sign
 
 @sign ZATU847
@@ -22888,6 +24771,7 @@
 @ucun	𒰔
 @uage	1
 @sys	AP23 ZATU847
+@sys AP24 ZATU847 12C14
 @end sign
 
 @sign ZATU848
@@ -22898,6 +24782,7 @@
 @ucun	𒰕
 @uage	1
 @sys	AP23 ZATU848
+@sys AP24 ZATU848 12C15
 @end sign
 
 @sign ZATU849
@@ -22908,6 +24793,7 @@
 @ucun	𒰖
 @uage	1
 @sys	AP23 ZATU849
+@sys AP24 ZATU849 12C16
 @end sign
 
 @sign ZATU850
@@ -22918,6 +24804,7 @@
 @ucun	𒰗
 @uage	1
 @sys	AP23 ZATU850
+@sys AP24 ZATU850 12C17
 @end sign
 
 @sign ZATU851
@@ -22928,6 +24815,7 @@
 @ucun	𒰘
 @uage	1
 @sys	AP23 ZATU851
+@sys AP24 ZATU851 12C18
 @end sign
 
 @sign ZATU852
@@ -22938,6 +24826,7 @@
 @ucun	𒰙
 @uage	1
 @sys	AP23 ZATU852
+@sys AP24 ZATU852 12C19
 @end sign
 
 @sign ZATU853
@@ -22948,6 +24837,7 @@
 @ucun	𒰚
 @uage	1
 @sys	AP23 ZATU853
+@sys AP24 ZATU853 12C1A
 @end sign
 
 @sign ZATU854
@@ -22958,6 +24848,7 @@
 @ucun	𒰛
 @uage	1
 @sys	AP23 ZATU854
+@sys AP24 ZATU854 12C1B
 @end sign
 
 @sign ZATU855
@@ -22968,6 +24859,7 @@
 @ucun	𒰜
 @uage	1
 @sys	AP23 ZATU855
+@sys AP24 ZATU855 12C1C
 @end sign
 
 @sign ZATU856
@@ -23017,6 +24909,7 @@
 @ucun	𒰝
 @uage	1
 @sys	LLATU:312_04 ZI~a
+@sys AP24 ZI~a 12C1D
 @sys	AP23 ZI~a
 @@
 @form	ZI~a~v1
@@ -23027,6 +24920,7 @@
 @ucun	𒰞
 @uage	1
 @sys	AP23 ZI~a
+@sys AP24 ZI~a~v1 12C1E
 @@
 @form ZI~b
 @oid o0902831
@@ -23035,6 +24929,7 @@
 @ucun	𒰟
 @uage	1
 @sys	AP23 ZI~b
+@sys AP24 ZI~b 12C1F
 @@
 @form ZI~d
 @oid o0902832
@@ -23043,6 +24938,7 @@
 @ucun	𒰠
 @uage	1
 @sys	AP23 ZI~d
+@sys AP24 ZI~d 12C20
 @@
 @end sign
 
@@ -23060,6 +24956,7 @@
 @ucun	𒰡
 @uage	1
 @sys	LLATU:313_01 ZUBI~a
+@sys AP24 ZUBI~a 12C21
 @sys	AP23 ZUBI~a
 @@
 @form ZUBI~b
@@ -23069,6 +24966,7 @@
 @ucun	𒰢
 @uage	1
 @sys	AP23 ZUBI~b
+@sys AP24 ZUBI~b 12C22
 @@
 @end sign
 
@@ -23085,6 +24983,7 @@
 @ucun	𒘓
 @uage	9
 @sys	AP23 2(LAGAB~a)
+@sys AP24 2(LAGAB~a) 12613
 @@
 @end sign
 
@@ -23110,6 +25009,7 @@
 @ucun	𒙫
 @uage	9
 @sys	AP23 4(LAGAB~a)
+@sys AP24 4(LAGAB~a) 1266B
 @@
 @end sign
 
@@ -23124,6 +25024,7 @@
 @ucun	𒚤
 @uage	9
 @sys	AP23 6(LAGAB~a)
+@sys AP24 6(LAGAB~a) 126A4
 @@
 @end sign
 
@@ -23134,6 +25035,7 @@
 @ucun	𒖁
 @uage	1
 @sys	AP23 1(N01@f)
+@sys AP24 1(N01@f) 12581
 @end sign
 
 @sign 2(N01@f)
@@ -23143,6 +25045,7 @@
 @ucun	𒗠
 @uage	1
 @sys	AP23 2(N01@f)
+@sys AP24 2(N01@f) 125E0
 @end sign
 
 
@@ -23154,6 +25057,7 @@
 @ucun	𒙭
 @uage	1
 @sys	AP23 5(N01@f)
+@sys AP24 5(N01@f) 1266D
 @end sign
 
 
@@ -23166,6 +25070,7 @@
 @ucun	𒛍
 @uage	1
 @sys	AP23 9(N01@f)
+@sys AP24 9(N01@f) 126CD
 @end sign
 
 @sign 1(N01@r)
@@ -23175,6 +25080,7 @@
 @ucun	𒖂
 @uage	1
 @sys	AP23 |1(N01@r)|
+@sys AP24 1(N01@r) 12582
 @end sign
 
 @sign 1(N01)
@@ -23184,6 +25090,7 @@
 @ucun	𒖀
 @uage	1
 @sys	LLATU:319_06 1(N1)
+@sys AP24 1(N01) 12580
 @sys	AP23 1(N01)
 @end sign
 
@@ -23194,6 +25101,7 @@
 @ucun	𒗟
 @uage	1
 @sys	LLATU:320_01 2(N1)
+@sys AP24 2(N01) 125DF
 @sys	AP23 2(N01)
 @end sign
 
@@ -23204,6 +25112,7 @@
 @ucun	𒘔
 @uage	1
 @sys	LLATU:320_02 3(N1)
+@sys AP24 3(N01) 12614
 @sys	AP23 3(N01)
 @end sign
 
@@ -23214,6 +25123,7 @@
 @ucun	𒙁
 @uage	1
 @sys	LLATU:321_01 4(N1)
+@sys AP24 4(N01) 12641
 @sys	AP23 4(N01)
 @end sign
 
@@ -23224,6 +25134,7 @@
 @ucun	𒙬
 @uage	1
 @sys	LLATU:321_02 5(N1)
+@sys AP24 5(N01) 1266C
 @sys	AP23 5(N01)
 @end sign
 
@@ -23234,6 +25145,7 @@
 @ucun	𒚍
 @uage	1
 @sys	LLATU:321_03 6(N1)
+@sys AP24 6(N01) 1268D
 @sys	AP23 6(N01)
 @end sign
 
@@ -23244,6 +25156,7 @@
 @ucun	𒚥
 @uage	1
 @sys	AP23 7(N01)
+@sys AP24 7(N01) 126A5
 @end sign
 
 @sign 8(N01)
@@ -23253,6 +25166,7 @@
 @ucun	𒚹
 @uage	1
 @sys	LLATU:322_01 8(N1)
+@sys AP24 8(N01) 126B9
 @sys	AP23 8(N01)
 @end sign
 
@@ -23263,6 +25177,7 @@
 @ucun	𒛋
 @uage	1
 @sys	LLATU:322_02 9(N1)
+@sys AP24 9(N01) 126CB
 @sys	AP23 9(N01)
 @form 9(N01)~v1
 @oid o0902867
@@ -23271,6 +25186,7 @@
 @ucun	𒛌
 @uage	1
 @sys	AP23 9(N01)
+@sys AP24 9(N01)~v1 126CC
 @@
 @end sign
 
@@ -23281,6 +25197,7 @@
 @ucun	𒛠
 @uage	1
 @sys	AP23 10(N01)
+@sys AP24 10(N01) 126E0
 @end sign
 
 @sign 1(N02)
@@ -23291,6 +25208,7 @@
 @ucun	𒖃
 @uage	1
 @sys	LLATU:322_03 1(N2)
+@sys AP24 1(N02) 12583
 @sys	AP23 1(N02)
 @end sign
 
@@ -23301,6 +25219,7 @@
 @ucun	𒰣
 @uage	1
 @sys	AP23 |1(N02).RU|
+@sys AP24 |1(N02).RU| 12C23
 @end sign
 
 @sign 2(N02)
@@ -23310,6 +25229,7 @@
 @ucun	𒗡
 @uage	1
 @sys	AP23 2(N02)
+@sys AP24 2(N02) 125E1
 @end sign
 
 @sign 3(N02)
@@ -23319,6 +25239,7 @@
 @ucun	𒘖
 @uage	1
 @sys	AP23 3(N02)
+@sys AP24 3(N02) 12616
 @end sign
 
 @sign 4(N02)
@@ -23328,6 +25249,7 @@
 @ucun	𒙃
 @uage	1
 @sys	AP23 4(N02)
+@sys AP24 4(N02) 12643
 @end sign
 
 @sign 5(N02)
@@ -23337,6 +25259,7 @@
 @ucun	𒙮
 @uage	1
 @sys	AP23 5(N02)
+@sys AP24 5(N02) 1266E
 @end sign
 
 @sign 6(N02)
@@ -23346,6 +25269,7 @@
 @ucun	𒚏
 @uage	1
 @sys	AP23 6(N02)
+@sys AP24 6(N02) 1268F
 @end sign
 
 @sign 7(N02)
@@ -23355,6 +25279,7 @@
 @ucun	𒚧
 @uage	1
 @sys	AP23 7(N02)
+@sys AP24 7(N02) 126A7
 @end sign
 
 @sign 8(N02)
@@ -23364,6 +25289,7 @@
 @ucun	𒚻
 @uage	1
 @sys	AP23 8(N02)
+@sys AP24 8(N02) 126BB
 @end sign
 
 @sign 9(N02)
@@ -23373,6 +25299,7 @@
 @ucun	𒛎
 @uage	1
 @sys	AP23 9(N02)
+@sys AP24 9(N02) 126CE
 @end sign
 
 @sign 1(N03)
@@ -23382,6 +25309,7 @@
 @ucun	𒖄
 @uage	1
 @sys	AP23 1(N03)
+@sys AP24 1(N03) 12584
 @end sign
 
 @sign 2(N03)
@@ -23391,6 +25319,7 @@
 @ucun	𒗢
 @uage	1
 @sys	AP23 2(N03)
+@sys AP24 2(N03) 125E2
 @end sign
 
 @sign 3(N03)
@@ -23400,6 +25329,7 @@
 @ucun	𒘗
 @uage	1
 @sys	AP23 3(N03)
+@sys AP24 3(N03) 12617
 @end sign
 
 @sign 4(N03)
@@ -23409,6 +25339,7 @@
 @ucun	𒙄
 @uage	1
 @sys	AP23 4(N03)
+@sys AP24 4(N03) 12644
 @end sign
 
 @sign 5(N03)
@@ -23418,6 +25349,7 @@
 @ucun	𒙯
 @uage	1
 @sys	AP23 5(N03)
+@sys AP24 5(N03) 1266F
 @end sign
 
 @sign 1(N04)
@@ -23428,6 +25360,7 @@
 @ucun	𒖅
 @uage	1
 @sys	LLATU:322_04 1(N4)
+@sys AP24 1(N04) 12585
 @sys	AP23 1(N04)
 @end sign
 
@@ -23438,6 +25371,7 @@
 @ucun	𒗣
 @uage	1
 @sys	AP23 2(N04)
+@sys AP24 2(N04) 125E3
 @end sign
 
 @sign 3(N04)
@@ -23447,6 +25381,7 @@
 @ucun	𒘘
 @uage	1
 @sys	AP23 3(N04)
+@sys AP24 3(N04) 12618
 @end sign
 
 @sign 4(N04)
@@ -23456,6 +25391,7 @@
 @ucun	𒙅
 @uage	1
 @sys	AP23 4(N04)
+@sys AP24 4(N04) 12645
 @end sign
 
 @sign 5(N04)
@@ -23465,6 +25401,7 @@
 @ucun	𒙰
 @uage	1
 @sys	AP23 5(N04)
+@sys AP24 5(N04) 12670
 @end sign
 
 
@@ -23479,6 +25416,7 @@
 @ucun	𒖇
 @uage	1
 @sys	AP23 1(N05)
+@sys AP24 1(N05) 12587
 @end sign
 
 @sign 2(N05)
@@ -23488,6 +25426,7 @@
 @ucun	𒗥
 @uage	1
 @sys	AP23 2(N05)
+@sys AP24 2(N05) 125E5
 @end sign
 
 @sign 3(N05)
@@ -23497,6 +25436,7 @@
 @ucun	𒘚
 @uage	1
 @sys	AP23 3(N05)
+@sys AP24 3(N05) 1261A
 @end sign
 
 @sign 4(N05)
@@ -23506,6 +25446,7 @@
 @ucun	𒙇
 @uage	1
 @sys	AP23 4(N05)
+@sys AP24 4(N05) 12647
 @end sign
 
 @sign 5(N05)
@@ -23515,6 +25456,7 @@
 @ucun	𒙲
 @uage	1
 @sys	AP23 5(N05)
+@sys AP24 5(N05) 12672
 @end sign
 
 @sign 1(N06)
@@ -23524,6 +25466,7 @@
 @ucun	𒖈
 @uage	1
 @sys	LLATU:322_05 1(N6)
+@sys AP24 1(N06) 12588
 @sys	AP23 1(N06)
 @end sign
 
@@ -23537,6 +25480,7 @@
 @ucun	𒖉
 @uage	1
 @sys	AP23 1(N07~a)
+@sys AP24 1(N07~a) 12589
 @@
 @form 1(N07~b)
 @oid o0902902
@@ -23545,6 +25489,7 @@
 @ucun	𒖊
 @uage	1
 @sys	AP23 1(N07~b)
+@sys AP24 1(N07~b) 1258A
 @@
 @end sign
 
@@ -23558,6 +25503,7 @@
 @ucun	𒗦
 @uage	1
 @sys	AP23 2(N07~a)
+@sys AP24 2(N07~a) 125E6
 @@
 @form 2(N07~b)
 @oid o0902905
@@ -23566,6 +25512,7 @@
 @ucun	𒗧
 @uage	1
 @sys	AP23 2(N07~b)
+@sys AP24 2(N07~b) 125E7
 @@
 @end sign
 
@@ -23579,6 +25526,7 @@
 @ucun	𒘛
 @uage	1
 @sys	AP23 3(N07~a)
+@sys AP24 3(N07~a) 1261B
 @@
 @form 3(N07~b)
 @oid o0902908
@@ -23587,6 +25535,7 @@
 @ucun	𒘜
 @uage	1
 @sys	AP23 3(N07~b)
+@sys AP24 3(N07~b) 1261C
 @@
 @end sign
 
@@ -23597,6 +25546,7 @@
 @ucun	𒖋
 @uage	1
 @sys	LLATU:322_06 1(N8)
+@sys AP24 1(N08) 1258B
 @sys	AP23 1(N08)
 @form 1(N08~b)
 @oid o0902910
@@ -23605,6 +25555,7 @@
 @ucun	𒖌
 @uage	1
 @sys	AP23 1(N08~b)
+@sys AP24 1(N08~b) 1258C
 @@
 @form 1(N08~v)
 @oid o0902911
@@ -23621,6 +25572,7 @@
 @ucun	𒗨
 @uage	1
 @sys	LLATU:322_07 2(N8)
+@sys AP24 2(N08) 125E8
 @sys	AP23 2(N08)
 @form 2(N08~b)
 @oid o0902913
@@ -23629,6 +25581,7 @@
 @ucun	𒗩
 @uage	1
 @sys	AP23 2(N08~b)
+@sys AP24 2(N08~b) 125E9
 @@
 @end sign
 
@@ -23639,6 +25592,7 @@
 @ucun	𒘝
 @uage	1
 @sys	AP23 3(N08)
+@sys AP24 3(N08) 1261D
 @form 3(N08~b)
 @oid o0902915
 @uname	PROTO-CUNEIFORM NUMBER THREE-N8-B
@@ -23646,6 +25600,7 @@
 @ucun	𒘞
 @uage	1
 @sys	AP23 3(N08~b)
+@sys AP24 3(N08~b) 1261E
 @@
 @end sign
 
@@ -23656,6 +25611,7 @@
 @ucun	𒙈
 @uage	1
 @sys	AP23 4(N08)
+@sys AP24 4(N08) 12648
 @form 4(N08~b)
 @oid o0902917
 @uname	PROTO-CUNEIFORM NUMBER FOUR-N8-B
@@ -23663,6 +25619,7 @@
 @ucun	𒙉
 @uage	1
 @sys	AP23 4(N08~b)
+@sys AP24 4(N08~b) 12649
 @@
 @form 4(N08~c)
 @oid o0902918
@@ -23671,6 +25628,7 @@
 @ucun	𒙊
 @uage	1
 @sys	AP23 4(N08~c)
+@sys AP24 4(N08~c) 1264A
 @@
 @end sign
 
@@ -23681,6 +25639,7 @@
 @ucun	𒙳
 @uage	1
 @sys	AP23 5(N08)
+@sys AP24 5(N08) 12673
 @end sign
 
 @sign 6(N08)
@@ -23690,6 +25649,7 @@
 @ucun	𒚐
 @uage	1
 @sys	AP23 6(N08)
+@sys AP24 6(N08) 12690
 @end sign
 
 @sign 7(N08)
@@ -23699,6 +25659,7 @@
 @ucun	𒚨
 @uage	1
 @sys	AP23 7(N08)
+@sys AP24 7(N08) 126A8
 @end sign
 
 @sign 8(N08)
@@ -23708,6 +25669,7 @@
 @ucun	𒚼
 @uage	1
 @sys	AP23 8(N08)
+@sys AP24 8(N08) 126BC
 @end sign
 
 @sign 9(N08)
@@ -23717,6 +25679,7 @@
 @ucun	𒛏
 @uage	1
 @sys	AP23 9(N08)
+@sys AP24 9(N08) 126CF
 @end sign
 
 
@@ -23727,6 +25690,7 @@
 @ucun	𒰤
 @uage	1
 @sys	AP23 |1(N08@f)x1(N57)|
+@sys AP24 |1(N08@f)×1(N57)| 12C24
 @end sign
 
 @sign 1(N09)
@@ -23736,6 +25700,7 @@
 @ucun	𒖎
 @uage	1
 @sys	AP23 1(N09)
+@sys AP24 1(N09) 1258E
 @end sign
 
 @sign 1(N11)
@@ -23745,6 +25710,7 @@
 @ucun	𒖏
 @uage	1
 @sys	AP23 1(N11)
+@sys AP24 1(N11) 1258F
 @end sign
 
 @sign 1(N12)
@@ -23754,6 +25720,7 @@
 @ucun	𒖐
 @uage	1
 @sys	AP23 1(N12)
+@sys AP24 1(N12) 12590
 @end sign
 
 @sign 1(N14)
@@ -23764,6 +25731,7 @@
 @ucun	𒖑
 @uage	1
 @sys	LLATU:322_08 1(N14)
+@sys AP24 1(N14) 12591
 @sys	AP23 1(N14)
 @end sign
 
@@ -23779,6 +25747,7 @@
 @ucun	𒗪
 @uage	1
 @sys	LLATU:324_01 2(N14)
+@sys AP24 2(N14) 125EA
 @sys	AP23 2(N14)
 @form 2(N14~t)
 @oid o0902931
@@ -23794,6 +25763,7 @@
 @ucun	𒘟
 @uage	1
 @sys	LLATU:324_02 3(N14)
+@sys AP24 3(N14) 1261F
 @sys	AP23 3(N14)
 @end sign
 
@@ -23804,6 +25774,7 @@
 @ucun	𒙋
 @uage	1
 @sys	LLATU:324_03 4(N14)
+@sys AP24 4(N14) 1264B
 @sys	AP23 4(N14)
 @end sign
 
@@ -23814,6 +25785,7 @@
 @ucun	𒙴
 @uage	1
 @sys	LLATU:324_04 5(N14)
+@sys AP24 5(N14) 12674
 @sys	AP23 5(N14)
 @form 5(N14)~v1
 @oid o0902935
@@ -23822,6 +25794,7 @@
 @ucun	𒙵
 @uage	1
 @sys	AP23 5(N14)
+@sys AP24 5(N14)~v1 12675
 @@
 @end sign
 
@@ -23832,6 +25805,7 @@
 @ucun	𒚑
 @uage	1
 @sys	LLATU:324_05 6(N14)
+@sys AP24 6(N14) 12691
 @sys	AP23 6(N14)
 @form 6(N14)~v1
 @oid o0902937
@@ -23840,6 +25814,7 @@
 @ucun	𒚒
 @uage	1
 @sys	AP23 6(N14)
+@sys AP24 6(N14)~v1 12692
 @@
 @end sign
 
@@ -23850,6 +25825,7 @@
 @ucun	𒚩
 @uage	1
 @sys	AP23 7(N14)
+@sys AP24 7(N14) 126A9
 @end sign
 
 @sign 8(N14)
@@ -23859,6 +25835,7 @@
 @ucun	𒚽
 @uage	1
 @sys	AP23 8(N14)
+@sys AP24 8(N14) 126BD
 @end sign
 
 @sign 9(N14)
@@ -23868,6 +25845,7 @@
 @ucun	𒛐
 @uage	1
 @sys	AP23 9(N14)
+@sys AP24 9(N14) 126D0
 @end sign
 
 @sign 10(N14)
@@ -23877,6 +25855,7 @@
 @ucun	𒛡
 @uage	1
 @sys	AP23 10(N14)
+@sys AP24 10(N14) 126E1
 @end sign
 
 @sign 11(N14)
@@ -23892,6 +25871,7 @@
 @ucun	𒛥
 @uage	1
 @sys	AP23 12(N14)
+@sys AP24 12(N14) 126E5
 @end sign
 
 @sign 22(N14)
@@ -23908,6 +25888,7 @@
 @ucun	𒖒
 @uage	1
 @sys	AP23 1(N14@f)
+@sys AP24 1(N14@f) 12592
 @end sign
 
 
@@ -23926,6 +25907,7 @@
 @ucun	𒖓
 @uage	1
 @sys	AP23 1(N15)
+@sys AP24 1(N15) 12593
 @end sign
 
 @sign 2(N15)
@@ -23935,6 +25917,7 @@
 @ucun	𒗬
 @uage	1
 @sys	AP23 2(N15)
+@sys AP24 2(N15) 125EC
 @end sign
 
 @sign 3(N15)
@@ -23944,6 +25927,7 @@
 @ucun	𒘡
 @uage	1
 @sys	AP23 3(N15)
+@sys AP24 3(N15) 12621
 @end sign
 
 @sign 4(N15)
@@ -23953,6 +25937,7 @@
 @ucun	𒙍
 @uage	1
 @sys	AP23 4(N15)
+@sys AP24 4(N15) 1264D
 @end sign
 
 @sign 5(N15)
@@ -23962,6 +25947,7 @@
 @ucun	𒙷
 @uage	1
 @sys	AP23 5(N15)
+@sys AP24 5(N15) 12677
 @end sign
 
 @sign 1(N16)
@@ -23971,6 +25957,7 @@
 @ucun	𒖔
 @uage	1
 @sys	LLATU:324_06 1(N16)
+@sys AP24 1(N16) 12594
 @sys	AP23 1(N16)
 @end sign
 
@@ -23981,6 +25968,7 @@
 @ucun	𒖕
 @uage	1
 @sys	LLATU:324_07 1(N17)
+@sys AP24 1(N17) 12595
 @sys	AP23 1(N17)
 @end sign
 
@@ -23991,6 +25979,7 @@
 @ucun	𒖖
 @uage	1
 @sys	AP23 1(N18)
+@sys AP24 1(N18) 12596
 @end sign
 
 @sign 2(N18)
@@ -24000,6 +25989,7 @@
 @ucun	𒗭
 @uage	1
 @sys	AP23 2(N18)
+@sys AP24 2(N18) 125ED
 @end sign
 
 @sign 3(N18)
@@ -24009,6 +25999,7 @@
 @ucun	𒘢
 @uage	1
 @sys	AP23 3(N18)
+@sys AP24 3(N18) 12622
 @end sign
 
 @sign 4(N18)
@@ -24018,6 +26009,7 @@
 @ucun	𒙎
 @uage	1
 @sys	AP23 4(N18)
+@sys AP24 4(N18) 1264E
 @end sign
 
 @sign 5(N18)
@@ -24027,6 +26019,7 @@
 @ucun	𒙸
 @uage	1
 @sys	AP23 5(N18)
+@sys AP24 5(N18) 12678
 @end sign
 
 @sign 6(N18)
@@ -24036,6 +26029,7 @@
 @ucun	𒚔
 @uage	1
 @sys	AP23 6(N18)
+@sys AP24 6(N18) 12694
 @end sign
 
 @sign 7(N18)
@@ -24045,6 +26039,7 @@
 @ucun	𒚫
 @uage	1
 @sys	AP23 7(N18)
+@sys AP24 7(N18) 126AB
 @end sign
 
 @sign 8(N18)
@@ -24054,6 +26049,7 @@
 @ucun	𒚿
 @uage	1
 @sys	AP23 8(N18)
+@sys AP24 8(N18) 126BF
 @end sign
 
 @sign 9(N18)
@@ -24063,6 +26059,7 @@
 @ucun	𒛒
 @uage	1
 @sys	AP23 9(N18)
+@sys AP24 9(N18) 126D2
 @form 9(N18)~v1
 @oid o0902971
 @uname	PROTO-CUNEIFORM NUMBER NINE-N18 VARIANT 1
@@ -24070,6 +26067,7 @@
 @ucun	𒛓
 @uage	1
 @sys	AP23 9(N18)
+@sys AP24 9(N18)~v1 126D3
 @@
 @end sign
 
@@ -24080,6 +26078,7 @@
 @ucun	𒖗
 @uage	1
 @sys	AP23 1(N19)
+@sys AP24 1(N19) 12597
 @end sign
 
 @sign 2(N19)
@@ -24089,6 +26088,7 @@
 @ucun	𒗮
 @uage	1
 @sys	AP23 2(N19)
+@sys AP24 2(N19) 125EE
 @end sign
 
 @sign 3(N19)
@@ -24098,6 +26098,7 @@
 @ucun	𒘣
 @uage	1
 @sys	AP23 3(N19)
+@sys AP24 3(N19) 12623
 @end sign
 
 @sign 4(N19)
@@ -24107,6 +26108,7 @@
 @ucun	𒙏
 @uage	1
 @sys	AP23 4(N19)
+@sys AP24 4(N19) 1264F
 @end sign
 
 @sign 5(N19)
@@ -24116,6 +26118,7 @@
 @ucun	𒙹
 @uage	1
 @sys	AP23 5(N19)
+@sys AP24 5(N19) 12679
 @end sign
 
 @sign 6(N19)
@@ -24125,6 +26128,7 @@
 @ucun	𒚕
 @uage	1
 @sys	AP23 6(N19)
+@sys AP24 6(N19) 12695
 @end sign
 
 @sign 7(N19)
@@ -24134,6 +26138,7 @@
 @ucun	𒚬
 @uage	1
 @sys	AP23 7(N19)
+@sys AP24 7(N19) 126AC
 @end sign
 
 @sign 8(N19)
@@ -24143,6 +26148,7 @@
 @ucun	𒛀
 @uage	1
 @sys	AP23 8(N19)
+@sys AP24 8(N19) 126C0
 @end sign
 
 @sign 9(N19)
@@ -24152,6 +26158,7 @@
 @ucun	𒛔
 @uage	1
 @sys	AP23 9(N19)
+@sys AP24 9(N19) 126D4
 @form 9(N19)~v1
 @oid o0902981
 @uname	PROTO-CUNEIFORM NUMBER NINE-N19 VARIANT 1
@@ -24159,6 +26166,7 @@
 @ucun	𒛕
 @uage	1
 @sys	AP23 9(N19)
+@sys AP24 9(N19)~v1 126D5
 @@
 @end sign
 
@@ -24176,6 +26184,7 @@
 @ucun	𒛁
 @uage	1
 @sys	AP23 8(N19@f)
+@sys AP24 8(N19@f) 126C1
 @end sign
 
 @sign 9(N19@f)
@@ -24185,6 +26194,7 @@
 @ucun	𒛖
 @uage	1
 @sys	AP23 9(N19@f)
+@sys AP24 9(N19@f) 126D6
 @end sign
 
 @sign 1(N20)
@@ -24194,6 +26204,7 @@
 @ucun	𒖙
 @uage	1
 @sys	AP23 1(N20)
+@sys AP24 1(N20) 12599
 @end sign
 
 @sign 2(N20)
@@ -24203,6 +26214,7 @@
 @ucun	𒗰
 @uage	1
 @sys	AP23 2(N20)
+@sys AP24 2(N20) 125F0
 @end sign
 
 @sign 3(N20)
@@ -24212,6 +26224,7 @@
 @ucun	𒘥
 @uage	1
 @sys	AP23 3(N20)
+@sys AP24 3(N20) 12625
 @end sign
 
 @sign 4(N20)
@@ -24221,6 +26234,7 @@
 @ucun	𒙑
 @uage	1
 @sys	AP23 4(N20)
+@sys AP24 4(N20) 12651
 @end sign
 
 @sign 5(N20)
@@ -24230,6 +26244,7 @@
 @ucun	𒙻
 @uage	1
 @sys	AP23 5(N20)
+@sys AP24 5(N20) 1267B
 @end sign
 
 @sign 6(N20)
@@ -24239,6 +26254,7 @@
 @ucun	𒚗
 @uage	1
 @sys	AP23 6(N20)
+@sys AP24 6(N20) 12697
 @end sign
 
 @sign 7(N20)
@@ -24248,6 +26264,7 @@
 @ucun	𒚮
 @uage	1
 @sys	AP23 7(N20)
+@sys AP24 7(N20) 126AE
 @end sign
 
 @sign 8(N20)
@@ -24257,6 +26274,7 @@
 @ucun	𒛂
 @uage	1
 @sys	AP23 8(N20)
+@sys AP24 8(N20) 126C2
 @end sign
 
 @sign 9(N20)
@@ -24266,6 +26284,7 @@
 @ucun	𒛗
 @uage	1
 @sys	AP23 9(N20)
+@sys AP24 9(N20) 126D7
 @end sign
 
 @sign 2(N21)
@@ -24275,6 +26294,7 @@
 @ucun	𒗱
 @uage	1
 @sys	AP23 2(N21)
+@sys AP24 2(N21) 125F1
 @end sign
 
 @sign 3(N21)
@@ -24284,6 +26304,7 @@
 @ucun	𒘦
 @uage	1
 @sys	AP23 3(N21)
+@sys AP24 3(N21) 12626
 @end sign
 
 @sign 4(N21)
@@ -24293,6 +26314,7 @@
 @ucun	𒙒
 @uage	1
 @sys	AP23 4(N21)
+@sys AP24 4(N21) 12652
 @end sign
 
 @sign 5(N21)
@@ -24302,6 +26324,7 @@
 @ucun	𒙼
 @uage	1
 @sys	AP23 5(N21)
+@sys AP24 5(N21) 1267C
 @end sign
 
 @sign 6(N21)
@@ -24311,6 +26334,7 @@
 @ucun	𒚘
 @uage	1
 @sys	AP23 6(N21)
+@sys AP24 6(N21) 12698
 @end sign
 
 @sign 1(N22)
@@ -24320,6 +26344,7 @@
 @ucun	𒖚
 @uage	1
 @sys	AP23 1(N22)
+@sys AP24 1(N22) 1259A
 @end sign
 
 @sign 2(N22)
@@ -24329,6 +26354,7 @@
 @ucun	𒗲
 @uage	1
 @sys	AP23 2(N22)
+@sys AP24 2(N22) 125F2
 @end sign
 
 @sign 1(N22@v)
@@ -24347,6 +26373,7 @@
 @ucun	𒖜
 @uage	1
 @sys	AP23 1(N23)
+@sys AP24 1(N23) 1259C
 @end sign
 
 @sign 2(N23)
@@ -24356,6 +26383,7 @@
 @ucun	𒗴
 @uage	1
 @sys	AP23 2(N23)
+@sys AP24 2(N23) 125F4
 @end sign
 
 @sign 3(N23)
@@ -24365,6 +26393,7 @@
 @ucun	𒘧
 @uage	1
 @sys	AP23 3(N23)
+@sys AP24 3(N23) 12627
 @end sign
 
 
@@ -24375,6 +26404,7 @@
 @ucun	𒚯
 @uage	1
 @sys	AP23 7(N23)
+@sys AP24 7(N23) 126AF
 @end sign
 
 @sign 1(N24@f)
@@ -24384,6 +26414,7 @@
 @ucun	𒖠
 @uage	1
 @sys	AP23 1(N24@f)
+@sys AP24 1(N24@f) 125A0
 @end sign
 
 @sign 1(N24)
@@ -24393,6 +26424,7 @@
 @ucun	𒖝
 @uage	1
 @sys	AP23 1(N24)
+@sys AP24 1(N24) 1259D
 @form 1(N24~a)
 @oid o0903017
 @uname	PROTO-CUNEIFORM NUMBER ONE-N24-A
@@ -24400,6 +26432,7 @@
 @ucun	𒖞
 @uage	1
 @sys	AP23 1(N24~a)
+@sys AP24 1(N24~a) 1259E
 @@
 @form 1(N24~b)
 @oid o0903018
@@ -24408,6 +26441,7 @@
 @ucun	𒖟
 @uage	1
 @sys	AP23 1(N24~b)
+@sys AP24 1(N24~b) 1259F
 @@
 @end sign
 
@@ -24419,6 +26453,7 @@
 @ucun	𒙓
 @uage	1
 @sys	AP23 4(N24)
+@sys AP24 4(N24) 12653
 @end sign
 
 @sign 6(N24)
@@ -24428,6 +26463,7 @@
 @ucun	𒚙
 @uage	1
 @sys	AP23 6(N24)
+@sys AP24 6(N24) 12699
 @end sign
 
 @sign 1(N25)
@@ -24437,6 +26473,7 @@
 @ucun	𒖡
 @uage	1
 @sys	AP23 1(N25)
+@sys AP24 1(N25) 125A1
 @end sign
 
 @sign 1(N26)
@@ -24446,6 +26483,7 @@
 @ucun	𒖢
 @uage	1
 @sys	AP23 1(N26)
+@sys AP24 1(N26) 125A2
 @form 1(N26)~v1
 @oid o0903024
 @uname	PROTO-CUNEIFORM NUMBER ONE-N26 VARIANT 1
@@ -24453,6 +26491,7 @@
 @ucun	𒖣
 @uage	1
 @sys	AP23 1(N26)
+@sys AP24 1(N26)~v1 125A3
 @@
 @form 1(N26~b)
 @oid o0903025
@@ -24461,6 +26500,7 @@
 @ucun	𒖤
 @uage	1
 @sys	AP23 1(N26~b)
+@sys AP24 1(N26~b) 125A4
 @@
 @end sign
 
@@ -24471,6 +26511,7 @@
 @ucun	𒖥
 @uage	1
 @sys	AP23 1(N27)
+@sys AP24 1(N27) 125A5
 @form 1(N27)~v1
 @oid o0903027
 @uname	PROTO-CUNEIFORM NUMBER ONE-N27 VARIANT 1
@@ -24478,6 +26519,7 @@
 @ucun	𒖦
 @uage	1
 @sys	AP23 1(N27)
+@sys AP24 1(N27)~v1 125A6
 @@
 @end sign
 
@@ -24488,6 +26530,7 @@
 @ucun	𒖧
 @uage	1
 @sys	LLATU:324_08 1(N28)
+@sys AP24 1(N28) 125A7
 @sys	AP23 1(N28)
 @form 1(N28~b)
 @oid o0903029
@@ -24496,6 +26539,7 @@
 @ucun	𒖨
 @uage	1
 @sys	AP23 1(N28~b)
+@sys AP24 1(N28~b) 125A8
 @@
 @form 1(N28~c)
 @oid o0903030
@@ -24504,6 +26548,7 @@
 @ucun	𒖩
 @uage	1
 @sys	AP23 1(N28~c)
+@sys AP24 1(N28~c) 125A9
 @@
 @end sign
 
@@ -24517,6 +26562,7 @@
 @ucun	𒖪
 @uage	1
 @sys	LLATU:325_01 1(N29~a)
+@sys AP24 1(N29~a) 125AA
 @sys	AP23 1(N29~a)
 @@
 @form 1(N29~a)~v1
@@ -24526,6 +26572,7 @@
 @ucun	𒖫
 @uage	1
 @sys	AP23 1(N29~a)
+@sys AP24 1(N29~a)~v1 125AB
 @@
 @form 1(N29~b)
 @oid o0903034
@@ -24534,6 +26581,7 @@
 @ucun	𒖬
 @uage	1
 @sys	AP23 1(N29~b)
+@sys AP24 1(N29~b) 125AC
 @@
 @form 1(N29~c)
 @oid o0903035
@@ -24553,6 +26601,7 @@
 @ucun	𒗶
 @uage	1
 @sys	AP23 2(N29~a)
+@sys AP24 2(N29~a) 125F6
 @@
 @form 2(N29~b)
 @oid o0903038
@@ -24572,6 +26621,7 @@
 @ucun	𒖭
 @uage	1
 @sys	AP23 1(N29A~b)
+@sys AP24 1(N29A~b) 125AD
 @@
 @form 1(N29A~c)
 @oid o0903041
@@ -24580,6 +26630,7 @@
 @ucun	𒖮
 @uage	1
 @sys	AP23 1(N29A~c)
+@sys AP24 1(N29A~c) 125AE
 @@
 @end sign
 
@@ -24593,6 +26644,7 @@
 @ucun	𒗷
 @uage	1
 @sys	AP23 2(N29A~b)
+@sys AP24 2(N29A~b) 125F7
 @@
 @end sign
 
@@ -24606,6 +26658,7 @@
 @ucun	𒖰
 @uage	1
 @sys	AP23 1(N30~a)
+@sys AP24 1(N30~a)~v1 125B0
 @@
 @form 1(N30~a)
 @oid o0903046
@@ -24614,6 +26667,7 @@
 @ucun	𒖯
 @uage	1
 @sys	AP23 1(N30~a)
+@sys AP24 1(N30~a) 125AF
 @@
 @form 1(N30~b)
 @oid o0903047
@@ -24628,6 +26682,7 @@
 @ucun	𒖱
 @uage	1
 @sys	AP23 1(N30~c)
+@sys AP24 1(N30~c) 125B1
 @@
 @form 1(N30~d)
 @oid o0903049
@@ -24636,6 +26691,7 @@
 @ucun	𒖲
 @uage	1
 @sys	AP23 1(N30~d)
+@sys AP24 1(N30~d) 125B2
 @@
 @form 1(N30~e)
 @oid o0903050
@@ -24644,6 +26700,7 @@
 @ucun	𒖳
 @uage	1
 @sys	AP23 1(N30~e)
+@sys AP24 1(N30~e) 125B3
 @@
 @end sign
 
@@ -24657,6 +26714,7 @@
 @ucun	𒖴
 @uage	1
 @sys	AP23 1(N30A~c)
+@sys AP24 1(N30A~c) 125B4
 @@
 @end sign
 
@@ -24672,6 +26730,7 @@
 @ucun	𒖵
 @uage	1
 @sys	AP23 1(N30C~b)
+@sys AP24 1(N30C~b) 125B5
 @@
 @form 1(N30C~c)
 @oid o0903055
@@ -24680,6 +26739,7 @@
 @ucun	𒖶
 @uage	1
 @sys	AP23 1(N30C~c)
+@sys AP24 1(N30C~c) 125B6
 @@
 @end sign
 
@@ -24690,6 +26750,7 @@
 @ucun	𒖷
 @uage	1
 @sys	LLATU:325_02 1(N31)
+@sys AP24 1(N31) 125B7
 @sys	AP23 1(N31)
 @end sign
 
@@ -24700,6 +26761,7 @@
 @ucun	𒖸
 @uage	1
 @sys	AP23 1(N32)
+@sys AP24 1(N32) 125B8
 @end sign
 
 @sign 1(N33)
@@ -24709,6 +26771,7 @@
 @ucun	𒖹
 @uage	1
 @sys	AP23 1(N33)
+@sys AP24 1(N33) 125B9
 @end sign
 
 @sign 1(N34)
@@ -24718,6 +26781,7 @@
 @ucun	𒖺
 @uage	1
 @sys	LLATU:325_03 1(N34)
+@sys AP24 1(N34) 125BA
 @sys	AP23 1(N34)
 @end sign
 
@@ -24728,6 +26792,7 @@
 @ucun	𒰥
 @uage	1
 @sys	AP23 |1(N34)x1(N58)|
+@sys AP24 |1(N34)×1(N58)| 12C25
 @end sign
 
 @sign 2(N34)
@@ -24737,6 +26802,7 @@
 @ucun	𒗸
 @uage	1
 @sys	LLATU:325_04 2(N34)
+@sys AP24 2(N34) 125F8
 @sys	AP23 2(N34)
 @end sign
 
@@ -24747,6 +26813,7 @@
 @ucun	𒘨
 @uage	1
 @sys	LLATU:325_05 3(N34)
+@sys AP24 3(N34) 12628
 @sys	AP23 3(N34)
 @end sign
 
@@ -24757,6 +26824,7 @@
 @ucun	𒙔
 @uage	1
 @sys	AP23 4(N34)
+@sys AP24 4(N34) 12654
 @end sign
 
 @sign 5(N34)
@@ -24766,6 +26834,7 @@
 @ucun	𒙾
 @uage	1
 @sys	AP23 5(N34)
+@sys AP24 5(N34) 1267E
 @end sign
 
 @sign 6(N34)
@@ -24775,6 +26844,7 @@
 @ucun	𒚚
 @uage	1
 @sys	AP23 6(N34)
+@sys AP24 6(N34) 1269A
 @end sign
 
 @sign 7(N34)
@@ -24784,6 +26854,7 @@
 @ucun	𒚰
 @uage	1
 @sys	AP23 7(N34)
+@sys AP24 7(N34) 126B0
 @end sign
 
 @sign 8(N34)
@@ -24793,6 +26864,7 @@
 @ucun	𒛃
 @uage	1
 @sys	AP23 8(N34)
+@sys AP24 8(N34) 126C3
 @end sign
 
 @sign 9(N34)
@@ -24802,6 +26874,7 @@
 @ucun	𒛘
 @uage	1
 @sys	AP23 9(N34)
+@sys AP24 9(N34) 126D8
 @end sign
 
 
@@ -24812,6 +26885,7 @@
 @ucun	𒖻
 @uage	1
 @sys	AP23 1(N34@f)
+@sys AP24 1(N34@f) 125BB
 @end sign
 
 
@@ -24826,6 +26900,7 @@
 @ucun	𒚱
 @uage	1
 @sys	AP23 7(N34@f)
+@sys AP24 7(N34@f) 126B1
 @end sign
 
 
@@ -24837,6 +26912,7 @@
 @ucun	𒖽
 @uage	1
 @sys	AP23 1(N35)
+@sys AP24 1(N35) 125BD
 @end sign
 
 @sign 2(N35)
@@ -24846,6 +26922,7 @@
 @ucun	𒗺
 @uage	1
 @sys	AP23 2(N35)
+@sys AP24 2(N35) 125FA
 @end sign
 
 @sign 5(N35)
@@ -24855,6 +26932,7 @@
 @ucun	𒚀
 @uage	1
 @sys	AP23 5(N35)
+@sys AP24 5(N35) 12680
 @end sign
 
 @sign 1(N36)
@@ -24864,6 +26942,7 @@
 @ucun	𒖾
 @uage	1
 @sys	AP23 1(N36)
+@sys AP24 1(N36) 125BE
 @end sign
 
 @sign 2(N36)
@@ -24873,6 +26952,7 @@
 @ucun	𒗻
 @uage	1
 @sys	AP23 2(N36)
+@sys AP24 2(N36) 125FB
 @end sign
 
 @sign 3(N36)
@@ -24882,6 +26962,7 @@
 @ucun	𒘪
 @uage	1
 @sys	AP23 3(N36)
+@sys AP24 3(N36) 1262A
 @end sign
 
 @sign 4(N36)
@@ -24891,6 +26972,7 @@
 @ucun	𒙖
 @uage	1
 @sys	AP23 4(N36)
+@sys AP24 4(N36) 12656
 @end sign
 
 @sign 5(N36)
@@ -24900,6 +26982,7 @@
 @ucun	𒚁
 @uage	1
 @sys	AP23 5(N36)
+@sys AP24 5(N36) 12681
 @end sign
 
 @sign 6(N36)
@@ -24909,6 +26992,7 @@
 @ucun	𒚜
 @uage	1
 @sys	AP23 6(N36)
+@sys AP24 6(N36) 1269C
 @end sign
 
 @sign 7(N36)
@@ -24918,6 +27002,7 @@
 @ucun	𒚲
 @uage	1
 @sys	AP23 7(N36)
+@sys AP24 7(N36) 126B2
 @end sign
 
 @sign 8(N36)
@@ -24927,6 +27012,7 @@
 @ucun	𒛅
 @uage	1
 @sys	AP23 8(N36)
+@sys AP24 8(N36) 126C5
 @end sign
 
 @sign 9(N36)
@@ -24936,6 +27022,7 @@
 @ucun	𒛚
 @uage	1
 @sys	AP23 9(N36)
+@sys AP24 9(N36) 126DA
 @end sign
 
 
@@ -24946,6 +27033,7 @@
 @ucun	𒗀
 @uage	1
 @sys	AP23 1(N37)
+@sys AP24 1(N37) 125C0
 @end sign
 
 @sign 2(N37)
@@ -24955,6 +27043,7 @@
 @ucun	𒗼
 @uage	1
 @sys	AP23 2(N37)
+@sys AP24 2(N37) 125FC
 @end sign
 
 @sign 1(N38)
@@ -24964,6 +27053,7 @@
 @ucun	𒗁
 @uage	1
 @sys	AP23 1(N38)
+@sys AP24 1(N38) 125C1
 @end sign
 
 
@@ -24977,6 +27067,7 @@
 @ucun	𒗂
 @uage	1
 @sys	AP23 1(N39~a)
+@sys AP24 1(N39~a) 125C2
 @@
 @form 1(N39~b)
 @oid o0903098
@@ -24985,6 +27076,7 @@
 @ucun	𒗃
 @uage	1
 @sys	AP23 1(N39~b)
+@sys AP24 1(N39~b) 125C3
 @@
 @end sign
 
@@ -24998,6 +27090,7 @@
 @ucun	𒗽
 @uage	1
 @sys	AP23 2(N39~a)
+@sys AP24 2(N39~a) 125FD
 @@
 @form 2(N39~b)
 @oid o0903101
@@ -25006,6 +27099,7 @@
 @ucun	𒗾
 @uage	1
 @sys	AP23 2(N39~b)
+@sys AP24 2(N39~b) 125FE
 @@
 @form 2(N39~t)
 @oid o0903102
@@ -25024,6 +27118,7 @@
 @ucun	𒘫
 @uage	1
 @sys	AP23 3(N39~a)
+@sys AP24 3(N39~a) 1262B
 @@
 @form 3(N39~b)
 @oid o0903105
@@ -25032,6 +27127,7 @@
 @ucun	𒘬
 @uage	1
 @sys	AP23 3(N39~b)
+@sys AP24 3(N39~b) 1262C
 @@
 @end sign
 
@@ -25045,6 +27141,7 @@
 @ucun	𒙗
 @uage	1
 @sys	AP23 4(N39~a)
+@sys AP24 4(N39~a) 12657
 @@
 @form 4(N39~b)
 @oid o0903108
@@ -25053,6 +27150,7 @@
 @ucun	𒙘
 @uage	1
 @sys	AP23 4(N39~b)
+@sys AP24 4(N39~b) 12658
 @@
 @end sign
 
@@ -25073,6 +27171,7 @@
 @ucun	𒗄
 @uage	1
 @sys	AP23 1(N40)
+@sys AP24 1(N40) 125C4
 @end sign
 
 @sign 2(N40)
@@ -25082,6 +27181,7 @@
 @ucun	𒗿
 @uage	1
 @sys	AP23 2(N40)
+@sys AP24 2(N40) 125FF
 @end sign
 
 @sign 3(N40)
@@ -25091,6 +27191,7 @@
 @ucun	𒘭
 @uage	1
 @sys	AP23 3(N40)
+@sys AP24 3(N40) 1262D
 @end sign
 
 @sign 4(N40)
@@ -25100,6 +27201,7 @@
 @ucun	𒙙
 @uage	1
 @sys	AP23 4(N40)
+@sys AP24 4(N40) 12659
 @end sign
 
 @sign 1(N41)
@@ -25109,6 +27211,7 @@
 @ucun	𒗅
 @uage	1
 @sys	AP23 1(N41)
+@sys AP24 1(N41) 125C5
 @end sign
 
 @sign 2(N41)
@@ -25118,6 +27221,7 @@
 @ucun	𒘀
 @uage	1
 @sys	AP23 2(N41)
+@sys AP24 2(N41) 12600
 @end sign
 
 @sign 3(N41)
@@ -25127,6 +27231,7 @@
 @ucun	𒘮
 @uage	1
 @sys	AP23 3(N41)
+@sys AP24 3(N41) 1262E
 @end sign
 
 @sign 4(N41)
@@ -25136,6 +27241,7 @@
 @ucun	𒙚
 @uage	1
 @sys	AP23 4(N41)
+@sys AP24 4(N41) 1265A
 @end sign
 
 @sign 1(N42)
@@ -25148,6 +27254,7 @@
 @ucun	𒗆
 @uage	1
 @sys	AP23 1(N42~a)
+@sys AP24 1(N42~a) 125C6
 @@
 @form 1(N42~b)
 @oid o0903121
@@ -25156,6 +27263,7 @@
 @ucun	𒗇
 @uage	1
 @sys	AP23 1(N42~b)
+@sys AP24 1(N42~b) 125C7
 @@
 @end sign
 
@@ -25169,6 +27277,7 @@
 @ucun	𒘁
 @uage	1
 @sys	AP23 2(N42~a)
+@sys AP24 2(N42~a) 12601
 @@
 @form 2(N42~b)
 @oid o0903124
@@ -25177,6 +27286,7 @@
 @ucun	𒘂
 @uage	1
 @sys	AP23 2(N42~b)
+@sys AP24 2(N42~b) 12602
 @@
 @end sign
 
@@ -25190,6 +27300,7 @@
 @ucun	𒘯
 @uage	1
 @sys	AP23 3(N42~a)
+@sys AP24 3(N42~a) 1262F
 @@
 @form 3(N42~b)
 @oid o0903127
@@ -25198,6 +27309,7 @@
 @ucun	𒘰
 @uage	1
 @sys	AP23 3(N42~b)
+@sys AP24 3(N42~b) 12630
 @@
 @end sign
 
@@ -25211,6 +27323,7 @@
 @ucun	𒙛
 @uage	1
 @sys	AP23 4(N42~a)
+@sys AP24 4(N42~a) 1265B
 @@
 @form 4(N42~b)
 @oid o0903130
@@ -25219,6 +27332,7 @@
 @ucun	𒙜
 @uage	1
 @sys	AP23 4(N42~b)
+@sys AP24 4(N42~b) 1265C
 @@
 @end sign
 
@@ -25229,6 +27343,7 @@
 @ucun	𒗈
 @uage	1
 @sys	AP23 1(N43)
+@sys AP24 1(N43) 125C8
 @end sign
 
 @sign 4(N43)
@@ -25238,6 +27353,7 @@
 @ucun	𒙝
 @uage	1
 @sys	AP23 4(N43)
+@sys AP24 4(N43) 1265D
 @end sign
 
 @sign 1(N44)
@@ -25247,6 +27363,7 @@
 @ucun	𒗉
 @uage	1
 @sys	AP23 1(N44)
+@sys AP24 1(N44) 125C9
 @end sign
 
 @sign 1(N45)
@@ -25256,6 +27373,7 @@
 @ucun	𒗊
 @uage	1
 @sys	LLATU:325_06 1(N45)
+@sys AP24 1(N45) 125CA
 @sys	AP23 1(N45)
 @form 1(N45~a)
 @oid o0903135
@@ -25264,6 +27382,7 @@
 @ucun	𒗋
 @uage	1
 @sys	AP23 1(N45~a)
+@sys AP24 1(N45~a) 125CB
 @@
 @form 1(N45~t)
 @oid o0903136
@@ -25279,6 +27398,7 @@
 @ucun	𒘃
 @uage	1
 @sys	AP23 2(N45)
+@sys AP24 2(N45) 12603
 @end sign
 
 @sign 3(N45)
@@ -25288,6 +27408,7 @@
 @ucun	𒘱
 @uage	1
 @sys	AP23 3(N45)
+@sys AP24 3(N45) 12631
 @end sign
 
 @sign 4(N45)
@@ -25297,6 +27418,7 @@
 @ucun	𒙞
 @uage	1
 @sys	AP23 4(N45)
+@sys AP24 4(N45) 1265E
 @end sign
 
 @sign 5(N45)
@@ -25306,6 +27428,7 @@
 @ucun	𒚂
 @uage	1
 @sys	AP23 5(N45)
+@sys AP24 5(N45) 12682
 @end sign
 
 @sign 6(N45)
@@ -25315,6 +27438,7 @@
 @ucun	𒚝
 @uage	1
 @sys	AP23 6(N45)
+@sys AP24 6(N45) 1269D
 @end sign
 
 @sign 7(N45)
@@ -25324,6 +27448,7 @@
 @ucun	𒚳
 @uage	1
 @sys	AP23 7(N45)
+@sys AP24 7(N45) 126B3
 @end sign
 
 @sign 9(N45)
@@ -25333,6 +27458,7 @@
 @ucun	𒛛
 @uage	1
 @sys	AP23 9(N45)
+@sys AP24 9(N45) 126DB
 @end sign
 
 
@@ -25344,6 +27470,7 @@
 @ucun	𒘲
 @uage	1
 @sys	AP23 3(N45@f)
+@sys AP24 3(N45@f) 12632
 @end sign
 
 @sign 4(N45@f)
@@ -25353,6 +27480,7 @@
 @ucun	𒙟
 @uage	1
 @sys	AP23 4(N45@f)
+@sys AP24 4(N45@f) 1265F
 @end sign
 
 @sign 5(N45@f)
@@ -25362,6 +27490,7 @@
 @ucun	𒚃
 @uage	1
 @sys	AP23 5(N45@f)
+@sys AP24 5(N45@f) 12683
 @end sign
 
 @sign 6(N45@f)
@@ -25371,6 +27500,7 @@
 @ucun	𒚞
 @uage	1
 @sys	AP23 6(N45@f)
+@sys AP24 6(N45@f) 1269E
 @end sign
 
 @sign 7(N45@f)
@@ -25380,6 +27510,7 @@
 @ucun	𒚴
 @uage	1
 @sys	AP23 7(N45@f)
+@sys AP24 7(N45@f) 126B4
 @end sign
 
 @sign 8(N45@f)
@@ -25389,6 +27520,7 @@
 @ucun	𒛆
 @uage	1
 @sys	AP23 8(N45@f)
+@sys AP24 8(N45@f) 126C6
 @end sign
 
 @sign 9(N45@f)
@@ -25398,6 +27530,7 @@
 @ucun	𒛜
 @uage	1
 @sys	AP23 9(N45@f)
+@sys AP24 9(N45@f) 126DC
 @end sign
 
 @sign 1(N46)
@@ -25407,6 +27540,7 @@
 @ucun	𒗍
 @uage	1
 @sys	AP23 1(N46)
+@sys AP24 1(N46) 125CD
 @end sign
 
 @sign 2(N46)
@@ -25416,6 +27550,7 @@
 @ucun	𒘅
 @uage	1
 @sys	AP23 2(N46)
+@sys AP24 2(N46) 12605
 @end sign
 
 @sign 3(N46)
@@ -25425,6 +27560,7 @@
 @ucun	𒘳
 @uage	1
 @sys	AP23 3(N46)
+@sys AP24 3(N46) 12633
 @end sign
 
 @sign 1(N46@f)
@@ -25434,6 +27570,7 @@
 @ucun	𒗎
 @uage	1
 @sys	AP23 1(N46@f)
+@sys AP24 1(N46@f) 125CE
 @end sign
 
 
@@ -25444,6 +27581,7 @@
 @ucun	𒗏
 @uage	1
 @sys	AP23 1(N47)
+@sys AP24 1(N47) 125CF
 @end sign
 
 @sign 2(N47)
@@ -25453,6 +27591,7 @@
 @ucun	𒘇
 @uage	1
 @sys	AP23 2(N47)
+@sys AP24 2(N47) 12607
 @end sign
 
 @sign 3(N47)
@@ -25462,6 +27601,7 @@
 @ucun	𒘴
 @uage	1
 @sys	AP23 3(N47)
+@sys AP24 3(N47) 12634
 @end sign
 
 @sign 1(N48)
@@ -25471,6 +27611,7 @@
 @ucun	𒗐
 @uage	1
 @sys	AP23 1(N48)
+@sys AP24 1(N48) 125D0
 @end sign
 
 @sign 2(N48)
@@ -25480,6 +27621,7 @@
 @ucun	𒘈
 @uage	1
 @sys	AP23 2(N48)
+@sys AP24 2(N48) 12608
 @end sign
 
 @sign 3(N48)
@@ -25489,6 +27631,7 @@
 @ucun	𒘵
 @uage	1
 @sys	AP23 3(N48)
+@sys AP24 3(N48) 12635
 @end sign
 
 @sign 4(N48)
@@ -25498,6 +27641,7 @@
 @ucun	𒙠
 @uage	1
 @sys	AP23 4(N48)
+@sys AP24 4(N48) 12660
 @end sign
 
 @sign 5(N48)
@@ -25507,6 +27651,7 @@
 @ucun	𒚄
 @uage	1
 @sys	AP23 5(N48)
+@sys AP24 5(N48) 12684
 @end sign
 
 @sign 6(N48)
@@ -25516,6 +27661,7 @@
 @ucun	𒚟
 @uage	1
 @sys	AP23 6(N48)
+@sys AP24 6(N48) 1269F
 @end sign
 
 @sign 7(N48)
@@ -25525,6 +27671,7 @@
 @ucun	𒚵
 @uage	1
 @sys	AP23 7(N48)
+@sys AP24 7(N48) 126B5
 @end sign
 
 
@@ -25535,6 +27682,7 @@
 @ucun	𒗒
 @uage	1
 @sys	AP23 1(N49)
+@sys AP24 1(N49) 125D2
 @end sign
 
 @sign 2(N49)
@@ -25544,6 +27692,7 @@
 @ucun	𒘉
 @uage	1
 @sys	AP23 2(N49)
+@sys AP24 2(N49) 12609
 @end sign
 
 @sign 3(N49)
@@ -25553,6 +27702,7 @@
 @ucun	𒘶
 @uage	1
 @sys	AP23 3(N49)
+@sys AP24 3(N49) 12636
 @end sign
 
 @sign 4(N49)
@@ -25562,6 +27712,7 @@
 @ucun	𒙡
 @uage	1
 @sys	AP23 4(N49)
+@sys AP24 4(N49) 12661
 @end sign
 
 @sign 5(N49)
@@ -25571,6 +27722,7 @@
 @ucun	𒚅
 @uage	1
 @sys	AP23 5(N49)
+@sys AP24 5(N49) 12685
 @end sign
 
 @sign 1(N50)
@@ -25580,6 +27732,7 @@
 @ucun	𒗓
 @uage	1
 @sys	AP23 1(N50)
+@sys AP24 1(N50) 125D3
 @end sign
 
 @sign 2(N50)
@@ -25589,6 +27742,7 @@
 @ucun	𒘊
 @uage	1
 @sys	AP23 2(N50)
+@sys AP24 2(N50) 1260A
 @end sign
 
 @sign 3(N50)
@@ -25598,6 +27752,7 @@
 @ucun	𒘷
 @uage	1
 @sys	AP23 3(N50)
+@sys AP24 3(N50) 12637
 @end sign
 
 @sign 4(N50)
@@ -25607,6 +27762,7 @@
 @ucun	𒙢
 @uage	1
 @sys	AP23 4(N50)
+@sys AP24 4(N50) 12662
 @end sign
 
 @sign 5(N50)
@@ -25616,6 +27772,7 @@
 @ucun	𒚆
 @uage	1
 @sys	AP23 5(N50)
+@sys AP24 5(N50) 12686
 @end sign
 
 
@@ -25630,6 +27787,7 @@
 @ucun	𒚡
 @uage	1
 @sys	AP23 6(N51@f)
+@sys AP24 6(N51@f) 126A1
 @end sign
 
 @sign 7(N51@f)
@@ -25639,6 +27797,7 @@
 @ucun	𒚷
 @uage	1
 @sys	AP23 7(N51@f)
+@sys AP24 7(N51@f) 126B7
 @end sign
 
 
@@ -25650,6 +27809,7 @@
 @ucun	𒗔
 @uage	1
 @sys	AP23 1(N51)
+@sys AP24 1(N51) 125D4
 @end sign
 
 @sign 2(N51)
@@ -25659,6 +27819,7 @@
 @ucun	𒘋
 @uage	1
 @sys	AP23 2(N51)
+@sys AP24 2(N51) 1260B
 @end sign
 
 @sign 3(N51)
@@ -25668,6 +27829,7 @@
 @ucun	𒘸
 @uage	1
 @sys	AP23 3(N51)
+@sys AP24 3(N51) 12638
 @end sign
 
 @sign 4(N51)
@@ -25677,6 +27839,7 @@
 @ucun	𒙣
 @uage	1
 @sys	AP23 4(N51)
+@sys AP24 4(N51) 12663
 @end sign
 
 @sign 5(N51)
@@ -25686,6 +27849,7 @@
 @ucun	𒚇
 @uage	1
 @sys	AP23 5(N51)
+@sys AP24 5(N51) 12687
 @end sign
 
 @sign 6(N51)
@@ -25695,6 +27859,7 @@
 @ucun	𒚠
 @uage	1
 @sys	AP23 6(N51)
+@sys AP24 6(N51) 126A0
 @end sign
 
 @sign 7(N51)
@@ -25704,6 +27869,7 @@
 @ucun	𒚶
 @uage	1
 @sys	AP23 7(N51)
+@sys AP24 7(N51) 126B6
 @end sign
 
 @sign 8(N51)
@@ -25713,6 +27879,7 @@
 @ucun	𒛇
 @uage	1
 @sys	AP23 8(N51)
+@sys AP24 8(N51) 126C7
 @end sign
 
 @sign 1(N52)
@@ -25722,6 +27889,7 @@
 @ucun	𒗖
 @uage	1
 @sys	AP23 1(N52)
+@sys AP24 1(N52) 125D6
 @end sign
 
 @sign 2(N52)
@@ -25731,6 +27899,7 @@
 @ucun	𒘍
 @uage	1
 @sys	AP23 2(N52)
+@sys AP24 2(N52) 1260D
 @end sign
 
 @sign 3(N52)
@@ -25740,6 +27909,7 @@
 @ucun	𒘺
 @uage	1
 @sys	AP23 3(N52)
+@sys AP24 3(N52) 1263A
 @end sign
 
 @sign 4(N52)
@@ -25749,6 +27919,7 @@
 @ucun	𒙥
 @uage	1
 @sys	AP23 4(N52)
+@sys AP24 4(N52) 12665
 @end sign
 
 @sign 5(N52)
@@ -25758,6 +27929,7 @@
 @ucun	𒚉
 @uage	1
 @sys	AP23 5(N52)
+@sys AP24 5(N52) 12689
 @end sign
 
 @sign 3(N53)
@@ -25767,6 +27939,7 @@
 @ucun	𒘻
 @uage	1
 @sys	AP23 3(N53)
+@sys AP24 3(N53) 1263B
 @end sign
 
 @sign 1(N54)
@@ -25776,6 +27949,7 @@
 @ucun	𒗗
 @uage	1
 @sys	AP23 1(N54)
+@sys AP24 1(N54) 125D7
 @end sign
 
 @sign 2(N54)
@@ -25785,6 +27959,7 @@
 @ucun	𒘎
 @uage	1
 @sys	AP23 2(N54)
+@sys AP24 2(N54) 1260E
 @end sign
 
 @sign 3(N54)
@@ -25794,6 +27969,7 @@
 @ucun	𒘼
 @uage	1
 @sys	AP23 3(N54)
+@sys AP24 3(N54) 1263C
 @end sign
 
 @sign 4(N54)
@@ -25803,6 +27979,7 @@
 @ucun	𒙦
 @uage	1
 @sys	AP23 4(N54)
+@sys AP24 4(N54) 12666
 @end sign
 
 @sign 5(N54)
@@ -25812,6 +27989,7 @@
 @ucun	𒚊
 @uage	1
 @sys	AP23 5(N54)
+@sys AP24 5(N54) 1268A
 @end sign
 
 @sign 1(N55)
@@ -25821,6 +27999,7 @@
 @ucun	𒗘
 @uage	1
 @sys	AP23 1(N55)
+@sys AP24 1(N55) 125D8
 @end sign
 
 @sign 1(N56)
@@ -25830,6 +28009,7 @@
 @ucun	𒗙
 @uage	1
 @sys	AP23 1(N56)
+@sys AP24 1(N56) 125D9
 @end sign
 
 @sign 2(N56)
@@ -25839,6 +28019,7 @@
 @ucun	𒘏
 @uage	1
 @sys	AP23 2(N56)
+@sys AP24 2(N56) 1260F
 @end sign
 
 @sign 1(N57)
@@ -25851,6 +28032,7 @@
 @ucun	𒗚
 @uage	1
 @sys	LLATU:326_01 1(N57)
+@sys AP24 1(N57) 125DA
 @sys	AP23 1(N57)
 @end sign
 
@@ -25861,6 +28043,7 @@
 @ucun	𒰧
 @uage	1
 @sys	AP23 |1(N57).AB2|
+@sys AP24 |1(N57).AB₂| 12C27
 @end sign
 
 @sign |1(N57).BU₃|
@@ -25904,6 +28087,7 @@
 @ucun	𒰨
 @uage	1
 @sys	LLATU:291_03 ŠAH₂~a+1(N57)
+@sys AP24 |1(N57).ŠAH₂~a| 12C28
 @sys	AP23 |1(N57).SZAH2~a|
 @@
 @end sign
@@ -25916,6 +28100,7 @@
 @ucun	𒰩
 @uage	1
 @sys	LLATU:298_01 ŠUBUR+1(N57)
+@sys AP24 |1(N57).ŠUBUR| 12C29
 @sys	AP23 |1(N57).SZUBUR|
 @form |1(N57).ŠUBUR~v1|
 @oid o0903221
@@ -25925,6 +28110,7 @@
 @ucun	𒰪
 @uage	1
 @sys	AP23 |1(N57).SZUBUR|
+@sys AP24 |1(N57).ŠUBUR~v1| 12C2A
 @@
 @end sign
 
@@ -25937,6 +28123,7 @@
 @ucun	𒘐
 @uage	1
 @sys	LLATU:326_02 2(N57)
+@sys AP24 2(N57) 12610
 @sys	AP23 2(N57)
 @end sign
 
@@ -25948,6 +28135,7 @@
 @ucun	𒰮
 @uage	1
 @sys	AP23 |2(N57).AB2|
+@sys AP24 |2(N57).AB₂| 12C2E
 @end sign
 
 @sign |2(N57).BIR₃|
@@ -25971,6 +28159,7 @@
 @ucun	𒰯
 @uage	1
 @sys	AP23 |2(N57).KU6~a|
+@sys AP24 |2(N57).KU₆~a| 12C2F
 @@
 @end sign
 
@@ -25990,6 +28179,7 @@
 @ucun	𒰱
 @uage	1
 @sys	AP23 |2(N57).SU~a|
+@sys AP24 |2(N57).SU~a| 12C31
 @@
 @end sign
 
@@ -26000,6 +28190,7 @@
 @ucun	𒰰
 @uage	1
 @sys	LLATU:298_02 ŠUBUR+2(N57)
+@sys AP24 |2(N57).ŠUBUR| 12C30
 @sys	AP23 |2(N57).SZUBUR|
 @end sign
 
@@ -26023,6 +28214,7 @@
 @ucun	𒘽
 @uage	1
 @sys	LLATU:326_03 3(N57)
+@sys AP24 3(N57) 1263D
 @sys	AP23 3(N57)
 @end sign
 
@@ -26033,6 +28225,7 @@
 @ucun	𒰲
 @uage	1
 @sys	AP23 |3(N57).AMAR|
+@sys AP24 |3(N57).AMAR| 12C32
 @end sign
 
 @sign |3(N57).AZ|
@@ -26059,6 +28252,7 @@
 @ucun	𒰳
 @uage	1
 @sys	AP23 |3(N57).BARA3|
+@sys AP24 |3(N57).BARA₃| 12C33
 @end sign
 
 @sign |3(N57).E₂|
@@ -26071,6 +28265,7 @@
 @ucun	𒰴
 @uage	1
 @sys	AP23 |3(N57).E2~b|
+@sys AP24 |3(N57).E₂~b| 12C34
 @@
 @end sign
 
@@ -26087,6 +28282,7 @@
 @ucun	𒰵
 @uage	1
 @sys	AP23 |3(N57).GAR|
+@sys AP24 |3(N57).GAR| 12C35
 @end sign
 
 @sign |3(N57).NUNUZ|
@@ -26100,6 +28296,7 @@
 @ucun	𒰶
 @uage	1
 @sys	AP23 |3(N57).NUNUZ~a1|
+@sys AP24 |3(N57).NUNUZ~a1| 12C36
 @@
 @form |3(N57).NUNUZ~c|
 @oid o0903246
@@ -26108,6 +28305,7 @@
 @ucun	𒰷
 @uage	1
 @sys	AP23 |3(N57).NUNUZ~c|
+@sys AP24 |3(N57).NUNUZ~c| 12C37
 @@
 @end sign
 
@@ -26122,6 +28320,7 @@
 @ucun	𒰸
 @uage	1
 @sys	LLATU:275_04 PIRIG~b1+3(N57)
+@sys AP24 |3(N57).PIRIG~b1| 12C38
 @sys	AP23 |3(N57).PIRIG~b1|
 @@
 @end sign
@@ -26152,6 +28351,7 @@
 @ucun	𒰹
 @uage	1
 @sys	LLATU:298_03 ŠUBUR+3(N57)
+@sys AP24 |3(N57).ŠUBUR| 12C39
 @sys	AP23 |3(N57).SZUBUR|
 @end sign
 
@@ -26185,6 +28385,7 @@
 @ucun	𒙧
 @uage	1
 @sys	LLATU:327_01 4(N57)
+@sys AP24 4(N57) 12667
 @sys	AP23 4(N57)
 @end sign
 
@@ -26195,6 +28396,7 @@
 @ucun	𒰻
 @uage	1
 @sys	AP23 |4(N57).AMAR|
+@sys AP24 |4(N57).AMAR| 12C3B
 @end sign
 
 @sign |4(N57).GAR|
@@ -26204,6 +28406,7 @@
 @ucun	𒰼
 @uage	1
 @sys	AP23 |4(N57).GAR|
+@sys AP24 |4(N57).GAR| 12C3C
 @end sign
 
 @sign |4(N57).KU₃|
@@ -26216,6 +28419,7 @@
 @ucun	𒰽
 @uage	1
 @sys	AP23 |4(N57).KU3~a|
+@sys AP24 |4(N57).KU₃~a| 12C3D
 @@
 @end sign
 
@@ -26229,6 +28433,7 @@
 @ucun	𒰾
 @uage	1
 @sys	AP23 |4(N57).NI~b|
+@sys AP24 |4(N57).NI~b| 12C3E
 @@
 @end sign
 
@@ -26239,6 +28444,7 @@
 @ucun	𒚋
 @uage	1
 @sys	LLATU:327_02 5(N57)
+@sys AP24 5(N57) 1268B
 @sys	AP23 5(N57)
 @end sign
 
@@ -26249,6 +28455,7 @@
 @ucun	𒰿
 @uage	1
 @sys	AP23 |5(N57).GAR|
+@sys AP24 |5(N57).GAR| 12C3F
 @end sign
 
 @sign |5(N57).KU₃|
@@ -26261,6 +28468,7 @@
 @ucun	𒱀
 @uage	1
 @sys	AP23 |5(N57).KU3~a|
+@sys AP24 |5(N57).KU₃~a| 12C40
 @@
 @end sign
 
@@ -26271,6 +28479,7 @@
 @ucun	𒚢
 @uage	1
 @sys	AP23 6(N57)
+@sys AP24 6(N57) 126A2
 @form 6(N57)~v1
 @oid o0903269
 @uname	PROTO-CUNEIFORM NUMBER SIX-N57 VARIANT 1
@@ -26278,6 +28487,7 @@
 @ucun	𒚣
 @uage	1
 @sys	AP23 6(N57)
+@sys AP24 6(N57)~v1 126A3
 @@
 @end sign
 
@@ -26288,6 +28498,7 @@
 @ucun	𒱁
 @uage	1
 @sys	AP23 |6(N57).GAR|
+@sys AP24 |6(N57).GAR| 12C41
 @end sign
 
 @sign |6(N57).KU₃|
@@ -26300,6 +28511,7 @@
 @ucun	𒱂
 @uage	1
 @sys	AP23 |6(N57).KU3~a|
+@sys AP24 |6(N57).KU₃~a| 12C42
 @@
 @end sign
 
@@ -26310,6 +28522,7 @@
 @ucun	𒚸
 @uage	1
 @sys	LLATU:327_03 7(N57)
+@sys AP24 7(N57) 126B8
 @sys	AP23 7(N57)
 @end sign
 
@@ -26326,6 +28539,7 @@
 @ucun	𒛉
 @uage	1
 @sys	AP23 8(N57)
+@sys AP24 8(N57) 126C9
 @end sign
 
 @sign |8(N57).NI|
@@ -26339,6 +28553,7 @@
 @unote	This is an incorrect description of the sign form; LLATU |NI~b×8N57| is better, but the N57 are angled, so we should use |NI~b×8(N58@t)| to match other N57/N58 tenu.
 @uage	1
 @sys	LLATU:268_02 NI~b+8(N57)
+@sys AP24 |8(N57).NI~b| 12C43
 @sys	AP23 |8(N57).NI~b|
 @@
 @end sign
@@ -26350,6 +28565,7 @@
 @ucun	𒛞
 @uage	1
 @sys	AP23 9(N57)
+@sys AP24 9(N57) 126DE
 @end sign
 
 @sign 10(N57)
@@ -26359,6 +28575,7 @@
 @ucun	𒛣
 @uage	1
 @sys	AP23 10(N57)
+@sys AP24 10(N57) 126E3
 @end sign
 
 @compoundonly	1(N57@t)
@@ -26371,6 +28588,7 @@
 @ucun	𒗛
 @uage	1
 @sys	LLATU:327_04 1(N58)
+@sys AP24 1(N58) 125DB
 @sys	AP23 1(N58)
 @compoundonly 1(N58)~a
 @@
@@ -26383,6 +28601,7 @@
 @list	ZATU043
 @list	BAU290
 @sys	LLATU:188_03 BAD+DIŠ~a
+@sys AP24 |1(N58).BAD| 12C2B
 @sys	AP23 |1(N58).BAD~a|
 @uname	PROTO-CUNEIFORM SIGN ONE-N58 BESIDE BAD-A
 @list	U+12C2B
@@ -26396,6 +28615,7 @@
 @ucun	𒰬
 @uage	1
 @sys	LLATU:188_04 BAD+DIŠ~b
+@sys AP24 |1(N58)~a.BAD~a| 12C2C
 @sys	AP23 |1(N58).BAD~b|
 @@
 @form |1(N58)~a.BAD|
@@ -26406,6 +28626,7 @@
 @ucun	𒰭
 @uage	1
 @sys	AP23 |1(N58).BAD~b|
+@sys AP24 |1(N58)~a.BAD| 12C2D
 @@
 @end sign
 
@@ -26416,6 +28637,7 @@
 @ucun	𒘑
 @uage	1
 @sys	AP23 2(N58)
+@sys AP24 2(N58) 12611
 @end sign
 
 @sign 3(N58)
@@ -26425,6 +28647,7 @@
 @ucun	𒘾
 @uage	1
 @sys	AP23 3(N58)
+@sys AP24 3(N58) 1263E
 @end sign
 
 @sign |3(N58).UR₃|
@@ -26437,6 +28660,7 @@
 @ucun	𒰺
 @uage	1
 @sys	LLATU:309_02 UR₃~b1+3(N58)
+@sys AP24 |3(N58).UR₃~b1| 12C3A
 @sys	AP23 |3(N58).UR3~b1|
 @@
 @end sign
@@ -26448,6 +28672,7 @@
 @ucun	𒙨
 @uage	1
 @sys	LLATU:327_05 4(N58)
+@sys AP24 4(N58) 12668
 @sys	AP23 4(N58)
 @end sign
 
@@ -26458,6 +28683,7 @@
 @ucun	𒚌
 @uage	1
 @sys	AP23 5(N58)
+@sys AP24 5(N58) 1268C
 @end sign
 
 @sign 8(N58)
@@ -26467,6 +28693,7 @@
 @ucun	𒛊
 @uage	1
 @sys	AP23 8(N58)
+@sys AP24 8(N58) 126CA
 @end sign
 
 @sign 9(N58)
@@ -26476,6 +28703,7 @@
 @ucun	𒛟
 @uage	1
 @sys	LLATU:327_06 9(N58)
+@sys AP24 9(N58) 126DF
 @sys	AP23 9(N58)
 @end sign
 
@@ -26486,6 +28714,7 @@
 @ucun	𒛤
 @uage	1
 @sys	LLATU:327_07 10(N58)
+@sys AP24 10(N58) 126E4
 @sys	AP23 10(N58)
 @end sign
 
@@ -26496,6 +28725,7 @@
 @ucun	𒛦
 @uage	1
 @sys	LLATU:327_08 12(N58)
+@sys AP24 12(N58) 126E6
 @sys	AP23 12(N58)
 @end sign
 
@@ -26507,6 +28737,7 @@
 @ucun	𒗜
 @uage	1
 @sys	AP23 |1(N58@t)|
+@sys AP24 1(N58@t) 125DC
 @end sign
 
 @sign 1(N59)
@@ -26523,6 +28754,7 @@
 @ucun	𒘒
 @uage	1
 @sys	AP23 2(N59)
+@sys AP24 2(N59) 12612
 @end sign
 
 @sign 3(N59)
@@ -26532,6 +28764,7 @@
 @ucun	𒘿
 @uage	1
 @sys	AP23 3(N59)
+@sys AP24 3(N59) 1263F
 @end sign
 
 @sign 4(N59)
@@ -26541,6 +28774,7 @@
 @ucun	𒙩
 @uage	1
 @sys	AP23 4(N59)
+@sys AP24 4(N59) 12669
 @end sign
 
 @sign 6(N59)
@@ -26563,6 +28797,7 @@
 @ucun	𒗝
 @uage	1
 @sys	AP23 1(N60)
+@sys AP24 1(N60) 125DD
 @end sign
 
 @sign 3(N61)
@@ -26572,6 +28807,7 @@
 @ucun	𒙀
 @uage	1
 @sys	AP23 3(N61)
+@sys AP24 3(N61) 12640
 @end sign
 
 @sign 4(N62)
@@ -26581,6 +28817,7 @@
 @ucun	𒙪
 @uage	1
 @sys	AP23 4(N62)
+@sys AP24 4(N62) 1266A
 @end sign
 
 @sign 1(N63)
@@ -26590,6 +28827,7 @@
 @ucun	𒗞
 @uage	1
 @sys	AP23 1(N63)
+@sys AP24 1(N63) 125DE
 @end sign
 
 

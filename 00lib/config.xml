@@ -8,8 +8,9 @@
   <logo type="text">PCSL</logo>
   <option name="asl-domain" value="pc"/>
   <option name="asl-auto" value="no"/>
-  <option name="asl-insts" value="yes"/>
-  <option name="asl-nokeys" value="yes"/>
+  <!--<option name="asl-insts" value="yes"/>-->
+  <!--<option name="asl-nokeys" value="yes"/>-->
+  <option name="asl-corpus" value="yes"/>
   <option name="asl-stats" value="yes"/>
   <option name="build-approved-policy" value="atf"/>
   <option name="build-outlined-policy" value="atf"/>
