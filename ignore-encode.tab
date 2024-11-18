@@ -1,0 +1,58 @@
+1(N16)	encode in ACN
+1(N17)	encode in ACN? (possibly another fraction like N16)
+1(N23)	encode in Pelm
+1(N26)~v1	alternate stacking pattern
+1(N27)~v1	alternate stacking pattern
+1(N29~a)~v1	alternate stacking pattern
+1(N30~a)~v1	alternate stacking pattern
+1(N44)	do not encode; PUA
+1(N48@f)	no longer in play
+1(N55)	do not encode; PUA
+1(N57)	encode in PC
+1(N58)	encode in PC
+1(N58@t)	encode in PC
+10(N01)	"DNE; impossible number", use PUA
+10(N14)	"DNE; impossible number", use PUA
+10(N14@f)	"DNE; impossible number", use PUA
+10(N57)	encode in PC
+10(N58)	encode in PC
+12(N14)	"DNE; impossible number", use PUA
+12(N58)	encode in PC
+2(LAGAB~a)	encode in PC
+2(N23)	encode in Pelm
+2(N57)	encode in PC
+2(N58)	encode in PC
+2(N59)	variant N04?
+3(N23)	encode in Pelm
+3(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+3(N53)	do not encode; PUA
+3(N57)	encode in PC
+3(N58)	encode in PC
+3(N59)	variant N04?
+4(LAGAB~a)	encode in PC
+4(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+4(N57)	encode in PC
+4(N58)	encode in PC
+4(N59)	variant N04?
+5(N14)~v1	alternate stacking pattern
+5(N23)	encode in Pelm
+5(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+5(N57)	encode in PC
+5(N58)	encode in PC
+6(LAGAB~a)	encode in PC
+6(N14)~v1	alternate stacking pattern
+6(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+6(N57)	encode in PC
+6(N57)~v1	encode in PC
+7(N23)	encode in Pelm
+7(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+7(N57)	encode in PC
+8(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+8(N57)	encode in PC
+8(N58)	encode in PC
+9(N01)~v1	alternate stacking pattern
+9(N18)~v1	alternate stacking pattern
+9(N19)~v1	alternate stacking pattern
+9(N45@f)	encode in ACN; also note Chambon's N45@f″ as possible addition
+9(N57)	encode in PC
+9(N58)	encode in PC
