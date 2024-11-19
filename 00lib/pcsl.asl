@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0xF2580-0xF2EC6 xFFFF8-0xFFFFD
+@listdef U+ 0x12550-0x12686 0xF2580-0xF2EC6 0xFFFF8-0xFFFFD
 @lit Unofficial unicode codepoints used in AP23, plus some PUA entries
 	for added signs. CP 12550-12686 are those in Archaic Cuneiform
 	Numerals; 0xF2580-0xF2EC6 are AP23 CP + 0xE0000.
