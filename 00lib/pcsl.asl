@@ -80,9 +80,9 @@
 
 @sysdef RKEZ R.K.Englund, “Liste der zusätzlichen Zeichen der Text der 33. und 34. Kampagne” Pp. 347-351 in ZATU.
 
-@inote @images 00etc/im-l23190.tab
+@images 00etc/im-l23190.tab
 
-@inote @images 00etc/im-add.tab
+@images 00etc/im-add.tab
 
 @sign A
 @oid o0900000
