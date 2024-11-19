@@ -1,6 +1,9 @@
 @font-face {
    font-family: 'PC';
-   src: url('/pcsl/fonts/PC-240412.ttf');
+   src: url('/pcsl/fonts/pcsl-acn-ap-to-pua.ttf');
 }
 
 .ofs-pc { font-family: "PC"; }
+
+.pcslpc { font-family: "PC"; font-size: 200%; }
+
