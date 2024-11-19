@@ -25033,20 +25033,22 @@
 
 @sign 1(N01@f)
 @oid o0902848
-@uname	PROTO-CUNEIFORM NUMBER ONE-N1 FLAT
-@list	U+F2581
-@ucun 󲖁
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N01 FLAT
+@list	U+1264C
+@sys ACN L2/24-210R
+@ucun	𒙌
+@uage	1.1
 @sys	AP23 1(N01@f)
 @sys AP24 1(N01@f) 12581
 @end sign
 
 @sign 2(N01@f)
 @oid o0902849
-@uname	PROTO-CUNEIFORM NUMBER TWO-N1 FLAT
-@list	U+F25E0
-@ucun 󲗠
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N01 FLAT
+@list	U+1264D
+@sys ACN L2/24-210R
+@ucun	𒙍
+@uage	1.1
 @sys	AP23 2(N01@f)
 @sys AP24 2(N01@f) 125E0
 @end sign
@@ -25055,10 +25057,11 @@
 
 @sign 5(N01@f)
 @oid o0902852
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N1 FLAT
-@list	U+F266D
-@ucun 󲙭
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N01 FLAT
+@list	U+12650
+@sys ACN L2/24-210R
+@ucun	𒙐
+@uage	1.1
 @sys	AP23 5(N01@f)
 @sys AP24 5(N01@f) 1266D
 @end sign
@@ -25068,30 +25071,33 @@
 
 @sign 9(N01@f)
 @oid o0902856
-@uname	PROTO-CUNEIFORM NUMBER NINE-N1 FLAT
-@list	U+F26CD
-@ucun 󲛍
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N01 FLAT
+@list	U+12654
+@sys ACN L2/24-210R
+@ucun	𒙔
+@uage	1.1
 @sys	AP23 9(N01@f)
 @sys AP24 9(N01@f) 126CD
 @end sign
 
 @sign 1(N01@r)
 @oid o0902857
-@uname	PROTO-CUNEIFORM NUMBER ONE-N1 REVERSED
-@list	U+F2582
-@ucun 󲖂
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N01 REVERSED
+@list	U+12589
+@sys ACN L2/24-210R
+@ucun	𒖉
+@uage	1.1
 @sys	AP23 |1(N01@r)|
 @sys AP24 1(N01@r) 12582
 @end sign
 
 @sign 1(N01)
 @oid o0902858
-@uname	PROTO-CUNEIFORM NUMBER ONE-N1
-@list	U+F2580
-@ucun 󲖀
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N01
+@list	U+12550
+@sys ACN L2/24-210R
+@ucun	𒕐
+@uage	1.1
 @sys	LLATU:319_06 1(N1)
 @sys AP24 1(N01) 12580
 @sys	AP23 1(N01)
@@ -25099,10 +25105,11 @@
 
 @sign 2(N01)
 @oid o0902859
-@uname	PROTO-CUNEIFORM NUMBER TWO-N1
-@list	U+F25DF
-@ucun 󲗟
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N01
+@list	U+12551
+@sys ACN L2/24-210R
+@ucun	𒕑
+@uage	1.1
 @sys	LLATU:320_01 2(N1)
 @sys AP24 2(N01) 125DF
 @sys	AP23 2(N01)
@@ -25110,10 +25117,11 @@
 
 @sign 3(N01)
 @oid o0902860
-@uname	PROTO-CUNEIFORM NUMBER THREE-N1
-@list	U+F2614
-@ucun 󲘔
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N01
+@list	U+12552
+@sys ACN L2/24-210R
+@ucun	𒕒
+@uage	1.1
 @sys	LLATU:320_02 3(N1)
 @sys AP24 3(N01) 12614
 @sys	AP23 3(N01)
@@ -25121,10 +25129,11 @@
 
 @sign 4(N01)
 @oid o0902861
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N1
-@list	U+F2641
-@ucun 󲙁
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N01
+@list	U+12553
+@sys ACN L2/24-210R
+@ucun	𒕓
+@uage	1.1
 @sys	LLATU:321_01 4(N1)
 @sys AP24 4(N01) 12641
 @sys	AP23 4(N01)
@@ -25132,10 +25141,11 @@
 
 @sign 5(N01)
 @oid o0902862
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N1
-@list	U+F266C
-@ucun 󲙬
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N01
+@list	U+12554
+@sys ACN L2/24-210R
+@ucun	𒕔
+@uage	1.1
 @sys	LLATU:321_02 5(N1)
 @sys AP24 5(N01) 1266C
 @sys	AP23 5(N01)
@@ -25143,10 +25153,11 @@
 
 @sign 6(N01)
 @oid o0902863
-@uname	PROTO-CUNEIFORM NUMBER SIX-N1
-@list	U+F268D
-@ucun 󲚍
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N01
+@list	U+12555
+@sys ACN L2/24-210R
+@ucun	𒕕
+@uage	1.1
 @sys	LLATU:321_03 6(N1)
 @sys AP24 6(N01) 1268D
 @sys	AP23 6(N01)
@@ -25154,20 +25165,22 @@
 
 @sign 7(N01)
 @oid o0902864
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N1
-@list	U+F26A5
-@ucun 󲚥
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N01
+@list	U+12556
+@sys ACN L2/24-210R
+@ucun	𒕖
+@uage	1.1
 @sys	AP23 7(N01)
 @sys AP24 7(N01) 126A5
 @end sign
 
 @sign 8(N01)
 @oid o0902865
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N1
-@list	U+F26B9
-@ucun 󲚹
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N01
+@list	U+12557
+@sys ACN L2/24-210R
+@ucun	𒕗
+@uage	1.1
 @sys	LLATU:322_01 8(N1)
 @sys AP24 8(N01) 126B9
 @sys	AP23 8(N01)
@@ -25175,10 +25188,11 @@
 
 @sign 9(N01)
 @oid o0902866
-@uname	PROTO-CUNEIFORM NUMBER NINE-N1
-@list	U+F26CB
-@ucun 󲛋
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N01
+@list	U+12558
+@sys ACN L2/24-210R
+@ucun	𒕘
+@uage	1.1
 @sys	LLATU:322_02 9(N1)
 @sys AP24 9(N01) 126CB
 @sys	AP23 9(N01)
@@ -25206,10 +25220,11 @@
 @sign 1(N02)
 @oid o0902869
 @list	ZATU606
-@uname	PROTO-CUNEIFORM NUMBER ONE-N2
-@list	U+F2583
-@ucun 󲖃
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N02
+@list	U+125BE
+@sys ACN L2/24-210R
+@ucun	𒖾
+@uage	1.1
 @sys	LLATU:322_03 1(N2)
 @sys AP24 1(N02) 12583
 @sys	AP23 1(N02)
@@ -25227,130 +25242,143 @@
 
 @sign 2(N02)
 @oid o0902871
-@uname	PROTO-CUNEIFORM NUMBER TWO-N2
-@list	U+F25E1
-@ucun 󲗡
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N02
+@list	U+125BF
+@sys ACN L2/24-210R
+@ucun	𒖿
+@uage	1.1
 @sys	AP23 2(N02)
 @sys AP24 2(N02) 125E1
 @end sign
 
 @sign 3(N02)
 @oid o0902872
-@uname	PROTO-CUNEIFORM NUMBER THREE-N2
-@list	U+F2616
-@ucun 󲘖
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N02
+@list	U+125C0
+@sys ACN L2/24-210R
+@ucun	𒗀
+@uage	1.1
 @sys	AP23 3(N02)
 @sys AP24 3(N02) 12616
 @end sign
 
 @sign 4(N02)
 @oid o0902873
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N2
-@list	U+F2643
-@ucun 󲙃
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N02
+@list	U+125C1
+@sys ACN L2/24-210R
+@ucun	𒗁
+@uage	1.1
 @sys	AP23 4(N02)
 @sys AP24 4(N02) 12643
 @end sign
 
 @sign 5(N02)
 @oid o0902874
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N2
-@list	U+F266E
-@ucun 󲙮
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N02
+@list	U+125C2
+@sys ACN L2/24-210R
+@ucun	𒗂
+@uage	1.1
 @sys	AP23 5(N02)
 @sys AP24 5(N02) 1266E
 @end sign
 
 @sign 6(N02)
 @oid o0902875
-@uname	PROTO-CUNEIFORM NUMBER SIX-N2
-@list	U+F268F
-@ucun 󲚏
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N02
+@list	U+125C3
+@sys ACN L2/24-210R
+@ucun	𒗃
+@uage	1.1
 @sys	AP23 6(N02)
 @sys AP24 6(N02) 1268F
 @end sign
 
 @sign 7(N02)
 @oid o0902876
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N2
-@list	U+F26A7
-@ucun 󲚧
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N02
+@list	U+125C4
+@sys ACN L2/24-210R
+@ucun	𒗄
+@uage	1.1
 @sys	AP23 7(N02)
 @sys AP24 7(N02) 126A7
 @end sign
 
 @sign 8(N02)
 @oid o0902877
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N2
-@list	U+F26BB
-@ucun 󲚻
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N02
+@list	U+125C5
+@sys ACN L2/24-210R
+@ucun	𒗅
+@uage	1.1
 @sys	AP23 8(N02)
 @sys AP24 8(N02) 126BB
 @end sign
 
 @sign 9(N02)
 @oid o0902878
-@uname	PROTO-CUNEIFORM NUMBER NINE-N2
-@list	U+F26CE
-@ucun 󲛎
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N02
+@list	U+125C6
+@sys ACN L2/24-210R
+@ucun	𒗆
+@uage	1.1
 @sys	AP23 9(N02)
 @sys AP24 9(N02) 126CE
 @end sign
 
 @sign 1(N03)
 @oid o0902879
-@uname	PROTO-CUNEIFORM NUMBER ONE-N3
-@list	U+F2584
-@ucun 󲖄
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N03
+@list	U+125EF
+@sys ACN L2/24-210R
+@ucun	𒗯
+@uage	1.1
 @sys	AP23 1(N03)
 @sys AP24 1(N03) 12584
 @end sign
 
 @sign 2(N03)
 @oid o0902880
-@uname	PROTO-CUNEIFORM NUMBER TWO-N3
-@list	U+F25E2
-@ucun 󲗢
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N03
+@list	U+125F0
+@sys ACN L2/24-210R
+@ucun	𒗰
+@uage	1.1
 @sys	AP23 2(N03)
 @sys AP24 2(N03) 125E2
 @end sign
 
 @sign 3(N03)
 @oid o0902881
-@uname	PROTO-CUNEIFORM NUMBER THREE-N3
-@list	U+F2617
-@ucun 󲘗
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N03
+@list	U+125F1
+@sys ACN L2/24-210R
+@ucun	𒗱
+@uage	1.1
 @sys	AP23 3(N03)
 @sys AP24 3(N03) 12617
 @end sign
 
 @sign 4(N03)
 @oid o0902882
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N3
-@list	U+F2644
-@ucun 󲙄
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N03
+@list	U+125F2
+@sys ACN L2/24-210R
+@ucun	𒗲
+@uage	1.1
 @sys	AP23 4(N03)
 @sys AP24 4(N03) 12644
 @end sign
 
 @sign 5(N03)
 @oid o0902883
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N3
-@list	U+F266F
-@ucun 󲙯
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N03
+@list	U+125F3
+@sys ACN L2/24-210R
+@ucun	𒗳
+@uage	1.1
 @sys	AP23 5(N03)
 @sys AP24 5(N03) 1266F
 @end sign
@@ -25358,10 +25386,11 @@
 @sign 1(N04)
 @oid o0902884
 @list	ZATU618
-@uname	PROTO-CUNEIFORM NUMBER ONE-N4
-@list	U+F2585
-@ucun 󲖅
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N04
+@list	U+12606
+@sys ACN L2/24-210R
+@ucun	𒘆
+@uage	1.1
 @sys	LLATU:322_04 1(N4)
 @sys AP24 1(N04) 12585
 @sys	AP23 1(N04)
@@ -25369,40 +25398,44 @@
 
 @sign 2(N04)
 @oid o0902885
-@uname	PROTO-CUNEIFORM NUMBER TWO-N4
-@list	U+F25E3
-@ucun 󲗣
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N04
+@list	U+12607
+@sys ACN L2/24-210R
+@ucun	𒘇
+@uage	1.1
 @sys	AP23 2(N04)
 @sys AP24 2(N04) 125E3
 @end sign
 
 @sign 3(N04)
 @oid o0902886
-@uname	PROTO-CUNEIFORM NUMBER THREE-N4
-@list	U+F2618
-@ucun 󲘘
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N04
+@list	U+12608
+@sys ACN L2/24-210R
+@ucun	𒘈
+@uage	1.1
 @sys	AP23 3(N04)
 @sys AP24 3(N04) 12618
 @end sign
 
 @sign 4(N04)
 @oid o0902887
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N4
-@list	U+F2645
-@ucun 󲙅
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N04
+@list	U+12609
+@sys ACN L2/24-210R
+@ucun	𒘉
+@uage	1.1
 @sys	AP23 4(N04)
 @sys AP24 4(N04) 12645
 @end sign
 
 @sign 5(N04)
 @oid o0902888
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N4
-@list	U+F2670
-@ucun 󲙰
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N04
+@list	U+1260A
+@sys ACN L2/24-210R
+@ucun	𒘊
+@uage	1.1
 @sys	AP23 5(N04)
 @sys AP24 5(N04) 12670
 @end sign
@@ -25414,60 +25447,66 @@
 
 @sign 1(N05)
 @oid o0902894
-@uname	PROTO-CUNEIFORM NUMBER ONE-N5
-@list	U+F2587
-@ucun 󲖇
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N05
+@list	U+12631
+@sys ACN L2/24-210R
+@ucun	𒘱
+@uage	1.1
 @sys	AP23 1(N05)
 @sys AP24 1(N05) 12587
 @end sign
 
 @sign 2(N05)
 @oid o0902895
-@uname	PROTO-CUNEIFORM NUMBER TWO-N5
-@list	U+F25E5
-@ucun 󲗥
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N05
+@list	U+12632
+@sys ACN L2/24-210R
+@ucun	𒘲
+@uage	1.1
 @sys	AP23 2(N05)
 @sys AP24 2(N05) 125E5
 @end sign
 
 @sign 3(N05)
 @oid o0902896
-@uname	PROTO-CUNEIFORM NUMBER THREE-N5
-@list	U+F261A
-@ucun 󲘚
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N05
+@list	U+12633
+@sys ACN L2/24-210R
+@ucun	𒘳
+@uage	1.1
 @sys	AP23 3(N05)
 @sys AP24 3(N05) 1261A
 @end sign
 
 @sign 4(N05)
 @oid o0902897
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N5
-@list	U+F2647
-@ucun 󲙇
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N05
+@list	U+12634
+@sys ACN L2/24-210R
+@ucun	𒘴
+@uage	1.1
 @sys	AP23 4(N05)
 @sys AP24 4(N05) 12647
 @end sign
 
 @sign 5(N05)
 @oid o0902898
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N5
-@list	U+F2672
-@ucun 󲙲
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N05
+@list	U+12635
+@sys ACN L2/24-210R
+@ucun	𒘵
+@uage	1.1
 @sys	AP23 5(N05)
 @sys AP24 5(N05) 12672
 @end sign
 
 @sign 1(N06)
 @oid o0902899
-@uname	PROTO-CUNEIFORM NUMBER ONE-N6
-@list	U+F2588
-@ucun 󲖈
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N06
+@list	U+125D1
+@sys ACN L2/24-210R
+@ucun	𒗑
+@uage	1.1
 @sys	LLATU:322_05 1(N6)
 @sys AP24 1(N06) 12588
 @sys	AP23 1(N06)
@@ -25544,10 +25583,11 @@
 
 @sign 1(N08)
 @oid o0902909
-@uname	PROTO-CUNEIFORM NUMBER ONE-N8
-@list	U+F258B
-@ucun 󲖋
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N08
+@list	U+12559
+@sys ACN L2/24-210R
+@ucun	𒕙
+@uage	1.1
 @sys	LLATU:322_06 1(N8)
 @sys AP24 1(N08) 1258B
 @sys	AP23 1(N08)
@@ -25570,10 +25610,11 @@
 
 @sign 2(N08)
 @oid o0902912
-@uname	PROTO-CUNEIFORM NUMBER TWO-N8
-@list	U+F25E8
-@ucun 󲗨
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N08
+@list	U+1255A
+@sys ACN L2/24-210R
+@ucun	𒕚
+@uage	1.1
 @sys	LLATU:322_07 2(N8)
 @sys AP24 2(N08) 125E8
 @sys	AP23 2(N08)
@@ -25590,10 +25631,11 @@
 
 @sign 3(N08)
 @oid o0902914
-@uname	PROTO-CUNEIFORM NUMBER THREE-N8
-@list	U+F261D
-@ucun 󲘝
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N08
+@list	U+1255B
+@sys ACN L2/24-210R
+@ucun	𒕛
+@uage	1.1
 @sys	AP23 3(N08)
 @sys AP24 3(N08) 1261D
 @form 3(N08~b)
@@ -25609,10 +25651,11 @@
 
 @sign 4(N08)
 @oid o0902916
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N8
-@list	U+F2648
-@ucun 󲙈
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N08
+@list	U+1255C
+@sys ACN L2/24-210R
+@ucun	𒕜
+@uage	1.1
 @sys	AP23 4(N08)
 @sys AP24 4(N08) 12648
 @form 4(N08~b)
@@ -25637,50 +25680,55 @@
 
 @sign 5(N08)
 @oid o0902919
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N8
-@list	U+F2673
-@ucun 󲙳
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N08
+@list	U+1255D
+@sys ACN L2/24-210R
+@ucun	𒕝
+@uage	1.1
 @sys	AP23 5(N08)
 @sys AP24 5(N08) 12673
 @end sign
 
 @sign 6(N08)
 @oid o0902920
-@uname	PROTO-CUNEIFORM NUMBER SIX-N8
-@list	U+F2690
-@ucun 󲚐
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N08
+@list	U+1255E
+@sys ACN L2/24-210R
+@ucun	𒕞
+@uage	1.1
 @sys	AP23 6(N08)
 @sys AP24 6(N08) 12690
 @end sign
 
 @sign 7(N08)
 @oid o0902921
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N8
-@list	U+F26A8
-@ucun 󲚨
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N08
+@list	U+1255F
+@sys ACN L2/24-210R
+@ucun	𒕟
+@uage	1.1
 @sys	AP23 7(N08)
 @sys AP24 7(N08) 126A8
 @end sign
 
 @sign 8(N08)
 @oid o0902922
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N8
-@list	U+F26BC
-@ucun 󲚼
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N08
+@list	U+12560
+@sys ACN L2/24-210R
+@ucun	𒕠
+@uage	1.1
 @sys	AP23 8(N08)
 @sys AP24 8(N08) 126BC
 @end sign
 
 @sign 9(N08)
 @oid o0902923
-@uname	PROTO-CUNEIFORM NUMBER NINE-N8
-@list	U+F26CF
-@ucun 󲛏
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N08
+@list	U+12561
+@sys ACN L2/24-210R
+@ucun	𒕡
+@uage	1.1
 @sys	AP23 9(N08)
 @sys AP24 9(N08) 126CF
 @end sign
@@ -25698,30 +25746,33 @@
 
 @sign 1(N09)
 @oid o0902926
-@uname	PROTO-CUNEIFORM NUMBER ONE-N9
-@list	U+F258E
-@ucun 󲖎
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N09
+@list	U+12643
+@sys ACN L2/24-210R
+@ucun	𒙃
+@uage	1.1
 @sys	AP23 1(N09)
 @sys AP24 1(N09) 1258E
 @end sign
 
 @sign 1(N11)
 @oid o0902927
-@uname	PROTO-CUNEIFORM NUMBER ONE-N11
-@list	U+F258F
-@ucun 󲖏
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N11
+@list	U+12644
+@sys ACN L2/24-210R
+@ucun	𒙄
+@uage	1.1
 @sys	AP23 1(N11)
 @sys AP24 1(N11) 1258F
 @end sign
 
 @sign 1(N12)
 @oid o0902928
-@uname	PROTO-CUNEIFORM NUMBER ONE-N12
-@list	U+F2590
-@ucun 󲖐
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N12
+@list	U+12645
+@sys ACN L2/24-210R
+@ucun	𒙅
+@uage	1.1
 @sys	AP23 1(N12)
 @sys AP24 1(N12) 12590
 @end sign
@@ -25729,10 +25780,11 @@
 @sign 1(N14)
 @oid o0902929
 @list	ZATU564
-@uname	PROTO-CUNEIFORM NUMBER ONE-N14
-@list	U+F2591
-@ucun 󲖑
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N14
+@list	U+12562
+@sys ACN L2/24-210R
+@ucun	𒕢
+@uage	1.1
 @sys	LLATU:322_08 1(N14)
 @sys AP24 1(N14) 12591
 @sys	AP23 1(N14)
@@ -25745,10 +25797,11 @@
 
 @sign 2(N14)
 @oid o0902930
-@uname	PROTO-CUNEIFORM NUMBER TWO-N14
-@list	U+F25EA
-@ucun 󲗪
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N14
+@list	U+12563
+@sys ACN L2/24-210R
+@ucun	𒕣
+@uage	1.1
 @sys	LLATU:324_01 2(N14)
 @sys AP24 2(N14) 125EA
 @sys	AP23 2(N14)
@@ -25761,10 +25814,11 @@
 
 @sign 3(N14)
 @oid o0902932
-@uname	PROTO-CUNEIFORM NUMBER THREE-N14
-@list	U+F261F
-@ucun 󲘟
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N14
+@list	U+12564
+@sys ACN L2/24-210R
+@ucun	𒕤
+@uage	1.1
 @sys	LLATU:324_02 3(N14)
 @sys AP24 3(N14) 1261F
 @sys	AP23 3(N14)
@@ -25772,10 +25826,11 @@
 
 @sign 4(N14)
 @oid o0902933
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N14
-@list	U+F264B
-@ucun 󲙋
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N14
+@list	U+12565
+@sys ACN L2/24-210R
+@ucun	𒕥
+@uage	1.1
 @sys	LLATU:324_03 4(N14)
 @sys AP24 4(N14) 1264B
 @sys	AP23 4(N14)
@@ -25783,10 +25838,11 @@
 
 @sign 5(N14)
 @oid o0902934
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N14
-@list	U+F2674
-@ucun 󲙴
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N14
+@list	U+12566
+@sys ACN L2/24-210R
+@ucun	𒕦
+@uage	1.1
 @sys	LLATU:324_04 5(N14)
 @sys AP24 5(N14) 12674
 @sys	AP23 5(N14)
@@ -25803,10 +25859,11 @@
 
 @sign 6(N14)
 @oid o0902936
-@uname	PROTO-CUNEIFORM NUMBER SIX-N14
-@list	U+F2691
-@ucun 󲚑
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N14
+@list	U+12567
+@sys ACN L2/24-210R
+@ucun	𒕧
+@uage	1.1
 @sys	LLATU:324_05 6(N14)
 @sys AP24 6(N14) 12691
 @sys	AP23 6(N14)
@@ -25823,30 +25880,33 @@
 
 @sign 7(N14)
 @oid o0902938
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N14
-@list	U+F26A9
-@ucun 󲚩
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N14
+@list	U+12568
+@sys ACN L2/24-210R
+@ucun	𒕨
+@uage	1.1
 @sys	AP23 7(N14)
 @sys AP24 7(N14) 126A9
 @end sign
 
 @sign 8(N14)
 @oid o0902939
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N14
-@list	U+F26BD
-@ucun 󲚽
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N14
+@list	U+12569
+@sys ACN L2/24-210R
+@ucun	𒕩
+@uage	1.1
 @sys	AP23 8(N14)
 @sys AP24 8(N14) 126BD
 @end sign
 
 @sign 9(N14)
 @oid o0902940
-@uname	PROTO-CUNEIFORM NUMBER NINE-N14
-@list	U+F26D0
-@ucun 󲛐
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N14
+@list	U+1256A
+@sys ACN L2/24-210R
+@ucun	𒕪
+@uage	1.1
 @sys	AP23 9(N14)
 @sys AP24 9(N14) 126D0
 @end sign
@@ -25886,10 +25946,11 @@
 
 @sign 1(N14@f)
 @oid o0902945
-@uname	PROTO-CUNEIFORM NUMBER ONE-N14 FLAT
-@list	U+F2592
-@ucun 󲖒
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N14 FLAT
+@list	U+12656
+@sys ACN L2/24-210R
+@ucun	𒙖
+@uage	1.1
 @sys	AP23 1(N14@f)
 @sys AP24 1(N14@f) 12592
 @end sign
@@ -25905,50 +25966,55 @@
 
 @sign 1(N15)
 @oid o0902955
-@uname	PROTO-CUNEIFORM NUMBER ONE-N15
-@list	U+F2593
-@ucun 󲖓
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N15
+@list	U+125C7
+@sys ACN L2/24-210R
+@ucun	𒗇
+@uage	1.1
 @sys	AP23 1(N15)
 @sys AP24 1(N15) 12593
 @end sign
 
 @sign 2(N15)
 @oid o0902956
-@uname	PROTO-CUNEIFORM NUMBER TWO-N15
-@list	U+F25EC
-@ucun 󲗬
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N15
+@list	U+125C8
+@sys ACN L2/24-210R
+@ucun	𒗈
+@uage	1.1
 @sys	AP23 2(N15)
 @sys AP24 2(N15) 125EC
 @end sign
 
 @sign 3(N15)
 @oid o0902957
-@uname	PROTO-CUNEIFORM NUMBER THREE-N15
-@list	U+F2621
-@ucun 󲘡
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N15
+@list	U+125C9
+@sys ACN L2/24-210R
+@ucun	𒗉
+@uage	1.1
 @sys	AP23 3(N15)
 @sys AP24 3(N15) 12621
 @end sign
 
 @sign 4(N15)
 @oid o0902958
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N15
-@list	U+F264D
-@ucun 󲙍
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N15
+@list	U+125CA
+@sys ACN L2/24-210R
+@ucun	𒗊
+@uage	1.1
 @sys	AP23 4(N15)
 @sys AP24 4(N15) 1264D
 @end sign
 
 @sign 5(N15)
 @oid o0902959
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N15
-@list	U+F2677
-@ucun 󲙷
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N15
+@list	U+125CB
+@sys ACN L2/24-210R
+@ucun	𒗋
+@uage	1.1
 @sys	AP23 5(N15)
 @sys AP24 5(N15) 12677
 @end sign
@@ -25977,90 +26043,99 @@
 
 @sign 1(N18)
 @oid o0902962
-@uname	PROTO-CUNEIFORM NUMBER ONE-N18
-@list	U+F2596
-@ucun 󲖖
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N18
+@list	U+125F4
+@sys ACN L2/24-210R
+@ucun	𒗴
+@uage	1.1
 @sys	AP23 1(N18)
 @sys AP24 1(N18) 12596
 @end sign
 
 @sign 2(N18)
 @oid o0902963
-@uname	PROTO-CUNEIFORM NUMBER TWO-N18
-@list	U+F25ED
-@ucun 󲗭
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N18
+@list	U+125F5
+@sys ACN L2/24-210R
+@ucun	𒗵
+@uage	1.1
 @sys	AP23 2(N18)
 @sys AP24 2(N18) 125ED
 @end sign
 
 @sign 3(N18)
 @oid o0902964
-@uname	PROTO-CUNEIFORM NUMBER THREE-N18
-@list	U+F2622
-@ucun 󲘢
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N18
+@list	U+125F6
+@sys ACN L2/24-210R
+@ucun	𒗶
+@uage	1.1
 @sys	AP23 3(N18)
 @sys AP24 3(N18) 12622
 @end sign
 
 @sign 4(N18)
 @oid o0902965
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N18
-@list	U+F264E
-@ucun 󲙎
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N18
+@list	U+125F7
+@sys ACN L2/24-210R
+@ucun	𒗷
+@uage	1.1
 @sys	AP23 4(N18)
 @sys AP24 4(N18) 1264E
 @end sign
 
 @sign 5(N18)
 @oid o0902966
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N18
-@list	U+F2678
-@ucun 󲙸
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N18
+@list	U+125F8
+@sys ACN L2/24-210R
+@ucun	𒗸
+@uage	1.1
 @sys	AP23 5(N18)
 @sys AP24 5(N18) 12678
 @end sign
 
 @sign 6(N18)
 @oid o0902967
-@uname	PROTO-CUNEIFORM NUMBER SIX-N18
-@list	U+F2694
-@ucun 󲚔
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N18
+@list	U+125F9
+@sys ACN L2/24-210R
+@ucun	𒗹
+@uage	1.1
 @sys	AP23 6(N18)
 @sys AP24 6(N18) 12694
 @end sign
 
 @sign 7(N18)
 @oid o0902968
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N18
-@list	U+F26AB
-@ucun 󲚫
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N18
+@list	U+125FA
+@sys ACN L2/24-210R
+@ucun	𒗺
+@uage	1.1
 @sys	AP23 7(N18)
 @sys AP24 7(N18) 126AB
 @end sign
 
 @sign 8(N18)
 @oid o0902969
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N18
-@list	U+F26BF
-@ucun 󲚿
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N18
+@list	U+125FB
+@sys ACN L2/24-210R
+@ucun	𒗻
+@uage	1.1
 @sys	AP23 8(N18)
 @sys AP24 8(N18) 126BF
 @end sign
 
 @sign 9(N18)
 @oid o0902970
-@uname	PROTO-CUNEIFORM NUMBER NINE-N18
-@list	U+F26D2
-@ucun 󲛒
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N18
+@list	U+125FC
+@sys ACN L2/24-210R
+@ucun	𒗼
+@uage	1.1
 @sys	AP23 9(N18)
 @sys AP24 9(N18) 126D2
 @form 9(N18)~v1
@@ -26076,90 +26151,99 @@
 
 @sign 1(N19)
 @oid o0902972
-@uname	PROTO-CUNEIFORM NUMBER ONE-N19
-@list	U+F2597
-@ucun 󲖗
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N19
+@list	U+1260B
+@sys ACN L2/24-210R
+@ucun	𒘋
+@uage	1.1
 @sys	AP23 1(N19)
 @sys AP24 1(N19) 12597
 @end sign
 
 @sign 2(N19)
 @oid o0902973
-@uname	PROTO-CUNEIFORM NUMBER TWO-N19
-@list	U+F25EE
-@ucun 󲗮
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N19
+@list	U+1260C
+@sys ACN L2/24-210R
+@ucun	𒘌
+@uage	1.1
 @sys	AP23 2(N19)
 @sys AP24 2(N19) 125EE
 @end sign
 
 @sign 3(N19)
 @oid o0902974
-@uname	PROTO-CUNEIFORM NUMBER THREE-N19
-@list	U+F2623
-@ucun 󲘣
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N19
+@list	U+1260D
+@sys ACN L2/24-210R
+@ucun	𒘍
+@uage	1.1
 @sys	AP23 3(N19)
 @sys AP24 3(N19) 12623
 @end sign
 
 @sign 4(N19)
 @oid o0902975
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N19
-@list	U+F264F
-@ucun 󲙏
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N19
+@list	U+1260E
+@sys ACN L2/24-210R
+@ucun	𒘎
+@uage	1.1
 @sys	AP23 4(N19)
 @sys AP24 4(N19) 1264F
 @end sign
 
 @sign 5(N19)
 @oid o0902976
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N19
-@list	U+F2679
-@ucun 󲙹
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N19
+@list	U+1260F
+@sys ACN L2/24-210R
+@ucun	𒘏
+@uage	1.1
 @sys	AP23 5(N19)
 @sys AP24 5(N19) 12679
 @end sign
 
 @sign 6(N19)
 @oid o0902977
-@uname	PROTO-CUNEIFORM NUMBER SIX-N19
-@list	U+F2695
-@ucun 󲚕
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N19
+@list	U+12610
+@sys ACN L2/24-210R
+@ucun	𒘐
+@uage	1.1
 @sys	AP23 6(N19)
 @sys AP24 6(N19) 12695
 @end sign
 
 @sign 7(N19)
 @oid o0902978
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N19
-@list	U+F26AC
-@ucun 󲚬
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N19
+@list	U+12611
+@sys ACN L2/24-210R
+@ucun	𒘑
+@uage	1.1
 @sys	AP23 7(N19)
 @sys AP24 7(N19) 126AC
 @end sign
 
 @sign 8(N19)
 @oid o0902979
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N19
-@list	U+F26C0
-@ucun 󲛀
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N19
+@list	U+12612
+@sys ACN L2/24-210R
+@ucun	𒘒
+@uage	1.1
 @sys	AP23 8(N19)
 @sys AP24 8(N19) 126C0
 @end sign
 
 @sign 9(N19)
 @oid o0902980
-@uname	PROTO-CUNEIFORM NUMBER NINE-N19
-@list	U+F26D4
-@ucun 󲛔
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N19
+@list	U+12613
+@sys ACN L2/24-210R
+@ucun	𒘓
+@uage	1.1
 @sys	AP23 9(N19)
 @sys AP24 9(N19) 126D4
 @form 9(N19)~v1
@@ -26182,150 +26266,165 @@
 
 @sign 8(N19@f)
 @oid o0902989
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N19 FLAT
-@list	U+F26C1
-@ucun 󲛁
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N19 FLAT
+@list	U+12682
+@sys ACN L2/24-210R
+@ucun	𒚂
+@uage	1.1
 @sys	AP23 8(N19@f)
 @sys AP24 8(N19@f) 126C1
 @end sign
 
 @sign 9(N19@f)
 @oid o0902990
-@uname	PROTO-CUNEIFORM NUMBER NINE-N19 FLAT
-@list	U+F26D6
-@ucun 󲛖
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N19 FLAT
+@list	U+12683
+@sys ACN L2/24-210R
+@ucun	𒚃
+@uage	1.1
 @sys	AP23 9(N19@f)
 @sys AP24 9(N19@f) 126D6
 @end sign
 
 @sign 1(N20)
 @oid o0902991
-@uname	PROTO-CUNEIFORM NUMBER ONE-N20
-@list	U+F2599
-@ucun 󲖙
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N20
+@list	U+12636
+@sys ACN L2/24-210R
+@ucun	𒘶
+@uage	1.1
 @sys	AP23 1(N20)
 @sys AP24 1(N20) 12599
 @end sign
 
 @sign 2(N20)
 @oid o0902992
-@uname	PROTO-CUNEIFORM NUMBER TWO-N20
-@list	U+F25F0
-@ucun 󲗰
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N20
+@list	U+12637
+@sys ACN L2/24-210R
+@ucun	𒘷
+@uage	1.1
 @sys	AP23 2(N20)
 @sys AP24 2(N20) 125F0
 @end sign
 
 @sign 3(N20)
 @oid o0902993
-@uname	PROTO-CUNEIFORM NUMBER THREE-N20
-@list	U+F2625
-@ucun 󲘥
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N20
+@list	U+12638
+@sys ACN L2/24-210R
+@ucun	𒘸
+@uage	1.1
 @sys	AP23 3(N20)
 @sys AP24 3(N20) 12625
 @end sign
 
 @sign 4(N20)
 @oid o0902994
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N20
-@list	U+F2651
-@ucun 󲙑
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N20
+@list	U+12639
+@sys ACN L2/24-210R
+@ucun	𒘹
+@uage	1.1
 @sys	AP23 4(N20)
 @sys AP24 4(N20) 12651
 @end sign
 
 @sign 5(N20)
 @oid o0902995
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N20
-@list	U+F267B
-@ucun 󲙻
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N20
+@list	U+1263A
+@sys ACN L2/24-210R
+@ucun	𒘺
+@uage	1.1
 @sys	AP23 5(N20)
 @sys AP24 5(N20) 1267B
 @end sign
 
 @sign 6(N20)
 @oid o0902996
-@uname	PROTO-CUNEIFORM NUMBER SIX-N20
-@list	U+F2697
-@ucun 󲚗
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N20
+@list	U+1263B
+@sys ACN L2/24-210R
+@ucun	𒘻
+@uage	1.1
 @sys	AP23 6(N20)
 @sys AP24 6(N20) 12697
 @end sign
 
 @sign 7(N20)
 @oid o0902997
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N20
-@list	U+F26AE
-@ucun 󲚮
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N20
+@list	U+1263C
+@sys ACN L2/24-210R
+@ucun	𒘼
+@uage	1.1
 @sys	AP23 7(N20)
 @sys AP24 7(N20) 126AE
 @end sign
 
 @sign 8(N20)
 @oid o0902998
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N20
-@list	U+F26C2
-@ucun 󲛂
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N20
+@list	U+1263D
+@sys ACN L2/24-210R
+@ucun	𒘽
+@uage	1.1
 @sys	AP23 8(N20)
 @sys AP24 8(N20) 126C2
 @end sign
 
 @sign 9(N20)
 @oid o0902999
-@uname	PROTO-CUNEIFORM NUMBER NINE-N20
-@list	U+F26D7
-@ucun 󲛗
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N20
+@list	U+1263E
+@sys ACN L2/24-210R
+@ucun	𒘾
+@uage	1.1
 @sys	AP23 9(N20)
 @sys AP24 9(N20) 126D7
 @end sign
 
 @sign 2(N21)
 @oid o0903000
-@uname	PROTO-CUNEIFORM NUMBER TWO-N21
-@list	U+F25F1
-@ucun 󲗱
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N21
+@list	U+125DB
+@sys ACN L2/24-210R
+@ucun	𒗛
+@uage	1.1
 @sys	AP23 2(N21)
 @sys AP24 2(N21) 125F1
 @end sign
 
 @sign 3(N21)
 @oid o0903001
-@uname	PROTO-CUNEIFORM NUMBER THREE-N21
-@list	U+F2626
-@ucun 󲘦
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N21
+@list	U+125DC
+@sys ACN L2/24-210R
+@ucun	𒗜
+@uage	1.1
 @sys	AP23 3(N21)
 @sys AP24 3(N21) 12626
 @end sign
 
 @sign 4(N21)
 @oid o0903002
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N21
-@list	U+F2652
-@ucun 󲙒
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N21
+@list	U+125DD
+@sys ACN L2/24-210R
+@ucun	𒗝
+@uage	1.1
 @sys	AP23 4(N21)
 @sys AP24 4(N21) 12652
 @end sign
 
 @sign 5(N21)
 @oid o0903003
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N21
-@list	U+F267C
-@ucun 󲙼
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N21
+@list	U+125DE
+@sys ACN L2/24-210R
+@ucun	𒗞
+@uage	1.1
 @sys	AP23 5(N21)
 @sys AP24 5(N21) 1267C
 @end sign
@@ -26342,20 +26441,22 @@
 
 @sign 1(N22)
 @oid o0903005
-@uname	PROTO-CUNEIFORM NUMBER ONE-N22
-@list	U+F259A
-@ucun 󲖚
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N22
+@list	U+1258C
+@sys ACN L2/24-210R
+@ucun	𒖌
+@uage	1.1
 @sys	AP23 1(N22)
 @sys AP24 1(N22) 1259A
 @end sign
 
 @sign 2(N22)
 @oid o0903006
-@uname	PROTO-CUNEIFORM NUMBER TWO-N22
-@list	U+F25F2
-@ucun 󲗲
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N22
+@list	U+1258D
+@sys ACN L2/24-210R
+@ucun	𒖍
+@uage	1.1
 @sys	AP23 2(N22)
 @sys AP24 2(N22) 125F2
 @end sign
@@ -26422,10 +26523,11 @@
 
 @sign 1(N24)
 @oid o0903016
-@uname	PROTO-CUNEIFORM NUMBER ONE-N24
-@list	U+F259D
-@ucun 󲖝
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N24
+@list	U+125AA
+@sys ACN L2/24-210R
+@ucun	𒖪
+@uage	1.1
 @sys	AP23 1(N24)
 @sys AP24 1(N24) 1259D
 @form 1(N24~a)
@@ -26471,20 +26573,22 @@
 
 @sign 1(N25)
 @oid o0903022
-@uname	PROTO-CUNEIFORM NUMBER ONE-N25
-@list	U+F25A1
-@ucun 󲖡
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N25
+@list	U+12623
+@sys ACN L2/24-210R
+@ucun	𒘣
+@uage	1.1
 @sys	AP23 1(N25)
 @sys AP24 1(N25) 125A1
 @end sign
 
 @sign 1(N26)
 @oid o0903023
-@uname	PROTO-CUNEIFORM NUMBER ONE-N26
-@list	U+F25A2
-@ucun 󲖢
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N26
+@list	U+125AB
+@sys ACN L2/24-210R
+@ucun	𒖫
+@uage	1.1
 @sys	AP23 1(N26)
 @sys AP24 1(N26) 125A2
 @form 1(N26)~v1
@@ -26509,10 +26613,11 @@
 
 @sign 1(N27)
 @oid o0903026
-@uname	PROTO-CUNEIFORM NUMBER ONE-N27
-@list	U+F25A5
-@ucun 󲖥
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N27
+@list	U+12624
+@sys ACN L2/24-210R
+@ucun	𒘤
+@uage	1.1
 @sys	AP23 1(N27)
 @sys AP24 1(N27) 125A5
 @form 1(N27)~v1
@@ -26528,10 +26633,11 @@
 
 @sign 1(N28)
 @oid o0903028
-@uname	PROTO-CUNEIFORM NUMBER ONE-N28
-@list	U+F25A7
-@ucun 󲖧
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N28
+@list	U+125AC
+@sys ACN L2/24-210R
+@ucun	𒖬
+@uage	1.1
 @sys	LLATU:324_08 1(N28)
 @sys AP24 1(N28) 125A7
 @sys	AP23 1(N28)
@@ -26616,7 +26722,7 @@
 
 @sign 1(N29A)
 @oid o0903039
-@uage	0
+@uage	1.1
 @form 1(N29A~b)
 @oid o0903040
 @uname	PROTO-CUNEIFORM NUMBER ONE-N29A-B
@@ -26709,7 +26815,7 @@
 
 @sign 1(N30A)
 @oid o0903051
-@uage	0
+@uage	1.1
 @form 1(N30A~c)
 @oid o0903052
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30A-C
@@ -26724,7 +26830,7 @@
 @sign 1(N30C)
 @oid o0903053
 @inote	CHECK
-@uage	9
+@uage	1.1
 @sys	AP23 not
 @form 1(N30C~b)
 @oid o0903054
@@ -26748,10 +26854,11 @@
 
 @sign 1(N31)
 @oid o0903056
-@uname	PROTO-CUNEIFORM NUMBER ONE-N31
-@list	U+F25B7
-@ucun 󲖷
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N31
+@list	U+125B3
+@sys ACN L2/24-210R
+@ucun	𒖳
+@uage	1.1
 @sys	LLATU:325_02 1(N31)
 @sys AP24 1(N31) 125B7
 @sys	AP23 1(N31)
@@ -26759,30 +26866,33 @@
 
 @sign 1(N32)
 @oid o0903057
-@uname	PROTO-CUNEIFORM NUMBER ONE-N32
-@list	U+F25B8
-@ucun 󲖸
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N32
+@list	U+125B4
+@sys ACN L2/24-210R
+@ucun	𒖴
+@uage	1.1
 @sys	AP23 1(N32)
 @sys AP24 1(N32) 125B8
 @end sign
 
 @sign 1(N33)
 @oid o0903058
-@uname	PROTO-CUNEIFORM NUMBER ONE-N33
-@list	U+F25B9
-@ucun 󲖹
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N33
+@list	U+125B5
+@sys ACN L2/24-210R
+@ucun	𒖵
+@uage	1.1
 @sys	AP23 1(N33)
 @sys AP24 1(N33) 125B9
 @end sign
 
 @sign 1(N34)
 @oid o0903059
-@uname	PROTO-CUNEIFORM NUMBER ONE-N34
-@list	U+F25BA
-@ucun 󲖺
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N34
+@list	U+1256B
+@sys ACN L2/24-210R
+@ucun	𒕫
+@uage	1.1
 @sys	LLATU:325_03 1(N34)
 @sys AP24 1(N34) 125BA
 @sys	AP23 1(N34)
@@ -26800,10 +26910,11 @@
 
 @sign 2(N34)
 @oid o0903061
-@uname	PROTO-CUNEIFORM NUMBER TWO-N34
-@list	U+F25F8
-@ucun 󲗸
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N34
+@list	U+1256C
+@sys ACN L2/24-210R
+@ucun	𒕬
+@uage	1.1
 @sys	LLATU:325_04 2(N34)
 @sys AP24 2(N34) 125F8
 @sys	AP23 2(N34)
@@ -26811,10 +26922,11 @@
 
 @sign 3(N34)
 @oid o0903062
-@uname	PROTO-CUNEIFORM NUMBER THREE-N34
-@list	U+F2628
-@ucun 󲘨
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N34
+@list	U+1256D
+@sys ACN L2/24-210R
+@ucun	𒕭
+@uage	1.1
 @sys	LLATU:325_05 3(N34)
 @sys AP24 3(N34) 12628
 @sys	AP23 3(N34)
@@ -26822,60 +26934,66 @@
 
 @sign 4(N34)
 @oid o0903063
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N34
-@list	U+F2654
-@ucun 󲙔
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N34
+@list	U+1256E
+@sys ACN L2/24-210R
+@ucun	𒕮
+@uage	1.1
 @sys	AP23 4(N34)
 @sys AP24 4(N34) 12654
 @end sign
 
 @sign 5(N34)
 @oid o0903064
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N34
-@list	U+F267E
-@ucun 󲙾
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N34
+@list	U+1256F
+@sys ACN L2/24-210R
+@ucun	𒕯
+@uage	1.1
 @sys	AP23 5(N34)
 @sys AP24 5(N34) 1267E
 @end sign
 
 @sign 6(N34)
 @oid o0903065
-@uname	PROTO-CUNEIFORM NUMBER SIX-N34
-@list	U+F269A
-@ucun 󲚚
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N34
+@list	U+12570
+@sys ACN L2/24-210R
+@ucun	𒕰
+@uage	1.1
 @sys	AP23 6(N34)
 @sys AP24 6(N34) 1269A
 @end sign
 
 @sign 7(N34)
 @oid o0903066
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N34
-@list	U+F26B0
-@ucun 󲚰
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N34
+@list	U+12571
+@sys ACN L2/24-210R
+@ucun	𒕱
+@uage	1.1
 @sys	AP23 7(N34)
 @sys AP24 7(N34) 126B0
 @end sign
 
 @sign 8(N34)
 @oid o0903067
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N34
-@list	U+F26C3
-@ucun 󲛃
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N34
+@list	U+12572
+@sys ACN L2/24-210R
+@ucun	𒕲
+@uage	1.1
 @sys	AP23 8(N34)
 @sys AP24 8(N34) 126C3
 @end sign
 
 @sign 9(N34)
 @oid o0903068
-@uname	PROTO-CUNEIFORM NUMBER NINE-N34
-@list	U+F26D8
-@ucun 󲛘
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N34
+@list	U+12573
+@sys ACN L2/24-210R
+@ucun	𒕳
+@uage	1.1
 @sys	AP23 9(N34)
 @sys AP24 9(N34) 126D8
 @end sign
@@ -26883,10 +27001,11 @@
 
 @sign 1(N34@f)
 @oid o0903070
-@uname	PROTO-CUNEIFORM NUMBER ONE-N34 FLAT
-@list	U+F25BB
-@ucun 󲖻
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N34 FLAT
+@list	U+1265F
+@sys ACN L2/24-210R
+@ucun	𒙟
+@uage	1.1
 @sys	AP23 1(N34@f)
 @sys AP24 1(N34@f) 125BB
 @end sign
@@ -26898,10 +27017,11 @@
 
 @sign 7(N34@f)
 @oid o0903076
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N34 FLAT
-@list	U+F26B1
-@ucun 󲚱
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N34 FLAT
+@list	U+12665
+@sys ACN L2/24-210R
+@ucun	𒙥
+@uage	1.1
 @sys	AP23 7(N34@f)
 @sys AP24 7(N34@f) 126B1
 @end sign
@@ -26910,120 +27030,132 @@
 
 @sign 1(N35)
 @oid o0903079
-@uname	PROTO-CUNEIFORM NUMBER ONE-N35
-@list	U+F25BD
-@ucun 󲖽
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N35
+@list	U+125CC
+@sys ACN L2/24-210R
+@ucun	𒗌
+@uage	1.1
 @sys	AP23 1(N35)
 @sys AP24 1(N35) 125BD
 @end sign
 
 @sign 2(N35)
 @oid o0903080
-@uname	PROTO-CUNEIFORM NUMBER TWO-N35
-@list	U+F25FA
-@ucun 󲗺
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N35
+@list	U+125CD
+@sys ACN L2/24-210R
+@ucun	𒗍
+@uage	1.1
 @sys	AP23 2(N35)
 @sys AP24 2(N35) 125FA
 @end sign
 
 @sign 5(N35)
 @oid o0903081
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N35
-@list	U+F2680
-@ucun 󲚀
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N35
+@list	U+125D0
+@sys ACN L2/24-210R
+@ucun	𒗐
+@uage	1.1
 @sys	AP23 5(N35)
 @sys AP24 5(N35) 12680
 @end sign
 
 @sign 1(N36)
 @oid o0903082
-@uname	PROTO-CUNEIFORM NUMBER ONE-N36
-@list	U+F25BE
-@ucun 󲖾
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N36
+@list	U+12616
+@sys ACN L2/24-210R
+@ucun	𒘖
+@uage	1.1
 @sys	AP23 1(N36)
 @sys AP24 1(N36) 125BE
 @end sign
 
 @sign 2(N36)
 @oid o0903083
-@uname	PROTO-CUNEIFORM NUMBER TWO-N36
-@list	U+F25FB
-@ucun 󲗻
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N36
+@list	U+12617
+@sys ACN L2/24-210R
+@ucun	𒘗
+@uage	1.1
 @sys	AP23 2(N36)
 @sys AP24 2(N36) 125FB
 @end sign
 
 @sign 3(N36)
 @oid o0903084
-@uname	PROTO-CUNEIFORM NUMBER THREE-N36
-@list	U+F262A
-@ucun 󲘪
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N36
+@list	U+12618
+@sys ACN L2/24-210R
+@ucun	𒘘
+@uage	1.1
 @sys	AP23 3(N36)
 @sys AP24 3(N36) 1262A
 @end sign
 
 @sign 4(N36)
 @oid o0903085
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N36
-@list	U+F2656
-@ucun 󲙖
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N36
+@list	U+12619
+@sys ACN L2/24-210R
+@ucun	𒘙
+@uage	1.1
 @sys	AP23 4(N36)
 @sys AP24 4(N36) 12656
 @end sign
 
 @sign 5(N36)
 @oid o0903086
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N36
-@list	U+F2681
-@ucun 󲚁
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N36
+@list	U+1261A
+@sys ACN L2/24-210R
+@ucun	𒘚
+@uage	1.1
 @sys	AP23 5(N36)
 @sys AP24 5(N36) 12681
 @end sign
 
 @sign 6(N36)
 @oid o0903087
-@uname	PROTO-CUNEIFORM NUMBER SIX-N36
-@list	U+F269C
-@ucun 󲚜
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N36
+@list	U+1261B
+@sys ACN L2/24-210R
+@ucun	𒘛
+@uage	1.1
 @sys	AP23 6(N36)
 @sys AP24 6(N36) 1269C
 @end sign
 
 @sign 7(N36)
 @oid o0903088
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N36
-@list	U+F26B2
-@ucun 󲚲
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N36
+@list	U+1261C
+@sys ACN L2/24-210R
+@ucun	𒘜
+@uage	1.1
 @sys	AP23 7(N36)
 @sys AP24 7(N36) 126B2
 @end sign
 
 @sign 8(N36)
 @oid o0903089
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N36
-@list	U+F26C5
-@ucun 󲛅
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N36
+@list	U+1261D
+@sys ACN L2/24-210R
+@ucun	𒘝
+@uage	1.1
 @sys	AP23 8(N36)
 @sys AP24 8(N36) 126C5
 @end sign
 
 @sign 9(N36)
 @oid o0903090
-@uname	PROTO-CUNEIFORM NUMBER NINE-N36
-@list	U+F26DA
-@ucun 󲛚
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N36
+@list	U+1261E
+@sys ACN L2/24-210R
+@ucun	𒘞
+@uage	1.1
 @sys	AP23 9(N36)
 @sys AP24 9(N36) 126DA
 @end sign
@@ -27031,30 +27163,33 @@
 
 @sign 1(N37)
 @oid o0903092
-@uname	PROTO-CUNEIFORM NUMBER ONE-N37
-@list	U+F25C0
-@ucun 󲗀
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N37
+@list	U+12641
+@sys ACN L2/24-210R
+@ucun	𒙁
+@uage	1.1
 @sys	AP23 1(N37)
 @sys AP24 1(N37) 125C0
 @end sign
 
 @sign 2(N37)
 @oid o0903093
-@uname	PROTO-CUNEIFORM NUMBER TWO-N37
-@list	U+F25FC
-@ucun 󲗼
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N37
+@list	U+12642
+@sys ACN L2/24-210R
+@ucun	𒙂
+@uage	1.1
 @sys	AP23 2(N37)
 @sys AP24 2(N37) 125FC
 @end sign
 
 @sign 1(N38)
 @oid o0903094
-@uname	PROTO-CUNEIFORM NUMBER ONE-N38
-@list	U+F25C1
-@ucun 󲗁
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N38
+@list	U+125DF
+@sys ACN L2/24-210R
+@ucun	𒗟
+@uage	1.1
 @sys	AP23 1(N38)
 @sys AP24 1(N38) 125C1
 @end sign
@@ -27169,80 +27304,88 @@
 
 @sign 1(N40)
 @oid o0903111
-@uname	PROTO-CUNEIFORM NUMBER ONE-N40
-@list	U+F25C4
-@ucun 󲗄
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N40
+@list	U+125EB
+@sys ACN L2/24-210R
+@ucun	𒗫
+@uage	1.1
 @sys	AP23 1(N40)
 @sys AP24 1(N40) 125C4
 @end sign
 
 @sign 2(N40)
 @oid o0903112
-@uname	PROTO-CUNEIFORM NUMBER TWO-N40
-@list	U+F25FF
-@ucun 󲗿
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N40
+@list	U+125EC
+@sys ACN L2/24-210R
+@ucun	𒗬
+@uage	1.1
 @sys	AP23 2(N40)
 @sys AP24 2(N40) 125FF
 @end sign
 
 @sign 3(N40)
 @oid o0903113
-@uname	PROTO-CUNEIFORM NUMBER THREE-N40
-@list	U+F262D
-@ucun 󲘭
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N40
+@list	U+125ED
+@sys ACN L2/24-210R
+@ucun	𒗭
+@uage	1.1
 @sys	AP23 3(N40)
 @sys AP24 3(N40) 1262D
 @end sign
 
 @sign 4(N40)
 @oid o0903114
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N40
-@list	U+F2659
-@ucun 󲙙
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N40
+@list	U+125EE
+@sys ACN L2/24-210R
+@ucun	𒗮
+@uage	1.1
 @sys	AP23 4(N40)
 @sys AP24 4(N40) 12659
 @end sign
 
 @sign 1(N41)
 @oid o0903115
-@uname	PROTO-CUNEIFORM NUMBER ONE-N41
-@list	U+F25C5
-@ucun 󲗅
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N41
+@list	U+12602
+@sys ACN L2/24-210R
+@ucun	𒘂
+@uage	1.1
 @sys	AP23 1(N41)
 @sys AP24 1(N41) 125C5
 @end sign
 
 @sign 2(N41)
 @oid o0903116
-@uname	PROTO-CUNEIFORM NUMBER TWO-N41
-@list	U+F2600
-@ucun 󲘀
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N41
+@list	U+12603
+@sys ACN L2/24-210R
+@ucun	𒘃
+@uage	1.1
 @sys	AP23 2(N41)
 @sys AP24 2(N41) 12600
 @end sign
 
 @sign 3(N41)
 @oid o0903117
-@uname	PROTO-CUNEIFORM NUMBER THREE-N41
-@list	U+F262E
-@ucun 󲘮
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N41
+@list	U+12604
+@sys ACN L2/24-210R
+@ucun	𒘄
+@uage	1.1
 @sys	AP23 3(N41)
 @sys AP24 3(N41) 1262E
 @end sign
 
 @sign 4(N41)
 @oid o0903118
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N41
-@list	U+F265A
-@ucun 󲙚
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N41
+@list	U+12605
+@sys ACN L2/24-210R
+@ucun	𒘅
+@uage	1.1
 @sys	AP23 4(N41)
 @sys AP24 4(N41) 1265A
 @end sign
@@ -27371,10 +27514,11 @@
 
 @sign 1(N45)
 @oid o0903134
-@uname	PROTO-CUNEIFORM NUMBER ONE-N45
-@list	U+F25CA
-@ucun 󲗊
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N45
+@list	U+12579
+@sys ACN L2/24-210R
+@ucun	𒕹
+@uage	1.1
 @sys	LLATU:325_06 1(N45)
 @sys AP24 1(N45) 125CA
 @sys	AP23 1(N45)
@@ -27396,70 +27540,77 @@
 
 @sign 2(N45)
 @oid o0903137
-@uname	PROTO-CUNEIFORM NUMBER TWO-N45
-@list	U+F2603
-@ucun 󲘃
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N45
+@list	U+1257A
+@sys ACN L2/24-210R
+@ucun	𒕺
+@uage	1.1
 @sys	AP23 2(N45)
 @sys AP24 2(N45) 12603
 @end sign
 
 @sign 3(N45)
 @oid o0903138
-@uname	PROTO-CUNEIFORM NUMBER THREE-N45
-@list	U+F2631
-@ucun 󲘱
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N45
+@list	U+1257B
+@sys ACN L2/24-210R
+@ucun	𒕻
+@uage	1.1
 @sys	AP23 3(N45)
 @sys AP24 3(N45) 12631
 @end sign
 
 @sign 4(N45)
 @oid o0903139
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N45
-@list	U+F265E
-@ucun 󲙞
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N45
+@list	U+1257C
+@sys ACN L2/24-210R
+@ucun	𒕼
+@uage	1.1
 @sys	AP23 4(N45)
 @sys AP24 4(N45) 1265E
 @end sign
 
 @sign 5(N45)
 @oid o0903140
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N45
-@list	U+F2682
-@ucun 󲚂
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N45
+@list	U+1257D
+@sys ACN L2/24-210R
+@ucun	𒕽
+@uage	1.1
 @sys	AP23 5(N45)
 @sys AP24 5(N45) 12682
 @end sign
 
 @sign 6(N45)
 @oid o0903141
-@uname	PROTO-CUNEIFORM NUMBER SIX-N45
-@list	U+F269D
-@ucun 󲚝
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N45
+@list	U+1257E
+@sys ACN L2/24-210R
+@ucun	𒕾
+@uage	1.1
 @sys	AP23 6(N45)
 @sys AP24 6(N45) 1269D
 @end sign
 
 @sign 7(N45)
 @oid o0903142
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N45
-@list	U+F26B3
-@ucun 󲚳
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N45
+@list	U+1257F
+@sys ACN L2/24-210R
+@ucun	𒕿
+@uage	1.1
 @sys	AP23 7(N45)
 @sys AP24 7(N45) 126B3
 @end sign
 
 @sign 9(N45)
 @oid o0903143
-@uname	PROTO-CUNEIFORM NUMBER NINE-N45
-@list	U+F26DB
-@ucun 󲛛
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN NINE N45
+@list	U+12581
+@sys ACN L2/24-210R
+@ucun	𒖁
+@uage	1.1
 @sys	AP23 9(N45)
 @sys AP24 9(N45) 126DB
 @end sign
@@ -27536,20 +27687,22 @@
 
 @sign 1(N46)
 @oid o0903153
-@uname	PROTO-CUNEIFORM NUMBER ONE-N46
-@list	U+F25CD
-@ucun 󲗍
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N46
+@list	U+12614
+@sys ACN L2/24-210R
+@ucun	𒘔
+@uage	1.1
 @sys	AP23 1(N46)
 @sys AP24 1(N46) 125CD
 @end sign
 
 @sign 2(N46)
 @oid o0903154
-@uname	PROTO-CUNEIFORM NUMBER TWO-N46
-@list	U+F2605
-@ucun 󲘅
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N46
+@list	U+12615
+@sys ACN L2/24-210R
+@ucun	𒘕
+@uage	1.1
 @sys	AP23 2(N46)
 @sys AP24 2(N46) 12605
 @end sign
@@ -27566,10 +27719,11 @@
 
 @sign 1(N46@f)
 @oid o0903156
-@uname	PROTO-CUNEIFORM NUMBER ONE-N46 FLAT
-@list	U+F25CE
-@ucun 󲗎
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N46 FLAT
+@list	U+12684
+@sys ACN L2/24-210R
+@ucun	𒚄
+@uage	1.1
 @sys	AP23 1(N46@f)
 @sys AP24 1(N46@f) 125CE
 @end sign
@@ -27577,20 +27731,22 @@
 
 @sign 1(N47)
 @oid o0903158
-@uname	PROTO-CUNEIFORM NUMBER ONE-N47
-@list	U+F25CF
-@ucun 󲗏
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N47
+@list	U+1263F
+@sys ACN L2/24-210R
+@ucun	𒘿
+@uage	1.1
 @sys	AP23 1(N47)
 @sys AP24 1(N47) 125CF
 @end sign
 
 @sign 2(N47)
 @oid o0903159
-@uname	PROTO-CUNEIFORM NUMBER TWO-N47
-@list	U+F2607
-@ucun 󲘇
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N47
+@list	U+12640
+@sys ACN L2/24-210R
+@ucun	𒙀
+@uage	1.1
 @sys	AP23 2(N47)
 @sys AP24 2(N47) 12607
 @end sign
@@ -27607,50 +27763,55 @@
 
 @sign 1(N48)
 @oid o0903161
-@uname	PROTO-CUNEIFORM NUMBER ONE-N48
-@list	U+F25D0
-@ucun 󲗐
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N48
+@list	U+12574
+@sys ACN L2/24-210R
+@ucun	𒕴
+@uage	1.1
 @sys	AP23 1(N48)
 @sys AP24 1(N48) 125D0
 @end sign
 
 @sign 2(N48)
 @oid o0903162
-@uname	PROTO-CUNEIFORM NUMBER TWO-N48
-@list	U+F2608
-@ucun 󲘈
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N48
+@list	U+12575
+@sys ACN L2/24-210R
+@ucun	𒕵
+@uage	1.1
 @sys	AP23 2(N48)
 @sys AP24 2(N48) 12608
 @end sign
 
 @sign 3(N48)
 @oid o0903163
-@uname	PROTO-CUNEIFORM NUMBER THREE-N48
-@list	U+F2635
-@ucun 󲘵
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N48
+@list	U+12576
+@sys ACN L2/24-210R
+@ucun	𒕶
+@uage	1.1
 @sys	AP23 3(N48)
 @sys AP24 3(N48) 12635
 @end sign
 
 @sign 4(N48)
 @oid o0903164
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N48
-@list	U+F2660
-@ucun 󲙠
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N48
+@list	U+12577
+@sys ACN L2/24-210R
+@ucun	𒕷
+@uage	1.1
 @sys	AP23 4(N48)
 @sys AP24 4(N48) 12660
 @end sign
 
 @sign 5(N48)
 @oid o0903165
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N48
-@list	U+F2684
-@ucun 󲚄
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N48
+@list	U+12578
+@sys ACN L2/24-210R
+@ucun	𒕸
+@uage	1.1
 @sys	AP23 5(N48)
 @sys AP24 5(N48) 12684
 @end sign
@@ -27678,40 +27839,44 @@
 
 @sign 1(N49)
 @oid o0903169
-@uname	PROTO-CUNEIFORM NUMBER ONE-N49
-@list	U+F25D2
-@ucun 󲗒
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N49
+@list	U+1261F
+@sys ACN L2/24-210R
+@ucun	𒘟
+@uage	1.1
 @sys	AP23 1(N49)
 @sys AP24 1(N49) 125D2
 @end sign
 
 @sign 2(N49)
 @oid o0903170
-@uname	PROTO-CUNEIFORM NUMBER TWO-N49
-@list	U+F2609
-@ucun 󲘉
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N49
+@list	U+12620
+@sys ACN L2/24-210R
+@ucun	𒘠
+@uage	1.1
 @sys	AP23 2(N49)
 @sys AP24 2(N49) 12609
 @end sign
 
 @sign 3(N49)
 @oid o0903171
-@uname	PROTO-CUNEIFORM NUMBER THREE-N49
-@list	U+F2636
-@ucun 󲘶
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N49
+@list	U+12621
+@sys ACN L2/24-210R
+@ucun	𒘡
+@uage	1.1
 @sys	AP23 3(N49)
 @sys AP24 3(N49) 12636
 @end sign
 
 @sign 4(N49)
 @oid o0903172
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N49
-@list	U+F2661
-@ucun 󲙡
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N49
+@list	U+12622
+@sys ACN L2/24-210R
+@ucun	𒘢
+@uage	1.1
 @sys	AP23 4(N49)
 @sys AP24 4(N49) 12661
 @end sign
@@ -27728,50 +27893,55 @@
 
 @sign 1(N50)
 @oid o0903174
-@uname	PROTO-CUNEIFORM NUMBER ONE-N50
-@list	U+F25D3
-@ucun 󲗓
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N50
+@list	U+12582
+@sys ACN L2/24-210R
+@ucun	𒖂
+@uage	1.1
 @sys	AP23 1(N50)
 @sys AP24 1(N50) 125D3
 @end sign
 
 @sign 2(N50)
 @oid o0903175
-@uname	PROTO-CUNEIFORM NUMBER TWO-N50
-@list	U+F260A
-@ucun 󲘊
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N50
+@list	U+12583
+@sys ACN L2/24-210R
+@ucun	𒖃
+@uage	1.1
 @sys	AP23 2(N50)
 @sys AP24 2(N50) 1260A
 @end sign
 
 @sign 3(N50)
 @oid o0903176
-@uname	PROTO-CUNEIFORM NUMBER THREE-N50
-@list	U+F2637
-@ucun 󲘷
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N50
+@list	U+12584
+@sys ACN L2/24-210R
+@ucun	𒖄
+@uage	1.1
 @sys	AP23 3(N50)
 @sys AP24 3(N50) 12637
 @end sign
 
 @sign 4(N50)
 @oid o0903177
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N50
-@list	U+F2662
-@ucun 󲙢
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N50
+@list	U+12585
+@sys ACN L2/24-210R
+@ucun	𒖅
+@uage	1.1
 @sys	AP23 4(N50)
 @sys AP24 4(N50) 12662
 @end sign
 
 @sign 5(N50)
 @oid o0903178
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N50
-@list	U+F2686
-@ucun 󲚆
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N50
+@list	U+12586
+@sys ACN L2/24-210R
+@ucun	𒖆
+@uage	1.1
 @sys	AP23 5(N50)
 @sys AP24 5(N50) 12686
 @end sign
@@ -27783,20 +27953,22 @@
 
 @sign 6(N51@f)
 @oid o0903184
-@uname	PROTO-CUNEIFORM NUMBER SIX-N51 FLAT
-@list	U+F26A1
-@ucun 󲚡
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N51 FLAT
+@list	U+12671
+@sys ACN L2/24-210R
+@ucun	𒙱
+@uage	1.1
 @sys	AP23 6(N51@f)
 @sys AP24 6(N51@f) 126A1
 @end sign
 
 @sign 7(N51@f)
 @oid o0903185
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N51 FLAT
-@list	U+F26B7
-@ucun 󲚷
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N51 FLAT
+@list	U+12672
+@sys ACN L2/24-210R
+@ucun	𒙲
+@uage	1.1
 @sys	AP23 7(N51@f)
 @sys AP24 7(N51@f) 126B7
 @end sign
@@ -27805,130 +27977,143 @@
 
 @sign 1(N51)
 @oid o0903188
-@uname	PROTO-CUNEIFORM NUMBER ONE-N51
-@list	U+F25D4
-@ucun 󲗔
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N51
+@list	U+1259A
+@sys ACN L2/24-210R
+@ucun	𒖚
+@uage	1.1
 @sys	AP23 1(N51)
 @sys AP24 1(N51) 125D4
 @end sign
 
 @sign 2(N51)
 @oid o0903189
-@uname	PROTO-CUNEIFORM NUMBER TWO-N51
-@list	U+F260B
-@ucun 󲘋
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N51
+@list	U+1259B
+@sys ACN L2/24-210R
+@ucun	𒖛
+@uage	1.1
 @sys	AP23 2(N51)
 @sys AP24 2(N51) 1260B
 @end sign
 
 @sign 3(N51)
 @oid o0903190
-@uname	PROTO-CUNEIFORM NUMBER THREE-N51
-@list	U+F2638
-@ucun 󲘸
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N51
+@list	U+1259C
+@sys ACN L2/24-210R
+@ucun	𒖜
+@uage	1.1
 @sys	AP23 3(N51)
 @sys AP24 3(N51) 12638
 @end sign
 
 @sign 4(N51)
 @oid o0903191
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N51
-@list	U+F2663
-@ucun 󲙣
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N51
+@list	U+1259D
+@sys ACN L2/24-210R
+@ucun	𒖝
+@uage	1.1
 @sys	AP23 4(N51)
 @sys AP24 4(N51) 12663
 @end sign
 
 @sign 5(N51)
 @oid o0903192
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N51
-@list	U+F2687
-@ucun 󲚇
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N51
+@list	U+1259E
+@sys ACN L2/24-210R
+@ucun	𒖞
+@uage	1.1
 @sys	AP23 5(N51)
 @sys AP24 5(N51) 12687
 @end sign
 
 @sign 6(N51)
 @oid o0903193
-@uname	PROTO-CUNEIFORM NUMBER SIX-N51
-@list	U+F26A0
-@ucun 󲚠
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SIX N51
+@list	U+1259F
+@sys ACN L2/24-210R
+@ucun	𒖟
+@uage	1.1
 @sys	AP23 6(N51)
 @sys AP24 6(N51) 126A0
 @end sign
 
 @sign 7(N51)
 @oid o0903194
-@uname	PROTO-CUNEIFORM NUMBER SEVEN-N51
-@list	U+F26B6
-@ucun 󲚶
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN SEVEN N51
+@list	U+125A0
+@sys ACN L2/24-210R
+@ucun	𒖠
+@uage	1.1
 @sys	AP23 7(N51)
 @sys AP24 7(N51) 126B6
 @end sign
 
 @sign 8(N51)
 @oid o0903195
-@uname	PROTO-CUNEIFORM NUMBER EIGHT-N51
-@list	U+F26C7
-@ucun 󲛇
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN EIGHT N51
+@list	U+125A1
+@sys ACN L2/24-210R
+@ucun	𒖡
+@uage	1.1
 @sys	AP23 8(N51)
 @sys AP24 8(N51) 126C7
 @end sign
 
 @sign 1(N52)
 @oid o0903196
-@uname	PROTO-CUNEIFORM NUMBER ONE-N52
-@list	U+F25D6
-@ucun 󲗖
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N52
+@list	U+125E0
+@sys ACN L2/24-210R
+@ucun	𒗠
+@uage	1.1
 @sys	AP23 1(N52)
 @sys AP24 1(N52) 125D6
 @end sign
 
 @sign 2(N52)
 @oid o0903197
-@uname	PROTO-CUNEIFORM NUMBER TWO-N52
-@list	U+F260D
-@ucun 󲘍
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N52
+@list	U+125E1
+@sys ACN L2/24-210R
+@ucun	𒗡
+@uage	1.1
 @sys	AP23 2(N52)
 @sys AP24 2(N52) 1260D
 @end sign
 
 @sign 3(N52)
 @oid o0903198
-@uname	PROTO-CUNEIFORM NUMBER THREE-N52
-@list	U+F263A
-@ucun 󲘺
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N52
+@list	U+125E2
+@sys ACN L2/24-210R
+@ucun	𒗢
+@uage	1.1
 @sys	AP23 3(N52)
 @sys AP24 3(N52) 1263A
 @end sign
 
 @sign 4(N52)
 @oid o0903199
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N52
-@list	U+F2665
-@ucun 󲙥
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N52
+@list	U+125E3
+@sys ACN L2/24-210R
+@ucun	𒗣
+@uage	1.1
 @sys	AP23 4(N52)
 @sys AP24 4(N52) 12665
 @end sign
 
 @sign 5(N52)
 @oid o0903200
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N52
-@list	U+F2689
-@ucun 󲚉
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N52
+@list	U+125E4
+@sys ACN L2/24-210R
+@ucun	𒗤
+@uage	1.1
 @sys	AP23 5(N52)
 @sys AP24 5(N52) 12689
 @end sign
@@ -27945,50 +28130,55 @@
 
 @sign 1(N54)
 @oid o0903202
-@uname	PROTO-CUNEIFORM NUMBER ONE-N54
-@list	U+F25D7
-@ucun 󲗗
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N54
+@list	U+125A3
+@sys ACN L2/24-210R
+@ucun	𒖣
+@uage	1.1
 @sys	AP23 1(N54)
 @sys AP24 1(N54) 125D7
 @end sign
 
 @sign 2(N54)
 @oid o0903203
-@uname	PROTO-CUNEIFORM NUMBER TWO-N54
-@list	U+F260E
-@ucun 󲘎
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N54
+@list	U+125A4
+@sys ACN L2/24-210R
+@ucun	𒖤
+@uage	1.1
 @sys	AP23 2(N54)
 @sys AP24 2(N54) 1260E
 @end sign
 
 @sign 3(N54)
 @oid o0903204
-@uname	PROTO-CUNEIFORM NUMBER THREE-N54
-@list	U+F263C
-@ucun 󲘼
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN THREE N54
+@list	U+125A5
+@sys ACN L2/24-210R
+@ucun	𒖥
+@uage	1.1
 @sys	AP23 3(N54)
 @sys AP24 3(N54) 1263C
 @end sign
 
 @sign 4(N54)
 @oid o0903205
-@uname	PROTO-CUNEIFORM NUMBER FOUR-N54
-@list	U+F2666
-@ucun 󲙦
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FOUR N54
+@list	U+125A6
+@sys ACN L2/24-210R
+@ucun	𒖦
+@uage	1.1
 @sys	AP23 4(N54)
 @sys AP24 4(N54) 12666
 @end sign
 
 @sign 5(N54)
 @oid o0903206
-@uname	PROTO-CUNEIFORM NUMBER FIVE-N54
-@list	U+F268A
-@ucun 󲚊
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN FIVE N54
+@list	U+125A7
+@sys ACN L2/24-210R
+@ucun	𒖧
+@uage	1.1
 @sys	AP23 5(N54)
 @sys AP24 5(N54) 1268A
 @end sign
@@ -28005,20 +28195,22 @@
 
 @sign 1(N56)
 @oid o0903208
-@uname	PROTO-CUNEIFORM NUMBER ONE-N56
-@list	U+F25D9
-@ucun 󲗙
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N56
+@list	U+125A8
+@sys ACN L2/24-210R
+@ucun	𒖨
+@uage	1.1
 @sys	AP23 1(N56)
 @sys AP24 1(N56) 125D9
 @end sign
 
 @sign 2(N56)
 @oid o0903209
-@uname	PROTO-CUNEIFORM NUMBER TWO-N56
-@list	U+F260F
-@ucun 󲘏
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN TWO N56
+@list	U+125A9
+@sys ACN L2/24-210R
+@ucun	𒖩
+@uage	1.1
 @sys	AP23 2(N56)
 @sys AP24 2(N56) 1260F
 @end sign
@@ -28793,10 +28985,11 @@
 
 @sign 1(N60)
 @oid o0903301
-@uname	PROTO-CUNEIFORM NUMBER ONE-N60
-@list	U+F25DD
-@ucun 󲗝
-@uage	1
+@uname	CUNEIFORM NUMERIC SIGN ONE N60
+@list	U+125E9
+@sys ACN L2/24-210R
+@ucun	𒗩
+@uage	1.1
 @sys	AP23 1(N60)
 @sys AP24 1(N60) 125DD
 @end sign
@@ -28853,4 +29046,742 @@
 @compoundonly	|ŠA×HI@g~a|
 @compoundonly	ŠUBUR~v1
 @compoundonly	GUDU₄
+
+@sign 1(N04@f)
+@oid o0902889
+@sys ACN L2/24-210R
+@list U+12676
+@uname CUNEIFORM NUMERIC SIGN ONE N04 FLAT
+@ucun 𒙶
+@uage 1.1
+@end sign
+
+@sign 1(N07A)
+@oid o0903352
+@sys ACN L2/24-210R
+@list U+12646
+@uname CUNEIFORM NUMERIC SIGN ONE N07A
+@ucun 𒙆
+@uage 1.1
+@end sign
+
+@sign 1(N07B)
+@oid o0903355
+@sys ACN L2/24-210R
+@list U+12649
+@uname CUNEIFORM NUMERIC SIGN ONE N07B
+@ucun 𒙉
+@uage 1.1
+@end sign
+
+@sign 1(N08@f)
+@oid o0902924
+@sys ACN L2/24-210R
+@list U+12655
+@uname CUNEIFORM NUMERIC SIGN ONE N08 FLAT
+@ucun 𒙕
+@uage 1.1
+@end sign
+
+@sign 1(N19@f)
+@oid o0902982
+@sys ACN L2/24-210R
+@list U+1267B
+@uname CUNEIFORM NUMERIC SIGN ONE N19 FLAT
+@ucun 𒙻
+@uage 1.1
+@end sign
+
+@sign 1(N22@f)
+@oid o0903008
+@sys ACN L2/24-210R
+@list U+1266A
+@uname CUNEIFORM NUMERIC SIGN ONE N22 FLAT
+@ucun 𒙪
+@uage 1.1
+@end sign
+
+@sign 1(N24A)
+@oid o0903334
+@sys ACN L2/24-210R
+@list U+125EA
+@uname CUNEIFORM NUMERIC SIGN ONE N24A
+@ucun 𒗪
+@uage 1.1
+@end sign
+
+@sign 1(N24B)
+@oid o0903336
+@sys ACN L2/24-210R
+@list U+125FE
+@uname CUNEIFORM NUMERIC SIGN ONE N24B
+@ucun 𒗾
+@uage 1.1
+@end sign
+
+@sign 1(N26B)
+@oid o0903337
+@sys ACN L2/24-210R
+@list U+125FF
+@uname CUNEIFORM NUMERIC SIGN ONE N26B
+@ucun 𒗿
+@uage 1.1
+@end sign
+
+@sign 1(N28B)
+@oid o0903338
+@sys ACN L2/24-210R
+@list U+12600
+@uname CUNEIFORM NUMERIC SIGN ONE N28B
+@ucun 𒘀
+@uage 1.1
+@end sign
+
+@sign 1(N28C)
+@oid o0903340
+@sys ACN L2/24-210R
+@list U+12625
+@uname CUNEIFORM NUMERIC SIGN ONE N28C
+@ucun 𒘥
+@uage 1.1
+@end sign
+
+@sign 1(N29AB)
+@oid o0903339
+@sys ACN L2/24-210R
+@list U+12601
+@uname CUNEIFORM NUMERIC SIGN ONE N29AB
+@ucun 𒘁
+@uage 1.1
+@end sign
+
+@sign 1(N29AC)
+@oid o0903341
+@sys ACN L2/24-210R
+@list U+12626
+@uname CUNEIFORM NUMERIC SIGN ONE N29AC
+@ucun 𒘦
+@uage 1.1
+@end sign
+
+@sign 1(N29B)
+@oid o0903308
+@sys ACN L2/24-210R
+@list U+125AE
+@uname CUNEIFORM NUMERIC SIGN ONE N29B
+@ucun 𒖮
+@uage 1.1
+@end sign
+
+@sign 1(N30AC)
+@oid o0903342
+@sys ACN L2/24-210R
+@list U+12627
+@uname CUNEIFORM NUMERIC SIGN ONE N30AC
+@ucun 𒘧
+@uage 1.1
+@end sign
+
+@sign 1(N30CC)
+@oid o0903343
+@sys ACN L2/24-210R
+@list U+12628
+@uname CUNEIFORM NUMERIC SIGN ONE N30CC
+@ucun 𒘨
+@uage 1.1
+@end sign
+
+@sign 1(N30D)
+@oid o0903309
+@sys ACN L2/24-210R
+@list U+125B1
+@uname CUNEIFORM NUMERIC SIGN ONE N30D
+@ucun 𒖱
+@uage 1.1
+@end sign
+
+@sign 1(N30E)
+@oid o0903310
+@sys ACN L2/24-210R
+@list U+125B2
+@uname CUNEIFORM NUMERIC SIGN ONE N30E
+@ucun 𒖲
+@uage 1.1
+@end sign
+
+@sign 1(N34@f@t)
+@oid o0903069
+@sys ACN L2/24-210R
+@list U+12675
+@uname CUNEIFORM NUMERIC SIGN ONE N34 FLAT TENU
+@ucun 𒙵
+@uage 1.1
+@end sign
+
+@sign 1(N36@f)
+@oid o0903091
+@sys ACN L2/24-210R
+@list U+12686
+@uname CUNEIFORM NUMERIC SIGN ONE N36 FLAT
+@ucun 𒚆
+@uage 1.1
+@end sign
+
+@sign 1(N39A)
+@oid o0903311
+@sys ACN L2/24-210R
+@list U+125B6
+@uname CUNEIFORM NUMERIC SIGN ONE N39A
+@ucun 𒖶
+@uage 1.1
+@end sign
+
+@sign 1(N39B)
+@oid o0903315
+@sys ACN L2/24-210R
+@list U+125BA
+@uname CUNEIFORM NUMERIC SIGN ONE N39B
+@ucun 𒖺
+@uage 1.1
+@end sign
+
+@sign 1(N42A)
+@oid o0903344
+@sys ACN L2/24-210R
+@list U+12629
+@uname CUNEIFORM NUMERIC SIGN ONE N42A
+@ucun 𒘩
+@uage 1.1
+@end sign
+
+@sign 1(N42B)
+@oid o0903348
+@sys ACN L2/24-210R
+@list U+1262D
+@uname CUNEIFORM NUMERIC SIGN ONE N42B
+@ucun 𒘭
+@uage 1.1
+@end sign
+
+@sign 1(N45@f)
+@oid o0903144
+@sys ACN L2/24-210R
+@list U+12668
+@uname CUNEIFORM NUMERIC SIGN ONE N45 FLAT
+@ucun 𒙨
+@uage 1.1
+@end sign
+
+@sign 1(N45A)
+@oid o0903335
+@sys ACN L2/24-210R
+@list U+125FD
+@uname CUNEIFORM NUMERIC SIGN ONE N45A
+@ucun 𒗽
+@uage 1.1
+@end sign
+
+@sign 1(N51@f)
+@oid o0903179
+@sys ACN L2/24-210R
+@list U+1266C
+@uname CUNEIFORM NUMERIC SIGN ONE N51 FLAT
+@ucun 𒙬
+@uage 1.1
+@end sign
+
+@sign 2(N04@f)
+@oid o0902890
+@sys ACN L2/24-210R
+@list U+12677
+@uname CUNEIFORM NUMERIC SIGN TWO N04 FLAT
+@ucun 𒙷
+@uage 1.1
+@end sign
+
+@sign 2(N07A)
+@oid o0903353
+@sys ACN L2/24-210R
+@list U+12647
+@uname CUNEIFORM NUMERIC SIGN TWO N07A
+@ucun 𒙇
+@uage 1.1
+@end sign
+
+@sign 2(N07B)
+@oid o0903356
+@sys ACN L2/24-210R
+@list U+1264A
+@uname CUNEIFORM NUMERIC SIGN TWO N07B
+@ucun 𒙊
+@uage 1.1
+@end sign
+
+@sign 2(N14@f)
+@oid o0902946
+@sys ACN L2/24-210R
+@list U+12657
+@uname CUNEIFORM NUMERIC SIGN TWO N14 FLAT
+@ucun 𒙗
+@uage 1.1
+@end sign
+
+@sign 2(N19@f)
+@oid o0902983
+@sys ACN L2/24-210R
+@list U+1267C
+@uname CUNEIFORM NUMERIC SIGN TWO N19 FLAT
+@ucun 𒙼
+@uage 1.1
+@end sign
+
+@sign 2(N22@f)
+@oid o0903009
+@sys ACN L2/24-210R
+@list U+1266B
+@uname CUNEIFORM NUMERIC SIGN TWO N22 FLAT
+@ucun 𒙫
+@uage 1.1
+@end sign
+
+@sign 2(N34@f)
+@oid o0903071
+@sys ACN L2/24-210R
+@list U+12660
+@uname CUNEIFORM NUMERIC SIGN TWO N34 FLAT
+@ucun 𒙠
+@uage 1.1
+@end sign
+
+@sign 2(N39A)
+@oid o0903312
+@sys ACN L2/24-210R
+@list U+125B7
+@uname CUNEIFORM NUMERIC SIGN TWO N39A
+@ucun 𒖷
+@uage 1.1
+@end sign
+
+@sign 2(N39B)
+@oid o0903316
+@sys ACN L2/24-210R
+@list U+125BB
+@uname CUNEIFORM NUMERIC SIGN TWO N39B
+@ucun 𒖻
+@uage 1.1
+@end sign
+
+@sign 2(N42A)
+@oid o0903345
+@sys ACN L2/24-210R
+@list U+1262A
+@uname CUNEIFORM NUMERIC SIGN TWO N42A
+@ucun 𒘪
+@uage 1.1
+@end sign
+
+@sign 2(N42B)
+@oid o0903349
+@sys ACN L2/24-210R
+@list U+1262E
+@uname CUNEIFORM NUMERIC SIGN TWO N42B
+@ucun 𒘮
+@uage 1.1
+@end sign
+
+@sign 2(N45@f)
+@oid o0903145
+@sys ACN L2/24-210R
+@list U+12669
+@uname CUNEIFORM NUMERIC SIGN TWO N45 FLAT
+@ucun 𒙩
+@uage 1.1
+@end sign
+
+@sign 2(N46@f)
+@oid o0903157
+@sys ACN L2/24-210R
+@list U+12685
+@uname CUNEIFORM NUMERIC SIGN TWO N46 FLAT
+@ucun 𒚅
+@uage 1.1
+@end sign
+
+@sign 2(N51@f)
+@oid o0903180
+@sys ACN L2/24-210R
+@list U+1266D
+@uname CUNEIFORM NUMERIC SIGN TWO N51 FLAT
+@ucun 𒙭
+@uage 1.1
+@end sign
+
+@sign 3(N01@f)
+@oid o0902850
+@sys ACN L2/24-210R
+@list U+1264E
+@uname CUNEIFORM NUMERIC SIGN THREE N01 FLAT
+@ucun 𒙎
+@uage 1.1
+@end sign
+
+@sign 3(N04@f)
+@oid o0902891
+@sys ACN L2/24-210R
+@list U+12678
+@uname CUNEIFORM NUMERIC SIGN THREE N04 FLAT
+@ucun 𒙸
+@uage 1.1
+@end sign
+
+@sign 3(N07A)
+@oid o0903354
+@sys ACN L2/24-210R
+@list U+12648
+@uname CUNEIFORM NUMERIC SIGN THREE N07A
+@ucun 𒙈
+@uage 1.1
+@end sign
+
+@sign 3(N07B)
+@oid o0903357
+@sys ACN L2/24-210R
+@list U+1264B
+@uname CUNEIFORM NUMERIC SIGN THREE N07B
+@ucun 𒙋
+@uage 1.1
+@end sign
+
+@sign 3(N14@f)
+@oid o0902947
+@sys ACN L2/24-210R
+@list U+12658
+@uname CUNEIFORM NUMERIC SIGN THREE N14 FLAT
+@ucun 𒙘
+@uage 1.1
+@end sign
+
+@sign 3(N19@f)
+@oid o0902984
+@sys ACN L2/24-210R
+@list U+1267D
+@uname CUNEIFORM NUMERIC SIGN THREE N19 FLAT
+@ucun 𒙽
+@uage 1.1
+@end sign
+
+@sign 3(N34@f)
+@oid o0903072
+@sys ACN L2/24-210R
+@list U+12661
+@uname CUNEIFORM NUMERIC SIGN THREE N34 FLAT
+@ucun 𒙡
+@uage 1.1
+@end sign
+
+@sign 3(N39A)
+@oid o0903313
+@sys ACN L2/24-210R
+@list U+125B8
+@uname CUNEIFORM NUMERIC SIGN THREE N39A
+@ucun 𒖸
+@uage 1.1
+@end sign
+
+@sign 3(N39B)
+@oid o0903317
+@sys ACN L2/24-210R
+@list U+125BC
+@uname CUNEIFORM NUMERIC SIGN THREE N39B
+@ucun 𒖼
+@uage 1.1
+@end sign
+
+@sign 3(N42A)
+@oid o0903346
+@sys ACN L2/24-210R
+@list U+1262B
+@uname CUNEIFORM NUMERIC SIGN THREE N42A
+@ucun 𒘫
+@uage 1.1
+@end sign
+
+@sign 3(N42B)
+@oid o0903350
+@sys ACN L2/24-210R
+@list U+1262F
+@uname CUNEIFORM NUMERIC SIGN THREE N42B
+@ucun 𒘯
+@uage 1.1
+@end sign
+
+@sign 3(N51@f)
+@oid o0903181
+@sys ACN L2/24-210R
+@list U+1266E
+@uname CUNEIFORM NUMERIC SIGN THREE N51 FLAT
+@ucun 𒙮
+@uage 1.1
+@end sign
+
+@sign 4(N01@f)
+@oid o0902851
+@sys ACN L2/24-210R
+@list U+1264F
+@uname CUNEIFORM NUMERIC SIGN FOUR N01 FLAT
+@ucun 𒙏
+@uage 1.1
+@end sign
+
+@sign 4(N04@f)
+@oid o0902892
+@sys ACN L2/24-210R
+@list U+12679
+@uname CUNEIFORM NUMERIC SIGN FOUR N04 FLAT
+@ucun 𒙹
+@uage 1.1
+@end sign
+
+@sign 4(N14@f)
+@oid o0902948
+@sys ACN L2/24-210R
+@list U+12659
+@uname CUNEIFORM NUMERIC SIGN FOUR N14 FLAT
+@ucun 𒙙
+@uage 1.1
+@end sign
+
+@sign 4(N19@f)
+@oid o0902985
+@sys ACN L2/24-210R
+@list U+1267E
+@uname CUNEIFORM NUMERIC SIGN FOUR N19 FLAT
+@ucun 𒙾
+@uage 1.1
+@end sign
+
+@sign 4(N34@f)
+@oid o0903073
+@sys ACN L2/24-210R
+@list U+12662
+@uname CUNEIFORM NUMERIC SIGN FOUR N34 FLAT
+@ucun 𒙢
+@uage 1.1
+@end sign
+
+@sign 4(N39A)
+@oid o0903314
+@sys ACN L2/24-210R
+@list U+125B9
+@uname CUNEIFORM NUMERIC SIGN FOUR N39A
+@ucun 𒖹
+@uage 1.1
+@end sign
+
+@sign 4(N39B)
+@oid o0903318
+@sys ACN L2/24-210R
+@list U+125BD
+@uname CUNEIFORM NUMERIC SIGN FOUR N39B
+@ucun 𒖽
+@uage 1.1
+@end sign
+
+@sign 4(N42A)
+@oid o0903347
+@sys ACN L2/24-210R
+@list U+1262C
+@uname CUNEIFORM NUMERIC SIGN FOUR N42A
+@ucun 𒘬
+@uage 1.1
+@end sign
+
+@sign 4(N42B)
+@oid o0903351
+@sys ACN L2/24-210R
+@list U+12630
+@uname CUNEIFORM NUMERIC SIGN FOUR N42B
+@ucun 𒘰
+@uage 1.1
+@end sign
+
+@sign 4(N51@f)
+@oid o0903182
+@sys ACN L2/24-210R
+@list U+1266F
+@uname CUNEIFORM NUMERIC SIGN FOUR N51 FLAT
+@ucun 𒙯
+@uage 1.1
+@end sign
+
+@sign 5(N04@f)
+@oid o0902893
+@sys ACN L2/24-210R
+@list U+1267A
+@uname CUNEIFORM NUMERIC SIGN FIVE N04 FLAT
+@ucun 𒙺
+@uage 1.1
+@end sign
+
+@sign 5(N14@f)
+@oid o0902949
+@sys ACN L2/24-210R
+@list U+1265A
+@uname CUNEIFORM NUMERIC SIGN FIVE N14 FLAT
+@ucun 𒙚
+@uage 1.1
+@end sign
+
+@sign 5(N19@f)
+@oid o0902986
+@sys ACN L2/24-210R
+@list U+1267F
+@uname CUNEIFORM NUMERIC SIGN FIVE N19 FLAT
+@ucun 𒙿
+@uage 1.1
+@end sign
+
+@sign 5(N34@f)
+@oid o0903074
+@sys ACN L2/24-210R
+@list U+12663
+@uname CUNEIFORM NUMERIC SIGN FIVE N34 FLAT
+@ucun 𒙣
+@uage 1.1
+@end sign
+
+@sign 5(N51@f)
+@oid o0903183
+@sys ACN L2/24-210R
+@list U+12670
+@uname CUNEIFORM NUMERIC SIGN FIVE N51 FLAT
+@ucun 𒙰
+@uage 1.1
+@end sign
+
+@sign 6(N01@f)
+@oid o0902853
+@sys ACN L2/24-210R
+@list U+12651
+@uname CUNEIFORM NUMERIC SIGN SIX N01 FLAT
+@ucun 𒙑
+@uage 1.1
+@end sign
+
+@sign 6(N14@f)
+@oid o0902950
+@sys ACN L2/24-210R
+@list U+1265B
+@uname CUNEIFORM NUMERIC SIGN SIX N14 FLAT
+@ucun 𒙛
+@uage 1.1
+@end sign
+
+@sign 6(N19@f)
+@oid o0902987
+@sys ACN L2/24-210R
+@list U+12680
+@uname CUNEIFORM NUMERIC SIGN SIX N19 FLAT
+@ucun 𒚀
+@uage 1.1
+@end sign
+
+@sign 6(N34@f)
+@oid o0903075
+@sys ACN L2/24-210R
+@list U+12664
+@uname CUNEIFORM NUMERIC SIGN SIX N34 FLAT
+@ucun 𒙤
+@uage 1.1
+@end sign
+
+@sign 7(N01@f)
+@oid o0902854
+@sys ACN L2/24-210R
+@list U+12652
+@uname CUNEIFORM NUMERIC SIGN SEVEN N01 FLAT
+@ucun 𒙒
+@uage 1.1
+@end sign
+
+@sign 7(N14@f)
+@oid o0902951
+@sys ACN L2/24-210R
+@list U+1265C
+@uname CUNEIFORM NUMERIC SIGN SEVEN N14 FLAT
+@ucun 𒙜
+@uage 1.1
+@end sign
+
+@sign 7(N19@f)
+@oid o0902988
+@sys ACN L2/24-210R
+@list U+12681
+@uname CUNEIFORM NUMERIC SIGN SEVEN N19 FLAT
+@ucun 𒚁
+@uage 1.1
+@end sign
+
+@sign 8(N01@f)
+@oid o0902855
+@sys ACN L2/24-210R
+@list U+12653
+@uname CUNEIFORM NUMERIC SIGN EIGHT N01 FLAT
+@ucun 𒙓
+@uage 1.1
+@end sign
+
+@sign 8(N14@f)
+@oid o0902952
+@sys ACN L2/24-210R
+@list U+1265D
+@uname CUNEIFORM NUMERIC SIGN EIGHT N14 FLAT
+@ucun 𒙝
+@uage 1.1
+@end sign
+
+@sign 8(N34@f)
+@oid o0903077
+@sys ACN L2/24-210R
+@list U+12666
+@uname CUNEIFORM NUMERIC SIGN EIGHT N34 FLAT
+@ucun 𒙦
+@uage 1.1
+@end sign
+
+@sign 8(N51@f)
+@oid o0903186
+@sys ACN L2/24-210R
+@list U+12673
+@uname CUNEIFORM NUMERIC SIGN EIGHT N51 FLAT
+@ucun 𒙳
+@uage 1.1
+@end sign
+
+@sign 9(N14@f)
+@oid o0902953
+@sys ACN L2/24-210R
+@list U+1265E
+@uname CUNEIFORM NUMERIC SIGN NINE N14 FLAT
+@ucun 𒙞
+@uage 1.1
+@end sign
+
+@sign 9(N34@f)
+@oid o0903078
+@sys ACN L2/24-210R
+@list U+12667
+@uname CUNEIFORM NUMERIC SIGN NINE N34 FLAT
+@ucun 𒙧
+@uage 1.1
+@end sign
+
+@sign 9(N51@f)
+@oid o0903187
+@sys ACN L2/24-210R
+@list U+12674
+@uname CUNEIFORM NUMERIC SIGN NINE N51 FLAT
+@ucun 𒙴
+@uage 1.1
+@end sign
 
