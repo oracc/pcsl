@@ -18,7 +18,8 @@
 	  values="no"
 	  children="yes"
 	  number-rows="yes"
-	  ><xi:include href="numlist.txt" parse="text"
+	  xml="yes"
+	  ><xi:include href="numlist.xml" parse="xml"
 	  /></sxw:page-o-signs>
     </body>
   </html>

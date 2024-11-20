@@ -12,6 +12,12 @@
       <xsl:when test="starts-with(@xml:id,'i')"><xsl:value-of select="@oid"/></xsl:when>
       <xsl:otherwise><xsl:value-of select="@xml:id"/></xsl:otherwise>
     </xsl:choose>
+    <xsl:text>&#x9;</xsl:text>
+    <xsl:value-of select="@n"/>
+    <xsl:text>&#x9;</xsl:text>
+    <xsl:value-of select="substring-after(sl:list[starts-with(@n,'U+')]/@n,'U+')"/>
+    <xsl:text>&#x9;</xsl:text>
+    <xsl:text>Pcun&#x9;9.3&#x9;</xsl:text>
     <xsl:text>&#xa;</xsl:text>
   </xsl:if>
   <xsl:apply-templates/>
