@@ -34,10 +34,10 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0xF2580-0xF2EC6 0xFFFF8-0xFFFFD
-@lit Unofficial unicode codepoints used in AP23, plus some PUA entries
-	for added signs. CP 12550-12686 are those in Archaic Cuneiform
-	Numerals; 0xF2580-0xF2EC6 are AP23 CP + 0xE0000.
+@listdef U+ 0x12550-0x12686 0xF2580-0xF2EC6 0xFFFF8-0xFFFFD 0xF3000-0xF3089
+@lit CP 12550-12686 are Archaic Cuneiform Numerals; F2580-F2EC6 are
+	AP23 CP + 0xE0000. F3xxx- are possible adds to proposal (some
+	already rejected).
 
 @sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numerals"
 @lit	Draft proposal at https://www.unicode.org/L2/L2024/24210r-archaic-numerals.pdf
@@ -56,6 +56,9 @@
 
 @sysdef ATFU-v ATFU proposed Sumerian values.
 @note	See note to ATFU-S
+
+@sysdef bad-add Rejected candidate additions.
+@note This is an internal book-keeping field.
 
 @sysdef CDLI-gh CDLI-github sign list
 @note	Available at https://cdli-gh.github.io/proto-cuneiform_signs/.
@@ -311,6 +314,8 @@
 @uage	0
 @form |AB~a×1(N04)|
 @oid o0900027
+@list U+F302B
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -350,6 +355,7 @@
 @uage	0
 @form |AB~a×(ŠE~a&ŠE~a)|
 @oid o0900033
+@sys bad-add F301D
 @uname	PROTO-CUNEIFORM SIGN AB-A TIMES SHE-A OVER SHE-A
 @list	U+F2C4F
 @ucun 󲱏
@@ -462,6 +468,8 @@
 
 @sign AB₂@g
 @oid o0900046
+@list U+F302A
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -516,6 +524,8 @@
 @inote are ZU/SU un(der)differentiated in PC
 @form |AB×ZU|
 @oid o0900051
+@list U+F3056
+@uname -
 @aka	ABZU~b
 @inote	CUSAS 01
 @uage	2
@@ -573,6 +583,8 @@
 @sys	AP23 ADAB
 @form ADAB~v1
 @oid o0900057
+@list U+F3067
+@uname -
 @inote	Uruk III form which is clearly a city standard; collation required
 @uage	9
 @@
@@ -975,6 +987,8 @@
 @@
 @form ANŠE~f
 @oid o0900097
+@list U+F3068
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -1533,6 +1547,8 @@
 @uage	0
 @form |BAR×URI₃~a|
 @oid o0900156
+@list U+F3060
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -1901,6 +1917,8 @@
 @uage	0
 @form |((BU~a.DU₆~a)&(BU~a.DU₆))×UDU~a|
 @oid o0900179
+@list U+F3023
+@uname -
 @aka |(BU~a.DU₆~a&BU~a.DU₆)×UDU~a|
 @inote	CUSAS 21 p.166
 @uage	2
@@ -1972,6 +1990,8 @@
 @uage	0
 @form |BU~a&BU~a|
 @oid o0900189
+@list U+F302C
+@uname -
 @inote	CHECK
 @uage	8
 @sys	AP23 not
@@ -2077,6 +2097,8 @@
 @uage	0
 @form |BU~a+KI|
 @oid o0900202
+@list U+F302D
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -2088,6 +2110,8 @@
 @uage	0
 @form |BU~a+TU~b|
 @oid o0900204
+@list U+F302E
+@uname -
 @inote	CUSAS 21 p.166
 @uage	2
 @sys	AP23 not
@@ -2138,6 +2162,8 @@
 @uage	0
 @form |BULUG₃.DU₆~a|
 @oid o0900209
+@list U+F3061
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -2546,6 +2572,8 @@
 @@
 @form DARA₄~c
 @oid o0900253
+@list U+F3069
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -2598,6 +2626,8 @@
 @@
 @form DARA₄~d
 @oid o0900259
+@list U+F302F
+@uname -
 @inote	CUSAS 21 p.166
 @uage	2
 @sys	AP23 not
@@ -2735,6 +2765,8 @@
 
 @sign |DIN×1(N58)|
 @oid o0900277
+@list U+F3030
+@uname -
 @aka	|DIN+1(N57)|
 @aka	|DIN+1(N58)|
 @inote	CHECK
@@ -2930,6 +2962,8 @@
 @uage	0
 @form |DU₈~c×AB₂|
 @oid o0900299
+@list U+F3031
+@uname -
 @inote	CHECK
 @uage	2
 @sys	AP23 not
@@ -2941,6 +2975,8 @@
 @uage	0
 @form |DU₈~c×AMAR|
 @oid o0900301
+@list U+F3032
+@uname -
 @inote	CHECK
 @uage	2
 @sys	AP23 not
@@ -3119,6 +3155,8 @@
 @@
 @form DUB~h
 @oid o0900322
+@list U+F3033
+@uname -
 @inote	CUSAS 21 p.166
 @uage	2
 @sys	AP23 not
@@ -3174,6 +3212,8 @@
 @uage	0
 @form DUB~b@r
 @oid o0900328
+@list U+F3053
+@uname -
 @uage	8
 @sys	AP23 not
 @@
@@ -3276,6 +3316,7 @@
 @@
 @form DUG~d
 @oid o0900338
+@sys bad-add F301E
 @uname	PROTO-CUNEIFORM SIGN DUG-D
 @list	U+F27A0
 @ucun 󲞠
@@ -3338,6 +3379,8 @@
 @uage	0
 @form |DUG~b×BA|
 @oid o0900345
+@list U+F3063
+@uname -
 @inote	collation from photo supports Green's DUG+BA sub ZATU093
 @uage	9
 @sys	AP23 not
@@ -3612,6 +3655,8 @@
 @uage	0
 @form |DUG~a×KU₆~a|
 @oid o0900378
+@list U+F306A
+@uname -
 @inote	Collated from photo.
 @uage	8
 @sys	AP23 not
@@ -3843,6 +3888,8 @@
 @uage	0
 @form |DUG~b~v1×1(N58)|
 @oid o0900405
+@list U+F3035
+@uname -
 @aka |DUG~c×1(N58)|
 @uage	8
 @sys	AP23 not
@@ -3929,6 +3976,8 @@
 @uage	0
 @form |DUG~b×(SA~a.GI)|
 @oid o0900416
+@list U+F3054
+@uname -
 @inote	CHECK
 @uage	8
 @sys	LLATU:201_05 DUG~b+SA~a+GI
@@ -4035,6 +4084,8 @@
 @uage	0
 @form |DUG~b×SUKUD~d|
 @oid o0900429
+@list U+F3055
+@uname -
 @inote	CHECK
 @uage	8
 @sys	AP23 not
@@ -4243,6 +4294,8 @@
 @uage	0
 @form |DUG~b×(UDU~a×TAR)|
 @oid o0900454
+@list U+F3034
+@uname -
 @aka	|DUG~b×(UDU~a×TAR~a)|
 @uage	8
 @sys	AP23 not
@@ -4419,6 +4472,7 @@
 @uage	0
 @form DUG~a@t
 @oid o0900478
+@sys bad-add F308A
 @list U+FFFF8
 @uage 8
 @uname	PROTO-CUNEIFORM SIGN DUG-A TENU
@@ -4613,8 +4667,9 @@
 @uage	0
 @form |E₂~b×3(N57)|
 @oid o0900501
+@list U+F3062
+@uname -
 @inote	collated from photo
-@uname	PROTO-CUNEIFORM SIGN E2-B TIMES THREE-N57
 @uage	9
 @sys	AP23 not
 @@
@@ -5157,6 +5212,8 @@
 @uage	0
 @form |EZEN~a×KAŠ~b|
 @oid o0900563
+@list U+F3036
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -5333,6 +5390,8 @@
 @uage	0
 @form |EZEN~a×X₁|
 @oid o0900589
+@list U+F3066
+@uname -
 @list	BAU303
 @uage	8
 @sys	ATFU-S DUGIN₂
@@ -5649,6 +5708,8 @@
 @uage	0
 @form |GA₂~a1×E₂~a|
 @oid o0900628
+@list U+F3039
+@uname -
 @aka	|GA₂~a×E₂~a|
 @inote	collated
 @uage	9
@@ -5661,6 +5722,8 @@
 @uage	0
 @form |GA₂~a1×EN~a|
 @oid o0900630
+@list U+F3037
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -5682,6 +5745,8 @@
 @uage	0
 @form |GA₂~a1×GEŠTU~a|
 @oid o0900633
+@list U+F306B
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -5870,6 +5935,8 @@
 @@
 @form |GA₂~b×KU₆~a|
 @oid o0900658
+@list U+F306C
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -6045,6 +6112,8 @@
 @uage	0
 @form |GA₂~b×NUN~b|
 @oid o0900683
+@list U+F306D
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -6252,8 +6321,9 @@
 @@
 @form |GA₂~a1×X|~v1
 @oid o0900710
+@list U+F304D
+@uname -
 @inote	CUSAS01
-@uname	PROTO-CUNEIFORM SIGN GA2-A1 TIMES X VARIANT 1
 @uage	2
 @sys	AP23 not
 @@
@@ -6301,6 +6371,8 @@
 @uage	0
 @form |GA₂~b×ZATU694~c|
 @oid o0900717
+@list U+F3038
+@uname -
 @uage	8
 @sys	AP23 not
 @@
@@ -6651,6 +6723,8 @@
 @uage	0
 @form |GAN~c×(4(N57).GAR)|
 @oid o0900763
+@list U+F303A
+@uname -
 @aka	|GAN~c×4(N57).GAR|
 @inote	Sign description incorrect; see photograph |GAN~c×(BIR.GAR)|? CHECK
 @uage	2
@@ -6886,12 +6960,16 @@
 @@
 @form GEŠTIN~d
 @oid o0900792
+@list U+F306E
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
 @@
 @form GEŠTIN~e
 @oid o0900793
+@list U+F306F
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -7002,6 +7080,8 @@
 
 @sign |GI×A|
 @oid o0900809
+@list U+F303B
+@uname -
 @aka	|GI+A|
 @inote	CUSAS31
 @uage	2
@@ -7818,6 +7898,8 @@
 @@
 @form GIŠIMMAR~b2
 @oid o0900902
+@list U+F3070
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -8409,6 +8491,8 @@
 @@
 @form HI~b
 @oid o0900961
+@list U+F3071
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -8611,6 +8695,8 @@
 @@
 @form IB~c
 @oid o0900985
+@list U+F3072
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -9341,18 +9427,24 @@
 @@
 @form KALAM~g
 @oid o0901068
+@list U+F303C
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
 @@
 @form KALAM~h
 @oid o0901069
+@list U+F303D
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
 @@
 @form KALAM~h2
 @oid o0901070
+@list U+F303E
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -9499,6 +9591,8 @@
 @@
 @form KAŠ~d1
 @oid o0901084
+@list U+F3057
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -9686,6 +9780,8 @@
 @@
 @form KIN₂~b
 @oid o0901105
+@list U+F3073
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -9906,6 +10002,7 @@
 @sys	AP23 KISZ
 @form KIŠ~v1
 @oid o0901129
+@sys bad-add F3026
 @inote	Neither KIŠ~v1 nor KIŠ~b occur in CDLI transliterations, but CUSAS 1, p.281, KIŠ~b is very similar to CDLI KIŠ variant 1
 @lit	CUSAS 1, 15 n.106 provides several references [MS4511=P006311 mistakenly cited as MS4510=P006310]
 @inote	CUSAS01
@@ -10511,6 +10608,8 @@
 @uage	0
 @form |LAGAB~b×(HI×N04)|
 @oid o0901203
+@list U+F3015
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -10596,6 +10695,8 @@
 @uage	0
 @form |LAGAB~a×LA₂~a|
 @oid o0901215
+@list U+F3019
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -10653,6 +10754,8 @@
 @uage	0
 @form |LAGAB~a×1(N58)|
 @oid o0901225
+@list U+F301A
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -10664,6 +10767,8 @@
 @uage	0
 @form |LAGAB~a×NI~a|
 @oid o0901227
+@list U+F3016
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -11021,6 +11126,8 @@
 @uage	0
 @form |LAL₂~a×NAGA~a|
 @oid o0901275
+@list U+F303F
+@uname -
 @inote	CUSAS 21 p.166
 @uage	2
 @sys	AP23 not
@@ -11548,6 +11655,8 @@
 @uage	0
 @form |MAH~a×TUN₃~c|
 @oid o0901347
+@list U+F3040
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -11685,6 +11794,8 @@
 @uage	0
 @form |MAR~b×GAR|
 @oid o0901365
+@list U+F3002
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -11742,8 +11853,9 @@
 @uage	0
 @form MAR@g~a
 @oid o0901373
+@list U+F301C
+@uname -
 @inote	CUSAS31
-@uname	PROTO-CUNEIFORM SIGN MAR GUNU A
 @uage	2
 @sys	LLATU:255_03 MAR~a@g
 @sys	AP23 not
@@ -12258,6 +12370,8 @@
 
 @sign |MUŠEN.3(N58)|
 @oid o0901427
+@list U+F3003
+@uname -
 @uage	8
 @sys	AP23 not
 @end sign
@@ -12432,6 +12546,8 @@
 @@
 @form NA₂~c
 @oid o0901446
+@list U+F3074
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -12893,6 +13009,8 @@
 @@
 @form NESAG₂~a2
 @oid o0901495
+@list U+F3075
+@uname -
 @aka	NISAG~a3
 @note	The sign form is |UD@g×PA|. The transliteration NISAG~a3 occurs
 	once in P006275 ii 3 in the CDLI corpus as a variant to Lú 12 GAL BAD+DIŠ~a.
@@ -13126,6 +13244,8 @@
 @@
 @form NIM~d
 @oid o0901520
+@list U+F3076
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -13434,6 +13554,8 @@
 @uage	0
 @form |NINDA₂×MAR~a|
 @oid o0901555
+@list U+F3041
+@uname -
 @inote	CUSAS 21 p.166
 @uage	2
 @sys	AP23 not
@@ -13493,6 +13615,8 @@
 @uage	0
 @form |NINDA₂×NUN~a|
 @oid o0901564
+@list U+F3042
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -13573,6 +13697,8 @@
 
 @sign |NINDA₂×ZATU710|
 @oid o0901576
+@list U+F3043
+@uname -
 @inote	CUSAS 21, p.166
 @uage	2
 @sys	AP23 not
@@ -14139,6 +14265,8 @@
 
 @sign PAP@t
 @oid o0901642
+@list U+F3077
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -14216,6 +14344,8 @@
 @uage	0
 @form |PIRIG~b1×1(N58@t)|
 @oid o0901651
+@list U+F3044
+@uname -
 @aka	|PIRIG~b1+DIŠ|
 @inote	CUSAS 21, p.166
 @uage	2
@@ -14242,6 +14372,8 @@
 @uage	0
 @form |PIRIG~b1+DIN|
 @oid o0901655
+@list U+F3018
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -14539,6 +14671,8 @@
 
 @sign |SAG×NAM₂|
 @oid o0901689
+@list U+F3010
+@uname -
 @aka	|SAG+NAM₂|
 @uage	8
 @sys	AP23 not
@@ -14550,6 +14684,8 @@
 @uage	0
 @form |SAG+UKKIN~b~v1×1(N57)|
 @oid o0901693
+@list U+F3011
+@uname -
 @aka |SAG+UKKIN~b1×1(N57)|
 @inote	CHECK
 @uage	8
@@ -14668,6 +14804,8 @@
 
 @sign |SAL+HI×HI|
 @oid o0901705
+@list U+F300F
+@uname -
 @aka	|SAL.ZATU751~c|
 @inote	Monaco's |SAL.ZATU751~c| in CUSAS 31, 089 o ii 7 is not convincing; "ZATU751~c"
 	does not have the same gestalt as ZATU751~a/b; the description SAL+HI×HI is
@@ -14681,6 +14819,8 @@
 @uage	0
 @form |SAL+ZATU751~a|
 @oid o0901707
+@list U+F300E
+@uname -
 @inote	CHECK
 @uage	8
 @sys	AP23 not
@@ -14752,6 +14892,8 @@
 @@
 @form SANGA~e1
 @oid o0901715
+@list U+F3064
+@uname -
 @aka SANGA~e
 @inote	CUSAS01; two variants given there
 @uage	2
@@ -14759,6 +14901,8 @@
 @@
 @form SANGA~e2
 @oid o0901716
+@list U+F3065
+@uname -
 @inote	CUSAS01; two variants given there
 @uage	2
 @sys	AP23 not
@@ -14805,6 +14949,8 @@
 @@
 @form SAR~d
 @oid o0901721
+@list U+F3046
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -14859,6 +15005,8 @@
 @uage	0
 @form |SI×EN~a|
 @oid o0901728
+@list U+F3048
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -14881,6 +15029,8 @@
 @uage	0
 @form |SI×KU~b1|
 @oid o0901731
+@list U+F3049
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -14889,6 +15039,8 @@
 
 @sign |SI×1(N58)|
 @oid o0901732
+@list U+F3047
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -14896,6 +15048,8 @@
 
 @sign |SI×SAL|
 @oid o0901733
+@list U+F304B
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -14919,6 +15073,8 @@
 @uage	0
 @form |SI×TUN₃~a|
 @oid o0901736
+@list U+F304C
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -14927,6 +15083,8 @@
 
 @sign |SI+AN|
 @oid o0901737
+@list U+F300C
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -15017,6 +15175,8 @@
 @sys	AP23 SIG
 @form SIG~b
 @oid o0901747
+@list U+F3078
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -15604,6 +15764,8 @@
 @uage	0
 @form |SILA₃~a×MUD₃~b|
 @oid o0901820
+@list U+F304A
+@uname -
 @aka	|SILA₃~a+MUD₃~b|
 @aka	|SILA₃~a.MUD₃~b|
 @inote	CUSAS31
@@ -15957,6 +16119,8 @@
 @@
 @form SILA₄~c1
 @oid o0901863
+@list U+F3000
+@uname -
 @list	BAU269
 @uage 8
 @inote this is the square Uruk III form of CDLI-gh's URUK IV SILA₄~c.
@@ -16054,6 +16218,8 @@
 @@
 @form SU~c
 @oid o0901873
+@list U+F3079
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -16150,6 +16316,8 @@
 @compoundonly SUHUR~v2
 @form SUHUR~b
 @oid o0901882
+@list U+F3058
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -16182,6 +16350,8 @@
 @uage	0
 @form SUHUR~b@t
 @oid o0901886
+@list U+F3059
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -16312,6 +16482,8 @@
 
 @sign SUKUD@h
 @oid o0901900
+@list U+F300D
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -16540,6 +16712,8 @@
 @uage	0
 @form ŠA₃~a2@g
 @oid o0901924
+@list U+F3045
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -16787,6 +16961,8 @@
 @uage	0
 @form |ŠE~a@t~v1.GAR|
 @oid o0901950
+@list U+F305A
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -16843,6 +17019,8 @@
 @@
 @form |ŠE~a.NAM₂|~v2
 @oid o0901957
+@list U+F3014
+@uname -
 @aka	|ŠE~a×NAM₂|
 @uage	8
 @sys	AP23 not
@@ -17459,6 +17637,8 @@
 @@
 @form ŠITA~a3@g
 @oid o0902027
+@list U+F307A
+@uname -
 @uage	9
 @sys	AP23 not
 @@
@@ -17710,6 +17890,8 @@
 @uage	0
 @form |ŠU₂.PAP~a|
 @oid o0902054
+@list U+F3004
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -17733,6 +17915,8 @@
 
 @sign |ŠU₂×1(N24)|
 @oid o0902057
+@list U+F3013
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -17740,6 +17924,8 @@
 
 @sign |ŠU₂×3(N57)|
 @oid o0902058
+@list U+F3012
+@uname -
 @aka	|ŠU₂×3(N57)|
 @inote	CHECK
 @uage	8
@@ -17812,6 +17998,8 @@
 @@
 @form ŠUR₂~c
 @oid o0902065
+@list U+F307B
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -17820,6 +18008,8 @@
 
 @sign |ŠUR₂×1(N58)|
 @oid o0902066
+@list U+F3017
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -18412,6 +18602,8 @@
 
 @sign TUM₃
 @oid o0902134
+@list U+F3028
+@uname -
 @uage	9
 @sys	AP23 not
 @end sign
@@ -18551,6 +18743,8 @@
 @uage	0
 @form |TUR₃~a.5(N57)|
 @oid o0902150
+@list U+F3005
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -18824,6 +19018,8 @@
 
 @sign |U₄×(1(N01).1(N24))|
 @oid o0902180
+@list U+F3007
+@uname -
 @aka	|U₄×1(N01)+1(N24)|
 @inote	Could be encoded as sequence U₄×1(N01).1(N24)
 @uage	8
@@ -18984,6 +19180,8 @@
 
 @sign |U₄×(1(N14).1(N01))|
 @oid o0902197
+@list U+F3008
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -19001,6 +19199,8 @@
 
 @sign |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @oid o0902199
+@list U+F3009
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -19199,6 +19399,8 @@
 
 @sign |U₄+1(N24)|
 @oid o0902219
+@list U+F3006
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -19318,6 +19520,8 @@
 @@
 @form UBI~d
 @oid o0902232
+@list U+F304E
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -19495,6 +19699,8 @@
 @@
 @form UDUNITA~d
 @oid o0902253
+@list U+F307C
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -19609,6 +19815,8 @@
 @@
 @form UKKIN~d
 @oid o0902266
+@list U+F307D
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -20045,6 +20253,8 @@
 @@
 @form UR₃~d2
 @oid o0902319
+@list U+F307E
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -20322,6 +20532,8 @@
 @uage	0
 @form |URU~a1×KI|
 @oid o0902355
+@list U+F301B
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -20363,6 +20575,8 @@
 @uage	0
 @form |URU~a1×3(N57)|
 @oid o0902361
+@list U+F304F
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -20778,6 +20992,7 @@
 @note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
 @form UZ~a
 @oid o0902411
+@sys bad-add F301F
 @list U+FFFFA
 @list 	BAU035
 @list	ZATU611
@@ -20821,6 +21036,8 @@
 
 @sign |X×HI|
 @oid o0902414
+@list U+F3001
+@uname -
 @uage	8
 @sys	AP23 not
 @end sign
@@ -22359,6 +22576,7 @@
 
 @sign ZATU693@t
 @oid o0902571
+@sys bad-add F3020
 @uname	PROTO-CUNEIFORM SIGN ZATU693 TENU
 @list	U+F2B64
 @ucun 󲭤
@@ -22420,6 +22638,8 @@
 @@
 @form ZATU694~e
 @oid o0902578
+@list U+F3050
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -23279,6 +23499,8 @@
 
 @sign |ZATU737×I|
 @oid o0902667
+@list U+F300B
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -23421,6 +23643,8 @@
 @uage	0
 @form |ZATU737@t×PAP~a|
 @oid o0902685
+@list U+F300A
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -24274,6 +24498,8 @@
 @sys AP24 ZATU802 12BE8
 @form ZATU802~b
 @oid o0902770
+@list U+F3051
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -24812,6 +25038,7 @@
 
 @sign ZATU851
 @oid o0902819
+@sys bad-add F3022
 @list	ZATU851
 @uname	PROTO-CUNEIFORM SIGN ZATU851
 @list	U+F2C18
@@ -24867,33 +25094,37 @@
 
 @sign ZATU856
 @oid o0902824
+@list U+F3021
+@uname -
 @list	ZATU856
-@uname	PROTO-CUNEIFORM SIGN ZATU856
 @uage	9
 @sys	AP23 not
 @end sign
 
 @sign ZATU857
 @oid o0902825
+@list U+F3024
+@uname -
 @list	ZATU857
-@uname	PROTO-CUNEIFORM SIGN ZATU857
 @uage	9
 @sys	AP23 not
 @end sign
 
 @sign ZATU858
 @oid o0902826
+@list U+F3025
+@uname -
 @list	ZATU858
-@uname	PROTO-CUNEIFORM SIGN ZATU858
 @uage	9
 @sys	AP23 not
 @end sign
 
 @sign ZATU859
 @oid o0902827
+@list U+F3052
+@uname -
 @list	ZATU859
 @inote	CUSAS 21, p.166
-@uname	PROTO-CUNEIFORM SIGN ZATU859
 @uage	2
 @sys	AP23 not
 @end sign
@@ -24995,7 +25226,8 @@
 @uage	0
 @form 3(LAGAB~a)
 @oid o0902843
-@uname	PROTO-CUNEIFORM NUMBER THREE-LAGAB-A
+@list U+F3087
+@uname -
 @uage	9
 @sys	AP23 not
 @@
@@ -25602,6 +25834,8 @@
 @@
 @form 1(N08~v)
 @oid o0902911
+@list U+F3080
+@uname -
 @inote	This is N08×N58 in the same was as N02 is N01xN57.
 @uage	8
 @sys	AP23 not
@@ -25923,6 +26157,8 @@
 
 @sign 11(N14)
 @oid o0902942
+@list U+F307F
+@uname -
 @inote	4(N14)+6(N14)+1(N14) on a numerical tablet.
 @uage	9
 @end sign
@@ -25939,6 +26175,8 @@
 
 @sign 22(N14)
 @oid o0902944
+@list U+F3085
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -26463,6 +26701,8 @@
 
 @sign 1(N22@v)
 @oid o0903007
+@list U+F3089
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -26694,6 +26934,8 @@
 @@
 @form 1(N29~c)
 @oid o0903035
+@list U+F3081
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -26714,6 +26956,8 @@
 @@
 @form 2(N29~b)
 @oid o0903038
+@list U+F3086
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -26780,6 +27024,8 @@
 @@
 @form 1(N30~b)
 @oid o0903047
+@list U+F3083
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -26829,6 +27075,8 @@
 
 @sign 1(N30C)
 @oid o0903053
+@list U+F3082
+@uname -
 @inote	CHECK
 @uage	1.1
 @sys	AP23 not
@@ -28250,6 +28498,8 @@
 @uage	0
 @form |1(N57).E₂~a|
 @oid o0903214
+@list U+F3027
+@uname -
 @inote	CUSAS 21, p.166
 @uage	9
 @sys	AP23 not
@@ -28336,6 +28586,8 @@
 @uage	0
 @form |2(N57).BIR₃~a|
 @oid o0903225
+@list U+F3029
+@uname -
 @inote	CUSAS31
 @uage	2
 @sys	AP23 not
@@ -28392,6 +28644,8 @@
 @uage	0
 @form |2(N57).UDUNITA~a|
 @oid o0903233
+@list U+F305C
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -28432,6 +28686,8 @@
 @uage	0
 @form |3(N57).BAR×UŠ~a|
 @oid o0903238
+@list U+F305D
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -28554,6 +28810,8 @@
 @uage	0
 @form |3(N57).UDU~a|
 @oid o0903254
+@list U+F305E
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -28565,6 +28823,8 @@
 @uage	0
 @form |3(N57).UDUNITA~a|
 @oid o0903256
+@list U+F305F
+@uname -
 @inote	CUSAS01
 @uage	2
 @sys	AP23 not
@@ -28935,6 +29195,8 @@
 
 @sign 1(N59)
 @oid o0903295
+@list U+F3084
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
@@ -28972,6 +29234,8 @@
 
 @sign 6(N59)
 @oid o0903299
+@list U+F3088
+@uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
