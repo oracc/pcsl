@@ -27,19 +27,98 @@ my %fillers = (); my @fillers = qw/
     9(N51)
    /; @fillers{@fillers} = ();
 
+my %names = ();
+my %mnames = ();
 my %map = (
+    '1(N07A)'=>'1(N07~a)',
+    '1(N07B)'=>'1(N07~b)',
+    '2(N07A)'=>'2(N07~a)',
+    '2(N07B)'=>'2(N07~b)',
+    '3(N07A)'=>'3(N07~a)',
+    '3(N07B)'=>'3(N07~b)',
+    '1(N24A)'=>'1(N24~a)',
+    '1(N24B)'=>'1(N24~b)',
+    '1(N26B)'=>'1(N26~b)',
+    '1(N28B)'=>'1(N28~b)',
+    '1N29A'=>'1(N29A)~v1',
+    '1(N29B)'=>'1(N29~b)',
+    '1(N29AB)'=>'1(N29A~b)',
     '1(N29AB)'=>'1(N29A~b)',
     '1(N29AC)'=>'1(N29A~c)',
+    '1(N30A)'=>'1(N30~a)',
+    '1(N30B)'=>'1(N30~b)',
+    '1(N30C)'=>'1(N30~c)',
+    '1(N30D)'=>'1(N30~d)',
+    '1(N30E)'=>'1(N30~e)',
     '1(N30AC)'=>'1(N30A~c)',
     '1(N30CC)'=>'1(N30C~c)',
     );
 
-my %names = ();
+my %nmap = ();
+foreach my $k (keys %map) {
+    my $v = $map{$k};
+    my $r = $v; $r =~ tr/()|ʾ//d;
+    $mnames{$r} = $v;
+    $nmap{$r} = $v;
+}
+%map = %nmap;
+
+warn Dumper \%mnames;
+
+my %notes = (
+    '2(N01)'=>'VSP',
+    '3(N01)'=>'VSP',
+    '5(N01)'=>'VSP',
+    '6(N01)'=>'VSP',
+    '7(N01)'=>'VSP',
+    '8(N01)'=>'VSP',
+    '9(N01)'=>'VSP',
+    '4(N08)'=>'VSP',
+    '5(N14)'=>'VSP',
+    '6(N14)'=>'VSP',
+    '7(N14)'=>'VSP',
+    '8(N14)'=>'VSP',
+    '9(N14)'=>'VSP',
+    '2(N34)'=>'VSP',
+    '3(N34)'=>'VSP',
+    '5(N34)'=>'VSP',
+    '6(N34)'=>'VSP',
+    '7(N34)'=>'VSP',
+    '8(N34)'=>'VSP',
+    '9(N34)'=>'VSP',
+    '2(N48)'=>'VSP',
+    '3(N48)'=>'VSP',
+    '5(N48)'=>'VSP',
+    '2(N45)'=>'VSP',
+    '5(N45)'=>'VSP',
+    '6(N45)'=>'VSP',
+    '7(N45)'=>'VSP',
+    '8(N45)'=>'Filler',
+    '9(N45)'=>'VSP',
+    '2(N50)'=>'VSP',
+    '5(N50)'=>'VSP',
+    '2(N51)'=>'VSP',
+    '5(N51)'=>'VSP',
+    '6(N51)'=>'VSP',
+    '7(N51)'=>'VSP',
+    '8(N51)'=>'VSP',
+    '9(N51)'=>'Filler',
+    '2(N54)'=>'VSP',
+    '2(N54)'=>'VSP',
+    '5(N56)'=>'VSP',
+   );
+
 my %pcsl = ();
 my %uname = ();
 my %ucode = ();
 
 my $curr = undef;
+
+my %xoid = (); my @xoid = `grep ^o09 /home/oracc/oid/oid.tab`; chomp @xoid;
+foreach (@xoid) {
+    my($n,$d,$k) = split(/\t/,$_);
+    $xoid{$k} = $n;
+}
 
 open(P,'00lib/pcsl.asl') || die;
 while (<P>) {
@@ -106,13 +185,25 @@ while (<>) {
 	$ucode{$p} = $u;
     }
 }
+my %xuni = (
+    '1N29A~v1'=>'125AB',
+    );
 
+open(NOT, '>acn-not-in-L23.tsv') || die;
 foreach my $n (keys %names) {
+    my $orig_n = $n;
+    if ($map{$n}) {
+	$n = $map{$n};
+	warn "$orig_n => $n; names{n} <= $mnames{$n}\n";
+	$names{$n} = $mnames{$n};
+    }
     if ($pcsl{$n}) {
 	my $oid = $pcsl{$n,'oid'};
 	my $ucode = $uni{$names{$n}};
 	if (!$ucode) {
-	    if ($names{$n} =~ /[0-9][A-Z]/) {
+	    if ($xuni{$names{$n}}) {
+		$ucode = $xuni{$names{$n}};
+	    } elsif ($names{$n} =~ /[0-9][A-Z]/) {
 		my $xu = $names{$n};
 		$xu =~ s/([0-9])([A-Z]+)/$1~\L$2/;
 		# warn "trying $xu from $names{$n}\n";
@@ -127,17 +218,24 @@ foreach my $n (keys %names) {
 	    }
 	}
 	if ($oid && $ucode) {
-	    print "$oid\t$ucode\t$pcsl{$n}\t$ucode{$names{$n}}\t$uname{$names{$n}}\n";
+	    my $note = $notes{$pcsl{$n}} || '';
+	    print "$oid\t$ucode\t$pcsl{$n}\t$ucode{$names{$n}}\t$uname{$names{$n}}\t$note\n";
 	} else {
 	    warn "no OID for $pcsl{$n}\n" unless $oid;
 	    warn "no UCODE for $names{$n}\n" unless $ucode || exists $fillers{$names{$n}};
 	}
+    } elsif (exists $fillers{$names{$orig_n}}) {
+	my $xoid = $xoid{$names{$n}};
+	my $note = $notes{$names{$n}} || '';
+	warn "filler $names{$n} not in notes\n";
+	print "$xoid\t\t$names{$n}\t$ucode{$names{$n}}\t$uname{$names{$n}}\t$note\n";
     } else {
 	warn "$uname{$names{$n}} => $names{$n} not found in pcsl\n"
-	    unless $n =~ /BAN|BURU|IKU|NINDA/;
+	    unless $n =~ /BAN|BURU|IKU|NINDA/ || exists $fillers{$names{$n}};
+	print NOT "$ucode{$names{$n}}\t$uname{$names{$n}}\n";
     }
 }
-
+close(NOT);
 ###################################################
 
 sub nify {
