@@ -17,7 +17,7 @@
     <xsl:text>&#x9;</xsl:text>
     <xsl:value-of select="substring-after(sl:list[starts-with(@n,'U+')]/@n,'U+')"/>
     <xsl:text>&#x9;</xsl:text>
-    <xsl:text>Pcun&#x9;9.3&#x9;</xsl:text>
+    <xsl:text>Pcun&#x9;9.3&#x9;-</xsl:text>
     <xsl:text>&#xa;</xsl:text>
   </xsl:if>
   <xsl:apply-templates/>
