@@ -76,7 +76,11 @@ div.asl-unicode { display: inline-block; vertical-align: top; }
 
 p.asl-ucun    { font-size: 500%; margin: 0px; }
 
+p.asl-ucun .pcslpc    { font-size: 150%; margin: 0px; }
+
 #Forms p.asl-ucun    { font-size: 500%; margin: 0px; }
+
+#Forms p.asl-ucun .pcslpc   { font-size: 150%; margin: 0px; }
 
 div.asl-images  { display: inline-block; vertical-align: top; }
 

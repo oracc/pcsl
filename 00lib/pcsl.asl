@@ -87,7 +87,7 @@
 
 @inote @images 00etc/im-l23190.tab
 
-@inote @images 00etc/im-add.tab
+@images 00etc/im-add.tab
 
 @sign A
 @oid o0900000
