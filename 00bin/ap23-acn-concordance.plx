@@ -13,6 +13,7 @@ GetOptions(
     );
 
 my %ap23u = ();
+my @vsp = ();
 
 print '<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><link media="screen,projection" href="/pcsl/signlist/css/projesp.css" type="text/css" rel="stylesheet" /><title>ACN Concordance</title></head><body><table>', "\n";
 open(R,'00etc/pcsl-acn-repertoire.tsv') || die;
@@ -30,16 +31,38 @@ while (<R>) {
 }
 close(R);
 print '</table>';
+
 print '<table>';
-open(A,'00raw/ap23-numbers.tsv') || die;
+open(A,'00etc/ap23-leftover-num.tsv') || die;
 while (<A>) {
     chomp;
-    my($u,$n,$o,$un) = split(/\t/,$_);
-    next if $ap23u{$u};
+    my($o,$n,$u,$un,$note) = split(/\t/,$_);
     my $u_ucun = sprintf("%s", chr(hex($u)+0xE0000));
-    print "<tr><td>$n</td><td>$un</td><td>$u</td><td><span class=\"pcslpc xxx\">$u_ucun</span></td></tr>";
+    my $v_ucun = '';
+    if ($note =~ /VSP\s+(\S+)/) {
+	$v_ucun =  sprintf("%s", chr(hex($1)));
+	$note = "$note <span class=\"pcslpc\">$v_ucun</span>";
+    }
+    print "<tr><td>$n</td><td>$un</td><td>$u</td><td><span class=\"pcslpc xxx\">$u_ucun</span></td><td>$note</td></tr>";
 }
 close(A);
 print '</table>';
+
+print '<table>';
+open(A,'00etc/ap23-vsp.tsv') || die;
+while (<A>) {
+    chomp;
+    my($o,$n,$u,$un,$note) = split(/\t/,$_);
+    my $u_ucun = sprintf("%s", chr(hex($u)+0xE0000));
+    my $v_ucun = '';
+    if ($note =~ /VSP\s+(\S+)/) {
+	$v_ucun =  sprintf("%s", chr(hex($1)));
+	$note = "$note <span class=\"pcslpc\">$v_ucun</span>";
+    }
+    print "<tr><td>$n</td><td>$un</td><td>$u</td><td><span class=\"pcslpc xxx\">$u_ucun</span></td><td>$note</td></tr>";
+}
+close(A);
+print '</table>';
+
 print "\n", '</body></html>';
 1;
