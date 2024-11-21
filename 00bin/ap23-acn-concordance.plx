@@ -16,10 +16,13 @@ print '<html><head><meta http-equiv="Content-Type" content="text/html; charset=U
 open(R,'00etc/pcsl-acn-repertoire.tsv') || die;
 while (<R>) {
     chomp;
-    my($o,$ap,$n,$ac,$acu,$note) = split(/\t/,$_);
+    my($o,$ac,$acu,$ap,$nm,$note) = split(/\t/,$_);
     my $ap_ucun = $ap ? sprintf("%s", chr(hex($ap)+0xE0000)) : '';
     my $ac_ucun = sprintf("%s", chr(hex($ac)));
-    print "<tr><td>$n</td><td>$acu</td><td>$ac</td><td><span class=\"pcslpc\">$ac_ucun</span></td><td><span class=\"pcslpc\">$ap_ucun</span></td><td>$ap</td><td>$note</td></tr>\n";
+    if (!$ac_ucun) {
+	$ac_ucun = 'X';
+    }
+    print "<tr><td>$nm</td><td>$acu</td><td>$ac</td><td><span class=\"pcslpc xxx\">$ac_ucun</span></td><td><span class=\"pcslpc\">$ap_ucun</span></td><td>$ap</td><td>$note</td></tr>\n";
 }
 close(R);
 print "\n", '</table></body></html>';

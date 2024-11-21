@@ -24,6 +24,32 @@ foreach (@sloid) {
     $sloid{$k} = $n;
 }
 
+my %map = (
+    '1(N07A)'=>'1(N07~a)',
+    '1(N07B)'=>'1(N07~b)',
+    '2(N07A)'=>'2(N07~a)',
+    '2(N07B)'=>'2(N07~b)',
+    '3(N07A)'=>'3(N07~a)',
+    '3(N07B)'=>'3(N07~b)',
+    '1(N24A)'=>'1(N24~a)',
+    '1(N24B)'=>'1(N24~b)',
+    '1(N26B)'=>'1(N26~b)',
+    '1(N28B)'=>'1(N28~b)',
+    '1(N29A)'=>'1(N29~a)~v1',
+    '1(N29B)'=>'1(N29~b)',
+    '1(N29AB)'=>'1(N29A~b)',
+    '1(N29AB)'=>'1(N29A~b)',
+    '1(N29AC)'=>'1(N29A~c)',
+    '1(N30A)'=>'1(N30~a)',
+    '1(N30B)'=>'1(N30~b)',
+    '1(N30C)'=>'1(N30~c)',
+    '1(N30D)'=>'1(N30~d)',
+    '1(N30E)'=>'1(N30~e)',
+    );
+
+    # '1(N30AC)'=>'1(N30A~c)',
+    # '1(N30CC)'=>'1(N30C~c)',
+
 open(N,'00raw/acn-namelist.txt') || die;
 while (<N>) {
     chomp;
@@ -51,7 +77,14 @@ while (<N>) {
     $n =~ s/SH/Š/g;
     $n =~ s/\(N([0-9])\)/(N0$1)/g;
 
-    my $oid = $oid{$n} || $sloid{$n};
+    my $oid = '';
+    if ($map{$n}) {
+	$oid = $oid{$map{$n}};
+	warn "no oid for map result $n=>$map{$n}\n" unless $oid;
+    } else {
+	$oid = $oid{$n} || $sloid{$n};
+    }
+    
     print "$oid\t$u\t$uname\n";
 }
 close(N);
