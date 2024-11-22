@@ -78,6 +78,8 @@ while (<A>) {
 }
 close(A);
 
+$ap24{'|HI×ŠE₃~v1@t|'} = sprintf("%X",0x12DF1+0xE0000);
+    
 #print Dumper \%ap24;
 my %seen = ();
 
@@ -95,10 +97,10 @@ foreach (@ap24) {
 		} else {
 		    print "$_\t$ap23{$_}\t$pua{$_}\t\n";
 		}
-	    } elsif ($acn{$_}) {
-		print "$_\t$acn{$_}\t$acn{$_}\n";
+#	    } elsif ($acn{$_}) {
+#		print "$_\t$acn{$_}\t$acn{$_}\n";
 	    } else {
-		if ($rec{$_} eq 'remove' || $rec{$_} eq 'delete') {
+		if ($rec{$_} =~ /^delete|ignore|remove$/) {
 		    my $nu = sprintf("%X", hex($ap23{$_}) + 0xE0000);
 		    print "$_\t$ap23{$_}\t$nu\t\n";
 		} else {
