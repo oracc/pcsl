@@ -14,24 +14,26 @@ GetOptions(
 my %ap23u = ();
 
 my %add = (); @add{qw/1(N08~b) 2(N08~b) 3(N08~b) 4(N08~b)
+   1(N08~v)
    4(N08~c)
+   1(N16) 1(N17)
+   1(N22@v)
    1(N23) 2(N23) 3(N23) 5(N23) 7(N23)
    1(N24) 2(N24) 4(N24) 6(N24)
    1(N24@f)
-   2(N29~a) 2(N29A~b)
-   1(N30C~b)
+   1(N29~c)
+   2(N29~a) 2(N29~b) 2(N29A~b)
+   1(N30~b) 1(N30C~b)
    1(N43) 4(N43)
    1(N44)
    1(N48@f)
    3(N53)
    1(N55)
-   2(N59) 3(N59) 4(N59)
+   1(N59) 2(N59) 3(N59) 4(N59) 6(N59)
    3(N61) 4(N62) 1(N63)
    /} = ();
 
-my %com = (); @com{qw/1(N16) 1(N17)/} = ();
-
-my %oor = (); @oor{qw/12(N14) 10(N14@f) 10(N14) 10(N01)
+my %oor = (); @oor{qw/11(N14) 12(N14) 10(N14@f) 10(N14) 22(N14) 10(N01)
    6(N21)
    3(N45@f) 4(N45@f) 5(N45@f) 6(N45@f) 7(N45@f) 8(N45@f) 9(N45@f)
    3(N46)
@@ -59,7 +61,6 @@ my %map = (
     '1(N29AB)'=>'1(N29A~b)',
     '1(N29AC)'=>'1(N29A~c)',
     '1(N30A)'=>'1(N30~a)',
-    '1(N30B)'=>'1(N30~b)',
     '1(N30C)'=>'1(N30~c)',
     '1(N30D)'=>'1(N30~d)',
     '1(N30E)'=>'1(N30~e)',
@@ -96,6 +97,15 @@ while (<A>) {
 }
 close(A);
 
+my %s = ();
+open(S,'00raw/sortorder.tsv') || die;
+while (<S>) {
+    chomp;
+    my($o,$s) = split(/\t/,$_);
+    $s{$o} = $s;
+}
+close(S);
+
 open(R,'00etc/pcsl-acn-repertoire.tsv') || die;
 while (<R>) {
     chomp;
@@ -103,14 +113,19 @@ while (<R>) {
     ++$ap23u{$ap} if $ap;
 }
 close(R);
-open(L,'>00etc/ap23-leftover-num.tsv') || die;
-open(A,'00raw/ap23-numbers.tsv') || die;
+
+open(L,'>00etc/add-numbers.tsv') || die;
+open(A,'00raw/add-numbers.tsv') || die;
 while (<A>) {
     chomp;
-    my($u,$n,$o,$un) = split(/\t/,$_);
+    my($u,$n,$o,$un,$frm,$img) = split(/\t/,$_);
     next if $ap23u{$u}; # %ap23u is the Unicode numbers of the AP23 spec
     my $type = typeof($n);
-    print L "$o\t$n\t$u\t$un\t$type\n";
+    my $sort = $s{$o};
+    warn "no sort code for $o = $n\n" unless $sort;
+    $frm = '' unless $frm;
+    $img = '' unless $img;
+    print L "$o\t$sort\t$n\t$u\t$un\t$type\t$frm\t$img\n";
 }
 close(A);
 close(L);
@@ -127,9 +142,6 @@ sub typeof {
     }
     if (exists $add{$n}) {
 	return "ADD";
-    }
-    if (exists $com{$n}) {
-	return "COM";
     }
     if (exists $oor{$n}) {
 	return "OOR";

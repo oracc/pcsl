@@ -8,6 +8,7 @@
   <struct:page file="signlist-x-LLATU-cchart.xml" id="cchartllatu" type="page"/>
   <struct:page file="signlist-x-ZATU-index.xml" id="indexzatu" type="page"/>
   <struct:page file="signlist-x-numlist.xml" id="numlist" type="page"/>
+  <struct:page file="signlist-x-acn-concordance.xml" id="acncnc" type="page"/>
   <!--
       <struct:page file="sx-period-V.xml" id="onlyinv" type="page"/>
       <struct:page file="sx-period-IV.xml" id="onlyiniv" type="page"/>
