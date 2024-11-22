@@ -78,11 +78,16 @@
 	abbreviations:</p>
 	
 	<dl>
-	  <dt>ADD</dt><dd>"Additional"--a neutral designation indicating only that the character is not in ACN or AP23.</dd>
-	  <dt>ENC</dt><dd>"Encode"--an assumption that the character should be encoded.</dd>
-	  <dt>OOR</dt><dd>"Out Of Range"--an assertion that the character is anomalous and should not be encoded.</dd>
-	</dl>
+	  <dt>ADD</dt><dd>"Additional"--a neutral designation
+	  indicating only that the character is not in ACN. Characters
+	  above U+F0000 are not in AP23 either.</dd>
 
+	  <dt>ENC</dt><dd>"Encode"--an assumption that the character
+	  should be encoded.</dd>
+
+	  <dt>OOR</dt><dd>"Out Of Range"--an assertion that the
+	  character is anomalous and should not be encoded.</dd>
+	</dl>
 
 	<xsl:for-each select=".//xh:table[2]">
 	  <xsl:copy>

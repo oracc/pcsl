@@ -13,6 +13,21 @@ GetOptions(
     );
 my %ap23u = ();
 
+my %notes = (
+    'N13'=>'ACN p.43; rotated N04',
+    '1(N16)'=>'ACN p.43; possible fraction "should probably be encoded in the [ACN] block"',
+    '1(N17)'=>'ACN p.43; SJT: associated w N16 and likely also a fraction; encode with N16',
+    '1(N23)'=>'ACN p.43; more Pelm than Pcun "Best encoded as part of a [Pelm] proposal"',
+    '1(N30~b)'=>'ACN omits but attested in CUSAS31, see XXX',
+    '1(N43)'=>'ACN p.44; "probably part of variant system Š"',
+    '1(N44)'=>'ACN p.44; only attested on one tablet; interpretation unclear',
+    '1(N53)'=>'ACN p.44; only attested on one tablet; interpretation unclear',
+    '1(N55)'=>'ACN p.44; only attested on one tablet; interpretation unclear',
+    '1(N10)'=>'ACN p.44; replaced by N11 in CDLI transliteration',
+    '1(N59)'=>'ACN p.44; "possibly a variant of [N04]"',
+    '1(|N01×N58|)'=>'ACN p.45; attested in P005658',
+    );
+
 my %add = (); @add{qw/1(N08~b) 2(N08~b) 3(N08~b) 4(N08~b)
    1(N08~v)
    4(N08~c)
@@ -123,9 +138,14 @@ while (<A>) {
     my $type = typeof($n);
     my $sort = $s{$o};
     warn "no sort code for $o = $n\n" unless $sort;
+    my $note = $notes{$n} || '';
+    if ($note) {
+	$note =~ s/"/&quot;/g;
+	$note = ' '.$note;
+    }
     $frm = '' unless $frm;
     $img = '' unless $img;
-    print L "$o\t$sort\t$n\t$u\t$un\t$type\t$frm\t$img\n";
+    print L "$o\t$sort\t$n\t$u\t$un\t$type$note\t$frm\t$img\n";
 }
 close(A);
 close(L);
