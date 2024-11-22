@@ -51,10 +51,12 @@ while (<A>) {
 	print "<tr><td>$n</td><td>$un</td><td>$u</td><td><span class=\"pcslpc xxx\">$u_ucun</span></td><td>$note</td>";
 	if ($frm) {
 	    if ($esp) {
-		print "<td>$frm</td><td><esp:image height=\"30px\" file=\"add/$img\" description=\"picture of $img\"/></td>";
+		print "<td>$frm</td><td><esp:image height=\"20px\" file=\"../../images/add/$img\" description=\"picture of $img\"/></td>";
 	    } else {
-		print "<td>$frm</td><td><img height=\"30px\" src=\"/pcsl/images/add/$img\"/></td>";
+		print "<td>$frm</td><td><img height=\"20px\" src=\"/pcsl/images/add/$img\"/></td>";
 	    }
+	} else {
+	    print "<td>&#xa0;</td><td>&#xa0;</td>";
 	}
 	print '</tr>';
     }
@@ -72,7 +74,7 @@ while (<A>) {
     if ($note =~ /VSP\s+(\S+)/) {
 	$v_ucun =  sprintf("%s", chr(hex($1)));
 	$note = "$note <span class=\"pcslpc\">$v_ucun</span>";
-    }
+    }    
     print "<tr><td>$n</td><td>$un</td><td>$u</td><td><span class=\"pcslpc xxx\">$u_ucun</span></td><td>$note</td></tr>";
 }
 close(A);
