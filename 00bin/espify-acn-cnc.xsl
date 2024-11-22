@@ -73,20 +73,35 @@
 	were included in AP23 but some are additions to the AP23
 	repertoire--these have entries in the SOURCE and IMAGE columns.</p>
 
+	<p>The characters in this table have Oracc PUA
+	assignments. See the <esp:link
+	url="/osl/signlist/OraccPUA9.4/index.html">Oracc PUA
+	9.4</esp:link> and <esp:link
+	url="/osl/signlist/OraccPUA9.4/index.html">Oracc PUA
+	9.5</esp:link> pages.</p>
+	
 	<p>The notes column contains a provisional assessment of how
 	to handle the characters, with the following
 	abbreviations:</p>
 	
 	<dl>
+	  <dt>ACN</dt><dd>"Archaic Cuneiform Numerals [Encode]"--the character
+	  could be encoded in a future ACN additions proposal.</dd>
+
 	  <dt>ADD</dt><dd>"Additional"--a neutral designation
 	  indicating only that the character is not in ACN. Characters
 	  above U+F0000 are not in AP23 either.</dd>
 
-	  <dt>ENC</dt><dd>"Encode"--an assumption that the character
-	  should be encoded.</dd>
-
+	  <dt>DNE</dt><dd>"Do Not Encode"--the character is not encodable.</dd>
+	  
 	  <dt>OOR</dt><dd>"Out Of Range"--an assertion that the
 	  character is anomalous and should not be encoded.</dd>
+
+	  <dt>Pelm</dt><dd>Proto-Elamite--the character should be
+	  encoded in the Proto-Elamite proposal.</dd>
+	  
+	  <dt>PCE</dt><dd>"Proto-Cuneiform Encode"--the character
+	  should be encoded in the PC proposal.</dd>
 	</dl>
 
 	<xsl:for-each select=".//xh:table[2]">
@@ -116,7 +131,12 @@
 	have different glyphs.  In addition, ACN does not give more
 	than one glyph per codepoint, whereas AP23--following the CDLI
 	repertoire--does do so.</p>
-	
+
+	<p>The characters in this table have Oracc PUA
+	assignments. See the <esp:link
+	url="/osl/signlist/OraccPUA9.3/index.html">Oracc PUA
+	9.3</esp:link> page.</p>
+		
 	<xsl:for-each select=".//xh:table[3]">
 	  <xsl:copy>
 	    <xsl:attribute name="class"><xsl:text>pretty</xsl:text></xsl:attribute>

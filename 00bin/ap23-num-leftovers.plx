@@ -18,35 +18,34 @@ my %notes = (
     '1(N16)'=>'ACN p.43; possible fraction "should probably be encoded in the [ACN] block"',
     '1(N17)'=>'ACN p.43; SJT: associated w N16 and likely also a fraction; encode with N16',
     '1(N23)'=>'ACN p.43; more Pelm than Pcun "Best encoded as part of a [Pelm] proposal"',
-    '1(N30~b)'=>'ACN omits but attested in CUSAS31, see XXX',
+    '1(N30~b)'=>'ACN omits but attested in CUSAS31, 99 [P006396] o i 5',
     '1(N43)'=>'ACN p.44; "probably part of variant system Š"',
     '1(N44)'=>'ACN p.44; only attested on one tablet; interpretation unclear',
     '1(N53)'=>'ACN p.44; only attested on one tablet; interpretation unclear',
     '1(N55)'=>'ACN p.44; only attested on one tablet; interpretation unclear',
     '1(N10)'=>'ACN p.44; replaced by N11 in CDLI transliteration',
     '1(N59)'=>'ACN p.44; "possibly a variant of [N04]"',
-    '1(|N01×N58|)'=>'ACN p.45; attested in P005658',
+    '1(|N01×DIŠ|)'=>'ACN p.45; attested in P005658',
     );
+
+my %ACN = (); @ACN{qw/1(|AŠ@c×DIŠ|) 1(N16) 1(N17) 1(N30~b)/} = ();
 
 my %add = (); @add{qw/1(N08~b) 2(N08~b) 3(N08~b) 4(N08~b)
    1(N08~v)
    4(N08~c)
-   1(N16) 1(N17)
    1(N22@v)
-   1(N23) 2(N23) 3(N23) 5(N23) 7(N23)
    1(N24) 2(N24) 4(N24) 6(N24)
    1(N24@f)
    1(N29~c)
    2(N29~a) 2(N29~b) 2(N29A~b)
-   1(N30~b) 1(N30C~b)
+   1(N30C~b)
    1(N43) 4(N43)
-   1(N44)
    1(N48@f)
-   3(N53)
-   1(N55)
    1(N59) 2(N59) 3(N59) 4(N59) 6(N59)
    3(N61) 4(N62) 1(N63)
    /} = ();
+
+my %dne = (); @dne{qw/1(N44) 3(N53) 1(N55)/} = ();
 
 my %oor = (); @oor{qw/11(N14) 12(N14) 10(N14@f) 10(N14) 22(N14) 10(N01)
    6(N21)
@@ -56,6 +55,25 @@ my %oor = (); @oor{qw/11(N14) 12(N14) 10(N14@f) 10(N14) 22(N14) 10(N01)
    6(N48) 7(N48)
    5(N49)
    /} = ();
+
+my %pelm = (); @pelm{qw/1(N23) 2(N23) 3(N23) 5(N23) 7(N23)/} = ();
+
+my %types = ();
+foreach (keys %ACN) {
+    $types{$_} = 'ACN';
+}
+foreach (keys %add) {
+    $types{$_} = 'ADD';
+}
+foreach (keys %dne) {
+    $types{$_} = 'DNE';
+}
+foreach (keys %oor) {
+    $types{$_} = 'OOR';
+}
+foreach (keys %pelm) {
+    $types{$_} = 'Pelm';
+}
 
 my %map = (
     '1(N07A)'=>'1(N07~a)',
@@ -158,13 +176,10 @@ sub typeof {
     #    warn "typeof $n = $m\n";
 
     if ($n =~ /N5[78]/ || $n =~ /LAGAB/) {
-	return "ENC";
+	return ($n =~ /~v/) ? "VSP" : "PCE" ;
     }
-    if (exists $add{$n}) {
-	return "ADD";
-    }
-    if (exists $oor{$n}) {
-	return "OOR";
+    if ($types{$n}) {
+	return $types{$n};
     }
     if ($acn{$n} || $acnmap{$n}) {
 	my $a = $acn{$n} || $acn{$acnmap{$n}};
