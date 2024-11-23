@@ -1,11 +1,12 @@
-<project n="pcsl" 
+<project n="pcsl/signlist" 
     xmlns="http://oracc.org/ns/xpd/1.0"
     xmlns:xpd="http://oracc.org/ns/xpd/1.0">
   <name>Proto-Cuneiform Sign List</name>
-  <abbrev>PCSL</abbrev>
+  <abbrev>PCSL/Signlist</abbrev>
   <project-type>oracc</project-type>
-  <type>corpus</type>
-  <logo type="text">PCSL</logo>
+  <type>signlist</type>
+  <public>yes</public>
+  <logo type="text">PCSL/Signlist</logo>
   <option name="asl-domain" value="pc"/>
   <option name="asl-auto" value="no"/>
   <!--<option name="asl-insts" value="yes"/>-->

@@ -27013,68 +27013,70 @@
 
 @sign 1(N30A)
 @oid o0903051
-@uname	PROTO-CUNEIFORM NUMBER ONE-N30-A VARIANT 1
-@list	U+F25B0
-@ucun 󲖰
-@uage	1
 @sys	AP23 1(N30~a)
 @sys AP24 1(N30~a)~v1 125B0
-@form 1(N30A)~v1
 @aka 1(N30~a)
 @aka 1(N30~a)~v1
-@oid o0903046
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30-A
-@list	U+F25AF
-@ucun 󲖯
+@list	U+125AF
+@sys ACN L2/24-210R
+@ucun 𒖯
 @uage	1
 @sys	AP23 1(N30~a)
 @sys AP24 1(N30~a) 125AF
-@@
-@form 1(N30~b)
+@end sign
+
+@sign 1(N30~b)
 @oid o0903047
 @list U+F3083
 @uname -
 @inote	CHECK
 @uage	9
 @sys	AP23 not
-@@
-@form 1(N30C)
+@end sign
+
+@sign 1(N30C)
 @aka 1(N30~c)
-@oid o0903048
+@oid o0903053
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30-C
-@list	U+F25B1
+@list	U+125B0
+@sys ACN L2/24-210R
 @ucun 󲖱
 @uage	1
 @sys	AP23 1(N30~c)
 @sys AP24 1(N30~c) 125B1
-@@
-@form 1(N30D)
+@end sign
+
+@sign 1(N30D)
 @aka 1(N30~d)
-@oid o0903049
+@oid o0903309
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30-D
-@list	U+F25B2
+@list	U+125B1
+@sys ACN L2/24-210R
 @ucun 󲖲
 @uage	1
 @sys	AP23 1(N30~d)
 @sys AP24 1(N30~d) 125B2
-@@
-@form 1(N30E)
+@end sign
+
+@sign 1(N30E)
 @aka 1(N30~e)
-@oid o0903050
+@oid o0903310
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30-E
-@list	U+F25B3
+@list	U+125B2
+@sys ACN L2/24-210R
 @ucun 󲖳
 @uage	1
 @sys	AP23 1(N30~e)
 @sys AP24 1(N30~e) 125B3
-@@
 @end sign
 
 @sign 1(N30AC)
 @aka 1(N30A~c)
 @oid o0903342
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30A-C
-@list	U+F25B4
+@list	U+12627
+@sys ACN L2/24-210R
 @ucun 󲖴
 @uage	1
 @sys	AP23 1(N30A~c)
@@ -27095,8 +27097,9 @@
 @aka 1(N30C~c)
 @oid o0903343
 @uname	PROTO-CUNEIFORM NUMBER ONE-N30C-C
-@list	U+F25B6
-@ucun 󲖶
+@list	U+12628
+@sys ACN L2/24-210R
+@ucun 𒘨
 @uage	1
 @sys	AP23 1(N30C~c)
 @sys AP24 1(N30C~c) 125B6
