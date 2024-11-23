@@ -29,7 +29,10 @@ my @p = `cat 00lib/pcsl.asl`; chomp @p;
 for (my $i = 0; $i < $#p; ++$i) {
     if ($p[$i] =~ /^\@(?:sign|form)\s+(.*?)\s*$/) {
 	my $sf = $1;
-	my $lu = list_u($i);
+	if ($sf =~ /N07B/) {
+	    warn "$sf\n";
+	}
+	my $lu = list_u($i+1);
 	my $acn = is_acn($i);
 	if ($lu && !$acn) {
 	    if ($r{$sf}) {
