@@ -1,0 +1,83 @@
+#!/usr/bin/perl
+use warnings; use strict; use open 'utf8'; use utf8; use feature 'unicode_strings';
+binmode STDIN, ':utf8'; binmode STDOUT, ':utf8'; binmode STDERR, ':utf8';
+binmode $DB::OUT, ':utf8' if $DB::OUT;
+
+use Data::Dumper;
+
+use lib "$ENV{'ORACC_BUILDS'}/lib";
+
+use Getopt::Long;
+
+GetOptions(
+    );
+
+my $in_form = 0;
+my $in_sign = 0;
+
+my @aka = `cut -f1,5 data/sx-akas.out`; chomp @aka;
+my %aka = (); foreach (@aka) { my($o,$a)=split(/\t/,$_);push@{$aka{$o}},$a}
+
+my @sysf = <data/*.sys>;
+my %sys = ();
+foreach my $f (@sysf) {
+    my @sys = `cat $f`; chomp @sys;
+    foreach (@sys) { my($o,$a)=split(/\t/,$_);push@{$sys{$o}},$a}
+}
+
+#print Dumper \%aka; exit 1;
+
+system 'cat', 'data/header';
+while (<>) {
+    if (/^\@sign\s+(\S+)\s*$/) {
+	my $s = $1;
+	$in_sign = 1;
+	print;
+    } elsif (/^\@form\s+(\S+)\s*$/) {
+	my $f = $1;
+	print "\@\@\n" if $in_form;
+	$in_form = 1;
+	print;
+    } elsif (/^\@oid\s+(\S+)\s*$/) {
+	my $o = $1;
+	print;
+	akas($o);
+	syss($o);
+    } elsif (/^\@end\s+sign/) {
+	if ($in_sign) {
+	    print "\@\@\n" if $in_form;
+	    print "\@end sign\n\n";
+	    $in_form = 0;
+	}
+    } elsif (/^\@compo/) {
+	print;
+    } else {
+	warn unless /^\@signlist/;
+    }
+}
+
+#print "\@\@\n" if $in_form;
+#print "\@end sign\n\n";
+#system 'cat', 'data/compoundonly';
+
+#############################################################################
+
+sub akas {
+    my $k = shift;
+    if ($aka{$k}) {
+	foreach my $a (@{$aka{$k}}) {
+	    print "\@aka\t$a\n";
+	}
+    }
+}
+
+sub syss {
+    my $k = shift;
+    if ($sys{$k}) {
+	foreach my $a (@{$sys{$k}}) {
+	    print "\@sys\t$a\n";
+	}
+    }
+}
+
+1;

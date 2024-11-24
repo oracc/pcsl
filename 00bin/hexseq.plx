@@ -8,8 +8,10 @@ use Data::Dumper;
 use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
+my $missing = 0;
 my $verbose = 0;
 GetOptions(
+    m=>\$missing,
     v=>\$verbose
     );
 
@@ -21,7 +23,13 @@ while (<>) {
 	if ($y < $x) {
 	    printf STDERR "out of order: %X follows %X\n", $y, $x;
 	} elsif ($y - $x > 1) {
-	    printf STDERR "last hex=%X curr hex=%X\n", $x, $y;
+	    if ($missing) {
+		while ($x < $y) {
+		    printf("%X\n", ++$x);
+		}
+	    } else {
+		printf STDERR "last hex=%X curr hex=%X\n", $x, $y;
+	    }
 	} elsif ($verbose) {
 	    printf STDERR "%X-%X=1\n", $y, $x;
 	}
