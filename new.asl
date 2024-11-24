@@ -223,6 +223,7 @@
 @form |AB~a×1(N04)|
 @oid o0900027
 @sys	ADD F302B CUSAS31 ABax1N4.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -316,6 +317,7 @@
 @sign AB₂@g
 @oid o0900046
 @sys	ADD F302A P342526 AB2@g.png
+@inote	CHECK
 @end sign
 
 @sign ABGAL
@@ -342,10 +344,12 @@
 @sys	AP23 126F4
 @sys	AP24 126AE
 @sys	LLATU:181_02 ABZU 
+@inote are ZU/SU un(der)differentiated in PC
 @form |AB×ZU|
 @oid o0900051
 @aka	ABZU~b
 @sys	ADD F3056 CUSAS01 ABZUb.png
+@inote	CUSAS 01
 @@
 @end sign
 
@@ -378,6 +382,7 @@
 @form ADAB~v1
 @oid o0900057
 @sys	ADD F3067 ATUXXX ADABv1.png
+@inote	Uruk III form which is clearly a city standard; collation required
 @@
 @end sign
 
@@ -593,6 +598,7 @@
 @form ANŠE~f
 @oid o0900097
 @sys	ADD F3068 CUSAS01 ANSZEf.png
+@inote	CHECK
 @@
 @end sign
 
@@ -897,6 +903,7 @@
 @form |BAR×URI₃~a|
 @oid o0900156
 @sys	ADD F3060 CUSAS01 BAR+URI3a.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -912,6 +919,7 @@
 @oid o0900159
 @sys	AP23 12743
 @sys	AP24 126FF
+@note BAU088 is essentially CDLI-gh BARA₂~a1--the gestalts are the same but BAU088 is rotated 180 degrees.  BAU157 has two tufts and a box with diagonal cross which is also the basic form of BARA₂~a1.
 @@
 @form BARA₂~b
 @oid o0900160
@@ -930,6 +938,62 @@
 @sys	AP23 12746
 @sys	AP24 12702
 @sys	LLATU:190_03 BARA₃ 
+@note	Uncertain; BAU021 association with SF 63=P010654 iii 14 questionable; CDLI transliteration of UET 2 168=P005753 ii 2 combines with following sign component and reads |TUR₃×TAK₄~a|?
+@note	Uncertain; only in UET 2, 1, not edited in CDLI.
+@note	Uncertain; only in UET 2 161=P005746 ii 5 where CDLI reads GAL~a# X, taking part of sign as GAL~a.
+@note	Uncertain; only in UET 2, 1, not edited in CDLI.
+@note	Ligature of NUMUN AB@g to understand as a sequence of separate signs.
+@note	Unclear ref to UET 2, 163 iv 4.
+@note	Uncertain, only in U. 14896
+@note	Uncertain, probably two signs X X
+@note	Uncertain, only in UET 2 277=P005867 2 X
+@note	Entry "6(N57)" read GI₆#? in CDLI
+@note	Uncertain, only on sealing.
+@note	Uncertain, only in U. 14896
+@note	Read as sequence TU~b GU₄ A.
+@note	Read as sequence PA ŠA₃~a1
+@note	Read as sequence 2(N57)? ŠA₃~a1
+@note	Read as sequence AMAR AMAR.
+@note	Read as sequence ŠE~a AMAR (possible antecedant of |AMAR×ŠE|)
+@note	Read as sequence BU/SU₃ SAL BAR vel sim.
+@note	Read as sequence MA (AMAR AN) ANŠE~b
+@note	Read as combination UR₂ above MUŠ₃a?
+@note	Read as combination |ŠU₂.AN.HI×KAK|
+@note	Read as sequence x UD E₂ where x is probably not a sign; or U.UD.KID₂??
+@note	Read as sequence ŠU₂~b AN E₂
+@note	Read as sequence ŠU₂~b E₂
+@note	Not an ED I sign; Akkadian MI+ŠITA₂ vel sim.
+@note	SAGŠU (|ŠU₂~b.SAG|) rejected in CDLI transliterations; both instances partly damaged and read X SAG.
+@note	Sealing 1 only.  Possibly DIN@t but not certain.
+@note	Read as sequence NUNUZ NUNUZ.
+@note	Only in UET 2 1
+@note	Read as sequence KU₆~a A
+@note	Sealing only; possibly sequence BA BAR.
+@note	Only on reverse of UET 2 253; probably a drawing rather than a sign.
+@note	Uncertain; read as sequence ZATU659 E₂~a in CDLI. Green ŠU₂+E₂.
+@note	Read as sequence IGI IGI
+@note	Read as sequence IGI EŠ₂
+@note	Sealings only; form is similar to NINDA₂
+@note	Read as sequence X KA~a
+@note	Read as sequence ZI ZI (or possibly |ZI&ZI|)
+@note	Unclear, UET 2 83 requires collation; probably read ŠE~a LA₂ as in i 4.
+@note	Unclear, CDLI reads A SAR~a
+@note	Read as part of ENKUM (UET 2 299 iii 4) and NINKUM# (ibid 5)
+@note	Unclear, only in U.14896; |EZEN~a×KAK|?
+@note	Unclear; CDLI |GEŠTIN×X|
+@note	Uncertain; CDLI ZATU725?
+@note	Old Akkadian sign in supplement; GA₂×U₂.
+@note	Seal U.14896 only. Possibly AB@g.
+@note	Uncertain; CDLI "E₂~a?"
+@note	Uncertain; CDLI X E₂~a
+@note	Read by CDLI as sequence DU DU (or read |DU.DU|=lah₅ etc.)
+@note	UET 2 308, later than ED I, probably ED III
+@note	Read as GU GU (or read |GU.GU| for |GU%GU|=suh₃)
+@note	Read as sequence SAL E₂~a
+@note	Read as sequence NI U₄ (or possibly NA₄)
+@note	Reference to text no. 83 incorrect; Burrows suggests "?=a+šeš (salt water)"
+@note	Symbol from seal
+@note	Symbol from seal
 @end sign
 
 @sign BIR
@@ -1011,6 +1075,7 @@
 @oid o0900179
 @aka	|(BU~a.DU₆~a&BU~a.DU₆)×UDU~a|
 @sys	ADD F3023 CUSAS21 BU-DU6+BU-DU6+UDUa.png
+@inote	CUSAS 21 p.166
 @@
 @end sign
 
@@ -1057,6 +1122,7 @@
 @form |BU~a&BU~a|
 @oid o0900189
 @sys	ADD F302C CUSAS31_167 BU+BU.png
+@inote	CHECK
 @compoundonly |BU~a~v1%BU~a~v1|
 @@
 @end sign
@@ -1123,6 +1189,7 @@
 @form |BU~a+KI|
 @oid o0900202
 @sys	ADD F302D CUSAS21_298 BU+KI.png
+@inote	CHECK
 @@
 @end sign
 
@@ -1131,6 +1198,7 @@
 @form |BU~a+TU~b|
 @oid o0900204
 @sys	ADD F302E CUSAS21 BU+TU.png
+@inote	CUSAS 21 p.166
 @@
 @end sign
 
@@ -1160,6 +1228,7 @@
 @form |BULUG₃.DU₆~a|
 @oid o0900209
 @sys	ADD F3061 CUSAS01 BULUG-DU6a.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -1391,6 +1460,7 @@
 @form DARA₄~c
 @oid o0900253
 @sys	ADD F3069 CUSAS31 DARA4c.png
+@inote	CHECK
 @@
 @form DARA₄~c1
 @oid o0900254
@@ -1421,6 +1491,7 @@
 @form DARA₄~d
 @oid o0900259
 @sys	ADD F302F CUSAS21 DARA4d.png
+@inote	CUSAS 21 p.166
 @@
 @end sign
 
@@ -1447,6 +1518,7 @@
 @oid o0900263
 @sys	AP23 12777
 @sys	AP24 12744
+@inote	ATFU DIB? in Text 19 O0302 looks like |LAGAB×MAŠ|;
 @@
 @end sign
 
@@ -1499,6 +1571,7 @@
 @aka	|DIN+1(N57)|
 @aka	|DIN+1(N58)|
 @sys	ADD F3030 CUSAS31_59 DINx1N58.png
+@inote	CHECK
 @end sign
 
 @sign DIN@t
@@ -1542,6 +1615,7 @@
 @form DU₆~a2
 @oid o0900286
 @sys	LLATU:196_01 DU₆~a 
+@inote Collation indicates LLATU form is good, e.g., P000534 o iv 4.
 @@
 @form DU₆~b
 @oid o0900287
@@ -1566,6 +1640,7 @@
 @aka	|DU₆~a×DIŠ|
 @sys	AP23 12C74
 @sys	AP24 12752
+@inote	Should be changed to |DU₆~a×1(N58)|
 @@
 @end sign
 
@@ -1609,6 +1684,7 @@
 @form |DU₈~c×AB₂|
 @oid o0900299
 @sys	ADD F3031 CUSAS01 DU8cxAB2.png
+@inote	CHECK
 @@
 @end sign
 
@@ -1617,6 +1693,7 @@
 @form |DU₈~c×AMAR|
 @oid o0900301
 @sys	ADD F3032 CUSAS01 DU8cxAMAR.png
+@inote	CHECK
 @@
 @end sign
 
@@ -1721,6 +1798,7 @@
 @form DUB~h
 @oid o0900322
 @sys	ADD F3033 CUSAS21 DUBh.png
+@inote	CUSAS 21 p.166
 @@
 @end sign
 
@@ -1731,6 +1809,7 @@
 @sign |DUB@n×1(N58)|
 @oid o0900323
 @aka	|DUB@n×DIŠ|
+@inote	all DUB×DIŠ should be changed to DUB×1(N58)
 @form |(DUB@n~a×1(N58))~a|
 @oid o0900324
 @aka	|(DUB×DIŠ)~a|
@@ -1803,6 +1882,7 @@
 @sys	AP23 1279D
 @sys	AP24 127BC
 @sys	LLATU:205_01 DUG~c 
+@inote add 2403 if doing standalone compoundonly components
 @compoundonly DUG~c~v2
 @@
 @form	DUG~c~v3
@@ -1815,6 +1895,7 @@
 @oid o0900338
 @sys	ADD F301E CDLIXXX DUG~d-drawing.png
 @sys	AP23 127A0
+@inote 2403
 @@
 @end sign
 
@@ -1852,6 +1933,7 @@
 @form |DUG~b×BA|
 @oid o0900345
 @sys	ADD F3063 ZATU093 DUGbxBA.png
+@inote	collation from photo supports Green's DUG+BA sub ZATU093
 @@
 @end sign
 
@@ -2025,6 +2107,7 @@
 @form |DUG~a×KU₆~a|
 @oid o0900378
 @sys	ADD F306A CUSAS31 DUGaxKU6.png
+@inote	Collated from photo.
 @@
 @form |DUG~b×KU₆~a|
 @oid o0900379
@@ -2059,6 +2142,7 @@
 @sys	AP23 12C9E
 @sys	AP24 12789
 @sys	LLATU:200_05 DUG~b+KUR~a+? 
+@inote	The sign form in LLATU has some depiction of the X component whereas the one in AP23/CDLI-gh does not
 @@
 @end sign
 
@@ -2171,6 +2255,7 @@
 @oid o0900405
 @aka	|DUG~c×1(N58)|
 @sys	ADD F3035 CUSAS01_138 DUGx1N58.png
+@inote The glyph is DUG~b1x1N58 but the previous description was for DUG~c; collate.
 @@
 @end sign
 
@@ -2226,6 +2311,7 @@
 @oid o0900416
 @sys	ADD F3054 LLATU DUGxSA-GI.png
 @sys	LLATU:201_05 DUG~b+SA~a+GI 
+@inote	CHECK
 @@
 @end sign
 
@@ -2293,6 +2379,7 @@
 @form |DUG~b×SUKUD~d|
 @oid o0900429
 @sys	ADD F3055 P006071 DUGxSUKUD.png
+@inote	CHECK
 @@
 @end sign
 
@@ -2546,6 +2633,7 @@
 @sys	ADD F308A CDLIXXX DUG~d-correction.png
 @sys	AP23 FFFF8
 @sys	AP24 12774
+@inote add 2403
 @@
 @form DUG~c@t
 @oid o0900479
@@ -2655,6 +2743,7 @@
 @form |E₂~b×3(N57)|
 @oid o0900501
 @sys	ADD F3062 P006173 E2bx3N57.png
+@inote	collated from photo
 @@
 @end sign
 
@@ -2675,6 +2764,7 @@
 @sys	AP23 12CCA
 @sys	AP24 127D0
 @sys	LLATU:207_02 E₂~b+AŠ~c 
+@inote	correct AP transliteration to |E2~bx1(N58)@t|
 @@
 @end sign
 
@@ -2969,6 +3059,7 @@
 @form |EZEN~a×KAŠ~b|
 @oid o0900563
 @sys	ADD F3036 CUSAS01_188 EZENxKASH.png
+@inote	CHECK
 @@
 @end sign
 
@@ -2993,6 +3084,7 @@
 
 @sign |EZEN×6(N57)|
 @oid o0900569
+@note PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
 @form	|EZEN~b×6(N57)|~v1
 @oid o0900570
 @sys	AP23 12CE0
@@ -3266,6 +3358,7 @@
 @oid o0900628
 @aka	|GA₂~a×E₂~a|
 @sys	ADD F3039 CUSAS31 GA2xE2.png
+@inote	collated
 @@
 @end sign
 
@@ -3274,6 +3367,7 @@
 @form |GA₂~a1×EN~a|
 @oid o0900630
 @sys	ADD F3037 P006065 GA2xENa.png
+@inote	CHECK
 @@
 @form |GA₂~a1×EN~b~v1|
 @oid o0900631
@@ -3288,6 +3382,7 @@
 @form |GA₂~a1×GEŠTU~a|
 @oid o0900633
 @sys	ADD F306B CUSAS01 GA2a1xGESZTUa.png
+@inote	CHECK
 @@
 @form |GA₂~a1×GEŠTU~c3|
 @oid o0900634
@@ -3405,6 +3500,7 @@
 @form |GA₂~b×KU₆~a|
 @oid o0900658
 @sys	ADD F306C CUSAS31 GA2bxKU6.png
+@inote	CHECK
 @@
 @end sign
 
@@ -3461,9 +3557,11 @@
 @aka	|GA₂~a1×3(N57)|
 @sys	AP23 12CE8
 @sys	AP24 12835
+@inote	AP CDLI correction
 @@
 @form |GA₂~a2×3(N57)|
 @oid o0900671
+@inote	CHECK
 @@
 @end sign
 
@@ -3504,6 +3602,7 @@
 @aka	|GA₂~a2×NIM~b1|
 @sys	AP23 12CFA
 @sys	AP24 12826
+@inote	AP CDLI correction
 @@
 @end sign
 
@@ -3512,6 +3611,7 @@
 @form |GA₂~b×NUN~b|
 @oid o0900683
 @sys	ADD F306D P252182 GA2bxNUN.png
+@inote	CHECK
 @@
 @end sign
 
@@ -3575,12 +3675,14 @@
 @aka	|GA₂~a1×(SUKUD&SUKUD)~a|
 @sys	AP23 12D02
 @sys	AP24 1282C
+@inote	AP CDLI correction
 @@
 @form |GA₂~a1×((SUKUD+SUKUD)~b)|
 @oid o0900697
 @aka	|GA₂~a1×(SUKUD&SUKUD)~b|
 @sys	AP23 12D03
 @sys	AP24 1282D
+@inote	AP CDLI correction
 @@
 @end sign
 
@@ -3643,6 +3745,7 @@
 @form |GA₂~a1×X|~v1
 @oid o0900710
 @sys	ADD F304D CUSAS01 GA2a1xX.png
+@inote	CUSAS01
 @@
 @form |GA₂~a2×X|
 @oid o0900711
@@ -3882,6 +3985,7 @@
 @oid o0900763
 @aka	|GAN~c×4(N57).GAR|
 @sys	ADD F303A CUSAS31 GANcx4N57-GAR.png
+@inote	Sign description incorrect; see photograph |GAN~c×(BIR.GAR)|? CHECK
 @@
 @end sign
 
@@ -4017,10 +4121,12 @@
 @form GEŠTIN~d
 @oid o0900792
 @sys	ADD F306E CUSAS21 GESZTINd.png
+@inote	CHECK
 @@
 @form GEŠTIN~e
 @oid o0900793
 @sys	ADD F306F CUSAS01 GESZTINe.png
+@inote	CHECK
 @@
 @end sign
 
@@ -4082,6 +4188,7 @@
 @oid o0900809
 @aka	|GI+A|
 @sys	ADD F303B CUSAS31 GIxA.png
+@inote	CUSAS31
 @end sign
 
 @sign |GI~v1×GIŠ@t|
@@ -4517,6 +4624,7 @@
 @aka	GIŠIMMAR
 @sys	AP23 1282B
 @sys	AP24 128B4
+@inote Identification of BAU067 as GIŠIMMAR is uncertain.
 @@
 @form GIŠIMMAR~a2
 @oid o0900897
@@ -4548,6 +4656,7 @@
 @form GIŠIMMAR~b2
 @oid o0900902
 @sys	ADD F3070 P250428 GISZIMMARb2.png
+@inote	CHECK
 @@
 @form GIŠIMMAR~b3
 @oid o0900903
@@ -4877,6 +4986,7 @@
 @form HI~b
 @oid o0900961
 @sys	ADD F3071 P252177 HIb.png
+@inote	CHECK
 @@
 @end sign
 
@@ -4921,6 +5031,7 @@
 @oid o0900969
 @sys	AP23 12D4D
 @sys	AP24 128ED
+@inote	AP CDLI correction
 @compoundonly	|(HI×1(N57))&(HI×1(N57))|
 @end sign
 
@@ -4929,12 +5040,14 @@
 @aka	|HI×1(N57)@t|
 @sys	AP23 12D4E
 @sys	AP24 128EE
+@inote	AP CDLI correction
 @end sign
 
 @sign |HI×1(N58)|
 @oid o0900971
 @sys	AP23 12D4F
 @sys	AP24 128EF
+@inote	ATFU "BAU189?" but this is unlikely.
 @end sign
 
 @sign |HI×ZATU707|
@@ -4990,6 +5103,7 @@
 @form IB~c
 @oid o0900985
 @sys	ADD F3072 CUSAS01 IBc.png
+@inote	CHECK
 @@
 @end sign
 
@@ -5123,6 +5237,7 @@
 
 @sign IR₃
 @oid o0901015
+@note 	In ZATU "IR₃" is used for "UŠ+KUR" but IR₃ does not have KUR;
 @end sign
 
 @sign IR₁₁
@@ -5200,6 +5315,8 @@
 @sys	AP23 1287C
 @sys	AP24 12914
 @sys	LLATU:242_01 KA~a 
+@inote KA with closed eye like SAG with closed eye and with teeth like KA~a
+@inote KA with closed eye but only one outward tooth
 @compoundonly KA~a~v1
 @compoundonly KA~a~v2
 @@
@@ -5260,6 +5377,7 @@
 @sys	AP23 12D5A
 @sys	AP24 1291B
 @sys	LLATU:242_03 KA₂+LAM 
+@note Needs new reference glyph based on P002179 = ATU 6, pl. 056, W
 @@
 @end sign
 
@@ -5392,14 +5510,17 @@
 @form KALAM~g
 @oid o0901068
 @sys	ADD F303C CUSAS01 KALAMg.png
+@inote	CUSAS01
 @@
 @form KALAM~h
 @oid o0901069
 @sys	ADD F303D CUSAS01 KALAMh.png
+@inote	CUSAS01
 @@
 @form KALAM~h2
 @oid o0901070
 @sys	ADD F303E CUSAS31 KALAMh2.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -5417,6 +5538,7 @@
 @sys	AP23 12893
 @sys	AP24 12930
 @sys	LLATU:244_04 KAR₂~a 
+@inote This is KAR₂ with a pointed rather than rounded end.
 @compoundonly KAR₂~a1
 @@
 @form KAR₂~b
@@ -5424,6 +5546,7 @@
 @sys	AP23 12894
 @sys	AP24 12931
 @sys	LLATU:244_05 KAR₂~b 
+@inote This is KAR₂ with no GUNU component.
 @compoundonly KAR₂~c
 @@
 @end sign
@@ -5479,6 +5602,7 @@
 @form KAŠ~d1
 @oid o0901084
 @sys	ADD F3057 CUSAS01 KASHd1.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -5586,6 +5710,7 @@
 @form KIN₂~b
 @oid o0901105
 @sys	ADD F3073 CUSAS31 KIN2b.png
+@inote	CHECK
 @@
 @form KIN₂~c
 @oid o0901106
@@ -5716,6 +5841,8 @@
 @sys	ADD F3026 CUSAS01 KISHb.png
 @sys	AP23 128B7
 @sys	AP24 1295B
+@inote	Neither KIŠ~v1 nor KIŠ~b occur in CDLI transliterations, but CUSAS 1, p.281, KIŠ~b is very similar to CDLI KIŠ variant 1
+@inote	CUSAS01
 @@
 @end sign
 
@@ -6048,6 +6175,7 @@
 @oid o0901199
 @sys	AP23 12D7D
 @sys	AP24 12999
+@inote	' => ʾ
 @@
 @end sign
 
@@ -6065,6 +6193,7 @@
 @form |LAGAB~b×(HI×N04)|
 @oid o0901203
 @sys	ADD F3015 P252182 LAGABxHIx1N04-photo.png
+@inote	CHECK
 @@
 @end sign
 
@@ -6119,6 +6248,7 @@
 @form |LAGAB~a×LA₂~a|
 @oid o0901215
 @sys	ADD F3019 P342533 LAGABxLA2-photo.png
+@inote	CHECK
 @@
 @end sign
 
@@ -6155,6 +6285,7 @@
 @form |LAGAB~a×1(N58)|
 @oid o0901225
 @sys	ADD F301A CUSAS21 LAGABx1N58.png
+@inote	CHECK
 @@
 @end sign
 
@@ -6163,6 +6294,7 @@
 @form |LAGAB~a×NI~a|
 @oid o0901227
 @sys	ADD F3016 P274471 LAGABxNI-photo.png
+@inote	CHECK
 @@
 @end sign
 
@@ -6311,6 +6443,7 @@
 @sys	AP23 12D80
 @sys	AP24 1299F
 @sys	LLATU:253_01 LAGAB~b+LAGAB~b 
+@inote	AP CDLI correction
 @@
 @end sign
 
@@ -6387,6 +6520,7 @@
 @form |LAL₂~a×NAGA~a|
 @oid o0901275
 @sys	ADD F303F CUSAS21 LAL2xNAGA.png
+@inote	CUSAS 21 p.166
 @@
 @end sign
 
@@ -6687,6 +6821,7 @@
 @form |MAH~a×TUN₃~c|
 @oid o0901347
 @sys	ADD F3040 CUSAS31 MAHaxTUN3c.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -6771,6 +6906,7 @@
 @form |MAR~b×GAR|
 @oid o0901365
 @sys	ADD F3002 P388253 MARxGAR.png
+@inote	CHECK
 @@
 @end sign
 
@@ -6809,6 +6945,7 @@
 @oid o0901373
 @sys	ADD F301C CUSAS31 MAR-ga.png
 @sys	LLATU:255_03 MAR~a@g 
+@inote	CUSAS31
 @@
 @end sign
 
@@ -6974,6 +7111,7 @@
 @sys	AP23 12924
 @sys	AP24 129F4
 @sys	LLATU:258_06 MUL 
+@inote add BAR×MUL from P000299?
 @end sign
 
 @sign MUN
@@ -7193,6 +7331,7 @@
 @form NA₂~c
 @oid o0901446
 @sys	ADD F3074 CUSAS21 NA2c.png
+@inote	CHECK
 @@
 @end sign
 
@@ -7307,6 +7446,7 @@
 @sys	LLATU:263_02 NAM₂ 
 @form	NAM₂~v2
 @oid o0903431
+@inote this is a work around for a parse bug in |ŠE~a.NAM₂|~v2
 @@
 @end sign
 
@@ -7433,6 +7573,7 @@
 
 @sign NESAG₂
 @oid o0901492
+@inote	ZATU calls this sign NISAG which was revised in LLATU to NESAG₂.
 @form NESAG₂~a
 @oid o0901493
 @sys	AP23 1295F
@@ -7443,6 +7584,7 @@
 @oid o0901495
 @aka	NISAG~a3
 @sys	ADD F3075 P006275 NESAG2a2.png
+@note	The sign form is |UD@g×PA|. The transliteration NISAG~a3 occurs
 @@
 @form NESAG₂~b
 @oid o0901496
@@ -7473,6 +7615,7 @@
 @sys	AP23 12964
 @sys	AP24 12A3A
 @sys	LLATU:267_02 NI~a 
+@note	ATFU p.28 ad Text 5 O0204 notes that the sign form
 @@
 @form NI~b
 @oid o0901502
@@ -7523,6 +7666,8 @@
 
 @sign NI@g
 @oid o0901511
+@inote	@list	ZATU394
+@inote	this sign may no longer exist; see note under @lref ZATU394
 @form NI~a@g
 @oid o0901512
 @sys	AP23 12965
@@ -7573,6 +7718,7 @@
 @form NIM~d
 @oid o0901520
 @sys	ADD F3076 P342517 NIMd.png
+@inote	CHECK
 @@
 @end sign
 
@@ -7621,6 +7767,7 @@
 
 @sign |NINDA₂×GUDU₄|
 @oid o0901529
+@note NINDA₂×GUDU₄ = |NINDA₂×(HI~a1.ME~a)|
 @form |NINDA₂×(HI.ME~a)|
 @oid o0901530
 @aka	|NINDA₂×(HI+ME~a)|
@@ -7645,20 +7792,24 @@
 @aka	|NINDA₂×(HI.AN.ME)|
 @sys	AP23 12DC4
 @sys	AP24 12A56
+@inote aka |NINDA₂×GUDU₄|~v2
 @@
 @form |NINDA₂×GUDU₄|~v2
 @oid o0901534
 @sys	AP23 12DC1
+@note Delete: duplicate	of |NINDA₂×(HI.AN.ME~a)| = PROTO-CUNEIFORM SIGN NINDA2 TIMES HI BESIDE AN BESIDE ME-A
 @@
 @form |NINDA₂×(AN.ME~a)|
 @oid o0901535
 @aka	|NINDA₂×(AN.ME)|
 @sys	AP23 12DB6
 @sys	AP24 12A4D
+@inote @aka |NINDA₂×GUDU₄|~v3
 @@
 @form |NINDA₂×GUDU₄|~v3
 @oid o0901536
 @sys	AP23 12DC2
+@note Delete: duplicate of |NINDA₂×(AN.ME~a)| = PROTO-CUNEIFORM SIGN NINDA2 TIMES AN BESIDE ME-A
 @@
 @end sign
 
@@ -7690,6 +7841,7 @@
 @oid o0901542
 @sys	AP23 12DBA
 @sys	AP24 12A51
+@inote	' => ʾ
 @@
 @end sign
 
@@ -7749,6 +7901,7 @@
 @form |NINDA₂×MAR~a|
 @oid o0901555
 @sys	ADD F3041 CUSAS21 NINDA2xMAR.png
+@inote	CUSAS 21 p.166
 @@
 @form |NINDA₂×MAR~b|
 @oid o0901556
@@ -7784,6 +7937,7 @@
 @form |NINDA₂×NUN~a|
 @oid o0901564
 @sys	ADD F3042 CUSAS31 NINDA2xNUN.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -7831,6 +7985,7 @@
 @sign |NINDA₂×ZATU710|
 @oid o0901576
 @sys	ADD F3043 CUSAS21 NINDA2xZATU710.png
+@inote	CUSAS 21, p.166
 @end sign
 
 @sign NINKUM
@@ -7905,6 +8060,7 @@
 @oid o0901588
 @sys	AP23 12979
 @sys	AP24 12A71
+@note Sometimes classified as NUMUN but this identification is not completely convincing.
 @end sign
 
 @sign NUMUN
@@ -7964,6 +8120,7 @@
 @oid o0901600
 @form |NUN~b.U₄|
 @oid o0901601
+@inote	CHECK
 @@
 @end sign
 
@@ -8144,6 +8301,7 @@
 @sign PAP@t
 @oid o0901642
 @sys	ADD F3077 CUSAS31 PAPt.png
+@inote	CHECK
 @form PAP~a@t
 @oid o0901643
 @sys	AP23 12995
@@ -8190,6 +8348,7 @@
 @oid o0901651
 @aka	|PIRIG~b1+DIŠ|
 @sys	ADD F3044 CUSAS21 PIRIGb1+DISH.png
+@inote	CUSAS 21, p.166
 @@
 @end sign
 
@@ -8207,6 +8366,7 @@
 @form |PIRIG~b1+DIN|
 @oid o0901655
 @sys	ADD F3018 CUSAS21 PIRIG+DIN.png
+@inote	CHECK
 @@
 @end sign
 
@@ -8384,6 +8544,7 @@
 @oid o0901693
 @aka	|SAG+UKKIN~b1×1(N57)|
 @sys	ADD F3011 CUSAS21 SAG+UKKINx1N57.png
+@inote	CHECK
 @@
 @end sign
 
@@ -8454,6 +8615,7 @@
 @oid o0901705
 @aka	|SAL.ZATU751~c|
 @sys	ADD F300F CUSAS31 SAL+HIxHI.png
+@inote	Monaco's |SAL.ZATU751~c| in CUSAS 31, 089 o ii 7 is not convincing; "ZATU751~c"
 @end sign
 
 @sign |SAL+ZATU751|
@@ -8461,6 +8623,7 @@
 @form |SAL+ZATU751~a|
 @oid o0901707
 @sys	ADD F300E CUSAS01 SAL+ZATU751.png
+@inote	CHECK
 @@
 @end sign
 
@@ -8502,10 +8665,12 @@
 @oid o0901715
 @aka	SANGA~e
 @sys	ADD F3064 CUSAS01 SANGAe1.png
+@inote	CUSAS01; two variants given there
 @@
 @form SANGA~e2
 @oid o0901716
 @sys	ADD F3065 CUSAS01 SANGAe2.png
+@inote	CUSAS01; two variants given there
 @@
 @end sign
 
@@ -8532,6 +8697,7 @@
 @form SAR~d
 @oid o0901721
 @sys	ADD F3046 CUSAS01 SARd.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -8564,6 +8730,7 @@
 @form |SI×EN~a|
 @oid o0901728
 @sys	ADD F3048 CUSAS31 SIxENa.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -8578,17 +8745,20 @@
 @form |SI×KU~b1|
 @oid o0901731
 @sys	ADD F3049 CUSAS31 SIxKUb1.png
+@inote	CUSAS31
 @@
 @end sign
 
 @sign |SI×1(N58)|
 @oid o0901732
 @sys	ADD F3047 CUSAS31 SIx1N58.png
+@inote	CUSAS31
 @end sign
 
 @sign |SI×SAL|
 @oid o0901733
 @sys	ADD F304B CUSAS31 SIxSAL.png
+@inote	CUSAS31
 @end sign
 
 @sign |SI×ŠE₃~v1|
@@ -8604,12 +8774,14 @@
 @form |SI×TUN₃~a|
 @oid o0901736
 @sys	ADD F304C CUSAS31 SIxTUN3a.png
+@inote	CUSAS31
 @@
 @end sign
 
 @sign |SI+AN|
 @oid o0901737
 @sys	ADD F300C CUSAS31 SIxAN.png
+@inote	CHECK
 @end sign
 
 @sign SI₄
@@ -8660,6 +8832,7 @@
 @form SIG~b
 @oid o0901747
 @sys	ADD F3078 P342533 SIGb.png
+@inote	CHECK
 @@
 @end sign
 
@@ -8780,6 +8953,7 @@
 @aka	|SIG₂~b.SIG₂~b|
 @sys	AP23 12E0A
 @sys	AP24 12AD9
+@inote	AP CDLI correction
 @@
 @end sign
 
@@ -9011,6 +9185,7 @@
 @aka	|SILA₃~a.MUD₃~b|
 @aka	|SILA₃~a+MUD₃~b|
 @sys	ADD F304A CUSAS31 SILA3axMUD3b.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -9225,6 +9400,7 @@
 @form SILA₄~c1
 @oid o0901863
 @sys	ADD F3000 P003513 SILA4-square.png
+@inote this is the square Uruk III form of CDLI-gh's URUK IV SILA₄~c.
 @@
 @form SILA₄~d
 @oid o0901864
@@ -9281,6 +9457,7 @@
 @form SU~c
 @oid o0901873
 @sys	ADD F3079 CUSAS01 SUc.png
+@inote	CHECK
 @@
 @end sign
 
@@ -9335,6 +9512,7 @@
 @form SUHUR~b
 @oid o0901882
 @sys	ADD F3058 CUSAS01 SUHURb.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -9356,6 +9534,7 @@
 @form SUHUR~b@t
 @oid o0901886
 @sys	ADD F3059 CUSAS01 SUHURb-t.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -9433,6 +9612,7 @@
 @sign SUKUD@h
 @oid o0901900
 @sys	ADD F300D P448702 SUKUDh.png
+@inote	CHECK
 @end sign
 
 @sign SUM
@@ -9541,6 +9721,7 @@
 @sys	AP23 129C2
 @sys	AP24 12B3E
 @sys	LLATU:290_01 ŠA₃~a2 
+@inote	Monaco's ŠA₃~b1 in CUSAS 31, 49 O0102 is just a wide version of ŠA₃~a2.
 @@
 @form ŠA₃~b
 @oid o0901920
@@ -9564,6 +9745,7 @@
 @form ŠA₃~a2@g
 @oid o0901924
 @sys	ADD F3045 CUSAS01 SHA3a2-g.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -9700,9 +9882,11 @@
 @form |ŠE~a@t~v1.GAR|
 @oid o0901950
 @sys	ADD F305A CUSAS01 SHE-GARa.png
+@inote	CUSAS01
 @@
 @form |ŠE~a.GAR|
 @oid o0901951
+@inote	CUSAS01 |ŠE~a.GAR~b|
 @@
 @end sign
 
@@ -9725,6 +9909,7 @@
 @sys	AP23 12DEC
 @sys	AP24 12B54
 @sys	LLATU:292_03 ŠE~a+NAM₂ 
+@inote	double-check ŠE~a+ŠE₃ in DCCLT archaic P
 @@
 @form |ŠE~a.NAM₂|~v1
 @oid o0901956
@@ -9756,6 +9941,7 @@
 @sys	AP23 129D7
 @sys	AP24 12B57
 @sys	LLATU:292_06 ŠE~a@t 
+@inote This is the 45 degree tenu ŠE~a@t
 @compoundonly ŠE~a@t~v1
 @@
 @end sign
@@ -10092,6 +10278,7 @@
 @@
 @form	ŠITA~b1@g
 @oid o0903420
+@sys	AP23 12A02
 @sys	AP24 12B85
 @compoundonly	ŠITA~b2@g
 @@
@@ -10226,6 +10413,7 @@
 @aka	|ŠU₂.(HI×1(N57))&(HI×1(N57))|
 @sys	AP23 12E04
 @sys	AP24 12B96
+@inote	AP CDLI correction
 @end sign
 
 @sign |ŠU₂~b.1(N02)|
@@ -10240,6 +10428,7 @@
 @form |ŠU₂.PAP~a|
 @oid o0902054
 @sys	ADD F3004 CUSAS31 SZU2xPAP.png
+@inote	CHECK
 @@
 @end sign
 
@@ -10256,12 +10445,14 @@
 @sign |ŠU₂×1(N24)|
 @oid o0902057
 @sys	ADD F3013 CUSAS31 SZU2x1N24.png
+@inote	CHECK
 @end sign
 
 @sign |ŠU₂×3(N57)|
 @oid o0902058
 @aka	|ŠU₂×3(N57)|
 @sys	ADD F3012 P252177 SZU2-3N57-photo.png
+@inote	CHECK
 @end sign
 
 @sign ŠU₁₂
@@ -10300,12 +10491,14 @@
 @form ŠUR₂~c
 @oid o0902065
 @sys	ADD F307B P252182 SZUR2c.png
+@inote	CHECK
 @@
 @end sign
 
 @sign |ŠUR₂×1(N58)|
 @oid o0902066
 @sys	ADD F3017 CUSAS21 SZUR2x1N58.png
+@inote	CHECK
 @end sign
 
 @sign ŠURUPPAK
@@ -10464,6 +10657,9 @@
 @sys	AP23 12A66
 @sys	AP24 12BB8
 @sys	LLATU:299_03 TAR~a 
+@inote This is the parallel but vertically offset pair of strokes called ×TAR in |(UDU~a×TAR)~a|
+@inote This is the plus-shaped cross that is called ×TAR in |NINDA₂×((UDU~a×TAR)~b)|, |(UDU~a×TAR)~b|, |(U₈×TAR)~b|
+@inote This is the reversed ŠU₂-like sign in |AMAR×TAR|, |UŠ×TAR~c|
 @compoundonly TAR~b
 @compoundonly TAR~c
 @@
@@ -10539,6 +10735,7 @@
 @@
 @form TU~b1
 @oid o0902113
+@note This form is transliterated as TU~a in ATU 6 and ATU 7. It is TU~b with a horizontal ŠE, closely analagous to BAU133.
 @@
 @form TU~c
 @oid o0902114
@@ -10556,6 +10753,7 @@
 @sys	AP23 12A73
 @sys	AP24 12BC4
 @sys	LLATU:301_03 TUG₂~a 
+@inote	I assume TUG₂~a~a is a typo in the corpus.
 @@
 @form TUG₂~b
 @oid o0902117
@@ -10654,6 +10852,7 @@
 @sys	AP23 12A7E
 @sys	AP24 12BD0
 @sys	LLATU:302_02 TUN₃~a 
+@inote @sys	ATFU-S TUN₃~a ### this does not seem to be in their index
 @@
 @form TUN₃~b
 @oid o0902137
@@ -10722,6 +10921,7 @@
 @form |TUR₃~a.5(N57)|
 @oid o0902150
 @sys	ADD F3005 CUSAS21 TUR3+5N57.png
+@inote	CHECK
 @@
 @end sign
 
@@ -10882,6 +11082,7 @@
 @oid o0902180
 @aka	|U₄×1(N01)+1(N24)|
 @sys	ADD F3007 CUSAS31 U4x1N01-N24.png
+@inote	Could be encoded as sequence U₄×1(N01).1(N24)
 @end sign
 
 @sign |U₄×2(N01)|
@@ -10978,6 +11179,7 @@
 @sign |U₄×(1(N14).1(N01))|
 @oid o0902197
 @sys	ADD F3008 CUSAS01 U4x1N14-1N01.png
+@inote	CHECK
 @end sign
 
 @sign |U₄×(1(N14).2(N01))|
@@ -10989,6 +11191,7 @@
 @sign |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @oid o0902199
 @sys	ADD F3009 P518361 U4x3N01-1N14-4N08.png
+@inote	CHECK
 @end sign
 
 @sign |U₄×(1(N14).4(N01))|
@@ -11105,11 +11308,13 @@
 @sign |U₄+1(N14)+1(N08)|
 @oid o0902218
 @aka	|(U₄+1(N14)).1(N08)|
+@inote	OK, but encode as sequence; l-to-r sequence on tablet is 1(N08) 1(N14) U4
 @end sign
 
 @sign |U₄+1(N24)|
 @oid o0902219
 @sys	ADD F3006 CUSAS31 U4-1N24.png
+@inote	CHECK
 @end sign
 
 @sign U₈
@@ -11178,6 +11383,7 @@
 @form UBI~d
 @oid o0902232
 @sys	ADD F304E CUSAS31 UBId.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -11279,6 +11485,7 @@
 @form UDUNITA~d
 @oid o0902253
 @sys	ADD F307C CUSAS31 UDUNITAd.png
+@inote	CHECK
 @@
 @end sign
 
@@ -11345,6 +11552,7 @@
 @form UKKIN~d
 @oid o0902266
 @sys	ADD F307D P342536 UKKINd.png
+@inote	CHECK
 @@
 @end sign
 
@@ -11602,6 +11810,7 @@
 @form UR₃~d2
 @oid o0902319
 @sys	ADD F307E P252177 UR3d2.png
+@inote	CHECK
 @@
 @end sign
 
@@ -11758,6 +11967,7 @@
 @form |URU~a1×KI|
 @oid o0902355
 @sys	ADD F301B CUSAS01 URUxKI.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -11784,6 +11994,7 @@
 @form |URU~a1×3(N57)|
 @oid o0902361
 @sys	ADD F304F CUSAS31 URUa1x3N57.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -11945,6 +12156,7 @@
 @sys	AP23 12AE2
 @sys	AP24 12C83
 @sys	LLATU:311_03 UŠUMGAL 
+@note The sign form in BAU293 is incorrect; the PCSL sign list entry BAU293a
 @end sign
 
 @sign UŠUR₃
@@ -12022,6 +12234,7 @@
 
 @sign UZ
 @oid o0902410
+@note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
 @form UZ~a
 @oid o0902411
 @aka	|HU.ŠE|
@@ -12029,6 +12242,7 @@
 @sys	AP23 FFFFA
 @sys	AP24 12C8E
 @sys	LLATU:311_09 UZ~a 
+@inote 2403
 @@
 @end sign
 
@@ -12044,6 +12258,7 @@
 @aka	|N(N57).GAR|
 @sys	AP23 12C44
 @sys	AP24 12DF2
+@inote	AP CDLI correction
 @end sign
 
 @compoundonly	X
@@ -12126,6 +12341,21 @@
 @oid o0902430
 @sys	AP23 12AFA
 @sys	AP24 12C9A
+@note	|3(N57).AB₂|/|4(N57).AB₂| in ATU 1, 610 = P005961 ii 5-6 read 3(N57) AB₂ 4(N57) AB₂ in CDLI.
+@note	ZATU074 DARA₄+BAD+BAD reread in ATU 3 p.154 W20421,2 = Lú Vorläufer (Tf.23) O0305 as RI₈~a? DARA₄~b.
+@note	ZATU EN+UDU(?) read in CDLI as X in hapax ATU 1, 342=P001563 ATU 5, pl. 104, W 9656,es i 1.
+@note	ATU 1, 28=P001294 ATU 5, pl. 068, W 9579,av read |GI&GI| |GI×SIG₂~d1|;
+@inote	codepoint unnecesary because |(GI&GI&GI).SIG₂| could be treated as sequence in PCSL.
+@note	Read as sequence KA GI.
+@note	|LAGAB×ZATU766|; collation on P004228 o i 4b suggests not all of LAGAB is present; read X in CDLI-tc
+@note	ZATU |MAŠ+GAN₂| read as MAŠ GAN₂ in CDLI-tc
+@note	ZATU MURUB₃ read ME~a EN~b LAGAR~b1 in hapax P000849=ATU 1, 480=ATU 5 pl. 17, W 6855, i 1.
+@note	See new copy of ATU 1, 143 in P001212=ATU 5, pl. 054, W 9335,i.
+@note	Delete, W 16012,b+ = P002571 now read UDU ŠITA.
+@note	Delete, W 14777,e = P002181 now read GAL~a ŠAB~a AL.
+@note	Delete, W 17586 = P002625 now read as 1(N01) KU₃.
+@note	|ŠU₂.U₄| in ATU 206 read as AB₂ in P001387=ATU 5 pl.80, W 9655,o.
+@note	Damaged, identification uncertain, possibly KAB.
 @@
 @end sign
 
@@ -12644,6 +12874,7 @@
 @oid o0902524
 @sys	AP23 12B3C
 @sys	AP24 12CEB
+@note	Damaged, identification uncertain.
 @end sign
 
 @sign ZATU672
@@ -12931,6 +13162,7 @@
 @form ZATU694~e
 @oid o0902578
 @sys	ADD F3050 CUSAS01 ZATU694e.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -13421,6 +13653,7 @@
 @sign |ZATU737×I|
 @oid o0902667
 @sys	ADD F300B P006275 ZATU737xI.png
+@inote	CHECK
 @end sign
 
 @sign |ZATU737×NI@g|
@@ -13510,6 +13743,7 @@
 @form |ZATU737@t×PAP~a|
 @oid o0902685
 @sys	ADD F300A P342547 ZATU737txPAP.png
+@inote	CHECK
 @@
 @end sign
 
@@ -13780,6 +14014,7 @@
 @oid o0902735
 @sys	AP23 12BC7
 @sys	AP24 12D95
+@note	Damaged; ATU 833 = ATU 1, 442 = P001011 ATU 5, pl. 034, W 9071,h; excluded from CDLI list.
 @end sign
 
 @sign ZATU771
@@ -13924,6 +14159,7 @@
 @oid o0902760
 @sys	AP23 12BDF
 @sys	AP24 12DAD
+@note	Vacat.
 @end sign
 
 @sign ZATU791
@@ -13936,12 +14172,15 @@
 @oid o0902762
 @sys	AP23 12BE1
 @sys	AP24 12DAF
+@note	Vacat.
+@note	Vacat.
 @end sign
 
 @sign ZATU795
 @oid o0902763
 @sys	AP23 12BE2
 @sys	AP24 12DB0
+@note	Vacat.
 @end sign
 
 @sign ZATU797
@@ -13981,6 +14220,7 @@
 @form ZATU802~b
 @oid o0902770
 @sys	ADD F3051 CUSAS01 ZATU802b.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -14061,6 +14301,7 @@
 @oid o0902783
 @sys	AP23 12BF5
 @sys	AP24 12DC3
+@note	Vacat.
 @end sign
 
 @sign ZATU817
@@ -14121,12 +14362,15 @@
 @oid o0902793
 @sys	AP23 12BFF
 @sys	AP24 12DCD
+@note	Vacat.
+@note	Vacat.
 @end sign
 
 @sign ZATU829
 @oid o0902794
 @sys	AP23 12C00
 @sys	AP24 12DCE
+@note	Vacat.
 @end sign
 
 @sign ZATU831
@@ -14317,6 +14561,7 @@
 @sign ZATU859
 @oid o0902827
 @sys	ADD F3052 CUSAS21 ZATU859.png
+@inote	CUSAS 21, p.166
 @end sign
 
 @sign ZI
@@ -14366,6 +14611,7 @@
 @oid o0902841
 @sys	AP23 12613
 @sys	PUA F00F0 ENC
+@inote	AP lists in supplied data but not in proposal.
 @@
 @end sign
 
@@ -14384,6 +14630,7 @@
 @oid o0902845
 @sys	AP23 1266B
 @sys	PUA F00F2 ENC
+@inote	AP lists in supplied data but not in proposal.
 @@
 @end sign
 
@@ -14393,6 +14640,7 @@
 @oid o0902847
 @sys	AP23 126A4
 @sys	PUA F00F3 ENC
+@inote	AP lists in supplied data but not in proposal.
 @@
 @end sign
 
@@ -14787,6 +15035,7 @@
 @oid o0902911
 @sys	ADD F3080 P006333 1N08v.png
 @sys	PUA F00FA ADD
+@inote	This is N08×N58 in the same way as N02 is N01xN57.
 @@
 @end sign
 
@@ -14891,6 +15140,7 @@
 
 @sign |(1(N14).4(N08))|
 @oid o0903429
+@inote This should be a @compoundonly but the sx/gvl parser fails with that as of 2024-11-16.
 @end sign
 
 @sign 2(N14)
@@ -14900,6 +15150,7 @@
 @sys	LLATU:324_01 2(N14) 
 @form 2(N14~t)
 @oid o0902931
+@note	The ~t in this sign stands for 'token'.
 @@
 @end sign
 
@@ -14974,6 +15225,7 @@
 @oid o0902942
 @sys	ADD F307F P235767 11N14.png
 @sys	PUA F00DC OOR
+@inote	4(N14)+6(N14)+1(N14) on a numerical tablet.
 @end sign
 
 @sign 12(N14)
@@ -14986,6 +15238,7 @@
 @oid o0902944
 @sys	ADD F3085 P235759 22N14.png
 @sys	PUA F00DE OOR
+@inote	CHECK
 @end sign
 
 @sign 1(N14@f)
@@ -15318,6 +15571,7 @@
 @oid o0903007
 @sys	ADD F3089 P005442 N22v.png
 @sys	PUA F00FD ADD
+@inote	CHECK
 @end sign
 
 @sign 1(N23)
@@ -15402,6 +15656,7 @@
 @oid o0903026
 @sys	ACN 12624
 @sys	AP23 125A5
+@inote 1(N27)~v1 = 1(N27), retired
 @end sign
 
 @sign 1(N28)
@@ -15441,6 +15696,7 @@
 @oid o0903035
 @sys	ADD F3081 CUSAS01 1N29c.png
 @sys	PUA F0109 ADD
+@inote	CHECK
 @@
 @end sign
 
@@ -15455,6 +15711,7 @@
 @oid o0903038
 @sys	ADD F3086 CUSAS01 2N29b.png
 @sys	PUA F0108 ADD
+@inote	CHECK
 @@
 @end sign
 
@@ -15491,12 +15748,14 @@
 @aka	1(N30~a)
 @aka	1(N30~a)~v1
 @sys	ACN 125AF
+@sys	AP23 125B0
 @end sign
 
 @sign 1(N30~b)
 @oid o0903047
 @sys	ADD F3083 CUSAS31 1N30b.png
 @sys	PUA F010B ACN
+@inote	CHECK
 @end sign
 
 @sign 1(N30C)
@@ -15504,24 +15763,28 @@
 @aka	1(N30~c)
 @sys	ACN 125B0
 @sys	ADD F3082 CUSAS31 1N30Ca.png
+@sys	AP23 125B1
 @end sign
 
 @sign 1(N30D)
 @oid o0903309
 @aka	1(N30~d)
 @sys	ACN 125B1
+@sys	AP23 125B2
 @end sign
 
 @sign 1(N30E)
 @oid o0903310
 @aka	1(N30~e)
 @sys	ACN 125B2
+@sys	AP23 125B3
 @end sign
 
 @sign 1(N30AC)
 @oid o0903342
 @aka	1(N30A~c)
 @sys	ACN 12627
+@sys	AP23 125B4
 @end sign
 
 @sign 1(N30CB)
@@ -15534,6 +15797,7 @@
 @oid o0903343
 @aka	1(N30C~c)
 @sys	ACN 12628
+@sys	AP23 125B6
 @end sign
 
 @sign 1(N31)
@@ -15802,6 +16066,7 @@
 @@
 @form 2(N39~t)
 @oid o0903102
+@note	the ~t in this sign stands for 'token'.
 @@
 @end sign
 
@@ -15837,6 +16102,7 @@
 @oid o0903109
 @form 5(N39~t)
 @oid o0903110
+@note	the ~t in this sign stands for 'token'.
 @@
 @end sign
 
@@ -15974,6 +16240,7 @@
 @@
 @form 1(N45~t)
 @oid o0903136
+@note	The ~t in this sign stands for 'token'.
 @@
 @end sign
 
@@ -16450,6 +16717,7 @@
 @form |1(N57).E₂~a|
 @oid o0903214
 @sys	ADD F3027 CUSAS21 1N57-E2a.png
+@inote	CUSAS 21, p.166
 @@
 @end sign
 
@@ -16503,6 +16771,7 @@
 @form |2(N57).BIR₃~a|
 @oid o0903225
 @sys	ADD F3029 CUSAS31 2N57-BIR3a.png
+@inote	CUSAS31
 @@
 @end sign
 
@@ -16540,6 +16809,7 @@
 @form |2(N57).UDUNITA~a|
 @oid o0903233
 @sys	ADD F305C CUSAS01 2N57-UDUNITAa.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -16565,6 +16835,7 @@
 @form |3(N57).BAR×UŠ~a|
 @oid o0903238
 @sys	ADD F305D CUSAS01 3N57-BAR+USHa.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -16621,6 +16892,7 @@
 @oid o0903249
 @form |3(N57).SANGA~a|
 @oid o0903250
+@inote	CHECK
 @@
 @end sign
 
@@ -16640,6 +16912,7 @@
 @form |3(N57).UDU~a|
 @oid o0903254
 @sys	ADD F305E CUSAS01 3N57-UDUa.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -16648,6 +16921,7 @@
 @form |3(N57).UDUNITA~a|
 @oid o0903256
 @sys	ADD F305F CUSAS01 3N57-UDUNITAa.png
+@inote	CUSAS01
 @@
 @end sign
 
@@ -16879,6 +17153,7 @@
 @oid o0903295
 @sys	ADD F3084 CUSAS01 1N59.png
 @sys	PUA F0124 ADD
+@inote	CHECK
 @end sign
 
 @sign 2(N59)
@@ -16903,10 +17178,12 @@
 @oid o0903299
 @sys	ADD F3088 CUSAS31 6N59.png
 @sys	PUA F0128 ADD
+@inote	CHECK
 @end sign
 
 @sign 7(N59)
 @oid o0903300
+@note	Monaco CUSAS 31, 185 o vi 3: 7(N59)? but preserved sign does not have the added wedges that distinguish N59 from N01.
 @end sign
 
 @sign 1(N60)

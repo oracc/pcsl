@@ -28,7 +28,11 @@ foreach my $f (@sysf) {
     foreach (@sys) { my($o,$a)=split(/\t/,$_);push@{$sys{$o}},$a}
 }
 
-#print Dumper \%aka; exit 1;
+my %notes = ();
+load_notes();
+
+#print Dumper \%notes; exit 1;
+
 my $o = '';
 system 'cat', 'data/header';
 while (<>) {
@@ -46,6 +50,7 @@ while (<>) {
 	print;
 	akas($o);
 	syss($o);
+	notess($o);
     } elsif (/^\@end\s+sign/) {
 	if ($in_sign) {
 	    print "\@\@\n" if $in_form;
@@ -75,6 +80,31 @@ sub akas {
     if ($aka{$k}) {
 	foreach my $a (@{$aka{$k}}) {
 	    print "\@aka\t$a\n";
+	}
+    }
+}
+
+sub load_notes {
+    open(N, 'data/notes.grep') || die;
+    my $noid = '';
+    while (<N>) {
+	chomp;
+	if (/^\@oid\s+(\S+)\s*$/) {
+	    $noid = $1;
+	} elsif (/^\@i?note/) {
+	    if ($noid) { # some notes occur before signs
+		push @{$notes{$noid}}, $_;
+	    }
+	}
+    }
+    close(N);
+}
+
+sub notess {
+    my $k = shift;
+    if ($notes{$k}) {
+	foreach my $a (@{$notes{$k}}) {
+	    print "$a\n";
 	}
     }
 }
