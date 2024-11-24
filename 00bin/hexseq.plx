@@ -24,8 +24,9 @@ while (<>) {
 	    printf STDERR "out of order: %X follows %X\n", $y, $x;
 	} elsif ($y - $x > 1) {
 	    if ($missing) {
+		++$x;
 		while ($x < $y) {
-		    printf("%X\n", ++$x);
+		    printf("%X\n", $x++);
 		}
 	    } else {
 		printf STDERR "last hex=%X curr hex=%X\n", $x, $y;

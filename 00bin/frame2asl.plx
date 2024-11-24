@@ -15,6 +15,9 @@ GetOptions(
 my $in_form = 0;
 my $in_sign = 0;
 
+my @vsp = `cat data/vsp-form.tsv`; chomp @vsp;
+my %vsp = (); foreach (@vsp){my($o,$fo,$n)=split(/\t/,$_);$vsp{$o}=[$fo, $n]};
+
 my @aka = `cut -f1,5 data/sx-akas.out`; chomp @aka;
 my %aka = (); foreach (@aka) { my($o,$a)=split(/\t/,$_);push@{$aka{$o}},$a}
 
@@ -26,7 +29,7 @@ foreach my $f (@sysf) {
 }
 
 #print Dumper \%aka; exit 1;
-
+my $o = '';
 system 'cat', 'data/header';
 while (<>) {
     if (/^\@sign\s+(\S+)\s*$/) {
@@ -39,13 +42,18 @@ while (<>) {
 	$in_form = 1;
 	print;
     } elsif (/^\@oid\s+(\S+)\s*$/) {
-	my $o = $1;
+	$o = $1;
 	print;
 	akas($o);
 	syss($o);
     } elsif (/^\@end\s+sign/) {
 	if ($in_sign) {
 	    print "\@\@\n" if $in_form;
+	    if ($vsp{$o}) {
+		my ($fo,$n) = @{$vsp{$o}};
+		print "\@form $n\n\@oid $fo\n";
+		syss($fo);
+	    }
 	    print "\@end sign\n\n";
 	    $in_form = 0;
 	}
