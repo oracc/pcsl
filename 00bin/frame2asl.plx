@@ -28,6 +28,8 @@ foreach my $f (@sysf) {
     foreach (@sys) { my($o,$a)=split(/\t/,$_);push@{$sys{$o}},$a}
 }
 
+my %uni; my @uni = `cat data/unicode.tsv`; foreach(@uni){my($o,$u)=(/^(.*?)\t(.*?)$/);$uni{$o}=$u}
+
 my %notes = ();
 load_notes();
 
@@ -49,6 +51,7 @@ while (<>) {
 	$o = $1;
 	print;
 	akas($o);
+	uni($o) if $uni{$o};
 	syss($o);
 	notess($o);
     } elsif (/^\@end\s+sign/) {
@@ -116,6 +119,12 @@ sub syss {
 	    print "\@sys\t$a\n";
 	}
     }
+}
+
+sub uni {
+    my $k = shift;
+    my($h,$c,$n,$a) = split(/\t/,$uni{$k});
+    print "\@list U+$h\n\@ucun $c\n\@uname $n\n\@uage $a\n";
 }
 
 1;

@@ -12,20 +12,28 @@ use Getopt::Long;
 GetOptions(
     );
 
+my @sysf = qw/acn ap24 pua/;
+my %sys = ();
+foreach my $f (@sysf) {
+    my @sys = `cat data/$f.sys`; chomp @sys; @sys = map { s/\t\S+\s+/\t/; s/ .*$//; $_; } @sys;
+    foreach (@sys) { my($o,$a)=split(/\t/,$_); if ($sys{$o}){warn"$_\n"}else{$sys{$o}=$a}}
+}
+
+#print Dumper \%sys; exit;
+
 my %acn = rep('00etc/acn-repertoire.tsv'); 
 my %ap23 = rep('00etc/ap23-repertoire.tsv');
 my %ap24 = rep('00etc/ap24-repertoire.tsv');
 my %pua; pua(); # print Dumper \%pua; exit 1;
 
-open(M,'sorted-font.map') || die;
-while (<M>) {
-    chomp;
-    my($o,$f,$t) = split(/\t/,$_);
+open(U, "|sort -k2>data/unicode.tsv") || die; select U;
+foreach my $o (keys %sys) {
+    my $t = $sys{$o};
     my $uage = '1';
     my $uname = '-';
     if ($acn{$o}) {
 	if ($t =~ /^F2/) {
-	    $uname = $ap23{$o} ;
+	    $uname = $ap23{$o};
 	    $uage = 0;
 	} else {
 	    $uname = $acn{$o};
@@ -48,7 +56,7 @@ while (<M>) {
     my $x = chr(hex($t));
     print "$o\t$t\t$x\t$uname\t$uage\n";
 }
-close(M);
+close(U);
 
 1;
 
