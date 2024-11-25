@@ -34,11 +34,11 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF00D9-0xF012D 0xF2580-0xF2EC6
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
-	AP23 CP + 0xE0000. F00D9-F012D are Oracc PUA entries for PCSL.
+	AP23 CP + 0xE0000. F005F-F012D are Oracc PUA entries for PCSL.
 
 @sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numerals"
 @lit	Draft proposal at https://www.unicode.org/L2/L2024/24210r-archaic-numerals.pdf
@@ -22246,6 +22246,11 @@
 @oid o0903442
 @sys	AP23 125E0
 @sys	PUA F0066 VSP
+@list U+F0066
+@ucun 󰁦
+@uname TWO-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 5(N01@f)
@@ -22259,6 +22264,11 @@
 @oid o0903444
 @sys	AP23 1266D
 @sys	PUA F0068 VSP
+@list U+F0068
+@ucun 󰁨
+@uname FIVE-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 9(N01@f)
@@ -22272,6 +22282,11 @@
 @oid o0903448
 @sys	AP23 126CD
 @sys	PUA F006C VSP
+@list U+F006C
+@ucun 󰁬
+@uname NINE-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 1(N01@r)
@@ -22307,6 +22322,11 @@
 @oid o0903435
 @sys	AP23 125DF
 @sys	PUA F005F VSP
+@list U+F005F
+@ucun 󰁟
+@uname TWO-N1
+@uage VSP
+@@
 @end sign
 
 @sign 3(N01)
@@ -22321,6 +22341,11 @@
 @oid o0903436
 @sys	AP23 12614
 @sys	PUA F0060 VSP
+@list U+F0060
+@ucun 󰁠
+@uname THREE-N1
+@uage VSP
+@@
 @end sign
 
 @sign 4(N01)
@@ -22346,6 +22371,11 @@
 @oid o0903437
 @sys	AP23 1266C
 @sys	PUA F0061 VSP
+@list U+F0061
+@ucun 󰁡
+@uname FIVE-N1
+@uage VSP
+@@
 @end sign
 
 @sign 6(N01)
@@ -22360,6 +22390,11 @@
 @oid o0903438
 @sys	AP23 1268D
 @sys	PUA F0062 VSP
+@list U+F0062
+@ucun 󰁢
+@uname SIX-N1
+@uage VSP
+@@
 @end sign
 
 @sign 7(N01)
@@ -22373,6 +22408,11 @@
 @oid o0903439
 @sys	AP23 126A5
 @sys	PUA F0063 VSP
+@list U+F0063
+@ucun 󰁣
+@uname SEVEN-N1
+@uage VSP
+@@
 @end sign
 
 @sign 8(N01)
@@ -22387,6 +22427,11 @@
 @oid o0903440
 @sys	AP23 126B9
 @sys	PUA F0064 VSP
+@list U+F0064
+@ucun 󰁤
+@uname EIGHT-N1
+@uage VSP
+@@
 @end sign
 
 @sign 9(N01)
@@ -22445,6 +22490,11 @@
 @oid o0903449
 @sys	AP23 125E1
 @sys	PUA F006D VSP
+@list U+F006D
+@ucun 󰁭
+@uname TWO-N2
+@uage VSP
+@@
 @end sign
 
 @sign 3(N02)
@@ -22458,6 +22508,11 @@
 @oid o0903450
 @sys	AP23 12616
 @sys	PUA F006E VSP
+@list U+F006E
+@ucun 󰁮
+@uname THREE-N2
+@uage VSP
+@@
 @end sign
 
 @sign 4(N02)
@@ -22481,6 +22536,11 @@
 @oid o0903451
 @sys	AP23 1266E
 @sys	PUA F006F VSP
+@list U+F006F
+@ucun 󰁯
+@uname FIVE-N2
+@uage VSP
+@@
 @end sign
 
 @sign 6(N02)
@@ -22494,6 +22554,11 @@
 @oid o0903452
 @sys	AP23 1268F
 @sys	PUA F0070 VSP
+@list U+F0070
+@ucun 󰁰
+@uname SIX-N2
+@uage VSP
+@@
 @end sign
 
 @sign 7(N02)
@@ -22507,6 +22572,11 @@
 @oid o0903453
 @sys	AP23 126A7
 @sys	PUA F0071 VSP
+@list U+F0071
+@ucun 󰁱
+@uname SEVEN-N2
+@uage VSP
+@@
 @end sign
 
 @sign 8(N02)
@@ -22520,6 +22590,11 @@
 @oid o0903454
 @sys	AP23 126BB
 @sys	PUA F0072 VSP
+@list U+F0072
+@ucun 󰁲
+@uname EIGHT-N2
+@uage VSP
+@@
 @end sign
 
 @sign 9(N02)
@@ -22533,6 +22608,11 @@
 @oid o0903455
 @sys	AP23 126CE
 @sys	PUA F0073 VSP
+@list U+F0073
+@ucun 󰁳
+@uname NINE-N2
+@uage VSP
+@@
 @end sign
 
 @sign 1(N03)
@@ -22556,6 +22636,11 @@
 @oid o0903456
 @sys	AP23 125E2
 @sys	PUA F0074 VSP
+@list U+F0074
+@ucun 󰁴
+@uname TWO-N3
+@uage VSP
+@@
 @end sign
 
 @sign 3(N03)
@@ -22569,6 +22654,11 @@
 @oid o0903457
 @sys	AP23 12617
 @sys	PUA F0075 VSP
+@list U+F0075
+@ucun 󰁵
+@uname THREE-N3
+@uage VSP
+@@
 @end sign
 
 @sign 4(N03)
@@ -22592,6 +22682,11 @@
 @oid o0903458
 @sys	AP23 1266F
 @sys	PUA F0076 VSP
+@list U+F0076
+@ucun 󰁶
+@uname FIVE-N3
+@uage VSP
+@@
 @end sign
 
 @sign 1(N04)
@@ -22616,6 +22711,11 @@
 @oid o0903459
 @sys	AP23 125E3
 @sys	PUA F0077 VSP
+@list U+F0077
+@ucun 󰁷
+@uname TWO-N4
+@uage VSP
+@@
 @end sign
 
 @sign 3(N04)
@@ -22629,6 +22729,11 @@
 @oid o0903460
 @sys	AP23 12618
 @sys	PUA F0078 VSP
+@list U+F0078
+@ucun 󰁸
+@uname THREE-N4
+@uage VSP
+@@
 @end sign
 
 @sign 4(N04)
@@ -22652,6 +22757,11 @@
 @oid o0903461
 @sys	AP23 12670
 @sys	PUA F0079 VSP
+@list U+F0079
+@ucun 󰁹
+@uname FIVE-N4
+@uage VSP
+@@
 @end sign
 
 @sign 1(N05)
@@ -22675,6 +22785,11 @@
 @oid o0903464
 @sys	AP23 125E5
 @sys	PUA F007C VSP
+@list U+F007C
+@ucun 󰁼
+@uname TWO-N5
+@uage VSP
+@@
 @end sign
 
 @sign 3(N05)
@@ -22688,6 +22803,11 @@
 @oid o0903465
 @sys	AP23 1261A
 @sys	PUA F007D VSP
+@list U+F007D
+@ucun 󰁽
+@uname THREE-N5
+@uage VSP
+@@
 @end sign
 
 @sign 4(N05)
@@ -22711,6 +22831,11 @@
 @oid o0903466
 @sys	AP23 12672
 @sys	PUA F007E VSP
+@list U+F007E
+@ucun 󰁾
+@uname FIVE-N5
+@uage VSP
+@@
 @end sign
 
 @sign 1(N06)
@@ -23068,6 +23193,11 @@
 @oid o0903470
 @sys	AP23 126A9
 @sys	PUA F0082 VSP
+@list U+F0082
+@ucun 󰂂
+@uname SEVEN-N14
+@uage VSP
+@@
 @end sign
 
 @sign 8(N14)
@@ -23081,6 +23211,11 @@
 @oid o0903471
 @sys	AP23 126BD
 @sys	PUA F0083 VSP
+@list U+F0083
+@ucun 󰂃
+@uname EIGHT-N14
+@uage VSP
+@@
 @end sign
 
 @sign 9(N14)
@@ -23094,6 +23229,11 @@
 @oid o0903472
 @sys	AP23 126D0
 @sys	PUA F0084 VSP
+@list U+F0084
+@ucun 󰂄
+@uname NINE-N14
+@uage VSP
+@@
 @end sign
 
 @sign 10(N14)
@@ -23199,6 +23339,11 @@
 @oid o0903478
 @sys	AP23 12677
 @sys	PUA F008A VSP
+@list U+F008A
+@ucun 󰂊
+@uname FIVE-N15
+@uage VSP
+@@
 @end sign
 
 @sign 1(N16)
@@ -23274,6 +23419,11 @@
 @oid o0903479
 @sys	AP23 12678
 @sys	PUA F008B VSP
+@list U+F008B
+@ucun 󰂋
+@uname FIVE-N18
+@uage VSP
+@@
 @end sign
 
 @sign 6(N18)
@@ -23287,6 +23437,11 @@
 @oid o0903480
 @sys	AP23 12694
 @sys	PUA F008C VSP
+@list U+F008C
+@ucun 󰂌
+@uname SIX-N18
+@uage VSP
+@@
 @end sign
 
 @sign 7(N18)
@@ -23300,6 +23455,11 @@
 @oid o0903481
 @sys	AP23 126AB
 @sys	PUA F008D VSP
+@list U+F008D
+@ucun 󰂍
+@uname SEVEN-N18
+@uage VSP
+@@
 @end sign
 
 @sign 8(N18)
@@ -23313,6 +23473,11 @@
 @oid o0903482
 @sys	AP23 126BF
 @sys	PUA F008E VSP
+@list U+F008E
+@ucun 󰂎
+@uname EIGHT-N18
+@uage VSP
+@@
 @end sign
 
 @sign 9(N18)
@@ -23379,6 +23544,11 @@
 @oid o0903484
 @sys	AP23 12679
 @sys	PUA F0090 VSP
+@list U+F0090
+@ucun 󰂐
+@uname FIVE-N19
+@uage VSP
+@@
 @end sign
 
 @sign 6(N19)
@@ -23392,6 +23562,11 @@
 @oid o0903485
 @sys	AP23 12695
 @sys	PUA F0091 VSP
+@list U+F0091
+@ucun 󰂑
+@uname SIX-N19
+@uage VSP
+@@
 @end sign
 
 @sign 7(N19)
@@ -23405,6 +23580,11 @@
 @oid o0903486
 @sys	AP23 126AC
 @sys	PUA F0092 VSP
+@list U+F0092
+@ucun 󰂒
+@uname SEVEN-N19
+@uage VSP
+@@
 @end sign
 
 @sign 8(N19)
@@ -23418,6 +23598,11 @@
 @oid o0903487
 @sys	AP23 126C0
 @sys	PUA F0093 VSP
+@list U+F0093
+@ucun 󰂓
+@uname EIGHT-N19
+@uage VSP
+@@
 @end sign
 
 @sign 9(N19)
@@ -23434,6 +23619,11 @@
 @oid o0903489
 @sys	AP23 126D5
 @sys	PUA F0095 VSP
+@list U+F0095
+@ucun 󰂕
+@uname NINE-N19 VARIANT 1
+@uage VSP
+@@
 @end sign
 
 @sign 8(N19@f)
@@ -23447,6 +23637,11 @@
 @oid o0903493
 @sys	AP23 126C1
 @sys	PUA F0099 VSP
+@list U+F0099
+@ucun 󰂙
+@uname EIGHT-N19 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 9(N19@f)
@@ -23460,6 +23655,11 @@
 @oid o0903494
 @sys	AP23 126D6
 @sys	PUA F009A VSP
+@list U+F009A
+@ucun 󰂚
+@uname NINE-N19 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 1(N20)
@@ -23513,6 +23713,11 @@
 @oid o0903495
 @sys	AP23 1267B
 @sys	PUA F009B VSP
+@list U+F009B
+@ucun 󰂛
+@uname FIVE-N20
+@uage VSP
+@@
 @end sign
 
 @sign 6(N20)
@@ -23526,6 +23731,11 @@
 @oid o0903496
 @sys	AP23 12697
 @sys	PUA F009C VSP
+@list U+F009C
+@ucun 󰂜
+@uname SIX-N20
+@uage VSP
+@@
 @end sign
 
 @sign 7(N20)
@@ -23539,6 +23749,11 @@
 @oid o0903497
 @sys	AP23 126AE
 @sys	PUA F009D VSP
+@list U+F009D
+@ucun 󰂝
+@uname SEVEN-N20
+@uage VSP
+@@
 @end sign
 
 @sign 8(N20)
@@ -23552,6 +23767,11 @@
 @oid o0903498
 @sys	AP23 126C2
 @sys	PUA F009E VSP
+@list U+F009E
+@ucun 󰂞
+@uname EIGHT-N20
+@uage VSP
+@@
 @end sign
 
 @sign 9(N20)
@@ -23565,6 +23785,11 @@
 @oid o0903499
 @sys	AP23 126D7
 @sys	PUA F009F VSP
+@list U+F009F
+@ucun 󰂟
+@uname NINE-N20
+@uage VSP
+@@
 @end sign
 
 @sign 2(N21)
@@ -23608,6 +23833,11 @@
 @oid o0903500
 @sys	AP23 1267C
 @sys	PUA F00A0 VSP
+@list U+F00A0
+@ucun 󰂠
+@uname FIVE-N21
+@uage VSP
+@@
 @end sign
 
 @sign 6(N21)
@@ -24073,6 +24303,11 @@
 @oid o0903505
 @sys	AP23 125F8
 @sys	PUA F00A5 VSP
+@list U+F00A5
+@ucun 󰂥
+@uname TWO-N34
+@uage VSP
+@@
 @end sign
 
 @sign 3(N34)
@@ -24087,6 +24322,11 @@
 @oid o0903506
 @sys	AP23 12628
 @sys	PUA F00A6 VSP
+@list U+F00A6
+@ucun 󰂦
+@uname THREE-N34
+@uage VSP
+@@
 @end sign
 
 @sign 4(N34)
@@ -24110,6 +24350,11 @@
 @oid o0903507
 @sys	AP23 1267E
 @sys	PUA F00A7 VSP
+@list U+F00A7
+@ucun 󰂧
+@uname FIVE-N34
+@uage VSP
+@@
 @end sign
 
 @sign 6(N34)
@@ -24123,6 +24368,11 @@
 @oid o0903508
 @sys	AP23 1269A
 @sys	PUA F00A8 VSP
+@list U+F00A8
+@ucun 󰂨
+@uname SIX-N34
+@uage VSP
+@@
 @end sign
 
 @sign 7(N34)
@@ -24136,6 +24386,11 @@
 @oid o0903509
 @sys	AP23 126B0
 @sys	PUA F00A9 VSP
+@list U+F00A9
+@ucun 󰂩
+@uname SEVEN-N34
+@uage VSP
+@@
 @end sign
 
 @sign 8(N34)
@@ -24149,6 +24404,11 @@
 @oid o0903510
 @sys	AP23 126C3
 @sys	PUA F00AA VSP
+@list U+F00AA
+@ucun 󰂪
+@uname EIGHT-N34
+@uage VSP
+@@
 @end sign
 
 @sign 9(N34)
@@ -24162,6 +24422,11 @@
 @oid o0903511
 @sys	AP23 126D8
 @sys	PUA F00AB VSP
+@list U+F00AB
+@ucun 󰂫
+@uname NINE-N34
+@uage VSP
+@@
 @end sign
 
 @sign 1(N34@f)
@@ -24185,6 +24450,11 @@
 @oid o0903514
 @sys	AP23 126B1
 @sys	PUA F00AE VSP
+@list U+F00AE
+@ucun 󰂮
+@uname SEVEN-N34 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 1(N35)
@@ -24208,6 +24478,11 @@
 @oid o0903517
 @sys	AP23 125FA
 @sys	PUA F00B1 VSP
+@list U+F00B1
+@ucun 󰂱
+@uname TWO-N35
+@uage VSP
+@@
 @end sign
 
 @sign 5(N35)
@@ -24221,6 +24496,11 @@
 @oid o0903518
 @sys	AP23 12680
 @sys	PUA F00B2 VSP
+@list U+F00B2
+@ucun 󰂲
+@uname FIVE-N35
+@uage VSP
+@@
 @end sign
 
 @sign 1(N36)
@@ -24244,6 +24524,11 @@
 @oid o0903519
 @sys	AP23 125FB
 @sys	PUA F00B3 VSP
+@list U+F00B3
+@ucun 󰂳
+@uname TWO-N36
+@uage VSP
+@@
 @end sign
 
 @sign 3(N36)
@@ -24257,6 +24542,11 @@
 @oid o0903520
 @sys	AP23 1262A
 @sys	PUA F00B4 VSP
+@list U+F00B4
+@ucun 󰂴
+@uname THREE-N36
+@uage VSP
+@@
 @end sign
 
 @sign 4(N36)
@@ -24280,6 +24570,11 @@
 @oid o0903521
 @sys	AP23 12681
 @sys	PUA F00B5 VSP
+@list U+F00B5
+@ucun 󰂵
+@uname FIVE-N36
+@uage VSP
+@@
 @end sign
 
 @sign 6(N36)
@@ -24293,6 +24588,11 @@
 @oid o0903522
 @sys	AP23 1269C
 @sys	PUA F00B6 VSP
+@list U+F00B6
+@ucun 󰂶
+@uname SIX-N36
+@uage VSP
+@@
 @end sign
 
 @sign 7(N36)
@@ -24306,6 +24606,11 @@
 @oid o0903523
 @sys	AP23 126B2
 @sys	PUA F00B7 VSP
+@list U+F00B7
+@ucun 󰂷
+@uname SEVEN-N36
+@uage VSP
+@@
 @end sign
 
 @sign 8(N36)
@@ -24319,6 +24624,11 @@
 @oid o0903524
 @sys	AP23 126C5
 @sys	PUA F00B8 VSP
+@list U+F00B8
+@ucun 󰂸
+@uname EIGHT-N36
+@uage VSP
+@@
 @end sign
 
 @sign 9(N36)
@@ -24332,6 +24642,11 @@
 @oid o0903525
 @sys	AP23 126DA
 @sys	PUA F00B9 VSP
+@list U+F00B9
+@ucun 󰂹
+@uname NINE-N36
+@uage VSP
+@@
 @end sign
 
 @sign 1(N37)
@@ -24355,6 +24670,11 @@
 @oid o0903526
 @sys	AP23 125FC
 @sys	PUA F00BA VSP
+@list U+F00BA
+@ucun 󰂺
+@uname TWO-N37
+@uage VSP
+@@
 @end sign
 
 @sign 1(N38)
@@ -24700,6 +25020,11 @@
 @oid o0903527
 @sys	AP23 12603
 @sys	PUA F00BB VSP
+@list U+F00BB
+@ucun 󰂻
+@uname TWO-N45
+@uage VSP
+@@
 @end sign
 
 @sign 3(N45)
@@ -24733,6 +25058,11 @@
 @oid o0903528
 @sys	AP23 12682
 @sys	PUA F00BC VSP
+@list U+F00BC
+@ucun 󰂼
+@uname FIVE-N45
+@uage VSP
+@@
 @end sign
 
 @sign 6(N45)
@@ -24746,6 +25076,11 @@
 @oid o0903529
 @sys	AP23 1269D
 @sys	PUA F00BD VSP
+@list U+F00BD
+@ucun 󰂽
+@uname SIX-N45
+@uage VSP
+@@
 @end sign
 
 @sign 7(N45)
@@ -24759,6 +25094,11 @@
 @oid o0903530
 @sys	AP23 126B3
 @sys	PUA F00BE VSP
+@list U+F00BE
+@ucun 󰂾
+@uname SEVEN-N45
+@uage VSP
+@@
 @end sign
 
 @sign 9(N45)
@@ -24772,6 +25112,11 @@
 @oid o0903531
 @sys	AP23 126DB
 @sys	PUA F00BF VSP
+@list U+F00BF
+@ucun 󰂿
+@uname NINE-N45
+@uage VSP
+@@
 @end sign
 
 @sign 3(N45@f)
@@ -24865,6 +25210,11 @@
 @oid o0903532
 @sys	AP23 12605
 @sys	PUA F00C0 VSP
+@list U+F00C0
+@ucun 󰃀
+@uname TWO-N46
+@uage VSP
+@@
 @end sign
 
 @sign 3(N46)
@@ -24908,6 +25258,11 @@
 @oid o0903533
 @sys	AP23 12607
 @sys	PUA F00C1 VSP
+@list U+F00C1
+@ucun 󰃁
+@uname TWO-N47
+@uage VSP
+@@
 @end sign
 
 @sign 3(N47)
@@ -24941,6 +25296,11 @@
 @oid o0903534
 @sys	AP23 12608
 @sys	PUA F00C2 VSP
+@list U+F00C2
+@ucun 󰃂
+@uname TWO-N48
+@uage VSP
+@@
 @end sign
 
 @sign 3(N48)
@@ -24954,6 +25314,11 @@
 @oid o0903535
 @sys	AP23 12635
 @sys	PUA F00C3 VSP
+@list U+F00C3
+@ucun 󰃃
+@uname THREE-N48
+@uage VSP
+@@
 @end sign
 
 @sign 4(N48)
@@ -24977,6 +25342,11 @@
 @oid o0903536
 @sys	AP23 12684
 @sys	PUA F00C4 VSP
+@list U+F00C4
+@ucun 󰃄
+@uname FIVE-N48
+@uage VSP
+@@
 @end sign
 
 @sign 6(N48)
@@ -25020,6 +25390,11 @@
 @oid o0903537
 @sys	AP23 12609
 @sys	PUA F00C5 VSP
+@list U+F00C5
+@ucun 󰃅
+@uname TWO-N49
+@uage VSP
+@@
 @end sign
 
 @sign 3(N49)
@@ -25033,6 +25408,11 @@
 @oid o0903538
 @sys	AP23 12636
 @sys	PUA F00C6 VSP
+@list U+F00C6
+@ucun 󰃆
+@uname THREE-N49
+@uage VSP
+@@
 @end sign
 
 @sign 4(N49)
@@ -25076,6 +25456,11 @@
 @oid o0903539
 @sys	AP23 1260A
 @sys	PUA F00C7 VSP
+@list U+F00C7
+@ucun 󰃇
+@uname TWO-N50
+@uage VSP
+@@
 @end sign
 
 @sign 3(N50)
@@ -25109,6 +25494,11 @@
 @oid o0903540
 @sys	AP23 12686
 @sys	PUA F00C8 VSP
+@list U+F00C8
+@ucun 󰃈
+@uname FIVE-N50
+@uage VSP
+@@
 @end sign
 
 @sign 6(N51@f)
@@ -25122,6 +25512,11 @@
 @oid o0903548
 @sys	AP23 126A1
 @sys	PUA F00D0 VSP
+@list U+F00D0
+@ucun 󰃐
+@uname SIX-N51 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 7(N51@f)
@@ -25135,6 +25530,11 @@
 @oid o0903549
 @sys	AP23 126B7
 @sys	PUA F00D1 VSP
+@list U+F00D1
+@ucun 󰃑
+@uname SEVEN-N51 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 1(N51)
@@ -25158,6 +25558,11 @@
 @oid o0903541
 @sys	AP23 1260B
 @sys	PUA F00C9 VSP
+@list U+F00C9
+@ucun 󰃉
+@uname TWO-N51
+@uage VSP
+@@
 @end sign
 
 @sign 3(N51)
@@ -25191,6 +25596,11 @@
 @oid o0903542
 @sys	AP23 12687
 @sys	PUA F00CA VSP
+@list U+F00CA
+@ucun 󰃊
+@uname FIVE-N51
+@uage VSP
+@@
 @end sign
 
 @sign 6(N51)
@@ -25204,6 +25614,11 @@
 @oid o0903543
 @sys	AP23 126A0
 @sys	PUA F00CB VSP
+@list U+F00CB
+@ucun 󰃋
+@uname SIX-N51
+@uage VSP
+@@
 @end sign
 
 @sign 7(N51)
@@ -25217,6 +25632,11 @@
 @oid o0903544
 @sys	AP23 126B6
 @sys	PUA F00CC VSP
+@list U+F00CC
+@ucun 󰃌
+@uname SEVEN-N51
+@uage VSP
+@@
 @end sign
 
 @sign 8(N51)
@@ -25230,6 +25650,11 @@
 @oid o0903545
 @sys	AP23 126C7
 @sys	PUA F00CD VSP
+@list U+F00CD
+@ucun 󰃍
+@uname EIGHT-N51
+@uage VSP
+@@
 @end sign
 
 @sign 1(N52)
@@ -25253,6 +25678,11 @@
 @oid o0903552
 @sys	AP23 1260D
 @sys	PUA F00D4 VSP
+@list U+F00D4
+@ucun 󰃔
+@uname TWO-N52
+@uage VSP
+@@
 @end sign
 
 @sign 3(N52)
@@ -25286,6 +25716,11 @@
 @oid o0903553
 @sys	AP23 12689
 @sys	PUA F00D5 VSP
+@list U+F00D5
+@ucun 󰃕
+@uname FIVE-N52
+@uage VSP
+@@
 @end sign
 
 @sign 3(N53)
@@ -25319,6 +25754,11 @@
 @oid o0903554
 @sys	AP23 1260E
 @sys	PUA F00D6 VSP
+@list U+F00D6
+@ucun 󰃖
+@uname TWO-N54
+@uage VSP
+@@
 @end sign
 
 @sign 3(N54)
@@ -25352,6 +25792,11 @@
 @oid o0903555
 @sys	AP23 1268A
 @sys	PUA F00D7 VSP
+@list U+F00D7
+@ucun 󰃗
+@uname FIVE-N54
+@uage VSP
+@@
 @end sign
 
 @sign 1(N55)
@@ -25385,6 +25830,11 @@
 @oid o0903556
 @sys	AP23 1260F
 @sys	PUA F00D8 VSP
+@list U+F00D8
+@ucun 󰃘
+@uname TWO-N56
+@uage VSP
+@@
 @end sign
 
 @sign 1(N57)
@@ -26271,6 +26721,11 @@
 @oid o0903462
 @sys	AP23 125E4
 @sys	PUA F007A VSP
+@list U+F007A
+@ucun 󰁺
+@uname TWO-N4 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 2(N14@f)
@@ -26360,6 +26815,11 @@
 @oid o0903546
 @sys	AP23 1260C
 @sys	PUA F00CE VSP
+@list U+F00CE
+@ucun 󰃎
+@uname TWO-N51 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 3(N01@f)
@@ -26373,6 +26833,11 @@
 @oid o0903443
 @sys	AP23 12615
 @sys	PUA F0067 VSP
+@list U+F0067
+@ucun 󰁧
+@uname THREE-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 3(N04@f)
@@ -26528,6 +26993,11 @@
 @oid o0903463
 @sys	AP23 12671
 @sys	PUA F007B VSP
+@list U+F007B
+@ucun 󰁻
+@uname FIVE-N4 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 5(N14@f)
@@ -26541,6 +27011,11 @@
 @oid o0903473
 @sys	AP23 12676
 @sys	PUA F0085 VSP
+@list U+F0085
+@ucun 󰂅
+@uname FIVE-N14 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 5(N19@f)
@@ -26554,6 +27029,11 @@
 @oid o0903490
 @sys	AP23 1267A
 @sys	PUA F0096 VSP
+@list U+F0096
+@ucun 󰂖
+@uname FIVE-N19 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 5(N34@f)
@@ -26567,6 +27047,11 @@
 @oid o0903512
 @sys	AP23 1267F
 @sys	PUA F00AC VSP
+@list U+F00AC
+@ucun 󰂬
+@uname FIVE-N34 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 5(N51@f)
@@ -26580,6 +27065,11 @@
 @oid o0903547
 @sys	AP23 12688
 @sys	PUA F00CF VSP
+@list U+F00CF
+@ucun 󰃏
+@uname FIVE-N51 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 6(N01@f)
@@ -26593,6 +27083,11 @@
 @oid o0903445
 @sys	AP23 1268E
 @sys	PUA F0069 VSP
+@list U+F0069
+@ucun 󰁩
+@uname SIX-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 6(N14@f)
@@ -26606,6 +27101,11 @@
 @oid o0903474
 @sys	AP23 12693
 @sys	PUA F0086 VSP
+@list U+F0086
+@ucun 󰂆
+@uname SIX-N14 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 6(N19@f)
@@ -26619,6 +27119,11 @@
 @oid o0903491
 @sys	AP23 12696
 @sys	PUA F0097 VSP
+@list U+F0097
+@ucun 󰂗
+@uname SIX-N19 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 6(N34@f)
@@ -26632,6 +27137,11 @@
 @oid o0903513
 @sys	AP23 1269B
 @sys	PUA F00AD VSP
+@list U+F00AD
+@ucun 󰂭
+@uname SIX-N34 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 7(N01@f)
@@ -26645,6 +27155,11 @@
 @oid o0903446
 @sys	AP23 126A6
 @sys	PUA F006A VSP
+@list U+F006A
+@ucun 󰁪
+@uname SEVEN-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 7(N14@f)
@@ -26658,6 +27173,11 @@
 @oid o0903475
 @sys	AP23 126AA
 @sys	PUA F0087 VSP
+@list U+F0087
+@ucun 󰂇
+@uname SEVEN-N14 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 7(N19@f)
@@ -26671,6 +27191,11 @@
 @oid o0903492
 @sys	AP23 126AD
 @sys	PUA F0098 VSP
+@list U+F0098
+@ucun 󰂘
+@uname SEVEN-N19 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 8(N01@f)
@@ -26684,6 +27209,11 @@
 @oid o0903447
 @sys	AP23 126BA
 @sys	PUA F006B VSP
+@list U+F006B
+@ucun 󰁫
+@uname EIGHT-N1 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 8(N14@f)
@@ -26697,6 +27227,11 @@
 @oid o0903476
 @sys	AP23 126BE
 @sys	PUA F0088 VSP
+@list U+F0088
+@ucun 󰂈
+@uname EIGHT-N14 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 8(N34@f)
@@ -26710,6 +27245,11 @@
 @oid o0903515
 @sys	AP23 126C4
 @sys	PUA F00AF VSP
+@list U+F00AF
+@ucun 󰂯
+@uname EIGHT-N34 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 8(N51@f)
@@ -26723,6 +27263,11 @@
 @oid o0903550
 @sys	AP23 126C8
 @sys	PUA F00D2 VSP
+@list U+F00D2
+@ucun 󰃒
+@uname EIGHT-N51 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 9(N14@f)
@@ -26736,6 +27281,11 @@
 @oid o0903477
 @sys	AP23 126D1
 @sys	PUA F0089 VSP
+@list U+F0089
+@ucun 󰂉
+@uname NINE-N14 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 9(N34@f)
@@ -26749,6 +27299,11 @@
 @oid o0903516
 @sys	AP23 126D9
 @sys	PUA F00B0 VSP
+@list U+F00B0
+@ucun 󰂰
+@uname NINE-N34 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign 9(N51@f)
@@ -26762,6 +27317,11 @@
 @oid o0903551
 @sys	AP23 126DD
 @sys	PUA F00D3 VSP
+@list U+F00D3
+@ucun 󰃓
+@uname NINE-N51 FLAT
+@uage VSP
+@@
 @end sign
 
 @sign	|1(N14).3(N08)|

@@ -51,14 +51,12 @@
 	    <xsl:attribute name="class"><xsl:text>pretty</xsl:text></xsl:attribute>
 	    <thead>
 	      <tr>
-		<td>Script</td>
 		<td width="8%">PCSL Name</td>
-		<td width="15%">Unicode Name</td>
 		<td>Unicode</td>
 		<td>ACN Glyph</td>
+		<td width="15%">Unicode Name</td>
+		<td>Moved-to</td>
 		<td>AP23 Glyph</td>
-		<td>AP23 Uni</td>
-		<td>Notes</td>
 	      </tr>
 	    </thead>
 	    <tbody>

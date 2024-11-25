@@ -61,6 +61,8 @@ while (<>) {
 		my ($fo,$n) = @{$vsp{$o}};
 		print "\@form $n\n\@oid $fo\n";
 		syss($fo);
+		uni($fo);
+		print "\@\@\n";
 	    }
 	    print "\@end sign\n\n";
 	    $in_form = 0;
