@@ -129,8 +129,8 @@
 	<p>Two classes of Variant Stacking Patterns are given
 	here. Characters held in common between AP23 and ACN often
 	have different glyphs.  In addition, ACN does not give more
-	than one glyph per codepoint, whereas AP23--following the CDLI
-	repertoire--does do so.</p>
+	than one glyph per Proto-Cuneiform number, whereas
+	AP23--following the CDLI repertoire--does do so.</p>
 
 	<p>The characters in this table have Oracc PUA
 	assignments. See the <esp:link

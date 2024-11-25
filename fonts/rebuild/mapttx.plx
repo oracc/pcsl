@@ -12,23 +12,34 @@ use Getopt::Long;
 my %warned = ();
 
 my $mapfile = undef;
+my $outfile = undef;
+my $ttxfile = undef;
 my $verbose = 0;
 
 GetOptions(
-    'm:s'=>\$mapfile,
+    'map:s'=>\$mapfile,
+    'out:s'=>\$outfile,
+    'ttx:s'=>\$ttxfile,
     verbose=>\$verbose,
     );
 
-die "$0: must give mapfile on command line. Stop.\n"
-    unless $mapfile;
+die "Usage: $0 -m [MAP] -t [TTX] -o [OUT]\n"
+    unless $mapfile && $outfile && $ttxfile;
 
-my %tab = (); my @t = `cat ../../00etc/ap23toap24-font.tsv`; chomp @t;
+my %tab = (); my @t = `cat $mapfile`; chomp @t;
 foreach (@t) { my($o,$n) = split(/\t/,$_); $tab{$o} = $n; }
 
 #print Dumper \%tab; exit 1;
 
-open(T,'gzip -cd PC-240412.ttx.gz|') || die;
-open(O,'>PC-all.ttx') || die; select O;
+if (-r $ttxfile) {
+    open(T,$ttxfile) || die;
+} elsif (-r "$ttxfile.gz") {
+    open(T,'gzip -cd PC-240412.ttx.gz|') || die;
+} else {
+    die "$0: unable to open $ttxfile or $ttxfile.gz. Stop.";
+}
+open(O,'>$outfile') || die "$0: unable to write to $outfile. Stop.\n";
+select O;
 while (<T>) {
     my $orig = $_;
     if (/(?:name|glyph)="u([0-9A-F]{5})"/) {
