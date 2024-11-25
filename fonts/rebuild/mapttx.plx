@@ -26,8 +26,23 @@ GetOptions(
 die "Usage: $0 -m [MAP] -t [TTX] -o [OUT]\n"
     unless $mapfile && $outfile && $ttxfile;
 
+my $status = 0;
+my %new = ();
 my %tab = (); my @t = `cat $mapfile`; chomp @t;
-foreach (@t) { my($o,$n) = split(/\t/,$_); $tab{$o} = $n; }
+foreach (@t) {
+    my($o,$n) = split(/\t/,$_);
+    if ($tab{$o}) {
+	warn "$0: duplicate 'old' char $o\n";
+	++$status;
+    }
+    if ($new{$n}++) {
+	warn "$0: duplicate 'new' char $n\n";
+	++$status;
+    }
+    $tab{$o} = $n;
+}
+
+die "$0: errors in map table. Stop.\n" if $status;
 
 #print Dumper \%tab; exit 1;
 
@@ -38,7 +53,7 @@ if (-r $ttxfile) {
 } else {
     die "$0: unable to open $ttxfile or $ttxfile.gz. Stop.";
 }
-open(O,'>$outfile') || die "$0: unable to write to $outfile. Stop.\n";
+open(O,">$outfile") || die "$0: unable to write to $outfile. Stop.\n";
 select O;
 while (<T>) {
     my $orig = $_;
