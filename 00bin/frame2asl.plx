@@ -30,6 +30,10 @@ foreach my $f (@sysf) {
 
 my %uni; my @uni = `cat data/unicode.tsv`; foreach(@uni){my($o,$u)=(/^(.*?)\t(.*?)$/);$uni{$o}=$u}
 
+my %lsts = ();
+my @lref = ();
+list_marshall();
+
 my %notes = ();
 load_notes();
 
@@ -52,6 +56,7 @@ while (<>) {
 	print;
 	akas($o);
 	uni($o) if $uni{$o};
+	lsts($o);
 	syss($o);
 	notess($o);
     } elsif (/^\@end\s+sign/) {
@@ -62,6 +67,7 @@ while (<>) {
 		print "\@form $n\n\@oid $fo\n";
 		syss($fo);
 		uni($fo);
+		lsts($fo);
 		print "\@\@\n";
 	    }
 	    print "\@end sign\n\n";
@@ -74,9 +80,7 @@ while (<>) {
     }
 }
 
-#print "\@\@\n" if $in_form;
-#print "\@end sign\n\n";
-#system 'cat', 'data/compoundonly';
+print @lref;
 
 #############################################################################
 
@@ -87,6 +91,24 @@ sub akas {
 	    print "\@aka\t$a\n";
 	}
     }
+}
+
+sub list_marshall {
+    open(L, 'data/lists.tsv') || die;
+    while (<L>) {
+	chomp;
+	my($l,$o,@rest) = split(/\t/,$_);
+	if ($l =~ /^(BAU|ZATU)/) {
+	    if ($o) {
+		push @{$lsts{$o}}, "\@list $l\n";
+	    } else {
+		my $lref = $rest[$#rest];
+		push @lref, "\@lref $l\n\@note $lref\n\n"
+		    unless $lref eq '[Omitted]';
+	    }
+	}
+    }
+    close(L);
 }
 
 sub load_notes {
@@ -103,6 +125,13 @@ sub load_notes {
 	}
     }
     close(N);
+}
+
+sub lsts {
+    my $k = shift;
+    if ($lsts{$k}) {
+	print @{$lsts{$k}};
+    }
 }
 
 sub notess {
