@@ -23582,15 +23582,21 @@
 
 @sign 9(N01)
 @oid o0902866
-@sys	LLATU:322_02 9(N1) 
-@form 9(N01)~v1
-@oid o0902867
 @list U+12558
 @ucun 𒕘
 @uname NINE N01
 @uage 17/18
 @sys	ACN 12558
 @sys	AP23 126CC
+@sys	LLATU:322_02 9(N1) 
+@form 9(N01)~v
+@oid o0903441
+@sys	AP23 126CB
+@sys	PUA F0065 VSP
+@list U+F0065
+@ucun 󰁥
+@uname NINE-N1
+@uage VSP
 @@
 @end sign
 

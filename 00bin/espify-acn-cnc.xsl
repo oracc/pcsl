@@ -14,34 +14,60 @@
     <html>
       <head/>
       <body>
-	<p>
-	  <esp:link bookmark="concordance">ACN Concordance</esp:link>
-	  &#xa0;&#xa0;&#xa0;
-	  <esp:link bookmark="additions">Possible Additions</esp:link>
-	  &#xa0;&#xa0;&#xa0;
-	  <esp:link bookmark="vsp">Variant Stacking Patterns</esp:link>
-	</p>
           
 	<p>Proto-Cuneiform numeric signs were proposed by Anshuman
-	Pandey as part of XXX (abbreviated here as AP23) but it was
+	Pandey as part of <esp:link
+	url="https://www.unicode.org/L2/L2023/23190-proto-cuneiform.pdf">L2/23-190
+	<i>Revised proposal to encode Proto-Cuneiform in
+	Unicode</i></esp:link> (abbreviated here as AP23) but it was
 	subsequently decided to separate ideographic signs from
-	numerical ones. Most of the signs in XXX were proposed in YYY
-	(abbreviated here as ACN), which was approved by the UTC.
-	Some of the reference glyphs in ACN differ have different
-	stacking patterns from the reference glyphs in AP23; some of
-	the signs in AP23 were omitted in ACN; some signs were
-	introduced in ACN but were not in AP23.</p>
+	numerical ones. Most of the signs in AP23 were then proposed
+	in <esp:link
+	url="https://www.unicode.org/L2/L2024/24210r-archaic-numerals.pdf">L2/24-210R
+	<i>Archaic cuneiform numerals</i></esp:link> (abbreviated here
+	as ACN), which was approved by the UTC.  Some of the reference
+	glyphs in ACN have different stacking patterns from the
+	reference glyphs in AP23; some of the signs in AP23 were
+	omitted in ACN; some signs were introduced in ACN but were not
+	in AP23.</p>
 
-	<p>This page provides several tables which summarize the
-	relationship between AP23 and ACN, the possible additions
-	which may need to be made to the PC number encoding, and the
-	glyphs which should be handled using other approaches.</p>
+	<p>This page provides a table which summarizes the
+	relationship between AP23 and ACN.</p>
 
-	<p>The abbreviations used in the notes column of this table are:</p>
+	<p>For a table of Variant Stacking Patterns (VSP) in AP23
+	versus the reference glyphs in ACN, see the <esp:link
+	url="/osl/signlist/OraccPUA9.3/index.html">Oracc PUA
+	Section 9.3</esp:link> page.</p>
+	
+	<p>See also the <esp:link
+	url="/osl/signlist/OraccPUA9.4/index.html">Oracc PUA
+	9.4</esp:link> (unencodable Pcun numbers) and <esp:link
+	url="/osl/signlist/OraccPUA9.5/index.html">Oracc PUA
+	9.5</esp:link> (possibly encodable PC numbers) pages.</p>
+	
+	<p>In the <code>Moved-to</code> column the following
+	conventions are used:</p>
 
 	<dl>
-	  <dt>ACN</dt><dd>Not in AP23, only in ACN</dd>
-	  <dt>VSP</dt><dd>Variant Stacking Pattern</dd>
+	  <dt>(F2580)</dt><dd>For AP23 encodings with the same glyph
+	  as ACN, the AP23 glyph is moved to the AP23 codepoint +
+	  0xE0000 in the PCSL reference font, <esp:link
+	  url="/pcsl/fonts/PC-all.ttf">PC-all.ttf</esp:link>. So AP23
+	  12580 becomes PC-all F2580, etc.</dd>
+
+	  <dt>F005F [125DF]</dt><dd>For AP23 encodings where the ACN
+	  encoding has a VSP, the AP23 glyph is retained in the
+	  <esp:link
+	  url="/osl/OraccCuneiformFonts/UnicodeFeatures/OraccPUA/index.html">Oracc
+	  PUA</esp:link>. The first code point is the Oracc PUA CP,
+	  then the AP23 codepoint is given in square brackets.</dd>
+
+	  <dt>Xsux</dt><dd>Used for ACN characters that belong to Xsux
+	  rather than Pcun.</dd>
+
+	  <dt>VACAT</dt><dd>Used for ACN characters that were not in
+	  AP23.</dd>
+	  
 	</dl>
 
 	<h1 id="concordance">ACN Compared to AP23</h1>
@@ -57,94 +83,6 @@
 		<td width="15%">Unicode Name</td>
 		<td>Moved-to</td>
 		<td>AP23 Glyph</td>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <xsl:copy-of select="*"/>
-	    </tbody>
-	  </xsl:copy>
-	</xsl:for-each>
-
-	<h1 id="additions">AP23 Numbers not in ACN</h1>
-
-	<p>This table gives numbers that are not in ACN; most of these
-	were included in AP23 but some are additions to the AP23
-	repertoire--these have entries in the SOURCE and IMAGE columns.</p>
-
-	<p>The characters in this table have Oracc PUA
-	assignments. See the <esp:link
-	url="/osl/signlist/OraccPUA9.4/index.html">Oracc PUA
-	9.4</esp:link> and <esp:link
-	url="/osl/signlist/OraccPUA9.4/index.html">Oracc PUA
-	9.5</esp:link> pages.</p>
-	
-	<p>The notes column contains a provisional assessment of how
-	to handle the characters, with the following
-	abbreviations:</p>
-	
-	<dl>
-	  <dt>ACN</dt><dd>"Archaic Cuneiform Numerals [Encode]"--the character
-	  could be encoded in a future ACN additions proposal.</dd>
-
-	  <dt>ADD</dt><dd>"Additional"--a neutral designation
-	  indicating only that the character is not in ACN. Characters
-	  above U+F0000 are not in AP23 either.</dd>
-
-	  <dt>DNE</dt><dd>"Do Not Encode"--the character is not encodable.</dd>
-	  
-	  <dt>OOR</dt><dd>"Out Of Range"--an assertion that the
-	  character is anomalous and should not be encoded.</dd>
-
-	  <dt>Pelm</dt><dd>Proto-Elamite--the character should be
-	  encoded in the Proto-Elamite proposal.</dd>
-	  
-	  <dt>PCE</dt><dd>"Proto-Cuneiform Encode"--the character
-	  should be encoded in the PC proposal.</dd>
-	</dl>
-
-	<xsl:for-each select=".//xh:table[2]">
-	  <xsl:copy>
-	    <xsl:attribute name="class"><xsl:text>pretty</xsl:text></xsl:attribute>
-	    <thead>
-	      <tr>
-		<td>PCSL</td>
-		<td>UNAME</td>
-		<td>UCODE</td>
-		<td>CHAR</td>
-		<td>NOTE</td>
-		<td>SOURCE</td>
-		<td>IMAGE</td>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <xsl:copy-of select="*"/>
-	    </tbody>
-	  </xsl:copy>
-	</xsl:for-each>
-
-	<h1 id="vsp">AP23 Variant Stacking Patterns</h1>
-
-	<p>Two classes of Variant Stacking Patterns are given
-	here. Characters held in common between AP23 and ACN often
-	have different glyphs.  In addition, ACN does not give more
-	than one glyph per Proto-Cuneiform number, whereas
-	AP23--following the CDLI repertoire--does do so.</p>
-
-	<p>The characters in this table have Oracc PUA
-	assignments. See the <esp:link
-	url="/osl/signlist/OraccPUA9.3/index.html">Oracc PUA
-	9.3</esp:link> page.</p>
-		
-	<xsl:for-each select=".//xh:table[3]">
-	  <xsl:copy>
-	    <xsl:attribute name="class"><xsl:text>pretty</xsl:text></xsl:attribute>
-	    <thead>
-	      <tr>
-		<td>PCSL</td>
-		<td>UNAME</td>
-		<td>UCODE</td>
-		<td>CHAR</td>
-		<td>VSP</td>
 	      </tr>
 	    </thead>
 	    <tbody>
