@@ -13,6 +13,7 @@
   <option name="asl-corpus" value="yes"/>
   <option name="asl-max-forms" value="100000"/>
   <option name="asl-script" value="ofs-pc"/>
+  <option name="cuneify-font" value="ofs-pc"/>
   <option name="asl-stats" value="yes"/>
   <option name="build-approved-policy" value="atf"/>
   <option name="build-outlined-policy" value="atf"/>
@@ -21,4 +22,7 @@
   <option name="outline-default-select" value="true"/>
   <option name="outline-default-sort-fields" value="period,genre,provenience"/>
   <option name="outline-default-sort-labels" value="Time,Genre,Place"/>
+  <option name="pager-item-cuneify" value="yes"/>
+  <option name="pager-item-images" value="yes"/>
 </project>
+
