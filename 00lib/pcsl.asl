@@ -119,6 +119,7 @@
 @sign |A×EN|
 @oid o0900003
 @list ZATU002
+@smap |A×EN~a~v2|
 @form |A×EN~a~v2|
 @oid o0900004
 @aka	|A×EN~a|
@@ -190,6 +191,7 @@
 @sign AB
 @oid o0900011
 @list ZATU007
+@smap AB~a
 @form AB~a
 @oid o0900012
 @list U+12698
@@ -225,6 +227,7 @@
 @sign |AB×A|
 @oid o0900015
 @list ZATU008
+@smap |AB~b×A|
 @form |AB~b×A|
 @oid o0900016
 @list U+126A4
@@ -238,6 +241,7 @@
 
 @sign |AB×A@t|
 @oid o0900017
+@smap |AB~a×A@t|
 @form |AB~a×A@t|
 @oid o0900018
 @list U+12699
@@ -252,6 +256,7 @@
 @sign |AB×AŠ₂|
 @oid o0900019
 @list ZATU009
+@smap |AB~a×AŠ₂|
 @form |AB~a×AŠ₂|
 @oid o0900020
 @list U+1269A
@@ -266,6 +271,7 @@
 
 @sign |AB×KU₆|
 @oid o0900021
+@smap |AB~a×KU₆~a|
 @form |AB~a×KU₆~a|
 @oid o0900022
 @list U+1269B
@@ -288,6 +294,7 @@
 
 @sign |AB×1(N01)|
 @oid o0900024
+@smap |AB~a×1(N01)|
 @form |AB~a×1(N01)|
 @oid o0900025
 @list U+126A0
@@ -301,6 +308,7 @@
 
 @sign |AB×1(N04)|
 @oid o0900026
+@smap |AB~a×1(N04)|
 @form |AB~a×1(N04)|
 @oid o0900027
 @sys	ADD F302B CUSAS31 ABax1N4.png
@@ -310,6 +318,7 @@
 
 @sign |AB×SUKKAL|
 @oid o0900028
+@smap |AB~a×SUKKAL|
 @form |AB~a×SUKKAL|
 @oid o0900029
 @list U+1269C
@@ -323,6 +332,7 @@
 
 @sign |AB×ŠA₃|
 @oid o0900030
+@smap |AB~b×ŠA₃~a1|
 @form |AB~b×ŠA₃~a1|
 @oid o0900031
 @list U+126A6
@@ -336,6 +346,7 @@
 
 @sign |AB×(ŠE&ŠE)|
 @oid o0900032
+@smap |AB~a×(ŠE~a&ŠE~a)|
 @form |AB~a×(ŠE~a&ŠE~a)|
 @oid o0900033
 @list U+1269D
@@ -350,6 +361,7 @@
 
 @sign |AB×X|
 @oid o0900034
+@smap |AB~a×X|
 @form |AB~a×X|
 @oid o0900035
 @list U+1269E
@@ -367,6 +379,7 @@
 @sign |AB×ZATU659|
 @oid o0900037
 @list ZATU010
+@smap |AB~a×ZATU659|
 @form |AB~a×ZATU659|
 @oid o0900038
 @aka	|AB~a+ZATU659|
@@ -383,6 +396,7 @@
 @sign AB@g
 @oid o0900039
 @list ZATU011
+@smap AB~a@g
 @form AB~a@g
 @oid o0900040
 @list U+126A1
@@ -503,6 +517,7 @@
 @sign AD
 @oid o0900052
 @list ZATU018
+@smap AD~a
 @form AD~a
 @oid o0900053
 @list U+126AF
@@ -593,6 +608,7 @@
 @sign AK
 @oid o0900061
 @list ZATU023
+@smap AK~a
 @form AK~a
 @oid o0900062
 @list U+126B6
@@ -631,6 +647,7 @@
 @sign ALAN
 @oid o0900065
 @list ZATU025
+@smap ALAN~a
 @form ALAN~a
 @oid o0900066
 @list U+126B9
@@ -696,6 +713,7 @@
 @sign AM
 @oid o0900073
 @list ZATU027
+@smap AM~a
 @form AM~a
 @oid o0900074
 @list U+126BF
@@ -720,6 +738,7 @@
 @sign AMA
 @oid o0900076
 @list ZATU028
+@smap AMA~a
 @form AMA~a
 @oid o0900077
 @list U+126C1
@@ -755,6 +774,7 @@
 
 @sign |AMA×E₂|
 @oid o0900080
+@smap |AMA~a×E₂~a|
 @form |AMA~a×E₂~a|
 @oid o0900081
 @list U+126C2
@@ -869,6 +889,7 @@
 @sign ANŠE
 @oid o0900092
 @list ZATU032
+@smap ANŠE~a
 @form ANŠE~a
 @oid o0900093
 @list U+126CE
@@ -920,6 +941,7 @@
 @sign APIN
 @oid o0900099
 @list ZATU033
+@smap APIN~a
 @form APIN~a
 @oid o0900100
 @list U+126D2
@@ -955,6 +977,7 @@
 
 @sign |APIN.APIN|
 @oid o0900103
+@smap |APIN~a.APIN~a|
 @form |APIN~a.APIN~a|
 @oid o0900104
 @list U+126D3
@@ -968,6 +991,7 @@
 
 @sign ARARMA₂
 @oid o0900105
+@smap ARARMA₂~a
 @form ARARMA₂~a
 @oid o0900106
 @list U+126D6
@@ -1100,6 +1124,7 @@
 @sign BAD₃
 @oid o0900118
 @list ZATU044
+@smap BAD₃~a
 @form BAD₃~a
 @oid o0900119
 @aka	|EZEN~a×1(N57)|
@@ -1143,6 +1168,7 @@
 @sign BAHAR₂
 @oid o0900123
 @list ZATU045
+@smap BAHAR₂~a
 @form BAHAR₂~a
 @oid o0900124
 @list U+126E4
@@ -1196,6 +1222,7 @@
 @sign BALA
 @oid o0900129
 @list ZATU046
+@smap BALA~a
 @form BALA~a
 @oid o0900130
 @list U+126E9
@@ -1252,6 +1279,7 @@
 @oid o0900135
 @list ZATU048
 @list ZATU055
+@smap BAN~a
 @form BAN~a
 @oid o0900136
 @list U+126EE
@@ -1295,6 +1323,7 @@
 @sign BANŠUR
 @oid o0900140
 @list ZATU049
+@smap BANŠUR~a
 @form BANŠUR~a
 @oid o0900141
 @list U+126F2
@@ -1338,6 +1367,7 @@
 
 @sign BANŠUR@t
 @oid o0900145
+@smap BANŠUR~a@t
 @form BANŠUR~a@t
 @oid o0900146
 @list U+126F3
@@ -1352,6 +1382,7 @@
 @sign BAPPIR
 @oid o0900147
 @list ZATU050
+@smap BAPPIR~a
 @form BAPPIR~a
 @oid o0900148
 @list U+126F7
@@ -1427,6 +1458,7 @@
 
 @sign |BAR×URI₃|
 @oid o0900155
+@smap |BAR×URI₃~a|
 @form |BAR×URI₃~a|
 @oid o0900156
 @sys	ADD F3060 CUSAS01 BAR+URI3a.png
@@ -1437,6 +1469,7 @@
 @sign BARA₂
 @oid o0900157
 @list ZATU052
+@smap BARA₂~a
 @form BARA₂~a
 @oid o0900158
 @list U+126FE
@@ -1550,6 +1583,7 @@
 @sign BIR
 @oid o0900164
 @list ZATU054
+@smap BIR~a
 @form BIR~a
 @oid o0900165
 @list U+12703
@@ -1585,6 +1619,7 @@
 
 @sign BIR₃
 @oid o0900168
+@smap BIR₃~a
 @form BIR₃~a
 @oid o0900169
 @list U+12706
@@ -1636,6 +1671,7 @@
 @sign BU
 @oid o0900174
 @list ZATU056
+@smap BU~a
 @form BU~a
 @oid o0900175
 @list U+1270B
@@ -1671,6 +1707,7 @@
 @sign |((BU.DU₆)&(BU.DU₆))×UDU|
 @oid o0900178
 @aka	|(BU.DU₆&BU.DU₆)×UDU|
+@smap |((BU~a.DU₆~a)&(BU~a.DU₆))×UDU~a|
 @form |((BU~a.DU₆~a)&(BU~a.DU₆))×UDU~a|
 @oid o0900179
 @aka	|(BU~a.DU₆~a&BU~a.DU₆)×UDU~a|
@@ -1681,6 +1718,7 @@
 
 @sign |BU.NA₂|
 @oid o0900180
+@smap |BU~b.NA₂~a~v1|
 @form |BU~b.NA₂~a~v1|
 @oid o0900181
 @aka	|BU~b.NA₂~a|
@@ -1695,6 +1733,7 @@
 
 @sign |BU×A|
 @oid o0900182
+@smap |BU~a~v1×A|
 @form	|BU~a~v1×A|
 @oid o0900183
 @aka	|BU~a×A|
@@ -1710,6 +1749,7 @@
 
 @sign |BU×GIŠ@t|
 @oid o0900184
+@smap |BU~a×GIŠ@t|
 @form |BU~a×GIŠ@t|
 @oid o0900185
 @list U+1270E
@@ -1723,6 +1763,7 @@
 
 @sign |BU×1(N58)|
 @oid o0900186
+@smap |BU~a×1(N58)|
 @form |BU~a×1(N58)|
 @oid o0900187
 @list U+1270F
@@ -1736,6 +1777,7 @@
 
 @sign |BU&BU|
 @oid o0900188
+@smap |BU~a&BU~a|
 @form |BU~a&BU~a|
 @oid o0900189
 @sys	ADD F302C CUSAS31_167 BU+BU.png
@@ -1747,6 +1789,7 @@
 @sign |(BU&BU).NA₂|
 @oid o0900190
 @list ZATU058
+@smap |(BU~a&BU~a).NA₂~a|
 @form |(BU~a&BU~a).NA₂~a|
 @oid o0900191
 @list U+12710
@@ -1775,6 +1818,7 @@
 
 @sign |(BU&BU).NA₂@n|
 @oid o0900194
+@smap |(BU~a~v1%BU~a~v1).NA₂~a@n|
 @form	|(BU~a~v1%BU~a~v1).NA₂~a@n|
 @oid o0903398
 @aka	|(BU~a&BU~a).NA₂~a@n|
@@ -1789,6 +1833,7 @@
 
 @sign |(BU&BU).X|
 @oid o0900196
+@smap |(BU~a&BU~a).X|
 @form |(BU~a&BU~a).X|
 @oid o0900197
 @list U+12712
@@ -1804,6 +1849,7 @@
 @oid o0900198
 @aka	|BU.DU₆|
 @list ZATU059
+@smap |BU~a+DU₆~a|
 @form |BU~a+DU₆~a|
 @oid o0900199
 @aka	|BU~a.DU₆~a|
@@ -1829,6 +1875,7 @@
 
 @sign |BU+KI|
 @oid o0900201
+@smap |BU~a+KI|
 @form |BU~a+KI|
 @oid o0900202
 @sys	ADD F302D CUSAS21_298 BU+KI.png
@@ -1838,6 +1885,7 @@
 
 @sign |BU+TU|
 @oid o0900203
+@smap |BU~a+TU~b|
 @form |BU~a+TU~b|
 @oid o0900204
 @sys	ADD F302E CUSAS21 BU+TU.png
@@ -1884,6 +1932,7 @@
 
 @sign |BULUG₃.DU₆|
 @oid o0900208
+@smap |BULUG₃.DU₆~a|
 @form |BULUG₃.DU₆~a|
 @oid o0900209
 @sys	ADD F3061 CUSAS01 BULUG-DU6a.png
@@ -1894,6 +1943,7 @@
 @sign BUR
 @oid o0900210
 @list ZATU063
+@smap BUR~a
 @form BUR~a
 @oid o0900211
 @list U+1271B
@@ -1952,6 +2002,7 @@
 @oid o0900216
 @list ZATU065
 @list ZATU542
+@smap DA~a
 @form DA~a
 @oid o0900217
 @list U+12720
@@ -1996,6 +2047,7 @@
 
 @sign |DA.LIŠ|
 @oid o0900221
+@smap |DA~a.LIŠ|
 @form |DA~a.LIŠ|
 @oid o0900222
 @list U+12721
@@ -2045,6 +2097,7 @@
 @sign DAR
 @oid o0900227
 @list ZATU069
+@smap DAR~a
 @form DAR~a
 @oid o0900228
 @list U+12728
@@ -2088,6 +2141,7 @@
 
 @sign |DAR×A|
 @oid o0900232
+@smap |DAR~a×A|
 @form |DAR~a×A|
 @oid o0900233
 @list U+12729
@@ -2102,6 +2156,7 @@
 @sign DARA₃
 @oid o0900234
 @list ZATU070
+@smap DARA₃~a
 @form DARA₃~a
 @oid o0900235
 @list U+1272D
@@ -2156,6 +2211,7 @@
 @sign |DARA₃×KAR₂|
 @oid o0900240
 @list ZATU071
+@smap |DARA₃~c×KAR₂~b|
 @form |DARA₃~c×KAR₂~b|
 @oid o0900241
 @aka	|DARA₃~c×KAR₂|
@@ -2202,6 +2258,7 @@
 @sign |DARA₃×(KAR₂.ŠE)|
 @oid o0900245
 @list ZATU072
+@smap |DARA₃~c×(KAR₂~c.ŠE~a)|
 @form |DARA₃~c×(KAR₂~c.ŠE~a)|
 @oid o0900246
 @aka	|DARA₃~c×(KAR₂.ŠE~a)|
@@ -2227,6 +2284,7 @@
 @sign DARA₄
 @oid o0900248
 @list ZATU073
+@smap DARA₄~a1
 @form DARA₄~a1
 @oid o0900249
 @aka	DARA₄
@@ -2406,6 +2464,7 @@
 @sign DIM
 @oid o0900268
 @list ZATU078
+@smap DIM~a
 @form DIM~a
 @oid o0900269
 @list U+12748
@@ -2504,6 +2563,7 @@
 @sign DU₆
 @oid o0900283
 @list ZATU083
+@smap DU₆~a
 @form DU₆~a
 @oid o0900284
 @list U+12750
@@ -2553,6 +2613,7 @@
 @sign |DU₆×1(N58)|
 @oid o0900289
 @aka	|DU₆×DIŠ|
+@smap |DU₆~a~v1×1(N58)|
 @form |DU₆~a~v1×1(N58)|
 @oid o0900290
 @aka	|DU₆~a×1(N58)|
@@ -2583,6 +2644,7 @@
 @sign DU₈
 @oid o0900292
 @list ZATU085
+@smap DU₈~a
 @form DU₈~a
 @oid o0900293
 @list U+12756
@@ -2628,6 +2690,7 @@
 
 @sign |DU₈×AB₂|
 @oid o0900298
+@smap |DU₈~c×AB₂|
 @form |DU₈~c×AB₂|
 @oid o0900299
 @sys	ADD F3031 CUSAS01 DU8cxAB2.png
@@ -2637,6 +2700,7 @@
 
 @sign |DU₈×AMAR|
 @oid o0900300
+@smap |DU₈~c×AMAR|
 @form |DU₈~c×AMAR|
 @oid o0900301
 @sys	ADD F3032 CUSAS01 DU8cxAMAR.png
@@ -2646,6 +2710,7 @@
 
 @sign |DU₈×HI|
 @oid o0900302
+@smap |DU₈~c×HI|
 @form |DU₈~c×HI|
 @oid o0900303
 @list U+1275A
@@ -2659,6 +2724,7 @@
 
 @sign |DU₈×UDU|
 @oid o0900304
+@smap |DU₈~c×UDU~a|
 @form |DU₈~c×UDU~a|
 @oid o0900305
 @list U+1275B
@@ -2673,6 +2739,7 @@
 
 @sign |DU₈×X|
 @oid o0900306
+@smap |DU₈~c×X|
 @form |DU₈~c×X|
 @oid o0900307
 @list U+1275C
@@ -2686,6 +2753,7 @@
 
 @sign DU₈@g
 @oid o0900308
+@smap DU₈~c@g
 @form DU₈~c@g
 @oid o0900309
 @list U+1275D
@@ -2712,6 +2780,7 @@
 @sign DUB
 @oid o0900311
 @list ZATU086
+@smap DUB~a
 @form DUB~a
 @oid o0900312
 @list U+1275F
@@ -2822,6 +2891,7 @@
 @aka	|DUB@n×DIŠ|
 @list ZATU087
 @inote	all DUB×DIŠ should be changed to DUB×1(N58)
+@smap |(DUB@n~a×1(N58))~a|
 @form |(DUB@n~a×1(N58))~a|
 @oid o0900324
 @aka	|(DUB×DIŠ)~a|
@@ -2857,6 +2927,7 @@
 
 @sign DUB@r
 @oid o0900327
+@smap DUB~b@r
 @form DUB~b@r
 @oid o0900328
 @sys	ADD F3053 P006316 DUB@r.png
@@ -2877,6 +2948,7 @@
 @sign DUG
 @oid o0900330
 @list ZATU088
+@smap DUG~a
 @form DUG~a
 @oid o0900331
 @list U+1276D
@@ -2963,6 +3035,7 @@
 @sign |DUG×AB₂|
 @oid o0900339
 @list ZATU089
+@smap |DUG~b~v1×AB₂|
 @form |DUG~b~v1×AB₂|
 @oid o0900340
 @aka	|DUG~b×AB₂|
@@ -2980,6 +3053,7 @@
 @sign |DUG×ANŠE|
 @oid o0900341
 @list ZATU090
+@smap |DUG~b×ANŠE~b|
 @form |DUG~b×ANŠE~b|
 @oid o0900342
 @aka	|DUG~b+ANŠE~b|
@@ -3006,6 +3080,7 @@
 @sign |DUG×BA|
 @oid o0900344
 @list ZATU093
+@smap |DUG~b×BA|
 @form |DUG~b×BA|
 @oid o0900345
 @sys	ADD F3063 ZATU093 DUGbxBA.png
@@ -3016,6 +3091,7 @@
 @sign |DUG×BALA|
 @oid o0900346
 @list ZATU094
+@smap |DUG~b×BALA~a|
 @form |DUG~b×BALA~a|
 @oid o0900347
 @aka	|DUG~b+BALA~a|
@@ -3032,6 +3108,7 @@
 @sign |DUG×BIR₃|
 @oid o0900348
 @list ZATU095
+@smap |DUG~b×BIR₃~c|
 @form |DUG~b×BIR₃~c|
 @oid o0900349
 @aka	|DUG~b+BIR₃~c|
@@ -3048,6 +3125,7 @@
 @sign |DUG×DIN|
 @oid o0900350
 @list ZATU096
+@smap |DUG~b×DIN|
 @form |DUG~b×DIN|
 @oid o0900351
 @aka	|DUG~b+DIN|
@@ -3073,6 +3151,7 @@
 
 @sign |(DUG×DIN)@r|
 @oid o0900353
+@smap |(DUG~b×DIN)@r|
 @form |(DUG~b×DIN)@r|
 @oid o0900354
 @aka	|DUG~b@r×DIN|
@@ -3087,6 +3166,7 @@
 
 @sign |DUG×E|
 @oid o0900355
+@smap |DUG~b×E~a|
 @form |DUG~b×E~a|
 @oid o0900356
 @list U+1277E
@@ -3101,6 +3181,7 @@
 @sign |DUG×GA|
 @oid o0900357
 @list ZATU097
+@smap |DUG~b×GA~a~v4|
 @form |DUG~b×GA~a~v4|
 @oid o0900358
 @aka	|DUG~b×GA~a|
@@ -3128,6 +3209,7 @@
 @sign |DUG×GEŠTU|
 @oid o0900360
 @list ZATU098
+@smap |DUG~b×GEŠTU~a~v2|
 @form |DUG~b×GEŠTU~a~v2|
 @oid o0900361
 @aka	|DUG~b×GEŠTU~a|
@@ -3165,6 +3247,7 @@
 @sign |DUG×GI₆|
 @oid o0900364
 @list ZATU099
+@smap |DUG~b×GI₆|
 @form |DUG~b×GI₆|
 @oid o0900365
 @aka	|DUG~b+GI₆|
@@ -3181,6 +3264,7 @@
 @sign |DUG×GIŠ|
 @oid o0900366
 @list ZATU100
+@smap |DUG~b×GIŠ|
 @form |DUG~b×GIŠ|
 @oid o0900367
 @aka	|DUG~b+GIŠ|
@@ -3197,6 +3281,7 @@
 @sign |DUG×HI|
 @oid o0900368
 @list ZATU101
+@smap |DUG~b×HI|
 @form |DUG~b×HI|
 @oid o0900370
 @aka	|DUG~b+HI|
@@ -3226,6 +3311,7 @@
 @sign |DUG×HI@g|
 @oid o0900372
 @list ZATU102
+@smap |DUG~b~v1×HI@g~a|
 @form |DUG~b~v1×HI@g~a|
 @oid o0900373
 @aka	|DUG~b×HI@g~a|
@@ -3241,6 +3327,7 @@
 @sign |DUG×KASKAL|
 @oid o0900374
 @list ZATU103
+@smap |DUG~a×KASKAL|
 @form |DUG~a×KASKAL|
 @oid o0900375
 @list U+1276E
@@ -3266,6 +3353,7 @@
 @sign |DUG×KU₆|
 @oid o0900377
 @list ZATU104
+@smap |DUG~a×KU₆~a|
 @form |DUG~a×KU₆~a|
 @oid o0900378
 @sys	ADD F306A CUSAS31 DUGaxKU6.png
@@ -3287,6 +3375,7 @@
 @sign |DUG×KUR|
 @oid o0900380
 @list ZATU105
+@smap |DUG~b×KUR~a|
 @form |DUG~b×KUR~a|
 @oid o0900381
 @aka	|DUG~b+KUR~a|
@@ -3312,6 +3401,7 @@
 
 @sign |DUG×(KUR.X)|
 @oid o0900383
+@smap |DUG~b×(KUR~a.X)|
 @form |DUG~b×(KUR~a.X)|
 @oid o0900384
 @list U+12789
@@ -3329,6 +3419,7 @@
 @oid o0900385
 @aka	|DUG+(LAM+KUR)|
 @list ZATU107
+@smap |DUG~b×KUR@g~a|
 @form |DUG~b×KUR@g~a|
 @oid o0900386
 @list U+1278B
@@ -3344,6 +3435,7 @@
 @sign |DUG×LAM|
 @oid o0900387
 @list ZATU106
+@smap |DUG~a×LAM~b|
 @form |DUG~a×LAM~b|
 @oid o0900388
 @list U+1276F
@@ -3369,6 +3461,7 @@
 @sign |DUG×MAŠ|
 @oid o0900390
 @list ZATU108
+@smap |DUG~b×MAŠ|
 @form |DUG~b×MAŠ|
 @oid o0900391
 @aka	|DUG~b+MAŠ|
@@ -3395,6 +3488,7 @@
 @sign |DUG×1(N57)|
 @oid o0900393
 @list ZATU091
+@smap |DUG~a×1(N57)|
 @form |DUG~a×1(N57)|
 @oid o0900394
 @list U+12773
@@ -3460,6 +3554,7 @@
 @sign |DUG×(1(N57).KU₃)|
 @oid o0900400
 @list ZATU092
+@smap |DUG~b×(1(N57).KU₃~a)|
 @form |DUG~b×(1(N57).KU₃~a)|
 @oid o0900401
 @list U+127AB
@@ -3474,6 +3569,7 @@
 
 @sign |DUG×3(N57)|
 @oid o0900402
+@smap |DUG~b×3(N57)|
 @form |DUG~b×3(N57)|
 @oid o0900403
 @list U+127AC
@@ -3487,6 +3583,7 @@
 
 @sign |DUG×1(N58)|
 @oid o0900404
+@smap |DUG~b~v1×1(N58)|
 @form |DUG~b~v1×1(N58)|
 @oid o0900405
 @aka	|DUG~c×1(N58)|
@@ -3498,6 +3595,7 @@
 @sign |DUG×NAGA|
 @oid o0900406
 @list ZATU109
+@smap |DUG~a×NAGA~a|
 @form |DUG~a×NAGA~a|
 @oid o0900407
 @list U+12770
@@ -3522,6 +3620,7 @@
 
 @sign |DUG×NAM₂|
 @oid o0900409
+@smap |DUG~b×NAM₂|
 @form |DUG~b×NAM₂|
 @oid o0900410
 @list U+1278F
@@ -3536,6 +3635,7 @@
 
 @sign |DUG×(NI@g.ZATU779)|
 @oid o0900411
+@smap |DUG~b×(NI~a@g.ZATU779)|
 @form |DUG~b×(NI~a@g.ZATU779)|
 @oid o0900412
 @list U+12790
@@ -3550,6 +3650,7 @@
 @sign |DUG×SA|
 @oid o0900413
 @list ZATU110
+@smap |DUG~b×SA~a|
 @form |DUG~b×SA~a|
 @oid o0900414
 @aka	|DUG~b+SA~a|
@@ -3566,6 +3667,7 @@
 @sign |DUG×(SA.GI)|
 @oid o0900415
 @list ZATU111
+@smap |DUG~b×(SA~a.GI)|
 @form |DUG~b×(SA~a.GI)|
 @oid o0900416
 @sys	ADD F3054 LLATU DUGxSA-GI.png
@@ -3577,6 +3679,7 @@
 @sign |DUG×SI₄|
 @oid o0900417
 @list ZATU112
+@smap |DUG~b×SI₄~a|
 @form |DUG~b×SI₄~a|
 @oid o0900418
 @aka	|DUG~b+SI₄~a|
@@ -3592,6 +3695,7 @@
 
 @sign |DUG×(SI₄.X)|
 @oid o0900419
+@smap |DUG~b×(SI₄~a.X)|
 @form |DUG~b×(SI₄~a.X)|
 @oid o0900420
 @list U+12793
@@ -3607,6 +3711,7 @@
 @sign |DUG×SIG₂|
 @oid o0900421
 @list ZATU113
+@smap |DUG~b×SIG₂~a1|
 @form |DUG~b×SIG₂~a1|
 @oid o0900422
 @aka	|DUG~b+SIG₂~a1|
@@ -3633,6 +3738,7 @@
 @sign |DUG×SIG₇|
 @oid o0900424
 @list ZATU114
+@smap |DUG~b×SIG₇|
 @form |DUG~b×SIG₇|
 @oid o0900425
 @aka	|DUG~b+SIG₇|
@@ -3649,6 +3755,7 @@
 @sign |DUG×SUHUR|
 @oid o0900426
 @list ZATU115
+@smap |DUG~b×SUHUR|
 @form |DUG~b×SUHUR|
 @oid o0900427
 @list U+12797
@@ -3664,6 +3771,7 @@
 @sign |DUG×SUKUD|
 @oid o0900428
 @list ZATU116
+@smap |DUG~b×SUKUD~d|
 @form |DUG~b×SUKUD~d|
 @oid o0900429
 @sys	ADD F3055 P006071 DUGxSUKUD.png
@@ -3674,6 +3782,7 @@
 @sign |DUG×ŠAH₂|
 @oid o0900430
 @list ZATU117
+@smap |DUG~b×ŠAH₂~a|
 @form |DUG~b×ŠAH₂~a|
 @oid o0900431
 @aka	|DUG~b+ŠAH₂~a|
@@ -3690,6 +3799,7 @@
 @sign |DUG×ŠE|
 @oid o0900432
 @list ZATU118
+@smap |DUG~b×ŠE~a|
 @form |DUG~b×ŠE~a|
 @oid o0900433
 @aka	|DUG~b+ŠE~a|
@@ -3728,6 +3838,7 @@
 @aka	|DUG~b+(ŠE~a+NAM₂)|
 @list ZATU119
 @sys	LLATU:202_06 DUG~b+ŠE~a+NAM₂ 
+@smap |DUG~b×(ŠE~a.NAM₂)|
 @form |DUG~b×(ŠE~a.NAM₂)|
 @oid o0900437
 @list U+1279A
@@ -3742,6 +3853,7 @@
 @sign |DUG×TAK₄|
 @oid o0900438
 @list ZATU120
+@smap |DUG~b×TAK₄~a|
 @form |DUG~b×TAK₄~a|
 @oid o0900439
 @aka	|DUG~b+TAK₄~a|
@@ -3757,6 +3869,7 @@
 
 @sign |DUG×(TAK₄.SA)|
 @oid o0900440
+@smap |DUG~b×(TAK₄~a.SA~a)|
 @form |DUG~b×(TAK₄~a.SA~a)|
 @oid o0900441
 @list U+1279C
@@ -3771,6 +3884,7 @@
 
 @sign |DUG×(TAK₄.SAL)|
 @oid o0900442
+@smap |DUG~b×(TAK₄~a.SAL)|
 @form |DUG~b×(TAK₄~a.SAL)|
 @oid o0900443
 @list U+1279D
@@ -3786,6 +3900,7 @@
 @sign |DUG×TI|
 @oid o0900444
 @list ZATU121
+@smap |DUG~b×TI|
 @form |DUG~b×TI|
 @oid o0900445
 @aka	|DUG~b+TI~a|
@@ -3802,6 +3917,7 @@
 @sign |DUG×U₂|
 @oid o0900446
 @list ZATU122
+@smap |DUG~a×U₂~a|
 @form |DUG~a×U₂~a|
 @oid o0900447
 @list U+12771
@@ -3864,6 +3980,7 @@
 
 @sign |DUG×(UDU×TAR)|
 @oid o0900453
+@smap |DUG~b×(UDU~a×TAR)|
 @form |DUG~b×(UDU~a×TAR)|
 @oid o0900454
 @aka	|DUG~b×(UDU~a×TAR~a)|
@@ -3874,6 +3991,7 @@
 @sign |DUG×UH₃|
 @oid o0900455
 @list ZATU123
+@smap |DUG~b×UH₃~a|
 @form |DUG~b×UH₃~a|
 @oid o0900456
 @aka	|DUG~b+UH₃~a|
@@ -3889,6 +4007,7 @@
 
 @sign |DUG×UH₃@t|
 @oid o0900457
+@smap |DUG~b×UH₃~a@t|
 @form |DUG~b×UH₃~a@t|
 @oid o0900458
 @list U+127A2
@@ -3903,6 +4022,7 @@
 
 @sign |DUG×X|
 @oid o0900459
+@smap |DUG~b×X|
 @form |DUG~b×X|
 @oid o0900461
 @list U+127A3
@@ -3927,6 +4047,7 @@
 
 @sign |DUG×ZATU707|
 @oid o0900463
+@smap |DUG~b×ZATU707~a|
 @form |DUG~b×ZATU707~a|
 @oid o0900464
 @list U+127A4
@@ -3941,6 +4062,7 @@
 @sign |DUG×ZATU764|
 @oid o0900465
 @list ZATU124
+@smap |DUG~b×ZATU764|
 @form |DUG~b×ZATU764|
 @oid o0900466
 @list U+127A5
@@ -3955,6 +4077,7 @@
 
 @sign |DUG×ZATU779|
 @oid o0900467
+@smap |DUG~b×ZATU779|
 @form |DUG~b×ZATU779|
 @oid o0900468
 @aka	|DUG~b+ZATU779|
@@ -3970,6 +4093,7 @@
 
 @sign |DUG×ZATU780|
 @oid o0900469
+@smap |DUG~b×ZATU780|
 @form |DUG~b×ZATU780|
 @oid o0900470
 @list U+127A7
@@ -3984,6 +4108,7 @@
 
 @sign |DUG×ZATU781|
 @oid o0900471
+@smap |DUG~b×ZATU781|
 @form |DUG~b×ZATU781|
 @oid o0900472
 @aka	|DUG~b+ZATU781|
@@ -3999,6 +4124,7 @@
 
 @sign |DUG×(ZATU789.SA)|
 @oid o0900473
+@smap |DUG~b×(ZATU789.SA~a)|
 @form |DUG~b×(ZATU789.SA~a)|
 @oid o0900474
 @list U+127A9
@@ -4013,6 +4139,7 @@
 
 @sign |(DUG&DUG)×1(N58)|
 @oid o0900475
+@smap |(DUG~b~v1&DUG~b~v1)×1(N58)|
 @form |(DUG~b~v1&DUG~b~v1)×1(N58)|
 @oid o0900476
 @aka	|DUG~b&(DUG~b×1(N58))|
@@ -4028,6 +4155,7 @@
 
 @sign DUG@t
 @oid o0900477
+@smap DUG~a@t
 @form DUG~a@t
 @oid o0900478
 @list U+12774
@@ -4073,6 +4201,7 @@
 @sign DUR
 @oid o0900482
 @list ZATU126
+@smap DUR~a
 @form DUR~a
 @oid o0900483
 @list U+127C3
@@ -4110,6 +4239,7 @@
 @sign E
 @oid o0900486
 @list ZATU128
+@smap E~a
 @form E~a
 @oid o0900487
 @list U+127C6
@@ -4151,6 +4281,7 @@
 @sign E₂
 @oid o0900492
 @list ZATU129
+@smap E₂~a
 @form E₂~a
 @oid o0900493
 @list U+127CA
@@ -4194,6 +4325,7 @@
 
 @sign |E₂.LIŠ|
 @oid o0900497
+@smap |E₂~a.LIŠ|
 @form |E₂~a.LIŠ|
 @oid o0900498
 @list U+127CB
@@ -4216,6 +4348,7 @@
 
 @sign |E₂×3(N57)|
 @oid o0900500
+@smap |E₂~b×3(N57)|
 @form |E₂~b×3(N57)|
 @oid o0900501
 @sys	ADD F3062 P006173 E2bx3N57.png
@@ -4226,6 +4359,7 @@
 @sign |E₂×1(N58@t)|
 @oid o0900502
 @list ZATU131
+@smap |E₂~a×1(N58@t)|
 @form |E₂~a×1(N58@t)|
 @oid o0900503
 @aka	|E₂~a×1(N58)@t|
@@ -4255,6 +4389,7 @@
 
 @sign |E₂×3(N58)|
 @oid o0900505
+@smap |E₂~a×3(N58)|
 @form |E₂~a×3(N58)|
 @oid o0900506
 @list U+127CC
@@ -4269,6 +4404,7 @@
 @sign E₃
 @oid o0900507
 @list ZATU132
+@smap E₃~a
 @form E₃~a
 @oid o0900508
 @aka	|DU.UD|
@@ -4305,6 +4441,7 @@
 @sign EN
 @oid o0900512
 @list ZATU134
+@smap EN~a
 @form EN~a
 @oid o0900513
 @list U+127D6
@@ -4394,6 +4531,7 @@
 
 @sign |EN&EN|
 @oid o0900522
+@smap |EN~c&EN~c|
 @form |EN~c&EN~c|
 @oid o0900523
 @list U+127DE
@@ -4408,6 +4546,7 @@
 @sign EN@g
 @oid o0900524
 @list ZATU137
+@smap EN@g~a
 @form EN@g~a
 @oid o0900525
 @list U+127E1
@@ -4430,6 +4569,7 @@
 
 @sign EN@t
 @oid o0900527
+@smap EN~b@t
 @form EN~b@t
 @oid o0900528
 @list U+127DB
@@ -4454,6 +4594,7 @@
 
 @sign |EN₂.E₂|
 @oid o0900530
+@smap |EN₂.E₂~a|
 @form |EN₂.E₂~a|
 @oid o0900531
 @list U+127E4
@@ -4535,6 +4676,7 @@
 @sign ERIM
 @oid o0900540
 @list ZATU143
+@smap ERIM~a
 @form ERIM~a
 @oid o0900541
 @list U+127EB
@@ -4632,6 +4774,7 @@
 @sign EZEN
 @oid o0900549
 @list ZATU150
+@smap EZEN~a
 @form EZEN~a
 @oid o0900550
 @aka	EZEM~a
@@ -4674,6 +4817,7 @@
 @sign |EZEN×EN|
 @oid o0900555
 @list ZATU151
+@smap |EZEN~a~v1×EN~a|
 @form |EZEN~a~v1×EN~a|
 @oid o0900556
 @aka	|EZEN~a×EN~a|
@@ -4698,6 +4842,7 @@
 
 @sign |EZEN×(HI.1(N57).AN)|
 @oid o0900558
+@smap |EZEN~a×(HI×1(N57).AN)|
 @form |EZEN~a×(HI×1(N57).AN)|
 @oid o0900559
 @aka	|EZEN~a×(HI.1(N57).AN)|
@@ -4713,6 +4858,7 @@
 @sign |EZEN×KAB|
 @oid o0900560
 @list ZATU152
+@smap |EZEN~a×KAB|
 @form |EZEN~a×KAB|
 @oid o0900561
 @list U+127F6
@@ -4726,6 +4872,7 @@
 
 @sign |EZEN×KAŠ|
 @oid o0900562
+@smap |EZEN~a×KAŠ~b|
 @form |EZEN~a×KAŠ~b|
 @oid o0900563
 @sys	ADD F3036 CUSAS01_188 EZENxKASH.png
@@ -4735,6 +4882,7 @@
 
 @sign |EZEN×KI|
 @oid o0900564
+@smap |EZEN~a×KI|
 @form |EZEN~a×KI|
 @oid o0900565
 @aka	|EZEN~a+KI|
@@ -4749,6 +4897,7 @@
 
 @sign |EZEN×LA|
 @oid o0900566
+@smap |EZEN~a×LA~e|~v1
 @form |EZEN~a×LA~e|~v1
 @oid o0900568
 @list U+127F8
@@ -4763,6 +4912,7 @@
 @sign |EZEN×6(N57)|
 @oid o0900569
 @note PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
+@smap |EZEN~b×6(N57)|~v1
 @form	|EZEN~b×6(N57)|~v1
 @oid o0900570
 @list U+12804
@@ -4777,6 +4927,7 @@
 @sign |EZEN×NIM|
 @oid o0900572
 @list ZATU153
+@smap |EZEN~a×NIM~b2|
 @form |EZEN~a×NIM~b2|
 @oid o0900573
 @list U+127F9
@@ -4791,6 +4942,7 @@
 @sign |EZEN×NIMGIR|
 @oid o0900574
 @list ZATU154
+@smap |EZEN~a×NIMGIR|
 @form |EZEN~a×NIMGIR|
 @oid o0900575
 @list U+127FA
@@ -4805,6 +4957,7 @@
 @sign |EZEN×RAD|
 @oid o0900576
 @list ZATU155
+@smap |EZEN~a×RAD~a|
 @form |EZEN~a×RAD~a|
 @oid o0900577
 @list U+127FB
@@ -4818,6 +4971,7 @@
 
 @sign |EZEN×SAG|
 @oid o0900578
+@smap |EZEN~a×SAG~v1|
 @form |EZEN~a×SAG~v1|
 @oid o0900579
 @aka	|EZEN~a×SAG|
@@ -4833,6 +4987,7 @@
 @sign |EZEN×SU|
 @oid o0900580
 @list ZATU156
+@smap |EZEN~a×SU~a|
 @form |EZEN~a×SU~a|
 @oid o0900581
 @list U+127FD
@@ -4848,6 +5003,7 @@
 @sign |EZEN×(U₂.A)|
 @oid o0900582
 @list ZATU157
+@smap |EZEN~a×(U₂~b.A)|
 @form |EZEN~a×(U₂~b.A)|
 @oid o0900583
 @list U+127FE
@@ -4861,6 +5017,7 @@
 
 @sign |EZEN×U₄|
 @oid o0900584
+@smap |EZEN~a×U₄|
 @form |EZEN~a×U₄|
 @oid o0900585
 @list U+127FF
@@ -4874,6 +5031,7 @@
 
 @sign |EZEN×X|
 @oid o0900586
+@smap |EZEN~a×X|
 @form |EZEN~a×X|
 @oid o0900587
 @list U+12800
@@ -4887,6 +5045,7 @@
 
 @sign |EZEN×X₁|
 @oid o0900588
+@smap |EZEN~a×X₁|
 @form |EZEN~a×X₁|
 @oid o0900589
 @list BAU303
@@ -4896,6 +5055,7 @@
 
 @sign EZEN@t
 @oid o0900591
+@smap EZEN~b@t
 @form EZEN~b@t
 @oid o0900592
 @list U+12805
@@ -4910,6 +5070,7 @@
 @sign EZINU
 @oid o0900593
 @list ZATU158
+@smap EZINU~a
 @form EZINU~a
 @oid o0900594
 @list U+12806
@@ -4953,6 +5114,7 @@
 @sign GA
 @oid o0900598
 @list ZATU159
+@smap GA~a
 @form GA~a
 @oid o0900599
 @list U+1280A
@@ -5026,6 +5188,7 @@
 @sign |GA.ZATU753|
 @oid o0900606
 @list ZATU161
+@smap |GA~a~v1.ZATU753|
 @form |GA~a~v1.ZATU753|
 @oid o0900607
 @aka	|GA~a.ZATU753|
@@ -5050,6 +5213,7 @@
 
 @sign |GA×KASKAL|
 @oid o0900609
+@smap |GA~c×KASKAL|
 @form |GA~c×KASKAL|
 @oid o0900610
 @list U+12813
@@ -5064,6 +5228,7 @@
 @sign |GA×1(N14)|
 @oid o0900611
 @list ZATU160
+@smap |GA~c×1(N14)|
 @form |GA~c×1(N14)|
 @oid o0900612
 @list U+12814
@@ -5079,6 +5244,7 @@
 @sign GA₂
 @oid o0900615
 @list ZATU162
+@smap GA₂~a1
 @form GA₂~a1
 @oid o0900616
 @aka	GA₂
@@ -5142,6 +5308,7 @@
 
 @sign |GA₂×A|
 @oid o0900622
+@smap |GA₂~a1×A|
 @form |GA₂~a1×A|
 @oid o0900623
 @aka	|GA₂~a1+A|
@@ -5158,6 +5325,7 @@
 @sign |GA₂×DUB|
 @oid o0900624
 @list ZATU166
+@smap |GA₂~b×DUB~a|
 @form |GA₂~b×DUB~a|
 @oid o0900625
 @aka	|GA₂~b+DUB~a|
@@ -5183,6 +5351,7 @@
 
 @sign |GA₂×E₂|
 @oid o0900627
+@smap |GA₂~a1×E₂~a|
 @form |GA₂~a1×E₂~a|
 @oid o0900628
 @aka	|GA₂~a×E₂~a|
@@ -5193,6 +5362,7 @@
 
 @sign |GA₂×EN|
 @oid o0900629
+@smap |GA₂~a1×EN~a|
 @form |GA₂~a1×EN~a|
 @oid o0900630
 @sys	ADD F3037 P006065 GA2xENa.png
@@ -5212,6 +5382,7 @@
 
 @sign |GA₂×GEŠTU|
 @oid o0900632
+@smap |GA₂~a1×GEŠTU~a|
 @form |GA₂~a1×GEŠTU~a|
 @oid o0900633
 @sys	ADD F306B CUSAS01 GA2a1xGESZTUa.png
@@ -5240,6 +5411,7 @@
 @sign |GA₂×GIR|
 @oid o0900636
 @list ZATU167
+@smap |GA₂~a1×GIR~a|
 @form |GA₂~a1×GIR~a|
 @oid o0900637
 @list U+1281A
@@ -5253,6 +5425,7 @@
 
 @sign |GA₂×(GIR.KU₆)|
 @oid o0900638
+@smap |GA₂~a1×(GIR~a.KU₆~a)|
 @form |GA₂~a1×(GIR~a.KU₆~a)|
 @oid o0900639
 @list U+1281B
@@ -5267,6 +5440,7 @@
 @sign |GA₂×GIŠ@t|
 @oid o0900640
 @list ZATU168
+@smap |GA₂~a1×GIŠ@t|
 @form |GA₂~a1×GIŠ@t|
 @oid o0900641
 @list U+1281C
@@ -5281,6 +5455,7 @@
 
 @sign |GA₂×GU₄|
 @oid o0900642
+@smap |GA₂~a2×GU₄|
 @form |GA₂~a2×GU₄|
 @oid o0900644
 @list U+12837
@@ -5295,6 +5470,7 @@
 @sign |GA₂×(GU₄.ŠE₃)|
 @oid o0900645
 @list ZATU169
+@smap |GA₂~a2×(ŠE₃~v1.GU₄)|
 @form |GA₂~a2×(ŠE₃~v1.GU₄)|
 @oid o0900646
 @aka	|GA₂~a2×(GU₄.ŠE₃)|
@@ -5309,6 +5485,7 @@
 
 @sign |GA₂×HAL|
 @oid o0900647
+@smap |GA₂~a1×HAL|
 @form |GA₂~a1×HAL|
 @oid o0900648
 @list U+1281D
@@ -5324,6 +5501,7 @@
 @sign |GA₂×HI|
 @oid o0900649
 @list ZATU170
+@smap |GA₂~a1×HI|
 @form |GA₂~a1×HI|
 @oid o0900650
 @aka	|GA₂~a1+HI|
@@ -5340,6 +5518,7 @@
 @sign |GA₂×(HI.SUHUR)|
 @oid o0900651
 @list ZATU171
+@smap |GA₂~a1×(HI.SUHUR~v1)|
 @form |GA₂~a1×(HI.SUHUR~v1)|
 @oid o0900652
 @list U+1281F
@@ -5354,6 +5533,7 @@
 @sign |GA₂×KU₃|
 @oid o0900653
 @list ZATU172
+@smap |GA₂~a1×KU₃~a|
 @form |GA₂~a1×KU₃~a|
 @oid o0900654
 @list U+12820
@@ -5378,6 +5558,7 @@
 @sign |GA₂×KU₆|
 @oid o0900656
 @list ZATU173
+@smap |GA₂~a1×KU₆~a|
 @form |GA₂~a1×KU₆~a|
 @oid o0900657
 @aka	|GA₂~a1+KU₆~a|
@@ -5399,6 +5580,7 @@
 @sign |GA₂×(KU₆.KU₆)|
 @oid o0900659
 @list ZATU174
+@smap |GA₂~a1×(KU₆~a.KU₆~a)|
 @form |GA₂~a1×(KU₆~a.KU₆~a)|
 @oid o0900660
 @list U+12822
@@ -5412,6 +5594,7 @@
 
 @sign |GA₂×LAGAB|
 @oid o0900661
+@smap |GA₂~a1×LAGAB~b|
 @form |GA₂~a1×LAGAB~b|
 @oid o0900662
 @list U+12823
@@ -5426,6 +5609,7 @@
 @sign |GA₂×MAŠ|
 @oid o0900663
 @list ZATU176
+@smap |GA₂~a1×MAŠ|
 @form |GA₂~a1×MAŠ|
 @oid o0900664
 @list U+12824
@@ -5441,6 +5625,7 @@
 @sign |GA₂×1(N14)|
 @oid o0900665
 @list ZATU182
+@smap |GA₂~a1×1(N14)|
 @form |GA₂~a1×1(N14)|
 @oid o0900666
 @list U+12833
@@ -5455,6 +5640,7 @@
 @sign |GA₂×1(N57)|
 @oid o0900667
 @list ZATU164
+@smap |GA₂~a1×1(N57)|
 @form |GA₂~a1×1(N57)|
 @oid o0900668
 @list U+12834
@@ -5468,6 +5654,7 @@
 
 @sign |GA₂×3(N57)|
 @oid o0900669
+@smap |GA₂~a1×3(N57)|
 @form |GA₂~a1×3(N57)|
 @oid o0900670
 @aka	|GA₂~a1×3(N57)|
@@ -5488,6 +5675,7 @@
 @sign |GA₂×(1(N58).BAD)|
 @oid o0900672
 @list ZATU165
+@smap |GA₂~b×(1(N58).BAD)|
 @form |GA₂~b×(1(N58).BAD)|
 @oid o0900673
 @list BAU328
@@ -5497,6 +5685,7 @@
 @sign |GA₂×NAGA|
 @oid o0900674
 @list ZATU177
+@smap |GA₂~a1×NAGA~a|
 @form |GA₂~a1×NAGA~a|
 @oid o0900675
 @list U+12825
@@ -5511,6 +5700,7 @@
 @sign |GA₂×NI|
 @oid o0900676
 @list ZATU178
+@smap |GA₂~a2×NI~a|
 @form |GA₂~a2×NI~a|
 @oid o0900677
 @list U+12838
@@ -5533,6 +5723,7 @@
 
 @sign |GA₂×NIM|
 @oid o0900679
+@smap |GA₂~a1×NIM~b1|
 @form |GA₂~a1×NIM~b1|
 @oid o0900680
 @aka	|GA₂~a2×NIM~b1|
@@ -5548,6 +5739,7 @@
 
 @sign |GA₂×NUN|
 @oid o0900681
+@smap |GA₂~b×NUN~b|
 @form |GA₂~b×NUN~b|
 @oid o0900683
 @sys	ADD F306D P252182 GA2bxNUN.png
@@ -5557,6 +5749,7 @@
 
 @sign |GA₂×PAD|
 @oid o0900684
+@smap |GA₂~a1×PAD~b|
 @form |GA₂~a1×PAD~b|
 @oid o0900685
 @list U+12827
@@ -5570,6 +5763,7 @@
 
 @sign |GA₂×PAP|
 @oid o0900686
+@smap |GA₂~a1×PAP~a|
 @form |GA₂~a1×PAP~a|
 @oid o0900687
 @list U+12828
@@ -5584,6 +5778,7 @@
 
 @sign |GA₂×SU|
 @oid o0900688
+@smap |GA₂~a1×SU~a|
 @form |GA₂~a1×SU~a|
 @oid o0900689
 @list U+12829
@@ -5598,6 +5793,7 @@
 @sign |GA₂×SUHUR|
 @oid o0900690
 @list ZATU179
+@smap |GA₂~a1×SUHUR|
 @form |GA₂~a1×SUHUR|
 @oid o0900691
 @aka	|GA₂~a1+SUHUR|
@@ -5623,6 +5819,7 @@
 @sign |GA₂×SUKUD|
 @oid o0900693
 @list ZATU180
+@smap |GA₂~a1×SUKUD|
 @form |GA₂~a1×SUKUD|
 @oid o0900694
 @list U+1282B
@@ -5636,6 +5833,7 @@
 
 @sign |GA₂×((SUKUD+SUKUD))|
 @oid o0900695
+@smap |GA₂~a1×((SUKUD+SUKUD)~a)|
 @form |GA₂~a1×((SUKUD+SUKUD)~a)|
 @oid o0900696
 @aka	|GA₂~a1×(SUKUD&SUKUD)~a|
@@ -5663,6 +5861,7 @@
 @sign |GA₂×SUMAŠ|
 @oid o0900698
 @list ZATU181
+@smap |GA₂~a1×SUMAŠ|
 @form |GA₂~a1×SUMAŠ|
 @oid o0900699
 @list U+1282E
@@ -5676,6 +5875,7 @@
 
 @sign |GA₂×ŠA|
 @oid o0900700
+@smap |GA₂~a1×ŠA|
 @form |GA₂~a1×ŠA|
 @oid o0900701
 @list U+1282F
@@ -5689,6 +5889,7 @@
 
 @sign |GA₂×ŠE₃|
 @oid o0900702
+@smap |GA₂~a2×ŠE₃~v1|
 @form |GA₂~a2×ŠE₃~v1|
 @oid o0900703
 @aka	|GA₂~a2×ŠE₃|
@@ -5703,6 +5904,7 @@
 
 @sign |GA₂×TI|
 @oid o0900704
+@smap |GA₂~a1×TI|
 @form |GA₂~a1×TI|
 @oid o0900705
 @list U+12830
@@ -5718,6 +5920,7 @@
 @sign |GA₂×U₄|
 @oid o0900706
 @list ZATU183
+@smap |GA₂~a1×U₄|
 @form |GA₂~a1×U₄|
 @oid o0900707
 @list U+12831
@@ -5732,6 +5935,7 @@
 
 @sign |GA₂×X|
 @oid o0900708
+@smap |GA₂~a1×X|
 @form |GA₂~a1×X|
 @oid o0900709
 @list U+12832
@@ -5772,6 +5976,7 @@
 
 @sign |GA₂×ZATU659|
 @oid o0900714
+@smap |GA₂~b×ZATU659|
 @form |GA₂~b×ZATU659|
 @oid o0900715
 @list U+12845
@@ -5785,6 +5990,7 @@
 
 @sign |GA₂×ZATU694|
 @oid o0900716
+@smap |GA₂~b×ZATU694~c|
 @form |GA₂~b×ZATU694~c|
 @oid o0900717
 @sys	ADD F3038 P325755 GA2xZATU694.png
@@ -5794,6 +6000,7 @@
 @sign GAʾAR
 @oid o0900718
 @list ZATU184
+@smap GAʾAR~a1
 @form GAʾAR~a1
 @oid o0900719
 @aka	GAʾAR
@@ -5838,6 +6045,7 @@
 @sign GADA
 @oid o0900723
 @list ZATU186
+@smap GADA~a
 @form GADA~a
 @oid o0900724
 @list U+1284B
@@ -5864,6 +6072,7 @@
 @sign GADA@g
 @oid o0900726
 @list ZATU187
+@smap GADA~b@g
 @form GADA~b@g
 @oid o0900727
 @list U+1284D
@@ -5878,6 +6087,7 @@
 @sign GAL
 @oid o0900728
 @list ZATU188
+@smap GAL~a
 @form GAL~a
 @oid o0900729
 @list U+1284E
@@ -5904,6 +6114,7 @@
 @sign GALGA
 @oid o0900731
 @list ZATU189
+@smap GALGA~a
 @form GALGA~a
 @oid o0900732
 @list U+12850
@@ -5929,6 +6140,7 @@
 @sign GAN
 @oid o0900735
 @list ZATU190
+@smap GAN~a
 @form GAN~a
 @oid o0900736
 @list U+12852
@@ -6014,6 +6226,7 @@
 
 @sign |GAN×DIN|
 @oid o0900746
+@smap |GAN~c×DIN|
 @form |GAN~c×DIN|
 @oid o0900747
 @list U+12859
@@ -6027,6 +6240,7 @@
 
 @sign |GAN×GEŠTU|
 @oid o0900748
+@smap |GAN~d×GEŠTU~a~v2|
 @form |GAN~d×GEŠTU~a~v2|
 @oid o0900749
 @aka	|GAN~d×GEŠTU~a|
@@ -6041,6 +6255,7 @@
 
 @sign |GAN×HI|
 @oid o0900750
+@smap |GAN~c×HI|
 @form |GAN~c×HI|
 @oid o0900751
 @list U+1285A
@@ -6055,6 +6270,7 @@
 @sign |GAN×(HI.DIN)|
 @oid o0900754
 @list ZATU191
+@smap |GAN~c×(HI.DIN)|
 @form |GAN~c×(HI.DIN)|
 @oid o0900755
 @list U+1285B
@@ -6068,6 +6284,7 @@
 
 @sign |GAN×KAŠ|
 @oid o0900756
+@smap |GAN~c~v1×KAŠ~c|
 @form |GAN~c~v1×KAŠ~c|
 @oid o0900757
 @aka	|GAN~c×KAŠ~c|
@@ -6082,6 +6299,7 @@
 
 @sign |GAN×(KUR.A)|
 @oid o0900758
+@smap |GAN~c~v1×(KUR~a.A)|
 @form |GAN~c~v1×(KUR~a.A)|
 @oid o0900759
 @aka	|GAN~c×(KUR~a.A)|
@@ -6097,6 +6315,7 @@
 @sign |GAN×LAGAB|
 @oid o0900760
 @list ZATU192
+@smap |GAN~c×LAGAB~b|
 @form |GAN~c×LAGAB~b|
 @oid o0900761
 @list U+1285C
@@ -6110,6 +6329,7 @@
 
 @sign |GAN×(4(N57).GAR)|
 @oid o0900762
+@smap |GAN~c×(4(N57).GAR)|
 @form |GAN~c×(4(N57).GAR)|
 @oid o0900763
 @aka	|GAN~c×4(N57).GAR|
@@ -6121,6 +6341,7 @@
 @sign |GAN×NE|
 @oid o0900764
 @list ZATU193
+@smap |GAN~c×NE~a|
 @form |GAN~c×NE~a|
 @oid o0900765
 @list U+1285D
@@ -6134,6 +6355,7 @@
 
 @sign |GAN×SIG₇|
 @oid o0900766
+@smap |GAN~c×SIG₇|
 @form |GAN~c×SIG₇|
 @oid o0900767
 @list U+1285E
@@ -6148,6 +6370,7 @@
 @sign |GAN×ŠE|
 @oid o0900768
 @list ZATU194
+@smap |GAN~c~v2×ŠE~a|
 @form	|GAN~c~v2×ŠE~a|
 @oid o0900769
 @aka	|GAN~c×ŠE~a|
@@ -6162,6 +6385,7 @@
 
 @sign |GAN×ŠE₃@t|
 @oid o0900770
+@smap |GAN~c~v2×ŠE₃@t~v1|
 @form	|GAN~c~v2×ŠE₃@t~v1|
 @oid o0900771
 @aka	|GAN~c×ŠE₃@t|
@@ -6177,6 +6401,7 @@
 
 @sign |GAN×X|
 @oid o0900772
+@smap |GAN~c×X|
 @form |GAN~c×X|
 @oid o0900773
 @list U+1285F
@@ -6190,6 +6415,7 @@
 
 @sign |GAN×ZATU777|
 @oid o0900774
+@smap |GAN~c~v1×ZATU777~v1|
 @form |GAN~c~v1×ZATU777~v1|
 @oid o0900775
 @aka	|GAN~c×ZATU777|
@@ -6231,6 +6457,7 @@
 @sign GAR@g
 @oid o0900780
 @list ZATU197
+@smap GAR@g~a
 @form GAR@g~a
 @oid o0900781
 @list U+12869
@@ -6277,6 +6504,7 @@
 @sign GARA₂
 @oid o0900785
 @list ZATU199
+@smap GARA₂~a
 @form GARA₂~a
 @oid o0900786
 @list U+1286D
@@ -6314,6 +6542,7 @@
 @sign GEŠTIN
 @oid o0900789
 @list ZATU202
+@smap GEŠTIN~a
 @form GEŠTIN~a
 @oid o0900790
 @list U+12870
@@ -6339,6 +6568,7 @@
 @sign GEŠTU
 @oid o0900796
 @list ZATU203
+@smap GEŠTU~a
 @form GEŠTU~a
 @oid o0900797
 @list U+12871
@@ -6451,6 +6681,7 @@
 
 @sign |GI×KU|
 @oid o0900811
+@smap |GI×KU~b1|
 @form |GI×KU~b1|
 @oid o0900812
 @list U+12879
@@ -6465,6 +6696,7 @@
 @sign |GI×LAGAB|
 @oid o0900813
 @list ZATU208
+@smap |GI~v1×LAGAB~a|
 @form |GI~v1×LAGAB~a|
 @oid o0900814
 @aka	|GI×LAGAB~a|
@@ -6513,6 +6745,7 @@
 
 @sign |GI×SIG₂|
 @oid o0900818
+@smap |GI×SIG₂~d1|
 @form |GI×SIG₂~d1|
 @oid o0900819
 @list U+1287B
@@ -6615,6 +6848,7 @@
 @sign GI₄
 @oid o0900828
 @list ZATU212
+@smap GI₄~a
 @form GI₄~a
 @oid o0900829
 @list U+12889
@@ -6642,6 +6876,7 @@
 
 @sign |GI₄×A|
 @oid o0900831
+@smap |GI₄~a×A|
 @form |GI₄~a×A|
 @oid o0900832
 @list U+1288A
@@ -6655,6 +6890,7 @@
 
 @sign |GI₄&GI₄|
 @oid o0900833
+@smap |GI₄~a&GI₄~a|
 @form |GI₄~a&GI₄~a|
 @oid o0900834
 @list U+1288B
@@ -6737,6 +6973,7 @@
 @sign GIR
 @oid o0900844
 @list ZATU216
+@smap GIR~a
 @form GIR~a
 @oid o0900845
 @list U+12893
@@ -6790,6 +7027,7 @@
 
 @sign |GIR.GIR|
 @oid o0900850
+@smap |GIR~b~v1.GIR~b~v1|
 @form |GIR~b~v1.GIR~b~v1|
 @oid o0900851
 @aka	|GIR~b.GIR~b|
@@ -6805,6 +7043,7 @@
 
 @sign |GIR.KU₆|
 @oid o0900852
+@smap |GIR~a.KU₆~a|
 @form |GIR~a.KU₆~a|
 @oid o0900853
 @list U+12894
@@ -6819,6 +7058,7 @@
 @sign GIR₂
 @oid o0900854
 @list ZATU218
+@smap GIR₂~a
 @form GIR₂~a
 @oid o0900855
 @list U+1289A
@@ -6846,6 +7086,7 @@
 
 @sign GIR₃
 @oid o0900857
+@smap GIR₃~a
 @form GIR₃~a
 @oid o0900858
 @list U+1289C
@@ -6879,6 +7120,7 @@
 
 @sign |GIR₃×KAR₂|
 @oid o0900861
+@smap |GIR₃~c×KAR₂~b|
 @form |GIR₃~c×KAR₂~b|
 @oid o0900862
 @aka	|GIR₃~c×KAR₂|
@@ -6895,6 +7137,7 @@
 @sign |GIR₃×ŠE|
 @oid o0900863
 @list ZATU220
+@smap |GIR₃~a×ŠE~b|
 @form |GIR₃~a×ŠE~b|
 @oid o0900864
 @list U+1289D
@@ -6908,6 +7151,7 @@
 
 @sign |GIR₃×ŠE₃|
 @oid o0900865
+@smap |GIR₃~c×ŠE₃~v1|
 @form |GIR₃~c×ŠE₃~v1|
 @oid o0900866
 @aka	|GIR₃~c×ŠE₃|
@@ -6924,6 +7168,7 @@
 @sign GIR₃@g
 @oid o0900868
 @list ZATU221
+@smap GIR₃@g~a
 @form GIR₃@g~a
 @oid o0900869
 @list U+128A2
@@ -6958,6 +7203,7 @@
 @sign GISAL
 @oid o0900872
 @list ZATU222
+@smap GISAL~a
 @form GISAL~a
 @oid o0900873
 @list U+128A5
@@ -7005,6 +7251,7 @@
 @sign |GIŠ×(DIN.DIN)|
 @oid o0900878
 @list ZATU224
+@smap |(GIŠ×(DIN.DIN))~a|
 @form |(GIŠ×(DIN.DIN))~a|
 @oid o0900879
 @list U+128A9
@@ -7038,6 +7285,7 @@
 @sign |GIŠ×ŠU₂|
 @oid o0900882
 @list ZATU225
+@smap |GIŠ×ŠU₂~a|
 @form |GIŠ×ŠU₂~a|
 @oid o0900883
 @aka	|GIŠ+ŠU₂~a|
@@ -7077,6 +7325,7 @@
 
 @sign GIŠ₃
 @oid o0900888
+@smap GIŠ₃~a
 @form GIŠ₃~a
 @oid o0900889
 @list U+128AF
@@ -7100,6 +7349,7 @@
 
 @sign |GIŠ₃&GIŠ₃|
 @oid o0900891
+@smap |GIŠ₃~a&GIŠ₃~a|
 @form |GIŠ₃~a&GIŠ₃~a|
 @oid o0900892
 @list U+128B0
@@ -7136,6 +7386,7 @@
 @sign GIŠIMMAR
 @oid o0900895
 @list ZATU230
+@smap GIŠIMMAR~a1
 @form GIŠIMMAR~a1
 @oid o0900896
 @aka	GIŠIMMAR
@@ -7215,6 +7466,7 @@
 
 @sign GIZZAL
 @oid o0900904
+@smap GIZZAL~v
 @form GIZZAL~v
 @oid o0900905
 @aka	GIZZAL~x
@@ -7281,6 +7533,7 @@
 
 @sign |GU₄.ZATU755|
 @oid o0900910
+@smap |GU₄.ZATU755~b|
 @form |GU₄.ZATU755~b|
 @oid o0900911
 @aka	|GU₄.ZATU755~a|
@@ -7327,6 +7580,7 @@
 @sign GUB₃
 @oid o0900915
 @list ZATU236
+@smap GUB₃~a
 @form GUB₃~a
 @oid o0900916
 @list U+128C4
@@ -7395,6 +7649,7 @@
 @sign |GUG₂×SILA₃|
 @oid o0900922
 @list ZATU238
+@smap |GUG₂~v1×SILA₃~a|
 @form |GUG₂~v1×SILA₃~a|
 @oid o0900923
 @aka	|GUG₂×SILA₃~a|
@@ -7409,6 +7664,7 @@
 
 @sign |GUG₂×ŠITA|
 @oid o0900924
+@smap |GUG₂~v1×ŠITA~a1|
 @form |GUG₂~v1×ŠITA~a1|
 @oid o0900925
 @aka	|GUG₂×ŠITA~a1|
@@ -7442,6 +7698,7 @@
 @oid o0900928
 @list BAU274
 @list ZATU240
+@smap GUKKAL~a
 @form GUKKAL~a
 @oid o0900929
 @list U+128CD
@@ -7484,6 +7741,7 @@
 @sign |GUKKAL.HI@g|
 @oid o0900933
 @list ZATU241
+@smap |GUKKAL~a.HI@g~a|
 @form |GUKKAL~a.HI@g~a|
 @oid o0900934
 @list U+128CE
@@ -7511,6 +7769,7 @@
 @sign GUM
 @oid o0900936
 @list ZATU243
+@smap GUM~a
 @form GUM~a
 @oid o0900937
 @list U+128D3
@@ -7544,6 +7803,7 @@
 @sign GUM@n
 @oid o0900940
 @list ZATU244
+@smap GUM~b@n
 @form GUM~b@n
 @oid o0900941
 @aka	GUM@n~b
@@ -7569,6 +7829,7 @@
 @sign GUN₃
 @oid o0900943
 @list ZATU245
+@smap GUN₃~a
 @form GUN₃~a
 @oid o0900944
 @list U+128D8
@@ -7606,6 +7867,7 @@
 @sign GURUŠ
 @oid o0900947
 @list ZATU247
+@smap GURUŠ~a
 @form GURUŠ~a
 @oid o0900948
 @list U+128DB
@@ -7641,6 +7903,7 @@
 @sign |GURUŠ×2(N14)|
 @oid o0900951
 @list ZATU248
+@smap |GURUŠ~a×2(N14)|
 @form |GURUŠ~a×2(N14)|
 @oid o0900952
 @list U+128DC
@@ -7791,6 +8054,7 @@
 
 @sign |HI×LAGAB|
 @oid o0900965
+@smap |HI×LAGAB~a|
 @form |HI×LAGAB~a|
 @oid o0900966
 @list U+128EA
@@ -7852,6 +8116,7 @@
 @sign |HI×ZATU707|
 @oid o0900973
 @list ZATU257
+@smap |HI×ZATU707~a|
 @form |HI×ZATU707~a|
 @oid o0900974
 @list U+128EB
@@ -7866,6 +8131,7 @@
 @sign HI@g
 @oid o0900975
 @list ZATU258
+@smap HI@g~a
 @form HI@g~a
 @oid o0900976
 @list U+128F0
@@ -7912,6 +8178,7 @@
 @sign IB
 @oid o0900982
 @list ZATU260
+@smap IB~a
 @form IB~a
 @oid o0900983
 @list U+128F4
@@ -7943,6 +8210,7 @@
 
 @sign IB@n
 @oid o0900986
+@smap IB~a@n
 @form IB~a@n
 @oid o0900987
 @list U+128F5
@@ -7977,6 +8245,7 @@
 
 @sign IG
 @oid o0900990
+@smap IG~a
 @form IG~a
 @oid o0900991
 @list U+128F9
@@ -8012,6 +8281,7 @@
 @sign ILDUM
 @oid o0900996
 @list ZATU263
+@smap ILDUM~a
 @form ILDUM~a
 @oid o0900997
 @list U+128FC
@@ -8036,6 +8306,7 @@
 @sign IM
 @oid o0900999
 @list ZATU264
+@smap IM~a
 @form IM~a
 @oid o0901000
 @list U+128FE
@@ -8062,6 +8333,7 @@
 @sign IN
 @oid o0901004
 @list ZATU265
+@smap IN~b
 @form IN~b
 @oid o0901005
 @aka	IN
@@ -8097,6 +8369,7 @@
 @sign IR
 @oid o0901008
 @list ZATU267
+@smap IR~a
 @form IR~a
 @oid o0901009
 @list U+12903
@@ -8140,6 +8413,7 @@
 
 @sign |IR.GA₂|
 @oid o0901013
+@smap |IR~a.GA₂~a1|
 @form |IR~a.GA₂~a1|
 @oid o0901014
 @list U+12904
@@ -8195,6 +8469,7 @@
 @sign IŠ
 @oid o0901019
 @list ZATU270
+@smap IŠ~a
 @form IŠ~a
 @oid o0901020
 @list U+1290B
@@ -8286,6 +8561,7 @@
 @sign KA
 @oid o0901029
 @list ZATU271
+@smap KA~a
 @form KA~a
 @oid o0901030
 @list U+12914
@@ -8306,6 +8582,7 @@
 @sign |KA.ŠE|
 @oid o0901031
 @list ZATU274
+@smap |KA~a~v2.ŠE~a@t|
 @form |KA~a~v2.ŠE~a@t|
 @oid o0901032
 @aka	|KA~a.ŠE~a|
@@ -8331,6 +8608,7 @@
 @sign |KA×SAR|
 @oid o0901035
 @list ZATU273
+@smap |KA~a×SAR~a|
 @form |KA~a×SAR~a|
 @oid o0901036
 @aka	|KA~a+SAR~a|
@@ -8347,6 +8625,7 @@
 @sign KA₂
 @oid o0901037
 @list ZATU275
+@smap KA₂~a
 @form KA₂~a
 @oid o0901038
 @list U+12918
@@ -8380,6 +8659,7 @@
 @sign |KA₂×LAM|
 @oid o0901042
 @aka	|KA₂+LAM|
+@smap |KA₂~d×LAM~b~v2|
 @form |KA₂~d×LAM~b~v2|
 @oid o0901043
 @list U+1291B
@@ -8423,6 +8703,7 @@
 @sign KAD₄
 @oid o0901046
 @list ZATU279
+@smap KAD₄~a
 @form KAD₄~a
 @oid o0901047
 @list U+1291E
@@ -8466,6 +8747,7 @@
 @sign KAK
 @oid o0901051
 @list ZATU280
+@smap KAK~a
 @form KAK~a
 @oid o0901052
 @list U+12922
@@ -8490,6 +8772,7 @@
 
 @sign |KAK.GA₂|
 @oid o0901054
+@smap |KAK~a.GA₂~a1|
 @form |KAK~a.GA₂~a1|
 @oid o0901055
 @list U+12923
@@ -8505,6 +8788,7 @@
 @sign KAL
 @oid o0901056
 @list ZATU281
+@smap KAL~a
 @form KAL~a
 @oid o0901057
 @list U+12925
@@ -8551,6 +8835,7 @@
 @sign KALAM
 @oid o0901061
 @list ZATU282
+@smap KALAM~a
 @form KALAM~a
 @oid o0901062
 @list U+12929
@@ -8639,6 +8924,7 @@
 @sign KAR₂
 @oid o0901072
 @list ZATU284
+@smap KAR₂~a
 @form KAR₂~a
 @oid o0901073
 @list U+12930
@@ -8691,6 +8977,7 @@
 @sign KAŠ
 @oid o0901077
 @list ZATU286
+@smap KAŠ~a
 @form KAŠ~a
 @oid o0901078
 @list U+12934
@@ -8762,6 +9049,7 @@
 @sign |KAŠ×ŠE|
 @oid o0901085
 @list ZATU288
+@smap |KAŠ~b~v1×ŠE~a@t~v1|
 @form |KAŠ~b~v1×ŠE~a@t~v1|
 @oid o0901086
 @aka	|KAŠ~b×ŠE~a|
@@ -8776,6 +9064,7 @@
 
 @sign KAŠ@t
 @oid o0901087
+@smap KAŠ~b@t
 @form KAŠ~b@t
 @oid o0901088
 @list U+12937
@@ -8814,6 +9103,7 @@
 @sign |KI@n×DUB|
 @oid o0901092
 @list ZATU567
+@smap |KI@n×DUB~a|
 @form |KI@n×DUB~a|
 @oid o0901093
 @aka	|KI@n+DUB~a|
@@ -8851,6 +9141,7 @@
 @sign KID
 @oid o0901096
 @list ZATU291
+@smap KID~a
 @form KID~a
 @oid o0901097
 @list U+12941
@@ -8918,6 +9209,7 @@
 @sign KIN₂
 @oid o0901103
 @list ZATU293
+@smap KIN₂~a
 @form KIN₂~a
 @oid o0901104
 @list U+12947
@@ -8996,6 +9288,7 @@
 
 @sign KISAL
 @oid o0901112
+@smap KISAL~a1
 @form KISAL~a1
 @oid o0901113
 @aka	KISAL
@@ -9056,6 +9349,7 @@
 
 @sign KISAL@t
 @oid o0901119
+@smap KISAL~b2@t
 @form KISAL~b2@t
 @oid o0901120
 @list U+12952
@@ -9070,6 +9364,7 @@
 @sign KISIM
 @oid o0901121
 @list ZATU296
+@smap KISIM~a
 @form KISIM~a
 @oid o0901122
 @list U+12954
@@ -9156,6 +9451,7 @@
 @sign KIŠIK
 @oid o0901130
 @list ZATU298
+@smap KIŠIK~a
 @form KIŠIK~a
 @oid o0901131
 @list U+1295C
@@ -9201,6 +9497,7 @@
 @sign KU
 @oid o0901135
 @list ZATU300
+@smap KU~a
 @form KU~a
 @oid o0901136
 @list U+12960
@@ -9237,6 +9534,7 @@
 @sign KU₃
 @oid o0901141
 @list ZATU301
+@smap KU₃~a
 @form KU₃~a
 @oid o0901142
 @list U+12963
@@ -9263,6 +9561,7 @@
 @sign KU₆
 @oid o0901144
 @list ZATU302
+@smap KU₆~a
 @form KU₆~a
 @oid o0901145
 @list U+12965
@@ -9296,6 +9595,7 @@
 
 @sign |KU₆.1(N02)|
 @oid o0901148
+@smap |KU₆~a.1(N02)|
 @form |KU₆~a.1(N02)|
 @oid o0901149
 @list U+12966
@@ -9309,6 +9609,7 @@
 
 @sign |KU₆+GIŠ|
 @oid o0901150
+@smap |KU₆~a+GIŠ|
 @form |KU₆~a+GIŠ|
 @oid o0901151
 @list U+12967
@@ -9324,6 +9625,7 @@
 @sign |KU₆+KU₆|
 @oid o0901152
 @list ZATU303
+@smap |KU₆~a+KU₆~a|
 @form |KU₆~a+KU₆~a|
 @oid o0901153
 @list U+12968
@@ -9339,6 +9641,7 @@
 @sign KU₆@s
 @oid o0901154
 @list ZATU446
+@smap KU₆~a@s
 @form KU₆~a@s
 @oid o0901155
 @list U+12969
@@ -9353,6 +9656,7 @@
 @sign KUR
 @oid o0901157
 @list ZATU304
+@smap KUR~a
 @form KUR~a
 @oid o0901158
 @list U+1296C
@@ -9407,6 +9711,7 @@
 @sign |KUR.E₂|
 @oid o0901163
 @list ZATU130
+@smap |KUR~a.E₂~a|
 @form |KUR~a.E₂~a|
 @oid o0901164
 @list U+1296D
@@ -9429,6 +9734,7 @@
 
 @sign |KUR.NUNUZ|
 @oid o0901166
+@smap |KUR~a.NUNUZ~a1|
 @form |KUR~a.NUNUZ~a1|
 @oid o0901167
 @list U+1296E
@@ -9442,6 +9748,7 @@
 
 @sign KUR@g
 @oid o0901168
+@smap KUR@g~a
 @form KUR@g~a
 @oid o0901169
 @aka	|LAM+KUR~a|
@@ -9467,6 +9774,7 @@
 @sign KUŠU₂
 @oid o0901171
 @list ZATU305
+@smap KUŠU₂~a
 @form KUŠU₂~a
 @oid o0901172
 @list U+12976
@@ -9532,6 +9840,7 @@
 @sign LA
 @oid o0901178
 @list ZATU306
+@smap LA~b
 @form LA~b
 @oid o0901179
 @aka	LA
@@ -9581,6 +9890,7 @@
 @sign LAGAB
 @oid o0901185
 @list ZATU308
+@smap LAGAB~a
 @form LAGAB~a
 @oid o0901186
 @aka	1(LAGAB~a)
@@ -9607,6 +9917,7 @@
 
 @sign |LAGAB.TE|
 @oid o0901188
+@smap |LAGAB~b.TE|
 @form |LAGAB~b.TE|
 @oid o0901189
 @@
@@ -9614,6 +9925,7 @@
 
 @sign |LAGAB×BA|
 @oid o0901190
+@smap |LAGAB~a×BA|
 @form |LAGAB~a×BA|
 @oid o0901191
 @list U+12981
@@ -9628,6 +9940,7 @@
 @sign |LAGAB×BANŠUR|
 @oid o0901192
 @list ZATU309
+@smap |LAGAB~b×BANŠUR~a|
 @form |LAGAB~b×BANŠUR~a|
 @oid o0901193
 @list U+12998
@@ -9641,6 +9954,7 @@
 
 @sign |LAGAB×BIR₃|
 @oid o0901194
+@smap |LAGAB~a×BIR₃~b|
 @form |LAGAB~a×BIR₃~b|
 @oid o0901195
 @list U+12982
@@ -9655,6 +9969,7 @@
 @sign |LAGAB×DU₆|
 @oid o0901196
 @list ZATU310
+@smap |LAGAB~a×DU₆~a~v1|
 @form	|LAGAB~a×DU₆~a~v1|
 @oid o0901197
 @aka	|LAGAB~a×DU₆~b|
@@ -9670,6 +9985,7 @@
 @sign |LAGAB×GAʾAR|
 @oid o0901198
 @list ZATU311
+@smap |LAGAB~b×GAʾAR~a1|
 @form |LAGAB~b×GAʾAR~a1|
 @oid o0901199
 @list U+12999
@@ -9685,6 +10001,7 @@
 @sign |LAGAB×HI|
 @oid o0901200
 @list ZATU312
+@smap |LAGAB~b×HI|
 @form |LAGAB~b×HI|
 @oid o0901201
 @list U+1299A
@@ -9698,6 +10015,7 @@
 
 @sign |LAGAB×(HI×N04)|
 @oid o0901202
+@smap |LAGAB~b×(HI×N04)|
 @form |LAGAB~b×(HI×N04)|
 @oid o0901203
 @sys	ADD F3015 P252182 LAGABxHIx1N04-photo.png
@@ -9707,6 +10025,7 @@
 
 @sign |LAGAB×KAK|
 @oid o0901204
+@smap |LAGAB~a×KAK~a|
 @form |LAGAB~a×KAK~a|
 @oid o0901205
 @list U+12984
@@ -9721,6 +10040,7 @@
 @sign |LAGAB×KU₆|
 @oid o0901206
 @list ZATU313
+@smap |LAGAB~a×KU₆~a|
 @form |LAGAB~a×KU₆~a|
 @oid o0901207
 @list U+12985
@@ -9734,6 +10054,7 @@
 
 @sign |LAGAB×(KU₆+KU₆)|
 @oid o0901208
+@smap |LAGAB~a×(KU₆~a+KU₆~a)|
 @form |LAGAB~a×(KU₆~a+KU₆~a)|
 @oid o0901209
 @list U+12986
@@ -9747,6 +10068,7 @@
 
 @sign |LAGAB×KUR|
 @oid o0901210
+@smap |LAGAB~b×KUR~e|
 @form |LAGAB~b×KUR~e|
 @oid o0901211
 @list U+1299B
@@ -9762,6 +10084,7 @@
 @sign |LAGAB×KUŠU₂|
 @oid o0901212
 @list ZATU314
+@smap |LAGAB~a×KUŠU₂~a@t|
 @form |LAGAB~a×KUŠU₂~a@t|
 @oid o0901213
 @aka	|LAGAB~a×KUŠU₂~b|
@@ -9776,6 +10099,7 @@
 
 @sign |LAGAB×LA₂|
 @oid o0901214
+@smap |LAGAB~a×LA₂~a|
 @form |LAGAB~a×LA₂~a|
 @oid o0901215
 @sys	ADD F3019 P342533 LAGABxLA2-photo.png
@@ -9785,6 +10109,7 @@
 
 @sign |LAGAB×LAGAB|
 @oid o0901216
+@smap |LAGAB~a×LAGAB~a|
 @form |LAGAB~a×LAGAB~a|
 @oid o0901217
 @list U+12988
@@ -9799,6 +10124,7 @@
 @sign |LAGAB×ME|
 @oid o0901218
 @list ZATU315
+@smap |LAGAB~a×ME~a|
 @form |LAGAB~a×ME~a|
 @oid o0901219
 @list U+12989
@@ -9814,6 +10140,7 @@
 @sign |LAGAB×2(N14)|
 @oid o0901222
 @list ZATU320
+@smap |LAGAB~a×2(N14)|
 @form |LAGAB~a×2(N14)|
 @oid o0901223
 @list U+12996
@@ -9827,6 +10154,7 @@
 
 @sign |LAGAB×1(N58)|
 @oid o0901224
+@smap |LAGAB~a×1(N58)|
 @form |LAGAB~a×1(N58)|
 @oid o0901225
 @sys	ADD F301A CUSAS21 LAGABx1N58.png
@@ -9836,6 +10164,7 @@
 
 @sign |LAGAB×NI|
 @oid o0901226
+@smap |LAGAB~a×NI~a|
 @form |LAGAB~a×NI~a|
 @oid o0901227
 @sys	ADD F3016 P274471 LAGABxNI-photo.png
@@ -9846,6 +10175,7 @@
 @sign |LAGAB×NUN|
 @oid o0901228
 @list ZATU316
+@smap |LAGAB~a×NUN~b|
 @form |LAGAB~a×NUN~b|
 @oid o0901229
 @list U+1298A
@@ -9860,6 +10190,7 @@
 @sign |LAGAB×PA|
 @oid o0901230
 @list ZATU317
+@smap |LAGAB~a×PA~a|
 @form |LAGAB~a×PA~a|
 @oid o0901231
 @list U+1298B
@@ -9882,6 +10213,7 @@
 
 @sign |LAGAB×SI|
 @oid o0901233
+@smap |LAGAB~a×SI~v1|
 @form	|LAGAB~a×SI~v1|
 @oid o0901234
 @aka	|LAGAB~a×SI|
@@ -9896,6 +10228,7 @@
 
 @sign |LAGAB×SIG₇|
 @oid o0901236
+@smap |LAGAB~a×SIG₇~v1|
 @form |LAGAB~a×SIG₇~v1|
 @oid o0901237
 @aka	|LAGAB~a×SIG₇|
@@ -9910,6 +10243,7 @@
 
 @sign |LAGAB×SU|
 @oid o0901238
+@smap |LAGAB~a×SU~a|
 @form |LAGAB~a×SU~a|
 @oid o0901239
 @list U+1298E
@@ -9923,6 +10257,7 @@
 
 @sign |LAGAB×SUH₃|
 @oid o0901240
+@smap |LAGAB~b×SUH₃|
 @form |LAGAB~b×SUH₃|
 @oid o0901241
 @list U+1299D
@@ -9937,6 +10272,7 @@
 @sign |LAGAB×ŠA|
 @oid o0901242
 @list ZATU318
+@smap |LAGAB~a×ŠA|
 @form |LAGAB~a×ŠA|
 @oid o0901243
 @aka	|LAGAB~a+ŠA|
@@ -9953,6 +10289,7 @@
 @sign |LAGAB×ŠITA|
 @oid o0901244
 @list ZATU319
+@smap |LAGAB~a×ŠITA~a1|
 @form |LAGAB~a×ŠITA~a1|
 @oid o0901245
 @aka	|LAGAB~a+ŠITA~a1|
@@ -9968,6 +10305,7 @@
 
 @sign |LAGAB×TI|
 @oid o0901247
+@smap |LAGAB~a×TI|
 @form |LAGAB~a×TI|
 @oid o0901248
 @list U+12991
@@ -9982,6 +10320,7 @@
 
 @sign |LAGAB×U₄|
 @oid o0901249
+@smap |LAGAB~a×U₄|
 @form |LAGAB~a×U₄|
 @oid o0901250
 @list U+12992
@@ -10004,6 +10343,7 @@
 
 @sign |LAGAB×UB|
 @oid o0901252
+@smap |LAGAB~a×UB|
 @form |LAGAB~a×UB|
 @oid o0901253
 @list U+12993
@@ -10017,6 +10357,7 @@
 
 @sign |LAGAB×X|
 @oid o0901254
+@smap |LAGAB~a×X|
 @form |LAGAB~a×X|
 @oid o0901255
 @list U+12994
@@ -10032,6 +10373,7 @@
 @sign |LAGAB×ZATU753|
 @oid o0901257
 @list ZATU321
+@smap |LAGAB~a×ZATU753|
 @form |LAGAB~a×ZATU753|
 @oid o0901258
 @list U+12995
@@ -10046,6 +10388,7 @@
 
 @sign |LAGAB&LAGAB|
 @oid o0901259
+@smap |LAGAB~b&LAGAB~b|
 @form |LAGAB~b&LAGAB~b|
 @oid o0901260
 @aka	|LAGAB~b+LAGAB~b|
@@ -10064,6 +10407,7 @@
 @sign LAGAR
 @oid o0901261
 @list ZATU323
+@smap LAGAR~a
 @form LAGAR~a
 @oid o0901262
 @list U+129A0
@@ -10107,6 +10451,7 @@
 
 @sign LAGAR@r
 @oid o0901266
+@smap LAGAR~a@r
 @form LAGAR~a@r
 @oid o0901267
 @list U+129A1
@@ -10133,6 +10478,7 @@
 @sign LAL₂
 @oid o0901269
 @list ZATU325
+@smap LAL₂~a
 @form LAL₂~a
 @oid o0901270
 @list U+129A6
@@ -10157,6 +10503,7 @@
 @sign |LAL₂×EZEN|
 @oid o0901272
 @list ZATU326
+@smap |LAL₂~a×EZEN~a~v1|
 @form |LAL₂~a×EZEN~a~v1|
 @oid o0901273
 @aka	|LAL₂~a×EZEN~a|
@@ -10171,6 +10518,7 @@
 
 @sign |LAL₂×NAGA|
 @oid o0901274
+@smap |LAL₂~a×NAGA~a|
 @form |LAL₂~a×NAGA~a|
 @oid o0901275
 @sys	ADD F303F CUSAS21 LAL2xNAGA.png
@@ -10180,6 +10528,7 @@
 
 @sign |LAL₂×NIM|
 @oid o0901276
+@smap |LAL₂~a×NIM~b2|
 @form |LAL₂~a×NIM~b2|
 @oid o0901277
 @list U+129A8
@@ -10194,6 +10543,7 @@
 @sign LAL₃
 @oid o0901278
 @list ZATU327
+@smap LAL₃~a
 @form LAL₃~a
 @oid o0901279
 @list U+129AA
@@ -10217,6 +10567,7 @@
 
 @sign LAM
 @oid o0901282
+@smap LAM~a
 @form LAM~a
 @oid o0901283
 @list U+129AC
@@ -10261,6 +10612,7 @@
 
 @sign LAM@r
 @oid o0901289
+@smap LAM~b@r
 @form LAM~b@r
 @oid o0901290
 @list U+129AE
@@ -10274,6 +10626,7 @@
 
 @sign LAM@s
 @oid o0901291
+@smap LAM~b@s
 @form LAM~b@s
 @oid o0901292
 @list U+129AF
@@ -10288,6 +10641,7 @@
 
 @sign LAM@t
 @oid o0901293
+@smap LAM~b@t
 @form LAM~b@t
 @oid o0901294
 @list U+129B0
@@ -10366,6 +10720,7 @@
 
 @sign |LU₂×GEŠTU|
 @oid o0901307
+@smap |LU₂×GEŠTU~c3|
 @form |LU₂×GEŠTU~c3|
 @oid o0901308
 @list U+129B7
@@ -10480,6 +10835,7 @@
 @sign MAGUR
 @oid o0901321
 @list ZATU340
+@smap MAGUR~a
 @form MAGUR~a
 @oid o0901322
 @list U+129C3
@@ -10503,6 +10859,7 @@
 @sign MAH
 @oid o0901324
 @list ZATU341
+@smap MAH~a
 @form MAH~a
 @oid o0901325
 @list U+129C5
@@ -10526,6 +10883,7 @@
 
 @sign |MAH×AB₂|
 @oid o0901327
+@smap |MAH~a×AB₂|
 @form |MAH~a×AB₂|
 @oid o0901328
 @list U+129C6
@@ -10540,6 +10898,7 @@
 @sign |MAH×GUKKAL|
 @oid o0901329
 @list ZATU342
+@smap |MAH~a×GUKKAL~a|
 @form |MAH~a×GUKKAL~a|
 @oid o0901330
 @list U+129C7
@@ -10554,6 +10913,7 @@
 @sign |MAH×KU₆|
 @oid o0901331
 @list ZATU343
+@smap |MAH~a×KU₆~a|
 @form |MAH~a×KU₆~a|
 @oid o0901332
 @list U+129C8
@@ -10577,6 +10937,7 @@
 @sign |MAH×MAŠ|
 @oid o0901334
 @list ZATU344
+@smap |MAH~a×MAŠ|
 @form |MAH~a×MAŠ|
 @oid o0901335
 @list U+129C9
@@ -10599,6 +10960,7 @@
 
 @sign |MAH×NA|
 @oid o0901337
+@smap |MAH~a×NA~a|
 @form |MAH~a×NA~a|
 @oid o0901338
 @list U+129CA
@@ -10622,6 +10984,7 @@
 @sign |MAH×SAL|
 @oid o0901340
 @list ZATU345
+@smap |MAH~b×SAL|
 @form |MAH~b×SAL|
 @oid o0901341
 @list U+129D7
@@ -10636,6 +10999,7 @@
 @sign |MAH×(SILA₃×UMBIN)|
 @oid o0901342
 @list ZATU346
+@smap |MAH~a×(SILA₃~a×UMBIN~a)|
 @form |MAH~a×(SILA₃~a×UMBIN~a)|
 @oid o0901343
 @list U+129CB
@@ -10650,6 +11014,7 @@
 @sign |MAH×TUG₂|
 @oid o0901344
 @list ZATU347
+@smap |MAH~a×TUG₂~a|
 @form |MAH~a×TUG₂~a|
 @oid o0901345
 @list U+129CC
@@ -10663,6 +11028,7 @@
 
 @sign |MAH×TUN₃|
 @oid o0901346
+@smap |MAH~a×TUN₃~c|
 @form |MAH~a×TUN₃~c|
 @oid o0901347
 @sys	ADD F3040 CUSAS31 MAHaxTUN3c.png
@@ -10673,6 +11039,7 @@
 @sign |MAH×UD₅|
 @oid o0901348
 @list ZATU348
+@smap |MAH~a×UD₅~a~v1|
 @form |MAH~a×UD₅~a~v1|
 @oid o0901349
 @aka	|MAH~a×UD₅~a|
@@ -10688,6 +11055,7 @@
 @sign |MAH×UDU|
 @oid o0901350
 @list ZATU349
+@smap |MAH~a×UDU~a|
 @form |MAH~a×UDU~a|
 @oid o0901351
 @list U+129CE
@@ -10702,6 +11070,7 @@
 @sign |MAH×UR|
 @oid o0901352
 @list ZATU350
+@smap |MAH~a×UR~a|
 @form |MAH~a×UR~a|
 @oid o0901353
 @list U+129CF
@@ -10716,6 +11085,7 @@
 @sign |MAH×UTUA|
 @oid o0901354
 @list ZATU351
+@smap |MAH~a×UTUA~a|
 @form |MAH~a×UTUA~a|
 @oid o0901355
 @list U+129D0
@@ -10729,6 +11099,7 @@
 
 @sign |MAH×X|
 @oid o0901356
+@smap |MAH~a×X|
 @form |MAH~a×X|
 @oid o0901357
 @list U+129D1
@@ -10742,6 +11113,7 @@
 
 @sign |MAH×ZATU659|
 @oid o0901358
+@smap |MAH~a×ZATU659|
 @form |MAH~a×ZATU659|
 @oid o0901359
 @list U+129D2
@@ -10756,6 +11128,7 @@
 @sign MAR
 @oid o0901360
 @list ZATU352
+@smap MAR~a
 @form MAR~a
 @oid o0901361
 @list U+129D8
@@ -10790,6 +11163,7 @@
 
 @sign |MAR×GAR|
 @oid o0901364
+@smap |MAR~b×GAR|
 @form |MAR~b×GAR|
 @oid o0901365
 @sys	ADD F3002 P388253 MARxGAR.png
@@ -10800,6 +11174,7 @@
 @sign |MAR×(LAGAB.ŠE₃)|
 @oid o0901366
 @list ZATU353
+@smap |MAR~b×(LAGAB~b.ŠE₃~v1)|
 @form |MAR~b×(LAGAB~b.ŠE₃~v1)|
 @oid o0901367
 @aka	|MAR~b×(LAGAB~b.ŠE₃)|
@@ -10815,6 +11190,7 @@
 @sign |MAR×ŠE|
 @oid o0901368
 @list ZATU354
+@smap |MAR~b×ŠE~a|
 @form |MAR~b×ŠE~a|
 @oid o0901369
 @list U+129DD
@@ -10828,6 +11204,7 @@
 
 @sign |MAR×X|
 @oid o0901370
+@smap |MAR~b×X|
 @form |MAR~b×X|
 @oid o0901371
 @list U+129DE
@@ -10842,6 +11219,7 @@
 
 @sign MAR@g
 @oid o0901372
+@smap MAR@g~a
 @form MAR@g~a
 @oid o0901373
 @sys	ADD F301C CUSAS31 MAR-ga.png
@@ -10852,6 +11230,7 @@
 
 @sign MAR@t
 @oid o0901374
+@smap MAR~a@t
 @form MAR~a@t
 @oid o0901375
 @list U+129D9
@@ -10904,6 +11283,7 @@
 @sign ME
 @oid o0901379
 @list ZATU358
+@smap ME~a
 @form ME~a
 @oid o0901380
 @list U+129E2
@@ -10941,6 +11321,7 @@
 @sign MEN
 @oid o0901383
 @list ZATU360
+@smap MEN~a
 @form MEN~a
 @oid o0901384
 @list U+129E5
@@ -10997,6 +11378,7 @@
 @sign MIR
 @oid o0901389
 @list ZATU362
+@smap MIR~a
 @form MIR~a
 @oid o0901390
 @list U+129EA
@@ -11057,6 +11439,7 @@
 @sign MUD₃
 @oid o0901395
 @list ZATU365
+@smap MUD₃~a
 @form MUD₃~a
 @oid o0901396
 @list U+129EF
@@ -11100,6 +11483,7 @@
 @sign MUD₃@g
 @oid o0901400
 @sys	LLATU:258_05 MUD₃@g 
+@smap MUD₃~a@g
 @form MUD₃~a@g
 @oid o0901401
 @list U+129F0
@@ -11127,6 +11511,7 @@
 
 @sign MUN
 @oid o0901406
+@smap MUN~a1
 @form MUN~a1
 @oid o0901407
 @aka	MUN
@@ -11184,6 +11569,7 @@
 @sign MUNŠUB
 @oid o0901412
 @list ZATU369
+@smap MUNŠUB~a
 @form MUNŠUB~a
 @oid o0901413
 @list U+129FA
@@ -11245,6 +11631,7 @@
 @sign MUŠ₃
 @oid o0901418
 @list ZATU374
+@smap MUŠ₃~a
 @form MUŠ₃~a
 @oid o0901419
 @list U+129FF
@@ -11287,6 +11674,7 @@
 
 @sign MUŠ₃@g
 @oid o0901423
+@smap MUŠ₃~a@g
 @form MUŠ₃~a@g
 @oid o0901424
 @list U+12A00
@@ -11329,6 +11717,7 @@
 @sign |MUŠEN.UR₃|
 @oid o0901428
 @list ZATU377
+@smap |MUŠEN.UR₃~b2|
 @form |MUŠEN.UR₃~b2|
 @oid o0901429
 @list U+12A06
@@ -11372,6 +11761,7 @@
 
 @sign |MUŠEN×PAP|
 @oid o0901433
+@smap |MUŠEN×PAP~a|
 @form |MUŠEN×PAP~a|
 @oid o0901434
 @sys	AP23 12DA7
@@ -11394,6 +11784,7 @@
 @sign NA
 @oid o0901436
 @list ZATU378
+@smap NA~a
 @form NA~a
 @oid o0901437
 @list U+12A0B
@@ -11439,6 +11830,7 @@
 @sign NA₂
 @oid o0901441
 @list ZATU379
+@smap NA₂~a
 @form NA₂~a
 @oid o0901442
 @list U+12A0F
@@ -11520,6 +11912,7 @@
 @sign NAGA
 @oid o0901451
 @list ZATU381
+@smap NAGA~a
 @form NAGA~a
 @oid o0901452
 @list U+12A16
@@ -11545,6 +11938,7 @@
 
 @sign |NAGA×TAK₄|
 @oid o0901454
+@smap |NAGA~a×TAK₄~a|
 @form |NAGA~a×TAK₄~a|
 @oid o0901455
 @list U+12A17
@@ -11559,6 +11953,7 @@
 @sign NAGAR
 @oid o0901456
 @list ZATU382
+@smap NAGAR~a
 @form NAGAR~a
 @oid o0901457
 @list U+12A19
@@ -11622,6 +12017,7 @@
 @sign NAM
 @oid o0901463
 @list ZATU383
+@smap NAM~a
 @form NAM~a
 @oid o0901464
 @list U+12A1F
@@ -11740,6 +12136,7 @@
 @sign NANNA
 @oid o0901474
 @list ZATU388
+@smap NANNA~a
 @form NANNA~a
 @oid o0901475
 @list U+12A29
@@ -11774,6 +12171,7 @@
 @oid o0901478
 @aka	|AB~a×KU₆~a|
 @list ZATU389
+@smap NANŠE~a
 @form NANŠE~a
 @oid o0901479
 @list U+12A2C
@@ -11812,6 +12210,7 @@
 @sign NE
 @oid o0901482
 @list ZATU391
+@smap NE~a
 @form NE~a
 @oid o0901483
 @list U+12A2F
@@ -11874,6 +12273,7 @@
 @sign NERGAL
 @oid o0901490
 @list ZATU392
+@smap NERGAL~v
 @form NERGAL~v
 @oid o0901491
 @aka	NERGAL~x
@@ -11891,6 +12291,7 @@
 @oid o0901492
 @list ZATU416
 @inote	ZATU calls this sign NISAG which was revised in LLATU to NESAG₂.
+@smap NESAG₂~a
 @form NESAG₂~a
 @oid o0901493
 @list U+12A36
@@ -11933,6 +12334,7 @@
 
 @sign NESAG₂@t
 @oid o0901498
+@smap NESAG₂~b@t
 @form NESAG₂~b@t
 @oid o0901499
 @list U+12A38
@@ -11947,6 +12349,7 @@
 @sign NI
 @oid o0901500
 @list ZATU393
+@smap NI~a
 @form NI~a
 @oid o0901501
 @list U+12A3A
@@ -11973,6 +12376,7 @@
 
 @sign |NI.RU|
 @oid o0901503
+@smap |NI~a.RU~v1|
 @form |NI~a.RU~v1|
 @oid o0901504
 @aka	|NI~a.RU|
@@ -11987,6 +12391,7 @@
 
 @sign |NI×1(N57)|
 @oid o0901505
+@smap |NI~a×1(N57)|
 @form |NI~a×1(N57)|
 @oid o0901506
 @list U+12A3C
@@ -12000,6 +12405,7 @@
 
 @sign |NI×4(N57)|
 @oid o0901507
+@smap |NI~b×4(N57)|
 @form |NI~b×4(N57)|
 @oid o0901508
 @list U+12A40
@@ -12014,6 +12420,7 @@
 
 @sign |NI×X|
 @oid o0901509
+@smap |NI~b×X|
 @form |NI~b×X|
 @oid o0901510
 @list U+12A3F
@@ -12030,6 +12437,7 @@
 @oid o0901511
 @inote	@list	ZATU394
 @inote	this sign may no longer exist; see note under @lref ZATU394
+@smap NI~a@g
 @form NI~a@g
 @oid o0901512
 @list U+12A3D
@@ -12070,6 +12478,7 @@
 @sign NIM
 @oid o0901515
 @list ZATU398
+@smap NIM~a
 @form NIM~a
 @oid o0901516
 @list U+12A43
@@ -12194,6 +12603,7 @@
 @sign |NINDA₂×GUDU₄|
 @oid o0901529
 @note NINDA₂×GUDU₄ = |NINDA₂×(HI~a1.ME~a)|
+@smap |NINDA₂×(HI.ME~a)|
 @form |NINDA₂×(HI.ME~a)|
 @oid o0901530
 @aka	|NINDA₂×(HI+ME~a)|
@@ -12285,6 +12695,7 @@
 @sign |NINDA₂×EZEN|
 @oid o0901539
 @list ZATU403
+@smap |NINDA₂×EZEN~b|
 @form |NINDA₂×EZEN~b|
 @oid o0901540
 @list U+12A50
@@ -12298,6 +12709,7 @@
 
 @sign |NINDA₂×GAʾAR|
 @oid o0901541
+@smap |NINDA₂×GAʾAR~a1|
 @form |NINDA₂×GAʾAR~a1|
 @oid o0901542
 @list U+12A51
@@ -12368,6 +12780,7 @@
 @sign |NINDA₂×(HI@g.1(N06))|
 @oid o0901550
 @list ZATU021
+@smap |NINDA₂×(1(N06).HI@g~a)|
 @form |NINDA₂×(1(N06).HI@g~a)|
 @oid o0901551
 @aka	|NINDA₂×(HI@g~a.1(N06))|
@@ -12382,6 +12795,7 @@
 
 @sign |NINDA₂×KAŠ|
 @oid o0901552
+@smap |NINDA₂×KAŠ~b|
 @form |NINDA₂×KAŠ~b|
 @oid o0901553
 @list U+12A5B
@@ -12396,6 +12810,7 @@
 @sign |NINDA₂×MAR|
 @oid o0901554
 @list ZATU408
+@smap |NINDA₂×MAR~a|
 @form |NINDA₂×MAR~a|
 @oid o0901555
 @sys	ADD F3041 CUSAS21 NINDA2xMAR.png
@@ -12451,6 +12866,7 @@
 
 @sign |NINDA₂×NUN|
 @oid o0901563
+@smap |NINDA₂×NUN~a|
 @form |NINDA₂×NUN~a|
 @oid o0901564
 @sys	ADD F3042 CUSAS31 NINDA2xNUN.png
@@ -12482,6 +12898,7 @@
 @sign |NINDA₂×(UDU×TAR)|
 @oid o0901569
 @list ZATU410
+@smap |NINDA₂×(UDU~a×TAR~a)|
 @form	|NINDA₂×(UDU~a×TAR~a)|
 @oid o0901570
 @aka	|NINDA₂×((UDU~a×TAR)~a)|
@@ -12558,6 +12975,7 @@
 @sign NIR
 @oid o0901579
 @list ZATU414
+@smap NIR~a
 @form NIR~a
 @oid o0901580
 @list U+12A6A
@@ -12583,6 +13001,7 @@
 
 @sign |NIR×AN|
 @oid o0901582
+@smap |NIR~a×AN|
 @form |NIR~a×AN|
 @oid o0901583
 @list U+12A6B
@@ -12683,6 +13102,7 @@
 @sign NUN
 @oid o0901591
 @list ZATU421
+@smap NUN~a
 @form NUN~a
 @oid o0901592
 @list U+12A74
@@ -12753,6 +13173,7 @@
 
 @sign |NUN.U₄|
 @oid o0901600
+@smap |NUN~b.U₄|
 @form |NUN~b.U₄|
 @oid o0901601
 @inote	CHECK
@@ -12761,6 +13182,7 @@
 
 @sign |NUN+A|
 @oid o0901602
+@smap |NUN~a+A|
 @form |NUN~a+A|
 @oid o0901603
 @list U+12A75
@@ -12777,6 +13199,7 @@
 @oid o0901605
 @list ZATU135
 @sys	LLATU:209_01 EN~a+NUN~a 
+@smap |NUN~a+EN~a~v2|
 @form |NUN~a+EN~a~v2|
 @oid o0901606
 @aka	|NUN~a+EN~a|
@@ -12824,6 +13247,7 @@
 
 @sign |NUN+NAM₂|
 @oid o0901610
+@smap |NUN~a+NAM₂|
 @form |NUN~a+NAM₂|
 @oid o0901611
 @list U+12A79
@@ -12838,6 +13262,7 @@
 @sign NUNUZ
 @oid o0901612
 @list ZATU423
+@smap NUNUZ~a0
 @form NUNUZ~a0
 @oid o0901613
 @aka	NUNUZ
@@ -12929,6 +13354,7 @@
 
 @sign NUNUZ@t
 @oid o0901622
+@smap NUNUZ~a1@t
 @form NUNUZ~a1@t
 @oid o0901623
 @list U+12A83
@@ -12943,6 +13369,7 @@
 @sign PA
 @oid o0901624
 @list ZATU425
+@smap PA~a
 @form PA~a
 @oid o0901625
 @list U+12A8B
@@ -12987,6 +13414,7 @@
 @sign PAD
 @oid o0901635
 @list ZATU426
+@smap PAD~a
 @form PAD~a
 @oid o0901636
 @list U+12A8F
@@ -13014,6 +13442,7 @@
 @sign PAP
 @oid o0901638
 @list ZATU427
+@smap PAP~a
 @form PAP~a
 @oid o0901639
 @list U+12A91
@@ -13050,6 +13479,7 @@
 @oid o0901642
 @sys	ADD F3077 CUSAS31 PAPt.png
 @inote	CHECK
+@smap PAP~a@t
 @form PAP~a@t
 @oid o0901643
 @list U+12A92
@@ -13064,6 +13494,7 @@
 @sign PIRIG
 @oid o0901644
 @list ZATU428
+@smap PIRIG~a1
 @form PIRIG~a1
 @oid o0901645
 @aka	PIRIG
@@ -13119,6 +13550,7 @@
 @sign |PIRIG×1(N58@t)|
 @oid o0901650
 @aka	|PIRIG+DIŠ|
+@smap |PIRIG~b1×1(N58@t)|
 @form |PIRIG~b1×1(N58@t)|
 @oid o0901651
 @aka	|PIRIG~b1+DIŠ|
@@ -13129,6 +13561,7 @@
 
 @sign |PIRIG×UR₂|
 @oid o0901652
+@smap |PIRIG~b1×UR₂|
 @form |PIRIG~b1×UR₂|
 @oid o0901653
 @list U+12A99
@@ -13142,6 +13575,7 @@
 
 @sign |PIRIG+DIN|
 @oid o0901654
+@smap |PIRIG~b1+DIN|
 @form |PIRIG~b1+DIN|
 @oid o0901655
 @sys	ADD F3018 CUSAS21 PIRIG+DIN.png
@@ -13178,6 +13612,7 @@
 @sign RAD
 @oid o0901658
 @list ZATU432
+@smap RAD~a
 @form RAD~a
 @oid o0901659
 @list U+12A9D
@@ -13204,6 +13639,7 @@
 @oid o0901661
 @list ZATU433
 @sys	LLATU:276_03 RAD@g 
+@smap RAD~a@g
 @form RAD~a@g
 @oid o0901662
 @list U+12A9E
@@ -13217,6 +13653,7 @@
 
 @sign RAD@t
 @oid o0901663
+@smap RAD~a@t
 @form RAD~a@t
 @oid o0901664
 @list U+12A9F
@@ -13231,6 +13668,7 @@
 @sign RI₈
 @oid o0901667
 @list ZATU434
+@smap RI₈~a
 @form RI₈~a
 @oid o0901668
 @list U+12AA1
@@ -13291,6 +13729,7 @@
 @sign SA
 @oid o0901673
 @list ZATU436
+@smap SA~a
 @form SA~a
 @oid o0901674
 @list U+12AA6
@@ -13356,6 +13795,7 @@
 @sign |SAG×GEŠTU|
 @oid o0901680
 @list ZATU438
+@smap |SAG×GEŠTU~a|
 @form |SAG×GEŠTU~a|
 @oid o0901681
 @aka	|SAG+GEŠTU~a|
@@ -13430,6 +13870,7 @@
 
 @sign |SAG+UKKIN×1(N57)|
 @oid o0901692
+@smap |SAG+UKKIN~b~v1×1(N57)|
 @form |SAG+UKKIN~b~v1×1(N57)|
 @oid o0901693
 @aka	|SAG+UKKIN~b1×1(N57)|
@@ -13489,6 +13930,7 @@
 @sign |SAL.KUR|
 @oid o0901698
 @list ZATU201
+@smap |SAL.KUR~a|
 @form |SAL.KUR~a|
 @oid o0901699
 @list U+12AB6
@@ -13503,6 +13945,7 @@
 
 @sign |SAL.LAM|
 @oid o0901700
+@smap |SAL.LAM~b|
 @form |SAL.LAM~b|
 @oid o0901701
 @list U+12AB7
@@ -13550,6 +13993,7 @@
 
 @sign |SAL+ZATU751|
 @oid o0901706
+@smap |SAL+ZATU751~a|
 @form |SAL+ZATU751~a|
 @oid o0901707
 @sys	ADD F300E CUSAS01 SAL+ZATU751.png
@@ -13560,6 +14004,7 @@
 @sign SANGA
 @oid o0901708
 @list ZATU444
+@smap SANGA~a
 @form SANGA~a
 @oid o0901709
 @list U+12ABA
@@ -13635,6 +14080,7 @@
 @oid o0901717
 @list BAU138
 @list ZATU445
+@smap SAR~a
 @form SAR~a
 @oid o0901718
 @list U+12AC0
@@ -13675,6 +14121,7 @@
 @sign |SAR×ŠE|
 @oid o0901722
 @list ZATU514
+@smap |SAR~a×ŠE~a|
 @form |SAR~a×ŠE~a|
 @oid o0901723
 @aka	|ŠE~a+SAR~a|
@@ -13713,6 +14160,7 @@
 
 @sign |SI×EN|
 @oid o0901727
+@smap |SI×EN~a|
 @form |SI×EN~a|
 @oid o0901728
 @sys	ADD F3048 CUSAS31 SIxENa.png
@@ -13733,6 +14181,7 @@
 
 @sign |SI×KU|
 @oid o0901730
+@smap |SI×KU~b1|
 @form |SI×KU~b1|
 @oid o0901731
 @sys	ADD F3049 CUSAS31 SIxKUb1.png
@@ -13767,6 +14216,7 @@
 
 @sign |SI×TUN₃|
 @oid o0901735
+@smap |SI×TUN₃~a|
 @form |SI×TUN₃~a|
 @oid o0901736
 @sys	ADD F304C CUSAS31 SIxTUN3a.png
@@ -13783,6 +14233,7 @@
 @sign SI₄
 @oid o0901738
 @list ZATU450
+@smap SI₄~a
 @form SI₄~a
 @oid o0901739
 @list U+12AC8
@@ -13892,6 +14343,7 @@
 @sign SIG₂
 @oid o0901750
 @list ZATU452
+@smap SIG₂~a1
 @form SIG₂~a1
 @oid o0901751
 @aka	SIG₂
@@ -14042,6 +14494,7 @@
 @sign |SIG₂×1(N14)|
 @oid o0901766
 @list ZATU453
+@smap |SIG₂~b×1(N14)|
 @form |SIG₂~b×1(N14)|
 @oid o0901767
 @list U+12AD8
@@ -14055,6 +14508,7 @@
 
 @sign |SIG₂&SIG₂|
 @oid o0901768
+@smap |SIG₂~b&SIG₂~b|
 @form |SIG₂~b&SIG₂~b|
 @oid o0901769
 @aka	|SIG₂~b.SIG₂~b|
@@ -14106,6 +14560,7 @@
 @sign SILA₃
 @oid o0901774
 @list ZATU456
+@smap SILA₃~a
 @form SILA₃~a
 @oid o0901775
 @list U+12AE5
@@ -14142,6 +14597,7 @@
 @sign |SILA₃×A|
 @oid o0901780
 @list ZATU457
+@smap |SILA₃~a×A|
 @form |SILA₃~a×A|
 @oid o0901781
 @list U+12AE6
@@ -14156,6 +14612,7 @@
 
 @sign |SILA₃×AMAR|
 @oid o0901782
+@smap |SILA₃~a×AMAR|
 @form |SILA₃~a×AMAR|
 @oid o0901783
 @list U+12AE7
@@ -14170,6 +14627,7 @@
 @sign |SILA₃×DUG|
 @oid o0901784
 @list ZATU458
+@smap |SILA₃~a~v1×DUG~a|
 @form |SILA₃~a~v1×DUG~a|
 @oid o0901785
 @aka	|SILA₃~a×DUG~a|
@@ -14194,6 +14652,7 @@
 @sign |SILA₃×GA|
 @oid o0901789
 @list ZATU459
+@smap |SILA₃~a×GA~a~v3|
 @form |SILA₃~a×GA~a~v3|
 @oid o0901790
 @aka	|SILA₃~a×GA~a|
@@ -14209,6 +14668,7 @@
 @sign |SILA₃×GARA₂|
 @oid o0901791
 @list ZATU461
+@smap |SILA₃~a×GARA₂~a|
 @form |SILA₃~a×GARA₂~a|
 @oid o0901792
 @aka	|SILA₃~a+GARA₂~a|
@@ -14227,6 +14687,7 @@
 @oid o0901793
 @list ZATU462
 @list ZATU469
+@smap |SILA₃~a×GEŠTU~a~v2|
 @form |SILA₃~a×GEŠTU~a~v2|
 @oid o0901794
 @aka	|SILA₃~a×GEŠTU~a|
@@ -14260,6 +14721,7 @@
 
 @sign |SILA₃×GUG₂|
 @oid o0901797
+@smap |SILA₃~b×GUG₂|
 @form |SILA₃~b×GUG₂|
 @oid o0901798
 @list U+12B0B
@@ -14274,6 +14736,7 @@
 @sign |SILA₃×HAŠHUR|
 @oid o0901799
 @list ZATU463
+@smap |SILA₃~a×HAŠHUR|
 @form |SILA₃~a×HAŠHUR|
 @oid o0901800
 @list U+12AEE
@@ -14288,6 +14751,7 @@
 @sign |SILA₃×HI|
 @oid o0901801
 @list ZATU464
+@smap |SILA₃~a×HI|
 @form |SILA₃~a×HI|
 @oid o0901802
 @list U+12AEF
@@ -14303,6 +14767,7 @@
 @sign |SILA₃×HI@g|
 @oid o0901803
 @list ZATU465
+@smap |SILA₃~a×HI@g~a|
 @form |SILA₃~a×HI@g~a|
 @oid o0901804
 @list U+12AF0
@@ -14317,6 +14782,7 @@
 @sign |SILA₃×IB|
 @oid o0901805
 @list ZATU466
+@smap |SILA₃~a×IB~a|
 @form |SILA₃~a×IB~a|
 @oid o0901806
 @list U+12AF1
@@ -14331,6 +14797,7 @@
 @sign |SILA₃×KAŠ|
 @oid o0901807
 @list ZATU467
+@smap |SILA₃~a×KAŠ~a|
 @form |SILA₃~a×KAŠ~a|
 @oid o0901808
 @aka	|SILA₃~a+KAŠ~a|
@@ -14363,6 +14830,7 @@
 
 @sign |SILA₃×KU₆|
 @oid o0901811
+@smap |SILA₃~a×KU₆~a|
 @form |SILA₃~a×KU₆~a|
 @oid o0901812
 @list U+12AF5
@@ -14377,6 +14845,7 @@
 @sign |SILA₃×KUR|
 @oid o0901813
 @list ZATU468
+@smap |SILA₃~a×KUR~a|
 @form |SILA₃~a×KUR~a|
 @oid o0901814
 @list U+12AF6
@@ -14391,6 +14860,7 @@
 @sign |SILA₃×MA|
 @oid o0901815
 @list ZATU473
+@smap |SILA₃~a×MA~v1|
 @form |SILA₃~a×MA~v1|
 @oid o0901816
 @aka	|SILA₃~a×MA|
@@ -14406,6 +14876,7 @@
 @sign |SILA₃×MAŠ|
 @oid o0901817
 @list ZATU470
+@smap |SILA₃~a×MAŠ|
 @form |SILA₃~a×MAŠ|
 @oid o0901818
 @list U+12AF8
@@ -14419,6 +14890,7 @@
 
 @sign |SILA₃×MUD₃|
 @oid o0901819
+@smap |SILA₃~a×MUD₃~b|
 @form |SILA₃~a×MUD₃~b|
 @oid o0901820
 @aka	|SILA₃~a.MUD₃~b|
@@ -14431,6 +14903,7 @@
 @sign |SILA₃×1(N57)|
 @oid o0901821
 @list ZATU481
+@smap |SILA₃~a×1(N57)|
 @form |SILA₃~a×1(N57)|
 @oid o0901822
 @list U+12B07
@@ -14445,6 +14918,7 @@
 @sign |SILA₃×1(N58)|
 @oid o0901823
 @list ZATU481
+@smap |SILA₃~a×1(N58)|
 @form |SILA₃~a×1(N58)|
 @oid o0901824
 @list U+12B08
@@ -14459,6 +14933,7 @@
 @sign |SILA₃×NAGA|
 @oid o0901825
 @list ZATU471
+@smap |SILA₃~a×NAGA~a|
 @form |SILA₃~a×NAGA~a|
 @oid o0901826
 @list U+12AF9
@@ -14484,6 +14959,7 @@
 @oid o0901828
 @list ZATU460
 @list ZATU472
+@smap |SILA₃~a×NI~a|
 @form |SILA₃~a×NI~a|
 @oid o0901829
 @list U+12AFA
@@ -14527,6 +15003,7 @@
 @sign |SILA₃×NUN|
 @oid o0901833
 @list ZATU614
+@smap |SILA₃~a×NUN~b|
 @form |SILA₃~a×NUN~b|
 @oid o0901834
 @list U+12AFB
@@ -14541,6 +15018,7 @@
 
 @sign |SILA₃×SUHUR|
 @oid o0901835
+@smap |SILA₃~a×SUHUR|
 @form |SILA₃~a×SUHUR|
 @oid o0901836
 @list U+12AFC
@@ -14555,6 +15033,7 @@
 @sign |SILA₃×SUM|
 @oid o0901837
 @list ZATU474
+@smap |SILA₃~a×SUM~a~v1|
 @form |SILA₃~a×SUM~a~v1|
 @oid o0901838
 @aka	|SILA₃~a×SUM~a|
@@ -14579,6 +15058,7 @@
 @sign |SILA₃×ŠE|
 @oid o0901840
 @list ZATU475
+@smap |SILA₃~a×ŠE~a|
 @form |SILA₃~a×ŠE~a|
 @oid o0901841
 @list U+12AFF
@@ -14592,6 +15072,7 @@
 
 @sign |SILA₃×ŠE@t|
 @oid o0901842
+@smap |SILA₃~a×ŠE~a@t|
 @form |SILA₃~a×ŠE~a@t|
 @oid o0901843
 @list U+12B00
@@ -14606,6 +15087,7 @@
 @sign |SILA₃×ŠU|
 @oid o0901844
 @list ZATU476
+@smap |SILA₃~a×ŠU|
 @form |SILA₃~a×ŠU|
 @oid o0901845
 @aka	|SILA₃~a+ŠU|
@@ -14631,6 +15113,7 @@
 @sign |SILA₃×ŠU₂|
 @oid o0901847
 @list ZATU477
+@smap |SILA₃~a×ŠU₂~b|
 @form |SILA₃~a×ŠU₂~b|
 @oid o0901848
 @aka	|SILA₃~a×ŠU₂|
@@ -14645,6 +15128,7 @@
 
 @sign |SILA₃×X|
 @oid o0901849
+@smap |SILA₃~a×X|
 @form |SILA₃~a×X|
 @oid o0901850
 @list U+12B03
@@ -14658,6 +15142,7 @@
 
 @sign |SILA₃×ZATU629|
 @oid o0901851
+@smap |SILA₃~a×ZATU629~v1|
 @form |SILA₃~a×ZATU629~v1|
 @oid o0901852
 @aka	|SILA₃~a×ZATU629|
@@ -14674,6 +15159,7 @@
 
 @sign |SILA₃×ZATU646|
 @oid o0901853
+@smap |SILA₃~a×ZATU646|
 @form |SILA₃~a×ZATU646|
 @oid o0901854
 @aka	|SILA₃~a+ZATU646~b|
@@ -14690,6 +15176,7 @@
 @sign |SILA₃×(ZATU659.TU)|
 @oid o0901855
 @list ZATU478
+@smap |SILA₃~a×(ZATU659.TU~c~v1)|
 @form	|SILA₃~a×(ZATU659.TU~c~v1)|
 @oid o0901856
 @aka	|SILA₃~a×(ZATU659.TU~c)|
@@ -14705,6 +15192,7 @@
 @sign |SILA₃×ZATU687|
 @oid o0901857
 @list ZATU480
+@smap |SILA₃~c×ZATU687|
 @form |SILA₃~c×ZATU687|
 @oid o0901858
 @list U+12B11
@@ -14723,6 +15211,7 @@
 @list ZATU482b
 @list ZATU482c
 @list ZATU482d
+@smap SILA₄~a
 @form SILA₄~a
 @oid o0901860
 @list U+12B13
@@ -14819,6 +15308,7 @@
 @sign SU
 @oid o0901869
 @list ZATU485
+@smap SU~a
 @form SU~a
 @oid o0901870
 @list U+12B1B
@@ -14858,6 +15348,7 @@
 @sign |SU×1(N58)|
 @oid o0901874
 @list ZATU486
+@smap |SU~a×1(N58)|
 @form |SU~a×1(N58)|
 @oid o0901875
 @aka	|SU~a+1(N58)|
@@ -14969,6 +15460,7 @@
 
 @sign SUHUR@t
 @oid o0901885
+@smap SUHUR~b@t
 @form SUHUR~b@t
 @oid o0901886
 @sys	ADD F3059 CUSAS01 SUHURb-t.png
@@ -15009,6 +15501,7 @@
 @sign |SUKUD+SUKUD|
 @oid o0901889
 @list ZATU494
+@smap |(SUKUD+SUKUD)~a|
 @form |(SUKUD+SUKUD)~a|
 @oid o0901890
 @aka	|SUKUD+SUKUD~a|
@@ -15046,6 +15539,7 @@
 @sign SUKUD@g
 @oid o0901894
 @list ZATU495
+@smap SUKUD@g~a
 @form SUKUD@g~a
 @oid o0901895
 @list U+12B2B
@@ -15103,6 +15597,7 @@
 @sign SUM
 @oid o0901901
 @list ZATU496
+@smap SUM~a
 @form SUM~a
 @oid o0901902
 @list U+12B30
@@ -15137,6 +15632,7 @@
 
 @sign SUM@t
 @oid o0901905
+@smap SUM~a@t
 @form SUM~a@t
 @oid o0901906
 @list U+12B31
@@ -15220,6 +15716,7 @@
 @sign |ŠA×HI@g|
 @oid o0901913
 @list ZATU501
+@smap |(ŠA×HI@g~a)~a|
 @form |(ŠA×HI@g~a)~a|
 @oid o0901914
 @list U+12B38
@@ -15256,6 +15753,7 @@
 @sign ŠA₃
 @oid o0901917
 @list ZATU503
+@smap ŠA₃~a1
 @form ŠA₃~a1
 @oid o0901918
 @aka	ŠA₃~a
@@ -15311,6 +15809,7 @@
 
 @sign ŠA₃@g
 @oid o0901923
+@smap ŠA₃~a2@g
 @form ŠA₃~a2@g
 @oid o0901924
 @sys	ADD F3045 CUSAS01 SHA3a2-g.png
@@ -15321,6 +15820,7 @@
 @sign ŠAB
 @oid o0901925
 @list ZATU504
+@smap ŠAB~a
 @form ŠAB~a
 @oid o0901926
 @list U+12B42
@@ -15397,6 +15897,7 @@
 @sign ŠAH₂
 @oid o0901933
 @list ZATU508
+@smap ŠAH₂~a
 @form ŠAH₂~a
 @oid o0901934
 @list U+12B49
@@ -15433,6 +15934,7 @@
 @sign ŠAKIR
 @oid o0901937
 @list ZATU509
+@smap ŠAKIR~a
 @form ŠAKIR~a
 @oid o0901938
 @list U+12B4C
@@ -15480,6 +15982,7 @@
 
 @sign ŠANDANA
 @oid o0901942
+@smap ŠANDANA~a
 @form ŠANDANA~a
 @oid o0901943
 @list U+12B50
@@ -15503,6 +16006,7 @@
 @sign ŠE
 @oid o0901945
 @list ZATU511
+@smap ŠE~a
 @form ŠE~a
 @oid o0901946
 @list U+12B52
@@ -15538,6 +16042,7 @@
 
 @sign |ŠE.GAR|
 @oid o0901949
+@smap |ŠE~a@t~v1.GAR|
 @form |ŠE~a@t~v1.GAR|
 @oid o0901950
 @sys	ADD F305A CUSAS01 SHE-GARa.png
@@ -15552,6 +16057,7 @@
 @sign |ŠE.KIN₂|
 @oid o0901952
 @list ZATU512
+@smap |ŠE~a.KIN₂~c|
 @form |ŠE~a.KIN₂~c|
 @oid o0901953
 @list U+12B53
@@ -15567,6 +16073,7 @@
 @sign |ŠE.NAM₂|
 @oid o0901954
 @list ZATU513
+@smap |ŠE~a.NAM₂|
 @form |ŠE~a.NAM₂|
 @oid o0901955
 @aka	|ŠE~a+ŠE₃|
@@ -15599,6 +16106,7 @@
 @sign |ŠE&ŠE|
 @oid o0901958
 @list ZATU515
+@smap |ŠE~a&ŠE~a|
 @form |ŠE~a&ŠE~a|
 @oid o0901959
 @aka	|ŠE~a+ŠE~a|
@@ -15614,6 +16122,7 @@
 
 @sign ŠE@t
 @oid o0901960
+@smap ŠE~a@t
 @form ŠE~a@t
 @oid o0901961
 @list U+12B57
@@ -15700,6 +16209,7 @@
 @sign ŠEN
 @oid o0901968
 @list ZATU521
+@smap ŠEN~a
 @form ŠEN~a
 @oid o0901969
 @list U+12B60
@@ -15789,6 +16299,7 @@
 
 @sign |ŠEN×A|
 @oid o0901978
+@smap |ŠEN~d×A|
 @form |ŠEN~d×A|
 @oid o0901979
 @list U+12B67
@@ -15802,6 +16313,7 @@
 
 @sign ŠEN@t
 @oid o0901980
+@smap ŠEN~c@t
 @form ŠEN~c@t
 @oid o0901981
 @list U+12B65
@@ -15816,6 +16328,7 @@
 @sign ŠENNUR
 @oid o0901982
 @list ZATU522
+@smap ŠENNUR~a
 @form ŠENNUR~a
 @oid o0901983
 @list U+12B6B
@@ -15841,6 +16354,7 @@
 @oid o0901985
 @list ZATU523
 @list ZATU595
+@smap ŠEŠ~a
 @form ŠEŠ~a
 @oid o0901986
 @list U+12B6D
@@ -15897,6 +16411,7 @@
 @sign ŠIM
 @oid o0901992
 @list ZATU525
+@smap ŠIM~a
 @form ŠIM~a
 @oid o0901993
 @list U+12B72
@@ -15940,6 +16455,7 @@
 @sign ŠIR
 @oid o0901997
 @list ZATU526
+@smap ŠIR~a
 @form ŠIR~a
 @oid o0901998
 @list U+12B76
@@ -15993,6 +16509,7 @@
 @sign ŠITA
 @oid o0902003
 @list ZATU527
+@smap ŠITA~a1
 @form ŠITA~a1
 @oid o0902004
 @aka	ŠITA~a
@@ -16058,6 +16575,7 @@
 
 @sign |ŠITA@g×HI@g|
 @oid o0902011
+@smap |ŠITA~b2@g×HI@g~a|
 @form |ŠITA~b2@g×HI@g~a|
 @oid o0902012
 @aka	|ŠITA~b1×HI@g~a|
@@ -16074,6 +16592,7 @@
 @sign |ŠITA×KAK|
 @oid o0902013
 @list ZATU529
+@smap |ŠITA~a1×KAK~a|
 @form |ŠITA~a1×KAK~a|
 @oid o0902014
 @list U+12B7C
@@ -16088,6 +16607,7 @@
 
 @sign |ŠITA×1(N06)|
 @oid o0902015
+@smap |ŠITA~a1×1(N06)|
 @form |ŠITA~a1×1(N06)|
 @oid o0902016
 @list U+12B80
@@ -16101,6 +16621,7 @@
 
 @sign |ŠITA×NAM₂|
 @oid o0902017
+@smap |ŠITA~b3×NAM₂|
 @form |ŠITA~b3×NAM₂|
 @oid o0902018
 @list U+12B89
@@ -16115,6 +16636,7 @@
 @sign |ŠITA×ŠU|
 @oid o0902019
 @list ZATU528
+@smap |ŠITA~a1×ŠU|
 @form |ŠITA~a1×ŠU|
 @oid o0902020
 @list U+12B7D
@@ -16129,6 +16651,7 @@
 
 @sign |ŠITA×ŠU₂|
 @oid o0902021
+@smap |ŠITA~a1×ŠU₂~b|
 @form |ŠITA~a1×ŠU₂~b|
 @oid o0902022
 @aka	|ŠITA~a1×ŠU₂|
@@ -16143,6 +16666,7 @@
 
 @sign |ŠITA×UDU|
 @oid o0902023
+@smap |ŠITA~a1×UDU~a|
 @form |ŠITA~a1×UDU~a|
 @oid o0902024
 @list U+12B7F
@@ -16157,6 +16681,7 @@
 @sign ŠITA@g
 @oid o0902025
 @list ZATU530
+@smap ŠITA~a1@g
 @form	ŠITA~a1@g
 @oid o0902026
 @aka	ŠITA@g~b
@@ -16196,6 +16721,7 @@
 @sign |ŠITA@g×1(N04)|
 @oid o0902029
 @list ZATU531
+@smap |ŠITA~b3@g×1(N04)|
 @form |ŠITA~b3@g×1(N04)|
 @oid o0902030
 @aka	|ŠITA@g~a×1(N04)|
@@ -16210,6 +16736,7 @@
 
 @sign |ŠITA@g×1(N06)|
 @oid o0902031
+@smap |ŠITA~b3@g×1(N06)|
 @form |ŠITA~b3@g×1(N06)|
 @oid o0902032
 @aka	|ŠITA@g~a×1(N06)|
@@ -16271,6 +16798,7 @@
 @oid o0902038
 @list ZATU534
 @sys	LLATU:296_02 ŠU₂ 
+@smap ŠU₂~a
 @form ŠU₂~a
 @oid o0902039
 @list U+12B91
@@ -16307,6 +16835,7 @@
 @sign |ŠU₂.E₂|
 @oid o0902042
 @list ZATU535
+@smap |ŠU₂~b.E₂~a|
 @form |ŠU₂~b.E₂~a|
 @oid o0902043
 @aka	|ŠU₂.E₂~a|
@@ -16332,6 +16861,7 @@
 @sign |ŠU₂.EN|
 @oid o0902045
 @list ZATU536
+@smap |ŠU₂~a.EN~a~v1|
 @form |ŠU₂~a.EN~a~v1|
 @oid o0902046
 @aka	|ŠU₂×EN~a|
@@ -16403,6 +16933,7 @@
 
 @sign |ŠU₂.PAP|
 @oid o0902053
+@smap |ŠU₂.PAP~a|
 @form |ŠU₂.PAP~a|
 @oid o0902054
 @sys	ADD F3004 CUSAS31 SZU2xPAP.png
@@ -16412,6 +16943,7 @@
 
 @sign |ŠU₂.URI₃|
 @oid o0902055
+@smap |ŠU₂~a.URI₃~a~v1|
 @form |ŠU₂~a.URI₃~a~v1|
 @oid o0902056
 @aka	|ŠU₂.URI₃~a|
@@ -16476,6 +17008,7 @@
 @sign ŠUR₂
 @oid o0902062
 @list ZATU543
+@smap ŠUR₂~a
 @form ŠUR₂~a
 @oid o0902063
 @list U+12BA0
@@ -16511,6 +17044,7 @@
 @sign ŠURUPPAK
 @oid o0902067
 @list ZATU544
+@smap ŠURUPPAK~a
 @form ŠURUPPAK~a
 @oid o0902068
 @list U+12BA2
@@ -16553,6 +17087,7 @@
 @sign TA
 @oid o0902073
 @list ZATU545
+@smap TA~a
 @form TA~a
 @oid o0902074
 @list U+12BA6
@@ -16603,6 +17138,7 @@
 
 @sign |TA×MAŠ|
 @oid o0902080
+@smap |TA~d×MAŠ|
 @form |TA~d×MAŠ|
 @oid o0902081
 @list U+12BAA
@@ -16617,6 +17153,7 @@
 @sign TAG
 @oid o0902082
 @list ZATU547
+@smap TAG~a1
 @form TAG~a1
 @oid o0902083
 @aka	TAG
@@ -16693,6 +17230,7 @@
 
 @sign TAG@t
 @oid o0902091
+@smap TAG~a1@t
 @form TAG~a1@t
 @oid o0902092
 @list U+12BAD
@@ -16707,6 +17245,7 @@
 @sign TAK₄
 @oid o0902093
 @list ZATU548
+@smap TAK₄~a
 @form TAK₄~a
 @oid o0902094
 @list U+12BB4
@@ -16740,6 +17279,7 @@
 
 @sign TAK₄@n
 @oid o0902097
+@smap TAK₄~a@n
 @form TAK₄~a@n
 @oid o0902098
 @list U+12BB5
@@ -16754,6 +17294,7 @@
 @sign TAR
 @oid o0902099
 @list ZATU549
+@smap TAR~a
 @form TAR~a
 @oid o0902100
 @list U+12BB8
@@ -16868,6 +17409,7 @@
 @sign TU
 @oid o0902110
 @list ZATU554
+@smap TU~a
 @form TU~a
 @oid o0902111
 @list U+12BC1
@@ -16908,6 +17450,7 @@
 @sign TUG₂
 @oid o0902115
 @list ZATU555
+@smap TUG₂~a
 @form TUG₂~a
 @oid o0902116
 @aka	TUG₂~a~a
@@ -16953,6 +17496,7 @@
 @sign |TUG₂.BAD&BAD|
 @oid o0902120
 @list ZATU556
+@smap |TUG₂~a.BAD&BAD|
 @form |TUG₂~a.BAD&BAD|
 @oid o0902121
 @list U+12BC5
@@ -16967,6 +17511,7 @@
 @sign TUG₂@g
 @oid o0902122
 @list ZATU557
+@smap TUG₂~a@g
 @form TUG₂~a@g
 @oid o0902123
 @list U+12BC6
@@ -16991,6 +17536,7 @@
 @sign |TUG₂@g.BAD&BAD|
 @oid o0902125
 @list ZATU558
+@smap |TUG₂~a@g.BAD&BAD|
 @form |TUG₂~a@g.BAD&BAD|
 @oid o0902126
 @@
@@ -16999,6 +17545,7 @@
 @sign TUM
 @oid o0902127
 @list ZATU560
+@smap TUM~a
 @form TUM~a
 @oid o0902128
 @list U+12BCB
@@ -17042,6 +17589,7 @@
 
 @sign TUM@g
 @oid o0902132
+@smap TUM~a@g
 @form TUM~a@g
 @oid o0902133
 @list U+12BCC
@@ -17062,6 +17610,7 @@
 @sign TUN₃
 @oid o0902135
 @list ZATU561
+@smap TUN₃~a
 @form TUN₃~a
 @oid o0902136
 @aka	DUN₃~a
@@ -17150,6 +17699,7 @@
 @sign TUR₃
 @oid o0902145
 @list ZATU563
+@smap TUR₃~a
 @form TUR₃~a
 @oid o0902146
 @list U+12BD8
@@ -17184,6 +17734,7 @@
 
 @sign |TUR₃.5(N57)|
 @oid o0902149
+@smap |TUR₃~a.5(N57)|
 @form |TUR₃~a.5(N57)|
 @oid o0902150
 @sys	ADD F3005 CUSAS21 TUR3+5N57.png
@@ -17193,6 +17744,7 @@
 
 @sign TUR₃@n
 @oid o0902153
+@smap TUR₃~a@n
 @form TUR₃~a@n
 @oid o0902154
 @list U+12BD9
@@ -17207,6 +17759,7 @@
 @sign U₂
 @oid o0902155
 @list ZATU565
+@smap U₂~a
 @form U₂~a
 @oid o0902156
 @list U+12BDC
@@ -17864,6 +18417,7 @@
 
 @sign |U₈×TAR|
 @oid o0902224
+@smap |U₈×TAR~b|
 @form	|U₈×TAR~b|
 @oid o0902225
 @aka	|(U₈×TAR)~b|
@@ -17902,6 +18456,7 @@
 @sign UBI
 @oid o0902228
 @list ZATU573
+@smap UBI~a
 @form UBI~a
 @oid o0902229
 @list U+12C1C
@@ -17941,6 +18496,7 @@
 @sign UD₅
 @oid o0902233
 @list ZATU574
+@smap UD₅~a
 @form UD₅~a
 @oid o0902234
 @list U+12C1F
@@ -17992,6 +18548,7 @@
 
 @sign UD₅@g
 @oid o0902240
+@smap UD₅~a@g
 @form UD₅~a@g
 @oid o0902241
 @list U+12C20
@@ -18007,6 +18564,7 @@
 @sign UDU
 @oid o0902242
 @list ZATU575
+@smap UDU~a
 @form UDU~a
 @oid o0902243
 @list U+12C25
@@ -18042,6 +18600,7 @@
 @sign |UDU×TAR|
 @oid o0902246
 @list ZATU576
+@smap |UDU~a×TAR~a|
 @form	|UDU~a×TAR~a|
 @oid o0902247
 @aka	|(UDU~a×TAR)~a|
@@ -18067,6 +18626,7 @@
 @sign UDUNITA
 @oid o0902249
 @list ZATU578
+@smap UDUNITA~a
 @form UDUNITA~a
 @oid o0902250
 @list U+12C2A
@@ -18115,6 +18675,7 @@
 @sign UH₃
 @oid o0902255
 @list ZATU579
+@smap UH₃~a
 @form UH₃~a
 @oid o0902256
 @list U+12C2E
@@ -18138,6 +18699,7 @@
 
 @sign UH₃@t
 @oid o0902258
+@smap UH₃~a@t
 @form UH₃~a@t
 @oid o0902259
 @list U+12C2F
@@ -18153,6 +18715,7 @@
 @sign UKKIN
 @oid o0902260
 @list ZATU580
+@smap UKKIN~a
 @form UKKIN~a
 @oid o0902261
 @list U+12C31
@@ -18210,6 +18773,7 @@
 
 @sign |UKKIN×DIN|
 @oid o0902267
+@smap |UKKIN~b×DIN|
 @form |UKKIN~b×DIN|
 @oid o0902268
 @list U+12C34
@@ -18223,6 +18787,7 @@
 
 @sign |UKKIN×(DIN.1(N01))|
 @oid o0902269
+@smap |UKKIN~b×(DIN.1(N01))|
 @form |UKKIN~b×(DIN.1(N01))|
 @oid o0902270
 @list U+12C35
@@ -18236,6 +18801,7 @@
 
 @sign |UKKIN×HI@g|
 @oid o0902273
+@smap |UKKIN~b×HI@g~a|
 @form |UKKIN~b×HI@g~a|
 @oid o0902274
 @list U+12C36
@@ -18249,6 +18815,7 @@
 
 @sign |UKKIN×2(N01)|
 @oid o0902275
+@smap |UKKIN~b×2(N01)|
 @form |UKKIN~b×2(N01)|
 @oid o0902276
 @list U+12C39
@@ -18262,6 +18829,7 @@
 
 @sign |UKKIN×3(N01)|
 @oid o0902277
+@smap |UKKIN~b×3(N01)|
 @form |UKKIN~b×3(N01)|
 @oid o0902278
 @list U+12C3A
@@ -18275,6 +18843,7 @@
 
 @sign |UKKIN×5(N01)|
 @oid o0902279
+@smap |UKKIN~b×5(N01)|
 @form |UKKIN~b×5(N01)|
 @oid o0902280
 @list U+12C3B
@@ -18288,6 +18857,7 @@
 
 @sign |UKKIN×NI|
 @oid o0902281
+@smap |UKKIN~b×NI~a|
 @form |UKKIN~b×NI~a|
 @oid o0902282
 @list U+12C37
@@ -18301,6 +18871,7 @@
 
 @sign |UKKIN×X|
 @oid o0902283
+@smap |UKKIN~b×X|
 @form |UKKIN~b×X|
 @oid o0902284
 @list U+12C38
@@ -18315,6 +18886,7 @@
 @sign UMBIN
 @oid o0902285
 @list ZATU581
+@smap UMBIN~a
 @form UMBIN~a
 @oid o0902286
 @list U+12C3E
@@ -18378,6 +18950,7 @@
 @sign UNUG
 @oid o0902292
 @list ZATU583
+@smap UNUG~a
 @form UNUG~a
 @oid o0902293
 @list U+12C44
@@ -18421,6 +18994,7 @@
 @sign |UNUG×A@t|
 @oid o0902297
 @list ZATU584
+@smap |UNUG~a~v1×A@t|
 @form |UNUG~a~v1×A@t|
 @oid o0902298
 @aka	|UNUG~a×A@t|
@@ -18437,6 +19011,7 @@
 @oid o0902299
 @list ZATU585
 @sys	LLATU:308_02 UNUG@s 
+@smap UNUG~a@s
 @form UNUG~a@s
 @oid o0902300
 @list U+12C45
@@ -18452,6 +19027,7 @@
 @oid o0902301
 @list BAU284
 @list ZATU586
+@smap UR~a
 @form UR~a
 @oid o0902302
 @list U+12C4A
@@ -18484,6 +19060,7 @@
 
 @sign |UR×KAR₂|
 @oid o0902305
+@smap |UR~a×KAR₂~b|
 @form |UR~a×KAR₂~b|
 @oid o0902306
 @aka	|UR~a×KAR₂|
@@ -18499,6 +19076,7 @@
 @sign UR@g
 @oid o0902307
 @list ZATU587
+@smap UR~a@g
 @form UR~a@g
 @oid o0902308
 @list U+12C4C
@@ -18552,6 +19130,7 @@
 @sign UR₃
 @oid o0902312
 @list ZATU591
+@smap UR₃~a1
 @form UR₃~a1
 @oid o0902313
 @aka	UR₃
@@ -18619,6 +19198,7 @@
 
 @sign |UR₃×MAŠ|
 @oid o0902320
+@smap |UR₃~b1×MAŠ|
 @form |UR₃~b1×MAŠ|
 @oid o0902321
 @list U+12C57
@@ -18633,6 +19213,7 @@
 @sign UR₄
 @oid o0902322
 @list ZATU592
+@smap UR₄~a
 @form UR₄~a
 @oid o0902323
 @list U+12C59
@@ -18668,6 +19249,7 @@
 @sign UR₅
 @oid o0902326
 @list ZATU593
+@smap UR₅~a
 @form UR₅~a
 @oid o0902327
 @list U+12C5C
@@ -18705,6 +19287,7 @@
 
 @sign URI₃
 @oid o0902331
+@smap URI₃~a
 @form URI₃~a
 @oid o0902332
 @list U+12C5F
@@ -18752,6 +19335,7 @@
 @sign URU
 @oid o0902338
 @list ZATU597
+@smap URU~a1
 @form URU~a1
 @oid o0902339
 @aka	URU
@@ -18806,6 +19390,7 @@
 @sign |URU×AMAR|
 @oid o0902346
 @list ZATU598
+@smap |URU~a1×AMAR~v2|
 @form |URU~a1×AMAR~v2|
 @oid o0902347
 @aka	|URU~a1×AMAR|
@@ -18820,6 +19405,7 @@
 
 @sign |URU×GU₄|
 @oid o0902348
+@smap |URU~a1×GU₄|
 @form |URU~a1×GU₄|
 @oid o0902349
 @list U+12C65
@@ -18833,6 +19419,7 @@
 
 @sign |URU×HI@g|
 @oid o0902350
+@smap |URU~a1×HI@g~a|
 @form |URU~a1×HI@g~a|
 @oid o0902351
 @list U+12C66
@@ -18847,6 +19434,7 @@
 @sign |URU×KALAM|
 @oid o0902352
 @list ZATU599
+@smap |URU~a3×KALAM~a|
 @form |URU~a3×KALAM~a|
 @oid o0902353
 @list U+12C6F
@@ -18860,6 +19448,7 @@
 
 @sign |URU×KI|
 @oid o0902354
+@smap |URU~a1×KI|
 @form |URU~a1×KI|
 @oid o0902355
 @sys	ADD F301B CUSAS01 URUxKI.png
@@ -18869,6 +19458,7 @@
 
 @sign |URU×1(N57)|
 @oid o0902356
+@smap |URU~a1×1(N57)|
 @form |URU~a1×1(N57)|
 @oid o0902357
 @list U+12C6A
@@ -18883,6 +19473,7 @@
 
 @sign |URU×2(N57)|
 @oid o0902358
+@smap |URU~a1×2(N57)|
 @form |URU~a1×2(N57)|
 @oid o0902359
 @list U+12C6B
@@ -18897,6 +19488,7 @@
 
 @sign |URU×3(N57)|
 @oid o0902360
+@smap |URU~a1×3(N57)|
 @form |URU~a1×3(N57)|
 @oid o0902361
 @sys	ADD F304F CUSAS31 URUa1x3N57.png
@@ -18906,6 +19498,7 @@
 
 @sign |URU×1(N58)|
 @oid o0902362
+@smap |URU~a2×1(N58)|
 @form |URU~a2×1(N58)|
 @oid o0902363
 @aka	|URU~a1+1(N58)|
@@ -18922,6 +19515,7 @@
 @sign |URU×NIMGIR|
 @oid o0902364
 @list ZATU600
+@smap |URU~a1×NIMGIR|
 @form |URU~a1×NIMGIR|
 @oid o0902365
 @list U+12C67
@@ -18935,6 +19529,7 @@
 
 @sign |URU×U₄|
 @oid o0902366
+@smap |URU~a1×U₄|
 @form |URU~a1×U₄|
 @oid o0902367
 @list U+12C68
@@ -18948,6 +19543,7 @@
 
 @sign |URU×X|
 @oid o0902368
+@smap |URU~a1×X|
 @form |URU~a1×X|
 @oid o0902369
 @list U+12C69
@@ -18961,6 +19557,7 @@
 
 @sign URU@n
 @oid o0902370
+@smap URU~a1@n
 @form URU~a1@n
 @oid o0902371
 @list U+12C6C
@@ -18975,6 +19572,7 @@
 @sign URUDU
 @oid o0902372
 @list ZATU602
+@smap URUDU~a
 @form URUDU~a
 @oid o0902373
 @list U+12C73
@@ -19027,6 +19625,7 @@
 @sign URUDU@g
 @oid o0902378
 @list ZATU603
+@smap URUDU@g~a
 @form URUDU@g~a
 @oid o0902379
 @list U+12C78
@@ -19070,6 +19669,7 @@
 @oid o0902383
 @list ZATU228
 @list ZATU604
+@smap UŠ~a
 @form UŠ~a
 @oid o0902384
 @list U+12C7C
@@ -19105,6 +19705,7 @@
 @sign |UŠ×TAR|
 @oid o0902387
 @list ZATU605
+@smap |UŠ~b×TAR~c|
 @form	|UŠ~b×TAR~c|
 @oid o0902388
 @aka	|UŠ~b×TAR~c|~v1
@@ -19128,6 +19729,7 @@
 
 @sign |UŠ&UŠ|
 @oid o0902391
+@smap |UŠ~a&UŠ~a|
 @form |UŠ~a&UŠ~a|
 @oid o0902392
 @list U+12C7D
@@ -19165,6 +19767,7 @@
 @sign UŠUR₃
 @oid o0902395
 @list ZATU608
+@smap UŠUR₃~b1
 @form UŠUR₃~b1
 @oid o0902397
 @list U+12C84
@@ -19190,6 +19793,7 @@
 @sign UTUA
 @oid o0902399
 @list ZATU609
+@smap UTUA~a
 @form UTUA~a
 @oid o0902400
 @aka	UDUA~a
@@ -19224,6 +19828,7 @@
 
 @sign UTUA@t
 @oid o0902403
+@smap UTUA~a@t
 @form UTUA~a@t
 @oid o0902404
 @list U+12C87
@@ -19238,6 +19843,7 @@
 @sign UTUL
 @oid o0902405
 @list ZATU610
+@smap UTUL~a
 @form UTUL~a
 @oid o0902406
 @list U+12C8A
@@ -19281,6 +19887,7 @@
 @sign UZ
 @oid o0902410
 @note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
+@smap UZ~a
 @form UZ~a
 @oid o0902411
 @aka	|HU.ŠE|
@@ -19330,6 +19937,7 @@
 
 @sign ZA
 @oid o0902415
+@smap ZA~v
 @form ZA~v
 @oid o0902416
 @aka	ZA~x
@@ -19347,6 +19955,7 @@
 @sign ZABALAM
 @oid o0902417
 @list ZATU613
+@smap ZABALAM~a
 @form ZABALAM~a
 @oid o0902418
 @aka	ZABALA~a
@@ -19372,6 +19981,7 @@
 @sign ZAG
 @oid o0902421
 @list ZATU615
+@smap ZAG~a
 @form ZAG~a
 @oid o0902422
 @list U+12C93
@@ -19415,6 +20025,7 @@
 @sign ZAR
 @oid o0902426
 @list ZATU616
+@smap ZAR~a
 @form ZAR~a
 @oid o0902427
 @list U+12C97
@@ -19482,6 +20093,7 @@
 @sign ZATU621
 @oid o0902432
 @list ZATU621
+@smap ZATU621~a
 @form ZATU621~a
 @oid o0902433
 @list U+12C9C
@@ -19565,6 +20177,7 @@
 @sign ZATU624
 @oid o0902441
 @list ZATU624
+@smap ZATU624~a
 @form ZATU624~a
 @oid o0902442
 @list U+12CA4
@@ -19617,6 +20230,7 @@
 @sign ZATU626
 @oid o0902447
 @list ZATU626
+@smap ZATU626~a
 @form ZATU626~a
 @oid o0902448
 @list U+12CA9
@@ -19660,6 +20274,7 @@
 @sign ZATU628
 @oid o0902452
 @list ZATU628
+@smap ZATU628~a
 @form ZATU628~a
 @oid o0902453
 @list U+12CAD
@@ -19735,6 +20350,7 @@
 @sign ZATU632
 @oid o0902460
 @list ZATU632
+@smap ZATU632~a
 @form ZATU632~a
 @oid o0902461
 @list U+12CB4
@@ -19777,6 +20393,7 @@
 @sign ZATU633
 @oid o0902465
 @list ZATU633
+@smap ZATU633~a
 @form ZATU633~a
 @oid o0902466
 @list U+12CB8
@@ -19911,6 +20528,7 @@
 @sign ZATU644
 @oid o0902478
 @list ZATU644
+@smap ZATU644~a
 @form ZATU644~a
 @oid o0902479
 @list U+12CC4
@@ -19935,6 +20553,7 @@
 @sign |ZATU644×1(N14)|
 @oid o0902481
 @list ZATU645
+@smap |ZATU644~a×1(N14)|
 @form |ZATU644~a×1(N14)|
 @oid o0902482
 @list U+12CC5
@@ -20066,6 +20685,7 @@
 @sign |ZATU651×EN|
 @oid o0902494
 @list ZATU653
+@smap |ZATU651×EN~a~v2|
 @form |ZATU651×EN~a~v2|
 @oid o0902495
 @aka	|ZATU651×EN~a|
@@ -20103,6 +20723,7 @@
 @sign |ZATU651×NUN|
 @oid o0902498
 @list ZATU656
+@smap |ZATU651×NUN~a|
 @form |ZATU651×NUN~a|
 @oid o0902499
 @list U+12CD3
@@ -20117,6 +20738,7 @@
 @sign |ZATU651×ŠE|
 @oid o0902500
 @list ZATU657
+@smap |ZATU651~v2×ŠE~a|
 @form |ZATU651~v2×ŠE~a|
 @oid o0902501
 @aka	|ZATU651×ŠE~a|
@@ -20141,6 +20763,7 @@
 
 @sign |ZATU651×ZAR|
 @oid o0902503
+@smap |ZATU651×ZAR~c|
 @form |ZATU651×ZAR~c|
 @oid o0902504
 @list U+12CD5
@@ -20386,6 +21009,7 @@
 @sign ZATU675
 @oid o0902527
 @list ZATU675
+@smap ZATU675~a
 @form ZATU675~a
 @oid o0902528
 @list U+12CEE
@@ -20436,6 +21060,7 @@
 @sign ZATU676
 @oid o0902533
 @list ZATU676
+@smap ZATU676~a
 @form ZATU676~a
 @oid o0902534
 @list U+12CF3
@@ -20459,6 +21084,7 @@
 @sign ZATU677
 @oid o0902536
 @list ZATU677
+@smap ZATU677~a
 @form ZATU677~a
 @oid o0902537
 @list U+12CF5
@@ -20505,6 +21131,7 @@
 @sign ZATU680
 @oid o0902541
 @list ZATU680
+@smap ZATU680~a1
 @form ZATU680~a1
 @oid o0902542
 @aka	ZATU680
@@ -20589,6 +21216,7 @@
 @sign ZATU683
 @oid o0902550
 @list ZATU683
+@smap ZATU683~a
 @form ZATU683~a
 @oid o0902551
 @list U+12D01
@@ -20645,6 +21273,7 @@
 @sign ZATU686
 @oid o0902556
 @list ZATU686
+@smap ZATU686~a
 @form ZATU686~a
 @oid o0902557
 @list U+12D06
@@ -20692,6 +21321,7 @@
 @sign ZATU688
 @oid o0902561
 @list ZATU688
+@smap ZATU688~a
 @form ZATU688~a
 @oid o0902562
 @list U+12D0A
@@ -20800,6 +21430,7 @@
 @sign ZATU694
 @oid o0902572
 @list ZATU694
+@smap ZATU694~a
 @form ZATU694~a
 @oid o0902573
 @list U+12D14
@@ -20855,6 +21486,7 @@
 
 @sign ZATU694@t
 @oid o0902579
+@smap ZATU694~d@t
 @form ZATU694~d@t
 @oid o0902580
 @list U+12D19
@@ -20891,6 +21523,7 @@
 @sign ZATU697
 @oid o0902583
 @list ZATU697
+@smap ZATU697~a
 @form ZATU697~a
 @oid o0902584
 @list U+12D1C
@@ -20951,6 +21584,7 @@
 @sign ZATU699
 @oid o0902590
 @list ZATU699
+@smap ZATU699~a
 @form ZATU699~a
 @oid o0902591
 @list U+12D22
@@ -21051,6 +21685,7 @@
 @sign ZATU707
 @oid o0902600
 @list ZATU707
+@smap ZATU707~a
 @form ZATU707~a
 @oid o0902601
 @list U+12D2B
@@ -21137,6 +21772,7 @@
 @sign |ZATU711×HI@g|
 @oid o0902609
 @list ZATU712
+@smap |ZATU711~v1×HI@g~a|
 @form |ZATU711~v1×HI@g~a|
 @oid o0902610
 @aka	|ZATU711×HI@g~a|
@@ -21197,6 +21833,7 @@
 @sign |ZATU714×HI@g|
 @oid o0902615
 @list ZATU715
+@smap |ZATU714×HI@g~a|
 @form |ZATU714×HI@g~a|
 @oid o0902616
 @list U+12D38
@@ -21331,6 +21968,7 @@
 @sign ZATU726
 @oid o0902628
 @list ZATU726
+@smap ZATU726~a
 @form ZATU726~a
 @oid o0902629
 @list U+12D44
@@ -21450,6 +22088,7 @@
 @sign ZATU735
 @oid o0902640
 @list ZATU735
+@smap ZATU735~a
 @form ZATU735~a
 @oid o0902641
 @list U+12D4F
@@ -21501,6 +22140,7 @@
 @sign ZATU736
 @oid o0902646
 @list ZATU736
+@smap ZATU736~a
 @form ZATU736~a
 @oid o0902647
 @list U+12D54
@@ -21556,6 +22196,7 @@
 @sign |ZATU737×AB|
 @oid o0902652
 @list ZATU738
+@smap |ZATU737×AB~a|
 @form |ZATU737×AB~a|
 @oid o0902653
 @list U+12D57
@@ -21569,6 +22210,7 @@
 
 @sign |ZATU737×BU|
 @oid o0902654
+@smap |ZATU737×BU~a|
 @form |ZATU737×BU~a|
 @oid o0902655
 @list U+12D58
@@ -21583,6 +22225,7 @@
 @sign |ZATU737×BUR|
 @oid o0902656
 @list ZATU185
+@smap |ZATU737×BUR~a|
 @form |ZATU737×BUR~a|
 @oid o0902657
 @aka	GABURRA
@@ -21621,6 +22264,7 @@
 
 @sign |ZATU737×E|
 @oid o0902660
+@smap |ZATU737×E~a|
 @form |ZATU737×E~a|
 @oid o0902661
 @list U+12D5B
@@ -21635,6 +22279,7 @@
 @sign |ZATU737×EN|
 @oid o0902662
 @list ZATU740
+@smap |ZATU737×EN~a~v2|
 @form |ZATU737×EN~a~v2|
 @oid o0902663
 @aka	|ZATU737×EN~a|
@@ -21688,6 +22333,7 @@
 
 @sign |ZATU737×NI@g|
 @oid o0902668
+@smap |ZATU737×NI~a@g|
 @form |ZATU737×NI~a@g|
 @oid o0902669
 @list U+12D5E
@@ -21729,6 +22375,7 @@
 @sign |ZATU737×SU|
 @oid o0902672
 @list ZATU744
+@smap |ZATU737×SU~a|
 @form |ZATU737×SU~a|
 @oid o0902673
 @list U+12D60
@@ -21743,6 +22390,7 @@
 @sign |ZATU737×ŠE|
 @oid o0902674
 @list ZATU745
+@smap |ZATU737×ŠE~a|
 @form |ZATU737×ŠE~a|
 @oid o0902675
 @list U+12D61
@@ -21756,6 +22404,7 @@
 
 @sign |ZATU737×ŠITA|
 @oid o0902676
+@smap |ZATU737×ŠITA~a1|
 @form |ZATU737×ŠITA~a1|
 @oid o0902677
 @list U+12D62
@@ -21785,6 +22434,7 @@
 @sign |ZATU737×UNUG|
 @oid o0902681
 @list ZATU748
+@smap |ZATU737×UNUG~a~v1|
 @form |ZATU737×UNUG~a~v1|
 @oid o0902682
 @aka	|ZATU737×UNUG~a|
@@ -21813,6 +22463,7 @@
 @compoundonly	ZATU737@t
 @sign |ZATU737@t×PAP|
 @oid o0902684
+@smap |ZATU737@t×PAP~a|
 @form |ZATU737@t×PAP~a|
 @oid o0902685
 @sys	ADD F300A P342547 ZATU737txPAP.png
@@ -21823,6 +22474,7 @@
 @sign ZATU749
 @oid o0902686
 @list ZATU749
+@smap ZATU749~a
 @form ZATU749~a
 @oid o0902687
 @list U+12D6C
@@ -21912,6 +22564,7 @@
 @sign ZATU751
 @oid o0902696
 @list ZATU751
+@smap ZATU751~a
 @form ZATU751~a
 @oid o0902697
 @list U+12D75
@@ -21981,6 +22634,7 @@
 @sign ZATU755
 @oid o0902703
 @list ZATU755
+@smap ZATU755~a
 @form ZATU755~a
 @oid o0902704
 @list U+12D7B
@@ -22077,6 +22731,7 @@
 @oid o0902713
 @list ZATU760
 @sys	LLATU:318_08 ZATU759+KU₆ 
+@smap |ZATU759×KU₆~a|
 @form |ZATU759×KU₆~a|
 @oid o0902714
 @aka	|ZATU759+KU₆~a|
@@ -22100,6 +22755,7 @@
 
 @sign |ZATU759×(KU₆+KU₆)|
 @oid o0902716
+@smap |ZATU759×(KU₆~a+KU₆~a)|
 @form |ZATU759×(KU₆~a+KU₆~a)|
 @oid o0902717
 @list U+12D84
@@ -22146,6 +22802,7 @@
 @sign ZATU762
 @oid o0902721
 @list ZATU762
+@smap ZATU762~a
 @form ZATU762~a
 @oid o0902722
 @list U+12D8A
@@ -22187,6 +22844,7 @@
 @sign |ZATU762×AB|
 @oid o0902726
 @list ZATU163
+@smap |ZATU762~b×AB~a|
 @form |ZATU762~b×AB~a|
 @oid o0902727
 @list U+12D8F
@@ -22201,6 +22859,7 @@
 @sign |ZATU762×NIM|
 @oid o0902728
 @list ZATU763
+@smap |ZATU762~a×NIM~a|
 @form |ZATU762~a×NIM~a|
 @oid o0902729
 @list U+12D8B
@@ -22305,6 +22964,7 @@
 @sign ZATU773
 @oid o0902738
 @list ZATU773
+@smap ZATU773~a
 @form ZATU773~a
 @oid o0902739
 @list U+12D98
@@ -22995,6 +23655,7 @@
 @sign ZATU837
 @oid o0902802
 @list ZATU837
+@smap ZATU837~a
 @form ZATU837~a
 @oid o0902803
 @list U+12DD6
@@ -23251,6 +23912,7 @@
 @sign ZI
 @oid o0902828
 @list ZATU617
+@smap ZI~a
 @form ZI~a
 @oid o0902829
 @list U+12DEB
@@ -23295,6 +23957,7 @@
 @sign ZUBI
 @oid o0902837
 @list ZATU619
+@smap ZUBI~a
 @form ZUBI~a
 @oid o0902838
 @list U+12DEF
@@ -23318,6 +23981,7 @@
 
 @sign 2(LAGAB)
 @oid o0902840
+@smap 2(LAGAB~a)
 @form 2(LAGAB~a)
 @oid o0902841
 @list U+F00F0
@@ -23332,6 +23996,7 @@
 
 @sign 3(LAGAB)
 @oid o0902842
+@smap 3(LAGAB~a)
 @form 3(LAGAB~a)
 @oid o0902843
 @list U+F00F1
@@ -23345,6 +24010,7 @@
 
 @sign 4(LAGAB)
 @oid o0902844
+@smap 4(LAGAB~a)
 @form 4(LAGAB~a)
 @oid o0902845
 @list U+F00F2
@@ -23359,6 +24025,7 @@
 
 @sign 6(LAGAB)
 @oid o0902846
+@smap 6(LAGAB~a)
 @form 6(LAGAB~a)
 @oid o0902847
 @list U+F00F3
@@ -24005,6 +24672,7 @@
 
 @sign 1(N07)
 @oid o0902900
+@smap 1(N07A)
 @form 1(N07A)
 @oid o0902901
 @list U+12646
@@ -24027,6 +24695,7 @@
 
 @sign 2(N07)
 @oid o0902903
+@smap 2(N07A)
 @form 2(N07A)
 @oid o0902904
 @list U+12647
@@ -24049,6 +24718,7 @@
 
 @sign 3(N07)
 @oid o0902906
+@smap 3(N07A)
 @form 3(N07A)
 @oid o0902907
 @list U+12648
@@ -24312,6 +24982,7 @@
 @sign 5(N14)
 @oid o0902934
 @sys	LLATU:324_04 5(N14) 
+@smap 5(N14)~v1
 @form 5(N14)~v1
 @oid o0902935
 @list U+12566
@@ -24326,6 +24997,7 @@
 @sign 6(N14)
 @oid o0902936
 @sys	LLATU:324_05 6(N14) 
+@smap 6(N14)~v1
 @form 6(N14)~v1
 @oid o0902937
 @list U+12567
@@ -24637,6 +25309,7 @@
 
 @sign 9(N18)
 @oid o0902970
+@smap 9(N18)~v1
 @form 9(N18)~v1
 @oid o0902971
 @list U+125FC
@@ -25208,6 +25881,7 @@
 
 @sign 1(N29)
 @oid o0903031
+@smap 1(N29~a)
 @form 1(N29~a)
 @oid o0903032
 @sys	LLATU:325_01 1(N29~a) 
@@ -25244,6 +25918,7 @@
 
 @sign 2(N29)
 @oid o0903036
+@smap 2(N29~a)
 @form 2(N29~a)
 @oid o0903037
 @list U+F0107
@@ -25267,6 +25942,7 @@
 
 @sign 1(N29A)
 @oid o0903039
+@smap 1(N29AB)
 @form 1(N29AB)
 @oid o0903040
 @list U+12601
@@ -25290,6 +25966,7 @@
 
 @sign 2(N29A)
 @oid o0903042
+@smap 2(N29A~b)
 @form 2(N29A~b)
 @oid o0903043
 @list U+F010A
@@ -25844,6 +26521,7 @@
 
 @sign 1(N39)
 @oid o0903096
+@smap 1(N39~a)
 @form 1(N39~a)
 @oid o0903097
 @list U+125B6
@@ -25866,6 +26544,7 @@
 
 @sign 2(N39)
 @oid o0903099
+@smap 2(N39~a)
 @form 2(N39~a)
 @oid o0903100
 @list U+125B7
@@ -25892,6 +26571,7 @@
 
 @sign 3(N39)
 @oid o0903103
+@smap 3(N39~a)
 @form 3(N39~a)
 @oid o0903104
 @list U+125B8
@@ -25914,6 +26594,7 @@
 
 @sign 4(N39)
 @oid o0903106
+@smap 4(N39~a)
 @form 4(N39~a)
 @oid o0903107
 @list U+125B9
@@ -25936,6 +26617,7 @@
 
 @sign 5(N39)
 @oid o0903109
+@smap 5(N39~t)
 @form 5(N39~t)
 @oid o0903110
 @note	the ~t in this sign stands for 'token'.
@@ -26024,6 +26706,7 @@
 
 @sign 1(N42)
 @oid o0903119
+@smap 1(N42~a)
 @form 1(N42~a)
 @oid o0903120
 @list U+12629
@@ -26046,6 +26729,7 @@
 
 @sign 2(N42)
 @oid o0903122
+@smap 2(N42~a)
 @form 2(N42~a)
 @oid o0903123
 @list U+1262A
@@ -26068,6 +26752,7 @@
 
 @sign 3(N42)
 @oid o0903125
+@smap 3(N42~a)
 @form 3(N42~a)
 @oid o0903126
 @list U+1262B
@@ -26090,6 +26775,7 @@
 
 @sign 4(N42)
 @oid o0903128
+@smap 4(N42~a)
 @form 4(N42~a)
 @oid o0903129
 @list U+1262C
@@ -27022,6 +27708,7 @@
 
 @sign |1(N57).E₂|
 @oid o0903213
+@smap |1(N57).E₂~a|
 @form |1(N57).E₂~a|
 @oid o0903214
 @sys	ADD F3027 CUSAS21 1N57-E2a.png
@@ -27039,6 +27726,7 @@
 
 @sign |1(N57).ŠAH₂|
 @oid o0903218
+@smap |1(N57).ŠAH₂~a|
 @form |1(N57).ŠAH₂~a|
 @oid o0903219
 @aka	|ŠAH₂~a+1(N57)|
@@ -27100,6 +27788,7 @@
 
 @sign |2(N57).BIR₃|
 @oid o0903224
+@smap |2(N57).BIR₃~a|
 @form |2(N57).BIR₃~a|
 @oid o0903225
 @sys	ADD F3029 CUSAS31 2N57-BIR3a.png
@@ -27109,6 +27798,7 @@
 
 @sign |2(N57).KU₆|
 @oid o0903226
+@smap |2(N57).KU₆~a|
 @form |2(N57).KU₆~a|
 @oid o0903227
 @list U+12DF9
@@ -27126,6 +27816,7 @@
 
 @sign |2(N57).SU|
 @oid o0903229
+@smap |2(N57).SU~a|
 @form |2(N57).SU~a|
 @oid o0903230
 @list U+12DFA
@@ -27150,6 +27841,7 @@
 
 @sign |2(N57).UDUNITA|
 @oid o0903232
+@smap |2(N57).UDUNITA~a|
 @form |2(N57).UDUNITA~a|
 @oid o0903233
 @sys	ADD F305C CUSAS01 2N57-UDUNITAa.png
@@ -27186,6 +27878,7 @@
 
 @sign |3(N57).BAR×UŠ|
 @oid o0903237
+@smap |3(N57).BAR×UŠ~a|
 @form |3(N57).BAR×UŠ~a|
 @oid o0903238
 @sys	ADD F305D CUSAS01 3N57-BAR+USHa.png
@@ -27205,6 +27898,7 @@
 
 @sign |3(N57).E₂|
 @oid o0903240
+@smap |3(N57).E₂~b|
 @form |3(N57).E₂~b|
 @oid o0903241
 @list U+12DFE
@@ -27233,6 +27927,7 @@
 @sign |3(N57).NUNUZ|
 @oid o0903244
 @list ZATU424
+@smap |3(N57).NUNUZ~a1|
 @form |3(N57).NUNUZ~a1|
 @oid o0903245
 @list U+12E00
@@ -27256,6 +27951,7 @@
 @sign |3(N57).PIRIG|
 @oid o0903247
 @list ZATU429
+@smap |3(N57).PIRIG~b1|
 @form |3(N57).PIRIG~b1|
 @oid o0903248
 @list U+12E02
@@ -27270,6 +27966,7 @@
 
 @sign |3(N57).SANGA|
 @oid o0903249
+@smap |3(N57).SANGA~a|
 @form |3(N57).SANGA~a|
 @oid o0903250
 @inote	CHECK
@@ -27295,6 +27992,7 @@
 @sign |3(N57).UDU|
 @oid o0903253
 @list ZATU577
+@smap |3(N57).UDU~a|
 @form |3(N57).UDU~a|
 @oid o0903254
 @sys	ADD F305E CUSAS01 3N57-UDUa.png
@@ -27304,6 +28002,7 @@
 
 @sign |3(N57).UDUNITA|
 @oid o0903255
+@smap |3(N57).UDUNITA~a|
 @form |3(N57).UDUNITA~a|
 @oid o0903256
 @sys	ADD F305F CUSAS01 3N57-UDUNITAa.png
@@ -27344,6 +28043,7 @@
 
 @sign |4(N57).KU₃|
 @oid o0903260
+@smap |4(N57).KU₃~a|
 @form |4(N57).KU₃~a|
 @oid o0903261
 @list U+12E06
@@ -27357,6 +28057,7 @@
 
 @sign |4(N57).NI|
 @oid o0903262
+@smap |4(N57).NI~b|
 @form |4(N57).NI~b|
 @oid o0903263
 @list U+12E07
@@ -27391,6 +28092,7 @@
 
 @sign |5(N57).KU₃|
 @oid o0903266
+@smap |5(N57).KU₃~a|
 @form |5(N57).KU₃~a|
 @oid o0903267
 @list U+12E09
@@ -27433,6 +28135,7 @@
 
 @sign |6(N57).KU₃|
 @oid o0903271
+@smap |6(N57).KU₃~a|
 @form |6(N57).KU₃~a|
 @oid o0903272
 @list U+12E0B
@@ -27471,6 +28174,7 @@
 
 @sign |8(N57).NI|
 @oid o0903276
+@smap |8(N57).NI~b|
 @form |8(N57).NI~b|
 @oid o0903277
 @list U+12E0C
@@ -27575,6 +28279,7 @@
 
 @sign |3(N58).UR₃|
 @oid o0903286
+@smap |3(N58).UR₃~b1|
 @form |3(N58).UR₃~b1|
 @oid o0903287
 @list U+12E10
