@@ -93,8 +93,12 @@
 @inote @images 00etc/im-l23190.tab
 
 @inote @images 00etc/im-add.tab
+
+@images 00etc/im-cdli-gh.tab
+
 @sign A
 @oid o0900000
+@sys CDLI-gh img-page
 @list U+12690
 @ucun 𒚐
 @uname A
@@ -108,6 +112,7 @@
 
 @sign |A×AB₂|
 @oid o0900001
+@sys CDLI-gh img-page
 @list U+12691
 @ucun 𒚑
 @uname A TIMES AB2
@@ -118,6 +123,7 @@
 
 @sign |A×EN|
 @oid o0900003
+@sys CDLI-gh img-page
 @list ZATU002
 @smap |A×EN~a~v2|
 @form |A×EN~a~v2|
@@ -134,6 +140,7 @@
 
 @sign |A×1(N14)|
 @oid o0900005
+@sys CDLI-gh img-page
 @list U+12695
 @ucun 𒚕
 @uname A TIMES ONE-N14
@@ -145,6 +152,7 @@
 
 @sign |A×ŠUBUR|
 @oid o0900006
+@sys CDLI-gh img-page
 @list U+12693
 @ucun 𒚓
 @uname A TIMES SHUBUR
@@ -156,6 +164,7 @@
 
 @sign |A×ZATU672|
 @oid o0900007
+@sys CDLI-gh img-page
 @list U+12694
 @ucun 𒚔
 @uname A TIMES ZATU672
@@ -167,6 +176,7 @@
 
 @sign A@t
 @oid o0900009
+@sys CDLI-gh img-page
 @list U+12696
 @ucun 𒚖
 @uname A TENU
@@ -177,6 +187,7 @@
 
 @sign A₂
 @oid o0900010
+@sys CDLI-gh img-page
 @list U+12697
 @ucun 𒚗
 @uname A2
@@ -190,6 +201,7 @@
 
 @sign AB
 @oid o0900011
+@sys CDLI-gh img-page
 @list ZATU007
 @smap AB~a
 @form AB~a
@@ -226,6 +238,7 @@
 
 @sign |AB×A|
 @oid o0900015
+@sys CDLI-gh img-page
 @list ZATU008
 @smap |AB~b×A|
 @form |AB~b×A|
@@ -241,6 +254,7 @@
 
 @sign |AB×A@t|
 @oid o0900017
+@sys CDLI-gh img-page
 @smap |AB~a×A@t|
 @form |AB~a×A@t|
 @oid o0900018
@@ -255,6 +269,7 @@
 
 @sign |AB×AŠ₂|
 @oid o0900019
+@sys CDLI-gh img-page
 @list ZATU009
 @smap |AB~a×AŠ₂|
 @form |AB~a×AŠ₂|
@@ -271,6 +286,7 @@
 
 @sign |AB×KU₆|
 @oid o0900021
+@sys CDLI-gh img-page
 @smap |AB~a×KU₆~a|
 @form |AB~a×KU₆~a|
 @oid o0900022
@@ -294,6 +310,7 @@
 
 @sign |AB×1(N01)|
 @oid o0900024
+@sys CDLI-gh img-page
 @smap |AB~a×1(N01)|
 @form |AB~a×1(N01)|
 @oid o0900025
@@ -318,6 +335,7 @@
 
 @sign |AB×SUKKAL|
 @oid o0900028
+@sys CDLI-gh img-page
 @smap |AB~a×SUKKAL|
 @form |AB~a×SUKKAL|
 @oid o0900029
@@ -332,6 +350,7 @@
 
 @sign |AB×ŠA₃|
 @oid o0900030
+@sys CDLI-gh img-page
 @smap |AB~b×ŠA₃~a1|
 @form |AB~b×ŠA₃~a1|
 @oid o0900031
@@ -346,6 +365,7 @@
 
 @sign |AB×(ŠE&ŠE)|
 @oid o0900032
+@sys CDLI-gh img-page
 @smap |AB~a×(ŠE~a&ŠE~a)|
 @form |AB~a×(ŠE~a&ŠE~a)|
 @oid o0900033
@@ -361,6 +381,7 @@
 
 @sign |AB×X|
 @oid o0900034
+@sys CDLI-gh img-page
 @smap |AB~a×X|
 @form |AB~a×X|
 @oid o0900035
@@ -378,6 +399,7 @@
 
 @sign |AB×ZATU659|
 @oid o0900037
+@sys CDLI-gh img-page
 @list ZATU010
 @smap |AB~a×ZATU659|
 @form |AB~a×ZATU659|
@@ -395,6 +417,7 @@
 
 @sign AB@g
 @oid o0900039
+@sys CDLI-gh img-page
 @list ZATU011
 @smap AB~a@g
 @form AB~a@g
@@ -411,6 +434,7 @@
 
 @sign AB₂
 @oid o0900041
+@sys CDLI-gh img-page
 @list U+126A7
 @ucun 𒚧
 @uname AB2
@@ -435,6 +459,7 @@
 
 @sign |AB₂×2(N14)|
 @oid o0900043
+@sys CDLI-gh img-page
 @list U+126A8
 @ucun 𒚨
 @uname AB2 TIMES TWO-N14
@@ -463,6 +488,7 @@
 
 @sign ABGAL
 @oid o0900047
+@sys CDLI-gh img-page
 @list U+126AB
 @ucun 𒚫
 @uname ABGAL
@@ -484,6 +510,7 @@
 
 @sign ABRIG
 @oid o0900049
+@sys CDLI-gh img-page
 @list U+126AD
 @ucun 𒚭
 @uname ABRIG
@@ -496,6 +523,7 @@
 
 @sign ABZU
 @oid o0900050
+@sys CDLI-gh img-page
 @list U+126AE
 @ucun 𒚮
 @uname ABZU
@@ -516,6 +544,7 @@
 
 @sign AD
 @oid o0900052
+@sys CDLI-gh img-page
 @list ZATU018
 @smap AD~a
 @form AD~a
@@ -552,6 +581,7 @@
 
 @sign ADAB
 @oid o0900056
+@sys CDLI-gh img-page
 @list U+126B2
 @ucun 𒚲
 @uname ADAB
@@ -570,6 +600,7 @@
 
 @sign ADDA
 @oid o0900058
+@sys CDLI-gh img-page
 @list U+126B3
 @ucun 𒚳
 @uname ADDA
@@ -584,6 +615,7 @@
 
 @sign ADDA@t
 @oid o0900059
+@sys CDLI-gh img-page
 @aka	ADDA@t~b
 @list U+126B4
 @ucun 𒚴
@@ -595,6 +627,7 @@
 
 @sign AGAR₂
 @oid o0900060
+@sys CDLI-gh img-page
 @list U+126B5
 @ucun 𒚵
 @uname AGAR2
@@ -607,6 +640,7 @@
 
 @sign AK
 @oid o0900061
+@sys CDLI-gh img-page
 @list ZATU023
 @smap AK~a
 @form AK~a
@@ -633,6 +667,7 @@
 
 @sign AL
 @oid o0900064
+@sys CDLI-gh img-page
 @list U+126B8
 @ucun 𒚸
 @uname AL
@@ -646,6 +681,7 @@
 
 @sign ALAN
 @oid o0900065
+@sys CDLI-gh img-page
 @list ZATU025
 @smap ALAN~a
 @form ALAN~a
@@ -698,6 +734,7 @@
 
 @sign ALIM
 @oid o0900072
+@sys CDLI-gh img-page
 @aka	ALIM~a
 @list U+126BE
 @ucun 𒚾
@@ -712,6 +749,7 @@
 
 @sign AM
 @oid o0900073
+@sys CDLI-gh img-page
 @list ZATU027
 @smap AM~a
 @form AM~a
@@ -737,6 +775,7 @@
 
 @sign AMA
 @oid o0900076
+@sys CDLI-gh img-page
 @list ZATU028
 @smap AMA~a
 @form AMA~a
@@ -774,6 +813,7 @@
 
 @sign |AMA×E₂|
 @oid o0900080
+@sys CDLI-gh img-page
 @smap |AMA~a×E₂~a|
 @form |AMA~a×E₂~a|
 @oid o0900081
@@ -788,6 +828,7 @@
 
 @sign AMAR
 @oid o0900082
+@sys CDLI-gh img-page
 @list U+126C5
 @ucun 𒛅
 @uname AMAR
@@ -819,6 +860,7 @@
 
 @sign |AMAR.1(N02)|
 @oid o0900085
+@sys CDLI-gh img-page
 @list U+126C6
 @ucun 𒛆
 @uname AMAR BESIDE ONE-N2
@@ -829,6 +871,7 @@
 
 @sign |AMAR~v2×TAR~c|
 @oid o0900086
+@sys CDLI-gh img-page
 @aka	|AMAR×TAR~d|
 @aka	|AMAR×TAR|
 @list U+126CB
@@ -842,6 +885,7 @@
 
 @sign |AMAR&AMAR|
 @oid o0900087
+@sys CDLI-gh img-page
 @list U+126C7
 @ucun 𒛇
 @uname AMAR OVER AMAR
@@ -852,6 +896,7 @@
 
 @sign AMAR@g
 @oid o0900088
+@sys CDLI-gh img-page
 @list U+126C8
 @ucun 𒛈
 @uname AMAR GUNU
@@ -862,6 +907,7 @@
 
 @sign AN
 @oid o0900089
+@sys CDLI-gh img-page
 @list U+126CC
 @ucun 𒛌
 @uname AN
@@ -888,6 +934,7 @@
 
 @sign ANŠE
 @oid o0900092
+@sys CDLI-gh img-page
 @list ZATU032
 @smap ANŠE~a
 @form ANŠE~a
@@ -940,6 +987,7 @@
 
 @sign APIN
 @oid o0900099
+@sys CDLI-gh img-page
 @list ZATU033
 @smap APIN~a
 @form APIN~a
@@ -977,6 +1025,7 @@
 
 @sign |APIN.APIN|
 @oid o0900103
+@sys CDLI-gh img-page
 @smap |APIN~a.APIN~a|
 @form |APIN~a.APIN~a|
 @oid o0900104
@@ -991,6 +1040,7 @@
 
 @sign ARARMA₂
 @oid o0900105
+@sys CDLI-gh img-page
 @smap ARARMA₂~a
 @form ARARMA₂~a
 @oid o0900106
@@ -1026,6 +1076,7 @@
 
 @sign ARATTA
 @oid o0900109
+@sys CDLI-gh img-page
 @list U+126D9
 @ucun 𒛙
 @uname ARATTA
@@ -1037,6 +1088,7 @@
 
 @sign ASAR
 @oid o0900111
+@sys CDLI-gh img-page
 @list U+126DA
 @ucun 𒛚
 @uname ASAR
@@ -1049,6 +1101,7 @@
 
 @sign AŠ₂
 @oid o0900112
+@sys CDLI-gh img-page
 @list U+126DB
 @ucun 𒛛
 @uname ASH2
@@ -1060,6 +1113,7 @@
 
 @sign AZ
 @oid o0900113
+@sys CDLI-gh img-page
 @list U+126DC
 @ucun 𒛜
 @uname AZ
@@ -1071,6 +1125,7 @@
 
 @sign AZU
 @oid o0900114
+@sys CDLI-gh img-page
 @list U+126DD
 @ucun 𒛝
 @uname AZU
@@ -1083,6 +1138,7 @@
 
 @sign BA
 @oid o0900115
+@sys CDLI-gh img-page
 @list U+126DE
 @ucun 𒛞
 @uname BA
@@ -1096,6 +1152,7 @@
 
 @sign BAD
 @oid o0900116
+@sys CDLI-gh img-page
 @list U+126DF
 @ucun 𒛟
 @uname BAD
@@ -1110,6 +1167,7 @@
 
 @sign |BAD&BAD|
 @oid o0900117
+@sys CDLI-gh img-page
 @aka	|BAD+BAD|
 @list U+126E0
 @ucun 𒛠
@@ -1123,6 +1181,7 @@
 
 @sign BAD₃
 @oid o0900118
+@sys CDLI-gh img-page
 @list ZATU044
 @smap BAD₃~a
 @form BAD₃~a
@@ -1167,6 +1226,7 @@
 
 @sign BAHAR₂
 @oid o0900123
+@sys CDLI-gh img-page
 @list ZATU045
 @smap BAHAR₂~a
 @form BAHAR₂~a
@@ -1221,6 +1281,7 @@
 
 @sign BALA
 @oid o0900129
+@sys CDLI-gh img-page
 @list ZATU046
 @smap BALA~a
 @form BALA~a
@@ -1255,6 +1316,7 @@
 
 @sign BALAG
 @oid o0900133
+@sys CDLI-gh img-page
 @list U+126EC
 @ucun 𒛬
 @uname BALAG
@@ -1277,6 +1339,7 @@
 
 @sign BAN
 @oid o0900135
+@sys CDLI-gh img-page
 @list ZATU048
 @list ZATU055
 @smap BAN~a
@@ -1322,6 +1385,7 @@
 
 @sign BANŠUR
 @oid o0900140
+@sys CDLI-gh img-page
 @list ZATU049
 @smap BANŠUR~a
 @form BANŠUR~a
@@ -1367,6 +1431,7 @@
 
 @sign BANŠUR@t
 @oid o0900145
+@sys CDLI-gh img-page
 @smap BANŠUR~a@t
 @form BANŠUR~a@t
 @oid o0900146
@@ -1381,6 +1446,7 @@
 
 @sign BAPPIR
 @oid o0900147
+@sys CDLI-gh img-page
 @list ZATU050
 @smap BAPPIR~a
 @form BAPPIR~a
@@ -1445,6 +1511,7 @@
 
 @sign BAR
 @oid o0900154
+@sys CDLI-gh img-page
 @list U+126FD
 @ucun 𒛽
 @uname BAR
@@ -1468,6 +1535,7 @@
 
 @sign BARA₂
 @oid o0900157
+@sys CDLI-gh img-page
 @list ZATU052
 @smap BARA₂~a
 @form BARA₂~a
@@ -1514,6 +1582,7 @@
 
 @sign BARA₃
 @oid o0900162
+@sys CDLI-gh img-page
 @list U+12702
 @ucun 𒜂
 @uname BARA3
@@ -1522,66 +1591,11 @@
 @sys	AP23 12746
 @sys	AP24 12702
 @sys	LLATU:190_03 BARA₃ 
-@note	Uncertain; BAU021 association with SF 63=P010654 iii 14 questionable; CDLI transliteration of UET 2 168=P005753 ii 2 combines with following sign component and reads |TUR₃×TAK₄~a|?
-@note	Uncertain; only in UET 2, 1, not edited in CDLI.
-@note	Uncertain; only in UET 2 161=P005746 ii 5 where CDLI reads GAL~a# X, taking part of sign as GAL~a.
-@note	Uncertain; only in UET 2, 1, not edited in CDLI.
-@note	Ligature of NUMUN AB@g to understand as a sequence of separate signs.
-@note	Unclear ref to UET 2, 163 iv 4.
-@note	Uncertain, only in U. 14896
-@note	Uncertain, probably two signs X X
-@note	Uncertain, only in UET 2 277=P005867 2 X
-@note	Entry "6(N57)" read GI₆#? in CDLI
-@note	Uncertain, only on sealing.
-@note	Uncertain, only in U. 14896
-@note	Read as sequence TU~b GU₄ A.
-@note	Read as sequence PA ŠA₃~a1
-@note	Read as sequence 2(N57)? ŠA₃~a1
-@note	Read as sequence AMAR AMAR.
-@note	Read as sequence ŠE~a AMAR (possible antecedant of |AMAR×ŠE|)
-@note	Read as sequence BU/SU₃ SAL BAR vel sim.
-@note	Read as sequence MA (AMAR AN) ANŠE~b
-@note	Read as combination UR₂ above MUŠ₃a?
-@note	Read as combination |ŠU₂.AN.HI×KAK|
-@note	Read as sequence x UD E₂ where x is probably not a sign; or U.UD.KID₂??
-@note	Read as sequence ŠU₂~b AN E₂
-@note	Read as sequence ŠU₂~b E₂
-@note	Not an ED I sign; Akkadian MI+ŠITA₂ vel sim.
-@note	SAGŠU (|ŠU₂~b.SAG|) rejected in CDLI transliterations; both instances partly damaged and read X SAG.
-@note	Sealing 1 only.  Possibly DIN@t but not certain.
-@note	Read as sequence NUNUZ NUNUZ.
-@note	Only in UET 2 1
-@note	Read as sequence KU₆~a A
-@note	Sealing only; possibly sequence BA BAR.
-@note	Only on reverse of UET 2 253; probably a drawing rather than a sign.
-@note	Uncertain; read as sequence ZATU659 E₂~a in CDLI. Green ŠU₂+E₂.
-@note	Read as sequence IGI IGI
-@note	Read as sequence IGI EŠ₂
-@note	Sealings only; form is similar to NINDA₂
-@note	Read as sequence X KA~a
-@note	Read as sequence ZI ZI (or possibly |ZI&ZI|)
-@note	Unclear, UET 2 83 requires collation; probably read ŠE~a LA₂ as in i 4.
-@note	Unclear, CDLI reads A SAR~a
-@note	Read as part of ENKUM (UET 2 299 iii 4) and NINKUM# (ibid 5)
-@note	Unclear, only in U.14896; |EZEN~a×KAK|?
-@note	Unclear; CDLI |GEŠTIN×X|
-@note	Uncertain; CDLI ZATU725?
-@note	Old Akkadian sign in supplement; GA₂×U₂.
-@note	Seal U.14896 only. Possibly AB@g.
-@note	Uncertain; CDLI "E₂~a?"
-@note	Uncertain; CDLI X E₂~a
-@note	Read by CDLI as sequence DU DU (or read |DU.DU|=lah₅ etc.)
-@note	UET 2 308, later than ED I, probably ED III
-@note	Read as GU GU (or read |GU.GU| for |GU%GU|=suh₃)
-@note	Read as sequence SAL E₂~a
-@note	Read as sequence NI U₄ (or possibly NA₄)
-@note	Reference to text no. 83 incorrect; Burrows suggests "?=a+šeš (salt water)"
-@note	Symbol from seal
-@note	Symbol from seal
 @end sign
 
 @sign BIR
 @oid o0900164
+@sys CDLI-gh img-page
 @list ZATU054
 @smap BIR~a
 @form BIR~a
@@ -1619,6 +1633,7 @@
 
 @sign BIR₃
 @oid o0900168
+@sys CDLI-gh img-page
 @smap BIR₃~a
 @form BIR₃~a
 @oid o0900169
@@ -1670,6 +1685,7 @@
 
 @sign BU
 @oid o0900174
+@sys CDLI-gh img-page
 @list ZATU056
 @smap BU~a
 @form BU~a
@@ -1718,6 +1734,7 @@
 
 @sign |BU.NA₂|
 @oid o0900180
+@sys CDLI-gh img-page
 @smap |BU~b.NA₂~a~v1|
 @form |BU~b.NA₂~a~v1|
 @oid o0900181
@@ -1733,6 +1750,7 @@
 
 @sign |BU×A|
 @oid o0900182
+@sys CDLI-gh img-page
 @smap |BU~a~v1×A|
 @form	|BU~a~v1×A|
 @oid o0900183
@@ -1749,6 +1767,7 @@
 
 @sign |BU×GIŠ@t|
 @oid o0900184
+@sys CDLI-gh img-page
 @smap |BU~a×GIŠ@t|
 @form |BU~a×GIŠ@t|
 @oid o0900185
@@ -1763,6 +1782,7 @@
 
 @sign |BU×1(N58)|
 @oid o0900186
+@sys CDLI-gh img-page
 @smap |BU~a×1(N58)|
 @form |BU~a×1(N58)|
 @oid o0900187
@@ -1788,6 +1808,7 @@
 
 @sign |(BU&BU).NA₂|
 @oid o0900190
+@sys CDLI-gh img-page
 @list ZATU058
 @smap |(BU~a&BU~a).NA₂~a|
 @form |(BU~a&BU~a).NA₂~a|
@@ -1818,6 +1839,7 @@
 
 @sign |(BU&BU).NA₂@n|
 @oid o0900194
+@sys CDLI-gh img-page
 @smap |(BU~a~v1%BU~a~v1).NA₂~a@n|
 @form	|(BU~a~v1%BU~a~v1).NA₂~a@n|
 @oid o0903398
@@ -1833,6 +1855,7 @@
 
 @sign |(BU&BU).X|
 @oid o0900196
+@sys CDLI-gh img-page
 @smap |(BU~a&BU~a).X|
 @form |(BU~a&BU~a).X|
 @oid o0900197
@@ -1847,6 +1870,7 @@
 
 @sign |BU+DU₆|
 @oid o0900198
+@sys CDLI-gh img-page
 @aka	|BU.DU₆|
 @list ZATU059
 @smap |BU~a+DU₆~a|
@@ -1895,6 +1919,7 @@
 
 @sign BU₃
 @oid o0900205
+@sys CDLI-gh img-page
 @aka	BU₃~a
 @list U+12718
 @ucun 𒜘
@@ -1908,6 +1933,7 @@
 
 @sign BULUG
 @oid o0900206
+@sys CDLI-gh img-page
 @list U+12719
 @ucun 𒜙
 @uname BULUG
@@ -1919,6 +1945,7 @@
 
 @sign BULUG₃
 @oid o0900207
+@sys CDLI-gh img-page
 @list U+1271A
 @ucun 𒜚
 @uname BULUG3
@@ -1942,6 +1969,7 @@
 
 @sign BUR
 @oid o0900210
+@sys CDLI-gh img-page
 @list ZATU063
 @smap BUR~a
 @form BUR~a
@@ -1986,6 +2014,7 @@
 
 @sign BUR₂
 @oid o0900215
+@sys CDLI-gh img-page
 @list U+1271F
 @ucun 𒜟
 @uname BUR2
@@ -2000,6 +2029,7 @@
 
 @sign DA
 @oid o0900216
+@sys CDLI-gh img-page
 @list ZATU065
 @list ZATU542
 @smap DA~a
@@ -2047,6 +2077,7 @@
 
 @sign |DA.LIŠ|
 @oid o0900221
+@sys CDLI-gh img-page
 @smap |DA~a.LIŠ|
 @form |DA~a.LIŠ|
 @oid o0900222
@@ -2061,6 +2092,7 @@
 
 @sign DAH
 @oid o0900224
+@sys CDLI-gh img-page
 @list U+12725
 @ucun 𒜥
 @uname DAH
@@ -2072,6 +2104,7 @@
 
 @sign DAM
 @oid o0900225
+@sys CDLI-gh img-page
 @list U+12726
 @ucun 𒜦
 @uname DAM
@@ -2085,6 +2118,7 @@
 
 @sign DANNA
 @oid o0900226
+@sys CDLI-gh img-page
 @list U+12727
 @ucun 𒜧
 @uname DANNA
@@ -2096,6 +2130,7 @@
 
 @sign DAR
 @oid o0900227
+@sys CDLI-gh img-page
 @list ZATU069
 @smap DAR~a
 @form DAR~a
@@ -2141,6 +2176,7 @@
 
 @sign |DAR×A|
 @oid o0900232
+@sys CDLI-gh img-page
 @smap |DAR~a×A|
 @form |DAR~a×A|
 @oid o0900233
@@ -2155,6 +2191,7 @@
 
 @sign DARA₃
 @oid o0900234
+@sys CDLI-gh img-page
 @list ZATU070
 @smap DARA₃~a
 @form DARA₃~a
@@ -2210,6 +2247,7 @@
 
 @sign |DARA₃×KAR₂|
 @oid o0900240
+@sys CDLI-gh img-page
 @list ZATU071
 @smap |DARA₃~c×KAR₂~b|
 @form |DARA₃~c×KAR₂~b|
@@ -2257,6 +2295,7 @@
 
 @sign |DARA₃×(KAR₂.ŠE)|
 @oid o0900245
+@sys CDLI-gh img-page
 @list ZATU072
 @smap |DARA₃~c×(KAR₂~c.ŠE~a)|
 @form |DARA₃~c×(KAR₂~c.ŠE~a)|
@@ -2283,6 +2322,7 @@
 
 @sign DARA₄
 @oid o0900248
+@sys CDLI-gh img-page
 @list ZATU073
 @smap DARA₄~a1
 @form DARA₄~a1
@@ -2386,6 +2426,7 @@
 
 @sign DI
 @oid o0900260
+@sys CDLI-gh img-page
 @list U+12741
 @ucun 𒝁
 @uname DI
@@ -2399,6 +2440,7 @@
 
 @sign DI@t
 @oid o0900261
+@sys CDLI-gh img-page
 @list U+12742
 @ucun 𒝂
 @uname DI TENU
@@ -2410,6 +2452,7 @@
 
 @sign DIB
 @oid o0900262
+@sys CDLI-gh img-page
 @list U+12743
 @ucun 𒝃
 @uname DIB
@@ -2433,6 +2476,7 @@
 
 @sign DILMUN
 @oid o0900264
+@sys CDLI-gh img-page
 @list U+12745
 @ucun 𒝅
 @uname DILMUN
@@ -2463,6 +2507,7 @@
 
 @sign DIM
 @oid o0900268
+@sys CDLI-gh img-page
 @list ZATU078
 @smap DIM~a
 @form DIM~a
@@ -2497,6 +2542,7 @@
 
 @sign DIN
 @oid o0900276
+@sys CDLI-gh img-page
 @list U+1274B
 @ucun 𒝋
 @uname DIN
@@ -2517,6 +2563,7 @@
 
 @sign DIN@t
 @oid o0900278
+@sys CDLI-gh img-page
 @list U+1274C
 @ucun 𒝌
 @uname DIN TENU
@@ -2541,6 +2588,7 @@
 
 @sign |DU×1(N58@t)|
 @oid o0900281
+@sys CDLI-gh img-page
 @aka	|DU×DIŠ|
 @list U+1274E
 @ucun 𒝎
@@ -2552,6 +2600,7 @@
 
 @sign DU@g
 @oid o0900282
+@sys CDLI-gh img-page
 @list U+1274F
 @ucun 𒝏
 @uname DU GUNU
@@ -2562,6 +2611,7 @@
 
 @sign DU₆
 @oid o0900283
+@sys CDLI-gh img-page
 @list ZATU083
 @smap DU₆~a
 @form DU₆~a
@@ -2612,6 +2662,7 @@
 
 @sign |DU₆×1(N58)|
 @oid o0900289
+@sys CDLI-gh img-page
 @aka	|DU₆×DIŠ|
 @smap |DU₆~a~v1×1(N58)|
 @form |DU₆~a~v1×1(N58)|
@@ -2630,6 +2681,7 @@
 
 @sign DU₇
 @oid o0900291
+@sys CDLI-gh img-page
 @list U+12755
 @ucun 𒝕
 @uname DU7
@@ -2643,6 +2695,7 @@
 
 @sign DU₈
 @oid o0900292
+@sys CDLI-gh img-page
 @list ZATU085
 @smap DU₈~a
 @form DU₈~a
@@ -2710,6 +2763,7 @@
 
 @sign |DU₈×HI|
 @oid o0900302
+@sys CDLI-gh img-page
 @smap |DU₈~c×HI|
 @form |DU₈~c×HI|
 @oid o0900303
@@ -2724,6 +2778,7 @@
 
 @sign |DU₈×UDU|
 @oid o0900304
+@sys CDLI-gh img-page
 @smap |DU₈~c×UDU~a|
 @form |DU₈~c×UDU~a|
 @oid o0900305
@@ -2739,6 +2794,7 @@
 
 @sign |DU₈×X|
 @oid o0900306
+@sys CDLI-gh img-page
 @smap |DU₈~c×X|
 @form |DU₈~c×X|
 @oid o0900307
@@ -2753,6 +2809,7 @@
 
 @sign DU₈@g
 @oid o0900308
+@sys CDLI-gh img-page
 @smap DU₈~c@g
 @form DU₈~c@g
 @oid o0900309
@@ -2779,6 +2836,7 @@
 
 @sign DUB
 @oid o0900311
+@sys CDLI-gh img-page
 @list ZATU086
 @smap DUB~a
 @form DUB~a
@@ -2888,6 +2946,7 @@
 @compoundonly |DUB@n~a×1(N58)|
 @sign |DUB@n×1(N58)|
 @oid o0900323
+@sys CDLI-gh img-page
 @aka	|DUB@n×DIŠ|
 @list ZATU087
 @inote	all DUB×DIŠ should be changed to DUB×1(N58)
@@ -2936,6 +2995,7 @@
 
 @sign DUB₂
 @oid o0900329
+@sys CDLI-gh img-page
 @list U+1276C
 @ucun 𒝬
 @uname DUB2
@@ -2947,6 +3007,7 @@
 
 @sign DUG
 @oid o0900330
+@sys CDLI-gh img-page
 @list ZATU088
 @smap DUG~a
 @form DUG~a
@@ -3034,6 +3095,7 @@
 
 @sign |DUG×AB₂|
 @oid o0900339
+@sys CDLI-gh img-page
 @list ZATU089
 @smap |DUG~b~v1×AB₂|
 @form |DUG~b~v1×AB₂|
@@ -3052,6 +3114,7 @@
 
 @sign |DUG×ANŠE|
 @oid o0900341
+@sys CDLI-gh img-page
 @list ZATU090
 @smap |DUG~b×ANŠE~b|
 @form |DUG~b×ANŠE~b|
@@ -3090,6 +3153,7 @@
 
 @sign |DUG×BALA|
 @oid o0900346
+@sys CDLI-gh img-page
 @list ZATU094
 @smap |DUG~b×BALA~a|
 @form |DUG~b×BALA~a|
@@ -3107,6 +3171,7 @@
 
 @sign |DUG×BIR₃|
 @oid o0900348
+@sys CDLI-gh img-page
 @list ZATU095
 @smap |DUG~b×BIR₃~c|
 @form |DUG~b×BIR₃~c|
@@ -3124,6 +3189,7 @@
 
 @sign |DUG×DIN|
 @oid o0900350
+@sys CDLI-gh img-page
 @list ZATU096
 @smap |DUG~b×DIN|
 @form |DUG~b×DIN|
@@ -3151,6 +3217,7 @@
 
 @sign |(DUG×DIN)@r|
 @oid o0900353
+@sys CDLI-gh img-page
 @smap |(DUG~b×DIN)@r|
 @form |(DUG~b×DIN)@r|
 @oid o0900354
@@ -3166,6 +3233,7 @@
 
 @sign |DUG×E|
 @oid o0900355
+@sys CDLI-gh img-page
 @smap |DUG~b×E~a|
 @form |DUG~b×E~a|
 @oid o0900356
@@ -3180,6 +3248,7 @@
 
 @sign |DUG×GA|
 @oid o0900357
+@sys CDLI-gh img-page
 @list ZATU097
 @smap |DUG~b×GA~a~v4|
 @form |DUG~b×GA~a~v4|
@@ -3208,6 +3277,7 @@
 
 @sign |DUG×GEŠTU|
 @oid o0900360
+@sys CDLI-gh img-page
 @list ZATU098
 @smap |DUG~b×GEŠTU~a~v2|
 @form |DUG~b×GEŠTU~a~v2|
@@ -3246,6 +3316,7 @@
 
 @sign |DUG×GI₆|
 @oid o0900364
+@sys CDLI-gh img-page
 @list ZATU099
 @smap |DUG~b×GI₆|
 @form |DUG~b×GI₆|
@@ -3263,6 +3334,7 @@
 
 @sign |DUG×GIŠ|
 @oid o0900366
+@sys CDLI-gh img-page
 @list ZATU100
 @smap |DUG~b×GIŠ|
 @form |DUG~b×GIŠ|
@@ -3280,6 +3352,7 @@
 
 @sign |DUG×HI|
 @oid o0900368
+@sys CDLI-gh img-page
 @list ZATU101
 @smap |DUG~b×HI|
 @form |DUG~b×HI|
@@ -3310,6 +3383,7 @@
 
 @sign |DUG×HI@g|
 @oid o0900372
+@sys CDLI-gh img-page
 @list ZATU102
 @smap |DUG~b~v1×HI@g~a|
 @form |DUG~b~v1×HI@g~a|
@@ -3326,6 +3400,7 @@
 
 @sign |DUG×KASKAL|
 @oid o0900374
+@sys CDLI-gh img-page
 @list ZATU103
 @smap |DUG~a×KASKAL|
 @form |DUG~a×KASKAL|
@@ -3352,6 +3427,7 @@
 
 @sign |DUG×KU₆|
 @oid o0900377
+@sys CDLI-gh img-page
 @list ZATU104
 @smap |DUG~a×KU₆~a|
 @form |DUG~a×KU₆~a|
@@ -3374,6 +3450,7 @@
 
 @sign |DUG×KUR|
 @oid o0900380
+@sys CDLI-gh img-page
 @list ZATU105
 @smap |DUG~b×KUR~a|
 @form |DUG~b×KUR~a|
@@ -3401,6 +3478,7 @@
 
 @sign |DUG×(KUR.X)|
 @oid o0900383
+@sys CDLI-gh img-page
 @smap |DUG~b×(KUR~a.X)|
 @form |DUG~b×(KUR~a.X)|
 @oid o0900384
@@ -3417,6 +3495,7 @@
 
 @sign |DUG×KUR@g|
 @oid o0900385
+@sys CDLI-gh img-page
 @aka	|DUG+(LAM+KUR)|
 @list ZATU107
 @smap |DUG~b×KUR@g~a|
@@ -3434,6 +3513,7 @@
 
 @sign |DUG×LAM|
 @oid o0900387
+@sys CDLI-gh img-page
 @list ZATU106
 @smap |DUG~a×LAM~b|
 @form |DUG~a×LAM~b|
@@ -3460,6 +3540,7 @@
 
 @sign |DUG×MAŠ|
 @oid o0900390
+@sys CDLI-gh img-page
 @list ZATU108
 @smap |DUG~b×MAŠ|
 @form |DUG~b×MAŠ|
@@ -3487,6 +3568,7 @@
 
 @sign |DUG×1(N57)|
 @oid o0900393
+@sys CDLI-gh img-page
 @list ZATU091
 @smap |DUG~a×1(N57)|
 @form |DUG~a×1(N57)|
@@ -3553,6 +3635,7 @@
 
 @sign |DUG×(1(N57).KU₃)|
 @oid o0900400
+@sys CDLI-gh img-page
 @list ZATU092
 @smap |DUG~b×(1(N57).KU₃~a)|
 @form |DUG~b×(1(N57).KU₃~a)|
@@ -3569,6 +3652,7 @@
 
 @sign |DUG×3(N57)|
 @oid o0900402
+@sys CDLI-gh img-page
 @smap |DUG~b×3(N57)|
 @form |DUG~b×3(N57)|
 @oid o0900403
@@ -3594,6 +3678,7 @@
 
 @sign |DUG×NAGA|
 @oid o0900406
+@sys CDLI-gh img-page
 @list ZATU109
 @smap |DUG~a×NAGA~a|
 @form |DUG~a×NAGA~a|
@@ -3620,6 +3705,7 @@
 
 @sign |DUG×NAM₂|
 @oid o0900409
+@sys CDLI-gh img-page
 @smap |DUG~b×NAM₂|
 @form |DUG~b×NAM₂|
 @oid o0900410
@@ -3635,6 +3721,7 @@
 
 @sign |DUG×(NI@g.ZATU779)|
 @oid o0900411
+@sys CDLI-gh img-page
 @smap |DUG~b×(NI~a@g.ZATU779)|
 @form |DUG~b×(NI~a@g.ZATU779)|
 @oid o0900412
@@ -3649,6 +3736,7 @@
 
 @sign |DUG×SA|
 @oid o0900413
+@sys CDLI-gh img-page
 @list ZATU110
 @smap |DUG~b×SA~a|
 @form |DUG~b×SA~a|
@@ -3678,6 +3766,7 @@
 
 @sign |DUG×SI₄|
 @oid o0900417
+@sys CDLI-gh img-page
 @list ZATU112
 @smap |DUG~b×SI₄~a|
 @form |DUG~b×SI₄~a|
@@ -3695,6 +3784,7 @@
 
 @sign |DUG×(SI₄.X)|
 @oid o0900419
+@sys CDLI-gh img-page
 @smap |DUG~b×(SI₄~a.X)|
 @form |DUG~b×(SI₄~a.X)|
 @oid o0900420
@@ -3710,6 +3800,7 @@
 
 @sign |DUG×SIG₂|
 @oid o0900421
+@sys CDLI-gh img-page
 @list ZATU113
 @smap |DUG~b×SIG₂~a1|
 @form |DUG~b×SIG₂~a1|
@@ -3737,6 +3828,7 @@
 
 @sign |DUG×SIG₇|
 @oid o0900424
+@sys CDLI-gh img-page
 @list ZATU114
 @smap |DUG~b×SIG₇|
 @form |DUG~b×SIG₇|
@@ -3754,6 +3846,7 @@
 
 @sign |DUG×SUHUR|
 @oid o0900426
+@sys CDLI-gh img-page
 @list ZATU115
 @smap |DUG~b×SUHUR|
 @form |DUG~b×SUHUR|
@@ -3781,6 +3874,7 @@
 
 @sign |DUG×ŠAH₂|
 @oid o0900430
+@sys CDLI-gh img-page
 @list ZATU117
 @smap |DUG~b×ŠAH₂~a|
 @form |DUG~b×ŠAH₂~a|
@@ -3798,6 +3892,7 @@
 
 @sign |DUG×ŠE|
 @oid o0900432
+@sys CDLI-gh img-page
 @list ZATU118
 @smap |DUG~b×ŠE~a|
 @form |DUG~b×ŠE~a|
@@ -3835,6 +3930,7 @@
 
 @sign |DUG×(ŠE.NAM₂)|
 @oid o0900436
+@sys CDLI-gh img-page
 @aka	|DUG~b+(ŠE~a+NAM₂)|
 @list ZATU119
 @sys	LLATU:202_06 DUG~b+ŠE~a+NAM₂ 
@@ -3852,6 +3948,7 @@
 
 @sign |DUG×TAK₄|
 @oid o0900438
+@sys CDLI-gh img-page
 @list ZATU120
 @smap |DUG~b×TAK₄~a|
 @form |DUG~b×TAK₄~a|
@@ -3869,6 +3966,7 @@
 
 @sign |DUG×(TAK₄.SA)|
 @oid o0900440
+@sys CDLI-gh img-page
 @smap |DUG~b×(TAK₄~a.SA~a)|
 @form |DUG~b×(TAK₄~a.SA~a)|
 @oid o0900441
@@ -3884,6 +3982,7 @@
 
 @sign |DUG×(TAK₄.SAL)|
 @oid o0900442
+@sys CDLI-gh img-page
 @smap |DUG~b×(TAK₄~a.SAL)|
 @form |DUG~b×(TAK₄~a.SAL)|
 @oid o0900443
@@ -3899,6 +3998,7 @@
 
 @sign |DUG×TI|
 @oid o0900444
+@sys CDLI-gh img-page
 @list ZATU121
 @smap |DUG~b×TI|
 @form |DUG~b×TI|
@@ -3916,6 +4016,7 @@
 
 @sign |DUG×U₂|
 @oid o0900446
+@sys CDLI-gh img-page
 @list ZATU122
 @smap |DUG~a×U₂~a|
 @form |DUG~a×U₂~a|
@@ -3990,6 +4091,7 @@
 
 @sign |DUG×UH₃|
 @oid o0900455
+@sys CDLI-gh img-page
 @list ZATU123
 @smap |DUG~b×UH₃~a|
 @form |DUG~b×UH₃~a|
@@ -4007,6 +4109,7 @@
 
 @sign |DUG×UH₃@t|
 @oid o0900457
+@sys CDLI-gh img-page
 @smap |DUG~b×UH₃~a@t|
 @form |DUG~b×UH₃~a@t|
 @oid o0900458
@@ -4022,6 +4125,7 @@
 
 @sign |DUG×X|
 @oid o0900459
+@sys CDLI-gh img-page
 @smap |DUG~b×X|
 @form |DUG~b×X|
 @oid o0900461
@@ -4047,6 +4151,7 @@
 
 @sign |DUG×ZATU707|
 @oid o0900463
+@sys CDLI-gh img-page
 @smap |DUG~b×ZATU707~a|
 @form |DUG~b×ZATU707~a|
 @oid o0900464
@@ -4061,6 +4166,7 @@
 
 @sign |DUG×ZATU764|
 @oid o0900465
+@sys CDLI-gh img-page
 @list ZATU124
 @smap |DUG~b×ZATU764|
 @form |DUG~b×ZATU764|
@@ -4077,6 +4183,7 @@
 
 @sign |DUG×ZATU779|
 @oid o0900467
+@sys CDLI-gh img-page
 @smap |DUG~b×ZATU779|
 @form |DUG~b×ZATU779|
 @oid o0900468
@@ -4093,6 +4200,7 @@
 
 @sign |DUG×ZATU780|
 @oid o0900469
+@sys CDLI-gh img-page
 @smap |DUG~b×ZATU780|
 @form |DUG~b×ZATU780|
 @oid o0900470
@@ -4108,6 +4216,7 @@
 
 @sign |DUG×ZATU781|
 @oid o0900471
+@sys CDLI-gh img-page
 @smap |DUG~b×ZATU781|
 @form |DUG~b×ZATU781|
 @oid o0900472
@@ -4124,6 +4233,7 @@
 
 @sign |DUG×(ZATU789.SA)|
 @oid o0900473
+@sys CDLI-gh img-page
 @smap |DUG~b×(ZATU789.SA~a)|
 @form |DUG~b×(ZATU789.SA~a)|
 @oid o0900474
@@ -4139,6 +4249,7 @@
 
 @sign |(DUG&DUG)×1(N58)|
 @oid o0900475
+@sys CDLI-gh img-page
 @smap |(DUG~b~v1&DUG~b~v1)×1(N58)|
 @form |(DUG~b~v1&DUG~b~v1)×1(N58)|
 @oid o0900476
@@ -4155,6 +4266,7 @@
 
 @sign DUG@t
 @oid o0900477
+@sys CDLI-gh img-page
 @smap DUG~a@t
 @form DUG~a@t
 @oid o0900478
@@ -4189,6 +4301,7 @@
 
 @sign DUGUD
 @oid o0900481
+@sys CDLI-gh img-page
 @list U+127C2
 @ucun 𒟂
 @uname DUGUD
@@ -4200,6 +4313,7 @@
 
 @sign DUR
 @oid o0900482
+@sys CDLI-gh img-page
 @list ZATU126
 @smap DUR~a
 @form DUR~a
@@ -4225,6 +4339,7 @@
 
 @sign DUR₂
 @oid o0900485
+@sys CDLI-gh img-page
 @list U+127C5
 @ucun 𒟅
 @uname DUR2
@@ -4238,6 +4353,7 @@
 
 @sign E
 @oid o0900486
+@sys CDLI-gh img-page
 @list ZATU128
 @smap E~a
 @form E~a
@@ -4280,6 +4396,7 @@
 
 @sign E₂
 @oid o0900492
+@sys CDLI-gh img-page
 @list ZATU129
 @smap E₂~a
 @form E₂~a
@@ -4325,6 +4442,7 @@
 
 @sign |E₂.LIŠ|
 @oid o0900497
+@sys CDLI-gh img-page
 @smap |E₂~a.LIŠ|
 @form |E₂~a.LIŠ|
 @oid o0900498
@@ -4358,6 +4476,7 @@
 
 @sign |E₂×1(N58@t)|
 @oid o0900502
+@sys CDLI-gh img-page
 @list ZATU131
 @smap |E₂~a×1(N58@t)|
 @form |E₂~a×1(N58@t)|
@@ -4389,6 +4508,7 @@
 
 @sign |E₂×3(N58)|
 @oid o0900505
+@sys CDLI-gh img-page
 @smap |E₂~a×3(N58)|
 @form |E₂~a×3(N58)|
 @oid o0900506
@@ -4403,6 +4523,7 @@
 
 @sign E₃
 @oid o0900507
+@sys CDLI-gh img-page
 @list ZATU132
 @smap E₃~a
 @form E₃~a
@@ -4428,6 +4549,7 @@
 
 @sign EDIN
 @oid o0900511
+@sys CDLI-gh img-page
 @list U+127D5
 @ucun 𒟕
 @uname EDIN
@@ -4440,6 +4562,7 @@
 
 @sign EN
 @oid o0900512
+@sys CDLI-gh img-page
 @list ZATU134
 @smap EN~a
 @form EN~a
@@ -4531,6 +4654,7 @@
 
 @sign |EN&EN|
 @oid o0900522
+@sys CDLI-gh img-page
 @smap |EN~c&EN~c|
 @form |EN~c&EN~c|
 @oid o0900523
@@ -4545,6 +4669,7 @@
 
 @sign EN@g
 @oid o0900524
+@sys CDLI-gh img-page
 @list ZATU137
 @smap EN@g~a
 @form EN@g~a
@@ -4569,6 +4694,7 @@
 
 @sign EN@t
 @oid o0900527
+@sys CDLI-gh img-page
 @smap EN~b@t
 @form EN~b@t
 @oid o0900528
@@ -4583,6 +4709,7 @@
 
 @sign EN₂
 @oid o0900529
+@sys CDLI-gh img-page
 @list U+127E3
 @ucun 𒟣
 @uname EN2
@@ -4594,6 +4721,7 @@
 
 @sign |EN₂.E₂|
 @oid o0900530
+@sys CDLI-gh img-page
 @smap |EN₂.E₂~a|
 @form |EN₂.E₂~a|
 @oid o0900531
@@ -4618,6 +4746,7 @@
 
 @sign ENDIB
 @oid o0900533
+@sys CDLI-gh img-page
 @list U+127E6
 @ucun 𒟦
 @uname ENDIB
@@ -4630,6 +4759,7 @@
 
 @sign ENGIZ
 @oid o0900534
+@sys CDLI-gh img-page
 @list U+127E7
 @ucun 𒟧
 @uname ENGIZ
@@ -4642,6 +4772,7 @@
 
 @sign ENKUM
 @oid o0900535
+@sys CDLI-gh img-page
 @list U+127E8
 @ucun 𒟨
 @uname ENKUM
@@ -4663,6 +4794,7 @@
 
 @sign ENLIL
 @oid o0900537
+@sys CDLI-gh img-page
 @list U+127EA
 @ucun 𒟪
 @uname ENLIL
@@ -4675,6 +4807,7 @@
 
 @sign ERIM
 @oid o0900540
+@sys CDLI-gh img-page
 @list ZATU143
 @smap ERIM~a
 @form ERIM~a
@@ -4713,6 +4846,7 @@
 
 @sign ERIM₂
 @oid o0900544
+@sys CDLI-gh img-page
 @list U+127EE
 @ucun 𒟮
 @uname ERIM2
@@ -4725,6 +4859,7 @@
 
 @sign ERIN
 @oid o0900545
+@sys CDLI-gh img-page
 @list U+127EF
 @ucun 𒟯
 @uname ERIN
@@ -4738,6 +4873,7 @@
 
 @sign EŠDA
 @oid o0900546
+@sys CDLI-gh img-page
 @list U+127F0
 @ucun 𒟰
 @uname ESHDA
@@ -4750,6 +4886,7 @@
 
 @sign	|EŠDA×TAR~a|
 @oid o0900547
+@sys CDLI-gh img-page
 @aka	|EŠDA×TAR|
 @list U+127F1
 @ucun 𒟱
@@ -4762,6 +4899,7 @@
 
 @sign EŠGAR
 @oid o0900548
+@sys CDLI-gh img-page
 @list U+127F2
 @ucun 𒟲
 @uname ESHGAR
@@ -4773,6 +4911,7 @@
 
 @sign EZEN
 @oid o0900549
+@sys CDLI-gh img-page
 @list ZATU150
 @smap EZEN~a
 @form EZEN~a
@@ -4816,6 +4955,7 @@
 
 @sign |EZEN×EN|
 @oid o0900555
+@sys CDLI-gh img-page
 @list ZATU151
 @smap |EZEN~a~v1×EN~a|
 @form |EZEN~a~v1×EN~a|
@@ -4842,6 +4982,7 @@
 
 @sign |EZEN×(HI.1(N57).AN)|
 @oid o0900558
+@sys CDLI-gh img-page
 @smap |EZEN~a×(HI×1(N57).AN)|
 @form |EZEN~a×(HI×1(N57).AN)|
 @oid o0900559
@@ -4857,6 +4998,7 @@
 
 @sign |EZEN×KAB|
 @oid o0900560
+@sys CDLI-gh img-page
 @list ZATU152
 @smap |EZEN~a×KAB|
 @form |EZEN~a×KAB|
@@ -4882,6 +5024,7 @@
 
 @sign |EZEN×KI|
 @oid o0900564
+@sys CDLI-gh img-page
 @smap |EZEN~a×KI|
 @form |EZEN~a×KI|
 @oid o0900565
@@ -4912,8 +5055,8 @@
 @sign |EZEN×6(N57)|
 @oid o0900569
 @note PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
-@smap |EZEN~b×6(N57)|~v1
-@form	|EZEN~b×6(N57)|~v1
+@smap |EZEN~b×6(N57)|
+@form	|EZEN~b×6(N57)|
 @oid o0900570
 @list U+12804
 @ucun 𒠄
@@ -4926,6 +5069,7 @@
 
 @sign |EZEN×NIM|
 @oid o0900572
+@sys CDLI-gh img-page
 @list ZATU153
 @smap |EZEN~a×NIM~b2|
 @form |EZEN~a×NIM~b2|
@@ -4941,6 +5085,7 @@
 
 @sign |EZEN×NIMGIR|
 @oid o0900574
+@sys CDLI-gh img-page
 @list ZATU154
 @smap |EZEN~a×NIMGIR|
 @form |EZEN~a×NIMGIR|
@@ -4956,6 +5101,7 @@
 
 @sign |EZEN×RAD|
 @oid o0900576
+@sys CDLI-gh img-page
 @list ZATU155
 @smap |EZEN~a×RAD~a|
 @form |EZEN~a×RAD~a|
@@ -4971,6 +5117,7 @@
 
 @sign |EZEN×SAG|
 @oid o0900578
+@sys CDLI-gh img-page
 @smap |EZEN~a×SAG~v1|
 @form |EZEN~a×SAG~v1|
 @oid o0900579
@@ -4986,6 +5133,7 @@
 
 @sign |EZEN×SU|
 @oid o0900580
+@sys CDLI-gh img-page
 @list ZATU156
 @smap |EZEN~a×SU~a|
 @form |EZEN~a×SU~a|
@@ -5002,6 +5150,7 @@
 
 @sign |EZEN×(U₂.A)|
 @oid o0900582
+@sys CDLI-gh img-page
 @list ZATU157
 @smap |EZEN~a×(U₂~b.A)|
 @form |EZEN~a×(U₂~b.A)|
@@ -5017,6 +5166,7 @@
 
 @sign |EZEN×U₄|
 @oid o0900584
+@sys CDLI-gh img-page
 @smap |EZEN~a×U₄|
 @form |EZEN~a×U₄|
 @oid o0900585
@@ -5031,6 +5181,7 @@
 
 @sign |EZEN×X|
 @oid o0900586
+@sys CDLI-gh img-page
 @smap |EZEN~a×X|
 @form |EZEN~a×X|
 @oid o0900587
@@ -5055,6 +5206,7 @@
 
 @sign EZEN@t
 @oid o0900591
+@sys CDLI-gh img-page
 @smap EZEN~b@t
 @form EZEN~b@t
 @oid o0900592
@@ -5069,6 +5221,7 @@
 
 @sign EZINU
 @oid o0900593
+@sys CDLI-gh img-page
 @list ZATU158
 @smap EZINU~a
 @form EZINU~a
@@ -5113,6 +5266,7 @@
 
 @sign GA
 @oid o0900598
+@sys CDLI-gh img-page
 @list ZATU159
 @smap GA~a
 @form GA~a
@@ -5187,6 +5341,7 @@
 
 @sign |GA.ZATU753|
 @oid o0900606
+@sys CDLI-gh img-page
 @list ZATU161
 @smap |GA~a~v1.ZATU753|
 @form |GA~a~v1.ZATU753|
@@ -5213,6 +5368,7 @@
 
 @sign |GA×KASKAL|
 @oid o0900609
+@sys CDLI-gh img-page
 @smap |GA~c×KASKAL|
 @form |GA~c×KASKAL|
 @oid o0900610
@@ -5227,6 +5383,7 @@
 
 @sign |GA×1(N14)|
 @oid o0900611
+@sys CDLI-gh img-page
 @list ZATU160
 @smap |GA~c×1(N14)|
 @form |GA~c×1(N14)|
@@ -5243,6 +5400,7 @@
 
 @sign GA₂
 @oid o0900615
+@sys CDLI-gh img-page
 @list ZATU162
 @smap GA₂~a1
 @form GA₂~a1
@@ -5308,6 +5466,7 @@
 
 @sign |GA₂×A|
 @oid o0900622
+@sys CDLI-gh img-page
 @smap |GA₂~a1×A|
 @form |GA₂~a1×A|
 @oid o0900623
@@ -5324,6 +5483,7 @@
 
 @sign |GA₂×DUB|
 @oid o0900624
+@sys CDLI-gh img-page
 @list ZATU166
 @smap |GA₂~b×DUB~a|
 @form |GA₂~b×DUB~a|
@@ -5362,6 +5522,7 @@
 
 @sign |GA₂×EN|
 @oid o0900629
+@sys CDLI-gh img-page
 @smap |GA₂~a1×EN~a|
 @form |GA₂~a1×EN~a|
 @oid o0900630
@@ -5382,6 +5543,7 @@
 
 @sign |GA₂×GEŠTU|
 @oid o0900632
+@sys CDLI-gh img-page
 @smap |GA₂~a1×GEŠTU~a|
 @form |GA₂~a1×GEŠTU~a|
 @oid o0900633
@@ -5410,6 +5572,7 @@
 
 @sign |GA₂×GIR|
 @oid o0900636
+@sys CDLI-gh img-page
 @list ZATU167
 @smap |GA₂~a1×GIR~a|
 @form |GA₂~a1×GIR~a|
@@ -5425,6 +5588,7 @@
 
 @sign |GA₂×(GIR.KU₆)|
 @oid o0900638
+@sys CDLI-gh img-page
 @smap |GA₂~a1×(GIR~a.KU₆~a)|
 @form |GA₂~a1×(GIR~a.KU₆~a)|
 @oid o0900639
@@ -5439,6 +5603,7 @@
 
 @sign |GA₂×GIŠ@t|
 @oid o0900640
+@sys CDLI-gh img-page
 @list ZATU168
 @smap |GA₂~a1×GIŠ@t|
 @form |GA₂~a1×GIŠ@t|
@@ -5455,6 +5620,7 @@
 
 @sign |GA₂×GU₄|
 @oid o0900642
+@sys CDLI-gh img-page
 @smap |GA₂~a2×GU₄|
 @form |GA₂~a2×GU₄|
 @oid o0900644
@@ -5469,6 +5635,7 @@
 
 @sign |GA₂×(GU₄.ŠE₃)|
 @oid o0900645
+@sys CDLI-gh img-page
 @list ZATU169
 @smap |GA₂~a2×(ŠE₃~v1.GU₄)|
 @form |GA₂~a2×(ŠE₃~v1.GU₄)|
@@ -5485,6 +5652,7 @@
 
 @sign |GA₂×HAL|
 @oid o0900647
+@sys CDLI-gh img-page
 @smap |GA₂~a1×HAL|
 @form |GA₂~a1×HAL|
 @oid o0900648
@@ -5500,6 +5668,7 @@
 
 @sign |GA₂×HI|
 @oid o0900649
+@sys CDLI-gh img-page
 @list ZATU170
 @smap |GA₂~a1×HI|
 @form |GA₂~a1×HI|
@@ -5517,6 +5686,7 @@
 
 @sign |GA₂×(HI.SUHUR)|
 @oid o0900651
+@sys CDLI-gh img-page
 @list ZATU171
 @smap |GA₂~a1×(HI.SUHUR~v1)|
 @form |GA₂~a1×(HI.SUHUR~v1)|
@@ -5532,6 +5702,7 @@
 
 @sign |GA₂×KU₃|
 @oid o0900653
+@sys CDLI-gh img-page
 @list ZATU172
 @smap |GA₂~a1×KU₃~a|
 @form |GA₂~a1×KU₃~a|
@@ -5557,6 +5728,7 @@
 
 @sign |GA₂×KU₆|
 @oid o0900656
+@sys CDLI-gh img-page
 @list ZATU173
 @smap |GA₂~a1×KU₆~a|
 @form |GA₂~a1×KU₆~a|
@@ -5579,6 +5751,7 @@
 
 @sign |GA₂×(KU₆.KU₆)|
 @oid o0900659
+@sys CDLI-gh img-page
 @list ZATU174
 @smap |GA₂~a1×(KU₆~a.KU₆~a)|
 @form |GA₂~a1×(KU₆~a.KU₆~a)|
@@ -5594,6 +5767,7 @@
 
 @sign |GA₂×LAGAB|
 @oid o0900661
+@sys CDLI-gh img-page
 @smap |GA₂~a1×LAGAB~b|
 @form |GA₂~a1×LAGAB~b|
 @oid o0900662
@@ -5608,6 +5782,7 @@
 
 @sign |GA₂×MAŠ|
 @oid o0900663
+@sys CDLI-gh img-page
 @list ZATU176
 @smap |GA₂~a1×MAŠ|
 @form |GA₂~a1×MAŠ|
@@ -5624,6 +5799,7 @@
 
 @sign |GA₂×1(N14)|
 @oid o0900665
+@sys CDLI-gh img-page
 @list ZATU182
 @smap |GA₂~a1×1(N14)|
 @form |GA₂~a1×1(N14)|
@@ -5639,6 +5815,7 @@
 
 @sign |GA₂×1(N57)|
 @oid o0900667
+@sys CDLI-gh img-page
 @list ZATU164
 @smap |GA₂~a1×1(N57)|
 @form |GA₂~a1×1(N57)|
@@ -5654,6 +5831,7 @@
 
 @sign |GA₂×3(N57)|
 @oid o0900669
+@sys CDLI-gh img-page
 @smap |GA₂~a1×3(N57)|
 @form |GA₂~a1×3(N57)|
 @oid o0900670
@@ -5684,6 +5862,7 @@
 
 @sign |GA₂×NAGA|
 @oid o0900674
+@sys CDLI-gh img-page
 @list ZATU177
 @smap |GA₂~a1×NAGA~a|
 @form |GA₂~a1×NAGA~a|
@@ -5699,6 +5878,7 @@
 
 @sign |GA₂×NI|
 @oid o0900676
+@sys CDLI-gh img-page
 @list ZATU178
 @smap |GA₂~a2×NI~a|
 @form |GA₂~a2×NI~a|
@@ -5723,6 +5903,7 @@
 
 @sign |GA₂×NIM|
 @oid o0900679
+@sys CDLI-gh img-page
 @smap |GA₂~a1×NIM~b1|
 @form |GA₂~a1×NIM~b1|
 @oid o0900680
@@ -5749,6 +5930,7 @@
 
 @sign |GA₂×PAD|
 @oid o0900684
+@sys CDLI-gh img-page
 @smap |GA₂~a1×PAD~b|
 @form |GA₂~a1×PAD~b|
 @oid o0900685
@@ -5763,6 +5945,7 @@
 
 @sign |GA₂×PAP|
 @oid o0900686
+@sys CDLI-gh img-page
 @smap |GA₂~a1×PAP~a|
 @form |GA₂~a1×PAP~a|
 @oid o0900687
@@ -5778,6 +5961,7 @@
 
 @sign |GA₂×SU|
 @oid o0900688
+@sys CDLI-gh img-page
 @smap |GA₂~a1×SU~a|
 @form |GA₂~a1×SU~a|
 @oid o0900689
@@ -5792,6 +5976,7 @@
 
 @sign |GA₂×SUHUR|
 @oid o0900690
+@sys CDLI-gh img-page
 @list ZATU179
 @smap |GA₂~a1×SUHUR|
 @form |GA₂~a1×SUHUR|
@@ -5818,6 +6003,7 @@
 
 @sign |GA₂×SUKUD|
 @oid o0900693
+@sys CDLI-gh img-page
 @list ZATU180
 @smap |GA₂~a1×SUKUD|
 @form |GA₂~a1×SUKUD|
@@ -5833,6 +6019,7 @@
 
 @sign |GA₂×((SUKUD+SUKUD))|
 @oid o0900695
+@sys CDLI-gh img-page
 @smap |GA₂~a1×((SUKUD+SUKUD)~a)|
 @form |GA₂~a1×((SUKUD+SUKUD)~a)|
 @oid o0900696
@@ -5860,6 +6047,7 @@
 
 @sign |GA₂×SUMAŠ|
 @oid o0900698
+@sys CDLI-gh img-page
 @list ZATU181
 @smap |GA₂~a1×SUMAŠ|
 @form |GA₂~a1×SUMAŠ|
@@ -5875,6 +6063,7 @@
 
 @sign |GA₂×ŠA|
 @oid o0900700
+@sys CDLI-gh img-page
 @smap |GA₂~a1×ŠA|
 @form |GA₂~a1×ŠA|
 @oid o0900701
@@ -5889,6 +6078,7 @@
 
 @sign |GA₂×ŠE₃|
 @oid o0900702
+@sys CDLI-gh img-page
 @smap |GA₂~a2×ŠE₃~v1|
 @form |GA₂~a2×ŠE₃~v1|
 @oid o0900703
@@ -5904,6 +6094,7 @@
 
 @sign |GA₂×TI|
 @oid o0900704
+@sys CDLI-gh img-page
 @smap |GA₂~a1×TI|
 @form |GA₂~a1×TI|
 @oid o0900705
@@ -5919,6 +6110,7 @@
 
 @sign |GA₂×U₄|
 @oid o0900706
+@sys CDLI-gh img-page
 @list ZATU183
 @smap |GA₂~a1×U₄|
 @form |GA₂~a1×U₄|
@@ -5935,6 +6127,7 @@
 
 @sign |GA₂×X|
 @oid o0900708
+@sys CDLI-gh img-page
 @smap |GA₂~a1×X|
 @form |GA₂~a1×X|
 @oid o0900709
@@ -5976,6 +6169,7 @@
 
 @sign |GA₂×ZATU659|
 @oid o0900714
+@sys CDLI-gh img-page
 @smap |GA₂~b×ZATU659|
 @form |GA₂~b×ZATU659|
 @oid o0900715
@@ -5999,6 +6193,7 @@
 
 @sign GAʾAR
 @oid o0900718
+@sys CDLI-gh img-page
 @list ZATU184
 @smap GAʾAR~a1
 @form GAʾAR~a1
@@ -6044,6 +6239,7 @@
 
 @sign GADA
 @oid o0900723
+@sys CDLI-gh img-page
 @list ZATU186
 @smap GADA~a
 @form GADA~a
@@ -6071,6 +6267,7 @@
 
 @sign GADA@g
 @oid o0900726
+@sys CDLI-gh img-page
 @list ZATU187
 @smap GADA~b@g
 @form GADA~b@g
@@ -6086,6 +6283,7 @@
 
 @sign GAL
 @oid o0900728
+@sys CDLI-gh img-page
 @list ZATU188
 @smap GAL~a
 @form GAL~a
@@ -6113,6 +6311,7 @@
 
 @sign GALGA
 @oid o0900731
+@sys CDLI-gh img-page
 @list ZATU189
 @smap GALGA~a
 @form GALGA~a
@@ -6139,6 +6338,7 @@
 
 @sign GAN
 @oid o0900735
+@sys CDLI-gh img-page
 @list ZATU190
 @smap GAN~a
 @form GAN~a
@@ -6226,6 +6426,7 @@
 
 @sign |GAN×DIN|
 @oid o0900746
+@sys CDLI-gh img-page
 @smap |GAN~c×DIN|
 @form |GAN~c×DIN|
 @oid o0900747
@@ -6240,6 +6441,7 @@
 
 @sign |GAN×GEŠTU|
 @oid o0900748
+@sys CDLI-gh img-page
 @smap |GAN~d×GEŠTU~a~v2|
 @form |GAN~d×GEŠTU~a~v2|
 @oid o0900749
@@ -6269,6 +6471,7 @@
 
 @sign |GAN×(HI.DIN)|
 @oid o0900754
+@sys CDLI-gh img-page
 @list ZATU191
 @smap |GAN~c×(HI.DIN)|
 @form |GAN~c×(HI.DIN)|
@@ -6284,6 +6487,7 @@
 
 @sign |GAN×KAŠ|
 @oid o0900756
+@sys CDLI-gh img-page
 @smap |GAN~c~v1×KAŠ~c|
 @form |GAN~c~v1×KAŠ~c|
 @oid o0900757
@@ -6299,6 +6503,7 @@
 
 @sign |GAN×(KUR.A)|
 @oid o0900758
+@sys CDLI-gh img-page
 @smap |GAN~c~v1×(KUR~a.A)|
 @form |GAN~c~v1×(KUR~a.A)|
 @oid o0900759
@@ -6314,6 +6519,7 @@
 
 @sign |GAN×LAGAB|
 @oid o0900760
+@sys CDLI-gh img-page
 @list ZATU192
 @smap |GAN~c×LAGAB~b|
 @form |GAN~c×LAGAB~b|
@@ -6340,6 +6546,7 @@
 
 @sign |GAN×NE|
 @oid o0900764
+@sys CDLI-gh img-page
 @list ZATU193
 @smap |GAN~c×NE~a|
 @form |GAN~c×NE~a|
@@ -6355,6 +6562,7 @@
 
 @sign |GAN×SIG₇|
 @oid o0900766
+@sys CDLI-gh img-page
 @smap |GAN~c×SIG₇|
 @form |GAN~c×SIG₇|
 @oid o0900767
@@ -6369,6 +6577,7 @@
 
 @sign |GAN×ŠE|
 @oid o0900768
+@sys CDLI-gh img-page
 @list ZATU194
 @smap |GAN~c~v2×ŠE~a|
 @form	|GAN~c~v2×ŠE~a|
@@ -6385,6 +6594,7 @@
 
 @sign |GAN×ŠE₃@t|
 @oid o0900770
+@sys CDLI-gh img-page
 @smap |GAN~c~v2×ŠE₃@t~v1|
 @form	|GAN~c~v2×ŠE₃@t~v1|
 @oid o0900771
@@ -6401,6 +6611,7 @@
 
 @sign |GAN×X|
 @oid o0900772
+@sys CDLI-gh img-page
 @smap |GAN~c×X|
 @form |GAN~c×X|
 @oid o0900773
@@ -6415,6 +6626,7 @@
 
 @sign |GAN×ZATU777|
 @oid o0900774
+@sys CDLI-gh img-page
 @smap |GAN~c~v1×ZATU777~v1|
 @form |GAN~c~v1×ZATU777~v1|
 @oid o0900775
@@ -6430,6 +6642,7 @@
 
 @sign GAN₂
 @oid o0900778
+@sys CDLI-gh img-page
 @list U+12867
 @ucun 𒡧
 @uname GAN2
@@ -6443,6 +6656,7 @@
 
 @sign GAR
 @oid o0900779
+@sys CDLI-gh img-page
 @list U+12868
 @ucun 𒡨
 @uname GAR
@@ -6456,6 +6670,7 @@
 
 @sign GAR@g
 @oid o0900780
+@sys CDLI-gh img-page
 @list ZATU197
 @smap GAR@g~a
 @form GAR@g~a
@@ -6491,6 +6706,7 @@
 
 @sign GAR₃
 @oid o0900784
+@sys CDLI-gh img-page
 @list U+1286C
 @ucun 𒡬
 @uname GAR3
@@ -6503,6 +6719,7 @@
 
 @sign GARA₂
 @oid o0900785
+@sys CDLI-gh img-page
 @list ZATU199
 @smap GARA₂~a
 @form GARA₂~a
@@ -6529,6 +6746,7 @@
 
 @sign GAZI
 @oid o0900788
+@sys CDLI-gh img-page
 @list U+1286F
 @ucun 𒡯
 @uname GAZI
@@ -6541,6 +6759,7 @@
 
 @sign GEŠTIN
 @oid o0900789
+@sys CDLI-gh img-page
 @list ZATU202
 @smap GEŠTIN~a
 @form GEŠTIN~a
@@ -6567,6 +6786,7 @@
 
 @sign GEŠTU
 @oid o0900796
+@sys CDLI-gh img-page
 @list ZATU203
 @smap GEŠTU~a
 @form GEŠTU~a
@@ -6640,6 +6860,7 @@
 
 @sign GI
 @oid o0900806
+@sys CDLI-gh img-page
 @list U+12878
 @ucun 𒡸
 @uname GI
@@ -6669,6 +6890,7 @@
 
 @sign |GI~v1×GIŠ@t|
 @oid o0900810
+@sys CDLI-gh img-page
 @aka	|GI×GIŠ@t|
 @list U+12885
 @ucun 𒢅
@@ -6681,6 +6903,7 @@
 
 @sign |GI×KU|
 @oid o0900811
+@sys CDLI-gh img-page
 @smap |GI×KU~b1|
 @form |GI×KU~b1|
 @oid o0900812
@@ -6695,6 +6918,7 @@
 
 @sign |GI×LAGAB|
 @oid o0900813
+@sys CDLI-gh img-page
 @list ZATU208
 @smap |GI~v1×LAGAB~a|
 @form |GI~v1×LAGAB~a|
@@ -6711,6 +6935,7 @@
 
 @sign |GI~v1×1(N14)|
 @oid o0900815
+@sys CDLI-gh img-page
 @aka	|GI×1(N14)|
 @list U+12887
 @ucun 𒢇
@@ -6723,6 +6948,7 @@
 
 @sign |GI×1(N58@t)|
 @oid o0900816
+@sys CDLI-gh img-page
 @aka	|GI×1(N58)@t|
 @list U+1287E
 @ucun 𒡾
@@ -6734,6 +6960,7 @@
 
 @sign |GI×NAM₂|
 @oid o0900817
+@sys CDLI-gh img-page
 @list U+1287A
 @ucun 𒡺
 @uname GI TIMES NAM2
@@ -6745,6 +6972,7 @@
 
 @sign |GI×SIG₂|
 @oid o0900818
+@sys CDLI-gh img-page
 @smap |GI×SIG₂~d1|
 @form |GI×SIG₂~d1|
 @oid o0900819
@@ -6760,6 +6988,7 @@
 
 @sign |GI×ŠE₃~v1|
 @oid o0900820
+@sys CDLI-gh img-page
 @aka	|GI×ŠE₃|
 @list U+1287C
 @ucun 𒡼
@@ -6772,6 +7001,7 @@
 
 @sign |GI×X|
 @oid o0900821
+@sys CDLI-gh img-page
 @list U+1287D
 @ucun 𒡽
 @uname GI TIMES X
@@ -6782,6 +7012,7 @@
 
 @sign |GI&GI|
 @oid o0900822
+@sys CDLI-gh img-page
 @list U+1287F
 @ucun 𒡿
 @uname GI OVER GI
@@ -6794,6 +7025,7 @@
 
 @sign |(GI&GI)×GIŠ@t|
 @oid o0900823
+@sys CDLI-gh img-page
 @list U+12880
 @ucun 𒢀
 @uname GI OVER GI TIMES GISH TENU
@@ -6804,6 +7036,7 @@
 
 @sign |(GI&GI)×ŠE₃~v1|
 @oid o0900824
+@sys CDLI-gh img-page
 @aka	|(GI&GI)×ŠE₃|
 @list U+12881
 @ucun 𒢁
@@ -6816,6 +7049,7 @@
 
 @sign |(GI&GI)×X|
 @oid o0900825
+@sys CDLI-gh img-page
 @list U+12882
 @ucun 𒢂
 @uname GI OVER GI TIMES X
@@ -6826,6 +7060,7 @@
 
 @sign |GI~v1&GI~v1&GI~v1|
 @oid o0900826
+@sys CDLI-gh img-page
 @aka	|GI&GI&GI|
 @list U+12888
 @ucun 𒢈
@@ -6837,6 +7072,7 @@
 
 @sign GI@t
 @oid o0900827
+@sys CDLI-gh img-page
 @list U+12883
 @ucun 𒢃
 @uname GI TENU
@@ -6847,6 +7083,7 @@
 
 @sign GI₄
 @oid o0900828
+@sys CDLI-gh img-page
 @list ZATU212
 @smap GI₄~a
 @form GI₄~a
@@ -6876,6 +7113,7 @@
 
 @sign |GI₄×A|
 @oid o0900831
+@sys CDLI-gh img-page
 @smap |GI₄~a×A|
 @form |GI₄~a×A|
 @oid o0900832
@@ -6890,6 +7128,7 @@
 
 @sign |GI₄&GI₄|
 @oid o0900833
+@sys CDLI-gh img-page
 @smap |GI₄~a&GI₄~a|
 @form |GI₄~a&GI₄~a|
 @oid o0900834
@@ -6913,6 +7152,7 @@
 
 @sign GI₆
 @oid o0900836
+@sys CDLI-gh img-page
 @aka	GI₆~a
 @list U+1288E
 @ucun 𒢎
@@ -6936,6 +7176,7 @@
 
 @sign GIBIL
 @oid o0900839
+@sys CDLI-gh img-page
 @list U+12890
 @ucun 𒢐
 @uname GIBIL
@@ -6950,6 +7191,7 @@
 
 @sign GIBIL@t
 @oid o0900840
+@sys CDLI-gh img-page
 @list U+12891
 @ucun 𒢑
 @uname GIBIL TENU
@@ -6960,6 +7202,7 @@
 
 @sign GIBIL₆
 @oid o0900841
+@sys CDLI-gh img-page
 @list U+12892
 @ucun 𒢒
 @uname GIBIL6
@@ -6972,6 +7215,7 @@
 
 @sign GIR
 @oid o0900844
+@sys CDLI-gh img-page
 @list ZATU216
 @smap GIR~a
 @form GIR~a
@@ -7027,6 +7271,7 @@
 
 @sign |GIR.GIR|
 @oid o0900850
+@sys CDLI-gh img-page
 @smap |GIR~b~v1.GIR~b~v1|
 @form |GIR~b~v1.GIR~b~v1|
 @oid o0900851
@@ -7043,6 +7288,7 @@
 
 @sign |GIR.KU₆|
 @oid o0900852
+@sys CDLI-gh img-page
 @smap |GIR~a.KU₆~a|
 @form |GIR~a.KU₆~a|
 @oid o0900853
@@ -7057,6 +7303,7 @@
 
 @sign GIR₂
 @oid o0900854
+@sys CDLI-gh img-page
 @list ZATU218
 @smap GIR₂~a
 @form GIR₂~a
@@ -7086,6 +7333,7 @@
 
 @sign GIR₃
 @oid o0900857
+@sys CDLI-gh img-page
 @smap GIR₃~a
 @form GIR₃~a
 @oid o0900858
@@ -7120,6 +7368,7 @@
 
 @sign |GIR₃×KAR₂|
 @oid o0900861
+@sys CDLI-gh img-page
 @smap |GIR₃~c×KAR₂~b|
 @form |GIR₃~c×KAR₂~b|
 @oid o0900862
@@ -7136,6 +7385,7 @@
 
 @sign |GIR₃×ŠE|
 @oid o0900863
+@sys CDLI-gh img-page
 @list ZATU220
 @smap |GIR₃~a×ŠE~b|
 @form |GIR₃~a×ŠE~b|
@@ -7151,6 +7401,7 @@
 
 @sign |GIR₃×ŠE₃|
 @oid o0900865
+@sys CDLI-gh img-page
 @smap |GIR₃~c×ŠE₃~v1|
 @form |GIR₃~c×ŠE₃~v1|
 @oid o0900866
@@ -7167,6 +7418,7 @@
 
 @sign GIR₃@g
 @oid o0900868
+@sys CDLI-gh img-page
 @list ZATU221
 @smap GIR₃@g~a
 @form GIR₃@g~a
@@ -7202,6 +7454,7 @@
 
 @sign GISAL
 @oid o0900872
+@sys CDLI-gh img-page
 @list ZATU222
 @smap GISAL~a
 @form GISAL~a
@@ -7226,6 +7479,7 @@
 
 @sign GIŠ
 @oid o0900875
+@sys CDLI-gh img-page
 @list U+128A7
 @ucun 𒢧
 @uname GISH
@@ -7239,6 +7493,7 @@
 
 @sign |GIŠ.TE|
 @oid o0900877
+@sys CDLI-gh img-page
 @list U+128A8
 @ucun 𒢨
 @uname GISH BESIDE TE
@@ -7250,6 +7505,7 @@
 
 @sign |GIŠ×(DIN.DIN)|
 @oid o0900878
+@sys CDLI-gh img-page
 @list ZATU224
 @smap |(GIŠ×(DIN.DIN))~a|
 @form |(GIŠ×(DIN.DIN))~a|
@@ -7284,6 +7540,7 @@
 
 @sign |GIŠ×ŠU₂|
 @oid o0900882
+@sys CDLI-gh img-page
 @list ZATU225
 @smap |GIŠ×ŠU₂~a|
 @form |GIŠ×ŠU₂~a|
@@ -7312,6 +7569,7 @@
 
 @sign GIŠ@t
 @oid o0900885
+@sys CDLI-gh img-page
 @list U+128AE
 @ucun 𒢮
 @uname GISH TENU
@@ -7325,6 +7583,7 @@
 
 @sign GIŠ₃
 @oid o0900888
+@sys CDLI-gh img-page
 @smap GIŠ₃~a
 @form GIŠ₃~a
 @oid o0900889
@@ -7349,6 +7608,7 @@
 
 @sign |GIŠ₃&GIŠ₃|
 @oid o0900891
+@sys CDLI-gh img-page
 @smap |GIŠ₃~a&GIŠ₃~a|
 @form |GIŠ₃~a&GIŠ₃~a|
 @oid o0900892
@@ -7364,6 +7624,7 @@
 
 @sign GIŠGAL
 @oid o0900893
+@sys CDLI-gh img-page
 @list U+128B2
 @ucun 𒢲
 @uname GISHGAL
@@ -7385,6 +7646,7 @@
 
 @sign GIŠIMMAR
 @oid o0900895
+@sys CDLI-gh img-page
 @list ZATU230
 @smap GIŠIMMAR~a1
 @form GIŠIMMAR~a1
@@ -7466,6 +7728,7 @@
 
 @sign GIZZAL
 @oid o0900904
+@sys CDLI-gh img-page
 @smap GIZZAL~v
 @form GIZZAL~v
 @oid o0900905
@@ -7482,6 +7745,7 @@
 
 @sign GU
 @oid o0900906
+@sys CDLI-gh img-page
 @aka	GU~a
 @list U+128BC
 @ucun 𒢼
@@ -7496,6 +7760,7 @@
 
 @sign GU₂
 @oid o0900907
+@sys CDLI-gh img-page
 @list U+128BD
 @ucun 𒢽
 @uname GU2
@@ -7511,6 +7776,7 @@
 
 @sign GU₄
 @oid o0900908
+@sys CDLI-gh img-page
 @list U+128BE
 @ucun 𒢾
 @uname GU4
@@ -7533,6 +7799,7 @@
 
 @sign |GU₄.ZATU755|
 @oid o0900910
+@sys CDLI-gh img-page
 @smap |GU₄.ZATU755~b|
 @form |GU₄.ZATU755~b|
 @oid o0900911
@@ -7548,6 +7815,7 @@
 
 @sign GU₇
 @oid o0900912
+@sys CDLI-gh img-page
 @list U+128C2
 @ucun 𒣂
 @uname GU7
@@ -7569,6 +7837,7 @@
 
 @sign GU₄@g
 @oid o0900914
+@sys CDLI-gh img-page
 @list U+128C0
 @ucun 𒣀
 @uname GU4 GUNU
@@ -7579,6 +7848,7 @@
 
 @sign GUB₃
 @oid o0900915
+@sys CDLI-gh img-page
 @list ZATU236
 @smap GUB₃~a
 @form GUB₃~a
@@ -7625,6 +7895,7 @@
 
 @sign GUG₂
 @oid o0900920
+@sys CDLI-gh img-page
 @aka	GUG₂~a
 @list U+128C8
 @ucun 𒣈
@@ -7648,6 +7919,7 @@
 
 @sign |GUG₂×SILA₃|
 @oid o0900922
+@sys CDLI-gh img-page
 @list ZATU238
 @smap |GUG₂~v1×SILA₃~a|
 @form |GUG₂~v1×SILA₃~a|
@@ -7664,6 +7936,7 @@
 
 @sign |GUG₂×ŠITA|
 @oid o0900924
+@sys CDLI-gh img-page
 @smap |GUG₂~v1×ŠITA~a1|
 @form |GUG₂~v1×ŠITA~a1|
 @oid o0900925
@@ -7674,6 +7947,7 @@
 
 @sign |GUG₂~v1×TUR~v1|
 @oid o0900926
+@sys CDLI-gh img-page
 @aka	|GUG₂×TUR|
 @list U+128CC
 @ucun 𒣌
@@ -7686,6 +7960,7 @@
 
 @sign GUG₂@t
 @oid o0900927
+@sys CDLI-gh img-page
 @list U+128C9
 @ucun 𒣉
 @uname GUG2 TENU
@@ -7696,6 +7971,7 @@
 
 @sign GUKKAL
 @oid o0900928
+@sys CDLI-gh img-page
 @list BAU274
 @list ZATU240
 @smap GUKKAL~a
@@ -7740,6 +8016,7 @@
 
 @sign |GUKKAL.HI@g|
 @oid o0900933
+@sys CDLI-gh img-page
 @list ZATU241
 @smap |GUKKAL~a.HI@g~a|
 @form |GUKKAL~a.HI@g~a|
@@ -7755,6 +8032,7 @@
 
 @sign GUL
 @oid o0900935
+@sys CDLI-gh img-page
 @list U+128D2
 @ucun 𒣒
 @uname GUL
@@ -7768,6 +8046,7 @@
 
 @sign GUM
 @oid o0900936
+@sys CDLI-gh img-page
 @list ZATU243
 @smap GUM~a
 @form GUM~a
@@ -7802,6 +8081,7 @@
 
 @sign GUM@n
 @oid o0900940
+@sys CDLI-gh img-page
 @list ZATU244
 @smap GUM~b@n
 @form GUM~b@n
@@ -7828,6 +8108,7 @@
 
 @sign GUN₃
 @oid o0900943
+@sys CDLI-gh img-page
 @list ZATU245
 @smap GUN₃~a
 @form GUN₃~a
@@ -7853,6 +8134,7 @@
 
 @sign GUR
 @oid o0900946
+@sys CDLI-gh img-page
 @list U+128DA
 @ucun 𒣚
 @uname GUR
@@ -7866,6 +8148,7 @@
 
 @sign GURUŠ
 @oid o0900947
+@sys CDLI-gh img-page
 @list ZATU247
 @smap GURUŠ~a
 @form GURUŠ~a
@@ -7902,6 +8185,7 @@
 
 @sign |GURUŠ×2(N14)|
 @oid o0900951
+@sys CDLI-gh img-page
 @list ZATU248
 @smap |GURUŠ~a×2(N14)|
 @form |GURUŠ~a×2(N14)|
@@ -7938,6 +8222,7 @@
 
 @sign GURUŠDA
 @oid o0900955
+@sys CDLI-gh img-page
 @aka	GURUŠDA~a
 @list U+128E1
 @ucun 𒣡
@@ -7951,6 +8236,7 @@
 
 @sign HAL
 @oid o0900956
+@sys CDLI-gh img-page
 @list U+128E2
 @ucun 𒣢
 @uname HAL
@@ -7964,6 +8250,7 @@
 
 @sign HALUB
 @oid o0900957
+@sys CDLI-gh img-page
 @list U+128E3
 @ucun 𒣣
 @uname HALUB
@@ -7976,6 +8263,7 @@
 
 @sign HAŠHUR
 @oid o0900958
+@sys CDLI-gh img-page
 @list U+128E4
 @ucun 𒣤
 @uname HASHHUR
@@ -7988,6 +8276,7 @@
 
 @sign |HAŠHUR×MA|
 @oid o0900959
+@sys CDLI-gh img-page
 @list U+128E5
 @ucun 𒣥
 @uname HASHHUR TIMES MA
@@ -8000,6 +8289,7 @@
 
 @sign HI
 @oid o0900960
+@sys CDLI-gh img-page
 @aka	HI~a
 @list U+128E6
 @ucun 𒣦
@@ -8020,6 +8310,7 @@
 
 @sign |HI.SUHUR|
 @oid o0900962
+@sys CDLI-gh img-page
 @aka	|HI.SUHUR|
 @aka	|HI+SUHUR|
 @list U+128E7
@@ -8054,6 +8345,7 @@
 
 @sign |HI×LAGAB|
 @oid o0900965
+@sys CDLI-gh img-page
 @smap |HI×LAGAB~a|
 @form |HI×LAGAB~a|
 @oid o0900966
@@ -8068,6 +8360,7 @@
 
 @sign |HI×1(N57)|
 @oid o0900968
+@sys CDLI-gh img-page
 @list U+128EC
 @ucun 𒣬
 @uname HI TIMES ONE-N57
@@ -8091,6 +8384,7 @@
 
 @sign |HI×1(N57@t)|
 @oid o0900970
+@sys CDLI-gh img-page
 @aka	|HI×1(N57)@t|
 @list U+128EE
 @ucun 𒣮
@@ -8104,6 +8398,7 @@
 
 @sign |HI×1(N58)|
 @oid o0900971
+@sys CDLI-gh img-page
 @list U+128EF
 @ucun 𒣯
 @uname HI TIMES ONE-N58
@@ -8115,6 +8410,7 @@
 
 @sign |HI×ZATU707|
 @oid o0900973
+@sys CDLI-gh img-page
 @list ZATU257
 @smap |HI×ZATU707~a|
 @form |HI×ZATU707~a|
@@ -8130,6 +8426,7 @@
 
 @sign HI@g
 @oid o0900975
+@sys CDLI-gh img-page
 @list ZATU258
 @smap HI@g~a
 @form HI@g~a
@@ -8164,6 +8461,7 @@
 
 @sign I
 @oid o0900981
+@sys CDLI-gh img-page
 @list U+128F3
 @ucun 𒣳
 @uname I
@@ -8177,6 +8475,7 @@
 
 @sign IB
 @oid o0900982
+@sys CDLI-gh img-page
 @list ZATU260
 @smap IB~a
 @form IB~a
@@ -8210,6 +8509,7 @@
 
 @sign IB@n
 @oid o0900986
+@sys CDLI-gh img-page
 @smap IB~a@n
 @form IB~a@n
 @oid o0900987
@@ -8224,6 +8524,7 @@
 
 @sign IDIGNA
 @oid o0900988
+@sys CDLI-gh img-page
 @list U+128F7
 @ucun 𒣷
 @uname IDIGNA
@@ -8245,6 +8546,7 @@
 
 @sign IG
 @oid o0900990
+@sys CDLI-gh img-page
 @smap IG~a
 @form IG~a
 @oid o0900991
@@ -8269,6 +8571,7 @@
 
 @sign IL
 @oid o0900995
+@sys CDLI-gh img-page
 @list U+128FB
 @ucun 𒣻
 @uname IL
@@ -8280,6 +8583,7 @@
 
 @sign ILDUM
 @oid o0900996
+@sys CDLI-gh img-page
 @list ZATU263
 @smap ILDUM~a
 @form ILDUM~a
@@ -8305,6 +8609,7 @@
 
 @sign IM
 @oid o0900999
+@sys CDLI-gh img-page
 @list ZATU264
 @smap IM~a
 @form IM~a
@@ -8332,6 +8637,7 @@
 
 @sign IN
 @oid o0901004
+@sys CDLI-gh img-page
 @list ZATU265
 @smap IN~b
 @form IN~b
@@ -8368,6 +8674,7 @@
 
 @sign IR
 @oid o0901008
+@sys CDLI-gh img-page
 @list ZATU267
 @smap IR~a
 @form IR~a
@@ -8413,6 +8720,7 @@
 
 @sign |IR.GA₂|
 @oid o0901013
+@sys CDLI-gh img-page
 @smap |IR~a.GA₂~a1|
 @form |IR~a.GA₂~a1|
 @oid o0901014
@@ -8436,6 +8744,7 @@
 
 @sign IR₁₁
 @oid o0901016
+@sys CDLI-gh img-page
 @list U+12908
 @ucun 𒤈
 @uname IR11
@@ -8457,6 +8766,7 @@
 
 @sign IRHAN
 @oid o0901018
+@sys CDLI-gh img-page
 @list U+1290A
 @ucun 𒤊
 @uname IRHAN
@@ -8468,6 +8778,7 @@
 
 @sign IŠ
 @oid o0901019
+@sys CDLI-gh img-page
 @list ZATU270
 @smap IŠ~a
 @form IŠ~a
@@ -8560,6 +8871,7 @@
 
 @sign KA
 @oid o0901029
+@sys CDLI-gh img-page
 @list ZATU271
 @smap KA~a
 @form KA~a
@@ -8581,6 +8893,7 @@
 
 @sign |KA.ŠE|
 @oid o0901031
+@sys CDLI-gh img-page
 @list ZATU274
 @smap |KA~a~v2.ŠE~a@t|
 @form |KA~a~v2.ŠE~a@t|
@@ -8607,6 +8920,7 @@
 
 @sign |KA×SAR|
 @oid o0901035
+@sys CDLI-gh img-page
 @list ZATU273
 @smap |KA~a×SAR~a|
 @form |KA~a×SAR~a|
@@ -8624,6 +8938,7 @@
 
 @sign KA₂
 @oid o0901037
+@sys CDLI-gh img-page
 @list ZATU275
 @smap KA₂~a
 @form KA₂~a
@@ -8658,6 +8973,7 @@
 
 @sign |KA₂×LAM|
 @oid o0901042
+@sys CDLI-gh img-page
 @aka	|KA₂+LAM|
 @smap |KA₂~d×LAM~b~v2|
 @form |KA₂~d×LAM~b~v2|
@@ -8676,6 +8992,7 @@
 
 @sign KAB
 @oid o0901044
+@sys CDLI-gh img-page
 @aka	TUK
 @aka	TUKU
 @list U+1291C
@@ -8690,6 +9007,7 @@
 
 @sign |KAB×1(N58)|
 @oid o0901045
+@sys CDLI-gh img-page
 @aka	|TUKU+DIŠ|
 @list U+1291D
 @ucun 𒤝
@@ -8702,6 +9020,7 @@
 
 @sign KAD₄
 @oid o0901046
+@sys CDLI-gh img-page
 @list ZATU279
 @smap KAD₄~a
 @form KAD₄~a
@@ -8746,6 +9065,7 @@
 
 @sign KAK
 @oid o0901051
+@sys CDLI-gh img-page
 @list ZATU280
 @smap KAK~a
 @form KAK~a
@@ -8772,6 +9092,7 @@
 
 @sign |KAK.GA₂|
 @oid o0901054
+@sys CDLI-gh img-page
 @smap |KAK~a.GA₂~a1|
 @form |KAK~a.GA₂~a1|
 @oid o0901055
@@ -8787,6 +9108,7 @@
 
 @sign KAL
 @oid o0901056
+@sys CDLI-gh img-page
 @list ZATU281
 @smap KAL~a
 @form KAL~a
@@ -8834,6 +9156,7 @@
 
 @sign KALAM
 @oid o0901061
+@sys CDLI-gh img-page
 @list ZATU282
 @smap KALAM~a
 @form KALAM~a
@@ -8910,6 +9233,7 @@
 
 @sign KAR
 @oid o0901071
+@sys CDLI-gh img-page
 @list U+1292F
 @ucun 𒤯
 @uname KAR
@@ -8923,6 +9247,7 @@
 
 @sign KAR₂
 @oid o0901072
+@sys CDLI-gh img-page
 @list ZATU284
 @smap KAR₂~a
 @form KAR₂~a
@@ -8953,6 +9278,7 @@
 
 @sign KASKAL
 @oid o0901075
+@sys CDLI-gh img-page
 @list U+12932
 @ucun 𒤲
 @uname KASKAL
@@ -8966,6 +9292,7 @@
 
 @sign KASKAL@g
 @oid o0901076
+@sys CDLI-gh img-page
 @list U+12933
 @ucun 𒤳
 @uname KASKAL GUNU
@@ -8976,6 +9303,7 @@
 
 @sign KAŠ
 @oid o0901077
+@sys CDLI-gh img-page
 @list ZATU286
 @smap KAŠ~a
 @form KAŠ~a
@@ -9048,6 +9376,7 @@
 
 @sign |KAŠ×ŠE|
 @oid o0901085
+@sys CDLI-gh img-page
 @list ZATU288
 @smap |KAŠ~b~v1×ŠE~a@t~v1|
 @form |KAŠ~b~v1×ŠE~a@t~v1|
@@ -9064,6 +9393,7 @@
 
 @sign KAŠ@t
 @oid o0901087
+@sys CDLI-gh img-page
 @smap KAŠ~b@t
 @form KAŠ~b@t
 @oid o0901088
@@ -9078,6 +9408,7 @@
 
 @sign KI
 @oid o0901090
+@sys CDLI-gh img-page
 @aka	KI~a
 @list U+1293C
 @ucun 𒤼
@@ -9092,6 +9423,7 @@
 
 @sign KI@n
 @oid o0901091
+@sys CDLI-gh img-page
 @list U+1293D
 @ucun 𒤽
 @uname KI NUTILLU
@@ -9102,6 +9434,7 @@
 
 @sign |KI@n×DUB|
 @oid o0901092
+@sys CDLI-gh img-page
 @list ZATU567
 @smap |KI@n×DUB~a|
 @form |KI@n×DUB~a|
@@ -9118,6 +9451,7 @@
 
 @sign KIB
 @oid o0901094
+@sys CDLI-gh img-page
 @list U+1293F
 @ucun 𒤿
 @uname KIB
@@ -9130,6 +9464,7 @@
 
 @sign KIB@g
 @oid o0901095
+@sys CDLI-gh img-page
 @list U+12940
 @ucun 𒥀
 @uname KIB GUNU
@@ -9140,6 +9475,7 @@
 
 @sign KID
 @oid o0901096
+@sys CDLI-gh img-page
 @list ZATU291
 @smap KID~a
 @form KID~a
@@ -9193,6 +9529,7 @@
 
 @sign KIN
 @oid o0901102
+@sys CDLI-gh img-page
 @list U+12946
 @ucun 𒥆
 @uname KIN
@@ -9208,6 +9545,7 @@
 
 @sign KIN₂
 @oid o0901103
+@sys CDLI-gh img-page
 @list ZATU293
 @smap KIN₂~a
 @form KIN₂~a
@@ -9257,6 +9595,7 @@
 
 @sign KINGAL
 @oid o0901109
+@sys CDLI-gh img-page
 @list U+1294B
 @ucun 𒥋
 @uname KINGAL
@@ -9278,6 +9617,7 @@
 
 @sign KIR₁₁
 @oid o0901111
+@sys CDLI-gh img-page
 @list U+1294D
 @ucun 𒥍
 @uname KIR11
@@ -9288,6 +9628,7 @@
 
 @sign KISAL
 @oid o0901112
+@sys CDLI-gh img-page
 @smap KISAL~a1
 @form KISAL~a1
 @oid o0901113
@@ -9349,6 +9690,7 @@
 
 @sign KISAL@t
 @oid o0901119
+@sys CDLI-gh img-page
 @smap KISAL~b2@t
 @form KISAL~b2@t
 @oid o0901120
@@ -9363,6 +9705,7 @@
 
 @sign KISIM
 @oid o0901121
+@sys CDLI-gh img-page
 @list ZATU296
 @smap KISIM~a
 @form KISIM~a
@@ -9425,6 +9768,7 @@
 
 @sign KIŠ
 @oid o0901128
+@sys CDLI-gh img-page
 @list U+1295A
 @ucun 𒥚
 @uname KISH
@@ -9450,6 +9794,7 @@
 
 @sign KIŠIK
 @oid o0901130
+@sys CDLI-gh img-page
 @list ZATU298
 @smap KIŠIK~a
 @form KIŠIK~a
@@ -9475,6 +9820,7 @@
 
 @sign KITI
 @oid o0901133
+@sys CDLI-gh img-page
 @list U+1295E
 @ucun 𒥞
 @uname KITI
@@ -9496,6 +9842,7 @@
 
 @sign KU
 @oid o0901135
+@sys CDLI-gh img-page
 @list ZATU300
 @smap KU~a
 @form KU~a
@@ -9533,6 +9880,7 @@
 
 @sign KU₃
 @oid o0901141
+@sys CDLI-gh img-page
 @list ZATU301
 @smap KU₃~a
 @form KU₃~a
@@ -9560,6 +9908,7 @@
 
 @sign KU₆
 @oid o0901144
+@sys CDLI-gh img-page
 @list ZATU302
 @smap KU₆~a
 @form KU₆~a
@@ -9595,6 +9944,7 @@
 
 @sign |KU₆.1(N02)|
 @oid o0901148
+@sys CDLI-gh img-page
 @smap |KU₆~a.1(N02)|
 @form |KU₆~a.1(N02)|
 @oid o0901149
@@ -9609,6 +9959,7 @@
 
 @sign |KU₆+GIŠ|
 @oid o0901150
+@sys CDLI-gh img-page
 @smap |KU₆~a+GIŠ|
 @form |KU₆~a+GIŠ|
 @oid o0901151
@@ -9624,6 +9975,7 @@
 
 @sign |KU₆+KU₆|
 @oid o0901152
+@sys CDLI-gh img-page
 @list ZATU303
 @smap |KU₆~a+KU₆~a|
 @form |KU₆~a+KU₆~a|
@@ -9640,6 +9992,7 @@
 
 @sign KU₆@s
 @oid o0901154
+@sys CDLI-gh img-page
 @list ZATU446
 @smap KU₆~a@s
 @form KU₆~a@s
@@ -9655,6 +10008,7 @@
 
 @sign KUR
 @oid o0901157
+@sys CDLI-gh img-page
 @list ZATU304
 @smap KUR~a
 @form KUR~a
@@ -9710,6 +10064,7 @@
 
 @sign |KUR.E₂|
 @oid o0901163
+@sys CDLI-gh img-page
 @list ZATU130
 @smap |KUR~a.E₂~a|
 @form |KUR~a.E₂~a|
@@ -9734,6 +10089,7 @@
 
 @sign |KUR.NUNUZ|
 @oid o0901166
+@sys CDLI-gh img-page
 @smap |KUR~a.NUNUZ~a1|
 @form |KUR~a.NUNUZ~a1|
 @oid o0901167
@@ -9748,6 +10104,7 @@
 
 @sign KUR@g
 @oid o0901168
+@sys CDLI-gh img-page
 @smap KUR@g~a
 @form KUR@g~a
 @oid o0901169
@@ -9773,6 +10130,7 @@
 
 @sign KUŠU₂
 @oid o0901171
+@sys CDLI-gh img-page
 @list ZATU305
 @smap KUŠU₂~a
 @form KUŠU₂~a
@@ -9839,6 +10197,7 @@
 @compoundonly KUŠU₂~a@t
 @sign LA
 @oid o0901178
+@sys CDLI-gh img-page
 @list ZATU306
 @smap LA~b
 @form LA~b
@@ -9875,6 +10234,7 @@
 
 @sign LA₂
 @oid o0901184
+@sys CDLI-gh img-page
 @aka	LA₂~a
 @list U+1297F
 @ucun 𒥿
@@ -9889,6 +10249,7 @@
 
 @sign LAGAB
 @oid o0901185
+@sys CDLI-gh img-page
 @list ZATU308
 @smap LAGAB~a
 @form LAGAB~a
@@ -9925,6 +10286,7 @@
 
 @sign |LAGAB×BA|
 @oid o0901190
+@sys CDLI-gh img-page
 @smap |LAGAB~a×BA|
 @form |LAGAB~a×BA|
 @oid o0901191
@@ -9939,6 +10301,7 @@
 
 @sign |LAGAB×BANŠUR|
 @oid o0901192
+@sys CDLI-gh img-page
 @list ZATU309
 @smap |LAGAB~b×BANŠUR~a|
 @form |LAGAB~b×BANŠUR~a|
@@ -9954,6 +10317,7 @@
 
 @sign |LAGAB×BIR₃|
 @oid o0901194
+@sys CDLI-gh img-page
 @smap |LAGAB~a×BIR₃~b|
 @form |LAGAB~a×BIR₃~b|
 @oid o0901195
@@ -9968,6 +10332,7 @@
 
 @sign |LAGAB×DU₆|
 @oid o0901196
+@sys CDLI-gh img-page
 @list ZATU310
 @smap |LAGAB~a×DU₆~a~v1|
 @form	|LAGAB~a×DU₆~a~v1|
@@ -9984,6 +10349,7 @@
 
 @sign |LAGAB×GAʾAR|
 @oid o0901198
+@sys CDLI-gh img-page
 @list ZATU311
 @smap |LAGAB~b×GAʾAR~a1|
 @form |LAGAB~b×GAʾAR~a1|
@@ -10000,6 +10366,7 @@
 
 @sign |LAGAB×HI|
 @oid o0901200
+@sys CDLI-gh img-page
 @list ZATU312
 @smap |LAGAB~b×HI|
 @form |LAGAB~b×HI|
@@ -10025,6 +10392,7 @@
 
 @sign |LAGAB×KAK|
 @oid o0901204
+@sys CDLI-gh img-page
 @smap |LAGAB~a×KAK~a|
 @form |LAGAB~a×KAK~a|
 @oid o0901205
@@ -10039,6 +10407,7 @@
 
 @sign |LAGAB×KU₆|
 @oid o0901206
+@sys CDLI-gh img-page
 @list ZATU313
 @smap |LAGAB~a×KU₆~a|
 @form |LAGAB~a×KU₆~a|
@@ -10054,6 +10423,7 @@
 
 @sign |LAGAB×(KU₆+KU₆)|
 @oid o0901208
+@sys CDLI-gh img-page
 @smap |LAGAB~a×(KU₆~a+KU₆~a)|
 @form |LAGAB~a×(KU₆~a+KU₆~a)|
 @oid o0901209
@@ -10068,6 +10438,7 @@
 
 @sign |LAGAB×KUR|
 @oid o0901210
+@sys CDLI-gh img-page
 @smap |LAGAB~b×KUR~e|
 @form |LAGAB~b×KUR~e|
 @oid o0901211
@@ -10083,6 +10454,7 @@
 
 @sign |LAGAB×KUŠU₂|
 @oid o0901212
+@sys CDLI-gh img-page
 @list ZATU314
 @smap |LAGAB~a×KUŠU₂~a@t|
 @form |LAGAB~a×KUŠU₂~a@t|
@@ -10123,6 +10495,7 @@
 
 @sign |LAGAB×ME|
 @oid o0901218
+@sys CDLI-gh img-page
 @list ZATU315
 @smap |LAGAB~a×ME~a|
 @form |LAGAB~a×ME~a|
@@ -10139,6 +10512,7 @@
 
 @sign |LAGAB×2(N14)|
 @oid o0901222
+@sys CDLI-gh img-page
 @list ZATU320
 @smap |LAGAB~a×2(N14)|
 @form |LAGAB~a×2(N14)|
@@ -10174,6 +10548,7 @@
 
 @sign |LAGAB×NUN|
 @oid o0901228
+@sys CDLI-gh img-page
 @list ZATU316
 @smap |LAGAB~a×NUN~b|
 @form |LAGAB~a×NUN~b|
@@ -10189,6 +10564,7 @@
 
 @sign |LAGAB×PA|
 @oid o0901230
+@sys CDLI-gh img-page
 @list ZATU317
 @smap |LAGAB~a×PA~a|
 @form |LAGAB~a×PA~a|
@@ -10228,6 +10604,7 @@
 
 @sign |LAGAB×SIG₇|
 @oid o0901236
+@sys CDLI-gh img-page
 @smap |LAGAB~a×SIG₇~v1|
 @form |LAGAB~a×SIG₇~v1|
 @oid o0901237
@@ -10243,6 +10620,7 @@
 
 @sign |LAGAB×SU|
 @oid o0901238
+@sys CDLI-gh img-page
 @smap |LAGAB~a×SU~a|
 @form |LAGAB~a×SU~a|
 @oid o0901239
@@ -10257,6 +10635,7 @@
 
 @sign |LAGAB×SUH₃|
 @oid o0901240
+@sys CDLI-gh img-page
 @smap |LAGAB~b×SUH₃|
 @form |LAGAB~b×SUH₃|
 @oid o0901241
@@ -10271,6 +10650,7 @@
 
 @sign |LAGAB×ŠA|
 @oid o0901242
+@sys CDLI-gh img-page
 @list ZATU318
 @smap |LAGAB~a×ŠA|
 @form |LAGAB~a×ŠA|
@@ -10305,6 +10685,7 @@
 
 @sign |LAGAB×TI|
 @oid o0901247
+@sys CDLI-gh img-page
 @smap |LAGAB~a×TI|
 @form |LAGAB~a×TI|
 @oid o0901248
@@ -10320,6 +10701,7 @@
 
 @sign |LAGAB×U₄|
 @oid o0901249
+@sys CDLI-gh img-page
 @smap |LAGAB~a×U₄|
 @form |LAGAB~a×U₄|
 @oid o0901250
@@ -10343,6 +10725,7 @@
 
 @sign |LAGAB×UB|
 @oid o0901252
+@sys CDLI-gh img-page
 @smap |LAGAB~a×UB|
 @form |LAGAB~a×UB|
 @oid o0901253
@@ -10372,6 +10755,7 @@
 
 @sign |LAGAB×ZATU753|
 @oid o0901257
+@sys CDLI-gh img-page
 @list ZATU321
 @smap |LAGAB~a×ZATU753|
 @form |LAGAB~a×ZATU753|
@@ -10388,6 +10772,7 @@
 
 @sign |LAGAB&LAGAB|
 @oid o0901259
+@sys CDLI-gh img-page
 @smap |LAGAB~b&LAGAB~b|
 @form |LAGAB~b&LAGAB~b|
 @oid o0901260
@@ -10406,6 +10791,7 @@
 
 @sign LAGAR
 @oid o0901261
+@sys CDLI-gh img-page
 @list ZATU323
 @smap LAGAR~a
 @form LAGAR~a
@@ -10451,6 +10837,7 @@
 
 @sign LAGAR@r
 @oid o0901266
+@sys CDLI-gh img-page
 @smap LAGAR~a@r
 @form LAGAR~a@r
 @oid o0901267
@@ -10465,6 +10852,7 @@
 
 @sign LAHTAN₂
 @oid o0901268
+@sys CDLI-gh img-page
 @list U+129A5
 @ucun 𒦥
 @uname LAHTAN2
@@ -10477,6 +10865,7 @@
 
 @sign LAL₂
 @oid o0901269
+@sys CDLI-gh img-page
 @list ZATU325
 @smap LAL₂~a
 @form LAL₂~a
@@ -10502,6 +10891,7 @@
 
 @sign |LAL₂×EZEN|
 @oid o0901272
+@sys CDLI-gh img-page
 @list ZATU326
 @smap |LAL₂~a×EZEN~a~v1|
 @form |LAL₂~a×EZEN~a~v1|
@@ -10528,6 +10918,7 @@
 
 @sign |LAL₂×NIM|
 @oid o0901276
+@sys CDLI-gh img-page
 @smap |LAL₂~a×NIM~b2|
 @form |LAL₂~a×NIM~b2|
 @oid o0901277
@@ -10542,6 +10933,7 @@
 
 @sign LAL₃
 @oid o0901278
+@sys CDLI-gh img-page
 @list ZATU327
 @smap LAL₃~a
 @form LAL₃~a
@@ -10567,6 +10959,7 @@
 
 @sign LAM
 @oid o0901282
+@sys CDLI-gh img-page
 @smap LAM~a
 @form LAM~a
 @oid o0901283
@@ -10612,6 +11005,7 @@
 
 @sign LAM@r
 @oid o0901289
+@sys CDLI-gh img-page
 @smap LAM~b@r
 @form LAM~b@r
 @oid o0901290
@@ -10626,6 +11020,7 @@
 
 @sign LAM@s
 @oid o0901291
+@sys CDLI-gh img-page
 @smap LAM~b@s
 @form LAM~b@s
 @oid o0901292
@@ -10641,6 +11036,7 @@
 
 @sign LAM@t
 @oid o0901293
+@sys CDLI-gh img-page
 @smap LAM~b@t
 @form LAM~b@t
 @oid o0901294
@@ -10655,6 +11051,7 @@
 
 @sign LI
 @oid o0901301
+@sys CDLI-gh img-page
 @list U+129B3
 @ucun 𒦳
 @uname LI
@@ -10677,6 +11074,7 @@
 
 @sign LIŠ
 @oid o0901303
+@sys CDLI-gh img-page
 @list U+129B5
 @ucun 𒦵
 @uname LISH
@@ -10689,6 +11087,7 @@
 
 @sign LU₂
 @oid o0901304
+@sys CDLI-gh img-page
 @list U+129B6
 @ucun 𒦶
 @uname LU2
@@ -10720,6 +11119,7 @@
 
 @sign |LU₂×GEŠTU|
 @oid o0901307
+@sys CDLI-gh img-page
 @smap |LU₂×GEŠTU~c3|
 @form |LU₂×GEŠTU~c3|
 @oid o0901308
@@ -10735,6 +11135,7 @@
 
 @sign LUGAL
 @oid o0901310
+@sys CDLI-gh img-page
 @list U+129BA
 @ucun 𒦺
 @uname LUGAL
@@ -10755,6 +11156,7 @@
 
 @sign LUM
 @oid o0901312
+@sys CDLI-gh img-page
 @list U+129BC
 @ucun 𒦼
 @uname LUM
@@ -10768,6 +11170,7 @@
 
 @sign MA
 @oid o0901313
+@sys CDLI-gh img-page
 @list U+129BD
 @ucun 𒦽
 @uname MA
@@ -10790,6 +11193,7 @@
 
 @sign |MA~v1×A|
 @oid o0901315
+@sys CDLI-gh img-page
 @aka	|MA×A|
 @list U+129C1
 @ucun 𒧁
@@ -10802,6 +11206,7 @@
 
 @sign |MA×MA|
 @oid o0901316
+@sys CDLI-gh img-page
 @list U+129BE
 @ucun 𒦾
 @uname MA TIMES MA
@@ -10813,6 +11218,7 @@
 
 @sign |MA×1(N58)|
 @oid o0901318
+@sys CDLI-gh img-page
 @list U+129BF
 @ucun 𒦿
 @uname MA TIMES ONE-N58
@@ -10823,6 +11229,7 @@
 
 @sign MA₂
 @oid o0901320
+@sys CDLI-gh img-page
 @list U+129C2
 @ucun 𒧂
 @uname MA2
@@ -10834,6 +11241,7 @@
 
 @sign MAGUR
 @oid o0901321
+@sys CDLI-gh img-page
 @list ZATU340
 @smap MAGUR~a
 @form MAGUR~a
@@ -10858,6 +11266,7 @@
 
 @sign MAH
 @oid o0901324
+@sys CDLI-gh img-page
 @list ZATU341
 @smap MAH~a
 @form MAH~a
@@ -10883,6 +11292,7 @@
 
 @sign |MAH×AB₂|
 @oid o0901327
+@sys CDLI-gh img-page
 @smap |MAH~a×AB₂|
 @form |MAH~a×AB₂|
 @oid o0901328
@@ -10897,6 +11307,7 @@
 
 @sign |MAH×GUKKAL|
 @oid o0901329
+@sys CDLI-gh img-page
 @list ZATU342
 @smap |MAH~a×GUKKAL~a|
 @form |MAH~a×GUKKAL~a|
@@ -10912,6 +11323,7 @@
 
 @sign |MAH×KU₆|
 @oid o0901331
+@sys CDLI-gh img-page
 @list ZATU343
 @smap |MAH~a×KU₆~a|
 @form |MAH~a×KU₆~a|
@@ -10936,6 +11348,7 @@
 
 @sign |MAH×MAŠ|
 @oid o0901334
+@sys CDLI-gh img-page
 @list ZATU344
 @smap |MAH~a×MAŠ|
 @form |MAH~a×MAŠ|
@@ -10960,6 +11373,7 @@
 
 @sign |MAH×NA|
 @oid o0901337
+@sys CDLI-gh img-page
 @smap |MAH~a×NA~a|
 @form |MAH~a×NA~a|
 @oid o0901338
@@ -10983,6 +11397,7 @@
 
 @sign |MAH×SAL|
 @oid o0901340
+@sys CDLI-gh img-page
 @list ZATU345
 @smap |MAH~b×SAL|
 @form |MAH~b×SAL|
@@ -10998,6 +11413,7 @@
 
 @sign |MAH×(SILA₃×UMBIN)|
 @oid o0901342
+@sys CDLI-gh img-page
 @list ZATU346
 @smap |MAH~a×(SILA₃~a×UMBIN~a)|
 @form |MAH~a×(SILA₃~a×UMBIN~a)|
@@ -11013,6 +11429,7 @@
 
 @sign |MAH×TUG₂|
 @oid o0901344
+@sys CDLI-gh img-page
 @list ZATU347
 @smap |MAH~a×TUG₂~a|
 @form |MAH~a×TUG₂~a|
@@ -11038,6 +11455,7 @@
 
 @sign |MAH×UD₅|
 @oid o0901348
+@sys CDLI-gh img-page
 @list ZATU348
 @smap |MAH~a×UD₅~a~v1|
 @form |MAH~a×UD₅~a~v1|
@@ -11054,6 +11472,7 @@
 
 @sign |MAH×UDU|
 @oid o0901350
+@sys CDLI-gh img-page
 @list ZATU349
 @smap |MAH~a×UDU~a|
 @form |MAH~a×UDU~a|
@@ -11069,6 +11488,7 @@
 
 @sign |MAH×UR|
 @oid o0901352
+@sys CDLI-gh img-page
 @list ZATU350
 @smap |MAH~a×UR~a|
 @form |MAH~a×UR~a|
@@ -11084,6 +11504,7 @@
 
 @sign |MAH×UTUA|
 @oid o0901354
+@sys CDLI-gh img-page
 @list ZATU351
 @smap |MAH~a×UTUA~a|
 @form |MAH~a×UTUA~a|
@@ -11099,6 +11520,7 @@
 
 @sign |MAH×X|
 @oid o0901356
+@sys CDLI-gh img-page
 @smap |MAH~a×X|
 @form |MAH~a×X|
 @oid o0901357
@@ -11113,6 +11535,7 @@
 
 @sign |MAH×ZATU659|
 @oid o0901358
+@sys CDLI-gh img-page
 @smap |MAH~a×ZATU659|
 @form |MAH~a×ZATU659|
 @oid o0901359
@@ -11127,6 +11550,7 @@
 
 @sign MAR
 @oid o0901360
+@sys CDLI-gh img-page
 @list ZATU352
 @smap MAR~a
 @form MAR~a
@@ -11173,6 +11597,7 @@
 
 @sign |MAR×(LAGAB.ŠE₃)|
 @oid o0901366
+@sys CDLI-gh img-page
 @list ZATU353
 @smap |MAR~b×(LAGAB~b.ŠE₃~v1)|
 @form |MAR~b×(LAGAB~b.ŠE₃~v1)|
@@ -11189,6 +11614,7 @@
 
 @sign |MAR×ŠE|
 @oid o0901368
+@sys CDLI-gh img-page
 @list ZATU354
 @smap |MAR~b×ŠE~a|
 @form |MAR~b×ŠE~a|
@@ -11204,6 +11630,7 @@
 
 @sign |MAR×X|
 @oid o0901370
+@sys CDLI-gh img-page
 @smap |MAR~b×X|
 @form |MAR~b×X|
 @oid o0901371
@@ -11230,6 +11657,7 @@
 
 @sign MAR@t
 @oid o0901374
+@sys CDLI-gh img-page
 @smap MAR~a@t
 @form MAR~a@t
 @oid o0901375
@@ -11245,6 +11673,7 @@
 
 @sign MAŠ
 @oid o0901376
+@sys CDLI-gh img-page
 @list U+129DF
 @ucun 𒧟
 @uname MASH
@@ -11258,6 +11687,7 @@
 
 @sign MAŠ₂
 @oid o0901377
+@sys CDLI-gh img-page
 @aka	MAŠNITA
 @list U+129E0
 @ucun 𒧠
@@ -11272,6 +11702,7 @@
 
 @sign MAŠ₂@g
 @oid o0901378
+@sys CDLI-gh img-page
 @list U+129E1
 @ucun 𒧡
 @uname MASH2 GUNU
@@ -11282,6 +11713,7 @@
 
 @sign ME
 @oid o0901379
+@sys CDLI-gh img-page
 @list ZATU358
 @smap ME~a
 @form ME~a
@@ -11309,6 +11741,7 @@
 
 @sign ME₃
 @oid o0901382
+@sys CDLI-gh img-page
 @list U+129E4
 @ucun 𒧤
 @uname ME3
@@ -11320,6 +11753,7 @@
 
 @sign MEN
 @oid o0901383
+@sys CDLI-gh img-page
 @list ZATU360
 @smap MEN~a
 @form MEN~a
@@ -11355,6 +11789,7 @@
 
 @sign MES
 @oid o0901387
+@sys CDLI-gh img-page
 @aka	MES~a
 @list U+129E8
 @ucun 𒧨
@@ -11377,6 +11812,7 @@
 
 @sign MIR
 @oid o0901389
+@sys CDLI-gh img-page
 @list ZATU362
 @smap MIR~a
 @form MIR~a
@@ -11403,6 +11839,7 @@
 
 @sign MU
 @oid o0901392
+@sys CDLI-gh img-page
 @list U+129EC
 @ucun 𒧬
 @uname MU
@@ -11416,6 +11853,7 @@
 
 @sign MUD
 @oid o0901393
+@sys CDLI-gh img-page
 @list U+129ED
 @ucun 𒧭
 @uname MUD
@@ -11438,6 +11876,7 @@
 
 @sign MUD₃
 @oid o0901395
+@sys CDLI-gh img-page
 @list ZATU365
 @smap MUD₃~a
 @form MUD₃~a
@@ -11482,6 +11921,7 @@
 
 @sign MUD₃@g
 @oid o0901400
+@sys CDLI-gh img-page
 @sys	LLATU:258_05 MUD₃@g 
 @smap MUD₃~a@g
 @form MUD₃~a@g
@@ -11498,6 +11938,7 @@
 
 @sign MUL
 @oid o0901404
+@sys CDLI-gh img-page
 @list U+129F4
 @ucun 𒧴
 @uname MUL
@@ -11511,6 +11952,7 @@
 
 @sign MUN
 @oid o0901406
+@sys CDLI-gh img-page
 @smap MUN~a1
 @form MUN~a1
 @oid o0901407
@@ -11568,6 +12010,7 @@
 
 @sign MUNŠUB
 @oid o0901412
+@sys CDLI-gh img-page
 @list ZATU369
 @smap MUNŠUB~a
 @form MUNŠUB~a
@@ -11593,6 +12036,7 @@
 
 @sign MUNU₃
 @oid o0901415
+@sys CDLI-gh img-page
 @list U+129FC
 @ucun 𒧼
 @uname MUNU3
@@ -11605,6 +12049,7 @@
 
 @sign MURUB₂
 @oid o0901416
+@sys CDLI-gh img-page
 @list U+129FD
 @ucun 𒧽
 @uname MURUB2
@@ -11616,6 +12061,7 @@
 
 @sign MUŠ
 @oid o0901417
+@sys CDLI-gh img-page
 @list U+129FE
 @ucun 𒧾
 @uname MUSH
@@ -11630,6 +12076,7 @@
 
 @sign MUŠ₃
 @oid o0901418
+@sys CDLI-gh img-page
 @list ZATU374
 @smap MUŠ₃~a
 @form MUŠ₃~a
@@ -11674,6 +12121,7 @@
 
 @sign MUŠ₃@g
 @oid o0901423
+@sys CDLI-gh img-page
 @smap MUŠ₃~a@g
 @form MUŠ₃~a@g
 @oid o0901424
@@ -11698,6 +12146,7 @@
 
 @sign MUŠEN
 @oid o0901426
+@sys CDLI-gh img-page
 @list U+12A05
 @ucun 𒨅
 @uname MUSHEN
@@ -11716,6 +12165,7 @@
 
 @sign |MUŠEN.UR₃|
 @oid o0901428
+@sys CDLI-gh img-page
 @list ZATU377
 @smap |MUŠEN.UR₃~b2|
 @form |MUŠEN.UR₃~b2|
@@ -11731,6 +12181,7 @@
 
 @sign |MUŠEN×1(N57)|
 @oid o0901430
+@sys CDLI-gh img-page
 @list U+12A08
 @ucun 𒨈
 @uname MUSHEN TIMES ONE-N57
@@ -11741,6 +12192,7 @@
 
 @sign |MUŠEN×2(N57)|
 @oid o0901431
+@sys CDLI-gh img-page
 @list U+12A09
 @ucun 𒨉
 @uname MUSHEN TIMES TWO-N57
@@ -11751,6 +12203,7 @@
 
 @sign |MUŠEN×3(N57)|
 @oid o0901432
+@sys CDLI-gh img-page
 @list U+12A0A
 @ucun 𒨊
 @uname MUSHEN TIMES THREE-N57
@@ -11761,6 +12214,7 @@
 
 @sign |MUŠEN×PAP|
 @oid o0901433
+@sys CDLI-gh img-page
 @smap |MUŠEN×PAP~a|
 @form |MUŠEN×PAP~a|
 @oid o0901434
@@ -11770,6 +12224,7 @@
 
 @sign |MUŠEN×X|
 @oid o0901435
+@sys CDLI-gh img-page
 @aka	|MUŠEN.X|
 @list U+12A07
 @ucun 𒨇
@@ -11783,6 +12238,7 @@
 @compoundonly	N04
 @sign NA
 @oid o0901436
+@sys CDLI-gh img-page
 @list ZATU378
 @smap NA~a
 @form NA~a
@@ -11829,6 +12285,7 @@
 
 @sign NA₂
 @oid o0901441
+@sys CDLI-gh img-page
 @list ZATU379
 @smap NA₂~a
 @form NA₂~a
@@ -11881,6 +12338,7 @@
 @compoundonly NA₂~a@n
 @sign NAB
 @oid o0901448
+@sys CDLI-gh img-page
 @list U+12A13
 @ucun 𒨓
 @uname NAB
@@ -11911,6 +12369,7 @@
 
 @sign NAGA
 @oid o0901451
+@sys CDLI-gh img-page
 @list ZATU381
 @smap NAGA~a
 @form NAGA~a
@@ -11938,6 +12397,7 @@
 
 @sign |NAGA×TAK₄|
 @oid o0901454
+@sys CDLI-gh img-page
 @smap |NAGA~a×TAK₄~a|
 @form |NAGA~a×TAK₄~a|
 @oid o0901455
@@ -11952,6 +12412,7 @@
 
 @sign NAGAR
 @oid o0901456
+@sys CDLI-gh img-page
 @list ZATU382
 @smap NAGAR~a
 @form NAGAR~a
@@ -12016,6 +12477,7 @@
 
 @sign NAM
 @oid o0901463
+@sys CDLI-gh img-page
 @list ZATU383
 @smap NAM~a
 @form NAM~a
@@ -12060,6 +12522,7 @@
 
 @sign NAM₂
 @oid o0901468
+@sys CDLI-gh img-page
 @list U+12A23
 @ucun 𒨣
 @uname NAM2
@@ -12077,6 +12540,7 @@
 
 @sign |NAM₂×1(N01)|
 @oid o0901469
+@sys CDLI-gh img-page
 @list U+12A24
 @ucun 𒨤
 @uname NAM2 TIMES ONE-N1
@@ -12088,6 +12552,7 @@
 
 @sign NAM₂@g
 @oid o0901470
+@sys CDLI-gh img-page
 @list U+12A25
 @ucun 𒨥
 @uname NAM2 GUNU
@@ -12101,6 +12566,7 @@
 
 @sign NAM₂@t
 @oid o0901471
+@sys CDLI-gh img-page
 @list U+12A26
 @ucun 𒨦
 @uname NAM2 TENU
@@ -12112,6 +12578,7 @@
 
 @sign NAMEŠDA
 @oid o0901472
+@sys CDLI-gh img-page
 @aka	|ŠITA+GIŠ|
 @list U+12A27
 @ucun 𒨧
@@ -12135,6 +12602,7 @@
 
 @sign NANNA
 @oid o0901474
+@sys CDLI-gh img-page
 @list ZATU388
 @smap NANNA~a
 @form NANNA~a
@@ -12169,6 +12637,7 @@
 
 @sign NANŠE
 @oid o0901478
+@sys CDLI-gh img-page
 @aka	|AB~a×KU₆~a|
 @list ZATU389
 @smap NANŠE~a
@@ -12196,6 +12665,7 @@
 
 @sign NAR
 @oid o0901481
+@sys CDLI-gh img-page
 @list U+12A2E
 @ucun 𒨮
 @uname NAR
@@ -12209,6 +12679,7 @@
 
 @sign NE
 @oid o0901482
+@sys CDLI-gh img-page
 @list ZATU391
 @smap NE~a
 @form NE~a
@@ -12272,6 +12743,7 @@
 
 @sign NERGAL
 @oid o0901490
+@sys CDLI-gh img-page
 @list ZATU392
 @smap NERGAL~v
 @form NERGAL~v
@@ -12289,6 +12761,7 @@
 
 @sign NESAG₂
 @oid o0901492
+@sys CDLI-gh img-page
 @list ZATU416
 @inote	ZATU calls this sign NISAG which was revised in LLATU to NESAG₂.
 @smap NESAG₂~a
@@ -12334,6 +12807,7 @@
 
 @sign NESAG₂@t
 @oid o0901498
+@sys CDLI-gh img-page
 @smap NESAG₂~b@t
 @form NESAG₂~b@t
 @oid o0901499
@@ -12348,6 +12822,7 @@
 
 @sign NI
 @oid o0901500
+@sys CDLI-gh img-page
 @list ZATU393
 @smap NI~a
 @form NI~a
@@ -12376,6 +12851,7 @@
 
 @sign |NI.RU|
 @oid o0901503
+@sys CDLI-gh img-page
 @smap |NI~a.RU~v1|
 @form |NI~a.RU~v1|
 @oid o0901504
@@ -12391,6 +12867,7 @@
 
 @sign |NI×1(N57)|
 @oid o0901505
+@sys CDLI-gh img-page
 @smap |NI~a×1(N57)|
 @form |NI~a×1(N57)|
 @oid o0901506
@@ -12405,6 +12882,7 @@
 
 @sign |NI×4(N57)|
 @oid o0901507
+@sys CDLI-gh img-page
 @smap |NI~b×4(N57)|
 @form |NI~b×4(N57)|
 @oid o0901508
@@ -12420,6 +12898,7 @@
 
 @sign |NI×X|
 @oid o0901509
+@sys CDLI-gh img-page
 @smap |NI~b×X|
 @form |NI~b×X|
 @oid o0901510
@@ -12435,6 +12914,7 @@
 
 @sign NI@g
 @oid o0901511
+@sys CDLI-gh img-page
 @inote	@list	ZATU394
 @inote	this sign may no longer exist; see note under @lref ZATU394
 @smap NI~a@g
@@ -12451,6 +12931,7 @@
 
 @sign NI₂
 @oid o0901513
+@sys CDLI-gh img-page
 @aka	|IM~b×A|
 @list U+12A41
 @ucun 𒩁
@@ -12465,6 +12946,7 @@
 
 @sign NIGIN
 @oid o0901514
+@sys CDLI-gh img-page
 @list U+12A42
 @ucun 𒩂
 @uname NIGIN
@@ -12477,6 +12959,7 @@
 
 @sign NIM
 @oid o0901515
+@sys CDLI-gh img-page
 @list ZATU398
 @smap NIM~a
 @form NIM~a
@@ -12527,6 +13010,7 @@
 
 @sign NIMGIR
 @oid o0901521
+@sys CDLI-gh img-page
 @list U+12A47
 @ucun 𒩇
 @uname NIMGIR
@@ -12548,6 +13032,7 @@
 
 @sign NIN
 @oid o0901524
+@sys CDLI-gh img-page
 @list U+12A49
 @ucun 𒩉
 @uname NIN
@@ -12561,6 +13046,7 @@
 
 @sign NINDA₂
 @oid o0901525
+@sys CDLI-gh img-page
 @list U+12A4A
 @ucun 𒩊
 @uname NINDA2
@@ -12582,6 +13068,7 @@
 
 @sign |NINDA₂×AN|
 @oid o0901527
+@sys CDLI-gh img-page
 @list U+12A4B
 @ucun 𒩋
 @uname NINDA2 TIMES AN
@@ -12592,6 +13079,7 @@
 
 @sign |NINDA₂×(AN.HI)|
 @oid o0901528
+@sys CDLI-gh img-page
 @list U+12A4C
 @ucun 𒩌
 @uname NINDA2 TIMES AN PLUS HI
@@ -12602,6 +13090,7 @@
 
 @sign |NINDA₂×GUDU₄|
 @oid o0901529
+@sys CDLI-gh img-page
 @note NINDA₂×GUDU₄ = |NINDA₂×(HI~a1.ME~a)|
 @smap |NINDA₂×(HI.ME~a)|
 @form |NINDA₂×(HI.ME~a)|
@@ -12672,6 +13161,7 @@
 
 @sign |NINDA₂×(AN.X)|
 @oid o0901537
+@sys CDLI-gh img-page
 @list U+12A4E
 @ucun 𒩎
 @uname NINDA2 TIMES AN PLUS X
@@ -12683,6 +13173,7 @@
 
 @sign |NINDA₂×BA|
 @oid o0901538
+@sys CDLI-gh img-page
 @list U+12A4F
 @ucun 𒩏
 @uname NINDA2 TIMES BA
@@ -12694,6 +13185,7 @@
 
 @sign |NINDA₂×EZEN|
 @oid o0901539
+@sys CDLI-gh img-page
 @list ZATU403
 @smap |NINDA₂×EZEN~b|
 @form |NINDA₂×EZEN~b|
@@ -12709,6 +13201,7 @@
 
 @sign |NINDA₂×GAʾAR|
 @oid o0901541
+@sys CDLI-gh img-page
 @smap |NINDA₂×GAʾAR~a1|
 @form |NINDA₂×GAʾAR~a1|
 @oid o0901542
@@ -12724,6 +13217,7 @@
 
 @sign |NINDA₂×GAR|
 @oid o0901543
+@sys CDLI-gh img-page
 @list U+12A52
 @ucun 𒩒
 @uname NINDA2 TIMES GAR
@@ -12735,6 +13229,7 @@
 
 @sign |NINDA₂×GIŠ|
 @oid o0901544
+@sys CDLI-gh img-page
 @aka	|NINDA₂+GIŠ|
 @list U+12A53
 @ucun 𒩓
@@ -12748,6 +13243,7 @@
 
 @sign |NINDA₂×GU₄|
 @oid o0901547
+@sys CDLI-gh img-page
 @list U+12A54
 @ucun 𒩔
 @uname NINDA2 TIMES GU4
@@ -12758,6 +13254,7 @@
 
 @sign |NINDA₂×HI|
 @oid o0901548
+@sys CDLI-gh img-page
 @list U+12A55
 @ucun 𒩕
 @uname NINDA2 TIMES HI
@@ -12769,6 +13266,7 @@
 
 @sign |NINDA₂×(HI.X)|
 @oid o0901549
+@sys CDLI-gh img-page
 @list U+12A58
 @ucun 𒩘
 @uname NINDA2 TIMES HI PLUS X
@@ -12779,6 +13277,7 @@
 
 @sign |NINDA₂×(HI@g.1(N06))|
 @oid o0901550
+@sys CDLI-gh img-page
 @list ZATU021
 @smap |NINDA₂×(1(N06).HI@g~a)|
 @form |NINDA₂×(1(N06).HI@g~a)|
@@ -12795,6 +13294,7 @@
 
 @sign |NINDA₂×KAŠ|
 @oid o0901552
+@sys CDLI-gh img-page
 @smap |NINDA₂×KAŠ~b|
 @form |NINDA₂×KAŠ~b|
 @oid o0901553
@@ -12809,6 +13309,7 @@
 
 @sign |NINDA₂×MAR|
 @oid o0901554
+@sys CDLI-gh img-page
 @list ZATU408
 @smap |NINDA₂×MAR~a|
 @form |NINDA₂×MAR~a|
@@ -12829,6 +13330,7 @@
 
 @sign |NINDA₂×1(N01)|
 @oid o0901557
+@sys CDLI-gh img-page
 @aka	|NINDA₂+1(N01)|
 @list U+12A63
 @ucun 𒩣
@@ -12842,6 +13344,7 @@
 
 @sign |NINDA₂×2(N01)|
 @oid o0901558
+@sys CDLI-gh img-page
 @aka	|NINDA₂+2(N01)|
 @list U+12A64
 @ucun 𒩤
@@ -12855,6 +13358,7 @@
 
 @sign |NINDA₂×1(N08)|
 @oid o0901560
+@sys CDLI-gh img-page
 @list U+12A66
 @ucun 𒩦
 @uname NINDA2 TIMES ONE-N8
@@ -12876,6 +13380,7 @@
 
 @sign |NINDA₂×U₄|
 @oid o0901567
+@sys CDLI-gh img-page
 @list U+12A5D
 @ucun 𒩝
 @uname NINDA2 TIMES U4
@@ -12887,6 +13392,7 @@
 
 @sign |NINDA₂×(U₄.X)|
 @oid o0901568
+@sys CDLI-gh img-page
 @list U+12A5E
 @ucun 𒩞
 @uname NINDA2 TIMES U4 PLUS X
@@ -12897,6 +13403,7 @@
 
 @sign |NINDA₂×(UDU×TAR)|
 @oid o0901569
+@sys CDLI-gh img-page
 @list ZATU410
 @smap |NINDA₂×(UDU~a×TAR~a)|
 @form	|NINDA₂×(UDU~a×TAR~a)|
@@ -12924,6 +13431,7 @@
 
 @sign |NINDA₂×X|
 @oid o0901572
+@sys CDLI-gh img-page
 @list U+12A61
 @ucun 𒩡
 @uname NINDA2 TIMES X
@@ -12934,6 +13442,7 @@
 
 @sign |NINDA₂×(ZATU659×1(N01))|
 @oid o0901575
+@sys CDLI-gh img-page
 @list U+12A62
 @ucun 𒩢
 @uname NINDA2 TIMES ZATU659 TIMES ONE-N1
@@ -12950,6 +13459,7 @@
 
 @sign NINKUM
 @oid o0901577
+@sys CDLI-gh img-page
 @list U+12A68
 @ucun 𒩨
 @uname NINKUM
@@ -12962,6 +13472,7 @@
 
 @sign NINLIL
 @oid o0901578
+@sys CDLI-gh img-page
 @list U+12A69
 @ucun 𒩩
 @uname NINLIL
@@ -12974,6 +13485,7 @@
 
 @sign NIR
 @oid o0901579
+@sys CDLI-gh img-page
 @list ZATU414
 @smap NIR~a
 @form NIR~a
@@ -13001,6 +13513,7 @@
 
 @sign |NIR×AN|
 @oid o0901582
+@sys CDLI-gh img-page
 @smap |NIR~a×AN|
 @form |NIR~a×AN|
 @oid o0901583
@@ -13016,6 +13529,7 @@
 
 @sign NU
 @oid o0901584
+@sys CDLI-gh img-page
 @list U+12A6D
 @ucun 𒩭
 @uname NU
@@ -13030,6 +13544,7 @@
 
 @sign NU@g
 @oid o0901585
+@sys CDLI-gh img-page
 @list U+12A6E
 @ucun 𒩮
 @uname NU GUNU
@@ -13043,6 +13558,7 @@
 
 @sign NU₁₁
 @oid o0901586
+@sys CDLI-gh img-page
 @list U+12A6F
 @ucun 𒩯
 @uname NU11
@@ -13056,6 +13572,7 @@
 
 @sign |NU₁₁&NU₁₁|
 @oid o0901587
+@sys CDLI-gh img-page
 @aka	|NU₁₁+NU₁₁|
 @list U+12A70
 @ucun 𒩰
@@ -13068,6 +13585,7 @@
 
 @sign NU₁₁@t
 @oid o0901588
+@sys CDLI-gh img-page
 @list U+12A71
 @ucun 𒩱
 @uname NU11 TENU
@@ -13079,6 +13597,7 @@
 
 @sign NUMUN
 @oid o0901589
+@sys CDLI-gh img-page
 @list U+12A72
 @ucun 𒩲
 @uname NUMUN
@@ -13090,6 +13609,7 @@
 
 @sign NUMUN₂
 @oid o0901590
+@sys CDLI-gh img-page
 @list U+12A73
 @ucun 𒩳
 @uname NUMUN2
@@ -13101,6 +13621,7 @@
 
 @sign NUN
 @oid o0901591
+@sys CDLI-gh img-page
 @list ZATU421
 @smap NUN~a
 @form NUN~a
@@ -13182,6 +13703,7 @@
 
 @sign |NUN+A|
 @oid o0901602
+@sys CDLI-gh img-page
 @smap |NUN~a+A|
 @form |NUN~a+A|
 @oid o0901603
@@ -13197,6 +13719,7 @@
 
 @sign |NUN+EN|
 @oid o0901605
+@sys CDLI-gh img-page
 @list ZATU135
 @sys	LLATU:209_01 EN~a+NUN~a 
 @smap |NUN~a+EN~a~v2|
@@ -13247,6 +13770,7 @@
 
 @sign |NUN+NAM₂|
 @oid o0901610
+@sys CDLI-gh img-page
 @smap |NUN~a+NAM₂|
 @form |NUN~a+NAM₂|
 @oid o0901611
@@ -13261,6 +13785,7 @@
 
 @sign NUNUZ
 @oid o0901612
+@sys CDLI-gh img-page
 @list ZATU423
 @smap NUNUZ~a0
 @form NUNUZ~a0
@@ -13354,6 +13879,7 @@
 
 @sign NUNUZ@t
 @oid o0901622
+@sys CDLI-gh img-page
 @smap NUNUZ~a1@t
 @form NUNUZ~a1@t
 @oid o0901623
@@ -13368,6 +13894,7 @@
 
 @sign PA
 @oid o0901624
+@sys CDLI-gh img-page
 @list ZATU425
 @smap PA~a
 @form PA~a
@@ -13413,6 +13940,7 @@
 
 @sign PAD
 @oid o0901635
+@sys CDLI-gh img-page
 @list ZATU426
 @smap PAD~a
 @form PAD~a
@@ -13441,6 +13969,7 @@
 
 @sign PAP
 @oid o0901638
+@sys CDLI-gh img-page
 @list ZATU427
 @smap PAP~a
 @form PAP~a
@@ -13477,6 +14006,7 @@
 
 @sign PAP@t
 @oid o0901642
+@sys CDLI-gh img-page
 @sys	ADD F3077 CUSAS31 PAPt.png
 @inote	CHECK
 @smap PAP~a@t
@@ -13493,6 +14023,7 @@
 
 @sign PIRIG
 @oid o0901644
+@sys CDLI-gh img-page
 @list ZATU428
 @smap PIRIG~a1
 @form PIRIG~a1
@@ -13561,6 +14092,7 @@
 
 @sign |PIRIG×UR₂|
 @oid o0901652
+@sys CDLI-gh img-page
 @smap |PIRIG~b1×UR₂|
 @form |PIRIG~b1×UR₂|
 @oid o0901653
@@ -13585,6 +14117,7 @@
 
 @sign PU₂
 @oid o0901656
+@sys CDLI-gh img-page
 @list U+12A9B
 @ucun 𒪛
 @uname PU2
@@ -13598,6 +14131,7 @@
 
 @sign RA
 @oid o0901657
+@sys CDLI-gh img-page
 @list U+12A9C
 @ucun 𒪜
 @uname RA
@@ -13611,6 +14145,7 @@
 
 @sign RAD
 @oid o0901658
+@sys CDLI-gh img-page
 @list ZATU432
 @smap RAD~a
 @form RAD~a
@@ -13637,6 +14172,7 @@
 
 @sign RAD@g
 @oid o0901661
+@sys CDLI-gh img-page
 @list ZATU433
 @sys	LLATU:276_03 RAD@g 
 @smap RAD~a@g
@@ -13653,6 +14189,7 @@
 
 @sign RAD@t
 @oid o0901663
+@sys CDLI-gh img-page
 @smap RAD~a@t
 @form RAD~a@t
 @oid o0901664
@@ -13667,6 +14204,7 @@
 
 @sign RI₈
 @oid o0901667
+@sys CDLI-gh img-page
 @list ZATU434
 @smap RI₈~a
 @form RI₈~a
@@ -13693,6 +14231,7 @@
 
 @sign RU
 @oid o0901670
+@sys CDLI-gh img-page
 @aka	RU~a
 @list U+12AA3
 @ucun 𒪣
@@ -13718,6 +14257,7 @@
 
 @sign RU@t
 @oid o0901672
+@sys CDLI-gh img-page
 @list U+12AA4
 @ucun 𒪤
 @uname RU TENU
@@ -13728,6 +14268,7 @@
 
 @sign SA
 @oid o0901673
+@sys CDLI-gh img-page
 @list ZATU436
 @smap SA~a
 @form SA~a
@@ -13763,6 +14304,7 @@
 
 @sign SAG
 @oid o0901677
+@sys CDLI-gh img-page
 @list U+12AA9
 @ucun 𒪩
 @uname SAG
@@ -13794,6 +14336,7 @@
 
 @sign |SAG×GEŠTU|
 @oid o0901680
+@sys CDLI-gh img-page
 @list ZATU438
 @smap |SAG×GEŠTU~a|
 @form |SAG×GEŠTU~a|
@@ -13840,6 +14383,7 @@
 
 @sign |SAG~v1×MA~v1|
 @oid o0901687
+@sys CDLI-gh img-page
 @aka	|SAG×MA|
 @list U+12AB0
 @ucun 𒪰
@@ -13852,6 +14396,7 @@
 
 @sign	|SAG~v1×1(N14)|
 @oid o0901688
+@sys CDLI-gh img-page
 @aka	|SAG×1(N14)|
 @list U+12AB1
 @ucun 𒪱
@@ -13881,6 +14426,7 @@
 
 @sign SAG@g
 @oid o0901694
+@sys CDLI-gh img-page
 @list U+12AAB
 @ucun 𒪫
 @uname SAG GUNU
@@ -13892,6 +14438,7 @@
 
 @sign SAG@n
 @oid o0901695
+@sys CDLI-gh img-page
 @list U+12AAC
 @ucun 𒪬
 @uname SAG NUTILLU
@@ -13904,6 +14451,7 @@
 
 @sign SAGŠU
 @oid o0901696
+@sys CDLI-gh img-page
 @list U+12AB4
 @ucun 𒪴
 @uname SAGSHU
@@ -13916,6 +14464,7 @@
 
 @sign SAL
 @oid o0901697
+@sys CDLI-gh img-page
 @list U+12AB5
 @ucun 𒪵
 @uname SAL
@@ -13929,6 +14478,7 @@
 
 @sign |SAL.KUR|
 @oid o0901698
+@sys CDLI-gh img-page
 @list ZATU201
 @smap |SAL.KUR~a|
 @form |SAL.KUR~a|
@@ -13945,6 +14495,7 @@
 
 @sign |SAL.LAM|
 @oid o0901700
+@sys CDLI-gh img-page
 @smap |SAL.LAM~b|
 @form |SAL.LAM~b|
 @oid o0901701
@@ -13964,6 +14515,7 @@
 
 @sign |SAL.ŠU₂~b|
 @oid o0901703
+@sys CDLI-gh img-page
 @aka	|SAL.ŠU₂|
 @list U+12AB8
 @ucun 𒪸
@@ -13975,6 +14527,7 @@
 
 @sign |SAL×1(N58)|
 @oid o0901704
+@sys CDLI-gh img-page
 @list U+12AB9
 @ucun 𒪹
 @uname SAL TIMES ONE-N58
@@ -14003,6 +14556,7 @@
 
 @sign SANGA
 @oid o0901708
+@sys CDLI-gh img-page
 @list ZATU444
 @smap SANGA~a
 @form SANGA~a
@@ -14078,6 +14632,7 @@
 
 @sign SAR
 @oid o0901717
+@sys CDLI-gh img-page
 @list BAU138
 @list ZATU445
 @smap SAR~a
@@ -14120,6 +14675,7 @@
 
 @sign |SAR×ŠE|
 @oid o0901722
+@sys CDLI-gh img-page
 @list ZATU514
 @smap |SAR~a×ŠE~a|
 @form |SAR~a×ŠE~a|
@@ -14138,6 +14694,7 @@
 
 @sign SI
 @oid o0901724
+@sys CDLI-gh img-page
 @list U+12AC4
 @ucun 𒫄
 @uname SI
@@ -14170,6 +14727,7 @@
 
 @sign |SI×GU₄|
 @oid o0901729
+@sys CDLI-gh img-page
 @list U+12AC5
 @ucun 𒫅
 @uname SI TIMES GU4
@@ -14203,6 +14761,7 @@
 
 @sign |SI×ŠE₃~v1|
 @oid o0901734
+@sys CDLI-gh img-page
 @aka	|SI×ŠE₃|
 @list U+12AC6
 @ucun 𒫆
@@ -14232,6 +14791,7 @@
 
 @sign SI₄
 @oid o0901738
+@sys CDLI-gh img-page
 @list ZATU450
 @smap SI₄~a
 @form SI₄~a
@@ -14303,6 +14863,7 @@
 
 @sign SIG
 @oid o0901746
+@sys CDLI-gh img-page
 @list U+12ACF
 @ucun 𒫏
 @uname SIG
@@ -14321,6 +14882,7 @@
 
 @sign |1(N57).SIG|
 @oid o0901748
+@sys CDLI-gh img-page
 @aka	|SIG×1(N57)|
 @list U+12DF4
 @ucun 𒷴
@@ -14342,6 +14904,7 @@
 
 @sign SIG₂
 @oid o0901750
+@sys CDLI-gh img-page
 @list ZATU452
 @smap SIG₂~a1
 @form SIG₂~a1
@@ -14493,6 +15056,7 @@
 
 @sign |SIG₂×1(N14)|
 @oid o0901766
+@sys CDLI-gh img-page
 @list ZATU453
 @smap |SIG₂~b×1(N14)|
 @form |SIG₂~b×1(N14)|
@@ -14508,6 +15072,7 @@
 
 @sign |SIG₂&SIG₂|
 @oid o0901768
+@sys CDLI-gh img-page
 @smap |SIG₂~b&SIG₂~b|
 @form |SIG₂~b&SIG₂~b|
 @oid o0901769
@@ -14524,6 +15089,7 @@
 
 @sign SIG₄
 @oid o0901770
+@sys CDLI-gh img-page
 @list U+12AE2
 @ucun 𒫢
 @uname SIG4
@@ -14537,6 +15103,7 @@
 
 @sign SIG₇
 @oid o0901771
+@sys CDLI-gh img-page
 @list U+12AE3
 @ucun 𒫣
 @uname SIG7
@@ -14559,6 +15126,7 @@
 
 @sign SILA₃
 @oid o0901774
+@sys CDLI-gh img-page
 @list ZATU456
 @smap SILA₃~a
 @form SILA₃~a
@@ -14596,6 +15164,7 @@
 
 @sign |SILA₃×A|
 @oid o0901780
+@sys CDLI-gh img-page
 @list ZATU457
 @smap |SILA₃~a×A|
 @form |SILA₃~a×A|
@@ -14612,6 +15181,7 @@
 
 @sign |SILA₃×AMAR|
 @oid o0901782
+@sys CDLI-gh img-page
 @smap |SILA₃~a×AMAR|
 @form |SILA₃~a×AMAR|
 @oid o0901783
@@ -14651,6 +15221,7 @@
 
 @sign |SILA₃×GA|
 @oid o0901789
+@sys CDLI-gh img-page
 @list ZATU459
 @smap |SILA₃~a×GA~a~v3|
 @form |SILA₃~a×GA~a~v3|
@@ -14667,6 +15238,7 @@
 
 @sign |SILA₃×GARA₂|
 @oid o0901791
+@sys CDLI-gh img-page
 @list ZATU461
 @smap |SILA₃~a×GARA₂~a|
 @form |SILA₃~a×GARA₂~a|
@@ -14685,6 +15257,7 @@
 
 @sign |SILA₃×GEŠTU|
 @oid o0901793
+@sys CDLI-gh img-page
 @list ZATU462
 @list ZATU469
 @smap |SILA₃~a×GEŠTU~a~v2|
@@ -14721,6 +15294,7 @@
 
 @sign |SILA₃×GUG₂|
 @oid o0901797
+@sys CDLI-gh img-page
 @smap |SILA₃~b×GUG₂|
 @form |SILA₃~b×GUG₂|
 @oid o0901798
@@ -14735,6 +15309,7 @@
 
 @sign |SILA₃×HAŠHUR|
 @oid o0901799
+@sys CDLI-gh img-page
 @list ZATU463
 @smap |SILA₃~a×HAŠHUR|
 @form |SILA₃~a×HAŠHUR|
@@ -14750,6 +15325,7 @@
 
 @sign |SILA₃×HI|
 @oid o0901801
+@sys CDLI-gh img-page
 @list ZATU464
 @smap |SILA₃~a×HI|
 @form |SILA₃~a×HI|
@@ -14766,6 +15342,7 @@
 
 @sign |SILA₃×HI@g|
 @oid o0901803
+@sys CDLI-gh img-page
 @list ZATU465
 @smap |SILA₃~a×HI@g~a|
 @form |SILA₃~a×HI@g~a|
@@ -14781,6 +15358,7 @@
 
 @sign |SILA₃×IB|
 @oid o0901805
+@sys CDLI-gh img-page
 @list ZATU466
 @smap |SILA₃~a×IB~a|
 @form |SILA₃~a×IB~a|
@@ -14796,6 +15374,7 @@
 
 @sign |SILA₃×KAŠ|
 @oid o0901807
+@sys CDLI-gh img-page
 @list ZATU467
 @smap |SILA₃~a×KAŠ~a|
 @form |SILA₃~a×KAŠ~a|
@@ -14830,6 +15409,7 @@
 
 @sign |SILA₃×KU₆|
 @oid o0901811
+@sys CDLI-gh img-page
 @smap |SILA₃~a×KU₆~a|
 @form |SILA₃~a×KU₆~a|
 @oid o0901812
@@ -14844,6 +15424,7 @@
 
 @sign |SILA₃×KUR|
 @oid o0901813
+@sys CDLI-gh img-page
 @list ZATU468
 @smap |SILA₃~a×KUR~a|
 @form |SILA₃~a×KUR~a|
@@ -14859,6 +15440,7 @@
 
 @sign |SILA₃×MA|
 @oid o0901815
+@sys CDLI-gh img-page
 @list ZATU473
 @smap |SILA₃~a×MA~v1|
 @form |SILA₃~a×MA~v1|
@@ -14875,6 +15457,7 @@
 
 @sign |SILA₃×MAŠ|
 @oid o0901817
+@sys CDLI-gh img-page
 @list ZATU470
 @smap |SILA₃~a×MAŠ|
 @form |SILA₃~a×MAŠ|
@@ -14902,6 +15485,7 @@
 
 @sign |SILA₃×1(N57)|
 @oid o0901821
+@sys CDLI-gh img-page
 @list ZATU481
 @smap |SILA₃~a×1(N57)|
 @form |SILA₃~a×1(N57)|
@@ -14917,6 +15501,7 @@
 
 @sign |SILA₃×1(N58)|
 @oid o0901823
+@sys CDLI-gh img-page
 @list ZATU481
 @smap |SILA₃~a×1(N58)|
 @form |SILA₃~a×1(N58)|
@@ -14932,6 +15517,7 @@
 
 @sign |SILA₃×NAGA|
 @oid o0901825
+@sys CDLI-gh img-page
 @list ZATU471
 @smap |SILA₃~a×NAGA~a|
 @form |SILA₃~a×NAGA~a|
@@ -14957,6 +15543,7 @@
 
 @sign |SILA₃×NI|
 @oid o0901828
+@sys CDLI-gh img-page
 @list ZATU460
 @list ZATU472
 @smap |SILA₃~a×NI~a|
@@ -15002,6 +15589,7 @@
 
 @sign |SILA₃×NUN|
 @oid o0901833
+@sys CDLI-gh img-page
 @list ZATU614
 @smap |SILA₃~a×NUN~b|
 @form |SILA₃~a×NUN~b|
@@ -15018,6 +15606,7 @@
 
 @sign |SILA₃×SUHUR|
 @oid o0901835
+@sys CDLI-gh img-page
 @smap |SILA₃~a×SUHUR|
 @form |SILA₃~a×SUHUR|
 @oid o0901836
@@ -15032,6 +15621,7 @@
 
 @sign |SILA₃×SUM|
 @oid o0901837
+@sys CDLI-gh img-page
 @list ZATU474
 @smap |SILA₃~a×SUM~a~v1|
 @form |SILA₃~a×SUM~a~v1|
@@ -15057,6 +15647,7 @@
 
 @sign |SILA₃×ŠE|
 @oid o0901840
+@sys CDLI-gh img-page
 @list ZATU475
 @smap |SILA₃~a×ŠE~a|
 @form |SILA₃~a×ŠE~a|
@@ -15072,6 +15663,7 @@
 
 @sign |SILA₃×ŠE@t|
 @oid o0901842
+@sys CDLI-gh img-page
 @smap |SILA₃~a×ŠE~a@t|
 @form |SILA₃~a×ŠE~a@t|
 @oid o0901843
@@ -15086,6 +15678,7 @@
 
 @sign |SILA₃×ŠU|
 @oid o0901844
+@sys CDLI-gh img-page
 @list ZATU476
 @smap |SILA₃~a×ŠU|
 @form |SILA₃~a×ŠU|
@@ -15112,6 +15705,7 @@
 
 @sign |SILA₃×ŠU₂|
 @oid o0901847
+@sys CDLI-gh img-page
 @list ZATU477
 @smap |SILA₃~a×ŠU₂~b|
 @form |SILA₃~a×ŠU₂~b|
@@ -15128,6 +15722,7 @@
 
 @sign |SILA₃×X|
 @oid o0901849
+@sys CDLI-gh img-page
 @smap |SILA₃~a×X|
 @form |SILA₃~a×X|
 @oid o0901850
@@ -15142,6 +15737,7 @@
 
 @sign |SILA₃×ZATU629|
 @oid o0901851
+@sys CDLI-gh img-page
 @smap |SILA₃~a×ZATU629~v1|
 @form |SILA₃~a×ZATU629~v1|
 @oid o0901852
@@ -15159,6 +15755,7 @@
 
 @sign |SILA₃×ZATU646|
 @oid o0901853
+@sys CDLI-gh img-page
 @smap |SILA₃~a×ZATU646|
 @form |SILA₃~a×ZATU646|
 @oid o0901854
@@ -15175,6 +15772,7 @@
 
 @sign |SILA₃×(ZATU659.TU)|
 @oid o0901855
+@sys CDLI-gh img-page
 @list ZATU478
 @smap |SILA₃~a×(ZATU659.TU~c~v1)|
 @form	|SILA₃~a×(ZATU659.TU~c~v1)|
@@ -15191,6 +15789,7 @@
 
 @sign |SILA₃×ZATU687|
 @oid o0901857
+@sys CDLI-gh img-page
 @list ZATU480
 @smap |SILA₃~c×ZATU687|
 @form |SILA₃~c×ZATU687|
@@ -15207,6 +15806,7 @@
 
 @sign SILA₄
 @oid o0901859
+@sys CDLI-gh img-page
 @list ZATU482a
 @list ZATU482b
 @list ZATU482c
@@ -15262,6 +15862,7 @@
 
 @sign SILANITA
 @oid o0901865
+@sys CDLI-gh img-page
 @aka	SILANITA~a
 @list U+12B17
 @ucun 𒬗
@@ -15274,6 +15875,7 @@
 
 @sign SIMUG
 @oid o0901866
+@sys CDLI-gh img-page
 @list U+12B18
 @ucun 𒬘
 @uname SIMUG
@@ -15296,6 +15898,7 @@
 
 @sign SIPA
 @oid o0901868
+@sys CDLI-gh img-page
 @list U+12B1A
 @ucun 𒬚
 @uname SIPA
@@ -15307,6 +15910,7 @@
 
 @sign SU
 @oid o0901869
+@sys CDLI-gh img-page
 @list ZATU485
 @smap SU~a
 @form SU~a
@@ -15347,6 +15951,7 @@
 
 @sign |SU×1(N58)|
 @oid o0901874
+@sys CDLI-gh img-page
 @list ZATU486
 @smap |SU~a×1(N58)|
 @form |SU~a×1(N58)|
@@ -15364,6 +15969,7 @@
 
 @sign SU₃
 @oid o0901876
+@sys CDLI-gh img-page
 @list U+12B1F
 @ucun 𒬟
 @uname SU3
@@ -15378,6 +15984,7 @@
 
 @sign SUG
 @oid o0901878
+@sys CDLI-gh img-page
 @list U+12B20
 @ucun 𒬠
 @uname SUG
@@ -15391,6 +15998,7 @@
 
 @sign SUG₅
 @oid o0901879
+@sys CDLI-gh img-page
 @aka	SUG₅~a
 @list U+12B21
 @ucun 𒬡
@@ -15406,6 +16014,7 @@
 
 @sign SUH₃
 @oid o0901880
+@sys CDLI-gh img-page
 @list U+12B22
 @ucun 𒬢
 @uname SUH3
@@ -15418,6 +16027,7 @@
 
 @sign SUHUR
 @oid o0901881
+@sys CDLI-gh img-page
 @aka	SUHUR~a
 @list U+12B23
 @ucun 𒬣
@@ -15439,6 +16049,7 @@
 
 @sign SUHUR@g
 @oid o0901883
+@sys CDLI-gh img-page
 @list U+12B24
 @ucun 𒬤
 @uname SUHUR GUNU
@@ -15450,6 +16061,7 @@
 
 @sign SUHUR@n
 @oid o0901884
+@sys CDLI-gh img-page
 @list U+12B25
 @ucun 𒬥
 @uname SUHUR NUTILLU
@@ -15470,6 +16082,7 @@
 
 @sign SUKKAL
 @oid o0901887
+@sys CDLI-gh img-page
 @aka	SUKKAL~a
 @list U+12B26
 @ucun 𒬦
@@ -15485,6 +16098,7 @@
 
 @sign SUKUD
 @oid o0901888
+@sys CDLI-gh img-page
 @aka	SUKUD~a
 @list U+12B27
 @ucun 𒬧
@@ -15500,6 +16114,7 @@
 
 @sign |SUKUD+SUKUD|
 @oid o0901889
+@sys CDLI-gh img-page
 @list ZATU494
 @smap |(SUKUD+SUKUD)~a|
 @form |(SUKUD+SUKUD)~a|
@@ -15538,6 +16153,7 @@
 
 @sign SUKUD@g
 @oid o0901894
+@sys CDLI-gh img-page
 @list ZATU495
 @smap SUKUD@g~a
 @form SUKUD@g~a
@@ -15596,6 +16212,7 @@
 
 @sign SUM
 @oid o0901901
+@sys CDLI-gh img-page
 @list ZATU496
 @smap SUM~a
 @form SUM~a
@@ -15632,6 +16249,7 @@
 
 @sign SUM@t
 @oid o0901905
+@sys CDLI-gh img-page
 @smap SUM~a@t
 @form SUM~a@t
 @oid o0901906
@@ -15646,6 +16264,7 @@
 
 @sign SUMAŠ
 @oid o0901907
+@sys CDLI-gh img-page
 @list U+12B34
 @ucun 𒬴
 @uname SUMASH
@@ -15659,6 +16278,7 @@
 
 @sign SUR
 @oid o0901908
+@sys CDLI-gh img-page
 @list U+12B35
 @ucun 𒬵
 @uname SUR
@@ -15672,6 +16292,7 @@
 
 @sign SUSA
 @oid o0901909
+@sys CDLI-gh img-page
 @list U+12B36
 @ucun 𒬶
 @uname SUSA
@@ -15684,6 +16305,7 @@
 
 @sign ŠA
 @oid o0901910
+@sys CDLI-gh img-page
 @list U+12B37
 @ucun 𒬷
 @uname SHA
@@ -15715,6 +16337,7 @@
 
 @sign |ŠA×HI@g|
 @oid o0901913
+@sys CDLI-gh img-page
 @list ZATU501
 @smap |(ŠA×HI@g~a)~a|
 @form |(ŠA×HI@g~a)~a|
@@ -15740,6 +16363,7 @@
 
 @sign ŠA@g
 @oid o0901916
+@sys CDLI-gh img-page
 @list U+12B3A
 @ucun 𒬺
 @uname SHA GUNU
@@ -15752,6 +16376,7 @@
 
 @sign ŠA₃
 @oid o0901917
+@sys CDLI-gh img-page
 @list ZATU503
 @smap ŠA₃~a1
 @form ŠA₃~a1
@@ -15819,6 +16444,7 @@
 
 @sign ŠAB
 @oid o0901925
+@sys CDLI-gh img-page
 @list ZATU504
 @smap ŠAB~a
 @form ŠAB~a
@@ -15862,6 +16488,7 @@
 
 @sign ŠAGAN
 @oid o0901930
+@sys CDLI-gh img-page
 @list U+12B46
 @ucun 𒭆
 @uname SHAGAN
@@ -15884,6 +16511,7 @@
 
 @sign ŠAGINA
 @oid o0901932
+@sys CDLI-gh img-page
 @list U+12B48
 @ucun 𒭈
 @uname SHAGINA
@@ -15896,6 +16524,7 @@
 
 @sign ŠAH₂
 @oid o0901933
+@sys CDLI-gh img-page
 @list ZATU508
 @smap ŠAH₂~a
 @form ŠAH₂~a
@@ -15933,6 +16562,7 @@
 
 @sign ŠAKIR
 @oid o0901937
+@sys CDLI-gh img-page
 @list ZATU509
 @smap ŠAKIR~a
 @form ŠAKIR~a
@@ -15969,6 +16599,7 @@
 
 @sign ŠAM₂
 @oid o0901941
+@sys CDLI-gh img-page
 @list U+12B4F
 @ucun 𒭏
 @uname SHAM2
@@ -15982,6 +16613,7 @@
 
 @sign ŠANDANA
 @oid o0901942
+@sys CDLI-gh img-page
 @smap ŠANDANA~a
 @form ŠANDANA~a
 @oid o0901943
@@ -16005,6 +16637,7 @@
 
 @sign ŠE
 @oid o0901945
+@sys CDLI-gh img-page
 @list ZATU511
 @smap ŠE~a
 @form ŠE~a
@@ -16056,6 +16689,7 @@
 
 @sign |ŠE.KIN₂|
 @oid o0901952
+@sys CDLI-gh img-page
 @list ZATU512
 @smap |ŠE~a.KIN₂~c|
 @form |ŠE~a.KIN₂~c|
@@ -16072,6 +16706,7 @@
 
 @sign |ŠE.NAM₂|
 @oid o0901954
+@sys CDLI-gh img-page
 @list ZATU513
 @smap |ŠE~a.NAM₂|
 @form |ŠE~a.NAM₂|
@@ -16105,6 +16740,7 @@
 
 @sign |ŠE&ŠE|
 @oid o0901958
+@sys CDLI-gh img-page
 @list ZATU515
 @smap |ŠE~a&ŠE~a|
 @form |ŠE~a&ŠE~a|
@@ -16122,6 +16758,7 @@
 
 @sign ŠE@t
 @oid o0901960
+@sys CDLI-gh img-page
 @smap ŠE~a@t
 @form ŠE~a@t
 @oid o0901961
@@ -16139,6 +16776,7 @@
 
 @sign ŠE₃
 @oid o0901962
+@sys CDLI-gh img-page
 @list U+12B5A
 @ucun 𒭚
 @uname SHE3
@@ -16161,6 +16799,7 @@
 
 @sign ŠE₃@t
 @oid o0901964
+@sys CDLI-gh img-page
 @list U+12B5B
 @ucun 𒭛
 @uname SHE3 TENU
@@ -16183,6 +16822,7 @@
 
 @sign ŠEG₉
 @oid o0901966
+@sys CDLI-gh img-page
 @list U+12B5E
 @ucun 𒭞
 @uname SHEG9
@@ -16196,6 +16836,7 @@
 
 @sign ŠELU
 @oid o0901967
+@sys CDLI-gh img-page
 @list U+12B5F
 @ucun 𒭟
 @uname SHELU
@@ -16208,6 +16849,7 @@
 
 @sign ŠEN
 @oid o0901968
+@sys CDLI-gh img-page
 @list ZATU521
 @smap ŠEN~a
 @form ŠEN~a
@@ -16299,6 +16941,7 @@
 
 @sign |ŠEN×A|
 @oid o0901978
+@sys CDLI-gh img-page
 @smap |ŠEN~d×A|
 @form |ŠEN~d×A|
 @oid o0901979
@@ -16313,6 +16956,7 @@
 
 @sign ŠEN@t
 @oid o0901980
+@sys CDLI-gh img-page
 @smap ŠEN~c@t
 @form ŠEN~c@t
 @oid o0901981
@@ -16327,6 +16971,7 @@
 
 @sign ŠENNUR
 @oid o0901982
+@sys CDLI-gh img-page
 @list ZATU522
 @smap ŠENNUR~a
 @form ŠENNUR~a
@@ -16352,6 +16997,7 @@
 
 @sign ŠEŠ
 @oid o0901985
+@sys CDLI-gh img-page
 @list ZATU523
 @list ZATU595
 @smap ŠEŠ~a
@@ -16387,6 +17033,7 @@
 
 @sign ŠIDIM
 @oid o0901990
+@sys CDLI-gh img-page
 @list U+12B70
 @ucun 𒭰
 @uname SHIDIM
@@ -16400,6 +17047,7 @@
 
 @sign ŠIDIM@t
 @oid o0901991
+@sys CDLI-gh img-page
 @list U+12B71
 @ucun 𒭱
 @uname SHIDIM TENU
@@ -16410,6 +17058,7 @@
 
 @sign ŠIM
 @oid o0901992
+@sys CDLI-gh img-page
 @list ZATU525
 @smap ŠIM~a
 @form ŠIM~a
@@ -16454,6 +17103,7 @@
 
 @sign ŠIR
 @oid o0901997
+@sys CDLI-gh img-page
 @list ZATU526
 @smap ŠIR~a
 @form ŠIR~a
@@ -16508,6 +17158,7 @@
 
 @sign ŠITA
 @oid o0902003
+@sys CDLI-gh img-page
 @list ZATU527
 @smap ŠITA~a1
 @form ŠITA~a1
@@ -16575,6 +17226,7 @@
 
 @sign |ŠITA@g×HI@g|
 @oid o0902011
+@sys CDLI-gh img-page
 @smap |ŠITA~b2@g×HI@g~a|
 @form |ŠITA~b2@g×HI@g~a|
 @oid o0902012
@@ -16591,6 +17243,7 @@
 
 @sign |ŠITA×KAK|
 @oid o0902013
+@sys CDLI-gh img-page
 @list ZATU529
 @smap |ŠITA~a1×KAK~a|
 @form |ŠITA~a1×KAK~a|
@@ -16607,6 +17260,7 @@
 
 @sign |ŠITA×1(N06)|
 @oid o0902015
+@sys CDLI-gh img-page
 @smap |ŠITA~a1×1(N06)|
 @form |ŠITA~a1×1(N06)|
 @oid o0902016
@@ -16621,6 +17275,7 @@
 
 @sign |ŠITA×NAM₂|
 @oid o0902017
+@sys CDLI-gh img-page
 @smap |ŠITA~b3×NAM₂|
 @form |ŠITA~b3×NAM₂|
 @oid o0902018
@@ -16635,6 +17290,7 @@
 
 @sign |ŠITA×ŠU|
 @oid o0902019
+@sys CDLI-gh img-page
 @list ZATU528
 @smap |ŠITA~a1×ŠU|
 @form |ŠITA~a1×ŠU|
@@ -16651,6 +17307,7 @@
 
 @sign |ŠITA×ŠU₂|
 @oid o0902021
+@sys CDLI-gh img-page
 @smap |ŠITA~a1×ŠU₂~b|
 @form |ŠITA~a1×ŠU₂~b|
 @oid o0902022
@@ -16666,6 +17323,7 @@
 
 @sign |ŠITA×UDU|
 @oid o0902023
+@sys CDLI-gh img-page
 @smap |ŠITA~a1×UDU~a|
 @form |ŠITA~a1×UDU~a|
 @oid o0902024
@@ -16680,6 +17338,7 @@
 
 @sign ŠITA@g
 @oid o0902025
+@sys CDLI-gh img-page
 @list ZATU530
 @smap ŠITA~a1@g
 @form	ŠITA~a1@g
@@ -16720,6 +17379,7 @@
 
 @sign |ŠITA@g×1(N04)|
 @oid o0902029
+@sys CDLI-gh img-page
 @list ZATU531
 @smap |ŠITA~b3@g×1(N04)|
 @form |ŠITA~b3@g×1(N04)|
@@ -16736,6 +17396,7 @@
 
 @sign |ŠITA@g×1(N06)|
 @oid o0902031
+@sys CDLI-gh img-page
 @smap |ŠITA~b3@g×1(N06)|
 @form |ŠITA~b3@g×1(N06)|
 @oid o0902032
@@ -16751,6 +17412,7 @@
 
 @sign ŠU
 @oid o0902033
+@sys CDLI-gh img-page
 @list U+12B8D
 @ucun 𒮍
 @uname SHU
@@ -16764,6 +17426,7 @@
 
 @sign |ŠU×1(N58)|
 @oid o0902034
+@sys CDLI-gh img-page
 @list U+12B8E
 @ucun 𒮎
 @uname SHU TIMES ONE-N58
@@ -16774,6 +17437,7 @@
 
 @sign |ŠU&ŠU|
 @oid o0902035
+@sys CDLI-gh img-page
 @list U+12B8F
 @ucun 𒮏
 @uname SHU OVER SHU
@@ -16784,6 +17448,7 @@
 
 @sign ŠU@g
 @oid o0902036
+@sys CDLI-gh img-page
 @list U+12B90
 @ucun 𒮐
 @uname SHU GUNU
@@ -16796,6 +17461,7 @@
 
 @sign ŠU₂
 @oid o0902038
+@sys CDLI-gh img-page
 @list ZATU534
 @sys	LLATU:296_02 ŠU₂ 
 @smap ŠU₂~a
@@ -16834,6 +17500,7 @@
 
 @sign |ŠU₂.E₂|
 @oid o0902042
+@sys CDLI-gh img-page
 @list ZATU535
 @smap |ŠU₂~b.E₂~a|
 @form |ŠU₂~b.E₂~a|
@@ -16860,6 +17527,7 @@
 
 @sign |ŠU₂.EN|
 @oid o0902045
+@sys CDLI-gh img-page
 @list ZATU536
 @smap |ŠU₂~a.EN~a~v1|
 @form |ŠU₂~a.EN~a~v1|
@@ -16898,6 +17566,7 @@
 
 @sign |ŠU₂~b.GIŠ|
 @oid o0902049
+@sys CDLI-gh img-page
 @aka	|ŠU₂.GIŠ|
 @list U+12B9B
 @ucun 𒮛
@@ -16922,6 +17591,7 @@
 
 @sign |ŠU₂~b.1(N02)|
 @oid o0902051
+@sys CDLI-gh img-page
 @aka	|ŠU₂.1(N02)|
 @list U+12B9C
 @ucun 𒮜
@@ -16943,6 +17613,7 @@
 
 @sign |ŠU₂.URI₃|
 @oid o0902055
+@sys CDLI-gh img-page
 @smap |ŠU₂~a.URI₃~a~v1|
 @form |ŠU₂~a.URI₃~a~v1|
 @oid o0902056
@@ -16971,6 +17642,7 @@
 
 @sign ŠU₁₂
 @oid o0902059
+@sys CDLI-gh img-page
 @list U+12B9D
 @ucun 𒮝
 @uname SHU12
@@ -16983,6 +17655,7 @@
 
 @sign ŠUBUR
 @oid o0902060
+@sys CDLI-gh img-page
 @list U+12B9E
 @ucun 𒮞
 @uname SHUBUR
@@ -16995,6 +17668,7 @@
 
 @sign ŠUM
 @oid o0902061
+@sys CDLI-gh img-page
 @list U+12B9F
 @ucun 𒮟
 @uname SHUM
@@ -17007,6 +17681,7 @@
 
 @sign ŠUR₂
 @oid o0902062
+@sys CDLI-gh img-page
 @list ZATU543
 @smap ŠUR₂~a
 @form ŠUR₂~a
@@ -17043,6 +17718,7 @@
 
 @sign ŠURUPPAK
 @oid o0902067
+@sys CDLI-gh img-page
 @list ZATU544
 @smap ŠURUPPAK~a
 @form ŠURUPPAK~a
@@ -17086,6 +17762,7 @@
 
 @sign TA
 @oid o0902073
+@sys CDLI-gh img-page
 @list ZATU545
 @smap TA~a
 @form TA~a
@@ -17138,6 +17815,7 @@
 
 @sign |TA×MAŠ|
 @oid o0902080
+@sys CDLI-gh img-page
 @smap |TA~d×MAŠ|
 @form |TA~d×MAŠ|
 @oid o0902081
@@ -17152,6 +17830,7 @@
 
 @sign TAG
 @oid o0902082
+@sys CDLI-gh img-page
 @list ZATU547
 @smap TAG~a1
 @form TAG~a1
@@ -17230,6 +17909,7 @@
 
 @sign TAG@t
 @oid o0902091
+@sys CDLI-gh img-page
 @smap TAG~a1@t
 @form TAG~a1@t
 @oid o0902092
@@ -17244,6 +17924,7 @@
 
 @sign TAK₄
 @oid o0902093
+@sys CDLI-gh img-page
 @list ZATU548
 @smap TAK₄~a
 @form TAK₄~a
@@ -17279,6 +17960,7 @@
 
 @sign TAK₄@n
 @oid o0902097
+@sys CDLI-gh img-page
 @smap TAK₄~a@n
 @form TAK₄~a@n
 @oid o0902098
@@ -17293,6 +17975,7 @@
 
 @sign TAR
 @oid o0902099
+@sys CDLI-gh img-page
 @list ZATU549
 @smap TAR~a
 @form TAR~a
@@ -17314,6 +17997,7 @@
 
 @sign TE
 @oid o0902102
+@sys CDLI-gh img-page
 @aka	TE~a
 @list U+12BB9
 @ucun 𒮹
@@ -17329,6 +18013,7 @@
 
 @sign TI
 @oid o0902103
+@sys CDLI-gh img-page
 @aka	TI~a
 @list U+12BBA
 @ucun 𒮺
@@ -17352,6 +18037,7 @@
 
 @sign TI@g
 @oid o0902105
+@sys CDLI-gh img-page
 @list U+12BBB
 @ucun 𒮻
 @uname TI GUNU
@@ -17363,6 +18049,7 @@
 
 @sign TI@r
 @oid o0902106
+@sys CDLI-gh img-page
 @list U+12BBC
 @ucun 𒮼
 @uname TI REVERSED
@@ -17373,6 +18060,7 @@
 
 @sign TI@t
 @oid o0902107
+@sys CDLI-gh img-page
 @list U+12BBD
 @ucun 𒮽
 @uname TI TENU
@@ -17383,6 +18071,7 @@
 
 @sign TIDNUM
 @oid o0902108
+@sys CDLI-gh img-page
 @list U+12BBF
 @ucun 𒮿
 @uname TIDNUM
@@ -17395,6 +18084,7 @@
 
 @sign TILLA₂
 @oid o0902109
+@sys CDLI-gh img-page
 @list U+12BC0
 @ucun 𒯀
 @uname TILLA2
@@ -17408,6 +18098,7 @@
 
 @sign TU
 @oid o0902110
+@sys CDLI-gh img-page
 @list ZATU554
 @smap TU~a
 @form TU~a
@@ -17449,6 +18140,7 @@
 
 @sign TUG₂
 @oid o0902115
+@sys CDLI-gh img-page
 @list ZATU555
 @smap TUG₂~a
 @form TUG₂~a
@@ -17495,6 +18187,7 @@
 
 @sign |TUG₂.BAD&BAD|
 @oid o0902120
+@sys CDLI-gh img-page
 @list ZATU556
 @smap |TUG₂~a.BAD&BAD|
 @form |TUG₂~a.BAD&BAD|
@@ -17510,6 +18203,7 @@
 
 @sign TUG₂@g
 @oid o0902122
+@sys CDLI-gh img-page
 @list ZATU557
 @smap TUG₂~a@g
 @form TUG₂~a@g
@@ -17544,6 +18238,7 @@
 
 @sign TUM
 @oid o0902127
+@sys CDLI-gh img-page
 @list ZATU560
 @smap TUM~a
 @form TUM~a
@@ -17589,6 +18284,7 @@
 
 @sign TUM@g
 @oid o0902132
+@sys CDLI-gh img-page
 @smap TUM~a@g
 @form TUM~a@g
 @oid o0902133
@@ -17609,6 +18305,7 @@
 
 @sign TUN₃
 @oid o0902135
+@sys CDLI-gh img-page
 @list ZATU561
 @smap TUN₃~a
 @form TUN₃~a
@@ -17648,6 +18345,7 @@
 
 @sign TUR
 @oid o0902139
+@sys CDLI-gh img-page
 @list U+12BD3
 @ucun 𒯓
 @uname TUR
@@ -17688,6 +18386,7 @@
 
 @sign TUR@g
 @oid o0902144
+@sys CDLI-gh img-page
 @list U+12BD4
 @ucun 𒯔
 @uname TUR GUNU
@@ -17698,6 +18397,7 @@
 
 @sign TUR₃
 @oid o0902145
+@sys CDLI-gh img-page
 @list ZATU563
 @smap TUR₃~a
 @form TUR₃~a
@@ -17744,6 +18444,7 @@
 
 @sign TUR₃@n
 @oid o0902153
+@sys CDLI-gh img-page
 @smap TUR₃~a@n
 @form TUR₃~a@n
 @oid o0902154
@@ -17758,6 +18459,7 @@
 
 @sign U₂
 @oid o0902155
+@sys CDLI-gh img-page
 @list ZATU565
 @smap U₂~a
 @form U₂~a
@@ -17812,6 +18514,7 @@
 
 @sign U₄
 @oid o0902161
+@sys CDLI-gh img-page
 @list U+12BE1
 @ucun 𒯡
 @uname U4
@@ -17825,6 +18528,7 @@
 
 @sign |U₄.1(N08)|
 @oid o0902163
+@sys CDLI-gh img-page
 @list U+12BE3
 @ucun 𒯣
 @uname U4 BESIDE ONE-N8
@@ -17835,6 +18539,7 @@
 
 @sign |U₄.2(N08)|
 @oid o0902164
+@sys CDLI-gh img-page
 @list U+12BE4
 @ucun 𒯤
 @uname U4 BESIDE TWO-N8
@@ -17845,6 +18550,7 @@
 
 @sign |U₄.3(N08)|
 @oid o0902165
+@sys CDLI-gh img-page
 @list U+12BE5
 @ucun 𒯥
 @uname U4 BESIDE THREE-N8
@@ -17855,6 +18561,7 @@
 
 @sign |U₄.4(N08)~v1|
 @oid o0902166
+@sys CDLI-gh img-page
 @aka	|U₄.4(N08)|
 @list U+12BE6
 @ucun 𒯦
@@ -17866,6 +18573,7 @@
 
 @sign |U₄.5(N08)|
 @oid o0902167
+@sys CDLI-gh img-page
 @list U+12BE7
 @ucun 𒯧
 @uname U4 BESIDE FIVE-N8
@@ -17876,6 +18584,7 @@
 
 @sign |U₄.6(N08)|
 @oid o0902168
+@sys CDLI-gh img-page
 @list U+12BE8
 @ucun 𒯨
 @uname U4 BESIDE SIX-N8
@@ -17886,6 +18595,7 @@
 
 @sign |U₄.7(N08)|
 @oid o0902169
+@sys CDLI-gh img-page
 @list U+12BE9
 @ucun 𒯩
 @uname U4 BESIDE SEVEN-N8
@@ -17896,6 +18606,7 @@
 
 @sign |U₄.8(N08)|
 @oid o0902170
+@sys CDLI-gh img-page
 @list U+12BEA
 @ucun 𒯪
 @uname U4 BESIDE EIGHT-N8
@@ -17906,6 +18617,7 @@
 
 @sign |U₄.1(N14)|
 @oid o0902171
+@sys CDLI-gh img-page
 @list U+12BEB
 @ucun 𒯫
 @uname U4 BESIDE ONE-N14
@@ -17916,6 +18628,7 @@
 
 @sign |U₄.(1(N14).3(N08))|
 @oid o0902172
+@sys CDLI-gh img-page
 @aka	|(U₄+1(N14)).3(N08)|
 @list U+12BEC
 @ucun 𒯬
@@ -17927,6 +18640,7 @@
 
 @sign |U₄.(1(N14).4(N08))|
 @oid o0902173
+@sys CDLI-gh img-page
 @list U+12BED
 @ucun 𒯭
 @uname U4 BESIDE ONE-N14 PLUS FOUR-N8
@@ -17937,6 +18651,7 @@
 
 @sign |U₄.(1(N14).5(N08))|
 @oid o0902174
+@sys CDLI-gh img-page
 @list U+12BEE
 @ucun 𒯮
 @uname U4 BESIDE ONE-N14 PLUS FIVE-N8
@@ -17947,6 +18662,7 @@
 
 @sign |U₄.(1(N14).8(N08))|
 @oid o0902175
+@sys CDLI-gh img-page
 @list U+12BEF
 @ucun 𒯯
 @uname U4 BESIDE ONE-N14 PLUS EIGHT-N8
@@ -17957,6 +18673,7 @@
 
 @sign |U₄.2(N14)|
 @oid o0902176
+@sys CDLI-gh img-page
 @list U+12BF0
 @ucun 𒯰
 @uname U4 BESIDE TWO-N14
@@ -17967,6 +18684,7 @@
 
 @sign |U₄.ŠU₂~b|
 @oid o0902177
+@sys CDLI-gh img-page
 @aka	|U₄.ŠU₂|
 @list U+12BE2
 @ucun 𒯢
@@ -17980,6 +18698,7 @@
 
 @sign |U₄×1(N01)|
 @oid o0902178
+@sys CDLI-gh img-page
 @list U+12BF3
 @ucun 𒯳
 @uname U4 TIMES ONE-N1
@@ -17992,6 +18711,7 @@
 
 @sign |U₄×1(N01).5(N08)|
 @oid o0902179
+@sys CDLI-gh img-page
 @list U+12BF4
 @ucun 𒯴
 @uname U4 TIMES ONE-N1 BESIDE FIVE-N8
@@ -18009,6 +18729,7 @@
 
 @sign |U₄×2(N01)|
 @oid o0902182
+@sys CDLI-gh img-page
 @list U+12BF5
 @ucun 𒯵
 @uname U4 TIMES TWO-N1
@@ -18019,6 +18740,7 @@
 
 @sign |U₄×2(N01).2(N14)|
 @oid o0902183
+@sys CDLI-gh img-page
 @list U+12BF7
 @ucun 𒯷
 @uname U4 TIMES TWO-N1 BESIDE TWO-N14
@@ -18029,6 +18751,7 @@
 
 @sign |U₄×2(N01).(2(N14).1(N08))|
 @oid o0902184
+@sys CDLI-gh img-page
 @list U+12BF8
 @ucun 𒯸
 @uname U4 TIMES TWO-N1 BESIDE TWO-N14 PLUS ONE-N8
@@ -18039,6 +18762,7 @@
 
 @sign |U₄×2(N01).X|
 @oid o0902185
+@sys CDLI-gh img-page
 @list U+12BF6
 @ucun 𒯶
 @uname U4 TIMES TWO-N1 BESIDE X
@@ -18049,6 +18773,7 @@
 
 @sign |U₄×3(N01)|
 @oid o0902186
+@sys CDLI-gh img-page
 @list U+12BF9
 @ucun 𒯹
 @uname U4 TIMES THREE-N1
@@ -18059,6 +18784,7 @@
 
 @sign |U₄×3(N01).3(N08)~v1|
 @oid o0902187
+@sys CDLI-gh img-page
 @aka	|U₄×3(N01).3(N08)|
 @list U+12BFA
 @ucun 𒯺
@@ -18070,6 +18796,7 @@
 
 @sign |U₄×4(N01)|
 @oid o0902188
+@sys CDLI-gh img-page
 @list U+12BFB
 @ucun 𒯻
 @uname U4 TIMES FOUR-N1
@@ -18080,6 +18807,7 @@
 
 @sign |U₄×4(N01).2(N14)|
 @oid o0902189
+@sys CDLI-gh img-page
 @list U+12BFC
 @ucun 𒯼
 @uname U4 TIMES FOUR-N1 BESIDE TWO-N14
@@ -18090,6 +18818,7 @@
 
 @sign |U₄×5(N01)|
 @oid o0902190
+@sys CDLI-gh img-page
 @list U+12BFD
 @ucun 𒯽
 @uname U4 TIMES FIVE-N1
@@ -18100,6 +18829,7 @@
 
 @sign |U₄×5(N01).1(N14)|
 @oid o0902191
+@sys CDLI-gh img-page
 @list U+12BFE
 @ucun 𒯾
 @uname U4 TIMES FIVE-N1 BESIDE ONE-N14
@@ -18110,6 +18840,7 @@
 
 @sign |U₄×6(N01)|
 @oid o0902192
+@sys CDLI-gh img-page
 @list U+12BFF
 @ucun 𒯿
 @uname U4 TIMES SIX-N1
@@ -18120,6 +18851,7 @@
 
 @sign |U₄×8(N01)|
 @oid o0902193
+@sys CDLI-gh img-page
 @list U+12C00
 @ucun 𒰀
 @uname U4 TIMES EIGHT-N1
@@ -18130,6 +18862,7 @@
 
 @sign |U₄×8(N01).X|
 @oid o0902194
+@sys CDLI-gh img-page
 @list U+12C01
 @ucun 𒰁
 @uname U4 TIMES EIGHT-N1 BESIDE X
@@ -18140,6 +18873,7 @@
 
 @sign |U₄×N(N01)|
 @oid o0902195
+@sys CDLI-gh img-page
 @list U+12C02
 @ucun 𒰂
 @uname U4 TIMES N-N1
@@ -18150,6 +18884,7 @@
 
 @sign |U₄×1(N14)|
 @oid o0902196
+@sys CDLI-gh img-page
 @list U+12C03
 @ucun 𒰃
 @uname U4 TIMES ONE-N14
@@ -18166,6 +18901,7 @@
 
 @sign |U₄×(1(N14).2(N01))|
 @oid o0902198
+@sys CDLI-gh img-page
 @list U+12C04
 @ucun 𒰄
 @uname U4 TIMES ONE-N14 PLUS TWO-N1
@@ -18182,6 +18918,7 @@
 
 @sign |U₄×(1(N14).4(N01))|
 @oid o0902200
+@sys CDLI-gh img-page
 @list U+12C05
 @ucun 𒰅
 @uname U4 TIMES ONE-N14 PLUS FOUR-N1
@@ -18192,6 +18929,7 @@
 
 @sign |U₄×(1(N14).8(N01))|
 @oid o0902201
+@sys CDLI-gh img-page
 @list U+12C06
 @ucun 𒰆
 @uname U4 TIMES ONE-N14 PLUS EIGHT-N1
@@ -18202,6 +18940,7 @@
 
 @sign |U₄×2(N14)|
 @oid o0902202
+@sys CDLI-gh img-page
 @list U+12C07
 @ucun 𒰇
 @uname U4 TIMES TWO-N14
@@ -18212,6 +18951,7 @@
 
 @sign |U₄×(2(N14).4(N01))|
 @oid o0902203
+@sys CDLI-gh img-page
 @list U+12C08
 @ucun 𒰈
 @uname U4 TIMES TWO-N14 PLUS FOUR-N1
@@ -18222,6 +18962,7 @@
 
 @sign |U₄×(3(N14).2(N01))|
 @oid o0902204
+@sys CDLI-gh img-page
 @list U+12C09
 @ucun 𒰉
 @uname U4 TIMES THREE-N14 PLUS TWO-N1
@@ -18232,6 +18973,7 @@
 
 @sign |U₄×(3(N14).7(N01))|
 @oid o0902205
+@sys CDLI-gh img-page
 @list U+12C0A
 @ucun 𒰊
 @uname U4 TIMES THREE-N14 PLUS SEVEN-N1
@@ -18242,6 +18984,7 @@
 
 @sign |U₄×1(N57)|
 @oid o0902206
+@sys CDLI-gh img-page
 @list U+12C0B
 @ucun 𒰋
 @uname U4 TIMES ONE-N57
@@ -18252,6 +18995,7 @@
 
 @sign |U₄×2(N57)|
 @oid o0902207
+@sys CDLI-gh img-page
 @aka	|U₄+2(N57)|
 @list U+12C0C
 @ucun 𒰌
@@ -18264,6 +19008,7 @@
 
 @sign |U₄×3(N57)|
 @oid o0902208
+@sys CDLI-gh img-page
 @list U+12C0D
 @ucun 𒰍
 @uname U4 TIMES THREE-N57
@@ -18274,6 +19019,7 @@
 
 @sign |U₄×4(N57)|
 @oid o0902209
+@sys CDLI-gh img-page
 @list U+12C0E
 @ucun 𒰎
 @uname U4 TIMES FOUR-N57
@@ -18284,6 +19030,7 @@
 
 @sign |U₄×5(N57)|
 @oid o0902210
+@sys CDLI-gh img-page
 @list U+12C0F
 @ucun 𒰏
 @uname U4 TIMES FIVE-N57
@@ -18294,6 +19041,7 @@
 
 @sign |U₄×6(N57)|
 @oid o0902211
+@sys CDLI-gh img-page
 @list U+12C10
 @ucun 𒰐
 @uname U4 TIMES SIX-N57
@@ -18304,6 +19052,7 @@
 
 @sign |U₄×7(N57)|
 @oid o0902212
+@sys CDLI-gh img-page
 @list U+12C11
 @ucun 𒰑
 @uname U4 TIMES SEVEN-N57
@@ -18314,6 +19063,7 @@
 
 @sign |U₄×8(N57)|
 @oid o0902213
+@sys CDLI-gh img-page
 @list U+12C12
 @ucun 𒰒
 @uname U4 TIMES EIGHT-N57
@@ -18324,6 +19074,7 @@
 
 @sign |U₄×10(N57)|
 @oid o0902214
+@sys CDLI-gh img-page
 @list U+12C13
 @ucun 𒰓
 @uname U4 TIMES TEN-N57
@@ -18334,6 +19085,7 @@
 
 @sign |U₄×1(N58@t)|
 @oid o0902215
+@sys CDLI-gh img-page
 @aka	|U₄×1(N58)@t|
 @list U+12C14
 @ucun 𒰔
@@ -18345,6 +19097,7 @@
 
 @sign |U₄×X|
 @oid o0902216
+@sys CDLI-gh img-page
 @list U+12BF1
 @ucun 𒯱
 @uname U4 TIMES X
@@ -18355,6 +19108,7 @@
 
 @sign |U₄×(X+2(N01))|
 @oid o0902217
+@sys CDLI-gh img-page
 @list U+12BF2
 @ucun 𒯲
 @uname U4 TIMES X JOINING TWO-N1
@@ -18377,6 +19131,7 @@
 
 @sign U₈
 @oid o0902220
+@sys CDLI-gh img-page
 @list U+12C16
 @ucun 𒰖
 @uname U8
@@ -18417,6 +19172,7 @@
 
 @sign |U₈×TAR|
 @oid o0902224
+@sys CDLI-gh img-page
 @smap |U₈×TAR~b|
 @form	|U₈×TAR~b|
 @oid o0902225
@@ -18432,6 +19188,7 @@
 
 @sign U₄@t
 @oid o0902226
+@sys CDLI-gh img-page
 @list U+12C15
 @ucun 𒰕
 @uname U4 TENU
@@ -18442,6 +19199,7 @@
 
 @sign UB
 @oid o0902227
+@sys CDLI-gh img-page
 @list U+12C1B
 @ucun 𒰛
 @uname UB
@@ -18455,6 +19213,7 @@
 
 @sign UBI
 @oid o0902228
+@sys CDLI-gh img-page
 @list ZATU573
 @smap UBI~a
 @form UBI~a
@@ -18495,6 +19254,7 @@
 
 @sign UD₅
 @oid o0902233
+@sys CDLI-gh img-page
 @list ZATU574
 @smap UD₅~a
 @form UD₅~a
@@ -18548,6 +19308,7 @@
 
 @sign UD₅@g
 @oid o0902240
+@sys CDLI-gh img-page
 @smap UD₅~a@g
 @form UD₅~a@g
 @oid o0902241
@@ -18563,6 +19324,7 @@
 
 @sign UDU
 @oid o0902242
+@sys CDLI-gh img-page
 @list ZATU575
 @smap UDU~a
 @form UDU~a
@@ -18599,6 +19361,7 @@
 
 @sign |UDU×TAR|
 @oid o0902246
+@sys CDLI-gh img-page
 @list ZATU576
 @smap |UDU~a×TAR~a|
 @form	|UDU~a×TAR~a|
@@ -18625,6 +19388,7 @@
 
 @sign UDUNITA
 @oid o0902249
+@sys CDLI-gh img-page
 @list ZATU578
 @smap UDUNITA~a
 @form UDUNITA~a
@@ -18664,6 +19428,7 @@
 
 @sign UH
 @oid o0902254
+@sys CDLI-gh img-page
 @list U+12C2D
 @ucun 𒰭
 @uname UH
@@ -18674,6 +19439,7 @@
 
 @sign UH₃
 @oid o0902255
+@sys CDLI-gh img-page
 @list ZATU579
 @smap UH₃~a
 @form UH₃~a
@@ -18699,6 +19465,7 @@
 
 @sign UH₃@t
 @oid o0902258
+@sys CDLI-gh img-page
 @smap UH₃~a@t
 @form UH₃~a@t
 @oid o0902259
@@ -18714,6 +19481,7 @@
 
 @sign UKKIN
 @oid o0902260
+@sys CDLI-gh img-page
 @list ZATU580
 @smap UKKIN~a
 @form UKKIN~a
@@ -18773,6 +19541,7 @@
 
 @sign |UKKIN×DIN|
 @oid o0902267
+@sys CDLI-gh img-page
 @smap |UKKIN~b×DIN|
 @form |UKKIN~b×DIN|
 @oid o0902268
@@ -18787,6 +19556,7 @@
 
 @sign |UKKIN×(DIN.1(N01))|
 @oid o0902269
+@sys CDLI-gh img-page
 @smap |UKKIN~b×(DIN.1(N01))|
 @form |UKKIN~b×(DIN.1(N01))|
 @oid o0902270
@@ -18801,6 +19571,7 @@
 
 @sign |UKKIN×HI@g|
 @oid o0902273
+@sys CDLI-gh img-page
 @smap |UKKIN~b×HI@g~a|
 @form |UKKIN~b×HI@g~a|
 @oid o0902274
@@ -18815,6 +19586,7 @@
 
 @sign |UKKIN×2(N01)|
 @oid o0902275
+@sys CDLI-gh img-page
 @smap |UKKIN~b×2(N01)|
 @form |UKKIN~b×2(N01)|
 @oid o0902276
@@ -18829,6 +19601,7 @@
 
 @sign |UKKIN×3(N01)|
 @oid o0902277
+@sys CDLI-gh img-page
 @smap |UKKIN~b×3(N01)|
 @form |UKKIN~b×3(N01)|
 @oid o0902278
@@ -18843,6 +19616,7 @@
 
 @sign |UKKIN×5(N01)|
 @oid o0902279
+@sys CDLI-gh img-page
 @smap |UKKIN~b×5(N01)|
 @form |UKKIN~b×5(N01)|
 @oid o0902280
@@ -18857,6 +19631,7 @@
 
 @sign |UKKIN×NI|
 @oid o0902281
+@sys CDLI-gh img-page
 @smap |UKKIN~b×NI~a|
 @form |UKKIN~b×NI~a|
 @oid o0902282
@@ -18871,6 +19646,7 @@
 
 @sign |UKKIN×X|
 @oid o0902283
+@sys CDLI-gh img-page
 @smap |UKKIN~b×X|
 @form |UKKIN~b×X|
 @oid o0902284
@@ -18885,6 +19661,7 @@
 
 @sign UMBIN
 @oid o0902285
+@sys CDLI-gh img-page
 @list ZATU581
 @smap UMBIN~a
 @form UMBIN~a
@@ -18927,6 +19704,7 @@
 
 @sign UMUN₂
 @oid o0902290
+@sys CDLI-gh img-page
 @list U+12C42
 @ucun 𒱂
 @uname UMUN2
@@ -18949,6 +19727,7 @@
 
 @sign UNUG
 @oid o0902292
+@sys CDLI-gh img-page
 @list ZATU583
 @smap UNUG~a
 @form UNUG~a
@@ -18993,6 +19772,7 @@
 
 @sign |UNUG×A@t|
 @oid o0902297
+@sys CDLI-gh img-page
 @list ZATU584
 @smap |UNUG~a~v1×A@t|
 @form |UNUG~a~v1×A@t|
@@ -19009,6 +19789,7 @@
 
 @sign UNUG@s
 @oid o0902299
+@sys CDLI-gh img-page
 @list ZATU585
 @sys	LLATU:308_02 UNUG@s 
 @smap UNUG~a@s
@@ -19025,6 +19806,7 @@
 
 @sign UR
 @oid o0902301
+@sys CDLI-gh img-page
 @list BAU284
 @list ZATU586
 @smap UR~a
@@ -19060,6 +19842,7 @@
 
 @sign |UR×KAR₂|
 @oid o0902305
+@sys CDLI-gh img-page
 @smap |UR~a×KAR₂~b|
 @form |UR~a×KAR₂~b|
 @oid o0902306
@@ -19075,6 +19858,7 @@
 
 @sign UR@g
 @oid o0902307
+@sys CDLI-gh img-page
 @list ZATU587
 @smap UR~a@g
 @form UR~a@g
@@ -19090,6 +19874,7 @@
 
 @sign UR₂
 @oid o0902309
+@sys CDLI-gh img-page
 @list U+12C4F
 @ucun 𒱏
 @uname UR2
@@ -19104,6 +19889,7 @@
 
 @sign |UR₂×1(N57)|
 @oid o0902310
+@sys CDLI-gh img-page
 @list U+12C51
 @ucun 𒱑
 @uname UR2 TIMES ONE-N57
@@ -19116,6 +19902,7 @@
 
 @sign	|UR₂×TAR~c|
 @oid o0902311
+@sys CDLI-gh img-page
 @aka	|UR₂×TAR|
 @aka	|UR₂+TAR|
 @list U+12C50
@@ -19129,6 +19916,7 @@
 
 @sign UR₃
 @oid o0902312
+@sys CDLI-gh img-page
 @list ZATU591
 @smap UR₃~a1
 @form UR₃~a1
@@ -19198,6 +19986,7 @@
 
 @sign |UR₃×MAŠ|
 @oid o0902320
+@sys CDLI-gh img-page
 @smap |UR₃~b1×MAŠ|
 @form |UR₃~b1×MAŠ|
 @oid o0902321
@@ -19212,6 +20001,7 @@
 
 @sign UR₄
 @oid o0902322
+@sys CDLI-gh img-page
 @list ZATU592
 @smap UR₄~a
 @form UR₄~a
@@ -19248,6 +20038,7 @@
 
 @sign UR₅
 @oid o0902326
+@sys CDLI-gh img-page
 @list ZATU593
 @smap UR₅~a
 @form UR₅~a
@@ -19274,6 +20065,7 @@
 
 @sign URI
 @oid o0902329
+@sys CDLI-gh img-page
 @list U+12C5E
 @ucun 𒱞
 @uname URI
@@ -19287,6 +20079,7 @@
 
 @sign URI₃
 @oid o0902331
+@sys CDLI-gh img-page
 @smap URI₃~a
 @form URI₃~a
 @oid o0902332
@@ -19321,6 +20114,7 @@
 
 @sign URI₅
 @oid o0902337
+@sys CDLI-gh img-page
 @list U+12C62
 @ucun 𒱢
 @uname URI5
@@ -19334,6 +20128,7 @@
 
 @sign URU
 @oid o0902338
+@sys CDLI-gh img-page
 @list ZATU597
 @smap URU~a1
 @form URU~a1
@@ -19389,6 +20184,7 @@
 
 @sign |URU×AMAR|
 @oid o0902346
+@sys CDLI-gh img-page
 @list ZATU598
 @smap |URU~a1×AMAR~v2|
 @form |URU~a1×AMAR~v2|
@@ -19405,6 +20201,7 @@
 
 @sign |URU×GU₄|
 @oid o0902348
+@sys CDLI-gh img-page
 @smap |URU~a1×GU₄|
 @form |URU~a1×GU₄|
 @oid o0902349
@@ -19419,6 +20216,7 @@
 
 @sign |URU×HI@g|
 @oid o0902350
+@sys CDLI-gh img-page
 @smap |URU~a1×HI@g~a|
 @form |URU~a1×HI@g~a|
 @oid o0902351
@@ -19433,6 +20231,7 @@
 
 @sign |URU×KALAM|
 @oid o0902352
+@sys CDLI-gh img-page
 @list ZATU599
 @smap |URU~a3×KALAM~a|
 @form |URU~a3×KALAM~a|
@@ -19458,6 +20257,7 @@
 
 @sign |URU×1(N57)|
 @oid o0902356
+@sys CDLI-gh img-page
 @smap |URU~a1×1(N57)|
 @form |URU~a1×1(N57)|
 @oid o0902357
@@ -19473,6 +20273,7 @@
 
 @sign |URU×2(N57)|
 @oid o0902358
+@sys CDLI-gh img-page
 @smap |URU~a1×2(N57)|
 @form |URU~a1×2(N57)|
 @oid o0902359
@@ -19498,6 +20299,7 @@
 
 @sign |URU×1(N58)|
 @oid o0902362
+@sys CDLI-gh img-page
 @smap |URU~a2×1(N58)|
 @form |URU~a2×1(N58)|
 @oid o0902363
@@ -19514,6 +20316,7 @@
 
 @sign |URU×NIMGIR|
 @oid o0902364
+@sys CDLI-gh img-page
 @list ZATU600
 @smap |URU~a1×NIMGIR|
 @form |URU~a1×NIMGIR|
@@ -19529,6 +20332,7 @@
 
 @sign |URU×U₄|
 @oid o0902366
+@sys CDLI-gh img-page
 @smap |URU~a1×U₄|
 @form |URU~a1×U₄|
 @oid o0902367
@@ -19543,6 +20347,7 @@
 
 @sign |URU×X|
 @oid o0902368
+@sys CDLI-gh img-page
 @smap |URU~a1×X|
 @form |URU~a1×X|
 @oid o0902369
@@ -19557,6 +20362,7 @@
 
 @sign URU@n
 @oid o0902370
+@sys CDLI-gh img-page
 @smap URU~a1@n
 @form URU~a1@n
 @oid o0902371
@@ -19571,6 +20377,7 @@
 
 @sign URUDU
 @oid o0902372
+@sys CDLI-gh img-page
 @list ZATU602
 @smap URUDU~a
 @form URUDU~a
@@ -19624,6 +20431,7 @@
 
 @sign URUDU@g
 @oid o0902378
+@sys CDLI-gh img-page
 @list ZATU603
 @smap URUDU@g~a
 @form URUDU@g~a
@@ -19667,6 +20475,7 @@
 
 @sign UŠ
 @oid o0902383
+@sys CDLI-gh img-page
 @list ZATU228
 @list ZATU604
 @smap UŠ~a
@@ -19729,6 +20538,7 @@
 
 @sign |UŠ&UŠ|
 @oid o0902391
+@sys CDLI-gh img-page
 @smap |UŠ~a&UŠ~a|
 @form |UŠ~a&UŠ~a|
 @oid o0902392
@@ -19753,6 +20563,7 @@
 
 @sign UŠUMGAL
 @oid o0902394
+@sys CDLI-gh img-page
 @list U+12C83
 @ucun 𒲃
 @uname USHUMGAL
@@ -19766,6 +20577,7 @@
 
 @sign UŠUR₃
 @oid o0902395
+@sys CDLI-gh img-page
 @list ZATU608
 @smap UŠUR₃~b1
 @form UŠUR₃~b1
@@ -19792,6 +20604,7 @@
 
 @sign UTUA
 @oid o0902399
+@sys CDLI-gh img-page
 @list ZATU609
 @smap UTUA~a
 @form UTUA~a
@@ -19828,6 +20641,7 @@
 
 @sign UTUA@t
 @oid o0902403
+@sys CDLI-gh img-page
 @smap UTUA~a@t
 @form UTUA~a@t
 @oid o0902404
@@ -19842,6 +20656,7 @@
 
 @sign UTUL
 @oid o0902405
+@sys CDLI-gh img-page
 @list ZATU610
 @smap UTUL~a
 @form UTUL~a
@@ -19886,6 +20701,7 @@
 
 @sign UZ
 @oid o0902410
+@sys CDLI-gh img-page
 @note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
 @smap UZ~a
 @form UZ~a
@@ -19907,6 +20723,7 @@
 
 @sign UZU
 @oid o0902412
+@sys CDLI-gh img-page
 @list U+12C8F
 @ucun 𒲏
 @uname UZU
@@ -19918,6 +20735,7 @@
 @compoundonly	X(N57)
 @sign |X(N57).GAR|
 @oid o0902413
+@sys CDLI-gh img-page
 @aka	|N(N57).GAR|
 @list U+12DF2
 @ucun 𒷲
@@ -19937,6 +20755,7 @@
 
 @sign ZA
 @oid o0902415
+@sys CDLI-gh img-page
 @smap ZA~v
 @form ZA~v
 @oid o0902416
@@ -19954,6 +20773,7 @@
 
 @sign ZABALAM
 @oid o0902417
+@sys CDLI-gh img-page
 @list ZATU613
 @smap ZABALAM~a
 @form ZABALAM~a
@@ -19980,6 +20800,7 @@
 
 @sign ZAG
 @oid o0902421
+@sys CDLI-gh img-page
 @list ZATU615
 @smap ZAG~a
 @form ZAG~a
@@ -20024,6 +20845,7 @@
 
 @sign ZAR
 @oid o0902426
+@sys CDLI-gh img-page
 @list ZATU616
 @smap ZAR~a
 @form ZAR~a
@@ -20081,6 +20903,7 @@
 
 @sign ZATU620
 @oid o0902431
+@sys CDLI-gh img-page
 @list U+12C9B
 @ucun 𒲛
 @uname ZATU620
@@ -20092,6 +20915,7 @@
 
 @sign ZATU621
 @oid o0902432
+@sys CDLI-gh img-page
 @list ZATU621
 @smap ZATU621~a
 @form ZATU621~a
@@ -20135,6 +20959,7 @@
 
 @sign ZATU622
 @oid o0902437
+@sys CDLI-gh img-page
 @list U+12CA0
 @ucun 𒲠
 @uname ZATU622
@@ -20146,6 +20971,7 @@
 
 @sign ZATU623
 @oid o0902438
+@sys CDLI-gh img-page
 @list U+12CA1
 @ucun 𒲡
 @uname ZATU623
@@ -20176,6 +21002,7 @@
 
 @sign ZATU624
 @oid o0902441
+@sys CDLI-gh img-page
 @list ZATU624
 @smap ZATU624~a
 @form ZATU624~a
@@ -20209,6 +21036,7 @@
 
 @sign ZATU625
 @oid o0902445
+@sys CDLI-gh img-page
 @list U+12CA7
 @ucun 𒲧
 @uname ZATU625
@@ -20229,6 +21057,7 @@
 
 @sign ZATU626
 @oid o0902447
+@sys CDLI-gh img-page
 @list ZATU626
 @smap ZATU626~a
 @form ZATU626~a
@@ -20262,6 +21091,7 @@
 
 @sign ZATU627
 @oid o0902451
+@sys CDLI-gh img-page
 @list U+12CAC
 @ucun 𒲬
 @uname ZATU627
@@ -20273,6 +21103,7 @@
 
 @sign ZATU628
 @oid o0902452
+@sys CDLI-gh img-page
 @list ZATU628
 @smap ZATU628~a
 @form ZATU628~a
@@ -20306,6 +21137,7 @@
 
 @sign ZATU629
 @oid o0902456
+@sys CDLI-gh img-page
 @list U+12CB0
 @ucun 𒲰
 @uname ZATU629
@@ -20326,6 +21158,7 @@
 
 @sign ZATU630
 @oid o0902458
+@sys CDLI-gh img-page
 @list U+12CB2
 @ucun 𒲲
 @uname ZATU630
@@ -20338,6 +21171,7 @@
 
 @sign ZATU631
 @oid o0902459
+@sys CDLI-gh img-page
 @list U+12CB3
 @ucun 𒲳
 @uname ZATU631
@@ -20349,6 +21183,7 @@
 
 @sign ZATU632
 @oid o0902460
+@sys CDLI-gh img-page
 @list ZATU632
 @smap ZATU632~a
 @form ZATU632~a
@@ -20392,6 +21227,7 @@
 
 @sign ZATU633
 @oid o0902465
+@sys CDLI-gh img-page
 @list ZATU633
 @smap ZATU633~a
 @form ZATU633~a
@@ -20418,6 +21254,7 @@
 
 @sign ZATU634
 @oid o0902468
+@sys CDLI-gh img-page
 @list U+12CBA
 @ucun 𒲺
 @uname ZATU634
@@ -20429,6 +21266,7 @@
 
 @sign ZATU635
 @oid o0902469
+@sys CDLI-gh img-page
 @list U+12CBB
 @ucun 𒲻
 @uname ZATU635
@@ -20440,6 +21278,7 @@
 
 @sign ZATU636
 @oid o0902470
+@sys CDLI-gh img-page
 @list U+12CBC
 @ucun 𒲼
 @uname ZATU636
@@ -20461,6 +21300,7 @@
 
 @sign ZATU637
 @oid o0902472
+@sys CDLI-gh img-page
 @list U+12CBE
 @ucun 𒲾
 @uname ZATU637
@@ -20472,6 +21312,7 @@
 
 @sign ZATU639
 @oid o0902473
+@sys CDLI-gh img-page
 @list U+12CBF
 @ucun 𒲿
 @uname ZATU639
@@ -20483,6 +21324,7 @@
 
 @sign ZATU640
 @oid o0902474
+@sys CDLI-gh img-page
 @list U+12CC0
 @ucun 𒳀
 @uname ZATU640
@@ -20494,6 +21336,7 @@
 
 @sign ZATU641
 @oid o0902475
+@sys CDLI-gh img-page
 @list U+12CC1
 @ucun 𒳁
 @uname ZATU641
@@ -20505,6 +21348,7 @@
 
 @sign ZATU642
 @oid o0902476
+@sys CDLI-gh img-page
 @list U+12CC2
 @ucun 𒳂
 @uname ZATU642
@@ -20516,6 +21360,7 @@
 
 @sign ZATU643
 @oid o0902477
+@sys CDLI-gh img-page
 @list U+12CC3
 @ucun 𒳃
 @uname ZATU643
@@ -20527,6 +21372,7 @@
 
 @sign ZATU644
 @oid o0902478
+@sys CDLI-gh img-page
 @list ZATU644
 @smap ZATU644~a
 @form ZATU644~a
@@ -20552,6 +21398,7 @@
 
 @sign |ZATU644×1(N14)|
 @oid o0902481
+@sys CDLI-gh img-page
 @list ZATU645
 @smap |ZATU644~a×1(N14)|
 @form |ZATU644~a×1(N14)|
@@ -20567,6 +21414,7 @@
 
 @sign ZATU646
 @oid o0902483
+@sys CDLI-gh img-page
 @list U+12CC7
 @ucun 𒳇
 @uname ZATU646
@@ -20578,6 +21426,7 @@
 
 @sign ZATU647
 @oid o0902484
+@sys CDLI-gh img-page
 @list U+12CC8
 @ucun 𒳈
 @uname ZATU647
@@ -20599,6 +21448,7 @@
 
 @sign ZATU648
 @oid o0902486
+@sys CDLI-gh img-page
 @list U+12CCA
 @ucun 𒳊
 @uname ZATU648
@@ -20611,6 +21461,7 @@
 
 @sign ZATU649
 @oid o0902487
+@sys CDLI-gh img-page
 @list U+12CCB
 @ucun 𒳋
 @uname ZATU649
@@ -20631,6 +21482,7 @@
 
 @sign ZATU650
 @oid o0902489
+@sys CDLI-gh img-page
 @list U+12CCD
 @ucun 𒳍
 @uname ZATU650
@@ -20642,6 +21494,7 @@
 
 @sign ZATU651
 @oid o0902490
+@sys CDLI-gh img-page
 @list U+12CCE
 @ucun 𒳎
 @uname ZATU651
@@ -20672,6 +21525,7 @@
 
 @sign |ZATU651×AN|
 @oid o0902493
+@sys CDLI-gh img-page
 @list U+12CCF
 @ucun 𒳏
 @uname ZATU651 TIMES AN
@@ -20684,6 +21538,7 @@
 
 @sign |ZATU651×EN|
 @oid o0902494
+@sys CDLI-gh img-page
 @list ZATU653
 @smap |ZATU651×EN~a~v2|
 @form |ZATU651×EN~a~v2|
@@ -20700,6 +21555,7 @@
 
 @sign |ZATU651×GAR|
 @oid o0902496
+@sys CDLI-gh img-page
 @list U+12CD1
 @ucun 𒳑
 @uname ZATU651 TIMES GAR
@@ -20711,6 +21567,7 @@
 
 @sign |ZATU651×MA|
 @oid o0902497
+@sys CDLI-gh img-page
 @list U+12CD2
 @ucun 𒳒
 @uname ZATU651 TIMES MA
@@ -20722,6 +21579,7 @@
 
 @sign |ZATU651×NUN|
 @oid o0902498
+@sys CDLI-gh img-page
 @list ZATU656
 @smap |ZATU651×NUN~a|
 @form |ZATU651×NUN~a|
@@ -20737,6 +21595,7 @@
 
 @sign |ZATU651×ŠE|
 @oid o0902500
+@sys CDLI-gh img-page
 @list ZATU657
 @smap |ZATU651~v2×ŠE~a|
 @form |ZATU651~v2×ŠE~a|
@@ -20753,6 +21612,7 @@
 
 @sign |ZATU651×X|
 @oid o0902502
+@sys CDLI-gh img-page
 @list U+12CD4
 @ucun 𒳔
 @uname ZATU651 TIMES X
@@ -20763,6 +21623,7 @@
 
 @sign |ZATU651×ZAR|
 @oid o0902503
+@sys CDLI-gh img-page
 @smap |ZATU651×ZAR~c|
 @form |ZATU651×ZAR~c|
 @oid o0902504
@@ -20777,6 +21638,7 @@
 
 @sign ZATU651@g
 @oid o0902505
+@sys CDLI-gh img-page
 @list U+12CD6
 @ucun 𒳖
 @uname ZATU651 GUNU
@@ -20789,6 +21651,7 @@
 
 @sign ZATU659
 @oid o0902506
+@sys CDLI-gh img-page
 @list U+12CDA
 @ucun 𒳚
 @uname ZATU659
@@ -20802,6 +21665,7 @@
 
 @sign |ZATU659×1(N01)|
 @oid o0902507
+@sys CDLI-gh img-page
 @list U+12CDB
 @ucun 𒳛
 @uname ZATU659 TIMES ONE-N1
@@ -20812,6 +21676,7 @@
 
 @sign |ZATU659×1(N14)|
 @oid o0902508
+@sys CDLI-gh img-page
 @list U+12CDC
 @ucun 𒳜
 @uname ZATU659 TIMES ONE-N14
@@ -20823,6 +21688,7 @@
 
 @sign |ZATU659×1(N58@t)|
 @oid o0902509
+@sys CDLI-gh img-page
 @aka	|ZATU659×1(N58)@t|
 @list U+12CDD
 @ucun 𒳝
@@ -20836,6 +21702,7 @@
 
 @sign ZATU662
 @oid o0902511
+@sys CDLI-gh img-page
 @list U+12CDE
 @ucun 𒳞
 @uname ZATU662
@@ -20875,6 +21742,7 @@
 
 @sign |ZATU662×1(N14)|
 @oid o0902515
+@sys CDLI-gh img-page
 @aka	|ZATU662+1(N14)|
 @list U+12CDF
 @ucun 𒳟
@@ -20908,6 +21776,7 @@
 
 @sign ZATU664
 @oid o0902518
+@sys CDLI-gh img-page
 @list U+12CE5
 @ucun 𒳥
 @uname ZATU664
@@ -20919,6 +21788,7 @@
 
 @sign ZATU665
 @oid o0902519
+@sys CDLI-gh img-page
 @list U+12CE6
 @ucun 𒳦
 @uname ZATU665
@@ -20930,6 +21800,7 @@
 
 @sign ZATU666
 @oid o0902520
+@sys CDLI-gh img-page
 @list U+12CE7
 @ucun 𒳧
 @uname ZATU666
@@ -20941,6 +21812,7 @@
 
 @sign ZATU667
 @oid o0902521
+@sys CDLI-gh img-page
 @list U+12CE8
 @ucun 𒳨
 @uname ZATU667
@@ -20952,6 +21824,7 @@
 
 @sign ZATU668
 @oid o0902522
+@sys CDLI-gh img-page
 @list U+12CE9
 @ucun 𒳩
 @uname ZATU668
@@ -20963,6 +21836,7 @@
 
 @sign ZATU669
 @oid o0902523
+@sys CDLI-gh img-page
 @list U+12CEA
 @ucun 𒳪
 @uname ZATU669
@@ -20974,6 +21848,7 @@
 
 @sign ZATU670
 @oid o0902524
+@sys CDLI-gh img-page
 @list U+12CEB
 @ucun 𒳫
 @uname ZATU670
@@ -20986,6 +21861,7 @@
 
 @sign ZATU672
 @oid o0902525
+@sys CDLI-gh img-page
 @list U+12CEC
 @ucun 𒳬
 @uname ZATU672
@@ -20997,6 +21873,7 @@
 
 @sign ZATU674
 @oid o0902526
+@sys CDLI-gh img-page
 @list U+12CED
 @ucun 𒳭
 @uname ZATU674
@@ -21008,6 +21885,7 @@
 
 @sign ZATU675
 @oid o0902527
+@sys CDLI-gh img-page
 @list ZATU675
 @smap ZATU675~a
 @form ZATU675~a
@@ -21059,6 +21937,7 @@
 
 @sign ZATU676
 @oid o0902533
+@sys CDLI-gh img-page
 @list ZATU676
 @smap ZATU676~a
 @form ZATU676~a
@@ -21083,6 +21962,7 @@
 
 @sign ZATU677
 @oid o0902536
+@sys CDLI-gh img-page
 @list ZATU677
 @smap ZATU677~a
 @form ZATU677~a
@@ -21107,6 +21987,7 @@
 
 @sign ZATU678
 @oid o0902539
+@sys CDLI-gh img-page
 @list U+12CF7
 @ucun 𒳷
 @uname ZATU678
@@ -21118,6 +21999,7 @@
 
 @sign ZATU679
 @oid o0902540
+@sys CDLI-gh img-page
 @list U+12CF8
 @ucun 𒳸
 @uname ZATU679
@@ -21130,6 +22012,7 @@
 
 @sign ZATU680
 @oid o0902541
+@sys CDLI-gh img-page
 @list ZATU680
 @smap ZATU680~a1
 @form ZATU680~a1
@@ -21192,6 +22075,7 @@
 
 @sign ZATU681
 @oid o0902548
+@sys CDLI-gh img-page
 @list U+12CFF
 @ucun 𒳿
 @uname ZATU681
@@ -21204,6 +22088,7 @@
 
 @sign ZATU682
 @oid o0902549
+@sys CDLI-gh img-page
 @list U+12D00
 @ucun 𒴀
 @uname ZATU682
@@ -21215,6 +22100,7 @@
 
 @sign ZATU683
 @oid o0902550
+@sys CDLI-gh img-page
 @list ZATU683
 @smap ZATU683~a
 @form ZATU683~a
@@ -21239,6 +22125,7 @@
 
 @sign ZATU683@t
 @oid o0902553
+@sys CDLI-gh img-page
 @list U+12D03
 @ucun 𒴃
 @uname ZATU683 TENU
@@ -21249,6 +22136,7 @@
 
 @sign ZATU684
 @oid o0902554
+@sys CDLI-gh img-page
 @list U+12D04
 @ucun 𒴄
 @uname ZATU684
@@ -21261,6 +22149,7 @@
 
 @sign ZATU685
 @oid o0902555
+@sys CDLI-gh img-page
 @list U+12D05
 @ucun 𒴅
 @uname ZATU685
@@ -21272,6 +22161,7 @@
 
 @sign ZATU686
 @oid o0902556
+@sys CDLI-gh img-page
 @list ZATU686
 @smap ZATU686~a
 @form ZATU686~a
@@ -21307,6 +22197,7 @@
 
 @sign ZATU687
 @oid o0902560
+@sys CDLI-gh img-page
 @list U+12D09
 @ucun 𒴉
 @uname ZATU687
@@ -21320,6 +22211,7 @@
 
 @sign ZATU688
 @oid o0902561
+@sys CDLI-gh img-page
 @list ZATU688
 @smap ZATU688~a
 @form ZATU688~a
@@ -21344,6 +22236,7 @@
 
 @sign ZATU689
 @oid o0902564
+@sys CDLI-gh img-page
 @list U+12D0C
 @ucun 𒴌
 @uname ZATU689
@@ -21355,6 +22248,7 @@
 
 @sign ZATU690
 @oid o0902565
+@sys CDLI-gh img-page
 @list U+12D0D
 @ucun 𒴍
 @uname ZATU690
@@ -21366,6 +22260,7 @@
 
 @sign ZATU691
 @oid o0902566
+@sys CDLI-gh img-page
 @list U+12D0E
 @ucun 𒴎
 @uname ZATU691
@@ -21377,6 +22272,7 @@
 
 @sign ZATU692
 @oid o0902567
+@sys CDLI-gh img-page
 @list U+12D0F
 @ucun 𒴏
 @uname ZATU692
@@ -21388,6 +22284,7 @@
 
 @sign ZATU693
 @oid o0902568
+@sys CDLI-gh img-page
 @list U+12D10
 @ucun 𒴐
 @uname ZATU693
@@ -21418,6 +22315,7 @@
 
 @sign ZATU693@t
 @oid o0902571
+@sys CDLI-gh img-page
 @list U+12D11
 @ucun 𒴑
 @uname ZATU693 TENU
@@ -21429,6 +22327,7 @@
 
 @sign ZATU694
 @oid o0902572
+@sys CDLI-gh img-page
 @list ZATU694
 @smap ZATU694~a
 @form ZATU694~a
@@ -21486,6 +22385,7 @@
 
 @sign ZATU694@t
 @oid o0902579
+@sys CDLI-gh img-page
 @smap ZATU694~d@t
 @form ZATU694~d@t
 @oid o0902580
@@ -21500,6 +22400,7 @@
 
 @sign ZATU695
 @oid o0902581
+@sys CDLI-gh img-page
 @list U+12D1A
 @ucun 𒴚
 @uname ZATU695
@@ -21511,6 +22412,7 @@
 
 @sign ZATU696
 @oid o0902582
+@sys CDLI-gh img-page
 @list U+12D1B
 @ucun 𒴛
 @uname ZATU696
@@ -21522,6 +22424,7 @@
 
 @sign ZATU697
 @oid o0902583
+@sys CDLI-gh img-page
 @list ZATU697
 @smap ZATU697~a
 @form ZATU697~a
@@ -21583,6 +22486,7 @@
 
 @sign ZATU699
 @oid o0902590
+@sys CDLI-gh img-page
 @list ZATU699
 @smap ZATU699~a
 @form ZATU699~a
@@ -21607,6 +22511,7 @@
 
 @sign ZATU700
 @oid o0902593
+@sys CDLI-gh img-page
 @list U+12D24
 @ucun 𒴤
 @uname ZATU700
@@ -21618,6 +22523,7 @@
 
 @sign ZATU701
 @oid o0902594
+@sys CDLI-gh img-page
 @list U+12D25
 @ucun 𒴥
 @uname ZATU701
@@ -21629,6 +22535,7 @@
 
 @sign ZATU702
 @oid o0902595
+@sys CDLI-gh img-page
 @list U+12D26
 @ucun 𒴦
 @uname ZATU702
@@ -21640,6 +22547,7 @@
 
 @sign ZATU703
 @oid o0902596
+@sys CDLI-gh img-page
 @list U+12D27
 @ucun 𒴧
 @uname ZATU703
@@ -21651,6 +22559,7 @@
 
 @sign ZATU704
 @oid o0902597
+@sys CDLI-gh img-page
 @list U+12D28
 @ucun 𒴨
 @uname ZATU704
@@ -21662,6 +22571,7 @@
 
 @sign ZATU705
 @oid o0902598
+@sys CDLI-gh img-page
 @list U+12D29
 @ucun 𒴩
 @uname ZATU705
@@ -21673,6 +22583,7 @@
 
 @sign ZATU706
 @oid o0902599
+@sys CDLI-gh img-page
 @list U+12D2A
 @ucun 𒴪
 @uname ZATU706
@@ -21684,6 +22595,7 @@
 
 @sign ZATU707
 @oid o0902600
+@sys CDLI-gh img-page
 @list ZATU707
 @smap ZATU707~a
 @form ZATU707~a
@@ -21709,6 +22621,7 @@
 
 @sign ZATU708
 @oid o0902603
+@sys CDLI-gh img-page
 @list U+12D2D
 @ucun 𒴭
 @uname ZATU708
@@ -21720,6 +22633,7 @@
 
 @sign ZATU709
 @oid o0902604
+@sys CDLI-gh img-page
 @list U+12D2E
 @ucun 𒴮
 @uname ZATU709
@@ -21731,6 +22645,7 @@
 
 @sign ZATU710
 @oid o0902605
+@sys CDLI-gh img-page
 @list U+12D2F
 @ucun 𒴯
 @uname ZATU710
@@ -21751,6 +22666,7 @@
 
 @sign ZATU711
 @oid o0902607
+@sys CDLI-gh img-page
 @list U+12D31
 @ucun 𒴱
 @uname ZATU711
@@ -21771,6 +22687,7 @@
 
 @sign |ZATU711×HI@g|
 @oid o0902609
+@sys CDLI-gh img-page
 @list ZATU712
 @smap |ZATU711~v1×HI@g~a|
 @form |ZATU711~v1×HI@g~a|
@@ -21787,6 +22704,7 @@
 
 @sign |ZATU711~v1×X|
 @oid o0902611
+@sys CDLI-gh img-page
 @aka	|ZATU711×X|
 @list U+12D34
 @ucun 𒴴
@@ -21798,6 +22716,7 @@
 
 @sign ZATU713
 @oid o0902612
+@sys CDLI-gh img-page
 @list U+12D35
 @ucun 𒴵
 @uname ZATU713
@@ -21809,6 +22728,7 @@
 
 @sign ZATU714
 @oid o0902613
+@sys CDLI-gh img-page
 @list U+12D36
 @ucun 𒴶
 @uname ZATU714
@@ -21821,6 +22741,7 @@
 
 @sign |ZATU714.RU|
 @oid o0902614
+@sys CDLI-gh img-page
 @list U+12D37
 @ucun 𒴷
 @uname ZATU714 BESIDE RU
@@ -21832,6 +22753,7 @@
 
 @sign |ZATU714×HI@g|
 @oid o0902615
+@sys CDLI-gh img-page
 @list ZATU715
 @smap |ZATU714×HI@g~a|
 @form |ZATU714×HI@g~a|
@@ -21847,6 +22769,7 @@
 
 @sign |ZATU714×X|
 @oid o0902617
+@sys CDLI-gh img-page
 @list U+12D39
 @ucun 𒴹
 @uname ZATU714 TIMES X
@@ -21857,6 +22780,7 @@
 
 @sign ZATU717
 @oid o0902618
+@sys CDLI-gh img-page
 @list U+12D3A
 @ucun 𒴺
 @uname ZATU717
@@ -21868,6 +22792,7 @@
 
 @sign ZATU718
 @oid o0902619
+@sys CDLI-gh img-page
 @list U+12D3B
 @ucun 𒴻
 @uname ZATU718
@@ -21880,6 +22805,7 @@
 
 @sign ZATU719
 @oid o0902620
+@sys CDLI-gh img-page
 @list U+12D3C
 @ucun 𒴼
 @uname ZATU719
@@ -21891,6 +22817,7 @@
 
 @sign ZATU720
 @oid o0902621
+@sys CDLI-gh img-page
 @list U+12D3D
 @ucun 𒴽
 @uname ZATU720
@@ -21902,6 +22829,7 @@
 
 @sign ZATU721
 @oid o0902622
+@sys CDLI-gh img-page
 @list U+12D3E
 @ucun 𒴾
 @uname ZATU721
@@ -21913,6 +22841,7 @@
 
 @sign ZATU722
 @oid o0902623
+@sys CDLI-gh img-page
 @list U+12D3F
 @ucun 𒴿
 @uname ZATU722
@@ -21924,6 +22853,7 @@
 
 @sign ZATU723
 @oid o0902624
+@sys CDLI-gh img-page
 @list U+12D40
 @ucun 𒵀
 @uname ZATU723
@@ -21935,6 +22865,7 @@
 
 @sign ZATU724
 @oid o0902625
+@sys CDLI-gh img-page
 @list U+12D41
 @ucun 𒵁
 @uname ZATU724
@@ -21946,6 +22877,7 @@
 
 @sign ZATU725
 @oid o0902626
+@sys CDLI-gh img-page
 @list U+12D42
 @ucun 𒵂
 @uname ZATU725
@@ -21967,6 +22899,7 @@
 
 @sign ZATU726
 @oid o0902628
+@sys CDLI-gh img-page
 @list ZATU726
 @smap ZATU726~a
 @form ZATU726~a
@@ -22000,6 +22933,7 @@
 
 @sign ZATU727
 @oid o0902632
+@sys CDLI-gh img-page
 @list U+12D47
 @ucun 𒵇
 @uname ZATU727
@@ -22011,6 +22945,7 @@
 
 @sign ZATU728
 @oid o0902633
+@sys CDLI-gh img-page
 @list U+12D48
 @ucun 𒵈
 @uname ZATU728
@@ -22022,6 +22957,7 @@
 
 @sign ZATU729
 @oid o0902634
+@sys CDLI-gh img-page
 @list U+12D49
 @ucun 𒵉
 @uname ZATU729
@@ -22042,6 +22978,7 @@
 
 @sign ZATU730
 @oid o0902636
+@sys CDLI-gh img-page
 @list U+12D4B
 @ucun 𒵋
 @uname ZATU730
@@ -22053,6 +22990,7 @@
 
 @sign ZATU732
 @oid o0902637
+@sys CDLI-gh img-page
 @list U+12D4C
 @ucun 𒵌
 @uname ZATU732
@@ -22065,6 +23003,7 @@
 
 @sign ZATU733
 @oid o0902638
+@sys CDLI-gh img-page
 @list U+12D4D
 @ucun 𒵍
 @uname ZATU733
@@ -22076,6 +23015,7 @@
 
 @sign ZATU734
 @oid o0902639
+@sys CDLI-gh img-page
 @list U+12D4E
 @ucun 𒵎
 @uname ZATU734
@@ -22087,6 +23027,7 @@
 
 @sign ZATU735
 @oid o0902640
+@sys CDLI-gh img-page
 @list ZATU735
 @smap ZATU735~a
 @form ZATU735~a
@@ -22139,6 +23080,7 @@
 
 @sign ZATU736
 @oid o0902646
+@sys CDLI-gh img-page
 @list ZATU736
 @smap ZATU736~a
 @form ZATU736~a
@@ -22164,6 +23106,7 @@
 
 @sign ZATU737
 @oid o0902649
+@sys CDLI-gh img-page
 @list U+12D56
 @ucun 𒵖
 @uname ZATU737
@@ -22195,6 +23138,7 @@
 
 @sign |ZATU737×AB|
 @oid o0902652
+@sys CDLI-gh img-page
 @list ZATU738
 @smap |ZATU737×AB~a|
 @form |ZATU737×AB~a|
@@ -22210,6 +23154,7 @@
 
 @sign |ZATU737×BU|
 @oid o0902654
+@sys CDLI-gh img-page
 @smap |ZATU737×BU~a|
 @form |ZATU737×BU~a|
 @oid o0902655
@@ -22224,6 +23169,7 @@
 
 @sign |ZATU737×BUR|
 @oid o0902656
+@sys CDLI-gh img-page
 @list ZATU185
 @smap |ZATU737×BUR~a|
 @form |ZATU737×BUR~a|
@@ -22241,6 +23187,7 @@
 
 @sign |ZATU737×DI|
 @oid o0902658
+@sys CDLI-gh img-page
 @aka	|ZATU737+DI|
 @list U+12D5A
 @ucun 𒵚
@@ -22264,6 +23211,7 @@
 
 @sign |ZATU737×E|
 @oid o0902660
+@sys CDLI-gh img-page
 @smap |ZATU737×E~a|
 @form |ZATU737×E~a|
 @oid o0902661
@@ -22278,6 +23226,7 @@
 
 @sign |ZATU737×EN|
 @oid o0902662
+@sys CDLI-gh img-page
 @list ZATU740
 @smap |ZATU737×EN~a~v2|
 @form |ZATU737×EN~a~v2|
@@ -22304,6 +23253,7 @@
 
 @sign |ZATU737×GAR|
 @oid o0902665
+@sys CDLI-gh img-page
 @aka	|ZATU737+GAR|
 @list U+12D5D
 @ucun 𒵝
@@ -22333,6 +23283,7 @@
 
 @sign |ZATU737×NI@g|
 @oid o0902668
+@sys CDLI-gh img-page
 @smap |ZATU737×NI~a@g|
 @form |ZATU737×NI~a@g|
 @oid o0902669
@@ -22348,6 +23299,7 @@
 
 @sign |ZATU737×NIMGIR|
 @oid o0902670
+@sys CDLI-gh img-page
 @list U+12D5F
 @ucun 𒵟
 @uname ZATU737 TIMES NIMGIR
@@ -22359,6 +23311,7 @@
 
 @sign	|ZATU737~v3×SAL|
 @oid o0902671
+@sys CDLI-gh img-page
 @aka	|ZATU737+SAL|
 @aka	|ZATU737×SAL|
 @aka	|ZATU737~v2×SAL|
@@ -22374,6 +23327,7 @@
 
 @sign |ZATU737×SU|
 @oid o0902672
+@sys CDLI-gh img-page
 @list ZATU744
 @smap |ZATU737×SU~a|
 @form |ZATU737×SU~a|
@@ -22389,6 +23343,7 @@
 
 @sign |ZATU737×ŠE|
 @oid o0902674
+@sys CDLI-gh img-page
 @list ZATU745
 @smap |ZATU737×ŠE~a|
 @form |ZATU737×ŠE~a|
@@ -22404,6 +23359,7 @@
 
 @sign |ZATU737×ŠITA|
 @oid o0902676
+@sys CDLI-gh img-page
 @smap |ZATU737×ŠITA~a1|
 @form |ZATU737×ŠITA~a1|
 @oid o0902677
@@ -22418,6 +23374,7 @@
 
 @sign	|ZATU737~v3×U₄|
 @oid o0902680
+@sys CDLI-gh img-page
 @aka	|ZATU737×U₄|
 @aka	|ZATU737+U₄|
 @aka	|ZATU737~v2×U₄|
@@ -22433,6 +23390,7 @@
 
 @sign |ZATU737×UNUG|
 @oid o0902681
+@sys CDLI-gh img-page
 @list ZATU748
 @smap |ZATU737×UNUG~a~v1|
 @form |ZATU737×UNUG~a~v1|
@@ -22449,6 +23407,7 @@
 
 @sign |ZATU737~v2×X|
 @oid o0902683
+@sys CDLI-gh img-page
 @aka	|ZATU737×X|
 @list U+12D69
 @ucun 𒵩
@@ -22473,6 +23432,7 @@
 
 @sign ZATU749
 @oid o0902686
+@sys CDLI-gh img-page
 @list ZATU749
 @smap ZATU749~a
 @form ZATU749~a
@@ -22524,6 +23484,7 @@
 
 @sign ZATU750
 @oid o0902692
+@sys CDLI-gh img-page
 @list U+12D71
 @ucun 𒵱
 @uname ZATU750
@@ -22563,6 +23524,7 @@
 
 @sign ZATU751
 @oid o0902696
+@sys CDLI-gh img-page
 @list ZATU751
 @smap ZATU751~a
 @form ZATU751~a
@@ -22589,6 +23551,7 @@
 
 @sign ZATU752
 @oid o0902699
+@sys CDLI-gh img-page
 @list U+12D77
 @ucun 𒵷
 @uname ZATU752
@@ -22610,6 +23573,7 @@
 
 @sign ZATU753
 @oid o0902701
+@sys CDLI-gh img-page
 @list U+12D79
 @ucun 𒵹
 @uname ZATU753
@@ -22622,6 +23586,7 @@
 
 @sign ZATU754
 @oid o0902702
+@sys CDLI-gh img-page
 @list U+12D7A
 @ucun 𒵺
 @uname ZATU754
@@ -22633,6 +23598,7 @@
 
 @sign ZATU755
 @oid o0902703
+@sys CDLI-gh img-page
 @list ZATU755
 @smap ZATU755~a
 @form ZATU755~a
@@ -22657,6 +23623,7 @@
 
 @sign ZATU756
 @oid o0902706
+@sys CDLI-gh img-page
 @list U+12D7D
 @ucun 𒵽
 @uname ZATU756
@@ -22677,6 +23644,7 @@
 
 @sign ZATU757
 @oid o0902708
+@sys CDLI-gh img-page
 @list U+12D7F
 @ucun 𒵿
 @uname ZATU757
@@ -22697,6 +23665,7 @@
 
 @sign ZATU758
 @oid o0902710
+@sys CDLI-gh img-page
 @list U+12D81
 @ucun 𒶁
 @uname ZATU758
@@ -22709,6 +23678,7 @@
 
 @sign ZATU759
 @oid o0902711
+@sys CDLI-gh img-page
 @list U+12D82
 @ucun 𒶂
 @uname ZATU759
@@ -22729,6 +23699,7 @@
 
 @sign |ZATU759×KU₆|
 @oid o0902713
+@sys CDLI-gh img-page
 @list ZATU760
 @sys	LLATU:318_08 ZATU759+KU₆ 
 @smap |ZATU759×KU₆~a|
@@ -22755,6 +23726,7 @@
 
 @sign |ZATU759×(KU₆+KU₆)|
 @oid o0902716
+@sys CDLI-gh img-page
 @smap |ZATU759×(KU₆~a+KU₆~a)|
 @form |ZATU759×(KU₆~a+KU₆~a)|
 @oid o0902717
@@ -22769,6 +23741,7 @@
 
 @sign |ZATU759×X|
 @oid o0902718
+@sys CDLI-gh img-page
 @list U+12D86
 @ucun 𒶆
 @uname ZATU759 TIMES X
@@ -22780,6 +23753,7 @@
 @compoundonly	ZATU759@t
 @sign |ZATU759@t×X|
 @oid o0902719
+@sys CDLI-gh img-page
 @list U+12D87
 @ucun 𒶇
 @uname ZATU759 TENU TIMES X
@@ -22790,6 +23764,7 @@
 
 @sign ZATU761
 @oid o0902720
+@sys CDLI-gh img-page
 @list U+12D89
 @ucun 𒶉
 @uname ZATU761
@@ -22801,6 +23776,7 @@
 
 @sign ZATU762
 @oid o0902721
+@sys CDLI-gh img-page
 @list ZATU762
 @smap ZATU762~a
 @form ZATU762~a
@@ -22843,6 +23819,7 @@
 
 @sign |ZATU762×AB|
 @oid o0902726
+@sys CDLI-gh img-page
 @list ZATU163
 @smap |ZATU762~b×AB~a|
 @form |ZATU762~b×AB~a|
@@ -22858,6 +23835,7 @@
 
 @sign |ZATU762×NIM|
 @oid o0902728
+@sys CDLI-gh img-page
 @list ZATU763
 @smap |ZATU762~a×NIM~a|
 @form |ZATU762~a×NIM~a|
@@ -22873,6 +23851,7 @@
 
 @sign ZATU764
 @oid o0902730
+@sys CDLI-gh img-page
 @list U+12D90
 @ucun 𒶐
 @uname ZATU764
@@ -22884,6 +23863,7 @@
 
 @sign ZATU765
 @oid o0902731
+@sys CDLI-gh img-page
 @list U+12D91
 @ucun 𒶑
 @uname ZATU765
@@ -22895,6 +23875,7 @@
 
 @sign ZATU766
 @oid o0902732
+@sys CDLI-gh img-page
 @list U+12D92
 @ucun 𒶒
 @uname ZATU766
@@ -22907,6 +23888,7 @@
 
 @sign ZATU767
 @oid o0902733
+@sys CDLI-gh img-page
 @list U+12D93
 @ucun 𒶓
 @uname ZATU767
@@ -22918,6 +23900,7 @@
 
 @sign ZATU768
 @oid o0902734
+@sys CDLI-gh img-page
 @list U+12D94
 @ucun 𒶔
 @uname ZATU768
@@ -22929,6 +23912,7 @@
 
 @sign ZATU769
 @oid o0902735
+@sys CDLI-gh img-page
 @list U+12D95
 @ucun 𒶕
 @uname ZATU769
@@ -22941,6 +23925,7 @@
 
 @sign ZATU771
 @oid o0902736
+@sys CDLI-gh img-page
 @list U+12D96
 @ucun 𒶖
 @uname ZATU771
@@ -22952,6 +23937,7 @@
 
 @sign ZATU772
 @oid o0902737
+@sys CDLI-gh img-page
 @list U+12D97
 @ucun 𒶗
 @uname ZATU772
@@ -22963,6 +23949,7 @@
 
 @sign ZATU773
 @oid o0902738
+@sys CDLI-gh img-page
 @list ZATU773
 @smap ZATU773~a
 @form ZATU773~a
@@ -22996,6 +23983,7 @@
 
 @sign ZATU774
 @oid o0902742
+@sys CDLI-gh img-page
 @list U+12D9B
 @ucun 𒶛
 @uname ZATU774
@@ -23007,6 +23995,7 @@
 
 @sign ZATU775
 @oid o0902743
+@sys CDLI-gh img-page
 @list U+12D9C
 @ucun 𒶜
 @uname ZATU775
@@ -23018,6 +24007,7 @@
 
 @sign ZATU776
 @oid o0902744
+@sys CDLI-gh img-page
 @list U+12D9D
 @ucun 𒶝
 @uname ZATU776
@@ -23038,6 +24028,7 @@
 
 @sign ZATU777
 @oid o0902746
+@sys CDLI-gh img-page
 @list U+12D9F
 @ucun 𒶟
 @uname ZATU777
@@ -23068,6 +24059,7 @@
 
 @sign ZATU778
 @oid o0902749
+@sys CDLI-gh img-page
 @list U+12DA2
 @ucun 𒶢
 @uname ZATU778
@@ -23079,6 +24071,7 @@
 
 @sign ZATU779
 @oid o0902750
+@sys CDLI-gh img-page
 @list U+12DA3
 @ucun 𒶣
 @uname ZATU779
@@ -23090,6 +24083,7 @@
 
 @sign ZATU780
 @oid o0902751
+@sys CDLI-gh img-page
 @list U+12DA4
 @ucun 𒶤
 @uname ZATU780
@@ -23101,6 +24095,7 @@
 
 @sign ZATU781
 @oid o0902752
+@sys CDLI-gh img-page
 @list U+12DA5
 @ucun 𒶥
 @uname ZATU781
@@ -23112,6 +24107,7 @@
 
 @sign ZATU782
 @oid o0902753
+@sys CDLI-gh img-page
 @list U+12DA6
 @ucun 𒶦
 @uname ZATU782
@@ -23123,6 +24119,7 @@
 
 @sign ZATU783
 @oid o0902754
+@sys CDLI-gh img-page
 @list U+12DA7
 @ucun 𒶧
 @uname ZATU783
@@ -23134,6 +24131,7 @@
 
 @sign ZATU784
 @oid o0902755
+@sys CDLI-gh img-page
 @list U+12DA8
 @ucun 𒶨
 @uname ZATU784
@@ -23145,6 +24143,7 @@
 
 @sign ZATU785
 @oid o0902756
+@sys CDLI-gh img-page
 @list U+12DA9
 @ucun 𒶩
 @uname ZATU785
@@ -23156,6 +24155,7 @@
 
 @sign ZATU786
 @oid o0902757
+@sys CDLI-gh img-page
 @list U+12DAA
 @ucun 𒶪
 @uname ZATU786
@@ -23168,6 +24168,7 @@
 
 @sign ZATU787
 @oid o0902758
+@sys CDLI-gh img-page
 @list U+12DAB
 @ucun 𒶫
 @uname ZATU787
@@ -23179,6 +24180,7 @@
 
 @sign ZATU788
 @oid o0902759
+@sys CDLI-gh img-page
 @list U+12DAC
 @ucun 𒶬
 @uname ZATU788
@@ -23190,6 +24192,7 @@
 
 @sign ZATU789
 @oid o0902760
+@sys CDLI-gh img-page
 @list U+12DAD
 @ucun 𒶭
 @uname ZATU789
@@ -23202,6 +24205,7 @@
 
 @sign ZATU791
 @oid o0902761
+@sys CDLI-gh img-page
 @list U+12DAE
 @ucun 𒶮
 @uname ZATU791
@@ -23213,6 +24217,7 @@
 
 @sign ZATU792
 @oid o0902762
+@sys CDLI-gh img-page
 @list U+12DAF
 @ucun 𒶯
 @uname ZATU792
@@ -23226,6 +24231,7 @@
 
 @sign ZATU795
 @oid o0902763
+@sys CDLI-gh img-page
 @list U+12DB0
 @ucun 𒶰
 @uname ZATU795
@@ -23238,6 +24244,7 @@
 
 @sign ZATU797
 @oid o0902764
+@sys CDLI-gh img-page
 @list U+12DB1
 @ucun 𒶱
 @uname ZATU797
@@ -23249,6 +24256,7 @@
 
 @sign ZATU798
 @oid o0902765
+@sys CDLI-gh img-page
 @list U+12DB2
 @ucun 𒶲
 @uname ZATU798
@@ -23260,6 +24268,7 @@
 
 @sign ZATU799
 @oid o0902766
+@sys CDLI-gh img-page
 @list U+12DB3
 @ucun 𒶳
 @uname ZATU799
@@ -23271,6 +24280,7 @@
 
 @sign ZATU800
 @oid o0902767
+@sys CDLI-gh img-page
 @list U+12DB4
 @ucun 𒶴
 @uname ZATU800
@@ -23282,6 +24292,7 @@
 
 @sign ZATU801
 @oid o0902768
+@sys CDLI-gh img-page
 @list U+12DB5
 @ucun 𒶵
 @uname ZATU801
@@ -23293,6 +24304,7 @@
 
 @sign ZATU802
 @oid o0902769
+@sys CDLI-gh img-page
 @list U+12DB6
 @ucun 𒶶
 @uname ZATU802
@@ -23309,6 +24321,7 @@
 
 @sign ZATU803
 @oid o0902771
+@sys CDLI-gh img-page
 @list U+12DB7
 @ucun 𒶷
 @uname ZATU803
@@ -23320,6 +24333,7 @@
 
 @sign ZATU804
 @oid o0902772
+@sys CDLI-gh img-page
 @list U+12DB8
 @ucun 𒶸
 @uname ZATU804
@@ -23331,6 +24345,7 @@
 
 @sign ZATU805
 @oid o0902773
+@sys CDLI-gh img-page
 @list U+12DB9
 @ucun 𒶹
 @uname ZATU805
@@ -23342,6 +24357,7 @@
 
 @sign ZATU806
 @oid o0902774
+@sys CDLI-gh img-page
 @list U+12DBA
 @ucun 𒶺
 @uname ZATU806
@@ -23354,6 +24370,7 @@
 
 @sign ZATU807
 @oid o0902775
+@sys CDLI-gh img-page
 @list U+12DBB
 @ucun 𒶻
 @uname ZATU807
@@ -23365,6 +24382,7 @@
 
 @sign ZATU808
 @oid o0902776
+@sys CDLI-gh img-page
 @list U+12DBC
 @ucun 𒶼
 @uname ZATU808
@@ -23376,6 +24394,7 @@
 
 @sign ZATU809
 @oid o0902777
+@sys CDLI-gh img-page
 @list U+12DBD
 @ucun 𒶽
 @uname ZATU809
@@ -23387,6 +24406,7 @@
 
 @sign ZATU810
 @oid o0902778
+@sys CDLI-gh img-page
 @list U+12DBE
 @ucun 𒶾
 @uname ZATU810
@@ -23398,6 +24418,7 @@
 
 @sign ZATU811
 @oid o0902779
+@sys CDLI-gh img-page
 @list U+12DBF
 @ucun 𒶿
 @uname ZATU811
@@ -23409,6 +24430,7 @@
 
 @sign ZATU812
 @oid o0902780
+@sys CDLI-gh img-page
 @list U+12DC0
 @ucun 𒷀
 @uname ZATU812
@@ -23420,6 +24442,7 @@
 
 @sign ZATU813
 @oid o0902781
+@sys CDLI-gh img-page
 @list U+12DC1
 @ucun 𒷁
 @uname ZATU813
@@ -23431,6 +24454,7 @@
 
 @sign ZATU814
 @oid o0902782
+@sys CDLI-gh img-page
 @list U+12DC2
 @ucun 𒷂
 @uname ZATU814
@@ -23442,6 +24466,7 @@
 
 @sign ZATU815
 @oid o0902783
+@sys CDLI-gh img-page
 @list U+12DC3
 @ucun 𒷃
 @uname ZATU815
@@ -23454,6 +24479,7 @@
 
 @sign ZATU817
 @oid o0902784
+@sys CDLI-gh img-page
 @list U+12DC4
 @ucun 𒷄
 @uname ZATU817
@@ -23465,6 +24491,7 @@
 
 @sign ZATU818
 @oid o0902785
+@sys CDLI-gh img-page
 @list U+12DC5
 @ucun 𒷅
 @uname ZATU818
@@ -23476,6 +24503,7 @@
 
 @sign ZATU819
 @oid o0902786
+@sys CDLI-gh img-page
 @list U+12DC6
 @ucun 𒷆
 @uname ZATU819
@@ -23487,6 +24515,7 @@
 
 @sign ZATU820
 @oid o0902787
+@sys CDLI-gh img-page
 @list U+12DC7
 @ucun 𒷇
 @uname ZATU820
@@ -23498,6 +24527,7 @@
 
 @sign ZATU821
 @oid o0902788
+@sys CDLI-gh img-page
 @list U+12DC8
 @ucun 𒷈
 @uname ZATU821
@@ -23509,6 +24539,7 @@
 
 @sign ZATU822
 @oid o0902789
+@sys CDLI-gh img-page
 @list U+12DC9
 @ucun 𒷉
 @uname ZATU822
@@ -23520,6 +24551,7 @@
 
 @sign ZATU823
 @oid o0902790
+@sys CDLI-gh img-page
 @list U+12DCA
 @ucun 𒷊
 @uname ZATU823
@@ -23531,6 +24563,7 @@
 
 @sign ZATU824
 @oid o0902791
+@sys CDLI-gh img-page
 @list U+12DCB
 @ucun 𒷋
 @uname ZATU824
@@ -23542,6 +24575,7 @@
 
 @sign ZATU825
 @oid o0902792
+@sys CDLI-gh img-page
 @list U+12DCC
 @ucun 𒷌
 @uname ZATU825
@@ -23553,6 +24587,7 @@
 
 @sign ZATU826
 @oid o0902793
+@sys CDLI-gh img-page
 @list U+12DCD
 @ucun 𒷍
 @uname ZATU826
@@ -23566,6 +24601,7 @@
 
 @sign ZATU829
 @oid o0902794
+@sys CDLI-gh img-page
 @list U+12DCE
 @ucun 𒷎
 @uname ZATU829
@@ -23578,6 +24614,7 @@
 
 @sign ZATU831
 @oid o0902795
+@sys CDLI-gh img-page
 @list U+12DCF
 @ucun 𒷏
 @uname ZATU831
@@ -23589,6 +24626,7 @@
 
 @sign ZATU831@g
 @oid o0902796
+@sys CDLI-gh img-page
 @list U+12DD0
 @ucun 𒷐
 @uname ZATU831 GUNU
@@ -23599,6 +24637,7 @@
 
 @sign ZATU832
 @oid o0902797
+@sys CDLI-gh img-page
 @list U+12DD1
 @ucun 𒷑
 @uname ZATU832
@@ -23610,6 +24649,7 @@
 
 @sign ZATU833
 @oid o0902798
+@sys CDLI-gh img-page
 @list U+12DD2
 @ucun 𒷒
 @uname ZATU833
@@ -23621,6 +24661,7 @@
 
 @sign ZATU834
 @oid o0902799
+@sys CDLI-gh img-page
 @list U+12DD3
 @ucun 𒷓
 @uname ZATU834
@@ -23632,6 +24673,7 @@
 
 @sign ZATU835
 @oid o0902800
+@sys CDLI-gh img-page
 @list U+12DD4
 @ucun 𒷔
 @uname ZATU835
@@ -23643,6 +24685,7 @@
 
 @sign ZATU836
 @oid o0902801
+@sys CDLI-gh img-page
 @list U+12DD5
 @ucun 𒷕
 @uname ZATU836
@@ -23654,6 +24697,7 @@
 
 @sign ZATU837
 @oid o0902802
+@sys CDLI-gh img-page
 @list ZATU837
 @smap ZATU837~a
 @form ZATU837~a
@@ -23678,6 +24722,7 @@
 
 @sign ZATU838
 @oid o0902805
+@sys CDLI-gh img-page
 @list U+12DD8
 @ucun 𒷘
 @uname ZATU838
@@ -23689,6 +24734,7 @@
 
 @sign ZATU839
 @oid o0902806
+@sys CDLI-gh img-page
 @list U+12DD9
 @ucun 𒷙
 @uname ZATU839
@@ -23709,6 +24755,7 @@
 
 @sign ZATU840
 @oid o0902808
+@sys CDLI-gh img-page
 @list U+12DDB
 @ucun 𒷛
 @uname ZATU840
@@ -23720,6 +24767,7 @@
 
 @sign ZATU841
 @oid o0902809
+@sys CDLI-gh img-page
 @list U+12DDC
 @ucun 𒷜
 @uname ZATU841
@@ -23731,6 +24779,7 @@
 
 @sign ZATU842
 @oid o0902810
+@sys CDLI-gh img-page
 @list U+12DDD
 @ucun 𒷝
 @uname ZATU842
@@ -23742,6 +24791,7 @@
 
 @sign ZATU843
 @oid o0902811
+@sys CDLI-gh img-page
 @list U+12DDE
 @ucun 𒷞
 @uname ZATU843
@@ -23753,6 +24803,7 @@
 
 @sign ZATU844
 @oid o0902812
+@sys CDLI-gh img-page
 @list U+12DDF
 @ucun 𒷟
 @uname ZATU844
@@ -23764,6 +24815,7 @@
 
 @sign ZATU845
 @oid o0902813
+@sys CDLI-gh img-page
 @list U+12DE0
 @ucun 𒷠
 @uname ZATU845
@@ -23775,6 +24827,7 @@
 
 @sign ZATU846
 @oid o0902814
+@sys CDLI-gh img-page
 @list U+12DE1
 @ucun 𒷡
 @uname ZATU846
@@ -23786,6 +24839,7 @@
 
 @sign ZATU847
 @oid o0902815
+@sys CDLI-gh img-page
 @list U+12DE2
 @ucun 𒷢
 @uname ZATU847
@@ -23797,6 +24851,7 @@
 
 @sign ZATU848
 @oid o0902816
+@sys CDLI-gh img-page
 @list U+12DE3
 @ucun 𒷣
 @uname ZATU848
@@ -23808,6 +24863,7 @@
 
 @sign ZATU849
 @oid o0902817
+@sys CDLI-gh img-page
 @list U+12DE4
 @ucun 𒷤
 @uname ZATU849
@@ -23819,6 +24875,7 @@
 
 @sign ZATU850
 @oid o0902818
+@sys CDLI-gh img-page
 @list U+12DE5
 @ucun 𒷥
 @uname ZATU850
@@ -23830,6 +24887,7 @@
 
 @sign ZATU851
 @oid o0902819
+@sys CDLI-gh img-page
 @list U+12DE6
 @ucun 𒷦
 @uname ZATU851
@@ -23842,6 +24900,7 @@
 
 @sign ZATU852
 @oid o0902820
+@sys CDLI-gh img-page
 @list U+12DE7
 @ucun 𒷧
 @uname ZATU852
@@ -23853,6 +24912,7 @@
 
 @sign ZATU853
 @oid o0902821
+@sys CDLI-gh img-page
 @list U+12DE8
 @ucun 𒷨
 @uname ZATU853
@@ -23864,6 +24924,7 @@
 
 @sign ZATU854
 @oid o0902822
+@sys CDLI-gh img-page
 @list U+12DE9
 @ucun 𒷩
 @uname ZATU854
@@ -23875,6 +24936,7 @@
 
 @sign ZATU855
 @oid o0902823
+@sys CDLI-gh img-page
 @list U+12DEA
 @ucun 𒷪
 @uname ZATU855
@@ -23886,6 +24948,7 @@
 
 @sign ZATU856
 @oid o0902824
+@sys CDLI-gh img-page
 @list ZATU856
 @sys	ADD F3021 P006294 ZATU856.png
 @end sign
@@ -23911,6 +24974,7 @@
 
 @sign ZI
 @oid o0902828
+@sys CDLI-gh img-page
 @list ZATU617
 @smap ZI~a
 @form ZI~a
@@ -23956,6 +25020,7 @@
 @compoundonly	ZU
 @sign ZUBI
 @oid o0902837
+@sys CDLI-gh img-page
 @list ZATU619
 @smap ZUBI~a
 @form ZUBI~a
@@ -24104,6 +25169,7 @@
 
 @sign 1(N01@r)
 @oid o0902857
+@sys CDLI-gh img-page
 @list U+12589
 @ucun 𒖉
 @uname ONE N01 REVERSED
@@ -24291,6 +25357,7 @@
 
 @sign |1(N02).RU|
 @oid o0902870
+@sys CDLI-gh img-page
 @list U+12DF1
 @ucun 𒷱
 @uname ONE-N2 BESIDE RU
@@ -24674,6 +25741,7 @@
 @oid o0902900
 @smap 1(N07A)
 @form 1(N07A)
+@aka 1(N07~a)
 @oid o0902901
 @list U+12646
 @ucun 𒙆
@@ -24683,6 +25751,7 @@
 @sys	AP23 12589
 @@
 @form 1(N07B)
+@aka 1(N07~b)
 @oid o0902902
 @list U+12649
 @ucun 𒙉
@@ -24720,6 +25789,7 @@
 @oid o0902906
 @smap 3(N07A)
 @form 3(N07A)
+@aka 3(N07~a)
 @oid o0902907
 @list U+12648
 @ucun 𒙈
@@ -24729,6 +25799,7 @@
 @sys	AP23 1261B
 @@
 @form 3(N07B)
+@aka 3(N07~b)
 @oid o0902908
 @list U+1264B
 @ucun 𒙋
@@ -24887,6 +25958,7 @@
 
 @sign |1(N08@f)×1(N57)|
 @oid o0902925
+@sys CDLI-gh img-page
 @list U+F012C
 @ucun 󰄬
 @uname ONE-N8 FLAT TIMES ONE-N57
@@ -25768,6 +26840,7 @@
 @sys	ACN 125AA
 @sys	AP23 1259D
 @form 1(N24A)
+@aka 1(N24~a)
 @oid o0903017
 @list U+125EA
 @ucun 𒗪
@@ -25777,6 +26850,7 @@
 @sys	AP23 1259E
 @@
 @form 1(N24B)
+@aka 1(N24~b)
 @oid o0903018
 @list U+125FE
 @ucun 𒗾
@@ -25829,6 +26903,7 @@
 @oid o0903024
 @@
 @form 1(N26B)
+@aka 1(N26~b)
 @oid o0903025
 @list U+125FF
 @ucun 𒗿
@@ -25860,6 +26935,7 @@
 @sys	AP23 125A7
 @sys	LLATU:324_08 1(N28) 
 @form 1(N28B)
+@aka 1(N28~b)
 @oid o0903029
 @list U+12600
 @ucun 𒘀
@@ -25896,6 +26972,7 @@
 @sys	AP23 125AB
 @@
 @form 1(N29B)
+@aka 1(N29~b)
 @oid o0903034
 @list U+125AE
 @ucun 𒖮
@@ -26115,6 +27192,7 @@
 
 @sign |1(N34)×1(N58)|
 @oid o0903060
+@sys CDLI-gh img-page
 @list U+F012D
 @ucun 󰄭
 @uname ONE-N34 TIMES ONE-N58
@@ -27694,6 +28772,7 @@
 
 @sign |1(N57).AB₂|
 @oid o0903211
+@sys CDLI-gh img-page
 @list U+12DF3
 @ucun 𒷳
 @uname ONE-N57 BESIDE AB2
@@ -27726,6 +28805,7 @@
 
 @sign |1(N57).ŠAH₂|
 @oid o0903218
+@sys CDLI-gh img-page
 @smap |1(N57).ŠAH₂~a|
 @form |1(N57).ŠAH₂~a|
 @oid o0903219
@@ -27742,6 +28822,7 @@
 
 @sign |1(N57).ŠUBUR|
 @oid o0903220
+@sys CDLI-gh img-page
 @list U+12DF6
 @ucun 𒷶
 @uname ONE-N57 BESIDE SHUBUR
@@ -27777,6 +28858,7 @@
 
 @sign |2(N57).AB₂|
 @oid o0903223
+@sys CDLI-gh img-page
 @list U+12DF8
 @ucun 𒷸
 @uname TWO-N57 BESIDE AB2
@@ -27798,6 +28880,7 @@
 
 @sign |2(N57).KU₆|
 @oid o0903226
+@sys CDLI-gh img-page
 @smap |2(N57).KU₆~a|
 @form |2(N57).KU₆~a|
 @oid o0903227
@@ -27816,6 +28899,7 @@
 
 @sign |2(N57).SU|
 @oid o0903229
+@sys CDLI-gh img-page
 @smap |2(N57).SU~a|
 @form |2(N57).SU~a|
 @oid o0903230
@@ -27830,6 +28914,7 @@
 
 @sign |2(N57).ŠUBUR|
 @oid o0903231
+@sys CDLI-gh img-page
 @list U+12DFB
 @ucun 𒷻
 @uname TWO-N57 BESIDE SHUBUR
@@ -27864,6 +28949,7 @@
 
 @sign |3(N57).AMAR|
 @oid o0903235
+@sys CDLI-gh img-page
 @list U+12DFC
 @ucun 𒷼
 @uname THREE-N57 BESIDE AMAR
@@ -27888,6 +28974,7 @@
 
 @sign |3(N57).BARA₃|
 @oid o0903239
+@sys CDLI-gh img-page
 @list U+12DFD
 @ucun 𒷽
 @uname THREE-N57 BESIDE BARA3
@@ -27898,6 +28985,7 @@
 
 @sign |3(N57).E₂|
 @oid o0903240
+@sys CDLI-gh img-page
 @smap |3(N57).E₂~b|
 @form |3(N57).E₂~b|
 @oid o0903241
@@ -27916,6 +29004,7 @@
 
 @sign |3(N57).GAR|
 @oid o0903243
+@sys CDLI-gh img-page
 @list U+12DFF
 @ucun 𒷿
 @uname THREE-N57 BESIDE GAR
@@ -27926,6 +29015,7 @@
 
 @sign |3(N57).NUNUZ|
 @oid o0903244
+@sys CDLI-gh img-page
 @list ZATU424
 @smap |3(N57).NUNUZ~a1|
 @form |3(N57).NUNUZ~a1|
@@ -27950,6 +29040,7 @@
 
 @sign |3(N57).PIRIG|
 @oid o0903247
+@sys CDLI-gh img-page
 @list ZATU429
 @smap |3(N57).PIRIG~b1|
 @form |3(N57).PIRIG~b1|
@@ -27979,6 +29070,7 @@
 
 @sign |3(N57).ŠUBUR|
 @oid o0903252
+@sys CDLI-gh img-page
 @list U+12E03
 @ucun 𒸃
 @uname THREE-N57 BESIDE SHUBUR
@@ -28023,6 +29115,7 @@
 
 @sign |4(N57).AMAR|
 @oid o0903258
+@sys CDLI-gh img-page
 @list U+12E04
 @ucun 𒸄
 @uname FOUR-N57 BESIDE AMAR
@@ -28033,6 +29126,7 @@
 
 @sign |4(N57).GAR|
 @oid o0903259
+@sys CDLI-gh img-page
 @list U+12E05
 @ucun 𒸅
 @uname FOUR-N57 BESIDE GAR
@@ -28043,6 +29137,7 @@
 
 @sign |4(N57).KU₃|
 @oid o0903260
+@sys CDLI-gh img-page
 @smap |4(N57).KU₃~a|
 @form |4(N57).KU₃~a|
 @oid o0903261
@@ -28057,6 +29152,7 @@
 
 @sign |4(N57).NI|
 @oid o0903262
+@sys CDLI-gh img-page
 @smap |4(N57).NI~b|
 @form |4(N57).NI~b|
 @oid o0903263
@@ -28082,6 +29178,7 @@
 
 @sign |5(N57).GAR|
 @oid o0903265
+@sys CDLI-gh img-page
 @list U+12E08
 @ucun 𒸈
 @uname FIVE-N57 BESIDE GAR
@@ -28092,6 +29189,7 @@
 
 @sign |5(N57).KU₃|
 @oid o0903266
+@sys CDLI-gh img-page
 @smap |5(N57).KU₃~a|
 @form |5(N57).KU₃~a|
 @oid o0903267
@@ -28125,6 +29223,7 @@
 
 @sign |6(N57).GAR|
 @oid o0903270
+@sys CDLI-gh img-page
 @list U+12E0A
 @ucun 𒸊
 @uname SIX-N57 BESIDE GAR
@@ -28135,6 +29234,7 @@
 
 @sign |6(N57).KU₃|
 @oid o0903271
+@sys CDLI-gh img-page
 @smap |6(N57).KU₃~a|
 @form |6(N57).KU₃~a|
 @oid o0903272
@@ -28174,6 +29274,7 @@
 
 @sign |8(N57).NI|
 @oid o0903276
+@sys CDLI-gh img-page
 @smap |8(N57).NI~b|
 @form |8(N57).NI~b|
 @oid o0903277
@@ -28223,6 +29324,7 @@
 
 @sign |1(N58).BAD|
 @oid o0903281
+@sys CDLI-gh img-page
 @aka	|BAD+DIŠ~a|
 @aka	|1(N58).BAD~a|
 @list U+12E0D
@@ -28279,6 +29381,7 @@
 
 @sign |3(N58).UR₃|
 @oid o0903286
+@sys CDLI-gh img-page
 @smap |3(N58).UR₃~b1|
 @form |3(N58).UR₃~b1|
 @oid o0903287
@@ -28358,6 +29461,7 @@
 
 @sign 1(N58@t)
 @oid o0903294
+@sys CDLI-gh img-page
 @aka	1(N58)@t
 @list U+F0123
 @ucun 󰄣
@@ -28527,6 +29631,7 @@
 
 @sign 1(N34@f@t)
 @oid o0903069
+@sys CDLI-gh img-page
 @list U+12675
 @ucun 𒙵
 @uname ONE N34 FLAT TENU
