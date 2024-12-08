@@ -28,7 +28,10 @@ EOF
 	$i = xmlify($i);
 	my $label = $i; $label =~ s/.jpg//;
 	print <<EOF
-<div class="pcImg"><div><img src="/pcsl/cdli-gh/jpg/$i" alt="image of CDLI-gh $label"/></div><div><span>$label</span></div></div>
+<div class="pcImg">
+<div><p>$label</p></div>
+<div><p><img src="/pcsl/cdli-gh/jpg/$i" alt="image of CDLI-gh $label"/></p></div>
+</div>
 EOF
     }
     print <<EOF;
