@@ -49,7 +49,7 @@ p.sl-hang { padding-left: 120px; }
 
 .sl-ibody { font-size: 90%; font-weight: normal; }
 
-.sl-ihead { font-size: 75%; font-weight: bold; display: inline-block; width: 120px; padding: 0px; }
+.sl-ihead { font-size: 75%; font-weight: bold; display: inline-block; width: 120px; padding: 0px; vertical-align: top; }
 
 .sl-ihead-h { font-size: 75%; font-weight: bold; display: inline-block;
 	      width: 120px; margin-left: -120px; }
@@ -188,4 +188,7 @@ td.name-nosign { width: 10%; background-color: lightgray; }
 td.name-sign img { }
 
 .strut { display: none; height: 12px; }
+
+.asl-img-page img { max-height: 80px; border-bottom: gray 3px solid; }
+.asl-img-page p { margin: 0pt; padding: 0pt; }
 

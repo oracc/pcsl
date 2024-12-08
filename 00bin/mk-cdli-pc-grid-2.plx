@@ -21,14 +21,14 @@ while (<G>) {
     open(O,">00res/cdli-gh/$o.html") || die; select O;
     print <<EOF;
 <html>
-<head><title>GDLI-GH $o</title></head>
+<head><link rel="stylesheet" type="text/css" href="/pcsl/signlist/css/projesp.css"/><title>GDLI-GH $o</title></head>
 <body><div id="pcCDLI">
 EOF
     foreach my $i (@i) {
 	$i = xmlify($i);
 	my $label = $i; $label =~ s/.jpg//;
 	print <<EOF
-<div class="pcImg">
+<div class="asl-img-page">
 <div><p>$label</p></div>
 <div><p><img src="/pcsl/cdli-gh/jpg/$i" alt="image of CDLI-gh $label"/></p></div>
 </div>
