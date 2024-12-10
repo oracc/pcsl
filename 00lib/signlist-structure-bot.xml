@@ -7,6 +7,10 @@
   <struct:page file="signlist-x-LLATU-cchart.xml" id="cchartllatu" type="page"/>
   <struct:page file="signlist-x-ZATU-index.xml" id="indexzatu" type="page"/>
   <struct:page file="signlist-x-acn-concordance.xml" id="acncnc" type="page"/>
+  <struct:page file="signlist-x-ap24yesv-no-tc.xml" id="ap24yvnotc" type="page"/>
+  <struct:page file="signlist-x-ap24notv-no-tc.xml" id="ap24nvnotc" type="page"/>
+  <struct:page file="signlist-x-tc-yesnum-noap24.xml" id="tcynum-no-ap24" type="page"/>
+  <struct:page file="signlist-x-tc-notnum-noap24.xml" id="tcnnum-no-ap24" type="page"/>
   <!--
       <struct:page file="signlist-x-BAU-index.xml" id="indexbau" type="page"/>
       <struct:page file="signlist-x-numlist.xml" id="numlist" type="page"/>
