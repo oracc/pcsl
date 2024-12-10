@@ -6,8 +6,8 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>XXX</esp:name>
-  <esp:title>XXX</esp:title>
+  <esp:name>AP24 Not CDLI-tc (no ~v)</esp:name>
+  <esp:title>AP24 Not CDLI-tc (excluding unmarked variants)</esp:title>
   <html>
     <head/>
     <body>
@@ -20,7 +20,7 @@
 	  format="list"
 	  codepoints="yes"
 	  values="no"
-	  ><xi:include href="ap24nonv-no-tc-pos.txt" parse="text"
+	  ><xi:include href="ap24notv-no-tc-pos.txt" parse="text"
 	  /></sxw:page-o-signs>
 
     </body>

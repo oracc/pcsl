@@ -6,12 +6,12 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>XXX</esp:name>
-  <esp:title>XXX</esp:title>
+  <esp:name>CDLI-tc non-numbers not in AP24</esp:name>
+  <esp:title>CDLI-tc non-numbers not in AP24</esp:title>
   <html>
     <head/>
     <body>
-      <p>Number signs in CDLI-tc which are not in AP24.</p>
+      <p>Non-number signs in CDLI-tc which are not in AP24.</p>
       <!-- or "grid" -->
       <sxw:page-o-signs
 	  format="list"

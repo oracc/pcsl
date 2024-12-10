@@ -37,8 +37,8 @@ grep -v '~v' 01tmp/ap24-no-tc-n.tsv | cut -f1 >00etc/ap24notv-no-tc-pos.txt
 
 # list of CDLI-tc entries without an AP24 entry, excluding numbers
 
-grep -v '	[0-9](' 01tmp/tc-no-ap24.lst >00etc/tc-notnum-no-ap24-pos.txt
+grep -v '	[0-9](' 01tmp/tc-no-ap24-n.tsv >00etc/tc-notnum-no-ap24-pos.txt
 
 # list of CDLI-tc numbers not in ACN or AP24
 
-grep -v '	[0-9](' 01tmp/tc-no-ap24.lst >00etc/tc-yesnum-no-ap24-pos.txt
+grep '	[0-9](' 01tmp/tc-no-ap24-n.tsv >00etc/tc-yesnum-no-ap24-pos.txt
