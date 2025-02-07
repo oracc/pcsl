@@ -66,7 +66,7 @@ while (<>) {
 		if (($okp = $pcsl{"$p~a"})) {
 		    $p = $p.'~a';
 		} else {
-		    if ($p =~ /^(.*?)\.(\dN57)$/) {
+		    if ($p =~ /^(.*?)\.([0-9X]N57)$/) {
 			my $n = "$2.$1";
 			if (($okp = $pcsl{$n})) {
 			    $p = $n;
@@ -92,7 +92,7 @@ sub rkeprint {
 	    $r .= $1;
 	} else {
 	    my($b,$x,$m) = split(/::/, $p);
-	    if ($b !~ /^ZATU/ && $b !~ /^\d+N\d+$/) {
+	    if ($b !~ /^ZATU/ && $b !~ /^[0-9X]N\d+$/) {
 		$b =~ tr/0-9/₀-₉/;
 	    }
 	    $r .= $b;
