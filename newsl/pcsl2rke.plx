@@ -28,9 +28,9 @@ while (<SL>) {
 		my $ra = rkeify($a);
 		print T "\@aka $r\t$ra\n";
 	    }
-	    $x = $o = $s = '';
-	    @a = ();
 	}
+	$x = $o = $s = '';
+	@a = ();
     }
     if (/^(?:\@sign|\@form)\s+(\S+)\s*$/) {
 	$s = $1;
