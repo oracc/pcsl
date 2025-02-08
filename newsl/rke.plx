@@ -16,8 +16,14 @@ GetOptions(
     t=>\$tsvflag,
     );
 
+my %map = (); load_map();
+
 my %aka = ();
-my %pcsl = (); load_pcslrke();
+my %pcsl = (); my %pcsl2 = (); load_pcslrke();
+
+open(P,'>pcsl2.dump');
+print P Dumper \%pcsl2;
+close(P);
 
 my $g='[A-ZŠʾ]+\d*';
 my $n='[0-9]+N[0-9]+';
@@ -57,16 +63,22 @@ while (<>) {
     if ($ok) {
 	my $r = rkeprint(@p);
 	my $p = rkepcsl($r);
+	$p = $map{$p} if $map{$p};
 	$p = $aka{$p} if $aka{$p};
 	my $okp = $pcsl{$p};
 	unless ($okp) {
 	    $p =~ tr/+/./;
-	    $okp = $pcsl{$p};
+	    $okp = $pcsl{$p} || $pcsl2{$p};
 	    unless ($okp) {
-		if (($okp = $pcsl{"$p~a"})) {
+		if ($p !~ /~a$/ && ($okp = $pcsl{"$p~a"})) {
 		    $p = $p.'~a';
+		} elsif ($p !~ /~b$/ && ($okp = $pcsl{"$p~b"})) {
+		    $p = $p.'~b';
 		} else {
-		    if ($p =~ /^(.*?)\.([0-9X]N57)$/) {
+		    my $p2 = $p;
+		    if ($p2 =~ s/~[a-f]\d*//g && ($okp = $pcsl{$p2})) {
+			$p = $p2;
+		    } elsif ($p =~ /^(.*?)\.([0-9X]N57)$/) {
 			my $n = "$2.$1";
 			if (($okp = $pcsl{$n})) {
 			    $p = $n;
@@ -84,6 +96,8 @@ while (<>) {
 	warn "nope: $_\n";
     }
 }
+
+#################################################################################
 
 sub rkeprint {
     my $r = '';
@@ -125,6 +139,16 @@ sub rkepcsl {
     $p;
 }
 
+sub load_map {
+    open(M,'rkesl.map') || die;
+    while (<M>) {
+	chomp;
+	my($f,$t) = split(/\t/,$_);
+	$map{$f} = $t;
+    }
+    close(M);
+}
+
 sub load_pcslrke {
     open(P,'pcslrke.tsv') || die;
     while (<P>) {
@@ -134,6 +158,11 @@ sub load_pcslrke {
 	} else {
 	    my($p,$r,$o,$c) = split(/\t/,$_);
 	    push @{$pcsl{$r}}, [ $p, $o, $c ];
+	    my $r2 = $r;
+	    $r2 =~ tr/+/./;
+	    if ($r ne $r2) {
+		push @{$pcsl2{$r2}}, [ $p, $o, $c ];
+	    }
 	}
     }
     close(P);
