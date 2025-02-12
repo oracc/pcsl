@@ -5,6 +5,7 @@
         file="home.xml" id="home" accesskey="1" type="page">
 
   <struct:page file="pcsl/index.xml" id="pcsl" type="page">
+    <struct:page file="sl-tab.xml" id="sltab" type="page"/>
   </struct:page>
 
   <struct:page file="ap24-q-a.xml" id="AP24QA" type="page"/>

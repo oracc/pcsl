@@ -1,13 +1,34 @@
-<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+	       xmlns:esp="http://oracc.org/ns/esp/1.0"
+	       xmlns="http://www.w3.org/1999/xhtml"
+	       xmlns:xh="http://www.w3.org/1999/xhtml">
+  
   <xsl:template match="ss">
-    <table data-proj="pcsl">
-      <xsl:apply-templates/>
-    </table>
+    <esp:page>
+      <esp:name>Sign Lists</esp:name>
+      <esp:title>Concordance of Sign Lists</esp:title>
+      <html>
+	<head/>
+	<body>
+	  <table class="pretty"> <!--  data-proj="pcsl" -->
+	    <thead>
+	      <td>PCSL</td>
+	      <td>LLATU</td>
+	      <td>ATU5</td>
+	      <td>MSVO1</td>
+	      <td>MSVO4</td>
+	    </thead>
+	    <tbody>
+	      <xsl:apply-templates/>
+	    </tbody>
+	  </table>
+	</body>
+      </html>
+    </esp:page>
   </xsl:template>
   
   <xsl:template match="s">
-    <tr data-oid="{@xml:id}">
+    <tr> <!-- data-oid="{@xml:id}" -->
       <xsl:variable name="xid" select="@xml:id"/>
       <xsl:variable name="p" select="document('llatu.xml')/*/*[@xml:id=$xid]/p
 				     |document('atu5.xml')/*/*[@xml:id=$xid]/p
@@ -40,7 +61,23 @@
     <td>
       <xsl:for-each select="document(concat($sl,'.xml'))">
 	<xsl:for-each select="id($xid)">
-	  <xsl:value-of select="r"/>
+	  <div><xsl:value-of select="r"/></div>
+	  <xsl:choose>
+	    <xsl:when test="u">
+	      <div class="p">
+		<div><xsl:value-of select="p"/></div>
+		<div><span class="ofs-pc ofs-200"><xsl:value-of select="u"/></span></div>
+	      </div>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:for-each select="c">
+		<div class="p">
+		  <div><xsl:value-of select="p"/></div>
+		  <div><span class="ofs-pc ofs-200"><xsl:value-of select="u"/></span></div>
+		</div>
+	      </xsl:for-each>
+	    </xsl:otherwise>
+	  </xsl:choose>
 	</xsl:for-each>
       </xsl:for-each>
     </td>
