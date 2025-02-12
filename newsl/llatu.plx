@@ -14,6 +14,7 @@ GetOptions(
 
 my $l;
 my $oid;
+my $top_oid;
 my $sf;
 my $u;
 
@@ -21,8 +22,10 @@ while (<>) {
     chomp;
     if (/^\@(sign|form)\s+(\S+)/) {
 	$sf = $2;
+	$top_oid = '';
     } elsif (/^\@oid\s+(\S+)/) {
-	$oid = $1;
+	$top_oid = $1 unless $top_oid;
+	$oid = $1 unless $sf =~ /~v/;
     } elsif (/^\@ucun\s+(\S+)/) {
 	$u = $1;
     } elsif (s/^\@sys\s+LLATU://) {
@@ -31,9 +34,11 @@ while (<>) {
 	$l = $_;
     } elsif (/\@\@|\@end/) {
 	if ($l) {
+	    $oid = $top_oid unless $oid;
 	    print "$l\t$sf\t$oid\t$u\n";
 	    $l = '';
 	}
+	$oid = '';
     }
 }
 

@@ -10,7 +10,7 @@
       <html>
 	<head/>
 	<body>
-	  <table class="pretty"> <!--  data-proj="pcsl" -->
+	  <table class="pretty sltab"> <!--  data-proj="pcsl" -->
 	    <thead>
 	      <td>PCSL</td>
 	      <td>LLATU</td>
@@ -62,22 +62,12 @@
       <xsl:for-each select="document(concat($sl,'.xml'))">
 	<xsl:for-each select="id($xid)">
 	  <div><xsl:value-of select="r"/></div>
-	  <xsl:choose>
-	    <xsl:when test="u">
-	      <div class="p">
-		<div><xsl:value-of select="p"/></div>
-		<div><span class="ofs-pc ofs-200"><xsl:value-of select="u"/></span></div>
-	      </div>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:for-each select="c">
-		<div class="p">
-		  <div><xsl:value-of select="p"/></div>
-		  <div><span class="ofs-pc ofs-200"><xsl:value-of select="u"/></span></div>
-		</div>
-	      </xsl:for-each>
-	    </xsl:otherwise>
-	  </xsl:choose>
+	  <xsl:for-each select="c">
+	    <div class="p">
+	      <div><span class="slname"><xsl:value-of select="p"/></span></div>
+	      <div><span class="slucun ofs-pc ofs-200"><xsl:value-of select="u"/></span></div>
+	    </div>
+	  </xsl:for-each>
 	</xsl:for-each>
       </xsl:for-each>
     </td>

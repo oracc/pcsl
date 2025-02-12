@@ -11,7 +11,8 @@
     <meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text"/>
     <meta name="DC.format" content="text/html"/>
     <meta name="robots" content="noindex,nofollow"/>
-  </param:common-headers>
+    <link media="screen,projection" href="/pcsl/css/projcss.css" type="text/css" rel="stylesheet"/>
+    </param:common-headers>
   <param:dc-id-prefix>pcsl-oracc-org/page/</param:dc-id-prefix>
   <param:main-menu-caption>Main menu</param:main-menu-caption>
   <param:navbar>yes</param:navbar>
