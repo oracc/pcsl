@@ -1877,6 +1877,7 @@
 @form |BU~a+DU₆~a|
 @oid o0900199
 @aka	|BU~a.DU₆~a|
+@aka	|BU~a.DU₆|
 @list U+1270C
 @ucun 𒜌
 @uname BU-A JOINING DU6-A
@@ -5690,6 +5691,7 @@
 @list ZATU171
 @inote @smap |GA₂~a1×(HI.SUHUR~v1)|
 @form |GA₂~a1×(HI.SUHUR~v1)|
+@aka |GA₂~a1×(HI.SUHUR)|
 @oid o0900652
 @list U+1281F
 @ucun 𒠟
@@ -14682,6 +14684,7 @@
 @oid o0901723
 @aka	|ŠE~a+SAR~a|
 @aka	|ŠE~a+SAR|
+@aka	|SAR×ŠE~a|
 @list U+12AC1
 @ucun 𒫁
 @uname SAR-A TIMES SHE-A
@@ -25776,6 +25779,7 @@
 @sys	AP23 125E6
 @@
 @form 2(N07B)
+@aka 2(N07~b)
 @oid o0902905
 @list U+1264A
 @ucun 𒙊
