@@ -3,6 +3,7 @@ default: pc25
 pc25:
 	mkdir -p w
 	make xml
+	make web
 
 xml: w/pc25-nc+v.xml w/pc25-nc-v.xml w/pc25-seq.xml w/pc25-tc-idg.xml
 
@@ -20,3 +21,10 @@ w/pc25-seq.xml: pc25-seq.xml pc25-seq.txt b/pos.sh
 
 w/pc25-tc-idg.xml: pc25-tc-idg.xml pc25-tc-idg-i.xml b/pos.sh
 	b/pos.sh $(@F) pcsl > $@
+
+web: w/introduction.xml w/ap24qa.xml w/corpus.xml w/analysis.xml
+	w/principles.xml w/signlists.xml w/approaches.xml w/font.xml \
+	w/numbers.xml w/repertoire.xml
+
+w/%.xml: x/%.xml
+	cp $? $@

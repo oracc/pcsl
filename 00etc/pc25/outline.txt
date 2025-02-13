@@ -2,11 +2,22 @@ pc25
 	introduction
 	corpus
 	signlists
+	analysis
 	approaches
 	principles
 	repertoire
-	numbers
-		ACN
-		TODO
-	ap24qa
-	font
+		simple
+			ideograms
+			numbers
+		complex
+		sequences
+		specials
+			UD-notations
+			N57-age-notations
+			settlement names
+	Appendices	
+		numbers
+			ACN
+			TODO
+		ap24qa
+		font

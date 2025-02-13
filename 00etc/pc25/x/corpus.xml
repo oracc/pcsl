@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+  <esp:name>PC25 Corpus</esp:name>
+  <esp:title>Corpus</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>The PC text Corpus is defined by the CDLI corpus of
+      Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
+      for use by PCSL: we call this <code>CDLI-tc</code>. There are
+      5976 texts in the corpus of which 1752 are attributed to Uruk IV
+      and 4224, or roughly 75% of the corpus, to the subsequent Uruk
+      III period.</p>
+      <p>The digital corpus consists of the following major groups:</p>
+      <ul>
+	<li>Uruk tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
+	these supercede ATU1</li>
+	<li>Jemdet Nasr (Uruk III) tablets from MSVO1; these supercede
+	Langdon, PI</li>
+	<li>Tablets from various locations from MSVO4; this includes
+	non-Uruk tablets which were included in ATU1</li>
+	<li>Tablets in private collections from various locations in
+	CUSAS1, CUSAS21, and CUSAS31; these post-date the ATU and MSVO
+	volumes</li>
+	<li>Tablets from the "Erlenmeyer Collection"; these were to be
+	published in MSVO3 which has not yet appeared; many of them
+	have been edited by Englund and others in various
+	publications, however</li>
+	<li>Tablets in private collections primarily from Umma; these
+	are in the CDLI set of transliterations but have not yet been
+	edited in print</li>
+      </ul>
+    </body>
+  </html>
+</esp:page>
