@@ -22,7 +22,7 @@
 	  format="list"
 	  codepoints="yes"
 	  values="no"
-	  ><xi:include href="ap24yesv-no-tc-pos.txt" parse="text"
+	  ><xi:include href="pc25-nc+v.txt" parse="text"
 	  /></sxw:page-o-signs>
 
     </body>

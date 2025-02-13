@@ -18,8 +18,10 @@
       <!-- or "grid" -->
       <sxw:page-o-signs
 	  format="list"
+	  children="yes"
 	  codepoints="yes"
 	  values="no"
+	  xml="yes"
 	  ><xi:include href="pc25-nc-v-i.xml" parse="xml"
 	  /></sxw:page-o-signs>
 

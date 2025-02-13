@@ -29,7 +29,7 @@ while (<R>) {
     }
     
 }
-
+open(N,'>nc-singletons.tsv') || die;
 foreach my $v (sort { $u{$a} cmp $u{$b} } keys %v) {
     my @c = ();
     if ($n{$v}) {
@@ -44,8 +44,14 @@ foreach my $v (sort { $u{$a} cmp $u{$b} } keys %v) {
     if ($#c > 0) {
 	my $c = join('',@c);
 	print "$v\t$c\n";
+    } else {
+	my @vv = @{$v{$v}};
+	my $vv = $vv[0];
+	my $p = ${$vv}[0];
+	print N "$p\t$v\t$c[0]\n";
     }
 }
+close(N);
 
 1;
 

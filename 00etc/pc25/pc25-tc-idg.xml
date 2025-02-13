@@ -14,9 +14,11 @@
       <p>Non-number signs in CDLI-tc which are not in AP24.</p>
       <!-- or "grid" -->
       <sxw:page-o-signs
-	  format="list"
+	  children="yes"
 	  codepoints="yes"
+	  format="list"
 	  values="no"
+	  xml="yes"
 	  ><xi:include href="pc25-tc-idg-i.xml" parse="xml"
 	  /></sxw:page-o-signs>
 
