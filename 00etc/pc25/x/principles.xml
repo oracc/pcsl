@@ -136,6 +136,13 @@
    	<li>take contrastive usage into account to the extent
    	supported by contemporary scholarship</li>
 
+	<li>do not introduce finer-grained allograph notations than
+	CDLI-tc/CDLI-gh is using.  The decisions made in the corpus
+	about whether sign variants are contrastive or not are made
+	not only on the basis of form but also context of various
+	kinds; specialists in the corpus should decide if further
+	division is needed in the future</li>
+
    	<li>do not assume that every sign list entry should be encoded
    	as a character</li>
 
