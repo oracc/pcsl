@@ -133,7 +133,8 @@
 	consistency of naming scheme; if in doubt, retain CDLI
 	names</li>
 	
-   	<li>take contrastive usage into account in many cases</li>
+   	<li>take contrastive usage into account to the extent
+   	supported by contemporary scholarship</li>
 
    	<li>do not assume that every sign list entry should be encoded
    	as a character</li>
@@ -154,7 +155,7 @@
 
 	<li>do not require a minimum number of occurrences for
 	encoding: the corpus consists of mostly fragmentary
-	manuscripts over 5000 years old: if a sign clearly exists and
+	manuscripts over 5000 years old--if a sign clearly exists and
 	meets the other principles for encoding, it should be
 	encoded</li>
 
