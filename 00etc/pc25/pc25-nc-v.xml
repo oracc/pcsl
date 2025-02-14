@@ -6,13 +6,14 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>AP24 Sequences</esp:name>
-  <esp:title>AP24 Sequences</esp:title>
-  <esp:url>AP24-sequences</esp:url>
+  <esp:name>NC no ~v</esp:name>
+  <esp:title>Not in Corpus and not ~v</esp:title>
+  <esp:url>nc-no-v</esp:url>
   <html>
     <head/>
     <body>
-      <p>Signs in AP24 which are sequences and should not be encoded.</p>
+      <p>Signs in AP24 which are not in CDLI-tc and which do not have
+      <code>~v</code> names.</p>
 
       <!-- or "grid" -->
       <sxw:page-o-signs
@@ -21,7 +22,7 @@
 	  codepoints="yes"
 	  values="no"
 	  xml="yes"
-	  ><xi:include href="pc25-nv-v-i.xml" parse="xml"
+	  ><xi:include href="pc25-nc-v-i.xml" parse="xml"
 	  /></sxw:page-o-signs>
 
     </body>

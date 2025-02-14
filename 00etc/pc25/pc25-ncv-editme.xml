@@ -6,20 +6,20 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>AP24 Sequences</esp:name>
-  <esp:title>AP24 Sequences</esp:title>
-  <esp:url>AP24-sequences</esp:url>
+  <esp:name>NC Selector</esp:name>
+  <esp:title>NC Selectors</esp:title>
+  <esp:url>nc-selectors</esp:url>
   <html>
     <head/>
     <body>
-      <p>Signs in AP24 which are sequences and should not be encoded.</p>
+      <p>Signs with multiple non-contrastive forms that need a reference glyph selection.</p>
 
       <!-- or "grid" -->
       <sxw:page-o-signs
 	  format="list"
 	  codepoints="yes"
 	  values="no"
-	  ><xi:include href="pc25-seq.txt" parse="text"
+	  ><xi:include href="pc25-ncv-editme-i.xml" parse="text"
 	  /></sxw:page-o-signs>
 
     </body>

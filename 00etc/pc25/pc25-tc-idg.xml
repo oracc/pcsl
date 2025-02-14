@@ -6,13 +6,13 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>AP24 Sequences</esp:name>
-  <esp:title>AP24 Sequences</esp:title>
-  <esp:url>AP24-sequences</esp:url>
+  <esp:name>TC missing Ideograms</esp:name>
+  <esp:title>TC missing Ideograms</esp:title>
+  <esp:url>pc25-tc-idg</esp:url>
   <html>
     <head/>
     <body>
-      <p>Signs in AP24 which are sequences and should not be encoded.</p>
+      <p>Ideograms in CDLI-tc which are not in AP24.</p>
 
       <!-- or "grid" -->
       <sxw:page-o-signs

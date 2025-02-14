@@ -6,9 +6,9 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>AP24 Sequences</esp:name>
-  <esp:title>AP24 Sequences</esp:title>
-  <esp:url>AP24-sequences</esp:url>
+  <esp:name>RM Opaque</esp:name>
+  <esp:title>RM Opaque</esp:title>
+  <esp:url>rm-opaque</esp:url>
   <html>
     <head/>
     <body>

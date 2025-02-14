@@ -107,12 +107,13 @@
       <p>When the Oracc data is compiled this relationship is
       preserved in the markup in the form of a key consisting of
       <code>SIGN.FORM.VALUE</code>.  An instance of
-      <code>|GA~a.ZATU753|</code> has the key <code></code> and an
-      instance of <code>o0900606.o0900607.</code> has the key
-      <code>o0900606.o0900608.</code>.  (In PC the 'value' component
+      <code>|GA~a.ZATU753|</code> has the key
+      <code>`o0900606.o0900607.'</code> and an instance of
+      <code>|ZATU753.GA~a|</code> has the key
+      <code>`o0900606.o0900608.'</code>.  (In PC the 'value' component
       is not used; in Psux it would be the transliterated reading of
       the sign, e.g., <code>a(LAK797)</code> =
-      <code>o0000087.o0270203.a</code></p>
+      <code>o0000087.o0270203.a</code>).</p>
 
       <p>Both the individual sign forms and the fact that the forms
       are the "same sign" are preserved in this notation which can
