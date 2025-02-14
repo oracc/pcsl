@@ -12,7 +12,8 @@
   <html>
     <head/>
     <body>
-      <p>Signs in AP24 which are sequences and should not be encoded.</p>
+      <p>Signs in AP24 which are non-contrastive and which are now
+      subsumed under the entry in the right hand column.</p>
 
       <!-- or "grid" -->
       <sxw:page-o-signs
@@ -21,7 +22,7 @@
 	  codepoints="yes"
 	  values="no"
 	  xml="yes"
-	  ><xi:include href="pc25-tc-idg-i.xml" parse="xml"
+	  ><xi:include href="rm-nc-heads-i.xml" parse="xml"
 	  /></sxw:page-o-signs>
 
     </body>

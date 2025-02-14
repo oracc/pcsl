@@ -21,7 +21,7 @@
 	  codepoints="yes"
 	  values="no"
 	  xml="yes"
-	  ><xi:include href="pc25-tc-idg-i.xml" parse="xml"
+	  ><xi:include href="rm-nc-singletons-i.xml" parse="xml"
 	  /></sxw:page-o-signs>
 
     </body>

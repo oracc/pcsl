@@ -12,16 +12,14 @@
   <html>
     <head/>
     <body>
-      <p>Signs in AP24 which are sequences and should not be encoded.</p>
+      <p>Signs in AP24 which are broken and should be reserved to the PUA rather than being encoded.</p>
 
       <!-- or "grid" -->
       <sxw:page-o-signs
-	  children="yes"
 	  format="list"
 	  codepoints="yes"
 	  values="no"
-	  xml="yes"
-	  ><xi:include href="pc25-tc-idg-i.xml" parse="xml"
+	  ><xi:include href="rm-broken.txt" parse="text"
 	  /></sxw:page-o-signs>
 
     </body>

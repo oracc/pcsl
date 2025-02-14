@@ -8,14 +8,22 @@ pc25
 	repertoire
 		simple
 			ideograms
+			ideograms with nc variants
 			numbers
 		complex
-		sequences
 		specials
 			UD-notations
 			N57-age-notations
 			settlement names
-	Appendices	
+	removals and renamings
+		non-contrastive variants
+		renamed non-contrastive variants
+		sequences
+		opaque sequences
+		broken signs
+		unattested or uncertain signs
+	Appendices
+		repertoire
 		numbers
 			ACN
 			TODO

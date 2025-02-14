@@ -6,7 +6,7 @@
 
   <struct:page file="pcsl/index.xml" id="pcsl" type="page">
     <struct:page file="pc25/introduction.xml" id="pc25" type="page"/>
-    <struct:page file="pc25/corpus.xml" id="pc24corpus" type="page"/>
+    <struct:page file="pc25/corpus.xml" id="pc25corpus" type="page"/>
     <struct:page file="pc25/signlists.xml" id="pc25signlists" type="page">
       <struct:page file="sl-tab.xml" id="pc25sltab" type="page" hide-menu-link="yes"/>
     </struct:page>
@@ -14,6 +14,16 @@
       <struct:page file="pc25-nc+v.xml" id="pc25ncyev" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25-nc-v.xml" id="pc25ncnov" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25-tc-idg" id="pc25apadd" type="page" hide-menu-link="yes"/>
+    </struct:page>
+    <struct:page file="pc25/approaches.xml" id="pc25approaches" type="page"/>
+    <struct:page file="pc25/principles.xml" id="pc25principles" type="page"/>
+    <struct:page file="pc25/removals.xml" id="pc25removals" type="page">
+      <struct:page file="rm-nc-heads.xml" id="rmnchead" type="page" hide-menu-link="yes"/>
+      <struct:page file="rm-singletons.xml" id="rmncsing" type="page" hide-menu-link="yes"/>
+      <struct:page file="rm-seq.xml" id="rmseq" type="page" hide-menu-link="yes"/>
+      <struct:page file="rm-opaque.xml" id="rmopaque" type="page" hide-menu-link="yes"/>
+      <struct:page file="rm-broken.xml" id="rmbroken" type="page" hide-menu-link="yes"/>
+      <struct:page file="rm-unattest.xml" id="rmunattest" type="page" hide-menu-link="yes"/>
     </struct:page>
   </struct:page>
 

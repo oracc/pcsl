@@ -16,12 +16,10 @@
 
       <!-- or "grid" -->
       <sxw:page-o-signs
-	  children="yes"
 	  format="list"
 	  codepoints="yes"
 	  values="no"
-	  xml="yes"
-	  ><xi:include href="pc25-tc-idg-i.xml" parse="xml"
+	  ><xi:include href="rm-seq.txt" parse="text"
 	  /></sxw:page-o-signs>
 
     </body>

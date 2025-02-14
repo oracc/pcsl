@@ -29,9 +29,11 @@ while (<R>) {
     }
     
 }
+open(H,'>nc-heads.tsv') || die;
 open(N,'>nc-singletons.tsv') || die;
 foreach my $v (sort { $u{$a} cmp $u{$b} } keys %v) {
     my @c = ();
+    my @p = ();
     if ($n{$v}) {
 	my $n = $n{$v};
 	my @vv = @$n;
@@ -40,18 +42,24 @@ foreach my $v (sort { $u{$a} cmp $u{$b} } keys %v) {
     foreach my $vv (@{$v{$v}}) {
 	my @vv = @{$vv};
 	push @c, chr(hex($vv[1]));
+	push @p, "$vv[2]\t$vv[0]";
     }
     if ($#c > 0) {
 	my $c = join('',@c);
 	print "$v\t$c\n";
+	foreach my $p (@p) {
+	    print H "$p\t$v\n";
+	}
     } else {
 	my @vv = @{$v{$v}};
 	my $vv = $vv[0];
+	my $o = ${$vv}[2];
 	my $p = ${$vv}[0];
-	print N "$p\t$v\t$c[0]\n";
+	print N "$o\t$p\t$v\t$c[0]\n";
     }
 }
 close(N);
+close(H);
 
 1;
 
