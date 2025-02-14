@@ -128,6 +128,11 @@
  	usage, and use the corpus as a control on the lists; use
  	the published lists and corpus as a control on CDLI-gh</li>
 
+	<li>align names with CDLI-tc/CDLI-gh as much as possible, with
+	some exceptions where required to correct names or to improve
+	consistency of naming scheme; if in doubt, retain CDLI
+	names</li>
+	
    	<li>take contrastive usage into account in many cases</li>
 
    	<li>do not assume that every sign list entry should be encoded

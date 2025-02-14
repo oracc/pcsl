@@ -21,7 +21,6 @@ pc25
 		broken signs
 		unattested or uncertain signs
 	Appendices
-		repertoire
 		numbers
 			ACN
 			TODO

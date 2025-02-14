@@ -5,11 +5,12 @@
   <html>
     <head/>
     <body>
-      <p>This page provides notes and links relating to some classes of
-      signs in the revised propoosed repertoire.  A unified list of
-      the repertoire is <esp:link page="proposedrepertoire">available
-      here</esp:link>.</p>
 
+      <p>The complete unified list of the PC25 repertoire is <esp:link
+      page="reppc25">available here</esp:link>.</p>
+
+      <esp:h>Notes on individual classes of inclusions</esp:h>
+      
       <esp:sh>Signs with non-contrastive variants</esp:sh>
 
       <p>The 190 signs which have non-contrastive variants, with the

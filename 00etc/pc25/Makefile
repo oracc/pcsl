@@ -2,6 +2,7 @@ default: pc25
 
 pc25:
 	mkdir -p w
+	b/newrep.sh
 	make xml
 	make web
 	rm -fr ../../00web/pc25
@@ -12,7 +13,7 @@ pos=b/pos.sh $(@F) pcsl > $@
 xml: w/pc25-nc+v.xml w/pc25-nc-v.xml w/pc25-tc-idg.xml \
 	w/rm-broken.xml w/rm-nc-singletons.xml w/rm-seq.xml w/rm-nc-heads.xml  \
 	w/rm-opaque.xml w/rm-unattest.xml \
-	w/pc25-ncv-editme.xml w/rep-num.xml w/rep-add.xml
+	w/pc25-ncv-editme.xml w/rep-num.xml w/rep-add.xml w/rep-city.xml w/rep-pc25.xml
 
 w/pc25-nc+v.xml: pc25-nc+v.xml pc25-nc+v.txt b/pos.sh
 	$(pos)
@@ -57,15 +58,21 @@ w/pc25-ncv-editme.xml: ncv-new-i.xml b/pos.sh
 w/rep-num.xml: rep-num.txt b/pos.sh
 	$(pos)
 
+w/rep-city.xml: rep-city.txt b/pos.sh
+	$(pos)
+
 w/rep-add.xml: rep-add-i.xml b/pos.sh
 	$(pos)
 
 rep-add-i.xml: rep-add.tsv b/rep-add-i.sh
 	b/rep-add-i.sh
 
+w/rep-pc25.xml: rep-pc25.txt b/pos.sh
+	$(pos)
+
 web: w/pc25.xml w/introduction.xml w/ap24qa.xml w/corpus.xml w/analysis.xml \
 	w/principles.xml w/signlists.xml w/approaches.xml w/font.xml \
-	w/numbers.xml w/repertoire.xml w/removals.xml
+	w/numbers.xml w/repertoire.xml w/removals.xml w/numbers.xml
 
 w/%.xml: x/%.xml
 	cp $? $@

@@ -5,8 +5,8 @@
         file="home.xml" id="home" accesskey="1" type="page">
 
   <struct:page file="pcsl/index.xml" id="pcsl" type="page"/>
-  <struct:page file="pc25/pc25.xml" id="pcsl" type="page">
-    <struct:page file="pc25/introduction.xml" id="pc25" type="page"/>
+  <struct:page file="pc25/pc25.xml" id="pc25" type="page">
+    <struct:page file="pc25/introduction.xml" id="pc25intro" type="page"/>
     <struct:page file="pc25/corpus.xml" id="pc25corpus" type="page"/>
     <struct:page file="pc25/signlists.xml" id="pc25signlists" type="page">
       <struct:page file="sl-tab.xml" id="pc25sltab" type="page" hide-menu-link="yes"/>
@@ -22,7 +22,8 @@
       <struct:page file="pc25/pc25-ncv-editme.xml" id="repncv" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25/rep-num.xml" id="repnum" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25/rep-add.xml" id="repadd" type="page" hide-menu-link="yes"/>
-      <!--<struct:page file="pc25/rep-city.xml" id="repcity" type="page" hide-menu-link="yes"/>-->
+      <struct:page file="pc25/rep-city.xml" id="repcity" type="page" hide-menu-link="yes"/>
+      <struct:page file="pc25/rep-pc25.xml" id="reppc25" type="page" hide-menu-link="yes"/>      
     </struct:page>
     <struct:page file="pc25/removals.xml" id="pc25removals" type="page">
       <struct:page file="pc25/rm-nc-heads.xml" id="rmnchead" type="page" hide-menu-link="yes"/>
@@ -32,8 +33,8 @@
       <struct:page file="pc25/rm-broken.xml" id="rmbroken" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25/rm-unattest.xml" id="rmunattest" type="page" hide-menu-link="yes"/>
     </struct:page>
+    <struct:page file="pc25/numbers.xml" id="pc25numbers" type="page"/>
+    <struct:page file="ap24-q-a.xml" id="AP24QA" type="page"/>
   </struct:page>
-
-  <!--<struct:page file="ap24-q-a.xml" id="AP24QA" type="page"/>-->
     
 </struct:page>
