@@ -6,24 +6,20 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:sxw="http://oracc.org/ns/sxweb/1.0"
     >
-  <esp:name>NC Selector</esp:name>
-  <esp:title>NC Selectors</esp:title>
-  <esp:url>nc-selectors</esp:url>
+  <esp:name>PC25 ADD Numbers</esp:name>
+  <esp:title>PC25 ADD Numbers</esp:title>
+  <esp:url>ADD-numbers</esp:url>
   <html>
     <head/>
     <body>
-      <p>Signs with multiple non-contrastive forms that need a
-      reference glyph selection.  The proposed reference glyph is in
-      initial position in each list of signs.</p>
+      <p>Numbers which need to be included in PC25.</p>
 
       <!-- or "grid" -->
       <sxw:page-o-signs
-	  children="yes"
 	  format="list"
-	  codepoints="no"
+	  codepoints="yes"
 	  values="no"
-	  xml="yes"
-	  ><xi:include href="ncv-new-i.xml" parse="xml"
+	  ><xi:include href="rep-num.txt" parse="text"
 	  /></sxw:page-o-signs>
 
     </body>

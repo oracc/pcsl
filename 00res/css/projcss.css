@@ -9,3 +9,31 @@ h2 { font-size: 110%; font-weight: bold; }
 .pretty .spacer { color: #f5f5f5; }
 
 .ns-frac { font-size: 80%; }
+
+@media print { #p4CuneifyBar { display: none; } }
+
+.broken {
+  background-image: url('https://build-oracc.museum.upenn.edu/breaks.png');
+  background-repeat: repeat;
+}
+
+/* Standalone cuneify pages have #p4Pager.dcfy */
+#p4Pager.dcfy #p4XtfData { flex: 1 1 40%; display: inline-block; vertical-align: top;
+			   overflow-y: unset; }
+
+#p4Item>#p4Cuneify {
+    flex: 1 1 20%; display: inline-block; vertical-align: top; overflow-y: auto; }
+
+#p4XtfMeta { flex: 0 0 15%; display: inline-block; vertical-align: top;
+	     border-right: solid lightgray 1px;
+	     height: 85%; overflow-y: auto; }
+
+#p4XtfData { flex: 1 1 40%; display: inline-block; vertical-align: top;
+	     height: 85%; overflow-y: auto; }
+
+#p4Images { flex: 1 1 25%; display: inline-block; vertical-align: top; overflow-y: auto; }
+
+.cuneify-label { vertical-align: top; width: 15%; }
+
+.cuneify-content { text-align: left; vertical-align: top;
+		   border-bottom: solid 1px lavender; }

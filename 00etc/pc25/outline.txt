@@ -10,10 +10,8 @@ pc25
 			ideograms
 			ideograms with nc variants
 			numbers
-		complex
+			adds
 		specials
-			UD-notations
-			N57-age-notations
 			settlement names
 	removals and renamings
 		non-contrastive variants

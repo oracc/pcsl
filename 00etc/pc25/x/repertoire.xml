@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
-  <esp:name></esp:name>
-  <esp:title>PC25: </esp:title>
+  <esp:name>Repertoire</esp:name>
+  <esp:title>Repertoire</esp:title>
   <html>
     <head/>
     <body>
-      <p></p>
+      <p>This page provides notes and links relating to some classes of
+      signs in the revised propoosed repertoire.  A unified list of
+      the repertoire is <esp:link page="proposedrepertoire">available
+      here</esp:link>.</p>
+
+      <esp:sh>Signs with non-contrastive variants</esp:sh>
+
+      <p>The 190 signs which have non-contrastive variants, with the
+      proposed reference glyph in initial position in the list, is
+      <esp:link page="repncv">given here</esp:link>.</p>
+
+      <esp:sh>Numbers</esp:sh>
+
+      <p>Although PC25 is primarily focussed on ideograms, <esp:link
+      page="repnum">some numbers, listed here</esp:link>, need to be
+      encoded to support N(N57) sequences.  This is a class of
+      additions to AP24, which omitted all numbers.</p>
+
+      <esp:sh>City Names</esp:sh>
+
+      <p>A list of the signs which represent city names and are
+      assigned codepoints rather than being treated as sequences is
+      <esp:link page="repcity">given here</esp:link>.</p>
+      
     </body>
   </html>
 </esp:page>
