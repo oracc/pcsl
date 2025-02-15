@@ -49,10 +49,15 @@
 	<dt>"DAY" compositions</dt>
 	<dd>The sequences composed of UD×N followed by another number, M,
 	should not be assigned codepoints.</dd>
-	<dd>"AGE" compositions</dd>
-	<dt>Combinations of N57 followed by an ideogram should not be
-	assigned codepoints.</dt>
+	<dt>"AGE" compositions</dt>
+	<dd>Combinations of N57 followed by an ideogram should not be
+	assigned codepoints; some of these may still be notated as
+	N(N57)×SIGN, in which case they will be renamed as N(N57).SIGN as PC25 is
+	refined.</dd>
       </dl>
+
+      <p>Signs that are later decomposed into sequences may merit
+      encoding, however.</p>
 
       <h1>Answers</h1>
       
@@ -136,12 +141,13 @@
 	<!--15--><li>EZEN×LA does not occur in the Uruk IV/III corpus,
 	     so we can leave that one</li>
 
-	<!--16--><li>Good catch--the exclusion requires revision
-	     because |EZEN~b×6(N57)| does occur in an Uruk III text in
-	     the form at the end of your question, i.e., the one with
-	     closed ends--I've put it in the PC25 ADD list.  The other
-	     form (with open ends) is only found at ED I/II Ur and is
-	     non-contrastive in any case.</li>
+	<!--16--><li>Good catch--this does require a substitution of
+	     the reference glyph. The character |EZEN~b×6(N57)| stays
+	     in the proposal as it is now; the reference glyph in AP24
+	     is the one that should be excluded because it is the ED
+	     I/II Ur form; the one that should be used in the proposal
+	     is the EZEN~b with closed square ends (I collated the
+	     photo to confirm this is the case).</li>
 
 	<!--17--><li>Out of scope/non-contrastive.</li>
 
