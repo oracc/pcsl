@@ -23,7 +23,9 @@
       <struct:page file="pc25/rep-num.xml" id="repnum" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25/rep-add.xml" id="repadd" type="page" hide-menu-link="yes"/>
       <struct:page file="pc25/rep-city.xml" id="repcity" type="page" hide-menu-link="yes"/>
-      <struct:page file="pc25/rep-pc25.xml" id="reppc25" type="page" hide-menu-link="yes"/>      
+      <struct:page file="pc25/rep-pc25.xml" id="reppc25" type="page" hide-menu-link="yes"/>
+      <struct:page file="pc25/rep-miss.xml" id="repmiss" type="page" hide-menu-link="yes"/>
+      <struct:page file="pc25/rep-not.xml" id="repnot" type="page" hide-menu-link="yes"/>
     </struct:page>
     <struct:page file="pc25/removals.xml" id="pc25removals" type="page">
       <struct:page file="pc25/rm-nc-heads.xml" id="rmnchead" type="page" hide-menu-link="yes"/>

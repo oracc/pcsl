@@ -9,6 +9,13 @@
       <p>The complete unified list of the PC25 repertoire is <esp:link
       page="reppc25">available here</esp:link>.</p>
 
+      <p>Signs which are by design not included in PC25 <esp:link
+      page="repnot">are listed here</esp:link>.</p>
+
+      <p>Signs which occur in the Uruk IV/III corpus but which are
+      apparently missing from PC25 are <esp:link page="repmiss">are
+      listed here</esp:link>.</p>
+      
       <esp:h>Notes on individual classes of inclusions</esp:h>
       
       <esp:sh>Signs with non-contrastive variants</esp:sh>

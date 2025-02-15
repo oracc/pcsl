@@ -32,4 +32,5 @@ cut -f1 rep-pc25.txt | sort -u >t/rep
 cut -f1 t/corpus-s.tsv | sort -u >t/crp
 comm -23 t/crp t/rep >t/not
 comm -23 t/not rep-not.txt >t/bad
-grep -f t/bad t/corpus-s.tsv | grep -v '	n	' >rep-miss.tsv
+grep -f t/bad t/corpus-s.tsv | grep -v '	n	' >t/rep-miss.tsv
+cut -f1 t/rep-miss.tsv >rep-miss.txt

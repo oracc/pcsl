@@ -34,11 +34,12 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF307E
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
 	AP23 CP + 0xE0000. F005F-F012D are Oracc PUA entries for PCSL.
+	0xF3000+ are candidate additions to PC25.
 
 @sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numerals"
 @lit	Draft proposal at https://www.unicode.org/L2/L2024/24210r-archaic-numerals.pdf
@@ -330,6 +331,8 @@
 @oid o0900027
 @sys	ADD F302B CUSAS31 ABax1N4.png
 @inote	CUSAS31
+@list U+F302B
+@uname ADD NAME |AB~a×1(N04)|
 @@
 @end sign
 
@@ -484,6 +487,8 @@
 @oid o0900046
 @sys	ADD F302A P342526 AB2@g.png
 @inote	CHECK
+@list U+F302A
+@uname ADD NAME AB₂@g
 @end sign
 
 @sign ABGAL
@@ -539,6 +544,8 @@
 @aka	ABZU~b
 @sys	ADD F3056 CUSAS01 ABZUb.png
 @inote	CUSAS 01
+@list U+F3056
+@uname ADD NAME |AB×ZU|
 @@
 @end sign
 
@@ -595,6 +602,8 @@
 @oid o0900057
 @sys	ADD F3067 ATUXXX ADABv1.png
 @inote	Uruk III form which is clearly a city standard; collation required
+@list U+F3067
+@uname ADD NAME ADAB~v1
 @@
 @end sign
 
@@ -982,6 +991,8 @@
 @oid o0900097
 @sys	ADD F3068 CUSAS01 ANSZEf.png
 @inote	CHECK
+@list U+F3068
+@uname ADD NAME ANŠE~f
 @@
 @end sign
 
@@ -1530,6 +1541,8 @@
 @oid o0900156
 @sys	ADD F3060 CUSAS01 BAR+URI3a.png
 @inote	CUSAS01
+@list U+F3060
+@uname ADD NAME |BAR×URI₃~a|
 @@
 @end sign
 
@@ -1729,6 +1742,8 @@
 @aka	|(BU~a.DU₆~a&BU~a.DU₆)×UDU~a|
 @sys	ADD F3023 CUSAS21 BU-DU6+BU-DU6+UDUa.png
 @inote	CUSAS 21 p.166
+@list U+F3023
+@uname ADD NAME |((BU~a.DU₆~a)&(BU~a.DU₆))×UDU~a|
 @@
 @end sign
 
@@ -1803,6 +1818,8 @@
 @sys	ADD F302C CUSAS31_167 BU+BU.png
 @inote	CHECK
 @compoundonly |BU~a~v1%BU~a~v1|
+@list U+F302C
+@uname ADD NAME |BU~a&BU~a|
 @@
 @end sign
 
@@ -1905,6 +1922,8 @@
 @oid o0900202
 @sys	ADD F302D CUSAS21_298 BU+KI.png
 @inote	CHECK
+@list U+F302D
+@uname ADD NAME |BU~a+KI|
 @@
 @end sign
 
@@ -1915,6 +1934,8 @@
 @oid o0900204
 @sys	ADD F302E CUSAS21 BU+TU.png
 @inote	CUSAS 21 p.166
+@list U+F302E
+@uname ADD NAME |BU~a+TU~b|
 @@
 @end sign
 
@@ -1965,6 +1986,8 @@
 @oid o0900209
 @sys	ADD F3061 CUSAS01 BULUG-DU6a.png
 @inote	CUSAS01
+@list U+F3061
+@uname ADD NAME |BULUG₃.DU₆~a|
 @@
 @end sign
 
@@ -2371,6 +2394,8 @@
 @oid o0900253
 @sys	ADD F3069 CUSAS31 DARA4c.png
 @inote	CHECK
+@list U+F3069
+@uname ADD NAME DARA₄~c
 @@
 @form DARA₄~c1
 @oid o0900254
@@ -2422,6 +2447,8 @@
 @oid o0900259
 @sys	ADD F302F CUSAS21 DARA4d.png
 @inote	CUSAS 21 p.166
+@list U+F302F
+@uname ADD NAME DARA₄~d
 @@
 @end sign
 
@@ -2560,6 +2587,8 @@
 @aka	|DIN+1(N58)|
 @sys	ADD F3030 CUSAS31_59 DINx1N58.png
 @inote	CHECK
+@list U+F3030
+@uname ADD NAME |DIN×1(N58)|
 @end sign
 
 @sign DIN@t
@@ -2749,6 +2778,8 @@
 @oid o0900299
 @sys	ADD F3031 CUSAS01 DU8cxAB2.png
 @inote	CHECK
+@list U+F3031
+@uname ADD NAME |DU₈~c×AB₂|
 @@
 @end sign
 
@@ -2759,6 +2790,8 @@
 @oid o0900301
 @sys	ADD F3032 CUSAS01 DU8cxAMAR.png
 @inote	CHECK
+@list U+F3032
+@uname ADD NAME |DU₈~c×AMAR|
 @@
 @end sign
 
@@ -2938,6 +2971,8 @@
 @oid o0900322
 @sys	ADD F3033 CUSAS21 DUBh.png
 @inote	CUSAS 21 p.166
+@list U+F3033
+@uname ADD NAME DUB~h
 @@
 @end sign
 
@@ -2991,6 +3026,8 @@
 @form DUB~b@r
 @oid o0900328
 @sys	ADD F3053 P006316 DUB@r.png
+@list U+F3053
+@uname ADD NAME DUB~b@r
 @@
 @end sign
 
@@ -3091,6 +3128,8 @@
 @sys	ADD F301E CDLIXXX DUG~d-drawing.png
 @sys	AP23 127A0
 @inote 2403
+@list U+F301E
+@uname ADD NAME DUG~d
 @@
 @end sign
 
@@ -3149,6 +3188,8 @@
 @oid o0900345
 @sys	ADD F3063 ZATU093 DUGbxBA.png
 @inote	collation from photo supports Green's DUG+BA sub ZATU093
+@list U+F3063
+@uname ADD NAME |DUG~b×BA|
 @@
 @end sign
 
@@ -3435,6 +3476,8 @@
 @oid o0900378
 @sys	ADD F306A CUSAS31 DUGaxKU6.png
 @inote	Collated from photo.
+@list U+F306A
+@uname ADD NAME |DUG~a×KU₆~a|
 @@
 @form |DUG~b×KU₆~a|
 @oid o0900379
@@ -3674,6 +3717,8 @@
 @aka	|DUG~c×1(N58)|
 @sys	ADD F3035 CUSAS01_138 DUGx1N58.png
 @inote The glyph is DUG~b1x1N58 but the previous description was for DUG~c; collate.
+@list U+F3035
+@uname ADD NAME |DUG~b~v1×1(N58)|
 @@
 @end sign
 
@@ -3762,6 +3807,8 @@
 @sys	ADD F3054 LLATU DUGxSA-GI.png
 @sys	LLATU:201_05 DUG~b+SA~a+GI 
 @inote	CHECK
+@list U+F3054
+@uname ADD NAME |DUG~b×(SA~a.GI)|
 @@
 @end sign
 
@@ -3870,6 +3917,8 @@
 @oid o0900429
 @sys	ADD F3055 P006071 DUGxSUKUD.png
 @inote	CHECK
+@list U+F3055
+@uname ADD NAME |DUG~b×SUKUD~d|
 @@
 @end sign
 
@@ -4087,6 +4136,8 @@
 @oid o0900454
 @aka	|DUG~b×(UDU~a×TAR~a)|
 @sys	ADD F3034 CUSAS21_247 DUGxUDU+TAR.png
+@list U+F3034
+@uname ADD NAME |DUG~b×(UDU~a×TAR)|
 @@
 @end sign
 
@@ -4472,6 +4523,8 @@
 @oid o0900501
 @sys	ADD F3062 P006173 E2bx3N57.png
 @inote	collated from photo
+@list U+F3062
+@uname ADD NAME |E₂~b×3(N57)|
 @@
 @end sign
 
@@ -5020,6 +5073,8 @@
 @oid o0900563
 @sys	ADD F3036 CUSAS01_188 EZENxKASH.png
 @inote	CHECK
+@list U+F3036
+@uname ADD NAME |EZEN~a×KAŠ~b|
 @@
 @end sign
 
@@ -5202,6 +5257,8 @@
 @oid o0900589
 @list BAU303
 @sys	ADD F3066 BAU303 BAU303.png
+@list U+F3066
+@uname ADD NAME |EZEN~a×X₁|
 @@
 @end sign
 
@@ -5518,6 +5575,8 @@
 @aka	|GA₂~a×E₂~a|
 @sys	ADD F3039 CUSAS31 GA2xE2.png
 @inote	collated
+@list U+F3039
+@uname ADD NAME |GA₂~a1×E₂~a|
 @@
 @end sign
 
@@ -5529,6 +5588,8 @@
 @oid o0900630
 @sys	ADD F3037 P006065 GA2xENa.png
 @inote	CHECK
+@list U+F3037
+@uname ADD NAME |GA₂~a1×EN~a|
 @@
 @form |GA₂~a1×EN~b~v1|
 @oid o0900631
@@ -5550,6 +5611,8 @@
 @oid o0900633
 @sys	ADD F306B CUSAS01 GA2a1xGESZTUa.png
 @inote	CHECK
+@list U+F306B
+@uname ADD NAME |GA₂~a1×GEŠTU~a|
 @@
 @form |GA₂~a1×GEŠTU~c3|
 @oid o0900634
@@ -5748,6 +5811,8 @@
 @oid o0900658
 @sys	ADD F306C CUSAS31 GA2bxKU6.png
 @inote	CHECK
+@list U+F306C
+@uname ADD NAME |GA₂~b×KU₆~a|
 @@
 @end sign
 
@@ -5927,6 +5992,8 @@
 @oid o0900683
 @sys	ADD F306D P252182 GA2bxNUN.png
 @inote	CHECK
+@list U+F306D
+@uname ADD NAME |GA₂~b×NUN~b|
 @@
 @end sign
 
@@ -6145,6 +6212,8 @@
 @oid o0900710
 @sys	ADD F304D CUSAS01 GA2a1xX.png
 @inote	CUSAS01
+@list U+F304D
+@uname ADD NAME |GA₂~a1×X|~v1
 @@
 @form |GA₂~a2×X|
 @oid o0900711
@@ -6190,6 +6259,8 @@
 @form |GA₂~b×ZATU694~c|
 @oid o0900717
 @sys	ADD F3038 P325755 GA2xZATU694.png
+@list U+F3038
+@uname ADD NAME |GA₂~b×ZATU694~c|
 @@
 @end sign
 
@@ -6543,6 +6614,8 @@
 @aka	|GAN~c×4(N57).GAR|
 @sys	ADD F303A CUSAS31 GANcx4N57-GAR.png
 @inote	Sign description incorrect; see photograph |GAN~c×(BIR.GAR)|? CHECK
+@list U+F303A
+@uname ADD NAME |GAN~c×(4(N57).GAR)|
 @@
 @end sign
 
@@ -6778,11 +6851,15 @@
 @oid o0900792
 @sys	ADD F306E CUSAS21 GESZTINd.png
 @inote	CHECK
+@list U+F306E
+@uname ADD NAME GEŠTIN~d
 @@
 @form GEŠTIN~e
 @oid o0900793
 @sys	ADD F306F CUSAS01 GESZTINe.png
 @inote	CHECK
+@list U+F306F
+@uname ADD NAME GEŠTIN~e
 @@
 @end sign
 
@@ -6888,6 +6965,8 @@
 @aka	|GI+A|
 @sys	ADD F303B CUSAS31 GIxA.png
 @inote	CUSAS31
+@list U+F303B
+@uname ADD NAME |GI×A|
 @end sign
 
 @sign |GI~v1×GIŠ@t|
@@ -7716,6 +7795,8 @@
 @oid o0900902
 @sys	ADD F3070 P250428 GISZIMMARb2.png
 @inote	CHECK
+@list U+F3070
+@uname ADD NAME GIŠIMMAR~b2
 @@
 @form GIŠIMMAR~b3
 @oid o0900903
@@ -8307,6 +8388,8 @@
 @oid o0900961
 @sys	ADD F3071 P252177 HIb.png
 @inote	CHECK
+@list U+F3071
+@uname ADD NAME HI~b
 @@
 @end sign
 
@@ -8506,6 +8589,8 @@
 @oid o0900985
 @sys	ADD F3072 CUSAS01 IBc.png
 @inote	CHECK
+@list U+F3072
+@uname ADD NAME IB~c
 @@
 @end sign
 
@@ -9220,16 +9305,22 @@
 @oid o0901068
 @sys	ADD F303C CUSAS01 KALAMg.png
 @inote	CUSAS01
+@list U+F303C
+@uname ADD NAME KALAM~g
 @@
 @form KALAM~h
 @oid o0901069
 @sys	ADD F303D CUSAS01 KALAMh.png
 @inote	CUSAS01
+@list U+F303D
+@uname ADD NAME KALAM~h
 @@
 @form KALAM~h2
 @oid o0901070
 @sys	ADD F303E CUSAS31 KALAMh2.png
 @inote	CUSAS31
+@list U+F303E
+@uname ADD NAME KALAM~h2
 @@
 @end sign
 
@@ -9373,6 +9464,8 @@
 @oid o0901084
 @sys	ADD F3057 CUSAS01 KASHd1.png
 @inote	CUSAS01
+@list U+F3057
+@uname ADD NAME KAŠ~d1
 @@
 @end sign
 
@@ -9563,6 +9656,8 @@
 @oid o0901105
 @sys	ADD F3073 CUSAS31 KIN2b.png
 @inote	CHECK
+@list U+F3073
+@uname ADD NAME KIN₂~b
 @@
 @form KIN₂~c
 @oid o0901106
@@ -10389,6 +10484,8 @@
 @oid o0901203
 @sys	ADD F3015 P252182 LAGABxHIx1N04-photo.png
 @inote	CHECK
+@list U+F3015
+@uname ADD NAME |LAGAB~b×(HI×N04)|
 @@
 @end sign
 
@@ -10478,6 +10575,8 @@
 @oid o0901215
 @sys	ADD F3019 P342533 LAGABxLA2-photo.png
 @inote	CHECK
+@list U+F3019
+@uname ADD NAME |LAGAB~a×LA₂~a|
 @@
 @end sign
 
@@ -10535,6 +10634,8 @@
 @oid o0901225
 @sys	ADD F301A CUSAS21 LAGABx1N58.png
 @inote	CHECK
+@list U+F301A
+@uname ADD NAME |LAGAB~a×1(N58)|
 @@
 @end sign
 
@@ -10545,6 +10646,8 @@
 @oid o0901227
 @sys	ADD F3016 P274471 LAGABxNI-photo.png
 @inote	CHECK
+@list U+F3016
+@uname ADD NAME |LAGAB~a×NI~a|
 @@
 @end sign
 
@@ -10915,6 +11018,8 @@
 @oid o0901275
 @sys	ADD F303F CUSAS21 LAL2xNAGA.png
 @inote	CUSAS 21 p.166
+@list U+F303F
+@uname ADD NAME |LAL₂~a×NAGA~a|
 @@
 @end sign
 
@@ -11452,6 +11557,8 @@
 @oid o0901347
 @sys	ADD F3040 CUSAS31 MAHaxTUN3c.png
 @inote	CUSAS31
+@list U+F3040
+@uname ADD NAME |MAH~a×TUN₃~c|
 @@
 @end sign
 
@@ -11594,6 +11701,8 @@
 @oid o0901365
 @sys	ADD F3002 P388253 MARxGAR.png
 @inote	CHECK
+@list U+F3002
+@uname ADD NAME |MAR~b×GAR|
 @@
 @end sign
 
@@ -11654,6 +11763,8 @@
 @sys	ADD F301C CUSAS31 MAR-ga.png
 @sys	LLATU:255_03 MAR~a@g 
 @inote	CUSAS31
+@list U+F301C
+@uname ADD NAME MAR@g~a
 @@
 @end sign
 
@@ -12163,6 +12274,8 @@
 @sign |MUŠEN.3(N58)|
 @oid o0901427
 @sys	ADD F3003 P252184 MUSZENx3N58.png
+@list U+F3003
+@uname ADD NAME |MUŠEN.3(N58)|
 @end sign
 
 @sign |MUŠEN.UR₃|
@@ -12333,6 +12446,8 @@
 @oid o0901446
 @sys	ADD F3074 CUSAS21 NA2c.png
 @inote	CHECK
+@list U+F3074
+@uname ADD NAME NA₂~c
 @@
 @end sign
 
@@ -12783,6 +12898,8 @@
 @aka	NISAG~a3
 @sys	ADD F3075 P006275 NESAG2a2.png
 @note	The sign form is |UD@g×PA|. The transliteration NISAG~a3 occurs
+@list U+F3075
+@uname ADD NAME NESAG₂~a2
 @@
 @form NESAG₂~b
 @oid o0901496
@@ -13007,6 +13124,8 @@
 @oid o0901520
 @sys	ADD F3076 P342517 NIMd.png
 @inote	CHECK
+@list U+F3076
+@uname ADD NAME NIM~d
 @@
 @end sign
 
@@ -13318,6 +13437,8 @@
 @oid o0901555
 @sys	ADD F3041 CUSAS21 NINDA2xMAR.png
 @inote	CUSAS 21 p.166
+@list U+F3041
+@uname ADD NAME |NINDA₂×MAR~a|
 @@
 @form |NINDA₂×MAR~b|
 @oid o0901556
@@ -13377,6 +13498,8 @@
 @oid o0901564
 @sys	ADD F3042 CUSAS31 NINDA2xNUN.png
 @inote	CUSAS31
+@list U+F3042
+@uname ADD NAME |NINDA₂×NUN~a|
 @@
 @end sign
 
@@ -13457,6 +13580,8 @@
 @oid o0901576
 @sys	ADD F3043 CUSAS21 NINDA2xZATU710.png
 @inote	CUSAS 21, p.166
+@list U+F3043
+@uname ADD NAME |NINDA₂×ZATU710|
 @end sign
 
 @sign NINKUM
@@ -14089,6 +14214,8 @@
 @aka	|PIRIG~b1+DIŠ|
 @sys	ADD F3044 CUSAS21 PIRIGb1+DISH.png
 @inote	CUSAS 21, p.166
+@list U+F3044
+@uname ADD NAME |PIRIG~b1×1(N58@t)|
 @@
 @end sign
 
@@ -14114,6 +14241,8 @@
 @oid o0901655
 @sys	ADD F3018 CUSAS21 PIRIG+DIN.png
 @inote	CHECK
+@list U+F3018
+@uname ADD NAME |PIRIG~b1+DIN|
 @@
 @end sign
 
@@ -14413,6 +14542,8 @@
 @oid o0901689
 @aka	|SAG+NAM₂|
 @sys	ADD F3010 P000203 SAGxNAM2.png
+@list U+F3010
+@uname ADD NAME |SAG×NAM₂|
 @end sign
 
 @sign |SAG+UKKIN×1(N57)|
@@ -14423,6 +14554,8 @@
 @aka	|SAG+UKKIN~b1×1(N57)|
 @sys	ADD F3011 CUSAS21 SAG+UKKINx1N57.png
 @inote	CHECK
+@list U+F3011
+@uname ADD NAME |SAG+UKKIN~b~v1×1(N57)|
 @@
 @end sign
 
@@ -14544,6 +14677,8 @@
 @aka	|SAL.ZATU751~c|
 @sys	ADD F300F CUSAS31 SAL+HIxHI.png
 @inote	Monaco's |SAL.ZATU751~c| in CUSAS 31, 089 o ii 7 is not convincing; "ZATU751~c"
+@list U+F300F
+@uname ADD NAME |SAL+HI×HI|
 @end sign
 
 @sign |SAL+ZATU751|
@@ -14553,6 +14688,8 @@
 @oid o0901707
 @sys	ADD F300E CUSAS01 SAL+ZATU751.png
 @inote	CHECK
+@list U+F300E
+@uname ADD NAME |SAL+ZATU751~a|
 @@
 @end sign
 
@@ -14624,11 +14761,15 @@
 @aka	SANGA~e
 @sys	ADD F3064 CUSAS01 SANGAe1.png
 @inote	CUSAS01; two variants given there
+@list U+F3064
+@uname ADD NAME SANGA~e1
 @@
 @form SANGA~e2
 @oid o0901716
 @sys	ADD F3065 CUSAS01 SANGAe2.png
 @inote	CUSAS01; two variants given there
+@list U+F3065
+@uname ADD NAME SANGA~e2
 @@
 @end sign
 
@@ -14672,6 +14813,8 @@
 @oid o0901721
 @sys	ADD F3046 CUSAS01 SARd.png
 @inote	CUSAS01
+@list U+F3046
+@uname ADD NAME SAR~d
 @@
 @end sign
 
@@ -14725,6 +14868,8 @@
 @oid o0901728
 @sys	ADD F3048 CUSAS31 SIxENa.png
 @inote	CUSAS31
+@list U+F3048
+@uname ADD NAME |SI×EN~a|
 @@
 @end sign
 
@@ -14747,6 +14892,8 @@
 @oid o0901731
 @sys	ADD F3049 CUSAS31 SIxKUb1.png
 @inote	CUSAS31
+@list U+F3049
+@uname ADD NAME |SI×KU~b1|
 @@
 @end sign
 
@@ -14754,12 +14901,16 @@
 @oid o0901732
 @sys	ADD F3047 CUSAS31 SIx1N58.png
 @inote	CUSAS31
+@list U+F3047
+@uname ADD NAME |SI×1(N58)|
 @end sign
 
 @sign |SI×SAL|
 @oid o0901733
 @sys	ADD F304B CUSAS31 SIxSAL.png
 @inote	CUSAS31
+@list U+F304B
+@uname ADD NAME |SI×SAL|
 @end sign
 
 @sign |SI×ŠE₃~v1|
@@ -14783,6 +14934,8 @@
 @oid o0901736
 @sys	ADD F304C CUSAS31 SIxTUN3a.png
 @inote	CUSAS31
+@list U+F304C
+@uname ADD NAME |SI×TUN₃~a|
 @@
 @end sign
 
@@ -14790,6 +14943,8 @@
 @oid o0901737
 @sys	ADD F300C CUSAS31 SIxAN.png
 @inote	CHECK
+@list U+F300C
+@uname ADD NAME |SI+AN|
 @end sign
 
 @sign SI₄
@@ -14880,6 +15035,8 @@
 @oid o0901747
 @sys	ADD F3078 P342533 SIGb.png
 @inote	CHECK
+@list U+F3078
+@uname ADD NAME SIG~b
 @@
 @end sign
 
@@ -15483,6 +15640,8 @@
 @aka	|SILA₃~a+MUD₃~b|
 @sys	ADD F304A CUSAS31 SILA3axMUD3b.png
 @inote	CUSAS31
+@list U+F304A
+@uname ADD NAME |SILA₃~a×MUD₃~b|
 @@
 @end sign
 
@@ -15850,6 +16009,8 @@
 @list BAU269
 @sys	ADD F3000 P003513 SILA4-square.png
 @inote this is the square Uruk III form of CDLI-gh's URUK IV SILA₄~c.
+@list U+F3000
+@uname ADD NAME SILA₄~c1
 @@
 @form SILA₄~d
 @oid o0901864
@@ -15949,6 +16110,8 @@
 @oid o0901873
 @sys	ADD F3079 CUSAS01 SUc.png
 @inote	CHECK
+@list U+F3079
+@uname ADD NAME SU~c
 @@
 @end sign
 
@@ -16047,6 +16210,8 @@
 @oid o0901882
 @sys	ADD F3058 CUSAS01 SUHURb.png
 @inote	CUSAS01
+@list U+F3058
+@uname ADD NAME SUHUR~b
 @@
 @end sign
 
@@ -16080,6 +16245,8 @@
 @oid o0901886
 @sys	ADD F3059 CUSAS01 SUHURb-t.png
 @inote	CUSAS01
+@list U+F3059
+@uname ADD NAME SUHUR~b@t
 @@
 @end sign
 
@@ -16211,6 +16378,8 @@
 @oid o0901900
 @sys	ADD F300D P448702 SUKUDh.png
 @inote	CHECK
+@list U+F300D
+@uname ADD NAME SUKUD@h
 @end sign
 
 @sign SUM
@@ -16442,6 +16611,8 @@
 @oid o0901924
 @sys	ADD F3045 CUSAS01 SHA3a2-g.png
 @inote	CUSAS01
+@list U+F3045
+@uname ADD NAME ŠA₃~a2@g
 @@
 @end sign
 
@@ -16683,6 +16854,8 @@
 @oid o0901950
 @sys	ADD F305A CUSAS01 SHE-GARa.png
 @inote	CUSAS01
+@list U+F305A
+@uname ADD NAME |ŠE~a@t~v1.GAR|
 @@
 @form |ŠE~a.GAR|
 @oid o0901951
@@ -16738,6 +16911,8 @@
 @oid o0901957
 @aka	|ŠE~a×NAM₂|
 @sys	ADD F3014 P252173 SZE+NAM2-v2.png
+@list U+F3014
+@uname ADD NAME |ŠE~a.NAM₂|~v2
 @@
 @end sign
 
@@ -17357,6 +17532,8 @@
 @form ŠITA~a3@g
 @oid o0902027
 @sys	ADD F307A P005996 SZITAa3g.png
+@list U+F307A
+@uname ADD NAME ŠITA~a3@g
 @@
 @form	ŠITA~b1@g
 @oid o0903420
@@ -17611,6 +17788,8 @@
 @oid o0902054
 @sys	ADD F3004 CUSAS31 SZU2xPAP.png
 @inote	CHECK
+@list U+F3004
+@uname ADD NAME |ŠU₂.PAP~a|
 @@
 @end sign
 
@@ -17634,6 +17813,8 @@
 @oid o0902057
 @sys	ADD F3013 CUSAS31 SZU2x1N24.png
 @inote	CHECK
+@list U+F3013
+@uname ADD NAME |ŠU₂×1(N24)|
 @end sign
 
 @sign |ŠU₂×3(N57)|
@@ -17641,6 +17822,8 @@
 @aka	|ŠU₂×3(N57)|
 @sys	ADD F3012 P252177 SZU2-3N57-photo.png
 @inote	CHECK
+@list U+F3012
+@uname ADD NAME |ŠU₂×3(N57)|
 @end sign
 
 @sign ŠU₁₂
@@ -17710,6 +17893,8 @@
 @oid o0902065
 @sys	ADD F307B P252182 SZUR2c.png
 @inote	CHECK
+@list U+F307B
+@uname ADD NAME ŠUR₂~c
 @@
 @end sign
 
@@ -17717,6 +17902,8 @@
 @oid o0902066
 @sys	ADD F3017 CUSAS21 SZUR2x1N58.png
 @inote	CHECK
+@list U+F3017
+@uname ADD NAME |ŠUR₂×1(N58)|
 @end sign
 
 @sign ŠURUPPAK
@@ -18304,6 +18491,8 @@
 @sign TUM₃
 @oid o0902134
 @sys	ADD F3028 P427655 TUM3.png
+@list U+F3028
+@uname ADD NAME TUM₃
 @end sign
 
 @sign TUN₃
@@ -18442,6 +18631,8 @@
 @oid o0902150
 @sys	ADD F3005 CUSAS21 TUR3+5N57.png
 @inote	CHECK
+@list U+F3005
+@uname ADD NAME |TUR₃~a.5(N57)|
 @@
 @end sign
 
@@ -18728,6 +18919,8 @@
 @aka	|U₄×1(N01)+1(N24)|
 @sys	ADD F3007 CUSAS31 U4x1N01-N24.png
 @inote	Could be encoded as sequence U₄×1(N01).1(N24)
+@list U+F3007
+@uname ADD NAME |U₄×(1(N01).1(N24))|
 @end sign
 
 @sign |U₄×2(N01)|
@@ -18900,6 +19093,8 @@
 @oid o0902197
 @sys	ADD F3008 CUSAS01 U4x1N14-1N01.png
 @inote	CHECK
+@list U+F3008
+@uname ADD NAME |U₄×(1(N14).1(N01))|
 @end sign
 
 @sign |U₄×(1(N14).2(N01))|
@@ -18917,6 +19112,8 @@
 @oid o0902199
 @sys	ADD F3009 P518361 U4x3N01-1N14-4N08.png
 @inote	CHECK
+@list U+F3009
+@uname ADD NAME |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @end sign
 
 @sign |U₄×(1(N14).4(N01))|
@@ -19130,6 +19327,8 @@
 @oid o0902219
 @sys	ADD F3006 CUSAS31 U4-1N24.png
 @inote	CHECK
+@list U+F3006
+@uname ADD NAME |U₄+1(N24)|
 @end sign
 
 @sign U₈
@@ -19252,6 +19451,8 @@
 @oid o0902232
 @sys	ADD F304E CUSAS31 UBId.png
 @inote	CUSAS31
+@list U+F304E
+@uname ADD NAME UBI~d
 @@
 @end sign
 
@@ -19426,6 +19627,8 @@
 @oid o0902253
 @sys	ADD F307C CUSAS31 UDUNITAd.png
 @inote	CHECK
+@list U+F307C
+@uname ADD NAME UDUNITA~d
 @@
 @end sign
 
@@ -19539,6 +19742,8 @@
 @oid o0902266
 @sys	ADD F307D P342536 UKKINd.png
 @inote	CHECK
+@list U+F307D
+@uname ADD NAME UKKIN~d
 @@
 @end sign
 
@@ -19984,6 +20189,8 @@
 @oid o0902319
 @sys	ADD F307E P252177 UR3d2.png
 @inote	CHECK
+@list U+F307E
+@uname ADD NAME UR₃~d2
 @@
 @end sign
 
@@ -20255,6 +20462,8 @@
 @oid o0902355
 @sys	ADD F301B CUSAS01 URUxKI.png
 @inote	CUSAS01
+@list U+F301B
+@uname ADD NAME |URU~a1×KI|
 @@
 @end sign
 
@@ -20297,6 +20506,8 @@
 @oid o0902361
 @sys	ADD F304F CUSAS31 URUa1x3N57.png
 @inote	CUSAS31
+@list U+F304F
+@uname ADD NAME |URU~a1×3(N57)|
 @@
 @end sign
 
@@ -20754,6 +20965,8 @@
 @sign |X×HI|
 @oid o0902414
 @sys	ADD F3001 P252168 XxHI.png
+@list U+F3001
+@uname ADD NAME |X×HI|
 @end sign
 
 @sign ZA
@@ -22383,6 +22596,8 @@
 @oid o0902578
 @sys	ADD F3050 CUSAS01 ZATU694e.png
 @inote	CUSAS01
+@list U+F3050
+@uname ADD NAME ZATU694~e
 @@
 @end sign
 
@@ -23282,6 +23497,8 @@
 @oid o0902667
 @sys	ADD F300B P006275 ZATU737xI.png
 @inote	CHECK
+@list U+F300B
+@uname ADD NAME |ZATU737×I|
 @end sign
 
 @sign |ZATU737×NI@g|
@@ -23430,6 +23647,8 @@
 @oid o0902685
 @sys	ADD F300A P342547 ZATU737txPAP.png
 @inote	CHECK
+@list U+F300A
+@uname ADD NAME |ZATU737@t×PAP~a|
 @@
 @end sign
 
@@ -24319,6 +24538,8 @@
 @oid o0902770
 @sys	ADD F3051 CUSAS01 ZATU802b.png
 @inote	CUSAS01
+@list U+F3051
+@uname ADD NAME ZATU802~b
 @@
 @end sign
 
@@ -24954,18 +25175,24 @@
 @sys CDLI-gh img-page
 @list ZATU856
 @sys	ADD F3021 P006294 ZATU856.png
+@list U+F3021
+@uname ADD NAME ZATU856
 @end sign
 
 @sign ZATU857
 @oid o0902825
 @list ZATU857
 @sys	ADD F3024 P006308 ZATU857.png
+@list U+F3024
+@uname ADD NAME ZATU857
 @end sign
 
 @sign ZATU858
 @oid o0902826
 @list ZATU858
 @sys	ADD F3025 P387511 ZATU858.png
+@list U+F3025
+@uname ADD NAME ZATU858
 @end sign
 
 @sign ZATU859
@@ -24973,6 +25200,8 @@
 @list ZATU859
 @sys	ADD F3052 CUSAS21 ZATU859.png
 @inote	CUSAS 21, p.166
+@list U+F3052
+@uname ADD NAME ZATU859
 @end sign
 
 @sign ZI
@@ -28799,6 +29028,8 @@
 @oid o0903214
 @sys	ADD F3027 CUSAS21 1N57-E2a.png
 @inote	CUSAS 21, p.166
+@list U+F3027
+@uname ADD NAME |1(N57).E₂~a|
 @@
 @end sign
 
@@ -28882,6 +29113,8 @@
 @oid o0903225
 @sys	ADD F3029 CUSAS31 2N57-BIR3a.png
 @inote	CUSAS31
+@list U+F3029
+@uname ADD NAME |2(N57).BIR₃~a|
 @@
 @end sign
 
@@ -28938,6 +29171,8 @@
 @oid o0903233
 @sys	ADD F305C CUSAS01 2N57-UDUNITAa.png
 @inote	CUSAS01
+@list U+F305C
+@uname ADD NAME |2(N57).UDUNITA~a|
 @@
 @end sign
 
@@ -28976,6 +29211,8 @@
 @oid o0903238
 @sys	ADD F305D CUSAS01 3N57-BAR+USHa.png
 @inote	CUSAS01
+@list U+F305D
+@uname ADD NAME |3(N57).BAR×UŠ~a|
 @@
 @end sign
 
@@ -29096,6 +29333,8 @@
 @oid o0903254
 @sys	ADD F305E CUSAS01 3N57-UDUa.png
 @inote	CUSAS01
+@list U+F305E
+@uname ADD NAME |3(N57).UDU~a|
 @@
 @end sign
 
@@ -29106,6 +29345,8 @@
 @oid o0903256
 @sys	ADD F305F CUSAS01 3N57-UDUNITAa.png
 @inote	CUSAS01
+@list U+F305F
+@uname ADD NAME |3(N57).UDUNITA~a|
 @@
 @end sign
 
