@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns="http://www.w3.org/1999/xhtml" class="pretty">
+  <tr>
+    <td/>
+    <td>IV/pub</td>
+    <td>IV/unp</td>
+    <td>IV/all</td>
+    <td>III/pub</td>
+    <td>III/unp</td>
+    <td>III/all</td>
+  </tr>
+  <tr>
+    <td>Uruk</td>
+    <td>1205</td>
+    <td>548</td>
+    <td>1753 </td>
+    <td>1895</td>
+    <td>935</td>
+    <td>2830</td>
+  </tr>
+  <tr>
+    <td>JN</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0 </td>
+    <td>237</td>
+    <td>0</td>
+    <td>237</td>
+  </tr>
+  <tr>
+    <td>Umma</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0 </td>
+    <td>112</td>
+    <td>295</td>
+    <td>407</td>
+  </tr>
+  <tr>
+    <td>Uqair</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0 </td>
+    <td>42</td>
+    <td>0</td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td>Misc</td>
+    <td>33</td>
+    <td>16</td>
+    <td>49 </td>
+    <td>609</td>
+    <td>49</td>
+    <td>658</td>
+  </tr>
+  <tr>
+    <td>total</td>
+    <td>1238</td>
+    <td>564</td>
+    <td>1802 </td>
+    <td>2895 </td>
+    <td>1279</td>
+    <td>4174</td>
+  </tr>
+</table>
