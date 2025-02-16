@@ -7,11 +7,18 @@
     <body>
       <p>The PC text Corpus is defined by the CDLI corpus of
       Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
-      for use by PCSL: we call this <code>CDLI-tc</code>. There are
-      5976 texts in the corpus of which 1752 are attributed to Uruk IV
-      and 4224, or roughly 75% of the corpus, to the subsequent Uruk
-      III period.</p>
-      <p>The digital corpus consists of the following major groups:</p>
+      for use by PCSL: we call this <code>CDLI-tc</code>; note that
+      CDLI-tc is used here only in the PCSL version of the
+      corpus. This version has some minor modifications to the
+      transliteration and has been converted to use Unicode
+      transliteration conventions rather than the CDLI ASCII ones.</p>
+
+      <p>There are 5976 texts in the corpus of which 1752 are
+      attributed to Uruk IV and 4224, or roughly 75% of the corpus, to
+      the subsequent Uruk III period.</p>
+
+      <esp:sh>The Digital Corpus</esp:sh>
+      <p>The digital corpus includes the contents of the following major publications:</p>
       <ul>
 	<li>Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)</li>
 	<li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
@@ -27,10 +34,83 @@
 	published in MSVO3 which has not yet appeared; many of them
 	have been edited by Englund and others in various
 	publications, however</li>
-	<li>Tablets in private collections primarily from Umma; these
+	<!--<li>Tablets in private collections primarily from Umma; these
 	are in the CDLI set of transliterations but have not yet been
-	edited in print</li>
+	edited in print</li>-->
       </ul>
+
+      <esp:sh>The Composition of the Corpus</esp:sh>
+
+      <p>PCSL's version of CDLI-tc has the following composition
+      divided by provenience, period, and published/unpublished
+      status:</p>
+
+      <table class="pretty" width="70%">
+	<tr>
+	  <td/>
+	  <td>IV/pub</td>
+	  <td>IV/unp</td>
+	  <td>IV/all</td>
+	  <td>III/pub</td>
+	  <td>III/unp</td>
+	  <td>III/all</td>
+	</tr>
+	<tr>
+	  <td>Uruk</td>
+	  <td>1205</td>
+	  <td>548</td>
+	  <td>1753 </td>
+	  <td>1895</td>
+	  <td>935</td>
+	  <td>2830</td>
+	</tr>
+	<tr>
+	  <td>JN</td>
+	  <td>0</td>
+	  <td>0</td>
+	  <td>0 </td>
+	  <td>237</td>
+	  <td>0</td>
+	  <td>237</td>
+	</tr>
+	<tr>
+	  <td>Umma</td>
+	  <td>0</td>
+	  <td>0</td>
+	  <td>0 </td>
+	  <td>112</td>
+	  <td>295</td>
+	  <td>407</td>
+	</tr>
+	<tr>
+	  <td>Uqair</td>
+	  <td>0</td>
+	  <td>0</td>
+	  <td>0 </td>
+	  <td>42</td>
+	  <td>0</td>
+	  <td>42</td>
+	</tr>
+	<tr>
+	  <td>Misc</td>
+	  <td>33</td>
+	  <td>16</td>
+	  <td>49 </td>
+	  <td>609</td>
+	  <td>49</td>
+	  <td>658</td>
+	</tr>
+	<tr>
+	  <td>total</td>
+	  <td>1238</td>
+	  <td>564</td>
+	  <td>1802 </td>
+	  <td>2895 </td>
+	  <td>1279</td>
+	  <td>4174</td>
+	</tr>
+      </table>
+
     </body>
   </html>
 </esp:page>
