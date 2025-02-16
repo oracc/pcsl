@@ -21,4 +21,6 @@ for a in $V ; do
 done
 echo total'	'`../b/l p-4`'	'`../b/l u-4`'	'`../b/l c-4` \
      '	'`../b/l p-3` '	'`../b/l u-3`'	'`../b/l c-3`  >>$h
+
+rocox -h <$h | xl - >corpus.html
 cd ..
