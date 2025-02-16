@@ -1,9 +1,10 @@
 default: pc25
 
-pc25:
+pc25: t/pcsl.tok
 	mkdir -p w
 	b/newrep.sh
 	b/xv.sh
+	b/gx.sh
 	make xml
 	make web
 	rm -fr ../../00web/pc25
@@ -90,3 +91,7 @@ clean:
 
 wclean: clean
 	rm -fr w
+
+t/pcsl.tok: /home/oracc/pcsl/02pub/csl.tok
+	b/gp.sh pcsl >$@
+

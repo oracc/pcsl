@@ -5002,7 +5002,6 @@
 @@
 @form EZEN~c
 @oid o0900554
-@aka	EZEM~c
 @sys	AP23 127D0
 @@
 @end sign
@@ -5267,6 +5266,7 @@
 @sys CDLI-gh img-page
 @inote @smap EZEN~b@t
 @form EZEN~b@t
+@aka	EZEM~c
 @oid o0900592
 @list U+12805
 @ucun 𒠅
@@ -9062,7 +9062,7 @@
 @oid o0901042
 @sys CDLI-gh img-page
 @aka	|KA₂+LAM|
-@inote @smap |KA₂~d×LAM~b~v2|
+@smap |KA₂~d×LAM~b~v2|
 @form |KA₂~d×LAM~b~v2|
 @oid o0901043
 @list U+1291B
@@ -14278,7 +14278,7 @@
 @oid o0901658
 @sys CDLI-gh img-page
 @list ZATU432
-@inote @smap RAD~a
+@smap RAD~a
 @form RAD~a
 @oid o0901659
 @list U+12A9D
@@ -17644,7 +17644,7 @@
 @sys CDLI-gh img-page
 @list ZATU534
 @sys	LLATU:296_02 ŠU₂ 
-@inote @smap ŠU₂~a
+@smap ŠU₂~a
 @form ŠU₂~a
 @oid o0902039
 @list U+12B91
@@ -26288,7 +26288,7 @@
 @sign 5(N14)
 @oid o0902934
 @sys	LLATU:324_04 5(N14) 
-@inote @smap 5(N14)~v1
+@smap 5(N14)~v1
 @form 5(N14)~v1
 @oid o0902935
 @list U+12566
@@ -26303,7 +26303,7 @@
 @sign 6(N14)
 @oid o0902936
 @sys	LLATU:324_05 6(N14) 
-@inote @smap 6(N14)~v1
+@smap 6(N14)~v1
 @form 6(N14)~v1
 @oid o0902937
 @list U+12567
@@ -26615,7 +26615,7 @@
 
 @sign 9(N18)
 @oid o0902970
-@inote @smap 9(N18)~v1
+@smap 9(N18)~v1
 @form 9(N18)~v1
 @oid o0902971
 @list U+125FC
@@ -27196,15 +27196,15 @@
 @form 1(N29~a)
 @oid o0903032
 @sys	LLATU:325_01 1(N29~a) 
-@@
-@form 1(N29A)~v1
-@oid o0903033
 @list U+125AD
 @ucun 𒖭
 @uname ONE N29A
 @uage 17/18
 @sys	ACN 125AD
 @sys	AP23 125AB
+@@
+@form 1(N29A)~v1
+@oid o0903033
 @@
 @form 1(N29B)
 @aka 1(N29~b)
