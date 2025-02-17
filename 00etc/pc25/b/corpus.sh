@@ -46,3 +46,6 @@ for a in $V ; do
     comm -12 t/c-4-$a t/p-4 >t/c-4-$a-p
 done
 
+(cd t ; ls -1 c-* | sort >../../../00lib/toklists.lst)
+mkdir -p ../../00lib/lists
+cp t/c-* ../../00lib/lists/
