@@ -4,7 +4,9 @@ pc25: t/pcsl.tok
 	mkdir -p w
 	b/newrep.sh
 	b/xv.sh
+	b/corpus.sh
 	b/gx.sh
+	b/csltab.sh
 	make xml
 	make web
 	rm -fr ../../00web/pc25
@@ -81,7 +83,8 @@ w/rep-not.xml: rep-not.txt b/pos.sh
 
 web: w/pc25.xml w/introduction.xml w/ap24qa.xml w/corpus.xml w/analysis.xml \
 	w/principles.xml w/signlists.xml w/approaches.xml w/font.xml \
-	w/numbers.xml w/repertoire.xml w/removals.xml w/numbers.xml w/ap24qa.xml
+	w/numbers.xml w/repertoire.xml w/removals.xml w/numbers.xml w/ap24qa.xml \
+	w/csltab.xml
 
 w/%.xml: x/%.xml
 	cp $? $@

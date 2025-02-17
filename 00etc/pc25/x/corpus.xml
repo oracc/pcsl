@@ -238,6 +238,12 @@
 	  <td>1485/49170</td>
 	</tr>
       </table>
+
+      <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
+
+      <p>Simple counts of the entire graphemic repertoire of the Uruk
+      IV/III corpus are <esp:link page="csltab">provided in this
+      table</esp:link>.</p>
       
     </body>
   </html>

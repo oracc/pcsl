@@ -5002,7 +5002,16 @@
 @@
 @form EZEN~c
 @oid o0900554
-@sys	AP23 127D0
+@aka EZEN~b@t
+@aka	EZEM~c
+@aka	EZEN~c
+@list U+12805
+@ucun 𒠅
+@uname EZEN-B TENU
+@uage 1
+@sys	AP23 127CF
+@sys	AP24 12805
+@sys CDLI-gh img-page
 @@
 @end sign
 
@@ -5258,22 +5267,6 @@
 @sys	ADD F3066 BAU303 BAU303.png
 @list U+F3066
 @uname ADD NAME |EZEN~a×X₁|
-@@
-@end sign
-
-@sign EZEN@t
-@oid o0900591
-@sys CDLI-gh img-page
-@inote @smap EZEN~b@t
-@form EZEN~b@t
-@aka	EZEM~c
-@oid o0900592
-@list U+12805
-@ucun 𒠅
-@uname EZEN-B TENU
-@uage 1
-@sys	AP23 127CF
-@sys	AP24 12805
 @@
 @end sign
 

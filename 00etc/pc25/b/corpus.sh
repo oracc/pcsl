@@ -5,7 +5,7 @@ v=provenience
 V="uruk umma uqair jn misc"
 c="cut -d: -f2"
 
-rm -f t/[cpux]-*
+rm -f t/[cgpux]-* t/gl-*.tok
 
 $qx $p='uruk iii' | $c | sort >t/c-3
 $qx $p='uruk iv'  | $c | sort >t/c-4

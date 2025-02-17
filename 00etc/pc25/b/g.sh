@@ -21,10 +21,10 @@ if [ ! -r $pt ]; then
 fi
 
 # Force the list to be in the best format
-cut -d: -f2 $l | sed 's/^\(.\+\)$/^\1	/' >$b.grep
+cut -d: -f2 $l | sed 's/^\(.\+\)$/^\1	/' >t/$b.grep
 
 # Subset the list ready for Phase1
-grep -f $b.grep $pt | cut -f2- >t/gl-$b.tok
+grep -f t/$b.grep $pt | cut -f2- >t/gl-$b.tok
 
 # Phase1 reduction of .tok data:
 # 	get the KEY TYPE NAMES FORM fields
