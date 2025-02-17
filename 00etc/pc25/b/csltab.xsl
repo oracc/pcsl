@@ -24,6 +24,7 @@
 	<thead>
 	  <tr>
 	    <th scope="col">Sign</th>
+	    <th scope="col">#</th>
 	    <th scope="col">Char</th>
 	    <th scope="col">Site</th>
 	    <th scope="col">IV/pub</th>
@@ -45,11 +46,16 @@
     </tbody>
   </xsl:template>
 
-  <xsl:template match="b">
+  <xsl:template match="b[c/@t]">
     <tr>
       <xsl:choose>
-	<xsl:when test="count(preceding-sibling::b)=0">
-	  <th rowspan="5" scope="rowgroup"><xsl:value-of select="ancestor::o/@n"/></th>
+	<xsl:when test="count(preceding-sibling::b[c/@t])=0">
+	  <th rowspan="5" scope="rowgroup">
+	    <xsl:value-of select="ancestor::o/@n"/>
+	  </th>
+	  <th rowspan="5" scope="rowgroup">
+	    <xsl:value-of select="ancestor::o/@c"/>
+	  </th>
 	  <th rowspan="5" scope="rowgroup"><xsl:value-of select="ancestor::o/@u"/></th>
 	</xsl:when>
 	<xsl:otherwise>
@@ -57,12 +63,14 @@
 	</xsl:otherwise>
       </xsl:choose>
       <th scope="row"><xsl:value-of select="@n"/></th>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="emit"/>
     </tr>
   </xsl:template>
 
-  <xsl:template match="c">
+  <xsl:template mode="emit" match="c">
     <td><xsl:value-of select="@c"/></td>
   </xsl:template>
 
+  <xsl:template match="text()"/>
+  
 </xsl:transform>

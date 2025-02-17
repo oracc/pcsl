@@ -21,6 +21,10 @@ my @t = qw/g-c-3-X-s.tsv g-c-3-X-p-s.tsv g-c-3-X-u-s.tsv
 my %i = ();
 my %n = ();
 
+my %totali = ();
+my %totaln = ();
+
+
 my %u = (); my %useen = (); load_u();
 
 foreach my $b (@b) {
@@ -54,8 +58,10 @@ sub csl_tsv {
 	} else {
 	    if ($y eq 'n') {
 		${${$n{$o}}{$base,$time}} = [ $f, $c ];
+		$n{$o,'#'} += $c;
 	    } else {
 		${${$i{$o}}{$base,$time}} = [ $f, $c ];
+		$i{$o,'#'} += $c;
 	    }
 	}
     }
@@ -89,10 +95,10 @@ sub csl_xml_base {
 sub csl_xml_one {
     my($n,$h) = @_;
     print '<csltab n="',$n,'">';
-    foreach my $o (sort { ${$o{$a}}[1] <=> ${$o{$b}}[1] } keys %$h) {
+    foreach my $o (sort { ${$o{$a}}[1] <=> ${$o{$b}}[1] } grep(!/#/, keys %$h)) {
 	my $xn = xmlify(${$o{$o}}[0]);
 	my $u = ${$o{$o}}[2] || '';
-	print "<o n=\"$xn\" s=\"${$o{$o}}[1]\" u=\"$u\">";
+	print "<o oid=\"$o\" n=\"$xn\" s=\"${$o{$o}}[1]\" u=\"$u\" c=\"${$h}{$o,'#'}\">";
 	foreach my $b (@b) {
 	    print "<b n=\"$b\">";
 	    csl_xml_base($h,$o,$b,'4','p');
