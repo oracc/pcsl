@@ -49,6 +49,6 @@ done
 (cd t ; ls -1 c-* | sort >../../../00lib/toklists.lst)
 mkdir -p ../../00lib/lists
 for a in t/c-* ; do
-    sed 's/^/pcsl:/' <$a >../../00lib/lists/$a
+    sed 's/^/pcsl:/' <$a >../../00lib/lists/`basename $a`
 done
 
