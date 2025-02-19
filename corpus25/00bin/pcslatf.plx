@@ -21,6 +21,8 @@ while (<>) {
 	1 while s/'\)/′)/;
 	s/GA'AR/GAʾAR/g;
 	s/SZ/Š/g;
+	# oxx needs to understand the (....)a notation but until then we remove it
+	s/\)a/\)/g;
     };
     print;
 }
