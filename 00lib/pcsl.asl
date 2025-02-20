@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF307E
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -1816,10 +1816,9 @@
 @form |BU~a&BU~a|
 @oid o0900189
 @sys	ADD F302C CUSAS31_167 BU+BU.png
-@inote	CHECK
-@compoundonly |BU~a~v1%BU~a~v1|
 @list U+F302C
 @uname ADD NAME |BU~a&BU~a|
+@compoundonly |BU~a~v1%BU~a~v1|
 @@
 @end sign
 
@@ -9060,8 +9059,9 @@
 @oid o0901042
 @sys CDLI-gh img-page
 @aka	|KA₂+LAM|
-@inote @smap |KA₂~d×LAM~b~v2|
-@form |KA₂~d×LAM~b~v2|
+@smap |KA₂~d×LAM~b|
+@form |KA₂~d×LAM~b|
+@aka |KA₂~d×LAM~b~v2|
 @oid o0901043
 @list U+1291B
 @ucun 𒤛
@@ -14133,9 +14133,7 @@
 @sign PAP@t
 @oid o0901642
 @sys CDLI-gh img-page
-@sys	ADD F3077 CUSAS31 PAPt.png
-@inote	CHECK
-@inote @smap PAP~a@t
+@smap PAP~a@t
 @form PAP~a@t
 @oid o0901643
 @list U+12A92
@@ -14643,9 +14641,10 @@
 @@
 @end sign
 
-@sign |SAL.ME|
+@sign |SAL.ME~a|
 @oid o0901702
 @aka	LUKUR
+@useq x12AB5.x129E2
 @end sign
 
 @sign |SAL.ŠU₂~b|
@@ -17651,9 +17650,12 @@
 @oid o0902038
 @sys CDLI-gh img-page
 @list ZATU534
+@sys ADD 0xF307F ŠU₂
+@list U+F307F
+@uname SHU2
 @sys	LLATU:296_02 ŠU₂ 
-@inote @smap ŠU₂~a
-@form ŠU₂~a
+@form ŠU₂~v1
+@aka ŠU₂~a
 @oid o0902039
 @list U+12B91
 @ucun 𒮑
@@ -17662,7 +17664,8 @@
 @sys	AP23 12A07
 @sys	AP24 12B91
 @@
-@form ŠU₂~b
+@form ŠU₂~v2
+@aka ŠU₂~b
 @oid o0902040
 @list U+12B98
 @ucun 𒮘
@@ -17672,6 +17675,9 @@
 @sys	AP24 12B98
 @@
 @end sign
+
+@compoundonly ŠU₂~a
+@compoundonly ŠU₂~b
 
 @sign |ŠU₂~a.AN|
 @oid o0902041
@@ -20923,8 +20929,6 @@
 
 @sign UZ
 @oid o0902410
-@sys CDLI-gh img-page
-@note UZ occurs only in two Uruk IV texts in the Schøyen Collection.
 @inote @smap UZ~a
 @form UZ~a
 @oid o0902411
@@ -26299,13 +26303,13 @@
 
 @sign 5(N14)
 @oid o0902934
+@list U+12566
+@ucun 𒕦
+@uname FIVE N14
 @sys	LLATU:324_04 5(N14) 
 @inote @smap 5(N14)~v1
 @form 5(N14)~v1
 @oid o0902935
-@list U+12566
-@ucun 𒕦
-@uname FIVE N14
 @uage 17/18
 @sys	ACN 12566
 @sys	AP23 12675
@@ -26314,13 +26318,13 @@
 
 @sign 6(N14)
 @oid o0902936
+@list U+12567
+@ucun 𒕧
+@uname SIX N14
 @sys	LLATU:324_05 6(N14) 
 @inote @smap 6(N14)~v1
 @form 6(N14)~v1
 @oid o0902937
-@list U+12567
-@ucun 𒕧
-@uname SIX N14
 @uage 17/18
 @sys	ACN 12567
 @sys	AP23 12692
@@ -26627,12 +26631,12 @@
 
 @sign 9(N18)
 @oid o0902970
-@inote @smap 9(N18)~v1
-@form 9(N18)~v1
-@oid o0902971
 @list U+125FC
 @ucun 𒗼
 @uname NINE N18
+@inote @smap 9(N18)~v1
+@form 9(N18)~v1
+@oid o0902971
 @uage 17/18
 @sys	ACN 125FC
 @sys	AP23 126D3
@@ -27206,7 +27210,7 @@
 
 @sign 1(N29)
 @oid o0903031
-@inote @smap 1(N29~a)
+@smap 1(N29~a)
 @form 1(N29~a)
 @oid o0903032
 @sys	LLATU:325_01 1(N29~a) 
@@ -27236,7 +27240,6 @@
 @ucun 󰄉
 @uname -
 @uage 9.5
-@sys	ADD F3081 CUSAS01 1N29c.png
 @sys	PUA F0109 ADD
 @inote	CHECK
 @@
@@ -27340,10 +27343,12 @@
 @uname ONE N30C
 @uage 17/18
 @sys	ACN 125B0
-@sys	ADD F3082 CUSAS31 1N30Ca.png
 @sys	AP23 125B1
-@form 1(N30~cp)
-@aka 1(N30′)
+@form 1(N30C~a)
+@sys	ADD F3081 CUSAS31 1N30Ca.png
+@inote 1(N30′)
+@list U+F3081
+@uname ADD U+F3081 1(N30~a)
 @oid o0903562
 @@
 @end sign
@@ -29141,6 +29146,7 @@
 @sign |2(N57).DU₆~a@n|
 @oid o0903564
 @inote this may be an integral sign rather than as described
+@useq xF0111.X
 @end sign
 
 @sign |2(N57).KU₆|
@@ -29800,6 +29806,9 @@
 
 @sign 7(N59)
 @oid o0903300
+@sys ADD F3080 CUSAS32 7N59
+@list U+F3080
+@uname ADD 7N59
 @note	Monaco CUSAS 31, 185 o vi 3: 7(N59)? but preserved sign does not have the added wedges that distinguish N59 from N01.
 @end sign
 

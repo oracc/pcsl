@@ -86,7 +86,7 @@ sub glyfs {
     }
     my $ret = '';
     if ($#g >= 0) {
-	$ret = join('', @g), "\n";
+	$ret = join('', @g);
     }
     $ret;
 }
