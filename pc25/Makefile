@@ -8,7 +8,7 @@ kis: 00etc/pc25.kis
 
 rep: 00etc/pc25.rep
 
-pc25.asl: 00etc/pc25-on.rep rep/compoundonly.txt
+pc25.asl: 00etc/pc25-on.rep rep/compoundonly.txt rep/head rep/r25.plx
 	rep/r25.plx >$@
 
 00etc/pc25-on.rep: 00etc/pc25.rep

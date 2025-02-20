@@ -17,14 +17,23 @@ my %oid = (); foreach (@oid) { my($o,$t,$n) = split(/\t/,$_); $oid{$n} = $o; }
 
 my $xoid = $oid[$#oid]; $xoid =~ s/\t.*$//;
 
+my @glyf = `cat rep/glyf.tsv`; chomp @glyf;
+my %glyf = (); foreach (@glyf) { my($o,$g) = split(/\t/,$_); $glyf{$o} = $g; }
+
+my $gutf = 'FA000';
+
 my @rep = `cat 00etc/pc25-on.rep`; chomp @rep;
 my %v = ();
 
+my @u = `cut -f1,3 /home/oracc/pcsl/02pub/unicode.tsv`; chomp @u;
+my %u = (); foreach (@u) { my($u,$o) = split(/\t/,$_); $u{$o} = $u; }
+
 open(O,'>new-oid.tab');
 open(P,'>pc25.asl'); select P;
-print "\@project pcsl\n\@signlist pcsl\n\@domain pc\n\n";
+print `cat rep/head`;
 foreach (@rep) {    
     my($o,$n) = split(/\t/,$_);
+    my $oo = $o;
     my $v = $n;
     if ($v =~ s/~v\d+//g) {
 	if ($v{$v}) {
@@ -41,7 +50,13 @@ foreach (@rep) {
 	    }
 	}
     }
-    print "\@sign $v\n\@oid $o\n\@end sign\n\n";
+    if ($u{$oo}) {
+	
+    } else {
+	warn "$o = $oo = $v = $n has no Unicode\n";
+    }
+    my $glyf = glyfs($oo, $o);
+    print "\@sign $v\n\@oid $o\n$glyf\@end sign\n\n";
 }
 print `cat rep/compoundonly.txt`;
 close(P);
@@ -57,3 +72,21 @@ close(V);
 
 ################################################################################
 
+sub glyfs {
+    my $o = shift;
+    my $gix = 0;
+    my @g = ();
+    if ($glyf{$o}) {
+	foreach my $g ($o, split(/\s+/, $glyf{$o})) {
+	    my $c = chr(hex($gutf));
+	    push @g, "\@glyf $gix $c $gutf\n";
+	    ++$gutf;
+	    ++$gix;
+	}
+    }
+    my $ret = '';
+    if ($#g >= 0) {
+	$ret = join('', @g), "\n";
+    }
+    $ret;
+}

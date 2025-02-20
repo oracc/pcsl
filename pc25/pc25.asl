@@ -2,6 +2,95 @@
 @signlist pcsl
 @domain pc
 
+@inote	uage meanings:
+	0=do not encode
+	1=AP;
+	2=add from CUSAS;
+	3=add from BAU;
+	4=new but encode as useq;
+	8 confirmed
+	9 possibly add
+
+@listdef ATU -
+@lit	Adam Falkenstein, "Archaische Texte aus Uruk" (ATU 1), Berlin 1936.
+@note	Signs in ATU 1 are referred to as, e.g., ATU001; texts in ATU are referred to as, e.g., ATU 1, 1.
+
+@listdef BAU 001-420
+	007a
+	051a 051b 051c 051d
+	082a 082b 103a 103c 103d 103e 115a 115b
+	142b 146a 146b 161a 161b 161c 198a 198b
+	212a 212b 257a 257b 257c 257d 293a 334bis 369a
+	384a 384b 384c 384d 385a 385b 385c
+	386a 386b 387a 387b 417a 417b
+@lit	E. Burrows, Archaic Texts (Ur Excavations Texts 2), London 1935.
+@note	BAU is aligned to AP designations; CDLI UET 2 transliterations do not always match these.
+	For example, BAU104=IŠ~b1, BAU105=IŠ~b2 but UET 2 transliterations generally use IŠ~a for
+	both forms. Alignments with CDLI-tc are sometimes approximate, e.g., BAU278=SILA₄~b;
+	BAU311=AD~a.
+
+@listdef ZATU 1-859 014a 014b 044a 044b 044b 248a 248b 295a 295b 328a 328b 368a 368b 482a
+	482b 482c 482d
+@lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
+	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
+
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF307E
+@lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
+	AP24; For AP23 characters which were dropped in AP24 and not
+	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
+	AP23 CP + 0xE0000. F005F-F012D are Oracc PUA entries for PCSL.
+	0xF3000+ are candidate additions to PC25.
+
+@sysdef ACN Robin Leroy et al., "Archaic Cuneiform Numerals"
+@lit	Draft proposal at https://www.unicode.org/L2/L2024/24210r-archaic-numerals.pdf
+
+@sysdef AP23 Anshuman Pandey's CDLI-NAME field as used in the proposal L2/23-190
+@lit	https://www.unicode.org/L2/L2023/23190-proto-cuneiform.pdf
+
+@sysdef AP24 Anshuman Pandey's revised repertoire giving the new codepoints (which will change soon)
+@lit	PDF from AP
+
+@sysdef ATFU-S ATFU sign name for PCSL sign
+@lit	C. Lecompte and L. Verderame (ed.) Archaic Tablets and Fragments from Ur. (Nisaba 25). Messina, 2013.
+@note	Because the ATFU sign list is unnumbered we use @sys ATFU-S entries to catalogue ATFU
+	113-126, Section VII, “Index of Signs”, which lists the signs occurring in the tablets published
+	in Nisaba 25.  The signs are not numbered and are referenced by name.
+
+@sysdef ATFU-v ATFU proposed Sumerian values.
+@note	See note to ATFU-S
+
+@sysdef bad-add Rejected candidate additions.
+@note This is an internal book-keeping field.
+
+@sysdef CDLI-gh CDLI-github sign list
+@note	Available at https://cdli-gh.github.io/proto-cuneiform_signs/.
+
+@sysdef CDLI-tc CDLI text corpus--the CDLI transliterations of Uruk IV and Uruk III texts
+@note	This corpus is available at https://cdli.mpiwg-berlin.mpg.de/ or at http://oracc.org/pcsl.
+	Transliteration conventions do not always match CDLI-gh.
+
+@sysdef CUSAS01 S.F. Monaco, The Cornell University Archaic Tablets (CUSAS 1), Bethesda, MD, 2007.
+@note	Additional signs on pages 15, “New Signs and Sign Variants” and 281, “New Signs and Variants”.
+
+@sysdef CUSAS21 S.F. Monaco, Archaic Bullae and Tablets in the Cornell University Collections (CUSAS 21), Bethesda, MD, 2014.
+@note	Additional signs on page 166, “New Signs and Variants”.
+
+@sysdef CUSAS31 S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.
+@note	Additional signs on page 203, “New Signs and Variants”.
+
+@sysdef LLATU Lexicalischen Listen der Archaischen Texte aus Uruk
+@lit	Pp.177-327 in Robert K. Englund und Hans J. Nissen unter Mitarbeit von Peter Damerow,
+	"Die Lexikalischen Listen der Archaischen Texte aus Uruk" (ATU 3), Berlin 1993.
+@note	The definitive edition of lexical texts from Uruk has its own sign index in which signs are
+	often further differentiated compared to ZATU by adding lowercase letters. The signs are not
+	numbered as a signlist but are listed alphabetically with references.
+
+@sysdef RKEZ R.K.Englund, “Liste der zusätzlichen Zeichen der Text der 33. und 34. Kampagne” Pp. 347-351 in ZATU.
+
+@sysdef ADD Additional sign data.
+
+@sysdef PUA Relocations into Oracc PUA.
+
 @sign A
 @oid o0900000
 @end sign
@@ -28,6 +117,8 @@
 
 @sign AB~a
 @oid o0900012
+@glyf 0 󺀀 FA000
+@glyf 1 󺀁 FA001
 @end sign
 
 @sign |AB~a×A@t|
@@ -60,6 +151,8 @@
 
 @sign AB₂
 @oid o0900041
+@glyf 0 󺀂 FA002
+@glyf 1 󺀃 FA003
 @end sign
 
 @sign |AB₂×2(N14)|
@@ -68,6 +161,8 @@
 
 @sign ABGAL
 @oid o0900047
+@glyf 0 󺀄 FA004
+@glyf 1 󺀅 FA005
 @end sign
 
 @sign ABRIG
@@ -92,6 +187,8 @@
 
 @sign ADAB
 @oid o0900056
+@glyf 0 󺀆 FA006
+@glyf 1 󺀇 FA007
 @end sign
 
 @sign ADDA
@@ -144,6 +241,8 @@
 
 @sign AMA~a
 @oid o0900077
+@glyf 0 󺀈 FA008
+@glyf 1 󺀉 FA009
 @end sign
 
 @sign |AMA~a×E₂~a|
@@ -156,6 +255,9 @@
 
 @sign AMAR
 @oid o0900082
+@glyf 0 󺀐 FA010
+@glyf 1 󺀑 FA011
+@glyf 2 󺀒 FA012
 @end sign
 
 @sign |AMAR.1(N02)|
@@ -176,6 +278,9 @@
 
 @sign AN
 @oid o0900089
+@glyf 0 󺀓 FA013
+@glyf 1 󺀔 FA014
+@glyf 2 󺀕 FA015
 @end sign
 
 @sign ANŠE~a
@@ -216,6 +321,8 @@
 
 @sign ARARMA₂~a
 @oid o0900106
+@glyf 0 󺀖 FA016
+@glyf 1 󺀗 FA017
 @end sign
 
 @sign ARARMA₂~b
@@ -268,10 +375,14 @@
 
 @sign BAHAR₂~a
 @oid o0900124
+@glyf 0 󺀘 FA018
+@glyf 1 󺀙 FA019
 @end sign
 
 @sign BAHAR₂~b
 @oid o0900126
+@glyf 0 󺀠 FA020
+@glyf 1 󺀡 FA021
 @end sign
 
 @sign BAHAR₂~c
@@ -284,14 +395,21 @@
 
 @sign BALA~b
 @oid o0900131
+@glyf 0 󺀢 FA022
+@glyf 1 󺀣 FA023
 @end sign
 
 @sign BALAG
 @oid o0900133
+@glyf 0 󺀤 FA024
+@glyf 1 󺀥 FA025
 @end sign
 
 @sign BAN~a
 @oid o0900136
+@glyf 0 󺀦 FA026
+@glyf 1 󺀧 FA027
+@glyf 2 󺀨 FA028
 @end sign
 
 @sign BAN~b
@@ -348,10 +466,14 @@
 
 @sign BARA₂~a
 @oid o0900158
+@glyf 0 󺀩 FA029
+@glyf 1 󺀰 FA030
 @end sign
 
 @sign BARA₂~b
 @oid o0900160
+@glyf 0 󺀱 FA031
+@glyf 1 󺀲 FA032
 @end sign
 
 @sign BARA₃
@@ -376,10 +498,14 @@
 
 @sign BIR₃~a
 @oid o0900169
+@glyf 0 󺀳 FA033
+@glyf 1 󺀴 FA034
 @end sign
 
 @sign BIR₃~b
 @oid o0900171
+@glyf 0 󺀵 FA035
+@glyf 1 󺀶 FA036
 @end sign
 
 @sign BIR₃~c
@@ -388,6 +514,8 @@
 
 @sign BU~a
 @oid o0900175
+@glyf 0 󺀷 FA037
+@glyf 1 󺀸 FA038
 @end sign
 
 @sign |BU~a+DU₆~a|
@@ -512,6 +640,8 @@
 
 @sign DARA₃~c
 @oid o0900237
+@glyf 0 󺀹 FA039
+@glyf 1 󺁀 FA040
 @end sign
 
 @sign |DARA₃~c×KAR₂~b|
@@ -588,10 +718,15 @@
 
 @sign DIB
 @oid o0900262
+@glyf 0 󺁁 FA041
+@glyf 1 󺁂 FA042
 @end sign
 
 @sign DILMUN
 @oid o0900264
+@glyf 0 󺁃 FA043
+@glyf 1 󺁄 FA044
+@glyf 2 󺁅 FA045
 @end sign
 
 @sign DIM~a
@@ -632,6 +767,8 @@
 
 @sign DU₆~a
 @oid o0900284
+@glyf 0 󺁆 FA046
+@glyf 1 󺁇 FA047
 @end sign
 
 @sign |DU₆~a×1(N58)|
@@ -656,6 +793,8 @@
 
 @sign DU₈~b
 @oid o0900294
+@glyf 0 󺁈 FA048
+@glyf 1 󺁉 FA049
 @end sign
 
 @sign DU₈~c
@@ -680,6 +819,8 @@
 
 @sign DU₈~c@g
 @oid o0900309
+@glyf 0 󺁐 FA050
+@glyf 1 󺁑 FA051
 @end sign
 
 @sign DUB~a
@@ -688,6 +829,11 @@
 
 @sign DUB~b
 @oid o0900313
+@glyf 0 󺁒 FA052
+@glyf 1 󺁓 FA053
+@glyf 2 󺁔 FA054
+@glyf 3 󺁕 FA055
+@glyf 4 󺁖 FA056
 @end sign
 
 @sign DUB~c
@@ -728,6 +874,9 @@
 
 @sign DUG~a
 @oid o0900331
+@glyf 0 󺁗 FA057
+@glyf 1 󺁘 FA058
+@glyf 2 󺁙 FA059
 @end sign
 
 @sign |DUG~a×KU₆~a|
@@ -752,6 +901,10 @@
 
 @sign DUG~b
 @oid o0900334
+@glyf 0 󺁠 FA060
+@glyf 1 󺁡 FA061
+@glyf 2 󺁢 FA062
+@glyf 3 󺁣 FA063
 @end sign
 
 @sign |DUG~b×ANŠE~b|
@@ -1052,10 +1205,16 @@
 
 @sign EN~a
 @oid o0900513
+@glyf 0 󺁤 FA064
+@glyf 1 󺁥 FA065
+@glyf 2 󺁦 FA066
+@glyf 3 󺁧 FA067
 @end sign
 
 @sign EN~b
 @oid o0900517
+@glyf 0 󺁨 FA068
+@glyf 1 󺁩 FA069
 @end sign
 
 @sign EN~b@t
@@ -1064,6 +1223,8 @@
 
 @sign EN~c
 @oid o0900519
+@glyf 0 󺁰 FA070
+@glyf 1 󺁱 FA071
 @end sign
 
 @sign |EN~c&EN~c|
@@ -1100,6 +1261,8 @@
 
 @sign ENKUM
 @oid o0900535
+@glyf 0 󺁲 FA072
+@glyf 1 󺁳 FA073
 @end sign
 
 @sign ERIM~a
@@ -1136,6 +1299,8 @@
 
 @sign EZEN~a
 @oid o0900550
+@glyf 0 󺁴 FA074
+@glyf 1 󺁵 FA075
 @end sign
 
 @sign |EZEN~a×EN~b|
@@ -1216,10 +1381,17 @@
 
 @sign GA~a
 @oid o0900599
+@glyf 0 󺁶 FA076
+@glyf 1 󺁷 FA077
+@glyf 2 󺁸 FA078
+@glyf 3 󺁹 FA079
+@glyf 4 󺂀 FA080
 @end sign
 
 @sign |GA~a.ZATU753|
 @oid o0903585
+@glyf 0 󺂁 FA081
+@glyf 1 󺂂 FA082
 @end sign
 
 @sign GA~b
@@ -1344,6 +1516,8 @@
 
 @sign |GA₂~a1×X|
 @oid o0900709
+@glyf 0 󺂃 FA083
+@glyf 1 󺂄 FA084
 @end sign
 
 @sign |GA₂~a1×1(N14)|
@@ -1464,14 +1638,22 @@
 
 @sign GAN~a
 @oid o0900736
+@glyf 0 󺂅 FA085
+@glyf 1 󺂆 FA086
 @end sign
 
 @sign GAN~b
 @oid o0900738
+@glyf 0 󺂇 FA087
+@glyf 1 󺂈 FA088
+@glyf 2 󺂉 FA089
+@glyf 3 󺂐 FA090
 @end sign
 
 @sign GAN~c
 @oid o0900742
+@glyf 0 󺂑 FA091
+@glyf 1 󺂒 FA092
 @end sign
 
 @sign |GAN~c×DIN|
@@ -1568,6 +1750,9 @@
 
 @sign GEŠTU~a
 @oid o0900797
+@glyf 0 󺂓 FA093
+@glyf 1 󺂔 FA094
+@glyf 2 󺂕 FA095
 @end sign
 
 @sign GEŠTU~b
@@ -1580,6 +1765,8 @@
 
 @sign GEŠTU~c3
 @oid o0900801
+@glyf 0 󺂖 FA096
+@glyf 1 󺂗 FA097
 @end sign
 
 @sign GEŠTU~c5
@@ -1588,6 +1775,8 @@
 
 @sign GI
 @oid o0900806
+@glyf 0 󺂘 FA098
+@glyf 1 󺂙 FA099
 @end sign
 
 @sign |GI×A|
@@ -1660,6 +1849,8 @@
 
 @sign GI₆
 @oid o0900836
+@glyf 0 󺄀 FA100
+@glyf 1 󺄁 FA101
 @end sign
 
 @sign GIBIL
@@ -1680,6 +1871,8 @@
 
 @sign GIR~b
 @oid o0900846
+@glyf 0 󺄂 FA102
+@glyf 1 󺄃 FA103
 @end sign
 
 @sign |GIR~b.GIR~b|
@@ -1788,6 +1981,8 @@
 
 @sign GIŠGAL
 @oid o0900893
+@glyf 0 󺄄 FA104
+@glyf 1 󺄅 FA105
 @end sign
 
 @sign GIŠIMMAR~a1
@@ -1804,6 +1999,9 @@
 
 @sign GIŠIMMAR~b1
 @oid o0900899
+@glyf 0 󺄆 FA106
+@glyf 1 󺄇 FA107
+@glyf 2 󺄈 FA108
 @end sign
 
 @sign GIŠIMMAR~b2
@@ -1824,6 +2022,8 @@
 
 @sign GU₄
 @oid o0900908
+@glyf 0 󺄉 FA109
+@glyf 1 󺄐 FA110
 @end sign
 
 @sign |GU₄.ZATU755~b|
@@ -1836,6 +2036,8 @@
 
 @sign GU₇
 @oid o0900912
+@glyf 0 󺄑 FA111
+@glyf 1 󺄒 FA112
 @end sign
 
 @sign GUB₃~a
@@ -1856,6 +2058,8 @@
 
 @sign GUG₂
 @oid o0900920
+@glyf 0 󺄓 FA113
+@glyf 1 󺄔 FA114
 @end sign
 
 @sign |GUG₂×SILA₃~a|
@@ -1896,10 +2100,14 @@
 
 @sign GUM~b
 @oid o0900938
+@glyf 0 󺄕 FA115
+@glyf 1 󺄖 FA116
 @end sign
 
 @sign GUM~b@n
 @oid o0900941
+@glyf 0 󺄗 FA117
+@glyf 1 󺄘 FA118
 @end sign
 
 @sign GUN₃~a
@@ -1916,6 +2124,8 @@
 
 @sign GURUŠ~a
 @oid o0900948
+@glyf 0 󺄙 FA119
+@glyf 1 󺄠 FA120
 @end sign
 
 @sign |GURUŠ~a×2(N14)|
@@ -2012,6 +2222,8 @@
 
 @sign IDIGNA
 @oid o0900988
+@glyf 0 󺄡 FA121
+@glyf 1 󺄢 FA122
 @end sign
 
 @sign IG~a
@@ -2044,6 +2256,8 @@
 
 @sign IN~b
 @oid o0901005
+@glyf 0 󺄣 FA123
+@glyf 1 󺄤 FA124
 @end sign
 
 @sign IN~d
@@ -2072,6 +2286,8 @@
 
 @sign IR₁₁
 @oid o0901016
+@glyf 0 󺄥 FA125
+@glyf 1 󺄦 FA126
 @end sign
 
 @sign IRHAN
@@ -2080,10 +2296,18 @@
 
 @sign IŠ~a
 @oid o0901020
+@glyf 0 󺄧 FA127
+@glyf 1 󺄨 FA128
 @end sign
 
 @sign IŠ~b
 @oid o0901022
+@glyf 0 󺄩 FA129
+@glyf 1 󺄰 FA130
+@glyf 2 󺄱 FA131
+@glyf 3 󺄲 FA132
+@glyf 4 󺄳 FA133
+@glyf 5 󺄴 FA134
 @end sign
 
 @sign IŠ~c
@@ -2148,6 +2372,8 @@
 
 @sign KAL~b1
 @oid o0901058
+@glyf 0 󺄵 FA135
+@glyf 1 󺄶 FA136
 @end sign
 
 @sign KAL~b2
@@ -2208,10 +2434,14 @@
 
 @sign KAŠ~a
 @oid o0901078
+@glyf 0 󺄷 FA137
+@glyf 1 󺄸 FA138
 @end sign
 
 @sign KAŠ~b
 @oid o0901080
+@glyf 0 󺄹 FA139
+@glyf 1 󺅀 FA140
 @end sign
 
 @sign |KAŠ~b×ŠE~a@t|
@@ -2292,6 +2522,8 @@
 
 @sign KINGAL
 @oid o0901109
+@glyf 0 󺅁 FA141
+@glyf 1 󺅂 FA142
 @end sign
 
 @sign KIR₁₁
@@ -2328,6 +2560,10 @@
 
 @sign KISIM~b
 @oid o0901123
+@glyf 0 󺅃 FA143
+@glyf 1 󺅄 FA144
+@glyf 2 󺅅 FA145
+@glyf 3 󺅆 FA146
 @end sign
 
 @sign KISIM~c
@@ -2336,6 +2572,8 @@
 
 @sign KIŠ
 @oid o0901128
+@glyf 0 󺅇 FA147
+@glyf 1 󺅈 FA148
 @end sign
 
 @sign KIŠIK
@@ -2352,6 +2590,8 @@
 
 @sign KITI
 @oid o0901133
+@glyf 0 󺅉 FA149
+@glyf 1 󺅐 FA150
 @end sign
 
 @sign KU
@@ -2416,6 +2656,8 @@
 
 @sign KUR~c
 @oid o0901160
+@glyf 0 󺅑 FA151
+@glyf 1 󺅒 FA152
 @end sign
 
 @sign KUR@g~a
@@ -2628,6 +2870,9 @@
 
 @sign LAM~b
 @oid o0901284
+@glyf 0 󺅓 FA153
+@glyf 1 󺅔 FA154
+@glyf 2 󺅕 FA155
 @end sign
 
 @sign LAM~b@r
@@ -2640,6 +2885,8 @@
 
 @sign LI
 @oid o0901301
+@glyf 0 󺅖 FA156
+@glyf 1 󺅗 FA157
 @end sign
 
 @sign LIŠ
@@ -2648,10 +2895,15 @@
 
 @sign LU₂
 @oid o0901304
+@glyf 0 󺅘 FA158
+@glyf 1 󺅙 FA159
+@glyf 2 󺅠 FA160
 @end sign
 
 @sign LUGAL
 @oid o0901310
+@glyf 0 󺅡 FA161
+@glyf 1 󺅢 FA162
 @end sign
 
 @sign LUM
@@ -2660,6 +2912,8 @@
 
 @sign MA
 @oid o0901313
+@glyf 0 󺅣 FA163
+@glyf 1 󺅤 FA164
 @end sign
 
 @sign |MA×MA|
@@ -2760,6 +3014,8 @@
 
 @sign MAR~a
 @oid o0901361
+@glyf 0 󺅥 FA165
+@glyf 1 󺅦 FA166
 @end sign
 
 @sign MAR~a@t
@@ -2816,6 +3072,8 @@
 
 @sign MEN~a
 @oid o0901384
+@glyf 0 󺅧 FA167
+@glyf 1 󺅨 FA168
 @end sign
 
 @sign MEN~b
@@ -2824,6 +3082,8 @@
 
 @sign MES
 @oid o0901387
+@glyf 0 󺅩 FA169
+@glyf 1 󺅰 FA170
 @end sign
 
 @sign MIR~a
@@ -2840,6 +3100,8 @@
 
 @sign MUD
 @oid o0901393
+@glyf 0 󺅱 FA171
+@glyf 1 󺅲 FA172
 @end sign
 
 @sign MUD₃~a
@@ -2908,10 +3170,15 @@
 
 @sign MUŠ₃~a
 @oid o0901419
+@glyf 0 󺅳 FA173
+@glyf 1 󺅴 FA174
+@glyf 2 󺅵 FA175
 @end sign
 
 @sign MUŠ₃~a@g
 @oid o0901424
+@glyf 0 󺅶 FA176
+@glyf 1 󺅷 FA177
 @end sign
 
 @sign MUŠ₃~b
@@ -3096,6 +3363,8 @@
 
 @sign NA₂~a
 @oid o0901442
+@glyf 0 󺅸 FA178
+@glyf 1 󺅹 FA179
 @end sign
 
 @sign NA₂~b1
@@ -3112,6 +3381,9 @@
 
 @sign NAB
 @oid o0901448
+@glyf 0 󺆀 FA180
+@glyf 1 󺆁 FA181
+@glyf 2 󺆂 FA182
 @end sign
 
 @sign NAGA~a
@@ -3128,10 +3400,16 @@
 
 @sign NAGAR~a
 @oid o0901457
+@glyf 0 󺆃 FA183
+@glyf 1 󺆄 FA184
+@glyf 2 󺆅 FA185
+@glyf 3 󺆆 FA186
 @end sign
 
 @sign NAGAR~b
 @oid o0901461
+@glyf 0 󺆇 FA187
+@glyf 1 󺆈 FA188
 @end sign
 
 @sign NAM
@@ -3156,6 +3434,8 @@
 
 @sign NAM₂
 @oid o0901468
+@glyf 0 󺆉 FA189
+@glyf 1 󺆐 FA190
 @end sign
 
 @sign |NAM₂×1(N01)|
@@ -3172,10 +3452,14 @@
 
 @sign NAMEŠDA
 @oid o0901472
+@glyf 0 󺆑 FA191
+@glyf 1 󺆒 FA192
 @end sign
 
 @sign NANNA~a
 @oid o0901475
+@glyf 0 󺆓 FA193
+@glyf 1 󺆔 FA194
 @end sign
 
 @sign NANNA~b
@@ -3196,6 +3480,9 @@
 
 @sign NE~a
 @oid o0901483
+@glyf 0 󺆕 FA195
+@glyf 1 󺆖 FA196
+@glyf 2 󺆗 FA197
 @end sign
 
 @sign NE~b
@@ -3220,6 +3507,8 @@
 
 @sign NESAG₂~b
 @oid o0901496
+@glyf 0 󺆘 FA198
+@glyf 1 󺆙 FA199
 @end sign
 
 @sign NI~a
@@ -3272,6 +3561,8 @@
 
 @sign NIMGIR
 @oid o0901521
+@glyf 0 󺈀 FA200
+@glyf 1 󺈁 FA201
 @end sign
 
 @sign NIN
@@ -3280,6 +3571,8 @@
 
 @sign NINDA₂
 @oid o0901525
+@glyf 0 󺈂 FA202
+@glyf 1 󺈃 FA203
 @end sign
 
 @sign |NINDA₂×AN|
@@ -3292,6 +3585,8 @@
 
 @sign |NINDA₂×(AN.ME~a)|
 @oid o0901535
+@glyf 0 󺈄 FA204
+@glyf 1 󺈅 FA205
 @end sign
 
 @sign |NINDA₂×(AN.X)|
@@ -3324,6 +3619,8 @@
 
 @sign |NINDA₂×(HI.AN.ME~a)|
 @oid o0901533
+@glyf 0 󺈆 FA206
+@glyf 1 󺈇 FA207
 @end sign
 
 @sign |NINDA₂×(HI.ME~a)|
@@ -3468,6 +3765,10 @@
 
 @sign NUN~c
 @oid o0901594
+@glyf 0 󺈈 FA208
+@glyf 1 󺈉 FA209
+@glyf 2 󺈐 FA210
+@glyf 3 󺈑 FA211
 @end sign
 
 @sign NUN~d
@@ -3492,10 +3793,17 @@
 
 @sign NUNUZ~c
 @oid o0901618
+@glyf 0 󺈒 FA212
+@glyf 1 󺈓 FA213
+@glyf 2 󺈔 FA214
+@glyf 3 󺈕 FA215
 @end sign
 
 @sign PA~a
 @oid o0901625
+@glyf 0 󺈖 FA216
+@glyf 1 󺈗 FA217
+@glyf 2 󺈘 FA218
 @end sign
 
 @sign PA~b
@@ -3520,6 +3828,8 @@
 
 @sign PAP~b
 @oid o0901640
+@glyf 0 󺈙 FA219
+@glyf 1 󺈠 FA220
 @end sign
 
 @sign PAP@t
@@ -3584,6 +3894,8 @@
 
 @sign RU
 @oid o0901670
+@glyf 0 󺈡 FA221
+@glyf 1 󺈢 FA222
 @end sign
 
 @sign SA~a
@@ -3592,10 +3904,15 @@
 
 @sign SA~c
 @oid o0901675
+@glyf 0 󺈣 FA223
+@glyf 1 󺈤 FA224
 @end sign
 
 @sign SAG
 @oid o0901677
+@glyf 0 󺈥 FA225
+@glyf 1 󺈦 FA226
+@glyf 2 󺈧 FA227
 @end sign
 
 @sign |SAG+UKKIN~b×1(N57)|
@@ -3660,10 +3977,15 @@
 
 @sign SANGA~a
 @oid o0901709
+@glyf 0 󺈨 FA228
+@glyf 1 󺈩 FA229
+@glyf 2 󺈰 FA230
 @end sign
 
 @sign SANGA~b
 @oid o0901712
+@glyf 0 󺈱 FA231
+@glyf 1 󺈲 FA232
 @end sign
 
 @sign SANGA~c
@@ -3700,6 +4022,8 @@
 
 @sign SI
 @oid o0901724
+@glyf 0 󺈳 FA233
+@glyf 1 󺈴 FA234
 @end sign
 
 @sign |SI+AN|
@@ -3748,10 +4072,14 @@
 
 @sign SI₄~d
 @oid o0901742
+@glyf 0 󺈵 FA235
+@glyf 1 󺈶 FA236
 @end sign
 
 @sign SI₄~f
 @oid o0901744
+@glyf 0 󺈷 FA237
+@glyf 1 󺈸 FA238
 @end sign
 
 @sign SIG
@@ -3772,6 +4100,9 @@
 
 @sign SIG₂~a3
 @oid o0901753
+@glyf 0 󺈹 FA239
+@glyf 1 󺉀 FA240
+@glyf 2 󺉁 FA241
 @end sign
 
 @sign SIG₂~a4
@@ -3804,6 +4135,8 @@
 
 @sign SIG₂~d2
 @oid o0901761
+@glyf 0 󺉂 FA242
+@glyf 1 󺉃 FA243
 @end sign
 
 @sign SIG₂~d3
@@ -3824,6 +4157,8 @@
 
 @sign SIG₇
 @oid o0901771
+@glyf 0 󺉄 FA244
+@glyf 1 󺉅 FA245
 @end sign
 
 @sign SILA₃~a
@@ -3960,6 +4295,8 @@
 
 @sign |SILA₃~a×DUG~a|
 @oid o0903632
+@glyf 0 󺉆 FA246
+@glyf 1 󺉇 FA247
 @end sign
 
 @sign SILA₃~b
@@ -4008,6 +4345,8 @@
 
 @sign SIMUG
 @oid o0901866
+@glyf 0 󺉈 FA248
+@glyf 1 󺉉 FA249
 @end sign
 
 @sign SIPA
@@ -4016,6 +4355,8 @@
 
 @sign SU~a
 @oid o0901870
+@glyf 0 󺉐 FA250
+@glyf 1 󺉑 FA251
 @end sign
 
 @sign |SU~a×1(N58)|
@@ -4084,6 +4425,8 @@
 
 @sign SUKUD@g~b
 @oid o0901896
+@glyf 0 󺉒 FA252
+@glyf 1 󺉓 FA253
 @end sign
 
 @sign SUKUD@g~c
@@ -4096,6 +4439,8 @@
 
 @sign SUM~a
 @oid o0901902
+@glyf 0 󺉔 FA254
+@glyf 1 󺉕 FA255
 @end sign
 
 @sign SUM~b
@@ -4116,6 +4461,9 @@
 
 @sign ŠA
 @oid o0901910
+@glyf 0 󺉖 FA256
+@glyf 1 󺉗 FA257
+@glyf 2 󺉘 FA258
 @end sign
 
 @sign |ŠA×HI@g|
@@ -4160,14 +4508,20 @@
 
 @sign ŠAB~a
 @oid o0901926
+@glyf 0 󺉙 FA259
+@glyf 1 󺉠 FA260
 @end sign
 
 @sign ŠAB~b
 @oid o0901928
+@glyf 0 󺉡 FA261
+@glyf 1 󺉢 FA262
 @end sign
 
 @sign ŠAGAN
 @oid o0901930
+@glyf 0 󺉣 FA263
+@glyf 1 󺉤 FA264
 @end sign
 
 @sign ŠAGINA
@@ -4220,6 +4574,9 @@
 
 @sign |ŠE~a.NAM₂|
 @oid o0901955
+@glyf 0 󺉥 FA265
+@glyf 1 󺉦 FA266
+@glyf 2 󺉧 FA267
 @end sign
 
 @sign |ŠE~a&ŠE~a|
@@ -4244,10 +4601,14 @@
 
 @sign ŠE₃
 @oid o0901962
+@glyf 0 󺉨 FA268
+@glyf 1 󺉩 FA269
 @end sign
 
 @sign ŠE₃@t
 @oid o0901964
+@glyf 0 󺉰 FA270
+@glyf 1 󺉱 FA271
 @end sign
 
 @sign ŠEG₉
@@ -4260,10 +4621,14 @@
 
 @sign ŠEN~a
 @oid o0901969
+@glyf 0 󺉲 FA272
+@glyf 1 󺉳 FA273
 @end sign
 
 @sign ŠEN~b
 @oid o0901971
+@glyf 0 󺉴 FA274
+@glyf 1 󺉵 FA275
 @end sign
 
 @sign ŠEN~c
@@ -4292,6 +4657,8 @@
 
 @sign ŠEŠ~a
 @oid o0901986
+@glyf 0 󺉶 FA276
+@glyf 1 󺉷 FA277
 @end sign
 
 @sign ŠEŠ~b
@@ -4304,6 +4671,9 @@
 
 @sign ŠIM~a
 @oid o0901993
+@glyf 0 󺉸 FA278
+@glyf 1 󺉹 FA279
+@glyf 2 󺊀 FA280
 @end sign
 
 @sign ŠIM~b
@@ -4312,10 +4682,15 @@
 
 @sign ŠIR~a
 @oid o0901998
+@glyf 0 󺊁 FA281
+@glyf 1 󺊂 FA282
 @end sign
 
 @sign ŠIR~b
 @oid o0902000
+@glyf 0 󺊃 FA283
+@glyf 1 󺊄 FA284
+@glyf 2 󺊅 FA285
 @end sign
 
 @sign ŠITA~a1
@@ -4448,10 +4823,14 @@
 
 @sign ŠURUPPAK~a
 @oid o0902068
+@glyf 0 󺊆 FA286
+@glyf 1 󺊇 FA287
 @end sign
 
 @sign ŠURUPPAK~b
 @oid o0902070
+@glyf 0 󺊈 FA288
+@glyf 1 󺊉 FA289
 @end sign
 
 @sign TA~a
@@ -4508,6 +4887,8 @@
 
 @sign TAK₄~a
 @oid o0902094
+@glyf 0 󺊐 FA290
+@glyf 1 󺊑 FA291
 @end sign
 
 @sign TAK₄~a@n
@@ -4528,6 +4909,8 @@
 
 @sign TI
 @oid o0902103
+@glyf 0 󺊒 FA292
+@glyf 1 󺊓 FA293
 @end sign
 
 @sign TI@g
@@ -4572,6 +4955,8 @@
 
 @sign TUG₂~a@g
 @oid o0902123
+@glyf 0 󺊔 FA294
+@glyf 1 󺊕 FA295
 @end sign
 
 @sign TUG₂~b
@@ -4616,6 +5001,10 @@
 
 @sign TUR
 @oid o0902139
+@glyf 0 󺊖 FA296
+@glyf 1 󺊗 FA297
+@glyf 2 󺊘 FA298
+@glyf 3 󺊙 FA299
 @end sign
 
 @sign TUR@g
@@ -4644,6 +5033,9 @@
 
 @sign U₂~b
 @oid o0902157
+@glyf 0 󺌀 FA300
+@glyf 1 󺌁 FA301
+@glyf 2 󺌂 FA302
 @end sign
 
 @sign U₂~c
@@ -4860,6 +5252,10 @@
 
 @sign U₈
 @oid o0902220
+@glyf 0 󺌃 FA303
+@glyf 1 󺌄 FA304
+@glyf 2 󺌅 FA305
+@glyf 3 󺌆 FA306
 @end sign
 
 @sign |U₈×TAR~b|
@@ -4876,6 +5272,8 @@
 
 @sign UBI~c
 @oid o0902230
+@glyf 0 󺌇 FA307
+@glyf 1 󺌈 FA308
 @end sign
 
 @sign UBI~d
@@ -4884,6 +5282,9 @@
 
 @sign UD₅~a
 @oid o0902234
+@glyf 0 󺌉 FA309
+@glyf 1 󺌐 FA310
+@glyf 2 󺌑 FA311
 @end sign
 
 @sign UD₅~a@g
@@ -4944,10 +5345,14 @@
 
 @sign UKKIN~a
 @oid o0902261
+@glyf 0 󺌒 FA312
+@glyf 1 󺌓 FA313
 @end sign
 
 @sign UKKIN~b
 @oid o0902263
+@glyf 0 󺌔 FA314
+@glyf 1 󺌕 FA315
 @end sign
 
 @sign |UKKIN~b×DIN|
@@ -5008,10 +5413,14 @@
 
 @sign UMUN₂
 @oid o0902290
+@glyf 0 󺌖 FA316
+@glyf 1 󺌗 FA317
 @end sign
 
 @sign UNUG~a
 @oid o0902293
+@glyf 0 󺌘 FA318
+@glyf 1 󺌙 FA319
 @end sign
 
 @sign |UNUG~a×A@t|
@@ -5060,6 +5469,8 @@
 
 @sign UR₃~a1
 @oid o0902313
+@glyf 0 󺌠 FA320
+@glyf 1 󺌡 FA321
 @end sign
 
 @sign UR₃~a2
@@ -5104,6 +5515,8 @@
 
 @sign URI₃~a
 @oid o0902332
+@glyf 0 󺌢 FA322
+@glyf 1 󺌣 FA323
 @end sign
 
 @sign URI₃~b
@@ -5176,6 +5589,9 @@
 
 @sign URUDU~a
 @oid o0902373
+@glyf 0 󺌤 FA324
+@glyf 1 󺌥 FA325
+@glyf 2 󺌦 FA326
 @end sign
 
 @sign URUDU~c
@@ -5208,6 +5624,8 @@
 
 @sign UŠ~b
 @oid o0902385
+@glyf 0 󺌧 FA327
+@glyf 1 󺌨 FA328
 @end sign
 
 @sign |UŠ~b×TAR~c|
@@ -5240,6 +5658,8 @@
 
 @sign UTUA~b
 @oid o0902401
+@glyf 0 󺌩 FA329
+@glyf 1 󺌰 FA330
 @end sign
 
 @sign UTUL~a
@@ -5280,6 +5700,8 @@
 
 @sign ZAG~a
 @oid o0902422
+@glyf 0 󺌱 FA331
+@glyf 1 󺌲 FA332
 @end sign
 
 @sign ZAG~b
@@ -5332,6 +5754,9 @@
 
 @sign ZATU623
 @oid o0902438
+@glyf 0 󺌳 FA333
+@glyf 1 󺌴 FA334
+@glyf 2 󺌵 FA335
 @end sign
 
 @sign ZATU624~a
@@ -5344,6 +5769,8 @@
 
 @sign ZATU625
 @oid o0902445
+@glyf 0 󺌶 FA336
+@glyf 1 󺌷 FA337
 @end sign
 
 @sign ZATU626~a
@@ -5360,6 +5787,8 @@
 
 @sign ZATU628~a
 @oid o0902453
+@glyf 0 󺌸 FA338
+@glyf 1 󺌹 FA339
 @end sign
 
 @sign ZATU628~b
@@ -5368,6 +5797,8 @@
 
 @sign ZATU629
 @oid o0902456
+@glyf 0 󺍀 FA340
+@glyf 1 󺍁 FA341
 @end sign
 
 @sign ZATU630
@@ -5380,6 +5811,8 @@
 
 @sign ZATU632~a
 @oid o0902461
+@glyf 0 󺍂 FA342
+@glyf 1 󺍃 FA343
 @end sign
 
 @sign ZATU632~b
@@ -5400,6 +5833,8 @@
 
 @sign ZATU636
 @oid o0902470
+@glyf 0 󺍄 FA344
+@glyf 1 󺍅 FA345
 @end sign
 
 @sign ZATU637
@@ -5440,6 +5875,8 @@
 
 @sign ZATU647
 @oid o0902484
+@glyf 0 󺍆 FA346
+@glyf 1 󺍇 FA347
 @end sign
 
 @sign ZATU648
@@ -5448,6 +5885,8 @@
 
 @sign ZATU649
 @oid o0902487
+@glyf 0 󺍈 FA348
+@glyf 1 󺍉 FA349
 @end sign
 
 @sign ZATU650
@@ -5456,6 +5895,9 @@
 
 @sign ZATU651
 @oid o0902490
+@glyf 0 󺍐 FA350
+@glyf 1 󺍑 FA351
+@glyf 2 󺍒 FA352
 @end sign
 
 @sign |ZATU651×AN|
@@ -5508,6 +5950,10 @@
 
 @sign ZATU662
 @oid o0902511
+@glyf 0 󺍓 FA353
+@glyf 1 󺍔 FA354
+@glyf 2 󺍕 FA355
+@glyf 3 󺍖 FA356
 @end sign
 
 @sign |ZATU662×1(N14)|
@@ -5556,6 +6002,8 @@
 
 @sign ZATU675~b
 @oid o0902529
+@glyf 0 󺍗 FA357
+@glyf 1 󺍘 FA358
 @end sign
 
 @sign ZATU675~c
@@ -5600,6 +6048,8 @@
 
 @sign ZATU680~b
 @oid o0902544
+@glyf 0 󺍙 FA359
+@glyf 1 󺍠 FA360
 @end sign
 
 @sign ZATU680~d
@@ -5676,6 +6126,9 @@
 
 @sign ZATU693
 @oid o0902568
+@glyf 0 󺍡 FA361
+@glyf 1 󺍢 FA362
+@glyf 2 󺍣 FA363
 @end sign
 
 @sign ZATU693@t
@@ -5696,6 +6149,8 @@
 
 @sign ZATU694~c
 @oid o0902575
+@glyf 0 󺍤 FA364
+@glyf 1 󺍥 FA365
 @end sign
 
 @sign ZATU694~d
@@ -5720,6 +6175,10 @@
 
 @sign ZATU697~a
 @oid o0902584
+@glyf 0 󺍦 FA366
+@glyf 1 󺍧 FA367
+@glyf 2 󺍨 FA368
+@glyf 3 󺍩 FA369
 @end sign
 
 @sign ZATU697~b
@@ -5780,10 +6239,14 @@
 
 @sign ZATU710
 @oid o0902605
+@glyf 0 󺍰 FA370
+@glyf 1 󺍱 FA371
 @end sign
 
 @sign ZATU711
 @oid o0902607
+@glyf 0 󺍲 FA372
+@glyf 1 󺍳 FA373
 @end sign
 
 @sign |ZATU711×HI@g~a|
@@ -5852,6 +6315,8 @@
 
 @sign ZATU725
 @oid o0902626
+@glyf 0 󺍴 FA374
+@glyf 1 󺍵 FA375
 @end sign
 
 @sign ZATU726~a
@@ -5876,6 +6341,8 @@
 
 @sign ZATU729
 @oid o0902634
+@glyf 0 󺍶 FA376
+@glyf 1 󺍷 FA377
 @end sign
 
 @sign ZATU730
@@ -5896,6 +6363,9 @@
 
 @sign ZATU735~b
 @oid o0902642
+@glyf 0 󺍸 FA378
+@glyf 1 󺍹 FA379
+@glyf 2 󺎀 FA380
 @end sign
 
 @sign ZATU735~c
@@ -5912,6 +6382,9 @@
 
 @sign ZATU737
 @oid o0902649
+@glyf 0 󺎁 FA381
+@glyf 1 󺎂 FA382
+@glyf 2 󺎃 FA383
 @end sign
 
 @sign |ZATU737×AB~a|
@@ -5984,6 +6457,9 @@
 
 @sign ZATU749~a
 @oid o0902687
+@glyf 0 󺎄 FA384
+@glyf 1 󺎅 FA385
+@glyf 2 󺎆 FA386
 @end sign
 
 @sign ZATU749~b
@@ -5996,6 +6472,10 @@
 
 @sign ZATU750
 @oid o0902692
+@glyf 0 󺎇 FA387
+@glyf 1 󺎈 FA388
+@glyf 2 󺎉 FA389
+@glyf 3 󺎐 FA390
 @end sign
 
 @sign ZATU751
@@ -6012,6 +6492,8 @@
 
 @sign ZATU752
 @oid o0902699
+@glyf 0 󺎑 FA391
+@glyf 1 󺎒 FA392
 @end sign
 
 @sign ZATU753
@@ -6032,10 +6514,14 @@
 
 @sign ZATU756
 @oid o0902706
+@glyf 0 󺎓 FA393
+@glyf 1 󺎔 FA394
 @end sign
 
 @sign ZATU757
 @oid o0902708
+@glyf 0 󺎕 FA395
+@glyf 1 󺎖 FA396
 @end sign
 
 @sign ZATU758
@@ -6044,6 +6530,8 @@
 
 @sign ZATU759
 @oid o0902711
+@glyf 0 󺎗 FA397
+@glyf 1 󺎘 FA398
 @end sign
 
 @sign |ZATU759×KU₆~a|
@@ -6064,6 +6552,9 @@
 
 @sign ZATU762~a
 @oid o0902722
+@glyf 0 󺎙 FA399
+@glyf 1 󺐀 FA400
+@glyf 2 󺐁 FA401
 @end sign
 
 @sign |ZATU762~a×NIM~a|
@@ -6116,6 +6607,8 @@
 
 @sign ZATU773~a
 @oid o0902739
+@glyf 0 󺐂 FA402
+@glyf 1 󺐃 FA403
 @end sign
 
 @sign ZATU773~b
@@ -6132,10 +6625,15 @@
 
 @sign ZATU776
 @oid o0902744
+@glyf 0 󺐄 FA404
+@glyf 1 󺐅 FA405
 @end sign
 
 @sign ZATU777
 @oid o0902746
+@glyf 0 󺐆 FA406
+@glyf 1 󺐇 FA407
+@glyf 2 󺐈 FA408
 @end sign
 
 @sign ZATU778
@@ -6316,6 +6814,8 @@
 
 @sign ZI~a
 @oid o0902829
+@glyf 0 󺐉 FA409
+@glyf 1 󺐐 FA410
 @end sign
 
 @sign ZI~b
@@ -6596,10 +7096,14 @@
 
 @sign 5(N14)
 @oid o0902934
+@glyf 0 󺐑 FA411
+@glyf 1 󺐒 FA412
 @end sign
 
 @sign 6(N14)
 @oid o0902936
+@glyf 0 󺐓 FA413
+@glyf 1 󺐔 FA414
 @end sign
 
 @sign 7(N14)
@@ -6672,6 +7176,8 @@
 
 @sign 9(N18)
 @oid o0902970
+@glyf 0 󺐕 FA415
+@glyf 1 󺐖 FA416
 @end sign
 
 @sign 1(N19)
@@ -6708,6 +7214,8 @@
 
 @sign 9(N19)
 @oid o0902980
+@glyf 0 󺐗 FA417
+@glyf 1 󺐘 FA418
 @end sign
 
 @sign 1(N20)
@@ -6816,6 +7324,8 @@
 
 @sign 1(N26)
 @oid o0903023
+@glyf 0 󺐙 FA419
+@glyf 1 󺐠 FA420
 @end sign
 
 @sign 1(N26B)
@@ -6844,6 +7354,8 @@
 
 @sign 1(N29~a)
 @oid o0903032
+@glyf 0 󺐡 FA421
+@glyf 1 󺐢 FA422
 @end sign
 
 @sign 2(N29~a)
@@ -7304,6 +7816,8 @@
 
 @sign 6(N57)
 @oid o0903268
+@glyf 0 󺐣 FA423
+@glyf 1 󺐤 FA424
 @end sign
 
 @sign 7(N57)
