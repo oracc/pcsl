@@ -93591,7 +93591,7 @@ $ (no legend)
 1.b19. , (TU~a EN~a# [...]) 
 2.a. 6(N01) , TUR EN~a 
 2.b1. , (KAŠ~c AN NA~a ME~a) 
-2.b2. , (|(HIx1(N57))&(HI+1(N57))| EN~a) 
+2.b2. , (|(HIx1(N57))&(HIx1(N57))| EN~a) 
 2.b3. , (PAP~a) 
 2.b4. , (GIR₃@g~b 3(N57)) 
 2.b5. , (UR~a? URI₃~a) 
@@ -101935,7 +101935,7 @@ $ (no linguistic content)
 @tablet 
 @obverse 
 @column 1 
-1. [...] 1(N01)# , GADA~a@g 
+1. [...] 1(N01)# , GADA~b@g 
 2. 1(N01)# , X SIG₂~b# 
 3. [...] , [...] SIG₂~b# 
 4. [...] , [...] 
@@ -105502,7 +105502,8 @@ $ (not given)
 @obverse 
 @column 1 
 1. [...] 2(N14)# [...] 
-2. 1(N24) , GAR 
+2. 1(N24) , GAR
+# CUSAS 31, 119 edition and copy has SZE~a before GAR
 3. , AB~a#? 
 4.a. 1(N14) 1(N01) , DUG~a KUR~b 
 4.b. 3(N02)? , 
@@ -105510,7 +105511,7 @@ $ (not given)
 6. 1(N39~a) 1(N24) , [...] 
 @column 2 
 1. 2(N39~a)# , [...] 
-2. 2(N39~a) 1(N24) , [...] ŠE~a GAR~b 
+2. 2(N39~a) 1(N24) , [...] ŠE~a GAR 
 3. 2(N39~a) , [...] 
 4. 1(N39~a) DU₈~c# 
 5.a. 1(N39~a) , [...] 
@@ -106170,7 +106171,8 @@ $ broken
 2. [...] , [...] X NAM₂ 
 @column 2 
 1.a. 5(N19) , 
-1.b. 1(N30c′) , 
+1.b. 1(N30~cp) ,
+# original 1(N30~c') but oxx doesn't handle that yet
 2. 2(N19) 1(N04) , 
 @column 3 
 1.a. 4(N19) , 
@@ -109414,7 +109416,7 @@ $ blank
 @tablet 
 @obverse 
 @column 1 
-1. 5(N47) , SANGA~a# |U₄x3(N57)| 
+1. 5(N57) , SANGA~a# |U₄x3(N57)| 
 @column 2 
 1. , KU₆~a KISAL~b1 
 2. MUŠEN# E₂~a 
@@ -110173,7 +110175,7 @@ $ blank
 1.a3. 2(N01) , ZATU726~d 
 1.a4. 2(N01) , SIG₂~a2 
 1.a5. 5(N01) , GUG₂ 
-1.b. 1(N39~a)# 1(N24)#? 1(N28~a) , HI@g~a 
+1.b. 1(N39~a)# 1(N24)#? 1(N29~a) , HI@g~a 
 2.a. 5(N01) , SUR 
 2.b. 1(N28) , ŠE~a# 
 3.a1. 2(N01) , ŠA# 
@@ -112382,7 +112384,8 @@ $ blank
 2. 1(N38) 
 3. [...] , [...] 
 4. 4(N01) , SUHUR@t 1(N57) 
-5. 1(N14) , |GA₂~a1×ZATU693| GIŠ₃~b 
+5. 1(N14) , X GIŠ₃~b
+# CUSAS 01, 183 |GA2~a1xZATU693| is not a good description of the sign based on collation from photo.
 6. 4(N01) , X 
 $ blank 
 @reverse 
@@ -115705,7 +115708,8 @@ $ blank space
 #atf: lang qpc
 @tablet 
 @obverse 
-1. 2(N01) 1(N39@b)? , 
+1. 2(N01) 1(N14)? ,
+# CDLI "1(N39@b)?" is an impressed circle; possibly 1(N14)
 @reverse 
 $ blank space 
 
@@ -116354,7 +116358,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |3(N57).NUNUZ~b| 
+1. 1(N01) |3(N57).NUNUZ~c| 
 $ blank space 
 @reverse 
 $ blank space 
@@ -117465,7 +117469,8 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |SAGx(UKKIN~b×DIN)|? 
+1. 1(N01) |SAGx(UKKIN~bx1(N57))|
+# CUSAS 21 |SAGx(UKKIN~bxDIN)|? 
 @reverse 
 $ blank space 
 

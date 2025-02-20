@@ -143,9 +143,21 @@
 	kinds; specialists in the corpus should decide if further
 	division is needed in the future</li>
 
+	<li>allograph notations are by default assumed to be
+	contrastive but there are exceptions, e.g., ŠURUPPAK~a/b/c;
+	evaluate the treatment of ŠE~a and ŠE~a@t (90 vs 45 degrees)</li>
+	
    	<li>do not assume that every sign list entry should be encoded
    	as a character</li>
 
+	<li>consider distribution of components when encoding X×Y
+	versus X.Y or even Y.X; sometimes, especially for rare signs,
+	it is not clear whether the juxtaposition of components is
+	part of the sign structure or the distribution of individual
+	elements on the manuscript. In such cases it is preferable to
+	treat the signs as a sequence rather than a complex (e.g.,
+	|GEŠTU~a×ŠE~a@t| treated as |ŠE~a@t.GEŠTU~a| in PCSL).</li>
+	
 	<li>do not generally encode sequences; this includes sequences
 	which are named in CDLI-gh and CDLI-tc as single characters
 	but where the naming is an interpretive mnemonic for a sign

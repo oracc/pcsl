@@ -7343,6 +7343,10 @@
 @@
 @end sign
 
+@sign GIR@g~b
+@oid o0903563
+@end sign
+
 @sign |GIR.GIR|
 @oid o0900850
 @sys CDLI-gh img-page
@@ -13912,6 +13916,7 @@
 @form NUNUZ~a0
 @oid o0901613
 @aka	NUNUZ
+@aka NUNUZ~a1@n
 @list U+12A81
 @ucun 𒪁
 @uname NUNUZ-A0
@@ -14546,6 +14551,7 @@
 @form |SAG+UKKIN~b~v1×1(N57)|
 @oid o0901693
 @aka	|SAG+UKKIN~b1×1(N57)|
+@aka	|SAG×(UKKIN~b×1(N57))|
 @sys	ADD F3011 CUSAS21 SAG+UKKINx1N57.png
 @inote	CHECK
 @list U+F3011
@@ -16854,6 +16860,14 @@
 @form |ŠE~a.GAR|
 @oid o0901951
 @inote	CUSAS01 |ŠE~a.GAR~b|
+@@
+@end sign
+
+@sign |ŠE.GEŠTU|
+@oid  o0903565
+@form |ŠE~a@t.GEŠTU~a|
+@aka |GEŠTU~a×ŠE~a@t|
+@oid o0903566
 @@
 @end sign
 
@@ -27328,6 +27342,10 @@
 @sys	ACN 125B0
 @sys	ADD F3082 CUSAS31 1N30Ca.png
 @sys	AP23 125B1
+@form 1(N30~cp)
+@aka 1(N30′)
+@oid o0903562
+@@
 @end sign
 
 @sign 1(N30D)
@@ -29116,6 +29134,13 @@
 @list U+F3029
 @uname ADD NAME |2(N57).BIR₃~a|
 @@
+@end sign
+
+@compoundonly DU₆~a@n
+
+@sign |2(N57).DU₆~a@n|
+@oid o0903564
+@inote this may be an integral sign rather than as described
 @end sign
 
 @sign |2(N57).KU₆|
