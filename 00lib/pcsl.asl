@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -16239,14 +16239,10 @@
 
 @sign SUHUR@t
 @oid o0901885
-@inote @smap SUHUR~b@t
-@form SUHUR~b@t
-@oid o0901886
 @sys	ADD F3059 CUSAS01 SUHURb-t.png
 @inote	CUSAS01
 @list U+F3059
 @uname ADD NAME SUHUR~b@t
-@@
 @end sign
 
 @sign SUKKAL
@@ -29141,12 +29137,16 @@
 @@
 @end sign
 
-@compoundonly DU₆~a@n
+@sign DU₆~a@n
+@oid o0903567
+@list U+F3089
+@uname DU6-A NUTILLU
+@end sign
 
 @sign |2(N57).DU₆~a@n|
 @oid o0903564
 @inote this may be an integral sign rather than as described
-@useq xF0111.X
+@useq xF0111.xF3089
 @end sign
 
 @sign |2(N57).KU₆|

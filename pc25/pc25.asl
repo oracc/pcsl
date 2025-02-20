@@ -480,10 +480,6 @@
 @oid o0900162
 @end sign
 
-@sign BIR
-@oid o0900164
-@end sign
-
 @sign BIR~a
 @oid o0900165
 @end sign
@@ -1616,10 +1612,6 @@
 @oid o0900727
 @end sign
 
-@sign GAL
-@oid o0900728
-@end sign
-
 @sign GAL~a
 @oid o0900729
 @end sign
@@ -1759,10 +1751,6 @@
 @oid o0900800
 @end sign
 
-@sign GEŠTU~c
-@oid o0903405
-@end sign
-
 @sign GEŠTU~c3
 @oid o0900801
 @glyf 0 󺂖 FA096
@@ -1885,10 +1873,6 @@
 
 @sign GIR~d
 @oid o0900849
-@end sign
-
-@sign GIR@g~b
-@oid o0903563
 @end sign
 
 @sign GIR₂~a
@@ -2180,8 +2164,8 @@
 @oid o0900968
 @end sign
 
-@sign |(HI×1(N57))&(HI×1(N57))|
-@oid o0903408
+@sign |(HI×1(N57)).(HI×1(N57))|
+@oid o0900969
 @end sign
 
 @sign |HI×1(N57@t)|
@@ -2324,10 +2308,6 @@
 
 @sign |KA~a.ŠE~a@t|
 @oid o0903608
-@end sign
-
-@sign |KA₂×LAM|
-@oid o0901042
 @end sign
 
 @sign KA₂~a
@@ -2550,10 +2530,6 @@
 @oid o0901117
 @end sign
 
-@sign KISAL~c
-@oid o0901118
-@end sign
-
 @sign KISIM~a
 @oid o0901122
 @end sign
@@ -2576,10 +2552,6 @@
 @glyf 1 󺅈 FA148
 @end sign
 
-@sign KIŠIK
-@oid o0901130
-@end sign
-
 @sign KIŠIK~a
 @oid o0901131
 @end sign
@@ -2592,10 +2564,6 @@
 @oid o0901133
 @glyf 0 󺅉 FA149
 @glyf 1 󺅐 FA150
-@end sign
-
-@sign KU
-@oid o0901135
 @end sign
 
 @sign KU~a
@@ -2616,10 +2584,6 @@
 
 @sign KU₃~c
 @oid o0901143
-@end sign
-
-@sign KU₆
-@oid o0901144
 @end sign
 
 @sign KU₆~a
@@ -3412,10 +3376,6 @@
 @glyf 1 󺆈 FA188
 @end sign
 
-@sign NAM
-@oid o0901463
-@end sign
-
 @sign NAM~a
 @oid o0901464
 @end sign
@@ -3832,10 +3792,6 @@
 @glyf 1 󺈠 FA220
 @end sign
 
-@sign PAP@t
-@oid o0901642
-@end sign
-
 @sign PIRIG~a1
 @oid o0901645
 @end sign
@@ -3866,10 +3822,6 @@
 
 @sign RA
 @oid o0901657
-@end sign
-
-@sign RAD
-@oid o0901658
 @end sign
 
 @sign RAD~a
@@ -3955,7 +3907,7 @@
 @oid o0901699
 @end sign
 
-@sign |SAL.ME|
+@sign |SAL.ME~a|
 @oid o0901702
 @end sign
 
@@ -3994,10 +3946,6 @@
 
 @sign SANGA~e1
 @oid o0901715
-@end sign
-
-@sign SAR
-@oid o0901717
 @end sign
 
 @sign SAR~a
@@ -4464,10 +4412,6 @@
 @glyf 0 󺉖 FA256
 @glyf 1 󺉗 FA257
 @glyf 2 󺉘 FA258
-@end sign
-
-@sign |ŠA×HI@g|
-@oid o0901913
 @end sign
 
 @sign |(ŠA×HI@g~a)~a|
@@ -5678,10 +5622,6 @@
 @oid o0902409
 @end sign
 
-@sign UZ
-@oid o0902410
-@end sign
-
 @sign UZ~a
 @oid o0902411
 @end sign
@@ -6135,10 +6075,6 @@
 @oid o0902571
 @end sign
 
-@sign ZATU694
-@oid o0902572
-@end sign
-
 @sign ZATU694~a
 @oid o0902573
 @end sign
@@ -6159,10 +6095,6 @@
 
 @sign ZATU694~d@t
 @oid o0902580
-@end sign
-
-@sign ZATU694~e
-@oid o0902578
 @end sign
 
 @sign ZATU695
@@ -6267,10 +6199,6 @@
 
 @sign |ZATU714.RU|
 @oid o0902614
-@end sign
-
-@sign |ZATU714×HI@g|
-@oid o0902615
 @end sign
 
 @sign |ZATU714×HI@g~a|
@@ -6478,10 +6406,6 @@
 @glyf 3 󺎐 FA390
 @end sign
 
-@sign ZATU751
-@oid o0902696
-@end sign
-
 @sign ZATU751~a
 @oid o0902697
 @end sign
@@ -6599,10 +6523,6 @@
 
 @sign ZATU772
 @oid o0902737
-@end sign
-
-@sign ZATU773
-@oid o0902738
 @end sign
 
 @sign ZATU773~a
@@ -7348,10 +7268,6 @@
 @oid o0903340
 @end sign
 
-@sign 1(N29)
-@oid o0903031
-@end sign
-
 @sign 1(N29~a)
 @oid o0903032
 @glyf 0 󺐡 FA421
@@ -7384,10 +7300,6 @@
 
 @sign 1(N30~b)
 @oid o0903047
-@end sign
-
-@sign 1(N30~cp)
-@oid o0903562
 @end sign
 
 @sign 1(N30A)
