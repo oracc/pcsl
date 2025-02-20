@@ -6,7 +6,7 @@
 $ beginning broken
 1'. 1(N01) , [...]
 >>Q000002 014
-2'. 1(N01) , TIM ABGAL#
+2'. 1(N01) , ABGAL#
 >>Q000002 015
 3'. 1(N01) , KINGAL#
 >>Q000002 016
@@ -38768,7 +38768,7 @@ $ (not given)
 @column 3 
 1. 1(N01) , |U4x1(N57)|# X [...] 
 2. 1(N01)# [...] , [...] 
-@obverse 
+@reverse 
 $ beginning broken 
 $ blank space 
 
@@ -75003,9 +75003,9 @@ $ broken
 #tr.en: 2(+) bur3, male and female laborers, 
 1.c. [N] , [GAN2 KI A] 
 #tr.en: ... field, irrigated; 
-2.a. 1(N50) [n?] 4(N14) 2(N22)# , |SZE~a&SZE~a|# ME~a# |NI~a.RU| 
+2.a. 1(N50) [N?] 4(N14) 2(N22)# , |SZE~a&SZE~a|# ME~a# |NI~a.RU| 
 #tr.en: 14(+) bur3 2 eše3 field, in barley, of the priest of NIRU (Jemdet Nasr), 
-2.b. 2(N14)# [n?] , GURUSZ~a# SAL# 
+2.b. 2(N14)# [N?] , GURUSZ~a# SAL# 
 #tr.en: 2 bur3 ... male and female laborers, 
 2.c. [N] , [GAN2 KI A] 
 #tr.en: ... field, irrigated; 
@@ -75016,7 +75016,7 @@ $ broken
 1. [1(N45)] 5(N50)# [N] , [GAN2 |SZE~a&SZE~a|] 
 #tr.en: 1 šar2 50 ... bur3 field, in barley, 
 # calculation: total of all “fields in barley” 
-2. 1(N50)# [2(N14) n] , [GURUSZ~a SAL] 
+2. 1(N50)# [2(N14) N] , [GURUSZ~a SAL] 
 #tr.en: 12(+) bur3, male and female laborers, 
 # calculation: total of all “fields of laborers” 
 3. 3(N45)# 2(N50)# 5(N14)# [N] , [GAN2 KI A] 
@@ -83819,7 +83819,7 @@ $ (no legend)
 1.b19. , (TU~a EN~a# [...])a 
 2.a. 6(N01) , TUR EN~a 
 2.b1. , (KASZ~c AN NA~a ME~a)a 
-2.b2. , (|(HIx1(N57))&(HI+1(N57))| EN~a)a 
+2.b2. , (|(HIx1(N57))&(HIx1(N57))| EN~a)a 
 2.b3. , (PAP~a)a 
 2.b4. , (GIR3@g~b 3(N57))a 
 2.b5. , (UR~a? URI3~a)a 
@@ -91629,7 +91629,7 @@ $ (no linguistic content)
 @tablet 
 @obverse 
 @column 1 
-1. [...] 1(N01)# , GADA~a@g 
+1. [...] 1(N01)# , GADA~b@g 
 2. 1(N01)# , X SIG2~b# 
 3. [...] , [...] SIG2~b# 
 4. [...] , [...] 
@@ -94966,7 +94966,8 @@ $ (not given)
 @obverse 
 @column 1 
 1. [...] 2(N14)# [...] 
-2. 1(N24) , GAR 
+2. 1(N24) , GAR
+# CUSAS 31, 119 edition and copy has SZE~a before GAR
 3. , AB~a#? 
 4.a. 1(N14) 1(N01) , DUG~a KUR~b 
 4.b. 3(N02)? , 
@@ -94974,7 +94975,7 @@ $ (not given)
 6. 1(N39~a) 1(N24) , [...] 
 @column 2 
 1. 2(N39~a)# , [...] 
-2. 2(N39~a) 1(N24) , [...] SZE~a GAR~b 
+2. 2(N39~a) 1(N24) , [...] SZE~a GAR 
 3. 2(N39~a) , [...] 
 4. 1(N39~a) DU8~c# 
 5.a. 1(N39~a) , [...] 
@@ -95572,7 +95573,8 @@ $ broken
 2. [...] , [...] X NAM2 
 @column 2 
 1.a. 5(N19) , 
-1.b. 1(N30c') , 
+1.b. 1(N30~cp) ,
+# original 1(N30~c') but oxx doesn't handle that yet
 2. 2(N19) 1(N04) , 
 @column 3 
 1.a. 4(N19) , 
@@ -95993,8 +95995,8 @@ $ broken
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 2(N45)#? 2(N14)? 3(N01) n , 
-2. 1(N45) 4(N14)#? n , 
+1. 2(N45)#? 2(N14)? 3(N01) N , 
+2. 1(N45) 4(N14)#? N , 
 @reverse 
 $ blank space 
 # seal impression 
@@ -96887,7 +96889,7 @@ $ (no linguistic content)
 2. 7(N01) , NAM2 TUKU 
 3. 2(N01)# , GAN2 
 4. , UMBIN~a A A SAG 
-$ double ruling vertical 
+$ (double ruling vertical) 
 @column 3 
 1. 4(N01) , GESZTU~b 
 2. 3(N01) , EN~a SZU NUN~a 
@@ -96898,7 +96900,7 @@ $ double ruling vertical
 @column 4 
 1. 3(N01) , GAN2 
 2. , U2~b SAG KISZ 
-$ double ruling vertical 
+$ (double ruling vertical) 
 @reverse 
 1. 5(N14) 1(N01) , KISZ SAG U2~b# BA UMBIN~a A A 
  
@@ -98552,7 +98554,7 @@ $ blank
 @tablet 
 @obverse 
 @column 1 
-1. 5(N47) , SANGA~a# |U4x3(N57)| 
+1. 5(N57) , SANGA~a# |U4x3(N57)| 
 @column 2 
 1. , KU6~a KISAL~b1 
 2. MUSZEN# E2~a 
@@ -99251,7 +99253,7 @@ $ blank
 1.a3. 2(N01) , ZATU726~d 
 1.a4. 2(N01) , SIG2~a2 
 1.a5. 5(N01) , GUG2 
-1.b. 1(N39~a)# 1(N24)#? 1(N28~a) , HI@g~a 
+1.b. 1(N39~a)# 1(N24)#? 1(N29~a) , HI@g~a 
 2.a. 5(N01) , SUR 
 2.b. 1(N28) , SZE~a# 
 3.a1. 2(N01) , SZA# 
@@ -101304,7 +101306,8 @@ $ blank
 2. 1(N38) 
 3. [...] , [...] 
 4. 4(N01) , SUHUR@t 1(N57) 
-5. 1(N14) , |GA2~a1xZATU693| GISZ3~b 
+5. 1(N14) , X GISZ3~b
+# CUSAS 01, 183 |GA2~a1xZATU693| is not a good description of the sign based on collation from photo.
 6. 4(N01) , X 
 $ blank 
 @reverse 
@@ -103758,7 +103761,7 @@ $ (no linguistic content)
 @tablet 
 @obverse
 1. 5(N01) , X? 
-1. 4(N01)? , 
+2. 4(N01)? , 
 @reverse 
 $ blank space 
 # seal impression 
@@ -103940,7 +103943,7 @@ $ (no linguistic content)
 #atf: lang qpc
 @tablet 
 @obverse 
-1. , IB~a ? 
+1. , IB~a? 
 @reverse 
 $ blank space 
 1. 3(N01)#? , 
@@ -104164,7 +104167,9 @@ $ (no linguistic content)
 $ blank space 
 # seal impression 
 @seal 1 
-$ (no linguistic content) &P342596 = MS 0188/105
+$ (no linguistic content)
+
+&P342596 = MS 0188/105
 #atf: lang qpc
 @tablet 
 @obverse 
@@ -104267,7 +104272,8 @@ $ blank space
 #atf: lang qpc
 @tablet 
 @obverse 
-1. 2(N01) 1(N39@b)? , 
+1. 2(N01) 1(N14)? ,
+# CDLI "1(N39@b)?" is an impressed circle; possibly 1(N14)
 @reverse 
 $ blank space 
 
@@ -104838,7 +104844,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |3(N57).NUNUZ~b| 
+1. 1(N01) |3(N57).NUNUZ~c| 
 $ blank space 
 @reverse 
 $ blank space 
@@ -105706,7 +105712,9 @@ $ blank space
 2. , TUR3~a 
 @reverse 
 $ blank space 
- &P387571 = CUSAS 21, 298
+
+
+&P387571 = CUSAS 21, 298
 #atf: lang qpc 
 @tablet 
 @obverse 
@@ -105775,7 +105783,8 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |SAGx(UKKIN~bxDIN)|? 
+1. 1(N01) |SAGx(UKKIN~bx1(N57))|
+# CUSAS 21 |SAGx(UKKIN~bxDIN)|? 
 @reverse 
 $ blank space 
 
@@ -106239,7 +106248,9 @@ $ blank space
 $ blank space 
 @reverse 
 $ blank space 
- &P387725 = CUSAS 21, 180 
+
+
+&P387725 = CUSAS 21, 180 
 #atf: lang qpc 
 @tablet 
 @obverse 
@@ -109514,7 +109525,7 @@ $ broken
 4.a. 2(N14) 1(N01) , GI# 
 4.b1. 5(N01) , PA~a 
 4.b2. 2(N01) , RU 
-4.b3. 1(N01) , X MUSEN 
+4.b3. 1(N01) , X MUSZEN 
 4.b4. 6(N01) , X E2~a 
 4.b5. 6(N01) , X 
 5. , UBI~c 
@@ -110383,14 +110394,6 @@ $ beginning broken
  
 
 
-&P473391 = CDLI Seals 007136 (physical) 
-#atf: lang nlc 
-@object seal 
-@surface a 
-$ (no linguistic content) 
-
-
-
 &P480044 = CUSAS 21, 163 
 #atf: lang qpc 
 @tablet 
@@ -110711,9 +110714,9 @@ $ rest broken
 # cf. Englund, Timekeeping p. 138 
 1.b1. 1(N39~a) 1(N24) , X 
 1.b2. 2(N01) , X X 
-1.a. N , X [...] 
-1.b1. 1(N01) [...] , [...] 
-1.b2. [...] , [...] 
+2.a. N , X [...] 
+2.b1. 1(N01) [...] , [...] 
+2.b2. [...] , [...] 
 $ rest broken 
 @column 2 
 1. N 3(N39~a) , X 
@@ -110849,6 +110852,6 @@ $ beginning broken
 3.b'. X SAL DU KI~a 
 4'. [...] IM~a X IB~a RAD~a
 @reverse 
-$ bloken 
+$ broken 
 
 
