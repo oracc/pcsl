@@ -21492,175 +21492,6 @@ $ blank space
 #>>Q000265 colophon 
 
 
-&P000723 = CDLI Lexical 000003, ex. 010 
-#atf: lang qpc 
-@tablet 
-@obverse 
-# all entries preceded by 1(N01) 
-@column 1 
-$ beginning broken 
-1'. [...] |1(N58).BAD~a|# 
->>Q000002 012 
-2'. EN~a# IB~a 
->>Q000002 013 
-3'. [...] 
->>Q000002 014 
-$ rest broken 
-@column 2 
-$ beginning broken 
-1'. GADA~a SUKKAL 
->>Q000002 019 
-2'. GAL~a GARA2~a 
->>Q000002 020 
-3'. TUG2~a GARA2~a 
->>Q000002 021 
-$ rest broken 
-@reverse 
-@column 1 
-$ beginning broken 
-1'. [...] 
->>Q000002 038 
-2'. GAL~a GISZGAL 
->>Q000002 039 
-3'. GAL~a |ZATU737xDI| 
->>Q000002 040 
-4'. SANGA~a |ZATU737xX| 
->>Q000002 041 
-5'. SANGA~a# |ZATU737xX|# 
->>Q000002 042 
-$ rest broken 
-@column 2 
-$ beginning broken 
-1'. ZATU725#? 
->>Q000002 051 
-2'. DAM#? 
->>Q000002 052 
-$ rest broken 
-
-
-&P000724 = CDLI Lexical 000013, ex. 23 
-#atf: lang qpc 
-@tablet 
-@obverse 
-$ (lines preceded by 1(N01) , ) 
-@column 1 
-$ beginning broken 
-1'. [...] SUHUR#? 
->>Q000013 003 
-2'. SUHUR 
->>Q000013 004 
-3'. |(SUKUD+SUKUD)~c| 
->>Q000013 005 
-4'. PAP~a SUKUD 
->>Q000013 006 
-5'. HI SUKUD 
->>Q000013 007 
-6'. X KU6~a 
->>Q000013 008 
-7'. NUN~a SUMASZ 
->>Q000013 009 
-8'. LAK777 
->>Q000013 010 
-9'. U4 KU6~a 
->>Q000013 011 
-10'. UBI~a 
->>Q000013 012 
-11'. AB~a UBI~a 
->>Q000013 013 
-12'. NE~a# [...] 
->>Q000013 014 
-13'. [...] 
->>Q000013 015 
-14'. USZ~a# 
->>Q000013 016 
-15'. LAK025 
->>Q000013 017 
-16'. AB2 KU6~a 
->>Q000013 018 
-17'. HI# [...] 
->>Q000013 019 
-@column 2 
-$ beginning broken 
-1'. KU~a# [...] 
->>Q000013 022 
-2'. SUMASZ KU6~a# 
->>Q000013 023 
-3'. NUN~a KU6~a 
->>Q000013 024 
-4'. NUN~a SILA3~a KU6~a 
->>Q000013 025 
-5'. NUN~a AB~a KU6~a 
->>Q000013 026 
-6'. GIR~a 
->>Q000013 027 
-7'. KIN GIR~a# 
->>Q000013 028 
-8'. GIR2~a KU6~a 
->>Q000013 029 
-9'. TAG~a1? KU6~a 
->>Q000013 030 
-10'. ME~a DU KU6~a 
->>Q000013 031 
-11'. UR4~a E2~a KU6~a 
->>Q000013 032 
-12'. MUL KU6~a 
->>Q000013 033 
-13'. AB~a KU6~a 
->>Q000013 034 
-14'. [...] KU6~a#? 
->>Q000013 035 
-$ rest broken 
-@column 3 
-$ beginning broken 
-1'. [...] 
->>Q000013 043 
-2'. [...] 
->>Q000013 044 
-3'. NAGA~a# GA~a# [...] 
->>Q000013 045 
-4'. [...] 
->>Q000013 046 
-5'. [...] 
->>Q000013 047 
-6'. [...] 
->>Q000013 048 
-7'. [...] 
->>Q000013 049 
-8'. [...] 
->>Q000013 050 
-9'. X [...] 
->>Q000013 051 
-10'. X [...] 
->>Q000013 052 
-11'. X [...] 
->>Q000013 053 
-12'. GU4 [...] 
->>Q000013 054 
-$ rest broken 
-@reverse 
-$ blank space 
-1. [...] 
->>Q000013 colophon 
-
-
-&P000729 = IM ?
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. , SAL SAL
-2. , SAL
-3. , AN 1(N57)
-4. , AN SZE3#?
-5. , [...] AMAR
-@column 2
-1. , 1(N57)? [...]
-2. , MA
-3. , AN AMAR
-4. , AN AK~a#
-5. , NAM2# NAM2
-
-
 &P000730 = ATU 5, pl. 001, W 1872,1
 #atf: lang qpc 
 @tablet 
@@ -21998,53 +21829,6 @@ $ blank space
 1. [...] 2(N01) , [...] U8# 
 @column 2 
 1. [...] , [...] BA#? 
- 
-
-
-&P000753 = ATU 5, pl. 004, W 6245,c
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14) 9(N01)# , 
-@column 2 
-1. 5(N01) , 
-2. 3(N01)# , 
-@bottom 
-@column 1 
-1. 3(N01)? , 
-2. 1(N01) , 
-@reverse 
-@column 1 
-1. 6(N01) , 
-@column 2 
-1. 5(N01) , 
- 
-
-
-&P000754 = ATU 5, pl. 004, W 6245,d1
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N01)# [...] , 
-@column 2 
-1. 2(N01)# [...] , 
-@bottom 
-@column 1 
-1. 2(N01) , 
-@reverse 
-@column 1 
-1. [...] 1(N01)# , 
- 
-
-
-&P000755 = ATU 5, pl. 004, W 6245,d2
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 4(N14)# 4(N01)# , 
  
 
 
@@ -22545,105 +22329,6 @@ $ blank space
  
 
 
-&P000793 = ATU 5, pl. 011, W 6613,a
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1.a. 4(N01) , 
-1.b. 1(N01) , 
- 
-
-
-&P000794 = ATU 5, pl. 011, W 6613,b
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01)? , 
-@column 2 
-1. 2(N01)? , 
-@bottom 
-@column 1 
-1. 1(N01)? , 
- 
-
-
-&P000795 = ATU 5, pl. 011, W 6613,c
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01) , 
- 
-
-
-&P000796 = ATU 5, pl. 011, W 6613,d
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 5(N01)# , 
-@column 2 
-1. [...] 5(N01)# , 
-@reverse 
-@column 1 
-1. [...] 1(N01)# , 
-2. [...] 2(N01)# , 
- 
-
-
-&P000797 = ATU 5, pl. 009, W 6613,e
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N14)# [...] , [...] 
-@reverse 
-@column 1 
-1. 3(N14)#? , [...] 
- 
-
-
-&P000798 = ATU 5, pl. 011, W 6613,f
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] X 
-2. 2(N01) , 
- 
-
-
-&P000799 = ATU 5, pl. 011, W 6613,g
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N01)# [...] , [...] 
- 
-
-
-&P000800 = ATU 5, pl. 012, W 6613,h
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N01)# [...] , 
-@column 2 
-1. [...] 1(N01)# [...] , 
- 
-
-
-&P000801 = ATU 5, pl. 012, W 6613,?
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 4(N01)# [...] , 
- 
-
-
 &P000802 = ATU 5, pl. 012, W 6616
 #atf: lang qpc 
 @tablet 
@@ -22651,16 +22336,6 @@ $ blank space
 @column 1 
 1. [...] 1(N51)# 1(N34)# [...] , [...] 
  
-
-&P000803 = ATU 5, pl. 012, W 6704
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N01)# , 
-2. [...] 3(N01) , 
- 
-
 
 &P000804 = ATU 5, pl. 012, W 6705,a
 #atf: lang qpc 
@@ -23126,24 +22801,6 @@ $ blank space
  
 
 
-&P000842 = ATU 5, pl. 016, W 6782,a
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N14)# 5(N01)# , DUG~b#? 
- 
-
-
-&P000843 = ATU 5, pl. 016, W 6782,b
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01)# [...] , 
- 
-
-
 &P000844 = ATU 5, pl. 016, W 6786,d
 #atf: lang qpc 
 @tablet 
@@ -23159,15 +22816,6 @@ $ blank space
 @column 1 
 1. 1(N01) [...] , [...] 
  
-
-&P000845 = ATU 5, pl. 016, W 6808
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N01) , 
- 
-
 
 &P000846 = ATU 5, pl. 016, W 6820
 #atf: lang qpc 
@@ -23185,16 +22833,6 @@ $ blank space
 @column 1 
 1. 1(N01) , ZATU644~b 
 2. [...] , [...] 
- 
-
-
-&P000847 = ATU 5, pl. 016, W 6841
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01)# , 
-2. 2(N01) , 
  
 
 
@@ -23225,18 +22863,6 @@ $ blank space
 @column 2 
 1. [...] 1(N01) , DUG~c 
 2. 2(N01) , SZU2 
- 
-
-
-&P000852 = ATU 5, pl. 017, W 6881,b
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N34)# 1(N14)# 4(N01)# , UDU~a X 
-@reverse 
-@column 1 
-1. 9(N01)# , UDU~a# 
  
 
 
@@ -23548,15 +23174,6 @@ $ blank space
  
 
 
-&P000899 = ATU 5, pl. 020, W 6883,a
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N34)# 4(N14) 3(N01)# , 
- 
-
-
 &P000900 = ATU 5, pl. 020, W 6883,b
 #atf: lang qpc 
 @tablet 
@@ -23568,59 +23185,12 @@ $ blank space
  
 
 
-&P000901 = ATU 5, pl. 021, W 6883,e
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N01) , [...] 
- 
-
-
-&P000902 = ATU 5, pl. 021, W 6883,g
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N34) 5(N01)# , 
- 
-
 &P000903 = ATU 5, pl. 021, W 6883,h
 #atf: lang qpc 
 @tablet 
 @obverse 
 @column 1 
 1. [...] 1(N01)# , SZU2 
- 
-
-
-&P000904 = ATU 5, pl. 021, W 6883,i
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N01)# , 
- 
-
-
-&P000905 = ATU 5, pl. 021, W 6883,l
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N34)# 2(N14)# 2(N01)# [...] , 
- 
-
-
-&P000906 = ATU 5, pl. 021, W 6883,m
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N34)# 2(N14)# [...] , 
-@reverse 
-@column 1 
-1. 3(N01) , 
  
 
 
@@ -23679,15 +23249,6 @@ $ blank space
  
 
 
-&P000913 = ATU 5, pl. 022, W 6883,t2
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N14) 2(N01)# [...] , [...] 
- 
-
-
 &P000914 = ATU 5, pl. 022, W 6883,v
 #atf: lang qpc 
 @tablet 
@@ -23721,15 +23282,6 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] , [...] 
- 
-
-
-&P000918 = ATU 5, pl. 022, W 6883,?
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14) 2(N01) [...] , [...] 
  
 
 
@@ -23901,26 +23453,6 @@ $ blank space
  
 
 
-&P000929 = ATU 5, pl. 024, W 7038
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N01@r)? , 
-@column 2 
-1. 7(N01) , 
- 
-
-
-&P000930 = ATU 5, pl. 024, W 7067,a
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N01) , 
- 
-
-
 &P000931 = ATU 5, pl. 024, W 7067,b
 #atf: lang qpc 
 @tablet 
@@ -23930,15 +23462,6 @@ $ blank space
 @reverse 
 @column 1 
 1. 1(N14)# [...] , DUG~a 
- 
-
-
-&P000932 = ATU 5, pl. 024, W 7067,c
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 4(N01)# , [...] 
  
 
 
@@ -23960,15 +23483,6 @@ $ blank space
 @reverse 
 @column 1 
 1. [...] 2(N01)# [...] , [...] 
- 
-
-
-&P000935 = ATU 5, pl. 024, W 7067,f
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N14)# [...] , 
  
 
 
@@ -24011,36 +23525,6 @@ $ blank space
  
 
 
-&P000940 = ATU 5, pl. 025, W 7092,b
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N14)# [...] , [...] 
- 
-
-
-&P000941 = ATU 5, pl. 025, W 7092,c
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14)# 3(N01)# [...] , [...] 
- 
-
-
-&P000942 = ATU 5, pl. 025, W 7092,d
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 5(N01)# , 
-@bottom 
-@column 1 
-1. [...] 2(N01)# , 
- 
-
-
 &P000943 = ATU 5, pl. 025, W 7092,e
 #atf: lang qpc 
 @tablet 
@@ -24048,17 +23532,6 @@ $ blank space
 @column 1 
 1. 1(N34)#? , [...] 
  
-
-&P000944 = ATU 5, pl. 025, W 7092,f
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01) [...] , 
-@column 2 
-1. 2(N01) [...] , 
- 
-
 
 &P000945 = ATU 5, pl. 025, W 7092,g
 #atf: lang qpc 
@@ -24078,35 +23551,12 @@ $ blank space
  
 
 
-&P000949 = ATU 5, pl. 025, W 7092,l1
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14)# [...] 2(N01)# [...] , [...] 
- 
-
-
 &P000950 = ATU 5, pl. 026, W 7092,l2
 #atf: lang qpc 
 @tablet 
 @obverse 
 @column 1 
 1. 1(N34)#? [...] , [...] 
- 
-
-
-&P000952 = ATU 5, pl. 025, W 7092,o
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14)# 3(N01)# [...] , 
-@column 2 
-1. 4(N01)# [...] , 
-@bottom 
-@column 1 
-1. 1(N01) [...] , 
  
 
 
@@ -24119,36 +23569,12 @@ $ blank space
  
 
 
-&P000954 = ATU 5, pl. 026, W 7204,a+
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14)# 2(N01)# [...] , [...] 
- 
-
-
 &P000955 = VA — ?
 #atf: lang qpc 
 @tablet 
 @obverse 
 @column 1 
 1. [...] 1(N14)# , [...] 
-@reverse 
-@column 1 
-1. [...] , [...] 
- 
-
-
-&P000957 = ATU 5, pl. 026, W 7204,d
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] 
-@bottom 
-@column 1 
-1. 5(N23)# [...] , [...] 
 @reverse 
 @column 1 
 1. [...] , [...] 
@@ -24372,93 +23798,6 @@ $ blank space
  
 
 
-&P000970 = ATU 5, pl. 028, W 7272,a
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 4(N01)# , 
-@column 2 
-1. [...] 4(N01)# , 
- 
-
-
-&P000971 = ATU 5, pl. 028, W 7272,b
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 3(N01)# , 
-2. 2(N01) , 
-@column 2 
-1. 2(N01)# , 
-@column 3 
-1. 2(N01) , 
-@reverse 
-@column 1 
-1. 4(N01)# [...] , 
- 
-
-
-&P000972 = ATU 5, pl. 029, W 7272,c
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 4(N01) , 
-2. 2(N01) , 
-@column 2 
-1. 7(N01)# , 
-2. 2(N01)# , 
-@bottom 
-@column 1 
-1. 2(N01)# , 
-@column 2 
-1. [...] 2(N01)# , 
- 
-
-
-&P000973 = ATU 5, pl. 029, W 7272,d
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 4(N01)# , 
-@column 2 
-1. 5(N01)# , 
- 
-
-
-&P000974 = ATU 5, pl. 029, W 7272,e
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14) [...] 5(N01)# , 
- 
-
-
-&P000975 = ATU 5, pl. 029, W 7272,f
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01)# [...] , 
-@column 2 
-1. 2(N01) , 
-2. 1(N01)# [...] , 
- 
-
-
-&P000976 = ATU 5, pl. 029, W 7272,g
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N01)# , 
- 
-
-
 &P000977 = ATU 5, pl. 029, W 7272,h
 #atf: lang qpc 
 @tablet 
@@ -24535,28 +23874,6 @@ $ blank space
  
 
 
-&P000987 = ATU 5, pl. 031, W 7357
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 8(N01) , 
-@bottom 
-@column 1 
-1. [...] 2(N14)#? , 
-@column 2 
-1. 4(N01)#? [...] , 
-@column 3 
-1. 1(N01) , 
-2. 2(N01) , 
-@reverse 
-@column 1 
-1. 6(N01)# [...] , 
-@column 2 
-1. 2(N14) 2(N01) , 
- 
-
-
 &P000988 = ATU 5, pl. 031, W 7406
 #atf: lang qpc 
 @tablet 
@@ -24606,15 +23923,6 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 1(N34)#? , [...] 
- 
-
-
-&P000992 = ATU 5, pl. 031, W 7882
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 5(N14)#? , 
  
 
 
@@ -24873,35 +24181,6 @@ $ blank space
 @column 1 
 1. [...] , ZATU737# X AB2# [...] 
  
-
-&P001013 = ATU 5, pl. 034, W 9071,k
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] 
-@column 2 
-1. 1(N01) [...] , [...] 
- 
-
-
-&P001014 = ATU 5, pl. 034, W 9071,l
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N01)# , [...] 
- 
-
-
-&P001016 = ATU 5, pl. 034, W 9071,n
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] 
- 
-
 
 &P001018 = ATU 6, pl. 001, W 9071,p
 #atf: lang qpc 
@@ -27167,24 +26446,6 @@ $ blank space
  
 
 
-&P001225 = ATU 5, pl. 055, W 9335,w
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 6(N01)# [...] , 
-@column 2 
-1. 7(N01) , 
-@bottom 
-@column 1 
-1. 5(N01) , 
-@reverse 
-@column 1 
-1. [...] , 
-2. 2(N01) , 
- 
-
-
 &P001226 = ATU 5, pl. 056, W 9393,a
 #atf: lang qpc 
 @tablet 
@@ -28224,15 +27485,6 @@ $ blank space
 @obverse 
 @column 1 
 1. 2(N01)# , KUR~a GURUSZ~a EN~b U2~b 
- 
-
-
-&P001311 = ATU 5, pl. 070, W 9579,bo
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N01) , 
  
 
 
@@ -31079,54 +30331,6 @@ $ blank space
  
 
 
-&P001545 = ATU 5, pl. 101, W 9656,ea+
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14) , [...] 
- 
-
-
-&P001546 = ATU 5, pl. 101, W 9656,eb
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N14)# [...] 6(N01)# , [...] 
- 
-
-
-&P001547 = ATU 5, pl. 101, W 9656,ec
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N14)# [...] , [...] 
-@reverse 
-@column 1 
-1. [...] , X [...] 
- 
-
-
-&P001548 = ATU 5, pl. 101, W 9656,ed
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N01)# , [...] 
- 
-
-
-&P001549 = ATU 5, pl. 101, W 9656,ee
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] 
- 
-
-
 &P001550 = ATU 5, pl. 102, W 9656,ef
 #atf: lang qpc 
 @tablet 
@@ -32755,15 +31959,6 @@ $ rest broken
 1. 2(N45) 4(N50) , SZE~a# SAR~a# [...] 
 @column 3 
 1. 2(N45) 2(N50)#? [...] , BARA2~a#? [...] 
- 
-
-
-&P001690 = ATU 5, pl. 119, VAT 17821
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 3(N01)# , [...] 
  
 
 
@@ -45892,28 +45087,6 @@ $ (not given)
 @column 1 
 1. 2(N14)? , SZE3? 
  
-
-
-&P002830 = IM 046069
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 6(N01)# [...] , [...]
-2. 6(N01)# [...] , [...]
-
-
-&P002831 = IM 046161,1
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 3(N14) [...] , [...]
-@column 2
-1. 1(N01) [...] , [...]
-@reverse
-@column 1
-1. [...] , [...] TUG2~a#?
 
 
 &P002833 = W 17879,b
@@ -75585,22 +74758,6 @@ $ blank space
  
 
 
-&P005042 = VAT 17872
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...]
-@column 2
-1. [...] 3(N01@f) , SAG
-2. , SAG#? [...]
-@column 3
-1. , AMAR KISAL~b1
-2. , LU2# [...]
-@column 4
-1. , AMAR BU~a# AN# [...]
-
-
 &P005043 = ATU 6, pl. 090, VAT 17884,a
 #atf: lang qpc 
 @tablet 
@@ -75813,15 +74970,6 @@ $ beginning broken
 $ rest broken 
 @reverse 
 $ broken 
- 
-
-
-&P005067 = ATU 5, pl. 121, 1851-1-1, 217
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N14) 3(N01) , 
  
 
 
@@ -80930,24 +80078,6 @@ $ blank space
  
 
 
-&P005303 = MSVO 1, 236
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 8(N01)# , 
- 
-
-
-&P005304 = MSVO 1, 237
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 5(N14) , 
-2. 3(N14) , 
- 
-
 &P005305 = MSVO 1, 238
 #atf: lang qpc 
 @tablet 
@@ -84727,318 +83857,6 @@ $ (no linguistic content)
  
 
 
-&P005961 = VAT 15262
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...]
-2. 1(N01) , EN~a
-3. 1(N01) , X
-4. 1(N01) , URUDU~a
-5. 1(N01) , HAL AB2#?
-6. 1(N01) , 3(N57) AB2#?
-7. 1(N01) , X
-@column 2
-1. 1(N01) , X [...]
-2. 1(N01) , X UDU~a [...]
-3. 1(N01) , X UDUNITA~a?
-4. 1(N01) , U8?
-5. 1(N01) , 3(N57) AB2
-6. 1(N01) , 4(N57) AB2
-7. 1(N01) , X [...]
-
-
-&P005962 = VAT 15241
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , TUR# [...]
-2. 1(N57) , NAM2 KAB
-3. 1(N57) , SANGA~a MU
-4. 1(N57) , KAK~a
-5. 1(N57) , ME~a
-6. , GESZTU~b
-@column 2
-1. 4(N14) 2(N01) , ZATU628~a
-@column 3
-1. [...] , [...]
-2. [...] , SZA3~c#? AB2 [...]
-3. , MU UMBIN~a
-@column 4
-1. , SANGA~a GAL~a NUN~a
-
-
-&P005964 = VAT 15232
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , SZU2
-2. 1(N01) , SZITA@g~b
-3. 1(N01) , NUMUN SZA3~a1
-4. 3(N01) , SZITA~a1
-5. , USZ~a
-6. 1(N01) , SZITA@g~b
-7. 4(N01) , TE SZITA~a1 SZU
-8. 2(N01) , SZITA~a1
-9. 2(N01) , TAR~a UDU~a SILA3~a
-10. 1(N01) , NUMUN SZA3~a1
-11. 5(N01) , SZITA~a1
-@column 2
-1. [...] , [...]
-2. 2(N01) , SZITA@g~b
-3. 1(N01) , NUMUN# SZA3~a1#
-4. 6(N01) , DU8~c@g
-5. , GAL~a TE
-6. 1(N01) , SZITA@g~b#
-7. 1(N01) , TAR~a UDU~a SILA3~a
-8. 6(N01) [...] , SZITA~a1
-9. , GAL~a GURUSZ~a
-@reverse
-@column 1
-1. 1(N14) 1(N01) , SZITA@g~b HAL
-2. 3(N14) , SZITA@g~b [...]
-
-
-&P005965 = ATU 1, 611
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , X [...]
-2. [...] , X [...]
-3. [...] , SZESZ~a [...]
-4. [...] , U4 [...]
-5. 1(N01) [...] , SILA4~b# [...]
-6. 1(N01) [...] , [...]
-@column 2
-1. 1(N01) [...] , |ZATU737xSZITA@g~a|
-2. [...] , [...]
-3. 1(N01) [...] , SILA4~b NUN~a X
-4. [...] , SILA4~b KU3~a?
-5. 1(N01) , |GA2~a1xSUHUR|? GAR
-@column 3
-1. 1(N01) , AN DU6~a
-2. [...] , [...]
-3. [...] , [...]
-4. 1(N01) , PIRIG~a1 [...]
-5. 1(N01) , X ZATU651? [...]
-6. 1(N01) , SILA4~b KISIM~b?
-
-
-&P005968 = ATU 6, pl. 1, W 10324
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...] X KALAM~a
-2. [...] 4(N14) , KALAM~a BAN~b? DUB~a
-3. 2(N22) , PA~a NAM2
-4. 1(N22) 3(N01) , BAN~b? DI#
-@column 2
-1. [...] 1(N14) , NAM2# [...]
-2. 1(N22) , URI3~a# DUB~a SANGA~a# [...]
-3. 2(N22) [...] , [...]
-
-
-&P005969 = W 13922 
-#atf: lang qpc 
-@obverse 
-@column 1 
-1. , GAR KASZ~a A SZE~a BUR~a 
-2. 1(N01@f) , 3(N57) SAL NI~b 
-3. 3(N01@f) , DAR~a KU6~a 
-4. 1(N01@f) , KASZ~b 
-5. 4(N14)? , SZE SZITA~a? 
-@column 2 
-1. , SAG X MUSZ3~a? 
-2. , KI |GA2~a1xX| X 
-3. , LU2 AL AN AN NIN 
-@reverse 
-@column 1 
-$ (traces) 
-@column 2 
-$ (traces) 
-
-
-&P005971 = VAT 16818
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] 1(N14) , MASZ2# DU DU A
-2. 1(N14) , MASZ2 AMAR KIB@g?
-3. , ARARMA2~a#
-@column 2
-1. [...] , [...] X BALAG#?
-2. , GU7
-
-&P005972 = VAT 16913
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 6(N01@f) , [...] X X
-2. 1(N14@f) 3(N01@f)# , X AMA~b IGI BUR~a
-3. [...] , [...] X KASZ~b
-4. [...] , [...] X
-@column 2
-1. ,
-2. 2(N14@f) , AMAR [...]
-3. , [...]
-
-
-&P005973 = VA ?
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 2(N34@f)? [...] , X X GA~a
-2. , EDIN?
-3. 5(N34@f) 4(N14@f) 5(N01@f)? [...] , [...]
-@column 2
-1. 1(N34@f)#? [...] , [...]
-2. 1(N34@f)#? [...] , [...]
-
-
-&P005974 = IM 046161,2
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 1(N14) , TUR# [...]
-2. 4(N14) , GAL~a ERIM~a# [...]
-3. 2(N14) 5(N01) , X X
-@column 2
-1. [...] , [...] X
-
-
-&P005975 = VAT 17862
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 2(N01) , X UD5~a
-2. , ASAL2 RU
-3. 1(N01) , URI3~a IB~a KISAL~b1 IGI BUR~a DU
-
-
-&P005976 = IM 046163
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...] X
-2. [...] , [...] X
-3. [...] , [...] GESZTU~a# GESZTU~a
-4. [...] , [...] X X
-5. [...] , [...] X KI
-
-
-&P005978 = ATU 7, pl. 17, W 19412,1
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] 1(N19)# , [...] NIN#
-2. 2(N19) , |DUG~bxHI| SAL
-3. 2(N19)# 3(N04) , |1(N57).SZUBUR|
-4. [...] , [...] AN AMAR
-5. [...] , [...] AMAR#
-@column 2
-1. [...] 1(N19)# , X [...]
-2. 2(N19) 2(N04) , AMAR EZINU~a
-3. 5(N19) , ABGAL
-4. 2(N19) 2(N04) , GAL~a#? SAR~a#
-5. ,
-@column 3
-1. [...] , [...]
-
-
-&P005979 = HD
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] 1(N01)# , [...]
-2. 5(N01)# , SZE~a AN [...]
-3. , AN MUSZ3~a#
-4. 1(N14) , UKKIN~a ME~a?
-@column 2
-1. 2(N01)# [...] , [...]
-2. 3(N01)# [...] , [...] SANGA~a#
-3. 5(N01) , AN SZITA~a1
-@column 3
-1. [...] 2(N01)# , [...]
-2. 2(N01) , SANGA~a X [...]
-2. [...] 2(N01)# , [...]
-3. 2(N01) , GAL~a SAR~a
-@reverse
-@column 1
-1. [...] , [...]
-@column 2
-1. [...] 1(N34) 5(N14) 5(N01)? , UDU~a#? [...]
-
-
-&P005980 = HD
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] 2(N01)# , EN~a# GIBIL#
-2. [...] 1(N01)# , SZUBUR#
-@column 2
-1. [...] , [...] X
-2. 1(N14)# , SZA SZU
-3. 4(N01)# [...] , DIN AMA~b
-4. 4(N01) , X PA~a
-5. 3(N01) , EN~a MU#
-@column 3
-1. [...] 1(N01)# , GAL~a# [...]
-2. 4(N01) , ME~a URI3~a
-3. 4(N01)# [...] , MUSZEN#? X [...]
-4. 6(N01)# [...] , [...]
-@column 4
-1. [...] , [...]
-2. 3(N14)# [...] , [...]
-3. 1(N01)# [...] , [...]
-@reverse
-@column 1
-1. [...] , [...]
-@column 2
-1. [...] , [...] X
-2. [...] 4(N01)# , AMAR SI X X [...]
-
-
-&P005982 = IM 049782,3
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...] LU2#?
-@column 2
-1. [...] , [...] X
-2. , X SAG [...]
-3. , X X [...]
-
-
-&P005983 = IM 049782,6
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...]
-2. 1(N14@f) , USZ~b#? [...]
-3. 1(N22@f) 3(N01@f) , X [...]
-4. 1(N22@f) 3(N01@f) , [...]
-5. , [...]
-@reverse
-@column 1
-1. [...] , [...]
-
-
 &P005986 = OIP 104, 001
 #version: 0.1
 #atf: lang qpc
@@ -85055,168 +83873,6 @@ $ (traces)
 3. , UR~b A PA~a KU3~a A
 4. , NAR NAGA~a
 
-
-&P005987 = OIP 104, 002
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1.a. 1(N50) , GAN2 GI6 SZAGAN EN~a DU HI@g~b ZATU759 |SILA3~bxDUG~a|
-1.b. , AN EN~a SAR~c NUN~a
-
-
-&P005988 = OIP 104, 003
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 1(N50) , GAN2 |SILA3~bxDUG~a| ZI~a AN SAL
-2. , |NINDA2xHI| APIN~a U4#
-3.a. , X SZU
-3.b1. , E2~a DA~a GI
-3.b2. , PIRIG~b1 PAP~a MUD
-@column 2
-1. 3(N14) , SAL A U8
-2. 2(N14) , EZEN~a KI NUN~a E2~a BAR
-3. 5(N14) , GAN2 U4 SAG USZ~b |SILA3~axDUG~b| PAP~a
-4. , DU PAP~a NE~a [...] KA~a# TUR?
-@column 3
-1. , U4 [...] |SILA3~bxDUG~a|
-2. , A LU2@t RAD~a
-3. 2(N14) , GAN2 KU3~a EN~a DU DU?
-4. , SZAM2 KU3~a GI4~a KI NU@g
-5. 3(N14) , SZA3~a1 GAN2# TUR NUN~a DU DU NE~a NU@g
-
-
-&P005989 = OIP 104, 004
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 1(N45) 4(N50) 5(N14) , GAN2 |SILA3~bxDUG~a|# |3(N57).PIRIG~b1| NA2~a PAP~a GA2~a1 IB~a
-@column 2
-1. 1(N45) , SZE3@t SI A EN~a SI |TURxX| ZATU725?
-2. 4(N50) 5(N14) , A U4 GU DU6~a
-3. , IG~a SI A KA~a
-4. , LAL2~a E2~a
-5. , UNUG~a A
-
-
-&P005990 = OIP 104, 005
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 2(N45) 5(N14) , GAN2 |SILA3~axDUG~a| NU11 SIG KU~b1 AN
-@column 2
-1. 2(N45) , NIN LAL3~a? SIG NIGIN SAL GURUSZ~a URU~a1 TE A KALAM~b SAG NU@g KALAM~a? A#
-@reverse
-@column 1
-1. 5(N45) , X SAL SI ZATU630 1(N04) E2~a KI
-
-
-&P005991 = OIP 104, 006
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 1(N45) , GAN2 NIN ISZ~b BALAG? SZA DUG~a
-@column 2
-1. 1(N22) , AL
-2. , KA~a SZA SZE~a APIN~a#
-
-
-&P005995 = OIP 104, 010
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 5(N45) , GAN2 U8 SAL NIN ZATU687 KU6~a RAD~a
-2. , GI4~a RAD~a
-3. , KU6~a UR2 NU@g
-4. , ALAN~f NE~a IB~a PAP~a ZATU687 SZITA~a3
-5. , AB~a APIN~a
-
-
-&P005996 = OIP 104, 011 (Blau monument 1) 
-#atf: lang qpc 
-@obverse 
-1.a1. 2(N01) , BA DAR~a 
-1.a2. 2(N01) , BA NAM~d 
-1.a3. 2(N01) , SZEN~a 
-1.b1. 3(N14) , EN~a SZA3~a1 
-1.b2. 3(N14) , EN~a A 
-1.b3. , KA~a GAL~a ZATU687 
-$ blank space 
-2.a. 2(N01) , URI 
-2.b. 2((N01) , GADA~a 
-2.c. 2(N01) , SZAKIR~b LA2 SZE3@t 
-$ blank space 
-3.a1. 2(N01) , ZAG~a 
-3.a2. 1(N01) , IR11 
-3.a3. 2(N01) , ZATU756 NA~a 
-3.a4. 1(N01) 1(N08) , USZ~a TUG2~a |3(N57).GAR| 
-3.b1. 1(N14) , MASZ2 
-3.b2. 2(N51@v) , GAR 
-# N51@v done with same diameter as N01's 
-3.b3. 1(N14) , KASZ~d 
-3.b4. , HASZHUR LAL3~c 
-@reverse 
-1. , AN ZATU687 NUNUZ~a1 SZITA~a3@g SAG 
-$ blank space 
-# with incised scene 
-
-
-&P005998 = OIP 104, 013
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. 4(N45)# 3(N50)# [...] 2(N14) [...] , GAN2# [...]
-2. 5(N45)#? [...] , |GI&GI|#? [...]
-3. 4(N50) , X [...]
-4. 1(N45) , IM~a KI MUSZ3~a# X
-5. 3(N14) , ZAG~a
-6.a1. , MUD AN
-6.a2. , [...] DUB~e? ME~a AN EZINU~a
-6.b1. 1(N01) 1(N08) , GAR TUG2~a NE~a
-6.b2. , MUSZEN E2~a SUKKAL
-6.b3. 1(N01) , GU4
-6.b4. 1(N01) 1(N08) , NE~a [...]
-6.b5. , SAR~a KI
-6.b6. 1(N01) , GU4
-7. 1(N01) 1(N08) , NE~a TUG2~a GAR
-8. , X [...]
-@column 2
-1. 3(N14)#? [...] , [...]
-2. 2(N14)#? [...] , [...]
-3. [...] , [...]
-4. 4(N50)#? [...] , [...]
-@column 3
-1. 1(N50)#? [...] , [...]
-2. [...] , [...]
-3. [...] , [...]
-4.a. [...] , [...]
-4.b. [...] , GU4#
-5.a. 1(N34)# , ZAG~a#
-5.b. 1(N01) , SZAKIR~b#
-6. 1(N01) 1(N08) , NE~a GAR TUG2~a#
-7. , PA~a? ADAB NAM2
-8.a. 2(N01) , GU4
-8.b. 1(N01) 1(N08) , NE~a# [...]
-9. , APIN~a? X X [...]
-10.a. 2(N01) , GU4
-10.b. 1(N01) , SZAKIR~b
-11. 1(N01) 1(N08) , NE~a GAR# TUG2~a
-12. , KI X LUGAL NU11 PA~a
-13.a. 1(N01) , GU4
-13.b. 1(N01) , SZAKIR~b
-14.a. 3(N14) , ZAG~a
-14.b. 1(N01) 1(N08) , GAR NE~a TUG2~a
-15. , SZURUPPAK~c
-16.a. 1(N01) , GU4
-16.b. 1(N01) 1(N08) , GAR TUG2~a NE~a
-17. , PA~a# SUG5# DUR~b X [...]
 
 &P005999 = Trudy Otdela Vostoka 3 p. 27ff.:2
 #atf: lang qpc 
@@ -85408,58 +84064,6 @@ $ ([...])
 1. 5(N01)# [...] , 3(N57) |EN2.E2~b|#? MA# [...] 
 2. , SUH3 APIN~a# ZATU753# [...] 
  
-
-
-&P006020 = PCTSC, MS 1952/37
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. , KU6~a TU~b
-2. , NAM2 NAM2
-3. , NAM2? GIR2~b
-4. , DU AN A
-5. , SZUDUN? RI
-@column 2
-1. , SZUDUN? GIR2~b
-2. , X A NI~b
-3. , NE~a U4 RA
-4. , NI~b RA
-@column 3
-1. , SZE3 BU~a
-2. , U4 SZIDIM GIR3@g~b#?
-3. , IL GUB3~c X
-@reverse
-@column 1
-1. , X ZATU726~a? UR~a? NI~b DUR2?
-2. , HI A#?
-
-
-&P006021 = MS 2068
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...]
-2. [...] , [...]
-3. , X [...]
-4. 2(N01)# [...] , BALA~a? MU X [...]
-@column 2
-1. [...] , [...] X
-2. [...] , [...] X SU~a
-3. 5(N01)# , SIG2~a1? MA# NA~a
-4. , SZA3~a1 GESZTU~b? SA~a?
-5. 5(N01) , SIG2~a1? MA NA~a
-6. 2(N01) 2(N08) , SZE~a PA~a
-7. , AMA~b BARA2~a X [...]
-8. 4(N01)#? [...] , [...]
-@column 3
-1. 2(N01)#? [...] , [...]
-2. , X [...]
-3. , SUR? GU#? [...]
-4. 2(N01) , SIG2~a1? X [...] AD~a DA~a# [...] APIN~a SA~a? [...]
-5. 2(N22) 2(N01) , GAN2 [...]
-6. [...] , [...]
 
 
 &P006022 = MS 2350
@@ -88255,26 +86859,6 @@ $ broken
 @column 1 
 1. , 
  
-
-
-&P006090 = MS 2522
-#version: 0.1
-#atf: lang qpc
-@obverse
-@column 1
-1. [...] , [...]
-2. [...] , [...]
-3. 4(N01@f)# , UR#? X MASZ2# DA~a#
-4. 4(N01@f) , RU
-5. 4(N01@f) , USZ~b? SAG
-@column 2
-1. [...] , [...] DAR~a#? MUSZEN#
-2. [...] , [...] DA~a# GA~a#?
-3. 4(N01@f) , AMAR EN~a BA?
-4. 2(N01@f) , E2~a? BU~a |NINDA2xNE~a|
-@reverse
-@column 1
-1. [...] , |NINDA2xNE~a| X X [...]
 
 
 &P006092 = MS 2671
@@ -97964,104 +96548,6 @@ $ blank space
 
 
 
-&P235737 = MS 4631 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? 4(N14~t)? 2(N01~t)? 4(N41~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P235738 = MS 4632 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 5(N34~t)? 1(N45~t)? 7(N14~t)? 3(N01~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P235739 = MS 4633 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 4(N14~tf)? 1(N14~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- &P235740 = MS 4634 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t) 4(N14~t) 3(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P235741 = MS 4635 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 6(N14~tf) 1(N14~t)? 8(N01~t)? 3(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P235742 = MS 4636 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 6(N14~t)? 2(N01~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P235743 = MS 4637 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N34~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P235744 = MS 4638 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P235745 = MS 4646 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
 &P235746 = MS 5052 
 #atf: lang qpc 
 @tablet 
@@ -98080,160 +96566,6 @@ $ broken
 1. [N] 3(N14@f)#? , 
 @seal 1 
 $ (no linguistic content) 
-
-
-&P235754 = Fs Kraus 012-025, no. 01
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N34) 7(N14) 5(N01)# , 
- 
-
-
-&P235755 = Fs Kraus 012-025, no. 02
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N34)? 10(N14) 3(N01) , 
- 
-
-
-&P235756 = Fs Kraus 012-025, no. 03
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N45) 4(N14) , 
- 
-
-
-&P235757 = Fs Kraus 012-025, no. 04
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N34)? 1(N45) 7(N14) 2(N01)? , 
- 
-
-
-&P235758 = Fs Kraus 012-025, no. 05
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. , 
- 
-
-
-&P235759 = Fs Kraus 012-025, no. 06
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N34)# 22(N14) 5(N01)# , 
- 
-
-
-&P235760 = Fs Kraus 012-025, no. 07
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 10(N14) , 
- 
-
-
-&P235761 = Fs Kraus 012-025, no. 08
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 5(N14) 5(N01) , 
- 
-
-
-&P235762 = Fs Kraus 012-025, no. 09
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 5(N01) , 
- 
-
-
-&P235763 = Fs Kraus 012-025, no. 10
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N45)? 4(N01) , 
- 
-
-
-&P235764 = Fs Kraus 012-025, no. 11
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. , 
- 
-
-&P235765 = Fs Kraus 012-025, no. 12
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N01) , 
- 
-
-
-&P235766 = Fifty Years of Mesopotamian Discovery 65 
-#atf: lang qpc 
-@tablet 
-@obverse 
-1. 3(N01) 2(N39~t)? , 
-@reverse 
-$ blank space 
-
-
-&P235767 = Syria 42, 012
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 11(N14) 3(N01) , 
- 
-
-
-&P235768 = OIM A21310
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14) 5(N01) , 
- 
-
-
-&P235769 = BagM 14, 034
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 3(N14)# [...] , 
- 
-
-
-&P235770 = Before Writing fig. 88
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N14) , 
-2. 4(N01) , 
-3. 3(N01) , 
- 
 
 
 &P235780 = CUSAS 31, 046 
@@ -98365,15 +96697,6 @@ $ blank space
 
 
 
-&P249252 = Fs Kraus 012-025, no. 13
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 5(N14) , 
- 
-
-
 &P250423 = CUSAS 31, 165 
 #atf: lang qpc 
 @tablet 
@@ -98444,159 +96767,6 @@ $ blank space
 @reverse 
 $ broken 
  
-
-&P252147 = MS 3138 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 2(N14~t)? N , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P252148 = MS 3139/1 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-$ beginning broken 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P252149 = MS 3140
-#atf: lang qpc
-@tablet
-@obverse
-1. 8(N01) 
-2. 9(N01) 
-# calculation: 8n × 9n = .72 iku? 
-@reverse 
-$ blank space 
-# seal impression 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P252150 = MS 3141
-#atf: lang qpc
-@tablet 
-@obverse
-@column 1 
-1. 2(N14) , 
-2. 4(N14) 2(N01) , 
-@column 2 
-1. 2(N14) , 
-@column 3 
-1. 1(N01)? , 
-@reverse
-$ blank space 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P252151 = MS 3142
-#atf: lang qpc
-@tablet 
-@obverse
-1. 3(N34) 5(N14) , 
-$ blank space 
-# seal impression 
-@reverse
-$ blank space 
-# seal impression 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P252152 = MS 3143
-#atf: lang qpc
-@tablet 
-@obverse
-1. 2(N34)#? 4(N14) 5(N01) , 
-@reverse
-$ blank space 
-
-
-&P252153 = MS 3144
-#atf: lang qpc
-@tablet 
-@obverse
-1. 2(N14) 4(N01) , 
-@reverse
-$ blank space 
-# seal impression 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P252154 = MS 3145
-#atf: lang qpc
-@tablet 
-@obverse
-@column 1 
-1. 4(N01) , 
-@column 2 
-1. 1(N01)? , 
-@reverse
-$ blank space 
-
-
-&P252155 = MS 3146
-#atf: lang qpc
-@tablet 
-@obverse
-@column 1 
-$ blank space 
-@column 2 
-1. 9(N01) , 
-2. 1(N14) [N?] , 
-@reverse
-$ blank space 
-
-
-&P252156 = MS 3147/1
-#atf: lang qpc
-@tablet 
-@obverse
-1. 1(N48) 2(N34) 2(N45) 3(N14) 3(N01) , 
-@reverse
-$ blank space 
-
-
-&P252157 = MS 3147/2 
-#atf: lang qpc 
-@tablet 
-@obverse 
-1. 6(N34) 1(N45) 3(N14) 5(N01) , SZE~a 
-@reverse 
-$ blank space 
-
-
-&P252158 = MS 3147/3 
-#atf: lang qpc 
-@tablet 
-@obverse 
-1. 2(N14) 5(N01) , SZE~a 
-@reverse 
-$ blank space 
-
-
-&P252159 = MS 3148
-#atf: lang qpc
-@tablet 
-@obverse
-1. 4(N14) , 
-$ blank space 
-# seal impression 
-@reverse
-$ blank space 
-@seal 1 
-$ (no linguistic content) 
-
 
 &P252160 = MS 3149 
 #atf: lang qpc 
@@ -99237,82 +97407,6 @@ $ rest broken
 1. 4(N14) 8(N01)# , [KISZ] X TAK4~a SZITA@g~a MAR~a 
 
 
-&P253654 = MS 4639 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P253655 = MS 4640 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P253656 = MS 4641 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P253657 = MS 4642 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P253658 = MS 4643 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P253659 = MS 4644 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P253660 = MS 4645 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
 &P253777 = CDLI Lexical 000002, ex. 188
 #atf: lang qpc 
 @tablet 
@@ -99394,235 +97488,6 @@ $ blank space
 2. , [...] 
 @column 2 
 $ broken 
- 
-
-
-&P254127 = MS 5044/12 
-#atf: lang qpc 
-@object tag 
-@obverse 
-$ blank space 
-# seal impression 
-@reverse 
-$ blank space 
-# seal impression 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254168 = MS 5097 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254169 = MS 5098 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 2(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254170 = MS 5099 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 1(N14~t)? 1(N01~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254181 = MS 5113 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254182 = MS 5114 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254183 = MS 5115 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254184 = MS 5116 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 2(N34~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254185 = MS 5117
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N14~t)? 1(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P254186 = MS 5118 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254187 = MS 5119 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 1(N01~t)? 1(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254188 = MS 5120 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 2(N01~t) 2(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254189 = MS 5121 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? 2(N14~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254190 = MS 5122 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 3(N14~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254191 = MS 5123 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 4(N14~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254192 = MS 5124 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254193 = MS 5125 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 8(N14)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254194 = MS 5126 
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 1(N45) 2(N14) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254195 = MS 5127 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. N 6(N01~t)? , 
-# N are embedded, fused tokens in cavity 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P254196 = MS 5128 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
  
 
 
@@ -99991,75 +97856,6 @@ $ beginning broken
 $ rest broken 
 
 
-&P274833 = BagM 26, 007-033, pls. 31-34,.W 20987,11
-#atf: lang qpc 
-@object bulla 
-# unopened 
-@surface a 
-1. 2(N45~t) 2(N14~t) 2(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P274835 = BagM 26, 007-033, pls. 31-34,.W 20987,16
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 5(N14~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P274836 = RGK 20020126a
-#atf: lang qpc
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P274837 = RGK 20020126b
-#atf: lang qpc
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P274842 = RKE 005
-#atf: lang qpc
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-&P274843 = HD: W 20987,07 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 7(N01ni~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
 &P283915 = CUSAS 01, 074
 #atf: lang qpc 
 @tablet 
@@ -100184,352 +97980,6 @@ $ blank space
 @column 1 
 1. [...] , [...] 
  
-
-
-&P283931 = Before Writing fig. 87
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N45)? 1(N14) , 
-2. 4(N14) , 
- 
-
-
-&P283932 = M II 130
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N45)? , 
- 
-
-
-&P283933 = unknown
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 5(N01) 2(N39~b) 1(N24) , 
- 
-
-
-&P283935 = M II 134 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 6(N01ni~t)? , 
-@envelope 
-@surface a 
-1. 6(N03)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P285629 = HD: W 20987,03 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N14~t) 1(N39~t)? N , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285630 = HD: W 20987,08 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 5(N64~t) 2(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285631 = HD: W 20987,09 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 4(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285632 = HD: W 20987,12 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 5(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285633 = HD: W 20987,13 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 4(N14~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285634 = HD: W 20987,15 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 4(N14~t) 1(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P285635 = HD: W 20987,17 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N34~t) 4(N14~t) 1(N01~t) 3(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285636 = HD: W 20987,18 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 2(N34~t)? 1(N01~t)? 1(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285637 = HD: W 20987,20 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? 2(N39~t)? X , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285638 = HD: W 20987,22 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 3(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285639 = HD: W 20987,27 + W 10424 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285649 = CahDAFI 8, 17 12
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 8(N01~t) 3(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285650 = CahDAFI 8, 16 06
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 3(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285651 = CahDAFI 8, 18 17
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N01~t)? 1(N39~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285652 = CahDAFI 8, 17 14
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 7(N14~t)? 3(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285653 = CahDAFI 8, 17 16
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N14~t)? 7(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285654 = CahDAFI 8, 15 03
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 6(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P285655 = CahDAFI 8, 17 13
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 7(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285656 = CahDAFI 8, 16 08
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N14~t)? 1(N01~t) 1(N39~t)? , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285657 = CahDAFI 8, 17 11
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. [1(N14~t)?] 2(N01~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285658 = CahDAFI 8, 15 01
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 3(N14~t) 5(N01~t) , 
-@envelope 
-@surface a 
-1. 3(N14) 5(N01) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285659 = CahDAFI 8, 15 02
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N34~t) 4(N14~t) 1(N01~t) , 
-@envelope 
-@surface a 
-1. 1(N45)? 4(N14) 1(N01) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
-
-
-
-&P285660 = M II 133 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 11(N01ni~t)#? , 
-@envelope 
-@surface a 
-1. 11(N01) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-&P285661 = Before Writing I 111, fig. 58 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N34~t)? 2(N14~t) , 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
- 
-
-
-&P285662 = Before Writing I 121, fig. 65
-#atf: lang qpc
-@object bulla 
-# unopened 
-@surface a 
-$ blank space 
-# seal impressions 
-@seal 1 
-$ (no linguistic content) 
 
 
 &P325061 = CUSAS 01, 090
@@ -100933,24 +98383,6 @@ $ blank
 @column 1 
 1. [...] 3(N39~a) 1(N24) 1(N26) , X 
  
-
-
-&P325154 = CUSAS 21, 115 
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] 
-2. 1(N01)# , TE# X 
-3. 1(N01) , KU3~a RAD~a 
-4. 1(N01) [...] X 
-5. [...] , [...] 
-@column 2 
-1. 1(N01) [...] X 
-2. 1(N01) , SZUBUR ASAR [...] 
-@reverse 
-$ blank space 
-
 
 
 &P325155 = CUSAS 01, 088
@@ -102822,19 +100254,6 @@ $ blank
  
 
 
-&P325364 = CUSAS 01, 003
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N14) 1(N01)? , 
-@column 2 
-2. 7(N01) , 
-@reverse 
-$ blank 
- 
-
-
 &P325365 = CUSAS 01, 006
 #atf: lang qpc 
 @tablet 
@@ -104163,55 +101582,6 @@ $ blank space
 
 
 
-&P325979 = CUSAS 21, 129 
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. , |PIRIG~b1+DISZ| 
-2. , GU~a NUNUZ~a1 NUNUZ~a1 
-3. [...] 
-@column 2 
-1. , NA~a# NAM2#? AMA~a 
-2. , |1(N58).BAD~a| LA2 NA~a [...] 
-3. , X X 
-4. , HI EN~a AB~b# 
-@reverse 
-$ blank space 
-
-
-
-&P325980 = CUSAS 21, 072 
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 2(N01) , TUG2~a~a 
-2. [...] 
-@column 2 
-1. , |BU~a+TU~b| SANGA~a 
-2. [...] 
-@reverse 
-$ blank space 
-
-
-
-&P326253 = CUSAS 21, 103 
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] 
-2. [...] , EN~a# KI# SZAM2# BA X 
-@reverse 
-@column 1 
-1. 1(N34) 7(N14) 1(N01) , X X GISZ GI 
-2. [...] 1(N14) 2(N01) , [...] 
-@column 2 
-1. , BA SZAM2 [...] 
-
-
-
 &P326284 = CDLI Lexical 000002, ex. 177
 #atf: lang qpc 
 @tablet 
@@ -104405,32 +101775,6 @@ $ blank
  
 
 
-&P326290 = CUSAS 33, 248  
-#atf: lang sux 
-@tablet 
-@obverse 
-@column 1 
-1. [...] DAG#? 
-2. 2(disz@t) ugula nu-<banda3> gurusz-min 
-3. 1(disz@t) erisz-dingir inanna 
-4. [n] gala# 
-@column 2  
-1. 1(disz@t) inim-[ma]-ni-zi#
-$ blank space 
-@reverse 
-1. [n] mu#&P326291 = CUSAS 01, 008
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. , PIRIG~b1# PAP~a 
-@column 2 
-$ blank 
-@reverse 
-$ blank 
- 
-
-
 &P326800 = CUSAS 01, 193
 #atf: lang qpc 
 @tablet 
@@ -104456,56 +101800,6 @@ $ blank
 4. |U4x1(N01)|# AB~a 
 @column 2 
 1. AB~a SI4~f GU7 
- 
-
-
-&P326858 = Nisaba 32, 227 
-#atf: lang sux 
-@tablet 
-@obverse 
-1. [n] nu2# masz2 
-2. [n] masz2 nita2 
-3. ki na-ba-sa6-ta 
-@reverse 
-1. i-di3-in-lu 
-$ blank space 
-2. giri3 sukkal-mah 
-3. [iti ezem]-{d#}szuba3-nun-na 
-@seal 1 
-$ illegible &P326897 = CUSAS 01, 108
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 6(N19) , EN~a [...] 
-2. 1(N04)# , [...] 
-3. 1(N46)# 5(N04) , PAP~a PIRIG~b1 
-4. [...] , [...] 
-@column 2 
-1. [...] 1(N19)# , DU X 
-2. 4(N19) 5(N14) , SZE~a EN~a DU PAP~a 
-3. 8(N14) , X 
-4. 1(N04) , NAGA~a# GA~a 
-5. 2(N01) , 3(N57) PIRIG~b1 
-6. [...] , [...] 
-@column 3 
-1. 1(N46) , [...] SZU 
-2. SZU# SZU# GI BA 
-@reverse 
-@column 1 
-1.a. [...] 1(N01)# 1(N30~c)# , NAGA~a 
-1.b. 1(N01)# , [...] 
-2.a. [...] , [...] 
-2.b. 1(N01)# [...] , SZE~a# AB~a# 
-3.a. [...] , [...] 
-3.b. [...] , [...] 
-@column 2 
-1. [...] , X GA~a# X APIN~a# SZU# SZU# 
-@column 3 
-1. 5(N19)# , SZE~a# EN~a E2~a 
-2. 3(N14)# 4(N01)# 
-3. 1(N19)# , [...] 
-4. [...] , [...] 
  
 
 
@@ -107239,26 +104533,6 @@ $ blank space
 $ (no linguistic content) 
 
 
-&P342626 = MS 0188/135 
-#atf: lang qpc
-@tablet 
-@obverse 
-1. , X X 
-# tag with hole, with drawing of kneeling human before sheepfold with reed bundles as in seals 
-@reverse 
-$ blank space 
-
-
-&P342627 = MS 0188/136 
-#atf: lang qpc
-@tablet 
-@obverse 
-1. , X X 
-# tag with hole, with drawings of various objects in lieu of signs 
-@reverse 
-$ blank space 
-
-
 &P342628 = MS 0188/137
 #atf: lang qpc
 @object sealing 
@@ -108680,16 +105954,6 @@ $ blank space
 @reverse 
 $ blank space 
  
-
-&P387697 = CUSAS 31, 003 
-#atf: lang qpc 
-@tablet 
-@obverse 
-1. 3(N14) 4(N02) , 
-@reverse 
-$ blank space 
-
-
 
 &P387698 = CUSAS 21, 161 
 #atf: lang qpc 
@@ -110846,31 +108110,6 @@ $ (not given)
 1.c. SZITA~a SZITA~a 
 $ (just reminder of possible sign correspondences in upper frieze) 
 
-&P427655 = FMB 27 
-#atf: lang qpc 
-#object cylindrical stone 
-@surface a 
-1. , PA~a GU4? 
-@surface b 
-1. 4(N14) , NESAG~a1 KI~a EN~a NAM2 KAB GAR 
-@surface c 
-@column 1 
-1. 5(N14) , GAN2 AB~a X EN~a? 
-2. 3(N14) , X AD~c? 
-3. 3(N14) , KA~a DU6~a 
-4. 2(N50) 7(N14)? , GAN2 |SILA3~axDUG~a| 
-5. , IB~a MASZ URUDU~a 
-6. , TUM3 DUB~b 
-7. , MUSZ3~a X 
-@column 2 
-1. 2(N14) , GISZxSZU2~a X [...] 
-2. 2(N14) , BU~a# [...] 
-3. 2(N14) , X BU~a# [...] 
-3. 4(N14) , GAL~a X SZUBUR? [...] 
-@surface d 
-$ blank space 
-
-
 &P429582 = CUSAS 31, 147
 #atf: lang qpc 
 @tablet 
@@ -111207,21 +108446,6 @@ $ blank space
 $ (not imaged) 
  
 
-
-&P449259 = CUSAS 21, 112 
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 
-2. [...] |SAGx1(N57)@t| 
-3. , AB~b DUG~a PAP~a 
-@column 2 
-1. [...] 
-2. [...] ZATU624# 
-$ blank space 
-@reverse 
-$ blank space 
 
 &P449263 = CUSAS 21, 063 
 #atf: lang qpc 
@@ -111688,17 +108912,6 @@ $ blank space
 @surface a 
 $ blank space 
 # seal impression 
-@seal 1 
-$ (no linguistic content) 
-
-
-&P453285 = Chogha Mish 3, 776 
-#atf: lang qpc 
-@object bulla 
-@surface a 
-1. 1(N45~t)? 2(N14~t)? 5(N39~t)? , 
-$ blank space 
-# seal impressions 
 @seal 1 
 $ (no linguistic content) 
 
@@ -113411,29 +110624,6 @@ $ blank space
 $ blank space 
 
 
-&P507836 = IM 031260 
-#atf: lang akk 
-@tablet 
-x. _mu#_ ra-pi2-qum _ba#-gul_ &P507837 = MS 3197b 
-#atf: lang qpc 
-@tablet 
-@obverse 
-$ (potentially modern)
-@column 1 
-$ beginning broken 
-1'. [N] , [...] 
-2'. , X 
-# irregular sign 
-$ rest broken 
-@column 2 
-$ beginning broken 
-1'. [...] 1(N14) 1(N01) , [...] 
-2'. , 1(N14)? , X  
-$ rest broken 
-@reverse 
-1. 3(N14) 3(N01) [...] , X X [...] 
-
-
 &P512554 = Anonymous 512554
 #atf: lang qpc 
 @tablet 
@@ -113556,16 +110746,6 @@ $ beginning broken
 $ rest broken 
 @reverse 
 $ blank space  
-
-
-&P519295 = Anonymous 519295
-#atf: lang qpc 
-@object bulla 
-@surface a 
-$ blank space 
-# seal impression 
-@seal 1 
-$ (no linguistic content) 
 
 
 &P519296 = Anonymous 519296

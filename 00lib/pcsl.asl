@@ -8508,6 +8508,7 @@
 @list ZATU258
 @inote @smap HI@g~a
 @form HI@g~a
+@aka HI~a@g
 @oid o0900976
 @list U+128F0
 @ucun 𒣰
@@ -21872,6 +21873,10 @@
 @sys	LLATU:314_05 ZATU659 
 @end sign
 
+@sign ZATU659@t
+@oid o0903561
+@end sign
+
 @sign |ZATU659×1(N01)|
 @oid o0902507
 @sys CDLI-gh img-page
@@ -27059,6 +27064,8 @@
 @end sign
 
 @sign 1(N24)
+@aka 1(N24′)
+@aka 1(N24″)
 @oid o0903016
 @list U+125AA
 @ucun 𒖪
@@ -29550,7 +29557,9 @@
 @end sign
 
 @compoundonly	1(N57@t)
+
 @sign 1(N58)
+@aka DIŠ
 @oid o0903280
 @list U+F011A
 @ucun 󰄚

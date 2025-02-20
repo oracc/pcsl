@@ -13,7 +13,6 @@ GetOptions(
     );
 
 while (<>) {
-    next if /^>>/;
     if (/^\S+?\.\s/) {
 	s/([A-Z][A-Z]+\d+)/subify($1)/eg;
 	s/([AEIU]\d)(?![0-9])/subify($1)/eg;
@@ -21,9 +20,14 @@ while (<>) {
 	1 while s/'\)/′)/;
 	s/GA'AR/GAʾAR/g;
 	s/SZ/Š/g;
+	# niche notations used for a handful of numbers
+	s/(N\d+)'′/$1″/g;
+	s/(N\d+)'/$1′/g;
 	# oxx needs to understand the (....)a notation but until then we remove it
 	s/\)a/\)/g;
-    };
+    } elsif (/^>>/) {
+	s/^/## /;
+    }
     print;
 }
 
