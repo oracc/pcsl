@@ -67377,7 +67377,7 @@ $ rest broken
 @column 1 
 1.a. 4(N01) , NAM2 DI UDU~a SZITA~a1 
 1.b. 5(N01) , SZITA~a1 SUHUR 
-2.a. 4(N01) , NAM2 PA~a RAD 
+2.a. 4(N01) , NAM2 PA~a RAD~b 
 2.b. 5(N01) , SZITA~a1 
 3.a. 1(N01) , ME~a NUN~a 
 3.b. 4(N01) , SZITA~a1 
@@ -83819,7 +83819,7 @@ $ (no legend)
 1.b19. , (TU~a EN~a# [...])a 
 2.a. 6(N01) , TUR EN~a 
 2.b1. , (KASZ~c AN NA~a ME~a)a 
-2.b2. , (|(HIx1(N57))&(HIx1(N57))| EN~a)a 
+2.b2. , (|(HIx1(N57)).(HIx1(N57))| EN~a)a 
 2.b3. , (PAP~a)a 
 2.b4. , (GIR3@g~b 3(N57))a 
 2.b5. , (UR~a? URI3~a)a 
@@ -91342,7 +91342,7 @@ $ (no linguistic content)
 >>Q000002 005 
 6. 1(N01) , NAM2 ERIN 
 >>Q000002 006 
-7. 1(N01) , GAL SZUBUR 
+7. 1(N01) , GAL~a SZUBUR 
 >>Q000002 007 
 8. 1(N01) , NAM2 APIN!(KASKAL) 
 >>Q000002 008 
@@ -92893,7 +92893,7 @@ $ (no linguistic content)
 9. 4(N50) , X DIM~c 
 10. [...] 6(N14)# [...] , [...] 
 @column 2 
-1. [...] 2(N45)# 5(N50) 6(N14) , GAL UTUL~a 
+1. [...] 2(N45)# 5(N50) 6(N14) , GAL~a UTUL~a 
 2. 1(N50) , SAL TUM~a TUR3~a 
 3. 5(N50) 4(N14) , AB~a SU~a ME~a 
 4. 1(N50) 9(N14) , AB~a BA UNUG~a 
@@ -95573,8 +95573,8 @@ $ broken
 2. [...] , [...] X NAM2 
 @column 2 
 1.a. 5(N19) , 
-1.b. 1(N30~cp) ,
-# original 1(N30~c') but oxx doesn't handle that yet
+1.b. 1(N30C~a) ,
+# original 1(N30′) but oxx doesn't handle that yet
 2. 2(N19) 1(N04) , 
 @column 3 
 1.a. 4(N19) , 
@@ -96780,7 +96780,7 @@ $ broken
 @column 2 
 1.a. 2(N01) , KUR~a 
 1.b1. , NA2~a? 
-1.b2. , NAM? 
+1.b2. , NAM~a? 
 2. , ADAB PA~a 
 @reverse 
 $ blank space 
@@ -96951,7 +96951,7 @@ $ blank space
 @column 1 
 1. 4(N01) , AMAR 
 2. 2(N01) , GESZTU~b 
-3. 2(N01) , GAL UR3~b1 
+3. 2(N01) , GAL~a UR3~b1 
 4. 1(N01) , |EN~axNUN~a| 
 5. 2(N01) , MAR~a 
 @column 2 
@@ -96987,7 +96987,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 5(N01) , PAP~a UZ 
+1. 5(N01) , PAP~a UZ~a 
 2. 1(N14) , SI NAGA E2~b#?
 3. 4(N01) , SZUBUR  
 4. 3(N01) , EZEM~c  
@@ -97092,12 +97092,12 @@ $ blank space
 2. 1(N01) , |SZU2x3(N57)|
 3. 1(N01) , U2~a  
 4. 1(N01) , ERIN 
-5. 1(N01) , ZATU773? GESZTU~b 
+5. 1(N01) , ZATU773~b? GESZTU~b 
 6. 1(N01) , TUR SZU 
 @column 2 
 1. 2(N01) , SI4~a 
 2. 1(N01) , TUR3~a ZATU753
-3. 1(N01) , PAP~a UZ 
+3. 1(N01) , PAP~a UZ~a 
 4. 1(N01) , SI X 
 5. 1(N01) , TUR SZU 
 6. 1(N01) , TUR3~a PAP~a 
@@ -97115,14 +97115,14 @@ $ blank space
 2. 1(N01) , PAP~a 3(N57) 
 3. 1(N01) , SZE~a? E2~b 
 4. 1(N01) , SANGA~a SZU2 
-5. 1(N01) , ZATU773? GESZTU~b 
+5. 1(N01) , ZATU773~b? GESZTU~b 
 6. 1(N01) , TUR SZU 
 @column 2 
 1. 2(N01) , SZA3~a2 SANGA~a 
 2. 1(N01) , ZATU704
 3. 1(N01) , HI~b 
 4. 1(N01) , SI4~a 
-5. 1(N01) , PAP~a UZ 
+5. 1(N01) , PAP~a UZ~a 
 6. 1(N01) , 3(N57) X 
 @column 3 
 1. 1(N01) , SI DARA4~a1 
@@ -97204,7 +97204,7 @@ $ (no linguistic content)
 @column 2 
 1. 4(N01) , ZATU753 
 2. 6(N01) , MASZ2 
-3. 3(N01) , BIR AB2 
+3. 3(N01) , BIR~a AB2 
 4. 4(N01) , |GA2~bxNUN~b| 
 5. 5(N01) , PA~a ZATU659?
 6. 3(N01) , DA~a
@@ -97311,7 +97311,7 @@ $ beginning broken
 14'. 1(N01) , ASZ2#? KI# 
 @column 5 
 $ beginning broken 
-1'. [1(N01)] , UZ#? KI 
+1'. [1(N01)] , UZ~a#? KI 
 2'. 1(N01) , GAN2# KI# 
 3'. 1(N01) , X KI 
 4'. 1(N01) , SZU PAP~a# KI# 
@@ -97573,7 +97573,7 @@ $ blank space
 2. , SZAM2# BA 
 @reverse 
 @column 1 
-1. 4(N34) 1(N36) 2(N45) 3(N14) , SZE~a BA# SZAM2 KU6 KISAL~b1 
+1. 4(N34) 1(N36) 2(N45) 3(N14) , SZE~a BA# SZAM2 KU6~a KISAL~b1 
 @column 2 
 1. 4(N34) 1(N45) 3(N01) , SZE~a 
 2. 1(N36) 9(N19) 
@@ -99893,7 +99893,7 @@ $ blank
 @column 1 
 1. 3(N14) 9(N01) , MU SZU |DU8~cxUDU~a| 
 @column 2 
-1. 1(N14) 6(N01) , ZATU773 U8 UDUNITA~c 
+1. 1(N14) 6(N01) , ZATU773~b? U8 UDUNITA~c 
 2. 6(N01) , MASZ2 UD5~a 
 3. 1(N14) 7(N01) , UDU~a DA~a PA~a 
 @column 3 
@@ -100812,7 +100812,7 @@ $ blank
 4.a. 2(N45) 8(N14) 2(N01) , PA~a SZE~a 
 4.b1. 5(N01) GI6 , |HIx1(N57)| 
 4.b2. 1(N14) , SZE~a 
-5.a. 5(N14) , EN~a PA~a ZATU694~e 
+5.a. 5(N14) , EN~a PA~a ZATU694~b 
 5.b. 1(N46) , 
 @reverse 
 @column 1 
@@ -100966,7 +100966,7 @@ $ several lines broken
 1.b2. 2(N04) 
 2. 2(N01) , UDU~a 
 3.a. 1(N38) 
-3.b. 2(N39~a) , HI@g~a KISAL~c 
+3.b. 2(N39~a) , HI@g~a KISAL~b1? 
 4. 2(N01) , ALAN~a 
 5. 2(N01) , ANSZE~a BARA2~a 
 @column 2 
@@ -104597,8 +104597,8 @@ $ (no linguistic content)
 11. 3(N01)# , PAP~a EN~a#? 
 @reverse 
 @column 1 
-1. 2(N01) , SAR E2~a PA~a URU~a1 
-2. 2(N01) , SAR E2~a |GA2~bxKU6~a| 
+1. 2(N01) , SAR~a E2~a PA~a URU~a1 
+2. 2(N01) , SAR~a E2~a |GA2~bxKU6~a| 
 3. 2(N01) , IDIGNA ASAR 
 4. , TAR~a 
 5. 5(N01) , KINGAL 
@@ -105720,7 +105720,7 @@ $ blank space
 @obverse 
 1.a. 2(N01) , |E2~ax1(N57)@t| 
 1.b1. , |BU~a+KI| 
-1.b2. , KISZIK 
+1.b2. , KISZIK~a 
 $ blank space 
 @reverse 
 $ blank space 
@@ -106821,7 +106821,7 @@ $ broken
 $ beginning broken 
 1'. [1(N01)] , NAM2# ERIN#? 
 >>Q000002 006 
-2'. 1(N01) , GAL SZUBUR 
+2'. 1(N01) , GAL~a SZUBUR 
 >>Q000002 007 
 3'. 1(N01) , NAM2 APIN~a!(KASKAL) 
 >>Q000002 008 
@@ -106831,7 +106831,7 @@ $ beginning broken
 $ beginning broken 
 1'. [1(N01)] , X 
 >>Q000002 013 
-2'. 1(N01) , GAL! SZITA~a1 
+2'. 1(N01) , GAL~a! SZITA~a1 
 >>Q000002 014 
 3'. 1(N01) , TUR3~a 
 >>Q000002 015 
@@ -107240,7 +107240,7 @@ $ blank space
 @column 2 
 1.a. 2(N01) 1(N57) , NIN 
 1.b. 1(N39~a) TAR~a 
-2.a. 4(N01) , ZATU694 KU6~a KISAL~b1 
+2.a. 4(N01) , ZATU694~d KU6~a KISAL~b1 
 2.b. 2(N39~a) TAR~a 
 3. 1(N39~a) AB~a SZUBUR BULUG3 SZE~a 
 4. , GIBIL GU7 
@@ -107384,8 +107384,8 @@ $ rest broken
 1.a. [...] 1(N14) , KASZ~a KALAM~b [...] SUG5 
 1.b1. [...] 
 1.b2. 1(N03) 4(N40) 
-2.a. 1(N01) , GAR |ZATU714xHI@g| AN AB~a 
-2.b. 2(N42~a) |ZATU714xHI@g| MU 
+2.a. 1(N01) , GAR |ZATU714xHI@g~a| AN AB~a 
+2.b. 2(N42~a) |ZATU714xHI@g~a| MU 
 3.a. 1(N14) , U2~a GAR 
 3.b. 1(N42~a) 
 4.a. 5(N14) , SI GAR NAGA~a 
@@ -107396,8 +107396,8 @@ $ rest broken
 6.a. 2(N01) , KASZ~a 
 6.b. 2(N05) 
 6.c. 1(N03) 1(N40) 
-7.a. [...] |ZATU714xHI@g| [...] 
-7.b1. 2(N05) |ZATU714xHI@g| 
+7.a. [...] |ZATU714xHI@g~a| [...] 
+7.b1. 2(N05) |ZATU714xHI@g~a| 
 7.b2. [...] 
 @column 2 
 1.a. [...] 
@@ -107431,7 +107431,7 @@ $ rest broken
 1.b. [...] 1(N42~a) , 
 2.a. 2(N14) , SZAGAN 
 2.b. 2(N42~a) , 
-3. 1(N42~a) BIR? 
+3. 1(N42~a) BIR~a? 
 4.a. 4(N14) , GAR IM~a 
 4.b. 1(N05) , 
 5. [...] DAR~a GU~a 
@@ -107444,7 +107444,7 @@ $ rest broken
 2.a. 2(N14) , DUG~a 
 2.b1. 2(N05) , [...] 
 2.b2. 1(N03) 1(N40) , 
-3. 2(N39~a) MU |ZATU714xHI@g| 
+3. 2(N39~a) MU |ZATU714xHI@g~a| 
 4. 4(N01) , TUR3~a SANGA~a SZE~a 
 5. 2(N01)# , AB~a |1(N57).SZUBUR| 
 6. , GU7 
@@ -107490,9 +107490,9 @@ $ broken
 >>Q000002 030 
 3. 1(N01) , SANGA~a UMUN2 
 >>Q000002 031 
-4. 1(N01) , GAL~a KU~3a UMUN2 
+4. 1(N01) , GAL~a KU3~a UMUN2 
 >>Q000002 032 
-5. 1(N01) , AB~a UMUN2 KU~3a 
+5. 1(N01) , AB~a UMUN2 KU3~a 
 >>Q000002 033 
 6. 1(N01) , GAL~a AK~a? 
 >>Q000002 034 
@@ -108106,7 +108106,7 @@ $ broken
 1.b1. 5(N14)# , KU6~a KISAL~b1 SZE~a UR5~a 
 1.b2. 7(N14) , AN ZATU788 NUNUZ~a1 
 1.b3. 1(N14) , UB ZI~a# 
-1.b4. 3(N14) , GIR@g~b# NIM~b1 HI UNUG~a 
+1.b4. 3(N14) , GIR₃@g~b# NIM~b1 HI UNUG~a 
 @reverse 
 $ (not given) 
 
@@ -108629,7 +108629,7 @@ $ broken
 @obverse 
 @column 1 
 1. [...] 2(N01) , DU [...] 
-2. [...] 4(N01) , SAL ZATU751 
+2. [...] 4(N01) , SAL ZATU751~a 
 3. [...] 5(N01)#? , AMA~a NAGAR~a 
 @reverse 
 $ blank space 
@@ -109257,7 +109257,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1.a. 4(N01) , U8 SAL BU~a PAP~a NAM 
+1.a. 4(N01) , U8 SAL BU~a PAP~a NAM2 
 1.b. 2(N01) , MASZ 
 2. 1(N01) , MASZ LA2 TE 
 3. 1(N01) , MASZ ME~a? ME~a? 
@@ -110337,7 +110337,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 
-2. 1(N14) , X X GESZTU~c? 
+2. 1(N14) , X X |[SZU2~a?].HI×1(N57)&HI×1(N57)|?
 3. 2(N01) , SZE~a X X 
 @reverse 
 1. 1(N34) [...] 3(N01) 4(N39~a) 1(N24) , GI KI 
