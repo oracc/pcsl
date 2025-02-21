@@ -21,7 +21,7 @@ pc25.asl: 00etc/pc25-on.rep rep/compoundonly.txt rep/head rep/r25.plx 00etc/aka.
 	../00bin/aka.plx -t 00etc/pc25.tok
 	mv 01tmp/aka.tsv 00etc/aka.tsv
 
-00etc/pc25-on.rep: 00etc/pc25.rep
+00etc/pc25-on.rep: 00etc/pc25.rep 00etc/add-on.rep
 	rep/r25.sh
 
 00etc/pc25.kis: 00atf/pc25.atf ../00lib/pcsl.asl
@@ -30,7 +30,7 @@ pc25.asl: 00etc/pc25-on.rep rep/compoundonly.txt rep/head rep/r25.plx 00etc/aka.
 00etc/pc25.rep: 00etc/pc25.xtf
 	00bin/rep.sh
 
-00etc/pc25.xtf: 00atf/pc25.atf ../00lib/pcsl.asl
+00etc/pc25.xtf: 00atf/pc25.atf ../00lib/pcsl.asl /home/oracc/pcsl/02pub/sl/sl.tsv
 	oxx 00atf/pc25.atf >$@
 
 00etc/pc25.tok: 00etc/pc25.xtf

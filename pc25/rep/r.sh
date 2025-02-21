@@ -1,6 +1,0 @@
-#!/bin/sh
-(cd 00etc ;
- grep -f pc25.rep ../sortcodes.tsv | sort >pc25-s.rep
- grep -f pc25.rep /home/oracc/oid/oid.tab | cut -f1,3 | sort >pc25-n.rep
- join -t'	' -j1 pc25-[sn].rep  | sort -k3n | cut -f1-2 >pc25-on.rep
-)

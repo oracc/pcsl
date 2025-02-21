@@ -27016,8 +27016,9 @@
 @sys	AP23 125F2
 @end sign
 
-@sign 1(N22@v)
+@sign 1(N22~v)
 @oid o0903007
+@aka 1(N22@v)
 @list U+F00FD
 @ucun 󰃽
 @uname -

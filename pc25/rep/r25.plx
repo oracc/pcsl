@@ -13,6 +13,21 @@ GetOptions(
     );
 
 my %norollback = ();
+my %aka = ();
+my @aka = `cat 00etc/aka.tsv`; chomp @aka;
+foreach (@aka) {
+    my($k,$pcsl,$aka) = split(/\t/, $_);
+    $k =~ s/^o\d+\.o/o/;
+    $k =~ tr/.//d;
+    if ($aka{$k}) {
+	warn "duplicate aka for $k: $aka{$k} then $aka\n";
+    } else {
+	$aka{$k} = $aka;
+    }
+}
+
+my @scodes = `cat /home/oracc/pcsl/02pub/sortcodes.tsv`; chomp @scodes;
+my %scodes = (); foreach (@scodes) { my($o,$s) = split(/\t/,$_); $scodes{$o} = $s; }
 
 my @oid = `grep ^o09 /home/oracc/oid/oid.tab`; chomp @oid;
 my %oid = (); foreach (@oid) { my($o,$t,$n) = split(/\t/,$_); $oid{$n} = $o; }
@@ -24,15 +39,18 @@ my %glyf = (); foreach (@glyf) { my($o,$g) = split(/\t/,$_); $glyf{$o} = $g; }
 my %glyfmap = ();
 my $gutf = 'FA000';
 
-my @rep = `cat 00etc/pc25-on.rep`; chomp @rep;
+my @rep = `cat 00etc/pc25-on.rep`; warn @rep; chomp @rep;
+
 my %v = ();
 
 my @u = `cut -f1,3 /home/oracc/pcsl/02pub/unicode.tsv`; chomp @u;
 my %u = (); foreach (@u) { my($u,$o) = split(/\t/,$_); $u{$o} = $u; }
+open(U,'>u.dump'); print U Dumper \%u; close(U);
 
+my @s = ();
+
+open(NAMES,'| gdlx -ppcsl -k2 -U >00etc/names.tsv');
 open(O,'>new-oid.tab');
-open(P,'>pc25.asl'); select P;
-print `cat rep/head`;
 foreach (@rep) {    
     my($o,$n) = split(/\t/,$_);
     my $oo = $o;
@@ -60,12 +78,69 @@ foreach (@rep) {
     } else {
 	warn "$o = $oo = $v = $n has no Unicode\n";
     }
+    if ($aka{$o}) {
+	if ($v ne $aka{$o}) {
+	    #
+	    # LOOK UP aka{$o} in use-or-not table
+	    #
+	    warn "sign name $v differs from aka $aka{$o}\n";
+	}
+    }
+
+    #
+    # Now $v is the canonical PCSL sign name that aligns as well as we can/want with CDLI
+    #
+    print NAMES "$o\t$v\n";
+
     my $glyf = glyfs($oo, $o);
-    print "\@sign $v\n\@oid $o\n$glyf\@end sign\n\n";
+    my $sc = $scodes{$o} || $scodes{$oo};
+    warn "no scode for $o or $oo\n" unless defined $sc;
+    push @s, [ $v , $o , $glyf , $sc ];
+}
+close(O);
+close(NAMES);
+
+my %unames = (); my @unames = `cut -f1,3 00etc/names.tsv`; chomp @unames;
+foreach (@unames) {
+    my($o,$u) = split(/\t/,$_);
+    if (/ONE-N57/ && $o eq 'o0903279') { $u =~ s/ONE-N57/TEN-N57/ }
+    $unames{$o} = $u;
+}
+
+my %rep = ();
+
+open(A,'>pc25-add.tsv');
+open(P,'>pc25.asl'); select P;
+print `cat rep/head`;
+foreach my $s (@s) {
+    my ($v,$o,$glyf, $sc) = @$s;
+    my $udata = '';
+    my $uhex = $u{$o};
+    if ($uhex && $uhex =~ s/^U\+//) {
+	my $uname = $unames{$o};
+	my $uchar = '';
+	$uchar = chr(hex($uhex));
+	$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
+	unless (not_in_repertoire($v,$uname)) {
+	    $rep{$o} = "$uchar\t$uname\t$o\n";
+	    if ($uhex =~ /^F3/) {
+		print A "$uhex\t$v\t$o\t$uname\n";
+	    }
+	}
+    }
+    
+    print "\@sign $v\n\@oid $o\n$glyf$udata\@end sign\n\n";
 }
 print `cat rep/compoundonly.txt`;
 close(P);
-close(O);
+close(A);
+
+my $rutf = 0x12650;
+open(R,'>pc25-repertoire.tsv');
+foreach my $o (sort { $scodes{$a} <=> $scodes{$b} } keys %rep) {
+    printf R "%X\t$rep{$o}", $rutf++;
+}
+close(R);
 
 # open(D,'>v.dump'); print D Dumper \%v; close(D);
 
@@ -107,4 +182,14 @@ sub glyfs {
 	$ret = join('', @g);
     }
     $ret;
+}
+
+sub not_in_repertoire {
+    my($n,$u) = @_;
+    if ($u =~ /NUMBER/ && $u !~ /N57/) {
+	return 1;
+    }
+    if ($u =~ / X/) {
+	return 1;
+    }
 }
