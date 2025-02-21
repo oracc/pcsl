@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3090
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3092
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -1173,7 +1173,6 @@
 @sys	AP23 12724
 @sys	AP24 126DF
 @sys	LLATU:188_01 BAD 
-@compoundonly BAD~a
 @end sign
 
 @sign |BAD&BAD|
@@ -1818,7 +1817,12 @@
 @sys	ADD F302C CUSAS31_167 BU+BU.png
 @list U+F302C
 @uname ADD NAME |BU~a&BU~a|
-@compoundonly |BU~a~v1%BU~a~v1|
+@form |BU~a%BU~a|
+@oid o0903650
+@aka |BU~a~v1%BU~a~v1|
+@list U+F3092
+@uname ADD F3092
+@sys	ADD F3092 XXX BU%BU.png
 @@
 @end sign
 
@@ -7618,9 +7622,10 @@
 @sys CDLI-gh img-page
 @list ZATU225
 @inote @smap |GIŠ×ŠU₂~a|
-@form |GIŠ×ŠU₂~a|
-@oid o0900883
+@form |(GIŠ×ŠU₂)~a|
+@aka	|GIŠ×ŠU₂~a|
 @aka	|GIŠ+ŠU₂~a|
+@oid o0900883
 @list U+128AC
 @ucun 𒢬
 @uname GISH TIMES SHU2-A
@@ -7629,9 +7634,10 @@
 @sys	AP24 128AC
 @sys	LLATU:233_03 GIŠ+ŠU₂~a 
 @@
-@form |GIŠ×ŠU₂~b|
-@oid o0900884
+@form |(GIŠ×ŠU₂)~b|
+@aka	|GIŠ×ŠU₂~b|
 @aka	|GIŠ+ŠU₂~b|
+@oid o0900884
 @list U+128AD
 @ucun 𒢭
 @uname GISH TIMES SHU2-B
@@ -14683,8 +14689,8 @@
 @oid o0901705
 @aka	|SAL.ZATU751~c|
 @sys	ADD F300F CUSAS31 SAL.HIxHI.png
-@useq x12AB5.x12D75
-@inote	Monaco's |SAL.ZATU751~c| in CUSAS 31, 089 o ii 7 is not convincing; "ZATU751~c"
+@useq x12AB5.xF300F
+@inote	Monaco's |SAL.ZATU751~c| in CUSAS 31, 089 o ii 7 is not convincing; "ZATU751~c" better HI×HI
 @end sign
 
 @sign |SAL.ZATU751|
@@ -16864,9 +16870,11 @@
 
 @sign |GEŠTU×ŠE|
 @oid  o0903565
-@form |ŠE.GEŠTU|
-@aka |ŠE~a@t.GEŠTU~a|
+@form |GEŠTU~a×ŠE~a@t|
 @oid o0903566
+@list U+F3091
+@uname ADD F3091
+@sys ADD F3091
 @@
 @end sign
 
@@ -18831,9 +18839,10 @@
 @sys	AP24 12BEB
 @end sign
 
-@sign |U₄.(1(N14).3(N08))|
+@sign |U₄.1(N14).3(N08)|
 @oid o0902172
 @sys CDLI-gh img-page
+@aka 	|U₄.(1(N14).3(N08))|
 @aka	|(U₄+1(N14)).3(N08)|
 @list U+12BEC
 @ucun 𒯬
@@ -18843,7 +18852,9 @@
 @sys	AP24 12BEC
 @end sign
 
-@sign |U₄.(1(N14).4(N08))|
+
+@sign |U₄.1(N14).4(N08)|
+@aka |U₄.(1(N14).4(N08))|
 @oid o0902173
 @sys CDLI-gh img-page
 @list U+12BED
@@ -18854,7 +18865,8 @@
 @sys	AP24 12BED
 @end sign
 
-@sign |U₄.(1(N14).5(N08))|
+@sign |U₄.1(N14).5(N08)|
+@aka |U₄.(1(N14).5(N08))|
 @oid o0902174
 @sys CDLI-gh img-page
 @list U+12BEE
@@ -18865,7 +18877,8 @@
 @sys	AP24 12BEE
 @end sign
 
-@sign |U₄.(1(N14).8(N08))|
+@sign |U₄.1(N14).8(N08)|
+@aka |U₄.(1(N14).8(N08))|
 @oid o0902175
 @sys CDLI-gh img-page
 @list U+12BEF
@@ -19328,10 +19341,11 @@
 @sys	AP24 12BF2
 @end sign
 
-@sign |U₄+1(N14)+1(N08)|
+@sign |U₄.1(N14).1(N08)|
 @oid o0902218
+@aka |U₄.(1(N14).1(N08))|
 @aka	|(U₄+1(N14)).1(N08)|
-@inote	OK, but encode as sequence; l-to-r sequence on tablet is 1(N08) 1(N14) U4
+@inote	OK, but encode as sequence; l-to-r sequence on tablet is 1(N08) 1(N14) U4 (re-check if this is upside-down copy of rev :) )
 @end sign
 
 @sign |U₄+1(N24)|
@@ -20971,6 +20985,7 @@
 
 @compoundonly	X
 @compoundonly	X₁
+
 @sign |X×HI|
 @oid o0902414
 @sys	ADD F3001 P252168 XxHI.png
@@ -21889,7 +21904,7 @@
 @end sign
 
 @sign ZATU659@t
-@oid o0903561
+@oid o0902510
 @end sign
 
 @sign |ZATU659×1(N01)|
@@ -29144,7 +29159,8 @@
 @uname DU6-A NUTILLU
 @end sign
 
-@sign |2(N57).DU₆~a@n|
+@sign X₂
+@aka |2(N57).DU₆~a@n|
 @oid o0903564
 @inote this may be an integral sign rather than as described
 @useq xF0111.xF3089
@@ -29607,6 +29623,8 @@
 @sign |1(N58).BAD|
 @oid o0903281
 @sys CDLI-gh img-page
+
+@form |(1(N58).BAD)~a|
 @aka	|BAD+DIŠ~a|
 @aka	|1(N58).BAD~a|
 @list U+12E0D
@@ -29618,7 +29636,7 @@
 @sys	AP23 12C2B
 @sys	AP24 12E0D
 @sys	LLATU:188_03 BAD+DIŠ~a 
-@form |1(N58)~a.BAD~a|
+@form |(1(N58).BAD)~b|
 @oid o0903282
 @aka	|1(N58).BAD~b|
 @list U+12E0F
@@ -29629,9 +29647,9 @@
 @sys	AP24 12E0F
 @sys	LLATU:188_04 BAD+DIŠ~b 
 @@
-@form |1(N58)~a.BAD|
-@oid o0903283
+@form |(1(N58).BAD)~b~v1|
 @aka	|1(N58).BAD~b|~v1
+@oid o0903283
 @list U+12E0E
 @ucun 𒸎
 @uname ONE-N58 FORM A BESIDE BAD
@@ -29863,11 +29881,9 @@
 @compoundonly	|BAR×UŠ~a|
 @compoundonly	|DUG&DUG|
 @compoundonly	|DUG~b~v1&DUG~b~v1|
-@compoundonly	|HI×HI|
 @compoundonly	|HI×N04|
 @compoundonly	|SILA₃~a×UMBIN~a|
 @compoundonly	|SILA₃×UMBIN|
-@compoundonly	|UDU~a×TAR|
 @compoundonly	|UKKIN~b~v1×1(N57)|
 @compoundonly	|UKKIN×1(N57)|
 @compoundonly	|U₄×(1(N14).3(N01))|

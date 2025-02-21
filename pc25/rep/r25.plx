@@ -12,7 +12,12 @@ use Getopt::Long;
 GetOptions(
     );
 
-my %norollback = ();
+my %revert = (
+    '1(N58)~a'=>'1(N58)',
+    'ŠU₂~a'=>'ŠU₂',
+    'ŠU₂~b'=>'ŠU₂',
+    );
+
 my %aka = ();
 my @aka = `cat 00etc/aka.tsv`; chomp @aka;
 foreach (@aka) {
@@ -34,6 +39,7 @@ foreach (@pick) {
 	    $pick{$pcsl} = 'X';
 	} else {
 	    $pick{$pcsl} = $pcsl;
+	    $pick{$pcsl,'aka'} = $aka;
 	}
     } elsif ($aka =~ s/^-//) {
 	$pick{$pcsl} = $aka;
@@ -57,6 +63,7 @@ my %glyfmap = ();
 my $gutf = 'FA000';
 
 my @rep = `cat 00etc/pc25-on.rep`; chomp @rep;
+my %signs = ();
 
 my %v = ();
 
@@ -67,7 +74,7 @@ my %u = (); foreach (@u) { my($u,$o) = split(/\t/,$_); $u{$o} = $u; }
 my %s = ();
 
 open(PICK,'>pick.log');
-open(NAMES,'| gdlx -ppcsl -k2 -U >00etc/xnames.tsv');
+open(NAMES,'| gdlx -ppcsl -k2 -U >00etc/names.tsv');
 open(O,'>new-oid.tab');
 foreach (@rep) {    
     my($o,$n) = split(/\t/,$_);
@@ -107,8 +114,8 @@ foreach (@rep) {
 		    if ($pick{$v} ne $v) { # pick-aka.tsv picks col3, replace SL Name w Corpus Name
 			$v = $pick{$v};
 		    } else {
-			$aka = $pick{$v}; # pick-aka.tsv picks col2 so register col3 as @aka
-		    }			
+			$aka = $pick{$v,'aka'}; # pick-aka.tsv picks col2 so register col3 as @aka
+		    }
 		}
 	    } else {
 		warn "aka\t$v\t$aka{$o}\n";
@@ -120,6 +127,8 @@ foreach (@rep) {
     # Now $v is the canonical PCSL sign name that aligns as well as we can/want with CDLI
     #
     print NAMES "$o\t$v\n";
+    my $sv = $v; $sv =~ tr/|//d;
+    $signs{$sv} = $o;
 
     my $glyf = glyfs($oo, $o);
     my $sc = $scodes{$o} || $scodes{$oo};
@@ -130,12 +139,21 @@ close(O);
 close(NAMES);
 close(PICK);
 
-my %unames = (); my @unames = `cut -f1,3 00etc/names.tsv`; chomp @unames;
+my %beside = ();
+my @useq = ();
+my %unames = (); my @unames = `cat 00etc/names.tsv`; chomp @unames;
 foreach (@unames) {
-    my($o,$u) = split(/\t/,$_);
+    my($o,$n,$u) = split(/\t/,$_);
     if (/ONE-N57/ && $o eq 'o0903279') { $u =~ s/ONE-N57/TEN-N57/ }
-    $unames{$o} = $u;
+    if ($u =~ / BESIDE /) {
+	push @useq, [ $o , $n ];
+	++$beside{$n};
+    } else {
+	$unames{$o} = $u;
+    }
 }
+
+my %useq = (); get_useqs(@useq);
 
 my %rep = ();
 
@@ -151,15 +169,27 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
     
     my $udata = '';
     my $uhex = $u{$o};
-    if ($uhex && $uhex =~ s/^U\+//) {
-	my $uname = $unames{$o};
-	my $uchar = '';
-	$uchar = chr(hex($uhex));
-	$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
-	unless (not_in_repertoire($v,$uname)) {
-	    $rep{$o} = "$uchar\t$uname\t$o\n";
-	    if ($uhex =~ /^F3/) {
-		print A "$uhex\t$v\t$o\t$uname\n";
+    if ($uhex) {
+	if ($uhex =~ s/^U\+// && !$beside{$v}) {
+	    my $uname = $unames{$o};
+	    if ($uname) {
+		my $uchar = '';
+		$uchar = chr(hex($uhex));
+		$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
+		unless (not_in_repertoire($v,$uname)) {
+		    $rep{$o} = "$uchar\t$uname\t$o\n";
+		    if ($uhex =~ /^F3/) {
+			print A "$uhex\t$v\t$o\t$uname\n";
+		    }
+		}
+	    } else {
+		warn "$v\t$o\tno uname\n";
+	    }
+	} else {
+	    if ($useq{$o}) {
+		$udata = '@useq '.$useq{$o}."\n";
+	    } else {
+		warn "$v\t$o\tno useq\n";
 	    }
 	}
     }
@@ -199,6 +229,38 @@ close(M);
 
 ################################################################################
 
+sub get_useqs {
+    open(U,'|gdlx -k2 -q >00etc/useq.tsv') || die;
+    foreach (@useq) {
+	print U join("\t", @$_), "\n";
+    }
+    close(U);
+    my @u = `cat 00etc/useq.tsv`; chomp @u;
+    foreach (@u) {
+	my($o,$n,$q) = split(/\t/, $_);
+	my @q = split(/\s+/, $q);
+	my @sq = ();
+	foreach my $x (@q) {
+	    $x =~ s/^\((.*?)\)$/$1/;
+	    my $xo = $signs{$x};
+	    $xo = $signs{$revert{$x}} unless $xo || !$revert{$x};
+	    if ($xo) {
+		my $xu = $u{$xo};
+		if ($xu) {
+		    $xu =~ s/U\+/x/;
+		    push @sq, $xu;
+		} else {
+		    push @sq, 'X';
+		}
+	    } else {
+		warn "$o\t$n\t$x\tno sign in PC25\n" unless $x =~ /^X/;
+		push @sq, 'X';
+	    }
+	}
+	$useq{$o} = join('.', @sq);
+    }
+}
+
 sub glyfs {
     my $o = shift;
     my $gix = 0;
@@ -221,6 +283,8 @@ sub glyfs {
 
 sub not_in_repertoire {
     my($n,$u) = @_;
+    warn "not_in_repertoire n=$n and no u\n" unless $u;
+    return 1 unless $u;
     if ($u =~ /NUMBER/ && $u !~ /N57/) {
 	return 1;
     }
