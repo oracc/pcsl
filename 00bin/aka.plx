@@ -9,14 +9,19 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $tokfile = '/home/oracc/pcsl/02pub/csl.tok';
+my $xmloutput = 0;
+
 GetOptions(
+    't:s'=>\$tokfile,
+    x=>\$xmloutput,
     );
 
 my %c = ();
 my %k = ();
 
 # Read csl.tok and report where an @aka has been used to identify a @sign or @form
-open(T,'/home/oracc/pcsl/02pub/csl.tok') || die;
+open(T,$tokfile) || die;
 while (<T>) {
     if (/^g\t/) {
 	chomp;
@@ -35,7 +40,11 @@ while (<T>) {
     }
 }
 
-open(C, '| rocox -x x >01tmp/aka.xml') || die;
+if ($xmloutput) {
+    open(C, '| rocox -x x >01tmp/aka.xml') || die;
+} else {
+    open(C,'>01tmp/aka.tsv') || die;
+}
 foreach my $c (sort keys %c) {
     my $k = $c; $k =~ s/\t.*$//;
     my $nk = $k{$k} || 0;

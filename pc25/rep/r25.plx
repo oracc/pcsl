@@ -12,14 +12,16 @@ use Getopt::Long;
 GetOptions(
     );
 
+my %norollback = ();
+
 my @oid = `grep ^o09 /home/oracc/oid/oid.tab`; chomp @oid;
 my %oid = (); foreach (@oid) { my($o,$t,$n) = split(/\t/,$_); $oid{$n} = $o; }
 
 my $xoid = $oid[$#oid]; $xoid =~ s/\t.*$//;
 
-my @glyf = `cat rep/glyf.tsv`; chomp @glyf;
+my @glyf = `cat 00etc/glyf.tsv`; chomp @glyf;
 my %glyf = (); foreach (@glyf) { my($o,$g) = split(/\t/,$_); $glyf{$o} = $g; }
-
+my %glyfmap = ();
 my $gutf = 'FA000';
 
 my @rep = `cat 00etc/pc25-on.rep`; chomp @rep;
@@ -36,17 +38,20 @@ foreach (@rep) {
     my $oo = $o;
     my $v = $n;
     if ($v =~ s/~v\d+//g) {
+	# warn "$v\n";
 	if ($v{$v}) {
 	    warn "duplicate ~v-base $n and $v{$n}\n";
 	} else {
+	    $v{$v} = $n;
 	    if ($oid{$v}) {
 		# warn "reducing $o=$n to $v conflicts with $v=$oid{$v}\n";
 		$o = $oid{$v};
+		$v{$v,'o'} = $oid{$n};
 	    } else {
 		++$xoid;
 		$o = $xoid;
 		print O "$xoid\tpc\t$v\tsign\t\n";
-		$v{$v} = $n;
+		$v{$v,'o'} = $oid{$n};
 	    }
 	}
     }
@@ -62,12 +67,24 @@ print `cat rep/compoundonly.txt`;
 close(P);
 close(O);
 
+# open(D,'>v.dump'); print D Dumper \%v; close(D);
+
 open(V,'>00etc/v.tsv');
 foreach my $v (sort keys %v) {
-    print V "$v\t$v{$v}\n";
+    next if $v =~ /o$/;
+    unless ($v{$v,'o'}) {
+	$v{$v,'o'} = 'X';
+	warn "no OID for $v\n";
+    }
+    print V "$v\t$v{$v}\t$v{$v,'o'}\t$u{$v{$v,'o'}}\n";
 }
 close(V);
 
+open(M,'>00etc/glyfmap.tsv');
+foreach (sort keys %glyfmap) {
+    print M "$_\t$glyfmap{$_}\n";
+}
+close(M);
 1;
 
 ################################################################################
@@ -80,6 +97,7 @@ sub glyfs {
 	foreach my $g ($o, split(/\s+/, $glyf{$o})) {
 	    my $c = chr(hex($gutf));
 	    push @g, "\@glyf $gix $c $gutf\n";
+	    $glyfmap{$gutf} = $u{$o};
 	    ++$gutf;
 	    ++$gix;
 	}
