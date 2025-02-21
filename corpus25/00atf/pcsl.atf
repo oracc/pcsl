@@ -610,7 +610,7 @@ $ broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c 
 ## >>Q000023 003 
-4. 1(N01) , |DUG+AŠ~c| 
+4. 1(N01) , |DUG~cx1(N57)| 
 ## >>Q000023 004 
 5. 1(N01) , UKKIN~b 
 ## >>Q000023 005 
@@ -92581,7 +92581,7 @@ $ blank space
 @column 1 
 1.a. 5(N14) , AL# ZATU756 GAN₂ 
 1.b. , KAŠ~a 2(N57) 
-2.a. 1(N15) 1(N22@v) 3(N02) , GAN₂ UDU~a AB₂ 
+2.a. 1(N15) 1(N22~v) 3(N02) , GAN₂ UDU~a AB₂ 
 2.b. 3(N01) , ŠE~a ZATU625 NUMUN 
 3. 1(N15)? , IŠ~b GAN₂ |DARA₃~d×KAR₂| 
 4. 3(N02) , MA#? 
@@ -103819,7 +103819,7 @@ $ blank
 2. 2(N01) , KU₆~a [...] 
 3. 1(N01) , UD₅~a# 
 @reverse 
-1. 6(N01) , KIŠ SI# KASKAL SANGA~a |EN~a+NUN~a| 
+1. 6(N01) , KIŠ SI# KASKAL SANGA~a |NUN~a+EN~a| 
 
 
 
@@ -107642,7 +107642,7 @@ $ (double ruling vertical)
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 2(N14) 4(N01) , KIŠ |EN~a+NUN~a| ERIN 
+1. 2(N14) 4(N01) , KIŠ |NUN~a+EN~a| ERIN 
 @reverse 
 $ blank space 
 
@@ -107692,7 +107692,7 @@ $ blank space
 5. 2(N01) , MAR~a 
 @column 2 
 1. 3(N01) , GAN₂ 
-2. 2(N01) , |ŠU₂×EN~a| 
+2. 2(N01) , |ŠU₂.EN~a| 
 3. 1(N01) , TUKU 
 4. 1(N14) 1(N01) , |GA₂~b×X| 
 5. 2(N14) 4(N01) , BA? 
@@ -107990,7 +107990,7 @@ $ blank space
 6. 4(N14) , EN~a ŠU NUN~a 
 7. 4(N14) , AMAR EN~a 
 @column 2 
-1. 4(N14) , AN |ŠU₂×EN~a| 
+1. 4(N14) , AN |ŠU₂.EN~a| 
 2. 3(N14) , NAM₂ TUKU 
 3. 4(N14) , EN~a NUN~a ERIM~a
 4. 4(N14) , EN~a AN RU~a 
@@ -108766,7 +108766,7 @@ $ beginning broken
 @column 3 
 1.a. [...] 1(N34) , [...] 1(N24)# 
 1.b. [...] , HI@g~a 
-2.a. 2(N51) , DU₈@c 1(N16) 
+2.a. 2(N51) , DU₈~c 1(N16) 
 2.b. 2(N01) 2(N39~a) , HI@g~a 
 # calculation: 240 x 1/20N39 = 12N39 
 # N16 = 1/20N39 
@@ -111416,7 +111416,7 @@ $ blank
 1.b2. 2(N14) 3(N01) , UNUG~a 
 1.c. [...] 1(N14)# [...] 4(N01)# , BU~a GI# BU~a 
 2. 2(N01) , GIŠ@t# E₂~a 
-3. 6(N01) , |DUG~bx(UDU~a×TAR)| 
+3. 6(N01) , |DUG~bx(UDU~a×TAR~b)| 
 4. 6(N01) , KID~b 
 @column 2 
 1. 1(N14) 7(N01) , MA 
@@ -113366,7 +113366,7 @@ $ blank space
 @tablet 
 @obverse 
 1. [...] 1(N14) 7(N01)# [...] 
-2. , SANGA~a AB~a |SAR×ŠE~a| 
+2. , SANGA~a AB~a |SAR~a×ŠE~a| 
 @reverse 
 1. [...] X 
 
@@ -116102,7 +116102,7 @@ $ (no linguistic content)
 2. 3(N14) 4(N01) , APIN~b 
 3. 4(N01) , KIŠ 
 4. 6(N01) , TAR~a 
-5. 1(N14) 3(N01) , |ŠE~a+SAR| 
+5. 1(N14) 3(N01) , |SAR~a×ŠE~a| 
 @column 4 
 1. 1(N34) 3(N14) 7(N01) , UDU~a 
 2. , |GI&GI| EN~a 
@@ -119290,7 +119290,7 @@ $ rest broken
 1.b. [...] 
 2.a. 3(N14) , NAGA~a SI GAR 
 2.b. 2(N42~a) , 
-3.a. 2(N05) , UKKIN~a AN |ŠU₂×EN~a| 
+3.a. 2(N05) , UKKIN~a AN |ŠU₂.EN~a| 
 3.b. 3(N40) , 
 4.a. 1(N05) 1(N42~a) 1(N25) , ZATU710 GAN₂ IŠ~b 
 4.b. 4(N40) , 
@@ -120625,7 +120625,7 @@ $ broken
 3.b2. 2(N14) 3(N57) , ŠU 
 @column 2 
 1.a. [...] 1(N50) [...] 1(N14) , UB ZI~a 
-1.b1. [...] 2(N14) , |ŠE~a+SAR| 
+1.b1. [...] 2(N14) , |SAR~a×ŠE~a| 
 1.b2. 3(N14) , UB E₂~a GAL~a 
 2. , X [...] 
 @reverse 
@@ -121538,13 +121538,13 @@ $ broken
 @column 1 
 1. 5(N01) , GAL~a# TE# 
 2. 5(N01) , ŠU# NAR# 
-3. 5(N01) , E~a# |BU~a.DU₆|# 
+3. 5(N01) , E~a# |BU~a.DU₆~a|# 
 4. 2(N01)# , SANGA~a# KI# 
 5. 3(N01)# , SANGA~a# SIG UDU~a# 
 6. , UDU~a# ZATU752# 
 7. , |GI&GI|# AB~a# 
 @column 2 
-1. 5(N01) , |BU~a.DU₆|# PAP~a# 
+1. 5(N01) , |BU~a.DU₆~a|# PAP~a# 
 2. 2(N01)# , EN~a PAP~a PAP@t# 
 3. 2(N01)# , MUD ZATU809# 
 4. 2(N01)# , |ŠU₂.PAP~a| 
@@ -122679,7 +122679,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |DUG~bx(UDU~a×TAR~a)| KUR~a 
+1. 1(N01) |DUG~bx(UDU~a×TAR~b)| KUR~a 
 $ blank space 
 @reverse 
 $ blank space 

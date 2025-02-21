@@ -1,4 +1,5 @@
 atf: 00atf/pcsl.atf
+	00bin/pc25.sh
 
 cat: 00cat/pcsl.tsv
 	cat 00src/pcsl.tsv | cut -f1,3-6,13,14,29,34-44 >00cat/pcsl.tsv

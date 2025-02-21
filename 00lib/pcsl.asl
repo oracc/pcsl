@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3090
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -4130,13 +4130,11 @@
 
 @sign |DUG×(UDU×TAR)|
 @oid o0900453
-@inote @smap |DUG~b×(UDU~a×TAR)|
-@form |DUG~b×(UDU~a×TAR)|
+@form |DUG~b×(UDU~a×TAR~b)|
 @oid o0900454
-@aka	|DUG~b×(UDU~a×TAR~a)|
 @sys	ADD F3034 CUSAS21_247 DUGxUDU+TAR.png
 @list U+F3034
-@uname ADD NAME |DUG~b×(UDU~a×TAR)|
+@uname ADD NAME |DUG~b×(UDU~a×TAR~b)|
 @@
 @end sign
 
@@ -8389,6 +8387,13 @@
 @@
 @end sign
 
+@sign |HI×HI|
+@oid o0903383
+@sys	ADD F300F CUSAS31 HIxHI.png
+@list U+F300F
+@uname ADD F300F
+@end sign
+
 @sign |HI.SUHUR|
 @oid o0900962
 @sys CDLI-gh img-page
@@ -10879,7 +10884,6 @@
 @inote @smap |LAGAB~b&LAGAB~b|
 @form |LAGAB~b&LAGAB~b|
 @oid o0901260
-@aka	|LAGAB~b+LAGAB~b|
 @aka	|LAGAB~b×LAGAB~b|
 @list U+1299F
 @ucun 𒦟
@@ -10890,6 +10894,10 @@
 @sys	LLATU:253_01 LAGAB~b+LAGAB~b 
 @inote	AP CDLI correction
 @@
+@form |LAGAB~b.LAGAB~b|
+@aka  |LAGAB~b+LAGAB~b|
+@useq x12997.x12997
+@oid o0903664
 @end sign
 
 @sign LAGAR
@@ -14671,24 +14679,20 @@
 @sys	AP24 12AB9
 @end sign
 
-@sign |SAL+HI×HI|
+@sign |SAL.HI×HI|
 @oid o0901705
 @aka	|SAL.ZATU751~c|
-@sys	ADD F300F CUSAS31 SAL+HIxHI.png
+@sys	ADD F300F CUSAS31 SAL.HIxHI.png
+@useq x12AB5.x12D75
 @inote	Monaco's |SAL.ZATU751~c| in CUSAS 31, 089 o ii 7 is not convincing; "ZATU751~c"
-@list U+F300F
-@uname ADD NAME |SAL+HI×HI|
 @end sign
 
-@sign |SAL+ZATU751|
+@sign |SAL.ZATU751|
 @oid o0901706
 @inote @smap |SAL+ZATU751~a|
-@form |SAL+ZATU751~a|
+@form |SAL.ZATU751~a|
 @oid o0901707
-@sys	ADD F300E CUSAS01 SAL+ZATU751.png
-@inote	CHECK
-@list U+F300E
-@uname ADD NAME |SAL+ZATU751~a|
+@useq x12AB5.x12D75
 @@
 @end sign
 
@@ -16858,10 +16862,10 @@
 @@
 @end sign
 
-@sign |ŠE.GEŠTU|
+@sign |GEŠTU×ŠE|
 @oid  o0903565
-@form |ŠE~a@t.GEŠTU~a|
-@aka |GEŠTU~a×ŠE~a@t|
+@form |ŠE.GEŠTU|
+@aka |ŠE~a@t.GEŠTU~a|
 @oid o0903566
 @@
 @end sign
@@ -17646,12 +17650,12 @@
 @oid o0902038
 @sys CDLI-gh img-page
 @list ZATU534
-@sys ADD 0xF307F ŠU₂
-@list U+F307F
+@sys ADD 0xF3090 ŠU₂
+@list U+F3090
 @uname SHU2
 @sys	LLATU:296_02 ŠU₂ 
-@form ŠU₂~v1
-@aka ŠU₂~a
+@form ŠU₂~a
+@aka ŠU₂~v1
 @oid o0902039
 @list U+12B91
 @ucun 𒮑
@@ -17660,8 +17664,8 @@
 @sys	AP23 12A07
 @sys	AP24 12B91
 @@
-@form ŠU₂~v2
-@aka ŠU₂~b
+@form ŠU₂~b
+@aka ŠU₂~v2
 @oid o0902040
 @list U+12B98
 @ucun 𒮘
@@ -17671,9 +17675,6 @@
 @sys	AP24 12B98
 @@
 @end sign
-
-@compoundonly ŠU₂~a
-@compoundonly ŠU₂~b
 
 @sign |ŠU₂~a.AN|
 @oid o0902041
@@ -27018,7 +27019,6 @@
 
 @sign 1(N22~v)
 @oid o0903007
-@aka 1(N22@v)
 @list U+F00FD
 @ucun 󰃽
 @uname -

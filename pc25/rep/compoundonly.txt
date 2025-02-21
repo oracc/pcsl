@@ -23,8 +23,6 @@
 @compoundonly ŠU₂~b
 @compoundonly GURUŠ~c
 @compoundonly 1(N57@t)
-@compoundonly KA₂
-@compoundonly LAM
 @compoundonly KUŠU₂~a@t
 @compoundonly LA₂~a
 @compoundonly KUR~e
@@ -35,10 +33,8 @@
 @compoundonly HI~a1
 @compoundonly EN~d
 @compoundonly |UKKIN~b×1(N57)|
-@compoundonly ME
 @compoundonly |HI×HI|
 @compoundonly SILA₃~c
-@compoundonly HI@g
 @compoundonly |ŠA×HI@g~a|
 @compoundonly ŠEN~d
 @compoundonly ŠITA~b2@g
@@ -50,6 +46,9 @@
 
 @sign LAGAB
 @oid o0901185
+@end sign
+@sign N29
+@oid o0903659
 @end sign
 @sign N29A
 @oid o0903654
@@ -65,7 +64,7 @@
 @end sign
 
 @sign |1(N14).3(N08)|
-@oid o0903660
+@oid o0903557
 @end sign
 
 @sign |1(N14).4(N08)|

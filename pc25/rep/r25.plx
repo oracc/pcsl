@@ -26,6 +26,23 @@ foreach (@aka) {
     }
 }
 
+my %pick = (); my @pick = `cut -f2- 00etc/pick-aka.tsv`; chomp @pick;
+foreach (@pick) {
+    my($pcsl,$aka) = split(/\t/,$_);
+    if ($pcsl =~ s/^-//) {
+	if ($aka =~ /^-/) {
+	    $pick{$pcsl} = 'X';
+	} else {
+	    $pick{$pcsl} = $pcsl;
+	}
+    } elsif ($aka =~ s/^-//) {
+	$pick{$pcsl} = $aka;
+    } else {
+	$pick{$pcsl} = 'Y';
+    }
+	
+};
+
 my @scodes = `cat /home/oracc/pcsl/02pub/sortcodes.tsv`; chomp @scodes;
 my %scodes = (); foreach (@scodes) { my($o,$s) = split(/\t/,$_); $scodes{$o} = $s; }
 
@@ -39,17 +56,18 @@ my %glyf = (); foreach (@glyf) { my($o,$g) = split(/\t/,$_); $glyf{$o} = $g; }
 my %glyfmap = ();
 my $gutf = 'FA000';
 
-my @rep = `cat 00etc/pc25-on.rep`; warn @rep; chomp @rep;
+my @rep = `cat 00etc/pc25-on.rep`; chomp @rep;
 
 my %v = ();
 
 my @u = `cut -f1,3 /home/oracc/pcsl/02pub/unicode.tsv`; chomp @u;
 my %u = (); foreach (@u) { my($u,$o) = split(/\t/,$_); $u{$o} = $u; }
-open(U,'>u.dump'); print U Dumper \%u; close(U);
+#open(U,'>u.dump'); print U Dumper \%u; close(U);
 
-my @s = ();
+my %s = ();
 
-open(NAMES,'| gdlx -ppcsl -k2 -U >00etc/names.tsv');
+open(PICK,'>pick.log');
+open(NAMES,'| gdlx -ppcsl -k2 -U >00etc/xnames.tsv');
 open(O,'>new-oid.tab');
 foreach (@rep) {    
     my($o,$n) = split(/\t/,$_);
@@ -78,12 +96,23 @@ foreach (@rep) {
     } else {
 	warn "$o = $oo = $v = $n has no Unicode\n";
     }
+    
+    my $aka = '';
     if ($aka{$o}) {
-	if ($v ne $aka{$o}) {
-	    #
-	    # LOOK UP aka{$o} in use-or-not table
-	    #
-	    warn "sign name $v differs from aka $aka{$o}\n";
+	if ($v ne $aka{$o}) { # SL name is not Corpus name
+	    if ($pick{$v}) { # SL name is in pick-aka.tsv
+		if ($pick{$v} eq 'Y') { # pick-aka.tsv doesn't make a pick
+		    print PICK "pick\t$v\t$aka{$o}\n";
+		} elsif ($pick{$v} ne 'X') { # pick-aka.tsv picks neither
+		    if ($pick{$v} ne $v) { # pick-aka.tsv picks col3, replace SL Name w Corpus Name
+			$v = $pick{$v};
+		    } else {
+			$aka = $pick{$v}; # pick-aka.tsv picks col2 so register col3 as @aka
+		    }			
+		}
+	    } else {
+		warn "aka\t$v\t$aka{$o}\n";
+	    }
 	}
     }
 
@@ -95,10 +124,11 @@ foreach (@rep) {
     my $glyf = glyfs($oo, $o);
     my $sc = $scodes{$o} || $scodes{$oo};
     warn "no scode for $o or $oo\n" unless defined $sc;
-    push @s, [ $v , $o , $glyf , $sc ];
+    $s{$oo} = [ $v , $o , $aka , $glyf , $sc ];
 }
 close(O);
 close(NAMES);
+close(PICK);
 
 my %unames = (); my @unames = `cut -f1,3 00etc/names.tsv`; chomp @unames;
 foreach (@unames) {
@@ -112,8 +142,13 @@ my %rep = ();
 open(A,'>pc25-add.tsv');
 open(P,'>pc25.asl'); select P;
 print `cat rep/head`;
-foreach my $s (@s) {
-    my ($v,$o,$glyf, $sc) = @$s;
+foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
+    my ($v, $o, $aka, $glyf, $sc) = @{$s{$s}};
+
+    if ($aka) {
+	$aka = "\@aka $aka\n";
+    }
+    
     my $udata = '';
     my $uhex = $u{$o};
     if ($uhex && $uhex =~ s/^U\+//) {
@@ -129,7 +164,7 @@ foreach my $s (@s) {
 	}
     }
     
-    print "\@sign $v\n\@oid $o\n$glyf$udata\@end sign\n\n";
+    print "\@sign $v\n\@oid $o\n$aka$glyf$udata\@end sign\n\n";
 }
 print `cat rep/compoundonly.txt`;
 close(P);
@@ -190,6 +225,9 @@ sub not_in_repertoire {
 	return 1;
     }
     if ($u =~ / X/) {
+	return 1;
+    }
+    if ($u =~ /BESIDE/) {
 	return 1;
     }
 }
