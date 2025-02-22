@@ -12,6 +12,19 @@ use Getopt::Long;
 GetOptions(
     );
 
+my %font = (); my @font = `00bin/fntuni.sh`; chomp @font; @font{@font} = ();
+
+# Do Not Encode
+my %dne = (
+    o0901365=>'|MAR~b×GAR|',
+    o0903564=>'|2(N57).DU₆~a@n|',
+    );
+
+# DO Encode
+my %doe = (
+    o0903571=>'|(BU~a%BU~a).NA₂~a@n|',
+    );
+
 my %revert = (
     '1(N58)~a'=>'1(N58)',
     'ŠU₂~a'=>'ŠU₂',
@@ -76,8 +89,9 @@ my %s = ();
 open(PICK,'>pick.log');
 open(NAMES,'| gdlx -ppcsl -k2 -U >00etc/names.tsv');
 open(O,'>new-oid.tab');
-foreach (@rep) {    
+foreach (@rep) {
     my($o,$n) = split(/\t/,$_);
+    next if $dne{$o};
     my $oo = $o;
     my $v = $n;
     if ($v =~ s/~v\d+//g) {
@@ -145,7 +159,7 @@ my %unames = (); my @unames = `cat 00etc/names.tsv`; chomp @unames;
 foreach (@unames) {
     my($o,$n,$u) = split(/\t/,$_);
     if (/ONE-N57/ && $o eq 'o0903279') { $u =~ s/ONE-N57/TEN-N57/ }
-    if ($u =~ / BESIDE /) {
+    if ($u =~ / BESIDE / && !$doe{$o}) {
 	push @useq, [ $o , $n ];
 	++$beside{$n};
     } else {
@@ -156,6 +170,7 @@ foreach (@unames) {
 my %useq = (); get_useqs(@useq);
 
 my %rep = ();
+my %not = ();
 
 open(A,'>pc25-add.tsv');
 open(P,'>pc25.asl'); select P;
@@ -176,10 +191,10 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
 		my $uchar = '';
 		$uchar = chr(hex($uhex));
 		$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
-		unless (not_in_repertoire($v,$uname)) {
-		    $rep{$o} = "$uchar\t$uname\t$o\n";
+		unless (not_in_repertoire($v,$uname,$o,$uhex)) {
+		    $rep{$o} = "$uchar\t$uhex\t$uname\t$o\n";
 		    if ($uhex =~ /^F3/) {
-			print A "$uhex\t$v\t$o\t$uname\n";
+			print A $rep{$o} unless exists $font{$uhex};
 		    }
 		}
 	    } else {
@@ -200,7 +215,13 @@ print `cat rep/compoundonly.txt`;
 close(P);
 close(A);
 
-my $rutf = 0x12650;
+open(N,'>pc25-not.tsv');
+foreach my $h (sort keys %not) {
+    print N $not{$h}
+}
+close(N);
+
+my $rutf = 0x12690;
 open(R,'>pc25-repertoire.tsv');
 foreach my $o (sort { $scodes{$a} <=> $scodes{$b} } keys %rep) {
     printf R "%X\t$rep{$o}", $rutf++;
@@ -241,7 +262,7 @@ sub get_useqs {
 	my @q = split(/\s+/, $q);
 	my @sq = ();
 	foreach my $x (@q) {
-	    $x =~ s/^\((.*?)\)$/$1/;
+	    $x =~ s/^\((.*?)\)$/$1/ unless $x =~ /HI×1.N57\)\)[.&]/;
 	    my $xo = $signs{$x};
 	    $xo = $signs{$revert{$x}} unless $xo || !$revert{$x};
 	    if ($xo) {
@@ -282,16 +303,19 @@ sub glyfs {
 }
 
 sub not_in_repertoire {
-    my($n,$u) = @_;
+    my($n,$u,$o,$h) = @_;
     warn "not_in_repertoire n=$n and no u\n" unless $u;
     return 1 unless $u;
     if ($u =~ /NUMBER/ && $u !~ /N57/) {
+	$not{$h} = "$o\t$n\t$h\tNUMBER\n";
 	return 1;
     }
     if ($u =~ / X/) {
+	$not{$h} = "$o\t$n\t$h\tX\n";
 	return 1;
     }
     if ($u =~ /BESIDE/) {
+	$not{$h} = "$o\t$n\t$h\tBESIDE\n";
 	return 1;
     }
 }

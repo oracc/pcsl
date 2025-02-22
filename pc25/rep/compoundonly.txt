@@ -33,7 +33,6 @@
 @compoundonly HI~a1
 @compoundonly EN~d
 @compoundonly |UKKIN~b×1(N57)|
-@compoundonly |HI×HI|
 @compoundonly SILA₃~c
 @compoundonly |ŠA×HI@g~a|
 @compoundonly ŠEN~d
@@ -81,4 +80,8 @@
 
 @sign |2(N14).1(N08)|
 @oid o0903560
+@end sign
+
+@sign |HI×HI|
+@oid o0903383
 @end sign

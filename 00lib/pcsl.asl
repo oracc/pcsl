@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3092
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3093
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -1820,9 +1820,9 @@
 @form |BU~a%BU~a|
 @oid o0903650
 @aka |BU~a~v1%BU~a~v1|
-@list U+F3092
-@uname ADD F3092
-@sys	ADD F3092 XXX BU%BU.png
+@list U+F3093
+@uname ADD F3093
+@sys	ADD F3093 XXX BU%BU.png
 @@
 @end sign
 
@@ -8471,7 +8471,11 @@
 @sys	AP23 12D4D
 @sys	AP24 128ED
 @inote	AP CDLI correction
-@compoundonly	|(HI×1(N57))&(HI×1(N57))|
+@form	|(HI×1(N57))&(HI×1(N57))|
+@oid	o0903408
+@list U+F3092
+@uname ADD F3092
+@@
 @end sign
 
 @sign |HI×1(N57@t)|
@@ -18969,7 +18973,8 @@
 @sys	AP24 12BF7
 @end sign
 
-@sign |U₄×2(N01).(2(N14).1(N08))|
+@sign |U₄×2(N01).2(N14).1(N08)|
+@aka |U₄×2(N01).(2(N14).1(N08))|
 @oid o0902184
 @sys CDLI-gh img-page
 @list U+12BF8

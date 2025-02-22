@@ -1,4 +1,4 @@
-00atf 00bin 00cat 00etc 00lib 01tmp itrace.log log Makefile new-oid.tab oracc.log pc25-add.tsv pc25.asl pc25-repertoire.tsv pc25.xtf rep request.zip response.zip u.dump vparents.log vtrace.log x.asl xxx
+00atf 00bin 00cat 00etc 00lib 01tmp add-bash itrace.log log Makefile new-oid.tab NOTES oracc.log pc25-add.tsv pc25.asl pc25-repertoire.tsv pc25.xtf pick pick.log rep request.zip response.zip u.dump vparents.log vtrace.log x.asl xxx
 F3018
 F301B
 F301C
