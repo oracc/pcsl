@@ -870,12 +870,11 @@
 @sign |AMAR.1(N02)|
 @oid o0900085
 @sys CDLI-gh img-page
-@list U+126C6
-@ucun 𒛆
-@uname AMAR BESIDE ONE-N2
 @uage 1
 @sys	AP23 12C59
 @sys	AP24 126C6
+@useq x126C5.x125BE
+@inote useq-old-uni	126C6 𒛆 AMAR BESIDE ONE-N2
 @end sign
 
 @sign |AMAR~v2×TAR~c|
@@ -1040,12 +1039,11 @@
 @inote @smap |APIN~a.APIN~a|
 @form |APIN~a.APIN~a|
 @oid o0900104
-@list U+126D3
-@ucun 𒛓
-@uname APIN-A BESIDE APIN-A
 @uage 1
 @sys	AP23 12C5C
 @sys	AP24 126D3
+@useq x126D2.x126D2
+@inote useq-old-uni	126D3 𒛓 APIN-A BESIDE APIN-A
 @@
 @end sign
 
@@ -1765,12 +1763,11 @@
 @form |BU~b.NA₂~a~v1|
 @oid o0900181
 @aka	|BU~b.NA₂~a|
-@list U+12717
-@ucun 𒜗
-@uname BU-B BESIDE NA2-A VARIANT 1
 @uage 1
 @sys	AP23 12C68
 @sys	AP24 12717
+@useq x12716.x12A10
+@inote useq-old-uni	12717 𒜗 BU-B BESIDE NA2-A VARIANT 1
 @@
 @end sign
 
@@ -1845,13 +1842,13 @@
 @inote @smap |(BU~a&BU~a).NA₂~a|
 @form |(BU~a&BU~a).NA₂~a|
 @oid o0900191
-@list U+12710
-@ucun 𒜐
-@uname BU-A OVER BU-A BESIDE NA2-A
 @uage 1
 @sys	AP23 12C60
 @sys	AP24 12710
 @sys	LLATU:191_01 BU~a+BU~a+NA₂~a 
+@useq xF302C.x12A0F
+@inote useq-old-uni	12710 𒜐 BU-A OVER BU-A BESIDE NA2-A
+@inote glyf 1 |(BU~a&BU~a).NA₂~a~v1| U+12711 o0900192
 @@
 @form |(BU~a&BU~a).NA₂~a~v1|
 @oid o0900192
@@ -1869,15 +1866,14 @@
 @@
 @end sign
 
-@sign |(BU&BU)×NA₂@n|
-@aka |(BU&BU).NA₂@n|
+@sign |(BU&BU).NA₂@n|
 @oid o0900194
 @sys CDLI-gh img-page
 @inote @smap |(BU~a~v1%BU~a~v1).NA₂~a@n|
-@form |(BU~a~v1%BU~a~v1)×NA₂~a@n|
+@form |(BU~a~v1%BU~a~v1).NA₂~a@n|
 @aka |(BU~a~v1%BU~a~v1).NA₂~a@n|
-@oid o0903398
 @aka	|(BU~a&BU~a).NA₂~a@n|
+@oid o0903398
 @list U+12715
 @ucun 𒜕
 @uname BU-A VARIANT 1 CROSSING BU-A VARIANT 1 BESIDE NA2-A NUTILLU
@@ -1893,12 +1889,11 @@
 @inote @smap |(BU~a&BU~a).X|
 @form |(BU~a&BU~a).X|
 @oid o0900197
-@list U+12712
-@ucun 𒜒
-@uname BU-A OVER BU-A BESIDE X
 @uage 1
 @sys	AP23 12C64
 @sys	AP24 12712
+@useq xF302C.O
+@inote useq-old-uni	12712 𒜒 BU-A OVER BU-A BESIDE X
 @@
 @end sign
 
@@ -2003,8 +1998,8 @@
 @oid o0900209
 @sys	ADD F3061 CUSAS01 BULUG-DU6a.png
 @inote	CUSAS01
-@list U+F3061
-@uname ADD NAME |BULUG₃.DU₆~a|
+@useq x1271A.x12750
+@inote useq-old-uni	F3061 - ADD NAME |BULUG₃.DU₆~a|
 @@
 @end sign
 
@@ -2122,12 +2117,11 @@
 @inote @smap |DA~a.LIŠ|
 @form |DA~a.LIŠ|
 @oid o0900222
-@list U+12721
-@ucun 𒜡
-@uname DA-A BESIDE LISH
 @uage 1
 @sys	AP23 12C69
 @sys	AP24 12721
+@useq x12720.x129B5
+@inote useq-old-uni	12721 𒜡 DA-A BESIDE LISH
 @@
 @end sign
 
@@ -4513,21 +4507,19 @@
 @inote @smap |E₂~a.LIŠ|
 @form |E₂~a.LIŠ|
 @oid o0900498
-@list U+127CB
-@ucun 𒟋
-@uname E2-A BESIDE LISH
 @uage 1
 @sys	AP23 12CC9
 @sys	AP24 127CB
+@useq x127CA.x129B5
+@inote useq-old-uni	127CB 𒟋 E2-A BESIDE LISH
 @@
 @form |E₂~b.LIŠ|
 @oid o0900499
-@list U+127CF
-@ucun 𒟏
-@uname E2-B BESIDE LISH
 @uage 1
 @sys	AP23 12CCB
 @sys	AP24 127CF
+@useq x127CE.x129B5
+@inote useq-old-uni	127CF 𒟏 E2-B BESIDE LISH
 @@
 @end sign
 
@@ -4794,22 +4786,20 @@
 @inote @smap |EN₂.E₂~a|
 @form |EN₂.E₂~a|
 @oid o0900531
-@list U+127E4
-@ucun 𒟤
-@uname EN2 BESIDE E2-A
 @uage 1
 @sys	AP23 12CCD
 @sys	AP24 127E4
+@useq x127E3.x127CA
+@inote useq-old-uni	127E4 𒟤 EN2 BESIDE E2-A
 @@
 @form |EN₂.E₂~b|
 @oid o0900532
 @aka	|EN₂×E₂~b|
-@list U+127E5
-@ucun 𒟥
-@uname EN2 BESIDE E2-B
 @uage 1
 @sys	AP23 12CCE
 @sys	AP24 127E5
+@useq x127E3.x127CE
+@inote useq-old-uni	127E5 𒟥 EN2 BESIDE E2-B
 @@
 @end sign
 
@@ -5413,12 +5403,11 @@
 @form |GA~a~v1.ZATU753|
 @oid o0900607
 @aka	|GA~a.ZATU753|
-@list U+1280C
-@ucun 𒠌
-@uname GA-A VARIANT 1 BESIDE ZATU753
 @uage 1
 @sys	AP23 12CE2
 @sys	AP24 1280C
+@useq x1280B.x12D79
+@inote useq-old-uni	1280C 𒠌 GA-A VARIANT 1 BESIDE ZATU753
 @@
 @form |GA~a~v4.ZATU753|~v1
 @oid o0900608
@@ -7369,13 +7358,12 @@
 @form |GIR~b~v1.GIR~b~v1|
 @oid o0900851
 @aka	|GIR~b.GIR~b|
-@list U+12897
-@ucun 𒢗
-@uname GIR-B VARIANT 1 BESIDE GIR-B VARIANT 1
 @uage 1
 @sys	AP23 12D36
 @sys	AP24 12897
 @sys	LLATU:229_01 GIR~b+GIR~b 
+@useq x12896.x12896
+@inote useq-old-uni	12897 𒢗 GIR-B VARIANT 1 BESIDE GIR-B VARIANT 1
 @@
 @end sign
 
@@ -7385,12 +7373,11 @@
 @inote @smap |GIR~a.KU₆~a|
 @form |GIR~a.KU₆~a|
 @oid o0900853
-@list U+12894
-@ucun 𒢔
-@uname GIR-A BESIDE KU6-A
 @uage 1
 @sys	AP23 12D35
 @sys	AP24 12894
+@useq x12893.x12965
+@inote useq-old-uni	12894 𒢔 GIR-A BESIDE KU6-A
 @@
 @end sign
 
@@ -7587,13 +7574,12 @@
 @sign |GIŠ.TE|
 @oid o0900877
 @sys CDLI-gh img-page
-@list U+128A8
-@ucun 𒢨
-@uname GISH BESIDE TE
 @uage 1
 @list ZATU226
 @sys	AP23 12D3F
 @sys	AP24 128A8
+@useq x128A7.x12BB9
+@inote useq-old-uni	128A8 𒢨 GISH BESIDE TE
 @end sign
 
 @sign |GIŠ×(DIN.DIN)|
@@ -7901,12 +7887,11 @@
 @form |GU₄.ZATU755~b|
 @oid o0900911
 @aka	|GU₄.ZATU755~a|
-@list U+128BF
-@ucun 𒢿
-@uname GU4 BESIDE ZATU755-B
 @uage 1
 @sys	AP23 12D42
 @sys	AP24 128BF
+@useq x128BE.x12D7C
+@inote useq-old-uni	128BF 𒢿 GU4 BESIDE ZATU755-B
 @@
 @end sign
 
@@ -8118,12 +8103,11 @@
 @inote @smap |GUKKAL~a.HI@g~a|
 @form |GUKKAL~a.HI@g~a|
 @oid o0900934
-@list U+128CE
-@ucun 𒣎
-@uname GUKKAL-A BESIDE HI GUNU-A
 @uage 1
 @sys	AP23 12D46
 @sys	AP24 128CE
+@useq x128CD.x128F0
+@inote useq-old-uni	128CE 𒣎 GUKKAL-A BESIDE HI GUNU-A
 @@
 @end sign
 
@@ -8419,9 +8403,6 @@
 @sys CDLI-gh img-page
 @aka	|HI.SUHUR|
 @aka	|HI+SUHUR|
-@list U+128E7
-@ucun 𒣧
-@uname HI BESIDE SUHUR
 @uage 1
 @list ZATU256
 @sys	AP23 12D52
@@ -8430,12 +8411,11 @@
 @form |HI.SUHUR~v1|
 @oid o0900963
 @aka	|HI.SUHUR|~v1
-@list U+128E8
-@ucun 𒣨
-@uname HI BESIDE SUHUR VARIANT 1
 @uage 1
 @sys	AP23 12D53
 @sys	AP24 128E8
+@useq x128E6.X
+@inote useq-old-uni	128E8 𒣨 HI BESIDE SUHUR VARIANT 1
 @@
 @form |HI.SUHUR~v2|
 @oid o0900964
@@ -8478,17 +8458,14 @@
 
 @sign |(HI×1(N57)).(HI×1(N57))|
 @oid o0900969
-@list U+128ED
-@ucun 𒣭
-@uname HI TIMES ONE-N57 BESIDE HI TIMES ONE-N57
 @uage 1
 @sys	AP23 12D4D
 @sys	AP24 128ED
 @inote	AP CDLI correction
 @form	|(HI×1(N57))&(HI×1(N57))|
 @oid	o0903408
-@list U+F3092
-@uname ADD F3092
+@useq x128EC.x128EC
+@inote useq-old-uni	F3092 𒣭 ADD F3092
 @@
 @end sign
 
@@ -8837,12 +8814,11 @@
 @inote @smap |IR~a.GA₂~a1|
 @form |IR~a.GA₂~a1|
 @oid o0901014
-@list U+12904
-@ucun 𒤄
-@uname IR-A BESIDE GA2-A1
 @uage 1
 @sys	AP23 12D56
 @sys	AP24 12904
+@useq x12903.x12815
+@inote useq-old-uni	12904 𒤄 IR-A BESIDE GA2-A1
 @@
 @end sign
 
@@ -9010,24 +8986,23 @@
 @list ZATU274
 @inote @smap |KA~a~v2.ŠE~a@t|
 @form |KA~a~v2.ŠE~a@t|
+@aka |KA~a.ŠE~a@t|
 @oid o0901032
-@aka	|KA~a.ŠE~a|
-@list U+12917
-@ucun 𒤗
-@uname KA-A VARIANT 2 BESIDE SHE-A TENU
 @uage 1
 @sys	AP23 12D58
 @sys	AP24 12917
+@useq X.x12B57
+@inote useq-old-uni	12917 𒤗 KA-A VARIANT 2 BESIDE SHE-A TENU
 @@
 @form |KA~a~v1.ŠE~a|
 @oid o0901033
 @aka	|KA~a.ŠE~a|~v1
-@list U+12916
-@ucun 𒤖
-@uname KA-A VARIANT 1 BESIDE SHE-A
+@aka |KA~a.ŠE~a|
 @uage 1
 @sys	AP23 12D59
 @sys	AP24 12916
+@useq X.x12B52
+@inote useq-old-uni	12916 𒤖 KA-A VARIANT 1 BESIDE SHE-A
 @@
 @end sign
 
@@ -9210,13 +9185,12 @@
 @inote @smap |KAK~a.GA₂~a1|
 @form |KAK~a.GA₂~a1|
 @oid o0901055
-@list U+12923
-@ucun 𒤣
-@uname KAK-A BESIDE GA2-A1
 @uage 1
 @sys	AP23 12D5C
 @sys	AP24 12923
 @sys	LLATU:243_04 KAK~a+GA₂~a1 
+@useq x12922.x12815
+@inote useq-old-uni	12923 𒤣 KAK-A BESIDE GA2-A1
 @@
 @end sign
 
@@ -10072,12 +10046,11 @@
 @inote @smap |KU₆~a.1(N02)|
 @form |KU₆~a.1(N02)|
 @oid o0901149
-@list U+12966
-@ucun 𒥦
-@uname KU6-A BESIDE ONE-N2
 @uage 1
 @sys	AP23 12D5F
 @sys	AP24 12966
+@useq x12965.x125BE
+@inote useq-old-uni	12966 𒥦 KU6-A BESIDE ONE-N2
 @@
 @end sign
 
@@ -10193,21 +10166,19 @@
 @inote @smap |KUR~a.E₂~a|
 @form |KUR~a.E₂~a|
 @oid o0901164
-@list U+1296D
-@ucun 𒥭
-@uname KUR-A BESIDE E2-A
 @uage 1
 @sys	AP23 12D62
 @sys	AP24 1296D
+@useq x1296C.x127CA
+@inote useq-old-uni	1296D 𒥭 KUR-A BESIDE E2-A
 @@
 @form |KUR~b.E₂~a|
 @oid o0901165
-@list U+12970
-@ucun 𒥰
-@uname KUR-B BESIDE E2-A
 @uage 1
 @sys	AP23 12D64
 @sys	AP24 12970
+@useq x1296F.x127CA
+@inote useq-old-uni	12970 𒥰 KUR-B BESIDE E2-A
 @@
 @end sign
 
@@ -10217,12 +10188,11 @@
 @inote @smap |KUR~a.NUNUZ~a1|
 @form |KUR~a.NUNUZ~a1|
 @oid o0901167
-@list U+1296E
-@ucun 𒥮
-@uname KUR-A BESIDE NUNUZ-A1
 @uage 1
 @sys	AP23 12D63
 @sys	AP24 1296E
+@useq x1296C.x12A82
+@inote useq-old-uni	1296E 𒥮 KUR-A BESIDE NUNUZ-A1
 @@
 @end sign
 
@@ -12304,8 +12274,8 @@
 @sign |MUŠEN.3(N58)|
 @oid o0901427
 @sys	ADD F3003 P252184 MUSZENx3N58.png
-@list U+F3003
-@uname ADD NAME |MUŠEN.3(N58)|
+@useq x12A05.xF011C
+@inote useq-old-uni	F3003 - ADD NAME |MUŠEN.3(N58)|
 @end sign
 
 @sign |MUŠEN.UR₃|
@@ -12315,12 +12285,11 @@
 @inote @smap |MUŠEN.UR₃~b2|
 @form |MUŠEN.UR₃~b2|
 @oid o0901429
-@list U+12A06
-@ucun 𒨆
-@uname MUSHEN BESIDE UR3-B2
 @uage 1
 @sys	AP23 12DA8
 @sys	AP24 12A06
+@useq x12A05.x12C58
+@inote useq-old-uni	12A06 𒨆 MUSHEN BESIDE UR3-B2
 @@
 @end sign
 
@@ -13005,12 +12974,11 @@
 @form |NI~a.RU~v1|
 @oid o0901504
 @aka	|NI~a.RU|
-@list U+12A3B
-@ucun 𒨻
-@uname NI-A BESIDE RU VARIANT 1
 @uage 1
 @sys	AP23 12DAD
 @sys	AP24 12A3B
+@useq x12A3A.x12AA5
+@inote useq-old-uni	12A3B 𒨻 NI-A BESIDE RU VARIANT 1
 @@
 @end sign
 
@@ -14648,13 +14616,12 @@
 @inote @smap |SAL.KUR~a|
 @form |SAL.KUR~a|
 @oid o0901699
-@list U+12AB6
-@ucun 𒪶
-@uname SAL BESIDE KUR-A
 @uage 1
 @list BAU398
 @sys	AP23 12DE5
 @sys	AP24 12AB6
+@useq x12AB5.x1296C
+@inote useq-old-uni	12AB6 𒪶 SAL BESIDE KUR-A
 @@
 @end sign
 
@@ -14664,12 +14631,11 @@
 @inote @smap |SAL.LAM~b|
 @form |SAL.LAM~b|
 @oid o0901701
-@list U+12AB7
-@ucun 𒪷
-@uname SAL BESIDE LAM-B
 @uage 1
 @sys	AP23 12DE6
 @sys	AP24 12AB7
+@useq x12AB5.x129AD
+@inote useq-old-uni	12AB7 𒪷 SAL BESIDE LAM-B
 @@
 @end sign
 
@@ -14683,12 +14649,11 @@
 @oid o0901703
 @sys CDLI-gh img-page
 @aka	|SAL.ŠU₂|
-@list U+12AB8
-@ucun 𒪸
-@uname SAL BESIDE SHU2-B
 @uage 1
 @sys	AP23 12DE7
 @sys	AP24 12AB8
+@useq x12AB5.x12B98
+@inote useq-old-uni	12AB8 𒪸 SAL BESIDE SHU2-B
 @end sign
 
 @sign |SAL×1(N58)|
@@ -15071,12 +15036,11 @@
 @oid o0901748
 @sys CDLI-gh img-page
 @aka	|SIG×1(N57)|
-@list U+12DF4
-@ucun 𒷴
-@uname ONE-N57 BESIDE SIG
 @uage 1
 @sys	AP23 12E08
 @sys	AP24 12DF4
+@useq xF0110.x12ACF
+@inote useq-old-uni	12DF4 𒷴 ONE-N57 BESIDE SIG
 @end sign
 
 @sign SIG@g
@@ -16874,11 +16838,12 @@
 @oid o0901949
 @inote @smap |ŠE~a@t~v1.GAR|
 @form |ŠE~a@t~v1.GAR|
+@aka |ŠE~a@t.GAR|
 @oid o0901950
 @sys	ADD F305A CUSAS01 SHE-GARa.png
 @inote	CUSAS01
-@list U+F305A
-@uname ADD NAME |ŠE~a@t~v1.GAR|
+@useq X.x12868
+@inote useq-old-uni	F305A - ADD NAME |ŠE~a@t~v1.GAR|
 @@
 @form |ŠE~a.GAR|
 @oid o0901951
@@ -16903,13 +16868,12 @@
 @inote @smap |ŠE~a.KIN₂~c|
 @form |ŠE~a.KIN₂~c|
 @oid o0901953
-@list U+12B53
-@ucun 𒭓
-@uname SHE-A BESIDE KIN2-C
 @uage 1
 @sys	AP23 12DEB
 @sys	AP24 12B53
 @sys	LLATU:292_02 ŠE~a+KIN₂~c 
+@useq x12B52.x12948
+@inote useq-old-uni	12B53 𒭓 SHE-A BESIDE KIN2-C
 @@
 @end sign
 
@@ -16922,14 +16886,15 @@
 @oid o0901955
 @aka	|ŠE~a+ŠE₃|
 @aka	|ŠE~a+NAM₂|
-@list U+12B54
-@ucun 𒭔
-@uname SHE-A BESIDE NAM2
 @uage 1
 @sys	AP23 12DEC
 @sys	AP24 12B54
 @sys	LLATU:292_03 ŠE~a+NAM₂ 
 @inote	double-check ŠE~a+ŠE₃ in DCCLT archaic P
+@useq x12B55
+@inote useq-old-uni	12B54 𒭔 SHE-A BESIDE NAM2
+@inote glyf 1 |ŠE~a.NAM₂|~v1 U+12B55 o0901956
+@inote glyf 2 |ŠE~a.NAM₂|~v2 U+F3014 o0901957
 @@
 @form |ŠE~a.NAM₂|~v1
 @oid o0901956
@@ -17707,12 +17672,11 @@
 @aka	|ŠU₂+AN|
 @aka	|ŠU₂×AN|
 @aka	|ŠU₂.AN|
-@list U+12B92
-@ucun 𒮒
-@uname SHU2-A BESIDE AN
 @uage 1
 @sys	AP23 12DFD
 @sys	AP24 12B92
+@useq x12B91.x126CC
+@inote useq-old-uni	12B92 𒮒 SHU2-A BESIDE AN
 @end sign
 
 @sign |ŠU₂.E₂|
@@ -17723,22 +17687,20 @@
 @form |ŠU₂~b.E₂~a|
 @oid o0902043
 @aka	|ŠU₂.E₂~a|
-@list U+12B99
-@ucun 𒮙
-@uname SHU2-B BESIDE E2-A
 @uage 1
 @sys	AP23 12DFE
 @sys	AP24 12B99
+@useq x12B98.x127CA
+@inote useq-old-uni	12B99 𒮙 SHU2-B BESIDE E2-A
 @@
 @form |ŠU₂~b.E₂~b|
 @oid o0902044
 @aka	|ŠU₂.E₂~b|
-@list U+12B9A
-@ucun 𒮚
-@uname SHU2-B BESIDE E2-B
 @uage 1
 @sys	AP23 12DFF
 @sys	AP24 12B9A
+@useq x12B98.x127CE
+@inote useq-old-uni	12B9A 𒮚 SHU2-B BESIDE E2-B
 @@
 @end sign
 
@@ -17751,13 +17713,13 @@
 @oid o0902046
 @aka	|ŠU₂×EN~a|
 @aka	|ŠU₂.EN~a|
-@list U+12B93
-@ucun 𒮓
-@uname SHU2-A BESIDE EN-A VARIANT 1
+@aka |ŠU₂~a.EN~a|
 @uage 1
 @sys	AP23 12E00
 @sys	AP24 12B93
 @sys	LLATU:296_03 ŠU₂+EN~a 
+@useq x12B91.x127D7
+@inote useq-old-uni	12B93 𒮓 SHU2-A BESIDE EN-A VARIANT 1
 @@
 @form |ŠU₂~a.EN~a~v2|
 @oid o0902047
@@ -17772,12 +17734,12 @@
 @form |ŠU₂~a.EN~b~v1|
 @oid o0902048
 @aka	|ŠU₂.EN~b|
-@list U+12B95
-@ucun 𒮕
-@uname SHU2-A BESIDE EN-B VARIANT 1
+@aka	|ŠU₂~a.EN~b|
 @uage 1
 @sys	AP23 12E02
 @sys	AP24 12B95
+@useq x12B91.x127DC
+@inote useq-old-uni	12B95 𒮕 SHU2-A BESIDE EN-B VARIANT 1
 @@
 @end sign
 
@@ -17785,37 +17747,34 @@
 @oid o0902049
 @sys CDLI-gh img-page
 @aka	|ŠU₂.GIŠ|
-@list U+12B9B
-@ucun 𒮛
-@uname SHU2-B BESIDE GISH
 @uage 1
 @sys	AP23 12E03
 @sys	AP24 12B9B
+@useq x12B98.x128A7
+@inote useq-old-uni	12B9B 𒮛 SHU2-B BESIDE GISH
 @end sign
 
 @sign |ŠU₂~a.(HI×1(N57))&(HI×1(N57))|
 @oid o0902050
 @aka	|ŠU₂.((HI+1(N57))+(HI+1(N57)))|
 @aka	|ŠU₂.(HI×1(N57))&(HI×1(N57))|
-@list U+12B96
-@ucun 𒮖
-@uname SHU2-A BESIDE HI TIMES ONE-N57 OVER HI TIMES ONE-N57
 @uage 1
 @sys	AP23 12E04
 @sys	AP24 12B96
 @inote	AP CDLI correction
+@useq x12B91.X
+@inote useq-old-uni	12B96 𒮖 SHU2-A BESIDE HI TIMES ONE-N57 OVER HI TIMES ONE-N57
 @end sign
 
 @sign |ŠU₂~b.1(N02)|
 @oid o0902051
 @sys CDLI-gh img-page
 @aka	|ŠU₂.1(N02)|
-@list U+12B9C
-@ucun 𒮜
-@uname SHU2-B BESIDE ONE-N2
 @uage 1
 @sys	AP23 12DFB
 @sys	AP24 12B9C
+@useq x12B98.x125BE
+@inote useq-old-uni	12B9C 𒮜 SHU2-B BESIDE ONE-N2
 @end sign
 
 @sign |ŠU₂.PAP|
@@ -17825,8 +17784,8 @@
 @oid o0902054
 @sys	ADD F3004 CUSAS31 SZU2xPAP.png
 @inote	CHECK
-@list U+F3004
-@uname ADD NAME |ŠU₂.PAP~a|
+@useq xF3090.x12A91
+@inote useq-old-uni	F3004 - ADD NAME |ŠU₂.PAP~a|
 @@
 @end sign
 
@@ -17837,12 +17796,12 @@
 @form |ŠU₂~a.URI₃~a~v1|
 @oid o0902056
 @aka	|ŠU₂.URI₃~a|
-@list U+12B97
-@ucun 𒮗
-@uname SHU2-A BESIDE URI3-A VARIANT 1
+@aka	|ŠU₂~a.URI₃~a|
 @uage 1
 @sys	AP23 12E05
 @sys	AP24 12B97
+@useq x12B91.x12C60
+@inote useq-old-uni	12B97 𒮗 SHU2-A BESIDE URI3-A VARIANT 1
 @@
 @end sign
 
@@ -18419,12 +18378,11 @@
 @inote @smap |TUG₂~a.BAD&BAD|
 @form |TUG₂~a.BAD&BAD|
 @oid o0902121
-@list U+12BC5
-@ucun 𒯅
-@uname TUG2-A BESIDE BAD OVER BAD
 @uage 1
 @sys	AP23 12E3E
 @sys	AP24 12BC5
+@useq x12BC4.x126E0
+@inote useq-old-uni	12BC5 𒯅 TUG2-A BESIDE BAD OVER BAD
 @@
 @end sign
 
@@ -18668,8 +18626,8 @@
 @oid o0902150
 @sys	ADD F3005 CUSAS21 TUR3+5N57.png
 @inote	CHECK
-@list U+F3005
-@uname ADD NAME |TUR₃~a.5(N57)|
+@useq x12BD8.xF0114
+@inote useq-old-uni	F3005 - ADD NAME |TUR₃~a.5(N57)|
 @@
 @end sign
 
@@ -18760,101 +18718,92 @@
 @sign |U₄.1(N08)|
 @oid o0902163
 @sys CDLI-gh img-page
-@list U+12BE3
-@ucun 𒯣
-@uname U4 BESIDE ONE-N8
 @uage 1
 @sys	AP23 12E44
 @sys	AP24 12BE3
+@useq x12BE1.x12559
+@inote useq-old-uni	12BE3 𒯣 U4 BESIDE ONE-N8
 @end sign
 
 @sign |U₄.2(N08)|
 @oid o0902164
 @sys CDLI-gh img-page
-@list U+12BE4
-@ucun 𒯤
-@uname U4 BESIDE TWO-N8
 @uage 1
 @sys	AP23 12E54
 @sys	AP24 12BE4
+@useq x12BE1.x1255A
+@inote useq-old-uni	12BE4 𒯤 U4 BESIDE TWO-N8
 @end sign
 
 @sign |U₄.3(N08)|
 @oid o0902165
 @sys CDLI-gh img-page
-@list U+12BE5
-@ucun 𒯥
-@uname U4 BESIDE THREE-N8
 @uage 1
 @sys	AP23 12E5B
 @sys	AP24 12BE5
+@useq x12BE1.x1255B
+@inote useq-old-uni	12BE5 𒯥 U4 BESIDE THREE-N8
 @end sign
 
 @sign |U₄.4(N08)~v1|
 @oid o0902166
 @sys CDLI-gh img-page
 @aka	|U₄.4(N08)|
-@list U+12BE6
-@ucun 𒯦
-@uname U4 BESIDE FOUR-N8 VARIANT 1
 @uage 1
 @sys	AP23 12E61
 @sys	AP24 12BE6
+@useq x12BE1.X
+@inote useq-old-uni	12BE6 𒯦 U4 BESIDE FOUR-N8 VARIANT 1
 @end sign
 
 @sign |U₄.5(N08)|
 @oid o0902167
 @sys CDLI-gh img-page
-@list U+12BE7
-@ucun 𒯧
-@uname U4 BESIDE FIVE-N8
 @uage 1
 @sys	AP23 12E65
 @sys	AP24 12BE7
+@useq x12BE1.x1255D
+@inote useq-old-uni	12BE7 𒯧 U4 BESIDE FIVE-N8
 @end sign
 
 @sign |U₄.6(N08)|
 @oid o0902168
 @sys CDLI-gh img-page
-@list U+12BE8
-@ucun 𒯨
-@uname U4 BESIDE SIX-N8
 @uage 1
 @sys	AP23 12E68
 @sys	AP24 12BE8
+@useq x12BE1.x1255E
+@inote useq-old-uni	12BE8 𒯨 U4 BESIDE SIX-N8
 @end sign
 
 @sign |U₄.7(N08)|
 @oid o0902169
 @sys CDLI-gh img-page
-@list U+12BE9
-@ucun 𒯩
-@uname U4 BESIDE SEVEN-N8
 @uage 1
 @sys	AP23 12E6A
 @sys	AP24 12BE9
+@useq x12BE1.x1255F
+@inote useq-old-uni	12BE9 𒯩 U4 BESIDE SEVEN-N8
 @end sign
 
 @sign |U₄.8(N08)|
 @oid o0902170
 @sys CDLI-gh img-page
-@list U+12BEA
-@ucun 𒯪
-@uname U4 BESIDE EIGHT-N8
 @uage 1
 @sys	AP23 12E6E
 @sys	AP24 12BEA
+@useq x12BE1.x12560
+@inote useq-old-uni	12BEA 𒯪 U4 BESIDE EIGHT-N8
 @end sign
 
 @sign |U₄.1(N14)|
 @oid o0902171
 @sys CDLI-gh img-page
-@list U+12BEB
-@ucun 𒯫
-@uname U4 BESIDE ONE-N14
 @uage 1
 @sys	AP23 12E45
 @sys	AP24 12BEB
+@useq x12BE1.x12562
+@inote useq-old-uni	12BEB 𒯫 U4 BESIDE ONE-N14
 @end sign
 
 @sign |U₄.1(N14).3(N08)|
@@ -18862,12 +18811,11 @@
 @sys CDLI-gh img-page
 @aka 	|U₄.(1(N14).3(N08))|
 @aka	|(U₄+1(N14)).3(N08)|
-@list U+12BEC
-@ucun 𒯬
-@uname U4 BESIDE ONE-N14 PLUS THREE-N8
 @uage 1
 @sys	AP23 12E48
 @sys	AP24 12BEC
+@useq x12BE1.x12562.x1255B
+@inote useq-old-uni	12BEC 𒯬 U4 BESIDE ONE-N14 PLUS THREE-N8
 @end sign
 
 
@@ -18875,61 +18823,56 @@
 @aka |U₄.(1(N14).4(N08))|
 @oid o0902173
 @sys CDLI-gh img-page
-@list U+12BED
-@ucun 𒯭
-@uname U4 BESIDE ONE-N14 PLUS FOUR-N8
 @uage 1
 @sys	AP23 12E4A
 @sys	AP24 12BED
+@useq x12BE1.x12562.x1255C
+@inote useq-old-uni	12BED 𒯭 U4 BESIDE ONE-N14 PLUS FOUR-N8
 @end sign
 
 @sign |U₄.1(N14).5(N08)|
 @aka |U₄.(1(N14).5(N08))|
 @oid o0902174
 @sys CDLI-gh img-page
-@list U+12BEE
-@ucun 𒯮
-@uname U4 BESIDE ONE-N14 PLUS FIVE-N8
 @uage 1
 @sys	AP23 12E4B
 @sys	AP24 12BEE
+@useq x12BE1.x12562.x1255D
+@inote useq-old-uni	12BEE 𒯮 U4 BESIDE ONE-N14 PLUS FIVE-N8
 @end sign
 
 @sign |U₄.1(N14).8(N08)|
 @aka |U₄.(1(N14).8(N08))|
 @oid o0902175
 @sys CDLI-gh img-page
-@list U+12BEF
-@ucun 𒯯
-@uname U4 BESIDE ONE-N14 PLUS EIGHT-N8
 @uage 1
 @sys	AP23 12E4D
 @sys	AP24 12BEF
+@useq x12BE1.x12562.x12560
+@inote useq-old-uni	12BEF 𒯯 U4 BESIDE ONE-N14 PLUS EIGHT-N8
 @end sign
 
 @sign |U₄.2(N14)|
 @oid o0902176
 @sys CDLI-gh img-page
-@list U+12BF0
-@ucun 𒯰
-@uname U4 BESIDE TWO-N14
 @uage 1
 @sys	AP23 12E55
 @sys	AP24 12BF0
+@useq x12BE1.x12563
+@inote useq-old-uni	12BF0 𒯰 U4 BESIDE TWO-N14
 @end sign
 
 @sign |U₄.ŠU₂~b|
 @oid o0902177
 @sys CDLI-gh img-page
 @aka	|U₄.ŠU₂|
-@list U+12BE2
-@ucun 𒯢
-@uname U4 BESIDE SHU2-B
 @uage 1
 @list ZATU568
 @sys	AP23 12E72
 @sys	AP24 12BE2
 @sys	LLATU:305_02 U₄+ŠU₂ 
+@useq x12BE1.x12B98
+@inote useq-old-uni	12BE2 𒯢 U4 BESIDE SHU2-B
 @end sign
 
 @sign |U₄×1(N01)|
@@ -18948,12 +18891,11 @@
 @sign |U₄×1(N01).5(N08)|
 @oid o0902179
 @sys CDLI-gh img-page
-@list U+12BF4
-@ucun 𒯴
-@uname U4 TIMES ONE-N1 BESIDE FIVE-N8
 @uage 1
 @sys	AP23 12E42
 @sys	AP24 12BF4
+@useq x12BF3.x1255D
+@inote useq-old-uni	12BF4 𒯴 U4 TIMES ONE-N1 BESIDE FIVE-N8
 @end sign
 
 @sign |U₄×(1(N01).1(N24))|
@@ -18979,35 +18921,32 @@
 @sign |U₄×2(N01).2(N14)|
 @oid o0902183
 @sys CDLI-gh img-page
-@list U+12BF7
-@ucun 𒯷
-@uname U4 TIMES TWO-N1 BESIDE TWO-N14
 @uage 1
 @sys	AP23 12E51
 @sys	AP24 12BF7
+@useq x12BF5.x12563
+@inote useq-old-uni	12BF7 𒯷 U4 TIMES TWO-N1 BESIDE TWO-N14
 @end sign
 
 @sign |U₄×2(N01).2(N14).1(N08)|
 @aka |U₄×2(N01).(2(N14).1(N08))|
 @oid o0902184
 @sys CDLI-gh img-page
-@list U+12BF8
-@ucun 𒯸
-@uname U4 TIMES TWO-N1 BESIDE TWO-N14 PLUS ONE-N8
 @uage 1
 @sys	AP23 12E52
 @sys	AP24 12BF8
+@useq x12BF5.x12563.x12559
+@inote useq-old-uni	12BF8 𒯸 U4 TIMES TWO-N1 BESIDE TWO-N14 PLUS ONE-N8
 @end sign
 
 @sign |U₄×2(N01).X|
 @oid o0902185
 @sys CDLI-gh img-page
-@list U+12BF6
-@ucun 𒯶
-@uname U4 TIMES TWO-N1 BESIDE X
 @uage 1
 @sys	AP23 12E53
 @sys	AP24 12BF6
+@useq x12BF5.O
+@inote useq-old-uni	12BF6 𒯶 U4 TIMES TWO-N1 BESIDE X
 @end sign
 
 @sign |U₄×3(N01)|
@@ -19025,12 +18964,11 @@
 @oid o0902187
 @sys CDLI-gh img-page
 @aka	|U₄×3(N01).3(N08)|
-@list U+12BFA
-@ucun 𒯺
-@uname U4 TIMES THREE-N1 BESIDE THREE-N8 VARIANT 1
 @uage 1
 @sys	AP23 12E5A
 @sys	AP24 12BFA
+@useq x12BF9.X
+@inote useq-old-uni	12BFA 𒯺 U4 TIMES THREE-N1 BESIDE THREE-N8 VARIANT 1
 @end sign
 
 @sign |U₄×4(N01)|
@@ -19047,12 +18985,11 @@
 @sign |U₄×4(N01).2(N14)|
 @oid o0902189
 @sys CDLI-gh img-page
-@list U+12BFC
-@ucun 𒯼
-@uname U4 TIMES FOUR-N1 BESIDE TWO-N14
 @uage 1
 @sys	AP23 12E60
 @sys	AP24 12BFC
+@useq x12BFB.x12563
+@inote useq-old-uni	12BFC 𒯼 U4 TIMES FOUR-N1 BESIDE TWO-N14
 @end sign
 
 @sign |U₄×5(N01)|
@@ -19069,12 +19006,11 @@
 @sign |U₄×5(N01).1(N14)|
 @oid o0902191
 @sys CDLI-gh img-page
-@list U+12BFE
-@ucun 𒯾
-@uname U4 TIMES FIVE-N1 BESIDE ONE-N14
 @uage 1
 @sys	AP23 12E64
 @sys	AP24 12BFE
+@useq x12BFD.x12562
+@inote useq-old-uni	12BFE 𒯾 U4 TIMES FIVE-N1 BESIDE ONE-N14
 @end sign
 
 @sign |U₄×6(N01)|
@@ -19102,12 +19038,11 @@
 @sign |U₄×8(N01).X|
 @oid o0902194
 @sys CDLI-gh img-page
-@list U+12C01
-@ucun 𒰁
-@uname U4 TIMES EIGHT-N1 BESIDE X
 @uage 1
 @sys	AP23 12E6D
 @sys	AP24 12C01
+@useq x12C00.O
+@inote useq-old-uni	12C01 𒰁 U4 TIMES EIGHT-N1 BESIDE X
 @end sign
 
 @sign |U₄×N(N01)|
@@ -19163,8 +19098,8 @@
 @oid o0902199
 @sys	ADD F3009 P518361 U4x3N01-1N14-4N08.png
 @inote	CHECK
-@list U+F3009
-@uname ADD NAME |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
+@useq xF3094.x12562.x1255C
+@inote useq-old-uni	F3009 - ADD NAME |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @end sign
 
 @sign |U₄×(1(N14).4(N01))|
@@ -21001,13 +20936,12 @@
 @oid o0902413
 @sys CDLI-gh img-page
 @aka	|N(N57).GAR|
-@list U+12DF2
-@ucun 𒷲
-@uname X-N57 BESIDE GAR
 @uage 1
 @sys	AP23 12C44
 @sys	AP24 12DF2
 @inote	AP CDLI correction
+@useq X.x12868
+@inote useq-old-uni	12DF2 𒷲 X-N57 BESIDE GAR
 @end sign
 
 @compoundonly	X
@@ -23015,13 +22949,12 @@
 @sign |ZATU714.RU|
 @oid o0902614
 @sys CDLI-gh img-page
-@list U+12D37
-@ucun 𒴷
-@uname ZATU714 BESIDE RU
 @uage 1
 @list ZATU716
 @sys	AP23 12EA9
 @sys	AP24 12D37
+@useq x12D36.x12AA3
+@inote useq-old-uni	12D37 𒴷 ZATU714 BESIDE RU
 @end sign
 
 @sign |ZATU714×HI@g|
@@ -25645,12 +25578,11 @@
 @sign |1(N02).RU|
 @oid o0902870
 @sys CDLI-gh img-page
-@list U+12DF1
-@ucun 𒷱
-@uname ONE-N2 BESIDE RU
 @uage 1
 @sys	AP23 12C23
 @sys	AP24 12DF1
+@useq x125BE.x12AA3
+@inote useq-old-uni	12DF1 𒷱 ONE-N2 BESIDE RU
 @end sign
 
 @sign 2(N02)
@@ -29071,12 +29003,11 @@
 @sign |1(N57).AB₂|
 @oid o0903211
 @sys CDLI-gh img-page
-@list U+12DF3
-@ucun 𒷳
-@uname ONE-N57 BESIDE AB2
 @uage 1
 @sys	AP23 12C27
 @sys	AP24 12DF3
+@useq xF0110.x126A7
+@inote useq-old-uni	12DF3 𒷳 ONE-N57 BESIDE AB2
 @end sign
 
 @sign |1(N57).BU₃|
@@ -29090,8 +29021,8 @@
 @oid o0903214
 @sys	ADD F3027 CUSAS21 1N57-E2a.png
 @inote	CUSAS 21, p.166
-@list U+F3027
-@uname ADD NAME |1(N57).E₂~a|
+@useq xF0110.x127CA
+@inote useq-old-uni	F3027 - ADD NAME |1(N57).E₂~a|
 @@
 @end sign
 
@@ -29110,22 +29041,18 @@
 @form |1(N57).ŠAH₂~a|
 @oid o0903219
 @aka	|ŠAH₂~a+1(N57)|
-@list U+12DF5
-@ucun 𒷵
-@uname ONE-N57 BESIDE SHAH2-A
 @uage 1
 @sys	AP23 12C28
 @sys	AP24 12DF5
 @sys	LLATU:291_03 ŠAH₂~a+1(N57) 
+@useq xF0110.x12B49
+@inote useq-old-uni	12DF5 𒷵 ONE-N57 BESIDE SHAH2-A
 @@
 @end sign
 
 @sign |1(N57).ŠUBUR|
 @oid o0903220
 @sys CDLI-gh img-page
-@list U+12DF6
-@ucun 𒷶
-@uname ONE-N57 BESIDE SHUBUR
 @uage 1
 @list ZATU540
 @sys	AP23 12C29
@@ -29134,12 +29061,11 @@
 @form |1(N57).ŠUBUR~v1|
 @oid o0903221
 @aka	|1(N57).ŠUBUR|~v1
-@list U+12DF7
-@ucun 𒷷
-@uname ONE-N57 BESIDE SHUBUR VARIANT 1
 @uage 1
 @sys	AP23 12C2A
 @sys	AP24 12DF7
+@useq xF0110.X
+@inote useq-old-uni	12DF7 𒷷 ONE-N57 BESIDE SHUBUR VARIANT 1
 @@
 @end sign
 
@@ -29159,13 +29085,12 @@
 @sign |2(N57).AB₂|
 @oid o0903223
 @sys CDLI-gh img-page
-@list U+12DF8
-@ucun 𒷸
-@uname TWO-N57 BESIDE AB2
 @uage 1
 @list ZATU014a
 @sys	AP23 12C2E
 @sys	AP24 12DF8
+@useq xF0111.x126A7
+@inote useq-old-uni	12DF8 𒷸 TWO-N57 BESIDE AB2
 @end sign
 
 @sign |2(N57).BIR₃|
@@ -29175,8 +29100,8 @@
 @oid o0903225
 @sys	ADD F3029 CUSAS31 2N57-BIR3a.png
 @inote	CUSAS31
-@list U+F3029
-@uname ADD NAME |2(N57).BIR₃~a|
+@useq xF0111.x12706
+@inote useq-old-uni	F3029 - ADD NAME |2(N57).BIR₃~a|
 @@
 @end sign
 
@@ -29199,12 +29124,11 @@
 @inote @smap |2(N57).KU₆~a|
 @form |2(N57).KU₆~a|
 @oid o0903227
-@list U+12DF9
-@ucun 𒷹
-@uname TWO-N57 BESIDE KU6-A
 @uage 1
 @sys	AP23 12C2F
 @sys	AP24 12DF9
+@useq xF0111.x12965
+@inote useq-old-uni	12DF9 𒷹 TWO-N57 BESIDE KU6-A
 @@
 @end sign
 
@@ -29218,25 +29142,23 @@
 @inote @smap |2(N57).SU~a|
 @form |2(N57).SU~a|
 @oid o0903230
-@list U+12DFA
-@ucun 𒷺
-@uname TWO-N57 BESIDE SU-A
 @uage 1
 @sys	AP23 12C31
 @sys	AP24 12DFA
+@useq xF0111.x12B1B
+@inote useq-old-uni	12DFA 𒷺 TWO-N57 BESIDE SU-A
 @@
 @end sign
 
 @sign |2(N57).ŠUBUR|
 @oid o0903231
 @sys CDLI-gh img-page
-@list U+12DFB
-@ucun 𒷻
-@uname TWO-N57 BESIDE SHUBUR
 @uage 1
 @sys	AP23 12C30
 @sys	AP24 12DFB
 @sys	LLATU:298_02 ŠUBUR+2(N57) 
+@useq xF0111.x12B9E
+@inote useq-old-uni	12DFB 𒷻 TWO-N57 BESIDE SHUBUR
 @end sign
 
 @sign |2(N57).UDUNITA|
@@ -29246,8 +29168,8 @@
 @oid o0903233
 @sys	ADD F305C CUSAS01 2N57-UDUNITAa.png
 @inote	CUSAS01
-@list U+F305C
-@uname ADD NAME |2(N57).UDUNITA~a|
+@useq xF0111.x12C2A
+@inote useq-old-uni	F305C - ADD NAME |2(N57).UDUNITA~a|
 @@
 @end sign
 
@@ -29267,12 +29189,11 @@
 @sign |3(N57).AMAR|
 @oid o0903235
 @sys CDLI-gh img-page
-@list U+12DFC
-@ucun 𒷼
-@uname THREE-N57 BESIDE AMAR
 @uage 1
 @sys	AP23 12C32
 @sys	AP24 12DFC
+@useq xF0112.x126C5
+@inote useq-old-uni	12DFC 𒷼 THREE-N57 BESIDE AMAR
 @end sign
 
 @sign |3(N57).AZ|
@@ -29286,20 +29207,19 @@
 @oid o0903238
 @sys	ADD F305D CUSAS01 3N57-BAR+USHa.png
 @inote	CUSAS01
-@list U+F305D
-@uname ADD NAME |3(N57).BAR×UŠ~a|
+@useq xF0112.xF3095
+@inote useq-old-uni	F305D - ADD NAME |3(N57).BAR×UŠ~a|
 @@
 @end sign
 
 @sign |3(N57).BARA₃|
 @oid o0903239
 @sys CDLI-gh img-page
-@list U+12DFD
-@ucun 𒷽
-@uname THREE-N57 BESIDE BARA3
 @uage 1
 @sys	AP23 12C33
 @sys	AP24 12DFD
+@useq xF0112.x12702
+@inote useq-old-uni	12DFD 𒷽 THREE-N57 BESIDE BARA3
 @end sign
 
 @sign |3(N57).E₂|
@@ -29308,12 +29228,11 @@
 @inote @smap |3(N57).E₂~b|
 @form |3(N57).E₂~b|
 @oid o0903241
-@list U+12DFE
-@ucun 𒷾
-@uname THREE-N57 BESIDE E2-B
 @uage 1
 @sys	AP23 12C34
 @sys	AP24 12DFE
+@useq xF0112.x127CE
+@inote useq-old-uni	12DFE 𒷾 THREE-N57 BESIDE E2-B
 @@
 @end sign
 
@@ -29324,12 +29243,11 @@
 @sign |3(N57).GAR|
 @oid o0903243
 @sys CDLI-gh img-page
-@list U+12DFF
-@ucun 𒷿
-@uname THREE-N57 BESIDE GAR
 @uage 1
 @sys	AP23 12C35
 @sys	AP24 12DFF
+@useq xF0112.x12868
+@inote useq-old-uni	12DFF 𒷿 THREE-N57 BESIDE GAR
 @end sign
 
 @sign |3(N57).NUNUZ|
@@ -29339,21 +29257,19 @@
 @inote @smap |3(N57).NUNUZ~a1|
 @form |3(N57).NUNUZ~a1|
 @oid o0903245
-@list U+12E00
-@ucun 𒸀
-@uname THREE-N57 BESIDE NUNUZ-A1
 @uage 1
 @sys	AP23 12C36
 @sys	AP24 12E00
+@useq xF0112.x12A82
+@inote useq-old-uni	12E00 𒸀 THREE-N57 BESIDE NUNUZ-A1
 @@
 @form |3(N57).NUNUZ~c|
 @oid o0903246
-@list U+12E01
-@ucun 𒸁
-@uname THREE-N57 BESIDE NUNUZ-C
 @uage 1
 @sys	AP23 12C37
 @sys	AP24 12E01
+@useq xF0112.x12A87
+@inote useq-old-uni	12E01 𒸁 THREE-N57 BESIDE NUNUZ-C
 @@
 @end sign
 
@@ -29364,13 +29280,12 @@
 @inote @smap |3(N57).PIRIG~b1|
 @form |3(N57).PIRIG~b1|
 @oid o0903248
-@list U+12E02
-@ucun 𒸂
-@uname THREE-N57 BESIDE PIRIG-B1
 @uage 1
 @sys	AP23 12C38
 @sys	AP24 12E02
 @sys	LLATU:275_04 PIRIG~b1+3(N57) 
+@useq xF0112.x12A98
+@inote useq-old-uni	12E02 𒸂 THREE-N57 BESIDE PIRIG-B1
 @@
 @end sign
 
@@ -29390,14 +29305,13 @@
 @sign |3(N57).ŠUBUR|
 @oid o0903252
 @sys CDLI-gh img-page
-@list U+12E03
-@ucun 𒸃
-@uname THREE-N57 BESIDE SHUBUR
 @uage 1
 @list ZATU540
 @sys	AP23 12C39
 @sys	AP24 12E03
 @sys	LLATU:298_03 ŠUBUR+3(N57) 
+@useq xF0112.x12B9E
+@inote useq-old-uni	12E03 𒸃 THREE-N57 BESIDE SHUBUR
 @end sign
 
 @sign |3(N57).UDU|
@@ -29408,8 +29322,8 @@
 @oid o0903254
 @sys	ADD F305E CUSAS01 3N57-UDUa.png
 @inote	CUSAS01
-@list U+F305E
-@uname ADD NAME |3(N57).UDU~a|
+@useq xF0112.x12C25
+@inote useq-old-uni	F305E - ADD NAME |3(N57).UDU~a|
 @@
 @end sign
 
@@ -29420,8 +29334,8 @@
 @oid o0903256
 @sys	ADD F305F CUSAS01 3N57-UDUNITAa.png
 @inote	CUSAS01
-@list U+F305F
-@uname ADD NAME |3(N57).UDUNITA~a|
+@useq xF0112.x12C2A
+@inote useq-old-uni	F305F - ADD NAME |3(N57).UDUNITA~a|
 @@
 @end sign
 
@@ -29439,23 +29353,21 @@
 @sign |4(N57).AMAR|
 @oid o0903258
 @sys CDLI-gh img-page
-@list U+12E04
-@ucun 𒸄
-@uname FOUR-N57 BESIDE AMAR
 @uage 1
 @sys	AP23 12C3B
 @sys	AP24 12E04
+@useq xF0113.x126C5
+@inote useq-old-uni	12E04 𒸄 FOUR-N57 BESIDE AMAR
 @end sign
 
 @sign |4(N57).GAR|
 @oid o0903259
 @sys CDLI-gh img-page
-@list U+12E05
-@ucun 𒸅
-@uname FOUR-N57 BESIDE GAR
 @uage 1
 @sys	AP23 12C3C
 @sys	AP24 12E05
+@useq xF0113.x12868
+@inote useq-old-uni	12E05 𒸅 FOUR-N57 BESIDE GAR
 @end sign
 
 @sign |4(N57).KU₃|
@@ -29464,12 +29376,11 @@
 @inote @smap |4(N57).KU₃~a|
 @form |4(N57).KU₃~a|
 @oid o0903261
-@list U+12E06
-@ucun 𒸆
-@uname FOUR-N57 BESIDE KU3-A
 @uage 1
 @sys	AP23 12C3D
 @sys	AP24 12E06
+@useq xF0113.x12963
+@inote useq-old-uni	12E06 𒸆 FOUR-N57 BESIDE KU3-A
 @@
 @end sign
 
@@ -29479,12 +29390,11 @@
 @inote @smap |4(N57).NI~b|
 @form |4(N57).NI~b|
 @oid o0903263
-@list U+12E07
-@ucun 𒸇
-@uname FOUR-N57 BESIDE NI-B
 @uage 1
 @sys	AP23 12C3E
 @sys	AP24 12E07
+@useq xF0113.x12A3E
+@inote useq-old-uni	12E07 𒸇 FOUR-N57 BESIDE NI-B
 @@
 @end sign
 
@@ -29502,12 +29412,11 @@
 @sign |5(N57).GAR|
 @oid o0903265
 @sys CDLI-gh img-page
-@list U+12E08
-@ucun 𒸈
-@uname FIVE-N57 BESIDE GAR
 @uage 1
 @sys	AP23 12C3F
 @sys	AP24 12E08
+@useq xF0114.x12868
+@inote useq-old-uni	12E08 𒸈 FIVE-N57 BESIDE GAR
 @end sign
 
 @sign |5(N57).KU₃|
@@ -29516,12 +29425,11 @@
 @inote @smap |5(N57).KU₃~a|
 @form |5(N57).KU₃~a|
 @oid o0903267
-@list U+12E09
-@ucun 𒸉
-@uname FIVE-N57 BESIDE KU3-A
 @uage 1
 @sys	AP23 12C40
 @sys	AP24 12E09
+@useq xF0114.x12963
+@inote useq-old-uni	12E09 𒸉 FIVE-N57 BESIDE KU3-A
 @@
 @end sign
 
@@ -29547,12 +29455,11 @@
 @sign |6(N57).GAR|
 @oid o0903270
 @sys CDLI-gh img-page
-@list U+12E0A
-@ucun 𒸊
-@uname SIX-N57 BESIDE GAR
 @uage 1
 @sys	AP23 12C41
 @sys	AP24 12E0A
+@useq xF0115.x12868
+@inote useq-old-uni	12E0A 𒸊 SIX-N57 BESIDE GAR
 @end sign
 
 @sign |6(N57).KU₃|
@@ -29561,12 +29468,11 @@
 @inote @smap |6(N57).KU₃~a|
 @form |6(N57).KU₃~a|
 @oid o0903272
-@list U+12E0B
-@ucun 𒸋
-@uname SIX-N57 BESIDE KU3-A
 @uage 1
 @sys	AP23 12C42
 @sys	AP24 12E0B
+@useq xF0115.x12963
+@inote useq-old-uni	12E0B 𒸋 SIX-N57 BESIDE KU3-A
 @@
 @end sign
 
@@ -29601,13 +29507,12 @@
 @inote @smap |8(N57).NI~b|
 @form |8(N57).NI~b|
 @oid o0903277
-@list U+12E0C
-@ucun 𒸌
-@uname EIGHT-N57 BESIDE NI-B
 @uage 1
 @sys	AP23 12C43
 @sys	AP24 12E0C
 @sys	LLATU:268_02 NI~b+8(N57) 
+@useq xF0117.x12A3E
+@inote useq-old-uni	12E0C 𒸌 EIGHT-N57 BESIDE NI-B
 @@
 @end sign
 
@@ -29712,13 +29617,12 @@
 @inote @smap |3(N58).UR₃~b1|
 @form |3(N58).UR₃~b1|
 @oid o0903287
-@list U+12E10
-@ucun 𒸐
-@uname THREE-N58 BESIDE UR3-B1
 @uage 1
 @sys	AP23 12C3A
 @sys	AP24 12E10
 @sys	LLATU:309_02 UR₃~b1+3(N58) 
+@useq xF011C.x12C56
+@inote useq-old-uni	12E10 𒸐 THREE-N58 BESIDE UR3-B1
 @@
 @end sign
 

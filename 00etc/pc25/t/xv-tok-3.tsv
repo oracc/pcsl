@@ -5605,6 +5605,8 @@ o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
+o0900195	c	|(BU~a~v1%BU~a~v1)×NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
+o0900195	c	|(BU~a~v1%BU~a~v1)×NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
 o0900197	c	|(BU~a&BU~a).X|	|(BU~a&BU~a).X|
 o0900199	c	|BU~a+DU₆~a|	|BU~a.DU₆|
 o0900199	c	|BU~a+DU₆~a|	|BU~a.DU₆|
@@ -93742,7 +93744,5 @@ o0903368	s	X	X
 o0903368	s	X	X
 o0903368	s	X	X
 o0903368	s	X	X
-o0903398	c	|(BU~a~v1%BU~a~v1).NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
-o0903398	c	|(BU~a~v1%BU~a~v1).NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
 o0903405	s	GEŠTU~c	GEŠTU~c
 o0903664	c	|LAGAB~b.LAGAB~b|	|LAGAB~b+LAGAB~b|

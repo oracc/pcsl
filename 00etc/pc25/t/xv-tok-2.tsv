@@ -14898,7 +14898,7 @@ o0900100	s	APIN-APIN~a-	APIN~a
 o0902869	n	1(N02)--	1(N02)
 o0902858	n	1(N01)--	1(N01)
 o0902139	s	TUR--	TUR
-o0903398	c	|(BU&BU).NA₂@n|-|(BU~a~v1%BU~a~v1).NA₂~a@n|-	|(BU~a&BU~a).NA₂~a@n|
+o0900195	c	|(BU&BU)×NA₂@n|-|(BU~a~v1%BU~a~v1)×NA₂~a@n|-	|(BU~a&BU~a).NA₂~a@n|
 o0902863	n	6(N01)--	6(N01)
 o0903059	n	1(N34)--	1(N34)
 o0902934	n	5(N14)--	5(N14)
@@ -31867,7 +31867,7 @@ o0902862	n	5(N01)--	5(N01)
 o0902861	n	4(N01)--	4(N01)
 o0900517	s	EN-EN~b-	EN~b
 o0902861	n	4(N01)--	4(N01)
-o0903398	c	|(BU&BU).NA₂@n|-|(BU~a~v1%BU~a~v1).NA₂~a@n|-	|(BU~a&BU~a).NA₂~a@n|
+o0900195	c	|(BU&BU)×NA₂@n|-|(BU~a~v1%BU~a~v1)×NA₂~a@n|-	|(BU~a&BU~a).NA₂~a@n|
 o0902930	n	2(N14)--	2(N14)
 o0902866	n	9(N01)--	9(N01)
 o0902858	n	1(N01)--	1(N01)
