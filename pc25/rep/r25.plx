@@ -84,6 +84,7 @@ my @u = `cut -f1,3 /home/oracc/pcsl/02pub/unicode.tsv`; chomp @u;
 my %u = (); foreach (@u) { my($u,$o) = split(/\t/,$_); $u{$o} = $u; }
 #open(U,'>u.dump'); print U Dumper \%u; close(U);
 
+my %oo = ();
 my %s = ();
 
 open(PICK,'>pick.log');
@@ -93,6 +94,7 @@ foreach (@rep) {
     my($o,$n) = split(/\t/,$_);
     next if $dne{$o};
     my $oo = $o;
+
     my $v = $n;
     if ($v =~ s/~v\d+//g) {
 	# warn "$v\n";
@@ -101,22 +103,23 @@ foreach (@rep) {
 	} else {
 	    $v{$v} = $n;
 	    if ($oid{$v}) {
-		# warn "reducing $o=$n to $v conflicts with $v=$oid{$v}\n";
 		$o = $oid{$v};
+		$oo{$o} = $oo;
+		$scodes{$o} = $scodes{$oo};
+		# warn "reducing $o=$n to $v conflicts with $v=$oid{$v}\n";
 		$v{$v,'o'} = $oid{$n};
 	    } else {
 		++$xoid;
 		$o = $xoid;
+		warn "generating new oid $xoid\n";
 		print O "$xoid\tpc\t$v\tsign\t\n";
 		$v{$v,'o'} = $oid{$n};
 	    }
 	}
     }
-    if ($u{$oo}) {
-	
-    } else {
-	warn "$o = $oo = $v = $n has no Unicode\n";
-    }
+
+    warn "$o = $oo = $v = $n has no Unicode\n"
+	unless $u{$oo};
     
     my $aka = '';
     if ($aka{$o}) {
@@ -145,9 +148,10 @@ foreach (@rep) {
     $signs{$sv} = $o;
 
     my $glyf = glyfs($oo, $o);
-    my $sc = $scodes{$o} || $scodes{$oo};
+    my $sc = $scodes{$o}; # || $scodes{$oo};
     warn "no scode for $o or $oo\n" unless defined $sc;
-    $s{$oo} = [ $v , $o , $aka , $glyf , $sc ];
+
+    $s{$o} = [ $v , $o , $aka , $glyf , $sc ];
 }
 close(O);
 close(NAMES);
@@ -183,7 +187,7 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
     }
     
     my $udata = '';
-    my $uhex = $u{$o};
+    my $uhex = $u{$o} || $u{$oo{$o}};
     if ($uhex) {
 	if ($uhex =~ s/^U\+// && !$beside{$v}) {
 	    my $uname = $unames{$o};
@@ -193,9 +197,7 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
 		$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
 		unless (not_in_repertoire($v,$uname,$o,$uhex)) {
 		    $rep{$o} = "$uchar\t$uhex\t$uname\t$o\n";
-		    if ($uhex =~ /^F3/) {
-			print A $rep{$o} unless exists $font{$uhex};
-		    }
+		    print A $rep{$o} unless exists $font{$uhex};
 		}
 	    } else {
 		warn "$v\t$o\tno uname\n";
@@ -207,6 +209,8 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
 		warn "$v\t$o\tno useq\n";
 	    }
 	}
+    } else {
+	warn "$v\t$o\tno uhex\n";
     }
     
     print "\@sign $v\n\@oid $o\n$aka$glyf$udata\@end sign\n\n";

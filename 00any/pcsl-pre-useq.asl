@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3095
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3093
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -1545,18 +1545,6 @@
 @@
 @end sign
 
-@sign |BAR×UŠ|
-@oid o0903667
-@inote @smap |BAR×UŠ~a|
-@form |BAR×UŠ~a|
-@oid o0903668
-@sys	ADD F3095 CUSAS01 3N57-BAR+USHa.png
-@inote	CUSAS01
-@list U+F3095
-@uname ADD NAME |BAR×UŠ~a|
-@@
-@end sign
-
 @sign BARA₂
 @oid o0900157
 @sys CDLI-gh img-page
@@ -1869,13 +1857,11 @@
 @@
 @end sign
 
-@sign |(BU&BU)×NA₂@n|
-@aka |(BU&BU).NA₂@n|
+@sign |(BU&BU).NA₂@n|
 @oid o0900194
 @sys CDLI-gh img-page
 @inote @smap |(BU~a~v1%BU~a~v1).NA₂~a@n|
-@form |(BU~a~v1%BU~a~v1)×NA₂~a@n|
-@aka |(BU~a~v1%BU~a~v1).NA₂~a@n|
+@form	|(BU~a~v1%BU~a~v1).NA₂~a@n|
 @oid o0903398
 @aka	|(BU~a&BU~a).NA₂~a@n|
 @list U+12715
@@ -19151,15 +19137,7 @@
 @sys	AP24 12C04
 @end sign
 
-@sign |U₄×(1(N14).3(N01))|
-@oid o0903666
-@sys	ADD 
-@list U+F3094
-@uname ADD NAME |U₄×(1(N14).3(N01))|
-@end sign
-
-@sign	|U₄×(1(N14).3(N01)).1(N14).4(N08)|
-@aka |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
+@sign |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @oid o0902199
 @sys	ADD F3009 P518361 U4x3N01-1N14-4N08.png
 @inote	CHECK
@@ -29904,6 +29882,8 @@
 @compoundonly	SILA₃~a~v1
 @compoundonly	|(BU.DU₆)&(BU.DU₆)|
 @compoundonly	|(BU~a.DU₆~a)&(BU~a.DU₆)|
+@compoundonly	|BAR×UŠ|
+@compoundonly	|BAR×UŠ~a|
 @compoundonly	|DUG&DUG|
 @compoundonly	|DUG~b~v1&DUG~b~v1|
 @compoundonly	|HI×N04|
@@ -29911,6 +29891,7 @@
 @compoundonly	|SILA₃×UMBIN|
 @compoundonly	|UKKIN~b~v1×1(N57)|
 @compoundonly	|UKKIN×1(N57)|
+@compoundonly	|U₄×(1(N14).3(N01))|
 @compoundonly	|ŠA×HI@g~a|
 @compoundonly	ŠUBUR~v1
 @compoundonly	GUDU₄
