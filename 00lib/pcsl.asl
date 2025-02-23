@@ -3723,9 +3723,9 @@
 @sign |DUG×1(N58)|
 @oid o0900404
 @inote @smap |DUG~b~v1×1(N58)|
-@form |DUG~b~v1×1(N58)|
+@form |DUG~b×1(N58)|
 @oid o0900405
-@aka	|DUG~c×1(N58)|
+@aka	|DUG~b~v1×1(N58)|
 @sys	ADD F3035 CUSAS01_138 DUGx1N58.png
 @inote The glyph is DUG~b1x1N58 but the previous description was for DUG~c; collate.
 @list U+F3035
@@ -18893,13 +18893,14 @@
 @inote useq-old-uni	12BF4 𒯴 U4 TIMES ONE-N1 BESIDE FIVE-N8
 @end sign
 
-@sign |U₄×(1(N01).1(N24))|
+@sign	|U₄×1(N01).1(N24)|
 @oid o0902180
+@aka |U₄×(1(N01).1(N24))|
 @aka	|U₄×1(N01)+1(N24)|
-@sys	ADD F3007 CUSAS31 U4x1N01-N24.png
+@useq x12BF3.x125AA
+@inote @sys	ADD F3007 CUSAS31 U4x1N01-N24.png
 @inote	Could be encoded as sequence U₄×1(N01).1(N24)
-@list U+F3007
-@uname ADD NAME |U₄×(1(N01).1(N24))|
+@inote @list U+F3007 @uname ADD NAME |U₄×(1(N01).1(N24))|
 @end sign
 
 @sign |U₄×2(N01)|
@@ -19305,12 +19306,11 @@
 @inote	OK, but encode as sequence; l-to-r sequence on tablet is 1(N08) 1(N14) U4 (re-check if this is upside-down copy of rev :) )
 @end sign
 
-@sign |U₄+1(N24)|
+@sign |U₄.1(N24)|
 @oid o0902219
 @sys	ADD F3006 CUSAS31 U4-1N24.png
-@inote	CHECK
-@list U+F3006
-@uname ADD NAME |U₄+1(N24)|
+@useq x12BE1.x125AA
+@inote @list U+F3006 @uname ADD NAME |U₄+1(N24)|
 @end sign
 
 @sign U₈

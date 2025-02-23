@@ -8313,11 +8313,9 @@
 @useq x12BE1.x12563
 @end sign
 
-@sign |U₄+1(N24)|
+@sign |U₄.1(N24)|
 @oid o0902219
-@list U+F3006
-@uname PROTO-CUNEIFORM SIGN U4 JOINING ONE-N24
-@ucun 󳀆
+@useq x12BE1.x125AA
 @end sign
 
 @sign |U₄×X|
@@ -8339,12 +8337,9 @@
 @useq x12BF3.x1255D
 @end sign
 
-@sign |U₄×(1(N01).1(N24))|
+@sign |U₄×1(N01).1(N24)|
 @oid o0902180
-@aka |U₄×1(N01)+1(N24)|
-@list U+F3007
-@uname PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1 PLUS ONE-N24
-@ucun 󳀇
+@useq x12BF3.x125AA
 @end sign
 
 @sign |U₄×2(N01)|
