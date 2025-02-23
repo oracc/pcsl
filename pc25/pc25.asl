@@ -6383,6 +6383,13 @@
 @ucun 𒪪
 @end sign
 
+@sign |SAG×GEŠTU~b|
+@oid o0901682
+@list U+12AAD
+@uname PROTO-CUNEIFORM SIGN SAG TIMES GESHTU-B
+@ucun 𒪭
+@end sign
+
 @sign |SAG×NAM₂|
 @oid o0901689
 @aka |SAG+NAM₂|
@@ -6410,13 +6417,6 @@
 @list U+12AAC
 @uname PROTO-CUNEIFORM SIGN SAG NUTILLU
 @ucun 𒪬
-@end sign
-
-@sign |SAG×GEŠTU~b|
-@oid o0901682
-@list U+12AAD
-@uname PROTO-CUNEIFORM SIGN SAG TIMES GESHTU-B
-@ucun 𒪭
 @end sign
 
 @sign SAGŠU
@@ -7024,18 +7024,18 @@
 @ucun 𒬌
 @end sign
 
-@sign |SILA₃~b×NI~b|
-@oid o0901831
-@list U+12B0D
-@uname PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-B
-@ucun 𒬍
-@end sign
-
 @sign |SILA₃~b×NI~a|
 @oid o0901830
 @list U+12B0F
 @uname PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-A
 @ucun 𒬏
+@end sign
+
+@sign |SILA₃~b×NI~b|
+@oid o0901831
+@list U+12B0D
+@uname PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-B
+@ucun 𒬍
 @end sign
 
 @sign |SILA₃~c×ZATU687|
@@ -7669,13 +7669,6 @@
 @ucun 𒭽
 @end sign
 
-@sign ŠITA@g~b
-@oid o0902026
-@list U+12B81
-@uname PROTO-CUNEIFORM SIGN SHITA GUNU-B
-@ucun 𒮁
-@end sign
-
 @sign ŠITA~a2
 @oid o0902005
 @list U+12B82
@@ -7738,6 +7731,13 @@
 @list U+12B8C
 @uname PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE-N6
 @ucun 𒮌
+@end sign
+
+@sign ŠITA@g~b
+@oid o0902026
+@list U+12B81
+@uname PROTO-CUNEIFORM SIGN SHITA GUNU-B
+@ucun 𒮁
 @end sign
 
 @sign ŠU
@@ -13015,30 +13015,25 @@
 @compoundonly 1(N57@t)
 @compoundonly 1(N58)~a
 @compoundonly A@t
+@compoundonly AŠ₂
 @compoundonly ANŠE~d
-@compoundonly BAD~a
-@compoundonly DARA₃~d
 @compoundonly DUB@n~a
 @compoundonly DUB@n~b
-@compoundonly DU₆~a@n
 @compoundonly EN~d
 @compoundonly GAN~d
 @compoundonly |GIŠ×ŠU₂|
 @compoundonly GURUŠ~c
 @compoundonly HI~a1
+@compoundonly KA₂~d
 @compoundonly KAR₂
 @compoundonly KUR~e
 @compoundonly KUŠU₂~a@t
-@compoundonly LA₂~a
 @compoundonly NA₂~a@n
 @compoundonly SILA₃~c
-@compoundonly TAR
 @compoundonly TAR~b
 @compoundonly TAR~c
 @compoundonly URU~a3
 @compoundonly X
-@compoundonly X(N57)
-@compoundonly ZATU737@t
 @compoundonly ZATU759@t
 @compoundonly ZATU779
 @compoundonly ZATU789
@@ -13048,7 +13043,6 @@
 @compoundonly |GIŠ×(DIN.DIN)|
 @compoundonly |HI×1(N57).AN|
 @compoundonly |SILA₃~a×UMBIN~a|
-@compoundonly |UDU~a×TAR|
 @compoundonly |UKKIN~b×1(N57)|
 @compoundonly |ŠA×HI@g~a|
 @compoundonly ŠEN~d

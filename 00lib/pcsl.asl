@@ -14472,9 +14472,9 @@
 @sys	AP23 12DDD
 @sys	AP24 12AAA
 @@
-@form |SAG@n×GEŠTU~b|
+@form |SAG×GEŠTU~b|
 @oid o0901682
-@aka	|SAG×GEŠTU~b|
+@aka	|SAG@n×GEŠTU~b|
 @list U+12AAD
 @ucun 𒪭
 @uname SAG NUTILLU TIMES GESHTU-B
@@ -14743,9 +14743,9 @@
 @sys	AP23 129B9
 @sys	AP24 12ABF
 @@
-@form SANGA~e1
+@form SANGA~e
 @oid o0901715
-@aka	SANGA~e
+@aka	SANGA~e1
 @sys	ADD F3064 CUSAS01 SANGAe1.png
 @inote	CUSAS01; two variants given there
 @list U+F3064
@@ -15704,9 +15704,9 @@
 @sys	AP23 12E23
 @sys	AP24 12AFA
 @@
-@form |SILA₃~c×NI~a|
+@form |SILA₃~b×NI~a|
 @oid o0901830
-@aka	|SILA₃~b×NI~a|
+@aka	|SILA₃~c×NI~a|
 @list U+12B0F
 @ucun 𒬏
 @uname SILA3-C TIMES NI-A
@@ -17515,9 +17515,9 @@
 @sys CDLI-gh img-page
 @list ZATU530
 @inote @smap ŠITA~a1@g
-@form	ŠITA~a1@g
+@form	ŠITA@g~b
 @oid o0902026
-@aka	ŠITA@g~b
+@aka	ŠITA~a1@g
 @list U+12B81
 @ucun 𒮁
 @uname SHITA-A1 GUNU
@@ -17541,9 +17541,9 @@
 @sys	AP24 12B85
 @compoundonly	ŠITA~b2@g
 @@
-@form	ŠITA~b3@g
+@form	ŠITA@g~a
 @oid o0902028
-@aka	ŠITA@g~a
+@aka	ŠITA~b3@g
 @list U+12B8A
 @ucun 𒮊
 @uname SHITA-B3 GUNU
@@ -17558,9 +17558,9 @@
 @sys CDLI-gh img-page
 @list ZATU531
 @inote @smap |ŠITA~b3@g×1(N04)|
-@form |ŠITA~b3@g×1(N04)|
+@form |ŠITA@g~a×1(N04)|
 @oid o0902030
-@aka	|ŠITA@g~a×1(N04)|
+@aka	|ŠITA~b3@g×1(N04)|
 @list U+12B8B
 @ucun 𒮋
 @uname SHITA-B3 GUNU TIMES ONE-N4
@@ -17574,9 +17574,9 @@
 @oid o0902031
 @sys CDLI-gh img-page
 @inote @smap |ŠITA~b3@g×1(N06)|
-@form |ŠITA~b3@g×1(N06)|
+@form |ŠITA@g~a×1(N06)|
 @oid o0902032
-@aka	|ŠITA@g~a×1(N06)|
+@aka	|ŠITA~b3@g×1(N06)|
 @list U+12B8C
 @ucun 𒮌
 @uname SHITA-B3 GUNU TIMES ONE-N6
