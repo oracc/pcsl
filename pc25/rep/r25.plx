@@ -18,6 +18,8 @@ my %font = (); my @font = `00bin/fntuni.sh`; chomp @font; @font{@font} = ();
 my %dne = (
     o0901365=>'|MAR~b×GAR|',
     o0903564=>'|2(N57).DU₆~a@n|',
+    o0903567=>'DU₆~a@n',
+    o0902413=>'|X(N57).GAR|',
     );
 
 # DO Encode
@@ -187,7 +189,10 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
     }
     
     my $udata = '';
-    my $uhex = $u{$o} || $u{$oo{$o}};
+    my $uhex = $u{$o};
+    unless ($uhex) {
+	$uhex = $u{$oo{$o}} if $oo{$o};
+    }
     if ($uhex) {
 	if ($uhex =~ s/^U\+// && !$beside{$v}) {
 	    my $uname = $unames{$o};
@@ -196,7 +201,7 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
 		$uchar = chr(hex($uhex));
 		$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
 		unless (not_in_repertoire($v,$uname,$o,$uhex)) {
-		    $rep{$o} = "$uchar\t$uhex\t$uname\t$o\n";
+		    $rep{$o} = "$uchar\t$uhex\t$uname\t$oo\n";
 		    print A $rep{$o} unless exists $font{$uhex};
 		}
 	    } else {
@@ -237,11 +242,19 @@ close(R);
 open(V,'>00etc/v.tsv');
 foreach my $v (sort keys %v) {
     next if $v =~ /o$/;
+    my $pr_u = '';
     unless ($v{$v,'o'}) {
+	$v{$v} = '';
 	$v{$v,'o'} = 'X';
 	warn "no OID for $v\n";
+	$pr_u = '';
+    } else {
+	unless (($pr_u = $u{$v{$v,'o'}})) {
+	    warn "no Unicode for $v{$v,'o'}\n";
+	    $pr_u = '';
+	}
     }
-    print V "$v\t$v{$v}\t$v{$v,'o'}\t$u{$v{$v,'o'}}\n";
+    print V "$v\t$v{$v}\t$v{$v,'o'}\t$pr_u\n";
 }
 close(V);
 

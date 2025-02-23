@@ -2,7 +2,7 @@
     xmlns="http://oracc.org/ns/xpd/1.0"
     xmlns:xpd="http://oracc.org/ns/xpd/1.0">
   <name>Proto-Cuneiform Sign List for PC25 Encoding</name>
-  <abbrev>PCS/PC25L</abbrev>
+  <abbrev>PCSL/PC25</abbrev>
   <project-type>oracc</project-type>
   <type>corpus</type>
   <logo type="text">PCSL/PC25</logo>

@@ -1544,10 +1544,10 @@
 @end sign
 
 @sign |BAR×UŠ|
-@oid o0903667
+@oid o0903379
 @inote @smap |BAR×UŠ~a|
 @form |BAR×UŠ~a|
-@oid o0903668
+@oid o0903380
 @sys	ADD F3095 CUSAS01 3N57-BAR+USHa.png
 @inote	CUSAS01
 @list U+F3095
@@ -8462,10 +8462,12 @@
 @sys	AP23 12D4D
 @sys	AP24 128ED
 @inote	AP CDLI correction
-@form	|(HI×1(N57))&(HI×1(N57))|
-@oid	o0903408
 @useq x128EC.x128EC
 @inote useq-old-uni	F3092 𒣭 ADD F3092
+@form	|(HI×1(N57))&(HI×1(N57))|
+@oid	o0903408
+@list U+F3092
+@uname ADD F3092
 @@
 @end sign
 
@@ -8973,10 +8975,6 @@
 @sys	AP23 1287C
 @sys	AP24 12914
 @sys	LLATU:242_01 KA~a 
-@inote KA with closed eye like SAG with closed eye and with teeth like KA~a
-@inote KA with closed eye but only one outward tooth
-@compoundonly KA~a~v1
-@compoundonly KA~a~v2
 @@
 @end sign
 
@@ -8985,23 +8983,23 @@
 @sys CDLI-gh img-page
 @list ZATU274
 @inote @smap |KA~a~v2.ŠE~a@t|
-@form |KA~a~v2.ŠE~a@t|
-@aka |KA~a.ŠE~a@t|
+@form |KA~a.ŠE~a@t|
+@aka |KA~a~v2.ŠE~a@t|
 @oid o0901032
 @uage 1
 @sys	AP23 12D58
 @sys	AP24 12917
-@useq X.x12B57
+@useq x12914.x12B57
 @inote useq-old-uni	12917 𒤗 KA-A VARIANT 2 BESIDE SHE-A TENU
 @@
-@form |KA~a~v1.ŠE~a|
+@form |KA~a.ŠE~a|
 @oid o0901033
-@aka	|KA~a.ŠE~a|~v1
-@aka |KA~a.ŠE~a|
+@aka	|KA~a.ŠE~a|
+@aka |KA~a~v1.ŠE~a|
 @uage 1
 @sys	AP23 12D59
 @sys	AP24 12916
-@useq X.x12B52
+@useq x12914.x12B52
 @inote useq-old-uni	12916 𒤖 KA-A VARIANT 1 BESIDE SHE-A
 @@
 @end sign
@@ -17762,7 +17760,7 @@
 @sys	AP23 12E04
 @sys	AP24 12B96
 @inote	AP CDLI correction
-@useq x12B91.X
+@useq x12B91.xF3092
 @inote useq-old-uni	12B96 𒮖 SHU2-A BESIDE HI TIMES ONE-N57 OVER HI TIMES ONE-N57
 @end sign
 
@@ -18745,14 +18743,14 @@
 @inote useq-old-uni	12BE5 𒯥 U4 BESIDE THREE-N8
 @end sign
 
-@sign |U₄.4(N08)~v1|
+@sign |U₄.4(N08)|
 @oid o0902166
 @sys CDLI-gh img-page
-@aka	|U₄.4(N08)|
+@aka	|U₄.4(N08)~v1|
 @uage 1
 @sys	AP23 12E61
 @sys	AP24 12BE6
-@useq x12BE1.X
+@useq x12BE1.x1255C
 @inote useq-old-uni	12BE6 𒯦 U4 BESIDE FOUR-N8 VARIANT 1
 @end sign
 
@@ -19087,7 +19085,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903666
+@oid o0903390
 @sys	ADD 
 @list U+F3094
 @uname ADD NAME |U₄×(1(N14).3(N01))|
@@ -29804,7 +29802,6 @@
 
 @compoundonly	|HI×1(N57).AN|
 @compoundonly	3(N08)~v1
-@compoundonly	4(N08)~v1
 @compoundonly	SILA₃~a~v1
 @compoundonly	|(BU.DU₆)&(BU.DU₆)|
 @compoundonly	|(BU~a.DU₆~a)&(BU~a.DU₆)|

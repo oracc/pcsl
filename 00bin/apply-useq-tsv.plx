@@ -36,7 +36,7 @@ close(A);
 
 my $seq = '';
 my $cheat = '';
-my @sl = `cat 00lib/pcsl.asl`;
+my @sl = `cat 00any/pcsl-pre-useq.asl`;
 my %uni = ();
 for (my $i = 0; $i < $#sl; ++$i) {
     if ($sl[$i] =~ /^\@(?:sign|form|aka)\s+(\S+)\s*$/) {
@@ -58,7 +58,7 @@ for (my $i = 0; $i < $#sl; ++$i) {
 	++$seen{$seq} if $seq;
 	$seq = '';
 	%uni = ();
-    } elsif (($cheat || $seq) && ($sl[$i] =~ /^\@\@/ || $sl[$i] =~ /^\@end\s+sign/)) {
+    } elsif (($cheat || $seq) && ($sl[$i] =~ /\@form/ || $sl[$i] =~ /^\@\@/ || $sl[$i] =~ /^\@end\s+sign/)) {
 	++$seen{$seq} if $cheat && $seq;
 	add_seq($i, $cheat||$seq, \%uni);
 	$cheat = $seq = '';

@@ -834,13 +834,6 @@
 @ucun 𒜔
 @end sign
 
-@sign |(BU~a%BU~a).NA₂~a@n|
-@oid o0903571
-@list U+12715
-@uname PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A BESIDE NA2-A NUTILLU
-@ucun 𒜕
-@end sign
-
 @sign BU~b
 @oid o0900177
 @list U+12716
@@ -3872,16 +3865,16 @@
 @ucun 𒤔
 @end sign
 
+@sign |KA~a.ŠE~a|
+@oid o0901033
+@useq x12914.x12B52
+@end sign
+
 @sign |KA~a×SAR~a|
 @oid o0901036
 @list U+12915
 @uname PROTO-CUNEIFORM SIGN KA-A TIMES SAR-A
 @ucun 𒤕
-@end sign
-
-@sign |KA~a.ŠE~a@t|
-@oid o0903608
-@useq x12914.x12B57
 @end sign
 
 @sign KA₂~a
@@ -5351,12 +5344,6 @@
 @sign |1(N02).RU|
 @oid o0902870
 @useq x125BE.x12AA3
-@end sign
-
-@sign |X(N57).GAR|
-@oid o0902413
-@aka |N(N57).GAR|
-@useq X.x12868
 @end sign
 
 @sign |1(N57).BU₃|
@@ -8362,7 +8349,7 @@
 @end sign
 
 @sign |U₄.4(N08)|
-@oid o0903636
+@oid o0902166
 @useq x12BE1.x1255C
 @end sign
 

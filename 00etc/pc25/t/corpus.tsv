@@ -111,7 +111,7 @@ o0900185	c	|BU~a×GIŠ@t|	|BU~a×GIŠ@t|	1
 o0900187	c	|BU~a×1(N58)|	|BU~a×1(N58)|	1
 o0900189	c	|BU~a&BU~a|	|BU~a&BU~a|	1
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|	8
-o0900195	c	|(BU~a~v1%BU~a~v1)×NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|	2
+o0900195	c	|(BU~a~v1%BU~a~v1).NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|	2
 o0900197	c	|(BU~a&BU~a).X|	|(BU~a&BU~a).X|	1
 o0900199	c	|BU~a+DU₆~a|	|BU~a.DU₆|	2
 o0900199	c	|BU~a+DU₆~a|	|BU~a+DU₆~a|	52
@@ -596,7 +596,7 @@ o0901020	s	IŠ~a	IŠ~a	26
 o0901022	s	IŠ~b	IŠ~b	73
 o0901028	s	IŠ~c	IŠ~c	2
 o0901030	s	KA~a	KA~a	96
-o0901032	c	|KA~a~v2.ŠE~a@t|	|KA~a.ŠE~a|	1
+o0901033	c	|KA~a.ŠE~a|	|KA~a.ŠE~a|	1
 o0901036	c	|KA~a×SAR~a|	|KA~a×SAR~a|	1
 o0901038	s	KA₂~a	KA₂~a	13
 o0901039	s	KA₂~b	KA₂~b	6

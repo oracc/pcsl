@@ -5605,8 +5605,8 @@ o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0900191	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
-o0900195	c	|(BU~a~v1%BU~a~v1)×NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
-o0900195	c	|(BU~a~v1%BU~a~v1)×NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
+o0900195	c	|(BU~a~v1%BU~a~v1).NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
+o0900195	c	|(BU~a~v1%BU~a~v1).NA₂~a@n|	|(BU~a&BU~a).NA₂~a@n|
 o0900197	c	|(BU~a&BU~a).X|	|(BU~a&BU~a).X|
 o0900199	c	|BU~a+DU₆~a|	|BU~a.DU₆|
 o0900199	c	|BU~a+DU₆~a|	|BU~a.DU₆|
@@ -20005,7 +20005,7 @@ o0901030	s	KA~a	KA~a
 o0901030	s	KA~a	KA~a
 o0901030	s	KA~a	KA~a
 o0901030	s	KA~a	KA~a
-o0901032	c	|KA~a~v2.ŠE~a@t|	|KA~a.ŠE~a|
+o0901033	c	|KA~a.ŠE~a|	|KA~a.ŠE~a|
 o0901036	c	|KA~a×SAR~a|	|KA~a×SAR~a|
 o0901038	s	KA₂~a	KA₂~a
 o0901038	s	KA₂~a	KA₂~a
