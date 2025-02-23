@@ -20,8 +20,11 @@ xv:
 	make asl
 	00bin/xv.sh
 
-pc25.asl: 00etc/pc25-on.rep rep/compoundonly.txt rep/head rep/r25.plx 00etc/aka.tsv 00etc/pick-aka.tsv
+pc25.asl: 00etc/pc25-on.rep rep/compoundonly.txt rep/head rep/r25.plx 00etc/aka.tsv 00etc/pick-aka.tsv Makefile
 	rep/r25.plx >$@
+	-00bin/xv.sh
+	-sx -c pc25.asl 2>asl-check.log
+	head -n20 00etc/{crp,asl}-not-in-*.tsv asl-check.log
 
 00etc/aka.tsv: 00etc/pc25.tok
 	../00bin/aka.plx -t 00etc/pc25.tok

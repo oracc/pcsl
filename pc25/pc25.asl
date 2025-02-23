@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF307E
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3092
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -504,13 +504,6 @@
 @ucun 𒛚
 @end sign
 
-@sign AŠ₂
-@oid o0900112
-@list U+126DB
-@uname PROTO-CUNEIFORM SIGN ASH2
-@ucun 𒛛
-@end sign
-
 @sign AZ
 @oid o0900113
 @list U+126DC
@@ -798,9 +791,12 @@
 @ucun 𒜋
 @end sign
 
-@sign |BU~a.DU₆~a|
+@sign |BU~a+DU₆~a|
 @oid o0900199
-@useq x1270B.x12750
+@aka |BU~a.DU₆~a|
+@list U+1270C
+@uname PROTO-CUNEIFORM SIGN BU-A JOINING DU6-A
+@ucun 𒜌
 @end sign
 
 @sign |BU~a+KI|
@@ -824,7 +820,7 @@
 
 @sign |(BU~a&BU~a).X|
 @oid o0900197
-@useq xF302C.X
+@useq xF302C.O
 @end sign
 
 @sign |BU~a×A|
@@ -832,6 +828,13 @@
 @list U+12714
 @uname PROTO-CUNEIFORM SIGN BU-A TIMES A
 @ucun 𒜔
+@end sign
+
+@sign |(BU~a%BU~a).NA₂~a@n|
+@oid o0903571
+@list U+12715
+@uname PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A BESIDE NA2-A NUTILLU
+@ucun 𒜕
 @end sign
 
 @sign BU~b
@@ -975,13 +978,6 @@
 @ucun 𒜫
 @end sign
 
-@sign DAR~d
-@oid o0900231
-@list U+1272C
-@uname PROTO-CUNEIFORM SIGN DAR-D
-@ucun 𒜬
-@end sign
-
 @sign DARA₃~a
 @oid o0900235
 @list U+1272D
@@ -1027,7 +1023,7 @@
 @end sign
 
 @sign |DARA₃~d×KAR₂|
-@oid o0900243
+@oid o0900242
 @list U+12734
 @uname PROTO-CUNEIFORM SIGN DARA3-D TIMES KAR2
 @ucun 𒜴
@@ -1727,6 +1723,13 @@
 @ucun 𒞟
 @end sign
 
+@sign |DUG~b×U₂~b|
+@oid o0900450
+@list U+127A0
+@uname PROTO-CUNEIFORM SIGN DUG-B TIMES U2-B
+@ucun 𒞠
+@end sign
+
 @sign |DUG~b×(UDU~a×TAR~b)|
 @oid o0900454
 @list U+F3034
@@ -1830,13 +1833,6 @@
 @list U+127B9
 @uname PROTO-CUNEIFORM SIGN DUG-B OVER DUG-B TIMES ONE-N58
 @ucun 𒞹
-@end sign
-
-@sign |DUG~b×U₂~b|
-@oid o0900450
-@list U+127A0
-@uname PROTO-CUNEIFORM SIGN DUG-B TIMES U2-B
-@ucun 𒞠
 @end sign
 
 @sign DUG~c
@@ -2008,13 +2004,6 @@
 @list U+127DD
 @uname PROTO-CUNEIFORM SIGN EN-C
 @ucun 𒟝
-@end sign
-
-@sign |EN~c&EN~c|
-@oid o0900523
-@list U+127DE
-@uname PROTO-CUNEIFORM SIGN EN-C OVER EN-C
-@ucun 𒟞
 @end sign
 
 @sign EN@g~a
@@ -2224,18 +2213,18 @@
 @ucun 𒠀
 @end sign
 
-@sign |EZEN~a×EN~a|
-@oid o0903584
-@list U+12802
-@uname PROTO-CUNEIFORM SIGN EZEN-A TIMES EN-A
-@ucun 𒠂
-@end sign
-
 @sign EZEN~b
 @oid o0900552
 @list U+12803
 @uname PROTO-CUNEIFORM SIGN EZEN-B
 @ucun 𒠃
+@end sign
+
+@sign |EZEN~b×6(N57)|
+@oid o0900570
+@list U+12804
+@uname PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57
+@ucun 𒠄
 @end sign
 
 @sign EZEN~c
@@ -2286,7 +2275,7 @@
 @end sign
 
 @sign |GA~a.ZATU753|
-@oid o0903585
+@oid o0900607
 @glyf 0 󺂁 FA081
 @glyf 1 󺂂 FA082
 @useq x1280A.x12D79
@@ -2701,13 +2690,6 @@
 @ucun 𒡐
 @end sign
 
-@sign GALGA~b
-@oid o0900733
-@list U+12851
-@uname PROTO-CUNEIFORM SIGN GALGA-B
-@ucun 𒡑
-@end sign
-
 @sign GAN~a
 @oid o0900736
 @glyf 0 󺂅 FA085
@@ -2807,13 +2789,6 @@
 @ucun 𒡣
 @end sign
 
-@sign |GAN~c×ŠE~a|
-@oid o0903594
-@list U+12864
-@uname PROTO-CUNEIFORM SIGN GAN-C TIMES SHE-A
-@ucun 𒡤
-@end sign
-
 @sign |GAN~d×GEŠTU~a|
 @oid o0903596
 @list U+12866
@@ -2906,13 +2881,6 @@
 @list U+12871
 @uname PROTO-CUNEIFORM SIGN GESHTU-A
 @ucun 𒡱
-@end sign
-
-@sign |GEŠTU~a×ŠE~a@t|
-@oid o0903566
-@list U+F3091
-@uname PROTO-CUNEIFORM SIGN GESHTU-A TIMES SHE-A TENU
-@ucun 󳂑
 @end sign
 
 @sign GEŠTU~b
@@ -3113,7 +3081,7 @@
 @end sign
 
 @sign |GIR~b.GIR~b|
-@oid o0903603
+@oid o0900851
 @useq x12895.x12895
 @end sign
 
@@ -3122,13 +3090,6 @@
 @list U+12898
 @uname PROTO-CUNEIFORM SIGN GIR-C
 @ucun 𒢘
-@end sign
-
-@sign GIR~d
-@oid o0900849
-@list U+12899
-@uname PROTO-CUNEIFORM SIGN GIR-D
-@ucun 𒢙
 @end sign
 
 @sign GIR₂~a
@@ -3629,11 +3590,6 @@
 @ucun 𒣬
 @end sign
 
-@sign |(HI×1(N57)).(HI×1(N57))|
-@oid o0900969
-@useq x128EC.x128EC
-@end sign
-
 @sign |(HI×1(N57))&(HI×1(N57))|
 @oid o0903408
 @list U+F3092
@@ -3889,13 +3845,6 @@
 @list U+12919
 @uname PROTO-CUNEIFORM SIGN KA2-B
 @ucun 𒤙
-@end sign
-
-@sign KA₂~c
-@oid o0901040
-@list U+1291A
-@uname PROTO-CUNEIFORM SIGN KA2-C
-@ucun 𒤚
 @end sign
 
 @sign |KA₂~d×LAM~b|
@@ -4381,13 +4330,6 @@
 @ucun 𒥪
 @end sign
 
-@sign KU₆~d
-@oid o0901147
-@list U+1296B
-@uname PROTO-CUNEIFORM SIGN KU6-D
-@ucun 𒥫
-@end sign
-
 @sign KUR~a
 @oid o0901158
 @list U+1296C
@@ -4635,6 +4577,12 @@
 @ucun 𒦗
 @end sign
 
+@sign |LAGAB~b.LAGAB~b|
+@oid o0903664
+@aka |LAGAB~b+LAGAB~b|
+@useq x12997.x12997
+@end sign
+
 @sign |LAGAB~b.TE|
 @oid o0901189
 @useq x12997.x12BB9
@@ -4670,7 +4618,7 @@
 
 @sign |LAGAB~b&LAGAB~b|
 @oid o0901260
-@aka |LAGAB~b+LAGAB~b|
+@aka |LAGAB~b×LAGAB~b|
 @list U+1299F
 @uname PROTO-CUNEIFORM SIGN LAGAB-B OVER LAGAB-B
 @ucun 𒦟
@@ -4725,13 +4673,6 @@
 @ucun 𒦦
 @end sign
 
-@sign |LAL₂~a×EZEN~a|
-@oid o0903614
-@list U+129A7
-@uname PROTO-CUNEIFORM SIGN LAL2-A TIMES EZEN-A
-@ucun 𒦧
-@end sign
-
 @sign |LAL₂~a×NAGA~a|
 @oid o0901275
 @list U+F303F
@@ -4758,13 +4699,6 @@
 @list U+129AA
 @uname PROTO-CUNEIFORM SIGN LAL3-A
 @ucun 𒦪
-@end sign
-
-@sign LAL₃~b
-@oid o0901280
-@list U+129AB
-@uname PROTO-CUNEIFORM SIGN LAL3-B
-@ucun 𒦫
 @end sign
 
 @sign LAM~a
@@ -4882,13 +4816,6 @@
 @list U+129C3
 @uname PROTO-CUNEIFORM SIGN MAGUR-A
 @ucun 𒧃
-@end sign
-
-@sign MAGUR~b
-@oid o0901323
-@list U+129C4
-@uname PROTO-CUNEIFORM SIGN MAGUR-B
-@ucun 𒧄
 @end sign
 
 @sign MAH~a
@@ -5315,11 +5242,6 @@
 @useq x12A05.x12C58
 @end sign
 
-@sign |MUŠEN.3(N58)|
-@oid o0901427
-@useq x12A05.xF011C
-@end sign
-
 @sign |MUŠEN×1(N57)|
 @oid o0901430
 @list U+12A08
@@ -5369,7 +5291,6 @@
 
 @sign |1(N57).ŠUBUR|
 @oid o0903220
-@aka |1(N57)+ŠUBUR|
 @useq xF0110.x12B9E
 @end sign
 
@@ -5782,7 +5703,7 @@
 @end sign
 
 @sign |NI~a.RU|
-@oid o0903618
+@oid o0901504
 @useq x12A3A.x12AA3
 @end sign
 
@@ -6764,13 +6685,6 @@
 @ucun 𒫗
 @end sign
 
-@sign |SIG₂~b×1(N14)|
-@oid o0901767
-@list U+12AD8
-@uname PROTO-CUNEIFORM SIGN SIG2-B TIMES ONE-N14
-@ucun 𒫘
-@end sign
-
 @sign |SIG₂~b&SIG₂~b|
 @oid o0901769
 @aka |SIG₂~b.SIG₂~b|
@@ -6874,10 +6788,11 @@
 @ucun 𒫩
 @end sign
 
-@sign |SILA₃~a+GARA₂~a|
+@sign |SILA₃~a×GARA₂~a|
 @oid o0901792
+@aka |SILA₃~a+GARA₂~a|
 @list U+12AEA
-@uname PROTO-CUNEIFORM SIGN SILA3-A JOINING GARA2-A
+@uname PROTO-CUNEIFORM SIGN SILA3-A TIMES GARA2-A
 @ucun 𒫪
 @end sign
 
@@ -7735,7 +7650,6 @@
 
 @sign ŠITA~a1
 @oid o0902004
-@aka ŠITA~a
 @list U+12B7B
 @uname PROTO-CUNEIFORM SIGN SHITA-A1
 @ucun 𒭻
@@ -7861,40 +7775,6 @@
 @ucun 󳂐
 @end sign
 
-@sign |ŠU₂.PAP~a|
-@oid o0902054
-@useq xF3090.x12A91
-@end sign
-
-@sign |ŠU₂×1(N24)|
-@oid o0902057
-@list U+F3013
-@uname PROTO-CUNEIFORM SIGN SHU2 TIMES ONE-N24
-@ucun 󳀓
-@end sign
-
-@sign |ŠU₂~a.AN|
-@oid o0902041
-@aka |ŠU₂+AN|
-@useq xF3090.x126CC
-@end sign
-
-@sign |ŠU₂~a.EN~a|
-@oid o0903633
-@useq xF3090.x127D6
-@end sign
-
-@sign |ŠU₂~a.(HI×1(N57))&(HI×1(N57))|
-@oid o0902050
-@aka |ŠU₂.((HI+1(N57))+(HI+1(N57)))|
-@useq xF3090.xF3092
-@end sign
-
-@sign |ŠU₂~a.URI₃~a|
-@oid o0903635
-@useq xF3090.x12C5F
-@end sign
-
 @sign |ŠU₂.E₂~a|
 @oid o0902043
 @useq xF3090.x127CA
@@ -7903,6 +7783,34 @@
 @sign |ŠU₂.E₂~b|
 @oid o0902044
 @useq xF3090.x127CE
+@end sign
+
+@sign |ŠU₂.EN~a|
+@oid o0903633
+@useq xF3090.x127D6
+@end sign
+
+@sign |ŠU₂.(HI×1(N57))&(HI×1(N57))|
+@oid o0902050
+@aka |ŠU₂.((HI+1(N57))+(HI+1(N57)))|
+@useq xF3090.xF3092
+@end sign
+
+@sign |ŠU₂.PAP~a|
+@oid o0902054
+@useq xF3090.x12A91
+@end sign
+
+@sign |ŠU₂.URI₃~a|
+@oid o0903635
+@useq xF3090.x12C5F
+@end sign
+
+@sign |ŠU₂×1(N24)|
+@oid o0902057
+@list U+F3013
+@uname PROTO-CUNEIFORM SIGN SHU2 TIMES ONE-N24
+@ucun 󳀓
 @end sign
 
 @sign ŠU₁₂
@@ -7970,13 +7878,6 @@
 @list U+12BA6
 @uname PROTO-CUNEIFORM SIGN TA-A
 @ucun 𒮦
-@end sign
-
-@sign TA~b
-@oid o0902075
-@list U+12BA7
-@uname PROTO-CUNEIFORM SIGN TA-B
-@ucun 𒮧
 @end sign
 
 @sign TA~c
@@ -8088,7 +7989,6 @@
 
 @sign TE
 @oid o0902102
-@aka TE~a
 @list U+12BB9
 @uname PROTO-CUNEIFORM SIGN TE
 @ucun 𒮹
@@ -8456,7 +8356,7 @@
 
 @sign |U₄×2(N01).X|
 @oid o0902185
-@useq x12BF5.X
+@useq x12BF5.O
 @end sign
 
 @sign |U₄×2(N01).2(N14)|
@@ -8491,11 +8391,6 @@
 @ucun 𒯽
 @end sign
 
-@sign |U₄×5(N01).1(N14)|
-@oid o0902191
-@useq x12BFD.x12562
-@end sign
-
 @sign |U₄×6(N01)|
 @oid o0902192
 @list U+12BFF
@@ -8512,7 +8407,7 @@
 
 @sign |U₄×8(N01).X|
 @oid o0902194
-@useq x12C00.X
+@useq x12C00.O
 @end sign
 
 @sign |U₄×1(N14)|
@@ -9892,13 +9787,6 @@
 @ucun 𒳬
 @end sign
 
-@sign ZATU674
-@oid o0902526
-@list U+12CED
-@uname PROTO-CUNEIFORM SIGN ZATU674
-@ucun 𒳭
-@end sign
-
 @sign ZATU675~a
 @oid o0902528
 @list U+12CEE
@@ -10204,13 +10092,6 @@
 @list U+12D20
 @uname PROTO-CUNEIFORM SIGN ZATU697~b
 @ucun 𒴠
-@end sign
-
-@sign ZATU699~a
-@oid o0902591
-@list U+12D22
-@uname PROTO-CUNEIFORM SIGN ZATU699~a
-@ucun 𒴢
 @end sign
 
 @sign ZATU699~b
@@ -11160,13 +11041,6 @@
 @list U+12DC5
 @uname PROTO-CUNEIFORM SIGN ZATU818
 @ucun 𒷅
-@end sign
-
-@sign ZATU819
-@oid o0902786
-@list U+12DC6
-@uname PROTO-CUNEIFORM SIGN ZATU819
-@ucun 𒷆
 @end sign
 
 @sign ZATU832
@@ -12254,6 +12128,13 @@
 @ucun 𒖰
 @end sign
 
+@sign 1(N30C~a)
+@oid o0903662
+@list U+F3081
+@uname PROTO-CUNEIFORM NUMBER ONE-N30C-A
+@ucun 󳂁
+@end sign
+
 @sign 1(N30D)
 @oid o0903309
 @list U+125B1
@@ -12942,7 +12823,6 @@
 
 @sign 1(N57)
 @oid o0903210
-@aka AŠ
 @list U+F0110
 @uname PROTO-CUNEIFORM NUMBER ONE-N57
 @ucun 󰄐
@@ -13132,50 +13012,48 @@
 @ucun 󰄪
 @end sign
 
+@compoundonly 1(N57@t)
+@compoundonly 1(N58)~a
 @compoundonly A@t
-@compoundonly TAR~c
-@compoundonly X
-@compoundonly |BU~a%BU~a|
-@compoundonly NA₂~a@n
-@compoundonly KAR₂~c
-@compoundonly DARA₃~d2
-@compoundonly KAR₂~a1
-@compoundonly |DUB@n~a×1(N58)|
+@compoundonly ANŠE~d
+@compoundonly BAD~a
+@compoundonly DARA₃~d
 @compoundonly DUB@n~a
 @compoundonly DUB@n~b
-@compoundonly 1(N58)~a
-@compoundonly ANŠE~d
-@compoundonly |UDU~a×TAR|
-@compoundonly TAR
-@compoundonly ZATU779
-@compoundonly ZATU789
-@compoundonly |DUG~b&DUG~b|
-@compoundonly |HI×1(N57).AN|
+@compoundonly DU₆~a@n
+@compoundonly EN~d
 @compoundonly GAN~d
-@compoundonly |GIŠ×(DIN.DIN)|
-@compoundonly ŠU₂~a
-@compoundonly ŠU₂~b
+@compoundonly |GIŠ×ŠU₂|
 @compoundonly GURUŠ~c
-@compoundonly 1(N57@t)
+@compoundonly HI~a1
+@compoundonly KAR₂
+@compoundonly KUR~e
 @compoundonly KUŠU₂~a@t
 @compoundonly LA₂~a
-@compoundonly KUR~e
-@compoundonly |SILA₃~a×UMBIN~a|
-@compoundonly X(N57)
-@compoundonly DU₆~a@n
-@compoundonly BAD~a
-@compoundonly HI~a1
-@compoundonly EN~d
-@compoundonly |UKKIN~b×1(N57)|
+@compoundonly NA₂~a@n
 @compoundonly SILA₃~c
+@compoundonly TAR
+@compoundonly TAR~b
+@compoundonly TAR~c
+@compoundonly URU~a3
+@compoundonly X
+@compoundonly X(N57)
+@compoundonly ZATU737@t
+@compoundonly ZATU759@t
+@compoundonly ZATU779
+@compoundonly ZATU789
+@compoundonly |BU~a%BU~a|
+@compoundonly |DUB@n~a×1(N58)|
+@compoundonly |DUG~b&DUG~b|
+@compoundonly |GIŠ×(DIN.DIN)|
+@compoundonly |HI×1(N57).AN|
+@compoundonly |SILA₃~a×UMBIN~a|
+@compoundonly |UDU~a×TAR|
+@compoundonly |UKKIN~b×1(N57)|
 @compoundonly |ŠA×HI@g~a|
 @compoundonly ŠEN~d
 @compoundonly ŠITA~b2@g
 @compoundonly ŠUR₂
-@compoundonly TAR~b
-@compoundonly URU~a3
-@compoundonly ZATU737@t
-@compoundonly ZATU759@t
 
 @sign LAGAB
 @oid o0901185
@@ -13214,8 +13092,4 @@
 
 @sign |2(N14).1(N08)|
 @oid o0903560
-@end sign
-
-@sign |HI×HI|
-@oid o0903383
 @end sign

@@ -201,7 +201,7 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
 		$uchar = chr(hex($uhex));
 		$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
 		unless (not_in_repertoire($v,$uname,$o,$uhex)) {
-		    $rep{$o} = "$uchar\t$uhex\t$uname\t$oo\n";
+		    $rep{$o} = "$uchar\t$uhex\t$uname\t$o\n";
 		    print A $rep{$o} unless exists $font{$uhex};
 		}
 	    } else {
@@ -217,7 +217,7 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
     } else {
 	warn "$v\t$o\tno uhex\n";
     }
-    
+
     print "\@sign $v\n\@oid $o\n$aka$glyf$udata\@end sign\n\n";
 }
 print `cat rep/compoundonly.txt`;
@@ -292,7 +292,7 @@ sub get_useqs {
 		}
 	    } else {
 		warn "$o\t$n\t$x\tno sign in PC25\n" unless $x =~ /^X/;
-		push @sq, 'X';
+		push @sq, 'O';
 	    }
 	}
 	$useq{$o} = join('.', @sq);

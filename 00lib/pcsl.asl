@@ -2285,9 +2285,9 @@
 @sys CDLI-gh img-page
 @list ZATU071
 @inote @smap |DARA₃~c×KAR₂~b|
-@form |DARA₃~c×KAR₂~b|
+@form |DARA₃~c×KAR₂|
 @oid o0900241
-@aka	|DARA₃~c×KAR₂|
+@aka	|DARA₃~c×KAR₂~b|
 @list U+12730
 @ucun 𒜰
 @uname DARA3-C TIMES KAR2-B
@@ -2305,10 +2305,10 @@
 @sys	AP24 12735
 @sys	LLATU:193_07 DARA₃~d+KAR₂ 
 @@
-@form |DARA₃~d×KAR₂~b|
+@form |DARA₃~d×KAR₂|
 @oid o0900243
 @aka	|DARA₃~d×KAR₂|~v1
-@aka	|DARA₃~d×KAR₂|
+@aka	|DARA₃~d×KAR₂~b|
 @list U+12734
 @ucun 𒜴
 @uname DARA3-D TIMES KAR2-B
@@ -2333,9 +2333,9 @@
 @sys CDLI-gh img-page
 @list ZATU072
 @inote @smap |DARA₃~c×(KAR₂~c.ŠE~a)|
-@form |DARA₃~c×(KAR₂~c.ŠE~a)|
+@form |DARA₃~c×(KAR₂.ŠE~a)|
 @oid o0900246
-@aka	|DARA₃~c×(KAR₂.ŠE~a)|
+@aka	|DARA₃~c×(KAR₂~c.ŠE~a)|
 @list U+12731
 @ucun 𒜱
 @uname DARA3-C TIMES KAR2-C PLUS SHE-A
@@ -2343,9 +2343,9 @@
 @sys	AP23 12C6C
 @sys	AP24 12731
 @@
-@form |DARA₃~d2×(KAR₂~a1.ŠE~a)|
+@form |DARA₃~d×(KAR₂.ŠE~a)|
 @oid o0900247
-@aka	|DARA₃~d×(KAR₂.ŠE~a)|
+@aka	|DARA₃~d2×(KAR₂~a1.ŠE~a)|
 @list U+12737
 @ucun 𒜷
 @uname DARA3-D2 TIMES KAR2-A1 PLUS SHE-A
@@ -4130,7 +4130,6 @@
 @@
 @form	|DUG~b~v2×U₂~b|
 @oid o0900452
-@aka	|DUG~b×U₂~b|
 @list U+127BA
 @ucun 𒞺
 @uname DUG-B VARIANT 2 TIMES U2-B
@@ -5123,14 +5122,13 @@
 
 @sign |EZEN×6(N57)|
 @oid o0900569
-@note PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
+@inote PCSL makes AP23's EZEN-B TIMES SIX-N57 VARIANT 1 its EZEN-B TIMES SIX-N57 because the form of AP23's EZEN-B TIMES SIX-N57 only occurs in ED I Ur.
 @inote @smap |EZEN~b×6(N57)|
 @form	|EZEN~b×6(N57)|
 @oid o0900570
 @list U+12804
 @ucun 𒠄
-@uname EZEN-B TIMES SIX-N57 VARIANT 1
-@uage 0
+@uname EZEN-B TIMES SIX-N57
 @sys	AP23 12CE0
 @sys	AP24 12804
 @@
@@ -5400,13 +5398,13 @@
 @sys CDLI-gh img-page
 @list ZATU161
 @inote @smap |GA~a~v1.ZATU753|
-@form |GA~a~v1.ZATU753|
+@form |GA~a.ZATU753|
 @oid o0900607
-@aka	|GA~a.ZATU753|
+@aka	|GA~a~v1.ZATU753|
 @uage 1
 @sys	AP23 12CE2
 @sys	AP24 1280C
-@useq x1280B.x12D79
+@useq x1280A.x12D79
 @inote useq-old-uni	1280C 𒠌 GA-A VARIANT 1 BESIDE ZATU753
 @@
 @form |GA~a~v4.ZATU753|~v1
@@ -7355,14 +7353,14 @@
 @oid o0900850
 @sys CDLI-gh img-page
 @inote @smap |GIR~b~v1.GIR~b~v1|
-@form |GIR~b~v1.GIR~b~v1|
+@form |GIR~b.GIR~b|
 @oid o0900851
-@aka	|GIR~b.GIR~b|
+@aka	|GIR~b~v1.GIR~b~v1|
 @uage 1
 @sys	AP23 12D36
 @sys	AP24 12897
 @sys	LLATU:229_01 GIR~b+GIR~b 
-@useq x12896.x12896
+@useq x12895.x12895
 @inote useq-old-uni	12897 𒢗 GIR-B VARIANT 1 BESIDE GIR-B VARIANT 1
 @@
 @end sign
@@ -9364,7 +9362,6 @@
 @sys	AP24 12931
 @sys	LLATU:244_05 KAR₂~b 
 @inote This is KAR₂ with no GUNU component.
-@compoundonly KAR₂~c
 @@
 @end sign
 
@@ -12969,13 +12966,13 @@
 @oid o0901503
 @sys CDLI-gh img-page
 @inote @smap |NI~a.RU~v1|
-@form |NI~a.RU~v1|
+@form |NI~a.RU|
 @oid o0901504
-@aka	|NI~a.RU|
+@aka	|NI~a.RU~v1|
 @uage 1
 @sys	AP23 12DAD
 @sys	AP24 12A3B
-@useq x12A3A.x12AA5
+@useq x12A3A.x12AA3
 @inote useq-old-uni	12A3B 𒨻 NI-A BESIDE RU VARIANT 1
 @@
 @end sign
@@ -14643,14 +14640,14 @@
 @useq x12AB5.x129E2
 @end sign
 
-@sign |SAL.ŠU₂~b|
+@sign |SAL.ŠU₂|
 @oid o0901703
 @sys CDLI-gh img-page
-@aka	|SAL.ŠU₂|
+@aka	|SAL.ŠU₂~b|
 @uage 1
 @sys	AP23 12DE7
 @sys	AP24 12AB8
-@useq x12AB5.x12B98
+@useq x12AB5.xF3090
 @inote useq-old-uni	12AB8 𒪸 SAL BESIDE SHU2-B
 @end sign
 
@@ -15859,9 +15856,9 @@
 @sys CDLI-gh img-page
 @list ZATU477
 @inote @smap |SILA₃~a×ŠU₂~b|
-@form |SILA₃~a×ŠU₂~b|
+@form |SILA₃~a×ŠU₂|
 @oid o0901848
-@aka	|SILA₃~a×ŠU₂|
+@aka	|SILA₃~a×ŠU₂~b|
 @list U+12B02
 @ucun 𒬂
 @uname SILA3-A TIMES SHU2-B
@@ -16889,12 +16886,12 @@
 @sys	AP24 12B54
 @sys	LLATU:292_03 ŠE~a+NAM₂ 
 @inote	double-check ŠE~a+ŠE₃ in DCCLT archaic P
-@useq x12B55
+@useq x12B52.x12A23
 @inote useq-old-uni	12B54 𒭔 SHE-A BESIDE NAM2
 @inote glyf 1 |ŠE~a.NAM₂|~v1 U+12B55 o0901956
 @inote glyf 2 |ŠE~a.NAM₂|~v2 U+F3014 o0901957
 @@
-@form |ŠE~a.NAM₂|~v1
+@form |ŠE~a.NAM₂~v1|
 @oid o0901956
 @list U+12B55
 @ucun 𒭕
@@ -16903,7 +16900,7 @@
 @sys	AP23 12DED
 @sys	AP24 12B55
 @@
-@form |ŠE~a.NAM₂|~v2
+@form |ŠE~a.NAM₂~v2|
 @oid o0901957
 @aka	|ŠE~a×NAM₂|
 @sys	ADD F3014 P252173 SZE+NAM2-v2.png
@@ -16911,6 +16908,9 @@
 @uname ADD NAME |ŠE~a.NAM₂|~v2
 @@
 @end sign
+
+@compoundonly NAM₂~v1
+@compoundonly NAM₂~v2
 
 @sign |ŠE&ŠE|
 @oid o0901958
@@ -17483,9 +17483,9 @@
 @oid o0902021
 @sys CDLI-gh img-page
 @inote @smap |ŠITA~a1×ŠU₂~b|
-@form |ŠITA~a1×ŠU₂~b|
+@form |ŠITA~a1×ŠU₂|
 @oid o0902022
-@aka	|ŠITA~a1×ŠU₂|
+@aka	|ŠITA~a1×ŠU₂~b|
 @list U+12B7E
 @ucun 𒭾
 @uname SHITA-A1 TIMES SHU2-B
@@ -17665,7 +17665,7 @@
 @@
 @end sign
 
-@sign |ŠU₂~a.AN|
+@sign |ŠU₂.AN|
 @oid o0902041
 @aka	|ŠU₂+AN|
 @aka	|ŠU₂×AN|
@@ -17673,7 +17673,7 @@
 @uage 1
 @sys	AP23 12DFD
 @sys	AP24 12B92
-@useq x12B91.x126CC
+@useq xF3090.x126CC
 @inote useq-old-uni	12B92 𒮒 SHU2-A BESIDE AN
 @end sign
 
@@ -17682,22 +17682,22 @@
 @sys CDLI-gh img-page
 @list ZATU535
 @inote @smap |ŠU₂~b.E₂~a|
-@form |ŠU₂~b.E₂~a|
+@form |ŠU₂.E₂~a|
 @oid o0902043
 @aka	|ŠU₂.E₂~a|
 @uage 1
 @sys	AP23 12DFE
 @sys	AP24 12B99
-@useq x12B98.x127CA
+@useq xF3090.x127CA
 @inote useq-old-uni	12B99 𒮙 SHU2-B BESIDE E2-A
 @@
-@form |ŠU₂~b.E₂~b|
+@form |ŠU₂.E₂~b|
 @oid o0902044
 @aka	|ŠU₂.E₂~b|
 @uage 1
 @sys	AP23 12DFF
 @sys	AP24 12B9A
-@useq x12B98.x127CE
+@useq xF3090.x127CE
 @inote useq-old-uni	12B9A 𒮚 SHU2-B BESIDE E2-B
 @@
 @end sign
@@ -17707,11 +17707,13 @@
 @sys CDLI-gh img-page
 @list ZATU536
 @inote @smap |ŠU₂~a.EN~a~v1|
+@form |ŠU₂.EN~a|
+@oid o0902045
+@aka	|ŠU₂×EN~a|
+@useq xF3090.x127D6
+@@
 @form |ŠU₂~a.EN~a~v1|
 @oid o0902046
-@aka	|ŠU₂×EN~a|
-@aka	|ŠU₂.EN~a|
-@aka |ŠU₂~a.EN~a|
 @uage 1
 @sys	AP23 12E00
 @sys	AP24 12B93
@@ -17721,7 +17723,6 @@
 @@
 @form |ŠU₂~a.EN~a~v2|
 @oid o0902047
-@aka	|ŠU₂.EN~a|~v1
 @list U+12B94
 @ucun 𒮔
 @uname SHU2-A BESIDE EN-A VARIANT 2
@@ -17729,49 +17730,45 @@
 @sys	AP23 12E01
 @sys	AP24 12B94
 @@
-@form |ŠU₂~a.EN~b~v1|
+@form |ŠU₂.EN~b|
 @oid o0902048
-@aka	|ŠU₂.EN~b|
-@aka	|ŠU₂~a.EN~b|
+@aka	|ŠU₂~a.EN~b~v1|
 @uage 1
 @sys	AP23 12E02
 @sys	AP24 12B95
-@useq x12B91.x127DC
+@useq xF3090.x127DA
 @inote useq-old-uni	12B95 𒮕 SHU2-A BESIDE EN-B VARIANT 1
 @@
 @end sign
 
-@sign |ŠU₂~b.GIŠ|
+@sign |ŠU₂.GIŠ|
 @oid o0902049
 @sys CDLI-gh img-page
-@aka	|ŠU₂.GIŠ|
 @uage 1
 @sys	AP23 12E03
 @sys	AP24 12B9B
-@useq x12B98.x128A7
+@useq xF3090.x128A7
 @inote useq-old-uni	12B9B 𒮛 SHU2-B BESIDE GISH
 @end sign
 
-@sign |ŠU₂~a.(HI×1(N57))&(HI×1(N57))|
+@sign |ŠU₂.(HI×1(N57))&(HI×1(N57))|
 @oid o0902050
 @aka	|ŠU₂.((HI+1(N57))+(HI+1(N57)))|
-@aka	|ŠU₂.(HI×1(N57))&(HI×1(N57))|
 @uage 1
 @sys	AP23 12E04
 @sys	AP24 12B96
 @inote	AP CDLI correction
-@useq x12B91.xF3092
+@useq xF3090.xF3092
 @inote useq-old-uni	12B96 𒮖 SHU2-A BESIDE HI TIMES ONE-N57 OVER HI TIMES ONE-N57
 @end sign
 
-@sign |ŠU₂~b.1(N02)|
+@sign |ŠU₂.1(N02)|
 @oid o0902051
 @sys CDLI-gh img-page
-@aka	|ŠU₂.1(N02)|
 @uage 1
 @sys	AP23 12DFB
 @sys	AP24 12B9C
-@useq x12B98.x125BE
+@useq xF3090.x125BE
 @inote useq-old-uni	12B9C 𒮜 SHU2-B BESIDE ONE-N2
 @end sign
 
@@ -17791,14 +17788,15 @@
 @oid o0902055
 @sys CDLI-gh img-page
 @inote @smap |ŠU₂~a.URI₃~a~v1|
-@form |ŠU₂~a.URI₃~a~v1|
+@form |ŠU₂.URI₃~a|
 @oid o0902056
 @aka	|ŠU₂.URI₃~a|
 @aka	|ŠU₂~a.URI₃~a|
+@aka	|ŠU₂~a.URI₃~a~v1|
 @uage 1
 @sys	AP23 12E05
 @sys	AP24 12B97
-@useq x12B91.x12C60
+@useq xF3090.x12C5F
 @inote useq-old-uni	12B97 𒮗 SHU2-A BESIDE URI3-A VARIANT 1
 @@
 @end sign
@@ -18860,16 +18858,15 @@
 @inote useq-old-uni	12BF0 𒯰 U4 BESIDE TWO-N14
 @end sign
 
-@sign |U₄.ŠU₂~b|
+@sign |U₄.ŠU₂|
 @oid o0902177
 @sys CDLI-gh img-page
-@aka	|U₄.ŠU₂|
 @uage 1
 @list ZATU568
 @sys	AP23 12E72
 @sys	AP24 12BE2
 @sys	LLATU:305_02 U₄+ŠU₂ 
-@useq x12BE1.x12B98
+@useq x12BE1.xF3090
 @inote useq-old-uni	12BE2 𒯢 U4 BESIDE SHU2-B
 @end sign
 

@@ -1,4 +1,4 @@
-aka	|BU~a+DU₆~a|	-|BU~a.DU₆~a|
+aka	-|BU~a+DU₆~a|	|BU~a.DU₆~a|
 aka	-BU₃	BU₃~a
 aka	|DARA₃~c×KAR₂~b|	-|DARA₃~c×KAR₂|
 aka	|DARA₃~c×(KAR₂~c.ŠE~a)|	-|DARA₃~c×(KAR₂.ŠE~a)|
@@ -32,7 +32,8 @@ aka	-KI	KI~a
 aka	-|KI@n×DUB~a|	|KI@n+DUB~a|
 aka	-LA~b	LA
 aka	-|LAGAB~a×KUŠU₂~a@t|	|LAGAB~a×KUŠU₂~b|
-aka	-|LAGAB~b&LAGAB~b|	|LAGAB~b+LAGAB~b|
+aka	-|LAGAB~b&LAGAB~b|	|LAGAB~b×LAGAB~b|
+aka	-|LAGAB~b.LAGAB~b|	|LAGAB~b+LAGAB~b|
 aka	-|X(N57).GAR|	|N(N57).GAR|
 aka	-|1(N57).SIG|	|SIG×1(N57)|
 aka	-|1(N57).ŠUBUR|	|1(N57)+ŠUBUR|
@@ -52,7 +53,7 @@ aka	SANGA~e1	-SANGA~e
 aka	-|SAR~a×ŠE~a|	|SAR×ŠE~a|
 aka	-SIG₂~a1	SIG₂~a
 aka	-|SIG₂~b&SIG₂~b|	|SIG₂~b.SIG₂~b|
-aka	|SILA₃~a×GARA₂~a|	-|SILA₃~a+GARA₂~a|
+aka	-|SILA₃~a×GARA₂~a|	|SILA₃~a+GARA₂~a|
 aka	-|SILA₃~a×KAŠ~a|	|SILA₃~a+KAŠ~a|
 aka	-|SILA₃~a×MUD₃~b|	|SILA₃~a+MUD₃~b|
 aka	|SILA₃~a×ŠU₂~b|	-|SILA₃~a×ŠU₂|

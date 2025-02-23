@@ -5,15 +5,10 @@
 #
 # These lines build the list of texts which is in the pc25 corpus
 #
-cut -f1 00cat/pcsl.tsv | sed 's#^#cdli:#' | \
-    xmdfields.plx publications_key publications_type publications_exact_ref >pubinfo.tsv
-
-cut -f1 00cat/pcsl.tsv | sed 's#^#cdli:#' | \
-    xmdfields.plx publications_key | grep -v '	$' >pub.tsv
-
-cut -f1 pub.tsv | grep ^P | sort -u >pub.lst
-cat rem/* | cut -f1 | sort -u >rem.lst
-comm -23 pub.lst rem.lst >use.lst
+# (see pcsl.sh for the old way of doing this; the new way is based on
+# extraction from an 2020 version of CDLI cat)
+#
+cat ../00etc/oldcat/p_*.tsv | cut -f1 | sort -u >use.lst
 
 #
 # This line on its own regenerates the pc25 atf from the source corpus25 atf

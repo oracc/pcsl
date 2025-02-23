@@ -1,5 +1,6 @@
 #!/bin/sh
 cut -f1,49,53 old-cdli-cat-u-iv-u-iii.tsv >x.tsv
+rm p_*.lst p_*.tsv not_p.*
 grep 'ATU 1' x.tsv >p_atu1.tsv
 grep 'ATU 2' x.tsv >p_atu2.tsv
 grep 'ATU 3' x.tsv >p_atu3.tsv
@@ -19,5 +20,8 @@ cut -f1 x.tsv | sort -u  | grep ^P >all.lst
 comm -23 all.lst all-pub.lst >all-not.lst
 cut -f1 ~/orc/pcsl/pc25/00cat/pc25.tsv | sort -u | grep ^P >pc25.lst
 comm -12 pc25.lst all-pub.lst >pc25-pub.lst
-comm -23 pc25.lst pc25-pub.lst >pc25-not.lst
-grep -f pc25-not.lst x.tsv >p_not.tsv
+comm -23 pc25.lst pc25-pub.lst >x-no-p.lst
+grep -f x-no-p.lst x.tsv >x-no-p.tsv
+grep -v '	unpub' x-no-p.tsv | grep -v 'forthcoming\|Uruk Vase' >p_misc.tsv
+grep -v '	unpub' x-no-p.tsv | grep 'forthcoming\|Uruk Vase' >not-add.tsv
+grep '	unpub' x-no-p.tsv | cat - not-add.tsv >not_p.tsv
