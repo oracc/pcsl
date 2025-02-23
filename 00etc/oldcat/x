@@ -13,7 +13,7 @@ grep 'MSVO 4' x.tsv >p_msvo4.tsv
 grep 'CUSAS 1\|CUSAS 01' x.tsv >p_cusas01.tsv
 grep 'CUSAS 21' x.tsv >p_cusas21.tsv
 grep 'CUSAS 31' x.tsv >p_cusas31.tsv
-grep 'JNES 39' x.tsv >p_jness39.tsv
+grep 'JNES 39' x.tsv >p_jnes39.tsv
 cat p_*.tsv | cut -f1 | sort -u  | grep ^P >all-pub.lst
 cut -f1 x.tsv | sort -u  | grep ^P >all.lst
 comm -23 all.lst all-pub.lst >all-not.lst

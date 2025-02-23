@@ -14,6 +14,8 @@ rep: 00etc/pc25.rep
 
 xtf: 00etc/pc25.xtf
 
+lists:
+	00bin/plists.sh
 xv:
 	make asl
 	00bin/xv.sh
