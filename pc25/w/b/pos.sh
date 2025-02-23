@@ -5,4 +5,3 @@
 xmllint --encode UTF-8 --xinclude --noxincludenode $1 | \
      xsltproc -stringparam project $2 \
               ${ORACC}/lib/scripts/sxweb-page-o-signs.xsl -
- 

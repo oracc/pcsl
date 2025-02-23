@@ -3,5 +3,38 @@
         xmlns:struct="http://oracc.org/ns/esp-struct/1.0"
         xmlns="http://www.w3.org/1999/xhtml"
         file="home.xml" id="home" accesskey="1" type="page">
- 
+  <struct:page file="pc25/introduction.xml" id="pc25intro" type="page"/>
+  <struct:page file="pc25/corpus.xml" id="pc25corpus" type="page">
+    <!--<struct:page file="pc25/csltab.xml" id="csltab" type="page" hide-menu-link="yes"/>-->
+    <struct:page file="pc25/signlists.xml" id="pc25signlists" type="page"/>
+  </struct:page>
+  <struct:page file="pc25/approaches.xml" id="pc25approaches" type="page"/>
+  <struct:page file="pc25/principles.xml" id="pc25principles" type="page"/>
+  <struct:page file="pc25/repertoire.xml" id="pc25repertoire" type="page">
+    <!--    <struct:page file="pc25/pc25-ncv-editme.xml" id="repncv" type="page" hide-menu-link="yes"/>-->
+    <!--    <struct:page file="pc25/rep-num.xml" id="repnum" type="page" hide-menu-link="yes"/>-->
+    <!--    <struct:page file="pc25/rep-add.xml" id="repadd" type="page" hide-menu-link="yes"/>-->
+    <!--    <struct:page file="pc25/rep-city.xml" id="repcity" type="page" hide-menu-link="yes"/>-->
+    <struct:page file="pc25/rep-pc25.xml" id="reppc25" type="page" hide-menu-link="yes"/>
+    <!--    <struct:page file="pc25/rep-miss.xml" id="repmiss" type="page" hide-menu-link="yes"/>-->
+    <!--    <struct:page file="pc25/rep-not.xml" id="repnot" type="page" hide-menu-link="yes"/>-->
+  </struct:page>
+  <!--
+      <struct:page file="pc25/analysis.xml" id="pc25analysis" type="page">
+      <struct:page file="pc25/pc25-nc+v.xml" id="pc25ncyev" type="page" hide-menu-link="yes"/>
+      <struct:page file="pc25/pc25-nc-v.xml" id="pc25ncnov" type="page" hide-menu-link="yes"/>
+      <struct:page file="pc25/pc25-tc-idg.xml" id="pc25apadd" type="page" hide-menu-link="yes"/>
+      </struct:page>
+  -->
+  <!--
+  <struct:page file="pc25/removals.xml" id="pc25removals" type="page">
+  <struct:page file="pc25/rm-nc-heads.xml" id="rmnchead" type="page" hide-menu-link="yes"/>
+  <struct:page file="pc25/rm-nc-singletons.xml" id="rmncsing" type="page" hide-menu-link="yes"/>
+  <struct:page file="pc25/rm-seq.xml" id="rmseq" type="page" hide-menu-link="yes"/>
+  <struct:page file="pc25/rm-opaque.xml" id="rmopaque" type="page" hide-menu-link="yes"/>
+  <struct:page file="pc25/rm-broken.xml" id="rmbroken" type="page" hide-menu-link="yes"/>
+  <struct:page file="pc25/rm-unattest.xml" id="rmunattest" type="page" hide-menu-link="yes"/>
+  </struct:page>
+  -->
+  <struct:page file="pc25/numbers.xml" id="pc25numbers" type="page"/>
 </struct:page>

@@ -1,3 +1,7 @@
+default: asl
+	(cd w ; make)
+	oracc build
+
 asl: pc25.asl
 
 aka: 00etc/aka.tsv

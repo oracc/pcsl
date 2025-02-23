@@ -164,7 +164,8 @@ my @useq = ();
 my %unames = (); my @unames = `cat 00etc/names.tsv`; chomp @unames;
 foreach (@unames) {
     my($o,$n,$u) = split(/\t/,$_);
-    if (/ONE-N57/ && $o eq 'o0903279') { $u =~ s/ONE-N57/TEN-N57/ }
+    if (/ONE-N57/ && ($o eq 'o0903279' || $o eq 'o0902214')) { $u =~ s/ONE-N57/TEN-N57/ }
+    $u =~ s/ZATU(\d+)~(.)/ZATU$1-\U$2/; # bug in gdlx uname-mode
     if ($u =~ / BESIDE / && !$doe{$o}) {
 	push @useq, [ $o , $n ];
 	++$beside{$n};
@@ -201,8 +202,12 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
 		$uchar = chr(hex($uhex));
 		$udata = "\@list U+$uhex\n\@uname $uname\n\@ucun $uchar\n";
 		unless (not_in_repertoire($v,$uname,$o,$uhex)) {
-		    $rep{$o} = "$uchar\t$uhex\t$uname\t$o\n";
-		    print A $rep{$o} unless exists $font{$uhex};
+		    my $o2 = $o;
+		    if ($oo{$o}) {
+			$o2 = $oo{$o};
+		    }
+		    $rep{$o2} = "$uchar\t$uhex\t$uname\t$o2\t$v\n";
+		    print A $rep{$o2} unless exists $font{$uhex};
 		}
 	    } else {
 		warn "$v\t$o\tno uname\n";
@@ -217,7 +222,9 @@ foreach my $s (sort { $scodes{$a} <=> $scodes{$b} } keys %s) {
     } else {
 	warn "$v\t$o\tno uhex\n";
     }
-
+    if ($oo{$o}) {
+	$o = $oo{$o};
+    }
     print "\@sign $v\n\@oid $o\n$aka$glyf$udata\@end sign\n\n";
 }
 print `cat rep/compoundonly.txt`;

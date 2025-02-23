@@ -16,10 +16,13 @@
 
       <!-- or "grid" -->
       <sxw:page-o-signs
+	  children="yes"
+	  columns="2"
 	  format="list"
-	  codepoints="yes"
+	  codepoints="no"
 	  values="no"
-	  ><xi:include href="rep-pc25.txt" parse="text"
+	  xml="yes"	  
+	  ><xi:include href="rep-pc25-i.xml" parse="xml"
 	  /></sxw:page-o-signs>
 
     </body>

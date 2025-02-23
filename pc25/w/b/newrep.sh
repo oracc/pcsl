@@ -1,9 +1,11 @@
 #!/bin/sh
 #
 #
-
-# Extract the OIDs from ../pc25-repertoire.tsv
-cut -f5 ../pc25-repertoire.tsv >rep-pc25.txt
+mkdir -p w
+rx=w/rep-pc25.xml
+cat rep-head.xml >$rx
+rocox -x - -R '<tr><td>%1</td><td class="rcun">%2</td><td class="rname">%4</td><td>%6</td></tr>' <../pc25-repertoire.tsv >>$rx
+cat rep-tail.xml >>$rx
 
 ## Also build a list of PCSL signs which are not intended to be in PC25
 #cat rm-{broken,opaque,seq}.txt >t/pc25.not

@@ -10,11 +10,10 @@ pc25:
 	b/corpus.sh
 	make xml
 	make web
-	rm -fr ../../00web/pc25
-	mv w ../../00web/pc25
+	rm -fr ../00web/pc25
+	mv w ../00web/pc25
 
 #	b/xv.sh # xv is done differently in ../00bin/xv.sh and there will be no need for it in production pages
-
 
 pos=b/pos.sh $(@F) pcsl > $@
 

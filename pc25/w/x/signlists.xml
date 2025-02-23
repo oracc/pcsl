@@ -71,9 +71,10 @@
 
       <esp:sh>Sign Lists/AP24 Concordance</esp:sh>
 
-      <p>A <esp:link page="pc25sltab">concordance of the published sign
-      lists</esp:link> illustrating the reference forms of each sign
-      in each one is in preparation.</p>
+      <p>A <esp:link
+      url="/pcsl/PC25/Corpus/SignLists/SignLists/">concordance of the
+      published sign lists</esp:link> illustrating the reference forms
+      of each sign in each one is in preparation.</p>
       
     </body>
   </html>
