@@ -1807,6 +1807,13 @@
 @ucun 𒞫
 @end sign
 
+@sign |DUG~b×1(N58)|
+@oid o0903578
+@list U+F3035
+@uname PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N58
+@ucun 󳀵
+@end sign
+
 @sign |DUG~b×AB₂|
 @oid o0900340
 @list U+127AE
@@ -1819,13 +1826,6 @@
 @list U+127B2
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES HI GUNU-A
 @ucun 𒞲
-@end sign
-
-@sign |DUG~b×1(N58)|
-@oid o0900405
-@list U+F3035
-@uname PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N58
-@ucun 󳀵
 @end sign
 
 @sign |(DUG~b&DUG~b)×1(N58)|
