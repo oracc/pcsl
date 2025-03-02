@@ -921,6 +921,7 @@
 @uname AN
 @uage 1
 @list ZATU031
+@list BAU006
 @sys	AP23 1270F
 @sys	AP24 126CC
 @sys	LLATU:184_01 AN 
@@ -934,7 +935,6 @@
 @ucun 𒛍
 @uname AN VARIANT 2
 @uage 1
-@list BAU006
 @sys	AP23 12711
 @sys	AP24 126CD
 @@

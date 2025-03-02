@@ -1,5 +1,6 @@
 default: asl
 	(cd w ; make)
+	oracc resources
 	oracc build
 
 asl: pc25.asl

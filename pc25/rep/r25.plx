@@ -240,7 +240,8 @@ close(N);
 my $rutf = 0x12690;
 open(R,'>pc25-repertoire.tsv');
 foreach my $o (sort { $scodes{$a} <=> $scodes{$b} } keys %rep) {
-    printf R "%X\t$rep{$o}", $rutf++;
+    printf R "%X\t$rep{$o}", $rutf;
+    ++$rutf;
 }
 close(R);
 
