@@ -12,6 +12,10 @@ use Getopt::Long;
 GetOptions(
     );
 
+my @u = `cut -f1,3 /home/oracc/pcsl/02pub/unicode.tsv`; chomp @u;
+my %u = ();
+foreach (@u) {my($u,$o)=split(/\t/,$_);$u=~s/^U\+//; $u{$o} = $u; }
+
 my %g = ();
 my $head = '';
 my $v_pending = 0;
@@ -36,7 +40,19 @@ while (<>) {
 
 foreach (sort keys %g) {
     print "$_\t";
-    print join(' ', sort @{$g{$_}}), "\n";
+    my @o = sort @{$g{$_}};
+    if ($u{$_}) {
+	unshift @o, $_;
+    }
+    my @n = ();
+    foreach my $o (@o) {
+	if ($u{$o}) {
+	    push @n, "$o\:$u{$o}";
+	} else {
+	    warn "$o is supposed to be a variant but has no U+\n";
+	}
+    }
+    print join(' ', @n), "\n";
 }
 
 1;

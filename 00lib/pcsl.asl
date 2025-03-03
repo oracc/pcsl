@@ -5109,7 +5109,8 @@
 @sign |EZEN×LA|
 @oid o0900566
 @inote @smap |EZEN~a×LA~e|~v1
-@form |EZEN~a×LA~e|~v1
+@form |EZEN~a×LA~e|
+@aka  |EZEN~a×LA~e|~v1
 @oid o0900568
 @list U+127F8
 @ucun 𒟸
@@ -15344,9 +15345,9 @@
 @oid o0901784
 @list ZATU458
 @inote @smap |SILA₃~a~v1×DUG~a|
-@form |SILA₃~a~v1×DUG~a|
+@form |SILA₃~a×DUG~a|
 @oid o0901785
-@aka	|SILA₃~a×DUG~a|
+@aka	|SILA₃~a~v1×DUG~a|
 @list U+12B09
 @ucun 𒬉
 @uname SILA3-A VARIANT 1 TIMES DUG-A
