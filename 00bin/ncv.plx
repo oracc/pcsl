@@ -44,21 +44,22 @@ foreach my $v (sort { $u{$a} cmp $u{$b} } keys %v) {
     foreach my $vv (@{$v{$v}}) {
 	my @vv = @{$vv};
 	push @c, chr(hex($vv[1]));
-	push @p, "$vv[2]\t$vv[0]";
+	push @p, "$vv[2]\t$vv[1]\t$vv[0]";
 	$o = $vv[2] unless $o;
     }
     if ($#c > 0) {
 	my $c = join('',@c);
-	print "$o\t$v\t$c\n";
+	print "$o\t$v\t$c[0]\t$c\n";
 	foreach my $p (@p) {
 	    print H "$p\t$v\n";
 	}
     } else {
 	my @vv = @{$v{$v}};
 	my $vv = $vv[0];
-	my $o = ${$vv}[2];
 	my $p = ${$vv}[0];
-	print N "$o\t$p\t$v\t$c[0]\n";
+	my $u = ${$vv}[1];
+	my $o = ${$vv}[2];
+	print N "$o\t$u\t$p\t$v\t$c[0]\n";
     }
 }
 close(N);

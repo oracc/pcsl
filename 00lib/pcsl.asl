@@ -5006,7 +5006,6 @@
 @@
 @form EZEN~c
 @oid o0900554
-@aka EZEN~b@t
 @aka	EZEM~c
 @aka	EZEN~c
 @list U+12805

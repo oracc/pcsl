@@ -230,6 +230,26 @@
       is predominantly Uruk III in date it makes sense to use Uruk
       III reference glyphs as far as possible.</p>
 
+      <p>PC25 reference glyphs are aligned where possible with Uruk
+      III sign forms occurring in published texts originating from
+      Uruk or Jemdet Nasr. The selection of the reference glyph is not
+      necessarily an indication that the other sign forms in EASL do
+      not occur in the same period or place.  It means simply that the
+      reference glyph has been confirmed to occur, where possible, in
+      Uruk III Uruk/Jemdet Nasr.</p>
+
+      <p>For sequences with multiple forms, the reference form is
+      always the simplest/closest to the sequence description, as long
+      as that form occurs in the corpus.  This means that by default
+      the sign looks the way it is described, and ligatures,
+      reorderings, or non-linear dispositions are always accessed by
+      CVNN.</p>
+
+      <p>Important to understand that the selection of an RG does not
+      imply that the form is normative--the corpus is restricted and
+      sign form variation is considerable which means that the concept
+      of a normative form is often inapplicable to any given sign.</p>
+
     </body>
   </html>
 </esp:page>
