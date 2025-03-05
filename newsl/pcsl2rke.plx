@@ -22,7 +22,15 @@ while (<SL>) {
     if (/^\@form/ || /^\@@/ || /^\@end\s+sign/) {
 	if ($x) {
 	    my $r = rkeify($s);
-	    my $c = chr(hex($x));
+	    my $c = '';
+	    if ($x =~ s/x//g) {
+		my @x = split(/\./,$x);
+		foreach my $h (@x) {
+		    $c .= chr(hex($h));
+		}
+	    } else {
+		$c = chr(hex($x));
+	    }
 	    print T "$s\t$r\t$o\t$c\n";
 	    foreach my $a (@a) {
 		my $ra = rkeify($a);
@@ -37,6 +45,8 @@ while (<SL>) {
     } elsif (/^\@list\s+U\+(\S+)\s*$/) {
 	$x = $1;
     } elsif (/useq-old-uni\s+(\S+)/) {
+	$x = $1;
+    } elsif (/^\@useq\s+(\S+)/) {
 	$x = $1;
     } elsif (/^\@oid\s+(\S+)\s*$/) {
 	$o = $1;

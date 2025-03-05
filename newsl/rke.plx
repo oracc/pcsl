@@ -90,8 +90,8 @@ while (<>) {
 		# warn "m2: EN-NUN=$p\n";
 	    }
 	}
-	if ($p =~ /EN/ && $p =~ /NUN/) {
-	    # warn "1: EN-NUN=$p\n";
+	if ($p =~ /ZATU741/) {
+	    warn "1: ZATU741=$p\n";
 	}
 	my $okp = $pcsl{$p};
 	unless ($okp) {

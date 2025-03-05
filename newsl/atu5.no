@@ -1,12 +1,10 @@
 159: no pcsl: GU4+1N58 via GU₄.1N58
-189: no pcsl: KA2+LAM via KA₂.LAM
 208: no pcsl: KU3b via KU₃~b
 218: no pcsl: LAGABa+SITAa1 via LAGAB~a.SITA~a1
 234: no pcsl: MAHa+GUKKAL via MAH~a.GUKKAL
 248: no pcsl: MARb+ŠE3 via MAR~b.ŠE₃
 309: no pcsl: RAD.gunû via RAD@g
 340: no pcsl: SILA3b+NAGAa via SILA₃~b.NAGA~a
-356: no pcsl: ŠA+HI.gunûa via ŠA.HI@g~a
 357: no pcsl: ŠA+HI.gunûb via ŠA.HI@g~b
 431: no pcsl: UNUGa+A via UNUG~a.A
 555: no pcsl: ZATU726b via ZATU726~b

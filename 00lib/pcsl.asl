@@ -23476,6 +23476,13 @@
 @@
 @end sign
 
+@sign |ZATU737×GAR.HI@g~a|
+@oid o0903668
+@sys	ADD F300B P006275 ZATU737xHIga.png
+@useq x12D66.x128F0
+@uname ADD NAME |ZATU737×GAR.HI|
+@end sign
+
 @sign |ZATU737×I|
 @oid o0902667
 @sys	ADD F300B P006275 ZATU737xI.png

@@ -186,7 +186,7 @@
 133	IŠb	IŠ::b::	IŠ~b	IŠ~b
 133	IŠc	IŠ::c::	IŠ~c	IŠ~c
 133	KAa	KA::a::	KA~a	KA~a
-133	KA2+LAM	KA2::::--+--LAM::::	KA₂+LAM	KA₂.LAM
+133	KA2+LAM	KA2::::--+--LAM::::	KA₂+LAM	KA₂~d+LAM~b
 133	KAB	KAB::::	KAB	KAB
 134	KAKa	KAK::a::	KAK~a	KAK~a
 134	KAKb	KAK::b::	KAK~b	KAK~b
@@ -353,7 +353,7 @@
 156	SUKUD.gunûc	SUKUD::::.gunûc	SUKUD.gunû~c	SUKUD@g~c
 156	SUMAŠ	SUMAŠ::::	SUMAŠ	SUMAŠ
 156	ŠA	ŠA::::	ŠA	ŠA
-156	ŠA+HI.gunûa	ŠA::::--+--HI::::.gunûa	ŠA+HI.gunû~a	ŠA.HI@g~a
+156	ŠA+HI.gunûa	ŠA::::--+--HI::::.gunûa	ŠA+HI.gunû~a	ŠA+HI@g~a~a
 156	ŠA+HI.gunûb	ŠA::::--+--HI::::.gunûb	ŠA+HI.gunû~b	ŠA.HI@g~b
 156	ŠA3a1	ŠA3::a1::	ŠA₃~a1	ŠA₃~a1
 156	ŠA3b1	ŠA3::b1::	ŠA₃~b1	ŠA₃~a2
