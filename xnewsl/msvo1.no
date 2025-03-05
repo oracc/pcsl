@@ -1,0 +1,10 @@
+39: no pcsl: DU+1N58 via DU.1N58
+113: no pcsl: HI+AŠa via HI.AŠ~a
+125: no pcsl: KA2+LAM via KA₂.LAM
+179: no pcsl: NANNA2 via NANNA₂
+194: no pcsl: NISAGb via NISAG~b
+213: no pcsl: SAL+ZATU751a via SAL.ZATU751~a
+214: no pcsl: SAL+ZATU751b via SAL.ZATU751~b
+239: no pcsl: ŠA+HI.gunûa via ŠA.HI@g~a
+264: no pcsl: ŠU2+E2a via ŠU₂.E₂~a
+351: no pcsl: ZATU741+HI.gunûa via ZATU741.HI@g~a
