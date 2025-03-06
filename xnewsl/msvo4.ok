@@ -13,7 +13,7 @@
 47	ANŠEb	ANŠE::b::	ANŠE~b	ANŠE~b
 47	APINa	APIN::a::	APIN~a	APIN~a
 48	BA	BA::::	BA	BA
-48	BAD+DIŠa	BAD::::--+--DIŠ::a::	BAD+DIŠ~a	1N58.BAD
+48	BAD+DIŠa	BAD::::--+--DIŠ::a::	BAD+DIŠ~a	1N58.BAD~a
 48	BAHAR2b	BAHAR2::b::	BAHAR₂~b	BAHAR₂~b
 48	BAHAR2c	BAHAR2::c::	BAHAR₂~c	BAHAR₂~c
 48	BAPPIRd	BAPPIR::d::	BAPPIR~d	BAPPIR~d
@@ -29,7 +29,7 @@
 50	DAa	DA::a::	DA~a	DA~a
 50	DAH	DAH::::	DAH	DAH
 50	DARa	DAR::a::	DAR~a	DAR~a
-50	DARA3c+KAR2	DARA3::c::--+--KAR2::::	DARA₃~c+KAR₂	DARA₃~c+KAR₂~b
+50	DARA3c+KAR2	DARA3::c::--+--KAR2::::	DARA₃~c+KAR₂	DARA₃~c+KAR₂
 50	DARA4a1	DARA4::a1::	DARA₄~a1	DARA₄~a1
 50	DARA4c1	DARA4::c1::	DARA₄~c1	DARA₄~c1
 50	DI	DI::::	DI	DI
@@ -68,8 +68,8 @@
 55	GANc	GAN::c::	GAN~c	GAN~c
 55	GAN2	GAN2::::	GAN₂	GAN₂
 55	GAR	GAR::::	GAR	GAR
-56	GAR+5N57	GAR::::--+--5N57::::	GAR+5N57	5N57.GAR
-56	GAR+6N57	GAR::::--+--6N57::::	GAR+6N57	6N57.GAR
+56	GAR+5N57	GAR::::--+--5N57::::	GAR+5N57	GAR.5N57
+56	GAR+6N57	GAR::::--+--6N57::::	GAR+6N57	GAR.6N57
 56	GARA2a	GARA2::a::	GARA₂~a	GARA₂~a
 56	GEŠTUb	GEŠTU::b::	GEŠTU~b	GEŠTU~b
 56	GI	GI::::	GI	GI
@@ -195,7 +195,7 @@
 72	SAGŠU	SAGŠU::::	SAGŠU	SAGŠU
 72	SAL	SAL::::	SAL	SAL
 73	SAL+KURa	SAL::::--+--KUR::a::	SAL+KUR~a	SAL.KUR~a
-73	SAL+ŠU2	SAL::::--+--ŠU2::::	SAL+ŠU₂	SAL.ŠU₂~b
+73	SAL+ŠU2	SAL::::--+--ŠU2::::	SAL+ŠU₂	SAL.ŠU₂
 73	SANGAa	SANGA::a::	SANGA~a	SANGA~a
 74	SARa	SAR::a::	SAR~a	SAR~a
 74	SI	SI::::	SI	SI
@@ -203,7 +203,7 @@
 74	SIG2b	SIG2::b::	SIG₂~b	SIG₂~b
 74	SIG7	SIG7::::	SIG₇	SIG₇
 74	SILA3a+NIa	SILA3::a::--+--NI::a::	SILA₃~a+NI~a	SILA₃~a+NI~a
-74	SILA3a+ŠU2	SILA3::a::--+--ŠU2::::	SILA₃~a+ŠU₂	SILA₃~a+ŠU₂~b
+74	SILA3a+ŠU2	SILA3::a::--+--ŠU2::::	SILA₃~a+ŠU₂	SILA₃~a+ŠU₂
 74	SILA3b	SILA3::b::	SILA₃~b	SILA₃~b
 74	SUa	SU::a::	SU~a	SU~a
 75	SUG5	SUG5::::	SUG₅	SUG₅
@@ -233,10 +233,10 @@
 78	ŠITAa3	ŠITA::a3::	ŠITA~a3	ŠITA~a3
 78	ŠU	ŠU::::	ŠU	ŠU
 79	ŠU+ŠU	ŠU::::--+--ŠU::::	ŠU+ŠU	ŠU+ŠU
-79	ŠU2	ŠU2::::	ŠU₂	ŠU₂~a
-79	ŠU2+ENa	ŠU2::::--+--EN::a::	ŠU₂+EN~a	ŠU₂~a.EN~a
+79	ŠU2	ŠU2::::	ŠU₂	ŠU₂~b
+79	ŠU2+ENa	ŠU2::::--+--EN::a::	ŠU₂+EN~a	ŠU₂.EN~a
 79	ŠUBUR	ŠUBUR::::	ŠUBUR	ŠUBUR
-79	ŠUBUR+1N57	ŠUBUR::::--+--1N57::::	ŠUBUR+1N57	1N57.ŠUBUR
+79	ŠUBUR+1N57	ŠUBUR::::--+--1N57::::	ŠUBUR+1N57	ŠUBUR.1N57
 80	ŠUM	ŠUM::::	ŠUM	ŠUM
 80	ŠUR2b	ŠUR2::b::	ŠUR₂~b	ŠUR₂~b
 80	TAGa1	TAG::a1::	TAG~a1	TAG~a1

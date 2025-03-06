@@ -8,7 +8,7 @@
 108	ABb	AB::b::	AB~b	AB~b
 108	AB2	AB2::::	AB₂	AB₂
 109	AB2+2N14	AB2::::--+--2N14::::	AB₂+2N14	AB₂+2N14
-109	AB2+2N57	AB2::::--+--2N57::::	AB₂+2N57	2N57.AB₂
+109	AB2+2N57	AB2::::--+--2N57::::	AB₂+2N57	AB₂.2N57
 109	ADAB	ADAB::::	ADAB	ADAB
 109	AKa	AK::a::	AK~a	AK~a
 109	AL	AL::::	AL	AL
@@ -23,7 +23,7 @@
 111	AZU	AZU::::	AZU	AZU
 111	BA	BA::::	BA	BA
 112	BAD	BAD::::	BAD	BAD
-112	BAD+DIŠa	BAD::::--+--DIŠ::a::	BAD+DIŠ~a	1N58.BAD
+112	BAD+DIŠa	BAD::::--+--DIŠ::a::	BAD+DIŠ~a	1N58.BAD~a
 112	BAD+DIŠb	BAD::::--+--DIŠ::b::	BAD+DIŠ~b	1N58~a.BAD~a
 112	BALAb	BALA::b::	BALA~b	BALA~b
 112	BALAG	BALAG::::	BALAG	BALAG
@@ -108,7 +108,7 @@
 123	EZENa+NIMGIR	EZEN::a::--+--NIMGIR::::	EZEN~a+NIMGIR	EZEN~a+NIMGIR
 123	EZENa+RADa	EZEN::a::--+--RAD::a::	EZEN~a+RAD~a	EZEN~a+RAD~a
 123	EZENb	EZEN::b::	EZEN~b	EZEN~b
-123	EZENc	EZEN::c::	EZEN~c	EZEN~b@t
+123	EZENc	EZEN::c::	EZEN~c	EZEN~c
 123	EZINUd	EZINU::d::	EZINU~d	EZINU~d
 123	GAa	GA::a::	GA~a	GA~a
 124	GA2a1	GA2::a1::	GA₂~a1	GA₂~a1
@@ -155,7 +155,7 @@
 129	GIŠIMMARb1	GIŠIMMAR::b1::	GIŠIMMAR~b1	GIŠIMMAR~b1
 129	GIŠIMMARb3	GIŠIMMAR::b3::	GIŠIMMAR~b3	GIŠIMMAR~b3
 129	GU4	GU4::::	GU₄	GU₄
-129	GU4+ZATU755	GU4::::--+--ZATU755::::	GU₄+ZATU755	GU₄.ZATU755~b
+129	GU4+ZATU755	GU4::::--+--ZATU755::::	GU₄+ZATU755	GU₄.ZATU755
 129	GU4+1N58	GU4::::--+--1N58::::	GU₄+1N58	GU₄.1N58
 129	GUG2a	GUG2::a::	GUG₂~a	GUG₂
 129	GUKKALa	GUKKAL::a::	GUKKAL~a	GUKKAL~a
@@ -303,7 +303,7 @@
 150	PIRIGa2	PIRIG::a2::	PIRIG~a2	PIRIG~a2
 150	PIRIGa3	PIRIG::a3::	PIRIG~a3	PIRIG~a3
 150	PIRIGb1	PIRIG::b1::	PIRIG~b1	PIRIG~b1
-150	PIRIGb1+3N57	PIRIG::b1::--+--3N57::::	PIRIG~b1+3N57	3N57.PIRIG~b1
+150	PIRIGb1+3N57	PIRIG::b1::--+--3N57::::	PIRIG~b1+3N57	PIRIG~b1.3N57
 150	RADa	RAD::a::	RAD~a	RAD~a
 150	RADb	RAD::b::	RAD~b	RAD~b
 150	RAD.gunû	RAD::::.gunû	RAD.gunû	RAD@g
@@ -380,14 +380,14 @@
 159	ŠITAa3	ŠITA::a3::	ŠITA~a3	ŠITA~a3
 159	ŠITAb1	ŠITA::b1::	ŠITA~b1	ŠITA~b1
 159	ŠITAb1+HI.gunûa	ŠITA::b1::--+--HI::::.gunûa	ŠITA~b1+HI.gunû~a	ŠITA~b2@g+HI@g~a
-159	ŠITA.gunûa	ŠITA::::.gunûa	ŠITA.gunû~a	ŠITA~b3@g
+159	ŠITA.gunûa	ŠITA::::.gunûa	ŠITA.gunû~a	ŠITA@g~a
 159	ŠU	ŠU::::	ŠU	ŠU
 160	ŠU.gunû	ŠU::::.gunû	ŠU.gunû	ŠU@g
-160	ŠU2	ŠU2::::	ŠU₂	ŠU₂~a
-160	ŠU2+ENa	ŠU2::::--+--EN::a::	ŠU₂+EN~a	ŠU₂~a.EN~a
+160	ŠU2	ŠU2::::	ŠU₂	ŠU₂~b
+160	ŠU2+ENa	ŠU2::::--+--EN::a::	ŠU₂+EN~a	ŠU₂.EN~a
 160	ŠU2+URI3a	ŠU2::::--+--URI3::a::	ŠU₂+URI₃~a	ŠU₂.URI₃~a
 160	ŠUBUR	ŠUBUR::::	ŠUBUR	ŠUBUR
-161	ŠUBUR+1N57	ŠUBUR::::--+--1N57::::	ŠUBUR+1N57	1N57.ŠUBUR
+161	ŠUBUR+1N57	ŠUBUR::::--+--1N57::::	ŠUBUR+1N57	ŠUBUR.1N57
 161	ŠUM	ŠUM::::	ŠUM	ŠUM
 161	TAc	TA::c::	TA~c	TA~c
 161	TAGa1	TAG::a1::	TAG~a1	TAG~a1
@@ -406,7 +406,7 @@
 163	TUR3a	TUR3::a::	TUR₃~a	TUR₃~a
 163	U2b	U2::b::	U₂~b	U₂~b
 163	U4	U4::::	U₄	U₄
-164	U4+ŠU2	U4::::--+--ŠU2::::	U₄+ŠU₂	U₄.ŠU₂~b
+164	U4+ŠU2	U4::::--+--ŠU2::::	U₄+ŠU₂	U₄.ŠU₂
 164	U4+1N57	U4::::--+--1N57::::	U₄+1N57	U₄+1N57
 164	U4+3N57	U4::::--+--3N57::::	U₄+3N57	U₄+3N57
 164	U8	U8::::	U₈	U₈
