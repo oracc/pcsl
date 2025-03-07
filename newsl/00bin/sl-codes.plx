@@ -9,14 +9,21 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $n = '';
+
 GetOptions(
+    'n:s'=>\$n,
     );
+
+my $f = "01tmp/$n-numbered.tsv";
+
+die unless $f;
 
 my %map = (
     '1(N30CB)' => '1(N30C~b)'
     );
 
-my @a = `cat ../pcsl/00etc/ap24toap23.tsv` ; chomp @a;
+my @a = `cat ../00etc/ap24toap23.tsv` ; chomp @a;
 my %a = ();
 foreach (@a) {
     my($a,$a23,$a24,$a25) = split(/\t/,$_);
@@ -32,7 +39,7 @@ foreach (@a) {
 
 my %seen = ();
 
-my @e = `cat 01tmp/easl-numbered.tsv`; chomp @e;
+my @e = `cat $f`; chomp @e;
 foreach (@e) {
     my($o,$e,$p,@rest) = split(/\t/, $_);
     my $ok;
@@ -53,7 +60,7 @@ foreach (@e) {
 		my $x = ${$a{$pnov}}[0];
 		++$seen{$x};
 	    } else {
-		warn "$p/$pv not found in easl.tsv\n";
+		warn "$p/$pv not found in pcslrke.tsv\n";
 		$ok = 'BAD';
 	    }
 	}
@@ -63,7 +70,7 @@ foreach (@e) {
     print "$_\t$a23\t$a24\t$a25\n";
 }
 
-open(C,'>00etc/salt-codes.tsv');
+open(C,">00etc/$n-salt-codes.tsv");
 foreach my $a (@a) {
     $a =~ s/\t.*$//;
     $a = $map{$a} if $map{$a};

@@ -21,8 +21,9 @@ foreach (@f) {
     /\t(\S+)\t/;
     $f{$1} = $_;
 }
-open(S,'>01tmp/easl.sort'); print S join("\n", keys %f), "\n"; close(S);
-my @s = `gdlx -g <01tmp/easl.sort 2>/dev/null`; chomp @s;
+my $tmp = $$;
+open(S,">01tmp/$tmp.sort"); print S join("\n", keys %f), "\n"; close(S);
+my @s = `gdlx -g <01tmp/$tmp.sort 2>/dev/null`; chomp @s;
 my %s = ();
 my $x = 0;
 foreach (@s) {

@@ -29557,8 +29557,8 @@
 @sign |1(N58).BAD|
 @oid o0903281
 @sys CDLI-gh img-page
-
 @form |(1(N58).BAD)~a|
+@oid	o0903282
 @aka	|BAD+DIŠ~a|
 @aka	|1(N58).BAD~a|
 @list U+12E0D

@@ -9,14 +9,17 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $sl = '';
 GetOptions(
+    'n:s'=>\$sl,
     );
 
-my $easl = 'EASL0001';
+warn "sl=$sl\n";
+
 while (<>) {
-    s/\t/\t$easl\t/;
+    s/\t/\t$sl\t/;
     print;
-    ++$easl;
+    ++$sl;
 }
 
 1;

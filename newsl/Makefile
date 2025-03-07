@@ -2,7 +2,13 @@ SL=easl
 SLfont=PC-all.ttf
 WWW=/home/oracc/www/${SL}
 
-default: easl frame codes salts names notes tags images oids rows font html
+default: pcslrke tsv frame codes salts names notes tags images oids rows font html
+
+pcslrke: pcslrke.tsv
+
+tsv: msvo1
+
+msvo1: 00etc/msvo1.tsv
 
 easl: 00etc/easl.tsv
 
@@ -27,16 +33,25 @@ rows: 00raw/${SL}-rows.tsv
 
 font: /home/oracc/www/fonts/${SLfont}
 
+pcslrke.tsv: ../00lib/pcsl.asl
+	00bin/pcsl2rke.plx
+
+00etc/%.tsv: %.xpg
+	00bin/xpg2tsv.sh $*
+
+%.xpg: %.tsv images/%/*
+	00bin/xpg.sh $*
+
+/home/oracc/www/fonts/${SLfont}: ~/o2/msc/fonts/${SLfont}
+	sudo cp $< $@
+	sudo chmod o+r $@
+
 00etc/easl.tsv: 00etc/gh-index.xml 00bin/gh-cpc-tsv.xsl 00bin/easl-*.plx
 	xsltproc 00bin/gh-cpc-tsv.xsl 00etc/gh-index.xml >01tmp/easl-gh.tsv
 	00bin/easl-oid.plx >01tmp/easl-oid.tsv
 	00bin/easl-sort.plx 01tmp/easl-oid.tsv >01tmp/easl-sort.tsv
 	00bin/easl-number.plx 01tmp/easl-sort.tsv >01tmp/easl-numbered.tsv
 	00bin/easl-codes.plx >00etc/easl.tsv
-
-/home/oracc/www/fonts/${SLfont}: ~/o2/msc/fonts/${SLfont}
-	sudo cp $< $@
-	sudo chmod o+r $@
 
 00raw/easl-frame.lst: 00etc/${SL}.tsv
 	cut -f 2 $< >$@
