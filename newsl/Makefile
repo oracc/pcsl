@@ -36,7 +36,7 @@ font: /home/oracc/www/fonts/${SLfont}
 pcslrke.tsv: ../00lib/pcsl.asl
 	00bin/pcsl2rke.plx
 
-00etc/%.tsv: %.xpg
+00etc/%.tsv: %.xpg %.row
 	00bin/xpg2tsv.sh $*
 
 %.xpg: %.tsv images/%/*
