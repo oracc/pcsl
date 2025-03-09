@@ -1,5 +1,26 @@
+#
+# Makefile to create sign list HTML pages
+#
+# General workflow is:
+#
+# 1) take a table of unnumbered ideogram signs (several formats) and a
+#    list of row filenames
+#
+# 2) turn that into an XML file in the 00etc/%.xpg format
+#
+# 3) turn the xpg into 00raw/%.tsv then to 00raw/%.xml in the format
+#    expected by slframe-HTML.xsl
+#
+# 4) turn 00raw/%.xml into 00web/%-tab.html
+#
+
+
 SLX=xpg frame codes names notes oids rows font html
+
+# salts tags
+
 SLfont=PC-all.ttf
+
 WWW=/home/oracc/www/${SL}
 
 default:
@@ -14,24 +35,24 @@ html: 00web/${SL}-tab.html
 msvo1: Makefile 00etc/msvo1.tsv
 	SL=msvo1 make ${SLX}
 
-# codes names notes images oids rows font html
+easl: 00etc/easl.tsv
 
-# salts tags
+00etc/%.xpg: 00etc/%.tpg images/%/* 00bin/xpg.sh rkesl.map
+	00bin/xpg.sh $*
 
-00web/%.html: %.xml
-	echo hello $@
+00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv
+	00bin/xpg2tsv.sh $*
+
+00raw/%.xml:
+	00bin/slframe.sh $*
+
+00web/%-tab.html: 00raw/%.xml 00bin/* Makefile css font images
 	mkdir -p 00web
-	sudo mkdir -p ${WWW}/css
-	sudo cp ../00res/css/*.css ${WWW}/css/
-	00bin/h.sh $*
-	sudo cp 00web/sltab*.html ${WWW}
+	00bin/slhtml.sh $*
+	sudo cp 00web/$*-tab.html ${WWW}
 	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
 
-#	00bin/components.sh $*
-
 pcslrke: pcslrke.tsv
-
-easl: 00etc/easl.tsv
 
 xpg: 00etc/${SL}.xpg
 
@@ -47,34 +68,9 @@ notes: 00raw/${SL}-notes.tsv
 
 tags: 00raw/${SL}-tags.tsv
 
-images:
-	00bin/images.sh
-
 oids: 00raw/${SL}-oids.tsv
 
 rows: 00raw/${SL}-rows.tsv
-
-font: /home/oracc/www/fonts/${SLfont}
-
-pcslrke.tsv: ../00lib/pcsl.asl
-	00bin/pcsl2rke.plx
-
-00etc/%.tsv: 01tmp/%.xpg 01tmpc/%.row
-	00bin/xpg2tsv.sh $*
-
-00etc/%.xpg: %.tsv images/%/*
-	00bin/xpg.sh $*
-
-/home/oracc/www/fonts/${SLfont}: ~/o2/msc/fonts/${SLfont}
-	sudo cp $< $@
-	sudo chmod o+r $@
-
-00etc/easl.tsv: 00etc/gh-index.xml 00bin/gh-cpc-tsv.xsl 00bin/easl-*.plx
-	xsltproc 00bin/gh-cpc-tsv.xsl 00etc/gh-index.xml >01tmp/easl-gh.tsv
-	00bin/easl-oid.plx >01tmp/easl-oid.tsv
-	00bin/easl-sort.plx 01tmp/easl-oid.tsv >01tmp/easl-sort.tsv
-	00bin/easl-number.plx 01tmp/easl-sort.tsv >01tmp/easl-numbered.tsv
-	00bin/easl-codes.plx >00etc/easl.tsv
 
 00raw/${SL}-frame.lst: 00etc/${SL}.tsv
 	cut -f 2 $< >$@
@@ -101,10 +97,25 @@ pcslrke.tsv: ../00lib/pcsl.asl
 00raw/${SL}-notes.tsv:  $(wildcard 00etc/oid-notes.tsv) 00bin/sl-notes.sh 00etc/${SL}.tsv
 	00bin/sl-notes.sh ${SL}
 
-00web/%-tab.html: 00raw/* 00bin/* Makefile
-	mkdir -p 00web
+images:
+	00bin/images.sh
+
+font: /home/oracc/www/fonts/${SLfont}
+
+css:
 	sudo mkdir -p ${WWW}/css
-	sudo cp ../00res/css/*.css ${WWW}/css/
-	00bin/h.sh ${SL}
-	sudo cp 00web/$*-tab.html ${WWW}
-	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
+	sudo cp -u 00res/css/*.css ${WWW}/css/
+
+pcslrke.tsv: ../00lib/pcsl.asl
+	00bin/pcsl2rke.plx
+
+/home/oracc/www/fonts/${SLfont}: ~/o2/msc/fonts/${SLfont}
+	sudo cp $< $@
+	sudo chmod o+r $@
+
+00etc/easl.tsv: 00etc/gh-index.xml 00bin/gh-cpc-tsv.xsl 00bin/easl-*.plx
+	xsltproc 00bin/gh-cpc-tsv.xsl 00etc/gh-index.xml >01tmp/easl-gh.tsv
+	00bin/easl-oid.plx >01tmp/easl-oid.tsv
+	00bin/easl-sort.plx 01tmp/easl-oid.tsv >01tmp/easl-sort.tsv
+	00bin/easl-number.plx 01tmp/easl-sort.tsv >01tmp/easl-numbered.tsv
+	00bin/easl-codes.plx >00etc/easl.tsv

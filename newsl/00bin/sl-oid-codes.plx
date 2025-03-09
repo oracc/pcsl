@@ -19,11 +19,12 @@ my $f = "01tmp/$n-numbered.tsv";
 
 die unless $f;
 
-my @a = `cat ap24-codes.tsv` ; chomp @a;
+my @a = `cat 00etc/ap24-codes.tsv` ; chomp @a;
+my @b = `cat 00etc/x-codes.tsv`; chomp @b;
 my %a = ();
-foreach (@a) {
+foreach (@a, @b) {
     my($o,$u) = split(/\t/,$_);
-    $a{$o} = $u;
+    $a{$o} = $u unless $a{$o};
 }
 
 my %seen = ();
