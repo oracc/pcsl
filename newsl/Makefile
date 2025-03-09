@@ -21,7 +21,7 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www/${SL}
 
 default:
-	@echo make: you must give an argument to make from (msvo1,xxx). Stop.
+	@echo make: you must give an argument to make from "(msvo1,xxx)". Stop.
 
 tsv:  msvo1
 

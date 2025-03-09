@@ -151,8 +151,10 @@ foreach my $r (sort keys %rm) {
 ################################################################################
 
 sub feachr {
-    my @uu = split(/_/,$_);
-    my @fc = (), @c = (), @sn = ();
+    my @uu = split(/_/,$_[0]);
+    my @fc = ();
+    my @c = ();
+    my @sn = ();
     foreach my $uu (@uu) {
 	my($fc,$c,$sn) = feachr_sub($uu);
 	push @fc, $fc;
@@ -164,6 +166,7 @@ sub feachr {
     my $rsn = join('_', @sn);
     ($rfc,$rc,$rsn);
 }
+
 sub feachr_sub {
     my $h = $_[0];
     my $c = '';
@@ -200,7 +203,7 @@ sub gapcheck {
     foreach (@_) {
 	my ($x,$s) = (/(\d+)([a-z]*(?:\.\d)?)?/);
 	if ($x != $n) {
-	    warn "$_ - $last != 1\n" unless $x - $n == 1;
+	    warn "$_ - $last != 1\n" unless $x - $n == 1 || $x >= 900;
 	    $n = $x;
 	    $last = $_;
 	}
