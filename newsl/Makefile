@@ -18,7 +18,7 @@
 
 SLfont=PC-all.ttf
 
-WWW=/home/oracc/www/${SL}
+WWW=/home/oracc/www/pcsl/${SL}
 
 default:
 	@echo make: you must give an argument to make from "(msvo1,xxx)". Stop.
@@ -32,7 +32,7 @@ msvo1: Makefile 00etc/msvo1.tsv
 
 easl: 00etc/easl.tsv
 
-00etc/%.xpg: 00etc/%.tpg images/%/* 00bin/xpg.sh rkesl.map
+00etc/%.xpg: 00etc/%.tpg 00bin/xpg.sh rkesl.map
 	00bin/xpg.sh $*
 
 00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv
@@ -44,6 +44,7 @@ easl: 00etc/easl.tsv
 00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css font images
 	mkdir -p 00web
 	00bin/slhtml.sh $*
+	sudo mkdir -p ${WWW}
 	sudo cp 00web/$*-tab.html ${WWW}
 	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
 
@@ -84,7 +85,7 @@ rows: 00raw/${SL}-rows.tsv
 	cut -f 1,2 $< | rocox -C21 >$@
 
 00raw/${SL}-rows.tsv: 00etc/${SL}.tsv Makefile
-	@cut -f 2,6 $< | sed "s#	#	/pcsl/images/${SL}#" >$@
+	@cut -f 2,6 $< | sed "s#	#	/pcsl/${SL}/images/#" >$@
 
 00raw/${SL}-tags.tsv: 00etc/${SL}-tags.tsv Makefile
 	grep -v '^##' 00etc/${SL}-tags.tsv | cut -f1,3 | rocox -C21 | grep -v '	$$' >$@
@@ -92,14 +93,18 @@ rows: 00raw/${SL}-rows.tsv
 00raw/${SL}-notes.tsv:  $(wildcard 00etc/oid-notes.tsv) 00bin/sl-notes.sh 00etc/${SL}.tsv
 	00bin/sl-notes.sh ${SL}
 
-images:
-	00bin/images.sh
-
-font: /home/oracc/www/fonts/${SLfont}
-
 css:
 	sudo mkdir -p ${WWW}/css
 	sudo cp -u ../00res/css/*.css ${WWW}/css/
+
+font: /home/oracc/www/fonts/${SLfont}
+
+images: images/${SL}/.images
+
+images/${SL}/.images: images/${SL}/*.*
+	sudo mkdir -p ${WWW}/images
+	sudo cp -u images/${SL}/*.* ${WWW}/images
+	touch $@
 
 pcslrke: pcslrke.tsv
 

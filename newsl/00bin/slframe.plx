@@ -164,6 +164,9 @@ sub feachr {
     my $rfc = join(' ', @fc);
     my $rc = join('', @c);
     my $rsn = join('_', @sn);
+    $rfc = " class=\"$rfc\"" if $rfc;
+    $rc = " c=\"$rc\"" if $rc;
+    $rsn = " sn=\"$rsn\"" if $rsn;
     ($rfc,$rc,$rsn);
 }
 
@@ -179,13 +182,14 @@ sub feachr_sub {
 	if ($h =~ s/\.(.*)$//) {
 	    my $f = $1;
 	    $f = "salt$f" if $f =~ /^\d/;
-	    $fc = " class=\"$f\"";
+	    # $fc = " class=\"$f\"";
 	}
 	warn "bad hex $h\n" unless $h =~ /^[0-9A-F]+$/;
-	$c = sprintf(" c=\"%c\"", hex($h));
+	#	$c = sprintf(" c=\"%c\"", hex($h));
+	$c = sprintf("%c", hex($h));
 	if ($sm{$h}) {
 	    my $xn = xmlify($sm{$h});
-	    $sn = " sn=\"$xn\"";
+	    # $sn = " sn=\"$xn\"";
 	} else {
 	    warn "$sm: no name found for $h\n";
 	}
