@@ -151,6 +151,20 @@ foreach my $r (sort keys %rm) {
 ################################################################################
 
 sub feachr {
+    my @uu = split(/_/,$_);
+    my @fc = (), @c = (), @sn = ();
+    foreach my $uu (@uu) {
+	my($fc,$c,$sn) = feachr_sub($uu);
+	push @fc, $fc;
+	push @c, $c;
+	push @sn, $sn;
+    }
+    my $rfc = join(' ', @fc);
+    my $rc = join('', @c);
+    my $rsn = join('_', @sn);
+    ($rfc,$rc,$rsn);
+}
+sub feachr_sub {
     my $h = $_[0];
     my $c = '';
     my $fc = '';

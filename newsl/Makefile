@@ -8,14 +8,11 @@
 #
 # 2) turn that into an XML file in the 00etc/%.xpg format
 #
-# 3) turn the xpg into 00raw/%.tsv then to 00raw/%.xml in the format
+# 3) turn the xpg into 00etc/%.tsv then to 00etc/%.xml in the format
 #    expected by slframe-HTML.xsl
 #
-# 4) turn 00raw/%.xml into 00web/%-tab.html
+# 4) turn 00etc/%.xml into 00web/%-tab.html
 #
-
-
-SLX=xpg frame codes names notes oids rows font html
 
 # salts tags
 
@@ -24,16 +21,14 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www/${SL}
 
 default:
-	@echo make: you must give an argument to make from msvo1. Stop.
+	@echo make: you must give an argument to make from (msvo1,xxx). Stop.
 
-#pcslrke tsv frame codes salts names notes tags images oids rows font html
-
-tsv: pcslrke msvo1
+tsv:  msvo1
 
 html: 00web/${SL}-tab.html
 
 msvo1: Makefile 00etc/msvo1.tsv
-	SL=msvo1 make ${SLX}
+	SL=msvo1 make xpg xml html
 
 easl: 00etc/easl.tsv
 
@@ -43,18 +38,18 @@ easl: 00etc/easl.tsv
 00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv
 	00bin/xpg2tsv.sh $*
 
-00raw/%.xml:
+00etc/%.xml: frame codes names notes oids rows
 	00bin/slframe.sh $*
 
-00web/%-tab.html: 00raw/%.xml 00bin/* Makefile css font images
+00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css font images
 	mkdir -p 00web
 	00bin/slhtml.sh $*
 	sudo cp 00web/$*-tab.html ${WWW}
 	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
 
-pcslrke: pcslrke.tsv
-
 xpg: 00etc/${SL}.xpg
+
+xml: 00etc/${SL}.xml
 
 frame: 00raw/${SL}-frame.lst
 
@@ -79,8 +74,8 @@ rows: 00raw/${SL}-rows.tsv
 	cut -f 3,7 $< | rocox -C21 >$@
 #	00bin/easl-names.plx >$@
 
-00raw/${SL}-codes.tsv: 00etc/${SL}.tsv
-	cut -f 2,8 $< >$@
+00raw/${SL}-codes.tsv: 00etc/${SL}.tsv Makefile
+	cut -f 2,7 $< >$@
 
 00raw/${SL}-salts.log: 00etc/nc-cdli.tsv 00raw/easl-frame.lst
 	00bin/easl-salts.plx >$@
@@ -104,7 +99,9 @@ font: /home/oracc/www/fonts/${SLfont}
 
 css:
 	sudo mkdir -p ${WWW}/css
-	sudo cp -u 00res/css/*.css ${WWW}/css/
+	sudo cp -u ../00res/css/*.css ${WWW}/css/
+
+pcslrke: pcslrke.tsv
 
 pcslrke.tsv: ../00lib/pcsl.asl
 	00bin/pcsl2rke.plx
