@@ -94,8 +94,8 @@ rows: 00raw/${SL}-rows.tsv
 	00bin/sl-notes.sh ${SL}
 
 css:
-	sudo mkdir -p ${WWW}/css
-	sudo cp -u ../00res/css/*.css ${WWW}/css/
+	sudo mkdir -p /home/oracc/www/pcsl/css
+	sudo cp -u ../00res/css/*.css /home/oracc/www/pcsl/css/
 
 font: /home/oracc/www/fonts/${SLfont}
 

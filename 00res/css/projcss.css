@@ -1,3 +1,6 @@
+@import url(/css/fonts.css);
+@import url(/edur/css/borders.css);
+
 h1 { font-size: 120%; font-weight: bold; }
 h2 { font-size: 110%; font-weight: bold; }
 
@@ -38,52 +41,30 @@ h2 { font-size: 110%; font-weight: bold; }
 .cuneify-content { text-align: left; vertical-align: top;
 		   border-bottom: solid 1px lavender; }
 
-table.csltab { border-collapse: separate;
-	       border-spacing: 0;
-	     }
+.lname { text-align: left; vertical-align: middle; }
+.names { vertical-align: top; }
+.sname,.stags { text-align: left; }
+.uname { text-align: left; }
+.rglyf { text-align: left; padding-left: .5em; padding-top: .25em; }
+.glyph { text-align: right; }
+.image { vertical-align: top; }
+.notes { font-size: 80%; text-align: left; }
+.inner td { border-bottom: 0px !important; }
 
-table.csltab tbody { }
+.fs-275 { font-size: 275%; }
 
-table.csltab th,
-table.csltab td {
-        border-bottom: 1px #c0c0c0 solid;
-        border-right: 1px #c0c0c0 solid;
-        padding: 0.2em;
-        vertical-align: middle;
-}
+td a { text-decoration: none; }
 
-table.csltab thead th { position: sticky; top: 0px;
-			border-top: 2px black solid;
-			border-right: 1px black solid;
-			border-bottom: 2px black solid;
-		      }
+.sq-seq { background-color: #edfcee; }
+.sq-opq { background-color: #ffe8e8; }
+.sq-chr { background-color: #fffbe8; }
+.sq-inv { background-color: #e6ebfa; }
 
-table.csltab thead th:first-child {
-    border-left: 2px black solid;
-}
-table.csltab thead th:last-child {
-    border-right: 2px black solid;
-}
+.seq { background-color: #edfcee; }
+.not { background-color: #efefef; }
 
-table.csltab th:first-child {
-    border-left: 1px #c0c0c0 solid;
-}
+.chars div+div { padding-top: .25em; }
 
-table.csltab td:first-child {
-    border-left: 1px #c0c0c0 solid;
-}
+.preamble { width: 80%; margin: auto; }
 
-table.csltab th[rowspan],
-table.csltab tbody tr:last-child th,
-table.csltab tbody tr:last-child td {
-    border-bottom: 1px black solid;
-}
-
-
-table.csltab th {
-        background: #dcdcdc;
-        text-align: left;
-        font-weight: normal;
-}
-
-table.csltab td { text-align: right; }
+.lrow { height: 50px; }

@@ -2,24 +2,31 @@
 	       xmlns="http://www.w3.org/1999/xhtml">
 
   <xsl:param name="mode" select="''"/> <!-- NC for non-contrastive only; SQ for sequences only -->
-
+  <xsl:param name="SL" select="''"/>
+  
   <xsl:template match="/">
     <xsl:variable name="title-sub">
       <xsl:if test="string-length($mode) > 0">
 	<xsl:value-of select="concat(' ', $mode)"/>
       </xsl:if>
     </xsl:variable>
+    <xsl:variable name="vol">
+      <xsl:choose>
+	<xsl:when test="sl/@n='CDLI-gh'"><xsl:value-of select="@n"/></xsl:when>
+	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'amostuv','AMOSTUV')"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <html>
       <head>
 	<meta charset="utf-8"/>
-	<title><xsl:value-of select="@n"/><xsl:text>EASL</xsl:text><xsl:value-of select="$title-sub"/></title>
-	<link media="screen,projection" href="/easl/css/projcss.css" type="text/css" rel="stylesheet"/>
+	<title><xsl:value-of select="@n"/><xsl:value-of select="$SL"/><xsl:value-of select="$title-sub"/></title>
+	<link media="screen,projection" href="/pcsl/css/projcss.css" type="text/css" rel="stylesheet"/>
       </head>
       <body>
 	<div class="preamble">
 	<xsl:choose>
 	  <xsl:when test="$mode=''">
-	    <h1>EASL: Englund Archaic Sign List--full listing</h1>
+	    <h1><xsl:value-of select="$SL"/>: Englund Archaic Sign List--full listing</h1>
 	  
 	<p>This page defines a sign list based on Bob Englund's
 	collection of Proto-Cuneiform signs at <a
@@ -147,7 +154,7 @@
 	      <th class="lname" colspan="2">Entry</th>
 	      <th class="names">Names</th>
 	      <th class="glyph">PC-font</th>
-	      <th class="image">CDLI-gh</th>
+	      <th class="image"><xsl:value-of select="$vol"/></th>
 	    </tr>
 	  </thead>
 	  <xsl:choose>
