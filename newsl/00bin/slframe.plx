@@ -9,10 +9,15 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 use ORACC::XML;
 use Getopt::Long;
 
+my $sl = ''; my $SL = '';
+my $verbose = 0;
+
 GetOptions(
+    's:s'=>\$sl,
+    'n:s'=>\$SL,
+    v=>\$verbose,
     );
 
-my $sl = 'easl'; my $SL = 'EASL';
 my @sl = ();
 
 my $fm = "$sl-codes.tsv";
@@ -54,7 +59,7 @@ while (<>) {
 	push @sl, $ln unless $f{$ln};
 	push @{${$f{$ln}}{$sub}}, $feat;
     } else {
-	warn "unexpected form $_\n";
+	warn "unexpected form $_; sl=$sl; SL=$SL\n";
     }
 }
 
@@ -194,6 +199,7 @@ sub load_map {
     my ($m,$gapc,$must) = @_;
     my %m = ();
     if (-r $m || $must) {
+	warn "loading $m\n" if $verbose;
 	my @m = ();
 	open(M,$m) || die "$0: unable to open map $m\n";
 	while (<M>) {
@@ -213,6 +219,8 @@ sub load_map {
 	close(M);
 	gapcheck($m, @m)
 	    if $gapc;
+    } else {
+	warn "skipping $m\n" if $verbose;
     }
     %m;
 }

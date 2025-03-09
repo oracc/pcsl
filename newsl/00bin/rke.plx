@@ -43,7 +43,7 @@ my $x='[a-z]+[0-9]*';
 my $m='\.(?:gunû|nutillû|tenû)';
 
 if ($xmlflag) {
-    open(X, ">$name.xml") || die;
+    open(X, ">00etc/$name.xpg") || die;
     print X "<sl n=\"$name\">";
 }
 
