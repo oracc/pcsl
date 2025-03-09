@@ -35,7 +35,7 @@ easl: 00etc/easl.tsv
 00etc/%.xpg: 00etc/%.tpg 00bin/xpg.sh rkesl.map
 	00bin/xpg.sh $*
 
-00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv
+00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv 00bin/xpg2tsv.xsl
 	00bin/xpg2tsv.sh $*
 
 00etc/%.xml: frame codes names notes oids rows

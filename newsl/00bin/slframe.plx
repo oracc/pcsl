@@ -188,7 +188,7 @@ sub feachr_sub {
 	#	$c = sprintf(" c=\"%c\"", hex($h));
 	$c = sprintf("%c", hex($h));
 	if ($sm{$h}) {
-	    my $xn = xmlify($sm{$h});
+	    $sn = xmlify($sm{$h});
 	    # $sn = " sn=\"$xn\"";
 	} else {
 	    warn "$sm: no name found for $h\n";
