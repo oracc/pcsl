@@ -23,6 +23,8 @@
 	<meta charset="utf-8"/>
 	<title><xsl:value-of select="@n"/><xsl:value-of select="$SL"/><xsl:value-of select="$title-sub"/></title>
 	<link media="screen,projection" href="/pcsl/css/projcss.css" type="text/css" rel="stylesheet"/>
+	<script type="text/javascript" src="/js/p4.js">&#160;</script>
+	<script type="text/javascript" src="/pcsl/js/pcsl.js">&#160;</script>
       </head>
       <body>
 	<xsl:call-template name="preamble"/>
@@ -135,7 +137,7 @@
 	  
 	  <xsl:if test="count(preceding-sibling::*)=0">
 	    <td rowspan="{count(../*)}">
-	      <a href="/easl/sltab.html#{../@oid}">
+	      <a href="javascript://" onclick="easlPopup('{../@oid}')">
 		<xsl:choose>
 		  <xsl:when test="starts-with(../@row,'/')">
 		    <img class="lrow" src="{../@row}"/>

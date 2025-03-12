@@ -41,7 +41,7 @@ easl: 00etc/easl.tsv
 00etc/%.xml: frame codes names notes oids rows
 	00bin/slframe.sh $*
 
-00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css font images
+00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
 	mkdir -p 00web
 	00bin/slhtml.sh $*
 	sudo mkdir -p ${WWW}
@@ -96,6 +96,11 @@ rows: 00raw/${SL}-rows.tsv
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
 	sudo cp -u ../00res/css/*.css /home/oracc/www/pcsl/css/
+
+js:
+	sudo mkdir -p /home/oracc/www/pcsl/js
+	sudo cp -u ../00res/js/*.js /home/oracc/www/pcsl/js/
+	sudo chmod -R o+r /home/oracc/www/pcsl/js
 
 font: /home/oracc/www/fonts/${SLfont}
 
