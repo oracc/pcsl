@@ -26,9 +26,9 @@ my @more = (<*~v*.xcf>);
 foreach my $m (@more) {
     my $f = $m;
     $m =~ s/\.xcf//;
-    my ($pm,$vm) = pm($m);
+    my ($po,$pm,$vm) = pm($m);
     # warn "$m => $pm :: $vm\n";
-    printf "$oid\t%X\t$pm\t$vm\t$f\n", $pua++;
+    printf "$po\t$pm\t$pm$vm\t$oid\t%X\t$f\n", $pua++;
     ++$oid;
 }
 
@@ -37,9 +37,11 @@ sub pm {
     my ($p,$v) = ($fss =~ /^(.*?)(~v[0-9]$)/);
     my @px = split(/([x])/,$p);
     my @npx = ();
+    my $pipes = 0;
     foreach (@px) {
 	if (/^[x]$/) {
 	    push @npx, "×";
+	    $pipes = 1;
 	} else {
 	    my ($pb,$pa) = ('','');
 	    if (/~/) {
@@ -55,8 +57,10 @@ sub pm {
 	}
     }
     my $pret = join('',@npx);
+    $pret = "|$pret|" if $pipes;
+    my $poid = `gdlx -p pcsl -sb '$pret'`; chomp $poid;
     # warn "pm: $fss => $pret :: $v\n";
-    ("$pret",$v);
+    ($poid,"$pret",$v);
 }
 
 1;

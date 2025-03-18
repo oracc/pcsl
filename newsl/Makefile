@@ -23,12 +23,18 @@ WWW=/home/oracc/www/pcsl/${SL}
 default:
 	@echo make: you must give an argument to make from "(msvo1,xxx)". Stop.
 
-tsv:  msvo1
+tsv:  msvo1 msvo4
 
 html: 00web/${SL}-tab.html
 
 msvo1: Makefile 00etc/msvo1.tsv
 	SL=msvo1 make xpg xml html
+
+msvo4: Makefile 00etc/msvo4.tsv
+	SL=msvo4 make xpg xml html
+
+atu5: Makefile 00etc/atu5.tsv
+	SL=atu5 make xpg xml html
 
 easl: 00etc/easl.tsv
 
