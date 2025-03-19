@@ -28,17 +28,17 @@ tsv:  msvo1 msvo4
 html: 00web/${SL}-tab.html
 
 msvo1: Makefile 00etc/msvo1.tsv
-	SL=msvo1 make xpg xml html
+	SL=msvo1 make pcslrke xpg xml html
 
 msvo4: Makefile 00etc/msvo4.tsv
-	SL=msvo4 make xpg xml html
+	SL=msvo4 make pcslrke xpg xml html
 
 atu5: Makefile 00etc/atu5.tsv
-	SL=atu5 make xpg xml html
+	SL=atu5 make pcslrke xpg xml html
 
 easl: 00etc/easl.tsv
 
-00etc/%.xpg: 00etc/%.tpg 00bin/xpg.sh rkesl.map
+00etc/%.xpg: 00etc/%.tpg 00bin/xpg.sh rkesl.map pcslrke.tsv
 	00bin/xpg.sh $*
 
 00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv 00bin/xpg2tsv.xsl

@@ -29571,7 +29571,7 @@
 @sys	AP24 12E0D
 @sys	LLATU:188_03 BAD+DIŠ~a 
 @form |(1(N58).BAD)~b|
-@oid o0903282
+@oid o0903283
 @aka	|1(N58).BAD~b|
 @list U+12E0F
 @ucun 𒸏
@@ -29583,7 +29583,7 @@
 @@
 @form |(1(N58).BAD)~b~v1|
 @aka	|1(N58).BAD~b|~v1
-@oid o0903283
+@oid o0903665
 @list U+12E0E
 @ucun 𒸎
 @uname ONE-N58 FORM A BESIDE BAD
