@@ -99,6 +99,9 @@ rows: 00raw/${SL}-rows.tsv
 00raw/${SL}-notes.tsv:  $(wildcard 00etc/oid-notes.tsv) 00bin/sl-notes.sh 00etc/${SL}.tsv
 	00bin/sl-notes.sh ${SL}
 
+00etc/%.row: images/%/*.png
+	(cd `dirname $<` ; ls -1 >../../00etc/`/bin/echo $< | cut -d/ -f2`.row)
+
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
 	sudo cp -u ../00res/css/*.css /home/oracc/www/pcsl/css/
