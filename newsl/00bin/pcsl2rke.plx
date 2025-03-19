@@ -19,9 +19,10 @@ my $x = '';
 open(T,'>pcslrke.tsv') || die;
 open(SL,'../00lib/pcsl.asl') || die;
 while (<SL>) {
-    if (/^\@form/ || /^\@@/ || /^\@end\s+sign/) {
+    if (/^\@form/ || /^\@\@/ || /^\@end\s+sign/) {
 	if ($x) {
 	    my $r = rkeify($s);
+	    $r =~ s/~v\d+//g unless /^\@\@/; # only remove ~v[0-9] for @sign
 	    my $c = '';
 	    if ($x =~ s/x//g) {
 		my @x = split(/\./,$x);
@@ -61,7 +62,6 @@ sub rkeify {
     my $r = shift;
     $r =~ tr/|()//d;
     $r =~ tr/×&%/+++/;
-    $r =~ s/~v\d+//g;
     $r =~ s/N0+/N/g;
     $r;
 }

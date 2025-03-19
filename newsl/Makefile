@@ -41,7 +41,8 @@ easl: 00etc/easl.tsv
 00etc/%.xpg: 00etc/%.tpg 00bin/xpg.sh rkesl.map pcslrke.tsv
 	00bin/xpg.sh $*
 
-00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv 00etc/x-codes.tsv 00bin/xpg2tsv.xsl
+00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv \
+	00etc/x-codes.tsv 00bin/xpg2tsv.xsl 00bin/rke.plx
 	00bin/xpg2tsv.sh $*
 
 00etc/%.xml: frame codes names notes oids rows
@@ -122,7 +123,7 @@ images/${SL}/.images: images/${SL}/*.*
 
 pcslrke: pcslrke.tsv
 
-pcslrke.tsv: ../00lib/pcsl.asl
+pcslrke.tsv: ../00lib/pcsl.asl 00bin/pcsl2rke.plx
 	00bin/pcsl2rke.plx
 
 /home/oracc/www/fonts/${SLfont}: ~/o2/msc/fonts/${SLfont}

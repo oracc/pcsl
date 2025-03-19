@@ -7878,6 +7878,15 @@
 @@
 @end sign
 
+@sign |GU₄×1(N58)|
+@aka GU₄+1(N58)
+@oid	o0903669
+@list 	U+F3096
+@uage 0
+@note Listed in ATU 5 as reading of P001054 = ATU 5, pl. 038, W 9123,ag;
+      currently read DUG~a#? in CDLI corpus.
+@end sign
+
 @sign |GU₄.ZATU755|
 @oid o0900910
 @sys CDLI-gh img-page
@@ -9986,6 +9995,14 @@
 @sys	AP23 128C6
 @sys	AP24 12963
 @sys	LLATU:249_04 KU₃~a 
+@@
+@form KU₃~a~v1
+@oid o0903670
+@aka KU₃~b
+@uage 0
+@list U+F3097
+@note KU₃~b is used for this glyph in ATU 5 but the CDLI corpus treats it as a
+      non-contrastive glyph variant of KU₃~a.
 @@
 @form KU₃~c
 @oid o0901143

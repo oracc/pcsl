@@ -79,25 +79,23 @@ while (<>) {
     if ($ok) {
 	my $r = rkeprint(@p);
 	my $p = rkepcsl($r);
-	if ($map{$p} && $p ne $map{$p}) {
-	    $p = $map{$p};
-	    if ($p =~ /EN/ && $p =~ /NUN/) {
-		# warn "m1: EN-NUN=$p\n";
-	    }
-	} elsif ($aka{$p} && $p ne $aka{$p}) {
-	    $p = $aka{$p};
-	    if ($p =~ /EN/ && $p =~ /NUN/) {
-		# warn "m2: EN-NUN=$p\n";
-	    }
-	}
-	if ($p =~ /ZATU741/) {
-	    warn "1: ZATU741=$p\n";
-	}
 	my $okp = $pcsl{$p};
+	unless ($okp) {
+	    if ($map{$p} && $p ne $map{$p}) {
+		$okp = $pcsl{$map{$p}};
+		unless ($okp) {
+		    if ($aka{$p}) {
+			$okp = $pcsl{$aka{$p}};
+		    }
+		}
+	    } elsif ($aka{$p} && $p ne $aka{$p}) {
+		$okp = $pcsl{$aka{$p}};
+	    }
+	}
 	unless ($okp) {
 	    $p =~ tr/+/./;
 	    if ($p =~ /EN/ && $p =~ /NUN/) {
-		warn "2: EN-NUN=$p\n";
+		# warn "2: EN-NUN=$p\n";
 	    }
 	    $okp = $pcsl{$p} || $pcsl2{$p} || $pcsl3{$p};
 	    unless ($okp) {
@@ -119,6 +117,16 @@ while (<>) {
 			}
 		    }
 		}
+	    }
+	}
+	if ($map{$p}) {
+	    my $lastgo = $map{$p};
+	    if ($aka{$lastgo}) {
+		$lastgo = $aka{$lastgo};
+	    }
+	    $okp = $pcsl{$lastgo};
+	    unless ($okp) {
+		warn "map entry $lastgo not in pcslrke.tsv";
 	    }
 	}
 	unless ($okp) {
@@ -247,6 +255,11 @@ sub load_pcslrke {
 	    $r2 =~ tr/()//;
 	    if ($r3 ne $r2) {
 		push @{$pcsl3{$r3}}, [ $p, $o, $c ];
+	    }
+	    if ($p =~ /^\|/) {
+		push @{$pcsl{$p}}, [ $p, $o, $c ];
+	    } elsif (!defined($pcsl{$p})) {
+		push @{$pcsl{$p}}, [ $p, $o, $c ];
 	    }
 	}
     }
