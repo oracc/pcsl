@@ -21,9 +21,9 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www/pcsl/${SL}
 
 default:
-	@echo make: you must give an argument to make from "(msvo1,xxx)". Stop.
+	@echo make: you must give an argument to make from "(atu5,msvo1,msvo4)". Stop.
 
-tsv:  msvo1 msvo4
+tsv:  atu5 msvo1 msvo4
 
 html: 00web/${SL}-tab.html
 
@@ -45,7 +45,7 @@ easl: 00etc/easl.tsv
 	00etc/x-codes.tsv 00bin/xpg2tsv.xsl 00bin/rke.plx
 	00bin/xpg2tsv.sh $*
 
-00etc/%.xml: frame codes names notes oids rows
+00etc/%.xml: frame codes ucodes names notes oids rows
 	00bin/slframe.sh $*
 
 00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
@@ -62,6 +62,14 @@ xml: 00etc/${SL}.xml
 frame: 00raw/${SL}-frame.lst
 
 codes: 00raw/${SL}-codes.tsv
+
+ucodes: 00etc/unicode.tsv
+
+00etc/unicode.tsv: ../00lib/pcsl.asl Makefile
+	(cd .. ; \
+	sx -u 00lib/pcsl.asl ; \
+	grep ^code unicode.tsv | cut -f2,4 | grep -F U+ | cut -d+ -f2 | rocox -C21 \
+	>newsl/00etc/unicode.tsv)
 
 salts: 00raw/${SL}-salts.log
 
@@ -101,7 +109,7 @@ rows: 00raw/${SL}-rows.tsv
 	00bin/sl-notes.sh ${SL}
 
 00etc/%.row: images/%/*.png
-	(cd `dirname $<` ; ls -1 >../../00etc/`/bin/echo $< | cut -d/ -f2`.row)
+	(cd `dirname $<` ; ls -1 *.png >../../00etc/`/bin/echo $< | cut -d/ -f2`.row)
 
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
@@ -116,9 +124,9 @@ font: /home/oracc/www/fonts/${SLfont}
 
 images: images/${SL}/.images
 
-images/${SL}/.images: images/${SL}/*.*
+images/${SL}/.images: images/${SL}/*.png
 	sudo mkdir -p ${WWW}/images
-	sudo cp -u images/${SL}/*.* ${WWW}/images
+	sudo cp -u images/${SL}/*.png ${WWW}/images
 	touch $@
 
 pcslrke: pcslrke.tsv

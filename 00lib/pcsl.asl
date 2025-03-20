@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3095
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3098
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -7879,9 +7879,10 @@
 @end sign
 
 @sign |GU₄×1(N58)|
-@aka GU₄+1(N58)
+@aka |GU₄+1(N58)|
 @oid	o0903669
 @list 	U+F3096
+@uname NOT
 @uage 0
 @note Listed in ATU 5 as reading of P001054 = ATU 5, pl. 038, W 9123,ag;
       currently read DUG~a#? in CDLI corpus.
@@ -10000,6 +10001,7 @@
 @oid o0903670
 @aka KU₃~b
 @uage 0
+@uname NOT
 @list U+F3097
 @note KU₃~b is used for this glyph in ATU 5 but the CDLI corpus treats it as a
       non-contrastive glyph variant of KU₃~a.
@@ -12464,6 +12466,7 @@
 
 @compoundonly NA₂@n
 @compoundonly NA₂~a@n
+
 @sign NAB
 @oid o0901448
 @sys CDLI-gh img-page
@@ -15703,6 +15706,8 @@
 @uage 1
 @sys	AP23 12E32
 @sys	AP24 12B0C
+@note in ATU5 this sign is called SILA₃~b+NAGA~a, but in CDLI-gh NAGA~b
+      is the name for the form of NAGA involved here.
 @@
 @end sign
 
@@ -23128,6 +23133,13 @@
 @uage 1
 @sys	AP23 12B90
 @sys	AP24 12D44
+@@
+@form ZATU726~b
+@oid o0903671
+@list U+F3098
+@uage 0
+@uname NOT
+@note This form occurs in ATU5 but is understood as ZATU726~c in CDLI P001079 o ii 2.
 @@
 @form ZATU726~c
 @oid o0902630

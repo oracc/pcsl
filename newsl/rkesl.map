@@ -10,18 +10,20 @@ DU+1N58	DU+1N58@t
 EN~b+NUN~a	NUN~a+EN~b~v1
 HI+AŠ~a	HI+1N57
 KA₂+LAM	KA₂~d+LAM~b
-LAGAB~a.ŠITA~a1	|LAGAB~a×ŠITA~a1|
+LAGAB~a+SZITA~a1	|LAGAB~a×ŠITA~a1|
 MAH~a.GUKKAL	|MAH~a×GUKKAL~a|
-MAR~b.ŠE₃	
-MAR~b+LAGAB~b+ŠE3	|MAR~b×(LAGAB~b.ŠE₃~v1)|
+MAR~b.ŠE₃	|MAR~b×ŠE~a|
+MAR~b+LAGAB~b+ŠE₃	|MAR~b×(LAGAB~b.ŠE₃~v1)|
 NANNA₂	NANNA~a
 NISAG~b	NESAG₂~b
-RAD@g	
+RAD@g	RAD~a@g
 ŠA+HI@g~a	ŠA+HI@g~a~a
 ŠA.HI@g~b	ŠA+HI@g~a~b
 SAL+ZATU751~b	SAL.HI+HI
-SILA₃~b.NAGA~a	
-ŠU₂+EN~a	ŠU₂~a.EN~a
-UNUG~a.A	
-ZATU726~b
+SILA₃~b.NAGA~a	|SILA₃~b×NAGA~b|
+ŠU2+EN~a	|ŠU₂~a.EN~a|
+UNUG~a.A	|UNUG~a~v1×A@t|
 ZATU741+HI@g~a	ZATU737+GAR.HI@g~a	
+SILA₃~a+ZATU659+TU~c	|SILA₃~a×(ZATU659.TU~c~v1)|
+ŠUBUR+1N57	|1(N57).ŠUBUR~v1|
+ZATU726~b	ZATU726~b

@@ -24,7 +24,7 @@ if ($from < 1 || $to < 2 || $to < $from) {
 }
 
 for ($from .. $to) {
-    printf ("mv %03d.png new/%03d.png\n", $_, $_ + $delta);
+    printf ("cp -v %03d.png new/%03d.png\n", $_, $_ + $delta);
 }
 
 1;

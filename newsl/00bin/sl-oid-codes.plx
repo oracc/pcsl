@@ -29,10 +29,17 @@ foreach (@a, @b) {
 
 my %seen = ();
 
+my @u = `cat 00etc/unicode.tsv`; chomp @u;
+my %u = ();
+foreach (@u) {
+    my($o,$u) = split(/\t/,$_);
+    $u{$o} = $u;
+}
+
 my @e = `cat $f`; chomp @e;
 foreach (@e) {
     my($o,@rest) = split(/\t/, $_);
-    my $a24 = $a{$o} || '';
+    my $a24 = $a{$o} || $u{$o} || '';
     warn "$n: no code for $_\n" unless $a24;
     print "$_\t$a24\n";
 }

@@ -46,7 +46,7 @@ if ($xmlflag) {
     open(X, ">00etc/$name.xpg") || die;
     print X "<sl n=\"$name\">";
 }
-
+open(LOG,'>rke.log');
 my $pat="($g|$n|$z|$q)($x)?($m(?:$x)?)?";
 while (<>) {
     chomp;
@@ -79,6 +79,7 @@ while (<>) {
     if ($ok) {
 	my $r = rkeprint(@p);
 	my $p = rkepcsl($r);
+	print LOG "$r => $p\n";
 	my $okp = $pcsl{$p};
 	unless ($okp) {
 	    if ($map{$p} && $p ne $map{$p}) {
@@ -145,7 +146,7 @@ while (<>) {
 	warn "nope: $_\n";
     }
 }
-
+close(LOG);
 print X "</sl>" if $xmlflag;
 
 #################################################################################
