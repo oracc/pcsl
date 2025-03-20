@@ -41,11 +41,14 @@ atu5: Makefile 00etc/atu5.tsv
 atu3: Makefile 00etc/atu3.xpg
 	SL=atu3 make xml html
 
-00etc/atu3.xpg: 00etc/atu3-base.tsv 00bin/llatu-xpg.sh
+#
+# NOTE: LLATU is cut off after ideograms with a hard line count here.
+#
+00etc/atu3.xpg: 00etc/atu3-base.tsv 00bin/llatu-xpg.sh Makefile
 	00bin/llatu-xpg.sh <$< >$@
 
-00etc/atu3-base.tsv: ../00lib/pcsl.asl 00bin/llatu-base.plx
-	00bin/llatu-base.plx $< | sort >$@
+00etc/atu3-base.tsv: ../00lib/pcsl.asl 00bin/llatu-base.plx Makefile
+	00bin/llatu-base.plx $< | sort | head -670 >$@
 
 easl: 00etc/easl.tsv
 

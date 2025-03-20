@@ -5129,6 +5129,7 @@
 @list U+12804
 @ucun 𒠄
 @uname EZEN-B TIMES SIX-N57
+@sys	LLATU:212_02 EZEN~bx6N57 
 @sys	AP23 12CE0
 @sys	AP24 12804
 @@
@@ -6502,6 +6503,7 @@
 @ucun 𒡙
 @uname GAN-C TIMES DIN
 @uage 1
+@sys	LLATU:224_03 GAN~bxDIN 
 @sys	AP23 12D14
 @sys	AP24 12859
 @@
@@ -7593,7 +7595,7 @@
 @uage 1
 @sys	AP23 12D3A
 @sys	AP24 128A9
-@sys	LLATU:233_02 GIŠ+DIN+DIN~c 
+@sys	LLATU:233_01 GIŠ+DIN+DIN~a 
 @@
 @form |(GIŠ×(DIN.DIN))~b|
 @oid o0900880
@@ -7610,6 +7612,7 @@
 @ucun 𒢫
 @uname GISH TIMES DIN PLUS DIN FORM C
 @uage 1
+@sys	LLATU:233_02 GIŠ+DIN+DIN~c 
 @sys	AP23 12D3C
 @sys	AP24 128AB
 @@
@@ -16313,6 +16316,15 @@
 @sys	AP23 12E3A
 @sys	AP24 12B29
 @sys	LLATU:288_04 SUKUD+SUKUD~b 
+@@
+@form |(SUKUD+SUKUD)~c|
+@oid o0901892
+@aka	|((SUKUD+SUKUD)~c)|
+@uname SUKUD JOINING SUKUD FORM C
+@uage 1
+@sys	AP23 12E3B
+@sys	AP24 12B29 
+@sys	LLATU:288_05 SUKUD+SUKUD~x 
 @@
 @form |(SUKUD+SUKUD)~d|
 @oid o0901893

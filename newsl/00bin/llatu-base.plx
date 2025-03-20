@@ -21,6 +21,12 @@ my $u;
 while (<>) {
     chomp;
     if (/^\@(sign|form)\s+(\S+)/) {
+	if ($l) {
+	    $oid = $top_oid unless $oid;
+	    print "$l\t$sf\t$oid\t$u\n";
+	    $l = '';
+	}
+	$oid = '';
 	$sf = $2;
 	$top_oid = '';
     } elsif (/^\@oid\s+(\S+)/) {
@@ -29,8 +35,9 @@ while (<>) {
     } elsif (/^\@ucun\s+(\S+)/) {
 	$u = $1;
     } elsif (s/^\@sys\s+LLATU://) {
-#	s/_\S+\s+/\t/;
-#	s/\s+$//;
+	#	s/_\S+\s+/\t/;
+	s/\s+/\t/;
+	s/\s+$//;
 	$l = $_;
     } elsif (/\@\@|\@end/) {
 	if ($l) {
