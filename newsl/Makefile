@@ -45,7 +45,7 @@ atu3: Makefile 00etc/atu3.xpg
 	00bin/llatu-xpg.sh <$< >$@
 
 00etc/atu3-base.tsv: ../00lib/pcsl.asl 00bin/llatu-base.plx
-	00bin/llatu-base.plx $< >$@
+	00bin/llatu-base.plx $< | sort >$@
 
 easl: 00etc/easl.tsv
 

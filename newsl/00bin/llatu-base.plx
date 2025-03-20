@@ -29,8 +29,8 @@ while (<>) {
     } elsif (/^\@ucun\s+(\S+)/) {
 	$u = $1;
     } elsif (s/^\@sys\s+LLATU://) {
-	s/_\S+\s+/\t/;
-	s/\s+$//;
+#	s/_\S+\s+/\t/;
+#	s/\s+$//;
 	$l = $_;
     } elsif (/\@\@|\@end/) {
 	if ($l) {
