@@ -2673,7 +2673,7 @@
 @sys	AP23 12783
 @sys	AP24 12751
 @@
-@form DU₆~a2
+@form DU₆~a~v2
 @oid o0900286
 @list BAU219
 @sys	LLATU:196_01 DU₆~a 
