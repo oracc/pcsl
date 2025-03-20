@@ -16,12 +16,14 @@
 
 # salts tags
 
+.PRECIOUS: 00etc/atu3.row 00etc/atu5.row 00etc/msvo1.row 00etc/msvo4.row
+
 SLfont=PC-all.ttf
 
 WWW=/home/oracc/www/pcsl/${SL}
 
 default:
-	@echo make: you must give an argument to make from "(atu5,msvo1,msvo4)". Stop.
+	@echo make: you must give an argument to make from "(atu3,atu5,msvo1,msvo4)". Stop.
 
 tsv:  atu5 msvo1 msvo4
 
@@ -35,6 +37,15 @@ msvo4: Makefile 00etc/msvo4.tsv
 
 atu5: Makefile 00etc/atu5.tsv
 	SL=atu5 make pcslrke xpg xml html
+
+atu3: Makefile 00etc/atu3.xpg
+	SL=atu3 make xml html
+
+00etc/atu3.xpg: 00etc/atu3-base.tsv 00bin/llatu-xpg.sh
+	00bin/llatu-xpg.sh <$< >$@
+
+00etc/atu3-base.tsv: ../00lib/pcsl.asl 00bin/llatu-base.plx
+	00bin/llatu-base.plx $< >$@
 
 easl: 00etc/easl.tsv
 
