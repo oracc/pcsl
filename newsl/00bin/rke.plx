@@ -9,6 +9,7 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 use ORACC::XML;
 
 use Getopt::Long;
+my $dump = 0;
 my $italics = 0;
 my $name = '';
 my $tsvflag = 0;
@@ -20,6 +21,7 @@ my $xid = 'x00';
 my %xids = ();
 
 GetOptions(
+    d=>\$dump,
     i=>\$italics,
     'n:s'=>\$name,
     t=>\$tsvflag,
@@ -46,6 +48,7 @@ if ($xmlflag) {
     open(X, ">00etc/$name.xpg") || die;
     print X "<sl n=\"$name\">";
 }
+open(D,">$name.dump") if $dump;
 open(LOG,'>rke.log');
 my $pat="($g|$n|$z|$q)($x)?($m(?:$x)?)?";
 while (<>) {
@@ -147,6 +150,7 @@ while (<>) {
     }
 }
 close(LOG);
+close(D) if $dump;
 print X "</sl>" if $xmlflag;
 
 #################################################################################
@@ -181,6 +185,9 @@ sub xml {
 	foreach my $c (@c) {
 	    my($cp,$co,$cc) = @$c;
 	    printf(X "<c><p>%s</p><o>$co</o><u>$cc</u></c>", xmlify($cp));
+	    if ($dump) {
+		print D "$xid\t$r\t$p\t$co\t$cp\t$cc\n";
+	    }
 	}
     }
     print X "</s>";

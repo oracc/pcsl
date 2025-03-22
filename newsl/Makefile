@@ -56,7 +56,7 @@ easl: 00etc/easl.tsv
 	00bin/xpg.sh $*
 
 00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv \
-	00etc/x-codes.tsv 00bin/xpg2tsv.xsl 00bin/rke.plx
+	00etc/x-codes.tsv 00bin/xpg2tsv.xsl 00bin/rke.plx 00etc/x.tsv
 	00bin/xpg2tsv.sh $*
 
 00etc/%.xml: frame codes ucodes names notes oids rows
