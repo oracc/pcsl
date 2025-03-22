@@ -1,6 +1,7 @@
 004	+
 011	+
-037	𒸎	also fix EASL856
+037	𒸎
+# also fix EASL856
 039	𒛥
 040	𒛧
 042	𒛭
@@ -17,7 +18,8 @@
 189	+
 192	+
 197	𒡒
-199	+	Descrepant names
+199	+
+#Discrepant names
 209	𒡳
 211	𒡸
 216	+
@@ -40,13 +42,14 @@
 328	+
 343	𒧀
 346	𒧙
-347	WRONG_CHAR
 354	𒧦
 364	+
 375	𒨐
-378	𒨝	NAGAR~a/~b reversed in ATU3
+378	𒨝
+#NAGAR~a/~b reversed in ATU3
 379	𒨜
-385	+	GLYPH AS JN
+385	+
+#GLYPH AS JN
 386	𒨰
 391	+
 399	𒩈
@@ -88,7 +91,8 @@
 583	+
 599	𒱠
 602	𒱴
-608	+	weird HI as contained character
+608	+
+#weird HI as contained character
 617	𒷬
 618	+
 634	𒳞
