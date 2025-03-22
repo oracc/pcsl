@@ -12,6 +12,9 @@ use Getopt::Long;
 GetOptions(
     );
 
+my %grist = ();
+load_grist();
+
 my $oidlast = `tail -1 /home/oracc/oid/oid.tab`; chomp $oidlast; $oidlast =~ s/\t.*$//;
 my $puahex = `tail -1 ~/orc/pcsl/00etc/add-data.tsv | cut -f2`; chomp $puahex; $puahex =~ s/\t.*//;
 
@@ -21,20 +24,39 @@ my $pua = hex($puahex); ++$pua;
 #printf STDERR "$0: last oid = $oidlast; next oid = $oid\n";
 #printf STDERR "$0: last pua = $puahex; next pua = %X\n", $pua;
 
-my @more = (<*~v*.xcf>);
+my @more = (<x/*.xcf>);
 
 foreach my $m (@more) {
     my $f = $m;
+    $f =~ s#^x\/##;
+    next if $f =~ /^[134](msvo)?\d+\.xcf/;
+    $m =~ s#^x\d##;
     $m =~ s/\.xcf//;
-    my ($po,$pm,$vm) = pm($m);
+    my ($po,$pm,$vm) = ();
+    if ($f =~ /^[35]/) {
+	($po,$pm,$vm) = @{$grist{$f}};
+    } else {
+	($po,$pm,$vm) = pm($m);
+    }
     # warn "$m => $pm :: $vm\n";
+    $po = '' unless $po;
     printf "$po\t$pm\t$pm$vm\t$oid\t%X\t$f\n", $pua++;
     ++$oid;
 }
 
 sub pm {
     my $fss = shift;
+    $fss =~ s/^x\/\d//;
+    $fss =~ s/(zatu751|lagab|mun|sze|me|szab|sig2|nesag|du6|dug|ga2|isz|ukkin|ni|en|tag|dub|szakir)([abc])/$1~$2/g;
     my ($p,$v) = ($fss =~ /^(.*?)(~v[0-9]$)/);
+    unless ($v) {
+	($p,$v) = $fss =~ /^(.*?)(vv)$/;
+    }
+    if ($fss =~ /zatu751~b/) {
+	$p = $fss;
+	$v = '';
+    }
+    die "$fss\n" unless $p;
     my @px = split(/([x])/,$p);
     my @npx = ();
     my $pipes = 0;
@@ -58,6 +80,10 @@ sub pm {
     }
     my $pret = join('',@npx);
     $pret = "|$pret|" if $pipes;
+    $pret =~ s/\@G/\@g/;
+    $pret =~ s/××/×X/;
+    $pret =~ s/₄N₅₇/4(N57)/;
+    # warn "gdlx on $pret\n";
     my $poid = `gdlx -p pcsl -sb '$pret'`; chomp $poid;
     # warn "pm: $fss => $pret :: $v\n";
     ($poid,"$pret",$v);
@@ -67,3 +93,9 @@ sub pm {
 
 ################################################################################
 
+sub load_grist {
+    my @g = `cat atu3/atu3+/grist`; chomp @g;
+    foreach (@g) {my($o,$p,$f)=split(/\t/,$_); $grist{"3$f"} = [$o,$p,'~vv3'] }
+    @g = `cat atu5/atu5+/grist`; chomp @g;
+    foreach (@g) {my($o,$p,$f)=split(/\t/,$_); $grist{"5$f"} = [$o,$p,'~vv5'] }
+}
