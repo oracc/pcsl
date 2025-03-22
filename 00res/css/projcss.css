@@ -67,4 +67,6 @@ td a { text-decoration: none; }
 
 .preamble { width: 80%; margin: auto; }
 
-.lrow { height: 80; }
+td.lrow { padding-left: 5px; text-align: left; }
+
+/* img.lrow { height: 80; } */

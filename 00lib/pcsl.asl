@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3098
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3098 0xFFFFC
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -11778,10 +11778,16 @@
 @form MAR@g~a
 @oid o0901373
 @sys	ADD F301C CUSAS31 MAR-ga.png
-@sys	LLATU:255_03 MAR~a@g 
 @inote	CUSAS31
 @list U+F301C
 @uname ADD NAME MAR@g~a
+@@
+@form MAR@g~a~v1
+@oid o0901373
+@sys	LLATU:255_03 MAR~a@g 
+@inote @list U+129D9
+@inote @ucun 𒧙
+@uname MAR@g~a~v1
 @@
 @end sign
 
@@ -11791,12 +11797,11 @@
 @inote @smap MAR~a@t
 @form MAR~a@t
 @oid o0901375
-@list U+129D9
-@ucun 𒧙
 @uname MAR-A TENU
+@list U+FFFFC
 @uage 1
 @sys	AP23 1290D
-@sys	AP24 129D9
+@sys	AP24 FFFFC
 @sys	LLATU:255_04 MAR~a@t 
 @@
 @end sign

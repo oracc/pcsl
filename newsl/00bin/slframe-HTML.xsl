@@ -136,7 +136,7 @@
 	  </td>
 	  
 	  <xsl:if test="count(preceding-sibling::*)=0">
-	    <td rowspan="{count(../*)}">
+	    <td rowspan="{count(../*)}" class="lrow">
 	      <a href="javascript://" onclick="easlPopup('{../@oid}')">
 		<xsl:choose>
 		  <xsl:when test="starts-with(../@row,'/')">
