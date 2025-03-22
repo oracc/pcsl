@@ -12,8 +12,9 @@ use Getopt::Long;
 GetOptions(
     );
 
-my %grist = ();
-load_grist();
+my %oid = (); load_oid();
+
+my %grist = (); load_grist();
 
 my $oidlast = `tail -1 /home/oracc/oid/oid.tab`; chomp $oidlast; $oidlast =~ s/\t.*$//;
 my $puahex = `tail -1 ~/orc/pcsl/00etc/add-data.tsv | cut -f2`; chomp $puahex; $puahex =~ s/\t.*//;
@@ -25,6 +26,11 @@ my $pua = hex($puahex); ++$pua;
 #printf STDERR "$0: last pua = $puahex; next pua = %X\n", $pua;
 
 my @more = (<x/*.xcf>);
+
+open(TSV, '>more.tsv'); select TSV;
+open(OID, '>more.oid');
+open(ADD, '>more.add');
+open(ASL, '>more.asl');
 
 foreach my $m (@more) {
     my $f = $m;
@@ -38,10 +44,36 @@ foreach my $m (@more) {
     } else {
 	($po,$pm,$vm) = pm($m);
     }
+    my $pmvm = "$pm$vm";
+    warn "$pmvm already defined as OID $oid{$pmvm}\n" if $oid{$pmvm};
     # warn "$m => $pm :: $vm\n";
     $po = '' unless $po;
-    printf "$po\t$pm\t$pm$vm\t$oid\t%X\t$f\n", $pua++;
+    printf "$po\t$pm\t$pm$vm\t$oid\t%X\t$f\n", $pua;
+    print OID "$oid\tpc\t$pmvm\tsign\t\n";
+    printf ADD "$oid\t%X\tMORE1\t$f\t$pmvm\n", $pua;
+    printf ASL "\@sign $pm\n\@form $pmvm\n\@oid $oid\n\@list U+%X\n\@uname ADD %X\n\@\@\n\n", $pua, $pua;
+    ++$pua;
     ++$oid;
+}
+
+close(OID);
+close(ADD);
+close(ASL);
+
+1;
+
+################################################################################
+
+sub load_grist {
+    my @g = `cat atu3/atu3+/grist`; chomp @g;
+    foreach (@g) {my($o,$p,$f)=split(/\t/,$_); $grist{"3$f"} = [$o,$p,'~vv3'] }
+    @g = `cat atu5/atu5+/grist`; chomp @g;
+    foreach (@g) {my($o,$p,$f)=split(/\t/,$_); $grist{"5$f"} = [$o,$p,'~vv5'] }
+}
+
+sub load_oid {
+    my @o = `grep ^o09 /home/oracc/oid/oid.tab`; chomp @o;
+    foreach (@o) { my($o,$pc,$n) = split(/\t/,$_); $oid{$n} = $o; }
 }
 
 sub pm {
@@ -54,7 +86,7 @@ sub pm {
     }
     if ($fss =~ /zatu751~b/) {
 	$p = $fss;
-	$v = '';
+	$v = '~v';
     }
     die "$fss\n" unless $p;
     my @px = split(/([x])/,$p);
@@ -87,15 +119,4 @@ sub pm {
     my $poid = `gdlx -p pcsl -sb '$pret'`; chomp $poid;
     # warn "pm: $fss => $pret :: $v\n";
     ($poid,"$pret",$v);
-}
-
-1;
-
-################################################################################
-
-sub load_grist {
-    my @g = `cat atu3/atu3+/grist`; chomp @g;
-    foreach (@g) {my($o,$p,$f)=split(/\t/,$_); $grist{"3$f"} = [$o,$p,'~vv3'] }
-    @g = `cat atu5/atu5+/grist`; chomp @g;
-    foreach (@g) {my($o,$p,$f)=split(/\t/,$_); $grist{"5$f"} = [$o,$p,'~vv5'] }
 }
