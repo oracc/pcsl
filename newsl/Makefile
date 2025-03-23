@@ -34,14 +34,18 @@ msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row ucodes
 
 #	SL=msvo1 make pcslrke xpg xml html
 
-msvo4: Makefile 00etc/msvo4.tsv
-	SL=msvo4 make pcslrke xpg xml html
+msvo4: Makefile 00etc/msvo4.tpg 00etc/msvo4.fix 00etc/msvo4.row ucodes 00bin/chr-dump.plx
+	SL=msvo4 make final fxml html
 
-atu5: Makefile 00etc/atu5.tsv
-	SL=atu5 make pcslrke xpg xml html
+# SL=msvo4 make pcslrke xpg xml html
 
-atu3: Makefile 00etc/atu3.xpg
-	SL=atu3 make xml html
+atu5: Makefile  00etc/atu5.tpg 00etc/atu5.fix 00etc/atu5.row ucodes 00bin/chr-dump.plx
+	SL=atu5 make final fxml html
+
+# SL=atu5 make pcslrke xpg xml html
+
+atu3: Makefile  00etc/atu3.tpg 00etc/atu3.fix 00etc/atu3.row ucodes 00bin/chr-dump.plx
+	SL=atu3 make final fxml html
 
 final: 00etc/${SL}-final.tsv
 
@@ -83,7 +87,7 @@ xml: 00etc/${SL}.xml
 fxml: 00etc/${SL}-final.xml
 
 00etc/${SL}-final.xml: 00etc/${SL}-final.tsv
-	00bin/final-xml.plx
+	00bin/final-xml.plx ${SL}
 
 fhtml: 00web/${SL}-tab.html
 

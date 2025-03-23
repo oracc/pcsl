@@ -25,9 +25,9 @@ while (<D>) {
 close(D);
 my $status = 0;
 my %f = ();
-open(F,"00etc/$n-fix-chr.tsv") || die;
+open(F,"00etc/$n.fix") || die;
 while (<F>) {
-    next if /	MISN/;
+    next if /	MISN/ || /^#/ || /~$/;
     my($p) = (/^(\S+)\t/);
     unless ($d{$p}) {
 	warn "no $p in $n\n";

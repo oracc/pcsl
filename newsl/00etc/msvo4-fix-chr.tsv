@@ -11,7 +11,8 @@ EN~a	-	𒟘
 GA~a	-	𒠎
 |GA~a.ZATU753|	-	𒠐
 GAN~a	-	𒡓
-|(GI&GI)×X|	-	broken or X=unknown?
+|(GI&GI)×X|	-	~
+#broken or X=unknown?
 GIŠIMMAR~a3	-	󳃛
 GU₄@g	-	󳃜
 GUB₃~d	-	󳃝
@@ -19,11 +20,12 @@ IŠ~b	-	𒤎
 KINGAL	-	𒥌
 KIŠ	-	𒥛
 MA	-	𒧀
-MAR	-	+𒧚
+MAR~a	-	+𒧚
 MUD₃~a@g	-	󳃞
 MUN~a1	-	󳃟
 MUŠ₃~a	-	𒨃
-|1(N57).ŠUBUR|	-	seq
+|1(N57).ŠUBUR|	-	~
+#seq
 NA₂~a	-	𒨐
 NAGAR~a	-	𒨜
 NE~a	-	𒨰𒨱
@@ -31,17 +33,17 @@ NIMGIR	-	𒩈
 NU@g	-	󳃠
 NUN~c	-	𒩽𒩾
 PA~a	-	+𒪌
-RAD~a	FONT_ERROR
 RU	-	+𒪥
 SAG	-	𒪮
 SANGA~a	-	𒪼
 SIG₇	-	𒫤
-|SILA₃~a×ŠU|	-	TYPO_IN_MSVO4
+|SILA₃~a×ŠU|	-	~
+# TYPO_IN_MSVO4
 ŠAGAN	-	𒭇
 ŠEŠ~a	-	𒭮
 ŠIM~a	-	𒭳
-|ŠU₂~a.EN~a|	-	𒮔
-TI~a	-	+𒮾
+|ŠU₂.EN~a|	-	𒮔
+TI	-	+𒮾
 TUM~c	-	󳃡
 TUR	-	𒯗
 TUR@g	-	󳃢
