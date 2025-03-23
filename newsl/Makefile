@@ -29,8 +29,8 @@ tsv:  atu5 msvo1 msvo4
 
 html: 00web/${SL}-tab.html
 
-msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row
-	SL=msvo1 make final
+msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row ucodes
+	SL=msvo1 make final fxml html
 
 #	SL=msvo1 make pcslrke xpg xml html
 
@@ -69,7 +69,7 @@ easl: 00etc/easl.tsv
 00etc/%.xml: frame codes ucodes names notes oids rows
 	00bin/slframe.sh $*
 
-00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
+x00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
 	mkdir -p 00web
 	00bin/slhtml.sh $*
 	sudo mkdir -p ${WWW}
@@ -79,6 +79,20 @@ easl: 00etc/easl.tsv
 xpg: 00etc/${SL}.xpg
 
 xml: 00etc/${SL}.xml
+
+fxml: 00etc/${SL}-final.xml
+
+00etc/${SL}-final.xml: 00etc/${SL}-final.tsv
+	00bin/final-xml.plx
+
+fhtml: 00web/${SL}-tab.html
+
+00web/%-tab.html: 00etc/%-final.xml 00bin/* Makefile css js font images
+	mkdir -p 00web
+	00bin/final-html.sh $*
+	sudo mkdir -p ${WWW}
+	sudo cp 00web/$*-tab.html ${WWW}
+	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
 
 frame: 00raw/${SL}-frame.lst
 
