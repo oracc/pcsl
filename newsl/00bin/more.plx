@@ -51,7 +51,7 @@ foreach my $m (@more) {
     printf "$po\t$pm\t$pm$vm\t$oid\t%X\t$f\n", $pua;
     print OID "$oid\tpc\t$pmvm\tsign\t\n";
     printf ADD "$oid\t%X\tMORE1\t$f\t$pmvm\n", $pua;
-    printf ASL "\@sign $pm\n\@form $pmvm\n\@oid $oid\n\@list U+%X\n\@uname ADD %X\n\@\@\n\n", $pua, $pua;
+    printf ASL "\@sign $pm\n\@form $pmvm\n\@oid $oid\n\@list U+%X\n\@uname ADD %X\n\@ucun %s\n\@\@\n\n", $pua, $pua, chr($pua);
     ++$pua;
     ++$oid;
 }
