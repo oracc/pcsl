@@ -44,8 +44,11 @@ atu5: Makefile  00etc/atu5.tpg 00etc/atu5.fix 00etc/atu5.row ucodes 00bin/chr-du
 
 # SL=atu5 make pcslrke xpg xml html
 
-atu3: Makefile  00etc/atu3.tpg 00etc/atu3.fix 00etc/atu3.row ucodes 00bin/chr-dump.plx
+atu3: Makefile atu3.dump 00etc/atu3.fix 00etc/atu3.row ucodes 00bin/chr-dump.plx
 	SL=atu3 make final fxml html
+
+atu3.dump: 00etc/atu3-base.tsv
+	rocox -C43225 <$< >$@
 
 final: 00etc/${SL}-final.tsv
 
