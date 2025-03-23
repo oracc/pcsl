@@ -9,15 +9,23 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $first = 0;
 my $sl = '';
 GetOptions(
     'n:s'=>\$sl,
+    1=>\$first,
     );
 
 warn "sl=$sl\n";
 
+$sl .= '001' unless $sl =~ /\d$/;
+
 while (<>) {
-    s/\t/\t$sl\t/;
+    if ($first) {
+	s/^/$sl\t/;
+    } else {
+	s/\t/\t$sl\t/;
+    }
     print;
     ++$sl;
 }

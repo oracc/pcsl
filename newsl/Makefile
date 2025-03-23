@@ -29,8 +29,10 @@ tsv:  atu5 msvo1 msvo4
 
 html: 00web/${SL}-tab.html
 
-msvo1: Makefile 00etc/msvo1.tsv
-	SL=msvo1 make pcslrke xpg xml html
+msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row
+	SL=msvo1 make final
+
+#	SL=msvo1 make pcslrke xpg xml html
 
 msvo4: Makefile 00etc/msvo4.tsv
 	SL=msvo4 make pcslrke xpg xml html
@@ -40,6 +42,11 @@ atu5: Makefile 00etc/atu5.tsv
 
 atu3: Makefile 00etc/atu3.xpg
 	SL=atu3 make xml html
+
+final: 00etc/${SL}-final.tsv
+
+00etc/%-final.tsv:
+	00bin/chr-dump.sh $*
 
 #
 # NOTE: LLATU is cut off after ideograms with a hard line count here.

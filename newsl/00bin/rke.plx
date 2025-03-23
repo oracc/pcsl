@@ -140,7 +140,7 @@ while (<>) {
 	    }
 	}
 	if ($xmlflag) {
-	    xml($t,$orig,$r,$okp);
+	    xml($t,$orig,$p,$okp);
 	} else {
 	    print "$t\t" if $tsvflag;
 	    print "$_\t", join('--',  @p), "\t$r\t$p\n";
@@ -186,7 +186,7 @@ sub xml {
 	    my($cp,$co,$cc) = @$c;
 	    printf(X "<c><p>%s</p><o>$co</o><u>$cc</u></c>", xmlify($cp));
 	    if ($dump) {
-		print D "$xid\t$r\t$p\t$co\t$cp\t$cc\n";
+		print D "$xid\t$cp\t$r\t$p\t$cc\n";
 	    }
 	}
     }
