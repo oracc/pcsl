@@ -29,19 +29,26 @@ tsv:  atu5 msvo1 msvo4
 
 html: 00web/${SL}-tab.html
 
-msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row
-	SL=msvo1 make final
+msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row ucodes
+	SL=msvo1 make final fxml html
 
 #	SL=msvo1 make pcslrke xpg xml html
 
-msvo4: Makefile 00etc/msvo4.tsv
-	SL=msvo4 make pcslrke xpg xml html
+msvo4: Makefile 00etc/msvo4.tpg 00etc/msvo4.fix 00etc/msvo4.row ucodes 00bin/chr-dump.plx
+	SL=msvo4 make final fxml html
 
-atu5: Makefile 00etc/atu5.tsv
-	SL=atu5 make pcslrke xpg xml html
+# SL=msvo4 make pcslrke xpg xml html
 
-atu3: Makefile 00etc/atu3.xpg
-	SL=atu3 make xml html
+atu5: Makefile  00etc/atu5.tpg 00etc/atu5.fix 00etc/atu5.row ucodes 00bin/chr-dump.plx
+	SL=atu5 make final fxml html
+
+# SL=atu5 make pcslrke xpg xml html
+
+atu3: Makefile atu3.dump 00etc/atu3.fix 00etc/atu3.row ucodes 00bin/chr-dump.plx
+	SL=atu3 make final fxml html
+
+atu3.dump: 00etc/atu3-base.tsv
+	rocox -C43225 <$< >$@
 
 final: 00etc/${SL}-final.tsv
 
@@ -69,7 +76,7 @@ easl: 00etc/easl.tsv
 00etc/%.xml: frame codes ucodes names notes oids rows
 	00bin/slframe.sh $*
 
-00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
+x00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
 	mkdir -p 00web
 	00bin/slhtml.sh $*
 	sudo mkdir -p ${WWW}
@@ -79,6 +86,20 @@ easl: 00etc/easl.tsv
 xpg: 00etc/${SL}.xpg
 
 xml: 00etc/${SL}.xml
+
+fxml: 00etc/${SL}-final.xml
+
+00etc/${SL}-final.xml: 00etc/${SL}-final.tsv
+	00bin/final-xml.plx ${SL}
+
+fhtml: 00web/${SL}-tab.html
+
+00web/%-tab.html: 00etc/%-final.xml 00bin/* Makefile css js font images
+	mkdir -p 00web
+	00bin/final-html.sh $*
+	sudo mkdir -p ${WWW}
+	sudo cp 00web/$*-tab.html ${WWW}
+	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
 
 frame: 00raw/${SL}-frame.lst
 

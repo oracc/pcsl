@@ -283,6 +283,12 @@
 @sys	AP24 1269A
 @sys	LLATU:179_01 AB~a+AŠ₂ 
 @@
+@form |AB~a×AŠ₂|~vv3
+@oid o0903689
+@list U+F30AE
+@ucun 󳂮
+@uname ADD more1 F30AE
+@@
 @end sign
 
 @sign |AB×KU₆|
@@ -524,6 +530,12 @@
 @sys	AP23 126F3
 @sys	AP24 126AD
 @sys	LLATU:181_01 ABRIG 
+@form ABRIG~vv3
+@oid o0903688
+@list U+F30AD
+@ucun 󳂭
+@uname ADD more1 F30AD
+@@
 @end sign
 
 @sign ABZU
@@ -1703,6 +1715,12 @@
 @sys	AP24 1270A
 @sys	LLATU:190_06 BIR₃~c 
 @@
+@form BIR₃~c~v1
+@oid o0903730
+@list U+F30D7
+@ucun 󳃗
+@uname ADD more1 F30D7
+@@
 @end sign
 
 @sign BU
@@ -2326,6 +2344,12 @@
 @sys	AP23 12C6F
 @sys	AP24 12736
 @@
+@form |DARA₃~c×KAR₂|~v1
+@oid o0903731
+@list U+F30D8
+@ucun 󳃘
+@uname ADD more1 F30D8
+@@
 @end sign
 
 @sign |DARA₃×(KAR₂.ŠE)|
@@ -2511,6 +2535,12 @@
 @sys	AP24 12744
 @inote	ATFU DIB? in Text 19 O0302 looks like |LAGAB×MAŠ|;
 @@
+@form DIB~v2
+@oid o0903732
+@list U+F30D9
+@ucun 󳃙
+@uname ADD more1 F30D9
+@@
 @end sign
 
 @sign DILMUN
@@ -2576,6 +2606,12 @@
 @sys	AP23 1277D
 @sys	AP24 1274A
 @sys	LLATU:195_04 DIM~c 
+@@
+@form DIM~a~v1
+@oid o0903668
+@list U+F3099
+@ucun 󳂙
+@uname ADD more1 F3099
 @@
 @end sign
 
@@ -2698,6 +2734,18 @@
 @sys	AP23 12785
 @sys	AP24 12754
 @sys	LLATU:196_03 DU₆~c 
+@@
+@form DU₆~a~v3
+@oid o0903690
+@list U+F30AF
+@ucun 󳂯
+@uname ADD more1 F30AF
+@@
+@form DU₆~b~v1
+@oid o0903669
+@list U+F309A
+@ucun 󳂚
+@uname ADD more1 F309A
 @@
 @end sign
 
@@ -3028,6 +3076,12 @@
 @sys	AP23 12C7A
 @sys	AP24 1276A
 @sys	LLATU:197_04 DUB+DIŠ~c 
+@@
+@form |(DUB@n~a×1(N58))~a|~vv5
+@oid o0903746
+@list U+F30E7
+@ucun 󳃧
+@uname ADD more1 F30E7
 @@
 @end sign
 
@@ -4137,6 +4191,12 @@
 @sys	AP23 12CB9
 @sys	AP24 127BA
 @@
+@form |DUG~b×U₂~b|~vv3
+@oid o0903691
+@list U+F30B0
+@ucun 󳂰
+@uname ADD more1 F30B0
+@@
 @end sign
 
 @sign |DUG×(UDU×TAR)|
@@ -4394,6 +4454,12 @@
 @list BAU332
 @sys	AP23 127A3
 @sys	AP24 127C4
+@@
+@form DUR~b~v1
+@oid o0903733
+@list U+F30DA
+@ucun 󳃚
+@uname ADD more1 F30DA
 @@
 @end sign
 
@@ -5560,6 +5626,12 @@
 @uage 1
 @sys	AP23 12D11
 @sys	AP24 12843
+@@
+@form |GA₂~b×DUB~a|~vv3
+@oid o0903692
+@list U+F30B1
+@ucun 󳂱
+@uname ADD more1 F30B1
 @@
 @end sign
 
@@ -7289,6 +7361,12 @@
 @sys	AP23 12811
 @sys	AP24 12892
 @sys	LLATU:228_04 GIBIL₆ 
+@form GIBIL₆~vv3
+@oid o0903694
+@list U+F30B3
+@ucun 󳂳
+@uname ADD more1 F30B3
+@@
 @end sign
 
 @sign GIR
@@ -7808,6 +7886,12 @@
 @sys	AP23 12831
 @sys	AP24 128BA
 @@
+@form GIŠIMMAR~a3~v1
+@oid o0903734
+@list U+F30DB
+@ucun 󳃛
+@uname ADD more1 F30DB
+@@
 @end sign
 
 @sign GIZZAL
@@ -7889,6 +7973,12 @@
 @uage 0
 @note Listed in ATU 5 as reading of P001054 = ATU 5, pl. 038, W 9123,ag;
       currently read DUG~a#? in CDLI corpus.
+@form |GU₄×1(N58)|~vv5
+@oid o0903747
+@list U+F30E8
+@ucun 󳃨
+@uname ADD more1 F30E8
+@@
 @end sign
 
 @sign |GU₄.ZATU755|
@@ -7937,6 +8027,12 @@
 @uage 1
 @sys	AP23 12837
 @sys	AP24 128C0
+@form GU₄@g~v1
+@oid o0903735
+@list U+F30DC
+@ucun 󳃜
+@uname ADD more1 F30DC
+@@
 @end sign
 
 @sign GUB₃
@@ -7984,6 +8080,12 @@
 @sys	AP23 1283D
 @sys	AP24 128C7
 @@
+@form GUB₃~d~v1
+@oid o0903736
+@list U+F30DD
+@ucun 󳃝
+@uname ADD more1 F30DD
+@@
 @end sign
 
 @sign GUG₂
@@ -8007,6 +8109,12 @@
 @list BAU288
 @sys	AP23 1283F
 @sys	AP24 128CA
+@@
+@form GUG₂~vv3
+@oid o0903695
+@list U+F30B4
+@ucun 󳂴
+@uname ADD more1 F30B4
 @@
 @end sign
 
@@ -8969,6 +9077,12 @@
 @sys	AP23 1287B
 @sys	AP24 12913
 @@
+@form IŠ~a~vv3
+@oid o0903696
+@list U+F30B5
+@ucun 󳂵
+@uname ADD more1 F30B5
+@@
 @end sign
 
 @sign KA
@@ -9697,6 +9811,12 @@
 @sys	AP23 128AC
 @sys	AP24 1294A
 @@
+@form KIN₂~e~vv5
+@oid o0903748
+@list U+F30E9
+@ucun 󳃩
+@uname ADD more1 F30E9
+@@
 @end sign
 
 @sign KINGAL
@@ -9944,6 +10064,12 @@
 @sys	AP23 128C1
 @sys	AP24 1295F
 @@
+@form KITI~vv3
+@oid o0903697
+@list U+F30B6
+@ucun 󳂶
+@uname ADD more1 F30B6
+@@
 @end sign
 
 @sign KU
@@ -10018,6 +10144,12 @@
 @sys	AP23 128C7
 @sys	AP24 12964
 @sys	LLATU:249_05 KU₃~c 
+@@
+@form KU₃~a~v1~vv5
+@oid o0903749
+@list U+F30EA
+@ucun 󳃪
+@uname ADD more1 F30EA
 @@
 @end sign
 
@@ -10385,6 +10517,12 @@
 @sys	AP24 12997
 @sys	LLATU:252_10 LAGAB~b 
 @@
+@form LAGAB~a~vv3
+@oid o0903698
+@list U+F30B7
+@ucun 󳂷
+@uname ADD more1 F30B7
+@@
 @end sign
 
 @sign |LAGAB.TE|
@@ -10623,6 +10761,12 @@
 @sys	AP24 12989
 @sys	LLATU:252_04 LAGAB~a+ME~a 
 @@
+@form |LAGAB~a×ME~a|~vv3
+@oid o0903699
+@list U+F30B8
+@ucun 󳂸
+@uname ADD more1 F30B8
+@@
 @end sign
 
 @sign |LAGAB×2(N14)|
@@ -10783,6 +10927,12 @@
 @sys	AP24 1298F
 @sys	LLATU:252_05 LAGAB~a+ŠA 
 @@
+@form |LAGAB~a×ŠA|~vv3
+@oid o0903700
+@list U+F30B9
+@ucun 󳂹
+@uname ADD more1 F30B9
+@@
 @end sign
 
 @sign |LAGAB×ŠITA|
@@ -10800,6 +10950,12 @@
 @sys	AP24 12990
 @sys	LLATU:252_06 LAGAB~a+ŠITA~a1 
 @@
+@form |LAGAB~a×ŠITA~a1|~vv3
+@oid o0903701
+@list U+F30BA
+@ucun 󳂺
+@uname ADD more1 F30BA
+@@
 @end sign
 
 @sign |LAGAB×TI|
@@ -10815,6 +10971,12 @@
 @sys	AP23 12D76
 @sys	AP24 12991
 @sys	LLATU:252_07 LAGAB~a+TI~a 
+@@
+@form |LAGAB~a×TI|~vv3
+@oid o0903702
+@list U+F30BB
+@ucun 󳂻
+@uname ADD more1 F30BB
 @@
 @end sign
 
@@ -10870,6 +11032,12 @@
 @sys	AP24 12994
 @sys	LLATU:252_09 LAGAB~a+? 
 @@
+@form |LAGAB~a×X|~vv3
+@oid o0903703
+@list U+F30BC
+@ucun 󳂼
+@uname ADD more1 F30BC
+@@
 @end sign
 
 @sign |LAGAB×ZATU753|
@@ -10886,6 +11054,12 @@
 @sys	AP23 12D7A
 @sys	AP24 12995
 @sys	LLATU:252_08 LAGAB~a+ZATU753 
+@@
+@form |LAGAB~a×ZATU753|~vv3
+@oid o0903704
+@list U+F30BD
+@ucun 󳂽
+@uname ADD more1 F30BD
 @@
 @end sign
 
@@ -11921,6 +12095,12 @@
 @sys	AP23 12917
 @sys	AP24 129E7
 @@
+@form MEN~a~vv5
+@oid o0903750
+@list U+F30EB
+@ucun 󳃫
+@uname ADD more1 F30EB
+@@
 @end sign
 
 @sign MES
@@ -12070,6 +12250,12 @@
 @sys	AP23 12920
 @sys	AP24 129F0
 @@
+@form MUD₃~a@g~v1
+@oid o0903737
+@list U+F30DE
+@ucun 󳃞
+@uname ADD more1 F30DE
+@@
 @end sign
 
 @sign MUL
@@ -12141,6 +12327,18 @@
 @sys	AP23 12929
 @sys	AP24 129F9
 @sys	LLATU:259_01 MUN~b 
+@@
+@form MUN~a1~v1
+@oid o0903738
+@list U+F30DF
+@ucun 󳃟
+@uname ADD more1 F30DF
+@@
+@form MUN~a2~vv3
+@oid o0903705
+@list U+F30BE
+@ucun 󳂾
+@uname ADD more1 F30BE
 @@
 @end sign
 
@@ -12773,6 +12971,12 @@
 @sys	AP23 12954
 @sys	AP24 12A2B
 @@
+@form NANNA~a~v2
+@oid o0903673
+@list U+F309E
+@ucun 󳂞
+@uname ADD more1 F309E
+@@
 @end sign
 
 @sign NANŠE
@@ -12815,6 +13019,12 @@
 @sys	AP23 12957
 @sys	AP24 12A2E
 @sys	LLATU:266_02 NAR 
+@form NAR~v1
+@oid o0903674
+@list U+F309F
+@ucun 󳂟
+@uname ADD more1 F309F
+@@
 @end sign
 
 @sign NE
@@ -12878,6 +13088,12 @@
 @sys	AP23 1295D
 @sys	AP24 12A34
 @sys	LLATU:266_04 NE~d 
+@@
+@form NE~a~v3
+@oid o0903675
+@list U+F30A0
+@ucun 󳂠
+@uname ADD more1 F30A0
 @@
 @end sign
 
@@ -12944,6 +13160,12 @@
 @uage 1
 @sys	AP23 12962
 @sys	AP24 12A39
+@@
+@form NESAG₂~a~vv3
+@oid o0903706
+@list U+F30BF
+@ucun 󳂿
+@uname ADD more1 F30BF
 @@
 @end sign
 
@@ -13034,6 +13256,12 @@
 @sys	AP23 12DAE
 @sys	AP24 12A40
 @sys	LLATU:268_01 NI~b+4(N57) 
+@@
+@form |NI~b×4(N57)|~vv3
+@oid o0903707
+@list U+F30C0
+@ucun 󳃀
+@uname ADD more1 F30C0
 @@
 @end sign
 
@@ -13703,6 +13931,12 @@
 @sys	AP23 12977
 @sys	AP24 12A6E
 @sys	LLATU:271_03 NU@g 
+@form NU@g~v1
+@oid o0903739
+@list U+F30E0
+@ucun 󳃠
+@uname ADD more1 F30E0
+@@
 @end sign
 
 @sign NU₁₁
@@ -14279,6 +14513,12 @@
 @sys	AP23 1299D
 @sys	AP24 12A9B
 @sys	LLATU:275_05 PU₂ 
+@form PU₂~vv3
+@oid o0903708
+@list U+F30C1
+@ucun 󳃁
+@uname ADD more1 F30C1
+@@
 @end sign
 
 @sign RA
@@ -15227,6 +15467,12 @@
 @sys	AP23 12A2C
 @sys	AP24 12AE1
 @@
+@form SIG₂~a2~vv3
+@oid o0903709
+@list U+F30C2
+@ucun 󳃂
+@uname ADD more1 F30C2
+@@
 @end sign
 
 @sign |SIG₂×1(N14)|
@@ -16087,6 +16333,12 @@
 @sys	AP23 12A3B
 @sys	AP24 12B1A
 @sys	LLATU:284_09 SIPA 
+@form SIPA~vv3
+@oid o0903710
+@list U+F30C3
+@ucun 󳃃
+@uname ADD more1 F30C3
+@@
 @end sign
 
 @sign SU
@@ -16277,6 +16529,12 @@
 @sys	AP23 12A46
 @sys	AP24 12B26
 @sys	LLATU:287_02 SUKKAL 
+@form SUKKAL~vv3
+@oid o0903711
+@list U+F30C4
+@ucun 󳃄
+@uname ADD more1 F30C4
+@@
 @end sign
 
 @sign SUKUD
@@ -16438,6 +16696,12 @@
 @sys	AP23 12A50
 @sys	AP24 12B33
 @sys	LLATU:288_07 SUM~b 
+@@
+@form SUM~a~vv3
+@oid o0903712
+@list U+F30C5
+@ucun 󳃅
+@uname ADD more1 F30C5
 @@
 @end sign
 
@@ -16624,6 +16888,18 @@
 @sys	AP23 129C5
 @sys	AP24 12B41
 @@
+@form ŠA₃~a1~v1
+@oid o0903679
+@list U+F30A4
+@ucun 󳂤
+@uname ADD more1 F30A4
+@@
+@form ŠA₃~a2~v1
+@oid o0903680
+@list U+F30A5
+@ucun 󳂥
+@uname ADD more1 F30A5
+@@
 @end sign
 
 @sign ŠA₃@g
@@ -16679,6 +16955,12 @@
 @uage 1
 @sys	AP23 129C9
 @sys	AP24 12B45
+@@
+@form ŠAB~a~vv3
+@oid o0903713
+@list U+F30C6
+@ucun 󳃆
+@uname ADD more1 F30C6
 @@
 @end sign
 
@@ -16791,6 +17073,12 @@
 @sys	AP24 12B4E
 @sys	LLATU:291_06 ŠAKIR~c 
 @@
+@form ŠAKIR~c~vv3
+@oid o0903714
+@list U+F30C7
+@ucun 󳃇
+@uname ADD more1 F30C7
+@@
 @end sign
 
 @sign ŠAM₂
@@ -16805,6 +17093,12 @@
 @sys	AP23 129D3
 @sys	AP24 12B4F
 @sys	LLATU:291_07 ŠAM₂ 
+@form ŠAM₂~vv3
+@oid o0903715
+@list U+F30C8
+@ucun 󳃈
+@uname ADD more1 F30C8
+@@
 @end sign
 
 @sign ŠANDANA
@@ -16910,6 +17204,12 @@
 @useq x12B52.x12948
 @inote useq-old-uni	12B53 𒭓 SHE-A BESIDE KIN2-C
 @@
+@form |ŠE~a.KIN₂~c|~vv3
+@oid o0903716
+@list U+F30C9
+@ucun 󳃉
+@uname ADD more1 F30C9
+@@
 @end sign
 
 @sign |ŠE.NAM₂|
@@ -16946,6 +17246,12 @@
 @sys	ADD F3014 P252173 SZE+NAM2-v2.png
 @list U+F3014
 @uname ADD NAME |ŠE~a.NAM₂|~v2
+@@
+@form |ŠE~a.NAM₂~v2|~vv5
+@oid o0903751
+@list U+F30EC
+@ucun 󳃬
+@uname ADD more1 F30EC
 @@
 @end sign
 
@@ -17032,6 +17338,12 @@
 @sys	AP23 129DD
 @sys	AP24 12B5D
 @@
+@form ŠE₃@t~vv5
+@oid o0903752
+@list U+F30ED
+@ucun 󳃭
+@uname ADD more1 F30ED
+@@
 @end sign
 
 @sign ŠEG₉
@@ -17046,6 +17358,12 @@
 @sys	AP23 129DE
 @sys	AP24 12B5E
 @sys	LLATU:293_04 ŠEG₉ 
+@form ŠEG₉~vv3
+@oid o0903717
+@list U+F30CA
+@ucun 󳃊
+@uname ADD more1 F30CA
+@@
 @end sign
 
 @sign ŠELU
@@ -17150,6 +17468,12 @@
 @uage 1
 @sys	AP23 129E9
 @sys	AP24 12B6A
+@@
+@form ŠEN~c~vv3
+@oid o0903718
+@list U+F30CB
+@ucun 󳃋
+@uname ADD more1 F30CB
 @@
 @end sign
 
@@ -17703,6 +18027,12 @@
 @sys	AP23 12A08
 @sys	AP24 12B98
 @@
+@form ŠU₂~vv3
+@oid o0903720
+@list U+F30CD
+@ucun 󳃍
+@uname ADD more1 F30CD
+@@
 @end sign
 
 @sign |ŠU₂.AN|
@@ -17778,6 +18108,12 @@
 @sys	AP24 12B95
 @useq xF3090.x127DA
 @inote useq-old-uni	12B95 𒮕 SHU2-A BESIDE EN-B VARIANT 1
+@@
+@form |ŠU₂~a.EN~a~v1|~vv3
+@oid o0903719
+@list U+F30CC
+@ucun 󳃌
+@uname ADD more1 F30CC
 @@
 @end sign
 
@@ -18127,6 +18463,12 @@
 @oid o0902090
 @list BAU356
 @@
+@form TAG~b~vv3
+@oid o0903721
+@list U+F30CE
+@ucun 󳃎
+@uname ADD more1 F30CE
+@@
 @end sign
 
 @sign TAG@t
@@ -18405,6 +18747,12 @@
 @sys	AP23 12A78
 @sys	AP24 12BCA
 @@
+@form TUG₂~a~vv3
+@oid o0903722
+@list U+F30CF
+@ucun 󳃏
+@uname ADD more1 F30CF
+@@
 @end sign
 
 @sign |TUG₂.BAD&BAD|
@@ -18500,6 +18848,12 @@
 @uage 1
 @sys	AP23 12A7D
 @sys	AP24 12BCF
+@@
+@form TUM~c~v1
+@oid o0903740
+@list U+F30E1
+@ucun 󳃡
+@uname ADD more1 F30E1
 @@
 @end sign
 
@@ -18616,6 +18970,12 @@
 @uage 1
 @sys	AP23 12A85
 @sys	AP24 12BD4
+@form TUR@g~v1
+@oid o0903741
+@list U+F30E2
+@ucun 󳃢
+@uname ADD more1 F30E2
+@@
 @end sign
 
 @sign TUR₃
@@ -19766,6 +20126,12 @@
 @inote	CHECK
 @list U+F307D
 @uname ADD NAME UKKIN~d
+@@
+@form UKKIN~b~vv3
+@oid o0903723
+@list U+F30D0
+@ucun 󳃐
+@uname ADD more1 F30D0
 @@
 @end sign
 
@@ -20952,6 +21318,12 @@
 @sys	AP24 12C8E
 @sys	LLATU:311_09 UZ~a 
 @inote 2403
+@@
+@form UZ~a~vv5
+@oid o0903753
+@list U+F30EE
+@ucun 󳃮
+@uname ADD more1 F30EE
 @@
 @end sign
 
@@ -22724,6 +23096,12 @@
 @sys	AP23 12B72
 @sys	AP24 12D21
 @@
+@form ZATU697~a~v4
+@oid o0903742
+@list U+F30E3
+@ucun 󳃣
+@uname ADD more1 F30E3
+@@
 @end sign
 
 @sign ZATU699
@@ -22903,6 +23281,12 @@
 @uage 1
 @sys	AP23 12B81
 @sys	AP24 12D30
+@@
+@form ZATU710~v2
+@oid o0903683
+@list U+F30A8
+@ucun 󳂨
+@uname ADD more1 F30A8
 @@
 @end sign
 
@@ -23177,6 +23561,12 @@
 @sys	AP23 12B92
 @sys	AP24 12D46
 @@
+@form ZATU726~b~vv5
+@oid o0903754
+@list U+F30EF
+@ucun 󳃯
+@uname ADD more1 F30EF
+@@
 @end sign
 
 @sign ZATU727
@@ -23247,6 +23637,12 @@
 @sys	AP23 12B98
 @sys	AP24 12D4C
 @sys	LLATU:316_06 ZATU732 
+@form ZATU732~v1
+@oid o0903743
+@list U+F30E4
+@ucun 󳃤
+@uname ADD more1 F30E4
+@@
 @end sign
 
 @sign ZATU733
@@ -23323,6 +23719,12 @@
 @uage 1
 @sys	AP23 12B9F
 @sys	AP24 12D53
+@@
+@form ZATU735~b~vv5
+@oid o0903755
+@list U+F30F0
+@ucun 󳃰
+@uname ADD more1 F30F0
 @@
 @end sign
 
@@ -23431,6 +23833,12 @@
 @sys	AP24 12D59
 @sys	LLATU:215_06 GABURRA 
 @@
+@form |ZATU737×BUR~a|~vv3
+@oid o0903693
+@list U+F30B2
+@ucun 󳂲
+@uname ADD more1 F30B2
+@@
 @end sign
 
 @sign |ZATU737×DI|
@@ -23454,6 +23862,12 @@
 @uage 1
 @sys	AP23 12EAF
 @sys	AP24 12D68
+@@
+@form |ZATU737×DI|~vv3
+@oid o0903724
+@list U+F30D1
+@ucun 󳃑
+@uname ADD more1 F30D1
 @@
 @end sign
 
@@ -23521,6 +23935,12 @@
 @sys	AP23 12EB4
 @sys	AP24 12D66
 @@
+@form |ZATU737×GAR|~vv3
+@oid o0903725
+@list U+F30D2
+@ucun 󳃒
+@uname ADD more1 F30D2
+@@
 @end sign
 
 @sign |ZATU737×GAR.HI@g~a|
@@ -23551,6 +23971,12 @@
 @sys	AP23 12EB5
 @sys	AP24 12D5E
 @sys	LLATU:317_04 ZATU737+NI~a@g 
+@@
+@form |ZATU737×NI~a@g|~vv3
+@oid o0903726
+@list U+F30D3
+@ucun 󳃓
+@uname ADD more1 F30D3
 @@
 @end sign
 
@@ -23779,6 +24205,12 @@
 @sys	AP23 12BAD
 @sys	AP24 12D74
 @@
+@form ZATU750~v5
+@oid o0903744
+@list U+F30E5
+@ucun 󳃥
+@uname ADD more1 F30E5
+@@
 @end sign
 
 @sign ZATU751
@@ -23805,6 +24237,18 @@
 @sys	AP23 12BAF
 @sys	AP24 12D76
 @sys	LLATU:318_04 ZATU751~b 
+@@
+@form ZATU751~a~v1
+@oid o0903685
+@list U+F30AA
+@ucun 󳂪
+@uname ADD more1 F30AA
+@@
+@form ZATU751~b~vv3
+@oid o0903728
+@list U+F30D5
+@ucun 󳃕
+@uname ADD more1 F30D5
 @@
 @end sign
 
@@ -24238,6 +24682,12 @@
 @sys	AP23 12BCC
 @sys	AP24 12D9A
 @@
+@form ZATU773~b~v1
+@oid o0903745
+@list U+F30E6
+@ucun 󳃦
+@uname ADD more1 F30E6
+@@
 @end sign
 
 @sign ZATU774
@@ -24282,6 +24732,12 @@
 @uage 1
 @sys	AP23 12BD0
 @sys	AP24 12D9E
+@@
+@form ZATU776~v2
+@oid o0903687
+@list U+F30AC
+@ucun 󳂬
+@uname ADD more1 F30AC
 @@
 @end sign
 
@@ -25310,6 +25766,12 @@
 @uage 1
 @sys	AP23 12C22
 @sys	AP24 12DF0
+@@
+@form ZUBI~a~vv3
+@oid o0903729
+@list U+F30D6
+@ucun 󳃖
+@uname ADD more1 F30D6
 @@
 @end sign
 
