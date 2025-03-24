@@ -19,6 +19,8 @@ my $f = "00etc/$n-final.tsv";
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
+my $easlflag = ($n =~ /^easl/);
+
 my %n = (); load_oid();
 my %u = (); load_unicode();
 
@@ -27,11 +29,17 @@ print "<sl n=\"$n\">";
 open(N,$f);
 while (<N>) {
     chomp;
-    my($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
+    my($n,$o,$t,$p,$lo,$lp,$c,$fn) = ();
+    if ($easlflag) {
+	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
+    } else {
+	($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
+    }
     my $xp = xmlify($p);
     my $xlo = xmlify($lo);
     my $xlp = xmlify($lp);
-    print "<sign xml:id=\"$n\" oid=\"$o\" p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\">";
+    my $xt = ($easlflag ? ' tags="'.xmlify($t).'"' : '');
+    print "<sign xml:id=\"$n\" oid=\"$o\"$xt p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\">";
     chars($c);
     print '</sign>';
 }

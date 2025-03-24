@@ -4,17 +4,19 @@
 # The previous workflow has been moved into 00etc/old; the new
 # workflow starts from the fixed 00etc/*-final.tsv data files and
 # builds xml and html from those
+#
 
 O2=/home/stinney/o2
-
 SLfont=PC-all.ttf
-
 WWW=/home/oracc/www/pcsl/${SL}
 
 default:  msvo1 msvo4 atu3 atu5 css js font
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make fxml html images
+
+00etc/easl-final.tsv: 00etc/easl-base.tsv
+	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
 
 html: 00web/${SL}-tab.html
 
