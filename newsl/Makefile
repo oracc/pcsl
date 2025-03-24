@@ -18,6 +18,8 @@
 
 .PRECIOUS: 00etc/atu3.row 00etc/atu5.row 00etc/msvo1.row 00etc/msvo4.row
 
+O2=/home/stinney/o2
+
 SLfont=PC-all.ttf
 
 WWW=/home/oracc/www/pcsl/${SL}
@@ -53,6 +55,10 @@ js:
 	sudo chmod -R o+r /home/oracc/www/pcsl/js
 
 font: /home/oracc/www/fonts/${SLfont}
+
+/home/oracc/www/fonts/${SLfont}: ${O2}/msc/fonts/${SLfont}
+	sudo cp -u ${O2}/msc/fonts/${SLfont} ${WWW}/fonts
+	sudo chmod o+r ${WWW}/fonts/${SLfont}
 
 images: images/${SL}/.images
 
