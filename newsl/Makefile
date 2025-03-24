@@ -1,22 +1,9 @@
 #
 # Makefile to create sign list HTML pages
 #
-# General workflow is:
-#
-# 1) take a table of unnumbered ideogram signs (several formats) and a
-#    list of row filenames
-#
-# 2) turn that into an XML file in the 00etc/%.xpg format
-#
-# 3) turn the xpg into 00etc/%.tsv then to 00etc/%.xml in the format
-#    expected by slframe-HTML.xsl
-#
-# 4) turn 00etc/%.xml into 00web/%-tab.html
-#
-
-# salts tags
-
-.PRECIOUS: 00etc/atu3.row 00etc/atu5.row 00etc/msvo1.row 00etc/msvo4.row
+# The previous workflow has been moved into 00etc/old; the new
+# workflow starts from the fixed 00etc/*-final.tsv data files and
+# builds xml and html from those
 
 O2=/home/stinney/o2
 
