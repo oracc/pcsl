@@ -15,7 +15,7 @@ GetOptions(
 my $n = shift @ARGV;
 my %d = ();
 my @d = ();
-open(D,"$n.dump") || die;
+open(D,"00etc/$n-base.tsv") || die;
 while (<D>) {
     chomp;
     my($o,$cp) = split(/\t/,$_);

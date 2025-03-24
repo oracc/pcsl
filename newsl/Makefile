@@ -29,11 +29,11 @@ all:  msvo1 msvo4 atu3 atu5
 
 html: 00web/${SL}-tab.html
 
-atu3: Makefile atu3.dump 00etc/atu3.row ucodes
-	SL=atu3 make final fxml html
-
-%: Makefile 00etc/%.tpg 00etc/%.row ucodes
+%: Makefile 00etc/%-base.tsv 00etc/%.row ucodes
 	SL=$* make final fxml html
+
+00etc/atu3-base.tsv: ../00lib/pcsl.asl
+	00bin/atu3-base.sh
 
 final: 00etc/${SL}-final.tsv
 
@@ -47,9 +47,6 @@ ucodes: 00etc/unicode.tsv
 	sx -u 00lib/pcsl.asl ; \
 	grep ^code unicode.tsv | cut -f2,4 | grep -F U+ | cut -d+ -f2 | rocox -C21 \
 	>newsl/00etc/unicode.tsv)
-
-atu3.dump: 00etc/atu3-base.tsv
-	rocox -C43225 <$< >$@
 
 fxml: 00etc/${SL}-final.xml
 
