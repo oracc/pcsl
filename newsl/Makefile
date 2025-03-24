@@ -22,10 +22,10 @@ SLfont=PC-all.ttf
 
 WWW=/home/oracc/www/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5
+default:  msvo1 msvo4 atu3 atu5 css js font
 
 %: Makefile 00etc/%-final.tsv
-	SL=$* make fxml html
+	SL=$* make fxml html images
 
 html: 00web/${SL}-tab.html
 
@@ -36,7 +36,7 @@ fxml: 00etc/${SL}-final.xml
 
 fhtml: 00web/${SL}-tab.html
 
-00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl css js font images
+00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
 	00bin/final-html.sh $*
 	sudo mkdir -p ${WWW}
