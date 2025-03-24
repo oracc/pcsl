@@ -62,4 +62,4 @@ images/${SL}/.images: images/${SL}/*.png
 	touch $@
 
 clean:
-	rm -f 00etc/*-final.xml
+	rm -f 00etc/*-final.xml 00web/*-tab.html
