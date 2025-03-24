@@ -25,85 +25,20 @@ WWW=/home/oracc/www/pcsl/${SL}
 default:
 	@echo make: you must give an argument to make from "(atu3,atu5,msvo1,msvo4)". Stop.
 
-tsv:  atu5 msvo1 msvo4
+all:  msvo1 msvo4 atu3 atu5
 
 html: 00web/${SL}-tab.html
 
-msvo1: Makefile 00etc/msvo1.tpg 00etc/msvo1.fix 00etc/msvo1.row ucodes
-	SL=msvo1 make final fxml html
-
-#	SL=msvo1 make pcslrke xpg xml html
-
-msvo4: Makefile 00etc/msvo4.tpg 00etc/msvo4.fix 00etc/msvo4.row ucodes 00bin/chr-dump.plx
-	SL=msvo4 make final fxml html
-
-# SL=msvo4 make pcslrke xpg xml html
-
-atu5: Makefile  00etc/atu5.tpg 00etc/atu5.fix 00etc/atu5.row ucodes 00bin/chr-dump.plx
-	SL=atu5 make final fxml html
-
-# SL=atu5 make pcslrke xpg xml html
-
-atu3: Makefile atu3.dump 00etc/atu3.fix 00etc/atu3.row ucodes 00bin/chr-dump.plx
+atu3: Makefile atu3.dump 00etc/atu3.row ucodes
 	SL=atu3 make final fxml html
 
-atu3.dump: 00etc/atu3-base.tsv
-	rocox -C43225 <$< >$@
+%: Makefile 00etc/%.tpg 00etc/%.row ucodes
+	SL=$* make final fxml html
 
 final: 00etc/${SL}-final.tsv
 
-00etc/%-final.tsv:
+00etc/%-final.tsv: 00etc/%-fix-chr.tsv 00bin/chr-dump.plx 00bin/cdump.sh 00bin/exp.plx 00bin/rke.plx
 	00bin/chr-dump.sh $*
-
-#
-# NOTE: LLATU is cut off after ideograms with a hard line count here.
-#
-00etc/atu3.xpg: 00etc/atu3-base.tsv 00bin/llatu-xpg.sh Makefile
-	00bin/llatu-xpg.sh <$< >$@
-
-00etc/atu3-base.tsv: ../00lib/pcsl.asl 00bin/llatu-base.plx Makefile
-	00bin/llatu-base.plx $< | sort | head -670 >$@
-
-easl: 00etc/easl.tsv
-
-00etc/%.xpg: 00etc/%.tpg 00bin/xpg.sh rkesl.map pcslrke.tsv
-	00bin/xpg.sh $*
-
-00etc/%.tsv: 00etc/%.xpg 00etc/%.row 00bin/xpg2tsv.sh 00etc/ap24-codes.tsv \
-	00etc/x-codes.tsv 00bin/xpg2tsv.xsl 00bin/rke.plx 00etc/x.tsv
-	00bin/xpg2tsv.sh $*
-
-00etc/%.xml: frame codes ucodes names notes oids rows
-	00bin/slframe.sh $*
-
-x00web/%-tab.html: 00etc/%.xml 00bin/* Makefile css js font images
-	mkdir -p 00web
-	00bin/slhtml.sh $*
-	sudo mkdir -p ${WWW}
-	sudo cp 00web/$*-tab.html ${WWW}
-	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
-
-xpg: 00etc/${SL}.xpg
-
-xml: 00etc/${SL}.xml
-
-fxml: 00etc/${SL}-final.xml
-
-00etc/${SL}-final.xml: 00etc/${SL}-final.tsv
-	00bin/final-xml.plx ${SL}
-
-fhtml: 00web/${SL}-tab.html
-
-00web/%-tab.html: 00etc/%-final.xml 00bin/* Makefile css js font images
-	mkdir -p 00web
-	00bin/final-html.sh $*
-	sudo mkdir -p ${WWW}
-	sudo cp 00web/$*-tab.html ${WWW}
-	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
-
-frame: 00raw/${SL}-frame.lst
-
-codes: 00raw/${SL}-codes.tsv
 
 ucodes: 00etc/unicode.tsv
 
@@ -113,45 +48,22 @@ ucodes: 00etc/unicode.tsv
 	grep ^code unicode.tsv | cut -f2,4 | grep -F U+ | cut -d+ -f2 | rocox -C21 \
 	>newsl/00etc/unicode.tsv)
 
-salts: 00raw/${SL}-salts.log
+atu3.dump: 00etc/atu3-base.tsv
+	rocox -C43225 <$< >$@
 
-names: 00raw/${SL}-names.tsv
+fxml: 00etc/${SL}-final.xml
 
-notes: 00raw/${SL}-notes.tsv
+00etc/${SL}-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx
+	00bin/final-xml.plx ${SL}
 
-tags: 00raw/${SL}-tags.tsv
+fhtml: 00web/${SL}-tab.html
 
-oids: 00raw/${SL}-oids.tsv
-
-rows: 00raw/${SL}-rows.tsv
-
-00raw/${SL}-frame.lst: 00etc/${SL}.tsv
-	cut -f 2 $< >$@
-
-00raw/${SL}-names.tsv: 00etc/${SL}.tsv Makefile
-	cut -f 3,7 $< | rocox -C21 >$@
-#	00bin/easl-names.plx >$@
-
-00raw/${SL}-codes.tsv: 00etc/${SL}.tsv Makefile
-	cut -f 2,7 $< >$@
-
-00raw/${SL}-salts.log: 00etc/nc-cdli.tsv 00raw/easl-frame.lst
-	00bin/easl-salts.plx >$@
-
-00raw/${SL}-oids.tsv: 00etc/${SL}.tsv Makefile
-	cut -f 1,2 $< | rocox -C21 >$@
-
-00raw/${SL}-rows.tsv: 00etc/${SL}.tsv Makefile
-	@cut -f 2,6 $< | sed "s#	#	/pcsl/${SL}/images/#" >$@
-
-00raw/${SL}-tags.tsv: 00etc/${SL}-tags.tsv Makefile
-	grep -v '^##' 00etc/${SL}-tags.tsv | cut -f1,3 | rocox -C21 | grep -v '	$$' >$@
-
-00raw/${SL}-notes.tsv:  $(wildcard 00etc/oid-notes.tsv) 00bin/sl-notes.sh 00etc/${SL}.tsv
-	00bin/sl-notes.sh ${SL}
-
-00etc/%.row: images/%/*.png
-	(cd `dirname $<` ; ls -1 *.png >../../00etc/`/bin/echo $< | cut -d/ -f2`.row)
+00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl css js font images
+	mkdir -p 00web
+	00bin/final-html.sh $*
+	sudo mkdir -p ${WWW}
+	sudo cp 00web/$*-tab.html ${WWW}
+	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
 
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
@@ -171,18 +83,5 @@ images/${SL}/.images: images/${SL}/*.png
 	sudo cp -u images/${SL}/*.png ${WWW}/images
 	touch $@
 
-pcslrke: pcslrke.tsv
-
-pcslrke.tsv: ../00lib/pcsl.asl 00bin/pcsl2rke.plx
-	00bin/pcsl2rke.plx
-
-/home/oracc/www/fonts/${SLfont}: ~/o2/msc/fonts/${SLfont}
-	sudo cp $< $@
-	sudo chmod o+r $@
-
-00etc/easl.tsv: 00etc/gh-index.xml 00bin/gh-cpc-tsv.xsl 00bin/easl-*.plx
-	xsltproc 00bin/gh-cpc-tsv.xsl 00etc/gh-index.xml >01tmp/easl-gh.tsv
-	00bin/easl-oid.plx >01tmp/easl-oid.tsv
-	00bin/easl-sort.plx 01tmp/easl-oid.tsv >01tmp/easl-sort.tsv
-	00bin/easl-number.plx 01tmp/easl-sort.tsv >01tmp/easl-numbered.tsv
-	00bin/easl-codes.plx >00etc/easl.tsv
+clean:
+	rm -f 00etc/*-final.tsv

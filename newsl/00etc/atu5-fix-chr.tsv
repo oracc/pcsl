@@ -1,106 +1,94 @@
-006	+𒚢
-009	+𒚩
-010	𒚪
-015	+𒛃
-016	𒛊
-018	+𒛍
-# ATU5 Also has essentially duplicative AN
-019	~
-# CDLI-gh glyph file duplicates ANŠE~b
-027	+𒸎
-028	𒛩
-# ATU5 BALA~a glyph is named BALA~b
-029	+𒛭
-030	+𒛯𒛰
-034	𒛿
-037	𒜆
-038	𒜉
-039	+𒜓
-042	~
-# FONT glyph wrong
-043	+𒜍
-055	 𒜵
-060	 𒝇
-070	+𒝡
-072	󳃧
-074	+𒝶𒝵
-# CDLI-gh DUG~a should use the ATU5 one
-075	+𒞭
-083	+𒞿
-085	𒞸
-090	+𒟗𒟘𒟙
-092	+𒟜
-113	+𒠋𒠍𒠎𒠏
-137	+𒢄
-146	+𒢏
-157	+𒢾
-159	󳃨
-169	+𒣝
-176	𒣮
-# ATU5 glyph is HI×1N57@t; fix EAUK name
-182	+𒣸
-185	+𒤌
-186	+𒤎
-196	+𒤸
-201	󳃩
-207	󳃪
-225	𒦮
-# ATU5 LAM~b@t is EASL LAM~b@r;
-# what is CDLI-gh file name?
-226	𒦹
-227	+𒧀
-244	+𒧚
-251	󳃫
-255	+𒨂𒨃
-265	𒨜
-273	+𒨰
-274	~
-# NESAG₂~a second glyph not in EASL
-280	+𒩈
-281	+𒩧
-291	+𒩽𒩾𒩿
-295	𒪉
-296	+𒪌𒪍
-305	~
-# CDLI-gh glyph wrong
-308	+𒪥
-310	+𒪮𒪲
-315	+𒪻𒪼
-316	+𒪾
-325	+𒫔
-331	+𒫤
-341	+𒬝
-351	𒬻𒬼
-355	~
-# Should be ŠA₃~b
-363	󳃬
-366	+𒭜
-367	󳃭
-369	+𒭮
-371	+𒭲
-374	+𒭹𒭺
-382	+𒮑
-386	+𒷶
-389	𒮮
-# ATU5 TAG~a1 is CDLI-gh TAG~a2
-392	+𒮾
-401	+𒯕𒯖𒯗
-403	+𒯞𒯟
-408	+𒰘𒰙𒰚
-411	+𒰡𒰢
-420	+𒰲
-425	+𒱃
-426	+𒱆
-443	+𒱴𒱵
-452	+𒲉
-456	󳃮
-468	𒲣𒲢
-469	+𒲨
-487	𒳘𒳗
-494	+𒳤𒳠
-520	+𒴒𒴓
-527	+𒴝𒴞𒴟
-551	󳃯
-555	+𒵊
-557	󳃰
-572	+𒶈
+AB~a	006	+𒚢
+AB₂	009	+𒚩
+|AB₂×2(N14)|	010	𒚪
+AMA~a	015	+𒛃
+AMAR	016	𒛊
+AN	018	+𒛍
+ANŠE~a	019	~
+|(1(N58).BAD)~b|	027	+𒸎
+BALA~b	028	𒛩
+BALAG	029	+𒛭
+BAN~a	030	+𒛯𒛰
+BARA₂~b	034	𒛿
+BIR₃~a	037	𒜆
+BIR₃~b	038	𒜉
+BU~a	039	+𒜓
+|(BU~a~v1%BU~a~v1).NA₂~a@n|	042	~
+|BU~a+DU₆~a|	043	+𒜍
+|DARA₃~d×KAR₂|	055	 𒜵
+DILMUN	060	 𒝇
+DUB~b	070	+𒝡
+|(DUB@n~a×1(N58))~a|	072	󳃧
+DUG~a	074	+𒝶𒝵
+DUG~b	075	+𒞭
+DUG~c~v1	083	+𒞿
+|DUG~b×1(N57)|	085	𒞸
+EN~a	090	+𒟗𒟘𒟙
+EN~b	092	+𒟜
+GA~a	113	+𒠋𒠍𒠎𒠏
+GI	137	+𒢄
+GI₆	146	+𒢏
+GU₄	157	+𒢾
+|GU₄×1(N58)|	159	󳃨
+GURUŠ~a	169	+𒣝
+|HI×1(N57)|	176	𒣮
+IDIGNA	182	+𒣸
+IŠ~a	185	+𒤌
+IŠ~b	186	+𒤎
+KAŠ~b	196	+𒤸
+KIN₂~e	201	󳃩
+KU₃~a~v1	207	󳃪
+LAM~b@t	225	𒦮
+LU₂	226	𒦹
+MA	227	+𒧀
+MAR~b	244	+𒧚
+MEN~a	251	󳃫
+MUŠ₃~a	255	+𒨂𒨃
+NAGAR~a	265	𒨜
+NE~a	273	+𒨰
+NESAG₂~a	274	~
+NIMGIR	280	+𒩈
+NINDA₂	281	+𒩧
+NUN~c	291	+𒩽𒩾𒩿
+NUNUZ~c	295	𒪉
+PA~a	296	+𒪌𒪍
+RAD~a	305	~
+RU	308	+𒪥
+SAG	310	+𒪮𒪲
+SANGA~a	315	+𒪻𒪼
+SANGA~b	316	+𒪾
+SIG₂~a3	325	+𒫔
+SIG₇	331	+𒫤
+SU~a	341	+𒬝
+ŠA	351	𒬻𒬼
+ŠA₃~a2	355	~
+|ŠE~a.NAM₂~v2|	363	+
+ŠE₃	366	+𒭜
+ŠE₃@t	367	󳃭
+ŠEŠ~a	369	+𒭮
+ŠIM~a	371	+𒭲
+ŠIR~b	374	+𒭹𒭺
+ŠU₂	382	+𒮑
+|1(N57).ŠUBUR~v1|	386	+𒷶
+TAG~a1	389	𒮮
+TI	392	+𒮾
+TUR	401	+𒯕𒯖𒯗
+U₂~b	403	+𒯞𒯟
+U₈	408	+𒰘𒰙𒰚
+UD₅~a	411	+𒰡𒰢
+UKKIN~a	420	+𒰲
+UMUN₂	425	+𒱃
+UNUG~a	426	+𒱆
+URUDU~a	443	+𒱴𒱵
+UTUA~b	452	+𒲉
+UZ~a	456	󳃮
+ZATU623	468	𒲣𒲢
+ZATU625	469	+𒲨
+ZATU651	487	𒳘𒳗
+ZATU662	494	+𒳤𒳠
+ZATU693	520	+𒴒𒴓
+ZATU697~a	527	+𒴝𒴞𒴟
+ZATU726~b	551	󳃯
+ZATU729	555	+𒵊
+ZATU735~b	557	󳃰
+ZATU759	572	+𒶈

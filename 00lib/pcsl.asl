@@ -17224,7 +17224,6 @@
 @uage 1
 @sys	AP23 12DEC
 @sys	AP24 12B54
-@sys	LLATU:292_03 ŠE~a+NAM₂ 
 @inote	double-check ŠE~a+ŠE₃ in DCCLT archaic P
 @useq x12B52.x12A23
 @inote useq-old-uni	12B54 𒭔 SHE-A BESIDE NAM2
@@ -17236,6 +17235,7 @@
 @list U+12B55
 @ucun 𒭕
 @uname SHE-A BESIDE NAM2 VARIANT 1
+@sys	LLATU:292_03 ŠE~a+NAM₂ 
 @uage 1
 @sys	AP23 12DED
 @sys	AP24 12B55
