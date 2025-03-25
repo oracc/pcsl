@@ -23,6 +23,7 @@ my $easlflag = ($n =~ /^easl/);
 
 my %n = (); load_oid();
 my %u = (); load_unicode();
+my %sl = (); load_sl() if $easlflag;
 
 open(X,">00etc/$n-final.xml"); select X;
 print "<sl n=\"$n\">";
@@ -52,8 +53,9 @@ while (<N>) {
     } else {
 	$t = '';	
     }
-    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\">";
+    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\">";
     chars($c);
+    sl($o) if $easlflag;
     print '</sign>';
 }
 close(N);
@@ -93,6 +95,7 @@ sub load_oid {
 	my($o,$n) = split(/\t/,$_); $n{$o} = $n;
     }
 }
+
 sub load_unicode {
     my @u = `cat 00etc/unicode.tsv`; chomp @u;
     foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; }
@@ -100,4 +103,37 @@ sub load_unicode {
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
     @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+}
+
+sub load_sl {
+    foreach (qw/atu3 atu5 msvo1 msvo4/) {
+	my @s = `cut -f 2,6 00etc/${_}-final.tsv`; chomp @s;
+	foreach my $s (@s) {
+	    my($o,$c) = split(/\t/,$s);
+	    ${$sl{$o}}{$_} = $c;
+	}
+    }
+    # print Dumper \%sl; exit 1;
+}
+
+sub sl {
+    my $o = shift;
+    if ($sl{$o}) {
+	print '<sl>';
+	foreach my $sl (qw/atu3 atu5 msvo1 msvo4/) {
+	    if (${$sl{$o}}{$sl}) {
+		print "<s sl=\"$sl\">";
+		my @c = grep(length,split(/(.)/,${$sl{$o}}{$sl}));
+		foreach my $cc (@c) {
+		    my $h = sprintf("%X", ord($cc));
+		    printf "<c c=\"%s\" h=\"%s\"/>", $cc, $h;
+		}
+		print '</s>';
+	    } else {
+		print '<s/>';
+	    }
+		
+	}
+	print '</sl>';
+    }
 }

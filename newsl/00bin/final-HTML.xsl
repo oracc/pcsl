@@ -35,6 +35,13 @@
 	      <th class="names">Names</th>
 	      <th class="glyph">PC-font</th>
 	      <th class="image"><xsl:value-of select="$vol"/></th>
+	      <xsl:message>SL=<xsl:value-of select="$SL"/></xsl:message>
+	      <xsl:if test="$SL='EASL'">
+		<th case="sl">ATU3</th>
+		<th case="sl">ATU5</th>
+		<th case="sl">MSVO1</th>
+		<th case="sl">MSVO4</th>
+	      </xsl:if>
 	    </tr>
 	  </thead>
 	  <xsl:choose>
@@ -106,7 +113,7 @@
 		</xsl:if>
 		<xsl:if test="@c">
 		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span></div>
-		  <div class="rhex"><span><xsl:value-of select="concat('[',@u,']')"/></span></div>
+		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
 		</xsl:if>
 		<div class="notes"><p><xsl:value-of select="n"/></p></div>
 	      </div>
@@ -137,6 +144,7 @@
 		  <xsl:when test="starts-with(../@row,'/')">
 		    <img class="lrow" src="{../@row}"/>
 		  </xsl:when>
+		  <xsl:when test="../@row = '-'"/>
 		  <xsl:otherwise>
 		    <img class="lrow" width="600px" src="/osl/{../@row}"/>
 		  </xsl:otherwise>
@@ -144,11 +152,44 @@
 	      </a>
 	    </td>
 	  </xsl:if>
+	  <xsl:choose>
+	    <xsl:when test="../sl">
+	      <xsl:apply-templates select="../sl"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <td/><td/><td/><td/>
+	    </xsl:otherwise>
+	  </xsl:choose>
 	</tr>
       </xsl:for-each>
     </tbody>
   </xsl:template>
 
+  <xsl:template match="sl">
+    <xsl:for-each select="s">
+      <td class="glyf">
+	<xsl:for-each select="c">
+	  <div>
+	    <xsl:choose>
+	      <xsl:when test="not(contains(../../../@glyf,@c))">
+		<span>
+		  <xsl:attribute name="class"><xsl:text>newglyf</xsl:text></xsl:attribute>
+		  <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		</span>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </div>
+	  <div>
+	    <span class="ucode"><xsl:value-of select="concat('[',@h,']')"/></span>
+	  </div>
+	</xsl:for-each>
+      </td>
+    </xsl:for-each>
+  </xsl:template>
+  
   <xsl:template name="chr">
     <xsl:param name="c"/>
     <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>

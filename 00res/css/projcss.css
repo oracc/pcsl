@@ -70,3 +70,7 @@ td a { text-decoration: none; }
 td.lrow { padding-left: 5px; text-align: left; }
 
 /* img.lrow { height: 80; } */
+
+.newglyf { color: red; }
+.ucode { font-size: 80%; }
+
