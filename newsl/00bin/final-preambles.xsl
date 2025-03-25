@@ -41,7 +41,7 @@
 	      characters under the Unicode codepoint. These are state and
 	      information tags with the following meanings:</p>
 
-	      <pre>##
+	      <pre>	      ##
 	      ## . sequence
 	      ## : opaque sequence
 	      ## ! sequence but encode
@@ -58,19 +58,25 @@
 	      ## 1 ED I-II
 	      ##</pre>
 
-	      <p>Signs containing any of the tags <code>#-di15</code> have a
-	      <span class="not">grey background</span> indicating that they are
-	      not to be included in the PC proposal.</p>
+	      <p>Signs to be removed from EASL in the PC proposal have
+	      the <span class="not">same grey background</span> as the
+	      main page; regular sequences have the <span
+	      class="sq-seq">same green background</span> as the main
+	      page. Opaque sequences--those whose sign name hides the
+	      possibility that they may be sequences--should have a
+	      <span class="sq-opq">pink background</span>, but most of
+	      these have not yet been tagged with the <code>:</code>
+	      rather than the neutral <code>.</code>. Sequences that
+	      are candidates for encoding have a <span
+	      class="sq-chr">pale yellow background</span> but these
+	      have not yet been systematically reviewed.</p>
 
-	      <p>In the main page, signs containing any of the tags
-	      <code>.:!</code> have a <span class="seq">green
-	      background</span> indicating that they are sequences; most of
-	      these signs will not be encoded.</p>
-
+	      <!--
 	      <p>Almost 190 of the signs have non-contrastive variants in
 	      CDLI-gh; if there is a glyph in the Names column this is the
 	      proposed reference glyph for the sign in the Unicode
 	      proposal.</p>
+	      -->
 
 	      <p>Some signs have a note at the end of the Names column; these
 	      have not been added systematically yet but will in time
@@ -79,10 +85,11 @@
 	      
 	      <h2>PC-font</h2>
 
-	      <p>The <code>PC-font</code> column gives the characters in a
-	      font that covers the AP24 proposal as well as ACN, andalso
-	      preserves the characters from AP23 that were removed in
-	      AP24.</p>
+	      <p>The <code>PC-font</code> column gives the characters
+	      in a font that covers the AP24 proposal as well as ACN,
+	      and also preserves the characters from AP23 that were
+	      removed in AP24.  The codepoints in the font will change
+	      in the proposal.</p>
 
 	      <p>Where CDLI-gh has multiple non-contrastive variants, all of
 	      the variants are given in the PC-font column, and they are
@@ -96,6 +103,7 @@
 	      license as required by the CDLI proto-cuneiform_signs
 	      terms.</p>
 
+	      <!--
 	      <h2>Additional Pages</h2>
 
 	      <p>Two pages of subsets of signs are available:</p>
@@ -106,6 +114,7 @@
 	      </ul>
 
 	      <h2>Full Listing of EASL/CDLI-gh</h2>
+	      -->
 
 	    </xsl:when>
 	    <xsl:when test="$mode='NC'">

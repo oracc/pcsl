@@ -18,7 +18,7 @@ EAJN017	o0900094	ANŠE~b	ANŠEb	ANŠE~b	𒛏	/pcsl/msvo1/images/017.png
 EAJN018	o0900100	APIN~a	APINa	APIN~a	𒛒	/pcsl/msvo1/images/018.png
 EAJN019	o0900101	APIN~b	APINb	APIN~b	𒛔	/pcsl/msvo1/images/019.png
 EAJN020	o0900115	BA	BA	BA	𒛞	/pcsl/msvo1/images/020.png
-EAJN021	o0903282	|(1(N58).BAD)~a|	BAD+DIŠa	BAD+DIŠ~a	𒸍	/pcsl/msvo1/images/021.png
+EAJN021	o0903281	|(1(N58).BAD)~a|	BAD+DIŠa	BAD+DIŠ~a	𒸍	/pcsl/msvo1/images/021.png
 EAJN022	o0900126	BAHAR₂~b	BAHAR2b	BAHAR₂~b	𒛧	/pcsl/msvo1/images/022.png
 EAJN023	o0900128	BAHAR₂~c	BAHAR2c	BAHAR₂~c	𒛨	/pcsl/msvo1/images/023.png
 EAJN024	o0900130	BALA~a	BALAa	BALA~a	𒛩	/pcsl/msvo1/images/024.png
@@ -45,7 +45,7 @@ EAJN044	o0900313	DUB~b	DUBb	DUB~b	𒝣	/pcsl/msvo1/images/044.png
 EAJN045	o0900331	DUG~a	DUGa	DUG~a	𒝭	/pcsl/msvo1/images/045.png
 EAJN046	o0900334	DUG~b	DUGb	DUG~b	𒝷	/pcsl/msvo1/images/046.png
 EAJN047	o0900336	DUG~c~v1	DUGc	DUG~c	𒞿	/pcsl/msvo1/images/047.png
-EAJN048	o0900398	|DUG~c~v2×1(N57)|	DUG+AŠc	DUG+AŠ~c	𒟀	/pcsl/msvo1/images/048.png
+EAJN048	o0900397	|DUG~c×1(N57)|	DUG+AŠc	DUG+AŠ~c	𒟀	/pcsl/msvo1/images/048.png
 EAJN049	o0900483	DUR~a	DURa	DUR~a	𒟃	/pcsl/msvo1/images/049.png
 EAJN050	o0900484	DUR~b	DURb	DUR~b	𒟄	/pcsl/msvo1/images/050.png
 EAJN051	o0900485	DUR₂	DUR2	DUR₂	𒟅	/pcsl/msvo1/images/051.png
@@ -245,7 +245,7 @@ EAJN244	o0901930	ŠAGAN	ŠAGAN	ŠAGAN	𒭇	/pcsl/msvo1/images/244.png
 EAJN245	o0901934	ŠAH₂~a	ŠAH2a	ŠAH₂~a	𒭉	/pcsl/msvo1/images/245.png
 EAJN246	o0901941	ŠAM₂	ŠAM2	ŠAM₂	󳃈	/pcsl/msvo1/images/246.png
 EAJN247	o0901946	ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/msvo1/images/247.png
-EAJN248	o0901957	|ŠE~a.NAM₂~v1|	ŠEa+NAM2	ŠE~a+NAM₂	𒭕	/pcsl/msvo1/images/248.png
+EAJN248	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	𒭕	/pcsl/msvo1/images/248.png
 EAJN249	o0901723	|SAR~a×ŠE~a|	ŠEa+SARa	ŠE~a+SAR~a	𒫁	/pcsl/msvo1/images/249.png
 EAJN250	o0901959	|ŠE~a&ŠE~a|	ŠEa+ŠEa	ŠE~a+ŠE~a	𒭖	/pcsl/msvo1/images/250.png
 EAJN251	o0901962	ŠE₃	ŠE3	ŠE₃	𒭜	/pcsl/msvo1/images/251.png
@@ -255,7 +255,7 @@ EAJN254	o0901993	ŠIM~a	ŠIMa	ŠIM~a	𒭳	/pcsl/msvo1/images/254.png
 EAJN255	o0901998	ŠIR~a	ŠIRa	ŠIR~a	𒭷	/pcsl/msvo1/images/255.png
 EAJN256	o0902004	ŠITA~a1	ŠITAa1	ŠITA~a1	𒭻	/pcsl/msvo1/images/256.png
 EAJN257	o0902009	ŠITA~b3	ŠITAb3	ŠITA~b3	𒮈	/pcsl/msvo1/images/257.png
-EAJN258	o0902028	ŠITA@g~a	ŠITA.gunûa	ŠITA@g~a	𒮊	/pcsl/msvo1/images/258.png
+EAJN258	o0903420	ŠITA@g~a	ŠITA.gunûa	ŠITA@g~a	𒮊	/pcsl/msvo1/images/258.png
 EAJN259	o0902032	|ŠITA@g~a×1(N06)|	ŠITA.gunûa+1N6	ŠITA@g~a+1N6	𒮌	/pcsl/msvo1/images/259.png
 EAJN260	o0902033	ŠU	ŠU	ŠU	𒮍	/pcsl/msvo1/images/260.png
 EAJN261	o0902035	|ŠU&ŠU|	ŠU+ŠU	ŠU+ŠU	𒮏	/pcsl/msvo1/images/261.png

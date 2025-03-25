@@ -170,6 +170,7 @@ o0900271		DIM~c	I	DIM~c	𒝊	/easl/images/o0900271.png
 o0900276		DIN	I	DIN	𒝋	/easl/images/o0900276.png
 o0900278		DIN@t	I	DIN@t	𒝌	/easl/images/o0900278.png
 o0900281		|DU×1(N58@t)|	I	|DUxDISZ|	𒝎	/easl/images/o0900281.png
+o0900279		DU	DU	DU	𒝍	/easl/images/o0900279.png
 o0900282		DU@g	I	DU@g	𒝏	/easl/images/o0900282.png
 o0900284		DU₆~a	I	DU6~a	𒝑𒝐	/easl/images/o0900284.png
 o0900290	n	|DU₆~a~v1×1(N58)|	I	|DU6~axDISZ|	𒝒	/easl/images/o0900290.png
@@ -202,6 +203,7 @@ o0900447		|DUG~a×U₂~a|	I	|DUG~axU2~a|	𒝱	/easl/images/o0900447.png
 o0900448		|DUG~a×U₂~b|	I	|DUG~axU2~b|	𒝲	/easl/images/o0900448.png
 o0900460	1-#	|DUG~a×X|	I	|DUG~axX|	󲲂	/easl/images/o0900460.png
 o0900394		|DUG~a×1(N57)|	I	|DUG~ax1(N57)|	𒝳	/easl/images/o0900394.png
+o0900478		DUG~a@t	DUGe	DUG~e	𒝴	-
 o0900334		DUG~b	I	DUG~b	𒞭𒝷	/easl/images/o0900334.png
 o0900342		|DUG~b×ANŠE~b|	I	|DUG~bxANSZE~b|	𒝸	/easl/images/o0900342.png
 o0900343		|DUG~b×ANŠE~d|	I	|DUG~bxANSZE~d|	𒝹	/easl/images/o0900343.png
@@ -229,6 +231,7 @@ o0900408		|DUG~b×NAGA~a|	I	|DUG~bxNAGA~a|	𒞎	/easl/images/o0900408.png
 o0900410		|DUG~b×NAM₂|	I	|DUG~bxNAM2|	𒞏	/easl/images/o0900410.png
 o0900412	n	|DUG~b×(NI~a@g.ZATU779)|	I	|DUG~bx(NI~a@g.ZATU779)|	𒞐	/easl/images/o0900412.png
 o0900414		|DUG~b×SA~a|	I	|DUG~bxSA~a|	𒞑	/easl/images/o0900414.png
+o0900416		|DUG~b×(SA~a.GI)|	DUG~b+SA~a+GI	DUG~b+SA~a+GI	𒞑	-
 o0900418		|DUG~b×SI₄~a|	I	|DUG~bxSI4~a|	𒞒	/easl/images/o0900418.png
 o0900420	n	|DUG~b×(SI₄~a.X)|	I	|DUG~bx(SI4~a.X)|	𒞓	/easl/images/o0900420.png
 o0900422		|DUG~b×SIG₂~a1|	I	|DUG~bxSIG2~a1|	𒞔	/easl/images/o0900422.png
@@ -260,7 +263,7 @@ o0900340	n	|DUG~b~v1×AB₂|	I	|DUG~bxAB2|	𒞮	/easl/images/o0900340.png
 o0900373	n	|DUG~b~v1×HI@g~a|	I	|DUG~bxHI@g~a|	𒞲	/easl/images/o0900373.png
 o0900476	n	|(DUG~b~v1&DUG~b~v1)×1(N58)|	I	|(DUG~b&DUG~b)x1(N58)|	𒞹	/easl/images/o0900476.png
 o0900336		DUG~c~v1	I	DUG~c	𒞼𒞿	/easl/images/o0900336.png
-o0900397		|DUG~c~v1×1(N57)|	I	|DUG~cx1(N57)|	𒞾𒞽𒟀	/easl/images/o0900397.png
+o0900397		|DUG~c×1(N57)|	I	|DUG~cx1(N57)|	𒞾𒞽𒟀	/easl/images/o0900397.png
 o0900479		DUG~c@t	I	DUG~c@t	𒞻	/easl/images/o0900479.png
 o0900338	d	DUG~d	I	DUG~d	󲞠	/easl/images/o0900338.png
 o0900481		DUGUD	I	DUGUD	𒟂	/easl/images/o0900481.png
@@ -510,6 +513,7 @@ o0900907		GU₂	I	GU2	𒢽	/easl/images/o0900907.png
 o0900908		GU₄	I	GU4	𒣁𒢾	/easl/images/o0900908.png
 o0900911	n.	|GU₄.ZATU755~b|	I	|GU4.ZATU755~a|	𒢿	/easl/images/o0900911.png
 o0900914		GU₄@g	I	GU4@g	𒣀	/easl/images/o0900914.png
+o0903756		|GU₄×1(N58)|	GU4+1N58	GU₄+1N58	󳃨	-
 o0900912		GU₇	I	GU7	𒣂𒣃	/easl/images/o0900912.png
 o0900916		GUB₃~a	I	GUB3~a	𒣄	/easl/images/o0900916.png
 o0900917		GUB₃~b	I	GUB3~b	𒣅	/easl/images/o0900917.png
@@ -1007,9 +1011,11 @@ o0901695		SAG@n	I	SAG@n	𒪬	/easl/images/o0901695.png
 o0901682	n	|SAG@n×GEŠTU~b|	I	|SAGxGESZTU~b|	𒪭𒪳	/easl/images/o0901682.png
 o0901696		SAGŠU	I	SAGSZU	𒪴	/easl/images/o0901696.png
 o0901697		SAL	I	SAL	𒪵	/easl/images/o0901697.png
+o0901705		|SAL.HI×HI|	SAL+ZATU751b	SAL+ZATU751~b	𒪵󳀏	-
 o0901699	.	|SAL.KUR~a|	I	|SAL.KUR~a|	𒪶	/easl/images/o0901699.png
 o0901701	.	|SAL.LAM~b|	I	|SAL.LAM~b|	𒪷	/easl/images/o0901701.png
 o0901703	n.	|SAL.ŠU₂~b|	I	|SAL.SZU2|	𒪸	/easl/images/o0901703.png
+o0901707		|SAL.ZATU751~a|	SAL+ZATU751a	SAL.ZATU751~a	𒪵𒵵	-
 o0901704		|SAL×1(N58)|	I	|SALx1(N58)|	𒪹	/easl/images/o0901704.png
 o0901709		SANGA~a	I	SANGA~a	𒪺𒪻𒪼	/easl/images/o0901709.png
 o0901712		SANGA~b	I	SANGA~b	𒪽𒪾	/easl/images/o0901712.png
@@ -1149,6 +1155,7 @@ o0901944	:	ŠANDANA~b	I	SZANDANA~b	𒭑	/easl/images/o0901944.png
 o0901953	.	|ŠE~a.KIN₂~c|	I	|SZE~a.KIN2~c|	𒭓	/easl/images/o0901953.png
 o0901955	.	|ŠE~a.NAM₂|	I	|SZE~a.NAM2|	𒭔𒭕	/easl/images/o0901955.png
 o0901959		|ŠE~a&ŠE~a|	I	|SZE~a&SZE~a|	𒭖	/easl/images/o0901959.png
+o0901946		ŠE~a	ŠEa	ŠE~a	𒭒	/easl/images/o0901946.png
 o0901961		ŠE~a@t	I	SZE~a@t	𒭗	/easl/images/o0901961.png
 o0901947		ŠE~b	I	SZE~b	𒭘	/easl/images/o0901947.png
 o0901948		ŠE~c	I	SZE~c	𒭙	/easl/images/o0901948.png
@@ -1195,9 +1202,9 @@ o0902034		|ŠU×1(N58)|	I	|SZUx1(N58)|	𒮎	/easl/images/o0902034.png
 o0902035		|ŠU&ŠU|	I	|SZU&SZU|	𒮏	/easl/images/o0902035.png
 o0902036		ŠU@g	I	SZU@g	𒮐	/easl/images/o0902036.png
 o0902037	1-	ŠU@s	I	SZU@s	󲨆	/easl/images/o0902037.png
-o0902039		ŠU₂~a	I	SZU2	𒮑𒮘	/easl/images/o0902039.png
-o0902046	n.	|ŠU₂~a.EN~a~v1|	I	|SZU2.EN~a|	𒮓𒮔	/easl/images/o0902046.png
-o0902048	n.	|ŠU₂~a.EN~b~v1|	I	|SZU2.EN~b|	𒮕	/easl/images/o0902048.png
+o0902038		ŠU₂	I	SZU2	𒮑𒮘	/easl/images/o0902039.png
+o0902045	n.	|ŠU₂~a.EN~a|	I	|SZU2.EN~a|	𒮓𒮔	/easl/images/o0902046.png
+o0902046	n.	|ŠU₂~a.EN~b|	I	|SZU2.EN~b|	𒮕	/easl/images/o0902048.png
 o0902050	n.	|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	I	|SZU2.((HI+1(N57))+(HI+1(N57)))|	𒮖	/easl/images/o0902050.png
 o0902056	n.	|ŠU₂~a.URI₃~a~v1|	I	|SZU2.URI3~a|	𒮗	/easl/images/o0902056.png
 o0902043	n.	|ŠU₂~b.E₂~a|	I	|SZU2.E2~a|	𒮙	/easl/images/o0902043.png

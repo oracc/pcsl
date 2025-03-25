@@ -33,7 +33,7 @@ EALX032	o0900111	ASAR	ASAR	ASAR	𒛚	/pcsl/atu3/images/032.png
 EALX033	o0900115	BA	BA	BA	𒛞	/pcsl/atu3/images/033.png
 EALX034	o0900116	BAD	BAD	BAD	𒛟	/pcsl/atu3/images/034.png
 EALX035	o0900117	|BAD&BAD|	BAD+BAD	BAD+BAD	𒛠	/pcsl/atu3/images/035.png
-EALX036	o0903282	|(1(N58).BAD)~a|	BAD+DIŠ~a	BAD+DIŠ~a	𒸍	/pcsl/atu3/images/036.png
+EALX036	o0903281	|(1(N58).BAD)~a|	BAD+DIŠ~a	BAD+DIŠ~a	𒸍	/pcsl/atu3/images/036.png
 EALX037	o0903283	|(1(N58).BAD)~b|	BAD+DIŠ~b	BAD+DIŠ~b	𒸎	/pcsl/atu3/images/037.png
 EALX038	o0900119	BAD₃~a	BAD₃~a	BAD₃~a	𒛡	/pcsl/atu3/images/038.png
 EALX039	o0900124	BAHAR₂~a	BAHAR₂~a	BAHAR₂~a	𒛥	/pcsl/atu3/images/039.png
@@ -67,7 +67,7 @@ EALX066	o0900228	DAR~a	DAR~a	DAR~a	𒜨	/pcsl/atu3/images/066.png
 EALX067	o0900230	DAR~c	DAR~c	DAR~c	𒜫	/pcsl/atu3/images/067.png
 EALX068	o0900237	DARA₃~c	DARA₃~c	DARA₃~c	𒜯	/pcsl/atu3/images/068.png
 EALX069	o0900239	DARA₃~d	DARA₃~d	DARA₃~d	𒜳	/pcsl/atu3/images/069.png
-EALX070	o0900242	|DARA₃~d1×KAR₂~b|	DARA₃~d+KAR₂	DARA₃~d+KAR₂	𒜵	/pcsl/atu3/images/070.png
+EALX070	o0900243	|DARA₃~d1×KAR₂~b|	DARA₃~d+KAR₂	DARA₃~d+KAR₂	𒜵	/pcsl/atu3/images/070.png
 EALX071	o0900249	DARA₄~a1	DARA₄~a1	DARA₄~a1	𒜸	/pcsl/atu3/images/071.png
 EALX072	o0900251	DARA₄~a3	DARA₄~a3	DARA₄~a3	𒜺	/pcsl/atu3/images/072.png
 EALX073	o0900252	DARA₄~b	DARA₄~b	DARA₄~b	𒜻	/pcsl/atu3/images/073.png
@@ -79,7 +79,7 @@ EALX078	o0900264	DILMUN	DILMUN	DILMUN	𒝅	/pcsl/atu3/images/078.png
 EALX079	o0900271	DIM~c	DIM~c	DIM~c	𒝊	/pcsl/atu3/images/079.png
 EALX080	o0900276	DIN	DIN	DIN	𒝋	/pcsl/atu3/images/080.png
 EALX081	o0900279	DU	DU	DU	𒝍	/pcsl/atu3/images/081.png
-EALX082	o0900286	DU₆~a~v2	DU₆~a	DU₆~a	󳂯	/pcsl/atu3/images/082.png
+EALX082	o0900284	DU₆~a	DU₆~a	DU₆~a	󳂯	/pcsl/atu3/images/082.png
 EALX083	o0900287	DU₆~b	DU₆~b	DU₆~b	𒝓	/pcsl/atu3/images/083.png
 EALX084	o0900288	DU₆~c	DU₆~c	DU₆~c	𒝔	/pcsl/atu3/images/084.png
 EALX085	o0900291	DU₇	DU₇	DU₇	𒝕	/pcsl/atu3/images/085.png
@@ -93,7 +93,7 @@ EALX092	o0900331	DUG~a	DUG~a	DUG~a	𒝭	/pcsl/atu3/images/092.png
 EALX093	o0900334	DUG~b	DUG~b	DUG~b	𒝷	/pcsl/atu3/images/093.png
 EALX094	o0900394	|DUG~a×1(N57)|	DUG+AŠ~a	DUG+AŠ~a	𒝳	/pcsl/atu3/images/094.png
 EALX095	o0900395	|DUG~b×1(N57)|	DUG+AŠ~b	DUG+AŠ~b	𒞪	/pcsl/atu3/images/095.png
-EALX096	o0900398	|DUG~c~v2×1(N57)|	DUG+AŠ~c	DUG+AŠ~c	𒟀	/pcsl/atu3/images/096.png
+EALX096	o0900397	|DUG~c×1(N57)|	DUG+AŠ~c	DUG+AŠ~c	𒟀	/pcsl/atu3/images/096.png
 EALX097	o0900401	|DUG~b×(1(N57).KU₃~a)|	DUG~b+1(N57)+KU₃~a	DUG~b+1(N57)+KU₃~a	𒞫	/pcsl/atu3/images/097.png
 EALX098	o0900340	|DUG~b~v1×AB₂|	DUG~b+AB₂	DUG~b+AB₂	𒞮	/pcsl/atu3/images/098.png
 EALX099	o0900342	|DUG~b×ANŠE~b|	DUG~b+ANŠE~b	DUG~b+ANŠE~b	𒝸	/pcsl/atu3/images/099.png
@@ -128,7 +128,7 @@ EALX127	o0900425	|DUG~b×SIG₇|	DUG~b+SIG₇	DUG~b+SIG₇	𒞖	/pcsl/atu3/image
 EALX128	o0900427	|DUG~b×SUHUR|	DUG~b+SUHUR	DUG~b+SUHUR	𒞗	/pcsl/atu3/images/128.png
 EALX129	o0900431	|DUG~b×ŠAH₂~a|	DUG~b+ŠAH₂~a	DUG~b+ŠAH₂~a	𒞘	/pcsl/atu3/images/129.png
 EALX130	o0900433	|DUG~b×ŠE~a|	DUG~b+ŠE~a	DUG~b+ŠE~a	𒞙	/pcsl/atu3/images/130.png
-EALX131	o0900436	|DUG×(ŠE.NAM₂)|	DUG~b+ŠE~a+NAM₂	DUG~b+ŠE~a+NAM₂	𒞵	/pcsl/atu3/images/131.png
+EALX131	o0900437	|DUG×(ŠE~a.NAM₂)|	DUG~b+ŠE~a+NAM₂	DUG~b+ŠE~a+NAM₂	𒞵	/pcsl/atu3/images/131.png
 EALX132	o0900439	|DUG~b×TAK₄~a|	DUG~b+TAK₄~a	DUG~b+TAK₄~a	𒞛	/pcsl/atu3/images/132.png
 EALX133	o0900441	|DUG~b×(TAK₄~a.SA~a)|	DUG~b+TAK₄~a+SA~a	DUG~b+TAK₄~a+SA~a	𒞜	/pcsl/atu3/images/133.png
 EALX134	o0900443	|DUG~b×(TAK₄~a.SAL)|	DUG~b+TAK₄~a+SAL	DUG~b+TAK₄~a+SAL	𒞝	/pcsl/atu3/images/134.png
@@ -150,7 +150,7 @@ EALX149	o0900494	E₂~b	E₂~b	E₂~b	𒟎	/pcsl/atu3/images/149.png
 EALX150	o0900504	|E₂~b×1(N58@t)|	E₂~b+AŠ~c	E₂~b+AŠ~c	𒟐	/pcsl/atu3/images/150.png
 EALX151	o0900511	EDIN	EDIN	EDIN	𒟕	/pcsl/atu3/images/151.png
 EALX152	o0900513	EN~a	EN~a	EN~a	𒟘	/pcsl/atu3/images/152.png
-EALX153	o0901605	|NUN+EN|	EN~a+NUN~a	EN~a+NUN~a	𒩵	/pcsl/atu3/images/153.png
+EALX153	o0901606	|NUN~a+EN~a|	EN~a+NUN~a	EN~a+NUN~a	𒩶	/pcsl/atu3/images/153.png
 EALX154	o0900517	EN~b	EN~b	EN~b	𒟚	/pcsl/atu3/images/154.png
 EALX155	o0900533	ENDIB	ENDIB	ENDIB	𒟦	/pcsl/atu3/images/155.png
 EALX156	o0900534	ENGIZ	ENGIZ	ENGIZ	𒟧	/pcsl/atu3/images/156.png
@@ -208,7 +208,7 @@ EALX207	o0900788	GAZI	GAZI	GAZI	𒡯	/pcsl/atu3/images/207.png
 EALX208	o0900790	GEŠTIN~a	GEŠTIN~a	GEŠTIN~a	𒡰	/pcsl/atu3/images/208.png
 EALX209	o0900797	GEŠTU~a	GEŠTU~a	GEŠTU~a	𒡳	/pcsl/atu3/images/209.png
 EALX210	o0900800	GEŠTU~b	GEŠTU~b	GEŠTU~b	𒡴	/pcsl/atu3/images/210.png
-EALX211	o0900807	GI~v1	GI	GI	𒡸	/pcsl/atu3/images/211.png
+EALX211	o0900806	GI	GI	GI	𒡸	/pcsl/atu3/images/211.png
 EALX212	o0900822	|GI&GI|	GI+GI	GI+GI	𒡿	/pcsl/atu3/images/212.png
 EALX213	o0900820	|GI×ŠE₃~v1|	GI+ŠE₃	GI+ŠE₃	𒡼	/pcsl/atu3/images/213.png
 EALX214	o0900829	GI₄~a	GI₄~a	GI₄~a	𒢉	/pcsl/atu3/images/214.png
@@ -359,7 +359,7 @@ EALX358	o0901392	MU	MU	MU	𒧬	/pcsl/atu3/images/358.png
 EALX359	o0901393	MUD	MUD	MUD	𒧭	/pcsl/atu3/images/359.png
 EALX360	o0901396	MUD₃~a	MUD₃~a	MUD₃~a	𒧯	/pcsl/atu3/images/360.png
 EALX361	o0901398	MUD₃~c	MUD₃~c	MUD₃~c	𒧲	/pcsl/atu3/images/361.png
-EALX362	o0901400	MUD₃@g	MUD₃@g	MUD₃@g	𒧳	/pcsl/atu3/images/362.png
+EALX362	o0901401	MUD₃~a@g	MUD₃@g	MUD₃@g	𒧳	/pcsl/atu3/images/362.png
 EALX363	o0901404	MUL	MUL	MUL	𒧴	/pcsl/atu3/images/363.png
 EALX364	o0901408	MUN~a2	MUN~a2	MUN~a2	󳂾	/pcsl/atu3/images/364.png
 EALX365	o0901410	MUN~a4	MUN~a4	MUN~a4	𒧸	/pcsl/atu3/images/365.png
@@ -367,7 +367,7 @@ EALX366	o0901411	MUN~b	MUN~b	MUN~b	𒧹	/pcsl/atu3/images/366.png
 EALX367	o0901414	MUNŠUB~b	MUNŠUB~b	MUNŠUB~b	𒧻	/pcsl/atu3/images/367.png
 EALX368	o0901415	MUNU₃	MUNU₃	MUNU₃	𒧼	/pcsl/atu3/images/368.png
 EALX369	o0901417	MUŠ	MUŠ	MUŠ	𒧾	/pcsl/atu3/images/369.png
-EALX370	o0901421	MUŠ₃~a~v2	MUŠ₃~a	MUŠ₃~a	𒨃	/pcsl/atu3/images/370.png
+EALX370	o0901419	MUŠ₃~a	MUŠ₃~a	MUŠ₃~a	𒨃	/pcsl/atu3/images/370.png
 EALX371	o0901426	MUŠEN	MUŠEN	MUŠEN	𒨅	/pcsl/atu3/images/371.png
 EALX372	o0901437	NA~a	NA~a	NA~a	𒨋	/pcsl/atu3/images/372.png
 EALX373	o0901438	NA~b	NA~b	NA~b	𒨌	/pcsl/atu3/images/373.png
@@ -417,7 +417,7 @@ EALX416	o0901592	NUN~a	NUN~a	NUN~a	𒩴	/pcsl/atu3/images/416.png
 EALX417	o0901593	NUN~b	NUN~b	NUN~b	𒩺	/pcsl/atu3/images/417.png
 EALX418	o0901614	NUNUZ~a1	NUNUZ~a1	NUNUZ~a1	𒪂	/pcsl/atu3/images/418.png
 EALX419	o0901616	NUNUZ~b1	NUNUZ~b1	NUNUZ~b1	𒪅	/pcsl/atu3/images/419.png
-EALX420	o0901619	NUNUZ~c~v1	NUNUZ~c1	NUNUZ~c1	𒪇	/pcsl/atu3/images/420.png
+EALX420	o0901618	NUNUZ~c	NUNUZ~c1	NUNUZ~c1	𒪇	/pcsl/atu3/images/420.png
 EALX421	o0901625	PA~a	PA~a	PA~a	𒪍	/pcsl/atu3/images/421.png
 EALX422	o0901636	PAD~a	PAD~a	PAD~a	𒪏	/pcsl/atu3/images/422.png
 EALX423	o0901637	PAD~b	PAD~b	PAD~b	𒪐	/pcsl/atu3/images/423.png
@@ -429,7 +429,7 @@ EALX428	o0903248	|3(N57).PIRIG~b1|	PIRIG~b1+3(N57)	PIRIG~b1+3(N57)	󰄒	/pcsl/at
 EALX429	o0901656	PU₂	PU₂	PU₂	󳃁	/pcsl/atu3/images/429.png
 EALX430	o0901659	RAD~a	RAD~a	RAD~a	𒪝	/pcsl/atu3/images/430.png
 EALX431	o0901660	RAD~b	RAD~b	RAD~b	𒪠	/pcsl/atu3/images/431.png
-EALX432	o0901661	RAD@g	RAD@g	RAD@g	𒪠	/pcsl/atu3/images/432.png
+EALX432	o0901662	RAD~a@g	RAD@g	RAD@g	𒪠	/pcsl/atu3/images/432.png
 EALX433	o0901668	RI₈~a	RI₈~a	RI₈~a	𒪡	/pcsl/atu3/images/433.png
 EALX434	o0901669	RI₈~b	RI₈~b	RI₈~b	𒪢	/pcsl/atu3/images/434.png
 EALX435	o0901670	RU	RU	RU	𒪣𒪥	/pcsl/atu3/images/435.png
@@ -508,7 +508,7 @@ EALX507	o0901940	ŠAKIR~c	ŠAKIR~c	ŠAKIR~c	󳃇	/pcsl/atu3/images/507.png
 EALX508	o0901941	ŠAM₂	ŠAM₂	ŠAM₂	󳃈	/pcsl/atu3/images/508.png
 EALX509	o0901946	ŠE~a	ŠE~a	ŠE~a	𒭒	/pcsl/atu3/images/509.png
 EALX510	o0901953	|ŠE~a.KIN₂~c|	ŠE~a+KIN₂~c	ŠE~a+KIN₂~c	󳃉	/pcsl/atu3/images/510.png
-EALX511	o0901956	|ŠE~a.NAM₂~v1|	ŠE~a+NAM₂	ŠE~a+NAM₂	𒭕	/pcsl/atu3/images/511.png
+EALX511	o0901955	|ŠE~a.NAM₂|	ŠE~a+NAM₂	ŠE~a+NAM₂	𒭕	/pcsl/atu3/images/511.png
 EALX512	o0901723	|SAR~a×ŠE~a|	ŠE~a+SAR~a	ŠE~a+SAR~a	𒫁	/pcsl/atu3/images/512.png
 EALX513	o0901959	|ŠE~a&ŠE~a|	ŠE~a+ŠE~a	ŠE~a+ŠE~a	𒭖	/pcsl/atu3/images/513.png
 EALX514	o0901961	ŠE~a@t	ŠE~a@t	ŠE~a@t	𒭗	/pcsl/atu3/images/514.png
@@ -569,10 +569,10 @@ EALX568	o0902157	U₂~b	U₂~b	U₂~b	𒯞	/pcsl/atu3/images/568.png
 EALX569	o0902161	U₄	U₄	U₄	𒯡	/pcsl/atu3/images/569.png
 EALX570	o0902207	|U₄×2(N57)|	U₄+2(N57)	U₄+2(N57)	𒰌	/pcsl/atu3/images/570.png
 EALX571	o0902177	|U₄.ŠU₂|	U₄+ŠU₂	U₄+ŠU₂	𒯡	/pcsl/atu3/images/571.png
-EALX572	o0902222	U₈~v2	U₈	U₈	𒰙	/pcsl/atu3/images/572.png
+EALX572	o0902220	U₈	U₈	U₈	𒰙	/pcsl/atu3/images/572.png
 EALX573	o0902227	UB	UB	UB	𒰛	/pcsl/atu3/images/573.png
 EALX574	o0902230	UBI~c	UBI~c	UBI~c	𒰞	/pcsl/atu3/images/574.png
-EALX575	o0902235	UD₅~a~v1	UD₅~a	UD₅~a	𒰡	/pcsl/atu3/images/575.png
+EALX575	o0902234	UD₅~a	UD₅~a	UD₅~a	𒰡	/pcsl/atu3/images/575.png
 EALX576	o0902241	UD₅~a@g	UD₅~a@g	UD₅~a@g	𒰠	/pcsl/atu3/images/576.png
 EALX577	o0902243	UDU~a	UDU~a	UDU~a	𒰥	/pcsl/atu3/images/577.png
 EALX578	o0902245	UDU~c	UDU~c	UDU~c	𒰩	/pcsl/atu3/images/578.png
@@ -583,7 +583,7 @@ EALX582	o0902261	UKKIN~a	UKKIN~a	UKKIN~a	𒰱	/pcsl/atu3/images/582.png
 EALX583	o0902263	UKKIN~b	UKKIN~b	UKKIN~b	󳃐	/pcsl/atu3/images/583.png
 EALX584	o0902290	UMUN₂	UMUN₂	UMUN₂	𒱂	/pcsl/atu3/images/584.png
 EALX585	o0902293	UNUG~a	UNUG~a	UNUG~a	𒱄	/pcsl/atu3/images/585.png
-EALX586	o0902299	UNUG@s	UNUG@s	UNUG@s	𒱇	/pcsl/atu3/images/586.png
+EALX586	o0902300	UNUG~a@s	UNUG@s	UNUG@s	𒱇	/pcsl/atu3/images/586.png
 EALX587	o0902302	UR~a	UR~a	UR~a	𒱊	/pcsl/atu3/images/587.png
 EALX588	o0902309	UR₂	UR₂	UR₂	𒱏	/pcsl/atu3/images/588.png
 EALX589	o0902310	|UR₂×1(N57)|	UR₂+1(N57)	UR₂+1(N57)	𒱑	/pcsl/atu3/images/589.png
@@ -663,7 +663,7 @@ EALX662	o0902698	ZATU751~b	ZATU751~b	ZATU751~b	󳃕	/pcsl/atu3/images/662.png
 EALX663	o0902699	ZATU752	ZATU752	ZATU752	𒵷	/pcsl/atu3/images/663.png
 EALX664	o0902701	ZATU753	ZATU753	ZATU753	𒵸	/pcsl/atu3/images/664.png
 EALX665	o0902710	ZATU758	ZATU758	ZATU758	𒶁	/pcsl/atu3/images/665.png
-EALX666	o0902713	|ZATU759×KU₆|	ZATU759+KU₆	ZATU759+KU₆	𒶈	/pcsl/atu3/images/666.png
+EALX666	o0902714	|ZATU759×KU₆~a|	ZATU759+KU₆	ZATU759+KU₆	𒶈	/pcsl/atu3/images/666.png
 EALX667	o0902732	ZATU766	ZATU766	ZATU766	𒶒	/pcsl/atu3/images/667.png
 EALX668	o0902746	ZATU777	ZATU777	ZATU777	𒶠	/pcsl/atu3/images/668.png
 EALX669	o0902757	ZATU786	ZATU786	ZATU786	𒶪	/pcsl/atu3/images/669.png

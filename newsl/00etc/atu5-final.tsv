@@ -23,7 +23,7 @@ EAAR022	o0900108	ARARMA₂~b	ARARMA2b	ARARMA₂~b	𒛘	/pcsl/atu5/images/022.png
 EAAR023	o0900114	AZU	AZU	AZU	𒛝	/pcsl/atu5/images/023.png
 EAAR024	o0900115	BA	BA	BA	𒛞	/pcsl/atu5/images/024.png
 EAAR025	o0900116	BAD	BAD	BAD	𒛟	/pcsl/atu5/images/025.png
-EAAR026	o0903282	|(1(N58).BAD)~a|	BAD+DIŠa	BAD+DIŠ~a	𒸍	/pcsl/atu5/images/026.png
+EAAR026	o0903281	|(1(N58).BAD)~a|	BAD+DIŠa	BAD+DIŠ~a	𒸍	/pcsl/atu5/images/026.png
 EAAR027	o0903283	|(1(N58).BAD)~b|	BAD+DIŠb	BAD+DIŠ~b	𒸏𒸎	/pcsl/atu5/images/027.png
 EAAR028	o0900131	BALA~b	BALAb	BALA~b	𒛩	/pcsl/atu5/images/028.png
 EAAR029	o0900133	BALAG	BALAG	BALAG	𒛬𒛭	/pcsl/atu5/images/029.png
@@ -204,7 +204,7 @@ EAAR203	o0901113	KISAL~a1	KISALa1	KISAL~a1	𒥎	/pcsl/atu5/images/203.png
 EAAR204	o0901115	KISAL~b1	KISALb1	KISAL~b1	𒥐	/pcsl/atu5/images/204.png
 EAAR205	o0901127	KISIM~c	KISIMc	KISIM~c	𒥙	/pcsl/atu5/images/205.png
 EAAR206	o0901142	KU₃~a	KU3a	KU₃~a	𒥣	/pcsl/atu5/images/206.png
-EAAR207	o0903757	KU₃~a~v1	KU3b	KU₃~b	󳃪	/pcsl/atu5/images/207.png
+EAAR207	o0901142	KU₃~a	KU3b	KU₃~b	󳃪	/pcsl/atu5/images/207.png
 EAAR208	o0901145	KU₆~a	KU6a	KU₆~a	𒥥	/pcsl/atu5/images/208.png
 EAAR209	o0901158	KUR~a	KURa	KUR~a	𒥬	/pcsl/atu5/images/209.png
 EAAR210	o0901159	KUR~b	KURb	KUR~b	𒥯	/pcsl/atu5/images/210.png
@@ -360,7 +360,7 @@ EAAR359	o0901934	ŠAH₂~a	ŠAH2a	ŠAH₂~a	𒭉	/pcsl/atu5/images/359.png
 EAAR360	o0901936	ŠAH₂~c	ŠAH2c	ŠAH₂~c	𒭋	/pcsl/atu5/images/360.png
 EAAR361	o0901941	ŠAM₂	ŠAM2	ŠAM₂	𒭏	/pcsl/atu5/images/361.png
 EAAR362	o0901946	ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/atu5/images/362.png
-EAAR363	o0901957	|ŠE~a.NAM₂~v2|	ŠEa+NAM2	ŠE~a+NAM₂	󳀔	/pcsl/atu5/images/363.png
+EAAR363	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	󳀔	/pcsl/atu5/images/363.png
 EAAR364	o0901961	ŠE~a@t	ŠEa.tenû	ŠE~a@t	𒭗	/pcsl/atu5/images/364.png
 EAAR365	o0901947	ŠE~b	ŠEb	ŠE~b	𒭘	/pcsl/atu5/images/365.png
 EAAR366	o0901962	ŠE₃	ŠE3	ŠE₃	𒭚𒭜	/pcsl/atu5/images/366.png
@@ -376,14 +376,14 @@ EAAR375	o0902004	ŠITA~a1	ŠITAa1	ŠITA~a1	𒭻	/pcsl/atu5/images/375.png
 EAAR376	o0902006	ŠITA~a3	ŠITAa3	ŠITA~a3	𒮃	/pcsl/atu5/images/376.png
 EAAR377	o0902007	ŠITA~b1	ŠITAb1	ŠITA~b1	𒮄	/pcsl/atu5/images/377.png
 EAAR378	o0902012	|ŠITA~b2@g×HI@g~a|	ŠITAb1+HI.gunûa	ŠITA~b1+HI@g~a	𒮇	/pcsl/atu5/images/378.png
-EAAR379	o0902028	ŠITA@g~a	ŠITA.gunûa	ŠITA@g~a	𒮊	/pcsl/atu5/images/379.png
+EAAR379	o0903420	ŠITA~b1@g	ŠITA.gunûa	ŠITA@g~a	𒮊	/pcsl/atu5/images/379.png
 EAAR380	o0902033	ŠU	ŠU	ŠU	𒮍	/pcsl/atu5/images/380.png
 EAAR381	o0902036	ŠU@g	ŠU.gunû	ŠU@g	𒮐	/pcsl/atu5/images/381.png
 EAAR382	o0902038	ŠU₂	ŠU2	ŠU₂	󳂐𒮑	/pcsl/atu5/images/382.png
 EAAR383	o0902045	|ŠU₂.EN~a|	ŠU2+ENa	ŠU₂+EN~a	󳂐𒟖	/pcsl/atu5/images/383.png
 EAAR384	o0902056	|ŠU₂.URI₃~a|	ŠU2+URI3a	ŠU₂.URI₃~a	𒮗	/pcsl/atu5/images/384.png
 EAAR385	o0902060	ŠUBUR	ŠUBUR	ŠUBUR	𒮞	/pcsl/atu5/images/385.png
-EAAR386	o0903221	|1(N57).ŠUBUR~v1|	ŠUBUR+1N57	ŠUBUR+1N57	𒷷𒷶	/pcsl/atu5/images/386.png
+EAAR386	o0903220	|1(N57).ŠUBUR|	ŠUBUR+1N57	ŠUBUR+1N57	𒷷𒷶	/pcsl/atu5/images/386.png
 EAAR387	o0902061	ŠUM	ŠUM	ŠUM	𒮟	/pcsl/atu5/images/387.png
 EAAR388	o0902076	TA~c	TAc	TA~c	𒮨	/pcsl/atu5/images/388.png
 EAAR389	o0902083	TAG~a1	TAGa1	TAG~a1	𒮮	/pcsl/atu5/images/389.png
@@ -548,7 +548,7 @@ EAAR547	o0902623	ZATU722	ZATU722	ZATU722	𒴿	/pcsl/atu5/images/548.png
 EAAR548	o0902624	ZATU723	ZATU723	ZATU723	𒵀	/pcsl/atu5/images/549.png
 EAAR549	o0902625	ZATU724	ZATU724	ZATU724	𒵁	/pcsl/atu5/images/550.png
 EAAR550	o0902629	ZATU726~a	ZATU726a	ZATU726~a	𒵄	/pcsl/atu5/images/551.png
-EAAR551	o0903671	ZATU726~b	ZATU726b	ZATU726~b	󳃯	/pcsl/atu5/images/552.png
+EAAR551	o0902629	ZATU726~a	ZATU726b	ZATU726~b	󳃯	/pcsl/atu5/images/552.png
 EAAR552	o0902630	ZATU726~c	ZATU726c	ZATU726~c	𒵅	/pcsl/atu5/images/553.png
 EAAR553	o0902631	ZATU726~d	ZATU726d	ZATU726~d	𒵆	/pcsl/atu5/images/554.png
 EAAR554	o0902632	ZATU727	ZATU727	ZATU727	𒵇	/pcsl/atu5/images/555.png

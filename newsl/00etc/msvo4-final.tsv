@@ -13,7 +13,7 @@ EAVR012	o0900089	AN	AN	AN	𒛌	/pcsl/msvo4/images/012.png
 EAVR013	o0900094	ANŠE~b	ANŠEb	ANŠE~b	𒛏	/pcsl/msvo4/images/013.png
 EAVR014	o0900100	APIN~a	APINa	APIN~a	𒛒	/pcsl/msvo4/images/014.png
 EAVR015	o0900115	BA	BA	BA	𒛞	/pcsl/msvo4/images/015.png
-EAVR016	o0903282	|(1(N58).BAD)~a|	BAD+DIŠa	BAD+DIŠ~a	𒸍	/pcsl/msvo4/images/016.png
+EAVR016	o0903281	|(1(N58).BAD)~a|	BAD+DIŠa	BAD+DIŠ~a	𒸍	/pcsl/msvo4/images/016.png
 EAVR017	o0900126	BAHAR₂~b	BAHAR2b	BAHAR₂~b	𒛧	/pcsl/msvo4/images/017.png
 EAVR018	o0900128	BAHAR₂~c	BAHAR2c	BAHAR₂~c	𒛨	/pcsl/msvo4/images/018.png
 EAVR019	o0900151	BAPPIR~d	BAPPIRd	BAPPIR~d	𒛺	/pcsl/msvo4/images/019.png
@@ -219,7 +219,7 @@ EAVR218	o0901938	ŠAKIR~a	ŠAKIRa	ŠAKIR~a	𒭌	/pcsl/msvo4/images/218.png
 EAVR219	o0901940	ŠAKIR~c	ŠAKIRc	ŠAKIR~c	𒭎	/pcsl/msvo4/images/219.png
 EAVR220	o0901941	ŠAM₂	ŠAM2	ŠAM₂	𒭏	/pcsl/msvo4/images/220.png
 EAVR221	o0901946	ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/msvo4/images/221.png
-EAVR222	o0901957	|ŠE~a.NAM₂~v2|	ŠEa+NAM2	ŠE~a+NAM₂	󳀔	/pcsl/msvo4/images/222.png
+EAVR222	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	󳀔	/pcsl/msvo4/images/222.png
 EAVR223	o0901723	|SAR~a×ŠE~a|	ŠEa+SARa	ŠE~a+SAR~a	𒫁	/pcsl/msvo4/images/223.png
 EAVR224	o0901959	|ŠE~a&ŠE~a|	ŠEa+ŠEa	ŠE~a+ŠE~a	𒭖	/pcsl/msvo4/images/224.png
 EAVR225	o0901962	ŠE₃	ŠE3	ŠE₃	𒭚	/pcsl/msvo4/images/225.png
@@ -236,7 +236,7 @@ EAVR235	o0902035	|ŠU&ŠU|	ŠU+ŠU	ŠU+ŠU	𒮏	/pcsl/msvo4/images/235.png
 EAVR236	o0902038	ŠU₂	ŠU2	ŠU₂	󳂐	/pcsl/msvo4/images/236.png
 EAVR237	o0902045	|ŠU₂.EN~a|	ŠU2+ENa	ŠU₂+EN~a	𒮔	/pcsl/msvo4/images/237.png
 EAVR238	o0902060	ŠUBUR	ŠUBUR	ŠUBUR	𒮞	/pcsl/msvo4/images/238.png
-EAVR239	o0903221	|1(N57).ŠUBUR~v1|	ŠUBUR+1N57	ŠUBUR+1N57	𒷷	/pcsl/msvo4/images/239.png
+EAVR239	o0903220	|1(N57).ŠUBUR|	ŠUBUR+1N57	ŠUBUR+1N57	𒷷	/pcsl/msvo4/images/239.png
 EAVR240	o0902061	ŠUM	ŠUM	ŠUM	𒮟	/pcsl/msvo4/images/240.png
 EAVR241	o0902064	ŠUR₂~b	ŠUR2b	ŠUR₂~b	𒮡	/pcsl/msvo4/images/241.png
 EAVR242	o0902083	TAG~a1	TAGa1	TAG~a1	𒮬	/pcsl/msvo4/images/242.png

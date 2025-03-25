@@ -22,7 +22,7 @@ html: 00web/${SL}-tab.html
 
 fxml: 00etc/${SL}-final.xml
 
-00etc/${SL}-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx
+00etc/${SL}-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
 	00bin/final-xml.plx ${SL}
 
 fhtml: 00web/${SL}-tab.html

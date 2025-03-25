@@ -1,7 +1,7 @@
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 	       xmlns="http://www.w3.org/1999/xhtml">
 
-  <xsl:include href="slframe-preambles.xsl"/>
+  <xsl:include href="final-preambles.xsl"/>
   
   <xsl:param name="mode" select="''"/> <!-- NC for non-contrastive only; SQ for sequences only -->
   <xsl:param name="SL" select="''"/>
@@ -14,7 +14,7 @@
     </xsl:variable>
     <xsl:variable name="vol">
       <xsl:choose>
-	<xsl:when test="sl/@n='CDLI-gh'"><xsl:value-of select="@n"/></xsl:when>
+	<xsl:when test="sl/@n='easl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
 	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'amostuv','AMOSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -59,24 +59,15 @@
 	<tr>
 	  <xsl:variable name="sq-class">
 	    <xsl:choose>
-	      <xsl:when test="$mode='SQ'">
-		<xsl:choose>
-		  <xsl:when test="../@seq='.'">
-		    <xsl:text>sq-seq</xsl:text>
-		  </xsl:when>
-		  <xsl:when test="../@seq=':'">
-		    <xsl:text>sq-opq</xsl:text>
-		  </xsl:when>
-		  <xsl:when test="../@seq='!'">
-		    <xsl:text>sq-chr</xsl:text>
-		  </xsl:when>
-		</xsl:choose>
+	      <xsl:when test="../@seq='.'">
+		<xsl:text>sq-seq</xsl:text>
 	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:if test="../@seq='.' or ../@seq=':'">
-		  <xsl:text>seq</xsl:text>
-		</xsl:if>
-	      </xsl:otherwise>
+	      <xsl:when test="../@seq=':'">
+		<xsl:text>sq-opq</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="../@seq='!'">
+		<xsl:text>sq-chr</xsl:text>
+	      </xsl:when>
 	    </xsl:choose>
 	  </xsl:variable>
 	  <xsl:variable name="not-class">

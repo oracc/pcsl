@@ -38,8 +38,21 @@ while (<N>) {
     my $xp = xmlify($p);
     my $xlo = xmlify($lo);
     my $xlp = xmlify($lp);
-    my $xt = ($easlflag ? ' tags="'.xmlify($t).'"' : '');
-    print "<sign xml:id=\"$n\" oid=\"$o\"$xt p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\">";
+    if ($t) {
+	my $seq = '';
+	my $not = '';
+	$t = " tags=\"$t\"";
+	if ($t =~ /([.:!@])/) {
+	    $seq = " seq=\"$1\"";
+	}
+	if ($t =~ /[-15di\#]/) {
+	    $not = " not=\"1\"";
+	}
+	$t = "$t$seq$not";
+    } else {
+	$t = '';	
+    }
+    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\">";
     chars($c);
     print '</sign>';
 }
