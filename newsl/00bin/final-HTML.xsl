@@ -132,7 +132,7 @@
 		<div>
 		  <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 		</div>
-		<div class="fhex"><span><xsl:value-of select="concat('[',@u,']')"/></span></div>
+		<div class="fhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
 	      </xsl:for-each>
 	    </div>
 	  </td>
@@ -172,13 +172,18 @@
 	  <div>
 	    <xsl:choose>
 	      <xsl:when test="not(contains(../../../@glyf,@c))">
-		<span>
-		  <xsl:attribute name="class"><xsl:text>newglyf</xsl:text></xsl:attribute>
-		  <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
-		</span>
+		<span class="newglyf ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 	      </xsl:when>
 	      <xsl:otherwise>
-		<span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		<xsl:choose>
+		  <xsl:when test="@d">
+		    <span class="diffc ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		    <span class="diffd"><xsl:value-of select="concat('&#xa0;(',@d,')')"/></span>
+		  </xsl:when>
+		  <xsl:otherwise>
+		    <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		  </xsl:otherwise>
+		</xsl:choose>
 	      </xsl:otherwise>
 	    </xsl:choose>
 	  </div>

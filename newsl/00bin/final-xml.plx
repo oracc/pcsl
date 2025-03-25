@@ -55,7 +55,7 @@ while (<N>) {
     }
     print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\">";
     chars($c);
-    sl($o) if $easlflag;
+    sl($o,$p) if $easlflag;
     print '</sign>';
 }
 close(N);
@@ -89,6 +89,20 @@ sub chars {
     print "</s>";
 }
 
+sub check_ext {
+    my($p,$lp) = @_;
+    my ($pe) = ($p =~ /~([a-t]+[0-9]*)/);
+    my ($le) = ($lp =~ /~([a-t]+[0-9]*)/);
+    $pe = '' unless $pe;
+    $le = '' unless $le;
+    if ($pe ne $le) {
+	$le = 'o' unless $le;
+	return $le;
+    } else {
+	return '';
+    }
+}
+
 sub load_oid {
     my @o = `grep ^o09 /home/oracc/oid/oid.tab | cut -f1,3`; chomp @o;
     foreach (@o) {
@@ -107,26 +121,29 @@ sub load_unicode {
 
 sub load_sl {
     foreach (qw/atu3 atu5 msvo1 msvo4/) {
-	my @s = `cut -f 2,6 00etc/${_}-final.tsv`; chomp @s;
+	my @s = `cut -f 2,5-6 00etc/${_}-final.tsv`; chomp @s;
 	foreach my $s (@s) {
-	    my($o,$c) = split(/\t/,$s);
-	    ${$sl{$o}}{$_} = $c;
+	    my($o,$p,$c) = split(/\t/,$s);
+	    ${$sl{$o}}{$_} = [ $p , $c ];
 	}
     }
     # print Dumper \%sl; exit 1;
 }
 
 sub sl {
-    my $o = shift;
+    my ($o,$p) = @_;
     if ($sl{$o}) {
 	print '<sl>';
 	foreach my $sl (qw/atu3 atu5 msvo1 msvo4/) {
 	    if (${$sl{$o}}{$sl}) {
 		print "<s sl=\"$sl\">";
-		my @c = grep(length,split(/(.)/,${$sl{$o}}{$sl}));
+		my($lp,$lc) = @{${$sl{$o}}{$sl}};
+		my $diff = check_ext($p,$lp);
+		my $dattr = ($diff ? "d=\"$diff\" " : '');
+		my @c = grep(length,split(/(.)/,$lc));
 		foreach my $cc (@c) {
 		    my $h = sprintf("%X", ord($cc));
-		    printf "<c c=\"%s\" h=\"%s\"/>", $cc, $h;
+		    printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
 		}
 		print '</s>';
 	    } else {

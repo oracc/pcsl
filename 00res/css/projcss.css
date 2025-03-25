@@ -67,10 +67,12 @@ td a { text-decoration: none; }
 
 .preamble { width: 80%; margin: auto; }
 
-td.lrow { padding-left: 5px; text-align: left; }
+td.lrow { padding-left: 5px; text-align: left; vertical-align: top; }
 
 /* img.lrow { height: 80; } */
 
-.newglyf { color: red; }
+.newglyf { color: green; }
+.diffc { color: red; }
+.diffd { font-size: 90%; }
 .ucode { font-size: 80%; }
 
