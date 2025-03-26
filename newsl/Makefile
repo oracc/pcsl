@@ -13,19 +13,22 @@ WWW=/home/oracc/www/pcsl/${SL}
 default:  msvo1 msvo4 atu3 atu5 css js font
 
 %: Makefile 00etc/%-final.tsv
-	SL=$* make fxml html images
+	SL=$* make csldist xml html images
 
 00etc/easl-final.tsv: 00etc/easl-base.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
 
-html: 00web/${SL}-tab.html
+csldist: 00etc/csldist.tsv
 
-fxml: 00etc/${SL}-final.xml
+00etc/csldist.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
+	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
+
+xml: 00etc/${SL}-final.xml
 
 00etc/${SL}-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
 	00bin/final-xml.plx ${SL}
 
-fhtml: 00web/${SL}-tab.html
+html: 00web/${SL}-tab.html
 
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web

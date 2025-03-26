@@ -24,6 +24,7 @@ my $easlflag = ($n =~ /^easl/);
 my %n = (); load_oid();
 my %u = (); load_unicode();
 my %sl = (); load_sl() if $easlflag;
+my %dist = (); load_dist() if $easlflag;
 
 open(X,">00etc/$n-final.xml"); select X;
 print "<sl n=\"$n\">";
@@ -53,7 +54,8 @@ while (<N>) {
     } else {
 	$t = '';	
     }
-    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\">";
+    my $dist = dist($o);
+    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     chars($c);
     sl($o,$p) if $easlflag;
     print '</sign>';
@@ -100,6 +102,26 @@ sub check_ext {
 	return $le;
     } else {
 	return '';
+    }
+}
+
+sub dist {
+    return $dist{$_[0]} || '';
+}
+
+sub load_dist {
+    my @d = `grep I 00etc/csldist.tsv`; chomp @d;
+    foreach (@d) {
+	my($o,$iv,$iii) = split(/\t/,$_);
+	my $dist = " dist=\"";
+	if ($iv) {
+	    $dist .= "$iv";
+	    $dist .= "; $iii" if $iii;
+	} else {
+	    $dist .= "$iii";
+	}
+	$dist .= '."';
+	$dist{$o} = $dist;
     }
 }
 

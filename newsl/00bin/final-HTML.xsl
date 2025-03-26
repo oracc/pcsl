@@ -89,7 +89,7 @@
 	    </xsl:attribute>
 	  </xsl:if>
 	  <xsl:if test="count(preceding-sibling::*)=0">
-	    <th class="lname" rowspan="{count(../*)}">
+	    <th class="lname"> <!-- rowspan="{count(../*)}" -->
 	      <xsl:value-of select="../@xml:id"/>
 	    </th>
 	  </xsl:if>
@@ -115,6 +115,9 @@
 		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span></div>
 		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
 		</xsl:if>
+		<xsl:if test="../@dist">
+		  <div class="dist"><xsl:value-of select="../@dist"/></div>
+		</xsl:if>
 		<div class="notes"><p><xsl:value-of select="n"/></p></div>
 	      </div>
 	    </a>
@@ -138,7 +141,7 @@
 	  </td>
 	  
 	  <xsl:if test="count(preceding-sibling::*)=0">
-	    <td rowspan="{count(../*)}" class="lrow">
+	    <td class="lrow"> <!-- rowspan="{count(../*)}" -->
 	      <a href="javascript://" onclick="easlPopup('{../@oid}')">
 		<xsl:choose>
 		  <xsl:when test="starts-with(../@row,'/')">
