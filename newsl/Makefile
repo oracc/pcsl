@@ -10,12 +10,12 @@ O2=/home/stinney/o2
 SLfont=PC-all.ttf
 WWW=/home/oracc/www/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 css js font
+default:  msvo1 msvo4 atu3 atu5 easl css js font
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make csldist xml html images
 
-00etc/easl-final.tsv: 00etc/easl-base.tsv
+00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
 
 csldist: 00etc/csldist.tsv
@@ -25,7 +25,10 @@ csldist: 00etc/csldist.tsv
 
 xml: 00etc/${SL}-final.xml
 
-00etc/${SL}-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
+00etc/%-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
+	00bin/final-xml.plx ${SL}
+
+00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
 	00bin/final-xml.plx ${SL}
 
 html: 00web/${SL}-tab.html
