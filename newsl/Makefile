@@ -8,7 +8,8 @@
 
 O2=/home/stinney/o2
 SLfont=PC-all.ttf
-WWW=/home/oracc/www/pcsl/${SL}
+WWW=/home/oracc/www
+PRJ=${WWW}//pcsl/${SL}
 
 default:  msvo1 msvo4 atu3 atu5 easl css js font
 
@@ -36,10 +37,9 @@ html: 00web/${SL}-tab.html
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
 	00bin/final-html.sh $*
-	sudo mkdir -p ${WWW}
-	sudo cp 00web/$*-tab.html ${WWW}
-	sudo chmod -R +r ${WWW} /home/oracc/www/fonts
-
+	sudo mkdir -p ${PRJ}
+	sudo cp 00web/$*-tab.html ${PRJ}
+	sudo chmod -R +r ${PRJ}
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
 	sudo cp -u ../00res/css/*.css /home/oracc/www/pcsl/css/
@@ -58,8 +58,8 @@ font: /home/oracc/www/fonts/${SLfont}
 images: images/${SL}/.images
 
 images/${SL}/.images: images/${SL}/*.png
-	sudo mkdir -p ${WWW}/images
-	sudo cp -u images/${SL}/*.png ${WWW}/images
+	sudo mkdir -p ${PRJ}/images
+	sudo cp -u images/${SL}/*.png ${PRJ}/images
 	touch $@
 
 clean:

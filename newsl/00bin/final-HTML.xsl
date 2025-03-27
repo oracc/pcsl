@@ -93,16 +93,6 @@
 	      <xsl:value-of select="../@xml:id"/>
 	    </th>
 	  </xsl:if>
-	  <!--
-	  <xsl:choose>
-	    <xsl:when test="count(../*) > 1">
-	      <th class="lname"><xsl:value-of select="@xml:id"/></th>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <td/>
-	    </xsl:otherwise>
-	    </xsl:choose>
-	    -->
 	  <td>
 	    <a href="/pcsl/{../@oid}" target="_blank">
 	      <div class="names">
@@ -152,17 +142,24 @@
 		    <img class="lrow" width="600px" src="/osl/{../@row}"/>
 		  </xsl:otherwise>
 		</xsl:choose>
+		<xsl:if test="$SL='EASL'">
+		  <div class="rname">
+		    <span><xsl:value-of select="../@lp"/></span>
+		  </div>
+		</xsl:if>
 	      </a>
 	    </td>
 	  </xsl:if>
-	  <xsl:choose>
-	    <xsl:when test="../sl">
-	      <xsl:apply-templates select="../sl"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <td/><td/><td/><td/>
-	    </xsl:otherwise>
-	  </xsl:choose>
+	  <xsl:if test="$SL='EASL'">
+	    <xsl:choose>
+	      <xsl:when test="../sl">
+		<xsl:apply-templates select="../sl"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<td/><td/><td/><td/>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:if>
 	</tr>
       </xsl:for-each>
     </tbody>
