@@ -3873,6 +3873,7 @@
 @sys	LLATU:201_05 DUG~b+SA~a+GI 
 @inote	CHECK
 @list U+F3054
+@ucun 󳁔
 @uname ADD NAME |DUG~b×(SA~a.GI)|
 @@
 @end sign
