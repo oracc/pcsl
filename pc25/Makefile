@@ -17,6 +17,8 @@ kis: 00etc/pc25.kis
 
 rep: 00etc/pc25.rep
 
+seq: 00etc/seq.tsv
+
 xtf: 00etc/pc25.xtf
 
 lists:

@@ -8337,9 +8337,8 @@
 @useq x12BF3.x1255D
 @end sign
 
-@sign |U₄×1(N01).1(N24)|
+@sign |U₄×(1(N01).1(N24))|
 @oid o0902180
-@useq x12BF3.x125AA
 @end sign
 
 @sign |U₄×2(N01)|

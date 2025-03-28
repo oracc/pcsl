@@ -4,7 +4,7 @@
   <xsl:include href="final-preambles.xsl"/>
   
   <xsl:param name="mode" select="''"/> <!-- NC for non-contrastive only; SQ for sequences only -->
-  <xsl:param name="SL" select="''"/>
+  <xsl:param name="SL" select="'EASL'"/>
   
   <xsl:template match="/">
     <xsl:variable name="title-sub">
@@ -52,7 +52,7 @@
 	      <xsl:apply-templates select="sl/sign[s/f]"/>
 	    </xsl:when>
 	    <xsl:otherwise>
-	      <xsl:apply-templates select="sl/sign[@seq]"/>
+	      <xsl:apply-templates select="sl/sign[@seq=':' or @seq='!']"/>
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</table>

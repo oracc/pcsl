@@ -11,13 +11,20 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www
 PRJ=${WWW}//pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 easl css js font
+default:  msvo1 msvo4 atu3 atu5 easl seq css js font
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make csldist xml html images
 
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
+
+seq: 00web/easl-seq.html
+
+00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
+	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
+	sudo cp $@ ${WWW}/pcsl/easl/
+	sudo chmod +r ${WWW}/pcsl/easl/easl-seq.html
 
 csldist: 00etc/csldist.tsv
 
@@ -40,6 +47,7 @@ html: 00web/${SL}-tab.html
 	sudo mkdir -p ${PRJ}
 	sudo cp 00web/$*-tab.html ${PRJ}
 	sudo chmod -R +r ${PRJ}
+
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
 	sudo cp -u ../00res/css/*.css /home/oracc/www/pcsl/css/

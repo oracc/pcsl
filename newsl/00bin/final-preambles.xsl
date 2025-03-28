@@ -44,7 +44,12 @@
 	      <pre>	      ##
 	      ## . sequence
 	      ## : opaque sequence
-	      ## ! sequence but encode
+	      ## ! sequence but encode; followed by type code
+	      ##      A=Analogy (analogous signs not encoded as sequences)
+	      ##      B=Basic sign
+	      ##      C=Container relationship (sequence X.Y understood as X×Y)
+	      ##      D=Decomposition (sequence is decomposition of earlier integral sign)
+	      ##      U=Unencoded constituents
 	      ## # broken
 	      ## + added
 	      ## - remove (exists but out of scope)
@@ -64,12 +69,9 @@
 	      class="sq-seq">same green background</span> as the main
 	      page. Opaque sequences--those whose sign name hides the
 	      possibility that they may be sequences--should have a
-	      <span class="sq-opq">pink background</span>, but most of
-	      these have not yet been tagged with the <code>:</code>
-	      rather than the neutral <code>.</code>. Sequences that
-	      are candidates for encoding have a <span
-	      class="sq-chr">pale yellow background</span> but these
-	      have not yet been systematically reviewed.</p>
+	      <span class="sq-opq">pink background</span>. Sequences
+	      that should be encoded have a <span class="sq-chr">pale
+	      yellow background</span>.</p>
 
 	      <!--
 	      <p>Almost 190 of the signs have non-contrastive variants in
