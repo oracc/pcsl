@@ -33,6 +33,8 @@ my %revert = (
     'ŠU₂~b'=>'ŠU₂',
     );
 
+my %seq = (); load_seq();
+
 my %aka = ();
 my @aka = `cat 00etc/aka.tsv`; chomp @aka;
 foreach (@aka) {
@@ -327,10 +329,19 @@ sub glyfs {
     $ret;
 }
 
+sub load_seq {
+    my @s = `cat 00etc/easl-seq.tsv`; chomp @s;
+    foreach (@s) {
+	my ($o,$s) = split(/\t/,$_);
+	$seq{$o} = $s;
+    }
+}
+
 sub not_in_repertoire {
     my($n,$u,$o,$h) = @_;
     warn "not_in_repertoire n=$n and no u\n" unless $u;
     return 1 unless $u;
+    return 1 if $seq{$o};
     if ($u =~ /NUMBER/ && $u !~ /N57/) {
 	$not{$h} = "$o\t$n\t$h\tNUMBER\n";
 	return 1;
@@ -340,6 +351,7 @@ sub not_in_repertoire {
 	return 1;
     }
     if ($u =~ /BESIDE/) {
+	warn "$n has BESIDE but $o is not in 00etc/easl-seq.tsv\n";
 	$not{$h} = "$o\t$n\t$h\tBESIDE\n";
 	return 1;
     }
