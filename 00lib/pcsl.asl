@@ -382,6 +382,8 @@
 @ucun 𒚝
 @uname AB-A TIMES SHE-A OVER SHE-A
 @uage 1
+@form |AB~a×(ŠE~a&ŠE~a)|~v1
+@oid o0903765
 @sys	ADD F301D CUSAS31 ABaxSHEa+SHEa.png
 @sys	AP23 12C4F
 @sys	AP24 1269D
@@ -1764,7 +1766,7 @@
 @oid o0900178
 @aka	|(BU.DU₆&BU.DU₆)×UDU|
 @inote @smap |((BU~a.DU₆~a)&(BU~a.DU₆))×UDU~a|
-@form |((BU~a.DU₆~a)&(BU~a.DU₆))×UDU~a|
+@form |((BU~a.DU₆~a)&(BU~a.DU₆~a))×UDU~a|
 @oid o0900179
 @aka	|(BU~a.DU₆~a&BU~a.DU₆)×UDU~a|
 @sys	ADD F3023 CUSAS21 BU-DU6+BU-DU6+UDUa.png
@@ -10011,12 +10013,15 @@
 @ucun 𒥛
 @uname KISH VARIANT 1
 @uage 1
+@@
+@form KIŠ~v2
+@oid 
 @sys	ADD F3026 CUSAS01 KISHb.png
 @sys	AP23 128B7
 @sys	AP24 1295B
 @inote	Neither KIŠ~v1 nor KIŠ~b occur in CDLI transliterations, but CUSAS 1, p.281, KIŠ~b is very similar to CDLI KIŠ variant 1
 @inote	CUSAS01
-@@
+
 @end sign
 
 @sign KIŠIK
@@ -22933,6 +22938,8 @@
 @ucun 𒴑
 @uname ZATU693 TENU
 @uage 1
+@form ZATU693@t~v1
+@oid o0903763
 @sys	ADD F3020 CUSAS01 ZATU693-t.png
 @sys	AP23 12B64
 @sys	AP24 12D11
@@ -25611,6 +25618,8 @@
 @uname ZATU851
 @uage 1
 @list ZATU851
+@form ZATU851~v1
+@oid o0903764
 @sys	ADD F3022 CUSAS01 ZATU851.png
 @sys	AP23 12C18
 @sys	AP24 12DE6

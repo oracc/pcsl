@@ -51,6 +51,9 @@
 	    <xsl:when test="$mode='NC'">
 	      <xsl:apply-templates select="sl/sign[s/f]"/>
 	    </xsl:when>
+	    <xsl:when test="$mode='PC25'">
+	      <xsl:apply-templates select="sl/sign[@pc25='yes']"/>
+	    </xsl:when>
 	    <xsl:otherwise>
 	      <xsl:apply-templates select="sl/sign[@seq=':' or @seq='!']"/>
 	    </xsl:otherwise>

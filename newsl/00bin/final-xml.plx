@@ -25,6 +25,7 @@ my %n = (); load_oid();
 my %u = (); load_unicode();
 my %sl = (); load_sl() if $easlflag;
 my %dist = (); load_dist() if $easlflag;
+my %pc25 = (); load_pc25() if $easlflag;
 
 open(X,">00etc/$n-final.xml"); select X;
 print "<sl n=\"$n\">";
@@ -54,8 +55,9 @@ while (<N>) {
     } else {
 	$t = '';	
     }
+    my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
     my $dist = dist($o);
-    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
+    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
     chars($c);
     sl($o,$p) if $easlflag;
     print '</sign>';
@@ -132,13 +134,9 @@ sub load_oid {
     }
 }
 
-sub load_unicode {
-    my @u = `cat 00etc/unicode.tsv`; chomp @u;
-    foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; }
-    my @a = `cat 00etc/ap24-codes.tsv`; chomp @a;
-    foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
-    @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
-    foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+sub load_pc25 {
+    my @p = `cut -f5 ../pc25/pc25-repertoire.tsv`; chomp @p;
+    @pc25{@p} = ();
 }
 
 sub load_sl {
@@ -150,6 +148,15 @@ sub load_sl {
 	}
     }
     # print Dumper \%sl; exit 1;
+}
+
+sub load_unicode {
+    my @u = `cat 00etc/unicode.tsv`; chomp @u;
+    foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; }
+    my @a = `cat 00etc/ap24-codes.tsv`; chomp @a;
+    foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+    @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
+    foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
 }
 
 sub sl {

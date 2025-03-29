@@ -13,11 +13,19 @@ PRJ=${WWW}//pcsl/${SL}
 
 default:  msvo1 msvo4 atu3 atu5 easl seq css js font
 
+pc25: 00web/pc25.html
+	@true
+
 %: Makefile 00etc/%-final.tsv
 	SL=$* make csldist xml html images
 
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
+
+00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
+	xsltproc -stringparam mode PC25 00bin/final-HTML.xsl $< >$@
+	sudo cp $@ ${WWW}/pcsl/easl/
+	sudo chmod +r ${WWW}/pcsl/easl/pc25.html
 
 seq: 00web/easl-seq.html
 
@@ -36,7 +44,7 @@ xml: 00etc/${SL}-final.xml
 00etc/%-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
 	00bin/final-xml.plx ${SL}
 
-00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
+00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv
 	00bin/final-xml.plx ${SL}
 
 html: 00web/${SL}-tab.html
