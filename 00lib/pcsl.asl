@@ -15026,7 +15026,7 @@
 @list U+F3064
 @uname ADD NAME SANGA~e1
 @@
-@form SANGA~e2
+@form SANGA~e~v1
 @oid o0901716
 @sys	ADD F3065 CUSAS01 SANGAe2.png
 @inote	CUSAS01; two variants given there
