@@ -50,6 +50,7 @@
 	      ##      C=Container relationship (sequence X.Y understood as X×Y)
 	      ##      D=Decomposition (sequence is decomposition of earlier integral sign)
 	      ##      U=Unencoded constituents
+	      ## a absent--sign is not in any CDLI-gh version
 	      ## # broken
 	      ## + added
 	      ## - remove (exists but out of scope)
@@ -118,6 +119,58 @@
 	      <h2>Full Listing of EASL/CDLI-gh</h2>
 	      -->
 
+	      <h2>Notes on Characters</h2>
+
+	      <h3>ANŠE~a, DUG~a, ŠE~a</h3>
+
+	      <p>These signs are included in older versions of CDLI
+	      archsigns but were missing from CDLI-gh as of
+	      2025-03-31; they are included here from older
+	      versions.</p>
+
+	      <h3>DUG~d/DUG~e</h3>
+
+	      <p>DUG~d is used in CDLI-tc for a version of DUG~c@t;
+	      the CDLI-gh glyph was incorrect as of 2025-03-31 but is
+	      corrected in the PC font.</p>
+
+	      <p>DUG~e occurs in ATU5 but is absent from CDLI-gh; in
+	      CDLI-tc the transliteration DUG~a is used but this does
+	      not reflect the tenu nature of the sign. EASL aligns
+	      with ATU5's DUG~e.</p>
+	      
+	      <h3>GIZZAL~x/ZA~x</h3>
+
+	      <p>CDLI-tc uses GIZZAL~v/ZA~v which is followed here.</p>
+	      
+	      <h3>N57@t/N58@t</h3>
+
+	      <p>The diagonal wedge is called both N57@t and N58@t in
+	      CDLI-gh and in AP23.  The notation of 1(N57@t) is
+	      normalized from 1(N57)@t in several cases and this
+	      normalization should also be carried through in
+	      additional cases.  CDLI-gh is not entirely consistent in
+	      labelling the N57/N58 in a tenu orientation; PCSL
+	      revises the names so that in this pair of cases, tenu
+	      means “rotated 45 degrees counterclockwise” in both
+	      cases.  This aligns with the standalone 1(N58@t), UXXX.</p>
+
+	      <h3>NINDA×GUDU₄ and friends</h3>
+	      
+	      <p>The sign “GUDU₄” is written with several different
+	      combinations of AN, HI, and ME.  Some variations of
+	      NINDA₂×GUDU₄ also occur in CDLI-gh/AP23 in their
+	      decomposed form. Forms with ×GUDU₄ are flagged for
+	      deletion or are renamed to use the componential
+	      naming.</p>
+
+	      <h3>ŠU₂</h3>
+	      
+	      <p>CDLI-gh does not label the independent forms of ŠU₂
+	      separately, but it does follow the LLATU labelling of
+	      the curved ŠU₂ as ŠU₂~a and the cuneiform ŠU₂ as ŠU₂~b
+	      in the context of GIŠ×ŠU₂~a/GIŠ×ŠU₂~b.  EASL drops the
+	      use of <code>~a</code> and <code>~b</code> with ŠU₂.</p>
 	    </xsl:when>
 	    <xsl:when test="$mode='NC'">
 	      <h1>EASL: Englund Archaic Sign List--Non-Contrastive Signs</h1>

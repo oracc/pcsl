@@ -19,6 +19,7 @@ my $f = "00etc/$n-final.tsv";
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
+my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 
 my %n = (); load_oid();
@@ -33,7 +34,7 @@ open(N,$f);
 while (<N>) {
     chomp;
     my($n,$o,$t,$p,$lo,$lp,$c,$fn) = ();
-    if ($easlflag) {
+    if ($cusasflag || $easlflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } else {
 	($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
@@ -48,7 +49,7 @@ while (<N>) {
 	if ($t =~ /([.:!@])/) {
 	    $seq = " seq=\"$1\"";
 	}
-	if ($t =~ /[-15di\#]/) {
+	if ($t =~ /[-15di\#]/ && $t !~ /C[023]1/) {
 	    $not = " not=\"1\"";
 	}
 	$t = "$t$seq$not";

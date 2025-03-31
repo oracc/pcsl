@@ -24283,7 +24283,8 @@ $ blank space
 1. 1(N01)# [...] , ŠITA~a1# X [...] 
 2. 1(N01)# [...] , [...] X 
 3. 2(N01) , EN~a# NIM~a# ŠITA~a1 
-4. 3(N02) , DUG~d 
+4. 3(N02) , DUG~e
+## CDLI-tc DUG~a but ATU5 uses DUG~e for this DUG~a@t
 5. 1(N01) , ŠITA~a3#? X [...] 
 6. , [...] 
 @column 3 
@@ -88232,7 +88233,7 @@ $ blank
 2. 5(N01) 1(N39~a) , ŠITA~a1 NAMEŠDA 
 3. 1(N01) , ZATU710 
 4. 3(N01) , |SILA₃~a+KAŠ~a| 
-5. 1(N39~a) , SAL |SAL+ZATU751~a| GAL~a 
+5. 1(N39~a) , SAL |SAL.ZATU751~a| GAL~a 
 6. [...] , [...] 
 @reverse 
 @column 1 
@@ -90764,7 +90765,8 @@ $ blank
 @tablet 
 @obverse 
 @column 1 
-1. [...] , ABZU#? 
+1. [...] , |AB×ZU|
+## CDLI ABZU#? but sign is clear on photo 
 2. 3(N39~a) , LA₂ SUG₅ 
 3. 1(N28) GUG₂ 
 4. 1(N28)# , AN#? KU₃~a# 
@@ -99311,7 +99313,8 @@ $ blank space
 @column 2 
 1. 1(N14) 4(N01) , UDU~a 
 2. 4(N01) , UD₅~a 
-3. 6(N01) , UDUNITA~d 
+3. 6(N01) , UTUA~a
+## CUSAS UDUNITA~d
 4. 2(N01) , SAL KIŠ 
 5. 2(N01) , KUR~a KIŠ 
 6. , E~a KISAL~b1 

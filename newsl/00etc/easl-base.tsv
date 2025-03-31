@@ -203,7 +203,6 @@ o0900447		|DUG~a×U₂~a|	I	|DUG~axU2~a|	𒝱	/easl/images/o0900447.png
 o0900448		|DUG~a×U₂~b|	I	|DUG~axU2~b|	𒝲	/easl/images/o0900448.png
 o0900460	1-#	|DUG~a×X|	I	|DUG~axX|	󲲂	/easl/images/o0900460.png
 o0900394		|DUG~a×1(N57)|	I	|DUG~ax1(N57)|	𒝳	/easl/images/o0900394.png
-o0900478		DUG~a@t	DUGe	DUG~e	𒝴	-
 o0900334		DUG~b	I	DUG~b	𒞭𒝷	/easl/images/o0900334.png
 o0900342		|DUG~b×ANŠE~b|	I	|DUG~bxANSZE~b|	𒝸	/easl/images/o0900342.png
 o0900343		|DUG~b×ANŠE~d|	I	|DUG~bxANSZE~d|	𒝹	/easl/images/o0900343.png
@@ -265,8 +264,8 @@ o0900476	n	|(DUG~b~v1&DUG~b~v1)×1(N58)|	I	|(DUG~b&DUG~b)x1(N58)|	𒞹	/easl/ima
 o0900336		DUG~c~v1	I	DUG~c	𒞼𒞿	/easl/images/o0900336.png
 o0900397		|DUG~c×1(N57)|	I	|DUG~cx1(N57)|	𒞾𒞽𒟀	/easl/images/o0900397.png
 o0900479		DUG~c@t	I	DUG~c@t	𒞻	/easl/images/o0900479.png
-o0900480		DUG~c2@t	I	DUG~c2@t	𒟁	-
-o0900338	d	DUG~d	I	DUG~d	󲞠	/easl/images/o0900338.png
+o0900338	c	DUG~d	I	DUG~d	𒟁	/easl/images/o0900338.png
+o0900478	a	DUG~e	DUGe	DUG~e	𒝴	-
 o0900481		DUGUD	I	DUGUD	𒟂	/easl/images/o0900481.png
 o0900483		DUR~a	I	DUR~a	𒟃	/easl/images/o0900483.png
 o0900484		DUR~b	I	DUR~b	𒟄	/easl/images/o0900484.png

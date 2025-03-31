@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF30F0 0xFFFFC
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF30F1 0xFFFFC
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -265,6 +265,12 @@
 @uage 1
 @sys	AP23 12C4C
 @sys	AP24 12699
+@@
+@form |AB~a×A@t|~v1
+@oid  o0903759
+@list U+F30F1
+@ucun 󳃱
+@uname ADD AB×A with A inside AB
 @@
 @end sign
 
@@ -3192,11 +3198,22 @@
 @@
 @form DUG~d
 @oid o0900338
-@sys	ADD F301E CDLIXXX DUG~d-drawing.png
-@sys	AP23 127A0
-@inote 2403
-@list U+F301E
-@uname ADD NAME DUG~d
+@list U+127C1
+@ucun 𒟁
+@uname DUG-C2 TENU
+@uage 1
+@sys	AP23 FFFFB
+@sys	AP24 127C1
+@@
+@form DUG~e
+@aka DUG~a@t
+@oid o0900478
+@list U+12774
+@ucun 𒝴
+@uname DUG-E
+@uage 1
+@sys	AP23 FFFF8
+@sys	AP24 12774
 @@
 @end sign
 
@@ -4390,18 +4407,6 @@
 @sign DUG@t
 @oid o0900477
 @sys CDLI-gh img-page
-@inote @smap DUG~a@t
-@form DUG~a@t
-@oid o0900478
-@list U+12774
-@ucun 𒝴
-@uname DUG-A TENU
-@uage 1
-@sys	ADD F308A CDLIXXX DUG~d-correction.png
-@sys	AP23 FFFF8
-@sys	AP24 12774
-@inote add 2403
-@@
 @form DUG~c@t
 @oid o0900479
 @list U+127BB
@@ -4410,15 +4415,6 @@
 @uage 1
 @sys	AP23 1279F
 @sys	AP24 127BB
-@@
-@form DUG~c2@t
-@oid o0900480
-@list U+127C1
-@ucun 𒟁
-@uname DUG-C2 TENU
-@uage 1
-@sys	AP23 FFFFB
-@sys	AP24 127C1
 @@
 @end sign
 
@@ -10019,9 +10015,9 @@
 @sys	ADD F3026 CUSAS01 KISHb.png
 @sys	AP23 128B7
 @sys	AP24 1295B
-@inote	Neither KIŠ~v1 nor KIŠ~b occur in CDLI transliterations, but CUSAS 1, p.281, KIŠ~b is very similar to CDLI KIŠ variant 1
-@inote	CUSAS01
-
+@inote Neither KIŠ~v1 nor KIŠ~b occur in CDLI transliterations, but
+	CUSAS 1, p.281, KIŠ~b is very similar to CDLI KIŠ variant 1
+@@
 @end sign
 
 @sign KIŠIK
@@ -18183,7 +18179,8 @@
 @@
 @end sign
 
-@sign |ŠU₂×1(N24)|
+@sign	|ŠU₂.1(N24)|
+@aka |ŠU₂×1(N24)|
 @oid o0902057
 @sys	ADD F3013 CUSAS31 SZU2x1N24.png
 @inote	CHECK
@@ -30326,7 +30323,7 @@
 @compoundonly	|HI×1(N57).AN|
 @compoundonly	3(N08)~v1
 @compoundonly	|(BU.DU₆)&(BU.DU₆)|
-@compoundonly	|(BU~a.DU₆~a)&(BU~a.DU₆)|
+@compoundonly	|(BU~a.DU₆~a)&(BU~a.DU₆~a)|
 @compoundonly	|DUG&DUG|
 @compoundonly	|DUG~b~v1&DUG~b~v1|
 @compoundonly	|HI×N04|
