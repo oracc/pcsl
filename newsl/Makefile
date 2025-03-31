@@ -39,15 +39,23 @@ seq: 00web/easl-seq.html
 
 csldist: 00etc/csldist.tsv
 
+csldist-all: 00etc/csldist-all.tsv
+
 00etc/csldist.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
+
+00etc/csldist-all.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
+	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 xml: 00etc/${SL}-final.xml
 
 00etc/%-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
 	00bin/final-xml.plx ${SL}
 
-00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv
+00etc/cusas-final.xml: 00etc/cusas-final.tsv 00etc/csldist-all.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
+	00bin/final-xml.plx ${SL}
+
+00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv 00etc/csldist.tsv
 	00bin/final-xml.plx ${SL}
 
 html: 00web/${SL}-tab.html

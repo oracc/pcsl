@@ -25,7 +25,7 @@ my $easlflag = ($n =~ /^easl/);
 my %n = (); load_oid();
 my %u = (); load_unicode();
 my %sl = (); load_sl() if $easlflag;
-my %dist = (); load_dist() if $easlflag;
+my %dist = (); load_dist() if $easlflag; load_dist_all() if $cusasflag;
 my %pc25 = (); load_pc25() if $easlflag;
 
 open(X,">00etc/$n-final.xml"); select X;
@@ -58,6 +58,9 @@ while (<N>) {
     }
     my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
     my $dist = dist($o);
+    if (!$dist && $t !~ /not="/) {
+	$t .= " not=\"1\"";
+    }
     print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
     chars($c);
     sl($o,$p) if $easlflag;
@@ -125,6 +128,14 @@ sub load_dist {
 	}
 	$dist .= '."';
 	$dist{$o} = $dist;
+    }
+}
+
+sub load_dist_all {
+    my @d = `cat 00etc/csldist-all.tsv`; chomp @d;
+    foreach (@d) {
+	my($o,$n) = split(/\t/,$_);
+	$dist{$o} = " dist=\"$n\"";
     }
 }
 
