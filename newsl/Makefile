@@ -9,9 +9,9 @@
 O2=/home/stinney/o2
 SLfont=PC-all.ttf
 WWW=/home/oracc/www
-PRJ=${WWW}//pcsl/${SL}
+PRJ=${WWW}/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl seq css js font
+default:  msvo1 msvo4 atu3 atu5 cusas easl seq overview css js font
 
 pc25: 00web/pc25.html
 	@true
@@ -44,7 +44,7 @@ csldist-all: 00etc/csldist-all.tsv
 00etc/csldist.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
 
-00etc/csldist-all.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
+00etc/csldist-all.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 xml: 00etc/${SL}-final.xml
@@ -66,6 +66,12 @@ html: 00web/${SL}-tab.html
 	sudo mkdir -p ${PRJ}
 	sudo cp 00web/$*-tab.html ${PRJ}
 	sudo chmod -R +r ${PRJ}
+
+overview: ${WWW}/pcsl/sl-overview.html
+
+${WWW}/pcsl/sl-overview.html: 00etc/sl-overview.html
+	sudo cp $< ${WWW}/pcsl
+	sudo chmod +r ${WWW}/pcsl/sl-overview.html
 
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css

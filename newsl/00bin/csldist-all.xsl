@@ -22,11 +22,8 @@
   </xsl:template>
 
   <xsl:template name="o-c">
-    <xsl:variable name="x">
-      <xsl:value-of select="sum(*[string(number(@c))!='NaN']/@c)"/>
-    </xsl:variable>
     <xsl:text>&#x9;</xsl:text>
-    <xsl:value-of select="$x"/>
+    <xsl:value-of select="@c"/>
     <xsl:text>×&#xa;</xsl:text>
   </xsl:template>
 

@@ -4,10 +4,25 @@
   <xsl:template name="preamble">
     <div class="preamble">
       <xsl:choose>
+	<xsl:when test="$SL='EALX'">
+	  <h1>EAAT: Englund Archaic Lexical Sign List</h1>
+	  <p>Sign list from ATU3 Archaic Uruk lexical textss.</p>
+	</xsl:when>
+	<xsl:when test="$SL='EAAT'">
+	  <h1>EAAT: Englund Archaic Administrative Texts Sign List</h1>
+	  <p>Sign list from ATU5 Archaic Uruk administrative textss.</p>
+	</xsl:when>
 	<xsl:when test="$SL='EAJN'">
+	  <h1>EAJN: Englund Archaic Jemdet Nasr Sign List</h1>
 	  <p>Sign list from MSVO1, Jemdet Nasr tablets.</p>
 	</xsl:when>
+	<xsl:when test="$SL='EAVR'">
+	  <h1>EAJN: Englund Archaic Varia Sign List</h1>
+	  <p>Sign list from MSVO4, various archaic texts.</p>
+	</xsl:when>
 	<xsl:when test="$SL='CUSAS'">
+	  <h1>CSL: CUSAS Sign List</h1>
+	  
 	  <p>Sign list of signs and glyph variants from CUSAS 01, 21, and 31</p>
 
 	  <p>This list is intended to contain all of the signs listed
@@ -18,11 +33,13 @@
 	  is encoded in the tags as C01, C21, or C31.</p>
 
 	  <p>For the book-signs, sequences and signs which are
-	  transliterated differently in CDLI-tc have a gray background
-	  indicating they are not to be encoded. The remaining signs
-	  are either used in the CDLI-tc transliterations or they are
-	  glyph variants, indicated by <code>'~v[0-9]'</code> in the
-	  sign name.</p>
+	  transliterated differently in CDLI-tc have a <span
+	  class="not">gray background</span> indicating they are not
+	  to be encoded. Some of the CUSAS signs will be treated
+	  asglyph variants and have a <span class="gvar">blue
+	  background</span>.  Any signs with a <span class="none">pink
+	  background</span> are problematic; there should not be any
+	  of these left.</p>
 
 	  <p>For the text-signs, these are characters which occur in
 	  the CUSAS transliterations in CDLI-tc but which are not in

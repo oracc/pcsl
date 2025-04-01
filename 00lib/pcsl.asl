@@ -9579,12 +9579,12 @@
 @sys	AP24 1293B
 @@
 @form KAŠ~d~v1
-@aka KAŠ~d1
 @oid o0901084
 @sys	ADD F3057 CUSAS01 KASHd1.png
 @inote	CUSAS01
 @list U+F3057
-@uname ADD NAME KAŠ~d1
+@ucun 󳁗
+@uname ADD NAME KAŠ~d~v1
 @@
 @end sign
 
@@ -16484,6 +16484,7 @@
 @sys	ADD F3058 CUSAS01 SUHURb.png
 @inote	CUSAS01
 @list U+F3058
+@ucun 󳁘
 @uname ADD NAME SUHUR~v3
 @@
 @end sign

@@ -88,6 +88,9 @@
 	      <xsl:when test="../@none='1'">
 		<xsl:text>none</xsl:text>
 	      </xsl:when>
+	      <xsl:when test="../@gvar='1'">
+		<xsl:text>gvar</xsl:text>
+	      </xsl:when>
 	    </xsl:choose>	  
 	  </xsl:variable>
 	  <xsl:variable name="class" select="concat($sq-class, ' ', $not-class)"/>

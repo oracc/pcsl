@@ -58,8 +58,14 @@ while (<N>) {
     }
     my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
     my $dist = dist($o);
-    if ((!$dist || $dist =~ /\s0×/) && $t !~ /not="/ && $p !~ /~v[0-9](?:\.$)/) {
-	$t .= " none=\"1\"";
+    if ($cusasflag) {
+	if ((!$dist || $dist =~ /0×/) && $t !~ /not="/) {
+	    if ($p =~ /~v[0-9]/) {
+		$t .= " gvar=\"1\"";
+	    } else {
+		$t .= " none=\"1\"";
+	    }
+	}
     }
     print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
     chars($c);
