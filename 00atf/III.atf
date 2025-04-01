@@ -28046,7 +28046,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] , [...] 
-2. [...] , [...] |(UDU~a×TAR)~b|# 
+2. [...] , [...] |UDU~a×TAR~b|#
 3. [...] , [...] 
  
 
@@ -88104,7 +88104,7 @@ $ blank space
 1. [...] , [...] 
 2. 4(N01) [1(N08)] , HAŠHUR 
 3. 2(N01) , MA ZATU735~b 
-4. 2(N01)# , |GA₂~a1×X| 
+4. 2(N01)# , |(GA₂~a1×X)~v1| 
 5. NI~a RU 2(N57) SU~a GIBIL [GU₇] 
 @reverse 
 $ blank 
@@ -88899,7 +88899,8 @@ $ blank
 @obverse 
 @column 1 
 1. 1(N14) , |LAGAB~a×ŠA|# |LAGAB~a×ŠITA~a1| 
-2. 2(N01) , |DUG~c×1(N58)| 
+2. 2(N01) , |DUG~b×1(N58)|
+## CDLI DUG~c but container is DUG~b
 3. 2(N01) , ŠEN~a# 
 4. 1(N01) , DUG~a# 
 5. 1(N01)# 1(N26) , DU₆~a 
@@ -90724,7 +90725,8 @@ $ blank
 1.b2. 2(N14) 3(N01) , UNUG~a 
 1.c. [...] 1(N14)# [...] 4(N01)# , BU~a GI# BU~a 
 2. 2(N01) , GIŠ@t# E₂~a 
-3. 6(N01) , |DUG~b×(UDU~a×TAR)| 
+3. 6(N01) , |DUG~b×(UDU~a×TAR~b)|
+## CDLI |DUG~b×(UDU~a×TAR~a)|
 4. 6(N01) , KID~b 
 @column 2 
 1. 1(N14) 7(N01) , MA 
@@ -95019,7 +95021,8 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) 3(N57) , |BU~a.DU₆~a| |BU~a.DU₆~a| UDU~a 
+1. 1(N01) 3(N57) , |((BU~a.DU₆~a)&(BU~a.DU₆~a))×UDU~a|
+## CDLI |BU~a.DU₆~a| |BU~a.DU₆~a| UDU~a 
 @reverse 
 $ blank space 
  
@@ -97935,7 +97938,8 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |DUG~b×(UDU~a×TAR~a)| KUR~a 
+1. 1(N01) |DUG~b×(UDU~a×TAR~b)| KUR~a
+## CDLI TAR~a
 $ blank space 
 @reverse 
 $ blank space 

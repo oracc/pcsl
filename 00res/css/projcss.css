@@ -65,6 +65,7 @@ td a { text-decoration: none; }
 
 .seq { background-color: #edfcee; }
 .not { background-color: #efefef; }
+.none { background-color: #fee7e7; }
 
 .chars div+div { padding-top: .25em; }
 

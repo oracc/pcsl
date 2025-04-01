@@ -20,23 +20,35 @@ my @b = `cat 00etc/cusas-books.tsv`; chomp @b;
 my %c = ();
 
 foreach (@b) {
+    my $minus = s/^-//;
     my($n,$o,$p,$x1,$x2,$c,$f) = split(/\t/,$_);
     my $h = sprintf("%X",ord($c));
     my $s = sc($o,$h,$p);
     my($t) = ($n =~ /CSL(\d\d)/);
+    if ($minus) {
+	$t = "-C${t}b";
+    } else {
+	$t = "C${t}b";
+    }
     my %b = ();
-    @b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,$f,"C${t}b",$s);
+    @b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,$f,$t,$s);
     $c{$h} = { %b };
 }
 
 foreach (@a) {
+    my $minus = s/^-//;
     my($o,$h,$x,$f,$p) = split(/\t/,$_);
     unless ($c{$h}) {
 	my $c = sprintf("%s",chr(hex($h)));
 	my $s = sc($o,$h,$p);
 	my($t) = ($x =~ /CUSAS(\d\d)/);
+	if ($minus) {
+	    $t = "-C${t}t";
+	} else {
+	    $t = "C${t}t";
+	}
 	my %b = ();
-	@b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,"/pcsl/images/add/thumb/$f","C${t}t",$s);
+	@b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,"/pcsl/images/add/thumb/$f",$t,$s);
 	$c{$h} = { %b };
     }
 }

@@ -49,7 +49,7 @@ while (<N>) {
 	if ($t =~ /([.:!@])/) {
 	    $seq = " seq=\"$1\"";
 	}
-	if ($t =~ /[-15di\#]/ && $t !~ /C[023]1/) {
+	if ($t =~ /-/ || ($t =~ /[15di\#]/ && $t !~ /C[023]1/)) {
 	    $not = " not=\"1\"";
 	}
 	$t = "$t$seq$not";
@@ -58,8 +58,8 @@ while (<N>) {
     }
     my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
     my $dist = dist($o);
-    if (!$dist && $t !~ /not="/) {
-	$t .= " not=\"1\"";
+    if ((!$dist || $dist =~ /\s0×/) && $t !~ /not="/ && $p !~ /~v[0-9](?:\.$)/) {
+	$t .= " none=\"1\"";
     }
     print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
     chars($c);

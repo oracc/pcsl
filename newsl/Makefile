@@ -22,7 +22,7 @@ pc25: 00web/pc25.html
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
 
-00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx
+00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
 	00bin/cusas-tsv.plx >$@
 
 00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile

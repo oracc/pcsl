@@ -388,11 +388,6 @@
 @ucun 𒚝
 @uname AB-A TIMES SHE-A OVER SHE-A
 @uage 1
-@form |AB~a×(ŠE~a&ŠE~a)|~v1
-@oid o0903765
-@sys	ADD F301D CUSAS31 ABaxSHEa+SHEa.png
-@sys	AP23 12C4F
-@sys	AP24 1269D
 @@
 @end sign
 
@@ -3796,11 +3791,12 @@
 @sign |DUG×1(N58)|
 @oid o0900404
 @inote @smap |DUG~b~v1×1(N58)|
-@form |DUG~b×1(N58)|
+@form |DUG~b~v1×1(N58)|
 @oid o0900405
 @aka	|DUG~b~v1×1(N58)|
 @sys	ADD F3035 CUSAS01_138 DUGx1N58.png
-@inote The glyph is DUG~b1x1N58 but the previous description was for DUG~c; collate.
+@inote The glyph is DUG~b1x1N58 but the previous description was for DUG~c; collate; collation indicates DUG~b.
+@ucun 󳀵
 @list U+F3035
 @uname ADD NAME |DUG~b~v1×1(N58)|
 @@
@@ -9582,7 +9578,8 @@
 @sys	AP23 1289B
 @sys	AP24 1293B
 @@
-@form KAŠ~d1
+@form KAŠ~d~v1
+@aka KAŠ~d1
 @oid o0901084
 @sys	ADD F3057 CUSAS01 KASHd1.png
 @inote	CUSAS01
@@ -10011,7 +10008,10 @@
 @uage 1
 @@
 @form KIŠ~v2
-@oid 
+@oid o0903762
+@list U+F3026
+@ucun 󳀦
+@uname ADD F3026
 @sys	ADD F3026 CUSAS01 KISHb.png
 @sys	AP23 128B7
 @sys	AP24 1295B
@@ -14392,16 +14392,18 @@
 
 @sign PAP@t
 @oid o0901642
-@sys CDLI-gh img-page
-@smap PAP~a@t
-@form PAP~a@t
-@oid o0901643
 @list U+12A92
 @ucun 𒪒
-@uname PAP-A TENU
+@uname PAP TENU
 @uage 1
 @sys	AP23 12995
 @sys	AP24 12A92
+@form PAP@t~v1
+@oid o0901643
+@list U+F3077
+@ucun 󳁷
+@uname PAP@t v1
+@sys ADD CUSAS31 PAPt.png PAP@t
 @@
 @end sign
 
@@ -16477,12 +16479,12 @@
 @sys	LLATU:286_03 SUHUR 
 @compoundonly SUHUR~v1
 @compoundonly SUHUR~v2
-@form SUHUR~b
+@form SUHUR~v3
 @oid o0901882
 @sys	ADD F3058 CUSAS01 SUHURb.png
 @inote	CUSAS01
 @list U+F3058
-@uname ADD NAME SUHUR~b
+@uname ADD NAME SUHUR~v3
 @@
 @end sign
 
@@ -17206,7 +17208,7 @@
 @useq x12B52.x12948
 @inote useq-old-uni	12B53 𒭓 SHE-A BESIDE KIN2-C
 @@
-@form |ŠE~a.KIN₂~c|~vv3
+@form |(ŠE~a.KIN₂~c)~vv3|
 @oid o0903716
 @list U+F30C9
 @ucun 󳃉
@@ -18111,7 +18113,7 @@
 @useq xF3090.x127DA
 @inote useq-old-uni	12B95 𒮕 SHU2-A BESIDE EN-B VARIANT 1
 @@
-@form |ŠU₂~a.EN~a~v1|~vv3
+@form |(ŠU₂~a.EN~a~v1)~vv3|
 @oid o0903719
 @list U+F30CC
 @ucun 󳃌
@@ -22937,6 +22939,9 @@
 @uage 1
 @form ZATU693@t~v1
 @oid o0903763
+@list U+F3020
+@ucun 󳀠
+@uname ADD F3020
 @sys	ADD F3020 CUSAS01 ZATU693-t.png
 @sys	AP23 12B64
 @sys	AP24 12D11
@@ -23932,7 +23937,7 @@
 @sys	LLATU:317_03 ZATU737+GAR 
 @form |ZATU737~v1×GAR|
 @oid o0902666
-@aka	|ZATU737×GAR|~v1
+@aka	|(ZATU737×GAR)~v1|
 @list U+12D66
 @ucun 𒵦
 @uname ZATU737 VARIANT 1 TIMES GAR
@@ -23940,7 +23945,7 @@
 @sys	AP23 12EB4
 @sys	AP24 12D66
 @@
-@form |ZATU737×GAR|~vv3
+@form |(ZATU737×GAR)~vv3|
 @oid o0903725
 @list U+F30D2
 @ucun 󳃒
@@ -23951,7 +23956,7 @@
 @sign |ZATU737×GAR.HI@g~a|
 @oid o0903761
 @sys	ADD F300B P006275 ZATU737xHIga.png
-@useq x12D66.x128F0
+@useq x12D5D.x128F0
 @uname ADD NAME |ZATU737×GAR.HI|
 @end sign
 

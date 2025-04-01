@@ -7,6 +7,29 @@
 	<xsl:when test="$SL='EAJN'">
 	  <p>Sign list from MSVO1, Jemdet Nasr tablets.</p>
 	</xsl:when>
+	<xsl:when test="$SL='CUSAS'">
+	  <p>Sign list of signs and glyph variants from CUSAS 01, 21, and 31</p>
+
+	  <p>This list is intended to contain all of the signs listed
+	  as new in the relevant pages of the CUSAS volumes
+	  (book-signs), as well as signs from CDLI-tc which occur only
+	  in the CUSAS books (text-signs).  The signs are sorted in
+	  the standard PCSL order but the source volume of the signs
+	  is encoded in the tags as C01, C21, or C31.</p>
+
+	  <p>For the book-signs, sequences and signs which are
+	  transliterated differently in CDLI-tc have a gray background
+	  indicating they are not to be encoded. The remaining signs
+	  are either used in the CDLI-tc transliterations or they are
+	  glyph variants, indicated by <code>'~v[0-9]'</code> in the
+	  sign name.</p>
+
+	  <p>For the text-signs, these are characters which occur in
+	  the CUSAS transliterations in CDLI-tc but which are not in
+	  CDLI-gh; most of them are also used in the published volumes
+	  but are not included in the relevant new sign pages.</p>
+	  
+	</xsl:when>
 	<xsl:when test="$SL='EASL'">
 	  <xsl:choose>
 	    <xsl:when test="$mode=''">

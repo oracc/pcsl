@@ -15,7 +15,7 @@
     <xsl:variable name="vol">
       <xsl:choose>
 	<xsl:when test="sl/@n='easl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
-	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'amostuv','AMOSTUV')"/></xsl:otherwise>
+	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'acmostuv','ACMOSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <html>
@@ -81,9 +81,14 @@
 	    </xsl:choose>
 	  </xsl:variable>
 	  <xsl:variable name="not-class">
-	    <xsl:if test="../@not='1'">
-	      <xsl:text>not</xsl:text>
-	    </xsl:if>
+	    <xsl:choose>
+	      <xsl:when test="../@not='1'">
+		<xsl:text>not</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="../@none='1'">
+		<xsl:text>none</xsl:text>
+	      </xsl:when>
+	    </xsl:choose>	  
 	  </xsl:variable>
 	  <xsl:variable name="class" select="concat($sq-class, ' ', $not-class)"/>
 	  <xsl:if test="string-length($class &gt; 1)">
