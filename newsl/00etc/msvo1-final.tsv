@@ -110,7 +110,7 @@ EAJN109	o0900955	GURUŠDA	GURUŠDAa	GURUŠDA~a	𒣡	/pcsl/msvo1/images/109.png
 EAJN110	o0900956	HAL	HAL	HAL	𒣢	/pcsl/msvo1/images/110.png
 EAJN111	o0900958	HAŠHUR	HAŠHUR	HAŠHUR	𒣤	/pcsl/msvo1/images/111.png
 EAJN112	o0900960	HI	HI	HI	𒣦	/pcsl/msvo1/images/112.png
-EAJN113	o0900968	|HI×1(N57)|	HI+AŠa	HI+AŠ~a	𒣮	/pcsl/msvo1/images/113.png
+EAJN113	o0900968	|HI×1(N57@t)|	HI+AŠa	HI+AŠ~a	𒣮	/pcsl/msvo1/images/113.png
 EAJN114	o0900966	|HI×LAGAB~a|	HI+LAGABa	HI+LAGAB~a	𒣪	/pcsl/msvo1/images/114.png
 EAJN115	o0900976	HI@g~a	HI.gunûa	HI@g~a	𒣰	/pcsl/msvo1/images/115.png
 EAJN116	o0900977	HI@g~b	HI.gunûb	HI@g~b	𒣱	/pcsl/msvo1/images/116.png
@@ -210,8 +210,8 @@ EAJN209	o0901677	SAG	SAG	SAG	𒪮	/pcsl/msvo1/images/209.png
 EAJN210	o0901687	|SAG~v1×MA~v1|	SAG+MA	SAG+MA	𒪰	/pcsl/msvo1/images/210.png
 EAJN211	o0901697	SAL	SAL	SAL	𒪵	/pcsl/msvo1/images/211.png
 EAJN212	o0901699	|SAL.KUR~a|	SAL+KURa	SAL.KUR~a	𒪶	/pcsl/msvo1/images/212.png
-EAJN213	o0901707	|SAL.ZATU751~a|	SAL+ZATU751a	SAL.ZATU751~a	𒪵𒵵	/pcsl/msvo1/images/213.png
-EAJN214	o0901705	|SAL.HI×HI|	SAL+ZATU751b	SAL+ZATU751~b	𒪵󳀏	/pcsl/msvo1/images/214.png
+EAJN213	o0901707	|SAL.ZATU751~a|	SAL+ZATU751a	SAL.ZATU751~a	𒪵_󳂪	/pcsl/msvo1/images/213.png
+EAJN214	o0901705	|SAL.ZATU751~b|	SAL+ZATU751b	SAL+ZATU751~b	𒪵_𒵶	/pcsl/msvo1/images/214.png
 EAJN215	o0901709	SANGA~a	SANGAa	SANGA~a	𒪼	/pcsl/msvo1/images/215.png
 EAJN216	o0901718	SAR~a	SARa	SAR~a	𒫀	/pcsl/msvo1/images/216.png
 EAJN217	o0901724	SI	SI	SI	𒫄	/pcsl/msvo1/images/217.png
@@ -281,7 +281,7 @@ EAJN280	o0902130	TUM~c	TUMc	TUM~c	𒯎	/pcsl/msvo1/images/280.png
 EAJN281	o0902136	TUN₃~a	TUN3a	TUN₃~a	𒯐	/pcsl/msvo1/images/281.png
 EAJN282	o0902139	TUR	TUR	TUR	𒯗	/pcsl/msvo1/images/282.png
 EAJN283	o0902146	TUR₃~a	TUR3a	TUR₃~a	𒯘	/pcsl/msvo1/images/283.png
-EAJN284	o0902157	U₂~b	U2b	U₂~b	𒯝	/pcsl/msvo1/images/284.png
+EAJN284	o0902157	U₂~b	U2b	U₂~b	𒯞	/pcsl/msvo1/images/284.png
 EAJN285	o0902161	U₄	U4	U₄	𒯡	/pcsl/msvo1/images/285.png
 EAJN286	o0902163	|U₄.1(N08)|	U4+1N8	U₄.1N8	𒯣	/pcsl/msvo1/images/286.png
 EAJN287	o0902164	|U₄.2(N08)|	U4+2N8	U₄.2N8	𒯤	/pcsl/msvo1/images/287.png
@@ -329,7 +329,7 @@ EAJN328	o0902373	URUDU~a	URUDUa	URUDU~a	𒱴	/pcsl/msvo1/images/328.png
 EAJN329	o0902400	UTUA~a	UTUAa	UTUA~a	𒲆	/pcsl/msvo1/images/329.png
 EAJN330	o0902406	UTUL~a	UTULa	UTUL~a	𒲊	/pcsl/msvo1/images/330.png
 EAJN331	o0902422	ZAG~a	ZAGa	ZAG~a	𒲓	/pcsl/msvo1/images/331.png
-EAJN332	o0902829	ZI~a	ZIa	ZI~a	𒷫	/pcsl/msvo1/images/332.png
+EAJN332	o0902829	ZI~a	ZIa	ZI~a	𒷬	/pcsl/msvo1/images/332.png
 EAJN333	o0902442	ZATU624~a	ZATU624	ZATU624~a	𒲤	/pcsl/msvo1/images/333.png
 EAJN334	o0902453	ZATU628~a	ZATU628a	ZATU628~a	𒲭	/pcsl/msvo1/images/334.png
 EAJN335	o0902458	ZATU630	ZATU630	ZATU630	𒲲	/pcsl/msvo1/images/335.png
@@ -355,7 +355,7 @@ EAJN354	o0902641	ZATU735~a	ZATU735a	ZATU735~a	𒵏	/pcsl/msvo1/images/354.png
 EAJN355	o0902642	ZATU735~b	ZATU735b	ZATU735~b	𒵐	/pcsl/msvo1/images/355.png
 EAJN356	o0902690	ZATU749~b	ZATU749b	ZATU749~b	𒵯	/pcsl/msvo1/images/356.png
 EAJN357	o0902692	ZATU750	ZATU750	ZATU750	󳂩	/pcsl/msvo1/images/357.png
-EAJN358	o0902697	ZATU751~a	ZATU751a	ZATU751~a	󳂪	/pcsl/msvo1/images/358.png
+EAJN358	o0902697	ZATU751~a	ZATU751a	ZATU751~a	𒵵	/pcsl/msvo1/images/358.png
 EAJN359	o0902699	ZATU752	ZATU752	ZATU752	𒵸	/pcsl/msvo1/images/359.png
 EAJN360	o0902701	ZATU753	ZATU753	ZATU753	𒵹	/pcsl/msvo1/images/360.png
 EAJN361	o0902711	ZATU759	ZATU759	ZATU759	𒶂	/pcsl/msvo1/images/361.png

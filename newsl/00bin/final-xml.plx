@@ -85,18 +85,24 @@ sub chars {
     print "<s>";
     foreach my $c (@c) {
 	if ($c =~ /_/) {
-	    warn "sequences not yet\n";
+	    my @cc = split(/_/,$c);
+	    print '<ff>';
+	    foreach my $cc (@cc) {
+		pchar($cc);
+	    }
+	    print '</ff>';
 	} else {
 	    my @cc = grep(length,split(/(.)/,$c));
 	    foreach my $cc (@cc) {
-		my $ch = sprintf("%X",ord($cc));
-		if ($u{$ch}) {
-		    my $co = $u{$ch};
-		    my $cn = xmlify($n{$co});
-		    print "<f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
-		} else {
-		    warn "hex $ch not in 00etc/unicode.tsv\n";
-		}
+		pchar($cc);
+		# my $ch = sprintf("%X",ord($cc));
+		# if ($u{$ch}) {
+		#     my $co = $u{$ch};
+		#     my $cn = xmlify($n{$co});
+		#     print "<f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
+		# } else {
+		#     warn "hex $ch not in 00etc/unicode.tsv\n";
+		# }
 	    }
 	}
     }
@@ -175,6 +181,18 @@ sub load_unicode {
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
     @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+}
+
+sub pchar {
+    my $cc = shift;
+    my $ch = sprintf("%X",ord($cc));
+    if ($u{$ch}) {
+	my $co = $u{$ch};
+	my $cn = xmlify($n{$co});
+	print "<f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
+    } else {
+	warn "hex $ch not in 00etc/unicode.tsv\n";
+    }
 }
 
 sub sl {

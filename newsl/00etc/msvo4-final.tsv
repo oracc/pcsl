@@ -183,7 +183,7 @@ EAVR182	o0901614	NUNUZ~a1	NUNUZa1	NUNUZ~a1	𒪂	/pcsl/msvo4/images/182.png
 EAVR183	o0901625	PA~a	PAa	PA~a	𒪋𒪌	/pcsl/msvo4/images/183.png
 EAVR184	o0901636	PAD~a	PADa	PAD~a	𒪏	/pcsl/msvo4/images/184.png
 EAVR185	o0901639	PAP~a	PAPa	PAP~a	𒪑	/pcsl/msvo4/images/185.png
-EAVR186	o0901643	PAP~a@t	PAPa.tenû	PAP~a@t	𒪒	/pcsl/msvo4/images/186.png
+EAVR186	o0901643	PAP@t	PAPa.tenû	PAP~a@t	󳁷	/pcsl/msvo4/images/186.png
 EAVR187	o0901640	PAP~b	PAPb	PAP~b	𒪓	/pcsl/msvo4/images/187.png
 EAVR188	o0901648	PIRIG~b1	PIRIGb1	PIRIG~b1	𒪘	/pcsl/msvo4/images/188.png
 EAVR189	o0901657	RA	RA	RA	𒪜	/pcsl/msvo4/images/189.png
@@ -219,7 +219,7 @@ EAVR218	o0901938	ŠAKIR~a	ŠAKIRa	ŠAKIR~a	𒭌	/pcsl/msvo4/images/218.png
 EAVR219	o0901940	ŠAKIR~c	ŠAKIRc	ŠAKIR~c	𒭎	/pcsl/msvo4/images/219.png
 EAVR220	o0901941	ŠAM₂	ŠAM2	ŠAM₂	𒭏	/pcsl/msvo4/images/220.png
 EAVR221	o0901946	ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/msvo4/images/221.png
-EAVR222	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	󳀔	/pcsl/msvo4/images/222.png
+EAVR222	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	𒭔	/pcsl/msvo4/images/222.png
 EAVR223	o0901723	|SAR~a×ŠE~a|	ŠEa+SARa	ŠE~a+SAR~a	𒫁	/pcsl/msvo4/images/223.png
 EAVR224	o0901959	|ŠE~a&ŠE~a|	ŠEa+ŠEa	ŠE~a+ŠE~a	𒭖	/pcsl/msvo4/images/224.png
 EAVR225	o0901962	ŠE₃	ŠE3	ŠE₃	𒭚	/pcsl/msvo4/images/225.png
@@ -236,7 +236,7 @@ EAVR235	o0902035	|ŠU&ŠU|	ŠU+ŠU	ŠU+ŠU	𒮏	/pcsl/msvo4/images/235.png
 EAVR236	o0902038	ŠU₂	ŠU2	ŠU₂	󳂐	/pcsl/msvo4/images/236.png
 EAVR237	o0902045	|ŠU₂.EN~a|	ŠU2+ENa	ŠU₂+EN~a	𒮔	/pcsl/msvo4/images/237.png
 EAVR238	o0902060	ŠUBUR	ŠUBUR	ŠUBUR	𒮞	/pcsl/msvo4/images/238.png
-EAVR239	o0903220	|1(N57).ŠUBUR|	ŠUBUR+1N57	ŠUBUR+1N57	𒷷	/pcsl/msvo4/images/239.png
+EAVR239	o0903220	|1(N57).ŠUBUR|	ŠUBUR+1N57	ŠUBUR+1N57	𒷶	/pcsl/msvo4/images/239.png
 EAVR240	o0902061	ŠUM	ŠUM	ŠUM	𒮟	/pcsl/msvo4/images/240.png
 EAVR241	o0902064	ŠUR₂~b	ŠUR2b	ŠUR₂~b	𒮡	/pcsl/msvo4/images/241.png
 EAVR242	o0902083	TAG~a1	TAGa1	TAG~a1	𒮬	/pcsl/msvo4/images/242.png
@@ -302,7 +302,7 @@ EAVR301	o0902584	ZATU697~a	ZATU697a	ZATU697~a	󳃣	/pcsl/msvo4/images/301.png
 EAVR302	o0902605	ZATU710	ZATU710	ZATU710	𒴯	/pcsl/msvo4/images/302.png
 EAVR303	o0902613	ZATU714	ZATU714	ZATU714	𒴶	/pcsl/msvo4/images/303.png
 EAVR304	o0902624	ZATU723	ZATU723	ZATU723	𒵀	/pcsl/msvo4/images/304.png
-EAVR305	o0902625	ZATU724	ZATU724	ZATU724	#	/pcsl/msvo4/images/305.png
+EAVR305	o0902625	ZATU724	ZATU724	ZATU724	𒵁	/pcsl/msvo4/images/305.png
 EAVR306	o0902637	ZATU732	ZATU732	ZATU732	󳃤	/pcsl/msvo4/images/306.png
 EAVR307	o0902641	ZATU735~a	ZATU735a	ZATU735~a	𒵏	/pcsl/msvo4/images/307.png
 EAVR308	o0902645	ZATU735~c	ZATU735c	ZATU735~c	𒵓	/pcsl/msvo4/images/308.png
@@ -314,7 +314,7 @@ EAVR313	o0902698	ZATU751~b	ZATU751b	ZATU751~b	𒵶	/pcsl/msvo4/images/313.png
 EAVR314	o0902699	ZATU752	ZATU752	ZATU752	𒵸	/pcsl/msvo4/images/314.png
 EAVR315	o0902701	ZATU753	ZATU753	ZATU753	𒵹	/pcsl/msvo4/images/315.png
 EAVR316	o0902706	ZATU756	ZATU756	ZATU756	𒵽	/pcsl/msvo4/images/316.png
-EAVR317	o0902708	ZATU757	ZATU757	ZATU757	𒵿	/pcsl/msvo4/images/317.png
+EAVR317	o0902708	ZATU757	ZATU757	ZATU757	𒶀	/pcsl/msvo4/images/317.png
 EAVR318	o0902711	ZATU759	ZATU759	ZATU759	𒶂	/pcsl/msvo4/images/318.png
 EAVR319	o0902714	|ZATU759×KU₆~a|	ZATU759+KU6a	ZATU759+KU₆~a	𒶃	/pcsl/msvo4/images/319.png
 EAVR320	o0902739	ZATU773~a	ZATU773	ZATU773~a	𒶘	/pcsl/msvo4/images/320.png

@@ -125,19 +125,42 @@
 	  </td>
 	  <td class="chars">
 	    <div class="chars">
-	      <xsl:if test="not(f)">
-		<div>
-		  <span class="{@class}">
-		    <xsl:value-of select="@c"/>
-		  </span>
-		</div>
-	      </xsl:if>
-	      <xsl:for-each select="f">
-		<div>
-		  <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
-		</div>
-		<div class="fhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
-	      </xsl:for-each>
+	      <xsl:choose>
+		<xsl:when test="ff">
+		  <div>
+		    <span class="ofs-pc ofs-200">
+		      <xsl:for-each select ="ff/f">
+			<xsl:value-of select="@c"/>
+		      </xsl:for-each>
+		    </span>
+		  </div>
+		  <div class="fhex">
+		    <span class="ucode">
+		      <xsl:text>[</xsl:text>
+		      <xsl:for-each select ="ff/f">
+			<xsl:value-of select="@u"/>
+			<xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
+		      </xsl:for-each>
+		      <xsl:text>]</xsl:text>
+		    </span>
+		  </div>
+		</xsl:when>
+		<xsl:when test="f">
+		  <xsl:for-each select="f">
+		    <div>
+		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		    </div>
+		    <div class="fhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
+		  </xsl:for-each>
+		</xsl:when>
+		<xsl:otherwise>
+		  <div>
+		    <span class="{@class}">
+		      <xsl:value-of select="@c"/>
+		    </span>
+		  </div>
+		</xsl:otherwise>
+	      </xsl:choose>
 	    </div>
 	  </td>
 	  
