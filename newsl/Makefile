@@ -12,9 +12,9 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www
 PRJ=${WWW}/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl seq overview css js font
+default:  msvo1 msvo4 atu3 atu5 cusas easl seq pcsl overview css js font
 
-#pcsl pc25
+#pc25
 
 pc25: 00web/pc25.html
 	@true

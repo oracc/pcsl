@@ -15,8 +15,8 @@ EAAR014	o0900064	AL	AL	AL	𒚸	/pcsl/atu5/images/014.png
 EAAR015	o0900077	AMA~a	AMAa	AMA~a	𒛁𒛃	/pcsl/atu5/images/015.png
 EAAR016	o0900082	AMAR	AMAR	AMAR	𒛊	/pcsl/atu5/images/016.png
 EAAR017	o0900086	|AMAR~v2×TAR~c|	AMAR+TAR	AMAR+TAR	𒛋	/pcsl/atu5/images/017.png
-EAAR018	o0900089	AN	AN	AN	𒛌𒛍	/pcsl/atu5/images/018.png
-EAAR019	o0900093	ANŠE~a	ANŠEa	ANŠE~a	𒛎	/pcsl/atu5/images/019.png
+EAAR018	o0900089	AN	AN	AN	𒛍󲜐𒛌	/pcsl/atu5/images/018.png
+EAAR019	o0900094	ANŠE~b	ANŠEa	ANŠE~a	𒛏	/pcsl/atu5/images/019.png
 EAAR020	o0900095	ANŠE~c	ANŠEc	ANŠE~c	𒛐	/pcsl/atu5/images/020.png
 EAAR021	o0900100	APIN~a	APINa	APIN~a	𒛒	/pcsl/atu5/images/021.png
 EAAR022	o0900108	ARARMA₂~b	ARARMA2b	ARARMA₂~b	𒛘	/pcsl/atu5/images/022.png
@@ -31,12 +31,12 @@ EAAR030	o0900136	BAN~a	BANa	BAN~a	𒛮𒛯𒛰	/pcsl/atu5/images/030.png
 EAAR031	o0900141	BANŠUR~a	BANŠURa	BANŠUR~a	𒛲	/pcsl/atu5/images/031.png
 EAAR032	o0900154	BAR	BAR	BAR	𒛽	/pcsl/atu5/images/032.png
 EAAR033	o0900158	BARA₂~a	BARA2a	BARA₂~a	𒛾	/pcsl/atu5/images/033.png
-EAAR034	o0900160	BARA₂~b	BARA2b	BARA₂~b	𒛿	/pcsl/atu5/images/034.png
+EAAR034	o0900160	BARA₂~b	BARA2b	BARA₂~b	𒜀	/pcsl/atu5/images/034.png
 EAAR035	o0900165	BIR~a	BIRa	BIR~a	𒜃	/pcsl/atu5/images/035.png
 EAAR036	o0900166	BIR~b	BIRb	BIR~b	𒜄	/pcsl/atu5/images/036.png
-EAAR037	o0900169	BIR₃~a	BIR3a	BIR₃~a	𒜆	/pcsl/atu5/images/037.png
+EAAR037	o0900169	BIR₃~a	BIR3a	BIR₃~a	𒜇	/pcsl/atu5/images/037.png
 EAAR038	o0900171	BIR₃~b	BIR3b	BIR₃~b	𒜉	/pcsl/atu5/images/038.png
-EAAR039	o0900175	BU~a	BUa	BU~a	𒜋𒜓	/pcsl/atu5/images/039.png
+EAAR039	o0900175	BU~a	BUa	BU~a	𒜓𒜋	/pcsl/atu5/images/039.png
 EAAR040	o0900183	|BU~a~v1×A|	BUa+A	BU~a+A	𒜔	/pcsl/atu5/images/040.png
 EAAR041	o0900191	|(BU~a&BU~a).NA₂~a|	BUa+BUa+NA2a	BU~a.BU~a.NA₂~a	𒜐	/pcsl/atu5/images/041.png
 EAAR042	o0903398	|(BU~a~v1%BU~a~v1).NA₂~a@n|	BUa+BUa+NA2a.nutillû	BU~a.BU~a.NA₂~a@n	𒜕	/pcsl/atu5/images/042.png
@@ -52,12 +52,12 @@ EAAR051	o0900224	DAH	DAH	DAH	𒜥	/pcsl/atu5/images/051.png
 EAAR052	o0900235	DARA₃~a	DARA3a	DARA₃~a	𒜭	/pcsl/atu5/images/052.png
 EAAR053	o0900236	DARA₃~b	DARA3b	DARA₃~b	𒜮	/pcsl/atu5/images/053.png
 EAAR054	o0900246	|DARA₃~c×(KAR₂.ŠE~a)|	DARA3c+KAR2+ŠEa	DARA₃~c.KAR₂.ŠE~a	𒜱	/pcsl/atu5/images/054.png
-EAAR055	o0900243	|DARA₃~d×KAR₂|	DARA3d+KAR2	DARA₃~d+KAR₂	𒜴	/pcsl/atu5/images/055.png
+EAAR055	o0900243	|DARA₃~d×KAR₂|	DARA3d+KAR2	DARA₃~d+KAR₂	𒜵	/pcsl/atu5/images/055.png
 EAAR056	o0900250	DARA₄~a2	DARA4a2	DARA₄~a2	𒜹	/pcsl/atu5/images/056.png
 EAAR057	o0900252	DARA₄~b	DARA4b	DARA₄~b	𒜻	/pcsl/atu5/images/057.png
 EAAR058	o0900260	DI	DI	DI	𒝁	/pcsl/atu5/images/058.png
 EAAR059	o0900262	DIB	DIB	DIB	𒝃	/pcsl/atu5/images/059.png
-EAAR060	o0900264	DILMUN	DILMUN	DILMUN	𒝅	/pcsl/atu5/images/060.png
+EAAR060	o0900264	DILMUN	DILMUN	DILMUN	𒝇	/pcsl/atu5/images/060.png
 EAAR061	o0900269	DIM~a	DIMa	DIM~a	𒝈	/pcsl/atu5/images/061.png
 EAAR062	o0900270	DIM~b	DIMb	DIM~b	𒝉	/pcsl/atu5/images/062.png
 EAAR063	o0900276	DIN	DIN	DIN	𒝋	/pcsl/atu5/images/063.png
@@ -67,12 +67,12 @@ EAAR066	o0900294	DU₈~b	DU8b	DU₈~b	𒝗	/pcsl/atu5/images/066.png
 EAAR067	o0900296	DU₈~c	DU8c	DU₈~c	𒝙	/pcsl/atu5/images/067.png
 EAAR068	o0900303	|DU₈~c×HI|	DU8c+HI	DU₈~c+HI	𒝚	/pcsl/atu5/images/068.png
 EAAR069	o0900312	DUB~a	DUBa	DUB~a	𒝟	/pcsl/atu5/images/069.png
-EAAR070	o0900313	DUB~b	DUBb	DUB~b	𒝠𒝡	/pcsl/atu5/images/070.png
+EAAR070	o0900313	DUB~b	DUBb	DUB~b	𒝡𒝠	/pcsl/atu5/images/070.png
 EAAR071	o0900319	DUB~d	DUBd	DUB~d	𒝦	/pcsl/atu5/images/071.png
 EAAR072	o0900326	|(DUB@n~a×1(N58))~b|	DUB+DIŠa	DUB+DIŠ~a	𒝪	/pcsl/atu5/images/072.png
 EAAR073	o0900325	|DUB@n~b×1(N58)~a|	DUB+DIŠb	DUB+DIŠ~b	𒝫	/pcsl/atu5/images/073.png
-EAAR074	o0900331	DUG~a	DUGa	DUG~a	𒝭𒝶𒝵	/pcsl/atu5/images/074.png
-EAAR075	o0900334	DUG~b	DUGb	DUG~b	𒝷𒞭	/pcsl/atu5/images/075.png
+EAAR074	o0900331	DUG~a	DUGa	DUG~a	𒝶𒝵𒝭	/pcsl/atu5/images/074.png
+EAAR075	o0900334	DUG~b	DUGb	DUG~b	𒞭𒝷	/pcsl/atu5/images/075.png
 EAAR076	o0900340	|DUG~b~v1×AB₂|	DUGb+AB2	DUG~b+AB₂	𒞮	/pcsl/atu5/images/076.png
 EAAR077	o0900476	|(DUG~b~v1&DUG~b~v1)×1(N58)|	DUGb+DUGb+1N58	DUG~b+DUG~b+1N58	𒞹	/pcsl/atu5/images/077.png
 EAAR078	o0900370	|DUG~b×HI|	DUGb+HI	DUG~b+HI	𒞅	/pcsl/atu5/images/078.png
@@ -134,7 +134,7 @@ EAAR133	o0900781	GAR@g~a	GAR.gunûa	GAR@g~a	𒡩	/pcsl/atu5/images/133.png
 EAAR134	o0900784	GAR₃	GAR3	GAR₃	𒡬	/pcsl/atu5/images/134.png
 EAAR135	o0900797	GEŠTU~a	GEŠTUa	GEŠTU~a	𒡱	/pcsl/atu5/images/135.png
 EAAR136	o0900800	GEŠTU~b	GEŠTUb	GEŠTU~b	𒡴	/pcsl/atu5/images/136.png
-EAAR137	o0900806	GI	GI	GI	𒡸𒢄	/pcsl/atu5/images/137.png
+EAAR137	o0900806	GI	GI	GI	𒢄𒡸	/pcsl/atu5/images/137.png
 EAAR138	o0900810	|GI~v1×GIŠ@t|	GI+GIŠ.tenû	GI+GIŠ@t	𒢅	/pcsl/atu5/images/138.png
 EAAR139	o0900822	|GI&GI|	GI+GI	GI+GI	𒡿	/pcsl/atu5/images/139.png
 EAAR140	o0900814	|GI~v1×LAGAB~a|	GI+LAGABa	GI+LAGAB~a	𒢆	/pcsl/atu5/images/140.png
@@ -143,7 +143,7 @@ EAAR142	o0900819	|GI×SIG₂~d1|	GI+SIG2d1	GI+SIG₂~d1	𒡻	/pcsl/atu5/images/1
 EAAR143	o0900815	|GI~v1×1(N14)|	GI+1N14	GI+1N14	𒢇	/pcsl/atu5/images/143.png
 EAAR144	o0900829	GI₄~a	GI4a	GI₄~a	𒢉	/pcsl/atu5/images/144.png
 EAAR145	o0900830	GI₄~b	GI4b	GI₄~b	𒢌	/pcsl/atu5/images/145.png
-EAAR146	o0900836	GI₆	GI6	GI₆	𒢎𒢏	/pcsl/atu5/images/146.png
+EAAR146	o0900836	GI₆	GI6	GI₆	𒢏𒢎	/pcsl/atu5/images/146.png
 EAAR147	o0900839	GIBIL	GIBIL	GIBIL	𒢐	/pcsl/atu5/images/147.png
 EAAR148	o0900846	GIR~b	GIRb	GIR~b	𒢕	/pcsl/atu5/images/148.png
 EAAR149	o0900858	GIR₃~a	GIR3a	GIR₃~a	𒢜	/pcsl/atu5/images/149.png
@@ -154,7 +154,7 @@ EAAR153	o0900885	GIŠ@t	GIŠ.tenû	GIŠ@t	𒢮	/pcsl/atu5/images/153.png
 EAAR154	o0900896	GIŠIMMAR~a1	GIŠIMMARa1	GIŠIMMAR~a1	𒢴	/pcsl/atu5/images/154.png
 EAAR155	o0900899	GIŠIMMAR~b1	GIŠIMMARb1	GIŠIMMAR~b1	𒢷	/pcsl/atu5/images/155.png
 EAAR156	o0900903	GIŠIMMAR~b3	GIŠIMMARb3	GIŠIMMAR~b3	𒢺	/pcsl/atu5/images/156.png
-EAAR157	o0900908	GU₄	GU4	GU₄	𒢾𒢾	/pcsl/atu5/images/157.png
+EAAR157	o0900908	GU₄	GU4	GU₄	𒣁𒢾	/pcsl/atu5/images/157.png
 EAAR158	o0900911	|GU₄.ZATU755~b|	GU4+ZATU755	GU₄.ZATU755~b	𒢿	/pcsl/atu5/images/158.png
 EAAR159	o0903756	|GU₄×1(N58)|	GU4+1N58	GU₄+1N58	󳃨	/pcsl/atu5/images/159.png
 EAAR160	o0900920	GUG₂	GUG2a	GUG₂~a	𒣈	/pcsl/atu5/images/160.png
@@ -179,10 +179,10 @@ EAAR178	o0900977	HI@g~b	HI.gunûb	HI@g~b	𒣱	/pcsl/atu5/images/178.png
 EAAR179	o0900981	I	I	I	𒣳	/pcsl/atu5/images/179.png
 EAAR180	o0900983	IB~a	IBa	IB~a	𒣴	/pcsl/atu5/images/180.png
 EAAR181	o0900984	IB~b	IBb	IB~b	𒣶	/pcsl/atu5/images/181.png
-EAAR182	o0900988	IDIGNA	IDIGNA	IDIGNA	𒣷𒣸	/pcsl/atu5/images/182.png
+EAAR182	o0900988	IDIGNA	IDIGNA	IDIGNA	𒣸𒣷	/pcsl/atu5/images/182.png
 EAAR183	o0901009	IR~a	IRa	IR~a	𒤃	/pcsl/atu5/images/183.png
 EAAR184	o0901011	IR~c	IRc	IR~c	𒤆	/pcsl/atu5/images/184.png
-EAAR185	o0901020	IŠ~a	IŠa	IŠ~a	𒤋𒤌	/pcsl/atu5/images/185.png
+EAAR185	o0901020	IŠ~a	IŠa	IŠ~a	𒤌𒤋	/pcsl/atu5/images/185.png
 EAAR186	o0901022	IŠ~b	IŠb	IŠ~b	𒤍𒤎	/pcsl/atu5/images/186.png
 EAAR187	o0901028	IŠ~c	IŠc	IŠ~c	𒤓	/pcsl/atu5/images/187.png
 EAAR188	o0901030	KA~a	KAa	KA~a	𒤔	/pcsl/atu5/images/188.png
@@ -193,7 +193,7 @@ EAAR192	o0901053	KAK~b	KAKb	KAK~b	𒤤	/pcsl/atu5/images/192.png
 EAAR193	o0901062	KALAM~a	KALAMa	KALAM~a	𒤩	/pcsl/atu5/images/193.png
 EAAR194	o0901075	KASKAL	KASKAL	KASKAL	𒤲	/pcsl/atu5/images/194.png
 EAAR195	o0901078	KAŠ~a	KAŠa	KAŠ~a	𒤴	/pcsl/atu5/images/195.png
-EAAR196	o0901080	KAŠ~b	KAŠb	KAŠ~b	𒤶𒤸	/pcsl/atu5/images/196.png
+EAAR196	o0901080	KAŠ~b	KAŠb	KAŠ~b	𒤸𒤶	/pcsl/atu5/images/196.png
 EAAR197	o0901090	KI	KIa	KI~a	𒤼	/pcsl/atu5/images/197.png
 EAAR198	o0901099	KID~c	KIDc	KID~c	𒥃	/pcsl/atu5/images/198.png
 EAAR199	o0901100	KID~d	KIDd	KID~d	𒥄	/pcsl/atu5/images/199.png
@@ -240,8 +240,8 @@ EAAR239	o0901359	|MAH~a×ZATU659|	MAHa+ZATU659	MAH~a+ZATU659	𒧒	/pcsl/atu5/ima
 EAAR240	o0901357	|MAH~a×X|	MAHa+?	MAH~a+X	𒧑	/pcsl/atu5/images/240.png
 EAAR241	o0901326	MAH~b	MAHb	MAH~b	𒧓	/pcsl/atu5/images/241.png
 EAAR242	o0901341	|MAH~b×SAL|	MAHb+SAL	MAH~b+SAL	𒧗	/pcsl/atu5/images/242.png
-EAAR243	o0901361	MAR~a	MARa	MAR~a	𒧘	/pcsl/atu5/images/243.png
-EAAR244	o0901363	MAR~b	MARb	MAR~b	𒧛𒧚	/pcsl/atu5/images/244.png
+EAAR243	o0901361	MAR~a	MARa	MAR~a	𒧘𒧚	/pcsl/atu5/images/243.png
+EAAR244	o0901363	MAR~b	MARb	MAR~b	𒧛	/pcsl/atu5/images/244.png
 EAAR245	o0901367	|MAR~b×(LAGAB~b.ŠE₃~v1)|	MARb+LAGABb+ŠE3	MAR~b+LAGAB~b+ŠE₃	𒧜	/pcsl/atu5/images/245.png
 EAAR246	o0901369	|MAR~b×ŠE~a|	MARb+ŠE3	MAR~b.ŠE₃	𒧝	/pcsl/atu5/images/246.png
 EAAR247	o0901376	MAŠ	MAŠ	MAŠ	𒧟	/pcsl/atu5/images/247.png
@@ -271,14 +271,14 @@ EAAR270	o0901471	NAM₂@t	NAM2.tenû	NAM₂@t	𒨦	/pcsl/atu5/images/270.png
 EAAR271	o0901472	NAMEŠDA	NAMEŠDA	NAMEŠDA	𒨧	/pcsl/atu5/images/271.png
 EAAR272	o0901481	NAR	NAR	NAR	𒨮	/pcsl/atu5/images/272.png
 EAAR273	o0901483	NE~a	NEa	NE~a	𒨯𒨰	/pcsl/atu5/images/273.png
-EAAR274	o0901493	NESAG₂~a	NESAG2a	NESAG₂~a	𒨶	/pcsl/atu5/images/274.png
+EAAR274	o0901493	NESAG₂~a	NESAG2a	NESAG₂~a	󲥠	/pcsl/atu5/images/274.png
 EAAR275	o0901501	NI~a	NIa	NI~a	𒨺	/pcsl/atu5/images/275.png
 EAAR276	o0901512	NI~a@g	NIa.gunû	NI~a@g	𒨽	/pcsl/atu5/images/276.png
 EAAR277	o0901502	NI~b	NIb	NI~b	𒨾	/pcsl/atu5/images/277.png
 EAAR278	o0901516	NIM~a	NIMa	NIM~a	𒩃	/pcsl/atu5/images/278.png
 EAAR279	o0901518	NIM~b2	NIMb2	NIM~b2	𒩅	/pcsl/atu5/images/279.png
 EAAR280	o0901521	NIMGIR	NIMGIR	NIMGIR	𒩇𒩈	/pcsl/atu5/images/280.png
-EAAR281	o0901525	NINDA₂	NINDA2	NINDA₂	𒩊𒩧	/pcsl/atu5/images/281.png
+EAAR281	o0901525	NINDA₂	NINDA2	NINDA₂	𒩧𒩊	/pcsl/atu5/images/281.png
 EAAR282	o0901560	|NINDA₂×1(N08)|	NINDA2+1N8	NINDA₂+1N8	𒩦	/pcsl/atu5/images/282.png
 EAAR283	o0901581	NIR~b	NIRb	NIR~b	𒩬	/pcsl/atu5/images/283.png
 EAAR284	o0901584	NU	NU	NU	𒩭	/pcsl/atu5/images/284.png
@@ -360,7 +360,7 @@ EAAR359	o0901934	ŠAH₂~a	ŠAH2a	ŠAH₂~a	𒭉	/pcsl/atu5/images/359.png
 EAAR360	o0901936	ŠAH₂~c	ŠAH2c	ŠAH₂~c	𒭋	/pcsl/atu5/images/360.png
 EAAR361	o0901941	ŠAM₂	ŠAM2	ŠAM₂	𒭏	/pcsl/atu5/images/361.png
 EAAR362	o0901946	ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/atu5/images/362.png
-EAAR363	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	󳀔	/pcsl/atu5/images/363.png
+EAAR363	o0901955	|ŠE~a.NAM₂|	ŠEa+NAM2	ŠE~a+NAM₂	𒭔	/pcsl/atu5/images/363.png
 EAAR364	o0901961	ŠE~a@t	ŠEa.tenû	ŠE~a@t	𒭗	/pcsl/atu5/images/364.png
 EAAR365	o0901947	ŠE~b	ŠEb	ŠE~b	𒭘	/pcsl/atu5/images/365.png
 EAAR366	o0901962	ŠE₃	ŠE3	ŠE₃	𒭚𒭜	/pcsl/atu5/images/366.png
@@ -368,7 +368,7 @@ EAAR367	o0901964	ŠE₃@t	ŠE3.tenû	ŠE₃@t	󳃭	/pcsl/atu5/images/367.png
 EAAR368	o0901966	ŠEG₉	ŠEG9	ŠEG₉	𒭞	/pcsl/atu5/images/368.png
 EAAR369	o0901986	ŠEŠ~a	ŠEŠa	ŠEŠ~a	𒭭𒭮	/pcsl/atu5/images/369.png
 EAAR370	o0901988	ŠEŠ~b	ŠEŠb	ŠEŠ~b	𒭯	/pcsl/atu5/images/370.png
-EAAR371	o0901993	ŠIM~a	ŠIMa	ŠIM~a	𒭲𒭲	/pcsl/atu5/images/371.png
+EAAR371	o0901993	ŠIM~a	ŠIMa	ŠIM~a	𒭲𒭳	/pcsl/atu5/images/371.png
 EAAR372	o0901996	ŠIM~b	ŠIMb	ŠIM~b	𒭵	/pcsl/atu5/images/372.png
 EAAR373	o0901998	ŠIR~a	ŠIRa	ŠIR~a	𒭶	/pcsl/atu5/images/373.png
 EAAR374	o0902000	ŠIR~b	ŠIRb	ŠIR~b	𒭸𒭹𒭺	/pcsl/atu5/images/374.png
@@ -379,15 +379,15 @@ EAAR378	o0902012	|ŠITA~b2@g×HI@g~a|	ŠITAb1+HI.gunûa	ŠITA~b1+HI@g~a	𒮇	/pc
 EAAR379	o0903420	ŠITA~b1@g	ŠITA.gunûa	ŠITA@g~a	𒮊	/pcsl/atu5/images/379.png
 EAAR380	o0902033	ŠU	ŠU	ŠU	𒮍	/pcsl/atu5/images/380.png
 EAAR381	o0902036	ŠU@g	ŠU.gunû	ŠU@g	𒮐	/pcsl/atu5/images/381.png
-EAAR382	o0902038	ŠU₂	ŠU2	ŠU₂	󳂐𒮑	/pcsl/atu5/images/382.png
-EAAR383	o0902045	|ŠU₂.EN~a|	ŠU2+ENa	ŠU₂+EN~a	󳂐𒟖	/pcsl/atu5/images/383.png
+EAAR382	o0902038	ŠU₂	ŠU2	ŠU₂	𒮑󳂐	/pcsl/atu5/images/382.png
+EAAR383	o0902045	|ŠU₂.EN~a|	ŠU2+ENa	ŠU₂+EN~a	𒮔	/pcsl/atu5/images/383.png
 EAAR384	o0902056	|ŠU₂.URI₃~a|	ŠU2+URI3a	ŠU₂.URI₃~a	𒮗	/pcsl/atu5/images/384.png
 EAAR385	o0902060	ŠUBUR	ŠUBUR	ŠUBUR	𒮞	/pcsl/atu5/images/385.png
 EAAR386	o0903220	|1(N57).ŠUBUR|	ŠUBUR+1N57	ŠUBUR+1N57	𒷷𒷶	/pcsl/atu5/images/386.png
 EAAR387	o0902061	ŠUM	ŠUM	ŠUM	𒮟	/pcsl/atu5/images/387.png
 EAAR388	o0902076	TA~c	TAc	TA~c	𒮨	/pcsl/atu5/images/388.png
 EAAR389	o0902084	TAG~a2	TAGa1	TAG~a1	𒮮	/pcsl/atu5/images/389.png
-EAAR390	o0902087	TAG~b	TAGb	TAG~b	𒮱	/pcsl/atu5/images/390.png
+EAAR390	o0902087	TAG~b	TAGb	TAG~b	󳃎	/pcsl/atu5/images/390.png
 EAAR391	o0902102	TE	TE	TE	𒮹	/pcsl/atu5/images/391.png
 EAAR392	o0902103	TI	TIa	TI~a	𒮺𒮾	/pcsl/atu5/images/392.png
 EAAR393	o0902107	TI@t	TIb	TI~b	𒮽	/pcsl/atu5/images/393.png
@@ -417,13 +417,13 @@ EAAR416	o0902251	UDUNITA~b	UDUNITAb	UDUNITA~b	𒰫	/pcsl/atu5/images/417.png
 EAAR417	o0902252	UDUNITA~c	UDUNITAc	UDUNITA~c	𒰬	/pcsl/atu5/images/418.png
 EAAR418	o0902256	UH₃~a	UH3a	UH₃~a	𒰮	/pcsl/atu5/images/419.png
 EAAR419	o0902257	UH₃~b	UH3b	UH₃~b	𒰰	/pcsl/atu5/images/420.png
-EAAR420	o0902261	UKKIN~a	UKKINa	UKKIN~a	𒰱𒰲	/pcsl/atu5/images/421.png
+EAAR420	o0902261	UKKIN~a	UKKINa	UKKIN~a	𒰲𒰱	/pcsl/atu5/images/421.png
 EAAR421	o0902265	UKKIN~c	UKKINc	UKKIN~c	𒰽	/pcsl/atu5/images/422.png
 EAAR422	o0902286	UMBIN~a	UMBINa	UMBIN~a	𒰾	/pcsl/atu5/images/423.png
 EAAR423	o0902288	UMBIN~b2	UMBINb2	UMBIN~b2	𒱀	/pcsl/atu5/images/424.png
 EAAR424	o0902289	UMBIN~c	UMBINc	UMBIN~c	𒱁	/pcsl/atu5/images/425.png
-EAAR425	o0902290	UMUN₂	UMUN2	UMUN₂	𒱂𒱃	/pcsl/atu5/images/426.png
-EAAR426	o0902293	UNUG~a	UNUGa	UNUG~a	𒱄𒱆	/pcsl/atu5/images/427.png
+EAAR425	o0902290	UMUN₂	UMUN2	UMUN₂	𒱃𒱂	/pcsl/atu5/images/426.png
+EAAR426	o0902293	UNUG~a	UNUGa	UNUG~a	𒱆𒱄	/pcsl/atu5/images/427.png
 EAAR427	o0902298	|UNUG~a~v1×A@t|	UNUGa+A	UNUG~a.A	𒱇	/pcsl/atu5/images/428.png
 EAAR428	o0902302	UR~a	URa	UR~a	𒱊	/pcsl/atu5/images/429.png
 EAAR429	o0902308	UR~a@g	URa.gunû	UR~a@g	𒱌	/pcsl/atu5/images/430.png
@@ -446,7 +446,7 @@ EAAR445	o0902377	URUDU~d	URUDUd	URUDU~d	𒱷	/pcsl/atu5/images/446.png
 EAAR446	o0902379	URUDU@g~a	URUDU.gunûa	URUDU@g~a	𒱸	/pcsl/atu5/images/447.png
 EAAR447	o0902384	UŠ~a	UŠa	UŠ~a	𒱼	/pcsl/atu5/images/448.png
 EAAR448	o0902392	|UŠ~a&UŠ~a|	UŠa+UŠa	UŠ~a+UŠ~a	𒱽	/pcsl/atu5/images/449.png
-EAAR449	o0902385	UŠ~b	UŠb	UŠ~b	𒱾	/pcsl/atu5/images/450.png
+EAAR449	o0902385	UŠ~b	UŠb	UŠ~b	𒱾𒲁	/pcsl/atu5/images/450.png
 EAAR450	o0902400	UTUA~a	UTUAa	UTUA~a	𒲆	/pcsl/atu5/images/451.png
 EAAR451	o0902404	UTUA~a@t	UTUAa.tenû	UTUA~a@t	𒲇	/pcsl/atu5/images/452.png
 EAAR452	o0902401	UTUA~b	UTUAb	UTUA~b	𒲈𒲉	/pcsl/atu5/images/453.png
@@ -491,7 +491,7 @@ EAAR490	o0902505	ZATU651@g	ZATU651.gunû	ZATU651@g	𒳖	/pcsl/atu5/images/491.pn
 EAAR491	o0902506	ZATU659	ZATU659	ZATU659	𒳚	/pcsl/atu5/images/492.png
 EAAR492	o0902507	|ZATU659×1(N01)|	ZATU659+1N1	ZATU659+1N1	𒳛	/pcsl/atu5/images/493.png
 EAAR493	o0902508	|ZATU659×1(N14)|	ZATU659+1N14	ZATU659+1N14	𒳜	/pcsl/atu5/images/494.png
-EAAR494	o0902511	ZATU662	ZATU662	ZATU662	𒳞𒳤𒳠	/pcsl/atu5/images/495.png
+EAAR494	o0902511	ZATU662	ZATU662	ZATU662	𒳤𒳠𒳞	/pcsl/atu5/images/495.png
 EAAR495	o0902515	|ZATU662×1(N14)|	ZATU662+1N14	ZATU662+1N14	𒳟	/pcsl/atu5/images/496.png
 EAAR496	o0902518	ZATU664	ZATU664	ZATU664	𒳥	/pcsl/atu5/images/497.png
 EAAR497	o0902519	ZATU665	ZATU665	ZATU665	𒳦	/pcsl/atu5/images/498.png
@@ -500,13 +500,13 @@ EAAR499	o0902522	ZATU668	ZATU668	ZATU668	𒳩	/pcsl/atu5/images/500.png
 EAAR500	o0902524	ZATU670	ZATU670	ZATU670	𒳫	/pcsl/atu5/images/501.png
 EAAR501	o0902525	ZATU672	ZATU672	ZATU672	𒳬	/pcsl/atu5/images/502.png
 EAAR502	o0902528	ZATU675~a	ZATU675a	ZATU675~a	𒳮	/pcsl/atu5/images/503.png
-EAAR503	o0902529	ZATU675~b	ZATU675b	ZATU675~b	𒳯	/pcsl/atu5/images/504.png
+EAAR503	o0902529	ZATU675~b	ZATU675b	ZATU675~b	𒳰	/pcsl/atu5/images/504.png
 EAAR504	o0902531	ZATU675~c	ZATU675c	ZATU675~c	𒳱	/pcsl/atu5/images/505.png
 EAAR505	o0902537	ZATU677~a	ZATU677a	ZATU677~a	𒳵	/pcsl/atu5/images/506.png
 EAAR506	o0902538	ZATU677~b	ZATU677b	ZATU677~b	𒳶	/pcsl/atu5/images/507.png
 EAAR507	o0902539	ZATU678	ZATU678	ZATU678	𒳷	/pcsl/atu5/images/508.png
 EAAR508	o0902540	ZATU679	ZATU679	ZATU679	𒳸	/pcsl/atu5/images/509.png
-EAAR509	o0902544	ZATU680~b	ZATU680b	ZATU680~b	𒳻	/pcsl/atu5/images/510.png
+EAAR509	o0902544	ZATU680~b	ZATU680b	ZATU680~b	𒳻𒳼	/pcsl/atu5/images/510.png
 EAAR510	o0902546	ZATU680~d	ZATU680d	ZATU680~d	𒳽	/pcsl/atu5/images/511.png
 EAAR511	o0902547	ZATU680~e	ZATU680e	ZATU680~e	𒳾	/pcsl/atu5/images/512.png
 EAAR512	o0902548	ZATU681	ZATU681	ZATU681	𒳿	/pcsl/atu5/images/513.png
@@ -533,7 +533,7 @@ EAAR532	o0902597	ZATU704	ZATU704	ZATU704	𒴨	/pcsl/atu5/images/533.png
 EAAR533	o0902598	ZATU705	ZATU705	ZATU705	𒴩	/pcsl/atu5/images/534.png
 EAAR534	o0902603	ZATU708	ZATU708	ZATU708	𒴭	/pcsl/atu5/images/535.png
 EAAR535	o0902604	ZATU709	ZATU709	ZATU709	𒴮	/pcsl/atu5/images/536.png
-EAAR536	o0902607	ZATU711	ZATU711	ZATU711	𒴱	/pcsl/atu5/images/537.png
+EAAR536	o0902607	ZATU711	ZATU711	ZATU711	𒴲	/pcsl/atu5/images/537.png
 EAAR537	o0902610	|ZATU711~v1×HI@g~a|	ZATU711+HI.gunûa	ZATU711+HI@g~a	𒴳	/pcsl/atu5/images/538.png
 EAAR538	o0902611	|ZATU711~v1×X|	ZATU711+?	ZATU711+X	𒴴	/pcsl/atu5/images/539.png
 EAAR539	o0902612	ZATU713	ZATU713	ZATU713	𒴵	/pcsl/atu5/images/540.png
@@ -569,7 +569,7 @@ EAAR568	o0902701	ZATU753	ZATU753	ZATU753	𒵹	/pcsl/atu5/images/569.png
 EAAR569	o0902702	ZATU754	ZATU754	ZATU754	𒵺	/pcsl/atu5/images/570.png
 EAAR570	o0902704	ZATU755~a	ZATU755a	ZATU755~a	𒵻	/pcsl/atu5/images/571.png
 EAAR571	o0902710	ZATU758	ZATU758	ZATU758	𒶁	/pcsl/atu5/images/572.png
-EAAR572	o0902711	ZATU759	ZATU759	ZATU759	𒶂𒶈	/pcsl/atu5/images/573.png
+EAAR572	o0902711	ZATU759	ZATU759	ZATU759	𒶈𒶂	/pcsl/atu5/images/573.png
 EAAR573	o0902722	ZATU762~a	ZATU762a	ZATU762~a	𒶊	/pcsl/atu5/images/574.png
 EAAR574	o0902729	|ZATU762~a×NIM~a|	ZATU762a+NIMa	ZATU762~a+NIM~a	𒶋	/pcsl/atu5/images/575.png
 EAAR575	o0902725	ZATU762~b	ZATU762b	ZATU762~b	𒶎	/pcsl/atu5/images/576.png

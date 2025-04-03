@@ -235,7 +235,7 @@ sub load_sl {
 	my @s = `cut -f $cut 00etc/${_}-final.tsv`; chomp @s;
 	foreach my $s (@s) {
 	    my($o,$p,$c) = split(/\t/,$s);
-	    ${$sl{$o}}{$_} = [ $p , $c ];
+	    push @{${$sl{$o}}{$_}}, [ $p , $c ];
 	}
     }
     # print Dumper \%sl; exit 1;
@@ -269,13 +269,16 @@ sub sl {
 	foreach my $sl (qw/atu3 atu5 msvo1 msvo4 cusas/) {
 	    if (${$sl{$o}}{$sl}) {
 		print "<s sl=\"$sl\">";
-		my($lp,$lc) = @{${$sl{$o}}{$sl}};
-		my $diff = check_ext($p,$lp);
-		my $dattr = ($diff ? "d=\"$diff\" " : '');
-		my @c = grep(length,split(/(.)/,$lc));
-		foreach my $cc (@c) {
-		    my $h = sprintf("%X", ord($cc));
-		    printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
+		my @lpc = @{${$sl{$o}}{$sl}};
+		foreach my $lpc (@lpc) {
+		    my($lp,$lc) = @$lpc;
+		    my $diff = check_ext($p,$lp);
+		    my $dattr = ($diff ? "d=\"$diff\" " : '');
+		    my @c = grep(length,split(/(.)/,$lc));
+		    foreach my $cc (@c) {
+			my $h = sprintf("%X", ord($cc));
+			printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
+		    }
 		}
 		print '</s>';
 	    } else {
