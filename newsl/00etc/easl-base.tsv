@@ -144,11 +144,11 @@ o0900231		DAR~d	I	DAR~d	𒜬	/easl/images/o0900231.png
 o0900235		DARA₃~a	I	DARA3~a	𒜭	/easl/images/o0900235.png
 o0900236		DARA₃~b	I	DARA3~b	𒜮	/easl/images/o0900236.png
 o0900237		DARA₃~c	I	DARA3~c	𒜯𒜲	/easl/images/o0900237.png
-o0900241		|DARA₃~c×KAR₂~b|	I	|DARA3~cxKAR2|	𒜰	/easl/images/o0900241.png
-o0900246		|DARA₃~c×(KAR₂~c.ŠE~a)|	I	|DARA3~cx(KAR2.SZE~a)|	𒜱	/easl/images/o0900246.png
+o0900241		|DARA₃~c×KAR₂|	I	|DARA3~cxKAR2|	𒜰	/easl/images/o0900241.png
+o0900246		|DARA₃~c×(KAR₂.ŠE~a)|	I	|DARA3~cx(KAR2.SZE~a)|	𒜱	/easl/images/o0900246.png
 o0900239		DARA₃~d	I	DARA3~d	𒜳	/easl/images/o0900239.png
 o0900243		|DARA₃~d×KAR₂~b|	I	|DARA3~dxKAR2|	𒜵𒜴𒜶	/easl/images/o0900243.png
-o0900247		|DARA₃~d2×(KAR₂~a1.ŠE~a)|	I	|DARA3~dx(KAR2.SZE~a)|	𒜷	/easl/images/o0900247.png
+o0900247		|DARA₃~d2×(KAR₂.ŠE~a)|	I	|DARA3~dx(KAR2.SZE~a)|	𒜷	/easl/images/o0900247.png
 o0900249		DARA₄~a1	I	DARA4~a1	𒜸	/easl/images/o0900249.png
 o0900250		DARA₄~a2	I	DARA4~a2	𒜹	/easl/images/o0900250.png
 o0900251		DARA₄~a3	I	DARA4~a3	𒜺	/easl/images/o0900251.png
@@ -1286,10 +1286,10 @@ o0902168	.	|U₄.6(N08)|	I	|U4.6(N08)|	𒯨	/easl/images/o0902168.png
 o0902169	.	|U₄.7(N08)|	I	|U4.7(N08)|	𒯩	/easl/images/o0902169.png
 o0902170	.	|U₄.8(N08)|	I	|U4.8(N08)|	𒯪	/easl/images/o0902170.png
 o0902171	.	|U₄.1(N14)|	I	|U4.1(N14)|	𒯫	/easl/images/o0902171.png
-o0902172	.	|U₄.(1(N14).3(N08))|	I	|U4.(1(N14).3(N08))|	𒯬	/easl/images/o0902172.png
-o0902173	.	|U₄.(1(N14).4(N08))|	I	|U4.(1(N14).4(N08))|	𒯭	/easl/images/o0902173.png
-o0902174	.	|U₄.(1(N14).5(N08))|	I	|U4.(1(N14).5(N08))|	𒯮	/easl/images/o0902174.png
-o0902175	.	|U₄.(1(N14).8(N08))|	I	|U4.(1(N14).8(N08))|	𒯯	/easl/images/o0902175.png
+o0902172	.	|U₄.1(N14).3(N08)|	I	|U4.(1(N14).3(N08))|	𒯬	/easl/images/o0902172.png
+o0902173	.	|U₄.1(N14).4(N08)|	I	|U4.(1(N14).4(N08))|	𒯭	/easl/images/o0902173.png
+o0902174	.	|U₄.1(N14).5(N08)|	I	|U4.(1(N14).5(N08))|	𒯮	/easl/images/o0902174.png
+o0902175	.	|U₄.1(N14).8(N08)|	I	|U4.(1(N14).8(N08))|	𒯯	/easl/images/o0902175.png
 o0902176	.	|U₄.2(N14)|	I	|U4.2(N14)|	𒯰	/easl/images/o0902176.png
 o0902216	#	|U₄×X|	I	|U4xX|	𒯱	/easl/images/o0902216.png
 o0902217	#	|U₄×(X+2(N01))|	I	|U4x(X+2(N01))|	𒯲	/easl/images/o0902217.png

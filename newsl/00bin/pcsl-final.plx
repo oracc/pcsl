@@ -13,8 +13,10 @@ GetOptions(
     );
 
 my @efields = qw/sn oid tag pc24 flag fnnm char row src/;
-my @pfields = qw/sn oid tag pc25 pc24 cdli ref char row src/;
+my @pfields = qw/oid tag pc25 pc24 cdli ref char src/;
 my @sfields = qw/sn oid pc24 pbnm pbpc char row src/;
+
+my %o = (); load_oid();
 
 my %pcsl = ();
 my %pc25 = ();
@@ -53,6 +55,19 @@ close(L);
 
 #######################################
 
+sub charcommas {
+    my @c = split(/,/, $_[0]);
+    my @n = ();
+    foreach my $c (@c) {
+	if ($c =~ /_/) {
+	    push @n, $c;
+	} else {
+	    push @n, grep(length, split(/(.)/,$c));
+	}
+    }
+    join(',', @n);
+}
+
 sub load_cusas {
     print L "loading cusas ...\n";
     my @c = `cat 00etc/cusas-final.tsv`; chomp @c;
@@ -61,9 +76,9 @@ sub load_cusas {
 	@b{@efields} = split(/\t/,$_);
 	if ($pcsl{$b{'oid'}}) {
 	    pcsl_add_glyf($b{'oid'}, $b{'char'});
-	    $b{'src'} .= ' cusas';
+	    $b{'src'} .= " $b{'sn'}";
 	} else {
-	    $b{'src'} = 'cusas';
+	    $b{'src'} = $b{'sn'};
 	    $pcsl{$b{'oid'}} = { %b };
 	}
     }
@@ -75,8 +90,24 @@ sub load_easl {
     foreach (@e) {
 	my %b = ();
 	@b{@efields} = split(/\t/,$_);
-	$b{'src'} = 'easl';
+	$b{'char'} = charcommas($b{'char'});
+	$b{'src'} = $b{'sn'};
 	$pcsl{$b{'oid'}} = { %b };
+    }
+}
+
+sub load_oid {
+    my $oidfile = '';
+    if (-d '/home/oracc/oid') {
+	$oidfile = '/home/oracc/oid/oid.tab';
+    } else {
+	$oidfile = '/Users/stinney/orc/oid/oid.tab';
+    }
+    my @o = `grep ^o09 $oidfile | cut -f1,3`; chomp @o;
+    foreach (@o) {
+	my($o,$n) = split(/\t/,$_);
+	$o{$n} = $o;
+	$o{$o} = $n;
     }
 }
 
@@ -101,10 +132,10 @@ sub load_sl {
 	@b{@sfields} = split(/\t/,$_);
 	if ($pcsl{$b{'oid'}}) {
 	    pcsl_add_glyf($b{'oid'}, $b{'char'});
-	    ${$pcsl{$b{'oid'}}}{'src'} .= " $sl";
+	    ${$pcsl{$b{'oid'}}}{'src'} .= " $b{'sn'}";
 	} else {
 	    print L "$b{'oid'} not in EASL+CUSAS\n";
-	    ${$pcsl{$b{'oid'}}}{'src'} = $sl;
+	    ${$pcsl{$b{'oid'}}}{'src'} = $b{'sn'};
 	    $pcsl{$b{'oid'}} = { %b };
 	}
     }
@@ -129,30 +160,19 @@ sub pc25_names {
 sub pcsl_add_glyf {
     my($oid,$chr) = @_;
     if ($pcsl{$oid}) {
+	unless (${$pcsl{$oid}}{'chash'}) {
+	    my %h = (); @h{split(/,/,${$pcsl{$oid}}{'char'})} = ();
+	    ${$pcsl{$oid}}{'chash'} = { %h };
+	}
 	my $c = ${$pcsl{$oid}}{'char'};
-	my @chrs = split(/,/,$chr);
-	foreach my $chr1 (@chrs) {
-	    if ($chr1 =~ /_/) {
-		unless ($c =~ /$chr1/) {
-		    unless ($c =~ /$chr1/) {
-			if ($c =~ / /) {
-			    $c .= ",$chr1";
-			} else {
-			    $c .= " $chr1";
-			}
-		    }
-		}		
-	    } else {
-		my @chr = grep(length,split(/(.)/,$chr));
-		foreach my $chr1 (@chr) {
-		    unless ($c =~ /$chr1/) {
-			if ($c =~ / /) {
-			    $c .= ",$chr1";
-			} else {
-			    $c .= " $chr1";
-			}
-		    }
+	foreach my $chr1 (split(/,/,charcommas($chr))) {
+	    unless (exists ${${$pcsl{$oid}}{'chash'}}{$chr1}) {
+		if ($c =~ /;/) {
+		    $c .= ",$chr1";
+		} else {
+		    $c .= ";$chr1";
 		}
+		++${${$pcsl{$oid}}{'chash'}}{$chr1};
 	    }
 	}
 	print L "new char = $c\n"
@@ -171,10 +191,11 @@ sub pcsl_scodes {
 	$sc{$_} = $sort++;
     }
     foreach my $o (keys %pcsl) {
-	if ($sc{$o}) {
-	    ${$pcsl{$o}}{'sc'} = $sc{${$pcsl{$o}}{'pc25'}};
+	my $pc25 = ${$pcsl{$o}}{'pc25'};
+	if ($sc{$pc25}) {
+	    ${$pcsl{$o}}{'sc'} = $sc{$pc25};
 	} else {
-	    warn "$o not in ../scodes.tsv\n";
+	    warn "$pc25 not in ../scodes.tsv\n";
 	}
     }
 }
@@ -183,7 +204,25 @@ sub pcsl_tsv {
     open(T,'>00etc/pcsl-final.tsv');
     foreach my $o (sort { ${$pcsl{$a}}{'sc'} <=> ${$pcsl{$b}}{'sc'} } keys %pcsl) {
 	my %p = %{$pcsl{$o}};
-	print T join("\t", @p{qw/oid pc25/}), "\n";
+	my $nc = ($p{'char'} =~ tr/;,/;,/);
+	if ($o{$p{'pc25'}}) {
+	} else {
+	    if ($o{$o}) {
+		warn "pc25 $p{'pc25'} not in OID tab; $o = $o{$o}\n";
+	    } else {
+		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
+	    }
+	}
+	unless ($p{'ref'}) {
+	    if ($nc > 1) {
+		my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;
+		warn "refglyph	$o	$rg	$p{'char'}\n" unless $nc < 2;
+		$p{'ref'} = $rg;
+	    } else {
+		$p{'ref'} = '';
+	    }
+	}
+	print T join("\t", @p{@pfields}), "\n";
     }
     close(T);
 }
