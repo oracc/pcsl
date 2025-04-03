@@ -147,6 +147,7 @@ sub pc25_names {
 	my $pc25 = $pc24;
 	$pc25 =~ s/~v[0-9]+//g;
 	$pc25 =~ s/([^AEIU])(ŠU₂~[ab])/$1ŠU₂/g unless $pc24 =~ /GIŠ×ŠU₂/;
+	$pc25 =~ s/SAG\@n×GEŠTU/SAG×GEŠTU/;
 	if ($pc25{$pc25}) {
 	    warn "duplicate name $pc25 is $o and $pc25{$pc25}; src=${$pcsl{$o}}{'src'}\n";
 	} else {
@@ -184,7 +185,8 @@ sub pcsl_add_glyf {
 }
 
 sub pcsl_scodes {
-    my @sc = `cat 00etc/pc25-order.tsv`; chomp @sc;
+    open(S,'>s.key'); print S join("\n", keys %pc25), "\n"; close(S);
+    my @sc = `gdlx -p pcsl -g <s.key 2>/dev/null`; chomp @sc;
     my %sc = ();
     my $sort = 1;
     foreach (@sc) {
@@ -208,7 +210,7 @@ sub pcsl_tsv {
 	if ($o{$p{'pc25'}}) {
 	} else {
 	    if ($o{$o}) {
-		warn "pc25 $p{'pc25'} not in OID tab; $o = $o{$o}\n";
+		warn "pc25 $p{'pc25'} not in OID tab; $o = $o{$o}; src=$p{'src'}\n";
 	    } else {
 		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
 	    }

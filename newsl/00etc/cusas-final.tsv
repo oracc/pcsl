@@ -37,7 +37,7 @@ CSL036	o0901128	C01b	KIŠ~v2	I	-	󳀦	/pcsl/cusas/images/0114.png
 CSL037	o0901225	C21t	|LAGAB~a×1(N58)|	I	-	󳀚	/pcsl/images/add/thumb/LAGABx1N58.png
 CSL038	o0901275	C21b	|LAL₂~a×NAGA~a|	I	-	󳀿	/pcsl/cusas/images/2106.png
 CSL039	o0901347	C31b	|MAH~a×TUN₃~c|	I	-	󳁀	/pcsl/cusas/images/3107.png
-CSL040	o0903758	C31b	MAR@g~a~v1	I	-	󳀜	/pcsl/cusas/images/3108.png
+CSL040	o0901373	C31b	MAR~a@g	I	-	󳀜	/pcsl/cusas/images/3108.png
 CSL041	o0903214	-C21b	|1(N57).E₂~a|	I	-	󳀧	/pcsl/cusas/images/2101.png
 CSL042	o0903225	C31b	|2(N57).BIR₃~a|	I	-	󳀩	/pcsl/cusas/images/3101.png
 CSL043	o0903233	-C01b	|2(N57).UDUNITA~a|	I	-	󳁜	/pcsl/cusas/images/0101.png
@@ -70,7 +70,7 @@ CSL069	o0901924	C01b	ŠA₃~a2@g	I	-	󳁅	/pcsl/cusas/images/0119.png
 CSL070	o0901951	C01b	|ŠE~a.GAR|	I	-	󳁛	/pcsl/cusas/images/0121.png
 CSL071	o0901950	C01b	|ŠE~a@t~v1.GAR|	I	-	󳁚	/pcsl/cusas/images/0120.png
 CSL072	o0902066	C21t	|ŠUR₂×1(N58)|	I	-	󳀗	/pcsl/images/add/thumb/SZUR2x1N58.png
-CSL073	o0902219	C31t	|U₄+1(N24)|	I	-	󳀆	/pcsl/images/add/thumb/U4-1N24.png
+CSL073	o0902219	C31t	|U₄.1(N24)|	I	-	󳀆	/pcsl/images/add/thumb/U4-1N24.png
 CSL074	o0902180	C31t	|U₄×(1(N01).1(N24))|	I	-	󳀇	/pcsl/images/add/thumb/U4x1N01-N24.png
 CSL075	o0902197	C01t	|U₄×(1(N14).1(N01))|	I	-	󳀈	/pcsl/images/add/thumb/U4x1N14-1N01.png
 CSL076	o0902232	C31b	UBI~d	I	-	󳁎	/pcsl/cusas/images/3116.png
