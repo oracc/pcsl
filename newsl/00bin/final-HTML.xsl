@@ -14,7 +14,7 @@
     </xsl:variable>
     <xsl:variable name="vol">
       <xsl:choose>
-	<xsl:when test="sl/@n='easl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
+	<xsl:when test="sl/@n='easl' or sl/@n='pcsl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
 	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'aclmopstuv','ACLMOPSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -34,14 +34,7 @@
 	      <th class="lname">Entry</th>
 	      <th class="names">Names</th>
 	      <th class="glyph">PC-font</th>
-	      <xsl:choose>
-		<xsl:when test="$SL='PCSL'">
-		  <th class="image"><xsl:value-of select="CDLI-gh"/></th>
-		</xsl:when>
-		<xsl:otherwise>
-		  <th class="image"><xsl:value-of select="$vol"/></th>
-		</xsl:otherwise>
-	      </xsl:choose>
+	      <th class="image"><xsl:value-of select="$vol"/></th>
 	      <xsl:message>SL=<xsl:value-of select="$SL"/></xsl:message>
 	      <xsl:if test="$SL='EASL' or $SL='PCSL'">
 		<th case="sl">ATU3</th>
@@ -177,7 +170,11 @@
 	  <xsl:if test="count(preceding-sibling::*)=0">
 	    <xsl:choose>
 	      <xsl:when test="$SL='PCSL'">
-		<td class="src"><xsl:value-of select="../@src"/></td>
+		<td>
+		  <xsl:if test="../@row">
+		    <img class="lrow" src="{../@row}"/>
+		  </xsl:if>
+		</td>
 	      </xsl:when>
 	      <xsl:otherwise>
 		<td class="lrow"> <!-- rowspan="{count(../*)}" -->

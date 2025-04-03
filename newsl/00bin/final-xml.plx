@@ -11,7 +11,9 @@ use ORACC::XML;
 
 use Getopt::Long;
 
+my $asl = 0;
 GetOptions(
+    a=>\$asl,
     );
 
 my $n = shift @ARGV;
@@ -19,9 +21,13 @@ my $f = "00etc/$n-final.tsv";
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
+my $outfile = $asl ? "00etc/$n-final.asl" : "00etc/$n-final.xml";
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 my $pcslflag = ($n =~ /^pcsl/);
+
+die "$0: asl output only supported with pcsl. Stop.\n"
+    if $asl && !$pcslflag;
 
 my %n = (); load_oid();
 my %u = (); load_unicode();
@@ -29,8 +35,8 @@ my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %pc25 = (); load_pc25() if $easlflag;
 
-open(X,">00etc/$n-final.xml"); select X;
-print "<sl n=\"$n\">";
+open(X,">$outfile"); select X;
+print "<sl n=\"$n\">" unless $asl;
 open(N,$f);
 while (<N>) {
     chomp;
@@ -38,7 +44,7 @@ while (<N>) {
     if ($cusasflag || $easlflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } elsif ($pcslflag) {
-	($o,$t,$p,$pc24,$cdli,$r,$c,$src) = split(/\t/,$_);
+	($o,$t,$p,$pc24,$cdli,$r,$c,$src,$fn) = split(/\t/,$_);
     } else {
 	($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     }
@@ -76,22 +82,65 @@ while (<N>) {
 	    }
 	}
     }
-    if ($pcslflag) {
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr glyf=\"$c\"$dist>";
+    if ($asl) {
+	asl_sign($p,$o,$r,$c);
     } else {
-	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
+	if ($pcslflag) {
+	    my $row = $fn ? " row=\"$fn\"" : '';
+	    print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist>";
+	} else {
+	    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
+	}
+	chars($c);
+	sl($o,$p) if $easlflag || $pcslflag;
+	print '</sign>';
     }
-    chars($c);
-    sl($o,$p) if $easlflag || $pcslflag;
-    print '</sign>';
 }
 close(N);
-print '</sl>';
+print '</sl>' unless $asl;
 close(X);
 
 1;
 
 ################################################################################
+
+sub asl_chars {
+    my($r,$c,$t) = @_;
+    my @c = split(/[,;]/,$c);
+    if ($r) {
+	asl_pchar($r);
+    } else {
+	asl_pchar(shift @c);
+    }
+    foreach my $cc (@c) {
+	asl_pglyf($cc) unless $cc eq $r;
+    }
+}
+
+sub asl_sign {
+    my($s,$o,$r,$c) = @_;
+    print "\@sign $s\n\@oid $o\n";
+    asl_chars($r, $c);
+    print "\@end sign\n\n";
+}
+
+sub asl_pchar {
+    my $c = shift;
+    printf "\@list U+%X\n", ord($c);
+    if (length $c > 1) {
+	print "\@useq $c\n";
+    }
+    print "\@ucun $c\n";
+}
+
+sub asl_pglyf {
+    my $c = shift;
+    if (length $c > 1) {
+	print "\@form $c\n";
+    } else {
+	print "\@glyf $c\n";
+    }
+}
 
 sub chars {
     my @c = split(/[,;]/,$_[0]);
@@ -108,14 +157,6 @@ sub chars {
 	    my @cc = grep(length,split(/(.)/,$c));
 	    foreach my $cc (@cc) {
 		pchar($cc);
-		# my $ch = sprintf("%X",ord($cc));
-		# if ($u{$ch}) {
-		#     my $co = $u{$ch};
-		#     my $cn = xmlify($n{$co});
-		#     print "<f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
-		# } else {
-		#     warn "hex $ch not in 00etc/unicode.tsv\n";
-		# }
 	    }
 	}
     }

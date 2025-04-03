@@ -13,7 +13,7 @@ GetOptions(
     );
 
 my @efields = qw/sn oid tag pc24 flag fnnm char row src/;
-my @pfields = qw/oid tag pc25 pc24 cdli ref char src/;
+my @pfields = qw/oid tag pc25 pc24 cdli ref char src row/;
 my @sfields = qw/sn oid pc24 pbnm pbpc char row src/;
 
 my %o = (); load_oid();
@@ -224,6 +224,7 @@ sub pcsl_tsv {
 		$p{'ref'} = '';
 	    }
 	}
+	$p{'row'} = '' unless $p{'src'} =~ /EASL/;
 	print T join("\t", @p{@pfields}), "\n";
     }
     close(T);
