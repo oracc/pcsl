@@ -15,7 +15,7 @@
     <xsl:variable name="vol">
       <xsl:choose>
 	<xsl:when test="sl/@n='easl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
-	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'acmostuv','ACMOSTUV')"/></xsl:otherwise>
+	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'aclmopstuv','ACLMOPSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <html>
@@ -34,13 +34,23 @@
 	      <th class="lname">Entry</th>
 	      <th class="names">Names</th>
 	      <th class="glyph">PC-font</th>
-	      <th class="image"><xsl:value-of select="$vol"/></th>
+	      <xsl:choose>
+		<xsl:when test="$SL='PCSL'">
+		  <th class="image"><xsl:value-of select="CDLI-gh"/></th>
+		</xsl:when>
+		<xsl:otherwise>
+		  <th class="image"><xsl:value-of select="$vol"/></th>
+		</xsl:otherwise>
+	      </xsl:choose>
 	      <xsl:message>SL=<xsl:value-of select="$SL"/></xsl:message>
-	      <xsl:if test="$SL='EASL'">
+	      <xsl:if test="$SL='EASL' or $SL='PCSL'">
 		<th case="sl">ATU3</th>
 		<th case="sl">ATU5</th>
 		<th case="sl">MSVO1</th>
 		<th case="sl">MSVO4</th>
+		<xsl:if test="$SL='PCSL'">
+		  <th case="sl">CUSAS</th>
+		</xsl:if>
 	      </xsl:if>
 	    </tr>
 	  </thead>
@@ -112,9 +122,9 @@
 		<xsl:if test="../@tags">
 		  <div class="stags"><xsl:value-of select="../@tags"/></div>
 		</xsl:if>
-		<xsl:if test="@c">
-		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span></div>
-		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
+		<xsl:if test="../@c">
+		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
+		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h,']')"/></span></div>
 		</xsl:if>
 		<xsl:if test="../@dist">
 		  <div class="dist"><xsl:value-of select="../@dist"/></div>
@@ -165,32 +175,40 @@
 	  </td>
 	  
 	  <xsl:if test="count(preceding-sibling::*)=0">
-	    <td class="lrow"> <!-- rowspan="{count(../*)}" -->
-	      <a href="javascript://" onclick="easlPopup('{../@oid}')">
-		<xsl:choose>
-		  <xsl:when test="starts-with(../@row,'/')">
-		    <img class="lrow" src="{../@row}"/>
-		  </xsl:when>
-		  <xsl:when test="../@row = '-'"/>
-		  <xsl:otherwise>
-		    <img class="lrow" width="600px" src="/osl/{../@row}"/>
-		  </xsl:otherwise>
-		</xsl:choose>
-		<xsl:if test="$SL='EASL'">
-		  <div class="rname">
-		    <span><xsl:value-of select="../@lp"/></span>
-		  </div>
-		</xsl:if>
-	      </a>
-	    </td>
+	    <xsl:choose>
+	      <xsl:when test="$SL='PCSL'">
+		<td class="src"><xsl:value-of select="../@src"/></td>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<td class="lrow"> <!-- rowspan="{count(../*)}" -->
+		  <a href="javascript://" onclick="easlPopup('{../@oid}')">
+		    <xsl:choose>
+		      <xsl:when test="starts-with(../@row,'/')">
+			<img class="lrow" src="{../@row}"/>
+		      </xsl:when>
+		      <xsl:when test="../@row = '-'"/>
+		      <xsl:otherwise>
+			<img class="lrow" width="600px" src="/osl/{../@row}"/>
+		      </xsl:otherwise>
+		    </xsl:choose>
+		    <xsl:if test="$SL='EASL'">
+		      <div class="rname">
+			<span><xsl:value-of select="../@lp"/></span>
+		      </div>
+		    </xsl:if>
+		  </a>
+		</td>
+	      </xsl:otherwise>
+	    </xsl:choose>
 	  </xsl:if>
-	  <xsl:if test="$SL='EASL'">
+	  <xsl:if test="$SL='EASL' or $SL='PCSL'">
 	    <xsl:choose>
 	      <xsl:when test="../sl">
 		<xsl:apply-templates select="../sl"/>
 	      </xsl:when>
 	      <xsl:otherwise>
 		<td/><td/><td/><td/>
+		<xsl:if test="$SL='PCSL'"><td/></xsl:if>
 	      </xsl:otherwise>
 	    </xsl:choose>
 	  </xsl:if>

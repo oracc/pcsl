@@ -45,8 +45,13 @@ h2 { font-size: 110%; font-weight: bold; }
 .names { vertical-align: top; }
 .sname,.stags { text-align: left; }
 .uname { text-align: left; color: gray; font-size: 90%; }
-.dist { text-align: left; color: gray; }
+.dist { text-align: left; color: gray; padding-top: .5em; }
+
+.src { text-align; left; padding-left: 1em; }
+
 .rglyf { text-align: left; padding-left: .5em; padding-top: .25em; }
+.rhex { text-align: left; }
+
 .glyph { text-align: right; }
 .image { vertical-align: top; }
 div.rname { padding-top: 5px; }

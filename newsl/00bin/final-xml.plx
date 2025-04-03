@@ -49,7 +49,7 @@ while (<N>) {
     my $xpc24 = xmlify($pc24||'');
     my $rattr = '';
     if ($pcslflag && $r) {
-	$rattr = " c=\"$r\"";
+	$rattr = sprintf(" c=\"%s\" h=\"%X\"", $r, ord($r));
     }
     if ($t) {
 	my $seq = '';
@@ -141,10 +141,16 @@ sub dist {
 }
 
 sub load_dist {
+    my @a = `cat 00etc/csldist-all.tsv`; chomp @a;
+    my %a = ();
+    foreach (@a) {
+	my($o,$n) = split(/\t/,$_);
+	$a{$o} = $n;
+    }
     my @d = `grep I 00etc/csldist.tsv`; chomp @d;
     foreach (@d) {
 	my($o,$iv,$iii) = split(/\t/,$_);
-	my $dist = " dist=\"";
+	my $dist = " dist=\"$a{$o}: ";
 	if ($iv) {
 	    $dist .= "$iv";
 	    $dist .= "; $iii" if $iii;
@@ -152,7 +158,11 @@ sub load_dist {
 	    $dist .= "$iii";
 	}
 	$dist .= '."';
-	$dist{$o} = $dist;
+	$dist{$o} = "$dist";
+    }
+    foreach (@a) {
+	my($o,$n) = split(/\t/,$_);
+	$dist{$o} = " dist=\"$n\"" unless $dist{$o};
     }
 }
 

@@ -3,7 +3,8 @@
 #
 # The previous workflow has been moved into 00etc/old; the new
 # workflow starts from the fixed 00etc/*-final.tsv data files and
-# builds xml and html from those
+# builds xml and html from those.  For EASL only, the editable data is
+# in easl-base.tsv not easl-final.tsv.
 #
 
 O2=/home/stinney/o2
@@ -13,17 +14,22 @@ PRJ=${WWW}/pcsl/${SL}
 
 default:  msvo1 msvo4 atu3 atu5 cusas easl seq overview css js font
 
+#pcsl pc25
+
 pc25: 00web/pc25.html
 	@true
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make csldist xml html images
 
+00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
+	00bin/cusas-tsv.plx >$@
+
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
 
-00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
-	00bin/cusas-tsv.plx >$@
+00etc/pcsl-final.tsv: 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx
+	00bin/pcsl-final.plx
 
 00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
 	xsltproc -stringparam mode PC25 00bin/final-HTML.xsl $< >$@
