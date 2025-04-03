@@ -21,11 +21,12 @@ die "$0: must give X-final.tsv base. Stop.\n"
 
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
+my $pcslflag = ($n =~ /^pcsl/);
 
 my %n = (); load_oid();
 my %u = (); load_unicode();
-my %sl = (); load_sl() if $easlflag;
-my %dist = (); load_dist() if $easlflag; load_dist_all() if $cusasflag;
+my %sl = (); load_sl() if $easlflag || $pcslflag;
+my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %pc25 = (); load_pc25() if $easlflag;
 
 open(X,">00etc/$n-final.xml"); select X;
@@ -33,15 +34,23 @@ print "<sl n=\"$n\">";
 open(N,$f);
 while (<N>) {
     chomp;
-    my($n,$o,$t,$p,$lo,$lp,$c,$fn) = ();
+    my($n,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$r,$src) = ();
     if ($cusasflag || $easlflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
+    } elsif ($pcslflag) {
+	($o,$t,$p,$pc24,$cdli,$r,$c,$src) = split(/\t/,$_);
     } else {
 	($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     }
     my $xp = xmlify($p);
     my $xlo = xmlify($lo);
-    my $xlp = xmlify($lp);
+    my $xlp = xmlify($lp||'');
+    my $xcdli = xmlify($cdli||'');
+    my $xpc24 = xmlify($pc24||'');
+    my $rattr = '';
+    if ($pcslflag && $r) {
+	$rattr = " c=\"$r\"";
+    }
     if ($t) {
 	my $seq = '';
 	my $not = '';
@@ -67,9 +76,13 @@ while (<N>) {
 	    }
 	}
     }
-    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
+    if ($pcslflag) {
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr glyf=\"$c\"$dist>";
+    } else {
+	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
+    }
     chars($c);
-    sl($o,$p) if $easlflag;
+    sl($o,$p) if $easlflag || $pcslflag;
     print '</sign>';
 }
 close(N);
@@ -81,7 +94,7 @@ close(X);
 ################################################################################
 
 sub chars {
-    my @c = split(/,/,$_[0]);
+    my @c = split(/[,;]/,$_[0]);
     print "<s>";
     foreach my $c (@c) {
 	if ($c =~ /_/) {
@@ -164,8 +177,11 @@ sub load_pc25 {
 }
 
 sub load_sl {
-    foreach (qw/atu3 atu5 msvo1 msvo4/) {
-	my @s = `cut -f 2,5-6 00etc/${_}-final.tsv`; chomp @s;
+    my @sl = qw/atu3 atu5 msvo1 msvo4/;
+    push @sl, 'cusas' if $pcslflag;
+    foreach (@sl) {	
+	my $cut = /cusas/ ? '2,4,7' : '2,5-6';
+	my @s = `cut -f $cut 00etc/${_}-final.tsv`; chomp @s;
 	foreach my $s (@s) {
 	    my($o,$p,$c) = split(/\t/,$s);
 	    ${$sl{$o}}{$_} = [ $p , $c ];
@@ -199,7 +215,7 @@ sub sl {
     my ($o,$p) = @_;
     if ($sl{$o}) {
 	print '<sl>';
-	foreach my $sl (qw/atu3 atu5 msvo1 msvo4/) {
+	foreach my $sl (qw/atu3 atu5 msvo1 msvo4 cusas/) {
 	    if (${$sl{$o}}{$sl}) {
 		print "<s sl=\"$sl\">";
 		my($lp,$lc) = @{${$sl{$o}}{$sl}};
