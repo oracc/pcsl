@@ -548,7 +548,7 @@ o0900958		HAŠHUR	I	HASZHUR	𒣤	/easl/images/o0900958.png
 o0900959		|HAŠHUR×MA|	I	|HASZHURxMA|	𒣥	/easl/images/o0900959.png
 o0900960		HI	I	HI	𒣦	/easl/images/o0900960.png
 o0900962	c	|HI.SUHUR|	I	|HI.SUHUR|	𒣧𒣨𒣩	/easl/images/o0900962.png
-o0900966		|HI×LAGAB~a|	I	|HIxLAGAB~a|	𒣪	/easl/images/o0900966.png
+o0900966	:	|HI×LAGAB~a|	I	|HIxLAGAB~a|	𒣪	/easl/images/o0900966.png
 o0900972	1-	|HI×ŠE₃~v1@t|	I	|HIxSZE3@t|	󲵑	/easl/images/o0900972.png
 o0900974		|HI×ZATU707~a|	I	|HIxZATU707~a|	𒣫	/easl/images/o0900974.png
 o0900967	1-	|HI×1(N01@f)|	I	|HIx1(N01)F|	󲵋	/easl/images/o0900967.png
@@ -944,7 +944,7 @@ o0901551	n	|NINDA₂×(1(N06).HI@g~a)|	I	|NINDA2x(HI@g~a.1(N06))|	𒩥	/easl/ima
 o0901560		|NINDA₂×1(N08)|	I	|NINDA2x1(N08)|	𒩦	/easl/images/o0901560.png
 o0901577		NINKUM	I	NINKUM	𒩨	/easl/images/o0901577.png
 o0901578	:	NINLIL	I	NINLIL	𒩩	/easl/images/o0901578.png
-o0901580	:	NIR~a	I	NIR~a	𒩪	/easl/images/o0901580.png
+o0901580	n	NIR~a	I	NIR~a	𒩪	/easl/images/o0901580.png
 o0901583		|NIR~a×AN|	I	|NIR~axAN|	𒩫	/easl/images/o0901583.png
 o0901581		NIR~b	I	NIR~b	𒩬	/easl/images/o0901581.png
 o0901584		NU	I	NU	𒩭	/easl/images/o0901584.png
