@@ -38,8 +38,14 @@ load_sl('msvo4');
 # load ref glyphs into pcsl
 load_rg();
 
+# load sequence data
+my %seq = (); load_seq();
+
 # generate new PC25 names
 pc25_names();
+
+# update sequence character data
+pcsl_seq();
 
 # add sort codes
 pcsl_scodes();
@@ -123,6 +129,24 @@ sub load_rg {
     }
 }
 
+sub load_seq {
+    my @seq = `cut -f 1,3,6 00etc/seq-opaque+.tsv`; chomp @seq;
+    load_seqs(@seq);
+    @seq = `cut -f 1,3,6 00etc/seq-beside+.tsv`; chomp @seq;
+    load_seqs(@seq);
+}
+
+sub load_seqs {
+    foreach my $s (@_) {
+	my($o,$n,$c) = split(/\t/,$s);
+	my $g = '';
+	if ($n =~ /^(.)=/) {
+	    $g = $1;
+	}
+	$seq{"$o$g"} = $c;
+    }
+}
+
 sub load_sl {
     my $sl = shift;
     print L "loading $sl ...\n";
@@ -176,6 +200,7 @@ sub pcsl_add_glyf {
 		++${${$pcsl{$oid}}{'chash'}}{$chr1};
 	    }
 	}
+	$c =~ s/;,/;/; # easiest way to deal with ; coming from easl-final.tsv
 	print L "new char = $c\n"
 	    unless ${$pcsl{$oid}}{'char'} eq $c;
 	${$pcsl{$oid}}{'char'} = $c;
@@ -200,6 +225,28 @@ sub pcsl_scodes {
 	    warn "$pc25 not in ../scodes.tsv\n";
 	}
     }
+}
+
+sub pcsl_seq {
+    foreach my $o (sort keys %pcsl) {
+	my($c,$t) = @{$pcsl{$o}}{qw/char tag/};
+	if ($t && $t =~ /[.:]/) {
+	    my @c = ();
+	    if ($c =~ /;/) {
+		my @n = split(/;/,$c);
+		foreach my $n (@n) {
+		    push @c, seqify($o,$n,$t);
+		    push @c, ';';
+		}
+	    } else {
+		push @c, seqify($o,$c,$t);
+	    }
+	    my $nc = join(',', @c);
+	    $nc =~ s/,;/;/g;
+	    $nc =~ s/;,/;/g;
+	    ${$pcsl{$o}}{'char'} = $nc;
+	}	
+    }    
 }
 
 sub pcsl_tsv {
@@ -228,4 +275,32 @@ sub pcsl_tsv {
 	print T join("\t", @p{@pfields}), "\n";
     }
     close(T);
+}
+
+sub seqify {
+    my($o,$c,$t) = @_;
+    my @c = ();
+    my @s = split(/,/,$c);
+    my $did_one = 0;
+    foreach my $s (@s) {
+	if ($s =~ /_/) {
+	    push @c, $s;
+	} else {
+	    my @x = grep(length,split(/(.)/,$s));
+	    foreach my $x (@x) {
+		if ($seq{"$o$x"}) {
+		    print L "seq found $o$x\n";
+		} elsif ($seq{$o}) {
+		    if ($did_one) {
+			warn "seq$t $o: found default more than once; add $x= entry to seq data\n";
+		    } else {
+			print L "seq$t found $o as default for $x\n";
+			++$did_one;
+		    }
+		} else {
+		    warn "seq$t found nothing for $o $x\n" unless $t =~ /1/;
+		}
+	    }
+	}
+    }
 }

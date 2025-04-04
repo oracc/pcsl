@@ -857,9 +857,9 @@ o0903267	.	|5(N57).KU₃~a|	I	|5(N57).KU3~a|	𒸉	/easl/images/o0903267.png
 o0903270	.	|6(N57).GAR|	I	|6(N57).GAR|	𒸊	/easl/images/o0903270.png
 o0903272	.	|6(N57).KU₃~a|	I	|6(N57).KU3~a|	𒸋	/easl/images/o0903272.png
 o0903277	.	|8(N57).NI~b|	I	|8(N57).NI~b|	𒸌	/easl/images/o0903277.png
-o0903283	.	|(1(N58).BAD)~b|	I	|1(N58).BAD~b|	𒸎	/easl/images/o0903283.png
-o0903281	.	|1(N58).BAD|	I	|1(N58).BAD~a|	𒸍	/easl/images/o0903281.png
-o0903287	.	|3(N58).UR₃~b1|	I	|3(N58).UR3~b1|	𒸐	/easl/images/o0903287.png
+o0903283	!U	|(1(N58).BAD)~b|	I	|1(N58).BAD~b|	𒸏𒸎	/easl/images/o0903283.png
+o0903281	!A	|1(N58).BAD|	I	|1(N58).BAD~a|	𒸍	/easl/images/o0903281.png
+o0903287	!C	|3(N58).UR₃~b1|	I	|3(N58).UR3~b1|	𒸐	/easl/images/o0903287.png
 o0901437		NA~a	I	NA~a	𒨋	/easl/images/o0901437.png
 o0901438		NA~b	I	NA~b	𒨌	/easl/images/o0901438.png
 o0901439		NA~c	I	NA~c	𒨍	/easl/images/o0901439.png
@@ -1011,7 +1011,7 @@ o0901695		SAG@n	I	SAG@n	𒪬	/easl/images/o0901695.png
 o0901682	n	|SAG@n×GEŠTU~b|	I	|SAGxGESZTU~b|	𒪭𒪳	/easl/images/o0901682.png
 o0901696		SAGŠU	I	SAGSZU	𒪴	/easl/images/o0901696.png
 o0901697		SAL	I	SAL	𒪵	/easl/images/o0901697.png
-o0901705		|SAL.HI×HI|	SAL+ZATU751b	SAL+ZATU751~b	𒪵󳀏	-
+o0901705		|SAL.HI×HI|	SAL+ZATU751b	SAL+ZATU751~b	𒪵_󳀏	-
 o0901699	.	|SAL.KUR~a|	I	|SAL.KUR~a|	𒪶	/easl/images/o0901699.png
 o0901701	.	|SAL.LAM~b|	I	|SAL.LAM~b|	𒪷	/easl/images/o0901701.png
 o0901703	n.	|SAL.ŠU₂~b|	I	|SAL.SZU2|	𒪸	/easl/images/o0901703.png

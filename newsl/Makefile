@@ -28,8 +28,14 @@ pc25: 00web/pc25.html
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
 
-00etc/pcsl-final.tsv: 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx
+00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/seq-beside+.tsv 00etc/seq-opaque+.tsv
 	00bin/pcsl-final.plx
+
+00etc/seq-beside+.tsv: 00etc/seq-beside.tsv
+	00bin/seq+.plx <$< >$@
+
+00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv
+	00bin/seq+.plx <$< >$@
 
 00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
 	xsltproc -stringparam mode PC25 00bin/final-HTML.xsl $< >$@

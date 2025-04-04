@@ -79,6 +79,7 @@ PC25 rules: no ZATU numbers above 818--all those are unpublished-mostly-Umma
 Sequences:
 
 	The label of a sequence sign may not describe all of its variants
+	Movement in the disposition of sequence components underlines the individuality of components
 	if X×Y is also a valid description encode as character (UZ~a = MUŠEN×ŠE)
 	if a component is a NC glyph-variant, encode as sequence and define a @glyf
 	if a component is an unencoded character, encode sequence as character (UTUL~b)
