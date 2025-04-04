@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF30F2 0xFFFFC
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF30FA 0xFFFFC
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -108,7 +108,12 @@
 @list ZATU001
 @sys	AP23 126E7
 @sys	AP24 12690
-@sys	LLATU:177_01 A 
+@sys	LLATU:177_01 A
+@form A~v1
+@oid o0903773
+@list U+F30F9
+@ucun 󳁙
+@uname ADD F3059
 @end sign
 
 @sign |A×AB₂|
@@ -465,7 +470,15 @@
 @uage 1
 @sys	AP23 126F0
 @sys	AP24 126A9
+@@
 @compoundonly AB₂~v2
+@@
+@form AB₂~v3
+@oid o0903769
+@list U+F30F5
+@ucun 󳃵
+@uname AB2 VARIANT 3
+@uage 1
 @@
 @end sign
 
@@ -618,6 +631,7 @@
 @sys	ADD F3067 ATUXXX ADABv1.png
 @inote	Uruk III form which is clearly a city standard; collation required
 @list U+F3067
+@ucun 󳁧
 @uname ADD NAME ADAB~v1
 @@
 @end sign
@@ -1902,6 +1916,12 @@
 @uage 1
 @sys	AP23 12C62
 @sys	AP24 12715
+@@
+@form |((BU~a%BU~a).NA₂~a@n)~v1|
+@oid o0903771
+@list U+F30F7
+@ucun 󳃷
+@uname ADD F30F7
 @@
 @end sign
 
@@ -8367,6 +8387,12 @@
 @sys	AP23 1284F
 @sys	AP24 128DD
 @@
+@form	GURUŠ~a~v2
+@oid o0903770
+@list U+F30F6
+@ucun 󳃶
+@uname GURUSH-A VARIANT 2
+@@
 @form GURUŠ~b
 @oid o0900950
 @list U+128DE
@@ -8694,6 +8720,18 @@
 @sys	AP23 1285B
 @sys	AP24 128F4
 @sys	LLATU:239_04 IB~a 
+@@
+@form IB~a~v1
+@oid o0903767
+@list U+F30F3
+@ucun 󳃳
+@uname ADD F30F3
+@@
+@form IB~a~v2
+@oid o0903768
+@list U+F30F4
+@ucun 󳃴
+@uname ADD F30F4
 @@
 @form IB~b
 @oid o0900984
@@ -16621,6 +16659,12 @@
 @sys	AP23 12A48
 @sys	AP24 12B2B
 @@
+@form SUKUD@g~a~v1
+@oid o0903772
+@list U+F30F8
+@ucun 󳃸
+@uname SUKUD GUNU-A VARIANT 1
+@@
 @form SUKUD@g~b
 @oid o0901896
 @list U+12B2C
@@ -24381,6 +24425,12 @@
 @uage 1
 @sys	AP23 12BB9
 @sys	AP24 12D80
+@@
+@form ZATU757~v2
+@oid o0903774
+@list U+F30FA
+@ucun 󳃺
+@uname ZATU757 VARIANT 2
 @@
 @end sign
 

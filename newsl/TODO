@@ -1,24 +1,15 @@
+GLYPHS
+======
+
 ATU3 AB₂ glyph
 
 ATU3 GURUŠ~a glyph
-
-ATU3 SUSA has tooltip
 
 ATU5 BUa+BUa+NA2a.nutillu glyph
 
 ATU5 SUKUD@g~a glyph
 
-ATU5 SUM~a use F30C5 and delete F30A3
-
-ATU5 ŠA₃~b1 glyph
-
 MSVO4 ZATU757 glyph
-
-UŠ~a~v1 for IR₁₁
-
-IB~a~v1 and IB~a~v2 for ŠAB~a
-
-ŠEN disunification per CUSAS
 
 ADAB glyph
 
@@ -28,17 +19,45 @@ Uruk IV EZEN glyph vis-a-vis LAGAB×2(N14)
 
 Uruk IV MUŠEN+UR₃~b2
 
-clean up ATU5 ZATU697a image
 
-Biggs JCS 20
+FONT
+====
 
-@sign ABZU as AB×ZU and ZU.AB; is PC AB×SU/SU.AB rather than ZU.AB, i.e., are SU/ZU not distinguished?
+UŠ~a~v1 for IR₁₁
+
+IB~a~v1 and IB~a~v2 for ŠAB~a
+
+delete F30A3 because duplicate F30C5
 
 delete F30BF because duplicate F2960
 
 delete F30A6 because duplicate F30C6
 
+ENKUM/NINKUM sequence or character? EZEN~a×ŠE~a in both
+
+
+TODAY
+=====
+
+ŠEN disunification per CUSAS
+
+@sign ABZU as AB×ZU and ZU.AB; is PC AB×SU/SU.AB rather than ZU.AB, i.e., are SU/ZU not distinguished?
+
 Note that deleting EASL0925 |NINDA₂×GUDU₄|~v2 disunifies the NINDA₂×GUDU₄ variants--is that OK?
+
+implement ~1
+
+
+TOMORROW
+========
+
+clean up ATU3 SUSA has tooltip
+
+clean up ATU5 ZATU697a image
+
+Biggs JCS 20
+
+ŠE~a CDLI-gh image; resize DU CDLI-gh
 
 |PA~a.IB~a| |PA~a.IB~a|~1 => pa_ib.liga.cv01
 
@@ -50,7 +69,10 @@ Note that deleting EASL0925 |NINDA₂×GUDU₄|~v2 disunifies the NINDA₂×GUDU
 
 |PA~a.IB~a¹|
 
-ŠE~a CDLI-gh image; resize DU CDLI-gh
+Uruk IV tables in OBO 160/1
+
+PEPC/PC25
+=========
 
 PC25 rules: no ZATU numbers above 818--all those are unpublished-mostly-Umma
 
@@ -61,6 +83,4 @@ Sequences:
 	if a component is a NC glyph-variant, encode as sequence and define a @glyf
 	if a component is an unencoded character, encode sequence as character (UTUL~b)
 	if a member of a group is encoded as a character, encode the whole group as characters (UTUL~a etc.)
-
-implement ~1
 

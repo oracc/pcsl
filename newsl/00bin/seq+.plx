@@ -26,14 +26,20 @@ foreach (@map) {
 
 while (<>) {
     chomp;
-    my($o,$n,$bits) = split(/\t/, $_);
+    my($o,$n,$s,$bits) = split(/\t/, $_);
+    $bits = $s unless $bits; # seq-basic is 3-col; seq-opaque is 4-col
     my @bits = split(/\s/,$bits);
     my @b = ();
     foreach my $b (@bits) {
 	$b =~ s/=.*$//;
 	$b =~ s/^\((.*?)\)$/$1/ unless $map{$b};
-	warn "$.: no bit code for ::${b}::\n" unless $map{$b} || $b =~ /X/;
-	push @b, $map{$b} || 'O';
+	if ($b =~ /^~(\d+)/) {
+	    my $eivs = 0xe0100 + $1;
+	    push @b, sprintf("%X",$eivs);
+	} else {
+	    warn "$.: no bit code for ::${b}::\n" unless $map{$b} || $b =~ /X/;
+	    push @b, $map{$b} || 'O';
+	}
     }
     print;
     print_useq(@b);
