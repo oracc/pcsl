@@ -26,7 +26,7 @@ o0900041		AB₂	I	AB2	𒚧𒚩	/easl/images/o0900041.png
 o0900043		|AB₂×2(N14)|	I	|AB2x2(N14)|	𒚪𒚨	/easl/images/o0900043.png
 o0900047	:	ABGAL	I	ABGAL	𒚫𒚬	/easl/images/o0900047.png
 o0900049	:	ABRIG	I	ABRIG	𒚭	/easl/images/o0900049.png
-o0900050	:	ABZU	I	ABZU	𒚮	/easl/images/o0900050.png
+o0900050	!U	ABZU	I	ABZU	𒚮	/easl/images/o0900050.png
 o0900053		AD~a	I	AD~a	𒚯	/easl/images/o0900053.png
 o0900054		AD~b	I	AD~b	𒚰	/easl/images/o0900054.png
 o0900055		AD~c	I	AD~c	𒚱	/easl/images/o0900055.png
@@ -118,7 +118,7 @@ o0900197	#	|(BU~a&BU~a).X|	I	|(BU~a&BU~a).X|	𒜒	/easl/images/o0900197.png
 o0900183	n	|BU~a~v1×A|	I	|BU~axA|	𒜔	/easl/images/o0900183.png
 o0903398	nc	|(BU~a~v1%BU~a~v1).NA₂~a@n|	I	|(BU~a&BU~a).NA2~a@n|	𒜕	/easl/images/o0903398.png
 o0900177		BU~b	I	BU~b	𒜖	/easl/images/o0900177.png
-o0900181	n	|BU~b.NA₂~a~v1|	I	|BU~b.NA2~a|	𒜗	/easl/images/o0900181.png
+o0900181	.n	|BU~b.NA₂~a~v1|	I	|BU~b.NA2~a|	𒜗	/easl/images/o0900181.png
 o0900205		BU₃	I	BU3	𒜘	/easl/images/o0900205.png
 o0900206		BULUG	I	BULUG	𒜙	/easl/images/o0900206.png
 o0900207		BULUG₃	I	BULUG3	𒜚	/easl/images/o0900207.png
@@ -300,7 +300,7 @@ o0900531	.	|EN₂.E₂~a|	I	|EN2.E2~a|	𒟤	/easl/images/o0900531.png
 o0900532	.	|EN₂.E₂~b|	I	|EN2.E2~b|	𒟥	/easl/images/o0900532.png
 o0900533	:	ENDIB	I	ENDIB	𒟦	/easl/images/o0900533.png
 o0900534	:	ENGIZ	I	ENGIZ	𒟧	/easl/images/o0900534.png
-o0900535	:	ENKUM	I	ENKUM	𒟨𒟩	/easl/images/o0900535.png
+o0900535	!U	ENKUM	I	ENKUM	𒟨𒟩	/easl/images/o0900535.png
 o0900537	:	ENLIL	I	ENLIL	𒟪	/easl/images/o0900537.png
 o0900538	1-.	ENSI	I	ENSI	󲟃	/easl/images/o0900538.png
 o0900539	1-.	ENSI₂	I	ENSI2	󲟄	/easl/images/o0900539.png
@@ -1142,7 +1142,7 @@ o0901922		ŠA₃~d	I	SZA3~d	𒭁	/easl/images/o0901922.png
 o0901926	:	ŠAB~a	I	SZAB~a	𒭂𒭃	/easl/images/o0901926.png
 o0901928	:	ŠAB~b	I	SZAB~b	𒭄𒭅	/easl/images/o0901928.png
 o0901930		ŠAGAN	I	SZAGAN	𒭆𒭇	/easl/images/o0901930.png
-o0901932	:	ŠAGINA	I	SZAGINA	𒭈	/easl/images/o0901932.png
+o0901932	!U	ŠAGINA	I	SZAGINA	𒭈	/easl/images/o0901932.png
 o0901934		ŠAH₂~a	I	SZAH2~a	𒭉	/easl/images/o0901934.png
 o0901935		ŠAH₂~b	I	SZAH2~b	𒭊	/easl/images/o0901935.png
 o0901936		ŠAH₂~c	I	SZAH2~c	𒭋	/easl/images/o0901936.png
@@ -1434,10 +1434,10 @@ o0902398		UŠUR₃~b2	I	USZUR3~b2	𒲅	/easl/images/o0902398.png
 o0902400	!	UTUA~a	I	UTUA~a	𒲆	/easl/images/o0902400.png
 o0902404	!	UTUA~a@t	I	UTUA~a@t	𒲇	/easl/images/o0902404.png
 o0902401	!	UTUA~b	I	UTUA~b	𒲈𒲉	/easl/images/o0902401.png
-o0902406	:	UTUL~a	I	UTUL~a	𒲊	/easl/images/o0902406.png
-o0902407	:	UTUL~b	I	UTUL~b	𒲋	/easl/images/o0902407.png
-o0902408	:	UTUL~c	I	UTUL~c	𒲌	/easl/images/o0902408.png
-o0902409	:	UTUL~d	I	UTUL~d	𒲍	/easl/images/o0902409.png
+o0902406	!A	UTUL~a	I	UTUL~a	𒲊	/easl/images/o0902406.png
+o0902407	!A	UTUL~b	I	UTUL~b	𒲋	/easl/images/o0902407.png
+o0902408	!U	UTUL~c	I	UTUL~c	𒲌	/easl/images/o0902408.png
+o0902409	!A	UTUL~d	I	UTUL~d	𒲍	/easl/images/o0902409.png
 o0902411	++	UZ~a	I	UZ~a	𒲎	/easl/images/o0902411.png
 o0902412		UZU	I	UZU	𒲏	/easl/images/o0902412.png
 o0902416	n	ZA~v	I	ZA~x	𒲐	/easl/images/o0902416.png

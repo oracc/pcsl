@@ -14,6 +14,10 @@ ATU5 ŠA₃~b1 glyph
 
 MSVO4 ZATU757 glyph
 
+UŠ~a~v1 for IR₁₁
+
+IB~a~v1 and IB~a~v2 for ŠAB~a
+
 ŠEN disunification per CUSAS
 
 ADAB glyph
@@ -26,11 +30,9 @@ Uruk IV MUŠEN+UR₃~b2
 
 clean up ATU5 ZATU697a image
 
-PC25 rules: no ZATU numbers above 818--all those are unpublished-mostly-Umma
-
 Biggs JCS 20
 
-@sign ABZU as AB×ZU and ZU.AB
+@sign ABZU as AB×ZU and ZU.AB; is PC AB×SU/SU.AB rather than ZU.AB, i.e., are SU/ZU not distinguished?
 
 delete F30BF because duplicate F2960
 
@@ -38,10 +40,27 @@ delete F30A6 because duplicate F30C6
 
 Note that deleting EASL0925 |NINDA₂×GUDU₄|~v2 disunifies the NINDA₂×GUDU₄ variants--is that OK?
 
-|PA~a.IB~a| |PA~a.IB~a|\1 => pa_ib.liga.cv01
+|PA~a.IB~a| |PA~a.IB~a|~1 => pa_ib.liga.cv01
+
+|PA~a.IB~a|\1 => paᵢb.liga.1
+
+%4 = stylistic set 4 %0 = end
 
 |PA~a.IB~a|¹
 
 |PA~a.IB~a¹|
 
 ŠE~a CDLI-gh image; resize DU CDLI-gh
+
+PC25 rules: no ZATU numbers above 818--all those are unpublished-mostly-Umma
+
+Sequences:
+
+	The label of a sequence sign may not describe all of its variants
+	if X×Y is also a valid description encode as character (UZ~a = MUŠEN×ŠE)
+	if a component is a NC glyph-variant, encode as sequence and define a @glyf
+	if a component is an unencoded character, encode sequence as character (UTUL~b)
+	if a member of a group is encoded as a character, encode the whole group as characters (UTUL~a etc.)
+
+implement ~1
+

@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF30F1 0xFFFFC
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF30F2 0xFFFFC
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -1846,6 +1846,7 @@
 @oid o0900189
 @sys	ADD F302C CUSAS31_167 BU+BU.png
 @list U+F302C
+@ucun 󳀬
 @uname ADD NAME |BU~a&BU~a|
 @form |BU~a%BU~a|
 @oid o0903650
@@ -6271,7 +6272,7 @@
 @sys	AP24 12832
 @sys	LLATU:214_11 GA₂~a1+? 
 @@
-@form |GA₂~a1×X|~v1
+@form |GA₂~a1×X₁|
 @oid o0900710
 @sys	ADD F304D CUSAS01 GA2a1xX.png
 @inote	CUSAS01
@@ -11951,7 +11952,7 @@
 @sign MAR@g
 @oid o0901372
 @inote @smap MAR@g~a
-@form MAR@g~a
+@form MAR~a@g
 @oid o0901373
 @sys	LLATU:255_03 MAR~a@g 
 @list U+129D9
@@ -21097,6 +21098,12 @@
 @sys	AP24 12C7C
 @sys	LLATU:310_05 UŠ~a 
 @@
+@form UŠ~a~v1
+@oid o090
+@list U+F30F2
+@ucun 󳃲
+@uname ADD F30F2
+@@
 @form UŠ~b
 @oid o0902385
 @list U+12C7E
@@ -25756,6 +25763,7 @@
 @end sign
 
 @compoundonly	ZU
+
 @sign ZUBI
 @oid o0902837
 @sys CDLI-gh img-page
