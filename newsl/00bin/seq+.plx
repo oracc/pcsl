@@ -74,5 +74,10 @@ sub print_ucun {
 	}
     }
     print "\t";
-    print join("‍",@u);
+    my $ivs = '';
+    $ivs = pop(@u)
+	if $u[$#u] =~/^[󠄀-󠇯]$/;
+    my $str = join("‍",@u);
+    $str .= $ivs if $ivs;
+    print $str;
 }

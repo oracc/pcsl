@@ -154,9 +154,13 @@ sub chars {
 	    }
 	    print '</ff>';
 	} else {
-	    my @cc = grep(length,split(/(.)/,$c));
-	    foreach my $cc (@cc) {
-		pchar($cc);
+	    if ($pcslflag) {
+		pchar($c);
+	    } else {
+		my @cc = grep(length,split(/(.)/,$c));
+		foreach my $cc (@cc) {
+		    pchar($cc);
+		}
 	    }
 	}
     }
@@ -251,14 +255,38 @@ sub load_unicode {
 }
 
 sub pchar {
-    my $cc = shift;
-    my $ch = sprintf("%X",ord($cc));
-    if ($u{$ch}) {
-	my $co = $u{$ch};
-	my $cn = xmlify($n{$co});
-	print "<f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
+    my($cc,$f) = @_;
+    $f = 'f' unless $f;
+    if ($cc =~ /=/) {
+	my($ccc,$seq) = split(/=/,$cc);
+	my $ch = sprintf("%X",ord($ccc));
+	if ($u{$ch}) {
+	    my $co = $u{$ch};
+	    my $cn = xmlify($n{$co});
+	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\">";
+	    my @seq = grep(length,split(/(.)/,$seq));
+	    foreach my $q (@seq) {
+		pchar($q,'q');
+	    }
+	    print '</f>';
+	} else {
+	    warn "$.: (1): hex $ch not in 00etc/unicode.tsv\n";
+	}
     } else {
-	warn "hex $ch not in 00etc/unicode.tsv\n";
+	my $ch = sprintf("%X",ord($cc));
+	if ($u{$ch}) {
+	    my $co = $u{$ch};
+	    my $cn = xmlify($n{$co});
+	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
+	} elsif ($ch eq '4F') {
+	    print "<$f sn=\"O\" c=\"O\"/>";
+	} elsif ($ch eq '200D') {
+	    print "<$f sn=\"ZWJ\" c=\"$cc\" u=\"$ch\"/>";
+	} elsif ($ch =~ /^E01/) {
+	    print "<$f sn=\"IVS\" c=\"$cc\" u=\"$ch\"/>";
+	} else {
+	    warn "$.: (2) hex $ch not in 00etc/unicode.tsv\n";
+	}
     }
 }
 

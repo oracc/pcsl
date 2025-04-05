@@ -73,6 +73,10 @@ td a { text-decoration: none; }
 .none { background-color: #fee7e7; }
 .gvar { background-color: #dcebff; }
 
+.fseq:not(:last-child) { border-bottom: solid 1px gray; }
+
+.ivs { font-family: sans-serif; font-size: 60%; }
+
 .chars div+div { padding-top: .25em; }
 
 .preamble { width: 80%; margin: auto; }
@@ -85,4 +89,5 @@ td.lrow { padding-left: 5px; text-align: left; vertical-align: top; }
 .diffc { color: red; }
 .diffd { font-size: 90%; }
 .ucode { font-size: 80%; }
+.ucode2 { font-size: 70%; }
 

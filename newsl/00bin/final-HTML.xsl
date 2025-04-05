@@ -154,7 +154,66 @@
 		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 		    </div>
 		    <div class="fhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
-		  </xsl:for-each>
+		    <xsl:if test="q">
+		      <div class="fseq">
+			<div class="fseqc">
+			  <span class="ofs-pc ofs-150">
+			    <xsl:for-each select="q">
+			      <xsl:choose>
+				<xsl:when test="@o">
+				  <xsl:value-of select="@c"/>
+				</xsl:when>
+				<xsl:when test="@sn='ZWJ'">
+				  <xsl:text>|</xsl:text>
+				</xsl:when>
+				<xsl:when test="starts-with(@u,'E01')">
+				  <span class="ivs">
+				    <xsl:text>~</xsl:text>
+				    <xsl:variable name="enum" select="substring-after(@u, 'E01')"/>
+				    <xsl:choose>
+				      <xsl:when test="starts-with($enum,'0')">
+					<xsl:value-of select="substring-after($enum,'0')"/>
+				      </xsl:when>
+				      <xsl:otherwise>
+					<xsl:value-of select="$enum"/>
+				      </xsl:otherwise>
+				    </xsl:choose>
+				  </span>
+				</xsl:when>
+				<xsl:otherwise>
+				  <xsl:text>o</xsl:text>
+				</xsl:otherwise>
+			      </xsl:choose>
+			      <!--<xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>-->
+			    </xsl:for-each>
+			  </span>
+			</div>
+			<div class="fseqh">
+			  <span class="ucode2">
+			    <xsl:text>[</xsl:text>
+			    <xsl:for-each select="q">
+			      <xsl:choose>
+				<xsl:when test="@o">
+				  <xsl:value-of select="@u"/>
+				</xsl:when>
+				<xsl:when test="@sn='ZWJ'">
+				  <xsl:text>|</xsl:text>
+				</xsl:when>
+				<xsl:when test="starts-with(@u,'E01')">
+				  <xsl:value-of select="@u"/>
+				</xsl:when>
+				<xsl:otherwise>
+				  <xsl:text>o</xsl:text>
+				</xsl:otherwise>
+			      </xsl:choose>
+			      <xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>
+			    </xsl:for-each>
+			    <xsl:text>]</xsl:text>
+			  </span>
+			</div>
+		      </div>
+		    </xsl:if>
+		  </xsl:for-each>		  
 		</xsl:when>
 		<xsl:otherwise>
 		  <div>

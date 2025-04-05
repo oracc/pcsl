@@ -201,6 +201,7 @@ sub pcsl_add_glyf {
 	    }
 	}
 	$c =~ s/;,/;/; # easiest way to deal with ; coming from easl-final.tsv
+	$c =~ s/,;/;/; # easiest way to deal with ; coming from easl-final.tsv
 	print L "new char = $c\n"
 	    unless ${$pcsl{$oid}}{'char'} eq $c;
 	${$pcsl{$oid}}{'char'} = $c;
@@ -244,6 +245,7 @@ sub pcsl_seq {
 	    my $nc = join(',', @c);
 	    $nc =~ s/,;/;/g;
 	    $nc =~ s/;,/;/g;
+	    $nc =~ s/[,;]+$//;
 	    ${$pcsl{$o}}{'char'} = $nc;
 	}	
     }    
@@ -287,14 +289,17 @@ sub seqify {
 	    push @c, $s;
 	} else {
 	    my @x = grep(length,split(/(.)/,$s));
+	    my $xx = '';
 	    foreach my $x (@x) {
-		if ($seq{"$o$x"}) {
+		if (($xx = $seq{"$o$x"})) {
 		    print L "seq found $o$x\n";
-		} elsif ($seq{$o}) {
+		    push @c, "$x=$xx";
+		} elsif (($xx = $seq{$o})) {
 		    if ($did_one) {
 			warn "seq$t $o: found default more than once; add $x= entry to seq data\n";
 		    } else {
 			print L "seq$t found $o as default for $x\n";
+			push @c, "$x=$xx";
 			++$did_one;
 		    }
 		} else {
@@ -303,4 +308,5 @@ sub seqify {
 	    }
 	}
     }
+    @c;
 }

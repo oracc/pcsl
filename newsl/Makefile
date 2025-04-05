@@ -31,10 +31,10 @@ pc25: 00web/pc25.html
 00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/seq-beside+.tsv 00etc/seq-opaque+.tsv
 	00bin/pcsl-final.plx
 
-00etc/seq-beside+.tsv: 00etc/seq-beside.tsv
+00etc/seq-beside+.tsv: 00etc/seq-beside.tsv 00bin/seq+.plx
 	00bin/seq+.plx <$< >$@
 
-00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv
+00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv 00bin/seq+.plx
 	00bin/seq+.plx <$< >$@
 
 00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
@@ -61,7 +61,7 @@ csldist-all: 00etc/csldist-all.tsv
 
 xml: 00etc/${SL}-final.xml
 
-00etc/%-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
+00etc/%-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl 00bin/final-HTML.xsl
 	00bin/final-xml.plx ${SL}
 
 00etc/cusas-final.xml: 00etc/cusas-final.tsv 00etc/csldist-all.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
