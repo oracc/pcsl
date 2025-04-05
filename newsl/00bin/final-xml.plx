@@ -21,10 +21,12 @@ my $f = "00etc/$n-final.tsv";
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
-my $outfile = $asl ? "00etc/$n-final.asl" : "00etc/$n-final.xml";
+my $outfile = $asl ? "00lib/$n.asl" : "00etc/$n-final.xml";
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 my $pcslflag = ($n =~ /^pcsl/);
+
+my $X = 1;
 
 die "$0: asl output only supported with pcsl. Stop.\n"
     if $asl && !$pcslflag;
@@ -33,10 +35,16 @@ my %n = (); load_oid();
 my %u = (); load_unicode();
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
+my %oidmap = (); load_oidmap() if $pcslflag;
 my %pc25 = (); load_pc25() if $easlflag;
+my %unames = (); load_unames() if $pcslflag;
 
 open(X,">$outfile"); select X;
-print "<sl n=\"$n\">" unless $asl;
+if ($asl) {
+    print "\@signlist pcsl\n\@project pcsl/newsl\n\@domain pc\n\n";
+} else {
+    print "<sl n=\"$n\">" unless $asl;
+}
 open(N,$f);
 while (<N>) {
     chomp;
@@ -119,21 +127,36 @@ sub asl_chars {
 
 sub asl_sign {
     my($s,$o,$r,$c) = @_;
-    print "\@sign $s\n\@oid $o\n";
+    my $om = $oidmap{$o} || $o;
+    print "\@sign $s\n\@oid $om\n";
     asl_chars($r, $c);
     print "\@end sign\n\n";
 }
 
 sub asl_pchar {
     my $c = shift;
-    printf "\@list U+%X\n", ord($c);
-    if (length $c > 1) {
-	print "\@useq $c\n";
+    if ($c) {
+	my $ch = sprintf("%X", ord($c));
+	printf "\@list U+$ch\n";
+	if (length $c > 1) {
+	    print "\@useq $c\n";
+	}
+	print "\@ucun $c\n";
+
+	my $co = $u{$ch};
+	my $cn = $n{$co};
+	$cn = pc25_name($cn);
+	if ($unames{$cn}) {
+	    print "\@uname $unames{$cn}\n";
+	} else {
+	    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
+	    ++$X;
+	}
     }
-    print "\@ucun $c\n";
 }
 
 sub asl_pglyf {
+    return;
     my $c = shift;
     if (length $c > 1) {
 	print "\@form $c\n";
@@ -226,6 +249,13 @@ sub load_oid {
     }
 }
 
+sub load_oidmap {
+    my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
+    foreach (@o) {
+	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m;
+    }
+}
+
 sub load_pc25 {
     my @p = `cut -f5 ../pc25/pc25-repertoire.tsv`; chomp @p;
     @pc25{@p} = ();
@@ -245,6 +275,14 @@ sub load_sl {
     # print Dumper \%sl; exit 1;
 }
 
+sub load_unames {
+    my @un = `cut -f3 00etc/pcsl-final.tsv | gdlx -p pcsl -U`; chomp @un;
+    foreach (@un) {
+	my($n,$un) = split(/\t/,$_);
+	$unames{$n} = $un;
+    }
+}
+
 sub load_unicode {
     my @u = `cat 00etc/unicode.tsv`; chomp @u;
     foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; }
@@ -252,6 +290,15 @@ sub load_unicode {
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
     @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+}
+
+sub pc25_name {
+    my $pc25 = shift;
+    $pc25 =~ s/~v[0-9]+//g;
+    $pc25 =~ s/([^AEIU])(ŠU₂~[ab])/$1ŠU₂/g unless $pc25 =~ /GIŠ×ŠU₂/;
+    $pc25 =~ s/SAG\@n×GEŠTU/SAG×GEŠTU/;
+    $pc25 =~ s/\|~.*/|/;
+    $pc25;
 }
 
 sub pchar {

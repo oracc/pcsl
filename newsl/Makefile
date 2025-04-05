@@ -12,15 +12,24 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www
 PRJ=${WWW}/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl seq pcsl overview css js font
+default:  msvo1 msvo4 atu3 atu5 cusas easl pcsl overview css js font
 
-#pc25
+#seq 
+#pc25 
 
 pc25: 00web/pc25.html
 	@true
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make csldist xml html images
+
+pcsl: Makefile 00etc/pcsl-final.tsv
+	SL=$@ make csldist xml html images asl
+
+asl: 00lib/pcsl.asl
+
+00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx
+	00bin/final-xml.plx -a pcsl
 
 00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
 	00bin/cusas-tsv.plx >$@

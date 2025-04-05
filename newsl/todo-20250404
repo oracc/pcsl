@@ -1,0 +1,53 @@
+*Make sure repo PC24 font is current
+
+*Add variants needed for sequences into font (11)
+
+*Integrate sequences into pcsl-final.tsv (2-3)
+
+*Generate pcsl-final.asl (7-7:30)
+
+Validate corpus against pcsl-final.asl (7:30-9)
+
+Generate new stats and integrate into pcsl-final (9-9:30)
+
+Review numbers to be included in PC25 and systematize them to support PC25 generation (9:30-10)
+
+Derive PC25 from pcsl-final; create as pc25/pc25-tab.html using PC24 for today (10-11)
+
+--
+
+Tag Uruk IV/III examples from OBO 160 and make IV/III table
+
+Review reference glyphs
+
+Finalize @glyf doco and implementation
+
+Reactivate PC25 website
+	write up sequences rationales
+	clarify and separate
+		(a) encoding principles (pepc)
+		(b) corpus-subsetting principles (pc25)
+		(c) future supplement (pc00)
+
+Create PC25 font
+
+Add PC25 column to pc25-tab
+
+--
+
+Write IVS documents
+
+Final review of PEPC and PC25
+
+ZATU supplemental glyphs
+
+TeX / PDFs of PEPC/PC25
+
+Data table for PC25
+
+--
+
+MONDAY
+
+***FAR***
+
