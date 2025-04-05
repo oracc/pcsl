@@ -111,6 +111,7 @@ close(N);
 if ($asl) {
 #    print `cat 00etc/add.asl`;
 #    print `cat 00etc/num.asl`;
+    print `cat 00etc/n57-keep.asl`;
     print `cat 00etc/compoundonly.asl`;
 } else {
     print '</sl>';

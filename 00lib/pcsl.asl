@@ -6345,6 +6345,7 @@
 @end sign
 
 @sign |1(N57).E₂~a|
+@aka |1(N57).E₂|
 @oid o0903214
 @list U+F3027
 @ucun 󳀧
@@ -6384,6 +6385,7 @@
 @end sign
 
 @sign |2(N57).BIR₃~a|
+@aka |2(N57).BIR₃|
 @oid o0903225
 @list U+F3029
 @ucun 󳀩
@@ -6391,6 +6393,7 @@
 @end sign
 
 @sign |2(N57).KU₆~a|
+@aka |2(N57).KU₆|
 @oid o0903227
 @inote @useq 󰄑‍𒥥
 @list U+12DF9
@@ -6399,6 +6402,7 @@
 @end sign
 
 @sign |2(N57).SU~a|
+@aka |2(N57).SU|
 @oid o0903230
 @inote @useq 󰄑‍𒬛
 @list U+12DFA
@@ -6415,6 +6419,7 @@
 @end sign
 
 @sign |2(N57).UDUNITA~a|
+@aka |2(N57).UDUNITA|
 @oid o0903233
 @list U+F305C
 @ucun 󳁜
@@ -6430,6 +6435,7 @@
 @end sign
 
 @sign |3(N57).BAR×UŠ~a|
+@aka |3(N57).BAR×UŠ|
 @oid o0903238
 @list U+F305D
 @ucun 󳁝
@@ -6445,6 +6451,7 @@
 @end sign
 
 @sign |3(N57).E₂~b|
+@aka |3(N57).E₂|
 @oid o0903241
 @inote @useq 󰄒‍𒟎
 @list U+12DFE
@@ -6461,6 +6468,7 @@
 @end sign
 
 @sign |3(N57).NUNUZ~a1|
+@aka |3(N57).NUNUZ|
 @oid o0903245
 @inote @useq 󰄒‍𒪂
 @list U+12E00
@@ -6477,6 +6485,7 @@
 @end sign
 
 @sign |3(N57).PIRIG~b1|
+@aka |3(N57).PIRIG|
 @oid o0903248
 @inote @useq 󰄒‍𒪘
 @list U+12E02
@@ -6493,6 +6502,7 @@
 @end sign
 
 @sign |3(N57).UDU~a|
+@aka |3(N57).UDU|
 @oid o0903254
 @list U+F305E
 @ucun 󳁞
@@ -6500,6 +6510,7 @@
 @end sign
 
 @sign |3(N57).UDUNITA~a|
+@aka |3(N57).UDUNITA|
 @oid o0903256
 @list U+F305F
 @ucun 󳁟
@@ -6523,6 +6534,7 @@
 @end sign
 
 @sign |4(N57).KU₃~a|
+@aka |4(N57).KU₃|
 @oid o0903261
 @inote @useq 󰄓‍𒥣
 @list U+12E06
@@ -6531,6 +6543,7 @@
 @end sign
 
 @sign |4(N57).NI~b|
+@aka |4(N57).NI|
 @oid o0903263
 @inote @useq 󰄓‍𒨾
 @list U+12E07
@@ -6547,6 +6560,7 @@
 @end sign
 
 @sign |5(N57).KU₃~a|
+@aka |5(N57).KU₃|
 @oid o0903267
 @inote @useq 󰄔‍𒥣
 @list U+12E09
@@ -6563,6 +6577,7 @@
 @end sign
 
 @sign |6(N57).KU₃~a|
+@aka |6(N57).KU₃|
 @oid o0903272
 @inote @useq 󰄕‍𒥣
 @list U+12E0B
@@ -6571,6 +6586,7 @@
 @end sign
 
 @sign |8(N57).NI~b|
+@aka |8(N57).NI|
 @oid o0903277
 @inote @useq 󰄗‍𒨾
 @list U+12E0C
@@ -13717,6 +13733,7 @@
 @end sign
 
 @sign 1(N07A)
+@aka 1(N07~a)
 @oid o0903352
 @list U+12646
 @ucun 𒙆
@@ -13724,6 +13741,7 @@
 @end sign
 
 @sign 2(N07A)
+@aka 2(N07~a)
 @oid o0903353
 @list U+12647
 @ucun 𒙇
@@ -13731,6 +13749,7 @@
 @end sign
 
 @sign 3(N07A)
+@aka 3(N07~a)
 @oid o0903354
 @list U+12648
 @ucun 𒙈
@@ -13738,6 +13757,7 @@
 @end sign
 
 @sign 1(N07B)
+@aka 1(N07~b)
 @oid o0903355
 @list U+12649
 @ucun 𒙉
@@ -13745,6 +13765,7 @@
 @end sign
 
 @sign 2(N07B)
+@aka 2(N07~b)
 @oid o0903356
 @list U+1264A
 @ucun 𒙊
@@ -13752,6 +13773,7 @@
 @end sign
 
 @sign 3(N07B)
+@aka 3(N07~b)
 @oid o0903357
 @list U+1264B
 @ucun 𒙋
@@ -14473,6 +14495,8 @@
 @end sign
 
 @sign 1(N24)
+@aka 1(N24′)
+@aka 1(N24″)
 @oid o0903016
 @list U+125AA
 @ucun 𒖪
@@ -14508,6 +14532,7 @@
 @end sign
 
 @sign 1(N24A)
+@aka 1(N24~a)
 @oid o0903334
 @list U+125EA
 @ucun 𒗪
@@ -14515,6 +14540,7 @@
 @end sign
 
 @sign 1(N24B)
+@aka 1(N24~b)
 @oid o0903336
 @list U+125FE
 @ucun 𒗾
@@ -14536,6 +14562,7 @@
 @end sign
 
 @sign 1(N26B)
+@aka 1(N26~b)
 @oid o0903337
 @list U+125FF
 @ucun 𒗿
@@ -14557,6 +14584,7 @@
 @end sign
 
 @sign 1(N28B)
+@aka 1(N28~b)
 @oid o0903338
 @list U+12600
 @ucun 𒘀
@@ -14564,6 +14592,7 @@
 @end sign
 
 @sign 1(N28C)
+@aka 1(N28~c)
 @oid o0903340
 @list U+12625
 @ucun 𒘥
@@ -14571,6 +14600,7 @@
 @end sign
 
 @sign 1(N29A)
+@aka 1(N29~a)
 @oid o0903039
 @list U+125AD
 @ucun 𒖭
@@ -14578,6 +14608,7 @@
 @end sign
 
 @sign 2(N29A)
+@aka 2(N29~a)
 @oid o0903037
 @list U+F0107
 @ucun 󰄇
@@ -14585,6 +14616,7 @@
 @end sign
 
 @sign 1(N29AB)
+@aka 1(N29A~b)
 @oid o0903040
 @list U+12601
 @ucun 𒘁
@@ -14592,6 +14624,7 @@
 @end sign
 
 @sign 2(N29AB)
+@aka 2(N29A~b)
 @oid o0903043
 @list U+F010A
 @ucun 󰄊
@@ -14599,6 +14632,7 @@
 @end sign
 
 @sign 1(N29AC)
+@aka 1(N29A~c)
 @oid o0903041
 @list U+12626
 @ucun 𒘦
@@ -14606,6 +14640,7 @@
 @end sign
 
 @sign 1(N29B)
+@aka 1(N29~b)
 @oid o0903308
 @list U+125AE
 @ucun 𒖮
@@ -14613,6 +14648,7 @@
 @end sign
 
 @sign 2(N29B)
+@aka 2(N29~b)
 @oid o0903038
 @list U+F0108
 @ucun 󰄈
@@ -14620,6 +14656,7 @@
 @end sign
 
 @sign 1(N29C)
+@aka 1(N29~c)
 @oid o0903035
 @list U+F0109
 @ucun 󰄉
@@ -14627,6 +14664,8 @@
 @end sign
 
 @sign 1(N30A)
+@aka 1(N30~a)
+@aka 1(N30~a)~v1
 @oid o0903051
 @list U+125AF
 @ucun 𒖯
@@ -14634,6 +14673,7 @@
 @end sign
 
 @sign 1(N30AC)
+@aka 1(N30A~c)
 @oid o0903342
 @list U+12627
 @ucun 𒘧
@@ -14641,6 +14681,7 @@
 @end sign
 
 @sign 1(N30B)
+@aka 1(N30~b)
 @oid o0903047
 @list U+F010B
 @ucun 󰄋
@@ -14648,6 +14689,7 @@
 @end sign
 
 @sign 1(N30C)
+@aka 1(N30~c)
 @oid o0903053
 @list U+125B0
 @ucun 𒖰
@@ -14662,6 +14704,7 @@
 @end sign
 
 @sign 1(N30CC)
+@aka 1(N30C~c)
 @oid o0903343
 @list U+12628
 @ucun 𒘨
@@ -14669,6 +14712,7 @@
 @end sign
 
 @sign 1(N30D)
+@aka 1(N30~d)
 @oid o0903309
 @list U+125B1
 @ucun 𒖱
@@ -14676,6 +14720,7 @@
 @end sign
 
 @sign 1(N30E)
+@aka 1(N30~e)
 @oid o0903310
 @list U+125B2
 @ucun 𒖲
@@ -14963,6 +15008,7 @@
 @end sign
 
 @sign 1(N39A)
+@aka 1(N39~a)
 @oid o0903311
 @list U+125B6
 @ucun 𒖶
@@ -14970,6 +15016,7 @@
 @end sign
 
 @sign 2(N39A)
+@aka 2(N39~a)
 @oid o0903312
 @list U+125B7
 @ucun 𒖷
@@ -14977,6 +15024,7 @@
 @end sign
 
 @sign 3(N39A)
+@aka 3(N39~a)
 @oid o0903313
 @list U+125B8
 @ucun 𒖸
@@ -14984,6 +15032,7 @@
 @end sign
 
 @sign 4(N39A)
+@aka 4(N39~a)
 @oid o0903314
 @list U+125B9
 @ucun 𒖹
@@ -14991,6 +15040,7 @@
 @end sign
 
 @sign 1(N39B)
+@aka 1(N39~b)
 @oid o0903315
 @list U+125BA
 @ucun 𒖺
@@ -14998,6 +15048,7 @@
 @end sign
 
 @sign 2(N39B)
+@aka 2(N39~b)
 @oid o0903316
 @list U+125BB
 @ucun 𒖻
@@ -15005,6 +15056,7 @@
 @end sign
 
 @sign 3(N39B)
+@aka 3(N39~b)
 @oid o0903317
 @list U+125BC
 @ucun 𒖼
@@ -15012,6 +15064,7 @@
 @end sign
 
 @sign 4(N39B)
+@aka 4(N39~b)
 @oid o0903318
 @list U+125BD
 @ucun 𒖽
@@ -15075,6 +15128,7 @@
 @end sign
 
 @sign 1(N42A)
+@aka 1(N42~a)
 @oid o0903344
 @list U+12629
 @ucun 𒘩
@@ -15082,6 +15136,7 @@
 @end sign
 
 @sign 2(N42A)
+@aka 2(N42~a)
 @oid o0903345
 @list U+1262A
 @ucun 𒘪
@@ -15089,6 +15144,7 @@
 @end sign
 
 @sign 3(N42A)
+@aka 3(N42~a)
 @oid o0903346
 @list U+1262B
 @ucun 𒘫
@@ -15096,6 +15152,7 @@
 @end sign
 
 @sign 4(N42A)
+@aka 4(N42~a)
 @oid o0903347
 @list U+1262C
 @ucun 𒘬
@@ -15110,6 +15167,7 @@
 @end sign
 
 @sign 2(N42B)
+@aka 2(N42~b)
 @oid o0903349
 @list U+1262E
 @ucun 𒘮
@@ -15278,6 +15336,7 @@
 @end sign
 
 @sign 1(N45A)
+@aka 1(N45~a)
 @oid o0903335
 @list U+125FD
 @ucun 𒗽
@@ -15926,6 +15985,35 @@
 @list U+F012B
 @ucun 󰄫
 @uname PROTO-CUNEIFORM NUMBER ONE-N63
+@end sign
+
+@sign |3(N57).AZ|
+@oid o0903236
+@end sign
+
+@sign |1(N57).BU₃|
+@oid o0903212
+@end sign
+
+@sign |3(N57).EN₂|
+@oid o0903242
+@end sign
+
+@sign |1(N57).MUŠEN|
+@oid o0903215
+@end sign
+
+@sign |2(N57).MUŠEN|
+@oid o0903228
+@end sign
+
+@sign |3(N57).SANGA~a|
+@aka |3(N57).SANGA|
+@oid o0903250
+@end sign
+
+@sign |3(N57).SI|
+@oid o0903251
 @end sign
 
 @compoundonly 1(N57@t)
