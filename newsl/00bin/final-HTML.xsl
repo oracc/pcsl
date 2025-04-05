@@ -15,7 +15,7 @@
     <xsl:variable name="vol">
       <xsl:choose>
 	<xsl:when test="sl/@n='easl' or sl/@n='pcsl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
-	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'aclmopstuv','ACLMOPSTUV')"/></xsl:otherwise>
+	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'aclmnopstuv','ACLMNOPSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <html>

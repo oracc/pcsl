@@ -24,6 +24,7 @@ die "$0: must give X-final.tsv base. Stop.\n"
 my $outfile = $asl ? "../00lib/pcsl.asl" : "00etc/$n-final.xml";
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
+my $numflag = ($n =~ /^num/);
 my $pcslflag = ($n =~ /^pcsl/);
 
 my $X = 1;
@@ -51,7 +52,7 @@ open(N,$f);
 while (<N>) {
     chomp;
     my($n,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$r,$src) = ();
-    if ($cusasflag || $easlflag) {
+    if ($cusasflag || $easlflag || $numflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } elsif ($pcslflag) {
 	($o,$t,$p,$pc24,$cdli,$r,$c,$src,$fn) = split(/\t/,$_);
@@ -108,8 +109,8 @@ while (<N>) {
 }
 close(N);
 if ($asl) {
-    print `cat 00etc/add.asl`;
-    print `cat 00etc/num.asl`;
+#    print `cat 00etc/add.asl`;
+#    print `cat 00etc/num.asl`;
     print `cat 00etc/compoundonly.asl`;
 } else {
     print '</sl>';
@@ -329,6 +330,8 @@ sub load_unicode {
     my @a = `cat 00etc/ap24-codes.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
     @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
+    foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+    @a = `cut -f1,3 ../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
 }
 

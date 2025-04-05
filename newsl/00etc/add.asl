@@ -1,3 +1,16 @@
+@sign DU₆~a@n
+@oid o0903567
+@list U+F3089
+@uname DU6-A NUTILLU
+@end sign
+
+@sign X₂
+@aka |2(N57).DU₆~a@n|
+@oid o0903564
+@inote this may be an integral sign rather than as described
+@useq xF0111.xF3089
+@end sign
+
 @sign AB₂@g
 @oid o0900046
 @sys	ADD F302A P342526 AB2@g.png
@@ -36,6 +49,7 @@
 
 @sign ZATU659@t
 @oid o0902510
+@list U+F30FD
 @end sign
 
 @sign ZATU856
@@ -120,7 +134,7 @@
 @oid o0902319
 @sys	ADD F307E P252177 UR3d2.png
 @inote	CHECK
-@list U+F307E
+s@list U+F307E
 @uname ADD NAME UR₃~d2
 @end sign
 
@@ -142,6 +156,7 @@
 
 @sign |GA₂~a2×3(N57)|
 @oid o0900671
+@list U+F30FE
 @inote	CHECK
 @end sign
 
@@ -189,6 +204,7 @@
 @sign |NUN~b.U₄|
 @oid o0901601
 @inote	CHECK
+@useq x12A7A.12BE1
 @end sign
 
 @sign |ŠU₂.PAP~a|
@@ -287,6 +303,7 @@
 @oid o0902218
 @aka |U₄.(1(N14).1(N08))|
 @aka |(U₄+1(N14)).1(N08)|
+@useq x12BE1.x12562.x12559
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
@@ -304,7 +321,3 @@
 @useq xF3094.x12562.x1255C
 @inote useq-old-uni	F3009 - ADD NAME |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @end sign
-
-@compoundonly |HI×1(N04)|
-@compoundonly SUKUD~d
-@compoundonly ZATU737@t

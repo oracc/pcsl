@@ -12,7 +12,7 @@ SLfont=PC-all.ttf
 WWW=/home/oracc/www
 PRJ=${WWW}/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl pcsl overview css js font
+default:  msvo1 msvo4 atu3 atu5 cusas easl num pcsl overview css js font
 
 #seq 
 #pc25 
@@ -34,10 +34,19 @@ asl: 00lib/pcsl.asl
 00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
 	00bin/cusas-tsv.plx >$@
 
-00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
-	00bin/sl-number.plx -1 -n EASL0001 <$< >$@
+00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/corpus-base.tsv
+	cat $^ | 00bin/sl-sort.plx -c 2 - | 00bin/sl-number.plx -1 -n EASL0001 >$@
 
-00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/seq-beside+.tsv 00etc/seq-opaque+.tsv
+00etc/num-final.tsv: 00etc/num-base.tsv
+	00bin/sl-number.plx -1 -n EANM001 <$< >$@
+
+00etc/num-base.tsv: ../00etc/acn-repertoire.tsv ../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../00etc/pc-pua.tab 00bin/num-base.plx
+	00bin/num-base.plx | 00bin/sl-sort.plx -c 2 - >$@
+
+00etc/corpus-base.tsv: 00etc/add.asl 00bin/asl-base.plx
+	00bin/asl-base.plx <$< >$@
+
+00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/seq-beside+.tsv 00etc/seq-opaque+.tsv 00etc/num-final.tsv
 	00bin/pcsl-final.plx
 
 00etc/seq-beside+.tsv: 00etc/seq-beside.tsv 00bin/seq+.plx
@@ -76,7 +85,7 @@ xml: 00etc/${SL}-final.xml
 00etc/cusas-final.xml: 00etc/cusas-final.tsv 00etc/csldist-all.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
 	00bin/final-xml.plx ${SL}
 
-00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv 00etc/csldist.tsv
+00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv 00etc/csldist.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 	00bin/final-xml.plx ${SL}
 
 html: 00web/${SL}-tab.html

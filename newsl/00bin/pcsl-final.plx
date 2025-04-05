@@ -29,6 +29,9 @@ load_easl();
 # load CUSAS into PCSL
 load_cusas();
 
+# load numbers into PCSL
+load_num();
+
 # load glyphs from ATU3/ATU5/MSVO1/MSVO4 into PCSL
 load_sl('atu3');
 load_sl('atu5');
@@ -114,6 +117,22 @@ sub load_oid {
 	my($o,$n) = split(/\t/,$_);
 	$o{$n} = $o;
 	$o{$o} = $n;
+    }
+}
+
+sub load_num {
+    print L "loading numbers ...\n";
+    my @c = `cat 00etc/num-final.tsv`; chomp @c;
+    foreach (@c) {
+	my %b = ();
+	@b{@efields} = split(/\t/,$_);
+	if ($pcsl{$b{'oid'}}) {
+	    pcsl_add_glyf($b{'oid'}, $b{'char'});
+	    $b{'src'} .= " $b{'sn'}";
+	} else {
+	    $b{'src'} = $b{'sn'};
+	    $pcsl{$b{'oid'}} = { %b };
+	}
     }
 }
 
@@ -274,6 +293,7 @@ sub pcsl_tsv {
 	    }
 	}
 	$p{'row'} = '' unless $p{'src'} =~ /EASL/;
+	$p{'row'} = '' unless $p{'row'};
 	print T join("\t", @p{@pfields}), "\n";
     }
     close(T);

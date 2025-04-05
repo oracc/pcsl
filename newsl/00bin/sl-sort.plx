@@ -9,17 +9,27 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $col = 1;
 GetOptions(
+    "col:i"=>\$col,
     );
 
 my $f = shift @ARGV;
-die unless -r $f;
+die unless -r $f || $f eq '-';
 
-my @f = `cat $f`; chomp @f;
+my @f = ();
+if ($f eq '-') {
+    @f = (<STDIN>);
+} else {
+    `cat $f`;
+}
+chomp @f;
+
 my %f = ();
 foreach (@f) {
-    /\t(\S+)\t/;
-    $f{$1} = $_;
+    my @f = split(/\t/,$_);
+    my $key = $f[$col];
+    $f{$key} = $_;
 }
 my $tmp = $$;
 open(S,">01tmp/$tmp.sort"); print S join("\n", keys %f), "\n"; close(S);
