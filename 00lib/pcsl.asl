@@ -10352,6 +10352,7 @@
 @end sign
 
 @sign UDU~a
+@aka UDU
 @oid o0902243
 @list U+12C25
 @ucun 𒰥
