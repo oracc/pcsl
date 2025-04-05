@@ -21,7 +21,7 @@ my $f = "00etc/$n-final.tsv";
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
-my $outfile = $asl ? "00lib/$n.asl" : "00etc/$n-final.xml";
+my $outfile = $asl ? "../00lib/pcsl.asl" : "00etc/$n-final.xml";
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 my $pcslflag = ($n =~ /^pcsl/);
@@ -33,6 +33,8 @@ die "$0: asl output only supported with pcsl. Stop.\n"
 
 my %n = (); load_oid();
 my %u = (); load_unicode();
+
+my %aka = (); load_aka() if $pcslflag;
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
@@ -41,7 +43,7 @@ my %unames = (); load_unames() if $pcslflag;
 
 open(X,">$outfile"); select X;
 if ($asl) {
-    print "\@signlist pcsl\n\@project pcsl/newsl\n\@domain pc\n\n";
+    print `cat 00etc/header.asl`;
 } else {
     print "<sl n=\"$n\">" unless $asl;
 }
@@ -105,7 +107,13 @@ while (<N>) {
     }
 }
 close(N);
-print '</sl>' unless $asl;
+if ($asl) {
+    print `cat 00etc/add.asl`;
+    print `cat 00etc/num.asl`;
+    print `cat 00etc/compoundonly.asl`;
+} else {
+    print '</sl>';
+}
 close(X);
 
 1;
@@ -128,7 +136,17 @@ sub asl_chars {
 sub asl_sign {
     my($s,$o,$r,$c) = @_;
     my $om = $oidmap{$o} || $o;
-    print "\@sign $s\n\@oid $om\n";
+    print "\@sign $s\n";
+    if ($aka{$o}) {
+	foreach my $a (@{$aka{$o}}) {
+	    print "\@aka $a\n";
+	}
+    } elsif ($aka{$om}) {
+	foreach my $a (@{$aka{$om}}) {
+	    print "\@aka $a\n";
+	}
+    }
+    print "\@oid $om\n";
     asl_chars($r, $c);
     print "\@end sign\n\n";
 }
@@ -136,21 +154,36 @@ sub asl_sign {
 sub asl_pchar {
     my $c = shift;
     if ($c) {
-	my $ch = sprintf("%X", ord($c));
-	printf "\@list U+$ch\n";
-	if (length $c > 1) {
-	    print "\@useq $c\n";
-	}
-	print "\@ucun $c\n";
+	my $uc = '';
+	my $us = '';
 
-	my $co = $u{$ch};
-	my $cn = $n{$co};
-	$cn = pc25_name($cn);
-	if ($unames{$cn}) {
-	    print "\@uname $unames{$cn}\n";
+	if ($c =~ /^(.)=(.*?)$/) {
+	    ($uc,$us) = ($1,$2);
+	} elsif ($c =~ /_/) {
+	    ($uc,$us) = ('',$c);
 	} else {
-	    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
-	    ++$X;
+	    $uc = $c;
+	}
+
+	if ($us || length $c > 1) {
+	    $us = $c unless $us;
+	    print "\@inote \@useq $us\n";
+	}
+
+	if ($uc) {
+	    my $ch = sprintf("%X", ord($uc));
+	    printf "\@list U+$ch\n";
+	    print "\@ucun $uc\n";
+
+	    my $co = $u{$ch};
+	    my $cn = $n{$co};
+	    $cn = pc25_name($cn);
+	    if ($unames{$cn}) {
+		print "\@uname $unames{$cn}\n";
+	    } else {
+		print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
+		++$X;
+	    }
 	}
     }
 }
@@ -206,6 +239,13 @@ sub check_ext {
 
 sub dist {
     return $dist{$_[0]} || '';
+}
+
+sub load_aka {
+    my @a = `cat 00etc/aka.tsv`; chomp @a;
+    foreach (@a) {
+	my($o,$a) = split(/\t/,$_); push @{$aka{$o}}, $a;
+    }
 }
 
 sub load_dist {

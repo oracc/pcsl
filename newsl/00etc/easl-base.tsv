@@ -230,7 +230,7 @@ o0900408		|DUG~b×NAGA~a|	I	|DUG~bxNAGA~a|	𒞎	/easl/images/o0900408.png
 o0900410		|DUG~b×NAM₂|	I	|DUG~bxNAM2|	𒞏	/easl/images/o0900410.png
 o0900412	n	|DUG~b×(NI~a@g.ZATU779)|	I	|DUG~bx(NI~a@g.ZATU779)|	𒞐	/easl/images/o0900412.png
 o0900414		|DUG~b×SA~a|	I	|DUG~bxSA~a|	𒞑	/easl/images/o0900414.png
-o0900416		|DUG~b×(SA~a.GI)|	DUG~b+SA~a+GI	DUG~b+SA~a+GI	𒞑	-
+o0900416		|DUG~b×(SA~a.GI)|	DUG~b+SA~a+GI	DUG~b+SA~a+GI	󳁔	-
 o0900418		|DUG~b×SI₄~a|	I	|DUG~bxSI4~a|	𒞒	/easl/images/o0900418.png
 o0900420	n	|DUG~b×(SI₄~a.X)|	I	|DUG~bx(SI4~a.X)|	𒞓	/easl/images/o0900420.png
 o0900422		|DUG~b×SIG₂~a1|	I	|DUG~bxSIG2~a1|	𒞔	/easl/images/o0900422.png
@@ -712,6 +712,7 @@ o0901255	#	|LAGAB~a×X|	I	|LAGAB~axX|	𒦔	/easl/images/o0901255.png
 o0901258		|LAGAB~a×ZATU753|	I	|LAGAB~axZATU753|	𒦕	/easl/images/o0901258.png
 o0901223		|LAGAB~a×2(N14)|	I	|LAGAB~ax2(N14)|	𒦖	/easl/images/o0901223.png
 o0901187		LAGAB~b	I	LAGAB~b	𒦗	/easl/images/o0901187.png
+o0901189	.	|LAGAB~b.TE|	I	|LAGAB~b.TE|	𒦗_𒮹	-
 o0901193		|LAGAB~b×BANŠUR~a|	I	|LAGAB~bxBANSZUR~a|	𒦘	/easl/images/o0901193.png
 o0901199		|LAGAB~b×GAʾAR~a1|	I	|LAGAB~bxGA'AR~a1|	𒦙	/easl/images/o0901199.png
 o0901201		|LAGAB~b×HI|	I	|LAGAB~bxHI|	𒦚	/easl/images/o0901201.png
@@ -1015,7 +1016,7 @@ o0901705		|SAL.HI×HI|	SAL+ZATU751b	SAL+ZATU751~b	𒪵_󳀏	-
 o0901699	.	|SAL.KUR~a|	I	|SAL.KUR~a|	𒪶	/easl/images/o0901699.png
 o0901701	.	|SAL.LAM~b|	I	|SAL.LAM~b|	𒪷	/easl/images/o0901701.png
 o0901703	n.	|SAL.ŠU₂~b|	I	|SAL.SZU2|	𒪸	/easl/images/o0901703.png
-o0901707		|SAL.ZATU751~a|	SAL+ZATU751a	SAL.ZATU751~a	𒪵𒵵	-
+o0901707		|SAL.ZATU751~a|	SAL+ZATU751a	SAL.ZATU751~a	𒪵_𒵵	-
 o0901704		|SAL×1(N58)|	I	|SALx1(N58)|	𒪹	/easl/images/o0901704.png
 o0901709		SANGA~a	I	SANGA~a	𒪺𒪻𒪼	/easl/images/o0901709.png
 o0901712		SANGA~b	I	SANGA~b	𒪽𒪾	/easl/images/o0901712.png

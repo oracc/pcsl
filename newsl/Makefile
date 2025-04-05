@@ -28,7 +28,7 @@ pcsl: Makefile 00etc/pcsl-final.tsv
 
 asl: 00lib/pcsl.asl
 
-00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx
+00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
 	00bin/final-xml.plx -a pcsl
 
 00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
