@@ -18,7 +18,9 @@ open(NO_BRK,'>00etc/no_broken.tsv');
 open(NO_CRP,'>00etc/no_corpus.tsv');
 open(NO_DEL,'>00etc/no_delete.tsv');
 open(NO_NUM,'>00etc/no_number.tsv');
+open(NO_NUMX,'>00etc/no_numberxacn.tsv');
 open(NO_SEQ,'>00etc/no_sequence.tsv');
+open(NO_SEQX,'>00etc/no_sequencexexc.tsv');
 open(O,'>00etc/pc25-final.tsv') || die; select O;
 open(I,'00etc/pcsl-final.tsv') || die;
 while (<I>) {
@@ -27,10 +29,11 @@ while (<I>) {
     @p{@pfields} = split(/\t/,$_);
     my $tag = $p{'tag'};
     if ($p{'flag'} eq 'N') {
-	if ($p{'tag'} eq 'PC25') {
+	if ($tag =~ /PC25/) {
 	    print "$_\n";
 	} else {
 	    print NO_NUM "$_\n";
+	    print NO_NUMX "$_\n" unless $tag =~ /ACN/;
 	}
     } else {
 	if ($tag =~ /©/) {
@@ -48,6 +51,7 @@ while (<I>) {
 		$ok = 0;
 	    }
 	    print "$_\n" if $ok;
+	    print NO_SEQX "$_\n" if $tag =~ /!/;
 	} else {
 	    print NO_CRP "$_\n";
 	}

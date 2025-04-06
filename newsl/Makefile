@@ -23,6 +23,9 @@ default:  msvo1 msvo4 atu3 atu5 cusas easl num pcsl pc25 overview css js font
 pcsl: Makefile 00etc/pcsl-final.tsv
 	SL=$@ make csldist xml html images asl
 
+pc25: Makefile 00etc/pc25-final.tsv
+	SL=$@ make csldist xml html images pc25no-html
+
 asl: 00lib/pcsl.asl
 
 00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl 00etc/pc25rep.lst
@@ -86,7 +89,7 @@ xml: 00etc/${SL}-final.xml
 00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv 00etc/csldist.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 	00bin/final-xml.plx ${SL}
 
-html: 00web/${SL}-tab.html pc25no-html
+html: 00web/${SL}-tab.html
 
 00etc/no_%.xml: 00etc/no_%.tsv
 	00bin/final-xml.plx $<
@@ -94,7 +97,7 @@ html: 00web/${SL}-tab.html pc25no-html
 00web/no_%.html: 00etc/no_%.xml
 	00bin/pc25no-html.sh $<
 
-pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html
+pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html
 	sudo cp $^ ${PCSL}/pc25
 	sudo chmod -R +r ${PCSL}/pc25
 
