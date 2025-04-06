@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Corpus</esp:name>
+  <esp:title>Corpus</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>The PC text Corpus is defined by the CDLI corpus of
+      Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
+      for use by PCSL: we call this <code>CDLI-tc</code>; note that
+      CDLI-tc is used here only in the PCSL version of the
+      corpus. This version has some minor modifications to the
+      transliteration and has been converted to use Unicode
+      transliteration conventions rather than the CDLI ASCII ones.</p>
+
+      <p>There are 5976 texts in the corpus of which 1752 are
+      attributed to Uruk IV and 4224, or roughly 75% of the corpus, to
+      the subsequent Uruk III period.</p>
+
+      <esp:sh>The Digital Corpus</esp:sh>
+      
+      <p>The digital corpus includes the contents of the following major publications:</p>
+      
+      <ul>
+	<li>Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)</li>
+	<li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
+	these supercede ATU1</li>
+	<li>Jemdet Nasr (Uruk III) tablets from MSVO1; these supercede
+	Langdon, PI</li>
+	<li>Tablets from various locations from MSVO4; this includes
+	non-Uruk tablets which were included in ATU1</li>
+	<li>Tablets in private collections from various locations in
+	CUSAS1, CUSAS21, and CUSAS31; these post-date the ATU and MSVO
+	volumes</li>
+	<li>Tablets from the "Erlenmeyer Collection"; these were to be
+	published in MSVO3 which has not yet appeared; many of them
+	have been edited by Englund and others in various
+	publications, however</li>
+	<!--<li>Tablets in private collections primarily from Umma; these
+	are in the CDLI set of transliterations but have not yet been
+	edited in print</li>-->
+      </ul>
+      
+      <esp:sh>PCSL Corpus</esp:sh>
+
+      <p>PCSL's version of CDLI-tc has the following composition
+      divided by provenience, period, and published/unpublished
+      status:</p>
+
+      <xi:include xml:base="." href="../tpcsl/corpus.html"/>
+
+      <esp:sh>PC25 Corpus</esp:sh>
+
+      <p>About 1/3 of the PCSL corpus is available only in
+      transliteration or photograph and has not yet been subjected to
+      the rigorous assessment of a scholarly edition. These texts are
+      removed to create a subcorpus of well-studied text to serve as
+      the basis for the initial (and largest) phase of encoding of
+      Proto-Cuneiform.</p>
+
+      <p>The subsetting is based on the CDLI catalogue entries as of
+      February 2025.  It is possible that features of the CDLI data
+      may mean that a few texts that should have been omitted are
+      included in the PC25 corpus and vice versa. The impact of this
+      on the final repertoire is neglible, however, because of the
+      cross-checking between corpus and published sign lists.</p>
+      
+      <p>PC25's subset of the PCSL corpus has the following
+      composition divided by provenience, period, and
+      published/unpublished status:</p>
+
+      <xi:include xml:base="." href="../tpc25/corpus.html"/>
+     
+    </body>
+  </html>
+</esp:page>
