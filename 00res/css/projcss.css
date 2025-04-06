@@ -46,6 +46,7 @@ h2 { font-size: 110%; font-weight: bold; }
 .sname,.stags { text-align: left; }
 .uname { text-align: left; color: gray; font-size: 90%; }
 .dist { text-align: left; color: gray; padding-top: .5em; }
+.sources { text-align: left; width: 80px; }
 
 .src { text-align; left; padding-left: 1em; }
 

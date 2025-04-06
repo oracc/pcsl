@@ -10,7 +10,8 @@
 O2=/home/stinney/o2
 SLfont=PC24.ttf
 WWW=/home/oracc/www
-PRJ=${WWW}/pcsl/${SL}
+PCSL=${WWW}/pcsl
+PRJ=${PCSL}/${SL}
 
 default:  msvo1 msvo4 atu3 atu5 cusas easl num pcsl pc25 overview css js font
 
@@ -24,8 +25,11 @@ pcsl: Makefile 00etc/pcsl-final.tsv
 
 asl: 00lib/pcsl.asl
 
-00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
+00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl 00etc/pc25rep.lst
 	00bin/final-xml.plx -a pcsl
+
+00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
+	00bin/pc25rep.sh <$< >$@
 
 00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
 	00bin/cusas-tsv.plx >$@
@@ -53,11 +57,6 @@ asl: 00lib/pcsl.asl
 
 00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv 00bin/seq+.plx
 	00bin/seq+.plx <$< >$@
-
-x00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
-	xsltproc -stringparam mode PC25 00bin/final-HTML.xsl $< >$@
-	sudo cp $@ ${WWW}/pcsl/easl/
-	sudo chmod +r ${WWW}/pcsl/easl/pc25.html
 
 seq: 00web/easl-seq.html
 
@@ -87,7 +86,17 @@ xml: 00etc/${SL}-final.xml
 00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl ../pc25/pc25-repertoire.tsv 00etc/csldist.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 	00bin/final-xml.plx ${SL}
 
-html: 00web/${SL}-tab.html
+html: 00web/${SL}-tab.html pc25no-html
+
+00etc/no_%.xml: 00etc/no_%.tsv
+	00bin/final-xml.plx $<
+
+00web/no_%.html: 00etc/no_%.xml
+	00bin/pc25no-html.sh $<
+
+pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html
+	sudo cp $^ ${PCSL}/pc25
+	sudo chmod -R +r ${PCSL}/pc25
 
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web

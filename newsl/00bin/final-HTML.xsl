@@ -15,7 +15,7 @@
     <xsl:variable name="vol">
       <xsl:choose>
 	<xsl:when test="sl/@n='easl' or sl/@n='pcsl' or sl/@n='pc25'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
-	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'aclmnopstuv','ACLMNOPSTUV')"/></xsl:otherwise>
+	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'abcdelmnopqrstuv','ABCDELMNOPQRSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <html>
@@ -37,13 +37,16 @@
 	      <th class="image"><xsl:value-of select="$vol"/></th>
 	      <xsl:message>SL=<xsl:value-of select="$SL"/></xsl:message>
 	      <xsl:if test="$SL='EASL' or $SL='PCSL'">
-		<th case="sl">ATU3</th>
-		<th case="sl">ATU5</th>
-		<th case="sl">MSVO1</th>
-		<th case="sl">MSVO4</th>
+		<th class="sl">ATU3</th>
+		<th class="sl">ATU5</th>
+		<th class="sl">MSVO1</th>
+		<th class="sl">MSVO4</th>
 		<xsl:if test="$SL='PCSL'">
-		  <th case="sl">CUSAS</th>
+		  <th class="sl">CUSAS</th>
 		</xsl:if>
+	      </xsl:if>
+	      <xsl:if test="$SL='PC25'">
+		<th class="sources">SOURCES</th>
 	      </xsl:if>
 	    </tr>
 	  </thead>
@@ -267,6 +270,9 @@
 		<xsl:if test="$SL='PCSL'"><td/></xsl:if>
 	      </xsl:otherwise>
 	    </xsl:choose>
+	  </xsl:if>
+	  <xsl:if test="$SL='PC25'">
+	    <td class="sources"><xsl:value-of select="../@src"/></td>
 	  </xsl:if>
 	</tr>
       </xsl:for-each>

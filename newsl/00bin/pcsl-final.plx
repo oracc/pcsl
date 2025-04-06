@@ -20,6 +20,9 @@ my %o = (); load_oid();
 
 my %pcsl = ();
 my %pc25 = ();
+my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25rep{@pc25rep} = ();
+
+my $pc25tag = '©';
 
 open(L,'>pcsl-final.log');
 
@@ -283,6 +286,7 @@ sub pcsl_tsv {
 		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
 	    }
 	}
+	$p{'tag'} .= $pc25tag if exists $pc25rep{$o};
 	unless ($p{'ref'}) {
 	    if ($nc && $p{'tag'} !~ /[.:]/) {
 		my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;

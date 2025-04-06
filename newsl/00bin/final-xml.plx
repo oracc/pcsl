@@ -17,15 +17,24 @@ GetOptions(
     );
 
 my $n = shift @ARGV;
-my $f = "00etc/$n-final.tsv";
+my $f = '';
+
+if ($n =~ /\.tsv/) {
+    $f = $n;
+    $n =~ s#00etc/##; $n =~ s/.tsv$//;
+} else {
+    $f = "00etc/$n-final.tsv";
+}
+
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
 my $outfile = $asl ? "../00lib/pcsl.asl" : "00etc/$n-final.xml";
+$outfile =~ s/-final// if $n =~ /^no_/;
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 my $numflag = ($n =~ /^num/);
-my $pcslflag = ($n =~ /^pc(?:sl|25)/);
+my $pcslflag = ($n =~ /^pc(?:sl|25)/ || $n =~ /^no_/);
 
 my $X = 1;
 
