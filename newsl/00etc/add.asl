@@ -90,6 +90,7 @@
 @inote	CHECK
 @list U+F3070
 @uname ADD NAME GIŠIMMAR~b2
+@end sign
 
 @sign HI~b
 @oid o0900961
@@ -129,6 +130,7 @@
 @inote	CHECK
 @list U+F307D
 @uname ADD NAME UKKIN~d
+@end sign
 
 @sign UR₃~d2
 @oid o0902319
@@ -320,4 +322,10 @@ s@list U+F307E
 @inote	CHECK
 @useq xF3094.x12562.x1255C
 @inote useq-old-uni	F3009 - ADD NAME |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
+@end sign
+
+@sign |1(N02).RU|
+@oid o0902870
+@useq x125BE.x12AA3
+@inote useq-old-uni	12DF1 𒷱 ONE-N2 BESIDE RU
 @end sign
