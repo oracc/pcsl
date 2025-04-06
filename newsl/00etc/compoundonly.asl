@@ -21,13 +21,11 @@
 @compoundonly URU~a3
 @compoundonly X
 @compoundonly X(N57)
-@compoundonly X₁
 @compoundonly ZATU737@t
 @compoundonly ZATU759@t
 @compoundonly ZU
 @compoundonly |(BU~a.DU₆~a)&(BU~a.DU₆~a)|
 @compoundonly |BU~a%BU~a|
-@compoundonly |BU~a&BU~a|
 @compoundonly |DUB@n~a×1(N58)|
 @compoundonly |DUG~b&DUG~b|
 @compoundonly |GIŠ×(DIN.DIN)|

@@ -72,6 +72,6 @@ foreach my $h (sort { ${$c{$a}}{'sort'} <=> ${$c{$b}}{'sort'} } keys %c) {
 sub sc {
     my($o,$h,$p) = @_;
     my $c = $s{$o};
-    warn "$o / $h /$p has no sort code\n" unless $c;
+    warn "$o / $h / $p has no sort code\n" unless $c;
     return $c || 0;
 }

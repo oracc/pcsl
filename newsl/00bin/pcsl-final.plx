@@ -284,7 +284,7 @@ sub pcsl_tsv {
 	    }
 	}
 	unless ($p{'ref'}) {
-	    if ($nc > 1) {
+	    if ($nc && $p{'tag'} !~ /[.:]/) {
 		my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;
 		warn "refglyph	$o	$rg	$p{'char'}\n" unless $nc < 2;
 		$p{'ref'} = $rg;

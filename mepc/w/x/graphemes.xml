@@ -1,3 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Graphemes</esp:name>
+  <esp:title>Graphemes</esp:title>
+  <html>
+    <head/>
+    <body>
 
       <esp:sh>Grapheme Distribution</esp:sh>
 
@@ -7,9 +17,23 @@
       of instances of signs, with numerical signs and ideograms being
       given in separate rows.</p>
 
+      <esp:ssh>PCSL Corpus Grapheme Distribution</esp:ssh>
+
+      <xi:include xml:base="." href="../gpcsl/gstats.html"/>
+
+      <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
+      
+      <xi:include xml:base="." href="../gpc25/gstats.html"/>
+
+      <!--
+	  
       <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
 
       <p>Simple counts of the entire graphemic repertoire of the Uruk
       IV/III corpus are <esp:link page="csltab">provided in this
       table</esp:link>.</p>
  
+      -->
+    </body>
+  </html>
+</esp:page>

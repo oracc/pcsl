@@ -1,6 +1,5 @@
 #!/bin/sh
 V="uruk jn umma uqair misc"
-cd t
 h=gstats.tsv
 # grapheme stats by period/place/pub-unpub
 echo '	IV/pub	IV/unp	IV/all	III/pub	III/unp	III/all' >$h
@@ -26,6 +25,4 @@ echo total'	'`cat g-p-4-n.cnt`'	'`cat g-u-4-n.cnt`'	'`cat g-c-4-n.cnt` \
 echo total'	'`cat g-p-4-i.cnt`'	'`cat g-u-4-i.cnt`'	'`cat g-c-4-i.cnt` \
      '	'`cat g-p-3-i.cnt` '	'`cat g-u-3-i.cnt`'	'`cat g-c-3-i.cnt`  >>$h
 
-rocox -h <$h | xl - >gstats.html
-
-cd ..
+rocox -hborders <$h | xl - >gstats.html
