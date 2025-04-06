@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Graphemes</esp:name>
+  <esp:title>Graphemes</esp:title>
+  <html>
+    <head/>
+    <body>
+      <esp:sh>Grapheme Distribution</esp:sh>
+      <p>A general impression of the amount of graphemic data in the
+      various subcorpora is given in the table below.  In each case,
+      the numbers are the count of distinct signs and the total number
+      of instances of signs, with numerical signs and ideograms being
+      given in separate rows.</p>
+      <esp:ssh>PCSL Corpus Grapheme Distribution</esp:ssh>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+        <tr>
+          <td/>
+          <td>IV/pub</td>
+          <td>IV/unp</td>
+          <td>IV/all</td>
+          <td>III/pub</td>
+          <td>III/unp</td>
+          <td>III/all</td>
+        </tr>
+        <tr>
+          <td>Uruk/num</td>
+          <td>140/4568</td>
+          <td>120/2245</td>
+          <td>176/6813 </td>
+          <td>180/10987</td>
+          <td>117/3539</td>
+          <td>197/14526</td>
+        </tr>
+        <tr>
+          <td>Uruk/idg</td>
+          <td>775/5734</td>
+          <td>479/2336</td>
+          <td>918/8070 </td>
+          <td>978/17731</td>
+          <td>604/7859</td>
+          <td>1082/25590</td>
+        </tr>
+        <tr>
+          <td>JN/num</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>138/2530</td>
+          <td>0/0</td>
+          <td>138/2530</td>
+        </tr>
+        <tr>
+          <td>JN/idg</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>399/3790</td>
+          <td>0/0</td>
+          <td>399/3790</td>
+        </tr>
+        <tr>
+          <td>Umma/num</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>120/1918</td>
+          <td>135/3486</td>
+          <td>163/5404</td>
+        </tr>
+        <tr>
+          <td>Umma/idg</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>389/2478</td>
+          <td>493/6730</td>
+          <td>625/9208</td>
+        </tr>
+        <tr>
+          <td>Uqair/num</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>50/444</td>
+          <td>0/0</td>
+          <td>50/444</td>
+        </tr>
+        <tr>
+          <td>Uqair/idg</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>226/903</td>
+          <td>0/0</td>
+          <td>226/903</td>
+        </tr>
+        <tr>
+          <td>Misc/num</td>
+          <td>31/70</td>
+          <td>28/97</td>
+          <td>45/167 </td>
+          <td>165/5016</td>
+          <td>55/648</td>
+          <td>165/5664</td>
+        </tr>
+        <tr>
+          <td>Misc/idg</td>
+          <td>44/70</td>
+          <td>64/116</td>
+          <td>92/186 </td>
+          <td>617/7287</td>
+          <td>266/1111</td>
+          <td>682/8398</td>
+        </tr>
+        <tr>
+          <td>total</td>
+          <td>143/4638</td>
+          <td>124/2342</td>
+          <td>181/6980 </td>
+          <td>233/20895 </td>
+          <td>167/7673</td>
+          <td>251/28568</td>
+        </tr>
+        <tr>
+          <td>total</td>
+          <td>780/5804</td>
+          <td>498/2452</td>
+          <td>936/8256 </td>
+          <td>1246/32189 </td>
+          <td>820/15700</td>
+          <td>1435/47889</td>
+        </tr>
+      </table>
+      <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+        <tr>
+          <td/>
+          <td>IV/pub</td>
+          <td>IV/unp</td>
+          <td>IV/all</td>
+          <td>III/pub</td>
+          <td>III/unp</td>
+          <td>III/all</td>
+        </tr>
+        <tr>
+          <td>Uruk/num</td>
+          <td>140/4568</td>
+          <td>82/610</td>
+          <td>159/5178 </td>
+          <td>180/10987</td>
+          <td>68/714</td>
+          <td>188/11701</td>
+        </tr>
+        <tr>
+          <td>Uruk/idg</td>
+          <td>775/5734</td>
+          <td>210/653</td>
+          <td>819/6387 </td>
+          <td>976/17714</td>
+          <td>263/1575</td>
+          <td>994/19289</td>
+        </tr>
+        <tr>
+          <td>JN/num</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>138/2530</td>
+          <td>0/0</td>
+          <td>138/2530</td>
+        </tr>
+        <tr>
+          <td>JN/idg</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>399/3790</td>
+          <td>0/0</td>
+          <td>399/3790</td>
+        </tr>
+        <tr>
+          <td>Umma/num</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>120/1565</td>
+          <td>15/30</td>
+          <td>120/1595</td>
+        </tr>
+        <tr>
+          <td>Umma/idg</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>337/2004</td>
+          <td>78/176</td>
+          <td>351/2180</td>
+        </tr>
+        <tr>
+          <td>Uqair/num</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>50/444</td>
+          <td>0/0</td>
+          <td>50/444</td>
+        </tr>
+        <tr>
+          <td>Uqair/idg</td>
+          <td>0/0</td>
+          <td>0/0</td>
+          <td>0/0 </td>
+          <td>226/903</td>
+          <td>0/0</td>
+          <td>226/903</td>
+        </tr>
+        <tr>
+          <td>Misc/num</td>
+          <td>31/70</td>
+          <td>0/0</td>
+          <td>31/70 </td>
+          <td>165/4887</td>
+          <td>0/0</td>
+          <td>165/4887</td>
+        </tr>
+        <tr>
+          <td>Misc/idg</td>
+          <td>44/70</td>
+          <td>0/0</td>
+          <td>44/70 </td>
+          <td>604/7086</td>
+          <td>0/0</td>
+          <td>604/7086</td>
+        </tr>
+        <tr>
+          <td>total</td>
+          <td>143/4638</td>
+          <td>124/2342</td>
+          <td>161/5248 </td>
+          <td>233/20413 </td>
+          <td>167/7673</td>
+          <td>237/21157</td>
+        </tr>
+        <tr>
+          <td>total</td>
+          <td>780/5804</td>
+          <td>498/2452</td>
+          <td>824/6457 </td>
+          <td>1229/31497 </td>
+          <td>820/15700</td>
+          <td>1242/33248</td>
+        </tr>
+      </table>
+      <!--
+	  
+      <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
+
+      <p>Simple counts of the entire graphemic repertoire of the Uruk
+      IV/III corpus are <esp:link page="csltab">provided in this
+      table</esp:link>.</p>
+ 
+      -->
+    </body>
+  </html>
+</esp:page>
