@@ -17,7 +17,7 @@ my @pfields = qw/oid tag pc25 pc24 cdli flag ref char src row/;
 my @sfields = qw/sn oid pc24 pbnm pbpc char row src/;
 
 my %o = (); load_oid();
-
+my %oidmap = (); load_oidmap();
 my %pcsl = ();
 my %pc25 = ();
 my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25rep{@pc25rep} = ();
@@ -120,6 +120,13 @@ sub load_oid {
 	my($o,$n) = split(/\t/,$_);
 	$o{$n} = $o;
 	$o{$o} = $n;
+    }
+}
+
+sub load_oidmap {
+    my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
+    foreach (@o) {
+	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m;
     }
 }
 
@@ -286,7 +293,8 @@ sub pcsl_tsv {
 		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
 	    }
 	}
-	$p{'tag'} .= $pc25tag if exists $pc25rep{$o};
+	my $om = $oidmap{$o};
+	$p{'tag'} .= $pc25tag if exists $pc25rep{$om||$o};
 	unless ($p{'ref'}) {
 	    if ($nc && $p{'tag'} !~ /[.:]/) {
 		my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;
