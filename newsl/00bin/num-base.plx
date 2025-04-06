@@ -14,6 +14,7 @@ GetOptions(
 
 my %drop = (); my @drop = `cat 00etc/num-drop.lst`; chomp @drop; @drop{@drop} = ();
 my %nmap = (); load_nmap();
+my %pc25 = (); load_pc25();
 my %seen = ();
 my %vsp = (); load_vsp();
 
@@ -41,6 +42,7 @@ while (<A>) {
     next if exists $drop{$o} || $seen{$u};
     $n = $nmap{$n} if $nmap{$n};
     my $c = sprintf("%c",hex($u));
+    $tag = 'PC25' if exists $pc25{$o};
     $tag =~ s/\s.*$//;
     print "$o\t$tag\t$n\tN\t-\t$c\t-\n";
 }
@@ -56,6 +58,11 @@ sub load_nmap {
 	my($v,$a) = split(/\t/,$_);
 	$nmap{$v} = $a;
     }
+}
+
+sub load_pc25 {
+    my @p = `grep PC25 00etc/num-not-encoded.tsv | cut -f1`; chomp @p;
+    @pc25{@p} = ();
 }
 
 sub load_vsp {

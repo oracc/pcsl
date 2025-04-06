@@ -63,7 +63,11 @@ sub finish_row {
 		$pic = $pics{$r{'h'}} || '';
 	    }
 	}
-	print "$r{'o'}\t++\t$r{'n'}\tI\t-\t$c\t$pic\n";
+	my $tag = '++';
+	if ($r{'n'} =~ /\./) {
+	    $tag = ".$tag" unless $r{'n'} =~ /\)\)\|/; # this is just a hack
+	}
+	print "$r{'o'}\t$tag\t$r{'n'}\tI\t-\t$c\t$pic\n";
 	$saved_err = '';
     } elsif ($r{'o'} && $r{'n'}) {
 	$saved_err = "$r{'o'} = $r{'n'}: no hex\n";

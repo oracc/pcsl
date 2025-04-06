@@ -8,27 +8,57 @@
     <script type="text/javascript" src="/pcsl/js/pcsl.js"> </script>
   </head>
   <body>
-    <h1>PCSL Source Sign Lists</h1>
+    <h1>MEPC: Materials for Encoding Proto-Cuneiform</h1>
 
-    <p>This is a temporary page listing the various sign lists that are the sources for PCSL.</p>
+    <p>A collection of lists to facilitate the encoding of Proto-Cuneiform.</p>
+
+    <h2>Top-level Lists</h2>
+
+    <dl>
+      <dt><a href="pc25/pc25-tab.html">PC25</a></dt>
+      <dd>A draft repertoire for a PC encoding; as of 2025-04-05 this
+      still includes signs that will be removed because they do not
+      occur in the subcorpus which is defined as the scope of
+      PC25.</dd>
+      <dt><a href="pcsl/pcsl-tab.html">PCSL</a></dt>
+      <dd>The new version of PCSL on which PC25 is based--includes
+      characters that should not be encoded or which will only be
+      encoded in the future.  The most complete sign list of
+      Proto-Cuneiform available today.</dd>
+    </dl>
+
+    <h2>Mid-Level Aggregations</h2>
 
     <dl>
       <dt><a href="easl/easl-tab.html">EASL--Englund Archaic Sign List</a></dt>
-      <dd>A superset of CDLI-gh with alignment columns for ATU3, ATU5,
-      MSVO1, and MSVO4 and category tagging for signs.</dd>
-      <dt><a href="easl/easl-seq.html">EASL Sequences</a></dt>
-      <dd>A subset of EASL giving the sequences</dd>
+      <dd>A superset of the ideographic signs in CDLI-gh with
+      alignment columns for ATU3, ATU5, MSVO1, and MSVO4 and category
+      tagging for signs.  EASL also includes about 50 signs used in
+      CDLI-tc which do not appear in any of the other source sign
+      lists.</dd>
+
+      <dt><a href="num/num-tab.html">EANM--Englund Archaic Numbers</a></dt>
+      <dd>Numerical signs from CDLI-gh with tagging to indicate
+      whether they were included in ACN, should be in PC25, should
+      possibly be encoded in the future, or should not be
+      encoded.</dd>
+      
+      <!--
+	  <dt><a href="easl/easl-seq.html">EASL Sequences</a></dt>
+	  <dd>A subset of EASL giving the sequences</dd>
+      -->
       <!--
 	  <dt><a href="easl/easl-nc.html">EASL Non-contrastive Glyphs</a></dt>
-      <dd>A subset of EASL giving signs which have multiple non-contrastive glyphs.</dd>
+	  <dd>A subset of EASL giving signs which have multiple non-contrastive glyphs.</dd>
       -->
-      <dt><a href="easl/pc25.html">PC25</a></dt>
-      <dd>A list where the proposed PC25 encoding is being assembled;
-      currently a subset of EASL, this will be augmented with CUSAS
-      signs and perhaps a few other additional signs.  All of the
-      variant glyphs that are not in CDLI-gh will also be merged into
-      the PC-font column, and the encoding information will be
-      adjusted to conform to the new PC25 font.</dd>
+    </dl>
+
+    <h2>Low-Level Proofing Tables</h2>
+
+    <p>The proofing tables focus on ideographic signs and aim to align
+    all of the individual glyphs in the various lists with EASL.</p>
+    
+    <dl>
       <dt><a href="atu3/atu3-tab.html">EALX--Englund Archaic Lexical</a></dt>
       <dd>A proofing table for ATU3</dd>
       <dt><a href="atu5/atu5-tab.html">EAAT--Englund Archaic Administrative Texts</a></dt>

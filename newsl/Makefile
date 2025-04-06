@@ -8,17 +8,13 @@
 #
 
 O2=/home/stinney/o2
-SLfont=PC-all.ttf
+SLfont=PC24.ttf
 WWW=/home/oracc/www
 PRJ=${WWW}/pcsl/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl num pcsl overview css js font
+default:  msvo1 msvo4 atu3 atu5 cusas easl num pcsl pc25 overview css js font
 
-#seq 
-#pc25 
-
-pc25: 00web/pc25.html
-	@true
+#seq ref
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make csldist xml html images
@@ -49,13 +45,16 @@ asl: 00lib/pcsl.asl
 00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/seq-beside+.tsv 00etc/seq-opaque+.tsv 00etc/num-final.tsv
 	00bin/pcsl-final.plx
 
+00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
+	00bin/pc25-final.plx
+
 00etc/seq-beside+.tsv: 00etc/seq-beside.tsv 00bin/seq+.plx
 	00bin/seq+.plx <$< >$@
 
 00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv 00bin/seq+.plx
 	00bin/seq+.plx <$< >$@
 
-00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
+x00web/pc25.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
 	xsltproc -stringparam mode PC25 00bin/final-HTML.xsl $< >$@
 	sudo cp $@ ${WWW}/pcsl/easl/
 	sudo chmod +r ${WWW}/pcsl/easl/pc25.html

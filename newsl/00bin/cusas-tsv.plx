@@ -20,13 +20,16 @@ my @b = `cat 00etc/cusas-books.tsv`; chomp @b;
 my %c = ();
 
 foreach (@b) {
-    my $minus = s/^-//;
+    my $tag = '';
+    if (s/^([-.])//) {
+	$tag = $1;
+    }
     my($n,$o,$p,$x1,$x2,$c,$f) = split(/\t/,$_);
     my $h = sprintf("%X",ord($c));
     my $s = sc($o,$h,$p);
     my($t) = ($n =~ /CSL(\d\d)/);
-    if ($minus) {
-	$t = "-C${t}b";
+    if ($tag) {
+	$t = "${tag}C${t}b";
     } else {
 	$t = "C${t}b";
     }

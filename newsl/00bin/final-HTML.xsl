@@ -14,7 +14,7 @@
     </xsl:variable>
     <xsl:variable name="vol">
       <xsl:choose>
-	<xsl:when test="sl/@n='easl' or sl/@n='pcsl'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
+	<xsl:when test="sl/@n='easl' or sl/@n='pcsl' or sl/@n='pc25'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
 	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'aclmnopstuv','ACLMNOPSTUV')"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -244,7 +244,7 @@
 		      </xsl:when>
 		      <xsl:when test="../@row = '-'"/>
 		      <xsl:otherwise>
-			<img class="lrow" width="600px" src="/osl/{../@row}"/>
+			<!--<img class="lrow" width="600px" src="/osl/{../@row}"/>-->
 		      </xsl:otherwise>
 		    </xsl:choose>
 		    <xsl:if test="$SL='EASL'">

@@ -25,7 +25,7 @@ my $outfile = $asl ? "../00lib/pcsl.asl" : "00etc/$n-final.xml";
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 my $numflag = ($n =~ /^num/);
-my $pcslflag = ($n =~ /^pcsl/);
+my $pcslflag = ($n =~ /^pc(?:sl|25)/);
 
 my $X = 1;
 
@@ -51,11 +51,11 @@ if ($asl) {
 open(N,$f);
 while (<N>) {
     chomp;
-    my($n,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$r,$src) = ();
+    my($n,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src) = ();
     if ($cusasflag || $easlflag || $numflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } elsif ($pcslflag) {
-	($o,$t,$p,$pc24,$cdli,$r,$c,$src,$fn) = split(/\t/,$_);
+	($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
     } else {
 	($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     }
