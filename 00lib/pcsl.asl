@@ -6359,12 +6359,22 @@
 @uname PROTO-CUNEIFORM SIGN ONE-N57 BESIDE AB2
 @end sign
 
+@sign |1(N57).BU₃|
+@oid o0903212
+@inote @useq 󰄐_𒜘
+@end sign
+
 @sign |1(N57).E₂~a|
 @aka |1(N57).E₂|
 @oid o0903214
 @list U+F3027
 @ucun 󳀧
 @uname PROTO-CUNEIFORM SIGN ONE-N57 BESIDE E2-A
+@end sign
+
+@sign |1(N57).MUŠEN|
+@oid o0903215
+@inote @useq 󰄐_𒨅
 @end sign
 
 @sign |1(N57).SIG|
@@ -6416,6 +6426,11 @@
 @uname PROTO-CUNEIFORM SIGN TWO-N57 BESIDE KU6-A
 @end sign
 
+@sign |2(N57).MUŠEN|
+@oid o0903228
+@inote @useq 󰄑_𒨅
+@end sign
+
 @sign |2(N57).SU~a|
 @aka |2(N57).SU|
 @oid o0903230
@@ -6449,6 +6464,11 @@
 @uname PROTO-CUNEIFORM SIGN THREE-N57 BESIDE AMAR
 @end sign
 
+@sign |3(N57).AZ|
+@oid o0903236
+@inote @useq 󰄒_𒛜
+@end sign
+
 @sign |3(N57).BAR×UŠ~a|
 @aka |3(N57).BAR×UŠ|
 @oid o0903238
@@ -6472,6 +6492,11 @@
 @list U+12DFE
 @ucun 𒷾
 @uname PROTO-CUNEIFORM SIGN THREE-N57 BESIDE E2-B
+@end sign
+
+@sign |3(N57).EN₂|
+@oid o0903242
+@inote @useq 󰄒_𒟣
 @end sign
 
 @sign |3(N57).GAR|
@@ -6506,6 +6531,16 @@
 @list U+12E02
 @ucun 𒸂
 @uname PROTO-CUNEIFORM SIGN THREE-N57 BESIDE PIRIG-B1
+@end sign
+
+@sign |3(N57).SANGA~a|
+@oid o0903250
+@inote @useq 󰄒_𒪼
+@end sign
+
+@sign |3(N57).SI|
+@oid o0903251
+@inote @useq 󰄒_𒫇
 @end sign
 
 @sign |3(N57).ŠUBUR|
@@ -6598,6 +6633,11 @@
 @list U+12E0B
 @ucun 𒸋
 @uname PROTO-CUNEIFORM SIGN SIX-N57 BESIDE KU3-A
+@end sign
+
+@sign |7(N57).GAR|
+@oid o0903274
+@inote @useq 󰄖_𒡨
 @end sign
 
 @sign |8(N57).NI~b|
@@ -16038,38 +16078,6 @@
 @uname PROTO-CUNEIFORM NUMBER ONE-N63
 @end sign
 
-@sign |3(N57).AZ|
-@oid o0903236
-@end sign
-
-@sign |1(N57).BU₃|
-@oid o0903212
-@end sign
-
-@sign |3(N57).EN₂|
-@oid o0903242
-@end sign
-
-@sign |1(N57).MUŠEN|
-@oid o0903215
-@end sign
-
-@sign |2(N57).MUŠEN|
-@oid o0903228
-@end sign
-
-@sign |3(N57).SANGA~a|
-@aka |3(N57).SANGA|
-@oid o0903250
-@end sign
-
-@sign |3(N57).SI|
-@oid o0903251
-@end sign
-
-@sign |7(N57).GAR|
-@oid o0903274
-@end sign
 @compoundonly 1(N57@t)
 @compoundonly 1(N58)~a
 @compoundonly AB
