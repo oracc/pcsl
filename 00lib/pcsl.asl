@@ -3725,7 +3725,7 @@
 
 @sign GIBIL₆
 @oid o0900841
-@inote @useq 𒨯‍𒡸
+@inote @useq 𒨳⁢𒡸
 @list U+12892
 @ucun 𒢒
 @uname PROTO-CUNEIFORM SIGN GIBIL6

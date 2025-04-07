@@ -49,17 +49,11 @@ asl: 00lib/pcsl.asl
 00etc/corpus-base.tsv: 00etc/add.asl 00bin/asl-base.plx
 	00bin/asl-base.plx <$< >$@
 
-00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/seq-beside+.tsv 00etc/seq-opaque+.tsv 00etc/num-final.tsv
+00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/nseq.tsv 00etc/num-final.tsv
 	00bin/pcsl-final.plx
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
 	00bin/pc25-final.plx
-
-00etc/seq-beside+.tsv: 00etc/seq-beside.tsv 00bin/seq+.plx 00etc/glyf_name.tsv
-	00bin/seq+.plx <$< >$@
-
-00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv 00bin/seq+.plx 00etc/glyf_name.tsv
-	00bin/seq+.plx <$< >$@
 
 seq: 00web/easl-seq.html
 

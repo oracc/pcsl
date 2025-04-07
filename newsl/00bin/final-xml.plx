@@ -416,6 +416,10 @@ sub pchar {
 	    print "<$f sn=\"O\" c=\"O\"/>";
 	} elsif ($ch eq '200D') {
 	    print "<$f sn=\"ZWJ\" c=\"$cc\" u=\"$ch\"/>";
+	} elsif ($ch eq '2062') {
+	    print "<$f sn=\"IMS\" c=\"$cc\" u=\"$ch\"/>";
+	} elsif ($ch eq '2064') {
+	    print "<$f sn=\"IPS\" c=\"$cc\" u=\"$ch\"/>";
 	} elsif ($ch =~ /^E01/) {
 	    print "<$f sn=\"IVS\" c=\"$cc\" u=\"$ch\"/>";
 	} else {

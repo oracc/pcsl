@@ -48,6 +48,7 @@ load_rg();
 
 # load sequence data
 my %seq = (); load_seq();
+#print Dumper \%seq; exit 1;
 
 # generate new PC25 names
 pc25_names();
@@ -57,8 +58,6 @@ pcsl_seq();
 
 # add sort codes
 pcsl_scodes();
-
-#print Dumper \%pcsl; exit 1;
 
 # write pcsl-final.tsv or glyftab
 if ($glyftab) {
@@ -123,7 +122,7 @@ sub glyf_tsv {
 		$p{'ref'} = '';
 	    }
 	}
-	glyf_chars($p{'ref'}, $p{'char'}, $p{'pc25'});
+	glyf_chars($o, $p{'ref'}, $p{'char'}, $p{'pc25'});
     }
     close(T);
 }
@@ -207,19 +206,18 @@ sub load_rg {
 }
 
 sub load_seq {
-    my @seq = `cut -f 1,3,6 00etc/seq-opaque+.tsv`; chomp @seq;
-    load_seqs(@seq);
-    @seq = `cut -f 1,3,6 00etc/seq-beside+.tsv`; chomp @seq;
-    load_seqs(@seq);
-}
-
-sub load_seqs {
-    foreach my $s (@_) {
-	my($o,$n,$c) = split(/\t/,$s);
-	my $g = '';
-	if ($n =~ /^(.)=/) {
-	    $g = $1;
-	}
+    my @u = `cat 00etc/unicode.tsv`; chomp @u;
+    my %g = ();
+    foreach my $u (@u) {
+	my($o,$h) = split(/\t/,$u);
+	$g{$o} = chr(hex($h));
+    }
+    my @seq = `cat 00etc/nseq.tsv`; chomp @seq;
+    foreach my $s (@seq) {
+	my($o,$g,$c,$n) = split(/\t/,$s);
+	if ($g{$o}) {
+	    $g = $g{$o} unless $g;
+	} # simple sequences and ED I-II removed signs have no unicode
 	$seq{"$o$g"} = $c;
     }
 }
@@ -346,7 +344,7 @@ sub pcsl_tsv {
 	unless ($p{'ref'}) {
 	    if ($nc && $p{'tag'} !~ /[.:]/) {
 		my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;
-		warn "refglyph	$o	$rg	$p{'char'}\n" unless $nc < 2;
+		warn "refglyph	$o	$p{'pc25'}	$rg	$p{'char'}\n" unless $nc < 2;
 		$p{'ref'} = $rg;
 	    } else {
 		$p{'ref'} = '';
@@ -384,7 +382,8 @@ sub seqify {
 			++$did_one;
 		    }
 		} else {
-		    warn "seq$t found nothing for $o $x\n" unless $t =~ /1/;
+		    my $X = sprintf("%X", ord $x);
+		    warn "seq$t found nothing for '$o' '$x'=$X\n" unless $t =~ /1/;
 		}
 	    }
 	}
