@@ -161,13 +161,6 @@
 @uname PROTO-CUNEIFORM SIGN A2
 @end sign
 
-@sign |AB×ZU|
-@oid o0900051
-@list U+F3056
-@ucun 󳁖
-@uname PROTO-CUNEIFORM SIGN AB TIMES ZU
-@end sign
-
 @sign AB~a
 @oid o0900012
 @list U+12698

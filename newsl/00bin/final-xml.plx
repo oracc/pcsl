@@ -48,7 +48,7 @@ my %aka = (); load_aka() if $pcslflag;
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
-my %pc25 = (); load_pc25() if $easlflag;
+#my %pc25 = (); load_pc25() if $easlflag;
 my %unames = (); load_unames() if $pcslflag;
 
 open(X,">$outfile"); select X;
@@ -91,7 +91,7 @@ while (<N>) {
     } else {
 	$t = '';	
     }
-    my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
+    # my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
     my $dist = dist($o);
     if ($cusasflag) {
 	if ((!$dist || $dist =~ /0×/) && $t !~ /not="/) {
@@ -109,7 +109,7 @@ while (<N>) {
 	    my $row = $fn ? " row=\"$fn\"" : '';
 	    print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist>";
 	} else {
-	    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist$pc25>";
+	    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
 	}
 	chars($c);
 	sl($o,$p) if $easlflag || $pcslflag;
@@ -307,10 +307,10 @@ sub load_oidmap {
     }
 }
 
-sub load_pc25 {
-    my @p = `cut -f5 ../pc25/pc25-repertoire.tsv`; chomp @p;
-    @pc25{@p} = ();
-}
+#sub load_pc25 {
+#    my @p = `cut -f5 ../pc25/pc25-repertoire.tsv`; chomp @p;
+#    @pc25{@p} = ();
+#}
 
 sub load_sl {
     my @sl = qw/atu3 atu5 msvo1 msvo4/;

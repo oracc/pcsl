@@ -8,7 +8,6 @@ o0900005	©	|A×1(N14)|	|A×1(N14)|	|Ax1(N14)|	I		𒚕	EASL0007	/easl/images/o09
 o0900008	1-	A@g	A@g	A@g	I		󲛩	EASL0008	/easl/images/o0900008.png
 o0900009		A@t	A@t	A@t	I		𒚖	EASL0009	/easl/images/o0900009.png
 o0900010	©	A₂	A₂	A2	I		𒚗	EASL0010 EALX002 EAAR005	/easl/images/o0900010.png
-o0900051	C01b	|AB×ZU|	|AB×ZU|	-	I		󳁖	CSL001	
 o0900012	©	AB~a	AB~a	AB~a	I	𒚘	𒚢,𒚘	EASL0011 EALX003 EAAR006 EAJN002 EAVR002	/easl/images/o0900012.png
 o0900018	©	|AB~a×A@t|	|AB~a×A@t|	|AB~axA@t|	I	𒚙	𒚙;󳃱	EASL0012 EAAR007	/easl/images/o0900018.png
 o0900020	©	|AB~a×AŠ₂|	|AB~a×AŠ₂|	|AB~axASZ2|	I	𒚚	𒚚;󳂮	EASL0013 EALX004	/easl/images/o0900020.png
@@ -18,7 +17,7 @@ o0900033	c©	|AB~a×(ŠE~a&ŠE~a)|	|AB~a×(ŠE~a&ŠE~a)|	|AB~ax(SZE~a&SZE~a)|	I	
 o0900035	#	|AB~a×X|	|AB~a×X|	|AB~axX|	I		𒚞	EASL0017	/easl/images/o0900035.png
 o0900038	©	|AB~a×ZATU659|	|AB~a×ZATU659|	|AB~axZATU659|	I		𒚟	EASL0018 EALX005	/easl/images/o0900038.png
 o0900025		|AB~a×1(N01)|	|AB~a×1(N01)|	|AB~ax1(N01)|	I		𒚠	EASL0019	/easl/images/o0900025.png
-o0900027	C31b©	|AB~a×1(N04)|	|AB~a×1(N04)|	-	I		󳀫	CSL003	
+o0900027	C31b©	|AB~a×1(N04)|	|AB~a×1(N04)|	-	I		󳀫	CSL002	
 o0900040	©	AB~a@g	AB~a@g	AB~a@g	I		𒚡	EASL0020 EALX006	/easl/images/o0900040.png
 o0900014	©	AB~b	AB~b	AB~b	I		𒚣	EASL0021 EALX007 EAAR008 EAJN003 EAVR003	/easl/images/o0900014.png
 o0900016		|AB~b×A|	|AB~b×A|	|AB~bxA|	I		𒚤	EASL0022	/easl/images/o0900016.png
@@ -29,7 +28,7 @@ o0900043	©	|AB₂×2(N14)|	|AB₂×2(N14)|	|AB2x2(N14)|	I	𒚨	𒚪,𒚨	EASL00
 o0900046	++	AB₂@g	AB₂@g	-	I		󳀪	EASL0027	/pcsl/images/add/thumb/AB2@g.png
 o0900047	:©	ABGAL	ABGAL	ABGAL	I	𒚫	𒚫=𒩴‍𒧢,𒚬=𒩴‍𒧢󠄁	EASL0028 EALX010 EAJN005	/easl/images/o0900047.png
 o0900049	:©	ABRIG	ABRIG	ABRIG	I		𒚭=𒝍‍𒧢‍𒩴;󳂭=𒩴‍𒧢‍𒝍	EASL0029 EALX011	/easl/images/o0900049.png
-o0900050	!U©	ABZU	ABZU	ABZU	I		𒚮	EASL0030 EALX012	/easl/images/o0900050.png
+o0900050	©	ABZU	ABZU	ABZU	I	𒚮	𒚮;󳁖	EASL0030 EALX012	/easl/images/o0900050.png
 o0900053	©	AD~a	AD~a	AD~a	I		𒚯	EASL0031 EALX013 EAJN006 EAVR005	/easl/images/o0900053.png
 o0900054	©	AD~b	AD~b	AD~b	I		𒚰	EASL0032 EALX014	/easl/images/o0900054.png
 o0900055	©	AD~c	AD~c	AD~c	I		𒚱	EASL0033 EAJN007	/easl/images/o0900055.png

@@ -12,6 +12,8 @@ use Getopt::Long;
 GetOptions(
     );
 
+my $ucode = 0x12690;
+
 my @pfields = qw/oid tag pc25 pc24 cdli flag ref char src row/;
 
 open(NO_BRK,'>00etc/no_broken.tsv');
@@ -30,6 +32,8 @@ while (<I>) {
     my $tag = $p{'tag'};
     if ($p{'flag'} eq 'N') {
 	if ($tag =~ /PC25/) {
+	    my $u = sprintf("%X", $ucode++);
+	    s/^(\S+)/x$u/;
 	    print "$_\n";
 	} else {
 	    print NO_NUM "$_\n";
@@ -50,8 +54,12 @@ while (<I>) {
 		print NO_BRK "$_\n";
 		$ok = 0;
 	    }
-	    print "$_\n" if $ok;
-	    print NO_SEQX "$_\n" if $tag =~ /!/;
+	    if ($ok) {
+		my $u = sprintf("%X", $ucode++);
+		s/^(\S+)/x$u/;
+		print "$_\n";
+		print NO_SEQX "$_\n" if $tag =~ /!/;
+	    }
 	} else {
 	    print NO_CRP "$_\n";
 	}
