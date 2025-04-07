@@ -87,3 +87,67 @@ Sequences:
 	if a component is an unencoded character, encode sequence as character (UTUL~b)
 	if a member of a group is encoded as a character, encode the whole group as characters (UTUL~a etc.)
 
+
+SEQUENCE NOTATIONS AND LIGATURES:
+
+	 ∘ RING OPERATOR means 'signs are in a circle'--e.g., |PA∘IB| means PA is over IB
+	 ucun equivalents for ligatures:
+
+	 @ucun renderings
+	 
+	      . = ZWJ -- no requirement for combined character to exist in font
+	      + = 2064 ⁤ INVISIBLE PLUS -- represents true ligature e.g. SAG+GAL2
+	      ∘ = 2062 ⁢ INVISIBLE TIMES
+
+	 @uhex renderings
+	      . = |
+	      + = ⊕ = CIRCLED PLUS
+	      ∘ = ⊗ = CIRCLED TIMES
+	      IVS => CIRCLED NUM?
+	      
+
+@form NAME UNI=USQ PUA=HSQ OID OTF
+
+@glyf NUM UNI PUA OID OTF
+
+@glyf CPD USQ HSQ OID OTF
+
+CPD sets curr glyf name so
+
+@glyf TAG UNI PUA OID OTF
+
+@glyf TAG=GTG UNI=USQ PUA=HSQ OID OTF
+@glyf TAG=GRP UNI=USQ PUA=HSQ OID OTF
+
+GTG is a GRAPHETICS tag for tagging variants in a corpus; ~DIGIT
+tags should not be used in the corpus because if auto font gen is in
+use they ~DIGIT tags can change during font development; GTG must be
+constant.
+
+@glyf NE@s (sheshig-form)
+@glyf NE@k (kaskal-form)
+@glyf NE@p (pap-form)
+@glyf NE@g (gunu-form)
+
+GRP is a GRAPHEME to use as the name
+
+@glyf UMUM@s
+@glyf |UMUM×PA|
+
+@glyf NAM UNI HEX OID VAR OTF
+
+UNI=>UNI|USQ|UNI=USQ
+
+HEX=>PUA|HSQ|PUA=HSQ
+
+VAR is a constant variant code assignment for NAM and should not
+change; it is expressed as a ~ plus a two-hex-digit number; VAR codes
+may be out of sequence with respect to the NAM sort order because they
+are assigned once and never changed.
+
+.cvNN are sequenced in the font according to the last two digits of
+the VAR or using the OTF notation
+
+In ATF XSux the form UMUM~va0 is equivelent to UMUM@s if @glyf UMUM@s
+... a0 is in effect; this does not work for Pcun because it conflicts
+with existing tags

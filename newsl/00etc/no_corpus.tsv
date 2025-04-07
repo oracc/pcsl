@@ -25,7 +25,7 @@ o0900185		|BU~a×GIŠ@t|	|BU~a×GIŠ@t|	|BU~axGISZ@t|	I		𒜎	EASL0114	/easl/ima
 o0900187		|BU~a×1(N58)|	|BU~a×1(N58)|	|BU~ax1(N58)|	I		𒜏	EASL0115	/easl/images/o0900187.png
 o0900193	d	|(BU~a&BU~a).NA₂~b|	|(BU~a&BU~a).NA₂~b|	|(BU~a&BU~a).NA2~b|	I		󲱣	EASL0117	/easl/images/o0900193.png
 o0903572	.n	|BU~b.NA₂~a|	|BU~b.NA₂~a~v1|	|BU~b.NA2~a|	I		𒜗=𒜖‍𒨏	EASL0122	/easl/images/o0900181.png
-o0900209	.C01b	|BULUG₃.DU₆~a|	|BULUG₃.DU₆~a|	-	I		󳁡=𒜚‍𒝐	CSL011	
+o0900209	.C01b	|BULUG₃.DU₆~a|	|BULUG₃.DU₆~a|	-	I		󳁡=𒜚‍𒝐	CSL010	
 o0900222	.	|DA~a.LIŠ|	|DA~a.LIŠ|	|DA~a.LISZ|	I		𒜡=𒜠‍𒦵	EASL0132	/easl/images/o0900222.png
 o0900223	1-	DAG	DAG	DAG	I		󲝞	EASL0136	/easl/images/o0900223.png
 o0900231		DAR~d	DAR~d	DAR~d	I		𒜬	EASL0144	/easl/images/o0900231.png
@@ -52,7 +52,7 @@ o0900499		|E₂~b.LIŠ|	|E₂~b.LIŠ|	|E2~b.LISZ|	I		𒟏	EASL0287	/easl/images/
 o0900508	:	E₃~a	E₃~a	E3~a	I		𒟓=𒝍‍𒯡	EASL0291	/easl/images/o0900508.png
 o0900523		|EN~c&EN~c|	|EN~c&EN~c|	|EN~c&EN~c|	I		𒟞	EASL0298	/easl/images/o0900523.png
 o0900521		EN~e	EN~e	EN~e	I		𒟠	EASL0299	/easl/images/o0900521.png
-o0900537	:	ENLIL	ENLIL	ENLIL	I		𒟪=𒟖‍𒥁	EASL0308 EALX158	/easl/images/o0900537.png
+o0900537	:	ENLIL	ENLIL	ENLIL	I		𒟪=𒟙‍𒥁	EASL0308 EALX158	/easl/images/o0900537.png
 o0900538	1-.	ENSI	ENSI	ENSI	I			EASL0309	/easl/images/o0900538.png
 o0900539	1-.	ENSI₂	ENSI₂	ENSI2	I			EASL0310	/easl/images/o0900539.png
 o0903584	n	|EZEN~a×EN~a|	|EZEN~a~v1×EN~a|	|EZEN~axEN~a|	I		𒠂	EASL0334	/easl/images/o0900556.png
@@ -167,14 +167,14 @@ o0901427	.++	|MUŠEN.3(N58)|	|MUŠEN.3(N58)|	-	I		𒨅_󰄜	EASL0843
 o0901434	d	|MUŠEN×PAP~a|	|MUŠEN×PAP~a|	|MUSZENxPAP~a|	I		󲶧	EASL0844	/easl/images/o0901434.png
 o0901435	#	|MUŠEN×X|	|MUŠEN×X|	|MUSZENxX|	I		𒨇	EASL0845 EAVR156	/easl/images/o0901435.png
 o0903211	.	|1(N57).AB₂|	|1(N57).AB₂|	|1(N57).AB2|	I		𒷳=󰄐‍𒚧	EASL0851	/easl/images/o0903211.png
-o0903214	.C21b	|1(N57).E₂~a|	|1(N57).E₂~a|	-	I		󳀧=󰄐‍𒟊	CSL041	
+o0903214	.C21b	|1(N57).E₂~a|	|1(N57).E₂~a|	-	I		󳀧=󰄐‍𒟊	CSL040	
 o0903230	.	|2(N57).SU~a|	|2(N57).SU~a|	|2(N57).SU~a|	I		𒷺=󰄑‍𒬛	EASL0860	/easl/images/o0903230.png
-o0903233	.C01b	|2(N57).UDUNITA~a|	|2(N57).UDUNITA~a|	-	I		󳁜=󰄑‍𒰪	CSL043	
-o0903238	.C01b	|3(N57).BAR×UŠ~a|	|3(N57).BAR×UŠ~a|	-	I		󳁝=󰄒‍󳂕	CSL044	
+o0903233	.C01b	|2(N57).UDUNITA~a|	|2(N57).UDUNITA~a|	-	I		󳁜=󰄑‍𒰪	CSL042	
+o0903238	.C01b	|3(N57).BAR×UŠ~a|	|3(N57).BAR×UŠ~a|	-	I		󳁝=󰄒‍󳂕	CSL043	
 o0903239	.	|3(N57).BARA₃|	|3(N57).BARA₃|	|3(N57).BARA3|	I		𒷽=󰄒‍𒜂	EASL0864	/easl/images/o0903239.png
 o0903241	.	|3(N57).E₂~b|	|3(N57).E₂~b|	|3(N57).E2~b|	I		𒷾=󰄒‍𒟎	EASL0865	/easl/images/o0903241.png
-o0903254	.C01b	|3(N57).UDU~a|	|3(N57).UDU~a|	-	I		󳁞=󰄒‍𒰥	CSL045	
-o0903256	.C01b	|3(N57).UDUNITA~a|	|3(N57).UDUNITA~a|	-	I		󳁟=󰄒‍𒰪	CSL046	
+o0903254	.C01b	|3(N57).UDU~a|	|3(N57).UDU~a|	-	I		󳁞=󰄒‍𒰥	CSL044	
+o0903256	.C01b	|3(N57).UDUNITA~a|	|3(N57).UDUNITA~a|	-	I		󳁟=󰄒‍𒰪	CSL045	
 o0903263	.	|4(N57).NI~b|	|4(N57).NI~b|	|4(N57).NI~b|	I		𒸇=󰄓‍𒨾	EASL0877	/easl/images/o0903263.png
 o0901440		NA~d	NA~d	NA~d	I		𒨎	EASL0890	/easl/images/o0901440.png
 o0901495	++	NESAG₂~a2	NESAG₂~a2	-	I		󳁵	EASL0920	/pcsl/images/add/thumb/NESAG2a2.png
@@ -195,7 +195,7 @@ o0901623		NUNUZ~a1@t	NUNUZ~a1@t	|NUNUZ~a1@t|	I		𒪃	EASL0997	/easl/images/o0901
 o0901617		NUNUZ~b2	NUNUZ~b2	NUNUZ~b2	I		𒪆	EASL1000	/easl/images/o0901617.png
 o0901634	1-.	PA₃	PA₃	PA3	I			EASL1004	/easl/images/o0901634.png
 o0901653		|PIRIG~b1×UR₂|	|PIRIG~b1×UR₂|	|PIRIG~b1xUR2|	I		𒪙	EASL1014	/easl/images/o0901653.png
-o0901651	C21b	|PIRIG~b1×1(N58@t)|	|PIRIG~b1×1(N58@t)|	-	I		󳁄	CSL053	
+o0901651	C21b	|PIRIG~b1×1(N58@t)|	|PIRIG~b1×1(N58@t)|	-	I		󳁄	CSL052	
 o0901664	c	RAD~a@t	RAD~a@t	|RAD~a@t|	I		𒪟	EASL1020	/easl/images/o0901664.png
 o0901665	1-	RI	RI	RI	I		󲦣	EASL1022	/easl/images/o0901665.png
 o0901666	dd	RI~x	RI~x	RI~x	I		󲦤	EASL1023	/easl/images/o0901666.png
@@ -208,7 +208,7 @@ o0901701	.	|SAL.LAM~b|	|SAL.LAM~b|	|SAL.LAM~b|	I		𒪷=𒪵‍𒦭	EASL1045	/eas
 o0901747	++	SIG~b	SIG~b	-	I		󳁸	EASL1066	/pcsl/images/add/thumb/SIGb.png
 o0901749	++	SIG@g	SIG@g	-	I		𒫐	EASL1067	o0901749
 o0901767		|SIG₂~b×1(N14)|	|SIG₂~b×1(N14)|	|SIG2~bx1(N14)|	I		𒫘	EASL1073	/easl/images/o0901767.png
-o0901773	1-:	SIKIL	SIKIL	SIKIL	I		󲨰=𒪵‍𒫄	EASL1084	/easl/images/o0901773.png
+o0901773	1-:	SIKIL	SIKIL	SIKIL	I		󲨰=𒪵‍𒫇	EASL1084	/easl/images/o0901773.png
 o0901787	1-	|SILA₃~a×DUG~b|	|SILA₃~a×DUG~b|	|SILA3~axDUG~b|	I		󲸑	EASL1089	/easl/images/o0901787.png
 o0901796		|SILA₃~a×GEŠTU~c5|	|SILA₃~a×GEŠTU~c5|	|SILA3~axGESZTU~c5|	I		𒫭	EASL1094	/easl/images/o0901796.png
 o0901804		|SILA₃~a×HI@g~a|	|SILA₃~a×HI@g~a|	|SILA3~axHI@g~a|	I		𒫰	EASL1097	/easl/images/o0901804.png
@@ -222,7 +222,6 @@ o0901893		|(SUKUD+SUKUD)~d|	|(SUKUD+SUKUD)~d|	|(SUKUD+SUKUD)~d|	I		𒬪	EASL1154
 o0901900	++	SUKUD@h	SUKUD@h	-	I		󳀍	EASL1159	/pcsl/images/add/thumb/SUKUDh.png
 o0901906		SUM~a@t	SUM~a@t	|SUM~a@t|	I		𒬱	EASL1161	/easl/images/o0901906.png
 o0901944	:	ŠANDANA~b	ŠANDANA~b	SZANDANA~b	I		𒭑=𒡎‍𒨺	EASL1187	/easl/images/o0901944.png
-o0901950	C01b	|ŠE~a@t.GAR|	|ŠE~a@t~v1.GAR|	-	I		󳁚	CSL071	
 o0901974		ŠEN~d	ŠEN~d	SZEN~d	I	𒭦	𒭦,𒭨,𒭩	EASL1202	/easl/images/o0901974.png
 o0901991		ŠIDIM@t	ŠIDIM@t	SZIDIM@t	I		𒭱	EASL1210	/easl/images/o0901991.png
 o0902022	n	|ŠITA~a1×ŠU₂|	|ŠITA~a1×ŠU₂~b|	|SZITA~a1xSZU2|	I		𒭾	EASL1218	/easl/images/o0902022.png
@@ -238,7 +237,7 @@ o0902051	n.	|ŠU₂.1(N02)|	|ŠU₂~b.1(N02)|	|SZU2.1(N02)|	I		𒮜=󳂐‍𒖾	
 o0902052	1-.	|ŠU₂.2(N57)|	|ŠU₂~b.2(N57)|	|SZU2.2(N57)|	I		󲷼=󳂐‍󰄑	EASL1251	/easl/images/o0902052.png
 o0902058	++	|ŠU₂×3(N57)|	|ŠU₂×3(N57)|	-	I		󳀒	EASL1242	/pcsl/images/add/thumb/SZU2-3N57-photo.png
 o0902065	++	ŠUR₂~c	ŠUR₂~c	-	I		󳁻	EASL1257	/pcsl/images/add/thumb/SZUR2c.png
-o0902072	1-:	ŠURUPPAK~c	ŠURUPPAK~c	SZURUPPAK~c	I		󲨒=𒬛‍𒥬‍𒪣	EASL1260	/easl/images/o0902072.png
+o0902072	1-:	ŠURUPPAK~c	ŠURUPPAK~c	SZURUPPAK~c	I		󲨒=𒬝‍𒥬‍𒪥	EASL1260	/easl/images/o0902072.png
 o0902075		TA~b	TA~b	TA~b	I		𒮧	EASL1262	/easl/images/o0902075.png
 o0902081		|TA~d×MAŠ|	|TA~d×MAŠ|	|TA~dxMASZ|	I		𒮪	EASL1265	/easl/images/o0902081.png
 o0902079	1-	TA~f	TA~f	TA~f	I		󲩙	EASL1267	/easl/images/o0902079.png
@@ -272,7 +271,7 @@ o0902371		URU~a1@n	URU~a1@n	|URU~a1@n|	I		𒱬	EASL1454	/easl/images/o0902371.pn
 o0902380		URUDU@g~b	URUDU@g~b	URUDU@g~b	I		𒱹	EASL1465	/easl/images/o0902380.png
 o0902390	1-	|UŠ~b×TAR~d|	|UŠ~b×TAR~d|	|USZ~bxTAR~d|	I		󲺕	EASL1472	/easl/images/o0902390.png
 o0902396	1-	UŠUR₃~a	UŠUR₃~a	USZUR3~a	I		󲫣	EASL1475	/easl/images/o0902396.png
-o0902419	:	ZABALAM~b	ZABALAM~b	ZABALAM~b	I		𒲒=𒧿‍𒱄	EASL1490	/easl/images/o0902419.png
+o0902419	:	ZABALAM~b	ZABALAM~b	ZABALAM~b	I		𒲒=𒨃‍𒱄	EASL1490	/easl/images/o0902419.png
 o0902420	1-	ZADIM	ZADIM	ZADIM	I		󲫲	EASL1491	/easl/images/o0902420.png
 o0902444		ZATU624~c	ZATU624~c	ZATU624~c	I		𒲦	EASL1508	/easl/images/o0902444.png
 o0902451		ZATU627	ZATU627	ZATU627	I		𒲬	EASL1513	/easl/images/o0902451.png

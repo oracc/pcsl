@@ -300,6 +300,12 @@
 @list U+126AB
 @ucun 𒚫
 @uname PROTO-CUNEIFORM SIGN ABGAL
+@form ABGAL
+@oid o0900047
+@ucun 𒚫
+@form ABGAL~v1
+@oid o0900048
+@ucun 𒚬
 @end sign
 
 @sign ABRIG
@@ -308,6 +314,9 @@
 @list U+126AD
 @ucun 𒚭
 @uname PROTO-CUNEIFORM SIGN ABRIG
+@form ABRIG~vv3
+@oid o0903688
+@ucun 󳂭
 @end sign
 
 @sign ABZU
@@ -607,7 +616,7 @@
 
 @sign ARATTA
 @oid o0900109
-@inote @useq 󰄒‍𒦬‍𒥬‍𒪣
+@inote @useq 󰄒‍𒦬‍𒥬‍𒪥
 @list U+126D9
 @ucun 𒛙
 @uname PROTO-CUNEIFORM SIGN ARATTA
@@ -984,13 +993,6 @@
 @list U+1270F
 @ucun 𒜏
 @uname PROTO-CUNEIFORM SIGN BU-A TIMES ONE-N58
-@end sign
-
-@sign |BU~a&BU~a|
-@oid o0900189
-@list U+F302C
-@ucun 󳀬
-@uname PROTO-CUNEIFORM SIGN BU-A OVER BU-A
 @end sign
 
 @sign |(BU~a&BU~a).NA₂~a|
@@ -2448,7 +2450,7 @@
 
 @sign ENDIB
 @oid o0900533
-@inote @useq 𒟖‍𒧢‍𒧬
+@inote @useq 𒟙‍𒧢‍𒧬
 @list U+127E6
 @ucun 𒟦
 @uname PROTO-CUNEIFORM SIGN ENDIB
@@ -2456,7 +2458,7 @@
 
 @sign ENGIZ
 @oid o0900534
-@inote @useq 𒟖‍𒧢‍𒡸
+@inote @useq 𒟙‍𒧢‍𒡸
 @list U+127E7
 @ucun 𒟧
 @uname PROTO-CUNEIFORM SIGN ENGIZ
@@ -2472,7 +2474,7 @@
 
 @sign ENLIL
 @oid o0900537
-@inote @useq 𒟖‍𒥁
+@inote @useq 𒟙‍𒥁
 @list U+127EA
 @ucun 𒟪
 @uname PROTO-CUNEIFORM SIGN ENLIL
@@ -2509,7 +2511,7 @@
 
 @sign ERIM₂
 @oid o0900544
-@inote @useq 𒨯‍𒪣
+@inote @useq 𒨯‍𒪥
 @list U+127EE
 @ucun 𒟮
 @uname PROTO-CUNEIFORM SIGN ERIM2
@@ -2735,6 +2737,12 @@
 @list U+1280C
 @ucun 𒠌
 @uname PROTO-CUNEIFORM SIGN GA-A BESIDE ZATU753
+@form |GA~a.ZATU753|
+@oid o0900607
+@ucun 𒠌
+@form |GA~a~v4.ZATU753|~v1
+@oid o0900608
+@ucun 𒠐
 @end sign
 
 @sign |GA~a×X|
@@ -3721,6 +3729,9 @@
 @list U+12892
 @ucun 𒢒
 @uname PROTO-CUNEIFORM SIGN GIBIL6
+@form GIBIL₆~vv3
+@oid o0903694
+@ucun 󳂳
 @end sign
 
 @sign GIG
@@ -4499,7 +4510,7 @@
 
 @sign ILDUM~a
 @oid o0900997
-@inote @useq 𒨙‍𒜋
+@inote @useq 𒨜‍𒜋
 @list U+128FC
 @ucun 𒣼
 @uname PROTO-CUNEIFORM SIGN ILDUM-A
@@ -4590,6 +4601,12 @@
 @list U+12909
 @ucun 𒤉
 @uname PROTO-CUNEIFORM SIGN IR11
+@form IR₁₁
+@oid o0901016
+@ucun 𒤈
+@form IR₁₁~v1
+@oid o0901017
+@ucun 𒤉
 @end sign
 
 @sign IRHAN
@@ -5046,6 +5063,12 @@
 @list U+1294C
 @ucun 𒥌
 @uname PROTO-CUNEIFORM SIGN KINGAL
+@form KINGAL
+@oid o0901109
+@ucun 𒥋
+@form KINGAL~v1
+@oid o0901110
+@ucun 𒥌
 @end sign
 
 @sign KIR₁₁
@@ -6554,6 +6577,12 @@
 @list U+12DF6
 @ucun 𒷶
 @uname PROTO-CUNEIFORM SIGN ONE-N57 BESIDE SHUBUR
+@form |1(N57).ŠUBUR~v1|
+@oid o0903221
+@ucun 𒷷
+@form |1(N57).ŠUBUR|
+@oid o0903220
+@ucun 𒷶
 @end sign
 
 @sign |2(N57).AB₂|
@@ -7003,6 +7032,12 @@
 @list U+12A28
 @ucun 𒨨
 @uname PROTO-CUNEIFORM SIGN NAMESHDA
+@form NAMEŠDA
+@oid o0901472
+@ucun 𒨧
+@form NAMEŠDA~v1
+@oid o0901473
+@ucun 𒨨
 @end sign
 
 @sign NANNA~a
@@ -7010,6 +7045,15 @@
 @list U+12A29
 @ucun 𒨩
 @uname PROTO-CUNEIFORM SIGN NANNA-A
+@form NANNA~a
+@oid o0901475
+@ucun 𒨩
+@form NANNA~a~v1
+@oid o0901476
+@ucun 𒨪
+@form NANNA~a~v2
+@oid o0903673
+@ucun 󳂞
 @end sign
 
 @sign NANNA~b
@@ -7885,6 +7929,7 @@
 @list U+12AA2
 @ucun 𒪢
 @uname PROTO-CUNEIFORM SIGN RI8-B
+@glyf ~1 󳀬 F302C o0900189
 @end sign
 
 @sign RU
@@ -8025,6 +8070,9 @@
 @aka |SAL.ZATU751~c|
 @oid o0901705
 @inote @useq 𒪵_󳀏
+@form |HI×HI|
+@oid o0903383
+@ucun 󳀏
 @end sign
 
 @sign |SAL.KUR~a|
@@ -8096,10 +8144,10 @@
 
 @sign SANGA~e
 @oid o0901715
-@list U+F3064
-@ucun 󳁤
+@list U+F3065
+@ucun 󳁥
 @uname PROTO-CUNEIFORM SIGN SANGA-E
-@glyf ~1 󳁥 F3065 o0901716
+@glyf ~1 󳁤 F3064 o0901715
 @end sign
 
 @sign SAR~a
@@ -8383,7 +8431,7 @@
 
 @sign SIKIL
 @oid o0901773
-@inote @useq 𒪵‍𒫄
+@inote @useq 𒪵‍𒫇
 @list U+F2A30
 @ucun 󲨰
 @uname PROTO-CUNEIFORM SIGN SIKIL
@@ -8775,10 +8823,13 @@
 
 @sign SIPA
 @oid o0901868
-@inote @useq 𒪋‍𒰥
+@inote @useq 𒪌‍𒰥
 @list U+12B1A
 @ucun 𒬚
 @uname PROTO-CUNEIFORM SIGN SIPA
+@form SIPA~vv3
+@oid o0903710
+@ucun 󳃃
 @end sign
 
 @sign SU~a
@@ -8989,7 +9040,7 @@
 
 @sign SUSA
 @oid o0901909
-@inote @useq 𒧿‍𒟯
+@inote @useq 𒨃‍𒟯
 @list U+12B36
 @ucun 𒬶
 @uname PROTO-CUNEIFORM SIGN SUSA
@@ -9075,6 +9126,15 @@
 @list U+12B43
 @ucun 𒭃
 @uname PROTO-CUNEIFORM SIGN SHAB-A
+@form ŠAB~a
+@oid o0901926
+@ucun 𒭂
+@form ŠAB~a~v1
+@oid o0901927
+@ucun 𒭃
+@form ŠAB~a~vv3
+@oid o0903713
+@ucun 󳃆
 @end sign
 
 @sign ŠAB~b
@@ -9082,6 +9142,12 @@
 @list U+12B45
 @ucun 𒭅
 @uname PROTO-CUNEIFORM SIGN SHAB-B
+@form ŠAB~b
+@oid o0901928
+@ucun 𒭄
+@form ŠAB~b~v1
+@oid o0901929
+@ucun 𒭅
 @end sign
 
 @sign ŠAGAN
@@ -9178,6 +9244,7 @@
 @list U+F305B
 @ucun 󳁛
 @uname PROTO-CUNEIFORM SIGN SHE-A BESIDE GAR
+@glyf ~1 󳁚 F305A o0901950
 @end sign
 
 @sign |ŠE~a.KIN₂~c|
@@ -9186,6 +9253,9 @@
 @list U+12B53
 @ucun 𒭓
 @uname PROTO-CUNEIFORM SIGN SHE-A BESIDE KIN2-C
+@form |(ŠE~a.KIN₂~c)~vv3|
+@oid o0903716
+@ucun 󳃉
 @end sign
 
 @sign |ŠE~a.NAM₂|
@@ -9194,6 +9264,12 @@
 @list U+12B54
 @ucun 𒭔
 @uname PROTO-CUNEIFORM SIGN SHE-A BESIDE NAM2
+@form |ŠE~a.NAM₂|
+@oid o0901955
+@ucun 𒭔
+@form |ŠE~a.NAM₂~v1|
+@oid o0901956
+@ucun 𒭕
 @end sign
 
 @sign |ŠE~a&ŠE~a|
@@ -9208,13 +9284,6 @@
 @list U+12B57
 @ucun 𒭗
 @uname PROTO-CUNEIFORM SIGN SHE-A TENU
-@end sign
-
-@sign |ŠE~a@t.GAR|
-@oid o0901950
-@list U+F305A
-@ucun 󳁚
-@uname PROTO-CUNEIFORM SIGN SHE-A TENU BESIDE GAR
 @end sign
 
 @sign ŠE~b
@@ -9598,6 +9667,12 @@
 @list U+12B93
 @ucun 𒮓
 @uname PROTO-CUNEIFORM SIGN SHU2 BESIDE EN-A
+@form |ŠU₂~a.EN~a~v2|
+@oid o0902047
+@ucun 𒮔
+@form |(ŠU₂~a.EN~a~v1)~vv3|
+@oid o0903719
+@ucun 󳃌
 @end sign
 
 @sign |ŠU₂.EN~b|
@@ -9605,6 +9680,9 @@
 @list U+12B94
 @ucun 𒮔
 @uname PROTO-CUNEIFORM SIGN SHU2 BESIDE EN-A
+@form |ŠU₂.EN~b|
+@oid o0903634
+@ucun 𒮕
 @end sign
 
 @sign |ŠU₂.GIŠ|
@@ -9725,6 +9803,12 @@
 @list U+12BA3
 @ucun 𒮣
 @uname PROTO-CUNEIFORM SIGN SHURUPPAK-A
+@form ŠURUPPAK~a
+@oid o0902068
+@ucun 𒮢
+@form ŠURUPPAK~a~v1
+@oid o0902069
+@ucun 𒮣
 @end sign
 
 @sign ŠURUPPAK~b
@@ -9732,11 +9816,17 @@
 @list U+12BA5
 @ucun 𒮥
 @uname PROTO-CUNEIFORM SIGN SHURUPPAK-B
+@form ŠURUPPAK~b
+@oid o0902070
+@ucun 𒮤
+@form ŠURUPPAK~b~v1
+@oid o0902071
+@ucun 𒮥
 @end sign
 
 @sign ŠURUPPAK~c
 @oid o0902072
-@inote @useq 𒬛‍𒥬‍𒪣
+@inote @useq 𒬝‍𒥬‍𒪥
 @list U+F2A12
 @ucun 󲨒
 @uname PROTO-CUNEIFORM SIGN SHURUPPAK-C
@@ -11451,7 +11541,7 @@
 @sign ZABALAM~a
 @aka ZABALA~a
 @oid o0902418
-@inote @useq 𒧿‍𒚘
+@inote @useq 𒨃‍𒚘
 @list U+12C91
 @ucun 𒲑
 @uname PROTO-CUNEIFORM SIGN ZABALAM-A
@@ -11459,7 +11549,7 @@
 
 @sign ZABALAM~b
 @oid o0902419
-@inote @useq 𒧿‍𒱄
+@inote @useq 𒨃‍𒱄
 @list U+12C92
 @ucun 𒲒
 @uname PROTO-CUNEIFORM SIGN ZABALAM-B

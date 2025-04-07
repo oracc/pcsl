@@ -33,11 +33,12 @@ o0901491	NERGAL~v	|GIR₃~c.AB~a|	GIR₃~c AB~a
 o0901578	NINLIL	|E₂~a.NUN~a|	E₂~a NUN~a
 o0901773	SIKIL	|SAL.SI|	SAL SI
 o0901868	SIPA	|PA~a.UDU~a|	PA~a UDU~a
+o0901868	SIPA	󳃃=|PA~a~v2.UDU~a|	PA~a UDU~a
 o0901909	SUSA	|MUŠ₃~a.ERIN|	MUŠ₃~a ERIN
-o0901926	ŠAB~a	𒭂=|PA~a&IB~a~v1|	PA~a IB~a~v1
+o0901926	ŠAB~a	𒭂=|PA~a∘IB~a~v1|	PA~a IB~a~v1
 o0901926	ŠAB~a	𒭃=|PA~a.IB~a|	PA~a IB~a
-o0901926	ŠAB~a	󳃆=|PA~a&IB~a|	PA~a IB~a
-o0901928	ŠAB~b	𒭄=|IB~a~v1&PAP~a|	PAP~a IB~a~v2
+o0901926	ŠAB~a	󳃆=|PA~a∘IB~a|	PA~a IB~a
+o0901928	ŠAB~b	𒭄=|IB~a~v1∘PAP~a|	PAP~a IB~a~v2
 o0901928	ŠAB~b~v1	𒭅=|PAP~a.IB~a|	PAP~a IB~a
 o0901943	ŠANDANA~a	|GAL~a.NIM~a|	GAL~a NIM~a
 o0901944	ŠANDANA~b	|GAL~a.NI~a|	GAL~a NI~a

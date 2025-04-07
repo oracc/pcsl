@@ -55,13 +55,16 @@ asl: 00lib/pcsl.asl
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
 	00bin/pc25-final.plx
 
-00etc/seq-beside+.tsv: 00etc/seq-beside.tsv 00bin/seq+.plx
+00etc/seq-beside+.tsv: 00etc/seq-beside.tsv 00bin/seq+.plx 00etc/glyf_name.tsv
 	00bin/seq+.plx <$< >$@
 
-00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv 00bin/seq+.plx
+00etc/seq-opaque+.tsv: 00etc/seq-opaque.tsv 00bin/seq+.plx 00etc/glyf_name.tsv
 	00bin/seq+.plx <$< >$@
 
 seq: 00web/easl-seq.html
+
+00etc/glyf_name.tsv: 00etc/easl-final.tsv 00etc/cusas-final.tsv
+	00bin/pcsl-final.plx -g
 
 00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
 	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@

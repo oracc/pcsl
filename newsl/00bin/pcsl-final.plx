@@ -9,7 +9,9 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $glyftab = 0;
 GetOptions(
+    g=>\$glyftab,
     );
 
 my @efields = qw/sn oid tag pc24 flag fnnm char row src/;
@@ -58,8 +60,12 @@ pcsl_scodes();
 
 #print Dumper \%pcsl; exit 1;
 
-# write pcsl-final.tsv
-pcsl_tsv();
+# write pcsl-final.tsv or glyftab
+if ($glyftab) {
+    glyf_tsv();
+} else {
+    pcsl_tsv();
+}
 
 close(L);
 
@@ -78,6 +84,48 @@ sub charcommas {
 	}
     }
     join(',', @n);
+}
+
+sub glyf_chars {
+    my($r,$c,$n) = @_;
+    my @c = split(/[,;]/,$c);
+    if ($#c >= 0) {
+	if ($r) {
+	    $r =~ s/=.*$//;
+	    print "$r\t$n\n";
+	} else {
+	    my $cc = shift @c;
+	    $cc =~ s/=.*$//;
+	    print $cc, "\t$n\n";
+	}
+	my $glyf_index = 1;
+	foreach my $cc (@c) {
+	    unless ($cc eq $r) {
+		$cc =~ s/=.*$//;
+		print "$cc\t$n~$glyf_index\n";
+		++$glyf_index;
+	    }
+	}
+    }
+}
+
+sub glyf_tsv {
+    open(T,'>00etc/glyf_name.tsv'); select T;
+    foreach my $o (sort { ${$pcsl{$a}}{'sc'} <=> ${$pcsl{$b}}{'sc'} } keys %pcsl) {
+	my %p = %{$pcsl{$o}};
+	my $nc = ($p{'char'} =~ tr/;,/;,/);
+	unless ($p{'ref'}) {
+	    if ($nc && $p{'tag'} !~ /[.:]/) {
+		my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;
+		warn "refglyph	$o	$rg	$p{'char'}\n" unless $nc < 2;
+		$p{'ref'} = $rg;
+	    } else {
+		$p{'ref'} = '';
+	    }
+	}
+	glyf_chars($p{'ref'}, $p{'char'}, $p{'pc25'});
+    }
+    close(T);
 }
 
 sub load_cusas {

@@ -12,9 +12,12 @@ use ORACC::XML;
 use Getopt::Long;
 
 my $asl = 0;
+my $aslg = 0;
 GetOptions(
     a=>\$asl,
     );
+
+$asl = $aslg if $aslg;
 
 my $n = shift @ARGV;
 my $f = '';
@@ -29,7 +32,7 @@ if ($n =~ /\.tsv/) {
 die "$0: must give X-final.tsv base. Stop.\n"
     unless -r $f;
 
-my $outfile = $asl ? "../00lib/pcsl.asl" : "00etc/$n-final.xml";
+my $outfile = $asl ? ($aslg ? "00etc/pc25_charnames.tsv" : "../00lib/pcsl.asl") : "00etc/$n-final.xml";
 $outfile =~ s/-final// if $n =~ /^no_/;
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
@@ -53,9 +56,9 @@ my %unames = (); load_unames() if $pcslflag;
 
 open(X,">$outfile"); select X;
 if ($asl) {
-    print `cat 00etc/header.asl`;
+    print `cat 00etc/header.asl` unless $aslg;
 } else {
-    print "<sl n=\"$n\">" unless $asl;
+    print "<sl n=\"$n\">";
 }
 open(N,$f);
 while (<N>) {
@@ -121,7 +124,7 @@ if ($asl) {
 #    print `cat 00etc/add.asl`;
 #    print `cat 00etc/num.asl`;
 #    print `cat 00etc/n57-keep.asl`;
-    print `cat 00etc/compoundonly.asl`;
+    print `cat 00etc/compoundonly.asl` unless $aslg;
 } else {
     print '</sl>';
 }
@@ -132,35 +135,54 @@ close(X);
 ################################################################################
 
 sub asl_chars {
-    my($r,$c,$t) = @_;
+    my($r,$c,$n) = @_;
     my @c = split(/[,;]/,$c);
-    if ($r) {
-	asl_pchar($r);
-    } else {
-	asl_pchar(shift @c);
-    }
-    my $glyf_index = 1;
-    foreach my $cc (@c) {
-	asl_pglyf($cc,$glyf_index++) unless $cc eq $r;
+    if ($#c >= 0) {
+	if ($r) {
+	    if ($aslg) {
+		print "$r\t$n\n";
+	    } else {
+		asl_pchar($r);
+	    }
+	} else {
+	    if ($aslg) {
+		print shift @c, "\t$n\n";
+	    } else {
+		asl_pchar(shift @c);
+	    }
+	}
+	my $glyf_index = 1;
+	foreach my $cc (@c) {
+	    unless ($cc eq $r) {
+		if ($aslg) {
+		    print "$cc\t$n~$glyf_index\n";
+		    ++$glyf_index;
+		} else {
+		    asl_pglyf($cc,$glyf_index++);
+		}
+	    }
+	}
     }
 }
 
 sub asl_sign {
     my($s,$o,$r,$c) = @_;
-    my $om = $oidmap{$o} || $o;
-    print "\@sign $s\n";
-    if ($aka{$o}) {
-	foreach my $a (@{$aka{$o}}) {
-	    print "\@aka $a\n";
+    unless ($aslg) {
+	my $om = $oidmap{$o} || $o;
+	print "\@sign $s\n";
+	if ($aka{$o}) {
+	    foreach my $a (@{$aka{$o}}) {
+		print "\@aka $a\n";
+	    }
+	} elsif ($aka{$om}) {
+	    foreach my $a (@{$aka{$om}}) {
+		print "\@aka $a\n";
+	    }
 	}
-    } elsif ($aka{$om}) {
-	foreach my $a (@{$aka{$om}}) {
-	    print "\@aka $a\n";
-	}
+	print "\@oid $om\n";
     }
-    print "\@oid $om\n";
-    asl_chars($r, $c);
-    print "\@end sign\n\n";
+    asl_chars($r, $c, $s);
+    print "\@end sign\n\n" unless $aslg;
 }
 
 sub asl_pchar {
@@ -203,6 +225,15 @@ sub asl_pchar {
 sub asl_pglyf {
     my($c,$tag) = @_;
     if (length $c > 1) {
+	my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
+	# warn "pglyf: $c: form without '='\n" unless $cc;
+	if ($cc) {
+	    my $fh = sprintf("%X", ord $cc);
+	    my $fo = $u{$fh};
+	    my $fn = $n{$fo};
+	    print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
+	} else {
+	}
 	# print "\@form $c\n";
     } else {
 	my $h = sprintf("%X", ord $c);
