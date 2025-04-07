@@ -1,6 +1,5 @@
 @compoundonly 1(N57@t)
 @compoundonly 1(N58)~a
-@compoundonly AB
 @compoundonly ANŠE~d
 @compoundonly DUB@n~a
 @compoundonly DUB@n~b

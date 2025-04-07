@@ -103,7 +103,7 @@ while (<N>) {
 	}
     }
     if ($asl) {
-	asl_sign($p,$o,$r,$c);
+	asl_sign($p,$o,$r,$c) unless $p eq 'RI~x';
     } else {
 	if ($pcslflag) {
 	    my $row = $fn ? " row=\"$fn\"" : '';
@@ -139,8 +139,9 @@ sub asl_chars {
     } else {
 	asl_pchar(shift @c);
     }
+    my $glyf_index = 1;
     foreach my $cc (@c) {
-	asl_pglyf($cc) unless $cc eq $r;
+	asl_pglyf($cc,$glyf_index++) unless $cc eq $r;
     }
 }
 
@@ -200,12 +201,14 @@ sub asl_pchar {
 }
 
 sub asl_pglyf {
-    return;
-    my $c = shift;
+    my($c,$tag) = @_;
     if (length $c > 1) {
-	print "\@form $c\n";
+	# print "\@form $c\n";
     } else {
-	print "\@glyf $c\n";
+	my $h = sprintf("%X", ord $c);
+	my $go = $u{$h};
+	warn "pglyf: no OID for char $h\n" unless $go;
+	print "\@glyf ~$tag $c $h $go\n";;
     }
 }
 

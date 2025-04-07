@@ -306,6 +306,7 @@ sub pcsl_tsv {
 	}
 	$p{'row'} = '' unless $p{'src'} =~ /EASL/;
 	$p{'row'} = '' unless $p{'row'};
+	$p{'oid'} = $om if $om;
 	print T join("\t", @p{@pfields}), "\n";
     }
     close(T);
