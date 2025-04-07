@@ -169,6 +169,12 @@
 				<xsl:when test="@sn='ZWJ'">
 				  <xsl:text>|</xsl:text>
 				</xsl:when>
+				<xsl:when test="@sn='IPS'"> <!-- Invisible Plus Sign -->
+				  <xsl:text>⊕</xsl:text>
+				</xsl:when>
+				<xsl:when test="@sn='ITS'"> <!-- Invisible Times Sign -->
+				  <xsl:text>⊗</xsl:text>
+				</xsl:when>
 				<xsl:when test="starts-with(@u,'E01')">
 				  <span class="ivs">
 				    <xsl:text>~</xsl:text>
