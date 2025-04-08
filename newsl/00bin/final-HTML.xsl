@@ -133,23 +133,27 @@
 	    <div class="chars">
 	      <xsl:choose>
 		<xsl:when test="ff">
-		  <div>
-		    <span class="ofs-pc ofs-200">
-		      <xsl:for-each select ="ff/f">
-			<xsl:value-of select="@c"/>
-		      </xsl:for-each>
-		    </span>
-		  </div>
-		  <div class="fhex">
-		    <span class="ucode">
-		      <xsl:text>[</xsl:text>
-		      <xsl:for-each select ="ff/f">
-			<xsl:value-of select="@u"/>
-			<xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
-		      </xsl:for-each>
-		      <xsl:text>]</xsl:text>
-		    </span>
-		  </div>
+		  <xsl:for-each select="ff">
+		    <div>
+		      <div>
+			<span class="ofs-pc ofs-200">
+			  <xsl:for-each select ="f">
+			    <xsl:value-of select="@c"/>
+			  </xsl:for-each>
+			</span>
+		      </div>
+		      <div class="fhex">
+			<span class="ucode">
+			  <xsl:text>[</xsl:text>
+			  <xsl:for-each select ="f">
+			    <xsl:value-of select="@u"/>
+			    <xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
+			  </xsl:for-each>
+			  <xsl:text>]</xsl:text>
+			</span>
+		      </div>
+		    </div>
+		  </xsl:for-each>
 		</xsl:when>
 		<xsl:when test="f">
 		  <xsl:for-each select="f">

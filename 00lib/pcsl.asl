@@ -8097,7 +8097,6 @@
 @end sign
 
 @sign |SAL.ZATU751~a|
-@aka |SAL.ZATU751~c|
 @oid o0901705
 @inote @useq 𒪵_𒵵
 @end sign
