@@ -35,6 +35,8 @@ delete F30BF because duplicate F2960
 
 delete F30A6 because duplicate F30C6
 
+delete F30C2 because duplicate F30A2
+
 ENKUM/NINKUM sequence or character? EZEN~a×ŠE~a in both
 
 
@@ -121,7 +123,7 @@ CPD sets curr glyf name so
 
 GTG is a GRAPHETICS tag for tagging variants in a corpus; ~DIGIT
 tags should not be used in the corpus because if auto font gen is in
-use they ~DIGIT tags can change during font development; GTG must be
+use the ~DIGIT tags can change during font development; GTG must be
 constant.
 
 @glyf NE@s (sheshig-form)
@@ -151,3 +153,11 @@ the VAR or using the OTF notation
 In ATF XSux the form UMUM~va0 is equivelent to UMUM@s if @glyf UMUM@s
 ... a0 is in effect; this does not work for Pcun because it conflicts
 with existing tags
+
+====
+
+Sequences DB uses internal format with PUA components and invisible punctuation as descriptors
+
+PC24 has liga disamb F5001 .. F5020 corresponding to ~1 .. ~20
+
+

@@ -10,7 +10,7 @@ o0900533		𒟙‍𒧢‍𒧬	|EN~a.ME~a.MU|
 o0900534		𒟙‍𒧢‍𒡸	|EN~a.ME~a.GI|
 o0900537		𒟙‍𒥁	|EN~a.KID~a|
 o0900544		𒨯‍𒪥	|NE~a.RU|
-o0900841	𒢒	𒨳⁢𒡸	|NE~a∘GI|
+o0900841	𒢒	𒨳⁢𒡸	|NE~c∘GI|
 o0900841	󳂳	󳂠⁢𒡸	|NE~a∘GI|
 o0900905		𒡱‍𒨖	|GEŠTU~a.NAGA~a|
 o0900966		𒣦‍𒦀	|HI.LAGAB~a|
@@ -36,9 +36,9 @@ o0901773		𒪵‍𒫇	|SAL.SI|
 o0901868		𒪌‍𒰥	|PA~a.UDU~a|
 o0901868	󳃃	𒪍‍𒰥	|PA~a~v2.UDU~a|
 o0901909		𒨃‍𒟯	|MUŠ₃~a.ERIN|
-o0901926	𒭂	𒪌⁢󳃳	|PA~a∘IB~a~v1|
-o0901926	𒭃	𒪌‍𒣴	|PA~a.IB~a|
-o0901926	󳃆	𒪌⁢𒣴	|PA~a∘IB~a|
+o0901926	𒭂	𒪋⁢⁢󳃳	|PA~a∘IB~a~v1|
+o0901926	𒭃	‍𒪋⁢𒣴	|PA~a.IB~a|
+o0901926	󳃆	𒪍⁢⁢𒣴	|PA~a∘IB~a|
 o0901928	𒭄	󳃴⁢𒪑	|IB~a~v2∘PAP~a|
 o0901928	𒭅	𒪑‍𒣴	|PAP~a.IB~a|
 o0901943		𒡎‍𒩃	|GAL~a.NIM~a|

@@ -417,7 +417,7 @@ sub pchar {
 	} elsif ($ch eq '200D') {
 	    print "<$f sn=\"ZWJ\" c=\"$cc\" u=\"$ch\"/>";
 	} elsif ($ch eq '2062') {
-	    print "<$f sn=\"IMS\" c=\"$cc\" u=\"$ch\"/>";
+	    print "<$f sn=\"ITS\" c=\"$cc\" u=\"$ch\"/>";
 	} elsif ($ch eq '2064') {
 	    print "<$f sn=\"IPS\" c=\"$cc\" u=\"$ch\"/>";
 	} elsif ($ch =~ /^E01/) {
@@ -440,11 +440,14 @@ sub sl {
 		    my($lp,$lc) = @$lpc;
 		    my $diff = check_ext($p,$lp);
 		    my $dattr = ($diff ? "d=\"$diff\" " : '');
+		    print '<cc>' if $lc =~ /_/;
 		    my @c = grep(length,split(/(.)/,$lc));
 		    foreach my $cc (@c) {
+			next if $cc eq '_';
 			my $h = sprintf("%X", ord($cc));
 			printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
 		    }
+		    print '</cc>' if $lc =~ /_/;
 		}
 		print '</s>';
 	    } else {

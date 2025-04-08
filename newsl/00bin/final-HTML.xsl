@@ -157,7 +157,7 @@
 		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 		    </div>
 		    <div class="fhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
-		    <xsl:if test="q">
+		    <xsl:if test="xqx"> <!-- really test="q" but disabling this temporarily -->
 		      <div class="fseq">
 			<div class="fseqc">
 			  <span class="ofs-pc ofs-150">
@@ -288,31 +288,73 @@
   <xsl:template match="sl">
     <xsl:for-each select="s">
       <td class="glyf">
-	<xsl:for-each select="c">
-	  <div>
-	    <xsl:choose>
-	      <xsl:when test="not(contains(../../../@glyf,@c))">
-		<span class="newglyf ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:choose>
-		  <xsl:when test="@d">
-		    <span class="diffc ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
-		    <span class="diffd"><xsl:value-of select="concat('&#xa0;(',@d,')')"/></span>
-		  </xsl:when>
-		  <xsl:otherwise>
-		    <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
-		  </xsl:otherwise>
-		</xsl:choose>
-	      </xsl:otherwise>
-	    </xsl:choose>
-	  </div>
-	  <div>
-	    <span class="ucode"><xsl:value-of select="concat('[',@h,']')"/></span>
-	  </div>
-	</xsl:for-each>
+	<xsl:apply-templates mode="sl"/>
       </td>
     </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template mode="sl" match="cc">
+    <div>
+      <xsl:for-each select="c">
+	<div class="sl-cc-c">
+	  <xsl:choose>
+	    <xsl:when test="not(contains(../../../../@glyf,@c))">
+	      <span class="newglyf ofs-pc ofs-200">
+		<xsl:value-of select="@c"/>
+	      </span>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:choose>
+		<xsl:when test="@d">
+		  <span class="diffc ofs-pc ofs-200">
+		    <xsl:value-of select="@c"/>
+		  </span>
+		  <span class="diffd"><xsl:value-of select="concat('&#xa0;(',@d,')')"/></span>
+		</xsl:when>
+		<xsl:otherwise>
+		  <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		</xsl:otherwise>
+	      </xsl:choose>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</div>
+      </xsl:for-each>
+      <xsl:for-each select="c">
+	<div class="sl-cc-u">
+	  <span class="ucode"><xsl:value-of select="concat('[',@h,']')"/></span>
+	</div>
+      </xsl:for-each>
+    </div>
+  </xsl:template>
+  
+  <xsl:template mode="sl" match="c">
+    <div>
+      <div>
+	<xsl:choose>
+	  <xsl:when test="not(contains(../../../@glyf,@c))">
+	    <span class="newglyf ofs-pc ofs-200">
+	      <xsl:value-of select="@c"/>
+	    </span>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:choose>
+	      <xsl:when test="@d">
+		<span class="diffc ofs-pc ofs-200">
+		  <xsl:value-of select="@c"/>
+		</span>
+		<span class="diffd"><xsl:value-of select="concat('&#xa0;(',@d,')')"/></span>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </div>
+      <div>
+	<span class="ucode"><xsl:value-of select="concat('[',@h,']')"/></span>
+      </div>
+    </div>
   </xsl:template>
   
   <xsl:template name="chr">
