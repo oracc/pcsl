@@ -212,7 +212,7 @@ sub load_seq {
 	my($o,$h) = split(/\t/,$u);
 	$g{$o} = chr(hex($h));
     }
-    my @seq = `cat 00etc/nseq.tsv`; chomp @seq;
+    my @seq = `cat 00etc/seq-base.tsv`; chomp @seq;
     foreach my $s (@seq) {
 	my($o,$g,$c,$n) = split(/\t/,$s);
 	if ($g{$o}) {
