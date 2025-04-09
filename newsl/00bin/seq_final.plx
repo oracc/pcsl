@@ -17,6 +17,7 @@ my %u = (); load_unicode();
 my %glyf = (); my @glyf = `cat 00etc/glyf_name.tsv`; chomp @glyf;
 foreach (@glyf) {
     my($u,$n) = split(/\t/,$_); $glyf{$u} = $n;
+    $glyf{$n} = $u;
     my $h = sprintf("%X", ord($u)); $glyf{$h} = $n;
 }
 
@@ -51,7 +52,11 @@ foreach (@seq) {
     $c = '' unless $c;
 
     my $xn = seq_name($s);
-    print "$o\t$c\t$s\t$xn\n";
+    my $sv = seq_view($s);
+    my $sq = seq_liga($s);
+    my $lv = seq_liga_view($s);
+
+    print "$o\t$c\t$s\t$sv\t$xn\t$sq\t$lv\n";
 }
 
 1;
@@ -67,6 +72,56 @@ sub load_unicode {
     foreach (@a) { my($o,$u) = split(/\t/,$_); unless ($u{$u}) { $u{$u} = $o; $u{$o} = $u; } }
     @a = `cut -f1,3 ../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); unless ($u{$u}) { $u{$u} = $o; $u{$o} = $u; } }
+}
+
+sub seq_liga {
+    my @x = grep(length,split(/(.)/,$_[0]));
+    my @xx = ();
+    foreach my $x (@x) {
+	if ($glyf{$x}) {
+	    my $n = $glyf{$x};
+	    $n =~ s/~(\d+)$//g;
+	    my $v = $1;
+	    my $h = $glyf{$n};
+	    push @xx, sprintf("%X", ord($glyf{$glyf{$h}}));
+	    if ($v) {
+		my $e = sprintf("%X",0xe0100+$v);
+		push @xx, $e;
+	    }
+	} else {
+	    push @xx, sprintf("%X", ord($x));
+	}
+    }
+    join('_',@xx);
+}
+
+sub seq_liga_view {
+    my @x = grep(length,split(/(.)/,$_[0]));
+    my @xx = ();
+    foreach my $x (@x) {
+	if ($glyf{$x}) {
+	    my $n = $glyf{$x};
+	    $n =~ s/~(\d+)$//g;
+	    my $v = $1;
+	    my $h = $glyf{$n};
+	    push @xx, $glyf{$glyf{$h}};
+	    if ($v) {
+		$v =~ tr/0-9/₀-₉/;
+		push @xx, $v;
+	    }
+	} elsif (ord($x) > 0xe0100 && ord($x) < 0xe0200) {
+	    push @xx, $x;
+	} elsif ($x eq '‍') { # ZWJ
+	    push @xx, '.';
+	} elsif ($x eq '⁤') { # IPS
+	    push @xx, '+';
+	} elsif ($x eq '⁢') { # ITS
+	    push @xx, '∘';
+	} elsif ($x eq 'O') { # ITS
+	    push @xx, $x;
+	}
+    }
+    join('',@xx);
 }
 
 sub seq_name {
@@ -90,4 +145,27 @@ sub seq_name {
 	}
     }
     '|'.join('',@xx).'|';
+}
+
+sub seq_view {
+    my @x = grep(length,split(/(.)/,$_[0]));
+    my @xx = ();
+    foreach my $x (@x) {
+	if ($glyf{$x}) {
+	    push @xx, $x;
+	} elsif (ord($x) > 0xe0100 && ord($x) < 0xe0200) {
+	    push @xx, sprintf("~%X",ord($x)-0xe0100);
+	} elsif ($x eq '‍') { # ZWJ
+	    push @xx, '.';
+	} elsif ($x eq '⁤') { # IPS
+	    push @xx, '+';
+	} elsif ($x eq '⁢') { # ITS
+	    push @xx, '∘';
+	} elsif ($x eq 'O') { # ITS
+	    push @xx, $x;
+	} else {
+	    printf STDERR "seq_name: no rule for char $x = hex %X\n", ord($x);
+	}
+    }
+    join('',@xx);
 }
