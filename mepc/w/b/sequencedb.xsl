@@ -7,14 +7,13 @@
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <thead>
-	<id>OID</id>
-	<td>PUA</td>
-	<td>SEQ</td>
-	<td>SVW</td>
-	<td>SDC</td>
-	<td>ATF</td>
-	<td>LIG</td>
-	<td>LVW</td>
+	<th>OID</th>
+	<th>PUA</th>
+	<th>SEQ</th>
+	<th>SVW</th>
+	<th>ATF</th>
+	<th>LIG</th>
+	<th>LVW</th>
       </thead>
       <tbody>
 	<xsl:apply-templates/>
@@ -29,8 +28,15 @@
       <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[2]"/></td>
       <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[3]"/></td>
       <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[4]"/></td>
-      <xsl:copy-of select="h:td[5]"/>
-      <xsl:copy-of select="h:td[6]"/>
+      <td class="uname"><xsl:value-of select="h:td[5]"/></td>
+      <xsl:choose>
+	<xsl:when test="string-length(h:td[6])>29">
+	  <td class="ucode4"><xsl:value-of select="h:td[6]"/></td>
+	</xsl:when>
+	<xsl:otherwise>
+	  <td class="ucode3"><xsl:value-of select="h:td[6]"/></td>
+	</xsl:otherwise>
+      </xsl:choose>
       <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[7]"/></td>
     </xsl:copy>
   </xsl:template>

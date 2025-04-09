@@ -91,6 +91,8 @@ td.lrow { padding-left: 5px; text-align: left; vertical-align: top; }
 .diffd { font-size: 90%; }
 .ucode { font-size: 80%; }
 .ucode2 { font-size: 70%; }
+.ucode3 { text-align: left; font-size: 80%; }
+.ucode4 { text-align: left; font-size: 70%; } 
 
 .sl-cc-c { display: inline-block; }
 .sl-cc-u { display: inline-block; font-size: 70%; }

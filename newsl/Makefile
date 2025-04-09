@@ -118,7 +118,8 @@ ${WWW}/pcsl/sl-overview.html: 00etc/sl-overview.html
 
 css:
 	sudo mkdir -p /home/oracc/www/pcsl/css
-	sudo cp -u ../00res/css/*.css /home/oracc/www/pcsl/css/
+	sudo cp -uv ../00res/css/*.css /home/oracc/pcsl/00res/css/
+	sudo cp -uv ../00res/css/*.css /home/oracc/www/pcsl/css/
 
 js:
 	sudo mkdir -p /home/oracc/www/pcsl/js
