@@ -4383,6 +4383,7 @@
 @list U+128ED
 @ucun 𒣭
 @uname PROTO-CUNEIFORM SIGN HI TIMES ONE-N57 BESIDE HI TIMES ONE-N57
+@glyf ~1 󳂒 F3092 o0903408
 @end sign
 
 @sign |HI×1(N57@t)|
@@ -4449,6 +4450,8 @@
 @list U+128F4
 @ucun 𒣴
 @uname PROTO-CUNEIFORM SIGN IB-A
+@glyf ~1 󳃳 F30F3 o0903767
+@glyf ~2 󳃴 F30F4 o0903768
 @end sign
 
 @sign IB~a@n
@@ -7004,6 +7007,7 @@
 @list U+12A23
 @ucun 𒨣
 @uname PROTO-CUNEIFORM SIGN NAM2
+@glyf ~1 󳃻 F30FB o0903775
 @end sign
 
 @sign |NAM₂×1(N01)|
@@ -9637,8 +9641,9 @@
 @ucun 𒮘
 @uname PROTO-CUNEIFORM SIGN X5
 @glyf ~1 𒮑 12B91 o0902039
-@glyf ~2 󳃍 F30CD o0903720
-@glyf ~3 󳂐 F3090 o0902038
+@glyf ~2 󳃼 F30FC o0903776
+@glyf ~3 󳃍 F30CD o0903720
+@glyf ~4 󳂐 F3090 o0902038
 @end sign
 
 @sign |ŠU₂.AN|
@@ -9667,10 +9672,12 @@
 
 @sign |ŠU₂.EN~a|
 @oid o0903633
-@inote @useq 𒮑‍𒟖
-@list U+12B93
-@ucun 𒮓
+@list U+12B94
+@ucun 𒮔
 @uname PROTO-CUNEIFORM SIGN SHU2 BESIDE EN-A
+@form |ŠU₂~a.EN~a~v1|
+@oid o0902046
+@ucun 𒮓
 @form |ŠU₂~a.EN~a~v2|
 @oid o0902047
 @ucun 𒮔
@@ -9680,13 +9687,11 @@
 @end sign
 
 @sign |ŠU₂.EN~b|
-@oid o0903634
-@list U+12B94
-@ucun 𒮔
-@uname PROTO-CUNEIFORM SIGN SHU2 BESIDE EN-A
-@form |ŠU₂.EN~b|
-@oid o0903634
+@oid o0902048
+@inote @useq 󳂐‍𒟚
+@list U+12B95
 @ucun 𒮕
+@uname PROTO-CUNEIFORM SIGN SHU2 BESIDE EN-B
 @end sign
 
 @sign |ŠU₂.GIŠ|
@@ -11395,6 +11400,7 @@
 @list U+12C7C
 @ucun 𒱼
 @uname PROTO-CUNEIFORM SIGN USH-A
+@glyf ~1 󳃲 F30F2 o0903766
 @end sign
 
 @sign |UŠ~a&UŠ~a|
@@ -12970,6 +12976,13 @@
 @ucun 𒵶
 @uname PROTO-CUNEIFORM SIGN ZATU751~b
 @glyf ~1 󳃕 F30D5 o0903728
+@end sign
+
+@sign ZATU751~c
+@oid o0903383
+@list U+F300F
+@ucun 󳀏
+@uname PROTO-CUNEIFORM SIGN ZATU751~c
 @end sign
 
 @sign ZATU752

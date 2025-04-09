@@ -86,7 +86,7 @@ sub charcommas {
 }
 
 sub glyf_chars {
-    my($r,$c,$n) = @_;
+    my($o, $r,$c,$n) = @_;
     my @c = split(/[,;]/,$c);
     if ($#c >= 0) {
 	if ($r) {

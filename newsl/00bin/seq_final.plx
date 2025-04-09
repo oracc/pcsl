@@ -43,11 +43,15 @@ foreach (@seq) {
 	    }
 	}
     } elsif ($c) {
-	warn "$n has char $c and OID $o but no entry in load_unicode\n";
+	my $hex = sprintf("%X", ord($c));
+	unless ($u{$hex}) {
+	    warn "$n has char $c=$hex and OID $o but no entry in load_unicode\n";
+	}
     }
     $c = '' unless $c;
 
     my $xn = seq_name($s);
+    print "$o\t$c\t$s\t$xn\n";
 }
 
 1;
@@ -71,12 +75,16 @@ sub seq_name {
     foreach my $x (@x) {
 	if ($glyf{$x}) {
 	    push @xx, $glyf{$x};
+	} elsif (ord($x) > 0xe0100 && ord($x) < 0xe0200) {
+	    push @xx, $x;
 	} elsif ($x eq '‍') { # ZWJ
 	    push @xx, '.';
 	} elsif ($x eq '⁤') { # IPS
 	    push @xx, '+';
 	} elsif ($x eq '⁢') { # ITS
 	    push @xx, '∘';
+	} elsif ($x eq 'O') { # ITS
+	    push @xx, $x;
 	} else {
 	    printf STDERR "seq_name: no rule for char $x = hex %X\n", ord($x);
 	}

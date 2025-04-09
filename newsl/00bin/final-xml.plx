@@ -60,6 +60,7 @@ if ($asl) {
 } else {
     print "<sl n=\"$n\">";
 }
+warn "$0: input=$f\n";
 open(N,$f);
 while (<N>) {
     chomp;

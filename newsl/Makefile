@@ -7,6 +7,8 @@
 # in easl-base.tsv not easl-final.tsv.
 #
 
+### TODO: 00web/sequences.html from 00etc/seq-final.tsv
+
 O2=/home/stinney/o2
 SLfont=PC24.ttf
 WWW=/home/oracc/www
@@ -49,7 +51,7 @@ asl: 00lib/pcsl.asl
 00etc/corpus-base.tsv: 00etc/add.asl 00bin/asl-base.plx
 	00bin/asl-base.plx <$< >$@
 
-00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/nseq.tsv 00etc/num-final.tsv
+00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv
 	00bin/pcsl-final.plx
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
@@ -57,13 +59,16 @@ asl: 00lib/pcsl.asl
 
 seq: 00web/easl-seq.html
 
-00etc/glyf_name.tsv: 00etc/easl-final.tsv 00etc/cusas-final.tsv
-	00bin/pcsl-final.plx -g
-
 00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
 	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
 	sudo cp $@ ${WWW}/pcsl/easl/
 	sudo chmod +r ${WWW}/pcsl/easl/easl-seq.html
+
+00etc/glyf_name.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
+	00bin/pcsl-final.plx -g
+
+00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf_name.tsv 00bin/seq_final.plx
+	00bin/seq_final.plx >$@
 
 csldist: 00etc/csldist.tsv
 
