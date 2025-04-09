@@ -13,243 +13,251 @@
       given in separate rows.</p>
       <esp:ssh>PCSL Corpus Grapheme Distribution</esp:ssh>
       <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
-        <tr>
-          <td/>
-          <td>IV/pub</td>
-          <td>IV/unp</td>
-          <td>IV/all</td>
-          <td>III/pub</td>
-          <td>III/unp</td>
-          <td>III/all</td>
-        </tr>
-        <tr>
-          <td>Uruk/num</td>
-          <td>140/4568</td>
-          <td>120/2245</td>
-          <td>176/6813 </td>
-          <td>180/10987</td>
-          <td>117/3539</td>
-          <td>197/14526</td>
-        </tr>
-        <tr>
-          <td>Uruk/idg</td>
-          <td>775/5734</td>
-          <td>479/2336</td>
-          <td>918/8070 </td>
-          <td>978/17731</td>
-          <td>604/7859</td>
-          <td>1082/25590</td>
-        </tr>
-        <tr>
-          <td>JN/num</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>138/2530</td>
-          <td>0/0</td>
-          <td>138/2530</td>
-        </tr>
-        <tr>
-          <td>JN/idg</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>399/3790</td>
-          <td>0/0</td>
-          <td>399/3790</td>
-        </tr>
-        <tr>
-          <td>Umma/num</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>120/1918</td>
-          <td>135/3486</td>
-          <td>163/5404</td>
-        </tr>
-        <tr>
-          <td>Umma/idg</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>389/2478</td>
-          <td>493/6730</td>
-          <td>625/9208</td>
-        </tr>
-        <tr>
-          <td>Uqair/num</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>50/444</td>
-          <td>0/0</td>
-          <td>50/444</td>
-        </tr>
-        <tr>
-          <td>Uqair/idg</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>226/903</td>
-          <td>0/0</td>
-          <td>226/903</td>
-        </tr>
-        <tr>
-          <td>Misc/num</td>
-          <td>31/70</td>
-          <td>28/97</td>
-          <td>45/167 </td>
-          <td>165/5016</td>
-          <td>55/648</td>
-          <td>165/5664</td>
-        </tr>
-        <tr>
-          <td>Misc/idg</td>
-          <td>44/70</td>
-          <td>64/116</td>
-          <td>92/186 </td>
-          <td>617/7287</td>
-          <td>266/1111</td>
-          <td>682/8398</td>
-        </tr>
-        <tr>
-          <td>total</td>
-          <td>143/4638</td>
-          <td>124/2342</td>
-          <td>181/6980 </td>
-          <td>233/20895 </td>
-          <td>167/7673</td>
-          <td>251/28568</td>
-        </tr>
-        <tr>
-          <td>total</td>
-          <td>780/5804</td>
-          <td>498/2452</td>
-          <td>936/8256 </td>
-          <td>1246/32189 </td>
-          <td>820/15700</td>
-          <td>1435/47889</td>
-        </tr>
+        <thead>
+          <tr>
+            <th/>
+            <th>IV/pub</th>
+            <th>IV/unp</th>
+            <th>IV/all</th>
+            <th>III/pub</th>
+            <th>III/unp</th>
+            <th>III/all</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Uruk/num</th>
+            <td>139/4567</td>
+            <td>121/2246</td>
+            <td>176/6813 </td>
+            <td>179/10994</td>
+            <td>117/3595</td>
+            <td>196/14589</td>
+          </tr>
+          <tr>
+            <th>Uruk/idg</th>
+            <td>775/5734</td>
+            <td>479/2336</td>
+            <td>918/8070 </td>
+            <td>978/17746</td>
+            <td>608/8037</td>
+            <td>1081/25783</td>
+          </tr>
+          <tr>
+            <th>JN/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>138/2530</td>
+            <td>0/0</td>
+            <td>138/2530</td>
+          </tr>
+          <tr>
+            <th>JN/idg</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>399/3790</td>
+            <td>0/0</td>
+            <td>399/3790</td>
+          </tr>
+          <tr>
+            <th>Umma/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>121/1962</td>
+            <td>138/3551</td>
+            <td>167/5513</td>
+          </tr>
+          <tr>
+            <th>Umma/idg</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>395/2560</td>
+            <td>498/6796</td>
+            <td>634/9356</td>
+          </tr>
+          <tr>
+            <th>Uqair/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>50/444</td>
+            <td>0/0</td>
+            <td>50/444</td>
+          </tr>
+          <tr>
+            <th>Uqair/idg</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>226/903</td>
+            <td>0/0</td>
+            <td>226/903</td>
+          </tr>
+          <tr>
+            <th>Misc/num</th>
+            <td>31/70</td>
+            <td>30/160</td>
+            <td>46/230 </td>
+            <td>168/5514</td>
+            <td>54/661</td>
+            <td>168/6175</td>
+          </tr>
+          <tr>
+            <th>Misc/idg</th>
+            <td>44/70</td>
+            <td>96/212</td>
+            <td>115/282 </td>
+            <td>648/8121</td>
+            <td>270/1130</td>
+            <td>714/9251</td>
+          </tr>
+          <tr>
+            <th>total</th>
+            <td>142/4637</td>
+            <td>125/2406</td>
+            <td>181/7043 </td>
+            <td>237/21444 </td>
+            <td>168/7807</td>
+            <td>255/29251</td>
+          </tr>
+          <tr>
+            <th>total</th>
+            <td>780/5804</td>
+            <td>516/2548</td>
+            <td>947/8352 </td>
+            <td>1266/33120 </td>
+            <td>827/15963</td>
+            <td>1453/49083</td>
+          </tr>
+        </tbody>
       </table>
       <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
       <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
-        <tr>
-          <td/>
-          <td>IV/pub</td>
-          <td>IV/unp</td>
-          <td>IV/all</td>
-          <td>III/pub</td>
-          <td>III/unp</td>
-          <td>III/all</td>
-        </tr>
-        <tr>
-          <td>Uruk/num</td>
-          <td>140/4568</td>
-          <td>82/610</td>
-          <td>159/5178 </td>
-          <td>180/10987</td>
-          <td>68/714</td>
-          <td>188/11701</td>
-        </tr>
-        <tr>
-          <td>Uruk/idg</td>
-          <td>775/5734</td>
-          <td>210/653</td>
-          <td>819/6387 </td>
-          <td>976/17714</td>
-          <td>263/1575</td>
-          <td>994/19289</td>
-        </tr>
-        <tr>
-          <td>JN/num</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>138/2530</td>
-          <td>0/0</td>
-          <td>138/2530</td>
-        </tr>
-        <tr>
-          <td>JN/idg</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>399/3790</td>
-          <td>0/0</td>
-          <td>399/3790</td>
-        </tr>
-        <tr>
-          <td>Umma/num</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>120/1565</td>
-          <td>15/30</td>
-          <td>120/1595</td>
-        </tr>
-        <tr>
-          <td>Umma/idg</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>337/2004</td>
-          <td>78/176</td>
-          <td>351/2180</td>
-        </tr>
-        <tr>
-          <td>Uqair/num</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>50/444</td>
-          <td>0/0</td>
-          <td>50/444</td>
-        </tr>
-        <tr>
-          <td>Uqair/idg</td>
-          <td>0/0</td>
-          <td>0/0</td>
-          <td>0/0 </td>
-          <td>226/903</td>
-          <td>0/0</td>
-          <td>226/903</td>
-        </tr>
-        <tr>
-          <td>Misc/num</td>
-          <td>31/70</td>
-          <td>0/0</td>
-          <td>31/70 </td>
-          <td>165/4887</td>
-          <td>0/0</td>
-          <td>165/4887</td>
-        </tr>
-        <tr>
-          <td>Misc/idg</td>
-          <td>44/70</td>
-          <td>0/0</td>
-          <td>44/70 </td>
-          <td>604/7086</td>
-          <td>0/0</td>
-          <td>604/7086</td>
-        </tr>
-        <tr>
-          <td>total</td>
-          <td>143/4638</td>
-          <td>124/2342</td>
-          <td>161/5248 </td>
-          <td>233/20413 </td>
-          <td>167/7673</td>
-          <td>237/21157</td>
-        </tr>
-        <tr>
-          <td>total</td>
-          <td>780/5804</td>
-          <td>498/2452</td>
-          <td>824/6457 </td>
-          <td>1229/31497 </td>
-          <td>820/15700</td>
-          <td>1242/33248</td>
-        </tr>
+        <thead>
+          <tr>
+            <th/>
+            <th>IV/pub</th>
+            <th>IV/unp</th>
+            <th>IV/all</th>
+            <th>III/pub</th>
+            <th>III/unp</th>
+            <th>III/all</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Uruk/num</th>
+            <td>139/4567</td>
+            <td>82/610</td>
+            <td>158/5177 </td>
+            <td>179/10994</td>
+            <td>68/714</td>
+            <td>187/11708</td>
+          </tr>
+          <tr>
+            <th>Uruk/idg</th>
+            <td>775/5734</td>
+            <td>210/653</td>
+            <td>819/6387 </td>
+            <td>976/17737</td>
+            <td>263/1575</td>
+            <td>993/19312</td>
+          </tr>
+          <tr>
+            <th>JN/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>138/2530</td>
+            <td>0/0</td>
+            <td>138/2530</td>
+          </tr>
+          <tr>
+            <th>JN/idg</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>399/3790</td>
+            <td>0/0</td>
+            <td>399/3790</td>
+          </tr>
+          <tr>
+            <th>Umma/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>121/1565</td>
+            <td>0/0</td>
+            <td>121/1565</td>
+          </tr>
+          <tr>
+            <th>Umma/idg</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>337/2005</td>
+            <td>0/0</td>
+            <td>337/2005</td>
+          </tr>
+          <tr>
+            <th>Uqair/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>50/444</td>
+            <td>0/0</td>
+            <td>50/444</td>
+          </tr>
+          <tr>
+            <th>Uqair/idg</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
+            <td>226/903</td>
+            <td>0/0</td>
+            <td>226/903</td>
+          </tr>
+          <tr>
+            <th>Misc/num</th>
+            <td>31/70</td>
+            <td>0/0</td>
+            <td>31/70 </td>
+            <td>168/5261</td>
+            <td>0/0</td>
+            <td>168/5261</td>
+          </tr>
+          <tr>
+            <th>Misc/idg</th>
+            <td>44/70</td>
+            <td>0/0</td>
+            <td>44/70 </td>
+            <td>626/7657</td>
+            <td>0/0</td>
+            <td>626/7657</td>
+          </tr>
+          <tr>
+            <th>total</th>
+            <td>142/4637</td>
+            <td>82/610</td>
+            <td>160/5247 </td>
+            <td>237/20794 </td>
+            <td>68/714</td>
+            <td>241/21508</td>
+          </tr>
+          <tr>
+            <th>total</th>
+            <td>780/5804</td>
+            <td>210/653</td>
+            <td>824/6457 </td>
+            <td>1238/32092 </td>
+            <td>263/1575</td>
+            <td>1248/33667</td>
+          </tr>
+        </tbody>
       </table>
       <!--
 	  

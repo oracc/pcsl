@@ -51,12 +51,13 @@ foreach (@seq) {
     }
     $c = '' unless $c;
 
+    my $h = sprintf("%X", ord($c));
     my $xn = seq_name($s);
     my $sv = seq_view($s);
     my $sq = seq_liga($s);
     my $lv = seq_liga_view($s);
 
-    print "$o\t$c\t$s\t$sv\t$xn\t$sq\t$lv\n";
+    print "$o\t$c\t$h\t$s\t$sv\t$xn\t$sq\t$lv\n";
 }
 
 1;

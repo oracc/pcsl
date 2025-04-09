@@ -5,6 +5,7 @@
 
 tdir=$1
 gdir=$2
+proj=$3
 
 if [ -d "$gdir" ]; then
     if [ -d "$tdir" ]; then
@@ -13,7 +14,7 @@ if [ -d "$gdir" ]; then
 	    for a in ../$tdir/[cpu]-* ; do
 		b=`basename $a`
 		echo working on $b
-		../b/g.sh pcsl $a $b
+		../b/g.sh $proj $a $b
 	    done
 	    ../b/gtables.sh
 	else

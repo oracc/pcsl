@@ -9,9 +9,9 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
-my $glyftab = 0;
+my $glyfdb = 0;
 GetOptions(
-    g=>\$glyftab,
+    g=>\$glyfdb,
     );
 
 my @efields = qw/sn oid tag pc24 flag fnnm char row src/;
@@ -59,9 +59,9 @@ pcsl_seq();
 # add sort codes
 pcsl_scodes();
 
-# write pcsl-final.tsv or glyftab
-if ($glyftab) {
-    glyf_tsv();
+# write pcsl-final.tsv or glyfdb
+if ($glyfdb) {
+    glyf_base();
 } else {
     pcsl_tsv();
 }
@@ -108,8 +108,8 @@ sub glyf_chars {
     }
 }
 
-sub glyf_tsv {
-    open(T,'>00etc/glyf_name.tsv'); select T;
+sub glyf_base {
+    open(T,'>00etc/glyf-base.tsv'); select T;
     foreach my $o (sort { ${$pcsl{$a}}{'sc'} <=> ${$pcsl{$b}}{'sc'} } keys %pcsl) {
 	my %p = %{$pcsl{$o}};
 	my $nc = ($p{'char'} =~ tr/;,/;,/);

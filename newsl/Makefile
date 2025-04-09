@@ -15,7 +15,7 @@ WWW=/home/oracc/www
 PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl num pcsl pc25 overview css js font
+default:  msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 overview css js font
 
 #seq ref
 
@@ -64,11 +64,19 @@ seq: 00web/easl-seq.html
 	sudo cp $@ ${WWW}/pcsl/easl/
 	sudo chmod +r ${WWW}/pcsl/easl/easl-seq.html
 
-00etc/glyf_name.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
+glyfdb: 00etc/glyf-final.tsv
+	@true
+
+00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx
+	00bin/glyf-final.plx <$< >$@
+
+00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
 	00bin/pcsl-final.plx -g
 
-00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf_name.tsv 00bin/seq_final.plx
-	00bin/seq_final.plx >$@
+seqdb: 00etc/seq-final.tsv
+
+00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf_name.tsv 00bin/seq-final.plx
+	00bin/seq-final.plx >$@
 
 csldist: 00etc/csldist.tsv
 

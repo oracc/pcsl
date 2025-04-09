@@ -9,7 +9,7 @@
     <head/>
     <body>
 
-      <xi:include xml:base="." href="../sequencedb.html"/>
+      <xi:include xml:base="." href="../db/sequencedb.html"/>
 
     </body>
   </html>

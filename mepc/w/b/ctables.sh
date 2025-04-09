@@ -23,4 +23,4 @@ done
 echo total'	'`../b/l p-4`'	'`../b/l u-4`'	'`../b/l c-4` \
      '	'`../b/l p-3` '	'`../b/l u-3`'	'`../b/l c-3`  >>$h
 
-rocox -hborders <$h | xl - >corpus.html
+rocox -hborders <$h | xsltproc ../b/thead.xsl - >corpus.html

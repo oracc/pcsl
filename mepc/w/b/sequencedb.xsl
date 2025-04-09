@@ -8,11 +8,9 @@
       <xsl:copy-of select="@*"/>
       <thead>
 	<th>OID</th>
-	<th>PUA</th>
+	<th>PUA/HEX</th>
 	<th>SEQ</th>
-	<th>SVW</th>
-	<th>ATF</th>
-	<th>LIG</th>
+	<th>ATF/LIG</th>
 	<th>LVW</th>
       </thead>
       <tbody>
@@ -25,19 +23,40 @@
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:copy-of select="h:td[1]"/>
-      <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[2]"/></td>
-      <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[3]"/></td>
-      <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[4]"/></td>
-      <td class="uname"><xsl:value-of select="h:td[5]"/></td>
-      <xsl:choose>
-	<xsl:when test="string-length(h:td[6])>29">
-	  <td class="ucode4"><xsl:value-of select="h:td[6]"/></td>
-	</xsl:when>
-	<xsl:otherwise>
-	  <td class="ucode3"><xsl:value-of select="h:td[6]"/></td>
-	</xsl:otherwise>
-      </xsl:choose>
-      <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[7]"/></td>
+      <td class="sqdb-pua">
+	<div>
+	  <div>
+	    <span class="ofs-pc ofs-150"><xsl:value-of select="h:td[2]"/></span>
+	  </div>
+	  <div>[<span class="ucode"><xsl:value-of select="h:td[3]"/></span>]</div>
+	</div>
+      </td>
+      <td class="sqdb-cun">
+	<div>
+	  <div>
+	    <span class="ofs-pc ofs-150"><xsl:value-of select="h:td[4]"/></span>
+	  </div>
+	  <div>
+	    <span class="ofs-pc ofs-150"><xsl:value-of select="h:td[5]"/></span>
+	  </div>
+	</div>
+      </td>
+      <td class="unames">
+	<div>
+	  <span class="uname"><xsl:value-of select="h:td[6]"/></span>
+	</div>
+	<div>
+	  <xsl:choose>
+	    <xsl:when test="string-length(h:td[6])>29">
+	      <span class="ucode4"><xsl:value-of select="h:td[7]"/></span>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <span class="ucode3"><xsl:value-of select="h:td[7]"/></span>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</div>
+      </td>
+      <td class="ofs-pc ofs-150"><xsl:value-of select="h:td[8]"/></td>
     </xsl:copy>
   </xsl:template>
   

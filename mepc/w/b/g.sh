@@ -9,22 +9,14 @@ if [ "$p" = "" ] || [ "$l" = "" ] || [ "$b" = "" ]; then
     exit 1
 fi
 
-ph=`/bin/echo -n $p | tr / -`
-pt=$ph.tok
-
 # Phase0 reduction of .tok data:
 #	extract data for texts in list
-
-# Don't extract from main .tok for every list
-if [ ! -r $pt ]; then
-    ../b/gp.sh $p >$pt
-fi
 
 # Force the list to be in the best format
 cut -d: -f2 $l | sed 's/^\(.\+\)$/^\1	/' >$b.grep
 
 # Subset the list ready for Phase1
-grep -f $b.grep $pt | cut -f2- >gl-$b.tok
+grep -f $b.grep $p.tok | cut -f2- >gl-$b.tok
 
 # Phase1 reduction of .tok data:
 # 	get the KEY TYPE NAMES FORM fields

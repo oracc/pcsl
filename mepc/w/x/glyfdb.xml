@@ -9,7 +9,7 @@
     <head/>
     <body>
 
-      <xi:include xml:base="." href="../glyfdb.html"/>
+      <xi:include xml:base="." href="../db/glyfdb.html"/>
 
     </body>
   </html>
