@@ -223,6 +223,7 @@ sub asl_pchar {
 		    print "\@uname $unames{$cn}\n";
 		} else {
 		    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
+		    warn "uname: $cn failed as X$X\n";
 		    ++$X;
 		}
 	    } else {
