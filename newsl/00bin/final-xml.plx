@@ -212,12 +212,21 @@ sub asl_pchar {
 
 	    my $co = $u{$ch};
 	    my $cn = $n{$co};
-	    $cn = pc25_name($cn);
-	    if ($unames{$cn}) {
-		print "\@uname $unames{$cn}\n";
+	    unless ($cn) {
+		if ($n{$oidmap{$co}}) {
+		    $cn = $n{$oidmap{$co}};
+		}
+	    }
+	    if ($cn) {
+		$cn = pc25_name($cn);
+		if ($unames{$cn}) {
+		    print "\@uname $unames{$cn}\n";
+		} else {
+		    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
+		    ++$X;
+		}
 	    } else {
-		print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
-		++$X;
+		warn "$0: no name for OID=$co HEX=$ch\n";
 	    }
 	}
     }
