@@ -31,6 +31,8 @@
 𒚧	126A7	AB₂
 𒚩	126A9	AB₂~1
 󳃵	F30F5	AB₂~2
+󳃵	F30F5	AB₂~3
+𒚩	126A9	AB₂~4
 𒚨	126A8	|AB₂×2(N14)|
 𒚪	126AA	|AB₂×2(N14)|~1
 󳀪	F302A	AB₂@g
@@ -681,6 +683,7 @@
 𒣝	128DD	GURUŠ~a
 𒣛	128DB	GURUŠ~a~1
 󳃶	F30F6	GURUŠ~a~2
+󳃶	F30F6	GURUŠ~a~3
 𒣜	128DC	|GURUŠ~a×2(N14)|
 𒣞	128DE	GURUŠ~b
 𒣟	128DF	|GURUŠ~b×2(N14)|
@@ -700,9 +703,7 @@
 󲵋	F2D4B	|HI×1(N01@f)|
 𒣬	128EC	|HI×1(N57)|
 𒣭	128ED	|(HI×1(N57)).(HI×1(N57))|
-	0	|(HI×1(N57)).(HI×1(N57))|~1
-	0	|(HI×1(N57)).(HI×1(N57))|~2
-󳂒	F3092	|(HI×1(N57)).(HI×1(N57))|~3
+󳂒	F3092	|(HI×1(N57)).(HI×1(N57))|~1
 𒣮	128EE	|HI×1(N57@t)|
 𒣯	128EF	|HI×1(N58)|
 󳁱	F3071	HI~b
@@ -723,7 +724,6 @@
 𒣺	128FA	IG~b
 󲡢	F2862	IGI
 𒣻	128FB	IL
-𒣼	128FC	ILDUM~a
 𒣽	128FD	ILDUM~b
 𒣾	128FE	IM~a
 󲡧	F2867	IM~a@g

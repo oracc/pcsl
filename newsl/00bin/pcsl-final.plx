@@ -73,16 +73,25 @@ close(L);
 #######################################
 
 sub charcommas {
-    my @c = split(/,/, $_[0]);
-    my @n = ();
-    foreach my $c (@c) {
-	if ($c =~ /_/) {
-	    push @n, $c;
-	} else {
-	    push @n, grep(length, split(/(.)/,$c));
+    if ($_[0] =~ /;/) {
+	my @c = split(/;/, $_[0]);
+	my @x = ();
+	foreach my $c (@c) {
+	    push @x, charcommas($c);
 	}
+	return join(';', @x);
+    } else {
+	my @c = split(/,/, $_[0]);
+	my @n = ();
+	foreach my $c (@c) {
+	    if ($c =~ /_/) {
+		push @n, $c;
+	    } else {
+		push @n, grep(length, split(/(.)/,$c));
+	    }
+	}
+	return join(',', @n);
     }
-    join(',', @n);
 }
 
 sub glyf_chars {

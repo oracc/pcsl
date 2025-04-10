@@ -15,15 +15,25 @@ WWW=/home/oracc/www
 PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 
-default:  msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 overview css js font
+default:  pc24tab msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 pc25tab overview css js font
 
 #seq ref
 
 %: Makefile 00etc/%-final.tsv
-	SL=$* make csldist xml html images
+	SL=$* make xml html images
+
+pc24tab: 00etc/pc24.tsv
+
+00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../00etc/add-data.tsv ../00etc/pc-pua.tab
+	00bin/pc24.plx >$@
+
+pc25tab: 00etc/pc25-map.tsv
+
+00etc/pc25-map.tsv: 00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00bin/pc25-map.plx
+	00bin/pc25-map.plx >$@
 
 pcsl: Makefile 00etc/pcsl-final.tsv
-	SL=$@ make csldist xml html images asl
+	SL=$@ make xml html images asl
 
 pc25: Makefile 00etc/pc25-final.tsv
 	SL=$@ make csldist xml html images pc25no-html
@@ -78,15 +88,18 @@ seqdb: 00etc/seq-final.tsv
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf_name.tsv 00bin/seq-final.plx
 	00bin/seq-final.plx | 00bin/sl-sort.plx -c=5 - >$@
 
-csldist: 00etc/csldist.tsv
+csldist:
+	true
 
-csldist-all: 00etc/csldist-all.tsv
+# # 00etc/csldist.tsv
 
-00etc/csldist.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
-	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
+# # csldist-all: 00etc/csldist-all.tsv
 
-00etc/csldist-all.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
-	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
+# # 00etc/csldist.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
+# # 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
+
+# # 00etc/csldist-all.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
+# # 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 xml: 00etc/${SL}-final.xml
 

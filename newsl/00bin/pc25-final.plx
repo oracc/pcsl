@@ -33,7 +33,7 @@ while (<I>) {
     if ($p{'flag'} eq 'N') {
 	if ($tag =~ /PC25/) {
 	    my $u = sprintf("%X", $ucode++);
-	    s/^(\S+)/x$u/;
+	    s/\t/\t$u\t/;
 	    print "$_\n";
 	} else {
 	    print NO_NUM "$_\n";
@@ -56,7 +56,7 @@ while (<I>) {
 	    }
 	    if ($ok) {
 		my $u = sprintf("%X", $ucode++);
-		s/^(\S+)/x$u/;
+		s/\t/\t$u\t/;
 		print "$_\n";
 		print NO_SEQX "$_\n" if $tag =~ /!/;
 	    }
