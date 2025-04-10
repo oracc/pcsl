@@ -278,8 +278,6 @@
 @uname PROTO-CUNEIFORM SIGN AB2
 @glyf ~1 𒚩 126A9 o0900042
 @glyf ~2 󳃵 F30F5 o0903769
-@glyf ~3 󳃵 F30F5 o0903769
-@glyf ~4 𒚩 126A9 o0900042
 @end sign
 
 @sign |AB₂×2(N14)|
@@ -2605,7 +2603,7 @@
 @list U+127F8
 @ucun 𒟸
 @uname PROTO-CUNEIFORM SIGN EZEN-A TIMES LA-E
-@glyf ~1 󲳕 F2CD5 o0900567
+@glyf ~1 󲳕 F2CD5 o0900568
 @end sign
 
 @sign |EZEN~a×NIM~b2|
@@ -2680,19 +2678,18 @@
 @end sign
 
 @sign EZEN~b@t
+@aka EZEM~c
 @oid o0900592
 @list U+12805
 @ucun 𒠅
-@uname PROTO-CUNEIFORM SIGN EZEN-C
+@uname PROTO-CUNEIFORM SIGN EZEN-B TENU
 @end sign
 
 @sign EZEN~c
-@aka EZEM~c
 @oid o0900554
 @list U+F27D0
 @ucun 󲟐
 @uname PROTO-CUNEIFORM SIGN EZEN-C
-@glyf ~1 𒠅 12805 o0900554
 @end sign
 
 @sign EZINU~a
@@ -4261,7 +4258,6 @@
 @uname PROTO-CUNEIFORM SIGN GURUSH-A
 @glyf ~1 𒣛 128DB o0900948
 @glyf ~2 󳃶 F30F6 o0903770
-@glyf ~3 󳃶 F30F6 o0903770
 @end sign
 
 @sign |GURUŠ~a×2(N14)|
@@ -4516,6 +4512,10 @@
 
 @sign ILDUM~a
 @oid o0900997
+@inote @useq ‍𒨜𒜋
+@list U+128FC
+@ucun 𒣼
+@uname PROTO-CUNEIFORM SIGN ILDUM-A
 @end sign
 
 @sign ILDUM~b
@@ -6961,7 +6961,6 @@
 @glyf ~1 𒨙 12A19 o0901457
 @glyf ~2 𒨚 12A1A o0901458
 @glyf ~3 𒨛 12A1B o0901459
-@glyf ~4 𒨝 12A1D o0901461
 @end sign
 
 @sign NAGAR~b
@@ -6970,7 +6969,6 @@
 @ucun 𒨝
 @uname PROTO-CUNEIFORM SIGN NAGAR-B
 @glyf ~1 𒨞 12A1E o0901462
-@glyf ~2 𒨜 12A1C o0901460
 @end sign
 
 @sign NAM~a
@@ -8151,10 +8149,10 @@
 
 @sign SANGA~e
 @oid o0901715
-@list U+F3065
-@ucun 󳁥
+@list U+F3064
+@ucun 󳁤
 @uname PROTO-CUNEIFORM SIGN SANGA-E
-@glyf ~1 󳁤 F3064 o0901715
+@glyf ~1 󳁥 F3065 o0901716
 @end sign
 
 @sign SAR~a
@@ -9004,7 +9002,7 @@
 @oid o0901900
 @list U+F300D
 @ucun 󳀍
-@uname PROTO-CUNEIFORM SIGN SUKUD
+@uname PROTO-CUNEIFORM SIGN SUKUD HFLIP
 @end sign
 
 @sign SUM~a
@@ -14827,7 +14825,7 @@
 @oid o0903488
 @list U+F0094
 @ucun 󰂔
-@uname PROTO-CUNEIFORM NUMBER NINE-N19-V
+@uname PROTO-CUNEIFORM NUMBER NINE-N19
 @end sign
 
 @sign 1(N19@f)

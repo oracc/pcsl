@@ -12,11 +12,22 @@ use Getopt::Long;
 GetOptions(
     );
 
+my %pc24 = (); my @pc24 = `cat 00etc/pc24.tsv`; chomp @pc24;
+foreach (@pc24) {
+    my($o,$u) = split(/\t/,$_);
+    $pc24{$u} = $o;
+}
+
 while (<>) {
     chomp;
     my($c,$n) = split(/\t/,$_);
     my $h = sprintf("%X", ord($c));
-    print "$c\t$h\t$n\n";
+    if ($pc24{$h}) {
+	my $o = $pc24{$h};
+	print "$c\t$o\t$h\t$n\n";
+    } else {
+	warn "no OID for $c = $h = $n\n";
+    }
 }
 
 1;

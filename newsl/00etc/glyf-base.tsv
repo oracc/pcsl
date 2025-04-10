@@ -31,8 +31,6 @@
 𒚧	AB₂
 𒚩	AB₂~1
 󳃵	AB₂~2
-󳃵	AB₂~3
-𒚩	AB₂~4
 𒚨	|AB₂×2(N14)|
 𒚪	|AB₂×2(N14)|~1
 󳀪	AB₂@g
@@ -432,7 +430,6 @@
 󲳟	|EZEN~b×6(N57)|~1
 𒠅	EZEN~b@t
 󲟐	EZEN~c
-𒠅	EZEN~c~1
 𒠆	EZINU~a
 𒠇	EZINU~b
 𒠈	EZINU~c
@@ -683,7 +680,6 @@
 𒣝	GURUŠ~a
 𒣛	GURUŠ~a~1
 󳃶	GURUŠ~a~2
-󳃶	GURUŠ~a~3
 𒣜	|GURUŠ~a×2(N14)|
 𒣞	GURUŠ~b
 𒣟	|GURUŠ~b×2(N14)|
@@ -724,6 +720,7 @@
 𒣺	IG~b
 󲡢	IGI
 𒣻	IL
+𒣼	ILDUM~a
 𒣽	ILDUM~b
 𒣾	IM~a
 󲡧	IM~a@g
@@ -1118,10 +1115,8 @@
 𒨙	NAGAR~a~1
 𒨚	NAGAR~a~2
 𒨛	NAGAR~a~3
-𒨝	NAGAR~a~4
 𒨝	NAGAR~b
 𒨞	NAGAR~b~1
-𒨜	NAGAR~b~2
 𒨟	NAM~a
 𒨠	NAM~b
 𒨡	NAM~c
@@ -1324,8 +1319,8 @@
 𒪽	SANGA~b~1
 𒪼	SANGA~b~2
 𒪿	SANGA~c
-󳁥	SANGA~e
-󳁤	SANGA~e~1
+󳁤	SANGA~e
+󳁥	SANGA~e~1
 𒫀	SAR~a
 𒫁	|SAR~a×ŠE~a|
 𒫂	SAR~b

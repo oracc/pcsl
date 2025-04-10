@@ -17,6 +17,8 @@ PRJ=${PCSL}/${SL}
 
 default:  pc24tab msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 pc25tab overview css js font
 
+core: clean-core msvo1 msvo4 atu3 atu5 cusas easl num
+
 #seq ref
 
 %: Makefile 00etc/%-final.tsv
@@ -52,6 +54,8 @@ asl: 00lib/pcsl.asl
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/corpus-base.tsv
 	cat $^ | 00bin/sl-sort.plx -c 2 - | 00bin/sl-number.plx -1 -n EASL0001 >$@
 
+num: 00etc/num-final.tsv
+
 00etc/num-final.tsv: 00etc/num-base.tsv
 	00bin/sl-number.plx -1 -n EANM001 <$< >$@
 
@@ -77,7 +81,7 @@ seq: 00web/easl-seq.html
 glyfdb: 00etc/glyf-final.tsv
 	@true
 
-00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx
+00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
 
 00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
@@ -159,6 +163,9 @@ images/${SL}/.images: images/${SL}/*.png
 	sudo mkdir -p ${PRJ}/images
 	sudo cp -u images/${SL}/*.png ${PRJ}/images
 	touch $@
+
+clean-core:
+	(cd 00etc ; rm -vf atu[35]-final.xml msvo[14]-final.xml easl-final.* cusas-final.* num-final.*)
 
 clean:
 	rm -f 00etc/*-final.xml 00web/*-tab.html

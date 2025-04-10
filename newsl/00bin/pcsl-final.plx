@@ -74,8 +74,8 @@ close(L);
 
 sub charcommas {
     if ($_[0] =~ /;/) {
-	my @c = split(/;/, $_[0]);
 	my @x = ();
+	my @c = split(/;/, $_[0]);
 	foreach my $c (@c) {
 	    push @x, charcommas($c);
 	}
@@ -270,7 +270,9 @@ sub pcsl_add_glyf {
     my($oid,$chr) = @_;
     if ($pcsl{$oid}) {
 	unless (${$pcsl{$oid}}{'chash'}) {
-	    my %h = (); @h{split(/,/,${$pcsl{$oid}}{'char'})} = ();
+	    my $ctmp = ${$pcsl{$oid}}{'char'};
+	    $ctmp =~ tr/;/,/;
+	    my %h = (); @h{split(/,/,$ctmp)} = ();
 	    ${$pcsl{$oid}}{'chash'} = { %h };
 	}
 	my $c = ${$pcsl{$oid}}{'char'};

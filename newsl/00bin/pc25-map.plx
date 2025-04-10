@@ -15,7 +15,7 @@ GetOptions(
 my $pua = 0xF2000;
 my $xxx = 0xF3000;
 
-my %seen = ();
+my %seen = (); # track what we've already seen using the hex uni
 
 my %om = (); my @om = `cat 00etc/pcsl-oid.map`; chomp @om;
 foreach (@om) {
@@ -39,7 +39,7 @@ foreach (@pc25) {
     my($o,$u,$n) = split(/\t/,$_);
     my $oo = $om{$o} ? $om{$o} : $o;
     if ($pc24{$oo}) {
-	print "$pc24{$oo}\t$u\n";
+	print "$oo\t$pc24{$oo}\t$u\n";
 	++$seen{$pc24{$oo}};
     } else {	
 	warn "$0: no PC24 for $n = $oo = PC25 $u\n";
@@ -53,7 +53,7 @@ foreach my $g (@g) {
     my($c,$u,$n) = split(/\t/,$g);
     my $o = $pc24{$u};
     if ($o) {
-	printf "$pc24{$o}\t%X\n", $pua;
+	printf "$o\t$pc24{$o}\t%X\n", $pua;
 	++$seen{$pc24{$o}};
 	++$pua;
     } else {
@@ -68,7 +68,7 @@ foreach my $s (@s) {
     my($o,$c,$u,$s,$n) = split(/\t/,$s);
     my $oo = $pc24{$u};
     if ($oo) {
-	printf "$pc24{$oo}\t%X\n", $pua;
+	printf "$oo\t$pc24{$oo}\t%X\n", $pua;
 	++$seen{$pc24{$oo}};
 	++$pua;
     } else {
@@ -78,30 +78,41 @@ foreach my $s (@s) {
 
 # Block 4: Variant Stacking Patterns for PC24 numbers that are now in ACN
 
+my @vsp = `grep VSP ../00etc/pc-pua.tab | cut -f1-3`; chomp @vsp;
+foreach my $v (@vsp) {
+    my($o,$n,$u) = split(/\t/,$v);
+    if ($seen{$pc24{$o}}) {
+	warn "$0: strange; already saw VSP $o / $u / $n\n";
+    } else {
+	if ($o) {
+	    printf "$o\t$pc24{$o}\t%X\n", $pua;
+	    ++$seen{$pc24{$o}};
+	    ++$pua;
+	} else {
+	    warn "$0: no PC24 for VSP $o / $u / $n\n";
+	}
+    }
+}   
 
-
-# Block 5: Characters from PC24 PUA remapped into PC25 PUA from #F3000
+# Block 5: Other characters from PC24 PUA remapped into PC25 PUA from #F3000
 
 foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
-    if ($pc24 =~ /^F0/) {
-	unless ($seen{$pc24}) {
-	    print "$pc24\t$pc24\n";
+    my $o = $pc24{$pc24};
+    unless ($seen{$pc24}) {
+	if ($pc24 =~ /^F0/) {
+	    print "$o\t$pc24\t$pc24\n";
 	    ++$seen{$pc24};
-	}
-    } elsif ($pc24 =~ /^F/) {
-	unless ($seen{$pc24}) {
-	    printf "$pc24\t%X\n", $xxx;
+	}  elsif ($pc24 =~ /^F/) {
+	    printf "$o\t$pc24\t%X\n", $xxx;
 	    ++$seen{$pc24};
 	    ++$xxx;
-	}
-    } else {
-	my $c24 = hex($pc24);
-	if ($c24 < 0x12690) {
-	    print "$pc24\t$pc24\n";
-	    ++$seen{$pc24};
 	} else {
-	    unless ($seen{$pc24}) {
-		printf "$pc24\t%X\n", $xxx;
+	    my $c24 = hex($pc24);
+	    if ($c24 < 0x12690) {
+		print "$o\t$pc24\t$pc24\n";
+		++$seen{$pc24};
+	    } else {
+		printf "$o\t$pc24\t%X\n", $xxx;
 		++$seen{$pc24};
 		++$xxx;
 	    }
