@@ -76,7 +76,7 @@ glyfdb: 00etc/glyf-final.tsv
 seqdb: 00etc/seq-final.tsv
 
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf_name.tsv 00bin/seq-final.plx
-	00bin/seq-final.plx >$@
+	00bin/seq-final.plx | 00bin/sl-sort.plx -c=5 - >$@
 
 csldist: 00etc/csldist.tsv
 

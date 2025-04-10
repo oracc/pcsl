@@ -14,11 +14,13 @@ GetOptions(
 
 my %u = (); load_unicode();
 
-my %glyf = (); my @glyf = `cat 00etc/glyf_name.tsv`; chomp @glyf;
+my %glyf = (); my @glyf = `cat 00etc/glyf-final.tsv`; chomp @glyf;
 foreach (@glyf) {
-    my($u,$n) = split(/\t/,$_); $glyf{$u} = $n;
+    my($u,$h,$n) = split(/\t/,$_);
+    $n =~ tr/|//d;
+    $glyf{$u} = $n;
     $glyf{$n} = $u;
-    my $h = sprintf("%X", ord($u)); $glyf{$h} = $n;
+    $glyf{$h} = $n;
 }
 
 my @seq = `cat 00etc/seq-base.tsv`; chomp @seq;
@@ -126,7 +128,9 @@ sub seq_liga_view {
 }
 
 sub seq_name {
-    my @x = grep(length,split(/(.)/,$_[0]));
+    my $c = shift;
+    $c =~ tr/|//d;
+    my @x = grep(length,split(/(.)/,$c));
     my @xx = ();
     foreach my $x (@x) {
 	if ($glyf{$x}) {
