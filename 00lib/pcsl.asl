@@ -6830,15 +6830,6 @@
 @inote @useq 󰄖_𒡨
 @end sign
 
-@sign |8(N57).NI~b|
-@aka |8(N57).NI|
-@oid o0903277
-@inote @useq 󰄗‍𒨾
-@list U+12E0C
-@ucun 𒸌
-@uname PROTO-CUNEIFORM SIGN EIGHT-N57 BESIDE NI-B
-@end sign
-
 @sign |1(N58).BAD|
 @aka |1(N58).BAD~a|
 @aka |BAD+DIŠ~a|
@@ -7206,6 +7197,14 @@
 @ucun 𒩀
 @uname PROTO-CUNEIFORM SIGN NI-B TIMES FOUR-N57
 @glyf ~1 󳃀 F30C0 o0903707
+@end sign
+
+@sign |NI~b×8(N57)|
+@aka |8(N57).NI|
+@oid o0903277
+@list U+12E0C
+@ucun 𒸌
+@uname PROTO-CUNEIFORM SIGN NI-B TIMES EIGHT-N57
 @end sign
 
 @sign NI₂

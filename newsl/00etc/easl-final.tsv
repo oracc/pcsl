@@ -879,53 +879,53 @@ EASL0878	o0903267	.	|5(N57).KU₃~a|	I	|5(N57).KU3~a|	𒸉	/easl/images/o0903267
 EASL0879	o0903270	.	|6(N57).GAR|	I	|6(N57).GAR|	𒸊	/easl/images/o0903270.png
 EASL0880	o0903272	.	|6(N57).KU₃~a|	I	|6(N57).KU3~a|	𒸋	/easl/images/o0903272.png
 EASL0881	o0903274	.++	|7(N57).GAR|	I	-	󰄖_𒡨	
-EASL0882	o0903277	.	|8(N57).NI~b|	I	|8(N57).NI~b|	𒸌	/easl/images/o0903277.png
-EASL0883	o0903281	!A	|1(N58).BAD|	I	|1(N58).BAD~a|	𒸍	/easl/images/o0903281.png
-EASL0884	o0903283	!U	|(1(N58).BAD)~b|	I	|1(N58).BAD~b|	𒸏𒸎	/easl/images/o0903283.png
-EASL0885	o0903287	!C	|3(N58).UR₃~b1|	I	|3(N58).UR3~b1|	𒸐	/easl/images/o0903287.png
-EASL0886	o0901437		NA~a	I	NA~a	𒨋	/easl/images/o0901437.png
-EASL0887	o0901438		NA~b	I	NA~b	𒨌	/easl/images/o0901438.png
-EASL0888	o0901439		NA~c	I	NA~c	𒨍	/easl/images/o0901439.png
-EASL0889	o0901440		NA~d	I	NA~d	𒨎	/easl/images/o0901440.png
-EASL0890	o0901442		NA₂~a	I	NA2~a	𒨏𒨐	/easl/images/o0901442.png
-EASL0891	o0901444		NA₂~b1	I	NA2~b1	𒨑	/easl/images/o0901444.png
-EASL0892	o0901445		NA₂~b2	I	NA2~b2	𒨒	/easl/images/o0901445.png
-EASL0893	o0901448		NAB	I	NAB	𒨓𒨔𒨕	/easl/images/o0901448.png
-EASL0894	o0901452		NAGA~a	I	NAGA~a	𒨖	/easl/images/o0901452.png
-EASL0895	o0901455		|NAGA~a×TAK₄~a|	I	|NAGA~axTAK4~a|	𒨗	/easl/images/o0901455.png
-EASL0896	o0901453		NAGA~b	I	NAGA~b	𒨘	/easl/images/o0901453.png
-EASL0897	o0901457		NAGAR~a	I	NAGAR~a	𒨙𒨚𒨛𒨜	/easl/images/o0901457.png
-EASL0898	o0901461		NAGAR~b	I	NAGAR~b	𒨝𒨞	/easl/images/o0901461.png
-EASL0899	o0901464		NAM~a	I	NAM~a	𒨟	/easl/images/o0901464.png
-EASL0900	o0901465		NAM~b	I	NAM~b	𒨠	/easl/images/o0901465.png
-EASL0901	o0901466		NAM~c	I	NAM~c	𒨡	/easl/images/o0901466.png
-EASL0902	o0901467		NAM~d	I	NAM~d	𒨢	/easl/images/o0901467.png
-EASL0903	o0901468		NAM₂	I	NAM2	𒨣;󳃻	/easl/images/o0901468.png
-EASL0904	o0901469		|NAM₂×1(N01)|	I	|NAM2x1(N01)|	𒨤	/easl/images/o0901469.png
-EASL0905	o0901470		NAM₂@g	I	NAM2@g	𒨥	/easl/images/o0901470.png
-EASL0906	o0901471		NAM₂@t	I	NAM2@t	𒨦	/easl/images/o0901471.png
-EASL0907	o0901472	:	NAMEŠDA	I	NAMESZDA	𒨧𒨨	/easl/images/o0901472.png
-EASL0908	o0901475	:	NANNA~a	I	NANNA~a	𒨩𒨪	/easl/images/o0901475.png
-EASL0909	o0901477	:	NANNA~b	I	NANNA~b	𒨫	/easl/images/o0901477.png
-EASL0910	o0901479		NANŠE~a	I	NANSZE~a	𒨬	/easl/images/o0901479.png
-EASL0911	o0901480		NANŠE~b	I	NANSZE~b	𒨭	/easl/images/o0901480.png
-EASL0912	o0901481		NAR	I	NAR	𒨮	/easl/images/o0901481.png
-EASL0913	o0901483		NE~a	I	NE~a	𒨯𒨰𒨱	/easl/images/o0901483.png
-EASL0914	o0901486		NE~b	I	NE~b	𒨲	/easl/images/o0901486.png
-EASL0915	o0901487		NE~c	I	NE~c	𒨳	/easl/images/o0901487.png
-EASL0916	o0901488		NE~d	I	NE~d	𒨴	/easl/images/o0901488.png
-EASL0917	o0901491	n:	NERGAL~v	I	NERGAL~x	𒨵	/easl/images/o0901491.png
-EASL0918	o0901493		NESAG₂~a	I	NESAG2~a	𒨶󲥠	/easl/images/o0901493.png
-EASL0919	o0901495	++	NESAG₂~a2	I	-	󳁵	/pcsl/images/add/thumb/NESAG2a2.png
-EASL0920	o0901496		NESAG₂~b	I	NESAG2~b	𒨷𒨹	/easl/images/o0901496.png
-EASL0921	o0901499		NESAG₂~b@t	I	NESAG2~b@t	𒨸	/easl/images/o0901499.png
-EASL0922	o0901501		NI~a	I	NI~a	𒨺	/easl/images/o0901501.png
-EASL0923	o0901504	n.	|NI~a.RU~v1|	I	|NI~a.RU|	𒨻	/easl/images/o0901504.png
-EASL0924	o0901506		|NI~a×1(N57)|	I	|NI~ax1(N57)|	𒨼	/easl/images/o0901506.png
-EASL0925	o0901512		NI~a@g	I	NI~a@g	𒨽	/easl/images/o0901512.png
-EASL0926	o0901502		NI~b	I	NI~b	𒨾	/easl/images/o0901502.png
-EASL0927	o0901510	#	|NI~b×X|	I	|NI~bxX|	𒨿	/easl/images/o0901510.png
-EASL0928	o0901508		|NI~b×4(N57)|	I	|NI~bx4(N57)|	𒩀	/easl/images/o0901508.png
+EASL0882	o0903281	!A	|1(N58).BAD|	I	|1(N58).BAD~a|	𒸍	/easl/images/o0903281.png
+EASL0883	o0903283	!U	|(1(N58).BAD)~b|	I	|1(N58).BAD~b|	𒸏𒸎	/easl/images/o0903283.png
+EASL0884	o0903287	!C	|3(N58).UR₃~b1|	I	|3(N58).UR3~b1|	𒸐	/easl/images/o0903287.png
+EASL0885	o0901437		NA~a	I	NA~a	𒨋	/easl/images/o0901437.png
+EASL0886	o0901438		NA~b	I	NA~b	𒨌	/easl/images/o0901438.png
+EASL0887	o0901439		NA~c	I	NA~c	𒨍	/easl/images/o0901439.png
+EASL0888	o0901440		NA~d	I	NA~d	𒨎	/easl/images/o0901440.png
+EASL0889	o0901442		NA₂~a	I	NA2~a	𒨏𒨐	/easl/images/o0901442.png
+EASL0890	o0901444		NA₂~b1	I	NA2~b1	𒨑	/easl/images/o0901444.png
+EASL0891	o0901445		NA₂~b2	I	NA2~b2	𒨒	/easl/images/o0901445.png
+EASL0892	o0901448		NAB	I	NAB	𒨓𒨔𒨕	/easl/images/o0901448.png
+EASL0893	o0901452		NAGA~a	I	NAGA~a	𒨖	/easl/images/o0901452.png
+EASL0894	o0901455		|NAGA~a×TAK₄~a|	I	|NAGA~axTAK4~a|	𒨗	/easl/images/o0901455.png
+EASL0895	o0901453		NAGA~b	I	NAGA~b	𒨘	/easl/images/o0901453.png
+EASL0896	o0901457		NAGAR~a	I	NAGAR~a	𒨙𒨚𒨛𒨜	/easl/images/o0901457.png
+EASL0897	o0901461		NAGAR~b	I	NAGAR~b	𒨝𒨞	/easl/images/o0901461.png
+EASL0898	o0901464		NAM~a	I	NAM~a	𒨟	/easl/images/o0901464.png
+EASL0899	o0901465		NAM~b	I	NAM~b	𒨠	/easl/images/o0901465.png
+EASL0900	o0901466		NAM~c	I	NAM~c	𒨡	/easl/images/o0901466.png
+EASL0901	o0901467		NAM~d	I	NAM~d	𒨢	/easl/images/o0901467.png
+EASL0902	o0901468		NAM₂	I	NAM2	𒨣;󳃻	/easl/images/o0901468.png
+EASL0903	o0901469		|NAM₂×1(N01)|	I	|NAM2x1(N01)|	𒨤	/easl/images/o0901469.png
+EASL0904	o0901470		NAM₂@g	I	NAM2@g	𒨥	/easl/images/o0901470.png
+EASL0905	o0901471		NAM₂@t	I	NAM2@t	𒨦	/easl/images/o0901471.png
+EASL0906	o0901472	:	NAMEŠDA	I	NAMESZDA	𒨧𒨨	/easl/images/o0901472.png
+EASL0907	o0901475	:	NANNA~a	I	NANNA~a	𒨩𒨪	/easl/images/o0901475.png
+EASL0908	o0901477	:	NANNA~b	I	NANNA~b	𒨫	/easl/images/o0901477.png
+EASL0909	o0901479		NANŠE~a	I	NANSZE~a	𒨬	/easl/images/o0901479.png
+EASL0910	o0901480		NANŠE~b	I	NANSZE~b	𒨭	/easl/images/o0901480.png
+EASL0911	o0901481		NAR	I	NAR	𒨮	/easl/images/o0901481.png
+EASL0912	o0901483		NE~a	I	NE~a	𒨯𒨰𒨱	/easl/images/o0901483.png
+EASL0913	o0901486		NE~b	I	NE~b	𒨲	/easl/images/o0901486.png
+EASL0914	o0901487		NE~c	I	NE~c	𒨳	/easl/images/o0901487.png
+EASL0915	o0901488		NE~d	I	NE~d	𒨴	/easl/images/o0901488.png
+EASL0916	o0901491	n:	NERGAL~v	I	NERGAL~x	𒨵	/easl/images/o0901491.png
+EASL0917	o0901493		NESAG₂~a	I	NESAG2~a	𒨶󲥠	/easl/images/o0901493.png
+EASL0918	o0901495	++	NESAG₂~a2	I	-	󳁵	/pcsl/images/add/thumb/NESAG2a2.png
+EASL0919	o0901496		NESAG₂~b	I	NESAG2~b	𒨷𒨹	/easl/images/o0901496.png
+EASL0920	o0901499		NESAG₂~b@t	I	NESAG2~b@t	𒨸	/easl/images/o0901499.png
+EASL0921	o0901501		NI~a	I	NI~a	𒨺	/easl/images/o0901501.png
+EASL0922	o0901504	n.	|NI~a.RU~v1|	I	|NI~a.RU|	𒨻	/easl/images/o0901504.png
+EASL0923	o0901506		|NI~a×1(N57)|	I	|NI~ax1(N57)|	𒨼	/easl/images/o0901506.png
+EASL0924	o0901512		NI~a@g	I	NI~a@g	𒨽	/easl/images/o0901512.png
+EASL0925	o0901502		NI~b	I	NI~b	𒨾	/easl/images/o0901502.png
+EASL0926	o0901510	#	|NI~b×X|	I	|NI~bxX|	𒨿	/easl/images/o0901510.png
+EASL0927	o0901508		|NI~b×4(N57)|	I	|NI~bx4(N57)|	𒩀	/easl/images/o0901508.png
+EASL0928	o0903277		|NI~b×8(N57)|	I	|8(N57).NI~b|	𒸌	/easl/images/o0903277.png
 EASL0929	o0901513		NI₂	I	NI2	𒩁	/easl/images/o0901513.png
 EASL0930	o0901514		NIGIN	I	NIGIN	𒩂	/easl/images/o0901514.png
 EASL0931	o0901516		NIM~a	I	NIM~a	𒩃	/easl/images/o0901516.png

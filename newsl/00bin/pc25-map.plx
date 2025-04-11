@@ -72,7 +72,8 @@ foreach my $s (@s) {
 	++$seen{$pc24{$oo}};
 	++$pua;
     } else {
-	warn "$0: no PC24 for seq $c / $u / $n\n";
+	# this is permissible: seq does not require precomposed PUA glyph
+	# warn "$0: no PC24 for seq $c / $u / $n\n";
     }
 }
 
