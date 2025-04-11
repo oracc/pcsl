@@ -187,6 +187,11 @@ sub asl_sign {
 }
 
 sub asl_pchar {
+    my %xuname = (
+	'𒮘' => 'PROTO-CUNEIFORM SIGN SHU2',
+	'𒟁' => 'PROTO-CUNEIFORM SIGN DUG-C2 TENU',
+	'𒮅' => 'PROTO-CUNEIFORM SIGN SHITA-B1 GUNU',
+	);
     my $c = shift;
     if ($c) {
 	my $uc = '';
@@ -218,12 +223,24 @@ sub asl_pchar {
 		}
 	    }
 	    if ($cn) {
+		my $ocn = $cn;
 		$cn = pc25_name($cn);
-		if ($unames{$cn}) {
+		if ($xuname{$uc}) {
+		    print "\@uname $xuname{$uc}\n";
+		} elsif ($cn =~ /ZATU/) {
+		    my $un = $unames{$cn};
+		    $un =~ s/~([a-z]+)/-\U$1/;
+		    $un =~ s/\@g/ GUNU/;
+		    $un =~ s/\@t/ TENU/;
+		    warn "bad UNAME char in $cn=$un\n" if $un =~ /[~\@]/;
+		    print "\@uname $un\n";
+		} elsif ($unames{$cn}) {
 		    print "\@uname $unames{$cn}\n";
+		} elsif ($unames{$ocn}) {
+		    print "\@uname $unames{$ocn}\n";
 		} else {
 		    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
-		    warn "uname: $cn failed as X$X\n";
+		    warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
 		    ++$X;
 		}
 	    } else {
