@@ -38,7 +38,7 @@ pcsl: Makefile 00etc/pcsl-final.tsv
 	SL=$@ make xml html images asl
 
 pc25: Makefile 00etc/pc25-final.tsv
-	SL=$@ make csldist xml html images pc25no-html
+	SL=$@ make csldist xml html images pc25no-html pc25tab
 
 asl: 00lib/pcsl.asl
 
@@ -89,7 +89,7 @@ glyfdb: 00etc/glyf-final.tsv
 
 seqdb: 00etc/seq-final.tsv
 
-00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf_name.tsv 00bin/seq-final.plx
+00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
 	00bin/seq-final.plx | 00bin/sl-sort.plx -c=5 - >$@
 
 csldist:
@@ -166,6 +166,9 @@ images/${SL}/.images: images/${SL}/*.png
 
 clean-core:
 	(cd 00etc ; rm -vf atu[35]-final.xml msvo[14]-final.xml easl-final.* cusas-final.* num-final.*)
+
+clean-pc25:
+	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv)
 
 clean:
 	rm -f 00etc/*-final.xml 00web/*-tab.html

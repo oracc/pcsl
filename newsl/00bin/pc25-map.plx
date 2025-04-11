@@ -41,7 +41,7 @@ foreach (@pc25) {
     if ($pc24{$oo}) {
 	print "$oo\t$pc24{$oo}\t$u\n";
 	++$seen{$pc24{$oo}};
-    } else {	
+    } else {
 	warn "$0: no PC24 for $n = $oo = PC25 $u\n";
     }
 }
