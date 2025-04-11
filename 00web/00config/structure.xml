@@ -9,7 +9,9 @@
     <struct:page file="mepc/mepc.xml" id="mepc" type="page">
       <struct:page file="mepc/corpus.xml" id="mepccorpus" type="page"/>
       <struct:page file="mepc/graphemes.xml" id="mepcgraphemes" type="page"/>
-      <struct:page file="mepc/signlists.xml" id="mepcsignlists" type="page"/>
+      <struct:page file="mepc/signlists.xml" id="mepcsignlists" type="page">
+	<struct:page file="mepc/sl-overview.xml" id="mepcsloverview" type="page"/>
+      </struct:page>
       <struct:page file="mepc/glyfdb.xml" id="mepcglyfdb" type="page"/>
       <struct:page file="mepc/sequencedb.xml" id="mepcsequencedb" type="page"/>
     </struct:page>

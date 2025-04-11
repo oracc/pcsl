@@ -50,7 +50,7 @@ db/glyfdb.html: ~/orc/pcsl/newsl/00etc/glyf-final.tsv b/glyfdb.sh b/glyfdb.xsl
 db/sequencedb.html: ~/orc/pcsl/newsl/00etc/seq-final.tsv b/sequencedb.sh b/sequencedb.xsl
 	b/sequencedb.sh
 
-web: w/mepc.xml w/corpus.xml  w/graphemes.xml w/signlists.xml w/glyfdb.xml w/sequencedb.xml
+web: w/mepc.xml w/corpus.xml  w/graphemes.xml w/signlists.xml w/glyfdb.xml w/sequencedb.xml w/sl-overview.xml
 
 w/%.xml: x/%.xml
 	xl $? >$@
