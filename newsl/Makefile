@@ -9,9 +9,9 @@
 
 ### TODO: 00web/sequences.html from 00etc/seq-final.tsv
 
-O2=/home/stinney/o2
+O2=${HOME}/o2
 SLfont=PC24.ttf
-WWW=/home/oracc/www
+WWW=${ORACC}/www
 PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 
@@ -99,10 +99,10 @@ csldist:
 
 # # csldist-all: 00etc/csldist-all.tsv
 
-# # 00etc/csldist.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile
+# # 00etc/csldist.tsv: ${ORACC}/pcsl/02pub/csl.tix Makefile
 # # 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
 
-# # 00etc/csldist-all.tsv: /home/oracc/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
+# # 00etc/csldist-all.tsv: ${ORACC}/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
 # # 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 xml: 00etc/${SL}-final.xml
@@ -142,26 +142,26 @@ ${WWW}/pcsl/sl-overview.html: 00etc/sl-overview.html
 	sudo chmod +r ${WWW}/pcsl/sl-overview.html
 
 css:
-	sudo mkdir -p /home/oracc/www/pcsl/css
-	sudo cp -uv ../00res/css/*.css /home/oracc/pcsl/00res/css/
-	sudo cp -uv ../00res/css/*.css /home/oracc/www/pcsl/css/
+	sudo mkdir -p ${WWW}/pcsl/css
+	sudo cp -v ../00res/css/*.css ${ORACC}/pcsl/00res/css/
+	sudo cp -v ../00res/css/*.css ${WWW}/pcsl/css/
 
 js:
-	sudo mkdir -p /home/oracc/www/pcsl/js
-	sudo cp -u ../00res/js/*.js /home/oracc/www/pcsl/js/
-	sudo chmod -R o+r /home/oracc/www/pcsl/js
+	sudo mkdir -p ${WWW}/pcsl/js
+	sudo cp ../00res/js/*.js ${WWW}/pcsl/js/
+	sudo chmod -R o+r ${WWW}/pcsl/js
 
-font: /home/oracc/www/fonts/${SLfont}
+font: ${WWW}/fonts/${SLfont}
 
-/home/oracc/www/fonts/${SLfont}: ${O2}/msc/fonts/${SLfont}
-	sudo cp -u ${O2}/msc/fonts/${SLfont} ${WWW}/fonts
+${WWW}/fonts/${SLfont}: ${O2}/msc/fonts/${SLfont}
+	sudo cp  ${O2}/msc/fonts/${SLfont} ${WWW}/fonts
 	sudo chmod o+r ${WWW}/fonts/${SLfont}
 
 images: images/${SL}/.images
 
 images/${SL}/.images: images/${SL}/*.png
 	sudo mkdir -p ${PRJ}/images
-	sudo cp -u images/${SL}/*.png ${PRJ}/images
+	sudo cp images/${SL}/*.png ${PRJ}/images
 	touch $@
 
 clean-core:

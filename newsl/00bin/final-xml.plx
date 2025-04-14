@@ -20,6 +20,10 @@ GetOptions(
 $asl = $aslg if $aslg;
 
 my $n = shift @ARGV;
+
+die "$0: must give X-final.tsv base. Stop.\n"
+    unless $n;
+
 my $f = '';
 
 if ($n =~ /\.tsv/) {
@@ -29,7 +33,7 @@ if ($n =~ /\.tsv/) {
     $f = "00etc/$n-final.tsv";
 }
 
-die "$0: must give X-final.tsv base. Stop.\n"
+die "$0: $f not readable. Stop.\n"
     unless -r $f;
 
 my $outfile = $asl ? ($aslg ? "00etc/pc25_charnames.tsv" : "../00lib/pcsl.asl") : "00etc/$n-final.xml";
@@ -159,7 +163,7 @@ sub asl_chars {
 		    print "$cc\t$n~$glyf_index\n";
 		    ++$glyf_index;
 		} else {
-		    asl_pglyf($cc,$glyf_index++);
+		    asl_pglyf($n,$cc,$glyf_index++);
 		}
 	    }
 	}
@@ -251,7 +255,7 @@ sub asl_pchar {
 }
 
 sub asl_pglyf {
-    my($c,$tag) = @_;
+    my($n,$c,$tag) = @_;
     if (length $c > 1) {
 	my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
 	# warn "pglyf: $c: form without '='\n" unless $cc;
@@ -267,7 +271,7 @@ sub asl_pglyf {
 	my $h = sprintf("%X", ord $c);
 	my $go = $u{$h};
 	warn "pglyf: no OID for char $h\n" unless $go;
-	print "\@glyf ~$tag $c $h $go\n";;
+	print "\@glyf $n~%d $c $h $go ~%02X\n",$tag,$tag;
     }
 }
 

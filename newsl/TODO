@@ -150,7 +150,7 @@ are assigned once and never changed.
 .cvNN are sequenced in the font according to the last two digits of
 the VAR or using the OTF notation
 
-In ATF XSux the form UMUM~va0 is equivelent to UMUM@s if @glyf UMUM@s
+In ATF XSux the form UMUM~va0 is equivalent to UMUM@s if @glyf UMUM@s
 ... a0 is in effect; this does not work for Pcun because it conflicts
 with existing tags
 
