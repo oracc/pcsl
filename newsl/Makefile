@@ -42,8 +42,10 @@ pc25: Makefile 00etc/pc25-final.tsv
 
 asl: 00lib/pcsl.asl
 
-00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile 00bin/final-xml.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl 00etc/pc25rep.lst
-	00bin/final-xml.plx -a pcsl
+00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile seqdb 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
+	00bin/pcsl-asl.plx
+
+# 00etc/pc25rep.lst
 
 00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
 	00bin/pc25rep.sh <$< >$@

@@ -271,7 +271,7 @@ sub asl_pglyf {
 	my $h = sprintf("%X", ord $c);
 	my $go = $u{$h};
 	warn "pglyf: no OID for char $h\n" unless $go;
-	print "\@glyf $n~%d $c $h $go ~%02X\n",$tag,$tag;
+	printf "\@glyf $n~%d $c $h $go ~%02X\n", $tag, $tag;
     }
 }
 
@@ -360,7 +360,7 @@ sub load_dist_all {
 }
 
 sub load_oid {
-    my @o = `grep ^o09 /home/oracc/oid/oid.tab | cut -f1,3`; chomp @o;
+    my @o = `grep ^o09 $ENV{'ORACC'}/oid/oid.tab | cut -f1,3`; chomp @o;
     foreach (@o) {
 	my($o,$n) = split(/\t/,$_); $n{$o} = $n;
     }

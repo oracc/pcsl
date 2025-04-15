@@ -23,8 +23,17 @@ while (<>) {
     my($c,$n) = split(/\t/,$_);
     my $h = sprintf("%X", ord($c));
     if ($pc24{$h}) {
+	my $t = '';
+	if ($n =~ /~([0-9]+)\|?$/) {
+	    $t = $1;
+	}
 	my $o = $pc24{$h};
-	print "$c\t$o\t$h\t$n\n";
+	if ($t) {
+	    $n =~ s/%/%%/g;
+	    printf "$c\t$o\t$h\t$n\t~%02X\n", $t;
+	} else {
+	    print "$c\t$o\t$h\t$n\n";
+	}
     } else {
 	warn "no OID for $c = $h = $n\n";
     }

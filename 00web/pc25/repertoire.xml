@@ -12,7 +12,7 @@
       from PCSL for the following reasons:</p>
       <ol>
         <li><span class="remfor">Corpus scope:</span> 
-	331
+	
 	signs are first removed because they do not occur in the PC25
 	subcorpus.  For a list of these signs see <esp:link url="/pcsl/pc25/no_corpus.html">Appendix 2</esp:link>.</li>
         <li><span class="remfor">Non-contrastive variants:</span>
@@ -21,14 +21,14 @@
 	consideration because PC25 does not encode non-contrastive
 	glyph variants.</li>
         <li><span class="remfor">Ineligible Numbers:</span> 
-	356
+	
 	signs are removed because they are numbers that are either
 	encoded already in the Archaic Cuneiform Numbers proposal
 	(ACN) or because PC25 does not generally include numbers
 	(exceptions include the N57 and U₄-time sequences). For a list
 	of these signs, excluding those in ACN, see <esp:link url="/pcsl/pc25/no_numberxacn.html">Appendix 3</esp:link>.</li>
         <li><span class="remfor">Sequences:</span> 
-	114
+	
 	signs are removed because they are sequences. PC25 makes no
 	distinction between opaque sequences--those whose label hides
 	the fact that the sign is a sequence--and simple sequences.
@@ -36,11 +36,11 @@
 	sequences as described in the <esp:url page="pc25seqexc">Sequence Exceptions</esp:url> section.  A
 	list of excluded sequences is given in <esp:link url="/pcsl/pc25/no_sequence.html">Appendix 4</esp:link>.</li>
         <li><span class="remfor">Broken signs:</span> 
-	40
+	
 	are removed because they are damaged and partially incomplete.
 	A list of broken signs is given in <esp:link url="/pcsl/pc25/no_broken.html">Appendix 5</esp:link>.</li>
         <li><span class="remfor">Deleted signs:</span> 
-	40
+	
 	signs are deleted despited surviving the preceding conditions
 	because they are duplicates.  A list of deleted signs is given
 	in <esp:link url="/pcsl/pc25/no_broken.html">Appendix
