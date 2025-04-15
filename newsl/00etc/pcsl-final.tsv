@@ -886,7 +886,7 @@ o0903214	.C21b	|1(N57).E₂~a|	|1(N57).E₂~a|	-	I		󳀧=󰄐‍𒟊	CSL040
 o0903215	.++©	|1(N57).MUŠEN|	|1(N57).MUŠEN|	-	I		󰄐_𒨅	EASL0852	
 o0901748	.©	|1(N57).SIG|	|1(N57).SIG|	|SIGx1(N57)|	I		𒷴=󰄐‍𒫏	EASL0853	/easl/images/o0901748.png
 o0903219	.©	|1(N57).ŠAH₂~a|	|1(N57).ŠAH₂~a|	|1(N57).SZAH2~a|	I		𒷵=󰄐‍𒭉	EASL0854 EALX504	/easl/images/o0903219.png
-o0903220	.©	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|	|1(N57).SZUBUR|	I	𒷶	𒷷=𒮞⁢󰄐,𒷶=󰄐‍𒮞	EASL0855 EALX539 EAAR386 EAVR239	/easl/images/o0903220.png
+o0903220	.©	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|	|1(N57).SZUBUR|	I		𒷷=𒮞⁢󰄐,𒷶=󰄐‍𒮞	EASL0855 EALX539 EAAR386 EAVR239	/easl/images/o0903220.png
 o0903223	.©	|2(N57).AB₂|	|2(N57).AB₂|	|2(N57).AB2|	I		𒷸=󰄑‍𒚧	EASL0856 EAAR011	/easl/images/o0903223.png
 o0903225	C31b©	|2(N57).BIR₃~a|	|2(N57).BIR₃~a|	-	I		󳀩	CSL041	
 o0903227	.©	|2(N57).KU₆~a|	|2(N57).KU₆~a|	|2(N57).KU6~a|	I		𒷹=󰄑‍𒥥	EASL0857	/easl/images/o0903227.png
@@ -944,7 +944,7 @@ o0901469	©	|NAM₂×1(N01)|	|NAM₂×1(N01)|	|NAM2x1(N01)|	I		𒨤	EASL0903	/ea
 o0901470	©	NAM₂@g	NAM₂@g	NAM2@g	I		𒨥	EASL0904 EALX382	/easl/images/o0901470.png
 o0901471	©	NAM₂@t	NAM₂@t	NAM2@t	I		𒨦	EASL0905 EAAR270	/easl/images/o0901471.png
 o0901472	:©	NAMEŠDA	NAMEŠDA	NAMESZDA	I	𒨨	𒨧=𒟰⁤𒨣,𒨨=𒟰‍𒨣	EASL0906 EALX383 EAAR271 EAJN178 EAVR163	/easl/images/o0901472.png
-o0901475	:©	NANNA~a	NANNA~a	NANNA~a	I	𒨩	𒨩=𒱠‍𒨋,𒨪=𒱠‍𒨋󠄁;󳂞=𒱟‍𒨋	EASL0907 EAJN179	/easl/images/o0901475.png
+o0901475	:©	NANNA~a	NANNA~a	NANNA~a	I	𒨩	𒨩=𒱠‍𒨋,𒨪=𒱠‍𒨋;󳂞=𒱟‍𒨋	EASL0907 EAJN179	/easl/images/o0901475.png
 o0901477	:©	NANNA~b	NANNA~b	NANNA~b	I		𒨫=𒭭‍𒨋	EASL0908	/easl/images/o0901477.png
 o0901479	©	NANŠE~a	NANŠE~a	NANSZE~a	I		𒨬	EASL0909	/easl/images/o0901479.png
 o0901480	©	NANŠE~b	NANŠE~b	NANSZE~b	I		𒨭	EASL0910 EALX384	/easl/images/o0901480.png
@@ -1090,8 +1090,8 @@ o0901701	.	|SAL.LAM~b|	|SAL.LAM~b|	|SAL.LAM~b|	I		𒪷=𒪵‍𒦭	EASL1043	/eas
 o0901702	.++©	|SAL.ME~a|	|SAL.ME~a|	-	I		𒪵_𒧢	EASL1044	
 o0901703	n.©	|SAL.ŠU₂|	|SAL.ŠU₂~b|	|SAL.SZU2|	I		𒪸=𒪵‍󳂐	EASL1045 EAVR198	/easl/images/o0901703.png
 o0901705	.©	|SAL.ZATU751~a|	|SAL.ZATU751~a|	SAL.ZATU751~a	SAL+ZATU751a		𒪵_𒵵;󳀎=𒪵‍𒵵	EASL1046 EAJN213	-
-o0901706	.	|SAL.ZATU751~b|	|SAL.ZATU751~b|	SAL+ZATU751~b	SAL+ZATU751b		𒪵_𒵶;󳄄=𒪵‍𒵶‍	EASL1047 EAJN214	-
-o0901707	.©	|SAL.ZATU751~c|	|SAL.ZATU751~c|	SAL+ZATU751~c	SAL+ZATU751c		𒪵_󳀏;󳄂=𒪵󳀏	EASL1048	-
+o0901706	.	|SAL.ZATU751~b|	|SAL.ZATU751~b|	SAL+ZATU751~b	SAL+ZATU751b		𒪵_𒵶;󳄄=𒪵‍𒵶	EASL1047 EAJN214	-
+o0901707	.©	|SAL.ZATU751~c|	|SAL.ZATU751~c|	SAL+ZATU751~c	SAL+ZATU751c		𒪵_󳀏;󳄂=𒪵‍󳀏	EASL1048	-
 o0901704	©	|SAL×1(N58)|	|SAL×1(N58)|	|SALx1(N58)|	I		𒪹	EASL1049	/easl/images/o0901704.png
 o0901709	©	SANGA~a	SANGA~a	SANGA~a	I	𒪼	𒪺,𒪻,𒪼	EASL1050 EALX441 EAAR315 EAJN215 EAVR199	/easl/images/o0901709.png
 o0901712	©	SANGA~b	SANGA~b	SANGA~b	I	𒪾	𒪽,𒪾;𒪼	EASL1051 EALX442 EAAR316	/easl/images/o0901712.png
@@ -1245,7 +1245,7 @@ o0901943	:©	ŠANDANA~a	ŠANDANA~a	SZANDANA~a	I		𒭐=𒡎‍𒩃	EASL1186	/easl
 o0901944	:	ŠANDANA~b	ŠANDANA~b	SZANDANA~b	I		𒭑=𒡎‍𒨺	EASL1187	/easl/images/o0901944.png
 o0901946	©	ŠE~a	ŠE~a	ŠE~a	ŠEa		𒭒	EASL1188 EALX509 EAAR362 EAJN247 EAVR221	/easl/images/o0901946.png
 o0901951	C01b©	|ŠE~a.GAR|	|ŠE~a.GAR|	-	I	󳁛	󳁛;󳁚	CSL070	
-o0901953	.©	|ŠE~a.KIN₂~c|	|ŠE~a.KIN₂~c|	|SZE~a.KIN2~c|	I		𒭓=𒭒‍𒥈;󳃉=𒭗‍‍𒥈	EASL1189 EALX510	/easl/images/o0901953.png
+o0901953	.©	|ŠE~a.KIN₂~c|	|ŠE~a.KIN₂~c|	|SZE~a.KIN2~c|	I		𒭓=𒭒‍𒥈;󳃉=𒭗‍𒥈	EASL1189 EALX510	/easl/images/o0901953.png
 o0901955	.©	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|	|SZE~a.NAM2|	I	𒭔	𒭔=𒭒‍󳃻,𒭕=𒭒‍𒨣	EASL1190 EALX511 EAAR363 EAJN248 EAVR222	/easl/images/o0901955.png
 o0901959	©	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|	|SZE~a&SZE~a|	I		𒭖	EASL1191 EALX513 EAJN250 EAVR224	/easl/images/o0901959.png
 o0901961	©	ŠE~a@t	ŠE~a@t	SZE~a@t	I		𒭗	EASL1192 EALX514 EAAR364	/easl/images/o0901961.png
@@ -1300,7 +1300,7 @@ o0902041	.++	|ŠU₂.AN|	|ŠU₂.AN|	-	I		𒮘_𒛌	EASL1240
 o0902043	n.©	|ŠU₂.E₂~a|	|ŠU₂~b.E₂~a|	|SZU2.E2~a|	I		𒮙=󳂐‍𒟊	EASL1248 EAJN264	/easl/images/o0902043.png
 o0902044	n.©	|ŠU₂.E₂~b|	|ŠU₂~b.E₂~b|	|SZU2.E2~b|	I		𒮚=󳂐‍𒟎	EASL1249	/easl/images/o0902044.png
 o0903633	n.©	|ŠU₂.EN~a|	|ŠU₂~a.EN~a|	|SZU2.EN~a|	I	𒮔	𒮓=𒮑‍𒟖,𒮔=󳂐‍𒟖;󳃌=󳃼‍𒟖	EASL1244 EALX536 EAAR383 EAJN265 EAVR237	/easl/images/o0902046.png
-o0902048	n.	|ŠU₂.EN~b|	|ŠU₂~a.EN~b|	|SZU2.EN~b|	I		𒮕=󳂐‍𒟚	EASL1245	/easl/images/o0902048.png
+o0903634	n.	|ŠU₂.EN~b|	|ŠU₂~a.EN~b|	|SZU2.EN~b|	I		𒮕=󳂐‍𒟚	EASL1245	/easl/images/o0902048.png
 o0902049	n.	|ŠU₂.GIŠ|	|ŠU₂~b.GIŠ|	|SZU2.GISZ|	I		𒮛=󳂐‍𒢧	EASL1250	/easl/images/o0902049.png
 o0902050	n.©	|ŠU₂.(HI×1(N57))&(HI×1(N57))|	|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	|SZU2.((HI+1(N57))+(HI+1(N57)))|	I		𒮖=󳂐‍󳂒	EASL1246	/easl/images/o0902050.png
 o0902054	.++©	|ŠU₂.PAP~a|	|ŠU₂.PAP~a|	-	I		𒮘_𒪑	EASL1241	
@@ -1759,7 +1759,7 @@ o0902706	©	ZATU756	ZATU756	ZATU756	I	𒵾	𒵽,𒵾	EASL1691 EAVR316	/easl/imag
 o0902708	©	ZATU757	ZATU757	ZATU757	I	𒶀	𒵿,𒶀;󳃺	EASL1692 EAVR317	/easl/images/o0902708.png
 o0902710	©	ZATU758	ZATU758	ZATU758	I		𒶁	EASL1693 EALX665 EAAR571	/easl/images/o0902710.png
 o0902711	©	ZATU759	ZATU759	ZATU759	I	𒶂	𒶈,𒶂	EASL1694 EAAR572 EAJN361 EAVR318	/easl/images/o0902711.png
-o0902714	©	|ZATU759×KU₆~a|	|ZATU759×KU₆~a|	|ZATU759xKU6~a|	I	𒶃	𒶃;𒶈	EASL1695 EALX666 EAVR319	/easl/images/o0902714.png
+o0902714	©	|ZATU759×KU₆~a|	|ZATU759×KU₆~a|	|ZATU759xKU6~a|	I		𒶃	EASL1695 EALX666 EAVR319	/easl/images/o0902714.png
 o0902717	©	|ZATU759×(KU₆~a+KU₆~a)|	|ZATU759×(KU₆~a+KU₆~a)|	|ZATU759x(KU6~a+KU6~a)|	I		𒶄	EASL1696	/easl/images/o0902717.png
 o0902715		|ZATU759×KU₆~d|	|ZATU759×KU₆~d|	|ZATU759xKU6~d|	I		𒶅	EASL1697	/easl/images/o0902715.png
 o0902718	#©	|ZATU759×X|	|ZATU759×X|	|ZATU759xX|	I		𒶆	EASL1698	/easl/images/o0902718.png

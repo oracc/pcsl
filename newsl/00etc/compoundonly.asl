@@ -1,3 +1,4 @@
+@compoundonly |BU~a&BU~a|
 @compoundonly 1(N57@t)
 @compoundonly 1(N58)~a
 @compoundonly ANŠE~d
@@ -31,7 +32,6 @@
 @compoundonly |GIŠ×ŠU₂|
 @compoundonly |HI×1(N04)|
 @compoundonly |HI×1(N57).AN|
-@compoundonly |HI×HI|
 @compoundonly |SILA₃~a×UMBIN~a|
 @compoundonly |UKKIN~b×1(N57)|
 @compoundonly |ZU&ZU|

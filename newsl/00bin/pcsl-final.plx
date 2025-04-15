@@ -118,6 +118,8 @@ sub glyf_chars {
 }
 
 sub glyf_base {
+    warn "$0: glyf-base.tsv is now maintained manually. Stop.\n";
+    return;
     open(T,'>00etc/glyf-base.tsv'); select T;
     foreach my $o (sort { ${$pcsl{$a}}{'sc'} <=> ${$pcsl{$b}}{'sc'} } keys %pcsl) {
 	my %p = %{$pcsl{$o}};

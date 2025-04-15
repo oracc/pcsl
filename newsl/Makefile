@@ -67,7 +67,7 @@ num: 00etc/num-final.tsv
 00etc/corpus-base.tsv: 00etc/add.asl 00bin/asl-base.plx
 	00bin/asl-base.plx <$< >$@
 
-00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv
+00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv 00etc/refglyph.tsv
 	00bin/pcsl-final.plx
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
@@ -87,7 +87,8 @@ glyfdb: 00etc/glyf-final.tsv
 	00bin/glyf-final.plx <$< >$@
 
 00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
-	00bin/pcsl-final.plx -g
+	true
+#	00bin/pcsl-final.plx -g
 
 seqdb: 00etc/seq-final.tsv
 
