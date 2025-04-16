@@ -203,7 +203,7 @@ sub asl_pchar {
 
 	if ($c =~ /^(.)=(.*?)$/) {
 	    ($uc,$us) = ($1,$2);
-	} elsif ($c =~ /_/) {
+	} elsif ($c =~ /\./) {
 	    ($uc,$us) = ('',$c);
 	} else {
 	    $uc = $c;
@@ -279,8 +279,8 @@ sub chars {
     my @c = split(/[,;]/,$_[0]);
     print "<s>";
     foreach my $c (@c) {
-	if ($c =~ /_/) {
-	    my @cc = split(/_/,$c);
+	if ($c =~ /./) {
+	    my @cc = split(/\./,$c);
 	    print '<ff>';
 	    foreach my $cc (@cc) {
 		pchar($cc);
@@ -472,14 +472,14 @@ sub sl {
 		    my($lp,$lc) = @$lpc;
 		    my $diff = check_ext($p,$lp);
 		    my $dattr = ($diff ? "d=\"$diff\" " : '');
-		    print '<cc>' if $lc =~ /_/;
+		    print '<cc>' if $lc =~ /\./;
 		    my @c = grep(length,split(/(.)/,$lc));
 		    foreach my $cc (@c) {
-			next if $cc eq '_';
+			next if $cc eq '.';
 			my $h = sprintf("%X", ord($cc));
 			printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
 		    }
-		    print '</cc>' if $lc =~ /_/;
+		    print '</cc>' if $lc =~ /\./;
 		}
 		print '</s>';
 	    } else {

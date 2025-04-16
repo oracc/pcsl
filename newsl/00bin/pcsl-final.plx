@@ -84,7 +84,7 @@ sub charcommas {
 	my @c = split(/,/, $_[0]);
 	my @n = ();
 	foreach my $c (@c) {
-	    if ($c =~ /_/) {
+	    if ($c =~ /\./) {
 		push @n, $c;
 	    } else {
 		push @n, grep(length, split(/(.)/,$c));
@@ -377,7 +377,7 @@ sub seqify {
     my @s = split(/,/,$c);
     my $did_one = 0;
     foreach my $s (@s) {
-	if ($s =~ /_/) {
+	if ($s =~ /\./) {
 	    push @c, $s;
 	} else {
 	    my @x = grep(length,split(/(.)/,$s));

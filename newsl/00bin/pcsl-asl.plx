@@ -96,7 +96,7 @@ sub asl_uni {
 
 	if ($c =~ /^(.)=(.*?)$/) {
 	    ($uc,$us) = ($1,$2);
-	} elsif ($c =~ /_/) {
+	} elsif ($c =~ /\./) {
 	    ($uc,$us) = ('',$c);
 	} else {
 	    $uc = $c;
@@ -134,9 +134,14 @@ sub asl_uni {
 		} elsif ($unames{$ocn}) {
 		    print "\@uname $unames{$ocn}\n";
 		} else {
-		    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
-		    warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
-		    ++$X;
+		    my $xu = `gdlx -p pcsl -U '$cn' | cut -f2`;
+		    if ($xu =~ /PROTO/) {
+			print "\@uname $xu\n";
+		    } else {
+			print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
+			warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
+			++$X;
+		    }
 		}
 #		asl_pglyf($co,$cn,$uc,0);
 	    } else {
@@ -158,10 +163,11 @@ sub asl_pglyf {
 	if ($seq{$cc}) {
 	    my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
 	    my $nq = $n; $nq =~ s/\%/%%/g;
-	    printf "\@glyf $nq $u=$s1 $h $o ~%02X\n", $tag;
+	    my $ueq = $u ? "$u=" : '';
+	    printf "\@glyf $nq $ueq$s1 $h $o ~%02X\n", $tag;
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
-	    my $sc = $c; $sc =~ tr/_/‍/;
+	    my $sc = $c; $sc =~ tr/\./‍/;
 	    warn "seq-base\t$o\t\t$sc\t$n\n";
 	}
     } else {
@@ -216,10 +222,11 @@ sub load_seq {
 	if ($u) {
 	    $seq{$u} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
 	} else {
-	    $seq{$s2} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
+	    $u = '';
 	}
-	
+	$seq{$s2} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
     }
+    open(S,'>seq.dump'); print S Dumper \%seq; close(S);
 }
 
 sub load_unames {

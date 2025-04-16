@@ -12,6 +12,7 @@ use Getopt::Long;
 GetOptions(
     );
 
+my $warned = 0;
 my %u = (); load_unicode();
 
 my %glyf = (); my @glyf = `cat 00etc/glyf-final.tsv`; chomp @glyf;
@@ -23,8 +24,10 @@ foreach (@glyf) {
     $glyf{$h} = $n;
 }
 
-my @seq = `cat 00etc/seq-base.tsv`; chomp @seq;
-foreach (@seq) {
+open(S,'00etc/seq-base.tsv') || die;
+while (<S>) {
+    chomp;
+    $warned = 0;
     my($o,$c,$s,$n) = split(/\t/,$_);
 
     if ($u{$o}) { # many sequences have no independent char code
@@ -61,6 +64,7 @@ foreach (@seq) {
 
     print "$o\t$c\t$h\t$s\t$sv\t$xn\t$sq\t$lv\n";
 }
+close(S);
 
 1;
 
@@ -146,7 +150,8 @@ sub seq_name {
 	} elsif ($x eq 'O') { # ITS
 	    push @xx, $x;
 	} else {
-	    printf STDERR "seq_name: no rule for char $x = hex %X\n", ord($x);
+	    printf STDERR "seq-base.tsv:$.: seq_name: no rule for char $x = hex %X\n", ord($x);
+	    ++$warned;
 	}
     }
     '|'.join('',@xx).'|';
@@ -169,7 +174,8 @@ sub seq_view {
 	} elsif ($x eq 'O') { # ITS
 	    push @xx, $x;
 	} else {
-	    printf STDERR "seq_name: no rule for char $x = hex %X\n", ord($x);
+	    printf STDERR "seq-base.tsv:$.: seq_name: no rule for char $x = hex %X\n", ord($x)
+		unless $warned;
 	}
     }
     join('',@xx);
