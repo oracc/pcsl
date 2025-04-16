@@ -5570,7 +5570,7 @@
 
 @sign |LAGAB~b.TE|
 @oid o0901189
-@glyf |LAGAB~b.TE| 𒦗‍𒮹 00000 o0901189 ~01
+@glyf |LAGAB~b.TE| 𒦗‍𒮹 0 o0901189 ~01
 @end sign
 
 @sign |LAGAB~b×BANŠUR~a|
@@ -6481,7 +6481,7 @@
 
 @sign |1(N57).BU₃|
 @oid o0903212
-@glyf |1(N57).BU₃| 󰄐‍𒜘 00000 o0903212 ~01
+@glyf |1(N57).BU₃| 󰄐‍𒜘 0 o0903212 ~01
 @end sign
 
 @sign |1(N57).E₂~a|

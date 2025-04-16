@@ -268,8 +268,26 @@ sub pc25_names {
     }
 }
 
+sub pcsl_canonicalize_char {
+    my $c = shift;
+    my ($l,$r) = ();
+    if ($c =~ /=/) {
+	($l,$r) = ($c =~ /^(.*?)=(.*?)$/);
+    } else {
+	warn "canon $c\n" if length $c > 1 && $c =~ /𒪵/;
+	$r = $c;
+    }
+    my $or = $r;
+    $r =~ tr/‍⁤⁢/.+∘/;
+    if ($or ne $r) {
+	warn "canon $or to $r\n";
+    }
+    ($l,$r);
+}
+
 sub pcsl_add_glyf {
     my($oid,$chr) = @_;
+    my($chrl,$chrr) = pcsl_canonicalize_char($chr);
     if ($pcsl{$oid}) {
 	unless (${$pcsl{$oid}}{'chash'}) {
 	    my $ctmp = ${$pcsl{$oid}}{'char'};
@@ -322,12 +340,14 @@ sub pcsl_seq {
 	if ($t && $t =~ /[.:]/) {
 	    my @c = ();
 	    if ($c =~ /;/) {
-		my @n = split(/;/,$c);
-		foreach my $n (@n) {
-		    push @c, seqify($o,$n,$t);
+		my @cc = split(/;/,$c);
+		foreach my $cc (@cc) {
+		    my($nl,$nr) = pcsl_canonicalize_char($cc);
+		    push @c, seqify($o,$cc,$t);
 		    push @c, ';';
 		}
 	    } else {
+		my($nl,$nr) = pcsl_canonicalize_char($c);
 		push @c, seqify($o,$c,$t);
 	    }
 	    my $nc = join(',', @c);
