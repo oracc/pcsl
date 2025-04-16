@@ -36,6 +36,7 @@ open(N,$f);
 while (<N>) {
     chomp;
     my($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
+    $r = '' if $t =~ /[.:]/; # brute force shut down refglyph if tag says this is sequence
     asl_sign($p,$o,$r,$c) unless $p eq 'RI~x';
 }
 close(N);
@@ -48,19 +49,18 @@ close(X);
 ################################################################################
 
 sub asl_chars {
-    my($r,$c,$n) = @_;
+    my($o,$r,$c,$n) = @_;
     my @c = split(/[,;]/,$c);
     if ($#c >= 0) {
-	if ($r) {
-	    asl_pchar($r);
-	} else {
-	    asl_pchar(shift @c);
-	}
+	#	if ($r) {
+	#	    asl_pchar($r);
+	#	} else {
+	#	    asl_pchar(shift @c);
+	#	}
+	asl_uni($n,$o,$c);
 	my $glyf_index = 1;
 	foreach my $cc (@c) {
-	    unless ($cc eq $r) {
-		asl_pglyf($n,$cc,$glyf_index++);
-	    }
+	    asl_pglyf($o,$n,$cc,$glyf_index++);
 	}
     }
 }
@@ -79,17 +79,17 @@ sub asl_sign {
 	}
     }
     print "\@oid $om\n";
-    asl_chars($r, $c, $s);
+    asl_chars($om, $r, $c, $s);
     print "\@end sign\n\n";
 }
 
-sub asl_pchar {
+sub asl_uni {
     my %xuname = (
 	'𒮘' => 'PROTO-CUNEIFORM SIGN SHU2',
 	'𒟁' => 'PROTO-CUNEIFORM SIGN DUG-C2 TENU',
 	'𒮅' => 'PROTO-CUNEIFORM SIGN SHITA-B1 GUNU',
 	);
-    my $c = shift;
+    my($n,$o,$c) = @_;
     if ($c) {
 	my $uc = '';
 	my $us = '';
@@ -104,14 +104,12 @@ sub asl_pchar {
 
 	if ($us || length $c > 1) {
 	    $us = $c unless $us;
-	    print "\@inote \@useq $us\n";
+	    # print "\@inote \@useq $us\n";
 	}
 
 	if ($uc) {
 	    my $ch = sprintf("%X", ord($uc));
 	    printf "\@list U+$ch\n";
-	    print "\@ucun $uc\n";
-
 	    my $co = $u{$ch};
 	    my $cn = $n{$co};
 	    unless ($cn) {
@@ -140,6 +138,7 @@ sub asl_pchar {
 		    warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
 		    ++$X;
 		}
+#		asl_pglyf($co,$cn,$uc,0);
 	    } else {
 		warn "$0: no name for OID=$co HEX=$ch\n";
 	    }
@@ -148,25 +147,23 @@ sub asl_pchar {
 }
 
 sub asl_pglyf {
-    my($n,$c,$tag) = @_;
+    my($o,$n,$c,$tag) = @_;
     if (length $c > 1) {
 	my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
-	if ($cc) {
-	    # my $fh = sprintf("%X", ord $cc);
-	    # my $fo = $u{$fh};
-	    # my $fn = $n{$fo};
-	    # print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
-	    if ($seq{$cc}) {
-		my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
-		my $nq = $n; $nq =~ s/\%/%%/g;
-		printf "\@glyf $nq $u=$s1 $h $o ~%02X\n", $tag;
-	    } else {
-		warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
-	    }
+	$cc = $c unless $cc; # it's OK not to have a precomposed glyph in the PUA and just have X_Y
+	# my $fh = sprintf("%X", ord $cc);
+	# my $fo = $u{$fh};
+	# my $fn = $n{$fo};
+	# print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
+	if ($seq{$cc}) {
+	    my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
+	    my $nq = $n; $nq =~ s/\%/%%/g;
+	    printf "\@glyf $nq $u=$s1 $h $o ~%02X\n", $tag;
 	} else {
-	    warn "pglyf: $c: form without '='\n";
+	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
+	    my $sc = $c; $sc =~ tr/_/‍/;
+	    warn "seq-base\t$o\t\t$sc\t$n\n";
 	}
-	# print "\@form $c\n";
     } else {
 	if ($glyf{$c}) {
 	    my($o,$h,$n,$t) = @{$glyf{$c}};
@@ -216,7 +213,12 @@ sub load_seq {
     my @s = `cat 00etc/seq-final.tsv`; chomp @s;
     foreach (@s) {
 	my($o,$u,$h,$s1,$s2,$n,$l,$s3) = split(/\t/,$_);
-	$seq{$u} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
+	if ($u) {
+	    $seq{$u} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
+	} else {
+	    $seq{$s2} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
+	}
+	
     }
 }
 
