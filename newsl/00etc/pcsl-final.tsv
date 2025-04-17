@@ -944,7 +944,7 @@ o0901469	©	|NAM₂×1(N01)|	|NAM₂×1(N01)|	|NAM2x1(N01)|	I		𒨤	EASL0903	/ea
 o0901470	©	NAM₂@g	NAM₂@g	NAM2@g	I		𒨥	EASL0904 EALX382	/easl/images/o0901470.png
 o0901471	©	NAM₂@t	NAM₂@t	NAM2@t	I		𒨦	EASL0905 EAAR270	/easl/images/o0901471.png
 o0901472	:©	NAMEŠDA	NAMEŠDA	NAMESZDA	I	𒨨	𒨧=𒟰⁤𒨣,𒨨=𒟰‍𒨣	EASL0906 EALX383 EAAR271 EAJN178 EAVR163	/easl/images/o0901472.png
-o0901475	:©	NANNA~a	NANNA~a	NANNA~a	I	𒨩	𒨩=𒱠‍‍𒨋,𒨪=𒱠⁢‍𒨋;󳂞=𒱟‍𒨋	EASL0907 EAJN179	/easl/images/o0901475.png
+o0901475	:©	NANNA~a	NANNA~a	NANNA~a	I	𒨩	𒨩=𒱠‍𒨋,𒨪=𒱠⁢‍𒨋;󳂞=𒱟‍𒨋	EASL0907 EAJN179	/easl/images/o0901475.png
 o0901477	:©	NANNA~b	NANNA~b	NANNA~b	I		𒨫=𒭭‍𒨋	EASL0908	/easl/images/o0901477.png
 o0901479	©	NANŠE~a	NANŠE~a	NANSZE~a	I		𒨬	EASL0909	/easl/images/o0901479.png
 o0901480	©	NANŠE~b	NANŠE~b	NANSZE~b	I		𒨭	EASL0910 EALX384	/easl/images/o0901480.png
@@ -1300,11 +1300,11 @@ o0902041	.++	|ŠU₂.AN|	|ŠU₂.AN|	-	I		𒮘.𒛌	EASL1240
 o0902043	n.©	|ŠU₂.E₂~a|	|ŠU₂~b.E₂~a|	|SZU2.E2~a|	I		𒮙=󳂐‍𒟊	EASL1248 EAJN264	/easl/images/o0902043.png
 o0902044	n.©	|ŠU₂.E₂~b|	|ŠU₂~b.E₂~b|	|SZU2.E2~b|	I		𒮚=󳂐‍𒟎	EASL1249	/easl/images/o0902044.png
 o0903633	n.©	|ŠU₂.EN~a|	|ŠU₂~a.EN~a|	|SZU2.EN~a|	I	𒮔	𒮓=𒮑‍𒟖,𒮔=󳂐‍𒟖;󳃌=󳃼‍𒟖	EASL1244 EALX536 EAAR383 EAJN265 EAVR237	/easl/images/o0902046.png
-o0903634	n.	|ŠU₂.EN~b|	|ŠU₂~a.EN~b|	|SZU2.EN~b|	I		𒮕=󳂐‍𒟚	EASL1245	/easl/images/o0902048.png
+o0903634	n.	|ŠU₂.EN~b|	|ŠU₂~a.EN~b|	|SZU2.EN~b|	I			EASL1245	/easl/images/o0902048.png
 o0902049	n.	|ŠU₂.GIŠ|	|ŠU₂~b.GIŠ|	|SZU2.GISZ|	I		𒮛=󳂐‍𒢧	EASL1250	/easl/images/o0902049.png
 o0902050	n.©	|ŠU₂.(HI×1(N57))&(HI×1(N57))|	|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	|SZU2.((HI+1(N57))+(HI+1(N57)))|	I		𒮖=󳂐‍󳂒	EASL1246	/easl/images/o0902050.png
 o0902054	.++©	|ŠU₂.PAP~a|	|ŠU₂.PAP~a|	-	I		𒮘.𒪑	EASL1241	
-o0903635	n.©	|ŠU₂.URI₃~a|	|ŠU₂~a.URI₃~a~v1|	|SZU2.URI3~a|	I		𒮗=󳂐‍𒱟	EASL1247 EAAR384	/easl/images/o0902056.png
+o0903635	n.©	|ŠU₂.URI₃~a|	|ŠU₂~a.URI₃~a~v1|	|SZU2.URI3~a|	I			EASL1247 EAAR384	/easl/images/o0902056.png
 o0902051	n.	|ŠU₂.1(N02)|	|ŠU₂~b.1(N02)|	|SZU2.1(N02)|	I		𒮜=󳂐‍𒖾	EASL1251	/easl/images/o0902051.png
 o0902057	.++©	|ŠU₂.1(N24)|	|ŠU₂.1(N24)|	-	I		󳀓=󳂐‍𒖪	EASL1242	/pcsl/images/add/thumb/SZU2x1N24.png
 o0902052	1-.	|ŠU₂.2(N57)|	|ŠU₂~b.2(N57)|	|SZU2.2(N57)|	I		󲷼=󳂐‍󰄑	EASL1252	/easl/images/o0902052.png

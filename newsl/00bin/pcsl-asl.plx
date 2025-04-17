@@ -36,8 +36,9 @@ open(N,$f);
 while (<N>) {
     chomp;
     my($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
-    $r = '' if $t =~ /[.:]/; # brute force shut down refglyph if tag says this is sequence
-    asl_sign($p,$o,$r,$c) unless $p eq 'RI~x';
+    my $seqflag = $t =~ /[.:]/;
+    $r = '' if $seqflag; # brute force shut down refglyph if tag says this is sequence
+    asl_sign($p,$o,$r,$c,$seqflag) unless $p eq 'RI~x';
 }
 close(N);
 
@@ -49,15 +50,11 @@ close(X);
 ################################################################################
 
 sub asl_chars {
-    my($o,$r,$c,$n) = @_;
+    my($o,$r,$c,$n,$seqflag) = @_;
     my @c = split(/[,;]/,$c);
     if ($#c >= 0) {
-	#	if ($r) {
-	#	    asl_pchar($r);
-	#	} else {
-	#	    asl_pchar(shift @c);
-	#	}
-	asl_uni($n,$o,$c);
+	asl_uni($n,$o,$c)
+	    unless $seqflag;
 	my $glyf_index = 1;
 	foreach my $cc (@c) {
 	    asl_pglyf($o,$n,$cc,$glyf_index++);
@@ -66,7 +63,7 @@ sub asl_chars {
 }
 
 sub asl_sign {
-    my($s,$o,$r,$c) = @_;
+    my($s,$o,$r,$c,$seqflag) = @_;
     my $om = $oidmap{$o} || $o;
     print "\@sign $s\n";
     if ($aka{$o}) {
@@ -79,7 +76,7 @@ sub asl_sign {
 	}
     }
     print "\@oid $om\n";
-    asl_chars($om, $r, $c, $s);
+    asl_chars($om, $r, $c, $s, $seqflag);
     print "\@end sign\n\n";
 }
 
@@ -161,10 +158,13 @@ sub asl_pglyf {
 	# my $fn = $n{$fo};
 	# print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
 	if ($seq{$cc}) {
-	    my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
-	    my $nq = $n; $nq =~ s/\%/%%/g;
-	    my $ueq = $u ? "$u=" : '';
-	    printf "\@glyf $nq $ueq$s1 $h $o ~%02X\n", $tag;
+	    #my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
+	    my %s = %{$seq{$cc}};
+	    # print Dumper \%s;
+	    my $nq = $s{'n'}; $nq =~ s/\%/%%/g;
+	    my $ueq = $s{'u'} ? "$s{'u'}=" : '';
+	    $s{'t'} = '' unless $s{'t'};
+	    printf "\@glyf $nq $ueq$s{'s1'} $s{'h'} $s{'o'} ~ff\n";
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
 	    my $sc = $c; $sc =~ tr/\./‍/;
@@ -218,13 +218,16 @@ sub load_oidmap {
 sub load_seq {
     my @s = `cat 00etc/seq-final.tsv`; chomp @s;
     foreach (@s) {
-	my($o,$u,$h,$s1,$s2,$n,$l,$s3) = split(/\t/,$_);
-	if ($u) {
-	    $seq{$u} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
+#	my($o,$u,$h,$s1,$s2,$n,$l,$s3) = split(/\t/,$_);
+	my %s = (); @s{qw/o u h s1 s2 n l s3/} = split(/\t/,$_);
+	my $s = { %s };
+	if ($s{'u'}) {
+	    $seq{$s{'u'}} = $s;
+	    $seq{"$s{'u'}=$s{'s1'}"} = $s;
 	} else {
-	    $u = '';
+	    $s{'u'} = '';
 	}
-	$seq{$s2} = [ $o , $u , $h , $s1 , $s2 , $n , $l, $s3 ];
+	$seq{$s{'s1'}} = $seq{$s{'s2'}} = $s;
     }
     open(S,'>seq.dump'); print S Dumper \%seq; close(S);
 }

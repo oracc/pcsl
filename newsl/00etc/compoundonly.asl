@@ -1,4 +1,3 @@
-@compoundonly |BU~a&BU~a|
 @compoundonly 1(N57@t)
 @compoundonly 1(N58)~a
 @compoundonly ANŠE~d
@@ -26,11 +25,13 @@
 @compoundonly ZU
 @compoundonly |(BU~a.DU₆~a)&(BU~a.DU₆~a)|
 @compoundonly |BU~a%BU~a|
+@compoundonly |BU~a&BU~a|
 @compoundonly |DUB@n~a×1(N58)|
 @compoundonly |DUG~b&DUG~b|
 @compoundonly |GIŠ×(DIN.DIN)|
 @compoundonly |GIŠ×ŠU₂|
 @compoundonly |HI×1(N04)|
+@compoundonly |(HI×1(N57))&(HI×1(N57))|
 @compoundonly |HI×1(N57).AN|
 @compoundonly |SILA₃~a×UMBIN~a|
 @compoundonly |UKKIN~b×1(N57)|

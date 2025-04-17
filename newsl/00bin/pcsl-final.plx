@@ -223,6 +223,31 @@ sub load_seq {
 	my($o,$h) = split(/\t/,$u);
 	$g{$o} = chr(hex($h));
     }
+    my @s = `cat 00etc/seq-final.tsv`; chomp @s;
+    foreach (@s) {
+	my %s = (); @s{qw/o u h s1 s2 n l s3/} = split(/\t/,$_);
+	my $s = { %s };
+	if ($g{$s{'o'}}) { # simple sequences and ED I-II removed signs have no unicode
+	    $s{'u'} = $g{$s{'o'}} unless $s{'u'};
+	}
+	$seq{"$s{'o'}$s{'u'}"} = $s{'s1'};
+	if ($s{'u'}) {
+	    $seq{$s{'u'}} = $s;
+	    $seq{"$s{'u'}=$s{'s1'}"} = $s;
+	} else {
+	    $s{'u'} = '';
+	}
+	$seq{$s{'s1'}} = $seq{$s{'s2'}} = $s;
+    }
+}
+
+sub xload_seq {
+    my @u = `cat 00etc/unicode.tsv`; chomp @u;
+    my %g = ();
+    foreach my $u (@u) {
+	my($o,$h) = split(/\t/,$u);
+	$g{$o} = chr(hex($h));
+    }
     my @seq = `cat 00etc/seq-base.tsv`; chomp @seq;
     foreach my $s (@seq) {
 	my($o,$g,$c,$n) = split(/\t/,$s);
