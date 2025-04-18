@@ -14,8 +14,13 @@ SLfont=PC24.ttf
 WWW=${ORACC}/www
 PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
+SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
-default:  pc24tab msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 pc25tab overview css js font
+ifeq "$(ORACC_MODE)" "multi"
+	sudo=sudo
+endif
+
+default:  pc24tab msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 pc25tab css js font
 
 core: clean-core msvo1 msvo4 atu3 atu5 cusas easl num
 
@@ -77,8 +82,8 @@ seq: 00web/easl-seq.html
 
 00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
 	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
-	sudo cp $@ ${WWW}/pcsl/easl/
-	sudo chmod +r ${WWW}/pcsl/easl/easl-seq.html
+	${sudo} cp $@ ${WWW}/pcsl/easl/
+	${sudo} chmod +r ${WWW}/pcsl/easl/easl-seq.html
 
 glyfdb: 00etc/glyf-final.tsv
 	@true
@@ -128,43 +133,48 @@ html: 00web/${SL}-tab.html
 	00bin/pc25no-html.sh $<
 
 pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html
-	sudo cp $^ ${PCSL}/pc25
-	sudo chmod -R +r ${PCSL}/pc25
+	${sudo} cp $^ ${PCSL}/pc25
+	${sudo} chmod -R +r ${PCSL}/pc25
 
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
 	00bin/final-html.sh $*
-	sudo mkdir -p ${PRJ}
-	sudo cp 00web/$*-tab.html ${PRJ}
-	sudo chmod -R +r ${PRJ}
+	${sudo} mkdir -p ${PRJ}
+	${sudo} cp 00web/$*-tab.html ${PRJ}
+	${sudo} chmod -R +r ${PRJ}
 
-overview: ${WWW}/pcsl/sl-overview.html
-
-${WWW}/pcsl/sl-overview.html: 00etc/sl-overview.html
-	sudo cp $< ${WWW}/pcsl
-	sudo chmod +r ${WWW}/pcsl/sl-overview.html
+#overview: ${WWW}/pcsl/sl-overview.html
+#${WWW}/pcsl/sl-overview.html: 00etc/sl-overview.html
+#	${sudo} cp $< ${WWW}/pcsl
+#	${sudo} chmod +r ${WWW}/pcsl/sl-overview.html
 
 css:
-	sudo mkdir -p ${WWW}/pcsl/css
-	sudo cp -v ../00res/css/*.css ${ORACC}/pcsl/00res/css/
-	sudo cp -v ../00res/css/*.css ${WWW}/pcsl/css/
+	00bin/xinst.sh css ../00res/css/*.css
+#	${sudo} mkdir -p ${WWW}/pcsl/css
+#	${sudo} cp -v ../00res/css/*.css ${ORACC}/pcsl/00res/css/
+#	${sudo} cp -v ../00res/css/*.css ${WWW}/pcsl/css/
 
 js:
-	sudo mkdir -p ${WWW}/pcsl/js
-	sudo cp ../00res/js/*.js ${WWW}/pcsl/js/
-	sudo chmod -R o+r ${WWW}/pcsl/js
+	00bin/xinst.sh js ../00res/js/*.js
+#	${sudo} mkdir -p ${WWW}/pcsl/js
+#	${sudo} cp ../00res/js/*.js ${WWW}/pcsl/js/
+#	${sudo} chmod -R o+r ${WWW}/pcsl/js
 
 font: ${WWW}/fonts/${SLfont}
 
 ${WWW}/fonts/${SLfont}: ${O2}/msc/fonts/${SLfont}
-	sudo cp  ${O2}/msc/fonts/${SLfont} ${WWW}/fonts
-	sudo chmod o+r ${WWW}/fonts/${SLfont}
+	00bin/xinst.sh fonts ${O2}/msc/fonts/${SLfont}
+#	${sudo} cp  ${O2}/msc/fonts/${SLfont} ${WWW}/fonts
+#	${sudo} chmod o+r ${WWW}/fonts/${SLfont}
+
+sudo:
+	echo ${sudo}
 
 images: images/${SL}/.images
 
 images/${SL}/.images: images/${SL}/*.png
-	sudo mkdir -p ${PRJ}/images
-	sudo cp images/${SL}/*.png ${PRJ}/images
+	${sudo} mkdir -p ${PRJ}/images
+	${sudo} cp images/${SL}/*.png ${PRJ}/images
 	touch $@
 
 clean-core:
