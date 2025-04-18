@@ -16,7 +16,7 @@ while (<>) {
     if (/^\S+?\.\s/) {
 	s/([A-Z][A-Z]+\d+)/subify($1)/eg;
 	s/([AEIU]\d)(?![0-9])/subify($1)/eg;
-	s/x([A-Z])/×$1/g;
+	s/x([A-Z0-9\(])/×$1/g;
 	1 while s/'\)/′)/;
 	s/GA'AR/GAʾAR/g;
 	s/SZ/Š/g;

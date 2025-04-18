@@ -24,7 +24,7 @@ my %n = (); load_oid();
 my %u = (); load_unicode();
 
 my %aka = (); load_aka();
-my %oidmap = (); load_oidmap();
+my %oidmap = (); my %oidmapr = (); load_oidmap();
 my %glyf = (); load_glyf();
 my %seq = (); load_seq();
 my %unames = (); load_unames();
@@ -65,6 +65,7 @@ sub asl_chars {
 sub asl_sign {
     my($s,$o,$r,$c,$seqflag) = @_;
     my $om = $oidmap{$o} || $o;
+    my $omr = $oidmapr{$o} || $o;
     print "\@sign $s\n";
     if ($aka{$o}) {
 	foreach my $a (@{$aka{$o}}) {
@@ -72,6 +73,10 @@ sub asl_sign {
 	}
     } elsif ($aka{$om}) {
 	foreach my $a (@{$aka{$om}}) {
+	    print "\@aka $a\n";
+	}
+    } elsif ($aka{$omr}) {
+	foreach my $a (@{$aka{$omr}}) {
 	    print "\@aka $a\n";
 	}
     }
@@ -131,7 +136,7 @@ sub asl_uni {
 		} elsif ($unames{$ocn}) {
 		    print "\@uname $unames{$ocn}\n";
 		} else {
-		    my $xu = `gdlx -p pcsl -U '$cn' | cut -f2`;
+		    my $xu = `gdlx -p pcsl -U '$cn' | cut -f2`; chomp $xu;
 		    if ($xu =~ /PROTO/) {
 			print "\@uname $xu\n";
 		    } else {
@@ -211,7 +216,7 @@ sub load_oid {
 sub load_oidmap {
     my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
     foreach (@o) {
-	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m;
+	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m; $oidmapr{$m} = $o;
     }
 }
 

@@ -212,7 +212,7 @@ $ rest broken
 7. 1(N01) , IŠ~a 
 8. 1(N01) , NIM~a 
 9. 1(N01) , NIM~a#? [...] 
-10. 1(N01) , |GURUŠ~ax2(N14)| 
+10. 1(N01) , |GURUŠ~a×2(N14)| 
 11. 1(N01) , ŠITA~a1 
 @column 4 
 1. 1(N01) , KISAL~b1# NUN~a 
@@ -245,7 +245,7 @@ $ rest broken
 7. 1(N01) , GI [...] 
 8. 1(N01) , X [...] 
 @column 3 
-1. 1(N01) , |AB₂x2(N14)| 
+1. 1(N01) , |AB₂×2(N14)| 
 2. 1(N01) , DARA₃~c 
 3. 1(N01) , DIN 
 4. 1(N01) , GURUŠDA# 
@@ -624,7 +624,7 @@ $ broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c 
 ## >>Q000023 003 
-4. 1(N01) , |DUG~cx1(N57)| 
+4. 1(N01) , |DUG~c×1(N57)| 
 ## >>Q000023 004 
 5. 1(N01) , UKKIN~b 
 ## >>Q000023 005 
@@ -666,7 +666,7 @@ $ rest broken
 ## >>Q000023 026 
 10. 1(N01) , |DUG~b×NAGA~a| 
 ## >>Q000023 028 
-11. 1(N01) , |DUG~bx(ŠE~a.NAM₂)|? 
+11. 1(N01) , |DUG~b×(ŠE~a.NAM₂)|? 
 ## >>Q000023 029 
 12. 1(N01)# , |DUG~b×X|# 
 ## >>Q000023 030 
@@ -1016,7 +1016,7 @@ $ rest broken
 1. 1(N01) , PAP~a# [...] 
 2. 1(N01) , BU~a SAL 
 3. 1(N01) , ZATU659 
-4. 1(N01) , |ZATU659x1(N58)@t|? [...] 
+4. 1(N01) , |ZATU659×1(N58)@t|? [...] 
 5. 1(N01) , ZATU659# [...] 
 6. 1(N01) , [...] 
 $ rest broken 
@@ -2066,7 +2066,7 @@ $ rest broken
 ## >>Q000023 065 
 2'. 1(N01) , U₂~b# [...] 
 ## >>Q000023 066 
-3'. 1(N01) , U₂~b |GA~cx1(N14)| 
+3'. 1(N01) , U₂~b |GA~c×1(N14)| 
 ## >>Q000023 067 
 4'. 1(N01) , GAʾAR~a1 
 ## >>Q000023 068 
@@ -2240,7 +2240,7 @@ $ rest broken
 @obverse 
 $ beginning broken 
 @column 1' 
-1. 1(N01) , |DUG~bx(ŠE~a.NAM₂)|#? 
+1. 1(N01) , |DUG~b×(ŠE~a.NAM₂)|#? 
 ## >>Q000023 030 
 2. 1(N01) , |DUG~b×TAK₄~a| 
 ## >>Q000023 031 
@@ -3432,7 +3432,7 @@ $ rest broken
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , |UR₂x1(N57)| 
+1. 1(N01) , |UR₂×1(N57)| 
 2. 1(N01) , |GIŠ×ŠU₂~b| 
 3. 1(N01) , GIŠIMMAR~b1 
 4. 1(N01) , UR₂ X SU~a# SAR~a# 
@@ -4474,9 +4474,9 @@ $ beginning broken
 @column 1' 
 1. [1(N01)] , |DUG~b×ZATU779|#? 
 ## >>Q000023 029 
-2. [1(N01)] , |DUG~bx(ŠE~a.NAM₂)|#? 
+2. [1(N01)] , |DUG~b×(ŠE~a.NAM₂)|#? 
 ## >>Q000023 030 
-3. [1(N01)] , |DUG~bx(TAK₄~a.SAL)|#? 
+3. [1(N01)] , |DUG~b×(TAK₄~a.SAL)|#? 
 ## >>Q000023 031 
 4. [1(N01)] , |DUG~b×X|# 
 ## >>Q000023 032 
@@ -4905,7 +4905,7 @@ $ beginning broken
 ## >>Q000023 009 
 3'. 1(N01) , HI#? NI~b#? 
 ## >>Q000023 010 
-4'. [1(N01)] , |8(N57).NI~b| [...] 
+4'. [1(N01)] , |NI~b×8(N57)| [...] 
 ## >>Q000023 011 
 $ rest broken 
 @reverse 
@@ -5260,7 +5260,7 @@ $ rest broken
 $ beginning broken 
 @column 1' 
 $ beginning broken 
-1'. [1(N01)] , [...] |SU~ax1(N58)| 
+1'. [1(N01)] , [...] |SU~a×1(N58)| 
 2'. [1(N01)] , [...] |GA₂~a1×MAŠ| 
 3'. [1(N01)] , [...] GIŠ 
 4'. [1(N01)] , [...] SAR~a# 
@@ -5547,7 +5547,7 @@ $ rest broken
 @obverse 
 @column 1 
 $ beginning broken 
-1'. 1(N01) , |DUG~cx1(N57)| 
+1'. 1(N01) , |DUG~c×1(N57)| 
 ## >>Q000023 004 
 2'. 1(N01) , ŠAKIR~c# 
 ## >>Q000023 005 
@@ -5681,9 +5681,9 @@ $ rest broken
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , |NINDA₂x1(N01)| 
+1. 1(N01) , |NINDA₂×1(N01)| 
 ## >>Q000028 001 
-2. [1(N01)] , |NINDA₂x2(N01)| 
+2. [1(N01)] , |NINDA₂×2(N01)| 
 ## >>Q000028 002 
 3. [1(N01)] , 1(N08) 
 ## >>Q000028 003 
@@ -5826,7 +5826,7 @@ $ beginning broken
 $ beginning broken 
 1'. [1(N01)] , [...] 
 ## >>Q000023 029 
-2'. [1(N01)] , |DUG~bx(ŠE~a.NAM₂)|# 
+2'. [1(N01)] , |DUG~b×(ŠE~a.NAM₂)|# 
 ## >>Q000023 030 
 3'. [1(N01)] , |DUG~b×TAK₄~a|#? 
 ## >>Q000023 031 
@@ -6140,7 +6140,7 @@ $ rest broken
 $ beginning broken 
 1'. [1(N01)] , |DUG~b×X|# 
 ## >>Q000023 026 
-2'. 1(N01) , |DUG~bx(SA~a.GI)|# 
+2'. 1(N01) , |DUG~b×(SA~a.GI)|# 
 ## >>Q000023 027 
 3'. 1(N01) , |DUG~b×NAGA~a|# 
 ## >>Q000023 028 
@@ -6941,7 +6941,7 @@ $ beginning broken
 $ beginning broken 
 1'. [1(N01)] , [...] X 
 ## >>Q000019 a001 
-2'. [1(N01)] , |DUG~bx1(N57)|#? SUM~a 
+2'. [1(N01)] , |DUG~b×1(N57)|#? SUM~a 
 ## >>Q000019 a002 
 3'. [1(N01)] , [...] SUM~a# 
 ## >>Q000019 a003 
@@ -7671,9 +7671,9 @@ $ beginning broken
 ## >>Q000023 082 
 7'. 1(N01) , NUN~a GIŠ# ALIM# 
 ## >>Q000023 084 
-8'. 1(N01) , |ZATU662x1(N14)|# 
+8'. 1(N01) , |ZATU662×1(N14)|# 
 ## >>Q000023 085 
-9'. 1(N01) , EN~a |ZATU662x1(N14)|# 
+9'. 1(N01) , EN~a |ZATU662×1(N14)|# 
 ## >>Q000023 086 
 10'. 1(N01) , ZATU662# 
 ## >>Q000023 087 
@@ -7842,7 +7842,7 @@ $ beginning broken
 ## >>Q000002 123 
 8'. 1(N01) , GAL~a KID~b KID~b 
 ## >>Q000002 124 
-9'. 1(N01) , GAL~a |EZEN~bx6(N57)| 
+9'. 1(N01) , GAL~a |EZEN~b×6(N57)| 
 ## >>Q000002 125 
 $ rest broken 
 @column 4 
@@ -8954,9 +8954,9 @@ $ beginning broken
 ## >>Q000023 083 
 2'. 1(N01) , GIŠ? ALIM NUN~a 
 ## >>Q000023 084 
-3'. 1(N01) , |ZATU662x1(N14)| 
+3'. 1(N01) , |ZATU662×1(N14)| 
 ## >>Q000023 085 
-4'. 1(N01) , EN~a# |ZATU662x1(N14)|# 
+4'. 1(N01) , EN~a# |ZATU662×1(N14)|# 
 ## >>Q000023 086 
 5'. 1(N01) , ZATU662# 
 ## >>Q000023 087 
@@ -9013,7 +9013,7 @@ $ rest broken
 $ beginning broken 
 1'. 1(N01) , [...] 
 ## >>Q000023 085 
-2'. 1(N01) , EN~a |ZATU662x1(N14)|# 
+2'. 1(N01) , EN~a |ZATU662×1(N14)|# 
 ## >>Q000023 086 
 3'. 1(N01) , ZATU662# 
 ## >>Q000023 087 
@@ -9037,7 +9037,7 @@ $ rest broken
 $ beginning broken 
 1'. [1(N01)] , DUG~c# 
 ## >>Q000023 003 
-2'. 1(N01) , |DUG~cx1(N57)| 
+2'. 1(N01) , |DUG~c×1(N57)| 
 ## >>Q000023 004 
 3'. 1(N01) , ŠAKIR~c 
 ## >>Q000023 005 
@@ -9554,7 +9554,7 @@ $ beginning broken
 ## >>Q000013 a002 
 3'. 1(N01) , U₄ KU₆~a 
 ## >>Q000013 a003 
-4'. 1(N01)# , |U₄x2(N57)| KU₆~a# 
+4'. 1(N01)# , |U₄×2(N57)| KU₆~a# 
 ## >>Q000013 a004 
 5'. [1(N01)] , [...] KU₆~a# 
 ## >>Q000013 a005 
@@ -10513,7 +10513,7 @@ $ beginning broken
 $ beginning broken 
 1'. [1(N01)] , [...] 
 2'. [1(N01)] , [...] GAN~c#? 
-3'. [1(N01)] , [...] |DUG~ax1(N57)|#? 
+3'. [1(N01)] , [...] |DUG~a×1(N57)|#? 
 4'. [1(N01)] , [...] X 
 @column 2' 
 1'. 1(N01) , NE~a#? [...] 
@@ -11994,7 +11994,7 @@ $ beginning broken
 ## >>Q000022 n 
 4'. 1(N01) , X [...] 
 ## >>Q000022 n 
-5'. 1(N01) , |(GIŠx(DIN.DIN))~a|#? 
+5'. 1(N01) , |(GIŠ×(DIN.DIN))~a|#? 
 ## >>Q000022 023 
 6'. 1(N01)# , [...] 
 ## >>Q000022 n 
@@ -12282,7 +12282,7 @@ $ rest broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c 
 ## >>Q000023 003 
-4. 1(N01) , |DUG~cx1(N57)|# 
+4. 1(N01) , |DUG~c×1(N57)|# 
 ## >>Q000023 004 
 5. [1(N01)] , [...] 
 ## >>Q000023 005 
@@ -13110,7 +13110,7 @@ $ beginning broken
 $ beginning broken 
 1'. [...] 1(N01) , X [...] 
 2'. 4(N01) , AN AMA~a [...] 
-3'. [N] , SAG |NINDA₂x(AN.X)|# 
+3'. [N] , SAG |NINDA₂×(AN.X)|# 
 $ rest broken 
 @reverse 
 @column 1 
@@ -13463,7 +13463,7 @@ $ rest broken
 ## >>Q000022 020 
 9. 1(N01) , HAŠHUR GIŠ 
 ## >>Q000022 021 
-10. 1(N01) , |(GIŠx(DIN.DIN))~a| GIŠ 
+10. 1(N01) , |(GIŠ×(DIN.DIN))~a| GIŠ 
 ## >>Q000022 023 
 11. 1(N01) , BU~a GIŠ GI 
 ## >>Q000022 024 
@@ -13638,7 +13638,7 @@ $ rest broken
 ## >>Q000034 037 
 4. 1(N01) , NINLIL# 
 ## >>Q000034 038 
-5. 1(N01) , |E₂~bx1(N57)@t|#? 
+5. 1(N01) , |E₂~b×1(N57)@t|#? 
 ## >>Q000034 040 
 6. 1(N01) , X X [...] 
 ## >>Q000034 041 
@@ -13798,7 +13798,7 @@ $ rest broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c 
 ## >>Q000023 003 
-4. [1(N01)] , |DUG~cx1(N57)|#? 
+4. [1(N01)] , |DUG~c×1(N57)|#? 
 ## >>Q000023 004 
 5. [1(N01)] , [...] 
 ## >>Q000023 005 
@@ -13830,9 +13830,9 @@ $ rest broken
 ## >>Q000023 026 
 $ rest broken 
 @column 4 
-1. 1(N01) , |DUG~bx(ŠE~a.NAM₂)| 
+1. 1(N01) , |DUG~b×(ŠE~a.NAM₂)| 
 ## >>Q000023 030 
-2. 1(N01) , |DUG~bx(1(N57).KU₃~a)| 
+2. 1(N01) , |DUG~b×(1(N57).KU₃~a)| 
 ## >>Q000023 031 
 3. 1(N01) , |DUG~b×SIG₂~a1| 
 ## >>Q000023 034 
@@ -13900,9 +13900,9 @@ $ broken
 @column 4 
 1. [1(N01)] , |DUG~b×X|# 
 ## >>Q000023 029 
-2. 1(N01) , |DUG~bx(ŠE~a.NAM₂)| 
+2. 1(N01) , |DUG~b×(ŠE~a.NAM₂)| 
 ## >>Q000023 030 
-3. 1(N01) , |DUG~bx(1(N57).KU₃~a)|#? 
+3. 1(N01) , |DUG~b×(1(N57).KU₃~a)|#? 
 ## >>Q000023 031 
 4. 1(N01) , |DUG~b×NAM₂|#? 
 ## >>Q000023 032 
@@ -13947,9 +13947,9 @@ $ beginning broken
 $ beginning broken 
 1'. 1(N01)# , |DUG~b×X|# 
 ## >>Q000023 029 
-2'. 1(N01) , |DUG~bx(ŠE~a.NAM₂)| 
+2'. 1(N01) , |DUG~b×(ŠE~a.NAM₂)| 
 ## >>Q000023 030 
-3'. 1(N01) , |DUG~bx(1(N57).KU₃~a)| 
+3'. 1(N01) , |DUG~b×(1(N57).KU₃~a)| 
 ## >>Q000023 031 
 4'. 1(N01)# , [...] 
 ## >>Q000023 032 
@@ -14318,7 +14318,7 @@ $ rest broken
 ## >>Q000022 021 
 5. 1(N01) , GIŠ# NUN~a A# 
 ## >>Q000022 022 
-6. 1(N01) , |(GIŠx(DIN.DIN))~a| 
+6. 1(N01) , |(GIŠ×(DIN.DIN))~a| 
 ## >>Q000022 023 
 7. 1(N01) , GIŠ GI BU~a 
 ## >>Q000022 024 
@@ -14838,9 +14838,9 @@ $ broken
 ## >>Q000023 028 
 2. 1(N01) , |DUG~b×X|# 
 ## >>Q000023 029 
-3. 1(N01) , |DUG~bx(ZATU789.SA~a)| 
+3. 1(N01) , |DUG~b×(ZATU789.SA~a)| 
 ## >>Q000023 030 
-4. 1(N01) , |DUG~bx(TAK₄~a.SA~a)| 
+4. 1(N01) , |DUG~b×(TAK₄~a.SA~a)| 
 ## >>Q000023 031 
 5. 1(N01)# , |DUG~b×X|# 
 ## >>Q000023 032 
@@ -14871,7 +14871,7 @@ $ rest broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c# 
 ## >>Q000023 003 
-4. 1(N01) , |DUG~cx1(N57)| 
+4. 1(N01) , |DUG~c×1(N57)| 
 ## >>Q000023 004 
 5. 1(N01)# , [...] 
 ## >>Q000023 005 
@@ -15566,7 +15566,7 @@ $ rest broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c# 
 ## >>Q000023 003 
-4. 1(N01) , |DUG~cx1(N57)|#? 
+4. 1(N01) , |DUG~c×1(N57)|#? 
 ## >>Q000023 004 
 $ rest broken 
 @column 2 
@@ -15851,7 +15851,7 @@ $ beginning broken
 $ beginning broken 
 1'. [1(N01)] , DUG~c#? 
 ## >>Q000023 003 
-2'. 1(N01)# , |DUG~bx1(N57)| 
+2'. 1(N01)# , |DUG~b×1(N57)| 
 ## >>Q000023 004 
 3'. 1(N01)# , ŠAKIR~c#? 
 ## >>Q000023 005 
@@ -16387,7 +16387,7 @@ $ rest broken
 $ beginning broken 
 1'. [1(N01)] , |DUG~b×X|# 
 ## >>Q000023 026 
-2'. 1(N01) , |DUG~bx(SA~a.GI)| 
+2'. 1(N01) , |DUG~b×(SA~a.GI)| 
 ## >>Q000023 027 
 3'. 1(N01) , |DUG~b×NAGA~a| 
 ## >>Q000023 028 
@@ -16402,7 +16402,7 @@ $ beginning broken
 ## >>Q000023 036 
 3'. 1(N01) , |DUG~b×SI₄~a| 
 ## >>Q000023 037 
-4'. 1(N01) , |DUG~bx(KUR~a.X)|# 
+4'. 1(N01) , |DUG~b×(KUR~a.X)|# 
 ## >>Q000023 038 
 5'. 1(N01)# , |DUG~b×X|# 
 ## >>Q000023 039 
@@ -16589,7 +16589,7 @@ $ rest broken
 ## >>Q000030 060 
 $ rest broken 
 @reverse 
-1. 1(N34) 1(N14) , |HIx1(N57)|# |MAR~b×X|#? PAP~a# X [...] 
+1. 1(N34) 1(N14) , |HI×1(N57)|# |MAR~b×X|#? PAP~a# X [...] 
 ## >>Q000030 colophon 
 $ rest broken 
  
@@ -17222,7 +17222,7 @@ $ beginning broken
 ## >>Q000023 035 
 7'. 1(N01) , |DUG~b×MAŠ| 
 ## >>Q000023 036 
-8'. 1(N01) , |DUG~bx(SI₄~a.X)|# 
+8'. 1(N01) , |DUG~b×(SI₄~a.X)|# 
 ## >>Q000023 037 
 9'. 1(N01) , |DUG~b×GA~b| 
 ## >>Q000023 038 
@@ -17394,7 +17394,7 @@ $ rest broken
 ## >>Q000034 037 
 6. 1(N01) , NINLIL# 
 ## >>Q000034 038 
-7. 1(N01) , |E₂~bx1(N57)@t| 
+7. 1(N01) , |E₂~b×1(N57)@t| 
 ## >>Q000034 040 
 $ rest broken 
 @column 4 
@@ -17694,7 +17694,7 @@ $ rest broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c# 
 ## >>Q000023 003 
-4. [1(N01)] , |DUG~cx1(N57)|#? 
+4. [1(N01)] , |DUG~c×1(N57)|#? 
 ## >>Q000023 004 
 @column 2 
 1. 1(N01)# , [...] 
@@ -18703,7 +18703,7 @@ $ beginning broken
 ## >>Q000023 009 
 3'. 1(N01) , HI NI~b 
 ## >>Q000023 010 
-4'. 1(N01) , |NI~bx4(N57)| 
+4'. 1(N01) , |NI~b×4(N57)| 
 ## >>Q000023 011 
 5'. 1(N01)# , [...] 
 ## >>Q000023 012 
@@ -19358,7 +19358,7 @@ $ rest broken
 $ beginning broken 
 1'. [1(N01)] , [...] 
 ## >>Q000022 n 
-2'. 1(N01) , |(GIŠx(DIN.DIN))~c| 
+2'. 1(N01) , |(GIŠ×(DIN.DIN))~c| 
 ## >>Q000022 023 
 3'. 1(N01)# , TUM~a X 
 @column 2 
@@ -19437,7 +19437,7 @@ $ beginning broken
 ## >>Q000023 025 
 7'. 1(N01) , |DUG~b×X|# 
 ## >>Q000023 026 
-8'. 1(N01) , |DUG~bx(SA~a.GI)| 
+8'. 1(N01) , |DUG~b×(SA~a.GI)| 
 ## >>Q000023 027 
 9'. 1(N01) , |DUG~b×NAGA~a| 
 ## >>Q000023 028 
@@ -21747,7 +21747,7 @@ $ beginning broken
 ## >>Q000022 007 
 2'. 1(N01) , GIŠ SI 
 ## >>Q000022 008 
-3'. 1(N01)# , |(GIŠx(DIN.DIN))~a|# [...] 
+3'. 1(N01)# , |(GIŠ×(DIN.DIN))~a|# [...] 
 ## >>Q000022 023 
 $ rest broken 
 @column 2 
@@ -21782,7 +21782,7 @@ $ beginning broken
 $ rest broken 
 @column 2' 
 1'. [1(N01)] , [...] ZATU681#? 
-2'. 1(N01) , |SU~ax1(N58)| 
+2'. 1(N01) , |SU~a×1(N58)| 
 3'. 1(N01) , UDU~c 
 4'. 1(N01) , LA₂ GIŠ 
 5'. 1(N01) , ŠA SAR~a 
@@ -22370,7 +22370,7 @@ $ rest broken
 @obverse 
 @column 1 
 $ beginning broken 
-1'. 1(N01) , |DUG~cx1(N57)|#? 
+1'. 1(N01) , |DUG~c×1(N57)|#? 
 ## >>Q000023 004 
 2'. 1(N01) , ŠAKIR~c# 
 ## >>Q000023 005 
@@ -22581,7 +22581,7 @@ $ broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c 
 ## >>Q000023 003 
-4. 1(N01) , |DUG~cx1(N57)| 
+4. 1(N01) , |DUG~c×1(N57)| 
 ## >>Q000023 004 
 5. 1(N01) , ŠAKIR~c 
 ## >>Q000023 005 
@@ -22623,7 +22623,7 @@ $ beginning broken
 ## >>Q000023 002 
 3'. 1(N01) , DUG~c 
 ## >>Q000023 003 
-4'. 1(N01) , |DUG~cx1(N57)| 
+4'. 1(N01) , |DUG~c×1(N57)| 
 ## >>Q000023 004 
 5'. 1(N01) , ŠAKIR~c# 
 ## >>Q000023 005 
@@ -23268,7 +23268,7 @@ $ broken
 ## >>Q000023 002 
 3. 1(N01) , DUG~c# 
 ## >>Q000023 003 
-4. 1(N01) , |DUG~cx1(N57)|#? 
+4. 1(N01) , |DUG~c×1(N57)|#? 
 ## >>Q000023 004 
 5. 1(N01) , ŠAKIR~c# 
 ## >>Q000023 005 
@@ -23308,7 +23308,7 @@ $ rest broken
 ## >>Q000023 025 
 9. 1(N01) , |DUG~b×X|# 
 ## >>Q000023 026 
-10. 1(N01) , |DUG~bx(SA~a.GI)|# 
+10. 1(N01) , |DUG~b×(SA~a.GI)|# 
 ## >>Q000023 027 
 11. 1(N01) , |DUG~b×NAGA~a|# 
 ## >>Q000023 028 
@@ -25383,7 +25383,7 @@ $ blank space
 @column 1 
 1. 1(N01) , ŠU₂ DUB~b ZATU680~e 
 2. 1(N01) , GIŠIMMAR~b3 ŠU₂# X 
-3. 2(N01) , |DUG~bx1(N57)|? 
+3. 2(N01) , |DUG~b×1(N57)|? 
 @column 2 
 1. 1(N01)# [...] , DUB~b# [...] 
  
@@ -25734,7 +25734,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01)# , |ZATU659x1(N14)|# 
+1. 2(N01)# , |ZATU659×1(N14)|# 
 2. 1(N08) , 1(N39~b)# 
 3. 1(N01)# , 1(N24)# 
 @column 2 
@@ -26054,7 +26054,7 @@ $ blank space
 6. 1(N01) , [...] 
 7. 1(N01) , NIM~b2 
 @column 4 
-1. 4(N01) , |MAR~bx(LAGAB~b.ŠE₃)| 
+1. 4(N01) , |MAR~b×(LAGAB~b.ŠE₃)| 
 2. 2(N01) , TE PIRIG~a1 
 3. 3(N01) , ŠITA~a3 
 4. 1(N01) , ZATU693 
@@ -26526,7 +26526,7 @@ $ blank space
 5. 1(N01) , ZATU623 
 @reverse 
 @column 1 
-1. 1(N14) , ADAB |DUG~b&(DUG~bx1(N58))| 
+1. 1(N14) , ADAB |DUG~b&(DUG~b×1(N58))| 
  
 
 
@@ -26873,7 +26873,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01) , GI |GIx1(N14)| UNUG~a GU₄ AN 
+1. 2(N01) , GI |GI×1(N14)| UNUG~a GU₄ AN 
  
 
 
@@ -27460,7 +27460,7 @@ $ blank space
 11. 1(N14)# 2(N01)# , AN# ZATU659# 
 12. 1(N34)# 5(N01)# , ZATU753# 
 @column 5 
-1. 3(N01) , |ZATU659x1(N01)| |ŠU₂.URI₃~a| 
+1. 3(N01) , |ZATU659×1(N01)| |ŠU₂.URI₃~a| 
 2. 1(N14) 2(N01) 1(N08) , SAL# MUŠ₃~a# 
 3. 1(N14) 1(N01) , SAL RAD~a 
 4. 1(N14) 1(N01) 1(N08) , SAL NAGA~a 
@@ -27473,7 +27473,7 @@ $ blank space
 11. 3(N14) , |ZATU651×GAR| 
 12. 1(N14)# [...] , KI# NAM₂ [...] 
 @column 6 
-1. , |U₄x1(N57)| KAŠ~b GAR# 
+1. , |U₄×1(N57)| KAŠ~b GAR# 
 @reverse 
 @column 1 
 1. [...] 1(N01)# , [...] 
@@ -27502,7 +27502,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 1(N51)# [...] , [...] 
-2. , |U₄x3(N57)|# [...] 
+2. , |U₄×3(N57)|# [...] 
  
 
 
@@ -29048,7 +29048,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. , ADAB |URU~a2x1(N58)| RAD~b 
+1. , ADAB |URU~a2×1(N58)| RAD~b 
  
 
 
@@ -29817,7 +29817,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N14) 4(N01) , |DUG~bx1(N57)| 
+1. 1(N14) 4(N01) , |DUG~b×1(N57)| 
 2. 1(N14) 4(N01) , |DUG~b×HI| 
 @column 2 
 1. , SU~a# EN~b# UNUG~a# 
@@ -29840,7 +29840,7 @@ $ blank space
 3. 1(N14) , ZATU753 
 4. 1(N14) , ME~a NESAG₂~a 
 @column 2 
-1. 1(N01) , |ZATU662x1(N14)| 
+1. 1(N01) , |ZATU662×1(N14)| 
 2. 1(N01) , ZATU662 
 @reverse 
 @column 1 
@@ -29981,7 +29981,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N08) , EŠDA BA U₄ |HIx1(N57)| PAP~a 
+1. 1(N08) , EŠDA BA U₄ |HI×1(N57)| PAP~a 
 @reverse 
 @column 1 
 1. 1(N07~a) , 
@@ -29996,7 +29996,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , TAG~b |ZATU662x1(N14)| BA APIN~a 
+1. 1(N01) , TAG~b |ZATU662×1(N14)| BA APIN~a 
  
 
 
@@ -30460,7 +30460,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 5(N01) , |LAGAB~ax2(N14)| NI~a 
+1. 5(N01) , |LAGAB~a×2(N14)| NI~a 
 2. 2(N01) , DUG~b U₄ SANGA~a 
  
 
@@ -30807,7 +30807,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N07~a) , DU BA |GURUŠ~bx2(N14)| MUŠ₃~a 
+1. 1(N07~a) , DU BA |GURUŠ~b×2(N14)| MUŠ₃~a 
 @reverse 
 @column 1 
 1. 1(N08) , 
@@ -30962,7 +30962,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01)# , SAL# X ŠUBUR |GA₂~a1x1(N57)|# DUB~b EN~b 
+1. 1(N01)# , SAL# X ŠUBUR |GA₂~a1×1(N57)|# DUB~b EN~b 
  
 
 
@@ -31136,7 +31136,7 @@ $ blank space
 2. 9(N01) , ŠE~a# 
 3. 5(N01) , GAL~a 
 @column 2 
-1. 1(N14) 8(N01) , |DARA₃~cx(KAR₂.ŠE~a)|# SU~a NUN~a 
+1. 1(N14) 8(N01) , |DARA₃~c×(KAR₂.ŠE~a)|# SU~a NUN~a 
  
 
 
@@ -32246,8 +32246,8 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01)# , ŠAM₂ [...] |GA₂~a1x1(N14)| 
-2. 1(N01) , ZATU665 EN~a |GA₂~a1x1(N14)| 
+1. 1(N01)# , ŠAM₂ [...] |GA₂~a1×1(N14)| 
+2. 1(N01) , ZATU665 EN~a |GA₂~a1×1(N14)| 
  
 
 
@@ -32333,10 +32333,10 @@ $ blank space
 3. [...] , [...] ZATU720# 
 4. [...] , [...] ZATU720# 
 @column 2 
-1. 1(N01) , |MAH~ax(SILA₃~a×UMBIN~a)| 
+1. 1(N01) , |MAH~a×(SILA₃~a×UMBIN~a)| 
 2. 1(N01) , |MAH~a×ZATU659| 
 3. 1(N01) , |SILA₃~a×ŠE~a@t| 
-4. 1(N01) , |SILA₃~ax(ZATU659.TU~c)| 
+4. 1(N01) , |SILA₃~a×(ZATU659.TU~c)| 
 5. , AMA~a 
 @reverse 
 @column 1 
@@ -32574,7 +32574,7 @@ $ blank space
 3. 4(N34) 4(N14)# [...] , X [...] 
 4. [...] 3(N34)# , |NUN~a+EN~a| 
 @column 3 
-1. [...] 1(N14)# , |AB₂x2(N14)| 
+1. [...] 1(N14)# , |AB₂×2(N14)| 
 2. 1(N14) , GA~a ZATU753 
 3. 1(N14)# [...] , X [...] 
 4. [...] , [...] 
@@ -33002,7 +33002,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N14) , |GURUŠ~ax2(N14)|# UTUL~d ŠEG₉ DA~a# 
+1. 1(N14) , |GURUŠ~a×2(N14)|# UTUL~d ŠEG₉ DA~a# 
  
 
 
@@ -34563,7 +34563,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 1(N01)# , X AB~a 
-2. 5(N01)# [...] , |URU~a2x1(N58)| 
+2. 5(N01)# [...] , |URU~a2×1(N58)| 
 3. [...] , [...] 
 4. [...] 1(N01)# , U₄# PAP~a# 
 5. 1(N01)# [...] , KISAL~b1# 
@@ -34707,7 +34707,7 @@ $ blank space
 1. , U₂~b#? ŠUBUR AN 
 @reverse 
 @column 1 
-1. , |NINDA₂x1(N08)| 
+1. , |NINDA₂×1(N08)| 
 2. 1(N01) , 1(N39~b) 
 3. 2(N01) , 1(N24) 
 4. 2(N01) , DU₈~c 
@@ -37343,7 +37343,7 @@ $ rest broken
 @column 1 
 1. 2(N42~a)# , GAR 3(N58) UR₃~b1 KAB [...] 
 @column 2 
-1. 1(N05) , DUG~a |U₄x2(N57)| [...] 
+1. 1(N05) , DUG~a |U₄×2(N57)| [...] 
 @column 3 
 1. 1(N27) , KAŠ~a [...] 
 @column 4 
@@ -38218,7 +38218,7 @@ $ rest broken
 @tablet 
 @obverse 
 @column 1 
-1. 3(N01) , |GA₂~a1x1(N57)| ŠU TE# 
+1. 3(N01) , |GA₂~a1×1(N57)| ŠU TE# 
  
 
 
@@ -39738,7 +39738,7 @@ $ broken
 1. 1(N01) , 2(N58) ZATU675~d NAGA~a 
 @column 2 
 1. 1(N01) , ZATU659 BU~a? NAM₂ PAP~a 
-2. , ŠITA~a3 |U₄x1(N01)|#? E₂~b 
+2. , ŠITA~a3 |U₄×1(N01)|#? E₂~b 
 3. 1(N57) , DU E₂~b NUNUZ~a1# 
 4.a. 1(N57) , NAGA~a# 3(N57)# 
 4.b. 1(N57) , E₂~b# X 
@@ -39911,7 +39911,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. , |U₄x2(N01).2(N14)|? NAGA~a EN~a U₄ SIG 
+1. , |U₄×2(N01).2(N14)|? NAGA~a EN~a U₄ SIG 
 2. [...] 6(N01)# , X [...] 
 3. [...] , [...] 
  
@@ -39925,16 +39925,16 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1.a. [...] 1(N01)# , |DUG~cx1(N57)|# [...] X 
+1.a. [...] 1(N01)# , |DUG~c×1(N57)|# [...] X 
 1.b. 6(N02)# , 
-2.a. [...] 2(N01)# , |DUG~cx1(N57)| [...] X 
+2.a. [...] 2(N01)# , |DUG~c×1(N57)| [...] X 
 2.b. 2(N14) [...] , GEŠTU~c3# [...] 
 2.c. 1(N02)# [...] , X [...] 
 3.a. [...] , [...] 
 3.b. 2(N02) , 
 3.c. 2(N01) , KAŠ~c 
 @column 2 
-1.a. 3(N01)# , |DUG~cx1(N57)| NUN~a 
+1.a. 3(N01)# , |DUG~c×1(N57)| NUN~a 
 1.b. 1(N02)? , 
 1.c. 2(N01) , KAŠ~c# 
 2.a. 1(N14) , GEŠTU~c3# AN MUŠ₃~a# 
@@ -39943,7 +39943,7 @@ $ broken
 3. , AB~b# KU₆~a AB~a 
 @reverse 
 @column 1 
-1. [...] 1(N01)# , |DUG~cx1(N57)| 
+1. [...] 1(N01)# , |DUG~c×1(N57)| 
 2. 3(N14) , GEŠTU~c3# 
 3. 1(N15) 4(N02) , DUG~c# 
 4. 5(N01)# , KAŠ~c# 
@@ -40383,20 +40383,20 @@ $ broken
 1.a. 3(N01) , KU₆~a KISIM~a 
 1.b. , IB~a DIM~a 
 2.a. 1(N01) , UNUG~a ŠEN~b 
-2.b. , PAP~a |MUŠENx2(N57)| 
+2.b. , PAP~a |MUŠEN×2(N57)| 
 3.a. 1(N01) , ŠEN~b PAP~a ŠU 
-3.b. , PAP~a |MUŠENx2(N57)| 
+3.b. , PAP~a |MUŠEN×2(N57)| 
 4.a. 1(N01) , X UKKIN~b# [...] 
 4.b. , |SILA₃~a×ŠE~a@t| 
 5.a. 1(N01) , ŠEN~b# 
-5.b. , PAP~a |MUŠENx2(N57)| 
+5.b. , PAP~a |MUŠEN×2(N57)| 
 6.a. 1(N01) , ŠEN~b SI RAD~a 
-6.b. , PAP~a |MUŠENx1(N57)| 
+6.b. , PAP~a |MUŠEN×1(N57)| 
 7.a. 1(N01) , DUG~b GA₂~a2 GURUŠDA# 
 7.b1. , UNUG~a 5(N57) 
 7.b2. , |DARA₃~d×KAR₂|#? 
 8.a. 1(N01) , SI UKKIN~b ŠE~a 3(N57) E₂~a 
-8.b. 1(N01) , |DUG~cx1(N57)|#? GI 
+8.b. 1(N01) , |DUG~c×1(N57)|#? GI 
 9.a. 1(N01) , DUG~b 
 9.b. , |ŠU&ŠU| 
 @column 2 
@@ -40407,7 +40407,7 @@ $ broken
 3.a. 1(N01) , KISIM~a EN~a DU AB₂ 
 3.b. , DIM~a IB~a 
 4.a. 2(N01) , UKKIN~b |ŠU₂.EN~a|# AN# EN~a DU AB₂ 
-4.b. , |MUŠENx2(N57)| PAP~a 
+4.b. , |MUŠEN×2(N57)| PAP~a 
 5.a. 1(N01) , KISIM~a#? U₄ EN~a ME~a#? 
 5.b. , |ŠU&ŠU|# 
 6.a. 1(N01) , X NUNUZ~a1 X X 
@@ -40415,7 +40415,7 @@ $ broken
 7.a. 2(N01)#? , X EN~a# TI X 
 7.b. , |GIŠ×ŠU₂~a| EN~a 
 8.a. 2(N01) , UKKIN~b APIN~a ZATU752 
-8.b. , |MUŠENx2(N57)| PAP~a 
+8.b. , |MUŠEN×2(N57)| PAP~a 
 @column 3 
 1.a. [...] , [...] 
 1.b. [...] , [...] 
@@ -40443,7 +40443,7 @@ $ broken
 5. 1(N14) 3(N01) , KISIM~a 
 6. 7(N01) , UKKIN~b# TUR 
 7. 1(N01) , MUD₃~a 
-8. 1(N01)# , |DUG~cx1(N57)| 
+8. 1(N01)# , |DUG~c×1(N57)| 
 9. [...] , [...] PIRIG~b1# 
 @column 2 
 1. , [...] EN~a# |SILA₃~a×ŠE~a@t|# X [...] GU₇# 
@@ -40458,11 +40458,11 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. 2(N14) 6(N01)# , |DUG~cx1(N57)| 
+1. 2(N14) 6(N01)# , |DUG~c×1(N57)| 
 2. 1(N34)# 1(N14) 5(N01)# , [...] X 
 3. [...] , [...] 
 @column 2 
-1. 1(N14) 3(N01) , |DUG~cx1(N57)| 
+1. 1(N14) 3(N01) , |DUG~c×1(N57)| 
 2. 3(N14) , |SILA₃~a×GEŠTU~c3| 
 3. 1(N35) 8(N02) , 
 4. 2(N14)# 4(N01)# [...] , NE~c [...] 
@@ -40470,7 +40470,7 @@ $ broken
 1. 2(N01)#? , X 
 2. 9(N02) , 
 3. 2(N01) , UNUG~a# 
-4. 3(N01) , |DUG~cx1(N57)|# 
+4. 3(N01) , |DUG~c×1(N57)|# 
 5. [...] 1(N02)# , [...] 
 @column 4 
 1. 2(N01) , ŠUM#? TILLA₂# MUŠ₃~a#? 
@@ -40638,20 +40638,20 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1.a1. [...] 1(N01)# , [|DUG~cx1(N57)|] 
+1.a1. [...] 1(N01)# , [|DUG~c×1(N57)|] 
 1.a2. [...] 1(N01)# , KAŠ~d# 
 1.b. , TUR₃~a TUR# 
 2. [...] 2(N01)# , KAŠ~d# NUN~a# ŠUBUR# X [...] 
 @column 2 
 1. [...] , [...] X 
-2.a1. 1(N01)# , |DUG~cx1(N57)|# 
+2.a1. 1(N01)# , |DUG~c×1(N57)|# 
 2.a2. [...] 2(N01)# , KAŠ~d# 
 2.b. , TAK₄~a TAK₄~a#? KI AN ŠU₂ EN~a 
 3. , X |ZATU651×GAR|# 
 @reverse 
 @column 1 
 1. [...] , [...] 
-2. 7(N01)# , |DUG~cx1(N57)| 
+2. 7(N01)# , |DUG~c×1(N57)| 
 3. 2(N14)# 4(N01) , KAŠ~d 
 4. [...] , [...] 
 @column 2 
@@ -40874,7 +40874,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1.a. [...] , [...] |DUG~cx1(N57)|#? NAGAR~a# NE~a 
+1.a. [...] , [...] |DUG~c×1(N57)|#? NAGAR~a# NE~a 
 1.b1. 5(N01)# , ŠA@g# 
 1.b2. 5(N01) , |(ŠA×HI@g~a)~a|#? 
 2. [...] 1(N51)# 1(N34)# , GAʾAR~a2 
@@ -41071,7 +41071,7 @@ $ broken
 6. 1(N01) [...] , EN~a# NAGA~a 
 @reverse 
 @column 1 
-1. [...] 1(N01) , |MUŠENx2(N57)| PAP~a 
+1. [...] 1(N01) , |MUŠEN×2(N57)| PAP~a 
 2. , 
 @column 2 
 1. 5(N14) 3(N01) , GU₇ ZATU703 
@@ -41150,7 +41150,7 @@ $ broken
 1. [...] , [...] EZEN~b# EN~a# SAG# NE~a#? ŠITA~a1 
 2. 2(N01) , EN~a EZEN~b [...] 
 3. 6(N01) , |SILA₃~a×ŠE~a@t| 
-4. 3(N01) , PAP~a |MUŠENx2(N57)| 
+4. 3(N01) , PAP~a |MUŠEN×2(N57)| 
 @column 2 
 1. [...] , [...] GU₇# 
 2. 3(N34) 2(N14) 2(N01) , BA |SILA₃~a×ŠE~a@t| E₂~a 
@@ -41161,7 +41161,7 @@ $ broken
 @reverse 
 @column 1 
 1. 6(N01) , ŠITA~a1 |SILA₃~a×ŠE~a@t| 
-2. 3(N01) , PAP~a |MUŠENx2(N57)| 
+2. 3(N01) , PAP~a |MUŠEN×2(N57)| 
 3. 2(N01)# [...] , EN~a EZEN~b [...] 
  
 
@@ -41178,10 +41178,10 @@ $ broken
 2. [...] , [...] GU₄# 
 3. [...] , [...] GU₄# 
 @column 2 
-1. [...] 1(N01)# , |U₄x6(N57)|#? GU₄# 
-2. 1(N01) , |U₄x5(N57)| GU₄ 
-3. 1(N01) , |U₄x4(N57)| GU₄ 
-4. 2(N01) , |U₄x2(N57)| GU₄ 
+1. [...] 1(N01)# , |U₄×6(N57)|#? GU₄# 
+2. 1(N01) , |U₄×5(N57)| GU₄ 
+3. 1(N01) , |U₄×4(N57)| GU₄ 
+4. 2(N01) , |U₄×2(N57)| GU₄ 
 5. 2(N01)# , AMAR# 
 @column 3 
 1. [...] , [...] E₂~a# 1(N57) UTUL~a GAL~a# 
@@ -41214,13 +41214,13 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. [...] 2(N01) , |SILA₃~a×NI~a| HI BAN~a |U₄x1(N01)| 
-2.a. 1(N14)# , [...] |DUG~ax1(N57)|# DA~a# GA₂~c 
+1. [...] 2(N01) , |SILA₃~a×NI~a| HI BAN~a |U₄×1(N01)| 
+2.a. 1(N14)# , [...] |DUG~a×1(N57)|# DA~a# GA₂~c 
 2.b1. 1(N14) , |SILA₃~a×HI| 
 2.b2. 1(N14) , |SILA₃~a×NI~a|# BA 
 @column 2 
 1. [...] , [...] ZATU629# 
-2.a. 2(N14) 2(N01) , |DUG~ax1(N57)| [...] 
+2.a. 2(N14) 2(N01) , |DUG~a×1(N57)| [...] 
 2.b1. [...] , [...] 
 2.b2. [...] , GAR# 
  
@@ -41832,7 +41832,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. 1(N14) 3(N01) , U₈# |U₄x10(N57)|# 
+1. 1(N14) 3(N01) , U₈# |U₄×10(N57)|# 
 2. 3(N01) , UDUNITA~a 
 3. 4(N01)# , X [...] 
 4. , X X [...] 
@@ -41840,7 +41840,7 @@ $ broken
 1. , RAD~a ZATU752# [...] 
 @reverse 
 @column 1 
-1. 2(N14)# , UDU~a# AMAR# |U₄x10(N57)|# DARA₄~c1# [...] 
+1. 2(N14)# , UDU~a# AMAR# |U₄×10(N57)|# DARA₄~c1# [...] 
 @column 2 
 1. , [...] RAD~a# ZATU752 [...] 
  
@@ -42227,7 +42227,7 @@ $ broken
 @obverse 
 @column 1 
 1. [...] , [...] 
-2. [...] , |HIx1(N57)@t|#? [...] 
+2. [...] , |HI×1(N57)@t|#? [...] 
 3. [...] , [...] 
  
 
@@ -42549,12 +42549,12 @@ $ broken
 3.c. 2(N01) , ŠITA~a1 LAGAR~a@r EN~a TUR 
 3.d. 1(N01) , TUR EN~a BA 
 3.e. 2(N01) , EN~a TUR GI 
-3.f. 2(N01) , GI |U₄x1(N57)| 
+3.f. 2(N01) , GI |U₄×1(N57)| 
 4.a. 2(N01) , HI E₂~a NUN~a BA 
 4.b. 1(N01) , EN~a PA~a 
 4.c. 1(N01) , U₄ E₂~b AN# MAR~a 
 4.d. 2(N01) , EN~a TUR BA 
-4.e. 3(N01) , |U₄x2(N57)| GI 
+4.e. 3(N01) , |U₄×2(N57)| GI 
 5.a. 2(N01) , EN~a ŠU NUN~a 
 5.b. 1(N01) , EN~a PA~a 
 5.c. 1(N01) , PAP~a 
@@ -42572,15 +42572,15 @@ $ broken
 7.a. 2(N01) , AN |ŠU₂.EN~a| BA 
 7.b. 1(N01) , GI 
 7.c. 2(N01) , EN~a TUR BA 
-7.d. 4(N01) , |U₄x2(N57)| GI 
+7.d. 4(N01) , |U₄×2(N57)| GI 
 8.a. 1(N01) , PAP~a? KAB NAM₂# U₂~a GI# 
 8.b. 2(N01) , |KA₂×LAM| 
-8.c. 8(N01) , GI |U₄x2(N57)| 
+8.c. 8(N01) , GI |U₄×2(N57)| 
 9.a. 2(N01) , LAM~a SI ME~a KAB NAM₂ 
 9.b. 1(N01) , GI 
 9.c. 2(N01) , ŠITA~a1 KAK~a ŠU EN~a TUR 
 9.d. 2(N01) , EN~a TUR GI 
-9.e. 3(N01) , |U₄x2(N57)|# GI# 
+9.e. 3(N01) , |U₄×2(N57)|# GI# 
 @column 2 
 1.a. [...] , [...] 
 2.a. 2(N01) , BA# TUN₃~a# [...] 
@@ -42783,7 +42783,7 @@ $ broken
 2. 2(N01)# , BALAG 
 3. 3(N01) , ZATU781 
 4. 1(N01) , ZATU686~a 
-5. 2(N01)# , |UR₂x1(N57)| NUN~a 
+5. 2(N01)# , |UR₂×1(N57)| NUN~a 
 6. 1(N01) , NUN~a#? EN~a X 
 7. 3(N01) , E₂~b ZAG~a# 
 8. 1(N01) , ŠU UKKIN~a 
@@ -42980,7 +42980,7 @@ $ broken
 @obverse 
 @column 1 
 1. 4(N08)# , SUHUR |SAG×GEŠTU~b| 
-2. [...] , |ZATU759x(KU₆~a+KU₆~a)|# 
+2. [...] , |ZATU759×(KU₆~a+KU₆~a)|# 
 3. [...] , [...] 
 @column 2 
 1. 1(N01) , SUHUR# |SAG×GEŠTU~b|# 
@@ -43082,7 +43082,7 @@ $ broken
 @obverse 
 @column 1 
 1. [...] , X [...] 
-2.a1. 1(N01) , |DUG~cx1(N57)| 
+2.a1. 1(N01) , |DUG~c×1(N57)| 
 2.a2. 2(N02) , 
 2.b. , SANGA~a |GI₄~b&GI₄~b| 
 3. [...] , [...] 
@@ -43317,9 +43317,9 @@ $ broken
 @column 1 
 1. [...] 1(N34)# [...] 1(N14)# [...] 4(N01)# [...] , [...] 
 @column 2 
-1. [...] 1(N14)# [...] 5(N01)# , X |U₄x1(N01)| KAŠ~b [...] 
+1. [...] 1(N14)# [...] 5(N01)# , X |U₄×1(N01)| KAŠ~b [...] 
 @column 3 
-1. [...] 1(N34)# [...] , |U₄x(1(N14).2(N01))|#? [...] 
+1. [...] 1(N34)# [...] , |U₄×(1(N14).2(N01))|#? [...] 
  
 
 
@@ -43340,7 +43340,7 @@ $ broken
 2. , EN~a# X X [...] 
 3. 2(N34) , LA₂ |GIŠ.TE|# 
 4. 2(N34) , UBI~c 
-5. , |NINDA₂x(HI.X)|#? X KI#? [...] 
+5. , |NINDA₂×(HI.X)|#? X KI#? [...] 
 @column 3 
 1. 1(N45) 2(N14)# [...] , [...] 
 2. [...] , [...] 
@@ -43501,7 +43501,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1.a. [...] 8(N14)# , X |U₄x4(N01)| [...] 
+1.a. [...] 8(N14)# , X |U₄×4(N01)| [...] 
 1.b. [...] 1(N01)# , [...] 
 2.a. [...] , [...] X X KI# 
 2.b. [...] , EN~a# DU# [...] 
@@ -43531,7 +43531,7 @@ $ broken
 5.a. [...] , [...] 
 5.b. , [...] 
 @column 3 
-1. 1(N01) , |U₄x1(N57)|# X [...] 
+1. 1(N01) , |U₄×1(N57)|# X [...] 
 2. 1(N01)# [...] , [...] 
 @reverse 
 $ beginning broken 
@@ -43641,7 +43641,7 @@ $ blank space
 @column 3 
 1.a. [...] , [...] AL# 
 1.b. , [...] X 
-2.a. 1(N01) , |U₄x1(N57)| TUR 
+2.a. 1(N01) , |U₄×1(N57)| TUR 
 2.b. , (|3(N57).PIRIG~b1| DU E₂~a) 
 3.a. [...] , [...] 
 3.b. , (EN~a# [...]) 
@@ -43679,7 +43679,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 4(N01)# , DUG~c |U₄x1(N01)| KAŠ~b NUN~a 
+1. 4(N01)# , DUG~c |U₄×1(N01)| KAŠ~b NUN~a 
 2. , ZATU648 
 3. [...] , X [...] 
 @column 2 
@@ -43876,7 +43876,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] , [...] 
-2. [...] , [...] NE~a KAŠ~b HI@g~a |U₄x1(N57)| 
+2. [...] , [...] NE~a KAŠ~b HI@g~a |U₄×1(N57)| 
 @reverse 
 @column 1 
 1. [...] 4(N01)# , [...] 
@@ -44399,7 +44399,7 @@ $ (not given)
 @column 1 
 1.a. 1(N01) , SIG₇ 
 1.b. 2(N01) , GAL~a ZATU776 
-2. , |Ax1(N14)| 
+2. , |A×1(N14)| 
 @column 2 
 1. 2(N14) 9(N01) , SIG₇# 
 2. 2(N14) 5(N01) , BA# 
@@ -44513,13 +44513,13 @@ $ (not given)
 @column 1 
 1.a. [...] , [...] |ŠU₂.E₂~b|# 
 1.b. 2(N01)# [...] , [...] 
-2.a. 1(N01)# 1(N08) , SUKKAL GADA~a |ZATU659x1(N01)| 
+2.a. 1(N01)# 1(N08) , SUKKAL GADA~a |ZATU659×1(N01)| 
 2.b. 3(N01) , ŠITA~a1 [...] 
-3.a. 1(N01) , |ZATU659x1(N01)| NA₂~a GAL~a 
+3.a. 1(N01) , |ZATU659×1(N01)| NA₂~a GAL~a 
 3.b. 2(N01) , X [...] 
 4.a. 1(N01) [...] , X X [...] 
 4.b. [...] , [...] 
-5. 1(N01) [...] , EN~a# |ZATU659x1(N01)| KAB#? [...] 
+5. 1(N01) [...] , EN~a# |ZATU659×1(N01)| KAB#? [...] 
 @reverse 
 @column 1 
 1. 3(N14)# 5(N01)# , GAR [...] 
@@ -44685,9 +44685,9 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1.a. 2(N14) [...] , ŠE~a |U₄x1(N57)| X [...] 
+1.a. 2(N14) [...] , ŠE~a |U₄×1(N57)| X [...] 
 1.b. 3(N14) [...] , [GI ...] 
-2.a. [1(N45)] , |U₄x5(N57)|#? [...] 
+2.a. [1(N45)] , |U₄×5(N57)|#? [...] 
 2.b. [...] , GI [...] 
 3. 5(N14)# [...] , GI [...] 
 4. [...] , X GI# [...] 
@@ -44811,7 +44811,7 @@ $ (not given)
 4.a. [...] 1(N01) , KUR~a ŠA₃~a1 
 4.b. , EN~a PAP~a A GI X 
 5.a. [...] , X SAL# 
-5.b. , |ŠUx1(N58)| 
+5.b. , |ŠU×1(N58)| 
 6. [...] , DAH KISAL~b1 EN~a NUN~a HI KI 
 @reverse 
 @column 1 
@@ -44928,7 +44928,7 @@ $ (not given)
 1. [...] , [...] X ŠITA~a1 
 @column 2 
 1. [...] 1(N14)# [...] 1(N01)#? , GAL~a# ŠITA~a1# 
-2. , |U₄x6(N57)|#? BA 
+2. , |U₄×6(N57)|#? BA 
 @column 3 
 1. [...] 1(N14)# [...] , [...] 
 2. 1(N34)# [...] , [...] 
@@ -45230,7 +45230,7 @@ $ rest broken
 @tablet 
 @obverse 
 @column 1 
-1. [...] , |DUG~bx1(N57)|#? [...] 
+1. [...] , |DUG~b×1(N57)|#? [...] 
 @column 2 
 1. 1(N01) , [...] 
 2. 1(N01) , [...] 
@@ -45261,7 +45261,7 @@ $ rest broken
 @tablet 
 @obverse 
 @column 1 
-1. [...] 1(N01)# , |URU~a1x1(N57)| [...] 
+1. [...] 1(N01)# , |URU~a1×1(N57)| [...] 
  
 
 
@@ -45336,7 +45336,7 @@ $ rest broken
 3.a. 1(N01)# , ZAG~c# 
 3.b. [...] , [...] 
 @column 2 
-1. 1(N01)# , |UR₂x1(N57)|# 
+1. 1(N01)# , |UR₂×1(N57)|# 
 2. 1(N01) , GAʾAR~b2 
 3. , U₄ U₂~a 
 4.a. [...] , [...] X 
@@ -45509,7 +45509,7 @@ $ rest broken
 4. 1(N01) , X 
 5. , [...] 
 @column 3 
-1.a. 1(N01) , |UR₂x1(N57)|#? EZINU~c SAL# 
+1.a. 1(N01) , |UR₂×1(N57)|#? EZINU~c SAL# 
 1.b. , X [...] 
 2. , [...] 
 @column 4 
@@ -45541,7 +45541,7 @@ $ (not given)
 @column 1 
 1. 1(N01) , GIŠ@t UR₄~a UR₂ ŠIDIM ZI~a 
 2. , SIG U₂~a 
-3. 1(N01) , |UR₂x1(N57)| X |GIŠ×ŠU₂~b| UR₄~a 
+3. 1(N01) , |UR₂×1(N57)| X |GIŠ×ŠU₂~b| UR₄~a 
 4. 1(N01) , UR₂ UR₄~a 
 @column 2 
 1. , NAR AN E₂~a 
@@ -45681,7 +45681,7 @@ $ (not given)
 3. , GU₇# 
 @reverse 
 @column 1 
-1. 2(N01) , |UR₂x1(N57)| NAR? 1(N02) 
+1. 2(N01) , |UR₂×1(N57)| NAR? 1(N02) 
 2. , SANGA~a IB~a MU 
  
 
@@ -45775,13 +45775,13 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , |UR₂x1(N57)| 
+1. 1(N01) , |UR₂×1(N57)| 
 2. 1(N01) , LAGAB~b UR₄~a 
 3. 1(N01) , ZAG~c? 
 4. , U₄# U₂~a 
 5. [...] , UR₂# [...] 
 @column 2 
-1. 1(N01)# , |UR₂x1(N57)| 
+1. 1(N01)# , |UR₂×1(N57)| 
 2. , U₂~a SIG 
 3. , NAR E₂~a# HAL ŠIM~a#? X |U₄.2(N08)|# 
  
@@ -46232,7 +46232,7 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01)# , |NINDA₂x1(N01)| 
+1. 1(N01)# , |NINDA₂×1(N01)| 
 2. [...] , 1(N39~a) 
 3. 1(N01) , 1(N24) 
 4. 2(N14)#? [...] , [...] 
@@ -46373,7 +46373,7 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. [1(N01)] , |NINDA₂x1(N01)| 
+1. [1(N01)] , |NINDA₂×1(N01)| 
 2. 2(N01) , 1(N39~a) 
 3. 2(N01) , 1(N24) 
 4. 2(N01) , 1(N26) 
@@ -46663,7 +46663,7 @@ $ (not given)
 3. , [...] 
 @column 2 
 1.a. 3(N14) 3(N01) , UDU~a BA 
-1.b. 4(N01) , |U₄x1(N57)| BAR 
+1.b. 4(N01) , |U₄×1(N57)| BAR 
 2. 2(N01) , ŠU 
 4. 4(N02) , ZATU628~a 
 @column 3 
@@ -46685,7 +46685,7 @@ $ (not given)
 3. , |ŠE~a&ŠE~a|#? KI 
 4. , TUR₃~a A 
 5. , [...] UR~a KI [...] 
-6. , BU~a# |NAM₂x1(N01)| |NINDA₂×MAR~b| 
+6. , BU~a# |NAM₂×1(N01)| |NINDA₂×MAR~b| 
 7. , EN~a# KI KU₆~a RAD~a? 
 8. , [...] KA~a 
  
@@ -46704,7 +46704,7 @@ $ (not given)
 1. 1(N34) 2(N01) , LAGAB~b# UDU~a 
 @column 2 
 1.a. 5(N14) 4(N01) , UDU~a 
-1.b. 8(N01) , |U₄x1(N57)| BAR 
+1.b. 8(N01) , |U₄×1(N57)| BAR 
 2. 2(N01) , ŠU# 
 @column 3 
 1. 1(N14) , [...] 
@@ -46730,7 +46730,7 @@ $ (not given)
 2. 3(N01) , SILANITA 
 3. 1(N01) , ŠU 
 4. 1(N15) 2(N02) , 
-5. , |U₄x1(N57)| BAR 
+5. , |U₄×1(N57)| BAR 
 @column 3 
 1. 4(N01) , UDUNITA~a? 
 2. 7(N01) , X 
@@ -46751,7 +46751,7 @@ $ (not given)
 2. , ANŠE~c UDU~a X ŠURUPPAK~a KI [...] 
 @column 2 
 1. 1(N01) [...] , SILANITA 
-2. , |U₄x1(N57)| [BAR] 
+2. , |U₄×1(N57)| [BAR] 
 @column 3 
 1. 1(N01) [...] , UDUNITA~a 
 @reverse 
@@ -46760,7 +46760,7 @@ $ (not given)
 2. [...] , KISIM~a 
 @column 2 
 1. 2(N14) 4(N01) , UDU~a BA 
-2. 2(N01) [...] , |U₄x1(N57)| BAR 
+2. 2(N01) [...] , |U₄×1(N57)| BAR 
 3. 1(N01) , ŠU 
 4. 1(N02) [...] , ZATU628~a# 
 @column 3 
@@ -48014,7 +48014,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01) , |ZATU662x1(N14)| 
+1. 2(N01) , |ZATU662×1(N14)| 
 2. 5(N01) , ŠU₂#? NUN~a 
  
 
@@ -48166,7 +48166,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. 3(N01)# , 7(N57)# |DUG~cx1(N57)| 
+1. 3(N01)# , 7(N57)# |DUG~c×1(N57)| 
 2. 1(N14) 2(N02) , KAŠ~c 
 3. 1(N14) 1(N01) , KAŠ~c NE~a 
 @column 2 
@@ -48969,7 +48969,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. |NINDA₂x1(N01)|# , IN~b#? 
+1. |NINDA₂×1(N01)|# , IN~b#? 
 2. 1(N08)# , |NINDA₂×X|# X 
 @column 2 
 1. 1(N08)# , X [...] 
@@ -48995,7 +48995,7 @@ $ blank space
 2. 4(N01)# [...] , [...] 
 @reverse 
 @column 1 
-1. [...] , |U₄x1(N01)| X [...] 
+1. [...] , |U₄×1(N01)| X [...] 
  
 
 
@@ -49072,7 +49072,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 1(N34)# [...] , X ŠE~a? [...] 
-2. 4(N34) , DARA₄~c2#? |U₄x2(N57)|? 
+2. 4(N34) , DARA₄~c2#? |U₄×2(N57)|? 
 @column 2 
 1. 1(N34)# [...] , [...] 
 2. 4(N14) , AN DARA₄~c2 
@@ -49714,7 +49714,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N14) 4(N01) [...] , |ZATU662x1(N14)|# [...] 
+1. 1(N14) 4(N01) [...] , |ZATU662×1(N14)|# [...] 
 @column 2 
 1. 1(N14)# 2(N01)# [...] , [...] 
  
@@ -49933,7 +49933,7 @@ $ blank space
 @column 2 
 1. [...] , [...] X 
 2. 3(N01) , NUNUZ~a2 
-3. 1(N01) , |(GIŠx(DIN.DIN))~b| 
+3. 1(N01) , |(GIŠ×(DIN.DIN))~b| 
 @column 3 
 1. [...] , X [...] 
 2. 1(N01) , KUŠU₂~b 
@@ -51139,7 +51139,7 @@ $ blank space
 1.b. , (MUŠEN TUR BU~a) 
 2.a. 1(N01) , EN~a TUR 
 2.b. , (BU~a ŠA₃~a1) 
-3.a. 2(N01) , |U₄x1(N57)| TUR 
+3.a. 2(N01) , |U₄×1(N57)| TUR 
 3.b1. , (LUGAL#) 
 3.b2. , (X MUŠEN 6(N57)? KAŠ~c) 
 4.a. 2(N01) , BULUG₃ 
@@ -51167,11 +51167,11 @@ $ blank space
 @column 2 
 1. 1(N14) 5(N01) , SILA₄~c SAL 
 2. 2(N14) , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 2(N34) 1(N14) , UDU~a# DUB~a [...] 
-1.b. 3(N14) 5(N01) , |U₄x1(N57)| BAR 
+1.b. 3(N14) 5(N01) , |U₄×1(N57)| BAR 
 2. 3(N01) 1(N08) , KISIM~a# 
 3. , [...] 
  
@@ -51383,11 +51383,11 @@ $ blank space
 3. , ŠURUPPAK~b PA~a# NAM₂ RAD~a |ŠE~a.NAM₂|# 
 @column 2 
 1. 1(N01) , SAL AMAR 
-2. , |U₄x1(N57)| BAR 
+2. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. [2(N01)] , [AB₂] 
-1.b. 1(N01)# , |U₄x1(N57)|# BAR# 
+1.b. 1(N01)# , |U₄×1(N57)|# BAR# 
 2. 1(N01)# , DUG~b 
  
 
@@ -51441,11 +51441,11 @@ $ blank space
 @column 2 
 1. 5(N01) , SAL SILA₄~c 
 2. 5(N01) , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 5(N14)# 5(N01)# , UDU~a# 
-1.b. 1(N14)# , |U₄x1(N57)|# BAR# 
+1.b. 1(N14)# , |U₄×1(N57)|# BAR# 
 2. 1(N01)# 1(N08)# , KISIM~a# 
 3. , [...] 
  
@@ -51499,7 +51499,7 @@ $ blank space
 2. 1(N34) , ŠE₃ UDU~a DU GIR₃~c 
 3. 1(N34) , ŠE₃ UDU~a ERIN? [...] 
 @column 2 
-1. , |NINDA₂x(HI.AN.ME~a)| NUN~a BA 
+1. , |NINDA₂×(HI.AN.ME~a)| NUN~a BA 
 @reverse 
 @column 1 
 1. 2(N34) 3(N14) , ŠE₃# UDU~a# [...] 
@@ -51788,11 +51788,11 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. 2(N01)# , |DUG~cx1(N57)|# MIR~a? NI₂ ZATU649#? 
+1.a. 2(N01)# , |DUG~c×1(N57)|# MIR~a? NI₂ ZATU649#? 
 1.b1. , |3(N57).PIRIG~b1|# AN DU 
 1.b2. , NAR# NAGA~a# HI 
-2.a1. [...] , |DUG~cx1(N57)|# ŠU ŠA [...] 
-2.a2. 2(N01)# , |DUG~cx1(N57)| MIR~a [SI] U₄# AB₂ 
+2.a1. [...] , |DUG~c×1(N57)|# ŠU ŠA [...] 
+2.a2. 2(N01)# , |DUG~c×1(N57)| MIR~a [SI] U₄# AB₂ 
 2.b1. , |3(N57).NUNUZ~a1| 
 2.b2. , EN~a ŠITA~a3 PAP~a DU 
 @column 2 
@@ -51800,7 +51800,7 @@ $ blank space
 2. [...] , EZEN~a# X [...] 
 3.a. , |3(N57).PIRIG~b1| AN DU 
 3.b. , BU~a HI 
-4.a. 7(N01) , |DUG~cx1(N57)| MIR~a TUR₃~a A 
+4.a. 7(N01) , |DUG~c×1(N57)| MIR~a TUR₃~a A 
 4.b. , NAR NAGA~a HI 
 @reverse 
 @column 1 
@@ -51809,7 +51809,7 @@ $ blank space
 3. 2(N01) , SI U₄ AB₂ 
 4. 7(N01) , TUR₃~a# A# 
 @column 2 
-1. [1(N14)] 3(N01) , |DUG~cx1(N57)| MIR~a# GU₇ 
+1. [1(N14)] 3(N01) , |DUG~c×1(N57)| MIR~a# GU₇ 
  
 
 
@@ -51931,7 +51931,7 @@ $ blank space
 7. [...] , |TUG₂~a.(BAD&BAD)|# 
 @column 2 
 1. 1(N38) 2(N21) , 
-2. 4(N01) 1(N39~a) 1(N24) , |NINDA₂x(HI@g~a.1(N06))| 
+2. 4(N01) 1(N39~a) 1(N24) , |NINDA₂×(HI@g~a.1(N06))| 
 3. 3(N01) , UDU~c 
 4. 2(N48) 1(N34) 3(N01) , ŠE₃ UDU~a 
 5. 2(N34) 5(N14) 1(N01) , MAŠ ŠE₃ 
@@ -51975,10 +51975,10 @@ $ blank space
 3.a. 1(N01) , AB~a AB₂ 
 3.b1A₁. 1(N01) , DUG~c 
 3.b1A₂. 1(N01) , [...] 
-3.b1B. , NAB DI |E₂~ax1(N57)@t| BAPPIR~a? GIBIL 
+3.b1B. , NAB DI |E₂~a×1(N57)@t| BAPPIR~a? GIBIL 
 3.b2. 1(N01) , ZATU732? GI₆ KAR₂~a NUN~a 
 3.b3A. 3(N01) , |SILA₃~a×GARA₂~a| 
-3.b3B1. 2(N57) , ŠA |U₄x2(N01)| ŠU 
+3.b3B1. 2(N57) , ŠA |U₄×2(N01)| ŠU 
 3.b3B2. 1(N57) , |GI×ŠE₃| BAD 
 4.a. 3(N02) , |GA~a.ZATU753| MIR~b 
 4.b. , NIM~b1 PAP~a 
@@ -52150,7 +52150,7 @@ $ blank space
 @obverse 
 @column 1 
 1. 2(N01) , DUG~c NAMEŠDA HI BIR₃~a TE 
-2. 1(N01) , DUGUD UMUN₂ |DUG~cx1(N57)| 
+2. 1(N01) , DUGUD UMUN₂ |DUG~c×1(N57)| 
 3. 1(N01) , SANGA~a ZATU753 
 4. , GU₇ 
 @column 2 
@@ -52175,7 +52175,7 @@ $ blank space
 2. 1(N34)# [...] , [UDUNITA~a] 
 3. , [...] SAG# 
 @column 2 
-1. , |U₄x1(N57)|# BAR [...] 
+1. , |U₄×1(N57)|# BAR [...] 
 @column 3 
 1. 1(N14)# 3(N01)# [...] , [...] 
 2. [...] , MAŠ₂ [...] 
@@ -52183,7 +52183,7 @@ $ blank space
 @reverse 
 @column 1 
 1.a. 2(N34) 1(N14) , UDU~a BA 
-1.b. 1(N14)# [...] , [|U₄x1(N57)| BAR] 
+1.b. 1(N14)# [...] , [|U₄×1(N57)| BAR] 
 2. 2(N01) 1(N08) , KISIM~a# 
 3.a. , |GIŠ.TE| A 
 3.b. 3(N01) , ZATU752 
@@ -52326,11 +52326,11 @@ $ blank space
 @column 2 
 1. 2(N01) , EŠGAR 
 2. 1(N01) , MAŠ 
-3. , |U₄x1(N57)| [BAR] 
+3. , |U₄×1(N57)| [BAR] 
 @reverse 
 @column 1 
 1.a. [...] , BA [UDU~a ...] 
-1.b. 3(N01) , |U₄x1(N57)| BAR 
+1.b. 3(N01) , |U₄×1(N57)| BAR 
 2. 2(N01) , KISIM~a# 
  
 
@@ -52474,7 +52474,7 @@ $ blank space
 @column 2 
 1. 1(N01) , KI? AD~a |ŠU₂.E₂~a| NA₂~a MIR~a# MUŠ₃~a# 
 2.a. 1(N01) , NA₂~a X [...] 
-2.b. 8(N01) , |U₄x4(N01)| GAN~c# [...] 
+2.b. 8(N01) , |U₄×4(N01)| GAN~c# [...] 
 @reverse 
 @column 1 
 1. [...] , GU₇ |3(N57).NUNUZ~a1| 
@@ -52495,11 +52495,11 @@ $ blank space
 @column 2 
 1. 1(N14) , SILA₄~c SAL 
 2. 1(N14) , SILANITA 
-3. , [|U₄x1(N57)| BAR] 
+3. , [|U₄×1(N57)| BAR] 
 @reverse 
 @column 1 
 1.a. [2(N34)] , [UDU~a BA] 
-1.b. [2(N14)] , [|U₄x1(N57)|] BAR# 
+1.b. [2(N14)] , [|U₄×1(N57)|] BAR# 
 2. 3(N01) 1(N08) , KISIM~a 
  
 
@@ -52552,11 +52552,11 @@ $ blank space
 @column 2 
 1. [...] , [SILA₄~c] SAL# 
 2. 5(N01) , SILANITA# 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 1(N34) , UDU~a DUB~a 
-1.b. 2(N14) , |U₄x1(N57)| BAR 
+1.b. 2(N14) , |U₄×1(N57)| BAR 
 2. 1(N01) 1(N08) , KISIM~a 
  
 
@@ -52575,11 +52575,11 @@ $ blank space
 @column 2 
 1. [2(N01) ...] , [SAL SILA₄~c] 
 2. 2(N01)# , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 3(N14)# 5(N01) , UDU~a BA 
-1.b. 4(N01) , |U₄x1(N57)| BAR 
+1.b. 4(N01) , |U₄×1(N57)| BAR 
 2. 1(N01)# , KISIM~a 
  
 
@@ -52618,11 +52618,11 @@ $ blank space
 @column 2 
 1. [1(N01)] , AMAR# SAL 
 2. 1(N01) , KUR~a AMAR# 
-3. , |U₄x1(N57)|# BAR# 
+3. , |U₄×1(N57)|# BAR# 
 @reverse 
 @column 1 
 1.a. 4(N01) , AB₂# 
-1.b. 2(N01) , |U₄x1(N57)| BAR 
+1.b. 2(N01) , |U₄×1(N57)| BAR 
 2. 1(N01)# , DUG~b 
  
 
@@ -52656,11 +52656,11 @@ $ blank space
 @column 2 
 1. 2(N01)# , EŠGAR# [...] 
 2. 1(N01)# [...] , [MAŠ] 
-3. , [|U₄x1(N57)| BAR] 
+3. , [|U₄×1(N57)| BAR] 
 @reverse 
 @column 1 
 1.a. [2(N14)] , [UDU~a BA] 
-1.b. [...] , [|U₄x1(N57)| BAR] 
+1.b. [...] , [|U₄×1(N57)| BAR] 
 2. 3(N01)# , KISIM~a 
  
 
@@ -52691,11 +52691,11 @@ $ blank space
 @column 1 
 1. , NE~a# PAP~a HAL X PA~a NAM₂ RAD~a |ŠE~a.NAM₂| 
 @column 2 
-1. , |U₄x1(N57)| BAR 
+1. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 4(N14) 3(N01) , UDU~a BA 
-1.b. 8(N01) , |U₄x1(N57)| BAR 
+1.b. 8(N01) , |U₄×1(N57)| BAR 
 2. 1(N01) , KISIM~b 
  
 
@@ -52766,11 +52766,11 @@ $ blank space
 3. , X X PA~a NAM₂ RAD~a [...] 
 @column 2 
 1. [...] , SILANITA 
-2. , |U₄x1(N57)| BAR 
+2. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 1(N34) , UDU~a DUB~a 
-1.b. 1(N14) 1(N01) , |U₄x1(N57)| BAR 
+1.b. 1(N14) 1(N01) , |U₄×1(N57)| BAR 
 2. 2(N01) , KISIM~a 
  
 
@@ -52789,11 +52789,11 @@ $ blank space
 @column 2 
 1. 2(N01) , SAL SILA₄~c 
 2. 3(N01) , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 1(N14) [...] , UDU~a BA 
-1.b. 5(N01) , |U₄x1(N57)| BAR 
+1.b. 5(N01) , |U₄×1(N57)| BAR 
 2. 1(N08) , KISIM~a 
 3. , KALAM~b 
  
@@ -52813,11 +52813,11 @@ $ blank space
 @column 2 
 1. [...] , [SILA₄~c] SAL# 
 2. 1(N14) , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. 2(N34)# 2(N14) , DUB~a# UDU~a 
-1.b. 2(N14) , |U₄x1(N57)| BAR 
+1.b. 2(N14) , |U₄×1(N57)| BAR 
 2. [...] , KISIM~a 
  
 
@@ -53073,7 +53073,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. 3(N14)# [...] , UDU~a BA 
-1.b. [...] , |U₄x1(N57)|# BAR 
+1.b. [...] , |U₄×1(N57)|# BAR 
 2. 3(N01) , KISIM~a 
 3.a. 3(N01) [...] , [...] 
 3.b. , MUD# SAG# [...] 
@@ -53095,11 +53095,11 @@ $ (not given)
 2. , ŠE~a# ŠURUPPAK~a#? X NAM₂# RAD~a# [...] 
 @column 2 
 1. [...] , [...] 
-2. , |U₄x1(N57)|# BAR# 
+2. , |U₄×1(N57)|# BAR# 
 @reverse 
 @column 1 
 1.a. 4(N14)# , BA UDU~a 
-1.b. 6(N01) , |U₄x1(N57)| BAR 
+1.b. 6(N01) , |U₄×1(N57)| BAR 
 2. 1(N01) , KISIM~a 
 3. [...] , [...] 
  
@@ -53117,11 +53117,11 @@ $ (not given)
 @column 2 
 1. [...] , [SILA₄~c SAL] 
 2. 2(N01) , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. [...] , [UDU~a BA] 
-1.b. [...] , [|U₄x1(N57)| BAR] 
+1.b. [...] , [|U₄×1(N57)| BAR] 
 2. [...] , KISIM~a# 
 3. , [...] 
  
@@ -53155,7 +53155,7 @@ $ (not given)
 @reverse 
 @column 1 
 1. [...] , [...] 
-2. , ZATU648 |U₄x1(N57)| BA 
+2. , ZATU648 |U₄×1(N57)| BA 
 @column 2 
 1. , [...] 
  
@@ -53175,7 +53175,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. 4(N14) , UDU~a BA 
-1.b. 4(N01) , |U₄x1(N57)| BAR 
+1.b. 4(N01) , |U₄×1(N57)| BAR 
 2. 1(N01)# , KISIM~a 
 3. , X [...] 
  
@@ -53238,7 +53238,7 @@ $ (not given)
 @column 2 
 1. 2(N01) [...] , EŠGAR# 
 2. 5(N01) , MAŠ 
-3. , |U₄x1(N57)|# [BAR] 
+3. , |U₄×1(N57)|# [BAR] 
  
 
 
@@ -53274,11 +53274,11 @@ $ (not given)
 @column 2 
 1. 5(N01) , EŠGAR 
 2. 5(N01) , MAŠ 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. [...] 3(N01) , [...] 
-1.b. 1(N14) , |U₄x1(N57)| BAR 
+1.b. 1(N14) , |U₄×1(N57)| BAR 
 2. [...] , KISIM~b# 
  
 
@@ -53390,11 +53390,11 @@ $ (not given)
 @column 1 
 1. , DAH# X |ŠE~a.NAM₂| NAM₂ RAD~a PA~a 
 @column 2 
-1. , |U₄x1(N57)|# BAR 
+1. , |U₄×1(N57)|# BAR 
 @reverse 
 @column 1 
 1.a. 1(N14) 5(N01) , UDU~a BA 
-1.b. 4(N01) [...] , |U₄x1(N57)| BAR 
+1.b. 4(N01) [...] , |U₄×1(N57)| BAR 
 2. [...] , KISIM~a 
  
 
@@ -53414,7 +53414,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. [...] , UDU~a [...] 
-1.b. [...] , [|U₄x1(N57)| BAR] 
+1.b. [...] , [|U₄×1(N57)| BAR] 
 2. [...] 1(N01)# , KISIM~a 
  
 
@@ -53462,7 +53462,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. [...] , UDU~a# BA# 
-1.b. [...] 1(N01)# , |U₄x1(N57)| BAR 
+1.b. [...] 1(N01)# , |U₄×1(N57)| BAR 
 2. 3(N01)# , KISIM~a 
 3. , [...] KALAM~b#? 
 @column 2 
@@ -53586,7 +53586,7 @@ $ (not given)
 1. , PIRIG~b1#? NAM₂ RAD~a PA~a [...] 
 @column 2 
 1. [...] , MAŠ 
-2. , |U₄x1(N57)| BAR 
+2. , |U₄×1(N57)| BAR 
 @reverse 
 @column 1 
 1.a. [...] , [...] 
@@ -53605,7 +53605,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. 1(N34) , UDU~a DUB~a 
-1.b. 1(N14) , |U₄x1(N57)| BAR# 
+1.b. 1(N14) , |U₄×1(N57)| BAR# 
 @column 2 
 1. , [...] 
  
@@ -53622,7 +53622,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. [...] 1(N14)# 6(N01) , UDU~a# [...] 
-1.b. 6(N01) , |U₄x1(N57)| BAR 
+1.b. 6(N01) , |U₄×1(N57)| BAR 
 2. [...] , KISIM~a# 
  
 
@@ -53660,11 +53660,11 @@ $ (not given)
 @column 2 
 1. 3(N01) , SAL SILA₄~c 
 2. 2(N01) , SILANITA 
-3. , |U₄x1(N57)| BAR# 
+3. , |U₄×1(N57)| BAR# 
 @reverse 
 @column 1 
 1.a. [...] , [...] 
-1.b. 5(N01)# , |U₄x1(N57)| BAR 
+1.b. 5(N01)# , |U₄×1(N57)| BAR 
 2. [...] , KISIM~a 
  
 
@@ -53833,7 +53833,7 @@ $ (not given)
 6.b. [...] , [...] 
 7.a1. 1(N01) , TUG₂~a# BA# 
 7.a2. 1(N14)# 4(N01)# [...] , 
-7.b. , SU~a# NAB# DI |E₂~ax1(N57)@t| 
+7.b. , SU~a# NAB# DI |E₂~a×1(N57)@t| 
 8.a. , GA~a SANGA~a 
 8.b. , NUNUZ~a1 3(N57) 
 @reverse 
@@ -53906,7 +53906,7 @@ $ (not given)
 3.c. [...] , [...] 
 4. [...] , [...] 
 5. [...] , GIBIL [...] 
-6.a. 1(N01) , NA₂~a |U₄x1(N01)| 
+6.a. 1(N01) , NA₂~a |U₄×1(N01)| 
 6.b. 9(N01) , GAN~c [...] 
 7. 1(N01) , AMA~a KI [...] 
 8. 1(N01) , DU MEN~a NUNUZ~a1? 
@@ -53936,9 +53936,9 @@ $ (not given)
 7. 1(N01) , E₂~a# NA₂~a [...] 
 8. 1(N01)# , EN~a# DUG~a# AB~b# [ZATU686~a] 
 9. [...] , [...] 3(N57)? GA₂~a2 
-10. [...] , HAL |E₂~ax1(N57)@t| NE~a 
+10. [...] , HAL |E₂~a×1(N57)@t| NE~a 
 11.a. 1(N01) , U₂~a 
-11.b. 1(N34) , ŠIM~a |SILA₃~ax1(N57)|? [...] 
+11.b. 1(N34) , ŠIM~a |SILA₃~a×1(N57)|? [...] 
 @column 10 
 1.a. 1(N08) , U₂~a SUKKAL 
 1.b. 3(N14) , BA 
@@ -54155,7 +54155,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. 2(N14) 5(N01) , DUB~a UDU~a 
-1.b. 5(N01) , |U₄x1(N57)|# BAR 
+1.b. 5(N01) , |U₄×1(N57)|# BAR 
  
 
 
@@ -54281,7 +54281,7 @@ $ (not given)
 @reverse 
 @column 1 
 1.a. 5(N14) , UDU~a [...] 
-1.b. 1(N14) , |U₄x1(N57)| BAR# 
+1.b. 1(N14) , |U₄×1(N57)| BAR# 
  
 
 
@@ -54582,10 +54582,10 @@ $ (not given)
 2. 1(N01) , TUG₂~a BUR₂ 
 3. 2(N01) , ZATU682 
 4. 5(N01) , TUG₂~a 
-5. 3(N01) , BAPPIR~d |DUG~cx1(N57)| 
+5. 3(N01) , BAPPIR~d |DUG~c×1(N57)| 
 @column 2 
 1. [...] 2(N01)# , [...] GAN~c# 
-2. , |U₄x1(N57)| RU |1(N57).ŠUBUR|# ZATU629 
+2. , |U₄×1(N57)| RU |1(N57).ŠUBUR|# ZATU629 
 3. , EN~a# IB~a ZATU753 
  
 
@@ -54617,7 +54617,7 @@ $ (not given)
 @column 1 
 1.a. [...] , [...] EN~a# ŠIM~a# 
 1.b. , [...] KUR~a# [...] 
-2. 1(N01) , GAN~c# |U₄x3(N01)| NA₂~a 
+2. 1(N01) , GAN~c# |U₄×3(N01)| NA₂~a 
 3. [...] , X [...] 
 @reverse 
 @column 1 
@@ -54784,7 +54784,7 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. [...] , NA₂~a# GAN~c# |U₄x3(N01)|# [...] 
+1. [...] , NA₂~a# GAN~c# |U₄×3(N01)|# [...] 
 @column 2 
 1.a1. [...] , DUG~c 
 1.a2. 1(N01)# [...] , [...] 
@@ -55035,7 +55035,7 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. [...] 1(N01)# , |DUG~cx1(N57)|# [...] 
+1. [...] 1(N01)# , |DUG~c×1(N57)|# [...] 
 2. 1(N34)# [...] , [...] 
  
 
@@ -55212,12 +55212,12 @@ $ broken
 @column 2 
 1. [...] , [...] 
 2. [...] , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @column 3 
 1. , [...] 
 @reverse 
 @column 1 
-1.a. 3(N01) , |U₄x1(N57)| BAR 
+1.a. 3(N01) , |U₄×1(N57)| BAR 
 1.b. , SI ŠE~a#? [...] 
 2. [...] , [...] 
 @column 2 
@@ -55237,7 +55237,7 @@ $ broken
 @reverse 
 @column 1 
 1.a. 2(N14)# , UDU~a BA 
-1.b. 4(N01) , |U₄x1(N57)| BAR 
+1.b. 4(N01) , |U₄×1(N57)| BAR 
 2. 1(N01)# 1(N08)# , KISIM~a# 
  
 
@@ -55310,19 +55310,19 @@ $ broken
 1.b. [2(N14)] , |ZATU759×KU₆~a|# 
 2.a. 1(N01) , UR₂# [...] 
 2.b. 2(N14) , |ZATU759×KU₆~a| 
-3.a. [1(N01)] , |UR₂x1(N57)|# X [...] 
+3.a. [1(N01)] , |UR₂×1(N57)|# X [...] 
 3.b. 2(N14)# , |ZATU759×KU₆~a|# 
 4.a. [...] , UR₂# [...] 
 4.b. [2(N14)] , |ZATU759×KU₆~a| 
 5.a. [1(N01)] , [UR₂ ...] 
 5.b. [2(N14)] , |ZATU759×KU₆~a|# 
 @column 2 
-1.a. 1(N01) , |UR₂x1(N57)| 5(N57) NIN 
+1.a. 1(N01) , |UR₂×1(N57)| 5(N57) NIN 
 1.b. 1(N01) , TUM~b 
 1.c. 2(N14)# , |ZATU759×KU₆~a|# 
-2.a. 1(N01) , PA~a# RAD~a |UR₂x1(N57)|# 
+2.a. 1(N01) , PA~a# RAD~a |UR₂×1(N57)|# 
 2.b. 2(N14) , |ZATU759×KU₆~a| 
-3.a. 1(N01) , NAM₂ APIN~a |UR₂x1(N57)| 
+3.a. 1(N01) , NAM₂ APIN~a |UR₂×1(N57)| 
 3.b. 2(N14) , ZATU759 
 @reverse 
 @column 1 
@@ -55366,12 +55366,12 @@ $ broken
 3. 1(N14) , DI HI E₂~a LU₂ TUN₃~a NUN~a 
 4. 1(N14) , NAGA~a GAL~a PAP~a 
 5. 1(N14) , GAL~a TAK₄~a NUNUZ~c 
-6. 5(N01) , GAL~a GADA~b@g |MAx1(N58)| KI#? 
+6. 5(N01) , GAL~a GADA~b@g |MA×1(N58)| KI#? 
 @column 2 
 1. , EN~a DUG~a AB~b ZATU686~b 
 @column 3 
 1.a1. 2(N14) , HAL DUR₂ LA₂ ERIM~a 
-1.a2. 3(N14) , |U₄x1(N57)| GIŠGAL 
+1.a2. 3(N14) , |U₄×1(N57)| GIŠGAL 
 1.b. , EN~a DUG~a AB~b ZATU686~b 
 2.a. 1(N01) , ZATU764 SIG EZEN~b AN MUŠ₃~a 
 2.b. 4(N14) , 
@@ -55533,7 +55533,7 @@ $ broken
 @obverse 
 @column 1 
 1.a. 1(N01) , DUG~c ZATU649 BU₃ 
-1.b. [...] , X GAN~b# |U₄x2(N01)|#? NA₂~a# 
+1.b. [...] , X GAN~b# |U₄×2(N01)|#? NA₂~a# 
 2. 1(N01)# , [...] E₂~a |GA~a.ZATU753|# 
 3. , EN~a SI ME~a 
 @column 2 
@@ -55552,7 +55552,7 @@ $ broken
 @obverse 
 @column 1 
 1.a. 1(N01) , DUG~c# 
-1.b1. 5(N01)# , |U₄x4(N01)| GAN~c NA₂~a# 
+1.b1. 5(N01)# , |U₄×4(N01)| GAN~c NA₂~a# 
 1.b2. 1(N08) , |GA~a.ZATU753|# BAR 
 @column 2 
 1. , GU₇ [...] 
@@ -55927,7 +55927,7 @@ $ broken
 1. [...] 1(N34)# 5(N14)# , DARA₄~c3 
 2. [...] 1(N14)# , ŠE₃ UDU~a 
 @column 2 
-1.a1. 1(N01) , KU₆~a |U₄x1(N57)| ŠU# 
+1.a1. 1(N01) , KU₆~a |U₄×1(N57)| ŠU# 
 1.a2. , DA~a BA ZATU694~c 
 1.b. , [...] X EN~a# EZEN~b 
  
@@ -56124,7 +56124,7 @@ $ broken
 1. 2(N01) , |MAH~a×MAŠ|? SANGA~a# 
 2. [...] , UTUL~a#? [...] 
 @column 2 
-1. 1(N01) , |SILA₃~ax1(N57)| SANGA~a 
+1. 1(N01) , |SILA₃~a×1(N57)| SANGA~a 
 2. 1(N01) , X [...] 
 @column 3 
 1. [...] , [...] |MAH~a×MAŠ|# 
@@ -56290,7 +56290,7 @@ $ broken
 @column 1 
 1. [...] , [...] 
 2. 5(N45) , GA₂~a2 E₂~a NA₂~a 
-3. 1(N45) , ZI~d ŠU₂ DUR~b |U₄x2(N57)| AB~a |GIŠ×ŠU₂~a| SAL 
+3. 1(N45) , ZI~d ŠU₂ DUR~b |U₄×2(N57)| AB~a |GIŠ×ŠU₂~a| SAL 
 @column 2 
 1. [...] , [...] 
 2. 3(N01) , X [...] 
@@ -56445,7 +56445,7 @@ $ broken
 @obverse 
 @column 1 
 1. 2(N14) , |SILA₃~a×GEŠTU~c3| 
-2. 6(N01) , |DUG~cx1(N57)| 
+2. 6(N01) , |DUG~c×1(N57)| 
 3. 1(N15) 9(N02) , KAŠ~a 
 @column 2 
 1. 6(N01) , NE~a KAŠ~a 
@@ -56490,7 +56490,7 @@ $ broken
 2.b. , SUKKAL ZATU644~b 
 3.a1. 1(N01) , 
 3.a2. 1(N02) , 
-3.b. , |DUG~bx1(N57)| NUN~a EN~a 
+3.b. , |DUG~b×1(N57)| NUN~a EN~a 
 @column 2 
 1.a1. 2(N02) , 
 1.a2. 1(N01) , 
@@ -56772,7 +56772,7 @@ $ broken
 @obverse 
 @column 1 
 1. 2(N14) 4(N01) , DUG~b UR₃~a1 
-2. 9(N01) , |DUG~bx1(N57)| 
+2. 9(N01) , |DUG~b×1(N57)| 
 3. 3(N14)# 9(N01) , ŠA₃~a2 X 
  
 
@@ -56879,10 +56879,10 @@ $ broken
 1. 1(N01) , RAD~a 
 2. 1(N01) , RAD~a@g 
 3. 1(N01) , ERIN 
-4. , |GAN~cx(HI.DIN)| EN~a 
+4. , |GAN~c×(HI.DIN)| EN~a 
 @reverse 
 @column 1 
-1. 2(N14) 1(N01) , EN~a NAGA~a |GAN~cx(HI.DIN)| 
+1. 2(N14) 1(N01) , EN~a NAGA~a |GAN~c×(HI.DIN)| 
  
 
 
@@ -57210,7 +57210,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a1. 1(N01) , |DUG~cx1(N57)| 
+1.a1. 1(N01) , |DUG~c×1(N57)| 
 1.a2. 1(N02) , 
 1.a3. 1(N01) , 
 1.b. , AMAR AMAR 
@@ -57230,7 +57230,7 @@ $ blank space
 2.a. 3(N02) , URI₃~b 
 2.b. 2(N01) , 
 3. 3(N02) , SANGA~a AB₂ 
-4.a. 1(N01) , |DUG~cx1(N57)| 
+4.a. 1(N01) , |DUG~c×1(N57)| 
 4.b. 1(N02) , U₄ 
 4.c. 1(N01) , 
 5.a. 2(N02) , [...] 
@@ -57238,13 +57238,13 @@ $ blank space
 @column 2 
 1.a. 1(N02) , X 
 1.b. 1(N01) , 
-2. 1(N01) , |DUG~cx1(N57)| NE~a 
+2. 1(N01) , |DUG~c×1(N57)| NE~a 
 3.a. 1(N02) , AB₂ DA~a 
 3.b. 1(N01) , 
-4.a. 1(N01) , NIMGIR? |DUG~cx1(N57)| 
+4.a. 1(N01) , NIMGIR? |DUG~c×1(N57)| 
 4.b. 1(N01) , 
 5. 1(N02) , AB₂ NUNUZ~c? 
-6.a. 1(N01) , |DUG~cx1(N57)| DUG~b 
+6.a. 1(N01) , |DUG~c×1(N57)| DUG~b 
 6.b. 2(N02) , AB₂ 
 @column 3 
 1. 2(N02) , TI 
@@ -57261,12 +57261,12 @@ $ blank space
 2.a. 1(N01) , X 
 2.b. 3(N01) , 
 3. 1(N14) 3(N01) , DUG~c GI 
-4. 1(N01) , |DUG~cx1(N57)| 
+4. 1(N01) , |DUG~c×1(N57)| 
 5. 1(N01) , AMAR AMAR 
 6. 1(N01) , X 
 7. 1(N01) , NESAG₂~b 
 @column 2 
-1. 4(N01) , |DUG~cx1(N57)| 
+1. 4(N01) , |DUG~c×1(N57)| 
 2. 2(N14) 1(N02) , KAŠ~c 
  
 
@@ -57297,7 +57297,7 @@ $ blank space
 @obverse 
 @column 1 
 1. 1(N01) , HAŠHUR 
-2. 1(N34) , SUM~b |SIGx1(N57)|? 
+2. 1(N34) , SUM~b |SIG×1(N57)|? 
 3. 1(N01) , ŠITA~b1 
 4. 1(N34) , SUM~b NUN~a 
 @reverse 
@@ -57367,7 +57367,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N14) , |DUG~cx1(N57)| 
+1. 1(N14) , |DUG~c×1(N57)| 
 2. 2(N14) 5(N01) , MA 
 3. 4(N14) , HAŠHUR 
 4. 4(N01) , |MA×MA| 
@@ -57638,8 +57638,8 @@ $ (not given)
 @column 1 
 1. [...] , [...] 
 @column 2 
-1. 2(N01) , |U₄x7(N57)| 
-2. 2(N01) , |U₄x8(N57)| 
+1. 2(N01) , |U₄×7(N57)| 
+2. 2(N01) , |U₄×8(N57)| 
 @column 3 
 1. , [...] 
  
@@ -57765,7 +57765,7 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. 2(N14) , |DUG~cx1(N57)|? ANŠE~a#? [...] 
+1. 2(N14) , |DUG~c×1(N57)|? ANŠE~a#? [...] 
 2. 1(N14) 2(N01) , X [...] 
  
 
@@ -57778,17 +57778,17 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1.a. 1(N01) , |DUG~cx1(N57)| 
+1.a. 1(N01) , |DUG~c×1(N57)| 
 1.b. 2(N02) , 
 1.c. 1(N01) , AB~a SANGA~a ŠEŠ~a 
-2.a. 1(N01) , |DUG~cx1(N57)| 
+2.a. 1(N01) , |DUG~c×1(N57)| 
 2.b. 2(N02) , 
 2.c. 1(N01) , GA~a AN MUŠ₃~a 
 3.a. 2(N02) , 
 3.b. 1(N01) , KAB? BU~a 
 @reverse 
 @column 1 
-1. 2(N01) , |DUG~cx1(N57)| 
+1. 2(N01) , |DUG~c×1(N57)| 
 2. 6(N01) , KAŠ~c? 
 3. 3(N01) , GI 
  
@@ -57870,7 +57870,7 @@ $ (not given)
 6. 1(N01) [...] , [...] 
 @column 2 
 1.a. 3(N14) 1(N01) , UDU~a BA 
-1.b. , |U₄x1(N57)|# BAR 
+1.b. , |U₄×1(N57)|# BAR 
 2. 4(N01) , ŠU 
 @column 3 
 1. 3(N14) 5(N01) , LAGAB~b UDU~a 
@@ -58490,7 +58490,7 @@ $ rest broken
 2. [...] , X [...] 
 3. [...] , [...] 
 @column 2 
-1. , |U₄x6(N57)|# EN~a# DU# [...] 
+1. , |U₄×6(N57)|# EN~a# DU# [...] 
 @reverse 
 @column 1 
 1. [...] , X GAR# [...] 
@@ -60383,7 +60383,7 @@ $ blank space
 @column 1 
 1. [...] 2(N01)# , X [...] 
 2. 7(N34) 5(N14) , ŠE₃ UDU~a 
-3. , |EZEN~ax(U₂~b.A)| ŠE₃# NUNUZ~a1# X [...] 
+3. , |EZEN~a×(U₂~b.A)| ŠE₃# NUNUZ~a1# X [...] 
  
 
 
@@ -60531,7 +60531,7 @@ $ blank space
 @obverse 
 @column 1 
 1. 1(N34) [...] , [...] 
-2. , |U₄x1(N01)| KAŠ~b AN MUŠ₃~a 
+2. , |U₄×1(N01)| KAŠ~b AN MUŠ₃~a 
 @column 2 
 1. [...] , X [...] 
  
@@ -60611,7 +60611,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. [...] , X ŠU# |GA₂~a2x(GU₄.ŠE₃)|# [...] 
+1. [...] , X ŠU# |GA₂~a2×(GU₄.ŠE₃)|# [...] 
  
 
 
@@ -61020,8 +61020,8 @@ $ blank space
 1. 1(N01) , DUG~c [...] 
 @column 3 
 1. , 1(N57) GAN~c EN~a DA~a NANNA~b 
-2. , 2(N57) GAN~b ŠU |U₄x1(N57)| X X [...] 
-3. [...] , |DUG~bx1(N57)|#? [...] 
+2. , 2(N57) GAN~b ŠU |U₄×1(N57)| X X [...] 
+3. [...] , |DUG~b×1(N57)|#? [...] 
 @reverse 
 @column 1 
 1. , GU₇# [...] 
@@ -61068,7 +61068,7 @@ $ blank space
 2. 3(N14) , U₂~a BA 
 3. , |MAH~a×X| AN |ŠU₂.EN~a| 
 @column 2 
-1. [...] , [...] |U₄x3(N57)| 
+1. [...] , [...] |U₄×3(N57)| 
  
 
 
@@ -61258,7 +61258,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , |U₄x1(N57)| RU NI~a ZI~a 
+1. 1(N01) , |U₄×1(N57)| RU NI~a ZI~a 
 2. [...] , KUR~a# ZATU659 X [...] 
 @reverse 
 @column 1 
@@ -61311,7 +61311,7 @@ $ blank space
 1. 5(N34) [...] , SA~a#? 
 2. 1(N14) , U₂~b 
 3. 1(N48) , ZI~d 
-4. 2(N01) , |GA₂~a1x1(N14)| 
+4. 2(N01) , |GA₂~a1×1(N14)| 
 5. 2(N01) , |GAN~c×KAŠ~c| GI 
 @column 3 
 1. 2(N34) [...] , [...] 
@@ -61321,8 +61321,8 @@ $ blank space
 @reverse 
 @column 1 
 1.a. 1(N14) 2(N01) , DUB~a BAN~b 
-1.b. , |U₄x2(N57)| LAM~b KAŠ~c [...] 
-2. 6(N34) , TI |U₄x2(N57)|? [...] 
+1.b. , |U₄×2(N57)| LAM~b KAŠ~c [...] 
+2. 6(N34) , TI |U₄×2(N57)|? [...] 
 @column 2 
 1. 1(N14) [...] , E₂~a [...] 
 2. 1(N01) [...] , X [...] 
@@ -61420,7 +61420,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01) [...] , |U₄x2(N01)|#? [...] 
+1. 2(N01) [...] , |U₄×2(N01)|#? [...] 
 @column 2 
 1. 1(N01) [...] , [...] 
  
@@ -62077,7 +62077,7 @@ $ blank space
 6. 4(N48) [...] , BALA~a# [...] 
 @column 5 
 1. [...] 1(N14) [...] , [...] 
-2. 1(N45) 3(N48) 2(N34) [...] , |SALx1(N58)| KIŠ [...] 
+2. 1(N45) 3(N48) 2(N34) [...] , |SAL×1(N58)| KIŠ [...] 
 3. 1(N01) , BALA~a ŠU E₂~a [...] 
 4. 1(N01) , TAK₄~a X X [...] 
  
@@ -62338,7 +62338,7 @@ $ blank space
 4. 1(N01) , EN~a ERIM~a A NUN~a# SI [...] 
 @column 2 
 1.a. [...] , X [...] 
-1.b. , NESAG₂~a |DARA₃~dx(KAR₂.ŠE~a)| [...] 
+1.b. , NESAG₂~a |DARA₃~d×(KAR₂.ŠE~a)| [...] 
 2.a. 1(N01) , X ZATU759 
 2.b. , ŠE~a NANNA~b [...] 
 3.a. 1(N01) , ŠAGAN GI 
@@ -62424,12 +62424,12 @@ $ blank space
 @obverse 
 @column 1 
 1. 4(N01) , KU₆~a SUM~b 
-2. 7(N01) , |UKKIN~bx(DIN.1(N01))| 
-3. [...] , |UKKIN~bx2(N01)|#? 
+2. 7(N01) , |UKKIN~b×(DIN.1(N01))| 
+3. [...] , |UKKIN~b×2(N01)|#? 
 @column 2 
-1. 1(N01) , |UKKIN~bx3(N01)|#? KUR~a [...] 
+1. 1(N01) , |UKKIN~b×3(N01)|#? KUR~a [...] 
 2. [...] , DIN# |UKKIN~b×X|# 
-3. 1(N01) , |UKKIN~bx5(N01)| 
+3. 1(N01) , |UKKIN~b×5(N01)| 
 4. [...] , X [...] 
  
 
@@ -62565,7 +62565,7 @@ $ blank space
 @column 1 
 1. [...] , X [...] 
 @column 2 
-1. [...] , |U₄x(1(N14).4(N01))|#? [...] 
+1. [...] , |U₄×(1(N14).4(N01))|#? [...] 
 2. 7(N01) , X [...] 
 3. 2(N01) , AN E~a X [...] 
 4. [...] , LA~b#? [...] 
@@ -62813,7 +62813,7 @@ $ blank space
 @column 2 
 1. [...] , X [...] 
 @column 3 
-1.a. [...] , |DUG~ax1(N57)|# [...] 
+1.a. [...] , |DUG~a×1(N57)|# [...] 
 1.b. [...] , X IB~a BU~a ZAG~a [...] 
 2. 1(N01) , GARA₂~a SILA₃~a |GI×ŠE₃| [...] 
 3. 2(N01) , BA SILA₃~a EN~a BA [...] 
@@ -62904,7 +62904,7 @@ $ blank space
 @reverse 
 @column 1 
 1. [...] , X X [...] 
-2. [...] , |GA₂~a1x(GIR~a.KU₆~a)| 
+2. [...] , |GA₂~a1×(GIR~a.KU₆~a)| 
 3. [...] , |GA₂~a1×GIR~a| 
  
 
@@ -62993,8 +62993,8 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , |U₄x6(N57)|# NE~a |LAGAB~b×U₄|#? [...] 
-2. 1(N01) , |U₄x2(N57)|# GU₄ ŠU |LAGAB~b×U₄|#? [...] 
+1. 1(N01) , |U₄×6(N57)|# NE~a |LAGAB~b×U₄|#? [...] 
+2. 1(N01) , |U₄×2(N57)|# GU₄ ŠU |LAGAB~b×U₄|#? [...] 
 3. , X [...] 
  
 
@@ -63049,10 +63049,10 @@ $ blank space
 3. 2(N01) , |1(N57).ŠUBUR| ŠUR₂~b#? BU~a 
 4. 1(N01) [...] , |GI&GI| KISAL~b1 
 @column 3 
-1. , |GA₂~a2x(GU₄.ŠE₃)| ZATU697~a 
+1. , |GA₂~a2×(GU₄.ŠE₃)| ZATU697~a 
 @reverse 
 @column 1 
-1. , |GA₂~a2x(GU₄.ŠE₃)| [...] 
+1. , |GA₂~a2×(GU₄.ŠE₃)| [...] 
  
 
 
@@ -63070,14 +63070,14 @@ $ blank space
 @column 2 
 1. , [...] X GI [...] 
 2. , |U₄.3(N08)| U₄ KI 
-3. , |U₄.1(N08)| |U₄x1(N01)| GIŠIMMAR~b1 
+3. , |U₄.1(N08)| |U₄×1(N01)| GIŠIMMAR~b1 
 4. , |U₄.1(N08)| KAR₂~a NUN~a# [...] 
 @column 3 
 1. , |U₄.1(N08)| TAG~c SI 
 2. , |U₄.7(N08)| [...] 
 @reverse 
 @column 1 
-1. , |U₄.1(N08)|#? |U₄x1(N01)|# X KI EN~a [...] 
+1. , |U₄.1(N08)|#? |U₄×1(N01)|# X KI EN~a [...] 
 2. , |U₄.1(N08)| GIŠIMMAR~b1 
 3. , |U₄.1(N08)| KAR₂~a NUN~a 
 4. , |U₄.1(N08)| DU KAR₂~a NUN~a# 
@@ -63293,7 +63293,7 @@ $ blank space
 1.b2. 1(N57) , AN 
 1.b3. , X [...] 
 2. 1(N01) , X EN~a ŠIDIM 
-3. 4(N01) , |NINDA₂x(AN.ME~a)| 
+3. 4(N01) , |NINDA₂×(AN.ME~a)| 
 @reverse 
 @column 1 
 1. 1(N34) 1(N14) [...] , BA DARA₄~c4 
@@ -63659,7 +63659,7 @@ $ blank space
 3.b. , |ZATU651×NUN~a| E₂~a 
 4.a. 1(N01) , EN~a IB~a ZATU651@g X 
 4.b. , |ZATU651×NUN~a| E₂~a 
-5.a. 2(N01) , UNUG~a SAL AMA~a? AN |NINDA₂x(HI+ME~a)| 
+5.a. 2(N01) , UNUG~a SAL AMA~a? AN |NINDA₂×(HI+ME~a)| 
 5.b. , |ZATU651×NUN~a| E₂~a 
 6.a. 4(N01) , SUG₅ X ERIM~a [...] 
 6.b1. , BU~a 1(N57) X 
@@ -63954,11 +63954,11 @@ $ blank space
 1. [...] , X [...] 
 2. [...] , X [...] 
 @column 2 
-1. [...] 1(N34) 1(N14) 6(N01) , |U₄x4(N57)| 
-2. 1(N14) 5(N01) , UR₃~a3 |U₄x1(N57)| 
-3. 8(N01) , |U₄x2(N57)| 
-4. [...] 2(N01) , |U₄x3(N57)| 
-5. [...] 1(N01) , |U₄x4(N57)| 
+1. [...] 1(N34) 1(N14) 6(N01) , |U₄×4(N57)| 
+2. 1(N14) 5(N01) , UR₃~a3 |U₄×1(N57)| 
+3. 8(N01) , |U₄×2(N57)| 
+4. [...] 2(N01) , |U₄×3(N57)| 
+5. [...] 1(N01) , |U₄×4(N57)| 
 6. [...] 1(N01) , [...] 
 @column 3 
 1. 5(N14) , TUG₂~a# ZATU737 
@@ -64005,7 +64005,7 @@ $ blank space
 1. [...] , X [...] 
 2. 1(N01) , GAN~a 5(N57) 
 3. 4(N01) , GAN~b URUDU~a 
-4. 1(N08) , |DUG~cx1(N57)| 
+4. 1(N08) , |DUG~c×1(N57)| 
 5. [...] 1(N01) , [...] 
  
 
@@ -64505,7 +64505,7 @@ $ blank space
 3. 1(N08) , SIG₂~a1 
 4. 1(N08) , DU₈~c 
 5. 1(N01) 1(N08) , GAR 
-6. [...] 2(N01) , |ŠITA@g~ax1(N06)| 
+6. [...] 2(N01) , |ŠITA@g~a×1(N06)| 
 @column 3 
 1. 1(N01) , ŠA# [...] 
 2. 1(N14) 6(N01) , 1(N57) ŠITA~a1 X 
@@ -65048,7 +65048,7 @@ $ blank space
 3. [...] , X [...] 
 @column 2 
 1. 1(N01) , |GAN~c×X| GIBIL# 
-2. 1(N01) , |GAN~cx(KUR~a.A)| 
+2. 1(N01) , |GAN~c×(KUR~a.A)| 
 3. 1(N01) , GAN~c TI AB~a 
 4. 1(N01) , DUB~f X GA₂~a1 
 5. 2(N01) , UKKIN~b? BUR~b NUNUZ~a1 
@@ -65320,12 +65320,12 @@ $ blank space
 @column 1 
 1. [...] , MAŠ# EN~a KA~a GI₆? U₄ AMA~a [...] 
 @column 2 
-1. , |U₄x1(N57)| BAR 
+1. , |U₄×1(N57)| BAR 
 @column 3 
 1. , |ŠE~a.NAM₂| 
 @reverse 
 @column 1 
-1. 6(N01) , |U₄x1(N57)|# [...] 
+1. 6(N01) , |U₄×1(N57)|# [...] 
 @column 2 
 1. 2(N14) 7(N01) , BA UDU~a [...] 
  
@@ -66662,7 +66662,7 @@ $ (no linguistic content)
 1. , KID~b DU# X APIN~a GI₄~a [...] 
 @reverse 
 @column 1 
-1. |1(N34)x1(N58)| , SUR 
+1. |1(N34)×1(N58)| , SUR 
 2. [...] , [...] X 
 @column 2 
 1. , X [...] 
@@ -66707,7 +66707,7 @@ $ (not given)
 @obverse 
 @column 1 
 1. 3(N14) , ŠE~a PAP~a ŠA₃~a1# ERIM~a [...] 
-2. [1(N14)] 2(N01)# , ŠE~a# |MUŠENx2(N57)| |MUŠENx2(N57)| 
+2. [1(N14)] 2(N01)# , ŠE~a# |MUŠEN×2(N57)| |MUŠEN×2(N57)| 
 3. 5(N01) , ŠE~a ERIM~a X 
 4. , [...] ŠU# 
 @column 2 
@@ -66733,7 +66733,7 @@ $ (not given)
 @column 2 
 1. 1(N01) , DI GIR₃@g~b# PAP~a# 
 2. 5(N01) , EN~a# GI 
-3. , GI#? |U₄x2(N57)| 
+3. , GI#? |U₄×2(N57)| 
 @reverse 
 @column 1 
 1. 2(N14) , X BAR 
@@ -66834,15 +66834,15 @@ $ (not given)
 @obverse 
 @column 1 
 1. 1(N45) 1(N14) , X ŠE~a 3(N57) SAL 
-2. [1(N45)] 1(N14) , |ŠITA@g~ax1(N06)| 
+2. [1(N45)] 1(N14) , |ŠITA@g~a×1(N06)| 
 3. 1(N45) 1(N14) , AB~a KAB GI 
 4. 5(N14) 3(N01) , ME~a |NI~a.RU| 
-5. , |NINDA₂x(ZATU659x1(N01))| BA ŠU ŠE~a 
+5. , |NINDA₂×(ZATU659×1(N01))| BA ŠU ŠE~a 
 @column 2 
 1. , |NI~a.RU| AB~a 
 @reverse 
 @column 1 
-1. 1(N34) 8(N14)# 3(N01) , [...] |NINDA₂x(ZATU659x1(N01))|# 
+1. 1(N34) 8(N14)# 3(N01) , [...] |NINDA₂×(ZATU659×1(N01))|# 
 @column 2 
 1. , |NI~a.RU| AB~a# 
  
@@ -66858,7 +66858,7 @@ $ (not given)
 @column 1 
 1.a1. 1(N45) , 
 1.a2. 1(N14) , TAR~a 
-1.b. , SANGA~a |ŠITA@g~ax1(N06)| 
+1.b. , SANGA~a |ŠITA@g~a×1(N06)| 
 2.a1. 5(N14) , 
 2.a2. 3(N01) , TAR~a 
 2.b. , ME~a |NI~a.RU| 
@@ -67167,7 +67167,7 @@ $ (not given)
 1.b. 1(N36) 1(N46) , 
 2.a. 1(N45) , PAP~a NAM₂ BU~a X TUR# 
 2.b. 3(N19) , 
-4. [...] , [...] |U₄x4(N57)| |NI~a.RU|# [...] 
+4. [...] , [...] |U₄×4(N57)| |NI~a.RU|# [...] 
 @reverse 
 @column 1 
 1. [...] 4(N19) [...] , X [...] 
@@ -67220,7 +67220,7 @@ $ (not given)
 @tablet 
 @obverse 
 @column 1 
-1. [...] , |U₄x2(N01).(2(N14).1(N08))| EN~a PA~a 
+1. [...] , |U₄×2(N01).(2(N14).1(N08))| EN~a PA~a 
 @column 2 
 1. [...] , [...] X 
 2. 1(N14) 3(N01) 1(N08) , GAL~a#? X NI~a# 
@@ -67657,7 +67657,7 @@ $ blank space
 @column 2 
 1. [...] , [...] ŠE~a# 
 2. 1(N01) , TUG₂~a 
-3. , |U₄x2(N57)| 
+3. , |U₄×2(N57)| 
  
 
 
@@ -67707,7 +67707,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 1(N01)# , UDU~a# GIR₂~a 
-2. 1(N01) , |HIx1(N57)@t|? GIR₂~a ŠU 
+2. 1(N01) , |HI×1(N57)@t|? GIR₂~a ŠU 
 3. 1(N01) [...] , ZATU812 
 @column 2 
 1. 2(N14) , U₂~b |URU~a1×U₄| GIŠ [...] 
@@ -67842,7 +67842,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. [...] , [...] E₂~a# |MUŠENx2(N57)|# KI# 
+1. [...] , [...] E₂~a# |MUŠEN×2(N57)|# KI# 
 2.a. [...] , [...] ŠIM~a#? KU₃~a#? 
 2.b1. , MUŠEN# KI# 
 2.b2. , SANGA~a#? X KI# 
@@ -68042,18 +68042,18 @@ $ blank space
 3. 1(N14) 5(N01) , DUR~b 
 4. , X [...] |NI~a.RU| 
 @column 3 
-1.a1. , |U₄x(1(N14).8(N01))| 
+1.a1. , |U₄×(1(N14).8(N01))| 
 1.a2. 9(N14)# [...] , [...] 
-1.b1A. , |U₄x6(N01)| 
+1.b1A. , |U₄×6(N01)| 
 1.b1B. 3(N20)# , [...] 
-1.b2A. , [|U₄x(1(N14).2(N01))|] 
+1.b2A. , [|U₄×(1(N14).2(N01))|] 
 1.b2B. [6(N20)] , [...] 
 1.b3. , X [...] 
-2.a1. , |U₄x(3(N14).2(N01))|# 
+2.a1. , |U₄×(3(N14).2(N01))|# 
 2.a2. 1(N34)# 4(N01)# , UDU~a GI# 
 2.b1A. , |U₄.2(N14)| 
 2.b1B. 4(N14) , UDU~a 
-2.b2A. , |U₄x(1(N14).2(N01))| 
+2.b2A. , |U₄×(1(N14).2(N01))| 
 2.b2B. 2(N14) 4(N01) , 
 2.b3. , EN~a# DU# UB# 
 3. , GAL~a PA~a GI X [...] 
@@ -68068,7 +68068,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 9(N20)# , |U₄x(1(N14).8(N01))| |U₄x1(N57)| KAŠ~b# 
+1. 9(N20)# , |U₄×(1(N14).8(N01))| |U₄×1(N57)| KAŠ~b# 
 2. 1(N34) 2(N01) [...] , UDU~a# 
 @column 2 
 1. 6(N20) , [...] 
@@ -68092,7 +68092,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. [...] , [...] GI# KAŠ~b |U₄x1(N57)| [...] 
+1. [...] , [...] GI# KAŠ~b |U₄×1(N57)| [...] 
 @column 2 
 1. 1(N60) 2(N52) [...] , 
 2. 2(N14) 6(N01)# [...] , [...] X 
@@ -68181,7 +68181,7 @@ $ blank space
 @column 1 
 1. , 4(N57) SU~a GIBIL# 
 @column 2 
-1. 1(N45) 9(N14) 4(N01) 4(N39~a) , ŠE~a |U₄x3(N57)| GI# AB~a |NI~a.RU| 
+1. 1(N45) 9(N14) 4(N01) 4(N39~a) , ŠE~a |U₄×3(N57)| GI# AB~a |NI~a.RU| 
 @column 3 
 1. , GIR₃@g~b PA~a# 
 2. , EN~a# PA~a |1(N58).BAD~a| 
@@ -68219,11 +68219,11 @@ $ blank space
 1. [...] , [...] 
 2. [...] , [...] DUG~a#? 
 3. 6(N51)# , U₂~b 
-4. , |U₄x3(N57)| SU~a 6(N01)# GIBIL# |NI~a.RU|# [...] 
+4. , |U₄×3(N57)| SU~a 6(N01)# GIBIL# |NI~a.RU|# [...] 
 @reverse 
 @column 1 
-1.a. 1(N34) 9(N14) 3(N01) 3(N39~a) , LAGAB~b |U₄x3(N57)| ŠE~a GI GIR₃@g~b PA~a |AMAR.1(N02)| 
-1.b1A. , [...] |U₄x8(N01).X|# AB~a SAG KALAM~a PA~a 
+1.a. 1(N34) 9(N14) 3(N01) 3(N39~a) , LAGAB~b |U₄×3(N57)| ŠE~a GI GIR₃@g~b PA~a |AMAR.1(N02)| 
+1.b1A. , [...] |U₄×8(N01).X|# AB~a SAG KALAM~a PA~a 
 1.b1B. [9(N14) 2(N01)] , ŠE~a [...] 
 1.b2. 1(N45) , BA? UNUG~a KALAM~a#? [...] 
 1.b3. 2(N45) 1(N01) 3(N39~a) , ŠE~a# GI# [...] 
@@ -68290,7 +68290,7 @@ $ blank space
 4. 3(N14) , UDU~a 
 5. 1(N34) , SUHUR 
 6. 1(N52) , 
-7. 1(N01) , |DUG~cx1(N57)| 
+7. 1(N01) , |DUG~c×1(N57)| 
 8. 8(N01) , ŠU₂ 
 9. 1(N01) , ZATU644~a 
 10. 2(N01) , ZATU753 
@@ -68307,7 +68307,7 @@ $ blank space
 3. 3(N14) , UDU~a 
 4. 1(N34) , SUHUR# 
 5. 1(N52) , 
-6. 1(N01) , |DUG~cx1(N57)| 
+6. 1(N01) , |DUG~c×1(N57)| 
 7. 8(N01)# , [ŠU₂] 
 8. [1(N01)] , [ZATU644~a] 
 9. [2(N01)] , [ZATU753] 
@@ -68355,14 +68355,14 @@ $ blank space
 1. , GIR₃@g~b PA~a PAP~a BU~a NAM₂ 
 @reverse 
 @column 1 
-1.a. 1(N37) 2(N47) 2(N20) , ŠE~a |U₄x4(N57)| AMAR 
+1.a. 1(N37) 2(N47) 2(N20) , ŠE~a |U₄×4(N57)| AMAR 
 1.b1. 5(N14)# , ŠE~a KID~a EN~a KALAM~a# PA~a 
 1.b2. 5(N01) , ŠE~a KI 1(N02) 
 1.b3A. 7(N19)# 1(N04) , [...] 1(N02)# 
 1.b3B. 3(N20) 3(N05) 2(N42~a) 1(N25) , X ŠE₃ 
 1.b4. 3(N14) , PA~a U₄ KALAM~b MUŠEN#? X [...] 
 1.b5. 1(N34) 9(N14) 3(N01) 2(N39~a) 1(N24) , ŠE~a GI 
-2.a. 2(N34) 1(N45)# 8(N14)# , |U₄x6(N57)|# ŠE~a# GIR₃@g~b# [...] 
+2.a. 2(N34) 1(N45)# 8(N14)# , |U₄×6(N57)|# ŠE~a# GIR₃@g~b# [...] 
 2.b1. 1(N45) 1(N14) , PAP~a X 
 2.b2. 1(N45) 1(N14) , 3(N57) SAL# [...] 
 2.b3. [...] , [...] 
@@ -68852,8 +68852,8 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. [...] , X KAŠ~b |U₄x1(N57)|# 
-1.b. [...] , [...] |U₄x5(N57)|# 
+1.a. [...] , X KAŠ~b |U₄×1(N57)|# 
+1.b. [...] , [...] |U₄×5(N57)|# 
 2. 1(N01) , U₂~b [...] 
 @column 2 
 1.a. [...] 1(N14)# , X [...] 
@@ -69182,7 +69182,7 @@ $ blank space
 4. , X GI# [...] 
 @reverse 
 @column 1 
-1. , |U₄x5(N57)| GI# [...] 
+1. , |U₄×5(N57)| GI# [...] 
  
 
 
@@ -69325,7 +69325,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 4(N14) 2(N01) 2(N39~a) , ŠE~a |U₄x8(N01)| 
+1. 4(N14) 2(N01) 2(N39~a) , ŠE~a |U₄×8(N01)| 
 @column 2 
 1. 3(N01) , ME~a 
 2. 5(N01) , EN~a DU PAP~a 
@@ -69372,7 +69372,7 @@ $ blank space
 1.a1. , [|U₄.(1(N14).8(N08))|?] TI# GIR₃@g~b# [1(N57)] 
 1.a2. , |U₄.(1(N14).4(N08))|#? 2(N57)# 
 1.a3. , |U₄.3(N08)|# 3(N57) 
-1.b. , |U₄x1(N01).5(N08)| 
+1.b. , |U₄×1(N01).5(N08)| 
 1.c. 3(N01) 2(N39~a) 1(N24) , ŠE~a 
 1.d. 1(N39~a) 1(N24) 1(N30~a) , TAR~a 
 1.e. , UNUG~a 
@@ -69380,8 +69380,8 @@ $ blank space
 2.b. 1(N01) , ŠE~a 
 2.c. 1(N24) , 
 3.a. 1(N14) 1(N01) , UDU~a PAP~a BU~a NAM₂ 
-3.b1. 4(N01) , UDU~a |U₄x2(N01)| 
-3.b2. 7(N01) , UDU~a |U₄x3(N01)| 
+3.b1. 4(N01) , UDU~a |U₄×2(N01)| 
+3.b2. 7(N01) , UDU~a |U₄×3(N01)| 
 @reverse 
 @column 1 
 1. [...] 1(N01)# , ŠAGAN# X [...] 
@@ -69402,7 +69402,7 @@ $ blank space
 @obverse 
 @column 1 
 1. 1(N45) 6(N14) , DUB~a ŠE~a 
-2.a. , 1(N24) |U₄x3(N57)| EN~a PA~a 
+2.a. , 1(N24) |U₄×3(N57)| EN~a PA~a 
 2.b. 1(N45) 9(N14) 4(N01) 4(N39~a)# , ŠE~a# 
 @column 2 
 1. , GIR₃@g~b# PA~a# 
@@ -69615,7 +69615,7 @@ $ blank space
 2. 1(N14) , KID~b 
 3. 1(N14) , MU 
 4. 1(N14) , MUD₃~c 
-5. , |U₄x1(N14)| 
+5. , |U₄×1(N14)| 
 @column 2 
 1. 1(N01) , KID~b 
 2. 1(N01) , UDU~a 
@@ -69660,7 +69660,7 @@ $ blank space
 1.a. [...] , [DUG~a KAŠ~a] DUB~a# E₂~a# 
 1.b. [...] 1(N25) 1(N30A~c)#? , 
 2. [...] 2(N05) 2(N42~a) 1(N25) , |ZATU714×HI@g~a| [...] 
-3. [...] 1(N01) , |DUG~cx1(N57)| 
+3. [...] 1(N01) , |DUG~c×1(N57)| 
 4. [...] 1(N01) , [...] 
 5. [...] 1(N01) , [...] X 
 6. 4(N01)# , ŠU₂# 
@@ -69865,7 +69865,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. 1(N01) , |NINDA₂x1(N01)| 
+1.a. 1(N01) , |NINDA₂×1(N01)| 
 1.b. 1(N05) , 
 2.a. 1(N01) , 1(N39~a) 
 2.b. 1(N42~a) , 
@@ -69903,15 +69903,15 @@ $ blank space
 2.b. 1(N01) , |SILA₃~a×KU₆~a| 
 3.a. 1(N08) , [...] X 
 3.b. 2(N01) , ŠITA~a1 
-4.a. |ZATU659x1(N01)|# , SAG# [...] 
+4.a. |ZATU659×1(N01)|# , SAG# [...] 
 4.b. 1(N01) , ŠITA~a1 
-5.a. |ZATU659x1(N01)|# , SIG₇# SAL#? X 
+5.a. |ZATU659×1(N01)|# , SIG₇# SAL#? X 
 5.b. [...] , X 
-6.a. |ZATU659x1(N01)| , TU~b HI ŠA₃~a2 
+6.a. |ZATU659×1(N01)| , TU~b HI ŠA₃~a2 
 6.b. 1(N01) , ŠITA~a1 
-7.a. |ZATU659x1(N01)| , AMA~a AGAR₂ 
+7.a. |ZATU659×1(N01)| , AMA~a AGAR₂ 
 7.b. 1(N01) , ŠITA~a1 
-8.a. |ZATU659x1(N01)| , AN NIM~b3 
+8.a. |ZATU659×1(N01)| , AN NIM~b3 
 8.b. 1(N01) , ŠITA~a1 
 9.a. 2(N01) , GAR |NI~a.RU| ME~a 
 9.b1. 1(N01) , KAŠ~a 
@@ -69921,7 +69921,7 @@ $ blank space
 1.b. 1(N01) , ŠITA~a1 
 2.a. 1(N08) , EN~a UMUN₂ ABGAL 
 2.b. 1(N01) , ŠITA~a1 
-3.a. |ZATU659x1(N01)|# , SANGA~a# |NI~a.RU|# 
+3.a. |ZATU659×1(N01)|# , SANGA~a# |NI~a.RU|# 
 3.b. 1(N01) , ŠITA~a1 
 4.a. 1(N08) , SANGA~a AB~a 
 4.b. 1(N01) , ŠITA~a1 
@@ -69929,15 +69929,15 @@ $ blank space
 5.b. 1(N01) , ŠITA~a1 
 6.a. [...] , [...] X 
 6.b. 1(N01) , ŠITA~a1 
-7. |ZATU659x1(N01)|# , [...] U₂~b A 
-8. |ZATU659x1(N01)| , ŠIDIM 
+7. |ZATU659×1(N01)|# , [...] U₂~b A 
+8. |ZATU659×1(N01)| , ŠIDIM 
 9. 2(N01) , MU |ZATU714×HI@g~a| 
-10. , KAŠ~a GAR |NI~a.RU| |U₄x1(N57)|# 
+10. , KAŠ~a GAR |NI~a.RU| |U₄×1(N57)|# 
 @reverse 
 @column 1 
 1. [...] 1(N01)# , [...] X 
 2. [...] 2(N01)# , [...] ŠITA~a1 
-3. , |U₄x1(N57)|# KAŠ~a GAR [|NI~a.RU|] 
+3. , |U₄×1(N57)|# KAŠ~a GAR [|NI~a.RU|] 
 @column 2 
 1.a. 2(N42~a) 1(N25) , 
 1.b1. 1(N42~a) , PA~a GIR₃@g~b# 
@@ -69946,11 +69946,11 @@ $ blank space
 1.b3B. 2(N42~a) , 
 1.b4A. [...] , [...] KAŠ~a# 
 1.b4B. 1(N25) , ME~a 
-2.a. |ZATU659x1(N01)|#? , |KU₆~a+KU₆~a| MU 
+2.a. |ZATU659×1(N01)|#? , |KU₆~a+KU₆~a| MU 
 2.b. 5(N08) , SUHUR# 
 2.c. , MAŠ |(SUKUD+SUKUD)~b| 
 3. 1(N01) , UDU~a |U₄.(1(N14).5(N08))| GAL~a [ŠAB~a] 
-4. 1(N01) , UDU~a |U₄x1(N01)| DI#? [GIR₃@g~b?] 
+4. 1(N01) , UDU~a |U₄×1(N01)| DI#? [GIR₃@g~b?] 
  
 
 
@@ -69973,10 +69973,10 @@ $ blank space
 3.a. [...] , [...] 
 3.b. [...] , [...] 
 3.c. [...] , ŠITA~a1# 
-4.a. 1(N01) , |ZATU659x1(N01)| SAG# 
+4.a. 1(N01) , |ZATU659×1(N01)| SAG# 
 4.b. [...] , KAŠ~a#? 
 4.c. 1(N01)# , ŠITA~a1 
-5.a. 1(N01) , |ZATU659x1(N01)|# 3(N57)# PAP~a# NIN 
+5.a. 1(N01) , |ZATU659×1(N01)|# 3(N57)# PAP~a# NIN 
 5.b. 1(N01) , ŠITA~a1 
 6.a. [...] , [...] 
 6.b. 1(N01) , ŠITA~a1# 
@@ -69984,13 +69984,13 @@ $ blank space
 1. 2(N01)# [...] , [...] 
 2. [...] , [...] 
 3. 1(N08) , [...] 
-4. 1(N01) , |ZATU659x1(N01)|# [...] 
+4. 1(N01) , |ZATU659×1(N01)|# [...] 
 @reverse 
 @column 1 
 1. 1(N14) 2(N01) , GAR 
 2. 3(N01) , KAŠ~a# [...] 
 3. 1(N14) 5(N01) , ŠITA~a1#? [...] 
-4. 1(N01) , |U₄x1(N57)| AB~a GAR 
+4. 1(N01) , |U₄×1(N57)| AB~a GAR 
 @column 2 
 1. [...] 1(N24)# , ŠE~a# [...] 
 @surface X 
@@ -70010,7 +70010,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. , |ZATU659x1(N01)| U₂~b A 
+1.a. , |ZATU659×1(N01)| U₂~b A 
 1.b. 1(N01) , ŠITA~a1 
 2. 1(N01) , MU# [...] 
  
@@ -70134,7 +70134,7 @@ $ blank space
 1.a. [...] 3(N14)# 3(N01)# , X KAŠ~b#? [...] 
 1.b1. 1(N14) 2(N01) , BA 
 1.b2. 2(N14) 1(N01) , 3(N57) SAL GI# 
-2. [...] , [...] |U₄x2(N01).X|# X [...] 
+2. [...] , [...] |U₄×2(N01).X|# X [...] 
  
 
 
@@ -70163,7 +70163,7 @@ $ blank space
 2.a. 2(N01) , ZATU797 
 2.b. 2(N01) , SI₄~d 
 3. 1(N01) , DUG~a ŠE~a 
-4.a. 4(N14) 1(N01) , UDU~a |U₄x6(N57)|#? 
+4.a. 4(N14) 1(N01) , UDU~a |U₄×6(N57)|#? 
 4.b. 4(N01) , KISIM~a 
 @column 2 
 1. , KI BU~a# [...] 
@@ -70470,7 +70470,7 @@ $ (no linguistic content)
 @tablet 
 @obverse 
 @column 1 
-1. [...] , |DUG~cx1(N57)|# 
+1. [...] , |DUG~c×1(N57)|# 
 2. [...] , ŠU₂ 
 3. [...] , [...] 
 4. [...] , [...] X 
@@ -70500,7 +70500,7 @@ $ (no linguistic content)
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) , |DUG~cx1(N57)| 
+1. 1(N01) , |DUG~c×1(N57)| 
 2. 1(N01) , ŠU₂ 
 3. , [...] EN~a# 
 4. , [...] X 
@@ -70542,7 +70542,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N01) [...] , |DUG~cx1(N57)|# 
+1. 1(N01) [...] , |DUG~c×1(N57)|# 
 2. 4(N01)# [...] , [...] 
 3. 1(N01) , ZATU644~a# 
 4. , [...] SANGA~a# 
@@ -70755,7 +70755,7 @@ $ blank space
 4. , EN~a KID~a SANGA~a BA [...] 
 5. 4(N01) [...] , [...] 
 6. 5(N01)# [...] , [...] 
-7. , [...] X [|U₄x1(N57)|] GI 
+7. , [...] X [|U₄×1(N57)|] GI 
 @column 2 
 1. 3(N01)# [...] , [...] 
 2. 6(N01)# [...] , [...] 
@@ -70766,7 +70766,7 @@ $ blank space
 7. [...] 2(N01) , ME~a 
 8. [...] 2(N01) , [...] 
 9. [...] , [...] 
-10. , [... |U₄x2(N57)| GI] 
+10. , [... |U₄×2(N57)| GI] 
 @column 3 
 1. [...] , [...] E₂~a#? KALAM~a# 
 2. 6(N01) , SANGA~a |NI~a.RU| 
@@ -70776,18 +70776,18 @@ $ blank space
 5. 5(N01) , ME~a 
 6. 2(N01) , BAHAR₂~c 
 7. 8(N01) , EN~a GI 
-8. , [...] |U₄x3(N57)| GI# 
+8. , [...] |U₄×3(N57)| GI# 
 @column 4 
 1. , |NI~a.RU| AB~a 
 @reverse 
 @column 1 
-1.a. 2(N14) 2(N01) , |U₄x1(N57)| LAGAB~b DUR~b 
+1.a. 2(N14) 2(N01) , |U₄×1(N57)| LAGAB~b DUR~b 
 1.b1. 9(N01) , BA DUR~b 
 1.b2. 1(N14) 3(N01) , GI# 
-2.a. [3(N14)? 1(N01)?] , |U₄x2(N57)|# [LAGAB~b] DUR~b# 
+2.a. [3(N14)? 1(N01)?] , |U₄×2(N57)|# [LAGAB~b] DUR~b# 
 2.b1. 1(N14) 2(N01) , BA DUR~b 
 2.b2. 1(N14) 9(N01)#? , GI# 
-3.a. [3(N14) 1(N01)] , [|U₄x3(N57)| LAGAB~b DUR~b] 
+3.a. [3(N14) 1(N01)] , [|U₄×3(N57)| LAGAB~b DUR~b] 
 3.b1. 1(N14) 6(N01) , [BA DUR~b] 
 3.b2. 1(N14)# 5(N01)# , [GI ...] 
 4. [...] , [...] 
@@ -71244,10 +71244,10 @@ $ blank space
 2.a. [1(N01)] , |SAL.KUR~a|# [...] 
 2.b1. , (3(N57)# [...] X) 
 2.b2. , ([...] KU₃~a) 
-3.a. 1(N01) , KUR~a E₂~a ŠA |MUŠENx2(N57)|# 
+3.a. 1(N01) , KUR~a E₂~a ŠA |MUŠEN×2(N57)|# 
 3.b1. , (SI DUG~a#? X X) 
 3.b2. , ([...]) 
-4.a. 1(N01) , KUR~a# |MUŠENx2(N57)|# [...] 
+4.a. 1(N01) , KUR~a# |MUŠEN×2(N57)|# [...] 
 4.b1. 1(N14) , UDU~a# 
 4.b2. 1(N01) , [...] 
 4.b3. , (AMA~a# ERIM~a MUŠEN MAŠ) 
@@ -71262,7 +71262,7 @@ $ blank space
 8.a. [1(N01)] , [...] X 
 8.b. , ([...] X) 
 9.a. [1(N01)] , SAL AL# TUR [...] 
-9.b1. , (AN |MUŠENx2(N57)| GAR# X ŠA#) 
+9.b1. , (AN |MUŠEN×2(N57)| GAR# X ŠA#) 
 9.b2. , ([...]) 
 @column 2 
 1.a. 1(N01) , KUR~a# EN~a# TI# E₂~a# 
@@ -71331,7 +71331,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. 1(N01) , |SAG×MA| |SAL.KUR~a| ŠA E₂~a |MUŠENx2(N57)| 
+1.a. 1(N01) , |SAG×MA| |SAL.KUR~a| ŠA E₂~a |MUŠEN×2(N57)| 
 1.b1. , (ZATU751~a ERIM~a#) 
 1.b2. , ([...]) 
 2.a. 1(N01)# , |SAG×MA| X ŠA# [...] 
@@ -71340,11 +71340,11 @@ $ blank space
 3.a. 1(N01) , |SAG×MA| ŠA MUŠEN E₂~a [...] 
 3.b1. , (SI MA EN~a X) 
 3.b2. , (|GI×KU~b1| BAR) 
-4.a. 1(N01) , |SAG×MA| KUR~a ŠA |MUŠENx2(N57)| E₂~a 
+4.a. 1(N01) , |SAG×MA| KUR~a ŠA |MUŠEN×2(N57)| E₂~a 
 4.b1. 1(N14) , UDU~a 
 4.b2. 1(N01) , KIŠ KUR~a 
 4.b3. , (AMA~a MUŠEN MAŠ ERIM~a) 
-5.a. 1(N01) , |SAG×MA| GEŠTU~c5 |MUŠENx2(N57)| GI ŠA E₂~a AMA~a 
+5.a. 1(N01) , |SAG×MA| GEŠTU~c5 |MUŠEN×2(N57)| GI ŠA E₂~a AMA~a 
 5.b. , (SAG ERIM~a TAK₄~a NI~a MUŠ₃~a UR₂ DUR₂) 
 @column 2 
 1.a. [1(N01)] , [...] KUR~a# PIRIG~b1# ERIM~a 
@@ -71364,7 +71364,7 @@ $ blank space
 1.a. 2(N01) , |SAG×MA| |SAL.KUR~a| AL 
 1.b. , ([...] X DU) 
 2.a. 1(N01)# , TUR# PAP~a SAL NI~a AL [...] 
-2.b. , (AN GAR# |MUŠENx2(N57)| ŠA) SAL 
+2.b. , (AN GAR# |MUŠEN×2(N57)| ŠA) SAL 
 3.a. 1(N01) , KUR~a PAP~a EN~a |ŠU₂.E₂~a| 
 3.b. , (SAL AMA~a MUŠEN MAŠ |GI×KU~b1|? KI) 
 4.a. 1(N01)# , |SAL.KUR~a|# EN~a |ŠU₂.E₂~a| 
@@ -71828,7 +71828,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] , [...] 
-2. , |U₄x1(N57)|? 
+2. , |U₄×1(N57)|? 
 3. , U₂~b X 
 4. , X X 
 5. , UB DU NUNUZ~c 
@@ -72001,7 +72001,7 @@ $ blank space
 1.b1. 3(N36) 1(N46) 8(N19) 2(N04) , U₄ 
 1.b2. 2(N36) 2(N45) 4(N19) 4(N04) , GI 
 1.b3. 2(N46) 2(N19) 1(N04) , KA~a NAM~c 
-2.a. 1(N34)# , ŠE~a |E₂~bx1(N57)@t|#? ŠUBUR 
+2.a. 1(N34)# , ŠE~a |E₂~b×1(N57)@t|#? ŠUBUR 
 2.b. 1(N36) 1(N46) 5(N19) , KA~a NAM~c 
 @column 2 
 1.a. 6(N14) , KALAM~b PA~a PAP~a 
@@ -72163,8 +72163,8 @@ $ blank space
 @column 1 
 1. , |U₄.1(N08)| DU KAR₂~a NUN~a 
 2. , |U₄.1(N08)| U₄ KI 
-3. , |U₄.1(N08)| EN~a KASKAL DU |GA₂~a2x(GU₄.ŠE₃)|# 
-4. , |U₄.1(N08)| SAG |GA₂~a2x(GU₄.ŠE₃)| 
+3. , |U₄.1(N08)| EN~a KASKAL DU |GA₂~a2×(GU₄.ŠE₃)|# 
+4. , |U₄.1(N08)| SAG |GA₂~a2×(GU₄.ŠE₃)| 
 5. , |U₄.5(N08)| MU TAR~a ŠU 
  
 
@@ -72258,7 +72258,7 @@ $ blank space
 7. 3(N01) , GAL~a ŠEN~b 
 8. 2(N14) , ŠEN~b TUR 
 9. 3(N14) , ŠEN~c@t 
-10. , |U₄.3(N08)| GIŠIMMAR~b1 UNUG~a SI |U₄x1(N58)@t| 
+10. , |U₄.3(N08)| GIŠIMMAR~b1 UNUG~a SI |U₄×1(N58)@t| 
 @column 2 
 1. 2(N01) , GAL~a ŠEN~b 
 2. 1(N14) , ŠEN~b TUR 
@@ -72269,12 +72269,12 @@ $ blank space
 7. 5(N01) , GAL~a ŠEN~b 
 8. 1(N14) , ŠEN~b TUR 
 9. 2(N14) , ŠEN~c@t 
-10. , |GIx1(N58)@t| KISAL~b1 
+10. , |GI×1(N58)@t| KISAL~b1 
 @column 3 
 1. 5(N01) , GAL~a ŠEN~b 
 2. 3(N14) 5(N01) , ŠEN~b TUR 
 3. 1(N34) , ŠEN~c@t 
-4. , |GIx1(N58)@t| AB~a 
+4. , |GI×1(N58)@t| AB~a 
 5. 1(N34) , ŠEN~c@t GAL~a SANGA~a SANGA~a 
 6. 1(N14) , ŠEN~b TUR KU₃~a APIN~a 
 7. 1(N34) 2(N14) 8(N01) , ŠEN~c@t |U₄.2(N08)| AN MUŠ₃~a SIG NAGAR~a EZEN~b 
@@ -72309,10 +72309,10 @@ $ blank space
 @column 1 
 1. 3(N40) 1(N24~a) , MUD 3(N57) TE 
 2. 1(N03) , E₂~a U₄ KASKAL 
-3. 1(N03) 1(N40) 1(N24~a) , |GA₂~a2x(GU₄.ŠE₃)| ŠU BU~a 
+3. 1(N03) 1(N40) 1(N24~a) , |GA₂~a2×(GU₄.ŠE₃)| ŠU BU~a 
 4. 2(N40) 1(N24~a) , EN~a SANGA~a TUR 1(N58) ŠIM~a 
 @column 2 
-1. 1(N03) 2(N40) 1(N24~a) , |GA₂~a2x(GU₄.ŠE₃)| SAGŠU 
+1. 1(N03) 2(N40) 1(N24~a) , |GA₂~a2×(GU₄.ŠE₃)| SAGŠU 
 2.a. 1(N18) 4(N03) , 
 2.b1. , KAŠ~c 
 2.b2. , KAŠ~c SUKKAL 
@@ -72326,7 +72326,7 @@ $ blank space
 @column 1 
 1. 2(N14) , ŠE~a BULUG₃ |KUR~a.E₂~a|? 
 2. 3(N18) , GU₇ 
-3. , SAGŠU |GA₂~a2x(GU₄.ŠE₃)| 
+3. , SAGŠU |GA₂~a2×(GU₄.ŠE₃)| 
 @column 2 
 1. , GU₇ 
  
@@ -72358,7 +72358,7 @@ $ blank space
 1. 1(N40) 1(N24~a) , UR₂ GIŠ 
 2. 2(N40) 1(N24~a) , GURUŠ~a E₂~a 
 3. 4(N40) , MUŠ₃~a SAL KU₃~a 
-4. 2(N40) 1(N24~a) , ŠUBUR |E₂~ax1(N57)@t| 
+4. 2(N40) 1(N24~a) , ŠUBUR |E₂~a×1(N57)@t| 
 @column 2 
 1. 3(N40) 1(N24~a) , AN BA 
 2. 3(N03) , MUD AN TE 
@@ -72423,7 +72423,7 @@ $ blank space
 @obverse 
 @column 1 
 1. 1(N03)# , [...] SUKKAL# PAP~a# GI 
-2. 1(N03) , |E₂~ax1(N57)@t| ŠUBUR 
+2. 1(N03) , |E₂~a×1(N57)@t| ŠUBUR 
 @column 2 
 1. 3(N03)# , EN~a RU [...] 
 2. , GU₇ 
@@ -72452,7 +72452,7 @@ $ blank space
 2. 1(N03) , SUKKAL ZI~a 
 3. 3(N40) , GI₆ NI~a BU~a 
 4. 1(N03) 3(N40) , PA~a |1(N58).BAD~a| 
-5. 1(N03) , |E₂~ax1(N57)@t| ŠUBUR 
+5. 1(N03) , |E₂~a×1(N57)@t| ŠUBUR 
 6. 1(N03) , ZABALAM~a 
 @column 3 
 1. 1(N03)# 2(N40) 1(N24~a) , SAG KA~a UR₄~b SAL# ZABALAM~a 
@@ -72530,17 +72530,17 @@ $ blank space
 3. 1(N03) 3(N40) , PAP~a IB~a 
 4. 1(N03) , SAR~a# GU₄# BA# NANŠE~b# SAL 
 5. 1(N03) , NA~a NI~a# 
-6. 1(N03)# , |NINDA₂x(AN.HI)| SAG 
+6. 1(N03)# , |NINDA₂×(AN.HI)| SAG 
 @column 2 
 1. 1(N03) , UTUL~a DUB~a SANGA~a 
 2. 2(N03) , X SAR~a# NANŠE~b# SAL GU₄ 
 3. [...] , GAN₂# NA~a# NI~a 
 4. 1(N03)# , NA~a# NI~a# [...] X 
-5. 1(N03)# , |NINDA₂x(AN.HI)|# SAG# 
+5. 1(N03)# , |NINDA₂×(AN.HI)|# SAG# 
 6. 2(N03)# , [...] DA~a#? 
 7. 1(N03) , 3(N57) AMA~a MA 
 @column 3 
-1.a1. 1(N03)# , |U₄x2(N57)|# 
+1.a1. 1(N03)# , |U₄×2(N57)|# 
 1.a2. , EN~a |ŠU₂.E₂~a| 
 1.a3. 1(N03) , LAGAB~b#? E₂~a SAGŠU 
 1.b. , MUŠEN TUR BU~a SANGA~a 
@@ -72660,7 +72660,7 @@ $ blank space
 2.a. 1(N14) , ŠU UR₅~a 
 2.b. [3(N39~a)] , X TAR~a 
 3. 1(N01) 1(N39~a) , UDU~a ŠE~a 
-4. 1(N01) 1(N24) , NESAG₂~b AB~a |U₄x1(N01)| 
+4. 1(N01) 1(N24) , NESAG₂~b AB~a |U₄×1(N01)| 
 @column 2 
 1. [1(N01)?] , [...] 
 2. , [...] ŠE~a GU₇ 
@@ -72721,7 +72721,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 3(N48) 1(N34) 6(N14) 1(N01) 1(N39~a) , |U₄x(3(N14).7(N01))| ŠE~a DUB~a |LAGAB~b×LAGAB~b| (KU~b1 ŠIM~a) ŠAM₂ 
+1. 3(N48) 1(N34) 6(N14) 1(N01) 1(N39~a) , |U₄×(3(N14).7(N01))| ŠE~a DUB~a |LAGAB~b×LAGAB~b| (KU~b1 ŠIM~a) ŠAM₂ 
 #tr.en: 5617 1/5 N1’s, exchange barley, 37 months, Kushim’s final account. 
 # ca. 135,000 liters 
 @reverse 
@@ -72793,7 +72793,7 @@ $ blank space
 4. , |KUR~a.E₂~a|# [...] 
 @column 2 
 1. , 
-2. , |U₄x3(N57)| 
+2. , |U₄×3(N57)| 
  
 
 
@@ -72948,12 +72948,12 @@ $ blank space
 1.b2. 1(N46) 1(N19) , 
 1.c1A. 2(N45) , ŠE~a U₄ GIBIL 
 1.c1B. 4(N19) , 
-1.c2A. 1(N45) , ŠE~a# |U₄x2(N57)| 
+1.c2A. 1(N45) , ŠE~a# |U₄×2(N57)| 
 1.c2B. 7(N19) , 
 2.a1. 2(N14) , SI ME~a E₂~a 
 2.a2. 1(N14) , NA~a MUD BU~a 
 2.a3. 2(N14) , NI~a# SA~c# UB 
-2.b1. 2(N14) 3(N01) , |MUŠENx2(N57)| PAP~a 
+2.b1. 2(N14) 3(N01) , |MUŠEN×2(N57)| PAP~a 
 2.b2. 2(N14) , TI@t GIR₃~c 
 2.b3. 2(N14) , EN~a AB~a PAP~a 
  
@@ -73358,7 +73358,7 @@ $ blank space
 1. 2(N45)# [...] , [...] 
 2. 5(N14) , AB~a# TE# 
 3. 2(N14) , KUR~a TE 
-4. , |U₄x1(N57)| 
+4. , |U₄×1(N57)| 
 5. , SI₄~f BA 
 @reverse 
 @column 1 
@@ -73468,7 +73468,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 1(N34)# , SI₄~f SAL SAG 
-2. 7(N14) , KAŠ~c |MUŠENx2(N57)| 
+2. 7(N14) , KAŠ~c |MUŠEN×2(N57)| 
 @column 2 
 1. [...] , [...] 
 @reverse 
@@ -73513,7 +73513,7 @@ $ blank space
 8. 1(N14) 3(N01) 4(N39~a) , ŠAM₂# RU A GI# 
 @column 2 
 1. 1(N14) 3(N01) , ERIN 
-2. 1(N14) , ZATU809 |MUŠENx2(N57)| |MUŠENx2(N57)| 
+2. 1(N14) , ZATU809 |MUŠEN×2(N57)| |MUŠEN×2(N57)| 
 3. 1(N14) , PAP~a IB~a 
 4. 4(N01) , SAGŠU SI₄~f# 
 5. 1(N01) , SU~a |3(N57).PIRIG~b1| SAL 
@@ -74066,23 +74066,23 @@ $ (no linguistic content)
 @tablet 
 @obverse 
 @column 1 
-1.a1. 2(N45) 6(N14) , |U₄x1(N57)| ŠE~a NE~a DA~a ŠA₃~a2 ZATU757 
+1.a1. 2(N45) 6(N14) , |U₄×1(N57)| ŠE~a NE~a DA~a ŠA₃~a2 ZATU757 
 1.a2. , EN~a ŠU 
 1.b1. 2(N19) , 
-1.b2. 1(N14) , |HIx1(N57)| GI₆ 
-2. 1(N45) 9(N14) , |U₄x2(N57)| ŠE~a ŠA₃~a2 ZATU756 GAN₂ 
-3.a. 1(N45) 5(N14) , |U₄x3(N57)| X [...] 
+1.b2. 1(N14) , |HI×1(N57)| GI₆ 
+2. 1(N45) 9(N14) , |U₄×2(N57)| ŠE~a ŠA₃~a2 ZATU756 GAN₂ 
+3.a. 1(N45) 5(N14) , |U₄×3(N57)| X [...] 
 3.b1. 8(N14) , ZATU756 
 3.b2. 4(N14)# [...] , [...] 
-4. [8(N14)?] , [|U₄x4(N57)| ...] 
+4. [8(N14)?] , [|U₄×4(N57)| ...] 
 @column 2 
-1. 6(N14) , |U₄x5(N57)| ŠE~a EN~a KI ME~a UR₂ RAD~a KU₆~a 
-2. 8(N14) , |U₄x6(N57)|# ŠUBUR AB₂ 
-3. 4(N14) 3(N19) , |U₄x7(N57)| MAR~a MUŠEN ZATU756 
-4. 2(N45) 1(N14) , |U₄x8(N57)| ŠE~a [...] 
+1. 6(N14) , |U₄×5(N57)| ŠE~a EN~a KI ME~a UR₂ RAD~a KU₆~a 
+2. 8(N14) , |U₄×6(N57)|# ŠUBUR AB₂ 
+3. 4(N14) 3(N19) , |U₄×7(N57)| MAR~a MUŠEN ZATU756 
+4. 2(N45) 1(N14) , |U₄×8(N57)| ŠE~a [...] 
 @reverse 
 @column 1 
-1. 3(N34) 2(N45) , |U₄x8(N57)| ŠE~a |SAL.ŠU₂| KU₆~a# GU₇ 
+1. 3(N34) 2(N45) , |U₄×8(N57)| ŠE~a |SAL.ŠU₂| KU₆~a# GU₇ 
  
 
 
@@ -74094,14 +74094,14 @@ $ (no linguistic content)
 @tablet 
 @obverse 
 @column 1 
-1. 2(N45)# 8(N14) , GAN₂ |U₄x1(N57)| A GURUŠ~a#? NAM₂# RAD~a [...] 
+1. 2(N45)# 8(N14) , GAN₂ |U₄×1(N57)| A GURUŠ~a#? NAM₂# RAD~a [...] 
 2. 1(N45)# 7(N14)# , [...] X 
 3. [2(N45)] 2(N14)#? , [...] 
 4. 8(N14)# , X [...] 
 5. 5(N14)# , [...] SANGA~a# X 
 6. 5(N14)# , [...] EN~a RAD~a KI UR₂ 
 @column 2 
-1. 1(N45) 8(N19)# [...] , |U₄x7(N57)|# AN X [...] 
+1. 1(N45) 8(N19)# [...] , |U₄×7(N57)|# AN X [...] 
 2. 9(N14) , 8(N57) KU₆~a# RAD~a# UR₂ 
 3. , TUM~c SAL 
 @reverse 
@@ -74300,7 +74300,7 @@ $ blank space
 @column 1 
 1.a. [...] , X X [...] 
 1.b. [...] 5(N01)# , [...] 
-2.a. , |U₄x2(N01)| 
+2.a. , |U₄×2(N01)| 
 2.b. 1(N14) , U₄ X 
 2.c. 1(N14) 5(N01) , SUHUR ŠA₃~a2# EN~a 
  
@@ -74772,7 +74772,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. 4(N14)# , |U₄x(2(N14).4(N01))| GAR ŠE~a 
+1.a. 4(N14)# , |U₄×(2(N14).4(N01))| GAR ŠE~a 
 #tr.en: 4N14 grain in 24 months: GAR(-rations), 
 # 4N14 = 720N30 
 # calculation: 24 x 30 = 720 days, 1N30 each day 
@@ -74832,7 +74832,7 @@ $ blank space
 3.b. 5(N01)# [...] , [...] 
 @column 2 
 1.a. [...] 1(N14)#? , SAR~a# [...] 
-2.a1. 1(N01) , |GURUŠ~cx2(N14)| 
+2.a1. 1(N01) , |GURUŠ~c×2(N14)| 
 2.a2. 1(N01) , GU₄ 
 2.b. [...] , [...] TUR 
 3.a. 7(N14) , ŠE~a [...] 
@@ -75174,7 +75174,7 @@ $ blank space
 2. [...] , [...] BU~a# SUKKAL 
 3. 1(N01) , GAL~a SIG₇ 
 4. 1(N01) , AMA~a 
-5. 1(N01) , |E₂~ax1(N57)@t| 
+5. 1(N01) , |E₂~a×1(N57)@t| 
 6. , |SAR~a×ŠE~a| ZATU659 NE~a# GIŠIMMAR~a3 AN 
 @reverse 
 1. [...] , [...] X AN# 
@@ -75496,7 +75496,7 @@ $ blank space
 @column 2 
 1. [...] , [...] 
 2. 1(N08)# , BAHAR₂~c# 
-3. , |ZATU659x1(N01)| MU 
+3. , |ZATU659×1(N01)| MU 
 4.a. 1(N01) , 4(N57) GAR 
 4.b1. , MU 
 4.b2. , E₂~b? 
@@ -75507,10 +75507,10 @@ $ blank space
 1. , [...] MAR~a AN GAR 
 @reverse 
 @column 1 
-1. 1(N14) 1(N01) 1(N08) , |ZATU659x1(N01)| ŠU ZATU659# 
-2. 1(N08)# , |ZATU659x1(N01)|# EN~a# ZATU659# 
+1. 1(N14) 1(N01) 1(N08) , |ZATU659×1(N01)| ŠU ZATU659# 
+2. 1(N08)# , |ZATU659×1(N01)|# EN~a# ZATU659# 
 @column 2 
-1. 1(N14) 2(N01)# , GAR MAR~a AN# |U₄x1(N57)| 
+1. 1(N14) 2(N01)# , GAR MAR~a AN# |U₄×1(N57)| 
  
 
 
@@ -75612,7 +75612,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 8(N14)#? 3(N01)# , [...] KISAL~b1#? [...] 
-2. 2(N47) 1(N20) , |EZEN~ax(HI.1(N57).AN)| 
+2. 2(N47) 1(N20) , |EZEN~a×(HI.1(N57).AN)| 
 3. 1(N47)# 3(N20) 3(N05) , ŠE~a# DI X 
 @column 2 
 1. , [...] AN MAR~a UR₅~a [...] 
@@ -75773,7 +75773,7 @@ $ blank space
 @column 2 
 1.a. 2(N34)# , |DUG~a×U₂~a|# 
 1.b. 5(N20)# 1(N05) 1(N42~a) , 
-2.a. 3(N34)# , |DUG~ax1(N57)| 
+2.a. 3(N34)# , |DUG~a×1(N57)| 
 2.b. 6(N20) , 
 3.a. 5(N34) , KAŠ~a 
 3.b. 3(N20) 2(N05) , 
@@ -75814,7 +75814,7 @@ $ blank space
 5.a. 1(N01) , MAR~a PAP~a SAL 
 5.b1. , GURUŠDA 
 5.b2. , |SILA₃~a×ŠU₂| 
-6.a. 1(N01) , DA~a |MUŠENx2(N57)| 
+6.a. 1(N01) , DA~a |MUŠEN×2(N57)| 
 6.b1. , BAHAR₂~c 
 6.b2. , KID~b# 
 7. , ŠIM~a SAG@n 
@@ -75823,7 +75823,7 @@ $ blank space
 1.b1. , ZAG~a 
 1.b2. , KIŠ# PAP~a 
 2.a. 1(N01) , DIM~a 
-2.b1. , PAP~a |MUŠENx2(N57)| 
+2.b1. , PAP~a |MUŠEN×2(N57)| 
 2.b2. , ZATU752 AN# MAR~a 
 3.a. 1(N01) , TUM~c 
 3.b1. , AN MAR~a |(SUKUD+SUKUD)~b| 
@@ -75898,7 +75898,7 @@ $ blank space
 1.a1. 1(N14) 7(N01) , 
 1.a2. 1(N01) KU₃~a , 
 1.a3. 1(N02) , 
-1.b. , ŠAKIR~c ZATU752 GI |U₄x2(N57)|#? 
+1.b. , ŠAKIR~c ZATU752 GI |U₄×2(N57)|#? 
 2. , PAD~a U₄ PAP~a 
 @column 2 
 1. , SANGA~a ZATU753 
@@ -75916,8 +75916,8 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] 2(N51)# , [...] KU₆~a# 
-2. 2(N01)# , |LAGAB~ax(KU₆~a+KU₆~a)| 
-3. 1(N01) , |GA₂~a1x(KU₆~a.KU₆~a)| 
+2. 2(N01)# , |LAGAB~a×(KU₆~a+KU₆~a)| 
+3. 1(N01) , |GA₂~a1×(KU₆~a.KU₆~a)| 
 4. 4(N14)# 3(N01) , UZU? 
 5. 1(N01)# , ŠAKIR~a ŠUBUR 
 @column 2 
@@ -76067,7 +76067,7 @@ $ (no legend)
 2. 1(N01)# , DUR₂#? A# 
 3. 1(N01)# , NE~a# BAR# 
 4. 1(N01)# , NIM~a# ERIM~a# 
-5. 1(N01)# , BU~a# |MUŠENx3(N57)|# GI# 
+5. 1(N01)# , BU~a# |MUŠEN×3(N57)|# GI# 
 6. 1(N01)# , SAGŠU#? MUŠEN# 
 @column 2 
 1. 1(N01)# , MA#? NA~a# 
@@ -76322,7 +76322,7 @@ $ blank space
 4. 5(N01)# [...] , ME~a X [...] 
 $ ([...]) 
 @column 2 
-1. 5(N01) , ZATU718 E₂~a |U₄x1(N57)| AMAR 
+1. 5(N01) , ZATU718 E₂~a |U₄×1(N57)| AMAR 
 2. 5(N01) , KALAM~b PAP~a 
 3. 5(N01) , U₂~b SAG 
 4. 5(N01)# , [...] 
@@ -76383,7 +76383,7 @@ $ ([...])
 2.b7. , (PAP~a SAL DAR~a) 
 2.b8. , (KID~e NUN~a EN~a) 
 2.b9. , (|MAH~b×NA~a|) 
-3.a. 7(N01) , |U₄x2(N57)| TUR 
+3.a. 7(N01) , |U₄×2(N57)| TUR 
 3.b1. , (ŠU₂ SAL) 
 3.b2. , (ŠUR₂~b) 
 3.b3. , (TI SU~a EN~a) 
@@ -76391,10 +76391,10 @@ $ ([...])
 3.b5. , (|GIŠ×ŠU₂~a| EN~a) 
 3.b6. , (SI E₂~a ME~a) 
 3.b7. , (3(N57) SAL) 
-4.a. 2(N01) , |U₄x1(N57)| TUR 
+4.a. 2(N01) , |U₄×1(N57)| TUR 
 4.b1. , (BU~a GI) 
 4.b2. , (PAP~a HAL) 
-5.a. 1(N14) 2(N01) , |U₄x3(N57)| TUR 
+5.a. 1(N14) 2(N01) , |U₄×3(N57)| TUR 
 5.b01. , (SIG₇ MUŠEN) 
 5.b02. , (EN~a U₂~b DU) 
 5.b03. , (ZATU659) 
@@ -76423,15 +76423,15 @@ $ ([...])
 2.a. 2(N01) , EN~a TUR 
 2.b1. , (BAHAR₂~a BU~a) 
 2.b2. , (BU~a DU) 
-3.a. 3(N01) , |U₄x1(N57)| TUR 
+3.a. 3(N01) , |U₄×1(N57)| TUR 
 3.b1. , (GA₂~a1 EN~a GU) 
 3.b2. , (ŠU₂ BU~a) 
 3.b3. , (1(N57) A NE~a) 
-4.a. 3(N01) , |U₄x2(N57)| TUR 
+4.a. 3(N01) , |U₄×2(N57)| TUR 
 4.b1. , (|GI&GI&GI| EN~a) 
 4.b2. , (NU |(UDU~a×TAR)~a|) 
 4.b3. , (EN~a ŠITA@g~a AB~a) 
-5.a. 4(N01) , |U₄x3(N57)| TUR 
+5.a. 4(N01) , |U₄×3(N57)| TUR 
 5.b1. , (3(N57) DUR₂ |BU~a+DU₆~a|) 
 5.b2. , (EN~a A) 
 5.b3. , (GUL SAG) 
@@ -76441,9 +76441,9 @@ $ ([...])
 @column 1 
 1. 4(N14) 3(N01) , AL 
 2. 1(N14) 1(N01) , EN~a TUR 
-3. 5(N01) , |U₄x1(N57)| TUR 
-4. 1(N14) , |U₄x2(N57)| TUR 
-5. 1(N14) 6(N01) , |U₄x3(N57)| TUR 
+3. 5(N01) , |U₄×1(N57)| TUR 
+4. 1(N14) , |U₄×2(N57)| TUR 
+5. 1(N14) 6(N01) , |U₄×3(N57)| TUR 
 @column 2 
 1. 1(N34) 2(N14) 5(N01) , 1(N57) 2(N57) MUN~a1 SU~a PAP~a |1(N58).BAD~a| SI AN AD~a GIR~a 
 @seal 1 
@@ -77146,7 +77146,7 @@ $ blank space
 1.b. 1(N19)# 3(N04)# 1(N41) 1(N24) , TAR~a 
 2. 3(N04) , SAL TUR₃~a 
 3. 1(N19) , SAL ZATU788 AN NUNUZ~a1 
-4. 3(N19) , |U₄x(1(N14).1(N01))|#? KAŠ~b AB~a 
+4. 3(N19) , |U₄×(1(N14).1(N01))|#? KAŠ~b AB~a 
 5. 1(N04) , |1(N57).ŠUBUR|# TUR₃~a ME~a 
 6. 2(N04) , SANGA~a# SANGA~a# ZATU788 AN NUNUZ~a1 
 7. 3(N04) , SAL ZATU788 AN NUNUZ~a1 
@@ -77191,7 +77191,7 @@ $ blank space
 1.a. 2(N05) 3(N42~a) , HI@g~a |(U₄+1(N14)).3(N08)| 
 1.b1. 1(N05) 2(N42~a) , BA# U₄ GAR 
 1.b2a. 2(N42~a) , BA KU~b2 ŠIM~a# 
-1.b2b. 4(N42~a)# , |U₄x1(N57)| 
+1.b2b. 4(N42~a)# , |U₄×1(N57)| 
 2.a. 4(N05) 2(N42~a) 1(N25) , ŠE~a 2(N57) 
 2.b. 1(N05) , BA 
 2.c. 2(N42~a) 1(N28~c) , TAR~a 
@@ -77202,7 +77202,7 @@ $ blank space
 1.b. 2(N39~a) 1(N29~a) 
 $ blank 
 @column 2 
-1.a. 3(N14)# 2(N39~a)# 1(N24)# , ŠE~a |U₄x1(N01)| 
+1.a. 3(N14)# 2(N39~a)# 1(N24)# , ŠE~a |U₄×1(N01)| 
 1.b. 3(N39~a) , TAR~a 1(N30~c) 
 2.a. 1(N20) 3(N05) , HI@g~a 
 2.b. 1(N42~a) 1(N25) , TAR~a 
@@ -77262,7 +77262,7 @@ $ blank
 5. 4(N14) , EN~a ABGAL 
 6. 1(N34) 2(N14) [...] 
 7. 1(N34) [...] KASKAL 
-8. 4(N14) [...] |U₄x1(N57)| 
+8. 4(N14) [...] |U₄×1(N57)| 
 9. 2(N34) [...] X E~a 
 10. 1(N14) , ME~a [...] 
 11. [...] , [...] 
@@ -77415,7 +77415,7 @@ $ blank
 3. 1(N45) 2(N57) , ŠE~a# 
 4. , NIN# GU₇# 
 @column 2 
-1. 4(N14) , |U₄x2(N57)| KI# AN# [...] 
+1. 4(N14) , |U₄×2(N57)| KI# AN# [...] 
 2. 2(N14) , MUD SAL AMA~a 
 3. 2(N46) 5(N19)# , [...] ZATU628~a 
 4. 5(N14)# [...] , ZATU850#? 
@@ -77511,15 +77511,15 @@ $ blank
 @column 1 
 1. 1(N14) 3(N01) , MUN~a1 
 2. 2(N01) , NINDA₂ 
-3. 5(N01)# , |U₄x2(N57)|# 
-4. 2(N01) , |U₄x1(N57)| KUR~a AMAR 
+3. 5(N01)# , |U₄×2(N57)|# 
+4. 2(N01) , |U₄×1(N57)| KUR~a AMAR 
 @column 2 
 1. 6(N01)# [SAL] 
 2. 2(N01) , KIŠ#? 
 3. 1(N14) 7(N01) , ŠA₃~a1 
-4. 7(N01) , |U₄x3(N57)| 
-5. 8(N01) , |U₄x2(N57)| 
-6. 4(N01) , |U₄x1(N57)| SAL AMAR 
+4. 7(N01) , |U₄×3(N57)| 
+5. 8(N01) , |U₄×2(N57)| 
+6. 4(N01) , |U₄×1(N57)| SAL AMAR 
 @column 3 
 1. 1(N14) , UDU~a 
 @reverse 
@@ -77612,14 +77612,14 @@ $ blank
 1. 1(N14) 1(N01) , MUN~a1# 
 2. 4(N01) , BAR 
 3. 3(N01) , NINDA₂# 
-4. 4(N01)# , |U₄x3(N57)|# 
-5. 3(N01)# , |U₄x1(N57)|# , KUR~a# AMAR# 
+4. 4(N01)# , |U₄×3(N57)|# 
+5. 3(N01)# , |U₄×1(N57)|# , KUR~a# AMAR# 
 @column 2 
 1. 4(N01) , SAL 
 2. 2(N14) 4(N01) , ŠA₃~a1 
-3. 5(N01) , |U₄x3(N57)| 
-4. 3(N01)# , |U₄x2(N57)|# 
-5. 1(N14)# , SAL AMAR# |U₄x1(N57)|# 
+3. 5(N01) , |U₄×3(N57)| 
+4. 3(N01)# , |U₄×2(N57)|# 
+5. 1(N14)# , SAL AMAR# |U₄×1(N57)|# 
 @column 3 
 1. [...] 
 2. [... UDU~a] 
@@ -77768,7 +77768,7 @@ $ blank space
 1.b1. 2(N05) 2(N42~a) , HI@g~a# 
 1.b2. 1(N14) 1(N01) 1(N29~a) , ŠE~a 
 2. 5(N03) , 
-3. , |U₄x2(N01)| GU₇ [...] 
+3. , |U₄×2(N01)| GU₇ [...] 
 @column 2 
 $ blank space 
 @column 3 
@@ -77854,7 +77854,7 @@ $ blank space
 1. 1(N01)# , GAL~a# SANGA~a SANGA~a 
 2. 1(N01)# , EN~a# NUN~a GIR₃@g~b 
 3. , NE~a ME~a KI# 
-4. 1(N01)# , |E₂~ax1(N57)@t|# NAB# DI 
+4. 1(N01)# , |E₂~a×1(N57)@t|# NAB# DI 
 5. 1(N01) , AN# ŠE₃# E₂~a#? 
 6. 1(N01) , NAM₂# KI# RU# A [...] 
 @reverse 
@@ -77862,7 +77862,7 @@ $ blank space
 1. 1(N14) , ME~a KI NE~a# 
 2. 3(N01) , RU# A# 
 @column 2 
-1. 1(N14) 3(N01)# , DU KI# BU~a GI |E₂~ax1(N57)@t|#? PA~a KU₃~a A GIŠ₃~b 
+1. 1(N14) 3(N01)# , DU KI# BU~a GI |E₂~a×1(N57)@t|#? PA~a KU₃~a A GIŠ₃~b 
  
 
 
@@ -77875,7 +77875,7 @@ $ blank space
 @column 1 
 1. 2(N01) , E₂~a#? 
 2. 2(N01) , ŠITA~b1# DUG~a 
-3. 1(N01) , |DUG~ax1(N57)| 
+3. 1(N01) , |DUG~a×1(N57)| 
 4. , AB~a 
 5. 2(N01) , ŠITA~b1 DUG~a 
 6. 1(N01)# , ERIN#? MUŠ₃~a# 
@@ -77887,9 +77887,9 @@ $ blank space
 4. , KAŠ~a U₄ 
 @column 3 
 1. 1(N01) , KISAL~b1# EZEN~b 
-2. 2(N01) , |E₂~ax1(N57)@t| 
+2. 2(N01) , |E₂~a×1(N57)@t| 
 3. 3(N01) , SUHUR DUG~a 
-4. 2(N01) , |DUG~ax1(N57)|? 
+4. 2(N01) , |DUG~a×1(N57)|? 
 5. 2(N01) , SI 
 6. 1(N01) , X 
 7. 1(N01)# , AB~a 
@@ -77927,12 +77927,12 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1.a. 2(N01) 4(N39~a)# , |U₄x2(N01)| KU₆~a UR₂ [RAD~a?] 
+1.a. 2(N01) 4(N39~a)# , |U₄×2(N01)| KU₆~a UR₂ [RAD~a?] 
 1.b1. 2(N39~a) 1(N26)# , |U₄.6(N08)| 
-1.b2. 2(N01) 2(N39~a) |U₄x2(N01)| 1(N29~a) , |U₄+1(N24)|#? 
-2. 4(N39~a)# 1(N29~a) , |U₄x4(N01)| EZEN~b |U₄+1(N24)| [BAR] 
+1.b2. 2(N01) 2(N39~a) |U₄×2(N01)| 1(N29~a) , |U₄+1(N24)|#? 
+2. 4(N39~a)# 1(N29~a) , |U₄×4(N01)| EZEN~b |U₄+1(N24)| [BAR] 
 3. 2(N14) 3(N01) , EN~a# NAGA~a#? 
-4. 2(N14)# , |U₄x1(N01)+1(N24)|# , EZEN~b [BAR ...] 
+4. 2(N14)# , |U₄×1(N01)+1(N24)|# , EZEN~b [BAR ...] 
 5. 1(N01)# 3(N39~a) 1(N30~b) , [...] NIN 
 6. [...] 1(N29~a) , 
 7. 1(N01)# 3(N39~a) , GU₇# 
@@ -77961,7 +77961,7 @@ $ blank space
 5. 2(N01) 2(N39~a) , EN~a BU~a ŠE~a 
 6. 1(N24) , DU# UR~a 
 7. 3(N39~a)# , ŠU GAN₂#? APIN~a 
-8. 4(N41) 2(N29~a)? , |U₄x(1(N01).1(N24))| |U₄x4(N01)| BAR EZEN~b 
+8. 4(N41) 2(N29~a)? , |U₄×(1(N01).1(N24))| |U₄×4(N01)| BAR EZEN~b 
 9. 3(N04) 1(N41) 1(N24~b) , GU₇#? 
 10. [...] , [...] 
 @column 4 
@@ -77985,7 +77985,7 @@ $ blank space
 1.b1. 8(N14)# 2(N01)# 4(N39~a)# 1(N29~a)# 1(N30~a)# , ŠE~a 
 1.b2. 1(N46) 4(N41) 1(N26~b) 1(N28~b) 1(N30~c)? , 
 1.b3. 1(N19) 4(N04) , LAGAB~b TE 
-2. , SANGA~a GAL~a SANGA~a |U₄x4(N01)| GU₇ 
+2. , SANGA~a GAL~a SANGA~a |U₄×4(N01)| GU₇ 
 3. , ZI~a UB 
 4. , ŠAM₂ KU₆~a KISAL~b1 
  
@@ -78639,9 +78639,9 @@ $ (not given)
 1. 1(N14) 2(N01)# , ZATU686~b SAL KIŠ 
 2. 1(N01)# [...] KIŠ# 
 3. [...] KUR~a# KIŠ# 
-4. 2(N01)# , KIŠ |U₄x3(N57)| KUR~a# 
+4. 2(N01)# , KIŠ |U₄×3(N57)| KUR~a# 
 @column 2 
-1. 1(N14)# , KIŠ |U₄x2(N57)| KUR~a# 
+1. 1(N14)# , KIŠ |U₄×2(N57)| KUR~a# 
 2. , MUŠEN KU₆~a RAD~a 
 3. 2(N01)# , SAL KIŠ GAL~a 
 4. 2(N01)# , KUR~a# KIŠ SI#? 
@@ -78751,7 +78751,7 @@ $ (not given)
 2. 1(N01) , DANNA DA~a TUR 
 3. 1(N01) , KISIM~a ZATU694~c 
 @column 2 
-1. 1(N01) , NIN KI#? |U₄x1(N01)| 
+1. 1(N01) , NIN KI#? |U₄×1(N01)| 
 2. 1(N01) , NIN KI U₄ 
 3. [...] , [...] 
 @reverse 
@@ -78791,26 +78791,26 @@ $ (not given)
 1. [...] 
 2.a. [...] , [...] X 
 2.b. [...] PAP~a 3(N57) , AMAR 
-2.c1. 1(N01) , [|U₄x1(N57)|] TUR# 
+2.c1. 1(N01) , [|U₄×1(N57)|] TUR# 
 2.c2. , E₂~a E₂~a BU~a 
 2.d1. [1(N01)] SAL# 
 2.d2. , AN ZI~a 
 3.a. 2(N01)# , X X 
 3.b. , ŠEG₉ ZATU773~a 
-3.c1. 1(N01) , |U₄x1(N57)| TUR 
+3.c1. 1(N01) , |U₄×1(N57)| TUR 
 3.c2. , X NA₂~b1 
 3.d1. 1(N01) , SAL 
 3.d2. , NU SIG₂~b 
 4.a. 2(N01)# , UMUN₂ X 1(N57) MUŠEN 
 4.b. , NIM~b1 X 
-4.c1. 1(N01) , |U₄x1(N57)| TUR 
+4.c1. 1(N01) , |U₄×1(N57)| TUR 
 4.c2. 3(N57) , NUNUZ~a1 
 4.d1. 1(N01) , SAL 
 4.d2. , DIM~a 
 5.a. [...] , [...] 
 5.b1. , URU~a1#? URU~a1#? 
 5.b2. [...] X KI#? 
-5.c. 1(N01) , |U₄x1(N57)| TUR 
+5.c. 1(N01) , |U₄×1(N57)| TUR 
 5.d. , EN~a# X BU~a# 
 6. [...] 
 @column 2 
@@ -79002,29 +79002,29 @@ $ broken
 #atf: lang qpc 
 @tablet 
 @obverse 
-1.a. 8(N01)# , GAR |U₄x2(N57)| AB~a 
-1.b. 1(N28) , |U₄x1(N57)| ŠE~a 
+1.a. 8(N01)# , GAR |U₄×2(N57)| AB~a 
+1.b. 1(N28) , |U₄×1(N57)| ŠE~a 
 1.c. 2(N39~a) 1(N24) , |U₄.1(N14)| ŠE~a 
 1.d1. 1(N01)# [...] , [...] ŠE~a 
 1.d2. 4(N14)# , X [...] 
-2.a. 1(N14) , |U₄x1(N01)| |LAGAB~a×ŠITA~a1| PAP~a#? 
-2.b. 1(N24) , |U₄x1(N57)| 
-2.c. 1(N04) 1(N01) 1(N41) 1(N39~a) , |U₄x(1(N14).2(N01))|# [...] 
-3.a. 1(N01) , X |U₄x1(N01)|? GUG₂#? 
-3.b. 2(N41) 2(N29A~b) , |U₄x(1(N14).2(N01))| 
-4.a. 5(N01)#? , |U₄x1(N01)|#? X 
-4.b1. 2(N39~a) 1(N24) , |U₄x1(N01)| 
+2.a. 1(N14) , |U₄×1(N01)| |LAGAB~a×ŠITA~a1| PAP~a#? 
+2.b. 1(N24) , |U₄×1(N57)| 
+2.c. 1(N04) 1(N01) 1(N41) 1(N39~a) , |U₄×(1(N14).2(N01))|# [...] 
+3.a. 1(N01) , X |U₄×1(N01)|? GUG₂#? 
+3.b. 2(N41) 2(N29A~b) , |U₄×(1(N14).2(N01))| 
+4.a. 5(N01)#? , |U₄×1(N01)|#? X 
+4.b1. 2(N39~a) 1(N24) , |U₄×1(N01)| 
 4.b2. 1(N28)#? , ŠE~a# BULUG₃#? [...] 
-4.c. 1(N14) 1(N01) 1(N39~a) , |U₄x(1(N14).2(N01))| 
+4.c. 1(N14) 1(N01) 1(N39~a) , |U₄×(1(N14).2(N01))| 
 @reverse 
-1.a. X? 1(N28)# , |U₄x1(N57)|# ŠE~a 
-1.b. 2(N01)# 1(N24)# , |U₄x1(N01)|# 
-1.c. 4(N14)# 1(N01) 1(N39~a) , |U₄x(1(N14).2(N01))|# ŠE~a# 
+1.a. X? 1(N28)# , |U₄×1(N57)|# ŠE~a 
+1.b. 2(N01)# 1(N24)# , |U₄×1(N01)|# 
+1.c. 4(N14)# 1(N01) 1(N39~a) , |U₄×(1(N14).2(N01))|# ŠE~a# 
 1.d. [...] 2(N01)#? [...] , ŠE~a# TAR~a 1(N30~e) 
-2.a. 1(N41) , |U₄x1(N01)| 
-2.b. 2(N04)# 4(N41)# 2(N29~a)# , |U₄x(1(N14).2(N01))| 
+2.a. 1(N41) , |U₄×1(N01)| 
+2.b. 2(N04)# 4(N41)# 2(N29~a)# , |U₄×(1(N14).2(N01))| 
 2.c. 1(N41) 1(N39~a) 1(N24~b) 1(N29A~b)# 1(N30~a)# [...] , [...] 
-3. 5(N14)# 1(N04) 1(N24) 1(N26) 1(N31)#? , ŠE~a# |U₄x(1(N14).2(N01))|# 
+3. 5(N14)# 1(N04) 1(N24) 1(N26) 1(N31)#? , ŠE~a# |U₄×(1(N14).2(N01))|# 
 4. KAŠ~b DA~a AN AB~a |GI&GI|#? BAR#? 
  
 
@@ -79264,23 +79264,23 @@ $ blank space
 6. 2(N14) 1(N01) 1(N39~a) ME~a SIG BU~a GI 
 7. 3(N14) , KUR~a UR₅~a 
 8. 8(N14) [...] 
-9. , GAN₂ |URU~a1x3(N57)| 
+9. , GAN₂ |URU~a1×3(N57)| 
 @column 2 
 1. 4(N14) , HI SIG₂~a1? 
 2. 2(N01) , [...] KUR~a E₂~a 
 3. 9(N14) 5(N01) 3(N39~a) , ŠU TUR 
 4. 1(N14) , EN~a DU# PAP~a# 
 5. 1(N14) 3(N57) , |EN₂.E₂~b| 
-6. 1(N14) , GAN₂# |URU~a1x3(N57)| UR₅~a 
+6. 1(N14) , GAN₂# |URU~a1×3(N57)| UR₅~a 
 7. , TI@t LAM~b 
 @column 3 
 1. 2(N46)# [...] KI 
 2. 2(N19)# [...] X 
 3. 2(N19)# , UR₅~a 
-4. , |URU~a1x3(N57)| GAN₂ 
+4. , |URU~a1×3(N57)| GAN₂ 
 @reverse 
 @column 1 
-1.a. 1(N34) 1(N45) 6(N14) 4(N01) , GAN₂ |URU~a1x3(N57)| ŠE~a 
+1.a. 1(N34) 1(N45) 6(N14) 4(N01) , GAN₂ |URU~a1×3(N57)| ŠE~a 
 1.b1. 1(N34) 1(N45) 1(N14) 1(N39~a) , SAG 
 1.b2. 6(N14) 3(N01) 4(N39~a) , BA KI 
 2.a. 2(N45) 5(N14) 2(N01) 4(N39~a) , TI@t LAM~b 
@@ -79366,10 +79366,10 @@ $ beginning broken
 1. [...] 
 @reverse 
 @column 1 
-1. 2(N14) , EN~a |AB~ax(ŠE~a&ŠE~a)| |AB~ax1(N04)| 
-2. 1(N14) 3(N01) , ŠU |AB~ax(ŠE~a&ŠE~a)| |AB~ax1(N04)|# 
+1. 2(N14) , EN~a |AB~a×(ŠE~a&ŠE~a)| |AB~a×1(N04)| 
+2. 1(N14) 3(N01) , ŠU |AB~a×(ŠE~a&ŠE~a)| |AB~a×1(N04)|# 
 @column 2 
-1. 3(N14)# [3(N01)] , |AB~ax(ŠE~a&ŠE~a)|# [|AB~ax1(N04)|] 
+1. 3(N14)# [3(N01)] , |AB~a×(ŠE~a&ŠE~a)|# [|AB~a×1(N04)|] 
 
 
 
@@ -79384,7 +79384,7 @@ $ beginning broken
 1. 8(N01) , AM~b 
 2. 3(N01) , ZATU703 
 3. 2(N01) , TAK₄~a RU? [...] 
-4. 2(N01) , |U₄x1(N57)| 
+4. 2(N01) , |U₄×1(N57)| 
 5. 4(N01) , PAP~a 3(N57) 
 6. 2(N01) , KU~b2 ŠE~a@t 
 7. 3(N01) , IB~a ADAB 
@@ -79797,15 +79797,15 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 1(N28~c) , ŠE~a |U₄x1(N57)| KAŠ~b 
-2.a. 1(N01) 3(N39~a) 1(N29~a) 1(N16) , |U₄x1(N01)| KAŠ~b 
+1. 1(N28~c) , ŠE~a |U₄×1(N57)| KAŠ~b 
+2.a. 1(N01) 3(N39~a) 1(N29~a) 1(N16) , |U₄×1(N01)| KAŠ~b 
 # calculation: 7.5 + .75N39 = 8.25N39 
 2.b1. 1(N01) 2(N39~a) 1(N24) , UR₅~a 
 # calculation: 30N28 = 7.5N39 
 2.b2. 1(N24) 1(N29~a) 1(N16) , TAR~a 
 # calculation: 7.5N39 ÷ 10 = .75N39 
 # N16 = 1/20N39 
-3. 1(N14) 2(N01) 1(N39~a) 1(N24) , |U₄x5(N01)| KAŠ~b 
+3. 1(N14) 2(N01) 1(N39~a) 1(N24) , |U₄×5(N01)| KAŠ~b 
 # calculation: 8.25N39 × 5 = 41.25N49 (text: 41.5 ?) 
 4. AB~a KAŠ~b 
 @reverse 
@@ -79877,12 +79877,12 @@ $ blank space
 1. 2(N14) , ŠE~a AN NUNUZ~a1 ZATU788 
 2. 3(N01) , ŠE~a TA~c UNUG~a HI 
 3. 3(N04) , AB~a KAŠ~b 
-4. 1(N41)# 1(N28) , |U₄x2(N01)| 
+4. 1(N41)# 1(N28) , |U₄×2(N01)| 
 5. , X 
 @column 2 
 1. 2(N19) , AN NUNUZ~a1 ZATU788 
 2. 3(N04)# , TA~c UNUG~a HI 
-3. 2(N41) , |U₄x1(N01)| AB~a 
+3. 2(N41) , |U₄×1(N01)| AB~a 
 4. , 1(N04) GU₇ 
 @reverse 
 $ blank 
@@ -79960,7 +79960,7 @@ $ blank space
 1.a. [...] , [...] 
 1.b1. 2(N01) 1(N30~c) , HI@g~a 
 1.b2. [...] , [...] 
-2. URU~a1 ŠAM₂ AB~a# |U₄x1(N01)| GU₇ BULUG₃ 
+2. URU~a1 ŠAM₂ AB~a# |U₄×1(N01)| GU₇ BULUG₃ 
 @column 2 
 1. ŠAM₂# GU₇ 
  
@@ -79996,7 +79996,7 @@ $ blank space
 4. 3(N14) , UDU~a 
 5. 1(N01) , SUHUR 
 6. 1(N52) 
-7. 1(N01) , |DUG~cx1(N57)| 
+7. 1(N01) , |DUG~c×1(N57)| 
 8. 8(N01)# , [ŠU₂] 
 9. [1(N01) , ZATU644~a] 
 10. 2(N01) , ZATU753 
@@ -80508,7 +80508,7 @@ $ blank
 @tablet 
 @obverse 
 @column 1 
-1. 5(N57) , SANGA~a# |U₄x3(N57)| 
+1. 5(N57) , SANGA~a# |U₄×3(N57)| 
 @column 2 
 1. , KU₆~a KISAL~b1 
 2. MUŠEN# E₂~a 
@@ -80550,9 +80550,9 @@ $ blank
 @column 1 
 1. 9(N01) , SAL 
 2. 1(N14) 2(N01) , KUR~a 
-3. 1(N01) , |U₄x2(N57)| SAL 
-4. 2(N01) , KUR~a |U₄x2(N57)| 
-5. 2(N01) , AMAR KUR~a |U₄x1(N57)| 
+3. 1(N01) , |U₄×2(N57)| SAL 
+4. 2(N01) , KUR~a |U₄×2(N57)| 
+5. 2(N01) , AMAR KUR~a |U₄×1(N57)| 
 @column 2 
 1. NAGA~a 
 @reverse 
@@ -80780,7 +80780,7 @@ $ blank
 @obverse 
 @column 1 
 1. 1(N14) , |LAGAB~a×ŠA|# |LAGAB~a×ŠITA~a1| 
-2. 2(N01) , |DUG~bx1(N58)| 
+2. 2(N01) , |DUG~b×1(N58)| 
 3. 2(N01) , ŠEN~a# 
 4. 1(N01) , DUG~a# 
 5. 1(N01)# 1(N26) , DU₆~a 
@@ -81194,7 +81194,7 @@ $ broken
 @tablet 
 @obverse 
 @column 1 
-1. 4(N01) , ŠE~a |U₄x2(N57)| 
+1. 4(N01) , ŠE~a |U₄×2(N57)| 
 2. 1(N14) , ŠE~a RU 
 3. 1(N14) , ŠE~a 
 4. 2(N14) , ŠE~a NUMUN BU~a 
@@ -81554,7 +81554,7 @@ $ blank space
 @obverse 
 @column 1 
 1. [...] , [...] 
-2. [...] 1(N14) , |HIx1(N57)|# NE~a 
+2. [...] 1(N14) , |HI×1(N57)|# NE~a 
 3. [...] 1(N42~a) 1(N25) 1(N28~c) 1(N30~a) , 1(N57) HI@g~a 
 4. [...] 1(N28) , MAR~a 
 5.a. 4(N14) 8(N01) , GAR U₄ 
@@ -81588,7 +81588,7 @@ $ blank
 @column 2 
 1. 6(N01) [...] 
 2. 1(N14) 1(N01) , X 
-3. GU₇ NAGA~a |U₄x1(N01)| SANGA~a SANGA~a GAL~a 
+3. GU₇ NAGA~a |U₄×1(N01)| SANGA~a SANGA~a GAL~a 
 @reverse 
 @column 1 
 1.a. 3(N39~a)# 1(N24) 1(N28) 
@@ -81666,7 +81666,7 @@ $ rest of column broken
 @column 2 
 1. [...] , DUG~a# [...] 
 2. [...] , DUG~a BA 
-3. 1(N01) , |E₂~ax1(N57)@t| 
+3. 1(N01) , |E₂~a×1(N57)@t| 
 4. 1(N01) , DUG~a X 
 5. [...] , BA 
 6. 2(N01) , [...] SIG₇ 
@@ -81683,7 +81683,7 @@ $ rest of column broken
 @column 2 
 1. [...] 1(N14) 1(N38) , ABGAL# 
 2. 1(N01) , TAK₄~a NUNUZ~c 
-3. 1(N01) , |E₂~ax1(N57)@t| 
+3. 1(N01) , |E₂~a×1(N57)@t| 
 4. 1(N01) , DUG~a 
 5. 1(N39~a) , SANGA~a SANGA~a GAL~a 
 6. 1(N01) , E₂~a ABGAL 
@@ -81868,7 +81868,7 @@ $ blank
 @column 1 
 1.a. 1(N34) 1(N14) 2(N01) , LAGAB~b ŠE₃ U₈ 
 1.b1. 5(N14) 7(N01) , U₈ DUB~a 
-1.b2. 1(N14) 5(N01)# , |U₄x1(N57)| BAR 
+1.b2. 1(N14) 5(N01)# , |U₄×1(N57)| BAR 
 2. ZATU752 |BU~a+DU₆~a| ŠU |GIŠ×ŠU₂~a| 
 @column 2 
 1. 5(N14) 1(N01) , DA~a PA~a 
@@ -81932,13 +81932,13 @@ $ blank
 @column 1 
 1. 1(N14) , MUN~a1 
 2. 1(N01) , DUB~b 
-3. 3(N01) , |U₄x2(N57)| 
-4. 3(N01) , |U₄x1(N57)| AMAR 
+3. 3(N01) , |U₄×2(N57)| 
+4. 3(N01) , |U₄×1(N57)| AMAR 
 @column 2 
 1. 6(N01) , SAL 
 2. 5(N01) , ŠA₃~a2 
-3. 4(N01) , |U₄x2(N57)| 
-4. 3(N01) , |U₄x1(N57)| AMAR MUN~a1 
+3. 4(N01) , |U₄×2(N57)| 
+4. 3(N01) , |U₄×1(N57)| AMAR MUN~a1 
 @column 3 
 1. 1(N14) 5(N01) , UDU~a 
 @reverse 
@@ -82055,7 +82055,7 @@ $ blank
 @reverse 
 @column 1 
 1. 2(N14) 4(N01) 3(N19) 1(N04) , ŠE~a GU₇ 
-2.a. , |U₄x3(N57)| 
+2.a. , |U₄×3(N57)| 
 2.b. , NIN 
 2.c. , UNUG~a 
 3. , GAL~b EZEN~c 
@@ -82150,7 +82150,7 @@ $ blank
 1. 1(N01)# , U₈ 
 2. 3(N01)# , [ŠE₃] UDUNITA~a 
 3. 4(N01) , KU~b1 UR~b 
-4. 1(N01) , |E₂~ax1(N57)@t| 
+4. 1(N01) , |E₂~a×1(N57)@t| 
 5. 1(N01) , ZATU675~d 
 6. 1(N14) , ZATU659 NAGA~a# 
 7. 1(N01) , GI 
@@ -82176,7 +82176,7 @@ $ blank
 9. 1(N01) , NIN# GU₇ 
 10. 1(N01) , GIŠIMMAR~a1 AB~a ŠUM 
 11. 1(N01) , GIŠIMMAR~a1 |BU~a+DU₆~a| 
-12. 1(N01)# , |E₂~ax1(N57)@t| 
+12. 1(N01)# , |E₂~a×1(N57)@t| 
 @column 3 
 1. [...] , [...] 
 2. [...] , [...] 
@@ -82285,9 +82285,9 @@ $ blank
 @column 2 
 1. 5(N01) , SAL 
 2. 1(N01) , ŠA₃~a2 
-3. [2(N01)] , |U₄x3(N57)| 
-4. 2(N01) , |U₄x2(N57)| 
-5. 5(N01) , AMAR |U₄x1(N57)| 
+3. [2(N01)] , |U₄×3(N57)| 
+4. 2(N01) , |U₄×2(N57)| 
+5. 5(N01) , AMAR |U₄×1(N57)| 
 @reverse 
 @column 1 
 1. 1(N14) 8(N01) , KIŠ NAM₂ ERIN 
@@ -82356,7 +82356,7 @@ $ blank
 1. [...] 1(N30~c) 
 2. 1(N01) , |DUG~b×HI| 
 3. 1(N30~c) , 2(N57)# SAL KU₃~a 
-4. 1(N24) , |HIx1(N57)| 
+4. 1(N24) , |HI×1(N57)| 
 5. 1(N39~a) , TI@t GUG₂ 
 6. 1(N30~c) , PIRIG~b1 
 7. 1(N30~a) , [...] 
@@ -82577,7 +82577,7 @@ $ blank
 1.b2. 2(N14) 3(N01) , UNUG~a 
 1.c. [...] 1(N14)# [...] 4(N01)# , BU~a GI# BU~a 
 2. 2(N01) , GIŠ@t# E₂~a 
-3. 6(N01) , |DUG~bx(UDU~a×TAR~b)| 
+3. 6(N01) , |DUG~b×(UDU~a×TAR~b)| 
 4. 6(N01) , KID~b 
 @column 2 
 1. 1(N14) 7(N01) , MA 
@@ -82650,7 +82650,7 @@ $ blank
 @tablet 
 @obverse 
 @column 1 
-1. 5(N01) , LAGAB~b |DUG~ax1(N57)| X 
+1. 5(N01) , LAGAB~b |DUG~a×1(N57)| X 
 @reverse 
 $ blank 
  
@@ -82683,7 +82683,7 @@ $ blank
 @column 1 
 $ beginning of column broken 
 1'. [...] , X ZATU707~a 
-2'. 2(N01)# , |E₂~ax1(N57)@t| 
+2'. 2(N01)# , |E₂~a×1(N57)@t| 
 3'. [...] , [...] 
 @column 2 
 1'. [...] , [...] 
@@ -82707,7 +82707,7 @@ $ beginning of column broken
 3. [...] , [...] 
 @column 2 
 1. 2(N18) 4(N03) 1(N30~c) 
-2. 1(N39~a) 1(N24) 1(N28) , |HIx1(N57)| GU~a 
+2. 1(N39~a) 1(N24) 1(N28) , |HI×1(N57)| GU~a 
 3. [...] , [...] 
 @reverse 
 $ blank 
@@ -82843,14 +82843,14 @@ $ blank
 @obverse 
 @column 1 
 1. [1(N15)] 8(N02)# , [...] 
-2. 5(N02) , |U₄x3(N57)| 
-3. 2(N02) , |U₄x2(N57)| 
-4. 6(N02)# , |U₄x1(N57)| 
+2. 5(N02) , |U₄×3(N57)| 
+3. 2(N02) , |U₄×2(N57)| 
+4. 6(N02)# , |U₄×1(N57)| 
 @column 2 
 1. 2(N02) , DUB~b 
 2. 1(N15) , MUN~a1 
 3. 6(N02)# , [...] 
-4. 3(N02) , |U₄x1(N57)| 
+4. 3(N02) , |U₄×1(N57)| 
 @reverse 
 @column 1 
 1. 5(N15)# 2(N02)# , KIŠ PAP~a 
@@ -83037,13 +83037,13 @@ $ blank
 3.a. 1(N45) 3(N14) 3(N01)# , ŠE~a SI ME~a 
 3.b. 2(N14) , ŠE~a 
 4.a. 2(N45) 8(N14) 2(N01) , PA~a ŠE~a 
-4.b1. 5(N01) GI₆ , |HIx1(N57)| 
+4.b1. 5(N01) GI₆ , |HI×1(N57)| 
 4.b2. 1(N14) , ŠE~a 
 5.a. 5(N14) , EN~a PA~a ZATU694~b 
 5.b. 1(N46) , 
 @reverse 
 @column 1 
-1. 2(N34) 2(N36) 6(N14) 3(N19) 2(N01) , GIBIL ŠE~a ŠAM₂ |U₄x2(N57)| NAM₂ 
+1. 2(N34) 2(N36) 6(N14) 3(N19) 2(N01) , GIBIL ŠE~a ŠAM₂ |U₄×2(N57)| NAM₂ 
 @column 2 
 1. 3(N34) 1(N14) 5(N01)# , ŠE~a 
 2. 2(N46) 2(N19) , 
@@ -83144,15 +83144,15 @@ $ blank
 @column 1 
 1.a. 1(N05) , TI~a 
 1.b. SANGA~a X MAR~a 
-2. 1(N05) , GAL~a# X |U₄x1(N57)|# [...] 
+2. 1(N05) , GAL~a# X |U₄×1(N57)|# [...] 
 3. 1(N05) , EN₂ 3(N57) [...] 
-4. 1(N05) , PA~a URU~a1 |EZEN~a×KAŠ~b| |U₄x4(N57)| 
-5.a. 1(N05) , |U₄x1(N57)|# GIŠ@t DU# EN₂ 3(N57) 
+4. 1(N05) , PA~a URU~a1 |EZEN~a×KAŠ~b| |U₄×4(N57)| 
+5.a. 1(N05) , |U₄×1(N57)|# GIŠ@t DU# EN₂ 3(N57) 
 5.b. LAL₂~a 
 6.a. 1(N05) , BA# 
 6.b. LU₂ 
 @column 2 
-1. GU₇# |EZEN~a×KAŠ~b|# |U₄x6(N57)|# 
+1. GU₇# |EZEN~a×KAŠ~b|# |U₄×6(N57)|# 
 @reverse 
 $ blank 
  
@@ -83250,7 +83250,7 @@ $ blank
 @column 3 
 1. 2(N39~a) , SUHUR BA 
 2. 2(N39~a) , SUHUR 5(N57) 
-3. |E₂~ax1(N57)@t| 5(N57) 
+3. |E₂~a×1(N57)@t| 5(N57) 
 @reverse 
 1.a. 1(N01) , BA SUHUR PAP~a SAL 
 1.b. 2(N01) , SUHUR 
@@ -83261,7 +83261,7 @@ $ blank
 5. 2(N01) , SAL SAGŠU 
 @column 2 
 1. 1(N01) , SUHUR 5(N57) 
-2. |E₂~ax1(N57)@t| 
+2. |E₂~a×1(N57)@t| 
  
 
 
@@ -83294,9 +83294,9 @@ $ blank
 @column 1 
 1.a. 1(N20) 1(N05) 3(N42~a) , ŠE~a 
 1.b1. 2(N05) [...] , BU~a 
-1.b2. 5(N05) 3(N42~a) , |E₂~ax1(N57)@t| I UB 
+1.b2. 5(N05) 3(N42~a) , |E₂~a×1(N57)@t| I UB 
 2. 1(N05) , HI@g~a 1(N38) 
-3. BA# |E₂~ax1(N57)@t| 
+3. BA# |E₂~a×1(N57)@t| 
 @reverse 
 $ blank 
  
@@ -83396,7 +83396,7 @@ $ blank
 4.b1. 1(N14) , ZATU628~a 
 4.b2. 4(N01) , SU~a 
 5. [2(N02)] , TA~c [SU₃] 
-6.a1. [1(N14) 1(N01)] , |U₄x1(N57)|# [BAR] 
+6.a1. [1(N14) 1(N01)] , |U₄×1(N57)|# [BAR] 
 6.a2. 6(N01) , MAŠ 
 @reverse 
 @column 1 
@@ -83406,7 +83406,7 @@ $ blank
 1.b3. 1(N14) 2(N01) , ZATU628~a 
 1.b4. 2(N14) , SU~a BA 
 1.b5. 2(N02) , TA~c SU₃ 
-1.b6. 1(N14) 1(N01) , |U₄x1(N57)| BAR 
+1.b6. 1(N14) 1(N01) , |U₄×1(N57)| BAR 
 2.a. 5(N14)# 8(N01) , E₂~a 
 2.b. 2(N14) 5(N01) , BA 
 2.c. 3(N14) 3(N01) , GI 
@@ -83710,7 +83710,7 @@ $ blank
 1. [1(N01)] , [...] KI 
 2. 1(N01)# , [...] X 
 3. 1(N01)# , [...] E₂~a 
-4. 1(N01)# , |E₂~ax1(N57)@t| 
+4. 1(N01)# , |E₂~a×1(N57)@t| 
 5. 1(N01)# , DU# KU₃~a 
 6. 1(N01)# , X 
 7. 1(N01)# , GIR₃@g~b 
@@ -84129,13 +84129,13 @@ $ blank
 3. [...] , X X 
 4. [...] , [...] 
 @column 3 
-1. AB~a |U₄x1(N01)| [...] 
+1. AB~a |U₄×1(N01)| [...] 
 @reverse 
 @column 1 
 1. [...] , [...] 
 2. [...] 1(N24) 1(N28) , |ZATU714×HI@g~a| 
 3. 1(N26) , NE~a KI 
-4. |U₄x1(N01)|# AB~a 
+4. |U₄×1(N01)|# AB~a 
 @column 2 
 1. AB~a SI₄~f GU₇ 
  
@@ -84927,7 +84927,7 @@ $ blank space
 4. [...] , [...] 
 @column 2 
 1. 2(N18) 4(N03) 1(N30~c) 
-2. 1(N39~a) 1(N24) 1(N28) , |HIx1(N57)| GU~a 
+2. 1(N39~a) 1(N24) 1(N28) , |HI×1(N57)| GU~a 
 3. [...] , [...] 
 @reverse 
 $ blank 
@@ -85027,7 +85027,7 @@ $ rest of column broken
 4.c1. 2(N42~a) 1(N24) , HI@g~a 
 4.c2. 2(N01) 1(N39~a) 
 4.c3. 3(N40) 
-5.a. 3(N01) , U₄ DUG~a |E₂~ax1(N57)@t| 
+5.a. 3(N01) , U₄ DUG~a |E₂~a×1(N57)@t| 
 5.b. 5(N01) , KAŠ~a GIŠ 
 5.c1. 3(N39~a) 
 5.c2. 2(N42~a) 3(N40) 
@@ -85073,7 +85073,7 @@ $ rest of column broken
 @column 1 
 1'. [...] , X 
 2'. 1(N01) , DUG~a# KI 
-3'. 2(N01) , |E₂~ax1(N57)@t| 
+3'. 2(N01) , |E₂~a×1(N57)@t| 
 4'. [...] , ZATU710 
 @reverse 
 @column 1 
@@ -85179,7 +85179,7 @@ $ blank
 @column 1 
 1.a. [...] , ŠE~a AN NUNUZ~a1 ZATU788 
 1.b. [...] 1(N01) , X 
-2.a. 1(N01)# , |U₄x1(N01)| 
+2.a. 1(N01)# , |U₄×1(N01)| 
 2.b. 2(N39~a) 1(N24)# , [...] 
 @reverse 
 @column 1 
@@ -85490,7 +85490,7 @@ $ blank
 @column 1 
 1. [...] , E₂~a 
 @column 2 
-1. [...] , X# |E₂~ax1(N57)@t| 
+1. [...] , X# |E₂~a×1(N57)@t| 
 2. 5(N01) , GAL~a |SILA₃~a×HI| E₂~a 
 3. 6(N01) , |SILA₃~a×HI| 
 4. 1(N01) , DUG~a KAŠ~a 
@@ -85530,7 +85530,7 @@ $ blank
 4. 2(N01) , PAP~a BU~a NAM₂ 
 5. 2(N01) , HAL ME~a 
 6. 2(N01) , NAR A 
-7. 2(N01) , |U₄x1(N57)| 
+7. 2(N01) , |U₄×1(N57)| 
 8. 1(N01) , 3(N57) A 
 9. 2(N01)# , SANGA~a SIG UDU~a 
 @column 3 
@@ -85539,7 +85539,7 @@ $ blank
 3. 2(N01) , ZATU633~b# 
 4. [...] TUR E₂~a 
 5. 2(N01) , I UB 
-6.a. 2(N01) , |U₄x1(N57)| 
+6.a. 2(N01) , |U₄×1(N57)| 
 6.b. , KIŠ 
 7. 2(N01) , |BU~a.DU₆~a| PAP~a 
 8. 2(N01) , EN~a PAP~a PAP@t 
@@ -85586,7 +85586,7 @@ $ blank
 1.a. 4(N14) 3(N04)# , ŠE~a GI 
 1.b1. 3(N14) , 
 1.b2. 1(N14) 3(N04) , 
-2. 8(N14) 2(N01) , ŠE~a NE~a |URU~a1x3(N57)| 
+2. 8(N14) 2(N01) , ŠE~a NE~a |URU~a1×3(N57)| 
 3. , GAN₂ SANGA~a E₂~a 
 4.a. 2(N14) 4(N01) , ŠE~a IŠ~b 
 4.b. 5(N14) , PAP~a 
@@ -85681,7 +85681,7 @@ $ (no linguistic content)
 @column 1 
 1. [...] , [...] ŠE~a 
 2. 3(N39~a) , GUG₂ 
-3. 1(N14) 1(N01) , |GAN~cx(4(N57).GAR)| 
+3. 1(N14) 1(N01) , |GAN~c×(4(N57).GAR)| 
 4. 1(N14) 6(N01) , |GAN~c×LAGAB~b| 
 @column 2 
 1. 2(N14) 3(N01) 3(N39~a) , [...] 
@@ -86181,7 +86181,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |ŠUR₂x1(N58)| |PIRIG~b1+DIN| 
+1. 1(N01) |ŠUR₂×1(N58)| |PIRIG~b1+DIN| 
 @reverse 
 $ blank space 
 
@@ -86194,7 +86194,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) , BU~a TUR |ŠUR₂x1(N58)| 
+1. 1(N01) , BU~a TUR |ŠUR₂×1(N58)| 
 @reverse 
 $ blank space 
 
@@ -86496,7 +86496,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01) , |E₂~ax1(N57)@t| 
+1. 2(N01) , |E₂~a×1(N57)@t| 
 @column 2 
 1. , E₂~a GAR 
 2. , MUŠEN TUR 
@@ -86512,10 +86512,10 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01) , |E₂~ax1(N57)@t| 
+1. 2(N01) , |E₂~a×1(N57)@t| 
 @column 2 
 1. |1(N57).BU₃| 
-2. |E₂~ax1(N57)@t| 
+2. |E₂~a×1(N57)@t| 
 @reverse 
 $ blank space 
  
@@ -86528,7 +86528,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 3(N01) , |E₂~ax1(N57)@t| 
+1. 3(N01) , |E₂~a×1(N57)@t| 
 @column 2 
 1. , BULUG₃ 
 2. , HI 
@@ -86939,7 +86939,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1.a. 2(N01) , |E₂~ax1(N57)@t| 
+1.a. 2(N01) , |E₂~a×1(N57)@t| 
 1.b1. , MAŠ 
 1.b2. , BA PIRIG~b1 
 2. , TUR₃~a 
@@ -86954,7 +86954,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1.a. 2(N01) , |E₂~ax1(N57)@t| 
+1.a. 2(N01) , |E₂~a×1(N57)@t| 
 1.b1. , |BU~a+KI| 
 1.b2. , KIŠIK~a 
 $ blank space 
@@ -87037,7 +87037,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |SAGx(UKKIN~bx1(N57))|
+1. 1(N01) |SAG×(UKKIN~b×1(N57))|
 # CUSAS 21 |SAGx(UKKIN~bxDIN)|? 
 @reverse 
 $ blank space 
@@ -87077,7 +87077,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |LAGAB~ax1(N58)| A KAŠ~b 
+1. 1(N01) |LAGAB~a×1(N58)| A KAŠ~b 
 @reverse 
 $ blank space 
 
@@ -87240,7 +87240,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 2(N01) |E₂~ax1(N57)@t| 
+1. 2(N01) |E₂~a×1(N57)@t| 
 @column 2 
 1. 3(N57) , HAL 
 2. , KAŠ~c |ŠE~a&ŠE~a| 
@@ -87256,7 +87256,7 @@ $ blank space
 @tablet 
 @obverse 
 @column 1 
-1. 4(N01) , |E₂~ax1(N57)@t| 
+1. 4(N01) , |E₂~a×1(N57)@t| 
 @column 2 
 1. , GI₄~a U₂~a 
 2. 3(N57) , A 
@@ -87354,7 +87354,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |ŠUR₂x1(N58)| PIRIG~b1 BULUG₃ 
+1. 1(N01) |ŠUR₂×1(N58)| PIRIG~b1 BULUG₃ 
 @reverse 
 $ blank space 
 
@@ -87421,7 +87421,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |U₄x1(N58)@t| 
+1. 1(N01) |U₄×1(N58)@t| 
 $ blank space 
 @reverse 
 $ blank space 
@@ -87612,7 +87612,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1.a. 2(N01) , |E₂~bx1(N57)@t| 
+1.a. 2(N01) , |E₂~b×1(N57)@t| 
 1.b1. , BULUG₃ 
 1.b2. , DILMUN 
 $ blank space 
@@ -87627,7 +87627,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01)# |E₂~bx1(N57)@t|#? 
+1. 1(N01)# |E₂~b×1(N57)@t|#? 
 $ blank space 
 @reverse 
 $ blank space 
@@ -87816,7 +87816,7 @@ $ blank space
 1. 1(N25) , [...] 
 2. 1(N42~a)# , [...] 
 3. 1(N25) , ZATU669 
-4. , EN~a DU PAP~a PA~a |SIx1(N58)| 
+4. , EN~a DU PAP~a PA~a |SI×1(N58)| 
 @column 3 
 1. 1(N20) , 
 2. 1(N42~a) 1(N25) , ŠE~a NE~a 
@@ -87933,7 +87933,7 @@ $ blank space
 2. 1(N01) , SAL BU~a 
 3. 1(N01) , PAP~a KIŠ 
 4. 1(N01) , LUGAL 
-5. 2(N01) , |U₄x3(N57)| 
+5. 2(N01) , |U₄×3(N57)| 
 @column 2 
 1. , E~a MAŠ GAN₂ E~a KISAL~b1 
 @reverse 
@@ -87998,7 +87998,7 @@ $ blank space
 @obverse 
 @column 1 
 1. 2(N01) , X NAR A 
-2. 2(N01) , |U₄x1(N57)| 
+2. 2(N01) , |U₄×1(N57)| 
 3. 2(N01) , MUD SI₄~f 
 4. 2(N01) , PAP~a BU~a NAM₂ 
 5. 2(N01) , URU~a1 BU~a PA~a 
@@ -88866,7 +88866,7 @@ $ blank space
 1.b1. 3(N01) , GA₂~a1 GAL~a 
 1b2a1. 1(N01) , GAL~a 
 1b2a2. 1(N01) , GA₂~a1 TUR 
-1b2b1. 1(N01) , |U₄x3(N57)| 
+1b2b1. 1(N01) , |U₄×3(N57)| 
 1b2b2. 1(N01) , X 
 1.c. , PIRIG~b1 IŠ~a 
 @column 2 
@@ -89292,7 +89292,7 @@ $ blank space
 1. 5(N01) , TAR~a IDIGNA# 
 2. 1(N42~a) 1(N25) , ZATU714 MU 
 3. 1(N29~a) DA~a ZATU714# 
-4. [...] ZATU714 MU |U₄x1(N01)| 
+4. [...] ZATU714 MU |U₄×1(N01)| 
 @reverse 
 $ blank space 
 
@@ -89316,7 +89316,7 @@ $ blank space
 6. [N?] 1(N39~a) NUMUN [...] 
 @column 2 
 1. 4(N01) , NUMUN ŠE~a ŠAB~b 
-2. 3(N39~a) AB~a |U₄x1(N01)| 
+2. 3(N39~a) AB~a |U₄×1(N01)| 
 3. 1(N28) , AN ERIN SAL ŠE~a 
 4. , ŠE~a GU₇ 
 @column 3 
@@ -89480,9 +89480,9 @@ $ blank space
 @column 1 
 1. [...] 
 2. [...] 1(N01)# , [...] 
-3. 2(N01)# , |U₄x3(N57)| 
-4. 3(N01)# , |U₄x2(N57)| 
-5. 1(N01) , |U₄x1(N57)| 
+3. 2(N01)# , |U₄×3(N57)| 
+4. 3(N01)# , |U₄×2(N57)| 
+5. 1(N01) , |U₄×1(N57)| 
 @column 2 
 1. [...] 
 2. [...] NE~a EN~a 
@@ -89857,7 +89857,7 @@ $ blank space
 @reverse 
 @column 1 
 1. [...] 
-2. 2(N01) , |U₄x2(N57)| 
+2. 2(N01) , |U₄×2(N57)| 
 3. [...] X 
 4. [...] BAR# 
 @column 2 
@@ -89952,8 +89952,8 @@ $ blank space
 @reverse 
 @column 1 
 1. [...] 
-2. 5(N01) , |U₄x3(N57)| 
-3. 4(N01) , |U₄x1(N57)| ZATU669 
+2. 5(N01) , |U₄×3(N57)| 
+3. 4(N01) , |U₄×1(N57)| ZATU669 
 @column 2 
 1. [...] 
 
@@ -90016,7 +90016,7 @@ $ broken
 @obverse 
 @column 1 
 1. [...] 
-2. 6(N01) , |U₄x2(N57)|# 
+2. 6(N01) , |U₄×2(N57)|# 
 @column 2 
 1. [...] 
 $ blank space 
@@ -90786,11 +90786,11 @@ $ blank space
 @column 4 
 1. 2(N01) , EN~a PA~a 
 2. 2(N01) , GA~a# 
-3. , MAŠ GAN₂ E~a |E₂~ax1(N57)@t| [...] 
+3. , MAŠ GAN₂ E~a |E₂~a×1(N57)@t| [...] 
 @reverse 
 1. , |SI×KU~b1|# 1(N14)# 2(N01)# , EN~a PAP~a PAP@t [...] E~a 
 2. 1(N14)# 5(N01)# , MAŠ GAN₂ MUŠ₃~a |ŠE~a.NAM₂| E~a 
-3. 4(N01) , MAŠ GAN₂ SIPA E₂~a E~b |E₂~ax1(N57)@t| 
+3. 4(N01) , MAŠ GAN₂ SIPA E₂~a E~b |E₂~a×1(N57)@t| 
 @column 2 
 1. 3(N14)# 1(N01)# , [...] E~b MAŠ GAN₂ |SI×KU~b1| SIPA# E~a KISAL~b1 
 
@@ -90938,7 +90938,7 @@ $ (not given)
 @column 2 
 1. 2(N01) , KIR₁₁ 
 2. 5(N01) , SILANITA 
-3. , |U₄x1(N57)| BAR 
+3. , |U₄×1(N57)| BAR 
 @column 3 
 1. 1(N14) 2(N01) , U₈ 
 2. 3(N01) , UDUNITA~a 
@@ -90950,7 +90950,7 @@ $ (not given)
 2. , |ŠE~a.NAM₂| 
 @column 2 
 1.a. 2(N14) , UDU~a LAGAB~b 
-1.b. 7(N01) , |U₄x1(N57)| BAR 
+1.b. 7(N01) , |U₄×1(N57)| BAR 
 1.c. 1(N01) 1(N08) , KISIM~a 
 2. , E~a ZATU752 
 
@@ -91037,7 +91037,7 @@ $ broken
 3. [...] 
 @column 2 
 1.a. 2(N14) 6(N01) , LAGAB~b UDU~a 
-1.b. 7(N01) , |U₄x1(N57)| BAR 
+1.b. 7(N01) , |U₄×1(N57)| BAR 
 2. 1(N01) 1(N08) , KISIM~a 
 3. , ŠEG₉ 
 
@@ -91122,14 +91122,14 @@ $ broken
 1. 2(N01) , U₈ 
 2. 3(N01) , UDUNITA~a 
 3. 1(N01) , UD₅~a 
-4. 4(N01) , MAŠ₂ |U₄x1(N57)|# 
+4. 4(N01) , MAŠ₂ |U₄×1(N57)|# 
 5. , GAL~a SAL E~a 
 @column 2 
 1. 1(N01) , U₈ 
 2. 4(N01) , UDUNITA~a 
 3.a. 5(N01) , MAŠ₂ 
-3.b1. 1(N01) , |U₄x3(N57)|# 
-3.b2. 4(N01) , |U₄x1(N57)|# 
+3.b1. 1(N01) , |U₄×3(N57)|# 
+3.b2. 4(N01) , |U₄×1(N57)|# 
 4. , |ŠE~a.NAM₂| 
 @reverse 
 @column 1 
@@ -91205,7 +91205,7 @@ $ broken
 3. 2(N01)# , MUD ZATU809# 
 4. 2(N01)# , |ŠU₂.PAP~a| 
 5. 2(N01)# , I# UB 
-6. 2(N01)# , |U₄x1(N57)| 
+6. 2(N01)# , |U₄×1(N57)| 
 7. 2(N01)# |3(N57).SI|# 
 8. 1(N01)# , AB~b ME~a E₂~a 
 9. 2(N01)# , KAŠ~b# E₂~a# AB~b 
@@ -91340,7 +91340,7 @@ $ blank space
 @column 1 
 1.a. [...] 
 1.b. 1(N46)# 2(N14)# [...] 
-2.a. [...] E~a# |E₂~ax1(N57)@t| 
+2.a. [...] E~a# |E₂~a×1(N57)@t| 
 2.b1. , X SAL# GAL~a# SUG₅ PA~a 
 2.b2. , E~a KISAL~b1 PA~a 
 @reverse 
@@ -91349,7 +91349,7 @@ $ blank space
 2. , E~a KISAL~b1 PA~a 
 @column 2 
 1. , ŠE~a 1(N46) 6(N14) 3(N01) 
-2. , E₂~a |E₂~ax1(N57)@t| 
+2. , E₂~a |E₂~a×1(N57)@t| 
 3. , GIBIL U₄# ŠEG₉# [...] 
 
 
@@ -91420,11 +91420,11 @@ $ blank space
 @column 2 
 1. 3(N19) , LAGAB~b TE UDU~a SILA₄~c# 
 2. 4(N14) , ŠE~a ŠU TUR 
-3. , E~a |E₂~ax1(N57)@t| 
+3. , E~a |E₂~a×1(N57)@t| 
 @reverse 
 @column 1 
 1. 6(N19) 1(N04) , LAGAB~b TE E~a 
-2. 2(N19) 5(N14) , ŠE~a LAGAB~b TE E~a |E₂~ax1(N57)@t| 
+2. 2(N19) 5(N14) , ŠE~a LAGAB~b TE E~a |E₂~a×1(N57)@t| 
 @column 2 
 1. [...] 1(N36) 3(N14) 1(N01) , ŠE~a GIBIL E~a 
 
@@ -91899,7 +91899,7 @@ $ (not given)
 2.b. 3(N39~a) , KAŠ~b GI 
 3. 1(N34) 7(N14) 4(N01) 2(N39~a) , [...] 
 @column 2 
-1. [...] , |U₄x1(N57)| |U₄x1(N01)| SAG PAP~a NA~a 
+1. [...] , |U₄×1(N57)| |U₄×1(N01)| SAG PAP~a NA~a 
 @column 3 
 $ blank space 
 @reverse 
@@ -92001,11 +92001,11 @@ $ (not given)
 4.a. 2(N01) , ŠU 
 4.b. 4(N08) , TI~a# 
 5. 1(N01) , ŠU |2(N57).BIR₃~a| 
-6. 1(N01) , E~b |E₂~ax1(N57)@t| 
+6. 1(N01) , E~b |E₂~a×1(N57)@t| 
 @column 2 
 1. 1(N01)# , SIMUG 
 2. 2(N01) , MA 
-3. 1(N01) , |ŠU₂x1(N24)| 
+3. 1(N01) , |ŠU₂×1(N24)| 
 4. 2(N01) , EZEN~b 
 5. , GIR₃@g~b 
 @reverse 
@@ -92191,7 +92191,7 @@ $ blank space
 @fragment a 
 @obverse 
 1.a. 4(N34)# 2(N45) 6(N14) 4(N01) , ŠE~a 
-1.b1. 2(N45) 5(N14) , ŠE~a |U₄x2(N57)| 
+1.b1. 2(N45) 5(N14) , ŠE~a |U₄×2(N57)| 
 1.b2. 4(N34) 1(N14) 4(N01) , U₄ GIBIL 
 2.a. 1(N36) 2(N46) 1(N19) 5(N04)# 
 2.b1. 5(N19) , LAGAB~b TE 
@@ -92245,7 +92245,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |ŠUR₂x1(N58)| 
+1. 1(N01) |ŠUR₂×1(N58)| 
 @reverse 
 $ blank space 
 
@@ -92354,7 +92354,7 @@ $ blank space
 #atf: lang qpc 
 @tablet 
 @obverse 
-1. 1(N01) |DUG~bx(UDU~a×TAR~b)| KUR~a 
+1. 1(N01) |DUG~b×(UDU~a×TAR~b)| KUR~a 
 $ blank space 
 @reverse 
 $ blank space 
