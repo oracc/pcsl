@@ -14,6 +14,8 @@ GetOptions(
     g=>\$glyfdb,
     );
 
+my %seen = ();
+
 my @efields = qw/sn oid tag pc24 flag fnnm char row src/;
 my @pfields = qw/oid tag pc25 pc24 cdli flag ref char src row/;
 my @sfields = qw/sn oid pc24 pbnm pbpc char row src/;
@@ -293,35 +295,41 @@ sub pc25_names {
     }
 }
 
+#
+# This routine just ensures that the char is using the .+∘ notation
+# for invisible characters
+#
 sub pcsl_canonicalize_char {
     my $c = shift;
-    my ($l,$r) = ();
-    if ($c =~ /=/) {
-	($l,$r) = ($c =~ /^(.*?)=(.*?)$/);
-    } else {
-	warn "canon $c\n" if length $c > 1 && $c =~ /𒪵/;
-	$r = $c;
+#    my ($l,$r) = ();
+#    if ($c =~ /=/) {
+#	($l,$r) = ($c =~ /^(.*?)=(.*?)$/);
+#    } else {
+#	warn "canon $c\n" if length $c > 1 && $c =~ /𒪵/;
+#	$r = $c;
+#    }
+    my $oc = $c;
+    $c =~ tr/‍⁤⁢/.+∘/;
+    if ($oc ne $c) {
+	# warn "canon $oc to $c\n";
     }
-    my $or = $r;
-    $r =~ tr/‍⁤⁢/.+∘/;
-    if ($or ne $r) {
-	warn "canon $or to $r\n";
-    }
-    ($l,$r);
+    $c;
 }
 
 sub pcsl_add_glyf {
     my($oid,$chr) = @_;
-    my($chrl,$chrr) = pcsl_canonicalize_char($chr);
     if ($pcsl{$oid}) {
 	unless (${$pcsl{$oid}}{'chash'}) {
 	    my $ctmp = ${$pcsl{$oid}}{'char'};
+	    $ctmp = pcsl_canonicalize_char($ctmp);
 	    $ctmp =~ tr/;/,/;
 	    my %h = (); @h{split(/,/,$ctmp)} = ();
 	    ${$pcsl{$oid}}{'chash'} = { %h };
 	}
+	$chr = pcsl_canonicalize_char($chr);
 	my $c = ${$pcsl{$oid}}{'char'};
 	foreach my $chr1 (split(/,/,charcommas($chr))) {
+	    warn "pcsl_add_glyf: $chr1\n" if length $chr1 > 1;
 	    unless (exists ${${$pcsl{$oid}}{'chash'}}{$chr1}) {
 		if ($c =~ /;/) {
 		    $c .= ",$chr1";
@@ -363,22 +371,24 @@ sub pcsl_seq {
     foreach my $o (sort keys %pcsl) {
 	my($c,$t) = @{$pcsl{$o}}{qw/char tag/};
 	if ($t && $t =~ /[.:]/) {
+	    %seen = ();
+	    # warn "pcsl_seq: start = $c\n" if $c =~ /𒪵/;
 	    my @c = ();
 	    if ($c =~ /;/) {
 		my @cc = split(/;/,$c);
 		foreach my $cc (@cc) {
-		    my($nl,$nr) = pcsl_canonicalize_char($cc);
-		    push @c, seqify($o,$cc,$t);
-		    push @c, ';';
+		    $cc = pcsl_canonicalize_char($cc);
+		    push @c, seqify($o,$cc,$t), ';';
 		}
 	    } else {
-		my($nl,$nr) = pcsl_canonicalize_char($c);
+		$c = pcsl_canonicalize_char($c);
 		push @c, seqify($o,$c,$t);
 	    }
 	    my $nc = join(',', @c);
 	    $nc =~ s/,;/;/g;
 	    $nc =~ s/;,/;/g;
 	    $nc =~ s/[,;]+$//;
+	    # warn "pcsl_seq: res = $nc\n" if $c =~ /𒪵/;
 	    ${$pcsl{$o}}{'char'} = $nc;
 	}	
     }    
@@ -416,6 +426,10 @@ sub pcsl_tsv {
     close(T);
 }
 
+#
+# Convert one or more sequence entries into the standard form and add
+# them to the list unless they are duplicats
+#
 sub seqify {
     my($o,$c,$t) = @_;
     my @c = ();
@@ -423,20 +437,39 @@ sub seqify {
     my $did_one = 0;
     foreach my $s (@s) {
 	if ($s =~ /\./) {
-	    push @c, $s;
+	    if ($s =~ /=/) {
+		if ($seq{$s}) {
+		    push @c, $s unless $seen{$s}++;
+		} else {
+		    warn "seqify: seq with lhs=rhs not in seqdb: $s\n";
+		}
+	    } else {
+		if ($seq{$s}) {
+		    my %s = %{$seq{$s}};
+		    # print Dumper \%s if $s =~ /𒪵/;
+		    $s = "$s{'u'}=$s{'s2'}" if $s{'u'};
+		    push @c, $s unless $seen{$s}++;
+		} else {
+		    warn "seqify: seq with no lhs not in seqdb: $s\n";
+		}
+	    }	    
 	} else {
 	    my @x = grep(length,split(/(.)/,$s));
 	    my $xx = '';
 	    foreach my $x (@x) {
 		if (($xx = $seq{"$o$x"})) {
 		    print L "seq found $o$x\n";
-		    push @c, "$x=$xx";
+		    my $s = "$x=$xx";
+		    $s = pcsl_canonicalize_char($s);
+		    push @c, $s unless $seen{$s}++;
 		} elsif (($xx = $seq{$o})) {
 		    if ($did_one) {
 			warn "seq$t $o: found default more than once; add $x= entry to seq data\n";
 		    } else {
 			print L "seq$t found $o as default for $x\n";
-			push @c, "$x=$xx";
+			my $s = "$x=$xx";
+			$s = pcsl_canonicalize_char($s);
+			push @c, $s unless $seen{$s}++;
 			++$did_one;
 		    }
 		} else {
