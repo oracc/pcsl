@@ -100,14 +100,15 @@ sub glyf_chars {
     my($o, $r,$c,$n) = @_;
     my @c = split(/[,;]/,$c);
     if ($#c >= 0) {
-	if ($r) {
-	    $r =~ s/=.*$//;
-	    print "$r\t$n\n";
-	} else {
-	    my $cc = shift @c;
-	    $cc =~ s/=.*$//;
-	    print $cc, "\t$n\n";
-	}
+	#	if ($r) {
+	#	    $r =~ s/=.*$//;
+	#	    print "$r\t$n\n";
+	#	} else {
+	#	    my $cc = shift @c;
+	#	    $cc =~ s/=.*$//;
+	#	    print $cc, "\t$n\n";
+	#	}
+	$r = '';
 	my $glyf_index = 1;
 	foreach my $cc (@c) {
 	    unless ($cc eq $r) {

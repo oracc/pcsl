@@ -90,7 +90,12 @@ sub seq_liga {
 	    $n =~ s/~(\d+)$//g;
 	    my $v = $1;
 	    my $h = $glyf{$n};
-	    push @xx, sprintf("%X", ord($glyf{$glyf{$h}}));
+	    $h = $glyf{"$n~1"} unless $h;
+	    if ($h) {
+		push @xx, sprintf("%X", ord($glyf{$glyf{$h}}));
+	    } else {
+		warn "seq_liga: no hex for name $n\n";
+	    }
 	    if ($v) {
 		my $e = sprintf("%X",0xe0100+$v);
 		push @xx, $e;
@@ -111,7 +116,12 @@ sub seq_liga_view {
 	    $n =~ s/~(\d+)$//g;
 	    my $v = $1;
 	    my $h = $glyf{$n};
-	    push @xx, $glyf{$glyf{$h}};
+	    $h = $glyf{"$n~1"} unless $h;
+	    if ($h) {
+		push @xx, $glyf{$glyf{$h}};
+	    } else {
+		warn "seq_liga_view: no hex for name $n\n";
+	    }
 	    if ($v) {
 		$v =~ tr/0-9/₀-₉/;
 		push @xx, $v;
