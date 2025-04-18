@@ -15,6 +15,7 @@ db/pc25.tok: db/pc25.xtf
 	tokx -s <$< >$@
 
 db/pcsl.xtf: ~/orc/pcsl/00atf/pcsl.atf
+	mkdir -p db
 	oxx $< >$@
 
 db/pc25.xtf: ~/orc/pcsl/pc25/00atf/pc25.atf
