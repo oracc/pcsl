@@ -1,4 +1,5 @@
 pcsl:P005573
+pcsl:P005574
 pcsl:P006022
 pcsl:P006023
 pcsl:P006024
@@ -84,8 +85,6 @@ pcsl:P006115
 pcsl:P006116
 pcsl:P006117
 pcsl:P006118
-pcsl:P006119
-pcsl:P006120
 pcsl:P006121
 pcsl:P006122
 pcsl:P006123
@@ -203,7 +202,6 @@ pcsl:P006245
 pcsl:P006246
 pcsl:P006247
 pcsl:P006248
-pcsl:P006249
 pcsl:P006250
 pcsl:P006251
 pcsl:P006252
@@ -253,11 +251,6 @@ pcsl:P006306
 pcsl:P006307
 pcsl:P006308
 pcsl:P006309
-pcsl:P006310
-pcsl:P006311
-pcsl:P006312
-pcsl:P006313
-pcsl:P006314
 pcsl:P006317
 pcsl:P006318
 pcsl:P006319
@@ -365,7 +358,6 @@ pcsl:P200001
 pcsl:P200002
 pcsl:P200003
 pcsl:P200004
-pcsl:P200006
 pcsl:P200011
 pcsl:P200012
 pcsl:P200013
@@ -391,7 +383,6 @@ pcsl:P231787
 pcsl:P231788
 pcsl:P235786
 pcsl:P250450
-pcsl:P252162
 pcsl:P255074
 pcsl:P270809
 pcsl:P270810

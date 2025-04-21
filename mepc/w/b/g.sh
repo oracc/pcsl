@@ -1,5 +1,6 @@
 ##!/bin/sh
 
+echo $0 $*
 p=$1
 l=$2
 b=$3
@@ -38,7 +39,7 @@ sed 's/-\+\t/\t/' <g-$b-2.tsv | \
 uniq -c g-$b-3.tsv | sed 's/^\s\+\([0-9]\+\)\s\(.*\)$/\2\t\1/' >g-$b.tsv
 
 # Add sort codes
-sort -k1 /home/oracc/pcsl/02pub/sortcodes.tsv | \
+sort -k1 ${ORACC}/pcsl/02pub/sortcodes.tsv | \
     join -t'	' -j 1 g-$b.tsv - \
 	 >g-$b-s.tsv
 

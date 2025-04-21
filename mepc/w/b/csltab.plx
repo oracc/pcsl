@@ -115,7 +115,7 @@ sub csl_xml_one {
 }
 
 sub load_u {
-    my @u = `cut -f1,3 /home/oracc/pcsl/02pub/unicode.tsv`; chomp @u;
+    my @u = `cut -f1,3 $ENV{'ORACC'}/pcsl/02pub/unicode.tsv`; chomp @u;
     foreach (@u) {
 	my($u,$o) = split(/\t/,$_);
 	$u{$o} = $u;
