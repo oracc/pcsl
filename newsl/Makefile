@@ -129,7 +129,7 @@ html: 00web/${SL}-tab.html
 00etc/no_%.xml: 00etc/no_%.tsv
 	00bin/final-xml.plx $<
 
-00web/no_%.html: 00etc/no_%.xml
+00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl
 	00bin/pc25no-html.sh $<
 
 pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html

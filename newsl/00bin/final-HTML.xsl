@@ -16,8 +16,12 @@
     </xsl:variable>
     <xsl:variable name="vol">
       <xsl:choose>
-	<xsl:when test="sl/@n='easl' or sl/@n='pcsl' or sl/@n='pc25'"><xsl:text>CDLI-gh</xsl:text></xsl:when>
-	<xsl:otherwise><xsl:value-of select="translate(sl/@n,'abcdelmnopqrstuv','ABCDELMNOPQRSTUV')"/></xsl:otherwise>
+	<xsl:when test="sl/@n='easl' or sl/@n='pcsl' or sl/@n='pc25' or sl/@n='no_sequence'">
+	  <xsl:text>CDLI-gh</xsl:text>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="translate(sl/@n,'abcdelmnopqrstuvx','ABCDELMNOPQRSTUVX')"/>
+	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <html>
@@ -137,7 +141,8 @@
 		<xsl:when test="ff">
 		  <xsl:for-each select="ff">
 		    <xsl:choose>
-		      <xsl:when test="$input='no_sequence' and q">
+		      <xsl:when test="$input='no_sequence' and f/q">
+			<!--<xsl:message>chars/no_sequence and f/q</xsl:message>-->
 			<xsl:call-template name="seq"/>
 		      </xsl:when>
 		      <xsl:otherwise>
@@ -172,7 +177,7 @@
 		    <div class="fhex">
 		      <span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span>
 		    </div>
-		  </xsl:for-each>		  
+		  </xsl:for-each>
 		</xsl:when>
 		<xsl:otherwise>
 		  <div>
@@ -317,20 +322,18 @@
   <xsl:template name="seq">
     <div class="fseq">
       <div class="fseqc">
+	<xsl:if test="f/@c">
+	  <span class="ofs-pc ofs-150"><xsl:value-of select="f/@c"/></span>
+	  <xsl:text> = </xsl:text>
+	</xsl:if>
 	<span class="ofs-pc ofs-150">
-	  <xsl:for-each select="q">
+	  <xsl:for-each select="f/q">
 	    <xsl:choose>
 	      <xsl:when test="@o">
 		<xsl:value-of select="@c"/>
 	      </xsl:when>
-	      <xsl:when test="@sn='ZWJ'">
-		<xsl:text>|</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="@sn='IPS'"> <!-- Invisible Plus Sign -->
-		<xsl:text>⊕</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="@sn='ITS'"> <!-- Invisible Times Sign -->
-		<xsl:text>⊗</xsl:text>
+	      <xsl:when test="@p">
+		<xsl:value-of select="@p"/>
 	      </xsl:when>
 	      <xsl:when test="starts-with(@u,'E01')">
 		<span class="ivs">
@@ -350,20 +353,27 @@
 		<xsl:text>o</xsl:text>
 	      </xsl:otherwise>
 	    </xsl:choose>
-	    <!--<xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>-->
 	  </xsl:for-each>
 	</span>
       </div>
       <div class="fseqh">
+	<xsl:if test="f/@c">
+	  <span class="ucode2">
+	    <xsl:text>[</xsl:text>
+	    <xsl:value-of select="f/@u"/>
+	    <xsl:text>]</xsl:text>
+	  </span>
+	  <xsl:text> = </xsl:text>
+	</xsl:if>
 	<span class="ucode2">
 	  <xsl:text>[</xsl:text>
-	  <xsl:for-each select="q">
+	  <xsl:for-each select="f/q">
 	    <xsl:choose>
 	      <xsl:when test="@o">
 		<xsl:value-of select="@u"/>
 	      </xsl:when>
-	      <xsl:when test="@sn='ZWJ'">
-		<xsl:text>|</xsl:text>
+	      <xsl:when test="@p">
+		<!--<xsl:value-of select="@p"/>-->
 	      </xsl:when>
 	      <xsl:when test="starts-with(@u,'E01')">
 		<xsl:value-of select="@u"/>
