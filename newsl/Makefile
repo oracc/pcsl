@@ -16,6 +16,8 @@ PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
+PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv
+
 ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
@@ -34,10 +36,13 @@ pc24tab: 00etc/pc24.tsv
 00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../00etc/add-data.tsv ../00etc/pc-pua.tab
 	00bin/pc24.plx >$@
 
-pc25tab: 00etc/pc25-map.tsv
+pc25tab: 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 
-00etc/pc25-map.tsv: 00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00bin/pc25-map.plx
+00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx
 	00bin/pc25-map.plx >$@
+
+00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx
+	00bin/pc25-add.plx >$@
 
 pcsl: Makefile 00etc/pcsl-final.tsv
 	SL=$@ make xml html images asl

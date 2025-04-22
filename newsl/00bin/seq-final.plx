@@ -17,7 +17,8 @@ my %u = (); load_unicode();
 
 my %glyf = (); my @glyf = `cat 00etc/glyf-final.tsv`; chomp @glyf;
 foreach (@glyf) {
-    my($u,$o,$h,$n) = split(/\t/,$_);
+    my($u,$o,$b,$h,$n,$t) = split(/\t/,$_);
+#    my($u,$o,$h,$n) = split(/\t/,$_);
     $n =~ tr/|//d;
     $glyf{$u} = $n;
     $glyf{$n} = $u;
