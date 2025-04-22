@@ -41,7 +41,16 @@ $outfile =~ s/-final// if $n =~ /^no_/;
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
 my $numflag = ($n =~ /^num/);
-my $pcslflag = ($n =~ /^pc(?:sl|25)/ || $n =~ /^no_/);
+my $pcslflag = ($n =~ /^pcsl/);
+my $pc25flag = ($n =~ /^pc25/);
+
+if ($n =~ /^no_/) {
+    if ($n =~ /exexc/) {
+	$pc25flag = 1;
+    } else {
+	$pcslflag = 1;
+    }
+}
 
 my $X = 1;
 
@@ -68,11 +77,13 @@ warn "$0: input=$f\n";
 open(N,$f);
 while (<N>) {
     chomp;
-    my($n,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src) = ();
+    my($n,$h,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src) = ();
     if ($cusasflag || $easlflag || $numflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } elsif ($pcslflag) {
 	($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
+    } elsif ($pc25flag) {
+	($o,$h,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
     } else {
 	($n,$o,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     }
@@ -82,7 +93,7 @@ while (<N>) {
     my $xcdli = xmlify($cdli||'');
     my $xpc24 = xmlify($pc24||'');
     my $rattr = '';
-    if ($pcslflag && $r) {
+    if (($pcslflag || $pc25flag) && $r) {
 	$rattr = sprintf(" c=\"%s\" h=\"%X\"", $r, ord($r));
     }
     if ($t) {
@@ -113,14 +124,14 @@ while (<N>) {
     if ($asl) {
 	asl_sign($p,$o,$r,$c) unless $p eq 'RI~x';
     } else {
-	if ($pcslflag) {
+	if ($pcslflag || $pc25flag) {
 	    my $row = $fn ? " row=\"$fn\"" : '';
 	    print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist>";
 	} else {
 	    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
 	}
 	chars($c);
-	sl($o,$p) if $easlflag || $pcslflag;
+	sl($o,$p) if $easlflag || $pcslflag || $pc25flag;
 	print '</sign>';
     }
 }
@@ -279,15 +290,12 @@ sub chars {
     my @c = split(/[,;]/,$_[0]);
     print "<s>";
     foreach my $c (@c) {
-	if ($c =~ /./) {
-	    my @cc = split(/\./,$c);
+	if ($c =~ /=/) {
 	    print '<ff>';
-	    foreach my $cc (@cc) {
-		pchar($cc);
-	    }
+	    pchar($c);
 	    print '</ff>';
 	} else {
-	    if ($pcslflag) {
+	    if ($pcslflag || $pc25flag) {
 		pchar($c);
 	    } else {
 		my @cc = grep(length,split(/(.)/,$c));
@@ -380,7 +388,7 @@ sub load_oidmap {
 
 sub load_sl {
     my @sl = qw/atu3 atu5 msvo1 msvo4/;
-    push @sl, 'cusas' if $pcslflag;
+    push @sl, 'cusas' if $pcslflag || $pc25flag;
     foreach (@sl) {	
 	my $cut = /cusas/ ? '2,4,7' : '2,5-6';
 	my @s = `cut -f $cut 00etc/${_}-final.tsv`; chomp @s;
@@ -424,13 +432,17 @@ sub pchar {
     my($cc,$f) = @_;
     $f = 'f' unless $f;
     if ($cc =~ /=/) {
-	my($ccc,$seq) = split(/=/,$cc);
+	my($ccc,$seq) = ($cc =~ /^(.)=(.*)$/);
 	my $ch = sprintf("%X",ord($ccc));
 	if ($u{$ch}) {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
 	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\">";
 	    my @seq = grep(length,split(/(.)/,$seq));
+	    if ($#seq == 0) {
+		my $l = length $seq;
+		warn "seq $seq length $l gives split sequence list only 1 char long\n";
+	    }
 	    foreach my $q (@seq) {
 		pchar($q,'q');
 	    }
@@ -454,6 +466,8 @@ sub pchar {
 	    print "<$f sn=\"IPS\" c=\"$cc\" u=\"$ch\"/>";
 	} elsif ($ch =~ /^E01/) {
 	    print "<$f sn=\"IVS\" c=\"$cc\" u=\"$ch\"/>";
+	} elsif ($cc =~ /[.+∘]/) {
+	    print "<q p=\"$cc\"/>";
 	} else {
 	    warn "$.: (2) hex $ch not in 00etc/unicode.tsv\n";
 	}

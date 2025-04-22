@@ -2,11 +2,13 @@
 	       xmlns="http://www.w3.org/1999/xhtml">
 
   <xsl:include href="final-preambles.xsl"/>
-  
+
   <xsl:param name="mode" select="''"/> <!-- NC for non-contrastive only; SQ for sequences only -->
   <xsl:param name="SL" select="'EASL'"/>
-  
+  <xsl:param name="input"/>
+
   <xsl:template match="/">
+    <xsl:message>final-HTML.xsl processing <xsl:value-of select="$input"/></xsl:message>
     <xsl:variable name="title-sub">
       <xsl:if test="string-length($mode) > 0">
 	<xsl:value-of select="concat(' ', $mode)"/>
@@ -134,25 +136,32 @@
 	      <xsl:choose>
 		<xsl:when test="ff">
 		  <xsl:for-each select="ff">
-		    <div>
-		      <div>
-			<span class="ofs-pc ofs-200">
-			  <xsl:for-each select ="f">
-			    <xsl:value-of select="@c"/>
-			  </xsl:for-each>
-			</span>
-		      </div>
-		      <div class="fhex">
-			<span class="ucode">
-			  <xsl:text>[</xsl:text>
-			  <xsl:for-each select ="f">
-			    <xsl:value-of select="@u"/>
-			    <xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
-			  </xsl:for-each>
-			  <xsl:text>]</xsl:text>
-			</span>
-		      </div>
-		    </div>
+		    <xsl:choose>
+		      <xsl:when test="$input='no_sequence' and q">
+			<xsl:call-template name="seq"/>
+		      </xsl:when>
+		      <xsl:otherwise>
+			<div>
+			  <div>
+			    <span class="ofs-pc ofs-200">
+			      <xsl:for-each select ="f">
+				<xsl:value-of select="@c"/>
+			      </xsl:for-each>
+			    </span>
+			  </div>
+			  <div class="fhex">
+			    <span class="ucode">
+			      <xsl:text>[</xsl:text>
+			      <xsl:for-each select ="f">
+				<xsl:value-of select="@u"/>
+				<xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
+			      </xsl:for-each>
+			      <xsl:text>]</xsl:text>
+			    </span>
+			  </div>
+			</div>
+		      </xsl:otherwise>
+		    </xsl:choose>
 		  </xsl:for-each>
 		</xsl:when>
 		<xsl:when test="f">
@@ -160,72 +169,9 @@
 		    <div>
 		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 		    </div>
-		    <div class="fhex"><span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span></div>
-		    <xsl:if test="xqx"> <!-- really test="q" but disabling this temporarily -->
-		      <div class="fseq">
-			<div class="fseqc">
-			  <span class="ofs-pc ofs-150">
-			    <xsl:for-each select="q">
-			      <xsl:choose>
-				<xsl:when test="@o">
-				  <xsl:value-of select="@c"/>
-				</xsl:when>
-				<xsl:when test="@sn='ZWJ'">
-				  <xsl:text>|</xsl:text>
-				</xsl:when>
-				<xsl:when test="@sn='IPS'"> <!-- Invisible Plus Sign -->
-				  <xsl:text>⊕</xsl:text>
-				</xsl:when>
-				<xsl:when test="@sn='ITS'"> <!-- Invisible Times Sign -->
-				  <xsl:text>⊗</xsl:text>
-				</xsl:when>
-				<xsl:when test="starts-with(@u,'E01')">
-				  <span class="ivs">
-				    <xsl:text>~</xsl:text>
-				    <xsl:variable name="enum" select="substring-after(@u, 'E01')"/>
-				    <xsl:choose>
-				      <xsl:when test="starts-with($enum,'0')">
-					<xsl:value-of select="substring-after($enum,'0')"/>
-				      </xsl:when>
-				      <xsl:otherwise>
-					<xsl:value-of select="$enum"/>
-				      </xsl:otherwise>
-				    </xsl:choose>
-				  </span>
-				</xsl:when>
-				<xsl:otherwise>
-				  <xsl:text>o</xsl:text>
-				</xsl:otherwise>
-			      </xsl:choose>
-			      <!--<xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>-->
-			    </xsl:for-each>
-			  </span>
-			</div>
-			<div class="fseqh">
-			  <span class="ucode2">
-			    <xsl:text>[</xsl:text>
-			    <xsl:for-each select="q">
-			      <xsl:choose>
-				<xsl:when test="@o">
-				  <xsl:value-of select="@u"/>
-				</xsl:when>
-				<xsl:when test="@sn='ZWJ'">
-				  <xsl:text>|</xsl:text>
-				</xsl:when>
-				<xsl:when test="starts-with(@u,'E01')">
-				  <xsl:value-of select="@u"/>
-				</xsl:when>
-				<xsl:otherwise>
-				  <xsl:text>o</xsl:text>
-				</xsl:otherwise>
-			      </xsl:choose>
-			      <xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>
-			    </xsl:for-each>
-			    <xsl:text>]</xsl:text>
-			  </span>
-			</div>
-		      </div>
-		    </xsl:if>
+		    <div class="fhex">
+		      <span class="ucode"><xsl:value-of select="concat('[',@u,']')"/></span>
+		    </div>
 		  </xsl:for-each>		  
 		</xsl:when>
 		<xsl:otherwise>
@@ -366,6 +312,72 @@
     <xsl:text disable-output-escaping="yes">&amp;#</xsl:text>
     <xsl:value-of select="$c"/>
     <xsl:text>;</xsl:text>
+  </xsl:template>
+
+  <xsl:template name="seq">
+    <div class="fseq">
+      <div class="fseqc">
+	<span class="ofs-pc ofs-150">
+	  <xsl:for-each select="q">
+	    <xsl:choose>
+	      <xsl:when test="@o">
+		<xsl:value-of select="@c"/>
+	      </xsl:when>
+	      <xsl:when test="@sn='ZWJ'">
+		<xsl:text>|</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="@sn='IPS'"> <!-- Invisible Plus Sign -->
+		<xsl:text>⊕</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="@sn='ITS'"> <!-- Invisible Times Sign -->
+		<xsl:text>⊗</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="starts-with(@u,'E01')">
+		<span class="ivs">
+		  <xsl:text>~</xsl:text>
+		  <xsl:variable name="enum" select="substring-after(@u, 'E01')"/>
+		  <xsl:choose>
+		    <xsl:when test="starts-with($enum,'0')">
+		      <xsl:value-of select="substring-after($enum,'0')"/>
+		    </xsl:when>
+		    <xsl:otherwise>
+		      <xsl:value-of select="$enum"/>
+		    </xsl:otherwise>
+		  </xsl:choose>
+		</span>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:text>o</xsl:text>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	    <!--<xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>-->
+	  </xsl:for-each>
+	</span>
+      </div>
+      <div class="fseqh">
+	<span class="ucode2">
+	  <xsl:text>[</xsl:text>
+	  <xsl:for-each select="q">
+	    <xsl:choose>
+	      <xsl:when test="@o">
+		<xsl:value-of select="@u"/>
+	      </xsl:when>
+	      <xsl:when test="@sn='ZWJ'">
+		<xsl:text>|</xsl:text>
+	      </xsl:when>
+	      <xsl:when test="starts-with(@u,'E01')">
+		<xsl:value-of select="@u"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:text>o</xsl:text>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	    <xsl:if test="not(position()=last())"><xsl:text>&#xa0;</xsl:text></xsl:if>
+	  </xsl:for-each>
+	  <xsl:text>]</xsl:text>
+	</span>
+      </div>
+    </div>
   </xsl:template>
 
   <xsl:template match="text()"/>

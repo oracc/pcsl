@@ -19,7 +19,7 @@
       <dt><esp:link url="/pcsl/pc25/pc25-tab.html">PC25</esp:link></dt>
       <dd>A draft repertoire for a PC encoding. There are also
       accompanying pages of signs that are removed in PC25 for the
-      following reasons:
+      following reasons:<br/>
       <esp:link url="/pcsl/pc25/no_corpus.html">not in corpus</esp:link>;<br/>
       <esp:link url="/pcsl/pc25/no_sequence.html">sequence not character</esp:link>;<br/>
       <esp:link url="/pcsl/pc25/no_sequencexexc.html">sequence exceptions encoded as characters</esp:link>;<br/>
