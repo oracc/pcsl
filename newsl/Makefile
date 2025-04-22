@@ -143,29 +143,16 @@ pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00we
 	${sudo} cp 00web/$*-tab.html ${PRJ}
 	${sudo} chmod -R +r ${PRJ}
 
-#overview: ${WWW}/pcsl/sl-overview.html
-#${WWW}/pcsl/sl-overview.html: 00etc/sl-overview.html
-#	${sudo} cp $< ${WWW}/pcsl
-#	${sudo} chmod +r ${WWW}/pcsl/sl-overview.html
-
 css:
 	00bin/xinst.sh css ../00res/css/*.css
-#	${sudo} mkdir -p ${WWW}/pcsl/css
-#	${sudo} cp -v ../00res/css/*.css ${ORACC}/pcsl/00res/css/
-#	${sudo} cp -v ../00res/css/*.css ${WWW}/pcsl/css/
 
 js:
 	00bin/xinst.sh js ../00res/js/*.js
-#	${sudo} mkdir -p ${WWW}/pcsl/js
-#	${sudo} cp ../00res/js/*.js ${WWW}/pcsl/js/
-#	${sudo} chmod -R o+r ${WWW}/pcsl/js
 
 font: ${WWW}/fonts/${SLfont}
 
 ${WWW}/fonts/${SLfont}: ${O2}/msc/fonts/${SLfont}
 	00bin/xinst.sh fonts ${O2}/msc/fonts/${SLfont}
-#	${sudo} cp  ${O2}/msc/fonts/${SLfont} ${WWW}/fonts
-#	${sudo} chmod o+r ${WWW}/fonts/${SLfont}
 
 sudo:
 	echo ${sudo}

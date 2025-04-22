@@ -12,6 +12,15 @@ use Getopt::Long;
 GetOptions(
     );
 
+my %b = (); my @b = `grep '~1\$' 00etc/glyf-base.tsv`; chomp @b;
+foreach (@b) {
+    my($c,$b) = split(/\t/,$_);
+    my $h = sprintf("%X", ord($c));
+    $b =~ s/~1$//;
+    $b{$b} = $h;
+}
+#print Dumper \%b; exit 1;
+
 my %pc24 = (); my @pc24 = `cat 00etc/pc24.tsv`; chomp @pc24;
 foreach (@pc24) {
     my($o,$u) = split(/\t/,$_);
@@ -23,17 +32,12 @@ while (<>) {
     my($c,$n) = split(/\t/,$_);
     my $h = sprintf("%X", ord($c));
     if ($pc24{$h}) {
-	my $t = '';
-	if ($n =~ /~([0-9]+)\|?$/) {
-	    $t = $1;
-	}
+	my ($b,$t) = ($n =~ /^(.*?)~(\d+)$/);
+	my $bh = $b{$b};
+	warn "no base-hex for $b\n" unless $bh;
 	my $o = $pc24{$h};
-	if ($t) {
-	    $n =~ s/%/%%/g;
-	    printf "$c\t$o\t$h\t$n\t~%02X\n", $t;
-	} else {
-	    print "$c\t$o\t$h\t$n\n";
-	}
+	$n =~ s/%/%%/g;
+	printf "$c\t$o\t$bh\t$h\t$n\t~%02X\n", $t;
     } else {
 	warn "no OID for $c = $h = $n\n";
     }
