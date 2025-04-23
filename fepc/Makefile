@@ -1,3 +1,6 @@
+#
+# Makefile to build PC25 font.
+#
 pc25.ttf: pc25.ttx
 	true
 
