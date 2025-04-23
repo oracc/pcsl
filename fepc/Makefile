@@ -1,13 +1,13 @@
 pc25.ttf: pc25.ttx
 	true
 
-pc25.ttx: pc24.ttx.xz pc25-map.tsv pc25-add.tsv bits.ttx.xz
+pc25.ttx: pc24.ttx.xz pc25.map pc25.add bits.ttx.xz
 	true
 
-pc25-map.tsv: ../newsl/00etc/pc25-map.tsv
-	cp -v $< $@
+pc25.map: ../newsl/00etc/pc25-map.tsv
+	cut -f2- <$< >$@
 
-pc25-add.tsv: ../newsl/00etc/pc25-add.tsv
+pc25.add: ../newsl/00etc/pc25-add.tsv
 	cp -v $< $@
 
 pc24.ttx.xz: ${HOME}/o2/msc/fonts/PC24.ttf bin/mkttx.sh
