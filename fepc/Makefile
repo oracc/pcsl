@@ -2,7 +2,7 @@ pc25.ttf: pc25.ttx
 	true
 
 pc25.ttx: pc24.ttx.xz pc25.map pc25.add bits.ttx.xz
-	true
+	bin/pc25.sh
 
 pc25.map: ../newsl/00etc/pc25-map.tsv
 	cut -f2- <$< >$@
