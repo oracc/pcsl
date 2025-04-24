@@ -22,16 +22,13 @@ ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
 
-default:  pc24tab msvo1 msvo4 atu3 atu5 cusas easl num glyfdb seqdb pcsl pc25 pc25tab css js font
+default:  00etc/pc24.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv core pcsl pc25 pc25tab css js font
 
-core: clean-core msvo1 msvo4 atu3 atu5 cusas easl num
-
-#seq ref
+core: msvo1 msvo4 atu3 atu5 cusas easl num
+	00bin/seq-final.plx -v
 
 %: Makefile 00etc/%-final.tsv
 	SL=$* make xml html images
-
-pc24tab: 00etc/pc24.tsv
 
 00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../00etc/add-data.tsv ../00etc/pc-pua.tab
 	00bin/pc24.plx >$@
@@ -53,7 +50,7 @@ pc25: Makefile 00etc/pc25-final.tsv
 
 asl: 00lib/pcsl.asl
 
-00lib/pcsl.asl: 00etc/pcsl-final.tsv Makefile seqdb 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
+00lib/pcsl.asl: 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
 	00bin/pcsl-asl.plx
 
 # 00etc/pc25rep.lst
@@ -91,22 +88,17 @@ seq: 00web/easl-seq.html
 	${sudo} cp $@ ${WWW}/pcsl/easl/
 	${sudo} chmod +r ${WWW}/pcsl/easl/easl-seq.html
 
-glyfdb: 00etc/glyf-final.tsv
-	@true
-
 00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
 
-# This used to be generated with
-#	00bin/pcsl-final.plx -g
+# 00etg/glyf-base.tsv used to be generated via pcsl-final -g
 # but it is now maintained manually to ensure glyf tags are stable.
-00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
-	@true
+#00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
+#	00bin/pcsl-final.plx -g
 
-seqdb: 00etc/seq-final.tsv
-
+# We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
-	00bin/seq-final.plx | 00bin/sl-sort.plx -c=5 - >$@
+	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
 
 csldist:
 	true
@@ -182,7 +174,7 @@ clean-pc25:
 	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv)
 
 clean-web:
-	rm -vf 00web/*-tab.html
+	rm -vf 00web/*-tab.html 00web/no_*.html 00etc/no_sequence.xml
 
 clean: clean-core clean-pc25 clean-pcsl clean-web
 	@true

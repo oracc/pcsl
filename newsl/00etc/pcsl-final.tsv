@@ -1096,7 +1096,7 @@ o0901704	©	|SAL×1(N58)|	|SAL×1(N58)|	|SALx1(N58)|	I		𒪹	EASL1049	/pcsl/easl
 o0901709	©	SANGA~a	SANGA~a	SANGA~a	I	𒪼	𒪺,𒪻,𒪼	EASL1050 EALX441 EAAR315 EAJN215 EAVR199	/pcsl/easl/images/o0901709.png
 o0901712	©	SANGA~b	SANGA~b	SANGA~b	I	𒪾	𒪽,𒪾;𒪼	EASL1051 EALX442 EAAR316	/pcsl/easl/images/o0901712.png
 o0901714	©	SANGA~c	SANGA~c	SANGA~c	I		𒪿	EASL1052	/pcsl/easl/images/o0901714.png
-o0901715	C01b©	SANGA~e	SANGA~e~v1	-	I	󳁥	󳁥;󳁤	CSL056	
+o0901715	C01b©	SANGA~e	SANGA~e	-	I	󳁤	󳁤;󳁥	CSL056	
 o0901718	©	SAR~a	SAR~a	SAR~a	I		𒫀	EASL1053 EALX443 EAAR317 EAJN216 EAVR200	/pcsl/easl/images/o0901718.png
 o0901723	©	|SAR~a×ŠE~a|	|SAR~a×ŠE~a|	|SAR~axSZE~a|	I		𒫁	EASL1054 EALX512 EAJN249 EAVR223	/pcsl/easl/images/o0901723.png
 o0901719	©	SAR~b	SAR~b	SAR~b	I		𒫂	EASL1055 EALX444	/pcsl/easl/images/o0901719.png
@@ -1244,11 +1244,11 @@ o0901941	©	ŠAM₂	ŠAM₂	SZAM2	I	𒭏	𒭏;󳃈	EASL1185 EALX508 EAAR361 EAJN
 o0901943	:©	ŠANDANA~a	ŠANDANA~a	SZANDANA~a	I		𒭐=𒡎.𒩃	EASL1186	/pcsl/easl/images/o0901943.png
 o0901944	:	ŠANDANA~b	ŠANDANA~b	SZANDANA~b	I		𒭑=𒡎.𒨺	EASL1187	/pcsl/easl/images/o0901944.png
 o0901946	©	ŠE~a	ŠE~a	ŠE~a	ŠEa		𒭒	EASL1188 EALX509 EAAR362 EAJN247 EAVR221	/pcsl/easl/images/o0901946.png
+o0901951	C01b©	|ŠE~a.GAR|	|ŠE~a.GAR|	-	I	󳁛	󳁛;󳁚	CSL070	
 o0901953	.©	|ŠE~a.KIN₂~c|	|ŠE~a.KIN₂~c|	|SZE~a.KIN2~c|	I		𒭓=𒭒.𒥈;󳃉=𒭗.𒥈	EASL1189 EALX510	/pcsl/easl/images/o0901953.png
 o0901955	.©	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|	|SZE~a.NAM2|	I	𒭔	𒭔=𒭒.󳃻,𒭕=𒭒.𒨣	EASL1190 EALX511 EAAR363 EAJN248 EAVR222	/pcsl/easl/images/o0901955.png
 o0901959	©	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|	|SZE~a&SZE~a|	I		𒭖	EASL1191 EALX513 EAJN250 EAVR224	/pcsl/easl/images/o0901959.png
 o0901961	©	ŠE~a@t	ŠE~a@t	SZE~a@t	I		𒭗	EASL1192 EALX514 EAAR364	/pcsl/easl/images/o0901961.png
-o0901951	C01b©	|ŠE~a@t.GAR|	|ŠE~a@t~v1.GAR|	-	I	󳁚	󳁚;󳁛	CSL070	
 o0901947	©	ŠE~b	ŠE~b	SZE~b	I		𒭘	EASL1193 EALX515 EAAR365	/pcsl/easl/images/o0901947.png
 o0901948	©	ŠE~c	ŠE~c	SZE~c	I		𒭙	EASL1194	/pcsl/easl/images/o0901948.png
 o0901962	©	ŠE₃	ŠE₃	SZE3	I	𒭜	𒭚,𒭜	EASL1195 EALX516 EAAR366 EAJN251 EAVR225	/pcsl/easl/images/o0901962.png

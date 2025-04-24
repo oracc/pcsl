@@ -53,8 +53,8 @@ CSL052	o0901651	C21b	|PIRIG~b1×1(N58@t)|	I	-	󳁄	/pcsl/cusas/images/2109.png
 CSL053	o0901669	C31t	|BU~a&BU~a|	I	-	󳀬	/pcsl/images/add/thumb/BU+BU.png
 CSL054	o0901693	C21t	|SAG+UKKIN~b~v1×1(N57)|	I	-	󳀑	/pcsl/images/add/thumb/SAG+UKKINx1N57.png
 CSL055	o0901707	C31t	|SAL.ZATU751~c|	I	-	󳄂	/pcsl/images/add/thumb/salzatu751c.png
-CSL056	o0901715	C01b	SANGA~e~v1	I	-	󳁥	/pcsl/cusas/images/0115.png
-CSL057	o0901715	C01b	SANGA~e	I	-	󳁤	/pcsl/cusas/images/0115.png
+CSL056	o0901715	C01b	SANGA~e	I	-	󳁤	/pcsl/cusas/images/0115.png
+CSL057	o0901715	C01b	SANGA~e~v1	I	-	󳁥	/pcsl/cusas/images/0115.png
 CSL058	o0901721	C01b	SAR~d	I	-	󳁆	/pcsl/cusas/images/0116.png
 CSL059	o0901737	C31t	|SI+AN|	I	-	󳀌	/pcsl/images/add/thumb/SIxAN.png
 CSL060	o0901728	C31b	|SI×EN~a|	I	-	󳁈	/pcsl/cusas/images/3111.png
@@ -67,8 +67,8 @@ CSL066	o0901873	C01t	SU~c	I	-	󳁹	/pcsl/images/add/thumb/SUc.png
 CSL067	o0901881	C01b	SUHUR~v3	I	-	󳁘	/pcsl/cusas/images/0117.png
 CSL068	o0901885	C01b	SUHUR@t	I	-	󳁙	/pcsl/cusas/images/0118.png
 CSL069	o0901924	C01b	ŠA₃~a2@g	I	-	󳁅	/pcsl/cusas/images/0119.png
-CSL070	o0901951	C01b	|ŠE~a@t~v1.GAR|	I	-	󳁚	/pcsl/cusas/images/0120.png
-CSL071	o0901951	C01b	|ŠE~a.GAR|	I	-	󳁛	/pcsl/cusas/images/0121.png
+CSL070	o0901951	C01b	|ŠE~a.GAR|	I	-	󳁛	/pcsl/cusas/images/0121.png
+CSL071	o0901951	C01b	|ŠE~a@t~v1.GAR|	I	-	󳁚	/pcsl/cusas/images/0120.png
 CSL072	o0902066	C21t	|ŠUR₂×1(N58)|	I	-	󳀗	/pcsl/images/add/thumb/SZUR2x1N58.png
 CSL073	o0902219	.C31t	|U₄.1(N24)|	I	-	󳀆	/pcsl/images/add/thumb/U4-1N24.png
 CSL074	o0902180	C31t	|U₄×(1(N01).1(N24))|	I	-	󳀇	/pcsl/images/add/thumb/U4x1N01-N24.png

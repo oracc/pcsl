@@ -791,7 +791,7 @@ o0901704	129A5	©	|SAL×1(N58)|	|SAL×1(N58)|	|SALx1(N58)|	I		𒪹	EASL1049	/pcs
 o0901709	129A6	©	SANGA~a	SANGA~a	SANGA~a	I	𒪼	𒪺,𒪻,𒪼	EASL1050 EALX441 EAAR315 EAJN215 EAVR199	/pcsl/easl/images/o0901709.png
 o0901712	129A7	©	SANGA~b	SANGA~b	SANGA~b	I	𒪾	𒪽,𒪾;𒪼	EASL1051 EALX442 EAAR316	/pcsl/easl/images/o0901712.png
 o0901714	129A8	©	SANGA~c	SANGA~c	SANGA~c	I		𒪿	EASL1052	/pcsl/easl/images/o0901714.png
-o0901715	129A9	C01b©	SANGA~e	SANGA~e~v1	-	I	󳁥	󳁥;󳁤	CSL056	
+o0901715	129A9	C01b©	SANGA~e	SANGA~e	-	I	󳁤	󳁤;󳁥	CSL056	
 o0901718	129AA	©	SAR~a	SAR~a	SAR~a	I		𒫀	EASL1053 EALX443 EAAR317 EAJN216 EAVR200	/pcsl/easl/images/o0901718.png
 o0901723	129AB	©	|SAR~a×ŠE~a|	|SAR~a×ŠE~a|	|SAR~axSZE~a|	I		𒫁	EASL1054 EALX512 EAJN249 EAVR223	/pcsl/easl/images/o0901723.png
 o0901719	129AC	©	SAR~b	SAR~b	SAR~b	I		𒫂	EASL1055 EALX444	/pcsl/easl/images/o0901719.png
@@ -916,9 +916,9 @@ o0901939	12A22	©	ŠAKIR~b	ŠAKIR~b	SZAKIR~b	I		𒭍	EASL1183 EALX506	/pcsl/easl
 o0901940	12A23	©	ŠAKIR~c	ŠAKIR~c	SZAKIR~c	I	𒭎	𒭎;󳃇	EASL1184 EALX507 EAVR219	/pcsl/easl/images/o0901940.png
 o0901941	12A24	©	ŠAM₂	ŠAM₂	SZAM2	I	𒭏	𒭏;󳃈	EASL1185 EALX508 EAAR361 EAJN246 EAVR220	/pcsl/easl/images/o0901941.png
 o0901946	12A25	©	ŠE~a	ŠE~a	ŠE~a	ŠEa		𒭒	EASL1188 EALX509 EAAR362 EAJN247 EAVR221	/pcsl/easl/images/o0901946.png
-o0901959	12A26	©	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|	|SZE~a&SZE~a|	I		𒭖	EASL1191 EALX513 EAJN250 EAVR224	/pcsl/easl/images/o0901959.png
-o0901961	12A27	©	ŠE~a@t	ŠE~a@t	SZE~a@t	I		𒭗	EASL1192 EALX514 EAAR364	/pcsl/easl/images/o0901961.png
-o0901951	12A28	C01b©	|ŠE~a@t.GAR|	|ŠE~a@t~v1.GAR|	-	I	󳁚	󳁚;󳁛	CSL070	
+o0901951	12A26	C01b©	|ŠE~a.GAR|	|ŠE~a.GAR|	-	I	󳁛	󳁛;󳁚	CSL070	
+o0901959	12A27	©	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|	|SZE~a&SZE~a|	I		𒭖	EASL1191 EALX513 EAJN250 EAVR224	/pcsl/easl/images/o0901959.png
+o0901961	12A28	©	ŠE~a@t	ŠE~a@t	SZE~a@t	I		𒭗	EASL1192 EALX514 EAAR364	/pcsl/easl/images/o0901961.png
 o0901947	12A29	©	ŠE~b	ŠE~b	SZE~b	I		𒭘	EASL1193 EALX515 EAAR365	/pcsl/easl/images/o0901947.png
 o0901948	12A2A	©	ŠE~c	ŠE~c	SZE~c	I		𒭙	EASL1194	/pcsl/easl/images/o0901948.png
 o0901962	12A2B	©	ŠE₃	ŠE₃	SZE3	I	𒭜	𒭚,𒭜	EASL1195 EALX516 EAAR366 EAJN251 EAVR225	/pcsl/easl/images/o0901962.png

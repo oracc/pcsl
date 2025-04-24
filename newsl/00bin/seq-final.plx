@@ -11,9 +11,11 @@ use Getopt::Long;
 
 my $keepgoing = 0;
 my $novalidation = 0;
+my $validationonly = 0;
 GetOptions(
     keep=>\$keepgoing,
     noval=>\$novalidation,
+    val=>\$validationonly,
     );
 
 my $seqv_status = 0;
@@ -22,6 +24,7 @@ unless ($novalidation) {
 	die "$0: failed seq validation. Stop.\n"
 	    unless $keepgoing;
     }
+    exit 0 if $validationonly;
 }
 
 my $warned = 0;
