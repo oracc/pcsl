@@ -425,6 +425,7 @@
 𒟿	|EZEN~a×U₄|~1
 𒠀	|EZEN~a×X|~1
 𒠃	EZEN~b~1
+󳄆	|ŠE~a@t+EZEN~b|~1
 󲳟	|EZEN~b×6(N57)|~1
 𒠄	|EZEN~b×6(N57)|~2
 𒠅	EZEN~b@t~1
@@ -688,9 +689,6 @@
 𒣤	HAŠHUR~1
 𒣥	|HAŠHUR×MA|~1
 𒣦	HI~1
-𒣧	|HI.SUHUR|~1
-𒣨	|HI.SUHUR|~2
-𒣩	|HI.SUHUR|~3
 𒣪	|HI×LAGAB~a|~1
 󲵑	|HI×ŠE₃@t|~1
 𒣫	|HI×ZATU707~a|~1
@@ -1203,7 +1201,6 @@
 󲶱	|NINDA₂×1(N06)|~1
 𒩥	|NINDA₂×(1(N06).HI@g~a)|~1
 𒩦	|NINDA₂×1(N08)|~1
-𒩨	NINKUM~1
 𒩩	NINLIL~1
 𒩪	NIR~a~1
 𒩫	|NIR~a×AN|~1
@@ -1429,6 +1426,8 @@
 𒬢	SUH₃~1
 𒬣	SUHUR~1
 󳁘	SUHUR~2
+󳄇	SUHUR~3
+󳄈	SUHUR~4
 𒬤	SUHUR@g~1
 𒬥	SUHUR@n~1
 󳁙	SUHUR@t~1

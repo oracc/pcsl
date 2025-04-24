@@ -433,6 +433,7 @@ sub pcsl_tsv {
 #
 sub seqify {
     my($o,$c,$t) = @_;
+    # warn "seqify request $o $c $t\n";
     my @c = ();
     my @s = split(/,/,$c);
     my $did_one = 0;

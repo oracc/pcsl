@@ -1,3 +1,9 @@
+o0900535	𒟨	𒟙‍‍󳄆⁢𒩴‍𒫤	|EN~a.NAM₂~2.(ŠE~a+EZEN)∘NUN~a.SIG₇~2|
+o0900535	𒟩	𒟙‍𒛦⁢‍𒫣‍⁢𒧢‍𒩴	|EN~a.BAHAR₂~b∘SIG₇~1.ME~a.NUN~a|
+o0901524	𒩉	𒪵‍󳃻	|SAL.NAM₂~2|
+o0901577	𒩨	𒪵‍󳃻‍󳄆⁢𒩴‍𒫤	|SAL.NAM₂~2.(ŠE~a+EZEN)∘NUN~a.SIG₇~2|
+o0901577	𒩨	𒪵‍󳃻‍󳄆⁢𒩴‍𒫤	|SAL.NAM₂~2.(ŠE~a+EZEN)∘NUN~a.SIG₇~2|
+o0900969	󳂒	𒣬⁢𒣬	|(HI×1(N57))∘(HI×1(N57))|
 o0901301	𒦳	⁢𒭒⁢𒬷	|ŠE~a.ŠA|
 o0901301	𒦴	⁢𒬷⁢𒭒	|ŠA~4∘ŠE~a|
 o0900098	󲜖	𒛌‍𒣾‍𒢎	|AN.IM~a.GI₆|
@@ -37,7 +43,9 @@ o0900887		𒢮‍𒟊	|GIŠ@t.E₂~a|
 o0900911		𒢾‍𒵼	|GU₄.ZATU755~b|
 o0900934		𒣍‍𒣰	|GUKKAL~a.HI@g~a|
 o0900966		𒣦‍𒦀	|HI.LAGAB~a|
-o0900962		𒣦‍𒬣	|HI.SUHUR|
+o0900962	𒣩	𒣦‍𒬣	|HI.SUHUR|
+o0900962	𒣨	𒣦‍󳄈	|HI.SUHUR|
+o0900962	𒣧	𒣦‍󳄇	|HI.SUHUR|
 o0900969		𒣬‍𒣬	|(HI×1(N57)).(HI×1(N57))|
 o0901928	𒭄	󳃴⁢𒪑	|IB~a~v2∘PAP~a|
 o0901014		𒤃‍𒠕	|IR~a.GA₂~a1|

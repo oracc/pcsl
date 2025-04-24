@@ -300,7 +300,7 @@ o0900531	.	|EN₂.E₂~a|	I	|EN2.E2~a|	𒟤	/pcsl/easl/images/o0900531.png
 o0900532	.	|EN₂.E₂~b|	I	|EN2.E2~b|	𒟥	/pcsl/easl/images/o0900532.png
 o0900533	:	ENDIB	I	ENDIB	𒟦	/pcsl/easl/images/o0900533.png
 o0900534	:	ENGIZ	I	ENGIZ	𒟧	/pcsl/easl/images/o0900534.png
-o0900535	!U	ENKUM	I	ENKUM	𒟨,𒟩	/pcsl/easl/images/o0900535.png
+o0900535	:	ENKUM	I	ENKUM	𒟨,𒟩	/pcsl/easl/images/o0900535.png
 o0900537	:	ENLIL	I	ENLIL	𒟪	/pcsl/easl/images/o0900537.png
 o0900538	1-.	ENSI	I	ENSI	󲟃	/pcsl/easl/images/o0900538.png
 o0900539	1-.	ENSI₂	I	ENSI2	󲟄	/pcsl/easl/images/o0900539.png
@@ -910,7 +910,7 @@ o0901517		NIM~b1	I	NIM~b1	𒩄	/pcsl/easl/images/o0901517.png
 o0901518		NIM~b2	I	NIM~b2	𒩅	/pcsl/easl/images/o0901518.png
 o0901519		NIM~b3	I	NIM~b3	𒩆	/pcsl/easl/images/o0901519.png
 o0901521		NIMGIR	I	NIMGIR	𒩇,𒩈	/pcsl/easl/images/o0901521.png
-o0901524		NIN	I	NIN	𒩉	/pcsl/easl/images/o0901524.png
+o0901524	:	NIN	I	NIN	𒩉	/pcsl/easl/images/o0901524.png
 o0901525		NINDA₂	I	NINDA2	𒩧,𒩊	/pcsl/easl/images/o0901525.png
 o0901527		|NINDA₂×AN|	I	|NINDA2xAN|	𒩋	/pcsl/easl/images/o0901527.png
 o0901528	n	|NINDA₂×(AN.HI)|	I	|NINDA2x(AN.HI)|	𒩌	/pcsl/easl/images/o0901528.png
@@ -943,7 +943,7 @@ o0901558		|NINDA₂×2(N01)|	I	|NINDA2x2(N01)|	𒩤	/pcsl/easl/images/o0901558.p
 o0901559	1-	|NINDA₂×1(N06)|	I	|NINDA2x1(N06)|	󲶱	/pcsl/easl/images/o0901559.png
 o0901551	n	|NINDA₂×(1(N06).HI@g~a)|	I	|NINDA2x(HI@g~a.1(N06))|	𒩥	/pcsl/easl/images/o0901551.png
 o0901560		|NINDA₂×1(N08)|	I	|NINDA2x1(N08)|	𒩦	/pcsl/easl/images/o0901560.png
-o0901577		NINKUM	I	NINKUM	𒩨	/pcsl/easl/images/o0901577.png
+o0901577	:	NINKUM	I	NINKUM	𒩨	/pcsl/easl/images/o0901577.png
 o0901578	:	NINLIL	I	NINLIL	𒩩	/pcsl/easl/images/o0901578.png
 o0901580	n	NIR~a	I	NIR~a	𒩪	/pcsl/easl/images/o0901580.png
 o0901583		|NIR~a×AN|	I	|NIR~axAN|	𒩫	/pcsl/easl/images/o0901583.png
@@ -1154,6 +1154,7 @@ o0901940		ŠAKIR~c	I	SZAKIR~c	𒭎	/pcsl/easl/images/o0901940.png
 o0901941		ŠAM₂	I	SZAM2	𒭏	/pcsl/easl/images/o0901941.png
 o0901943	:	ŠANDANA~a	I	SZANDANA~a	𒭐	/pcsl/easl/images/o0901943.png
 o0901944	:	ŠANDANA~b	I	SZANDANA~b	𒭑	/pcsl/easl/images/o0901944.png
+o0900552	++	|ŠE~a@t+EZEN~b|	I	-	󳄆	-
 o0901953	.	|ŠE~a.KIN₂~c|	I	|SZE~a.KIN2~c|	𒭓	/pcsl/easl/images/o0901953.png
 o0901955	.	|ŠE~a.NAM₂|	I	|SZE~a.NAM2|	𒭔,𒭕	/pcsl/easl/images/o0901955.png
 o0901959		|ŠE~a&ŠE~a|	I	|SZE~a&SZE~a|	𒭖	/pcsl/easl/images/o0901959.png
