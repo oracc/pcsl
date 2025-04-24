@@ -13,7 +13,7 @@ use Getopt::Long;
 # Create a table to add OTF entries to PC25
 #
 
-my $font = '~/orc/pcsl/fonts/rebuild/PC-240412.ttx.gz';
+my $font = '../fepc/PC24.ttx.xz';
 
 GetOptions(
     );
@@ -66,7 +66,7 @@ foreach (@u43) {
 
 # ADD 5: Scaled characters for code chart
 
-my @c = `zgrep '<TTGlyph' $font`; chomp @c;
+my @c = `xzgrep '<TTGlyph' $font`; chomp @c;
 foreach (@c) {
     my($u,$xmin,$ymin,$xmax,$ymax) = (/^.*?name="(.*?)" xMin="(.*?)" yMin="(.*?)" xMax="(.*?)" yMax="(.*?)"/);
     if ($xmax && $xmin && $ymax && $ymin) {

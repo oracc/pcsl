@@ -41,7 +41,8 @@ pc25tab: 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx
 	00bin/pc25-map.plx >$@
 
-00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx
+00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
+	(cd ../fepc ; make PC24.ttx.xz)
 	00bin/pc25-add.plx >$@
 
 pcsl: Makefile 00etc/pcsl-final.tsv
@@ -96,9 +97,11 @@ glyfdb: 00etc/glyf-final.tsv
 00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
 
-00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
-	true
+# This used to be generated with
 #	00bin/pcsl-final.plx -g
+# but it is now maintained manually to ensure glyf tags are stable.
+00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
+	@true
 
 seqdb: 00etc/seq-final.tsv
 
@@ -172,8 +175,14 @@ images/${SL}/.images: images/${SL}/*.png
 clean-core:
 	(cd 00etc ; rm -vf atu[35]-final.xml msvo[14]-final.xml easl-final.* cusas-final.* num-final.*)
 
+clean-pcsl:
+	(cd 00etc ; rm -vf seq-final.tsv glyf-final.tsv pcsl-final.tsv)
+
 clean-pc25:
 	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv)
 
-clean:
-	rm -f 00etc/*-final.xml 00web/*-tab.html
+clean-web:
+	rm -vf 00web/*-tab.html
+
+clean: clean-core clean-pc25 clean-pcsl clean-web
+	@true

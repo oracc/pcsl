@@ -184,7 +184,7 @@ sub asl_pglyf {
 	    my $go = $u{$h};
 	    warn "pglyf: no OID for char $h\n" unless $go;
 	    my $nq = $n; $nq =~ s/\%/%%/g;
-	    warn "glyf: made up as $nq~%d $c $h $go ~%02X\n";
+	    printf STDERR "glyf: made up:\t$c\t$nq~%d\t->$nq~%d $c $h $go ~%02X\n", $tag, $tag, $tag;
 	    printf "\@glyf $nq~%d $c $h $go ~%02X\n", $tag, $tag;
 	}
     }
