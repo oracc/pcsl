@@ -16,8 +16,10 @@ GetOptions(
 # Create a table to map PC24 ttx to PC25
 #
 
+my $font = '../fepc/PC24.ttx.xz';
+
 my $pua = 0xF2000;
-my $xxx = 0xF3000;
+my $xxx = 0xF2800;
 
 my %seen = (); # track what we've already seen using the hex uni
 
@@ -34,11 +36,14 @@ foreach (@pc24) {
     $pc24{$u} = $o;
 }
 
-open(M,'>00etc/pc25-map.tsv');
+my $mapfile = '00etc/pc25-map.tsv';
+
+open(M,">$mapfile");
 
 # Block 0: ACN characters passed through without mapping
 
-my @acn = `grep '	12[56]' 00etc/pc24.tsv`; chomp @acn;
+#my @acn = `grep '	12[56]' 00etc/pc24.tsv`; chomp @acn;
+my @acn = `cut -f1,3 ../00etc/pcsl-acn-repertoire.tsv`; chomp @acn;
 foreach (@acn) {
     my($o,$u) = split(/\t/,$_);
     if (hex($u) < 0x12690) {
@@ -108,7 +113,7 @@ foreach my $v (@vsp) {
     }
 }   
 
-# Block 5: Other characters from PC24 PUA remapped into PC25 PUA from #F3000
+# Block 5: Other characters from PC24 PUA remapped into PC25 PUA from #F2800
 
 foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
     my $o = $pc24{$pc24};
@@ -134,11 +139,36 @@ foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
     }
 }
 
+# Block 6: Characters that were remapped from the AP23 versions into
+# AP24 PUA because there were also versions in ACN. These are moved
+# well beyond the PUA in their own PC25 font block.
+
+my $block6 = 0xF2D00;
+my @xacn = `cat 00etc/acn-ap23-ap24-pc25.lst`; chomp @xacn;
+foreach my $x (@xacn) {
+    printf "-\t$x\t%X\n", $block6++;
+    ++$seen{$x};
+}
+
 close(M);
 
+#
 # Sanity check: did we miss anything?
+#
+
+# First: is anything in pc24.tsv not covered?
 foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
     warn "$0: missed $pc24\n" unless $seen{$pc24};
+}
+
+# Second: is anything in PC24.ttf not covered?
+my @m = `cut -f2 $mapfile`; chomp @m; my %m = (); @m{@m} = ();
+my @f = `xzgrep '<GlyphID' $font`;
+foreach my $f (@f) {
+    my($u) = ($f =~ /name="u([0-9A-F]{5})"/);
+    if ($u) { # ignore .cvnn entries
+	warn "unmapped font character $u\n" unless exists $m{$u};
+    }
 }
 
 1;

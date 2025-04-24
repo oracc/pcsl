@@ -16,7 +16,7 @@ PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
-PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv
+PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst
 
 ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo

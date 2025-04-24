@@ -49,7 +49,7 @@ die "$0: errors in map table. Stop.\n" if $status;
 if (-r $ttxfile) {
     open(T,$ttxfile) || die;
 } elsif (-r "$ttxfile.xz") {
-    open(T,'unxz -cd $ttxfile.xz|') || die;
+    open(T,"unxz -cd $ttxfile.xz|") || die;
 } else {
     die "$0: unable to open $ttxfile or $ttxfile.gz. Stop.";
 }
@@ -57,11 +57,12 @@ open(O,">$outfile") || die "$0: unable to write to $outfile. Stop.\n";
 select O;
 while (<T>) {
     my $orig = $_;
-    if (/(?:name|glyph)="u([0-9A-F]{5})"/) {
+    if (/(?:name|glyph)="u([0-9A-F]{5})(\.cv\d+)?"/) {
 	my $old_u = $1;
+	my $cvnn = $2 || '';
 	my $new_u = $tab{"\U$old_u"};
 	if ($new_u) {
-	    s/"u$old_u"/"u$new_u"/;
+	    s/"u$old_u"/"u$new_u$cvnn"/;
 	    warn "map u$old_u to u$new_u\n" if $verbose;
 	} else {
 	    warn "no tab entry for $old_u\n"
@@ -78,11 +79,43 @@ while (<T>) {
 		    unless $warned{"\U$old_u"}++;
 	    }
 	}
+    } elsif (/<component glyphName="u([0-9A-F]{5})"/) {
+	umap($1,'');
+    } elsif (/<Substitution in="u([0-9A-F]{5})\"\s+out="u([0-9A-F]{5})(\.cv\d+)?"/) {
+	my($in,$out,$cvnn) = ($1,$2,$3);
+	iomap($in,$out);
     } elsif (/12[0-9A-F]{3}/) {
-	warn "$_" unless /Uni12580/;
+	warn "unhandled cuneihex: $_" unless /Uni12580/;
     }
     print
 }
 close(T);
 
 1;
+
+######################################################################################
+
+sub iomap {
+    my($in,$out,$cvnn) = @_;
+    my($inx,$outx) = split(/out=/,$_);
+    $_ = $inx;
+    umap($in,'');
+    $inx = $_;
+    $_ = $outx;
+    umap($out,$cvnn);
+    $outx = $_;
+    $_ = "$inx out=$outx";
+}
+
+sub umap {
+    my($old_u,$cvnn) = @_;
+    my $new_u = $tab{"\U$old_u"};
+    if ($new_u) {
+	s/"u$old_u"/"u$new_u$cvnn"/;
+	warn "map u$old_u to u$new_u\n" if $verbose;
+    } else {
+	warn "no tab entry for $old_u\n"
+	    unless $warned{$old_u}++;
+    }
+}
+
