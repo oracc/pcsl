@@ -601,7 +601,7 @@ EASL0600	o0901038		KA₂~a	I	KA2~a	𒤘	/pcsl/easl/images/o0901038.png
 EASL0601	o0901039		KA₂~b	I	KA2~b	𒤙	/pcsl/easl/images/o0901039.png
 EASL0602	o0901040		KA₂~c	I	KA2~c	𒤚	/pcsl/easl/images/o0901040.png
 EASL0603	o0901041	1-	KA₂~d	I	KA2~d	󲢀	/pcsl/easl/images/o0901041.png
-EASL0604	o0901043	nc	|KA₂~d×LAM~b~v2|	I	|KA2xLAM|	𒤛	/pcsl/easl/images/o0901043.png
+EASL0604	o0901043	nc	|KA₂~d×LAM~b~v2|	I	|KA2xLAM|	𒤛;󿿹	/pcsl/easl/images/o0901043.png
 EASL0605	o0901044		KAB	I	KAB	𒤜	/pcsl/easl/images/o0901044.png
 EASL0606	o0901045		|KAB×1(N58)|	I	|KABx1(N58)|	𒤝	/pcsl/easl/images/o0901045.png
 EASL0607	o0901047		KAD₄~a	I	KAD4~a	𒤞	/pcsl/easl/images/o0901047.png
@@ -911,7 +911,7 @@ EASL0910	o0901480		NANŠE~b	I	NANSZE~b	𒨭	/pcsl/easl/images/o0901480.png
 EASL0911	o0901481		NAR	I	NAR	𒨮	/pcsl/easl/images/o0901481.png
 EASL0912	o0901483		NE~a	I	NE~a	𒨯,𒨰,𒨱	/pcsl/easl/images/o0901483.png
 EASL0913	o0901486		NE~b	I	NE~b	𒨲	/pcsl/easl/images/o0901486.png
-EASL0914	o0901487		NE~c	I	NE~c	𒨳	/pcsl/easl/images/o0901487.png
+EASL0914	o0901487		NE~c	I	NE~c	𒨳;󳄃	/pcsl/easl/images/o0901487.png
 EASL0915	o0901488		NE~d	I	NE~d	𒨴	/pcsl/easl/images/o0901488.png
 EASL0916	o0901491	n:	NERGAL~v	I	NERGAL~x	𒨵	/pcsl/easl/images/o0901491.png
 EASL0917	o0901493		NESAG₂~a	I	NESAG2~a	𒨶,󲥠	/pcsl/easl/images/o0901493.png

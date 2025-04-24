@@ -1,11 +1,11 @@
 #
 # Makefile to build PC25 font.
 #
-pc25.ttf: pc25.ttx
-	true
+PC25.ttf: PC25.ttx bin/pc25-ttf.sh
+	bin/pc25-ttf.sh
 
-pc25.ttx: PC24.ttx.xz pc25.map pc25.add bits.ttx.xz
-	bin/pc25.sh
+PC25.ttx: PC24.ttx.xz pc25.map pc25.add bits.ttx.xz bin/pc25-ttx.sh bin/ttxmap.plx
+	bin/pc25-ttx.sh
 
 pc25.map: ../newsl/00etc/pc25-map.tsv
 	cut -f2- <$< >$@

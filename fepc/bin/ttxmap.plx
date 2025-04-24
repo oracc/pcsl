@@ -84,8 +84,10 @@ while (<T>) {
     } elsif (/<Substitution in="u([0-9A-F]{5})\"\s+out="u([0-9A-F]{5})(\.cv\d+)?"/) {
 	my($in,$out,$cvnn) = ($1,$2,$3);
 	iomap($in,$out);
-    } elsif (/12[0-9A-F]{3}/) {
-	warn "unhandled cuneihex: $_" unless /Uni12580/;
+    } elsif (/[12F][0-9A-F]{4}/) {
+	warn "unhandled cuneihex: $_" unless /Uni12580/ || /11101|x10000/ || /[01]{8}/;
+    } else {
+	s/PC24/PC25/;
     }
     print
 }
