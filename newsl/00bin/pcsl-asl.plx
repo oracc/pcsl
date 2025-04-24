@@ -200,7 +200,7 @@ sub load_aka {
 sub load_glyf {
     my @g = `cat 00etc/glyf-final.tsv`; chomp @g;
     foreach (@g) {
-	my($c,$o,$h,$n,$t) = split(/\t/,$_);
+	my($c,$o,$ph,$h,$n,$t) = split(/\t/,$_);
 	$t = '~01' unless $t;
 	$glyf{$c} = [ $o, $h, $n , $t ];
     }
