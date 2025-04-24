@@ -40,6 +40,7 @@ foreach (@b) {
 
 foreach (@a) {
     my $minus = s/^-//;
+    my $period = s/^\.//;
     my($o,$h,$x,$f,$p) = split(/\t/,$_);
     unless ($c{$h}) {
 	my $c = sprintf("%s",chr(hex($h)));
@@ -49,6 +50,9 @@ foreach (@a) {
 	    $t = "-C${t}t";
 	} else {
 	    $t = "C${t}t";
+	}
+	if ($period) {
+	    $t = ".$t";
 	}
 	my %b = ();
 	@b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,"/pcsl/images/add/thumb/$f",$t,$s);

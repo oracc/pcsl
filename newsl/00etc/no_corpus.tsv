@@ -48,7 +48,7 @@ o0900490		E~d	E~d	E~d	I		𒟉	EASL0280	/pcsl/easl/images/o0900490.png
 o0900491	1-	E~e	E~e	E~e	I		󲞩	EASL0281	/pcsl/easl/images/o0900491.png
 o0900498	.	|E₂~a.LIŠ|	|E₂~a.LIŠ|	|E2~a.LISZ|	I		𒟋=𒟊.𒦵	EASL0283	/pcsl/easl/images/o0900498.png
 o0900506		|E₂~a×3(N58)|	|E₂~a×3(N58)|	|E2~ax3(N58)|	I		𒟌	EASL0284	/pcsl/easl/images/o0900506.png
-o0900499		|E₂~b.LIŠ|	|E₂~b.LIŠ|	|E2~b.LISZ|	I		𒟏	EASL0287	/pcsl/easl/images/o0900499.png
+o0900499	.	|E₂~b.LIŠ|	|E₂~b.LIŠ|	|E2~b.LISZ|	I		𒟏=𒟎.𒦵	EASL0287	/pcsl/easl/images/o0900499.png
 o0900508	:	E₃~a	E₃~a	E3~a	I		𒟓=𒝍.𒯡	EASL0291	/pcsl/easl/images/o0900508.png
 o0900523		|EN~c&EN~c|	|EN~c&EN~c|	|EN~c&EN~c|	I		𒟞	EASL0298	/pcsl/easl/images/o0900523.png
 o0900521		EN~e	EN~e	EN~e	I		𒟠	EASL0299	/pcsl/easl/images/o0900521.png
@@ -104,7 +104,7 @@ o0900927		GUG₂@t	GUG₂@t	GUG2@t	I		𒣉	EASL0533	/pcsl/easl/images/o0900927.p
 o0900972	1-	|HI×ŠE₃@t|	|HI×ŠE₃~v1@t|	|HIxSZE3@t|	I		󲵑	EASL0559	/pcsl/easl/images/o0900972.png
 o0900974		|HI×ZATU707~a|	|HI×ZATU707~a|	|HIxZATU707~a|	I		𒣫	EASL0560	/pcsl/easl/images/o0900974.png
 o0900967	1-	|HI×1(N01@f)|	|HI×1(N01@f)|	|HIx1(N01)F|	I		󲵋	EASL0561	/pcsl/easl/images/o0900967.png
-o0900969		|(HI×1(N57)).(HI×1(N57))|	|(HI×1(N57)).(HI×1(N57))|	|(HIx1(N57))&(HI+1(N57))|	I	𒣭	𒣭;󳂒	EASL0563	/pcsl/easl/images/o0900969.png
+o0900969	.	|(HI×1(N57)).(HI×1(N57))|	|(HI×1(N57)).(HI×1(N57))|	|(HIx1(N57))&(HI+1(N57))|	I	𒣭	𒣭=𒣬.𒣬	EASL0563	/pcsl/easl/images/o0900969.png
 o0900971		|HI×1(N58)|	|HI×1(N58)|	|HIx1(N58)|	I		𒣯	EASL0565	/pcsl/easl/images/o0900971.png
 o0900961	++	HI~b	HI~b	-	I		󳁱	EASL0566	/pcsl/images/add/thumb/HIb.png
 o0900979	1-	HUB₂	HUB₂	HUB2	I		󲡙	EASL0570	/pcsl/easl/images/o0900979.png
@@ -125,7 +125,7 @@ o0901155		KU₆~a@s	KU₆~a@s	KU6~a@s	I		𒥩	EASL0675	/pcsl/easl/images/o090115
 o0901147		KU₆~d	KU₆~d	KU6~d	I		𒥫	EASL0677	/pcsl/easl/images/o0901147.png
 o0901156	1-	KUN	KUN	KUN	I		󲣌	EASL0678	/pcsl/easl/images/o0901156.png
 o0901167	.	|KUR~a.NUNUZ~a1|	|KUR~a.NUNUZ~a1|	|KUR~a.NUNUZ~a1|	I		𒥮=𒥬.𒪂	EASL0681	/pcsl/easl/images/o0901167.png
-o0901165		|KUR~b.E₂~a|	|KUR~b.E₂~a|	|KUR~b.E2~a|	I		𒥰	EASL0683	/pcsl/easl/images/o0901165.png
+o0901165	.	|KUR~b.E₂~a|	|KUR~b.E₂~a|	|KUR~b.E2~a|	I		𒥰=𒥯.𒟊	EASL0683	/pcsl/easl/images/o0901165.png
 o0901162		KUR~d	KUR~d	KUR~d	I		𒥳	EASL0685	/pcsl/easl/images/o0901162.png
 o0901180		LA~c	LA~c	LA~c	I		𒥽	EASL0695	/pcsl/easl/images/o0901180.png
 o0901182	1-	LA~e	LA~e	LA~e	I		󲣝	EASL0697	/pcsl/easl/images/o0901182.png

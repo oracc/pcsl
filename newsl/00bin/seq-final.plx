@@ -9,10 +9,20 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $keepgoing = 0;
+my $novalidation = 0;
 GetOptions(
+    keep=>\$keepgoing,
+    noval=>\$novalidation,
     );
 
-seq_validate() || die "$0: failed seq validation. Stop\n";
+my $seqv_status = 0;
+unless ($novalidation) {
+    if (seq_validate()) {
+	die "$0: failed seq validation. Stop.\n"
+	    unless $keepgoing;
+    }
+}
 
 my $warned = 0;
 my %u = (); load_unicode();
@@ -200,11 +210,13 @@ sub seq_view {
 #
 
 sub seq_validate {
-    my($dbhash,$dblist) = seqv_load_db();
-    my %easl = seqv_load_sl('00etc/easl-base.tsv');
-    my %cusas = seqv_load_sl('00etc/cusas-final.tsv');
-    seqv_db_but_not_in_sl(\%s,\%easl,\%cusas);
-    seqv_sl_but_not_in_db(\%s,\%easl,\%cusas);
+    my $db = seqv_load_db();
+    my $ea = seqv_load_sl('00etc/easl-final.tsv');
+    my $cu = seqv_load_sl('00etc/cusas-final.tsv');
+    # print Dumper $ea; exit 1;
+    seqv_db_but_not_in_sl($db, $ea, $cu);
+    seqv_sl_but_not_in_db($db, $ea, $cu);
+    return $seqv_status;
 }
 
 sub seqv_load_db {
@@ -214,30 +226,50 @@ sub seqv_load_db {
 	my($o,$n) = split(/\t/,$_);
 	$seq{$o} = $n;
     }
-    (\%seq, \@seq);
+    [ \@seq , { %seq } ];
 }
 
 sub seqv_load_sl {
-    my @sl = `cut -f1-2 $_[0]`; chomp @sl;
+    my $fields = $_[0] =~ /cusas|easl/ ? "2-3" : "1-2";
+    my @sl = `cut -f$fields $_[0]`; chomp @sl;
     my %sl = ();
     foreach (@sl) {
-	my($o,$t) =~ split(/\t/,$_);
+	my($o,$t) = split(/\t/,$_);
 	$sl{$o} = $t;
     }
-    %sl;
+    [ \@sl , { %sl } ];
 }
 
-sub seqdb_but_not_in_sl {
-    my @db = @$_[0];
-    my %ea = %$_[1];
-    my %cu = %$_[2];
-    for (my $i = 0; $
+sub seqv_db_but_not_in_sl {
+    my($db,$ea,$cu) = @_;
+    my @dba = @{$$db[0]};
+    my %eah = %{$$ea[1]};
+    my %cuh = %{$$cu[1]};
+    for (my $i = 0; $dba[$i]; ++$i) {
+	my($o) = ($dba[$i] =~ /^(.*?)\t/);
+	my $t = '';
+	my $from = '';
+	if (defined $eah{$o}) {
+	    $t = $eah{$o};
+	    $from = 'easl';
+	} elsif (defined $cuh{$o}) {
+	    $t = $cuh{$o};
+	    $from = 'cusas'
+	} else {
+	    warn "$0: $o not in easl-base or cusas-final\n" ;
+	    $t = undef;
+	}
+	if (!$t || $t !~ /[.:]/) {
+	    warn "00etc/seq-final.tsv:$i: $o is not tagged as a sequence in $from\n";
+	    ++$seqv_status;
+	}
+    }
 }
 
-sub sl_but_not_in_seqdb {
-    my %db = %$_[0];
-    my %ea = %$_[1];
-    my %cu = %$_[2];
+sub seqv_sl_but_not_in_db {
+    my($db,$ea,$cu) = @_;
+    my @db = @{$$db[0]};
+    my %ea = %{$$ea[1]};
+    my %cu = %{$$cu[1]};
 }
-
 
