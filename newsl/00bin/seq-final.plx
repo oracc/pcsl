@@ -268,8 +268,21 @@ sub seqv_db_but_not_in_sl {
 
 sub seqv_sl_but_not_in_db {
     my($db,$ea,$cu) = @_;
-    my @db = @{$$db[0]};
-    my %ea = %{$$ea[1]};
-    my %cu = %{$$cu[1]};
+    my %dbh = %{$$db[1]};
+    my @eaa = @{$$ea[0]};
+    my @cua = @{$$cu[0]};
+    for (my $i = 0; $eaa[$i]; ++$i) {
+	my($o,$t) = split(/\t/,$eaa[$i]);
+	if ($t && $t =~ /[.:]/) {
+	    warn "00etc/easl-final.tsv:$i: $o tagged as sequence but not in seqdb\n";
+	}
+    }
+    for (my $i = 0; $cua[$i]; ++$i) {
+	my($o,$t) = split(/\t/,$cua[$i]);
+	if ($t && $t =~ /[.:]/) {
+	    warn "00etc/cusas-final.tsv:$i: $o tagged as sequence but not in seqdb\n"
+		unless $dbh{$o};
+	}
+    }    
 }
 
