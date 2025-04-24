@@ -53,8 +53,6 @@ asl: 00lib/pcsl.asl
 00lib/pcsl.asl: 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
 	00bin/pcsl-asl.plx
 
-# 00etc/pc25rep.lst
-
 00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
 	00bin/pc25rep.sh <$< >$@
 
@@ -90,11 +88,6 @@ seq: 00web/easl-seq.html
 
 00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
-
-# 00etg/glyf-base.tsv used to be generated via pcsl-final -g
-# but it is now maintained manually to ensure glyf tags are stable.
-#00etc/glyf-base.tsv: 00etc/pcsl-final.tsv 00bin/pcsl-final.plx
-#	00bin/pcsl-final.plx -g
 
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
@@ -153,9 +146,6 @@ font: ${WWW}/fonts/${SLfont}
 
 ${WWW}/fonts/${SLfont}: ${O2}/msc/fonts/${SLfont}
 	00bin/xinst.sh fonts ${O2}/msc/fonts/${SLfont}
-
-sudo:
-	echo ${sudo}
 
 images: images/${SL}/.images
 
