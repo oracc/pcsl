@@ -35,11 +35,11 @@ core: msvo1 msvo4 atu3 atu5 cusas easl num
 
 pc25tab: 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 
-00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx
+00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx ${O2}/msc/fonts/PC24.ttf
+	(cd ../fepc ; make PC24.ttx.xz)
 	00bin/pc25-map.plx >$@
 
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
-	(cd ../fepc ; make PC24.ttx.xz)
 	00bin/pc25-add.plx >$@
 
 pcsl: Makefile 00etc/pcsl-final.tsv
