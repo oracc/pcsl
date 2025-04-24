@@ -42,6 +42,8 @@ foreach (@glyf) {
 
 open(S,'00etc/seq-base.tsv') || die;
 while (<S>) {
+    next if /^#/ || /^\s*$/;
+    my $addglyf = s/^\+//;
     chomp;
     $warned = 0;
     my($o,$c,$s,$n) = split(/\t/,$_);
@@ -78,6 +80,12 @@ while (<S>) {
     my $sq = seq_liga($s);
     my $lv = seq_liga_view($s);
 
+    if ($addglyf) {
+	$glyf{$c} = $xn;
+	$glyf{$xn} = $sq;
+	$glyf{$sq} = $lv;
+    }
+    
     print "$o\t$c\t$h\t$s\t$sv\t$xn\t$sq\t$lv\n";
 }
 close(S);
@@ -108,7 +116,11 @@ sub seq_liga {
 	    my $h = $glyf{$n};
 	    $h = $glyf{"$n~1"} unless $h;
 	    if ($h) {
-		push @xx, sprintf("%X", ord($glyf{$glyf{$h}}));
+		if ($h =~ /^[0-9]/) {
+		    push @xx, $h;
+		} else {
+		    push @xx, sprintf("%X", ord($glyf{$glyf{$h}}));
+		}
 	    } else {
 		warn "seq_liga: no hex for name $n\n";
 	    }
@@ -134,7 +146,11 @@ sub seq_liga_view {
 	    my $h = $glyf{$n};
 	    $h = $glyf{"$n~1"} unless $h;
 	    if ($h) {
-		push @xx, $glyf{$glyf{$h}};
+		if ($h =~ /^[0-9]/) {
+		    push @xx, $glyf{$h};
+		} else {
+		    push @xx, $glyf{$glyf{$h}};
+		}
 	    } else {
 		warn "seq_liga_view: no hex for name $n\n";
 	    }
@@ -219,7 +235,35 @@ sub seq_validate {
     # print Dumper $ea; exit 1;
     seqv_db_but_not_in_sl($db, $ea, $cu);
     seqv_sl_but_not_in_db($db, $ea, $cu);
+    seqv_db_and_glyf();
     return $seqv_status;
+}
+
+
+sub seqv_db_and_glyf {
+    my @s = `cut -f1-2 00etc/seq-final.tsv`; chomp @s;
+    my %s = ();
+    foreach (@s) {
+	my($o,$c) = split(/\t/,$_);
+	if ($c) {
+	    if ($s{$c}) {
+		warn "00etc/seq-base.tsv: duplicate char $c\n";
+		++$seqv_status;
+	    } else {
+		$s{$c} = $o;
+	    }
+	}
+    }
+    my @g = `cut -f1-2 00etc/glyf-base.tsv`; chomp @g;
+    for (my $i = 0; $g[$i]; ) {
+	my($c,$n) = split(/\t/,$g[$i]);
+	if ($s{$c}) {
+	    ++$i;
+	    warn "00etc/glyf-base.tsv:$i: $c = $n is in glyf and seq\n";
+	} else {
+	    ++$i;
+	}
+    }
 }
 
 sub seqv_load_db {

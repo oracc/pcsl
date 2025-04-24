@@ -1,9 +1,14 @@
+# Dependencies for later signs must come at the start of this file and
+# be prefixed with a '+' indicating they should be added to the glyf
+# hash when processed by seq-final.plx.
+
++o0900969	󳂒	𒣬⁢𒣬	|(HI×1(N57))∘(HI×1(N57))|
+
 o0900535	𒟨	𒟙‍‍󳄆⁢𒩴‍𒫤	|EN~a.NAM₂~2.(ŠE~a+EZEN)∘NUN~a.SIG₇~2|
 o0900535	𒟩	𒟙‍𒛦⁢‍𒫣‍⁢𒧢‍𒩴	|EN~a.BAHAR₂~b∘SIG₇~1.ME~a.NUN~a|
 o0901524	𒩉	𒪵‍󳃻	|SAL.NAM₂~2|
 o0901577	𒩨	𒪵‍󳃻‍󳄆⁢𒩴‍𒫤	|SAL.NAM₂~2.(ŠE~a+EZEN)∘NUN~a.SIG₇~2|
 o0901577	𒩨	𒪵‍󳃻‍󳄆⁢𒩴‍𒫤	|SAL.NAM₂~2.(ŠE~a+EZEN)∘NUN~a.SIG₇~2|
-o0900969	󳂒	𒣬⁢𒣬	|(HI×1(N57))∘(HI×1(N57))|
 o0901301	𒦳	⁢𒭒⁢𒬷	|ŠE~a.ŠA|
 o0901301	𒦴	⁢𒬷⁢𒭒	|ŠA~4∘ŠE~a|
 o0900098	󲜖	𒛌‍𒣾‍𒢎	|AN.IM~a.GI₆|
@@ -171,10 +176,7 @@ o0902191		𒯽‍𒕢	|U₄×5(N01).1(N14)|
 o0902194		𒰀‍O	|U₄×8(N01).X|
 o0902334		𒱟‍𒚘	|URI₃~a.AB~a|
 o0902336		𒱟‍𒣴	|URI₃~a.IB~a|
-o0901475	󳂞	𒱟‍𒨋	|URI₃~a.NA~a|
 o0902330		𒱟‍𒱄	|URI₃~a.UNUG~a|
-o0901475	𒨪	𒱠‍𒨋	|URI₃~a~v1∘NA~a|
-o0901475	𒨩	𒱠‍𒨋	|URI₃~a~v1.NA~a|
 o0901016	𒤉	𒲁‍𒥬	|UŠ~b.KUR~a|
 o0901016	𒤈	󳃲‍𒥬	|UŠ~a~v1.KUR~a|
 o0902614		𒴶‍𒪣	|ZATU714.RU|
@@ -190,8 +192,10 @@ o0903242		󰄒‍𒟣	|3(N57).EN₂|
 o0903250		󰄒‍𒪼	|3(N57).SANGA~a|
 o0903251		󰄒‍𒫇	|3(N57).SI|
 o0903274		󰄖‍𒡨	|7(N57).GAR|
-o0901475	𒨪	𒱠⁢‍𒨋	|URI₃∘NA|
-o0901475	𒨩	𒱠‍‍𒨋	|URI₃.NA|
+o0901475	󳂞	𒱟‍𒨋	|URI₃~a.NA~a|
+o0901475	𒨪	𒱠‍𒨋	|URI₃~a~v1∘NA~a|
+o0901475	𒨩	𒱠‍𒨋	|URI₃~a~v1.NA~a|
+o0901475	𒨪	𒱠⁢𒨋	|URI₃∘NA|
 o0901601		𒩺‍𒯡	|NUN~b.U₄|
 o0901702		𒪵‍𒧢	|SAL.ME~a|
 o0902041		𒮘‍𒛌	|ŠU₂.AN|
