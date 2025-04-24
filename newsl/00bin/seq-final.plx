@@ -12,6 +12,8 @@ use Getopt::Long;
 GetOptions(
     );
 
+seq_validate() || die "$0: failed seq validation. Stop\n";
+
 my $warned = 0;
 my %u = (); load_unicode();
 
@@ -191,3 +193,51 @@ sub seq_view {
     }
     join('',@xx);
 }
+
+#######################################################################################
+#
+# Validation routines
+#
+
+sub seq_validate {
+    my($dbhash,$dblist) = seqv_load_db();
+    my %easl = seqv_load_sl('00etc/easl-base.tsv');
+    my %cusas = seqv_load_sl('00etc/cusas-final.tsv');
+    seqv_db_but_not_in_sl(\%s,\%easl,\%cusas);
+    seqv_sl_but_not_in_db(\%s,\%easl,\%cusas);
+}
+
+sub seqv_load_db {
+    my @seq = `cut -f1,5 00etc/seq-final.tsv`; chomp @seq;
+    my %seq = ();
+    foreach (@seq) {
+	my($o,$n) = split(/\t/,$_);
+	$seq{$o} = $n;
+    }
+    (\%seq, \@seq);
+}
+
+sub seqv_load_sl {
+    my @sl = `cut -f1-2 $_[0]`; chomp @sl;
+    my %sl = ();
+    foreach (@sl) {
+	my($o,$t) =~ split(/\t/,$_);
+	$sl{$o} = $t;
+    }
+    %sl;
+}
+
+sub seqdb_but_not_in_sl {
+    my @db = @$_[0];
+    my %ea = %$_[1];
+    my %cu = %$_[2];
+    for (my $i = 0; $
+}
+
+sub sl_but_not_in_seqdb {
+    my %db = %$_[0];
+    my %ea = %$_[1];
+    my %cu = %$_[2];
+}
+
+
