@@ -41,19 +41,33 @@ GetOptions(
 die "Usage: $0 -a [ADD] -t [TTX] -o [OUT]\n"
     unless $addfile && $outfile && $ttxfile;
 
+my @glyphid = ();
+my @mtx = ();
+my @ttglyph = ();
+
 my $status = 0;
 my %add = ();
 my %tab = (); my @t = `cat $addfile`; chomp @t;
 foreach (@t) {
     my($a,$m) = split(/\t/,$_);
     if ($tab{$a}) {
-	warn "$0: duplicate 'add' char $o\n";
+	warn "$0: duplicate 'add' char $a\n";
 	++$status;
     } else {
-	if ($m eq '-' || $m =~ /^[0-9A-F_]+$/) {
-	    $tab{$a} = $m;
+	if ($m =~ s/^\@//) {
+	    push @glyphid, "<GlyphID name=\"$a\"/>\n";
+	    push @mtx, "<mtx name=\"$a\" width=\"0\" lsb=\"0\"/>\n";
+	    my $sf = '';
+	    if ($m =~ s/\s+\*\s+(\S+)\s*$//) {
+		$sf = " scale=\"$1\"";
+	    }
+	    push @ttglyph, <<EOF;
+<TTGlyph name=\"$a\">
+  <component glyphName=\"u$m\" x="8" y="0" $sf flags="0x1000"/>
+</TTGlyph>
+EOF
 	} else {
-	    warn "$0: bad character in method '$n' for add '$a'\n";
+	    warn "$0: bad character in method '$m' for add '$a'\n";
 	    ++$status;
 	}
     }
@@ -61,7 +75,20 @@ foreach (@t) {
 
 die "$0: errors in add table. Stop.\n" if $status;
 
-#print Dumper \%tab; exit 1;
+open(T, $ttxfile) || die;
+open(O, ">$outfile") || die; select O;
+while (<T>) {
+    if (m#</GlyphOrder#) {
+	print @glyphid;
+    } elsif (m#</hmtx#) {
+	print @mtx;
+    } elsif (m#</glyf#) {
+	print @ttglyph;
+    }
+    print;
+}
+close(O);
+close(T);
 
 1;
 

@@ -50,7 +50,7 @@ foreach (@s) {
     my($o,$c,$s) = split(/\t/,$_);
     my $xc = $m{$c};
     my $xs = mm($s);
-    print "$xs\t\@$xc\n" unless $c eq '0';
+    print "$xs.liga\t\@$xc\n" unless $c eq '0';
 }
 
 # ADD 4: Uruk IV/Uruk III forms
@@ -69,18 +69,30 @@ foreach (@u43) {
 my @c = `xzgrep '<TTGlyph' $font`; chomp @c;
 foreach (@c) {
     my($u,$xmin,$ymin,$xmax,$ymax) = (/^.*?name="(.*?)" xMin="(.*?)" yMin="(.*?)" xMax="(.*?)" yMax="(.*?)"/);
-    if ($xmax && $xmin && $ymax && $ymin) {
-	my $x = $xmax - $xmin;
-	my $y = $ymax - $ymin;
-	if ($x > $y) {
-	    if ($x > 1200) {
-		my $sf = 1200/$x;
-		printf "$u.cv99\t\@$u * %.02f\n", $sf;
+    if ($u) {
+	my $uh = $u; $uh =~ s/^u//; $uh =~ s/\..*$//;
+	if ($uh =~ /^[0-9A-F]+$/) {
+	    my $h = hex($uh);
+	    if ($h >= 0x12690 && $u =~ /^u12/) {
+		if ($xmax && $xmin && $ymax && $ymin) {
+		    my $x = $xmax - $xmin;
+		    my $y = $ymax - $ymin;
+		    if ($x > $y) {
+			if ($x > 1200) {
+			    my $sf = 1200/$x;
+			    my $psf = sprintf("%.02f", $sf);
+			    # warn "$u has x = $x\n";
+			    printf "$u.cv99\t\@$u * $psf\n" unless $psf eq '1.00';
+			}
+		    } else {
+			if ($y > 1200) {
+			    warn "$u has y=$y\n";
+			}
+		    }
+		}
 	    }
 	} else {
-	    if ($y > 1200) {
-		warn "$u has y=$y\n";
-	    }
+	    warn "non-hex TTGlyph name $u\n" unless $u =~ /uni25A1|\.notdef/;
 	}
     }
 }
