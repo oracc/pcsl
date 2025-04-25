@@ -81,8 +81,10 @@ while (<S>) {
     my $lv = seq_liga_view($s);
 
     if ($addglyf) {
-	$glyf{$c} = $xn;
-	$glyf{$xn} = $sq;
+	my $axn = $xn;
+	$axn =~ s/^\|(.*?)\|$/($1)/;
+	$glyf{$c} = $axn;
+	$glyf{$axn} = $sq;
 	$glyf{$sq} = $lv;
     }
     

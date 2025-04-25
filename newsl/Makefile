@@ -16,13 +16,25 @@ PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
+DVHTML=00web/easl-tab.html 00web/pcsl-tab.html 00web/pc25-tab.html 00web/num-tab.html 00web/cusas-tab.html
+DVXML=00etc/easl-final.xml 00etc/pcsl-final.xml 00etc/pc25-final.xml 00etc/num-final.xml 00etc/cusas-final.xml
+SLDEPS=00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
+SLHTML=00web/atu3-tab.html 00web/atu5-tab.html 00web/msvo1-tab.html 00web/msvo4-tab.html
+SLXML=00etc/atu3-final.xml 00etc/atu5-final.xml 00etc/msvo1-final.xml 00etc/msvo4-final.xml
 PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst
+XMLDEPS=00bin/final-xml.plx 00bin/final-preambles.xsl
+NOXML=00etc/no_broken.xml 00etc/no_corpus.xml 00etc/no_delete.xml 00etc/no_sequence.xml 00etc/no_number.xml 00etc/no_numberxacn.xml 00etc/no_sequencexexc.xml
+NOHTML=00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html
 
 ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
 
 default: base core pc25 pcsl html css js font
+
+###
+### BASE
+###
 
 base: 00etc/pc24.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv
 
@@ -35,6 +47,10 @@ base: 00etc/pc24.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
 	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
+
+###
+### CORE
+###
 
 core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-final.tsv
 	00bin/seq-final.plx -v
@@ -57,11 +73,11 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv 00etc/refglyph.tsv
 	00bin/pcsl-final.plx
 
-#%: Makefile 00etc/%-final.tsv
-#	SL=$* make xml html images
+###
+### PC25
+###
 
 pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
-#	SL=$@ make csldist xml html images pc25no-html pc25tab
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
 	00bin/pc25-final.plx
@@ -73,59 +89,56 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
 	00bin/pc25-add.plx >$@
 
-pcsl: Makefile 00etc/pcsl-final.tsv ../00lib/pcsl.asl
-#	SL=$@ make xml html images asl
+###
+### PCSL
+###
 
-asl: 00lib/pcsl.asl
+pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl
 
 00lib/pcsl.asl: 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
 	00bin/pcsl-asl.plx
 
-#00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
-#	00bin/pc25rep.sh <$< >$@
+###
+### XML
+###
+# 00etc/easl-final.xml 00etc/cusas-final.xml 00etc/
+xml: ${SLXML} ${DVXML}
 
-#seq: 00web/easl-seq.html
+00etc/atu3-final.xml: 00etc/atu3-final.tsv ${XMLDEPS}
+	00bin/final-xml.plx atu3
 
-#00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
-#	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
-#	${sudo} cp $@ ${WWW}/pcsl/easl/
-#	${sudo} chmod +r ${WWW}/pcsl/easl/easl-seq.html
+00etc/atu5-final.xml: 00etc/atu5-final.tsv ${XMLDEPS}
+	00bin/final-xml.plx atu5
 
-#csldist:
-#	true
+00etc/msvo1-final.xml: 00etc/msvo1-final.tsv ${XMLDEPS}
+	00bin/final-xml.plx msvo1
 
-# # 00etc/csldist.tsv
+00etc/msvo4-final.xml: 00etc/msvo4-final.tsv ${XMLDEPS}
+	00bin/final-xml.plx msvo4
 
-# # csldist-all: 00etc/csldist-all.tsv
+00etc/easl-final.xml: 00etc/easl-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
+	00bin/final-xml.plx easl
 
-# # 00etc/csldist.tsv: ${ORACC}/pcsl/02pub/csl.tix Makefile
-# # 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
+00etc/cusas-final.xml: 00etc/cusas-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
+	00bin/final-xml.plx cusas
 
-# # 00etc/csldist-all.tsv: ${ORACC}/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
-# # 	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
+00etc/num-final.xml: 00etc/num-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
+	00bin/final-xml.plx num
 
-xml: 00etc/${SL}-final.xml
+00etc/pcsl-final.xml: 00etc/pcsl-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
+	00bin/final-xml.plx pcsl
 
-00etc/%-final.xml: 00etc/${SL}-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl 00bin/final-HTML.xsl
-	00bin/final-xml.plx ${SL}
-
-00etc/cusas-final.xml: 00etc/cusas-final.tsv 00etc/csldist-all.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl
-	00bin/final-xml.plx ${SL}
-
-00etc/easl-final.xml: 00etc/*-final.tsv 00bin/final-xml.plx 00bin/final-preambles.xsl 00etc/csldist.tsv 00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
-	00bin/final-xml.plx ${SL}
-
-html: 00web/${SL}-tab.html
+00etc/pc25-final.xml: 00etc/pc25-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
+	00bin/final-xml.plx pc25
 
 00etc/no_%.xml: 00etc/no_%.tsv
 	00bin/final-xml.plx $<
 
-00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl
-	00bin/pc25no-html.sh $<
+###
+### HTML
+###
 
-pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html
-	${sudo} cp $^ ${PCSL}/pc25
-	${sudo} chmod -R +r ${PCSL}/pc25
+html: ${SLHTML} ${DVHTML} ${NOHTML}
 
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
@@ -133,6 +146,17 @@ pc25no-html: 00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00we
 	${sudo} mkdir -p ${PRJ}
 	${sudo} cp 00web/$*-tab.html ${PRJ}
 	${sudo} chmod -R +r ${PRJ}
+
+00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl
+	00bin/pc25no-html.sh $<
+
+pc25no-html: ${NOHTML}
+	${sudo} cp $^ ${PCSL}/pc25
+	${sudo} chmod -R +r ${PCSL}/pc25
+
+###
+### HTML SUPPORT
+###
 
 css:
 	00bin/xinst.sh css ../00res/css/*.css
@@ -152,17 +176,49 @@ images/${SL}/.images: images/${SL}/*.png
 	${sudo} cp images/${SL}/*.png ${PRJ}/images
 	touch $@
 
-clean-core:
-	(cd 00etc ; rm -vf atu[35]-final.xml msvo[14]-final.xml easl-final.* cusas-final.* num-final.*)
+###
+### Cleaners
+###
 
-clean-pcsl:
-	(cd 00etc ; rm -vf seq-final.tsv glyf-final.tsv pcsl-final.tsv)
+clean-base:
+	(cd 00etc ; rm -vf pc24.tsv seq-final.tsv glyf-final.tsv)
+
+clean-core:
+	(cd 00etc ; rm -vf easl-final.* cusas-final.* num-final.* pcsl-final.*)
 
 clean-pc25:
-	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv)
+	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv)
+
+clean-pcsl:
+	(cd 00etc ; rm -vf 00lib/pcsl.asl)
+
+clean-xml:
+	rm -vf ${SLXML} ${DVXML} ${NOXML}
 
 clean-web:
 	rm -vf 00web/*-tab.html 00web/no_*.html 00etc/no_sequence.xml
 
-clean: clean-core clean-pc25 clean-pcsl clean-web
+clean: clean-base clean-core clean-pc25 clean-pcsl clean-xml clean-web
 	@true
+
+###
+### Probably no longer used
+###
+
+#00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
+#	00bin/pc25rep.sh <$< >$@
+
+#seq: 00web/easl-seq.html
+
+#00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
+#	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
+#	${sudo} cp $@ ${WWW}/pcsl/easl/
+#	${sudo} chmod +r ${WWW}/pcsl/easl/easl-seq.html
+
+csldist: 00etc/csldist.tsv 00etc/csldist-all.tsv
+
+00etc/csldist.tsv: ${ORACC}/pcsl/02pub/csl.tix Makefile
+	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
+
+00etc/csldist-all.tsv: ${ORACC}/pcsl/02pub/csl.tix Makefile 00bin/csldist-all.xsl
+	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@

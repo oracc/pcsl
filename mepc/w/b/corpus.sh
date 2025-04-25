@@ -46,8 +46,9 @@ done
 sort -u c-3-* | comm -23 c-3 - >c-3-misc
 sort -u c-4-* | comm -23 c-4 - >c-4-misc
 
-cut -f1,7,11 ../../../00cat/pcsl.tsv | grep unpublished | grep III$ | cut -f1 | sort >u-3
-cut -f1,7,11 ../../../00cat/pcsl.tsv | grep unpublished | grep IV$ | cut -f1 | sort >u-4
+../b/mk-u.sh
+#cut -f1,7,11 ../../../00cat/pcsl.tsv | grep unpublished | grep III$ | cut -f1 | sort >u-3
+#cut -f1,7,11 ../../../00cat/pcsl.tsv | grep unpublished | grep IV$ | cut -f1 | sort >u-4
 
 # compute published texts
 comm -23 c-3 u-3 >p-3

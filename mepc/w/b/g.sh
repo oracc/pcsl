@@ -1,6 +1,6 @@
 ##!/bin/sh
-
-echo $0 $*
+#set -x
+#echo $0 $*
 p=$1
 l=$2
 b=$3

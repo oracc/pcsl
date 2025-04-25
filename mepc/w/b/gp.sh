@@ -4,10 +4,11 @@
 # those lines.
 #
 t=$1
-grep ^[Tg] $t | grep -vF '	..	' | while IFS= read l ; do
-    if [[ "$l" == "T"* ]]; then
-	P=`/bin/echo -n $l | cut -d' ' -f3`
-    else
-	echo $P'	'"$l"
-    fi
-done
+grep -vF '	..	' $t | tokpg
+#grep ^[Tg] $t | grep -vF '	..	' | while IFS= read l ; do
+#    if [[ "$l" == "T"* ]]; then
+#	P=`/bin/echo -n $l | cut -d' ' -f3`
+#    else
+#	echo $P'	'"$l"
+#    fi
+#done

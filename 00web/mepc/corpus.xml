@@ -55,11 +55,11 @@
         <tbody>
           <tr>
             <th>Uruk</th>
-            <td>1790</td>
-            <td>0</td>
+            <td>1191</td>
+            <td>599</td>
             <td>1790 </td>
-            <td>3097</td>
-            <td>0</td>
+            <td>1575</td>
+            <td>1522</td>
             <td>3097</td>
           </tr>
           <tr>
@@ -67,8 +67,8 @@
             <td>0</td>
             <td>0</td>
             <td>0 </td>
-            <td>269</td>
-            <td>0</td>
+            <td>236</td>
+            <td>33</td>
             <td>269</td>
           </tr>
           <tr>
@@ -76,8 +76,8 @@
             <td>0</td>
             <td>0</td>
             <td>0 </td>
-            <td>398</td>
-            <td>0</td>
+            <td>90</td>
+            <td>308</td>
             <td>398</td>
           </tr>
           <tr>
@@ -85,26 +85,26 @@
             <td>0</td>
             <td>0</td>
             <td>0 </td>
-            <td>42</td>
-            <td>0</td>
+            <td>39</td>
+            <td>3</td>
             <td>42</td>
           </tr>
           <tr>
             <th>Misc</th>
-            <td>45</td>
-            <td>0</td>
+            <td>29</td>
+            <td>16</td>
             <td>45 </td>
-            <td>655</td>
-            <td>0</td>
+            <td>369</td>
+            <td>286</td>
             <td>655</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>1835</td>
-            <td>0</td>
+            <td>1220</td>
+            <td>615</td>
             <td>1835 </td>
-            <td>4461 </td>
-            <td>0</td>
+            <td>2309 </td>
+            <td>2152</td>
             <td>4461</td>
           </tr>
         </tbody>
@@ -140,11 +140,11 @@
         <tbody>
           <tr>
             <th>Uruk</th>
-            <td>1279</td>
-            <td>0</td>
+            <td>1191</td>
+            <td>88</td>
             <td>1279 </td>
-            <td>1973</td>
-            <td>0</td>
+            <td>1574</td>
+            <td>399</td>
             <td>1973</td>
           </tr>
           <tr>
@@ -152,8 +152,8 @@
             <td>0</td>
             <td>0</td>
             <td>0 </td>
-            <td>237</td>
-            <td>0</td>
+            <td>236</td>
+            <td>1</td>
             <td>237</td>
           </tr>
           <tr>
@@ -161,8 +161,8 @@
             <td>0</td>
             <td>0</td>
             <td>0 </td>
-            <td>93</td>
-            <td>0</td>
+            <td>90</td>
+            <td>3</td>
             <td>93</td>
           </tr>
           <tr>
@@ -170,26 +170,26 @@
             <td>0</td>
             <td>0</td>
             <td>0 </td>
-            <td>42</td>
-            <td>0</td>
+            <td>39</td>
+            <td>3</td>
             <td>42</td>
           </tr>
           <tr>
             <th>Misc</th>
-            <td>33</td>
-            <td>0</td>
+            <td>29</td>
+            <td>4</td>
             <td>33 </td>
-            <td>587</td>
-            <td>0</td>
+            <td>365</td>
+            <td>222</td>
             <td>587</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>1312</td>
-            <td>0</td>
+            <td>1220</td>
+            <td>615</td>
             <td>1312 </td>
-            <td>2932 </td>
-            <td>0</td>
+            <td>2304 </td>
+            <td>2152</td>
             <td>2932</td>
           </tr>
         </tbody>

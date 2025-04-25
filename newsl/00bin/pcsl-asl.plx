@@ -17,7 +17,7 @@ my $f = '00etc/pcsl-final.tsv';
 die "$0: $f not readable. Stop.\n"
     unless -r $f;
 
-my $outfile = "../00lib/pcsl.asl";
+my $outfile = "00lib/pcsl.asl";
 my $X = 1;
 
 my %n = (); load_oid();
