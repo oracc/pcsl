@@ -50,7 +50,8 @@ my %add = ();
 my %tab = (); my @t = `cat $addfile`; chomp @t;
 foreach (@t) {
     my($a,$m) = split(/\t/,$_);
-    if ($tab{$a}) {
+    $a =~ s/^u?/u/;
+    if ($tab{$a}++) {
 	warn "$0: duplicate 'add' char $a\n";
 	++$status;
     } else {
@@ -61,8 +62,9 @@ foreach (@t) {
 	    if ($m =~ s/\s+\*\s+(\S+)\s*$//) {
 		$sf = " scale=\"$1\"";
 	    }
+	    $m =~ s/^u//;
 	    push @ttglyph, <<EOF;
-<TTGlyph name=\"$a\">
+<TTGlyph name=\"u$a\">
   <component glyphName=\"u$m\" x="8" y="0" $sf flags="0x1000"/>
 </TTGlyph>
 EOF

@@ -65,8 +65,10 @@ while (<T>) {
 	    s/"u$old_u"/"u$new_u$cvnn"/;
 	    warn "map u$old_u to u$new_u\n" if $verbose;
 	} else {
-	    warn "no tab entry for $old_u\n"
-		unless $warned{$old_u}++;
+	    unless ($old_u =~ /^E01/) {
+		warn "no tab entry for $old_u\n"
+		    unless $warned{$old_u}++;
+	    }
 	}
 	if (/code="0x([0-9A-F]{5})"/i) {
 	    $old_u = $1;
@@ -75,8 +77,10 @@ while (<T>) {
 		s/"0x$old_u"/"0x$new_u"/;
 		warn "map 0x$old_u to 0x$new_u\n" if $verbose;
 	    } else {
-		warn "no tab entry for code=$old_u\n"
-		    unless $warned{"\U$old_u"}++;
+		unless ($old_u =~ /^E01/) {
+		    warn "no tab entry for code=$old_u\n"
+			unless $warned{"\U$old_u"}++;
+		}
 	    }
 	}
     } elsif (/<component glyphName="u([0-9A-F]{5})"/) {
@@ -116,8 +120,10 @@ sub umap {
 	s/"u$old_u"/"u$new_u$cvnn"/;
 	warn "map u$old_u to u$new_u\n" if $verbose;
     } else {
-	warn "no tab entry for $old_u\n"
-	    unless $warned{$old_u}++;
+	unless ($old_u =~ /^E01/) {
+	    warn "no tab entry for $old_u\n"
+		unless $warned{$old_u}++;
+	}
     }
 }
 

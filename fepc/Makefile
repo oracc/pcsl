@@ -4,7 +4,7 @@
 PC25.ttf: PC25+.ttx bin/pc25-ttf.sh
 	bin/pc25-ttf.sh
 
-PC25+.ttx: PC25.ttx
+PC25+.ttx: PC25.ttx bin/ttxadd.plx
 	bin/pc25-add.sh
 
 PC25.ttx: PC24.ttx.xz pc25.map pc25.add bin/pc25-ttx.sh bin/ttxmap.plx

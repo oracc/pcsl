@@ -82,7 +82,8 @@ foreach (@c) {
 			    my $sf = 1200/$x;
 			    my $psf = sprintf("%.02f", $sf);
 			    # warn "$u has x = $x\n";
-			    printf "$u.cv99\t\@$u * $psf\n" unless $psf eq '1.00';
+			    my $mu = $m{$uh};
+			    printf "$mu.cv99\t\@$mu * $psf\n" unless $psf eq '1.00';
 			}
 		    } else {
 			if ($y > 1200) {
