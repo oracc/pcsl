@@ -167,7 +167,7 @@ my @f = `xzgrep '<GlyphID' $font`;
 foreach my $f (@f) {
     my($u) = ($f =~ /name="u([0-9A-F]{5})"/);
     if ($u) { # ignore .cvnn entries
-	warn "unmapped font character $u\n" unless exists $m{$u};
+	warn "unmapped font character $u\n" unless exists $m{$u} || $u =~ /^E0[0-9A-F]{3}$/;
     }
 }
 

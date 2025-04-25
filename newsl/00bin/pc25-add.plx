@@ -33,11 +33,12 @@ foreach (@m) {
 }
 
 # ADD 1: glyf variants of encoded characters as .cvnn
-# ADD 2: alternate number forms automatically included here
+# ADD 2: alternate number forms excluded here because they are in PC24 already
 
 my @g = `grep -v '~01\$' 00etc/glyf-final.tsv | cut -f 3-4,6`; chomp @g;
 foreach (@g) {
     my($b,$u,$t) = split(/\t/,$_);
+    next if hex($b) < 0x12690;
     $t =~ tr/~//d;
     my $td = hex($t);
     printf("$m{$b}.cv%02d\t\@$m{$u}\n",$td-1);
@@ -83,7 +84,7 @@ foreach (@c) {
 			    my $psf = sprintf("%.02f", $sf);
 			    # warn "$u has x = $x\n";
 			    my $mu = $m{$uh};
-			    printf "$mu.cv99\t\@$mu * $psf\n" unless $psf eq '1.00';
+			    printf "$mu.ss20\t\@$mu * $psf\n" unless $psf eq '1.00';
 			}
 		    } else {
 			if ($y > 1200) {
@@ -106,6 +107,7 @@ sub mm {
     my @x = split(/_/,$_[0]);
     my @n = ();
     foreach my $x (@x) {
+	next if $x eq 'E0101'; # by definition these are identical with the unmarked form
 	if ($m{$x}) {
 	    push @n, "u$m{$x}";
 	} else {

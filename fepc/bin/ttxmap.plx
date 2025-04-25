@@ -77,7 +77,7 @@ while (<T>) {
 		s/"0x$old_u"/"0x$new_u"/;
 		warn "map 0x$old_u to 0x$new_u\n" if $verbose;
 	    } else {
-		unless ($old_u =~ /^E01/) {
+		unless ($old_u =~ /^E01/i) {
 		    warn "no tab entry for code=$old_u\n"
 			unless $warned{"\U$old_u"}++;
 		}
@@ -89,7 +89,7 @@ while (<T>) {
 	my($in,$out,$cvnn) = ($1,$2,$3);
 	iomap($in,$out);
     } elsif (/[12F][0-9A-F]{4}/) {
-	warn "unhandled cuneihex: $_" unless /Uni12580/ || /11101|x10000/ || /[01]{8}/;
+	warn "unhandled cuneihex: $_" unless /Uni12580/ || /11101|x10000/ || /[01]{8}/ || /value=/;
     } else {
 	s/PC24/PC25/;
     }

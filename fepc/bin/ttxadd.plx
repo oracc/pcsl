@@ -24,6 +24,7 @@ use Getopt::Long;
 ## character is constructed using the components but omitting any ZWJ.
 ##
 
+my $debug = 0;
 my %warned = ();
 
 my $addfile = undef;
@@ -32,6 +33,7 @@ my $ttxfile = undef;
 my $verbose = 0;
 
 GetOptions(
+    debug=>\$debug,
     'add:s'=>\$addfile,
     'out:s'=>\$outfile,
     'ttx:s'=>\$ttxfile,
@@ -41,6 +43,7 @@ GetOptions(
 die "Usage: $0 -a [ADD] -t [TTX] -o [OUT]\n"
     unless $addfile && $outfile && $ttxfile;
 
+my %known = (); my @k = `grep GlyphID $ttxfile | cut -d'"' -f4`; chomp @k; @known{@k} = ();
 my @glyphid = ();
 my @mtx = ();
 my @ttglyph = ();
@@ -50,25 +53,31 @@ my %add = ();
 my %tab = (); my @t = `cat $addfile`; chomp @t;
 foreach (@t) {
     my($a,$m) = split(/\t/,$_);
+    next if $a =~ /u4F/;
     $a =~ s/^u?/u/;
     if ($tab{$a}++) {
 	warn "$0: duplicate 'add' char $a\n";
 	++$status;
     } else {
+	$a =~ s/u(?=200D|2062|2064)/uni/g;
+	$status = check_liga($a)
+	    if $a =~ /_/;
 	if ($m =~ s/^\@//) {
-	    push @glyphid, "<GlyphID name=\"$a\"/>\n";
-	    push @mtx, "<mtx name=\"$a\" width=\"0\" lsb=\"0\"/>\n";
-	    my $sf = '';
-	    if ($m =~ s/\s+\*\s+(\S+)\s*$//) {
-		$sf = " scale=\"$1\"";
-	    }
-	    $m =~ s/^u//;
-	    push @ttglyph, <<EOF;
-<TTGlyph name=\"u$a\">
+	    unless ($status) {
+		push @glyphid, "<GlyphID name=\"$a\"/>\n";
+		push @mtx, "<mtx name=\"$a\" width=\"0\" lsb=\"0\"/>\n";
+		my $sf = '';
+		if ($m =~ s/\s+\*\s+(\S+)\s*$//) {
+		    $sf = " scale=\"$1\"";
+		}
+		$m =~ s/^u//;
+		push @ttglyph, <<EOF;
+<TTGlyph name=\"$a\" >
   <component glyphName=\"u$m\" x="8" y="0" $sf flags="0x1000"/>
 </TTGlyph>
 EOF
-	} else {
+	    }
+	} else {	    
 	    warn "$0: bad character in method '$m' for add '$a'\n";
 	    ++$status;
 	}
@@ -77,22 +86,45 @@ EOF
 
 die "$0: errors in add table. Stop.\n" if $status;
 
-open(T, $ttxfile) || die;
-open(O, ">$outfile") || die; select O;
-while (<T>) {
-    if (m#</GlyphOrder#) {
-	print @glyphid;
-    } elsif (m#</hmtx#) {
-	print @mtx;
-    } elsif (m#</glyf#) {
-	print @ttglyph;
+if ($debug) {
+    open(D,'>ttxadd.dbg'); select D;
+    print '<debug>';
+    print '<GlyphOrder>', @glyphid, '</GlyphOrder>';
+    print '<hmtx>', @mtx, '</hmtx>';
+    print '<glyf>', @ttglyph, '</glyf>';
+    print '</debug>';
+    close(D);
+} else {
+    open(T, $ttxfile) || die;
+    open(O, ">$outfile") || die; select O;
+    while (<T>) {
+	if (m#</GlyphOrder#) {
+	    print @glyphid;
+	} elsif (m#</hmtx#) {
+	    print @mtx;
+	} elsif (m#</glyf#) {
+	    print @ttglyph;
+	}
+	print;
     }
-    print;
+    close(O);
+    close(T);
 }
-close(O);
-close(T);
 
 1;
 
 ################################################################################
 
+sub check_liga {
+    my $l = shift;
+    my $lstatus = 0;
+    $l =~ s/\.liga$// || warn "$l has no .liga\n";
+    my @l = split(/_/,$l);
+    foreach my $x (@l) {
+	unless (exists $known{$x}) {
+	    warn "$l has unknown component $x\n";
+	    ++$lstatus;
+	}
+    }
+    return $lstatus;
+}
