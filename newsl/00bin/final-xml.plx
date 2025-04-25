@@ -11,13 +11,8 @@ use ORACC::XML;
 
 use Getopt::Long;
 
-my $asl = 0;
-my $aslg = 0;
 GetOptions(
-    a=>\$asl,
     );
-
-$asl = $aslg if $aslg;
 
 my $n = shift @ARGV;
 
@@ -36,7 +31,7 @@ if ($n =~ /\.tsv/) {
 die "$0: $f not readable. Stop.\n"
     unless -r $f;
 
-my $outfile = $asl ? ($aslg ? "00etc/pc25_charnames.tsv" : "../00lib/pcsl.asl") : "00etc/$n-final.xml";
+my $outfile = "00etc/$n-final.xml";
 $outfile =~ s/-final// if $n =~ /^no_/;
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
@@ -54,9 +49,6 @@ if ($n =~ /^no_/) {
 
 my $X = 1;
 
-die "$0: asl output only supported with pcsl. Stop.\n"
-    if $asl && !$pcslflag;
-
 my %n = (); load_oid();
 my %u = (); load_unicode();
 
@@ -68,11 +60,8 @@ my %oidmap = (); load_oidmap() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 
 open(X,">$outfile"); select X;
-if ($asl) {
-    print `cat 00etc/header.asl` unless $aslg;
-} else {
-    print "<sl n=\"$n\">";
-}
+print "<sl n=\"$n\">";
+
 warn "$0: input=$f\n";
 open(N,$f);
 while (<N>) {
@@ -121,170 +110,23 @@ while (<N>) {
 	    }
 	}
     }
-    if ($asl) {
-	asl_sign($p,$o,$r,$c) unless $p eq 'RI~x';
+    if ($pcslflag || $pc25flag) {
+	my $row = $fn ? " row=\"$fn\"" : '';
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist>";
     } else {
-	if ($pcslflag || $pc25flag) {
-	    my $row = $fn ? " row=\"$fn\"" : '';
-	    print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist>";
-	} else {
-	    print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
-	}
-	chars($c);
-	sl($o,$p) if $easlflag || $pcslflag || $pc25flag;
-	print '</sign>';
+	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
+    chars($c);
+    sl($o,$p) if $easlflag || $pcslflag || $pc25flag;
+    print '</sign>';
 }
 close(N);
-if ($asl) {
-#    print `cat 00etc/add.asl`;
-#    print `cat 00etc/num.asl`;
-#    print `cat 00etc/n57-keep.asl`;
-    print `cat 00etc/compoundonly.asl` unless $aslg;
-} else {
-    print '</sl>';
-}
+print '</sl>';
 close(X);
 
 1;
 
 ################################################################################
-
-sub asl_chars {
-    my($r,$c,$n) = @_;
-    my @c = split(/[,;]/,$c);
-    if ($#c >= 0) {
-	if ($r) {
-	    if ($aslg) {
-		print "$r\t$n\n";
-	    } else {
-		asl_pchar($r);
-	    }
-	} else {
-	    if ($aslg) {
-		print shift @c, "\t$n\n";
-	    } else {
-		asl_pchar(shift @c);
-	    }
-	}
-	my $glyf_index = 1;
-	foreach my $cc (@c) {
-	    unless ($cc eq $r) {
-		if ($aslg) {
-		    print "$cc\t$n~$glyf_index\n";
-		    ++$glyf_index;
-		} else {
-		    asl_pglyf($n,$cc,$glyf_index++);
-		}
-	    }
-	}
-    }
-}
-
-sub asl_sign {
-    my($s,$o,$r,$c) = @_;
-    unless ($aslg) {
-	my $om = $oidmap{$o} || $o;
-	print "\@sign $s\n";
-	if ($aka{$o}) {
-	    foreach my $a (@{$aka{$o}}) {
-		print "\@aka $a\n";
-	    }
-	} elsif ($aka{$om}) {
-	    foreach my $a (@{$aka{$om}}) {
-		print "\@aka $a\n";
-	    }
-	}
-	print "\@oid $om\n";
-    }
-    asl_chars($r, $c, $s);
-    print "\@end sign\n\n" unless $aslg;
-}
-
-sub asl_pchar {
-    my %xuname = (
-	'𒮘' => 'PROTO-CUNEIFORM SIGN SHU2',
-	'𒟁' => 'PROTO-CUNEIFORM SIGN DUG-C2 TENU',
-	'𒮅' => 'PROTO-CUNEIFORM SIGN SHITA-B1 GUNU',
-	);
-    my $c = shift;
-    if ($c) {
-	my $uc = '';
-	my $us = '';
-
-	if ($c =~ /^(.)=(.*?)$/) {
-	    ($uc,$us) = ($1,$2);
-	} elsif ($c =~ /\./) {
-	    ($uc,$us) = ('',$c);
-	} else {
-	    $uc = $c;
-	}
-
-	if ($us || length $c > 1) {
-	    $us = $c unless $us;
-	    print "\@inote \@useq $us\n";
-	}
-
-	if ($uc) {
-	    my $ch = sprintf("%X", ord($uc));
-	    printf "\@list U+$ch\n";
-	    print "\@ucun $uc\n";
-
-	    my $co = $u{$ch};
-	    my $cn = $n{$co};
-	    unless ($cn) {
-		if ($n{$oidmap{$co}}) {
-		    $cn = $n{$oidmap{$co}};
-		}
-	    }
-	    if ($cn) {
-		my $ocn = $cn;
-		$cn = pc25_name($cn);
-		if ($xuname{$uc}) {
-		    print "\@uname $xuname{$uc}\n";
-		} elsif ($cn =~ /ZATU/) {
-		    my $un = $unames{$cn};
-		    $un =~ s/~([a-z]+)/-\U$1/;
-		    $un =~ s/\@g/ GUNU/;
-		    $un =~ s/\@t/ TENU/;
-		    warn "bad UNAME char in $cn=$un\n" if $un =~ /[~\@]/;
-		    print "\@uname $un\n";
-		} elsif ($unames{$cn}) {
-		    print "\@uname $unames{$cn}\n";
-		} elsif ($unames{$ocn}) {
-		    print "\@uname $unames{$ocn}\n";
-		} else {
-		    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
-		    warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
-		    ++$X;
-		}
-	    } else {
-		warn "$0: no name for OID=$co HEX=$ch\n";
-	    }
-	}
-    }
-}
-
-sub asl_pglyf {
-    my($n,$c,$tag) = @_;
-    if (length $c > 1) {
-	my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
-	# warn "pglyf: $c: form without '='\n" unless $cc;
-	if ($cc) {
-	    my $fh = sprintf("%X", ord $cc);
-	    my $fo = $u{$fh};
-	    my $fn = $n{$fo};
-	    print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
-	} else {
-	}
-	# print "\@form $c\n";
-    } else {
-	my $h = sprintf("%X", ord $c);
-	my $go = $u{$h};
-	warn "pglyf: no OID for char $h\n" unless $go;
-	printf "\@glyf $n~%d $c $h $go ~%02X\n", $tag, $tag;
-    }
-}
 
 sub chars {
     my @c = split(/[,;]/,$_[0]);

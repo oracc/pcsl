@@ -16,6 +16,7 @@ PCSL=${WWW}/pcsl
 PRJ=${PCSL}/${SL}
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
+DVDEPS=00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/num-final.tsv
 DVHTML=00web/easl-tab.html 00web/pcsl-tab.html 00web/pc25-tab.html 00web/num-tab.html 00web/cusas-tab.html
 DVXML=00etc/easl-final.xml 00etc/pcsl-final.xml 00etc/pc25-final.xml 00etc/num-final.xml 00etc/cusas-final.xml
 SLDEPS=00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
@@ -70,7 +71,7 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 00etc/num-base.tsv: ../00etc/acn-repertoire.tsv ../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../00etc/pc-pua.tab 00bin/num-base.plx
 	00bin/num-base.plx | 00bin/sl-sort.plx -c 2 - >$@
 
-00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv 00etc/refglyph.tsv
+00etc/pcsl-final.tsv: Makefile ${DVDEPS} 00etc/seq-final.tsv 00etc/refglyph.tsv
 	00bin/pcsl-final.plx
 
 ###
@@ -85,6 +86,7 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx ${O2}/msc/fonts/PC24.ttf
 	(cd ../fepc ; make PC24.ttx.xz)
 	00bin/pc25-map.plx >$@
+	cut -f2- 00etc/pc25-map.tsv >00etc/pc25.map
 
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
 	00bin/pc25-add.plx >$@
@@ -95,13 +97,16 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 
 pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl
 
-00lib/pcsl.asl: 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
+00lib/pcsl.asl: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
 	00bin/pcsl-asl.plx
+
+install-pcsl: pcsl
+	utr 00etc/pc25.map 00lib/pcsl.asl >../00lib/pcsl.asl
 
 ###
 ### XML
 ###
-# 00etc/easl-final.xml 00etc/cusas-final.xml 00etc/
+
 xml: ${SLXML} ${DVXML}
 
 00etc/atu3-final.xml: 00etc/atu3-final.tsv ${XMLDEPS}
@@ -138,11 +143,12 @@ xml: ${SLXML} ${DVXML}
 ### HTML
 ###
 
-html: ${SLHTML} ${DVHTML} ${NOHTML}
+html: ${SLHTML} ${DVHTML} pc25no-html
 
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
 	00bin/final-html.sh $*
+	utr 00etc/pc25.map 00web
 	${sudo} mkdir -p ${PRJ}
 	${sudo} cp 00web/$*-tab.html ${PRJ}
 	${sudo} chmod -R +r ${PRJ}

@@ -12,6 +12,25 @@ use Getopt::Long;
 GetOptions(
     );
 
+#
+# Generate 00lib/pcsl.asl using PC25 output hex codes; the PC chars
+# are post-converted by utr; all input is still in PC24.
+#
+
+# load PC24->PC25 map
+my %m = (); my @m = `cut -f2-3 00etc/pc25-map.tsv`; chomp @m;
+foreach (@m) {
+    my($f,$t) = split(/\t/,$_);
+    $m{$f} = $t;
+}
+
+# load OID->PC25 map
+my %pc25 = (); my @pc25 = `cut -f1,3 00etc/pc25-map.tsv`; chomp @pc25;
+foreach (@pc25) {
+    my($o,$u) = split(/\t/,$_);
+    $pc25{$o} = $u;
+}
+
 my $f = '00etc/pcsl-final.tsv';
 
 die "$0: $f not readable. Stop.\n"
@@ -81,6 +100,8 @@ sub asl_sign {
 	}
     }
     print "\@oid $om\n";
+    my $h = $pc25{$om};
+    printf "\@list U+$h\n" if $h && $h =~ /^12/;
     asl_chars($om, $r, $c, $s, $seqflag);
     print "\@end sign\n\n";
 }
@@ -111,7 +132,6 @@ sub asl_uni {
 
 	if ($uc) {
 	    my $ch = sprintf("%X", ord($uc));
-	    printf "\@list U+$ch\n";
 	    my $co = $u{$ch};
 	    my $cn = $n{$co};
 	    unless ($cn) {
@@ -169,7 +189,11 @@ sub asl_pglyf {
 	    my $nq = $s{'n'}; $nq =~ s/\%/%%/g;
 	    my $ueq = $s{'u'} ? "$s{'u'}=" : '';
 	    $s{'t'} = '' unless $s{'t'};
-	    printf "\@glyf $nq $ueq$s{'s1'} $s{'h'} $s{'o'} ~ff\n";
+	    my $mh = '0';
+	    if ($s{'h'} ne '0') {
+		$mh = $m{$s{'h'}};
+	    }
+	    printf "\@glyf $nq $ueq$s{'s1'} $mh $s{'o'} ~ff\n";
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
 	    my $sc = $c; $sc =~ tr/\./‍/;
@@ -178,14 +202,16 @@ sub asl_pglyf {
     } else {
 	if ($glyf{$c}) {
 	    my($o,$h,$n,$t) = @{$glyf{$c}};
-	    print "\@glyf $n $c $h $o $t\n";
+	    my $mh = $m{$h};
+	    print "\@glyf $n $c $mh $o $t\n";
 	} else {
 	    my $h = sprintf("%X", ord $c);
 	    my $go = $u{$h};
 	    warn "pglyf: no OID for char $h\n" unless $go;
 	    my $nq = $n; $nq =~ s/\%/%%/g;
-	    printf STDERR "glyf: made up:\t$c\t$nq~%d\t->$nq~%d $c $h $go ~%02X\n", $tag, $tag, $tag;
-	    printf "\@glyf $nq~%d $c $h $go ~%02X\n", $tag, $tag;
+	    my $mh = $m{$h};
+	    printf STDERR "glyf: made up:\t$c\t$nq~%d\t->$nq~%d $c $mh $go ~%02X\n", $tag, $tag, $tag;
+	    printf "\@glyf $nq~%d $c $mh $go ~%02X\n", $tag, $tag;
 	}
     }
 }
