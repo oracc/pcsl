@@ -22,69 +22,12 @@ ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
 
-default:  00etc/pc24.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv core pcsl pc25 pc25tab css js font
+default: base core pc25 pcsl html css js font
 
-core: msvo1 msvo4 atu3 atu5 cusas easl num
-	00bin/seq-final.plx -v
-
-%: Makefile 00etc/%-final.tsv
-	SL=$* make xml html images
+base: 00etc/pc24.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv
 
 00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../00etc/add-data.tsv ../00etc/pc-pua.tab
 	00bin/pc24.plx >$@
-
-pc25tab: 00etc/pc25-map.tsv 00etc/pc25-add.tsv
-
-00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx ${O2}/msc/fonts/PC24.ttf
-	(cd ../fepc ; make PC24.ttx.xz)
-	00bin/pc25-map.plx >$@
-
-00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
-	00bin/pc25-add.plx >$@
-
-pcsl: Makefile 00etc/pcsl-final.tsv
-	SL=$@ make xml html images asl
-
-pc25: Makefile 00etc/pc25-final.tsv
-	SL=$@ make csldist xml html images pc25no-html pc25tab
-
-asl: 00lib/pcsl.asl
-
-00lib/pcsl.asl: 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
-	00bin/pcsl-asl.plx
-
-00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
-	00bin/pc25rep.sh <$< >$@
-
-00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
-	00bin/cusas-tsv.plx >$@
-
-00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/corpus-base.tsv
-	cat $^ | 00bin/sl-sort.plx -c 2 - | 00bin/sl-number.plx -1 -n EASL0001 >$@
-
-num: 00etc/num-final.tsv
-
-00etc/num-final.tsv: 00etc/num-base.tsv
-	00bin/sl-number.plx -1 -n EANM001 <$< >$@
-
-00etc/num-base.tsv: ../00etc/acn-repertoire.tsv ../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../00etc/pc-pua.tab 00bin/num-base.plx
-	00bin/num-base.plx | 00bin/sl-sort.plx -c 2 - >$@
-
-00etc/corpus-base.tsv: 00etc/add.asl 00bin/asl-base.plx
-	00bin/asl-base.plx <$< >$@
-
-00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv 00etc/refglyph.tsv
-	00bin/pcsl-final.plx
-
-00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
-	00bin/pc25-final.plx
-
-seq: 00web/easl-seq.html
-
-00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
-	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
-	${sudo} cp $@ ${WWW}/pcsl/easl/
-	${sudo} chmod +r ${WWW}/pcsl/easl/easl-seq.html
 
 00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
@@ -93,8 +36,63 @@ seq: 00web/easl-seq.html
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
 	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
 
-csldist:
-	true
+core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-final.tsv
+	00bin/seq-final.plx -v
+
+00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
+	00bin/cusas-tsv.plx >$@
+
+00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/corpus-base.tsv
+	cat $^ | 00bin/sl-sort.plx -c 2 - | 00bin/sl-number.plx -1 -n EASL0001 >$@
+
+00etc/corpus-base.tsv: 00etc/add.asl 00bin/asl-base.plx
+	00bin/asl-base.plx <$< >$@
+
+00etc/num-final.tsv: 00etc/num-base.tsv
+	00bin/sl-number.plx -1 -n EANM001 <$< >$@
+
+00etc/num-base.tsv: ../00etc/acn-repertoire.tsv ../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../00etc/pc-pua.tab 00bin/num-base.plx
+	00bin/num-base.plx | 00bin/sl-sort.plx -c 2 - >$@
+
+00etc/pcsl-final.tsv: Makefile 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx  00etc/seq-base.tsv 00etc/num-final.tsv 00etc/refglyph.tsv
+	00bin/pcsl-final.plx
+
+#%: Makefile 00etc/%-final.tsv
+#	SL=$* make xml html images
+
+pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
+#	SL=$@ make csldist xml html images pc25no-html pc25tab
+
+00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
+	00bin/pc25-final.plx
+
+00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx ${O2}/msc/fonts/PC24.ttf
+	(cd ../fepc ; make PC24.ttx.xz)
+	00bin/pc25-map.plx >$@
+
+00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
+	00bin/pc25-add.plx >$@
+
+pcsl: Makefile 00etc/pcsl-final.tsv ../00lib/pcsl.asl
+#	SL=$@ make xml html images asl
+
+asl: 00lib/pcsl.asl
+
+00lib/pcsl.asl: 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
+	00bin/pcsl-asl.plx
+
+#00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
+#	00bin/pc25rep.sh <$< >$@
+
+#seq: 00web/easl-seq.html
+
+#00web/easl-seq.html: 00etc/easl-final.xml 00bin/final-HTML.xsl Makefile
+#	xsltproc -stringparam mode SQ 00bin/final-HTML.xsl $< >$@
+#	${sudo} cp $@ ${WWW}/pcsl/easl/
+#	${sudo} chmod +r ${WWW}/pcsl/easl/easl-seq.html
+
+#csldist:
+#	true
 
 # # 00etc/csldist.tsv
 
