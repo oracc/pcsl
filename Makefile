@@ -1,4 +1,4 @@
-default: texts
+default: texts pcsl 
 
 #
 # TEXTS
@@ -13,27 +13,47 @@ default: texts
 
 texts: tpcsl tpc25
 
-tpcsl: corpus25/00atf/pcsl.atf corpus25/00cat/pcsl.tsv 02pub/cat/cat.dbh 02pub/lem/lem.dbh
+tpcsl:
+	(cd corpus25 ; make pcsl)
 
-corpus25/00atf/pcsl.atf: corpus25/00src/pcsl.atf
-	(cd corpus25 ; make atf)
+tpc25:
+	(cd corpus25 ; make pc25)
 
-corpus25/00cat/pcsl.tsv: corpus25/00src/pcsl.tsv
-	(cd corpus25 ; make cat)
+#
+# PCSL
+#
+# There is a circular dependency with PCSL/PC25 because PC25 needs an
+# annotated corpus as the basis to assign Unicode values, but the
+# corpus needs some version of PCSL to provide the annotations.
+#
+# The necessary sequence is therefore:
+#
+# * build pcsl.asl from the sources with the old Unicode values
+#
+# * update the signlist tsv
+#
+# * generate corpus and grapheme statistics for the PCSL/PC25 corpora
+#
+# * build signlists for pcsl (again) and pc25
+#
 
-02pub/cat/cat.dbh: corpus25/00cat/pcsl.tsv
-	oracc catalogue
+pcsl: pcsl1 mepc-texts mepc-signs
 
-02pub/lem/lem.dbh: corpus25/00atf/pcsl.atf
-	oracc corpus
+pcsl1:
+	(cd mepc/signs ; make pcsl install-pcsl)
+	oracc update
 
 #
 # MEPC
 #
 
-# Build the PCSL text-corpus statistics
-mepc-tpcsl:
-	(cd mepc/w ; make tpcsl)
+# Text corpus statistics
+mepc-texts:
+	(cd mepc/texts ; make)
+
+# Corpus grapheme statistics
+mepc-signs:
+	(cd mepc/signs ; make)
 
 signlist: 02pub/sl/sl.tsv
 
@@ -56,3 +76,4 @@ xdefault:
 	(cd pc25 ; make)
 	oracc build portal
 
+# 02pub/cat/cat.dbh 02pub/lem/lem.dbh
