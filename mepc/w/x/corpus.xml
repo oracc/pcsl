@@ -50,7 +50,7 @@
       divided by provenience, period, and published/unpublished
       status:</p>
 
-      <xi:include xml:base="." href="../tpcsl/corpus.html"/>
+      <xi:include xml:base="." href="../../texts/tpcsl/corpus.html"/>
 
       <esp:sh>PC25 Corpus</esp:sh>
 
@@ -72,7 +72,7 @@
       composition divided by provenience, period, and
       published/unpublished status:</p>
 
-      <xi:include xml:base="." href="../tpc25/corpus.html"/>
+      <xi:include xml:base="." href="../../texts/tpc25/corpus.html"/>
      
     </body>
   </html>

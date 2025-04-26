@@ -19,11 +19,11 @@
 
       <esp:ssh>PCSL Corpus Grapheme Distribution</esp:ssh>
 
-      <xi:include xml:base="." href="../gpcsl/gstats.html"/>
+      <xi:include xml:base="." href="../../signs/gpcsl/gstats.html"/>
 
       <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
       
-      <xi:include xml:base="." href="../gpc25/gstats.html"/>
+      <xi:include xml:base="." href="../../signs/gpc25/gstats.html"/>
 
       <!--
 	  

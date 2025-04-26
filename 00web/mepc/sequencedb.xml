@@ -1,0 +1,5991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Sequences</esp:name>
+  <esp:title>Sequence Database</esp:title>
+  <html>
+    <head/>
+    <body>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+        <thead>
+          <th>OID</th>
+          <th>PUA/HEX</th>
+          <th>SEQ</th>
+          <th>ATF/LIG</th>
+          <th>LVW</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>o0901301</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒦴</span>
+                </div>
+                <div>[<span class="ucode">129B4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">⁢𒬷⁢𒭒</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">∘𒬷∘𒭒</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|∘ŠA~3∘ŠE~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">2062_12B3B_E0103_2062_12B52_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">∘𒬻₃∘𒭒₁</td>
+          </tr>
+          <tr>
+            <td>o0901301</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒦳</span>
+                </div>
+                <div>[<span class="ucode">129B3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">⁢𒭒⁢𒬷</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">∘𒭒∘𒬷</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|∘ŠE~a~1∘ŠA~3|</span>
+              </div>
+              <div>
+                <span class="ucode3">2062_12B52_E0101_2062_12B3B_E0103</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">∘𒭒₁∘𒬻₃</td>
+          </tr>
+          <tr>
+            <td>o0900085</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛆</span>
+                </div>
+                <div>[<span class="ucode">126C6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛅‍𒖾</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛅.𒖾</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|AMAR~2.1(N02)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">126CA_E0102_200D_125BE_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒛊₂.𒖾₁</td>
+          </tr>
+          <tr>
+            <td>o0900098</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲜖</span>
+                </div>
+                <div>[<span class="ucode">F2716</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛌‍𒣾‍𒢎</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛌.𒣾.𒢎</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|AN~3.IM~a~1.GI₆~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">126CD_E0103_200D_128FE_E0101_200D_1288F_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒛍₃.𒣾₁.𒢏₂</td>
+          </tr>
+          <tr>
+            <td>o0900104</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛓</span>
+                </div>
+                <div>[<span class="ucode">126D3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛒‍𒛒</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛒.𒛒</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|APIN~a~1.APIN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">126D2_E0101_200D_126D2_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒛒₁.𒛒₁</td>
+          </tr>
+          <tr>
+            <td>o0900181</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜗</span>
+                </div>
+                <div>[<span class="ucode">12717</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜖‍𒨏</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜖.𒨏</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|BU~b~1.NA₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12716_E0101_200D_12A0F_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒜖₁.𒨏₁</td>
+          </tr>
+          <tr>
+            <td>o0900209</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳁡</span>
+                </div>
+                <div>[<span class="ucode">F3061</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜚‍𒝐</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜚.𒝐</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|BULUG₃~1.DU₆~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">1271A_E0101_200D_12751_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒜚₁.𒝑₂</td>
+          </tr>
+          <tr>
+            <td>o0900222</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜡</span>
+                </div>
+                <div>[<span class="ucode">12721</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜠‍𒦵</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒜠.𒦵</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|DA~a~1.LIŠ~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12720_E0101_200D_129B5_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒜠₁.𒦵₁</td>
+          </tr>
+          <tr>
+            <td>o0900049</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒚭</span>
+                </div>
+                <div>[<span class="ucode">126AD</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒝍‍𒧢‍𒩴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒝍.𒧢.𒩴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|DU~1.ME~a~1.NUN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1274D_E0101_200D_129E2_E0101_200D_12A74_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒝍₁.𒧢₁.𒩴₁</td>
+          </tr>
+          <tr>
+            <td>o0900508</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟓</span>
+                </div>
+                <div>[<span class="ucode">127D3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒝍‍𒯡</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒝍.𒯡</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|DU~1.U₄~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1274D_E0101_200D_12BE1_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒝍₁.𒯡₁</td>
+          </tr>
+          <tr>
+            <td>o0900498</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟋</span>
+                </div>
+                <div>[<span class="ucode">127CB</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟊‍𒦵</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟊.𒦵</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|E₂~a~1.LIŠ~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127CA_E0101_200D_129B5_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟊₁.𒦵₁</td>
+          </tr>
+          <tr>
+            <td>o0901578</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩩</span>
+                </div>
+                <div>[<span class="ucode">12A69</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟊‍𒩴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟊.𒩴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|E₂~a~1.NUN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127CA_E0101_200D_12A74_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟊₁.𒩴₁</td>
+          </tr>
+          <tr>
+            <td>o0900499</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟏</span>
+                </div>
+                <div>[<span class="ucode">127CF</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟎‍𒦵</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟎.𒦵</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|E₂~b~1.LIŠ~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127CE_E0101_200D_129B5_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟎₁.𒦵₁</td>
+          </tr>
+          <tr>
+            <td>o0900535</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟨</span>
+                </div>
+                <div>[<span class="ucode">127E8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙‍‍󳄆⁢𒩴‍𒫤</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙..󳄆∘𒩴.𒫤</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN~a~4..ŠE~a@t+EZEN~b~1∘NUN~a~1.SIG₇~2|</span>
+              </div>
+              <div>
+                <span class="ucode4">127D6_E0104_200D_200D_F3106_E0101_2062_12A74_E0101_200D_12AE3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟖₄..󳄆₁∘𒩴₁.𒫣₂</td>
+          </tr>
+          <tr>
+            <td>o0900535</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟩</span>
+                </div>
+                <div>[<span class="ucode">127E9</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙‍𒛦⁢‍𒫣‍⁢𒧢‍𒩴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙.𒛦∘.𒫣.∘𒧢.𒩴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN~a~4.BAHAR₂~b~1∘.SIG₇~1.∘ME~a~1.NUN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode4">127D6_E0104_200D_126E6_E0101_2062_200D_12AE3_E0101_200D_2062_129E2_E0101_200D_12A74_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟖₄.𒛦₁∘.𒫣₁.∘𒧢₁.𒩴₁</td>
+          </tr>
+          <tr>
+            <td>o0900537</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟪</span>
+                </div>
+                <div>[<span class="ucode">127EA</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙‍𒥁</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙.𒥁</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN~a~4.KID~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127D6_E0104_200D_12941_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟖₄.𒥁₁</td>
+          </tr>
+          <tr>
+            <td>o0900534</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟧</span>
+                </div>
+                <div>[<span class="ucode">127E7</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙‍𒧢‍𒡸</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙.𒧢.𒡸</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN~a~4.ME~a~1.GI~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">127D6_E0104_200D_129E2_E0101_200D_12884_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟖₄.𒧢₁.𒢄₂</td>
+          </tr>
+          <tr>
+            <td>o0900533</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟦</span>
+                </div>
+                <div>[<span class="ucode">127E6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙‍𒧢‍𒧬</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟙.𒧢.𒧬</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN~a~4.ME~a~1.MU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127D6_E0104_200D_129E2_E0101_200D_129EC_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟖₄.𒧢₁.𒧬₁</td>
+          </tr>
+          <tr>
+            <td>o0900531</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟤</span>
+                </div>
+                <div>[<span class="ucode">127E4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟣‍𒟊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟣.𒟊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN₂~1.E₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127E3_E0101_200D_127CA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟣₁.𒟊₁</td>
+          </tr>
+          <tr>
+            <td>o0900532</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟥</span>
+                </div>
+                <div>[<span class="ucode">127E5</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟣‍𒟎</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟣.𒟎</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EN₂~1.E₂~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127E3_E0101_200D_127CE_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟣₁.𒟎₁</td>
+          </tr>
+          <tr>
+            <td>o0901472</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨨</span>
+                </div>
+                <div>[<span class="ucode">12A28</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟰‍𒨣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟰.𒨣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EŠDA~1.NAM₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127F0_E0101_200D_12A23_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟰₁.𒨣₁</td>
+          </tr>
+          <tr>
+            <td>o0901472</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨧</span>
+                </div>
+                <div>[<span class="ucode">12A27</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟰⁤𒨣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟰+𒨣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|EŠDA~1+NAM₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">127F0_E0101_2064_12A23_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒟰₁+𒨣₁</td>
+          </tr>
+          <tr>
+            <td>o0900607</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒠐</span>
+                </div>
+                <div>[<span class="ucode">12810</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒠊‍𒵹</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒠊.𒵹</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GA~a~1.ZATU753~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1280A_E0101_200D_12D79_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒠊₁.𒵹₁</td>
+          </tr>
+          <tr>
+            <td>o0902394</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒲃</span>
+                </div>
+                <div>[<span class="ucode">12C83</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎‍𒜟</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎.𒜟</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GAL~a~1.BUR₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1284E_E0101_200D_1271F_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒡎₁.𒜟₁</td>
+          </tr>
+          <tr>
+            <td>o0901944</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭑</span>
+                </div>
+                <div>[<span class="ucode">12B51</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎‍𒨺</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎.𒨺</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GAL~a~1.NI~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1284E_E0101_200D_12A3A_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒡎₁.𒨺₁</td>
+          </tr>
+          <tr>
+            <td>o0901943</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭐</span>
+                </div>
+                <div>[<span class="ucode">12B50</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎‍𒩃</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎.𒩃</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GAL~a~1.NIM~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1284E_E0101_200D_12A43_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒡎₁.𒩃₁</td>
+          </tr>
+          <tr>
+            <td>o0901109</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥋</span>
+                </div>
+                <div>[<span class="ucode">1294B</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎‍𒰲</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎.𒰲</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GAL~a~1.UKKIN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1284E_E0101_200D_12C32_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒡎₁.𒰲₁</td>
+          </tr>
+          <tr>
+            <td>o0901109</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥌</span>
+                </div>
+                <div>[<span class="ucode">1294C</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎‍𒰱</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡎.𒰱</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GAL~a~1.UKKIN~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">1284E_E0101_200D_12C32_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒡎₁.𒰲₂</td>
+          </tr>
+          <tr>
+            <td>o0900905</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢻</span>
+                </div>
+                <div>[<span class="ucode">128BB</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡱‍𒨖</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒡱.𒨖</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GEŠTU~a~1.NAGA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12871_E0101_200D_12A16_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒡱₁.𒨖₁</td>
+          </tr>
+          <tr>
+            <td>o0900842</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲠒</span>
+                </div>
+                <div>[<span class="ucode">F2812</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢎‍𒪇</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢎.𒪇</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GI₆~2.NUNUZ~c~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1288F_E0102_200D_12A87_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢏₂.𒪇₁</td>
+          </tr>
+          <tr>
+            <td>o0900853</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢔</span>
+                </div>
+                <div>[<span class="ucode">12894</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢓‍𒥥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢓.𒥥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GIR~a~1.KU₆~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12893_E0101_200D_12965_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢓₁.𒥥₁</td>
+          </tr>
+          <tr>
+            <td>o0900851</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢗</span>
+                </div>
+                <div>[<span class="ucode">12897</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢕‍𒢕</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢕.𒢕</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GIR~b~1.GIR~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12895_E0101_200D_12895_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢕₁.𒢕₁</td>
+          </tr>
+          <tr>
+            <td>o0901491</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨵</span>
+                </div>
+                <div>[<span class="ucode">12A35</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢟‍𒚘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢟.𒚘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GIR₃~c~1.AB~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">1289F_E0101_200D_126A2_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢟₁.𒚢₂</td>
+          </tr>
+          <tr>
+            <td>o0902108</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮿</span>
+                </div>
+                <div>[<span class="ucode">12BBF</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢟‍𒪘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢟.𒪘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GIR₃~c~1.PIRIG~b1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1289F_E0101_200D_12A98_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢟₁.𒪘₁</td>
+          </tr>
+          <tr>
+            <td>o0900877</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢨</span>
+                </div>
+                <div>[<span class="ucode">128A8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢧‍𒮹</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢧.𒮹</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GIŠ~1.TE~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128A7_E0101_200D_12BB9_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢧₁.𒮹₁</td>
+          </tr>
+          <tr>
+            <td>o0900887</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲵀</span>
+                </div>
+                <div>[<span class="ucode">F2D40</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢮‍𒟊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢮.𒟊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GIŠ@t~1.E₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128AE_E0101_200D_127CA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒢮₁.𒟊₁</td>
+          </tr>
+          <tr>
+            <td>o0900911</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢿</span>
+                </div>
+                <div>[<span class="ucode">128BF</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢾‍𒵼</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢾.𒵼</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GU₄~2.ZATU755~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128C1_E0102_200D_12D7C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣁₂.𒵼₁</td>
+          </tr>
+          <tr>
+            <td>o0900934</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣎</span>
+                </div>
+                <div>[<span class="ucode">128CE</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣍‍𒣰</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣍.𒣰</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|GUKKAL~a~1.HI@g~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128CD_E0101_200D_128F0_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣍₁.𒣰₁</td>
+          </tr>
+          <tr>
+            <td>o0900969</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂒</span>
+                </div>
+                <div>[<span class="ucode">F3092</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣬⁢𒣬</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣬∘𒣬</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|HI×1(N57)~1∘HI×1(N57)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128EC_E0101_2062_128EC_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣬₁∘𒣬₁</td>
+          </tr>
+          <tr>
+            <td>o0900969</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣭</span>
+                </div>
+                <div>[<span class="ucode">128ED</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣬‍𒣬</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣬.𒣬</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|HI×1(N57)~1.HI×1(N57)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128EC_E0101_200D_128EC_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣬₁.𒣬₁</td>
+          </tr>
+          <tr>
+            <td>o0900966</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣪</span>
+                </div>
+                <div>[<span class="ucode">128EA</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦‍𒦀</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦.𒦀</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|HI~1.LAGAB~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128E6_E0101_200D_12980_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣦₁.𒦀₁</td>
+          </tr>
+          <tr>
+            <td>o0900962</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣩</span>
+                </div>
+                <div>[<span class="ucode">128E9</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦‍𒬣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦.𒬣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|HI~1.SUHUR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128E6_E0101_200D_12B23_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣦₁.𒬣₁</td>
+          </tr>
+          <tr>
+            <td>o0900962</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣧</span>
+                </div>
+                <div>[<span class="ucode">128E7</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦‍󳄇</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦.󳄇</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|HI~1.SUHUR~3|</span>
+              </div>
+              <div>
+                <span class="ucode3">128E6_E0101_200D_12B23_E0103</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣦₁.𒬣₃</td>
+          </tr>
+          <tr>
+            <td>o0900962</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣨</span>
+                </div>
+                <div>[<span class="ucode">128E8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦‍󳄈</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣦.󳄈</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|HI~1.SUHUR~4|</span>
+              </div>
+              <div>
+                <span class="ucode3">128E6_E0101_200D_12B23_E0104</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣦₁.𒬣₄</td>
+          </tr>
+          <tr>
+            <td>o0901928</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭄</span>
+                </div>
+                <div>[<span class="ucode">12B44</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃴⁢𒪑</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃴∘𒪑</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|IB~a~3∘PAP~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">128F4_E0103_2062_12A91_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒣴₃∘𒪑₁</td>
+          </tr>
+          <tr>
+            <td>o0901014</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤄</span>
+                </div>
+                <div>[<span class="ucode">12904</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤃‍𒠕</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤃.𒠕</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|IR~a~1.GA₂~a1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12903_E0101_200D_12815_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒤃₁.𒠕₁</td>
+          </tr>
+          <tr>
+            <td>o0901033</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤖</span>
+                </div>
+                <div>[<span class="ucode">12916</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤔‍𒭒</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤔.𒭒</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KA~a~1.ŠE~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12914_E0101_200D_12B52_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒤔₁.𒭒₁</td>
+          </tr>
+          <tr>
+            <td>o0901055</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤣</span>
+                </div>
+                <div>[<span class="ucode">12923</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤢‍𒠕</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤢.𒠕</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KAK~a~1.GA₂~a1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12922_E0101_200D_12815_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒤢₁.𒠕₁</td>
+          </tr>
+          <tr>
+            <td>o0901151</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥧</span>
+                </div>
+                <div>[<span class="ucode">12967</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥥‍𒢧</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥥.𒢧</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KU₆~a~1.GIŠ~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12965_E0101_200D_128A7_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥥₁.𒢧₁</td>
+          </tr>
+          <tr>
+            <td>o0901149</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥦</span>
+                </div>
+                <div>[<span class="ucode">12966</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥥‍𒖾</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥥.𒖾</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KU₆~a~1.1(N02)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12965_E0101_200D_125BE_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥥₁.𒖾₁</td>
+          </tr>
+          <tr>
+            <td>o0901164</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥭</span>
+                </div>
+                <div>[<span class="ucode">1296D</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬‍𒟊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬.𒟊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KUR~a~1.E₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1296C_E0101_200D_127CA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥬₁.𒟊₁</td>
+          </tr>
+          <tr>
+            <td>o0901167</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥮</span>
+                </div>
+                <div>[<span class="ucode">1296E</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬‍𒪂</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬.𒪂</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KUR~a~1.NUNUZ~a1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1296C_E0101_200D_12A82_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥬₁.𒪂₁</td>
+          </tr>
+          <tr>
+            <td>o0902068</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮢</span>
+                </div>
+                <div>[<span class="ucode">12BA2</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬‍𒪣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬.𒪣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KUR~a~1.RU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1296C_E0101_200D_12AA3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥬₁.𒪣₁</td>
+          </tr>
+          <tr>
+            <td>o0902068</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮣</span>
+                </div>
+                <div>[<span class="ucode">12BA3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬‍𒪥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥬.𒪥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KUR~a~1.RU~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">1296C_E0101_200D_12AA3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥬₁.𒪣₂</td>
+          </tr>
+          <tr>
+            <td>o0901165</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥰</span>
+                </div>
+                <div>[<span class="ucode">12970</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥯‍𒟊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥯.𒟊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|KUR~b~1.E₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">1296F_E0101_200D_127CA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒥯₁.𒟊₁</td>
+          </tr>
+          <tr>
+            <td>o0901189</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒦗‍𒮹</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒦗.𒮹</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|LAGAB~b~1.TE~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12997_E0101_200D_12BB9_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒦗₁.𒮹₁</td>
+          </tr>
+          <tr>
+            <td>o0900538</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲟃</span>
+                </div>
+                <div>[<span class="ucode">F27C3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒧢‍‍𒟙‍⁢𒭒⁢𒬷</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒧢..𒟙.∘𒭒∘𒬷</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ME~a~1..EN~a~4.∘ŠE~a~1∘ŠA~3|</span>
+              </div>
+              <div>
+                <span class="ucode3">129E2_E0101_200D_200D_127D6_E0104_200D_2062_12B52_E0101_2062_12B3B_E0103</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒧢₁..𒟖₄.∘𒭒₁∘𒬻₃</td>
+          </tr>
+          <tr>
+            <td>o0902418</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒲑</span>
+                </div>
+                <div>[<span class="ucode">12C91</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨃‍𒚘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨃.𒚘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|MUŠ₃~a~3.AB~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">129FF_E0103_200D_126A2_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒧿₃.𒚢₂</td>
+          </tr>
+          <tr>
+            <td>o0901909</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒬶</span>
+                </div>
+                <div>[<span class="ucode">12B36</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨃‍𒟯</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨃.𒟯</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|MUŠ₃~a~3.ERIN~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">129FF_E0103_200D_127EF_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒧿₃.𒟯₁</td>
+          </tr>
+          <tr>
+            <td>o0902419</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒲒</span>
+                </div>
+                <div>[<span class="ucode">12C92</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨃‍𒱄</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨃.𒱄</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|MUŠ₃~a~3.UNUG~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">129FF_E0103_200D_12C46_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒧿₃.𒱆₂</td>
+          </tr>
+          <tr>
+            <td>o0901429</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨆</span>
+                </div>
+                <div>[<span class="ucode">12A06</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨅‍𒱘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨅.𒱘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|MUŠEN~1.UR₃~b2~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A05_E0101_200D_12C58_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨅₁.𒱘₁</td>
+          </tr>
+          <tr>
+            <td>o0901427</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀃</span>
+                </div>
+                <div>[<span class="ucode">F3003</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨅‍󰄜</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨅.󰄜</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|MUŠEN~1.3(N58)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A05_E0101_200D_F011C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨅₁.󰄜₁</td>
+          </tr>
+          <tr>
+            <td>o0902870</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷱</span>
+                </div>
+                <div>[<span class="ucode">12DF1</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒖾‍𒪣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒖾.𒪣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N02)~1.RU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">125BE_E0101_200D_12AA3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒖾₁.𒪣₁</td>
+          </tr>
+          <tr>
+            <td>o0903211</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷳</span>
+                </div>
+                <div>[<span class="ucode">12DF3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒚧</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒚧</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.AB₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_126A7_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒚧₁</td>
+          </tr>
+          <tr>
+            <td>o0903212</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒜘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒜘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.BU₃~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_12718_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒜘₁</td>
+          </tr>
+          <tr>
+            <td>o0903214</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀧</span>
+                </div>
+                <div>[<span class="ucode">F3027</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒟊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒟊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.E₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_127CA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒟊₁</td>
+          </tr>
+          <tr>
+            <td>o0903215</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒨅</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒨅</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.MUŠEN~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_12A05_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒨅₁</td>
+          </tr>
+          <tr>
+            <td>o0901748</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷴</span>
+                </div>
+                <div>[<span class="ucode">12DF4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒫏</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒫏</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.SIG~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_12ACF_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒫏₁</td>
+          </tr>
+          <tr>
+            <td>o0903219</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷵</span>
+                </div>
+                <div>[<span class="ucode">12DF5</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒭉</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒭉</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.ŠAH₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_12B49_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒭉₁</td>
+          </tr>
+          <tr>
+            <td>o0903220</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷶</span>
+                </div>
+                <div>[<span class="ucode">12DF6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒮞</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒮞</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.ŠUBUR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_12B9E_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒮞₁</td>
+          </tr>
+          <tr>
+            <td>o0902357</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱪</span>
+                </div>
+                <div>[<span class="ucode">12C6A</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐‍𒱣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄐.𒱣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|1(N57)~1.URU~a1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0110_E0101_200D_12C63_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄐₁.𒱣₁</td>
+          </tr>
+          <tr>
+            <td>o0903223</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷸</span>
+                </div>
+                <div>[<span class="ucode">12DF8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒚧</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒚧</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.AB₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_126A7_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒚧₁</td>
+          </tr>
+          <tr>
+            <td>o0903225</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀩</span>
+                </div>
+                <div>[<span class="ucode">F3029</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒜆</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒜆</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.BIR₃~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12707_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒜇₂</td>
+          </tr>
+          <tr>
+            <td>o0903564</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍󳂉</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.󳂉</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.DU₆~a@n~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_F3089_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.󳂉₁</td>
+          </tr>
+          <tr>
+            <td>o0903227</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷹</span>
+                </div>
+                <div>[<span class="ucode">12DF9</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒥥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒥥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.KU₆~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12965_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒥥₁</td>
+          </tr>
+          <tr>
+            <td>o0903228</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒨅</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒨅</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.MUŠEN~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12A05_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒨅₁</td>
+          </tr>
+          <tr>
+            <td>o0903230</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷺</span>
+                </div>
+                <div>[<span class="ucode">12DFA</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒬛</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒬛</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.SU~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12B1B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒬛₁</td>
+          </tr>
+          <tr>
+            <td>o0903231</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷻</span>
+                </div>
+                <div>[<span class="ucode">12DFB</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒮞</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒮞</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.ŠUBUR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12B9E_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒮞₁</td>
+          </tr>
+          <tr>
+            <td>o0903233</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳁜</span>
+                </div>
+                <div>[<span class="ucode">F305C</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒰪</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒰪</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.UDUNITA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12C2A_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒰪₁</td>
+          </tr>
+          <tr>
+            <td>o0902359</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱫</span>
+                </div>
+                <div>[<span class="ucode">12C6B</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑‍𒱣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄑.𒱣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|2(N57)~1.URU~a1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0111_E0101_200D_12C63_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄑₁.𒱣₁</td>
+          </tr>
+          <tr>
+            <td>o0903235</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷼</span>
+                </div>
+                <div>[<span class="ucode">12DFC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒛅</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒛅</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.AMAR~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_126CA_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒛊₂</td>
+          </tr>
+          <tr>
+            <td>o0903236</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒛜</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒛜</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.AZ~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_126DC_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒛜₁</td>
+          </tr>
+          <tr>
+            <td>o0903238</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳁝</span>
+                </div>
+                <div>[<span class="ucode">F305D</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍󳂕</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.󳂕</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.BAR×UŠ~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_F3095_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.󳂕₁</td>
+          </tr>
+          <tr>
+            <td>o0903239</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷽</span>
+                </div>
+                <div>[<span class="ucode">12DFD</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒜂</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒜂</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.BARA₃~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12702_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒜂₁</td>
+          </tr>
+          <tr>
+            <td>o0903241</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷾</span>
+                </div>
+                <div>[<span class="ucode">12DFE</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒟎</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒟎</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.E₂~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_127CE_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒟎₁</td>
+          </tr>
+          <tr>
+            <td>o0903242</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒟣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒟣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.EN₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_127E3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒟣₁</td>
+          </tr>
+          <tr>
+            <td>o0903243</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷿</span>
+                </div>
+                <div>[<span class="ucode">12DFF</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒡨</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒡨</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.GAR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12868_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒡨₁</td>
+          </tr>
+          <tr>
+            <td>o0900109</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛙</span>
+                </div>
+                <div>[<span class="ucode">126D9</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒦬‍𒥬‍𒪥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒦬.𒥬.𒪥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.LAM~a~1.KUR~a~1.RU~2|</span>
+              </div>
+              <div>
+                <span class="ucode4">F0112_E0101_200D_129AC_E0101_200D_1296C_E0101_200D_12AA3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒦬₁.𒥬₁.𒪣₂</td>
+          </tr>
+          <tr>
+            <td>o0903245</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸀</span>
+                </div>
+                <div>[<span class="ucode">12E00</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒪂</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒪂</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.NUNUZ~a1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12A82_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒪂₁</td>
+          </tr>
+          <tr>
+            <td>o0903246</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸁</span>
+                </div>
+                <div>[<span class="ucode">12E01</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒪇</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒪇</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.NUNUZ~c~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12A87_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒪇₁</td>
+          </tr>
+          <tr>
+            <td>o0903248</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸂</span>
+                </div>
+                <div>[<span class="ucode">12E02</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒪘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒪘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.PIRIG~b1~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12A98_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒪘₁</td>
+          </tr>
+          <tr>
+            <td>o0902070</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮥</span>
+                </div>
+                <div>[<span class="ucode">12BA5</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒪣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒪣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.RU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12AA3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒪣₁</td>
+          </tr>
+          <tr>
+            <td>o0902070</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮤</span>
+                </div>
+                <div>[<span class="ucode">12BA4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒪥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒪥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.RU~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12AA3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒪣₂</td>
+          </tr>
+          <tr>
+            <td>o0903250</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒪼</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒪼</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.SANGA~b~3|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12ABD_E0103</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒪽₃</td>
+          </tr>
+          <tr>
+            <td>o0903251</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒫇</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒫇</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.SI~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12AC4_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒫄₂</td>
+          </tr>
+          <tr>
+            <td>o0903252</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸃</span>
+                </div>
+                <div>[<span class="ucode">12E03</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒮞</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒮞</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.ŠUBUR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12B9E_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒮞₁</td>
+          </tr>
+          <tr>
+            <td>o0903254</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳁞</span>
+                </div>
+                <div>[<span class="ucode">F305E</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒰥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒰥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.UDU~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12C25_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒰥₁</td>
+          </tr>
+          <tr>
+            <td>o0903256</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳁟</span>
+                </div>
+                <div>[<span class="ucode">F305F</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒‍𒰪</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄒.𒰪</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|3(N57)~1.UDUNITA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0112_E0101_200D_12C2A_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄒₁.𒰪₁</td>
+          </tr>
+          <tr>
+            <td>o0903258</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸄</span>
+                </div>
+                <div>[<span class="ucode">12E04</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓‍𒛅</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓.𒛅</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|4(N57)~1.AMAR~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0113_E0101_200D_126CA_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄓₁.𒛊₂</td>
+          </tr>
+          <tr>
+            <td>o0903259</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸅</span>
+                </div>
+                <div>[<span class="ucode">12E05</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓‍𒡨</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓.𒡨</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|4(N57)~1.GAR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0113_E0101_200D_12868_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄓₁.𒡨₁</td>
+          </tr>
+          <tr>
+            <td>o0903261</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸆</span>
+                </div>
+                <div>[<span class="ucode">12E06</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓‍𒥣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓.𒥣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|4(N57)~1.KU₃~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0113_E0101_200D_12963_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄓₁.𒥣₁</td>
+          </tr>
+          <tr>
+            <td>o0903263</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸇</span>
+                </div>
+                <div>[<span class="ucode">12E07</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓‍𒨾</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄓.𒨾</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|4(N57)~1.NI~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0113_E0101_200D_12A3E_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄓₁.𒨾₁</td>
+          </tr>
+          <tr>
+            <td>o0903265</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸈</span>
+                </div>
+                <div>[<span class="ucode">12E08</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄔‍𒡨</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄔.𒡨</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|5(N57)~1.GAR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0114_E0101_200D_12868_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄔₁.𒡨₁</td>
+          </tr>
+          <tr>
+            <td>o0903267</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸉</span>
+                </div>
+                <div>[<span class="ucode">12E09</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄔‍𒥣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄔.𒥣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|5(N57)~1.KU₃~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0114_E0101_200D_12963_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄔₁.𒥣₁</td>
+          </tr>
+          <tr>
+            <td>o0903270</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸊</span>
+                </div>
+                <div>[<span class="ucode">12E0A</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄕‍𒡨</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄕.𒡨</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|6(N57)~1.GAR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0115_E0101_200D_12868_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄕₁.𒡨₁</td>
+          </tr>
+          <tr>
+            <td>o0903272</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒸋</span>
+                </div>
+                <div>[<span class="ucode">12E0B</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄕‍𒥣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄕.𒥣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|6(N57)~1.KU₃~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0115_E0101_200D_12963_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄕₁.𒥣₁</td>
+          </tr>
+          <tr>
+            <td>o0903274</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄖‍𒡨</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󰄖.𒡨</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|7(N57)~1.GAR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">F0116_E0101_200D_12868_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󰄖₁.𒡨₁</td>
+          </tr>
+          <tr>
+            <td>o0900997</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣼</span>
+                </div>
+                <div>[<span class="ucode">128FC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨜‍𒜋</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨜.𒜋</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NAGAR~a~4.BU~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A19_E0104_200D_12713_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨙₄.𒜓₂</td>
+          </tr>
+          <tr>
+            <td>o0900998</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒣽</span>
+                </div>
+                <div>[<span class="ucode">128FD</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨝‍𒜋</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨝.𒜋</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NAGAR~b~1.BU~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A1D_E0101_200D_12713_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨝₁.𒜓₂</td>
+          </tr>
+          <tr>
+            <td>o0900544</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒟮</span>
+                </div>
+                <div>[<span class="ucode">127EE</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨯‍𒪥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨯.𒪥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NE~a~1.RU~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A2F_E0101_200D_12AA3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨯₁.𒪣₂</td>
+          </tr>
+          <tr>
+            <td>o0900841</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂳</span>
+                </div>
+                <div>[<span class="ucode">F30B3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂠⁢𒡸</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂠∘𒡸</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NE~a~4∘GI~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A2F_E0104_2062_12884_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨯₄∘𒢄₂</td>
+          </tr>
+          <tr>
+            <td>o0900841</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒢒</span>
+                </div>
+                <div>[<span class="ucode">12892</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨳⁢𒡸</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨳∘𒡸</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NE~c~1∘GI~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A33_E0101_2062_12884_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨳₁∘𒢄₂</td>
+          </tr>
+          <tr>
+            <td>o0901504</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨻</span>
+                </div>
+                <div>[<span class="ucode">12A3B</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨺‍𒪣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨺.𒪣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NI~a~1.RU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A3A_E0101_200D_12AA3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒨺₁.𒪣₁</td>
+          </tr>
+          <tr>
+            <td>o0900047</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒚫</span>
+                </div>
+                <div>[<span class="ucode">126AB</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩴‍𒧢</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩴.𒧢</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NUN~a~1.ME~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A74_E0101_200D_129E2_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒩴₁.𒧢₁</td>
+          </tr>
+          <tr>
+            <td>o0900049</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂭</span>
+                </div>
+                <div>[<span class="ucode">F30AD</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩴‍𒧢‍𒝍</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩴.𒧢.𒝍</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NUN~a~1.ME~a~1.DU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A74_E0101_200D_129E2_E0101_200D_1274D_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒩴₁.𒧢₁.𒝍₁</td>
+          </tr>
+          <tr>
+            <td>o0900047</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒚬</span>
+                </div>
+                <div>[<span class="ucode">126AC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩴⁤𒧢</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩴+𒧢</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NUN~a~1+ME~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A74_E0101_2064_129E2_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒩴₁+𒧢₁</td>
+          </tr>
+          <tr>
+            <td>o0901601</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩺‍𒯡</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩺.𒯡</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|NUN~b~1.U₄~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A7A_E0101_200D_12BE1_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒩺₁.𒯡₁</td>
+          </tr>
+          <tr>
+            <td>o0902413</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷲</span>
+                </div>
+                <div>[<span class="ucode">12DF2</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">O‍𒡨</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">O.𒡨</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|O.GAR~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">4F_200D_12868_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">O.𒡨₁</td>
+          </tr>
+          <tr>
+            <td>o0901926</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭃</span>
+                </div>
+                <div>[<span class="ucode">12B43</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪋⁢𒣴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪋∘𒣴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PA~a~1∘IB~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A8B_E0101_2062_128F4_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪋₁∘𒣴₁</td>
+          </tr>
+          <tr>
+            <td>o0901926</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭂</span>
+                </div>
+                <div>[<span class="ucode">12B42</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪋⁢󳃳</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪋∘󳃳</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PA~a~1∘IB~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A8B_E0101_2062_128F4_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪋₁∘𒣴₂</td>
+          </tr>
+          <tr>
+            <td>o0901868</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒬚</span>
+                </div>
+                <div>[<span class="ucode">12B1A</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪌‍𒰥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪌.𒰥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PA~a~2.UDU~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A8B_E0102_200D_12C25_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪋₂.𒰥₁</td>
+          </tr>
+          <tr>
+            <td>o0901926</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃆</span>
+                </div>
+                <div>[<span class="ucode">F30C6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪍⁢𒣴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪍∘𒣴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PA~a~3∘IB~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A8B_E0103_2062_128F4_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪋₃∘𒣴₁</td>
+          </tr>
+          <tr>
+            <td>o0900539</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲟄</span>
+                </div>
+                <div>[<span class="ucode">F27C4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪍‍𒮹‍𒫇</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪍.𒮹.𒫇</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PA~a~3.TE~1.SI~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A8B_E0103_200D_12BB9_E0101_200D_12AC4_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪋₃.𒮹₁.𒫄₂</td>
+          </tr>
+          <tr>
+            <td>o0901868</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃃</span>
+                </div>
+                <div>[<span class="ucode">F30C3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪍‍𒰥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪍.𒰥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PA~a~3.UDU~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A8B_E0103_200D_12C25_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪋₃.𒰥₁</td>
+          </tr>
+          <tr>
+            <td>o0901928</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭅</span>
+                </div>
+                <div>[<span class="ucode">12B45</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪑‍𒣴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪑.𒣴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|PAP~a~1.IB~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12A91_E0101_200D_128F4_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪑₁.𒣴₁</td>
+          </tr>
+          <tr>
+            <td>o0901699</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪶</span>
+                </div>
+                <div>[<span class="ucode">12AB6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒥬</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒥬</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.KUR~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_1296C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒥬₁</td>
+          </tr>
+          <tr>
+            <td>o0901416</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒧽</span>
+                </div>
+                <div>[<span class="ucode">129FD</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒦠</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒦠</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.LAGAR~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_129A0_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒦠₁</td>
+          </tr>
+          <tr>
+            <td>o0901701</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪷</span>
+                </div>
+                <div>[<span class="ucode">12AB7</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒦭</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒦭</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.LAM~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_129AD_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒦭₁</td>
+          </tr>
+          <tr>
+            <td>o0901702</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒧢</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒧢</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.ME~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_129E2_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒧢₁</td>
+          </tr>
+          <tr>
+            <td>o0901524</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩉</span>
+                </div>
+                <div>[<span class="ucode">12A49</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍󳃻</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.󳃻</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.NAM₂~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_12A23_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒨣₂</td>
+          </tr>
+          <tr>
+            <td>o0901577</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒩨</span>
+                </div>
+                <div>[<span class="ucode">12A68</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍󳃻‍󳄆⁢𒩴‍𒫤</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.󳃻.󳄆∘𒩴.𒫤</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.NAM₂~2.ŠE~a@t+EZEN~b~1∘NUN~a~1.SIG₇~2|</span>
+              </div>
+              <div>
+                <span class="ucode4">12AB5_E0101_200D_12A23_E0102_200D_F3106_E0101_2062_12A74_E0101_200D_12AE3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒨣₂.󳄆₁∘𒩴₁.𒫣₂</td>
+          </tr>
+          <tr>
+            <td>o0901773</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲨰</span>
+                </div>
+                <div>[<span class="ucode">F2A30</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒫇</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒫇</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.SI~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_12AC4_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒫄₂</td>
+          </tr>
+          <tr>
+            <td>o0901111</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒥍</span>
+                </div>
+                <div>[<span class="ucode">1294D</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒬕</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒬕</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.SILA₄~c~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_12B15_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒬕₁</td>
+          </tr>
+          <tr>
+            <td>o0901703</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪸</span>
+                </div>
+                <div>[<span class="ucode">12AB8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍󳂐</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.󳂐</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.ŠU₂~5|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_12B91_E0105</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒮑₅</td>
+          </tr>
+          <tr>
+            <td>o0901705</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀎</span>
+                </div>
+                <div>[<span class="ucode">F300E</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒵵</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒵵</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.ZATU751~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_12D75_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒵵₁</td>
+          </tr>
+          <tr>
+            <td>o0901706</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳄄</span>
+                </div>
+                <div>[<span class="ucode">F3104</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍𒵶</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.𒵶</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.ZATU751~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_12D76_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.𒵶₁</td>
+          </tr>
+          <tr>
+            <td>o0901707</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳄂</span>
+                </div>
+                <div>[<span class="ucode">F3102</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵‍󳀏</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒪵.󳀏</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SAL~1.ZATU751~c~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12AB5_E0101_200D_F300F_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒪵₁.󳀏₁</td>
+          </tr>
+          <tr>
+            <td>o0902072</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲨒</span>
+                </div>
+                <div>[<span class="ucode">F2A12</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒬝‍𒥬‍𒪥</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒬝.𒥬.𒪥</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|SU~a~2.KUR~a~1.RU~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B1B_E0102_200D_1296C_E0101_200D_12AA3_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒬛₂.𒥬₁.𒪣₂</td>
+          </tr>
+          <tr>
+            <td>o0901953</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭓</span>
+                </div>
+                <div>[<span class="ucode">12B53</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭒‍𒥈</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭒.𒥈</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠE~a~1.KIN₂~c~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B52_E0101_200D_12948_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒭒₁.𒥈₁</td>
+          </tr>
+          <tr>
+            <td>o0901955</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭕</span>
+                </div>
+                <div>[<span class="ucode">12B55</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭒‍𒨣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭒.𒨣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠE~a~1.NAM₂~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B52_E0101_200D_12A23_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒭒₁.𒨣₁</td>
+          </tr>
+          <tr>
+            <td>o0901955</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭔</span>
+                </div>
+                <div>[<span class="ucode">12B54</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭒‍󳃻</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭒.󳃻</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠE~a~1.NAM₂~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B52_E0101_200D_12A23_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒭒₁.𒨣₂</td>
+          </tr>
+          <tr>
+            <td>o0901953</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃉</span>
+                </div>
+                <div>[<span class="ucode">F30C9</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭗‍𒥈</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭗.𒥈</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠE~a@t~1.KIN₂~c~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B57_E0101_200D_12948_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒭗₁.𒥈₁</td>
+          </tr>
+          <tr>
+            <td>o0901477</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨫</span>
+                </div>
+                <div>[<span class="ucode">12A2B</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭭‍𒨋</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭭.𒨋</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠEŠ~a~1.NA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B6D_E0101_200D_12A0B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒭭₁.𒨋₁</td>
+          </tr>
+          <tr>
+            <td>o0901268</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒦥</span>
+                </div>
+                <div>[<span class="ucode">129A5</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭻‍𒧯</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒭻.𒧯</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠITA~a1~1.MUD₃~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B7B_E0101_200D_129EF_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒭻₁.𒧯₁</td>
+          </tr>
+          <tr>
+            <td>o0902045</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮓</span>
+                </div>
+                <div>[<span class="ucode">12B93</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮑‍𒟖</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮑.𒟖</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~1.EN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0101_200D_127D6_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₁.𒟖₁</td>
+          </tr>
+          <tr>
+            <td>o0902041</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮒</span>
+                </div>
+                <div>[<span class="ucode">12B92</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮘‍𒛌</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮘.𒛌</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~2.AN~3|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0102_200D_126CD_E0103</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₂.𒛍₃</td>
+          </tr>
+          <tr>
+            <td>o0902054</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀄</span>
+                </div>
+                <div>[<span class="ucode">F3004</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮘‍𒪑</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮘.𒪑</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~2.PAP~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0102_200D_12A91_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₂.𒪑₁</td>
+          </tr>
+          <tr>
+            <td>o0902045</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃌</span>
+                </div>
+                <div>[<span class="ucode">F30CC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃼‍𒟖</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃼.𒟖</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~3.EN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0103_200D_127D6_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₃.𒟖₁</td>
+          </tr>
+          <tr>
+            <td>o0902043</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮙</span>
+                </div>
+                <div>[<span class="ucode">12B99</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒟊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒟊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.E₂~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_127CA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒟊₁</td>
+          </tr>
+          <tr>
+            <td>o0902044</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮚</span>
+                </div>
+                <div>[<span class="ucode">12B9A</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒟎</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒟎</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.E₂~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_127CE_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒟎₁</td>
+          </tr>
+          <tr>
+            <td>o0902045</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮔</span>
+                </div>
+                <div>[<span class="ucode">12B94</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒟖</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒟖</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.EN~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_127D6_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒟖₁</td>
+          </tr>
+          <tr>
+            <td>o0902048</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮕</span>
+                </div>
+                <div>[<span class="ucode">12B95</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒟚</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒟚</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.EN~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_127DA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒟚₁</td>
+          </tr>
+          <tr>
+            <td>o0902049</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮛</span>
+                </div>
+                <div>[<span class="ucode">12B9B</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒢧</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒢧</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.GIŠ~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_128A7_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒢧₁</td>
+          </tr>
+          <tr>
+            <td>o0902050</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮖</span>
+                </div>
+                <div>[<span class="ucode">12B96</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍󳂒</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.󳂒</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.(HI×1(N57)~1∘HI×1(N57)~1)|</span>
+              </div>
+              <div>
+                <span class="ucode4">12B91_E0105_200D_128EC_E0101_2062_128EC_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒣬₁∘𒣬₁</td>
+          </tr>
+          <tr>
+            <td>o0902056</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮗</span>
+                </div>
+                <div>[<span class="ucode">12B97</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒱟</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒱟</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.URI₃~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_12C5F_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒱟₁</td>
+          </tr>
+          <tr>
+            <td>o0902051</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮜</span>
+                </div>
+                <div>[<span class="ucode">12B9C</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒖾</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒖾</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.1(N02)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_125BE_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒖾₁</td>
+          </tr>
+          <tr>
+            <td>o0902057</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀓</span>
+                </div>
+                <div>[<span class="ucode">F3013</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍𒖪</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.𒖪</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.1(N24)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_125AA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.𒖪₁</td>
+          </tr>
+          <tr>
+            <td>o0902052</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲷼</span>
+                </div>
+                <div>[<span class="ucode">F2DFC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐‍󰄑</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂐.󰄑</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠU₂~5.2(N57)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B91_E0105_200D_F0111_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮑₅.󰄑₁</td>
+          </tr>
+          <tr>
+            <td>o0903220</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒷷</span>
+                </div>
+                <div>[<span class="ucode">12DF7</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮞⁢󰄐</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮞∘󰄐</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ŠUBUR~1∘1(N57)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12B9E_E0101_2062_F0110_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮞₁∘󰄐₁</td>
+          </tr>
+          <tr>
+            <td>o0901071</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤯</span>
+                </div>
+                <div>[<span class="ucode">1292F</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮹‍𒚐</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒮹.𒚐</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|TE~1.A~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BB9_E0101_200D_12690_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒮹₁.𒚐₁</td>
+          </tr>
+          <tr>
+            <td>o0902121</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯅</span>
+                </div>
+                <div>[<span class="ucode">12BC5</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯄‍𒛠</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯄.𒛠</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|TUG₂~a~1.BAD&amp;BAD~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BC4_E0101_200D_126E0_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯄₁.𒛠₁</td>
+          </tr>
+          <tr>
+            <td>o0902150</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀅</span>
+                </div>
+                <div>[<span class="ucode">F3005</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯘‍󰄔</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯘.󰄔</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|TUR₃~a~1.5(N57)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BD8_E0101_200D_F0114_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯘₁.󰄔₁</td>
+          </tr>
+          <tr>
+            <td>o0902179</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯴</span>
+                </div>
+                <div>[<span class="ucode">12BF4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯳‍𒕝</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯳.𒕝</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×1(N01)~1.5(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BF3_E0101_200D_1255D_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯳₁.𒕝₁</td>
+          </tr>
+          <tr>
+            <td>o0902185</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯶</span>
+                </div>
+                <div>[<span class="ucode">12BF6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯵‍O</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯵.O</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×2(N01)~1.O|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BF5_E0101_200D_4F</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯵₁.O</td>
+          </tr>
+          <tr>
+            <td>o0902183</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯷</span>
+                </div>
+                <div>[<span class="ucode">12BF7</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯵‍𒕣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯵.𒕣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×2(N01)~1.2(N14)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BF5_E0101_200D_12563_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯵₁.𒕣₁</td>
+          </tr>
+          <tr>
+            <td>o0902184</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯸</span>
+                </div>
+                <div>[<span class="ucode">12BF8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯵‍𒕣‍𒕙</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯵.𒕣.𒕙</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×2(N01)~1.2(N14)~1.1(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode4">12BF5_E0101_200D_12563_E0101_200D_12559_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯵₁.𒕣₁.𒕙₁</td>
+          </tr>
+          <tr>
+            <td>o0902187</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯺</span>
+                </div>
+                <div>[<span class="ucode">12BFA</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯹‍𒕛</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯹.𒕛</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×3(N01)~1.3(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BF9_E0101_200D_1255B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯹₁.𒕛₁</td>
+          </tr>
+          <tr>
+            <td>o0902189</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯼</span>
+                </div>
+                <div>[<span class="ucode">12BFC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯻‍𒕣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯻.𒕣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×4(N01)~1.2(N14)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BFB_E0101_200D_12563_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯻₁.𒕣₁</td>
+          </tr>
+          <tr>
+            <td>o0902191</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯾</span>
+                </div>
+                <div>[<span class="ucode">12BFE</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯽‍𒕢</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯽.𒕢</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×5(N01)~1.1(N14)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BFD_E0101_200D_12562_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯽₁.𒕢₁</td>
+          </tr>
+          <tr>
+            <td>o0902194</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒰁</span>
+                </div>
+                <div>[<span class="ucode">12C01</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒰀‍O</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒰀.O</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×8(N01)~1.O|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C00_E0101_200D_4F</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒰀₁.O</td>
+          </tr>
+          <tr>
+            <td>o0902199</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀉</span>
+                </div>
+                <div>[<span class="ucode">F3009</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂔‍𒕢‍𒕜</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂔.𒕢.𒕜</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄×(1(N14).3(N01))~1.1(N14)~1.4(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode4">F3094_E0101_200D_12562_E0101_200D_1255C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">󳂔₁.𒕢₁.𒕜₁</td>
+          </tr>
+          <tr>
+            <td>o0900108</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒛘</span>
+                </div>
+                <div>[<span class="ucode">126D8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒚣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒚣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.AB~b~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_126A3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒚣₁</td>
+          </tr>
+          <tr>
+            <td>o0902177</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯢</span>
+                </div>
+                <div>[<span class="ucode">12BE2</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍󳂐</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.󳂐</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.ŠU₂~5|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12B91_E0105</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒮑₅</td>
+          </tr>
+          <tr>
+            <td>o0902163</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯣</span>
+                </div>
+                <div>[<span class="ucode">12BE3</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕙</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕙</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12559_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕙₁</td>
+          </tr>
+          <tr>
+            <td>o0902164</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯤</span>
+                </div>
+                <div>[<span class="ucode">12BE4</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕚</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕚</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.2(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_1255A_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕚₁</td>
+          </tr>
+          <tr>
+            <td>o0902165</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯥</span>
+                </div>
+                <div>[<span class="ucode">12BE5</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕛</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕛</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.3(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_1255B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕛₁</td>
+          </tr>
+          <tr>
+            <td>o0902166</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯦</span>
+                </div>
+                <div>[<span class="ucode">12BE6</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕜</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕜</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.4(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_1255C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕜₁</td>
+          </tr>
+          <tr>
+            <td>o0902167</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯧</span>
+                </div>
+                <div>[<span class="ucode">12BE7</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕝</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕝</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.5(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_1255D_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕝₁</td>
+          </tr>
+          <tr>
+            <td>o0902168</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯨</span>
+                </div>
+                <div>[<span class="ucode">12BE8</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕞</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕞</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.6(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_1255E_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕞₁</td>
+          </tr>
+          <tr>
+            <td>o0902169</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯩</span>
+                </div>
+                <div>[<span class="ucode">12BE9</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕟</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕟</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.7(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_1255F_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕟₁</td>
+          </tr>
+          <tr>
+            <td>o0902170</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯪</span>
+                </div>
+                <div>[<span class="ucode">12BEA</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕠</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕠</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.8(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12560_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕠₁</td>
+          </tr>
+          <tr>
+            <td>o0902171</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯫</span>
+                </div>
+                <div>[<span class="ucode">12BEB</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕢</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕢</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N14)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12562_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕢₁</td>
+          </tr>
+          <tr>
+            <td>o0902218</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150"/>
+                </div>
+                <div>[<span class="ucode">0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕢‍𒕙</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕢.𒕙</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N14)~1.1(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12562_E0101_200D_12559_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕢₁.𒕙₁</td>
+          </tr>
+          <tr>
+            <td>o0902172</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯬</span>
+                </div>
+                <div>[<span class="ucode">12BEC</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕢‍𒕛</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕢.𒕛</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N14)~1.3(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12562_E0101_200D_1255B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕢₁.𒕛₁</td>
+          </tr>
+          <tr>
+            <td>o0902173</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯭</span>
+                </div>
+                <div>[<span class="ucode">12BED</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕢‍𒕜</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕢.𒕜</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N14)~1.4(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12562_E0101_200D_1255C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕢₁.𒕜₁</td>
+          </tr>
+          <tr>
+            <td>o0902174</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯮</span>
+                </div>
+                <div>[<span class="ucode">12BEE</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕢‍𒕝</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕢.𒕝</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N14)~1.5(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12562_E0101_200D_1255D_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕢₁.𒕝₁</td>
+          </tr>
+          <tr>
+            <td>o0902175</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯯</span>
+                </div>
+                <div>[<span class="ucode">12BEF</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕢‍𒕠</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕢.𒕠</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N14)~1.8(N08)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12562_E0101_200D_12560_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕢₁.𒕠₁</td>
+          </tr>
+          <tr>
+            <td>o0902176</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯰</span>
+                </div>
+                <div>[<span class="ucode">12BF0</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒕣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒕣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.2(N14)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_12563_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒕣₁</td>
+          </tr>
+          <tr>
+            <td>o0902219</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳀆</span>
+                </div>
+                <div>[<span class="ucode">F3006</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡‍𒖪</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒯡.𒖪</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|U₄~1.1(N24)~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12BE1_E0101_200D_125AA_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒯡₁.𒖪₁</td>
+          </tr>
+          <tr>
+            <td>o0902334</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱡</span>
+                </div>
+                <div>[<span class="ucode">12C61</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟‍𒚘</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟.𒚘</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|URI₃~a~1.AB~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C5F_E0101_200D_126A2_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱟₁.𒚢₂</td>
+          </tr>
+          <tr>
+            <td>o0902336</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲺆</span>
+                </div>
+                <div>[<span class="ucode">F2E86</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟‍𒣴</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟.𒣴</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|URI₃~a~1.IB~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C5F_E0101_200D_128F4_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱟₁.𒣴₁</td>
+          </tr>
+          <tr>
+            <td>o0901475</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳂞</span>
+                </div>
+                <div>[<span class="ucode">F309E</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟‍𒨋</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟.𒨋</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|URI₃~a~1.NA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C5F_E0101_200D_12A0B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱟₁.𒨋₁</td>
+          </tr>
+          <tr>
+            <td>o0902330</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󲫋</span>
+                </div>
+                <div>[<span class="ucode">F2ACB</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟‍𒱄</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱟.𒱄</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|URI₃~a~1.UNUG~a~2|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C5F_E0101_200D_12C46_E0102</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱟₁.𒱆₂</td>
+          </tr>
+          <tr>
+            <td>o0901475</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨪</span>
+                </div>
+                <div>[<span class="ucode">12A2A</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱠⁢𒨋</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱠∘𒨋</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|URI₃~a~2∘NA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C5F_E0102_2062_12A0B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱟₂∘𒨋₁</td>
+          </tr>
+          <tr>
+            <td>o0901475</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒨩</span>
+                </div>
+                <div>[<span class="ucode">12A29</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱠‍𒨋</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒱠.𒨋</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|URI₃~a~2.NA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C5F_E0102_200D_12A0B_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱟₂.𒨋₁</td>
+          </tr>
+          <tr>
+            <td>o0901016</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤈</span>
+                </div>
+                <div>[<span class="ucode">12908</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃲‍𒥬</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">󳃲.𒥬</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|UŠ~a~2.KUR~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C7C_E0102_200D_1296C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱼₂.𒥬₁</td>
+          </tr>
+          <tr>
+            <td>o0901016</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒤉</span>
+                </div>
+                <div>[<span class="ucode">12909</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒲁‍𒥬</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒲁.𒥬</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|UŠ~b~2.KUR~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12C7E_E0102_200D_1296C_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒱾₂.𒥬₁</td>
+          </tr>
+          <tr>
+            <td>o0902614</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒴷</span>
+                </div>
+                <div>[<span class="ucode">12D37</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒴶‍𒪣</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒴶.𒪣</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ZATU714~1.RU~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12D36_E0101_200D_12AA3_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒴶₁.𒪣₁</td>
+          </tr>
+          <tr>
+            <td>o0900607</td>
+            <td class="sqdb-pua">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒠌</span>
+                </div>
+                <div>[<span class="ucode">1280C</span>]</div>
+              </div>
+            </td>
+            <td class="sqdb-cun">
+              <div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒵹‍𒠊</span>
+                </div>
+                <div>
+                  <span class="ofs-pc ofs-150">𒵹.𒠊</span>
+                </div>
+              </div>
+            </td>
+            <td class="unames">
+              <div>
+                <span class="uname">|ZATU753~1.GA~a~1|</span>
+              </div>
+              <div>
+                <span class="ucode3">12D79_E0101_200D_1280A_E0101</span>
+              </div>
+            </td>
+            <td class="ofs-pc ofs-150">𒵹₁.𒠊₁</td>
+          </tr>
+        </tbody>
+      </table>
+    </body>
+  </html>
+</esp:page>

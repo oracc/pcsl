@@ -1,4 +1,4 @@
-default: texts pcsl 
+default: texts pcsl pc25 font pages portal
 
 #
 # TEXTS
@@ -37,11 +37,17 @@ tpc25:
 # * build signlists for pcsl (again) and pc25
 #
 
-pcsl: pcsl1 mepc-texts mepc-signs
+pcsl: pcsl1 mepc-texts mepc-signs mepc-lists pcsl2
 
 pcsl1:
-	(cd mepc/signs ; make pcsl install-pcsl)
+	(cd mepc/lists ; make pcsl install-pcsl)
 	oracc update
+
+pcsl2:
+	oracc corpus
+
+pc25:
+	(cd pc25 ; oracc build)
 
 #
 # MEPC
@@ -55,25 +61,31 @@ mepc-texts:
 mepc-signs:
 	(cd mepc/signs ; make)
 
-signlist: 02pub/sl/sl.tsv
+# Build all the lists and their web versions
+mepc-lists:
+	(cd mepc/lists ; make)
 
-02pub/sl/sl.tsv: 00lib/pcsl.asl
-	oracc update
+# Build the mepc web pages
+mepc-pages:
+	(cd mepc/w ; make)
 
-corpus: 02pub/lem/lem.dbh
+#
+# FONT
+#
+font:
+	(cd fepc ; make)
 
-portal: 02www/index.html
+#
+# PAGES
+#
+pages: mepc-pages pepc
 
-# Scripts which update any part of the PCSL 00web should also touch 00web/.buildme
-02www/index.html: 00web/.buildme
-	oracc portal
-
-xdefault: 
-	oracc build clean
-	(cd pc25 ; oracc build clean)
-	(cd mepc ; make)
+pepc:
 	(cd pepc ; make)
-	(cd pc25 ; make)
-	oracc build portal
 
-# 02pub/cat/cat.dbh 02pub/lem/lem.dbh
+#
+# PORTAL
+#
+
+portal:
+	oracc portal
