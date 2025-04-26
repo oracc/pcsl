@@ -89,3 +89,10 @@ pepc:
 
 portal:
 	oracc portal
+
+#
+# Proposal PDF
+#
+
+proposal:
+	(cd prop ; make)
