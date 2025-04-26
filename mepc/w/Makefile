@@ -6,6 +6,8 @@ mepc: tok t g d
 	rm -fr ../../00web/mepc
 	mv w ../../00web/mepc
 
+tpcsl: tpcsl/corpus.html
+
 tok: db/pcsl.tok db/pc25.tok
 
 db/pcsl.tok: db/pcsl.xtf
