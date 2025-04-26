@@ -17,6 +17,8 @@ GetOptions(
 # are post-converted by utr; all input is still in PC24.
 #
 
+my %zatu = (); my %znotes = (); my %nozatu = (); my %zseen = (); load_zatu();
+
 # load PC24->PC25 map
 my %m = (); my @m = `cut -f2-3 00etc/pc25-map.tsv`; chomp @m;
 foreach (@m) {
@@ -59,6 +61,7 @@ while (<N>) {
     $r = '' if $seqflag; # brute force shut down refglyph if tag says this is sequence
     asl_sign($p,$o,$r,$c,$seqflag) unless $p eq 'RI~x';
 }
+asl_zatu_lref();
 close(N);
 
 print `cat 00etc/compoundonly.asl`;
@@ -85,23 +88,34 @@ sub asl_sign {
     my($s,$o,$r,$c,$seqflag) = @_;
     my $om = $oidmap{$o} || $o;
     my $omr = $oidmapr{$o} || $o;
+    my @nn = ($s);
     print "\@sign $s\n";
     if ($aka{$o}) {
 	foreach my $a (@{$aka{$o}}) {
 	    print "\@aka $a\n";
+	    push @nn, $a;
 	}
     } elsif ($aka{$om}) {
 	foreach my $a (@{$aka{$om}}) {
 	    print "\@aka $a\n";
+	    push @nn, $a;
 	}
     } elsif ($aka{$omr}) {
 	foreach my $a (@{$aka{$omr}}) {
 	    print "\@aka $a\n";
+	    push @nn, $a;
 	}
     }
     print "\@oid $om\n";
     my $h = $pc25{$om};
-    printf "\@list U+$h\n" if $h && $h =~ /^12/;
+    if ($h) {
+	if ($h =~ /^12/) {
+	    printf "\@list U+$h\n";
+	} else {
+	    printf "\@upua U+$h\n";
+	}
+    }
+    asl_zatu($om,$omr,@nn);
     asl_chars($om, $r, $c, $s, $seqflag);
     print "\@end sign\n\n";
 }
@@ -170,6 +184,31 @@ sub asl_uni {
 		warn "$0: no name for OID=$co HEX=$ch\n";
 	    }
 	}
+    }
+}
+
+sub asl_zatu_lref {
+    my @zl = `cat 00etc/ZATU-lref.tsv`; chomp @zl;
+    foreach my $zl (@zl) {
+	my($z,$n) = split(/\t/,$zl);
+	print "\@lref $z\n\@note $n\n\n";
+    }
+}
+
+sub asl_zatu_sub {
+    my($z,$s) = @_;
+    print "\@list $z\n";
+    ++$zseen{$s};
+}
+
+sub asl_zatu {
+    my($o,$om,$s) = @_;
+    if ($zatu{$o}) {
+	asl_zatu_sub($zatu{$o},$s);
+    } elsif ($om ne $o && $zatu{$om}) {
+	asl_zatu_sub($zatu{$om},$om);
+    } else {
+	++$nozatu{$s}
     }
 }
 
@@ -280,6 +319,16 @@ sub load_unicode {
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
     @a = `cut -f1,3 ../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+}
+
+sub load_zatu {
+    my @z = `cat 00etc/ZATU-list.tsv`; chomp @z;
+    foreach (@z) {
+	my($z,@o) = split(/\s/,$_);
+	foreach my $o (@o) {
+	    $zatu{$o} = $z;
+	}
+    }
 }
 
 sub pc25_name {

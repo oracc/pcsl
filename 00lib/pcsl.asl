@@ -34,7 +34,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3106 0xFFFFC
+@listdef U+ 0x12550-0x12686 0x12690-0x12E10 0xF005F-0xF012D 0xF2029-0xF2262 0xF2580-0xF2EC6 0xF3000-0xF3081 0xF3089-0xF3106 0xFFFFC
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -101,12 +101,14 @@
 
 @sign |A×AB₂|
 @oid o0900001
+@upua U+F2800
 @uname PROTO-CUNEIFORM SIGN A TIMES AB2
 @glyf |A×AB₂|~1 󲠀 F2800 o0900001 ~01
 @end sign
 
 @sign |A×AN|
 @oid o0900002
+@upua U+F2932
 @uname PROTO-CUNEIFORM SIGN A TIMES AN
 @glyf |A×AN|~1 󲤲 F2932 o0900002 ~01
 @end sign
@@ -140,12 +142,14 @@
 
 @sign A@g
 @oid o0900008
+@upua U+F290D
 @uname PROTO-CUNEIFORM SIGN A GUNU
 @glyf A@g~1 󲤍 F290D o0900008 ~01
 @end sign
 
 @sign A@t
 @oid o0900009
+@upua U+F2801
 @uname PROTO-CUNEIFORM SIGN A TENU
 @glyf A@t~1 󲠁 F2801 o0900009 ~01
 @end sign
@@ -183,12 +187,14 @@
 
 @sign |AB~a×KU₆~a|
 @oid o0900022
+@upua U+F2802
 @uname PROTO-CUNEIFORM SIGN AB-A TIMES KU6-A
 @glyf |AB~a×KU₆~a|~1 󲠂 F2802 o0900022 ~01
 @end sign
 
 @sign |AB~a×SUKKAL|
 @oid o0900029
+@upua U+F2803
 @uname PROTO-CUNEIFORM SIGN AB-A TIMES SUKKAL
 @glyf |AB~a×SUKKAL|~1 󲠃 F2803 o0900029 ~01
 @end sign
@@ -203,6 +209,7 @@
 
 @sign |AB~a×X|
 @oid o0900035
+@upua U+F2804
 @uname PROTO-CUNEIFORM SIGN AB-A TIMES X
 @glyf |AB~a×X|~1 󲠄 F2804 o0900035 ~01
 @end sign
@@ -216,6 +223,7 @@
 
 @sign |AB~a×1(N01)|
 @oid o0900025
+@upua U+F2805
 @uname PROTO-CUNEIFORM SIGN AB-A TIMES ONE-N1
 @glyf |AB~a×1(N01)|~1 󲠅 F2805 o0900025 ~01
 @end sign
@@ -243,18 +251,21 @@
 
 @sign |AB~b×A|
 @oid o0900016
+@upua U+F2807
 @uname PROTO-CUNEIFORM SIGN AB-B TIMES A
 @glyf |AB~b×A|~1 󲠇 F2807 o0900016 ~01
 @end sign
 
 @sign |AB~b×KU₆~a|
 @oid o0900023
+@upua U+F2808
 @uname PROTO-CUNEIFORM SIGN AB-B TIMES KU6-A
 @glyf |AB~b×KU₆~a|~1 󲠈 F2808 o0900023 ~01
 @end sign
 
 @sign |AB~b×ŠA₃~a1|
 @oid o0900031
+@upua U+F2809
 @uname PROTO-CUNEIFORM SIGN AB-B TIMES SHA3-A1
 @glyf |AB~b×ŠA₃~a1|~1 󲠉 F2809 o0900031 ~01
 @end sign
@@ -278,18 +289,21 @@
 
 @sign AB₂@g
 @oid o0900046
+@upua U+F296C
 @uname PROTO-CUNEIFORM SIGN AB2 GUNU
 @glyf AB₂@g~1 󲥬 F296C o0900046 ~01
 @end sign
 
 @sign ABGAL
 @oid o0900047
+@upua U+F2210
 @glyf |NUN~a~1.ME~a~1| 󲈐=𒥲‍𒤅 F2210 o0900047 ~ff
 @glyf |NUN~a~1+ME~a~1| 󲈒=𒥲⁤𒤅 F2212 o0900047 ~ff
 @end sign
 
 @sign ABRIG
 @oid o0900049
+@upua U+F21B1
 @glyf |DU~1.ME~a~1.NUN~a~1| 󲆱=𒜞‍𒤅‍𒥲 F21B1 o0900049 ~ff
 @glyf |NUN~a~1.ME~a~1.DU~1| 󲈑=𒥲‍𒤅‍𒜞 F2211 o0900049 ~ff
 @end sign
@@ -340,6 +354,7 @@
 
 @sign ADDA@t
 @oid o0900059
+@upua U+F280B
 @uname PROTO-CUNEIFORM SIGN ADDA TENU
 @glyf ADDA@t~1 󲠋 F280B o0900059 ~01
 @end sign
@@ -395,6 +410,7 @@
 
 @sign ALAN~d
 @oid o0900069
+@upua U+F280C
 @uname PROTO-CUNEIFORM SIGN ALAN-D
 @glyf ALAN~d~1 󲠌 F280C o0900069 ~01
 @end sign
@@ -408,6 +424,7 @@
 
 @sign ALAN~f
 @oid o0900071
+@upua U+F290E
 @uname PROTO-CUNEIFORM SIGN ALAN-F
 @glyf ALAN~f~1 󲤎 F290E o0900071 ~01
 @end sign
@@ -466,6 +483,7 @@
 
 @sign |AMAR.1(N02)|
 @oid o0900085
+@upua U+F21AB
 @glyf |AMAR~2.1(N02)~1| 󲆫=𒚴‍𒖾 F21AB o0900085 ~ff
 @end sign
 
@@ -485,6 +503,7 @@
 
 @sign AMAR@g
 @oid o0900088
+@upua U+F280D
 @uname PROTO-CUNEIFORM SIGN AMAR GUNU
 @glyf AMAR@g~1 󲠍 F280D o0900088 ~01
 @end sign
@@ -535,6 +554,7 @@
 
 @sign ANZU₂
 @oid o0900098
+@upua U+F21AC
 @glyf |AN~3.IM~a~1.GI₆~2| 󲆬=𒚷‍𒡟‍𒠎 F21AC o0900098 ~ff
 @end sign
 
@@ -548,6 +568,7 @@
 
 @sign |APIN~a.APIN~a|
 @oid o0900104
+@upua U+F21AD
 @glyf |APIN~a~1.APIN~a~1| 󲆭=𒚽‍𒚽 F21AD o0900104 ~ff
 @end sign
 
@@ -575,16 +596,19 @@
 
 @sign ARARMA₂~b
 @oid o0900108
+@upua U+F2248
 @glyf |U₄~1.AB~b~1| 󲉈=𒪀‍𒚝 F2248 o0900108 ~ff
 @end sign
 
 @sign ARATTA
 @oid o0900109
+@upua U+F21F9
 @glyf |3(N57)~1.LAM~a~1.KUR~a~1.RU~2| 󲇹=𒯮‍𒣜‍𒢬‍󲂠 F21F9 o0900109 ~ff
 @end sign
 
 @sign ASAL₂
 @oid o0900110
+@upua U+F290F
 @uname PROTO-CUNEIFORM SIGN ASAL2
 @glyf ASAL₂~1 󲤏 F290F o0900110 ~01
 @end sign
@@ -598,6 +622,7 @@
 
 @sign AŠ₂
 @oid o0900112
+@upua U+F2811
 @uname PROTO-CUNEIFORM SIGN ASH2
 @glyf AŠ₂~1 󲠑 F2811 o0900112 ~01
 @end sign
@@ -808,12 +833,14 @@
 
 @sign |BAR×URI₃~a|
 @oid o0900156
+@upua U+F2974
 @uname PROTO-CUNEIFORM SIGN BAR TIMES URI3-A
 @glyf |BAR×URI₃~a|~1 󲥴 F2974 o0900156 ~01
 @end sign
 
 @sign |BAR×UŠ~a|
 @oid o0903380
+@upua U+F2988
 @uname PROTO-CUNEIFORM SIGN BAR TIMES USH-A
 @glyf |BAR×UŠ~a|~1 󲦈 F2988 o0903380 ~01
 @end sign
@@ -843,6 +870,7 @@
 
 @sign BAU405
 @oid o0900163
+@upua U+F2930
 @uname PROTO-CUNEIFORM SIGN BAU405
 @glyf BAU405~1 󲤰 F2930 o0900163 ~01
 @end sign
@@ -902,6 +930,7 @@
 
 @sign |((BU~a.DU₆~a)&(BU~a.DU₆~a))×UDU~a|
 @oid o0900179
+@upua U+F2969
 @uname PROTO-CUNEIFORM SIGN BU-A PLUS DU6-A OVER BU-A PLUS DU6-A TIMES UDU-A
 @glyf |((BU~a.DU₆~a)&(BU~a.DU₆~a))×UDU~a|~1 󲥩 F2969 o0900179 ~01
 @end sign
@@ -924,6 +953,7 @@
 
 @sign |BU~a+TU~b|
 @oid o0900204
+@upua U+F296D
 @uname PROTO-CUNEIFORM SIGN BU-A JOINING TU-B
 @glyf |BU~a+TU~b|~1 󲥭 F296D o0900204 ~01
 @end sign
@@ -936,12 +966,14 @@
 
 @sign |BU~a×GIŠ@t|
 @oid o0900185
+@upua U+F2814
 @uname PROTO-CUNEIFORM SIGN BU-A TIMES GISH TENU
 @glyf |BU~a×GIŠ@t|~1 󲠔 F2814 o0900185 ~01
 @end sign
 
 @sign |BU~a×1(N58)|
 @oid o0900187
+@upua U+F2815
 @uname PROTO-CUNEIFORM SIGN BU-A TIMES ONE-N58
 @glyf |BU~a×1(N58)|~1 󲠕 F2815 o0900187 ~01
 @end sign
@@ -956,12 +988,14 @@
 
 @sign |(BU~a&BU~a).NA₂~b|
 @oid o0900193
+@upua U+F2933
 @uname PROTO-CUNEIFORM SIGN BU-A OVER BU-A BESIDE NA2-B
 @glyf |(BU~a&BU~a).NA₂~b|~1 󲤳 F2933 o0900193 ~01
 @end sign
 
 @sign |(BU~a&BU~a).X|
 @oid o0900197
+@upua U+F2816
 @uname PROTO-CUNEIFORM SIGN BU-A OVER BU-A BESIDE X
 @glyf |(BU~a&BU~a).X|~1 󲠖 F2816 o0900197 ~01
 @end sign
@@ -1010,6 +1044,7 @@
 
 @sign |BULUG₃.DU₆~a|
 @oid o0900209
+@upua U+F21AF
 @glyf |BULUG₃~1.DU₆~a~2| 󲆯=𒛰‍𒜡 F21AF o0900209 ~ff
 @end sign
 
@@ -1057,6 +1092,7 @@
 
 @sign |DA~a.LIŠ|
 @oid o0900222
+@upua U+F21B0
 @glyf |DA~a~1.LIŠ~1| 󲆰=𒛶‍𒣠 F21B0 o0900222 ~ff
 @end sign
 
@@ -1083,6 +1119,7 @@
 
 @sign DAG
 @oid o0900223
+@upua U+F2910
 @uname PROTO-CUNEIFORM SIGN DAG
 @glyf DAG~1 󲤐 F2910 o0900223 ~01
 @end sign
@@ -1138,6 +1175,7 @@
 
 @sign DAR~d
 @oid o0900231
+@upua U+F2818
 @uname PROTO-CUNEIFORM SIGN DAR-D
 @glyf DAR~d~1 󲠘 F2818 o0900231 ~01
 @end sign
@@ -1323,12 +1361,14 @@
 
 @sign |DIM~a×GU|
 @oid o0900273
+@upua U+F2934
 @uname PROTO-CUNEIFORM SIGN DIM-A TIMES GU
 @glyf |DIM~a×GU|~1 󲤴 F2934 o0900273 ~01
 @end sign
 
 @sign |DIM~a×X|
 @oid o0900275
+@upua U+F2935
 @uname PROTO-CUNEIFORM SIGN DIM-A TIMES X
 @glyf |DIM~a×X|~1 󲤵 F2935 o0900275 ~01
 @end sign
@@ -1410,6 +1450,7 @@
 
 @sign DU₆~a@n
 @oid o0903567
+@upua U+F2984
 @uname PROTO-CUNEIFORM SIGN DU6-A NUTILLU
 @glyf DU₆~a@n~1 󲦄 F2984 o0903567 ~01
 @end sign
@@ -1487,6 +1528,7 @@
 
 @sign |DU₈~c×X|
 @oid o0900307
+@upua U+F281C
 @uname PROTO-CUNEIFORM SIGN DU8-C TIMES X
 @glyf |DU₈~c×X|~1 󲠜 F281C o0900307 ~01
 @end sign
@@ -1520,6 +1562,7 @@
 
 @sign DUB~b@r
 @oid o0900328
+@upua U+F2972
 @uname PROTO-CUNEIFORM SIGN DUB-B REVERSED
 @glyf DUB~b@r~1 󲥲 F2972 o0900328 ~01
 @end sign
@@ -1601,12 +1644,14 @@
 
 @sign |DUG~a×HI|
 @oid o0900369
+@upua U+F2936
 @uname PROTO-CUNEIFORM SIGN DUG-A TIMES HI
 @glyf |DUG~a×HI|~1 󲤶 F2936 o0900369 ~01
 @end sign
 
 @sign |DUG~a×KASKAL|
 @oid o0900375
+@upua U+F281E
 @uname PROTO-CUNEIFORM SIGN DUG-A TIMES KASKAL
 @glyf |DUG~a×KASKAL|~1 󲠞 F281E o0900375 ~01
 @end sign
@@ -1620,6 +1665,7 @@
 
 @sign |DUG~a×LAM~b|
 @oid o0900388
+@upua U+F281F
 @uname PROTO-CUNEIFORM SIGN DUG-A TIMES LAM-B
 @glyf |DUG~a×LAM~b|~1 󲠟 F281F o0900388 ~01
 @end sign
@@ -1647,6 +1693,7 @@
 
 @sign |DUG~a×X|
 @oid o0900460
+@upua U+F2937
 @uname PROTO-CUNEIFORM SIGN DUG-A TIMES X
 @glyf |DUG~a×X|~1 󲤷 F2937 o0900460 ~01
 @end sign
@@ -1719,6 +1766,7 @@
 
 @sign |DUG~b×E~a|
 @oid o0900356
+@upua U+F2822
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES E-A
 @glyf |DUG~b×E~a|~1 󲠢 F2822 o0900356 ~01
 @end sign
@@ -1801,6 +1849,7 @@
 
 @sign |DUG~b×(KUR~a.X)|
 @oid o0900384
+@upua U+F2823
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES KUR-A PLUS X
 @glyf |DUG~b×(KUR~a.X)|~1 󲠣 F2823 o0900384 ~01
 @end sign
@@ -1850,6 +1899,7 @@
 
 @sign |DUG~b×(NI~a@g.ZATU779)|
 @oid o0900412
+@upua U+F2824
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES NI-A GUNU PLUS ZATU779
 @glyf |DUG~b×(NI~a@g.ZATU779)|~1 󲠤 F2824 o0900412 ~01
 @end sign
@@ -1912,6 +1962,7 @@
 
 @sign |DUG~b×SUKUD~d|
 @oid o0900429
+@upua U+F2973
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES SUKUD-D
 @glyf |DUG~b×SUKUD~d|~1 󲥳 F2973 o0900429 ~01
 @end sign
@@ -2007,6 +2058,7 @@
 
 @sign |DUG~b×X|
 @oid o0900461
+@upua U+F2029
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES X
 @glyf |DUG~b×X|~1 󲠮 F282E o0900462 ~01
 @glyf |DUG~b×X|~2 󲀩 F2029 o0900461 ~02
@@ -2014,6 +2066,7 @@
 
 @sign |DUG~b×ZATU707~a|
 @oid o0900464
+@upua U+F2825
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES ZATU707-A
 @glyf |DUG~b×ZATU707~a|~1 󲠥 F2825 o0900464 ~01
 @end sign
@@ -2070,6 +2123,7 @@
 
 @sign |DUG~b×3(N57)|
 @oid o0900403
+@upua U+F2826
 @uname PROTO-CUNEIFORM SIGN DUG-B TIMES THREE-N57
 @glyf |DUG~b×3(N57)|~1 󲠦 F2826 o0900403 ~01
 @end sign
@@ -2118,6 +2172,7 @@
 
 @sign DUG~e
 @oid o0900478
+@upua U+F2820
 @uname PROTO-CUNEIFORM SIGN DUG-E
 @glyf DUG~e~1 󲠠 F2820 o0900478 ~01
 @end sign
@@ -2174,12 +2229,14 @@
 
 @sign E~d
 @oid o0900490
+@upua U+F2832
 @uname PROTO-CUNEIFORM SIGN E-D
 @glyf E~d~1 󲠲 F2832 o0900490 ~01
 @end sign
 
 @sign E~e
 @oid o0900491
+@upua U+F2911
 @uname PROTO-CUNEIFORM SIGN E-E
 @glyf E~e~1 󲤑 F2911 o0900491 ~01
 @end sign
@@ -2194,11 +2251,13 @@
 
 @sign |E₂~a.LIŠ|
 @oid o0900498
+@upua U+F21B3
 @glyf |E₂~a~1.LIŠ~1| 󲆳=𒞀‍𒣠 F21B3 o0900498 ~ff
 @end sign
 
 @sign |E₂~a×3(N58)|
 @oid o0900506
+@upua U+F2833
 @uname PROTO-CUNEIFORM SIGN E2-A TIMES THREE-N58
 @glyf |E₂~a×3(N58)|~1 󲠳 F2833 o0900506 ~01
 @end sign
@@ -2220,6 +2279,7 @@
 
 @sign |E₂~b.LIŠ|
 @oid o0900499
+@upua U+F21B5
 @glyf |E₂~b~1.LIŠ~1| 󲆵=𒞂‍𒣠 F21B5 o0900499 ~ff
 @end sign
 
@@ -2247,6 +2307,7 @@
 
 @sign E₃~a
 @oid o0900508
+@upua U+F21B2
 @glyf |DU~1.U₄~1| 󲆲=𒜞‍𒪀 F21B2 o0900508 ~ff
 @end sign
 
@@ -2300,12 +2361,14 @@
 
 @sign |EN~c&EN~c|
 @oid o0900523
+@upua U+F2834
 @uname PROTO-CUNEIFORM SIGN EN-C OVER EN-C
 @glyf |EN~c&EN~c|~1 󲠴 F2834 o0900523 ~01
 @end sign
 
 @sign EN~e
 @oid o0900521
+@upua U+F2835
 @uname PROTO-CUNEIFORM SIGN EN-E
 @glyf EN~e~1 󲠵 F2835 o0900521 ~01
 @end sign
@@ -2333,43 +2396,51 @@
 
 @sign |EN₂.E₂~a|
 @oid o0900531
+@upua U+F21BB
 @glyf |EN₂~1.E₂~a~1| 󲆻=𒞎‍𒞀 F21BB o0900531 ~ff
 @end sign
 
 @sign |EN₂.E₂~b|
 @aka |EN₂×E₂~b|
 @oid o0900532
+@upua U+F21BC
 @glyf |EN₂~1.E₂~b~1| 󲆼=𒞎‍𒞂 F21BC o0900532 ~ff
 @end sign
 
 @sign ENDIB
 @oid o0900533
+@upua U+F21BA
 @glyf |EN~a~4.ME~a~1.MU~1| 󲆺=󲀯‍𒤅‍𒤍 F21BA o0900533 ~ff
 @end sign
 
 @sign ENGIZ
 @oid o0900534
+@upua U+F21B9
 @glyf |EN~a~4.ME~a~1.GI~2| 󲆹=󲀯‍𒤅‍𒟼 F21B9 o0900534 ~ff
 @end sign
 
 @sign ENKUM
 @oid o0900535
+@upua U+F21B6
 @glyf |EN~a~4..ŠE~a@t+EZEN~b~1∘NUN~a~1.SIG₇~2| 󲆶=󲀯‍‍󲦚⁢𒥲‍󲂱 F21B6 o0900535 ~ff
 @glyf |EN~a~4.BAHAR₂~b~1∘.SIG₇~1.∘ME~a~1.NUN~a~1| 󲆷=󲀯‍𒛋⁢‍𒧉‍⁢𒤅‍𒥲 F21B7 o0900535 ~ff
 @end sign
 
 @sign ENLIL
 @oid o0900537
+@upua U+F21B8
 @glyf |EN~a~4.KID~a~1| 󲆸=󲀯‍𒢍 F21B8 o0900537 ~ff
 @end sign
 
 @sign ENSI
 @oid o0900538
+@upua U+F21E0
 @glyf |ME~a~1..EN~a~4.∘ŠE~a~1∘ŠA~3| 󲇠=𒤅‍‍󲀯‍⁢𒨢⁢𒨏 F21E0 o0900538 ~ff
 @end sign
 
 @sign ENSI₂
 @oid o0900539
+@upua U+F2218
 @glyf |PA~a~3.TE~1.SI~2| 󲈘=󲂛‍𒩣‍󲂩 F2218 o0900539 ~ff
 @end sign
 
@@ -2396,6 +2467,7 @@
 
 @sign ERIM₂
 @oid o0900544
+@upua U+F220C
 @glyf |NE~a~1.RU~2| 󲈌=𒥀‍󲂠 F220C o0900544 ~ff
 @end sign
 
@@ -2480,6 +2552,7 @@
 
 @sign |EZEN~a×LA~e|
 @oid o0900567
+@upua U+F2032
 @uname PROTO-CUNEIFORM SIGN EZEN-A TIMES LA-E
 @glyf |EZEN~a×LA~e|~1 󲤸 F2938 o0900568 ~01
 @glyf |EZEN~a×LA~e|~2 󲀲 F2032 o0900567 ~02
@@ -2535,6 +2608,7 @@
 
 @sign |EZEN~a×X|
 @oid o0900587
+@upua U+F2837
 @uname PROTO-CUNEIFORM SIGN EZEN-A TIMES X
 @glyf |EZEN~a×X|~1 󲠷 F2837 o0900587 ~01
 @end sign
@@ -2557,12 +2631,14 @@
 @sign EZEN~b@t
 @aka EZEM~c
 @oid o0900592
+@upua U+F283A
 @uname PROTO-CUNEIFORM SIGN EZEN-B TENU
 @glyf EZEN~b@t~1 󲠺 F283A o0900592 ~01
 @end sign
 
 @sign EZEN~c
 @oid o0900554
+@upua U+F2912
 @uname PROTO-CUNEIFORM SIGN EZEN-C
 @glyf EZEN~c~1 󲤒 F2912 o0900554 ~01
 @end sign
@@ -2608,12 +2684,14 @@
 
 @sign |GA~a.ZATU753|
 @oid o0900607
+@upua U+F2262
 @glyf |ZATU753~1.GA~a~1| 󲉢=𒮢‍𒞨 F2262 o0900607 ~ff
 @glyf |GA~a~1.ZATU753~1| 󲆿=𒞨‍𒮢 F21BF o0900607 ~ff
 @end sign
 
 @sign |GA~a×X|
 @oid o0900614
+@upua U+F293A
 @uname PROTO-CUNEIFORM SIGN GA-A TIMES X
 @glyf |GA~a×X|~1 󲤺 F293A o0900614 ~01
 @end sign
@@ -2670,6 +2748,7 @@
 
 @sign |GA₂~a1×EN~a|
 @oid o0900630
+@upua U+F296E
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES EN-A
 @glyf |GA₂~a1×EN~a|~1 󲥮 F296E o0900630 ~01
 @end sign
@@ -2724,6 +2803,7 @@
 
 @sign |GA₂~a1×GU₄|
 @oid o0900643
+@upua U+F293B
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES GU4
 @glyf |GA₂~a1×GU₄|~1 󲤻 F293B o0900643 ~01
 @end sign
@@ -2785,6 +2865,7 @@
 
 @sign |GA₂~a1×NAGA~a|
 @oid o0900675
+@upua U+F283C
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES NAGA-A
 @glyf |GA₂~a1×NAGA~a|~1 󲠼 F283C o0900675 ~01
 @end sign
@@ -2792,12 +2873,14 @@
 @sign |GA₂~a1×NIM~b1|
 @aka |GA₂~a2×NIM~b1|
 @oid o0900680
+@upua U+F283D
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES NIM-B1
 @glyf |GA₂~a1×NIM~b1|~1 󲠽 F283D o0900680 ~01
 @end sign
 
 @sign |GA₂~a1×NUN~a|
 @oid o0900682
+@upua U+F293C
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES NUN-A
 @glyf |GA₂~a1×NUN~a|~1 󲤼 F293C o0900682 ~01
 @end sign
@@ -2840,6 +2923,7 @@
 @sign |GA₂~a1×((SUKUD+SUKUD)~a)|
 @aka |GA₂~a1×(SUKUD&SUKUD)~a|
 @oid o0900696
+@upua U+F283E
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD JOINING SUKUD FORM A
 @glyf |GA₂~a1×((SUKUD+SUKUD)~a)|~1 󲠾 F283E o0900696 ~01
 @end sign
@@ -2847,6 +2931,7 @@
 @sign |GA₂~a1×((SUKUD+SUKUD)~b)|
 @aka |GA₂~a1×(SUKUD&SUKUD)~b|
 @oid o0900697
+@upua U+F283F
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD JOINING SUKUD FORM B
 @glyf |GA₂~a1×((SUKUD+SUKUD)~b)|~1 󲠿 F283F o0900697 ~01
 @end sign
@@ -2881,6 +2966,7 @@
 
 @sign |GA₂~a1×X|
 @oid o0900709
+@upua U+F2840
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES X
 @glyf |GA₂~a1×X|~1 󲡀 F2840 o0900709 ~01
 @glyf |GA₂~a1×X|~2 󲀷 F2037 o0900710 ~02
@@ -2902,6 +2988,7 @@
 
 @sign |GA₂~a1×3(N57)|
 @oid o0900670
+@upua U+F2841
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES THREE-N57
 @glyf |GA₂~a1×3(N57)|~1 󲡁 F2841 o0900670 ~01
 @end sign
@@ -2929,6 +3016,7 @@
 
 @sign |GA₂~a2×NI~b|
 @oid o0900678
+@upua U+F2842
 @uname PROTO-CUNEIFORM SIGN GA2-A2 TIMES NI-B
 @glyf |GA₂~a2×NI~b|~1 󲡂 F2842 o0900678 ~01
 @end sign
@@ -2955,12 +3043,14 @@
 
 @sign |GA₂~a2×X|
 @oid o0900711
+@upua U+F2843
 @uname PROTO-CUNEIFORM SIGN GA2-A2 TIMES X
 @glyf |GA₂~a2×X|~1 󲡃 F2843 o0900711 ~01
 @end sign
 
 @sign |GA₂~a2×3(N57)|
 @oid o0900671
+@upua U+F2997
 @uname PROTO-CUNEIFORM SIGN GA2-A2 TIMES THREE-N57
 @glyf |GA₂~a2×3(N57)|~1 󲦗 F2997 o0900671 ~01
 @end sign
@@ -2974,6 +3064,7 @@
 
 @sign |GA₂~a3×X|
 @oid o0900712
+@upua U+F2844
 @uname PROTO-CUNEIFORM SIGN GA2-A3 TIMES X
 @glyf |GA₂~a3×X|~1 󲡄 F2844 o0900712 ~01
 @end sign
@@ -3008,6 +3099,7 @@
 
 @sign |GA₂~b×KU₃~a|
 @oid o0900655
+@upua U+F2845
 @uname PROTO-CUNEIFORM SIGN GA2-B TIMES KU3-A
 @glyf |GA₂~b×KU₃~a|~1 󲡅 F2845 o0900655 ~01
 @end sign
@@ -3021,6 +3113,7 @@
 
 @sign |GA₂~b×NUN~b|
 @oid o0900683
+@upua U+F2978
 @uname PROTO-CUNEIFORM SIGN GA2-B TIMES NUN-B
 @glyf |GA₂~b×NUN~b|~1 󲥸 F2978 o0900683 ~01
 @end sign
@@ -3076,6 +3169,7 @@
 
 @sign GADA~b
 @oid o0900725
+@upua U+F2846
 @uname PROTO-CUNEIFORM SIGN GADA-B
 @glyf GADA~b~1 󲡆 F2846 o0900725 ~01
 @end sign
@@ -3110,6 +3204,7 @@
 
 @sign GALGA~b
 @oid o0900733
+@upua U+F2847
 @uname PROTO-CUNEIFORM SIGN GALGA-B
 @glyf GALGA~b~1 󲡇 F2847 o0900733 ~01
 @end sign
@@ -3182,6 +3277,7 @@
 
 @sign |GAN~c×NE~a|
 @oid o0900765
+@upua U+F2848
 @uname PROTO-CUNEIFORM SIGN GAN-C TIMES NE-A
 @glyf |GAN~c×NE~a|~1 󲡈 F2848 o0900765 ~01
 @end sign
@@ -3207,6 +3303,7 @@
 
 @sign |GAN~c×X|
 @oid o0900773
+@upua U+F2849
 @uname PROTO-CUNEIFORM SIGN GAN-C TIMES X
 @glyf |GAN~c×X|~1 󲡉 F2849 o0900773 ~01
 @end sign
@@ -3226,6 +3323,7 @@
 
 @sign GAN~d
 @oid o0900744
+@upua U+F2913
 @uname PROTO-CUNEIFORM SIGN GAN-D
 @glyf GAN~d~1 󲤓 F2913 o0900744 ~01
 @end sign
@@ -3238,6 +3336,7 @@
 
 @sign |GAN~d×HI|
 @oid o0900752
+@upua U+F293D
 @uname PROTO-CUNEIFORM SIGN GAN-D TIMES HI
 @glyf |GAN~d×HI|~1 󲤽 F293D o0900752 ~01
 @end sign
@@ -3293,6 +3392,7 @@
 
 @sign GARA₂~b
 @oid o0900787
+@upua U+F284C
 @uname PROTO-CUNEIFORM SIGN GARA2-B
 @glyf GARA₂~b~1 󲡌 F284C o0900787 ~01
 @end sign
@@ -3313,12 +3413,14 @@
 
 @sign GEŠTIN~c
 @oid o0900791
+@upua U+F2914
 @uname PROTO-CUNEIFORM SIGN GESHTIN-C
 @glyf GEŠTIN~c~1 󲤔 F2914 o0900791 ~01
 @end sign
 
 @sign |GEŠTIN~c×X|
 @oid o0900795
+@upua U+F293E
 @uname PROTO-CUNEIFORM SIGN GESHTIN-C TIMES X
 @glyf |GEŠTIN~c×X|~1 󲤾 F293E o0900795 ~01
 @end sign
@@ -3348,6 +3450,7 @@
 
 @sign |GEŠTU~a×ŠE~a@t|
 @oid o0903566
+@upua U+F2985
 @uname PROTO-CUNEIFORM SIGN GESHTU-A TIMES SHE-A TENU
 @glyf |GEŠTU~a×ŠE~a@t|~1 󲤿 F293F o0900805 ~01
 @end sign
@@ -3431,6 +3534,7 @@
 
 @sign |GI×X|
 @oid o0900821
+@upua U+F284D
 @uname PROTO-CUNEIFORM SIGN GI TIMES X
 @glyf |GI×X|~1 󲡍 F284D o0900821 ~01
 @end sign
@@ -3471,6 +3575,7 @@
 
 @sign |(GI&GI)×X|
 @oid o0900825
+@upua U+F284F
 @uname PROTO-CUNEIFORM SIGN GI OVER GI TIMES X
 @glyf |(GI&GI)×X|~1 󲡏 F284F o0900825 ~01
 @end sign
@@ -3504,6 +3609,7 @@
 
 @sign |GI₄~a&GI₄~a|
 @oid o0900834
+@upua U+F2851
 @uname PROTO-CUNEIFORM SIGN GI4-A OVER GI4-A
 @glyf |GI₄~a&GI₄~a|~1 󲡑 F2851 o0900834 ~01
 @end sign
@@ -3540,23 +3646,27 @@
 
 @sign GIBIL@t
 @oid o0900840
+@upua U+F2853
 @uname PROTO-CUNEIFORM SIGN GIBIL TENU
 @glyf GIBIL@t~1 󲡓 F2853 o0900840 ~01
 @end sign
 
 @sign GIBIL₆
 @oid o0900841
+@upua U+F220E
 @glyf |NE~c~1∘GI~2| 󲈎=𒥂⁢𒟼 F220E o0900841 ~ff
 @glyf |NE~a~4∘GI~2| 󲈍=󲂊⁢𒟼 F220D o0900841 ~ff
 @end sign
 
 @sign GIG
 @oid o0900842
+@upua U+F21C6
 @glyf |GI₆~2.NUNUZ~c~1| 󲇆=𒠎‍𒦀 F21C6 o0900842 ~ff
 @end sign
 
 @sign GIL
 @oid o0900843
+@upua U+F2915
 @uname PROTO-CUNEIFORM SIGN GIL
 @glyf GIL~1 󲤕 F2915 o0900843 ~01
 @end sign
@@ -3570,6 +3680,7 @@
 
 @sign |GIR~a.KU₆~a|
 @oid o0900853
+@upua U+F21C7
 @glyf |GIR~a~1.KU₆~a~1| 󲇇=𒠐‍𒢩 F21C7 o0900853 ~ff
 @end sign
 
@@ -3583,6 +3694,7 @@
 
 @sign |GIR~b.GIR~b|
 @oid o0900851
+@upua U+F21C8
 @glyf |GIR~b~1.GIR~b~1| 󲇈=𒠑‍𒠑 F21C8 o0900851 ~ff
 @end sign
 
@@ -3595,6 +3707,7 @@
 
 @sign GIR~d
 @oid o0900849
+@upua U+F2854
 @uname PROTO-CUNEIFORM SIGN GIR-D
 @glyf GIR~d~1 󲡔 F2854 o0900849 ~01
 @end sign
@@ -3608,6 +3721,7 @@
 
 @sign GIR₂~b
 @oid o0900856
+@upua U+F2855
 @uname PROTO-CUNEIFORM SIGN GIR2-B
 @glyf GIR₂~b~1 󲡕 F2855 o0900856 ~01
 @end sign
@@ -3643,6 +3757,7 @@
 @sign |GIR₃~c×KAR₂~b|
 @aka |GIR₃~c×KAR₂|
 @oid o0900862
+@upua U+F2856
 @uname PROTO-CUNEIFORM SIGN GIR3-C TIMES KAR2-B
 @glyf |GIR₃~c×KAR₂~b|~1 󲡖 F2856 o0900862 ~01
 @end sign
@@ -3677,6 +3792,7 @@
 
 @sign GIR₄
 @oid o0900867
+@upua U+F2916
 @uname PROTO-CUNEIFORM SIGN GIR4
 @glyf GIR₄~1 󲤖 F2916 o0900867 ~01
 @end sign
@@ -3704,6 +3820,7 @@
 
 @sign |GIŠ.TE|
 @oid o0900877
+@upua U+F21CB
 @glyf |GIŠ~1.TE~1| 󲇋=𒠞‍𒩣 F21CB o0900877 ~ff
 @end sign
 
@@ -3746,6 +3863,7 @@
 
 @sign GIŠ~v
 @oid o0900876
+@upua U+F2917
 @uname PROTO-CUNEIFORM SIGN GISH-V
 @glyf GIŠ~v~1 󲤗 F2917 o0900876 ~01
 @end sign
@@ -3759,6 +3877,7 @@
 
 @sign |GIŠ@t.E₂~a|
 @oid o0900887
+@upua U+F21CC
 @glyf |GIŠ@t~1.E₂~a~1| 󲇌=𒠤‍𒞀 F21CC o0900887 ~ff
 @end sign
 
@@ -3838,6 +3957,7 @@
 
 @sign GIZZAL~v
 @oid o0900905
+@upua U+F21C5
 @glyf |GEŠTU~a~1.NAGA~a~1| 󲇅=𒟸‍𒤰 F21C5 o0900905 ~ff
 @end sign
 
@@ -3867,11 +3987,13 @@
 @sign |GU₄.ZATU755~b|
 @aka |GU₄.ZATU755~a|
 @oid o0900911
+@upua U+F21CD
 @glyf |GU₄~2.ZATU755~b~1| 󲇍=𒠱‍𒮥 F21CD o0900911 ~ff
 @end sign
 
 @sign |GU₄×1(N58)|
 @oid o0903756
+@upua U+F2989
 @uname PROTO-CUNEIFORM SIGN GU4 TIMES ONE-N58
 @glyf |GU₄×1(N58)|~1 󲦓 F2993 o0903747 ~01
 @end sign
@@ -3952,6 +4074,7 @@
 
 @sign GUG₂@t
 @oid o0900927
+@upua U+F2859
 @uname PROTO-CUNEIFORM SIGN GUG2 TENU
 @glyf GUG₂@t~1 󲡙 F2859 o0900927 ~01
 @end sign
@@ -3965,6 +4088,7 @@
 
 @sign |GUKKAL~a.HI@g~a|
 @oid o0900934
+@upua U+F21CE
 @glyf |GUKKAL~a~1.HI@g~a~1| 󲇎=𒠻‍𒡓 F21CE o0900934 ~ff
 @end sign
 
@@ -4123,6 +4247,7 @@
 
 @sign |HI.SUHUR|
 @oid o0900962
+@upua U+F21D3
 @glyf |HI~1.SUHUR~3| 󲇓=𒡐‍󲂵 F21D3 o0900962 ~ff
 @glyf |HI~1.SUHUR~4| 󲇔=𒡐‍󲂶 F21D4 o0900962 ~ff
 @glyf |HI~1.SUHUR~1| 󲇒=𒡐‍𒧿 F21D2 o0900962 ~ff
@@ -4130,23 +4255,27 @@
 
 @sign |HI×LAGAB~a|
 @oid o0900966
+@upua U+F21D1
 @glyf |HI~1.LAGAB~a~1| 󲇑=𒡐‍𒢺 F21D1 o0900966 ~ff
 @end sign
 
 @sign |HI×ŠE₃@t|
 @oid o0900972
+@upua U+F2942
 @uname PROTO-CUNEIFORM SIGN HI TIMES SHE3 TENU
 @glyf |HI×ŠE₃@t|~1 󲥂 F2942 o0900972 ~01
 @end sign
 
 @sign |HI×ZATU707~a|
 @oid o0900974
+@upua U+F285B
 @uname PROTO-CUNEIFORM SIGN HI TIMES ZATU707-A
 @glyf |HI×ZATU707~a|~1 󲡛 F285B o0900974 ~01
 @end sign
 
 @sign |HI×1(N01@f)|
 @oid o0900967
+@upua U+F2941
 @uname PROTO-CUNEIFORM SIGN HI TIMES ONE-N1 FLAT
 @glyf |HI×1(N01@f)|~1 󲥁 F2941 o0900967 ~01
 @end sign
@@ -4160,6 +4289,7 @@
 
 @sign |(HI×1(N57)).(HI×1(N57))|
 @oid o0900969
+@upua U+F21D0
 @glyf |HI×1(N57)~1.HI×1(N57)~1| 󲇐=𒡑‍𒡑 F21D0 o0900969 ~ff
 @glyf |HI×1(N57)~1∘HI×1(N57)~1| 󲇏=𒡑⁢𒡑 F21CF o0900969 ~ff
 @end sign
@@ -4174,12 +4304,14 @@
 
 @sign |HI×1(N58)|
 @oid o0900971
+@upua U+F285C
 @uname PROTO-CUNEIFORM SIGN HI TIMES ONE-N58
 @glyf |HI×1(N58)|~1 󲡜 F285C o0900971 ~01
 @end sign
 
 @sign HI~b
 @oid o0900961
+@upua U+F2979
 @uname PROTO-CUNEIFORM SIGN HI-B
 @glyf HI~b~1 󲥹 F2979 o0900961 ~01
 @end sign
@@ -4209,6 +4341,7 @@
 
 @sign HUB₂
 @oid o0900979
+@upua U+F2918
 @uname PROTO-CUNEIFORM SIGN HUB2
 @glyf HUB₂~1 󲤘 F2918 o0900979 ~01
 @end sign
@@ -4274,6 +4407,7 @@
 
 @sign IGI
 @oid o0900993
+@upua U+F2919
 @uname PROTO-CUNEIFORM SIGN IGI
 @glyf IGI~1 󲤙 F2919 o0900993 ~01
 @end sign
@@ -4287,11 +4421,13 @@
 
 @sign ILDUM~a
 @oid o0900997
+@upua U+F220A
 @glyf |NAGAR~a~4.BU~a~2| 󲈊=󲂄‍𒛧 F220A o0900997 ~ff
 @end sign
 
 @sign ILDUM~b
 @oid o0900998
+@upua U+F220B
 @glyf |NAGAR~b~1.BU~a~2| 󲈋=𒤴‍𒛧 F220B o0900998 ~ff
 @end sign
 
@@ -4304,6 +4440,7 @@
 
 @sign IM~a@g
 @oid o0901003
+@upua U+F291A
 @uname PROTO-CUNEIFORM SIGN IM-A GUNU
 @glyf IM~a@g~1 󲤚 F291A o0901003 ~01
 @end sign
@@ -4339,6 +4476,7 @@
 
 @sign |IR~a.GA₂~a1|
 @oid o0901014
+@upua U+F21D6
 @glyf |IR~a~1.GA₂~a1~1| 󲇖=𒡣‍𒞭 F21D6 o0901014 ~ff
 @end sign
 
@@ -4365,12 +4503,14 @@
 
 @sign IR₁₁
 @oid o0901016
+@upua U+F225F
 @glyf |UŠ~a~2.KUR~a~1| 󲉟=󲃯‍𒢬 F225F o0901016 ~ff
 @glyf |UŠ~b~2.KUR~a~1| 󲉠=󲃰‍𒢬 F2260 o0901016 ~ff
 @end sign
 
 @sign IRHAN
 @oid o0901018
+@upua U+F285E
 @uname PROTO-CUNEIFORM SIGN IRHAN
 @glyf IRHAN~1 󲡞 F285E o0901018 ~01
 @end sign
@@ -4413,6 +4553,7 @@
 
 @sign |KA~a.ŠE~a|
 @oid o0901033
+@upua U+F21D7
 @glyf |KA~a~1.ŠE~a~1| 󲇗=𒡪‍𒨢 F21D7 o0901033 ~ff
 @end sign
 
@@ -4439,12 +4580,14 @@
 
 @sign KA₂~c
 @oid o0901040
+@upua U+F2861
 @uname PROTO-CUNEIFORM SIGN KA2-C
 @glyf KA₂~c~1 󲡡 F2861 o0901040 ~01
 @end sign
 
 @sign KA₂~d
 @oid o0901041
+@upua U+F291B
 @uname PROTO-CUNEIFORM SIGN KA2-D
 @glyf KA₂~d~1 󲤛 F291B o0901041 ~01
 @end sign
@@ -4470,6 +4613,7 @@
 @sign |KAB×1(N58)|
 @aka |TUKU+DIŠ|
 @oid o0901045
+@upua U+F2862
 @uname PROTO-CUNEIFORM SIGN KAB TIMES ONE-N58
 @glyf |KAB×1(N58)|~1 󲡢 F2862 o0901045 ~01
 @end sign
@@ -4490,12 +4634,14 @@
 
 @sign KAD₄~c1
 @oid o0901049
+@upua U+F2863
 @uname PROTO-CUNEIFORM SIGN KAD4-C1
 @glyf KAD₄~c1~1 󲡣 F2863 o0901049 ~01
 @end sign
 
 @sign KAD₄~c2
 @oid o0901050
+@upua U+F2864
 @uname PROTO-CUNEIFORM SIGN KAD4-C2
 @glyf KAD₄~c2~1 󲡤 F2864 o0901050 ~01
 @end sign
@@ -4509,6 +4655,7 @@
 
 @sign |KAK~a.GA₂~a1|
 @oid o0901055
+@upua U+F21D8
 @glyf |KAK~a~1.GA₂~a1~1| 󲇘=𒡲‍𒞭 F21D8 o0901055 ~ff
 @end sign
 
@@ -4606,6 +4753,7 @@
 
 @sign KAR
 @oid o0901071
+@upua U+F223C
 @glyf |TE~1.A~1| 󲈼=𒩣‍𒚐 F223C o0901071 ~ff
 @end sign
 
@@ -4632,6 +4780,7 @@
 
 @sign KASKAL@g
 @oid o0901076
+@upua U+F2865
 @uname PROTO-CUNEIFORM SIGN KASKAL GUNU
 @glyf KASKAL@g~1 󲡥 F2865 o0901076 ~01
 @end sign
@@ -4661,6 +4810,7 @@
 
 @sign KAŠ~b@t
 @oid o0901088
+@upua U+F2867
 @uname PROTO-CUNEIFORM SIGN KASH-B TENU
 @glyf KAŠ~b@t~1 󲡧 F2867 o0901088 ~01
 @end sign
@@ -4682,6 +4832,7 @@
 
 @sign KEŠ₂
 @oid o0901089
+@upua U+F291C
 @uname PROTO-CUNEIFORM SIGN KESH2
 @glyf KEŠ₂~1 󲤜 F291C o0901089 ~01
 @end sign
@@ -4803,12 +4954,14 @@
 
 @sign KINGAL
 @oid o0901109
+@upua U+F21C3
 @glyf |GAL~a~1.UKKIN~a~1| 󲇃=𒟝‍󲢸 F21C3 o0901109 ~ff
 @glyf |GAL~a~1.UKKIN~a~2| 󲇄=𒟝‍𒪯 F21C4 o0901109 ~ff
 @end sign
 
 @sign KIR₁₁
 @oid o0901111
+@upua U+F2221
 @glyf |SAL~1.SILA₄~c~1| 󲈡=𒦡‍𒧳 F2221 o0901111 ~ff
 @end sign
 
@@ -4821,6 +4974,7 @@
 
 @sign KISAL~a2
 @oid o0901114
+@upua U+F2869
 @uname PROTO-CUNEIFORM SIGN KISAL-A2
 @glyf KISAL~a2~1 󲡩 F2869 o0901114 ~01
 @end sign
@@ -4918,6 +5072,7 @@
 
 @sign KU~a@t
 @oid o0901140
+@upua U+F291D
 @uname PROTO-CUNEIFORM SIGN KU-A TENU
 @glyf KU~a@t~1 󲤝 F291D o0901140 ~01
 @end sign
@@ -4960,11 +5115,13 @@
 
 @sign |KU₆~a.1(N02)|
 @oid o0901149
+@upua U+F21DA
 @glyf |KU₆~a~1.1(N02)~1| 󲇚=𒢩‍𒖾 F21DA o0901149 ~ff
 @end sign
 
 @sign |KU₆~a+GIŠ|
 @oid o0901151
+@upua U+F21D9
 @glyf |KU₆~a~1.GIŠ~1| 󲇙=𒢩‍𒠞 F21D9 o0901151 ~ff
 @end sign
 
@@ -4977,6 +5134,7 @@
 
 @sign KU₆~a@s
 @oid o0901155
+@upua U+F286A
 @uname PROTO-CUNEIFORM SIGN KU6-A SHESHIG
 @glyf KU₆~a@s~1 󲡪 F286A o0901155 ~01
 @end sign
@@ -4990,12 +5148,14 @@
 
 @sign KU₆~d
 @oid o0901147
+@upua U+F286B
 @uname PROTO-CUNEIFORM SIGN KU6-D
 @glyf KU₆~d~1 󲡫 F286B o0901147 ~01
 @end sign
 
 @sign KUN
 @oid o0901156
+@upua U+F291E
 @uname PROTO-CUNEIFORM SIGN KUN
 @glyf KUN~1 󲤞 F291E o0901156 ~01
 @end sign
@@ -5009,11 +5169,13 @@
 
 @sign |KUR~a.E₂~a|
 @oid o0901164
+@upua U+F21DB
 @glyf |KUR~a~1.E₂~a~1| 󲇛=𒢬‍𒞀 F21DB o0901164 ~ff
 @end sign
 
 @sign |KUR~a.NUNUZ~a1|
 @oid o0901167
+@upua U+F21DC
 @glyf |KUR~a~1.NUNUZ~a1~1| 󲇜=𒢬‍𒥽 F21DC o0901167 ~ff
 @end sign
 
@@ -5026,6 +5188,7 @@
 
 @sign |KUR~b.E₂~a|
 @oid o0901165
+@upua U+F21DF
 @glyf |KUR~b~1.E₂~a~1| 󲇟=𒢭‍𒞀 F21DF o0901165 ~ff
 @end sign
 
@@ -5039,6 +5202,7 @@
 
 @sign KUR~d
 @oid o0901162
+@upua U+F286C
 @uname PROTO-CUNEIFORM SIGN KUR-D
 @glyf KUR~d~1 󲡬 F286C o0901162 ~01
 @end sign
@@ -5109,6 +5273,7 @@
 
 @sign LA~c
 @oid o0901180
+@upua U+F286D
 @uname PROTO-CUNEIFORM SIGN LA-C
 @glyf LA~c~1 󲡭 F286D o0901180 ~01
 @end sign
@@ -5122,6 +5287,7 @@
 
 @sign LA~e
 @oid o0901182
+@upua U+F291F
 @uname PROTO-CUNEIFORM SIGN LA-E
 @glyf LA~e~1 󲤟 F291F o0901182 ~01
 @end sign
@@ -5144,12 +5310,14 @@
 
 @sign |LAGAB~a×BA|
 @oid o0901191
+@upua U+F286E
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES BA
 @glyf |LAGAB~a×BA|~1 󲡮 F286E o0901191 ~01
 @end sign
 
 @sign |LAGAB~a×BIR₃~b|
 @oid o0901195
+@upua U+F286F
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES BIR3-B
 @glyf |LAGAB~a×BIR₃~b|~1 󲡯 F286F o0901195 ~01
 @end sign
@@ -5163,6 +5331,7 @@
 
 @sign |LAGAB~a×KAK~a|
 @oid o0901205
+@upua U+F2870
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES KAK-A
 @glyf |LAGAB~a×KAK~a|~1 󲡰 F2870 o0901205 ~01
 @end sign
@@ -5191,12 +5360,14 @@
 
 @sign |LAGAB~a×LA₂~a|
 @oid o0901215
+@upua U+F2967
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES LA2-A
 @glyf |LAGAB~a×LA₂~a|~1 󲥧 F2967 o0901215 ~01
 @end sign
 
 @sign |LAGAB~a×LAGAB~a|
 @oid o0901217
+@upua U+F2871
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES LAGAB-A
 @glyf |LAGAB~a×LAGAB~a|~1 󲡱 F2871 o0901217 ~01
 @end sign
@@ -5211,6 +5382,7 @@
 
 @sign |LAGAB~a×NI~a|
 @oid o0901227
+@upua U+F2966
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES NI-A
 @glyf |LAGAB~a×NI~a|~1 󲥦 F2966 o0901227 ~01
 @end sign
@@ -5289,6 +5461,7 @@
 
 @sign |LAGAB~a×X|
 @oid o0901255
+@upua U+F2873
 @uname PROTO-CUNEIFORM SIGN LAGAB-A TIMES X
 @glyf |LAGAB~a×X|~1 󲡳 F2873 o0901255 ~01
 @glyf |LAGAB~a×X|~2 󲁫 F206B o0903703 ~02
@@ -5330,12 +5503,14 @@
 
 @sign |LAGAB~b×BANŠUR~a|
 @oid o0901193
+@upua U+F2874
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES BANSHUR-A
 @glyf |LAGAB~b×BANŠUR~a|~1 󲡴 F2874 o0901193 ~01
 @end sign
 
 @sign |LAGAB~b×GAʾAR~a1|
 @oid o0901199
+@upua U+F2875
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES GAAR-A1
 @glyf |LAGAB~b×GAʾAR~a1|~1 󲡵 F2875 o0901199 ~01
 @end sign
@@ -5350,6 +5525,7 @@
 @sign |LAGAB~b×(HI×1(N04))|
 @aka |LAGAB~b×(HI×N04)|
 @oid o0901203
+@upua U+F2965
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES HI TIMES ONE-N4
 @glyf |LAGAB~b×(HI×1(N04))|~1 󲥥 F2965 o0901203 ~01
 @end sign
@@ -5370,18 +5546,21 @@
 
 @sign |LAGAB~b×SI|
 @oid o0901235
+@upua U+F2945
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES SI
 @glyf |LAGAB~b×SI|~1 󲥅 F2945 o0901235 ~01
 @end sign
 
 @sign |LAGAB~b×SUH₃|
 @oid o0901241
+@upua U+F2876
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES SUH3
 @glyf |LAGAB~b×SUH₃|~1 󲡶 F2876 o0901241 ~01
 @end sign
 
 @sign |LAGAB~b×ŠITA~c|
 @oid o0901246
+@upua U+F2944
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES SHITA-C
 @glyf |LAGAB~b×ŠITA~c|~1 󲥄 F2944 o0901246 ~01
 @end sign
@@ -5395,12 +5574,14 @@
 
 @sign |LAGAB~b×X|
 @oid o0901256
+@upua U+F2946
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES X
 @glyf |LAGAB~b×X|~1 󲥆 F2946 o0901256 ~01
 @end sign
 
 @sign |LAGAB~b×1(N01)|
 @oid o0901221
+@upua U+F2943
 @uname PROTO-CUNEIFORM SIGN LAGAB-B TIMES ONE-N1
 @glyf |LAGAB~b×1(N01)|~1 󲥃 F2943 o0901221 ~01
 @end sign
@@ -5451,41 +5632,48 @@
 
 @sign LAHTAN₂
 @oid o0901268
+@upua U+F222C
 @glyf |ŠITA~a1~1.MUD₃~a~1| 󲈬=𒨻‍𒤏 F222C o0901268 ~ff
 @end sign
 
 @sign LAK025
 @oid o0901295
+@upua U+F2920
 @uname PROTO-CUNEIFORM SIGN LAK025
 @glyf LAK025~1 󲤠 F2920 o0901295 ~01
 @end sign
 
 @sign LAK050
 @oid o0901296
+@upua U+F2921
 @uname PROTO-CUNEIFORM SIGN LAK050
 @glyf LAK050~1 󲤡 F2921 o0901296 ~01
 @end sign
 
 @sign LAK172
 @oid o0901297
+@upua U+F2922
 @uname PROTO-CUNEIFORM SIGN LAK172
 @glyf LAK172~1 󲤢 F2922 o0901297 ~01
 @end sign
 
 @sign LAK251
 @oid o0901298
+@upua U+F2923
 @uname PROTO-CUNEIFORM SIGN LAK251
 @glyf LAK251~1 󲤣 F2923 o0901298 ~01
 @end sign
 
 @sign LAK350
 @oid o0901299
+@upua U+F2924
 @uname PROTO-CUNEIFORM SIGN LAK350
 @glyf LAK350~1 󲤤 F2924 o0901299 ~01
 @end sign
 
 @sign LAK777
 @oid o0901300
+@upua U+F2925
 @uname PROTO-CUNEIFORM SIGN LAK777
 @glyf LAK777~1 󲤥 F2925 o0901300 ~01
 @end sign
@@ -5533,12 +5721,14 @@
 
 @sign LAL₃~b
 @oid o0901280
+@upua U+F2878
 @uname PROTO-CUNEIFORM SIGN LAL3-B
 @glyf LAL₃~b~1 󲡸 F2878 o0901280 ~01
 @end sign
 
 @sign LAL₃~c
 @oid o0901281
+@upua U+F2926
 @uname PROTO-CUNEIFORM SIGN LAL3-C
 @glyf LAL₃~c~1 󲤦 F2926 o0901281 ~01
 @end sign
@@ -5568,6 +5758,7 @@
 
 @sign LAM~b@s
 @oid o0901292
+@upua U+F2879
 @uname PROTO-CUNEIFORM SIGN LAM-B SHESHIG
 @glyf LAM~b@s~1 󲡹 F2879 o0901292 ~01
 @end sign
@@ -5582,12 +5773,14 @@
 
 @sign LAM~c
 @oid o0901287
+@upua U+F2927
 @uname PROTO-CUNEIFORM SIGN LAM-C
 @glyf LAM~c~1 󲤧 F2927 o0901287 ~01
 @end sign
 
 @sign LI
 @oid o0901301
+@upua U+F21AA
 @glyf |∘ŠE~a~1∘ŠA~3| 󲆪=⁢𒨢⁢𒨏 F21AA o0901301 ~ff
 @glyf |∘ŠA~3∘ŠE~a~1| 󲆩=⁢𒨏⁢𒨢 F21A9 o0901301 ~ff
 @end sign
@@ -5610,12 +5803,14 @@
 
 @sign |LU₂×GEŠTU~c3|
 @oid o0901308
+@upua U+F287A
 @uname PROTO-CUNEIFORM SIGN LU2 TIMES GESHTU-C3
 @glyf |LU₂×GEŠTU~c3|~1 󲡺 F287A o0901308 ~01
 @end sign
 
 @sign LU₂@t
 @oid o0901309
+@upua U+F2928
 @uname PROTO-CUNEIFORM SIGN LU2 TENU
 @glyf LU₂@t~1 󲤨 F2928 o0901309 ~01
 @end sign
@@ -5658,12 +5853,14 @@
 
 @sign |MA×X|
 @oid o0901319
+@upua U+F2948
 @uname PROTO-CUNEIFORM SIGN MA TIMES X
 @glyf |MA×X|~1 󲥈 F2948 o0901319 ~01
 @end sign
 
 @sign |MA×2(N57)|
 @oid o0901317
+@upua U+F2947
 @uname PROTO-CUNEIFORM SIGN MA TIMES TWO-N57
 @glyf |MA×2(N57)|~1 󲥇 F2947 o0901317 ~01
 @end sign
@@ -5691,6 +5888,7 @@
 
 @sign MAGUR~b
 @oid o0901323
+@upua U+F287C
 @uname PROTO-CUNEIFORM SIGN MAGUR-B
 @glyf MAGUR~b~1 󲡼 F287C o0901323 ~01
 @end sign
@@ -5787,6 +5985,7 @@
 
 @sign |MAH~a×X|
 @oid o0901357
+@upua U+F287D
 @uname PROTO-CUNEIFORM SIGN MAH-A TIMES X
 @glyf |MAH~a×X|~1 󲡽 F287D o0901357 ~01
 @end sign
@@ -5807,12 +6006,14 @@
 
 @sign |MAH~b×KU₆~a|
 @oid o0901333
+@upua U+F287E
 @uname PROTO-CUNEIFORM SIGN MAH-B TIMES KU6-A
 @glyf |MAH~b×KU₆~a|~1 󲡾 F287E o0901333 ~01
 @end sign
 
 @sign |MAH~b×MAŠ|
 @oid o0901336
+@upua U+F287F
 @uname PROTO-CUNEIFORM SIGN MAH-B TIMES MASH
 @glyf |MAH~b×MAŠ|~1 󲡿 F287F o0901336 ~01
 @end sign
@@ -5884,6 +6085,7 @@
 
 @sign |MAR~b×X|
 @oid o0901371
+@upua U+F2880
 @uname PROTO-CUNEIFORM SIGN MAR-B TIMES X
 @glyf |MAR~b×X|~1 󲢀 F2880 o0901371 ~01
 @end sign
@@ -6002,6 +6204,7 @@
 
 @sign |MUD₃~a@g×GU|
 @oid o0901403
+@upua U+F2949
 @uname PROTO-CUNEIFORM SIGN MUD3-A GUNU TIMES GU
 @glyf |MUD₃~a@g×GU|~1 󲥉 F2949 o0901403 ~01
 @end sign
@@ -6094,6 +6297,7 @@
 
 @sign MURUB₂
 @oid o0901416
+@upua U+F221C
 @glyf |SAL~1.LAGAR~a~1| 󲈜=𒦡‍𒣒 F221C o0901416 ~ff
 @end sign
 
@@ -6137,22 +6341,26 @@
 
 @sign |MUŠEN.UR₃~b2|
 @oid o0901429
+@upua U+F21E4
 @glyf |MUŠEN~1.UR₃~b2~1| 󲇤=𒤡‍𒫎 F21E4 o0901429 ~ff
 @end sign
 
 @sign |MUŠEN.3(N58)|
 @oid o0901427
+@upua U+F21E5
 @glyf |MUŠEN~1.3(N58)~1| 󲇥=𒤡‍𒯹 F21E5 o0901427 ~ff
 @end sign
 
 @sign |MUŠEN×PAP~a|
 @oid o0901434
+@upua U+F294A
 @uname PROTO-CUNEIFORM SIGN MUSHEN TIMES PAP-A
 @glyf |MUŠEN×PAP~a|~1 󲥊 F294A o0901434 ~01
 @end sign
 
 @sign |MUŠEN×X|
 @oid o0901435
+@upua U+F2881
 @uname PROTO-CUNEIFORM SIGN MUSHEN TIMES X
 @glyf |MUŠEN×X|~1 󲢁 F2881 o0901435 ~01
 @end sign
@@ -6180,17 +6388,20 @@
 
 @sign |1(N02).RU|
 @oid o0902870
+@upua U+F21E6
 @glyf |1(N02)~1.RU~1| 󲇦=𒖾‍𒦕 F21E6 o0902870 ~ff
 @end sign
 
 @sign |X(N57).GAR|
 @aka |N(N57).GAR|
 @oid o0902413
+@upua U+F2213
 @glyf |O.GAR~1| 󲈓=O‍𒟮 F2213 o0902413 ~ff
 @end sign
 
 @sign |1(N57).AB₂|
 @oid o0903211
+@upua U+F21E7
 @glyf |1(N57)~1.AB₂~1| 󲇧=𒯬‍𒚞 F21E7 o0903211 ~ff
 @end sign
 
@@ -6202,6 +6413,7 @@
 @sign |1(N57).E₂~a|
 @aka |1(N57).E₂|
 @oid o0903214
+@upua U+F21E8
 @glyf |1(N57)~1.E₂~a~1| 󲇨=𒯬‍𒞀 F21E8 o0903214 ~ff
 @end sign
 
@@ -6213,34 +6425,40 @@
 @sign |1(N57).SIG|
 @aka |SIG×1(N57)|
 @oid o0901748
+@upua U+F21E9
 @glyf |1(N57)~1.SIG~1| 󲇩=𒯬‍𒦺 F21E9 o0901748 ~ff
 @end sign
 
 @sign |1(N57).ŠAH₂~a|
 @oid o0903219
+@upua U+F21EA
 @glyf |1(N57)~1.ŠAH₂~a~1| 󲇪=𒯬‍𒨛 F21EA o0903219 ~ff
 @end sign
 
 @sign |1(N57).ŠUBUR|
 @oid o0903220
+@upua U+F21EB
 @glyf |ŠUBUR~1∘1(N57)~1| 󲈻=𒩎⁢𒯬 F223B o0903220 ~ff
 @glyf |1(N57)~1.ŠUBUR~1| 󲇫=𒯬‍𒩎 F21EB o0903220 ~ff
 @end sign
 
 @sign |2(N57).AB₂|
 @oid o0903223
+@upua U+F21ED
 @glyf |2(N57)~1.AB₂~1| 󲇭=𒯭‍𒚞 F21ED o0903223 ~ff
 @end sign
 
 @sign |2(N57).BIR₃~a|
 @aka |2(N57).BIR₃|
 @oid o0903225
+@upua U+F21EE
 @glyf |2(N57)~1.BIR₃~a~2| 󲇮=𒯭‍𒛤 F21EE o0903225 ~ff
 @end sign
 
 @sign |2(N57).KU₆~a|
 @aka |2(N57).KU₆|
 @oid o0903227
+@upua U+F21EF
 @glyf |2(N57)~1.KU₆~a~1| 󲇯=𒯭‍𒢩 F21EF o0903227 ~ff
 @end sign
 
@@ -6252,22 +6470,26 @@
 @sign |2(N57).SU~a|
 @aka |2(N57).SU|
 @oid o0903230
+@upua U+F21F0
 @glyf |2(N57)~1.SU~a~1| 󲇰=𒯭‍𒧷 F21F0 o0903230 ~ff
 @end sign
 
 @sign |2(N57).ŠUBUR|
 @oid o0903231
+@upua U+F21F1
 @glyf |2(N57)~1.ŠUBUR~1| 󲇱=𒯭‍𒩎 F21F1 o0903231 ~ff
 @end sign
 
 @sign |2(N57).UDUNITA~a|
 @aka |2(N57).UDUNITA|
 @oid o0903233
+@upua U+F21F2
 @glyf |2(N57)~1.UDUNITA~a~1| 󲇲=𒯭‍𒪩 F21F2 o0903233 ~ff
 @end sign
 
 @sign |3(N57).AMAR|
 @oid o0903235
+@upua U+F21F4
 @glyf |3(N57)~1.AMAR~2| 󲇴=𒯮‍𒚴 F21F4 o0903235 ~ff
 @end sign
 
@@ -6279,17 +6501,20 @@
 @sign |3(N57).BAR×UŠ~a|
 @aka |3(N57).BAR×UŠ|
 @oid o0903238
+@upua U+F21F5
 @glyf |3(N57)~1.BAR×UŠ~a~1| 󲇵=𒯮‍󲦈 F21F5 o0903238 ~ff
 @end sign
 
 @sign |3(N57).BARA₃|
 @oid o0903239
+@upua U+F21F6
 @glyf |3(N57)~1.BARA₃~1| 󲇶=𒯮‍𒛠 F21F6 o0903239 ~ff
 @end sign
 
 @sign |3(N57).E₂~b|
 @aka |3(N57).E₂|
 @oid o0903241
+@upua U+F21F7
 @glyf |3(N57)~1.E₂~b~1| 󲇷=𒯮‍𒞂 F21F7 o0903241 ~ff
 @end sign
 
@@ -6300,23 +6525,27 @@
 
 @sign |3(N57).GAR|
 @oid o0903243
+@upua U+F21F8
 @glyf |3(N57)~1.GAR~1| 󲇸=𒯮‍𒟮 F21F8 o0903243 ~ff
 @end sign
 
 @sign |3(N57).NUNUZ~a1|
 @aka |3(N57).NUNUZ|
 @oid o0903245
+@upua U+F21FA
 @glyf |3(N57)~1.NUNUZ~a1~1| 󲇺=𒯮‍𒥽 F21FA o0903245 ~ff
 @end sign
 
 @sign |3(N57).NUNUZ~c|
 @oid o0903246
+@upua U+F21FB
 @glyf |3(N57)~1.NUNUZ~c~1| 󲇻=𒯮‍𒦀 F21FB o0903246 ~ff
 @end sign
 
 @sign |3(N57).PIRIG~b1|
 @aka |3(N57).PIRIG|
 @oid o0903248
+@upua U+F21FC
 @glyf |3(N57)~1.PIRIG~b1~1| 󲇼=𒯮‍𒦋 F21FC o0903248 ~ff
 @end sign
 
@@ -6332,62 +6561,73 @@
 
 @sign |3(N57).ŠUBUR|
 @oid o0903252
+@upua U+F21FF
 @glyf |3(N57)~1.ŠUBUR~1| 󲇿=𒯮‍𒩎 F21FF o0903252 ~ff
 @end sign
 
 @sign |3(N57).UDU~a|
 @aka |3(N57).UDU|
 @oid o0903254
+@upua U+F2200
 @glyf |3(N57)~1.UDU~a~1| 󲈀=𒯮‍𒪥 F2200 o0903254 ~ff
 @end sign
 
 @sign |3(N57).UDUNITA~a|
 @aka |3(N57).UDUNITA|
 @oid o0903256
+@upua U+F2201
 @glyf |3(N57)~1.UDUNITA~a~1| 󲈁=𒯮‍𒪩 F2201 o0903256 ~ff
 @end sign
 
 @sign |4(N57).AMAR|
 @oid o0903258
+@upua U+F2202
 @glyf |4(N57)~1.AMAR~2| 󲈂=𒯯‍𒚴 F2202 o0903258 ~ff
 @end sign
 
 @sign |4(N57).GAR|
 @oid o0903259
+@upua U+F2203
 @glyf |4(N57)~1.GAR~1| 󲈃=𒯯‍𒟮 F2203 o0903259 ~ff
 @end sign
 
 @sign |4(N57).KU₃~a|
 @aka |4(N57).KU₃|
 @oid o0903261
+@upua U+F2204
 @glyf |4(N57)~1.KU₃~a~1| 󲈄=𒯯‍𒢧 F2204 o0903261 ~ff
 @end sign
 
 @sign |4(N57).NI~b|
 @aka |4(N57).NI|
 @oid o0903263
+@upua U+F2205
 @glyf |4(N57)~1.NI~b~1| 󲈅=𒯯‍𒥈 F2205 o0903263 ~ff
 @end sign
 
 @sign |5(N57).GAR|
 @oid o0903265
+@upua U+F2206
 @glyf |5(N57)~1.GAR~1| 󲈆=𒯰‍𒟮 F2206 o0903265 ~ff
 @end sign
 
 @sign |5(N57).KU₃~a|
 @aka |5(N57).KU₃|
 @oid o0903267
+@upua U+F2207
 @glyf |5(N57)~1.KU₃~a~1| 󲈇=𒯰‍𒢧 F2207 o0903267 ~ff
 @end sign
 
 @sign |6(N57).GAR|
 @oid o0903270
+@upua U+F2208
 @glyf |6(N57)~1.GAR~1| 󲈈=𒯱‍𒟮 F2208 o0903270 ~ff
 @end sign
 
 @sign |6(N57).KU₃~a|
 @aka |6(N57).KU₃|
 @oid o0903272
+@upua U+F2209
 @glyf |6(N57)~1.KU₃~a~1| 󲈉=𒯱‍𒢧 F2209 o0903272 ~ff
 @end sign
 
@@ -6445,6 +6685,7 @@
 
 @sign NA~d
 @oid o0901440
+@upua U+F2882
 @uname PROTO-CUNEIFORM SIGN NA-D
 @glyf NA~d~1 󲢂 F2882 o0901440 ~01
 @end sign
@@ -6586,12 +6827,14 @@
 
 @sign NAMEŠDA
 @oid o0901472
+@upua U+F21BE
 @glyf |EŠDA~1+NAM₂~1| 󲆾=𒞓⁤𒤹 F21BE o0901472 ~ff
 @glyf |EŠDA~1.NAM₂~1| 󲆽=𒞓‍𒤹 F21BD o0901472 ~ff
 @end sign
 
 @sign NANNA~a
 @oid o0901475
+@upua U+F225E
 @glyf |URI₃~a~2.NA~a~1| 󲉞=󲃬‍𒤨 F225E o0901475 ~ff
 @glyf |URI₃~a~2∘NA~a~1| 󲉝=󲃬⁢𒤨 F225D o0901475 ~ff
 @glyf |URI₃~a~1.NA~a~1| 󲉛=𒫕‍𒤨 F225B o0901475 ~ff
@@ -6599,6 +6842,7 @@
 
 @sign NANNA~b
 @oid o0901477
+@upua U+F222B
 @glyf |ŠEŠ~a~1.NA~a~1| 󲈫=𒨴‍𒤨 F222B o0901477 ~ff
 @end sign
 
@@ -6658,6 +6902,7 @@
 
 @sign NERGAL~v
 @oid o0901491
+@upua U+F21C9
 @glyf |GIR₃~c~1.AB~a~2| 󲇉=𒠗‍𒚖 F21C9 o0901491 ~ff
 @end sign
 
@@ -6672,6 +6917,7 @@
 @sign NESAG₂~a2
 @aka NISAG~a3
 @oid o0901495
+@upua U+F297A
 @uname PROTO-CUNEIFORM SIGN NESAG2-A2
 @glyf NESAG₂~a2~1 󲥺 F297A o0901495 ~01
 @end sign
@@ -6686,6 +6932,7 @@
 
 @sign NESAG₂~b@t
 @oid o0901499
+@upua U+F2883
 @uname PROTO-CUNEIFORM SIGN NESAG2-B TENU
 @glyf NESAG₂~b@t~1 󲢃 F2883 o0901499 ~01
 @end sign
@@ -6699,11 +6946,13 @@
 
 @sign |NI~a.RU|
 @oid o0901504
+@upua U+F220F
 @glyf |NI~a~1.RU~1| 󲈏=𒥆‍𒦕 F220F o0901504 ~ff
 @end sign
 
 @sign |NI~a×1(N57)|
 @oid o0901506
+@upua U+F2884
 @uname PROTO-CUNEIFORM SIGN NI-A TIMES ONE-N57
 @glyf |NI~a×1(N57)|~1 󲢄 F2884 o0901506 ~01
 @end sign
@@ -6724,6 +6973,7 @@
 
 @sign |NI~b×X|
 @oid o0901510
+@upua U+F2885
 @uname PROTO-CUNEIFORM SIGN NI-B TIMES X
 @glyf |NI~b×X|~1 󲢅 F2885 o0901510 ~01
 @end sign
@@ -6788,6 +7038,7 @@
 
 @sign NIM~d
 @oid o0901520
+@upua U+F297B
 @uname PROTO-CUNEIFORM SIGN NIM-D
 @glyf NIM~d~1 󲥻 F297B o0901520 ~01
 @end sign
@@ -6802,6 +7053,7 @@
 
 @sign NIN
 @oid o0901524
+@upua U+F221E
 @glyf |SAL~1.NAM₂~2| 󲈞=𒦡‍󲂆 F221E o0901524 ~ff
 @end sign
 
@@ -6836,12 +7088,14 @@
 
 @sign |NINDA₂×(AN.X)|
 @oid o0901537
+@upua U+F2886
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES AN PLUS X
 @glyf |NINDA₂×(AN.X)|~1 󲢆 F2886 o0901537 ~01
 @end sign
 
 @sign |NINDA₂×BA|
 @oid o0901538
+@upua U+F2887
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES BA
 @glyf |NINDA₂×BA|~1 󲢇 F2887 o0901538 ~01
 @end sign
@@ -6876,6 +7130,7 @@
 
 @sign |NINDA₂×(GIŠ.DAR~a)|
 @oid o0901546
+@upua U+F294C
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES GISH PLUS DAR-A
 @glyf |NINDA₂×(GIŠ.DAR~a)|~1 󲥌 F294C o0901546 ~01
 @end sign
@@ -6920,6 +7175,7 @@
 
 @sign |NINDA₂×(HI.X)|
 @oid o0901549
+@upua U+F2888
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS X
 @glyf |NINDA₂×(HI.X)|~1 󲢈 F2888 o0901549 ~01
 @end sign
@@ -6947,6 +7203,7 @@
 
 @sign |NINDA₂×NE~a|
 @oid o0901562
+@upua U+F294D
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES NE-A
 @glyf |NINDA₂×NE~a|~1 󲥍 F294D o0901562 ~01
 @end sign
@@ -6960,6 +7217,7 @@
 
 @sign |NINDA₂×ŠIM~a|
 @oid o0901566
+@upua U+F294E
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES SHIM-A
 @glyf |NINDA₂×ŠIM~a|~1 󲥎 F294E o0901566 ~01
 @end sign
@@ -6973,6 +7231,7 @@
 
 @sign |NINDA₂×(U₄.X)|
 @oid o0901568
+@upua U+F288A
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES U4 PLUS X
 @glyf |NINDA₂×(U₄.X)|~1 󲢊 F288A o0901568 ~01
 @end sign
@@ -6980,6 +7239,7 @@
 @sign |NINDA₂×(UDU~a×TAR~a)|
 @aka |NINDA₂×((UDU~a×TAR)~a)|
 @oid o0901570
+@upua U+F288B
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES UDU-A TIMES TAR-A
 @glyf |NINDA₂×(UDU~a×TAR~a)|~1 󲢋 F288B o0901570 ~01
 @end sign
@@ -6989,18 +7249,21 @@
 @aka |NINDA₂×((UDU~a×TAR)~b)|
 @aka |NINDA₂×((UDU~a.TAR)~b)|
 @oid o0901571
+@upua U+F288C
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES UDU-A TIMES TAR-B
 @glyf |NINDA₂×(UDU~a×TAR~b)|~1 󲢌 F288C o0901571 ~01
 @end sign
 
 @sign |NINDA₂×X|
 @oid o0901572
+@upua U+F288D
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES X
 @glyf |NINDA₂×X|~1 󲢍 F288D o0901572 ~01
 @end sign
 
 @sign |NINDA₂×(X.MAŠ)|
 @oid o0901574
+@upua U+F294F
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES X PLUS MASH
 @glyf |NINDA₂×(X.MAŠ)|~1 󲥏 F294F o0901574 ~01
 @end sign
@@ -7035,6 +7298,7 @@
 
 @sign |NINDA₂×1(N06)|
 @oid o0901559
+@upua U+F294B
 @uname PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N6
 @glyf |NINDA₂×1(N06)|~1 󲥋 F294B o0901559 ~01
 @end sign
@@ -7056,11 +7320,13 @@
 
 @sign NINKUM
 @oid o0901577
+@upua U+F221F
 @glyf |SAL~1.NAM₂~2.ŠE~a@t+EZEN~b~1∘NUN~a~1.SIG₇~2| 󲈟=𒦡‍󲂆‍󲦚⁢𒥲‍󲂱 F221F o0901577 ~ff
 @end sign
 
 @sign NINLIL
 @oid o0901578
+@upua U+F21B4
 @glyf |E₂~a~1.NUN~a~1| 󲆴=𒞀‍𒥲 F21B4 o0901578 ~ff
 @end sign
 
@@ -7130,6 +7396,7 @@
 
 @sign NUMUN₂
 @oid o0901590
+@upua U+F288F
 @uname PROTO-CUNEIFORM SIGN NUMUN2
 @glyf NUMUN₂~1 󲢏 F288F o0901590 ~01
 @end sign
@@ -7230,6 +7497,7 @@
 
 @sign NUNUZ~a1@t
 @oid o0901623
+@upua U+F2890
 @uname PROTO-CUNEIFORM SIGN NUNUZ-A1 TENU
 @glyf NUNUZ~a1@t~1 󲢐 F2890 o0901623 ~01
 @end sign
@@ -7250,6 +7518,7 @@
 
 @sign NUNUZ~b2
 @oid o0901617
+@upua U+F2891
 @uname PROTO-CUNEIFORM SIGN NUNUZ-B2
 @glyf NUNUZ~b2~1 󲢑 F2891 o0901617 ~01
 @end sign
@@ -7282,6 +7551,7 @@
 
 @sign PA₃
 @oid o0901634
+@upua U+F2929
 @uname PROTO-CUNEIFORM SIGN PA3
 @glyf PA₃~1 󲤩 F2929 o0901634 ~01
 @end sign
@@ -7361,6 +7631,7 @@
 
 @sign |PIRIG~b1×UR₂|
 @oid o0901653
+@upua U+F2893
 @uname PROTO-CUNEIFORM SIGN PIRIG-B1 TIMES UR2
 @glyf |PIRIG~b1×UR₂|~1 󲢓 F2893 o0901653 ~01
 @end sign
@@ -7368,6 +7639,7 @@
 @sign |PIRIG~b1×1(N58@t)|
 @aka |PIRIG~b1+DIŠ|
 @oid o0901651
+@upua U+F2970
 @uname PROTO-CUNEIFORM SIGN PIRIG-B1 TIMES ONE-N58 TENU
 @glyf |PIRIG~b1×1(N58@t)|~1 󲥰 F2970 o0901651 ~01
 @end sign
@@ -7411,6 +7683,7 @@
 
 @sign RAD~a@t
 @oid o0901664
+@upua U+F2894
 @uname PROTO-CUNEIFORM SIGN RAD-A TENU
 @glyf RAD~a@t~1 󲢔 F2894 o0901664 ~01
 @end sign
@@ -7424,6 +7697,7 @@
 
 @sign RI
 @oid o0901665
+@upua U+F292A
 @uname PROTO-CUNEIFORM SIGN RI
 @glyf RI~1 󲤪 F292A o0901665 ~01
 @end sign
@@ -7454,6 +7728,7 @@
 
 @sign RU@t
 @oid o0901672
+@upua U+F2895
 @uname PROTO-CUNEIFORM SIGN RU TENU
 @glyf RU@t~1 󲢕 F2895 o0901672 ~01
 @end sign
@@ -7514,6 +7789,7 @@
 
 @sign |SAG×LAM~c|
 @oid o0901686
+@upua U+F2950
 @uname PROTO-CUNEIFORM SIGN SAG TIMES LAM-C
 @glyf |SAG×LAM~c|~1 󲥐 F2950 o0901686 ~01
 @end sign
@@ -7534,6 +7810,7 @@
 
 @sign |SAG×SAR~a|
 @oid o0901691
+@upua U+F2951
 @uname PROTO-CUNEIFORM SIGN SAG TIMES SAR-A
 @glyf |SAG×SAR~a|~1 󲥑 F2951 o0901691 ~01
 @end sign
@@ -7574,11 +7851,13 @@
 
 @sign |SAL.KUR~a|
 @oid o0901699
+@upua U+F221B
 @glyf |SAL~1.KUR~a~1| 󲈛=𒦡‍𒢬 F221B o0901699 ~ff
 @end sign
 
 @sign |SAL.LAM~b|
 @oid o0901701
+@upua U+F221D
 @glyf |SAL~1.LAM~b~1| 󲈝=𒦡‍𒣝 F221D o0901701 ~ff
 @end sign
 
@@ -7590,21 +7869,25 @@
 
 @sign |SAL.ŠU₂|
 @oid o0901703
+@upua U+F2222
 @glyf |SAL~1.ŠU₂~5| 󲈢=𒦡‍𒩌 F2222 o0901703 ~ff
 @end sign
 
 @sign |SAL.ZATU751~a|
 @oid o0901705
+@upua U+F2223
 @glyf |SAL~1.ZATU751~a~1| 󲈣=𒦡‍𒮟 F2223 o0901705 ~ff
 @end sign
 
 @sign |SAL.ZATU751~b|
 @oid o0901706
+@upua U+F2224
 @glyf |SAL~1.ZATU751~b~1| 󲈤=𒦡‍𒮠 F2224 o0901706 ~ff
 @end sign
 
 @sign |SAL.ZATU751~c|
 @oid o0901707
+@upua U+F2225
 @glyf |SAL~1.ZATU751~c~1| 󲈥=𒦡‍󲥢 F2225 o0901707 ~ff
 @end sign
 
@@ -7793,12 +8076,14 @@
 
 @sign SIG~b
 @oid o0901747
+@upua U+F297C
 @uname PROTO-CUNEIFORM SIGN SIG-B
 @glyf SIG~b~1 󲥼 F297C o0901747 ~01
 @end sign
 
 @sign SIG@g
 @oid o0901749
+@upua U+F2898
 @uname PROTO-CUNEIFORM SIGN SIG GUNU
 @glyf SIG@g~1 󲢘 F2898 o0901749 ~01
 @end sign
@@ -7846,6 +8131,7 @@
 
 @sign |SIG₂~b×1(N14)|
 @oid o0901767
+@upua U+F2899
 @uname PROTO-CUNEIFORM SIGN SIG2-B TIMES ONE-N14
 @glyf |SIG₂~b×1(N14)|~1 󲢙 F2899 o0901767 ~01
 @end sign
@@ -7925,6 +8211,7 @@
 
 @sign SIKIL
 @oid o0901773
+@upua U+F2220
 @glyf |SAL~1.SI~2| 󲈠=𒦡‍󲂩 F2220 o0901773 ~ff
 @end sign
 
@@ -7951,6 +8238,7 @@
 
 @sign |SILA₃~a×DUG~a|
 @oid o0903632
+@upua U+F289E
 @uname PROTO-CUNEIFORM SIGN SILA3-A TIMES DUG-A
 @glyf |SILA₃~a×DUG~a|~1 󲢞 F289E o0903632 ~01
 @glyf |SILA₃~a×DUG~a|~2 𒧍 129CD o0901786 ~02
@@ -7958,6 +8246,7 @@
 
 @sign |SILA₃~a×DUG~b|
 @oid o0901787
+@upua U+F2952
 @uname PROTO-CUNEIFORM SIGN SILA3-A TIMES DUG-B
 @glyf |SILA₃~a×DUG~b|~1 󲥒 F2952 o0901787 ~01
 @end sign
@@ -7991,6 +8280,7 @@
 
 @sign |SILA₃~a×GEŠTU~c5|
 @oid o0901796
+@upua U+F289A
 @uname PROTO-CUNEIFORM SIGN SILA3-A TIMES GESHTU-C5
 @glyf |SILA₃~a×GEŠTU~c5|~1 󲢚 F289A o0901796 ~01
 @end sign
@@ -8011,6 +8301,7 @@
 
 @sign |SILA₃~a×HI@g~a|
 @oid o0901804
+@upua U+F289B
 @uname PROTO-CUNEIFORM SIGN SILA3-A TIMES HI GUNU-A
 @glyf |SILA₃~a×HI@g~a|~1 󲢛 F289B o0901804 ~01
 @end sign
@@ -8150,6 +8441,7 @@
 
 @sign |SILA₃~a×X|
 @oid o0901850
+@upua U+F289C
 @uname PROTO-CUNEIFORM SIGN SILA3-A TIMES X
 @glyf |SILA₃~a×X|~1 󲢜 F289C o0901850 ~01
 @end sign
@@ -8182,6 +8474,7 @@
 
 @sign |SILA₃~a×1(N58)|
 @oid o0901824
+@upua U+F289D
 @uname PROTO-CUNEIFORM SIGN SILA3-A TIMES ONE-N58
 @glyf |SILA₃~a×1(N58)|~1 󲢝 F289D o0901824 ~01
 @end sign
@@ -8195,6 +8488,7 @@
 
 @sign |SILA₃~b×DUG~a|
 @oid o0901788
+@upua U+F2953
 @uname PROTO-CUNEIFORM SIGN SILA3-B TIMES DUG-A
 @glyf |SILA₃~b×DUG~a|~1 󲥓 F2953 o0901788 ~01
 @end sign
@@ -8229,12 +8523,14 @@
 
 @sign SILA₃~c
 @oid o0901777
+@upua U+F289F
 @uname PROTO-CUNEIFORM SIGN SILA3-C
 @glyf SILA₃~c~1 󲢟 F289F o0901777 ~01
 @end sign
 
 @sign |SILA₃~c×ŠU|
 @oid o0901846
+@upua U+F28A0
 @uname PROTO-CUNEIFORM SIGN SILA3-C TIMES SHU
 @glyf |SILA₃~c×ŠU|~1 󲢠 F28A0 o0901846 ~01
 @end sign
@@ -8248,6 +8544,7 @@
 
 @sign |SILA₃~d×NI~a|
 @oid o0901832
+@upua U+F28A1
 @uname PROTO-CUNEIFORM SIGN SILA3-D TIMES NI-A
 @glyf |SILA₃~d×NI~a|~1 󲢡 F28A1 o0901832 ~01
 @end sign
@@ -8298,6 +8595,7 @@
 
 @sign SIPA
 @oid o0901868
+@upua U+F2216
 @glyf |PA~a~2.UDU~a~1| 󲈖=󲂚‍𒪥 F2216 o0901868 ~ff
 @glyf |PA~a~3.UDU~a~1| 󲈙=󲂛‍𒪥 F2219 o0901868 ~ff
 @end sign
@@ -8421,12 +8719,14 @@
 
 @sign |(SUKUD+SUKUD)~c|
 @oid o0901892
+@upua U+F2954
 @uname PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM C
 @glyf |(SUKUD+SUKUD)~c|~1 󲥔 F2954 o0901892 ~01
 @end sign
 
 @sign |(SUKUD+SUKUD)~d|
 @oid o0901893
+@upua U+F28A2
 @uname PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM D
 @glyf |(SUKUD+SUKUD)~d|~1 󲢢 F28A2 o0901893 ~01
 @end sign
@@ -8463,6 +8763,7 @@
 
 @sign SUKUD@h
 @oid o0901900
+@upua U+F2961
 @uname PROTO-CUNEIFORM SIGN SUKUD HFLIP
 @glyf SUKUD@h~1 󲥡 F2961 o0901900 ~01
 @end sign
@@ -8479,6 +8780,7 @@
 
 @sign SUM~a@t
 @oid o0901906
+@upua U+F28A3
 @uname PROTO-CUNEIFORM SIGN SUM-A TENU
 @glyf SUM~a@t~1 󲢣 F28A3 o0901906 ~01
 @end sign
@@ -8506,6 +8808,7 @@
 
 @sign SUSA
 @oid o0901909
+@upua U+F21E2
 @glyf |MUŠ₃~a~3.ERIN~1| 󲇢=󲁼‍𒞒 F21E2 o0901909 ~ff
 @end sign
 
@@ -8587,6 +8890,7 @@
 
 @sign ŠAB~a
 @oid o0901926
+@upua U+F2215
 @glyf |PA~a~1∘IB~a~2| 󲈕=𒦁⁢󲁎 F2215 o0901926 ~ff
 @glyf |PA~a~1∘IB~a~1| 󲈔=𒦁⁢𒡗 F2214 o0901926 ~ff
 @glyf |PA~a~3∘IB~a~1| 󲈗=󲂛⁢𒡗 F2217 o0901926 ~ff
@@ -8594,6 +8898,7 @@
 
 @sign ŠAB~b
 @oid o0901928
+@upua U+F21D5
 @glyf |IB~a~3∘PAP~a~1| 󲇕=󲁏⁢𒦅 F21D5 o0901928 ~ff
 @glyf |PAP~a~1.IB~a~1| 󲈚=𒦅‍𒡗 F221A o0901928 ~ff
 @end sign
@@ -8666,11 +8971,13 @@
 
 @sign ŠANDANA~a
 @oid o0901943
+@upua U+F21C2
 @glyf |GAL~a~1.NIM~a~1| 󲇂=𒟝‍𒥍 F21C2 o0901943 ~ff
 @end sign
 
 @sign ŠANDANA~b
 @oid o0901944
+@upua U+F21C1
 @glyf |GAL~a~1.NI~a~1| 󲇁=𒟝‍𒥆 F21C1 o0901944 ~ff
 @end sign
 
@@ -8690,6 +8997,7 @@
 
 @sign |ŠE~a.KIN₂~c|
 @oid o0901953
+@upua U+F2227
 @glyf |ŠE~a~1.KIN₂~c~1| 󲈧=𒨢‍𒢕 F2227 o0901953 ~ff
 @glyf |ŠE~a@t~1.KIN₂~c~1| 󲈪=𒨥‍𒢕 F222A o0901953 ~ff
 @end sign
@@ -8697,6 +9005,7 @@
 @sign |ŠE~a.NAM₂|
 @aka |ŠE~a×NAM₂|
 @oid o0901955
+@upua U+F2229
 @glyf |ŠE~a~1.NAM₂~2| 󲈩=𒨢‍󲂆 F2229 o0901955 ~ff
 @glyf |ŠE~a~1.NAM₂~1| 󲈨=𒨢‍𒤹 F2228 o0901955 ~ff
 @end sign
@@ -8717,12 +9026,14 @@
 
 @sign |ŠE~a@t.GAR|
 @oid o0901950
+@upua U+F20C4
 @uname PROTO-CUNEIFORM SIGN SHE-A TENU BESIDE GAR
 @glyf |ŠE~a.GAR|~2 󲃄 F20C4 o0901950 ~02
 @end sign
 
 @sign |ŠE~a@t+EZEN~b|
 @oid o0903781
+@upua U+F299A
 @uname PROTO-CUNEIFORM SIGN SHE-A TENU JOINING EZEN-B
 @glyf |ŠE~a@t+EZEN~b|~1 󲦚 F299A o0903781 ~01
 @end sign
@@ -8806,6 +9117,7 @@
 
 @sign ŠEN~d
 @oid o0901974
+@upua U+F28A5
 @uname PROTO-CUNEIFORM SIGN SHEN-D
 @glyf ŠEN~d~1 󲢥 F28A5 o0901974 ~01
 @glyf ŠEN~d~2 󲃌 F20CC o0901975 ~02
@@ -8864,6 +9176,7 @@
 
 @sign ŠIDIM@t
 @oid o0901991
+@upua U+F28A6
 @uname PROTO-CUNEIFORM SIGN SHIDIM TENU
 @glyf ŠIDIM@t~1 󲢦 F28A6 o0901991 ~01
 @end sign
@@ -8925,18 +9238,21 @@
 
 @sign |ŠITA~a1×ŠU₂|
 @oid o0902022
+@upua U+F28A7
 @uname PROTO-CUNEIFORM SIGN SHITA-A1 TIMES SHU2
 @glyf |ŠITA~a1×ŠU₂|~1 󲢧 F28A7 o0902022 ~01
 @end sign
 
 @sign |ŠITA~a1×UDU~a|
 @oid o0902024
+@upua U+F28A8
 @uname PROTO-CUNEIFORM SIGN SHITA-A1 TIMES UDU-A
 @glyf |ŠITA~a1×UDU~a|~1 󲢨 F28A8 o0902024 ~01
 @end sign
 
 @sign |ŠITA~a1×1(N06)|
 @oid o0902016
+@upua U+F28A9
 @uname PROTO-CUNEIFORM SIGN SHITA-A1 TIMES ONE-N6
 @glyf |ŠITA~a1×1(N06)|~1 󲢩 F28A9 o0902016 ~01
 @end sign
@@ -8993,12 +9309,14 @@
 
 @sign ŠITA~c
 @oid o0902010
+@upua U+F292C
 @uname PROTO-CUNEIFORM SIGN SHITA-C
 @glyf ŠITA~c~1 󲤬 F292C o0902010 ~01
 @end sign
 
 @sign ŠITA@g~a
 @oid o0902028
+@upua U+F20D4
 @uname PROTO-CUNEIFORM SIGN SHITA-B1 GUNU
 @glyf ŠITA@g~a~1 𒩅 12A45 o0903420 ~01
 @glyf ŠITA@g~a~2 󲃔 F20D4 o0902028 ~02
@@ -9006,6 +9324,7 @@
 
 @sign |ŠITA@g~a×1(N04)|
 @oid o0902030
+@upua U+F28AA
 @uname PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE-N4
 @glyf |ŠITA@g~a×1(N04)|~1 󲢪 F28AA o0902030 ~01
 @end sign
@@ -9055,6 +9374,7 @@
 
 @sign ŠU@s
 @oid o0902037
+@upua U+F292D
 @uname PROTO-CUNEIFORM SIGN SHU SHESHIG
 @glyf ŠU@s~1 󲤭 F292D o0902037 ~01
 @end sign
@@ -9075,16 +9395,19 @@
 @aka |ŠU₂.AN|
 @aka |ŠU₂×AN|
 @oid o0902041
+@upua U+F222E
 @glyf |ŠU₂~2.AN~3| 󲈮=󲃕‍𒚷 F222E o0902041 ~ff
 @end sign
 
 @sign |ŠU₂.E₂~a|
 @oid o0902043
+@upua U+F2231
 @glyf |ŠU₂~5.E₂~a~1| 󲈱=𒩌‍𒞀 F2231 o0902043 ~ff
 @end sign
 
 @sign |ŠU₂.E₂~b|
 @oid o0902044
+@upua U+F2232
 @glyf |ŠU₂~5.E₂~b~1| 󲈲=𒩌‍𒞂 F2232 o0902044 ~ff
 @end sign
 
@@ -9097,11 +9420,13 @@
 
 @sign |ŠU₂.EN~b|
 @oid o0903634
+@upua U+F2234
 @glyf |ŠU₂~5.EN~b~1| 󲈴=𒩌‍𒞉 F2234 o0902048 ~ff
 @end sign
 
 @sign |ŠU₂.GIŠ|
 @oid o0902049
+@upua U+F2235
 @glyf |ŠU₂~5.GIŠ~1| 󲈵=𒩌‍𒠞 F2235 o0902049 ~ff
 @end sign
 
@@ -9109,38 +9434,45 @@
 @aka |ŠU₂.((HI+1(N57))+(HI+1(N57)))|
 @aka |ŠU₂.(HI×1(N57))&(HI×1(N57))|
 @oid o0902050
+@upua U+F2236
 @glyf |ŠU₂~5.(HI×1(N57)~1∘HI×1(N57)~1)| 󲈶=𒩌‍󲇏 F2236 o0902050 ~ff
 @end sign
 
 @sign |ŠU₂.PAP~a|
 @oid o0902054
+@upua U+F222F
 @glyf |ŠU₂~2.PAP~a~1| 󲈯=󲃕‍𒦅 F222F o0902054 ~ff
 @end sign
 
 @sign |ŠU₂.URI₃~a|
 @oid o0903635
+@upua U+F2237
 @glyf |ŠU₂~5.URI₃~a~1| 󲈷=𒩌‍𒫕 F2237 o0902056 ~ff
 @end sign
 
 @sign |ŠU₂.1(N02)|
 @oid o0902051
+@upua U+F2238
 @glyf |ŠU₂~5.1(N02)~1| 󲈸=𒩌‍𒖾 F2238 o0902051 ~ff
 @end sign
 
 @sign |ŠU₂.1(N24)|
 @aka |ŠU₂×1(N24)|
 @oid o0902057
+@upua U+F2239
 @glyf |ŠU₂~5.1(N24)~1| 󲈹=𒩌‍𒖪 F2239 o0902057 ~ff
 @end sign
 
 @sign |ŠU₂.2(N57)|
 @oid o0902052
+@upua U+F223A
 @glyf |ŠU₂~5.2(N57)~1| 󲈺=𒩌‍𒯭 F223A o0902052 ~ff
 @end sign
 
 @sign |ŠU₂×3(N57)|
 @aka |ŠU₂×3(N57)|
 @oid o0902058
+@upua U+F2963
 @uname PROTO-CUNEIFORM SIGN SHU2 TIMES THREE-N57
 @glyf |ŠU₂×3(N57)|~1 󲥣 F2963 o0902058 ~01
 @end sign
@@ -9189,24 +9521,28 @@
 
 @sign ŠUR₂~c
 @oid o0902065
+@upua U+F297E
 @uname PROTO-CUNEIFORM SIGN SHUR2-C
 @glyf ŠUR₂~c~1 󲥾 F297E o0902065 ~01
 @end sign
 
 @sign ŠURUPPAK~a
 @oid o0902068
+@upua U+F21DD
 @glyf |KUR~a~1.RU~1| 󲇝=𒢬‍𒦕 F21DD o0902068 ~ff
 @glyf |KUR~a~1.RU~2| 󲇞=𒢬‍󲂠 F21DE o0902068 ~ff
 @end sign
 
 @sign ŠURUPPAK~b
 @oid o0902070
+@upua U+F21FE
 @glyf |3(N57)~1.RU~2| 󲇾=𒯮‍󲂠 F21FE o0902070 ~ff
 @glyf |3(N57)~1.RU~1| 󲇽=𒯮‍𒦕 F21FD o0902070 ~ff
 @end sign
 
 @sign ŠURUPPAK~c
 @oid o0902072
+@upua U+F2226
 @glyf |SU~a~2.KUR~a~1.RU~2| 󲈦=󲂳‍𒢬‍󲂠 F2226 o0902072 ~ff
 @end sign
 
@@ -9219,6 +9555,7 @@
 
 @sign TA~b
 @oid o0902075
+@upua U+F28AC
 @uname PROTO-CUNEIFORM SIGN TA-B
 @glyf TA~b~1 󲢬 F28AC o0902075 ~01
 @end sign
@@ -9239,6 +9576,7 @@
 
 @sign |TA~d×MAŠ|
 @oid o0902081
+@upua U+F28AD
 @uname PROTO-CUNEIFORM SIGN TA-D TIMES MASH
 @glyf |TA~d×MAŠ|~1 󲢭 F28AD o0902081 ~01
 @end sign
@@ -9252,6 +9590,7 @@
 
 @sign TA~f
 @oid o0902079
+@upua U+F292E
 @uname PROTO-CUNEIFORM SIGN TA-F
 @glyf TA~f~1 󲤮 F292E o0902079 ~01
 @end sign
@@ -9344,6 +9683,7 @@
 
 @sign TAR~d
 @oid o0902101
+@upua U+F292F
 @uname PROTO-CUNEIFORM SIGN TAR-D
 @glyf TAR~d~1 󲤯 F292F o0902101 ~01
 @end sign
@@ -9388,6 +9728,7 @@
 
 @sign TIDNUM
 @oid o0902108
+@upua U+F21CA
 @glyf |GIR₃~c~1.PIRIG~b1~1| 󲇊=𒠗‍𒦋 F21CA o0902108 ~ff
 @end sign
 
@@ -9430,6 +9771,7 @@
 
 @sign |TUG₂~a.BAD&BAD|
 @oid o0902121
+@upua U+F223D
 @glyf |TUG₂~a~1.BAD&BAD~1| 󲈽=𒩬‍𒛆 F223D o0902121 ~ff
 @end sign
 
@@ -9457,6 +9799,7 @@
 
 @sign TUG₂~d
 @oid o0902119
+@upua U+F28AF
 @uname PROTO-CUNEIFORM SIGN TUG2-D
 @glyf TUG₂~d~1 󲢯 F28AF o0902119 ~01
 @end sign
@@ -9530,6 +9873,7 @@
 
 @sign |TUR×X|
 @oid o0902143
+@upua U+F2955
 @uname PROTO-CUNEIFORM SIGN TUR TIMES X
 @glyf |TUR×X|~1 󲥕 F2955 o0902143 ~01
 @end sign
@@ -9551,11 +9895,13 @@
 
 @sign |TUR₃~a.5(N57)|
 @oid o0902150
+@upua U+F223E
 @glyf |TUR₃~a~1.5(N57)~1| 󲈾=𒩺‍𒯰 F223E o0902150 ~ff
 @end sign
 
 @sign TUR₃~a@n
 @oid o0902154
+@upua U+F28B0
 @uname PROTO-CUNEIFORM SIGN TUR3-A NUTILLU
 @glyf TUR₃~a@n~1 󲢰 F28B0 o0902154 ~01
 @end sign
@@ -9569,6 +9915,7 @@
 
 @sign |TUR₃~b×TAK₄~a|
 @oid o0902152
+@upua U+F2956
 @uname PROTO-CUNEIFORM SIGN TUR3-B TIMES TAK4-A
 @glyf |TUR₃~b×TAK₄~a|~1 󲥖 F2956 o0902152 ~01
 @end sign
@@ -9612,51 +9959,61 @@
 
 @sign |U₄.ŠU₂|
 @oid o0902177
+@upua U+F2249
 @glyf |U₄~1.ŠU₂~5| 󲉉=𒪀‍𒩌 F2249 o0902177 ~ff
 @end sign
 
 @sign |U₄.1(N08)|
 @oid o0902163
+@upua U+F224A
 @glyf |U₄~1.1(N08)~1| 󲉊=𒪀‍𒕙 F224A o0902163 ~ff
 @end sign
 
 @sign |U₄.2(N08)|
 @oid o0902164
+@upua U+F224B
 @glyf |U₄~1.2(N08)~1| 󲉋=𒪀‍𒕚 F224B o0902164 ~ff
 @end sign
 
 @sign |U₄.3(N08)|
 @oid o0902165
+@upua U+F224C
 @glyf |U₄~1.3(N08)~1| 󲉌=𒪀‍𒕛 F224C o0902165 ~ff
 @end sign
 
 @sign |U₄.4(N08)|
 @oid o0902166
+@upua U+F224D
 @glyf |U₄~1.4(N08)~1| 󲉍=𒪀‍𒕜 F224D o0902166 ~ff
 @end sign
 
 @sign |U₄.5(N08)|
 @oid o0902167
+@upua U+F224E
 @glyf |U₄~1.5(N08)~1| 󲉎=𒪀‍𒕝 F224E o0902167 ~ff
 @end sign
 
 @sign |U₄.6(N08)|
 @oid o0902168
+@upua U+F224F
 @glyf |U₄~1.6(N08)~1| 󲉏=𒪀‍𒕞 F224F o0902168 ~ff
 @end sign
 
 @sign |U₄.7(N08)|
 @oid o0902169
+@upua U+F2250
 @glyf |U₄~1.7(N08)~1| 󲉐=𒪀‍𒕟 F2250 o0902169 ~ff
 @end sign
 
 @sign |U₄.8(N08)|
 @oid o0902170
+@upua U+F2251
 @glyf |U₄~1.8(N08)~1| 󲉑=𒪀‍𒕠 F2251 o0902170 ~ff
 @end sign
 
 @sign |U₄.1(N14)|
 @oid o0902171
+@upua U+F2252
 @glyf |U₄~1.1(N14)~1| 󲉒=𒪀‍𒕢 F2252 o0902171 ~ff
 @end sign
 
@@ -9668,42 +10025,50 @@
 
 @sign |U₄.1(N14).3(N08)|
 @oid o0902172
+@upua U+F2253
 @glyf |U₄~1.1(N14)~1.3(N08)~1| 󲉓=𒪀‍𒕢‍𒕛 F2253 o0902172 ~ff
 @end sign
 
 @sign |U₄.1(N14).4(N08)|
 @oid o0902173
+@upua U+F2254
 @glyf |U₄~1.1(N14)~1.4(N08)~1| 󲉔=𒪀‍𒕢‍𒕜 F2254 o0902173 ~ff
 @end sign
 
 @sign |U₄.1(N14).5(N08)|
 @oid o0902174
+@upua U+F2255
 @glyf |U₄~1.1(N14)~1.5(N08)~1| 󲉕=𒪀‍𒕢‍𒕝 F2255 o0902174 ~ff
 @end sign
 
 @sign |U₄.1(N14).8(N08)|
 @oid o0902175
+@upua U+F2256
 @glyf |U₄~1.1(N14)~1.8(N08)~1| 󲉖=𒪀‍𒕢‍𒕠 F2256 o0902175 ~ff
 @end sign
 
 @sign |U₄.2(N14)|
 @oid o0902176
+@upua U+F2257
 @glyf |U₄~1.2(N14)~1| 󲉗=𒪀‍𒕣 F2257 o0902176 ~ff
 @end sign
 
 @sign |U₄.1(N24)|
 @oid o0902219
+@upua U+F2258
 @glyf |U₄~1.1(N24)~1| 󲉘=𒪀‍𒖪 F2258 o0902219 ~ff
 @end sign
 
 @sign |U₄×X|
 @oid o0902216
+@upua U+F28B1
 @uname PROTO-CUNEIFORM SIGN U4 TIMES X
 @glyf |U₄×X|~1 󲢱 F28B1 o0902216 ~01
 @end sign
 
 @sign |U₄×(X+2(N01))|
 @oid o0902217
+@upua U+F28B2
 @uname PROTO-CUNEIFORM SIGN U4 TIMES X JOINING TWO-N1
 @glyf |U₄×(X+2(N01))|~1 󲢲 F28B2 o0902217 ~01
 @end sign
@@ -9717,6 +10082,7 @@
 
 @sign |U₄×1(N01).5(N08)|
 @oid o0902179
+@upua U+F223F
 @glyf |U₄×1(N01)~1.5(N08)~1| 󲈿=𒪁‍𒕝 F223F o0902179 ~ff
 @end sign
 
@@ -9730,22 +10096,26 @@
 
 @sign |U₄×2(N01)|
 @oid o0902182
+@upua U+F28B3
 @uname PROTO-CUNEIFORM SIGN U4 TIMES TWO-N1
 @glyf |U₄×2(N01)|~1 󲢳 F28B3 o0902182 ~01
 @end sign
 
 @sign |U₄×2(N01).X|
 @oid o0902185
+@upua U+F2240
 @glyf |U₄×2(N01)~1.O| 󲉀=󲢳‍O F2240 o0902185 ~ff
 @end sign
 
 @sign |U₄×2(N01).2(N14)|
 @oid o0902183
+@upua U+F2241
 @glyf |U₄×2(N01)~1.2(N14)~1| 󲉁=󲢳‍𒕣 F2241 o0902183 ~ff
 @end sign
 
 @sign |U₄×2(N01).2(N14).1(N08)|
 @oid o0902184
+@upua U+F2242
 @glyf |U₄×2(N01)~1.2(N14)~1.1(N08)~1| 󲉂=󲢳‍𒕣‍𒕙 F2242 o0902184 ~ff
 @end sign
 
@@ -9770,6 +10140,7 @@
 
 @sign |U₄×4(N01).2(N14)|
 @oid o0902189
+@upua U+F2244
 @glyf |U₄×4(N01)~1.2(N14)~1| 󲉄=𒪄‍𒕣 F2244 o0902189 ~ff
 @end sign
 
@@ -9782,6 +10153,7 @@
 
 @sign |U₄×5(N01).1(N14)|
 @oid o0902191
+@upua U+F2245
 @glyf |U₄×5(N01)~1.1(N14)~1| 󲉅=𒪅‍𒕢 F2245 o0902191 ~ff
 @end sign
 
@@ -9801,17 +10173,20 @@
 
 @sign |U₄×8(N01).X|
 @oid o0902194
+@upua U+F2246
 @glyf |U₄×8(N01)~1.O| 󲉆=𒪇‍O F2246 o0902194 ~ff
 @end sign
 
 @sign |U₄×N(N01)|
 @oid o0902195
+@upua U+F28B4
 @uname PROTO-CUNEIFORM SIGN U4 TIMES N-N1
 @glyf |U₄×N(N01)|~1 󲢴 F28B4 o0902195 ~01
 @end sign
 
 @sign |U₄×1(N01@f)|
 @oid o0902181
+@upua U+F2957
 @uname PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1 FLAT
 @glyf |U₄×1(N01@f)|~1 󲥗 F2957 o0902181 ~01
 @end sign
@@ -9846,6 +10221,7 @@
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|
 @aka |U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 @oid o0902199
+@upua U+F2247
 @glyf |U₄×(1(N14).3(N01))~1.1(N14)~1.4(N08)~1| 󲉇=󲦇‍𒕢‍𒕜 F2247 o0902199 ~ff
 @end sign
 
@@ -9865,6 +10241,7 @@
 
 @sign |U₄×2(N14)|
 @oid o0902202
+@upua U+F28B5
 @uname PROTO-CUNEIFORM SIGN U4 TIMES TWO-N14
 @glyf |U₄×2(N14)|~1 󲢵 F28B5 o0902202 ~01
 @end sign
@@ -10068,6 +10445,7 @@
 
 @sign UDU~b
 @oid o0902244
+@upua U+F28B6
 @uname PROTO-CUNEIFORM SIGN UDU-B
 @glyf UDU~b~1 󲢶 F28B6 o0902244 ~01
 @end sign
@@ -10102,6 +10480,7 @@
 
 @sign UH
 @oid o0902254
+@upua U+F28B7
 @uname PROTO-CUNEIFORM SIGN UH
 @glyf UH~1 󲢷 F28B7 o0902254 ~01
 @end sign
@@ -10160,6 +10539,7 @@
 
 @sign |UKKIN~b×DUG~a|
 @oid o0902272
+@upua U+F2958
 @uname PROTO-CUNEIFORM SIGN UKKIN-B TIMES DUG-A
 @glyf |UKKIN~b×DUG~a|~1 󲥘 F2958 o0902272 ~01
 @end sign
@@ -10180,6 +10560,7 @@
 
 @sign |UKKIN~b×X|
 @oid o0902284
+@upua U+F28B9
 @uname PROTO-CUNEIFORM SIGN UKKIN-B TIMES X
 @glyf |UKKIN~b×X|~1 󲢹 F28B9 o0902284 ~01
 @end sign
@@ -10214,6 +10595,7 @@
 
 @sign UKKIN~d
 @oid o0902266
+@upua U+F2980
 @uname PROTO-CUNEIFORM SIGN UKKIN-D
 @glyf UKKIN~d~1 󲦀 F2980 o0902266 ~01
 @end sign
@@ -10300,6 +10682,7 @@
 @sign |UR~a×KAR₂~b|
 @aka |UR~a×KAR₂|
 @oid o0902306
+@upua U+F28BD
 @uname PROTO-CUNEIFORM SIGN UR-A TIMES KAR2-B
 @glyf |UR~a×KAR₂~b|~1 󲢽 F28BD o0902306 ~01
 @end sign
@@ -10379,6 +10762,7 @@
 
 @sign |UR₃~b1×MAŠ|
 @oid o0902321
+@upua U+F28BE
 @uname PROTO-CUNEIFORM SIGN UR3-B1 TIMES MASH
 @glyf |UR₃~b1×MAŠ|~1 󲢾 F28BE o0902321 ~01
 @end sign
@@ -10392,6 +10776,7 @@
 
 @sign UR₃~d2
 @oid o0902319
+@upua U+F2981
 @uname PROTO-CUNEIFORM SIGN UR3-D2
 @glyf UR₃~d2~1 󲦁 F2981 o0902319 ~01
 @end sign
@@ -10440,6 +10825,7 @@
 
 @sign URI₂
 @oid o0902330
+@upua U+F225C
 @glyf |URI₃~a~1.UNUG~a~2| 󲉜=𒫕‍𒪾 F225C o0902330 ~ff
 @end sign
 
@@ -10453,11 +10839,13 @@
 
 @sign |URI₃~a+IB~a|
 @oid o0902336
+@upua U+F225A
 @glyf |URI₃~a~1.IB~a~1| 󲉚=𒫕‍𒡗 F225A o0902336 ~ff
 @end sign
 
 @sign URI₃~b
 @oid o0902334
+@upua U+F2259
 @glyf |URI₃~a~1.AB~a~2| 󲉙=𒫕‍𒚖 F2259 o0902334 ~ff
 @end sign
 
@@ -10478,6 +10866,7 @@
 
 @sign |URU~a1×A|
 @oid o0902345
+@upua U+F2959
 @uname PROTO-CUNEIFORM SIGN URU-A1 TIMES A
 @glyf |URU~a1×A|~1 󲥙 F2959 o0902345 ~01
 @end sign
@@ -10490,6 +10879,7 @@
 
 @sign |URU~a1×GU₄|
 @oid o0902349
+@upua U+F28BF
 @uname PROTO-CUNEIFORM SIGN URU-A1 TIMES GU4
 @glyf |URU~a1×GU₄|~1 󲢿 F28BF o0902349 ~01
 @end sign
@@ -10524,17 +10914,20 @@
 
 @sign |URU~a1×X|
 @oid o0902369
+@upua U+F28C0
 @uname PROTO-CUNEIFORM SIGN URU-A1 TIMES X
 @glyf |URU~a1×X|~1 󲣀 F28C0 o0902369 ~01
 @end sign
 
 @sign |URU~a1×1(N57)|
 @oid o0902357
+@upua U+F21EC
 @glyf |1(N57)~1.URU~a1~1| 󲇬=𒯬‍𒫗 F21EC o0902357 ~ff
 @end sign
 
 @sign |URU~a1×2(N57)|
 @oid o0902359
+@upua U+F21F3
 @glyf |2(N57)~1.URU~a1~1| 󲇳=𒯭‍𒫗 F21F3 o0902359 ~ff
 @end sign
 
@@ -10547,6 +10940,7 @@
 
 @sign URU~a1@n
 @oid o0902371
+@upua U+F28C1
 @uname PROTO-CUNEIFORM SIGN URU-A1 NUTILLU
 @glyf URU~a1@n~1 󲣁 F28C1 o0902371 ~01
 @end sign
@@ -10626,6 +11020,7 @@
 
 @sign URUDU@g~b
 @oid o0902380
+@upua U+F28C2
 @uname PROTO-CUNEIFORM SIGN URUDU GUNU-B
 @glyf URUDU@g~b~1 󲣂 F28C2 o0902380 ~01
 @end sign
@@ -10677,6 +11072,7 @@
 
 @sign |UŠ~b×TAR~d|
 @oid o0902390
+@upua U+F295A
 @uname PROTO-CUNEIFORM SIGN USH-B TIMES TAR-D
 @glyf |UŠ~b×TAR~d|~1 󲥚 F295A o0902390 ~01
 @end sign
@@ -10690,11 +11086,13 @@
 
 @sign UŠUMGAL
 @oid o0902394
+@upua U+F21C0
 @glyf |GAL~a~1.BUR₂~1| 󲇀=𒟝‍𒛵 F21C0 o0902394 ~ff
 @end sign
 
 @sign UŠUR₃~a
 @oid o0902396
+@upua U+F20F1
 @uname PROTO-CUNEIFORM SIGN USHUR3-A
 @glyf UŠUR₃~b1~2 󲃱 F20F1 o0902396 ~02
 @end sign
@@ -10795,16 +11193,19 @@
 @sign ZABALAM~a
 @aka ZABALA~a
 @oid o0902418
+@upua U+F21E1
 @glyf |MUŠ₃~a~3.AB~a~2| 󲇡=󲁼‍𒚖 F21E1 o0902418 ~ff
 @end sign
 
 @sign ZABALAM~b
 @oid o0902419
+@upua U+F21E3
 @glyf |MUŠ₃~a~3.UNUG~a~2| 󲇣=󲁼‍𒪾 F21E3 o0902419 ~ff
 @end sign
 
 @sign ZADIM
 @oid o0902420
+@upua U+F2931
 @uname PROTO-CUNEIFORM SIGN ZADIM
 @glyf ZADIM~1 󲤱 F2931 o0902420 ~01
 @end sign
@@ -10926,6 +11327,7 @@
 
 @sign ZATU624~c
 @oid o0902444
+@upua U+F28C5
 @uname PROTO-CUNEIFORM SIGN ZATU624-C
 @glyf ZATU624~c~1 󲣅 F28C5 o0902444 ~01
 @end sign
@@ -10961,6 +11363,7 @@
 
 @sign ZATU627
 @oid o0902451
+@upua U+F28C6
 @uname PROTO-CUNEIFORM SIGN ZATU627
 @glyf ZATU627~1 󲣆 F28C6 o0902451 ~01
 @end sign
@@ -11019,6 +11422,7 @@
 
 @sign ZATU632~c
 @oid o0902464
+@upua U+F28C7
 @uname PROTO-CUNEIFORM SIGN ZATU632-C
 @glyf ZATU632~c~1 󲣇 F28C7 o0902464 ~01
 @end sign
@@ -11039,6 +11443,7 @@
 
 @sign ZATU634
 @oid o0902468
+@upua U+F28C8
 @uname PROTO-CUNEIFORM SIGN ZATU634
 @glyf ZATU634~1 󲣈 F28C8 o0902468 ~01
 @end sign
@@ -11074,6 +11479,7 @@
 
 @sign ZATU640
 @oid o0902474
+@upua U+F28C9
 @uname PROTO-CUNEIFORM SIGN ZATU640
 @glyf ZATU640~1 󲣉 F28C9 o0902474 ~01
 @end sign
@@ -11108,6 +11514,7 @@
 
 @sign |ZATU644~a×1(N14)|
 @oid o0902482
+@upua U+F28CA
 @uname PROTO-CUNEIFORM SIGN ZATU644-A TIMES ONE-N14
 @glyf |ZATU644~a×1(N14)|~1 󲣊 F28CA o0902482 ~01
 @end sign
@@ -11151,6 +11558,7 @@
 
 @sign ZATU650
 @oid o0902489
+@upua U+F28CB
 @uname PROTO-CUNEIFORM SIGN ZATU650
 @glyf ZATU650~1 󲣋 F28CB o0902489 ~01
 @end sign
@@ -11206,6 +11614,7 @@
 
 @sign |ZATU651×X|
 @oid o0902502
+@upua U+F28CC
 @uname PROTO-CUNEIFORM SIGN ZATU651 TIMES X
 @glyf |ZATU651×X|~1 󲣌 F28CC o0902502 ~01
 @end sign
@@ -11255,6 +11664,7 @@
 
 @sign ZATU659@t
 @oid o0902510
+@upua U+F2996
 @uname PROTO-CUNEIFORM SIGN ZATU659 TENU
 @glyf ZATU659@t~1 󲦖 F2996 o0902510 ~01
 @end sign
@@ -11322,6 +11732,7 @@
 
 @sign ZATU670
 @oid o0902524
+@upua U+F28D1
 @uname PROTO-CUNEIFORM SIGN ZATU670
 @glyf ZATU670~1 󲣑 F28D1 o0902524 ~01
 @end sign
@@ -11335,6 +11746,7 @@
 
 @sign ZATU674
 @oid o0902526
+@upua U+F28D2
 @uname PROTO-CUNEIFORM SIGN ZATU674
 @glyf ZATU674~1 󲣒 F28D2 o0902526 ~01
 @end sign
@@ -11476,6 +11888,7 @@
 
 @sign ZATU683@t
 @oid o0902553
+@upua U+F28D3
 @uname PROTO-CUNEIFORM SIGN ZATU683 TENU
 @glyf ZATU683@t~1 󲣓 F28D3 o0902553 ~01
 @end sign
@@ -11619,6 +12032,7 @@
 
 @sign ZATU694~e
 @oid o0902578
+@upua U+F2971
 @uname PROTO-CUNEIFORM SIGN ZATU694-E
 @glyf ZATU694~e~1 󲥱 F2971 o0902578 ~01
 @end sign
@@ -11657,12 +12071,14 @@
 
 @sign ZATU697~c
 @oid o0902589
+@upua U+F28D4
 @uname PROTO-CUNEIFORM SIGN ZATU697-C
 @glyf ZATU697~c~1 󲣔 F28D4 o0902589 ~01
 @end sign
 
 @sign ZATU699~a
 @oid o0902591
+@upua U+F28D5
 @uname PROTO-CUNEIFORM SIGN ZATU699-A
 @glyf ZATU699~a~1 󲣕 F28D5 o0902591 ~01
 @end sign
@@ -11704,6 +12120,7 @@
 
 @sign ZATU704
 @oid o0902597
+@upua U+F28D6
 @uname PROTO-CUNEIFORM SIGN ZATU704
 @glyf ZATU704~1 󲣖 F28D6 o0902597 ~01
 @end sign
@@ -11795,6 +12212,7 @@
 
 @sign |ZATU714.RU|
 @oid o0902614
+@upua U+F2261
 @glyf |ZATU714~1.RU~1| 󲉡=𒭳‍𒦕 F2261 o0902614 ~ff
 @end sign
 
@@ -11807,6 +12225,7 @@
 
 @sign |ZATU714×X|
 @oid o0902617
+@upua U+F28D9
 @uname PROTO-CUNEIFORM SIGN ZATU714 TIMES X
 @glyf |ZATU714×X|~1 󲣙 F28D9 o0902617 ~01
 @end sign
@@ -11862,6 +12281,7 @@
 
 @sign ZATU724
 @oid o0902625
+@upua U+F28DA
 @uname PROTO-CUNEIFORM SIGN ZATU724
 @glyf ZATU724~1 󲣚 F28DA o0902625 ~01
 @end sign
@@ -11935,6 +12355,7 @@
 
 @sign ZATU733
 @oid o0902638
+@upua U+F28DB
 @uname PROTO-CUNEIFORM SIGN ZATU733
 @glyf ZATU733~1 󲣛 F28DB o0902638 ~01
 @end sign
@@ -12025,6 +12446,7 @@
 
 @sign |ZATU737×E~a|
 @oid o0902661
+@upua U+F28DD
 @uname PROTO-CUNEIFORM SIGN ZATU737 TIMES E-A
 @glyf |ZATU737×E~a|~1 󲣝 F28DD o0902661 ~01
 @end sign
@@ -12053,6 +12475,7 @@
 
 @sign |ZATU737×I|
 @oid o0902667
+@upua U+F2960
 @uname PROTO-CUNEIFORM SIGN ZATU737 TIMES I
 @glyf |ZATU737×I|~1 󲥠 F2960 o0902667 ~01
 @end sign
@@ -12101,6 +12524,7 @@
 
 @sign |ZATU737×ŠITA~b1@g|
 @oid o0902679
+@upua U+F295B
 @uname PROTO-CUNEIFORM SIGN ZATU737 TIMES SHITA-B1 GUNU
 @glyf |ZATU737×ŠITA~b1@g|~1 󲥛 F295B o0902679 ~01
 @end sign
@@ -12125,6 +12549,7 @@
 
 @sign |ZATU737@t×PAP~a|
 @oid o0902685
+@upua U+F295F
 @uname PROTO-CUNEIFORM SIGN ZATU737 TENU TIMES PAP-A
 @glyf |ZATU737@t×PAP~a|~1 󲥟 F295F o0902685 ~01
 @end sign
@@ -12181,6 +12606,7 @@
 
 @sign ZATU751~c
 @oid o0903383
+@upua U+F2962
 @uname PROTO-CUNEIFORM SIGN ZATU751-C
 @glyf ZATU751~c~1 󲥢 F2962 o0903383 ~01
 @end sign
@@ -12269,24 +12695,28 @@
 
 @sign |ZATU759×KU₆~d|
 @oid o0902715
+@upua U+F28DF
 @uname PROTO-CUNEIFORM SIGN ZATU759 TIMES KU6-D
 @glyf |ZATU759×KU₆~d|~1 󲣟 F28DF o0902715 ~01
 @end sign
 
 @sign |ZATU759×X|
 @oid o0902718
+@upua U+F28E0
 @uname PROTO-CUNEIFORM SIGN ZATU759 TIMES X
 @glyf |ZATU759×X|~1 󲣠 F28E0 o0902718 ~01
 @end sign
 
 @sign |ZATU759@t×X|
 @oid o0902719
+@upua U+F28E1
 @uname PROTO-CUNEIFORM SIGN ZATU759 TENU TIMES X
 @glyf |ZATU759@t×X|~1 󲣡 F28E1 o0902719 ~01
 @end sign
 
 @sign ZATU761
 @oid o0902720
+@upua U+F28E3
 @uname PROTO-CUNEIFORM SIGN ZATU761
 @glyf ZATU761~1 󲣣 F28E3 o0902720 ~01
 @end sign
@@ -12351,18 +12781,21 @@
 
 @sign ZATU768
 @oid o0902734
+@upua U+F28E5
 @uname PROTO-CUNEIFORM SIGN ZATU768
 @glyf ZATU768~1 󲣥 F28E5 o0902734 ~01
 @end sign
 
 @sign ZATU769
 @oid o0902735
+@upua U+F28E6
 @uname PROTO-CUNEIFORM SIGN ZATU769
 @glyf ZATU769~1 󲣦 F28E6 o0902735 ~01
 @end sign
 
 @sign ZATU771
 @oid o0902736
+@upua U+F28E7
 @uname PROTO-CUNEIFORM SIGN ZATU771
 @glyf ZATU771~1 󲣧 F28E7 o0902736 ~01
 @end sign
@@ -12431,6 +12864,7 @@
 
 @sign ZATU779
 @oid o0902750
+@upua U+F28E9
 @uname PROTO-CUNEIFORM SIGN ZATU779
 @glyf ZATU779~1 󲣩 F28E9 o0902750 ~01
 @end sign
@@ -12472,6 +12906,7 @@
 
 @sign ZATU785
 @oid o0902756
+@upua U+F28EA
 @uname PROTO-CUNEIFORM SIGN ZATU785
 @glyf ZATU785~1 󲣪 F28EA o0902756 ~01
 @end sign
@@ -12499,6 +12934,7 @@
 
 @sign ZATU789
 @oid o0902760
+@upua U+F28EB
 @uname PROTO-CUNEIFORM SIGN ZATU789
 @glyf ZATU789~1 󲣫 F28EB o0902760 ~01
 @end sign
@@ -12589,6 +13025,7 @@
 
 @sign ZATU805
 @oid o0902773
+@upua U+F28EC
 @uname PROTO-CUNEIFORM SIGN ZATU805
 @glyf ZATU805~1 󲣬 F28EC o0902773 ~01
 @end sign
@@ -12651,90 +13088,105 @@
 
 @sign ZATU814
 @oid o0902782
+@upua U+F28ED
 @uname PROTO-CUNEIFORM SIGN ZATU814
 @glyf ZATU814~1 󲣭 F28ED o0902782 ~01
 @end sign
 
 @sign ZATU815
 @oid o0902783
+@upua U+F28EE
 @uname PROTO-CUNEIFORM SIGN ZATU815
 @glyf ZATU815~1 󲣮 F28EE o0902783 ~01
 @end sign
 
 @sign ZATU817
 @oid o0902784
+@upua U+F28EF
 @uname PROTO-CUNEIFORM SIGN ZATU817
 @glyf ZATU817~1 󲣯 F28EF o0902784 ~01
 @end sign
 
 @sign ZATU818
 @oid o0902785
+@upua U+F28F0
 @uname PROTO-CUNEIFORM SIGN ZATU818
 @glyf ZATU818~1 󲣰 F28F0 o0902785 ~01
 @end sign
 
 @sign ZATU819
 @oid o0902786
+@upua U+F28F1
 @uname PROTO-CUNEIFORM SIGN ZATU819
 @glyf ZATU819~1 󲣱 F28F1 o0902786 ~01
 @end sign
 
 @sign ZATU820
 @oid o0902787
+@upua U+F28F2
 @uname PROTO-CUNEIFORM SIGN ZATU820
 @glyf ZATU820~1 󲣲 F28F2 o0902787 ~01
 @end sign
 
 @sign ZATU821
 @oid o0902788
+@upua U+F28F3
 @uname PROTO-CUNEIFORM SIGN ZATU821
 @glyf ZATU821~1 󲣳 F28F3 o0902788 ~01
 @end sign
 
 @sign ZATU822
 @oid o0902789
+@upua U+F28F4
 @uname PROTO-CUNEIFORM SIGN ZATU822
 @glyf ZATU822~1 󲣴 F28F4 o0902789 ~01
 @end sign
 
 @sign ZATU823
 @oid o0902790
+@upua U+F28F5
 @uname PROTO-CUNEIFORM SIGN ZATU823
 @glyf ZATU823~1 󲣵 F28F5 o0902790 ~01
 @end sign
 
 @sign ZATU824
 @oid o0902791
+@upua U+F28F6
 @uname PROTO-CUNEIFORM SIGN ZATU824
 @glyf ZATU824~1 󲣶 F28F6 o0902791 ~01
 @end sign
 
 @sign ZATU825
 @oid o0902792
+@upua U+F28F7
 @uname PROTO-CUNEIFORM SIGN ZATU825
 @glyf ZATU825~1 󲣷 F28F7 o0902792 ~01
 @end sign
 
 @sign ZATU826
 @oid o0902793
+@upua U+F28F8
 @uname PROTO-CUNEIFORM SIGN ZATU826
 @glyf ZATU826~1 󲣸 F28F8 o0902793 ~01
 @end sign
 
 @sign ZATU829
 @oid o0902794
+@upua U+F28F9
 @uname PROTO-CUNEIFORM SIGN ZATU829
 @glyf ZATU829~1 󲣹 F28F9 o0902794 ~01
 @end sign
 
 @sign ZATU831
 @oid o0902795
+@upua U+F28FA
 @uname PROTO-CUNEIFORM SIGN ZATU831
 @glyf ZATU831~1 󲣺 F28FA o0902795 ~01
 @end sign
 
 @sign ZATU831@g
 @oid o0902796
+@upua U+F28FB
 @uname PROTO-CUNEIFORM SIGN ZATU831 GUNU
 @glyf ZATU831@g~1 󲣻 F28FB o0902796 ~01
 @end sign
@@ -12776,24 +13228,28 @@
 
 @sign ZATU837~a
 @oid o0902803
+@upua U+F28FC
 @uname PROTO-CUNEIFORM SIGN ZATU837-A
 @glyf ZATU837~a~1 󲣼 F28FC o0902803 ~01
 @end sign
 
 @sign ZATU837~b
 @oid o0902804
+@upua U+F28FD
 @uname PROTO-CUNEIFORM SIGN ZATU837-B
 @glyf ZATU837~b~1 󲣽 F28FD o0902804 ~01
 @end sign
 
 @sign ZATU838
 @oid o0902805
+@upua U+F28FE
 @uname PROTO-CUNEIFORM SIGN ZATU838
 @glyf ZATU838~1 󲣾 F28FE o0902805 ~01
 @end sign
 
 @sign ZATU839
 @oid o0902806
+@upua U+F28FF
 @uname PROTO-CUNEIFORM SIGN ZATU839
 @glyf ZATU839~1 󲣿 F28FF o0902806 ~01
 @glyf ZATU839~2 󲄫 F212B o0902807 ~02
@@ -12801,42 +13257,49 @@
 
 @sign ZATU840
 @oid o0902808
+@upua U+F2900
 @uname PROTO-CUNEIFORM SIGN ZATU840
 @glyf ZATU840~1 󲤀 F2900 o0902808 ~01
 @end sign
 
 @sign ZATU841
 @oid o0902809
+@upua U+F2901
 @uname PROTO-CUNEIFORM SIGN ZATU841
 @glyf ZATU841~1 󲤁 F2901 o0902809 ~01
 @end sign
 
 @sign ZATU842
 @oid o0902810
+@upua U+F2902
 @uname PROTO-CUNEIFORM SIGN ZATU842
 @glyf ZATU842~1 󲤂 F2902 o0902810 ~01
 @end sign
 
 @sign ZATU843
 @oid o0902811
+@upua U+F2903
 @uname PROTO-CUNEIFORM SIGN ZATU843
 @glyf ZATU843~1 󲤃 F2903 o0902811 ~01
 @end sign
 
 @sign ZATU844
 @oid o0902812
+@upua U+F2904
 @uname PROTO-CUNEIFORM SIGN ZATU844
 @glyf ZATU844~1 󲤄 F2904 o0902812 ~01
 @end sign
 
 @sign ZATU845
 @oid o0902813
+@upua U+F2905
 @uname PROTO-CUNEIFORM SIGN ZATU845
 @glyf ZATU845~1 󲤅 F2905 o0902813 ~01
 @end sign
 
 @sign ZATU846
 @oid o0902814
+@upua U+F2906
 @uname PROTO-CUNEIFORM SIGN ZATU846
 @glyf ZATU846~1 󲤆 F2906 o0902814 ~01
 @end sign
@@ -12850,12 +13313,14 @@
 
 @sign ZATU848
 @oid o0902816
+@upua U+F2907
 @uname PROTO-CUNEIFORM SIGN ZATU848
 @glyf ZATU848~1 󲤇 F2907 o0902816 ~01
 @end sign
 
 @sign ZATU849
 @oid o0902817
+@upua U+F2908
 @uname PROTO-CUNEIFORM SIGN ZATU849
 @glyf ZATU849~1 󲤈 F2908 o0902817 ~01
 @end sign
@@ -12877,12 +13342,14 @@
 
 @sign ZATU852
 @oid o0902820
+@upua U+F2909
 @uname PROTO-CUNEIFORM SIGN ZATU852
 @glyf ZATU852~1 󲤉 F2909 o0902820 ~01
 @end sign
 
 @sign ZATU853
 @oid o0902821
+@upua U+F290A
 @uname PROTO-CUNEIFORM SIGN ZATU853
 @glyf ZATU853~1 󲤊 F290A o0902821 ~01
 @end sign
@@ -12896,18 +13363,21 @@
 
 @sign ZATU855
 @oid o0902823
+@upua U+F290B
 @uname PROTO-CUNEIFORM SIGN ZATU855
 @glyf ZATU855~1 󲤋 F290B o0902823 ~01
 @end sign
 
 @sign ZATU856
 @oid o0902824
+@upua U+F2968
 @uname PROTO-CUNEIFORM SIGN ZATU856
 @glyf ZATU856~1 󲥨 F2968 o0902824 ~01
 @end sign
 
 @sign ZATU857
 @oid o0902825
+@upua U+F296A
 @uname PROTO-CUNEIFORM SIGN ZATU857
 @glyf ZATU857~1 󲥪 F296A o0902825 ~01
 @end sign
@@ -12950,6 +13420,7 @@
 
 @sign |(ZU&ZU).SAR~a|
 @oid o0902836
+@upua U+F295C
 @uname PROTO-CUNEIFORM SIGN ZU OVER ZU BESIDE SAR-A
 @glyf |(ZU&ZU).SAR~a|~1 󲥜 F295C o0902836 ~01
 @end sign
@@ -12963,6 +13434,7 @@
 
 @sign ZUBI~b
 @oid o0902839
+@upua U+F290C
 @uname PROTO-CUNEIFORM SIGN ZUBI-B
 @glyf ZUBI~b~1 󲤌 F290C o0902839 ~01
 @glyf ZUBI~b~2 󲄮 F212E o0903729 ~02
@@ -13074,6 +13546,7 @@
 
 @sign 10(N01)
 @oid o0902868
+@upua U+F00DA
 @uname PROTO-CUNEIFORM NUMBER ONE-N1
 @glyf 10(N01)~1 󰃚 F00DA o0902868 ~01
 @end sign
@@ -13547,36 +14020,42 @@
 
 @sign 1(N08~b)
 @oid o0902910
+@upua U+F00F5
 @uname PROTO-CUNEIFORM NUMBER ONE-N8-B
 @glyf 1(N08~b)~1 󰃵 F00F5 o0902910 ~01
 @end sign
 
 @sign 2(N08~b)
 @oid o0902913
+@upua U+F00F6
 @uname PROTO-CUNEIFORM NUMBER TWO-N8-B
 @glyf 2(N08~b)~1 󰃶 F00F6 o0902913 ~01
 @end sign
 
 @sign 3(N08~b)
 @oid o0902915
+@upua U+F00F7
 @uname PROTO-CUNEIFORM NUMBER THREE-N8-B
 @glyf 3(N08~b)~1 󰃷 F00F7 o0902915 ~01
 @end sign
 
 @sign 4(N08~b)
 @oid o0902917
+@upua U+F00F8
 @uname PROTO-CUNEIFORM NUMBER FOUR-N8-B
 @glyf 4(N08~b)~1 󰃸 F00F8 o0902917 ~01
 @end sign
 
 @sign 4(N08~c)
 @oid o0902918
+@upua U+F00F9
 @uname PROTO-CUNEIFORM NUMBER FOUR-N8-C
 @glyf 4(N08~c)~1 󰃹 F00F9 o0902918 ~01
 @end sign
 
 @sign 1(N08~v)
 @oid o0902911
+@upua U+F00FA
 @uname PROTO-CUNEIFORM NUMBER ONE-N8-V
 @glyf 1(N08~v)~1 󰃺 F00FA o0902911 ~01
 @end sign
@@ -13677,24 +14156,28 @@
 
 @sign 10(N14)
 @oid o0902941
+@upua U+F00DB
 @uname PROTO-CUNEIFORM NUMBER ONE-N14
 @glyf 10(N14)~1 󰃛 F00DB o0902941 ~01
 @end sign
 
 @sign 11(N14)
 @oid o0902942
+@upua U+F00DC
 @uname PROTO-CUNEIFORM NUMBER ONE-N14
 @glyf 11(N14)~1 󰃜 F00DC o0902942 ~01
 @end sign
 
 @sign 12(N14)
 @oid o0902943
+@upua U+F00DD
 @uname PROTO-CUNEIFORM NUMBER ONE-N14
 @glyf 12(N14)~1 󰃝 F00DD o0902943 ~01
 @end sign
 
 @sign 22(N14)
 @oid o0902944
+@upua U+F00DE
 @uname PROTO-CUNEIFORM NUMBER TWO-N14
 @glyf 22(N14)~1 󰃞 F00DE o0902944 ~01
 @end sign
@@ -13769,6 +14252,7 @@
 
 @sign 10(N14@f)
 @oid o0902954
+@upua U+F00DF
 @uname PROTO-CUNEIFORM NUMBER ONE-N14 FLAT
 @glyf 10(N14@f)~1 󰃟 F00DF o0902954 ~01
 @end sign
@@ -13811,12 +14295,14 @@
 
 @sign 1(N16)
 @oid o0902960
+@upua U+F00FB
 @uname PROTO-CUNEIFORM NUMBER ONE-N16
 @glyf 1(N16)~1 󰃻 F00FB o0902960 ~01
 @end sign
 
 @sign 1(N17)
 @oid o0902961
+@upua U+F00FC
 @uname PROTO-CUNEIFORM NUMBER ONE-N17
 @glyf 1(N17)~1 󰃼 F00FC o0902961 ~01
 @end sign
@@ -14136,6 +14622,7 @@
 
 @sign 6(N21)
 @oid o0903004
+@upua U+F00E0
 @uname PROTO-CUNEIFORM NUMBER SIX-N21
 @glyf 6(N21)~1 󰃠 F00E0 o0903004 ~01
 @end sign
@@ -14156,6 +14643,7 @@
 
 @sign 1(N22~v)
 @oid o0903007
+@upua U+F00FD
 @uname PROTO-CUNEIFORM NUMBER ONE-N22-V
 @glyf 1(N22~v)~1 󰃽 F00FD o0903007 ~01
 @end sign
@@ -14176,30 +14664,35 @@
 
 @sign 1(N23)
 @oid o0903010
+@upua U+F00FE
 @uname PROTO-CUNEIFORM NUMBER ONE-N23
 @glyf 1(N23)~1 󰃾 F00FE o0903010 ~01
 @end sign
 
 @sign 2(N23)
 @oid o0903011
+@upua U+F00FF
 @uname PROTO-CUNEIFORM NUMBER TWO-N23
 @glyf 2(N23)~1 󰃿 F00FF o0903011 ~01
 @end sign
 
 @sign 3(N23)
 @oid o0903012
+@upua U+F0100
 @uname PROTO-CUNEIFORM NUMBER THREE-N23
 @glyf 3(N23)~1 󰄀 F0100 o0903012 ~01
 @end sign
 
 @sign 5(N23)
 @oid o0903013
+@upua U+F0101
 @uname PROTO-CUNEIFORM NUMBER FIVE-N23
 @glyf 5(N23)~1 󰄁 F0101 o0903013 ~01
 @end sign
 
 @sign 7(N23)
 @oid o0903014
+@upua U+F0102
 @uname PROTO-CUNEIFORM NUMBER SEVEN-N23
 @glyf 7(N23)~1 󰄂 F0102 o0903014 ~01
 @end sign
@@ -14215,24 +14708,28 @@
 
 @sign 2(N24)
 @oid o0903019
+@upua U+F0103
 @uname PROTO-CUNEIFORM NUMBER TWO-N24
 @glyf 2(N24)~1 󰄃 F0103 o0903019 ~01
 @end sign
 
 @sign 4(N24)
 @oid o0903020
+@upua U+F0104
 @uname PROTO-CUNEIFORM NUMBER FOUR-N24
 @glyf 4(N24)~1 󰄄 F0104 o0903020 ~01
 @end sign
 
 @sign 6(N24)
 @oid o0903021
+@upua U+F0105
 @uname PROTO-CUNEIFORM NUMBER SIX-N24
 @glyf 6(N24)~1 󰄅 F0105 o0903021 ~01
 @end sign
 
 @sign 1(N24@f)
 @oid o0903015
+@upua U+F0106
 @uname PROTO-CUNEIFORM NUMBER ONE-N24 FLAT
 @glyf 1(N24@f)~1 󰄆 F0106 o0903015 ~01
 @end sign
@@ -14314,6 +14811,7 @@
 @sign 2(N29A)
 @aka 2(N29~a)
 @oid o0903037
+@upua U+F0107
 @uname PROTO-CUNEIFORM NUMBER TWO-N29A
 @glyf 2(N29A)~1 󰄇 F0107 o0903037 ~01
 @end sign
@@ -14329,6 +14827,7 @@
 @sign 2(N29AB)
 @aka 2(N29A~b)
 @oid o0903043
+@upua U+F010A
 @uname PROTO-CUNEIFORM NUMBER TWO-N29AB
 @glyf 2(N29AB)~1 󰄊 F010A o0903043 ~01
 @end sign
@@ -14351,6 +14850,7 @@
 @sign 2(N29B)
 @aka 2(N29~b)
 @oid o0903038
+@upua U+F0108
 @uname PROTO-CUNEIFORM NUMBER TWO-N29B
 @glyf 2(N29B)~1 󰄈 F0108 o0903038 ~01
 @end sign
@@ -14358,6 +14858,7 @@
 @sign 1(N29C)
 @aka 1(N29~c)
 @oid o0903035
+@upua U+F0109
 @uname PROTO-CUNEIFORM NUMBER ONE-N29C
 @glyf 1(N29C)~1 󰄉 F0109 o0903035 ~01
 @end sign
@@ -14382,6 +14883,7 @@
 @sign 1(N30B)
 @aka 1(N30~b)
 @oid o0903047
+@upua U+F010B
 @uname PROTO-CUNEIFORM NUMBER ONE-N30B
 @glyf 1(N30B)~1 󰄋 F010B o0903047 ~01
 @end sign
@@ -14396,12 +14898,14 @@
 @sign 1(N30CA)
 @aka 1(N30C~a)
 @oid o0903562
+@upua U+F2983
 @uname PROTO-CUNEIFORM NUMBER ONE-N30C-A
 @glyf 1(N30CA)~1 󲦃 F2983 o0903562 ~01
 @end sign
 
 @sign 1(N30CB)
 @oid o0903054
+@upua U+F010C
 @uname PROTO-CUNEIFORM NUMBER ONE-N30CB
 @glyf 1(N30CB)~1 󰄌 F010C o0903054 ~01
 @end sign
@@ -14458,6 +14962,7 @@
 
 @sign |1(N34)×1(N58)|
 @oid o0903060
+@upua U+F012D
 @uname PROTO-CUNEIFORM SIGN ONE-N34 TIMES ONE-N58
 @glyf |1(N34)×1(N58)|~1 󰄭 F012D o0903060 ~01
 @end sign
@@ -14903,18 +15408,21 @@
 
 @sign 1(N43)
 @oid o0903131
+@upua U+F010D
 @uname PROTO-CUNEIFORM NUMBER ONE-N43
 @glyf 1(N43)~1 󰄍 F010D o0903131 ~01
 @end sign
 
 @sign 4(N43)
 @oid o0903132
+@upua U+F010E
 @uname PROTO-CUNEIFORM NUMBER FOUR-N43
 @glyf 4(N43)~1 󰄎 F010E o0903132 ~01
 @end sign
 
 @sign 1(N44)
 @oid o0903133
+@upua U+F00E1
 @uname PROTO-CUNEIFORM NUMBER ONE-N44
 @glyf 1(N44)~1 󰃡 F00E1 o0903133 ~01
 @end sign
@@ -15003,42 +15511,49 @@
 
 @sign 3(N45@f)
 @oid o0903146
+@upua U+F00E2
 @uname PROTO-CUNEIFORM NUMBER THREE-N45 FLAT
 @glyf 3(N45@f)~1 󰃢 F00E2 o0903146 ~01
 @end sign
 
 @sign 4(N45@f)
 @oid o0903147
+@upua U+F00E3
 @uname PROTO-CUNEIFORM NUMBER FOUR-N45 FLAT
 @glyf 4(N45@f)~1 󰃣 F00E3 o0903147 ~01
 @end sign
 
 @sign 5(N45@f)
 @oid o0903148
+@upua U+F00E4
 @uname PROTO-CUNEIFORM NUMBER FIVE-N45 FLAT
 @glyf 5(N45@f)~1 󰃤 F00E4 o0903148 ~01
 @end sign
 
 @sign 6(N45@f)
 @oid o0903149
+@upua U+F00E5
 @uname PROTO-CUNEIFORM NUMBER SIX-N45 FLAT
 @glyf 6(N45@f)~1 󰃥 F00E5 o0903149 ~01
 @end sign
 
 @sign 7(N45@f)
 @oid o0903150
+@upua U+F00E6
 @uname PROTO-CUNEIFORM NUMBER SEVEN-N45 FLAT
 @glyf 7(N45@f)~1 󰃦 F00E6 o0903150 ~01
 @end sign
 
 @sign 8(N45@f)
 @oid o0903151
+@upua U+F00E7
 @uname PROTO-CUNEIFORM NUMBER EIGHT-N45 FLAT
 @glyf 8(N45@f)~1 󰃧 F00E7 o0903151 ~01
 @end sign
 
 @sign 9(N45@f)
 @oid o0903152
+@upua U+F00E8
 @uname PROTO-CUNEIFORM NUMBER NINE-N45 FLAT
 @glyf 9(N45@f)~1 󰃨 F00E8 o0903152 ~01
 @end sign
@@ -15067,6 +15582,7 @@
 
 @sign 3(N46)
 @oid o0903155
+@upua U+F00E9
 @uname PROTO-CUNEIFORM NUMBER THREE-N46
 @glyf 3(N46)~1 󰃩 F00E9 o0903155 ~01
 @end sign
@@ -15102,6 +15618,7 @@
 
 @sign 3(N47)
 @oid o0903160
+@upua U+F00EA
 @uname PROTO-CUNEIFORM NUMBER THREE-N47
 @glyf 3(N47)~1 󰃪 F00EA o0903160 ~01
 @end sign
@@ -15146,18 +15663,21 @@
 
 @sign 6(N48)
 @oid o0903166
+@upua U+F00EB
 @uname PROTO-CUNEIFORM NUMBER SIX-N48
 @glyf 6(N48)~1 󰃫 F00EB o0903166 ~01
 @end sign
 
 @sign 7(N48)
 @oid o0903167
+@upua U+F00EC
 @uname PROTO-CUNEIFORM NUMBER SEVEN-N48
 @glyf 7(N48)~1 󰃬 F00EC o0903167 ~01
 @end sign
 
 @sign 1(N48@f)
 @oid o0903168
+@upua U+F010F
 @uname PROTO-CUNEIFORM NUMBER ONE-N48 FLAT
 @glyf 1(N48@f)~1 󰄏 F010F o0903168 ~01
 @end sign
@@ -15194,6 +15714,7 @@
 
 @sign 5(N49)
 @oid o0903173
+@upua U+F00ED
 @uname PROTO-CUNEIFORM NUMBER FIVE-N49
 @glyf 5(N49)~1 󰃭 F00ED o0903173 ~01
 @end sign
@@ -15439,6 +15960,7 @@
 
 @sign 3(N53)
 @oid o0903201
+@upua U+F00EE
 @uname PROTO-CUNEIFORM NUMBER THREE-N53
 @glyf 3(N53)~1 󰃮 F00EE o0903201 ~01
 @end sign
@@ -15482,6 +16004,7 @@
 
 @sign 1(N55)
 @oid o0903207
+@upua U+F00EF
 @uname PROTO-CUNEIFORM NUMBER ONE-N55
 @glyf 1(N55)~1 󰃯 F00EF o0903207 ~01
 @end sign
@@ -15518,6 +16041,7 @@
 
 @sign 2(N57)~v
 @oid o0903784
+@upua U+F21A8
 @uname PROTO-CUNEIFORM NUMBER TWO-N57-V
 @glyf 2(N57)~2 󲆨 F21A8 o0903784 ~02
 @end sign
@@ -15658,36 +16182,42 @@
 
 @sign 1(N59)
 @oid o0903295
+@upua U+F0124
 @uname PROTO-CUNEIFORM NUMBER ONE-N59
 @glyf 1(N59)~1 󰄤 F0124 o0903295 ~01
 @end sign
 
 @sign 2(N59)
 @oid o0903296
+@upua U+F0125
 @uname PROTO-CUNEIFORM NUMBER TWO-N59
 @glyf 2(N59)~1 󰄥 F0125 o0903296 ~01
 @end sign
 
 @sign 3(N59)
 @oid o0903297
+@upua U+F0126
 @uname PROTO-CUNEIFORM NUMBER THREE-N59
 @glyf 3(N59)~1 󰄦 F0126 o0903297 ~01
 @end sign
 
 @sign 4(N59)
 @oid o0903298
+@upua U+F0127
 @uname PROTO-CUNEIFORM NUMBER FOUR-N59
 @glyf 4(N59)~1 󰄧 F0127 o0903298 ~01
 @end sign
 
 @sign 6(N59)
 @oid o0903299
+@upua U+F0128
 @uname PROTO-CUNEIFORM NUMBER SIX-N59
 @glyf 6(N59)~1 󰄨 F0128 o0903299 ~01
 @end sign
 
 @sign 7(N59)
 @oid o0903300
+@upua U+F2982
 @uname PROTO-CUNEIFORM NUMBER SEVEN-N59
 @glyf 7(N59)~1 󲦂 F2982 o0903300 ~01
 @end sign
@@ -15701,18 +16231,21 @@
 
 @sign 3(N61)
 @oid o0903302
+@upua U+F0129
 @uname PROTO-CUNEIFORM NUMBER THREE-N61
 @glyf 3(N61)~1 󰄩 F0129 o0903302 ~01
 @end sign
 
 @sign 4(N62)
 @oid o0903303
+@upua U+F012A
 @uname PROTO-CUNEIFORM NUMBER FOUR-N62
 @glyf 4(N62)~1 󰄪 F012A o0903303 ~01
 @end sign
 
 @sign 1(N63)
 @oid o0903304
+@upua U+F012B
 @uname PROTO-CUNEIFORM NUMBER ONE-N63
 @glyf 1(N63)~1 󰄫 F012B o0903304 ~01
 @end sign
