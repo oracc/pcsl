@@ -26,7 +26,13 @@
       <struct:page file="pc25/font.xml" id="pc25font" type="page"/>
     </struct:page>
     <struct:page file="repc/repc.xml" id="repc" type="page">
-      <struct:page file="repc/cpage1.xml" id="cchart1" type="page"/>
+      <struct:page file="repc/cpage1.xml" id="cchart1" hide-menu-link="no" type="page"/>
+      <struct:page file="repc/cpage2.xml" id="cchart2" hide-menu-link="no" type="page"/>
+      <struct:page file="repc/cpage3.xml" id="cchart3" hide-menu-link="no" type="page"/>
+      <struct:page file="repc/cpage4.xml" id="cchart4" hide-menu-link="no" type="page"/>
+      <struct:page file="repc/cpage5.xml" id="cchart5" hide-menu-link="no" type="page"/>
+      <struct:page file="repc/cpage6.xml" id="cchart6" hide-menu-link="no" type="page"/>
+      <struct:page file="repc/cpage7.xml" id="cchart7" hide-menu-link="no" type="page"/>
     </struct:page>
   </struct:page>
     

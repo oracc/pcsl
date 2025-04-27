@@ -96,3 +96,17 @@ td.lrow { padding-left: 5px; text-align: left; vertical-align: top; }
 
 .sl-cc-c { display: inline-block; }
 .sl-cc-u { display: inline-block; font-size: 70%; }
+
+.twocol { column-count: 2; }
+
+.codechart { text-align: center;
+	     vertical-align: middle;
+	   }
+
+.cc-chr { font-size: 150%; }
+.cc-uni { font-size: 70%; }
+
+.codechart-list { }
+.ccl-hex { font-size: 90%; }
+.ccl-chr { font-size: 120%; }
+.ccl-uni { font-size: 80%; }

@@ -25,12 +25,16 @@ my $ito = hex($to);
 warn "$0: making chart from $from .. $to = $ifrom .. $ito\n";
 
 my $p = 1;
-print STDERR "$from\t$ifrom\tPAGE $p\n";
+my $eop = eop($ifrom);
+printf STDERR "%X .. %X\t$ifrom\tPAGE $p\n", $ifrom, $eop;
+chartframe($p, $ifrom, $eop);
 chartpage($p, $ifrom, $ito);
 for (my $i = $ifrom; $i <= $ito; ++$i) {
     if ($i % 256 == 0) {
 	++$p;
-	printf STDERR "%X\t$i\tPAGE $p\n", $i;	
+	$eop = eop($i);
+	printf STDERR "%X .. %X\t$i\tPAGE $p\n", $i, $eop;
+	chartframe($p, $i, $eop);
 	chartpage($p, $i, $ito);
     }
 }
@@ -41,13 +45,40 @@ chartlist();
 
 ################################################################################
 
+sub chartframe {
+    my ($p,$f,$t) = @_;
+    my $xf = sprintf("%X",$f);
+    my $xt = sprintf("%X",$t);
+    open(F,">x/cpage$p.xml") || die;
+    print F <<EOF;
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Code Chart $p</esp:name>
+  <esp:title>Code Chart $p: $xf - $xt</esp:title>
+  <html>
+    <head/>
+    <body>
+
+      <xi:include xml:base="." href="../w/cpage$p.html"/>
+      
+    </body>
+  </html>
+</esp:page>
+
+EOF
+    close(F);
+}
+
 sub chartlist {
     my @c = `cat repc.tsv`; chomp @c;
     open(L,'>w/chartlist.html') || die; select L;
     print '<table class="codechart-list">';
     foreach (@c) {
 	my($o,$h,$c,$n,$u) = split(/\t/,$_);
-	print "<tr><td class=\"ccl-hex\">$h</td><td class=\"ccl-chr\">$c</td><td class=\"ccl-chr\">$u</td></tr>";
+	print "<tr><td class=\"ccl-hex\">$h</td><td class=\"ccl-chr\">$c</td><td class=\"ccl-uni\">$u</td></tr>";
     }
     print '</table>';
     close(L);
@@ -76,8 +107,10 @@ sub chartpage {
 	print "$hex[$j]";
 	foreach my $k ($k1..15) {
 	    my $c = $pi + ($k * 16);
-	    printf X "<td><div class=\"vbox\"><span class=\"cc-chr\">%s</span><span class=\"cc-uni\">%X</span></div></td>",
-		chr($c), $c;
+	    print X "<td><div class=\"vbox\">";
+	    printf X "<div><span class=\"cc-chr\">%s</span></div>", chr($c);
+	    printf X "<div><span class=\"cc-uni\">%X</span></div>", $c;
+	    print X "</div></td>";
 	    printf "\t%s=%X" , chr($c), $c;
 	    ++$i;
 	    last if $i > $ito;
@@ -90,4 +123,18 @@ sub chartpage {
     print X '</table>';
     close(X);
     close(P);
+}
+
+sub eop {
+    my $i = shift;
+    if ($i == $ifrom) {
+	return 0x126FF;
+    } else {
+	my $n = $i+255;
+	if ($n < $ito) {
+	    return $n;
+	} else {
+	    return $ito;
+	}
+    }
 }

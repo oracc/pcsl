@@ -14,19 +14,20 @@
       <p>The code charts are provided in separate HTML pages:</p>
 
       <ul>
-	<li><esp:link url="/pcsl/repc/cpage1.html">12690-xx</esp:link></li>
-	<li><esp:link url="/pcsl/repc/cpage2.html">12690-xx</esp:link></li>
-	<li><esp:link url="/pcsl/repc/cpage3.html">12690-xx</esp:link></li>
-	<li><esp:link url="/pcsl/repc/cpage4.html">12690-xx</esp:link></li>
-	<li><esp:link url="/pcsl/repc/cpage5.html">12690-xx</esp:link></li>
-	<li><esp:link url="/pcsl/repc/cpage6.html">12690-xx</esp:link></li>
-	<li><esp:link url="/pcsl/repc/cpage7.html">12690-xx</esp:link></li>
+	<li><esp:link page="cchart1">12690-126FF</esp:link></li>
+	<li><esp:link page="cchart2">12700-127FF</esp:link></li>
+	<li><esp:link page="cchart3">12800-128FF</esp:link></li>
+	<li><esp:link page="cchart4">12900-129FF</esp:link></li>
+	<li><esp:link page="cchart5">12A00-12AFF</esp:link></li>
+	<li><esp:link page="cchart6">12B00-12BFF</esp:link></li>
+	<li><esp:link page="cchart7">12C00-12CFF</esp:link></li>
       </ul>
       
       <h2>Repertoire List</h2>
 
-      <xi:include xml:base="." href="../w/chartlist.html"/>
-      
+      <div class="twocol">
+	<xi:include xml:base="." href="../w/chartlist.html"/>
+      </div>
     </body>
   </html>
 </esp:page>
