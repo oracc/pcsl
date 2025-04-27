@@ -25,6 +25,9 @@
       <struct:page file="pc25/approaches.xml" id="pc25approaches" type="page"/>
       <struct:page file="pc25/font.xml" id="pc25font" type="page"/>
     </struct:page>
+    <struct:page file="repc/repc.xml" id="repc" type="page">
+      <struct:page file="repc/cpage1.xml" id="cchart1" type="page"/>
+    </struct:page>
   </struct:page>
     
 </struct:page>

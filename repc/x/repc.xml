@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Repertoire</esp:name>
+  <esp:title>Repertoire for Encoding Proto-Cuneiform</esp:title>
+  <html>
+    <head/>
+    <body>
+
+      <h2>Code Charts</h2>
+
+      <p>The code charts are provided in separate HTML pages:</p>
+
+      <ul>
+	<li><esp:link url="/pcsl/repc/cpage1.html">12690-xx</esp:link></li>
+	<li><esp:link url="/pcsl/repc/cpage2.html">12690-xx</esp:link></li>
+	<li><esp:link url="/pcsl/repc/cpage3.html">12690-xx</esp:link></li>
+	<li><esp:link url="/pcsl/repc/cpage4.html">12690-xx</esp:link></li>
+	<li><esp:link url="/pcsl/repc/cpage5.html">12690-xx</esp:link></li>
+	<li><esp:link url="/pcsl/repc/cpage6.html">12690-xx</esp:link></li>
+	<li><esp:link url="/pcsl/repc/cpage7.html">12690-xx</esp:link></li>
+      </ul>
+      
+      <h2>Repertoire List</h2>
+
+      <xi:include xml:base="." href="../w/chartlist.html"/>
+      
+    </body>
+  </html>
+</esp:page>

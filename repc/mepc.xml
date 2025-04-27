@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Materials</esp:name>
+  <esp:title>Materials for Encoding Proto-Cuneiform</esp:title>
+  <html>
+    <head/>
+    <body>
+
+      <p>Like PCSL's resources for encoding Proto-Cuneiform, MEPC is divided into three parts:</p>
+
+      <dl>
+	<dt>Corpus</dt>
+	<dd>An overview of the PC text corpus and how its subset used for PC25.</dd>
+	<dt>Graphemes</dt>
+	<dd>Data on the distribution of graphemes in the corpus and subcorpora.</dd>
+	<dt>Sign Lists</dt>
+	<dd>Top-level sign lists for PCSL and PC25 derived from a
+	combination of the text corpus and extant sign lists.</dd>
+      </dl>
+      
+    </body>
+  </html>
+</esp:page>
