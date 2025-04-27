@@ -303,7 +303,9 @@ sub load_seq {
 }
 
 sub load_unames {
-    my @un = `cut -f3 00etc/pcsl-final.tsv | gdlx -p pcsl -U`; chomp @un;
+    my @un = `cut -f3 00etc/pcsl-final.tsv | gdlx -p pcsl -U`;
+    open(U,'>00etc/unames.tsv'); print U @un; close(U);
+    chomp @un;
     foreach (@un) {
 	my($n,$un) = split(/\t/,$_);
 	$unames{$n} = $un;
