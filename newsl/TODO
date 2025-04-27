@@ -169,3 +169,25 @@ PC24 has liga disamb F5001 .. F5020 corresponding to ~1 .. ~20
 
 in mepc/w update the head u and p generation as I revise corpus doco
 
+===
+
+Characters with dotty blobs that should be solid:
+
+@dotty	12694 1269F 126C2 126D0 12793 12794 127AC 127C7 127D7 127D8 12804 12847 12849 1284A 128CA 128D4 128D5
+@dotty	12907 1291E 1291F 12920 12957 12971 1297A 1297C 1297D 1297E 1298E 129E1 12A0B 12A78 12B32 12B43 12B56
+@dotty 	12B57 12B58 12B62
+
+@blobby	12A84 12A85 12A86 12AB7
+
+@broken	1275B 12802
+
+@belong	12786 128A3 128E2 12922 12923 12924 12BF2 12C00
+
+Mention diacritic-like characters != clusters
+
+NINDA×GUDU₄ group?
+
+SILA₃×X characters--treat as opaque clusters?
+
+Add missing N58?
+
