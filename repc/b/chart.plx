@@ -16,6 +16,12 @@ my @hex = qw/0 1 2 3 4 5 6 7 8 9 A B C D E F/;
 my @hex1 = qw/9 A B C D E F/;
 my @hexl = qw/0/;
 
+my %uname = (); my @u = `cut -f2,5 repc.tsv`; chomp @u;
+foreach (@u) {
+    my($h,$u) = split(/\t/,$_);
+    $uname{$h} = $u;
+}
+
 my $from = `head -1 repc.tsv | cut -f2`; chomp $from;
 my $to = `tail -1 repc.tsv | cut -f2`; chomp $to;
 
@@ -91,7 +97,7 @@ sub chartpage {
     open(P,">t/cpage$p.tsv") || die; select P;
     open(X,">w/cpage$p.html") || die;
     print X '<table xmlns="http://www.w3.org/1999/xhtml" class="codechart">';
-    print X '<thead><td/>';
+    print X '<thead><th/>';
     my @xhex = ($p == 1 ? @hex1 : ($p == 7 ? @hexl : @hex));
     foreach my $h4 (@xhex) {
 	print "\t$h3$h4";
@@ -107,9 +113,10 @@ sub chartpage {
 	print "$hex[$j]";
 	foreach my $k ($k1..15) {
 	    my $c = $pi + ($k * 16);
+	    my $h = sprintf("%X",$c);
 	    print X "<td><div class=\"vbox\">";
-	    printf X "<div><span class=\"cc-chr\">%s</span></div>", chr($c);
-	    printf X "<div><span class=\"cc-uni\">%X</span></div>", $c;
+	    printf X "<div><span class=\"cc-chr\" title=\"$uname{$h}\">%s</span></div>", chr($c);
+	    print X "<div><span class=\"cc-uni\">$h</span></div>";
 	    print X "</div></td>";
 	    printf "\t%s=%X" , chr($c), $c;
 	    ++$i;

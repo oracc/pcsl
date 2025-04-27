@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Code Chart 4</esp:name>
+  <esp:title>Code Chart 4: 12900 - 129FF</esp:title>
+  <html>
+    <head/>
+    <body>
+
+      <xi:include xml:base="." href="../w/cpage4.html"/>
+      
+    </body>
+  </html>
+</esp:page>
+

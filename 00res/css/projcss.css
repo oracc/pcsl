@@ -1,6 +1,11 @@
 @import url(/css/fonts.css);
 @import url(/pcsl/css/borders.css);
 
+@font-face {
+   font-family: 'Oracc PC25';
+   src: url('/fonts/PC25.ttf');
+}
+
 h1 { font-size: 120%; font-weight: bold; }
 h2 { font-size: 110%; font-weight: bold; }
 
@@ -99,14 +104,75 @@ td.lrow { padding-left: 5px; text-align: left; vertical-align: top; }
 
 .twocol { column-count: 2; }
 
-.codechart { text-align: center;
-	     vertical-align: middle;
-	   }
-
-.cc-chr { font-size: 150%; }
+.cc-chr { font-family: "Oracc PC25"; font-feature-settings: "ss20"; font-size: 200%; }
 .cc-uni { font-size: 70%; }
 
-.codechart-list { }
+table.codechart-list {
+    vertical-align: top;
+}
 .ccl-hex { font-size: 90%; }
-.ccl-chr { font-size: 120%; }
+.ccl-chr { font-family: "Oracc PC25"; font-size: 120%; }
 .ccl-uni { font-size: 80%; }
+
+table.codechart {
+    border-collapse: separate;
+    border-spacing: 0;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    table-layout: fixed;
+}
+
+table.codechart tbody { }
+
+table.codechart th {
+        padding: 0.2em;
+}
+
+table.codechart td {
+        border-bottom: 1px #c0c0c0 solid;
+        border-right: 1px #c0c0c0 solid;
+        padding: 0px;
+	width: 3em;
+}
+
+table.codechart thead th:first-child {
+    border-bottom: none;
+}
+
+table.codechart thead th {
+			border-bottom: 2px black solid;
+			text-align: center;
+			font-size: 90%;
+			width: 2.5em;
+		      }
+
+table.codechart th:first-child {
+    border-right: 2px black solid;
+}
+
+table.codechart td:first-child {
+    border-left: 1px #c0c0c0 solid;
+}
+
+table.codechart th[rowspan],
+table.codechart tbody tr:last-child th,
+table.codechart tbody tr:last-child td:first-child {
+    border-bottom: none;
+}
+
+table.codechart tbody tr:last-child td {
+    border-bottom: 2px black solid;
+}
+
+table.codechart th {
+    text-align: left;
+    font-weight: normal;
+}
+
+table.codechart tr th {
+    font-size: 90%;
+}
+
+table.codechart div:has(>span.cc-chr) { line-height: 3em; height: 3em; vertical-align: middle; }
+table.codechart div:has(>span.cc-uni) { line-height: 1em; }
