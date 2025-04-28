@@ -32,40 +32,46 @@
 \def\ofs#1#2#3{}
 \let\ofspc\pcxxv
 
-\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 12pt
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 14pt
 \font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
+\font\helv=Arial at 9pt
+\font\helvx="Arial Narrow" at 6pt
 
 \def\ccchr{\pcssxx}
-\def\ccuni{\mono}
+\def\ccuni{\helvx}
 
-\newdimen\ccwd \ccwd=.3in\relax
-\newdimen\ccht \ccht=.5in\relax
-\newdimen\cccwd \cccwd=.3in\relax
-\newdimen\cccht \cccht=.4in\relax
+\newdimen\ccwd \ccwd=.375in\relax
+\newdimen\ccht \ccht=.52in\relax
+\newdimen\cccwd \cccwd=\ccwd\relax
+\newdimen\cccht \cccht=.39in\relax
 
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}}
 
-\definecolor{ntgrey}{gray}{0.9}
-\definecolor{sqblue}{rgb}{.9,.98,.99}
-\definecolor{sqgreen}{rgb}{.88,.99,.87}
-\definecolor{sqpink}{rgb}{1,.92,.92}
-\definecolor{sqyellow}{rgb}{1,1,.9}
+%\definecolor{ntgrey}{gray}{0.9}
+%\definecolor{sqblue}{rgb}{.9,.98,.99}
+%\definecolor{sqgreen}{rgb}{.88,.99,.87}
+%\definecolor{sqpink}{rgb}{1,.92,.92}
+%\definecolor{sqyellow}{rgb}{1,1,.9}
 
-\def\not{\colorbox{ntgrey}}
-\def\sqchr{\colorbox{sqyellow}}
-\def\sqinv{\colorbox{sqblue}}
-\def\sqopq{\colorbox{sqpink}}
-\def\sqseq{\colorbox{sqgreen}}
+\def\not{\relax}%\colorbox{ntgrey}}
+\def\sqchr{\relax}%\colorbox{sqyellow}}
+\def\sqinv{\relax}%\colorbox{sqblue}}
+\def\sqopq{\relax}%\colorbox{sqpink}}
+\def\sqseq{\relax}%\colorbox{sqgreen}}
 
-\def\ucode#1{\eight\rm}
+\def\ucode#1{\Sans\eight\rm}
 
 \def\tablerule{\noalign{\hrule}}
 
+\def\cctnum#1{\vbox to1.5em{\hbox to\ccwd{\hfil\helv#1\hfil}\vfil}}
+\def\cclnum#1{\llap{\vbox to\ccht{\vfil\hbox{\helv#1\kern5pt}\vfil}}}
+
 \let\trhook\relax
 \def\tvrule{\vrule}
+\def\tvrulex{\vrule width1pt\relax}
 
-\def\codechart{\def\thead{\eight\rm}%
-  \def\trhook{\message{trhook}\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
+\def\codechart{\def\thead{\Sans\nine\rm}%
+%  \def\trhook{\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
 }
 
 \endinput
