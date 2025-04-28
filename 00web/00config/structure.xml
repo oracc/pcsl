@@ -5,35 +5,31 @@
         file="home.xml" id="home" accesskey="1" type="page">
 
   <struct:page file="pcsl/index.xml" id="pcsl" type="page"/>
-  <struct:page file="encoding.xml" id="encoding" type="page">
+  <struct:page file="pc25/pc25.xml" id="encoding" type="page">
     <struct:page file="mepc/mepc.xml" id="mepc" type="page">
-      <struct:page file="mepc/corpus.xml" id="mepccorpus" type="page"/>
-      <struct:page file="mepc/graphemes.xml" id="mepcgraphemes" type="page"/>
-      <struct:page file="mepc/signlists.xml" id="mepcsignlists" type="page">
+      <struct:page file="mepc/corpus.xml" id="mepctexts" type="page"/>
+      <struct:page file="mepc/graphemes.xml" id="mepcsigns" type="page"/>
+      <struct:page file="mepc/signlists.xml" id="mepclists" type="page">
 	<struct:page file="mepc/sl-overview.xml" id="mepcsloverview" type="page"/>
       </struct:page>
       <struct:page file="mepc/glyfdb.xml" id="mepcglyfdb" type="page"/>
       <struct:page file="mepc/sequencedb.xml" id="mepcsequencedb" type="page"/>
     </struct:page>
     <struct:page file="pepc/principles.xml" id="pepc" type="page"/>
-    <struct:page file="pc25/pc25.xml" id="pc25" type="page">
-      <struct:page file="pc25/introduction.xml" id="pc25intro" type="page"/>
-      <struct:page file="pc25/repertoire.xml" id="pc25repertoire" type="page">
-	<struct:page file="pc25/seqexc.xml" id="pc25seqexc" type="page"/>
-	<struct:page file="pc25/numbers.xml" id="pc25numbers" type="page"/>
-      </struct:page>
-      <struct:page file="pc25/approaches.xml" id="pc25approaches" type="page"/>
-      <struct:page file="pc25/font.xml" id="pc25font" type="page"/>
-    </struct:page>
     <struct:page file="repc/repc.xml" id="repc" type="page">
-      <struct:page file="repc/cpage1.xml" id="cchart1" hide-menu-link="no" type="page"/>
-      <struct:page file="repc/cpage2.xml" id="cchart2" hide-menu-link="no" type="page"/>
-      <struct:page file="repc/cpage3.xml" id="cchart3" hide-menu-link="no" type="page"/>
-      <struct:page file="repc/cpage4.xml" id="cchart4" hide-menu-link="no" type="page"/>
-      <struct:page file="repc/cpage5.xml" id="cchart5" hide-menu-link="no" type="page"/>
-      <struct:page file="repc/cpage6.xml" id="cchart6" hide-menu-link="no" type="page"/>
-      <struct:page file="repc/cpage7.xml" id="cchart7" hide-menu-link="no" type="page"/>
+      <struct:page file="pc25/seqexc.xml" id="pc25seqexc" hide-menu-link="yes" type="page"/>
+      <struct:page file="pc25/numbers.xml" id="pc25numbers" hide-menu-link="yes" type="page"/>
+      <struct:page file="repc/chartlist.xml" id="chartlist" hide-menu-link="no" type="page">
+	<struct:page file="repc/cpage1.xml" id="cchart1" hide-menu-link="no" type="page"/>
+	<struct:page file="repc/cpage2.xml" id="cchart2" hide-menu-link="no" type="page"/>
+	<struct:page file="repc/cpage3.xml" id="cchart3" hide-menu-link="no" type="page"/>
+	<struct:page file="repc/cpage4.xml" id="cchart4" hide-menu-link="no" type="page"/>
+	<struct:page file="repc/cpage5.xml" id="cchart5" hide-menu-link="no" type="page"/>
+	<struct:page file="repc/cpage6.xml" id="cchart6" hide-menu-link="no" type="page"/>
+	<struct:page file="repc/cpage7.xml" id="cchart7" hide-menu-link="no" type="page"/>
+      </struct:page>
     </struct:page>
   </struct:page>
-    
+  <struct:page file="approaches.xml" id="pc25approaches" type="page"/>
+  <struct:page file="font.xml" id="pc25font" type="page"/>
 </struct:page>

@@ -54,7 +54,7 @@ chartlist();
 sub chartframe {
     my ($p,$f,$t) = @_;
     my $xf = sprintf("%X",$f);
-    my $xt = sprintf("%X",$t);
+    my $xt = sprintf("%X",($t > $ito ? $ito : $t));
     open(F,">x/cpage$p.xml") || die;
     print F <<EOF;
 <?xml version="1.0" encoding="UTF-8"?>

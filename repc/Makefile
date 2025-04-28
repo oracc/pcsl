@@ -11,7 +11,9 @@ repc.tsv: ../mepc/lists/00etc/unames.tsv ../mepc/lists/00etc/pc25-final.tsv b/ch
 	xl x/cpage5.xml >../00web/repc/cpage5.xml
 	xl x/cpage6.xml >../00web/repc/cpage6.xml
 	xl x/cpage7.xml >../00web/repc/cpage7.xml
+	xl x/chartlist.xml >../00web/repc/chartlist.xml
 	cp w/cpage*.html ../00web/repc/
 	chmod -R o+r ../00web/repc
+
 clean:
 	rm -f repc.tsv w/*

@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Code Chart 6</esp:name>
+  <esp:title>Code Chart 6: 12B00 - 12BFF</esp:title>
+  <html>
+    <head/>
+    <body>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="codechart" xml:base=".">
+        <thead>
+          <th/>
+          <th>12B0</th>
+          <th>12B1</th>
+          <th>12B2</th>
+          <th>12B3</th>
+          <th>12B4</th>
+          <th>12B5</th>
+          <th>12B6</th>
+          <th>12B7</th>
+          <th>12B8</th>
+          <th>12B9</th>
+          <th>12BA</th>
+          <th>12BB</th>
+          <th>12BC</th>
+          <th>12BD</th>
+          <th>12BE</th>
+          <th>12BF</th>
+        </thead>
+        <tr>
+          <th>0</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZAR-B2">𒬀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B00</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU628~b">𒬐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B10</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU644~b">𒬠</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B20</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N58 TENU">𒬰</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B30</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU677~a">𒭀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B40</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU686~b">𒭐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B50</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU695">𒭠</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B60</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU711">𒭰</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B70</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU727">𒮀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B80</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES EN-A">𒮐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B90</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU751~b">𒮠</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU764">𒮰</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU784">𒯀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU806">𒯐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU854">𒯠</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER FIVE-N57">𒯰</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF0</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZAR-C">𒬁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B01</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU629">𒬑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B11</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU646">𒬡</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B21</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU662">𒬱</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B31</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU677~b">𒭁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B41</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU686~c">𒭑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B51</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU696">𒭡</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B61</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU711 TIMES HI GUNU-A">𒭱</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B71</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU728">𒮁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B81</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES EN-B">𒮑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B91</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU752">𒮡</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU765">𒮱</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU786">𒯁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU807">𒯑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU858">𒯡</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER SIX-N57">𒯱</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF1</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU620">𒬂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B02</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU630">𒬒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B12</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU647">𒬢</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B22</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU662 TIMES ONE-N14">𒬲</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B32</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU678">𒭂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B42</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU687">𒭒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B52</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU697~a">𒭢</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B62</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU713">𒭲</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B72</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU729">𒮂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B82</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES GAR">𒮒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B92</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU753">𒮢</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU766">𒮲</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU787">𒯂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU808">𒯒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU859">𒯢</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER SIX-N57-V">𒯲</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF2</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU621~a">𒬃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B03</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU631">𒬓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B13</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU648">𒬣</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B23</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU664">𒬳</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B33</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU679">𒭃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B43</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU688~a">𒭓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B53</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU697~b">𒭣</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B63</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU714">𒭳</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B73</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU730">𒮃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B83</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES NI-A GUNU">𒮓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B93</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU754">𒮣</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU767">𒮳</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU788">𒯃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU809">𒯓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZI-A">𒯣</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER SEVEN-N57">𒯳</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF3</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU621~b">𒬄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B04</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU632~a">𒬔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B14</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU649">𒬤</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B24</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU665">𒬴</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B34</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU680~a1">𒭄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B44</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU688~b">𒭔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B54</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU699~b">𒭤</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B64</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU714 TIMES HI GUNU-A">𒭴</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B74</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU732">𒮄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B84</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES NIMGIR">𒮔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B94</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU755~a">𒮤</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU772">𒮴</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU791">𒯄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU810">𒯔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZI-B">𒯤</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER EIGHT-N57">𒯴</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF4</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU621~c">𒬅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B05</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU632~b">𒬕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B15</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651">𒬥</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B25</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU666">𒬵</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B35</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU680~a2">𒭅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B45</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU689">𒭕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B55</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU700">𒭥</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B65</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU717">𒭵</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B75</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU734">𒮅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B85</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES SAL">𒮕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B95</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU755~b">𒮥</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU773~a">𒮵</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU792">𒯅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU811">𒯕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZI-D">𒯥</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER NINE-N57">𒯵</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF5</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU621~d">𒬆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B06</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU633~a">𒬖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B16</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651 TIMES AN">𒬦</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B26</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU667">𒬶</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B36</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU680~b">𒭆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B46</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU690">𒭖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B56</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU701">𒭦</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B66</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU718">𒭶</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B76</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU735~a">𒮆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B86</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES SU-A">𒮖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B96</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU756">𒮦</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU773~b">𒮶</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU795">𒯆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU812">𒯖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZUBI-A">𒯦</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER ONE-N57">𒯶</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF6</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU622">𒬇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B07</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU633~b">𒬗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B17</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651 TIMES EN-A">𒬧</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B27</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU668">𒬷</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B37</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU680~d">𒭇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B47</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU691">𒭗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B57</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU702">𒭧</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B67</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU719">𒭷</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B77</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU735~b">𒮇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B87</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES SHE-A">𒮗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B97</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU757">𒮧</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU774">𒮷</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU797">𒯇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU813">𒯗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER TWO-LAGAB-A">𒯧</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER ONE-N58">𒯷</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF7</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU623">𒬈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B08</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU635">𒬘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B18</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651 TIMES GAR">𒬨</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B28</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU669">𒬸</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B38</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU680~e">𒭈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B48</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU692">𒭘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B58</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU703">𒭨</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B68</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU720">𒭸</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B78</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU735~c">𒮈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B88</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES SHITA-A1">𒮘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B98</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU758">𒮨</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU775">𒮸</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU798">𒯈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU832">𒯘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER THREE-LAGAB-A">𒯨</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER TWO-N58">𒯸</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF8</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>9</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU624~a">𒬉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B09</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU636">𒬙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B19</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651 TIMES MA">𒬩</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B29</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU672">𒬹</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B39</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU681">𒭉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B49</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU693">𒭙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B59</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU705">𒭩</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B69</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU721">𒭹</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B79</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU736~a">𒮉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B89</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES U4">𒮙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B99</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU759">𒮩</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BA9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU776">𒮹</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BB9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU799">𒯉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BC9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU833">𒯙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BD9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER FOUR-LAGAB-A">𒯩</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BE9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER THREE-N58">𒯹</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BF9</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>A</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU624~b">𒬊</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B0A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU637">𒬚</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B1A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651 TIMES NUN-A">𒬪</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B2A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU675~a">𒬺</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B3A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU682">𒭊</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B4A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU693@t">𒭚</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B5A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU706">𒭪</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B6A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU722">𒭺</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B7A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU736~b">𒮊</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B8A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES UNUG-A">𒮚</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B9A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU759 TIMES KU6-A">𒮪</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BAA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU777">𒮺</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BBA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU800">𒯊</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BCA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU834">𒯚</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER FIVE-LAGAB-A">𒯪</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BEA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER FOUR-N58">𒯺</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BFA</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>B</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU625">𒬋</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B0B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU639">𒬛</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B1B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651 TIMES ZAR-C">𒬫</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B2B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU675~b">𒬻</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B3B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU683~a">𒭋</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B4B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU694~a">𒭛</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B5B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU707~a">𒭫</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B6B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU723">𒭻</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B7B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737">𒮋</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B8B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU749~a">𒮛</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B9B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU759 TIMES KU6-A JOINING KU6-A">𒮫</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BAB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU778">𒮻</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BBB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU801">𒯋</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BCB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU835">𒯛</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER SIX-LAGAB-A">𒯫</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BEB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER FIVE-N58">𒯻</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BFB</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>C</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU626~a">𒬌</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B0C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU641">𒬜</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B1C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU651@g">𒬬</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B2C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU675~c">𒬼</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B3C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU683~b">𒭌</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B4C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU694~b">𒭜</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B5C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU707~b">𒭬</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B6C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU725">𒭼</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B7C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES AB-A">𒮌</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B8C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU749~b">𒮜</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B9C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU762~a">𒮬</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BAC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU780">𒮼</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BBC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU802">𒯌</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BCC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU836">𒯜</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER ONE-N57">𒯬</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BEC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER EIGHT-N58">𒯼</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BFC</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>D</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU626~b">𒬍</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B0D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU642">𒬝</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B1D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU659">𒬭</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B2D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU675~d">𒬽</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B3D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU684">𒭍</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B4D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU694~c">𒭝</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B5D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU708">𒭭</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B6D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU726~a">𒭽</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B7D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES BU-A">𒮍</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B8D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU749~c">𒮝</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B9D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU762-A TIMES NIM-A">𒮭</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BAD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU781">𒮽</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BBD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU802~b">𒯍</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BCD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU847">𒯝</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER TWO-N57">𒯭</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BED</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER NINE-N58">𒯽</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BFD</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>E</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU626~c">𒬎</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B0E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU643">𒬞</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B1E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N1">𒬮</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B2E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU676~a">𒬾</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B3E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU685">𒭎</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B4E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU694~d">𒭞</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B5E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU709">𒭮</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B6E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU726~c">𒭾</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B7E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES BUR-A">𒮎</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B8E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU750">𒮞</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B9E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU762~b">𒮮</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BAE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU782">𒮾</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BBE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU803">𒯎</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BCE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU850">𒯞</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER THREE-N57">𒯮</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BEE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER ONE-N58">𒯾</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BFE</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>F</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU628~a">𒬏</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B0F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU644~a">𒬟</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B1F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N14">𒬯</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B2F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU676~b">𒬿</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B3F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU686~a">𒭏</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B4F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU694~d@t">𒭟</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B5F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU710">𒭯</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B6F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU726~d">𒭿</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B7F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU737 TIMES DI">𒮏</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B8F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU751~a">𒮟</span>
+              </div>
+              <div>
+                <span class="cc-uni">12B9F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU762-B TIMES AB-A">𒮯</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BAF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU783">𒮿</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BBF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU804">𒯏</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BCF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU851">𒯟</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER FOUR-N57">𒯯</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BEF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER ONE-N58">𒯿</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BFF</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </body>
+  </html>
+</esp:page>

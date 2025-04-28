@@ -5,13 +5,13 @@
   <html>
     <head/>
     <body>
-      <p>Like PCSL's resources for encoding Proto-Cuneiform, MEPC is divided into three parts:</p>
+      <p>MEPC is divided into three parts:</p>
       <dl>
-        <dt>Corpus</dt>
+        <dt><esp:link page="mepctexts">Texts</esp:link></dt>
         <dd>An overview of the PC text corpus and how its subset used for PC25.</dd>
-        <dt>Graphemes</dt>
+        <dt><esp:link page="mepcsigns">Signs</esp:link></dt>
         <dd>Data on the distribution of graphemes in the corpus and subcorpora.</dd>
-        <dt>Sign Lists</dt>
+        <dt><esp:link page="mepclists">Lists</esp:link></dt>
         <dd>Top-level sign lists for PCSL and PC25 derived from a
 	combination of the text corpus and extant sign lists.</dd>
       </dl>
