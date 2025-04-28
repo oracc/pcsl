@@ -97,13 +97,13 @@ sub chartpage {
     open(P,">t/cpage$p.tsv") || die; select P;
     open(X,">w/cpage$p.html") || die;
     print X '<table xmlns="http://www.w3.org/1999/xhtml" class="codechart">';
-    print X '<thead><th/>';
+    print X '<thead><tr><th/>';
     my @xhex = ($p == 1 ? @hex1 : ($p == 7 ? @hexl : @hex));
     foreach my $h4 (@xhex) {
 	print "\t$h3$h4";
 	print X "<th>$h3$h4</th>";
     }
-    print X '</thead>';
+    print X '</tr></thead>';
     print "\n";
     my $k1 = ($i == $ifrom ? 9 : 0);
     my $pi = ($i == $ifrom ? 0x12600 : $i);
