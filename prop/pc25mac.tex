@@ -32,6 +32,17 @@
 \def\ofs#1#2#3{}
 \let\ofspc\pcxxv
 
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 11pt
+\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
+
+\def\ccchr{\pcssxx}
+\def\ccuni{\mono}
+
+\newdimen\ccwd \ccwd=2em\relax
+\newdimen\ccht \ccht=3em\relax
+\newdimen\cccwd \cccwd=2em\relax
+\newdimen\cccht \cccht=2.5em\relax
+
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}}
 
 \definecolor{ntgrey}{gray}{0.9}
@@ -47,5 +58,14 @@
 \def\sqseq{\colorbox{sqgreen}}
 
 \def\ucode#1{\eight\rm}
+
+\def\tablerule{\noalign{\hrule}}
+
+\let\trhook\relax
+\def\tvrule{\vrule}
+
+\def\codechart{\def\thead{\eight\rm}%
+  \def\trhook{\message{trhook}\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
+}
 
 \endinput
