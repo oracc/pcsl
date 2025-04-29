@@ -82,9 +82,10 @@ sub chartlist {
     my @c = `cat repc.tsv`; chomp @c;
     open(L,'>w/chartlist.html') || die; select L;
     print '<table class="codechart-list">';
+    print '<thead><tr><th>Code</th><th>Char</th><th>Name</th></tr></thead>';
     foreach (@c) {
 	my($o,$h,$c,$n,$u) = split(/\t/,$_);
-	print "<tr><td class=\"ccl-hex\">$h</td><td class=\"ccl-chr\">$c</td><td class=\"ccl-uni\">$u</td></tr>";
+	print "<tbody><tr><td class=\"ccl-hex\">$h</td><td class=\"ccl-chr\">$c</td><td class=\"ccl-uni\">$u</td></tr></tbody>";
     }
     print '</table>';
     close(L);
