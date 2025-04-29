@@ -1,8 +1,16 @@
 mth=~/o2/msc/tex/h2t
 
-default: pc25.pdf
+default: ptab.pdf
+
+# pc25.pdf
 
 h2txsl=${mth}/html2tex.xsl 
+
+ptab.pdf: pcsl-tab.html Makefile pc25mac.tex
+	./ptab.sh $<
+
+# xtab100.xml
+# pcsl-tab.html
 
 pc25.pdf: pc25-pages.tex pc25.tex pc25mac.tex ${h2txsl}
 	oracctex pc25.tex

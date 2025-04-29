@@ -47,11 +47,8 @@
 \let\twocol\relax
 
 \let\glyf\relax
-
 \let\fhex\relax
-
 \let\dist\relax
-
 \let\rhex\relax
 
 \newdimen\ccwd \ccwd=.375in\relax
@@ -59,7 +56,9 @@
 \newdimen\cccwd \cccwd=\ccwd\relax
 \newdimen\cccht \cccht=.39in\relax
 
-\def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}}
+\def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
+
+\def\tbodybreak{\noalign{\allowbreak}}
 
 %\definecolor{ntgrey}{gray}{0.9}
 %\definecolor{sqblue}{rgb}{.9,.98,.99}
@@ -75,7 +74,7 @@
 
 \def\ucode#1{\Sans\eight\rm}
 
-\def\tablerule{\noalign{\hrule}}
+\def\tablerule{\noalign{\allowbreak\hrule}}
 
 \def\cctnum#1{\vbox to1.5em{\hbox to\ccwd{\hfil\helv#1\hfil}\vfil}}
 \def\cclnum#1{\llap{\vbox to\ccht{\vfil\hbox{\helv#1\kern5pt}\vfil}}}
@@ -87,5 +86,15 @@
 \def\codechart{\def\thead{\Sans\nine\rm}%
 %  \def\trhook{\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
 }
+
+%% defs for pcsl-tab.html
+\let\sl\relax
+\let\slc\relax
+\let\slcc\relax
+\let\cdligh\relax
+\let\diffc\relax
+\let\diffd\relax
+
+\def\includegraphics#1{\XeTeXpicfile #1 scaled 400 \relax}
 
 \endinput

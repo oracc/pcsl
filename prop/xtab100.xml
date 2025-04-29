@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PCSL</title>
+    <link media="screen,projection" href="/pcsl/css/projcss.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/js/p4.js"> </script>
+    <script type="text/javascript" src="/pcsl/js/pcsl.js"> </script>
+  </head>
+  <body>
+    <div class="preamble"/>
+    <table class="sltab borders">
+      <thead>
+        <tr>
+          <th class="lname">Entry</th>
+          <th class="names">Names</th>
+          <th class="glyph">PC-font</th>
+          <th class="image">CDLI-gh</th>
+          <th class="sl">ATU3</th>
+          <th class="sl">ATU5</th>
+          <th class="sl">MSVO1</th>
+          <th class="sl">MSVO4</th>
+          <th class="sl">CUSAS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class=" ">
+          <th class="lname">o0900000</th>
+          <td>
+            <a href="/pcsl/o0900000" target="_blank">
+              <div class="names vbox">
+                <div class="sname">A</div>
+                <div class="uname">o0900000</div>
+                <div class="stags">©</div>
+                <div class="rglyf">
+                  <span class="ofs-pc ofs-200">𒚐</span>
+                </div>
+                <div class="rhex">
+                  <span class="ucode">[12690]</span>
+                </div>
+                <div class="dist">577×: IV: 27p/20u; III: 27p/281u.</div>
+                <div class="notes">
+                  <p/>
+                </div>
+              </div>
+            </a>
+          </td>
+          <td class="chars">
+            <div class="chars vbox">
+              <div>
+                <span class="ofs-pc ofs-200">𒚐</span>
+              </div>
+              <div class="fhex">
+                <span class="ucode">[12690]</span>
+              </div>
+              <div>
+                <span class="ofs-pc ofs-200">󲀀</span>
+              </div>
+              <div class="fhex">
+                <span class="ucode">[F2000]</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <img class="lrow" src="/pcsl/easl/images/o0900000.png"/>
+          </td>
+          <td class="glyf">
+            <div class="vbox">
+              <div>
+                <span class="ofs-pc ofs-200">𒚐</span>
+              </div>
+              <div>
+                <span class="ucode">[12690]</span>
+              </div>
+            </div>
+          </td>
+          <td class="glyf">
+            <div class="vbox">
+              <div>
+                <span class="ofs-pc ofs-200">𒚐</span>
+              </div>
+              <div>
+                <span class="ucode">[12690]</span>
+              </div>
+            </div>
+          </td>
+          <td class="glyf">
+            <div class="vbox">
+              <div>
+                <span class="ofs-pc ofs-200">𒚐</span>
+              </div>
+              <div>
+                <span class="ucode">[12690]</span>
+              </div>
+            </div>
+          </td>
+          <td class="glyf">
+            <div class="vbox">
+              <div>
+                <span class="ofs-pc ofs-200">𒚐</span>
+              </div>
+              <div>
+                <span class="ucode">[12690]</span>
+              </div>
+            </div>
+          </td>
+          <td class="glyf"/>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr class=" ">
+          <th class="lname">o0900001</th>
+          <td>
+            <a href="/pcsl/o0900001" target="_blank">
+              <div class="names vbox">
+                <div class="sname">|A×AB₂|</div>
+                <div class="uname">o0900001</div>
+                <div class="dist">3×: III: 3u.</div>
+                <div class="notes">
+                  <p/>
+                </div>
+              </div>
+            </a>
+          </td>
+          <td class="chars">
+            <div class="chars vbox">
+              <div>
+                <span class="ofs-pc ofs-200">󲠀</span>
+              </div>
+              <div class="fhex">
+                <span class="ucode">[F2800]</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <img class="lrow" src="/pcsl/easl/images/o0900001.png"/>
+          </td>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+          <td/>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

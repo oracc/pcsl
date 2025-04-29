@@ -148,10 +148,12 @@ html: ${SLHTML} ${DVHTML} pc25no-html
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
 	00bin/final-html.sh $*
-	utr 00etc/pc25.map 00web
 	${sudo} mkdir -p ${PRJ}
-	${sudo} cp 00web/$*-tab.html ${PRJ}
+	${sudo} cp -v 00web/$*-tab.html ${PRJ}
 	${sudo} chmod -R +r ${PRJ}
+
+## Everyone should do their own mapping to ensure nothing in 00web gets double translated
+##utr 00etc/pc25.map 00web
 
 00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl
 	00bin/pc25no-html.sh $<

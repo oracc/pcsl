@@ -7,23 +7,25 @@
     <body>
       <table xmlns="http://www.w3.org/1999/xhtml" class="codechart" xml:base=".">
         <thead>
-          <th/>
-          <th>12A0</th>
-          <th>12A1</th>
-          <th>12A2</th>
-          <th>12A3</th>
-          <th>12A4</th>
-          <th>12A5</th>
-          <th>12A6</th>
-          <th>12A7</th>
-          <th>12A8</th>
-          <th>12A9</th>
-          <th>12AA</th>
-          <th>12AB</th>
-          <th>12AC</th>
-          <th>12AD</th>
-          <th>12AE</th>
-          <th>12AF</th>
+          <tr>
+            <th/>
+            <th>12A0</th>
+            <th>12A1</th>
+            <th>12A2</th>
+            <th>12A3</th>
+            <th>12A4</th>
+            <th>12A5</th>
+            <th>12A6</th>
+            <th>12A7</th>
+            <th>12A8</th>
+            <th>12A9</th>
+            <th>12AA</th>
+            <th>12AB</th>
+            <th>12AC</th>
+            <th>12AD</th>
+            <th>12AE</th>
+            <th>12AF</th>
+          </tr>
         </thead>
         <tr>
           <th>0</th>

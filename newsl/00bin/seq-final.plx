@@ -78,7 +78,7 @@ while (<S>) {
     my $xn = seq_name($s);
     my $sv = seq_view($s);
     my $sq = seq_liga($s);
-    my $lv = seq_liga_view($s);
+    my $lv = seq_liga_view($sq);
 
     if ($addglyf) {
 	my $axn = $xn;

@@ -7,14 +7,16 @@
     <body>
       <table xmlns="http://www.w3.org/1999/xhtml" class="codechart" xml:base=".">
         <thead>
-          <th/>
-          <th>1269</th>
-          <th>126A</th>
-          <th>126B</th>
-          <th>126C</th>
-          <th>126D</th>
-          <th>126E</th>
-          <th>126F</th>
+          <tr>
+            <th/>
+            <th>1269</th>
+            <th>126A</th>
+            <th>126B</th>
+            <th>126C</th>
+            <th>126D</th>
+            <th>126E</th>
+            <th>126F</th>
+          </tr>
         </thead>
         <tr>
           <th>0</th>

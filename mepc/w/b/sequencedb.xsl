@@ -28,7 +28,7 @@
 	  <div>
 	    <span class="ofs-pc ofs-150"><xsl:value-of select="h:td[2]"/></span>
 	  </div>
-	  <div>[<span class="ucode"><xsl:value-of select="h:td[3]"/></span>]</div>
+	  <div><span class="ucode">[<xsl:value-of select="h:td[3]"/>]</span></div>
 	</div>
       </td>
       <td class="sqdb-cun">

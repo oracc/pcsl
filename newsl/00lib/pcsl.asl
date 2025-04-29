@@ -17403,113 +17403,107 @@
 @list U+12BF1
 @uname PROTO-CUNEIFORM NUMBER SIX-N57
 @glyf 6(N57)~1 󰄕 12BF1 o0903268 ~01
-@end sign
-
-@sign 6(N57)~v
-@oid o0903269
-@list U+12BF2
-@uname PROTO-CUNEIFORM NUMBER SIX-N57-V
-@glyf 6(N57)~v~1 󰃙 12BF2 o0903269 ~01
+@glyf 6(N57)~v~1 󰃙 F2263 o0903269 ~01
 @end sign
 
 @sign 7(N57)
 @oid o0903273
-@list U+12BF3
+@list U+12BF2
 @uname PROTO-CUNEIFORM NUMBER SEVEN-N57
-@glyf 7(N57)~1 󰄖 12BF3 o0903273 ~01
+@glyf 7(N57)~1 󰄖 12BF2 o0903273 ~01
 @end sign
 
 @sign 8(N57)
 @oid o0903275
-@list U+12BF4
+@list U+12BF3
 @uname PROTO-CUNEIFORM NUMBER EIGHT-N57
-@glyf 8(N57)~1 󰄗 12BF4 o0903275 ~01
+@glyf 8(N57)~1 󰄗 12BF3 o0903275 ~01
 @end sign
 
 @sign 9(N57)
 @oid o0903278
-@list U+12BF5
+@list U+12BF4
 @uname PROTO-CUNEIFORM NUMBER NINE-N57
-@glyf 9(N57)~1 󰄘 12BF5 o0903278 ~01
+@glyf 9(N57)~1 󰄘 12BF4 o0903278 ~01
 @end sign
 
 @sign 10(N57)
 @oid o0903279
-@list U+12BF6
+@list U+12BF5
 @uname PROTO-CUNEIFORM NUMBER ONE-N57
-@glyf 10(N57)~1 󰄙 12BF6 o0903279 ~01
+@glyf 10(N57)~1 󰄙 12BF5 o0903279 ~01
 @end sign
 
 @sign 1(N58)
 @aka DIŠ
 @oid o0903280
-@list U+12BF7
+@list U+12BF6
 @list ZATU081
 @uname PROTO-CUNEIFORM NUMBER ONE-N58
-@glyf 1(N58)~1 󰄚 12BF7 o0903280 ~01
+@glyf 1(N58)~1 󰄚 12BF6 o0903280 ~01
 @end sign
 
 @sign 2(N58)
 @oid o0903284
-@list U+12BF8
+@list U+12BF7
 @uname PROTO-CUNEIFORM NUMBER TWO-N58
-@glyf 2(N58)~1 󰄛 12BF8 o0903284 ~01
+@glyf 2(N58)~1 󰄛 12BF7 o0903284 ~01
 @end sign
 
 @sign 3(N58)
 @oid o0903285
-@list U+12BF9
+@list U+12BF8
 @uname PROTO-CUNEIFORM NUMBER THREE-N58
-@glyf 3(N58)~1 󰄜 12BF9 o0903285 ~01
+@glyf 3(N58)~1 󰄜 12BF8 o0903285 ~01
 @end sign
 
 @sign 4(N58)
 @oid o0903288
-@list U+12BFA
+@list U+12BF9
 @uname PROTO-CUNEIFORM NUMBER FOUR-N58
-@glyf 4(N58)~1 󰄝 12BFA o0903288 ~01
+@glyf 4(N58)~1 󰄝 12BF9 o0903288 ~01
 @end sign
 
 @sign 5(N58)
 @oid o0903289
-@list U+12BFB
+@list U+12BFA
 @uname PROTO-CUNEIFORM NUMBER FIVE-N58
-@glyf 5(N58)~1 󰄞 12BFB o0903289 ~01
+@glyf 5(N58)~1 󰄞 12BFA o0903289 ~01
 @end sign
 
 @sign 8(N58)
 @oid o0903290
-@list U+12BFC
+@list U+12BFB
 @uname PROTO-CUNEIFORM NUMBER EIGHT-N58
-@glyf 8(N58)~1 󰄟 12BFC o0903290 ~01
+@glyf 8(N58)~1 󰄟 12BFB o0903290 ~01
 @end sign
 
 @sign 9(N58)
 @oid o0903291
-@list U+12BFD
+@list U+12BFC
 @uname PROTO-CUNEIFORM NUMBER NINE-N58
-@glyf 9(N58)~1 󰄠 12BFD o0903291 ~01
+@glyf 9(N58)~1 󰄠 12BFC o0903291 ~01
 @end sign
 
 @sign 10(N58)
 @oid o0903292
-@list U+12BFE
+@list U+12BFD
 @uname PROTO-CUNEIFORM NUMBER ONE-N58
-@glyf 10(N58)~1 󰄡 12BFE o0903292 ~01
+@glyf 10(N58)~1 󰄡 12BFD o0903292 ~01
 @end sign
 
 @sign 12(N58)
 @oid o0903293
-@list U+12BFF
+@list U+12BFE
 @uname PROTO-CUNEIFORM NUMBER ONE-N58
-@glyf 12(N58)~1 󰄢 12BFF o0903293 ~01
+@glyf 12(N58)~1 󰄢 12BFE o0903293 ~01
 @end sign
 
 @sign 1(N58@t)
 @oid o0903294
-@list U+12C00
+@list U+12BFF
 @uname PROTO-CUNEIFORM NUMBER ONE-N58 TENU
-@glyf 1(N58@t)~1 󰄣 12C00 o0903294 ~01
+@glyf 1(N58@t)~1 󰄣 12BFF o0903294 ~01
 @end sign
 
 @sign 1(N59)

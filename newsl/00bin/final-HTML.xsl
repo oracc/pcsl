@@ -118,7 +118,7 @@
 	  </xsl:if>
 	  <td>
 	    <a href="/pcsl/{../@oid}" target="_blank">
-	      <div class="names">
+	      <div class="names vbox">
 		<div class="sname"><xsl:value-of select="../@p"/></div>
 		<div class="uname"><xsl:value-of select="../@oid"/></div>
 		<xsl:if test="../@tags">
@@ -136,7 +136,7 @@
 	    </a>
 	  </td>
 	  <td class="chars">
-	    <div class="chars">
+	    <div class="chars vbox">
 	      <xsl:choose>
 		<xsl:when test="ff">
 		  <xsl:for-each select="ff">
@@ -194,9 +194,11 @@
 	    <xsl:choose>
 	      <xsl:when test="$SL='PCSL'">
 		<td>
-		  <xsl:if test="../@row">
-		    <img class="lrow" src="{../@row}"/>
-		  </xsl:if>
+		  <div class="cdligh vbox">
+		    <xsl:if test="../@row">
+		      <img class="lrow" src="{../@row}"/>
+		    </xsl:if>
+		  </div>
 		</td>
 	      </xsl:when>
 	      <xsl:otherwise>
@@ -249,7 +251,7 @@
   </xsl:template>
 
   <xsl:template mode="sl" match="cc">
-    <div>
+    <div class="sl-cc vbox">
       <xsl:for-each select="c">
 	<div class="sl-cc-c">
 	  <xsl:choose>
@@ -283,7 +285,7 @@
   </xsl:template>
   
   <xsl:template mode="sl" match="c">
-    <div>
+    <div class="sl-c vbox">
       <div>
 	<xsl:choose>
 	  <xsl:when test="not(contains(../../../@glyf,@c))">

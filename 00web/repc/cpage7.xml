@@ -7,8 +7,10 @@
     <body>
       <table xmlns="http://www.w3.org/1999/xhtml" class="codechart" xml:base=".">
         <thead>
-          <th/>
-          <th>12C0</th>
+          <tr>
+            <th/>
+            <th>12C0</th>
+          </tr>
         </thead>
         <tr>
           <th>0</th>

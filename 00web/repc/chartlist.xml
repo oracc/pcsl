@@ -27,7 +27,7 @@
           <esp:link page="cchart6">12B00-12BFF</esp:link>
         </li>
         <li>
-          <esp:link page="cchart7">12C00-12C00</esp:link>
+          <esp:link page="cchart7">12C00-12CFF</esp:link>
         </li>
       </ul>
       <esp:sh>Repertoire List</esp:sh>
