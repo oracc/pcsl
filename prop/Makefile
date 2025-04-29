@@ -6,7 +6,7 @@ default: ptab.pdf
 
 h2txsl=${mth}/html2tex.xsl 
 
-ptab.pdf: pcsl-tab.html Makefile pc25mac.tex
+ptab.pdf: pcsl-tab.html Makefile pc25mac.tex ${h2txsl}
 	./ptab.sh $<
 
 # xtab100.xml

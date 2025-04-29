@@ -33,8 +33,8 @@
 \def\ofs#1#2#3{}
 \let\ofspc\pcxxv
 
-\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 14pt
-\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 12pt
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
+\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 12pt
 %\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
 \font\helv=Arial at 9pt
 \font\helvy="Arial Narrow" at 8pt
@@ -51,11 +51,12 @@
         \vbox{\hsize3.2in\parindent0pt
               \hbox to 3.2in{%
               \hbox to .4in{\helvy#1\hfil}%
-              \hbox to .4in{\pcssxxx#2\hss}%
+%              \hbox to .4in{\pcssxxx#2\hss}%
+              \hbox to .4in{\redpc#2\hss}%
               \hbox to 2.4in{\hsize2.4in\vtop{\par\helvy\leavevmode\rightskip0pt plus1fil\relax#3\endgraf}}%
                             \hfil}}\vfil}
 \def\cclnum#1{{\helv#1}}
-\def\cclchr{\pcssxx}
+\def\cclchr{\redpc}%\pcssxx}
 \def\ccluni{\Sans\eight\rm}
 
 \let\twocol\relax
@@ -76,17 +77,35 @@
 
 \def\sltabrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}}
 
-%\definecolor{ntgrey}{gray}{0.9}
-%\definecolor{sqblue}{rgb}{.9,.98,.99}
-%\definecolor{sqgreen}{rgb}{.88,.99,.87}
-%\definecolor{sqpink}{rgb}{1,.92,.92}
-%\definecolor{sqyellow}{rgb}{1,1,.9}
+%\definecolor{ntgrey}{gray}{0.9}% E5E5E5
+%\definecolor{sqblue}{rgb}{.9,.98,.99}% E6FAFC
+%\definecolor{sqgreen}{rgb}{.88,.99,.87}% E0FCDE
+%\definecolor{sqpink}{rgb}{1,.92,.92}% FFEBEB
+%\definecolor{sqyellow}{rgb}{1,1,.9}% FFFFE6
 
-\def\not{\relax}%\colorbox{ntgrey}}
-\def\sqchr{\relax}%\colorbox{sqyellow}}
-\def\sqinv{\relax}%\colorbox{sqblue}}
-\def\sqopq{\relax}%\colorbox{sqpink}}
-\def\sqseq{\relax}%\colorbox{sqgreen}}
+\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at12pt
+\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at12pt
+\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at12pt
+\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFEBEB" at12pt
+\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at12pt
+
+\font\hveee="Helvetica:color=E5E5E5" at12pt
+\font\hveff="Helvetica:color=E6FAFC" at12pt
+\font\hvefd="Helvetica:color=E0FCDE" at12pt
+\font\hvfee="Helvetica:color=FFEBEB" at12pt
+\font\hvffe="Helvetica:color=FFFFE6" at12pt
+
+\def\not{\hveee}%\colorbox{ntgrey}}
+\def\sqchr{\hveff}%\colorbox{sqyellow}}
+\def\sqinv{\hvefd}%\colorbox{sqblue}}
+\def\sqopq{\hvfee}%\colorbox{sqpink}}
+\def\sqseq{\hvffe}%\colorbox{sqgreen}}
+
+\def\pcnot{\pceee}%\colorbox{ntgrey}}
+\def\pcsqchr{\pceff}%\colorbox{sqyellow}}
+\def\pcsqinv{\pcefd}%\colorbox{sqblue}}
+\def\pcsqopq{\pcfee}%\colorbox{sqpink}}
+\def\pcsqseq{\pcffe}%\colorbox{sqgreen}}
 
 \def\ucode#1{\Sans\eight\rm}
 
