@@ -1,3 +1,4 @@
+\input newmcol
 \let\everymathextra\relax
 \let\preamble\relax
 
@@ -33,18 +34,26 @@
 \let\ofspc\pcxxv
 
 \font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 14pt
-\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
+\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf:+ss20]" at 12pt
+%\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
 \font\helv=Arial at 9pt
+\font\helvy="Arial Narrow" at 8pt
 \font\helvx="Arial Narrow" at 6pt
 
 \def\ccchr{\pcssxx}
 \def\ccuni{\helvx}
 
+
+\def\beginchartlist{\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
+\def\endchartlist{\end{2column}}
+
 \def\cclrow#1#2#3{%
-        \hbox to3.2in{%
-              \hbox to.6in\hsize{\helv#1\hfil}%
-              \hbox to.4in{\pcssx#2\hfil}%
-              \hbox to2.2in{\helv\leavevmode\rightskip0pt plus3em\relax#3\endgraf}}
+        \vbox{\hsize3.2in\parindent0pt
+              \hbox to 3.2in{%
+              \hbox to .4in{\helvy#1\hfil}%
+              \hbox to .4in{\pcssxxx#2\hss}%
+              \hbox to 2.4in{\hsize2.4in\vtop{\par\helvy\leavevmode\rightskip0pt plus1fil\relax#3\endgraf}}%
+                            \hfil}}\vfil}
 \def\cclnum#1{{\helv#1}}
 \def\cclchr{\pcssxx}
 \def\ccluni{\Sans\eight\rm}
