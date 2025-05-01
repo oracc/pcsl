@@ -146,24 +146,22 @@
 			<xsl:call-template name="seq"/>
 		      </xsl:when>
 		      <xsl:otherwise>
-			<div>
-			  <div>
-			    <span class="ofs-pc ofs-200">
-			      <xsl:for-each select ="f">
-				<xsl:value-of select="@c"/>
-			      </xsl:for-each>
-			    </span>
-			  </div>
-			  <div class="fhex">
-			    <span class="ucode">
-			      <xsl:text>[</xsl:text>
-			      <xsl:for-each select ="f">
-				<xsl:value-of select="@u"/>
-				<xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
-			      </xsl:for-each>
-			      <xsl:text>]</xsl:text>
-			    </span>
-			  </div>
+			<div class="fchr">
+			  <span class="ofs-pc ofs-200">
+			    <xsl:for-each select ="f">
+			      <xsl:value-of select="@c"/>
+			    </xsl:for-each>
+			  </span>
+			</div>
+			<div class="fhex">
+			  <span class="ucode">
+			    <xsl:text>[</xsl:text>
+			    <xsl:for-each select ="f">
+			      <xsl:value-of select="@u"/>
+			      <xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
+			    </xsl:for-each>
+			    <xsl:text>]</xsl:text>
+			  </span>
 			</div>
 		      </xsl:otherwise>
 		    </xsl:choose>
@@ -171,7 +169,7 @@
 		</xsl:when>
 		<xsl:when test="f">
 		  <xsl:for-each select="f">
-		    <div>
+		    <div class="fchr">
 		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 		    </div>
 		    <div class="fhex">
@@ -286,7 +284,7 @@
   
   <xsl:template mode="sl" match="c">
     <div class="sl-c vbox">
-      <div>
+      <div class="sl-c-c">
 	<xsl:choose>
 	  <xsl:when test="not(contains(../../../@glyf,@c))">
 	    <span class="newglyf ofs-pc ofs-200">
@@ -308,7 +306,7 @@
 	  </xsl:otherwise>
 	</xsl:choose>
       </div>
-      <div>
+      <div class="sl-c-u">
 	<span class="ucode"><xsl:value-of select="concat('[',@h,']')"/></span>
       </div>
     </div>

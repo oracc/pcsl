@@ -331,7 +331,7 @@ sub sl {
 		    print '<cc>' if $lc =~ /\./;
 		    my @c = grep(length,split(/(.)/,$lc));
 		    foreach my $cc (@c) {
-			next if $cc eq '.';
+			next if $cc eq '.' || $cc eq ',';
 			my $h = sprintf("%X", ord($cc));
 			printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
 		    }

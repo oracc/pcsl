@@ -62,6 +62,7 @@
 \let\twocol\relax
 
 \let\glyf\relax
+\let\fchr\relax
 \let\fhex\relax
 \let\dist\relax
 \let\rhex\relax
@@ -70,6 +71,11 @@
 \newdimen\ccht \ccht=.52in\relax
 \newdimen\cccwd \cccwd=\ccwd\relax
 \newdimen\cccht \cccht=.39in\relax
+
+\newdimen\cdliwd \cdliwd=2.75pc
+\newdimen\slcwd \slcwd=3.75pc
+\def\slcc{\pcssxxx}
+\def\slcu{\helvy}
 
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
 
@@ -83,16 +89,16 @@
 %\definecolor{sqpink}{rgb}{1,.92,.92}% FFEBEB
 %\definecolor{sqyellow}{rgb}{1,1,.9}% FFFFE6
 
-\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at12pt
-\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at12pt
-\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at12pt
-\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFEBEB" at12pt
-\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at12pt
+\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at14pt
+\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at14pt
+\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at14pt
+\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FF0000" at14pt
+\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at14pt
 
 \font\hveee="Helvetica:color=E5E5E5" at12pt
 \font\hveff="Helvetica:color=E6FAFC" at12pt
 \font\hvefd="Helvetica:color=E0FCDE" at12pt
-\font\hvfee="Helvetica:color=FFEBEB" at12pt
+\font\hvfee="Helvetica:color=FF0000" at12pt
 \font\hvffe="Helvetica:color=FFFFE6" at12pt
 
 \def\not{\hveee}%\colorbox{ntgrey}}
@@ -118,8 +124,97 @@
 \def\tvrule{\vrule}
 \def\tvrulex{\vrule width1pt\relax}
 
+\def\thead{\Sans\nine\rm}
+
 \def\codechart{\def\thead{\Sans\nine\rm}%
 %  \def\trhook{\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
+}
+
+\newbox\pcslbox \newbox\pcslheaderbox \newbox\pcslheadertmp
+\newdimen\pcslrowht
+\newdimen\pcslquad \pcslquad.6em
+\newdimen\pcslquadb \pcslquadb0pt
+\def\pquad{\hskip\pcslquad\relax}
+\def\pquadb{\hskip\pcslquadb\relax}
+\let\slcufont\helvx
+\def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
+
+\def\beginpcsltab{\bgroup\offinterlineskip \lineskip1pt
+  \setbox\pcslheaderbox=\vbox{%
+  \pcslrowx{\hbox{PCSL}}%
+          {\slhbox{PC25}}%
+          {\hbox to\cdliwd{\hss CDLI\hss}}%
+          {\slhbox{ATU3}}%
+          {\slhbox{ATU5}}%
+          {\slhbox{MSVO1}}%
+          {\slhbox{MSVO4}}%
+          {\slhbox{CUSAS}}%
+          2}%
+   \righthdrinfo{}%
+   \headersep20pt
+}
+
+\def\pcslheader{\setbox\pcslheadertmp=\vbox{
+    \kern-12pt
+    \hbox to\hsize{\hfil\Sans\nine\rm\folio}%
+    \kern2pt
+    \unvcopy\pcslheaderbox}%
+    \centrehdrinfo{\box\pcslheadertmp}}
+
+\def\endpcsltab{\egroup}
+
+\def\pcslrowx#1#2#3#4#5#6#7#8#9{%
+   \hrule height1.5pt
+   \hbox to\hsize{%
+         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \pquad\vbox to\pcslrowht{\vfil#2\vfil}%
+         \pquad\vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \pquad\vbox to\pcslrowht{\vfil#4\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
+         \hfil
+         }%
+   \kern12pt
+   \hrule height1.5pt
+}
+
+\catcode`\~=12
+
+\def\pcslrow#1#2#3#4#5#6#7#8#9{%
+   \pcslheader
+   \setbox\pcslbox\hbox to2in{\hsize2in\relax#1}%
+   \pcslrowht=\ht\pcslbox \advance\pcslrowht\dp\pcslbox
+   \setbox\pcslbox\vbox{#2}%
+   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \advance\pcslrowht\dp\pcslbox \fi
+   \hbox to \hsize{%
+         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \pquad\vbox to\pcslrowht{\vfil#2\vfil}%
+         \pquad\vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \pquad\vbox to\pcslrowht{\vfil#4\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
+         \hfil}%
+   \kern2pt
+   \hrule height#9pt
+   \vskip2pt plus1pt minus1pt
+}
+
+\font\slnmfont="Ungkam Basic Bold" at 9pt
+\font\sldistfont="Ungkam Basic" at 9pt
+\def\slnm{\slnmfont}
+\def\sldist{\sldistfont}
+
+\def\slnames#1#2#3#4#5#6#7{%
+    \vbox{%
+        \hbox to2in{\slnm#1\hss}%
+        \hbox{\hbox to.5\hsize{\pcssxx#4\hss}\hbox to.5\hsize{\hfil#3}}%
+        \hbox{\hbox to.5\hsize{\helv#5\hfil}\hbox to.5\hsize{\hfil#2}}%
+        \hbox to2in{\sldist#6\hss}%
+    }%
 }
 
 %% defs for pcsl-tab.html
@@ -127,9 +222,9 @@
 \let\slc\relax
 \let\slcc\relax
 \let\cdligh\relax
-\let\diffc\relax
-\let\diffd\relax
+\def\diffc{\let\ofspc\relax\pcfee}
+\def\diffd{\hvfee}
 
-\def\includegraphics#1{\XeTeXpicfile #1 scaled 400 \relax}
+\def\includegraphics#1{\XeTeXpicfile #1 scaled 500 \relax}
 
 \endinput
