@@ -1,6 +1,8 @@
 mth=~/o2/msc/tex/h2t
 
-default: ptab.pdf
+default: pc25.pdf
+
+# ptab.pdf
 
 # pc25.pdf
 
