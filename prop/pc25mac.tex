@@ -44,7 +44,7 @@
 \def\ccuni{\helvx}
 
 
-\def\beginchartlist{\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
+\def\beginchartlist{\newpage\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
 \def\endchartlist{\end{2column}}
 
 \def\cclrow#1#2#3{%
@@ -52,7 +52,7 @@
               \hbox to 3.2in{%
               \hbox to .4in{\helvy#1\hfil}%
 %              \hbox to .4in{\pcssxxx#2\hss}%
-              \hbox to .4in{\redpc#2\hss}%
+              \hbox to .4in{\pcssxx#2\hss}%
               \hbox to 2.4in{\hsize2.4in\vtop{\par\helvy\leavevmode\rightskip0pt plus1fil\relax#3\endgraf}}%
                             \hfil}}\vfil}
 \def\cclnum#1{{\helv#1}}
@@ -141,7 +141,7 @@
 \let\slcufont\helvx
 \def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
 
-\def\beginpcsltab{\bgroup\offinterlineskip \lineskip1pt
+\def\beginpcsltab{\newpage\bgroup\offinterlineskip \lineskip1pt
   \setbox\pcslheaderbox=\vbox{%
   \pcslrowx{\hbox{PCSL}}%
           {\slhbox{PC25}}%
