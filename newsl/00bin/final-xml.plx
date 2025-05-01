@@ -82,6 +82,12 @@ while (<N>) {
     my $xcdli = xmlify($cdli||'');
     my $xpc24 = xmlify($pc24||'');
     my $rattr = '';
+    unless ($r) {
+	if ($t && $t =~ /©/ && $t !~ /[:.]/) {
+	    $r = $c;
+	    $r =~ s/^(.).*$/$1/;
+	}
+    }
     if (($pcslflag || $pc25flag) && $r) {
 	$rattr = sprintf(" c=\"%s\" h=\"%X\"", $r, ord($r));
     }

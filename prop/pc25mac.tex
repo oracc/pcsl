@@ -33,12 +33,14 @@
 \def\ofs#1#2#3{}
 \let\ofspc\pcxxv
 
+\font\pcssXX="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 18pt
 \font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
 \font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 12pt
 %\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
 \font\helv=Arial at 9pt
-\font\helvy="Arial Narrow" at 8pt
 \font\helvx="Arial Narrow" at 6pt
+\font\helvy="Arial Narrow" at 8pt
+\font\helvz="Arial Narrow" at 7pt
 
 \def\ccchr{\pcssxx}
 \def\ccuni{\helvx}
@@ -76,6 +78,9 @@
 \newdimen\slcwd \slcwd=3.75pc
 \def\slcc{\pcssxxx}
 \def\slcu{\helvy}
+
+
+\def\slnoglyf{\vbox{\hbox to\slcwd{\hfil}\vfil}}
 
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
 
@@ -138,7 +143,7 @@
 \newdimen\pcslquadb \pcslquadb0pt
 \def\pquad{\hskip\pcslquad\relax}
 \def\pquadb{\hskip\pcslquadb\relax}
-\let\slcufont\helvx
+\def\slcufont{\let\ucode\relax\helvz}
 \def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
 
 \def\beginpcsltab{\newpage\bgroup\offinterlineskip \lineskip1pt
@@ -186,10 +191,12 @@
 
 \def\pcslrow#1#2#3#4#5#6#7#8#9{%
    \pcslheader
-   \setbox\pcslbox\hbox to2in{\hsize2in\relax#1}%
-   \pcslrowht=\ht\pcslbox \advance\pcslrowht\dp\pcslbox
+   \let\slnames\slnamesaunaturel
+   \setbox\pcslbox\vbox{\hsize2in#1}%
+   \pcslrowht=\ht\pcslbox % \advance\pcslrowht\dp\pcslbox
    \setbox\pcslbox\vbox{#2}%
-   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \advance\pcslrowht\dp\pcslbox \fi
+   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi % \advance\pcslrowht\dp\pcslbox \fi
+   \let\slnames\slnamesrowht
    \hbox to \hsize{%
          \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
          \pquad\vbox to\pcslrowht{\vfil#2\vfil}%
@@ -200,23 +207,32 @@
          \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
          \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
          \hfil}%
-   \kern2pt
+   \kern3pt
    \hrule height#9pt
-   \vskip2pt plus1pt minus1pt
+   \vskip3pt plus1pt minus1pt
 }
 
 \font\slnmfont="Ungkam Basic Bold" at 9pt
 \font\sldistfont="Ungkam Basic" at 9pt
+\font\oidfont="Ungkam Basic" at 9pt
 \def\slnm{\slnmfont}
 \def\sldist{\sldistfont}
 
-\def\slnames#1#2#3#4#5#6#7{%
-    \vbox{%
-        \hbox to2in{\slnm#1\hss}%
-        \hbox{\hbox to.5\hsize{\pcssxx#4\hss}\hbox to.5\hsize{\hfil#3}}%
-        \hbox{\hbox to.5\hsize{\helv#5\hfil}\hbox to.5\hsize{\hfil#2}}%
-        \hbox to2in{\sldist#6\hss}%
-    }%
+\def\slnamesaunaturel#1#2#3#4#5#6#{%
+    \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}}%
+}
+
+\def\slnamesrowht#1#2#3#4#5#6#7{%
+    \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}}%
+}
+
+\def\slnamesx#1#2#3#4#5#6#7{%
+   \hbox to2in{\slnm#1\hss}%
+   \hbox{\hbox to1in{\kern1pc\helv#5\hfil}\smash{\hbox to.5in{\hss\kern.05in\pcssXX#4\hss}}}%
+   \vfil
+   \hbox{%
+     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode#6\par}%
+     \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil#3}}}}%
 }
 
 %% defs for pcsl-tab.html

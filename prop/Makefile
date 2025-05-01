@@ -1,6 +1,6 @@
 mth=~/o2/msc/tex/h2t
 
-default: pc25.pdf
+default: ptab.pdf
 
 # ptab.pdf
 
@@ -28,4 +28,4 @@ h2t-esp.url: ../01tmp/source-tree-40.xml
 	true
 
 clean:
-	rm -f pc25.pdf
+	rm -f pc25.pdf ptab.pdf *-pages.tex
