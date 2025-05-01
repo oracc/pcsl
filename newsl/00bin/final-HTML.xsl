@@ -128,6 +128,9 @@
 		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
 		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h,']')"/></span></div>
 		</xsl:if>
+		<xsl:if test="../@zatu">
+		  <div class="zatu"><xsl:value-of select="../@zatu"/></div>
+		</xsl:if>
 		<xsl:if test="../@dist">
 		  <div class="dist"><xsl:value-of select="../@dist"/></div>
 		</xsl:if>

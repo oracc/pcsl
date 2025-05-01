@@ -56,8 +56,9 @@ my %aka = (); load_aka() if $pcslflag;
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
-#my %pc25 = (); load_pc25() if $easlflag;
+my %pc25 = (); load_pc25() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
+my %zatu = (); load_zatu() if $pcslflag;
 
 open(X,">$outfile"); select X;
 print "<sl n=\"$n\">";
@@ -118,7 +119,8 @@ while (<N>) {
     }
     if ($pcslflag || $pc25flag) {
 	my $row = $fn ? " row=\"$fn\"" : '';
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist>";
+	my $pcslx = pcsl_xattr($o,$pc24);
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$pcslx>";
     } else {
 	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
@@ -229,10 +231,13 @@ sub load_oidmap {
     }
 }
 
-#sub load_pc25 {
-#    my @p = `cut -f5 ../pc25/pc25-repertoire.tsv`; chomp @p;
-#    @pc25{@p} = ();
-#}
+sub load_pc25 {
+    my @p = `cut -f1-2 00etc/pc25-final.tsv`; chomp @p;
+    foreach (@p) {
+	my($o,$u) = split(/\t/,$_);
+	$pc25{$o} = $u;
+    }
+}
 
 sub load_sl {
     my @sl = qw/atu3 atu5 msvo1 msvo4/;
@@ -265,6 +270,18 @@ sub load_unicode {
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
     @a = `cut -f1,3 ../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
+}
+
+sub load_zatu {
+    my @z = `cat 00etc/ZATU-list.tsv`; chomp @z;
+    foreach (@z) {
+	my($z,@o) = split(/\s/,$_);
+	foreach my $o (@o) {
+	    warn "load_zatu: $o has multiple ZATU numbers: $zatu{$o}; $z\n"
+		if $zatu{$o} && $zatu{$o} ne $z;
+	    $zatu{$o} = $z;
+	}
+    }
 }
 
 sub pc25_name {
@@ -320,6 +337,18 @@ sub pchar {
 	    warn "$.: (2) hex $ch not in 00etc/unicode.tsv\n";
 	}
     }
+}
+
+sub pcsl_xattr {
+    my ($o,$n) = @_;
+    my $a = '';
+#    if ($pc25{$o}) {
+#	$a = sprintf(" pc25u=\"$pc25{$o}\" pc25c=\"%s\"", ord(hex($pc25{$o})));
+#    }
+    if ($zatu{$o} && $zatu{$o} ne $n) {
+	$a .= " zatu=\"$zatu{$o}\"";
+    }
+    $a;
 }
 
 sub sl {

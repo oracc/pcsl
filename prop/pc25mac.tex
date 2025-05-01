@@ -75,11 +75,11 @@
 \newdimen\cccht \cccht=.39in\relax
 
 \newdimen\cdliwd \cdliwd=2.75pc
-\newdimen\slcwd \slcwd=3.75pc
+\newdimen\slcwd \slcwd=3.65pc
 \def\slcc{\pcssxxx}
 \def\slcu{\helvy}
 
-
+\def\slnocdli{\vbox{\hbox to\cdliwd{\hfil}\vfil}}
 \def\slnoglyf{\vbox{\hbox to\slcwd{\hfil}\vfil}}
 
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
@@ -139,7 +139,7 @@
 
 \newbox\pcslbox \newbox\pcslheaderbox \newbox\pcslheadertmp
 \newdimen\pcslrowht
-\newdimen\pcslquad \pcslquad.6em
+\newdimen\pcslquad \pcslquad.45em
 \newdimen\pcslquadb \pcslquadb0pt
 \def\pquad{\hskip\pcslquad\relax}
 \def\pquadb{\hskip\pcslquadb\relax}
@@ -149,7 +149,7 @@
 \def\beginpcsltab{\newpage\bgroup\offinterlineskip \lineskip1pt
   \setbox\pcslheaderbox=\vbox{%
   \pcslrowx{\hbox{PCSL}}%
-          {\slhbox{PC25}}%
+          {\slhbox{FONT}}%
           {\hbox to\cdliwd{\hss CDLI\hss}}%
           {\slhbox{ATU3}}%
           {\slhbox{ATU5}}%
@@ -174,9 +174,18 @@
    \hrule height1.5pt
    \hbox to\hsize{%
          \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
-         \pquad\vbox to\pcslrowht{\vfil#2\vfil}%
-         \pquad\vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
-         \pquad\vbox to\pcslrowht{\vfil#4\vfil}%
+         \kern.425em
+         \kern.75pt
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#2\vfil}%
+         \kern.425em
+         \kern1pt
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \kern.2em
+         \kern.5pt
+         \kern.2em
+         \pquadb\vbox to\pcslrowht{\vfil#4\vfil}%
          \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
          \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
          \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
@@ -199,12 +208,25 @@
    \let\slnames\slnamesrowht
    \hbox to \hsize{%
          \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
-         \pquad\vbox to\pcslrowht{\vfil#2\vfil}%
-         \pquad\vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
-         \pquad\vbox to\pcslrowht{\vfil#4\vfil}%
+         \kern.425em
+         \vrule height\pcslrowht
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#2\vfil}%
+         \kern.425em
+         \vrule height\pcslrowht width1pt
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \kern.2em
+         \vrule height\pcslrowht width.5pt
+         \kern.2em
+         \vbox to\pcslrowht{\vfil#4\vfil}%
+         \vrule height\pcslrowht width.5pt
          \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \vrule height\pcslrowht width.5pt
          \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \vrule height\pcslrowht width.5pt
          \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \vrule height\pcslrowht width.5pt
          \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
          \hfil}%
    \kern3pt
@@ -212,27 +234,40 @@
    \vskip3pt plus1pt minus1pt
 }
 
-\font\slnmfont="Ungkam Basic Bold" at 9pt
-\font\sldistfont="Ungkam Basic" at 9pt
-\font\oidfont="Ungkam Basic" at 9pt
-\def\slnm{\slnmfont}
+\font\slnmfont="Ungkam Basic Bold" at9pt
+\font\slnmfontx="Ungkam Basic Bold" at7.5pt
+\font\slnmfonty="Ungkam Basic Bold" at8.25pt
+\font\sldistfont="Ungkam Basic" at9pt
+\font\oidfont="Ungkam Basic" at9pt
+\font\zatufont="Ungkam Basic" at7.5pt
+%\def\slnm{\slnmfont}
 \def\sldist{\sldistfont}
 
-\def\slnamesaunaturel#1#2#3#4#5#6#{%
-    \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}}%
+\def\slnamesaunaturel#1#2#3#4#5#6#7#8{%
+    \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
-\def\slnamesrowht#1#2#3#4#5#6#7{%
-    \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}}%
+\def\slnamesrowht#1#2#3#4#5#6#7#8{%
+    \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
-\def\slnamesx#1#2#3#4#5#6#7{%
-   \hbox to2in{\slnm#1\hss}%
-   \hbox{\hbox to1in{\kern1pc\helv#5\hfil}\smash{\hbox to.5in{\hss\kern.05in\pcssXX#4\hss}}}%
+\newbox\slnmbox
+\def\slnamesx#1#2#3#4#5#6#7#8{%
+   \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>2in
+     \let\slnm\slnmfontx
+     \else
+       \ifdim\wd\slnmbox>1.25in
+         \let\slnm\slnmfonty
+       \else
+         \let\slnm\slnmfont
+       \fi
+     \fi
+   \hbox to2in{\slnm#1\hfil#3}%
+   \hbox{\hbox to1in{\helvy#5\hfil}\smash{\hbox to.5in{\kern.2in\vbox{\hbox{\pcssXX#4}\kern2pt}\hss}}}%
    \vfil
    \hbox{%
-     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode#6\par}%
-     \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil#3}}}}%
+     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode#7\par}%
+     \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil\zatufont#6}}}}%
 }
 
 %% defs for pcsl-tab.html
