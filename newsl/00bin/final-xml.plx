@@ -56,7 +56,6 @@ my %aka = (); load_aka() if $pcslflag;
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
-my %pc25 = (); load_pc25() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
 
@@ -103,11 +102,12 @@ while (<N>) {
 	    $not = " not=\"1\"";
 	}
 	$t = "$t$seq$not";
+	$t .= hr_t($t);
     } else {
-	$t = '';	
+	$t = " tags=\"\" data-hrt=\"UNP\"";
     }
-    # my $pc25 = (exists $pc25{$o} ? " pc25=\"yes\"" : '');
     my $dist = dist($o);
+    my $datadist = distdata($o);
     if ($cusasflag) {
 	if ((!$dist || $dist =~ /0×/) && $t !~ /not="/) {
 	    if ($p =~ /~v[0-9]/) {
@@ -120,7 +120,7 @@ while (<N>) {
     if ($pcslflag || $pc25flag) {
 	my $row = $fn ? " row=\"$fn\"" : '';
 	my $pcslx = pcsl_xattr($o,$pc24);
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$pcslx>";
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx>";
     } else {
 	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
@@ -176,6 +176,46 @@ sub dist {
     return $dist{$_[0]} || '';
 }
 
+sub distdata {
+    my $dd = $dist{$_[0]};
+    my $rdd = '';
+    if ($dd) {
+	my($t) = ($dd =~ /"(.*?)(?::|$)/); $t = '' unless $t;
+	my($u4) = ($dd =~ /IV:\s+(\S+)/); $u4 = '' unless $u4;
+	my($u3) = ($dd =~ /III:\s+(\S+)/); $u3 = '' unless $u3;
+	$t =~ tr/;."//d;
+	$u4 =~ tr/;."//d;
+	$u3 =~ tr/;."//d;
+	$rdd = " data-distt=\"$t\" data-dist4=\"$u4\" data-dist3=\"$u3\"";
+	# warn "$dd=>$rdd\n";
+    }
+    $rdd;
+}
+
+# Make a human-readable tag
+sub hr_t {
+    my $t = shift;
+    my $h = '';
+    if ($t =~ /©/) {
+	$h = 'PC25';
+	if ($t =~ /.:/) {
+	    $h .= '-sq';
+	} elsif ($t =~ /#/) {
+	    $h .= '-bk';
+	} elsif ($t =~ /-/) {
+	    $h .= '-dl';
+	}
+    } elsif ($t =~ /1/ && $t !~ /C/) {
+	$h = 'EDI';
+    } elsif ($t =~ /-/) {
+	$h .= 'DEL';
+    } else {
+	$h = 'UNP';
+    }
+    $h = " data-hrt=\"$h\"" if $h;
+    $h;
+}
+
 sub load_aka {
     my @a = `cat 00etc/aka.tsv`; chomp @a;
     foreach (@a) {
@@ -228,14 +268,6 @@ sub load_oidmap {
     my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
     foreach (@o) {
 	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m;
-    }
-}
-
-sub load_pc25 {
-    my @p = `cut -f1-2 00etc/pc25-final.tsv`; chomp @p;
-    foreach (@p) {
-	my($o,$u) = split(/\t/,$_);
-	$pc25{$o} = $u;
     }
 }
 
@@ -342,9 +374,6 @@ sub pchar {
 sub pcsl_xattr {
     my ($o,$n) = @_;
     my $a = '';
-#    if ($pc25{$o}) {
-#	$a = sprintf(" pc25u=\"$pc25{$o}\" pc25c=\"%s\"", ord(hex($pc25{$o})));
-#    }
     if ($zatu{$o} && $zatu{$o} ne $n) {
 	$a .= " zatu=\"$zatu{$o}\"";
     }

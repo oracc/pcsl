@@ -80,6 +80,7 @@
 \def\slcu{\helvy}
 
 \def\slnocdli{\vbox{\hbox to\cdliwd{\hfil}\vfil}}
+\def\slnodist{\vbox{\hbox to1in{\hfil}\vfil}}
 \def\slnoglyf{\vbox{\hbox to\slcwd{\hfil}\vfil}}
 
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
@@ -161,7 +162,7 @@
    \headersep20pt
 }
 
-\def\pcslheader{\setbox\pcslheadertmp=\vbox{
+\def\pcslheader{\setbox\pcslheadertmp=\vbox{%
     \kern-12pt
     \hbox to\hsize{\hfil\Sans\nine\rm\folio}%
     \kern2pt
@@ -240,6 +241,7 @@
 \font\sldistfont="Ungkam Basic" at9pt
 \font\oidfont="Ungkam Basic" at9pt
 \font\zatufont="Ungkam Basic" at7.5pt
+
 %\def\slnm{\slnmfont}
 \def\sldist{\sldistfont}
 
@@ -252,6 +254,9 @@
 }
 
 \newbox\slnmbox
+\newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
+\newbox\sldistbox \newbox\sldistivbox \newbox\sldistiiibox
+
 \def\slnamesx#1#2#3#4#5#6#7#8{%
    \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>2in
      \let\slnm\slnmfontx
@@ -266,8 +271,24 @@
    \hbox{\hbox to1in{\helvy#5\hfil}\smash{\hbox to.5in{\kern.2in\vbox{\hbox{\pcssXX#4}\kern2pt}\hss}}}%
    \vfil
    \hbox{%
-     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode#7\par}%
+%     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode{#7}\par}%
+     #7%
      \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil\zatufont#6}}}}%
+}
+
+\def\sldist{%
+   \setbox\sldistivbox\hbox{\the\sldistiv}%
+   \setbox\sldistiiibox\hbox{\the\sldistiii}%
+   \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern2pt}%
+   \vbox{\oidfont\hsize1in\parindent0pt\hangindent2em\rightskip0pt plus1fil
+         \leavevmode
+         \hbox to2em{\the\sldistt\hfil}%
+         \ifdim\wd\sldistivbox>0pt\hbox{\hbox to\wd\sldistbox{IV:\kern2pt\hfil}\the\sldistiv\hfil}%
+           \ifdim\wd\sldistiiibox>0pt; \penalty0\fi
+         \fi
+         \ifdim\wd\sldistiiibox>0pt\hbox{\hbox to\wd\sldistbox{III:\kern2pt\hfil}\the\sldistiii\hfil}\fi
+         \endgraf
+   }%
 }
 
 %% defs for pcsl-tab.html
@@ -275,6 +296,7 @@
 \let\slc\relax
 \let\slcc\relax
 \let\cdligh\relax
+\let\zatu\relax
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\hvfee}
 

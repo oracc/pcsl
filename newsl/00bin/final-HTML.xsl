@@ -122,7 +122,10 @@
 		<div class="sname"><xsl:value-of select="../@p"/></div>
 		<div class="uname"><xsl:value-of select="../@oid"/></div>
 		<xsl:if test="../@tags">
-		  <div class="stags"><xsl:value-of select="../@tags"/></div>
+		  <div class="stags">
+		    <xsl:copy-of select="../@data-hrt"/>
+		    <xsl:value-of select="../@tags"/>
+		  </div>
 		</xsl:if>
 		<xsl:if test="../@c">
 		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
@@ -132,7 +135,10 @@
 		  <div class="zatu"><xsl:value-of select="../@zatu"/></div>
 		</xsl:if>
 		<xsl:if test="../@dist">
-		  <div class="dist"><xsl:value-of select="../@dist"/></div>
+		  <div class="dist">
+		    <xsl:copy-of select="../@data-distt|../@data-dist4|../@data-dist3"/>
+		    <xsl:value-of select="../@dist"/>
+		  </div>
 		</xsl:if>
 		<div class="notes"><p><xsl:value-of select="n"/></p></div>
 	      </div>
