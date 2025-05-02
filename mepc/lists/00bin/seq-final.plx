@@ -33,12 +33,19 @@ my %u = (); load_unicode();
 my %glyf = (); my @glyf = `cat 00etc/glyf-final.tsv`; chomp @glyf;
 foreach (@glyf) {
     my($u,$o,$b,$h,$n,$t) = split(/\t/,$_);
-#    my($u,$o,$h,$n) = split(/\t/,$_);
+    my $bc = sprintf("%s",chr(hex($b)));
+    my $xt = $t; $xt =~ s/^~//;
+    my $gt = sprintf("%s",chr(0x2080+hex($xt)));
     $n =~ tr/|//d;
-    $glyf{$u} = $n;
-    $glyf{$n} = $u;
-    $glyf{$h} = $n;
+    $n =~ s/~1$//;
+    $glyf{$u} = "$bc$gt";
+    $glyf{$u,'n'} = $n;
+#    $glyf{$u} = $n;
+#    $glyf{$n} = $u;
+#    $glyf{$h} = $n;
 }
+
+#print Dumper \%glyf; exit 1;
 
 open(S,'00etc/seq-base.tsv') || die;
 while (<S>) {
@@ -75,20 +82,26 @@ while (<S>) {
     $c = '' unless $c;
 
     my $h = sprintf("%X", ord($c));
-    my $xn = seq_name($s);
-    my $sv = seq_view($s);
-    my $sq = seq_liga($s);
-    my $lv = seq_liga_view($sq);
+
+    my ($xv,$xn,$xl) = seq_views($s);
+    next unless defined $xv;
+
+#    my $xn = seq_name($s);
+#    my $sv = seq_view($s);
+#    my $sq = seq_liga($s);
+#    my $lv = seq_liga_view($sq);
 
     if ($addglyf) {
-	my $axn = $xn;
-	$axn =~ s/^\|(.*?)\|$/($1)/;
-	$glyf{$c} = $axn;
-	$glyf{$axn} = $sq;
-	$glyf{$sq} = $lv;
+	$glyf{$c} = $xv;
+#	my $axn = $xn;
+#	$axn =~ s/^\|(.*?)\|$/($1)/;
+#	$glyf{$c} = $axn;
+#	$glyf{$axn} = $sq;
+#	$glyf{$sq} = $lv;
     }
     
-    print "$o\t$c\t$h\t$s\t$sv\t$xn\t$sq\t$lv\n";
+    #    print "$o\t$c\t$h\t$s\t$sv\t$xn\t$sq\t$lv\n";
+    print "$o\t$c\t$s\t$xv\t$xn\t$xl\n";
 }
 close(S);
 
@@ -106,6 +119,69 @@ sub load_unicode {
     @a = `cut -f1,3 ../../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); unless ($u{$u}) { $u{$u} = $o; $u{$o} = $u; } }
 }
+
+sub seq_views {
+    my @s = grep(length,split(/(.)/, $_[0]));
+    my @nv = ();
+    my @nn = ();
+    my @nl = ();
+    foreach my $s (@s) {
+	if ($s =~ /[.+∘]/) {
+	    push @nv, $s;
+	    push @nn, $s;
+	    push @nl, joiner($s);
+	} elsif ($glyf{$s}) {
+	    push @nv, $glyf{$s};
+	    push @nn, $glyf{$s,'n'};
+	    my($nam,$tag) = ($glyf{$s} =~ /^(.)(.)$/);
+	    if ($tag) {
+		$nam = sprintf("%X", ord($nam));
+		if ($tag ne '₁') {
+		    $tag = sprintf("%X",(ord($tag)-ord('₀'))+0xE0100);
+		} else {
+		    $tag = '';
+		}
+	    } else {
+		$nam = sprintf("%X", ord($glyf{$s}));
+		$tag = '';
+	    }
+	    if ($tag) {
+		push @nl, ($nam, $tag);
+	    } else {
+		push @nl, $nam;
+	    }
+	} else {
+	    my $h = sprintf("%X", ord($s));
+	    if ('O' eq $s) {
+		warn "$0:$.: sequence with breakage should be in PUA not in seq-final.tsv\n";
+		return (undef, undef);
+	    } else {
+		warn "$0:$.: glyf $s=$h not in 00etc/glyf-final.tsv\n";
+	    }	    
+	}
+    }
+    my $nv = join('',@nv);
+    my $nn = join('','|',@nn,'|');
+    my $nl = join('_u','',@nl).'.liga';
+    ($nv, $nn, $nl);
+}
+
+sub joiner {
+    my $x = shift;
+    if ($x eq '.') { # ZWJ
+	return '200D';
+    } elsif ($x eq '+') { # IPS
+	return '2064';
+    } elsif ($x eq '∘') { # ITS
+	return '2062';	
+    } else {
+	warn "$0: unhandled joiner $x\n";
+    }
+}
+
+################################################################################
+################################################################################
+
 
 sub seq_liga {
     my @x = grep(length,split(/(.)/,$_[0]));

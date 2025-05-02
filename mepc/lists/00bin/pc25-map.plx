@@ -81,11 +81,13 @@ foreach my $g (@g) {
 # Block 3: Sequence glyf entries in PUA following Block 2 (no gapping;
 # future additions at end of Block2/3
 
-my @s = `cut -f1-4,6 00etc/seq-final.tsv`; chomp @s;
+my @s = `cut -f1-2 00etc/seq-final.tsv`; chomp @s;
 foreach my $s (@s) {
-    my($o,$c,$u,$s,$n) = split(/\t/,$s);
+    my($o,$c) = split(/\t/,$s);
+    my $u = sprintf("%X",ord($c));
     my $oo = $pc24{$u};
     if ($oo) {
+	warn "oo=$oo\n";
 	printf "$oo\t$pc24{$oo}\t%X\n", $pua;
 	++$seen{$pc24{$oo}};
 	++$pua;

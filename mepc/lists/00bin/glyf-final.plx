@@ -31,7 +31,8 @@ foreach (@g) {
 	my $cch = sprintf("%X",ord($cc));
 	if ($u{$cch}) {
 	    my $cco = $u{$cch};
-	    printf "$cc\t$cco\t$bh\t$cch\t$n~%d\t~%02X\n", $tag, $tag; 
+	    printf "$cc\t$cco\t$bh\t$cch\t$n~%d\t~%02X\n", $tag, $tag;
+	    ++$tag;
 	} else {
 	    warn "$0: no 00etc/pc24.tsv entry for $cc = $cch\n";
 	}
