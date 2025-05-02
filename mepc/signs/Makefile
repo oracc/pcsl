@@ -1,9 +1,9 @@
 default: pcsl pc25
 
 dirs:
-	mkdir -p db gpcsl gpc25
+	@mkdir -p db gpcsl gpc25
 
-pcsl: dirs gpcsl/gstats.html
+pcsl: dirs gpcsl/gstats.html gpcsl/csl.tix
 
 pc25: dirs gpc25/gstats.html
 
@@ -16,6 +16,9 @@ gpc25/gstats.html: gpc25/pc25.tok b/gx.sh
 gpcsl/pcsl.tok: db/pcsl.tok
 	mkdir -p gpcsl
 	b/gp.sh $< >$@
+
+gpcsl/csl.tix: db/pcsl.tok ../../00lib/toklists.lst
+	b/mk-csl-tix.sh
 
 gpc25/pc25.tok: db/pc25.tok
 	mkdir -p gpc25

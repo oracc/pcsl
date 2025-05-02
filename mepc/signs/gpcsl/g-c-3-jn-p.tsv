@@ -1,1122 +1,536 @@
-   3 g	o0900000..	@pcsl%pc:s/A=A--#wn%qpc:#u%:#a1#a1#u0#-k-------	A
-   7 g	o0900000..	@pcsl%pc:s/A=A--#wn%qpc:#u%:#a1#a1#u0#.k-------	A
-   2 g	o0900000..	@pcsl%pc:s/A=A--#wn%qpc:#u%:#a1#a1#u0#.k?------	A
-  25 g	o0900000..	@pcsl%pc:s/A=A--#wn%qpc:#u%:#a1#a1#u0#+k-------	A
-   1 g	o0900000..	@pcsl%pc:s/A=A--#wn%qpc:#u%:#a1#a1#u0#+m-------	A
-  24 g	o0900012..	@pcsl%pc:s/=AB~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	AB~a
-   2 g	o0900012..	@pcsl%pc:s/=AB~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	AB~a
-  54 g	o0900012..	@pcsl%pc:s/=AB~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	AB~a
-   1 g	o0900012..	@pcsl%pc:s/=AB~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	AB~a
-   1 g	o0900014..	@pcsl%pc:s/=AB~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	AB~b
-   2 g	o0900014..	@pcsl%pc:s/=AB~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	AB~b
-   3 g	o0900041..	@pcsl%pc:s/AB₂=AB₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	AB₂
-   8 g	o0900041..	@pcsl%pc:s/AB₂=AB₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	AB₂
-   2 g	o0900047..	@pcsl%pc:s/ABGAL=ABGAL--#wn%qpc:#u%:#a1#a1#u0#+k-------	ABGAL
-   1 g	o0900053..	@pcsl%pc:s/=AD~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	AD~a
-   1 g	o0900055..	@pcsl%pc:s/=AD~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	AD~c
-   4 g	o0900055..	@pcsl%pc:s/=AD~c--#wn%qpc:#u%:#a1#a1#u0#+m-------	AD~c
-   1 g	o0900055..	@pcsl%pc:s/=AD~c--#wn%qpc:#u%:#a1#a1#u0#+m?------	AD~c
-   1 g	o0900060..	@pcsl%pc:s/AGAR₂=AGAR₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	AGAR₂
-   1 g	o0900060..	@pcsl%pc:s/AGAR₂=AGAR₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	AGAR₂
-   1 g	o0900062..	@pcsl%pc:s/=AK~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	AK~a
-   1 g	o0900064..	@pcsl%pc:s/AL=AL--#wn%qpc:#u%:#a1#a1#u0#.k-------	AL
-   8 g	o0900064..	@pcsl%pc:s/AL=AL--#wn%qpc:#u%:#a1#a1#u0#+k-------	AL
-   2 g	o0900077..	@pcsl%pc:s/=AMA~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	AMA~a
-   5 g	o0900077..	@pcsl%pc:s/=AMA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	AMA~a
-   2 g	o0900077..	@pcsl%pc:s/=AMA~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	AMA~a
-   2 g	o0900082..	@pcsl%pc:s/AMAR=AMAR--#wn%qpc:#u%:#a1#a1#u0#.k-------	AMAR
-   5 g	o0900082..	@pcsl%pc:s/AMAR=AMAR--#wn%qpc:#u%:#a1#a1#u0#+k-------	AMAR
-   2 g	o0900085..	@pcsl%pc:c/AMAR=|AMAR.1(N02)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|AMAR.1(N02)|
-   7 g	o0900089..	@pcsl%pc:s/AN=AN--#wn%qpc:#u%:#a1#a1#u0#.k-------	AN
-  17 g	o0900089..	@pcsl%pc:s/AN=AN--#wn%qpc:#u%:#a1#a1#u0#+k-------	AN
-   2 g	o0900089..	@pcsl%pc:s/AN=AN--#wn%qpc:#u%:#a1#a1#u0#+m-------	AN
-   1 g	o0900093..	@pcsl%pc:s/=ANŠE~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ANŠE~a
-  10 g	o0900100..	@pcsl%pc:s/=APIN~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	APIN~a
-  13 g	o0900100..	@pcsl%pc:s/=APIN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	APIN~a
-   1 g	o0900101..	@pcsl%pc:s/=APIN~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	APIN~b
-   1 g	o0900101..	@pcsl%pc:s/=APIN~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	APIN~b
-   3 g	o0900115..	@pcsl%pc:s/BA=BA--#wn%qpc:#u%:#a1#a1#u0#-k-------	BA
-  12 g	o0900115..	@pcsl%pc:s/BA=BA--#wn%qpc:#u%:#a1#a1#u0#.k-------	BA
-   2 g	o0900115..	@pcsl%pc:s/BA=BA--#wn%qpc:#u%:#a1#a1#u0#.k?------	BA
-  47 g	o0900115..	@pcsl%pc:s/BA=BA--#wn%qpc:#u%:#a1#a1#u0#+k-------	BA
-   2 g	o0900115..	@pcsl%pc:s/BA=BA--#wn%qpc:#u%:#a1#a1#u0#+k?------	BA
-   1 g	o0900126..	@pcsl%pc:s/=BAHAR₂~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	BAHAR₂~b
-   3 g	o0900126..	@pcsl%pc:s/=BAHAR₂~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	BAHAR₂~b
-   1 g	o0900128..	@pcsl%pc:s/=BAHAR₂~c--#wn%qpc:#u%:#a1#a1#u0#.k?------	BAHAR₂~c
-   5 g	o0900128..	@pcsl%pc:s/=BAHAR₂~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	BAHAR₂~c
-   2 g	o0900130..	@pcsl%pc:s/=BALA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	BALA~a
-   1 g	o0900149..	@pcsl%pc:s/=BAPPIR~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	BAPPIR~b
-   4 g	o0900154..	@pcsl%pc:s/BAR=BAR--#wn%qpc:#u%:#a1#a1#u0#-k-------	BAR
-   8 g	o0900154..	@pcsl%pc:s/BAR=BAR--#wn%qpc:#u%:#a1#a1#u0#.k-------	BAR
-  31 g	o0900154..	@pcsl%pc:s/BAR=BAR--#wn%qpc:#u%:#a1#a1#u0#+k-------	BAR
-   1 g	o0900154..	@pcsl%pc:s/BAR=BAR--#wn%qpc:#u%:#a1#a1#u0#+m-------	BAR
-   1 g	o0900162..	@pcsl%pc:s/BARA₃=BARA₃--#wn%qpc:#u%:#a1#a1#u0#+k-------	BARA₃
-   1 g	o0900171..	@pcsl%pc:s/=BIR₃~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	BIR₃~b
-   1 g	o0900175..	@pcsl%pc:s/=BU~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	BU~a
-   6 g	o0900175..	@pcsl%pc:s/=BU~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	BU~a
-   3 g	o0900175..	@pcsl%pc:s/=BU~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	BU~a
-  13 g	o0900175..	@pcsl%pc:s/=BU~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	BU~a
-   2 g	o0900177..	@pcsl%pc:s/=BU~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	BU~b
-   1 g	o0900199..	@pcsl%pc:c/=|BU~a+DU₆~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|BU~a+DU₆~a|
-   1 g	o0900199..	@pcsl%pc:c/=|BU~a+DU₆~a|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|BU~a+DU₆~a|
-   1 g	o0900217..	@pcsl%pc:s/=DA~a--#wn%qpc:#u%:#a1#a1#u0#-m-------	DA~a
-   5 g	o0900217..	@pcsl%pc:s/=DA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	DA~a
-   3 g	o0900217..	@pcsl%pc:s/=DA~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	DA~a
-   3 g	o0900224..	@pcsl%pc:s/DAH=DAH--#wn%qpc:#u%:#a1#a1#u0#.k-------	DAH
-   1 g	o0900224..	@pcsl%pc:s/DAH=DAH--#wn%qpc:#u%:#a1#a1#u0#.m-------	DAH
-   1 g	o0900224..	@pcsl%pc:s/DAH=DAH--#wn%qpc:#u%:#a1#a1#u0#+k-------	DAH
-   7 g	o0900224..	@pcsl%pc:s/DAH=DAH--#wn%qpc:#u%:#a1#a1#u0#+m-------	DAH
-   1 g	o0900260..	@pcsl%pc:s/DI=DI--#wn%qpc:#u%:#a1#a1#u0#-k-------	DI
-   6 g	o0900260..	@pcsl%pc:s/DI=DI--#wn%qpc:#u%:#a1#a1#u0#.k-------	DI
-   2 g	o0900260..	@pcsl%pc:s/DI=DI--#wn%qpc:#u%:#a1#a1#u0#.k?------	DI
-  10 g	o0900260..	@pcsl%pc:s/DI=DI--#wn%qpc:#u%:#a1#a1#u0#+k-------	DI
-   1 g	o0900269..	@pcsl%pc:s/=DIM~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	DIM~a
-   1 g	o0900269..	@pcsl%pc:s/=DIM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	DIM~a
-   1 g	o0900276..	@pcsl%pc:s/DIN=DIN--#wn%qpc:#u%:#a1#a1#u0#+m-------	DIN
-   9 g	o0900279..	@pcsl%pc:s/DU=DU--#wn%qpc:#u%:#a1#a1#u0#.k-------	DU
-  24 g	o0900279..	@pcsl%pc:s/DU=DU--#wn%qpc:#u%:#a1#a1#u0#+k-------	DU
-   1 g	o0900279..	@pcsl%pc:s/DU=DU--#wn%qpc:#u%:#a1#a1#u0#+m-------	DU
-   1 g	o0900281..	@pcsl%pc:c/DIŠ=|DU×1(N58@t)|--#wn%qpc:#u%:#a1#a1#e0#.m-------	|DU×DIŠ|
-   1 g	o0900281..	@pcsl%pc:c/DIŠ=|DU×1(N58@t)|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|DU×DIŠ|
-   1 g	o0900281..	@pcsl%pc:c/DIŠ=|DU×1(N58@t)|--#wn%qpc:#u%:#a1#a1#e0#+m?------	|DU×DIŠ|
-   1 g	o0900282..	@pcsl%pc:s/=DU@g--#wn%qpc:#u%:#a1#a1#u0#+k?------	DU@g
-   1 g	o0900284..	@pcsl%pc:s/=DU₆~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	DU₆~a
-   1 g	o0900296..	@pcsl%pc:s/=DU₈~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	DU₈~c
-   2 g	o0900312..	@pcsl%pc:s/=DUB~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	DUB~a
-   1 g	o0900312..	@pcsl%pc:s/=DUB~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	DUB~a
-  14 g	o0900312..	@pcsl%pc:s/=DUB~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	DUB~a
-   1 g	o0900313..	@pcsl%pc:s/=DUB~b--#wn%qpc:#u%:#a1#a1#u0#+k?------	DUB~b
-   4 g	o0900331..	@pcsl%pc:s/=DUG~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	DUG~a
-   8 g	o0900331..	@pcsl%pc:s/=DUG~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	DUG~a
-   4 g	o0900331..	@pcsl%pc:s/=DUG~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	DUG~a
-   1 g	o0900331..	@pcsl%pc:s/=DUG~a--#wn%qpc:#u%:#a1#a1#u0#.m?------	DUG~a
-  18 g	o0900331..	@pcsl%pc:s/=DUG~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	DUG~a
-   2 g	o0900334..	@pcsl%pc:s/=DUG~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	DUG~b
-   1 g	o0900334..	@pcsl%pc:s/=DUG~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	DUG~b
-   1 g	o0900347..	@pcsl%pc:c/=|DUG~b×BALA~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×BALA~a|
-   1 g	o0900359..	@pcsl%pc:c/=|DUG~b×GA~b|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|DUG~b×GA~b|
-   1 g	o0900365..	@pcsl%pc:c/GI₆=|DUG~b×GI₆|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×GI₆|
-   1 g	o0900367..	@pcsl%pc:c/GIŠ=|DUG~b×GIŠ|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×GIŠ|
-   1 g	o0900376..	@pcsl%pc:c/KASKAL=|DUG~b×KASKAL|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×KASKAL|
-   1 g	o0900381..	@pcsl%pc:c/=|DUG~b×KUR~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×KUR~a|
-   1 g	o0900391..	@pcsl%pc:c/MAŠ=|DUG~b×MAŠ|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|DUG~b×MAŠ|
-   1 g	o0900408..	@pcsl%pc:c/=|DUG~b×NAGA~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|DUG~b×NAGA~a|
-   1 g	o0900416..	@pcsl%pc:c/GI=|DUG~b×(SA~a.GI)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|DUG~b×(SA~a.GI)|
-   1 g	o0900418..	@pcsl%pc:c/=|DUG~b×SI₄~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×SI₄~a|
-   2 g	o0900425..	@pcsl%pc:c/SIG₇=|DUG~b×SIG₇|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|DUG~b×SIG₇|
-   1 g	o0900425..	@pcsl%pc:c/SIG₇=|DUG~b×SIG₇|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×SIG₇|
-   1 g	o0900433..	@pcsl%pc:c/=|DUG~b×ŠE~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×ŠE~a|
-   1 g	o0900445..	@pcsl%pc:c/TI=|DUG~b×TI|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~b×TI|
-   5 g	o0900461..	@pcsl%pc:c/X=|DUG~b×X|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|DUG~b×X|
-   1 g	o0900472..	@pcsl%pc:c/ZATU781=|DUG~b×ZATU781|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|DUG~b×ZATU781|
-   1 g	o0900483..	@pcsl%pc:s/=DUR~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	DUR~a
-   3 g	o0900484..	@pcsl%pc:s/=DUR~b--#wn%qpc:#u%:#a1#a1#u0#-k-------	DUR~b
-   1 g	o0900484..	@pcsl%pc:s/=DUR~b--#wn%qpc:#u%:#a1#a1#u0#-k?------	DUR~b
-   2 g	o0900484..	@pcsl%pc:s/=DUR~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	DUR~b
-   1 g	o0900484..	@pcsl%pc:s/=DUR~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	DUR~b
-  13 g	o0900484..	@pcsl%pc:s/=DUR~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	DUR~b
-   1 g	o0900485..	@pcsl%pc:s/DUR₂=DUR₂--#wn%qpc:#u%:#a1#a1#u0#.m-------	DUR₂
-   3 g	o0900485..	@pcsl%pc:s/DUR₂=DUR₂--#wn%qpc:#u%:#a1#a1#u0#+m-------	DUR₂
-   1 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#-m-------	E₂~a
-  12 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	E₂~a
-   3 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	E₂~a
-   1 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	E₂~a
-   1 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#.m?------	E₂~a
-  37 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	E₂~a
-   1 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	E₂~a
-  10 g	o0900493..	@pcsl%pc:s/=E₂~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	E₂~a
-   4 g	o0900494..	@pcsl%pc:s/=E₂~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	E₂~b
-   1 g	o0900494..	@pcsl%pc:s/=E₂~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	E₂~b
-   2 g	o0900494..	@pcsl%pc:s/=E₂~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	E₂~b
-   2 g	o0900494..	@pcsl%pc:s/=E₂~b--#wn%qpc:#u%:#a1#a1#u0#+k?------	E₂~b
-   1 g	o0900495..	@pcsl%pc:s/=E₂~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	E₂~c
-   1 g	o0900513..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#-m-------	EN~a
-  46 g	o0900513..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	EN~a
-   5 g	o0900513..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	EN~a
-  86 g	o0900513..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	EN~a
-   1 g	o0900513..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	EN~a
-   5 g	o0900513..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	EN~a
-   2 g	o0900519..	@pcsl%pc:s/=EN~c--#wn%qpc:#u%:#a1#a1#u0#.k-------	EN~c
-   2 g	o0900519..	@pcsl%pc:s/=EN~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	EN~c
-   1 g	o0900529..	@pcsl%pc:s/EN₂=EN₂--#wn%qpc:#u%:#a1#a1#u0#.k?------	EN₂
-   1 g	o0900529..	@pcsl%pc:s/EN₂=EN₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	EN₂
-   1 g	o0900532..	@pcsl%pc:c/=|EN₂.E₂~b|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|EN₂.E₂~b|
-   1 g	o0900532..	@pcsl%pc:c/=|EN₂.E₂~b|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|EN₂×E₂~b|
-   1 g	o0900532..	@pcsl%pc:c/=|EN₂.E₂~b|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|EN₂×E₂~b|
-   7 g	o0900534..	@pcsl%pc:s/ENGIZ=ENGIZ--#wn%qpc:#u%:#a1#a1#u0#.k-------	ENGIZ
-   1 g	o0900534..	@pcsl%pc:s/ENGIZ=ENGIZ--#wn%qpc:#u%:#a1#a1#u0#.k?------	ENGIZ
-   4 g	o0900534..	@pcsl%pc:s/ENGIZ=ENGIZ--#wn%qpc:#u%:#a1#a1#u0#+k-------	ENGIZ
-   2 g	o0900541..	@pcsl%pc:s/=ERIM~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ERIM~a
-   3 g	o0900541..	@pcsl%pc:s/=ERIM~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	ERIM~a
-   9 g	o0900541..	@pcsl%pc:s/=ERIM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ERIM~a
-  11 g	o0900541..	@pcsl%pc:s/=ERIM~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	ERIM~a
-   2 g	o0900545..	@pcsl%pc:s/ERIN=ERIN--#wn%qpc:#u%:#a1#a1#u0#.k-------	ERIN
-   2 g	o0900545..	@pcsl%pc:s/ERIN=ERIN--#wn%qpc:#u%:#a1#a1#u0#+k-------	ERIN
-   1 g	o0900546..	@pcsl%pc:s/EŠDA=EŠDA--#wn%qpc:#u%:#a1#a1#u0#+k-------	EŠDA
-   1 g	o0900552..	@pcsl%pc:s/=EZEN~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	EZEN~b
-   2 g	o0900599..	@pcsl%pc:s/=GA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	GA~a
-   2 g	o0900599..	@pcsl%pc:s/=GA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GA~a
-   2 g	o0900599..	@pcsl%pc:s/=GA~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	GA~a
-   1 g	o0900616..	@pcsl%pc:s/=GA₂~a1--#wn%qpc:#u%:#a1#a1#u0#+k-------	GA₂~a1
-   1 g	o0900634..	@pcsl%pc:c/=|GA₂~a1×GEŠTU~c3|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|GA₂~a1×GEŠTU~c3|
-   1 g	o0900635..	@pcsl%pc:c/=|GA₂~a1×GEŠTU~c5|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|GA₂~a1×GEŠTU~c5|
-   6 g	o0900635..	@pcsl%pc:c/=|GA₂~a1×GEŠTU~c5|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|GA₂~a1×GEŠTU~c5|
-   3 g	o0900635..	@pcsl%pc:c/=|GA₂~a1×GEŠTU~c5|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GA₂~a1×GEŠTU~c5|
-   1 g	o0900689..	@pcsl%pc:c/=|GA₂~a1×SU~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GA₂~a1×SU~a|
-   1 g	o0900701..	@pcsl%pc:c/ŠA=|GA₂~a1×ŠA|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GA₂~a1×ŠA|
-   2 g	o0900709..	@pcsl%pc:c/X=|GA₂~a1×X|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|GA₂~a1×X|
-   1 g	o0900709..	@pcsl%pc:c/X=|GA₂~a1×X|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GA₂~a1×X|
-   1 g	o0900719..	@pcsl%pc:s/=GAʾAR~a1--#wn%qpc:#u%:#a1#a1#u0#+k-------	GAʾAR~a1
-   1 g	o0900729..	@pcsl%pc:s/=GAL~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	GAL~a
-   3 g	o0900729..	@pcsl%pc:s/=GAL~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	GAL~a
-   1 g	o0900729..	@pcsl%pc:s/=GAL~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	GAL~a
-   1 g	o0900729..	@pcsl%pc:s/=GAL~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	GAL~a
-  15 g	o0900729..	@pcsl%pc:s/=GAL~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GAL~a
-   1 g	o0900729..	@pcsl%pc:s/=GAL~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	GAL~a
-   4 g	o0900736..	@pcsl%pc:s/=GAN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GAN~a
-   1 g	o0900738..	@pcsl%pc:s/=GAN~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	GAN~b
-  14 g	o0900778..	@pcsl%pc:s/GAN₂=GAN₂--#wn%qpc:#u%:#a1#a1#u0#-k-------	GAN₂
-  18 g	o0900778..	@pcsl%pc:s/GAN₂=GAN₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	GAN₂
-   1 g	o0900778..	@pcsl%pc:s/GAN₂=GAN₂--#wn%qpc:#u%:#a1#a1#u0#.k?------	GAN₂
-  23 g	o0900778..	@pcsl%pc:s/GAN₂=GAN₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	GAN₂
-   1 g	o0900778..	@pcsl%pc:s/GAN₂=GAN₂--#wn%qpc:#u%:#a1#a1#u0#+s-------	GAN₂
-   2 g	o0900779..	@pcsl%pc:s/GAR=GAR--#wn%qpc:#u%:#a1#a1#u0#-k-------	GAR
-   9 g	o0900779..	@pcsl%pc:s/GAR=GAR--#wn%qpc:#u%:#a1#a1#u0#.k-------	GAR
-   2 g	o0900779..	@pcsl%pc:s/GAR=GAR--#wn%qpc:#u%:#a1#a1#u0#.m-------	GAR
-  25 g	o0900779..	@pcsl%pc:s/GAR=GAR--#wn%qpc:#u%:#a1#a1#u0#+k-------	GAR
-   1 g	o0900800..	@pcsl%pc:s/=GEŠTU~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	GEŠTU~b
-   2 g	o0900803..	@pcsl%pc:s/=GEŠTU~c5--#wn%qpc:#u%:#a1#a1#u0#+k-------	GEŠTU~c5
-   3 g	o0900806..	@pcsl%pc:s/GI=GI--#wn%qpc:#u%:#a1#a1#u0#-k-------	GI
-  23 g	o0900806..	@pcsl%pc:s/GI=GI--#wn%qpc:#u%:#a1#a1#u0#.k-------	GI
-   2 g	o0900806..	@pcsl%pc:s/GI=GI--#wn%qpc:#u%:#a1#a1#u0#.k?------	GI
-   1 g	o0900806..	@pcsl%pc:s/GI=GI--#wn%qpc:#u%:#a1#a1#u0#.m-------	GI
-  45 g	o0900806..	@pcsl%pc:s/GI=GI--#wn%qpc:#u%:#a1#a1#u0#+k-------	GI
-   2 g	o0900806..	@pcsl%pc:s/GI=GI--#wn%qpc:#u%:#a1#a1#u0#+m-------	GI
-   1 g	o0900812..	@pcsl%pc:c/=|GI×KU~b1|--#wn%qpc:#u%:#a1#a1#e0#.m-------	|GI×KU~b1|
-   4 g	o0900812..	@pcsl%pc:c/=|GI×KU~b1|--#wn%qpc:#u%:#a1#a1#e0#+m-------	|GI×KU~b1|
-   1 g	o0900812..	@pcsl%pc:c/=|GI×KU~b1|--#wn%qpc:#u%:#a1#a1#e0#+m?------	|GI×KU~b1|
-   1 g	o0900822..	@pcsl%pc:c/GI=|GI&GI|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GI&GI|
-   1 g	o0900829..	@pcsl%pc:s/=GI₄~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GI₄~a
-   2 g	o0900836..	@pcsl%pc:s/GI₆=GI₆--#wn%qpc:#u%:#a1#a1#u0#+m-------	GI₆
-   1 g	o0900839..	@pcsl%pc:s/GIBIL=GIBIL--#wn%qpc:#u%:#a1#a1#u0#-k-------	GIBIL
-  10 g	o0900839..	@pcsl%pc:s/GIBIL=GIBIL--#wn%qpc:#u%:#a1#a1#u0#.k-------	GIBIL
-  14 g	o0900839..	@pcsl%pc:s/GIBIL=GIBIL--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIBIL
-   2 g	o0900855..	@pcsl%pc:s/=GIR₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIR₂~a
-   1 g	o0900855..	@pcsl%pc:s/=GIR₂~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	GIR₂~a
-   4 g	o0900860..	@pcsl%pc:s/=GIR₃~c--#wn%qpc:#u%:#a1#a1#u0#.k-------	GIR₃~c
-   1 g	o0900860..	@pcsl%pc:s/=GIR₃~c--#wn%qpc:#u%:#a1#a1#u0#.k?------	GIR₃~c
-   3 g	o0900860..	@pcsl%pc:s/=GIR₃~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIR₃~c
-   1 g	o0900869..	@pcsl%pc:s/=GIR₃@g~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIR₃@g~a
-   1 g	o0900870..	@pcsl%pc:s/=GIR₃@g~b--#wn%qpc:#u%:#a1#a1#u0#-k-------	GIR₃@g~b
-   1 g	o0900870..	@pcsl%pc:s/=GIR₃@g~b--#wn%qpc:#u%:#a1#a1#u0#-k?------	GIR₃@g~b
-  13 g	o0900870..	@pcsl%pc:s/=GIR₃@g~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	GIR₃@g~b
-   2 g	o0900870..	@pcsl%pc:s/=GIR₃@g~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	GIR₃@g~b
-  23 g	o0900870..	@pcsl%pc:s/=GIR₃@g~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIR₃@g~b
-   1 g	o0900871..	@pcsl%pc:s/=GIR₃@g~c--#wn%qpc:#u%:#a1#a1#u0#+m-------	GIR₃@g~c
-   1 g	o0900875..	@pcsl%pc:s/GIŠ=GIŠ--#wn%qpc:#u%:#a1#a1#u0#-k-------	GIŠ
-   1 g	o0900875..	@pcsl%pc:s/GIŠ=GIŠ--#wn%qpc:#u%:#a1#a1#u0#.k?------	GIŠ
-   6 g	o0900875..	@pcsl%pc:s/GIŠ=GIŠ--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIŠ
-   1 g	o0900875..	@pcsl%pc:s/GIŠ=GIŠ--#wn%qpc:#u%:#a1#a1#u0#+k?------	GIŠ
-   1 g	o0900877..	@pcsl%pc:c/TE=|GIŠ.TE|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|GIŠ.TE|
-   2 g	o0900883..	@pcsl%pc:c/=|(GIŠ×ŠU₂)~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GIŠ×ŠU₂~a|
-   1 g	o0900889..	@pcsl%pc:s/=GIŠ₃~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIŠ₃~a
-   1 g	o0900890..	@pcsl%pc:s/=GIŠ₃~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	GIŠ₃~b
-   1 g	o0900899..	@pcsl%pc:s/=GIŠIMMAR~b1--#wn%qpc:#u%:#a1#a1#u0#+k-------	GIŠIMMAR~b1
-   4 g	o0900906..	@pcsl%pc:s/GU=GU--#wn%qpc:#u%:#a1#a1#u0#+k-------	GU
-   1 g	o0900908..	@pcsl%pc:s/GU₄=GU₄--#wn%qpc:#u%:#a1#a1#u0#.k-------	GU₄
-   6 g	o0900908..	@pcsl%pc:s/GU₄=GU₄--#wn%qpc:#u%:#a1#a1#u0#+k-------	GU₄
-   1 g	o0900912..	@pcsl%pc:s/GU₇=GU₇--#wn%qpc:#u%:#a1#a1#u0#-k-------	GU₇
-   5 g	o0900912..	@pcsl%pc:s/GU₇=GU₇--#wn%qpc:#u%:#a1#a1#u0#.k-------	GU₇
-   1 g	o0900912..	@pcsl%pc:s/GU₇=GU₇--#wn%qpc:#u%:#a1#a1#u0#.k?------	GU₇
-  15 g	o0900912..	@pcsl%pc:s/GU₇=GU₇--#wn%qpc:#u%:#a1#a1#u0#+k-------	GU₇
-   1 g	o0900914..	@pcsl%pc:s/=GU₄@g--#wn%qpc:#u%:#a1#a1#u0#+k-------	GU₄@g
-   1 g	o0900914..	@pcsl%pc:s/=GU₄@g--#wn%qpc:#u%:#a1#a1#u0#+m-------	GU₄@g
-   4 g	o0900920..	@pcsl%pc:s/GUG₂=GUG₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	GUG₂
-   1 g	o0900920..	@pcsl%pc:s/GUG₂=GUG₂--#wn%qpc:#u%:#a1#a1#u0#.k?------	GUG₂
-   9 g	o0900920..	@pcsl%pc:s/GUG₂=GUG₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	GUG₂
-   1 g	o0900935..	@pcsl%pc:s/GUL=GUL--#wn%qpc:#u%:#a1#a1#u0#+k-------	GUL
-   1 g	o0900938..	@pcsl%pc:s/=GUM~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	GUM~b
-   2 g	o0900948..	@pcsl%pc:s/=GURUŠ~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	GURUŠ~a
-   2 g	o0900948..	@pcsl%pc:s/=GURUŠ~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	GURUŠ~a
-   2 g	o0900948..	@pcsl%pc:s/=GURUŠ~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	GURUŠ~a
-   1 g	o0900955..	@pcsl%pc:s/GURUŠDA=GURUŠDA--#wn%qpc:#u%:#a1#a1#u0#.k-------	GURUŠDA
-   1 g	o0900955..	@pcsl%pc:s/GURUŠDA=GURUŠDA--#wn%qpc:#u%:#a1#a1#u0#+k-------	GURUŠDA
-   1 g	o0900955..	@pcsl%pc:s/GURUŠDA=GURUŠDA--#wn%qpc:#u%:#a1#a1#u0#+k?------	GURUŠDA
-   1 g	o0900956..	@pcsl%pc:s/HAL=HAL--#wn%qpc:#u%:#a1#a1#u0#+k-------	HAL
-   1 g	o0900958..	@pcsl%pc:s/HAŠHUR=HAŠHUR--#wn%qpc:#u%:#a1#a1#u0#-k-------	HAŠHUR
-   7 g	o0900958..	@pcsl%pc:s/HAŠHUR=HAŠHUR--#wn%qpc:#u%:#a1#a1#u0#.k-------	HAŠHUR
-  14 g	o0900958..	@pcsl%pc:s/HAŠHUR=HAŠHUR--#wn%qpc:#u%:#a1#a1#u0#+k-------	HAŠHUR
-   2 g	o0900960..	@pcsl%pc:s/HI=HI--#wn%qpc:#u%:#a1#a1#u0#.k-------	HI
-   1 g	o0900960..	@pcsl%pc:s/HI=HI--#wn%qpc:#u%:#a1#a1#u0#.k?------	HI
-   2 g	o0900960..	@pcsl%pc:s/HI=HI--#wn%qpc:#u%:#a1#a1#u0#+k-------	HI
-   2 g	o0900960..	@pcsl%pc:s/HI=HI--#wn%qpc:#u%:#a1#a1#u0#+m-------	HI
-   3 g	o0900966..	@pcsl%pc:c/=|HI×LAGAB~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|HI×LAGAB~a|
-   1 g	o0900970..	@pcsl%pc:c/HI=|HI×1(N57@t)|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|HI×1(N57)@t|
-   2 g	o0900976..	@pcsl%pc:s/=HI@g~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	HI@g~a
-   1 g	o0900976..	@pcsl%pc:s/=HI@g~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	HI@g~a
-   6 g	o0900976..	@pcsl%pc:s/=HI@g~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	HI@g~a
-   1 g	o0900977..	@pcsl%pc:s/=HI@g~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	HI@g~b
-   1 g	o0900981..	@pcsl%pc:s/I=I--#wn%qpc:#u%:#a1#a1#u0#.m-------	I
-   1 g	o0900981..	@pcsl%pc:s/I=I--#wn%qpc:#u%:#a1#a1#u0#+m-------	I
-   1 g	o0900983..	@pcsl%pc:s/=IB~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	IB~a
-   2 g	o0900983..	@pcsl%pc:s/=IB~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	IB~a
-   5 g	o0900983..	@pcsl%pc:s/=IB~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	IB~a
-   1 g	o0900983..	@pcsl%pc:s/=IB~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	IB~a
-   2 g	o0900995..	@pcsl%pc:s/IL=IL--#wn%qpc:#u%:#a1#a1#u0#.k-------	IL
-   1 g	o0900995..	@pcsl%pc:s/IL=IL--#wn%qpc:#u%:#a1#a1#u0#.m-------	IL
-   4 g	o0900995..	@pcsl%pc:s/IL=IL--#wn%qpc:#u%:#a1#a1#u0#+k-------	IL
-   1 g	o0901000..	@pcsl%pc:s/=IM~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	IM~a
-   1 g	o0901000..	@pcsl%pc:s/=IM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	IM~a
-   1 g	o0901005..	@pcsl%pc:s/=IN~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	IN~b
-   1 g	o0901009..	@pcsl%pc:s/=IR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	IR~a
-   1 g	o0901020..	@pcsl%pc:s/=IŠ~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	IŠ~a
-   1 g	o0901022..	@pcsl%pc:s/=IŠ~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	IŠ~b
-   4 g	o0901030..	@pcsl%pc:s/=KA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KA~a
-   2 g	o0901043..	@pcsl%pc:c/LAM=|KA₂~d×LAM~b|--#wn%qpc:#u%:#a1#a1#e0#+m-------	|KA₂×LAM|
-   1 g	o0901044..	@pcsl%pc:s/KAB=KAB--#wn%qpc:#u%:#a1#a1#u0#.k?------	KAB
-   4 g	o0901044..	@pcsl%pc:s/KAB=KAB--#wn%qpc:#u%:#a1#a1#u0#+k-------	KAB
-   1 g	o0901052..	@pcsl%pc:s/=KAK~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KAK~a
-   2 g	o0901052..	@pcsl%pc:s/=KAK~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KAK~a
-   2 g	o0901062..	@pcsl%pc:s/=KALAM~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KALAM~a
-   1 g	o0901062..	@pcsl%pc:s/=KALAM~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	KALAM~a
-   3 g	o0901062..	@pcsl%pc:s/=KALAM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KALAM~a
-   3 g	o0901063..	@pcsl%pc:s/=KALAM~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	KALAM~b
-   1 g	o0901073..	@pcsl%pc:s/=KAR₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KAR₂~a
-   1 g	o0901075..	@pcsl%pc:s/KASKAL=KASKAL--#wn%qpc:#u%:#a1#a1#u0#.k-------	KASKAL
-   2 g	o0901075..	@pcsl%pc:s/KASKAL=KASKAL--#wn%qpc:#u%:#a1#a1#u0#+k-------	KASKAL
-   2 g	o0901078..	@pcsl%pc:s/=KAŠ~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	KAŠ~a
-  10 g	o0901078..	@pcsl%pc:s/=KAŠ~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KAŠ~a
-   2 g	o0901078..	@pcsl%pc:s/=KAŠ~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	KAŠ~a
-  18 g	o0901078..	@pcsl%pc:s/=KAŠ~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KAŠ~a
-   1 g	o0901078..	@pcsl%pc:s/=KAŠ~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	KAŠ~a
-   2 g	o0901080..	@pcsl%pc:s/=KAŠ~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	KAŠ~b
-   1 g	o0901080..	@pcsl%pc:s/=KAŠ~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	KAŠ~b
-   3 g	o0901080..	@pcsl%pc:s/=KAŠ~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	KAŠ~b
-   2 g	o0901080..	@pcsl%pc:s/=KAŠ~b--#wn%qpc:#u%:#a1#a1#u0#+m-------	KAŠ~b
-   2 g	o0901082..	@pcsl%pc:s/=KAŠ~c--#wn%qpc:#u%:#a1#a1#u0#.k-------	KAŠ~c
-   2 g	o0901082..	@pcsl%pc:s/=KAŠ~c--#wn%qpc:#u%:#a1#a1#u0#+m-------	KAŠ~c
-   8 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#-k-------	KI
-  14 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KI
-   1 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#.m-------	KI
-  34 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KI
-   1 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#+k?------	KI
-   1 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#+m-------	KI
-   1 g	o0901090..	@pcsl%pc:s/KI=KI--#wn%qpc:#u%:#a1#a1#u0#+m?------	KI
-   5 g	o0901097..	@pcsl%pc:s/=KID~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KID~a
-   2 g	o0901098..	@pcsl%pc:s/=KID~b--#wn%qpc:#u%:#a1#a1#u0#-k-------	KID~b
-  11 g	o0901098..	@pcsl%pc:s/=KID~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	KID~b
-  19 g	o0901098..	@pcsl%pc:s/=KID~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	KID~b
-   3 g	o0901115..	@pcsl%pc:s/=KISAL~b1--#wn%qpc:#u%:#a1#a1#u0#+k-------	KISAL~b1
-   1 g	o0901122..	@pcsl%pc:s/=KISIM~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	KISIM~a
-   1 g	o0901122..	@pcsl%pc:s/=KISIM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KISIM~a
-   1 g	o0901122..	@pcsl%pc:s/=KISIM~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	KISIM~a
-   1 g	o0901123..	@pcsl%pc:s/=KISIM~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	KISIM~b
-   4 g	o0901128..	@pcsl%pc:s/KIŠ=KIŠ--#wn%qpc:#u%:#a1#a1#u0#+k-------	KIŠ
-   1 g	o0901131..	@pcsl%pc:s/=KIŠIK~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KIŠIK~a
-   1 g	o0901137..	@pcsl%pc:s/=KU~b1--#wn%qpc:#u%:#a1#a1#u0#.m-------	KU~b1
-   1 g	o0901137..	@pcsl%pc:s/=KU~b1--#wn%qpc:#u%:#a1#a1#u0#+k-------	KU~b1
-   1 g	o0901137..	@pcsl%pc:s/=KU~b1--#wn%qpc:#u%:#a1#a1#u0#+m-------	KU~b1
-   1 g	o0901142..	@pcsl%pc:s/=KU₃~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KU₃~a
-   2 g	o0901142..	@pcsl%pc:s/=KU₃~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	KU₃~a
-   3 g	o0901142..	@pcsl%pc:s/=KU₃~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KU₃~a
-   2 g	o0901142..	@pcsl%pc:s/=KU₃~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	KU₃~a
-   1 g	o0901145..	@pcsl%pc:s/=KU₆~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KU₆~a
-   1 g	o0901145..	@pcsl%pc:s/=KU₆~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	KU₆~a
-   1 g	o0901145..	@pcsl%pc:s/=KU₆~a--#wn%qpc:#u%:#a1#a1#u0#.m?------	KU₆~a
-   5 g	o0901145..	@pcsl%pc:s/=KU₆~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KU₆~a
-   6 g	o0901145..	@pcsl%pc:s/=KU₆~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	KU₆~a
-   3 g	o0901149..	@pcsl%pc:c/=|KU₆~a.1(N02)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|KU₆~a.1(N02)|
-   1 g	o0901153..	@pcsl%pc:c/=|KU₆~a+KU₆~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|KU₆~a+KU₆~a|
-   4 g	o0901158..	@pcsl%pc:s/=KUR~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	KUR~a
-   9 g	o0901158..	@pcsl%pc:s/=KUR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	KUR~a
-   1 g	o0901184..	@pcsl%pc:s/LA₂=LA₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	LA₂
-   2 g	o0901187..	@pcsl%pc:s/=LAGAB~b--#wn%qpc:#u%:#a1#a1#u0#-k-------	LAGAB~b
-   3 g	o0901187..	@pcsl%pc:s/=LAGAB~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	LAGAB~b
-   1 g	o0901187..	@pcsl%pc:s/=LAGAB~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	LAGAB~b
-   5 g	o0901187..	@pcsl%pc:s/=LAGAB~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	LAGAB~b
-   2 g	o0901187..	@pcsl%pc:s/=LAGAB~b--#wn%qpc:#u%:#a1#a1#u0#+m-------	LAGAB~b
-   1 g	o0901243..	@pcsl%pc:c/ŠA=|LAGAB~a×ŠA|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|LAGAB~a×ŠA|
-   2 g	o0901243..	@pcsl%pc:c/ŠA=|LAGAB~a×ŠA|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|LAGAB~a×ŠA|
-   2 g	o0901245..	@pcsl%pc:c/=|LAGAB~a×ŠITA~a1|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|LAGAB~a×ŠITA~a1|
-   1 g	o0901268..	@pcsl%pc:s/LAHTAN₂=LAHTAN₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	LAHTAN₂
-   1 g	o0901270..	@pcsl%pc:s/=LAL₂~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	LAL₂~a
-   3 g	o0901270..	@pcsl%pc:s/=LAL₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	LAL₂~a
-   1 g	o0901284..	@pcsl%pc:s/=LAM~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	LAM~b
-   1 g	o0901284..	@pcsl%pc:s/=LAM~b--#wn%qpc:#u%:#a1#a1#u0#+m-------	LAM~b
-   1 g	o0901304..	@pcsl%pc:s/LU₂=LU₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	LU₂
-   4 g	o0901313..	@pcsl%pc:s/MA=MA--#wn%qpc:#u%:#a1#a1#u0#-k-------	MA
-   8 g	o0901313..	@pcsl%pc:s/MA=MA--#wn%qpc:#u%:#a1#a1#u0#.k-------	MA
-  23 g	o0901313..	@pcsl%pc:s/MA=MA--#wn%qpc:#u%:#a1#a1#u0#+k-------	MA
-   3 g	o0901313..	@pcsl%pc:s/MA=MA--#wn%qpc:#u%:#a1#a1#u0#+m-------	MA
-   1 g	o0901338..	@pcsl%pc:c/=|MAH~a×NA~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|MAH~a×NA~a|
-   1 g	o0901338..	@pcsl%pc:c/=|MAH~a×NA~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|MAH~a×NA~a|
-   1 g	o0901361..	@pcsl%pc:s/=MAR~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	MAR~a
-   7 g	o0901361..	@pcsl%pc:s/=MAR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	MAR~a
-   1 g	o0901376..	@pcsl%pc:s/MAŠ=MAŠ--#wn%qpc:#u%:#a1#a1#u0#.k-------	MAŠ
-   2 g	o0901376..	@pcsl%pc:s/MAŠ=MAŠ--#wn%qpc:#u%:#a1#a1#u0#.m-------	MAŠ
-  12 g	o0901376..	@pcsl%pc:s/MAŠ=MAŠ--#wn%qpc:#u%:#a1#a1#u0#+k-------	MAŠ
-   4 g	o0901376..	@pcsl%pc:s/MAŠ=MAŠ--#wn%qpc:#u%:#a1#a1#u0#+m-------	MAŠ
-   3 g	o0901377..	@pcsl%pc:s/MAŠ₂=MAŠ₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	MAŠ₂
-   2 g	o0901377..	@pcsl%pc:s/MAŠ₂=MAŠ₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	MAŠ₂
-   1 g	o0901377..	@pcsl%pc:s/MAŠ₂=MAŠ₂--#wn%qpc:#u%:#a1#a1#u0#+m-------	MAŠ₂
-  13 g	o0901380..	@pcsl%pc:s/=ME~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ME~a
-   5 g	o0901380..	@pcsl%pc:s/=ME~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	ME~a
-  30 g	o0901380..	@pcsl%pc:s/=ME~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ME~a
-   2 g	o0901380..	@pcsl%pc:s/=ME~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	ME~a
-   1 g	o0901380..	@pcsl%pc:s/=ME~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	ME~a
-   1 g	o0901384..	@pcsl%pc:s/=MEN~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	MEN~a
-   7 g	o0901384..	@pcsl%pc:s/=MEN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	MEN~a
-   1 g	o0901384..	@pcsl%pc:s/=MEN~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	MEN~a
-   1 g	o0901387..	@pcsl%pc:s/MES=MES--#wn%qpc:#u%:#a1#a1#u0#+k-------	MES
-   2 g	o0901392..	@pcsl%pc:s/MU=MU--#wn%qpc:#u%:#a1#a1#u0#-k-------	MU
-   9 g	o0901392..	@pcsl%pc:s/MU=MU--#wn%qpc:#u%:#a1#a1#u0#.k-------	MU
-  17 g	o0901392..	@pcsl%pc:s/MU=MU--#wn%qpc:#u%:#a1#a1#u0#+k-------	MU
-   1 g	o0901393..	@pcsl%pc:s/MUD=MUD--#wn%qpc:#u%:#a1#a1#u0#.k-------	MUD
-   1 g	o0901393..	@pcsl%pc:s/MUD=MUD--#wn%qpc:#u%:#a1#a1#u0#+k-------	MUD
-   1 g	o0901396..	@pcsl%pc:s/=MUD₃~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	MUD₃~a
-   1 g	o0901398..	@pcsl%pc:s/=MUD₃~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	MUD₃~c
-   3 g	o0901419..	@pcsl%pc:s/=MUŠ₃~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	MUŠ₃~a
-   3 g	o0901419..	@pcsl%pc:s/=MUŠ₃~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	MUŠ₃~a
-   7 g	o0901419..	@pcsl%pc:s/=MUŠ₃~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	MUŠ₃~a
-   1 g	o0901419..	@pcsl%pc:s/=MUŠ₃~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	MUŠ₃~a
-   3 g	o0901426..	@pcsl%pc:s/MUŠEN=MUŠEN--#wn%qpc:#u%:#a1#a1#u0#.k-------	MUŠEN
-   1 g	o0901426..	@pcsl%pc:s/MUŠEN=MUŠEN--#wn%qpc:#u%:#a1#a1#u0#.k?------	MUŠEN
-   2 g	o0901426..	@pcsl%pc:s/MUŠEN=MUŠEN--#wn%qpc:#u%:#a1#a1#u0#.m-------	MUŠEN
-   4 g	o0901426..	@pcsl%pc:s/MUŠEN=MUŠEN--#wn%qpc:#u%:#a1#a1#u0#+k-------	MUŠEN
-   5 g	o0901426..	@pcsl%pc:s/MUŠEN=MUŠEN--#wn%qpc:#u%:#a1#a1#u0#+m-------	MUŠEN
-   1 g	o0901426..	@pcsl%pc:s/MUŠEN=MUŠEN--#wn%qpc:#u%:#a1#a1#u0#+m?------	MUŠEN
-   3 g	o0901431..	@pcsl%pc:c/MUŠEN=|MUŠEN×2(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|MUŠEN×2(N57)|
-   5 g	o0901431..	@pcsl%pc:c/MUŠEN=|MUŠEN×2(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|MUŠEN×2(N57)|
-   2 g	o0901431..	@pcsl%pc:c/MUŠEN=|MUŠEN×2(N57)|--#wn%qpc:#u%:#a1#a1#e0#+m-------	|MUŠEN×2(N57)|
-   1 g	o0901437..	@pcsl%pc:s/=NA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NA~a
-   6 g	o0901437..	@pcsl%pc:s/=NA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NA~a
-   1 g	o0901438..	@pcsl%pc:s/=NA~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	NA~b
-   1 g	o0901442..	@pcsl%pc:s/=NA₂~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NA₂~a
-   1 g	o0901452..	@pcsl%pc:s/=NAGA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NAGA~a
-   1 g	o0901452..	@pcsl%pc:s/=NAGA~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	NAGA~a
-   1 g	o0901452..	@pcsl%pc:s/=NAGA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NAGA~a
-   2 g	o0901457..	@pcsl%pc:s/=NAGAR~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NAGAR~a
-   1 g	o0901457..	@pcsl%pc:s/=NAGAR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NAGAR~a
-   1 g	o0901467..	@pcsl%pc:s/=NAM~d--#wn%qpc:#u%:#a1#a1#u0#+k-------	NAM~d
-   9 g	o0901468..	@pcsl%pc:s/NAM₂=NAM₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	NAM₂
-   1 g	o0901468..	@pcsl%pc:s/NAM₂=NAM₂--#wn%qpc:#u%:#a1#a1#u0#.k?------	NAM₂
-  11 g	o0901468..	@pcsl%pc:s/NAM₂=NAM₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	NAM₂
-   1 g	o0901468..	@pcsl%pc:s/NAM₂=NAM₂--#wn%qpc:#u%:#a1#a1#u0#+k?------	NAM₂
-   2 g	o0901472..	@pcsl%pc:s/NAMEŠDA=NAMEŠDA--#wn%qpc:#u%:#a1#a1#u0#.k-------	NAMEŠDA
-   1 g	o0901472..	@pcsl%pc:s/NAMEŠDA=NAMEŠDA--#wn%qpc:#u%:#a1#a1#u0#+k?------	NAMEŠDA
-   1 g	o0901475..	@pcsl%pc:s/=NANNA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NANNA~a
-   2 g	o0901481..	@pcsl%pc:s/NAR=NAR--#wn%qpc:#u%:#a1#a1#u0#.k-------	NAR
-   2 g	o0901481..	@pcsl%pc:s/NAR=NAR--#wn%qpc:#u%:#a1#a1#u0#+k-------	NAR
-   5 g	o0901483..	@pcsl%pc:s/=NE~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NE~a
-   1 g	o0901483..	@pcsl%pc:s/=NE~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	NE~a
-   6 g	o0901483..	@pcsl%pc:s/=NE~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NE~a
-   1 g	o0901496..	@pcsl%pc:s/=NESAG₂~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	NESAG₂~b
-   3 g	o0901501..	@pcsl%pc:s/=NI~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NI~a
-   1 g	o0901501..	@pcsl%pc:s/=NI~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	NI~a
-   2 g	o0901501..	@pcsl%pc:s/=NI~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	NI~a
-   6 g	o0901501..	@pcsl%pc:s/=NI~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NI~a
-   4 g	o0901501..	@pcsl%pc:s/=NI~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	NI~a
-   3 g	o0901502..	@pcsl%pc:s/=NI~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	NI~b
-   4 g	o0901504..	@pcsl%pc:c/RU=|NI~a.RU|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|NI~a.RU|
-  25 g	o0901504..	@pcsl%pc:c/RU=|NI~a.RU|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|NI~a.RU|
-   2 g	o0901504..	@pcsl%pc:c/RU=|NI~a.RU|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|NI~a.RU|
-  47 g	o0901504..	@pcsl%pc:c/RU=|NI~a.RU|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|NI~a.RU|
-   1 g	o0901513..	@pcsl%pc:s/NI₂=NI₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	NI₂
-   1 g	o0901516..	@pcsl%pc:s/=NIM~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NIM~a
-   1 g	o0901517..	@pcsl%pc:s/=NIM~b1--#wn%qpc:#u%:#a1#a1#u0#.k-------	NIM~b1
-   1 g	o0901517..	@pcsl%pc:s/=NIM~b1--#wn%qpc:#u%:#a1#a1#u0#.k?------	NIM~b1
-   1 g	o0901517..	@pcsl%pc:s/=NIM~b1--#wn%qpc:#u%:#a1#a1#u0#+k-------	NIM~b1
-   1 g	o0901518..	@pcsl%pc:s/=NIM~b2--#wn%qpc:#u%:#a1#a1#u0#+k-------	NIM~b2
-   1 g	o0901519..	@pcsl%pc:s/=NIM~b3--#wn%qpc:#u%:#a1#a1#u0#+k-------	NIM~b3
-   5 g	o0901521..	@pcsl%pc:s/NIMGIR=NIMGIR--#wn%qpc:#u%:#a1#a1#u0#+k-------	NIMGIR
-   1 g	o0901524..	@pcsl%pc:s/NIN=NIN--#wn%qpc:#u%:#a1#a1#u0#+k-------	NIN
-   1 g	o0901557..	@pcsl%pc:c/NINDA₂=|NINDA₂×1(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|NINDA₂×1(N01)|
-   1 g	o0901572..	@pcsl%pc:c/X=|NINDA₂×X|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|NINDA₂×X|
-   1 g	o0901575..	@pcsl%pc:c/ZATU659=|NINDA₂×(ZATU659×1(N01))|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|NINDA₂×(ZATU659×1(N01))|
-   1 g	o0901575..	@pcsl%pc:c/ZATU659=|NINDA₂×(ZATU659×1(N01))|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|NINDA₂×(ZATU659×1(N01))|
-   1 g	o0901580..	@pcsl%pc:s/=NIR~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NIR~a
-   1 g	o0901580..	@pcsl%pc:s/=NIR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NIR~a
-   1 g	o0901583..	@pcsl%pc:c/AN=|NIR~a×AN|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|NIR~a×AN|
-   1 g	o0901585..	@pcsl%pc:s/=NU@g--#wn%qpc:#u%:#a1#a1#u0#+k-------	NU@g
-   2 g	o0901589..	@pcsl%pc:s/NUMUN=NUMUN--#wn%qpc:#u%:#a1#a1#u0#+k-------	NUMUN
-   6 g	o0901592..	@pcsl%pc:s/=NUN~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	NUN~a
-  25 g	o0901592..	@pcsl%pc:s/=NUN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NUN~a
-   1 g	o0901611..	@pcsl%pc:c/NAM₂=|NUN~a+NAM₂|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|NUN~a+NAM₂|
-  12 g	o0901614..	@pcsl%pc:s/=NUNUZ~a1--#wn%qpc:#u%:#a1#a1#u0#+k-------	NUNUZ~a1
-   1 g	o0901615..	@pcsl%pc:s/=NUNUZ~a2--#wn%qpc:#u%:#a1#a1#u0#+k-------	NUNUZ~a2
-   1 g	o0901618..	@pcsl%pc:s/=NUNUZ~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	NUNUZ~c
-   1 g	o0901625..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	PA~a
-   1 g	o0901625..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#-k?------	PA~a
-  17 g	o0901625..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	PA~a
-   2 g	o0901625..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	PA~a
-  43 g	o0901625..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	PA~a
-   6 g	o0901639..	@pcsl%pc:s/=PAP~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	PAP~a
-  30 g	o0901639..	@pcsl%pc:s/=PAP~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	PAP~a
-   1 g	o0901639..	@pcsl%pc:s/=PAP~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	PAP~a
-   2 g	o0901648..	@pcsl%pc:s/=PIRIG~b1--#wn%qpc:#u%:#a1#a1#u0#.k-------	PIRIG~b1
-   2 g	o0901648..	@pcsl%pc:s/=PIRIG~b1--#wn%qpc:#u%:#a1#a1#u0#+k-------	PIRIG~b1
-   1 g	o0901648..	@pcsl%pc:s/=PIRIG~b1--#wn%qpc:#u%:#a1#a1#u0#+k?------	PIRIG~b1
-   2 g	o0901648..	@pcsl%pc:s/=PIRIG~b1--#wn%qpc:#u%:#a1#a1#u0#+m-------	PIRIG~b1
-   1 g	o0901656..	@pcsl%pc:s/PU₂=PU₂--#wn%qpc:#u%:#a1#a1#u0#.m-------	PU₂
-   1 g	o0901656..	@pcsl%pc:s/PU₂=PU₂--#wn%qpc:#u%:#a1#a1#u0#+k?------	PU₂
-   1 g	o0901656..	@pcsl%pc:s/PU₂=PU₂--#wn%qpc:#u%:#a1#a1#u0#+m-------	PU₂
-   1 g	o0901659..	@pcsl%pc:s/=RAD~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	RAD~a
-   2 g	o0901659..	@pcsl%pc:s/=RAD~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	RAD~a
-   2 g	o0901670..	@pcsl%pc:s/RU=RU--#wn%qpc:#u%:#a1#a1#u0#.k?------	RU
-   1 g	o0901670..	@pcsl%pc:s/RU=RU--#wn%qpc:#u%:#a1#a1#u0#.m-------	RU
-   2 g	o0901670..	@pcsl%pc:s/RU=RU--#wn%qpc:#u%:#a1#a1#u0#+k-------	RU
-   1 g	o0901670..	@pcsl%pc:s/RU=RU--#wn%qpc:#u%:#a1#a1#u0#+k?------	RU
-   1 g	o0901670..	@pcsl%pc:s/RU=RU--#wn%qpc:#u%:#a1#a1#u0#+m-------	RU
-   1 g	o0901674..	@pcsl%pc:s/=SA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	SA~a
-   2 g	o0901674..	@pcsl%pc:s/=SA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	SA~a
-   6 g	o0901677..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#.k-------	SAG
-   2 g	o0901677..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#.k?------	SAG
-   4 g	o0901677..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#.m-------	SAG
-  12 g	o0901677..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#+k-------	SAG
-   3 g	o0901677..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#+m-------	SAG
-   3 g	o0901697..	@pcsl%pc:s/SAL=SAL--#wn%qpc:#u%:#a1#a1#u0#-k-------	SAL
-   1 g	o0901697..	@pcsl%pc:s/SAL=SAL--#wn%qpc:#u%:#a1#a1#u0#-m-------	SAL
-  17 g	o0901697..	@pcsl%pc:s/SAL=SAL--#wn%qpc:#u%:#a1#a1#u0#.k-------	SAL
-   1 g	o0901697..	@pcsl%pc:s/SAL=SAL--#wn%qpc:#u%:#a1#a1#u0#.k?------	SAL
-  36 g	o0901697..	@pcsl%pc:s/SAL=SAL--#wn%qpc:#u%:#a1#a1#u0#+k-------	SAL
-   4 g	o0901697..	@pcsl%pc:s/SAL=SAL--#wn%qpc:#u%:#a1#a1#u0#+m-------	SAL
-   4 g	o0901699..	@pcsl%pc:c/=|SAL.KUR~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|SAL.KUR~a|
-   1 g	o0901699..	@pcsl%pc:c/=|SAL.KUR~a|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|SAL.KUR~a|
-  21 g	o0901699..	@pcsl%pc:c/=|SAL.KUR~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SAL.KUR~a|
-  17 g	o0901709..	@pcsl%pc:s/=SANGA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	SANGA~a
-   2 g	o0901709..	@pcsl%pc:s/=SANGA~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	SANGA~a
-  20 g	o0901709..	@pcsl%pc:s/=SANGA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	SANGA~a
-   2 g	o0901718..	@pcsl%pc:s/=SAR~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	SAR~a
-   3 g	o0901723..	@pcsl%pc:c/=|SAR~a×ŠE~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SAR~a×ŠE~a|
-   3 g	o0901724..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#.k-------	SI
-  10 g	o0901724..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI
-   1 g	o0901724..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+k?------	SI
-   4 g	o0901724..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+m-------	SI
-   1 g	o0901742..	@pcsl%pc:s/=SI₄~d--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI₄~d
-   2 g	o0901744..	@pcsl%pc:s/=SI₄~f--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI₄~f
-   1 g	o0901744..	@pcsl%pc:s/=SI₄~f--#wn%qpc:#u%:#a1#a1#u0#+k?------	SI₄~f
-   1 g	o0901746..	@pcsl%pc:s/SIG=SIG--#wn%qpc:#u%:#a1#a1#u0#+k-------	SIG
-   1 g	o0901753..	@pcsl%pc:s/=SIG₂~a3--#wn%qpc:#u%:#a1#a1#u0#+k-------	SIG₂~a3
-   1 g	o0901757..	@pcsl%pc:s/=SIG₂~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	SIG₂~b
-   1 g	o0901771..	@pcsl%pc:s/SIG₇=SIG₇--#wn%qpc:#u%:#a1#a1#u0#.k-------	SIG₇
-   1 g	o0901771..	@pcsl%pc:s/SIG₇=SIG₇--#wn%qpc:#u%:#a1#a1#u0#+k?------	SIG₇
-   1 g	o0901800..	@pcsl%pc:c/HAŠHUR=|SILA₃~a×HAŠHUR|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|SILA₃~a×HAŠHUR|
-   1 g	o0901800..	@pcsl%pc:c/HAŠHUR=|SILA₃~a×HAŠHUR|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SILA₃~a×HAŠHUR|
-   3 g	o0901812..	@pcsl%pc:c/=|SILA₃~a×KU₆~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SILA₃~a×KU₆~a|
-   1 g	o0901839..	@pcsl%pc:c/=|SILA₃~a×SUM~b|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SILA₃~a×SUM~b|
-   1 g	o0901848..	@pcsl%pc:c/ŠU₂=|SILA₃~a×ŠU₂|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|SILA₃~a×ŠU₂|
-   3 g	o0901848..	@pcsl%pc:c/ŠU₂=|SILA₃~a×ŠU₂|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SILA₃~a×ŠU₂|
-   1 g	o0901866..	@pcsl%pc:s/SIMUG=SIMUG--#wn%qpc:#u%:#a1#a1#u0#+k-------	SIMUG
-   8 g	o0901870..	@pcsl%pc:s/=SU~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	SU~a
-   1 g	o0901870..	@pcsl%pc:s/=SU~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	SU~a
-   1 g	o0901870..	@pcsl%pc:s/=SU~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	SU~a
-  18 g	o0901870..	@pcsl%pc:s/=SU~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	SU~a
-   1 g	o0901870..	@pcsl%pc:s/=SU~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	SU~a
-   1 g	o0901878..	@pcsl%pc:s/SUG=SUG--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUG
-   2 g	o0901879..	@pcsl%pc:s/SUG₅=SUG₅--#wn%qpc:#u%:#a1#a1#u0#.k-------	SUG₅
-   1 g	o0901879..	@pcsl%pc:s/SUG₅=SUG₅--#wn%qpc:#u%:#a1#a1#u0#.k?------	SUG₅
-   1 g	o0901879..	@pcsl%pc:s/SUG₅=SUG₅--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUG₅
-   1 g	o0901881..	@pcsl%pc:s/SUHUR=SUHUR--#wn%qpc:#u%:#a1#a1#u0#-k-------	SUHUR
-   7 g	o0901881..	@pcsl%pc:s/SUHUR=SUHUR--#wn%qpc:#u%:#a1#a1#u0#.k-------	SUHUR
-   1 g	o0901881..	@pcsl%pc:s/SUHUR=SUHUR--#wn%qpc:#u%:#a1#a1#u0#.k?------	SUHUR
-   8 g	o0901881..	@pcsl%pc:s/SUHUR=SUHUR--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUHUR
-   1 g	o0901887..	@pcsl%pc:s/SUKKAL=SUKKAL--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUKKAL
-   1 g	o0901887..	@pcsl%pc:s/SUKKAL=SUKKAL--#wn%qpc:#u%:#a1#a1#u0#+m-------	SUKKAL
-   5 g	o0901891..	@pcsl%pc:c/SUKUD=|(SUKUD+SUKUD)~b|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|(SUKUD+SUKUD)~b|
-   1 g	o0901902..	@pcsl%pc:s/=SUM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUM~a
-   1 g	o0901904..	@pcsl%pc:s/=SUM~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUM~b
-   1 g	o0901908..	@pcsl%pc:s/SUR=SUR--#wn%qpc:#u%:#a1#a1#u0#+k-------	SUR
-   4 g	o0901910..	@pcsl%pc:s/ŠA=ŠA--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠA
-   2 g	o0901910..	@pcsl%pc:s/ŠA=ŠA--#wn%qpc:#u%:#a1#a1#u0#.k?------	ŠA
-   2 g	o0901910..	@pcsl%pc:s/ŠA=ŠA--#wn%qpc:#u%:#a1#a1#u0#.m-------	ŠA
-   1 g	o0901910..	@pcsl%pc:s/ŠA=ŠA--#wn%qpc:#u%:#a1#a1#u0#.m?------	ŠA
-   7 g	o0901910..	@pcsl%pc:s/ŠA=ŠA--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠA
-   5 g	o0901910..	@pcsl%pc:s/ŠA=ŠA--#wn%qpc:#u%:#a1#a1#u0#+m-------	ŠA
-   1 g	o0901914..	@pcsl%pc:c/=|(ŠA×HI@g~a)~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|(ŠA×HI@g~a)~a|
-   1 g	o0901916..	@pcsl%pc:s/=ŠA@g--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠA@g
-   2 g	o0901918..	@pcsl%pc:s/=ŠA₃~a1--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠA₃~a1
-   1 g	o0901918..	@pcsl%pc:s/=ŠA₃~a1--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠA₃~a1
-   1 g	o0901919..	@pcsl%pc:s/=ŠA₃~a2--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠA₃~a2
-   1 g	o0901926..	@pcsl%pc:s/=ŠAB~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	ŠAB~a
-   2 g	o0901926..	@pcsl%pc:s/=ŠAB~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠAB~a
-   5 g	o0901926..	@pcsl%pc:s/=ŠAB~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠAB~a
-   8 g	o0901930..	@pcsl%pc:s/ŠAGAN=ŠAGAN--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠAGAN
-   6 g	o0901930..	@pcsl%pc:s/ŠAGAN=ŠAGAN--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠAGAN
-   1 g	o0901934..	@pcsl%pc:s/=ŠAH₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠAH₂~a
-   1 g	o0901940..	@pcsl%pc:s/=ŠAKIR~c--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠAKIR~c
-   2 g	o0901941..	@pcsl%pc:s/ŠAM₂=ŠAM₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠAM₂
-   1 g	o0901941..	@pcsl%pc:s/ŠAM₂=ŠAM₂--#wn%qpc:#u%:#a1#a1#u0#.k?------	ŠAM₂
-   2 g	o0901941..	@pcsl%pc:s/ŠAM₂=ŠAM₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠAM₂
-  38 g	o0901946..	@pcsl%pc:s/=ŠE~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠE~a
-   2 g	o0901946..	@pcsl%pc:s/=ŠE~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	ŠE~a
-  85 g	o0901946..	@pcsl%pc:s/=ŠE~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠE~a
-   1 g	o0901946..	@pcsl%pc:s/=ŠE~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	ŠE~a
-   1 g	o0901955..	@pcsl%pc:c/NAM₂=|ŠE~a.NAM₂|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ŠE~a.NAM₂|
-   1 g	o0901955..	@pcsl%pc:c/NAM₂=|ŠE~a.NAM₂|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|ŠE~a.NAM₂|
-   2 g	o0901959..	@pcsl%pc:c/=|ŠE~a&ŠE~a|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|ŠE~a&ŠE~a|
-   3 g	o0901959..	@pcsl%pc:c/=|ŠE~a&ŠE~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|ŠE~a&ŠE~a|
-   3 g	o0901959..	@pcsl%pc:c/=|ŠE~a&ŠE~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ŠE~a&ŠE~a|
-   2 g	o0901959..	@pcsl%pc:c/=|ŠE~a&ŠE~a|--#wn%qpc:#u%:#a1#a1#e0#+m-------	|ŠE~a&ŠE~a|
-   2 g	o0901962..	@pcsl%pc:s/ŠE₃=ŠE₃--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠE₃
-   1 g	o0901962..	@pcsl%pc:s/ŠE₃=ŠE₃--#wn%qpc:#u%:#a1#a1#u0#+k?------	ŠE₃
-   2 g	o0901969..	@pcsl%pc:s/=ŠEN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠEN~a
-   1 g	o0901990..	@pcsl%pc:s/ŠIDIM=ŠIDIM--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠIDIM
-   1 g	o0901993..	@pcsl%pc:s/=ŠIM~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	ŠIM~a
-   1 g	o0901993..	@pcsl%pc:s/=ŠIM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠIM~a
-  10 g	o0902004..	@pcsl%pc:s/=ŠITA~a1--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠITA~a1
-   4 g	o0902004..	@pcsl%pc:s/=ŠITA~a1--#wn%qpc:#u%:#a1#a1#u0#.k?------	ŠITA~a1
-  43 g	o0902004..	@pcsl%pc:s/=ŠITA~a1--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠITA~a1
-   1 g	o0902009..	@pcsl%pc:s/=ŠITA~b3--#wn%qpc:#u%:#a1#a1#u0#+k?------	ŠITA~b3
-   1 g	o0902028..	@pcsl%pc:s/=ŠITA@g~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠITA@g~a
-   2 g	o0902032..	@pcsl%pc:c/=|ŠITA@g~a×1(N06)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ŠITA@g~a×1(N06)|
-  10 g	o0902033..	@pcsl%pc:s/ŠU=ŠU--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠU
-   2 g	o0902033..	@pcsl%pc:s/ŠU=ŠU--#wn%qpc:#u%:#a1#a1#u0#.k?------	ŠU
-  24 g	o0902033..	@pcsl%pc:s/ŠU=ŠU--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠU
-   4 g	o0902033..	@pcsl%pc:s/ŠU=ŠU--#wn%qpc:#u%:#a1#a1#u0#+m-------	ŠU
-   3 g	o0902035..	@pcsl%pc:c/ŠU=|ŠU&ŠU|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|ŠU&ŠU|
-  10 g	o0902035..	@pcsl%pc:c/ŠU=|ŠU&ŠU|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ŠU&ŠU|
-   1 g	o0902036..	@pcsl%pc:s/=ŠU@g--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠU@g
-   3 g	o0902038..	@pcsl%pc:s/ŠU₂=ŠU₂--#wn%qpc:#u%:#a1#a1#u0#-k-------	ŠU₂
-  16 g	o0902038..	@pcsl%pc:s/ŠU₂=ŠU₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠU₂
-  50 g	o0902038..	@pcsl%pc:s/ŠU₂=ŠU₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠU₂
-   1 g	o0902043..	@pcsl%pc:c/=|ŠU₂.E₂~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|ŠU₂.E₂~a|
-   3 g	o0902043..	@pcsl%pc:c/=|ŠU₂.E₂~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ŠU₂.E₂~a|
-   2 g	o0902060..	@pcsl%pc:s/ŠUBUR=ŠUBUR--#wn%qpc:#u%:#a1#a1#u0#.k-------	ŠUBUR
-   5 g	o0902060..	@pcsl%pc:s/ŠUBUR=ŠUBUR--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠUBUR
-   1 g	o0902060..	@pcsl%pc:s/ŠUBUR=ŠUBUR--#wn%qpc:#u%:#a1#a1#u0#+k?------	ŠUBUR
-   2 g	o0902060..	@pcsl%pc:s/ŠUBUR=ŠUBUR--#wn%qpc:#u%:#a1#a1#u0#+m-------	ŠUBUR
-   2 g	o0902061..	@pcsl%pc:s/ŠUM=ŠUM--#wn%qpc:#u%:#a1#a1#u0#+m-------	ŠUM
-   1 g	o0902063..	@pcsl%pc:s/=ŠUR₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠUR₂~a
-   1 g	o0902076..	@pcsl%pc:s/=TA~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	TA~c
-   1 g	o0902089..	@pcsl%pc:s/=TAG~d--#wn%qpc:#u%:#a1#a1#u0#.k-------	TAG~d
-   7 g	o0902094..	@pcsl%pc:s/=TAK₄~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	TAK₄~a
-   2 g	o0902094..	@pcsl%pc:s/=TAK₄~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	TAK₄~a
-  12 g	o0902094..	@pcsl%pc:s/=TAK₄~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	TAK₄~a
-   3 g	o0902094..	@pcsl%pc:s/=TAK₄~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	TAK₄~a
-   1 g	o0902098..	@pcsl%pc:s/=TAK₄~a@n--#wn%qpc:#u%:#a1#a1#u0#+k-------	TAK₄~a@n
-   7 g	o0902100..	@pcsl%pc:s/=TAR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	TAR~a
-   1 g	o0902100..	@pcsl%pc:s/=TAR~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	TAR~a
-   1 g	o0902102..	@pcsl%pc:s/TE=TE--#wn%qpc:#u%:#a1#a1#u0#-m-------	TE
-   2 g	o0902102..	@pcsl%pc:s/TE=TE--#wn%qpc:#u%:#a1#a1#u0#.k-------	TE
-   4 g	o0902102..	@pcsl%pc:s/TE=TE--#wn%qpc:#u%:#a1#a1#u0#+k-------	TE
-   1 g	o0902102..	@pcsl%pc:s/TE=TE--#wn%qpc:#u%:#a1#a1#u0#+m-------	TE
-   3 g	o0902103..	@pcsl%pc:s/TI=TI--#wn%qpc:#u%:#a1#a1#u0#.k-------	TI
-   9 g	o0902103..	@pcsl%pc:s/TI=TI--#wn%qpc:#u%:#a1#a1#u0#+k-------	TI
-   3 g	o0902107..	@pcsl%pc:s/=TI@t--#wn%qpc:#u%:#a1#a1#u0#+k-------	TI@t
-   3 g	o0902112..	@pcsl%pc:s/=TU~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	TU~b
-   1 g	o0902112..	@pcsl%pc:s/=TU~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	TU~b
-   1 g	o0902112..	@pcsl%pc:s/=TU~b--#wn%qpc:#u%:#a1#a1#u0#.m-------	TU~b
-   2 g	o0902112..	@pcsl%pc:s/=TU~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	TU~b
-   1 g	o0902116..	@pcsl%pc:s/=TUG₂~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	TUG₂~a
-   1 g	o0902116..	@pcsl%pc:s/=TUG₂~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	TUG₂~a
-   1 g	o0902128..	@pcsl%pc:s/=TUM~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	TUM~a
-   1 g	o0902130..	@pcsl%pc:s/=TUM~c--#wn%qpc:#u%:#a1#a1#u0#.m-------	TUM~c
-   1 g	o0902130..	@pcsl%pc:s/=TUM~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	TUM~c
-   4 g	o0902130..	@pcsl%pc:s/=TUM~c--#wn%qpc:#u%:#a1#a1#u0#+m-------	TUM~c
-   3 g	o0902136..	@pcsl%pc:s/=TUN₃~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	TUN₃~a
-   4 g	o0902139..	@pcsl%pc:s/TUR=TUR--#wn%qpc:#u%:#a1#a1#u0#.k-------	TUR
-   1 g	o0902139..	@pcsl%pc:s/TUR=TUR--#wn%qpc:#u%:#a1#a1#u0#.m?------	TUR
-   7 g	o0902139..	@pcsl%pc:s/TUR=TUR--#wn%qpc:#u%:#a1#a1#u0#+k-------	TUR
-   1 g	o0902146..	@pcsl%pc:s/=TUR₃~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	TUR₃~a
-   3 g	o0902146..	@pcsl%pc:s/=TUR₃~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	TUR₃~a
-   2 g	o0902157..	@pcsl%pc:s/=U₂~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	U₂~b
-   1 g	o0902157..	@pcsl%pc:s/=U₂~b--#wn%qpc:#u%:#a1#a1#u0#.k?------	U₂~b
-  11 g	o0902157..	@pcsl%pc:s/=U₂~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	U₂~b
-   2 g	o0902157..	@pcsl%pc:s/=U₂~b--#wn%qpc:#u%:#a1#a1#u0#+m-------	U₂~b
-   3 g	o0902161..	@pcsl%pc:s/U₄=U₄--#wn%qpc:#u%:#a1#a1#u0#.k-------	U₄
-   1 g	o0902161..	@pcsl%pc:s/U₄=U₄--#wn%qpc:#u%:#a1#a1#u0#.k?------	U₄
-  16 g	o0902161..	@pcsl%pc:s/U₄=U₄--#wn%qpc:#u%:#a1#a1#u0#+k-------	U₄
-   1 g	o0902161..	@pcsl%pc:s/U₄=U₄--#wn%qpc:#u%:#a1#a1#u0#+m-------	U₄
-   2 g	o0902163..	@pcsl%pc:c/U₄=|U₄.1(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.1(N08)|
-   2 g	o0902164..	@pcsl%pc:c/U₄=|U₄.2(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.2(N08)|
-   2 g	o0902165..	@pcsl%pc:c/U₄=|U₄.3(N08)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄.3(N08)|
-   1 g	o0902165..	@pcsl%pc:c/U₄=|U₄.3(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.3(N08)|
-   2 g	o0902166..	@pcsl%pc:c/U₄=|U₄.4(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.4(N08)|
-   1 g	o0902167..	@pcsl%pc:c/U₄=|U₄.5(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.5(N08)|
-   1 g	o0902173..	@pcsl%pc:c/U₄=|U₄.1(N14).4(N08)|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|U₄.(1(N14).4(N08))|
-   1 g	o0902174..	@pcsl%pc:c/U₄=|U₄.1(N14).5(N08)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄.(1(N14).5(N08))|
-   1 g	o0902174..	@pcsl%pc:c/U₄=|U₄.1(N14).5(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.(1(N14).5(N08))|
-   1 g	o0902175..	@pcsl%pc:c/U₄=|U₄.1(N14).8(N08)|--#wn%qpc:#u%:#a1#a1#e0#-k?------	|U₄.(1(N14).8(N08))|
-   1 g	o0902176..	@pcsl%pc:c/U₄=|U₄.2(N14)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄.2(N14)|
-   1 g	o0902178..	@pcsl%pc:c/U₄=|U₄×1(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×1(N01)|
-   1 g	o0902179..	@pcsl%pc:c/U₄=|U₄×1(N01).5(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×1(N01).5(N08)|
-   1 g	o0902182..	@pcsl%pc:c/U₄=|U₄×2(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×2(N01)|
-   1 g	o0902184..	@pcsl%pc:c/U₄=|U₄×2(N01).2(N14).1(N08)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×2(N01).(2(N14).1(N08))|
-   1 g	o0902185..	@pcsl%pc:c/X=|U₄×2(N01).X|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×2(N01).X|
-   1 g	o0902186..	@pcsl%pc:c/U₄=|U₄×3(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×3(N01)|
-   1 g	o0902192..	@pcsl%pc:c/U₄=|U₄×6(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×6(N01)|
-   1 g	o0902193..	@pcsl%pc:c/U₄=|U₄×8(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×8(N01)|
-   1 g	o0902194..	@pcsl%pc:c/X=|U₄×8(N01).X|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×8(N01).X|
-   1 g	o0902196..	@pcsl%pc:c/U₄=|U₄×1(N14)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×1(N14)|
-   1 g	o0902198..	@pcsl%pc:c/U₄=|U₄×(1(N14).2(N01))|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|U₄×(1(N14).2(N01))|
-   1 g	o0902198..	@pcsl%pc:c/U₄=|U₄×(1(N14).2(N01))|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×(1(N14).2(N01))|
-   2 g	o0902201..	@pcsl%pc:c/U₄=|U₄×(1(N14).8(N01))|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×(1(N14).8(N01))|
-   1 g	o0902204..	@pcsl%pc:c/U₄=|U₄×(3(N14).2(N01))|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×(3(N14).2(N01))|
-   1 g	o0902206..	@pcsl%pc:c/U₄=|U₄×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|U₄×1(N57)|
-   3 g	o0902206..	@pcsl%pc:c/U₄=|U₄×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×1(N57)|
-   4 g	o0902206..	@pcsl%pc:c/U₄=|U₄×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×1(N57)|
-   1 g	o0902206..	@pcsl%pc:c/U₄=|U₄×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|U₄×1(N57)|
-   1 g	o0902207..	@pcsl%pc:c/U₄=|U₄×2(N57)|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|U₄×2(N57)|
-   1 g	o0902207..	@pcsl%pc:c/U₄=|U₄×2(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×2(N57)|
-   2 g	o0902207..	@pcsl%pc:c/U₄=|U₄×2(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×2(N57)|
-   1 g	o0902208..	@pcsl%pc:c/U₄=|U₄×3(N57)|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|U₄×3(N57)|
-   5 g	o0902208..	@pcsl%pc:c/U₄=|U₄×3(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×3(N57)|
-   2 g	o0902209..	@pcsl%pc:c/U₄=|U₄×4(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×4(N57)|
-   1 g	o0902210..	@pcsl%pc:c/U₄=|U₄×5(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×5(N57)|
-   1 g	o0902210..	@pcsl%pc:c/U₄=|U₄×5(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|U₄×5(N57)|
-   1 g	o0902211..	@pcsl%pc:c/U₄=|U₄×6(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×6(N57)|
-   1 g	o0902211..	@pcsl%pc:c/U₄=|U₄×6(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|U₄×6(N57)|
-   1 g	o0902216..	@pcsl%pc:c/X=|U₄×X|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|U₄×X|
-   1 g	o0902220..	@pcsl%pc:s/U₈=U₈--#wn%qpc:#u%:#a1#a1#u0#.k?------	U₈
-   4 g	o0902220..	@pcsl%pc:s/U₈=U₈--#wn%qpc:#u%:#a1#a1#u0#+k-------	U₈
-  14 g	o0902227..	@pcsl%pc:s/UB=UB--#wn%qpc:#u%:#a1#a1#u0#.k-------	UB
-  30 g	o0902227..	@pcsl%pc:s/UB=UB--#wn%qpc:#u%:#a1#a1#u0#+k-------	UB
-   1 g	o0902227..	@pcsl%pc:s/UB=UB--#wn%qpc:#u%:#a1#a1#u0#+m-------	UB
-   2 g	o0902234..	@pcsl%pc:s/=UD₅~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	UD₅~a
-   1 g	o0902234..	@pcsl%pc:s/=UD₅~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	UD₅~a
-   1 g	o0902234..	@pcsl%pc:s/=UD₅~a--#wn%qpc:#u%:#a1#a1#u0#.m?------	UD₅~a
-   4 g	o0902234..	@pcsl%pc:s/=UD₅~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UD₅~a
-   3 g	o0902243..	@pcsl%pc:s/=UDU~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	UDU~a
-  20 g	o0902243..	@pcsl%pc:s/=UDU~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	UDU~a
-   2 g	o0902243..	@pcsl%pc:s/=UDU~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	UDU~a
-  53 g	o0902243..	@pcsl%pc:s/=UDU~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UDU~a
-   1 g	o0902250..	@pcsl%pc:s/=UDUNITA~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	UDUNITA~a
-   1 g	o0902250..	@pcsl%pc:s/=UDUNITA~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	UDUNITA~a
-   6 g	o0902261..	@pcsl%pc:s/=UKKIN~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	UKKIN~a
-  14 g	o0902261..	@pcsl%pc:s/=UKKIN~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UKKIN~a
-   1 g	o0902268..	@pcsl%pc:c/DIN=|UKKIN~b×DIN|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|UKKIN~b×DIN|
-   3 g	o0902268..	@pcsl%pc:c/DIN=|UKKIN~b×DIN|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|UKKIN~b×DIN|
-   1 g	o0902290..	@pcsl%pc:s/UMUN₂=UMUN₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	UMUN₂
-   6 g	o0902293..	@pcsl%pc:s/=UNUG~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	UNUG~a
-   1 g	o0902293..	@pcsl%pc:s/=UNUG~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	UNUG~a
-   9 g	o0902293..	@pcsl%pc:s/=UNUG~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UNUG~a
-   1 g	o0902302..	@pcsl%pc:s/=UR~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	UR~a
-   5 g	o0902302..	@pcsl%pc:s/=UR~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UR~a
-   1 g	o0902309..	@pcsl%pc:s/UR₂=UR₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	UR₂
-   1 g	o0902309..	@pcsl%pc:s/UR₂=UR₂--#wn%qpc:#u%:#a1#a1#u0#+k-------	UR₂
-   1 g	o0902309..	@pcsl%pc:s/UR₂=UR₂--#wn%qpc:#u%:#a1#a1#u0#+m-------	UR₂
-   2 g	o0902327..	@pcsl%pc:s/=UR₅~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UR₅~a
-   1 g	o0902329..	@pcsl%pc:s/URI=URI--#wn%qpc:#u%:#a1#a1#u0#.k?------	URI
-   1 g	o0902329..	@pcsl%pc:s/URI=URI--#wn%qpc:#u%:#a1#a1#u0#+k-------	URI
-   1 g	o0902332..	@pcsl%pc:s/=URI₃~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	URI₃~a
-   1 g	o0902332..	@pcsl%pc:s/=URI₃~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	URI₃~a
-   1 g	o0902339..	@pcsl%pc:s/=URU~a1--#wn%qpc:#u%:#a1#a1#u0#.k-------	URU~a1
-   8 g	o0902339..	@pcsl%pc:s/=URU~a1--#wn%qpc:#u%:#a1#a1#u0#+k-------	URU~a1
-   1 g	o0902339..	@pcsl%pc:s/=URU~a1--#wn%qpc:#u%:#a1#a1#u0#+k?------	URU~a1
-   2 g	o0902339..	@pcsl%pc:s/=URU~a1--#wn%qpc:#u%:#a1#a1#u0#+m-------	URU~a1
-   1 g	o0902351..	@pcsl%pc:c/=|URU~a1×HI@g~a|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|URU~a1×HI@g~a|
-   1 g	o0902367..	@pcsl%pc:c/U₄=|URU~a1×U₄|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|URU~a1×U₄|
-   1 g	o0902373..	@pcsl%pc:s/=URUDU~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	URUDU~a
-   1 g	o0902400..	@pcsl%pc:s/=UTUA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UTUA~a
-   1 g	o0902406..	@pcsl%pc:s/=UTUL~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UTUL~a
-   1 g	o0902413..	@pcsl%pc:c/GAR=|X(N57).GAR|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|N(N57).GAR|
-   3 g	o0902422..	@pcsl%pc:s/=ZAG~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZAG~a
-   1 g	o0902442..	@pcsl%pc:s/=ZATU624~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU624~a
-   1 g	o0902453..	@pcsl%pc:s/=ZATU628~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU628~a
-   1 g	o0902453..	@pcsl%pc:s/=ZATU628~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	ZATU628~a
-   1 g	o0902458..	@pcsl%pc:s/ZATU630=ZATU630--#wn%qpc:#u%:#a1#a1#u0#+m-------	ZATU630
-   1 g	o0902466..	@pcsl%pc:s/=ZATU633~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU633~a
-   4 g	o0902479..	@pcsl%pc:s/=ZATU644~a--#wn%qpc:#u%:#a1#a1#u0#-k-------	ZATU644~a
-  10 g	o0902479..	@pcsl%pc:s/=ZATU644~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU644~a
-  19 g	o0902479..	@pcsl%pc:s/=ZATU644~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU644~a
-   1 g	o0902484..	@pcsl%pc:s/ZATU647=ZATU647--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU647
-   2 g	o0902484..	@pcsl%pc:s/ZATU647=ZATU647--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU647
-   1 g	o0902496..	@pcsl%pc:c/GAR=|ZATU651×GAR|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ZATU651×GAR|
-   1 g	o0902505..	@pcsl%pc:s/=ZATU651@g--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU651@g
-   1 g	o0902505..	@pcsl%pc:s/=ZATU651@g--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU651@g
-   1 g	o0902506..	@pcsl%pc:s/ZATU659=ZATU659--#wn%qpc:#u%:#a1#a1#u0#-k-------	ZATU659
-   2 g	o0902506..	@pcsl%pc:s/ZATU659=ZATU659--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU659
-   2 g	o0902506..	@pcsl%pc:s/ZATU659=ZATU659--#wn%qpc:#u%:#a1#a1#u0#.k?------	ZATU659
-   8 g	o0902506..	@pcsl%pc:s/ZATU659=ZATU659--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU659
-   6 g	o0902507..	@pcsl%pc:c/ZATU659=|ZATU659×1(N01)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|ZATU659×1(N01)|
-   1 g	o0902507..	@pcsl%pc:c/ZATU659=|ZATU659×1(N01)|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|ZATU659×1(N01)|
-   6 g	o0902507..	@pcsl%pc:c/ZATU659=|ZATU659×1(N01)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ZATU659×1(N01)|
-   1 g	o0902549..	@pcsl%pc:s/ZATU682=ZATU682--#wn%qpc:#u%:#a1#a1#u0#.k?------	ZATU682
-   1 g	o0902558..	@pcsl%pc:s/=ZATU686~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU686~b
-   1 g	o0902575..	@pcsl%pc:s/=ZATU694~c--#wn%qpc:#u%:#a1#a1#u0#.m-------	ZATU694~c
-   2 g	o0902575..	@pcsl%pc:s/=ZATU694~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU694~c
-   1 g	o0902596..	@pcsl%pc:s/ZATU703=ZATU703--#wn%qpc:#u%:#a1#a1#u0#.k?------	ZATU703
-   1 g	o0902596..	@pcsl%pc:s/ZATU703=ZATU703--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU703
-   1 g	o0902605..	@pcsl%pc:s/ZATU710=ZATU710--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU710
-   1 g	o0902613..	@pcsl%pc:s/ZATU714=ZATU714--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU714
-   4 g	o0902616..	@pcsl%pc:c/=|ZATU714×HI@g~a|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|ZATU714×HI@g~a|
-   4 g	o0902616..	@pcsl%pc:c/=|ZATU714×HI@g~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|ZATU714×HI@g~a|
-   6 g	o0902616..	@pcsl%pc:c/=|ZATU714×HI@g~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ZATU714×HI@g~a|
-   1 g	o0902623..	@pcsl%pc:s/ZATU722=ZATU722--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU722
-   3 g	o0902631..	@pcsl%pc:s/=ZATU726~d--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU726~d
-   1 g	o0902641..	@pcsl%pc:s/=ZATU735~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU735~a
-   1 g	o0902641..	@pcsl%pc:s/=ZATU735~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU735~a
-   1 g	o0902642..	@pcsl%pc:s/=ZATU735~b--#wn%qpc:#u%:#a1#a1#u0#-k-------	ZATU735~b
-   5 g	o0902642..	@pcsl%pc:s/=ZATU735~b--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU735~b
-   5 g	o0902642..	@pcsl%pc:s/=ZATU735~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU735~b
-   1 g	o0902642..	@pcsl%pc:s/=ZATU735~b--#wn%qpc:#u%:#a1#a1#u0#+k?------	ZATU735~b
-   1 g	o0902657..	@pcsl%pc:c/=|ZATU737×BUR~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|ZATU737×BUR~a|
-   2 g	o0902657..	@pcsl%pc:c/=|ZATU737×BUR~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ZATU737×BUR~a|
-   1 g	o0902692..	@pcsl%pc:s/ZATU750=ZATU750--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU750
-   1 g	o0902697..	@pcsl%pc:s/=ZATU751~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	ZATU751~a
-   2 g	o0902697..	@pcsl%pc:s/=ZATU751~a--#wn%qpc:#u%:#a1#a1#u0#.m-------	ZATU751~a
-   3 g	o0902697..	@pcsl%pc:s/=ZATU751~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU751~a
-   4 g	o0902697..	@pcsl%pc:s/=ZATU751~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	ZATU751~a
-   2 g	o0902698..	@pcsl%pc:s/=ZATU751~b--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU751~b
-   2 g	o0902699..	@pcsl%pc:s/ZATU752=ZATU752--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU752
-   1 g	o0902699..	@pcsl%pc:s/ZATU752=ZATU752--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU752
-   2 g	o0902701..	@pcsl%pc:s/ZATU753=ZATU753--#wn%qpc:#u%:#a1#a1#u0#-k-------	ZATU753
-   9 g	o0902701..	@pcsl%pc:s/ZATU753=ZATU753--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU753
-   1 g	o0902701..	@pcsl%pc:s/ZATU753=ZATU753--#wn%qpc:#u%:#a1#a1#u0#.k?------	ZATU753
-  18 g	o0902701..	@pcsl%pc:s/ZATU753=ZATU753--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU753
-   1 g	o0902711..	@pcsl%pc:s/ZATU759=ZATU759--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU759
-   1 g	o0902739..	@pcsl%pc:s/=ZATU773~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	ZATU773~a
-   1 g	o0902739..	@pcsl%pc:s/=ZATU773~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	ZATU773~a
-   1 g	o0902739..	@pcsl%pc:s/=ZATU773~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU773~a
-   1 g	o0902739..	@pcsl%pc:s/=ZATU773~a--#wn%qpc:#u%:#a1#a1#u0#+k?------	ZATU773~a
-   1 g	o0902744..	@pcsl%pc:s/ZATU776=ZATU776--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU776
-   1 g	o0902764..	@pcsl%pc:s/ZATU797=ZATU797--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU797
-   1 g	o0902765..	@pcsl%pc:s/ZATU798=ZATU798--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU798
-   1 g	o0902766..	@pcsl%pc:s/ZATU799=ZATU799--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU799
-   2 g	o0902767..	@pcsl%pc:s/ZATU800=ZATU800--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU800
-   1 g	o0902779..	@pcsl%pc:s/ZATU811=ZATU811--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU811
-   1 g	o0902780..	@pcsl%pc:s/ZATU812=ZATU812--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU812
-   2 g	o0902829..	@pcsl%pc:s/=ZI~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZI~a
-   2 g	o0902829..	@pcsl%pc:s/=ZI~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	ZI~a
-  25 g	o0902858..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N01)
-   1 g	o0902858..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#-k?------	1(N01)
- 104 g	o0902858..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N01)
- 383 g	o0902858..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
-   7 g	o0902859..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N01)
-   1 g	o0902859..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#-k?------	2(N01)
-  49 g	o0902859..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N01)
-   3 g	o0902859..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#.k?------	2(N01)
- 120 g	o0902859..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N01)
-  25 g	o0902860..	@pcsl%pc:n/3(N01)=3(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N01)
-  54 g	o0902860..	@pcsl%pc:n/3(N01)=3(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N01)
-   3 g	o0902861..	@pcsl%pc:n/4(N01)=4(N01)--#wn%qpc:#u%:#a1#a1#u0#-k-------	4(N01)
-  24 g	o0902861..	@pcsl%pc:n/4(N01)=4(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N01)
-   2 g	o0902861..	@pcsl%pc:n/4(N01)=4(N01)--#wn%qpc:#u%:#a1#a1#u0#.k?------	4(N01)
-  49 g	o0902861..	@pcsl%pc:n/4(N01)=4(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N01)
-   1 g	o0902861..	@pcsl%pc:n/4(N01)=4(N01)--#wn%qpc:#u%:#a1#a1#u0#+k?------	4(N01)
-   2 g	o0902862..	@pcsl%pc:n/5(N01)=5(N01)--#wn%qpc:#u%:#a1#a1#u0#-k-------	5(N01)
-   1 g	o0902862..	@pcsl%pc:n/5(N01)=5(N01)--#wn%qpc:#u%:#a1#a1#u0#-k?------	5(N01)
-  18 g	o0902862..	@pcsl%pc:n/5(N01)=5(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N01)
-  66 g	o0902862..	@pcsl%pc:n/5(N01)=5(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N01)
-   1 g	o0902863..	@pcsl%pc:n/6(N01)=6(N01)--#wn%qpc:#u%:#a1#a1#u0#-k-------	6(N01)
-  15 g	o0902863..	@pcsl%pc:n/6(N01)=6(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	6(N01)
-   1 g	o0902863..	@pcsl%pc:n/6(N01)=6(N01)--#wn%qpc:#u%:#a1#a1#u0#.k?------	6(N01)
-  16 g	o0902863..	@pcsl%pc:n/6(N01)=6(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	6(N01)
-   1 g	o0902864..	@pcsl%pc:n/7(N01)=7(N01)--#wn%qpc:#u%:#a1#a1#u0#-k-------	7(N01)
-   9 g	o0902864..	@pcsl%pc:n/7(N01)=7(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	7(N01)
-  17 g	o0902864..	@pcsl%pc:n/7(N01)=7(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	7(N01)
-   7 g	o0902865..	@pcsl%pc:n/8(N01)=8(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	8(N01)
-   1 g	o0902865..	@pcsl%pc:n/8(N01)=8(N01)--#wn%qpc:#u%:#a1#a1#u0#.k?------	8(N01)
-  16 g	o0902865..	@pcsl%pc:n/8(N01)=8(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	8(N01)
-   5 g	o0902866..	@pcsl%pc:n/9(N01)=9(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	9(N01)
-   1 g	o0902866..	@pcsl%pc:n/9(N01)=9(N01)--#wn%qpc:#u%:#a1#a1#u0#.k?------	9(N01)
-   6 g	o0902866..	@pcsl%pc:n/9(N01)=9(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	9(N01)
-   1 g	o0902868..	@pcsl%pc:n/10(N01)=10(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	10(N01)
-   2 g	o0902869..	@pcsl%pc:n/1(N02)=1(N02)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N02)
-  14 g	o0902869..	@pcsl%pc:n/1(N02)=1(N02)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N02)
-   1 g	o0902869..	@pcsl%pc:n/1(N02)=1(N02)--#wn%qpc:#u%:#a1#a1#u0#+m-------	1(N02)
-   1 g	o0902870..	@pcsl%pc:c/RU=|1(N02).RU|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|1(N02).RU|
-   1 g	o0902871..	@pcsl%pc:n/2(N02)=2(N02)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N02)
-   2 g	o0902871..	@pcsl%pc:n/2(N02)=2(N02)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N02)
-   1 g	o0902872..	@pcsl%pc:n/3(N02)=3(N02)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N02)
-   2 g	o0902879..	@pcsl%pc:n/1(N03)=1(N03)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N03)
-   3 g	o0902879..	@pcsl%pc:n/1(N03)=1(N03)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N03)
-   8 g	o0902879..	@pcsl%pc:n/1(N03)=1(N03)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N03)
-   4 g	o0902880..	@pcsl%pc:n/2(N03)=2(N03)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N03)
-  13 g	o0902880..	@pcsl%pc:n/2(N03)=2(N03)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N03)
-   6 g	o0902881..	@pcsl%pc:n/3(N03)=3(N03)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N03)
-   1 g	o0902882..	@pcsl%pc:n/4(N03)=4(N03)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N03)
-   2 g	o0902884..	@pcsl%pc:n/1(N04)=1(N04)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N04)
-  16 g	o0902884..	@pcsl%pc:n/1(N04)=1(N04)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N04)
-   9 g	o0902885..	@pcsl%pc:n/2(N04)=2(N04)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N04)
-   5 g	o0902886..	@pcsl%pc:n/3(N04)=3(N04)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N04)
-   2 g	o0902887..	@pcsl%pc:n/4(N04)=4(N04)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N04)
-   1 g	o0902887..	@pcsl%pc:n/4(N04)=4(N04)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N04)
-   1 g	o0902888..	@pcsl%pc:n/5(N04)=5(N04)--#wn%qpc:#u%:#a1#a1#u0#-k-------	5(N04)
-   2 g	o0902888..	@pcsl%pc:n/5(N04)=5(N04)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N04)
-   1 g	o0902888..	@pcsl%pc:n/5(N04)=5(N04)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N04)
-   2 g	o0902894..	@pcsl%pc:n/1(N05)=1(N05)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N05)
-   8 g	o0902894..	@pcsl%pc:n/1(N05)=1(N05)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N05)
-   1 g	o0902894..	@pcsl%pc:n/1(N05)=1(N05)--#wn%qpc:#u%:#a1#a1#u0#.k?------	1(N05)
-  16 g	o0902894..	@pcsl%pc:n/1(N05)=1(N05)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N05)
-   1 g	o0902895..	@pcsl%pc:n/2(N05)=2(N05)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N05)
-   5 g	o0902895..	@pcsl%pc:n/2(N05)=2(N05)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N05)
-  10 g	o0902895..	@pcsl%pc:n/2(N05)=2(N05)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N05)
-   5 g	o0902896..	@pcsl%pc:n/3(N05)=3(N05)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N05)
-   7 g	o0902896..	@pcsl%pc:n/3(N05)=3(N05)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N05)
-   3 g	o0902897..	@pcsl%pc:n/4(N05)=4(N05)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N05)
-   1 g	o0902897..	@pcsl%pc:n/4(N05)=4(N05)--#wn%qpc:#u%:#a1#a1#u0#.k?------	4(N05)
-  14 g	o0902897..	@pcsl%pc:n/4(N05)=4(N05)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N05)
-   2 g	o0902898..	@pcsl%pc:n/5(N05)=5(N05)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N05)
-  10 g	o0902898..	@pcsl%pc:n/5(N05)=5(N05)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N05)
-   1 g	o0902899..	@pcsl%pc:n/1(N06)=1(N06)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N06)
-   1 g	o0902909..	@pcsl%pc:n/1(N08)=1(N08)--#wn%qpc:#u%:#a1#a1#u0#.k?------	1(N08)
-  16 g	o0902909..	@pcsl%pc:n/1(N08)=1(N08)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N08)
-   1 g	o0902912..	@pcsl%pc:n/2(N08)=2(N08)--#wn%qpc:#u%:#a1#a1#u0#.k?------	2(N08)
-   1 g	o0902912..	@pcsl%pc:n/2(N08)=2(N08)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N08)
-   1 g	o0902913..	@pcsl%pc:n/2(N08~b)=2(N08~b)--#wn%qpc:#u%:#a1#a1#u0#.k?------	2(N08~b)
-   2 g	o0902914..	@pcsl%pc:n/3(N08)=3(N08)--#wn%qpc:#u%:#a1#a1#u0#+k?------	3(N08)
-   2 g	o0902916..	@pcsl%pc:n/4(N08)=4(N08)--#wn%qpc:#u%:#a1#a1#u0#-k?------	4(N08)
-   2 g	o0902916..	@pcsl%pc:n/4(N08)=4(N08)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N08)
-   1 g	o0902916..	@pcsl%pc:n/4(N08)=4(N08)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N08)
-   2 g	o0902919..	@pcsl%pc:n/5(N08)=5(N08)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N08)
-   2 g	o0902921..	@pcsl%pc:n/7(N08)=7(N08)--#wn%qpc:#u%:#a1#a1#u0#+k-------	7(N08)
-   3 g	o0902929..	@pcsl%pc:n/1(N14)=1(N14)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N14)
-  41 g	o0902929..	@pcsl%pc:n/1(N14)=1(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N14)
-   2 g	o0902929..	@pcsl%pc:n/1(N14)=1(N14)--#wn%qpc:#u%:#a1#a1#u0#.k?------	1(N14)
- 123 g	o0902929..	@pcsl%pc:n/1(N14)=1(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N14)
-   6 g	o0902930..	@pcsl%pc:n/2(N14)=2(N14)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N14)
-   1 g	o0902930..	@pcsl%pc:n/2(N14)=2(N14)--#wn%qpc:#u%:#a1#a1#u0#-k?------	2(N14)
-  24 g	o0902930..	@pcsl%pc:n/2(N14)=2(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N14)
-  53 g	o0902930..	@pcsl%pc:n/2(N14)=2(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N14)
-   1 g	o0902930..	@pcsl%pc:n/2(N14)=2(N14)--#wn%qpc:#u%:#a1#a1#u0#+k?------	2(N14)
-   6 g	o0902932..	@pcsl%pc:n/3(N14)=3(N14)--#wn%qpc:#u%:#a1#a1#u0#-k-------	3(N14)
-   1 g	o0902932..	@pcsl%pc:n/3(N14)=3(N14)--#wn%qpc:#u%:#a1#a1#u0#-k?------	3(N14)
-  20 g	o0902932..	@pcsl%pc:n/3(N14)=3(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N14)
-  45 g	o0902932..	@pcsl%pc:n/3(N14)=3(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N14)
-   2 g	o0902933..	@pcsl%pc:n/4(N14)=4(N14)--#wn%qpc:#u%:#a1#a1#u0#-k-------	4(N14)
-  14 g	o0902933..	@pcsl%pc:n/4(N14)=4(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N14)
-  37 g	o0902933..	@pcsl%pc:n/4(N14)=4(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N14)
-   1 g	o0902934..	@pcsl%pc:n/5(N14)=5(N14)--#wn%qpc:#u%:#a1#a1#u0#-k-------	5(N14)
-  10 g	o0902934..	@pcsl%pc:n/5(N14)=5(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N14)
-  18 g	o0902934..	@pcsl%pc:n/5(N14)=5(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N14)
-   2 g	o0902936..	@pcsl%pc:n/6(N14)=6(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	6(N14)
-   5 g	o0902936..	@pcsl%pc:n/6(N14)=6(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	6(N14)
-   2 g	o0902938..	@pcsl%pc:n/7(N14)=7(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	7(N14)
-   5 g	o0902938..	@pcsl%pc:n/7(N14)=7(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	7(N14)
-   1 g	o0902938..	@pcsl%pc:n/7(N14)=7(N14)--#wn%qpc:#u%:#a1#a1#u0#+s-------	7(N14)
-   7 g	o0902939..	@pcsl%pc:n/8(N14)=8(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	8(N14)
-   7 g	o0902939..	@pcsl%pc:n/8(N14)=8(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	8(N14)
-   1 g	o0902940..	@pcsl%pc:n/9(N14)=9(N14)--#wn%qpc:#u%:#a1#a1#u0#-k-------	9(N14)
-   4 g	o0902940..	@pcsl%pc:n/9(N14)=9(N14)--#wn%qpc:#u%:#a1#a1#u0#.k-------	9(N14)
-   4 g	o0902940..	@pcsl%pc:n/9(N14)=9(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	9(N14)
-   1 g	o0902956..	@pcsl%pc:n/2(N15)=2(N15)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N15)
-   2 g	o0902962..	@pcsl%pc:n/1(N18)=1(N18)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N18)
-   3 g	o0902963..	@pcsl%pc:n/2(N18)=2(N18)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N18)
-   2 g	o0902966..	@pcsl%pc:n/5(N18)=5(N18)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N18)
-   1 g	o0902972..	@pcsl%pc:n/1(N19)=1(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N19)
-   8 g	o0902972..	@pcsl%pc:n/1(N19)=1(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N19)
-   3 g	o0902973..	@pcsl%pc:n/2(N19)=2(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N19)
-   1 g	o0902973..	@pcsl%pc:n/2(N19)=2(N19)--#wn%qpc:#u%:#a1#a1#u0#.k?------	2(N19)
-   7 g	o0902973..	@pcsl%pc:n/2(N19)=2(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N19)
-   2 g	o0902974..	@pcsl%pc:n/3(N19)=3(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N19)
-   5 g	o0902974..	@pcsl%pc:n/3(N19)=3(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N19)
-   1 g	o0902975..	@pcsl%pc:n/4(N19)=4(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N19)
-   4 g	o0902975..	@pcsl%pc:n/4(N19)=4(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N19)
-   2 g	o0902976..	@pcsl%pc:n/5(N19)=5(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N19)
-   1 g	o0902976..	@pcsl%pc:n/5(N19)=5(N19)--#wn%qpc:#u%:#a1#a1#u0#.k?------	5(N19)
-   3 g	o0902976..	@pcsl%pc:n/5(N19)=5(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N19)
-   2 g	o0902977..	@pcsl%pc:n/6(N19)=6(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	6(N19)
-   1 g	o0902977..	@pcsl%pc:n/6(N19)=6(N19)--#wn%qpc:#u%:#a1#a1#u0#+k?------	6(N19)
-   1 g	o0902978..	@pcsl%pc:n/7(N19)=7(N19)--#wn%qpc:#u%:#a1#a1#u0#-k-------	7(N19)
-   1 g	o0902978..	@pcsl%pc:n/7(N19)=7(N19)--#wn%qpc:#u%:#a1#a1#u0#.k-------	7(N19)
-   2 g	o0902978..	@pcsl%pc:n/7(N19)=7(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	7(N19)
-   1 g	o0902979..	@pcsl%pc:n/8(N19)=8(N19)--#wn%qpc:#u%:#a1#a1#u0#+k-------	8(N19)
-   3 g	o0902991..	@pcsl%pc:n/1(N20)=1(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N20)
-  14 g	o0902991..	@pcsl%pc:n/1(N20)=1(N20)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N20)
-   1 g	o0902992..	@pcsl%pc:n/2(N20)=2(N20)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N20)
-   3 g	o0902992..	@pcsl%pc:n/2(N20)=2(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N20)
-   9 g	o0902992..	@pcsl%pc:n/2(N20)=2(N20)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N20)
-   1 g	o0902993..	@pcsl%pc:n/3(N20)=3(N20)--#wn%qpc:#u%:#a1#a1#u0#-k-------	3(N20)
-   2 g	o0902993..	@pcsl%pc:n/3(N20)=3(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N20)
-   3 g	o0902993..	@pcsl%pc:n/3(N20)=3(N20)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N20)
-   1 g	o0902994..	@pcsl%pc:n/4(N20)=4(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N20)
-   3 g	o0902994..	@pcsl%pc:n/4(N20)=4(N20)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N20)
-   1 g	o0902995..	@pcsl%pc:n/5(N20)=5(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N20)
-   1 g	o0902995..	@pcsl%pc:n/5(N20)=5(N20)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N20)
-   1 g	o0902996..	@pcsl%pc:n/6(N20)=6(N20)--#wn%qpc:#u%:#a1#a1#u0#-k-------	6(N20)
-   1 g	o0902996..	@pcsl%pc:n/6(N20)=6(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	6(N20)
-   1 g	o0902996..	@pcsl%pc:n/6(N20)=6(N20)--#wn%qpc:#u%:#a1#a1#u0#+k-------	6(N20)
-   1 g	o0902999..	@pcsl%pc:n/9(N20)=9(N20)--#wn%qpc:#u%:#a1#a1#u0#.k-------	9(N20)
-   1 g	o0903000..	@pcsl%pc:n/2(N21)=2(N21)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N21)
-   1 g	o0903001..	@pcsl%pc:n/3(N21)=3(N21)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N21)
-   5 g	o0903001..	@pcsl%pc:n/3(N21)=3(N21)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N21)
-   1 g	o0903002..	@pcsl%pc:n/4(N21)=4(N21)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N21)
-   3 g	o0903002..	@pcsl%pc:n/4(N21)=4(N21)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N21)
-   1 g	o0903003..	@pcsl%pc:n/5(N21)=5(N21)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N21)
-   1 g	o0903003..	@pcsl%pc:n/5(N21)=5(N21)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N21)
-   1 g	o0903005..	@pcsl%pc:n/1(N22)=1(N22)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N22)
-   4 g	o0903005..	@pcsl%pc:n/1(N22)=1(N22)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N22)
-   6 g	o0903005..	@pcsl%pc:n/1(N22)=1(N22)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N22)
-   4 g	o0903006..	@pcsl%pc:n/2(N22)=2(N22)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N22)
-   8 g	o0903006..	@pcsl%pc:n/2(N22)=2(N22)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N22)
-   1 g	o0903016..	@pcsl%pc:n/1(N24)=1(N24)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N24)
-   4 g	o0903016..	@pcsl%pc:n/1(N24)=1(N24)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N24)
-  26 g	o0903016..	@pcsl%pc:n/1(N24)=1(N24)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N24)
-   1 g	o0903016..	@pcsl%pc:n/1(N24)=1(N24)--#wn%qpc:#u%:#a1#a1#u0#+k?------	1(N24)
-   3 g	o0903022..	@pcsl%pc:n/1(N25)=1(N25)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N25)
-   1 g	o0903022..	@pcsl%pc:n/1(N25)=1(N25)--#wn%qpc:#u%:#a1#a1#u0#-k?------	1(N25)
-  16 g	o0903022..	@pcsl%pc:n/1(N25)=1(N25)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N25)
-  47 g	o0903022..	@pcsl%pc:n/1(N25)=1(N25)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N25)
-   1 g	o0903026..	@pcsl%pc:n/1(N27)=1(N27)--#wn%qpc:#u%:#a1#a1#u0#+k?------	1(N27)
-   2 g	o0903028..	@pcsl%pc:n/1(N28)=1(N28)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N28)
-   5 g	o0903051..	@pcsl%pc:n/1(N30~a)=1(N30A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N30~a)
-   2 g	o0903051..	@pcsl%pc:n/1(N30~a)=1(N30A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N30~a)
-   3 g	o0903059..	@pcsl%pc:n/1(N34)=1(N34)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N34)
-  14 g	o0903059..	@pcsl%pc:n/1(N34)=1(N34)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N34)
-   1 g	o0903059..	@pcsl%pc:n/1(N34)=1(N34)--#wn%qpc:#u%:#a1#a1#u0#.k?------	1(N34)
-  39 g	o0903059..	@pcsl%pc:n/1(N34)=1(N34)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N34)
-   1 g	o0903060..	@pcsl%pc:c/|1(N34)×1(N58)|=|1(N34)×1(N58)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|1(N34)×1(N58)|
-   1 g	o0903061..	@pcsl%pc:n/2(N34)=2(N34)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N34)
-   2 g	o0903061..	@pcsl%pc:n/2(N34)=2(N34)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N34)
-   4 g	o0903061..	@pcsl%pc:n/2(N34)=2(N34)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N34)
-   4 g	o0903062..	@pcsl%pc:n/3(N34)=3(N34)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N34)
-   1 g	o0903062..	@pcsl%pc:n/3(N34)=3(N34)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N34)
-   2 g	o0903063..	@pcsl%pc:n/4(N34)=4(N34)--#wn%qpc:#u%:#a1#a1#u0#-k-------	4(N34)
-   5 g	o0903063..	@pcsl%pc:n/4(N34)=4(N34)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N34)
-   2 g	o0903064..	@pcsl%pc:n/5(N34)=5(N34)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N34)
-  11 g	o0903064..	@pcsl%pc:n/5(N34)=5(N34)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N34)
-   1 g	o0903065..	@pcsl%pc:n/6(N34)=6(N34)--#wn%qpc:#u%:#a1#a1#u0#+k-------	6(N34)
-   1 g	o0903066..	@pcsl%pc:n/7(N34)=7(N34)--#wn%qpc:#u%:#a1#a1#u0#.k-------	7(N34)
-   1 g	o0903068..	@pcsl%pc:n/9(N34)=9(N34)--#wn%qpc:#u%:#a1#a1#u0#.k-------	9(N34)
-   1 g	o0903079..	@pcsl%pc:n/1(N35)=1(N35)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N35)
-   3 g	o0903082..	@pcsl%pc:n/1(N36)=1(N36)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N36)
-   5 g	o0903082..	@pcsl%pc:n/1(N36)=1(N36)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N36)
-   1 g	o0903083..	@pcsl%pc:n/2(N36)=2(N36)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N36)
-   1 g	o0903092..	@pcsl%pc:n/1(N37)=1(N37)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N37)
-   1 g	o0903094..	@pcsl%pc:n/1(N38)=1(N38)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N38)
-  14 g	o0903094..	@pcsl%pc:n/1(N38)=1(N38)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N38)
-   3 g	o0903111..	@pcsl%pc:n/1(N40)=1(N40)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N40)
-   3 g	o0903112..	@pcsl%pc:n/2(N40)=2(N40)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N40)
-   1 g	o0903112..	@pcsl%pc:n/2(N40)=2(N40)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N40)
-   5 g	o0903112..	@pcsl%pc:n/2(N40)=2(N40)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N40)
-   1 g	o0903113..	@pcsl%pc:n/3(N40)=3(N40)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N40)
-   2 g	o0903113..	@pcsl%pc:n/3(N40)=3(N40)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N40)
-   3 g	o0903115..	@pcsl%pc:n/1(N41)=1(N41)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N41)
-   1 g	o0903116..	@pcsl%pc:n/2(N41)=2(N41)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N41)
-   3 g	o0903116..	@pcsl%pc:n/2(N41)=2(N41)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N41)
-   1 g	o0903117..	@pcsl%pc:n/3(N41)=3(N41)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N41)
-   3 g	o0903117..	@pcsl%pc:n/3(N41)=3(N41)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N41)
-   1 g	o0903118..	@pcsl%pc:n/4(N41)=4(N41)--#wn%qpc:#u%:#a1#a1#u0#-k-------	4(N41)
-   1 g	o0903118..	@pcsl%pc:n/4(N41)=4(N41)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N41)
-   4 g	o0903134..	@pcsl%pc:n/1(N45)=1(N45)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N45)
-  10 g	o0903134..	@pcsl%pc:n/1(N45)=1(N45)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N45)
-  22 g	o0903134..	@pcsl%pc:n/1(N45)=1(N45)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N45)
-   2 g	o0903137..	@pcsl%pc:n/2(N45)=2(N45)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N45)
-   6 g	o0903137..	@pcsl%pc:n/2(N45)=2(N45)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N45)
-   1 g	o0903138..	@pcsl%pc:n/3(N45)=3(N45)--#wn%qpc:#u%:#a1#a1#u0#-k-------	3(N45)
-   1 g	o0903138..	@pcsl%pc:n/3(N45)=3(N45)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N45)
-   1 g	o0903138..	@pcsl%pc:n/3(N45)=3(N45)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N45)
-   1 g	o0903140..	@pcsl%pc:n/5(N45)=5(N45)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N45)
-   1 g	o0903141..	@pcsl%pc:n/6(N45)=6(N45)--#wn%qpc:#u%:#a1#a1#u0#+k-------	6(N45)
-   1 g	o0903143..	@pcsl%pc:n/9(N45)=9(N45)--#wn%qpc:#u%:#a1#a1#u0#.k-------	9(N45)
-   1 g	o0903153..	@pcsl%pc:n/1(N46)=1(N46)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N46)
-   3 g	o0903153..	@pcsl%pc:n/1(N46)=1(N46)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N46)
-   1 g	o0903154..	@pcsl%pc:n/2(N46)=2(N46)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N46)
-   4 g	o0903154..	@pcsl%pc:n/2(N46)=2(N46)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N46)
-   5 g	o0903154..	@pcsl%pc:n/2(N46)=2(N46)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N46)
-   1 g	o0903158..	@pcsl%pc:n/1(N47)=1(N47)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N47)
-   1 g	o0903159..	@pcsl%pc:n/2(N47)=2(N47)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N47)
-   1 g	o0903159..	@pcsl%pc:n/2(N47)=2(N47)--#wn%qpc:#u%:#a1#a1#u0#+k?------	2(N47)
-   1 g	o0903161..	@pcsl%pc:n/1(N48)=1(N48)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N48)
-   1 g	o0903174..	@pcsl%pc:n/1(N50)=1(N50)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N50)
-   9 g	o0903174..	@pcsl%pc:n/1(N50)=1(N50)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N50)
-   1 g	o0903175..	@pcsl%pc:n/2(N50)=2(N50)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N50)
-   2 g	o0903175..	@pcsl%pc:n/2(N50)=2(N50)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N50)
-   1 g	o0903175..	@pcsl%pc:n/2(N50)=2(N50)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N50)
-   4 g	o0903176..	@pcsl%pc:n/3(N50)=3(N50)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N50)
-   1 g	o0903176..	@pcsl%pc:n/3(N50)=3(N50)--#wn%qpc:#u%:#a1#a1#u0#.k?------	3(N50)
-   2 g	o0903176..	@pcsl%pc:n/3(N50)=3(N50)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N50)
-   3 g	o0903177..	@pcsl%pc:n/4(N50)=4(N50)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N50)
-   2 g	o0903177..	@pcsl%pc:n/4(N50)=4(N50)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N50)
-   1 g	o0903178..	@pcsl%pc:n/5(N50)=5(N50)--#wn%qpc:#u%:#a1#a1#u0#.k-------	5(N50)
-   1 g	o0903178..	@pcsl%pc:n/5(N50)=5(N50)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N50)
-   4 g	o0903188..	@pcsl%pc:n/1(N51)=1(N51)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N51)
-   6 g	o0903188..	@pcsl%pc:n/1(N51)=1(N51)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N51)
-   1 g	o0903189..	@pcsl%pc:n/2(N51)=2(N51)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N51)
-   1 g	o0903189..	@pcsl%pc:n/2(N51)=2(N51)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N51)
-   1 g	o0903193..	@pcsl%pc:n/6(N51)=6(N51)--#wn%qpc:#u%:#a1#a1#u0#.k-------	6(N51)
-   1 g	o0903196..	@pcsl%pc:n/1(N52)=1(N52)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N52)
-   2 g	o0903196..	@pcsl%pc:n/1(N52)=1(N52)--#wn%qpc:#u%:#a1#a1#u0#-k?------	1(N52)
-   2 g	o0903196..	@pcsl%pc:n/1(N52)=1(N52)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N52)
-   8 g	o0903196..	@pcsl%pc:n/1(N52)=1(N52)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N52)
-   1 g	o0903197..	@pcsl%pc:n/2(N52)=2(N52)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N52)
-   8 g	o0903197..	@pcsl%pc:n/2(N52)=2(N52)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N52)
-   2 g	o0903198..	@pcsl%pc:n/3(N52)=3(N52)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N52)
-  12 g	o0903210..	@pcsl%pc:n/1(N57)=1(N57)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N57)
-   3 g	o0903210..	@pcsl%pc:n/1(N57)=1(N57)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N57)
-  17 g	o0903210..	@pcsl%pc:n/1(N57)=1(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N57)
-   1 g	o0903210..	@pcsl%pc:n/1(N57)=1(N57)--#wn%qpc:#u%:#a1#a1#u0#+m-------	1(N57)
-   1 g	o0903222..	@pcsl%pc:n/2(N57)=2(N57)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N57)
-   3 g	o0903222..	@pcsl%pc:n/2(N57)=2(N57)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N57)
-   6 g	o0903222..	@pcsl%pc:n/2(N57)=2(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N57)
-   2 g	o0903234..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#-m-------	3(N57)
-   8 g	o0903234..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N57)
-   3 g	o0903234..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#.k?------	3(N57)
-   2 g	o0903234..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#.m-------	3(N57)
-  31 g	o0903234..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N57)
-   7 g	o0903234..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#+m-------	3(N57)
-   1 g	o0903243..	@pcsl%pc:c/GAR=|3(N57).GAR|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|3(N57).GAR|
-   1 g	o0903257..	@pcsl%pc:n/4(N57)=4(N57)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N57)
-   2 g	o0903257..	@pcsl%pc:n/4(N57)=4(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N57)
-   1 g	o0903258..	@pcsl%pc:c/AMAR=|4(N57).AMAR|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|4(N57).AMAR|
-   2 g	o0903259..	@pcsl%pc:c/GAR=|4(N57).GAR|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|4(N57).GAR|
-   5 g	o0903261..	@pcsl%pc:c/=|4(N57).KU₃~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|4(N57).KU₃~a|
-   6 g	o0903261..	@pcsl%pc:c/=|4(N57).KU₃~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|4(N57).KU₃~a|
-   1 g	o0903264..	@pcsl%pc:n/5(N57)=5(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N57)
-   4 g	o0903265..	@pcsl%pc:c/GAR=|5(N57).GAR|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|5(N57).GAR|
-   1 g	o0903267..	@pcsl%pc:c/=|5(N57).KU₃~a|--#wn%qpc:#u%:#a1#a1#e0#-k-------	|5(N57).KU₃~a|
-   2 g	o0903267..	@pcsl%pc:c/=|5(N57).KU₃~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|5(N57).KU₃~a|
-   1 g	o0903267..	@pcsl%pc:c/=|5(N57).KU₃~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|5(N57).KU₃~a|
-   1 g	o0903268..	@pcsl%pc:n/6(N57)=6(N57)--#wn%qpc:#u%:#a1#a1#u0#+m?------	6(N57)
-   1 g	o0903270..	@pcsl%pc:c/GAR=|6(N57).GAR|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|6(N57).GAR|
-   1 g	o0903272..	@pcsl%pc:c/=|6(N57).KU₃~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|6(N57).KU₃~a|
-   2 g	o0903278..	@pcsl%pc:n/9(N57)=9(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	9(N57)
-   6 g	o0903280..	@pcsl%pc:n/1(N58)=1(N58)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N58)
-   5 g	o0903280..	@pcsl%pc:n/1(N58)=1(N58)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N58)
-  12 g	o0903280..	@pcsl%pc:n/1(N58)=1(N58)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N58)
-   2 g	o0903280..	@pcsl%pc:n/1(N58)=1(N58)--#wn%qpc:#u%:#a1#a1#u0#+k?------	1(N58)
-   2 g	o0903281..	@pcsl%pc:c/=|1(N58).BAD|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|1(N58).BAD~a|
-   8 g	o0903281..	@pcsl%pc:c/=|1(N58).BAD|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|1(N58).BAD~a|
-   1 g	o0903281..	@pcsl%pc:c/=|1(N58).BAD|--#wn%qpc:#u%:#a1#a1#e0#+k?------	|1(N58).BAD~a|
-   1 g	o0903301..	@pcsl%pc:n/1(N60)=1(N60)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N60)
-   2 g	o0903301..	@pcsl%pc:n/1(N60)=1(N60)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N60)
-   1 g	o0903311..	@pcsl%pc:n/1(N39~a)=1(N39A)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N39~a)
-   3 g	o0903311..	@pcsl%pc:n/1(N39~a)=1(N39A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N39~a)
-  15 g	o0903311..	@pcsl%pc:n/1(N39~a)=1(N39A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N39~a)
-   2 g	o0903312..	@pcsl%pc:n/2(N39~a)=2(N39A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N39~a)
-   9 g	o0903312..	@pcsl%pc:n/2(N39~a)=2(N39A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N39~a)
-   1 g	o0903313..	@pcsl%pc:n/3(N39~a)=3(N39A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N39~a)
-   7 g	o0903313..	@pcsl%pc:n/3(N39~a)=3(N39A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N39~a)
-   3 g	o0903314..	@pcsl%pc:n/4(N39~a)=4(N39A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N39~a)
-   5 g	o0903314..	@pcsl%pc:n/4(N39~a)=4(N39A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N39~a)
-   1 g	o0903334..	@pcsl%pc:n/1(N24~a)=1(N24A)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N24~a)
-   2 g	o0903334..	@pcsl%pc:n/1(N24~a)=1(N24A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N24~a)
-   2 g	o0903334..	@pcsl%pc:n/1(N24~a)=1(N24A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N24~a)
-   1 g	o0903336..	@pcsl%pc:n/1(N24~b)=1(N24B)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N24~b)
-   1 g	o0903336..	@pcsl%pc:n/1(N24~b)=1(N24B)--#wn%qpc:#u%:#a1#a1#u0#-k?------	1(N24~b)
-   8 g	o0903340..	@pcsl%pc:n/1(N28~c)=1(N28C)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N28~c)
-  11 g	o0903340..	@pcsl%pc:n/1(N28~c)=1(N28C)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N28~c)
-   2 g	o0903342..	@pcsl%pc:n/1(N30A~c)=1(N30AC)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N30A~c)
-   2 g	o0903342..	@pcsl%pc:n/1(N30A~c)=1(N30AC)--#wn%qpc:#u%:#a1#a1#u0#.k?------	1(N30A~c)
-   4 g	o0903344..	@pcsl%pc:n/1(N42~a)=1(N42A)--#wn%qpc:#u%:#a1#a1#u0#-k-------	1(N42~a)
-   9 g	o0903344..	@pcsl%pc:n/1(N42~a)=1(N42A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	1(N42~a)
-   1 g	o0903344..	@pcsl%pc:n/1(N42~a)=1(N42A)--#wn%qpc:#u%:#a1#a1#u0#.k?------	1(N42~a)
-  29 g	o0903344..	@pcsl%pc:n/1(N42~a)=1(N42A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N42~a)
-   1 g	o0903344..	@pcsl%pc:n/1(N42~a)=1(N42A)--#wn%qpc:#u%:#a1#a1#u0#+k?------	1(N42~a)
-   2 g	o0903345..	@pcsl%pc:n/2(N42~a)=2(N42A)--#wn%qpc:#u%:#a1#a1#u0#-k-------	2(N42~a)
-   4 g	o0903345..	@pcsl%pc:n/2(N42~a)=2(N42A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N42~a)
-  27 g	o0903345..	@pcsl%pc:n/2(N42~a)=2(N42A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N42~a)
-   1 g	o0903346..	@pcsl%pc:n/3(N42~a)=3(N42A)--#wn%qpc:#u%:#a1#a1#u0#-k-------	3(N42~a)
-   3 g	o0903346..	@pcsl%pc:n/3(N42~a)=3(N42A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	3(N42~a)
-   9 g	o0903346..	@pcsl%pc:n/3(N42~a)=3(N42A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N42~a)
-   1 g	o0903347..	@pcsl%pc:n/4(N42~a)=4(N42A)--#wn%qpc:#u%:#a1#a1#u0#.k-------	4(N42~a)
-   6 g	o0903347..	@pcsl%pc:n/4(N42~a)=4(N42A)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N42~a)
- 364 g	o0903368..	@pcsl%pc:s/X=X--#wn%qpc:#u%:#a1#a1#u0#+k-------	X
-  16 g	o0903368..	@pcsl%pc:s/X=X--#wn%qpc:#u%:#a1#a1#u0#+m-------	X
-   1 g	o0903580..	@pcsl%pc:s/=DUG~c--#wn%qpc:#u%:#a1#a1#u0#.k-------	DUG~c
-   2 g	o0903580..	@pcsl%pc:s/=DUG~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	DUG~c
-   2 g	o0903581..	@pcsl%pc:c/=|DUG~c×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|DUG~c×1(N57)|
-   1 g	o0903581..	@pcsl%pc:c/=|DUG~c×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|DUG~c×1(N57)|
-   4 g	o0903581..	@pcsl%pc:c/=|DUG~c×1(N57)|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|DUG~c×1(N57)|
-   1 g	o0903588..	@pcsl%pc:c/ŠE₃=|GA₂~a2×ŠE₃|--#wn%qpc:#u%:#a1#a1#e0#.m-------	|GA₂~a2×ŠE₃|
-   2 g	o0903588..	@pcsl%pc:c/ŠE₃=|GA₂~a2×ŠE₃|--#wn%qpc:#u%:#a1#a1#e0#+m-------	|GA₂~a2×ŠE₃|
-   1 g	o0903604..	@pcsl%pc:c/ŠE₃=|GIR₃~c×ŠE₃|--#wn%qpc:#u%:#a1#a1#e0#.k?------	|GIR₃~c×ŠE₃|
-   1 g	o0903619..	@pcsl%pc:c/=|NUN~a+EN~a|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|NUN~a+EN~a|
-   3 g	o0903623..	@pcsl%pc:c/MA=|SAG×MA|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|SAG×MA|
-   1 g	o0903623..	@pcsl%pc:c/MA=|SAG×MA|--#wn%qpc:#u%:#a1#a1#e0#.m-------	|SAG×MA|
-  12 g	o0903623..	@pcsl%pc:c/MA=|SAG×MA|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SAG×MA|
-   1 g	o0903623..	@pcsl%pc:c/MA=|SAG×MA|--#wn%qpc:#u%:#a1#a1#e0#+m-------	|SAG×MA|
-   1 g	o0903628..	@pcsl%pc:c/MA=|SILA₃~a×MA|--#wn%qpc:#u%:#a1#a1#e0#.k-------	|SILA₃~a×MA|
-   1 g	o0903628..	@pcsl%pc:c/MA=|SILA₃~a×MA|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|SILA₃~a×MA|
-   1 g	o0903633..	@pcsl%pc:c/=|ŠU₂.EN~a|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|ŠU₂.EN~a|
+o0900000	s	A	A	38
+o0900012	s	AB~a	AB~a	81
+o0900014	s	AB~b	AB~b	3
+o0900041	s	AB₂	AB₂	11
+o0900047	s	ABGAL	ABGAL	2
+o0900053	s	AD~a	AD~a	1
+o0900055	s	AD~c	AD~c	6
+o0900060	s	AGAR₂	AGAR₂	2
+o0900062	s	AK~a	AK~a	1
+o0900064	s	AL	AL	9
+o0900077	s	AMA~a	AMA~a	9
+o0900082	s	AMAR	AMAR	7
+o0900085	c	|AMAR.1(N02)|	|AMAR.1(N02)|	2
+o0900089	s	AN	AN	26
+o0900093	s	ANŠE~a	ANŠE~a	1
+o0900100	s	APIN~a	APIN~a	23
+o0900101	s	APIN~b	APIN~b	2
+o0900115	s	BA	BA	66
+o0900126	s	BAHAR₂~b	BAHAR₂~b	4
+o0900128	s	BAHAR₂~c	BAHAR₂~c	6
+o0900130	s	BALA~a	BALA~a	2
+o0900149	s	BAPPIR~b	BAPPIR~b	1
+o0900154	s	BAR	BAR	44
+o0900162	s	BARA₃	BARA₃	1
+o0900171	s	BIR₃~b	BIR₃~b	1
+o0900175	s	BU~a	BU~a	23
+o0900177	s	BU~b	BU~b	2
+o0900199	c	|BU~a+DU₆~a|	|BU~a+DU₆~a|	2
+o0900217	s	DA~a	DA~a	9
+o0900224	s	DAH	DAH	12
+o0900260	s	DI	DI	19
+o0900269	s	DIM~a	DIM~a	2
+o0900276	s	DIN	DIN	1
+o0900279	s	DU	DU	34
+o0900281	c	|DU×1(N58@t)|	|DU×DIŠ|	3
+o0900282	s	DU@g	DU@g	1
+o0900284	s	DU₆~a	DU₆~a	1
+o0900296	s	DU₈~c	DU₈~c	1
+o0900312	s	DUB~a	DUB~a	17
+o0900313	s	DUB~b	DUB~b	1
+o0900331	s	DUG~a	DUG~a	35
+o0900334	s	DUG~b	DUG~b	3
+o0900347	c	|DUG~b×BALA~a|	|DUG~b×BALA~a|	1
+o0900359	c	|DUG~b×GA~b|	|DUG~b×GA~b|	1
+o0900365	c	|DUG~b×GI₆|	|DUG~b×GI₆|	1
+o0900367	c	|DUG~b×GIŠ|	|DUG~b×GIŠ|	1
+o0900376	c	|DUG~b×KASKAL|	|DUG~b×KASKAL|	1
+o0900381	c	|DUG~b×KUR~a|	|DUG~b×KUR~a|	1
+o0900391	c	|DUG~b×MAŠ|	|DUG~b×MAŠ|	1
+o0900408	c	|DUG~b×NAGA~a|	|DUG~b×NAGA~a|	1
+o0900416	c	|DUG~b×(SA~a.GI)|	|DUG~b×(SA~a.GI)|	1
+o0900418	c	|DUG~b×SI₄~a|	|DUG~b×SI₄~a|	1
+o0900425	c	|DUG~b×SIG₇|	|DUG~b×SIG₇|	3
+o0900433	c	|DUG~b×ŠE~a|	|DUG~b×ŠE~a|	1
+o0900445	c	|DUG~b×TI|	|DUG~b×TI|	1
+o0900461	c	|DUG~b×X|	|DUG~b×X|	5
+o0900472	c	|DUG~b×ZATU781|	|DUG~b×ZATU781|	1
+o0900483	s	DUR~a	DUR~a	1
+o0900484	s	DUR~b	DUR~b	20
+o0900485	s	DUR₂	DUR₂	4
+o0900493	s	E₂~a	E₂~a	66
+o0900494	s	E₂~b	E₂~b	9
+o0900495	s	E₂~c	E₂~c	1
+o0900513	s	EN~a	EN~a	144
+o0900519	s	EN~c	EN~c	4
+o0900529	s	EN₂	EN₂	2
+o0900532	c	|EN₂.E₂~b|	|EN₂.E₂~b|	1
+o0900532	c	|EN₂.E₂~b|	|EN₂×E₂~b|	2
+o0900534	s	ENGIZ	ENGIZ	12
+o0900541	s	ERIM~a	ERIM~a	25
+o0900545	s	ERIN	ERIN	4
+o0900546	s	EŠDA	EŠDA	1
+o0900552	s	EZEN~b	EZEN~b	1
+o0900599	s	GA~a	GA~a	6
+o0900616	s	GA₂~a1	GA₂~a1	1
+o0900634	c	|GA₂~a1×GEŠTU~c3|	|GA₂~a1×GEŠTU~c3|	1
+o0900635	c	|GA₂~a1×GEŠTU~c5|	|GA₂~a1×GEŠTU~c5|	10
+o0900689	c	|GA₂~a1×SU~a|	|GA₂~a1×SU~a|	1
+o0900701	c	|GA₂~a1×ŠA|	|GA₂~a1×ŠA|	1
+o0900709	c	|GA₂~a1×X|	|GA₂~a1×X|	3
+o0900719	s	GAʾAR~a1	GAʾAR~a1	1
+o0900729	s	GAL~a	GAL~a	22
+o0900736	s	GAN~a	GAN~a	4
+o0900738	s	GAN~b	GAN~b	1
+o0900778	s	GAN₂	GAN₂	57
+o0900779	s	GAR	GAR	38
+o0900800	s	GEŠTU~b	GEŠTU~b	1
+o0900803	s	GEŠTU~c5	GEŠTU~c5	2
+o0900806	s	GI	GI	76
+o0900812	c	|GI×KU~b1|	|GI×KU~b1|	6
+o0900822	c	|GI&GI|	|GI&GI|	1
+o0900829	s	GI₄~a	GI₄~a	1
+o0900836	s	GI₆	GI₆	2
+o0900839	s	GIBIL	GIBIL	25
+o0900855	s	GIR₂~a	GIR₂~a	3
+o0900860	s	GIR₃~c	GIR₃~c	8
+o0900869	s	GIR₃@g~a	GIR₃@g~a	1
+o0900870	s	GIR₃@g~b	GIR₃@g~b	40
+o0900871	s	GIR₃@g~c	GIR₃@g~c	1
+o0900875	s	GIŠ	GIŠ	9
+o0900877	c	|GIŠ.TE|	|GIŠ.TE|	1
+o0900883	c	|(GIŠ×ŠU₂)~a|	|GIŠ×ŠU₂~a|	2
+o0900889	s	GIŠ₃~a	GIŠ₃~a	1
+o0900890	s	GIŠ₃~b	GIŠ₃~b	1
+o0900899	s	GIŠIMMAR~b1	GIŠIMMAR~b1	1
+o0900906	s	GU	GU	4
+o0900908	s	GU₄	GU₄	7
+o0900912	s	GU₇	GU₇	22
+o0900914	s	GU₄@g	GU₄@g	2
+o0900920	s	GUG₂	GUG₂	14
+o0900935	s	GUL	GUL	1
+o0900938	s	GUM~b	GUM~b	1
+o0900948	s	GURUŠ~a	GURUŠ~a	6
+o0900955	s	GURUŠDA	GURUŠDA	3
+o0900956	s	HAL	HAL	1
+o0900958	s	HAŠHUR	HAŠHUR	22
+o0900960	s	HI	HI	7
+o0900966	c	|HI×LAGAB~a|	|HI×LAGAB~a|	3
+o0900970	c	|HI×1(N57@t)|	|HI×1(N57)@t|	1
+o0900976	s	HI@g~a	HI@g~a	9
+o0900977	s	HI@g~b	HI@g~b	1
+o0900981	s	I	I	2
+o0900983	s	IB~a	IB~a	9
+o0900995	s	IL	IL	7
+o0901000	s	IM~a	IM~a	2
+o0901005	s	IN~b	IN~b	1
+o0901009	s	IR~a	IR~a	1
+o0901020	s	IŠ~a	IŠ~a	1
+o0901022	s	IŠ~b	IŠ~b	1
+o0901030	s	KA~a	KA~a	4
+o0901043	c	|KA₂~d×LAM~b|	|KA₂×LAM|	2
+o0901044	s	KAB	KAB	5
+o0901052	s	KAK~a	KAK~a	3
+o0901062	s	KALAM~a	KALAM~a	6
+o0901063	s	KALAM~b	KALAM~b	3
+o0901073	s	KAR₂~a	KAR₂~a	1
+o0901075	s	KASKAL	KASKAL	3
+o0901078	s	KAŠ~a	KAŠ~a	33
+o0901080	s	KAŠ~b	KAŠ~b	8
+o0901082	s	KAŠ~c	KAŠ~c	4
+o0901090	s	KI	KI	60
+o0901097	s	KID~a	KID~a	5
+o0901098	s	KID~b	KID~b	32
+o0901115	s	KISAL~b1	KISAL~b1	3
+o0901122	s	KISIM~a	KISIM~a	3
+o0901123	s	KISIM~b	KISIM~b	1
+o0901128	s	KIŠ	KIŠ	4
+o0901131	s	KIŠIK~a	KIŠIK~a	1
+o0901137	s	KU~b1	KU~b1	3
+o0901142	s	KU₃~a	KU₃~a	8
+o0901145	s	KU₆~a	KU₆~a	14
+o0901149	c	|KU₆~a.1(N02)|	|KU₆~a.1(N02)|	3
+o0901153	c	|KU₆~a+KU₆~a|	|KU₆~a+KU₆~a|	1
+o0901158	s	KUR~a	KUR~a	13
+o0901184	s	LA₂	LA₂	1
+o0901187	s	LAGAB~b	LAGAB~b	13
+o0901243	c	|LAGAB~a×ŠA|	|LAGAB~a×ŠA|	3
+o0901245	c	|LAGAB~a×ŠITA~a1|	|LAGAB~a×ŠITA~a1|	2
+o0901268	s	LAHTAN₂	LAHTAN₂	1
+o0901270	s	LAL₂~a	LAL₂~a	4
+o0901284	s	LAM~b	LAM~b	2
+o0901304	s	LU₂	LU₂	1
+o0901313	s	MA	MA	38
+o0901338	c	|MAH~a×NA~a|	|MAH~a×NA~a|	2
+o0901361	s	MAR~a	MAR~a	8
+o0901376	s	MAŠ	MAŠ	19
+o0901377	s	MAŠ₂	MAŠ₂	6
+o0901380	s	ME~a	ME~a	51
+o0901384	s	MEN~a	MEN~a	9
+o0901387	s	MES	MES	1
+o0901392	s	MU	MU	28
+o0901393	s	MUD	MUD	2
+o0901396	s	MUD₃~a	MUD₃~a	1
+o0901398	s	MUD₃~c	MUD₃~c	1
+o0901419	s	MUŠ₃~a	MUŠ₃~a	14
+o0901426	s	MUŠEN	MUŠEN	16
+o0901431	c	|MUŠEN×2(N57)|	|MUŠEN×2(N57)|	10
+o0901437	s	NA~a	NA~a	7
+o0901438	s	NA~b	NA~b	1
+o0901442	s	NA₂~a	NA₂~a	1
+o0901452	s	NAGA~a	NAGA~a	3
+o0901457	s	NAGAR~a	NAGAR~a	3
+o0901467	s	NAM~d	NAM~d	1
+o0901468	s	NAM₂	NAM₂	22
+o0901472	s	NAMEŠDA	NAMEŠDA	3
+o0901475	s	NANNA~a	NANNA~a	1
+o0901481	s	NAR	NAR	4
+o0901483	s	NE~a	NE~a	12
+o0901496	s	NESAG₂~b	NESAG₂~b	1
+o0901501	s	NI~a	NI~a	16
+o0901502	s	NI~b	NI~b	3
+o0901504	c	|NI~a.RU|	|NI~a.RU|	78
+o0901513	s	NI₂	NI₂	1
+o0901516	s	NIM~a	NIM~a	1
+o0901517	s	NIM~b1	NIM~b1	3
+o0901518	s	NIM~b2	NIM~b2	1
+o0901519	s	NIM~b3	NIM~b3	1
+o0901521	s	NIMGIR	NIMGIR	5
+o0901524	s	NIN	NIN	1
+o0901557	c	|NINDA₂×1(N01)|	|NINDA₂×1(N01)|	1
+o0901572	c	|NINDA₂×X|	|NINDA₂×X|	1
+o0901575	c	|NINDA₂×(ZATU659×1(N01))|	|NINDA₂×(ZATU659×1(N01))|	2
+o0901580	s	NIR~a	NIR~a	2
+o0901583	c	|NIR~a×AN|	|NIR~a×AN|	1
+o0901585	s	NU@g	NU@g	1
+o0901589	s	NUMUN	NUMUN	2
+o0901592	s	NUN~a	NUN~a	31
+o0901611	c	|NUN~a+NAM₂|	|NUN~a+NAM₂|	1
+o0901614	s	NUNUZ~a1	NUNUZ~a1	12
+o0901615	s	NUNUZ~a2	NUNUZ~a2	1
+o0901618	s	NUNUZ~c	NUNUZ~c	1
+o0901625	s	PA~a	PA~a	64
+o0901639	s	PAP~a	PAP~a	37
+o0901648	s	PIRIG~b1	PIRIG~b1	7
+o0901656	s	PU₂	PU₂	3
+o0901659	s	RAD~a	RAD~a	3
+o0901670	s	RU	RU	7
+o0901674	s	SA~a	SA~a	3
+o0901677	s	SAG	SAG	27
+o0901697	s	SAL	SAL	62
+o0901699	c	|SAL.KUR~a|	|SAL.KUR~a|	26
+o0901709	s	SANGA~a	SANGA~a	39
+o0901718	s	SAR~a	SAR~a	2
+o0901723	c	|SAR~a×ŠE~a|	|SAR~a×ŠE~a|	3
+o0901724	s	SI	SI	18
+o0901742	s	SI₄~d	SI₄~d	1
+o0901744	s	SI₄~f	SI₄~f	3
+o0901746	s	SIG	SIG	1
+o0901753	s	SIG₂~a3	SIG₂~a3	1
+o0901757	s	SIG₂~b	SIG₂~b	1
+o0901771	s	SIG₇	SIG₇	2
+o0901800	c	|SILA₃~a×HAŠHUR|	|SILA₃~a×HAŠHUR|	2
+o0901812	c	|SILA₃~a×KU₆~a|	|SILA₃~a×KU₆~a|	3
+o0901839	c	|SILA₃~a×SUM~b|	|SILA₃~a×SUM~b|	1
+o0901848	c	|SILA₃~a×ŠU₂|	|SILA₃~a×ŠU₂|	4
+o0901866	s	SIMUG	SIMUG	1
+o0901870	s	SU~a	SU~a	29
+o0901878	s	SUG	SUG	1
+o0901879	s	SUG₅	SUG₅	4
+o0901881	s	SUHUR	SUHUR	17
+o0901887	s	SUKKAL	SUKKAL	2
+o0901891	c	|(SUKUD+SUKUD)~b|	|(SUKUD+SUKUD)~b|	5
+o0901902	s	SUM~a	SUM~a	1
+o0901904	s	SUM~b	SUM~b	1
+o0901908	s	SUR	SUR	1
+o0901910	s	ŠA	ŠA	21
+o0901914	c	|(ŠA×HI@g~a)~a|	|(ŠA×HI@g~a)~a|	1
+o0901916	s	ŠA@g	ŠA@g	1
+o0901918	s	ŠA₃~a1	ŠA₃~a1	3
+o0901919	s	ŠA₃~a2	ŠA₃~a2	1
+o0901926	s	ŠAB~a	ŠAB~a	8
+o0901930	s	ŠAGAN	ŠAGAN	14
+o0901934	s	ŠAH₂~a	ŠAH₂~a	1
+o0901940	s	ŠAKIR~c	ŠAKIR~c	1
+o0901941	s	ŠAM₂	ŠAM₂	5
+o0901946	s	ŠE~a	ŠE~a	126
+o0901955	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|	2
+o0901959	c	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|	10
+o0901962	s	ŠE₃	ŠE₃	3
+o0901969	s	ŠEN~a	ŠEN~a	2
+o0901990	s	ŠIDIM	ŠIDIM	1
+o0901993	s	ŠIM~a	ŠIM~a	2
+o0902004	s	ŠITA~a1	ŠITA~a1	57
+o0902009	s	ŠITA~b3	ŠITA~b3	1
+o0902028	s	ŠITA@g~a	ŠITA@g~a	1
+o0902032	c	|ŠITA@g~a×1(N06)|	|ŠITA@g~a×1(N06)|	2
+o0902033	s	ŠU	ŠU	40
+o0902035	c	|ŠU&ŠU|	|ŠU&ŠU|	13
+o0902036	s	ŠU@g	ŠU@g	1
+o0902038	s	ŠU₂	ŠU₂	69
+o0902043	c	|ŠU₂.E₂~a|	|ŠU₂.E₂~a|	4
+o0902060	s	ŠUBUR	ŠUBUR	10
+o0902061	s	ŠUM	ŠUM	2
+o0902063	s	ŠUR₂~a	ŠUR₂~a	1
+o0902076	s	TA~c	TA~c	1
+o0902089	s	TAG~d	TAG~d	1
+o0902094	s	TAK₄~a	TAK₄~a	24
+o0902098	s	TAK₄~a@n	TAK₄~a@n	1
+o0902100	s	TAR~a	TAR~a	8
+o0902102	s	TE	TE	8
+o0902103	s	TI	TI	12
+o0902107	s	TI@t	TI@t	3
+o0902112	s	TU~b	TU~b	7
+o0902116	s	TUG₂~a	TUG₂~a	2
+o0902128	s	TUM~a	TUM~a	1
+o0902130	s	TUM~c	TUM~c	6
+o0902136	s	TUN₃~a	TUN₃~a	3
+o0902139	s	TUR	TUR	12
+o0902146	s	TUR₃~a	TUR₃~a	4
+o0902157	s	U₂~b	U₂~b	16
+o0902161	s	U₄	U₄	21
+o0902163	c	|U₄.1(N08)|	|U₄.1(N08)|	2
+o0902164	c	|U₄.2(N08)|	|U₄.2(N08)|	2
+o0902165	c	|U₄.3(N08)|	|U₄.3(N08)|	3
+o0902166	c	|U₄.4(N08)|	|U₄.4(N08)|	2
+o0902167	c	|U₄.5(N08)|	|U₄.5(N08)|	1
+o0902173	c	|U₄.1(N14).4(N08)|	|U₄.(1(N14).4(N08))|	1
+o0902174	c	|U₄.1(N14).5(N08)|	|U₄.(1(N14).5(N08))|	2
+o0902175	c	|U₄.1(N14).8(N08)|	|U₄.(1(N14).8(N08))|	1
+o0902176	c	|U₄.2(N14)|	|U₄.2(N14)|	1
+o0902178	c	|U₄×1(N01)|	|U₄×1(N01)|	1
+o0902179	c	|U₄×1(N01).5(N08)|	|U₄×1(N01).5(N08)|	1
+o0902182	c	|U₄×2(N01)|	|U₄×2(N01)|	1
+o0902184	c	|U₄×2(N01).2(N14).1(N08)|	|U₄×2(N01).(2(N14).1(N08))|	1
+o0902185	c	|U₄×2(N01).X|	|U₄×2(N01).X|	1
+o0902186	c	|U₄×3(N01)|	|U₄×3(N01)|	1
+o0902192	c	|U₄×6(N01)|	|U₄×6(N01)|	1
+o0902193	c	|U₄×8(N01)|	|U₄×8(N01)|	1
+o0902194	c	|U₄×8(N01).X|	|U₄×8(N01).X|	1
+o0902196	c	|U₄×1(N14)|	|U₄×1(N14)|	1
+o0902198	c	|U₄×(1(N14).2(N01))|	|U₄×(1(N14).2(N01))|	2
+o0902201	c	|U₄×(1(N14).8(N01))|	|U₄×(1(N14).8(N01))|	2
+o0902204	c	|U₄×(3(N14).2(N01))|	|U₄×(3(N14).2(N01))|	1
+o0902206	c	|U₄×1(N57)|	|U₄×1(N57)|	9
+o0902207	c	|U₄×2(N57)|	|U₄×2(N57)|	4
+o0902208	c	|U₄×3(N57)|	|U₄×3(N57)|	6
+o0902209	c	|U₄×4(N57)|	|U₄×4(N57)|	2
+o0902210	c	|U₄×5(N57)|	|U₄×5(N57)|	2
+o0902211	c	|U₄×6(N57)|	|U₄×6(N57)|	2
+o0902216	c	|U₄×X|	|U₄×X|	1
+o0902220	s	U₈	U₈	5
+o0902227	s	UB	UB	45
+o0902234	s	UD₅~a	UD₅~a	8
+o0902243	s	UDU~a	UDU~a	78
+o0902250	s	UDUNITA~a	UDUNITA~a	2
+o0902261	s	UKKIN~a	UKKIN~a	20
+o0902268	c	|UKKIN~b×DIN|	|UKKIN~b×DIN|	4
+o0902290	s	UMUN₂	UMUN₂	1
+o0902293	s	UNUG~a	UNUG~a	16
+o0902302	s	UR~a	UR~a	6
+o0902309	s	UR₂	UR₂	3
+o0902327	s	UR₅~a	UR₅~a	2
+o0902329	s	URI	URI	2
+o0902332	s	URI₃~a	URI₃~a	2
+o0902339	s	URU~a1	URU~a1	12
+o0902351	c	|URU~a1×HI@g~a|	|URU~a1×HI@g~a|	1
+o0902367	c	|URU~a1×U₄|	|URU~a1×U₄|	1
+o0902373	s	URUDU~a	URUDU~a	1
+o0902400	s	UTUA~a	UTUA~a	1
+o0902406	s	UTUL~a	UTUL~a	1
+o0902413	c	|X(N57).GAR|	|N(N57).GAR|	1
+o0902422	s	ZAG~a	ZAG~a	3
+o0902442	s	ZATU624~a	ZATU624~a	1
+o0902453	s	ZATU628~a	ZATU628~a	2
+o0902458	s	ZATU630	ZATU630	1
+o0902466	s	ZATU633~a	ZATU633~a	1
+o0902479	s	ZATU644~a	ZATU644~a	33
+o0902484	s	ZATU647	ZATU647	3
+o0902496	c	|ZATU651×GAR|	|ZATU651×GAR|	1
+o0902505	s	ZATU651@g	ZATU651@g	2
+o0902506	s	ZATU659	ZATU659	13
+o0902507	c	|ZATU659×1(N01)|	|ZATU659×1(N01)|	13
+o0902549	s	ZATU682	ZATU682	1
+o0902558	s	ZATU686~b	ZATU686~b	1
+o0902575	s	ZATU694~c	ZATU694~c	3
+o0902596	s	ZATU703	ZATU703	2
+o0902605	s	ZATU710	ZATU710	1
+o0902613	s	ZATU714	ZATU714	1
+o0902616	c	|ZATU714×HI@g~a|	|ZATU714×HI@g~a|	14
+o0902623	s	ZATU722	ZATU722	1
+o0902631	s	ZATU726~d	ZATU726~d	3
+o0902641	s	ZATU735~a	ZATU735~a	2
+o0902642	s	ZATU735~b	ZATU735~b	12
+o0902657	c	|ZATU737×BUR~a|	|ZATU737×BUR~a|	3
+o0902692	s	ZATU750	ZATU750	1
+o0902697	s	ZATU751~a	ZATU751~a	10
+o0902698	s	ZATU751~b	ZATU751~b	2
+o0902699	s	ZATU752	ZATU752	3
+o0902701	s	ZATU753	ZATU753	30
+o0902711	s	ZATU759	ZATU759	1
+o0902739	s	ZATU773~a	ZATU773~a	4
+o0902744	s	ZATU776	ZATU776	1
+o0902764	s	ZATU797	ZATU797	1
+o0902765	s	ZATU798	ZATU798	1
+o0902766	s	ZATU799	ZATU799	1
+o0902767	s	ZATU800	ZATU800	2
+o0902779	s	ZATU811	ZATU811	1
+o0902780	s	ZATU812	ZATU812	1
+o0902829	s	ZI~a	ZI~a	4
+o0902858	n	1(N01)	1(N01)	513
+o0902859	n	2(N01)	2(N01)	180
+o0902860	n	3(N01)	3(N01)	79
+o0902861	n	4(N01)	4(N01)	79
+o0902862	n	5(N01)	5(N01)	87
+o0902863	n	6(N01)	6(N01)	33
+o0902864	n	7(N01)	7(N01)	27
+o0902865	n	8(N01)	8(N01)	24
+o0902866	n	9(N01)	9(N01)	12
+o0902868	n	10(N01)	10(N01)	1
+o0902869	n	1(N02)	1(N02)	17
+o0902870	c	|1(N02).RU|	|1(N02).RU|	1
+o0902871	n	2(N02)	2(N02)	3
+o0902872	n	3(N02)	3(N02)	1
+o0902879	n	1(N03)	1(N03)	13
+o0902880	n	2(N03)	2(N03)	17
+o0902881	n	3(N03)	3(N03)	6
+o0902882	n	4(N03)	4(N03)	1
+o0902884	n	1(N04)	1(N04)	18
+o0902885	n	2(N04)	2(N04)	9
+o0902886	n	3(N04)	3(N04)	5
+o0902887	n	4(N04)	4(N04)	3
+o0902888	n	5(N04)	5(N04)	4
+o0902894	n	1(N05)	1(N05)	27
+o0902895	n	2(N05)	2(N05)	16
+o0902896	n	3(N05)	3(N05)	12
+o0902897	n	4(N05)	4(N05)	18
+o0902898	n	5(N05)	5(N05)	12
+o0902899	n	1(N06)	1(N06)	1
+o0902909	n	1(N08)	1(N08)	17
+o0902912	n	2(N08)	2(N08)	2
+o0902913	n	2(N08~b)	2(N08~b)	1
+o0902914	n	3(N08)	3(N08)	2
+o0902916	n	4(N08)	4(N08)	5
+o0902919	n	5(N08)	5(N08)	2
+o0902921	n	7(N08)	7(N08)	2
+o0902929	n	1(N14)	1(N14)	169
+o0902930	n	2(N14)	2(N14)	85
+o0902932	n	3(N14)	3(N14)	72
+o0902933	n	4(N14)	4(N14)	53
+o0902934	n	5(N14)	5(N14)	29
+o0902936	n	6(N14)	6(N14)	7
+o0902938	n	7(N14)	7(N14)	8
+o0902939	n	8(N14)	8(N14)	14
+o0902940	n	9(N14)	9(N14)	9
+o0902956	n	2(N15)	2(N15)	1
+o0902962	n	1(N18)	1(N18)	2
+o0902963	n	2(N18)	2(N18)	3
+o0902966	n	5(N18)	5(N18)	2
+o0902972	n	1(N19)	1(N19)	9
+o0902973	n	2(N19)	2(N19)	11
+o0902974	n	3(N19)	3(N19)	7
+o0902975	n	4(N19)	4(N19)	5
+o0902976	n	5(N19)	5(N19)	6
+o0902977	n	6(N19)	6(N19)	3
+o0902978	n	7(N19)	7(N19)	4
+o0902979	n	8(N19)	8(N19)	1
+o0902991	n	1(N20)	1(N20)	17
+o0902992	n	2(N20)	2(N20)	13
+o0902993	n	3(N20)	3(N20)	6
+o0902994	n	4(N20)	4(N20)	4
+o0902995	n	5(N20)	5(N20)	2
+o0902996	n	6(N20)	6(N20)	3
+o0902999	n	9(N20)	9(N20)	1
+o0903000	n	2(N21)	2(N21)	1
+o0903001	n	3(N21)	3(N21)	6
+o0903002	n	4(N21)	4(N21)	4
+o0903003	n	5(N21)	5(N21)	2
+o0903005	n	1(N22)	1(N22)	11
+o0903006	n	2(N22)	2(N22)	12
+o0903016	n	1(N24)	1(N24)	32
+o0903022	n	1(N25)	1(N25)	67
+o0903026	n	1(N27)	1(N27)	1
+o0903028	n	1(N28)	1(N28)	2
+o0903051	n	1(N30A)	1(N30~a)	7
+o0903059	n	1(N34)	1(N34)	57
+o0903060	c	|1(N34)×1(N58)|	|1(N34)×1(N58)|	1
+o0903061	n	2(N34)	2(N34)	7
+o0903062	n	3(N34)	3(N34)	5
+o0903063	n	4(N34)	4(N34)	7
+o0903064	n	5(N34)	5(N34)	13
+o0903065	n	6(N34)	6(N34)	1
+o0903066	n	7(N34)	7(N34)	1
+o0903068	n	9(N34)	9(N34)	1
+o0903079	n	1(N35)	1(N35)	1
+o0903082	n	1(N36)	1(N36)	8
+o0903083	n	2(N36)	2(N36)	1
+o0903092	n	1(N37)	1(N37)	1
+o0903094	n	1(N38)	1(N38)	15
+o0903111	n	1(N40)	1(N40)	3
+o0903112	n	2(N40)	2(N40)	9
+o0903113	n	3(N40)	3(N40)	3
+o0903115	n	1(N41)	1(N41)	3
+o0903116	n	2(N41)	2(N41)	4
+o0903117	n	3(N41)	3(N41)	4
+o0903118	n	4(N41)	4(N41)	2
+o0903134	n	1(N45)	1(N45)	36
+o0903137	n	2(N45)	2(N45)	8
+o0903138	n	3(N45)	3(N45)	3
+o0903140	n	5(N45)	5(N45)	1
+o0903141	n	6(N45)	6(N45)	1
+o0903143	n	9(N45)	9(N45)	1
+o0903153	n	1(N46)	1(N46)	4
+o0903154	n	2(N46)	2(N46)	10
+o0903158	n	1(N47)	1(N47)	1
+o0903159	n	2(N47)	2(N47)	2
+o0903161	n	1(N48)	1(N48)	1
+o0903174	n	1(N50)	1(N50)	10
+o0903175	n	2(N50)	2(N50)	4
+o0903176	n	3(N50)	3(N50)	7
+o0903177	n	4(N50)	4(N50)	5
+o0903178	n	5(N50)	5(N50)	2
+o0903188	n	1(N51)	1(N51)	10
+o0903189	n	2(N51)	2(N51)	2
+o0903193	n	6(N51)	6(N51)	1
+o0903196	n	1(N52)	1(N52)	13
+o0903197	n	2(N52)	2(N52)	9
+o0903198	n	3(N52)	3(N52)	2
+o0903210	n	1(N57)	1(N57)	33
+o0903222	n	2(N57)	2(N57)	10
+o0903234	n	3(N57)	3(N57)	53
+o0903243	c	|3(N57).GAR|	|3(N57).GAR|	1
+o0903257	n	4(N57)	4(N57)	3
+o0903258	c	|4(N57).AMAR|	|4(N57).AMAR|	1
+o0903259	c	|4(N57).GAR|	|4(N57).GAR|	2
+o0903261	c	|4(N57).KU₃~a|	|4(N57).KU₃~a|	11
+o0903264	n	5(N57)	5(N57)	1
+o0903265	c	|5(N57).GAR|	|5(N57).GAR|	4
+o0903267	c	|5(N57).KU₃~a|	|5(N57).KU₃~a|	4
+o0903268	n	6(N57)	6(N57)	1
+o0903270	c	|6(N57).GAR|	|6(N57).GAR|	1
+o0903272	c	|6(N57).KU₃~a|	|6(N57).KU₃~a|	1
+o0903278	n	9(N57)	9(N57)	2
+o0903280	n	1(N58)	1(N58)	25
+o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|	11
+o0903301	n	1(N60)	1(N60)	3
+o0903311	n	1(N39A)	1(N39~a)	19
+o0903312	n	2(N39A)	2(N39~a)	11
+o0903313	n	3(N39A)	3(N39~a)	8
+o0903314	n	4(N39A)	4(N39~a)	8
+o0903334	n	1(N24A)	1(N24~a)	5
+o0903336	n	1(N24B)	1(N24~b)	2
+o0903340	n	1(N28C)	1(N28~c)	19
+o0903342	n	1(N30AC)	1(N30A~c)	4
+o0903344	n	1(N42A)	1(N42~a)	44
+o0903345	n	2(N42A)	2(N42~a)	33
+o0903346	n	3(N42A)	3(N42~a)	13
+o0903347	n	4(N42A)	4(N42~a)	7
+o0903368	s	X	X	380
+o0903580	s	DUG~c	DUG~c	3
+o0903581	c	|DUG~c×1(N57)|	|DUG~c×1(N57)|	7
+o0903588	c	|GA₂~a2×ŠE₃|	|GA₂~a2×ŠE₃|	3
+o0903604	c	|GIR₃~c×ŠE₃|	|GIR₃~c×ŠE₃|	1
+o0903619	c	|NUN~a+EN~a|	|NUN~a+EN~a|	1
+o0903623	c	|SAG×MA|	|SAG×MA|	17
+o0903628	c	|SILA₃~a×MA|	|SILA₃~a×MA|	2
+o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|	1

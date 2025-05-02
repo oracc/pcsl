@@ -1,2 +1,0 @@
-the fepc link in this directory is because (cd mepc/lists ; make)
-makes '..' mepc, not pcsl.
