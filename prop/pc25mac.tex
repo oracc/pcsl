@@ -2,6 +2,8 @@
 \let\everymathextra\relax
 \let\preamble\relax
 
+\vfuzz3pt
+
 \let\seq\relax
 \let\lname\relax
 \let\sname\relax
@@ -44,7 +46,6 @@
 
 \def\ccchr{\pcssxx}
 \def\ccuni{\helvx}
-
 
 \def\beginchartlist{\newpage\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
 \def\endchartlist{\end{2column}}
@@ -148,7 +149,7 @@
 \def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
 
 \def\beginpcsltab{\newpage\bgroup\offinterlineskip \lineskip1pt
-  \setbox\pcslheaderbox=\vbox{%
+  \setbox\pcslheaderbox=\vbox{\vfuzz12pt%
   \pcslrowx{\hbox{PCSL}}%
           {\slhbox{FONT}}%
           {\hbox to\cdliwd{\hss CDLI\hss}}%
@@ -206,6 +207,7 @@
    \pcslrowht=\ht\pcslbox % \advance\pcslrowht\dp\pcslbox
    \setbox\pcslbox\vbox{#2}%
    \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi % \advance\pcslrowht\dp\pcslbox \fi
+   \advance\pcslrowht2pt % compensate for lineskips
    \let\slnames\slnamesrowht
    \hbox to \hsize{%
          \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
@@ -216,7 +218,7 @@
          \kern.425em
          \vrule height\pcslrowht width1pt
          \kern.425em
-         \vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \vbox to\pcslrowht{\offinterlineskip\vfil#3\vbox to9pt{\vfil}\vfil}%
          \kern.2em
          \vrule height\pcslrowht width.5pt
          \kern.2em
@@ -255,7 +257,7 @@
 
 \newbox\slnmbox
 \newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
-\newbox\sldistbox \newbox\sldistivbox \newbox\sldistiiibox
+\newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
 
 \def\slnamesx#1#2#3#4#5#6#7#8{%
    \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>2in
@@ -277,12 +279,14 @@
 }
 
 \def\sldist{%
+   \setbox\sldisttbox\hbox{\the\sldistt}%
    \setbox\sldistivbox\hbox{\the\sldistiv}%
    \setbox\sldistiiibox\hbox{\the\sldistiii}%
    \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern2pt}%
    \vbox{\oidfont\hsize1in\parindent0pt\hangindent2em\rightskip0pt plus1fil
          \leavevmode
-         \hbox to2em{\the\sldistt\hfil}%
+         \hbox to2em{\the\sldistt\hss}%
+         \ifdim\wd\sldisttbox>1.9em\hskip1pt\penalty-10000\fi
          \ifdim\wd\sldistivbox>0pt\hbox{\hbox to\wd\sldistbox{IV:\kern2pt\hfil}\the\sldistiv\hfil}%
            \ifdim\wd\sldistiiibox>0pt; \penalty0\fi
          \fi
@@ -300,6 +304,6 @@
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\hvfee}
 
-\def\includegraphics#1{\XeTeXpicfile #1 scaled 500 \relax}
+\def\includegraphics#1{\XeTeXpicfile #1 scaled 925\relax}
 
 \endinput
