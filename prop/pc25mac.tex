@@ -242,6 +242,7 @@
 \font\slnmfonty="Ungkam Basic Bold" at8.25pt
 \font\sldistfont="Ungkam Basic" at9pt
 \font\oidfont="Ungkam Basic" at9pt
+\font\oidfontx="Ungkam Basic" at8pt
 \font\zatufont="Ungkam Basic" at7.5pt
 
 %\def\slnm{\slnmfont}
@@ -287,10 +288,10 @@
          \leavevmode
          \hbox to2em{\the\sldistt\hss}%
          \ifdim\wd\sldisttbox>1.9em\hskip1pt\penalty-10000\fi
-         \ifdim\wd\sldistivbox>0pt\hbox{\hbox to\wd\sldistbox{IV:\kern2pt\hfil}\the\sldistiv\hfil}%
+         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern2pt\hfil}\the\sldistiv\hfil}%
            \ifdim\wd\sldistiiibox>0pt; \penalty0\fi
          \fi
-         \ifdim\wd\sldistiiibox>0pt\hbox{\hbox to\wd\sldistbox{III:\kern2pt\hfil}\the\sldistiii\hfil}\fi
+         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern2pt\hfil}\the\sldistiii\hfil}\fi
          \endgraf
    }%
 }
@@ -304,6 +305,6 @@
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\hvfee}
 
-\def\includegraphics#1{\XeTeXpicfile #1 scaled 925\relax}
+\def\includegraphics#1#2{\XeTeXpicfile #1 scaled #2\relax}
 
 \endinput

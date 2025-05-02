@@ -56,6 +56,7 @@ my %aka = (); load_aka() if $pcslflag;
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
+my %sf = (); load_sf() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
 
@@ -117,10 +118,18 @@ while (<N>) {
 	    }
 	}
     }
+    my $sfattr = '';
+    if ($pcslflag) {
+	if ($sf{$o}) {
+	    $sfattr = " data-sf=\"$sf{$o}\"";
+	} else {
+	    warn("$o: no scale factor in 00etc/propgh-sf.tsv\n");
+	}
+    }
     if ($pcslflag || $pc25flag) {
 	my $row = $fn ? " row=\"$fn\"" : '';
 	my $pcslx = pcsl_xattr($o,$pc24);
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx>";
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
     } else {
 	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
@@ -268,6 +277,18 @@ sub load_oidmap {
     my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
     foreach (@o) {
 	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m;
+    }
+}
+
+sub load_sf {
+    my @sf = `cat 00etc/propgh-sf.tsv`; chomp @sf;
+    foreach (@sf) {
+	my($o,$sf) = split(/\t/,$_);
+	if ($sf) {
+	    $sf{$o} = $sf;
+	} else {
+	    $sf{$o} = '1000';
+	}
     }
 }
 

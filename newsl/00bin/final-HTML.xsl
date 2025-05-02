@@ -202,6 +202,7 @@
 	      <xsl:when test="$SL='PCSL'">
 		<td>
 		  <div class="cdligh vbox">
+		    <xsl:copy-of select="../@data-sf"/>
 		    <xsl:if test="../@row">
 		      <img class="lrow" src="{../@row}"/>
 		    </xsl:if>
