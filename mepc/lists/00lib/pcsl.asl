@@ -3335,7 +3335,6 @@
 @sign |GA₂~a2×3(N57)|
 @oid o0900671
 @upua U+F2997
-@uname PROTO-CUNEIFORM SIGN GA2-A2 TIMES THREE-N57
 @glyf |GA₂~a2×3(N57)|~1 󳃾 F2997 o0900671 ~01
 @end sign
 
@@ -9850,7 +9849,6 @@
 @sign |ŠE~a.GAR|
 @oid o0901951
 @list U+12A23
-@uname PROTO-CUNEIFORM SIGN SHE-A BESIDE GAR
 @glyf |ŠE~a.GAR|~1 󳁛 12A23 o0901951 ~01
 @end sign
 
@@ -9889,14 +9887,12 @@
 @sign |ŠE~a@t.GAR|
 @oid o0901950
 @upua U+F20C4
-@uname PROTO-CUNEIFORM SIGN SHE-A TENU BESIDE GAR
 @glyf |ŠE~a.GAR|~2 󳁚 F20C4 o0901950 ~02
 @end sign
 
 @sign |ŠE~a@t+EZEN~b|
 @oid o0903781
 @upua U+F299A
-@uname PROTO-CUNEIFORM SIGN SHE-A TENU JOINING EZEN-B
 @glyf |ŠE~a@t+EZEN~b|~1 󳄆 F299A o0903781 ~01
 @end sign
 
@@ -11043,7 +11039,6 @@
 @aka |U₄×1(N01)+1(N24)|
 @oid o0902180
 @list U+12A82
-@uname PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1 PLUS ONE-N24
 @glyf |U₄×(1(N01).1(N24))|~1 󳀇 12A82 o0902180 ~01
 @end sign
 
@@ -12763,7 +12758,6 @@
 @sign ZATU659@t
 @oid o0902510
 @upua U+F2996
-@uname PROTO-CUNEIFORM SIGN ZATU659 TENU
 @glyf ZATU659@t~1 󳃽 F2996 o0902510 ~01
 @end sign
 
@@ -14789,7 +14783,6 @@
 @sign 5(LAGAB~a)
 @oid o0903778
 @list U+12BEA
-@uname PROTO-CUNEIFORM NUMBER FIVE-LAGAB-A
 @glyf 5(LAGAB~a)~1 󳄀 12BEA o0903778 ~01
 @end sign
 
@@ -14864,6 +14857,7 @@
 
 @sign 9(N01)
 @oid o0902866
+@list U+12558
 @uname PROTO-CUNEIFORM NUMBER NINE-N1
 @glyf 9(N01)~1 𒕘 12558 o0902866 ~01
 @glyf 9(N01)~2 󰁥 F2135 o0903441 ~02
@@ -15242,6 +15236,7 @@
 @sign 1(N07A)
 @aka 1(N07~a)
 @oid o0903352
+@list U+12646
 @uname PROTO-CUNEIFORM NUMBER ONE-N7A
 @glyf 1(N07A)~1 𒙆 12646 o0903352 ~01
 @end sign
@@ -15249,6 +15244,7 @@
 @sign 2(N07A)
 @aka 2(N07~a)
 @oid o0903353
+@list U+12647
 @uname PROTO-CUNEIFORM NUMBER TWO-N7A
 @glyf 2(N07A)~1 𒙇 12647 o0903353 ~01
 @end sign
@@ -15256,6 +15252,7 @@
 @sign 3(N07A)
 @aka 3(N07~a)
 @oid o0903354
+@list U+12648
 @uname PROTO-CUNEIFORM NUMBER THREE-N7A
 @glyf 3(N07A)~1 𒙈 12648 o0903354 ~01
 @end sign
@@ -15263,6 +15260,7 @@
 @sign 1(N07B)
 @aka 1(N07~b)
 @oid o0903355
+@list U+12649
 @uname PROTO-CUNEIFORM NUMBER ONE-N7B
 @glyf 1(N07B)~1 𒙉 12649 o0903355 ~01
 @end sign
@@ -15270,6 +15268,7 @@
 @sign 2(N07B)
 @aka 2(N07~b)
 @oid o0903356
+@list U+1264A
 @uname PROTO-CUNEIFORM NUMBER TWO-N7B
 @glyf 2(N07B)~1 𒙊 1264A o0903356 ~01
 @end sign
@@ -15277,6 +15276,7 @@
 @sign 3(N07B)
 @aka 3(N07~b)
 @oid o0903357
+@list U+1264B
 @uname PROTO-CUNEIFORM NUMBER THREE-N7B
 @glyf 3(N07B)~1 𒙋 1264B o0903357 ~01
 @end sign
@@ -15446,6 +15446,7 @@
 
 @sign 5(N14)
 @oid o0902934
+@list U+12566
 @uname PROTO-CUNEIFORM NUMBER FIVE-N14
 @glyf 5(N14)~1 𒕦 12566 o0902934 ~01
 @glyf 5(N14)~2 󰂀 F2150 o0903468 ~02
@@ -15453,6 +15454,7 @@
 
 @sign 6(N14)
 @oid o0902936
+@list U+12567
 @uname PROTO-CUNEIFORM NUMBER SIX-N14
 @glyf 6(N14)~1 𒕧 12567 o0902936 ~01
 @glyf 6(N14)~2 󰂁 F2151 o0903469 ~02
@@ -15581,7 +15583,6 @@
 @sign 10(N14@f)
 @oid o0902954
 @upua U+F00DF
-@uname PROTO-CUNEIFORM NUMBER ONE-N14 FLAT
 @glyf 10(N14@f)~1 󰃟 F00DF o0902954 ~01
 @end sign
 
@@ -15697,6 +15698,7 @@
 
 @sign 9(N18)
 @oid o0902970
+@list U+125FC
 @uname PROTO-CUNEIFORM NUMBER NINE-N18
 @glyf 9(N18)~1 𒗼 125FC o0902970 ~01
 @glyf 9(N18)~2 󰂏 F215F o0903483 ~02
@@ -16014,7 +16016,6 @@
 @sign 5(N23)
 @oid o0903013
 @upua U+F0101
-@uname PROTO-CUNEIFORM NUMBER FIVE-N23
 @glyf 5(N23)~1 󰄁 F0101 o0903013 ~01
 @end sign
 
@@ -16037,7 +16038,6 @@
 @sign 2(N24)
 @oid o0903019
 @upua U+F0103
-@uname PROTO-CUNEIFORM NUMBER TWO-N24
 @glyf 2(N24)~1 󰄃 F0103 o0903019 ~01
 @end sign
 
@@ -16065,6 +16065,7 @@
 @sign 1(N24A)
 @aka 1(N24~a)
 @oid o0903334
+@list U+125EA
 @uname PROTO-CUNEIFORM NUMBER ONE-N24A
 @glyf 1(N24A)~1 𒗪 125EA o0903334 ~01
 @end sign
@@ -16072,6 +16073,7 @@
 @sign 1(N24B)
 @aka 1(N24~b)
 @oid o0903336
+@list U+125FE
 @uname PROTO-CUNEIFORM NUMBER ONE-N24B
 @glyf 1(N24B)~1 𒗾 125FE o0903336 ~01
 @end sign
@@ -16094,6 +16096,7 @@
 @sign 1(N26B)
 @aka 1(N26~b)
 @oid o0903337
+@list U+125FF
 @uname PROTO-CUNEIFORM NUMBER ONE-N26B
 @glyf 1(N26B)~1 𒗿 125FF o0903337 ~01
 @end sign
@@ -16116,6 +16119,7 @@
 @sign 1(N28B)
 @aka 1(N28~b)
 @oid o0903338
+@list U+12600
 @uname PROTO-CUNEIFORM NUMBER ONE-N28B
 @glyf 1(N28B)~1 𒘀 12600 o0903338 ~01
 @end sign
@@ -16123,6 +16127,7 @@
 @sign 1(N28C)
 @aka 1(N28~c)
 @oid o0903340
+@list U+12625
 @uname PROTO-CUNEIFORM NUMBER ONE-N28C
 @glyf 1(N28C)~1 𒘥 12625 o0903340 ~01
 @end sign
@@ -16147,7 +16152,6 @@
 @sign 1(N29AB)
 @aka 1(N29A~b)
 @oid o0903040
-@list U+12601
 @uname PROTO-CUNEIFORM SIGN EMPTY4
 @glyf 1(N29AB)~1 𒘁 12601 o0903339 ~01
 @end sign
@@ -16171,6 +16175,7 @@
 @sign 1(N29B)
 @aka 1(N29~b)
 @oid o0903308
+@list U+125AE
 @uname PROTO-CUNEIFORM NUMBER ONE-N29B
 @glyf 1(N29B)~1 𒖮 125AE o0903308 ~01
 @end sign
@@ -16195,6 +16200,7 @@
 @aka 1(N30~a)
 @aka 1(N30~a)~v1
 @oid o0903051
+@list U+125AF
 @uname PROTO-CUNEIFORM NUMBER ONE-N30A
 @glyf 1(N30A)~1 𒖯 125AF o0903051 ~01
 @glyf 1(N30A)~2 󰂤 F2173 o0903504 ~02
@@ -16219,6 +16225,7 @@
 @sign 1(N30C)
 @aka 1(N30~c)
 @oid o0903053
+@list U+125B0
 @uname PROTO-CUNEIFORM NUMBER ONE-N30C
 @glyf 1(N30C)~1 𒖰 125B0 o0903053 ~01
 @end sign
@@ -16249,6 +16256,7 @@
 @sign 1(N30D)
 @aka 1(N30~d)
 @oid o0903309
+@list U+125B1
 @uname PROTO-CUNEIFORM NUMBER ONE-N30D
 @glyf 1(N30D)~1 𒖱 125B1 o0903309 ~01
 @end sign
@@ -16256,6 +16264,7 @@
 @sign 1(N30E)
 @aka 1(N30~e)
 @oid o0903310
+@list U+125B2
 @uname PROTO-CUNEIFORM NUMBER ONE-N30E
 @glyf 1(N30E)~1 𒖲 125B2 o0903310 ~01
 @end sign
@@ -17006,7 +17015,6 @@
 @sign 1(N48@f)
 @oid o0903168
 @upua U+F010F
-@uname PROTO-CUNEIFORM NUMBER ONE-N48 FLAT
 @glyf 1(N48@f)~1 󰄏 F010F o0903168 ~01
 @end sign
 
@@ -17372,7 +17380,6 @@
 @sign 2(N57)~v
 @oid o0903784
 @upua U+F21A8
-@uname PROTO-CUNEIFORM NUMBER TWO-N57-V
 @glyf 2(N57)~2 󲰦 F21A8 o0903784 ~02
 @end sign
 
@@ -17403,7 +17410,7 @@
 @list U+12BF1
 @uname PROTO-CUNEIFORM NUMBER SIX-N57
 @glyf 6(N57)~1 󰄕 12BF1 o0903268 ~01
-@glyf 6(N57)~v~1 󰃙 F2263 o0903269 ~01
+@glyf 6(N57)~v~1 󰃙 F00D9 o0903269 ~01
 @end sign
 
 @sign 7(N57)

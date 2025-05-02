@@ -12,7 +12,7 @@ use Getopt::Long;
 GetOptions(
     );
 
-my @s = `cat ../scodes.tsv`; chomp @s;
+my @s = `cat 00etc/scodes.tsv`; chomp @s;
 my %s = (); foreach(@s){my($o,$c)=split(/\t/,$_);$s{$o}=$c}
 
 my @a = `cat 00etc/cusas-adds.tsv`; chomp @a;

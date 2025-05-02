@@ -34,7 +34,7 @@ ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
 
-default: base csldist core pc25 pcsl html css js font
+default: base core pc25 pcsl csldist html css js font
 
 ###
 ### BASE
@@ -43,10 +43,13 @@ default: base csldist core pc25 pcsl html css js font
 ### absolutely complete to prevent downstream mapping errors.
 ###
 
-base: 00etc/pc24.tsv
+base: 00etc/pc24.tsv 00etc/scodes.tsv
 
-00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../00etc/add-data.tsv ../00etc/pc-pua.tab
+00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../../00etc/add-data.tsv ../../00etc/pc-pua.tab
 	00bin/pc24.plx >$@
+
+00etc/scodes.tsv: 00etc/easl-base.tsv 00etc/num-base.tsv 00etc/corpus-base.tsv ../../00etc/add-data.tsv 00bin/scodes.sh
+	00bin/scodes.sh
 
 ###
 ### CORE
@@ -57,9 +60,9 @@ base: 00etc/pc24.tsv
 ###
 
 core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-final.tsv
-	00bin/seq-final.plx -v
+	@true
 
-00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx ../scodes.tsv
+00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx 00etc/scodes.tsv
 	00bin/cusas-tsv.plx >$@
 
 00etc/easl-final.tsv: 00etc/easl-base.tsv 00etc/corpus-base.tsv
@@ -71,10 +74,10 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 00etc/num-final.tsv: 00etc/num-base.tsv
 	00bin/sl-number.plx -1 -n EANM001 <$< >$@
 
-00etc/num-base.tsv: ../00etc/acn-repertoire.tsv ../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../00etc/pc-pua.tab 00bin/num-base.plx
+00etc/num-base.tsv: ../../00etc/acn-repertoire.tsv ../../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../../00etc/pc-pua.tab 00bin/num-base.plx
 	00bin/num-base.plx | 00bin/sl-sort.plx -c 2 - >$@
 
-00etc/pcsl-final.tsv: Makefile ${DVDEPS} 00etc/seq-final.tsv 00etc/refglyph.tsv
+00etc/pcsl-final.tsv: Makefile ${DVDEPS}
 	00bin/pcsl-final.plx
 
 ###
@@ -100,14 +103,14 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv 00etc/
 	00bin/pc25-final.plx
 
 00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx ${O2}/msc/fonts/PC24.ttf
-	(cd ../fepc ; make PC24.ttx.xz)
+	(cd ../../fepc ; make PC24.ttx.xz)
 	00bin/pc25-map.plx >$@
 	cut -f2- 00etc/pc25-map.tsv >00etc/pc25.map
 
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
 	00bin/pc25-add.plx >$@
 
-00etc/glyf-final.tsv: 00etc/glyf-base.tsv 00bin/glyf-final.plx 00etc/pc24.tsv
+00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
 
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
@@ -130,7 +133,7 @@ pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl
 	00bin/pcsl-asl.plx
 
 install-pcsl: pcsl
-	utr 00etc/pc25.map 00lib/pcsl.asl >../00lib/pcsl.asl
+	utr 00etc/pc25.map 00lib/pcsl.asl >../../00lib/pcsl.asl
 
 ###
 ### CSLDIST
@@ -142,10 +145,10 @@ install-pcsl: pcsl
 
 csldist: 00etc/csldist.tsv
 
-00etc/csldist.tsv: ../signs/gpcsl/csl.tix ../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
+00etc/csldist.tsv: ../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
 	(cd ../signs ; make gpcsl/csl.tix)
-	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-easl.xsl - >$@
-	csldist -t ../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
+	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-pcsl.xsl - >$@
+	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 ###
 ### XML
@@ -242,13 +245,13 @@ images/%/.images: images/%/*.png
 ###
 
 clean-base:
-	(cd 00etc ; rm -vf pc24.tsv seq-final.tsv glyf-final.tsv)
+	(cd 00etc ; rm -vf pc24.tsv scodes.tsv)
 
 clean-core:
 	(cd 00etc ; rm -vf easl-final.* cusas-final.* num-final.* pcsl-final.*)
 
 clean-pc25:
-	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv)
+	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv seq-final.tsv glyf-final.tsv)
 
 clean-pcsl:
 	(cd 00etc ; rm -vf 00lib/pcsl.asl)

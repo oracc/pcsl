@@ -29,7 +29,7 @@
       <xsl:value-of select="sum(c1[1]/c2/c3[2][string(number(@c))!='NaN']/@c)"/>
     </xsl:variable>
     <xsl:variable name="IIIp">
-      <xsl:value-of select="sum(c1[1]/c2/c3[1][string(number(@c))!='NaN']/@c)"/>
+      <xsl:value-of select="sum(c1[2]/c2/c3[1][string(number(@c))!='NaN']/@c)"/>
     </xsl:variable>
     <xsl:variable name="IIIu">
       <xsl:value-of select="sum(c1[2]/c2/c3[2][string(number(@c))!='NaN']/@c)"/>

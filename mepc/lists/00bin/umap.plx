@@ -19,7 +19,7 @@ foreach (@m) {
 }
 
 while (<>) {
-    s/([_0-9A-F]{5})/umap($1)/eg;
+    s/([_0-9A-F])/umap($1)/eg; #{5}
     print;
 }
 

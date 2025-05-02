@@ -16,10 +16,10 @@ GetOptions(
 # Create a table to map PC24 ttx to PC25
 #
 
-my $font = '../fepc/PC24.ttx.xz';
+my $font = '../../fepc/PC24.ttx.xz';
 
 my $pua = 0xF2000;
-my $xxx = 0xF2800;
+my $xxx = 0xF2400;
 
 my %seen = (); # track what we've already seen using the hex uni
 
@@ -43,7 +43,7 @@ open(M,">$mapfile");
 # Block 0: ACN characters passed through without mapping
 
 #my @acn = `grep '	12[56]' 00etc/pc24.tsv`; chomp @acn;
-my @acn = `cut -f1,3 ../00etc/pcsl-acn-repertoire.tsv`; chomp @acn;
+my @acn = `cut -f1,3 ../../00etc/pcsl-acn-repertoire.tsv`; chomp @acn;
 foreach (@acn) {
     my($o,$u) = split(/\t/,$_);
     if (hex($u) < 0x12690) {
@@ -97,7 +97,7 @@ foreach my $s (@s) {
 
 # Block 4: Variant Stacking Patterns for PC24 numbers that are now in ACN
 
-my @vsp = `grep VSP ../00etc/pc-pua.tab | cut -f1-3`; chomp @vsp;
+my @vsp = `grep VSP ../../00etc/pc-pua.tab | cut -f1-3`; chomp @vsp;
 foreach my $v (@vsp) {
     my($o,$n,$u) = split(/\t/,$v);
     if ($seen{$pc24{$o}}) {

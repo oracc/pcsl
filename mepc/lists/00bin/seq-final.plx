@@ -101,9 +101,9 @@ sub load_unicode {
     foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; $u{$o} = $u; }
     my @a = `cat 00etc/ap24-codes.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); unless ($u{$u}) { $u{$u} = $o; $u{$o} = $u; } }
-    @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
+    @a = `cut -f1-2 ../../00etc/add-data.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); unless ($u{$u}) { $u{$u} = $o; $u{$o} = $u; } }
-    @a = `cut -f1,3 ../00etc/pc-pua.tab`; chomp @a;
+    @a = `cut -f1,3 ../../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); unless ($u{$u}) { $u{$u} = $o; $u{$o} = $u; } }
 }
 
