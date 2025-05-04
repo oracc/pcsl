@@ -38,6 +38,15 @@
 \font\pcssXX="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 18pt
 \font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
 \font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 12pt
+
+\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at18pt
+\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at18pt
+\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at18pt
+\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FF0000" at18pt
+\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at18pt
+
+\let\redpc\pcfee
+
 %\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
 \font\helv=Arial at 9pt
 \font\helvx="Arial Narrow" at 6pt
@@ -95,14 +104,6 @@
 %\definecolor{sqgreen}{rgb}{.88,.99,.87}% E0FCDE
 %\definecolor{sqpink}{rgb}{1,.92,.92}% FFEBEB
 %\definecolor{sqyellow}{rgb}{1,1,.9}% FFFFE6
-
-\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at14pt
-\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at14pt
-\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at14pt
-\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FF0000" at14pt
-\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at14pt
-
-\let\redpc\pcfee
 
 \font\hveee="Helvetica:color=E5E5E5" at12pt
 \font\hveff="Helvetica:color=E6FAFC" at12pt
@@ -238,8 +239,9 @@
 }
 
 \font\slnmfont="Ungkam Basic Bold" at9pt
-\font\slnmfontx="Ungkam Basic Bold" at7.5pt
-\font\slnmfonty="Ungkam Basic Bold" at8.25pt
+\font\sltgfont="Ungkam Basic" at8pt
+\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.75pt
+\font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.25pt
 \font\sldistfont="Ungkam Basic" at9pt
 \font\oidfont="Ungkam Basic" at9pt
 \font\oidfontx="Ungkam Basic" at8pt
@@ -261,17 +263,25 @@
 \newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
 
 \def\slnamesx#1#2#3#4#5#6#7#8{%
-   \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>2in
+   \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>1.25in
      \let\slnm\slnmfontx
      \else
-       \ifdim\wd\slnmbox>1.25in
+       \ifdim\wd\slnmbox>1.125in
          \let\slnm\slnmfonty
        \else
          \let\slnm\slnmfont
        \fi
      \fi
-   \hbox to2in{\slnm#1\hfil#3}%
-   \hbox{\hbox to1in{\helvy#5\hfil}\smash{\hbox to.5in{\kern.2in\vbox{\hbox{\pcssXX#4}\kern2pt}\hss}}}%
+   \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
+   \kern1pt
+   \hbox{\hbox to1in{\helvy#5\hfil}% PC25 code point
+     \smash{%
+        \hbox to.5in{%
+          \hss\kern.05in%
+          \vbox{\hbox{\pcssXX#4}\kern2pt}% PC25 reference glyph
+          \hss}%
+     }%
+   }%
    \vfil
    \hbox{%
 %     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode{#7}\par}%
@@ -284,10 +294,10 @@
    \setbox\sldistivbox\hbox{\the\sldistiv}%
    \setbox\sldistiiibox\hbox{\the\sldistiii}%
    \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern2pt}%
-   \vbox{\oidfont\hsize1in\parindent0pt\hangindent2em\rightskip0pt plus1fil
+   \vbox{\oidfont\hsize1in\parindent0pt\hangindent2.15em\rightskip0pt plus1fil
          \leavevmode
-         \hbox to2em{\the\sldistt\hss}%
-         \ifdim\wd\sldisttbox>1.9em\hskip1pt\penalty-10000\fi
+         \hbox to2.15em{\the\sldistt\hss}%
+         \ifdim\wd\sldisttbox>2.1em\hskip1pt\penalty-10000\fi
          \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern2pt\hfil}\the\sldistiv\hfil}%
            \ifdim\wd\sldistiiibox>0pt; \penalty0\fi
          \fi
@@ -305,6 +315,6 @@
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\hvfee}
 
-\def\includegraphics#1#2{\XeTeXpicfile #1 scaled #2\relax}
+\def\includegraphics#1#2{\XeTeXpicfile #1 scaled#2\relax}
 
 \endinput

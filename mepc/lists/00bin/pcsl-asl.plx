@@ -17,6 +17,8 @@ GetOptions(
 # are post-converted by utr; all input is still in PC24.
 #
 
+my $pcslranges = `cut -f3 00etc/pc25-map.tsv | sort | 00bin/listdef-uni-ranges.plx`;
+
 my %zatu = (); my %znotes = (); my %nozatu = (); my %zseen = (); load_zatu();
 
 # load PC24->PC25 map
@@ -51,7 +53,14 @@ my %seq = (); load_seq();
 my %unames = (); load_unames();
 
 open(X,">$outfile"); select X;
-print `cat 00etc/header.asl`;
+open(H,'00etc/header.asl') || die;
+while (<H>) {
+    if (/\@\@/) {
+	s/\@\@PCSLRANGES\@\@/$pcslranges/o;
+    }
+    print;
+}
+close(H);
 
 open(N,$f);
 while (<N>) {
@@ -216,7 +225,10 @@ sub asl_pglyf {
     my($o,$n,$c,$tag) = @_;
     if (length $c > 1) {
 	my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
-	$cc = $c unless $cc; # it's OK not to have a precomposed glyph in the PUA and just have X_Y
+	unless ($cc) {
+	    $cc = $c unless $cc; # it's OK not to have a precomposed glyph in the PUA and just have X_Y
+	    $cc =~ tr/_/./; # we switched conventions to use . instead of _ in seq-base
+	}
 	# my $fh = sprintf("%X", ord $cc);
 	# my $fo = $u{$fh};
 	# my $fn = $n{$fo};
@@ -227,12 +239,13 @@ sub asl_pglyf {
 	    # print Dumper \%s;
 	    my $nq = $s{'n'}; $nq =~ s/\%/%%/g;
 	    my $ueq = $s{'u'} ? "$s{'u'}=" : '';
+	    my $s1 = $s{'s1'}; $s1 =~ tr/./‍/; # x200d
 	    $s{'t'} = '' unless $s{'t'};
 	    my $mh = '0';
-	    if ($s{'h'} ne '0') {
+	    if ($s{'h'} && $s{'h'} ne '0') {
 		$mh = $m{$s{'h'}};
 	    }
-	    printf "\@glyf $nq $ueq$s{'s1'} $mh $s{'o'} ~ff\n";
+	    printf "\@glyf $nq $ueq$s1 $mh $s{'o'} ~ff\n";
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
 	    my $sc = $c; $sc =~ tr/\./‍/;
@@ -289,7 +302,7 @@ sub load_seq {
     my @s = `cat 00etc/seq-final.tsv`; chomp @s;
     foreach (@s) {
 #	my($o,$u,$h,$s1,$s2,$n,$l,$s3) = split(/\t/,$_);
-	my %s = (); @s{qw/o u h s1 s2 n l s3/} = split(/\t/,$_);
+	my %s = (); @s{qw/o u s1 s2 n l/} = split(/\t/,$_);
 	my $s = { %s };
 	if ($s{'u'}) {
 	    $seq{$s{'u'}} = $s;
@@ -317,9 +330,9 @@ sub load_unicode {
     foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; }
     my @a = `cat 00etc/ap24-codes.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
-    @a = `cut -f1-2 ../00etc/add-data.tsv`; chomp @a;
+    @a = `cut -f1-2 ../../00etc/add-data.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
-    @a = `cut -f1,3 ../00etc/pc-pua.tab`; chomp @a;
+    @a = `cut -f1,3 ../../00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
 }
 

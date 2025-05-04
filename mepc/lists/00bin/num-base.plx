@@ -18,7 +18,7 @@ my %pc25 = (); load_pc25();
 my %seen = ();
 my %vsp = (); load_vsp();
 
-open(N,'../00etc/acn-repertoire.tsv') || die;
+open(N,'../../00etc/acn-repertoire.tsv') || die;
 while (<N>) {
     chomp;
     my($o,$u,$n,$un) = split(/\t/,$_);
@@ -35,7 +35,7 @@ while (<N>) {
 }
 close(N);
 
-open(A,'../00etc/pc-pua.tab') || die;
+open(A,'../../00etc/pc-pua.tab') || die;
 while (<A>) {
     chomp;
     my($o,$n,$u,$un,$uage,$tag,$parent) = split(/\t/,$_);
@@ -66,7 +66,7 @@ sub load_pc25 {
 }
 
 sub load_vsp {
-    my @v = `cut -f2- ../00etc/vsp-oid-pua-acn.tsv`; chomp @v;
+    my @v = `cut -f2- ../../00etc/vsp-oid-pua-acn.tsv`; chomp @v;
     foreach (@v) {
 	my($v,$a) = split(/\t/,$_);
 	$vsp{$a} = $v;

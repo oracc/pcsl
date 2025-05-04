@@ -59,7 +59,7 @@ base: 00etc/pc24.tsv 00etc/scodes.tsv
 ### PC24 encoding during this process.
 ###
 
-core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-final.tsv
+core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-final.tsv glyfseq
 	@true
 
 00etc/cusas-final.tsv: 00etc/cusas-books.tsv 00etc/cusas-adds.tsv 00bin/cusas-tsv.plx 00etc/scodes.tsv
@@ -80,6 +80,15 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 00etc/pcsl-final.tsv: Makefile ${DVDEPS}
 	00bin/pcsl-final.plx
 
+glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
+
+00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv
+	00bin/glyf-final.plx <$< >$@
+
+# We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
+00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
+	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
+
 ###
 ### PC25
 ###
@@ -97,7 +106,7 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 ### db is maintained in PC24.
 ###
 
-pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv
+pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
 	00bin/pc25-final.plx
@@ -110,13 +119,6 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv 00etc/
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
 	00bin/pc25-add.plx >$@
 
-00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv
-	00bin/glyf-final.plx <$< >$@
-
-# We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
-00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
-	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
-
 ###
 ### PCSL
 ###
@@ -127,13 +129,14 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv 00etc/
 ### remapped by utr during install-pcsl.
 ###
 
-pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl
+pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl install-pcsl
 
 00lib/pcsl.asl: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
 	00bin/pcsl-asl.plx
 
-install-pcsl: pcsl
+install-pcsl:
 	utr 00etc/pc25.map 00lib/pcsl.asl >../../00lib/pcsl.asl
+	00bin/pcsl-update-index.sh $sudo
 
 ###
 ### CSLDIST

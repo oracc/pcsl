@@ -13,7 +13,7 @@ use Getopt::Long;
 # Create a table to add OTF entries to PC25
 #
 
-my $font = '../fepc/PC24.ttx.xz';
+my $font = '../../fepc/PC24.ttx.xz';
 
 GetOptions(
     );
@@ -46,12 +46,16 @@ foreach (@g) {
 
 # ADD 3: liga entries from sequences DB
 
-my @s = `cut -f1,3,7 00etc/seq-final.tsv`; chomp @s;
+my @s = `cut -f1,2,4 00etc/seq-final.tsv`; chomp @s;
 foreach (@s) {
     my($o,$c,$s) = split(/\t/,$_);
-    my $xc = $m{$c};
-    my $xs = mm($s);
-    print "$xs.liga\t\@$xc\n" unless $c eq '0';
+    if ($c && $c ne '0') {
+	my $h = sprintf("%X",ord($c));
+	my $xc = $m{$h};
+	warn "$0: $h=$c not in PC24-PC25 map from 00etc/pc25-map.tsv\n" unless $xc;
+	my $xs = mm($s);
+	print "$xs.liga\t\@$xc\n";
+    }
 }
 
 # ADD 4: Uruk IV/Uruk III forms

@@ -87,7 +87,6 @@ foreach my $s (@s) {
     my $u = sprintf("%X",ord($c));
     my $oo = $pc24{$u};
     if ($oo) {
-	warn "oo=$oo\n";
 	printf "$oo\t$pc24{$oo}\t%X\n", $pua;
 	++$seen{$pc24{$oo}};
 	++$pua;

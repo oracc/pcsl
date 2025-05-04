@@ -111,7 +111,7 @@ sub load_easl {
     foreach (@e) {
 	my %b = ();
 	@b{@efields} = split(/\t/,$_);
-	$b{'char'} = charcommas($b{'char'});
+	# $b{'char'} = charcommas($b{'char'});
 	$b{'src'} = $b{'sn'};
 	$pcsl{$b{'oid'}} = { %b };
     }
@@ -342,7 +342,9 @@ sub pcsl_tsv {
 	my $om = $oidmap{$o};
 	$p{'tag'} .= $pc25tag if exists $pc25rep{$om||$o};
 	unless ($p{'ref'}) { # always have a refglyph even for singletons and sequences
-	    my $rg = $p{'char'}; $rg =~ s/(.).*$/$1/;
+	    my $rg = $p{'char'};
+	    $rg =~ s/(.).*$/$1/
+		unless $rg =~ s/_//g;
 	    warn "refglyph	$o	$p{'pc25'}	$rg	$p{'char'}\n" unless $nc < 2;
 	    $p{'ref'} = $rg;
 	}

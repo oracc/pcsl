@@ -86,21 +86,10 @@ while (<S>) {
     my ($xv,$xn,$xl) = seq_views($s);
     next unless defined $xv;
 
-#    my $xn = seq_name($s);
-#    my $sv = seq_view($s);
-#    my $sq = seq_liga($s);
-#    my $lv = seq_liga_view($sq);
-
     if ($addglyf) {
 	$glyf{$c} = $xv;
-#	my $axn = $xn;
-#	$axn =~ s/^\|(.*?)\|$/($1)/;
-#	$glyf{$c} = $axn;
-#	$glyf{$axn} = $sq;
-#	$glyf{$sq} = $lv;
     }
     
-    #    print "$o\t$c\t$h\t$s\t$sv\t$xn\t$sq\t$lv\n";
     print "$o\t$c\t$s\t$xv\t$xn\t$xl\n";
 }
 close(S);
@@ -125,6 +114,9 @@ sub seq_views {
     my @nv = ();
     my @nn = ();
     my @nl = ();
+    if ($_[0] =~ /LAGAB/ && $_[0] =~ /TE/) {
+	warn "LAGAB-TE = $_[0]\n";
+    }
     foreach my $s (@s) {
 	if ($s =~ /[.+∘]/) {
 	    push @nv, $s;
