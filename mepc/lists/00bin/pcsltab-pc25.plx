@@ -40,6 +40,8 @@ foreach (@pcsl) {
 		unless $rglyf eq $rg;
 	    $rglyf = '';
 	}
+    } elsif (m#</td>#) {
+	$rglyf = '';
     }
     print;
 }

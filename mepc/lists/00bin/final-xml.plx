@@ -385,7 +385,7 @@ sub pchar {
 	    print "<$f sn=\"IPS\" c=\"$cc\" u=\"$ch\"/>";
 	} elsif ($ch =~ /^E01/) {
 	    print "<$f sn=\"IVS\" c=\"$cc\" u=\"$ch\"/>";
-	} elsif ($cc =~ /[.+∘]/) {
+	} elsif ($cc =~ /[.+∘_]/) {
 	    print "<q p=\"$cc\"/>";
 	} else {
 	    warn "$.: (2) hex $ch not in 00etc/unicode.tsv\n";
