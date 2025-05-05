@@ -89,15 +89,19 @@ foreach my $gx (sort keys %gx) {
 my @s = `cut -f1-2 00etc/seq-final.tsv`; chomp @s;
 foreach my $s (@s) {
     my($o,$c) = split(/\t/,$s);
-    my $u = sprintf("%X",ord($c));
-    my $oo = $pc24{$u};
-    if ($oo) {
-	printf "$oo\t$pc24{$oo}\t%X\n", $pua;
-	++$seen{$pc24{$oo}};
-	++$pua;
-    } else {
-	# this is permissible: seq does not require precomposed PUA glyph
-	# warn "$0: no PC24 for seq $c / $u / $n\n";
+    if ($c) {
+	my $u = sprintf("%X",ord($c));
+	unless ($seen{$u}) {
+	    my $oo = $pc24{$u};
+	    if ($oo) {
+		printf "$oo\t$pc24{$oo}\t%X\n", $pua;
+		++$seen{$pc24{$oo}};
+		++$pua;
+	    } else {
+		# this is permissible: seq does not require precomposed PUA glyph
+		# warn "$0: no PC24 for seq $c / $u / $n\n";
+	    }
+	}
     }
 }
 

@@ -54,14 +54,19 @@ my %tab = (); my @t = `cat $addfile`; chomp @t;
 foreach (@t) {
     my($a,$m) = split(/\t/,$_);
     next if $a =~ /u4F/;
+    $a =~ s/^_//;
     $a =~ s/^u?/u/;
     if ($tab{$a}++) {
 	warn "$0: duplicate 'add' char $a\n";
 	++$status;
     } else {
-	$a =~ s/u(?=200D|2062|2064)/uni/g;
-	$status = check_liga($a)
-	    if $a =~ /_/;
+	if ($a =~ /liga$/) {
+	    $a =~ s/u(?=200D|2062|2064)/uni/g;
+	    $status = check_liga($a)
+		if $a =~ /_/;
+	} else {
+	    ++$known{$a} if $a =~ /cv/;
+	}
 	if ($m =~ s/^\@//) {
 	    unless ($status) {
 		push @glyphid, "<GlyphID name=\"$a\"/>\n";
@@ -119,10 +124,11 @@ sub check_liga {
     my $l = shift;
     my $lstatus = 0;
     $l =~ s/\.liga$// || warn "$l has no .liga\n";
+    $l =~ s/^_//;
     my @l = split(/_/,$l);
     foreach my $x (@l) {
 	unless (exists $known{$x}) {
-	    warn "$l has unknown component $x\n";
+	    warn "$l.liga has unknown component $x\n" if length $x;
 	    ++$lstatus;
 	}
     }

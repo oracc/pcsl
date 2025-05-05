@@ -15,7 +15,9 @@ use Getopt::Long;
 
 my $font = '../../fepc/PC24.ttx.xz';
 
+my $verbose = 0;
 GetOptions(
+    verbose=>\$verbose,
     );
 
 my $mapfile='00etc/pc25-add.tsv';
@@ -45,7 +47,7 @@ foreach (@g) {
     next if hex($b) < 0x12690;
     $t =~ tr/~//d;
     my $td = hex($t);
-    printf("$m{$b}.cv%02d\t\@$m{$u}\n",$td-1);
+    printf("u$m{$b}.cv%02d\t\@$m{$u}\n",$td-1);
 }
 
 # ADD 3: liga entries from sequences DB
@@ -57,9 +59,10 @@ foreach (@s) {
 	my $h = sprintf("%X",ord($c));
 	my $xc = $m{$h};
 	warn "$0: $h=$c not in PC24-PC25 map from 00etc/pc25-map.tsv\n" unless $xc;
-	#	my $xs = mm($s);
 	$l =~ s/_uE01/.cv/g;
-	print "$l\t\@$xc\n";
+	$l =~ s/\.liga//;
+	my $xl = mm($l); # output must be in PC25 encoding
+	print "$xl.liga\t\@$xc\n";
     }
 }
 
@@ -70,8 +73,8 @@ foreach (@u43) {
     my($o,$n,$u4,$u3) = split(/\t/,$_);
     my $h4 = sprintf("%X", ord($u4));
     my $h3 = sprintf("%X", ord($u3));
-    print "$m{$pc24{$o}}.ss04\t\@$m{$h4}\n";
-    print "$m{$pc24{$o}}.ss03\t\@$m{$h3}\n";
+    print "u$m{$pc24{$o}}.ss04\t\@$m{$h4}\n";
+    print "u$m{$pc24{$o}}.ss03\t\@$m{$h3}\n";
 }
 
 # ADD 5: Scaled characters for code chart
@@ -93,7 +96,7 @@ foreach (@c) {
 			    my $psf = sprintf("%.02f", $sf);
 			    # warn "$u has x = $x\n";
 			    my $mu = $m{$uh};
-			    printf "$mu.ss20\t\@$mu * $psf\n" unless $psf eq '1.00';
+			    printf "u$mu.ss20\t\@$mu * $psf\n" unless $psf eq '1.00';
 			}
 		    } else {
 			if ($y > 1200) {
@@ -115,14 +118,24 @@ close(M);
 ################################################################################
 
 sub mm {
-    my @x = split(/[_]/,$_[0]);
+    my $tmp = shift;
+    $tmp =~ tr/u//d;
+    my @x = split(/[_]/,$tmp);
     my @n = ();
     foreach my $x (@x) {
 	next if $x eq 'E0101'; # by definition these are identical with the unmarked form
+	next unless length $x;
+	my $cv = '';
+	if ($x =~ /cv/) {
+	    $x =~ s/(\.cv\d+)//;
+	    $cv = $1;
+	}
 	if ($m{$x}) {
-	    push @n, "u$m{$x}";
+	    push @n, "u$m{$x}$cv";
+	    warn "mapping $x$cv to $m{$x}$cv\n" if $verbose;
 	} else {
-	    push @n, "u$x";
+	    push @n, "u$x$cv";
+	    warn "nomap $x$cv\n" if $verbose;
 	}
     }
     join('_',@n);

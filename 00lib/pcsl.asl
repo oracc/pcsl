@@ -644,10 +644,7 @@
 @end sign
 
 @sign |DARA₃~d×KAR₂~b|
-@aka |DARA₃~d×KAR₂|
-@aka |DARA₃~d×KAR₂|~v1
-@aka |DARA₃~d×KAR₂|~v2
-@oid o0900242
+@oid o0900243
 @end sign
 
 @sign DARA₄~a1
@@ -4497,7 +4494,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901716
+@oid o0901715
 @end sign
 
 @sign SAR~a
@@ -5811,7 +5808,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903666
+@oid o0903390
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|
@@ -8440,8 +8437,7 @@
 @end sign
 
 @sign 1(N30CA)
-@aka 1(N30C~a)
-@oid o0903562
+@oid o0903662
 @end sign
 
 @sign 1(N30CB)

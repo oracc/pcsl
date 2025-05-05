@@ -18,16 +18,18 @@ foreach (@u) {
     $u{$u} = $o;
 }
 
-my %g = (); my @g = `cut -f1,3,7,8 00etc/pcsl-final.tsv`; chomp @g;
+my %g = (); my @g = `cut -f1,2,3,7,8 00etc/pcsl-final.tsv`; chomp @g;
 
 foreach (@g) {
-    my($o,$n,$r,$c) = split(/\t/,$_);
+    my($o,$t,$n,$r,$c) = split(/\t/,$_);
+#    next if $t =~ /[.:]/;
     $n =~ s/%/%%/;
     my $bh = sprintf("%X",ord($r));
-    print "$r\t$o\t$bh\t$bh\t$n~1\t~01\n";
+    print "$r\t$o\t$bh\t$bh\t$n~1\t~01\n"
+	unless length($r)>1;
     my $tag = 2;
     foreach my $cc (chars($c)) {
-	next if $cc eq $r;
+	next if $cc eq $r || length($cc) > 1;
 	my $cch = sprintf("%X",ord($cc));
 	if ($u{$cch}) {
 	    my $cco = $u{$cch};

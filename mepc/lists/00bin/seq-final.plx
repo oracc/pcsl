@@ -126,7 +126,7 @@ sub seq_views {
 	    if ($tag) {
 		$nam = sprintf("%X", ord($nam));
 		if ($tag ne '₁') {
-		    $tag = sprintf("%X",(ord($tag)-ord('₀'))+0xE0100);
+		    $tag = sprintf("%X",(ord($tag)-ord('₀'))+0xE0100-1);
 		} else {
 		    $tag = '';
 		}

@@ -29,6 +29,7 @@ o0900209	.C01b	|BULUG₃.DU₆~a|	|BULUG₃.DU₆~a|	-	I	󳁡	󳁡	CSL010
 o0900222	.	|DA~a.LIŠ|	|DA~a.LIŠ|	|DA~a.LISZ|	I	𒜡	𒜡	EASL0132	/pcsl/easl/images/o0900222.png
 o0900223	1-	DAG	DAG	DAG	I	󲝞	󲝞	EASL0136	/pcsl/easl/images/o0900223.png
 o0900231		DAR~d	DAR~d	DAR~d	I	𒜬	𒜬	EASL0144	/pcsl/easl/images/o0900231.png
+o0900243		|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂~b|	|DARA3~dxKAR2|	I	𒜴	𒜵,𒜴,𒜶	EASL0152 EALX070 EAAR055	/pcsl/easl/images/o0900243.png
 o0900273	1-	|DIM~a×GU|	|DIM~a×GU|	|DIM~axGU|	I	󲱱	󲱱	EASL0167	/pcsl/easl/images/o0900273.png
 o0900275	1-	|DIM~a×X|	|DIM~a×X|	|DIM~axX|	I	󲱲	󲱲	EASL0168	/pcsl/easl/images/o0900275.png
 o0903567	++	DU₆~a@n	DU₆~a@n	-	I	󳂉	󳂉	EASL0178	/pcsl/images/add/thumb/XXX.png
@@ -205,7 +206,8 @@ o0901686	1-	|SAG×LAM~c|	|SAG~v1×LAM~c|	|SAGxLAM~c|	I	󲷡	󲷡	EASL1034	/pcsl/
 o0901691	1-	|SAG×SAR~a|	|SAG×SAR~a|	|SAGxSAR~a|	I	󲷣	󲷣	EASL1032	/pcsl/easl/images/o0901691.png
 o0903624	n	|SAG×1(N14)|	|SAG~v1×1(N14)|	|SAGx1(N14)|	I	𒪱	𒪱	EASL1036	/pcsl/easl/images/o0901688.png
 o0901701	.	|SAL.LAM~b|	|SAL.LAM~b|	|SAL.LAM~b|	I	𒪷	𒪷	EASL1043	/pcsl/easl/images/o0901701.png
-o0901706	.	|SAL.ZATU751~b|	|SAL.ZATU751~b|	SAL+ZATU751~b	SAL+ZATU751b	𒪵.𒵶	𒪵.𒵶;󳄄	EASL1047 EAJN214	-
+o0901706	.	|SAL.ZATU751~b|	|SAL.ZATU751~b|	SAL+ZATU751~b	SAL+ZATU751b	󳄄	󳄄	EASL1047 EAJN214	-
+o0901715	C01b	SANGA~e	SANGA~e	-	I	󳁤	󳁤;󳁥	CSL056	
 o0901747	++	SIG~b	SIG~b	-	I	󳁸	󳁸	EASL1066	/pcsl/images/add/thumb/SIGb.png
 o0901749	++	SIG@g	SIG@g	-	I	𒫐	𒫐	EASL1067	o0901749
 o0901767		|SIG₂~b×1(N14)|	|SIG₂~b×1(N14)|	|SIG2~bx1(N14)|	I	𒫘	𒫘	EASL1073	/pcsl/easl/images/o0901767.png
@@ -255,7 +257,7 @@ o0902189	.	|U₄×4(N01).2(N14)|	|U₄×4(N01).2(N14)|	|U4x4(N01).2(N14)|	I	𒯼
 o0902191	.	|U₄×5(N01).1(N14)|	|U₄×5(N01).1(N14)|	|U4x5(N01).1(N14)|	I	𒯾	𒯾	EASL1349	/pcsl/easl/images/o0902191.png
 o0902195	n#	|U₄×N(N01)|	|U₄×N(N01)|	|U4x(X(N01))|	I	𒰂	𒰂	EASL1353	/pcsl/easl/images/o0902195.png
 o0902181	1-	|U₄×1(N01@f)|	|U₄×1(N01@f)|	|U4x1(N01)F|	I	󲹃	󲹃	EASL1354	/pcsl/easl/images/o0902181.png
-o0903666	++	|U₄×(1(N14).3(N01))|	|U₄×(1(N14).3(N01))|	-	I	󳂔	󳂔	EASL1357	/pcsl/images/add/thumb/FONT
+o0903390	++	|U₄×(1(N14).3(N01))|	|U₄×(1(N14).3(N01))|	-	I	󳂔	󳂔	EASL1357	/pcsl/images/add/thumb/FONT
 o0902199	.++	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	-	I	󳂔_𒕢_𒕜	󳂔_𒕢_𒕜	EASL1358	
 o0902202		|U₄×2(N14)|	|U₄×2(N14)|	|U4x2(N14)|	I	𒰇	𒰇	EASL1361 EAJN303	/pcsl/easl/images/o0902202.png
 o0902244		UDU~b	UDU~b	UDU~b	I	𒰨	𒰨	EASL1388	/pcsl/easl/images/o0902244.png
