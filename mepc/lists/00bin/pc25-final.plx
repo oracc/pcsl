@@ -12,6 +12,8 @@ use Getopt::Long;
 GetOptions(
     );
 
+my $pc25tag = '©';
+
 my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25rep{@pc25rep} = ();
 
 my $ucode = 0x12690;
@@ -30,9 +32,9 @@ open(I,'00etc/pcsl-final.tsv') || die;
 while (<I>) {
     chomp;
     my %p = ();
+    my($o) = (/^(\S+)/);
+    s/\t/\t$pc25tag/o if exists $pc25rep{$o};
     @p{@pfields} = split(/\t/,$_);
-    # Must do this before changing OID below because pc25rep.lst uses pre-change OIDs
-    $p{'tag'} .= $pc25tag if exists $pc25rep{$o};
     my $tag = $p{'tag'};
     if ($p{'flag'} eq 'N') {
 	if ($tag =~ /PC25/) {

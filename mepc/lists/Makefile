@@ -100,17 +100,17 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 ### necessary.
 ###
 
-csldist: pcslbare 00etc/csldist.tsv
+csldist: 00lib/pcslbare.asl install-pcslbare 00etc/csldist.tsv
 
-pcslbare: 00lib/pcslbare.asl
+00lib/pcslbare.asl:
 	00bin/pcsl-asl.plx -bare
 
 install-pcslbare:
-	pc 00lib/pcslbare.asl ../../00lib/pcsl.asl
+	cp 00lib/pcsl.asl ../../00lib/pcsl.asl
 	00bin/pcsl-update-index.sh ${sudo}
 
 00etc/csldist.tsv: ../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
-	(cd ../signs ; make gpcsl/csl.tix)
+	(cd ../signs ; make)
 	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-pcsl.xsl - >$@
 	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
@@ -134,6 +134,7 @@ install-pcslbare:
 pc25: Makefile 00etc/pc25rep.lst 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 
 00etc/pc25rep.lst: ../signs/db/pc25.tok 00bin/pc25rep.sh
+	(cd ../signs ; make pc25)
 	00bin/pc25rep.sh <$< >$@
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx

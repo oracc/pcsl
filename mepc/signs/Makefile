@@ -1,3 +1,5 @@
+SLDEP=../../02pub/sl/sl.tsv
+
 default: pcsl pc25
 
 dirs:
@@ -17,10 +19,10 @@ gpcsl/pcsl.tok: db/pcsl.tok
 	mkdir -p gpcsl
 	b/gp.sh $< >$@
 
-gpcsl/csl.tix: db/pcsl.tok ../../00lib/toklists.lst
+gpcsl/csl.tix: db/pcsl.tok ../../00lib/toklists.lst ${SLDEP}
 	b/mk-csl-tix.sh
 
-gpc25/pc25.tok: db/pc25.tok
+gpc25/pc25.tok: db/pc25.tok ../../00lib/toklists.lst ${SLDEP}
 	mkdir -p gpc25
 	b/gp.sh $< >$@
 
@@ -30,11 +32,11 @@ db/pcsl.tok: db/pcsl.xtf
 db/pc25.tok: db/pc25.xtf
 	tokx -s <$< >$@
 
-db/pcsl.xtf: ~/orc/pcsl/00atf/pcsl.atf
+db/pcsl.xtf: ~/orc/pcsl/00atf/pcsl.atf ${SLDEP}
 	mkdir -p db
 	oxx $< >$@
 
-db/pc25.xtf: ~/orc/pcsl/pc25/00atf/pc25.atf
+db/pc25.xtf: ~/orc/pcsl/pc25/00atf/pc25.atf ${SLDEP}
 	oxx $< >$@
 
 clean:

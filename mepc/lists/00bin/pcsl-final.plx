@@ -9,7 +9,9 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $verbose = 0;
 GetOptions(
+    verbose=>\$verbose,
     );
 
 my %seen = ();
@@ -23,8 +25,6 @@ my %oidmap = (); load_oidmap();
 my %pcsl = ();
 my %pc24 = (); load_pc24();
 my %pc25 = ();
-
-my $pc25tag = '©';
 
 open(L,'>pcsl-final.log');
 
@@ -201,6 +201,7 @@ sub pc25_names {
 	$pc25 =~ s/~v[0-9]+//g;
 	$pc25 =~ s/([^AEIU])(ŠU₂~[ab])/$1ŠU₂/g unless $pc24 =~ /GIŠ×ŠU₂/;
 	$pc25 =~ s/SAG\@n×GEŠTU/SAG×GEŠTU/;
+	$pc25 =~ s/PAP\@t/PAP~a\@t/;
 	if ($pc25{$pc25}) {
 	    warn "duplicate name $pc25 is $o and $pc25{$pc25}; src=${$pcsl{$o}}{'src'}\n";
 	} else {
@@ -303,7 +304,7 @@ sub pcsl_tsv {
 	    my $oo = $pc24{$p{'ref'}};
 	    if ($oo) {
 		if ($oo ne $o) {
-		    warn "changing OID of sign $p{'pc25'} from $o to $oo\n";
+		    warn "$0: changing OID of sign $p{'pc25'} from $o to $oo\n" if $verbose;
 		    $p{'oid'} = $oo;
 		}
 	    }

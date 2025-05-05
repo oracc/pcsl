@@ -646,7 +646,8 @@
 @sign |DARA₃~d×KAR₂~b|
 @aka |DARA₃~d×KAR₂|
 @aka |DARA₃~d×KAR₂|~v1
-@oid o0900243
+@aka |DARA₃~d×KAR₂|~v2
+@oid o0900242
 @end sign
 
 @sign DARA₄~a1
@@ -1263,6 +1264,7 @@
 @end sign
 
 @sign EN~a
+@aka EN
 @oid o0900516
 @end sign
 
@@ -4294,12 +4296,13 @@
 @oid o0901639
 @end sign
 
-@sign PAP~b
-@oid o0901640
+@sign PAP~a@t
+@aka PAP@t
+@oid o0901643
 @end sign
 
-@sign PAP@t
-@oid o0901643
+@sign PAP~b
+@oid o0901640
 @end sign
 
 @sign PIRIG~a1
@@ -4372,6 +4375,7 @@
 @end sign
 
 @sign RU
+@aka RU~a
 @oid o0901671
 @end sign
 
@@ -8436,7 +8440,8 @@
 @end sign
 
 @sign 1(N30CA)
-@oid o0903662
+@aka 1(N30C~a)
+@oid o0903562
 @end sign
 
 @sign 1(N30CB)
