@@ -32,17 +32,14 @@ my %u = (); load_unicode();
 
 my %glyf = (); my @glyf = `cat 00etc/glyf-final.tsv`; chomp @glyf;
 foreach (@glyf) {
-    my($u,$o,$b,$h,$n,$t) = split(/\t/,$_);
+    my($c,$o,$b,$h,$n,$t) = split(/\t/,$_);
     my $bc = sprintf("%s",chr(hex($b)));
     my $xt = $t; $xt =~ s/^~//;
     my $gt = sprintf("%s",chr(0x2080+hex($xt)));
     $n =~ tr/|//d;
     $n =~ s/~1$//;
-    $glyf{$u} = "$bc$gt";
-    $glyf{$u,'n'} = $n;
-#    $glyf{$u} = $n;
-#    $glyf{$n} = $u;
-#    $glyf{$h} = $n;
+    $glyf{$c} = "$bc$gt";
+    $glyf{$c,'n'} = $n;
 }
 
 #print Dumper \%glyf; exit 1;

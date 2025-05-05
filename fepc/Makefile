@@ -10,10 +10,10 @@ PC25+.ttx: PC25.ttx bin/ttxadd.plx
 PC25.ttx: PC24.ttx.xz pc25.map pc25.add bin/pc25-ttx.sh bin/ttxmap.plx
 	bin/pc25-ttx.sh
 
-pc25.map: ../newsl/00etc/pc25-map.tsv
+pc25.map: ../mepc/lists/00etc/pc25-map.tsv
 	cut -f2- <$< >$@
 
-pc25.add: ../newsl/00etc/pc25-add.tsv
+pc25.add: ../mepc/lists/00etc/pc25-add.tsv
 	cp -v $< $@
 
 PC24.ttx.xz: ${HOME}/o2/msc/fonts/PC24.ttf bin/mkttx.sh

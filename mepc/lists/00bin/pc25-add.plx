@@ -50,15 +50,16 @@ foreach (@g) {
 
 # ADD 3: liga entries from sequences DB
 
-my @s = `cut -f1,2,4 00etc/seq-final.tsv`; chomp @s;
+my @s = `cut -f1,2,4,6 00etc/seq-final.tsv`; chomp @s;
 foreach (@s) {
-    my($o,$c,$s) = split(/\t/,$_);
+    my($o,$c,$s,$l) = split(/\t/,$_);
     if ($c && $c ne '0') {
 	my $h = sprintf("%X",ord($c));
 	my $xc = $m{$h};
 	warn "$0: $h=$c not in PC24-PC25 map from 00etc/pc25-map.tsv\n" unless $xc;
-	my $xs = mm($s);
-	print "$xs.liga\t\@$xc\n";
+	#	my $xs = mm($s);
+	$l =~ s/_uE01/.cv/g;
+	print "$l\t\@$xc\n";
     }
 }
 
@@ -114,7 +115,7 @@ close(M);
 ################################################################################
 
 sub mm {
-    my @x = split(/_/,$_[0]);
+    my @x = split(/[_]/,$_[0]);
     my @n = ();
     foreach my $x (@x) {
 	next if $x eq 'E0101'; # by definition these are identical with the unmarked form
