@@ -23,7 +23,6 @@ my %oidmap = (); load_oidmap();
 my %pcsl = ();
 my %pc24 = (); load_pc24();
 my %pc25 = ();
-my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25rep{@pc25rep} = ();
 
 my $pc25tag = '©';
 
@@ -290,7 +289,6 @@ sub pcsl_tsv {
 	my %p = %{$pcsl{$o}};
 	my $nc = ($p{'char'} =~ tr/;,/;,/);
 	my $om = $oidmap{$o};
-	$p{'tag'} .= $pc25tag if exists $pc25rep{$om||$o};
 	unless ($p{'ref'}) { # always have a refglyph even for singletons and sequences
 	    my $rg = $p{'char'};
 	    if ($rg =~ /[\._]/) {

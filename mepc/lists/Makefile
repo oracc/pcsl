@@ -90,6 +90,31 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
 
 ###
+### CSLDIST
+###
+### The 'C(orpus) S(ign) L(ist) Dist(ribution)' data needs to be
+### created after pcsl.asl is updated.
+###
+### We create a barebones pcsl.asl to use for this, update the index,
+### and call the mepc/signs Makefile which updates csl.tix if
+### necessary.
+###
+
+csldist: pcslbare 00etc/csldist.tsv
+
+pcslbare: 00lib/pcslbare.asl
+	00bin/pcsl-asl.plx -bare
+
+install-pcslbare:
+	pc 00lib/pcslbare.asl ../../00lib/pcsl.asl
+	00bin/pcsl-update-index.sh ${sudo}
+
+00etc/csldist.tsv: ../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
+	(cd ../signs ; make gpcsl/csl.tix)
+	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-pcsl.xsl - >$@
+	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
+
+###
 ### PC25
 ###
 ### pc25-final.tsv is the subset of pcsl-final.tsv which will be proposed for encoding.
@@ -106,7 +131,10 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 ### db is maintained in PC24.
 ###
 
-pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
+pc25: Makefile 00etc/pc25rep.lst 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
+
+00etc/pc25rep.lst: ../signs/db/pc25.tok 00bin/pc25rep.sh
+	00bin/pc25rep.sh <$< >$@
 
 00etc/pc25-final.tsv: Makefile 00etc/pcsl-final.tsv 00bin/pc25-final.plx
 	00bin/pc25-final.plx
@@ -137,21 +165,6 @@ pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl install-pcsl
 install-pcsl:
 	utr 00etc/pc25.map 00lib/pcsl.asl >../../00lib/pcsl.asl
 	00bin/pcsl-update-index.sh ${sudo}
-
-###
-### CSLDIST
-###
-### The 'C(orpus) S(ign) L(ist) Dist(ribution)' data needs to be
-### created after pcsl.asl is updated.  This is done by calling the
-### mepc/signs Makefile which updates csl.tix if necessary.
-###
-
-csldist: 00etc/csldist.tsv
-
-00etc/csldist.tsv: ../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
-	(cd ../signs ; make gpcsl/csl.tix)
-	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-pcsl.xsl - >$@
-	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 ###
 ### XML
@@ -271,9 +284,6 @@ clean: clean-base clean-core clean-pc25 clean-pcsl clean-xml clean-web
 ###
 ### Probably no longer used
 ###
-
-#00etc/pc25rep.lst: ${ORACC}/pub/pcsl/pc25/csl.tok 00bin/pc25rep.sh
-#	00bin/pc25rep.sh <$< >$@
 
 #seq: 00web/easl-seq.html
 

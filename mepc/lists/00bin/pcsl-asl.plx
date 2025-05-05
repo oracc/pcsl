@@ -9,7 +9,10 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $bare = 0; # don't include Unicode data
+
 GetOptions(
+    bare=>\$bare,
     );
 
 #
@@ -52,8 +55,10 @@ my %glyf = (); load_glyf();
 my %seq = (); load_seq();
 my %unames = (); load_unames();
 
+my $header = ($bare ? '00etc/header-bare.asl' : '00etc/header.asl');
+
 open(X,">$outfile"); select X;
-open(H,'00etc/header.asl') || die;
+open(H,$header) || die;
 while (<H>) {
     if (/\@\@/) {
 	s/\@\@PCSLRANGES\@\@/$pcslranges/o;
@@ -70,7 +75,7 @@ while (<N>) {
     $r = '' if $seqflag; # brute force shut down refglyph if tag says this is sequence
     asl_sign($p,$o,$r,$c,$seqflag) unless $p eq 'RI~x';
 }
-asl_zatu_lref();
+asl_zatu_lref() unless $bare;
 close(N);
 
 print `cat 00etc/compoundonly.asl`;
@@ -116,16 +121,18 @@ sub asl_sign {
 	}
     }
     print "\@oid $om\n";
-    my $h = $pc25{$om};
-    if ($h) {
-	if ($h =~ /^12/) {
-	    printf "\@list U+$h\n";
-	} else {
-	    printf "\@upua U+$h\n";
+    unless ($bare) {
+	my $h = $pc25{$om};
+	if ($h) {
+	    if ($h =~ /^12/) {
+		printf "\@list U+$h\n";
+	    } else {
+		printf "\@upua U+$h\n";
+	    }
 	}
+	asl_zatu($om,$omr,@nn);
+	asl_chars($om, $r, $c, $s, $seqflag);
     }
-    asl_zatu($om,$omr,@nn);
-    asl_chars($om, $r, $c, $s, $seqflag);
     print "\@end sign\n\n";
 }
 
