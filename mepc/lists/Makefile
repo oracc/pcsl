@@ -113,7 +113,7 @@ pc25: Makefile 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
 
 00etc/pc25-map.tsv: ${PC25DEPS} 00bin/pc25-map.plx ${O2}/msc/fonts/PC24.ttf
 	(cd ../../fepc ; make PC24.ttx.xz)
-	00bin/pc25-map.plx >$@
+	00bin/pc25-map.plx
 	cut -f2- 00etc/pc25-map.tsv >00etc/pc25.map
 
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
@@ -136,7 +136,7 @@ pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl install-pcsl
 
 install-pcsl:
 	utr 00etc/pc25.map 00lib/pcsl.asl >../../00lib/pcsl.asl
-	00bin/pcsl-update-index.sh $sudo
+	00bin/pcsl-update-index.sh ${sudo}
 
 ###
 ### CSLDIST
@@ -226,10 +226,10 @@ pc25no-html: ${NOHTML}
 ###
 
 css:
-	00bin/xinst.sh css ../00res/css/*.css
+	00bin/xinst.sh css ../../00res/css/*.css
 
 js:
-	00bin/xinst.sh js ../00res/js/*.js
+	00bin/xinst.sh js ../../00res/js/*.js
 
 font: ${WWW}/fonts/${SLfont}
 
@@ -251,10 +251,10 @@ clean-base:
 	(cd 00etc ; rm -vf pc24.tsv scodes.tsv)
 
 clean-core:
-	(cd 00etc ; rm -vf easl-final.* cusas-final.* num-final.* pcsl-final.*)
+	(cd 00etc ; rm -vf easl-final.* cusas-final.* num-final.* pcsl-final.* seq-final.tsv glyf-final.tsv)
 
 clean-pc25:
-	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv seq-final.tsv glyf-final.tsv)
+	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv)
 
 clean-pcsl:
 	(cd 00etc ; rm -vf 00lib/pcsl.asl)

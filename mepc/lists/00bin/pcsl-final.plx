@@ -21,6 +21,7 @@ my @sfields = qw/sn oid pc24 pbnm pbpc char row src/;
 my %o = (); load_oid();
 my %oidmap = (); load_oidmap();
 my %pcsl = ();
+my %pc24 = (); load_pc24();
 my %pc25 = ();
 my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25rep{@pc25rep} = ();
 
@@ -117,6 +118,22 @@ sub load_easl {
     }
 }
 
+sub load_num {
+    print L "loading numbers ...\n";
+    my @c = `cat 00etc/num-final.tsv`; chomp @c;
+    foreach (@c) {
+	my %b = ();
+	@b{@efields} = split(/\t/,$_);
+	if ($pcsl{$b{'oid'}}) {
+	    pcsl_add_glyf($b{'oid'}, $b{'char'});
+	    $b{'src'} .= " $b{'sn'}";
+	} else {
+	    $b{'src'} = $b{'sn'};
+	    $pcsl{$b{'oid'}} = { %b };
+	}
+    }
+}
+
 sub load_oid {
     my $oidfile = '';
     if (-d '/home/oracc/oid') {
@@ -139,19 +156,12 @@ sub load_oidmap {
     }
 }
 
-sub load_num {
-    print L "loading numbers ...\n";
-    my @c = `cat 00etc/num-final.tsv`; chomp @c;
-    foreach (@c) {
-	my %b = ();
-	@b{@efields} = split(/\t/,$_);
-	if ($pcsl{$b{'oid'}}) {
-	    pcsl_add_glyf($b{'oid'}, $b{'char'});
-	    $b{'src'} .= " $b{'sn'}";
-	} else {
-	    $b{'src'} = $b{'sn'};
-	    $pcsl{$b{'oid'}} = { %b };
-	}
+# We just need an index of characters to PC24 OID
+sub load_pc24 {
+    foreach my $p24 (`cut -f1,3 00etc/pc24.tsv`) {
+	chomp $p24;
+	my($o,$c) = split(/\t/,$p24);
+	$pc24{$c} = $o;
     }
 }
 
@@ -166,31 +176,6 @@ sub load_rg {
 	}
     }
 }
-
-# sub load_seq {
-#     my @u = `cat 00etc/unicode.tsv`; chomp @u;
-#     my %g = ();
-#     foreach my $u (@u) {
-# 	my($o,$h) = split(/\t/,$u);
-# 	$g{$o} = chr(hex($h));
-#     }
-#     my @s = `cat 00etc/seq-final.tsv`; chomp @s;
-#     foreach (@s) {
-# 	my %s = (); @s{qw/o u h s1 s2 n l s3/} = split(/\t/,$_);
-# 	my $s = { %s };
-# 	if ($g{$s{'o'}}) { # simple sequences and ED I-II removed signs have no unicode
-# 	    $s{'u'} = $g{$s{'o'}} unless $s{'u'};
-# 	}
-# 	$seq{"$s{'o'}$s{'u'}"} = $s{'s1'};
-# 	if ($s{'u'}) {
-# 	    $seq{$s{'u'}} = $s;
-# 	    $seq{"$s{'u'}=$s{'s1'}"} = $s;
-# 	} else {
-# 	    $s{'u'} = '';
-# 	}
-# 	$seq{$s{'s1'}} = $seq{$s{'s2'}} = $s;
-#     }
-# }
 
 sub load_sl {
     my $sl = shift;
@@ -299,38 +284,32 @@ sub pcsl_scodes {
     }
 }
 
-# sub pcsl_seq {
-#     foreach my $o (sort keys %pcsl) {
-# 	my($c,$t) = @{$pcsl{$o}}{qw/char tag/};
-# 	if ($t && $t =~ /[.:]/) {
-# 	    %seen = ();
-# 	    # warn "pcsl_seq: start = $c\n" if $c =~ /𒪵/;
-# 	    my @c = ();
-# 	    if ($c =~ /;/) {
-# 		my @cc = split(/;/,$c);
-# 		foreach my $cc (@cc) {
-# 		    $cc = pcsl_canonicalize_char($cc);
-# 		    push @c, seqify($o,$cc,$t), ';';
-# 		}
-# 	    } else {
-# 		$c = pcsl_canonicalize_char($c);
-# 		push @c, seqify($o,$c,$t);
-# 	    }
-# 	    my $nc = join(',', @c);
-# 	    $nc =~ s/,;/;/g;
-# 	    $nc =~ s/;,/;/g;
-# 	    $nc =~ s/[,;]+$//;
-# 	    # warn "pcsl_seq: res = $nc\n" if $c =~ /𒪵/;
-# 	    ${$pcsl{$o}}{'char'} = $nc;
-# 	}	
-#     }    
-# }
-
 sub pcsl_tsv {
     open(T,'>00etc/pcsl-final.tsv');
     foreach my $o (sort { ${$pcsl{$a}}{'sc'} <=> ${$pcsl{$b}}{'sc'} } keys %pcsl) {
 	my %p = %{$pcsl{$o}};
 	my $nc = ($p{'char'} =~ tr/;,/;,/);
+	my $om = $oidmap{$o};
+	$p{'tag'} .= $pc25tag if exists $pc25rep{$om||$o};
+	unless ($p{'ref'}) { # always have a refglyph even for singletons and sequences
+	    my $rg = $p{'char'};
+	    if ($rg =~ /[\._]/) {
+		$rg =~ s/[,;].*$//;
+	    } else {
+		$rg =~ s/(.).*$/$1/;
+	    }
+	    warn "refglyph	$o	$p{'pc25'}	$rg	$p{'char'}\n" unless $nc < 2;
+	    $p{'ref'} = $rg;
+	}
+	if ($p{'ref'}) {
+	    my $oo = $pc24{$p{'ref'}};
+	    if ($oo) {
+		if ($oo ne $o) {
+		    warn "changing OID of sign $p{'pc25'} from $o to $oo\n";
+		    $p{'oid'} = $oo;
+		}
+	    }
+	}
 	if ($o{$p{'pc25'}}) {
 	} else {
 	    if ($o{$o}) {
@@ -339,15 +318,6 @@ sub pcsl_tsv {
 		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
 	    }
 	}
-	my $om = $oidmap{$o};
-	$p{'tag'} .= $pc25tag if exists $pc25rep{$om||$o};
-	unless ($p{'ref'}) { # always have a refglyph even for singletons and sequences
-	    my $rg = $p{'char'};
-	    $rg =~ s/(.).*$/$1/
-		unless $rg =~ s/_//g;
-	    warn "refglyph	$o	$p{'pc25'}	$rg	$p{'char'}\n" unless $nc < 2;
-	    $p{'ref'} = $rg;
-	}
 	$p{'row'} = '' unless $p{'src'} =~ /EASL/;
 	$p{'row'} = '' unless $p{'row'};
 	$p{'oid'} = $om if $om;
@@ -355,60 +325,3 @@ sub pcsl_tsv {
     }
     close(T);
 }
-
-# #
-# # Convert one or more sequence entries into the standard form and add
-# # them to the list unless they are duplicats
-# #
-# sub seqify {
-#     my($o,$c,$t) = @_;
-#     # warn "seqify request $o $c $t\n";
-#     my @c = ();
-#     my @s = split(/,/,$c);
-#     my $did_one = 0;
-#     foreach my $s (@s) {
-# 	if ($s =~ /\./) {
-# 	    if ($s =~ /=/) {
-# 		if ($seq{$s}) {
-# 		    push @c, $s unless $seen{$s}++;
-# 		} else {
-# 		    warn "seqify: seq with lhs=rhs not in seqdb: $s\n";
-# 		}
-# 	    } else {
-# 		if ($seq{$s}) {
-# 		    my %s = %{$seq{$s}};
-# 		    # print Dumper \%s if $s =~ /𒪵/;
-# 		    $s = "$s{'u'}=$s{'s2'}" if $s{'u'};
-# 		    push @c, $s unless $seen{$s}++;
-# 		} else {
-# 		    warn "seqify: seq with no lhs not in seqdb: $s\n";
-# 		}
-# 	    }	    
-# 	} else {
-# 	    my @x = grep(length,split(/(.)/,$s));
-# 	    my $xx = '';
-# 	    foreach my $x (@x) {
-# 		if (($xx = $seq{"$o$x"})) {
-# 		    print L "seq found $o$x\n";
-# 		    my $s = "$x=$xx";
-# 		    $s = pcsl_canonicalize_char($s);
-# 		    push @c, $s unless $seen{$s}++;
-# 		} elsif (($xx = $seq{$o})) {
-# 		    if ($did_one) {
-# 			warn "seq$t $o: found default more than once; add $x= entry to seq data\n";
-# 		    } else {
-# 			print L "seq$t found $o as default for $x\n";
-# 			my $s = "$x=$xx";
-# 			$s = pcsl_canonicalize_char($s);
-# 			push @c, $s unless $seen{$s}++;
-# 			++$did_one;
-# 		    }
-# 		} else {
-# 		    my $X = sprintf("%X", ord $x);
-# 		    warn "seq$t found nothing for '$o' '$x'=$X\n" unless $t =~ /1/;
-# 		}
-# 	    }
-# 	}
-#     }
-#     @c;
-# }

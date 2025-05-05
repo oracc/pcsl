@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -l
 dir=$1
 shift
 if [ ${ORACC_MODE} = "multi" ]; then

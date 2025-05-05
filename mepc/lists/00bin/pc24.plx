@@ -15,7 +15,7 @@ GetOptions(
 my %u = (); load_unicode();
 
 foreach my $o ( sort { $u{$a} cmp $u{$b} } keys %u) {
-    print "$o\t$u{$o}\n";
+    printf "$o\t$u{$o}\t%s\n", chr(hex($u{$o}));
 }
 
 1;

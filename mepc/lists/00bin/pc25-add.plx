@@ -18,6 +18,8 @@ my $font = '../../fepc/PC24.ttx.xz';
 GetOptions(
     );
 
+my $mapfile='00etc/pc25-add.tsv';
+
 # load OID->PC24 map
 my %pc24 = (); my @p = `cat 00etc/pc24.tsv`; chomp @p;
 foreach (@p) {
@@ -31,6 +33,8 @@ foreach (@m) {
     my($f,$t) = split(/\t/,$_);
     $m{$f} = $t;
 }
+
+open(M,">$mapfile") || die; select M;
 
 # ADD 1: glyf variants of encoded characters as .cvnn
 # ADD 2: alternate number forms excluded here because they are in PC24 already
@@ -102,6 +106,8 @@ foreach (@c) {
 	}
     }
 }
+
+close(M);
 
 1;
 

@@ -16,6 +16,10 @@ GetOptions(
 # Create a table to map PC24 ttx to PC25
 #
 
+my %g1 = ();
+my %gx = ();
+my %go = ();
+
 my $font = '../../fepc/PC24.ttx.xz';
 
 my $pua = 0xF2000;
@@ -36,9 +40,11 @@ foreach (@pc24) {
     $pc24{$u} = $o;
 }
 
+my %g = (); load_glyf_final();
+
 my $mapfile = '00etc/pc25-map.tsv';
 
-open(M,">$mapfile");
+open(M,">$mapfile"); select M;
 
 # Block 0: ACN characters passed through without mapping
 
@@ -67,14 +73,13 @@ foreach (@pc25) {
 }
 
 # Block 2: Simple glyf entries in PUA from #F2000
-
-my @g = `grep -v '~01\$' 00etc/glyf-final.tsv`; chomp @g;
-foreach my $g (@g) {
-    my($c,$o,$b,$u,$n,$t) = split(/\t/,$g);
-    unless ($seen{$u}) {
-	printf "$o\t$u\t%X\n", $pua;
-	++$seen{$u};
-	++$pua;
+foreach my $gx (sort keys %gx) {
+    foreach my $u (@{$gx{$gx}}) {
+	unless ($seen{$u}) {
+	    printf "$go{$u}\t$u\t%X\n", $pua;
+	    ++$seen{$u};
+	    ++$pua;
+	}
     }
 }
 
@@ -176,3 +181,15 @@ foreach my $f (@f) {
 
 ################################################################################
 
+sub load_glyf_final {
+    my @g = `grep -v '~01\$' 00etc/glyf-final.tsv`; chomp @g;
+    foreach my $g (@g) {
+	my($c,$o,$b,$u,$n,$t) = split(/\t/,$g);
+	if ($t =~ /~01/) {
+	    $g1{$o} = $u; # $b eq $u here
+	} else {
+	    push @{$gx{$b}}, $u;
+	}
+	$go{$u} = $o;
+    }
+}
