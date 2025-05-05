@@ -236,8 +236,10 @@ pc25no-html: ${NOHTML}
 	${sudo} chmod -R +r ${PCSL}/pc25
 
 ###
-### HTML SUPPORT
+### WEB SUPPORT
 ###
+
+web: css js font images
 
 css:
 	00bin/xinst.sh css ../../00res/css/*.css

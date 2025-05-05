@@ -12,6 +12,12 @@ use Getopt::Long;
 GetOptions(
     );
 
+#
+# Create pc25-final.tsv from pcsl-final.tsv plus pc25rep.lst
+#
+# N.B. This script also updates pcsl-final.tsv to add the pc25tags.
+#
+
 my $pc25tag = '©';
 
 my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25rep{@pc25rep} = ();
@@ -19,6 +25,8 @@ my %pc25rep = (); my @pc25rep = `cat 00etc/pc25rep.lst`; chomp @pc25rep; @pc25re
 my $ucode = 0x12690;
 
 my @pfields = qw/oid tag pc25 pc24 cdli flag ref char src row/;
+
+my @new_pcslfinal = ();
 
 open(NO_BRK,'>00etc/no_broken.tsv');
 open(NO_CRP,'>00etc/no_corpus.tsv');
@@ -30,11 +38,19 @@ open(NO_SEQX,'>00etc/no_sequencexexc.tsv');
 open(O,'>00etc/pc25-final.tsv') || die; select O;
 open(I,'00etc/pcsl-final.tsv') || die;
 while (<I>) {
-    chomp;
     my %p = ();
     my($o) = (/^(\S+)/);
-    s/\t/\t$pc25tag/o if exists $pc25rep{$o};
+    s/$pc25tag//o; # remove pctags if they have previously been added
+    s/\t/\t$pc25tag/o if exists $pc25rep{$o}; # add pctags if they belong now
+
+    # save new pcsl before chomp
+    push @new_pcslfinal, $_;
+
+    # chomp before split
+    chomp;
+
     @p{@pfields} = split(/\t/,$_);
+
     my $tag = $p{'tag'};
     if ($p{'flag'} eq 'N') {
 	if ($tag =~ /PC25/) {
@@ -73,6 +89,9 @@ while (<I>) {
 }
 close(I);
 close(O);
+open(I,">00etc/pcsl-final.tsv") || die;
+print I @new_pcslfinal;
+close(I);
 close(NO_BRK);
 close(NO_CRP);
 close(NO_DEL);
