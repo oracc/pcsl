@@ -44,6 +44,13 @@ die "Usage: $0 -a [ADD] -t [TTX] -o [OUT]\n"
     unless $addfile && $outfile && $ttxfile;
 
 my %known = (); my @k = `grep GlyphID $ttxfile | cut -d'"' -f4`; chomp @k; @known{@k} = ();
+my %mtx = (); my @m = `grep '<mtx ' $ttxfile`; chomp @m;
+foreach (@m) {
+    my($u,$w,$l) = (/name="(.*?)".*?width="(.*?)".*?lsb="(.*?)"/);
+    $mtx{$u} = [ $w , $l ];
+}
+#print Dumper \%mtx; exit 1;
+
 my @glyphid = ();
 my @mtx = ();
 my @ttglyph = ();
@@ -70,12 +77,33 @@ foreach (@t) {
 	if ($m =~ s/^\@//) {
 	    unless ($status) {
 		push @glyphid, "<GlyphID name=\"$a\"/>\n";
-		push @mtx, "<mtx name=\"$a\" width=\"0\" lsb=\"0\"/>\n";
+
+		# remove and save scale factor
 		my $sf = '';
+		my $sfx = '';
 		if ($m =~ s/\s+\*\s+(\S+)\s*$//) {
-		    $sf = " scale=\"$1\"";
+		    $sfx = $1;
+		    $sf = " scale=\"$sfx\"";
 		}
-		$m =~ s/^u//;
+
+		my $u = $m;
+		$u =~ s/^u?/u/; #ensure u-prefix is on name
+		$m =~ s/^u//;   #ensure no u-prefix on hex value
+		
+		## Get MTX for imported char; scale that, and set
+		## width to it; also use LSB from imported char
+		my $mtx = $mtx{$u};
+		if ($mtx) {
+		    my ($w,$l) = @$mtx;
+		    if ($sfx) {
+			$w *= $sfx;
+			$w = sprintf("%d",$w+0.5);
+		    }
+		    push @mtx, "<mtx name=\"$a\" width=\"$w\" lsb=\"$l\"/>\n";
+		} else {
+		    warn "$0: failed to find <mtx/> for $u\n";
+		    push @mtx, "<mtx name=\"$a\" width=\"0\" lsb=\"0\"/>\n";
+		}
 		push @ttglyph, <<EOF;
 <TTGlyph name=\"$a\" >
   <component glyphName=\"u$m\" x="8" y="0" $sf flags="0x1000"/>
