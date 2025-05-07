@@ -14,12 +14,23 @@ GetOptions(
 
 my @lookup = ();
 
-my %g = (); my @a = `cut -f1 pc25.add`; chomp @a;
+my @a = `cut -f1 pc25.add`; chomp @a;
+
+my %a = ();
+my %g = ();
+my %l = ();
 
 foreach (@a) {
     my($feat) = (/\.([a-z]+[0-9]*$)/); # suppress .[0-9] salt form
     if ($feat) {
-	push @{$g{$feat}}, $_;
+	if ($feat eq 'liga') {
+	    my $head = $_;
+	    $head =~ s/_.*$//;
+	    push @{$l{$head}}, $_;
+	} else {
+	    push @{$g{$feat}}, $_;
+	    ++$a{$_};
+	}
     } else {
 	warn "$_\n";
     }
@@ -41,6 +52,27 @@ print "  </GSUB>\n";
 1;
 
 ################################################################################
+
+sub AlternateSubst {
+    my %alt = ();
+    foreach my $a (@_) {
+	my $head = $a;
+	$head =~ s/\..*$//;
+	push @{$alt{$head}}, $a;
+    }
+    print "        <AlternateSubst index=\"0\">\n";
+    foreach my $g (sort keys %alt) {
+	my @g = @{$alt{$g}};
+	if ($#g > 0) {
+	    print"          <AlternateSet glyph=\"$g\">\n";
+	    foreach my $a (sort @g) {
+		print "            <Alternate glyph=\"$a\"/>\n";
+	    }
+	    print"          </AlternateSet>\n";
+	}
+    }
+    print "        </AlternateSubst>\n";
+}
 
 sub FeatureList {
     my $fcount = ($#feat+1)*2;
@@ -93,6 +125,22 @@ sub FeatureRecord2 {
 EOF
 }
 
+sub LigatureSubst {
+    print "        <LigatureSubst index=\"0\">\n";
+    foreach my $l (sort keys %l) {
+	print "          <LigatureSet glyph=\"$l\">\n";
+	my @l = @{$l{$l}};
+	foreach my $liga (@l) {
+	    my $components = $liga;
+	    $components =~ s/\.liga$//;
+	    $components =~ tr/_/,/;
+	    print "            <Ligature components=\"$components\" glyph=\"$liga\"/>\n";
+	}
+	print "          </LigatureSet>\n";
+    }
+    print "      </LigatureSubst>\n";
+}
+
 sub LookupList {
     my $lcount = ($#feat+1)+1;
     print "    <LookupList>\n";
@@ -102,20 +150,23 @@ sub LookupList {
 	next if $f eq 'liga';
 	if ($f eq 'aalt') {
 	    LookupO($lindex++,'1');
-	    SingleSubst();
+	    SingleSubst(keys %a);
 	    LookupC();
 	    LookupO($lindex++,'3');
+	    AlternateSubst(keys %a);
 	    LookupC();
 	} elsif ($f eq 'salt') {
 	    LookupO($lindex++, '3');
+	    AlternateSubst(keys %a);
 	    LookupC()
 	} else {
 	    LookupO($lindex++, '1');
-	    SingleSubst();
+	    SingleSubst(@{$g{$f}});
 	    LookupC()
 	}
     }
     LookupO($lindex,'4');
+    LigatureSubst();
     LookupC();
     print "    </LookupList>\n";
 }
@@ -187,7 +238,12 @@ EOF
 }
 
 sub SingleSubst {
+    my @x = sort @_;
     print "        <SingleSubst index=\"0\">\n";
-    # entries
+    foreach my $x (@x) {
+	my $in = $x;
+	$in =~ s/\..*$//;
+	print "        <Substitution in=\"$in\" out=\"$x\"/>\n";
+    }
     print "      </SingleSubst>\n";
 }
