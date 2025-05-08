@@ -56,6 +56,7 @@ my %aka = (); load_aka() if $pcslflag;
 my %sl = (); load_sl() if $easlflag || $pcslflag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
+my %pc25 = (); load_pc25() if $pcslflag;
 my %sf = (); load_sf() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
@@ -287,6 +288,14 @@ sub load_oidmap {
     }
 }
 
+sub load_pc25 {
+    my @p = `cat 00etc/pc25.map`; chomp @p;
+    foreach (@p) {
+	my($p4,$p5) = split(/\t/,$_);
+	$pc25{$p4} = $p5;
+    }
+}
+
 sub load_sf {
     my @sf = `cat 00etc/propgh-sf.tsv`; chomp @sf;
     foreach (@sf) {
@@ -362,7 +371,8 @@ sub pchar {
 	if ($u{$ch}) {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
-	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\">";
+	    my $ch25 = $pc25{$ch};
+	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\" u25=\"$ch25\">";
 	    my @seq = grep(length,split(/(.)/,$seq));
 	    if ($#seq == 0) {
 		my $l = length $seq;
@@ -377,20 +387,21 @@ sub pchar {
 	}
     } else {
 	my $ch = sprintf("%X",ord($cc));
+	my $ch25 = $pc25{$ch};
 	if ($u{$ch}) {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
-	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"/>";
+	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"/>";
 	} elsif ($ch eq '4F') {
 	    print "<$f sn=\"O\" c=\"O\"/>";
 	} elsif ($ch eq '200D') {
-	    print "<$f sn=\"ZWJ\" c=\"$cc\" u=\"$ch\"/>";
+	    print "<$f sn=\"ZWJ\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"/>";
 	} elsif ($ch eq '2062') {
-	    print "<$f sn=\"ITS\" c=\"$cc\" u=\"$ch\"/>";
+	    print "<$f sn=\"ITS\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"/>";
 	} elsif ($ch eq '2064') {
-	    print "<$f sn=\"IPS\" c=\"$cc\" u=\"$ch\"/>";
+	    print "<$f sn=\"IPS\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"/>";
 	} elsif ($ch =~ /^E01/) {
-	    print "<$f sn=\"IVS\" c=\"$cc\" u=\"$ch\"/>";
+	    print "<$f sn=\"IVS\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"/>";
 	} elsif ($cc =~ /[.+∘_]/) {
 	    print "<q p=\"$cc\"/>";
 	} else {
@@ -425,7 +436,8 @@ sub sl {
 		    foreach my $cc (@c) {
 			next if $cc eq '.' || $cc eq ',';
 			my $h = sprintf("%X", ord($cc));
-			printf "<c ${dattr}c=\"%s\" h=\"%s\"/>", $cc, $h;
+			my $h25 = $pc25{$h};
+			printf "<c ${dattr}c=\"%s\" h=\"%s\" h25=\"$h25\"/>", $cc, $h;
 		    }
 		    print '</cc>' if $lc =~ /\./;
 		}

@@ -249,8 +249,9 @@
 
 \font\slnmfont="Ungkam Basic Bold" at9pt
 \font\sltgfont="Ungkam Basic" at8pt
-\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.75pt
-\font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.25pt
+\font\slnmfontw="Ungkam Basic Bold:color=00FF00" at6.5pt
+\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.5pt
+\font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
 \font\sldistfont="Ungkam Basic" at9pt
 \font\oidfont="Ungkam Basic" at9pt
 \font\oidfontx="Ungkam Basic" at8pt
@@ -260,11 +261,12 @@
 \def\sldist{\sldistfont}
 
 \def\slnamesaunaturel#1#2#3#4#5#6#7#8{%
-    \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
+  \message{Processing #2^^J}
+  \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
 \def\slnamesrowht#1#2#3#4#5#6#7#8{%
-    \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
+  \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
 \newbox\slnmbox \newtoks\oidtoks
@@ -273,17 +275,22 @@
 
 \def\slnamesx#1#2#3#4#5#6#7#8{%
    \global\oidtoks{#2}%
-   \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>1.25in
-     \let\slnm\slnmfontx
+   \setbox\slnmbox=\hbox{#1}%
+   \ifdim\wd\slnmbox>1.25in
+     \let\slnm\slnmfontw
+   \else
+     \ifdim\wd\slnmbox>1.125in
+       \let\slnm\slnmfontx
      \else
-       \ifdim\wd\slnmbox>1.125in
+       \ifdim\wd\slnmbox>1in
          \let\slnm\slnmfonty
        \else
          \let\slnm\slnmfont
        \fi
      \fi
+   \fi
    \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
-   \kern1pt
+   \kern.5pt
    \hbox{\hbox to1in{\helvy#5\hfil}% PC25 code point
      \smash{%
         \hbox to.5in{%
