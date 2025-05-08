@@ -118,10 +118,14 @@ while (<N>) {
 	    }
 	}
     }
+    my $roid = '';
+    ($roid) = ($fn =~ m#/(o\d+)\.#)
+	if $fn;
     my $sfattr = '';
     if ($pcslflag) {
-	if ($sf{$o}) {
-	    $sfattr = " data-sf=\"$sf{$o}\"";
+	my $sfo = $roid || $o;
+	if ($sf{$sfo}) {
+	    $sfattr = " data-sf=\"$sf{$sfo}\"";
 	} else {
 	    $sfattr = " data-sf=\"1000\"";
 	    #warn("$o: no scale factor in 00etc/propgh-sf.tsv\n");
@@ -129,6 +133,8 @@ while (<N>) {
     }
     if ($pcslflag || $pc25flag) {
 	my $row = $fn ? " row=\"$fn\"" : '';
+	$row .= " roid=\"$roid\""
+	    if $roid;
 	my $pcslx = pcsl_xattr($o,$pc24);
 	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
     } else {

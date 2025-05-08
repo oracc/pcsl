@@ -46,6 +46,8 @@ die "$0: errors in map table. Stop.\n" if $status;
 
 #print Dumper \%tab; exit 1;
 
+$ttxfile =~ s/\.xz//;
+
 if (-r $ttxfile) {
     open(T,$ttxfile) || die;
 } elsif (-r "$ttxfile.xz") {

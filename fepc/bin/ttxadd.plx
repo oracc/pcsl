@@ -60,7 +60,7 @@ my %add = ();
 my %tab = (); my @t = `cat $addfile`; chomp @t;
 foreach (@t) {
     my($a,$m) = split(/\t/,$_);
-    next if $a =~ /u4F/;
+    next if $a =~ /u4F/ || $m !~ /^\@/;
     $a =~ s/^_//;
     $a =~ s/^u?/u/;
     if ($tab{$a}++) {

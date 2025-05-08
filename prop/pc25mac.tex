@@ -201,6 +201,14 @@
 
 \catcode`\~=12
 
+\newbox\cdlibox
+\def\checkcdliheight#1#2{
+   \setbox\cdlibox=\vbox{#2}%
+   \ifdim\ht\cdlibox>#1%
+     \message{\the\oidtoks: CDLI ht \the\ht\cdlibox > \the#1^^J}
+   \fi
+}
+
 \def\pcslrow#1#2#3#4#5#6#7#8#9{%
    \pcslheader
    \let\slnames\slnamesaunaturel
@@ -209,6 +217,7 @@
    \setbox\pcslbox\vbox{#2}%
    \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi % \advance\pcslrowht\dp\pcslbox \fi
    \advance\pcslrowht2pt % compensate for lineskips
+   \checkcdliheight\pcslrowht{#3}%
    \let\slnames\slnamesrowht
    \hbox to \hsize{%
          \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
@@ -258,11 +267,12 @@
     \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
-\newbox\slnmbox
+\newbox\slnmbox \newtoks\oidtoks
 \newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
 \newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
 
 \def\slnamesx#1#2#3#4#5#6#7#8{%
+   \global\oidtoks{#2}%
    \setbox\slnmbox=\hbox{#1}\ifdim\wd\slnmbox>1.25in
      \let\slnm\slnmfontx
      \else

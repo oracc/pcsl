@@ -9,8 +9,26 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $out = undef;
+my $ttx = undef;
+
 GetOptions(
+    'out:s'=>\$out,
+    'ttx:s'=>\$ttx,
     );
+
+if ($ttx) {
+    die "$0: no such .ttx $ttx. Stop.\n" unless -r $ttx;
+    open(T,$ttx) || die "$0: unable to read .ttx $ttx\n";
+    open(O,">$out") || die "$0: unable to write new .ttx to $out\n"; select O;
+    while (<T>) {
+	last if /<GSUB>/;
+	print;
+    }
+    while (<T>) {
+	last if m#</GSUB>#;	
+    }
+}
 
 my @lookup = ();
 
@@ -24,6 +42,7 @@ foreach (@a) {
     my($feat) = (/\.([a-z]+[0-9]*$)/); # suppress .[0-9] salt form
     if ($feat) {
 	if ($feat eq 'liga') {
+	    s/u(?=200D|2062|2064)/uni/g;
 	    my $head = $_;
 	    $head =~ s/_.*$//;
 	    push @{$l{$head}}, $_;
@@ -36,7 +55,9 @@ foreach (@a) {
     }
 }
 
-my @feat = sort keys %g, 'aalt', 'salt';
+my @feat = sort keys %g, 'aalt', 'salt', 'liga';
+
+warn "$0: feat = @feat\n";
 
 print "  <GSUB>\n";
 print "    <Version value=\"0x00010000\"/>\n";
@@ -48,6 +69,14 @@ FeatureList(@feat);
 LookupList(@feat);
 
 print "  </GSUB>\n";
+
+if ($ttx) {
+    while (<T>) {
+	print;
+    }
+    close(T);
+    close(O);
+}
 
 1;
 
@@ -63,7 +92,7 @@ sub AlternateSubst {
     print "        <AlternateSubst index=\"0\">\n";
     foreach my $g (sort keys %alt) {
 	my @g = @{$alt{$g}};
-	if ($#g > 0) {
+	if ($#g >= 0) {
 	    print"          <AlternateSet glyph=\"$g\">\n";
 	    foreach my $a (sort @g) {
 		print "            <Alternate glyph=\"$a\"/>\n";

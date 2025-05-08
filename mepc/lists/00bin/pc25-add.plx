@@ -38,6 +38,9 @@ foreach (@m) {
 
 open(M,">$mapfile") || die; select M;
 
+# ADD 0: copy any adds in PC24.ttx
+print `xzgrep -F .cv <../../fepc/PC24.ttx.xz | grep Substitution | cut -d'"' -f2,4 | tr '"' '	' | sort -u | rocox -C21`;
+
 # ADD 1: glyf variants of encoded characters as .cvnn
 # ADD 2: alternate number forms excluded here because they are in PC24 already
 
