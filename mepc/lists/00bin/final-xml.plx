@@ -90,8 +90,9 @@ while (<N>) {
 	    $r =~ s/^(.).*$/$1/;
 	}
     }
+    my $h24 = sprintf("%X", ord($r));
     if (($pcslflag || $pc25flag) && $r) {
-	$rattr = sprintf(" c=\"%s\" h=\"%X\"", $r, ord($r));
+	$rattr = sprintf(" c=\"%s\" h=\"$h24\"", $r);
     }
     if ($t) {
 	my $seq = '';
@@ -107,6 +108,12 @@ while (<N>) {
 	$t .= hr_t($t);
     } else {
 	$t = " tags=\"\" data-hrt=\"UNP\"";
+    }
+    unless ($t =~ /PC25/) {
+	my $h25 = $pc25{$h24};
+	$rattr .= " h25=\"$h25\"";
+    } else {
+	$rattr .= " h25=\"$h24\"";
     }
     my $dist = dist($o);
     my $datadist = distdata($o);

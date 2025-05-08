@@ -129,7 +129,7 @@
 		</xsl:if>
 		<xsl:if test="../@c">
 		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
-		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h,']')"/></span></div>
+		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h25,']')"/></span></div>
 		</xsl:if>
 		<xsl:if test="../@zatu">
 		  <div class="zatu"><xsl:value-of select="../@zatu"/></div>
@@ -166,7 +166,7 @@
 			  <span class="ucode">
 			    <xsl:text>[</xsl:text>
 			    <xsl:for-each select ="f">
-			      <xsl:value-of select="@u25|@u"/>
+			      <xsl:value-of select="@u25"/>
 			      <xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
 			    </xsl:for-each>
 			    <xsl:text>]</xsl:text>
@@ -182,7 +182,7 @@
 		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
 		    </div>
 		    <div class="fhex">
-		      <span class="ucode"><xsl:value-of select="concat('[',@u25|@u,']')"/></span>
+		      <span class="ucode"><xsl:value-of select="concat('[',@u25,']')"/></span>
 		    </div>
 		  </xsl:for-each>
 		</xsl:when>
@@ -370,7 +370,7 @@
 	<xsl:if test="f/@c">
 	  <span class="ucode2">
 	    <xsl:text>[</xsl:text>
-	    <xsl:value-of select="f/@u|f/@u25"/>
+	    <xsl:value-of select="f/@u25"/>
 	    <xsl:text>]</xsl:text>
 	  </span>
 	  <xsl:text> = </xsl:text>
@@ -380,13 +380,13 @@
 	  <xsl:for-each select="f/q">
 	    <xsl:choose>
 	      <xsl:when test="@o">
-		<xsl:value-of select="@u|@u25"/>
+		<xsl:value-of select="@u25"/>
 	      </xsl:when>
 	      <xsl:when test="@p">
 		<!--<xsl:value-of select="@p"/>-->
 	      </xsl:when>
 	      <xsl:when test="starts-with(@u,'E01')">
-		<xsl:value-of select="@u|@u25"/>
+		<xsl:value-of select="@u25"/>
 	      </xsl:when>
 	      <xsl:otherwise>
 		<xsl:text>o</xsl:text>
