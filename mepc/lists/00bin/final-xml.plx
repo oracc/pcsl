@@ -148,12 +148,14 @@ while (<N>) {
 	$row .= " roid=\"$roid\""
 	    if $roid;
 	my $pcslx = pcsl_xattr($o,$pc24);
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" cdiff=\"$cdiff\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
 	if ($pcslflag && $aka{$o}) {
 	    print '<aka>';
+	    my $naka = 0;
 	    foreach my $aka (sort @{$aka{$o}}) {
 		my $xaka = xmlify($aka);
-		print "<a>$xaka</a>";
+		print ' ' if $naka++;
+		print "$xaka";
 	    }
 	    print '</aka>';
 	}
@@ -268,9 +270,14 @@ sub hr_t {
 }
 
 sub load_aka {
+    my @kaa = `cut -f5 ../signs/gpcsl/pcsl.tok`; chomp @kaa;
+    my %kaa = (); @kaa{@kaa} = ();
     my @a = `cat 00etc/aka.tsv`; chomp @a;
     foreach (@a) {
-	my($o,$a) = split(/\t/,$_); push @{$aka{$o}}, $a;
+	my($o,$a) = split(/\t/,$_);
+	if (exists $kaa{$a}) { # only keep aka that are in PCSL corpus
+	    push @{$aka{$o}}, $a;
+	}
     }
 }
 
@@ -398,7 +405,7 @@ sub pc25_name {
 
 sub pc25vscdli {
     my($p,$c) = @_;
-    return 0 if $c eq '-';
+    return '' if $c eq '-';
     my $orig = $c;
     my $pipes = ($c =~ tr/|//d);
     my @bits = split(/\./,$c);
@@ -409,10 +416,17 @@ sub pc25vscdli {
     my $n = join('.',@n);
     $n = "|$n|" if $pipes;
     if ($p ne $n) {
-	print CD "$p\t$c\t$orig\n";
-	return 1;
+	my $np = $n;
+	$np =~ tr/|//d; # ignore difference if only pipes
+	if ($p ne $np) {
+	    print CD "$p\t$n\t$orig\n";
+	    my $xn = xmlify($n);
+	    return " cdiff=\"$xn\"";
+	} else {
+	    return '';
+	}
     } else {
-	return 0;
+	return '';
     }
 }
 

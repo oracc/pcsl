@@ -76,7 +76,17 @@
   </xsl:template>
 
   <xsl:template match="sign">
-    <tbody>
+    <tbody class="sign">
+      <xsl:if test="aka">
+	<xsl:attribute name="data-aka">
+	  <xsl:value-of select="aka"/>
+	</xsl:attribute>
+      </xsl:if>
+      <xsl:if test="@cdiff">
+	<xsl:attribute name="data-cdiff">
+	  <xsl:value-of select="@cdiff"/>
+	</xsl:attribute>
+      </xsl:if>
       <xsl:for-each select="s">
 	<tr>
 	  <xsl:variable name="sq-class">
@@ -197,7 +207,7 @@
 	    </div>
 	  </td>
 	  
-	  <xsl:if test="count(preceding-sibling::*)=0">
+	  <xsl:if test="count(preceding-sibling::*[not(self::aka)])=0">
 	    <xsl:choose>
 	      <xsl:when test="$SL='PCSL'">
 		<td>

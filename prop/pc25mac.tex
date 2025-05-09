@@ -1,4 +1,35 @@
 \input newmcol
+
+
+\font\slnmfont="Ungkam Basic Bold" at9pt
+\font\sltgfont="Ungkam Basic" at8pt
+\font\slnmfontw="Ungkam Basic Bold:color=00FF00" at6.5pt
+\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.5pt
+\font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
+\font\sldistfont="Ungkam Basic" at9pt
+\font\oidfont="Ungkam Basic" at9pt
+\font\oidfontx="Ungkam Basic" at8pt
+\font\zatufont="Ungkam Basic" at7.5pt
+
+\font\pcssXX="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 18pt
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
+\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 12pt
+\font\pcxviii="[/Users/stinney/orc/lib/fonts/PC25.ttf]" at 18pt
+
+\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at18pt
+\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at18pt
+\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at18pt
+\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FF0000" at18pt
+\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at18pt
+
+\let\redpc\pcfee
+
+%\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
+\font\helv=Arial at 9pt
+\font\helvx="Arial Narrow" at 6pt
+\font\helvy="Arial Narrow" at 8pt
+\font\helvz="Arial Narrow" at 7pt
+
 \let\everymathextra\relax
 \let\preamble\relax
 
@@ -28,30 +59,10 @@
 \let\remfor\relax
 \let\Hhhhh\relax
 
-\let\ofspc\pcxxv
-
 \def\unames{\eight\rm}
 
 \def\ofs#1#2#3{}
 \let\ofspc\pcxxv
-
-\font\pcssXX="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 18pt
-\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
-\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 12pt
-
-\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at18pt
-\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at18pt
-\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at18pt
-\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FF0000" at18pt
-\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at18pt
-
-\let\redpc\pcfee
-
-%\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
-\font\helv=Arial at 9pt
-\font\helvx="Arial Narrow" at 6pt
-\font\helvy="Arial Narrow" at 8pt
-\font\helvz="Arial Narrow" at 7pt
 
 \def\ccchr{\pcssxx}
 \def\ccuni{\helvx}
@@ -203,10 +214,14 @@
 \catcode`\|=12
 
 \newbox\cdlibox
+\newdimen\cdlifuzz \cdlifuzz4pt
 \def\checkcdliheight#1#2{
    \setbox\cdlibox=\vbox{#2}%
    \ifdim\ht\cdlibox>#1%
-     \message{\the\oidtoks: #2 CDLI ht \the\ht\cdlibox > \the#1^^J}
+     \dimen255=\ht\cdlibox \advance\dimen255-#1
+     \ifdim\dimen255>\cdlifuzz
+       \message{\the\oidtoks: #2 CDLI ht \the\ht\cdlibox > \the#1 (dim255=\the\dimen255; cdlifuzz=\the\cdlifuzz^^J}%
+     \fi
    \fi
 }
 
@@ -246,17 +261,8 @@
    \kern3pt
    \hrule height#9pt
    \vskip3pt plus1pt minus1pt
+   \akatoks{}\cdifftoks{}%
 }
-
-\font\slnmfont="Ungkam Basic Bold" at9pt
-\font\sltgfont="Ungkam Basic" at8pt
-\font\slnmfontw="Ungkam Basic Bold:color=00FF00" at6.5pt
-\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.5pt
-\font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
-\font\sldistfont="Ungkam Basic" at9pt
-\font\oidfont="Ungkam Basic" at9pt
-\font\oidfontx="Ungkam Basic" at8pt
-\font\zatufont="Ungkam Basic" at7.5pt
 
 %\def\slnm{\slnmfont}
 \def\sldist{\sldistfont}
@@ -272,7 +278,9 @@
 
 \newbox\slnmbox \newtoks\oidtoks
 \newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
+\newtoks\akatoks \newtoks\cdifftoks
 \newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
+\newbox\akabox \newbox\cdiffbox
 
 \def\slnamesx#1#2#3#4#5#6#7#8{%
    \global\oidtoks{#2}%
@@ -290,17 +298,31 @@
        \fi
      \fi
    \fi
+   \setbox\akabox=\hbox{\the\akatoks}%
+   \ifdim\wd\akabox>0pt
+      \setbox\akabox=\hbox{\vbox{\hsize2in \sltgfont
+                                 \parindent0pt \rightskip0pt plus1fil \hangindent1em
+                                 \leavevmode\helvx AKA: \sltgfont \the\akatoks\endgraf}}%
+   \fi
+   \setbox\cdiffbox=\hbox{\the\cdifftoks}%
+   \ifdim\wd\cdiffbox>0pt
+      \setbox\cdiffbox=\hbox{\vbox{\hsize2in \sltgfont
+                                 \parindent0pt \rightskip0pt plus1fil \hangindent1em
+                                 \leavevmode\helvx CDLI: \sltgfont \the\cdifftoks\endgraf}}%
+   \fi
    \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
    \kern.5pt
    \hbox{\hbox to1in{\helvy#5\hfil}% PC25 code point
      \smash{%
         \hbox to.5in{%
           \hss\kern.05in%
-          \vbox{\hbox{\pcssXX#4}\kern2pt}% PC25 reference glyph
+          \vbox{\hbox{\pcxviii#4}\kern2pt}% PC25 reference glyph
           \hss}%
      }%
    }%
    \vfil
+   \ifdim\wd\akabox>0pt \box\akabox \kern1pt\fi
+   \ifdim\wd\cdiffbox>0pt \box\cdiffbox \kern1pt\fi
    \hbox{%
 %     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode{#7}\par}%
      #7%
