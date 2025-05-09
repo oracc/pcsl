@@ -61,6 +61,9 @@ my %sf = (); load_sf() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
 
+open(CD, '>cdlidiff.log')
+    if $pcslflag;
+
 open(X,">$outfile"); select X;
 print "<sl n=\"$n\">";
 
@@ -68,11 +71,12 @@ warn "$0: input=$f\n";
 open(N,$f);
 while (<N>) {
     chomp;
-    my($n,$h,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src) = ();
+    my($n,$h,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src,$cdiff) = ();
     if ($cusasflag || $easlflag || $numflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } elsif ($pcslflag) {
 	($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
+	$cdiff = pc25vscdli($p,$cdli);
     } elsif ($pc25flag) {
 	($o,$h,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
     } else {
@@ -144,7 +148,15 @@ while (<N>) {
 	$row .= " roid=\"$roid\""
 	    if $roid;
 	my $pcslx = pcsl_xattr($o,$pc24);
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
+	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\" cdiff=\"$cdiff\" src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
+	if ($pcslflag && $aka{$o}) {
+	    print '<aka>';
+	    foreach my $aka (sort @{$aka{$o}}) {
+		my $xaka = xmlify($aka);
+		print "<a>$xaka</a>";
+	    }
+	    print '</aka>';
+	}
     } else {
 	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
@@ -155,10 +167,25 @@ while (<N>) {
 close(N);
 print '</sl>';
 close(X);
+close(CD) if $pcslflag;
 
 1;
 
 ################################################################################
+
+#
+# Convert CDLI ASCII names to Unicode
+#
+sub cdli2uni {
+    my $c = shift;
+    $c =~ s/([A-Z][A-Z]+\d+)/subify($1)/eg;
+    $c =~ s/([AEIU]\d)(?![0-9])/subify($1)/eg;
+    $c =~ s/x([A-Z0-9\(])/×$1/g;
+    1 while $c =~ s/'\)/′)/;
+    $c =~ s/GA'AR/GAʾAR/g;
+    $c =~ s/SZ/Š/g;
+    $c;
+}
 
 sub chars {
     my @c = split(/[,;]/,$_[0]);
@@ -369,6 +396,26 @@ sub pc25_name {
     $pc25;
 }
 
+sub pc25vscdli {
+    my($p,$c) = @_;
+    return 0 if $c eq '-';
+    my $orig = $c;
+    my $pipes = ($c =~ tr/|//d);
+    my @bits = split(/\./,$c);
+    my @n = ();
+    foreach my $b (@bits) {
+	push @n, cdli2uni($b);
+    }
+    my $n = join('.',@n);
+    $n = "|$n|" if $pipes;
+    if ($p ne $n) {
+	print CD "$p\t$c\t$orig\n";
+	return 1;
+    } else {
+	return 0;
+    }
+}
+
 sub pchar {
     my($cc,$f) = @_;
     $f = 'f' unless $f;
@@ -456,4 +503,10 @@ sub sl {
 	}
 	print '</sl>';
     }
+}
+
+sub subify {
+    my $t = shift;
+    $t =~ tr/0-9/₀-₉/ unless $t =~ /LAK|ZATU/;
+    $t
 }
