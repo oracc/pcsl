@@ -644,6 +644,9 @@
 @end sign
 
 @sign |DARA₃~d×KAR₂~b|
+@aka |DARA₃~d×KAR₂|
+@aka |DARA₃~d×KAR₂|~v1
+@aka |DARA₃~d×KAR₂|~v2
 @oid o0900243
 @end sign
 
@@ -8437,6 +8440,7 @@
 @end sign
 
 @sign 1(N30CA)
+@aka 1(N30C~a)
 @oid o0903662
 @end sign
 

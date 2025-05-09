@@ -18,6 +18,7 @@ PCSL=${WWW}/pcsl
 MEPCSL=${PCSL}/mepc/sl
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
+CSLDEPS=../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
 DVDEPS=00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/num-final.tsv
 DVHTML=00web/easl-tab.html 00web/pcsl-tab.html 00web/pc25-tab.html 00web/num-tab.html 00web/cusas-tab.html
 DVXML=00etc/easl-final.xml 00etc/pcsl-final.xml 00etc/pc25-final.xml 00etc/num-final.xml 00etc/cusas-final.xml
@@ -34,7 +35,7 @@ ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
 
-default: base core pc25 pcsl csldist html css js font
+default: base core csldist pc25 pcsl html css js font
 
 ###
 ### BASE
@@ -109,10 +110,13 @@ install-pcslbare:
 	cp 00lib/pcsl.asl ../../00lib/pcsl.asl
 	00bin/pcsl-update-index.sh ${sudo}
 
-00etc/csldist.tsv: ../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
+00etc/csldist.tsv: ${CSLDEPS}
 	(cd ../signs ; make)
 	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-pcsl.xsl - >$@
-	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >00etc/csldist-all.tsv
+
+00etc/csldist-all.tsv: ${CSLDEPS}
+	(cd ../signs ; make)
+	csldist -t ../../00lib/pcsl-template.txt <$< | xsltproc 00bin/csldist-all.xsl - >$@
 
 ###
 ### PC25
