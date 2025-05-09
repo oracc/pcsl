@@ -310,15 +310,15 @@
    \setbox\sldisttbox\hbox{\the\sldistt}%
    \setbox\sldistivbox\hbox{\the\sldistiv}%
    \setbox\sldistiiibox\hbox{\the\sldistiii}%
-   \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern2pt}%
+   \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern1pt}%
    \vbox{\oidfont\hsize1in\parindent0pt\hangindent2.15em\rightskip0pt plus1fil
          \leavevmode
          \hbox to2.15em{\the\sldistt\hss}%
          \ifdim\wd\sldisttbox>2.1em\hskip1pt\penalty-10000\fi
-         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern2pt\hfil}\the\sldistiv\hfil}%
-           \ifdim\wd\sldistiiibox>0pt; \penalty0\fi
+         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern1pt\hfil}\the\sldistiv\hfil}%
+           \ifdim\wd\sldistiiibox>0pt;\hskip2pt\penalty0\fi
          \fi
-         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern2pt\hfil}\the\sldistiii\hfil}\fi
+         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern1pt\hfil}\the\sldistiii\hfil}\fi
          \endgraf
    }%
 }
