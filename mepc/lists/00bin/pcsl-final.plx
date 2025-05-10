@@ -317,8 +317,13 @@ sub pcsl_tsv {
 		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
 	    }
 	}
-	$p{'row'} = '' unless $p{'src'} =~ /EASL/;
-	$p{'row'} = '' unless $p{'row'};
+	if ($p{'src'} =~ /EANM|EASL/) {
+	    $p{'row'} =~ s/^-$// if $p{'row'};
+	    $p{'row'} = $o unless $p{'row'};
+	    $p{'row'} =~ s#/pcsl/easl/images/(o\d+)\.png#$1#;
+	} else {
+	    $p{'row'} = '-';
+	}
 	$p{'oid'} = $om if $om;
 	print T join("\t", @p{@pfields}), "\n";
     }

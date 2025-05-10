@@ -235,7 +235,7 @@ EASL0234	o0900412	n	|DUG~b×(NI~a@g.ZATU779)|	I	|DUG~bx(NI~a@g.ZATU779)|	𒞐	/p
 EASL0235	o0900414		|DUG~b×SA~a|	I	|DUG~bxSA~a|	𒞑	/pcsl/easl/images/o0900414.png
 EASL0236	o0900416		|DUG~b×(SA~a.GI)|	DUG~b+SA~a+GI	DUG~b+SA~a+GI	󳁔	-
 EASL0237	o0900418		|DUG~b×SI₄~a|	I	|DUG~bxSI4~a|	𒞒	/pcsl/easl/images/o0900418.png
-EASL0238	o0900420	n	|DUG~b×(SI₄~a.X)|	I	|DUG~bx(SI4~a.X)|	𒞓	/pcsl/easl/images/o0900420.png
+EASL0238	o0900420	n#	|DUG~b×(SI₄~a.X)|	I	|DUG~bx(SI4~a.X)|	𒞓	/pcsl/easl/images/o0900420.png
 EASL0239	o0900422		|DUG~b×SIG₂~a1|	I	|DUG~bxSIG2~a1|	𒞔	/pcsl/easl/images/o0900422.png
 EASL0240	o0900423		|DUG~b×SIG₂~a2|	I	|DUG~bxSIG2~a2|	𒞕	/pcsl/easl/images/o0900423.png
 EASL0241	o0900425		|DUG~b×SIG₇|	I	|DUG~bxSIG7|	𒞖	/pcsl/easl/images/o0900425.png
@@ -661,7 +661,7 @@ EASL0660	o0901127		KISIM~c	I	KISIM~c	𒥙	/pcsl/easl/images/o0901127.png
 EASL0661	o0901128		KIŠ	I	KISZ	𒥚,𒥛	/pcsl/easl/images/o0901128.png
 EASL0662	o0901131		KIŠIK~a	I	KISZIK~a	𒥜	/pcsl/easl/images/o0901131.png
 EASL0663	o0901132		KIŠIK~b	I	KISZIK~b	𒥝	/pcsl/easl/images/o0901132.png
-EASL0664	o0901133		KITI	I	KITI	𒥞,𒥟	/pcsl/easl/images/o0901133.png
+EASL0664	o0901133	!	KITI	I	KITI	𒥞,𒥟	/pcsl/easl/images/o0901133.png
 EASL0665	o0901136		KU~a	I	KU~a	𒥠	/pcsl/easl/images/o0901136.png
 EASL0666	o0901140	1-	KU~a@t	I	KU~a@t	󲣃	/pcsl/easl/images/o0901140.png
 EASL0667	o0901137		KU~b1	I	KU~b1	𒥡	/pcsl/easl/images/o0901137.png
@@ -766,7 +766,7 @@ EASL0765	o0901303		LIŠ	I	LISZ	𒦵	/pcsl/easl/images/o0901303.png
 EASL0766	o0901304		LU₂	I	LU2	𒦹,𒦶,𒦸	/pcsl/easl/images/o0901304.png
 EASL0767	o0901308		|LU₂×GEŠTU~c3|	I	|LU2xGESZTU~c3|	𒦷	/pcsl/easl/images/o0901308.png
 EASL0768	o0901309	1-	LU₂@t	I	LU2@t	󲤀	/pcsl/easl/images/o0901309.png
-EASL0769	o0901310	!B	LUGAL	I	LUGAL	𒦺,𒦻	/pcsl/easl/images/o0901310.png
+EASL0769	o0901310	:	LUGAL	I	LUGAL	𒦺,𒦻	/pcsl/easl/images/o0901310.png
 EASL0770	o0901312		LUM	I	LUM	𒦼	/pcsl/easl/images/o0901312.png
 EASL0771	o0901313		MA	I	MA	𒦽,𒧀	/pcsl/easl/images/o0901313.png
 EASL0772	o0901316		|MA×MA|	I	|MAxMA|	𒦾	/pcsl/easl/images/o0901316.png

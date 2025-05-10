@@ -644,10 +644,7 @@
 @end sign
 
 @sign |DARA₃~d×KAR₂~b|
-@aka |DARA₃~d×KAR₂|
-@aka |DARA₃~d×KAR₂|~v1
-@aka |DARA₃~d×KAR₂|~v2
-@oid o0900243
+@oid o0900242
 @end sign
 
 @sign DARA₄~a1

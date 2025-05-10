@@ -20,22 +20,31 @@ GetOptions(
 # are post-converted by utr; all input is still in PC24.
 #
 
-my $pcslranges = `cut -f3 00etc/pc25-map.tsv | sort | 00bin/listdef-uni-ranges.plx`;
+my $pcslranges = '';
+
+$pcslranges = `cut -f3 00etc/pc25-map.tsv | sort | 00bin/listdef-uni-ranges.plx`
+    unless $bare;
 
 my %zatu = (); my %znotes = (); my %nozatu = (); my %zseen = (); load_zatu();
 
 # load PC24->PC25 map
-my %m = (); my @m = `cut -f2-3 00etc/pc25-map.tsv`; chomp @m;
-foreach (@m) {
-    my($f,$t) = split(/\t/,$_);
-    $m{$f} = $t;
+my %m = ();
+unless ($bare) {
+    my @m = `cut -f2-3 00etc/pc25-map.tsv`; chomp @m;
+    foreach (@m) {
+	my($f,$t) = split(/\t/,$_);
+	$m{$f} = $t;
+    }
 }
 
 # load OID->PC25 map
-my %pc25 = (); my @pc25 = `cut -f1,3 00etc/pc25-map.tsv`; chomp @pc25;
-foreach (@pc25) {
-    my($o,$u) = split(/\t/,$_);
-    $pc25{$o} = $u;
+my %pc25 = ();
+unless ($bare) {
+    my @pc25 = `cut -f1,3 00etc/pc25-map.tsv`; chomp @pc25;
+    foreach (@pc25) {
+	my($o,$u) = split(/\t/,$_);
+	$pc25{$o} = $u;
+    }
 }
 
 my $f = '00etc/pcsl-final.tsv';

@@ -71,7 +71,8 @@ warn "$0: input=$f\n";
 open(N,$f);
 while (<N>) {
     chomp;
-    my($n,$h,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src,$cdiff) = ();
+    my($n,$h,$o,$t,$p,$lo,$lp,$c,$fn,$pc24,$cdli,$flag,$r,$src) = ();
+    my $cdiff = '';
     if ($cusasflag || $easlflag || $numflag) {
 	($n,$o,$t,$p,$lo,$lp,$c,$fn) = split(/\t/,$_);
     } elsif ($pcslflag) {
@@ -94,13 +95,17 @@ while (<N>) {
 	    $r =~ s/^(.).*$/$1/;
 	}
     }
-    my $h24 = sprintf("%X", ord($r));
-    if (($pcslflag || $pc25flag) && $r) {
-	$rattr = sprintf(" c=\"%s\" h=\"$h24\"", $r);
+    my $h24 = '';
+    if ($r) {
+	$h24 = sprintf("%X", ord($r));
+	if (($pcslflag || $pc25flag) && $r) {
+	    $rattr = sprintf(" c=\"%s\" h=\"$h24\"", $r);
+	}
     }
     if ($t) {
 	my $seq = '';
 	my $not = '';
+	my $ot = $t;
 	$t = " tags=\"$t\"";
 	if ($t =~ /([.:!@])/) {
 	    $seq = " seq=\"$1\"";
@@ -109,15 +114,18 @@ while (<N>) {
 	    $not = " not=\"1\"";
 	}
 	$t = "$t$seq$not";
-	$t .= hr_t($t);
+	$t .= hr_t($ot,$o);
     } else {
-	$t = " tags=\"\" data-hrt=\"UNP\"";
+	my $hrt = ($dist{$o} ? "UNP" : "ZERO");
+	$t = " tags=\"\" data-hrt=\"$hrt\"";
     }
-    unless ($t =~ /PC25/) {
-	my $h25 = $pc25{$h24};
-	$rattr .= " h25=\"$h25\"";
-    } else {
-	$rattr .= " h25=\"$h24\"";
+    if ($h24) {
+	unless ($t =~ /PC25/) {
+	    my $h25 = $pc25{$h24};
+	    $rattr .= " h25=\"$h25\"";
+	} else {
+	    $rattr .= " h25=\"$h24\"";
+	}
     }
     my $dist = dist($o);
     my $datadist = distdata($o);
@@ -163,7 +171,7 @@ while (<N>) {
 	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
     chars($c);
-    sl($o,$p) if $easlflag || $pcslflag || $pc25flag;
+    sl($o,$roid,$p) if $easlflag || $pcslflag || $pc25flag;
     print '</sign>';
 }
 close(N);
@@ -247,23 +255,28 @@ sub distdata {
 
 # Make a human-readable tag
 sub hr_t {
-    my $t = shift;
+    my($t,$o) = @_;
     my $h = '';
+    warn "$o: $t\n" if $o =~ /1672$/;
     if ($t =~ /©/) {
 	$h = 'PC25';
 	if ($t =~ /.:/) {
 	    $h .= '-sq';
 	} elsif ($t =~ /#/) {
 	    $h .= '-bk';
-	} elsif ($t =~ /-/) {
+	} elsif ($t =~ /[-d]/) {
 	    $h .= '-dl';
 	}
     } elsif ($t =~ /1/ && $t !~ /C/) {
 	$h = 'EDI';
-    } elsif ($t =~ /-/) {
+    } elsif ($t =~ /[-d]/) {
 	$h .= 'DEL';
     } else {
-	$h = 'UNP';
+	if ($dist{$o}) {
+	    $h = 'UNP';
+	} else {
+	    $h = 'ZERO';
+	}
     }
     $h = " data-hrt=\"$h\"" if $h;
     $h;
@@ -342,7 +355,11 @@ sub load_sf {
     foreach (@sf) {
 	my($o,$sf) = split(/\t/,$_);
 	if ($sf) {
-	    $sf{$o} = $sf;
+	    if ($sf{$o}) {
+		warn "00etc/propgh-sf.tsv: duplicate entry $o\n";
+	    } else {
+		$sf{$o} = $sf;
+	    }
 	} else {
 	    $sf{$o} = '1000';
 	}
@@ -456,6 +473,10 @@ sub pchar {
     } else {
 	my $ch = sprintf("%X",ord($cc));
 	my $ch25 = $pc25{$ch};
+	unless ($ch25) {
+	    warn "no PC25 for $ch\n";
+	    $ch25 = '';
+	}
 	if ($u{$ch}) {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
@@ -488,13 +509,14 @@ sub pcsl_xattr {
 }
 
 sub sl {
-    my ($o,$p) = @_;
-    if ($sl{$o}) {
+    my ($o,$roid,$p) = @_;
+    my $slo = $sl{$o} ? $o : $roid||$o;
+    if ($sl{$slo}) {
 	print '<sl>';
 	foreach my $sl (qw/atu3 atu5 msvo1 msvo4 cusas/) {
-	    if (${$sl{$o}}{$sl}) {
+	    if (${$sl{$slo}}{$sl}) {
 		print "<s sl=\"$sl\">";
-		my @lpc = @{${$sl{$o}}{$sl}};
+		my @lpc = @{${$sl{$slo}}{$sl}};
 		foreach my $lpc (@lpc) {
 		    my($lp,$lc) = @$lpc;
 		    my $diff = check_ext($p,$lp);

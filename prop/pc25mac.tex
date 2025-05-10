@@ -1,6 +1,5 @@
 \input newmcol
 
-
 \font\slnmfont="Ungkam Basic Bold" at9pt
 \font\sltgfont="Ungkam Basic" at8pt
 \font\slnmfontw="Ungkam Basic Bold:color=00FF00" at6.5pt
@@ -10,6 +9,8 @@
 \font\oidfont="Ungkam Basic" at9pt
 \font\oidfontx="Ungkam Basic" at8pt
 \font\zatufont="Ungkam Basic" at7.5pt
+
+\oidfont\dimen255=1em \showthe\dimen255
 
 \font\pcssXX="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 18pt
 \font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
@@ -302,13 +303,15 @@
    \ifdim\wd\akabox>0pt
       \setbox\akabox=\hbox{\vbox{\hsize2in \sltgfont
                                  \parindent0pt \rightskip0pt plus1fil \hangindent1em
-                                 \leavevmode\helvx AKA: \sltgfont \the\akatoks\endgraf}}%
+                                 \leavevmode\oidfont\hbox to2.15em{\helvx AKA:\hfil}%
+                                 \sltgfont \the\akatoks\endgraf}}%
    \fi
    \setbox\cdiffbox=\hbox{\the\cdifftoks}%
    \ifdim\wd\cdiffbox>0pt
       \setbox\cdiffbox=\hbox{\vbox{\hsize2in \sltgfont
                                  \parindent0pt \rightskip0pt plus1fil \hangindent1em
-                                 \leavevmode\helvx CDLI: \sltgfont \the\cdifftoks\endgraf}}%
+                                 \leavevmode\oidfont\hbox to2.15em{\helvx CDLI:\hfil}%
+                                 \sltgfont \the\cdifftoks\endgraf}}%
    \fi
    \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
    \kern.5pt

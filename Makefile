@@ -1,4 +1,4 @@
-default: texts pcsl pc25 font pages portal
+default: cepc mepc fepc prop portal
 
 #
 # TEXTS
@@ -14,10 +14,10 @@ default: texts pcsl pc25 font pages portal
 texts: tpcsl tpc25
 
 tpcsl:
-	(cd corpus25 ; make pcsl)
+	(cd cepc ; make pcsl)
 
 tpc25:
-	(cd corpus25 ; make pc25)
+	(cd cepc ; make pc25)
 
 #
 # PCSL
