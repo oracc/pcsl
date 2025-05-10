@@ -198,20 +198,22 @@ sub cdli2uni {
 }
 
 sub chars {
+    my $oc = $_[0];
+    $oc =~ s/;.*$//;
     my @c = split(/[,;]/,$_[0]);
     print "<s>";
     foreach my $c (@c) {
 	if ($c =~ /=/) {
 	    print '<ff>';
-	    pchar($c);
+	    pchar($c,'',$oc);
 	    print '</ff>';
 	} else {
 	    if ($pcslflag || $pc25flag) {
-		pchar($c);
+		pchar($c,'',$oc);
 	    } else {
 		my @cc = grep(length,split(/(.)/,$c));
 		foreach my $cc (@cc) {
-		    pchar($cc);
+		    pchar($cc,'',$oc);
 		}
 	    }
 	}
@@ -460,7 +462,7 @@ sub pc25vscdli {
 }
 
 sub pchar {
-    my($cc,$f) = @_;
+    my($cc,$f,$oc) = @_;
     $f = 'f' unless $f;
     if ($cc =~ /=/) {
 	my($ccc,$seq) = ($cc =~ /^(.)=(.*)$/);
@@ -476,7 +478,7 @@ sub pchar {
 		warn "seq $seq length $l gives split sequence list only 1 char long\n";
 	    }
 	    foreach my $q (@seq) {
-		pchar($q,'q');
+		pchar($q,'q',$oc);
 	    }
 	    print '</f>';
 	} else {
@@ -489,10 +491,12 @@ sub pchar {
 	    warn "no PC25 for $ch\n";
 	    $ch25 = '';
 	}
+	my $ngh = $oc !~ /$cc/;
+	$ngh = " newgh=\"1\"" if $ngh;
 	if ($u{$ch}) {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
-	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"/>";
+	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"$ngh/>";
 	} elsif ($ch eq '4F') {
 	    print "<$f sn=\"O\" c=\"O\"/>";
 	} elsif ($ch eq '200D') {

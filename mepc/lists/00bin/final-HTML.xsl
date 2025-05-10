@@ -189,7 +189,12 @@
 		<xsl:when test="f">
 		  <xsl:for-each select="f">
 		    <div class="fchr">
-		      <span class="ofs-pc ofs-200"><xsl:value-of select="@c"/></span>
+		      <span class="ofs-pc ofs-200">
+			<xsl:if test="@newgh='1'">
+			  <xsl:attribute name="data-newgh"><xsl:text>1</xsl:text></xsl:attribute>
+			</xsl:if>
+			<xsl:value-of select="@c"/>
+		       </span>
 		    </div>
 		    <div class="fhex">
 		      <span class="ucode"><xsl:value-of select="concat('[',@u25,']')"/></span>
