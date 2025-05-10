@@ -257,7 +257,7 @@ sub distdata {
 sub hr_t {
     my($t,$o) = @_;
     my $h = '';
-    warn "$o: $t\n" if $o =~ /1672$/;
+    warn "$o: $t\n" if $o =~ /03200$/;
     if ($t =~ /©/) {
 	$h = 'PC25';
 	if ($t =~ /.:/) {
@@ -267,6 +267,10 @@ sub hr_t {
 	} elsif ($t =~ /[-d]/) {
 	    $h .= '-dl';
 	}
+    } elsif ($t eq 'PC25' || $t eq 'ACN' || $t eq 'DNE' || $t =~ 'OOR') {
+	$h = $t;
+    } elsif ($t eq 'ADD') {
+	$h = 'NUM';
     } elsif ($t =~ /1/ && $t !~ /C/) {
 	$h = 'EDI';
     } elsif ($t =~ /[-d]/) {

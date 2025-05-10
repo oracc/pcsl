@@ -17,6 +17,17 @@ GetOptions(
 # suggest fixes where possible
 #
 
+my %oid = (); my %oid9 = ();
+my @oid = `cut -f1,3 ~/orc/oid/oid.tab`; chomp @oid;
+foreach (@oid) {
+    my($o,$n) = split(/\t/,$_);
+    if ($o =~ /^o09/) {
+	$oid9{$n} = $o;
+    } else {
+	$oid{$n} = $o;
+    }
+}
+
 my %map = (); my @map = `cut -f2-3 ../../00etc/oid-sl-n-pc.tsv`; chomp @map;
 foreach (@map) {
     my($n,$o) = split(/\t/,$_);
@@ -32,7 +43,7 @@ foreach (@pcsl) {
     my($n,$row) = split(/\t/,$_);
     if (length $row) {
 	if ($row =~ /^o\d+$/) {
-	    my($o) = $row;
+	    my $o = $row;
 	    unless (exists $png{$o}) {
 		if ($map{$n} && $o ne $map{$n}) {
 		    my $no = $map{$n};
@@ -40,17 +51,31 @@ foreach (@pcsl) {
 			warn "use $no for $n not $o\n";
 			++$seen{$no};
 		    } else {
-			warn "oid $no for $n=$o not in oid-sl-n-pc.tsv\n"
+			if ($oid{$n} && exists($png{$oid{$n}})) {
+			    warn "old[1] oid $oid{$n} is known for $n=$o\n";
+			} elsif ($oid9{$n} && exists($png{$oid9{$n}})) {
+			    warn "old[1] oid $oid9{$n} is known for $n=$o\n";
+			} else {
+			    warn "oid $no for $n=$o not in oid-sl-n-pc.tsv\n";
+			}
 		    }
 		} else {
-		    warn "png missing for $n=$o\n" unless exists $png{$o};
+		    # warn "trying $n via oid(n)\n";
+		    if ($oid{$n} && exists($png{$oid{$n}})) {
+			warn "old[2] oid $oid{$n} is known for $n=$o\n";
+			++$seen{$oid{$n}};
+		    } elsif ($oid9{$n} && exists($png{$oid9{$n}})) {
+			warn "old[2] oid $oid9{$n} is known for $n=$o\n";
+		    } else {
+			warn "png missing for $n=$o\n" unless exists $png{$o};
+		    }
 		}
 	    } else {
 		++$seen{$o};
 	    }
 	} else {
 	    if ($row ne '-') {
-		warn "non-OID row $_\n";
+		warn "non-OID row $row\n";
 	    }
 	}
     }
