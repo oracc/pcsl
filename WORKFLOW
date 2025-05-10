@@ -1,0 +1,30 @@
+mepc/texts -- rebuild corpus and pub/unpub lists
+
+mepc/signs [newsl] -- rebuild pcsl.asl
+
+## Ensure pcsl is PC25:
+## install pcsl.asl in pcsl/00lib with utr 00etc/pc25.map 00lib/pcsl.asl >../00lib/pcsl.asl
+
+pcsl -- update 02pub/sl/sl.tsv with PC25 data for use with corpus
+
+pcsl -- rebuild corpus and corpus stats
+
+mepc/signs [newsl] -- build *final.xml using stats
+
+mepc/signs [newsl] -- rebuild pc25 data
+
+fepc -- rebuild font ; manually fix metrics and features
+
+sacpc -- rebuid font
+
+pcsl/pc25 rebuild corpus and corpus stats
+
+## all web pages should be postprocessed using utr before being put in
+## pcsl/00web
+
+mepc -- rebuild web pages and pdf
+pepc -- rebuild web pages and pdf
+pc25 -- rebuild web pages and pdf
+fepc -- rebuild web pages and pdf
+
+-- possibly build single pdf --

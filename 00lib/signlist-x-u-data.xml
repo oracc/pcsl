@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page
+    xmlns:esp="http://oracc.org/ns/esp/1.0"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:xh="http://www.w3.org/1999/xhtml">
+  <esp:name>Unicode Data</esp:name>
+  <esp:title>Unicode Data</esp:title>
+  <html>
+    <head/>
+    <body>
+<p class="bookmarks">
+<esp:link bookmark="h_encodedsigns">Encoded Signs</esp:link>
+<esp:link bookmark="h_deprecatedsigns">Deprecated Signs</esp:link>
+<esp:link bookmark="h_missingsigns">Missing Signs</esp:link>
+<esp:link bookmark="h_completesequences">Complete Sequences</esp:link>
+<esp:link bookmark="h_incompletesequences">Incomplete Sequences</esp:link>
+<esp:link bookmark="h_neededsigns">Needed Signs</esp:link>
+</p>
+<esp:sh>Encoded Signs</esp:sh>
+<table style="font-size: 80%" class="pretty">
+</table>
+<esp:sh>Deprecated Signs</esp:sh>
+<table style="font-size: 80%" class="pretty">
+</table>
+<esp:sh>Missing Signs</esp:sh>
+<table style="font-size: 80%" class="pretty">
+</table>
+<esp:sh>Complete Sequences</esp:sh>
+<table style="font-size: 80%" class="pretty">
+</table>
+<esp:sh>Incomplete Sequences</esp:sh>
+<table style="font-size: 80%" class="pretty">
+</table>
+<esp:sh>Needed Signs</esp:sh>
+<p>The following list of characters which might need encoding contains 0 entries.</p>
+<table style="font-size: 80%" class="pretty">
+</table>
+    </body>
+  </html>
+</esp:page>
