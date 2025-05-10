@@ -19,7 +19,7 @@ MEPCSL=${PCSL}/mepc/sl
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
 CSLDEPS=../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
-DVDEPS=00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/num-final.tsv
+DVDEPS=00etc/pc24.tsv 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/num-final.tsv
 DVHTML=00web/easl-tab.html 00web/pcsl-tab.html 00web/pc25-tab.html 00web/num-tab.html 00web/cusas-tab.html
 DVXML=00etc/easl-final.xml 00etc/pcsl-final.xml 00etc/pc25-final.xml 00etc/num-final.xml 00etc/cusas-final.xml
 IMGDEPS=images/atu3/.images images/atu5/.images images/cusas/.images images/easl/.images images/msvo1/.images images/msvo4/.images

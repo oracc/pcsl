@@ -644,6 +644,9 @@
 @end sign
 
 @sign |DARA₃~d×KAR₂~b|
+@aka |DARA₃~d×KAR₂|
+@aka |DARA₃~d×KAR₂|~v1
+@aka |DARA₃~d×KAR₂|~v2
 @oid o0900242
 @end sign
 
@@ -3763,7 +3766,7 @@
 @sign |1(N58).BAD|
 @aka |1(N58).BAD~a|
 @aka |BAD+DIŠ~a|
-@oid o0903281
+@oid o0903282
 @end sign
 
 @sign |(1(N58).BAD)~b|
@@ -5808,7 +5811,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903390
+@oid o0903666
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|
@@ -7965,6 +7968,10 @@
 
 @sign 1(N08@f)
 @oid o0902924
+@end sign
+
+@sign |1(N08@f)×1(N57)|
+@oid o0902925
 @end sign
 
 @sign 1(N09)
