@@ -17,7 +17,7 @@ GetOptions(
 if ($h) {
     while (<>) {
 	chomp;
-	my($o,$h,$r) = split(/\s+/,$_);
+	my($o,$x,$h,$r) = split(/\s+/,$_);
 	my $sf = $r/$h; $sf *= 1000;
 	printf "$o\t$h/$r\t%d\n", $sf;
     }

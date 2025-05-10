@@ -139,7 +139,7 @@ while (<N>) {
 	}
     }
     my $roid = '';
-    ($roid) = ($fn =~ m#/(o\d+)\.#)
+    ($roid) = ($fn =~ m#(o\d+)#)
 	if $fn;
     my $sfattr = '';
     if ($pcslflag) {
@@ -257,9 +257,15 @@ sub distdata {
 sub hr_t {
     my($t,$o) = @_;
     my $h = '';
-    warn "$o: $t\n" if $o =~ /03200$/;
+    # warn "$o: $t\n" if $o =~ /03200$/;
     if ($t =~ /©/) {
-	$h = 'PC25';
+	if ($t =~ /ACN/) {
+	    $h = 'ACN';
+	} elsif ($t =~ /Pelm/) {
+	    $h = 'Pelm';
+	} else {
+	    $h = 'PC25';
+	}
 	if ($t =~ /.:/) {
 	    $h .= '-sq';
 	} elsif ($t =~ /#/) {
@@ -267,10 +273,12 @@ sub hr_t {
 	} elsif ($t =~ /[-d]/) {
 	    $h .= '-dl';
 	}
-    } elsif ($t eq 'PC25' || $t eq 'ACN' || $t eq 'DNE' || $t =~ 'OOR') {
+    } elsif ($t eq 'PC25' || $t eq 'ACN' || $t eq 'DNE' || $t =~ 'OOR' || $t =~ 'Pelm') {
 	$h = $t;
     } elsif ($t eq 'ADD') {
 	$h = 'NUM';
+    } elsif ($t eq 'VSP') {
+	warn "$o: VSP should not occur in num-base; merge with primary\n";
     } elsif ($t =~ /1/ && $t !~ /C/) {
 	$h = 'EDI';
     } elsif ($t =~ /[-d]/) {

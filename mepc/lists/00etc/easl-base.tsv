@@ -262,7 +262,7 @@ o0900340	n	|DUG~b~v1×AB₂|	I	|DUG~bxAB2|	𒞮	/pcsl/easl/images/o0900340.png
 o0900373	n	|DUG~b~v1×HI@g~a|	I	|DUG~bxHI@g~a|	𒞲	/pcsl/easl/images/o0900373.png
 o0900476	n	|(DUG~b~v1&DUG~b~v1)×1(N58)|	I	|(DUG~b&DUG~b)x1(N58)|	𒞹	/pcsl/easl/images/o0900476.png
 o0900336		DUG~c~v1	I	DUG~c	𒞼,𒞿	/pcsl/easl/images/o0900336.png
-o0900397		|DUG~c×1(N57)|	I	|DUG~cx1(N57)|	𒞾,𒞽,𒟀	/pcsl/easl/images/o0900397.png
+o0900397		|DUG~c×1(N57)|	I	|DUG~cx1(N57)|	𒞾,𒞽,𒟀	/pcsl/easl/images/o0900398.png
 o0900479		DUG~c@t	I	DUG~c@t	𒞻	/pcsl/easl/images/o0900479.png
 o0900338	c	DUG~d	I	DUG~d	𒟁	/pcsl/easl/images/o0900338.png
 o0900478	a	DUG~e	DUGe	DUG~e	𒝴	-
@@ -329,7 +329,7 @@ o0900585		|EZEN~a×U₄|	I	|EZEN~axU4|	𒟿	/pcsl/easl/images/o0900585.png
 o0900587	#	|EZEN~a×X|	I	|EZEN~axX|	𒠀	/pcsl/easl/images/o0900587.png
 o0900556	n	|EZEN~a~v1×EN~a|	I	|EZEN~axEN~a|	𒠂	/pcsl/easl/images/o0900556.png
 o0900552		EZEN~b	I	EZEN~b	𒠃	/pcsl/easl/images/o0900552.png
-o0900570	c	|EZEN~b×6(N57)|	I	|EZEN~bx6(N57)|	󲳟,𒠄	/pcsl/easl/images/o0900570.png
+o0900570	c	|EZEN~b×6(N57)|	I	|EZEN~bx6(N57)|	󲳟,𒠄	/pcsl/easl/images/o0900571.png
 o0900592		EZEN~b@t	I	|EZEN~b@t|	𒠅	/pcsl/easl/images/o0900592.png
 o0900554	d	EZEN~c	I	EZEN~c	󲟐	/pcsl/easl/images/o0900554.png
 o0900594		EZINU~a	I	EZINU~a	𒠆	/pcsl/easl/images/o0900594.png
@@ -377,7 +377,7 @@ o0900707		|GA₂~a1×U₄|	I	|GA2~a1xU4|	𒠱	/pcsl/easl/images/o0900707.png
 o0900709	1-#	|GA₂~a1×X|	I	|GA2~a1xX|	𒠲	/pcsl/easl/images/o0900709.png
 o0900666		|GA₂~a1×1(N14)|	I	|GA2~a1x1(N14)|	𒠳	/pcsl/easl/images/o0900666.png
 o0900668		|GA₂~a1×1(N57)|	I	|GA2~a1x1(N57)|	𒠴	/pcsl/easl/images/o0900668.png
-o0900670		|GA₂~a1×3(N57)|	I	|GA2~a2x3(N57)|	𒠵	/pcsl/easl/images/o0900670.png
+o0900670		|GA₂~a1×3(N57)|	I	|GA2~a2x3(N57)|	𒠵	/pcsl/easl/images/o0900671.png
 o0900617		GA₂~a2	I	GA2~a2	𒠶	/pcsl/easl/images/o0900617.png
 o0900644		|GA₂~a2×GU₄|	I	|GA2~a2xGU4|	𒠷	/pcsl/easl/images/o0900644.png
 o0900677		|GA₂~a2×NI~a|	I	|GA2~a2xNI~a|	𒠸	/pcsl/easl/images/o0900677.png
@@ -588,7 +588,7 @@ o0901022	nc	IŠ~b	I	ISZ~b	𒤍,𒤎,𒤏,𒤐,𒤑,𒤒	/pcsl/easl/images/o09010
 o0901028		IŠ~c	I	ISZ~c	𒤓	/pcsl/easl/images/o0901028.png
 o0901030		KA~a	I	KA~a	𒤔	/pcsl/easl/images/o0901030.png
 o0901036		|KA~a×SAR~a|	I	|KA~axSAR~a|	𒤕	/pcsl/easl/images/o0901036.png
-o0901033	n.	|KA~a~v1.ŠE~a|	I	|KA~a.SZE~a|	𒤖	/pcsl/easl/images/o0901033.png
+o0901033	n.	|KA~a~v1.ŠE~a|	I	|KA~a.SZE~a|	𒤖	/pcsl/easl/images/o0901032.png
 o0901038		KA₂~a	I	KA2~a	𒤘	/pcsl/easl/images/o0901038.png
 o0901039		KA₂~b	I	KA2~b	𒤙	/pcsl/easl/images/o0901039.png
 o0901040		KA₂~c	I	KA2~c	𒤚	/pcsl/easl/images/o0901040.png
@@ -923,7 +923,7 @@ o0901543		|NINDA₂×GAR|	I	|NINDA2xGAR|	𒩒	/pcsl/easl/images/o0901543.png
 o0901544		|NINDA₂×GIŠ|	I	|NINDA2xGISZ|	𒩓	/pcsl/easl/images/o0901544.png
 o0901546	1-	|NINDA₂×(GIŠ.DAR~a)|	I	|NINDA2x(GISZ.DAR~a)|	󲶽	/pcsl/easl/images/o0901546.png
 o0901547		|NINDA₂×GU₄|	I	|NINDA2xGU4|	𒩔	/pcsl/easl/images/o0901547.png
-o0901534	d	|NINDA₂×GUDU₄|~v2	I	|NINDA2xGUDU4|	𒩚,𒩙,󲷁,󲷂	/pcsl/easl/images/o0901534.png
+o0901534	d	|NINDA₂×GUDU₄|~v2	I	|NINDA2xGUDU4|	𒩚,𒩙,󲷁,󲷂	/pcsl/easl/images/o0901529.png
 o0901548		|NINDA₂×HI|	I	|NINDA2xHI|	𒩕	/pcsl/easl/images/o0901548.png
 o0901533	n	|NINDA₂×(HI.AN.ME~a)|	I	|NINDA2x(HI.AN.ME~a)|	𒩖	/pcsl/easl/images/o0901533.png
 o0901530	n	|NINDA₂×(HI.ME~a)|	I	|NINDA2x(HI.ME~a)|	𒩗	/pcsl/easl/images/o0901530.png
@@ -1055,7 +1055,7 @@ o0901773	1-:	SIKIL	I	SIKIL	󲨰	/pcsl/easl/images/o0901773.png
 o0901775		SILA₃~a	I	SILA3~a	𒫥	/pcsl/easl/images/o0901775.png
 o0901781		|SILA₃~a×A|	I	|SILA3~axA|	𒫦	/pcsl/easl/images/o0901781.png
 o0901783		|SILA₃~a×AMAR|	I	|SILA3~axAMAR|	𒫧	/pcsl/easl/images/o0901783.png
-o0901786		|SILA₃~a×DUG~a|~v1	I	|SILA3~axDUG~a|	𒬉,𒫨	/pcsl/easl/images/o0901786.png
+o0901786		|SILA₃~a×DUG~a|~v1	I	|SILA3~axDUG~a|	𒬉,𒫨	/pcsl/easl/images/o0901785.png
 o0901787	1-	|SILA₃~a×DUG~b|	I	|SILA3~axDUG~b|	󲸑	/pcsl/easl/images/o0901787.png
 o0901790	n	|SILA₃~a×GA~a~v3|	I	|SILA3~axGA~a|	𒫩	/pcsl/easl/images/o0901790.png
 o0901792		|SILA₃~a×GARA₂~a|	I	|SILA3~axGARA2~a|	𒫪	/pcsl/easl/images/o0901792.png
@@ -1208,7 +1208,7 @@ o0902037	1-	ŠU@s	I	SZU@s	󲨆	/pcsl/easl/images/o0902037.png
 o0902038		ŠU₂	I	SZU2	𒮑,𒮘;󳃼	/pcsl/easl/images/o0902039.png
 o0902045	n.	|ŠU₂~a.EN~a|	I	|SZU2.EN~a|	𒮓,𒮔	/pcsl/easl/images/o0902046.png
 o0902048	n.	|ŠU₂~a.EN~b|	I	|SZU2.EN~b|	𒮕	/pcsl/easl/images/o0902048.png
-o0902050	n.	|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	I	|SZU2.((HI+1(N57))+(HI+1(N57)))|	𒮖	/pcsl/easl/images/o0902050.png
+o0902050	n.	|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	I	|SZU2.((HI+1(N57))+(HI+1(N57)))|	𒮖	/pcsl/easl/images/o0902824.png
 o0902056	n.	|ŠU₂~a.URI₃~a~v1|	I	|SZU2.URI3~a|	𒮗	/pcsl/easl/images/o0902056.png
 o0902043	n.	|ŠU₂~b.E₂~a|	I	|SZU2.E2~a|	𒮙	/pcsl/easl/images/o0902043.png
 o0902044	n.	|ŠU₂~b.E₂~b|	I	|SZU2.E2~b|	𒮚	/pcsl/easl/images/o0902044.png
