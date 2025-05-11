@@ -2542,7 +2542,7 @@
 @end sign
 
 @sign |KA~a.ŠE~a|
-@oid o0901033
+@oid o0901032
 @end sign
 
 @sign |KA~a×SAR~a|
@@ -3764,9 +3764,9 @@
 @end sign
 
 @sign |1(N58).BAD|
-@aka |1(N58).BAD~a|
 @aka |BAD+DIŠ~a|
-@oid o0903282
+@aka |1(N58).BAD~a|
+@oid o0903281
 @end sign
 
 @sign |(1(N58).BAD)~b|
@@ -8441,7 +8441,7 @@
 
 @sign 1(N30CA)
 @aka 1(N30C~a)
-@oid o0903662
+@oid o0903562
 @end sign
 
 @sign 1(N30CB)
