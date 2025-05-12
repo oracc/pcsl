@@ -2,7 +2,7 @@
 # Makefile for generating pcsl and pc25 atf and catalogue data
 #
 
-pcsl: atf cat
+default: atf cat pc25
 
 atf: 00atf/pcsl.atf 00bin/pcslatf.plx
 
@@ -17,11 +17,3 @@ pc25: 00atf/pcsl.atf oldcat/p_*.tsv
 	tr -d '\r' <00src/pcsl.atf | 00bin/pcslatf.plx >00atf/pcsl.atf
 	atfproject.plx -unicode -project pcsl
 	chmod -w 00atf/pcsl.atf
-
-pcsl.rep: 00atf/pcsl.atf
-	00bin/rep.sh
-
-rep: pcsl.rep
-
-init: atf cat
-

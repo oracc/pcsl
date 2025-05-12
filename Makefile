@@ -1,98 +1,96 @@
-default: cepc mepc fepc prop portal
-
 #
-# TEXTS
+# Master Makefile for PC encoding workflow.
 #
-# PCSL uses a catalogue and corpus that are maintained in corpus25/
-# The ATF file corpus25/00src/pcsl.atf is in the orginal CDLI format
-# to enable modifications to be ported back to CDLI easily.
+# XEPC = X for Encoding Proto-Cuneiform:
 #
-# The PC25 catalogue and corpus are extracted programmatically from
-# the corpus25/ files and live in corpus25/pc25.
+# CEPC = Corpus
+# MEPC = Materials
+# PEPC = Principles
+# FEPC = Font
+# REPC = Repertoire
+# DEPC = Documentation
 #
-
-texts: tpcsl tpc25
-
-tpcsl:
-	(cd cepc ; make pcsl)
-
-tpc25:
-	(cd cepc ; make pc25)
-
-#
-# PCSL
-#
-# There is a circular dependency with PCSL/PC25 because PC25 needs an
-# annotated corpus as the basis to assign Unicode values, but the
-# corpus needs some version of PCSL to provide the annotations.
-#
-# The necessary sequence is therefore:
-#
-# * build pcsl.asl from the sources with the old Unicode values
-#
-# * update the signlist tsv
-#
-# * generate corpus and grapheme statistics for the PCSL/PC25 corpora
-#
-# * build signlists for pcsl (again) and pc25
+# The xepc build is separate from the pcsl project build and does not
+# rely on having a built project.
 #
 
-pcsl: pcsl1 mepc-texts mepc-signs mepc-lists pcsl2
+default: cepc mepc fepc repc depc
+	true
 
-pcsl1:
-	(cd mepc/lists ; make pcsl install-pcsl)
-	oracc update
-
-pcsl2:
-	oracc corpus
-
-pc25:
-	(cd pc25 ; oracc build)
+#
+# CEPC
+#
+# PCSL uses a catalogue and corpus that are maintained in cepc:
+#
+#   The ATF file cepc/00src/pcsl.atf is in the orginal CDLI format
+#   to enable modifications to be ported back to CDLI easily.
+#
+#   The PC25 catalogue and corpus are extracted programmatically from
+#   the corpus25/ files and live in cepc/pc25.
+#
+# These various products of make cepc are linked to from
+# pcsl/{00atf,00cat) and pc25/{00atf/00cat} so no installation is
+# necessary.
+#
+cepc:
+	(cd cepc; make)
 
 #
 # MEPC
 #
-
-# Text corpus statistics
-mepc-texts:
-	(cd mepc/texts ; make)
-
-# Corpus grapheme statistics
-mepc-signs:
-	(cd mepc/signs ; make)
-
-# Build all the lists and their web versions
-mepc-lists:
-	(cd mepc/lists ; make)
-
-# Build the mepc web pages
-mepc-pages:
-	(cd mepc/w ; make)
+# MEPC computes statistics about the corpus (mepc/texts) and its
+# graphemes (mepc/signs); builds up the master pcsl-final.tsv and
+# derivatives from all of the relevant source sign lists (mepc/signs);
+# and creates some pages of mepc-related documentation (mepc/pages).
+#
+# mepc/pages contributes documentation to pcsl/00web/mepc
+#
+mepc:
+	(cd mepc; make)
 
 #
-# FONT
+# PEPC
 #
-font:
-	(cd fepc ; make)
-
+# PEPC are the Principles which guide the determination of the
+# encodable subset of PC25
 #
-# PAGES
+# pepc contributes documentation to pcsl/00web/pepc
 #
-pages: mepc-pages pepc
-
 pepc:
-	(cd pepc ; make)
+	(cd pepc; make)
 
 #
-# PORTAL
+# FEPC
 #
-
-portal:
-	oracc portal
+# FEPC builds the PC25 font from the PC24 font plus some mapping and
+# additions tables to ensure the font has .cvnn entries for all
+# variant glyphs as well as .liga entries for sequences.  It also
+# computes a set of scaled down signs for characters which otherwise
+# would not fit in the Unicode code chart and puts this in .ss20.
+#
+# fepc installs the font in ${ORACC}/lib/fonts/PC25.ttf
+#
+fepc:
+	(cd fepc; make)
 
 #
-# Proposal PDF
+# REPC
 #
+# REPC builds the Unicode-style code charts and character list.
+#
+# repc contributes documentation to pcsl/00web/repc
+#
+repc:
+	(cd repc; make)
 
-proposal:
-	(cd prop ; make)
+#
+# DEPC
+#
+# DEPC creates a PDF proposal single-sourced from the same files as
+# are used to create the PCSL portal.
+#
+# depc creates pc25.pdf and installs it in
+# pcsl/00res/downloads/pc25.pdf
+#
+depc:
+	(cd depc; make)

@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="../m/texts.xml">
+    <esp:name>Corpus</esp:name>
+    <esp:title>Corpus</esp:title>
+    <html>
+      <head/>
+      <body>
+        <p>The PC text Corpus is defined by the CDLI corpus of
+      Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
+      for use by PCSL: we call this <code>CDLI-tc</code>; note that
+      CDLI-tc is used here only in the PCSL version of the
+      corpus. This version has some minor modifications to the
+      transliteration and has been converted to use Unicode
+      transliteration conventions rather than the CDLI ASCII ones.</p>
+        <p>There are 5976 texts in the corpus of which 1752 are
+      attributed to Uruk IV and 4224, or roughly 75% of the corpus, to
+      the subsequent Uruk III period.</p>
+        <esp:sh>The Digital Corpus</esp:sh>
+        <p>The digital corpus includes the contents of the following major publications:</p>
+        <ul>
+          <li>Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)</li>
+          <li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
+	these supercede ATU1</li>
+          <li>Jemdet Nasr (Uruk III) tablets from MSVO1; these supercede
+	Langdon, PI</li>
+          <li>Tablets from various locations from MSVO4; this includes
+	non-Uruk tablets which were included in ATU1</li>
+          <li>Tablets in private collections from various locations in
+	CUSAS1, CUSAS21, and CUSAS31; these post-date the ATU and MSVO
+	volumes</li>
+          <li>Tablets from the "Erlenmeyer Collection"; these were to be
+	published in MSVO3 which has not yet appeared; many of them
+	have been edited by Englund and others in various
+	publications, however</li>
+          <!--<li>Tablets in private collections primarily from Umma; these
+	are in the CDLI set of transliterations but have not yet been
+	edited in print</li>-->
+        </ul>
+        <esp:sh>PCSL Corpus</esp:sh>
+        <p>PCSL's version of CDLI-tc has the following composition
+      divided by provenience, period, and published/unpublished
+      status:</p>
+        <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+          <thead>
+            <tr>
+              <th/>
+              <th>IV/pub</th>
+              <th>IV/unp</th>
+              <th>IV/all</th>
+              <th>III/pub</th>
+              <th>III/unp</th>
+              <th>III/all</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Uruk</th>
+              <td>1191</td>
+              <td>599</td>
+              <td>1790 </td>
+              <td>1575</td>
+              <td>1522</td>
+              <td>3097</td>
+            </tr>
+            <tr>
+              <th>JN</th>
+              <td>0</td>
+              <td>0</td>
+              <td>0 </td>
+              <td>236</td>
+              <td>33</td>
+              <td>269</td>
+            </tr>
+            <tr>
+              <th>Umma</th>
+              <td>0</td>
+              <td>0</td>
+              <td>0 </td>
+              <td>90</td>
+              <td>308</td>
+              <td>398</td>
+            </tr>
+            <tr>
+              <th>Uqair</th>
+              <td>0</td>
+              <td>0</td>
+              <td>0 </td>
+              <td>39</td>
+              <td>3</td>
+              <td>42</td>
+            </tr>
+            <tr>
+              <th>Misc</th>
+              <td>29</td>
+              <td>16</td>
+              <td>45 </td>
+              <td>369</td>
+              <td>286</td>
+              <td>655</td>
+            </tr>
+            <tr>
+              <th>total</th>
+              <td>1220</td>
+              <td>615</td>
+              <td>1835 </td>
+              <td>2309 </td>
+              <td>2152</td>
+              <td>4461</td>
+            </tr>
+          </tbody>
+        </table>
+        <esp:sh>PC25 Corpus</esp:sh>
+        <p>About 1/3 of the PCSL corpus is available only in
+      transliteration or photograph and has not yet been subjected to
+      the rigorous assessment of a scholarly edition. These texts are
+      removed to create a subcorpus of well-studied text to serve as
+      the basis for the initial (and largest) phase of encoding of
+      Proto-Cuneiform.</p>
+        <p>The subsetting is based on the CDLI catalogue entries as of
+      February 2025.  It is possible that features of the CDLI data
+      may mean that a few texts that should have been omitted are
+      included in the PC25 corpus and vice versa. The impact of this
+      on the final repertoire is neglible, however, because of the
+      cross-checking between corpus and published sign lists.</p>
+        <p>PC25's subset of the PCSL corpus has the following
+      composition divided by provenience, period, and
+      published/unpublished status:</p>
+        <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+          <thead>
+            <tr>
+              <th/>
+              <th>IV/pub</th>
+              <th>IV/unp</th>
+              <th>IV/all</th>
+              <th>III/pub</th>
+              <th>III/unp</th>
+              <th>III/all</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Uruk</th>
+              <td>1191</td>
+              <td>88</td>
+              <td>1279 </td>
+              <td>1574</td>
+              <td>399</td>
+              <td>1973</td>
+            </tr>
+            <tr>
+              <th>JN</th>
+              <td>0</td>
+              <td>0</td>
+              <td>0 </td>
+              <td>236</td>
+              <td>1</td>
+              <td>237</td>
+            </tr>
+            <tr>
+              <th>Umma</th>
+              <td>0</td>
+              <td>0</td>
+              <td>0 </td>
+              <td>90</td>
+              <td>3</td>
+              <td>93</td>
+            </tr>
+            <tr>
+              <th>Uqair</th>
+              <td>0</td>
+              <td>0</td>
+              <td>0 </td>
+              <td>39</td>
+              <td>3</td>
+              <td>42</td>
+            </tr>
+            <tr>
+              <th>Misc</th>
+              <td>29</td>
+              <td>4</td>
+              <td>33 </td>
+              <td>365</td>
+              <td>222</td>
+              <td>587</td>
+            </tr>
+            <tr>
+              <th>total</th>
+              <td>1220</td>
+              <td>615</td>
+              <td>1312 </td>
+              <td>2304 </td>
+              <td>2152</td>
+              <td>2932</td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    </html>
+  </esp:page>
+  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="../m/signs.xml">
+    <esp:name>Graphemes</esp:name>
+    <esp:title>Graphemes</esp:title>
+    <html>
+      <head/>
+      <body>
+        <esp:sh>Grapheme Distribution</esp:sh>
+        <p>A general impression of the amount of graphemic data in the
+      various subcorpora is given in the table below.  In each case,
+      the numbers are the count of distinct signs and the total number
+      of instances of signs, with numerical signs and ideograms being
+      given in separate rows.</p>
+        <esp:ssh>PCSL Corpus Grapheme Distribution</esp:ssh>
+        <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+          <thead>
+            <tr>
+              <th/>
+              <th>IV/pub</th>
+              <th>IV/unp</th>
+              <th>IV/all</th>
+              <th>III/pub</th>
+              <th>III/unp</th>
+              <th>III/all</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Uruk/num</th>
+              <td>140/4523</td>
+              <td>121/2291</td>
+              <td>177/6814 </td>
+              <td>173/9542</td>
+              <td>133/5048</td>
+              <td>197/14590</td>
+            </tr>
+            <tr>
+              <th>Uruk/idg</th>
+              <td>760/5651</td>
+              <td>498/2419</td>
+              <td>918/8070 </td>
+              <td>865/14470</td>
+              <td>757/11313</td>
+              <td>1081/25783</td>
+            </tr>
+            <tr>
+              <th>JN/num</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>137/2523</td>
+              <td>5/7</td>
+              <td>138/2530</td>
+            </tr>
+            <tr>
+              <th>JN/idg</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>399/3786</td>
+              <td>4/4</td>
+              <td>399/3790</td>
+            </tr>
+            <tr>
+              <th>Umma/num</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>116/1483</td>
+              <td>147/3967</td>
+              <td>167/5450</td>
+            </tr>
+            <tr>
+              <th>Umma/idg</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>314/1759</td>
+              <td>548/7515</td>
+              <td>632/9274</td>
+            </tr>
+            <tr>
+              <th>Uqair/num</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>49/436</td>
+              <td>8/8</td>
+              <td>50/444</td>
+            </tr>
+            <tr>
+              <th>Uqair/idg</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>224/887</td>
+              <td>10/16</td>
+              <td>226/903</td>
+            </tr>
+            <tr>
+              <th>Misc/num</th>
+              <td>27/60</td>
+              <td>9/17</td>
+              <td>31/77 </td>
+              <td>135/2640</td>
+              <td>143/3338</td>
+              <td>169/5978</td>
+            </tr>
+            <tr>
+              <th>Misc/idg</th>
+              <td>41/62</td>
+              <td>25/34</td>
+              <td>59/96 </td>
+              <td>485/4098</td>
+              <td>526/4940</td>
+              <td>705/9038</td>
+            </tr>
+            <tr>
+              <th>total</th>
+              <td>143/4583</td>
+              <td>122/2308</td>
+              <td>178/6891 </td>
+              <td>219/16624 </td>
+              <td>208/12368</td>
+              <td>256/28992</td>
+            </tr>
+            <tr>
+              <th>total</th>
+              <td>765/5713</td>
+              <td>503/2453</td>
+              <td>927/8166 </td>
+              <td>1094/25000 </td>
+              <td>1067/23788</td>
+              <td>1450/48788</td>
+            </tr>
+          </tbody>
+        </table>
+        <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
+        <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+          <thead>
+            <tr>
+              <th/>
+              <th>IV/pub</th>
+              <th>IV/unp</th>
+              <th>IV/all</th>
+              <th>III/pub</th>
+              <th>III/unp</th>
+              <th>III/all</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Uruk/num</th>
+              <td>140/4523</td>
+              <td>82/655</td>
+              <td>159/5178 </td>
+              <td>173/9542</td>
+              <td>103/2167</td>
+              <td>188/11709</td>
+            </tr>
+            <tr>
+              <th>Uruk/idg</th>
+              <td>760/5651</td>
+              <td>238/736</td>
+              <td>819/6387 </td>
+              <td>865/14470</td>
+              <td>562/4842</td>
+              <td>993/19312</td>
+            </tr>
+            <tr>
+              <th>JN/num</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>137/2523</td>
+              <td>5/7</td>
+              <td>138/2530</td>
+            </tr>
+            <tr>
+              <th>JN/idg</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>399/3786</td>
+              <td>4/4</td>
+              <td>399/3790</td>
+            </tr>
+            <tr>
+              <th>Umma/num</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>116/1483</td>
+              <td>37/82</td>
+              <td>121/1565</td>
+            </tr>
+            <tr>
+              <th>Umma/idg</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>314/1759</td>
+              <td>99/246</td>
+              <td>337/2005</td>
+            </tr>
+            <tr>
+              <th>Uqair/num</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>49/436</td>
+              <td>8/8</td>
+              <td>50/444</td>
+            </tr>
+            <tr>
+              <th>Uqair/idg</th>
+              <td>0/0</td>
+              <td>0/0</td>
+              <td>0/0 </td>
+              <td>224/887</td>
+              <td>10/16</td>
+              <td>226/903</td>
+            </tr>
+            <tr>
+              <th>Misc/num</th>
+              <td>27/60</td>
+              <td>8/10</td>
+              <td>31/70 </td>
+              <td>134/2630</td>
+              <td>141/2631</td>
+              <td>168/5261</td>
+            </tr>
+            <tr>
+              <th>Misc/idg</th>
+              <td>41/62</td>
+              <td>7/8</td>
+              <td>44/70 </td>
+              <td>480/4060</td>
+              <td>417/3597</td>
+              <td>626/7657</td>
+            </tr>
+            <tr>
+              <th>total</th>
+              <td>143/4583</td>
+              <td>84/665</td>
+              <td>161/5248 </td>
+              <td>219/16614 </td>
+              <td>174/4895</td>
+              <td>242/21509</td>
+            </tr>
+            <tr>
+              <th>total</th>
+              <td>765/5713</td>
+              <td>240/744</td>
+              <td>824/6457 </td>
+              <td>1090/24962 </td>
+              <td>708/8705</td>
+              <td>1247/33667</td>
+            </tr>
+          </tbody>
+        </table>
+        <!--
+	  
+      <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
+
+      <p>Simple counts of the entire graphemic repertoire of the Uruk
+      IV/III corpus are <esp:link page="csltab">provided in this
+      table</esp:link>.</p>
+ 
+      -->
+      </body>
+    </html>
+  </esp:page>
+  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0" xml:base="../m/lists.xml">
+    <esp:name>Sign Lists</esp:name>
+    <esp:title>Sign Lists</esp:title>
+    <html>
+      <head/>
+      <body>
+        <p>Prior PC proposals were centred on CDLI-gh, treating it as
+      the definitive assemblage of PC signs at the same time as
+      recognizing several important considerations: CDLI-gh is not
+      100% complete with respect to the PC rcorpus; includes some
+      signs from ED duplicates of PC lexical texts; and includes a
+      handful of signs which are either duplicates or are apparently
+      place-holders from ongoing work on the Schoyen Umma texts that
+      was never completed.</p>
+        <p>The published sign list of Uruk Lexical Texts from ATU3
+      (LLATU) was also utilized as a partial control on
+      CDLI-gh. However, three additional lists in a similar format to
+      the LLATU lists were not used in prior proposals, leading to an
+      inadequate understanding of previously published scholarship on
+      the PC repertoire.  Together with LLATU these three previously
+      unutilized lists provide a comprehensive new presentation of the
+      material covered in ZATU and need to be included as part of the
+      foundational data of the PC proposal.</p>
+        <p>The four lists and their coverage are:</p>
+        <dl>
+          <dt>LLATU</dt>
+          <dd>Lexical lists from Uruk, but with some extraneous signs or
+	forms from ED duplicates, replacing ZATU's coverage of lexical
+	lists</dd>
+          <dt>ATU5</dt>
+          <dd>Administrative texts from Uruk, replacing ATU1 signlist and ZATU</dd>
+          <dt>MSVO1</dt>
+          <dd>Administative texts from Jemdet Nasr, replacing PI and ZATU</dd>
+          <dt>MVSVO4</dt>
+          <dd>Administrative texs from various proveniences, replacing ZATU</dd>
+        </dl>
+        <p>The sign lists are based on exhaustive scholarly
+      reassessments of individual portions of the PC corpus and make
+      extensive use of the contrastive notations with subscript
+      letters+numbers, e.g., <code>AB<sub>a</sub></code> and
+      <code>AB<sub>b</sub></code>.  At the same time, these lists
+      gather non-contrastive sign variants under their respective
+      parent signs and this is taken into account in PC25.</p>
+        <p>The four modern sign lists are an invaluable complement to
+      CDLI-gh because they represent the carefully considered subset
+      of signs which were vetted for publication whereas CDLI-gh is a
+      working collection of signs.  These sign lists make it clear
+      that the unmarked variants in CDLI-gh are non-contrastive
+      variants as opposed to the contrastive variants marked with
+      subscript letter+number sequences.</p>
+        <!-- ALSO ENGLUND'S SIGN-NAME-IS-SIMPLY-MNEMONIC QUOTE -->
+        <p>Importantly, Englund is explicit in the introduction that the
+      reference forms of the signs ("graphemes" in Englund's
+      terminology) are only exemplary forms:</p>
+        <blockquote>After each sign name a grapheme is presented which
+      represents the general form of the sign on the tablets
+      cited. This graphic must be understood as merely an orientation
+      in understanding the form a particular sign could take, since in
+      particular the texts from the earliest stage of writing exhibit,
+      to varying degrees, a tolerance of graphemic variation.  (ATU5
+      p.107)</blockquote>
+        <esp:sh>Sign Lists and Concordances</esp:sh>
+        <p>Several tables covering the different levels of sign list
+      used in PCSL are <esp:link page="mepcsloverview">on the sign list overview page.</esp:link>.</p>
+      </body>
+    </html>
+  </esp:page>
+  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0" xml:base="../m/pepc.xml">
+    <esp:name>Principles</esp:name>
+    <esp:title>Revised Principles for Encoding Proto-Cuneiform</esp:title>
+    <html>
+      <head/>
+      <body>
+        <p>This page reviews some of the previous assumptions and
+      challenges surrounding a PC encoding and lays out a revised set
+      of principles on which the PC25 repertoire is based.</p>
+        <esp:h>Background</esp:h>
+        <esp:sh>Issues with Sign Lists</esp:sh>
+        <ul>
+          <li>Proposals so far based on lists, especially CDLI-gh and
+	assume list entries are primary source of Unicode
+	characters</li>
+          <li>Sign Lists offer one perspective on a repertoire</li>
+          <li>Can't assume that every sign list entry should be encoded</li>
+          <li>Sign forms are abstractions; two-dimensional sketches of a
+	three-dimensional writing system which tend to offer typical
+	forms</li>
+          <li>Sign Lists do not define the use of signs in a corpus</li>
+          <li>Sign Lists do not necessarily capture the full range of
+	glyph-variation for any individual character; just because a
+	sign doesn't have unmarked variants in CDLI-gh doesn't mean
+	such variants don't exist (Uruk IV EZEN~c)</li>
+        </ul>
+        <esp:sh>Constrastive Usage</esp:sh>
+        <ul>
+          <li>Prior assumption that we cannot identify any
+	contrastive/non-contrastive distinctions is not valid</li>
+          <li>Historical dimension--Uruk IV and Uruk III forms of same sign
+	(sometimes not a clear distinction)</li>
+          <li>Lexical Data -- Uruk IV vs Uruk III manuscripts</li>
+          <li>Context -- commodity lists and lexical texts suggest
+  	contrastive usage when they have distinct entries for
+  	otherwise similar-looking signs</li>
+          <li>Transliteration Practice:
+	<ul><li>CDLI-tc can be used as a control on CDLI-gh: if CDLI-tc
+  	  does not differentiate variants this is an indicator that
+  	  the variation is non-contrastive</li><li>SAG example -- CDLI-gh unmarked variants -- SAG has
+  	  three forms but they are not differentially labelled in
+  	  CDLI-gh because non-contrastive</li><li>ŠU₂ example ŠU₂: ŠU₂~a and ŠU₂~b marked in sign lists
+  	  but not in transliteration because non-contrastive</li><li>KUŠU₂ example--each of the variants has instances in CDLI-tc</li><!--<li>BU~a+KI example: do not encode when the disposition
+     	      of the sign is ad hoc not structural</li>--></ul>
+	</li>
+        </ul>
+        <esp:sh>Compounds</esp:sh>
+        <p>CDLI-tc and CDLI-gh do not always differentiate compound
+      constituents to the same extent as the independent versions of
+      the constituents.  For example, KAR₂ is separated as KAR₂~a and
+      KAR₂~b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
+      the only notations that occur are |DARA₃~c×KAR₂| and
+      |DARA₃~d×KAR₂|.  Where it is clear which version of a
+      compound-constituent is present in the compound, the compound
+      notation should be revised to be specific.  Where it is not
+      clear, the compound notation should be left as is, following the
+      CDLI perspective on contrastive/non-contrastive; it may be that
+      variants are considered contrastive when used independently but
+      non-contrastive when used as part of a compound.</p>
+        <esp:sh>Sequences</esp:sh>
+        <ul>
+          <li>Most sequences are collections of components</li>
+          <li>Some sequences are opaque, i.e., the CDLI-tc/CDLI-gh sign
+	name hides the fact that the sign is a sequence (e.g., ENGIZ,
+	ŠAB)</li>
+          <li>Several classes of sequences with possibly different handling:
+
+	<ul><li>Some sequences are reanalysis of originally integral
+	  sign forms [esp city names]</li><li>Animal-ages are indicated by N(N57) followed by signs
+   	  which in some cases are known to be animals and in others
+   	  may be assumed to be based on this usage</li><li>Time measures where years are indicated as N(N57)+U₄,
+  	  months as U₄×N(N14|N08), and days as N(N08) following an U₄
+  	  notation</li></ul>
+	</li>
+          <li>Ordering and placement of sequence components is highly
+	variable and non-contrastive; relative positioning of elements
+	in a sequence occurs because the distribution of signs in
+	cases is not linear and is not an integral part of the
+	structure of the sequence, e.g., |GA~a.ZATU753|.  The
+	arrangement illustrated in CDLI-gh can be effected via
+	ligatures but does not need to be part of the encoding</li>
+        </ul>
+        <esp:h>PC25 Principles</esp:h>
+        <ul>
+          <li>shift the basis of the encoding onto the PC corpus and
+ 	usage, and use the corpus as a control on the lists; use
+ 	the published lists and corpus as a control on CDLI-gh</li>
+          <li>align names with CDLI-tc/CDLI-gh as much as possible, with
+	some exceptions where required to correct names or to improve
+	consistency of naming scheme; if in doubt, retain CDLI
+	names</li>
+          <li>take contrastive usage into account to the extent
+   	supported by contemporary scholarship</li>
+          <li>do not introduce finer-grained allograph notations than
+	CDLI-tc/CDLI-gh is using.  The decisions made in the corpus
+	about whether sign variants are contrastive or not are made
+	not only on the basis of form but also context of various
+	kinds; specialists in the corpus should decide if further
+	division is needed in the future</li>
+          <li>allograph notations are by default assumed to be
+	contrastive but there are exceptions, e.g., ŠURUPPAK~a/b/c;
+	evaluate the treatment of ŠE~a and ŠE~a@t (90 vs 45 degrees)</li>
+          <li>do not assume that every sign list entry should be encoded
+   	as a character</li>
+          <li>consider distribution of components when encoding X×Y
+	versus X.Y or even Y.X; sometimes, especially for rare signs,
+	it is not clear whether the juxtaposition of components is
+	part of the sign structure or the distribution of individual
+	elements on the manuscript. In such cases it is preferable to
+	treat the signs as a sequence rather than a complex (e.g.,
+	|GEŠTU~a×ŠE~a@t| treated as |ŠE~a@t.GEŠTU~a| in PCSL).</li>
+          <li>do not generally encode sequences; this includes sequences
+	which are named in CDLI-gh and CDLI-tc as single characters
+	but where the naming is an interpretive mnemonic for a sign
+	group such as <code>ŠAB</code> for <code>|PA.IB|</code> and
+	the like.</li>
+          <li>do make exceptions to sequences rule for items which are:
+	<ul><li>not historically sequences but are later decomposed, i.e., city
+	  names and possibly others</li><li>semantically integral and more convenient to
+	  encode as characters, i.e., N(N57)+U₄ year notations</li></ul></li>
+          <li>do not require a minimum number of occurrences for
+	encoding: the corpus consists of mostly fragmentary
+	manuscripts over 5000 years old--if a sign clearly exists and
+	meets the other principles for encoding, it should be
+	encoded</li>
+          <li>do not encode signs which occur only in compounds</li>
+          <li>do not encode uncertain signs, especially those from
+	unedited texts such as the Schoyen Umma material</li>
+          <li>do not encode broken signs; reserve them for the PUA</li>
+        </ul>
+        <esp:sh>Advantages of the Revised Approach</esp:sh>
+        <ul>
+          <li>encoding better aligned with transliteration practice</li>
+          <li>additional glyph variants can be added without impacting
+	the encoding; encoding every glyph variant would open PC to
+	arbitrary open-ended encoding of slight differences with
+	little basis for distinguishing when a variant should be
+	encoded and when not: adopting the position that scholarly
+	annotation of glyph variance as contrastive is required for
+	encoding would set reasonable boundaries on what can be
+	encoded and what should not be</li>
+          <li>new sequences can be added without impacting the
+ 	encoding; especially important for potentially productive
+ 	types N57+ANIMAL and U₄+DAY</li>
+        </ul>
+        <esp:sh>Mitigations of Issues with Revised Approach</esp:sh>
+        <ul>
+          <li>variant forms can be managed with font features</li>
+          <li>disunifications possible when further research indicates
+   	them</li>
+          <li>unifications possible if some separately encoded
+	characters are later proved to be non-contrastive</li>
+        </ul>
+        <esp:sh>Reference Glyphs</esp:sh>
+        <p>The introduction of 1:several relationships where an
+      encoded character has multiple variants entails the need for a
+      principled selection of reference glyphs.</p>
+        <p>In order to have some level of consistency it would be
+      preferable to select either Uruk IV glyphs or Uruk III glyphs
+      as the primary choice of reference glyphs.  Because the corpus
+      is predominantly Uruk III in date it makes sense to use Uruk
+      III reference glyphs as far as possible.</p>
+        <p>PC25 reference glyphs are aligned where possible with Uruk
+      III sign forms occurring in published texts originating from
+      Uruk or Jemdet Nasr. The selection of the reference glyph is not
+      necessarily an indication that the other sign forms in EASL do
+      not occur in the same period or place.  It means simply that the
+      reference glyph has been confirmed to occur, where possible, in
+      Uruk III Uruk/Jemdet Nasr.</p>
+        <p>For sequences with multiple forms, the reference form is
+      always the simplest/closest to the sequence description, as long
+      as that form occurs in the corpus.  This means that by default
+      the sign looks the way it is described, and ligatures,
+      reorderings, or non-linear dispositions are always accessed by
+      CVNN.</p>
+        <p>Important to understand that the selection of an RG does not
+      imply that the form is normative--the corpus is restricted and
+      sign form variation is considerable which means that the concept
+      of a normative form is often inapplicable to any given sign.</p>
+      </body>
+    </html>
+  </esp:page>
+</x>

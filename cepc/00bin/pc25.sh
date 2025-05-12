@@ -20,4 +20,4 @@ atfsplit.plx -cat -list pc25/use.lst 00atf/pcsl.atf \
 # These lines build the pc25 catalogue as well
 #
 head -1 00cat/pcsl.tsv >pc25/pc25.tsv
-grep -f use.lst 00cat/pcsl.tsv >>pc25/pc25.tsv
+grep -f pc25/use.lst 00cat/pcsl.tsv >>pc25/pc25.tsv

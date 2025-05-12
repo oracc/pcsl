@@ -1,0 +1,6 @@
+<x xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="../m/texts.xml"/>
+  <xi:include href="../m/signs.xml"/>
+  <xi:include href="../m/lists.xml"/>
+  <xi:include href="../m/pepc.xml"/>
+</x>

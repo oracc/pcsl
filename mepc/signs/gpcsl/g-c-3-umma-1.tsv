@@ -4508,7 +4508,7 @@ o0900207..	s	BULUG₃--	BULUG₃
 o0901501..	s	NI~a--	NI~a
 o0900175..	s	BU~a--	BU~a
 o0901946..	s	ŠE~a--	ŠE~a
-o0900242..	c	|DARA₃~d×KAR₂~b|--	|DARA₃~d×KAR₂|
+o0900243..	c	|DARA₃~d×KAR₂~b|--	|DARA₃~d×KAR₂|
 o0902859..	n	2(N01)--	2(N01)
 o0901994..	s	ŠIM~a--	ŠIM~a
 o0901376..	s	MAŠ--	MAŠ
@@ -7174,7 +7174,7 @@ o0902004..	s	ŠITA~a1--	ŠITA~a1
 o0901392..	s	MU--	MU
 o0902142..	s	TUR--	TUR
 o0901671..	s	RU--	RU
-o0901529..	c	|NINDA₂×GUDU₄|--	|NINDA₂×GUDU₄|
+o0901533..	c	|NINDA₂×(HI.AN.ME~a)|--	|NINDA₂×(HI.AN.ME~a)|
 o0901592..	s	NUN~a--	NUN~a
 o0902860..	n	3(N01)--	3(N01)
 o0900175..	s	BU~a--	BU~a
@@ -13622,7 +13622,7 @@ o0901946..	s	ŠE~a--	ŠE~a
 o0903368..	s	X--	X
 o0901468..	s	NAM₂--	NAM₂
 o0902976..	n	5(N19)--	5(N19)
-o0903662..	n	1(N30CA)--	1(N30C~a)
+o0903562..	n	1(N30CA)--	1(N30C~a)
 o0902973..	n	2(N19)--	2(N19)
 o0902884..	n	1(N04)--	1(N04)
 o0902975..	n	4(N19)--	4(N19)

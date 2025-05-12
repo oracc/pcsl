@@ -116,13 +116,14 @@ sub chartpage {
 	    my $c = $pi + ($k * 16);
 	    my $h = sprintf("%X",$c);
 	    print X "<td><div class=\"vbox\">";
-	    printf X "<div><span class=\"cc-chr\" title=\"$uname{$h}\">%s</span></div>", chr($c);
+	    my $uname = $uname{$h} || 'NO UNAME';
+	    printf X "<div><span class=\"cc-chr\" title=\"$uname\">%s</span></div>", chr($c);
 	    print X "<div><span class=\"cc-uni\">$h</span></div>";
 	    print X "</div></td>";
 	    printf "\t%s=%X" , chr($c), $c;
 	    ++$i;
 	    last if $i > $ito;
-	}	
+	}
 	print "\n";
 	print X '</tr>';
 	++$pi;
