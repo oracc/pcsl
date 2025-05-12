@@ -332,7 +332,7 @@ sub load_seq {
 }
 
 sub load_unames {
-    my @un = `cut -f3 00etc/pcsl-final.tsv | gdlx -p pcsl -U`;
+    my @un = `cut -f3 00etc/pcsl-final.tsv | gdlx -p pcsl -U | sed 's/BESIDE/WITH/' | sed 's/BESIDE/AND/'`;
     open(U,'>00etc/unames.tsv'); print U @un; close(U);
     chomp @un;
     foreach (@un) {
