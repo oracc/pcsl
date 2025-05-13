@@ -1,0 +1,9 @@
+\tocentry 1:t:9:\char \appendixno ,;
+{PCSL Table} 
+\endtocentry 
+\tocentry 1:t:166:\char \appendixno ,;
+{PC25 Code Charts} 
+\endtocentry 
+\tocentry 1:t:173:\char \appendixno ,;
+{PC25 Character List} 
+\endtocentry 

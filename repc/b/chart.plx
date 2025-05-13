@@ -81,7 +81,7 @@ EOF
 sub chartlist {
     my @c = `cat repc.tsv`; chomp @c;
     open(L,'>w/chartlist.html') || die; select L;
-    print '<table class="codechart-list">';
+    print '<table xmlns="http://www.w3.org/1999/xhtml" class="codechart-list">';
     print '<thead><tr><th>Code</th><th>Char</th><th>Name</th></tr></thead>';
     foreach (@c) {
 	my($o,$h,$c,$n,$u) = split(/\t/,$_);

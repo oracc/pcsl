@@ -1,4 +1,605 @@
+\macrofile{html2tex}
+\macrofile{pc25mac}
+\ten\rm
+
 \Hh\title{}Materials for Encoding Proto-Cuneiform
+
+
+\par The PC text Corpus is defined by the CDLI corpus of
+      Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
+      for use by PCSL: we call this \code{{}CDLI-tc}; note that
+      CDLI-tc is used here only in the PCSL version of the
+      corpus. This version has some minor modifications to the
+      transliteration and has been converted to use Unicode
+      transliteration conventions rather than the CDLI ASCII ones.
+
+
+\par There are 5976 texts in the corpus of which 1752 are
+      attributed to Uruk IV and 4224, or roughly 75⁒ of the corpus, to
+      the subsequent Uruk III period.
+
+\Hhh{}The Digital Corpus
+
+
+\par The digital corpus includes the contents of the following major publications:
+
+\Hul\Hli{}Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)
+
+\Hli{}Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
+	these supercede ATU1
+
+\Hli{}Jemdet Nasr (Uruk III) tablets from MSVO1; these supercede
+	Langdon, PI
+
+\Hli{}Tablets from various locations from MSVO4; this includes
+	non-Uruk tablets which were included in ATU1
+
+\Hli{}Tablets in private collections from various locations in
+	CUSAS1, CUSAS21, and CUSAS31; these post-date the ATU and MSVO
+	volumes
+
+\Hli{}Tablets from the "Erlenmeyer Collection"; these were to be
+	published in MSVO3 which has not yet appeared; many of them
+	have been edited by Englund and others in various
+	publications, however
+
+\Hendul
+\Hhh{}PCSL Corpus
+
+
+\par PCSL's version of CDLI-tc has the following composition
+      divided by provenience, period, and published/unpublished
+      status:
+
+\bigskip
+\centerline{\vbox{\offinterlineskip\tabskip0pt
+\halign{%
+\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$%
+&\tvrule#\tabskip0pt\cr\tablerule
+{}\thead{}&{}\thead{}IV/pub&{}\thead{}IV/unp&{}\thead{}IV/all&{}\thead{}III/pub&{}\thead{}III/unp&{}\thead{}III/all&\cr\theadrule
+{}{}\thead{}Uruk&{}1191&{}599&{}1790 &{}1575&{}1522&{}3097&\cr\tablerule
+{}{}\thead{}JN&{}0&{}0&{}0 &{}236&{}33&{}269&\cr\tablerule
+{}{}\thead{}Umma&{}0&{}0&{}0 &{}90&{}308&{}398&\cr\tablerule
+{}{}\thead{}Uqair&{}0&{}0&{}0 &{}39&{}3&{}42&\cr\tablerule
+{}{}\thead{}Misc&{}29&{}16&{}45 &{}369&{}286&{}655&\cr\tablerule
+{}{}\thead{}total&{}1220&{}615&{}1835 &{}2309 &{}2152&{}4461&\cr\tablerule
+\tbodybreak}
+}}\Hhh{}PC25 Corpus
+
+
+\par About 1/3 of the PCSL corpus is available only in
+      transliteration or photograph and has not yet been subjected to
+      the rigorous assessment of a scholarly edition. These texts are
+      removed to create a subcorpus of well-studied text to serve as
+      the basis for the initial (and largest) phase of encoding of
+      Proto-Cuneiform.
+
+
+\par The subsetting is based on the CDLI catalogue entries as of
+      February 2025.  It is possible that features of the CDLI data
+      may mean that a few texts that should have been omitted are
+      included in the PC25 corpus and vice versa. The impact of this
+      on the final repertoire is neglible, however, because of the
+      cross-checking between corpus and published sign lists.
+
+
+\par PC25's subset of the PCSL corpus has the following
+      composition divided by provenience, period, and
+      published/unpublished status:
+
+\bigskip
+\centerline{\vbox{\offinterlineskip\tabskip0pt
+\halign{%
+\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$%
+&\tvrule#\tabskip0pt\cr\tablerule
+{}\thead{}&{}\thead{}IV/pub&{}\thead{}IV/unp&{}\thead{}IV/all&{}\thead{}III/pub&{}\thead{}III/unp&{}\thead{}III/all&\cr\theadrule
+{}{}\thead{}Uruk&{}1191&{}88&{}1279 &{}1574&{}399&{}1973&\cr\tablerule
+{}{}\thead{}JN&{}0&{}0&{}0 &{}236&{}1&{}237&\cr\tablerule
+{}{}\thead{}Umma&{}0&{}0&{}0 &{}90&{}3&{}93&\cr\tablerule
+{}{}\thead{}Uqair&{}0&{}0&{}0 &{}39&{}3&{}42&\cr\tablerule
+{}{}\thead{}Misc&{}29&{}4&{}33 &{}365&{}222&{}587&\cr\tablerule
+{}{}\thead{}total&{}1220&{}615&{}1312 &{}2304 &{}2152&{}2932&\cr\tablerule
+\tbodybreak}
+}}\Hhh{}Grapheme Distribution
+
+
+\par A general impression of the amount of graphemic data in the
+      various subcorpora is given in the table below.  In each case,
+      the numbers are the count of distinct signs and the total number
+      of instances of signs, with numerical signs and ideograms being
+      given in separate rows.
+
+\Hhhh{}PCSL Corpus Grapheme Distribution
+
+\bigskip
+\centerline{\vbox{\offinterlineskip\tabskip0pt
+\halign{%
+\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$%
+&\tvrule#\tabskip0pt\cr\tablerule
+{}\thead{}&{}\thead{}IV/pub&{}\thead{}IV/unp&{}\thead{}IV/all&{}\thead{}III/pub&{}\thead{}III/unp&{}\thead{}III/all&\cr\theadrule
+{}{}\thead{}Uruk/num&{}140/4523&{}121/2291&{}177/6814 &{}173/9542&{}133/5048&{}197/14590&\cr\tablerule
+{}{}\thead{}Uruk/idg&{}760/5651&{}498/2419&{}918/8070 &{}865/14470&{}757/11313&{}1081/25783&\cr\tablerule
+{}{}\thead{}JN/num&{}0/0&{}0/0&{}0/0 &{}137/2523&{}5/7&{}138/2530&\cr\tablerule
+{}{}\thead{}JN/idg&{}0/0&{}0/0&{}0/0 &{}399/3786&{}4/4&{}399/3790&\cr\tablerule
+{}{}\thead{}Umma/num&{}0/0&{}0/0&{}0/0 &{}116/1483&{}147/3967&{}167/5450&\cr\tablerule
+{}{}\thead{}Umma/idg&{}0/0&{}0/0&{}0/0 &{}314/1759&{}548/7515&{}632/9274&\cr\tablerule
+{}{}\thead{}Uqair/num&{}0/0&{}0/0&{}0/0 &{}49/436&{}8/8&{}50/444&\cr\tablerule
+{}{}\thead{}Uqair/idg&{}0/0&{}0/0&{}0/0 &{}224/887&{}10/16&{}226/903&\cr\tablerule
+{}{}\thead{}Misc/num&{}27/60&{}9/17&{}31/77 &{}135/2640&{}143/3338&{}169/5978&\cr\tablerule
+{}{}\thead{}Misc/idg&{}41/62&{}25/34&{}59/96 &{}485/4098&{}526/4940&{}705/9038&\cr\tablerule
+{}{}\thead{}total&{}143/4583&{}122/2308&{}178/6891 &{}219/16624 &{}208/12368&{}256/28992&\cr\tablerule
+{}{}\thead{}total&{}765/5713&{}503/2453&{}927/8166 &{}1094/25000 &{}1067/23788&{}1450/48788&\cr\tablerule
+\tbodybreak}
+}}\Hhhh{}PC25 Corpus Grapheme Distribution
+
+\bigskip
+\centerline{\vbox{\offinterlineskip\tabskip0pt
+\halign{%
+\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$\hfil\quad\tabskip3pt plus1pt%
+&\Hstrut\tvrule\hskip2pt$\vcenter{\hbox{#}}$%
+&\tvrule#\tabskip0pt\cr\tablerule
+{}\thead{}&{}\thead{}IV/pub&{}\thead{}IV/unp&{}\thead{}IV/all&{}\thead{}III/pub&{}\thead{}III/unp&{}\thead{}III/all&\cr\theadrule
+{}{}\thead{}Uruk/num&{}140/4523&{}82/655&{}159/5178 &{}173/9542&{}103/2167&{}188/11709&\cr\tablerule
+{}{}\thead{}Uruk/idg&{}760/5651&{}238/736&{}819/6387 &{}865/14470&{}562/4842&{}993/19312&\cr\tablerule
+{}{}\thead{}JN/num&{}0/0&{}0/0&{}0/0 &{}137/2523&{}5/7&{}138/2530&\cr\tablerule
+{}{}\thead{}JN/idg&{}0/0&{}0/0&{}0/0 &{}399/3786&{}4/4&{}399/3790&\cr\tablerule
+{}{}\thead{}Umma/num&{}0/0&{}0/0&{}0/0 &{}116/1483&{}37/82&{}121/1565&\cr\tablerule
+{}{}\thead{}Umma/idg&{}0/0&{}0/0&{}0/0 &{}314/1759&{}99/246&{}337/2005&\cr\tablerule
+{}{}\thead{}Uqair/num&{}0/0&{}0/0&{}0/0 &{}49/436&{}8/8&{}50/444&\cr\tablerule
+{}{}\thead{}Uqair/idg&{}0/0&{}0/0&{}0/0 &{}224/887&{}10/16&{}226/903&\cr\tablerule
+{}{}\thead{}Misc/num&{}27/60&{}8/10&{}31/70 &{}134/2630&{}141/2631&{}168/5261&\cr\tablerule
+{}{}\thead{}Misc/idg&{}41/62&{}7/8&{}44/70 &{}480/4060&{}417/3597&{}626/7657&\cr\tablerule
+{}{}\thead{}total&{}143/4583&{}84/665&{}161/5248 &{}219/16614 &{}174/4895&{}242/21509&\cr\tablerule
+{}{}\thead{}total&{}765/5713&{}240/744&{}824/6457 &{}1090/24962 &{}708/8705&{}1247/33667&\cr\tablerule
+\tbodybreak}
+}}
+\par Prior PC proposals were centred on CDLI-gh, treating it as
+      the definitive assemblage of PC signs at the same time as
+      recognizing several important considerations: CDLI-gh is not
+      100⁒ complete with respect to the PC rcorpus; includes some
+      signs from ED duplicates of PC lexical texts; and includes a
+      handful of signs which are either duplicates or are apparently
+      place-holders from ongoing work on the Schoyen Umma texts that
+      was never completed.
+
+
+\par The published sign list of Uruk Lexical Texts from ATU3
+      (LLATU) was also utilized as a partial control on
+      CDLI-gh. However, three additional lists in a similar format to
+      the LLATU lists were not used in prior proposals, leading to an
+      inadequate understanding of previously published scholarship on
+      the PC repertoire.  Together with LLATU these three previously
+      unutilized lists provide a comprehensive new presentation of the
+      material covered in ZATU and need to be included as part of the
+      foundational data of the PC proposal.
+
+
+\par The four lists and their coverage are:
+
+\Hdl\Hdt{}LLATU
+
+{}Lexical lists from Uruk, but with some extraneous signs or
+	forms from ED duplicates, replacing ZATU's coverage of lexical
+	lists
+
+\Hdt{}ATU5
+
+{}Administrative texts from Uruk, replacing ATU1 signlist and ZATU
+
+\Hdt{}MSVO1
+
+{}Administative texts from Jemdet Nasr, replacing PI and ZATU
+
+\Hdt{}MVSVO4
+
+{}Administrative texs from various proveniences, replacing ZATU
+
+\Henddl
+
+\par The sign lists are based on exhaustive scholarly
+      reassessments of individual portions of the PC corpus and make
+      extensive use of the contrastive notations with subscript
+      letters+numbers, e.g., \code{{}AB\Hsub{a}} and
+      \code{{}AB\Hsub{b}}.  At the same time, these lists
+      gather non-contrastive sign variants under their respective
+      parent signs and this is taken into account in PC25.
+
+
+\par The four modern sign lists are an invaluable complement to
+      CDLI-gh because they represent the carefully considered subset
+      of signs which were vetted for publication whereas CDLI-gh is a
+      working collection of signs.  These sign lists make it clear
+      that the unmarked variants in CDLI-gh are non-contrastive
+      variants as opposed to the contrastive variants marked with
+      subscript letter+number sequences.
+
+
+\par Importantly, Englund is explicit in the introduction that the
+      reference forms of the signs ("graphemes" in Englund's
+      terminology) are only exemplary forms:
+
+\begin{quote}After each sign name a grapheme is presented which
+      represents the general form of the sign on the tablets
+      cited. This graphic must be understood as merely an orientation
+      in understanding the form a particular sign could take, since in
+      particular the texts from the earliest stage of writing exhibit,
+      to varying degrees, a tolerance of graphemic variation.  (ATU5
+      p.107)
+\end{quote}
+\Hhh{}Sign Lists and Concordances
+
+
+\par Several tables covering the different levels of sign list
+      used in PCSL are on the sign list overview page..
+
+
+\par This page reviews some of the previous assumptions and
+      challenges surrounding a PC encoding and lays out a revised set
+      of principles on which the PC25 repertoire is based.
+
+\Hh{}Background
+
+\Hhh{}Issues with Sign Lists
+
+\Hul\Hli{}Proposals so far based on lists, especially CDLI-gh and
+	assume list entries are primary source of Unicode
+	characters
+
+\Hli{}Sign Lists offer one perspective on a repertoire
+
+\Hli{}Can't assume that every sign list entry should be encoded
+
+\Hli{}Sign forms are abstractions; two-dimensional sketches of a
+	three-dimensional writing system which tend to offer typical
+	forms
+
+\Hli{}Sign Lists do not define the use of signs in a corpus
+
+\Hli{}Sign Lists do not necessarily capture the full range of
+	glyph-variation for any individual character; just because a
+	sign doesn't have unmarked variants in CDLI-gh doesn't mean
+	such variants don't exist (Uruk IV EZEN∼c)
+
+\Hendul
+\Hhh{}Constrastive Usage
+
+\Hul\Hli{}Prior assumption that we cannot identify any
+	contrastive/non-contrastive distinctions is not valid
+
+\Hli{}Historical dimension--Uruk IV and Uruk III forms of same sign
+	(sometimes not a clear distinction)
+
+\Hli{}Lexical Data -- Uruk IV vs Uruk III manuscripts
+
+\Hli{}Context -- commodity lists and lexical texts suggest
+  	contrastive usage when they have distinct entries for
+  	otherwise similar-looking signs
+
+\Hli{}Transliteration Practice:
+	\Hul\Hli{}CDLI-tc can be used as a control on CDLI-gh: if CDLI-tc
+  	  does not differentiate variants this is an indicator that
+  	  the variation is non-contrastive
+
+\Hli{}SAG example -- CDLI-gh unmarked variants -- SAG has
+  	  three forms but they are not differentially labelled in
+  	  CDLI-gh because non-contrastive
+
+\Hli{}ŠU₂ example ŠU₂: ŠU₂∼a and ŠU₂∼b marked in sign lists
+  	  but not in transliteration because non-contrastive
+
+\Hli{}KUŠU₂ example--each of the variants has instances in CDLI-tc
+
+\Hendul
+
+
+\Hendul
+\Hhh{}Compounds
+
+
+\par CDLI-tc and CDLI-gh do not always differentiate compound
+      constituents to the same extent as the independent versions of
+      the constituents.  For example, KAR₂ is separated as KAR₂∼a and
+      KAR₂∼b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
+      the only notations that occur are |DARA₃∼c×KAR₂| and
+      |DARA₃∼d×KAR₂|.  Where it is clear which version of a
+      compound-constituent is present in the compound, the compound
+      notation should be revised to be specific.  Where it is not
+      clear, the compound notation should be left as is, following the
+      CDLI perspective on contrastive/non-contrastive; it may be that
+      variants are considered contrastive when used independently but
+      non-contrastive when used as part of a compound.
+
+\Hhh{}Sequences
+
+\Hul\Hli{}Most sequences are collections of components
+
+\Hli{}Some sequences are opaque, i.e., the CDLI-tc/CDLI-gh sign
+	name hides the fact that the sign is a sequence (e.g., ENGIZ,
+	ŠAB)
+
+\Hli{}Several classes of sequences with possibly different handling:
+
+	\Hul\Hli{}Some sequences are reanalysis of originally integral
+	  sign forms [esp city names]
+
+\Hli{}Animal-ages are indicated by N(N57) followed by signs
+   	  which in some cases are known to be animals and in others
+   	  may be assumed to be based on this usage
+
+\Hli{}Time measures where years are indicated as N(N57)+U₄,
+  	  months as U₄×N(N14|N08), and days as N(N08) following an U₄
+  	  notation
+
+\Hendul
+
+
+\Hli{}Ordering and placement of sequence components is highly
+	variable and non-contrastive; relative positioning of elements
+	in a sequence occurs because the distribution of signs in
+	cases is not linear and is not an integral part of the
+	structure of the sequence, e.g., |GA∼a.ZATU753|.  The
+	arrangement illustrated in CDLI-gh can be effected via
+	ligatures but does not need to be part of the encoding
+
+\Hendul
+\Hh{}PC25 Principles
+
+\Hul\Hli{}shift the basis of the encoding onto the PC corpus and
+ 	usage, and use the corpus as a control on the lists; use
+ 	the published lists and corpus as a control on CDLI-gh
+
+\Hli{}align names with CDLI-tc/CDLI-gh as much as possible, with
+	some exceptions where required to correct names or to improve
+	consistency of naming scheme; if in doubt, retain CDLI
+	names
+
+\Hli{}take contrastive usage into account to the extent
+   	supported by contemporary scholarship
+
+\Hli{}do not introduce finer-grained allograph notations than
+	CDLI-tc/CDLI-gh is using.  The decisions made in the corpus
+	about whether sign variants are contrastive or not are made
+	not only on the basis of form but also context of various
+	kinds; specialists in the corpus should decide if further
+	division is needed in the future
+
+\Hli{}allograph notations are by default assumed to be
+	contrastive but there are exceptions, e.g., ŠURUPPAK∼a/b/c;
+	evaluate the treatment of ŠE∼a and ŠE∼a@t (90 vs 45 degrees)
+
+\Hli{}do not assume that every sign list entry should be encoded
+   	as a character
+
+\Hli{}consider distribution of components when encoding X×Y
+	versus X.Y or even Y.X; sometimes, especially for rare signs,
+	it is not clear whether the juxtaposition of components is
+	part of the sign structure or the distribution of individual
+	elements on the manuscript. In such cases it is preferable to
+	treat the signs as a sequence rather than a complex (e.g.,
+	|GEŠTU∼a×ŠE∼a@t| treated as |ŠE∼a@t.GEŠTU∼a| in PCSL).
+
+\Hli{}do not generally encode sequences; this includes sequences
+	which are named in CDLI-gh and CDLI-tc as single characters
+	but where the naming is an interpretive mnemonic for a sign
+	group such as \code{{}ŠAB} for \code{{}|PA.IB|} and
+	the like.
+
+\Hli{}do make exceptions to sequences rule for items which are:
+	\Hul\Hli{}not historically sequences but are later decomposed, i.e., city
+	  names and possibly others
+
+\Hli{}semantically integral and more convenient to
+	  encode as characters, i.e., N(N57)+U₄ year notations
+
+\Hendul
+
+
+\Hli{}do not require a minimum number of occurrences for
+	encoding: the corpus consists of mostly fragmentary
+	manuscripts over 5000 years old--if a sign clearly exists and
+	meets the other principles for encoding, it should be
+	encoded
+
+\Hli{}do not encode signs which occur only in compounds
+
+\Hli{}do not encode uncertain signs, especially those from
+	unedited texts such as the Schoyen Umma material
+
+\Hli{}do not encode broken signs; reserve them for the PUA
+
+\Hendul
+\Hhh{}Advantages of the Revised Approach
+
+\Hul\Hli{}encoding better aligned with transliteration practice
+
+\Hli{}additional glyph variants can be added without impacting
+	the encoding; encoding every glyph variant would open PC to
+	arbitrary open-ended encoding of slight differences with
+	little basis for distinguishing when a variant should be
+	encoded and when not: adopting the position that scholarly
+	annotation of glyph variance as contrastive is required for
+	encoding would set reasonable boundaries on what can be
+	encoded and what should not be
+
+\Hli{}new sequences can be added without impacting the
+ 	encoding; especially important for potentially productive
+ 	types N57+ANIMAL and U₄+DAY
+
+\Hendul
+\Hhh{}Mitigations of Issues with Revised Approach
+
+\Hul\Hli{}variant forms can be managed with font features
+
+\Hli{}disunifications possible when further research indicates
+   	them
+
+\Hli{}unifications possible if some separately encoded
+	characters are later proved to be non-contrastive
+
+\Hendul
+\Hhh{}Reference Glyphs
+
+
+\par The introduction of 1:several relationships where an
+      encoded character has multiple variants entails the need for a
+      principled selection of reference glyphs.
+
+
+\par In order to have some level of consistency it would be
+      preferable to select either Uruk IV glyphs or Uruk III glyphs
+      as the primary choice of reference glyphs.  Because the corpus
+      is predominantly Uruk III in date it makes sense to use Uruk
+      III reference glyphs as far as possible.
+
+
+\par PC25 reference glyphs are aligned where possible with Uruk
+      III sign forms occurring in published texts originating from
+      Uruk or Jemdet Nasr. The selection of the reference glyph is not
+      necessarily an indication that the other sign forms in EASL do
+      not occur in the same period or place.  It means simply that the
+      reference glyph has been confirmed to occur, where possible, in
+      Uruk III Uruk/Jemdet Nasr.
+
+
+\par For sequences with multiple forms, the reference form is
+      always the simplest/closest to the sequence description, as long
+      as that form occurs in the corpus.  This means that by default
+      the sign looks the way it is described, and ligatures,
+      reorderings, or non-linear dispositions are always accessed by
+      CVNN.
+
+
+\par Important to understand that the selection of an RG does not
+      imply that the form is normative--the corpus is restricted and
+      sign form variation is considerable which means that the concept
+      of a normative form is often inapplicable to any given sign.
+
+\Hh{}Principle and Practice
+
+
+\par In principle, sign list entries which are sequences of
+      separate signs are not encoded in PC25. In practice, there are
+      several reasons for making exceptions to this policy:
+
+\Hdl\Hdt{}Reanalysis
+
+{}Proto-Cuneiform signs that are originally integral units
+	may be reanalyzed into separate constituents. Where this is
+	demonstrably the case, the original character is encoded and
+	the reanalyzed sequence is considered a glyph variant.
+
+\Hdt{}Common Signs
+
+{}Some signs are allowed as exceptions because it would be
+	counter-intuitive not to encode them as characters.
+
+\Hdt{}Container Equivalency
+
+{}Some signs are allowed as exceptions because the
+	juxtaposition of elements is the equivalent of a container
+	(TIMES) relationship.
+
+\Hdt{}Unencoded Constituents
+
+{}Some sequences contain constituents that are otherwise
+	unattested; in this case the choice is either to encode a sign
+	which may not be attested independently, or to encode the
+	sequence.  In general the option adopted is to encode the
+	sequence as a character.
+
+\Hdt{}Analogy
+
+{}Some sequences are part of a group and would naturally be
+	considered by users of the encoding to be analogous to each
+	other. Where one or more members of a group fulfils either of
+	the previous conditions for encoding as a character, PC25
+	encodes the entire group as individual characters by analogy
+	to avoid a possibly confusing mixture of encoded and unencoded
+	group members.
+
+\Henddl
+\Hh{}List of Exceptions
+
+\Hhh{}Reanalysis
+
+
+\par Two city-name signs, ADAB and ARARMA∼a, have earlier forms
+      which are distinct from their reanalysis to include an initial
+      U₄ component.  Other city names may also have earlier integral
+      forms but without further evidence they are not proposed for
+      encoding as characters at this point.
+
+\Hhh{}Common Signs
+
+
+\par The signs LUGAL (GAL+LU) and LI (ŠE+ŠA) are encoded as
+      characters as common sign exceptions.
+
+\Hhh{}Container Equivalency
+
+
+\par The signs ASAR and AZ are the equivalent of containers.
+
+\Hhh{}Unencoded Constituents
+
+
+\par The following exception signs contain unencoded consituents:
+      ENKUM (EZEN×ŠE), ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with
+      additional strokes, unclear with this is an UŠ or not), ZUBI∼a
+      (NA₂-nutillu).
+
+\Hhh{}Analogy: BAPPIR Group
+
+
+\par The group of signs with the base BAPPIR has one member which
+      is a container (BAPPIR∼e) and the entire group is encoded by
+      analogy.
+
+\Hhh{}Analogy: ŠELU
+
+
+\par Most combinations of ŠE plus another sign are encoded as
+      characters (e.g., TU) so an exception is made for ŠELU.
+
+\Hhh{}Analogy: Sheep Group
+
+
+\par The groups of signs with the base SILANITA, UDUNITA and UTUA
+      represent various types (ages, genders) of sheep and since some
+      of them have unencoded constituents the members of all groups
+      are encoded as characters.
+
+\Hhh{}Analogy: UTUL Group
+
+
+\par The UTUL group contains one member which includes an uncoded
+      superposed reduplicated component (UTUL∼c), so the entire group
+      is encoded as characters.
+
+\appendix{PCSL Table}
 
 \bgroup\preamble{}\egroup
 \beginpcsltab
@@ -24232,6 +24833,8 @@
 }{{}\vbox{\vfil\cdligh{}{}\hbox to\cdliwd{\hss\includegraphics{propgh/o0903304.png}{1000}\hss}\vfil}%
 }{\slnoglyf}{\slnoglyf}{\slnoglyf}{\slnoglyf}{\slnoglyf}{.75}
 \endpcsltab
+\appendix{PC25 Code Charts}
+
 \bigskip
 \centerline{\codechart\vbox{\offinterlineskip\tabskip0pt
 \halign{%
@@ -29995,4 +30598,1394 @@
 \vfil}%
 &\cr\theadrule
 }
-}}
+}}\appendix{PC25 Character List}
+
+\beginchartlist
+\cclrow{12690}{𒚐}{PROTO-CUNEIFORM SIGN A}
+\cclrow{12691}{𒚑}{PROTO-CUNEIFORM SIGN A TIMES EN-A}
+\cclrow{12692}{𒚒}{PROTO-CUNEIFORM SIGN A TIMES SHUBUR}
+\cclrow{12693}{𒚓}{PROTO-CUNEIFORM SIGN A TIMES ZATU672}
+\cclrow{12694}{𒚔}{PROTO-CUNEIFORM SIGN A TIMES ONE-N14}
+\cclrow{12695}{𒚕}{PROTO-CUNEIFORM SIGN A2}
+\cclrow{12696}{𒚖}{PROTO-CUNEIFORM SIGN AB-A}
+\cclrow{12697}{𒚗}{PROTO-CUNEIFORM SIGN AB-A TIMES A TENU}
+\cclrow{12698}{𒚘}{PROTO-CUNEIFORM SIGN AB-A TIMES ASH2}
+\cclrow{12699}{𒚙}{PROTO-CUNEIFORM SIGN AB-A TIMES SHE-A OVER SHE-A}
+\cclrow{1269A}{𒚚}{PROTO-CUNEIFORM SIGN AB-A TIMES ZATU659}
+\cclrow{1269B}{𒚛}{PROTO-CUNEIFORM SIGN AB-A TIMES ONE-N4}
+\cclrow{1269C}{𒚜}{PROTO-CUNEIFORM SIGN AB-A GUNU}
+\cclrow{1269D}{𒚝}{PROTO-CUNEIFORM SIGN AB-B}
+\cclrow{1269E}{𒚞}{PROTO-CUNEIFORM SIGN AB2}
+\cclrow{1269F}{𒚟}{PROTO-CUNEIFORM SIGN AB2 TIMES TWO-N14}
+\cclrow{126A0}{𒚠}{PROTO-CUNEIFORM SIGN ABZU}
+\cclrow{126A1}{𒚡}{PROTO-CUNEIFORM SIGN AD-A}
+\cclrow{126A2}{𒚢}{PROTO-CUNEIFORM SIGN AD-B}
+\cclrow{126A3}{𒚣}{PROTO-CUNEIFORM SIGN AD-C}
+\cclrow{126A4}{𒚤}{PROTO-CUNEIFORM SIGN ADAB}
+\cclrow{126A5}{𒚥}{PROTO-CUNEIFORM SIGN ADDA}
+\cclrow{126A6}{𒚦}{PROTO-CUNEIFORM SIGN AGAR2}
+\cclrow{126A7}{𒚧}{PROTO-CUNEIFORM SIGN AK-A}
+\cclrow{126A8}{𒚨}{PROTO-CUNEIFORM SIGN AK-B}
+\cclrow{126A9}{𒚩}{PROTO-CUNEIFORM SIGN AL}
+\cclrow{126AA}{𒚪}{PROTO-CUNEIFORM SIGN ALAN-A}
+\cclrow{126AB}{𒚫}{PROTO-CUNEIFORM SIGN ALAN-B}
+\cclrow{126AC}{𒚬}{PROTO-CUNEIFORM SIGN ALAN-C}
+\cclrow{126AD}{𒚭}{PROTO-CUNEIFORM SIGN ALAN-E}
+\cclrow{126AE}{𒚮}{PROTO-CUNEIFORM SIGN ALIM}
+\cclrow{126AF}{𒚯}{PROTO-CUNEIFORM SIGN AM-A}
+\cclrow{126B0}{𒚰}{PROTO-CUNEIFORM SIGN AM-B}
+\cclrow{126B1}{𒚱}{PROTO-CUNEIFORM SIGN AMA-A}
+\cclrow{126B2}{𒚲}{PROTO-CUNEIFORM SIGN AMA-A TIMES E2-A}
+\cclrow{126B3}{𒚳}{PROTO-CUNEIFORM SIGN AMA-B}
+\cclrow{126B4}{𒚴}{PROTO-CUNEIFORM SIGN AMAR}
+\cclrow{126B5}{𒚵}{PROTO-CUNEIFORM SIGN AMAR TIMES TAR-C}
+\cclrow{126B6}{𒚶}{PROTO-CUNEIFORM SIGN AMAR OVER AMAR}
+\cclrow{126B7}{𒚷}{PROTO-CUNEIFORM SIGN AN}
+\cclrow{126B8}{𒚸}{PROTO-CUNEIFORM SIGN ANSHE-A}
+\cclrow{126B9}{𒚹}{PROTO-CUNEIFORM SIGN ANSHE-B}
+\cclrow{126BA}{𒚺}{PROTO-CUNEIFORM SIGN ANSHE-C}
+\cclrow{126BB}{𒚻}{PROTO-CUNEIFORM SIGN ANSHE-E}
+\cclrow{126BC}{𒚼}{PROTO-CUNEIFORM SIGN ANSHE-F}
+\cclrow{126BD}{𒚽}{PROTO-CUNEIFORM SIGN APIN-A}
+\cclrow{126BE}{𒚾}{PROTO-CUNEIFORM SIGN APIN-B}
+\cclrow{126BF}{𒚿}{PROTO-CUNEIFORM SIGN APIN-C}
+\cclrow{126C0}{𒛀}{PROTO-CUNEIFORM SIGN ARARMA2-A}
+\cclrow{126C1}{𒛁}{PROTO-CUNEIFORM SIGN ASAR}
+\cclrow{126C2}{𒛂}{PROTO-CUNEIFORM SIGN AZ}
+\cclrow{126C3}{𒛃}{PROTO-CUNEIFORM SIGN AZU}
+\cclrow{126C4}{𒛄}{PROTO-CUNEIFORM SIGN BA}
+\cclrow{126C5}{𒛅}{PROTO-CUNEIFORM SIGN BAD}
+\cclrow{126C6}{𒛆}{PROTO-CUNEIFORM SIGN BAD OVER BAD}
+\cclrow{126C7}{𒛇}{PROTO-CUNEIFORM SIGN BAD3-A}
+\cclrow{126C8}{𒛈}{PROTO-CUNEIFORM SIGN BAD3-B1}
+\cclrow{126C9}{𒛉}{PROTO-CUNEIFORM SIGN BAD3-B2}
+\cclrow{126CA}{𒛊}{PROTO-CUNEIFORM SIGN BAHAR2-A}
+\cclrow{126CB}{𒛋}{PROTO-CUNEIFORM SIGN BAHAR2-B}
+\cclrow{126CC}{𒛌}{PROTO-CUNEIFORM SIGN BAHAR2-C}
+\cclrow{126CD}{𒛍}{PROTO-CUNEIFORM SIGN BALA-A}
+\cclrow{126CE}{𒛎}{PROTO-CUNEIFORM SIGN BALA-B}
+\cclrow{126CF}{𒛏}{PROTO-CUNEIFORM SIGN BALAG}
+\cclrow{126D0}{𒛐}{PROTO-CUNEIFORM SIGN BAN-A}
+\cclrow{126D1}{𒛑}{PROTO-CUNEIFORM SIGN BAN-B}
+\cclrow{126D2}{𒛒}{PROTO-CUNEIFORM SIGN BANSHUR-A}
+\cclrow{126D3}{𒛓}{PROTO-CUNEIFORM SIGN BANSHUR-A TENU}
+\cclrow{126D4}{𒛔}{PROTO-CUNEIFORM SIGN BANSHUR-B1}
+\cclrow{126D5}{𒛕}{PROTO-CUNEIFORM SIGN BANSHUR-B2}
+\cclrow{126D6}{𒛖}{PROTO-CUNEIFORM SIGN BANSHUR-C}
+\cclrow{126D7}{𒛗}{PROTO-CUNEIFORM SIGN BAPPIR-A}
+\cclrow{126D8}{𒛘}{PROTO-CUNEIFORM SIGN BAPPIR-B}
+\cclrow{126D9}{𒛙}{PROTO-CUNEIFORM SIGN BAPPIR-C}
+\cclrow{126DA}{𒛚}{PROTO-CUNEIFORM SIGN BAPPIR-D}
+\cclrow{126DB}{𒛛}{PROTO-CUNEIFORM SIGN BAPPIR-E}
+\cclrow{126DC}{𒛜}{PROTO-CUNEIFORM SIGN BAPPIR-F}
+\cclrow{126DD}{𒛝}{PROTO-CUNEIFORM SIGN BAR}
+\cclrow{126DE}{𒛞}{PROTO-CUNEIFORM SIGN BARA2-A}
+\cclrow{126DF}{𒛟}{PROTO-CUNEIFORM SIGN BARA2-B}
+\cclrow{126E0}{𒛠}{PROTO-CUNEIFORM SIGN BARA3}
+\cclrow{126E1}{𒛡}{PROTO-CUNEIFORM SIGN BIR-A}
+\cclrow{126E2}{𒛢}{PROTO-CUNEIFORM SIGN BIR-B}
+\cclrow{126E3}{𒛣}{PROTO-CUNEIFORM SIGN BIR-C}
+\cclrow{126E4}{𒛤}{PROTO-CUNEIFORM SIGN BIR3-A}
+\cclrow{126E5}{𒛥}{PROTO-CUNEIFORM SIGN BIR3-B}
+\cclrow{126E6}{𒛦}{PROTO-CUNEIFORM SIGN BIR3-C}
+\cclrow{126E7}{𒛧}{PROTO-CUNEIFORM SIGN BU-A}
+\cclrow{126E8}{𒛨}{PROTO-CUNEIFORM SIGN BU-A JOINING DU6-A}
+\cclrow{126E9}{𒛩}{PROTO-CUNEIFORM SIGN BU-A JOINING KI}
+\cclrow{126EA}{𒛪}{PROTO-CUNEIFORM SIGN BU-A TIMES A}
+\cclrow{126EB}{𒛫}{PROTO-CUNEIFORM SIGN BU-A OVER BU-A WITH NA2-A}
+\cclrow{126EC}{𒛬}{PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A WITH NA2-A NUTILLU}
+\cclrow{126ED}{𒛭}{PROTO-CUNEIFORM SIGN BU-B}
+\cclrow{126EE}{𒛮}{PROTO-CUNEIFORM SIGN BU3}
+\cclrow{126EF}{𒛯}{PROTO-CUNEIFORM SIGN BULUG}
+\cclrow{126F0}{𒛰}{PROTO-CUNEIFORM SIGN BULUG3}
+\cclrow{126F1}{𒛱}{PROTO-CUNEIFORM SIGN BUR-A}
+\cclrow{126F2}{𒛲}{PROTO-CUNEIFORM SIGN BUR-B}
+\cclrow{126F3}{𒛳}{PROTO-CUNEIFORM SIGN BUR-C}
+\cclrow{126F4}{𒛴}{PROTO-CUNEIFORM SIGN BUR-D}
+\cclrow{126F5}{𒛵}{PROTO-CUNEIFORM SIGN BUR2}
+\cclrow{126F6}{𒛶}{PROTO-CUNEIFORM SIGN DA-A}
+\cclrow{126F7}{𒛷}{PROTO-CUNEIFORM SIGN DA-B}
+\cclrow{126F8}{𒛸}{PROTO-CUNEIFORM SIGN DA-C}
+\cclrow{126F9}{𒛹}{PROTO-CUNEIFORM SIGN DA-D}
+\cclrow{126FA}{𒛺}{PROTO-CUNEIFORM SIGN DAH}
+\cclrow{126FB}{𒛻}{PROTO-CUNEIFORM SIGN DAM}
+\cclrow{126FC}{𒛼}{PROTO-CUNEIFORM SIGN DANNA}
+\cclrow{126FD}{𒛽}{PROTO-CUNEIFORM SIGN DAR-A}
+\cclrow{126FE}{𒛾}{PROTO-CUNEIFORM SIGN DAR-A TIMES A}
+\cclrow{126FF}{𒛿}{PROTO-CUNEIFORM SIGN DAR-B}
+\cclrow{12700}{𒜀}{PROTO-CUNEIFORM SIGN DAR-C}
+\cclrow{12701}{𒜁}{PROTO-CUNEIFORM SIGN DARA3-A}
+\cclrow{12702}{𒜂}{PROTO-CUNEIFORM SIGN DARA3-B}
+\cclrow{12703}{𒜃}{PROTO-CUNEIFORM SIGN DARA3-C}
+\cclrow{12704}{𒜄}{PROTO-CUNEIFORM SIGN DARA3-C TIMES KAR2}
+\cclrow{12705}{𒜅}{PROTO-CUNEIFORM SIGN DARA3-C TIMES KAR2 PLUS SHE-A}
+\cclrow{12706}{𒜆}{PROTO-CUNEIFORM SIGN DARA3-D}
+\cclrow{12707}{𒜇}{PROTO-CUNEIFORM SIGN DARA3-D TIMES KAR2 PLUS SHE-A}
+\cclrow{12708}{𒜈}{PROTO-CUNEIFORM SIGN DARA4-A1}
+\cclrow{12709}{𒜉}{PROTO-CUNEIFORM SIGN DARA4-A2}
+\cclrow{1270A}{𒜊}{PROTO-CUNEIFORM SIGN DARA4-A3}
+\cclrow{1270B}{𒜋}{PROTO-CUNEIFORM SIGN DARA4-B}
+\cclrow{1270C}{𒜌}{PROTO-CUNEIFORM SIGN DARA4-C}
+\cclrow{1270D}{𒜍}{PROTO-CUNEIFORM SIGN DARA4-C1}
+\cclrow{1270E}{𒜎}{PROTO-CUNEIFORM SIGN DARA4-C2}
+\cclrow{1270F}{𒜏}{PROTO-CUNEIFORM SIGN DARA4-C3}
+\cclrow{12710}{𒜐}{PROTO-CUNEIFORM SIGN DARA4-C4}
+\cclrow{12711}{𒜑}{PROTO-CUNEIFORM SIGN DARA4-C5}
+\cclrow{12712}{𒜒}{PROTO-CUNEIFORM SIGN DARA4-D}
+\cclrow{12713}{𒜓}{PROTO-CUNEIFORM SIGN DI}
+\cclrow{12714}{𒜔}{PROTO-CUNEIFORM SIGN DI TENU}
+\cclrow{12715}{𒜕}{PROTO-CUNEIFORM SIGN DIB}
+\cclrow{12716}{𒜖}{PROTO-CUNEIFORM SIGN DILMUN}
+\cclrow{12717}{𒜗}{PROTO-CUNEIFORM SIGN DIM-A}
+\cclrow{12718}{𒜘}{PROTO-CUNEIFORM SIGN DIM-B}
+\cclrow{12719}{𒜙}{PROTO-CUNEIFORM SIGN DIM-C}
+\cclrow{1271A}{𒜚}{PROTO-CUNEIFORM SIGN DIN}
+\cclrow{1271B}{𒜛}{PROTO-CUNEIFORM SIGN DIN TIMES ONE-N58}
+\cclrow{1271C}{𒜜}{PROTO-CUNEIFORM SIGN DIN TENU}
+\cclrow{1271D}{𒜝}{PROTO-CUNEIFORM SIGN DU}
+\cclrow{1271E}{𒜞}{PROTO-CUNEIFORM SIGN DU TIMES ONE-N58 TENU}
+\cclrow{1271F}{𒜟}{PROTO-CUNEIFORM SIGN DU GUNU}
+\cclrow{12720}{𒜠}{PROTO-CUNEIFORM SIGN DU6-A}
+\cclrow{12721}{𒜡}{PROTO-CUNEIFORM SIGN DU6-A TIMES ONE-N58}
+\cclrow{12722}{𒜢}{PROTO-CUNEIFORM SIGN DU6-B}
+\cclrow{12723}{𒜣}{PROTO-CUNEIFORM SIGN DU6-C}
+\cclrow{12724}{𒜤}{PROTO-CUNEIFORM SIGN DU7}
+\cclrow{12725}{𒜥}{PROTO-CUNEIFORM SIGN DU8-A}
+\cclrow{12726}{𒜦}{PROTO-CUNEIFORM SIGN DU8-B}
+\cclrow{12727}{𒜧}{PROTO-CUNEIFORM SIGN DU8-C}
+\cclrow{12728}{𒜨}{PROTO-CUNEIFORM SIGN DU8-C TIMES AB2}
+\cclrow{12729}{𒜩}{PROTO-CUNEIFORM SIGN DU8-C TIMES AMAR}
+\cclrow{1272A}{𒜪}{PROTO-CUNEIFORM SIGN DU8-C TIMES HI}
+\cclrow{1272B}{𒜫}{PROTO-CUNEIFORM SIGN DU8-C TIMES UDU-A}
+\cclrow{1272C}{𒜬}{PROTO-CUNEIFORM SIGN DU8-C GUNU}
+\cclrow{1272D}{𒜭}{PROTO-CUNEIFORM SIGN DUB-A}
+\cclrow{1272E}{𒜮}{PROTO-CUNEIFORM SIGN DUB-B}
+\cclrow{1272F}{𒜯}{PROTO-CUNEIFORM SIGN DUB-C}
+\cclrow{12730}{𒜰}{PROTO-CUNEIFORM SIGN DUB-D}
+\cclrow{12731}{𒜱}{PROTO-CUNEIFORM SIGN DUB-E}
+\cclrow{12732}{𒜲}{PROTO-CUNEIFORM SIGN DUB-F}
+\cclrow{12733}{𒜳}{PROTO-CUNEIFORM SIGN DUB-H}
+\cclrow{12734}{𒜴}{PROTO-CUNEIFORM SIGN DUB NUTILLU-A TIMES ONE-N58 FORM A}
+\cclrow{12735}{𒜵}{PROTO-CUNEIFORM SIGN DUB NUTILLU-A TIMES ONE-N58 FORM B}
+\cclrow{12736}{𒜶}{PROTO-CUNEIFORM SIGN DUB NUTILLU-B TIMES ONE-N58-A}
+\cclrow{12737}{𒜷}{PROTO-CUNEIFORM SIGN DUB2}
+\cclrow{12738}{𒜸}{PROTO-CUNEIFORM SIGN DUG-A}
+\cclrow{12739}{𒜹}{PROTO-CUNEIFORM SIGN DUG-A TIMES KU6-A}
+\cclrow{1273A}{𒜺}{PROTO-CUNEIFORM SIGN DUG-A TIMES NAGA-A}
+\cclrow{1273B}{𒜻}{PROTO-CUNEIFORM SIGN DUG-A TIMES U2-A}
+\cclrow{1273C}{𒜼}{PROTO-CUNEIFORM SIGN DUG-A TIMES U2-B}
+\cclrow{1273D}{𒜽}{PROTO-CUNEIFORM SIGN DUG-A TIMES ONE-N57}
+\cclrow{1273E}{𒜾}{PROTO-CUNEIFORM SIGN DUG-B}
+\cclrow{1273F}{𒜿}{PROTO-CUNEIFORM SIGN DUG-B TIMES AB2}
+\cclrow{12740}{𒝀}{PROTO-CUNEIFORM SIGN DUG-B TIMES ANSHE-B}
+\cclrow{12741}{𒝁}{PROTO-CUNEIFORM SIGN DUG-B TIMES ANSHE-D}
+\cclrow{12742}{𒝂}{PROTO-CUNEIFORM SIGN DUG-B TIMES BALA-A}
+\cclrow{12743}{𒝃}{PROTO-CUNEIFORM SIGN DUG-B TIMES BIR3-C}
+\cclrow{12744}{𒝄}{PROTO-CUNEIFORM SIGN DUG-B TIMES DIN}
+\cclrow{12745}{𒝅}{PROTO-CUNEIFORM SIGN DUG-B TIMES DIN REVERSED}
+\cclrow{12746}{𒝆}{PROTO-CUNEIFORM SIGN DUG-B TIMES GA-A}
+\cclrow{12747}{𒝇}{PROTO-CUNEIFORM SIGN DUG-B TIMES GA-B}
+\cclrow{12748}{𒝈}{PROTO-CUNEIFORM SIGN DUG-B TIMES GESHTU-A}
+\cclrow{12749}{𒝉}{PROTO-CUNEIFORM SIGN DUG-B TIMES GESHTU-B}
+\cclrow{1274A}{𒝊}{PROTO-CUNEIFORM SIGN DUG-B TIMES GI6}
+\cclrow{1274B}{𒝋}{PROTO-CUNEIFORM SIGN DUG-B TIMES GISH}
+\cclrow{1274C}{𒝌}{PROTO-CUNEIFORM SIGN DUG-B TIMES HI}
+\cclrow{1274D}{𒝍}{PROTO-CUNEIFORM SIGN DUG-B TIMES HI GUNU-A}
+\cclrow{1274E}{𒝎}{PROTO-CUNEIFORM SIGN DUG-B TIMES KASKAL}
+\cclrow{1274F}{𒝏}{PROTO-CUNEIFORM SIGN DUG-B TIMES KU6-A}
+\cclrow{12750}{𒝐}{PROTO-CUNEIFORM SIGN DUG-B TIMES KUR-A}
+\cclrow{12751}{𒝑}{PROTO-CUNEIFORM SIGN DUG-B TIMES KUR-B}
+\cclrow{12752}{𒝒}{PROTO-CUNEIFORM SIGN DUG-B TIMES KUR GUNU-A}
+\cclrow{12753}{𒝓}{PROTO-CUNEIFORM SIGN DUG-B TIMES LAM-A}
+\cclrow{12754}{𒝔}{PROTO-CUNEIFORM SIGN DUG-B TIMES MASH}
+\cclrow{12755}{𒝕}{PROTO-CUNEIFORM SIGN DUG-B TIMES NAGA-A}
+\cclrow{12756}{𒝖}{PROTO-CUNEIFORM SIGN DUG-B TIMES NAM2}
+\cclrow{12757}{𒝗}{PROTO-CUNEIFORM SIGN DUG-B TIMES SA-A}
+\cclrow{12758}{𒝘}{PROTO-CUNEIFORM SIGN DUG-B TIMES SA-A PLUS GI}
+\cclrow{12759}{𒝙}{PROTO-CUNEIFORM SIGN DUG-B TIMES SI4-A}
+\cclrow{1275A}{𒝚}{PROTO-CUNEIFORM SIGN DUG-B TIMES SIG2-A1}
+\cclrow{1275B}{𒝛}{PROTO-CUNEIFORM SIGN DUG-B TIMES SIG2-A2}
+\cclrow{1275C}{𒝜}{PROTO-CUNEIFORM SIGN DUG-B TIMES SIG7}
+\cclrow{1275D}{𒝝}{PROTO-CUNEIFORM SIGN DUG-B TIMES SUHUR}
+\cclrow{1275E}{𒝞}{PROTO-CUNEIFORM SIGN DUG-B TIMES SHAH2-A}
+\cclrow{1275F}{𒝟}{PROTO-CUNEIFORM SIGN DUG-B TIMES SHE-A}
+\cclrow{12760}{𒝠}{PROTO-CUNEIFORM SIGN DUG-B TIMES SHE-A PLUS NAM2}
+\cclrow{12761}{𒝡}{PROTO-CUNEIFORM SIGN DUG-B TIMES TAK4-A}
+\cclrow{12762}{𒝢}{PROTO-CUNEIFORM SIGN DUG-B TIMES TAK4-A PLUS SA-A}
+\cclrow{12763}{𒝣}{PROTO-CUNEIFORM SIGN DUG-B TIMES TAK4-A PLUS SAL}
+\cclrow{12764}{𒝤}{PROTO-CUNEIFORM SIGN DUG-B TIMES TI}
+\cclrow{12765}{𒝥}{PROTO-CUNEIFORM SIGN DUG-B TIMES U2-A}
+\cclrow{12766}{𒝦}{PROTO-CUNEIFORM SIGN DUG-B TIMES U2-B}
+\cclrow{12767}{𒝧}{PROTO-CUNEIFORM SIGN DUG-B TIMES UDU-A TIMES TAR-B}
+\cclrow{12768}{𒝨}{PROTO-CUNEIFORM SIGN DUG-B TIMES UH3-A}
+\cclrow{12769}{𒝩}{PROTO-CUNEIFORM SIGN DUG-B TIMES UH3-A TENU}
+\cclrow{1276A}{𒝪}{PROTO-CUNEIFORM SIGN DUG-B TIMES ZATU764}
+\cclrow{1276B}{𒝫}{PROTO-CUNEIFORM SIGN DUG-B TIMES ZATU779}
+\cclrow{1276C}{𒝬}{PROTO-CUNEIFORM SIGN DUG-B TIMES ZATU780}
+\cclrow{1276D}{𒝭}{PROTO-CUNEIFORM SIGN DUG-B TIMES ZATU781}
+\cclrow{1276E}{𒝮}{PROTO-CUNEIFORM SIGN DUG-B TIMES ZATU789 PLUS SA-A}
+\cclrow{1276F}{𒝯}{PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N57}
+\cclrow{12770}{𒝰}{PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N57 PLUS KU3-A}
+\cclrow{12771}{𒝱}{PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N58}
+\cclrow{12772}{𒝲}{PROTO-CUNEIFORM SIGN DUG-B OVER DUG-B TIMES ONE-N58}
+\cclrow{12773}{𒝳}{PROTO-CUNEIFORM SIGN DUG-C}
+\cclrow{12774}{𒝴}{PROTO-CUNEIFORM SIGN DUG-C TIMES ONE-N57}
+\cclrow{12775}{𒝵}{PROTO-CUNEIFORM SIGN DUG-C TENU}
+\cclrow{12776}{𒝶}{PROTO-CUNEIFORM SIGN DUG-D}
+\cclrow{12777}{𒝷}{PROTO-CUNEIFORM SIGN DUGUD}
+\cclrow{12778}{𒝸}{PROTO-CUNEIFORM SIGN DUR-A}
+\cclrow{12779}{𒝹}{PROTO-CUNEIFORM SIGN DUR-B}
+\cclrow{1277A}{𒝺}{PROTO-CUNEIFORM SIGN DUR2}
+\cclrow{1277B}{𒝻}{PROTO-CUNEIFORM SIGN E-A}
+\cclrow{1277C}{𒝼}{PROTO-CUNEIFORM SIGN E-B}
+\cclrow{1277D}{𒝽}{PROTO-CUNEIFORM SIGN E-C}
+\cclrow{1277E}{𒝾}{PROTO-CUNEIFORM SIGN E2-A}
+\cclrow{1277F}{𒝿}{PROTO-CUNEIFORM SIGN E2-A TIMES ONE-N58 TENU}
+\cclrow{12780}{𒞀}{PROTO-CUNEIFORM SIGN E2-B}
+\cclrow{12781}{𒞁}{PROTO-CUNEIFORM SIGN E2-B TIMES ONE-N58 TENU}
+\cclrow{12782}{𒞂}{PROTO-CUNEIFORM SIGN E2-C}
+\cclrow{12783}{𒞃}{PROTO-CUNEIFORM SIGN E2-D}
+\cclrow{12784}{𒞄}{PROTO-CUNEIFORM SIGN E3-B}
+\cclrow{12785}{𒞅}{PROTO-CUNEIFORM SIGN EDIN}
+\cclrow{12786}{𒞆}{PROTO-CUNEIFORM SIGN EN-A}
+\cclrow{12787}{𒞇}{PROTO-CUNEIFORM SIGN EN-B}
+\cclrow{12788}{𒞈}{PROTO-CUNEIFORM SIGN EN-B TENU}
+\cclrow{12789}{𒞉}{PROTO-CUNEIFORM SIGN EN-C}
+\cclrow{1278A}{𒞊}{PROTO-CUNEIFORM SIGN EN GUNU-A}
+\cclrow{1278B}{𒞋}{PROTO-CUNEIFORM SIGN EN GUNU-B}
+\cclrow{1278C}{𒞌}{PROTO-CUNEIFORM SIGN EN2}
+\cclrow{1278D}{𒞍}{PROTO-CUNEIFORM SIGN ERIM-A}
+\cclrow{1278E}{𒞎}{PROTO-CUNEIFORM SIGN ERIM-B1}
+\cclrow{1278F}{𒞏}{PROTO-CUNEIFORM SIGN ERIM-B2}
+\cclrow{12790}{𒞐}{PROTO-CUNEIFORM SIGN ERIN}
+\cclrow{12791}{𒞑}{PROTO-CUNEIFORM SIGN ESHDA}
+\cclrow{12792}{𒞒}{PROTO-CUNEIFORM SIGN ESHDA TIMES TAR-A}
+\cclrow{12793}{𒞓}{PROTO-CUNEIFORM SIGN ESHGAR}
+\cclrow{12794}{𒞔}{PROTO-CUNEIFORM SIGN EZEN-A}
+\cclrow{12795}{𒞕}{PROTO-CUNEIFORM SIGN EZEN-A TIMES EN-B}
+\cclrow{12796}{𒞖}{PROTO-CUNEIFORM SIGN EZEN-A TIMES HI TIMES ONE-N57 PLUS AN}
+\cclrow{12797}{𒞗}{PROTO-CUNEIFORM SIGN EZEN-A TIMES KAB}
+\cclrow{12798}{𒞘}{PROTO-CUNEIFORM SIGN EZEN-A TIMES KASH-B}
+\cclrow{12799}{𒞙}{PROTO-CUNEIFORM SIGN EZEN-A TIMES KI}
+\cclrow{1279A}{𒞚}{PROTO-CUNEIFORM SIGN EZEN-A TIMES NIM-B2}
+\cclrow{1279B}{𒞛}{PROTO-CUNEIFORM SIGN EZEN-A TIMES NIMGIR}
+\cclrow{1279C}{𒞜}{PROTO-CUNEIFORM SIGN EZEN-A TIMES RAD-A}
+\cclrow{1279D}{𒞝}{PROTO-CUNEIFORM SIGN EZEN-A TIMES SU-A}
+\cclrow{1279E}{𒞞}{PROTO-CUNEIFORM SIGN EZEN-A TIMES U2-B PLUS A}
+\cclrow{1279F}{𒞟}{PROTO-CUNEIFORM SIGN EZEN-A TIMES U4}
+\cclrow{127A0}{𒞠}{PROTO-CUNEIFORM SIGN EZEN-B}
+\cclrow{127A1}{𒞡}{PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57}
+\cclrow{127A2}{𒞢}{PROTO-CUNEIFORM SIGN EZINU-A}
+\cclrow{127A3}{𒞣}{PROTO-CUNEIFORM SIGN EZINU-B}
+\cclrow{127A4}{𒞤}{PROTO-CUNEIFORM SIGN EZINU-C}
+\cclrow{127A5}{𒞥}{PROTO-CUNEIFORM SIGN EZINU-D}
+\cclrow{127A6}{𒞦}{PROTO-CUNEIFORM SIGN GA-A}
+\cclrow{127A7}{𒞧}{PROTO-CUNEIFORM SIGN GA-B}
+\cclrow{127A8}{𒞨}{PROTO-CUNEIFORM SIGN GA-C}
+\cclrow{127A9}{𒞩}{PROTO-CUNEIFORM SIGN GA-C TIMES KASKAL}
+\cclrow{127AA}{𒞪}{PROTO-CUNEIFORM SIGN GA-C TIMES ONE-N14}
+\cclrow{127AB}{𒞫}{PROTO-CUNEIFORM SIGN GA2-A1}
+\cclrow{127AC}{𒞬}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES A}
+\cclrow{127AD}{𒞭}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES E2-A}
+\cclrow{127AE}{𒞮}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES EN-B}
+\cclrow{127AF}{𒞯}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES GESHTU-A}
+\cclrow{127B0}{𒞰}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES GESHTU-C3}
+\cclrow{127B1}{𒞱}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES GESHTU-C5}
+\cclrow{127B2}{𒞲}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES GIR-A}
+\cclrow{127B3}{𒞳}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES GIR-A PLUS KU6-A}
+\cclrow{127B4}{𒞴}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES GISH TENU}
+\cclrow{127B5}{𒞵}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES HAL}
+\cclrow{127B6}{𒞶}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES HI}
+\cclrow{127B7}{𒞷}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES KU3-A}
+\cclrow{127B8}{𒞸}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES KU6-A}
+\cclrow{127B9}{𒞹}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES KU6-A PLUS KU6-A}
+\cclrow{127BA}{𒞺}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES LAGAB-B}
+\cclrow{127BB}{𒞻}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES MASH}
+\cclrow{127BC}{𒞼}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES PAD-B}
+\cclrow{127BD}{𒞽}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES PAP-A}
+\cclrow{127BE}{𒞾}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES SU-A}
+\cclrow{127BF}{𒞿}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUHUR}
+\cclrow{127C0}{𒟀}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUKUD}
+\cclrow{127C1}{𒟁}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES SUMASH}
+\cclrow{127C2}{𒟂}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES SHA}
+\cclrow{127C3}{𒟃}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES TI}
+\cclrow{127C4}{𒟄}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES U4}
+\cclrow{127C5}{𒟅}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES ONE-N14}
+\cclrow{127C6}{𒟆}{PROTO-CUNEIFORM SIGN GA2-A1 TIMES ONE-N57}
+\cclrow{127C7}{𒟇}{PROTO-CUNEIFORM SIGN GA2-A2}
+\cclrow{127C8}{𒟈}{PROTO-CUNEIFORM SIGN GA2-A2 TIMES GU4}
+\cclrow{127C9}{𒟉}{PROTO-CUNEIFORM SIGN GA2-A2 TIMES NI-A}
+\cclrow{127CA}{𒟊}{PROTO-CUNEIFORM SIGN GA2-A2 TIMES SUHUR}
+\cclrow{127CB}{𒟋}{PROTO-CUNEIFORM SIGN GA2-A2 TIMES SHE3}
+\cclrow{127CC}{𒟌}{PROTO-CUNEIFORM SIGN GA2-A2 TIMES SHE3 PLUS GU4}
+\cclrow{127CD}{𒟍}{PROTO-CUNEIFORM SIGN GA2-A3}
+\cclrow{127CE}{𒟎}{PROTO-CUNEIFORM SIGN GA2-A4}
+\cclrow{127CF}{𒟏}{PROTO-CUNEIFORM SIGN GA2-B}
+\cclrow{127D0}{𒟐}{PROTO-CUNEIFORM SIGN GA2-B TIMES DUB-A}
+\cclrow{127D1}{𒟑}{PROTO-CUNEIFORM SIGN GA2-B TIMES DUB-B}
+\cclrow{127D2}{𒟒}{PROTO-CUNEIFORM SIGN GA2-B TIMES KU6-A}
+\cclrow{127D3}{𒟓}{PROTO-CUNEIFORM SIGN GA2-B TIMES ZATU659}
+\cclrow{127D4}{𒟔}{PROTO-CUNEIFORM SIGN GA2-C}
+\cclrow{127D5}{𒟕}{PROTO-CUNEIFORM SIGN GAAR-A1}
+\cclrow{127D6}{𒟖}{PROTO-CUNEIFORM SIGN GAAR-A2}
+\cclrow{127D7}{𒟗}{PROTO-CUNEIFORM SIGN GAAR-B1}
+\cclrow{127D8}{𒟘}{PROTO-CUNEIFORM SIGN GAAR-B2}
+\cclrow{127D9}{𒟙}{PROTO-CUNEIFORM SIGN GADA-A}
+\cclrow{127DA}{𒟚}{PROTO-CUNEIFORM SIGN GADA-B GUNU}
+\cclrow{127DB}{𒟛}{PROTO-CUNEIFORM SIGN GAL-A}
+\cclrow{127DC}{𒟜}{PROTO-CUNEIFORM SIGN GAL-B}
+\cclrow{127DD}{𒟝}{PROTO-CUNEIFORM SIGN GALGA-A}
+\cclrow{127DE}{𒟞}{PROTO-CUNEIFORM SIGN GAN-A}
+\cclrow{127DF}{𒟟}{PROTO-CUNEIFORM SIGN GAN-B}
+\cclrow{127E0}{𒟠}{PROTO-CUNEIFORM SIGN GAN-C}
+\cclrow{127E1}{𒟡}{PROTO-CUNEIFORM SIGN GAN-C TIMES DIN}
+\cclrow{127E2}{𒟢}{PROTO-CUNEIFORM SIGN GAN-C TIMES HI}
+\cclrow{127E3}{𒟣}{PROTO-CUNEIFORM SIGN GAN-C TIMES HI PLUS DIN}
+\cclrow{127E4}{𒟤}{PROTO-CUNEIFORM SIGN GAN-C TIMES KASH-C}
+\cclrow{127E5}{𒟥}{PROTO-CUNEIFORM SIGN GAN-C TIMES KUR-A PLUS A}
+\cclrow{127E6}{𒟦}{PROTO-CUNEIFORM SIGN GAN-C TIMES LAGAB-B}
+\cclrow{127E7}{𒟧}{PROTO-CUNEIFORM SIGN GAN-C TIMES SIG7}
+\cclrow{127E8}{𒟨}{PROTO-CUNEIFORM SIGN GAN-C TIMES ZATU777}
+\cclrow{127E9}{𒟩}{PROTO-CUNEIFORM SIGN GAN-C TIMES FOUR-N57 PLUS GAR}
+\cclrow{127EA}{𒟪}{PROTO-CUNEIFORM SIGN GAN-D TIMES GESHTU-A}
+\cclrow{127EB}{𒟫}{PROTO-CUNEIFORM SIGN GAN2}
+\cclrow{127EC}{𒟬}{PROTO-CUNEIFORM SIGN GAR}
+\cclrow{127ED}{𒟭}{PROTO-CUNEIFORM SIGN GAR GUNU-A}
+\cclrow{127EE}{𒟮}{PROTO-CUNEIFORM SIGN GAR GUNU-B}
+\cclrow{127EF}{𒟯}{PROTO-CUNEIFORM SIGN GAR GUNU-C}
+\cclrow{127F0}{𒟰}{PROTO-CUNEIFORM SIGN GAR3}
+\cclrow{127F1}{𒟱}{PROTO-CUNEIFORM SIGN GARA2-A}
+\cclrow{127F2}{𒟲}{PROTO-CUNEIFORM SIGN GAZI}
+\cclrow{127F3}{𒟳}{PROTO-CUNEIFORM SIGN GESHTIN-A}
+\cclrow{127F4}{𒟴}{PROTO-CUNEIFORM SIGN GESHTIN-D}
+\cclrow{127F5}{𒟵}{PROTO-CUNEIFORM SIGN GESHTIN-E}
+\cclrow{127F6}{𒟶}{PROTO-CUNEIFORM SIGN GESHTU-A}
+\cclrow{127F7}{𒟷}{PROTO-CUNEIFORM SIGN GESHTU-B}
+\cclrow{127F8}{𒟸}{PROTO-CUNEIFORM SIGN GESHTU-C3}
+\cclrow{127F9}{𒟹}{PROTO-CUNEIFORM SIGN GESHTU-C5}
+\cclrow{127FA}{𒟺}{PROTO-CUNEIFORM SIGN GI}
+\cclrow{127FB}{𒟻}{PROTO-CUNEIFORM SIGN GI TIMES A}
+\cclrow{127FC}{𒟼}{PROTO-CUNEIFORM SIGN GI TIMES GISH TENU}
+\cclrow{127FD}{𒟽}{PROTO-CUNEIFORM SIGN GI TIMES KU-B1}
+\cclrow{127FE}{𒟾}{PROTO-CUNEIFORM SIGN GI TIMES LAGAB-A}
+\cclrow{127FF}{𒟿}{PROTO-CUNEIFORM SIGN GI TIMES NAM2}
+\cclrow{12800}{𒠀}{PROTO-CUNEIFORM SIGN GI TIMES SIG2-D1}
+\cclrow{12801}{𒠁}{PROTO-CUNEIFORM SIGN GI TIMES SHE3}
+\cclrow{12802}{𒠂}{PROTO-CUNEIFORM SIGN GI TIMES ONE-N14}
+\cclrow{12803}{𒠃}{PROTO-CUNEIFORM SIGN GI TIMES ONE-N58 TENU}
+\cclrow{12804}{𒠄}{PROTO-CUNEIFORM SIGN GI OVER GI}
+\cclrow{12805}{𒠅}{PROTO-CUNEIFORM SIGN GI OVER GI TIMES GISH TENU}
+\cclrow{12806}{𒠆}{PROTO-CUNEIFORM SIGN GI OVER GI OVER GI}
+\cclrow{12807}{𒠇}{PROTO-CUNEIFORM SIGN GI TENU}
+\cclrow{12808}{𒠈}{PROTO-CUNEIFORM SIGN GI4-A}
+\cclrow{12809}{𒠉}{PROTO-CUNEIFORM SIGN GI4-A TIMES A}
+\cclrow{1280A}{𒠊}{PROTO-CUNEIFORM SIGN GI4-B}
+\cclrow{1280B}{𒠋}{PROTO-CUNEIFORM SIGN GI4-B OVER GI4-B}
+\cclrow{1280C}{𒠌}{PROTO-CUNEIFORM SIGN GI6}
+\cclrow{1280D}{𒠍}{PROTO-CUNEIFORM SIGN GIBIL}
+\cclrow{1280E}{𒠎}{PROTO-CUNEIFORM SIGN GIR-A}
+\cclrow{1280F}{𒠏}{PROTO-CUNEIFORM SIGN GIR-B}
+\cclrow{12810}{𒠐}{PROTO-CUNEIFORM SIGN GIR-C}
+\cclrow{12811}{𒠑}{PROTO-CUNEIFORM SIGN GIR2-A}
+\cclrow{12812}{𒠒}{PROTO-CUNEIFORM SIGN GIR3-A}
+\cclrow{12813}{𒠓}{PROTO-CUNEIFORM SIGN GIR3-A TIMES SHE-B}
+\cclrow{12814}{𒠔}{PROTO-CUNEIFORM SIGN GIR3-B}
+\cclrow{12815}{𒠕}{PROTO-CUNEIFORM SIGN GIR3-C}
+\cclrow{12816}{𒠖}{PROTO-CUNEIFORM SIGN GIR3-C TIMES SHE3}
+\cclrow{12817}{𒠗}{PROTO-CUNEIFORM SIGN GIR3 GUNU-A}
+\cclrow{12818}{𒠘}{PROTO-CUNEIFORM SIGN GIR3 GUNU-B}
+\cclrow{12819}{𒠙}{PROTO-CUNEIFORM SIGN GIR3 GUNU-C}
+\cclrow{1281A}{𒠚}{PROTO-CUNEIFORM SIGN GISAL-A}
+\cclrow{1281B}{𒠛}{PROTO-CUNEIFORM SIGN GISAL-B}
+\cclrow{1281C}{𒠜}{PROTO-CUNEIFORM SIGN GISH}
+\cclrow{1281D}{𒠝}{PROTO-CUNEIFORM SIGN GISH TIMES DIN PLUS DIN FORM A}
+\cclrow{1281E}{𒠞}{PROTO-CUNEIFORM SIGN GISH TIMES DIN PLUS DIN FORM B}
+\cclrow{1281F}{𒠟}{PROTO-CUNEIFORM SIGN GISH TIMES DIN PLUS DIN FORM C}
+\cclrow{12820}{𒠠}{PROTO-CUNEIFORM SIGN GISH TIMES SHU2 FORM A}
+\cclrow{12821}{𒠡}{PROTO-CUNEIFORM SIGN GISH TIMES SHU2 FORM B}
+\cclrow{12822}{𒠢}{PROTO-CUNEIFORM SIGN GISH TENU}
+\cclrow{12823}{𒠣}{PROTO-CUNEIFORM SIGN GISH3-A}
+\cclrow{12824}{𒠤}{PROTO-CUNEIFORM SIGN GISH3-A OVER GISH3-A}
+\cclrow{12825}{𒠥}{PROTO-CUNEIFORM SIGN GISH3-B}
+\cclrow{12826}{𒠦}{PROTO-CUNEIFORM SIGN GISHGAL}
+\cclrow{12827}{𒠧}{PROTO-CUNEIFORM SIGN GISHIMMAR-A1}
+\cclrow{12828}{𒠨}{PROTO-CUNEIFORM SIGN GISHIMMAR-A2}
+\cclrow{12829}{𒠩}{PROTO-CUNEIFORM SIGN GISHIMMAR-A3}
+\cclrow{1282A}{𒠪}{PROTO-CUNEIFORM SIGN GISHIMMAR-B1}
+\cclrow{1282B}{𒠫}{PROTO-CUNEIFORM SIGN GISHIMMAR-B2}
+\cclrow{1282C}{𒠬}{PROTO-CUNEIFORM SIGN GISHIMMAR-B3}
+\cclrow{1282D}{𒠭}{PROTO-CUNEIFORM SIGN GU}
+\cclrow{1282E}{𒠮}{PROTO-CUNEIFORM SIGN GU2}
+\cclrow{1282F}{𒠯}{PROTO-CUNEIFORM SIGN GU4}
+\cclrow{12830}{𒠰}{PROTO-CUNEIFORM SIGN GU4 GUNU}
+\cclrow{12831}{𒠱}{PROTO-CUNEIFORM SIGN GU7}
+\cclrow{12832}{𒠲}{PROTO-CUNEIFORM SIGN GUB3-A}
+\cclrow{12833}{𒠳}{PROTO-CUNEIFORM SIGN GUB3-B}
+\cclrow{12834}{𒠴}{PROTO-CUNEIFORM SIGN GUB3-C}
+\cclrow{12835}{𒠵}{PROTO-CUNEIFORM SIGN GUB3-D}
+\cclrow{12836}{𒠶}{PROTO-CUNEIFORM SIGN GUG2}
+\cclrow{12837}{𒠷}{PROTO-CUNEIFORM SIGN GUG2 TIMES SILA3-A}
+\cclrow{12838}{𒠸}{PROTO-CUNEIFORM SIGN GUG2 TIMES TUR}
+\cclrow{12839}{𒠹}{PROTO-CUNEIFORM SIGN GUKKAL-A}
+\cclrow{1283A}{𒠺}{PROTO-CUNEIFORM SIGN GUKKAL-B}
+\cclrow{1283B}{𒠻}{PROTO-CUNEIFORM SIGN GUKKAL-C}
+\cclrow{1283C}{𒠼}{PROTO-CUNEIFORM SIGN GUKKAL-D}
+\cclrow{1283D}{𒠽}{PROTO-CUNEIFORM SIGN GUL}
+\cclrow{1283E}{𒠾}{PROTO-CUNEIFORM SIGN GUM-A}
+\cclrow{1283F}{𒠿}{PROTO-CUNEIFORM SIGN GUM-B}
+\cclrow{12840}{𒡀}{PROTO-CUNEIFORM SIGN GUM-B NUTILLU}
+\cclrow{12841}{𒡁}{PROTO-CUNEIFORM SIGN GUN3-A}
+\cclrow{12842}{𒡂}{PROTO-CUNEIFORM SIGN GUN3-B}
+\cclrow{12843}{𒡃}{PROTO-CUNEIFORM SIGN GUR}
+\cclrow{12844}{𒡄}{PROTO-CUNEIFORM SIGN GURUSH-A}
+\cclrow{12845}{𒡅}{PROTO-CUNEIFORM SIGN GURUSH-A TIMES TWO-N14}
+\cclrow{12846}{𒡆}{PROTO-CUNEIFORM SIGN GURUSH-B}
+\cclrow{12847}{𒡇}{PROTO-CUNEIFORM SIGN GURUSH-B TIMES TWO-N14}
+\cclrow{12848}{𒡈}{PROTO-CUNEIFORM SIGN GURUSH-C TIMES TWO-N14}
+\cclrow{12849}{𒡉}{PROTO-CUNEIFORM SIGN GURUSHDA}
+\cclrow{1284A}{𒡊}{PROTO-CUNEIFORM SIGN HAL}
+\cclrow{1284B}{𒡋}{PROTO-CUNEIFORM SIGN HALUB}
+\cclrow{1284C}{𒡌}{PROTO-CUNEIFORM SIGN HASHHUR}
+\cclrow{1284D}{𒡍}{PROTO-CUNEIFORM SIGN HASHHUR TIMES MA}
+\cclrow{1284E}{𒡎}{PROTO-CUNEIFORM SIGN HI}
+\cclrow{1284F}{𒡏}{PROTO-CUNEIFORM SIGN HI TIMES ONE-N57}
+\cclrow{12850}{𒡐}{PROTO-CUNEIFORM SIGN HI TIMES ONE-N57 TENU}
+\cclrow{12851}{𒡑}{PROTO-CUNEIFORM SIGN HI GUNU-A}
+\cclrow{12852}{𒡒}{PROTO-CUNEIFORM SIGN HI GUNU-B}
+\cclrow{12853}{𒡓}{PROTO-CUNEIFORM SIGN HI GUNU-C}
+\cclrow{12854}{𒡔}{PROTO-CUNEIFORM SIGN I}
+\cclrow{12855}{𒡕}{PROTO-CUNEIFORM SIGN IB-A}
+\cclrow{12856}{𒡖}{PROTO-CUNEIFORM SIGN IB-A NUTILLU}
+\cclrow{12857}{𒡗}{PROTO-CUNEIFORM SIGN IB-B}
+\cclrow{12858}{𒡘}{PROTO-CUNEIFORM SIGN IB-C}
+\cclrow{12859}{𒡙}{PROTO-CUNEIFORM SIGN IDIGNA}
+\cclrow{1285A}{𒡚}{PROTO-CUNEIFORM SIGN IG-A}
+\cclrow{1285B}{𒡛}{PROTO-CUNEIFORM SIGN IG-B}
+\cclrow{1285C}{𒡜}{PROTO-CUNEIFORM SIGN IL}
+\cclrow{1285D}{𒡝}{PROTO-CUNEIFORM SIGN IM-A}
+\cclrow{1285E}{𒡞}{PROTO-CUNEIFORM SIGN IM-B}
+\cclrow{1285F}{𒡟}{PROTO-CUNEIFORM SIGN IN-B}
+\cclrow{12860}{𒡠}{PROTO-CUNEIFORM SIGN IN-D}
+\cclrow{12861}{𒡡}{PROTO-CUNEIFORM SIGN IR-A}
+\cclrow{12862}{𒡢}{PROTO-CUNEIFORM SIGN IR-B}
+\cclrow{12863}{𒡣}{PROTO-CUNEIFORM SIGN IR-C}
+\cclrow{12864}{𒡤}{PROTO-CUNEIFORM SIGN IR-D}
+\cclrow{12865}{𒡥}{PROTO-CUNEIFORM SIGN ISH-A}
+\cclrow{12866}{𒡦}{PROTO-CUNEIFORM SIGN ISH-B}
+\cclrow{12867}{𒡧}{PROTO-CUNEIFORM SIGN ISH-C}
+\cclrow{12868}{𒡨}{PROTO-CUNEIFORM SIGN KA-A}
+\cclrow{12869}{𒡩}{PROTO-CUNEIFORM SIGN KA-A TIMES SAR-A}
+\cclrow{1286A}{𒡪}{PROTO-CUNEIFORM SIGN KA2-A}
+\cclrow{1286B}{𒡫}{PROTO-CUNEIFORM SIGN KA2-B}
+\cclrow{1286C}{𒡬}{PROTO-CUNEIFORM SIGN KA2-D TIMES LAM-B}
+\cclrow{1286D}{𒡭}{PROTO-CUNEIFORM SIGN KAB}
+\cclrow{1286E}{𒡮}{PROTO-CUNEIFORM SIGN KAD4-A}
+\cclrow{1286F}{𒡯}{PROTO-CUNEIFORM SIGN KAD4-B}
+\cclrow{12870}{𒡰}{PROTO-CUNEIFORM SIGN KAK-A}
+\cclrow{12871}{𒡱}{PROTO-CUNEIFORM SIGN KAK-B}
+\cclrow{12872}{𒡲}{PROTO-CUNEIFORM SIGN KAL-A}
+\cclrow{12873}{𒡳}{PROTO-CUNEIFORM SIGN KAL-B1}
+\cclrow{12874}{𒡴}{PROTO-CUNEIFORM SIGN KAL-B2}
+\cclrow{12875}{𒡵}{PROTO-CUNEIFORM SIGN KALAM-A}
+\cclrow{12876}{𒡶}{PROTO-CUNEIFORM SIGN KALAM-B}
+\cclrow{12877}{𒡷}{PROTO-CUNEIFORM SIGN KALAM-C}
+\cclrow{12878}{𒡸}{PROTO-CUNEIFORM SIGN KALAM-D}
+\cclrow{12879}{𒡹}{PROTO-CUNEIFORM SIGN KALAM-E}
+\cclrow{1287A}{𒡺}{PROTO-CUNEIFORM SIGN KALAM-F}
+\cclrow{1287B}{𒡻}{PROTO-CUNEIFORM SIGN KALAM-G}
+\cclrow{1287C}{𒡼}{PROTO-CUNEIFORM SIGN KALAM-H}
+\cclrow{1287D}{𒡽}{PROTO-CUNEIFORM SIGN KALAM-H2}
+\cclrow{1287E}{𒡾}{PROTO-CUNEIFORM SIGN KAR2-A}
+\cclrow{1287F}{𒡿}{PROTO-CUNEIFORM SIGN KAR2-B}
+\cclrow{12880}{𒢀}{PROTO-CUNEIFORM SIGN KASKAL}
+\cclrow{12881}{𒢁}{PROTO-CUNEIFORM SIGN KASH-A}
+\cclrow{12882}{𒢂}{PROTO-CUNEIFORM SIGN KASH-B}
+\cclrow{12883}{𒢃}{PROTO-CUNEIFORM SIGN KASH-B TIMES SHE-A TENU}
+\cclrow{12884}{𒢄}{PROTO-CUNEIFORM SIGN KASH-C}
+\cclrow{12885}{𒢅}{PROTO-CUNEIFORM SIGN KASH-D}
+\cclrow{12886}{𒢆}{PROTO-CUNEIFORM SIGN KI}
+\cclrow{12887}{𒢇}{PROTO-CUNEIFORM SIGN KI NUTILLU}
+\cclrow{12888}{𒢈}{PROTO-CUNEIFORM SIGN KI NUTILLU TIMES DUB-A}
+\cclrow{12889}{𒢉}{PROTO-CUNEIFORM SIGN KIB}
+\cclrow{1288A}{𒢊}{PROTO-CUNEIFORM SIGN KIB GUNU}
+\cclrow{1288B}{𒢋}{PROTO-CUNEIFORM SIGN KID-A}
+\cclrow{1288C}{𒢌}{PROTO-CUNEIFORM SIGN KID-B}
+\cclrow{1288D}{𒢍}{PROTO-CUNEIFORM SIGN KID-C}
+\cclrow{1288E}{𒢎}{PROTO-CUNEIFORM SIGN KID-D}
+\cclrow{1288F}{𒢏}{PROTO-CUNEIFORM SIGN KID-E}
+\cclrow{12890}{𒢐}{PROTO-CUNEIFORM SIGN KIN}
+\cclrow{12891}{𒢑}{PROTO-CUNEIFORM SIGN KIN2-A}
+\cclrow{12892}{𒢒}{PROTO-CUNEIFORM SIGN KIN2-B}
+\cclrow{12893}{𒢓}{PROTO-CUNEIFORM SIGN KIN2-C}
+\cclrow{12894}{𒢔}{PROTO-CUNEIFORM SIGN KIN2-D}
+\cclrow{12895}{𒢕}{PROTO-CUNEIFORM SIGN KIN2-E}
+\cclrow{12896}{𒢖}{PROTO-CUNEIFORM SIGN KISAL-A1}
+\cclrow{12897}{𒢗}{PROTO-CUNEIFORM SIGN KISAL-B1}
+\cclrow{12898}{𒢘}{PROTO-CUNEIFORM SIGN KISAL-B2}
+\cclrow{12899}{𒢙}{PROTO-CUNEIFORM SIGN KISAL-B2 TENU}
+\cclrow{1289A}{𒢚}{PROTO-CUNEIFORM SIGN KISAL-B3}
+\cclrow{1289B}{𒢛}{PROTO-CUNEIFORM SIGN KISIM-A}
+\cclrow{1289C}{𒢜}{PROTO-CUNEIFORM SIGN KISIM-B}
+\cclrow{1289D}{𒢝}{PROTO-CUNEIFORM SIGN KISIM-C}
+\cclrow{1289E}{𒢞}{PROTO-CUNEIFORM SIGN KISH}
+\cclrow{1289F}{𒢟}{PROTO-CUNEIFORM SIGN KISHIK-A}
+\cclrow{128A0}{𒢠}{PROTO-CUNEIFORM SIGN KISHIK-B}
+\cclrow{128A1}{𒢡}{PROTO-CUNEIFORM SIGN KITI}
+\cclrow{128A2}{𒢢}{PROTO-CUNEIFORM SIGN KU-A}
+\cclrow{128A3}{𒢣}{PROTO-CUNEIFORM SIGN KU-B1}
+\cclrow{128A4}{𒢤}{PROTO-CUNEIFORM SIGN KU-B2}
+\cclrow{128A5}{𒢥}{PROTO-CUNEIFORM SIGN KU3-A}
+\cclrow{128A6}{𒢦}{PROTO-CUNEIFORM SIGN KU3-C}
+\cclrow{128A7}{𒢧}{PROTO-CUNEIFORM SIGN KU6-A}
+\cclrow{128A8}{𒢨}{PROTO-CUNEIFORM SIGN KU6-A JOINING KU6-A}
+\cclrow{128A9}{𒢩}{PROTO-CUNEIFORM SIGN KU6-C}
+\cclrow{128AA}{𒢪}{PROTO-CUNEIFORM SIGN KUR-A}
+\cclrow{128AB}{𒢫}{PROTO-CUNEIFORM SIGN KUR-B}
+\cclrow{128AC}{𒢬}{PROTO-CUNEIFORM SIGN KUR-C}
+\cclrow{128AD}{𒢭}{PROTO-CUNEIFORM SIGN KUR GUNU-A}
+\cclrow{128AE}{𒢮}{PROTO-CUNEIFORM SIGN KUR GUNU-B}
+\cclrow{128AF}{𒢯}{PROTO-CUNEIFORM SIGN KUSHU2-A}
+\cclrow{128B0}{𒢰}{PROTO-CUNEIFORM SIGN KUSHU2-B}
+\cclrow{128B1}{𒢱}{PROTO-CUNEIFORM SIGN KUSHU2-C}
+\cclrow{128B2}{𒢲}{PROTO-CUNEIFORM SIGN KUSHU2-D}
+\cclrow{128B3}{𒢳}{PROTO-CUNEIFORM SIGN KUSHU2-E}
+\cclrow{128B4}{𒢴}{PROTO-CUNEIFORM SIGN KUSHU2-F}
+\cclrow{128B5}{𒢵}{PROTO-CUNEIFORM SIGN LA-B}
+\cclrow{128B6}{𒢶}{PROTO-CUNEIFORM SIGN LA-D}
+\cclrow{128B7}{𒢷}{PROTO-CUNEIFORM SIGN LA2}
+\cclrow{128B8}{𒢸}{PROTO-CUNEIFORM SIGN LAGAB-A}
+\cclrow{128B9}{𒢹}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES DU6-A}
+\cclrow{128BA}{𒢺}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES KU6-A}
+\cclrow{128BB}{𒢻}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES KU6-A JOINING KU6-A}
+\cclrow{128BC}{𒢼}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES KUSHU2-A TENU}
+\cclrow{128BD}{𒢽}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES ME-A}
+\cclrow{128BE}{𒢾}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES NUN-B}
+\cclrow{128BF}{𒢿}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES PA-A}
+\cclrow{128C0}{𒣀}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES SIG7}
+\cclrow{128C1}{𒣁}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES SU-A}
+\cclrow{128C2}{𒣂}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES SHA}
+\cclrow{128C3}{𒣃}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES SHITA-A1}
+\cclrow{128C4}{𒣄}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES TI}
+\cclrow{128C5}{𒣅}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES U4}
+\cclrow{128C6}{𒣆}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES UB}
+\cclrow{128C7}{𒣇}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES ZATU753}
+\cclrow{128C8}{𒣈}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES TWO-N14}
+\cclrow{128C9}{𒣉}{PROTO-CUNEIFORM SIGN LAGAB-A TIMES ONE-N58}
+\cclrow{128CA}{𒣊}{PROTO-CUNEIFORM SIGN LAGAB-B}
+\cclrow{128CB}{𒣋}{PROTO-CUNEIFORM SIGN LAGAB-B TIMES HI}
+\cclrow{128CC}{𒣌}{PROTO-CUNEIFORM SIGN LAGAB-B TIMES KUR-E}
+\cclrow{128CD}{𒣍}{PROTO-CUNEIFORM SIGN LAGAB-B TIMES PA-A}
+\cclrow{128CE}{𒣎}{PROTO-CUNEIFORM SIGN LAGAB-B TIMES U4}
+\cclrow{128CF}{𒣏}{PROTO-CUNEIFORM SIGN LAGAB-B OVER LAGAB-B}
+\cclrow{128D0}{𒣐}{PROTO-CUNEIFORM SIGN LAGAR-A}
+\cclrow{128D1}{𒣑}{PROTO-CUNEIFORM SIGN LAGAR-A REVERSED}
+\cclrow{128D2}{𒣒}{PROTO-CUNEIFORM SIGN LAGAR-B1}
+\cclrow{128D3}{𒣓}{PROTO-CUNEIFORM SIGN LAGAR-B2}
+\cclrow{128D4}{𒣔}{PROTO-CUNEIFORM SIGN LAGAR-C}
+\cclrow{128D5}{𒣕}{PROTO-CUNEIFORM SIGN LAL2-A}
+\cclrow{128D6}{𒣖}{PROTO-CUNEIFORM SIGN LAL2-A TIMES NAGA-A}
+\cclrow{128D7}{𒣗}{PROTO-CUNEIFORM SIGN LAL2-A TIMES NIM-B2}
+\cclrow{128D8}{𒣘}{PROTO-CUNEIFORM SIGN LAL2-B}
+\cclrow{128D9}{𒣙}{PROTO-CUNEIFORM SIGN LAL3-A}
+\cclrow{128DA}{𒣚}{PROTO-CUNEIFORM SIGN LAM-A}
+\cclrow{128DB}{𒣛}{PROTO-CUNEIFORM SIGN LAM-B}
+\cclrow{128DC}{𒣜}{PROTO-CUNEIFORM SIGN LAM-B REVERSED}
+\cclrow{128DD}{𒣝}{PROTO-CUNEIFORM SIGN LAM-B TENU}
+\cclrow{128DE}{𒣞}{PROTO-CUNEIFORM SIGN LISH}
+\cclrow{128DF}{𒣟}{PROTO-CUNEIFORM SIGN LU2}
+\cclrow{128E0}{𒣠}{PROTO-CUNEIFORM SIGN LUM}
+\cclrow{128E1}{𒣡}{PROTO-CUNEIFORM SIGN MA}
+\cclrow{128E2}{𒣢}{PROTO-CUNEIFORM SIGN MA TIMES A}
+\cclrow{128E3}{𒣣}{PROTO-CUNEIFORM SIGN MA TIMES MA}
+\cclrow{128E4}{𒣤}{PROTO-CUNEIFORM SIGN MA TIMES ONE-N58}
+\cclrow{128E5}{𒣥}{PROTO-CUNEIFORM SIGN MA2}
+\cclrow{128E6}{𒣦}{PROTO-CUNEIFORM SIGN MAGUR-A}
+\cclrow{128E7}{𒣧}{PROTO-CUNEIFORM SIGN MAH-A}
+\cclrow{128E8}{𒣨}{PROTO-CUNEIFORM SIGN MAH-A TIMES AB2}
+\cclrow{128E9}{𒣩}{PROTO-CUNEIFORM SIGN MAH-A TIMES GUKKAL-A}
+\cclrow{128EA}{𒣪}{PROTO-CUNEIFORM SIGN MAH-A TIMES KU6-A}
+\cclrow{128EB}{𒣫}{PROTO-CUNEIFORM SIGN MAH-A TIMES MASH}
+\cclrow{128EC}{𒣬}{PROTO-CUNEIFORM SIGN MAH-A TIMES NA-A}
+\cclrow{128ED}{𒣭}{PROTO-CUNEIFORM SIGN MAH-A TIMES SILA3-A TIMES UMBIN-A}
+\cclrow{128EE}{𒣮}{PROTO-CUNEIFORM SIGN MAH-A TIMES TUG2-A}
+\cclrow{128EF}{𒣯}{PROTO-CUNEIFORM SIGN MAH-A TIMES TUN3-C}
+\cclrow{128F0}{𒣰}{PROTO-CUNEIFORM SIGN MAH-A TIMES UD5-A}
+\cclrow{128F1}{𒣱}{PROTO-CUNEIFORM SIGN MAH-A TIMES UDU-A}
+\cclrow{128F2}{𒣲}{PROTO-CUNEIFORM SIGN MAH-A TIMES UR-A}
+\cclrow{128F3}{𒣳}{PROTO-CUNEIFORM SIGN MAH-A TIMES UTUA-A}
+\cclrow{128F4}{𒣴}{PROTO-CUNEIFORM SIGN MAH-A TIMES ZATU659}
+\cclrow{128F5}{𒣵}{PROTO-CUNEIFORM SIGN MAH-B}
+\cclrow{128F6}{𒣶}{PROTO-CUNEIFORM SIGN MAH-B TIMES NA-A}
+\cclrow{128F7}{𒣷}{PROTO-CUNEIFORM SIGN MAH-B TIMES SAL}
+\cclrow{128F8}{𒣸}{PROTO-CUNEIFORM SIGN MAR-A}
+\cclrow{128F9}{𒣹}{PROTO-CUNEIFORM SIGN MAR-A GUNU}
+\cclrow{128FA}{𒣺}{PROTO-CUNEIFORM SIGN MAR-A TENU}
+\cclrow{128FB}{𒣻}{PROTO-CUNEIFORM SIGN MAR-B}
+\cclrow{128FC}{𒣼}{PROTO-CUNEIFORM SIGN MAR-B TIMES GAR}
+\cclrow{128FD}{𒣽}{PROTO-CUNEIFORM SIGN MAR-B TIMES LAGAB-B PLUS SHE3}
+\cclrow{128FE}{𒣾}{PROTO-CUNEIFORM SIGN MAR-B TIMES SHE-A}
+\cclrow{128FF}{𒣿}{PROTO-CUNEIFORM SIGN MASH}
+\cclrow{12900}{𒤀}{PROTO-CUNEIFORM SIGN MASH2}
+\cclrow{12901}{𒤁}{PROTO-CUNEIFORM SIGN MASH2 GUNU}
+\cclrow{12902}{𒤂}{PROTO-CUNEIFORM SIGN ME-A}
+\cclrow{12903}{𒤃}{PROTO-CUNEIFORM SIGN ME-B}
+\cclrow{12904}{𒤄}{PROTO-CUNEIFORM SIGN ME3}
+\cclrow{12905}{𒤅}{PROTO-CUNEIFORM SIGN MEN-A}
+\cclrow{12906}{𒤆}{PROTO-CUNEIFORM SIGN MEN-B}
+\cclrow{12907}{𒤇}{PROTO-CUNEIFORM SIGN MES}
+\cclrow{12908}{𒤈}{PROTO-CUNEIFORM SIGN MIR-A}
+\cclrow{12909}{𒤉}{PROTO-CUNEIFORM SIGN MIR-B}
+\cclrow{1290A}{𒤊}{PROTO-CUNEIFORM SIGN MU}
+\cclrow{1290B}{𒤋}{PROTO-CUNEIFORM SIGN MUD}
+\cclrow{1290C}{𒤌}{PROTO-CUNEIFORM SIGN MUD3-A}
+\cclrow{1290D}{𒤍}{PROTO-CUNEIFORM SIGN MUD3-A GUNU}
+\cclrow{1290E}{𒤎}{PROTO-CUNEIFORM SIGN MUD3-B}
+\cclrow{1290F}{𒤏}{PROTO-CUNEIFORM SIGN MUD3-C}
+\cclrow{12910}{𒤐}{PROTO-CUNEIFORM SIGN MUD3-D}
+\cclrow{12911}{𒤑}{PROTO-CUNEIFORM SIGN MUL}
+\cclrow{12912}{𒤒}{PROTO-CUNEIFORM SIGN MUN-A1}
+\cclrow{12913}{𒤓}{PROTO-CUNEIFORM SIGN MUN-A2}
+\cclrow{12914}{𒤔}{PROTO-CUNEIFORM SIGN MUN-A3}
+\cclrow{12915}{𒤕}{PROTO-CUNEIFORM SIGN MUN-A4}
+\cclrow{12916}{𒤖}{PROTO-CUNEIFORM SIGN MUN-B}
+\cclrow{12917}{𒤗}{PROTO-CUNEIFORM SIGN MUNSHUB-A}
+\cclrow{12918}{𒤘}{PROTO-CUNEIFORM SIGN MUNSHUB-B}
+\cclrow{12919}{𒤙}{PROTO-CUNEIFORM SIGN MUNU3}
+\cclrow{1291A}{𒤚}{PROTO-CUNEIFORM SIGN MUSH}
+\cclrow{1291B}{𒤛}{PROTO-CUNEIFORM SIGN MUSH3-A}
+\cclrow{1291C}{𒤜}{PROTO-CUNEIFORM SIGN MUSH3-A GUNU}
+\cclrow{1291D}{𒤝}{PROTO-CUNEIFORM SIGN MUSH3-B}
+\cclrow{1291E}{𒤞}{PROTO-CUNEIFORM SIGN MUSHEN}
+\cclrow{1291F}{𒤟}{PROTO-CUNEIFORM SIGN NA-A}
+\cclrow{12920}{𒤠}{PROTO-CUNEIFORM SIGN NA-B}
+\cclrow{12921}{𒤡}{PROTO-CUNEIFORM SIGN NA-C}
+\cclrow{12922}{𒤢}{PROTO-CUNEIFORM SIGN NA2-A}
+\cclrow{12923}{𒤣}{PROTO-CUNEIFORM SIGN NA2-B1}
+\cclrow{12924}{𒤤}{PROTO-CUNEIFORM SIGN NA2-B2}
+\cclrow{12925}{𒤥}{PROTO-CUNEIFORM SIGN NA2-C}
+\cclrow{12926}{𒤦}{PROTO-CUNEIFORM SIGN NAB}
+\cclrow{12927}{𒤧}{PROTO-CUNEIFORM SIGN NAGA-A}
+\cclrow{12928}{𒤨}{PROTO-CUNEIFORM SIGN NAGA-A TIMES TAK4-A}
+\cclrow{12929}{𒤩}{PROTO-CUNEIFORM SIGN NAGA-B}
+\cclrow{1292A}{𒤪}{PROTO-CUNEIFORM SIGN NAGAR-A}
+\cclrow{1292B}{𒤫}{PROTO-CUNEIFORM SIGN NAGAR-B}
+\cclrow{1292C}{𒤬}{PROTO-CUNEIFORM SIGN NAM-A}
+\cclrow{1292D}{𒤭}{PROTO-CUNEIFORM SIGN NAM-B}
+\cclrow{1292E}{𒤮}{PROTO-CUNEIFORM SIGN NAM-C}
+\cclrow{1292F}{𒤯}{PROTO-CUNEIFORM SIGN NAM-D}
+\cclrow{12930}{𒤰}{PROTO-CUNEIFORM SIGN NAM2}
+\cclrow{12931}{𒤱}{PROTO-CUNEIFORM SIGN NAM2 TIMES ONE-N1}
+\cclrow{12932}{𒤲}{PROTO-CUNEIFORM SIGN NAM2 GUNU}
+\cclrow{12933}{𒤳}{PROTO-CUNEIFORM SIGN NAM2 TENU}
+\cclrow{12934}{𒤴}{PROTO-CUNEIFORM SIGN NANSHE-A}
+\cclrow{12935}{𒤵}{PROTO-CUNEIFORM SIGN NANSHE-B}
+\cclrow{12936}{𒤶}{PROTO-CUNEIFORM SIGN NAR}
+\cclrow{12937}{𒤷}{PROTO-CUNEIFORM SIGN NE-A}
+\cclrow{12938}{𒤸}{PROTO-CUNEIFORM SIGN NE-B}
+\cclrow{12939}{𒤹}{PROTO-CUNEIFORM SIGN NE-C}
+\cclrow{1293A}{𒤺}{PROTO-CUNEIFORM SIGN NE-D}
+\cclrow{1293B}{𒤻}{PROTO-CUNEIFORM SIGN NESAG2-A}
+\cclrow{1293C}{𒤼}{PROTO-CUNEIFORM SIGN NESAG2-B}
+\cclrow{1293D}{𒤽}{PROTO-CUNEIFORM SIGN NI-A}
+\cclrow{1293E}{𒤾}{PROTO-CUNEIFORM SIGN NI-A GUNU}
+\cclrow{1293F}{𒤿}{PROTO-CUNEIFORM SIGN NI-B}
+\cclrow{12940}{𒥀}{PROTO-CUNEIFORM SIGN NI-B TIMES FOUR-N57}
+\cclrow{12941}{𒥁}{PROTO-CUNEIFORM SIGN NI-B TIMES EIGHT-N57}
+\cclrow{12942}{𒥂}{PROTO-CUNEIFORM SIGN NI2}
+\cclrow{12943}{𒥃}{PROTO-CUNEIFORM SIGN NIGIN}
+\cclrow{12944}{𒥄}{PROTO-CUNEIFORM SIGN NIM-A}
+\cclrow{12945}{𒥅}{PROTO-CUNEIFORM SIGN NIM-B1}
+\cclrow{12946}{𒥆}{PROTO-CUNEIFORM SIGN NIM-B2}
+\cclrow{12947}{𒥇}{PROTO-CUNEIFORM SIGN NIM-B3}
+\cclrow{12948}{𒥈}{PROTO-CUNEIFORM SIGN NIMGIR}
+\cclrow{12949}{𒥉}{PROTO-CUNEIFORM SIGN NINDA2}
+\cclrow{1294A}{𒥊}{PROTO-CUNEIFORM SIGN NINDA2 TIMES AN}
+\cclrow{1294B}{𒥋}{PROTO-CUNEIFORM SIGN NINDA2 TIMES AN PLUS HI}
+\cclrow{1294C}{𒥌}{PROTO-CUNEIFORM SIGN NINDA2 TIMES AN PLUS ME-A}
+\cclrow{1294D}{𒥍}{PROTO-CUNEIFORM SIGN NINDA2 TIMES EZEN-B}
+\cclrow{1294E}{𒥎}{PROTO-CUNEIFORM SIGN NINDA2 TIMES GAAR-A1}
+\cclrow{1294F}{𒥏}{PROTO-CUNEIFORM SIGN NINDA2 TIMES GAR}
+\cclrow{12950}{𒥐}{PROTO-CUNEIFORM SIGN NINDA2 TIMES GISH}
+\cclrow{12951}{𒥑}{PROTO-CUNEIFORM SIGN NINDA2 TIMES GU4}
+\cclrow{12952}{𒥒}{PROTO-CUNEIFORM SIGN NINDA2 TIMES HI}
+\cclrow{12953}{𒥓}{PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS AN PLUS ME-A}
+\cclrow{12954}{𒥔}{PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS ME-A}
+\cclrow{12955}{𒥕}{PROTO-CUNEIFORM SIGN NINDA2 TIMES KASH-B}
+\cclrow{12956}{𒥖}{PROTO-CUNEIFORM SIGN NINDA2 TIMES MAR-A}
+\cclrow{12957}{𒥗}{PROTO-CUNEIFORM SIGN NINDA2 TIMES MAR-B}
+\cclrow{12958}{𒥘}{PROTO-CUNEIFORM SIGN NINDA2 TIMES NUN-A}
+\cclrow{12959}{𒥙}{PROTO-CUNEIFORM SIGN NINDA2 TIMES U4}
+\cclrow{1295A}{𒥚}{PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU659 TIMES ONE-N1}
+\cclrow{1295B}{𒥛}{PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU710}
+\cclrow{1295C}{𒥜}{PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N1}
+\cclrow{1295D}{𒥝}{PROTO-CUNEIFORM SIGN NINDA2 TIMES TWO-N1}
+\cclrow{1295E}{𒥞}{PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N6 PLUS HI GUNU-A}
+\cclrow{1295F}{𒥟}{PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N8}
+\cclrow{12960}{𒥠}{PROTO-CUNEIFORM SIGN NIR-A}
+\cclrow{12961}{𒥡}{PROTO-CUNEIFORM SIGN NIR-A TIMES AN}
+\cclrow{12962}{𒥢}{PROTO-CUNEIFORM SIGN NIR-B}
+\cclrow{12963}{𒥣}{PROTO-CUNEIFORM SIGN NU}
+\cclrow{12964}{𒥤}{PROTO-CUNEIFORM SIGN NU GUNU}
+\cclrow{12965}{𒥥}{PROTO-CUNEIFORM SIGN NU11}
+\cclrow{12966}{𒥦}{PROTO-CUNEIFORM SIGN NU11 OVER NU11}
+\cclrow{12967}{𒥧}{PROTO-CUNEIFORM SIGN NU11 TENU}
+\cclrow{12968}{𒥨}{PROTO-CUNEIFORM SIGN NUMUN}
+\cclrow{12969}{𒥩}{PROTO-CUNEIFORM SIGN NUN-A}
+\cclrow{1296A}{𒥪}{PROTO-CUNEIFORM SIGN NUN-A JOINING A}
+\cclrow{1296B}{𒥫}{PROTO-CUNEIFORM SIGN NUN-A JOINING EN-A}
+\cclrow{1296C}{𒥬}{PROTO-CUNEIFORM SIGN NUN-A JOINING EN-B}
+\cclrow{1296D}{𒥭}{PROTO-CUNEIFORM SIGN NUN-A JOINING EN-D}
+\cclrow{1296E}{𒥮}{PROTO-CUNEIFORM SIGN NUN-A JOINING NAM2}
+\cclrow{1296F}{𒥯}{PROTO-CUNEIFORM SIGN NUN-B}
+\cclrow{12970}{𒥰}{PROTO-CUNEIFORM SIGN NUN-B JOINING EN-A}
+\cclrow{12971}{𒥱}{PROTO-CUNEIFORM SIGN NUN-C}
+\cclrow{12972}{𒥲}{PROTO-CUNEIFORM SIGN NUN-D}
+\cclrow{12973}{𒥳}{PROTO-CUNEIFORM SIGN NUNUZ-A0}
+\cclrow{12974}{𒥴}{PROTO-CUNEIFORM SIGN NUNUZ-A1}
+\cclrow{12975}{𒥵}{PROTO-CUNEIFORM SIGN NUNUZ-A2}
+\cclrow{12976}{𒥶}{PROTO-CUNEIFORM SIGN NUNUZ-B1}
+\cclrow{12977}{𒥷}{PROTO-CUNEIFORM SIGN NUNUZ-C}
+\cclrow{12978}{𒥸}{PROTO-CUNEIFORM SIGN PA-A}
+\cclrow{12979}{𒥹}{PROTO-CUNEIFORM SIGN PA-B}
+\cclrow{1297A}{𒥺}{PROTO-CUNEIFORM SIGN PAD-A}
+\cclrow{1297B}{𒥻}{PROTO-CUNEIFORM SIGN PAD-B}
+\cclrow{1297C}{𒥼}{PROTO-CUNEIFORM SIGN PAP-A}
+\cclrow{1297D}{𒥽}{PROTO-CUNEIFORM SIGN PAP-A TENU}
+\cclrow{1297E}{𒥾}{PROTO-CUNEIFORM SIGN PAP-B}
+\cclrow{1297F}{𒥿}{PROTO-CUNEIFORM SIGN PIRIG-A1}
+\cclrow{12980}{𒦀}{PROTO-CUNEIFORM SIGN PIRIG-A2}
+\cclrow{12981}{𒦁}{PROTO-CUNEIFORM SIGN PIRIG-A3}
+\cclrow{12982}{𒦂}{PROTO-CUNEIFORM SIGN PIRIG-B1}
+\cclrow{12983}{𒦃}{PROTO-CUNEIFORM SIGN PIRIG-B1 JOINING DIN}
+\cclrow{12984}{𒦄}{PROTO-CUNEIFORM SIGN PIRIG-B2}
+\cclrow{12985}{𒦅}{PROTO-CUNEIFORM SIGN PU2}
+\cclrow{12986}{𒦆}{PROTO-CUNEIFORM SIGN RA}
+\cclrow{12987}{𒦇}{PROTO-CUNEIFORM SIGN RAD-A}
+\cclrow{12988}{𒦈}{PROTO-CUNEIFORM SIGN RAD-A GUNU}
+\cclrow{12989}{𒦉}{PROTO-CUNEIFORM SIGN RAD-B}
+\cclrow{1298A}{𒦊}{PROTO-CUNEIFORM SIGN RI8-A}
+\cclrow{1298B}{𒦋}{PROTO-CUNEIFORM SIGN RI8-B}
+\cclrow{1298C}{𒦌}{PROTO-CUNEIFORM SIGN RU}
+\cclrow{1298D}{𒦍}{PROTO-CUNEIFORM SIGN SA-A}
+\cclrow{1298E}{𒦎}{PROTO-CUNEIFORM SIGN SA-C}
+\cclrow{1298F}{𒦏}{PROTO-CUNEIFORM SIGN SAG}
+\cclrow{12990}{𒦐}{PROTO-CUNEIFORM SIGN SAG JOINING UKKIN-B TIMES ONE-N57}
+\cclrow{12991}{𒦑}{PROTO-CUNEIFORM SIGN SAG TIMES GESHTU-A}
+\cclrow{12992}{𒦒}{PROTO-CUNEIFORM SIGN SAG TIMES GESHTU-B}
+\cclrow{12993}{𒦓}{PROTO-CUNEIFORM SIGN SAG TIMES MA}
+\cclrow{12994}{𒦔}{PROTO-CUNEIFORM SIGN SAG TIMES NAM2}
+\cclrow{12995}{𒦕}{PROTO-CUNEIFORM SIGN SAG GUNU}
+\cclrow{12996}{𒦖}{PROTO-CUNEIFORM SIGN SAG NUTILLU}
+\cclrow{12997}{𒦗}{PROTO-CUNEIFORM SIGN SAGSHU}
+\cclrow{12998}{𒦘}{PROTO-CUNEIFORM SIGN SAL}
+\cclrow{12999}{𒦙}{PROTO-CUNEIFORM SIGN SAL TIMES ONE-N58}
+\cclrow{1299A}{𒦚}{PROTO-CUNEIFORM SIGN SANGA-A}
+\cclrow{1299B}{𒦛}{PROTO-CUNEIFORM SIGN SANGA-B}
+\cclrow{1299C}{𒦜}{PROTO-CUNEIFORM SIGN SANGA-C}
+\cclrow{1299D}{𒦝}{PROTO-CUNEIFORM SIGN SANGA-E}
+\cclrow{1299E}{𒦞}{PROTO-CUNEIFORM SIGN SAR-A}
+\cclrow{1299F}{𒦟}{PROTO-CUNEIFORM SIGN SAR-A TIMES SHE-A}
+\cclrow{129A0}{𒦠}{PROTO-CUNEIFORM SIGN SAR-B}
+\cclrow{129A1}{𒦡}{PROTO-CUNEIFORM SIGN SAR-C}
+\cclrow{129A2}{𒦢}{PROTO-CUNEIFORM SIGN SAR-D}
+\cclrow{129A3}{𒦣}{PROTO-CUNEIFORM SIGN SI}
+\cclrow{129A4}{𒦤}{PROTO-CUNEIFORM SIGN SI JOINING AN}
+\cclrow{129A5}{𒦥}{PROTO-CUNEIFORM SIGN SI TIMES EN-A}
+\cclrow{129A6}{𒦦}{PROTO-CUNEIFORM SIGN SI TIMES GU4}
+\cclrow{129A7}{𒦧}{PROTO-CUNEIFORM SIGN SI TIMES KU-B1}
+\cclrow{129A8}{𒦨}{PROTO-CUNEIFORM SIGN SI TIMES SAL}
+\cclrow{129A9}{𒦩}{PROTO-CUNEIFORM SIGN SI TIMES SHE3}
+\cclrow{129AA}{𒦪}{PROTO-CUNEIFORM SIGN SI TIMES TUN3-A}
+\cclrow{129AB}{𒦫}{PROTO-CUNEIFORM SIGN SI TIMES ONE-N58}
+\cclrow{129AC}{𒦬}{PROTO-CUNEIFORM SIGN SI4-A}
+\cclrow{129AD}{𒦭}{PROTO-CUNEIFORM SIGN SI4-B}
+\cclrow{129AE}{𒦮}{PROTO-CUNEIFORM SIGN SI4-C}
+\cclrow{129AF}{𒦯}{PROTO-CUNEIFORM SIGN SI4-D}
+\cclrow{129B0}{𒦰}{PROTO-CUNEIFORM SIGN SI4-F}
+\cclrow{129B1}{𒦱}{PROTO-CUNEIFORM SIGN SIG}
+\cclrow{129B2}{𒦲}{PROTO-CUNEIFORM SIGN SIG2-A1}
+\cclrow{129B3}{𒦳}{PROTO-CUNEIFORM SIGN SIG2-A2}
+\cclrow{129B4}{𒦴}{PROTO-CUNEIFORM SIGN SIG2-A3}
+\cclrow{129B5}{𒦵}{PROTO-CUNEIFORM SIGN SIG2-A4}
+\cclrow{129B6}{𒦶}{PROTO-CUNEIFORM SIGN SIG2-B}
+\cclrow{129B7}{𒦷}{PROTO-CUNEIFORM SIGN SIG2-B OVER SIG2-B}
+\cclrow{129B8}{𒦸}{PROTO-CUNEIFORM SIGN SIG2-C1}
+\cclrow{129B9}{𒦹}{PROTO-CUNEIFORM SIGN SIG2-C2}
+\cclrow{129BA}{𒦺}{PROTO-CUNEIFORM SIGN SIG2-D1}
+\cclrow{129BB}{𒦻}{PROTO-CUNEIFORM SIGN SIG2-D2}
+\cclrow{129BC}{𒦼}{PROTO-CUNEIFORM SIGN SIG2-D3}
+\cclrow{129BD}{𒦽}{PROTO-CUNEIFORM SIGN SIG2-D4}
+\cclrow{129BE}{𒦾}{PROTO-CUNEIFORM SIGN SIG2-E}
+\cclrow{129BF}{𒦿}{PROTO-CUNEIFORM SIGN SIG4}
+\cclrow{129C0}{𒧀}{PROTO-CUNEIFORM SIGN SIG7}
+\cclrow{129C1}{𒧁}{PROTO-CUNEIFORM SIGN SILA3-A}
+\cclrow{129C2}{𒧂}{PROTO-CUNEIFORM SIGN SILA3-A TIMES A}
+\cclrow{129C3}{𒧃}{PROTO-CUNEIFORM SIGN SILA3-A TIMES AMAR}
+\cclrow{129C4}{𒧄}{PROTO-CUNEIFORM SIGN SILA3-A TIMES DUG-A}
+\cclrow{129C5}{𒧅}{PROTO-CUNEIFORM SIGN SILA3-A TIMES GA-A}
+\cclrow{129C6}{𒧆}{PROTO-CUNEIFORM SIGN SILA3-A TIMES GARA2-A}
+\cclrow{129C7}{𒧇}{PROTO-CUNEIFORM SIGN SILA3-A TIMES GESHTU-A}
+\cclrow{129C8}{𒧈}{PROTO-CUNEIFORM SIGN SILA3-A TIMES GESHTU-C3}
+\cclrow{129C9}{𒧉}{PROTO-CUNEIFORM SIGN SILA3-A TIMES HASHHUR}
+\cclrow{129CA}{𒧊}{PROTO-CUNEIFORM SIGN SILA3-A TIMES HI}
+\cclrow{129CB}{𒧋}{PROTO-CUNEIFORM SIGN SILA3-A TIMES IB-A}
+\cclrow{129CC}{𒧌}{PROTO-CUNEIFORM SIGN SILA3-A TIMES KASH-A}
+\cclrow{129CD}{𒧍}{PROTO-CUNEIFORM SIGN SILA3-A TIMES KASH-C}
+\cclrow{129CE}{𒧎}{PROTO-CUNEIFORM SIGN SILA3-A TIMES KASH-D}
+\cclrow{129CF}{𒧏}{PROTO-CUNEIFORM SIGN SILA3-A TIMES KU6-A}
+\cclrow{129D0}{𒧐}{PROTO-CUNEIFORM SIGN SILA3-A TIMES KUR-A}
+\cclrow{129D1}{𒧑}{PROTO-CUNEIFORM SIGN SILA3-A TIMES MA}
+\cclrow{129D2}{𒧒}{PROTO-CUNEIFORM SIGN SILA3-A TIMES MASH}
+\cclrow{129D3}{𒧓}{PROTO-CUNEIFORM SIGN SILA3-A TIMES MUD3-B}
+\cclrow{129D4}{𒧔}{PROTO-CUNEIFORM SIGN SILA3-A TIMES NAGA-A}
+\cclrow{129D5}{𒧕}{PROTO-CUNEIFORM SIGN SILA3-A TIMES NI-A}
+\cclrow{129D6}{𒧖}{PROTO-CUNEIFORM SIGN SILA3-A TIMES NUN-B}
+\cclrow{129D7}{𒧗}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SUHUR}
+\cclrow{129D8}{𒧘}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SUM-A}
+\cclrow{129D9}{𒧙}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SUM-B}
+\cclrow{129DA}{𒧚}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SHE-A}
+\cclrow{129DB}{𒧛}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SHE-A TENU}
+\cclrow{129DC}{𒧜}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SHU}
+\cclrow{129DD}{𒧝}{PROTO-CUNEIFORM SIGN SILA3-A TIMES SHU2}
+\cclrow{129DE}{𒧞}{PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU629}
+\cclrow{129DF}{𒧟}{PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU646}
+\cclrow{129E0}{𒧠}{PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU659 PLUS TU-C}
+\cclrow{129E1}{𒧡}{PROTO-CUNEIFORM SIGN SILA3-A TIMES ONE-N57}
+\cclrow{129E2}{𒧢}{PROTO-CUNEIFORM SIGN SILA3-B}
+\cclrow{129E3}{𒧣}{PROTO-CUNEIFORM SIGN SILA3-B TIMES GUG2}
+\cclrow{129E4}{𒧤}{PROTO-CUNEIFORM SIGN SILA3-B TIMES NAGA-B}
+\cclrow{129E5}{𒧥}{PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-A}
+\cclrow{129E6}{𒧦}{PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-B}
+\cclrow{129E7}{𒧧}{PROTO-CUNEIFORM SIGN SILA3-C TIMES ZATU687}
+\cclrow{129E8}{𒧨}{PROTO-CUNEIFORM SIGN SILA4-A}
+\cclrow{129E9}{𒧩}{PROTO-CUNEIFORM SIGN SILA4-B}
+\cclrow{129EA}{𒧪}{PROTO-CUNEIFORM SIGN SILA4-C}
+\cclrow{129EB}{𒧫}{PROTO-CUNEIFORM SIGN SILA4-D}
+\cclrow{129EC}{𒧬}{PROTO-CUNEIFORM SIGN SILANITA}
+\cclrow{129ED}{𒧭}{PROTO-CUNEIFORM SIGN SIMUG}
+\cclrow{129EE}{𒧮}{PROTO-CUNEIFORM SIGN SU-A}
+\cclrow{129EF}{𒧯}{PROTO-CUNEIFORM SIGN SU-A TIMES ONE-N58}
+\cclrow{129F0}{𒧰}{PROTO-CUNEIFORM SIGN SU-B}
+\cclrow{129F1}{𒧱}{PROTO-CUNEIFORM SIGN SU-C}
+\cclrow{129F2}{𒧲}{PROTO-CUNEIFORM SIGN SU3}
+\cclrow{129F3}{𒧳}{PROTO-CUNEIFORM SIGN SUG}
+\cclrow{129F4}{𒧴}{PROTO-CUNEIFORM SIGN SUG5}
+\cclrow{129F5}{𒧵}{PROTO-CUNEIFORM SIGN SUH3}
+\cclrow{129F6}{𒧶}{PROTO-CUNEIFORM SIGN SUHUR}
+\cclrow{129F7}{𒧷}{PROTO-CUNEIFORM SIGN SUHUR GUNU}
+\cclrow{129F8}{𒧸}{PROTO-CUNEIFORM SIGN SUHUR NUTILLU}
+\cclrow{129F9}{𒧹}{PROTO-CUNEIFORM SIGN SUHUR TENU}
+\cclrow{129FA}{𒧺}{PROTO-CUNEIFORM SIGN SUKKAL}
+\cclrow{129FB}{𒧻}{PROTO-CUNEIFORM SIGN SUKUD}
+\cclrow{129FC}{𒧼}{PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM A}
+\cclrow{129FD}{𒧽}{PROTO-CUNEIFORM SIGN SUKUD JOINING SUKUD FORM B}
+\cclrow{129FE}{𒧾}{PROTO-CUNEIFORM SIGN SUKUD GUNU-A}
+\cclrow{129FF}{𒧿}{PROTO-CUNEIFORM SIGN SUKUD GUNU-B}
+\cclrow{12A00}{𒨀}{PROTO-CUNEIFORM SIGN SUKUD GUNU-C}
+\cclrow{12A01}{𒨁}{PROTO-CUNEIFORM SIGN SUKUD GUNU-D}
+\cclrow{12A02}{𒨂}{PROTO-CUNEIFORM SIGN SUM-A}
+\cclrow{12A03}{𒨃}{PROTO-CUNEIFORM SIGN SUM-B}
+\cclrow{12A04}{𒨄}{PROTO-CUNEIFORM SIGN SUMASH}
+\cclrow{12A05}{𒨅}{PROTO-CUNEIFORM SIGN SUR}
+\cclrow{12A06}{𒨆}{PROTO-CUNEIFORM SIGN SHA}
+\cclrow{12A07}{𒨇}{PROTO-CUNEIFORM SIGN SHA TIMES HI GUNU-A FORM A}
+\cclrow{12A08}{𒨈}{PROTO-CUNEIFORM SIGN SHA TIMES HI GUNU-A FORM B}
+\cclrow{12A09}{𒨉}{PROTO-CUNEIFORM SIGN SHA GUNU}
+\cclrow{12A0A}{𒨊}{PROTO-CUNEIFORM SIGN SHA3-A1}
+\cclrow{12A0B}{𒨋}{PROTO-CUNEIFORM SIGN SHA3-A2}
+\cclrow{12A0C}{𒨌}{PROTO-CUNEIFORM SIGN SHA3-A2 GUNU}
+\cclrow{12A0D}{𒨍}{PROTO-CUNEIFORM SIGN SHA3-B}
+\cclrow{12A0E}{𒨎}{PROTO-CUNEIFORM SIGN SHA3-C}
+\cclrow{12A0F}{𒨏}{PROTO-CUNEIFORM SIGN SHA3-D}
+\cclrow{12A10}{𒨐}{PROTO-CUNEIFORM SIGN SHAGAN}
+\cclrow{12A11}{𒨑}{PROTO-CUNEIFORM SIGN SHAGINA}
+\cclrow{12A12}{𒨒}{PROTO-CUNEIFORM SIGN SHAH2-A}
+\cclrow{12A13}{𒨓}{PROTO-CUNEIFORM SIGN SHAH2-B}
+\cclrow{12A14}{𒨔}{PROTO-CUNEIFORM SIGN SHAH2-C}
+\cclrow{12A15}{𒨕}{PROTO-CUNEIFORM SIGN SHAKIR-A}
+\cclrow{12A16}{𒨖}{PROTO-CUNEIFORM SIGN SHAKIR-B}
+\cclrow{12A17}{𒨗}{PROTO-CUNEIFORM SIGN SHAKIR-C}
+\cclrow{12A18}{𒨘}{PROTO-CUNEIFORM SIGN SHAM2}
+\cclrow{12A19}{𒨙}{PROTO-CUNEIFORM SIGN SHE-A}
+\cclrow{12A1A}{𒨚}{PROTO-CUNEIFORM SIGN SHE-A WITH GAR}
+\cclrow{12A1B}{𒨛}{PROTO-CUNEIFORM SIGN SHE-A OVER SHE-A}
+\cclrow{12A1C}{𒨜}{PROTO-CUNEIFORM SIGN SHE-A TENU}
+\cclrow{12A1D}{𒨝}{PROTO-CUNEIFORM SIGN SHE-B}
+\cclrow{12A1E}{𒨞}{PROTO-CUNEIFORM SIGN SHE-C}
+\cclrow{12A1F}{𒨟}{PROTO-CUNEIFORM SIGN SHE3}
+\cclrow{12A20}{𒨠}{PROTO-CUNEIFORM SIGN SHE3 TENU}
+\cclrow{12A21}{𒨡}{PROTO-CUNEIFORM SIGN SHEG9}
+\cclrow{12A22}{𒨢}{PROTO-CUNEIFORM SIGN SHELU}
+\cclrow{12A23}{𒨣}{PROTO-CUNEIFORM SIGN SHEN-A}
+\cclrow{12A24}{𒨤}{PROTO-CUNEIFORM SIGN SHEN-B}
+\cclrow{12A25}{𒨥}{PROTO-CUNEIFORM SIGN SHEN-C}
+\cclrow{12A26}{𒨦}{PROTO-CUNEIFORM SIGN SHEN-C TENU}
+\cclrow{12A27}{𒨧}{PROTO-CUNEIFORM SIGN SHEN-D TIMES A}
+\cclrow{12A28}{𒨨}{PROTO-CUNEIFORM SIGN SHEN-E}
+\cclrow{12A29}{𒨩}{PROTO-CUNEIFORM SIGN SHENNUR-A}
+\cclrow{12A2A}{𒨪}{PROTO-CUNEIFORM SIGN SHENNUR-B}
+\cclrow{12A2B}{𒨫}{PROTO-CUNEIFORM SIGN SHESH-A}
+\cclrow{12A2C}{𒨬}{PROTO-CUNEIFORM SIGN SHESH-B}
+\cclrow{12A2D}{𒨭}{PROTO-CUNEIFORM SIGN SHIDIM}
+\cclrow{12A2E}{𒨮}{PROTO-CUNEIFORM SIGN SHIM-A}
+\cclrow{12A2F}{𒨯}{PROTO-CUNEIFORM SIGN SHIM-B}
+\cclrow{12A30}{𒨰}{PROTO-CUNEIFORM SIGN SHIR-A}
+\cclrow{12A31}{𒨱}{PROTO-CUNEIFORM SIGN SHIR-B}
+\cclrow{12A32}{𒨲}{PROTO-CUNEIFORM SIGN SHITA-A1}
+\cclrow{12A33}{𒨳}{PROTO-CUNEIFORM SIGN SHITA-A1 TIMES KAK-A}
+\cclrow{12A34}{𒨴}{PROTO-CUNEIFORM SIGN SHITA-A1 TIMES SHU}
+\cclrow{12A35}{𒨵}{PROTO-CUNEIFORM SIGN SHITA-A2}
+\cclrow{12A36}{𒨶}{PROTO-CUNEIFORM SIGN SHITA-A3}
+\cclrow{12A37}{𒨷}{PROTO-CUNEIFORM SIGN SHITA-B1}
+\cclrow{12A38}{𒨸}{PROTO-CUNEIFORM SIGN SHITA-B2}
+\cclrow{12A39}{𒨹}{PROTO-CUNEIFORM SIGN SHITA-B2 GUNU TIMES HI GUNU-A}
+\cclrow{12A3A}{𒨺}{PROTO-CUNEIFORM SIGN SHITA-B3}
+\cclrow{12A3B}{𒨻}{PROTO-CUNEIFORM SIGN SHITA-B3 TIMES NAM2}
+\cclrow{12A3C}{𒨼}{PROTO-CUNEIFORM SIGN SHITA GUNU-A}
+\cclrow{12A3D}{𒨽}{PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE-N6}
+\cclrow{12A3E}{𒨾}{PROTO-CUNEIFORM SIGN SHITA GUNU-B}
+\cclrow{12A3F}{𒨿}{PROTO-CUNEIFORM SIGN SHU}
+\cclrow{12A40}{𒩀}{PROTO-CUNEIFORM SIGN SHU TIMES ONE-N58}
+\cclrow{12A41}{𒩁}{PROTO-CUNEIFORM SIGN SHU OVER SHU}
+\cclrow{12A42}{𒩂}{PROTO-CUNEIFORM SIGN SHU GUNU}
+\cclrow{12A43}{𒩃}{PROTO-CUNEIFORM SIGN SHU2}
+\cclrow{12A44}{𒩄}{PROTO-CUNEIFORM SIGN SHU12}
+\cclrow{12A45}{𒩅}{PROTO-CUNEIFORM SIGN SHUBUR}
+\cclrow{12A46}{𒩆}{PROTO-CUNEIFORM SIGN SHUM}
+\cclrow{12A47}{𒩇}{PROTO-CUNEIFORM SIGN SHUR2 TIMES ONE-N58}
+\cclrow{12A48}{𒩈}{PROTO-CUNEIFORM SIGN SHUR2-A}
+\cclrow{12A49}{𒩉}{PROTO-CUNEIFORM SIGN SHUR2-B}
+\cclrow{12A4A}{𒩊}{PROTO-CUNEIFORM SIGN TA-A}
+\cclrow{12A4B}{𒩋}{PROTO-CUNEIFORM SIGN TA-C}
+\cclrow{12A4C}{𒩌}{PROTO-CUNEIFORM SIGN TA-D}
+\cclrow{12A4D}{𒩍}{PROTO-CUNEIFORM SIGN TA-E}
+\cclrow{12A4E}{𒩎}{PROTO-CUNEIFORM SIGN TAG-A1}
+\cclrow{12A4F}{𒩏}{PROTO-CUNEIFORM SIGN TAG-A1 TENU}
+\cclrow{12A50}{𒩐}{PROTO-CUNEIFORM SIGN TAG-A2}
+\cclrow{12A51}{𒩑}{PROTO-CUNEIFORM SIGN TAG-A3}
+\cclrow{12A52}{𒩒}{PROTO-CUNEIFORM SIGN TAG-A4}
+\cclrow{12A53}{𒩓}{PROTO-CUNEIFORM SIGN TAG-B}
+\cclrow{12A54}{𒩔}{PROTO-CUNEIFORM SIGN TAG-C}
+\cclrow{12A55}{𒩕}{PROTO-CUNEIFORM SIGN TAG-D}
+\cclrow{12A56}{𒩖}{PROTO-CUNEIFORM SIGN TAK4-A}
+\cclrow{12A57}{𒩗}{PROTO-CUNEIFORM SIGN TAK4-A NUTILLU}
+\cclrow{12A58}{𒩘}{PROTO-CUNEIFORM SIGN TAK4-C}
+\cclrow{12A59}{𒩙}{PROTO-CUNEIFORM SIGN TAR-A}
+\cclrow{12A5A}{𒩚}{PROTO-CUNEIFORM SIGN TE}
+\cclrow{12A5B}{𒩛}{PROTO-CUNEIFORM SIGN TI}
+\cclrow{12A5C}{𒩜}{PROTO-CUNEIFORM SIGN TI GUNU}
+\cclrow{12A5D}{𒩝}{PROTO-CUNEIFORM SIGN TI REVERSED}
+\cclrow{12A5E}{𒩞}{PROTO-CUNEIFORM SIGN TI TENU}
+\cclrow{12A5F}{𒩟}{PROTO-CUNEIFORM SIGN TILLA2}
+\cclrow{12A60}{𒩠}{PROTO-CUNEIFORM SIGN TU-A}
+\cclrow{12A61}{𒩡}{PROTO-CUNEIFORM SIGN TU-B}
+\cclrow{12A62}{𒩢}{PROTO-CUNEIFORM SIGN TU-C}
+\cclrow{12A63}{𒩣}{PROTO-CUNEIFORM SIGN TUG2-A}
+\cclrow{12A64}{𒩤}{PROTO-CUNEIFORM SIGN TUG2-A GUNU}
+\cclrow{12A65}{𒩥}{PROTO-CUNEIFORM SIGN TUG2-B}
+\cclrow{12A66}{𒩦}{PROTO-CUNEIFORM SIGN TUG2-C}
+\cclrow{12A67}{𒩧}{PROTO-CUNEIFORM SIGN TUM-A}
+\cclrow{12A68}{𒩨}{PROTO-CUNEIFORM SIGN TUM-A GUNU}
+\cclrow{12A69}{𒩩}{PROTO-CUNEIFORM SIGN TUM-B}
+\cclrow{12A6A}{𒩪}{PROTO-CUNEIFORM SIGN TUM-C}
+\cclrow{12A6B}{𒩫}{PROTO-CUNEIFORM SIGN TUM-D}
+\cclrow{12A6C}{𒩬}{PROTO-CUNEIFORM SIGN TUN3-A}
+\cclrow{12A6D}{𒩭}{PROTO-CUNEIFORM SIGN TUN3-B}
+\cclrow{12A6E}{𒩮}{PROTO-CUNEIFORM SIGN TUN3-C}
+\cclrow{12A6F}{𒩯}{PROTO-CUNEIFORM SIGN TUR}
+\cclrow{12A70}{𒩰}{PROTO-CUNEIFORM SIGN TUR GUNU}
+\cclrow{12A71}{𒩱}{PROTO-CUNEIFORM SIGN TUR3-A}
+\cclrow{12A72}{𒩲}{PROTO-CUNEIFORM SIGN TUR3-B}
+\cclrow{12A73}{𒩳}{PROTO-CUNEIFORM SIGN TUR3-C}
+\cclrow{12A74}{𒩴}{PROTO-CUNEIFORM SIGN U2-A}
+\cclrow{12A75}{𒩵}{PROTO-CUNEIFORM SIGN U2-B}
+\cclrow{12A76}{𒩶}{PROTO-CUNEIFORM SIGN U2-C}
+\cclrow{12A77}{𒩷}{PROTO-CUNEIFORM SIGN U4}
+\cclrow{12A78}{𒩸}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1}
+\cclrow{12A79}{𒩹}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1 PLUS ONE-N24}
+\cclrow{12A7A}{𒩺}{PROTO-CUNEIFORM SIGN U4 TIMES THREE-N1}
+\cclrow{12A7B}{𒩻}{PROTO-CUNEIFORM SIGN U4 TIMES FOUR-N1}
+\cclrow{12A7C}{𒩼}{PROTO-CUNEIFORM SIGN U4 TIMES FIVE-N1}
+\cclrow{12A7D}{𒩽}{PROTO-CUNEIFORM SIGN U4 TIMES SIX-N1}
+\cclrow{12A7E}{𒩾}{PROTO-CUNEIFORM SIGN U4 TIMES EIGHT-N1}
+\cclrow{12A7F}{𒩿}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14}
+\cclrow{12A80}{𒪀}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS ONE-N1}
+\cclrow{12A81}{𒪁}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS TWO-N1}
+\cclrow{12A82}{𒪂}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS FOUR-N1}
+\cclrow{12A83}{𒪃}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS EIGHT-N1}
+\cclrow{12A84}{𒪄}{PROTO-CUNEIFORM SIGN U4 TIMES TWO-N14 PLUS FOUR-N1}
+\cclrow{12A85}{𒪅}{PROTO-CUNEIFORM SIGN U4 TIMES THREE-N14 PLUS TWO-N1}
+\cclrow{12A86}{𒪆}{PROTO-CUNEIFORM SIGN U4 TIMES THREE-N14 PLUS SEVEN-N1}
+\cclrow{12A87}{𒪇}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N57}
+\cclrow{12A88}{𒪈}{PROTO-CUNEIFORM SIGN U4 TIMES TWO-N57}
+\cclrow{12A89}{𒪉}{PROTO-CUNEIFORM SIGN U4 TIMES THREE-N57}
+\cclrow{12A8A}{𒪊}{PROTO-CUNEIFORM SIGN U4 TIMES FOUR-N57}
+\cclrow{12A8B}{𒪋}{PROTO-CUNEIFORM SIGN U4 TIMES FIVE-N57}
+\cclrow{12A8C}{𒪌}{PROTO-CUNEIFORM SIGN U4 TIMES SIX-N57}
+\cclrow{12A8D}{𒪍}{PROTO-CUNEIFORM SIGN U4 TIMES SEVEN-N57}
+\cclrow{12A8E}{𒪎}{PROTO-CUNEIFORM SIGN U4 TIMES EIGHT-N57}
+\cclrow{12A8F}{𒪏}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N57}
+\cclrow{12A90}{𒪐}{PROTO-CUNEIFORM SIGN U4 TIMES ONE-N58 TENU}
+\cclrow{12A91}{𒪑}{PROTO-CUNEIFORM SIGN U4 TENU}
+\cclrow{12A92}{𒪒}{PROTO-CUNEIFORM SIGN U8}
+\cclrow{12A93}{𒪓}{PROTO-CUNEIFORM SIGN U8 TIMES TAR-B}
+\cclrow{12A94}{𒪔}{PROTO-CUNEIFORM SIGN UB}
+\cclrow{12A95}{𒪕}{PROTO-CUNEIFORM SIGN UBI-A}
+\cclrow{12A96}{𒪖}{PROTO-CUNEIFORM SIGN UBI-C}
+\cclrow{12A97}{𒪗}{PROTO-CUNEIFORM SIGN UBI-D}
+\cclrow{12A98}{𒪘}{PROTO-CUNEIFORM SIGN UD5-A}
+\cclrow{12A99}{𒪙}{PROTO-CUNEIFORM SIGN UD5-A GUNU}
+\cclrow{12A9A}{𒪚}{PROTO-CUNEIFORM SIGN UD5-B}
+\cclrow{12A9B}{𒪛}{PROTO-CUNEIFORM SIGN UD5-C}
+\cclrow{12A9C}{𒪜}{PROTO-CUNEIFORM SIGN UDU-A}
+\cclrow{12A9D}{𒪝}{PROTO-CUNEIFORM SIGN UDU-A TIMES TAR-A}
+\cclrow{12A9E}{𒪞}{PROTO-CUNEIFORM SIGN UDU-A TIMES TAR-B}
+\cclrow{12A9F}{𒪟}{PROTO-CUNEIFORM SIGN UDU-C}
+\cclrow{12AA0}{𒪠}{PROTO-CUNEIFORM SIGN UDUNITA-A}
+\cclrow{12AA1}{𒪡}{PROTO-CUNEIFORM SIGN UDUNITA-B}
+\cclrow{12AA2}{𒪢}{PROTO-CUNEIFORM SIGN UDUNITA-C}
+\cclrow{12AA3}{𒪣}{PROTO-CUNEIFORM SIGN UH3-A}
+\cclrow{12AA4}{𒪤}{PROTO-CUNEIFORM SIGN UH3-A TENU}
+\cclrow{12AA5}{𒪥}{PROTO-CUNEIFORM SIGN UH3-B}
+\cclrow{12AA6}{𒪦}{PROTO-CUNEIFORM SIGN UKKIN-A}
+\cclrow{12AA7}{𒪧}{PROTO-CUNEIFORM SIGN UKKIN-B}
+\cclrow{12AA8}{𒪨}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES DIN}
+\cclrow{12AA9}{𒪩}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES DIN PLUS ONE-N1}
+\cclrow{12AAA}{𒪪}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES HI GUNU-A}
+\cclrow{12AAB}{𒪫}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES NI-A}
+\cclrow{12AAC}{𒪬}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES TWO-N1}
+\cclrow{12AAD}{𒪭}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES THREE-N1}
+\cclrow{12AAE}{𒪮}{PROTO-CUNEIFORM SIGN UKKIN-B TIMES FIVE-N1}
+\cclrow{12AAF}{𒪯}{PROTO-CUNEIFORM SIGN UKKIN-C}
+\cclrow{12AB0}{𒪰}{PROTO-CUNEIFORM SIGN UMBIN-A}
+\cclrow{12AB1}{𒪱}{PROTO-CUNEIFORM SIGN UMBIN-B1}
+\cclrow{12AB2}{𒪲}{PROTO-CUNEIFORM SIGN UMBIN-B2}
+\cclrow{12AB3}{𒪳}{PROTO-CUNEIFORM SIGN UMBIN-C}
+\cclrow{12AB4}{𒪴}{PROTO-CUNEIFORM SIGN UMUN2}
+\cclrow{12AB5}{𒪵}{PROTO-CUNEIFORM SIGN UNUG-A}
+\cclrow{12AB6}{𒪶}{PROTO-CUNEIFORM SIGN UNUG-A TIMES A TENU}
+\cclrow{12AB7}{𒪷}{PROTO-CUNEIFORM SIGN UNUG-A SHESHIG}
+\cclrow{12AB8}{𒪸}{PROTO-CUNEIFORM SIGN UNUG-B}
+\cclrow{12AB9}{𒪹}{PROTO-CUNEIFORM SIGN UNUG-C}
+\cclrow{12ABA}{𒪺}{PROTO-CUNEIFORM SIGN UR-A}
+\cclrow{12ABB}{𒪻}{PROTO-CUNEIFORM SIGN UR-A GUNU}
+\cclrow{12ABC}{𒪼}{PROTO-CUNEIFORM SIGN UR-B}
+\cclrow{12ABD}{𒪽}{PROTO-CUNEIFORM SIGN UR-C}
+\cclrow{12ABE}{𒪾}{PROTO-CUNEIFORM SIGN UR2}
+\cclrow{12ABF}{𒪿}{PROTO-CUNEIFORM SIGN UR2 TIMES TAR-C}
+\cclrow{12AC0}{𒫀}{PROTO-CUNEIFORM SIGN UR2 TIMES ONE-N57}
+\cclrow{12AC1}{𒫁}{PROTO-CUNEIFORM SIGN UR3-A1}
+\cclrow{12AC2}{𒫂}{PROTO-CUNEIFORM SIGN UR3-A2}
+\cclrow{12AC3}{𒫃}{PROTO-CUNEIFORM SIGN UR3-A3}
+\cclrow{12AC4}{𒫄}{PROTO-CUNEIFORM SIGN UR3-B1}
+\cclrow{12AC5}{𒫅}{PROTO-CUNEIFORM SIGN UR3-B2}
+\cclrow{12AC6}{𒫆}{PROTO-CUNEIFORM SIGN UR4-A}
+\cclrow{12AC7}{𒫇}{PROTO-CUNEIFORM SIGN UR4-B}
+\cclrow{12AC8}{𒫈}{PROTO-CUNEIFORM SIGN UR4-C}
+\cclrow{12AC9}{𒫉}{PROTO-CUNEIFORM SIGN UR5-A}
+\cclrow{12ACA}{𒫊}{PROTO-CUNEIFORM SIGN UR5-B}
+\cclrow{12ACB}{𒫋}{PROTO-CUNEIFORM SIGN URI}
+\cclrow{12ACC}{𒫌}{PROTO-CUNEIFORM SIGN URI3-A}
+\cclrow{12ACD}{𒫍}{PROTO-CUNEIFORM SIGN URI5}
+\cclrow{12ACE}{𒫎}{PROTO-CUNEIFORM SIGN URU-A1}
+\cclrow{12ACF}{𒫏}{PROTO-CUNEIFORM SIGN URU-A1 TIMES AMAR}
+\cclrow{12AD0}{𒫐}{PROTO-CUNEIFORM SIGN URU-A1 TIMES HI GUNU-A}
+\cclrow{12AD1}{𒫑}{PROTO-CUNEIFORM SIGN URU-A1 TIMES KI}
+\cclrow{12AD2}{𒫒}{PROTO-CUNEIFORM SIGN URU-A1 TIMES NIMGIR}
+\cclrow{12AD3}{𒫓}{PROTO-CUNEIFORM SIGN URU-A1 TIMES U4}
+\cclrow{12AD4}{𒫔}{PROTO-CUNEIFORM SIGN URU-A1 TIMES THREE-N57}
+\cclrow{12AD5}{𒫕}{PROTO-CUNEIFORM SIGN URU-A2}
+\cclrow{12AD6}{𒫖}{PROTO-CUNEIFORM SIGN URU-A2 TIMES ONE-N58}
+\cclrow{12AD7}{𒫗}{PROTO-CUNEIFORM SIGN URU-A3 TIMES KALAM-A}
+\cclrow{12AD8}{𒫘}{PROTO-CUNEIFORM SIGN URU-B1}
+\cclrow{12AD9}{𒫙}{PROTO-CUNEIFORM SIGN URU-B2}
+\cclrow{12ADA}{𒫚}{PROTO-CUNEIFORM SIGN URU-C}
+\cclrow{12ADB}{𒫛}{PROTO-CUNEIFORM SIGN URUDU-A}
+\cclrow{12ADC}{𒫜}{PROTO-CUNEIFORM SIGN URUDU-C}
+\cclrow{12ADD}{𒫝}{PROTO-CUNEIFORM SIGN URUDU-D}
+\cclrow{12ADE}{𒫞}{PROTO-CUNEIFORM SIGN URUDU GUNU-A}
+\cclrow{12ADF}{𒫟}{PROTO-CUNEIFORM SIGN URUDU GUNU-C}
+\cclrow{12AE0}{𒫠}{PROTO-CUNEIFORM SIGN URUDU GUNU-D}
+\cclrow{12AE1}{𒫡}{PROTO-CUNEIFORM SIGN USH-A}
+\cclrow{12AE2}{𒫢}{PROTO-CUNEIFORM SIGN USH-A OVER USH-A}
+\cclrow{12AE3}{𒫣}{PROTO-CUNEIFORM SIGN USH-B}
+\cclrow{12AE4}{𒫤}{PROTO-CUNEIFORM SIGN USH-B TIMES TAR-C}
+\cclrow{12AE5}{𒫥}{PROTO-CUNEIFORM SIGN USH-B OVER USH-B}
+\cclrow{12AE6}{𒫦}{PROTO-CUNEIFORM SIGN USHUR3-B1}
+\cclrow{12AE7}{𒫧}{PROTO-CUNEIFORM SIGN USHUR3-B2}
+\cclrow{12AE8}{𒫨}{PROTO-CUNEIFORM SIGN UTUA-A}
+\cclrow{12AE9}{𒫩}{PROTO-CUNEIFORM SIGN UTUA-A TENU}
+\cclrow{12AEA}{𒫪}{PROTO-CUNEIFORM SIGN UTUA-B}
+\cclrow{12AEB}{𒫫}{PROTO-CUNEIFORM SIGN UTUL-A}
+\cclrow{12AEC}{𒫬}{PROTO-CUNEIFORM SIGN UTUL-B}
+\cclrow{12AED}{𒫭}{PROTO-CUNEIFORM SIGN UTUL-C}
+\cclrow{12AEE}{𒫮}{PROTO-CUNEIFORM SIGN UTUL-D}
+\cclrow{12AEF}{𒫯}{PROTO-CUNEIFORM SIGN UZ-A}
+\cclrow{12AF0}{𒫰}{PROTO-CUNEIFORM SIGN UZU}
+\cclrow{12AF1}{𒫱}{PROTO-CUNEIFORM SIGN ZA-V}
+\cclrow{12AF2}{𒫲}{PROTO-CUNEIFORM SIGN ZAG-A}
+\cclrow{12AF3}{𒫳}{PROTO-CUNEIFORM SIGN ZAG-B}
+\cclrow{12AF4}{𒫴}{PROTO-CUNEIFORM SIGN ZAG-C}
+\cclrow{12AF5}{𒫵}{PROTO-CUNEIFORM SIGN ZAR-A}
+\cclrow{12AF6}{𒫶}{PROTO-CUNEIFORM SIGN ZAR-B1}
+\cclrow{12AF7}{𒫷}{PROTO-CUNEIFORM SIGN ZAR-B2}
+\cclrow{12AF8}{𒫸}{PROTO-CUNEIFORM SIGN ZAR-C}
+\cclrow{12AF9}{𒫹}{PROTO-CUNEIFORM SIGN ZI-A}
+\cclrow{12AFA}{𒫺}{PROTO-CUNEIFORM SIGN ZI-B}
+\cclrow{12AFB}{𒫻}{PROTO-CUNEIFORM SIGN ZI-D}
+\cclrow{12AFC}{𒫼}{PROTO-CUNEIFORM SIGN ZUBI-A}
+\cclrow{12AFD}{𒫽}{PROTO-CUNEIFORM SIGN ZATU620}
+\cclrow{12AFE}{𒫾}{PROTO-CUNEIFORM SIGN ZATU621~a}
+\cclrow{12AFF}{𒫿}{PROTO-CUNEIFORM SIGN ZATU621~b}
+\cclrow{12B00}{𒬀}{PROTO-CUNEIFORM SIGN ZATU621~c}
+\cclrow{12B01}{𒬁}{PROTO-CUNEIFORM SIGN ZATU621~d}
+\cclrow{12B02}{𒬂}{PROTO-CUNEIFORM SIGN ZATU622}
+\cclrow{12B03}{𒬃}{PROTO-CUNEIFORM SIGN ZATU623}
+\cclrow{12B04}{𒬄}{PROTO-CUNEIFORM SIGN ZATU624~a}
+\cclrow{12B05}{𒬅}{PROTO-CUNEIFORM SIGN ZATU624~b}
+\cclrow{12B06}{𒬆}{PROTO-CUNEIFORM SIGN ZATU625}
+\cclrow{12B07}{𒬇}{PROTO-CUNEIFORM SIGN ZATU626~a}
+\cclrow{12B08}{𒬈}{PROTO-CUNEIFORM SIGN ZATU626~b}
+\cclrow{12B09}{𒬉}{PROTO-CUNEIFORM SIGN ZATU626~c}
+\cclrow{12B0A}{𒬊}{PROTO-CUNEIFORM SIGN ZATU628~a}
+\cclrow{12B0B}{𒬋}{PROTO-CUNEIFORM SIGN ZATU628~b}
+\cclrow{12B0C}{𒬌}{PROTO-CUNEIFORM SIGN ZATU629}
+\cclrow{12B0D}{𒬍}{PROTO-CUNEIFORM SIGN ZATU630}
+\cclrow{12B0E}{𒬎}{PROTO-CUNEIFORM SIGN ZATU631}
+\cclrow{12B0F}{𒬏}{PROTO-CUNEIFORM SIGN ZATU632~a}
+\cclrow{12B10}{𒬐}{PROTO-CUNEIFORM SIGN ZATU632~b}
+\cclrow{12B11}{𒬑}{PROTO-CUNEIFORM SIGN ZATU633~a}
+\cclrow{12B12}{𒬒}{PROTO-CUNEIFORM SIGN ZATU633~b}
+\cclrow{12B13}{𒬓}{PROTO-CUNEIFORM SIGN ZATU635}
+\cclrow{12B14}{𒬔}{PROTO-CUNEIFORM SIGN ZATU636}
+\cclrow{12B15}{𒬕}{PROTO-CUNEIFORM SIGN ZATU637}
+\cclrow{12B16}{𒬖}{PROTO-CUNEIFORM SIGN ZATU639}
+\cclrow{12B17}{𒬗}{PROTO-CUNEIFORM SIGN ZATU641}
+\cclrow{12B18}{𒬘}{PROTO-CUNEIFORM SIGN ZATU642}
+\cclrow{12B19}{𒬙}{PROTO-CUNEIFORM SIGN ZATU643}
+\cclrow{12B1A}{𒬚}{PROTO-CUNEIFORM SIGN ZATU644~a}
+\cclrow{12B1B}{𒬛}{PROTO-CUNEIFORM SIGN ZATU644~b}
+\cclrow{12B1C}{𒬜}{PROTO-CUNEIFORM SIGN ZATU646}
+\cclrow{12B1D}{𒬝}{PROTO-CUNEIFORM SIGN ZATU647}
+\cclrow{12B1E}{𒬞}{PROTO-CUNEIFORM SIGN ZATU648}
+\cclrow{12B1F}{𒬟}{PROTO-CUNEIFORM SIGN ZATU649}
+\cclrow{12B20}{𒬠}{PROTO-CUNEIFORM SIGN ZATU651}
+\cclrow{12B21}{𒬡}{PROTO-CUNEIFORM SIGN ZATU651 TIMES AN}
+\cclrow{12B22}{𒬢}{PROTO-CUNEIFORM SIGN ZATU651 TIMES EN-A}
+\cclrow{12B23}{𒬣}{PROTO-CUNEIFORM SIGN ZATU651 TIMES GAR}
+\cclrow{12B24}{𒬤}{PROTO-CUNEIFORM SIGN ZATU651 TIMES MA}
+\cclrow{12B25}{𒬥}{PROTO-CUNEIFORM SIGN ZATU651 TIMES NUN-A}
+\cclrow{12B26}{𒬦}{PROTO-CUNEIFORM SIGN ZATU651 TIMES ZAR-C}
+\cclrow{12B27}{𒬧}{PROTO-CUNEIFORM SIGN ZATU651@g}
+\cclrow{12B28}{𒬨}{PROTO-CUNEIFORM SIGN ZATU659}
+\cclrow{12B29}{𒬩}{PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N1}
+\cclrow{12B2A}{𒬪}{PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N14}
+\cclrow{12B2B}{𒬫}{PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N58 TENU}
+\cclrow{12B2C}{𒬬}{PROTO-CUNEIFORM SIGN ZATU662}
+\cclrow{12B2D}{𒬭}{PROTO-CUNEIFORM SIGN ZATU662 TIMES ONE-N14}
+\cclrow{12B2E}{𒬮}{PROTO-CUNEIFORM SIGN ZATU664}
+\cclrow{12B2F}{𒬯}{PROTO-CUNEIFORM SIGN ZATU665}
+\cclrow{12B30}{𒬰}{PROTO-CUNEIFORM SIGN ZATU666}
+\cclrow{12B31}{𒬱}{PROTO-CUNEIFORM SIGN ZATU667}
+\cclrow{12B32}{𒬲}{PROTO-CUNEIFORM SIGN ZATU668}
+\cclrow{12B33}{𒬳}{PROTO-CUNEIFORM SIGN ZATU669}
+\cclrow{12B34}{𒬴}{PROTO-CUNEIFORM SIGN ZATU672}
+\cclrow{12B35}{𒬵}{PROTO-CUNEIFORM SIGN ZATU675~a}
+\cclrow{12B36}{𒬶}{PROTO-CUNEIFORM SIGN ZATU675~b}
+\cclrow{12B37}{𒬷}{PROTO-CUNEIFORM SIGN ZATU675~c}
+\cclrow{12B38}{𒬸}{PROTO-CUNEIFORM SIGN ZATU675~d}
+\cclrow{12B39}{𒬹}{PROTO-CUNEIFORM SIGN ZATU676~a}
+\cclrow{12B3A}{𒬺}{PROTO-CUNEIFORM SIGN ZATU676~b}
+\cclrow{12B3B}{𒬻}{PROTO-CUNEIFORM SIGN ZATU677~a}
+\cclrow{12B3C}{𒬼}{PROTO-CUNEIFORM SIGN ZATU677~b}
+\cclrow{12B3D}{𒬽}{PROTO-CUNEIFORM SIGN ZATU678}
+\cclrow{12B3E}{𒬾}{PROTO-CUNEIFORM SIGN ZATU679}
+\cclrow{12B3F}{𒬿}{PROTO-CUNEIFORM SIGN ZATU680~a1}
+\cclrow{12B40}{𒭀}{PROTO-CUNEIFORM SIGN ZATU680~a2}
+\cclrow{12B41}{𒭁}{PROTO-CUNEIFORM SIGN ZATU680~b}
+\cclrow{12B42}{𒭂}{PROTO-CUNEIFORM SIGN ZATU680~d}
+\cclrow{12B43}{𒭃}{PROTO-CUNEIFORM SIGN ZATU680~e}
+\cclrow{12B44}{𒭄}{PROTO-CUNEIFORM SIGN ZATU681}
+\cclrow{12B45}{𒭅}{PROTO-CUNEIFORM SIGN ZATU682}
+\cclrow{12B46}{𒭆}{PROTO-CUNEIFORM SIGN ZATU683~a}
+\cclrow{12B47}{𒭇}{PROTO-CUNEIFORM SIGN ZATU683~b}
+\cclrow{12B48}{𒭈}{PROTO-CUNEIFORM SIGN ZATU684}
+\cclrow{12B49}{𒭉}{PROTO-CUNEIFORM SIGN ZATU685}
+\cclrow{12B4A}{𒭊}{PROTO-CUNEIFORM SIGN ZATU686~a}
+\cclrow{12B4B}{𒭋}{PROTO-CUNEIFORM SIGN ZATU686~b}
+\cclrow{12B4C}{𒭌}{PROTO-CUNEIFORM SIGN ZATU686~c}
+\cclrow{12B4D}{𒭍}{PROTO-CUNEIFORM SIGN ZATU687}
+\cclrow{12B4E}{𒭎}{PROTO-CUNEIFORM SIGN ZATU688~a}
+\cclrow{12B4F}{𒭏}{PROTO-CUNEIFORM SIGN ZATU688~b}
+\cclrow{12B50}{𒭐}{PROTO-CUNEIFORM SIGN ZATU689}
+\cclrow{12B51}{𒭑}{PROTO-CUNEIFORM SIGN ZATU690}
+\cclrow{12B52}{𒭒}{PROTO-CUNEIFORM SIGN ZATU691}
+\cclrow{12B53}{𒭓}{PROTO-CUNEIFORM SIGN ZATU692}
+\cclrow{12B54}{𒭔}{PROTO-CUNEIFORM SIGN ZATU693}
+\cclrow{12B55}{𒭕}{PROTO-CUNEIFORM SIGN ZATU693@t}
+\cclrow{12B56}{𒭖}{PROTO-CUNEIFORM SIGN ZATU694~a}
+\cclrow{12B57}{𒭗}{PROTO-CUNEIFORM SIGN ZATU694~b}
+\cclrow{12B58}{𒭘}{PROTO-CUNEIFORM SIGN ZATU694~c}
+\cclrow{12B59}{𒭙}{PROTO-CUNEIFORM SIGN ZATU694~d}
+\cclrow{12B5A}{𒭚}{PROTO-CUNEIFORM SIGN ZATU694~d@t}
+\cclrow{12B5B}{𒭛}{PROTO-CUNEIFORM SIGN ZATU695}
+\cclrow{12B5C}{𒭜}{PROTO-CUNEIFORM SIGN ZATU696}
+\cclrow{12B5D}{𒭝}{PROTO-CUNEIFORM SIGN ZATU697~a}
+\cclrow{12B5E}{𒭞}{PROTO-CUNEIFORM SIGN ZATU697~b}
+\cclrow{12B5F}{𒭟}{PROTO-CUNEIFORM SIGN ZATU699~b}
+\cclrow{12B60}{𒭠}{PROTO-CUNEIFORM SIGN ZATU700}
+\cclrow{12B61}{𒭡}{PROTO-CUNEIFORM SIGN ZATU701}
+\cclrow{12B62}{𒭢}{PROTO-CUNEIFORM SIGN ZATU702}
+\cclrow{12B63}{𒭣}{PROTO-CUNEIFORM SIGN ZATU703}
+\cclrow{12B64}{𒭤}{PROTO-CUNEIFORM SIGN ZATU705}
+\cclrow{12B65}{𒭥}{PROTO-CUNEIFORM SIGN ZATU706}
+\cclrow{12B66}{𒭦}{PROTO-CUNEIFORM SIGN ZATU707~a}
+\cclrow{12B67}{𒭧}{PROTO-CUNEIFORM SIGN ZATU707~b}
+\cclrow{12B68}{𒭨}{PROTO-CUNEIFORM SIGN ZATU708}
+\cclrow{12B69}{𒭩}{PROTO-CUNEIFORM SIGN ZATU709}
+\cclrow{12B6A}{𒭪}{PROTO-CUNEIFORM SIGN ZATU710}
+\cclrow{12B6B}{𒭫}{PROTO-CUNEIFORM SIGN ZATU711}
+\cclrow{12B6C}{𒭬}{PROTO-CUNEIFORM SIGN ZATU711 TIMES HI GUNU-A}
+\cclrow{12B6D}{𒭭}{PROTO-CUNEIFORM SIGN ZATU713}
+\cclrow{12B6E}{𒭮}{PROTO-CUNEIFORM SIGN ZATU714}
+\cclrow{12B6F}{𒭯}{PROTO-CUNEIFORM SIGN ZATU714 TIMES HI GUNU-A}
+\cclrow{12B70}{𒭰}{PROTO-CUNEIFORM SIGN ZATU717}
+\cclrow{12B71}{𒭱}{PROTO-CUNEIFORM SIGN ZATU718}
+\cclrow{12B72}{𒭲}{PROTO-CUNEIFORM SIGN ZATU719}
+\cclrow{12B73}{𒭳}{PROTO-CUNEIFORM SIGN ZATU720}
+\cclrow{12B74}{𒭴}{PROTO-CUNEIFORM SIGN ZATU721}
+\cclrow{12B75}{𒭵}{PROTO-CUNEIFORM SIGN ZATU722}
+\cclrow{12B76}{𒭶}{PROTO-CUNEIFORM SIGN ZATU723}
+\cclrow{12B77}{𒭷}{PROTO-CUNEIFORM SIGN ZATU725}
+\cclrow{12B78}{𒭸}{PROTO-CUNEIFORM SIGN ZATU726~a}
+\cclrow{12B79}{𒭹}{PROTO-CUNEIFORM SIGN ZATU726~c}
+\cclrow{12B7A}{𒭺}{PROTO-CUNEIFORM SIGN ZATU726~d}
+\cclrow{12B7B}{𒭻}{PROTO-CUNEIFORM SIGN ZATU727}
+\cclrow{12B7C}{𒭼}{PROTO-CUNEIFORM SIGN ZATU728}
+\cclrow{12B7D}{𒭽}{PROTO-CUNEIFORM SIGN ZATU729}
+\cclrow{12B7E}{𒭾}{PROTO-CUNEIFORM SIGN ZATU730}
+\cclrow{12B7F}{𒭿}{PROTO-CUNEIFORM SIGN ZATU732}
+\cclrow{12B80}{𒮀}{PROTO-CUNEIFORM SIGN ZATU734}
+\cclrow{12B81}{𒮁}{PROTO-CUNEIFORM SIGN ZATU735~a}
+\cclrow{12B82}{𒮂}{PROTO-CUNEIFORM SIGN ZATU735~b}
+\cclrow{12B83}{𒮃}{PROTO-CUNEIFORM SIGN ZATU735~c}
+\cclrow{12B84}{𒮄}{PROTO-CUNEIFORM SIGN ZATU736~a}
+\cclrow{12B85}{𒮅}{PROTO-CUNEIFORM SIGN ZATU736~b}
+\cclrow{12B86}{𒮆}{PROTO-CUNEIFORM SIGN ZATU737}
+\cclrow{12B87}{𒮇}{PROTO-CUNEIFORM SIGN ZATU737 TIMES AB-A}
+\cclrow{12B88}{𒮈}{PROTO-CUNEIFORM SIGN ZATU737 TIMES BU-A}
+\cclrow{12B89}{𒮉}{PROTO-CUNEIFORM SIGN ZATU737 TIMES BUR-A}
+\cclrow{12B8A}{𒮊}{PROTO-CUNEIFORM SIGN ZATU737 TIMES DI}
+\cclrow{12B8B}{𒮋}{PROTO-CUNEIFORM SIGN ZATU737 TIMES EN-A}
+\cclrow{12B8C}{𒮌}{PROTO-CUNEIFORM SIGN ZATU737 TIMES EN-B}
+\cclrow{12B8D}{𒮍}{PROTO-CUNEIFORM SIGN ZATU737 TIMES GAR}
+\cclrow{12B8E}{𒮎}{PROTO-CUNEIFORM SIGN ZATU737 TIMES NI-A GUNU}
+\cclrow{12B8F}{𒮏}{PROTO-CUNEIFORM SIGN ZATU737 TIMES NIMGIR}
+\cclrow{12B90}{𒮐}{PROTO-CUNEIFORM SIGN ZATU737 TIMES SAL}
+\cclrow{12B91}{𒮑}{PROTO-CUNEIFORM SIGN ZATU737 TIMES SU-A}
+\cclrow{12B92}{𒮒}{PROTO-CUNEIFORM SIGN ZATU737 TIMES SHE-A}
+\cclrow{12B93}{𒮓}{PROTO-CUNEIFORM SIGN ZATU737 TIMES SHITA-A1}
+\cclrow{12B94}{𒮔}{PROTO-CUNEIFORM SIGN ZATU737 TIMES U4}
+\cclrow{12B95}{𒮕}{PROTO-CUNEIFORM SIGN ZATU737 TIMES UNUG-A}
+\cclrow{12B96}{𒮖}{PROTO-CUNEIFORM SIGN ZATU749~a}
+\cclrow{12B97}{𒮗}{PROTO-CUNEIFORM SIGN ZATU749~b}
+\cclrow{12B98}{𒮘}{PROTO-CUNEIFORM SIGN ZATU749~c}
+\cclrow{12B99}{𒮙}{PROTO-CUNEIFORM SIGN ZATU750}
+\cclrow{12B9A}{𒮚}{PROTO-CUNEIFORM SIGN ZATU751~a}
+\cclrow{12B9B}{𒮛}{PROTO-CUNEIFORM SIGN ZATU751~b}
+\cclrow{12B9C}{𒮜}{PROTO-CUNEIFORM SIGN ZATU752}
+\cclrow{12B9D}{𒮝}{PROTO-CUNEIFORM SIGN ZATU753}
+\cclrow{12B9E}{𒮞}{PROTO-CUNEIFORM SIGN ZATU754}
+\cclrow{12B9F}{𒮟}{PROTO-CUNEIFORM SIGN ZATU755~a}
+\cclrow{12BA0}{𒮠}{PROTO-CUNEIFORM SIGN ZATU755~b}
+\cclrow{12BA1}{𒮡}{PROTO-CUNEIFORM SIGN ZATU756}
+\cclrow{12BA2}{𒮢}{PROTO-CUNEIFORM SIGN ZATU757}
+\cclrow{12BA3}{𒮣}{PROTO-CUNEIFORM SIGN ZATU758}
+\cclrow{12BA4}{𒮤}{PROTO-CUNEIFORM SIGN ZATU759}
+\cclrow{12BA5}{𒮥}{PROTO-CUNEIFORM SIGN ZATU759 TIMES KU6-A}
+\cclrow{12BA6}{𒮦}{PROTO-CUNEIFORM SIGN ZATU759 TIMES KU6-A JOINING KU6-A}
+\cclrow{12BA7}{𒮧}{PROTO-CUNEIFORM SIGN ZATU762~a}
+\cclrow{12BA8}{𒮨}{PROTO-CUNEIFORM SIGN ZATU762-A TIMES NIM-A}
+\cclrow{12BA9}{𒮩}{PROTO-CUNEIFORM SIGN ZATU762~b}
+\cclrow{12BAA}{𒮪}{PROTO-CUNEIFORM SIGN ZATU762-B TIMES AB-A}
+\cclrow{12BAB}{𒮫}{PROTO-CUNEIFORM SIGN ZATU764}
+\cclrow{12BAC}{𒮬}{PROTO-CUNEIFORM SIGN ZATU765}
+\cclrow{12BAD}{𒮭}{PROTO-CUNEIFORM SIGN ZATU766}
+\cclrow{12BAE}{𒮮}{PROTO-CUNEIFORM SIGN ZATU767}
+\cclrow{12BAF}{𒮯}{PROTO-CUNEIFORM SIGN ZATU772}
+\cclrow{12BB0}{𒮰}{PROTO-CUNEIFORM SIGN ZATU773~a}
+\cclrow{12BB1}{𒮱}{PROTO-CUNEIFORM SIGN ZATU773~b}
+\cclrow{12BB2}{𒮲}{PROTO-CUNEIFORM SIGN ZATU774}
+\cclrow{12BB3}{𒮳}{PROTO-CUNEIFORM SIGN ZATU775}
+\cclrow{12BB4}{𒮴}{PROTO-CUNEIFORM SIGN ZATU776}
+\cclrow{12BB5}{𒮵}{PROTO-CUNEIFORM SIGN ZATU777}
+\cclrow{12BB6}{𒮶}{PROTO-CUNEIFORM SIGN ZATU778}
+\cclrow{12BB7}{𒮷}{PROTO-CUNEIFORM SIGN ZATU780}
+\cclrow{12BB8}{𒮸}{PROTO-CUNEIFORM SIGN ZATU781}
+\cclrow{12BB9}{𒮹}{PROTO-CUNEIFORM SIGN ZATU782}
+\cclrow{12BBA}{𒮺}{PROTO-CUNEIFORM SIGN ZATU783}
+\cclrow{12BBB}{𒮻}{PROTO-CUNEIFORM SIGN ZATU784}
+\cclrow{12BBC}{𒮼}{PROTO-CUNEIFORM SIGN ZATU786}
+\cclrow{12BBD}{𒮽}{PROTO-CUNEIFORM SIGN ZATU787}
+\cclrow{12BBE}{𒮾}{PROTO-CUNEIFORM SIGN ZATU788}
+\cclrow{12BBF}{𒮿}{PROTO-CUNEIFORM SIGN ZATU791}
+\cclrow{12BC0}{𒯀}{PROTO-CUNEIFORM SIGN ZATU792}
+\cclrow{12BC1}{𒯁}{PROTO-CUNEIFORM SIGN ZATU795}
+\cclrow{12BC2}{𒯂}{PROTO-CUNEIFORM SIGN ZATU797}
+\cclrow{12BC3}{𒯃}{PROTO-CUNEIFORM SIGN ZATU798}
+\cclrow{12BC4}{𒯄}{PROTO-CUNEIFORM SIGN ZATU799}
+\cclrow{12BC5}{𒯅}{PROTO-CUNEIFORM SIGN ZATU800}
+\cclrow{12BC6}{𒯆}{PROTO-CUNEIFORM SIGN ZATU801}
+\cclrow{12BC7}{𒯇}{PROTO-CUNEIFORM SIGN ZATU802}
+\cclrow{12BC8}{𒯈}{PROTO-CUNEIFORM SIGN ZATU802~b}
+\cclrow{12BC9}{𒯉}{PROTO-CUNEIFORM SIGN ZATU803}
+\cclrow{12BCA}{𒯊}{PROTO-CUNEIFORM SIGN ZATU804}
+\cclrow{12BCB}{𒯋}{PROTO-CUNEIFORM SIGN ZATU806}
+\cclrow{12BCC}{𒯌}{PROTO-CUNEIFORM SIGN ZATU807}
+\cclrow{12BCD}{𒯍}{PROTO-CUNEIFORM SIGN ZATU808}
+\cclrow{12BCE}{𒯎}{PROTO-CUNEIFORM SIGN ZATU809}
+\cclrow{12BCF}{𒯏}{PROTO-CUNEIFORM SIGN ZATU810}
+\cclrow{12BD0}{𒯐}{PROTO-CUNEIFORM SIGN ZATU811}
+\cclrow{12BD1}{𒯑}{PROTO-CUNEIFORM SIGN ZATU812}
+\cclrow{12BD2}{𒯒}{PROTO-CUNEIFORM SIGN ZATU813}
+\cclrow{12BD3}{𒯓}{PROTO-CUNEIFORM SIGN ZATU832}
+\cclrow{12BD4}{𒯔}{PROTO-CUNEIFORM SIGN ZATU833}
+\cclrow{12BD5}{𒯕}{PROTO-CUNEIFORM SIGN ZATU834}
+\cclrow{12BD6}{𒯖}{PROTO-CUNEIFORM SIGN ZATU835}
+\cclrow{12BD7}{𒯗}{PROTO-CUNEIFORM SIGN ZATU836}
+\cclrow{12BD8}{𒯘}{PROTO-CUNEIFORM SIGN ZATU847}
+\cclrow{12BD9}{𒯙}{PROTO-CUNEIFORM SIGN ZATU850}
+\cclrow{12BDA}{𒯚}{PROTO-CUNEIFORM SIGN ZATU851}
+\cclrow{12BDB}{𒯛}{PROTO-CUNEIFORM SIGN ZATU854}
+\cclrow{12BDC}{𒯜}{PROTO-CUNEIFORM SIGN ZATU858}
+\cclrow{12BDD}{𒯝}{PROTO-CUNEIFORM SIGN ZATU859}
+\cclrow{12BDE}{𒯞}{PROTO-CUNEIFORM NUMBER TWO-LAGAB-A}
+\cclrow{12BDF}{𒯟}{PROTO-CUNEIFORM NUMBER THREE-LAGAB-A}
+\cclrow{12BE0}{𒯠}{PROTO-CUNEIFORM NUMBER FOUR-LAGAB-A}
+\cclrow{12BE1}{𒯡}{PROTO-CUNEIFORM NUMBER FIVE-LAGAB-A}
+\cclrow{12BE2}{𒯢}{PROTO-CUNEIFORM NUMBER SIX-LAGAB-A}
+\cclrow{12BE3}{𒯣}{PROTO-CUNEIFORM NUMBER ONE-N57}
+\cclrow{12BE4}{𒯤}{PROTO-CUNEIFORM NUMBER TWO-N57}
+\cclrow{12BE5}{𒯥}{PROTO-CUNEIFORM NUMBER THREE-N57}
+\cclrow{12BE6}{𒯦}{PROTO-CUNEIFORM NUMBER FOUR-N57}
+\cclrow{12BE7}{𒯧}{PROTO-CUNEIFORM NUMBER FIVE-N57}
+\cclrow{12BE8}{𒯨}{PROTO-CUNEIFORM NUMBER SIX-N57}
+\cclrow{12BE9}{𒯩}{PROTO-CUNEIFORM NUMBER SEVEN-N57}
+\cclrow{12BEA}{𒯪}{PROTO-CUNEIFORM NUMBER EIGHT-N57}
+\cclrow{12BEB}{𒯫}{PROTO-CUNEIFORM NUMBER NINE-N57}
+\cclrow{12BEC}{𒯬}{PROTO-CUNEIFORM NUMBER ONE-N57}
+\cclrow{12BED}{𒯭}{PROTO-CUNEIFORM NUMBER ONE-N58}
+\cclrow{12BEE}{𒯮}{PROTO-CUNEIFORM SIGN ONE-N58 WITH BAD}
+\cclrow{12BEF}{𒯯}{PROTO-CUNEIFORM SIGN ONE-N58 PLUS BAD FORM B}
+\cclrow{12BF0}{𒯰}{PROTO-CUNEIFORM NUMBER TWO-N58}
+\cclrow{12BF1}{𒯱}{PROTO-CUNEIFORM NUMBER THREE-N58}
+\cclrow{12BF2}{𒯲}{PROTO-CUNEIFORM SIGN THREE-N58 WITH UR3-B1}
+\cclrow{12BF3}{𒯳}{PROTO-CUNEIFORM NUMBER FOUR-N58}
+\cclrow{12BF4}{𒯴}{PROTO-CUNEIFORM NUMBER FIVE-N58}
+\cclrow{12BF5}{𒯵}{PROTO-CUNEIFORM NUMBER EIGHT-N58}
+\cclrow{12BF6}{𒯶}{PROTO-CUNEIFORM NUMBER NINE-N58}
+\cclrow{12BF7}{𒯷}{PROTO-CUNEIFORM NUMBER ONE-N58}
+\cclrow{12BF8}{𒯸}{PROTO-CUNEIFORM NUMBER ONE-N58}
+\cclrow{12BF9}{𒯹}{PROTO-CUNEIFORM NUMBER ONE-N58 TENU}
+\endchartlist
+\bye

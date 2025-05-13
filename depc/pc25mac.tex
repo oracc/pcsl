@@ -1,0 +1,365 @@
+\input newmcol
+
+\font\slnmfont="Ungkam Basic Bold" at9pt
+\font\sltgfont="Ungkam Basic" at8pt
+\font\slnmfontw="Ungkam Basic Bold:color=00FF00" at6.5pt
+\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.5pt
+\font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
+\font\sldistfont="Ungkam Basic" at9pt
+\font\oidfont="Ungkam Basic" at9pt
+\font\oidfontx="Ungkam Basic" at8pt
+\font\zatufont="Ungkam Basic" at7.5pt
+
+\oidfont\dimen255=1em \showthe\dimen255
+
+\font\pcssXX="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 18pt
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 14pt
+\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20" at 12pt
+\font\pcxviii="[/Users/stinney/orc/lib/fonts/PC25.ttf]" at 18pt
+
+\font\pceee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E5E5E5" at18pt
+\font\pceff="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E6FAFC" at18pt
+\font\pcefd="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=E0FCDE" at18pt
+\font\pcfee="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FF0000" at18pt
+\font\pcffe="[/Users/stinney/orc/lib/fonts/PC25.ttf]:+ss20,color=FFFFE6" at18pt
+\font\pcblu="[/Users/stinney/orc/lib/fonts/PC25.ttf]:color=0000FF" at18pt
+
+\let\redpc\pcfee
+\let\newgh\pcblu
+
+%\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 5pt
+\font\helv=Arial at 9pt
+\font\helvx="Arial Narrow" at 6pt
+\font\helvy="Arial Narrow" at 8pt
+\font\helvz="Arial Narrow" at 7pt
+
+\let\everymathextra\relax
+\let\preamble\relax
+
+\vfuzz3pt
+
+\let\seq\relax
+\let\lname\relax
+\let\sname\relax
+\let\uname\relax
+\let\chars\relax
+\let\names\relax
+\let\glyph\relax
+\let\rglyf\relax
+\let\image\relax
+\let\notes\relax
+\let\stags\relax
+
+\let\sqdbcun\relax
+\let\sqdbpua\relax
+\let\sqseq\relax
+\let\sqinv\relax
+\let\sqchr\relax
+
+\let\imagefloat\relax
+\let\imagecaption\relax
+
+\let\remfor\relax
+\let\Hhhhh\relax
+
+\def\unames{\eight\rm}
+
+\def\ofs#1#2#3{}
+\let\ofspc\pcxxv
+
+\def\ccchr{\pcssxx}
+\def\ccuni{\helvx}
+
+\def\beginchartlist{\newpage\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
+\def\endchartlist{\end{2column}}
+
+\def\cclrow#1#2#3{%
+        \vbox{\hsize3.2in\parindent0pt
+              \hbox to 3.2in{%
+              \hbox to .4in{\helvy#1\hfil}%
+%              \hbox to .4in{\pcssxxx#2\hss}%
+              \hbox to .4in{\pcssxx#2\hss}%
+              \hbox to 2.4in{\hsize2.4in\vtop{\par\helvy\leavevmode\rightskip0pt plus1fil\relax#3\endgraf}}%
+                            \hfil}}\vfil}
+\def\cclnum#1{{\helv#1}}
+\def\cclchr{\redpc}%\pcssxx}
+\def\ccluni{\Sans\eight\rm}
+
+\let\twocol\relax
+
+\let\glyf\relax
+\let\fchr\relax
+\let\fhex\relax
+\let\dist\relax
+\let\rhex\relax
+
+\newdimen\ccwd \ccwd=.375in\relax
+\newdimen\ccht \ccht=.52in\relax
+\newdimen\cccwd \cccwd=\ccwd\relax
+\newdimen\cccht \cccht=.39in\relax
+
+\newdimen\cdliwd \cdliwd=2.75pc
+\newdimen\slcwd \slcwd=3.65pc
+\def\slcc{\pcssxxx}
+\def\slcu{\helvy}
+
+\def\slnocdli{\vbox{\hbox to\cdliwd{\hfil}\vfil}}
+\def\slnodist{\vbox{\hbox to1in{\hfil}\vfil}}
+\def\slnoglyf{\vbox{\hbox to\slcwd{\hfil}\vfil}}
+
+\def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
+
+\def\tbodybreak{\noalign{\allowbreak}}
+
+\def\sltabrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}}
+
+%\definecolor{ntgrey}{gray}{0.9}% E5E5E5
+%\definecolor{sqblue}{rgb}{.9,.98,.99}% E6FAFC
+%\definecolor{sqgreen}{rgb}{.88,.99,.87}% E0FCDE
+%\definecolor{sqpink}{rgb}{1,.92,.92}% FFEBEB
+%\definecolor{sqyellow}{rgb}{1,1,.9}% FFFFE6
+
+\font\hveee="Helvetica:color=E5E5E5" at12pt
+\font\hveff="Helvetica:color=E6FAFC" at12pt
+\font\hvefd="Helvetica:color=E0FCDE" at12pt
+\font\hvfee="Helvetica:color=FF0000" at12pt
+\font\hvffe="Helvetica:color=FFFFE6" at12pt
+
+\def\not{\hveee}%\colorbox{ntgrey}}
+\def\sqchr{\hveff}%\colorbox{sqyellow}}
+\def\sqinv{\hvefd}%\colorbox{sqblue}}
+\def\sqopq{\hvfee}%\colorbox{sqpink}}
+\def\sqseq{\hvffe}%\colorbox{sqgreen}}
+
+\def\pcnot{\pceee}%\colorbox{ntgrey}}
+\def\pcsqchr{\pceff}%\colorbox{sqyellow}}
+\def\pcsqinv{\pcefd}%\colorbox{sqblue}}
+\def\pcsqopq{\pcfee}%\colorbox{sqpink}}
+\def\pcsqseq{\pcffe}%\colorbox{sqgreen}}
+
+\def\ucode#1{\Sans\eight\rm}
+
+\def\tablerule{\noalign{\allowbreak\hrule}}
+
+\def\cctnum#1{\vbox to1.5em{\hbox to\ccwd{\hfil\helv#1\hfil}\vfil}}
+\def\cclnum#1{\llap{\vbox to\ccht{\vfil\hbox{\helv#1\kern5pt}\vfil}}}
+
+\let\trhook\relax
+\def\tvrule{\vrule}
+\def\tvrulex{\vrule width1pt\relax}
+
+\def\thead{\Sans\nine\rm}
+
+\def\codechart{\def\thead{\Sans\nine\rm}%
+%  \def\trhook{\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
+}
+
+\newbox\pcslbox \newbox\pcslheaderbox \newbox\pcslheadertmp
+\newdimen\pcslrowht
+\newdimen\pcslquad \pcslquad.45em
+\newdimen\pcslquadb \pcslquadb0pt
+\def\pquad{\hskip\pcslquad\relax}
+\def\pquadb{\hskip\pcslquadb\relax}
+\def\slcufont{\let\ucode\relax\helvz}
+\def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
+
+\def\beginpcsltab{\newpage\bgroup\offinterlineskip \lineskip1pt
+  \setbox\pcslheaderbox=\vbox{\vfuzz12pt%
+  \pcslrowx{\hbox{PCSL}}%
+          {\slhbox{FONT}}%
+          {\hbox to\cdliwd{\hss CDLI\hss}}%
+          {\slhbox{ATU3}}%
+          {\slhbox{ATU5}}%
+          {\slhbox{MSVO1}}%
+          {\slhbox{MSVO4}}%
+          {\slhbox{CUSAS}}%
+          2}%
+   \righthdrinfo{}%
+   \headersep20pt
+}
+
+\def\pcslheader{\setbox\pcslheadertmp=\vbox{%
+    \kern-12pt
+    \hbox to\hsize{\hfil\Sans\nine\rm\folio}%
+    \kern2pt
+    \unvcopy\pcslheaderbox}%
+    \centrehdrinfo{\box\pcslheadertmp}}
+
+\def\endpcsltab{\vfil\eject\egroup}
+
+\def\pcslrowx#1#2#3#4#5#6#7#8#9{%
+   \hrule height1.5pt
+   \hbox to\hsize{%
+         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \kern.425em
+         \kern.75pt
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#2\vfil}%
+         \kern.425em
+         \kern1pt
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \kern.2em
+         \kern.5pt
+         \kern.2em
+         \pquadb\vbox to\pcslrowht{\vfil#4\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
+         \hfil
+         }%
+   \kern12pt
+   \hrule height1.5pt
+}
+
+\catcode`\~=12
+\catcode`\|=12
+
+\newbox\cdlibox
+\newdimen\cdlifuzz \cdlifuzz4pt
+\def\checkcdliheight#1#2{
+   \setbox\cdlibox=\vbox{#2}%
+   \ifdim\ht\cdlibox>#1%
+     \dimen255=\ht\cdlibox \advance\dimen255-#1
+     \ifdim\dimen255>\cdlifuzz
+       \message{\the\oidtoks: #2 CDLI ht \the\ht\cdlibox > \the#1 (dim255=\the\dimen255; cdlifuzz=\the\cdlifuzz^^J}%
+     \fi
+   \fi
+}
+
+\def\pcslrow#1#2#3#4#5#6#7#8#9{%
+   \pcslheader
+   \let\slnames\slnamesaunaturel
+   \setbox\pcslbox\vbox{\hsize2in#1}%
+   \pcslrowht=\ht\pcslbox % \advance\pcslrowht\dp\pcslbox
+   \setbox\pcslbox\vbox{#2}%
+   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi % \advance\pcslrowht\dp\pcslbox \fi
+   \advance\pcslrowht2pt % compensate for lineskips
+   \checkcdliheight\pcslrowht{#3}%
+   \let\slnames\slnamesrowht
+   \hbox to \hsize{%
+         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \kern.425em
+         \vrule height\pcslrowht
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#2\vfil}%
+         \kern.425em
+         \vrule height\pcslrowht width1pt
+         \kern.425em
+         \vbox to\pcslrowht{\offinterlineskip\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \kern.2em
+         \vrule height\pcslrowht width.5pt
+         \kern.2em
+         \vbox to\pcslrowht{\vfil#4\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
+         \hfil}%
+   \kern3pt
+   \hrule height#9pt
+   \vskip3pt plus1pt minus1pt
+   \akatoks{}\cdifftoks{}%
+}
+
+%\def\slnm{\slnmfont}
+\def\sldist{\sldistfont}
+
+\def\slnamesaunaturel#1#2#3#4#5#6#7#8{%
+  \message{Processing #2^^J}
+  \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
+}
+
+\def\slnamesrowht#1#2#3#4#5#6#7#8{%
+  \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
+}
+
+\newbox\slnmbox \newtoks\oidtoks
+\newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
+\newtoks\akatoks \newtoks\cdifftoks
+\newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
+\newbox\akabox \newbox\cdiffbox
+
+\def\slnamesx#1#2#3#4#5#6#7#8{%
+   \global\oidtoks{#2}%
+   \setbox\slnmbox=\hbox{#1}%
+   \ifdim\wd\slnmbox>1.25in
+     \let\slnm\slnmfontw
+   \else
+     \ifdim\wd\slnmbox>1.125in
+       \let\slnm\slnmfontx
+     \else
+       \ifdim\wd\slnmbox>1in
+         \let\slnm\slnmfonty
+       \else
+         \let\slnm\slnmfont
+       \fi
+     \fi
+   \fi
+   \setbox\akabox=\hbox{\the\akatoks}%
+   \ifdim\wd\akabox>0pt
+      \setbox\akabox=\hbox{\vbox{\hsize2in \sltgfont
+                                 \parindent0pt \rightskip0pt plus1fil \hangindent1em
+                                 \leavevmode\oidfont\hbox to2.15em{\helvx AKA:\hfil}%
+                                 \sltgfont \the\akatoks\endgraf}}%
+   \fi
+   \setbox\cdiffbox=\hbox{\the\cdifftoks}%
+   \ifdim\wd\cdiffbox>0pt
+      \setbox\cdiffbox=\hbox{\vbox{\hsize2in \sltgfont
+                                 \parindent0pt \rightskip0pt plus1fil \hangindent1em
+                                 \leavevmode\oidfont\hbox to2.15em{\helvx CDLI:\hfil}%
+                                 \sltgfont \the\cdifftoks\endgraf}}%
+   \fi
+   \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
+   \kern.5pt
+   \hbox{\hbox to1in{\helvy#5\hfil}% PC25 code point
+     \smash{%
+        \hbox to.5in{%
+          \hss\kern.05in%
+          \vbox{\hbox{\pcxviii#4}\kern2pt}% PC25 reference glyph
+          \hss}%
+     }%
+   }%
+   \vfil
+   \ifdim\wd\akabox>0pt \box\akabox \kern1pt\fi
+   \ifdim\wd\cdiffbox>0pt \box\cdiffbox \kern1pt\fi
+   \hbox{%
+%     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode{#7}\par}%
+     #7%
+     \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil\zatufont#6}}}}%
+}
+
+\def\sldist{%
+   \setbox\sldisttbox\hbox{\the\sldistt}%
+   \setbox\sldistivbox\hbox{\the\sldistiv}%
+   \setbox\sldistiiibox\hbox{\the\sldistiii}%
+   \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern1pt}%
+   \vbox{\oidfont\hsize1in\parindent0pt\hangindent2.15em\rightskip0pt plus1fil
+         \leavevmode
+         \hbox to2.15em{\the\sldistt\hss}%
+         \ifdim\wd\sldisttbox>2.1em\hskip1pt\penalty-10000\fi
+         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern1pt\hfil}\the\sldistiv\hfil}%
+           \ifdim\wd\sldistiiibox>0pt;\hskip2pt\penalty0\fi
+         \fi
+         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern1pt\hfil}\the\sldistiii\hfil}\fi
+         \endgraf
+   }%
+}
+
+%% defs for pcsl-tab.html
+\let\sl\relax
+\let\slc\relax
+\let\slcc\relax
+\let\cdligh\relax
+\let\zatu\relax
+\def\diffc{\let\ofspc\relax\pcfee}
+\def\diffd{\hvfee}
+
+\def\includegraphics#1#2{\XeTeXpicfile #1 scaled#2\relax}
+
+\endinput

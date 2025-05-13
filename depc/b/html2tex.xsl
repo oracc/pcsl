@@ -11,10 +11,6 @@
 
   <xsl:strip-space elements="*"/>
 
-  <xsl:template match="tex:driver">
-    <xsl:apply-templates/>
-  </xsl:template>
-  
   <xsl:template match="h:html">
     <xsl:apply-templates/>
   </xsl:template>
@@ -170,21 +166,21 @@
     <xsl:text>\Hendol&#xa;</xsl:text>
   </xsl:template>
   
-  <xsl:template match="h:h1">
+  <xsl:template match="h:h1|esp:h">
     <xsl:text>\Hh</xsl:text>
     <xsl:call-template name="class"/>
     <xsl:apply-templates/>
     <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="h:h2">
+  <xsl:template match="h:h2|esp:sh">
     <xsl:text>\Hhh</xsl:text>
     <xsl:call-template name="class"/>
     <xsl:apply-templates/>
     <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="h:h3">
+  <xsl:template match="h:h3|esp:ssh">
     <xsl:text>\Hhhh</xsl:text>
     <xsl:call-template name="class"/>
     <xsl:apply-templates/>
@@ -743,15 +739,35 @@
     <xsl:message>Tag <xsl:value-of select="local-name(.)"/> not handled in mode=hbox</xsl:message>
   </xsl:template>
   
-  <!-- ESP -->
+  <!-- TeX -->
+
+  <xsl:template match="tex:appendix">
+    <xsl:text>\appendix{</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>}&#xa;&#xa;</xsl:text>
+  </xsl:template>
   
-  <xsl:template match="esp:titlex">
+  <xsl:template match="tex:chapter">
     <xsl:text>\chapter{</xsl:text>
     <xsl:value-of select="."/>
     <xsl:text>}&#xa;&#xa;</xsl:text>
   </xsl:template>
 
-  <xsl:template match="esp:title|esp:name|esp:url"/>
+  <xsl:template match="tex:driver">
+    <xsl:text>\macrofile{html2tex}&#xa;</xsl:text>    
+    <xsl:text>\macrofile{pc25mac}&#xa;</xsl:text>
+    <xsl:text>\ten\rm&#xa;&#xa;</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>\bye&#xa;</xsl:text>
+  </xsl:template>
+  
+  <!-- ESP -->
+
+  <xsl:template match="esp:page|esp:link">
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="esp:name|esp:title"/>
 
   <xsl:template match="esp:*">
     <xsl:message>Unhandled ESP tag <xsl:value-of select="local-name(.)"/></xsl:message>

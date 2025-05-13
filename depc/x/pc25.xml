@@ -13,6 +13,8 @@
 
   <xi:include href="../m/pepc.xml"/>
 
+  <xi:include href="../m/seqexc.xml"/>
+
   <tex:appendix>PCSL Table</tex:appendix>
 
   <xi:include href="../m/pcsl-tab.html"/>

@@ -32,7 +32,7 @@
       </ul>
       <esp:sh>Repertoire List</esp:sh>
       <div class="twocol">
-        <table class="codechart-list" xml:base=".">
+        <table xmlns="http://www.w3.org/1999/xhtml" class="codechart-list" xml:base=".">
           <thead>
             <tr>
               <th>Code</th>
@@ -681,14 +681,14 @@
             <tr>
               <td class="ccl-hex">126EB</td>
               <td class="ccl-chr">𒛫</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A OVER BU-A BESIDE NA2-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A OVER BU-A WITH NA2-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">126EC</td>
               <td class="ccl-chr">𒛬</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A BESIDE NA2-A NUTILLU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A WITH NA2-A NUTILLU</td>
             </tr>
           </tbody>
           <tbody>
@@ -6386,7 +6386,7 @@
             <tr>
               <td class="ccl-hex">12A1A</td>
               <td class="ccl-chr">𒨚</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHE-A BESIDE GAR</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHE-A WITH GAR</td>
             </tr>
           </tbody>
           <tbody>
@@ -9662,7 +9662,7 @@
             <tr>
               <td class="ccl-hex">12BEE</td>
               <td class="ccl-chr">𒯮</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 BESIDE BAD</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 WITH BAD</td>
             </tr>
           </tbody>
           <tbody>
@@ -9690,7 +9690,7 @@
             <tr>
               <td class="ccl-hex">12BF2</td>
               <td class="ccl-chr">𒯲</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN THREE-N58 BESIDE UR3-B1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN THREE-N58 WITH UR3-B1</td>
             </tr>
           </tbody>
           <tbody>
