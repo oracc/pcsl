@@ -5,6 +5,8 @@
     >
   <xh:h1 class="title">Materials for Encoding Proto-Cuneiform</xh:h1>
   
+  <xi:include href="../x/intro.xml"/>
+
   <xi:include href="../m/texts.xml"/>
 
   <xi:include href="../m/signs.xml"/>

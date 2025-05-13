@@ -6,7 +6,8 @@ MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
 	${ORACC}/www/pcsl/mepc/sl/pcsl-tab.html \
 	../00web/pepc/principles.xml \
 	../00web/repc/*.html \
-	../repc/w/chartlist.html
+	../repc/w/chartlist.html \
+	x/intro.xml
 
 default: pc25.pdf
 

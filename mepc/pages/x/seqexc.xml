@@ -19,10 +19,12 @@
 	demonstrably the case, the original character is encoded and
 	the reanalyzed sequence is considered a glyph variant.</dd>
 
+	<!--
 	<dt>Common Signs</dt>
 	<dd>Some signs are allowed as exceptions because it would be
 	counter-intuitive not to encode them as characters.</dd>
-
+	-->
+	
 	<dt>Container Equivalency</dt>
 	<dd>Some signs are allowed as exceptions because the
 	juxtaposition of elements is the equivalent of a container
@@ -56,11 +58,13 @@
       forms but without further evidence they are not proposed for
       encoding as characters at this point.</p>
 
+      <!--
       <esp:sh>Common Signs</esp:sh>
 
       <p>The signs LUGAL (GAL+LU) and LI (ŠE+ŠA) are encoded as
       characters as common sign exceptions.</p>
-
+      -->
+      
       <esp:sh>Container Equivalency</esp:sh>
 
       <p>The signs ASAR and AZ are the equivalent of containers.</p>
