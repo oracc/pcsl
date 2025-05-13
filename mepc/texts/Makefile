@@ -13,5 +13,8 @@ tpcsl/corpus.html: b/corpus.sh ${ORACC}/pub/pcsl/cat/cat.dbi
 tpc25/corpus.html: b/corpus.sh  ${ORACC}/pub/pcsl/pc25/cat/cat.dbi
 	b/corpus.sh tpc25 pcsl/pc25
 
+tpcsl/pc25not.lst:
+	b/pc25not.sh
+
 clean:
 	rm -fr tpcsl tpc25

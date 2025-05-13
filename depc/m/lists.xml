@@ -60,6 +60,22 @@
       particular the texts from the earliest stage of writing exhibit,
       to varying degrees, a tolerance of graphemic variation.  (ATU5
       p.107)</blockquote>
+      <esp:sh>Sign List Cautions</esp:sh>
+      <ul>
+        <li>Proposals so far based on lists, especially CDLI-gh and
+	assume list entries are primary source of Unicode
+	characters</li>
+        <li>Sign Lists offer one perspective on a repertoire</li>
+        <li>Can't assume that every sign list entry should be encoded</li>
+        <li>Sign forms are abstractions; two-dimensional sketches of a
+	three-dimensional writing system which tend to offer typical
+	forms</li>
+        <li>Sign Lists do not define the use of signs in a corpus</li>
+        <li>Sign Lists do not necessarily capture the full range of
+	glyph-variation for any individual character; just because a
+	sign doesn't have unmarked variants in CDLI-gh doesn't mean
+	such variants don't exist (Uruk IV EZEN~c)</li>
+      </ul>
       <esp:sh>Sign Lists and Concordances</esp:sh>
       <p>Several tables covering the different levels of sign list
       used in PCSL are <esp:link page="mepcsloverview">on the sign list overview page.</esp:link>.</p>

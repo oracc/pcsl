@@ -246,7 +246,7 @@
 	      </xsl:otherwise>
 	    </xsl:choose>
 	  </xsl:if>
-	  <xsl:if test="$SL='EASL' or $SL='PCSL'">
+	  <xsl:if test="$SL='EASL' or $SL='PCSL' or starts-with($SL,'no_')">
 	    <xsl:choose>
 	      <xsl:when test="../sl">
 		<xsl:apply-templates select="../sl"/>

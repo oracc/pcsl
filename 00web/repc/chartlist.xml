@@ -9662,63 +9662,63 @@
             <tr>
               <td class="ccl-hex">12BEE</td>
               <td class="ccl-chr">𒯮</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 WITH BAD</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 PLUS BAD FORM B</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BEF</td>
               <td class="ccl-chr">𒯯</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 PLUS BAD FORM B</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER TWO-N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF0</td>
               <td class="ccl-chr">𒯰</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER TWO-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER THREE-N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF1</td>
               <td class="ccl-chr">𒯱</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER THREE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN THREE-N58 WITH UR3-B1</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF2</td>
               <td class="ccl-chr">𒯲</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN THREE-N58 WITH UR3-B1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER FOUR-N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF3</td>
               <td class="ccl-chr">𒯳</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER FOUR-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER FIVE-N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF4</td>
               <td class="ccl-chr">𒯴</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER FIVE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER EIGHT-N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF5</td>
               <td class="ccl-chr">𒯵</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER EIGHT-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER NINE-N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF6</td>
               <td class="ccl-chr">𒯶</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER NINE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER ONE-N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -9732,13 +9732,6 @@
             <tr>
               <td class="ccl-hex">12BF8</td>
               <td class="ccl-chr">𒯸</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMBER ONE-N58</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <td class="ccl-hex">12BF9</td>
-              <td class="ccl-chr">𒯹</td>
               <td class="ccl-uni">PROTO-CUNEIFORM NUMBER ONE-N58 TENU</td>
             </tr>
           </tbody>

@@ -13,8 +13,12 @@ if [ -d "$gdir" ]; then
 	    cd $gdir
 	    for a in ../$tdir/[cpu]-* ; do
 		b=`basename $a`
-		echo working on $b
-		../b/g.sh $proj $a $b
+		if [[ $b == *"."* ]]; then
+		    echo ignoring $b
+		else
+		    echo working on $b
+		    ../b/g.sh $proj $a $b
+		fi
 	    done
 	    ../b/gtables.sh
 	else

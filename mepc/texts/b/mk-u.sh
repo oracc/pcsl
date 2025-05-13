@@ -1,4 +1,4 @@
 #!/bin/sh
-cut -f1 ../../../corpus25/oldcat/non-pub.tsv| sed 's/^/pcsl:/' | xmdfields.plx period >u
+cut -f1 ../../../cepc/oldcat/non-pub.tsv| sed 's/^/pcsl:/' | xmdfields.plx period >u
 grep III$ u | cut -f1 | sed 's/pcsl://' | sort -u >u-3
 grep IV$ u | cut -f1 | sed 's/pcsl://' | sort -u >u-4

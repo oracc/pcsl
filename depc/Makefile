@@ -7,9 +7,16 @@ MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
 	../00web/pepc/principles.xml \
 	../00web/repc/*.html \
 	../repc/w/chartlist.html \
-	x/intro.xml
+	x/intro.xml x/pc25.xml \
+	../mepc/texts/tpcsl/notcov.html
 
-default: pc25.pdf
+default: deps pc25.pdf
+
+deps:
+	(cd ../mepc; make)
+	(cd ../pepc; make)
+	(cd ../repc; make)
+	(cd ../fepc; make)
 
 pc25.pdf: pc25.tex pc25mac.tex
 	oracctex pc25.tex

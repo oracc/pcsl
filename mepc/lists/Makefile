@@ -135,7 +135,8 @@ install-pcslbare:
 ### db is maintained in PC24.
 ###
 
-pc25: Makefile 00etc/pc25rep.lst 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv
+pc25: Makefile 00etc/pc25rep.lst 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/pc25-add.tsv \
+	../texts/tpcsl/pc25not.lst
 
 00etc/pc25rep.lst: ../signs/db/pc25.tok 00bin/pc25rep.sh
 	(cd ../signs ; make pc25)
@@ -151,6 +152,9 @@ pc25: Makefile 00etc/pc25rep.lst 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/p
 
 00etc/pc25-add.tsv: ${PC25DEPS} 00bin/pc25-add.plx ${O2}/msc/fonts/PC24.ttf
 	00bin/pc25-add.plx >$@
+
+../texts/tpcsl/pc25not.lst: 00etc/no_corpus.tsv
+	(cd ../texts; make tpcsl/pc25not.lst)
 
 ###
 ### PCSL

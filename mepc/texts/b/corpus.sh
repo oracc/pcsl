@@ -76,4 +76,9 @@ fi
 
 ../b/ctables.sh
 
+# top-level count files
+grep -c . c | tr -d '\n' >c.cnt
+grep -c . c-4 | tr -d '\n' >c-4.cnt
+grep -c . c-3 | tr -d '\n' >c-3.cnt
+
 cd ..

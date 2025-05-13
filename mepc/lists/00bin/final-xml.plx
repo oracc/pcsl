@@ -19,6 +19,12 @@ my $n = shift @ARGV;
 die "$0: must give X-final.tsv base. Stop.\n"
     unless $n;
 
+my %distcheat = (
+    o0900242=>'o0900243',
+    o0901716=>'o0901715',
+    o0901032=>'o0901030',
+    );
+
 my $f = '';
 
 if ($n =~ /\.tsv/) {
@@ -31,13 +37,15 @@ if ($n =~ /\.tsv/) {
 die "$0: $f not readable. Stop.\n"
     unless -r $f;
 
-my $outfile = "00etc/$n-final.xml";
-$outfile =~ s/-final// if $n =~ /^no_/;
 my $cusasflag = ($n =~ /^cusas/);
 my $easlflag = ($n =~ /^easl/);
+my $no_flag = ($n =~ /^no_/);
 my $numflag = ($n =~ /^num/);
 my $pcslflag = ($n =~ /^pcsl/);
 my $pc25flag = ($n =~ /^pc25/);
+
+my $outfile = "00etc/$n-final.xml";
+$outfile =~ s/-final// if $no_flag;
 
 if ($n =~ /^no_/) {
     if ($n =~ /exexc/) {
@@ -53,10 +61,10 @@ my %n = (); load_oid();
 my %u = (); load_unicode();
 
 my %aka = (); load_aka() if $pcslflag;
-my %sl = (); load_sl() if $easlflag || $pcslflag;
+my %sl = (); load_sl() if $easlflag || $pcslflag || $no_flag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
-my %pc25 = (); load_pc25() if $pcslflag;
+my %pc25 = (); load_pc25();
 my %sf = (); load_sf() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
@@ -171,7 +179,7 @@ while (<N>) {
 	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
     chars($c);
-    sl($o,$roid,$p) if $easlflag || $pcslflag || $pc25flag;
+    sl($o,$roid,$p) if $easlflag || $pcslflag || $pc25flag || $no_flag;
     print '</sign>';
 }
 close(N);
@@ -318,7 +326,13 @@ sub load_dist {
     my @d = `grep I 00etc/csldist.tsv`; chomp @d;
     foreach (@d) {
 	my($o,$iv,$iii) = split(/\t/,$_);
-	my $dist = " dist=\"$a{$o}: ";
+	my $ao = $a{$o} || $a{$distcheat{$o}};
+	unless ($ao) {
+	    my $xo = $distcheat{$o} || $o;
+	    warn "no dist for $xo\n";
+	    $ao = '';
+	}
+	my $dist = " dist=\"$ao: ";
 	if ($iv) {
 	    $dist .= "$iv";
 	    $dist .= "; $iii" if $iii;

@@ -333,6 +333,11 @@
 	</xsl:apply-templates>
 	<xsl:text>}}</xsl:text>	
       </xsl:when>
+      <xsl:when test="contains(@class,'notcov')">
+	<xsl:apply-templates mode="halign" select=".">
+	  <xsl:with-param name="rulerules" select="'notcov'"/>
+	</xsl:apply-templates>	
+      </xsl:when>
       <xsl:otherwise>
 	<xsl:apply-templates mode="halign" select="."/>
       </xsl:otherwise>
@@ -403,6 +408,9 @@
     <xsl:choose>
       <xsl:when test="$rulerules='sltab'">
 	<xsl:text>\sltabrule</xsl:text>
+      </xsl:when>
+      <xsl:when test="$rulerules='notcov'">
+	<xsl:text>\notcovrule</xsl:text>
       </xsl:when>
       <xsl:when test="contains(ancestor::h:table/@class,'tbodyrules')">
 	<xsl:text>\tbodyrule</xsl:text>
@@ -605,6 +613,12 @@
     </xsl:call-template>
   </xsl:template>
 
+  <xsl:template match="h:pcssxx"><!--fake HTML tag-->
+    <xsl:text>{\pcssxx</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>}</xsl:text>
+  </xsl:template>
+  
   <!-- Ignored HTML tags -->
   <xsl:template match="h:head
 		       |h:a[@name]
@@ -735,6 +749,10 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template mode="hbox" match="h:span">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+  
   <xsl:template mode="hbox" match="*">
     <xsl:message>Tag <xsl:value-of select="local-name(.)"/> not handled in mode=hbox</xsl:message>
   </xsl:template>

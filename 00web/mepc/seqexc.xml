@@ -5,7 +5,7 @@
   <html>
     <head/>
     <body>
-      <esp:h>Principle and Practice</esp:h>
+      <esp:h>Exceptional Sequences</esp:h>
       <p>In principle, sign list entries which are sequences of
       separate signs are not encoded in PC25. In practice, there are
       several reasons for making exceptions to this policy:</p>
@@ -15,9 +15,11 @@
 	may be reanalyzed into separate constituents. Where this is
 	demonstrably the case, the original character is encoded and
 	the reanalyzed sequence is considered a glyph variant.</dd>
-        <dt>Common Signs</dt>
-        <dd>Some signs are allowed as exceptions because it would be
+        <!--
+	<dt>Common Signs</dt>
+	<dd>Some signs are allowed as exceptions because it would be
 	counter-intuitive not to encode them as characters.</dd>
+	-->
         <dt>Container Equivalency</dt>
         <dd>Some signs are allowed as exceptions because the
 	juxtaposition of elements is the equivalent of a container
@@ -44,9 +46,12 @@
       U₄ component.  Other city names may also have earlier integral
       forms but without further evidence they are not proposed for
       encoding as characters at this point.</p>
+      <!--
       <esp:sh>Common Signs</esp:sh>
+
       <p>The signs LUGAL (GAL+LU) and LI (ŠE+ŠA) are encoded as
       characters as common sign exceptions.</p>
+      -->
       <esp:sh>Container Equivalency</esp:sh>
       <p>The signs ASAR and AZ are the equivalent of containers.</p>
       <esp:sh>Unencoded Constituents</esp:sh>

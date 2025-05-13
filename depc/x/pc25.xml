@@ -7,19 +7,21 @@
   
   <xi:include href="../x/intro.xml"/>
 
+  <xh:h1>Texts</xh:h1>
+  
   <xi:include href="../m/texts.xml"/>
+
+  <xh:h1>Signs</xh:h1>
 
   <xi:include href="../m/signs.xml"/>
 
-  <xi:include href="../m/lists.xml"/>
+  <xh:h1>Lists</xh:h1>
 
+  <xi:include href="../m/lists.xml"/>
+  
   <xi:include href="../m/pepc.xml"/>
 
   <xi:include href="../m/seqexc.xml"/>
-
-  <tex:appendix>PCSL Table</tex:appendix>
-
-  <xi:include href="../m/pcsl-tab.html"/>
 
   <tex:appendix>PC25 Code Charts</tex:appendix>
 
@@ -31,7 +33,30 @@
   <xi:include href="../m/cpage6.html"/>
 
   <tex:appendix>PC25 Character List</tex:appendix>
-
   <xi:include href="../m/chartlist.html"/>
+  
+  <tex:appendix>PCSL Table</tex:appendix>
+  <xi:include href="../m/pcsl-tab.html"/>
+
+  <tex:appendix>PCSL Non-PC25</tex:appendix>
+  <xi:include href="../m/notcov.html"/>  
+
+  <tex:appendix>PC25 Not Encoded: Broken</tex:appendix>
+  <xi:include href="../m/no_broken.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Corpus</tex:appendix>
+  <xi:include href="../m/no_corpus.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Delete</tex:appendix>
+  <xi:include href="../m/no_delete.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Number (non-ACN)</tex:appendix>
+  <xi:include href="../m/no_numberxacn.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Sequence</tex:appendix>
+  <xi:include href="../m/no_sequence.html"/>
+  
+  <tex:appendix>PC25 Encoded Exceptional Sequences</tex:appendix>
+  <xi:include href="../m/no_sequencexexc.html"/>
   
 </tex:driver>

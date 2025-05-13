@@ -111,7 +111,6 @@ o0900961	++	HI~b	HI~b	-	I	󳁱	󳁱	EASL0566	/pcsl/images/add/thumb/HIb.png
 o0900979	1-	HUB₂	HUB₂	HUB2	I	󲡙	󲡙	EASL0570	o0900979
 o0900993	1-	IGI	IGI	IGI	I	󲡢	󲡢	EASL0578	o0900993
 o0901003	1-	IM~a@g	IM~a@g	IM~a@g	I	󲡧	󲡧	EASL0583	o0901003
-o0901032	n.	|KA~a.ŠE~a|	|KA~a~v1.ŠE~a|	|KA~a.SZE~a|	I	𒤗	𒤗,𒤖	EASL0599	o0901032
 o0901040		KA₂~c	KA₂~c	KA2~c	I	𒤚	𒤚	EASL0602	o0901040
 o0901041	1-	KA₂~d	KA₂~d	KA2~d	I	󲢀	󲢀	EASL0603	o0901041
 o0901045		|KAB×1(N58)|	|KAB×1(N58)|	|KABx1(N58)|	I	𒤝	𒤝	EASL0606	o0901045
@@ -175,6 +174,7 @@ o0901506		|NI~a×1(N57)|	|NI~a×1(N57)|	|NI~ax1(N57)|	I	𒨼	𒨼	EASL0886	o0901
 o0901520	++	NIM~d	NIM~d	-	I	󳁶	󳁶	EASL0898	/pcsl/images/add/thumb/NIMd.png
 o0901538		|NINDA₂×BA|	|NINDA₂×BA|	|NINDA2xBA|	I	𒩏	𒩏	EASL0906	o0901538
 o0901546	1-	|NINDA₂×(GIŠ.DAR~a)|	|NINDA₂×(GIŠ.DAR~a)|	|NINDA2x(GISZ.DAR~a)|	I	󲶽	󲶽	EASL0911	o0901546
+o0901529	d	|NINDA₂×GUDU₄|	|NINDA₂×GUDU₄|~v2	|NINDA2xGUDU4|	I	󲷁	𒩚,𒩙,󲷁,󲷂	EASL0913	o0901529
 o0901562	1-	|NINDA₂×NE~a|	|NINDA₂×NE~a~v1|	|NINDA2xNE~a|	I	󲷊	󲷊	EASL0920	o0901562
 o0901566	1-	|NINDA₂×ŠIM~a|	|NINDA₂×ŠIM~a~v2|	|NINDA2xSZIM~a|	I	󲷋	󲷋	EASL0921	o0901566
 o0901568	n#	|NINDA₂×(U₄.X)|	|NINDA₂×(U₄.X)|	|NINDA2x(U4.X)|	I	𒩞	𒩞	EASL0923	o0901568
@@ -247,7 +247,7 @@ o0902189	.	|U₄×4(N01).2(N14)|	|U₄×4(N01).2(N14)|	|U4x4(N01).2(N14)|	I	𒯼
 o0902191	.	|U₄×5(N01).1(N14)|	|U₄×5(N01).1(N14)|	|U4x5(N01).1(N14)|	I	𒯾	𒯾	EASL1312	o0902191
 o0902195	n#	|U₄×N(N01)|	|U₄×N(N01)|	|U4x(X(N01))|	I	𒰂	𒰂	EASL1316	o0902195
 o0902181	1-	|U₄×1(N01@f)|	|U₄×1(N01@f)|	|U4x1(N01)F|	I	󲹃	󲹃	EASL1317	o0902181
-o0903666	++	|U₄×(1(N14).3(N01))|	|U₄×(1(N14).3(N01))|	-	I	󳂔	󳂔	EASL1320	/pcsl/images/add/thumb/FONT
+o0903390	++	|U₄×(1(N14).3(N01))|	|U₄×(1(N14).3(N01))|	-	I	󳂔	󳂔	EASL1320	/pcsl/images/add/thumb/FONT
 o0902199	.++	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	-	I	󳂔_𒕢_𒕜	󳂔_𒕢_𒕜	EASL1321	o0902199
 o0902202		|U₄×2(N14)|	|U₄×2(N14)|	|U4x2(N14)|	I	𒰇	𒰇	EASL1324 EAJN303	o0902202
 o0902244		UDU~b	UDU~b	UDU~b	I	𒰨	𒰨	EASL1351	o0902244
@@ -334,3 +334,4 @@ o0903241	.	|3(N57).E₂~b|	|3(N57).E₂~b|	|3(N57).E2~b|	I	𒷾	𒷾	EASL1780	o0
 o0903254	.C01b	|3(N57).UDU~a|	|3(N57).UDU~a|	-	I	󳁞	󳁞	CSL082	-
 o0903256	.C01b	|3(N57).UDUNITA~a|	|3(N57).UDUNITA~a|	-	I	󳁟	󳁟	CSL083	-
 o0903263	.	|4(N57).NI~b|	|4(N57).NI~b|	|4(N57).NI~b|	I	𒸇	𒸇	EASL1792	o0903263
+o0903282	!A	|1(N58).BAD|	|1(N58).BAD|	|1(N58).BAD~a|	I	𒸍	𒸍	EASL1798 EALX036 EAAR026 EAJN021 EAVR016	o0903281

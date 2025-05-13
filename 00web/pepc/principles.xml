@@ -6,122 +6,7 @@
     <head/>
     <body>
 
-      <p>This page reviews some of the previous assumptions and
-      challenges surrounding a PC encoding and lays out a revised set
-      of principles on which the PC25 repertoire is based.</p>
-
-      <esp:h>Background</esp:h>
-      
-      <esp:sh>Issues with Sign Lists</esp:sh>
-
-      <ul>
-	<li>Proposals so far based on lists, especially CDLI-gh and
-	assume list entries are primary source of Unicode
-	characters</li>
-
-	<li>Sign Lists offer one perspective on a repertoire</li>
-
-	<li>Can't assume that every sign list entry should be encoded</li>
-
-	<li>Sign forms are abstractions; two-dimensional sketches of a
-	three-dimensional writing system which tend to offer typical
-	forms</li>
-
- 	<li>Sign Lists do not define the use of signs in a corpus</li>
-
-	<li>Sign Lists do not necessarily capture the full range of
-	glyph-variation for any individual character; just because a
-	sign doesn't have unmarked variants in CDLI-gh doesn't mean
-	such variants don't exist (Uruk IV EZEN~c)</li>
-      </ul>
-
-      <esp:sh>Constrastive Usage</esp:sh>
-
-      <ul>
-	<li>Prior assumption that we cannot identify any
-	contrastive/non-contrastive distinctions is not valid</li>
-
-	<li>Historical dimension--Uruk IV and Uruk III forms of same sign
-	(sometimes not a clear distinction)</li>
-
-	<li>Lexical Data -- Uruk IV vs Uruk III manuscripts</li>
-
-  	<li>Context -- commodity lists and lexical texts suggest
-  	contrastive usage when they have distinct entries for
-  	otherwise similar-looking signs</li>
-
-	<li>Transliteration Practice:
-	<ul>
-	  
-  	  <li>CDLI-tc can be used as a control on CDLI-gh: if CDLI-tc
-  	  does not differentiate variants this is an indicator that
-  	  the variation is non-contrastive</li>
-  
-  	  <li>SAG example -- CDLI-gh unmarked variants -- SAG has
-  	  three forms but they are not differentially labelled in
-  	  CDLI-gh because non-contrastive</li>
-
-  	  <li>ŠU₂ example ŠU₂: ŠU₂~a and ŠU₂~b marked in sign lists
-  	  but not in transliteration because non-contrastive</li>
-
-  	  <li>KUŠU₂ example--each of the variants has instances in CDLI-tc</li>
-	  
-     	  <!--<li>BU~a+KI example: do not encode when the disposition
-     	      of the sign is ad hoc not structural</li>-->
-	</ul>
-	</li>
-      </ul>
-
-      <esp:sh>Compounds</esp:sh>
-
-      <p>CDLI-tc and CDLI-gh do not always differentiate compound
-      constituents to the same extent as the independent versions of
-      the constituents.  For example, KAR₂ is separated as KAR₂~a and
-      KAR₂~b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
-      the only notations that occur are |DARA₃~c×KAR₂| and
-      |DARA₃~d×KAR₂|.  Where it is clear which version of a
-      compound-constituent is present in the compound, the compound
-      notation should be revised to be specific.  Where it is not
-      clear, the compound notation should be left as is, following the
-      CDLI perspective on contrastive/non-contrastive; it may be that
-      variants are considered contrastive when used independently but
-      non-contrastive when used as part of a compound.</p>
-
-      <esp:sh>Sequences</esp:sh>
-
-      <ul>
-	<li>Most sequences are collections of components</li>
-
-	<li>Some sequences are opaque, i.e., the CDLI-tc/CDLI-gh sign
-	name hides the fact that the sign is a sequence (e.g., ENGIZ,
-	ŠAB)</li>
-
-	<li>Several classes of sequences with possibly different handling:
-
-	<ul>
-	  <li>Some sequences are reanalysis of originally integral
-	  sign forms [esp city names]</li>
-
-   	  <li>Animal-ages are indicated by N(N57) followed by signs
-   	  which in some cases are known to be animals and in others
-   	  may be assumed to be based on this usage</li>
-
-  	  <li>Time measures where years are indicated as N(N57)+U₄,
-  	  months as U₄×N(N14|N08), and days as N(N08) following an U₄
-  	  notation</li>
-	</ul>
-	</li>
-
-	<li>Ordering and placement of sequence components is highly
-	variable and non-contrastive; relative positioning of elements
-	in a sequence occurs because the distribution of signs in
-	cases is not linear and is not an integral part of the
-	structure of the sequence, e.g., |GA~a.ZATU753|.  The
-	arrangement illustrated in CDLI-gh can be effected via
-	ligatures but does not need to be part of the encoding</li>
-      </ul>
-
-      <esp:h>PC25 Principles</esp:h>
+      <esp:h>Principles for Encoding</esp:h>
 
       <ul>
  	<li>shift the basis of the encoding onto the PC corpus and
@@ -216,6 +101,92 @@
 
 	<li>unifications possible if some separately encoded
 	characters are later proved to be non-contrastive</li>
+      </ul>
+
+      <esp:sh>Constrastive Usage</esp:sh>
+
+      <ul>
+	<li>Prior assumption that we cannot identify any
+	contrastive/non-contrastive distinctions is not valid</li>
+
+	<li>Historical dimension--Uruk IV and Uruk III forms of same sign
+	(sometimes not a clear distinction)</li>
+
+	<li>Lexical Data -- Uruk IV vs Uruk III manuscripts</li>
+
+  	<li>Context -- commodity lists and lexical texts suggest
+  	contrastive usage when they have distinct entries for
+  	otherwise similar-looking signs</li>
+
+	<li>Transliteration Practice:
+	<ul>
+	  
+  	  <li>CDLI-tc can be used as a control on CDLI-gh: if CDLI-tc
+  	  does not differentiate variants this is an indicator that
+  	  the variation is non-contrastive</li>
+  
+  	  <li>SAG example -- CDLI-gh unmarked variants -- SAG has
+  	  three forms but they are not differentially labelled in
+  	  CDLI-gh because non-contrastive</li>
+
+  	  <li>ŠU₂ example ŠU₂: ŠU₂~a and ŠU₂~b marked in sign lists
+  	  but not in transliteration because non-contrastive</li>
+
+  	  <li>KUŠU₂ example--each of the variants has instances in CDLI-tc</li>
+	  
+     	  <!--<li>BU~a+KI example: do not encode when the disposition
+     	      of the sign is ad hoc not structural</li>-->
+	</ul>
+	</li>
+      </ul>
+
+      <esp:sh>Compounds</esp:sh>
+
+      <p>CDLI-tc and CDLI-gh do not always differentiate compound
+      constituents to the same extent as the independent versions of
+      the constituents.  For example, KAR₂ is separated as KAR₂~a and
+      KAR₂~b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
+      the only notations that occur are |DARA₃~c×KAR₂| and
+      |DARA₃~d×KAR₂|.  Where it is clear which version of a
+      compound-constituent is present in the compound, the compound
+      notation should be revised to be specific.  Where it is not
+      clear, the compound notation should be left as is, following the
+      CDLI perspective on contrastive/non-contrastive; it may be that
+      variants are considered contrastive when used independently but
+      non-contrastive when used as part of a compound.</p>
+
+      <esp:sh>Sequences</esp:sh>
+
+      <ul>
+	<li>Most sequences are collections of components</li>
+
+	<li>Some sequences are opaque, i.e., the CDLI-tc/CDLI-gh sign
+	name hides the fact that the sign is a sequence (e.g., ENGIZ,
+	ŠAB)</li>
+
+	<li>Several classes of sequences with possibly different handling:
+
+	<ul>
+	  <li>Some sequences are reanalysis of originally integral
+	  sign forms [esp city names]</li>
+
+   	  <li>Animal-ages are indicated by N(N57) followed by signs
+   	  which in some cases are known to be animals and in others
+   	  may be assumed to be based on this usage</li>
+
+  	  <li>Time measures where years are indicated as N(N57)+U₄,
+  	  months as U₄×N(N14|N08), and days as N(N08) following an U₄
+  	  notation</li>
+	</ul>
+	</li>
+
+	<li>Ordering and placement of sequence components is highly
+	variable and non-contrastive; relative positioning of elements
+	in a sequence occurs because the distribution of signs in
+	cases is not linear and is not an integral part of the
+	structure of the sequence, e.g., |GA~a.ZATU753|.  The
+	arrangement illustrated in CDLI-gh can be effected via
+	ligatures but does not need to be part of the encoding</li>
       </ul>
 
       <esp:sh>Reference Glyphs</esp:sh>

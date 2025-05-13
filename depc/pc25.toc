@@ -1,9 +1,30 @@
 \tocentry 1:t:9:\char \appendixno ,;
-{PCSL Table} 
-\endtocentry 
-\tocentry 1:t:166:\char \appendixno ,;
 {PC25 Code Charts} 
 \endtocentry 
-\tocentry 1:t:173:\char \appendixno ,;
+\tocentry 1:t:16:\char \appendixno ,;
 {PC25 Character List} 
+\endtocentry 
+\tocentry 1:t:33:\char \appendixno ,;
+{PCSL Table} 
+\endtocentry 
+\tocentry 1:t:190:\char \appendixno ,;
+{PCSL Non-PC25} 
+\endtocentry 
+\tocentry 1:t:198:\char \appendixno ,;
+{PC25 Not Encoded: Broken} 
+\endtocentry 
+\tocentry 1:t:202:\char \appendixno ,;
+{PC25 Not Encoded: Corpus} 
+\endtocentry 
+\tocentry 1:t:222:\char \appendixno ,;
+{PC25 Not Encoded: Delete} 
+\endtocentry 
+\tocentry 1:t:224:\char \appendixno ,;
+{PC25 Not Encoded: Number (non-ACN)} 
+\endtocentry 
+\tocentry 1:t:229:\char \appendixno ,;
+{PC25 Not Encoded: Sequence} 
+\endtocentry 
+\tocentry 1:t:239:\char \appendixno ,;
+{PC25 Encoded Exceptional Sequences} 
 \endtocentry 

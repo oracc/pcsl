@@ -4305,7 +4305,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901715
+@oid o0901716
 @end sign
 
 @sign SAR~a
@@ -5619,7 +5619,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903666
+@oid o0903390
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|

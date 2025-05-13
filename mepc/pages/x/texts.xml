@@ -16,9 +16,9 @@
       transliteration and has been converted to use Unicode
       transliteration conventions rather than the CDLI ASCII ones.</p>
 
-      <p>There are 5976 texts in the corpus of which 1752 are
-      attributed to Uruk IV and 4224, or roughly 75% of the corpus, to
-      the subsequent Uruk III period.</p>
+      <p>There are <xi:include xml:base="." href="../../texts/tpcsl/c.cnt" parse="text"/>
+      texts in the corpus of which <xi:include xml:base="." href="../../texts/tpcsl/c-4.cnt" parse="text"/> are
+      attributed to Uruk IV and <xi:include xml:base="." href="../../texts/tpcsl/c-3.cnt" parse="text"/>, to the subsequent Uruk III period.</p>
 
       <esp:sh>The Digital Corpus</esp:sh>
       
