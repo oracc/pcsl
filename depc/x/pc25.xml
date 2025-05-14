@@ -23,6 +23,8 @@
 
   <xi:include href="../m/seqexc.xml"/>
 
+  <tex:text>\newpage</tex:text>
+
   <tex:appendix>PC25 Code Charts</tex:appendix>
 
   <xi:include href="../m/cpage1.html"/>
@@ -32,6 +34,8 @@
   <xi:include href="../m/cpage5.html"/>
   <xi:include href="../m/cpage6.html"/>
 
+  <tex:text>\newpage</tex:text>
+  
   <tex:appendix>PC25 Character List</tex:appendix>
   <xi:include href="../m/chartlist.html"/>
   

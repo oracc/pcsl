@@ -74,8 +74,8 @@
 \def\ccchr{\pcssxx}
 \def\ccuni{\helvx}
 
-\def\beginchartlist{\newpage\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
-\def\endchartlist{\end{2column}}
+\def\beginchartlist{\begin{2column}\offinterlineskip} %\baselineskip10pt plus1pt minus1pt\relax}
+\def\endchartlist{\end{2column}\vfil\supereject}
 
 \def\cclrow#1#2#3{%
         \vbox{\hsize3.2in\parindent0pt
@@ -113,7 +113,7 @@
 
 \def\tbodyrule{\noalign{\hrule\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
 
-\def\notcovrule{\noalign{\hrule height.2pt\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
+\def\notcovrule{\noalign{\kern2pt\hrule height.2pt\vskip3pt plus1pt minus1pt}\noalign{\allowbreak}}
 
 \def\tbodybreak{\noalign{\allowbreak}}
 
@@ -164,12 +164,90 @@
 \newdimen\pcslrowht
 \newdimen\pcslquad \pcslquad.45em
 \newdimen\pcslquadb \pcslquadb0pt
+\def\nquadb{\hskip1pt\relax}
 \def\pquad{\hskip\pcslquad\relax}
 \def\pquadb{\hskip\pcslquadb\relax}
 \def\slcufont{\let\ucode\relax\helvz}
 \def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
 
-\def\beginpcsltab{\newpage\bgroup\offinterlineskip \lineskip1pt
+\newbox\nocobox \newbox\nocoheaderbox \newbox\nocoheadertmp
+\newdimen\nocorowht
+
+\def\nchbox#1{\hbox to.75in{\nine\rm#1\hss}}
+\def\nchboxmus#1{\hbox to1in{\nine\rm#1\hss}}
+\def\nchboxper#1{\hbox to.6in{\nine\rm#1\hss}}
+\def\nchboxm#1{\hbox to2.4in{\nine\rm#1\hfil}}
+
+\newcount\ltfirstpage
+
+\def\beginnocotab{%\newpage
+  \bgroup\offinterlineskip \lineskip1pt
+  \ltfirstpage\the\pageno
+  \setbox\nocoheaderbox=\vbox{\vfuzz12pt%
+  \nocorowx{\hbox{CDLI}}%
+           {\nchbox{MusNo}}%
+           {\nchbox{Time}}%
+           {\nchbox{Place}}%
+           {\nchbox{Pub}}%
+           {\nchboxm{\quad Missing}}}%
+   %\righthdrinfo{}%
+   %\headersep20pt
+   \copy\nocoheaderbox
+}
+
+\def\nocoheader{%
+    \ifnum\pageno>\ltfirstpage
+      \lefthdrinfo{}%
+      \righthdrinfo{}%
+      \headersep20pt
+      \setbox\nocoheadertmp=\vbox{%
+        \kern-12pt
+        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
+        \kern2pt
+        \unvcopy\nocoheaderbox
+      }%
+      \centrehdrinfo{\box\nocoheadertmp}%
+    \fi}
+
+\def\endnocotab{\nocoheader\vfil\supereject\egroup}
+
+\def\nocorowx#1#2#3#4#5#6{%
+     \hrule height1.5pt
+     \hbox to\hsize{%
+            \vbox to\nocorowht{\vfil\nchbox{#1}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchboxmus{#2}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchboxper{#3}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchbox{#4}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchbox{#5}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchboxm{#6}\vfil}%
+     \hfil
+   }%
+   \kern12pt
+   \hrule height1.5pt
+}
+
+\def\nocorow#1#2#3#4#5#6{%
+   \nocoheader
+   \setbox\nocobox\vbox{\hsize2in#6}%
+   \nocorowht=\ht\nocobox
+   \advance\nocorowht2pt % compensate for lineskips
+   \hbox to\hsize{%
+            \vbox to\nocorowht{\vfil\nchbox{#1}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchboxmus{#2}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchboxper{#3}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchbox{#4}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchbox{#5}\vfil}%
+     \nquadb\vbox to\nocorowht{\vfil\nchboxm{#6}\vfil}%
+     \hfil
+   }%
+   \kern2pt
+   \hrule height.4pt
+   \vskip3pt plus1pt minus1pt
+}
+
+\def\beginpcsltab{%\newpage
+  \bgroup\offinterlineskip \lineskip1pt
+  \ltfirstpage\the\pageno
   \setbox\pcslheaderbox=\vbox{\vfuzz12pt%
   \pcslrowx{\hbox{PCSL}}%
           {\slhbox{FONT}}%
@@ -180,18 +258,26 @@
           {\slhbox{MSVO4}}%
           {\slhbox{CUSAS}}%
           2}%
-   \righthdrinfo{}%
-   \headersep20pt
+   %\righthdrinfo{}%
+   %\headersep20pt
+   \copy\pcslheaderbox
 }
 
-\def\pcslheader{\setbox\pcslheadertmp=\vbox{%
-    \kern-12pt
-    \hbox to\hsize{\hfil\Sans\nine\rm\folio}%
-    \kern2pt
-    \unvcopy\pcslheaderbox}%
-    \centrehdrinfo{\box\pcslheadertmp}}
+\def\pcslheader{%
+    \ifnum\pageno>\ltfirstpage
+      \lefthdrinfo{}%
+      \righthdrinfo{}%
+      \headersep20pt
+      \setbox\pcslheadertmp=\vbox{%
+        \kern-12pt
+        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
+        \kern2pt
+        \unvcopy\pcslheaderbox
+      }%
+      \centrehdrinfo{\box\pcslheadertmp}%
+    \fi}
 
-\def\endpcsltab{\vfil\eject\egroup}
+\def\endpcsltab{\pcslheader\vfil\supereject\egroup}
 
 \def\pcslrowx#1#2#3#4#5#6#7#8#9{%
    \hrule height1.5pt
@@ -365,6 +451,12 @@
 \let\zatu\relax
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\hvfee}
+
+\newtoks\runheadtoks
+\let\append@x\appendix
+\def\appendix#1{\runheadtoks{#1}\append@x{#1}}
+
+\lefthdrinfo{\eight\it\the\runheadtoks}
 
 \def\includegraphics#1#2{\XeTeXpicfile #1 scaled#2\relax}
 

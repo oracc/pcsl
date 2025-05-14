@@ -249,9 +249,30 @@
     <xsl:text>\endchartlist&#xa;</xsl:text>
   </xsl:template>
 
+  <xsl:template match="h:table[@class='notcov']">
+    <xsl:message>notcov</xsl:message>
+    <xsl:text>\beginnocotab&#xa;</xsl:text>
+    <xsl:for-each select="h:tbody/h:tr">
+      <xsl:text>\nocorow{</xsl:text>
+      <xsl:apply-templates select="h:th[1]" mode="sltab"/>
+      <xsl:text>}{</xsl:text>
+      <xsl:apply-templates select="h:td[1]" mode="sltab"/>
+      <xsl:text>}{</xsl:text>
+      <xsl:apply-templates select="h:td[2]" mode="sltab"/>
+      <xsl:text>}{</xsl:text>
+      <xsl:apply-templates select="h:td[3]" mode="sltab"/>
+      <xsl:text>}{</xsl:text>
+      <xsl:apply-templates select="h:td[4]" mode="sltab"/>
+      <xsl:text>}{</xsl:text>
+      <xsl:apply-templates select="h:td[5]" mode="sltab"/>
+      <xsl:text>}&#xa;</xsl:text>
+    </xsl:for-each>
+    <xsl:text>\endnocotab&#xa;</xsl:text>
+  </xsl:template>
+
   <!-- The column 1 that we are dropping is th not td so args are td[1] .. td[8] -->
   <xsl:template match="h:table[contains(@class,'sltab')]">
-    <xsl:message>sltab</xsl:message>
+    <!--<xsl:message>sltab</xsl:message>-->
     <xsl:text>\beginpcsltab&#xa;</xsl:text>
     <xsl:for-each select="h:tbody/h:tr">
       <xsl:if test="../@data-aka">
@@ -614,9 +635,9 @@
   </xsl:template>
 
   <xsl:template match="h:pcssxx"><!--fake HTML tag-->
-    <xsl:text>{\pcssxx</xsl:text>
+    <xsl:text>\hbox to.4in{\hss\pcssxx</xsl:text>
     <xsl:apply-templates/>
-    <xsl:text>}</xsl:text>
+    <xsl:text>\hss}</xsl:text>
   </xsl:template>
   
   <!-- Ignored HTML tags -->
@@ -777,6 +798,10 @@
     <xsl:text>\ten\rm&#xa;&#xa;</xsl:text>
     <xsl:apply-templates/>
     <xsl:text>\bye&#xa;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tex:text">
+    <xsl:apply-templates/>
   </xsl:template>
   
   <!-- ESP -->
