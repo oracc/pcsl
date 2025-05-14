@@ -1,12 +1,12 @@
 #
 # Makefile to build PC25 font.
 #
-install: ${ORACC}/lib/fonts/PC25.ttf
+install: ${ORACC}/lib/fonts/PCSL.ttf
 
-${ORACC}/lib/fonts/PC25.ttf: PC25.ttf
+${ORACC}/lib/fonts/PCSL.ttf: PCSL.ttf
 	cp -uv $< $@
 
-PC25.ttf: PC25+GSUB.ttx bin/pc25-ttf.sh
+PCSL.ttf: PC25+GSUB.ttx bin/pc25-ttf.sh
 	bin/pc25-ttf.sh
 
 PC25+GSUB.ttx: PC25+.ttx

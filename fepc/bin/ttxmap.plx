@@ -93,7 +93,7 @@ while (<T>) {
     } elsif (/[12F][0-9A-F]{4}/) {
 	warn "unhandled cuneihex: $_" unless /Uni12580/ || /11101|x10000/ || /[01]{8}/ || /value=/;
     } else {
-	s/PC24/PC25/;
+	s/PC24/PCSL/;
     }
     print
 }
