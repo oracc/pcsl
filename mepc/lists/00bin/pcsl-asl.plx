@@ -47,6 +47,12 @@ unless ($bare) {
     }
 }
 
+my %sn = (); my @sn = `cat 00etc/seq-name.tsv`; chomp @sn;
+foreach (@sn) {
+    my($o,$n) = split(/\t/,$_);
+    $sn{$o} = $n;
+}
+
 my $f = '00etc/pcsl-final.tsv';
 
 die "$0: $f not readable. Stop.\n"
@@ -81,8 +87,9 @@ while (<N>) {
     chomp;
     my($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
     my $seqflag = $t =~ /[.:]/;
+    my $opqflag = $t =~ /:/;
     $r = '' if $seqflag; # brute force shut down refglyph if tag says this is sequence
-    asl_sign($p,$o,$r,$c,$seqflag) unless $p eq 'RI~x';
+    asl_sign($p,$o,$r,$c,$seqflag,$opqflag) unless $p eq 'RI~x';
 }
 asl_zatu_lref() unless $bare;
 close(N);
@@ -108,25 +115,44 @@ sub asl_chars {
 }
 
 sub asl_sign {
-    my($s,$o,$r,$c,$seqflag) = @_;
+    my($s,$o,$r,$c,$seqflag,$opqflag) = @_;
     my $om = $oidmap{$o} || $o;
     my $omr = $oidmapr{$o} || $o;
     my @nn = ($s);
-    print "\@sign $s\n";
+    my $sn = $s;
+    my $xaka = '';
+    my %aseen = ();
+    if ($opqflag) {
+	if ($sn{$o}) {
+	    $sn = $sn{$o};
+	    $xaka = $s;
+	    ++$aseen{$xaka};
+	} else {
+	    warn "$0: asl_sign: opaque sequence $o=$s needs name\n";
+	}
+    }
+    print "\@sign $sn\n";
+    print "\@aka $xaka\n" if $xaka;
     if ($aka{$o}) {
 	foreach my $a (@{$aka{$o}}) {
-	    print "\@aka $a\n";
-	    push @nn, $a;
+	    unless ($aseen{$a}++) {
+		print "\@aka $a\n";
+		push @nn, $a;
+	    }
 	}
     } elsif ($aka{$om}) {
 	foreach my $a (@{$aka{$om}}) {
-	    print "\@aka $a\n";
-	    push @nn, $a;
+	    unless ($aseen{$a}++) {
+		print "\@aka $a\n";
+		push @nn, $a;
+	    }
 	}
     } elsif ($aka{$omr}) {
 	foreach my $a (@{$aka{$omr}}) {
-	    print "\@aka $a\n";
-	    push @nn, $a;
+	    unless ($aseen{$a}++) {
+		print "\@aka $a\n";
+		push @nn, $a;
+	    }
 	}
     }
     print "\@oid $om\n";

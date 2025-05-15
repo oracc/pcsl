@@ -113,11 +113,13 @@
 @oid o0900046
 @end sign
 
-@sign ABGAL
+@sign |NUN~a.ME~a|
+@aka ABGAL
 @oid o0900047
 @end sign
 
-@sign ABRIG
+@sign |NUN~a.ME~a.DU|
+@aka ABRIG
 @oid o0900049
 @end sign
 
@@ -283,11 +285,13 @@
 @oid o0900106
 @end sign
 
-@sign ARARMA₂~b
+@sign |U₄.AB~b|
+@aka ARARMA₂~b
 @oid o0900108
 @end sign
 
-@sign ARATTA
+@sign |3(N57).LAM~a.KUR~a.RU|
+@aka ARATTA
 @oid o0900109
 @end sign
 
@@ -1251,7 +1255,8 @@
 @oid o0900496
 @end sign
 
-@sign E₃~a
+@sign |DU.U₄.1(N14).1(N08)|
+@aka E₃~a
 @oid o0900508
 @end sign
 
@@ -1309,19 +1314,23 @@
 @oid o0900532
 @end sign
 
-@sign ENDIB
+@sign |EN~a.ME~a.MU|
+@aka ENDIB
 @oid o0900533
 @end sign
 
-@sign ENGIZ
+@sign |EN~a.ME~a.GI|
+@aka ENGIZ
 @oid o0900534
 @end sign
 
-@sign ENKUM
+@sign |EN~a.ŠE~a@t.EZEN~b.NUN~a.SIG₇|
+@aka ENKUM
 @oid o0900535
 @end sign
 
-@sign ENLIL
+@sign |EN~a.KID~a|
+@aka ENLIL
 @oid o0900537
 @end sign
 
@@ -1345,7 +1354,8 @@
 @oid o0900543
 @end sign
 
-@sign ERIM₂
+@sign |NE~a.RU|
+@aka ERIM₂
 @oid o0900544
 @end sign
 
@@ -2029,7 +2039,8 @@
 @oid o0900840
 @end sign
 
-@sign GIBIL₆
+@sign |NE~c.GI|
+@aka GIBIL₆
 @oid o0900841
 @end sign
 
@@ -2205,7 +2216,8 @@
 @oid o0900903
 @end sign
 
-@sign GIZZAL~v
+@sign |GEŠTU~a.NAGA~a|
+@aka GIZZAL~v
 @oid o0900905
 @end sign
 
@@ -2374,7 +2386,8 @@
 @oid o0900964
 @end sign
 
-@sign |HI×LAGAB~a|
+@sign |HI.LAGAB~a|
+@aka |HI×LAGAB~a|
 @oid o0900966
 @end sign
 
@@ -2469,11 +2482,13 @@
 @oid o0900995
 @end sign
 
-@sign ILDUM~a
+@sign |NAGAR~a.BU~a|
+@aka ILDUM~a
 @oid o0900997
 @end sign
 
-@sign ILDUM~b
+@sign |NAGAR~b.BU~a|
+@aka ILDUM~b
 @oid o0900998
 @end sign
 
@@ -2517,7 +2532,8 @@
 @oid o0901012
 @end sign
 
-@sign IR₁₁
+@sign |UŠ~a.KUR~a|
+@aka IR₁₁
 @oid o0901017
 @end sign
 
@@ -2657,7 +2673,8 @@
 @oid o0901070
 @end sign
 
-@sign KAR
+@sign |TE.A|
+@aka KAR
 @oid o0901071
 @end sign
 
@@ -2772,11 +2789,13 @@
 @oid o0901108
 @end sign
 
-@sign KINGAL
+@sign |UKKIN~a.GAL~a|
+@aka KINGAL
 @oid o0901110
 @end sign
 
-@sign KIR₁₁
+@sign |SAL.SILA₄~c|
+@aka KIR₁₁
 @oid o0901111
 @end sign
 
@@ -3159,7 +3178,8 @@
 @oid o0901265
 @end sign
 
-@sign LAHTAN₂
+@sign |ŠITA~a1.MUD₃~a|
+@aka LAHTAN₂
 @oid o0901268
 @end sign
 
@@ -3263,7 +3283,8 @@
 @oid o0901309
 @end sign
 
-@sign LUGAL
+@sign |LU₂.GAL~a|
+@aka LUGAL
 @oid o0901311
 @end sign
 
@@ -3534,7 +3555,8 @@
 @oid o0901415
 @end sign
 
-@sign MURUB₂
+@sign |SAL.LAGAR~a|
+@aka MURUB₂
 @oid o0901416
 @end sign
 
@@ -3574,15 +3596,8 @@
 @oid o0901435
 @end sign
 
-@sign |MUŠEN×1(N57)|
-@oid o0901430
-@end sign
-
-@sign |MUŠEN×2(N57)|
-@oid o0901431
-@end sign
-
-@sign |MUŠEN×3(N57)|
+@sign |3(N57).MUŠEN|
+@aka |MUŠEN×3(N57)|
 @oid o0901432
 @end sign
 
@@ -3676,15 +3691,18 @@
 @oid o0901471
 @end sign
 
-@sign NAMEŠDA
+@sign |EŠDA.NAM₂|
+@aka NAMEŠDA
 @oid o0901473
 @end sign
 
-@sign NANNA~a
+@sign |URI₃~a.NA~a|
+@aka NANNA~a
 @oid o0901475
 @end sign
 
-@sign NANNA~b
+@sign |ŠEŠ~a.NA~a|
+@aka NANNA~b
 @oid o0901477
 @end sign
 
@@ -3716,7 +3734,8 @@
 @oid o0901488
 @end sign
 
-@sign NERGAL~v
+@sign |GIR₃~c.AB~a|
+@aka NERGAL~v
 @oid o0901491
 @end sign
 
@@ -3802,7 +3821,8 @@
 @oid o0901522
 @end sign
 
-@sign NIN
+@sign |SAL.NAM₂|
+@aka NIN
 @oid o0901524
 @end sign
 
@@ -3956,11 +3976,13 @@
 @oid o0901560
 @end sign
 
-@sign NINKUM
+@sign |SAL.NAM₂.ŠE~a@t.EZEN~b.NUN~a.SIG₇|
+@aka NINKUM
 @oid o0901577
 @end sign
 
-@sign NINLIL
+@sign |E₂~a.NUN~a|
+@aka NINLIL
 @oid o0901578
 @end sign
 
@@ -4305,7 +4327,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901716
+@oid o0901715
 @end sign
 
 @sign SAR~a
@@ -4464,7 +4486,8 @@
 @oid o0901771
 @end sign
 
-@sign SIKIL
+@sign |SAL.SI|
+@aka SIKIL
 @oid o0901773
 @end sign
 
@@ -4688,7 +4711,8 @@
 @oid o0901866
 @end sign
 
-@sign SIPA
+@sign |PA~a.UDU~a|
+@aka SIPA
 @oid o0901868
 @end sign
 
@@ -4806,7 +4830,8 @@
 @oid o0901908
 @end sign
 
-@sign SUSA
+@sign |MUŠ₃~a.ERIN|
+@aka SUSA
 @oid o0901909
 @end sign
 
@@ -4851,11 +4876,13 @@
 @oid o0901922
 @end sign
 
-@sign ŠAB~a
+@sign |PA~a.IB~a|
+@aka ŠAB~a
 @oid o0901927
 @end sign
 
-@sign ŠAB~b
+@sign |PAP~a.IB~a|
+@aka ŠAB~b
 @oid o0901929
 @end sign
 
@@ -4895,11 +4922,13 @@
 @oid o0901941
 @end sign
 
-@sign ŠANDANA~a
+@sign |GAL~a.NIM~a|
+@aka ŠANDANA~a
 @oid o0901943
 @end sign
 
-@sign ŠANDANA~b
+@sign |GAL~a.NI~a|
+@aka ŠANDANA~b
 @oid o0901944
 @end sign
 
@@ -5214,15 +5243,18 @@
 @oid o0902065
 @end sign
 
-@sign ŠURUPPAK~a
+@sign |KUR~a.RU|
+@aka ŠURUPPAK~a
 @oid o0902069
 @end sign
 
-@sign ŠURUPPAK~b
+@sign |3(N57).RU|
+@aka ŠURUPPAK~b
 @oid o0902071
 @end sign
 
-@sign ŠURUPPAK~c
+@sign |SU~a.KUR~a.RU|
+@aka ŠURUPPAK~c
 @oid o0902072
 @end sign
 
@@ -5328,7 +5360,8 @@
 @oid o0902107
 @end sign
 
-@sign TIDNUM
+@sign |GIR₃~c.PIRIG~b1|
+@aka TIDNUM
 @oid o0902108
 @end sign
 
@@ -5965,7 +5998,8 @@
 @oid o0902329
 @end sign
 
-@sign URI₂
+@sign |URI₃~a.UNUG~a|
+@aka URI₂
 @oid o0902330
 @end sign
 
@@ -5973,11 +6007,13 @@
 @oid o0902332
 @end sign
 
-@sign |URI₃~a+IB~a|
+@sign |URI₃~a.IB~a|
+@aka |URI₃~a+IB~a|
 @oid o0902336
 @end sign
 
-@sign URI₃~b
+@sign |URI₃~a.AB~a|
+@aka URI₃~b
 @oid o0902334
 @end sign
 
@@ -6022,11 +6058,13 @@
 @oid o0902369
 @end sign
 
-@sign |URU~a1×1(N57)|
+@sign |1(N57).URU~a1|
+@aka |URU~a1×1(N57)|
 @oid o0902357
 @end sign
 
-@sign |URU~a1×2(N57)|
+@sign |2(N57).URU~a1|
+@aka |URU~a1×2(N57)|
 @oid o0902359
 @end sign
 
@@ -6115,7 +6153,8 @@
 @oid o0902393
 @end sign
 
-@sign UŠUMGAL
+@sign |GAL~a.BUR₂|
+@aka UŠUMGAL
 @oid o0902394
 @end sign
 
@@ -6176,12 +6215,14 @@
 @oid o0902416
 @end sign
 
-@sign ZABALAM~a
+@sign |MUŠ₃~a.AB~a|
+@aka ZABALAM~a
 @aka ZABALA~a
 @oid o0902418
 @end sign
 
-@sign ZABALAM~b
+@sign |MUŠ₃~a.UNUG~a|
+@aka ZABALAM~b
 @oid o0902419
 @end sign
 
@@ -8909,7 +8950,7 @@
 @end sign
 
 @sign |1(N57).MUŠEN|
-@oid o0903215
+@oid o0901430
 @end sign
 
 @sign |1(N57).SIG|
@@ -8944,7 +8985,7 @@
 @end sign
 
 @sign |2(N57).MUŠEN|
-@oid o0903228
+@oid o0901431
 @end sign
 
 @sign |2(N57).SU~a|
