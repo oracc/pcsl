@@ -148,7 +148,17 @@
 
   <xsl:template mode="hbox" match="h:img">
     <xsl:text>\hbox to\cdliwd{\hss</xsl:text>
-    <xsl:value-of select="concat('\includegraphics{propgh/',@data-row,'.png}{',../@data-sf,'}')"/>
+    <xsl:choose>
+      <xsl:when test="starts-with(@data-row,'o09')">
+	<xsl:value-of select="concat('\includegraphics{propgh/',@data-row,'.png}{',../@data-sf,'}')"/>
+      </xsl:when>
+      <xsl:when test="@data-row='-'">
+	<xsl:text>\cdlighnopng</xsl:text>
+      </xsl:when>
+      <xsl:when test="contains(@data-row,'/add/')">
+	<xsl:value-of select="concat('\includegraphics{../../',@data-row,'}{',../@data-sf,'}')"/>
+      </xsl:when>
+    </xsl:choose>
     <xsl:text>\hss}</xsl:text>
   </xsl:template>
 
