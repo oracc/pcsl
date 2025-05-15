@@ -75,7 +75,9 @@ foreach (@t) {
 	    ++$known{$a} if $a =~ /cv/;
 	}
 	if ($m =~ s/^\@//) {
-	    unless ($status) {
+	    if ($status) {
+		#warn "ignoring $a because status != 0\n";
+	    } else {
 		push @glyphid, "<GlyphID name=\"$a\"/>\n";
 
 		# remove and save scale factor
@@ -110,7 +112,7 @@ foreach (@t) {
 </TTGlyph>
 EOF
 	    }
-	} else {	    
+	} else {
 	    warn "$0: bad character in method '$m' for add '$a'\n";
 	    ++$status;
 	}

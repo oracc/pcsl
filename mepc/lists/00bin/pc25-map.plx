@@ -20,6 +20,8 @@ my %g1 = ();
 my %gx = ();
 my %go = ();
 
+my %pfoid = (); my @pfoid = `cut -f1 00etc/pcsl-final.tsv`; chomp @pfoid; @pfoid{@pfoid} = ();
+
 my $font = '../../fepc/PC24.ttx.xz';
 
 my $pua = 0xF2000;
@@ -27,10 +29,11 @@ my $xxx = 0xF2400;
 
 my %seen = (); # track what we've already seen using the hex uni
 
-my %om = (); my @om = `cat 00etc/pcsl-oid.map`; chomp @om;
+my %om = (); my %omr = (); my @om = `cat 00etc/pcsl-oid.map`; chomp @om;
 foreach (@om) {
     my($oo,$on) = split(/\s+/,$_);
     $om{$on} = $oo;
+    $omr{$oo} = $on;
 }
 
 my %pc24 = (); my @pc24 = `cat 00etc/pc24.tsv`; chomp @pc24;
@@ -63,17 +66,24 @@ foreach (@acn) {
 my %pc25 = (); my @pc25 = `cut -f 1,2,4 00etc/pc25-final.tsv`; chomp @pc25;
 foreach (@pc25) {
     my($o,$u,$n) = split(/\t/,$_);
-    my $oo = $om{$o} ? $om{$o} : $o;
-    if ($pc24{$oo}) {
-	print "$oo\t$pc24{$oo}\t$u\n";
-	++$seen{$pc24{$oo}};
-    } else {
-	warn "$0: no PC24 for $n = $oo = PC25 $u\n";
-    }
+    my $b = $g1{$o};
+    die "no g1 for $o\n" unless $b;
+#    my $oo = $om{$o} ? $om{$o} : $o;
+#    if ($pc24{$oo}) {
+	print "$o\t$b\t$u\n";
+	++$seen{$b};
+#    } else {
+#	warn "$0: no PC24 for $n = $oo = PC25 $u\n";
+#    }
 }
 
 # Block 2: Simple glyf entries in PUA from #F2000
 foreach my $gx (sort keys %gx) {
+    unless ($seen{$gx}) {
+	printf "$go{$gx}\t$gx\t%X\n", $pua;
+	++$seen{$gx};
+	++$pua;
+    }
     foreach my $u (@{$gx{$gx}}) {
 	unless ($seen{$u}) {
 	    printf "$go{$u}\t$u\t%X\n", $pua;
@@ -123,7 +133,7 @@ foreach my $v (@vsp) {
     }
 }   
 
-# Block 5: Other characters from PC24 PUA remapped into PC25 PUA from #F2800
+# Block 5: Other characters from PC24 main or PUA remapped into PC25 PUA from #F2400
 
 foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
     my $o = $pc24{$pc24};
@@ -141,6 +151,11 @@ foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
 		print "$o\t$pc24\t$pc24\n";
 		++$seen{$pc24};
 	    } else {
+		# These are characters that were in the PC24 encoding but not in pcsl-final.tsv
+		printf STDERR "$o\t$pc24\t%X\n", $xxx
+		    unless (exists($pfoid{$o})
+			    || ($om{$o} && exists($pfoid{$om{$o}}))
+			    || ($omr{$o} && exists($pfoid{$omr{$o}})));
 		printf "$o\t$pc24\t%X\n", $xxx;
 		++$seen{$pc24};
 		++$xxx;
@@ -186,7 +201,7 @@ foreach my $f (@f) {
 ################################################################################
 
 sub load_glyf_final {
-    my @g = `grep -v '~01\$' 00etc/glyf-final.tsv`; chomp @g;
+    my @g = `cat 00etc/glyf-final.tsv`; chomp @g;
     foreach my $g (@g) {
 	my($c,$o,$b,$u,$n,$t) = split(/\t/,$g);
 	if ($t =~ /~01/) {
@@ -196,4 +211,5 @@ sub load_glyf_final {
 	}
 	$go{$u} = $o;
     }
+    # print Dumper \%g1; exit 1;
 }
