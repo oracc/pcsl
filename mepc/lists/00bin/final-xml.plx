@@ -22,10 +22,11 @@ die "$0: must give X-final.tsv base. Stop.\n"
 my %Os = (); my %Og = (); load_pcsl_oid();
 
 my %distcheat = (
-    o0900242=>'o0900243',
-    o0901716=>'o0901715',
-    o0901032=>'o0901030',
     );
+
+#    o0900242=>'o0900243',
+#    o0901716=>'o0901715',
+#    o0901032=>'o0901030',
 
 my $f = '';
 
@@ -137,8 +138,8 @@ while (<N>) {
 	    $rattr .= " h25=\"$h24\"";
 	}
     }
-    my $dist = dist($o);
-    my $datadist = distdata($o);
+    my $dist = dist(Os($o));
+    my $datadist = distdata(Os($o));
     if ($cusasflag) {
 	if ((!$dist || $dist =~ /0×/) && $t !~ /not="/) {
 	    if ($p =~ /~v[0-9]/) {
@@ -166,7 +167,8 @@ while (<N>) {
 	$row .= " roid=\"$roid\""
 	    if $roid;
 	my $pcslx = pcsl_xattr($o,$pc24);
-	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
+	my $O = Os($o);
+	print "<sign xml:id=\"$O\" oid=\"$O\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
 	if ($pcslflag && $aka{Os($o,'aka')}) {
 	    print '<aka>';
 	    my $naka = 0;
@@ -285,7 +287,7 @@ sub hr_t {
 	} elsif ($t =~ /[-d]/) {
 	    $h .= '-dl';
 	}
-    } elsif ($t eq 'PC25' || $t eq 'ACN' || $t eq 'DNE' || $t =~ 'OOR' || $t =~ 'Pelm') {
+    } elsif ($t eq 'PC25' || $t eq 'ACN' || $t eq 'DNE' || $t =~ 'OOR' || $t =~ 'OOR5' || $t =~ 'Pelm') {
 	$h = $t;
     } elsif ($t eq 'ADD') {
 	$h = 'NUM';
@@ -293,8 +295,12 @@ sub hr_t {
 	warn "$o: VSP should not occur in num-base; merge with primary\n";
     } elsif ($t =~ /1/ && $t !~ /C/) {
 	$h = 'EDI';
-    } elsif ($t =~ /[-d]/) {
+    } elsif ($t =~ /5/) {
+	$h = 'UrukV';
+    } elsif ($t =~ /d/) {
 	$h .= 'DEL';
+    } elsif ($t =~ /-/) {
+	$h .= 'NOT';
     } else {
 	if ($dist{Os($o,'dist')}) {
 	    $h = 'UNP';
@@ -380,18 +386,22 @@ sub load_pc25 {
     }
 }
 
+#
+# Don't map the scale factor to new OID because the PNG row files are
+# still numbered with the old OIDs
+#
 sub load_sf {
     my @sf = `cat 00etc/propgh-sf.tsv`; chomp @sf;
     foreach (@sf) {
 	my($o,$sf) = split(/\t/,$_);
 	if ($sf) {
-	    if ($sf{Os($o,'sf')}) {
+	    if ($sf{$o}) {
 		warn "00etc/propgh-sf.tsv: duplicate entry $o\n";
 	    } else {
-		$sf{Os($o,'sf')} = $sf;
+		$sf{$o} = $sf;
 	    }
 	} else {
-	    $sf{Os($o,'sf')} = '1000';
+	    $sf{$o} = '1000';
 	}
     }
 }
@@ -598,5 +608,11 @@ sub load_pcsl_oid {
 sub Os {
     my $or = $Os{$_[0]};
     warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+    return $or || $_[0];
+}
+
+sub Og {
+    my $or = $Og{$_[0]};
+    warn "$0: $_[1]: no pcsl.oid glyf entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
     return $or || $_[0];
 }

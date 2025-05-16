@@ -305,7 +305,7 @@ sub asl_pglyf {
 		$O = $Og{$s{'o'}};
 		warn "$0: no O(g) for $s{'o'}\n" unless $O;
 	    }
-	    printf "\@glyf $nq $ueq$s1 $mh $O ~ff\n";
+	    printf "\@glyf $nq~%d $ueq$s1 $mh $O ~%X\n", $tag, $tag;
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
 	    my $sc = $c; $sc =~ tr/\./‍/;
@@ -437,4 +437,16 @@ sub load_pcsl_oid {
 	}
 	close(P);
     }
+}
+
+sub Os {
+    my $or = $Os{$_[0]};
+    warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+    return $or || $_[0];
+}
+
+sub Og {
+    my $or = $Og{$_[0]};
+    warn "$0: $_[1]: no pcsl.oid glyf entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+    return $or || $_[0];
 }

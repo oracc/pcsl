@@ -31,6 +31,8 @@ my @new_pcslfinal = ();
 open(NO_BRK,'>00etc/no_broken.tsv');
 open(NO_CRP,'>00etc/no_corpus.tsv');
 open(NO_DEL,'>00etc/no_delete.tsv');
+open(NO_EDI,'>00etc/no_edi.tsv');
+open(NO_URUK5,'>00etc/no_uruk5.tsv');
 open(NO_NUM,'>00etc/no_number.tsv');
 open(NO_NUMX,'>00etc/no_numberxacn.tsv');
 open(NO_SEQ,'>00etc/no_sequence.tsv');
@@ -68,12 +70,16 @@ while (<I>) {
 		print NO_SEQ "$_\n";
 		$ok = 0;
 	    } elsif ($tag !~ /C[023]1/ && $tag =~ /1/) {
+		print NO_EDI "$_\n";
 		$ok = 0;
-	    } elsif ($tag =~ /[-d]/) {
+	    } elsif ($tag =~ /d/) {
 		print NO_DEL "$_\n";
 		$ok = 0;
 	    } elsif ($tag =~ /\#/) {
 		print NO_BRK "$_\n";
+		$ok = 0;
+	    } elsif ($tag =~ /-/) {
+		print NO_CRP "$_\n";
 		$ok = 0;
 	    }
 	    if ($ok) {
@@ -83,7 +89,19 @@ while (<I>) {
 		print NO_SEQX "$_\n" if $tag =~ /!/;
 	    }
 	} else {
-	    print NO_CRP "$_\n";
+	    if ($tag =~ /d/) {
+		print NO_DEL "$_\n";
+	    } elsif ($tag !~ /C[023]1/ && $tag =~ /1/) {
+		print NO_EDI "$_\n";
+	    } elsif ($tag =~ /5/) {
+		print NO_URUK5 "$_\n";
+	    } elsif ($tag =~ /\#/) {
+		print NO_BRK "$_\n";
+	    } elsif ($tag =~ /[.:]/) {
+		print NO_SEQ "$_\n";
+	    } else {
+		print NO_CRP "$_\n";
+	    }
 	}
     }
 }
@@ -95,6 +113,8 @@ close(I);
 close(NO_BRK);
 close(NO_CRP);
 close(NO_DEL);
+close(NO_EDI);
+close(NO_URUK5);
 close(NO_NUM);
 close(NO_SEQ);    
 

@@ -28,8 +28,8 @@ SLHTML=00web/atu3-tab.html 00web/atu5-tab.html 00web/msvo1-tab.html 00web/msvo4-
 SLXML=00etc/atu3-final.xml 00etc/atu5-final.xml 00etc/msvo1-final.xml 00etc/msvo4-final.xml
 PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst
 XMLDEPS=00bin/final-xml.plx 00bin/final-preambles.xsl 00etc/propgh-sf.tsv
-NOXML=00etc/no_broken.xml 00etc/no_corpus.xml 00etc/no_delete.xml 00etc/no_sequence.xml 00etc/no_number.xml 00etc/no_numberxacn.xml 00etc/no_sequencexexc.xml
-NOHTML=00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html
+NOXML=00etc/no_broken.xml 00etc/no_corpus.xml 00etc/no_delete.xml 00etc/no_sequence.xml 00etc/no_number.xml 00etc/no_numberxacn.xml 00etc/no_sequencexexc.xml 00etc/no_edi.xml 00etc/no_uruk5.xml
+NOHTML=00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html 00web/no_edi.html 00web/no_uruk5.html
 
 ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo

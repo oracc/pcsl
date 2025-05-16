@@ -24,7 +24,7 @@ EASL0023	o0900023		|AB~b×KU₆~a|	I	|AB~bxKU6~a|	𒚥	/pcsl/easl/images/o090002
 EASL0024	o0900031		|AB~b×ŠA₃~a1|	I	|AB~bxSZA3~a1|	𒚦	/pcsl/easl/images/o0900031.png
 EASL0025	o0900041		AB₂	I	AB2	𒚧,𒚩;󳃵	/pcsl/easl/images/o0900041.png
 EASL0026	o0900043		|AB₂×2(N14)|	I	|AB2x2(N14)|	𒚪,𒚨	/pcsl/easl/images/o0900043.png
-EASL0027	o0900046	++	AB₂@g	I	-	󳀪	/pcsl/images/add/thumb/AB2@g.png
+EASL0027	o0900046	++5	AB₂@g	I	-	󳀪	/pcsl/images/add/thumb/AB2@g.png
 EASL0028	o0900047	:	ABGAL	I	ABGAL	𒚫,𒚬	/pcsl/easl/images/o0900047.png
 EASL0029	o0900049	:	ABRIG	I	ABRIG	𒚭	/pcsl/easl/images/o0900049.png
 EASL0030	o0900050		ABZU	I	ABZU	𒚮	/pcsl/easl/images/o0900050.png
@@ -705,7 +705,7 @@ EASL0704	o0901205		|LAGAB~a×KAK~a|	I	|LAGAB~axKAK~a|	𒦄	/pcsl/easl/images/o09
 EASL0705	o0901207		|LAGAB~a×KU₆~a|	I	|LAGAB~axKU6~a|	𒦅	/pcsl/easl/images/o0901207.png
 EASL0706	o0901209		|LAGAB~a×(KU₆~a+KU₆~a)|	I	|LAGAB~ax(KU6~a+KU6~a)|	𒦆	/pcsl/easl/images/o0901209.png
 EASL0707	o0901213	n	|LAGAB~a×KUŠU₂~a@t|	I	|LAGAB~axKUSZU2~b|	𒦇	/pcsl/easl/images/o0901213.png
-EASL0708	o0901215	++	|LAGAB~a×LA₂~a|	I	-	󳀙	/pcsl/images/add/thumb/LAGABxLA2-photo.png
+EASL0708	o0901215	++5	|LAGAB~a×LA₂~a|	I	-	󳀙	/pcsl/images/add/thumb/LAGABxLA2-photo.png
 EASL0709	o0901217		|LAGAB~a×LAGAB~a|	I	|LAGAB~axLAGAB~a|	𒦈	/pcsl/easl/images/o0901217.png
 EASL0710	o0901219		|LAGAB~a×ME~a|	I	|LAGAB~axME~a|	𒦉	/pcsl/easl/images/o0901219.png
 EASL0711	o0901227	++	|LAGAB~a×NI~a|	I	-	󳀖	/pcsl/images/add/thumb/LAGABxNI-photo.png
@@ -893,7 +893,7 @@ EASL0892	o0901516		NIM~a	I	NIM~a	𒩃	/pcsl/easl/images/o0901516.png
 EASL0893	o0901517		NIM~b1	I	NIM~b1	𒩄	/pcsl/easl/images/o0901517.png
 EASL0894	o0901518		NIM~b2	I	NIM~b2	𒩅	/pcsl/easl/images/o0901518.png
 EASL0895	o0901519		NIM~b3	I	NIM~b3	𒩆	/pcsl/easl/images/o0901519.png
-EASL0896	o0901520	++	NIM~d	I	-	󳁶	/pcsl/images/add/thumb/NIMd.png
+EASL0896	o0901520	++5	NIM~d	I	-	󳁶	/pcsl/images/add/thumb/NIMd.png
 EASL0897	o0901521		NIMGIR	I	NIMGIR	𒩇,𒩈	/pcsl/easl/images/o0901521.png
 EASL0898	o0901524	:	NIN	I	NIN	𒩉	/pcsl/easl/images/o0901524.png
 EASL0899	o0901525		NINDA₂	I	NINDA2	𒩧,𒩊	/pcsl/easl/images/o0901525.png
@@ -1024,7 +1024,7 @@ EASL1023	o0901741		SI₄~c	I	SI4~c	𒫊	/pcsl/easl/images/o0901741.png
 EASL1024	o0901742		SI₄~d	I	SI4~d	𒫋,𒫌	/pcsl/easl/images/o0901742.png
 EASL1025	o0901744		SI₄~f	I	SI4~f	𒫍,𒫎	/pcsl/easl/images/o0901744.png
 EASL1026	o0901746		SIG	I	SIG	𒫏	/pcsl/easl/images/o0901746.png
-EASL1027	o0901747	++	SIG~b	I	-	󳁸	/pcsl/images/add/thumb/SIGb.png
+EASL1027	o0901747	++5	SIG~b	I	-	󳁸	/pcsl/images/add/thumb/SIGb.png
 EASL1028	o0901749	++	SIG@g	I	-	𒫐	o0901749
 EASL1029	o0901751		SIG₂~a1	I	SIG2~a1	𒫑	/pcsl/easl/images/o0901751.png
 EASL1030	o0901752		SIG₂~a2	I	SIG2~a2	𒫒	/pcsl/easl/images/o0901752.png
@@ -1520,7 +1520,7 @@ EASL1519	o0902506		ZATU659	I	ZATU659	𒳚	/pcsl/easl/images/o0902506.png
 EASL1520	o0902507		|ZATU659×1(N01)|	I	|ZATU659x1(N01)|	𒳛	/pcsl/easl/images/o0902507.png
 EASL1521	o0902508		|ZATU659×1(N14)|	I	|ZATU659x1(N14)|	𒳜	/pcsl/easl/images/o0902508.png
 EASL1522	o0902509		|ZATU659×1(N58@t)|	I	|ZATU659x1(N58)@t|	𒳝	/pcsl/easl/images/o0902509.png
-EASL1523	o0902510	++	ZATU659@t	I	-	󳃽	/pcsl/images/add/thumb/-
+EASL1523	o0902510	++5	ZATU659@t	I	-	󳃽	/pcsl/images/add/thumb/-
 EASL1524	o0902511		ZATU662	I	ZATU662	𒳤,𒳠,𒳞,𒳢	/pcsl/easl/images/o0902511.png
 EASL1525	o0902515		|ZATU662×1(N14)|	I	|ZATU662x1(N14)|	𒳡,𒳟,𒳣	/pcsl/easl/images/o0902515.png
 EASL1526	o0902518		ZATU664	I	ZATU664	𒳥	/pcsl/easl/images/o0902518.png
@@ -1642,7 +1642,7 @@ EASL1641	o0902664	n	|ZATU737~v1×EN~b~v1|	I	|ZATU737xEN~b|	𒵥	/pcsl/easl/image
 EASL1642	o0902683	n#	|ZATU737~v2×X|	I	|ZATU737xX|	𒵩	/pcsl/easl/images/o0902683.png
 EASL1643	o0902671	n	|ZATU737~v3×SAL|	I	|ZATU737xSAL|	𒵪	/pcsl/easl/images/o0902671.png
 EASL1644	o0902680	n	|ZATU737~v3×U₄|	I	|ZATU737xU4|	𒵫	/pcsl/easl/images/o0902680.png
-EASL1645	o0902685	++	|ZATU737@t×PAP~a|	I	-	󳀊	/pcsl/images/add/thumb/ZATU737txPAP.png
+EASL1645	o0902685	++5	|ZATU737@t×PAP~a|	I	-	󳀊	/pcsl/images/add/thumb/ZATU737txPAP.png
 EASL1646	o0902687		ZATU749~a	I	ZATU749~a	𒵬,𒵭,𒵮	/pcsl/easl/images/o0902687.png
 EASL1647	o0902690		ZATU749~b	I	ZATU749~b	𒵯	/pcsl/easl/images/o0902690.png
 EASL1648	o0902691		ZATU749~c	I	ZATU749~c	𒵰	/pcsl/easl/images/o0902691.png

@@ -9,7 +9,12 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $fresh = 0; # start from baseline
+my $oldoids = 0; # use .o version of pcsl.asl
+
 GetOptions(
+    fresh=>\$fresh,
+    old=>\$oldoids,
     );
 
 #
@@ -28,21 +33,23 @@ my @newo = ();
 my $last_sid = 979999;
 my $last_gid = 989999;
 
-if (open(O,'00etc/pcsl.oid')) {
-    while (<O>) {
-	chomp;
-	my %oo = (); @oo{@on} = split(/\t/,$_);
-	%{$o{$oo{'name'}}} = %oo;
-	my $i = $oo{'sign'}; $i =~ s/^o0+//;
-	$last_sid = $i
-	    if $last_sid < $i;
-	if ($oo{'glyf'} ne '-') {
-	    $i = $oo{'glyf'}; $i =~ s/^o0+//;
-	    $last_gid = $i
-		if $last_gid < $i;
+unless ($fresh) {
+    if (open(O, '00etc/pcsl.oid')) {
+	while (<O>) {
+	    chomp;
+	    my %oo = (); @oo{@on} = split(/\t/,$_);
+	    %{$o{$oo{'name'}}} = %oo;
+	    my $i = $oo{'sign'}; $i =~ s/^o0+//;
+	    $last_sid = $i
+		if $last_sid < $i;
+	    if ($oo{'glyf'} ne '-') {
+		$i = $oo{'glyf'}; $i =~ s/^o0+//;
+		$last_gid = $i
+		    if $last_gid < $i;
+	    }
 	}
+	close(O);
     }
-    close(O);
 }
 
 my $sid = sprintf("o0%d", $last_sid+1);
@@ -64,7 +71,7 @@ warn "$0: assigning SIGN from $sid; GLYF from $gid\n";
 
 #print Dumper \%o;
 
-open(P,'00lib/pcsl.asl') || die;
+open(P,$oldoids ? '00lib/pcsl.asl.o': '00lib/pcsl.asl') || die;
 while (<P>) {
     if (/^\@sign\s+(\S+)\s*$/) {
 	$curr = $1;
@@ -99,6 +106,8 @@ while (<P>) {
 	    push @newo, $n;
 	    ++$gid;
 	}
+    } elsif (/^\@glyf/) {
+	warn "$0: missed a spot: $_\n";
     }
 }
 
