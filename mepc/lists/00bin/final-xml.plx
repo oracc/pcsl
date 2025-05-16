@@ -19,6 +19,8 @@ my $n = shift @ARGV;
 die "$0: must give X-final.tsv base. Stop.\n"
     unless $n;
 
+my %Os = (); my %Og = (); load_pcsl_oid();
+
 my %distcheat = (
     o0900242=>'o0900243',
     o0901716=>'o0901715',
@@ -124,7 +126,7 @@ while (<N>) {
 	$t = "$t$seq$not";
 	$t .= hr_t($ot,$o);
     } else {
-	my $hrt = ($dist{$o} ? "UNP" : "ZERO");
+	my $hrt = ($dist{Os($o,'dist')} ? "UNP" : "ZERO");
 	$t = " tags=\"\" data-hrt=\"$hrt\"";
     }
     if ($h24) {
@@ -165,10 +167,10 @@ while (<N>) {
 	    if $roid;
 	my $pcslx = pcsl_xattr($o,$pc24);
 	print "<sign xml:id=\"$o\" oid=\"$o\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
-	if ($pcslflag && $aka{$o}) {
+	if ($pcslflag && $aka{Os($o,'aka')}) {
 	    print '<aka>';
 	    my $naka = 0;
-	    foreach my $aka (sort @{$aka{$o}}) {
+	    foreach my $aka (sort @{$aka{Os($o,'aka')}}) {
 		my $xaka = xmlify($aka);
 		print ' ' if $naka++;
 		print "$xaka";
@@ -294,7 +296,7 @@ sub hr_t {
     } elsif ($t =~ /[-d]/) {
 	$h .= 'DEL';
     } else {
-	if ($dist{$o}) {
+	if ($dist{Os($o,'dist')}) {
 	    $h = 'UNP';
 	} else {
 	    $h = 'ZERO';
@@ -311,7 +313,7 @@ sub load_aka {
     foreach (@a) {
 	my($o,$a) = split(/\t/,$_);
 	if (exists $kaa{$a}) { # only keep aka that are in PCSL corpus
-	    push @{$aka{$o}}, $a;
+	    push @{$aka{Os($o,'aka')}}, $a;
 	}
     }
 }
@@ -321,17 +323,17 @@ sub load_dist {
     my %a = ();
     foreach (@a) {
 	my($o,$n) = split(/\t/,$_);
-	$a{$o} = $n;
+	$a{Os($o,'dist')} = $n;
     }
     my @d = `grep I 00etc/csldist.tsv`; chomp @d;
     foreach (@d) {
 	my($o,$iv,$iii) = split(/\t/,$_);
-	my $ao = $a{$o} || $a{$distcheat{$o}};
-	unless ($ao) {
-	    my $xo = $distcheat{$o} || $o;
-	    warn "no dist for $xo\n";
-	    $ao = '';
-	}
+	my $ao = $a{Os($o,'dist')}; #  || $a{$distcheat{$o}};
+#	unless ($ao) {
+#	    my $xo = $distcheat{$o} || $o;
+#	    warn "no dist for $xo\n";
+#	    $ao = '';
+#	}
 	my $dist = " dist=\"$ao: ";
 	if ($iv) {
 	    $dist .= "$iv";
@@ -340,11 +342,11 @@ sub load_dist {
 	    $dist .= "$iii";
 	}
 	$dist .= '."';
-	$dist{$o} = "$dist";
+	$dist{Os($o,'dist')} = "$dist";
     }
     foreach (@a) {
 	my($o,$n) = split(/\t/,$_);
-	$dist{$o} = " dist=\"$n\"" unless $dist{$o};
+	$dist{Os($o,'dist')} = " dist=\"$n\"" unless $dist{Os($o,'dist')};
     }
 }
 
@@ -352,21 +354,21 @@ sub load_dist_all {
     my @d = `cat 00etc/csldist-all.tsv`; chomp @d;
     foreach (@d) {
 	my($o,$n) = split(/\t/,$_);
-	$dist{$o} = " dist=\"$n\"";
+	$dist{Os($o,'dist')} = " dist=\"$n\"";
     }
 }
 
 sub load_oid {
     my @o = `grep ^o09 $ENV{'ORACC'}/oid/oid.tab | cut -f1,3`; chomp @o;
     foreach (@o) {
-	my($o,$n) = split(/\t/,$_); $n{$o} = $n;
+	my($o,$n) = split(/\t/,$_); $n{Os($o,'oid')} = $n;
     }
 }
 
 sub load_oidmap {
     my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
     foreach (@o) {
-	my($o,$m) = split(/\s+/,$_); $oidmap{$o} = $m;
+	my($o,$m) = split(/\s+/,$_); $oidmap{Os($o,'oidmap')} = $m;
     }
 }
 
@@ -383,13 +385,13 @@ sub load_sf {
     foreach (@sf) {
 	my($o,$sf) = split(/\t/,$_);
 	if ($sf) {
-	    if ($sf{$o}) {
+	    if ($sf{Os($o,'sf')}) {
 		warn "00etc/propgh-sf.tsv: duplicate entry $o\n";
 	    } else {
-		$sf{$o} = $sf;
+		$sf{Os($o,'sf')} = $sf;
 	    }
 	} else {
-	    $sf{$o} = '1000';
+	    $sf{Os($o,'sf')} = '1000';
 	}
     }
 }
@@ -402,7 +404,7 @@ sub load_sl {
 	my @s = `cut -f $cut 00etc/${_}-final.tsv`; chomp @s;
 	foreach my $s (@s) {
 	    my($o,$p,$c) = split(/\t/,$s);
-	    push @{${$sl{$o}}{$_}}, [ $p , $c ];
+	    push @{${$sl{Os($o,'sl')}}{$_}}, [ $p , $c ];
 	}
     }
     # print Dumper \%sl; exit 1;
@@ -432,9 +434,9 @@ sub load_zatu {
     foreach (@z) {
 	my($z,@o) = split(/\s/,$_);
 	foreach my $o (@o) {
-	    warn "load_zatu: $o has multiple ZATU numbers: $zatu{$o}; $z\n"
-		if $zatu{$o} && $zatu{$o} ne $z;
-	    $zatu{$o} = $z;
+	    warn "load_zatu: $o has multiple ZATU numbers: $zatu{Os($o,'zatu')}; $z\n"
+		if $zatu{Os($o,'zatu')} && $zatu{Os($o,'zatu')} ne $z;
+	    $zatu{Os($o,'zatu')} = $z;
 	}
     }
 }
@@ -532,15 +534,17 @@ sub pchar {
 sub pcsl_xattr {
     my ($o,$n) = @_;
     my $a = '';
-    if ($zatu{$o} && $zatu{$o} ne $n) {
-	$a .= " zatu=\"$zatu{$o}\"";
+    if ($zatu{Os($o,'zatu')} && $zatu{Os($o,'zatu')} ne $n) {
+	$a .= " zatu=\"$zatu{Os($o,'zatu')}\"";
     }
     $a;
 }
 
 sub sl {
     my ($o,$roid,$p) = @_;
-    my $slo = $sl{$o} ? $o : $roid||$o;
+    #    my $slo = $sl{Os($o,'sl')} ? Os($o,'sl') : Os($roid,'sl')||Os($o,'sl');
+    my $slo = $o ? $o : $roid||$o;
+    $slo = Os($slo,'sl');
     if ($sl{$slo}) {
 	print '<sl>';
 	foreach my $sl (qw/atu3 atu5 msvo1 msvo4 cusas/) {
@@ -575,4 +579,24 @@ sub subify {
     my $t = shift;
     $t =~ tr/0-9/₀-₉/ unless $t =~ /LAK|ZATU/;
     $t
+}
+
+sub load_pcsl_oid {
+    if (open(P,'00etc/pcsl.oid')) {
+	while (<P>) {
+	    chomp;
+	    my($n,$s,$g,@o) = split(/\s+/,$_);
+	    foreach my $o (@o) {
+		$Os{$o} = $s; # map OID o in sign context
+		$Og{$o} = $g; # map OID o in glyf context
+	    }
+	}
+	close(P);
+    }
+}
+
+sub Os {
+    my $or = $Os{$_[0]};
+    warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+    return $or || $_[0];
 }

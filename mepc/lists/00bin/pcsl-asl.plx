@@ -10,15 +10,21 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 use Getopt::Long;
 
 my $bare = 0; # don't include Unicode data
+my $oldoids = 0;
 
 GetOptions(
     bare=>\$bare,
+    old=>\$oldoids
     );
+
+$oldoids = 1 if $bare;
 
 #
 # Generate 00lib/pcsl.asl using PC25 output hex codes; the PC chars
 # are post-converted by utr; all input is still in PC24.
 #
+
+my %Os = (); my %Og = (); load_pcsl_oid();
 
 my $pcslranges = '';
 
@@ -156,7 +162,13 @@ sub asl_sign {
 	    }
 	}
     }
-    print "\@oid $om\n";
+    if ($oldoids) {
+	print "\@oid $om\n";
+    } else {
+	my $O = $Os{$om};
+	warn "$0: no O(s) for $om\n" unless $O;
+	print "\@oid $O\n";
+    }
     unless ($bare) {
 	my $h = $pc25{$om};
 	if ($h) {
@@ -288,7 +300,12 @@ sub asl_pglyf {
 	    if ($s{'h'} && $s{'h'} ne '0') {
 		$mh = $m{$s{'h'}};
 	    }
-	    printf "\@glyf $nq $ueq$s1 $mh $s{'o'} ~ff\n";
+	    my $O = $s{'o'};
+	    unless ($oldoids) {
+		$O = $Og{$s{'o'}};
+		warn "$0: no O(g) for $s{'o'}\n" unless $O;
+	    }
+	    printf "\@glyf $nq $ueq$s1 $mh $O ~ff\n";
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
 	    my $sc = $c; $sc =~ tr/\./‍/;
@@ -298,7 +315,12 @@ sub asl_pglyf {
 	if ($glyf{$c}) {
 	    my($o,$h,$n,$t) = @{$glyf{$c}};
 	    my $mh = $m{$h};
-	    print "\@glyf $n $c $mh $o $t\n";
+	    my $O = $o;
+	    unless ($oldoids) {
+		$O = $Og{$o};
+		warn "$0: no O(g) for $o\n" unless $O;
+	    }
+	    print "\@glyf $n $c $mh $O $t\n";
 	} else {
 	    my $h = sprintf("%X", ord $c);
 	    my $go = $u{$h};
@@ -306,6 +328,11 @@ sub asl_pglyf {
 	    my $nq = $n; $nq =~ s/\%/%%/g;
 	    my $mh = $m{$h};
 	    printf STDERR "glyf: made up:\t$c\t$nq~%d\t->$nq~%d $c $mh $go ~%02X\n", $tag, $tag, $tag;
+	    my $O = $go;
+	    unless ($oldoids) {
+		$O = $Og{$go};
+		warn "$0: no O(g) for $go\n" unless $O;
+	    }
 	    printf "\@glyf $nq~%d $c $mh $go ~%02X\n", $tag, $tag;
 	}
     }
@@ -396,4 +423,18 @@ sub pc25_name {
     $pc25 =~ s/SAG\@n×GEŠTU/SAG×GEŠTU/;
     $pc25 =~ s/\|~.*/|/;
     $pc25;
+}
+
+sub load_pcsl_oid {
+    if (open(P,'00etc/pcsl.oid')) {
+	while (<P>) {
+	    chomp;
+	    my($n,$s,$g,@o) = split(/\s+/,$_);
+	    foreach my $o (@o) {
+		$Os{$o} = $s; # map OID o in sign context
+		$Og{$o} = $g; # map OID o in glyf context
+	    }
+	}
+	close(P);
+    }
 }
