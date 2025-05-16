@@ -20,7 +20,7 @@ o0900539	󲟄	𒪍.𒮹.𒫇	𒪌₃.𒮹₁.𒫇₁	|PA~a~3.TE.SI|	_u12A8C_uE01
 o0901868	󳃃	𒪍.𒰥	𒪌₃.𒰥₁	|PA~a~3.UDU~a|	_u12A8C_uE0102_u200D_u12C25.liga
 o0901929	𒭅	𒪑.𒣴	𒪑₁.𒣴₁	|PAP~a.IB~a|	_u12A91_u200D_u128F4.liga
 o0901524	𒩉	𒪵.󳃻	𒪵₁.𒨣₂	|SAL.NAM₂~2|	_u12AB5_u200D_u12A23_uE0101.liga
-o0901577	𒩨	𒪵.󳃻.󳄆∘𒩴.𒫤	𒪵₁.𒨣₂.󳄆₁∘𒩴₁.𒫣₂	|SAL.NAM₂~2.ŠE~a@t+EZEN~b∘NUN~a.SIG₇~2|	_u12AB5_u200D_u12A23_uE0101_u200D_uF3106_u2062_u12A74_u200D_u12AE3_uE0101.liga
+o0901577	𒩨	𒪵.󳃻.󳄆∘𒩴.𒫤	𒪵₁.𒨣₂.󳄆₁∘𒩴₁.𒫣₂	|SAL.NAM₂~2.EZEN~b×ŠE~a@t∘NUN~a.SIG₇~2|	_u12AB5_u200D_u12A23_uE0101_u200D_uF3106_u2062_u12A74_u200D_u12AE3_uE0101.liga
 o0901773	󲨰	𒪵.𒫇	𒪵₁.𒫇₁	|SAL.SI|	_u12AB5_u200D_u12AC7.liga
 o0901111	𒥍	𒪵.𒬕	𒪵₁.𒬕₁	|SAL.SILA₄~c|	_u12AB5_u200D_u12B15.liga
 o0901703	𒪸	𒪵.󳂐	𒪵₁.𒮘₅	|SAL.ŠU₂~5|	_u12AB5_u200D_u12B98_uE0104.liga
@@ -103,7 +103,7 @@ o0900535	𒟩	𒟙.𒛦∘𒫣.𒧢.𒩴	𒟙₁.𒛧₂∘𒫣₁.𒧢₁.𒩴�
 o0900533	𒟦	𒟙.𒧢.𒧬	𒟙₁.𒧢₁.𒧬₁	|EN~a.ME~a.MU|	_u127D9_u200D_u129E2_u200D_u129EC.liga
 o0900534	𒟧	𒟙.𒧢.𒡸	𒟙₁.𒧢₁.𒡸₁	|EN~a.ME~a.GI|	_u127D9_u200D_u129E2_u200D_u12878.liga
 o0900537	𒟪	𒟙.𒥁	𒟙₁.𒥁₁	|EN~a.KID~a|	_u127D9_u200D_u12941.liga
-o0900535	𒟨	𒟙.󳄆∘𒩴.𒫤	𒟙₁.󳄆₁∘𒩴₁.𒫣₂	|EN~a.ŠE~a@t+EZEN~b∘NUN~a.SIG₇~2|	_u127D9_u200D_uF3106_u2062_u12A74_u200D_u12AE3_uE0101.liga
+o0900535	𒟨	𒟙.󳄆∘𒩴.𒫤	𒟙₁.󳄆₁∘𒩴₁.𒫣₂	|EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇~2|	_u127D9_u200D_uF3106_u2062_u12A74_u200D_u12AE3_uE0101.liga
 o0900531	𒟤	𒟣.𒟊	𒟣₁.𒟊₁	|EN₂.E₂~a|	_u127E3_u200D_u127CA.liga
 o0900532	𒟥	𒟣.𒟎	𒟣₁.𒟎₁	|EN₂.E₂~b|	_u127E3_u200D_u127CE.liga
 o0901473	𒨨	𒟰.𒨣	𒟰₁.𒨣₁	|EŠDA.NAM₂|	_u127F0_u200D_u12A23.liga

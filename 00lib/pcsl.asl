@@ -505,10 +505,6 @@
 @oid o0900191
 @end sign
 
-@sign |(BU~a&BU~a).NA₂~b|
-@oid o0900193
-@end sign
-
 @sign |(BU~a&BU~a).X|
 @oid o0900197
 @end sign
@@ -1324,7 +1320,7 @@
 @oid o0900534
 @end sign
 
-@sign |EN~a.ŠE~a@t.EZEN~b.NUN~a.SIG₇|
+@sign |EN~a.EZEN~b×ŠE~a@t.NUN~a.SIG₇|
 @aka ENKUM
 @oid o0900535
 @end sign
@@ -1446,17 +1442,18 @@
 @oid o0900552
 @end sign
 
+@sign |EZEN~b×ŠE~a@t|
+@oid o0903781
+@end sign
+
 @sign |EZEN~b×6(N57)|
 @oid o0900570
 @end sign
 
 @sign EZEN~b@t
 @aka EZEM~c
+@aka EZEN~c
 @oid o0900592
-@end sign
-
-@sign EZEN~c
-@oid o0900554
 @end sign
 
 @sign EZINU~a
@@ -3596,11 +3593,6 @@
 @oid o0901435
 @end sign
 
-@sign |3(N57).MUŠEN|
-@aka |MUŠEN×3(N57)|
-@oid o0901432
-@end sign
-
 @sign NA~a
 @aka NA
 @oid o0901437
@@ -3874,10 +3866,6 @@
 @oid o0901547
 @end sign
 
-@sign |NINDA₂×GUDU₄|
-@oid o0901529
-@end sign
-
 @sign |NINDA₂×HI|
 @oid o0901548
 @end sign
@@ -3976,7 +3964,7 @@
 @oid o0901560
 @end sign
 
-@sign |SAL.NAM₂.ŠE~a@t.EZEN~b.NUN~a.SIG₇|
+@sign |SAL.NAM₂.EZEN~b×ŠE~a@t.NUN~a.SIG₇|
 @aka NINKUM
 @oid o0901577
 @end sign
@@ -4959,10 +4947,6 @@
 
 @sign |ŠE~a@t.GAR|
 @oid o0901950
-@end sign
-
-@sign |ŠE~a@t+EZEN~b|
-@oid o0903781
 @end sign
 
 @sign ŠE~b
@@ -8950,6 +8934,7 @@
 @end sign
 
 @sign |1(N57).MUŠEN|
+@aka |MUŠEN×1(N57)|
 @oid o0901430
 @end sign
 
@@ -8985,6 +8970,7 @@
 @end sign
 
 @sign |2(N57).MUŠEN|
+@aka |MUŠEN×2(N57)|
 @oid o0901431
 @end sign
 
@@ -9034,6 +9020,11 @@
 
 @sign |3(N57).GAR|
 @oid o0903243
+@end sign
+
+@sign |3(N57).MUŠEN|
+@aka |MUŠEN×3(N57)|
+@oid o0901432
 @end sign
 
 @sign |3(N57).NUNUZ~a1|
@@ -9244,14 +9235,12 @@
 @compoundonly DUB@n~b
 @compoundonly EN~d
 @compoundonly GEŠTU~c
-@compoundonly GUDU₄
 @compoundonly GURUŠ~c
 @compoundonly KAR₂
 @compoundonly KUR~e
 @compoundonly KUŠU₂~a@t
 @compoundonly N(N01)
 @compoundonly NA₂~a@n
-@compoundonly NA₂~b
 @compoundonly SILA₃~d
 @compoundonly SUKUD~d
 @compoundonly TAR~b

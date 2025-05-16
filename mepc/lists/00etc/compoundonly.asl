@@ -5,14 +5,12 @@
 @compoundonly DUB@n~b
 @compoundonly EN~d
 @compoundonly GEŠTU~c
-@compoundonly GUDU₄
 @compoundonly GURUŠ~c
 @compoundonly KAR₂
 @compoundonly KUR~e
 @compoundonly KUŠU₂~a@t
 @compoundonly N(N01)
 @compoundonly NA₂~a@n
-@compoundonly NA₂~b
 @compoundonly SILA₃~d
 @compoundonly SUKUD~d
 @compoundonly TAR~b

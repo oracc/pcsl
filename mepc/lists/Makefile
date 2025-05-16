@@ -101,7 +101,7 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 ### necessary.
 ###
 
-csldist: 00lib/pcslbare.asl install-pcslbare 00etc/csldist.tsv
+csldist: 00lib/pcslbare.asl install-pcslbare 00etc/csldist.tsv 00etc/csldist-all.tsv
 
 00lib/pcslbare.asl:
 	00bin/pcsl-asl.plx -bare
@@ -277,11 +277,14 @@ clean-base:
 clean-core:
 	(cd 00etc ; rm -vf easl-final.* cusas-final.* num-final.* pcsl-final.* seq-final.tsv glyf-final.tsv)
 
+clean-csl:
+	(cd 00etc ; rm -vf csldist*.tsv)
+
 clean-pc25:
 	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv)
 
 clean-pcsl:
-	(cd 00etc ; rm -vf 00lib/pcsl.asl)
+	rm -vf 00lib/pcsl.asl
 
 clean-xml:
 	rm -vf ${SLXML} ${DVXML} ${NOXML}
@@ -289,7 +292,7 @@ clean-xml:
 clean-web:
 	rm -vf 00web/*-tab.html 00web/no_*.html 00etc/no_sequence.xml
 
-clean: clean-base clean-core clean-pc25 clean-pcsl clean-xml clean-web
+clean: clean-base clean-core clean-csl clean-pc25 clean-pcsl clean-xml clean-web
 	@true
 
 ###

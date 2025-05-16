@@ -80,6 +80,8 @@ o0903137	n	2(N45)--	2(N45)
 o0902213	c	|U₄×8(N57)|--	|U₄×8(N57)|
 o0901946	s	ŠE~a--	ŠE~a
 o0901703	c	|SAL.ŠU₂|--	|SAL.ŠU₂|
+o0901697	e	--	-
+o0902040	e	--	-
 o0901145	s	KU₆~a--	KU₆~a
 o0900912	s	GU₇--	GU₇
 o0903137	n	2(N45)--	2(N45)
@@ -338,6 +340,8 @@ o0901501	s	NI~a--	NI~a
 o0902858	n	1(N01)--	1(N01)
 o0900100	s	APIN~a--	APIN~a
 o0901955	c	|ŠE~a.NAM₂|--	|ŠE~a.NAM₂|
+o0901946	e	--	-
+o0901468	e	--	-
 o0902858	n	1(N01)--	1(N01)
 o0900908	s	GU₄--	GU₄
 o0903368	s	X--	X
@@ -486,7 +490,10 @@ o0900089	s	AN--	AN
 o0903234	n	3(N57)--	3(N57)
 o0901639	s	PAP~a--	PAP~a
 o0902293	s	UNUG~a--	UNUG~a
-o0900534	s	ENGIZ--	ENGIZ
+o0900534	s	|EN~a.ME~a.GI|--	ENGIZ
+o0900516	e	--	-
+o0901380	e	--	-
+o0900806	e	--	-
 o0901931	s	ŠAGAN--	ŠAGAN
 o0902858	n	1(N01)--	1(N01)
 o0901313	s	MA--	MA
@@ -698,6 +705,8 @@ o0900516	s	EN~a--	EN~a
 o0900199	c	|BU~a+DU₆~a|--	|BU~a+DU₆~a|
 o0901145	s	KU₆~a--	KU₆~a
 o0901703	c	|SAL.ŠU₂|--	|SAL.ŠU₂|
+o0901697	e	--	-
+o0902040	e	--	-
 o0902859	n	2(N01)--	2(N01)
 o0901380	s	ME~a--	ME~a
 o0902858	n	1(N01)--	1(N01)
@@ -944,6 +953,8 @@ o0902858	n	1(N01)--	1(N01)
 o0900211	s	BUR~a--	BUR~a
 o0901517	s	NIM~b1--	NIM~b1
 o0903281	c	|1(N58).BAD|--	|1(N58).BAD~a|
+o0903280	e	--	-
+o0900116	e	--	-
 o0902858	n	1(N01)--	1(N01)
 o0900779	s	GAR--	GAR
 o0903368	s	X--	X
@@ -969,7 +980,9 @@ o0901931	s	ŠAGAN--	ŠAGAN
 o0902859	n	2(N01)--	2(N01)
 o0903312	n	2(N39A)--	2(N39~a)
 o0902100	s	TAR~a--	TAR~a
-o0900544	s	ERIM₂--	ERIM₂
+o0900544	s	|NE~a.RU|--	ERIM₂
+o0901483	e	--	-
+o0901671	e	--	-
 o0903368	s	X--	X
 o0902858	n	1(N01)--	1(N01)
 o0900516	s	EN~a--	EN~a
@@ -986,7 +999,9 @@ o0900175	s	BU~a--	BU~a
 o0901639	s	PAP~a--	PAP~a
 o0902745	s	ZATU776--	ZATU776
 o0900494	s	E₂~b--	E₂~b
-o0901473	s	NAMEŠDA--	NAMEŠDA
+o0901473	s	|EŠDA.NAM₂|--	NAMEŠDA
+o0900546	e	--	-
+o0901468	e	--	-
 o0901946	s	ŠE~a--	ŠE~a
 o0903368	s	X--	X
 o0902858	n	1(N01)--	1(N01)
@@ -1042,6 +1057,8 @@ o0900154	s	BAR--	BAR
 o0901694	s	SAG@g--	SAG@g
 o0902859	n	2(N01)--	2(N01)
 o0901699	c	|SAL.KUR~a|--	|SAL.KUR~a|
+o0901697	e	--	-
+o0901158	e	--	-
 o0902375	s	URUDU~a--	URUDU~a
 o0901990	s	ŠIDIM--	ŠIDIM
 o0903234	n	3(N57)--	3(N57)
@@ -1268,7 +1285,9 @@ o0901090	s	KI--	KI
 o0902506	s	ZATU659--	ZATU659
 o0900729	s	GAL~a--	GAL~a
 o0900602	s	GA~a--	GA~a
-o0901110	s	KINGAL--	KINGAL
+o0901110	s	|UKKIN~a.GAL~a|--	KINGAL
+o0902261	e	--	-
+o0900729	e	--	-
 o0901063	s	KALAM~b--	KALAM~b
 o0901626	s	PA~a--	PA~a
 o0900883	c	|(GIŠ×ŠU₂)~a|--	|GIŠ×ŠU₂~a|

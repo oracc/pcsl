@@ -70,7 +70,9 @@ o0901626	s	PA~a--	PA~a
 o0902136	s	TUN₃~a--	TUN₃~a
 o0901678	s	SAG--	SAG
 o0900960	s	HI--	HI
-o0901524	s	NIN--	NIN
+o0901524	s	|SAL.NAM₂|--	NIN
+o0901697	e	--	-
+o0901468	e	--	-
 o0901725	s	SI--	SI
 o0900162	s	BARA₃--	BARA₃
 o0901501	s	NI~a--	NI~a
@@ -236,6 +238,8 @@ o0901407	s	MUN~a1--	MUN~a1
 o0901871	s	SU~a--	SU~a
 o0901639	s	PAP~a--	PAP~a
 o0903281	c	|1(N58).BAD|--	|1(N58).BAD~a|
+o0903280	e	--	-
+o0900116	e	--	-
 o0901725	s	SI--	SI
 o0900089	s	AN--	AN
 o0900053	s	AD~a--	AD~a
@@ -250,6 +254,8 @@ o0901946	s	ŠE~a--	ŠE~a
 o0903312	n	2(N39A)--	2(N39~a)
 o0903016	n	1(N24)--	1(N24)
 o0902171	c	|U₄.1(N14)|--	|U₄.1(N14)|
+o0902161	e	--	-
+o0902929	e	--	-
 o0901946	s	ŠE~a--	ŠE~a
 o0902858	n	1(N01)--	1(N01)
 o0901946	s	ŠE~a--	ŠE~a

@@ -86,6 +86,7 @@ open(N,$f);
 while (<N>) {
     chomp;
     my($o,$t,$p,$pc24,$cdli,$flag,$r,$c,$src,$fn) = split(/\t/,$_);
+    next if $t =~ /d/;
     my $seqflag = $t =~ /[.:]/;
     my $opqflag = $t =~ /:/;
     $r = '' if $seqflag; # brute force shut down refglyph if tag says this is sequence

@@ -10,7 +10,7 @@ MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
 	x/intro.xml x/pc25.xml \
 	../mepc/texts/tpcsl/notcov.html
 
-default: deps pc25.pdf
+default: pc25.pdf
 
 deps:
 	(cd ../mepc; make)

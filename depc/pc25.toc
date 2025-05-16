@@ -7,24 +7,24 @@
 \tocentry 1:t:32:\char \appendixno ,;
 {PCSL Table} 
 \endtocentry 
-\tocentry 1:t:188:\char \appendixno ,;
+\tocentry 1:t:189:\char \appendixno ,;
 {PCSL Non-PC25} 
 \endtocentry 
-\tocentry 1:t:197:\char \appendixno ,;
+\tocentry 1:t:198:\char \appendixno ,;
 {PC25 Not Encoded: Broken} 
 \endtocentry 
-\tocentry 1:t:200:\char \appendixno ,;
+\tocentry 1:t:201:\char \appendixno ,;
 {PC25 Not Encoded: Corpus} 
 \endtocentry 
-\tocentry 1:t:219:\char \appendixno ,;
+\tocentry 1:t:220:\char \appendixno ,;
 {PC25 Not Encoded: Delete} 
 \endtocentry 
-\tocentry 1:t:220:\char \appendixno ,;
+\tocentry 1:t:221:\char \appendixno ,;
 {PC25 Not Encoded: Number (non-ACN)} 
 \endtocentry 
-\tocentry 1:t:224:\char \appendixno ,;
+\tocentry 1:t:225:\char \appendixno ,;
 {PC25 Not Encoded: Sequence} 
 \endtocentry 
-\tocentry 1:t:233:\char \appendixno ,;
+\tocentry 1:t:234:\char \appendixno ,;
 {PC25 Encoded Exceptional Sequences} 
 \endtocentry 
