@@ -830,9 +830,9 @@ o0901426		MUŠEN	I	MUSZEN	𒨅	/pcsl/easl/images/o0901426.png
 o0901429	.	|MUŠEN.UR₃~b2|	I	|MUSZEN.UR3~b2|	𒨆	/pcsl/easl/images/o0901429.png
 o0901434	n	|MUŠEN×PAP~a|	I	|MUSZENxPAP~a|	󲶧	/pcsl/easl/images/o0901434.png
 o0901435	#	|MUŠEN×X|	I	|MUSZENxX|	𒨇	/pcsl/easl/images/o0901435.png
-o0901430	@	|1(N57).MUŠEN|	I	|MUSZENx1(N57)|	𒨈;󰄐_𒨅	/pcsl/easl/images/o0901430.png
-o0901431	@	|2(N57).MUŠEN|	I	|MUSZENx2(N57)|	𒨉;󰄑_𒨅	/pcsl/easl/images/o0901431.png
-o0901432	@	|3(N57).MUŠEN|	I	|MUSZENx3(N57)|	𒨊	/pcsl/easl/images/o0901432.png
+o0901430	@.	|1(N57).MUŠEN|	I	|MUSZENx1(N57)|	𒨈;󰄐_𒨅	/pcsl/easl/images/o0901430.png
+o0901431	@.	|2(N57).MUŠEN|	I	|MUSZENx2(N57)|	𒨉;󰄑_𒨅	/pcsl/easl/images/o0901431.png
+o0901432	@.	|3(N57).MUŠEN|	I	|MUSZENx3(N57)|	𒨊	/pcsl/easl/images/o0901432.png
 o0902413	.#	|X(N57).GAR|	I	|x(N57).GAR|	𒷲	/pcsl/easl/images/o0902413.png
 o0903211	.	|1(N57).AB₂|	I	|1(N57).AB2|	𒷳	/pcsl/easl/images/o0903211.png
 o0901748	.	|1(N57).SIG|	I	|SIGx1(N57)|	𒷴	/pcsl/easl/images/o0901748.png
@@ -853,12 +853,10 @@ o0903252	.	|3(N57).ŠUBUR|	I	|3(N57).SZUBUR|	𒸃	/pcsl/easl/images/o0903252.png
 o0903258	.	|4(N57).AMAR|	I	|4(N57).AMAR|	𒸄	/pcsl/easl/images/o0903258.png
 o0903259	.	|4(N57).GAR|	I	|4(N57).GAR|	𒸅	/pcsl/easl/images/o0903259.png
 o0903261	.	|4(N57).KU₃~a|	I	|4(N57).KU3~a|	𒸆	/pcsl/easl/images/o0903261.png
-o0903263	.	|4(N57).NI~b|	I	|4(N57).NI~b|	𒸇	/pcsl/easl/images/o0903263.png
 o0903265	.	|5(N57).GAR|	I	|5(N57).GAR|	𒸈	/pcsl/easl/images/o0903265.png
 o0903267	.	|5(N57).KU₃~a|	I	|5(N57).KU3~a|	𒸉	/pcsl/easl/images/o0903267.png
 o0903270	.	|6(N57).GAR|	I	|6(N57).GAR|	𒸊	/pcsl/easl/images/o0903270.png
 o0903272	.	|6(N57).KU₃~a|	I	|6(N57).KU3~a|	𒸋	/pcsl/easl/images/o0903272.png
-o0903277		|NI~b×8(N57)|	I	|8(N57).NI~b|	𒸌	/pcsl/easl/images/o0903277.png
 o0903283	!U	|(1(N58).BAD)~b|	I	|1(N58).BAD~b|	𒸏,𒸎	/pcsl/easl/images/o0903283.png
 o0903281	!A	|1(N58).BAD|	I	|1(N58).BAD~a|	𒸍	/pcsl/easl/images/o0903281.png
 o0903287	!C	|3(N58).UR₃~b1|	I	|3(N58).UR3~b1|	𒸐	/pcsl/easl/images/o0903287.png
@@ -904,6 +902,7 @@ o0901512		NI~a@g	I	NI~a@g	𒨽	/pcsl/easl/images/o0901512.png
 o0901502		NI~b	I	NI~b	𒨾	/pcsl/easl/images/o0901502.png
 o0901510	#	|NI~b×X|	I	|NI~bxX|	𒨿	/pcsl/easl/images/o0901510.png
 o0901508		|NI~b×4(N57)|	I	|NI~bx4(N57)|	𒩀	/pcsl/easl/images/o0901508.png
+o0903277		|NI~b×8(N57)|	I	|8(N57).NI~b|	𒸌	/pcsl/easl/images/o0903277.png
 o0901513		NI₂	I	NI2	𒩁	/pcsl/easl/images/o0901513.png
 o0901514		NIGIN	I	NIGIN	𒩂	/pcsl/easl/images/o0901514.png
 o0901516		NIM~a	I	NIM~a	𒩃	/pcsl/easl/images/o0901516.png

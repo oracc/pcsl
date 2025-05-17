@@ -3593,6 +3593,25 @@
 @oid o0901435
 @end sign
 
+@sign |1(N02).RU|
+@oid o0902870
+@end sign
+
+@sign |1(N58).BAD|
+@aka |BAD+DIŠ~a|
+@aka |1(N58).BAD~a|
+@oid o0903281
+@end sign
+
+@sign |(1(N58).BAD)~b|
+@aka |1(N58).BAD~b|
+@oid o0903283
+@end sign
+
+@sign |3(N58).UR₃~b1|
+@oid o0903287
+@end sign
+
 @sign NA~a
 @aka NA
 @oid o0901437
@@ -7561,10 +7580,6 @@
 @oid o0902869
 @end sign
 
-@sign |1(N02).RU|
-@oid o0902870
-@end sign
-
 @sign 2(N02)
 @oid o0902871
 @end sign
@@ -8910,213 +8925,33 @@
 @oid o0903209
 @end sign
 
-@sign |X(N57).GAR|
-@aka |N(N57).GAR|
-@oid o0902413
-@end sign
-
 @sign 1(N57)
 @aka AŠ
 @oid o0903210
-@end sign
-
-@sign |1(N57).AB₂|
-@oid o0903211
-@end sign
-
-@sign |1(N57).BU₃|
-@oid o0903212
-@end sign
-
-@sign |1(N57).E₂~a|
-@aka |1(N57).E₂|
-@oid o0903214
-@end sign
-
-@sign |1(N57).MUŠEN|
-@aka |MUŠEN×1(N57)|
-@oid o0901430
-@end sign
-
-@sign |1(N57).SIG|
-@aka |SIG×1(N57)|
-@oid o0901748
-@end sign
-
-@sign |1(N57).ŠAH₂~a|
-@oid o0903219
-@end sign
-
-@sign |1(N57).ŠUBUR|
-@oid o0903221
 @end sign
 
 @sign 2(N57)
 @oid o0903222
 @end sign
 
-@sign |2(N57).AB₂|
-@oid o0903223
-@end sign
-
-@sign |2(N57).BIR₃~a|
-@aka |2(N57).BIR₃|
-@oid o0903225
-@end sign
-
-@sign |2(N57).KU₆~a|
-@aka |2(N57).KU₆|
-@oid o0903227
-@end sign
-
-@sign |2(N57).MUŠEN|
-@aka |MUŠEN×2(N57)|
-@oid o0901431
-@end sign
-
-@sign |2(N57).SU~a|
-@aka |2(N57).SU|
-@oid o0903230
-@end sign
-
-@sign |2(N57).ŠUBUR|
-@oid o0903231
-@end sign
-
-@sign |2(N57).UDUNITA~a|
-@aka |2(N57).UDUNITA|
-@oid o0903233
-@end sign
-
 @sign 3(N57)
 @oid o0903234
-@end sign
-
-@sign |3(N57).AMAR|
-@oid o0903235
-@end sign
-
-@sign |3(N57).AZ|
-@oid o0903236
-@end sign
-
-@sign |3(N57).BAR×UŠ~a|
-@aka |3(N57).BAR×UŠ|
-@oid o0903238
-@end sign
-
-@sign |3(N57).BARA₃|
-@oid o0903239
-@end sign
-
-@sign |3(N57).E₂~b|
-@aka |3(N57).E₂|
-@oid o0903241
-@end sign
-
-@sign |3(N57).EN₂|
-@oid o0903242
-@end sign
-
-@sign |3(N57).GAR|
-@oid o0903243
-@end sign
-
-@sign |3(N57).MUŠEN|
-@aka |MUŠEN×3(N57)|
-@oid o0901432
-@end sign
-
-@sign |3(N57).NUNUZ~a1|
-@aka |3(N57).NUNUZ|
-@oid o0903245
-@end sign
-
-@sign |3(N57).NUNUZ~c|
-@oid o0903246
-@end sign
-
-@sign |3(N57).PIRIG~b1|
-@aka |3(N57).PIRIG|
-@oid o0903248
-@end sign
-
-@sign |3(N57).SANGA~a|
-@oid o0903250
-@end sign
-
-@sign |3(N57).SI|
-@oid o0903251
-@end sign
-
-@sign |3(N57).ŠUBUR|
-@oid o0903252
-@end sign
-
-@sign |3(N57).UDU~a|
-@aka |3(N57).UDU|
-@oid o0903254
-@end sign
-
-@sign |3(N57).UDUNITA~a|
-@aka |3(N57).UDUNITA|
-@oid o0903256
 @end sign
 
 @sign 4(N57)
 @oid o0903257
 @end sign
 
-@sign |4(N57).AMAR|
-@oid o0903258
-@end sign
-
-@sign |4(N57).GAR|
-@oid o0903259
-@end sign
-
-@sign |4(N57).KU₃~a|
-@aka |4(N57).KU₃|
-@oid o0903261
-@end sign
-
-@sign |4(N57).NI~b|
-@aka |4(N57).NI|
-@oid o0903263
-@end sign
-
 @sign 5(N57)
 @oid o0903264
-@end sign
-
-@sign |5(N57).GAR|
-@oid o0903265
-@end sign
-
-@sign |5(N57).KU₃~a|
-@aka |5(N57).KU₃|
-@oid o0903267
 @end sign
 
 @sign 6(N57)
 @oid o0903268
 @end sign
 
-@sign |6(N57).GAR|
-@oid o0903270
-@end sign
-
-@sign |6(N57).KU₃~a|
-@aka |6(N57).KU₃|
-@oid o0903272
-@end sign
-
 @sign 7(N57)
 @oid o0903273
-@end sign
-
-@sign |7(N57).GAR|
-@oid o0903274
 @end sign
 
 @sign 8(N57)
@@ -9136,27 +8971,12 @@
 @oid o0903280
 @end sign
 
-@sign |1(N58).BAD|
-@aka |1(N58).BAD~a|
-@aka |BAD+DIŠ~a|
-@oid o0903282
-@end sign
-
-@sign |(1(N58).BAD)~b|
-@aka |1(N58).BAD~b|
-@oid o0903283
-@end sign
-
 @sign 2(N58)
 @oid o0903284
 @end sign
 
 @sign 3(N58)
 @oid o0903285
-@end sign
-
-@sign |3(N58).UR₃~b1|
-@oid o0903287
 @end sign
 
 @sign 4(N58)
@@ -9226,6 +9046,181 @@
 
 @sign 1(N63)
 @oid o0903304
+@end sign
+
+@sign |1(N57).AB₂|
+@oid o0903211
+@end sign
+
+@sign |2(N57).AB₂|
+@oid o0903223
+@end sign
+
+@sign |3(N57).AMAR|
+@oid o0903235
+@end sign
+
+@sign |4(N57).AMAR|
+@oid o0903258
+@end sign
+
+@sign |3(N57).AZ|
+@oid o0903236
+@end sign
+
+@sign |3(N57).BAR×UŠ~a|
+@aka |3(N57).BAR×UŠ|
+@oid o0903238
+@end sign
+
+@sign |3(N57).BARA₃|
+@oid o0903239
+@end sign
+
+@sign |2(N57).BIR₃~a|
+@aka |2(N57).BIR₃|
+@oid o0903225
+@end sign
+
+@sign |1(N57).BU₃|
+@oid o0903212
+@end sign
+
+@sign |1(N57).E₂~a|
+@aka |1(N57).E₂|
+@oid o0903214
+@end sign
+
+@sign |3(N57).E₂~b|
+@aka |3(N57).E₂|
+@oid o0903241
+@end sign
+
+@sign |3(N57).EN₂|
+@oid o0903242
+@end sign
+
+@sign |X(N57).GAR|
+@aka |N(N57).GAR|
+@oid o0902413
+@end sign
+
+@sign |3(N57).GAR|
+@oid o0903243
+@end sign
+
+@sign |4(N57).GAR|
+@oid o0903259
+@end sign
+
+@sign |5(N57).GAR|
+@oid o0903265
+@end sign
+
+@sign |6(N57).GAR|
+@oid o0903270
+@end sign
+
+@sign |7(N57).GAR|
+@oid o0903274
+@end sign
+
+@sign |4(N57).KU₃~a|
+@aka |4(N57).KU₃|
+@oid o0903261
+@end sign
+
+@sign |5(N57).KU₃~a|
+@aka |5(N57).KU₃|
+@oid o0903267
+@end sign
+
+@sign |6(N57).KU₃~a|
+@aka |6(N57).KU₃|
+@oid o0903272
+@end sign
+
+@sign |2(N57).KU₆~a|
+@aka |2(N57).KU₆|
+@oid o0903227
+@end sign
+
+@sign |1(N57).MUŠEN|
+@aka |MUŠEN×1(N57)|
+@oid o0901430
+@end sign
+
+@sign |2(N57).MUŠEN|
+@aka |MUŠEN×2(N57)|
+@oid o0901431
+@end sign
+
+@sign |3(N57).MUŠEN|
+@aka |MUŠEN×3(N57)|
+@oid o0901432
+@end sign
+
+@sign |3(N57).NUNUZ~a1|
+@aka |3(N57).NUNUZ|
+@oid o0903245
+@end sign
+
+@sign |3(N57).NUNUZ~c|
+@oid o0903246
+@end sign
+
+@sign |3(N57).PIRIG~b1|
+@aka |3(N57).PIRIG|
+@oid o0903248
+@end sign
+
+@sign |3(N57).SANGA~a|
+@oid o0903250
+@end sign
+
+@sign |3(N57).SI|
+@oid o0903251
+@end sign
+
+@sign |1(N57).SIG|
+@aka |SIG×1(N57)|
+@oid o0901748
+@end sign
+
+@sign |2(N57).SU~a|
+@aka |2(N57).SU|
+@oid o0903230
+@end sign
+
+@sign |1(N57).ŠAH₂~a|
+@oid o0903219
+@end sign
+
+@sign |1(N57).ŠUBUR|
+@oid o0903221
+@end sign
+
+@sign |2(N57).ŠUBUR|
+@oid o0903231
+@end sign
+
+@sign |3(N57).ŠUBUR|
+@oid o0903252
+@end sign
+
+@sign |3(N57).UDU~a|
+@aka |3(N57).UDU|
+@oid o0903254
+@end sign
+
+@sign |2(N57).UDUNITA~a|
+@aka |2(N57).UDUNITA|
+@oid o0903233
+@end sign
+
+@sign |3(N57).UDUNITA~a|
+@aka |3(N57).UDUNITA|
+@oid o0903256
 @end sign
 
 @compoundonly 1(N57@t)

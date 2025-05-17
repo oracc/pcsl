@@ -40,6 +40,34 @@
   <xi:include href="../m/chartlist.html"/>
   
   <tex:appendix>PCSL Table</tex:appendix>
+
+  <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
+  convenient overview of the entire Proto-Cuneiform repertoire and its
+  various data sources.  The contents of the columns are as follows:</xh:p>
+
+  <xh:dl>
+    <xh:dt>PCSL</xh:dt>
+    <xh:dd>The core PCSL data: the sign name and category tag are at the
+    top of the case; the distribution, Oracc ID (OID) and ZATU number,
+    if any, are at the bottom of the case. If the sign is proposed for
+    encoding in PC25, the hex codepoint and reference glyph are given
+    in the middle of the case.</xh:dd>
+    <xh:dt>FONT</xh:dt>
+    <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.  Glyphs
+    coloured blue are not included in the CDLI-gh collection.</xh:dd>
+    <xh:dt>CDLI</xh:dt>
+    <xh:dd>The original CDLI-gh image, scaled from a 600dpi image set
+    downloaded from the CDLI website in 2016.</xh:dd>
+    <xh:dt>ATU3, ATU5, MSVO1, MSCO4, CUSAS</xh:dt>
+    <xh:dd>Glyphs as given in the sign lists of the relevant text
+    editions, but drawn from the PCSL font.  Glyphs in red differ in
+    naming from CDLI-gh; <xh:code>(o)</xh:code> means that the instance has
+    no variant code; <xh:code>(a), (b)</xh:code>, etc., means that the
+    instance has the given variant code.</xh:dd>
+  </xh:dl>
+
+  <tex:text>\bigskip&#xa;&#xa;</tex:text>
+  
   <xi:include href="../m/pcsl-tab.html"/>
 
   <tex:appendix>PCSL Non-PC25</tex:appendix>

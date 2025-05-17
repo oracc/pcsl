@@ -8,7 +8,8 @@
 %% \font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
 
 \font\slnmfontw="Ungkam Basic Bold:color=00FF00" at8pt
-\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7pt
+%\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7pt
+\font\slnmfontx="Ungkam Basic Bold" at7pt
 \font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8pt
 
 \font\akafont="Ungkam Basic" at7pt
@@ -379,7 +380,7 @@
   \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
-\newbox\slrgbox \newbox\slnmbox \newtoks\oidtoks
+\newbox\slrgbox \newbox\slnmbox \newtoks\oidtoks \newbox\cpbox
 \newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
 \newtoks\akatoks \newtoks\cdifftoks
 \newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
@@ -401,7 +402,6 @@
        \rgtopkern=0pt
      \fi
    \fi
-   \showthe\rgtopkern
    \setbox\akabox=\hbox{\the\akatoks}%
    \ifdim\wd\akabox>0pt
       \setbox\akabox=\hbox{\vbox{\kern2pt\hsize2in \sltgfont
@@ -411,13 +411,14 @@
    \fi
    \setbox\cdiffbox=\hbox{\the\cdifftoks}%
    \ifdim\wd\cdiffbox>0pt
-      \setbox\cdiffbox=\hbox{\vbox{\kern2pt\hsize2in \sltgfont
+      \setbox\cdiffbox=\hbox{\vbox{\hsize2in \sltgfont
                                  \parindent0pt \rightskip0pt plus1fil \hangindent1em
                                  \leavevmode\akafont\hbox to2.15em{\helvx CDLI:\hfil}%
                                  \sltgfont \the\cdifftoks\endgraf}}%
    \fi
    \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
    \kern.5pt
+   \setbox\cpbox\hbox{#5}%
    \hbox{\hbox to1in{\helvy#5\hfil}}% PC25 code point
    \vbox{
      \ifdim\rgtopkern>0pt\else\kern-10pt\fi
@@ -431,6 +432,7 @@
    }%
    }%
    \vfil
+   \ifdim\wd\cpbox=0pt\kern5pt\fi
    \ifdim\wd\akabox>0pt \box\akabox \kern1pt\fi
    \ifdim\wd\cdiffbox>0pt \box\cdiffbox \kern1pt\fi
    \hbox{%
