@@ -168,6 +168,9 @@
 			<div class="fchr">
 			  <span class="ofs-pc ofs-200">
 			    <xsl:for-each select ="f">
+			      <xsl:if test="@t">
+				<span class="chars-tag"><xsl:value-of select="@t"/></span>
+			      </xsl:if>
 			      <xsl:value-of select="@c"/>
 			    </xsl:for-each>
 			  </span>
@@ -192,6 +195,11 @@
 		      <span class="ofs-pc ofs-200">
 			<xsl:if test="@newgh='1'">
 			  <xsl:attribute name="data-newgh"><xsl:text>1</xsl:text></xsl:attribute>
+			</xsl:if>
+			<xsl:if test="@t">
+			  <span class="chars-tag">
+			    <xsl:value-of select="@t"/>
+			  </span>
 			</xsl:if>
 			<xsl:value-of select="@c"/>
 		       </span>

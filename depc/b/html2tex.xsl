@@ -230,6 +230,14 @@
     <xsl:text>&#xa;@end{verbatim}&#xa;</xsl:text>
   </xsl:template>
 
+  <xsl:template match="h:span[@class='chars-tag']">
+    <xsl:if test="count(ancestor::h:div[2]/h:div[@class='fchr'])>1">
+      <xsl:text>\llap{\oidfont </xsl:text>
+      <xsl:value-of select="."/>
+      <xsl:text>\kern1pt}</xsl:text>
+    </xsl:if>
+  </xsl:template>
+
   <xsl:template match="h:span">
     <xsl:text>\bgroup</xsl:text>
     <xsl:call-template name="class"/>

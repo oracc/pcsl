@@ -21,9 +21,9 @@ die "$0: must give X-final.tsv base. Stop.\n"
 
 my %Os = (); my %Og = (); load_pcsl_oid();
 
-my %distcheat = (
-    );
-
+#my %distcheat = (
+#    );
+#
 #    o0900242=>'o0900243',
 #    o0901716=>'o0901715',
 #    o0901032=>'o0901030',
@@ -71,6 +71,7 @@ my %pc25 = (); load_pc25();
 my %sf = (); load_sf() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
+my %glyftag = (); load_glyf() if $pcslflag;
 
 open(CD, '>cdlidiff.log')
     if $pcslflag;
@@ -364,6 +365,16 @@ sub load_dist_all {
     }
 }
 
+sub load_glyf {
+    my @g = `cut -f1,6 00etc/glyf-final.tsv`; chomp @g;
+    foreach (@g) {
+	my($c,$t) = split(/\t/,$_);
+	$t =~ s/~0+/0x/;
+	my $d = hex($t);
+	$glyftag{$c} = $d;
+    }
+}
+
 sub load_oid {
     my @o = `grep ^o09 $ENV{'ORACC'}/oid/oid.tab | cut -f1,3`; chomp @o;
     foreach (@o) {
@@ -497,7 +508,10 @@ sub pchar {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
 	    my $ch25 = $pc25{$ch};
-	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\" u25=\"$ch25\">";
+	    my $tag = $ccc ? $glyftag{$ccc} : '';
+	    $tag = "$tag" if $tag;
+	    $tag = sprintf(" t=\"%s\"", $tag =~ tr/0-9/₀-₉/) if $tag;
+	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\" u25=\"$ch25\"$tag>";
 	    my @seq = grep(length,split(/(.)/,$seq));
 	    if ($#seq == 0) {
 		my $l = length $seq;
@@ -522,7 +536,12 @@ sub pchar {
 	if ($u{$ch}) {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
-	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"$ngh/>";
+	    my $tag = $glyftag{$cc} || '';
+	    if ($tag."" =~ /^0-9$/) {
+		$tag = chr($tag-'0'+0x2080);
+		$tag = " t=\"$tag\"";
+	    }
+	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"$ngh$tag/>";
 	} elsif ($ch eq '4F') {
 	    print "<$f sn=\"O\" c=\"O\"/>";
 	} elsif ($ch eq '200D') {
