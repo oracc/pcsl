@@ -16,6 +16,12 @@ GetOptions(
 # Create a table to map PC24 ttx to PC25
 #
 
+my %gfcheat = (
+    o0903571=>'o0900195',
+    o0903580=>'o0900336',
+    o0903581=>'o0900338',
+    );
+
 my %g1 = ();
 my %gx = ();
 my %go = ();
@@ -67,7 +73,16 @@ my %pc25 = (); my @pc25 = `cut -f 1,2,4 00etc/pc25-final.tsv`; chomp @pc25;
 foreach (@pc25) {
     my($o,$u,$n) = split(/\t/,$_);
     my $b = $g1{$o};
-    die "no g1 for $o\n" unless $b;
+    unless ($b) {
+	$b = $g1{$om{$o}} if $om{$o};
+	unless ($b) {
+	    $b = $g1{$omr{$o}} if $omr{$o};
+	    unless ($b) {
+		$b = $gfcheat{$o};
+	    }
+	}
+    }
+    warn "$0: no glyf-final g1 entry for $o\n" and next unless $b;
 #    my $oo = $om{$o} ? $om{$o} : $o;
 #    if ($pc24{$oo}) {
 	print "$o\t$b\t$u\n";
