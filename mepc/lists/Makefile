@@ -83,7 +83,7 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 
 glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 
-00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv
+00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv 00etc/pcsl-final.tsv
 	00bin/glyf-final.plx <$< >$@
 
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built

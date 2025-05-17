@@ -1108,7 +1108,7 @@ EASL1107	o0901876		SU₃	I	SU3	𒬟	/pcsl/easl/images/o0901876.png
 EASL1108	o0901878		SUG	I	SUG	𒬠	/pcsl/easl/images/o0901878.png
 EASL1109	o0901879		SUG₅	I	SUG5	𒬡	/pcsl/easl/images/o0901879.png
 EASL1110	o0901880		SUH₃	I	SUH3	𒬢	/pcsl/easl/images/o0901880.png
-EASL1111	o0901881		SUHUR	I	SUHUR	𒬣	/pcsl/easl/images/o0901881.png
+EASL1111	o0901881		SUHUR	I	SUHUR	𒬣;󳄇,󳄈	/pcsl/easl/images/o0901881.png
 EASL1112	o0901883		SUHUR@g	I	SUHUR@g	𒬤	/pcsl/easl/images/o0901883.png
 EASL1113	o0901884		SUHUR@n	I	|SUHUR@n|	𒬥	/pcsl/easl/images/o0901884.png
 EASL1114	o0901887		SUKKAL	I	SUKKAL	𒬦	/pcsl/easl/images/o0901887.png
@@ -1302,7 +1302,7 @@ EASL1301	o0902217	#	|U₄×(X+2(N01))|	I	|U4x(X+2(N01))|	𒯲	/pcsl/easl/images/
 EASL1302	o0902178		|U₄×1(N01)|	I	|U4x1(N01)|	𒯳	/pcsl/easl/images/o0902178.png
 EASL1303	o0902179	.	|U₄×1(N01).5(N08)|	I	|U4x1(N01).5(N08)|	𒯴	/pcsl/easl/images/o0902179.png
 EASL1304	o0902182	#	|U₄×2(N01)|	I	|U4x2(N01)|	𒯵	/pcsl/easl/images/o0902182.png
-EASL1305	o0902185	.	|U₄×2(N01).X|	I	|U4x2(N01).X|	𒯶	/pcsl/easl/images/o0902185.png
+EASL1305	o0902185	.#	|U₄×2(N01).X|	I	|U4x2(N01).X|	𒯶	/pcsl/easl/images/o0902185.png
 EASL1306	o0902183	.	|U₄×2(N01).2(N14)|	I	|U4x2(N01).2(N14)|	𒯷	/pcsl/easl/images/o0902183.png
 EASL1307	o0902184	.	|U₄×2(N01).2(N14).1(N08)|	I	|U4x2(N01).(2(N14).1(N08))|	𒯸	/pcsl/easl/images/o0902184.png
 EASL1308	o0902186		|U₄×3(N01)|	I	|U4x3(N01)|	𒯹	/pcsl/easl/images/o0902186.png

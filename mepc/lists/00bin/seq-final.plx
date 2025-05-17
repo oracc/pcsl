@@ -80,8 +80,11 @@ while (<S>) {
 
     my $h = sprintf("%X", ord($c));
 
-    my ($xv,$xn,$xl) = seq_views($s);
-    next unless defined $xv;
+    my ($xv,$xn,$xl) = seq_views($s,$o);
+    if (!defined($xv)) {
+	# warn "$0: no xview for $s\n";
+	next;
+    }
 
     if ($addglyf) {
 	$glyf{$c} = $xv;
@@ -107,7 +110,8 @@ sub load_unicode {
 }
 
 sub seq_views {
-    my @s = grep(length,split(/(.)/, $_[0]));
+    my ($arg_s, $o) = @_;
+    my @s = grep(length,split(/(.)/, $arg_s));
     my @nv = ();
     my @nn = ();
     my @nl = ();
@@ -142,7 +146,7 @@ sub seq_views {
 	} else {
 	    my $h = sprintf("%X", ord($s));
 	    if ('O' eq $s) {
-		warn "$0:$.: sequence with breakage should be in PUA not in seq-final.tsv\n";
+		warn "$0:$.: $o: sequence with breakage should be in PUA not in seq-final.tsv\n";
 		return (undef, undef);
 	    } else {
 		warn "$0:$.: glyf $s=$h not in 00etc/glyf-final.tsv\n";
