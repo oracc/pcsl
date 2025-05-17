@@ -27,12 +27,12 @@
 
   <tex:appendix>PC25 Code Charts</tex:appendix>
 
-  <xi:include href="../m/cpage1.html"/>
-  <xi:include href="../m/cpage2.html"/>
-  <xi:include href="../m/cpage3.html"/>
-  <xi:include href="../m/cpage4.html"/>
-  <xi:include href="../m/cpage5.html"/>
-  <xi:include href="../m/cpage6.html"/>
+  <xi:include href="../m/cpage1.xml"/>
+  <xi:include href="../m/cpage2.xml"/>
+  <xi:include href="../m/cpage3.xml"/>
+  <xi:include href="../m/cpage4.xml"/>
+  <xi:include href="../m/cpage5.xml"/>
+  <xi:include href="../m/cpage6.xml"/>
 
   <tex:text>\newpage</tex:text>
   

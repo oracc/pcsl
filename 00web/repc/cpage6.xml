@@ -2298,16 +2298,7 @@
               </div>
             </div>
           </td>
-          <td>
-            <div class="vbox">
-              <div>
-                <span class="cc-chr" title="NO UNAME">𒯽</span>
-              </div>
-              <div>
-                <span class="cc-uni">12BFD</span>
-              </div>
-            </div>
-          </td>
+          <td class="cc-empty"/>
         </tr>
         <tr>
           <th>E</th>
@@ -2461,16 +2452,7 @@
               </div>
             </div>
           </td>
-          <td>
-            <div class="vbox">
-              <div>
-                <span class="cc-chr" title="NO UNAME">𒯾</span>
-              </div>
-              <div>
-                <span class="cc-uni">12BFE</span>
-              </div>
-            </div>
-          </td>
+          <td class="cc-empty"/>
         </tr>
         <tr>
           <th>F</th>
@@ -2604,6 +2586,27 @@
               </div>
             </div>
           </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ZATU847">𒯟</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BDF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM NUMBER SEVEN-N57">𒯯</span>
+              </div>
+              <div>
+                <span class="cc-uni">12BEF</span>
+              </div>
+            </div>
+          </td>
+          <td class="cc-empty"/>
         </tr>
       </table>
     </body>
