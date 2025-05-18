@@ -91,7 +91,7 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/seqdb.tsv
 	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
 
 00etc/seqdb.tsv: 00bin/seqdb.plx 00etc/glyf-final.tsv 00etc/seq-final.tsv
-	00bin/seqdb.plx >$@
+	00bin/seqdb.plx | gdlx -g -k2 | cut -f2- >$@
 
 ###
 ### CSLDIST
@@ -216,6 +216,10 @@ xml: ${SLXML} ${DVXML}
 
 00etc/no_%.xml: 00etc/no_%.tsv
 	00bin/final-xml.plx $<
+
+# Note that 00etc/seqdb.xml is generated in PC25 encoding
+00etc/seqdb.xml: 00etc/seqdb.tsv 00bin/seqdb-xml.plx 00etc/pc25.map
+	00bin/seqdb-xml.plx | utr -s 00etc/pc25.map >$@
 
 ###
 ### HTML

@@ -5,7 +5,5139 @@
   <html>
     <head/>
     <body>
-      <xi:include xml:base="." href="../db/sequencedb.html"/>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="seqdb" xml:base=".">
+        <thead>
+          <tr>
+            <th>NAME</th>
+            <th>DECOMP</th>
+            <th>PUA</th>
+            <th>LIG</th>
+            <th>.liga</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900085">|AMAR.1(N02)|</td>
+            <td>
+              <span class="seqdb-s">𒚴.𒖾</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉟</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F225F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐉‍𒖾</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u126C5_u200D_u125BE.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900098">|AN.IM~a.GI₆|</td>
+            <td>
+              <span class="seqdb-s">𒚷.𒡠.𒠏</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉠</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2260</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒚨‍󲃝‍󲃕</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u126CC_u200D_u128FE_u200D_u1288E.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900104">|APIN~a.APIN~a|</td>
+            <td>
+              <span class="seqdb-s">𒚽.𒚽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉡</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2261</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒚭‍𒚭</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u126D2_u200D_u126D2.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900181">|BU~b.NA₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒛭.󲄹</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉻</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲂑‍𒡷</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12716_u200D_u12A10.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900209">|BULUG₃.DU₆~a|</td>
+            <td>
+              <span class="seqdb-s">𒛰.𒜡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉰</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2270</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒛐‍󲉼</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1271A_u200D_u12750.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900222">|DA~a.LIŠ|</td>
+            <td>
+              <span class="seqdb-s">𒛶.𒣡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉼</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒛖‍𒡌</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12720_u200D_u129B5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900508">|DU.U₄.1(N14).1(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒜞.𒩽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉱</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2271</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒛴‍𒥷</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1274D_u200D_u12BE1.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900498">|E₂~a.LIŠ|</td>
+            <td>
+              <span class="seqdb-s">𒝿.𒣡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉣</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2263</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝇‍𒡌</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127CA_u200D_u129B5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901578">|E₂~a.NUN~a|</td>
+            <td>
+              <span class="seqdb-s">𒝿.𒥯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉢</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2262</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝇‍𒢮</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127CA_u200D_u12A74.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900499">|E₂~b.LIŠ|</td>
+            <td>
+              <span class="seqdb-s">𒞁.𒣡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉤</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2264</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝉‍𒡌</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127CE_u200D_u129B5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900535">|EN~a.BAHAR₂~b.SIG₇.ME~a.NUN~a|</td>
+            <td>
+              <span class="seqdb-s">𒞇.𒞢∘𒥯.󲅮</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃊</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20CA</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝐‍𒝪‍𒢮‍𒣫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127D9_u200D_uF3106_u200D_u12A74_u200D_u12AE3.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900535">|EN~a.BAHAR₂~b.SIG₇.ME~a.NUN~a|~2</td>
+            <td>
+              <span class="seqdb-s">𒞇.󲂏∘𒧆.𒤅.𒥯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃋</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20CB</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒝐‍𒚵‍𒣫‍𒡥‍𒢮</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127D9_u200D_u126E7_u200D_u12AE3_u200D_u129E2_u200D_u12A74.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900537">|EN~a.KID~a|</td>
+            <td>
+              <span class="seqdb-s">𒞇.𒢎</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉧</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2267</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝐‍𒠏</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127D9_u200D_u12941.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900534">|EN~a.ME~a.GI|</td>
+            <td>
+              <span class="seqdb-s">𒞇.𒤅.𒟽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉦</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2266</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝐‍𒡥‍𒞞</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127D9_u200D_u129E2_u200D_u12878.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900533">|EN~a.ME~a.MU|</td>
+            <td>
+              <span class="seqdb-s">𒞇.𒤅.𒤍</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉥</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2265</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝐‍𒡥‍𒡩</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127D9_u200D_u129E2_u200D_u129EC.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900531">|EN₂.E₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒞍.𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉨</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2268</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝕‍𒝇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127E3_u200D_u127CA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900532">|EN₂.E₂~b|</td>
+            <td>
+              <span class="seqdb-s">𒞍.𒞁</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉩</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2269</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝕‍𒝉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127E3_u200D_u127CE.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901473">|EŠDA.NAM₂|</td>
+            <td>
+              <span class="seqdb-s">𒞒.𒤶</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅁</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2141</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒝚‍𒢅</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127F0_u200D_u12A23.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901473">|EŠDA.NAM₂|~2</td>
+            <td>
+              <span class="seqdb-s">𒞒+𒤶</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅂</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2142</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒝚‍𒢅</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u127F0_u200D_u12A23.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902394">|GAL~a.BUR₂|</td>
+            <td>
+              <span class="seqdb-s">𒟞.𒛵</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉴</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2274</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐝‍𒛕</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1284E_u200D_u1271F.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901944">|GAL~a.NI~a|</td>
+            <td>
+              <span class="seqdb-s">𒟞.𒥃</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉲</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2272</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐝‍𒢐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1284E_u200D_u12A3A.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901943">|GAL~a.NIM~a|</td>
+            <td>
+              <span class="seqdb-s">𒟞.𒥊</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉳</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2273</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐝‍𒢘</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1284E_u200D_u12A43.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901110">|GAL~a.UKKIN~a|</td>
+            <td>
+              <span class="seqdb-s">𒟞.𒪬</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄐</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2110</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐝‍𒦜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1284E_u200D_u12C31.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901110">|GAL~a.UKKIN~a|~2</td>
+            <td>
+              <span class="seqdb-s">𒟞.󲆽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄑</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2111</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲐝‍𒦜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1284E_u200D_u12C31.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900905">|GEŠTU~a.NAGA~a|</td>
+            <td>
+              <span class="seqdb-s">𒟹.𒤭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉽</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒞛‍𒡼</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12871_u200D_u12A16.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900842">|GI₆.NUNUZ~c|</td>
+            <td>
+              <span class="seqdb-s">𒠏.𒥽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉵</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2275</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲃕‍󲑉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1288E_u200D_u12A87.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900853">|GIR~a.KU₆~a|</td>
+            <td>
+              <span class="seqdb-s">𒠑.𒢪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉾</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒞪‍𒠡</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12893_u200D_u12965.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900851">|GIR~b.GIR~b|</td>
+            <td>
+              <span class="seqdb-s">󲃥.󲃥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉿</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒞫‍𒞫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12896_u200D_u12896.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901491">|GIR₃~c.AB~a|</td>
+            <td>
+              <span class="seqdb-s">𒠘.𒚖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉷</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2277</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒞳‍󲐁</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1289F_u200D_u12698.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902108">|GIR₃~c.PIRIG~b1|</td>
+            <td>
+              <span class="seqdb-s">𒠘.𒦈</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉶</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2276</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒞳‍󲑍</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1289F_u200D_u12A98.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900877">|GIŠ.TE|</td>
+            <td>
+              <span class="seqdb-s">𒠟.𒩠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉪</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F226A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐢‍󲑥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128A7_u200D_u12BB9.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900887">|GIŠ@t.E₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒠥.𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉫</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F226B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐣‍𒝇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128AE_u200D_u127CA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900911">|GU₄.ZATU755~b|</td>
+            <td>
+              <span class="seqdb-s">𒠲.𒮧</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉬</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F226C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲃖‍󲑿</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128BE_u200D_u12D7C.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900934">|GUKKAL~a.HI@g~a|</td>
+            <td>
+              <span class="seqdb-s">𒠼.𒡔</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉭</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F226D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒟏‍󲃚</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128CD_u200D_u128F0.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900966">|HI.LAGAB~a|</td>
+            <td>
+              <span class="seqdb-s">𒡑.𒢻</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉮</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F226E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐭‍󲉽</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128E6_u200D_u12980.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900964">|HI.SUHUR|</td>
+            <td>
+              <span class="seqdb-s">𒡑.𒧼</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃵</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F5</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐭‍𒤜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128E6_u200D_u12B23.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900964">|HI.SUHUR|~2</td>
+            <td>
+              <span class="seqdb-s">𒡑.󲅴</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃶</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F6</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲐭‍𒤜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128E6_u200D_u12B23.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900964">|HI.SUHUR|~3</td>
+            <td>
+              <span class="seqdb-s">𒡑.󲅵</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃷</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F7</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv03">󲐭‍𒤜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128E6_u200D_u12B23.liga.cv03</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900969">|HI×1(N57).HI×1(N57)|</td>
+            <td>
+              <span class="seqdb-s">𒡒.𒡒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃸</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F8</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲃙‍󲃙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128EC_u200D_u128EC.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900969">|HI×1(N57).HI×1(N57)|~2</td>
+            <td>
+              <span class="seqdb-s">𒡒∘𒡒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃹</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F9</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲃙‍󲃙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128EC_u200D_u128EC.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901014">|IR~a.GA₂~a1|</td>
+            <td>
+              <span class="seqdb-s">𒡤.𒞮</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊀</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2280</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲐰‍𒝀</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12903_u200D_u12815.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901032">|KA~a.ŠE~a|</td>
+            <td>
+              <span class="seqdb-s">𒡫.𒨢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄈</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2108</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒟲‍𒤵</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12914_u200D_u12B57.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901032">|KA~a.ŠE~a|~2</td>
+            <td>
+              <span class="seqdb-s">𒡫.𒨟</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄉</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2109</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒟲‍𒤲</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12914_u200D_u12B52.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901055">|KAK~a.GA₂~a1|</td>
+            <td>
+              <span class="seqdb-s">𒡳.𒞮</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊁</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2281</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲃟‍𒝀</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12922_u200D_u12815.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901151">|KU₆~a.GIŠ|</td>
+            <td>
+              <span class="seqdb-s">𒢪.𒠟</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊃</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2283</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠡‍󲐢</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12965_u200D_u128A7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901149">|KU₆~a.1(N02)|</td>
+            <td>
+              <span class="seqdb-s">𒢪.𒖾</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊂</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2282</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠡‍𒖾</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12965_u200D_u125BE.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901164">|KUR~a.E₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒢭.𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉹</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2279</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠤‍𒝇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1296C_u200D_u127CA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901167">|KUR~a.NUNUZ~a1|</td>
+            <td>
+              <span class="seqdb-s">𒢭.𒥺</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉸</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2278</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠤‍𒢶</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1296C_u200D_u12A82.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902069">|KUR~a.RU|</td>
+            <td>
+              <span class="seqdb-s">𒢭.𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆦</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A6</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠤‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1296C_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902069">|KUR~a.RU|~2</td>
+            <td>
+              <span class="seqdb-s">𒢭.󲅞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆧</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A7</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒠤‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1296C_u200D_u12AA5.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901165">|KUR~b.E₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒢮.𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉺</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠥‍𒝇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1296F_u200D_u127CA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901189">|LAGAB~b.TE|</td>
+            <td>
+              <span class="seqdb-s">𒣍.𒩠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒠼‍󲑥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12997_u200D_u12BB9.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901311">|LU₂.GAL~a|</td>
+            <td>
+              <span class="seqdb-s">𒣢.𒟞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄪</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F212A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒡍‍󲐝</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u129B6_u200D_u1284E.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901311">|LU₂.GAL~a|~2</td>
+            <td>
+              <span class="seqdb-s">𒣢∘𒟞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄫</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F212B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒡍‍󲐝</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u129B6_u200D_u1284E.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900538">|ME~a.EN~a.ŠE~a.ŠA|</td>
+            <td>
+              <span class="seqdb-s">𒤅.𒞇∘𒨟∘𒨌</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉯</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F226F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒡥‍𒝐‍𒤲‍𒤦</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u129E2_u200D_u127D9_u200D_u12B52_u200D_u12B37.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902418">|MUŠ₃~a.AB~a|</td>
+            <td>
+              <span class="seqdb-s">𒤞.𒚖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈤</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2224</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒡱‍󲐁</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A03_u200D_u12698.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901909">|MUŠ₃~a.ERIN|</td>
+            <td>
+              <span class="seqdb-s">𒤞.𒞑</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈣</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2223</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒡱‍𒝘</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A03_u200D_u127EF.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902419">|MUŠ₃~a.UNUG~a|</td>
+            <td>
+              <span class="seqdb-s">𒤞.𒪻</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈢</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2222</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒡱‍󲅤</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A03_u200D_u12C44.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901429">|MUŠEN.UR₃~b2|</td>
+            <td>
+              <span class="seqdb-s">𒤡.𒫋</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈥</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2225</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲑂‍𒦵</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A05_u200D_u12C58.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901427">|MUŠEN.3(N58)|~2</td>
+            <td>
+              <span class="seqdb-s">𒤡.𒯵</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈜</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F221C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲑂‍󲒅</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A05_u200D_uF011C.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902870">|1(N02).RU|~2</td>
+            <td>
+              <span class="seqdb-s">𒖾.󲅞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈑</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2211</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒖾‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u125BE_u200D_u12AA5.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900997">|NAGAR~a.BU~a|</td>
+            <td>
+              <span class="seqdb-s">𒤰.𒛧</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈦</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2226</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢁‍𒛋</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1C_u200D_u1270B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900998">|NAGAR~b.BU~a|</td>
+            <td>
+              <span class="seqdb-s">𒤱.𒛧</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈧</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2227</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢂‍𒛋</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1D_u200D_u1270B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900544">|NE~a.RU|</td>
+            <td>
+              <span class="seqdb-s">𒤽.𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈨</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2228</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢊‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A2F_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900841">|NE~c.GI|</td>
+            <td>
+              <span class="seqdb-s">𒤿∘𒟽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃣</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20E3</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢌‍𒞞</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A33_u200D_u12878.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900841">|NE~c.GI|~2</td>
+            <td>
+              <span class="seqdb-s">󲅉∘𒟽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃤</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20E4</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒢊‍𒞞</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A2F_u200D_u12878.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901504">|NI~a.RU|</td>
+            <td>
+              <span class="seqdb-s">𒥃.󲅞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈩</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2229</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢐‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A3A_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900047">|NUN~a.ME~a|</td>
+            <td>
+              <span class="seqdb-s">𒥯.𒤅</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲂂</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2082</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢮‍𒡥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A74_u200D_u129E2.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900047">|NUN~a.ME~a|~2</td>
+            <td>
+              <span class="seqdb-s">𒥯+𒤅</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲂃</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2083</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒢮‍𒡥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A74_u200D_u129E2.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900049">|NUN~a.ME~a.DU|</td>
+            <td>
+              <span class="seqdb-s">𒜞.𒤅.𒥯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲂄</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2084</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒛴‍𒡥‍𒢮</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1274D_u200D_u129E2_u200D_u12A74.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900049">|NUN~a.ME~a.DU|~2</td>
+            <td>
+              <span class="seqdb-s">𒥯.𒤅.𒜞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲂅</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2085</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒢮‍𒡥‍𒛴</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A74_u200D_u129E2_u200D_u1274D.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901601">|NUN~b.U₄.U₄.1(N14).1(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒥵.𒩽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢱‍𒥷</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A7A_u200D_u12BE1.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901927">|PA~a.IB~a|</td>
+            <td>
+              <span class="seqdb-s">󲅗.𒡘</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆁</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2181</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢹‍𒟣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A8C_u200D_u128F4.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901927">|PA~a.IB~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲅗∘󲃺</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆂</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2182</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒢹‍𒟣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A8C_u200D_u128F4.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901927">|PA~a.IB~a|~3</td>
+            <td>
+              <span class="seqdb-s">󲅘∘𒡘</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆃</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2183</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv03">𒢹‍𒟣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A8C_u200D_u128F4.liga.cv03</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900539">|PA~a.TE.SI|</td>
+            <td>
+              <span class="seqdb-s">󲅘.𒩠.𒦩</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈪</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F222A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢹‍󲑥‍𒣛</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A8C_u200D_u12BB9_u200D_u12AC7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901868">|PA~a.UDU~a|</td>
+            <td>
+              <span class="seqdb-s">𒥾.𒪢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅱</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2171</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒢹‍𒦑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A8C_u200D_u12C25.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901868">|PA~a.UDU~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲅘.𒪢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅲</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2172</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒢹‍𒦑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A8C_u200D_u12C25.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901929">|PAP~a.IB~a|</td>
+            <td>
+              <span class="seqdb-s">𒦂.𒡘</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆄</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2184</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲑋‍𒟣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A91_u200D_u128F4.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901929">|PAP~a.IB~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲃻∘𒦂</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆅</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2185</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒟣‍󲑋</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u128F4_u200D_u12A91.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901699">|SAL.KUR~a|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒢭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈴</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2234</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒠤</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u1296C.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901416">|SAL.LAGAR~a|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒣓</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈲</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2232</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒡁</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u129A0.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901701">|SAL.LAM~b|</td>
+            <td>
+              <span class="seqdb-s">𒦞.󲄤</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈳</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2233</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒡉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u129B1.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901702">|SAL.ME~a|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒤅</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒡥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u129E2.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901524">|SAL.NAM₂|</td>
+            <td>
+              <span class="seqdb-s">𒦞.󲅀</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈫</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F222B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒢅</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12A23.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901577">|SAL.NAM₂.ŠE~a@t.EZEN~b.NUN~a.SIG₇|</td>
+            <td>
+              <span class="seqdb-s">𒦞.󲅀.𒞢∘𒥯.󲅮</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈬</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F222C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒢅‍𒝪‍𒢮‍𒣫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12A23_u200D_uF3106_u200D_u12A74_u200D_u12AE3.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901773">|SAL.SI|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒦩</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈭</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F222D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒣛</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12AC7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901111">|SAL.SILA₄~c|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒧰</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈮</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F222E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒤐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12B15.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901703">|SAL.ŠU₂|</td>
+            <td>
+              <span class="seqdb-s">𒦞.󲆥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈯</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F222F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍󲈫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12B98.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901705">|SAL.ZATU751~a|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒮠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈰</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2230</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒩎</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12D75.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901706">|SAL.ZATU751~b|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒮡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈱</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2231</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍𒩏</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_u12D76.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901707">|SAL.ZATU751~c|</td>
+            <td>
+              <span class="seqdb-s">𒦞.𒮢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈵</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2235</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒣑‍󲆧</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AB5_u200D_uF300F.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902072">|SU~a.KUR~a.RU|</td>
+            <td>
+              <span class="seqdb-s">𒧴.𒢭.𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈶</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2236</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒤔‍𒠤‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B1D_u200D_u1296C_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901955">|ŠE~a.NAM₂|</td>
+            <td>
+              <span class="seqdb-s">𒨟.󲅀</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆋</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F218B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒤲‍𒢅</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B52_u200D_u12A23.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901955">|ŠE~a.NAM₂|~2</td>
+            <td>
+              <span class="seqdb-s">𒨟.𒤶</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆌</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F218C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒤲‍𒢅</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B52_u200D_u12A23.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901301">|ŠE~a.ŠA|</td>
+            <td>
+              <span class="seqdb-s">𒨟∘𒨌</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄦</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2126</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒤲‍𒤦</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B52_u200D_u12B37.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901301">|ŠE~a.ŠA|~2</td>
+            <td>
+              <span class="seqdb-s">󲅾∘𒨟</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄧</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2127</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒤦‍𒤲</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B37_u200D_u12B52.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901953">|ŠE~a@t.KIN₂~c|</td>
+            <td>
+              <span class="seqdb-s">𒨟.𒢖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆉</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2189</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒤲‍𒠒</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B52_u200D_u12948.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901953">|ŠE~a@t.KIN₂~c|~2</td>
+            <td>
+              <span class="seqdb-s">𒨢.𒢖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆊</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F218A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒤵‍𒠒</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B57_u200D_u12948.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901477">|ŠEŠ~a.NA~a|</td>
+            <td>
+              <span class="seqdb-s">𒨱.𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈷</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2237</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲅈‍𒡵</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B6D_u200D_u12A0B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901268">|ŠITA~a1.MUD₃~a|</td>
+            <td>
+              <span class="seqdb-s">𒨸.𒤏</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈸</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2238</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲑝‍󲄄</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B7B_u200D_u129EF.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902043">|ŠU₂.E₂~a|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈼</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F223C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒝇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u127CA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902044">|ŠU₂.E₂~b|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒞁</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈽</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F223D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒝉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u127CE.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
+            <td>
+              <span class="seqdb-s">󲆢.𒞇</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆟</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F219F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒝐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u127D9.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902047">|ŠU₂.EN~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲆢.󲃆</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆠</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲈫‍𒝐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u127D9.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902047">|ŠU₂.EN~a|~3</td>
+            <td>
+              <span class="seqdb-s">󲆣.󲃇</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆡</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A1</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv03">󲈫‍𒝐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u127D9.liga.cv03</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903634">|ŠU₂.EN~b|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒞈</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈾</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F223E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒝑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u127DA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902049">|ŠU₂.GIŠ|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒠟</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈿</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F223F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍󲐢</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u128A7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902050">|ŠU₂.(HI×1(N57).HI×1(N57))|</td>
+            <td>
+              <span class="seqdb-s">󲆥.󲃹</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉀</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2240</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍󲃙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u128EC.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902054">|ŠU₂.PAP~a|~2</td>
+            <td>
+              <span class="seqdb-s">𒩉.𒦂</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈝</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F221D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲈫‍󲑋</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u12A91.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902041">|ŠU₂.PAP~a.AN|~2</td>
+            <td>
+              <span class="seqdb-s">𒩉.𒚷</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆞</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F219E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲈫‍𒚨</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u126CC.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903635">|ŠU₂.URI₃~a|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒫒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈹</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2239</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒦹</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u12C5F.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902051">|ŠU₂.1(N02)|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒖾</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈻</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F223B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒖾</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u125BE.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902057">|ŠU₂.1(N24)|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒖪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈺</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F223A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍𒖪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_u125AA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902052">|ŠU₂.2(N57)|</td>
+            <td>
+              <span class="seqdb-s">󲆥.𒯪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉁</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2241</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲈫‍󲉎</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B98_u200D_uF0111.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903220">|ŠUBUR.1(N57)|</td>
+            <td>
+              <span class="seqdb-s">𒩋∘𒯩</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈒</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2212</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥐‍󲉌</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12B9E_u200D_uF0110.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901071">|TE.A|</td>
+            <td>
+              <span class="seqdb-s">𒩠.𒚐</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉂</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2242</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲑥‍𒚐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BB9_u200D_u12690.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902121">|TUG₂~a.BAD&amp;BAD|</td>
+            <td>
+              <span class="seqdb-s">𒩩.𒛆</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉃</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2243</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉢‍󲉟</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BC4_u200D_u126E0.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902150">|TUR₃~a.5(N57).5(N57)|~2</td>
+            <td>
+              <span class="seqdb-s">𒩷.𒯭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈞</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F221E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒥲‍󲉑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BD8_u200D_uF0114.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900108">|U₄.AB~b|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒚝</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉆</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2246</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒚙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u126A3.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902177">|U₄.ŠU₂|</td>
+            <td>
+              <span class="seqdb-s">𒩽.󲆥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉄</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2244</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍󲈫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12B98.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902163">|U₄.1(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕙</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉍</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F224D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12559.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902164">|U₄.2(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕚</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉇</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2247</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕚</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u1255A.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902165">|U₄.3(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕛</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉈</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2248</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕛</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u1255B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902166">|U₄.4(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕜</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉉</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2249</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u1255C.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902167">|U₄.5(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕝</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉊</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F224A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕝</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u1255D.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902168">|U₄.6(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉋</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F224B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕞</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u1255E.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902169">|U₄.7(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕟</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉌</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F224C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕟</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u1255F.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902170">|U₄.8(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉎</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F224E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕠</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12560.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902171">|U₄.1(N14)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉏</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F224F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕢</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12562.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902218">|U₄.1(N14).1(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕢.𒕙</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕢‍𒕙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12562_u200D_u12559.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902172">|U₄.1(N14).3(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕢.𒕛</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉐</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2250</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕢‍𒕛</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12562_u200D_u1255B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902173">|U₄.1(N14).4(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕢.𒕜</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉑</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2251</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕢‍𒕜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12562_u200D_u1255C.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902174">|U₄.1(N14).5(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕢.𒕝</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉒</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2252</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕢‍𒕝</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12562_u200D_u1255D.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902175">|U₄.1(N14).8(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕢.𒕠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉓</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2253</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕢‍𒕠</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12562_u200D_u12560.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902176">|U₄.2(N14)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒕣</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉔</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2254</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒕣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u12563.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902219">|U₄.1(N24)|</td>
+            <td>
+              <span class="seqdb-s">𒩽.𒖪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉅</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2245</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥷‍𒖪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE1_u200D_u125AA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902179">|U₄×1(N01).5(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩾.𒕝</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉕</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2255</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲅒‍𒕝</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BF3_u200D_u1255D.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902183">|U₄×2(N01).2(N14)|</td>
+            <td>
+              <span class="seqdb-s">󲒅.𒕣</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉖</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2256</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲒅‍𒕣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BF5_u200D_u12563.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902184">|U₄×2(N01).2(N14).1(N08)|</td>
+            <td>
+              <span class="seqdb-s">󲒅.𒕣.𒕙</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉗</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2257</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲒅‍𒕣‍𒕙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BF5_u200D_u12563_u200D_u12559.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902187">|U₄×3(N01).3(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒪀.𒕛</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉘</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2258</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥸‍𒕛</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BF9_u200D_u1255B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902189">|U₄×4(N01).2(N14)|</td>
+            <td>
+              <span class="seqdb-s">𒪁.𒕣</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉙</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2259</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥹‍𒕣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BFB_u200D_u12563.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902191">|U₄×5(N01).1(N14)|</td>
+            <td>
+              <span class="seqdb-s">𒪂.𒕢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉚</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F225A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒥺‍𒕢</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BFD_u200D_u12562.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902199">|U₄×(1(N14).3(N01)).1(N14).4(N08).1(N14).4(N08)|~2</td>
+            <td>
+              <span class="seqdb-s">󲕍.𒕢.𒕜</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈟</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F221F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲕍‍𒕢‍𒕜</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF3094_u200D_u12562_u200D_u1255C.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902334">|URI₃~a.AB~a|</td>
+            <td>
+              <span class="seqdb-s">𒫒.𒚖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉝</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F225D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒦹‍󲐁</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C5F_u200D_u12698.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902336">|URI₃~a.IB~a|</td>
+            <td>
+              <span class="seqdb-s">𒫒.𒡘</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉜</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F225C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒦹‍𒟣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C5F_u200D_u128F4.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
+            <td>
+              <span class="seqdb-s">󲇃.𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅃</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2143</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒦹‍𒡵</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C5F_u200D_u12A0B.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901475">|URI₃~a.NA~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲇃∘𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅄</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2144</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒦹‍𒡵</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C5F_u200D_u12A0B.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901475">|URI₃~a.NA~a|~3</td>
+            <td>
+              <span class="seqdb-s">𒫒.𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅅</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2145</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv03">𒦹‍𒡵</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C5F_u200D_u12A0B.liga.cv03</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902330">|URI₃~a.UNUG~a|</td>
+            <td>
+              <span class="seqdb-s">𒫒.𒪻</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉛</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F225B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒦹‍󲅤</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C5F_u200D_u12C44.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901017">|UŠ~b.KUR~a|</td>
+            <td>
+              <span class="seqdb-s">󲇇.𒢭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃾</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20FE</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒧋‍𒠤</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C7E_u200D_u1296C.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901017">|UŠ~b.KUR~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲇆.𒢭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃿</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20FF</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒧉‍𒠤</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12C7C_u200D_u1296C.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902614">|ZATU714.RU|</td>
+            <td>
+              <span class="seqdb-s">𒭴.󲅞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉞</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F225E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲆙‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12D36_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900607">|ZATU753.GA~a|</td>
+            <td>
+              <span class="seqdb-s">𒮤.󲃒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃐</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20D0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲆩‍𒝯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12D79_u200D_u1280E.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900607">|ZATU753.GA~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲃒.𒮤</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃑</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20D1</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒝯‍󲆩</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u1280E_u200D_u12D79.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903211">|1(N57).AB₂|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒚞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊈</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2288</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍󲐄</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u126A7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903223">|2(N57).AB₂|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒚞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊏</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍󲐄</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u126A7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903235">|3(N57).AMAR|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒚴</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊙</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2299</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍󲐉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u126C5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903258">|4(N57).AMAR|</td>
+            <td>
+              <span class="seqdb-s">𒯬.𒚴</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊟</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F229F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉐‍󲐉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0113_u200D_u126C5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903236">|3(N57).AZ|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒛂</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒚲</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u126DC.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903238">|3(N57).BAR×UŠ~a|</td>
+            <td>
+              <span class="seqdb-s">𒯫.󲕎</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊞</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F229E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍󲕎</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_uF3095.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903239">|3(N57).BARA₃|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒛠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊜</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F229C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒛆</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12702.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903225">|2(N57).BIR₃~a|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒛤</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊐</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2290</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍𒛊</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12706.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903212">|1(N57).BU₃|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒛮</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍󲂒</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u12718.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903564">|2(N57).DU₆~a@n|</td>
+            <td>
+              <span class="seqdb-s">𒯪.󲕊</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍󲕊</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_uF3089.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903214">|1(N57).E₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊉</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2289</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍𒝇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u127CA.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903241">|3(N57).E₂~b|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒞁</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊚</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F229A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒝉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u127CE.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903242">|3(N57).EN₂|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒞍</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒝕</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u127E3.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903243">|3(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊝</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F229D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒞑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12868.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903259">|4(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">𒯬.𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊠</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉐‍𒞑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0113_u200D_u12868.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903265">|5(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">𒯭.𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊢</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A2</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉑‍𒞑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0114_u200D_u12868.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903270">|6(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">󲈖.𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊤</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A4</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉒‍𒞑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0115_u200D_u12868.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903274">|7(N57).GAR|~2</td>
+            <td>
+              <span class="seqdb-s">𒯯.𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈡</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2221</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲉓‍𒞑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0116_u200D_u12868.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903261">|4(N57).KU₃~a|</td>
+            <td>
+              <span class="seqdb-s">𒯬.𒢨</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊡</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A1</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉐‍󲉪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0113_u200D_u12963.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903267">|5(N57).KU₃~a|</td>
+            <td>
+              <span class="seqdb-s">𒯭.𒢨</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊣</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A3</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉑‍󲉪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0114_u200D_u12963.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903272">|6(N57).KU₃~a|</td>
+            <td>
+              <span class="seqdb-s">󲈖.𒢨</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊥</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A5</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉒‍󲉪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0115_u200D_u12963.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903227">|2(N57).KU₆~a|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒢪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊑</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2291</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍𒠡</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12965.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0900109">|3(N57).LAM~a.KUR~a.RU|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒣝.𒢭.𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊛</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F229B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒡇‍𒠤‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u129AC_u200D_u1296C_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901430">|1(N57).MUŠEN|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒤡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊄</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2284</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍󲑂</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u12A05.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901431">|2(N57).MUŠEN|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒤡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊊</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍󲑂</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12A05.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901432">|3(N57).MUŠEN|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒤡</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊒</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2292</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍󲑂</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12A05.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903245">|3(N57).NUNUZ~a1|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒥺</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊓</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2293</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒢶</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12A82.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903246">|3(N57).NUNUZ~c|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒥽</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊔</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2294</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍󲑉</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12A87.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903248">|3(N57).PIRIG~b1|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒦈</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊕</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2295</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍󲑍</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12A98.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902071">|3(N57).RU|</td>
+            <td>
+              <span class="seqdb-s">𒯫.󲅞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆨</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A8</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12AA5.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902071">|3(N57).RU|~2</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆩</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A9</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲉏‍𒣈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12AA5.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903250">|3(N57).SANGA~b|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒦠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒣓</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12ABC.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903251">|3(N57).SI|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒦩</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒣛</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12AC7.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0901748">|1(N57).SIG|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒦷</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊅</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2285</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍󲑕</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u12ACF.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903230">|2(N57).SU~a|</td>
+            <td>
+              <span class="seqdb-s">𒯪.󲅳</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊋</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍𒤔</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12B1D.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903219">|1(N57).ŠAH₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒨘</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊆</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2286</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍𒤯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u12B49.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903221">|1(N57).ŠUBUR|~2</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒩋</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈓</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2213</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">󲉌‍𒥐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u12B9E.liga.cv02</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903231">|2(N57).ŠUBUR|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒩋</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊌</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍𒥐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12B9E.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903252">|3(N57).ŠUBUR|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒩋</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊖</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2296</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒥐</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12B9E.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903254">|3(N57).UDU~a|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒪢</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊗</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2297</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒦑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12C25.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903233">|2(N57).UDUNITA~a|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒪦</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊍</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍𒦓</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12C2A.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0903256">|3(N57).UDUNITA~a|</td>
+            <td>
+              <span class="seqdb-s">𒯫.𒪦</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊘</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2298</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉏‍𒦓</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0112_u200D_u12C2A.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902357">|1(N57).URU~a1|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒫔</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊇</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2287</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉌‍󲅫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0110_u200D_u12C63.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqcb-n" data-oid="o0902359">|2(N57).URU~a1|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒫔</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊎</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">󲉎‍󲅫</span>
+            </td>
+            <td>
+              <span class="seqdb-l">uF0111_u200D_u12C63.liga</span>
+            </td>
+            <td/>
+            <td/>
+          </tr>
+        </tbody>
+      </table>
     </body>
   </html>
 </esp:page>

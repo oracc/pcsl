@@ -55,17 +55,32 @@ foreach (@g) {
 
 # ADD 3: liga entries from sequences DB
 
-my @s = `cut -f1,2,4,6 00etc/seq-final.tsv`; chomp @s;
+my @s = `cut -f3,5 00etc/seqdb.tsv`; chomp @s;
+my %seqligabase = ();
 foreach (@s) {
-    my($o,$c,$s,$l) = split(/\t/,$_);
+    my($c,$l) = split(/\t/,$_);
+    next if $l =~ /\.cv/;
+    ++$seqligabase{$l};
+}
+foreach (@s) {
+    my($c,$l) = split(/\t/,$_);
     if ($c && $c ne '0') {
 	my $h = sprintf("%X",ord($c));
 	my $xc = $m{$h};
 	warn "$0: $h=$c not in PC24-PC25 map from 00etc/pc25-map.tsv\n" unless $xc;
-	$l =~ s/_uE01/.cv/g;
+	my $cv = '';
+	my $ol = $l;
+	if ($l =~ s/(\.cv\d+)$//) {
+	    $cv = $1;
+	}
+	if ($cv) {
+	    warn "$0: no base liga for $ol\n"
+		unless $seqligabase{$l};
+	}
 	$l =~ s/\.liga//;
 	my $xl = mm($l); # output must be in PC25 encoding
-	print "$xl.liga\t\@$xc\n";
+	$xl =~ s/u200D/uni200D/g;
+	print "$xl.liga$cv\t\@$xc\n";
     }
 }
 

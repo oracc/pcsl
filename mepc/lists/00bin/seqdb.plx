@@ -9,6 +9,8 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $verbose = 0;
+
 GetOptions(
     );
 
@@ -28,9 +30,14 @@ GetOptions(
 my @seqdriver = ();
 my %seqheads = ();
 
+#
+# Name to Char map for use by seq_base_canon
+#
+my %n2c = ();
+
 my %glyfheads = ();
 
-my %canon = ();
+my %canon = (); my %canonc;
 my %seqh = (); # index of seq heads by OID
 my %seqr = (); # reciprocal hash of sequences in glyf-final
 my %glyf = (); load_glyf();
@@ -46,11 +53,16 @@ my %oidmap = (); my %oidmapr = (); load_oidmap();
 # We also check that the characters in column 2 of seq-base are not
 # duplicated when reading seq-base.tsv
 #
+# seq_base_canon also produces a canonical char sequence separated by
+# periods as a side effect
+#
+warn "$0: Validation 0\n" if $verbose;
 seq_base_canon();
 
 #
 # Validation 1: is every sequence in PCSL in seq-final.tsv?
 #
+warn "$0: Validation 1\n" if $verbose;
 foreach my $o (sort keys %pcsl) {
     warn "$0: PCSL $o is not in 00etc/seq-final.tsv\n"
 	unless ($seq{$o}
@@ -61,6 +73,7 @@ foreach my $o (sort keys %pcsl) {
 #
 # Validation 2: is every head OID in seqdriver also in glyf-final?
 #
+warn "$0: Validation 2\n" if $verbose;
 foreach my $o (sort keys %seqheads) {
     unless ($glyf{$o}) {
 	my @s = @{$seq{$o}};
@@ -79,6 +92,7 @@ foreach my $o (sort keys %seqheads) {
 }
 
 # Validation 3: is every sequence variant in glyf-final also in seq-final?
+warn "$0: Validation 3\n" if $verbose;
 foreach my $o (sort keys %seqheads) {
     my $gh = $seqh{$o};
     if ($gh) {
@@ -107,19 +121,22 @@ foreach my $o (sort keys %seqheads) {
 #
 # Generate the unified glyf-final/seq-final table
 #
-
+warn "$0: seqdb.tsv generation\n" if $verbose;
 foreach my $o (keys %seqheads) {
     my @s = @{$seq{$o}};
     foreach my $s (@s) {
+	warn "$0: processing $o\n" if $verbose;
 	my %s = %$s;
-	my $lig = relig($s{'l'});
+	my $lig = newlig($canonc{$o});
+	warn "$0: canonc $o $canonc{$o} => $lig\n" if $verbose;
 	if ($glyf{$s{'u'}}) {
 	    my @g = @{$glyf{$s{'u'}}};
-	    my $t = $g[4]; $t =~ s/~0/~/;
-	    $t = '' if $t eq '~1';
-	    my $cv = ($t ? ".cv0$t" : '');
-	    $cv =~ tr/~//d;
-	    print "$o\t$canon{$o}$t\t$s{'u'}\t$s{'s1'}\t$lig$cv\n";
+	    my $t = $g[4];
+	    $t =~ s/~0*(\d)+$/$1/;
+	    my $d = 0+$t;
+	    $d -= 1;
+	    my $cv = ($d ? ".cv0$d" : '');
+	    print "$o\t$canon{$o}~$t\t$s{'u'}\t$s{'s1'}\t$lig$cv\n";
 	} else {
 	    print "$o\t$canon{$o}\t\t$s{'s1'}\t$lig\n";
 	}
@@ -140,6 +157,10 @@ sub load_glyf {
 	$glyf{$c} = [ $o, $ph, $h, $n, $t ];
 	$glyf{$o} = [ $o, $ph, $h, $n, $t ];
 	$seqh{$o} = $ph unless $seqh{$o};
+	if ($n =~ /~1$/) {
+	    my $nn = $n; $nn =~ s/~1//;
+	    $n2c{$nn} = $c;
+	}
 	push @{$seqr{$ph}}, $h;
     }
     open(R,'>seqr.dump'); print R Dumper \%seqr; close(R);
@@ -196,6 +217,25 @@ sub load_seq {
     }
 }
 
+sub newlig {
+    my $x = $_[0];
+    warn "$0: newlig entered for $x\n" if $verbose;
+    my @c = grep(length,split(/(.)/, $x));
+    my $nc = $#c+1;
+    warn "$0: $x => [$nc] @c\n" if $verbose;
+    my @n = ();
+    foreach my $c (@c) {
+	if ($c eq '.') {
+	    push @n, 'uni200D';
+	} else {
+	    push @n, sprintf("u%X",ord($c));
+	}
+    }
+    my $l = join('_',@n).'.liga';
+    warn "$0: newlig result $x => $l\n" if $verbose;
+    return $l;
+}
+
 sub Os {
     my $or = $Os{$_[0]};
     warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
@@ -210,14 +250,15 @@ sub Og {
 
 sub relig {
     my $l = shift;
+    $l =~ s/^_//;
     $l =~ s/_uE[0-9A-F]+//g;
     $l =~ s/u206[24]/u200D/g;
     $l;
-    
 }
 
 sub seq_base_canon {
     my %seen_g = ();
+    my %cnames = ();
     open(S,'00etc/seq-base.tsv') || die;
     while (<S>) {
 	next if /^\#/ || /^\s*$/;
@@ -235,15 +276,47 @@ sub seq_base_canon {
 	} else {
 	    $canon{$c} = $o;
 	    $canon{$o} = $c;
+	    ++$cnames{$c};
 	}
     }
     close(S);
+    my $cseq_fn = "cseq.$$";
+    open(C, "|gdlx -q >$cseq_fn") || die;
+    print C join("\n", keys %cnames);
+    close(C);
+    open(C, "$cseq_fn") || die;
+    while (<C>) {
+	chomp;
+	my($n,$s) = split(/\t/,$_);
+	my @s = split(/\s+/, $s);
+	my @cc = ();
+	foreach my $x (@s) {
+	    if ($n2c{$x}) {
+		push @cc, $n2c{$x};
+	    } elsif ($n2c{"|$x|"}) {
+		push @cc, $n2c{"|$x|"};		
+	    } elsif ($x !~ /N57..HI/ && $x =~ s/^\((.*?)\)$/|$1|/ && $n2c{$x}) {
+		push @cc, $n2c{$x};
+	    } elsif ($x eq '(HI×1(N57).HI×1(N57))') {
+		push @cc, ($n2c{"|HI×1(N57)|"}x2);
+	    } else {
+		warn "$0: $x / |$x| not in glyf-final\n";
+	    }
+	}
+	my $cc = join('.',@cc);
+	# warn "$n => $s => $cc\n";
+	$canonc{$canon{$n}} = $cc;
+    }
+    close(C);
+    unlink $cseq_fn;
+    #open(C,'>canonc.dump'); print C Dumper \%canonc; close(C);
 }
 
 sub seq_canon {
     my $n = shift;
     $n =~ tr/+/./;
-    $n =~ s/∘/./;
+    $n =~ s/∘/./g;
+    1 while $n =~ s/\.\./\./;
     $n =~ s/~[0-9]//g;
     $n;
 }
