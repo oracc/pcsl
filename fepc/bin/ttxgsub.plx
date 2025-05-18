@@ -41,7 +41,7 @@ my %l = ();
 foreach (@a) {
     my($feat) = (/\.([a-z]+[0-9]*$)/); # suppress .[0-9] salt form
     if ($feat) {
-	if ($feat eq 'liga') {
+	if ($feat =~ /liga/) {
 	    s/u(?=200D|2062|2064)/uni/g;
 	    my $head = $_;
 	    $head =~ s/_.*$//;
@@ -86,7 +86,7 @@ sub AlternateSubst {
     my %alt = ();
     foreach my $a (@_) {
 	my $head = $a;
-	$head =~ s/\..*$//;
+	$head =~ s/\.(?:cv|ss).*$//;
 	push @{$alt{$head}}, $a;
     }
     print "        <AlternateSubst index=\"0\">\n";
@@ -271,7 +271,7 @@ sub SingleSubst {
     print "        <SingleSubst index=\"0\">\n";
     foreach my $x (@x) {
 	my $in = $x;
-	$in =~ s/\..*$//;
+	$in =~ s/\.(?:cv|ss).*$//;
 	print "        <Substitution in=\"$in\" out=\"$x\"/>\n";
     }
     print "      </SingleSubst>\n";

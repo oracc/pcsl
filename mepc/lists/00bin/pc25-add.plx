@@ -74,8 +74,10 @@ foreach (@s) {
 	    $cv = $1;
 	}
 	if ($cv) {
-	    warn "$0: no base liga for $ol\n"
-		unless $seqligabase{$l};
+	    unless ($seqligabase{$l}) {
+		warn "$0: no base liga for $ol; dropping cv\n";
+		$cv = '';
+	    }
 	}
 	$l =~ s/\.liga//;
 	my $xl = mm($l); # output must be in PC25 encoding
