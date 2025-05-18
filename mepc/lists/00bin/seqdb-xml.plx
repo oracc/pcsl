@@ -50,13 +50,11 @@ foreach (@s) {
     }
     print '<tr>';
     my $xn = xmlify($n);
-    print "<td class=\"seqcb-n\" data-oid=\"$o\">$xn</td>";
+    print "<td class=\"seqdb-n\" data-oid=\"$o\">$xn</td>";
     print "<td><span class=\"seqdb-s\">$s</span></td>";
     print "<td><div class=\"vbox\"><div><span class=\"seqdb-c\">$c</span></div><div><span class=\"seqdb-h\">$mh</span></div></div></td>";
     print "<td><span class=\"seqdb-lc$cv\">$lc</span></td>";
     print "<td><span class=\"seqdb-l\">$l</span></td>";
-    print "<td></td>";
-    print "<td></td>";
     print '</tr>';
 }
 print '</tbody>';
@@ -77,7 +75,7 @@ sub ligchars {
     my @lc = ();
     my @l = split(/_/,$l);
     foreach my $c (@l) {
-	if ($c eq '200D') {
+	if ($c eq 'ni200D') {
 	    push @lc, $u200d;
 	} else {
 	    my $x = chr(hex($m{$c}));

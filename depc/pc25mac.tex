@@ -25,6 +25,13 @@
 \font\pcssxxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20" at 12pt
 \font\pcxviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 18pt
 
+\font\pcssxxcvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv01" at 14pt
+\font\pcssxxcvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv02" at 14pt
+\font\pcssxxcviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv03" at 14pt
+\font\pcssxxcviv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv04" at 14pt
+\font\pcssxxcvv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv05" at 14pt
+\font\pcssxxcvvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv06" at 14pt
+
 \font\pceee="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E5E5E5" at18pt
 \font\pceff="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E6FAFC" at18pt
 \font\pcefd="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E0FCDE" at18pt
@@ -316,6 +323,7 @@
 
 \catcode`\~=12
 \catcode`\|=12
+\catcode`\_=12
 
 \newbox\cdlibox
 \newdimen\cdlifuzz \cdlifuzz4pt
@@ -458,6 +466,103 @@
    }%
 }
 
+\newbox\seqdbbox \newbox\seqdbheaderbox \newbox\seqdbheadertmp
+\newdimen\seqdbrowht
+
+\def\sqhboxn#1{\hbox to1.6in{\seven\rm#1\hfil}}
+\def\sqhboxd#1{\hbox to1.6in{\quad#1\hfil}}
+\def\sqhboxp#1{\hbox to.7in{\nine\rm#1\hfil}}
+\def\sqhboxL#1{\hbox to3in{\nine\rm#1\hfil}}
+\def\sqhboxl#1{\hbox to3.5in{\seven\rm#1\hfil}}
+
+\def\beginseqdb{%\newpage
+  \bgroup\offinterlineskip \lineskip1pt
+  \ltfirstpage\the\pageno
+  \setbox\seqdbheaderbox=\vbox{\vfuzz12pt%
+     \seqdbrowx{\sqhboxn{NAME/DECOMP}}%
+               {\sqhboxp{PUA}}%
+               {\sqhboxL{LIG/.liga}}%
+   }
+   %\righthdrinfo{}%
+   %\headersep20pt
+   \copy\seqdbheaderbox
+}
+
+\def\seqdbheader{%
+    \ifnum\pageno>\ltfirstpage
+      \lefthdrinfo{}%
+      \righthdrinfo{}%
+      \headersep20pt
+      \setbox\seqdbheadertmp=\vbox{%
+        \kern-12pt
+        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
+        \kern2pt
+        \unvcopy\seqdbheaderbox
+      }%
+      \centrehdrinfo{\box\seqdbheadertmp}%
+    \fi}
+
+\def\endseqdb{\seqdbheader\vfil\supereject\egroup}
+
+\def\seqdbrowx#1#2#3{%
+     \hrule height1.5pt
+     \hbox to.9\hsize{%
+            \vbox to\seqdbrowht{\vfil\sqhboxn{#1}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxp{#2}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxL{#3}\vfil}%
+     \hfil
+   }%
+   \kern12pt
+   \hrule height1.5pt
+}
+
+\def\seqdbrow#1#2#3#4#5{%
+   \seqdbheader
+%   \setbox\seqdbbox\vbox{\hsize2in#3}%
+%   \seqdbrowht=\ht\seqdbbox
+   \seqdbrowht=.5in
+%   \advance\seqdbrowht2pt % compensate for lineskips
+   \hbox to.9\hsize{%
+            \vbox to\seqdbrowht{%
+              \vfil
+              \sqhboxn{#1}%
+              \vfil
+              \sqhboxd{#2}%
+              \vfil}%
+%            \vbox to\seqdbrowht{\vfil\sqhboxn{#1}\vfil}%
+%     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxd{#2}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxp{#3}\vfil}%
+            \vbox to\seqdbrowht{%
+              \vfil
+              \sqhboxL{#4}%
+              \vfil
+              \sqhboxl{#5}%
+              \vfil}%
+     \hfil
+   }%
+   \kern2pt
+}
+
+\def\seqdbinnerrule{%
+  \kern2pt
+  \hrule height.4pt depth0pt width.9\hsize
+  \vskip3pt plus1pt minus1pt
+}
+
+\def\seqdbtbodyrule{%
+  \kern2pt
+  \hrule height1pt depth0pt width.9\hsize
+  \vskip3pt plus1pt minus1pt
+}
+
+\def\seqdbn{}
+\def\seqdbc{\pcssxx}
+\def\seqdbd{\pcssxx}
+\def\seqdbs{\pcssxx}
+\def\seqdbh{}
+\def\seqdblc{\pcssxx}
+\def\seqdbl{}
+
 %% defs for pcsl-tab.html
 \let\sl\relax
 \let\slc\relax
@@ -466,6 +571,32 @@
 \let\zatu\relax
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\message{hvfee}\hvfee}
+
+\def\cvi{\pcssxxcvi}
+\def\cvii{\pcssxxcvii}
+\def\cviii{\pcssxxcviii}
+\def\cviv{\pcssxxcviv}
+\def\cvv{\pcssxxcvv}
+\def\cvvi{\pcssxxcvvi}
+
+\def\cv#1#2{
+  \ifnum#2=1\cvi
+  \else
+    \ifnum#2=2\cvii
+    \else
+      \ifnum#2=3\cviii
+      \else
+        \ifnum#2=4\cviv
+        \else
+          \ifnum#2=5\cvv
+          \else
+            \ifnum#2=6\cvvi \fi
+          \fi
+        \fi
+      \fi
+    \fi
+  \fi
+}
 
 \newtoks\runheadtoks
 \let\append@x\appendix

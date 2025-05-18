@@ -268,7 +268,6 @@
   </xsl:template>
 
   <xsl:template match="h:table[@class='notcov']">
-    <xsl:message>notcov</xsl:message>
     <xsl:text>\beginnocotab&#xa;</xsl:text>
     <xsl:for-each select="h:tbody/h:tr">
       <xsl:text>\nocorow{</xsl:text>
@@ -286,6 +285,31 @@
       <xsl:text>}&#xa;</xsl:text>
     </xsl:for-each>
     <xsl:text>\endnocotab&#xa;</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="h:table[@class='seqdb']">
+    <xsl:message>seqdb</xsl:message>
+    <xsl:text>\beginseqdb&#xa;</xsl:text>
+    <xsl:for-each select="h:tbody">
+      <xsl:for-each select="h:tr">
+	<xsl:text>\seqdbrow{</xsl:text>
+	<xsl:apply-templates select="h:td[1]" mode="sltab"/>
+	<xsl:text>}{</xsl:text>
+	<xsl:apply-templates select="h:td[2]" mode="sltab"/>
+	<xsl:text>}{</xsl:text>
+	<xsl:apply-templates select="h:td[3]" mode="sltab"/>
+	<xsl:text>}{</xsl:text>
+	<xsl:apply-templates select="h:td[4]" mode="sltab"/>
+	<xsl:text>}{</xsl:text>
+	<xsl:apply-templates select="h:td[5]" mode="sltab"/>
+	<xsl:text>}&#xa;</xsl:text>
+	<xsl:if test="following-sibling::h:tr">
+	  <xsl:text>\seqdbinnerrule&#xa;</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
+      <xsl:text>\seqdbtbodyrule&#xa;</xsl:text>
+    </xsl:for-each>
+    <xsl:text>\endseqdb&#xa;</xsl:text>
   </xsl:template>
 
   <!-- The column 1 that we are dropping is th not td so args are td[1] .. td[8] -->

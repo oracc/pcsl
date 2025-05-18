@@ -4,7 +4,9 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     >
   <xh:h1 class="title">Materials for Encoding Proto-Cuneiform</xh:h1>
-  
+
+  <!--
+
   <xi:include href="../x/intro.xml"/>
 
   <xh:h1>Texts</xh:h1>
@@ -96,5 +98,10 @@
   
   <tex:appendix>PC25 Encoded Exceptional Sequences</tex:appendix>
   <xi:include href="../m/no_sequencexexc.html"/>
-  
+
+  -->
+
+  <tex:appendix>Sequences Data</tex:appendix>
+  <xi:include href="../m/seqdb.xml"/>
+
 </tex:driver>
