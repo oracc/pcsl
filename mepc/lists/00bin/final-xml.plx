@@ -372,7 +372,9 @@ sub load_glyf {
 	$t =~ s/~0+/0x/;
 	my $d = hex($t);
 	$glyftag{$c} = $d;
+	# warn "$0: load_glyf: F3003\n" if $c eq '󳀃';
     }
+#    open(G,'>glyf.dump'); print G Dumper \%glyftag; close(G);
 }
 
 sub load_oid {
@@ -508,9 +510,19 @@ sub pchar {
 	    my $co = $u{$ch};
 	    my $cn = xmlify($n{$co});
 	    my $ch25 = $pc25{$ch};
-	    my $tag = $ccc ? $glyftag{$ccc} : '';
-	    $tag = "$tag" if $tag;
-	    $tag = sprintf(" t=\"%s\"", $tag =~ tr/0-9/₀-₉/) if $tag;
+	    my $tag = '';
+	    if ($pcslflag) {
+		$tag = $ccc ? $glyftag{$ccc} : '';
+		if ($tag) {
+		    if ($tag."" =~ /^0-9$/) {
+			$tag = chr($tag-'0'+0x2080);
+			$tag = " t=\"$tag\"";
+		    }
+		} else {
+		    warn "$0: no glyftag for $ccc = $ch = $co = $cn\n";
+		    $tag = '';
+		}
+	    }
 	    print "<f o=\"$co\" sn=\"$cn\" c=\"$ccc\" u=\"$ch\" u25=\"$ch25\"$tag>";
 	    my @seq = grep(length,split(/(.)/,$seq));
 	    if ($#seq == 0) {
@@ -528,7 +540,7 @@ sub pchar {
 	my $ch = sprintf("%X",ord($cc));
 	my $ch25 = $pc25{$ch};
 	unless ($ch25) {
-	    warn "no PC25 for $ch\n";
+	    warn "no PC25 for $ch\n" unless $ch =~ /^2E|5F/;
 	    $ch25 = '';
 	}
 	my $ngh = $oc !~ /$cc/;

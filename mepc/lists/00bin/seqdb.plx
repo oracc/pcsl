@@ -28,7 +28,11 @@ GetOptions(
 my @seqdriver = ();
 my %seqheads = ();
 
+my %glyfheads = ();
+
 my %canon = ();
+my %seqh = (); # index of seq heads by OID
+my %seqr = (); # reciprocal hash of sequences in glyf-final
 my %glyf = (); load_glyf();
 my %seq = (); load_seq();
 my %Os = (); my %Og = (); load_pcsl_oid();
@@ -75,7 +79,52 @@ foreach my $o (sort keys %seqheads) {
 }
 
 # Validation 3: is every sequence variant in glyf-final also in seq-final?
+foreach my $o (sort keys %seqheads) {
+    my $gh = $seqh{$o};
+    if ($gh) {
+	my @s = @{$seqr{$gh}};
+	foreach my $s (@s) {
+	    my $c = chr(hex($s));
+	    if ($seq{$c}) {
+		# warn "seq $c OK\n";
+	    } else {
+		my @g = @{$glyf{$o}};
+		warn "MISSING: $c\t$o\t-\t$g[3]\n";
+	    }
+	}
+    } else {
+	# if previous Validations are correct and resolved this shouldn't happen
+	my $s = $glyf{$o};
+	if ($s) {
+	    $gh = ${$$s[1]};
+	    warn "$0: setting gh=$gh from $o\n";
+	} else {
+	    # warn "$0: unable to set head from $o in glyf-final.tsv\n";
+	}
+    }
+}
 
+#
+# Generate the unified glyf-final/seq-final table
+#
+
+foreach my $o (keys %seqheads) {
+    my @s = @{$seq{$o}};
+    foreach my $s (@s) {
+	my %s = %$s;
+	my $lig = relig($s{'l'});
+	if ($glyf{$s{'u'}}) {
+	    my @g = @{$glyf{$s{'u'}}};
+	    my $t = $g[4]; $t =~ s/~0/~/;
+	    $t = '' if $t eq '~1';
+	    my $cv = ($t ? ".cv0$t" : '');
+	    $cv =~ tr/~//d;
+	    print "$o\t$canon{$o}$t\t$s{'u'}\t$s{'s1'}\t$lig$cv\n";
+	} else {
+	    print "$o\t$canon{$o}\t\t$s{'s1'}\t$lig\n";
+	}
+    }
+}
 
 1;
 
@@ -86,11 +135,14 @@ sub load_glyf {
     foreach (@g) {
 	my($c,$o,$ph,$h,$n,$t) = split(/\t/,$_);
 	warn "$0: duplicate OID $o in 00etc/glyf-final.tsv\n"
-	    if $seqheads{$o}++;
+	    if $glyfheads{$o}++;
 	$t = '~01' unless $t;
-	$glyf{$c} = [ $o, $h, $n , $t ];
-	$glyf{$o} = [ $o, $h, $n , $t ];
+	$glyf{$c} = [ $o, $ph, $h, $n, $t ];
+	$glyf{$o} = [ $o, $ph, $h, $n, $t ];
+	$seqh{$o} = $ph unless $seqh{$o};
+	push @{$seqr{$ph}}, $h;
     }
+    open(R,'>seqr.dump'); print R Dumper \%seqr; close(R);
 }
 
 sub load_oidmap {
@@ -156,6 +208,14 @@ sub Og {
     return $or || $_[0];
 }
 
+sub relig {
+    my $l = shift;
+    $l =~ s/_uE[0-9A-F]+//g;
+    $l =~ s/u206[24]/u200D/g;
+    $l;
+    
+}
+
 sub seq_base_canon {
     my %seen_g = ();
     open(S,'00etc/seq-base.tsv') || die;
@@ -174,6 +234,7 @@ sub seq_base_canon {
 	    warn "00etc/seq-base.tsv:$.: canon $c is OID $o and $canon{$c}\n";
 	} else {
 	    $canon{$c} = $o;
+	    $canon{$o} = $c;
 	}
     }
     close(S);

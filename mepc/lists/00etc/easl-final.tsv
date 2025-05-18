@@ -840,10 +840,10 @@ EASL0839	o0901424		MUŠ₃~a@g	I	MUSZ3~a@g	𒨀,𒨁	/pcsl/easl/images/o0901424.
 EASL0840	o0901422		MUŠ₃~b	I	MUSZ3~b	𒨄	/pcsl/easl/images/o0901422.png
 EASL0841	o0901426		MUŠEN	I	MUSZEN	𒨅	/pcsl/easl/images/o0901426.png
 EASL0842	o0901429	.	|MUŠEN.UR₃~b2|	I	|MUSZEN.UR3~b2|	𒨆	/pcsl/easl/images/o0901429.png
-EASL0843	o0901427	.++	|MUŠEN.3(N58)|	I	-	𒨅_󰄜	
+EASL0843	o0901427	.++	|MUŠEN.3(N58)|	I	-	󳀃=𒨅_󰄜	
 EASL0844	o0901434	n	|MUŠEN×PAP~a|	I	|MUSZENxPAP~a|	󲶧	/pcsl/easl/images/o0901434.png
 EASL0845	o0901435	#	|MUŠEN×X|	I	|MUSZENxX|	𒨇	/pcsl/easl/images/o0901435.png
-EASL0846	o0902870	.++	|1(N02).RU|	I	-	𒖾_𒪣	
+EASL0846	o0902870	.++	|1(N02).RU|	I	-	𒷱=𒖾_𒪣	
 EASL0847	o0903281	!A	|1(N58).BAD|	I	|1(N58).BAD~a|	𒸍	/pcsl/easl/images/o0903281.png
 EASL0848	o0903283	!U	|(1(N58).BAD)~b|	I	|1(N58).BAD~b|	𒸏,𒸎	/pcsl/easl/images/o0903283.png
 EASL0849	o0903287	!C	|3(N58).UR₃~b1|	I	|3(N58).UR3~b1|	𒸐	/pcsl/easl/images/o0903287.png
@@ -1202,11 +1202,11 @@ EASL1201	o0902035		|ŠU&ŠU|	I	|SZU&SZU|	𒮏	/pcsl/easl/images/o0902035.png
 EASL1202	o0902036		ŠU@g	I	SZU@g	𒮐	/pcsl/easl/images/o0902036.png
 EASL1203	o0902037	1-	ŠU@s	I	SZU@s	󲨆	/pcsl/easl/images/o0902037.png
 EASL1204	o0902038		ŠU₂	I	SZU2	𒮑,𒮘;󳃼	/pcsl/easl/images/o0902039.png
-EASL1205	o0902041	.++	|ŠU₂.AN|	I	-	𒮘_𒛌	
-EASL1206	o0902054	.++	|ŠU₂.PAP~a|	I	-	𒮘_𒪑	
-EASL1207	o0902057	.++	|ŠU₂.1(N24)|	I	-	󳀓	/pcsl/images/add/thumb/SZU2x1N24.png
-EASL1208	o0902058	++	|ŠU₂×3(N57)|	I	-	󳀒	/pcsl/images/add/thumb/SZU2-3N57-photo.png
-EASL1209	o0902045	n.	|ŠU₂~a.EN~a|	I	|SZU2.EN~a|	𒮓,𒮔	/pcsl/easl/images/o0902046.png
+EASL1205	o0902041	.++	|ŠU₂.AN|	I	-	𒮒=𒮘_𒛌	
+EASL1206	o0902046	n.	|ŠU₂.EN~a|	I	|SZU2.EN~a|	𒮓,𒮔	/pcsl/easl/images/o0902046.png
+EASL1207	o0902054	.++	|ŠU₂.PAP~a|	I	-	󳀄=𒮘_𒪑	
+EASL1208	o0902057	.++	|ŠU₂.1(N24)|	I	-	󳀓	/pcsl/images/add/thumb/SZU2x1N24.png
+EASL1209	o0902058	++	|ŠU₂×3(N57)|	I	-	󳀒	/pcsl/images/add/thumb/SZU2-3N57-photo.png
 EASL1210	o0902048	n.	|ŠU₂~a.EN~b|	I	|SZU2.EN~b|	𒮕	/pcsl/easl/images/o0902048.png
 EASL1211	o0902050	n.	|ŠU₂~a.(HI×1(N57))&(HI×1(N57))|	I	|SZU2.((HI+1(N57))+(HI+1(N57)))|	𒮖	/pcsl/easl/images/o0902824.png
 EASL1212	o0902056	n.	|ŠU₂~a.URI₃~a~v1|	I	|SZU2.URI3~a|	𒮗	/pcsl/easl/images/o0902056.png
@@ -1272,7 +1272,7 @@ EASL1271	o0902139		TUR	I	TUR	𒯓,𒯕,𒯖,𒯗	/pcsl/easl/images/o0902139.png
 EASL1272	o0902143	1-#	|TUR~v1×X|	I	|TURxX|	󲸿	/pcsl/easl/images/o0902143.png
 EASL1273	o0902144		TUR@g	I	TUR@g	𒯔	/pcsl/easl/images/o0902144.png
 EASL1274	o0902146		TUR₃~a	I	TUR3~a	𒯘	/pcsl/easl/images/o0902146.png
-EASL1275	o0902150	.++	|TUR₃~a.5(N57)|	I	-	𒯘_󰄔	
+EASL1275	o0902150	.++	|TUR₃~a.5(N57)|	I	-	󳀅=𒯘_󰄔	
 EASL1276	o0902154		TUR₃~a@n	I	|TUR3~a@n|	𒯙	/pcsl/easl/images/o0902154.png
 EASL1277	o0902147		TUR₃~b	I	TUR3~b	𒯚	/pcsl/easl/images/o0902147.png
 EASL1278	o0902152	1-	|TUR₃~b×TAK₄~a|	I	|TUR3~bxTAK4~a|	󲹀	/pcsl/easl/images/o0902152.png
@@ -1319,7 +1319,7 @@ EASL1318	o0902181	1-	|U₄×1(N01@f)|	I	|U4x1(N01)F|	󲹃	/pcsl/easl/images/o090
 EASL1319	o0902196		|U₄×1(N14)|	I	|U4x1(N14)|	𒰃	/pcsl/easl/images/o0902196.png
 EASL1320	o0902198		|U₄×(1(N14).2(N01))|	I	|U4x(1(N14).2(N01))|	𒰄	/pcsl/easl/images/o0902198.png
 EASL1321	o0903390	++	|U₄×(1(N14).3(N01))|	I	-	󳂔	/pcsl/images/add/thumb/FONT
-EASL1322	o0902199	.++	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	I	-	󳂔_𒕢_𒕜	
+EASL1322	o0902199	.++	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	I	-	󳀉=󳂔_𒕢_𒕜	
 EASL1323	o0902200		|U₄×(1(N14).4(N01))|	I	|U4x(1(N14).4(N01))|	𒰅	/pcsl/easl/images/o0902200.png
 EASL1324	o0902201		|U₄×(1(N14).8(N01))|	I	|U4x(1(N14).8(N01))|	𒰆	/pcsl/easl/images/o0902201.png
 EASL1325	o0902202		|U₄×2(N14)|	I	|U4x2(N14)|	𒰇	/pcsl/easl/images/o0902202.png
@@ -1448,7 +1448,7 @@ EASL1447	o0902406	!A	UTUL~a	I	UTUL~a	𒲊	/pcsl/easl/images/o0902406.png
 EASL1448	o0902407	!A	UTUL~b	I	UTUL~b	𒲋	/pcsl/easl/images/o0902407.png
 EASL1449	o0902408	!U	UTUL~c	I	UTUL~c	𒲌	/pcsl/easl/images/o0902408.png
 EASL1450	o0902409	!A	UTUL~d	I	UTUL~d	𒲍	/pcsl/easl/images/o0902409.png
-EASL1451	o0902411	++	UZ~a	I	UZ~a	𒲎	/pcsl/easl/images/o0902411.png
+EASL1451	o0902411	++	UZ~a	I	UZ~a	𒲎	-
 EASL1452	o0902412		UZU	I	UZU	𒲏	/pcsl/easl/images/o0902412.png
 EASL1453	o0903564	++.	X₂	I	-	󰄑_󳂉	
 EASL1454	o0902416	n	ZA~v	I	ZA~x	𒲐	/pcsl/easl/images/o0902416.png

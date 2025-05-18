@@ -78,7 +78,7 @@ o0900226	s	DANNA	DANNA	1
 o0900235	s	DARA₃~a	DARA₃~a	3
 o0900236	s	DARA₃~b	DARA₃~b	1
 o0900237	s	DARA₃~c	DARA₃~c	1
-o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|	2
+o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|	2
 o0900246	c	|DARA₃~c×(KAR₂.ŠE~a)|	|DARA₃~c×(KAR₂.ŠE~a)|	1
 o0900249	s	DARA₄~a1	DARA₄~a1	2
 o0900250	s	DARA₄~a2	DARA₄~a2	3
@@ -614,6 +614,7 @@ o0902033	s	ŠU	ŠU	51
 o0902035	c	|ŠU&ŠU|	|ŠU&ŠU|	1
 o0902040	e		-	17
 o0902040	s	ŠU₂	ŠU₂	86
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|	12
 o0902051	c	|ŠU₂.1(N02)|	|ŠU₂.1(N02)|	1
 o0902060	e		-	8
 o0902060	s	ŠUBUR	ŠUBUR	35
@@ -1081,7 +1082,7 @@ o0903268	n	6(N57)	6(N57)	2
 o0903273	n	7(N57)	7(N57)	1
 o0903280	e		-	21
 o0903280	n	1(N58)	1(N58)	30
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|	21
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|	21
 o0903283	c	|(1(N58).BAD)~b|	|1(N58).BAD~b|	6
 o0903284	n	2(N58)	2(N58)	5
 o0903285	n	3(N58)	3(N58)	4
@@ -1141,7 +1142,6 @@ o0903619	c	|NUN~a+EN~a|	|NUN~a+EN~a|	17
 o0903620	c	|NUN~a+EN~b|	|NUN~a+EN~b|	5
 o0903629	c	|SILA₃~a×SUM~a|	|SILA₃~a×SUM~a|	3
 o0903631	c	|SILA₃~a×(ZATU659.TU~c)|	|SILA₃~a×(ZATU659.TU~c)|	1
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|	12
 o0903634	c	|ŠU₂.EN~b|	|ŠU₂.EN~b|	2
 o0903638	c	|UNUG~a×A@t|	|UNUG~a×A@t|	1
 o0903639	c	|URU~a1×AMAR|	|URU~a1×AMAR|	2

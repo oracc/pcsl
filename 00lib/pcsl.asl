@@ -647,7 +647,7 @@
 @aka |DARA₃~d×KAR₂|
 @aka |DARA₃~d×KAR₂|~v1
 @aka |DARA₃~d×KAR₂|~v2
-@oid o0900242
+@oid o0900243
 @end sign
 
 @sign DARA₄~a1
@@ -3598,9 +3598,9 @@
 @end sign
 
 @sign |1(N58).BAD|
-@aka |BAD+DIŠ~a|
 @aka |1(N58).BAD~a|
-@oid o0903281
+@aka |BAD+DIŠ~a|
+@oid o0903282
 @end sign
 
 @sign |(1(N58).BAD)~b|
@@ -4334,7 +4334,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901716
+@oid o0901715
 @end sign
 
 @sign SAR~a
@@ -5175,7 +5175,7 @@
 @end sign
 
 @sign |ŠU₂.EN~a|
-@oid o0903633
+@oid o0902047
 @end sign
 
 @sign |ŠU₂.EN~b|
@@ -8293,7 +8293,7 @@
 
 @sign 1(N30CA)
 @aka 1(N30C~a)
-@oid o0903662
+@oid o0903562
 @end sign
 
 @sign 1(N30CB)

@@ -1067,7 +1067,7 @@ o0900230	s	DAR~c	DAR~c
 o0900230	s	DAR~c	DAR~c
 o0900230	s	DAR~c	DAR~c
 o0900241	c	|DARA₃~c×KAR₂|	|DARA₃~c×KAR₂|
-o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
 o0900249	s	DARA₄~a1	DARA₄~a1
 o0900249	s	DARA₄~a1	DARA₄~a1
 o0900249	s	DARA₄~a1	DARA₄~a1
@@ -5982,7 +5982,7 @@ o0901711	s	SANGA~a	SANGA~a
 o0901711	s	SANGA~a	SANGA~a
 o0901711	s	SANGA~a	SANGA~a
 o0901711	s	SANGA~a	SANGA~a
-o0901716	s	SANGA~e	SANGA~e
+o0901715	s	SANGA~e	SANGA~e
 o0901718	s	SAR~a	SAR~a
 o0901718	s	SAR~a	SAR~a
 o0901718	s	SAR~a	SAR~a
@@ -7184,6 +7184,15 @@ o0902044	c	|ŠU₂.E₂~b|	|ŠU₂.E₂~b|
 o0902044	c	|ŠU₂.E₂~b|	|ŠU₂.E₂~b|
 o0902044	c	|ŠU₂.E₂~b|	|ŠU₂.E₂~b|
 o0902044	c	|ŠU₂.E₂~b|	|ŠU₂.E₂~b|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0902054	c	|ŠU₂.PAP~a|	|ŠU₂.PAP~a|
 o0902057	c	|ŠU₂.1(N24)|	|ŠU₂×1(N24)|
 o0902060	e		-
@@ -14522,10 +14531,10 @@ o0903280	n	1(N58)	1(N58)
 o0903280	n	1(N58)	1(N58)
 o0903280	n	1(N58)	1(N58)
 o0903280	s	1(N58)	DIŠ
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|
-o0903281	c	|1(N58).BAD|	|BAD+DIŠ~a|
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|
+o0903282	c	|1(N58).BAD|	|BAD+DIŠ~a|
 o0903285	e		-
 o0903295	n	1(N59)	1(N59)
 o0903296	n	2(N59)	2(N59)
@@ -15506,15 +15515,6 @@ o0903621	c	|SAG+UKKIN~b×1(N57)|	|SAG×(UKKIN~b×1(N57))|
 o0903622	c	|SAG×GEŠTU~c|	|SAG×GEŠTU~c|
 o0903632	c	|SILA₃~a×DUG~a|	|SILA₃~a×DUG~a|
 o0903632	c	|SILA₃~a×DUG~a|	|SILA₃~a×DUG~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0903640	c	|ZATU651×EN~a|	|ZATU651×EN~a|
 o0903648	c	|ZATU737×SAL|	|ZATU737×SAL|
 o0903649	c	|ZATU737×U₄|	|ZATU737×U₄|

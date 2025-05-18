@@ -318,7 +318,7 @@ sub pcsl_tsv {
 	    }
 	}
 	if ($p{'src'} =~ /EANM|EASL/) {
-	    $p{'row'} =~ s/^-$// if $p{'row'};
+	    #$p{'row'} =~ s/^-$// if $p{'row'};
 	    $p{'row'} = $o unless $p{'row'};
 	    $p{'row'} =~ s#/pcsl/easl/images/(o\d+)\.png#$1#;
 	} else {

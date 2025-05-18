@@ -81,7 +81,7 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 00etc/pcsl-final.tsv: Makefile ${DVDEPS}
 	00bin/pcsl-final.plx
 
-glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
+glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/seqdb.tsv
 
 00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv 00etc/pcsl-final.tsv
 	00bin/glyf-final.plx <$< >$@
@@ -89,6 +89,9 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
 	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
+
+00etc/seqdb.tsv: 00bin/seqdb.plx 00etc/glyf-final.tsv 00etc/seq-final.tsv
+	00bin/seqdb.plx >$@
 
 ###
 ### CSLDIST

@@ -1674,6 +1674,11 @@ o0902040	s	ŠU₂	ŠU₂
 o0902040	s	ŠU₂	ŠU₂
 o0902040	s	ŠU₂	ŠU₂
 o0902040	s	ŠU₂	ŠU₂
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
+o0902047	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0902051	c	|ŠU₂.1(N02)|	|ŠU₂.1(N02)|
 o0902060	e		-
 o0902060	s	ŠUBUR	ŠUBUR
@@ -4359,9 +4364,9 @@ o0903280	n	1(N58)	1(N58)
 o0903280	n	1(N58)	1(N58)
 o0903280	n	1(N58)	1(N58)
 o0903280	n	1(N58)	1(N58)
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|
-o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|
+o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|
 o0903283	c	|(1(N58).BAD)~b|	|1(N58).BAD~b|
 o0903283	c	|(1(N58).BAD)~b|	|1(N58).BAD~b|
 o0903284	n	2(N58)	2(N58)
@@ -4829,11 +4834,6 @@ o0903620	c	|NUN~a+EN~b|	|NUN~a+EN~b|
 o0903629	c	|SILA₃~a×SUM~a|	|SILA₃~a×SUM~a|
 o0903629	c	|SILA₃~a×SUM~a|	|SILA₃~a×SUM~a|
 o0903629	c	|SILA₃~a×SUM~a|	|SILA₃~a×SUM~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
-o0903633	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0903634	c	|ŠU₂.EN~b|	|ŠU₂.EN~b|
 o0903634	c	|ŠU₂.EN~b|	|ŠU₂.EN~b|
 o0903648	c	|ZATU737×SAL|	|ZATU737×SAL|
