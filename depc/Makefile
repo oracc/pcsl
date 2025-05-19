@@ -8,7 +8,8 @@ MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
 	x/intro.xml x/pc25.xml \
-	../mepc/texts/tpcsl/notcov.html
+	../mepc/texts/tpcsl/notcov.html \
+	../00web/mepc/seqdb.xml
 
 default: pc25.pdf
 

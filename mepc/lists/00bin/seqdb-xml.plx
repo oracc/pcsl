@@ -40,7 +40,7 @@ foreach (@s) {
 	warn "$0: no pc25.map entry for $h\n" unless $h eq '0';
 	$mh = $h;
     }
-    my ($cv,$lc) = ligchars($l);
+    my ($cv,$lc) = ligchars($l,$s);
     $cv = " $cv" if $cv;
     my $notag_n = $n; $notag_n =~ s/~\d+$//;
     if ($last_n ne $notag_n) {
@@ -65,22 +65,28 @@ print '</table>';
 ################################################################################
 
 sub ligchars {
-    my $l = shift;
+    my ($l,$s) = @_;
     my $cv = '';
     $l =~ tr/u//d;
     if ($l =~ s/\.(cv\d+)$//) {
 	$cv = $1;
     }
-    $l =~ s/\.liga$//;
-    my @lc = ();
-    my @l = split(/_/,$l);
-    foreach my $c (@l) {
-	if ($c eq 'ni200D') {
-	    push @lc, $u200d;
-	} else {
-	    my $x = chr(hex($m{$c}));
-	    push @lc, $x;
-	}
-    }
-    return ($cv,join('',@lc));
+
+    $s =~ s/\./$u200d/g;
+    $s =~ s/\+/$u200d/g;
+    $s =~ s/∘/$u200d/g;
+    
+    # $l =~ s/\.liga$//;
+    # my @lc = ();
+    # my @l = split(/_/,$l);
+    # foreach my $c (@l) {
+    # 	if ($c eq 'ni200D') {
+    # 	    push @lc, $u200d;
+    # 	} else {
+    # 	    my $x = chr(hex($c)); # don't map character data because we utr this
+    # 	    push @lc, $x;
+    # 	}
+    # }
+    #return ($cv,join('',@lc));
+    return ($cv, $s);
 }

@@ -8,7 +8,9 @@ mepc: d web
 	rm -fr ../../00web/mepc
 	mv w ../../00web/mepc
 
-d: db/glyfs.html db/seqdb.html
+d: db/seqdb.html
+
+#db/glyfs.html
 
 db/glyfs.html: ~/orc/pcsl/mepc/lists/00etc/glyf-final.tsv b/glyfdb.sh b/glyfdb.xsl
 	true

@@ -20,17 +20,17 @@
 
 \oidfont\dimen255=1em \showthe\dimen255
 
-\font\pcssXX="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20" at 18pt
-\font\pcssxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20" at 14pt
-\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20" at 12pt
-\font\pcxviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 18pt
+\font\pcssXX="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 18pt
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 14pt
+\font\pcssxxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 12pt
+\font\pcxviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga" at 18pt
 
-\font\pcssxxcvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv01" at 14pt
-\font\pcssxxcvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv02" at 14pt
-\font\pcssxxcviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv03" at 14pt
-\font\pcssxxcviv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv04" at 14pt
-\font\pcssxxcvv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv05" at 14pt
-\font\pcssxxcvvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20+cv06" at 14pt
+\font\pcssxxcvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv01" at 14pt
+\font\pcssxxcvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv02" at 14pt
+\font\pcssxxcviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv03" at 14pt
+\font\pcssxxcviv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv04" at 14pt
+\font\pcssxxcvv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv05" at 14pt
+\font\pcssxxcvvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv06" at 14pt
 
 \font\pceee="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E5E5E5" at18pt
 \font\pceff="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E6FAFC" at18pt
@@ -482,7 +482,7 @@
      \seqdbrowx{\sqhboxn{NAME/DECOMP}}%
                {\sqhboxp{PUA}}%
                {\sqhboxL{LIG/.liga}}%
-   }
+   }%
    %\righthdrinfo{}%
    %\headersep20pt
    \copy\seqdbheaderbox
@@ -494,7 +494,7 @@
       \righthdrinfo{}%
       \headersep20pt
       \setbox\seqdbheadertmp=\vbox{%
-        \kern-12pt
+        \kern-10pt
         \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
         \kern2pt
         \unvcopy\seqdbheaderbox
