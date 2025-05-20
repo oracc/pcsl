@@ -135,7 +135,8 @@ foreach my $o (keys %seqheads) {
 	    $t =~ s/~0*(\d)+$/$1/;
 	    my $d = 0+$t;
 	    $d -= 1;
-	    my $cv = ($d ? ".cv0$d" : '');
+	    $d = 100-$d if $d;
+	    my $cv = ($d ? ".cv$d" : '');
 	    print "$o\t$canon{$o}~$t\t$s{'u'}\t$s{'s1'}\t$lig$cv\n";
 	} else {
 	    print "$o\t$canon{$o}\t\t$s{'s1'}\t$lig\n";

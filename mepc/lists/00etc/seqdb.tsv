@@ -9,19 +9,19 @@ o0900498	|E₂~a.LIŠ|~1	𒟋	𒟊.𒦵	u127CA_uni200D_u129B5.liga
 o0901578	|E₂~a.NUN~a|~1	𒩩	𒟊.𒩴	u127CA_uni200D_u12A74.liga
 o0900499	|E₂~b.LIŠ|~1	𒟏	𒟎.𒦵	u127CE_uni200D_u129B5.liga
 o0900535	|EN~a.BAHAR₂~b.SIG₇.ME~a.NUN~a|~1	𒟨	𒟙.󳄆∘𒩴.𒫤	u127D9_uni200D_u12B57_uni200D_u12803_uni200D_u12A74_uni200D_u12AE3.liga
-o0900535	|EN~a.BAHAR₂~b.SIG₇.ME~a.NUN~a|~2	𒟩	𒟙.𒛦∘𒫣.𒧢.𒩴	u127D9_uni200D_u12B57_uni200D_u12803_uni200D_u12A74_uni200D_u12AE3.liga.cv01
+o0900535	|EN~a.BAHAR₂~b.SIG₇.ME~a.NUN~a|~2	𒟩	𒟙.𒛦∘𒫣.𒧢.𒩴	u127D9_uni200D_u12B57_uni200D_u12803_uni200D_u12A74_uni200D_u12AE3.liga.cv99
 o0900537	|EN~a.KID~a|~1	𒟪	𒟙.𒥁	u127D9_uni200D_u12941.liga
 o0900534	|EN~a.ME~a.GI|~1	𒟧	𒟙.𒧢.𒡸	u127D9_uni200D_u129E2_uni200D_u12878.liga
 o0900533	|EN~a.ME~a.MU|~1	𒟦	𒟙.𒧢.𒧬	u127D9_uni200D_u129E2_uni200D_u129EC.liga
 o0900531	|EN₂.E₂~a|~1	𒟤	𒟣.𒟊	u127E3_uni200D_u127CA.liga
 o0900532	|EN₂.E₂~b|~1	𒟥	𒟣.𒟎	u127E3_uni200D_u127CE.liga
 o0901473	|EŠDA.NAM₂|~1	𒨨	𒟰.𒨣	u127F0_uni200D_u12A23.liga
-o0901473	|EŠDA.NAM₂|~2	𒨧	𒟰+𒨣	u127F0_uni200D_u12A23.liga.cv01
+o0901473	|EŠDA.NAM₂|~2	𒨧	𒟰+𒨣	u127F0_uni200D_u12A23.liga.cv99
 o0902394	|GAL~a.BUR₂|~1	𒲃	𒡎.𒜟	u1284E_uni200D_u1271F.liga
 o0901944	|GAL~a.NI~a|~1	𒭑	𒡎.𒨺	u1284E_uni200D_u12A3A.liga
 o0901943	|GAL~a.NIM~a|~1	𒭐	𒡎.𒩃	u1284E_uni200D_u12A43.liga
 o0901110	|GAL~a.UKKIN~a|~1	𒥌	𒡎.𒰱	u1284E_uni200D_u12C31.liga
-o0901110	|GAL~a.UKKIN~a|~2	𒥋	𒡎.𒰲	u1284E_uni200D_u12C31.liga.cv01
+o0901110	|GAL~a.UKKIN~a|~2	𒥋	𒡎.𒰲	u1284E_uni200D_u12C31.liga.cv99
 o0900905	|GEŠTU~a.NAGA~a|~1	𒢻	𒡱.𒨖	u12871_uni200D_u12A16.liga
 o0900842	|GI₆.NUNUZ~c|~1	󲠒	𒢎.𒪇	u1288E_uni200D_u12A87.liga
 o0900853	|GIR~a.KU₆~a|~1	𒢔	𒢓.𒥥	u12893_uni200D_u12965.liga
@@ -34,50 +34,50 @@ o0900911	|GU₄.ZATU755~b|~1	𒢿	𒢾.𒵼	u128BE_uni200D_u12D7C.liga
 o0900934	|GUKKAL~a.HI@g~a|~1	𒣎	𒣍.𒣰	u128CD_uni200D_u128F0.liga
 o0900966	|HI.LAGAB~a|~1	𒣪	𒣦.𒦀	u128E6_uni200D_u12980.liga
 o0900964	|HI.SUHUR|~1	𒣩	𒣦.𒬣	u128E6_uni200D_u12B23.liga
-o0900964	|HI.SUHUR|~2	𒣧	𒣦.󳄇	u128E6_uni200D_u12B23.liga.cv01
-o0900964	|HI.SUHUR|~3	𒣨	𒣦.󳄈	u128E6_uni200D_u12B23.liga.cv02
+o0900964	|HI.SUHUR|~2	𒣧	𒣦.󳄇	u128E6_uni200D_u12B23.liga.cv99
+o0900964	|HI.SUHUR|~3	𒣨	𒣦.󳄈	u128E6_uni200D_u12B23.liga.cv98
 o0900969	|HI×1(N57).HI×1(N57)|~1	𒣭	𒣬.𒣬	u128EC_uni200D_u128EC.liga
-o0900969	|HI×1(N57).HI×1(N57)|~2	󳂒	𒣬∘𒣬	u128EC_uni200D_u128EC.liga.cv01
+o0900969	|HI×1(N57).HI×1(N57)|~2	󳂒	𒣬∘𒣬	u128EC_uni200D_u128EC.liga.cv99
 o0901014	|IR~a.GA₂~a1|~1	𒤄	𒤃.𒠕	u12903_uni200D_u12815.liga
 o0901032	|KA~a.ŠE~a|~1	𒤗	𒤔.𒭗	u12914_uni200D_u12B52.liga
-o0901032	|KA~a.ŠE~a|~2	𒤖	𒤔.𒭒	u12914_uni200D_u12B52.liga.cv01
+o0901032	|KA~a.ŠE~a|~2	𒤖	𒤔.𒭒	u12914_uni200D_u12B52.liga.cv99
 o0901055	|KAK~a.GA₂~a1|~1	𒤣	𒤢.𒠕	u12922_uni200D_u12815.liga
 o0901151	|KU₆~a.GIŠ|~1	𒥧	𒥥.𒢧	u12965_uni200D_u128A7.liga
 o0901149	|KU₆~a.1(N02)|~1	𒥦	𒥥.𒖾	u12965_uni200D_u125BE.liga
 o0901164	|KUR~a.E₂~a|~1	𒥭	𒥬.𒟊	u1296C_uni200D_u127CA.liga
 o0901167	|KUR~a.NUNUZ~a1|~1	𒥮	𒥬.𒪂	u1296C_uni200D_u12A82.liga
 o0902069	|KUR~a.RU|~1	𒮣	𒥬.𒪥	u1296C_uni200D_u12AA5.liga
-o0902069	|KUR~a.RU|~2	𒮢	𒥬.𒪣	u1296C_uni200D_u12AA5.liga.cv01
+o0902069	|KUR~a.RU|~2	𒮢	𒥬.𒪣	u1296C_uni200D_u12AA5.liga.cv99
 o0901165	|KUR~b.E₂~a|~1	𒥰	𒥯.𒟊	u1296F_uni200D_u127CA.liga
 o0901189	|LAGAB~b.TE|		𒦗.𒮹	u12997_uni200D_u12BB9.liga
 o0901311	|LU₂.GAL~a|~1	𒦻	𒦶.𒡎	u129B6_uni200D_u1284E.liga
-o0901311	|LU₂.GAL~a|~2	𒦺	𒦶∘𒡎	u129B6_uni200D_u1284E.liga.cv01
+o0901311	|LU₂.GAL~a|~2	𒦺	𒦶∘𒡎	u129B6_uni200D_u1284E.liga.cv99
 o0900538	|ME~a.EN~a.ŠE~a.ŠA|~1	󲟃	𒧢.𒟙∘𒭒∘𒬷	u129E2_uni200D_u127D9_uni200D_u12B52_uni200D_u12B37.liga
 o0902418	|MUŠ₃~a.AB~a|~1	𒲑	𒨃.𒚘	u12A03_uni200D_u12698.liga
 o0901909	|MUŠ₃~a.ERIN|~1	𒬶	𒨃.𒟯	u12A03_uni200D_u127EF.liga
 o0902419	|MUŠ₃~a.UNUG~a|~1	𒲒	𒨃.𒱄	u12A03_uni200D_u12C44.liga
 o0901429	|MUŠEN.UR₃~b2|~1	𒨆	𒨅.𒱘	u12A05_uni200D_u12C58.liga
-o0901427	|MUŠEN.3(N58)|~2	󳀃	𒨅.󰄜	u12A05_uni200D_uF011C.liga.cv01
-o0902870	|1(N02).RU|~2	𒷱	𒖾.𒪣	u125BE_uni200D_u12AA5.liga.cv01
+o0901427	|MUŠEN.3(N58)|~2	󳀃	𒨅.󰄜	u12A05_uni200D_uF011C.liga.cv99
+o0902870	|1(N02).RU|~2	𒷱	𒖾.𒪣	u125BE_uni200D_u12AA5.liga.cv99
 o0900997	|NAGAR~a.BU~a|~1	𒣼	𒨜.𒜋	u12A1C_uni200D_u1270B.liga
 o0900998	|NAGAR~b.BU~a|~1	𒣽	𒨝.𒜋	u12A1D_uni200D_u1270B.liga
 o0900544	|NE~a.RU|~1	𒟮	𒨯.𒪥	u12A2F_uni200D_u12AA5.liga
 o0900841	|NE~c.GI|~1	𒢒	𒨳∘𒡸	u12A33_uni200D_u12878.liga
-o0900841	|NE~c.GI|~2	󳂳	󳂠∘𒡸	u12A33_uni200D_u12878.liga.cv01
+o0900841	|NE~c.GI|~2	󳂳	󳂠∘𒡸	u12A33_uni200D_u12878.liga.cv99
 o0901504	|NI~a.RU|~1	𒨻	𒨺.𒪣	u12A3A_uni200D_u12AA5.liga
 o0900047	|NUN~a.ME~a|~1	𒚫	𒩴.𒧢	u12A74_uni200D_u129E2.liga
-o0900047	|NUN~a.ME~a|~2	𒚬	𒩴+𒧢	u12A74_uni200D_u129E2.liga.cv01
+o0900047	|NUN~a.ME~a|~2	𒚬	𒩴+𒧢	u12A74_uni200D_u129E2.liga.cv99
 o0900049	|NUN~a.ME~a.DU|~1	𒚭	𒝍.𒧢.𒩴	u12A74_uni200D_u129E2_uni200D_u1274D.liga
-o0900049	|NUN~a.ME~a.DU|~2	󳂭	𒩴.𒧢.𒝍	u12A74_uni200D_u129E2_uni200D_u1274D.liga.cv01
+o0900049	|NUN~a.ME~a.DU|~2	󳂭	𒩴.𒧢.𒝍	u12A74_uni200D_u129E2_uni200D_u1274D.liga.cv99
 o0901601	|NUN~b.U₄.U₄.1(N14).1(N08)|		𒩺.𒯡	u12A7A_uni200D_u12BE1_uni200D_u12BE1_uni200D_u12562_uni200D_u12559.liga
 o0901927	|PA~a.IB~a|~1	𒭃	𒪋.𒣴	u12A8C_uni200D_u128F4.liga
-o0901927	|PA~a.IB~a|~2	𒭂	𒪋∘󳃳	u12A8C_uni200D_u128F4.liga.cv01
-o0901927	|PA~a.IB~a|~3	󳃆	𒪍∘𒣴	u12A8C_uni200D_u128F4.liga.cv02
+o0901927	|PA~a.IB~a|~2	𒭂	𒪋∘󳃳	u12A8C_uni200D_u128F4.liga.cv99
+o0901927	|PA~a.IB~a|~3	󳃆	𒪍∘𒣴	u12A8C_uni200D_u128F4.liga.cv98
 o0900539	|PA~a.TE.SI|~1	󲟄	𒪍.𒮹.𒫇	u12A8C_uni200D_u12BB9_uni200D_u12AC7.liga
 o0901868	|PA~a.UDU~a|~1	𒬚	𒪌.𒰥	u12A8C_uni200D_u12C25.liga
-o0901868	|PA~a.UDU~a|~2	󳃃	𒪍.𒰥	u12A8C_uni200D_u12C25.liga.cv01
+o0901868	|PA~a.UDU~a|~2	󳃃	𒪍.𒰥	u12A8C_uni200D_u12C25.liga.cv99
 o0901929	|PAP~a.IB~a|~1	𒭅	𒪑.𒣴	u12A91_uni200D_u128F4.liga
-o0901929	|PAP~a.IB~a|~2	𒭄	󳃴∘𒪑	u12A91_uni200D_u128F4.liga.cv01
+o0901929	|PAP~a.IB~a|~2	𒭄	󳃴∘𒪑	u12A91_uni200D_u128F4.liga.cv99
 o0901699	|SAL.KUR~a|~1	𒪶	𒪵.𒥬	u12AB5_uni200D_u1296C.liga
 o0901416	|SAL.LAGAR~a|~1	𒧽	𒪵.𒦠	u12AB5_uni200D_u129A0.liga
 o0901701	|SAL.LAM~b|~1	𒪷	𒪵.𒦭	u12AB5_uni200D_u129B1.liga
@@ -92,23 +92,23 @@ o0901706	|SAL.ZATU751~b|~1	󳄄	𒪵.𒵶	u12AB5_uni200D_u12D76.liga
 o0901707	|SAL.ZATU751~c|~1	󳄂	𒪵.󳀏	u12AB5_uni200D_uF300F.liga
 o0902072	|SU~a.KUR~a.RU|~1	󲨒	𒬝.𒥬.𒪥	u12B1D_uni200D_u1296C_uni200D_u12AA5.liga
 o0901955	|ŠE~a.NAM₂|~1	𒭔	𒭒.󳃻	u12B52_uni200D_u12A23.liga
-o0901955	|ŠE~a.NAM₂|~2	𒭕	𒭒.𒨣	u12B52_uni200D_u12A23.liga.cv01
+o0901955	|ŠE~a.NAM₂|~2	𒭕	𒭒.𒨣	u12B52_uni200D_u12A23.liga.cv99
 o0901301	|ŠE~a.ŠA|~1	𒦳	𒭒∘𒬷	u12B37_uni200D_u12B52.liga
-o0901301	|ŠE~a.ŠA|~2	𒦴	󳄅∘𒭒	u12B37_uni200D_u12B52.liga.cv01
+o0901301	|ŠE~a.ŠA|~2	𒦴	󳄅∘𒭒	u12B37_uni200D_u12B52.liga.cv99
 o0901953	|ŠE~a@t.KIN₂~c|~1	𒭓	𒭒.𒥈	u12B52_uni200D_u12948.liga
-o0901953	|ŠE~a@t.KIN₂~c|~2	󳃉	𒭗.𒥈	u12B52_uni200D_u12948.liga.cv01
+o0901953	|ŠE~a@t.KIN₂~c|~2	󳃉	𒭗.𒥈	u12B52_uni200D_u12948.liga.cv99
 o0901477	|ŠEŠ~a.NA~a|~1	𒨫	𒭭.𒨋	u12B6D_uni200D_u12A0B.liga
 o0901268	|ŠITA~a1.MUD₃~a|~1	𒦥	𒭻.𒧯	u12B7B_uni200D_u129EF.liga
 o0902043	|ŠU₂.E₂~a|~1	𒮙	󳂐.𒟊	u12B98_uni200D_u127CA.liga
 o0902044	|ŠU₂.E₂~b|~1	𒮚	󳂐.𒟎	u12B98_uni200D_u127CE.liga
 o0902047	|ŠU₂.EN~a|~1	𒮔	𒮑.𒟙	u12B98_uni200D_u127D9.liga
-o0902047	|ŠU₂.EN~a|~2	𒮓	𒮑.𒟗	u12B98_uni200D_u127D9.liga.cv01
-o0902047	|ŠU₂.EN~a|~3	󳃌	󳃼.𒟘	u12B98_uni200D_u127D9.liga.cv02
+o0902047	|ŠU₂.EN~a|~2	𒮓	𒮑.𒟗	u12B98_uni200D_u127D9.liga.cv99
+o0902047	|ŠU₂.EN~a|~3	󳃌	󳃼.𒟘	u12B98_uni200D_u127D9.liga.cv98
 o0903634	|ŠU₂.EN~b|~1	𒮕	󳂐.𒟚	u12B98_uni200D_u127DA.liga
 o0902049	|ŠU₂.GIŠ|~1	𒮛	󳂐.𒢧	u12B98_uni200D_u128A7.liga
 o0902050	|ŠU₂.(HI×1(N57).HI×1(N57))|~1	𒮖	󳂐.󳂒	u12B98_uni200D_u128EC_u128EC.liga
-o0902054	|ŠU₂.PAP~a|~2	󳀄	𒮘.𒪑	u12B98_uni200D_u12A91.liga.cv01
-o0902041	|ŠU₂.PAP~a.AN|~2	𒮒	𒮘.𒛌	u12B98_uni200D_u12A91_uni200D_u126CC.liga.cv01
+o0902054	|ŠU₂.PAP~a|~2	󳀄	𒮘.𒪑	u12B98_uni200D_u12A91.liga.cv99
+o0902041	|ŠU₂.PAP~a.AN|~2	𒮒	𒮘.𒛌	u12B98_uni200D_u12A91_uni200D_u126CC.liga.cv99
 o0903635	|ŠU₂.URI₃~a|~1	𒮗	󳂐.𒱟	u12B98_uni200D_u12C5F.liga
 o0902051	|ŠU₂.1(N02)|~1	𒮜	󳂐.𒖾	u12B98_uni200D_u125BE.liga
 o0902057	|ŠU₂.1(N24)|~1	󳀓	󳂐.𒖪	u12B98_uni200D_u125AA.liga
@@ -116,7 +116,7 @@ o0902052	|ŠU₂.2(N57)|~1	󲷼	󳂐.󰄑	u12B98_uni200D_uF0111.liga
 o0903220	|ŠUBUR.1(N57)|~1	𒷷	𒮞∘󰄐	u12B9E_uni200D_uF0110.liga
 o0901071	|TE.A|~1	𒤯	𒮹.𒚐	u12BB9_uni200D_u12690.liga
 o0902121	|TUG₂~a.BAD&BAD|~1	𒯅	𒯄.𒛠	u12BC4_uni200D_u126E0.liga
-o0902150	|TUR₃~a.5(N57).5(N57)|~2	󳀅	𒯘.󰄔	u12BD8_uni200D_uF0114_uni200D_uF0114.liga.cv01
+o0902150	|TUR₃~a.5(N57).5(N57)|~2	󳀅	𒯘.󰄔	u12BD8_uni200D_uF0114_uni200D_uF0114.liga.cv99
 o0900108	|U₄.AB~b|~1	𒛘	𒯡.𒚣	u12BE1_uni200D_u126A3.liga
 o0902177	|U₄.ŠU₂|~1	𒯢	𒯡.󳂐	u12BE1_uni200D_u12B98.liga
 o0902163	|U₄.1(N08)|~1	𒯣	𒯡.𒕙	u12BE1_uni200D_u12559.liga
@@ -141,18 +141,18 @@ o0902184	|U₄×2(N01).2(N14).1(N08)|~1	𒯸	𒯵.𒕣.𒕙	u12BF5_uni200D_u1256
 o0902187	|U₄×3(N01).3(N08)|~1	𒯺	𒯹.𒕛	u12BF9_uni200D_u1255B.liga
 o0902189	|U₄×4(N01).2(N14)|~1	𒯼	𒯻.𒕣	u12BFB_uni200D_u12563.liga
 o0902191	|U₄×5(N01).1(N14)|~1	𒯾	𒯽.𒕢	u12BFD_uni200D_u12562.liga
-o0902199	|U₄×(1(N14).3(N01)).1(N14).4(N08).1(N14).4(N08)|~2	󳀉	󳂔.𒕢.𒕜	uF3094_uni200D_u12562_uni200D_u1255C_uni200D_u12562_uni200D_u1255C.liga.cv01
+o0902199	|U₄×(1(N14).3(N01)).1(N14).4(N08).1(N14).4(N08)|~2	󳀉	󳂔.𒕢.𒕜	uF3094_uni200D_u12562_uni200D_u1255C_uni200D_u12562_uni200D_u1255C.liga.cv99
 o0902334	|URI₃~a.AB~a|~1	𒱡	𒱟.𒚘	u12C5F_uni200D_u12698.liga
 o0902336	|URI₃~a.IB~a|~1	󲺆	𒱟.𒣴	u12C5F_uni200D_u128F4.liga
 o0901475	|URI₃~a.NA~a|~1	𒨩	𒱠.𒨋	u12C5F_uni200D_u12A0B.liga
-o0901475	|URI₃~a.NA~a|~2	𒨪	𒱠∘𒨋	u12C5F_uni200D_u12A0B.liga.cv01
-o0901475	|URI₃~a.NA~a|~3	󳂞	𒱟.𒨋	u12C5F_uni200D_u12A0B.liga.cv02
+o0901475	|URI₃~a.NA~a|~2	𒨪	𒱠∘𒨋	u12C5F_uni200D_u12A0B.liga.cv99
+o0901475	|URI₃~a.NA~a|~3	󳂞	𒱟.𒨋	u12C5F_uni200D_u12A0B.liga.cv98
 o0902330	|URI₃~a.UNUG~a|~1	󲫋	𒱟.𒱄	u12C5F_uni200D_u12C44.liga
-o0901017	|UŠ~b.KUR~a|~1	𒤉	𒲁.𒥬	u12C7E_uni200D_u1296C.liga
-o0901017	|UŠ~b.KUR~a|~2	𒤈	󳃲.𒥬	u12C7E_uni200D_u1296C.liga.cv01
+o0901017	|UŠ~b.KUR~a|~1	𒤉	𒲁.𒥬	u12C7C_uni200D_u1296C.liga
+o0901017	|UŠ~b.KUR~a|~2	𒤈	󳃲.𒥬	u12C7C_uni200D_u1296C.liga.cv99
 o0902614	|ZATU714.RU|~1	𒴷	𒴶.𒪣	u12D36_uni200D_u12AA5.liga
-o0900607	|ZATU753.GA~a|~1	𒠌	𒵹.𒠊	u12D79_uni200D_u1280E.liga
-o0900607	|ZATU753.GA~a|~2	𒠐	𒠊.𒵹	u12D79_uni200D_u1280E.liga.cv01
+o0900607	|ZATU753.GA~a|~1	𒠌	𒵹.𒠊	u1280E_uni200D_u12D79.liga
+o0900607	|ZATU753.GA~a|~2	𒠐	𒠊.𒵹	u1280E_uni200D_u12D79.liga.cv99
 o0903211	|1(N57).AB₂|~1	𒷳	󰄐.𒚧	uF0110_uni200D_u126A7.liga
 o0903223	|2(N57).AB₂|~1	𒷸	󰄑.𒚧	uF0111_uni200D_u126A7.liga
 o0903235	|3(N57).AMAR|~1	𒷼	󰄒.𒛅	uF0112_uni200D_u126C5.liga
@@ -170,7 +170,7 @@ o0903243	|3(N57).GAR|~1	𒷿	󰄒.𒡨	uF0112_uni200D_u12868.liga
 o0903259	|4(N57).GAR|~1	𒸅	󰄓.𒡨	uF0113_uni200D_u12868.liga
 o0903265	|5(N57).GAR|~1	𒸈	󰄔.𒡨	uF0114_uni200D_u12868.liga
 o0903270	|6(N57).GAR|~1	𒸊	󰃙.𒡨	uF0115_uni200D_u12868.liga
-o0903274	|7(N57).GAR|~2	󳄉	󰄖.𒡨	uF0116_uni200D_u12868.liga.cv01
+o0903274	|7(N57).GAR|~2	󳄉	󰄖.𒡨	uF0116_uni200D_u12868.liga.cv99
 o0903261	|4(N57).KU₃~a|~1	𒸆	󰄓.𒥣	uF0113_uni200D_u12963.liga
 o0903267	|5(N57).KU₃~a|~1	𒸉	󰄔.𒥣	uF0114_uni200D_u12963.liga
 o0903272	|6(N57).KU₃~a|~1	𒸋	󰃙.𒥣	uF0115_uni200D_u12963.liga
@@ -183,13 +183,13 @@ o0903245	|3(N57).NUNUZ~a1|~1	𒸀	󰄒.𒪂	uF0112_uni200D_u12A82.liga
 o0903246	|3(N57).NUNUZ~c|~1	𒸁	󰄒.𒪇	uF0112_uni200D_u12A87.liga
 o0903248	|3(N57).PIRIG~b1|~1	𒸂	󰄒.𒪘	uF0112_uni200D_u12A98.liga
 o0902071	|3(N57).RU|~1	𒮥	󰄒.𒪣	uF0112_uni200D_u12AA5.liga
-o0902071	|3(N57).RU|~2	𒮤	󰄒.𒪥	uF0112_uni200D_u12AA5.liga.cv01
+o0902071	|3(N57).RU|~2	𒮤	󰄒.𒪥	uF0112_uni200D_u12AA5.liga.cv99
 o0903250	|3(N57).SANGA~b|		󰄒.𒪼	uF0112_uni200D_u12ABE.liga
 o0903251	|3(N57).SI|		󰄒.𒫇	uF0112_uni200D_u12AC7.liga
 o0901748	|1(N57).SIG|~1	𒷴	󰄐.𒫏	uF0110_uni200D_u12ACF.liga
 o0903230	|2(N57).SU~a|~1	𒷺	󰄑.𒬛	uF0111_uni200D_u12B1D.liga
 o0903219	|1(N57).ŠAH₂~a|~1	𒷵	󰄐.𒭉	uF0110_uni200D_u12B49.liga
-o0903221	|1(N57).ŠUBUR|~2	𒷶	󰄐.𒮞	uF0110_uni200D_u12B9E.liga.cv01
+o0903221	|1(N57).ŠUBUR|~2	𒷶	󰄐.𒮞	uF0110_uni200D_u12B9E.liga.cv99
 o0903231	|2(N57).ŠUBUR|~1	𒷻	󰄑.𒮞	uF0111_uni200D_u12B9E.liga
 o0903252	|3(N57).ŠUBUR|~1	𒸃	󰄒.𒮞	uF0112_uni200D_u12B9E.liga
 o0903254	|3(N57).UDU~a|~1	󳁞	󰄒.𒰥	uF0112_uni200D_u12C25.liga

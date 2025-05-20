@@ -25,19 +25,22 @@
 \font\pcssxxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 12pt
 \font\pcxviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga" at 18pt
 
-\font\pcssxxcvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv01" at 14pt
-\font\pcssxxcvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv02" at 14pt
-\font\pcssxxcviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv03" at 14pt
-\font\pcssxxcviv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv04" at 14pt
-\font\pcssxxcvv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv05" at 14pt
-\font\pcssxxcvvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga,+cv06" at 14pt
-
 \font\pceee="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E5E5E5" at18pt
 \font\pceff="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E6FAFC" at18pt
 \font\pcefd="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=E0FCDE" at18pt
 \font\pcfee="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=FF0000" at18pt
 \font\pcffe="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=FFFFE6" at18pt
 \font\pcblu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:color=0000FF" at18pt
+
+\font\pcseq="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga" at 14pt
+\font\pccvxcix="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga,+cv99" at 14pt
+\font\pccvxcviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga,+cv98" at 14pt
+\font\pccvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01" at 14pt
+\font\pccvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02" at 14pt
+\font\pccviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv03" at 14pt
+\font\pccviv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv04" at 14pt
+\font\pccvv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv05" at 14pt
+\font\pccvvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv06" at 14pt
 
 \let\redpc\pcfee
 \let\newgh\pcblu
@@ -556,11 +559,11 @@
 }
 
 \def\seqdbn{}
-\def\seqdbc{\pcssxx}
-\def\seqdbd{\pcssxx}
-\def\seqdbs{\pcssxx}
+\def\seqdbc{\pcseq}
+\def\seqdbd{\pcseq}
+\def\seqdbs{\pcseq}
 \def\seqdbh{}
-\def\seqdblc{\pcssxx}
+\def\seqdblc{\pcseq}
 \def\seqdbl{}
 
 %% defs for pcsl-tab.html
@@ -572,12 +575,14 @@
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\message{hvfee}\hvfee}
 
-\def\cvi{\pcssxxcvi}
-\def\cvii{\pcssxxcvii}
-\def\cviii{\pcssxxcviii}
-\def\cviv{\pcssxxcviv}
-\def\cvv{\pcssxxcvv}
-\def\cvvi{\pcssxxcvvi}
+\def\cvi{\pccvi}
+\def\cvii{\pccvii}
+\def\cviii{\pccviii}
+\def\cviv{\pccviv}
+\def\cvv{\pccvv}
+\def\cvvi{\pccvvi}
+\def\cvxcix{\pccvxcix}
+\def\cvxcviii{\pccvxcviii}
 
 \def\cv#1#2{
   \ifnum#2=1\cvi
@@ -590,7 +595,13 @@
         \else
           \ifnum#2=5\cvv
           \else
-            \ifnum#2=6\cvvi \fi
+            \ifnum#2=6\cvvi
+            \else
+              \ifnum#2=8\cvxcviii
+              \else
+                \ifnum#2=9 \message{cvxcix^^J}\cvxcix \fi
+              \fi
+            \fi
           \fi
         \fi
       \fi
@@ -609,5 +620,8 @@
 \def\cdlighnopng{\vbox{\vfil\hbox{(-)\hfil}\vfil}}
 
 \def\titlesize{\fourteen}
+
+
+\catcode"332\active \def̲{\_{}}
 
 \endinput

@@ -667,7 +667,7 @@
   <!-- this deletes '_' -->
   <xsl:template name="textmap">
     <xsl:param name="t"/>
-    <xsl:value-of select="translate($t,'&amp;~%#_', '&#xfe60;&#x223c;&#x2052;&#xfe5f;')"/>
+    <xsl:value-of select="translate($t,'&amp;~%#_', '&#xfe60;&#x223c;&#x2052;&#xfe5f;&#x0332;')"/>
   </xsl:template>
 
   <xsl:template match="text()">
