@@ -9,6 +9,111 @@
     <head/>
     <body>
 
+      <p>This section describes three related things: how sequences
+      should be encoded; how PCSL handles sequences; and one strategy
+      for implementing sequences and their glyph variants using simple
+      font features.</p>
+
+      <esp:h>Sequences are not encoded</esp:h>
+
+      <p>Following the Principles for Encoding Proto-Cuneiform, signs
+      which are composed sequences of multiple adjacent signs should
+      not be encoded.  The surface form of sequences can be variable
+      in the ordering, selection, and disposition of components, all
+      of which are are treated as glyph variations and not as discrete
+      characters.</p>
+
+      <p>In Proto-Cuneiform writing sequences are not
+      necessarily linear: because the manuscripts are organized in
+      cases (or boxes), signs are routinely juxtaposed in clusters in
+      which the components can be written above, below, or near each
+      other as well as being beside each other in a line.</p>
+
+      <esp:sh>Opaque sequences are not encoded</esp:sh>
+
+      <p>In standard transliteration practice for Proto-Cuneiform some
+      signs are given simple names which do not reflect their status
+      as a sequence, e.g., LUGAL is actually a sequence of LU₂ and
+      GAL. We call these sequences "opaque sequences" and, like
+      regular sequences, they are not encoded.</p>
+
+      <esp:h>Sequences have constant character names</esp:h>
+
+      <p>In PCSL, the tag <code>@sign</code> is used for sign names
+      and is dissociated from glyph names.  All of the variants of a
+      sequences are grouped under a single <code>@sign</code>.  The
+      sign name is composed of a conventional ordering of the
+      sequence, with each component joined by periods ('.'). Each sign
+      name is unique among the set of sign names.</p>
+
+      <esp:h>Glyphs have unique names</esp:h>
+
+      <p>PCSL uses a new tag, <code>@glyf</code> to clarify the
+      separation of character names versus glyph names.  Glyph names
+      consist of a name conforming to an extended set of rules for
+      grapheme naming and a variant tag, consisting of a tilde and a
+      sequence of one or more digits.  One glyph name for LUGAL is
+      <code>|LU₂.GAL|~1</code>.  The variant tag is stable and
+      represents a variation on the sign not on the glyph.</p>
+
+      <esp:sh>How unique glyph names are constructed</esp:sh>
+
+      <p>Unique glyph names are constructed by varying the order and
+      joiners of the grapheme notation in a way that reflects the
+      variant's form. The joiners are '.' ("BESIDE"), '+' ("JOINING"),
+      and '∘' ("TURNING"), the ring operator. This last is an addition
+      to ATF notation to support the description of sign clustering.</p>
+
+      <p>Glyph names do not encode internal glyph variation, i.e.,
+      several variant forms of IB are used in the construction of ŠAB
+      (|PA.IB|). The reason for this is that experimentation with font
+      ligaturing has so far failed to succeed when ligatures contain
+      SS or CVnn components.</p>
+
+      <esp:sh>Sequences varying only by component glyf variation</esp:sh>
+
+      <p>In a few cases, this restriction on encoding names provides a
+      challenge because a sequence has variants which are identical in
+      ordering and disposition but vary only in a glyph variant of one
+      or more of the components. As a type example we may take
+      KINGAL=|GAL.UKKIN|, which has two variants, one using the Uruk
+      IV UKKIN and the other using the Uruk III UKKIN.</p>
+
+      <p>Absent the possibility of distinguishing, schematically,
+      <code>GAL_UKKIN.cv01.liga</code> and
+      <code>GAL_UKKIN.cv02.liga</code>, or <code>GAL_UKKIN.liga</code>
+      and <code>GAL_UKKIN.liga.cv01</code>, it seems unavoidable to
+      use special joiners to create an artificial distinction between
+      the glyph names, e.g., <code>|GAL.UKKIN|</code> and
+      <code>|GAL⁚UKKIN|</code>, the latter using U+205A TWO DOT
+      PUNCTUATION. For cases where there are three variants, U+205D
+      TRICOLON is used: |HI.SUHUR|, |HI⁚SUHUR|, |HI⁝SUHUR|.  At
+      present no sequence has more than three variants but this
+      approach must be considered a fragile and inadequate hack for
+      the long term.</p>
+
+      <esp:h>How glyph names are turned into ligatures</esp:h>
+
+      <p>In the simplest and commonest case, glyph names are
+      concatenated using U+200D for '.'. For joiners other than '.'
+      the following substitutions are made:</p>
+
+      <pre>
+      +      U+2062 INVISIBLE PLUS
+      ∘      U+2064 INVISIBLE TIMES
+      ·      U+2063 INVISIBLE SEPARATOR
+      ⁚      U+200D_U+200D
+      ⁝      U+200D_U+200D_U+200D
+      </pre>
+
+      <p>This results in sequences that are simple .liga ligatures
+      that preserve the sequence glyph variation in a defined way that
+      is easy to normalize back to the character name via a table of
+      glyph names to character names. In fact, most normalizations
+      will consist of translating all joiners other than U+200D to
+      U+200D and then squeezing multiple U+200D sequences to a single
+      U+200D.</p>
+
       <xi:include xml:base="." href="../db/seqdb.xml"/>
 
     </body>
