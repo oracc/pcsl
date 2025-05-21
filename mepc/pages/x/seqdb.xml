@@ -95,24 +95,24 @@
       <esp:h>How glyph names are turned into ligatures</esp:h>
 
       <p>In the simplest and commonest case, glyph names are
-      concatenated using U+200D for '.'. For joiners other than '.'
-      the following substitutions are made:</p>
+      concatenated using U+200D for '.'. The full joiner substitution
+      table is:</p>
 
       <pre>
       +      U+2062 INVISIBLE PLUS
       ∘      U+2064 INVISIBLE TIMES
-      ·      U+2063 INVISIBLE SEPARATOR
-      ⁚      U+200D_U+200D
-      ⁝      U+200D_U+200D_U+200D
+      .      U+200D ZWJ
+      ⁚      U+200D_U+200D ZWJ ZWJ
+      ⁝      U+200D_U+200D_U+200D ZWJ ZWJ ZWJ
       </pre>
 
       <p>This results in sequences that are simple .liga ligatures
-      that preserve the sequence glyph variation in a defined way that
-      is easy to normalize back to the character name via a table of
-      glyph names to character names. In fact, most normalizations
-      will consist of translating all joiners other than U+200D to
-      U+200D and then squeezing multiple U+200D sequences to a single
-      U+200D.</p>
+      that preserve both the base character name signs and the
+      sequence glyph variation in a defined way.  It is easy to
+      normalize back to the character name via a table of glyph
+      to character names. In fact, most normalizations will consist of
+      translating all joiners other than U+200D to U+200D and then
+      squeezing multiple U+200D sequences to a single U+200D.</p>
 
       <xi:include xml:base="." href="../db/seqdb.xml"/>
 
