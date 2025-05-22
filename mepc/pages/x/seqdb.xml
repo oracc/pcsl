@@ -79,12 +79,26 @@
       KINGAL=|GAL.UKKIN|, which has two variants, one using the Uruk
       IV UKKIN and the other using the Uruk III UKKIN.</p>
 
-      <p>Absent the possibility of distinguishing, schematically,
+      <esp:ssh>Component variation: ideal solution</esp:ssh>
+
+      <p>Ideally we would distinguish sequences that differ only in
+      component variation by using style sets or character variants
+      either within the ligature or at the end of it. Schematically,
       <code>GAL_UKKIN.cv01.liga</code> and
       <code>GAL_UKKIN.cv02.liga</code>, or <code>GAL_UKKIN.liga</code>
-      and <code>GAL_UKKIN.liga.cv01</code>, it seems unavoidable to
-      use special joiners to create an artificial distinction between
-      the glyph names, e.g., <code>|GAL.UKKIN|</code> and
+      and <code>GAL_UKKIN.liga.cv01</code>.</p>
+
+      <p>Experimentation with this possibility has so far not produced
+      a positive result; this sentence is an invitation to the reader
+      to explain what is wrong with the test cases <esp:link
+      url="xxx">here</esp:link> and to show how this can in fact be
+      done.</p>
+      
+      <esp:ssh>Component variation: hack</esp:ssh>
+      
+      <p>Absent a solution as specified in the previous subsection one
+      might use special joiners to create an artificial distinction
+      between the glyph names, e.g., <code>|GAL.UKKIN|</code> and
       <code>|GAL⁚UKKIN|</code>, the latter using U+205A TWO DOT
       PUNCTUATION. For cases where there are three variants, U+205D
       TRICOLON is used: |HI.SUHUR|, |HI⁚SUHUR|, |HI⁝SUHUR|.  At
