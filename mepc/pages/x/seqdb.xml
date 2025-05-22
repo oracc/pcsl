@@ -54,7 +54,8 @@
       grapheme naming and a variant tag, consisting of a tilde and a
       sequence of one or more digits.  One glyph name for LUGAL is
       <code>|LU₂.GAL|~1</code>.  The variant tag is stable and
-      represents a variation on the sign not on the glyph.</p>
+      represents a variation on the basic glyph name (i.e., the name
+      with all joiners mapped to '.').</p>
 
       <esp:sh>How unique glyph names are constructed</esp:sh>
 
@@ -66,67 +67,38 @@
 
       <p>Glyph names do not encode internal glyph variation, i.e.,
       several variant forms of IB are used in the construction of ŠAB
-      (|PA.IB|). The reason for this is that experimentation with font
-      ligaturing has so far failed to succeed when ligatures contain
-      SS or CVnn components.</p>
+      (|PA.IB|).</p>
 
-      <esp:sh>Sequences varying only by component glyf variation</esp:sh>
+      <p>Following the corpus-building rule that input text should not
+      be reordered, glyph names do not reorder components.  Where
+      there is a reasonable choice of how to describe the order of
+      components an order identical or closer to the sequence
+      character name is preferred.  Thus, in the case of character
+      <code>|PAP~.IB~a|</code>, the glyph 𒭅 could reasonably be
+      described as |PAP~a.IB~a| or |IB~a∘PAP~a|.  The latter is
+      preferred because it follows the character name.</p>
 
-      <p>In a few cases, this restriction on encoding names provides a
-      challenge because a sequence has variants which are identical in
-      ordering and disposition but vary only in a glyph variant of one
-      or more of the components. As a type example we may take
-      KINGAL=|GAL.UKKIN|, which has two variants, one using the Uruk
-      IV UKKIN and the other using the Uruk III UKKIN.</p>
+      <p>Similarly, glyph names do not remap or normalize variant
+      components that are considered distinct signs in PCSL.  Thus,
+      for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a| and
+      |UŠ~b.KUR~a|; for character |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
+      are glyphs and |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and
+      |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
 
-      <esp:ssh>Component variation: ideal solution</esp:ssh>
+      <esp:sh>How glyph names are turned into ligatures</esp:sh>
 
-      <p>Ideally we would distinguish sequences that differ only in
-      component variation by using style sets or character variants
-      either within the ligature or at the end of it. Schematically,
-      <code>GAL_UKKIN.cv01.liga</code> and
-      <code>GAL_UKKIN.cv02.liga</code>, or <code>GAL_UKKIN.liga</code>
-      and <code>GAL_UKKIN.liga.cv01</code>.</p>
-
-      <p>Experimentation with this possibility has so far not produced
-      a positive result; this sentence is an invitation to the reader
-      to explain what is wrong with the test cases <esp:link
-      url="xxx">here</esp:link> and to show how this can in fact be
-      done.</p>
-      
-      <esp:ssh>Component variation: hack</esp:ssh>
-      
-      <p>Absent a solution as specified in the previous subsection one
-      might use special joiners to create an artificial distinction
-      between the glyph names, e.g., <code>|GAL.UKKIN|</code> and
-      <code>|GAL⁚UKKIN|</code>, the latter using U+205A TWO DOT
-      PUNCTUATION. For cases where there are three variants, U+205D
-      TRICOLON is used: |HI.SUHUR|, |HI⁚SUHUR|, |HI⁝SUHUR|.  At
-      present no sequence has more than three variants but this
-      approach must be considered a fragile and inadequate hack for
-      the long term.</p>
-
-      <esp:h>How glyph names are turned into ligatures</esp:h>
-
-      <p>In the simplest and commonest case, glyph names are
-      concatenated using U+200D for '.'. The full joiner substitution
-      table is:</p>
-
-      <pre>
-      +      U+2062 INVISIBLE PLUS
-      ∘      U+2064 INVISIBLE TIMES
-      .      U+200D ZWJ
-      ⁚      U+200D_U+200D ZWJ ZWJ
-      ⁝      U+200D_U+200D_U+200D ZWJ ZWJ ZWJ
-      </pre>
-
-      <p>This results in sequences that are simple .liga ligatures
-      that preserve both the base character name signs and the
-      sequence glyph variation in a defined way.  It is easy to
-      normalize back to the character name via a table of glyph
-      to character names. In fact, most normalizations will consist of
-      translating all joiners other than U+200D to U+200D and then
-      squeezing multiple U+200D sequences to a single U+200D.</p>
+      <p>Glyph names are turned into ligatures by taking the base
+      component signs and joining them with the ZWJ, U+200D. Multiple
+      glyph names may generate the same core ligature sequence, so
+      CVnn tags are added to the second and subsequent duplicate core
+      ligatures to disambituate them.  Thus, |ŠE~a.NAM₂| has two glyph
+      forms, named |ŠE~a.NAM₂|~1 and |ŠE~a.NAM₂|~2. These are mapped,
+      schematically, to ŠE~a_u200D_NAM₂ and ŠE~a_u200D_NAM₂.cv01. The
+      CVnn used in the font is relative to the number of previous
+      duplicate siblings of the glyph name; in the case of the
+      character |GA~a.ZATU753| there are glyphs |GA~a.ZATU753|~1 and
+      |ZATU753.GA~a|~1; neither ligature requires a CVnn in this
+      case.</p>
 
       <xi:include xml:base="." href="../db/seqdb.xml"/>
 
