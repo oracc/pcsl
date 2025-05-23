@@ -32,6 +32,8 @@
 \font\pcffe="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=FFFFE6" at18pt
 \font\pcblu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:color=0000FF" at18pt
 
+\font\pcringop="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 12pt
+
 \font\pcseq="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 14pt
 \font\pcseqi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01,+salt=0" at 14pt
 \font\pcseqii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02,+salt=1" at 14pt
@@ -634,6 +636,9 @@
 \def\titlesize{\fourteen}
 
 \catcode"332\active \def̲{\_{}}
+
+\def\ringop{{\pcringop ∘}}
+\catcode"2218\active \def∘{\ringop}
 
 \def\code#1{{\Sanserif\nine\rm#1}}
 

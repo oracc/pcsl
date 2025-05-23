@@ -234,6 +234,7 @@ o0900912	s	GU₇	GU₇	82
 o0900916	s	GUB₃~a	GUB₃~a	2
 o0900917	s	GUB₃~b	GUB₃~b	1
 o0900918	s	GUB₃~c	GUB₃~c	2
+o0900920	e		-	4
 o0900920	s	GUG₂	GUG₂	31
 o0900935	s	GUL	GUL	11
 o0900938	s	GUM~b	GUM~b	5
@@ -523,14 +524,14 @@ o0901935	s	ŠAH₂~b	ŠAH₂~b	1
 o0901940	s	ŠAKIR~c	ŠAKIR~c	22
 o0901941	s	ŠAM₂	ŠAM₂	7
 o0901944	s	|GAL~a.NI~a|	ŠANDANA~b	1
-o0901946	e		-	13
+o0901946	e		-	17
 o0901946	s	ŠE~a	ŠE~a	120
 o0901955	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|	12
 o0901959	c	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|	4
 o0901963	s	ŠE₃	ŠE₃	54
 o0901965	s	ŠE₃@t	ŠE₃@t	2
 o0901966	s	ŠEG₉	ŠEG₉	1
-o0901967	s	ŠELU	ŠELU	4
+o0901967	s	|ŠE~a.GUG₂|	ŠELU	4
 o0901970	s	ŠEN~a	ŠEN~a	5
 o0901971	s	ŠEN~b	ŠEN~b	6
 o0901977	s	ŠEN~e	ŠEN~e	1
@@ -934,7 +935,7 @@ o0903275	n	8(N57)	8(N57)	2
 o0903279	n	10(N57)	10(N57)	1
 o0903280	e		-	15
 o0903280	n	1(N58)	1(N58)	1
-o0903282	c	|1(N58).BAD|	|1(N58).BAD~a|	15
+o0903281	c	|1(N58).BAD|	|1(N58).BAD~a|	15
 o0903284	n	2(N58)	2(N58)	1
 o0903285	e		-	1
 o0903287	c	|3(N58).UR₃~b1|	|3(N58).UR₃~b1|	1

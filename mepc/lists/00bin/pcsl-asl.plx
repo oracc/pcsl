@@ -305,7 +305,7 @@ sub asl_pglyf {
 		$O = $Og{$s{'o'}};
 		warn "$0: no O(g) for $s{'o'}\n" unless $O;
 	    }
-	    printf "\@glyf $nq~%d $ueq$s1 $mh $O ~%X\n", $tag, $tag;
+	    printf "\@glyf $nq~%d $ueq$s1 $mh $O ~%02X\n", $tag, $tag;
 	} else {
 	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
 	    my $sc = $c; $sc =~ tr/\./‍/;
