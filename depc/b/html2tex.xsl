@@ -302,6 +302,10 @@
 	<xsl:apply-templates select="h:td[4]" mode="sltab"/>
 	<xsl:text>}{</xsl:text>
 	<xsl:apply-templates select="h:td[5]" mode="sltab"/>
+	<xsl:text>}{</xsl:text>
+	<xsl:apply-templates select="h:td[6]" mode="sltab"/>
+	<xsl:text>}{</xsl:text>
+	<xsl:apply-templates select="h:td[7]" mode="sltab"/>
 	<xsl:text>}&#xa;</xsl:text>
 	<xsl:if test="following-sibling::h:tr">
 	  <xsl:text>\seqdbinnerrule&#xa;</xsl:text>
@@ -664,7 +668,6 @@
     <xsl:value-of select="translate(.,'[]','')"/>
   </xsl:template>
 
-  <!-- this deletes '_' -->
   <xsl:template name="textmap">
     <xsl:param name="t"/>
     <xsl:value-of select="translate($t,'&amp;~%#_', '&#xfe60;&#x223c;&#x2052;&#xfe5f;&#x0332;')"/>

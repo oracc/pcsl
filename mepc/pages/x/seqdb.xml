@@ -46,16 +46,25 @@
       sequence, with each component joined by periods ('.'). Each sign
       name is unique among the set of sign names.</p>
 
+      <p>If there is an attested simple linear sequence for a sequence
+      character, that form is selected for the character name.  The
+      mnemonically named <code>LUGAL</code> occurs in a simple linear
+      sequence as |GAL~a.LU₂|, so that is used as the name of the
+      character.</p>
+
       <esp:h>Glyphs have unique names</esp:h>
 
       <p>PCSL uses a new tag, <code>@glyf</code> to clarify the
       separation of character names versus glyph names.  Glyph names
       consist of a name conforming to an extended set of rules for
-      grapheme naming and a variant tag, consisting of a tilde and a
-      sequence of one or more digits.  One glyph name for LUGAL is
-      <code>|LU₂.GAL|~1</code>.  The variant tag is stable and
-      represents a variation on the basic glyph name (i.e., the name
-      with all joiners mapped to '.').</p>
+      grapheme naming and possibly a variant tag, consisting of a
+      tilde and a sequence of one or more digits.  One glyph name for
+      LUGAL is <code>|GAL~a.LU₂~a|~1</code>.  The variant tag is
+      stable and represents a variation on the basic glyph name (i.e.,
+      the name with all joiners mapped to '.').</p>
+
+      <p>Glyph names only have to be unique among @glyf entries; a
+      @sign and @glyf may have the same name.</p>
 
       <esp:sh>How unique glyph names are constructed</esp:sh>
 
@@ -74,8 +83,8 @@
       there is a reasonable choice of how to describe the order of
       components an order identical or closer to the sequence
       character name is preferred.  Thus, in the case of character
-      <code>|PAP~.IB~a|</code>, the glyph 𒭅 could reasonably be
-      described as |PAP~a.IB~a| or |IB~a∘PAP~a|.  The latter is
+      <code>|PAP~a.IB~a|</code>, the glyph 𒭅 could reasonably be
+      described as |PAP~a.IB~a| or |IB~a∘PAP~a|.  The former is
       preferred because it follows the character name.</p>
 
       <p>Similarly, glyph names do not remap or normalize variant
@@ -97,8 +106,19 @@
       CVnn used in the font is relative to the number of previous
       duplicate siblings of the glyph name; in the case of the
       character |GA~a.ZATU753| there are glyphs |GA~a.ZATU753|~1 and
-      |ZATU753.GA~a|~1; neither ligature requires a CVnn in this
-      case.</p>
+      |ZATU753.GA~a|~1; neither ligature therefore requires a CVnn.</p>
+
+      <p>Note that in order for this approach to work it is important
+      to specify the OpenType feature lookups in the correct order:
+      <code>liga</code> must come before <code>cv01 .. cvNN</code>,
+      and <code>salt</code> should come last. Unmarked
+      <code>liga</code> should be in the <code>liga</code> table;
+      <code>liga.cvNN</code> should be in the <code>salt</code>
+      table.</p>
+
+      <p>In <code>XeTeX</code>, the features for the cvNN ligatures
+      should be specified as "+cv01,+salt", "+cv02,+salt",
+      "+cv03,+salt" (specifying +liga is unnecessary with XeTeX).</p>
 
       <xi:include xml:base="." href="../db/seqdb.xml"/>
 

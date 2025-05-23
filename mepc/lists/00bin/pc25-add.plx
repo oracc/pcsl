@@ -55,7 +55,7 @@ foreach (@g) {
 
 # ADD 3: liga entries from sequences DB
 
-my @s = `cut -f3,5 00etc/seqdb.tsv`; chomp @s;
+my @s = `cut -f2,7 00etc/seq-final.tsv`; chomp @s;
 my %seqligabase = ();
 foreach (@s) {
     my($c,$l) = split(/\t/,$_);

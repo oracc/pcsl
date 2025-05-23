@@ -29,7 +29,7 @@ foreach (@m) {
 
 my $u200d = '‍'; # yes, there is a ZWJ in there
 
-my @s = `cat 00etc/seqdb.tsv`; chomp @s;
+my @s = `cat 00etc/seq-final.tsv`; chomp @s;
 my $last_n = '';
 
 print '<table xmlns="http://www.w3.org/1999/xhtml" class="seqdb">';
@@ -37,25 +37,35 @@ print <<EOH;
 <thead><tr><th>NAME</th><th>DECOMP</th><th>PUA</th><th>LIG</th><th>.liga</th></tr></thead>
 EOH
 foreach (@s) {
-    my($o,$n,$c,$s,$l) = split(/\t/,$_);
+    # OID, CHAR, VARIANTSEQ, CANONSEQ, CHARNAME, GLYFNAME, LIGA
+    my($co,$c,$vs,$cs,$cn,$gn,$l) = split(/\t/,$_);
+    my $go = 'go';
     my $h = sprintf("%X", ord($c));
     my $mh = $m{$h};
     unless ($mh) {
 	warn "$0: no pc25.map entry for $h\n" unless $h eq '0';
 	$mh = $h;
     }
-    my ($cv,$lc) = ligchars($l,$s);
+    my ($cv,$lc) = ligchars($l,$cs);
     $cv = " $cv" if $cv;
-    my $notag_n = $n; $notag_n =~ s/~\d+$//;
-    if ($last_n ne $notag_n) {
+#    my $notag_n = $n; $notag_n =~ s/~\d+$//;
+#    if ($last_n ne $notag_n) {
+#	print '</tbody>' unless $last_n eq '';
+#	print '<tbody>';
+#	$last_n = $notag_n;
+    #    }
+    if ($last_n ne $cn) {
 	print '</tbody>' unless $last_n eq '';
 	print '<tbody>';
-	$last_n = $notag_n;
+	$last_n = $cn;
     }
     print '<tr>';
-    my $xn = xmlify($n);
-    print "<td class=\"seqdb-n\" data-oid=\"$o\">$xn</td>";
-    print "<td><span class=\"seqdb-s\">$s</span></td>";
+    my $xcn = xmlify($cn);
+    my $xgn = xmlify($gn);
+    print "<td class=\"seqdb-n\" data-oid=\"$co\">$xcn</td>";
+    print "<td class=\"seqdb-n\" data-oid=\"$go\">$xgn</td>";
+    print "<td><span class=\"seqdb-s\">$vs</span></td>";
+    print "<td><span class=\"seqdb-s\">$cs</span></td>";
     print "<td><div class=\"vbox\"><div><span class=\"seqdb-c\">$c</span></div><div><span class=\"seqdb-h\">$mh</span></div></div></td>";
     print "<td><span class=\"seqdb-lc$cv\">$lc</span></td>";
     $l =~ s/uni/u/g; # shorten display version of ligature
@@ -75,8 +85,8 @@ sub glyf_head {
     my $h = $gh{$v};
 #    warn "$0: glyf variant $v => head $h\n";
     warn "$0: mapping glyf variant $v to head $h\n"
-	unless $h eq $v;
-    $h;
+	unless $v eq '200D' || $h eq $v;
+    $h || $v;
 }
 
 sub load_glyf_heads {

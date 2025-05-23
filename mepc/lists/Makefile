@@ -21,12 +21,12 @@ SUDO=$(${ORACC_MODE}="single"&&"sudo")
 CSLDEPS=../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
 DVDEPS=00etc/pc24.tsv 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/num-final.tsv
 DVHTML=00web/easl-tab.html 00web/pcsl-tab.html 00web/pc25-tab.html 00web/num-tab.html 00web/cusas-tab.html
-DVXML=00etc/easl-final.xml 00etc/pcsl-final.xml 00etc/pc25-final.xml 00etc/num-final.xml 00etc/cusas-final.xml
+DVXML=00etc/easl-final.xml 00etc/pcsl-final.xml 00etc/pc25-final.xml 00etc/num-final.xml 00etc/cusas-final.xml 00etc/seqdb.xml
 IMGDEPS=images/atu3/.images images/atu5/.images images/cusas/.images images/easl/.images images/msvo1/.images images/msvo4/.images
 SLDEPS=00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 SLHTML=00web/atu3-tab.html 00web/atu5-tab.html 00web/msvo1-tab.html 00web/msvo4-tab.html
 SLXML=00etc/atu3-final.xml 00etc/atu5-final.xml 00etc/msvo1-final.xml 00etc/msvo4-final.xml
-PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seqdb.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst
+PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst
 XMLDEPS=00bin/final-xml.plx 00bin/final-preambles.xsl 00etc/propgh-sf.tsv
 NOXML=00etc/no_broken.xml 00etc/no_corpus.xml 00etc/no_delete.xml 00etc/no_sequence.xml 00etc/no_number.xml 00etc/no_numberxacn.xml 00etc/no_sequencexexc.xml 00etc/no_edi.xml 00etc/no_uruk5.xml
 NOHTML=00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html 00web/no_edi.html 00web/no_uruk5.html
@@ -81,17 +81,19 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 00etc/pcsl-final.tsv: Makefile ${DVDEPS}
 	00bin/pcsl-final.plx
 
-glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/seqdb.tsv
+glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
+
+#00etc/seqdb.tsv
 
 00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv 00etc/pcsl-final.tsv
 	00bin/glyf-final.plx <$< >$@
 
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
 00etc/seq-final.tsv: 00etc/seq-base.tsv 00etc/glyf-final.tsv 00bin/seq-final.plx 00etc/pc24.tsv
-	00bin/seq-final.plx -n | 00bin/sl-sort.plx -c=5 - >$@
+	00bin/seq-final.plx -n >$@
 
-00etc/seqdb.tsv: 00bin/seqdb.plx 00etc/glyf-final.tsv 00etc/seq-final.tsv
-	00bin/seqdb.plx | gdlx -g -k2 | cut -f2- >$@
+#00etc/seqdb.tsv: 00bin/seqdb.plx 00etc/glyf-final.tsv 00etc/seq-final.tsv
+#	00bin/seqdb.plx | gdlx -g -k2 | cut -f2- >$@
 
 ###
 ### CSLDIST
@@ -181,7 +183,7 @@ install-pcsl:
 ###
 ### XML
 ###
-### The HTML versions depend on intermediate XML produces.  Still all
+### The HTML versions depend on intermediate XML products.  Still all
 ### in PC24 encoding.
 ###
 
@@ -218,7 +220,7 @@ xml: ${SLXML} ${DVXML}
 	00bin/final-xml.plx $<
 
 # Note that 00etc/seqdb.xml is generated in PC25 encoding
-00etc/seqdb.xml: 00etc/seqdb.tsv 00bin/seqdb-xml.plx 00etc/pc25.map
+00etc/seqdb.xml: 00etc/seq-final.tsv 00bin/seqdb-xml.plx 00etc/pc25.map
 	00bin/seqdb-xml.plx | utr -s 00etc/pc25.map >$@
 
 ###

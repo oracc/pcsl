@@ -6,989 +6,1115 @@
 
 \appendix{Sequences Data}
 
+
+\par This section describes three related things: how sequences
+      should be encoded; how PCSL handles sequences; and one strategy
+      for implementing sequences and their glyph variants using simple
+      font features.
+
+\Hh{}Sequences are not encoded
+
+
+\par Following the Principles for Encoding Proto-Cuneiform, signs
+      which are composed sequences of multiple adjacent signs should
+      not be encoded.  The surface form of sequences can be variable
+      in the ordering, selection, and disposition of components, all
+      of which are are treated as glyph variations and not as discrete
+      characters.
+
+
+\par In Proto-Cuneiform writing sequences are not
+      necessarily linear: because the manuscripts are organized in
+      cases (or boxes), signs are routinely juxtaposed in clusters in
+      which the components can be written above, below, or near each
+      other as well as being beside each other in a line.
+
+\Hhh{}Opaque sequences are not encoded
+
+
+\par In standard transliteration practice for Proto-Cuneiform some
+      signs are given simple names which do not reflect their status
+      as a sequence, e.g., LUGAL is actually a sequence of LU₂ and
+      GAL. We call these sequences "opaque sequences" and, like
+      regular sequences, they are not encoded.
+
+\Hh{}Sequences have constant character names
+
+
+\par In PCSL, the tag \code{{}@sign} is used for sign names
+      and is dissociated from glyph names.  All of the variants of a
+      sequences are grouped under a single \code{{}@sign}.  The
+      sign name is composed of a conventional ordering of the
+      sequence, with each component joined by periods ('.'). Each sign
+      name is unique among the set of sign names.
+
+
+\par If there is an attested simple linear sequence for a sequence
+      character, that form is selected for the character name.  The
+      mnemonically named \code{{}LUGAL} occurs in a simple linear
+      sequence as |GAL∼a.LU₂|, so that is used as the name of the
+      character.
+
+\Hh{}Glyphs have unique names
+
+
+\par PCSL uses a new tag, \code{{}@glyf} to clarify the
+      separation of character names versus glyph names.  Glyph names
+      consist of a name conforming to an extended set of rules for
+      grapheme naming and possibly a variant tag, consisting of a
+      tilde and a sequence of one or more digits.  One glyph name for
+      LUGAL is \code{{}|GAL∼a.LU₂∼a|∼1}.  The variant tag is
+      stable and represents a variation on the basic glyph name (i.e.,
+      the name with all joiners mapped to '.').
+
+
+\par Glyph names only have to be unique among @glyf entries; a
+      @sign and @glyf may have the same name.
+
+\Hhh{}How unique glyph names are constructed
+
+
+\par Unique glyph names are constructed by varying the order and
+      joiners of the grapheme notation in a way that reflects the
+      variant's form. The joiners are '.' ("BESIDE"), '+' ("JOINING"),
+      and '∘' ("TURNING"), the ring operator. This last is an addition
+      to ATF notation to support the description of sign clustering.
+
+
+\par Glyph names do not encode internal glyph variation, i.e.,
+      several variant forms of IB are used in the construction of ŠAB
+      (|PA.IB|).
+
+
+\par Following the corpus-building rule that input text should not
+      be reordered, glyph names do not reorder components.  Where
+      there is a reasonable choice of how to describe the order of
+      components an order identical or closer to the sequence
+      character name is preferred.  Thus, in the case of character
+      \code{{}|PAP∼a.IB∼a|}, the glyph 𒭅 could reasonably be
+      described as |PAP∼a.IB∼a| or |IB∼a∘PAP∼a|.  The former is
+      preferred because it follows the character name.
+
+
+\par Similarly, glyph names do not remap or normalize variant
+      components that are considered distinct signs in PCSL.  Thus,
+      for character |UŠ∼a.KUR∼a| there are glyphs |UŠ∼a.KUR∼a| and
+      |UŠ∼b.KUR∼a|; for character |EN∼a.EZEN∼b×ŠE∼a.NUN∼a.SIG₇| there
+      are glyphs and |EN∼a.EZEN∼b×ŠE∼a@t∘NUN∼a.SIG₇| and
+      |EN∼a.BAHAR₂∼b∘SIG₇.ME∼a.NUN∼a|.
+
+\Hhh{}How glyph names are turned into ligatures
+
+
+\par Glyph names are turned into ligatures by taking the base
+      component signs and joining them with the ZWJ, U+200D. Multiple
+      glyph names may generate the same core ligature sequence, so
+      CVnn tags are added to the second and subsequent duplicate core
+      ligatures to disambituate them.  Thus, |ŠE∼a.NAM₂| has two glyph
+      forms, named |ŠE∼a.NAM₂|∼1 and |ŠE∼a.NAM₂|∼2. These are mapped,
+      schematically, to ŠE∼a̲u200D̲NAM₂ and ŠE∼a̲u200D̲NAM₂.cv01. The
+      CVnn used in the font is relative to the number of previous
+      duplicate siblings of the glyph name; in the case of the
+      character |GA∼a.ZATU753| there are glyphs |GA∼a.ZATU753|∼1 and
+      |ZATU753.GA∼a|∼1; neither ligature therefore requires a CVnn.
+
+
+\par Note that in order for this approach to work it is important
+      to specify the OpenType feature lookups in the correct order:
+      \code{{}liga} must come before \code{{}cv01 .. cvNN},
+      and \code{{}salt} should come last. Unmarked
+      \code{{}liga} should be in the \code{{}liga} table;
+      \code{{}liga.cvNN} should be in the \code{{}salt}
+      table.
+
+
+\par In \code{{}XeTeX}, the features for the cvNN ligatures
+      should be specified as "+cv01,+salt", "+cv02,+salt",
+      "+cv03,+salt" (specifying +liga is unnecessary with XeTeX).
+
 \beginseqdb
-\seqdbrow{\seqdbn{}|AMAR.1(N02)|∼1}{{}\bgroup\seqdbs{}𒚴.𒖾\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉟\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F225F\egroup{}}%
+\seqdbrow{\seqdbn{}|AMAR.1(N02)|}{\seqdbn{}|AMAR.1(N02)|}{{}\bgroup\seqdbs{}𒚴.𒖾\egroup{}}{{}\bgroup\seqdbs{}₁𒚴.₁𒖾\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈢\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2222\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒚴‍𒖾\egroup{}}{{}\bgroup\seqdbl{}u126B4̲u200D̲u125BE.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|AN.IM∼a.GI₆|∼1}{{}\bgroup\seqdbs{}𒚷.𒡠.𒠏\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉠\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2260\egroup{}}%
+\seqdbrow{\seqdbn{}|AN.IM∼a.GI₆|}{\seqdbn{}|AN.IM∼a.GI₆|}{{}\bgroup\seqdbs{}𒚷.𒡠.𒠏\egroup{}}{{}\bgroup\seqdbs{}₁𒚷.₁𒡠.₁𒠏\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈣\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2223\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒚷‍𒡠‍𒠏\egroup{}}{{}\bgroup\seqdbl{}u126B7̲u200D̲u12860̲u200D̲u1288E.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|APIN∼a.APIN∼a|∼1}{{}\bgroup\seqdbs{}𒚽.𒚽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉡\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2261\egroup{}}%
+\seqdbrow{\seqdbn{}|APIN∼a.APIN∼a|}{\seqdbn{}|APIN∼a.APIN∼a|}{{}\bgroup\seqdbs{}𒚽.𒚽\egroup{}}{{}\bgroup\seqdbs{}₁𒚽.₁𒚽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈤\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2224\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒚽‍𒚽\egroup{}}{{}\bgroup\seqdbl{}u126BD̲u200D̲u126D2.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|BU∼b.NA₂∼a|∼1}{{}\bgroup\seqdbs{}𒛭.󲄹\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉻\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F227B\egroup{}}%
+\seqdbrow{\seqdbn{}|BU∼b.NA₂∼a|}{\seqdbn{}|BU∼b.NA₂∼a|}{{}\bgroup\seqdbs{}𒛭.󲄹\egroup{}}{{}\bgroup\seqdbs{}₁𒛭.₂𒤨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈥\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2225\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒛭‍𒤨\egroup{}}{{}\bgroup\seqdbl{}u126ED̲u200D̲u12A10.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|BULUG₃.DU₆∼a|∼1}{{}\bgroup\seqdbs{}𒛰.𒜡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉰\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2270\egroup{}}%
+\seqdbrow{\seqdbn{}|BULUG₃.DU₆∼a|}{\seqdbn{}|BULUG₃.DU₆∼a|}{{}\bgroup\seqdbs{}𒛰.𒜡\egroup{}}{{}\bgroup\seqdbs{}₁𒛰.₁𒜡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈦\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2226\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒛰‍𒜡\egroup{}}{{}\bgroup\seqdbl{}u126F0̲u200D̲u12750.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|DA∼a.LIŠ|∼1}{{}\bgroup\seqdbs{}𒛶.𒣡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉼\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F227C\egroup{}}%
+\seqdbrow{\seqdbn{}|DA∼a.LIŠ|}{\seqdbn{}|DA∼a.LIŠ|}{{}\bgroup\seqdbs{}𒛶.𒣡\egroup{}}{{}\bgroup\seqdbs{}₁𒛶.₁𒣡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈧\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2227\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒛶‍𒣡\egroup{}}{{}\bgroup\seqdbl{}u126F6̲u200D̲u129B5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|DU.U₄.1(N14).1(N08)|∼1}{{}\bgroup\seqdbs{}𒜞.𒩽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉱\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2271\egroup{}}%
+\seqdbrow{\seqdbn{}|DU.ME∼a.NUN∼a|}{\seqdbn{}|DU.ME∼a.NUN∼a|}{{}\bgroup\seqdbs{}𒜞.𒤅.𒥯\egroup{}}{{}\bgroup\seqdbs{}₁𒜞.₁𒤅.₁𒥯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂄\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2084\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒜞‍𒩽‍𒕢‍𒕙\egroup{}}{{}\bgroup\seqdbl{}u1271E̲u200D̲u12A7D̲u200D̲u12562̲u200D̲u12559.liga\egroup{}}
+}{{}\bgroup\seqdblc{}𒜞‍𒤅‍𒥯\egroup{}}{{}\bgroup\seqdbl{}u1271E̲u200D̲u12905̲u200D̲u12A74.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|E₂∼a.LIŠ|∼1}{{}\bgroup\seqdbs{}𒝿.𒣡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉣\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2263\egroup{}}%
+\seqdbrow{\seqdbn{}|DU.U₄.1(N14).1(N08)|}{\seqdbn{}|DU.U₄|}{{}\bgroup\seqdbs{}𒜞.𒩽\egroup{}}{{}\bgroup\seqdbs{}₁𒜞.₁𒩽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈨\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2228\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒜞‍𒩽\egroup{}}{{}\bgroup\seqdbl{}u1271E̲u200D̲u12BE1.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|E₂∼a.LIŠ|}{\seqdbn{}|E₂∼a.LIŠ|}{{}\bgroup\seqdbs{}𒝿.𒣡\egroup{}}{{}\bgroup\seqdbs{}₁𒝿.₁𒣡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈩\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2229\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒝿‍𒣡\egroup{}}{{}\bgroup\seqdbl{}u1277F̲u200D̲u129B5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|E₂∼a.NUN∼a|∼1}{{}\bgroup\seqdbs{}𒝿.𒥯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉢\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2262\egroup{}}%
+\seqdbrow{\seqdbn{}|E₂∼a.NUN∼a|}{\seqdbn{}|E₂∼a.NUN∼a|}{{}\bgroup\seqdbs{}𒝿.𒥯\egroup{}}{{}\bgroup\seqdbs{}₁𒝿.₁𒥯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈪\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F222A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒝿‍𒥯\egroup{}}{{}\bgroup\seqdbl{}u1277F̲u200D̲u12A74.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|E₂∼b.LIŠ|∼1}{{}\bgroup\seqdbs{}𒞁.𒣡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉤\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2264\egroup{}}%
+\seqdbrow{\seqdbn{}|E₂∼b.LIŠ|}{\seqdbn{}|E₂∼b.LIŠ|}{{}\bgroup\seqdbs{}𒞁.𒣡\egroup{}}{{}\bgroup\seqdbs{}₁𒞁.₁𒣡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈫\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F222B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞁‍𒣡\egroup{}}{{}\bgroup\seqdbl{}u12781̲u200D̲u129B5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EN∼a.BAHAR₂∼b.SIG₇.ME∼a.NUN∼a|∼1}{{}\bgroup\seqdbs{}𒞇.𒞢∘𒥯.󲅮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃊\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20CA\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒞇‍𒨢‍𒞡‍𒥯‍𒧆\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u12A22̲u200D̲u127A1̲u200D̲u1296F̲u200D̲u12AE3.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|EN∼a.BAHAR₂∼b.SIG₇.ME∼a.NUN∼a|∼2}{{}\bgroup\seqdbs{}𒞇.󲂏∘𒧆.𒤅.𒥯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃋\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20CB\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒞇‍𒨢‍𒞡‍𒥯‍𒧆\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u12A22̲u200D̲u127A1̲u200D̲u1296F̲u200D̲u12AE3.liga.cv99\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EN∼a.KID∼a|∼1}{{}\bgroup\seqdbs{}𒞇.𒢎\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉧\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2267\egroup{}}%
+\seqdbrow{\seqdbn{}|EN∼a.KID∼a|}{\seqdbn{}|EN∼a.KID∼a|}{{}\bgroup\seqdbs{}𒞇.𒢎\egroup{}}{{}\bgroup\seqdbs{}₁𒞇.₁𒢎\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈬\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F222C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞇‍𒢎\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u12941.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EN∼a.ME∼a.GI|∼1}{{}\bgroup\seqdbs{}𒞇.𒤅.𒟽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉦\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2266\egroup{}}%
+\seqdbrow{\seqdbn{}|EN∼a.ME∼a.GI|}{\seqdbn{}|EN∼a.ME∼a.GI|}{{}\bgroup\seqdbs{}𒞇.𒤅.𒟽\egroup{}}{{}\bgroup\seqdbs{}₁𒞇.₁𒤅.₁𒟽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈭\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F222D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞇‍𒤅‍𒟽\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u12905̲u200D̲u12878.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EN∼a.ME∼a.MU|∼1}{{}\bgroup\seqdbs{}𒞇.𒤅.𒤍\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉥\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2265\egroup{}}%
+\seqdbrow{\seqdbn{}|EN∼a.ME∼a.MU|}{\seqdbn{}|EN∼a.ME∼a.MU|}{{}\bgroup\seqdbs{}𒞇.𒤅.𒤍\egroup{}}{{}\bgroup\seqdbs{}₁𒞇.₁𒤅.₁𒤍\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈮\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F222E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞇‍𒤅‍𒤍\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u12905̲u200D̲u129EC.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EN₂.E₂∼a|∼1}{{}\bgroup\seqdbs{}𒞍.𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉨\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2268\egroup{}}%
+\seqdbrow{\seqdbn{}|EN∼a.ŠE∼a@t.EZEN∼b.NUN∼a.SIG₇|}{\seqdbn{}|EN∼a.EZEN∼b×ŠE∼a@t∘NUN∼a.SIG₇|}{{}\bgroup\seqdbs{}𒞇.𒞢∘𒥯.󲅮\egroup{}}{{}\bgroup\seqdbs{}₁𒞇.₁𒞢∘₁𒥯.₂𒧆\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃊\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20CA\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒞇‍𒞢‍𒥯‍𒧆\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u127A2̲u200D̲u1296F̲u200D̲u12AE3.liga\egroup{}}
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|EN∼a.ŠE∼a@t.EZEN∼b.NUN∼a.SIG₇|}{\seqdbn{}|EN∼a.BAHAR₂∼b∘SIG₇.ME∼a.NUN∼a|}{{}\bgroup\seqdbs{}𒞇.󲂏∘𒧆.𒤅.𒥯\egroup{}}{{}\bgroup\seqdbs{}₁𒞇.₂𒛋∘₁𒧆.₁𒤅.₁𒥯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃋\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20CB\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒞇‍𒛋‍𒧆‍𒤅‍𒥯\egroup{}}{{}\bgroup\seqdbl{}u12787̲u200D̲u126CB̲u200D̲u129C6̲u200D̲u12905̲u200D̲u12A74.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|EN₂.E₂∼a|}{\seqdbn{}|EN₂.E₂∼a|}{{}\bgroup\seqdbs{}𒞍.𒝿\egroup{}}{{}\bgroup\seqdbs{}₁𒞍.₁𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈯\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F222F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞍‍𒝿\egroup{}}{{}\bgroup\seqdbl{}u1278D̲u200D̲u127CA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EN₂.E₂∼b|∼1}{{}\bgroup\seqdbs{}𒞍.𒞁\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉩\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2269\egroup{}}%
+\seqdbrow{\seqdbn{}|EN₂.E₂∼b|}{\seqdbn{}|EN₂.E₂∼b|}{{}\bgroup\seqdbs{}𒞍.𒞁\egroup{}}{{}\bgroup\seqdbs{}₁𒞍.₁𒞁\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈰\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2230\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞍‍𒞁\egroup{}}{{}\bgroup\seqdbl{}u1278D̲u200D̲u127CE.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|EŠDA.NAM₂|∼1}{{}\bgroup\seqdbs{}𒞒.𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅁\egroup{}}%
+\seqdbrow{\seqdbn{}|EŠDA.NAM₂|}{\seqdbn{}|EŠDA.NAM₂|}{{}\bgroup\seqdbs{}𒞒.𒤶\egroup{}}{{}\bgroup\seqdbs{}₁𒞒.₁𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅁\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2141\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒞒‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u12792̲u200D̲u12A23.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|EŠDA.NAM₂|∼2}{{}\bgroup\seqdbs{}𒞒+𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅂\egroup{}}%
+\seqdbrow{\seqdbn{}|EŠDA.NAM₂|}{\seqdbn{}|EŠDA+NAM₂|}{{}\bgroup\seqdbs{}𒞒+𒤶\egroup{}}{{}\bgroup\seqdbs{}₁𒞒+₁𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅂\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2142\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒞒‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u12792̲u200D̲u12A23.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒞒‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u12792̲u200D̲u12A23.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GAL∼a.BUR₂|∼1}{{}\bgroup\seqdbs{}𒟞.𒛵\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉴\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2274\egroup{}}%
+\seqdbrow{\seqdbn{}|GA∼a.ZATU753|}{\seqdbn{}|GA∼a.ZATU753|}{{}\bgroup\seqdbs{}󲃒.𒮤\egroup{}}{{}\bgroup\seqdbs{}₂𒞩.₁𒮤\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃑\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20D1\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒞩‍𒮤\egroup{}}{{}\bgroup\seqdbl{}u127A9̲u200D̲u12D79.liga\egroup{}}
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|GA∼a.ZATU753|}{\seqdbn{}|ZATU753.GA∼a|}{{}\bgroup\seqdbs{}𒮤.󲃒\egroup{}}{{}\bgroup\seqdbs{}₁𒮤.₂𒞩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃐\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20D0\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒮤‍𒞩\egroup{}}{{}\bgroup\seqdbl{}u12BA4̲u200D̲u1280E.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|GAL∼a.BUR₂|}{\seqdbn{}|GAL∼a.BUR₂|}{{}\bgroup\seqdbs{}𒟞.𒛵\egroup{}}{{}\bgroup\seqdbs{}₁𒟞.₁𒛵\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈱\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2231\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒟞‍𒛵\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u1271F.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GAL∼a.NI∼a|∼1}{{}\bgroup\seqdbs{}𒟞.𒥃\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉲\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2272\egroup{}}%
+\seqdbrow{\seqdbn{}|GAL∼a.LU₂|}{\seqdbn{}|GAL∼a.LU₂|}{{}\bgroup\seqdbs{}𒟞.𒣢\egroup{}}{{}\bgroup\seqdbs{}₁𒟞.₁𒣢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄪\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F212A\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒟞‍𒣢\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u129B6.liga\egroup{}}
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|GAL∼a.LU₂|}{\seqdbn{}|LU₂∘GAL∼a|}{{}\bgroup\seqdbs{}𒣢∘𒟞\egroup{}}{{}\bgroup\seqdbs{}₁𒣢∘₁𒟞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄫\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F212B\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒣢‍𒟞\egroup{}}{{}\bgroup\seqdbl{}u128E2̲u200D̲u1284E.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|GAL∼a.NI∼a|}{\seqdbn{}|GAL∼a.NI∼a|}{{}\bgroup\seqdbs{}𒟞.𒥃\egroup{}}{{}\bgroup\seqdbs{}₁𒟞.₁𒥃\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈲\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2232\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒟞‍𒥃\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u12A3A.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GAL∼a.NIM∼a|∼1}{{}\bgroup\seqdbs{}𒟞.𒥊\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉳\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2273\egroup{}}%
+\seqdbrow{\seqdbn{}|GAL∼a.NIM∼a|}{\seqdbn{}|GAL∼a.NIM∼a|}{{}\bgroup\seqdbs{}𒟞.𒥊\egroup{}}{{}\bgroup\seqdbs{}₁𒟞.₁𒥊\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈳\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2233\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒟞‍𒥊\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u12A43.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GAL∼a.UKKIN∼a|∼1}{{}\bgroup\seqdbs{}𒟞.𒪬\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄐\egroup{}}%
+\seqdbrow{\seqdbn{}|GAL∼a.UKKIN∼a|}{\seqdbn{}|GAL∼a.UKKIN∼a|}{{}\bgroup\seqdbs{}𒟞.𒪬\egroup{}}{{}\bgroup\seqdbs{}₁𒟞.₁𒪬\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄐\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2110\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒟞‍𒪬\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u12C31.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|GAL∼a.UKKIN∼a|∼2}{{}\bgroup\seqdbs{}𒟞.󲆽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄑\egroup{}}%
+\seqdbrow{\seqdbn{}|GAL∼a.UKKIN∼a|}{\seqdbn{}|GAL∼a.UKKIN∼a|∼1}{{}\bgroup\seqdbs{}𒟞.󲆽\egroup{}}{{}\bgroup\seqdbs{}₁𒟞.₂𒪬\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄑\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2111\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒟞‍𒪬\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u12C31.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒟞‍𒪬\egroup{}}{{}\bgroup\seqdbl{}u127DE̲u200D̲u12C31.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GEŠTU∼a.NAGA∼a|∼1}{{}\bgroup\seqdbs{}𒟹.𒤭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉽\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F227D\egroup{}}%
+\seqdbrow{\seqdbn{}|GEŠTU∼a.NAGA∼a|}{\seqdbn{}|GEŠTU∼a.NAGA∼a|}{{}\bgroup\seqdbs{}𒟹.𒤭\egroup{}}{{}\bgroup\seqdbs{}₁𒟹.₁𒤭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈴\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2234\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒟹‍𒤭\egroup{}}{{}\bgroup\seqdbl{}u127F9̲u200D̲u12A16.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GI₆.NUNUZ∼c|∼1}{{}\bgroup\seqdbs{}𒠏.𒥽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉵\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2275\egroup{}}%
+\seqdbrow{\seqdbn{}|GI₆.NUNUZ∼c|}{\seqdbn{}|GI₆.NUNUZ∼c|}{{}\bgroup\seqdbs{}𒠏.𒥽\egroup{}}{{}\bgroup\seqdbs{}₁𒠏.₁𒥽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈵\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2235\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠏‍𒥽\egroup{}}{{}\bgroup\seqdbl{}u1280F̲u200D̲u12A87.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GIR∼a.KU₆∼a|∼1}{{}\bgroup\seqdbs{}𒠑.𒢪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉾\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F227E\egroup{}}%
+\seqdbrow{\seqdbn{}|GIR∼a.KU₆∼a|}{\seqdbn{}|GIR∼a.KU₆∼a|}{{}\bgroup\seqdbs{}𒠑.𒢪\egroup{}}{{}\bgroup\seqdbs{}₁𒠑.₁𒢪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈶\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2236\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠑‍𒢪\egroup{}}{{}\bgroup\seqdbl{}u12811̲u200D̲u12965.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GIR∼b.GIR∼b|∼1}{{}\bgroup\seqdbs{}󲃥.󲃥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉿\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F227F\egroup{}}%
+\seqdbrow{\seqdbn{}|GIR∼b.GIR∼b|}{\seqdbn{}|GIR∼b.GIR∼b|}{{}\bgroup\seqdbs{}󲃥.󲃥\egroup{}}{{}\bgroup\seqdbs{}₂𒠒.₂𒠒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈷\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2237\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠒‍𒠒\egroup{}}{{}\bgroup\seqdbl{}u12812̲u200D̲u12896.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GIR₃∼c.AB∼a|∼1}{{}\bgroup\seqdbs{}𒠘.𒚖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉷\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2277\egroup{}}%
+\seqdbrow{\seqdbn{}|GIR₃∼c.AB∼a|}{\seqdbn{}|GIR₃∼c.AB∼a|}{{}\bgroup\seqdbs{}𒠘.𒚖\egroup{}}{{}\bgroup\seqdbs{}₁𒠘.₁𒚖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈸\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2238\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠘‍𒚖\egroup{}}{{}\bgroup\seqdbl{}u12818̲u200D̲u12698.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GIR₃∼c.PIRIG∼b1|∼1}{{}\bgroup\seqdbs{}𒠘.𒦈\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉶\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2276\egroup{}}%
+\seqdbrow{\seqdbn{}|GIR₃∼c.PIRIG∼b1|}{\seqdbn{}|GIR₃∼c.PIRIG∼b1|}{{}\bgroup\seqdbs{}𒠘.𒦈\egroup{}}{{}\bgroup\seqdbs{}₁𒠘.₁𒦈\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈹\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2239\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠘‍𒦈\egroup{}}{{}\bgroup\seqdbl{}u12818̲u200D̲u12A98.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GIŠ.TE|∼1}{{}\bgroup\seqdbs{}𒠟.𒩠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉪\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F226A\egroup{}}%
+\seqdbrow{\seqdbn{}|GIŠ.TE|}{\seqdbn{}|GIŠ.TE|}{{}\bgroup\seqdbs{}𒠟.𒩠\egroup{}}{{}\bgroup\seqdbs{}₁𒠟.₁𒩠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈺\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F223A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠟‍𒩠\egroup{}}{{}\bgroup\seqdbl{}u1281F̲u200D̲u12BB9.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GIŠ@t.E₂∼a|∼1}{{}\bgroup\seqdbs{}𒠥.𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉫\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F226B\egroup{}}%
+\seqdbrow{\seqdbn{}|GIŠ@t.E₂∼a|}{\seqdbn{}|GIŠ@t.E₂∼a|}{{}\bgroup\seqdbs{}𒠥.𒝿\egroup{}}{{}\bgroup\seqdbs{}₁𒠥.₁𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈻\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F223B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠥‍𒝿\egroup{}}{{}\bgroup\seqdbl{}u12825̲u200D̲u127CA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GU₄.ZATU755∼b|∼1}{{}\bgroup\seqdbs{}𒠲.𒮧\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉬\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F226C\egroup{}}%
+\seqdbrow{\seqdbn{}|GU₄.ZATU755∼b|}{\seqdbn{}|GU₄.ZATU755∼b|}{{}\bgroup\seqdbs{}𒠲.𒮧\egroup{}}{{}\bgroup\seqdbs{}₁𒠲.₁𒮧\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈼\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F223C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠲‍𒮧\egroup{}}{{}\bgroup\seqdbl{}u12832̲u200D̲u12D7C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|GUKKAL∼a.HI@g∼a|∼1}{{}\bgroup\seqdbs{}𒠼.𒡔\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉭\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F226D\egroup{}}%
+\seqdbrow{\seqdbn{}|GUKKAL∼a.HI@g∼a|}{\seqdbn{}|GUKKAL∼a.HI@g∼a|}{{}\bgroup\seqdbs{}𒠼.𒡔\egroup{}}{{}\bgroup\seqdbs{}₁𒠼.₁𒡔\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈽\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F223D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒠼‍𒡔\egroup{}}{{}\bgroup\seqdbl{}u1283C̲u200D̲u128F0.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|HI.LAGAB∼a|∼1}{{}\bgroup\seqdbs{}𒡑.𒢻\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉮\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F226E\egroup{}}%
+\seqdbrow{\seqdbn{}|HI.LAGAB∼a|}{\seqdbn{}|HI.LAGAB∼a|}{{}\bgroup\seqdbs{}𒡑.𒢻\egroup{}}{{}\bgroup\seqdbs{}₁𒡑.₁𒢻\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈾\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F223E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒡑‍𒢻\egroup{}}{{}\bgroup\seqdbl{}u12851̲u200D̲u12980.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|HI.SUHUR|∼1}{{}\bgroup\seqdbs{}𒡑.𒧼\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃵\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20F5\egroup{}}%
+\seqdbrow{\seqdbn{}|HI.SUHUR|}{\seqdbn{}|HI.SUHUR|}{{}\bgroup\seqdbs{}𒡑.󲅴\egroup{}}{{}\bgroup\seqdbs{}₁𒡑.₂𒧼\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃶\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20F6\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒡑‍𒧼\egroup{}}{{}\bgroup\seqdbl{}u12851̲u200D̲u12B23.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|HI.SUHUR|∼2}{{}\bgroup\seqdbs{}𒡑.󲅴\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃶\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20F6\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒡑‍𒧼\egroup{}}{{}\bgroup\seqdbl{}u12851̲u200D̲u12B23.liga.cv99\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|HI.SUHUR|∼3}{{}\bgroup\seqdbs{}𒡑.󲅵\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃷\egroup{}}%
+\seqdbrow{\seqdbn{}|HI.SUHUR|}{\seqdbn{}|HI.SUHUR|∼1}{{}\bgroup\seqdbs{}𒡑.󲅵\egroup{}}{{}\bgroup\seqdbs{}₁𒡑.₃𒧼\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃷\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F20F7\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv98{}𒡑‍𒧼\egroup{}}{{}\bgroup\seqdbl{}u12851̲u200D̲u12B23.liga.cv98\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|HI×1(N57).HI×1(N57)|∼1}{{}\bgroup\seqdbs{}𒡒.𒡒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃸\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20F8\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒡒‍𒡒\egroup{}}{{}\bgroup\seqdbl{}u12852̲u200D̲u128EC.liga\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒡑‍𒧼\egroup{}}{{}\bgroup\seqdbl{}u12851̲u200D̲u12B23.liga.cv01\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|HI×1(N57).HI×1(N57)|∼2}{{}\bgroup\seqdbs{}𒡒∘𒡒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃹\egroup{}}%
+\seqdbrow{\seqdbn{}|HI.SUHUR|}{\seqdbn{}|HI.SUHUR|∼2}{{}\bgroup\seqdbs{}𒡑.𒧼\egroup{}}{{}\bgroup\seqdbs{}₁𒡑.₁𒧼\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃵\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20F5\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}\cv02{}𒡑‍𒧼\egroup{}}{{}\bgroup\seqdbl{}u12851̲u200D̲u12B23.liga.cv02\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|(HI×1(N57)).(HI×1(N57))|}{\seqdbn{}|HI×1(N57)∘HI×1(N57)|}{{}\bgroup\seqdbs{}𒡒∘𒡒\egroup{}}{{}\bgroup\seqdbs{}₁𒡒∘₁𒡒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃹\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F20F9\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒡒‍𒡒\egroup{}}{{}\bgroup\seqdbl{}u12852̲u200D̲u128EC.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒡒‍𒡒\egroup{}}{{}\bgroup\seqdbl{}u12852̲u200D̲u128EC.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|IR∼a.GA₂∼a1|∼1}{{}\bgroup\seqdbs{}𒡤.𒞮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊀\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2280\egroup{}}%
+\seqdbrow{\seqdbn{}|HI×1(N57).HI×1(N57)|}{\seqdbn{}|HI×1(N57).HI×1(N57)|}{{}\bgroup\seqdbs{}𒡒.𒡒\egroup{}}{{}\bgroup\seqdbs{}₁𒡒.₁𒡒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃸\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20F8\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}\cv01{}𒡒‍𒡒\egroup{}}{{}\bgroup\seqdbl{}u12852̲u200D̲u128EC.liga.cv01\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|IR∼a.GA₂∼a1|}{\seqdbn{}|IR∼a.GA₂∼a1|}{{}\bgroup\seqdbs{}𒡤.𒞮\egroup{}}{{}\bgroup\seqdbs{}₁𒡤.₁𒞮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈿\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F223F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒡤‍𒞮\egroup{}}{{}\bgroup\seqdbl{}u12864̲u200D̲u12815.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KA∼a.ŠE∼a|∼1}{{}\bgroup\seqdbs{}𒡫.𒨢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄈\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2108\egroup{}}%
+\seqdbrow{\seqdbn{}|KA∼a.ŠE∼a|}{\seqdbn{}|KA∼a.ŠE∼a|}{{}\bgroup\seqdbs{}𒡫.𒨟\egroup{}}{{}\bgroup\seqdbs{}₁𒡫.₁𒨟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄉\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2109\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒡫‍𒨟\egroup{}}{{}\bgroup\seqdbl{}u1286B̲u200D̲u12B52.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|KA∼a.ŠE∼a|∼2}{{}\bgroup\seqdbs{}𒡫.𒨟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄉\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2109\egroup{}}%
+\seqdbrow{\seqdbn{}|KA∼a.ŠE∼a|}{\seqdbn{}|KA∼a.ŠE∼a@t|}{{}\bgroup\seqdbs{}𒡫.𒨢\egroup{}}{{}\bgroup\seqdbs{}₁𒡫.₁𒨢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄈\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2108\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒡫‍𒨟\egroup{}}{{}\bgroup\seqdbl{}u1286B̲u200D̲u12B52.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒡫‍𒨢\egroup{}}{{}\bgroup\seqdbl{}u1286B̲u200D̲u12B57.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KAK∼a.GA₂∼a1|∼1}{{}\bgroup\seqdbs{}𒡳.𒞮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊁\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2281\egroup{}}%
+\seqdbrow{\seqdbn{}|KAK∼a.GA₂∼a1|}{\seqdbn{}|KAK∼a.GA₂∼a1|}{{}\bgroup\seqdbs{}𒡳.𒞮\egroup{}}{{}\bgroup\seqdbs{}₁𒡳.₁𒞮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉀\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2240\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒡳‍𒞮\egroup{}}{{}\bgroup\seqdbl{}u12873̲u200D̲u12815.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KU₆∼a.GIŠ|∼1}{{}\bgroup\seqdbs{}𒢪.𒠟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊃\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2283\egroup{}}%
+\seqdbrow{\seqdbn{}|KU₆∼a.GIŠ|}{\seqdbn{}|KU₆∼a.GIŠ|}{{}\bgroup\seqdbs{}𒢪.𒠟\egroup{}}{{}\bgroup\seqdbs{}₁𒢪.₁𒠟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉁\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2241\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒢪‍𒠟\egroup{}}{{}\bgroup\seqdbl{}u128AA̲u200D̲u128A7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KU₆∼a.1(N02)|∼1}{{}\bgroup\seqdbs{}𒢪.𒖾\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊂\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2282\egroup{}}%
+\seqdbrow{\seqdbn{}|KU₆∼a.1(N02)|}{\seqdbn{}|KU₆∼a.1(N02)|}{{}\bgroup\seqdbs{}𒢪.𒖾\egroup{}}{{}\bgroup\seqdbs{}₁𒢪.₁𒖾\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉂\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2242\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒢪‍𒖾\egroup{}}{{}\bgroup\seqdbl{}u128AA̲u200D̲u125BE.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KUR∼a.E₂∼a|∼1}{{}\bgroup\seqdbs{}𒢭.𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉹\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2279\egroup{}}%
+\seqdbrow{\seqdbn{}|KUR∼a.E₂∼a|}{\seqdbn{}|KUR∼a.E₂∼a|}{{}\bgroup\seqdbs{}𒢭.𒝿\egroup{}}{{}\bgroup\seqdbs{}₁𒢭.₁𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉃\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2243\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒢭‍𒝿\egroup{}}{{}\bgroup\seqdbl{}u128AD̲u200D̲u127CA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KUR∼a.NUNUZ∼a1|∼1}{{}\bgroup\seqdbs{}𒢭.𒥺\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉸\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2278\egroup{}}%
+\seqdbrow{\seqdbn{}|KUR∼a.NUNUZ∼a1|}{\seqdbn{}|KUR∼a.NUNUZ∼a1|}{{}\bgroup\seqdbs{}𒢭.𒥺\egroup{}}{{}\bgroup\seqdbs{}₁𒢭.₁𒥺\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉄\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2244\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒢭‍𒥺\egroup{}}{{}\bgroup\seqdbl{}u128AD̲u200D̲u12A82.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KUR∼a.RU|∼1}{{}\bgroup\seqdbs{}𒢭.𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆦\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F21A6\egroup{}}%
+\seqdbrow{\seqdbn{}|KUR∼a.RU|}{\seqdbn{}|KUR∼a.RU|}{{}\bgroup\seqdbs{}𒢭.󲅞\egroup{}}{{}\bgroup\seqdbs{}₁𒢭.₂𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆧\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F21A7\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒢭‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u128AD̲u200D̲u12AA5.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|KUR∼a.RU|∼2}{{}\bgroup\seqdbs{}𒢭.󲅞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆧\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F21A7\egroup{}}%
+\seqdbrow{\seqdbn{}|KUR∼a.RU|}{\seqdbn{}|KUR∼a.RU|∼1}{{}\bgroup\seqdbs{}𒢭.𒦒\egroup{}}{{}\bgroup\seqdbs{}₁𒢭.₁𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆦\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F21A6\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒢭‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u128AD̲u200D̲u12AA5.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒢭‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u128AD̲u200D̲u12AA5.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|KUR∼b.E₂∼a|∼1}{{}\bgroup\seqdbs{}𒢮.𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉺\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F227A\egroup{}}%
+\seqdbrow{\seqdbn{}|KUR∼b.E₂∼a|}{\seqdbn{}|KUR∼b.E₂∼a|}{{}\bgroup\seqdbs{}𒢮.𒝿\egroup{}}{{}\bgroup\seqdbs{}₁𒢮.₁𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉅\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2245\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒢮‍𒝿\egroup{}}{{}\bgroup\seqdbl{}u128AE̲u200D̲u127CA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|LAGAB∼b.TE|}{{}\bgroup\seqdbs{}𒣍.𒩠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|LAGAB∼b.TE|}{\seqdbn{}|LAGAB∼b.TE|}{{}\bgroup\seqdbs{}𒣍.𒩠\egroup{}}{{}\bgroup\seqdbs{}₁𒣍.₁𒩠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒣍‍𒩠\egroup{}}{{}\bgroup\seqdbl{}u128CD̲u200D̲u12BB9.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|LU₂.GAL∼a|∼1}{{}\bgroup\seqdbs{}𒣢.𒟞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄪\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F212A\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒣢‍𒟞\egroup{}}{{}\bgroup\seqdbl{}u128E2̲u200D̲u1284E.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|LU₂.GAL∼a|∼2}{{}\bgroup\seqdbs{}𒣢∘𒟞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄫\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F212B\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒣢‍𒟞\egroup{}}{{}\bgroup\seqdbl{}u128E2̲u200D̲u1284E.liga.cv99\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ME∼a.EN∼a.ŠE∼a.ŠA|∼1}{{}\bgroup\seqdbs{}𒤅.𒞇∘𒨟∘𒨌\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉯\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F226F\egroup{}}%
+\seqdbrow{\seqdbn{}|ME∼a.EN∼a.ŠE∼a.ŠA|}{\seqdbn{}|ME∼a.EN∼a∘ŠE∼a∘ŠA|}{{}\bgroup\seqdbs{}𒤅.𒞇∘𒨟∘𒨌\egroup{}}{{}\bgroup\seqdbs{}₁𒤅.₁𒞇∘₁𒨟∘₁𒨌\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉆\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2246\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤅‍𒞇‍𒨟‍𒨌\egroup{}}{{}\bgroup\seqdbl{}u12905̲u200D̲u12787̲u200D̲u12A1F̲u200D̲u12B37.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|MUŠ₃∼a.AB∼a|∼1}{{}\bgroup\seqdbs{}𒤞.𒚖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈤\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2224\egroup{}}%
+\seqdbrow{\seqdbn{}|MUŠ₃∼a.AB∼a|}{\seqdbn{}|MUŠ₃∼a.AB∼a|}{{}\bgroup\seqdbs{}𒤞.𒚖\egroup{}}{{}\bgroup\seqdbs{}₁𒤞.₁𒚖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉇\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2247\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤞‍𒚖\egroup{}}{{}\bgroup\seqdbl{}u1291E̲u200D̲u12698.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|MUŠ₃∼a.ERIN|∼1}{{}\bgroup\seqdbs{}𒤞.𒞑\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈣\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2223\egroup{}}%
+\seqdbrow{\seqdbn{}|MUŠ₃∼a.ERIN|}{\seqdbn{}|MUŠ₃∼a.ERIN|}{{}\bgroup\seqdbs{}𒤞.𒞑\egroup{}}{{}\bgroup\seqdbs{}₁𒤞.₁𒞑\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉈\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2248\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤞‍𒞑\egroup{}}{{}\bgroup\seqdbl{}u1291E̲u200D̲u127EF.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|MUŠ₃∼a.UNUG∼a|∼1}{{}\bgroup\seqdbs{}𒤞.𒪻\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈢\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2222\egroup{}}%
+\seqdbrow{\seqdbn{}|MUŠ₃∼a.UNUG∼a|}{\seqdbn{}|MUŠ₃∼a.UNUG∼a|}{{}\bgroup\seqdbs{}𒤞.𒪻\egroup{}}{{}\bgroup\seqdbs{}₁𒤞.₁𒪻\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉉\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2249\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤞‍𒪻\egroup{}}{{}\bgroup\seqdbl{}u1291E̲u200D̲u12C44.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|MUŠEN.UR₃∼b2|∼1}{{}\bgroup\seqdbs{}𒤡.𒫋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈥\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2225\egroup{}}%
+\seqdbrow{\seqdbn{}|MUŠEN.UR₃∼b2|}{\seqdbn{}|MUŠEN.UR₃∼b2|}{{}\bgroup\seqdbs{}𒤡.𒫋\egroup{}}{{}\bgroup\seqdbs{}₁𒤡.₁𒫋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉊\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F224A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤡‍𒫋\egroup{}}{{}\bgroup\seqdbl{}u12921̲u200D̲u12C58.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|MUŠEN.3(N58)|∼2}{{}\bgroup\seqdbs{}𒤡.𒯵\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈜\egroup{}}%
+\seqdbrow{\seqdbn{}|MUŠEN.3(N58)|}{\seqdbn{}|MUŠEN.3(N58)|}{{}\bgroup\seqdbs{}𒤡.𒯵\egroup{}}{{}\bgroup\seqdbs{}₁𒤡.₁𒯵\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈜\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F221C\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒤡‍𒯵\egroup{}}{{}\bgroup\seqdbl{}u12921̲u200D̲uF011C.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒤡‍𒯵\egroup{}}{{}\bgroup\seqdbl{}u12921̲u200D̲uF011C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N02).RU|∼2}{{}\bgroup\seqdbs{}𒖾.󲅞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈑\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N02).RU|}{\seqdbn{}|1(N02).RU|}{{}\bgroup\seqdbs{}𒖾.󲅞\egroup{}}{{}\bgroup\seqdbs{}₁𒖾.₂𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈑\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2211\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒖾‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u125BE̲u200D̲u12AA5.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒖾‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u125BE̲u200D̲u12AA5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NAGAR∼a.BU∼a|∼1}{{}\bgroup\seqdbs{}𒤰.𒛧\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈦\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2226\egroup{}}%
+\seqdbrow{\seqdbn{}|NAGAR∼a.BU∼a|}{\seqdbn{}|NAGAR∼a.BU∼a|}{{}\bgroup\seqdbs{}𒤰.𒛧\egroup{}}{{}\bgroup\seqdbs{}₁𒤰.₁𒛧\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉋\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F224B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤰‍𒛧\egroup{}}{{}\bgroup\seqdbl{}u12930̲u200D̲u1270B.liga\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NAGAR∼b.BU∼a|∼1}{{}\bgroup\seqdbs{}𒤱.𒛧\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈧\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2227\egroup{}}%
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|NAGAR∼a.BU∼a|}{\seqdbn{}|NAGAR∼b.BU∼a|}{{}\bgroup\seqdbs{}𒤱.𒛧\egroup{}}{{}\bgroup\seqdbs{}₁𒤱.₁𒛧\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉌\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F224C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤱‍𒛧\egroup{}}{{}\bgroup\seqdbl{}u12931̲u200D̲u1270B.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NE∼a.RU|∼1}{{}\bgroup\seqdbs{}𒤽.𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈨\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2228\egroup{}}%
+\seqdbrow{\seqdbn{}|NE∼a.GI|}{\seqdbn{}|NE∼a∘GI|}{{}\bgroup\seqdbs{}󲅉∘𒟽\egroup{}}{{}\bgroup\seqdbs{}₄𒤽∘₁𒟽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃤\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20E4\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒤽‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u1293D̲u200D̲u12AA5.liga\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NE∼c.GI|∼1}{{}\bgroup\seqdbs{}𒤿∘𒟽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃣\egroup{}}%
+}{{}\bgroup\seqdblc{}𒤽‍𒟽\egroup{}}{{}\bgroup\seqdbl{}u1293D̲u200D̲u12878.liga\egroup{}}
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|NE∼a.GI|}{\seqdbn{}|NE∼c∘GI|}{{}\bgroup\seqdbs{}𒤿∘𒟽\egroup{}}{{}\bgroup\seqdbs{}₁𒤿∘₁𒟽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃣\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F20E3\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒤿‍𒟽\egroup{}}{{}\bgroup\seqdbl{}u1293F̲u200D̲u12878.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|NE∼c.GI|∼2}{{}\bgroup\seqdbs{}󲅉∘𒟽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃤\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20E4\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒤿‍𒟽\egroup{}}{{}\bgroup\seqdbl{}u1293F̲u200D̲u12878.liga.cv99\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NI∼a.RU|∼1}{{}\bgroup\seqdbs{}𒥃.󲅞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈩\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2229\egroup{}}%
+\seqdbrow{\seqdbn{}|NE∼a.RU|}{\seqdbn{}|NE∼a.RU|}{{}\bgroup\seqdbs{}𒤽.𒦒\egroup{}}{{}\bgroup\seqdbs{}₁𒤽.₁𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉍\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F224D\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒤽‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u1293D̲u200D̲u12AA5.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|NI∼a.RU|}{\seqdbn{}|NI∼a.RU|}{{}\bgroup\seqdbs{}𒥃.󲅞\egroup{}}{{}\bgroup\seqdbs{}₁𒥃.₂𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉎\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F224E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒥃‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u12943̲u200D̲u12AA5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NUN∼a.ME∼a|∼1}{{}\bgroup\seqdbs{}𒥯.𒤅\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂂\egroup{}}%
+\seqdbrow{\seqdbn{}|NUN∼a.ME∼a|}{\seqdbn{}|NUN∼a.ME∼a|}{{}\bgroup\seqdbs{}𒥯.𒤅\egroup{}}{{}\bgroup\seqdbs{}₁𒥯.₁𒤅\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂂\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2082\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒥯‍𒤅\egroup{}}{{}\bgroup\seqdbl{}u1296F̲u200D̲u129E2.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|NUN∼a.ME∼a|∼2}{{}\bgroup\seqdbs{}𒥯+𒤅\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂃\egroup{}}%
+\seqdbrow{\seqdbn{}|NUN∼a.ME∼a|}{\seqdbn{}|NUN∼a+ME∼a|}{{}\bgroup\seqdbs{}𒥯+𒤅\egroup{}}{{}\bgroup\seqdbs{}₁𒥯+₁𒤅\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂃\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2083\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒥯‍𒤅\egroup{}}{{}\bgroup\seqdbl{}u1296F̲u200D̲u129E2.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒥯‍𒤅\egroup{}}{{}\bgroup\seqdbl{}u1296F̲u200D̲u129E2.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NUN∼a.ME∼a.DU|∼1}{{}\bgroup\seqdbs{}𒜞.𒤅.𒥯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂄\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2084\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒥯‍𒤅‍𒜞\egroup{}}{{}\bgroup\seqdbl{}u1296F̲u200D̲u12905̲u200D̲u1274D.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|NUN∼a.ME∼a.DU|∼2}{{}\bgroup\seqdbs{}𒥯.𒤅.𒜞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂅\egroup{}}%
+\seqdbrow{\seqdbn{}|NUN∼a.ME∼a.DU|}{\seqdbn{}|NUN∼a.ME∼a.DU|}{{}\bgroup\seqdbs{}𒥯.𒤅.𒜞\egroup{}}{{}\bgroup\seqdbs{}₁𒥯.₁𒤅.₁𒜞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲂅\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2085\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒥯‍𒤅‍𒜞\egroup{}}{{}\bgroup\seqdbl{}u1296F̲u200D̲u12905̲u200D̲u1274D.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒥯‍𒤅‍𒜞\egroup{}}{{}\bgroup\seqdbl{}u1296F̲u200D̲u12905̲u200D̲u1274D.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|NUN∼b.U₄.U₄.1(N14).1(N08)|}{{}\bgroup\seqdbs{}𒥵.𒩽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|NUN∼b.U₄.U₄.1(N14).1(N08)|}{\seqdbn{}|NUN∼b.U₄|}{{}\bgroup\seqdbs{}𒥵.𒩽\egroup{}}{{}\bgroup\seqdbs{}₁𒥵.₁𒩽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒥵‍𒩽‍𒩽‍𒕢‍𒕙\egroup{}}{{}\bgroup\seqdbl{}u12975̲u200D̲u12A7D̲u200D̲u12A7D̲u200D̲u12562̲u200D̲u12559.liga\egroup{}}
+}{{}\bgroup\seqdblc{}𒥵‍𒩽\egroup{}}{{}\bgroup\seqdbl{}u12975̲u200D̲u12BE1.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|PA∼a.IB∼a|∼1}{{}\bgroup\seqdbs{}󲅗.𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆁\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2181\egroup{}}%
+\seqdbrow{\seqdbn{}|PA∼a.IB∼a|}{\seqdbn{}|PA∼a∘IB∼a|}{{}\bgroup\seqdbs{}󲅗∘󲃺\egroup{}}{{}\bgroup\seqdbs{}₂𒥾∘₂𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆂\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2182\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒥾‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u128F4.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|PA∼a.IB∼a|∼2}{{}\bgroup\seqdbs{}󲅗∘󲃺\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆂\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2182\egroup{}}%
+\seqdbrow{\seqdbn{}|PA∼a.IB∼a|}{\seqdbn{}|PA∼a.IB∼a|}{{}\bgroup\seqdbs{}󲅗.𒡘\egroup{}}{{}\bgroup\seqdbs{}₂𒥾.₁𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆁\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2181\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒥾‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u128F4.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒥾‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u128F4.liga.cv01\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|PA∼a.IB∼a|∼3}{{}\bgroup\seqdbs{}󲅘∘𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆃\egroup{}}%
+\seqdbrow{\seqdbn{}|PA∼a.IB∼a|}{\seqdbn{}|PA∼a∘IB∼a|∼1}{{}\bgroup\seqdbs{}󲅘∘𒡘\egroup{}}{{}\bgroup\seqdbs{}₃𒥾∘₁𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆃\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2183\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv98{}𒥾‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u128F4.liga.cv98\egroup{}}
+}{{}\bgroup\seqdblc{}\cv02{}𒥾‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u128F4.liga.cv02\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|PA∼a.TE.SI|∼1}{{}\bgroup\seqdbs{}󲅘.𒩠.𒦩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈪\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F222A\egroup{}}%
+\seqdbrow{\seqdbn{}|PA∼a.TE.SI|}{\seqdbn{}|PA∼a.TE.SI|}{{}\bgroup\seqdbs{}󲅘.𒩠.𒦩\egroup{}}{{}\bgroup\seqdbs{}₃𒥾.₁𒩠.₁𒦩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉏\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F224F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒥾‍𒩠‍𒦩\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u12A60̲u200D̲u12AC7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|PA∼a.UDU∼a|∼1}{{}\bgroup\seqdbs{}𒥾.𒪢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅱\egroup{}}%
+\seqdbrow{\seqdbn{}|PA∼a.UDU∼a|}{\seqdbn{}|PA∼a.UDU∼a|}{{}\bgroup\seqdbs{}𒥾.𒪢\egroup{}}{{}\bgroup\seqdbs{}₁𒥾.₁𒪢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅱\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2171\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒥾‍𒪢\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u12C25.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|PA∼a.UDU∼a|∼2}{{}\bgroup\seqdbs{}󲅘.𒪢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅲\egroup{}}%
+\seqdbrow{\seqdbn{}|PA∼a.UDU∼a|}{\seqdbn{}|PA∼a.UDU∼a|∼1}{{}\bgroup\seqdbs{}󲅘.𒪢\egroup{}}{{}\bgroup\seqdbs{}₃𒥾.₁𒪢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅲\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2172\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒥾‍𒪢\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u12C25.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒥾‍𒪢\egroup{}}{{}\bgroup\seqdbl{}u1297E̲u200D̲u12C25.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|PAP∼a.IB∼a|∼1}{{}\bgroup\seqdbs{}𒦂.𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆄\egroup{}}%
+\seqdbrow{\seqdbn{}|PAP∼a.IB∼a|}{\seqdbn{}|PAP∼a.IB∼a|}{{}\bgroup\seqdbs{}𒦂.𒡘\egroup{}}{{}\bgroup\seqdbs{}₁𒦂.₁𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆄\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2184\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦂‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u12982̲u200D̲u128F4.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|PAP∼a.IB∼a|∼2}{{}\bgroup\seqdbs{}󲃻∘𒦂\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆅\egroup{}}%
+\seqdbrow{\seqdbn{}|PAP∼a.IB∼a|}{\seqdbn{}|IB∼a∘PAP∼a|}{{}\bgroup\seqdbs{}󲃻∘𒦂\egroup{}}{{}\bgroup\seqdbs{}₃𒡘∘₁𒦂\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆅\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2185\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒦂‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u12982̲u200D̲u128F4.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒡘‍𒦂\egroup{}}{{}\bgroup\seqdbl{}u12858̲u200D̲u12A91.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.KUR∼a|∼1}{{}\bgroup\seqdbs{}𒦞.𒢭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈴\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2234\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.KUR∼a|}{\seqdbn{}|SAL.KUR∼a|}{{}\bgroup\seqdbs{}𒦞.𒢭\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒢭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉐\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2250\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒢭\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u1296C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.LAGAR∼a|∼1}{{}\bgroup\seqdbs{}𒦞.𒣓\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈲\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2232\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.LAGAR∼a|}{\seqdbn{}|SAL.LAGAR∼a|}{{}\bgroup\seqdbs{}𒦞.𒣓\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒣓\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉑\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2251\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒣓\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u129A0.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.LAM∼b|∼1}{{}\bgroup\seqdbs{}𒦞.󲄤\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈳\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2233\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.LAM∼b|}{\seqdbn{}|SAL.LAM∼b|}{{}\bgroup\seqdbs{}𒦞.󲄤\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₂𒣞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉒\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2252\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒣞\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u129B1.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.ME∼a|}{{}\bgroup\seqdbs{}𒦞.𒤅\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.ME∼a|}{\seqdbn{}|SAL.ME∼a|}{{}\bgroup\seqdbs{}𒦞.𒤅\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒤅\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒤅\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u129E2.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.NAM₂|∼1}{{}\bgroup\seqdbs{}𒦞.󲅀\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈫\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F222B\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.NAM₂|}{\seqdbn{}|SAL.NAM₂|}{{}\bgroup\seqdbs{}𒦞.󲅀\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₂𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉓\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2253\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12A23.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.NAM₂.ŠE∼a@t.EZEN∼b.NUN∼a.SIG₇|∼1}{{}\bgroup\seqdbs{}𒦞.󲅀.𒞢∘𒥯.󲅮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈬\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F222C\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.NAM₂.EZEN∼b×ŠE∼a.NUN∼a.SIG₇|}{\seqdbn{}|SAL.NAM₂.EZEN∼b×ŠE∼a@t∘NUN∼a.SIG₇|}{{}\bgroup\seqdbs{}𒦞.󲅀.𒞢∘𒥯.󲅮\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₂𒤶.₁𒞢∘₁𒥯.₂𒧆\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉔\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2254\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒦞‍𒤶‍𒨢‍𒞡‍𒥯‍𒧆\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12936̲u200D̲u12A22̲u200D̲u127A1̲u200D̲u1296F̲u200D̲u12AE3.liga\egroup{}}
+}{{}\bgroup\seqdblc{}𒦞‍𒤶‍𒞢‍𒥯‍𒧆\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12936̲u200D̲u127A2̲u200D̲u1296F̲u200D̲u12AE3.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.SI|∼1}{{}\bgroup\seqdbs{}𒦞.𒦩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈭\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F222D\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.SI|}{\seqdbn{}|SAL.SI|}{{}\bgroup\seqdbs{}𒦞.𒦩\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒦩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉕\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2255\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒦩\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12AC7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.SILA₄∼c|∼1}{{}\bgroup\seqdbs{}𒦞.𒧰\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈮\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F222E\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.SILA₄∼c|}{\seqdbn{}|SAL.SILA₄∼c|}{{}\bgroup\seqdbs{}𒦞.𒧰\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒧰\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉖\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2256\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒧰\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12B15.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.ŠU₂|∼1}{{}\bgroup\seqdbs{}𒦞.󲆥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈯\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F222F\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.ŠU₂|}{\seqdbn{}|SAL.ŠU₂|}{{}\bgroup\seqdbs{}𒦞.󲆥\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₅𒩉\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉗\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2257\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒩉\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12B98.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.ZATU751∼a|∼1}{{}\bgroup\seqdbs{}𒦞.𒮠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈰\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2230\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.ZATU751∼a|}{\seqdbn{}|SAL.ZATU751∼a|}{{}\bgroup\seqdbs{}𒦞.𒮠\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒮠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉘\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2258\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒮠\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12D75.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.ZATU751∼b|∼1}{{}\bgroup\seqdbs{}𒦞.𒮡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈱\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2231\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.ZATU751∼b|}{\seqdbn{}|SAL.ZATU751∼b|}{{}\bgroup\seqdbs{}𒦞.𒮡\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒮡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉙\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2259\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒮡\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲u12D76.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SAL.ZATU751∼c|∼1}{{}\bgroup\seqdbs{}𒦞.𒮢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈵\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2235\egroup{}}%
+\seqdbrow{\seqdbn{}|SAL.ZATU751∼c|}{\seqdbn{}|SAL.ZATU751∼c|}{{}\bgroup\seqdbs{}𒦞.𒮢\egroup{}}{{}\bgroup\seqdbs{}₁𒦞.₁𒮢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉚\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F225A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒦞‍𒮢\egroup{}}{{}\bgroup\seqdbl{}u1299E̲u200D̲uF300F.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|SU∼a.KUR∼a.RU|∼1}{{}\bgroup\seqdbs{}𒧴.𒢭.𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈶\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2236\egroup{}}%
+\seqdbrow{\seqdbn{}|SU∼a.KUR∼a.RU|}{\seqdbn{}|SU∼a.KUR∼a.RU|}{{}\bgroup\seqdbs{}𒧴.𒢭.𒦒\egroup{}}{{}\bgroup\seqdbs{}₁𒧴.₁𒢭.₁𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉛\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F225B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒧴‍𒢭‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u129F4̲u200D̲u128AD̲u200D̲u12AA5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠE∼a.NAM₂|∼1}{{}\bgroup\seqdbs{}𒨟.󲅀\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆋\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠE∼a.KIN₂∼c|}{\seqdbn{}|ŠE∼a.KIN₂∼c|}{{}\bgroup\seqdbs{}𒨟.𒢖\egroup{}}{{}\bgroup\seqdbs{}₁𒨟.₁𒢖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆉\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2189\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒨟‍𒢖\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12948.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|ŠE∼a.NAM₂|}{\seqdbn{}|ŠE∼a.NAM₂|}{{}\bgroup\seqdbs{}𒨟.󲅀\egroup{}}{{}\bgroup\seqdbs{}₁𒨟.₂𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆋\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F218B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒨟‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12A23.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|ŠE∼a.NAM₂|∼2}{{}\bgroup\seqdbs{}𒨟.𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆌\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠE∼a.NAM₂|}{\seqdbn{}|ŠE∼a.NAM₂|∼1}{{}\bgroup\seqdbs{}𒨟.𒤶\egroup{}}{{}\bgroup\seqdbs{}₁𒨟.₁𒤶\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆌\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F218C\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒨟‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12A23.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒨟‍𒤶\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12A23.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠE∼a.ŠA|∼1}{{}\bgroup\seqdbs{}𒨟∘𒨌\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄦\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠE∼a.ŠA|}{\seqdbn{}|ŠE∼a∘ŠA|}{{}\bgroup\seqdbs{}𒨟∘𒨌\egroup{}}{{}\bgroup\seqdbs{}₁𒨟∘₁𒨌\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄦\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2126\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒨌‍𒨟\egroup{}}{{}\bgroup\seqdbl{}u12A0C̲u200D̲u12B52.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|ŠE∼a.ŠA|∼2}{{}\bgroup\seqdbs{}󲅾∘𒨟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄧\egroup{}}%
+}{{}\bgroup\seqdblc{}𒨟‍𒨌\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12B37.liga\egroup{}}
+\seqdbtbodyrule
+\seqdbrow{\seqdbn{}|ŠE∼a.ŠA.|}{\seqdbn{}|ŠA∘ŠE∼a|}{{}\bgroup\seqdbs{}󲅾∘𒨟\egroup{}}{{}\bgroup\seqdbs{}₄𒨌∘₁𒨟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲄧\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2127\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒨌‍𒨟\egroup{}}{{}\bgroup\seqdbl{}u12A0C̲u200D̲u12B52.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒨌‍𒨟\egroup{}}{{}\bgroup\seqdbl{}u12A0C̲u200D̲u12B52.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠE∼a@t.KIN₂∼c|∼1}{{}\bgroup\seqdbs{}𒨟.𒢖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆉\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2189\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒨟‍𒢖\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12948.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|ŠE∼a@t.KIN₂∼c|∼2}{{}\bgroup\seqdbs{}𒨢.𒢖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆊\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠE∼a@t.KIN₂∼c|}{\seqdbn{}|ŠE∼a@t.KIN₂∼c|}{{}\bgroup\seqdbs{}𒨢.𒢖\egroup{}}{{}\bgroup\seqdbs{}₁𒨢.₁𒢖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆊\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F218A\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒨟‍𒢖\egroup{}}{{}\bgroup\seqdbl{}u12A1F̲u200D̲u12948.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒨢‍𒢖\egroup{}}{{}\bgroup\seqdbl{}u12A22̲u200D̲u12948.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠEŠ∼a.NA∼a|∼1}{{}\bgroup\seqdbs{}𒨱.𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈷\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2237\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠEŠ∼a.NA∼a|}{\seqdbn{}|ŠEŠ∼a.NA∼a|}{{}\bgroup\seqdbs{}𒨱.𒤥\egroup{}}{{}\bgroup\seqdbs{}₁𒨱.₁𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉜\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F225C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒨱‍𒤥\egroup{}}{{}\bgroup\seqdbl{}u12A31̲u200D̲u12A0B.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠITA∼a1.MUD₃∼a|∼1}{{}\bgroup\seqdbs{}𒨸.𒤏\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈸\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2238\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠITA∼a1.MUD₃∼a|}{\seqdbn{}|ŠITA∼a1.MUD₃∼a|}{{}\bgroup\seqdbs{}𒨸.𒤏\egroup{}}{{}\bgroup\seqdbs{}₁𒨸.₁𒤏\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉝\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F225D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒨸‍𒤏\egroup{}}{{}\bgroup\seqdbl{}u12A38̲u200D̲u129EF.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.E₂∼a|∼1}{{}\bgroup\seqdbs{}󲆥.𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈼\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F223C\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.E₂∼a|}{\seqdbn{}|ŠU₂.E₂∼a|}{{}\bgroup\seqdbs{}󲆥.𒝿\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉞\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F225E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒝿\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127CA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.E₂∼b|∼1}{{}\bgroup\seqdbs{}󲆥.𒞁\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈽\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F223D\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.E₂∼b|}{\seqdbn{}|ŠU₂.E₂∼b|}{{}\bgroup\seqdbs{}󲆥.𒞁\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒞁\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉟\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F225F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒞁\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127CE.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.EN∼a|∼1}{{}\bgroup\seqdbs{}󲆢.𒞇\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆟\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F219F\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.EN∼a|}{\seqdbn{}|ŠU₂.EN∼a|}{{}\bgroup\seqdbs{}󲆣.󲃇\egroup{}}{{}\bgroup\seqdbs{}₃𒩉.₄𒞇\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆡\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F21A1\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒞇\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127D9.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|ŠU₂.EN∼a|∼2}{{}\bgroup\seqdbs{}󲆢.󲃆\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆠\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.EN∼a|}{\seqdbn{}|ŠU₂.EN∼a|∼1}{{}\bgroup\seqdbs{}󲆢.𒞇\egroup{}}{{}\bgroup\seqdbs{}₂𒩉.₁𒞇\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆟\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F219F\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}\cv01{}𒩉‍𒞇\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127D9.liga.cv01\egroup{}}
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|ŠU₂.EN∼a|}{\seqdbn{}|ŠU₂.EN∼a|∼2}{{}\bgroup\seqdbs{}󲆢.󲃆\egroup{}}{{}\bgroup\seqdbs{}₂𒩉.₃𒞇\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆠\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F21A0\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒩉‍𒞇\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127D9.liga.cv99\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|ŠU₂.EN∼a|∼3}{{}\bgroup\seqdbs{}󲆣.󲃇\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆡\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F21A1\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}\cv98{}𒩉‍𒞇\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127D9.liga.cv98\egroup{}}
+}{{}\bgroup\seqdblc{}\cv02{}𒩉‍𒞇\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127D9.liga.cv02\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.EN∼b|∼1}{{}\bgroup\seqdbs{}󲆥.𒞈\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈾\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F223E\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.EN∼b|}{\seqdbn{}|ŠU₂.EN∼b|}{{}\bgroup\seqdbs{}󲆥.𒞈\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒞈\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉠\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2260\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒞈\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u127DA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.GIŠ|∼1}{{}\bgroup\seqdbs{}󲆥.𒠟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈿\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F223F\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.GIŠ|}{\seqdbn{}|ŠU₂.GIŠ|}{{}\bgroup\seqdbs{}󲆥.𒠟\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒠟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉡\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2261\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒠟\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u128A7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.(HI×1(N57).HI×1(N57))|∼1}{{}\bgroup\seqdbs{}󲆥.󲃹\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉀\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2240\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.(HI×1(N57).HI×1(N57))|}{\seqdbn{}|ŠU₂.(HI×1(N57)).(HI×1(N57))|}{{}\bgroup\seqdbs{}󲆥.󲃹\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒡒∘₁𒡒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉢\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2262\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒩉‍𒡒𒡒\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u12852̲u128EC.liga\egroup{}}
+}{{}\bgroup\seqdblc{}𒩉‍𒡒‍𒡒\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u12852̲u200D̲u128EC.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.PAP∼a|∼2}{{}\bgroup\seqdbs{}𒩉.𒦂\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈝\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.PAP∼a|}{\seqdbn{}|ŠU₂.PAP∼a|}{{}\bgroup\seqdbs{}𒩉.𒦂\egroup{}}{{}\bgroup\seqdbs{}₁𒩉.₁𒦂\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈝\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F221D\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒩉‍𒦂\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u12A91.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒩉‍𒦂\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u12A91.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.PAP∼a.AN|∼2}{{}\bgroup\seqdbs{}𒩉.𒚷\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆞\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.PAP∼a.AN|}{\seqdbn{}|ŠU₂.AN|}{{}\bgroup\seqdbs{}𒩉.𒚷\egroup{}}{{}\bgroup\seqdbs{}₁𒩉.₁𒚷\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆞\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F219E\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒩉‍𒦂‍𒚷\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u12982̲u200D̲u126CC.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒩉‍𒚷\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u126CC.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.URI₃∼a|∼1}{{}\bgroup\seqdbs{}󲆥.𒫒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈹\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2239\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.URI₃∼a|}{\seqdbn{}|ŠU₂.URI₃∼a|}{{}\bgroup\seqdbs{}󲆥.𒫒\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒫒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉣\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2263\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒫒\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u12C5F.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.1(N02)|∼1}{{}\bgroup\seqdbs{}󲆥.𒖾\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈻\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F223B\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.1(N02)|}{\seqdbn{}|ŠU₂.1(N02)|}{{}\bgroup\seqdbs{}󲆥.𒖾\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒖾\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉤\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2264\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒖾\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u125BE.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.1(N24)|∼1}{{}\bgroup\seqdbs{}󲆥.𒖪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈺\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F223A\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.1(N24)|}{\seqdbn{}|ŠU₂.1(N24)|}{{}\bgroup\seqdbs{}󲆥.𒖪\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒖪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉥\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2265\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒖪\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲u125AA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠU₂.2(N57)|∼1}{{}\bgroup\seqdbs{}󲆥.𒯪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉁\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2241\egroup{}}%
+\seqdbrow{\seqdbn{}|ŠU₂.2(N57)|}{\seqdbn{}|ŠU₂.2(N57)|}{{}\bgroup\seqdbs{}󲆥.𒯪\egroup{}}{{}\bgroup\seqdbs{}₅𒩉.₁𒯪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉦\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2266\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩉‍𒯪\egroup{}}{{}\bgroup\seqdbl{}u12A49̲u200D̲uF0111.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ŠUBUR.1(N57)|∼1}{{}\bgroup\seqdbs{}𒩋∘𒯩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈒\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2212\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒩋‍𒯩\egroup{}}{{}\bgroup\seqdbl{}u12A4B̲u200D̲uF0110.liga\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|TE.A|∼1}{{}\bgroup\seqdbs{}𒩠.𒚐\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉂\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2242\egroup{}}%
+\seqdbrow{\seqdbn{}|TE.A|}{\seqdbn{}|TE.A|}{{}\bgroup\seqdbs{}𒩠.𒚐\egroup{}}{{}\bgroup\seqdbs{}₁𒩠.₁𒚐\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉧\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2267\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩠‍𒚐\egroup{}}{{}\bgroup\seqdbl{}u12A60̲u200D̲u12690.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|TUG₂∼a.BAD﹠BAD|∼1}{{}\bgroup\seqdbs{}𒩩.𒛆\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉃\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2243\egroup{}}%
+\seqdbrow{\seqdbn{}|TUG₂∼a.BAD﹠BAD|}{\seqdbn{}|TUG₂∼a.BAD﹠BAD|}{{}\bgroup\seqdbs{}𒩩.𒛆\egroup{}}{{}\bgroup\seqdbs{}₁𒩩.₁𒛆\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉨\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2268\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩩‍𒛆\egroup{}}{{}\bgroup\seqdbl{}u12A69̲u200D̲u126E0.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|TUR₃∼a.5(N57).5(N57)|∼2}{{}\bgroup\seqdbs{}𒩷.𒯭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈞\egroup{}}%
+\seqdbrow{\seqdbn{}|TUR₃∼a.5(N57).5(N57)|}{\seqdbn{}|TUR₃∼a.5(N57)|}{{}\bgroup\seqdbs{}𒩷.𒯭\egroup{}}{{}\bgroup\seqdbs{}₁𒩷.₁𒯭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈞\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F221E\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒩷‍𒯭‍𒯭\egroup{}}{{}\bgroup\seqdbl{}u12A77̲u200D̲u12BED̲u200D̲uF0114.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒩷‍𒯭\egroup{}}{{}\bgroup\seqdbl{}u12A77̲u200D̲uF0114.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.AB∼b|∼1}{{}\bgroup\seqdbs{}𒩽.𒚝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉆\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2246\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.AB∼b|}{\seqdbn{}|U₄.AB∼b|}{{}\bgroup\seqdbs{}𒩽.𒚝\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒚝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉩\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2269\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒚝\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u126A3.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.ŠU₂|∼1}{{}\bgroup\seqdbs{}𒩽.󲆥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉄\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2244\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.ŠU₂|}{\seqdbn{}|U₄.ŠU₂|}{{}\bgroup\seqdbs{}𒩽.󲆥\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₅𒩉\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉪\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F226A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒩉\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12B98.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕙\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉍\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F224D\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N08)|}{\seqdbn{}|U₄.1(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕙\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕙\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉫\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F226B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕙\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12559.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.2(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕚\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉇\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2247\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.2(N08)|}{\seqdbn{}|U₄.2(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕚\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕚\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉬\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F226C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕚\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u1255A.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.3(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕛\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉈\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2248\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.3(N08)|}{\seqdbn{}|U₄.3(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕛\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕛\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉭\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F226D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕛\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u1255B.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.4(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕜\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉉\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2249\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.4(N08)|}{\seqdbn{}|U₄.4(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕜\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕜\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉮\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F226E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕜\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u1255C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.5(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉊\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F224A\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.5(N08)|}{\seqdbn{}|U₄.5(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕝\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉯\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F226F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕝\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u1255D.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.6(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉋\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F224B\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.6(N08)|}{\seqdbn{}|U₄.6(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕞\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉰\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2270\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕞\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u1255E.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.7(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉌\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F224C\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.7(N08)|}{\seqdbn{}|U₄.7(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕟\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕟\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉱\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2271\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕟\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u1255F.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.8(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉎\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F224E\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.8(N08)|}{\seqdbn{}|U₄.8(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕠\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉲\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2272\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕠\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12560.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N14)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉏\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F224F\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N14)|}{\seqdbn{}|U₄.1(N14)|}{{}\bgroup\seqdbs{}𒩽.𒕢\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉳\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2273\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕢\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12562.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N14).1(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕙\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N14).1(N08)|}{\seqdbn{}|U₄.1(N14).1(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕙\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕢.₁𒕙\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕢‍𒕙\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12562̲u200D̲u12559.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N14).3(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕛\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉐\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2250\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N14).3(N08)|}{\seqdbn{}|U₄.1(N14).3(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕛\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕢.₁𒕛\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉴\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2274\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕢‍𒕛\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12562̲u200D̲u1255B.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N14).4(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕜\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉑\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2251\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N14).4(N08)|}{\seqdbn{}|U₄.1(N14).4(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕜\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕢.₁𒕜\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉵\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2275\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕢‍𒕜\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12562̲u200D̲u1255C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N14).5(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉒\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2252\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N14).5(N08)|}{\seqdbn{}|U₄.1(N14).5(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕝\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕢.₁𒕝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉶\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2276\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕢‍𒕝\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12562̲u200D̲u1255D.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N14).8(N08)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉓\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2253\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N14).8(N08)|}{\seqdbn{}|U₄.1(N14).8(N08)|}{{}\bgroup\seqdbs{}𒩽.𒕢.𒕠\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕢.₁𒕠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉷\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2277\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕢‍𒕠\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12562̲u200D̲u12560.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.2(N14)|∼1}{{}\bgroup\seqdbs{}𒩽.𒕣\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉔\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2254\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.2(N14)|}{\seqdbn{}|U₄.2(N14)|}{{}\bgroup\seqdbs{}𒩽.𒕣\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒕣\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉸\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2278\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒕣\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u12563.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄.1(N24)|∼1}{{}\bgroup\seqdbs{}𒩽.𒖪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉅\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2245\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄.1(N24)|}{\seqdbn{}|U₄.1(N24)|}{{}\bgroup\seqdbs{}𒩽.𒖪\egroup{}}{{}\bgroup\seqdbs{}₁𒩽.₁𒖪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉹\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2279\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩽‍𒖪\egroup{}}{{}\bgroup\seqdbl{}u12A7D̲u200D̲u125AA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×1(N01).5(N08)|∼1}{{}\bgroup\seqdbs{}𒩾.𒕝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉕\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2255\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×1(N01).5(N08)|}{\seqdbn{}|U₄×1(N01).5(N08)|}{{}\bgroup\seqdbs{}𒩾.𒕝\egroup{}}{{}\bgroup\seqdbs{}₁𒩾.₁𒕝\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉺\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F227A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒩾‍𒕝\egroup{}}{{}\bgroup\seqdbl{}u12A7E̲u200D̲u1255D.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×2(N01).2(N14)|∼1}{{}\bgroup\seqdbs{}󲒅.𒕣\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉖\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2256\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×2(N01).2(N14)|}{\seqdbn{}|U₄×2(N01).2(N14)|}{{}\bgroup\seqdbs{}󲒅.𒕣\egroup{}}{{}\bgroup\seqdbs{}₁󲒅.₁𒕣\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉻\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F227B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}󲒅‍𒕣\egroup{}}{{}\bgroup\seqdbl{}uF2485̲u200D̲u12563.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×2(N01).2(N14).1(N08)|∼1}{{}\bgroup\seqdbs{}󲒅.𒕣.𒕙\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉗\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2257\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×2(N01).2(N14).1(N08)|}{\seqdbn{}|U₄×2(N01).2(N14).1(N08)|}{{}\bgroup\seqdbs{}󲒅.𒕣.𒕙\egroup{}}{{}\bgroup\seqdbs{}₁󲒅.₁𒕣.₁𒕙\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉼\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F227C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}󲒅‍𒕣‍𒕙\egroup{}}{{}\bgroup\seqdbl{}uF2485̲u200D̲u12563̲u200D̲u12559.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×3(N01).3(N08)|∼1}{{}\bgroup\seqdbs{}𒪀.𒕛\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉘\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2258\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×3(N01).3(N08)|}{\seqdbn{}|U₄×3(N01).3(N08)|}{{}\bgroup\seqdbs{}𒪀.𒕛\egroup{}}{{}\bgroup\seqdbs{}₁𒪀.₁𒕛\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉽\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F227D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒪀‍𒕛\egroup{}}{{}\bgroup\seqdbl{}u12A80̲u200D̲u1255B.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×4(N01).2(N14)|∼1}{{}\bgroup\seqdbs{}𒪁.𒕣\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉙\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2259\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×4(N01).2(N14)|}{\seqdbn{}|U₄×4(N01).2(N14)|}{{}\bgroup\seqdbs{}𒪁.𒕣\egroup{}}{{}\bgroup\seqdbs{}₁𒪁.₁𒕣\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉾\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F227E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒪁‍𒕣\egroup{}}{{}\bgroup\seqdbl{}u12A81̲u200D̲u12563.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×5(N01).1(N14)|∼1}{{}\bgroup\seqdbs{}𒪂.𒕢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉚\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F225A\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×5(N01).1(N14)|}{\seqdbn{}|U₄×5(N01).1(N14)|}{{}\bgroup\seqdbs{}𒪂.𒕢\egroup{}}{{}\bgroup\seqdbs{}₁𒪂.₁𒕢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉿\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F227F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒪂‍𒕢\egroup{}}{{}\bgroup\seqdbl{}u12A82̲u200D̲u12562.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|U₄×(1(N14).3(N01)).1(N14).4(N08).1(N14).4(N08)|∼2}{{}\bgroup\seqdbs{}󲕍.𒕢.𒕜\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈟\egroup{}}%
+\seqdbrow{\seqdbn{}|U₄×(1(N14).3(N01)).1(N14).4(N08).1(N14).4(N08)|}{\seqdbn{}|U₄×(1(N14).3(N01)).1(N14).4(N08)|}{{}\bgroup\seqdbs{}󲕍.𒕢.𒕜\egroup{}}{{}\bgroup\seqdbs{}₁󲕍.₁𒕢.₁𒕜\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈟\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F221F\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}󲕍‍𒕢‍𒕜‍𒕢‍𒕜\egroup{}}{{}\bgroup\seqdbl{}uF254D̲u200D̲u12562̲u200D̲u1255C̲u200D̲u12562̲u200D̲u1255C.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}󲕍‍𒕢‍𒕜\egroup{}}{{}\bgroup\seqdbl{}uF254D̲u200D̲u12562̲u200D̲u1255C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|URI₃∼a.AB∼a|∼1}{{}\bgroup\seqdbs{}𒫒.𒚖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉝\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F225D\egroup{}}%
+\seqdbrow{\seqdbn{}|URI₃∼a.AB∼a|}{\seqdbn{}|URI₃∼a.AB∼a|}{{}\bgroup\seqdbs{}𒫒.𒚖\egroup{}}{{}\bgroup\seqdbs{}₁𒫒.₁𒚖\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊀\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2280\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒫒‍𒚖\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12698.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|URI₃∼a.IB∼a|∼1}{{}\bgroup\seqdbs{}𒫒.𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉜\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F225C\egroup{}}%
+\seqdbrow{\seqdbn{}|URI₃∼a.IB∼a|}{\seqdbn{}|URI₃∼a.IB∼a|}{{}\bgroup\seqdbs{}𒫒.𒡘\egroup{}}{{}\bgroup\seqdbs{}₁𒫒.₁𒡘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊁\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2281\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒫒‍𒡘\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u128F4.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|URI₃∼a.NA∼a|∼1}{{}\bgroup\seqdbs{}󲇃.𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅃\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2143\egroup{}}%
+\seqdbrow{\seqdbn{}|URI₃∼a.NA∼a|}{\seqdbn{}|URI₃∼a∘NA∼a|}{{}\bgroup\seqdbs{}󲇃∘𒤥\egroup{}}{{}\bgroup\seqdbs{}₂𒫒∘₁𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅄\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2144\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒫒‍𒤥\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12A0B.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|URI₃∼a.NA∼a|∼2}{{}\bgroup\seqdbs{}󲇃∘𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅄\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2144\egroup{}}%
+\seqdbrow{\seqdbn{}|URI₃∼a.NA∼a|}{\seqdbn{}|URI₃∼a.NA∼a|}{{}\bgroup\seqdbs{}󲇃.𒤥\egroup{}}{{}\bgroup\seqdbs{}₂𒫒.₁𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅃\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2143\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒫒‍𒤥\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12A0B.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒫒‍𒤥\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12A0B.liga.cv01\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|URI₃∼a.NA∼a|∼3}{{}\bgroup\seqdbs{}𒫒.𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅅\egroup{}}%
+\seqdbrow{\seqdbn{}|URI₃∼a.NA∼a|}{\seqdbn{}|URI₃∼a.NA∼a|∼1}{{}\bgroup\seqdbs{}𒫒.𒤥\egroup{}}{{}\bgroup\seqdbs{}₁𒫒.₁𒤥\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲅅\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2145\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv98{}𒫒‍𒤥\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12A0B.liga.cv98\egroup{}}
+}{{}\bgroup\seqdblc{}\cv02{}𒫒‍𒤥\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12A0B.liga.cv02\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|URI₃∼a.UNUG∼a|∼1}{{}\bgroup\seqdbs{}𒫒.𒪻\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉛\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F225B\egroup{}}%
+\seqdbrow{\seqdbn{}|URI₃∼a.UNUG∼a|}{\seqdbn{}|URI₃∼a.UNUG∼a|}{{}\bgroup\seqdbs{}𒫒.𒪻\egroup{}}{{}\bgroup\seqdbs{}₁𒫒.₁𒪻\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊂\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2282\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒫒‍𒪻\egroup{}}{{}\bgroup\seqdbl{}u12AD2̲u200D̲u12C44.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|UŠ∼b.KUR∼a|∼1}{{}\bgroup\seqdbs{}󲇇.𒢭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃾\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20FE\egroup{}}%
+\seqdbrow{\seqdbn{}|UŠ∼a.KUR∼a|}{\seqdbn{}|UŠ∼a.KUR∼a|}{{}\bgroup\seqdbs{}󲇆.𒢭\egroup{}}{{}\bgroup\seqdbs{}₂𒫧.₁𒢭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃿\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20FF\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒫧‍𒢭\egroup{}}{{}\bgroup\seqdbl{}u12AE7̲u200D̲u1296C.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|UŠ∼b.KUR∼a|∼2}{{}\bgroup\seqdbs{}󲇆.𒢭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃿\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20FF\egroup{}}%
+\seqdbrow{\seqdbn{}|UŠ∼a.KUR∼a|}{\seqdbn{}|UŠ∼b.KUR∼a|}{{}\bgroup\seqdbs{}󲇇.𒢭\egroup{}}{{}\bgroup\seqdbs{}₂𒫩.₁𒢭\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃾\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F20FE\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒫧‍𒢭\egroup{}}{{}\bgroup\seqdbl{}u12AE7̲u200D̲u1296C.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒫩‍𒢭\egroup{}}{{}\bgroup\seqdbl{}u12AE9̲u200D̲u1296C.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ZATU714.RU|∼1}{{}\bgroup\seqdbs{}𒭴.󲅞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲉞\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F225E\egroup{}}%
+\seqdbrow{\seqdbn{}|ZATU714.RU|}{\seqdbn{}|ZATU714.RU|}{{}\bgroup\seqdbs{}𒭴.󲅞\egroup{}}{{}\bgroup\seqdbs{}₁𒭴.₂𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊃\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2283\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒭴‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u12B74̲u200D̲u12AA5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|ZATU753.GA∼a|∼1}{{}\bgroup\seqdbs{}𒮤.󲃒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃐\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20D0\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}𒞩‍𒮤\egroup{}}{{}\bgroup\seqdbl{}u127A9̲u200D̲u12D79.liga\egroup{}}
-\seqdbinnerrule
-\seqdbrow{\seqdbn{}|ZATU753.GA∼a|∼2}{{}\bgroup\seqdbs{}󲃒.𒮤\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲃑\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F20D1\egroup{}}%
-\vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒞩‍𒮤\egroup{}}{{}\bgroup\seqdbl{}u127A9̲u200D̲u12D79.liga.cv99\egroup{}}
-\seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).AB₂|∼1}{{}\bgroup\seqdbs{}𒯩.𒚞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊈\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2288\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).AB₂|}{\seqdbn{}|1(N57).AB₂|}{{}\bgroup\seqdbs{}𒯩.𒚞\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒚞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊄\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2284\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒚞\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u126A7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).AB₂|∼1}{{}\bgroup\seqdbs{}𒯪.𒚞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊏\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F228F\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).AB₂|}{\seqdbn{}|2(N57).AB₂|}{{}\bgroup\seqdbs{}𒯪.𒚞\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒚞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊅\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2285\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒚞\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u126A7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).AMAR|∼1}{{}\bgroup\seqdbs{}𒯫.𒚴\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊙\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2299\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).AMAR|}{\seqdbn{}|3(N57).AMAR|}{{}\bgroup\seqdbs{}𒯫.𒚴\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒚴\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊆\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2286\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒚴\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u126C5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|4(N57).AMAR|∼1}{{}\bgroup\seqdbs{}𒯬.𒚴\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊟\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F229F\egroup{}}%
+\seqdbrow{\seqdbn{}|4(N57).AMAR|}{\seqdbn{}|4(N57).AMAR|}{{}\bgroup\seqdbs{}𒯬.𒚴\egroup{}}{{}\bgroup\seqdbs{}₁𒯬.₁𒚴\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊇\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2287\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯬‍𒚴\egroup{}}{{}\bgroup\seqdbl{}u12BEC̲u200D̲u126C5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).AZ|}{{}\bgroup\seqdbs{}𒯫.𒛂\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).AZ|}{\seqdbn{}|3(N57).AZ|}{{}\bgroup\seqdbs{}𒯫.𒛂\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒛂\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒛂\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u126DC.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).BAR×UŠ∼a|∼1}{{}\bgroup\seqdbs{}𒯫.󲕎\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊞\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F229E\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).BAR×UŠ∼a|}{\seqdbn{}|3(N57).BAR×UŠ∼a|}{{}\bgroup\seqdbs{}𒯫.󲕎\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁󲕎\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊈\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2288\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍󲕎\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲uF3095.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).BARA₃|∼1}{{}\bgroup\seqdbs{}𒯫.𒛠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊜\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F229C\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).BARA₃|}{\seqdbn{}|3(N57).BARA₃|}{{}\bgroup\seqdbs{}𒯫.𒛠\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒛠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊉\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2289\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒛠\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12702.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).BIR₃∼a|∼1}{{}\bgroup\seqdbs{}𒯪.𒛤\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊐\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2290\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).BIR₃∼a|}{\seqdbn{}|2(N57).BIR₃∼a|}{{}\bgroup\seqdbs{}𒯪.𒛤\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒛤\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊊\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F228A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒛤\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12706.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).BU₃|}{{}\bgroup\seqdbs{}𒯩.𒛮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).BU₃|}{\seqdbn{}|1(N57).BU₃|}{{}\bgroup\seqdbs{}𒯩.𒛮\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒛮\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒛮\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12718.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).DU₆∼a@n|}{{}\bgroup\seqdbs{}𒯪.󲕊\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).DU₆∼a@n|}{\seqdbn{}|2(N57).DU₆∼a@n|}{{}\bgroup\seqdbs{}𒯪.󲕊\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁󲕊\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍󲕊\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲uF3089.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).E₂∼a|∼1}{{}\bgroup\seqdbs{}𒯩.𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊉\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2289\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).E₂∼a|}{\seqdbn{}|1(N57).E₂∼a|}{{}\bgroup\seqdbs{}𒯩.𒝿\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒝿\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊋\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F228B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒝿\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u127CA.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).E₂∼b|∼1}{{}\bgroup\seqdbs{}𒯫.𒞁\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊚\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F229A\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).E₂∼b|}{\seqdbn{}|3(N57).E₂∼b|}{{}\bgroup\seqdbs{}𒯫.𒞁\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒞁\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊌\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F228C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒞁\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u127CE.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).EN₂|}{{}\bgroup\seqdbs{}𒯫.𒞍\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).EN₂|}{\seqdbn{}|3(N57).EN₂|}{{}\bgroup\seqdbs{}𒯫.𒞍\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒞍\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒞍\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u127E3.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).GAR|∼1}{{}\bgroup\seqdbs{}𒯫.𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊝\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F229D\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).GAR|}{\seqdbn{}|3(N57).GAR|}{{}\bgroup\seqdbs{}𒯫.𒟯\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊍\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F228D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒟯\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12868.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|4(N57).GAR|∼1}{{}\bgroup\seqdbs{}𒯬.𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊠\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F22A0\egroup{}}%
+\seqdbrow{\seqdbn{}|4(N57).GAR|}{\seqdbn{}|4(N57).GAR|}{{}\bgroup\seqdbs{}𒯬.𒟯\egroup{}}{{}\bgroup\seqdbs{}₁𒯬.₁𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊎\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F228E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯬‍𒟯\egroup{}}{{}\bgroup\seqdbl{}u12BEC̲u200D̲u12868.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|5(N57).GAR|∼1}{{}\bgroup\seqdbs{}𒯭.𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊢\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F22A2\egroup{}}%
+\seqdbrow{\seqdbn{}|5(N57).GAR|}{\seqdbn{}|5(N57).GAR|}{{}\bgroup\seqdbs{}𒯭.𒟯\egroup{}}{{}\bgroup\seqdbs{}₁𒯭.₁𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊏\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F228F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯭‍𒟯\egroup{}}{{}\bgroup\seqdbl{}u12BED̲u200D̲u12868.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|6(N57).GAR|∼1}{{}\bgroup\seqdbs{}󲈖.𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊤\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F22A4\egroup{}}%
+\seqdbrow{\seqdbn{}|6(N57).GAR|}{\seqdbn{}|6(N57).GAR|}{{}\bgroup\seqdbs{}󲈖.𒟯\egroup{}}{{}\bgroup\seqdbs{}₂𒯮.₁𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊐\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2290\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯮‍𒟯\egroup{}}{{}\bgroup\seqdbl{}u12BEE̲u200D̲u12868.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|7(N57).GAR|∼2}{{}\bgroup\seqdbs{}𒯯.𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈡\egroup{}}%
+\seqdbrow{\seqdbn{}|7(N57).GAR|}{\seqdbn{}|7(N57).GAR|}{{}\bgroup\seqdbs{}󲈗.𒟯\egroup{}}{{}\bgroup\seqdbs{}₂𒯯.₁𒟯\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈡\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2221\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒯯‍𒟯\egroup{}}{{}\bgroup\seqdbl{}u12BEF̲u200D̲u12868.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒯯‍𒟯\egroup{}}{{}\bgroup\seqdbl{}u12BEF̲u200D̲u12868.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|4(N57).KU₃∼a|∼1}{{}\bgroup\seqdbs{}𒯬.𒢨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊡\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F22A1\egroup{}}%
+\seqdbrow{\seqdbn{}|4(N57).KU₃∼a|}{\seqdbn{}|4(N57).KU₃∼a|}{{}\bgroup\seqdbs{}𒯬.𒢨\egroup{}}{{}\bgroup\seqdbs{}₁𒯬.₁𒢨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊑\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2291\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯬‍𒢨\egroup{}}{{}\bgroup\seqdbl{}u12BEC̲u200D̲u12963.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|5(N57).KU₃∼a|∼1}{{}\bgroup\seqdbs{}𒯭.𒢨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊣\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F22A3\egroup{}}%
+\seqdbrow{\seqdbn{}|5(N57).KU₃∼a|}{\seqdbn{}|5(N57).KU₃∼a|}{{}\bgroup\seqdbs{}𒯭.𒢨\egroup{}}{{}\bgroup\seqdbs{}₁𒯭.₁𒢨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊒\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2292\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯭‍𒢨\egroup{}}{{}\bgroup\seqdbl{}u12BED̲u200D̲u12963.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|6(N57).KU₃∼a|∼1}{{}\bgroup\seqdbs{}󲈖.𒢨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊥\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F22A5\egroup{}}%
+\seqdbrow{\seqdbn{}|6(N57).KU₃∼a|}{\seqdbn{}|6(N57).KU₃∼a|}{{}\bgroup\seqdbs{}󲈖.𒢨\egroup{}}{{}\bgroup\seqdbs{}₂𒯮.₁𒢨\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊓\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2293\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯮‍𒢨\egroup{}}{{}\bgroup\seqdbl{}u12BEE̲u200D̲u12963.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).KU₆∼a|∼1}{{}\bgroup\seqdbs{}𒯪.𒢪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊑\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2291\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).KU₆∼a|}{\seqdbn{}|2(N57).KU₆∼a|}{{}\bgroup\seqdbs{}𒯪.𒢪\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒢪\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊔\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2294\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒢪\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12965.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).LAM∼a.KUR∼a.RU|∼1}{{}\bgroup\seqdbs{}𒯫.𒣝.𒢭.𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊛\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F229B\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).LAM∼a.KUR∼a.RU|}{\seqdbn{}|3(N57).LAM∼a.KUR∼a.RU|}{{}\bgroup\seqdbs{}𒯫.𒣝.𒢭.𒦒\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒣝.₁𒢭.₁𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊕\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2295\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒣝‍𒢭‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u128DD̲u200D̲u128AD̲u200D̲u12AA5.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).MUŠEN|∼1}{{}\bgroup\seqdbs{}𒯩.𒤡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊄\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2284\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).MUŠEN|}{\seqdbn{}|1(N57).MUŠEN|}{{}\bgroup\seqdbs{}𒯩.𒤡\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒤡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊖\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2296\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒤡\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12A05.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).MUŠEN|∼1}{{}\bgroup\seqdbs{}𒯪.𒤡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊊\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F228A\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).MUŠEN|}{\seqdbn{}|2(N57).MUŠEN|}{{}\bgroup\seqdbs{}𒯪.𒤡\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒤡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊗\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2297\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒤡\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12A05.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).MUŠEN|∼1}{{}\bgroup\seqdbs{}𒯫.𒤡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊒\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2292\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).MUŠEN|}{\seqdbn{}|3(N57).MUŠEN|}{{}\bgroup\seqdbs{}𒯫.𒤡\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒤡\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊘\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2298\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒤡\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12A05.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).NUNUZ∼a1|∼1}{{}\bgroup\seqdbs{}𒯫.𒥺\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊓\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2293\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).NUNUZ∼a1|}{\seqdbn{}|3(N57).NUNUZ∼a1|}{{}\bgroup\seqdbs{}𒯫.𒥺\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒥺\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊙\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2299\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒥺\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12A82.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).NUNUZ∼c|∼1}{{}\bgroup\seqdbs{}𒯫.𒥽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊔\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2294\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).NUNUZ∼c|}{\seqdbn{}|3(N57).NUNUZ∼c|}{{}\bgroup\seqdbs{}𒯫.𒥽\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒥽\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊚\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F229A\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒥽\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12A87.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).PIRIG∼b1|∼1}{{}\bgroup\seqdbs{}𒯫.𒦈\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊕\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2295\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).PIRIG∼b1|}{\seqdbn{}|3(N57).PIRIG∼b1|}{{}\bgroup\seqdbs{}𒯫.𒦈\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒦈\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊛\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F229B\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒦈\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12A98.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).RU|∼1}{{}\bgroup\seqdbs{}𒯫.󲅞\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆨\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F21A8\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).RU|}{\seqdbn{}|3(N57).RU|}{{}\bgroup\seqdbs{}𒯫.𒦒\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆩\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F21A9\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12AA5.liga\egroup{}}
 \seqdbinnerrule
-\seqdbrow{\seqdbn{}|3(N57).RU|∼2}{{}\bgroup\seqdbs{}𒯫.𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆩\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F21A9\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).RU|}{\seqdbn{}|3(N57).RU|∼1}{{}\bgroup\seqdbs{}𒯫.󲅞\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₂𒦒\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲆨\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F21A8\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒯫‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12AA5.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}\cv01{}𒯫‍𒦒\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12AA5.liga.cv01\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).SANGA∼b|}{{}\bgroup\seqdbs{}𒯫.𒦠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).SANGA∼b|}{\seqdbn{}|3(N57).SANGA∼a|}{{}\bgroup\seqdbs{}𒯫.𒦠\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒦠\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}𒯫‍𒦡\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12ABE.liga\egroup{}}
+}{{}\bgroup\seqdblc{}𒯫‍𒦠\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12ABC.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).SI|}{{}\bgroup\seqdbs{}𒯫.𒦩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).SI|}{\seqdbn{}|3(N57).SI|}{{}\bgroup\seqdbs{}𒯫.𒦩\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒦩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbh{}0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒦩\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12AC7.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).SIG|∼1}{{}\bgroup\seqdbs{}𒯩.𒦷\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊅\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2285\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).SIG|}{\seqdbn{}|1(N57).SIG|}{{}\bgroup\seqdbs{}𒯩.𒦷\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒦷\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊜\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F229C\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒦷\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12ACF.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).SU∼a|∼1}{{}\bgroup\seqdbs{}𒯪.󲅳\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊋\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F228B\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).SU∼a|}{\seqdbn{}|2(N57).SU∼a|}{{}\bgroup\seqdbs{}𒯪.󲅳\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₂𒧴\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊝\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F229D\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒧴\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12B1D.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).ŠAH₂∼a|∼1}{{}\bgroup\seqdbs{}𒯩.𒨘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊆\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2286\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).ŠAH₂∼a|}{\seqdbn{}|1(N57).ŠAH₂∼a|}{{}\bgroup\seqdbs{}𒯩.𒨘\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒨘\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊞\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F229E\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒨘\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12B49.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).ŠUBUR|∼2}{{}\bgroup\seqdbs{}𒯩.𒩋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈓\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).ŠUBUR|}{\seqdbn{}|ŠUBUR×1(N57)|}{{}\bgroup\seqdbs{}𒩋×𒯩\egroup{}}{{}\bgroup\seqdbs{}₁𒩋×₁𒯩\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈒\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F2212\egroup{}}%
+\vfil}%
+}{{}\bgroup\seqdblc{}𒩋‍𒯩\egroup{}}{{}\bgroup\seqdbl{}u12A4B̲u200D̲uF0110.liga\egroup{}}
+\seqdbinnerrule
+\seqdbrow{\seqdbn{}|1(N57).ŠUBUR|}{\seqdbn{}|1(N57).ŠUBUR|}{{}\bgroup\seqdbs{}𒯩.𒩋\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒩋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲈓\egroup{}}%
 \hbox{{}\bgroup\seqdbh{}F2213\egroup{}}%
 \vfil}%
-}{{}\bgroup\seqdblc{}\cv99{}𒯩‍𒩋\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12B9E.liga.cv99\egroup{}}
+}{{}\bgroup\seqdblc{}𒯩‍𒩋\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12B9E.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).ŠUBUR|∼1}{{}\bgroup\seqdbs{}𒯪.𒩋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊌\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F228C\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).ŠUBUR|}{\seqdbn{}|2(N57).ŠUBUR|}{{}\bgroup\seqdbs{}𒯪.𒩋\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒩋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊟\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F229F\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒩋\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12B9E.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).ŠUBUR|∼1}{{}\bgroup\seqdbs{}𒯫.𒩋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊖\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2296\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).ŠUBUR|}{\seqdbn{}|3(N57).ŠUBUR|}{{}\bgroup\seqdbs{}𒯫.𒩋\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒩋\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊠\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F22A0\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒩋\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12B9E.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).UDU∼a|∼1}{{}\bgroup\seqdbs{}𒯫.𒪢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊗\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2297\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).UDU∼a|}{\seqdbn{}|3(N57).UDU∼a|}{{}\bgroup\seqdbs{}𒯫.𒪢\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒪢\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊡\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F22A1\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒪢\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12C25.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).UDUNITA∼a|∼1}{{}\bgroup\seqdbs{}𒯪.𒪦\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊍\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F228D\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).UDUNITA∼a|}{\seqdbn{}|2(N57).UDUNITA∼a|}{{}\bgroup\seqdbs{}𒯪.𒪦\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒪦\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊢\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F22A2\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒪦\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12C2A.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|3(N57).UDUNITA∼a|∼1}{{}\bgroup\seqdbs{}𒯫.𒪦\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊘\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2298\egroup{}}%
+\seqdbrow{\seqdbn{}|3(N57).UDUNITA∼a|}{\seqdbn{}|3(N57).UDUNITA∼a|}{{}\bgroup\seqdbs{}𒯫.𒪦\egroup{}}{{}\bgroup\seqdbs{}₁𒯫.₁𒪦\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊣\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F22A3\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯫‍𒪦\egroup{}}{{}\bgroup\seqdbl{}u12BEB̲u200D̲u12C2A.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|1(N57).URU∼a1|∼1}{{}\bgroup\seqdbs{}𒯩.𒫔\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊇\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F2287\egroup{}}%
+\seqdbrow{\seqdbn{}|1(N57).URU∼a1|}{\seqdbn{}|1(N57).URU∼a1|}{{}\bgroup\seqdbs{}𒯩.𒫔\egroup{}}{{}\bgroup\seqdbs{}₁𒯩.₁𒫔\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊤\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F22A4\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯩‍𒫔\egroup{}}{{}\bgroup\seqdbl{}u12BE9̲u200D̲u12C63.liga\egroup{}}
 \seqdbtbodyrule
-\seqdbrow{\seqdbn{}|2(N57).URU∼a1|∼1}{{}\bgroup\seqdbs{}𒯪.𒫔\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊎\egroup{}}%
-\hbox{{}\bgroup\seqdbh{}F228E\egroup{}}%
+\seqdbrow{\seqdbn{}|2(N57).URU∼a1|}{\seqdbn{}|2(N57).URU∼a1|}{{}\bgroup\seqdbs{}𒯪.𒫔\egroup{}}{{}\bgroup\seqdbs{}₁𒯪.₁𒫔\egroup{}}{{}\vbox{\vfil{}\hbox{{}\bgroup\seqdbc{}󲊥\egroup{}}%
+\hbox{{}\bgroup\seqdbh{}F22A5\egroup{}}%
 \vfil}%
 }{{}\bgroup\seqdblc{}𒯪‍𒫔\egroup{}}{{}\bgroup\seqdbl{}u12BEA̲u200D̲u12C63.liga\egroup{}}
 \seqdbtbodyrule

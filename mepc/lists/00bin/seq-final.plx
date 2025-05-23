@@ -18,6 +18,9 @@ GetOptions(
     val=>\$validationonly,
     );
 
+my %liga_cvnn = ();
+my %seen_gn = ();
+
 my $seqv_status = 0;
 unless ($novalidation) {
     if (seq_validate()) {
@@ -38,7 +41,7 @@ foreach (@glyf) {
     my $gt = sprintf("%s",chr(0x2080+hex($xt)));
     $n =~ tr/|//d;
     $n =~ s/~1$//;
-    $glyf{$c} = "$bc$gt";
+    $glyf{$c} = "$gt$bc";
     $glyf{$c,'n'} = $n;
 }
 
@@ -50,7 +53,7 @@ while (<S>) {
     my $addglyf = s/^\+//;
     chomp;
     $warned = 0;
-    my($o,$c,$s,$n) = split(/\t/,$_);
+    my($o,$n,$c,$s) = split(/\t/,$_);
 
     if ($u{$o}) { # many sequences have no independent char code
 	my $xc = chr(hex($u{$o}));
@@ -80,7 +83,12 @@ while (<S>) {
 
     my $h = sprintf("%X", ord($c));
 
-    my ($xv,$xn,$xl) = seq_views($s,$o);
+    my ($xv,$gn,$xn,$xl) = seq_views($s,$o);
+
+    $gn =~ s/~[0-9]+//g;
+    my $gnt = $seen_gn{$gn}++;
+    $gn = "$gn~$gnt" if $gnt;
+    
     if (!defined($xv)) {
 	# warn "$0: no xview for $s\n";
 	next;
@@ -90,7 +98,7 @@ while (<S>) {
 	$glyf{$c} = $xv;
     }
     
-    print "$o\t$c\t$s\t$xv\t$xn\t$xl\n";
+    print "$o\t$c\t$s\t$xv\t$n\t$gn\t$xl\n";
 }
 close(S);
 
@@ -114,29 +122,38 @@ sub seq_views {
     my @s = grep(length,split(/(.)/, $arg_s));
     my @nv = ();
     my @nn = ();
+    my @gn = ();
     my @nl = ();
     if ($_[0] =~ /LAGAB/ && $_[0] =~ /TE/) {
 	warn "LAGAB-TE = $_[0]\n";
     }
     foreach my $s (@s) {
-	if ($s =~ /[.+∘]/) {
+	if ($s =~ /[.+∘×]/) {
 	    push @nv, $s;
+	    push @gn, $s;
 	    push @nn, $s;
 	    push @nl, joiner($s);
 	} elsif ($glyf{$s}) {
 	    push @nv, $glyf{$s};
+	    push @gn, $glyf{$s,'n'};
 	    push @nn, $glyf{$s,'n'};
-	    my($nam,$tag) = ($glyf{$s} =~ /^(.)(.)$/);
+	    my($tag,$nam) = ($glyf{$s} =~ /^(.)(.)$/);
 	    if ($tag) {
 		$nam = sprintf("%X", ord($nam));
-		if ($tag ne '₁') {
-		    $tag = sprintf("%X",(ord($tag)-ord('₀'))+0xE0100-1);
+#		if ($tag ne '₁') {
+#		    $tag = sprintf("%X",(ord($tag)-ord('₀'))+0xE0100-1);
+#		} else {
+		    $tag = '';
+#		}
+	    } else {
+		if ($glyf{$s} eq '₁𒣬∘₁𒣬') {
+		    my $hix1n57 = $glyf{$s}; $hix1n57 =~ s/^.(.).*$/$1/;
+		    $nam = sprintf("%X", ord($hix1n57));
+		    $nam = "${nam}_u200D_u${nam}";
 		} else {
+		    $nam = sprintf("%X", ord($glyf{$s}));
 		    $tag = '';
 		}
-	    } else {
-		$nam = sprintf("%X", ord($glyf{$s}));
-		$tag = '';
 	    }
 	    if ($tag) {
 		push @nl, ($nam, $tag);
@@ -154,12 +171,17 @@ sub seq_views {
 	}
     }
     my $nv = join('',@nv);
-    my $nn = join('','|',@nn,'|');
+    my $gn = join('','|',@gn,'|');
+    my $nn = join('',@nn,'|');
     my $nl = join('_u','',@nl).'.liga';
-    ($nv, $nn, $nl);
+    $nl =~ s/^_//;
+    my $tag = $liga_cvnn{$nl}++;
+    $nl = sprintf("%s.cv%02d", $nl, $tag) if $tag;
+    ($nv, $gn, $nn, $nl);
 }
 
 sub joiner {
+    return '200D'; # new liga uses only 200D
     my $x = shift;
     if ($x eq '.') { # ZWJ
 	return '200D';
@@ -167,131 +189,11 @@ sub joiner {
 	return '2064';
     } elsif ($x eq '∘') { # ITS
 	return '2062';	
+    } elsif ($x eq '×') { # ITS
+	return '2062';	
     } else {
 	warn "$0: unhandled joiner $x\n";
     }
-}
-
-################################################################################
-################################################################################
-
-
-sub seq_liga {
-    my @x = grep(length,split(/(.)/,$_[0]));
-    my @xx = ();
-    foreach my $x (@x) {
-	if ($glyf{$x}) {
-	    my $n = $glyf{$x};
-	    $n =~ s/~(\d+)$//g;
-	    my $v = $1;
-	    my $h = $glyf{$n};
-	    $h = $glyf{"$n~1"} unless $h;
-	    if ($h) {
-		if ($h =~ /^[0-9]/) {
-		    push @xx, $h;
-		} else {
-		    push @xx, sprintf("%X", ord($glyf{$glyf{$h}}));
-		}
-	    } else {
-		warn "seq_liga: no hex for name $n\n";
-	    }
-	    if ($v) {
-		my $e = sprintf("%X",0xe0100+$v);
-		push @xx, $e;
-	    }
-	} else {
-	    push @xx, sprintf("%X", ord($x));
-	}
-    }
-    join('_',@xx);
-}
-
-sub seq_liga_view {
-    my @x = grep(length,split(/(.)/,$_[0]));
-    my @xx = ();
-    foreach my $x (@x) {
-	if ($glyf{$x}) {
-	    my $n = $glyf{$x};
-	    $n =~ s/~(\d+)$//g;
-	    my $v = $1;
-	    my $h = $glyf{$n};
-	    $h = $glyf{"$n~1"} unless $h;
-	    if ($h) {
-		if ($h =~ /^[0-9]/) {
-		    push @xx, $glyf{$h};
-		} else {
-		    push @xx, $glyf{$glyf{$h}};
-		}
-	    } else {
-		warn "seq_liga_view: no hex for name $n\n";
-	    }
-	    if ($v) {
-		$v =~ tr/0-9/₀-₉/;
-		push @xx, $v;
-	    }
-	} elsif (ord($x) > 0xe0100 && ord($x) < 0xe0200) {
-	    push @xx, $x;
-	} elsif ($x eq '‍') { # ZWJ
-	    push @xx, '.';
-	} elsif ($x eq '⁤') { # IPS
-	    push @xx, '+';
-	} elsif ($x eq '⁢') { # ITS
-	    push @xx, '∘';
-	} elsif ($x eq 'O') { # ITS
-	    push @xx, $x;
-	}
-    }
-    join('',@xx);
-}
-
-sub seq_name {
-    my $c = shift;
-    $c =~ tr/|//d;
-    my @x = grep(length,split(/(.)/,$c));
-    my @xx = ();
-    foreach my $x (@x) {
-	if ($glyf{$x}) {
-	    push @xx, $glyf{$x};
-	} elsif (ord($x) > 0xe0100 && ord($x) < 0xe0200) {
-	    push @xx, $x;
-	} elsif ($x eq '‍') { # ZWJ
-	    push @xx, '.';
-	} elsif ($x eq '⁤') { # IPS
-	    push @xx, '+';
-	} elsif ($x eq '⁢') { # ITS
-	    push @xx, '∘';
-	} elsif ($x eq 'O') { # ITS
-	    push @xx, $x;
-	} else {
-	    printf STDERR "seq-base.tsv:$.: seq_name: no rule for char $x = hex %X\n", ord($x);
-	    ++$warned;
-	}
-    }
-    '|'.join('',@xx).'|';
-}
-
-sub seq_view {
-    my @x = grep(length,split(/(.)/,$_[0]));
-    my @xx = ();
-    foreach my $x (@x) {
-	if ($glyf{$x}) {
-	    push @xx, $x;
-	} elsif (ord($x) > 0xe0100 && ord($x) < 0xe0200) {
-	    push @xx, sprintf("~%X",ord($x)-0xe0100);
-	} elsif ($x eq '‍') { # ZWJ
-	    push @xx, '.';
-	} elsif ($x eq '⁤') { # IPS
-	    push @xx, '+';
-	} elsif ($x eq '⁢') { # ITS
-	    push @xx, '∘';
-	} elsif ($x eq 'O') { # ITS
-	    push @xx, $x;
-	} else {
-	    printf STDERR "seq-base.tsv:$.: seq_name: no rule for char $x = hex %X\n", ord($x)
-		unless $warned;
-	}
-    }
-    join('',@xx);
 }
 
 #######################################################################################
@@ -325,12 +227,12 @@ sub seqv_db_and_glyf {
 	    }
 	}
     }
-    my @g = `cut -f1-2 00etc/glyf-base.tsv`; chomp @g;
+    my @g = `cut -f1-2 00etc/glyf-final.tsv`; chomp @g;
     for (my $i = 0; $g[$i]; ) {
 	my($c,$n) = split(/\t/,$g[$i]);
 	if ($s{$c}) {
 	    ++$i;
-	    warn "00etc/glyf-base.tsv:$i: $c = $n is in glyf and seq\n";
+	    # warn "00etc/glyf-base.tsv:$i: $c = $n is in glyf and seq\n";
 	} else {
 	    ++$i;
 	}

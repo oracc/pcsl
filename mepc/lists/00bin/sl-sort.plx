@@ -40,7 +40,7 @@ my %f = ();
 foreach (@f) {
     my @f = split(/\t/,$_);
     my $key = $f[$col];
-    $f{$key} = $_;
+    push @{$f{$key}}, $_;
     if ($project) {
 	warn "$key has no sort code\n" unless $s{$key};
 	$s{$key} = 0;
@@ -58,7 +58,9 @@ unless ($project) {
 }
 
 foreach (sort { $s{$a} <=> $s{$b} } keys %f) {
-    print $f{$_}, "\n";
+    foreach my $l (@{$f{$_}}) {
+	print $l, "\n";
+    }
 }
 
 1;

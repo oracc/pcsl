@@ -32,7 +32,13 @@
 \font\pcffe="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,color=FFFFE6" at18pt
 \font\pcblu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:color=0000FF" at18pt
 
-\font\pcseq="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga" at 14pt
+\font\pcseq="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 14pt
+\font\pcseqi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01,+salt" at 14pt
+\font\pcseqii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02,+salt=2" at 14pt
+\font\pcseqiii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv03,+salt=3" at 14pt
+\font\pcseqiv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv04,+salt=4" at 14pt
+\font\pcseqv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv05,+salt=5" at 14pt
+
 \font\pccvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01" at 14pt
 \font\pccvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02" at 14pt
 \font\pccviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv03" at 14pt
@@ -519,7 +525,7 @@
    \hrule height1.5pt
 }
 
-\def\seqdbrow#1#2#3#4#5{%
+\def\seqdbrow#1#2#3#4#5#6#7{%
    \seqdbheader
 %   \setbox\seqdbbox\vbox{\hsize2in#3}%
 %   \seqdbrowht=\ht\seqdbbox
@@ -528,18 +534,18 @@
    \hbox to.9\hsize{%
             \vbox to\seqdbrowht{%
               \vfil
-              \sqhboxn{#1}%
+              \sqhboxn{#2}%
               \vfil
-              \sqhboxd{#2}%
+              \sqhboxd{#3}%
               \vfil}%
 %            \vbox to\seqdbrowht{\vfil\sqhboxn{#1}\vfil}%
 %     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxd{#2}\vfil}%
-     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxp{#3}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxp{#5}\vfil}%
             \vbox to\seqdbrowht{%
               \vfil
-              \sqhboxL{#4}%
+              \sqhboxL{#6}%
               \vfil
-              \sqhboxl{#5}%
+              \sqhboxl{#7}%
               \vfil}%
      \hfil
    }%
@@ -575,11 +581,11 @@
 \def\diffc{\let\ofspc\relax\pcfee}
 \def\diffd{\message{hvfee}\hvfee}
 
-\def\cvi{\pccvi}
-\def\cvii{\pccvii}
-\def\cviii{\pccviii}
-\def\cviv{\pccviv}
-\def\cvv{\pccvv}
+\def\cvi{\pcseqi}
+\def\cvii{\pcseqii}
+\def\cviii{\pcseqiii}
+\def\cviv{\pcseqiv}
+\def\cvv{\pcseqv}
 \def\cvvi{\pccvvi}
 \def\cvxcix{\pccvxcix}
 \def\cvxcviii{\pccvxcviii}
