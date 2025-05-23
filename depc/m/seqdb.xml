@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:tex="http://oracc.org/ns/tex/1.0">
   <esp:name>Sequences</esp:name>
   <esp:title>Sequence Database</esp:title>
   <html>
@@ -70,15 +70,15 @@
       <p>Similarly, glyph names do not remap or normalize variant
       components that are considered distinct signs in PCSL.  Thus,
       for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a| and
-      |UŠ~b.KUR~a|; for character |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
-      are glyphs and |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and
+      |UŠ~b.KUR~a|; similarly, for |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
+      are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a distinct component)
       |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
       <esp:sh>How glyph names are turned into ligatures</esp:sh>
       <p>Glyph names are turned into ligatures by taking the base
       component signs and joining them with the ZWJ, U+200D. Multiple
       glyph names may generate the same core ligature sequence, so
       CVnn tags are added to the second and subsequent duplicate core
-      ligatures to disambituate them.  Thus, |ŠE~a.NAM₂| has two glyph
+      ligatures to disambiguate them.  Thus, |ŠE~a.NAM₂| has two glyph
       forms, named |ŠE~a.NAM₂|~1 and |ŠE~a.NAM₂|~2. These are mapped,
       schematically, to ŠE~a_u200D_NAM₂ and ŠE~a_u200D_NAM₂.cv01. The
       CVnn used in the font is relative to the number of previous
@@ -93,8 +93,24 @@
       <code>liga.cvNN</code> should be in the <code>salt</code>
       table.</p>
       <p>In <code>XeTeX</code>, the features for the cvNN ligatures
-      should be specified as "+cv01,+salt", "+cv02,+salt",
-      "+cv03,+salt" (specifying +liga is unnecessary with XeTeX).</p>
+      should be specified as "+cv01,+salt=0", "+cv02,+salt=1",
+      "+cv03,+salt=2" (specifying +liga is unnecessary with XeTeX;
+      note that salt index is 0-based).</p>
+      <esp:h>Sequences data table</esp:h>
+      <p>In column one the character name (CHARNAME) and glyph names
+      (GLYFNAME) are given along with the decomposition of the
+      ligature into the base characters; in this decomposition the
+      different joiners are used rather than mapping them all to '.'.</p>
+      <p>In column two the precomposed single ligature character in
+      the PUA is shown with its hex code; some ligatures do not have a
+      precomposed version, in which case a '0' appears in this
+      column.</p>
+      <p>In column three the input on the upper row is the Unicode
+      character sequence corresponding to the ligature sequence in the
+      lower row: if this is working correctly the appearance of the
+      upper row should match the character in the column two.  Font
+      switching is used to access glyph variants.</p>
+      <tex:text>\newpage</tex:text>
       <table xmlns="http://www.w3.org/1999/xhtml" class="seqdb" xml:base=".">
         <thead>
           <tr>
@@ -118,10 +134,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈢</span>
+                  <span class="seqdb-c">󲈥</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2222</span>
+                  <span class="seqdb-h">F2225</span>
                 </div>
               </div>
             </td>
@@ -146,10 +162,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈣</span>
+                  <span class="seqdb-c">󲈦</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2223</span>
+                  <span class="seqdb-h">F2226</span>
                 </div>
               </div>
             </td>
@@ -174,10 +190,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈤</span>
+                  <span class="seqdb-c">󲈧</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2224</span>
+                  <span class="seqdb-h">F2227</span>
                 </div>
               </div>
             </td>
@@ -202,10 +218,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈥</span>
+                  <span class="seqdb-c">󲈨</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2225</span>
+                  <span class="seqdb-h">F2228</span>
                 </div>
               </div>
             </td>
@@ -230,10 +246,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈦</span>
+                  <span class="seqdb-c">󲈩</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2226</span>
+                  <span class="seqdb-h">F2229</span>
                 </div>
               </div>
             </td>
@@ -258,10 +274,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈧</span>
+                  <span class="seqdb-c">󲈪</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2227</span>
+                  <span class="seqdb-h">F222A</span>
                 </div>
               </div>
             </td>
@@ -306,23 +322,23 @@
             <td class="seqdb-n" data-oid="o0900508">|DU.U₄.1(N14).1(N08)|</td>
             <td class="seqdb-n" data-oid="go">|DU.U₄|</td>
             <td>
-              <span class="seqdb-s">𒜞.𒩽</span>
+              <span class="seqdb-s">𒜞.𒩺</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒜞.₁𒩽</span>
+              <span class="seqdb-s">₁𒜞.₁𒩺</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈨</span>
+                  <span class="seqdb-c">󲈫</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2228</span>
+                  <span class="seqdb-h">F222B</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒜞‍𒩽</span>
+              <span class="seqdb-lc">𒜞‍𒩺</span>
             </td>
             <td>
               <span class="seqdb-l">u1271E_u200D_u12BE1.liga</span>
@@ -342,10 +358,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈩</span>
+                  <span class="seqdb-c">󲈬</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2229</span>
+                  <span class="seqdb-h">F222C</span>
                 </div>
               </div>
             </td>
@@ -370,10 +386,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈪</span>
+                  <span class="seqdb-c">󲈭</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F222A</span>
+                  <span class="seqdb-h">F222D</span>
                 </div>
               </div>
             </td>
@@ -398,10 +414,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈫</span>
+                  <span class="seqdb-c">󲈮</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F222B</span>
+                  <span class="seqdb-h">F222E</span>
                 </div>
               </div>
             </td>
@@ -426,10 +442,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈬</span>
+                  <span class="seqdb-c">󲈯</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F222C</span>
+                  <span class="seqdb-h">F222F</span>
                 </div>
               </div>
             </td>
@@ -454,10 +470,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈭</span>
+                  <span class="seqdb-c">󲈰</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F222D</span>
+                  <span class="seqdb-h">F2230</span>
                 </div>
               </div>
             </td>
@@ -482,10 +498,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈮</span>
+                  <span class="seqdb-c">󲈱</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F222E</span>
+                  <span class="seqdb-h">F2231</span>
                 </div>
               </div>
             </td>
@@ -505,7 +521,7 @@
               <span class="seqdb-s">𒞇.𒞢∘𒥯.󲅮</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒞇.₁𒞢∘₁𒥯.₂𒧆</span>
+              <span class="seqdb-s">₁𒞇.₁𒞢∘₁𒥯.₂𒧅</span>
             </td>
             <td>
               <div class="vbox">
@@ -518,7 +534,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒞇‍𒞢‍𒥯‍𒧆</span>
+              <span class="seqdb-lc">𒞇‍𒞢‍𒥯‍𒧅</span>
             </td>
             <td>
               <span class="seqdb-l">u12787_u200D_u127A2_u200D_u1296F_u200D_u12AE3.liga</span>
@@ -528,10 +544,10 @@
             <td class="seqdb-n" data-oid="o0900535">|EN~a.ŠE~a@t.EZEN~b.NUN~a.SIG₇|</td>
             <td class="seqdb-n" data-oid="go">|EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|</td>
             <td>
-              <span class="seqdb-s">𒞇.󲂏∘𒧆.𒤅.𒥯</span>
+              <span class="seqdb-s">𒞇.󲂏∘𒧅.𒤅.𒥯</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒞇.₂𒛋∘₁𒧆.₁𒤅.₁𒥯</span>
+              <span class="seqdb-s">₁𒞇.₂𒛋∘₁𒧅.₁𒤅.₁𒥯</span>
             </td>
             <td>
               <div class="vbox">
@@ -544,10 +560,10 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒞇‍𒛋‍𒧆‍𒤅‍𒥯</span>
+              <span class="seqdb-lc">𒞇‍𒛋‍𒧅‍𒤅‍𒥯</span>
             </td>
             <td>
-              <span class="seqdb-l">u12787_u200D_u126CB_u200D_u129C6_u200D_u12905_u200D_u12A74.liga</span>
+              <span class="seqdb-l">u12787_u200D_u126CB_u200D_u129C5_u200D_u12905_u200D_u12A74.liga</span>
             </td>
           </tr>
         </tbody>
@@ -564,10 +580,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈯</span>
+                  <span class="seqdb-c">󲈲</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F222F</span>
+                  <span class="seqdb-h">F2232</span>
                 </div>
               </div>
             </td>
@@ -592,10 +608,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈰</span>
+                  <span class="seqdb-c">󲈳</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2230</span>
+                  <span class="seqdb-h">F2233</span>
                 </div>
               </div>
             </td>
@@ -666,10 +682,10 @@
             <td class="seqdb-n" data-oid="o0900607">|GA~a.ZATU753|</td>
             <td class="seqdb-n" data-oid="go">|GA~a.ZATU753|</td>
             <td>
-              <span class="seqdb-s">󲃒.𒮤</span>
+              <span class="seqdb-s">󲃒.𒮡</span>
             </td>
             <td>
-              <span class="seqdb-s">₂𒞩.₁𒮤</span>
+              <span class="seqdb-s">₂𒞩.₁𒮡</span>
             </td>
             <td>
               <div class="vbox">
@@ -682,7 +698,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒞩‍𒮤</span>
+              <span class="seqdb-lc">𒞩‍𒮡</span>
             </td>
             <td>
               <span class="seqdb-l">u127A9_u200D_u12D79.liga</span>
@@ -692,10 +708,10 @@
             <td class="seqdb-n" data-oid="o0900607">|GA~a.ZATU753|</td>
             <td class="seqdb-n" data-oid="go">|ZATU753.GA~a|</td>
             <td>
-              <span class="seqdb-s">𒮤.󲃒</span>
+              <span class="seqdb-s">𒮡.󲃒</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒮤.₂𒞩</span>
+              <span class="seqdb-s">₁𒮡.₂𒞩</span>
             </td>
             <td>
               <div class="vbox">
@@ -708,10 +724,10 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒮤‍𒞩</span>
+              <span class="seqdb-lc">𒮡‍𒞩</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BA4_u200D_u1280E.liga</span>
+              <span class="seqdb-l">u12BA1_u200D_u1280E.liga</span>
             </td>
           </tr>
         </tbody>
@@ -728,10 +744,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈱</span>
+                  <span class="seqdb-c">󲈴</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2231</span>
+                  <span class="seqdb-h">F2234</span>
                 </div>
               </div>
             </td>
@@ -810,10 +826,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈲</span>
+                  <span class="seqdb-c">󲈵</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2232</span>
+                  <span class="seqdb-h">F2235</span>
                 </div>
               </div>
             </td>
@@ -838,10 +854,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈳</span>
+                  <span class="seqdb-c">󲈶</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2233</span>
+                  <span class="seqdb-h">F2236</span>
                 </div>
               </div>
             </td>
@@ -858,10 +874,10 @@
             <td class="seqdb-n" data-oid="o0901110">|GAL~a.UKKIN~a|</td>
             <td class="seqdb-n" data-oid="go">|GAL~a.UKKIN~a|</td>
             <td>
-              <span class="seqdb-s">𒟞.𒪬</span>
+              <span class="seqdb-s">𒟞.𒪩</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒟞.₁𒪬</span>
+              <span class="seqdb-s">₁𒟞.₁𒪩</span>
             </td>
             <td>
               <div class="vbox">
@@ -874,7 +890,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒟞‍𒪬</span>
+              <span class="seqdb-lc">𒟞‍𒪩</span>
             </td>
             <td>
               <span class="seqdb-l">u127DE_u200D_u12C31.liga</span>
@@ -884,10 +900,10 @@
             <td class="seqdb-n" data-oid="o0901110">|GAL~a.UKKIN~a|</td>
             <td class="seqdb-n" data-oid="go">|GAL~a.UKKIN~a|~1</td>
             <td>
-              <span class="seqdb-s">𒟞.󲆽</span>
+              <span class="seqdb-s">𒟞.󲆾</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒟞.₂𒪬</span>
+              <span class="seqdb-s">₁𒟞.₂𒪩</span>
             </td>
             <td>
               <div class="vbox">
@@ -900,7 +916,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc cv01">𒟞‍𒪬</span>
+              <span class="seqdb-lc cv01">𒟞‍𒪩</span>
             </td>
             <td>
               <span class="seqdb-l">u127DE_u200D_u12C31.liga.cv01</span>
@@ -920,10 +936,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈴</span>
+                  <span class="seqdb-c">󲈷</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2234</span>
+                  <span class="seqdb-h">F2237</span>
                 </div>
               </div>
             </td>
@@ -948,10 +964,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈵</span>
+                  <span class="seqdb-c">󲈸</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2235</span>
+                  <span class="seqdb-h">F2238</span>
                 </div>
               </div>
             </td>
@@ -976,10 +992,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈶</span>
+                  <span class="seqdb-c">󲈹</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2236</span>
+                  <span class="seqdb-h">F2239</span>
                 </div>
               </div>
             </td>
@@ -1004,10 +1020,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈷</span>
+                  <span class="seqdb-c">󲈺</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2237</span>
+                  <span class="seqdb-h">F223A</span>
                 </div>
               </div>
             </td>
@@ -1032,10 +1048,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈸</span>
+                  <span class="seqdb-c">󲈻</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2238</span>
+                  <span class="seqdb-h">F223B</span>
                 </div>
               </div>
             </td>
@@ -1060,10 +1076,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈹</span>
+                  <span class="seqdb-c">󲈼</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2239</span>
+                  <span class="seqdb-h">F223C</span>
                 </div>
               </div>
             </td>
@@ -1080,23 +1096,23 @@
             <td class="seqdb-n" data-oid="o0900877">|GIŠ.TE|</td>
             <td class="seqdb-n" data-oid="go">|GIŠ.TE|</td>
             <td>
-              <span class="seqdb-s">𒠟.𒩠</span>
+              <span class="seqdb-s">𒠟.𒩝</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒠟.₁𒩠</span>
+              <span class="seqdb-s">₁𒠟.₁𒩝</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈺</span>
+                  <span class="seqdb-c">󲈽</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F223A</span>
+                  <span class="seqdb-h">F223D</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒠟‍𒩠</span>
+              <span class="seqdb-lc">𒠟‍𒩝</span>
             </td>
             <td>
               <span class="seqdb-l">u1281F_u200D_u12BB9.liga</span>
@@ -1116,10 +1132,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈻</span>
+                  <span class="seqdb-c">󲈾</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F223B</span>
+                  <span class="seqdb-h">F223E</span>
                 </div>
               </div>
             </td>
@@ -1136,23 +1152,23 @@
             <td class="seqdb-n" data-oid="o0900911">|GU₄.ZATU755~b|</td>
             <td class="seqdb-n" data-oid="go">|GU₄.ZATU755~b|</td>
             <td>
-              <span class="seqdb-s">𒠲.𒮧</span>
+              <span class="seqdb-s">𒠲.𒮤</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒠲.₁𒮧</span>
+              <span class="seqdb-s">₁𒠲.₁𒮤</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈼</span>
+                  <span class="seqdb-c">󲈿</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F223C</span>
+                  <span class="seqdb-h">F223F</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒠲‍𒮧</span>
+              <span class="seqdb-lc">𒠲‍𒮤</span>
             </td>
             <td>
               <span class="seqdb-l">u12832_u200D_u12D7C.liga</span>
@@ -1172,10 +1188,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈽</span>
+                  <span class="seqdb-c">󲉀</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F223D</span>
+                  <span class="seqdb-h">F2240</span>
                 </div>
               </div>
             </td>
@@ -1200,10 +1216,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈾</span>
+                  <span class="seqdb-c">󲉁</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F223E</span>
+                  <span class="seqdb-h">F2241</span>
                 </div>
               </div>
             </td>
@@ -1220,62 +1236,10 @@
             <td class="seqdb-n" data-oid="o0900964">|HI.SUHUR|</td>
             <td class="seqdb-n" data-oid="go">|HI.SUHUR|</td>
             <td>
-              <span class="seqdb-s">𒡑.󲅴</span>
+              <span class="seqdb-s">𒡑.𒧻</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒡑.₂𒧼</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲃶</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F20F6</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒡑‍𒧼</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12851_u200D_u12B23.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0900964">|HI.SUHUR|</td>
-            <td class="seqdb-n" data-oid="go">|HI.SUHUR|~1</td>
-            <td>
-              <span class="seqdb-s">𒡑.󲅵</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒡑.₃𒧼</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲃷</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F20F7</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv01">𒡑‍𒧼</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12851_u200D_u12B23.liga.cv01</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0900964">|HI.SUHUR|</td>
-            <td class="seqdb-n" data-oid="go">|HI.SUHUR|~2</td>
-            <td>
-              <span class="seqdb-s">𒡑.𒧼</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒡑.₁𒧼</span>
+              <span class="seqdb-s">₁𒡑.₁𒧻</span>
             </td>
             <td>
               <div class="vbox">
@@ -1288,7 +1252,59 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc cv02">𒡑‍𒧼</span>
+              <span class="seqdb-lc">𒡑‍𒧻</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12851_u200D_u12B23.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0900964">|HI.SUHUR|</td>
+            <td class="seqdb-n" data-oid="go">|HI.SUHUR|~1</td>
+            <td>
+              <span class="seqdb-s">𒡑.󲅴</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒡑.₂𒧻</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃶</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F6</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv01">𒡑‍𒧻</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12851_u200D_u12B23.liga.cv01</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0900964">|HI.SUHUR|</td>
+            <td class="seqdb-n" data-oid="go">|HI.SUHUR|~2</td>
+            <td>
+              <span class="seqdb-s">𒡑.󲅵</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒡑.₃𒧻</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃷</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20F7</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒡑‍𒧻</span>
             </td>
             <td>
               <span class="seqdb-l">u12851_u200D_u12B23.liga.cv02</span>
@@ -1364,10 +1380,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈿</span>
+                  <span class="seqdb-c">󲉂</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F223F</span>
+                  <span class="seqdb-h">F2242</span>
                 </div>
               </div>
             </td>
@@ -1384,10 +1400,10 @@
             <td class="seqdb-n" data-oid="o0901032">|KA~a.ŠE~a|</td>
             <td class="seqdb-n" data-oid="go">|KA~a.ŠE~a|</td>
             <td>
-              <span class="seqdb-s">𒡫.𒨟</span>
+              <span class="seqdb-s">𒡫.𒨞</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒡫.₁𒨟</span>
+              <span class="seqdb-s">₁𒡫.₁𒨞</span>
             </td>
             <td>
               <div class="vbox">
@@ -1400,7 +1416,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒡫‍𒨟</span>
+              <span class="seqdb-lc">𒡫‍𒨞</span>
             </td>
             <td>
               <span class="seqdb-l">u1286B_u200D_u12B52.liga</span>
@@ -1410,10 +1426,10 @@
             <td class="seqdb-n" data-oid="o0901032">|KA~a.ŠE~a|</td>
             <td class="seqdb-n" data-oid="go">|KA~a.ŠE~a@t|</td>
             <td>
-              <span class="seqdb-s">𒡫.𒨢</span>
+              <span class="seqdb-s">𒡫.𒨠</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒡫.₁𒨢</span>
+              <span class="seqdb-s">₁𒡫.₁𒨠</span>
             </td>
             <td>
               <div class="vbox">
@@ -1426,7 +1442,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒡫‍𒨢</span>
+              <span class="seqdb-lc">𒡫‍𒨠</span>
             </td>
             <td>
               <span class="seqdb-l">u1286B_u200D_u12B57.liga</span>
@@ -1446,10 +1462,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉀</span>
+                  <span class="seqdb-c">󲉃</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2240</span>
+                  <span class="seqdb-h">F2243</span>
                 </div>
               </div>
             </td>
@@ -1474,10 +1490,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉁</span>
+                  <span class="seqdb-c">󲉄</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2241</span>
+                  <span class="seqdb-h">F2244</span>
                 </div>
               </div>
             </td>
@@ -1502,10 +1518,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉂</span>
+                  <span class="seqdb-c">󲉅</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2242</span>
+                  <span class="seqdb-h">F2245</span>
                 </div>
               </div>
             </td>
@@ -1530,10 +1546,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉃</span>
+                  <span class="seqdb-c">󲉆</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2243</span>
+                  <span class="seqdb-h">F2246</span>
                 </div>
               </div>
             </td>
@@ -1558,10 +1574,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉄</span>
+                  <span class="seqdb-c">󲉇</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2244</span>
+                  <span class="seqdb-h">F2247</span>
                 </div>
               </div>
             </td>
@@ -1578,7 +1594,7 @@
             <td class="seqdb-n" data-oid="o0902069">|KUR~a.RU|</td>
             <td class="seqdb-n" data-oid="go">|KUR~a.RU|</td>
             <td>
-              <span class="seqdb-s">𒢭.󲅞</span>
+              <span class="seqdb-s">𒢭.󲅟</span>
             </td>
             <td>
               <span class="seqdb-s">₁𒢭.₂𒦒</span>
@@ -1586,10 +1602,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲆧</span>
+                  <span class="seqdb-c">󲆨</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F21A7</span>
+                  <span class="seqdb-h">F21A8</span>
                 </div>
               </div>
             </td>
@@ -1612,10 +1628,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲆦</span>
+                  <span class="seqdb-c">󲆧</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F21A6</span>
+                  <span class="seqdb-h">F21A7</span>
                 </div>
               </div>
             </td>
@@ -1640,10 +1656,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉅</span>
+                  <span class="seqdb-c">󲉈</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2245</span>
+                  <span class="seqdb-h">F2248</span>
                 </div>
               </div>
             </td>
@@ -1660,10 +1676,10 @@
             <td class="seqdb-n" data-oid="o0901189">|LAGAB~b.TE|</td>
             <td class="seqdb-n" data-oid="go">|LAGAB~b.TE|</td>
             <td>
-              <span class="seqdb-s">𒣍.𒩠</span>
+              <span class="seqdb-s">𒣍.𒩝</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒣍.₁𒩠</span>
+              <span class="seqdb-s">₁𒣍.₁𒩝</span>
             </td>
             <td>
               <div class="vbox">
@@ -1676,7 +1692,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒣍‍𒩠</span>
+              <span class="seqdb-lc">𒣍‍𒩝</span>
             </td>
             <td>
               <span class="seqdb-l">u128CD_u200D_u12BB9.liga</span>
@@ -1688,26 +1704,26 @@
             <td class="seqdb-n" data-oid="o0900538">|ME~a.EN~a.ŠE~a.ŠA|</td>
             <td class="seqdb-n" data-oid="go">|ME~a.EN~a∘ŠE~a∘ŠA|</td>
             <td>
-              <span class="seqdb-s">𒤅.𒞇∘𒨟∘𒨌</span>
+              <span class="seqdb-s">𒤅.𒞇∘𒨞∘𒨋</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒤅.₁𒞇∘₁𒨟∘₁𒨌</span>
+              <span class="seqdb-s">₁𒤅.₁𒞇∘₁𒨞∘₁𒨋</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉆</span>
+                  <span class="seqdb-c">󲉉</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2246</span>
+                  <span class="seqdb-h">F2249</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒤅‍𒞇‍𒨟‍𒨌</span>
+              <span class="seqdb-lc">𒤅‍𒞇‍𒨞‍𒨋</span>
             </td>
             <td>
-              <span class="seqdb-l">u12905_u200D_u12787_u200D_u12A1F_u200D_u12B37.liga</span>
+              <span class="seqdb-l">u12905_u200D_u12787_u200D_u12A1E_u200D_u12B37.liga</span>
             </td>
           </tr>
         </tbody>
@@ -1724,10 +1740,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉇</span>
+                  <span class="seqdb-c">󲉊</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2247</span>
+                  <span class="seqdb-h">F224A</span>
                 </div>
               </div>
             </td>
@@ -1752,10 +1768,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉈</span>
+                  <span class="seqdb-c">󲉋</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2248</span>
+                  <span class="seqdb-h">F224B</span>
                 </div>
               </div>
             </td>
@@ -1772,23 +1788,23 @@
             <td class="seqdb-n" data-oid="o0902419">|MUŠ₃~a.UNUG~a|</td>
             <td class="seqdb-n" data-oid="go">|MUŠ₃~a.UNUG~a|</td>
             <td>
-              <span class="seqdb-s">𒤞.𒪻</span>
+              <span class="seqdb-s">𒤞.𒪸</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒤞.₁𒪻</span>
+              <span class="seqdb-s">₁𒤞.₁𒪸</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉉</span>
+                  <span class="seqdb-c">󲉌</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2249</span>
+                  <span class="seqdb-h">F224C</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒤞‍𒪻</span>
+              <span class="seqdb-lc">𒤞‍𒪸</span>
             </td>
             <td>
               <span class="seqdb-l">u1291E_u200D_u12C44.liga</span>
@@ -1800,23 +1816,23 @@
             <td class="seqdb-n" data-oid="o0901429">|MUŠEN.UR₃~b2|</td>
             <td class="seqdb-n" data-oid="go">|MUŠEN.UR₃~b2|</td>
             <td>
-              <span class="seqdb-s">𒤡.𒫋</span>
+              <span class="seqdb-s">𒤡.𒫈</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒤡.₁𒫋</span>
+              <span class="seqdb-s">₁𒤡.₁𒫈</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉊</span>
+                  <span class="seqdb-c">󲉍</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F224A</span>
+                  <span class="seqdb-h">F224D</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒤡‍𒫋</span>
+              <span class="seqdb-lc">𒤡‍𒫈</span>
             </td>
             <td>
               <span class="seqdb-l">u12921_u200D_u12C58.liga</span>
@@ -1825,38 +1841,10 @@
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901427">|MUŠEN.3(N58)|</td>
-            <td class="seqdb-n" data-oid="go">|MUŠEN.3(N58)|</td>
-            <td>
-              <span class="seqdb-s">𒤡.𒯵</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒤡.₁𒯵</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲈜</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F221C</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒤡‍𒯵</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12921_u200D_uF011C.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
             <td class="seqdb-n" data-oid="o0902870">|1(N02).RU|</td>
             <td class="seqdb-n" data-oid="go">|1(N02).RU|</td>
             <td>
-              <span class="seqdb-s">𒖾.󲅞</span>
+              <span class="seqdb-s">𒖾.󲅟</span>
             </td>
             <td>
               <span class="seqdb-s">₁𒖾.₂𒦒</span>
@@ -1864,10 +1852,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲈑</span>
+                  <span class="seqdb-c">󲈒</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2211</span>
+                  <span class="seqdb-h">F2212</span>
                 </div>
               </div>
             </td>
@@ -1892,10 +1880,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉋</span>
+                  <span class="seqdb-c">󲉎</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F224B</span>
+                  <span class="seqdb-h">F224E</span>
                 </div>
               </div>
             </td>
@@ -1918,10 +1906,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉌</span>
+                  <span class="seqdb-c">󲉏</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F224C</span>
+                  <span class="seqdb-h">F224F</span>
                 </div>
               </div>
             </td>
@@ -2000,10 +1988,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉍</span>
+                  <span class="seqdb-c">󲉐</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F224D</span>
+                  <span class="seqdb-h">F2250</span>
                 </div>
               </div>
             </td>
@@ -2020,7 +2008,7 @@
             <td class="seqdb-n" data-oid="o0901504">|NI~a.RU|</td>
             <td class="seqdb-n" data-oid="go">|NI~a.RU|</td>
             <td>
-              <span class="seqdb-s">𒥃.󲅞</span>
+              <span class="seqdb-s">𒥃.󲅟</span>
             </td>
             <td>
               <span class="seqdb-s">₁𒥃.₂𒦒</span>
@@ -2028,10 +2016,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉎</span>
+                  <span class="seqdb-c">󲉑</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F224E</span>
+                  <span class="seqdb-h">F2251</span>
                 </div>
               </div>
             </td>
@@ -2130,10 +2118,10 @@
             <td class="seqdb-n" data-oid="o0901601">|NUN~b.U₄.U₄.1(N14).1(N08)|</td>
             <td class="seqdb-n" data-oid="go">|NUN~b.U₄|</td>
             <td>
-              <span class="seqdb-s">𒥵.𒩽</span>
+              <span class="seqdb-s">𒥵.𒩺</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒥵.₁𒩽</span>
+              <span class="seqdb-s">₁𒥵.₁𒩺</span>
             </td>
             <td>
               <div class="vbox">
@@ -2146,7 +2134,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒥵‍𒩽</span>
+              <span class="seqdb-lc">𒥵‍𒩺</span>
             </td>
             <td>
               <span class="seqdb-l">u12975_u200D_u12BE1.liga</span>
@@ -2238,26 +2226,26 @@
             <td class="seqdb-n" data-oid="o0900539">|PA~a.TE.SI|</td>
             <td class="seqdb-n" data-oid="go">|PA~a.TE.SI|</td>
             <td>
-              <span class="seqdb-s">󲅘.𒩠.𒦩</span>
+              <span class="seqdb-s">󲅘.𒩝.𒦨</span>
             </td>
             <td>
-              <span class="seqdb-s">₃𒥾.₁𒩠.₁𒦩</span>
+              <span class="seqdb-s">₃𒥾.₁𒩝.₁𒦨</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉏</span>
+                  <span class="seqdb-c">󲉒</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F224F</span>
+                  <span class="seqdb-h">F2252</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒥾‍𒩠‍𒦩</span>
+              <span class="seqdb-lc">𒥾‍𒩝‍𒦨</span>
             </td>
             <td>
-              <span class="seqdb-l">u1297E_u200D_u12A60_u200D_u12AC7.liga</span>
+              <span class="seqdb-l">u1297E_u200D_u12A5D_u200D_u12AC7.liga</span>
             </td>
           </tr>
         </tbody>
@@ -2266,10 +2254,10 @@
             <td class="seqdb-n" data-oid="o0901868">|PA~a.UDU~a|</td>
             <td class="seqdb-n" data-oid="go">|PA~a.UDU~a|</td>
             <td>
-              <span class="seqdb-s">𒥾.𒪢</span>
+              <span class="seqdb-s">𒥾.𒪟</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒥾.₁𒪢</span>
+              <span class="seqdb-s">₁𒥾.₁𒪟</span>
             </td>
             <td>
               <div class="vbox">
@@ -2282,7 +2270,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒥾‍𒪢</span>
+              <span class="seqdb-lc">𒥾‍𒪟</span>
             </td>
             <td>
               <span class="seqdb-l">u1297E_u200D_u12C25.liga</span>
@@ -2292,10 +2280,10 @@
             <td class="seqdb-n" data-oid="o0901868">|PA~a.UDU~a|</td>
             <td class="seqdb-n" data-oid="go">|PA~a.UDU~a|~1</td>
             <td>
-              <span class="seqdb-s">󲅘.𒪢</span>
+              <span class="seqdb-s">󲅘.𒪟</span>
             </td>
             <td>
-              <span class="seqdb-s">₃𒥾.₁𒪢</span>
+              <span class="seqdb-s">₃𒥾.₁𒪟</span>
             </td>
             <td>
               <div class="vbox">
@@ -2308,7 +2296,7 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc cv01">𒥾‍𒪢</span>
+              <span class="seqdb-lc cv01">𒥾‍𒪟</span>
             </td>
             <td>
               <span class="seqdb-l">u1297E_u200D_u12C25.liga.cv01</span>
@@ -2382,10 +2370,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉐</span>
+                  <span class="seqdb-c">󲉓</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2250</span>
+                  <span class="seqdb-h">F2253</span>
                 </div>
               </div>
             </td>
@@ -2410,10 +2398,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉑</span>
+                  <span class="seqdb-c">󲉔</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2251</span>
+                  <span class="seqdb-h">F2254</span>
                 </div>
               </div>
             </td>
@@ -2438,10 +2426,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉒</span>
+                  <span class="seqdb-c">󲉕</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2252</span>
+                  <span class="seqdb-h">F2255</span>
                 </div>
               </div>
             </td>
@@ -2494,10 +2482,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉓</span>
+                  <span class="seqdb-c">󲉖</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F2253</span>
+                  <span class="seqdb-h">F2256</span>
                 </div>
               </div>
             </td>
@@ -2517,91 +2505,7 @@
               <span class="seqdb-s">𒦞.󲅀.𒞢∘𒥯.󲅮</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒦞.₂𒤶.₁𒞢∘₁𒥯.₂𒧆</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲉔</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2254</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒦞‍𒤶‍𒞢‍𒥯‍𒧆</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u1299E_u200D_u12936_u200D_u127A2_u200D_u1296F_u200D_u12AE3.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901773">|SAL.SI|</td>
-            <td class="seqdb-n" data-oid="go">|SAL.SI|</td>
-            <td>
-              <span class="seqdb-s">𒦞.𒦩</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒦞.₁𒦩</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲉕</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2255</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒦞‍𒦩</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u1299E_u200D_u12AC7.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901111">|SAL.SILA₄~c|</td>
-            <td class="seqdb-n" data-oid="go">|SAL.SILA₄~c|</td>
-            <td>
-              <span class="seqdb-s">𒦞.𒧰</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒦞.₁𒧰</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲉖</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2256</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒦞‍𒧰</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u1299E_u200D_u12B15.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901703">|SAL.ŠU₂|</td>
-            <td class="seqdb-n" data-oid="go">|SAL.ŠU₂|</td>
-            <td>
-              <span class="seqdb-s">𒦞.󲆥</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒦞.₅𒩉</span>
+              <span class="seqdb-s">₁𒦞.₂𒤶.₁𒞢∘₁𒥯.₂𒧅</span>
             </td>
             <td>
               <div class="vbox">
@@ -2614,22 +2518,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒦞‍𒩉</span>
+              <span class="seqdb-lc">𒦞‍𒤶‍𒞢‍𒥯‍𒧅</span>
             </td>
             <td>
-              <span class="seqdb-l">u1299E_u200D_u12B98.liga</span>
+              <span class="seqdb-l">u1299E_u200D_u12936_u200D_u127A2_u200D_u1296F_u200D_u12AE3.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901705">|SAL.ZATU751~a|</td>
-            <td class="seqdb-n" data-oid="go">|SAL.ZATU751~a|</td>
+            <td class="seqdb-n" data-oid="o0901773">|SAL.SI|</td>
+            <td class="seqdb-n" data-oid="go">|SAL.SI|</td>
             <td>
-              <span class="seqdb-s">𒦞.𒮠</span>
+              <span class="seqdb-s">𒦞.𒦨</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒦞.₁𒮠</span>
+              <span class="seqdb-s">₁𒦞.₁𒦨</span>
             </td>
             <td>
               <div class="vbox">
@@ -2642,22 +2546,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒦞‍𒮠</span>
+              <span class="seqdb-lc">𒦞‍𒦨</span>
             </td>
             <td>
-              <span class="seqdb-l">u1299E_u200D_u12D75.liga</span>
+              <span class="seqdb-l">u1299E_u200D_u12AC7.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901706">|SAL.ZATU751~b|</td>
-            <td class="seqdb-n" data-oid="go">|SAL.ZATU751~b|</td>
+            <td class="seqdb-n" data-oid="o0901111">|SAL.SILA₄~c|</td>
+            <td class="seqdb-n" data-oid="go">|SAL.SILA₄~c|</td>
             <td>
-              <span class="seqdb-s">𒦞.𒮡</span>
+              <span class="seqdb-s">𒦞.𒧯</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒦞.₁𒮡</span>
+              <span class="seqdb-s">₁𒦞.₁𒧯</span>
             </td>
             <td>
               <div class="vbox">
@@ -2670,22 +2574,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒦞‍𒮡</span>
+              <span class="seqdb-lc">𒦞‍𒧯</span>
             </td>
             <td>
-              <span class="seqdb-l">u1299E_u200D_u12D76.liga</span>
+              <span class="seqdb-l">u1299E_u200D_u12B15.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901707">|SAL.ZATU751~c|</td>
-            <td class="seqdb-n" data-oid="go">|SAL.ZATU751~c|</td>
+            <td class="seqdb-n" data-oid="o0901703">|SAL.ŠU₂|</td>
+            <td class="seqdb-n" data-oid="go">|SAL.ŠU₂|</td>
             <td>
-              <span class="seqdb-s">𒦞.𒮢</span>
+              <span class="seqdb-s">𒦞.󲆦</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒦞.₁𒮢</span>
+              <span class="seqdb-s">₁𒦞.₅𒩆</span>
             </td>
             <td>
               <div class="vbox">
@@ -2698,22 +2602,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒦞‍𒮢</span>
+              <span class="seqdb-lc">𒦞‍𒩆</span>
             </td>
             <td>
-              <span class="seqdb-l">u1299E_u200D_uF300F.liga</span>
+              <span class="seqdb-l">u1299E_u200D_u12B98.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902072">|SU~a.KUR~a.RU|</td>
-            <td class="seqdb-n" data-oid="go">|SU~a.KUR~a.RU|</td>
+            <td class="seqdb-n" data-oid="o0901705">|SAL.ZATU751~a|</td>
+            <td class="seqdb-n" data-oid="go">|SAL.ZATU751~a|</td>
             <td>
-              <span class="seqdb-s">𒧴.𒢭.𒦒</span>
+              <span class="seqdb-s">𒦞.𒮝</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒧴.₁𒢭.₁𒦒</span>
+              <span class="seqdb-s">₁𒦞.₁𒮝</span>
             </td>
             <td>
               <div class="vbox">
@@ -2726,188 +2630,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒧴‍𒢭‍𒦒</span>
+              <span class="seqdb-lc">𒦞‍𒮝</span>
             </td>
             <td>
-              <span class="seqdb-l">u129F4_u200D_u128AD_u200D_u12AA5.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901953">|ŠE~a.KIN₂~c|</td>
-            <td class="seqdb-n" data-oid="go">|ŠE~a.KIN₂~c|</td>
-            <td>
-              <span class="seqdb-s">𒨟.𒢖</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒨟.₁𒢖</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆉</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2189</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒨟‍𒢖</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A1F_u200D_u12948.liga</span>
+              <span class="seqdb-l">u1299E_u200D_u12D75.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901955">|ŠE~a.NAM₂|</td>
-            <td class="seqdb-n" data-oid="go">|ŠE~a.NAM₂|</td>
+            <td class="seqdb-n" data-oid="o0901706">|SAL.ZATU751~b|</td>
+            <td class="seqdb-n" data-oid="go">|SAL.ZATU751~b|</td>
             <td>
-              <span class="seqdb-s">𒨟.󲅀</span>
+              <span class="seqdb-s">𒦞.𒮞</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒨟.₂𒤶</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆋</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F218B</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒨟‍𒤶</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A1F_u200D_u12A23.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901955">|ŠE~a.NAM₂|</td>
-            <td class="seqdb-n" data-oid="go">|ŠE~a.NAM₂|~1</td>
-            <td>
-              <span class="seqdb-s">𒨟.𒤶</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒨟.₁𒤶</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆌</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F218C</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv01">𒨟‍𒤶</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A1F_u200D_u12A23.liga.cv01</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901301">|ŠE~a.ŠA|</td>
-            <td class="seqdb-n" data-oid="go">|ŠE~a∘ŠA|</td>
-            <td>
-              <span class="seqdb-s">𒨟∘𒨌</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒨟∘₁𒨌</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲄦</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2126</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒨟‍𒨌</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A1F_u200D_u12B37.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901301">|ŠE~a.ŠA.|</td>
-            <td class="seqdb-n" data-oid="go">|ŠA∘ŠE~a|</td>
-            <td>
-              <span class="seqdb-s">󲅾∘𒨟</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₄𒨌∘₁𒨟</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲄧</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2127</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒨌‍𒨟</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A0C_u200D_u12B52.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901953">|ŠE~a@t.KIN₂~c|</td>
-            <td class="seqdb-n" data-oid="go">|ŠE~a@t.KIN₂~c|</td>
-            <td>
-              <span class="seqdb-s">𒨢.𒢖</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒨢.₁𒢖</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆊</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F218A</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒨢‍𒢖</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A22_u200D_u12948.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901477">|ŠEŠ~a.NA~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠEŠ~a.NA~a|</td>
-            <td>
-              <span class="seqdb-s">𒨱.𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒨱.₁𒤥</span>
+              <span class="seqdb-s">₁𒦞.₁𒮞</span>
             </td>
             <td>
               <div class="vbox">
@@ -2920,22 +2658,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒨱‍𒤥</span>
+              <span class="seqdb-lc">𒦞‍𒮞</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A31_u200D_u12A0B.liga</span>
+              <span class="seqdb-l">u1299E_u200D_u12D76.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901268">|ŠITA~a1.MUD₃~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠITA~a1.MUD₃~a|</td>
+            <td class="seqdb-n" data-oid="o0901707">|SAL.ZATU751~c|</td>
+            <td class="seqdb-n" data-oid="go">|SAL.ZATU751~c|</td>
             <td>
-              <span class="seqdb-s">𒨸.𒤏</span>
+              <span class="seqdb-s">𒦞.𒮟</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒨸.₁𒤏</span>
+              <span class="seqdb-s">₁𒦞.₁𒮟</span>
             </td>
             <td>
               <div class="vbox">
@@ -2948,22 +2686,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒨸‍𒤏</span>
+              <span class="seqdb-lc">𒦞‍𒮟</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A38_u200D_u129EF.liga</span>
+              <span class="seqdb-l">u1299E_u200D_uF300F.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902043">|ŠU₂.E₂~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.E₂~a|</td>
+            <td class="seqdb-n" data-oid="o0902072">|SU~a.KUR~a.RU|</td>
+            <td class="seqdb-n" data-oid="go">|SU~a.KUR~a.RU|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒝿</span>
+              <span class="seqdb-s">𒧳.𒢭.𒦒</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒝿</span>
+              <span class="seqdb-s">₁𒧳.₁𒢭.₁𒦒</span>
             </td>
             <td>
               <div class="vbox">
@@ -2976,22 +2714,242 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒝿</span>
+              <span class="seqdb-lc">𒧳‍𒢭‍𒦒</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u127CA.liga</span>
+              <span class="seqdb-l">u129F3_u200D_u128AD_u200D_u12AA5.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902044">|ŠU₂.E₂~b|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.E₂~b|</td>
+            <td class="seqdb-n" data-oid="o0901951">|ŠE~a.GAR|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a.GAR|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒞁</span>
+              <span class="seqdb-s">𒨞.𒟯</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒞁</span>
+              <span class="seqdb-s">₁𒨞.₁𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈠</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2220</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨞‍𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1E_u200D_u12868.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901951">|ŠE~a.GAR|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a@t.GAR|</td>
+            <td>
+              <span class="seqdb-s">󲆍.𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒨠.₁𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈡</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2221</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨠‍𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A20_u200D_u12868.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901953">|ŠE~a.KIN₂~c|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a.KIN₂~c|</td>
+            <td>
+              <span class="seqdb-s">𒨞.𒢖</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒨞.₁𒢖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆉</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2189</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨞‍𒢖</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1E_u200D_u12948.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901953">|ŠE~a@t.KIN₂~c|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a@t.KIN₂~c|</td>
+            <td>
+              <span class="seqdb-s">󲆍.𒢖</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒨠.₁𒢖</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆊</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F218A</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨠‍𒢖</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A20_u200D_u12948.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901955">|ŠE~a.NAM₂|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a.NAM₂|</td>
+            <td>
+              <span class="seqdb-s">𒨞.󲅀</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒨞.₂𒤶</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆋</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F218B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨞‍𒤶</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1E_u200D_u12A23.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901955">|ŠE~a.NAM₂|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a.NAM₂|~1</td>
+            <td>
+              <span class="seqdb-s">𒨞.𒤶</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒨞.₁𒤶</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆌</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F218C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv01">𒨞‍𒤶</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1E_u200D_u12A23.liga.cv01</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901301">|ŠE~a.ŠA|</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a∘ŠA|</td>
+            <td>
+              <span class="seqdb-s">𒨞∘𒨋</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒨞∘₁𒨋</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄦</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2126</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨞‍𒨋</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A1E_u200D_u12B37.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901301">|ŠE~a.ŠA.|</td>
+            <td class="seqdb-n" data-oid="go">|ŠA∘ŠE~a|</td>
+            <td>
+              <span class="seqdb-s">󲅾∘𒨞</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₄𒨋∘₁𒨞</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲄧</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2127</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒨋‍𒨞</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A0B_u200D_u12B52.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901967">ŠELU</td>
+            <td class="seqdb-n" data-oid="go">|ŠE~a.GUG₂|</td>
+            <td>
+              <span class="seqdb-s">𒨞.𒠹</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒨞.₁𒠹</span>
             </td>
             <td>
               <div class="vbox">
@@ -3004,102 +2962,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒞁</span>
+              <span class="seqdb-lc">𒨞‍𒠹</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u127CE.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~a|</td>
-            <td>
-              <span class="seqdb-s">󲆣.󲃇</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₃𒩉.₄𒞇</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆡</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F21A1</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒩉‍𒞇</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A49_u200D_u127D9.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~a|~1</td>
-            <td>
-              <span class="seqdb-s">󲆢.𒞇</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒩉.₁𒞇</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆟</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F219F</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv01">𒩉‍𒞇</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A49_u200D_u127D9.liga.cv01</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~a|~2</td>
-            <td>
-              <span class="seqdb-s">󲆢.󲃆</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒩉.₃𒞇</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆠</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F21A0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv02">𒩉‍𒞇</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A49_u200D_u127D9.liga.cv02</span>
+              <span class="seqdb-l">u12A1E_u200D_u128C8.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903634">|ŠU₂.EN~b|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~b|</td>
+            <td class="seqdb-n" data-oid="o0901477">|ŠEŠ~a.NA~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠEŠ~a.NA~a|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒞈</span>
+              <span class="seqdb-s">𒨮.𒤥</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒞈</span>
+              <span class="seqdb-s">₁𒨮.₁𒤥</span>
             </td>
             <td>
               <div class="vbox">
@@ -3112,22 +2990,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒞈</span>
+              <span class="seqdb-lc">𒨮‍𒤥</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u127DA.liga</span>
+              <span class="seqdb-l">u12A2E_u200D_u12A0B.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902049">|ŠU₂.GIŠ|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.GIŠ|</td>
+            <td class="seqdb-n" data-oid="o0901268">|ŠITA~a1.MUD₃~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠITA~a1.MUD₃~a|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒠟</span>
+              <span class="seqdb-s">𒨵.𒤏</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒠟</span>
+              <span class="seqdb-s">₁𒨵.₁𒤏</span>
             </td>
             <td>
               <div class="vbox">
@@ -3140,22 +3018,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒠟</span>
+              <span class="seqdb-lc">𒨵‍𒤏</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u128A7.liga</span>
+              <span class="seqdb-l">u12A35_u200D_u129EF.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902050">|ŠU₂.(HI×1(N57).HI×1(N57))|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.(HI×1(N57)).(HI×1(N57))|</td>
+            <td class="seqdb-n" data-oid="o0902043">|ŠU₂.E₂~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.E₂~a|</td>
             <td>
-              <span class="seqdb-s">󲆥.󲃹</span>
+              <span class="seqdb-s">󲆦.𒝿</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒡒∘₁𒡒</span>
+              <span class="seqdb-s">₅𒩆.₁𒝿</span>
             </td>
             <td>
               <div class="vbox">
@@ -3168,78 +3046,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒡒‍𒡒</span>
+              <span class="seqdb-lc">𒩆‍𒝿</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u12852_u200D_u128EC.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902054">|ŠU₂.PAP~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.PAP~a|</td>
-            <td>
-              <span class="seqdb-s">𒩉.𒦂</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒩉.₁𒦂</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲈝</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F221D</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒩉‍𒦂</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A49_u200D_u12A91.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u127CA.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902041">|ŠU₂.PAP~a.AN|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.AN|</td>
+            <td class="seqdb-n" data-oid="o0902044">|ŠU₂.E₂~b|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.E₂~b|</td>
             <td>
-              <span class="seqdb-s">𒩉.𒚷</span>
+              <span class="seqdb-s">󲆦.𒞁</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩉.₁𒚷</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆞</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F219E</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒩉‍𒚷</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A49_u200D_u126CC.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903635">|ŠU₂.URI₃~a|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.URI₃~a|</td>
-            <td>
-              <span class="seqdb-s">󲆥.𒫒</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₅𒩉.₁𒫒</span>
+              <span class="seqdb-s">₅𒩆.₁𒞁</span>
             </td>
             <td>
               <div class="vbox">
@@ -3252,22 +3074,102 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒫒</span>
+              <span class="seqdb-lc">𒩆‍𒞁</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u12C5F.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u127CE.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902051">|ŠU₂.1(N02)|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.1(N02)|</td>
+            <td class="seqdb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~a|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒖾</span>
+              <span class="seqdb-s">󲆤.󲃇</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒖾</span>
+              <span class="seqdb-s">₃𒩆.₄𒞇</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆢</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A2</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩆‍𒞇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A46_u200D_u127D9.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~a|~1</td>
+            <td>
+              <span class="seqdb-s">󲆣.𒞇</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒩆.₁𒞇</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆠</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv01">𒩆‍𒞇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A46_u200D_u127D9.liga.cv01</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902047">|ŠU₂.EN~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~a|~2</td>
+            <td>
+              <span class="seqdb-s">󲆣.󲃆</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒩆.₃𒞇</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆡</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A1</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒩆‍𒞇</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A46_u200D_u127D9.liga.cv02</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903634">|ŠU₂.EN~b|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.EN~b|</td>
+            <td>
+              <span class="seqdb-s">󲆦.𒞈</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₅𒩆.₁𒞈</span>
             </td>
             <td>
               <div class="vbox">
@@ -3280,22 +3182,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒖾</span>
+              <span class="seqdb-lc">𒩆‍𒞈</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u125BE.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u127DA.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902057">|ŠU₂.1(N24)|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.1(N24)|</td>
+            <td class="seqdb-n" data-oid="o0902049">|ŠU₂.GIŠ|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.GIŠ|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒖪</span>
+              <span class="seqdb-s">󲆦.𒠟</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒖪</span>
+              <span class="seqdb-s">₅𒩆.₁𒠟</span>
             </td>
             <td>
               <div class="vbox">
@@ -3308,22 +3210,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒖪</span>
+              <span class="seqdb-lc">𒩆‍𒠟</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_u125AA.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u128A7.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902052">|ŠU₂.2(N57)|</td>
-            <td class="seqdb-n" data-oid="go">|ŠU₂.2(N57)|</td>
+            <td class="seqdb-n" data-oid="o0902050">|ŠU₂.(HI×1(N57).HI×1(N57))|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.(HI×1(N57)).(HI×1(N57))|</td>
             <td>
-              <span class="seqdb-s">󲆥.𒯪</span>
+              <span class="seqdb-s">󲆦.󲃹</span>
             </td>
             <td>
-              <span class="seqdb-s">₅𒩉.₁𒯪</span>
+              <span class="seqdb-s">₅𒩆.₁𒡒∘₁𒡒</span>
             </td>
             <td>
               <div class="vbox">
@@ -3336,22 +3238,78 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩉‍𒯪</span>
+              <span class="seqdb-lc">𒩆‍𒡒‍𒡒</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A49_u200D_uF0111.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u12852_u200D_u128EC.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901071">|TE.A|</td>
-            <td class="seqdb-n" data-oid="go">|TE.A|</td>
+            <td class="seqdb-n" data-oid="o0902054">|ŠU₂.PAP~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.PAP~a|</td>
             <td>
-              <span class="seqdb-s">𒩠.𒚐</span>
+              <span class="seqdb-s">𒩆.𒦂</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩠.₁𒚐</span>
+              <span class="seqdb-s">₁𒩆.₁𒦂</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈝</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F221D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩆‍𒦂</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A46_u200D_u12A91.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902041">|ŠU₂.PAP~a.AN|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.AN|</td>
+            <td>
+              <span class="seqdb-s">𒩆.𒚷</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩆.₁𒚷</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆟</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F219F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩆‍𒚷</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A46_u200D_u126CC.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903635">|ŠU₂.URI₃~a|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.URI₃~a|</td>
+            <td>
+              <span class="seqdb-s">󲆦.𒫏</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₅𒩆.₁𒫏</span>
             </td>
             <td>
               <div class="vbox">
@@ -3364,22 +3322,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩠‍𒚐</span>
+              <span class="seqdb-lc">𒩆‍𒫏</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A60_u200D_u12690.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u12C5F.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902121">|TUG₂~a.BAD&amp;BAD|</td>
-            <td class="seqdb-n" data-oid="go">|TUG₂~a.BAD&amp;BAD|</td>
+            <td class="seqdb-n" data-oid="o0902051">|ŠU₂.1(N02)|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.1(N02)|</td>
             <td>
-              <span class="seqdb-s">𒩩.𒛆</span>
+              <span class="seqdb-s">󲆦.𒖾</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩩.₁𒛆</span>
+              <span class="seqdb-s">₅𒩆.₁𒖾</span>
             </td>
             <td>
               <div class="vbox">
@@ -3392,50 +3350,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩩‍𒛆</span>
+              <span class="seqdb-lc">𒩆‍𒖾</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A69_u200D_u126E0.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902150">|TUR₃~a.5(N57).5(N57)|</td>
-            <td class="seqdb-n" data-oid="go">|TUR₃~a.5(N57)|</td>
-            <td>
-              <span class="seqdb-s">𒩷.𒯭</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒩷.₁𒯭</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲈞</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F221E</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒩷‍𒯭</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A77_u200D_uF0114.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u125BE.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0900108">|U₄.AB~b|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.AB~b|</td>
+            <td class="seqdb-n" data-oid="o0902057">|ŠU₂.1(N24)|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.1(N24)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒚝</span>
+              <span class="seqdb-s">󲆦.𒖪</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒚝</span>
+              <span class="seqdb-s">₅𒩆.₁𒖪</span>
             </td>
             <td>
               <div class="vbox">
@@ -3448,22 +3378,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒚝</span>
+              <span class="seqdb-lc">𒩆‍𒖪</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u126A3.liga</span>
+              <span class="seqdb-l">u12A46_u200D_u125AA.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902177">|U₄.ŠU₂|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.ŠU₂|</td>
+            <td class="seqdb-n" data-oid="o0902052">|ŠU₂.2(N57)|</td>
+            <td class="seqdb-n" data-oid="go">|ŠU₂.2(N57)|</td>
             <td>
-              <span class="seqdb-s">𒩽.󲆥</span>
+              <span class="seqdb-s">󲆦.𒯧</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₅𒩉</span>
+              <span class="seqdb-s">₅𒩆.₁𒯧</span>
             </td>
             <td>
               <div class="vbox">
@@ -3476,22 +3406,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒩉</span>
+              <span class="seqdb-lc">𒩆‍𒯧</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12B98.liga</span>
+              <span class="seqdb-l">u12A46_u200D_uF0111.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902163">|U₄.1(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N08)|</td>
+            <td class="seqdb-n" data-oid="o0901071">|TE.A|</td>
+            <td class="seqdb-n" data-oid="go">|TE.A|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕙</span>
+              <span class="seqdb-s">𒩝.𒚐</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕙</span>
+              <span class="seqdb-s">₁𒩝.₁𒚐</span>
             </td>
             <td>
               <div class="vbox">
@@ -3504,22 +3434,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕙</span>
+              <span class="seqdb-lc">𒩝‍𒚐</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12559.liga</span>
+              <span class="seqdb-l">u12A5D_u200D_u12690.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902164">|U₄.2(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.2(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902121">|TUG₂~a.BAD&amp;BAD|</td>
+            <td class="seqdb-n" data-oid="go">|TUG₂~a.BAD&amp;BAD|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕚</span>
+              <span class="seqdb-s">𒩦.𒛆</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕚</span>
+              <span class="seqdb-s">₁𒩦.₁𒛆</span>
             </td>
             <td>
               <div class="vbox">
@@ -3532,22 +3462,50 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕚</span>
+              <span class="seqdb-lc">𒩦‍𒛆</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u1255A.liga</span>
+              <span class="seqdb-l">u12A66_u200D_u126E0.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902165">|U₄.3(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.3(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902150">|TUR₃~a.5(N57).5(N57)|</td>
+            <td class="seqdb-n" data-oid="go">|TUR₃~a.5(N57)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕛</span>
+              <span class="seqdb-s">𒩴.𒯪</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕛</span>
+              <span class="seqdb-s">₁𒩴.₁𒯪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈞</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F221E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩴‍𒯪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A74_u200D_uF0114.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0900108">|U₄.AB~b|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.AB~b|</td>
+            <td>
+              <span class="seqdb-s">𒩺.𒚝</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩺.₁𒚝</span>
             </td>
             <td>
               <div class="vbox">
@@ -3560,22 +3518,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕛</span>
+              <span class="seqdb-lc">𒩺‍𒚝</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u1255B.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u126A3.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902166">|U₄.4(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.4(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902177">|U₄.ŠU₂|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.ŠU₂|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕜</span>
+              <span class="seqdb-s">𒩺.󲆦</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕜</span>
+              <span class="seqdb-s">₁𒩺.₅𒩆</span>
             </td>
             <td>
               <div class="vbox">
@@ -3588,22 +3546,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕜</span>
+              <span class="seqdb-lc">𒩺‍𒩆</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u1255C.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12B98.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902167">|U₄.5(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.5(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902163">|U₄.1(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕝</span>
+              <span class="seqdb-s">𒩺.𒕙</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕝</span>
+              <span class="seqdb-s">₁𒩺.₁𒕙</span>
             </td>
             <td>
               <div class="vbox">
@@ -3616,22 +3574,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕝</span>
+              <span class="seqdb-lc">𒩺‍𒕙</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u1255D.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12559.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902168">|U₄.6(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.6(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902164">|U₄.2(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.2(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕞</span>
+              <span class="seqdb-s">𒩺.𒕚</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕞</span>
+              <span class="seqdb-s">₁𒩺.₁𒕚</span>
             </td>
             <td>
               <div class="vbox">
@@ -3644,22 +3602,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕞</span>
+              <span class="seqdb-lc">𒩺‍𒕚</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u1255E.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u1255A.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902169">|U₄.7(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.7(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902165">|U₄.3(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.3(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕟</span>
+              <span class="seqdb-s">𒩺.𒕛</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕟</span>
+              <span class="seqdb-s">₁𒩺.₁𒕛</span>
             </td>
             <td>
               <div class="vbox">
@@ -3672,22 +3630,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕟</span>
+              <span class="seqdb-lc">𒩺‍𒕛</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u1255F.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u1255B.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902170">|U₄.8(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.8(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902166">|U₄.4(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.4(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕠</span>
+              <span class="seqdb-s">𒩺.𒕜</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕠</span>
+              <span class="seqdb-s">₁𒩺.₁𒕜</span>
             </td>
             <td>
               <div class="vbox">
@@ -3700,22 +3658,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕠</span>
+              <span class="seqdb-lc">𒩺‍𒕜</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12560.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u1255C.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902171">|U₄.1(N14)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N14)|</td>
+            <td class="seqdb-n" data-oid="o0902167">|U₄.5(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.5(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕢</span>
+              <span class="seqdb-s">𒩺.𒕝</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕢</span>
+              <span class="seqdb-s">₁𒩺.₁𒕝</span>
             </td>
             <td>
               <div class="vbox">
@@ -3728,50 +3686,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕢</span>
+              <span class="seqdb-lc">𒩺‍𒕝</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12562.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902218">|U₄.1(N14).1(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N14).1(N08)|</td>
-            <td>
-              <span class="seqdb-s">𒩽.𒕢.𒕙</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒩽.₁𒕢.₁𒕙</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c"/>
-                </div>
-                <div>
-                  <span class="seqdb-h">0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒩽‍𒕢‍𒕙</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A7D_u200D_u12562_u200D_u12559.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u1255D.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902172">|U₄.1(N14).3(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N14).3(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902168">|U₄.6(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.6(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕢.𒕛</span>
+              <span class="seqdb-s">𒩺.𒕞</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕢.₁𒕛</span>
+              <span class="seqdb-s">₁𒩺.₁𒕞</span>
             </td>
             <td>
               <div class="vbox">
@@ -3784,22 +3714,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕢‍𒕛</span>
+              <span class="seqdb-lc">𒩺‍𒕞</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12562_u200D_u1255B.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u1255E.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902173">|U₄.1(N14).4(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N14).4(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902169">|U₄.7(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.7(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕢.𒕜</span>
+              <span class="seqdb-s">𒩺.𒕟</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕢.₁𒕜</span>
+              <span class="seqdb-s">₁𒩺.₁𒕟</span>
             </td>
             <td>
               <div class="vbox">
@@ -3812,22 +3742,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕢‍𒕜</span>
+              <span class="seqdb-lc">𒩺‍𒕟</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12562_u200D_u1255C.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u1255F.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902174">|U₄.1(N14).5(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N14).5(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902170">|U₄.8(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.8(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕢.𒕝</span>
+              <span class="seqdb-s">𒩺.𒕠</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕢.₁𒕝</span>
+              <span class="seqdb-s">₁𒩺.₁𒕠</span>
             </td>
             <td>
               <div class="vbox">
@@ -3840,22 +3770,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕢‍𒕝</span>
+              <span class="seqdb-lc">𒩺‍𒕠</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12562_u200D_u1255D.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12560.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902175">|U₄.1(N14).8(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N14).8(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902171">|U₄.1(N14)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N14)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕢.𒕠</span>
+              <span class="seqdb-s">𒩺.𒕢</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕢.₁𒕠</span>
+              <span class="seqdb-s">₁𒩺.₁𒕢</span>
             </td>
             <td>
               <div class="vbox">
@@ -3868,22 +3798,50 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕢‍𒕠</span>
+              <span class="seqdb-lc">𒩺‍𒕢</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12562_u200D_u12560.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12562.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902176">|U₄.2(N14)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.2(N14)|</td>
+            <td class="seqdb-n" data-oid="o0902218">|U₄.1(N14).1(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N14).1(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒕣</span>
+              <span class="seqdb-s">𒩺.𒕢.𒕙</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒕣</span>
+              <span class="seqdb-s">₁𒩺.₁𒕢.₁𒕙</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩺‍𒕢‍𒕙</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A7A_u200D_u12562_u200D_u12559.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902172">|U₄.1(N14).3(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N14).3(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩺.𒕢.𒕛</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩺.₁𒕢.₁𒕛</span>
             </td>
             <td>
               <div class="vbox">
@@ -3896,22 +3854,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒕣</span>
+              <span class="seqdb-lc">𒩺‍𒕢‍𒕛</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u12563.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12562_u200D_u1255B.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902219">|U₄.1(N24)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄.1(N24)|</td>
+            <td class="seqdb-n" data-oid="o0902173">|U₄.1(N14).4(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N14).4(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩽.𒖪</span>
+              <span class="seqdb-s">𒩺.𒕢.𒕜</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩽.₁𒖪</span>
+              <span class="seqdb-s">₁𒩺.₁𒕢.₁𒕜</span>
             </td>
             <td>
               <div class="vbox">
@@ -3924,22 +3882,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩽‍𒖪</span>
+              <span class="seqdb-lc">𒩺‍𒕢‍𒕜</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7D_u200D_u125AA.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12562_u200D_u1255C.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902179">|U₄×1(N01).5(N08)|</td>
-            <td class="seqdb-n" data-oid="go">|U₄×1(N01).5(N08)|</td>
+            <td class="seqdb-n" data-oid="o0902174">|U₄.1(N14).5(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N14).5(N08)|</td>
             <td>
-              <span class="seqdb-s">𒩾.𒕝</span>
+              <span class="seqdb-s">𒩺.𒕢.𒕝</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒩾.₁𒕝</span>
+              <span class="seqdb-s">₁𒩺.₁𒕢.₁𒕝</span>
             </td>
             <td>
               <div class="vbox">
@@ -3952,10 +3910,122 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒩾‍𒕝</span>
+              <span class="seqdb-lc">𒩺‍𒕢‍𒕝</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A7E_u200D_u1255D.liga</span>
+              <span class="seqdb-l">u12A7A_u200D_u12562_u200D_u1255D.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902175">|U₄.1(N14).8(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N14).8(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩺.𒕢.𒕠</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩺.₁𒕢.₁𒕠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉻</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227B</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩺‍𒕢‍𒕠</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A7A_u200D_u12562_u200D_u12560.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902176">|U₄.2(N14)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.2(N14)|</td>
+            <td>
+              <span class="seqdb-s">𒩺.𒕣</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩺.₁𒕣</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉼</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩺‍𒕣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A7A_u200D_u12563.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902219">|U₄.1(N24)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄.1(N24)|</td>
+            <td>
+              <span class="seqdb-s">𒩺.𒖪</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩺.₁𒖪</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉽</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩺‍𒖪</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A7A_u200D_u125AA.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902179">|U₄×1(N01).5(N08)|</td>
+            <td class="seqdb-n" data-oid="go">|U₄×1(N01).5(N08)|</td>
+            <td>
+              <span class="seqdb-s">𒩻.𒕝</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒩻.₁𒕝</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲉾</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F227E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩻‍𒕝</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A7B_u200D_u1255D.liga</span>
             </td>
           </tr>
         </tbody>
@@ -3972,10 +4042,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉻</span>
+                  <span class="seqdb-c">󲉿</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F227B</span>
+                  <span class="seqdb-h">F227F</span>
                 </div>
               </div>
             </td>
@@ -4000,10 +4070,10 @@
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉼</span>
+                  <span class="seqdb-c">󲊀</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F227C</span>
+                  <span class="seqdb-h">F2280</span>
                 </div>
               </div>
             </td>
@@ -4020,26 +4090,26 @@
             <td class="seqdb-n" data-oid="o0902187">|U₄×3(N01).3(N08)|</td>
             <td class="seqdb-n" data-oid="go">|U₄×3(N01).3(N08)|</td>
             <td>
-              <span class="seqdb-s">𒪀.𒕛</span>
+              <span class="seqdb-s">𒩽.𒕛</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒪀.₁𒕛</span>
+              <span class="seqdb-s">₁𒩽.₁𒕛</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉽</span>
+                  <span class="seqdb-c">󲊁</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F227D</span>
+                  <span class="seqdb-h">F2281</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒪀‍𒕛</span>
+              <span class="seqdb-lc">𒩽‍𒕛</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A80_u200D_u1255B.liga</span>
+              <span class="seqdb-l">u12A7D_u200D_u1255B.liga</span>
             </td>
           </tr>
         </tbody>
@@ -4048,26 +4118,26 @@
             <td class="seqdb-n" data-oid="o0902189">|U₄×4(N01).2(N14)|</td>
             <td class="seqdb-n" data-oid="go">|U₄×4(N01).2(N14)|</td>
             <td>
-              <span class="seqdb-s">𒪁.𒕣</span>
+              <span class="seqdb-s">𒩾.𒕣</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒪁.₁𒕣</span>
+              <span class="seqdb-s">₁𒩾.₁𒕣</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉾</span>
+                  <span class="seqdb-c">󲊂</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F227E</span>
+                  <span class="seqdb-h">F2282</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒪁‍𒕣</span>
+              <span class="seqdb-lc">𒩾‍𒕣</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A81_u200D_u12563.liga</span>
+              <span class="seqdb-l">u12A7E_u200D_u12563.liga</span>
             </td>
           </tr>
         </tbody>
@@ -4076,26 +4146,26 @@
             <td class="seqdb-n" data-oid="o0902191">|U₄×5(N01).1(N14)|</td>
             <td class="seqdb-n" data-oid="go">|U₄×5(N01).1(N14)|</td>
             <td>
-              <span class="seqdb-s">𒪂.𒕢</span>
+              <span class="seqdb-s">𒩿.𒕢</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒪂.₁𒕢</span>
+              <span class="seqdb-s">₁𒩿.₁𒕢</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲉿</span>
+                  <span class="seqdb-c">󲊃</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F227F</span>
+                  <span class="seqdb-h">F2283</span>
                 </div>
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒪂‍𒕢</span>
+              <span class="seqdb-lc">𒩿‍𒕢</span>
             </td>
             <td>
-              <span class="seqdb-l">u12A82_u200D_u12562.liga</span>
+              <span class="seqdb-l">u12A7F_u200D_u12562.liga</span>
             </td>
           </tr>
         </tbody>
@@ -4132,256 +4202,10 @@
             <td class="seqdb-n" data-oid="o0902334">|URI₃~a.AB~a|</td>
             <td class="seqdb-n" data-oid="go">|URI₃~a.AB~a|</td>
             <td>
-              <span class="seqdb-s">𒫒.𒚖</span>
+              <span class="seqdb-s">𒫏.𒚖</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒫒.₁𒚖</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊀</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2280</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒫒‍𒚖</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AD2_u200D_u12698.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902336">|URI₃~a.IB~a|</td>
-            <td class="seqdb-n" data-oid="go">|URI₃~a.IB~a|</td>
-            <td>
-              <span class="seqdb-s">𒫒.𒡘</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒫒.₁𒡘</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊁</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2281</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒫒‍𒡘</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AD2_u200D_u128F4.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
-            <td class="seqdb-n" data-oid="go">|URI₃~a∘NA~a|</td>
-            <td>
-              <span class="seqdb-s">󲇃∘𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒫒∘₁𒤥</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲅄</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2144</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒫒‍𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AD2_u200D_u12A0B.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
-            <td class="seqdb-n" data-oid="go">|URI₃~a.NA~a|</td>
-            <td>
-              <span class="seqdb-s">󲇃.𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒫒.₁𒤥</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲅃</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2143</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv01">𒫒‍𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AD2_u200D_u12A0B.liga.cv01</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
-            <td class="seqdb-n" data-oid="go">|URI₃~a.NA~a|~1</td>
-            <td>
-              <span class="seqdb-s">𒫒.𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒫒.₁𒤥</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲅅</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2145</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv02">𒫒‍𒤥</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AD2_u200D_u12A0B.liga.cv02</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902330">|URI₃~a.UNUG~a|</td>
-            <td class="seqdb-n" data-oid="go">|URI₃~a.UNUG~a|</td>
-            <td>
-              <span class="seqdb-s">𒫒.𒪻</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒫒.₁𒪻</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊂</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2282</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒫒‍𒪻</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AD2_u200D_u12C44.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901017">|UŠ~a.KUR~a|</td>
-            <td class="seqdb-n" data-oid="go">|UŠ~a.KUR~a|</td>
-            <td>
-              <span class="seqdb-s">󲇆.𒢭</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒫧.₁𒢭</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲃿</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F20FF</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒫧‍𒢭</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AE7_u200D_u1296C.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901017">|UŠ~a.KUR~a|</td>
-            <td class="seqdb-n" data-oid="go">|UŠ~b.KUR~a|</td>
-            <td>
-              <span class="seqdb-s">󲇇.𒢭</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒫩.₁𒢭</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲃾</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F20FE</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒫩‍𒢭</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12AE9_u200D_u1296C.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902614">|ZATU714.RU|</td>
-            <td class="seqdb-n" data-oid="go">|ZATU714.RU|</td>
-            <td>
-              <span class="seqdb-s">𒭴.󲅞</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒭴.₂𒦒</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊃</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2283</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒭴‍𒦒</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12B74_u200D_u12AA5.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903211">|1(N57).AB₂|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).AB₂|</td>
-            <td>
-              <span class="seqdb-s">𒯩.𒚞</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯩.₁𒚞</span>
+              <span class="seqdb-s">₁𒫏.₁𒚖</span>
             </td>
             <td>
               <div class="vbox">
@@ -4394,22 +4218,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯩‍𒚞</span>
+              <span class="seqdb-lc">𒫏‍𒚖</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BE9_u200D_u126A7.liga</span>
+              <span class="seqdb-l">u12ACF_u200D_u12698.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903223">|2(N57).AB₂|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).AB₂|</td>
+            <td class="seqdb-n" data-oid="o0902336">|URI₃~a.IB~a|</td>
+            <td class="seqdb-n" data-oid="go">|URI₃~a.IB~a|</td>
             <td>
-              <span class="seqdb-s">𒯪.𒚞</span>
+              <span class="seqdb-s">𒫏.𒡘</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁𒚞</span>
+              <span class="seqdb-s">₁𒫏.₁𒡘</span>
             </td>
             <td>
               <div class="vbox">
@@ -4422,22 +4246,102 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒚞</span>
+              <span class="seqdb-lc">𒫏‍𒡘</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u126A7.liga</span>
+              <span class="seqdb-l">u12ACF_u200D_u128F4.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903235">|3(N57).AMAR|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).AMAR|</td>
+            <td class="seqdb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
+            <td class="seqdb-n" data-oid="go">|URI₃~a∘NA~a|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒚴</span>
+              <span class="seqdb-s">󲇄∘𒤥</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒚴</span>
+              <span class="seqdb-s">₂𒫏∘₁𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅄</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2144</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒫏‍𒤥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12ACF_u200D_u12A0B.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
+            <td class="seqdb-n" data-oid="go">|URI₃~a.NA~a|</td>
+            <td>
+              <span class="seqdb-s">󲇄.𒤥</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒫏.₁𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅃</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2143</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv01">𒫏‍𒤥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12ACF_u200D_u12A0B.liga.cv01</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901475">|URI₃~a.NA~a|</td>
+            <td class="seqdb-n" data-oid="go">|URI₃~a.NA~a|~1</td>
+            <td>
+              <span class="seqdb-s">𒫏.𒤥</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒫏.₁𒤥</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲅅</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2145</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv02">𒫏‍𒤥</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12ACF_u200D_u12A0B.liga.cv02</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902330">|URI₃~a.UNUG~a|</td>
+            <td class="seqdb-n" data-oid="go">|URI₃~a.UNUG~a|</td>
+            <td>
+              <span class="seqdb-s">𒫏.𒪸</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒫏.₁𒪸</span>
             </td>
             <td>
               <div class="vbox">
@@ -4450,22 +4354,76 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒚴</span>
+              <span class="seqdb-lc">𒫏‍𒪸</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u126C5.liga</span>
+              <span class="seqdb-l">u12ACF_u200D_u12C44.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903258">|4(N57).AMAR|</td>
-            <td class="seqdb-n" data-oid="go">|4(N57).AMAR|</td>
+            <td class="seqdb-n" data-oid="o0901017">|UŠ~a.KUR~a|</td>
+            <td class="seqdb-n" data-oid="go">|UŠ~a.KUR~a|</td>
             <td>
-              <span class="seqdb-s">𒯬.𒚴</span>
+              <span class="seqdb-s">󲇇.𒢭</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯬.₁𒚴</span>
+              <span class="seqdb-s">₂𒫤.₁𒢭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃿</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20FF</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒫤‍𒢭</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AE4_u200D_u1296C.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901017">|UŠ~a.KUR~a|</td>
+            <td class="seqdb-n" data-oid="go">|UŠ~b.KUR~a|</td>
+            <td>
+              <span class="seqdb-s">󲇈.𒢭</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒫦.₁𒢭</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲃾</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F20FE</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒫦‍𒢭</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12AE6_u200D_u1296C.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902614">|ZATU714.RU|</td>
+            <td class="seqdb-n" data-oid="go">|ZATU714.RU|</td>
+            <td>
+              <span class="seqdb-s">𒭱.󲅟</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒭱.₂𒦒</span>
             </td>
             <td>
               <div class="vbox">
@@ -4478,50 +4436,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯬‍𒚴</span>
+              <span class="seqdb-lc">𒭱‍𒦒</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEC_u200D_u126C5.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903236">|3(N57).AZ|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).AZ|</td>
-            <td>
-              <span class="seqdb-s">𒯫.𒛂</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯫.₁𒛂</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c"/>
-                </div>
-                <div>
-                  <span class="seqdb-h">0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯫‍𒛂</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEB_u200D_u126DC.liga</span>
+              <span class="seqdb-l">u12B71_u200D_u12AA5.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903238">|3(N57).BAR×UŠ~a|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).BAR×UŠ~a|</td>
+            <td class="seqdb-n" data-oid="o0903211">|1(N57).AB₂|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).AB₂|</td>
             <td>
-              <span class="seqdb-s">𒯫.󲕎</span>
+              <span class="seqdb-s">𒯦.𒚞</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁󲕎</span>
+              <span class="seqdb-s">₁𒯦.₁𒚞</span>
             </td>
             <td>
               <div class="vbox">
@@ -4534,22 +4464,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍󲕎</span>
+              <span class="seqdb-lc">𒯦‍𒚞</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_uF3095.liga</span>
+              <span class="seqdb-l">u12BE6_u200D_u126A7.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903239">|3(N57).BARA₃|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).BARA₃|</td>
+            <td class="seqdb-n" data-oid="o0903223">|2(N57).AB₂|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).AB₂|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒛠</span>
+              <span class="seqdb-s">𒯧.𒚞</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒛠</span>
+              <span class="seqdb-s">₁𒯧.₁𒚞</span>
             </td>
             <td>
               <div class="vbox">
@@ -4562,22 +4492,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒛠</span>
+              <span class="seqdb-lc">𒯧‍𒚞</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12702.liga</span>
+              <span class="seqdb-l">u12BE7_u200D_u126A7.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903225">|2(N57).BIR₃~a|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).BIR₃~a|</td>
+            <td class="seqdb-n" data-oid="o0903235">|3(N57).AMAR|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).AMAR|</td>
             <td>
-              <span class="seqdb-s">𒯪.𒛤</span>
+              <span class="seqdb-s">𒯨.𒚴</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁𒛤</span>
+              <span class="seqdb-s">₁𒯨.₁𒚴</span>
             </td>
             <td>
               <div class="vbox">
@@ -4590,78 +4520,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒛤</span>
+              <span class="seqdb-lc">𒯨‍𒚴</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u12706.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903212">|1(N57).BU₃|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).BU₃|</td>
-            <td>
-              <span class="seqdb-s">𒯩.𒛮</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯩.₁𒛮</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c"/>
-                </div>
-                <div>
-                  <span class="seqdb-h">0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯩‍𒛮</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BE9_u200D_u12718.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u126C5.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903564">|2(N57).DU₆~a@n|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).DU₆~a@n|</td>
+            <td class="seqdb-n" data-oid="o0903258">|4(N57).AMAR|</td>
+            <td class="seqdb-n" data-oid="go">|4(N57).AMAR|</td>
             <td>
-              <span class="seqdb-s">𒯪.󲕊</span>
+              <span class="seqdb-s">𒯩.𒚴</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁󲕊</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c"/>
-                </div>
-                <div>
-                  <span class="seqdb-h">0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯪‍󲕊</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEA_u200D_uF3089.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903214">|1(N57).E₂~a|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).E₂~a|</td>
-            <td>
-              <span class="seqdb-s">𒯩.𒝿</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯩.₁𒝿</span>
+              <span class="seqdb-s">₁𒯩.₁𒚴</span>
             </td>
             <td>
               <div class="vbox">
@@ -4674,50 +4548,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯩‍𒝿</span>
+              <span class="seqdb-lc">𒯩‍𒚴</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BE9_u200D_u127CA.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903241">|3(N57).E₂~b|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).E₂~b|</td>
-            <td>
-              <span class="seqdb-s">𒯫.𒞁</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯫.₁𒞁</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊌</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F228C</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯫‍𒞁</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEB_u200D_u127CE.liga</span>
+              <span class="seqdb-l">u12BE9_u200D_u126C5.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903242">|3(N57).EN₂|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).EN₂|</td>
+            <td class="seqdb-n" data-oid="o0903236">|3(N57).AZ|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).AZ|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒞍</span>
+              <span class="seqdb-s">𒯨.𒛂</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒞍</span>
+              <span class="seqdb-s">₁𒯨.₁𒛂</span>
             </td>
             <td>
               <div class="vbox">
@@ -4730,22 +4576,50 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒞍</span>
+              <span class="seqdb-lc">𒯨‍𒛂</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u127E3.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u126DC.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903243">|3(N57).GAR|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="o0903238">|3(N57).BAR×UŠ~a|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).BAR×UŠ~a|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒟯</span>
+              <span class="seqdb-s">𒯨.󲕎</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒟯</span>
+              <span class="seqdb-s">₁𒯨.₁󲕎</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊌</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228C</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍󲕎</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_uF3095.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903239">|3(N57).BARA₃|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).BARA₃|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒛠</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒛠</span>
             </td>
             <td>
               <div class="vbox">
@@ -4754,6 +4628,286 @@
                 </div>
                 <div>
                   <span class="seqdb-h">F228D</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒛠</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12702.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903225">|2(N57).BIR₃~a|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).BIR₃~a|</td>
+            <td>
+              <span class="seqdb-s">𒯧.𒛤</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯧.₁𒛤</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊎</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228E</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯧‍𒛤</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE7_u200D_u12706.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903212">|1(N57).BU₃|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).BU₃|</td>
+            <td>
+              <span class="seqdb-s">𒯦.𒛮</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯦.₁𒛮</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯦‍𒛮</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE6_u200D_u12718.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903564">|2(N57).DU₆~a@n|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).DU₆~a@n|</td>
+            <td>
+              <span class="seqdb-s">𒯧.󲕊</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯧.₁󲕊</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯧‍󲕊</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE7_u200D_uF3089.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903214">|1(N57).E₂~a|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).E₂~a|</td>
+            <td>
+              <span class="seqdb-s">𒯦.𒝿</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯦.₁𒝿</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊏</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F228F</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯦‍𒝿</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE6_u200D_u127CA.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903241">|3(N57).E₂~b|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).E₂~b|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒞁</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒞁</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊐</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2290</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒞁</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u127CE.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903242">|3(N57).EN₂|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).EN₂|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒞍</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒞍</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒞍</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u127E3.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903243">|3(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊑</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2291</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12868.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903259">|4(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="go">|4(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">𒯩.𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯩.₁𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊒</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2292</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯩‍𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE9_u200D_u12868.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903265">|5(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="go">|5(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">𒯪.𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯪.₁𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊓</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2293</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯪‍𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BEA_u200D_u12868.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903270">|6(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="go">|6(N57).GAR|</td>
+            <td>
+              <span class="seqdb-s">󲈗.𒟯</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₂𒯫.₁𒟯</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊔</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2294</span>
                 </div>
               </div>
             </td>
@@ -4767,21 +4921,21 @@
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903259">|4(N57).GAR|</td>
-            <td class="seqdb-n" data-oid="go">|4(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="o0903274">|7(N57).GAR|</td>
+            <td class="seqdb-n" data-oid="go">|7(N57).GAR|</td>
             <td>
-              <span class="seqdb-s">𒯬.𒟯</span>
+              <span class="seqdb-s">󲈘.𒟯</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯬.₁𒟯</span>
+              <span class="seqdb-s">₂𒯬.₁𒟯</span>
             </td>
             <td>
               <div class="vbox">
                 <div>
-                  <span class="seqdb-c">󲊎</span>
+                  <span class="seqdb-c">󲈤</span>
                 </div>
                 <div>
-                  <span class="seqdb-h">F228E</span>
+                  <span class="seqdb-h">F2224</span>
                 </div>
               </div>
             </td>
@@ -4795,209 +4949,13 @@
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903265">|5(N57).GAR|</td>
-            <td class="seqdb-n" data-oid="go">|5(N57).GAR|</td>
-            <td>
-              <span class="seqdb-s">𒯭.𒟯</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯭.₁𒟯</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊏</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F228F</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯭‍𒟯</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BED_u200D_u12868.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903270">|6(N57).GAR|</td>
-            <td class="seqdb-n" data-oid="go">|6(N57).GAR|</td>
-            <td>
-              <span class="seqdb-s">󲈖.𒟯</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒯮.₁𒟯</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊐</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2290</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯮‍𒟯</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEE_u200D_u12868.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903274">|7(N57).GAR|</td>
-            <td class="seqdb-n" data-oid="go">|7(N57).GAR|</td>
-            <td>
-              <span class="seqdb-s">󲈗.𒟯</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒯯.₁𒟯</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲈡</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2221</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯯‍𒟯</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEF_u200D_u12868.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
             <td class="seqdb-n" data-oid="o0903261">|4(N57).KU₃~a|</td>
             <td class="seqdb-n" data-oid="go">|4(N57).KU₃~a|</td>
             <td>
-              <span class="seqdb-s">𒯬.𒢨</span>
+              <span class="seqdb-s">𒯩.𒢨</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯬.₁𒢨</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊑</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2291</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯬‍𒢨</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEC_u200D_u12963.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903267">|5(N57).KU₃~a|</td>
-            <td class="seqdb-n" data-oid="go">|5(N57).KU₃~a|</td>
-            <td>
-              <span class="seqdb-s">𒯭.𒢨</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯭.₁𒢨</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊒</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2292</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯭‍𒢨</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BED_u200D_u12963.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903272">|6(N57).KU₃~a|</td>
-            <td class="seqdb-n" data-oid="go">|6(N57).KU₃~a|</td>
-            <td>
-              <span class="seqdb-s">󲈖.𒢨</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₂𒯮.₁𒢨</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊓</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2293</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯮‍𒢨</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEE_u200D_u12963.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903227">|2(N57).KU₆~a|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).KU₆~a|</td>
-            <td>
-              <span class="seqdb-s">𒯪.𒢪</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯪.₁𒢪</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲊔</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2294</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯪‍𒢪</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEA_u200D_u12965.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0900109">|3(N57).LAM~a.KUR~a.RU|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).LAM~a.KUR~a.RU|</td>
-            <td>
-              <span class="seqdb-s">𒯫.𒣝.𒢭.𒦒</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯫.₁𒣝.₁𒢭.₁𒦒</span>
+              <span class="seqdb-s">₁𒯩.₁𒢨</span>
             </td>
             <td>
               <div class="vbox">
@@ -5010,22 +4968,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒣝‍𒢭‍𒦒</span>
+              <span class="seqdb-lc">𒯩‍𒢨</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u128DD_u200D_u128AD_u200D_u12AA5.liga</span>
+              <span class="seqdb-l">u12BE9_u200D_u12963.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901430">|1(N57).MUŠEN|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).MUŠEN|</td>
+            <td class="seqdb-n" data-oid="o0903267">|5(N57).KU₃~a|</td>
+            <td class="seqdb-n" data-oid="go">|5(N57).KU₃~a|</td>
             <td>
-              <span class="seqdb-s">𒯩.𒤡</span>
+              <span class="seqdb-s">𒯪.𒢨</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯩.₁𒤡</span>
+              <span class="seqdb-s">₁𒯪.₁𒢨</span>
             </td>
             <td>
               <div class="vbox">
@@ -5038,22 +4996,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯩‍𒤡</span>
+              <span class="seqdb-lc">𒯪‍𒢨</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BE9_u200D_u12A05.liga</span>
+              <span class="seqdb-l">u12BEA_u200D_u12963.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901431">|2(N57).MUŠEN|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).MUŠEN|</td>
+            <td class="seqdb-n" data-oid="o0903272">|6(N57).KU₃~a|</td>
+            <td class="seqdb-n" data-oid="go">|6(N57).KU₃~a|</td>
             <td>
-              <span class="seqdb-s">𒯪.𒤡</span>
+              <span class="seqdb-s">󲈗.𒢨</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁𒤡</span>
+              <span class="seqdb-s">₂𒯫.₁𒢨</span>
             </td>
             <td>
               <div class="vbox">
@@ -5066,22 +5024,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒤡</span>
+              <span class="seqdb-lc">𒯫‍𒢨</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u12A05.liga</span>
+              <span class="seqdb-l">u12BEB_u200D_u12963.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0901432">|3(N57).MUŠEN|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).MUŠEN|</td>
+            <td class="seqdb-n" data-oid="o0903227">|2(N57).KU₆~a|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).KU₆~a|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒤡</span>
+              <span class="seqdb-s">𒯧.𒢪</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒤡</span>
+              <span class="seqdb-s">₁𒯧.₁𒢪</span>
             </td>
             <td>
               <div class="vbox">
@@ -5094,22 +5052,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒤡</span>
+              <span class="seqdb-lc">𒯧‍𒢪</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12A05.liga</span>
+              <span class="seqdb-l">u12BE7_u200D_u12965.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903245">|3(N57).NUNUZ~a1|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).NUNUZ~a1|</td>
+            <td class="seqdb-n" data-oid="o0900109">|3(N57).LAM~a.KUR~a.RU|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).LAM~a.KUR~a.RU|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒥺</span>
+              <span class="seqdb-s">𒯨.𒣝.𒢭.𒦒</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒥺</span>
+              <span class="seqdb-s">₁𒯨.₁𒣝.₁𒢭.₁𒦒</span>
             </td>
             <td>
               <div class="vbox">
@@ -5122,22 +5080,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒥺</span>
+              <span class="seqdb-lc">𒯨‍𒣝‍𒢭‍𒦒</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12A82.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u128DD_u200D_u128AD_u200D_u12AA5.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903246">|3(N57).NUNUZ~c|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).NUNUZ~c|</td>
+            <td class="seqdb-n" data-oid="o0901430">|1(N57).MUŠEN|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).MUŠEN|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒥽</span>
+              <span class="seqdb-s">𒯦.𒤡</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒥽</span>
+              <span class="seqdb-s">₁𒯦.₁𒤡</span>
             </td>
             <td>
               <div class="vbox">
@@ -5150,22 +5108,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒥽</span>
+              <span class="seqdb-lc">𒯦‍𒤡</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12A87.liga</span>
+              <span class="seqdb-l">u12BE6_u200D_u12A05.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903248">|3(N57).PIRIG~b1|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).PIRIG~b1|</td>
+            <td class="seqdb-n" data-oid="o0901431">|2(N57).MUŠEN|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).MUŠEN|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒦈</span>
+              <span class="seqdb-s">𒯧.𒤡</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒦈</span>
+              <span class="seqdb-s">₁𒯧.₁𒤡</span>
             </td>
             <td>
               <div class="vbox">
@@ -5178,132 +5136,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒦈</span>
+              <span class="seqdb-lc">𒯧‍𒤡</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12A98.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902071">|3(N57).RU|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).RU|</td>
-            <td>
-              <span class="seqdb-s">𒯫.𒦒</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯫.₁𒦒</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆩</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F21A9</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯫‍𒦒</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEB_u200D_u12AA5.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0902071">|3(N57).RU|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).RU|~1</td>
-            <td>
-              <span class="seqdb-s">𒯫.󲅞</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯫.₂𒦒</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲆨</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F21A8</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc cv01">𒯫‍𒦒</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEB_u200D_u12AA5.liga.cv01</span>
+              <span class="seqdb-l">u12BE7_u200D_u12A05.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903250">|3(N57).SANGA~b|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).SANGA~a|</td>
+            <td class="seqdb-n" data-oid="o0901432">|3(N57).MUŠEN|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).MUŠEN|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒦠</span>
+              <span class="seqdb-s">𒯨.𒤡</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒦠</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c"/>
-                </div>
-                <div>
-                  <span class="seqdb-h">0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯫‍𒦠</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEB_u200D_u12ABC.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903251">|3(N57).SI|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).SI|</td>
-            <td>
-              <span class="seqdb-s">𒯫.𒦩</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯫.₁𒦩</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c"/>
-                </div>
-                <div>
-                  <span class="seqdb-h">0</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯫‍𒦩</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BEB_u200D_u12AC7.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0901748">|1(N57).SIG|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).SIG|</td>
-            <td>
-              <span class="seqdb-s">𒯩.𒦷</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯩.₁𒦷</span>
+              <span class="seqdb-s">₁𒯨.₁𒤡</span>
             </td>
             <td>
               <div class="vbox">
@@ -5316,22 +5164,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯩‍𒦷</span>
+              <span class="seqdb-lc">𒯨‍𒤡</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BE9_u200D_u12ACF.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u12A05.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903230">|2(N57).SU~a|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).SU~a|</td>
+            <td class="seqdb-n" data-oid="o0903245">|3(N57).NUNUZ~a1|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).NUNUZ~a1|</td>
             <td>
-              <span class="seqdb-s">𒯪.󲅳</span>
+              <span class="seqdb-s">𒯨.𒥺</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₂𒧴</span>
+              <span class="seqdb-s">₁𒯨.₁𒥺</span>
             </td>
             <td>
               <div class="vbox">
@@ -5344,22 +5192,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒧴</span>
+              <span class="seqdb-lc">𒯨‍𒥺</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u12B1D.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u12A82.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903219">|1(N57).ŠAH₂~a|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).ŠAH₂~a|</td>
+            <td class="seqdb-n" data-oid="o0903246">|3(N57).NUNUZ~c|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).NUNUZ~c|</td>
             <td>
-              <span class="seqdb-s">𒯩.𒨘</span>
+              <span class="seqdb-s">𒯨.𒥽</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯩.₁𒨘</span>
+              <span class="seqdb-s">₁𒯨.₁𒥽</span>
             </td>
             <td>
               <div class="vbox">
@@ -5372,76 +5220,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯩‍𒨘</span>
+              <span class="seqdb-lc">𒯨‍𒥽</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BE9_u200D_u12B49.liga</span>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903220">|1(N57).ŠUBUR|</td>
-            <td class="seqdb-n" data-oid="go">|ŠUBUR×1(N57)|</td>
-            <td>
-              <span class="seqdb-s">𒩋×𒯩</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒩋×₁𒯩</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲈒</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2212</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒩋‍𒯩</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12A4B_u200D_uF0110.liga</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="seqdb-n" data-oid="o0903221">|1(N57).ŠUBUR|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).ŠUBUR|</td>
-            <td>
-              <span class="seqdb-s">𒯩.𒩋</span>
-            </td>
-            <td>
-              <span class="seqdb-s">₁𒯩.₁𒩋</span>
-            </td>
-            <td>
-              <div class="vbox">
-                <div>
-                  <span class="seqdb-c">󲈓</span>
-                </div>
-                <div>
-                  <span class="seqdb-h">F2213</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <span class="seqdb-lc">𒯩‍𒩋</span>
-            </td>
-            <td>
-              <span class="seqdb-l">u12BE9_u200D_u12B9E.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u12A87.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903231">|2(N57).ŠUBUR|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).ŠUBUR|</td>
+            <td class="seqdb-n" data-oid="o0903248">|3(N57).PIRIG~b1|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).PIRIG~b1|</td>
             <td>
-              <span class="seqdb-s">𒯪.𒩋</span>
+              <span class="seqdb-s">𒯨.𒦈</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁𒩋</span>
+              <span class="seqdb-s">₁𒯨.₁𒦈</span>
             </td>
             <td>
               <div class="vbox">
@@ -5454,22 +5248,132 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒩋</span>
+              <span class="seqdb-lc">𒯨‍𒦈</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u12B9E.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u12A98.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903252">|3(N57).ŠUBUR|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).ŠUBUR|</td>
+            <td class="seqdb-n" data-oid="o0902071">|3(N57).RU|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).RU|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒩋</span>
+              <span class="seqdb-s">𒯨.𒦒</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒩋</span>
+              <span class="seqdb-s">₁𒯨.₁𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆪</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21AA</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒦒</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12AA5.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902071">|3(N57).RU|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).RU|~1</td>
+            <td>
+              <span class="seqdb-s">𒯨.󲅟</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₂𒦒</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲆩</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F21A9</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc cv01">𒯨‍𒦒</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12AA5.liga.cv01</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903250">|3(N57).SANGA~b|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).SANGA~a|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒦠</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒦠</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒦠</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12ABC.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903251">|3(N57).SI|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).SI|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒦨</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒦨</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c"/>
+                </div>
+                <div>
+                  <span class="seqdb-h">0</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒦨</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12AC7.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0901748">|1(N57).SIG|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).SIG|</td>
+            <td>
+              <span class="seqdb-s">𒯦.𒦶</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯦.₁𒦶</span>
             </td>
             <td>
               <div class="vbox">
@@ -5482,22 +5386,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒩋</span>
+              <span class="seqdb-lc">𒯦‍𒦶</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12B9E.liga</span>
+              <span class="seqdb-l">u12BE6_u200D_u12ACF.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903254">|3(N57).UDU~a|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).UDU~a|</td>
+            <td class="seqdb-n" data-oid="o0903230">|2(N57).SU~a|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).SU~a|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒪢</span>
+              <span class="seqdb-s">𒯧.󲅳</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒪢</span>
+              <span class="seqdb-s">₁𒯧.₂𒧳</span>
             </td>
             <td>
               <div class="vbox">
@@ -5510,22 +5414,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒪢</span>
+              <span class="seqdb-lc">𒯧‍𒧳</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12C25.liga</span>
+              <span class="seqdb-l">u12BE7_u200D_u12B1D.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903233">|2(N57).UDUNITA~a|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).UDUNITA~a|</td>
+            <td class="seqdb-n" data-oid="o0903219">|1(N57).ŠAH₂~a|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).ŠAH₂~a|</td>
             <td>
-              <span class="seqdb-s">𒯪.𒪦</span>
+              <span class="seqdb-s">𒯦.𒨗</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁𒪦</span>
+              <span class="seqdb-s">₁𒯦.₁𒨗</span>
             </td>
             <td>
               <div class="vbox">
@@ -5538,22 +5442,76 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒪦</span>
+              <span class="seqdb-lc">𒯦‍𒨗</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u12C2A.liga</span>
+              <span class="seqdb-l">u12BE6_u200D_u12B49.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0903256">|3(N57).UDUNITA~a|</td>
-            <td class="seqdb-n" data-oid="go">|3(N57).UDUNITA~a|</td>
+            <td class="seqdb-n" data-oid="o0903220">|1(N57).ŠUBUR|</td>
+            <td class="seqdb-n" data-oid="go">|ŠUBUR×1(N57)|</td>
             <td>
-              <span class="seqdb-s">𒯫.𒪦</span>
+              <span class="seqdb-s">𒩈×𒯦</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯫.₁𒪦</span>
+              <span class="seqdb-s">₁𒩈×₁𒯦</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈓</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2213</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒩈‍𒯦</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12A48_u200D_uF0110.liga</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903221">|1(N57).ŠUBUR|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).ŠUBUR|</td>
+            <td>
+              <span class="seqdb-s">𒯦.𒩈</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯦.₁𒩈</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲈔</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F2214</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯦‍𒩈</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE6_u200D_u12B9E.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903231">|2(N57).ŠUBUR|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).ŠUBUR|</td>
+            <td>
+              <span class="seqdb-s">𒯧.𒩈</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯧.₁𒩈</span>
             </td>
             <td>
               <div class="vbox">
@@ -5566,22 +5524,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯫‍𒪦</span>
+              <span class="seqdb-lc">𒯧‍𒩈</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEB_u200D_u12C2A.liga</span>
+              <span class="seqdb-l">u12BE7_u200D_u12B9E.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902357">|1(N57).URU~a1|</td>
-            <td class="seqdb-n" data-oid="go">|1(N57).URU~a1|</td>
+            <td class="seqdb-n" data-oid="o0903252">|3(N57).ŠUBUR|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).ŠUBUR|</td>
             <td>
-              <span class="seqdb-s">𒯩.𒫔</span>
+              <span class="seqdb-s">𒯨.𒩈</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯩.₁𒫔</span>
+              <span class="seqdb-s">₁𒯨.₁𒩈</span>
             </td>
             <td>
               <div class="vbox">
@@ -5594,22 +5552,22 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯩‍𒫔</span>
+              <span class="seqdb-lc">𒯨‍𒩈</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BE9_u200D_u12C63.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u12B9E.liga</span>
             </td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td class="seqdb-n" data-oid="o0902359">|2(N57).URU~a1|</td>
-            <td class="seqdb-n" data-oid="go">|2(N57).URU~a1|</td>
+            <td class="seqdb-n" data-oid="o0903254">|3(N57).UDU~a|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).UDU~a|</td>
             <td>
-              <span class="seqdb-s">𒯪.𒫔</span>
+              <span class="seqdb-s">𒯨.𒪟</span>
             </td>
             <td>
-              <span class="seqdb-s">₁𒯪.₁𒫔</span>
+              <span class="seqdb-s">₁𒯨.₁𒪟</span>
             </td>
             <td>
               <div class="vbox">
@@ -5622,10 +5580,122 @@
               </div>
             </td>
             <td>
-              <span class="seqdb-lc">𒯪‍𒫔</span>
+              <span class="seqdb-lc">𒯨‍𒪟</span>
             </td>
             <td>
-              <span class="seqdb-l">u12BEA_u200D_u12C63.liga</span>
+              <span class="seqdb-l">u12BE8_u200D_u12C25.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903233">|2(N57).UDUNITA~a|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).UDUNITA~a|</td>
+            <td>
+              <span class="seqdb-s">𒯧.𒪣</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯧.₁𒪣</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊦</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A6</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯧‍𒪣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE7_u200D_u12C2A.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0903256">|3(N57).UDUNITA~a|</td>
+            <td class="seqdb-n" data-oid="go">|3(N57).UDUNITA~a|</td>
+            <td>
+              <span class="seqdb-s">𒯨.𒪣</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯨.₁𒪣</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊧</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A7</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯨‍𒪣</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE8_u200D_u12C2A.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902357">|1(N57).URU~a1|</td>
+            <td class="seqdb-n" data-oid="go">|1(N57).URU~a1|</td>
+            <td>
+              <span class="seqdb-s">𒯦.𒫑</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯦.₁𒫑</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊨</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A8</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯦‍𒫑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE6_u200D_u12C63.liga</span>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td class="seqdb-n" data-oid="o0902359">|2(N57).URU~a1|</td>
+            <td class="seqdb-n" data-oid="go">|2(N57).URU~a1|</td>
+            <td>
+              <span class="seqdb-s">𒯧.𒫑</span>
+            </td>
+            <td>
+              <span class="seqdb-s">₁𒯧.₁𒫑</span>
+            </td>
+            <td>
+              <div class="vbox">
+                <div>
+                  <span class="seqdb-c">󲊩</span>
+                </div>
+                <div>
+                  <span class="seqdb-h">F22A9</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <span class="seqdb-lc">𒯧‍𒫑</span>
+            </td>
+            <td>
+              <span class="seqdb-l">u12BE7_u200D_u12C63.liga</span>
             </td>
           </tr>
         </tbody>

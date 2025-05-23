@@ -1,3 +1,39 @@
-\tocentry 1:t:2:\char \appendixno ,;
+\tocentry 1:t:9:\char \appendixno ,;
+{PC25 Code Charts} 
+\endtocentry 
+\tocentry 1:t:16:\char \appendixno ,;
+{PC25 Character List} 
+\endtocentry 
+\tocentry 1:t:32:\char \appendixno ,;
+{PCSL Table} 
+\endtocentry 
+\tocentry 1:t:206:\char \appendixno ,;
+{PCSL Non-PC25} 
+\endtocentry 
+\tocentry 1:t:213:\char \appendixno ,;
+{PC25 Not Encoded: Broken} 
+\endtocentry 
+\tocentry 1:t:216:\char \appendixno ,;
+{PC25 Not Encoded: Uruk V not in Sub-corpus} 
+\endtocentry 
+\tocentry 1:t:217:\char \appendixno ,;
+{PC25 Not Encoded: Uruk IV/III not in Sub-corpus} 
+\endtocentry 
+\tocentry 1:t:228:\char \appendixno ,;
+{PC25 Not Encoded: ED I-II not in Sub-corpus} 
+\endtocentry 
+\tocentry 1:t:233:\char \appendixno ,;
+{PC25 Not Encoded: Delete} 
+\endtocentry 
+\tocentry 1:t:234:\char \appendixno ,;
+{PC25 Not Encoded: Number (non-ACN)} 
+\endtocentry 
+\tocentry 1:t:238:\char \appendixno ,;
+{PC25 Not Encoded: Sequence} 
+\endtocentry 
+\tocentry 1:t:249:\char \appendixno ,;
+{PC25 Encoded Exceptional Sequences} 
+\endtocentry 
+\tocentry 1:t:251:\char \appendixno ,;
 {Sequences Data} 
 \endtocentry 

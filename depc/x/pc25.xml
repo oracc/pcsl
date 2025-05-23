@@ -5,7 +5,7 @@
     >
   <xh:h1 class="title">Materials for Encoding Proto-Cuneiform</xh:h1>
 
-  <!--
+  <xh:h2>Steve Tinney, 2025-05-23</xh:h2>
 
   <xi:include href="../x/intro.xml"/>
 
@@ -78,13 +78,13 @@
   <tex:appendix>PC25 Not Encoded: Broken</tex:appendix>
   <xi:include href="../m/no_broken.html"/>
   
-  <tex:appendix>PC25 Not Encoded: Uruk V not in Corpus</tex:appendix>
+  <tex:appendix>PC25 Not Encoded: Uruk V not in Sub-corpus</tex:appendix>
   <xi:include href="../m/no_uruk5.html"/>
   
-  <tex:appendix>PC25 Not Encoded: Uruk IV/III not in Corpus</tex:appendix>
+  <tex:appendix>PC25 Not Encoded: Uruk IV/III not in Sub-corpus</tex:appendix>
   <xi:include href="../m/no_corpus.html"/>
   
-  <tex:appendix>PC25 Not Encoded: ED I-II</tex:appendix>
+  <tex:appendix>PC25 Not Encoded: ED I-II not in Sub-corpus</tex:appendix>
   <xi:include href="../m/no_edi.html"/>
   
   <tex:appendix>PC25 Not Encoded: Delete</tex:appendix>
@@ -98,8 +98,6 @@
   
   <tex:appendix>PC25 Encoded Exceptional Sequences</tex:appendix>
   <xi:include href="../m/no_sequencexexc.html"/>
-
-  -->
 
   <tex:appendix>Sequences Data</tex:appendix>
   <xi:include href="../m/seqdb.xml"/>

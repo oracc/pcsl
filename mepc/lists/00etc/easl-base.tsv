@@ -972,7 +972,7 @@ o0901615		NUNUZ~a2	I	NUNUZ~a2	𒪄	/pcsl/easl/images/o0901615.png
 o0901616		NUNUZ~b1	I	NUNUZ~b1	𒪅	/pcsl/easl/images/o0901616.png
 o0901617		NUNUZ~b2	I	NUNUZ~b2	𒪆	/pcsl/easl/images/o0901617.png
 o0901618		NUNUZ~c	I	NUNUZ~c	𒪇,𒪈,𒪉,𒪊	/pcsl/easl/images/o0901618.png
-o0901625		PA~a	I	PA~a	𒪋,𒪌,𒪍	/pcsl/easl/images/o0901625.png
+o0901625		PA~a	I	PA~a	𒪋,𒪌,𒪍;󳄁	/pcsl/easl/images/o0901625.png
 o0901628		PA~b	I	PA~b	𒪎	/pcsl/easl/images/o0901628.png
 o0901634	1-	PA₃	I	PA3	󲦑	/pcsl/easl/images/o0901634.png
 o0901636		PAD~a	I	PAD~a	𒪏	/pcsl/easl/images/o0901636.png
@@ -1158,12 +1158,12 @@ o0901953	.	|ŠE~a.KIN₂~c|	I	|SZE~a.KIN2~c|	𒭓	/pcsl/easl/images/o0901953.png
 o0901955	.	|ŠE~a.NAM₂|	I	|SZE~a.NAM2|	𒭔,𒭕	/pcsl/easl/images/o0901955.png
 o0901959		|ŠE~a&ŠE~a|	I	|SZE~a&SZE~a|	𒭖	/pcsl/easl/images/o0901959.png
 o0901946		ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/easl/images/o0901946.png
-o0901961		ŠE~a@t	I	SZE~a@t	𒭗	/pcsl/easl/images/o0901961.png
+o0901961		ŠE~a@t	I	SZE~a@t	𒭗;󳄋	/pcsl/easl/images/o0901961.png
 o0901947		ŠE~b	I	SZE~b	𒭘	/pcsl/easl/images/o0901947.png
 o0901948		ŠE~c	I	SZE~c	𒭙	/pcsl/easl/images/o0901948.png
 o0901962		ŠE₃	I	SZE3	𒭚,𒭜	/pcsl/easl/images/o0901962.png
 o0901966		ŠEG₉	I	SZEG9	𒭞	/pcsl/easl/images/o0901966.png
-o0901967	!A	ŠELU	I	SZELU	𒭟	/pcsl/easl/images/o0901967.png
+o0901967	:	ŠELU	I	SZELU	𒭟	/pcsl/easl/images/o0901967.png
 o0901969		ŠEN~a	I	SZEN~a	𒭠,𒭡	/pcsl/easl/images/o0901969.png
 o0901971		ŠEN~b	I	SZEN~b	𒭢,𒭣	/pcsl/easl/images/o0901971.png
 o0901973		ŠEN~c	I	SZEN~c	𒭤	/pcsl/easl/images/o0901973.png

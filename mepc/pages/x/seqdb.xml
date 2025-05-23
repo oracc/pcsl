@@ -2,7 +2,9 @@
 <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
 	  xmlns="http://www.w3.org/1999/xhtml"
 	  xmlns:xh="http://www.w3.org/1999/xhtml"
-	  xmlns:xi="http://www.w3.org/2001/XInclude">
+	  xmlns:xi="http://www.w3.org/2001/XInclude"
+	  xmlns:tex="http://oracc.org/ns/tex/1.0"
+	  >
   <esp:name>Sequences</esp:name>
   <esp:title>Sequence Database</esp:title>
   <html>
@@ -90,8 +92,8 @@
       <p>Similarly, glyph names do not remap or normalize variant
       components that are considered distinct signs in PCSL.  Thus,
       for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a| and
-      |UŠ~b.KUR~a|; for character |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
-      are glyphs and |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and
+      |UŠ~b.KUR~a|; similarly, for |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
+      are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a distinct component)
       |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
 
       <esp:sh>How glyph names are turned into ligatures</esp:sh>
@@ -100,7 +102,7 @@
       component signs and joining them with the ZWJ, U+200D. Multiple
       glyph names may generate the same core ligature sequence, so
       CVnn tags are added to the second and subsequent duplicate core
-      ligatures to disambituate them.  Thus, |ŠE~a.NAM₂| has two glyph
+      ligatures to disambiguate them.  Thus, |ŠE~a.NAM₂| has two glyph
       forms, named |ŠE~a.NAM₂|~1 and |ŠE~a.NAM₂|~2. These are mapped,
       schematically, to ŠE~a_u200D_NAM₂ and ŠE~a_u200D_NAM₂.cv01. The
       CVnn used in the font is relative to the number of previous
@@ -117,9 +119,30 @@
       table.</p>
 
       <p>In <code>XeTeX</code>, the features for the cvNN ligatures
-      should be specified as "+cv01,+salt", "+cv02,+salt",
-      "+cv03,+salt" (specifying +liga is unnecessary with XeTeX).</p>
+      should be specified as "+cv01,+salt=0", "+cv02,+salt=1",
+      "+cv03,+salt=2" (specifying +liga is unnecessary with XeTeX;
+      note that salt index is 0-based).</p>
 
+      <esp:h>Sequences data table</esp:h>
+
+      <p>In column one the character name (CHARNAME) and glyph names
+      (GLYFNAME) are given along with the decomposition of the
+      ligature into the base characters; in this decomposition the
+      different joiners are used rather than mapping them all to '.'.</p>
+
+      <p>In column two the precomposed single ligature character in
+      the PUA is shown with its hex code; some ligatures do not have a
+      precomposed version, in which case a '0' appears in this
+      column.</p>
+
+      <p>In column three the input on the upper row is the Unicode
+      character sequence corresponding to the ligature sequence in the
+      lower row: if this is working correctly the appearance of the
+      upper row should match the character in the column two.  Font
+      switching is used to access glyph variants.</p>
+
+      <tex:text>\newpage</tex:text>
+      
       <xi:include xml:base="." href="../db/seqdb.xml"/>
 
     </body>

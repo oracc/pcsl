@@ -840,7 +840,7 @@ EASL0839	o0901424		MUŠ₃~a@g	I	MUSZ3~a@g	𒨀,𒨁	/pcsl/easl/images/o0901424.
 EASL0840	o0901422		MUŠ₃~b	I	MUSZ3~b	𒨄	/pcsl/easl/images/o0901422.png
 EASL0841	o0901426		MUŠEN	I	MUSZEN	𒨅	/pcsl/easl/images/o0901426.png
 EASL0842	o0901429	.	|MUŠEN.UR₃~b2|	I	|MUSZEN.UR3~b2|	𒨆	/pcsl/easl/images/o0901429.png
-EASL0843	o0901427	.++	|MUŠEN.3(N58)|	I	-	󳀃=𒨅_󰄜	
+EASL0843	o0901427	++	|MUŠEN.3(N58)|	I	-	󳀃	
 EASL0844	o0901434	n	|MUŠEN×PAP~a|	I	|MUSZENxPAP~a|	󲶧	/pcsl/easl/images/o0901434.png
 EASL0845	o0901435	#	|MUŠEN×X|	I	|MUSZENxX|	𒨇	/pcsl/easl/images/o0901435.png
 EASL0846	o0902870	.++	|1(N02).RU|	I	-	𒷱=𒖾_𒪣	
@@ -963,7 +963,7 @@ EASL0962	o0901615		NUNUZ~a2	I	NUNUZ~a2	𒪄	/pcsl/easl/images/o0901615.png
 EASL0963	o0901616		NUNUZ~b1	I	NUNUZ~b1	𒪅	/pcsl/easl/images/o0901616.png
 EASL0964	o0901617		NUNUZ~b2	I	NUNUZ~b2	𒪆	/pcsl/easl/images/o0901617.png
 EASL0965	o0901618		NUNUZ~c	I	NUNUZ~c	𒪇,𒪈,𒪉,𒪊	/pcsl/easl/images/o0901618.png
-EASL0966	o0901625		PA~a	I	PA~a	𒪋,𒪌,𒪍	/pcsl/easl/images/o0901625.png
+EASL0966	o0901625		PA~a	I	PA~a	𒪋,𒪌,𒪍;󳄁	/pcsl/easl/images/o0901625.png
 EASL0967	o0901628		PA~b	I	PA~b	𒪎	/pcsl/easl/images/o0901628.png
 EASL0968	o0901634	1-	PA₃	I	PA3	󲦑	/pcsl/easl/images/o0901634.png
 EASL0969	o0901636		PAD~a	I	PAD~a	𒪏	/pcsl/easl/images/o0901636.png
@@ -1154,13 +1154,13 @@ EASL1153	o0901946		ŠE~a	ŠEa	ŠE~a	𒭒	/pcsl/easl/images/o0901946.png
 EASL1154	o0901953	.	|ŠE~a.KIN₂~c|	I	|SZE~a.KIN2~c|	𒭓	/pcsl/easl/images/o0901953.png
 EASL1155	o0901955	.	|ŠE~a.NAM₂|	I	|SZE~a.NAM2|	𒭔,𒭕	/pcsl/easl/images/o0901955.png
 EASL1156	o0901959		|ŠE~a&ŠE~a|	I	|SZE~a&SZE~a|	𒭖	/pcsl/easl/images/o0901959.png
-EASL1157	o0901961		ŠE~a@t	I	SZE~a@t	𒭗	/pcsl/easl/images/o0901961.png
+EASL1157	o0901961		ŠE~a@t	I	SZE~a@t	𒭗;󳄋	/pcsl/easl/images/o0901961.png
 EASL1158	o0901947		ŠE~b	I	SZE~b	𒭘	/pcsl/easl/images/o0901947.png
 EASL1159	o0901948		ŠE~c	I	SZE~c	𒭙	/pcsl/easl/images/o0901948.png
 EASL1160	o0901962		ŠE₃	I	SZE3	𒭚,𒭜	/pcsl/easl/images/o0901962.png
 EASL1161	o0901964		ŠE₃@t	I	SZE3@t	𒭛,𒭝	/pcsl/easl/images/o0901964.png
 EASL1162	o0901966		ŠEG₉	I	SZEG9	𒭞	/pcsl/easl/images/o0901966.png
-EASL1163	o0901967	!A	ŠELU	I	SZELU	𒭟	/pcsl/easl/images/o0901967.png
+EASL1163	o0901967	:	ŠELU	I	SZELU	𒭟	/pcsl/easl/images/o0901967.png
 EASL1164	o0901969		ŠEN~a	I	SZEN~a	𒭠,𒭡	/pcsl/easl/images/o0901969.png
 EASL1165	o0901971		ŠEN~b	I	SZEN~b	𒭢,𒭣	/pcsl/easl/images/o0901971.png
 EASL1166	o0901973		ŠEN~c	I	SZEN~c	𒭤	/pcsl/easl/images/o0901973.png

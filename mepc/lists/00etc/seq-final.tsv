@@ -60,7 +60,6 @@ o0902418	𒲑	𒨃.𒚘	₁𒨃.₁𒚘	|MUŠ₃~a.AB~a|	|MUŠ₃~a.AB~a|	u12A03
 o0901909	𒬶	𒨃.𒟯	₁𒨃.₁𒟯	|MUŠ₃~a.ERIN|	|MUŠ₃~a.ERIN|	u12A03_u200D_u127EF.liga
 o0902419	𒲒	𒨃.𒱄	₁𒨃.₁𒱄	|MUŠ₃~a.UNUG~a|	|MUŠ₃~a.UNUG~a|	u12A03_u200D_u12C44.liga
 o0901429	𒨆	𒨅.𒱘	₁𒨅.₁𒱘	|MUŠEN.UR₃~b2|	|MUŠEN.UR₃~b2|	u12A05_u200D_u12C58.liga
-o0901427	󳀃	𒨅.󰄜	₁𒨅.₁󰄜	|MUŠEN.3(N58)|	|MUŠEN.3(N58)|	u12A05_u200D_uF011C.liga
 o0902870	𒷱	𒖾.𒪣	₁𒖾.₂𒪥	|1(N02).RU|	|1(N02).RU|	u125BE_u200D_u12AA5.liga
 o0900997	𒣼	𒨜.𒜋	₁𒨜.₁𒜋	|NAGAR~a.BU~a|	|NAGAR~a.BU~a|	u12A1C_u200D_u1270B.liga
 o0900998	𒣽	𒨝.𒜋	₁𒨝.₁𒜋	|NAGAR~a.BU~a|	|NAGAR~b.BU~a|	u12A1D_u200D_u1270B.liga
@@ -93,12 +92,15 @@ o0901705	󳀎	𒪵.𒵵	₁𒪵.₁𒵵	|SAL.ZATU751~a|	|SAL.ZATU751~a|	u12AB5_u
 o0901706	󳄄	𒪵.𒵶	₁𒪵.₁𒵶	|SAL.ZATU751~b|	|SAL.ZATU751~b|	u12AB5_u200D_u12D76.liga
 o0901707	󳄂	𒪵.󳀏	₁𒪵.₁󳀏	|SAL.ZATU751~c|	|SAL.ZATU751~c|	u12AB5_u200D_uF300F.liga
 o0902072	󲨒	𒬝.𒥬.𒪥	₁𒬝.₁𒥬.₁𒪥	|SU~a.KUR~a.RU|	|SU~a.KUR~a.RU|	u12B1D_u200D_u1296C_u200D_u12AA5.liga
+o0901951	󳁛	𒭒.𒡨	₁𒭒.₁𒡨	|ŠE~a.GAR|	|ŠE~a.GAR|	u12B52_u200D_u12868.liga
+o0901951	󳁚	󳄋.𒡨	₂𒭗.₁𒡨	|ŠE~a.GAR|	|ŠE~a@t.GAR|	u12B57_u200D_u12868.liga
 o0901953	𒭓	𒭒.𒥈	₁𒭒.₁𒥈	|ŠE~a.KIN₂~c|	|ŠE~a.KIN₂~c|	u12B52_u200D_u12948.liga
+o0901953	󳃉	󳄋.𒥈	₂𒭗.₁𒥈	|ŠE~a@t.KIN₂~c|	|ŠE~a@t.KIN₂~c|	u12B57_u200D_u12948.liga
 o0901955	𒭔	𒭒.󳃻	₁𒭒.₂𒨣	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|	u12B52_u200D_u12A23.liga
 o0901955	𒭕	𒭒.𒨣	₁𒭒.₁𒨣	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|~1	u12B52_u200D_u12A23.liga.cv01
 o0901301	𒦳	𒭒∘𒬷	₁𒭒∘₁𒬷	|ŠE~a.ŠA|	|ŠE~a∘ŠA|	u12B52_u200D_u12B37.liga
 o0901301	𒦴	󳄅∘𒭒	₄𒬷∘₁𒭒	|ŠE~a.ŠA.|	|ŠA∘ŠE~a|	u12B37_u200D_u12B52.liga
-o0901953	󳃉	𒭗.𒥈	₁𒭗.₁𒥈	|ŠE~a@t.KIN₂~c|	|ŠE~a@t.KIN₂~c|	u12B57_u200D_u12948.liga
+o0901967	𒭟	𒭒.𒣈	₁𒭒.₁𒣈	ŠELU	|ŠE~a.GUG₂|	u12B52_u200D_u128C8.liga
 o0901477	𒨫	𒭭.𒨋	₁𒭭.₁𒨋	|ŠEŠ~a.NA~a|	|ŠEŠ~a.NA~a|	u12B6D_u200D_u12A0B.liga
 o0901268	𒦥	𒭻.𒧯	₁𒭻.₁𒧯	|ŠITA~a1.MUD₃~a|	|ŠITA~a1.MUD₃~a|	u12B7B_u200D_u129EF.liga
 o0902043	𒮙	󳂐.𒟊	₅𒮘.₁𒟊	|ŠU₂.E₂~a|	|ŠU₂.E₂~a|	u12B98_u200D_u127CA.liga

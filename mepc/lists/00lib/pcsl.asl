@@ -4334,7 +4334,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901715
+@oid o0901716
 @end sign
 
 @sign SAR~a
@@ -4964,10 +4964,6 @@
 @oid o0901961
 @end sign
 
-@sign |ŠE~a@t.GAR|
-@oid o0901950
-@end sign
-
 @sign ŠE~b
 @oid o0901947
 @end sign
@@ -4988,7 +4984,8 @@
 @oid o0901966
 @end sign
 
-@sign ŠELU
+@sign |ŠE~a.GUG₂|
+@aka ŠELU
 @oid o0901967
 @end sign
 
@@ -5655,7 +5652,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903390
+@oid o0903666
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|
@@ -8293,7 +8290,7 @@
 
 @sign 1(N30CA)
 @aka 1(N30C~a)
-@oid o0903562
+@oid o0903662
 @end sign
 
 @sign 1(N30CB)

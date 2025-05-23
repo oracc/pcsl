@@ -19,11 +19,18 @@ my @a = `cat 00etc/cusas-adds.tsv`; chomp @a;
 my @b = `cat 00etc/cusas-books.tsv`; chomp @b;
 my %c = ();
 
+my %ignore = ();
+my $last_h = '';
+
 foreach (@b) {
     my $tag = '';
+    my $equals = s/^=//;
     if (s/^([-.])//) {
 	$tag = $1;
+    } elsif (s/^=//) {
+	$equals = 1;
     }
+    
     my($n,$o,$p,$x1,$x2,$c,$f) = split(/\t/,$_);
     my $h = sprintf("%X",ord($c));
     my $s = sc($o,$h,$p);
@@ -33,16 +40,24 @@ foreach (@b) {
     } else {
 	$t = "C${t}b";
     }
-    my %b = ();
-    @b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,$f,$t,$s);
-    $c{$h} = { %b };
+    if ($equals) {
+	warn "equals in books\n";
+	${$c{$last_h}}{'char'} .= ",$c";
+	++$ignore{$h};
+    } else {
+	my %b = ();
+	@b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,$f,$t,$s);
+	$c{$h} = { %b };
+	$last_h = $h;
+    }
 }
 
 foreach (@a) {
     my $minus = s/^-//;
     my $period = s/^\.//;
+    my $equals = s/^=//;
     my($o,$h,$x,$f,$p) = split(/\t/,$_);
-    unless ($c{$h}) {
+    unless ($c{$h} || $ignore{$h}) {
 	my $c = sprintf("%s",chr(hex($h)));
 	my $s = sc($o,$h,$p);
 	my($t) = ($x =~ /CUSAS(\d\d)/);
@@ -54,9 +69,14 @@ foreach (@a) {
 	if ($period) {
 	    $t = ".$t";
 	}
-	my %b = ();
-	@b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,"/pcsl/images/add/thumb/$f",$t,$s);
-	$c{$h} = { %b };
+	if ($equals) {
+	    ${$c{$last_h}}{'char'} .= ",$c";
+	} else {
+	    my %b = ();
+	    @b{qw/oid pcsl char file tag sort/} = ($o,$p,$c,"/pcsl/images/add/thumb/$f",$t,$s);
+	    $c{$h} = { %b };
+	    $last_h = $h;
+	}
     }
 }
 

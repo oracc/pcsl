@@ -33,11 +33,11 @@
 \font\pcblu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:color=0000FF" at18pt
 
 \font\pcseq="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 14pt
-\font\pcseqi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01,+salt" at 14pt
-\font\pcseqii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02,+salt=2" at 14pt
-\font\pcseqiii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv03,+salt=3" at 14pt
-\font\pcseqiv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv04,+salt=4" at 14pt
-\font\pcseqv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv05,+salt=5" at 14pt
+\font\pcseqi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01,+salt=0" at 14pt
+\font\pcseqii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02,+salt=1" at 14pt
+\font\pcseqiii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv03,+salt=2" at 14pt
+\font\pcseqiv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv04,+salt=3" at 14pt
+\font\pcseqv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv05,+salt=4" at 14pt
 
 \font\pccvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01" at 14pt
 \font\pccvii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv02" at 14pt
@@ -478,19 +478,22 @@
 \newbox\seqdbbox \newbox\seqdbheaderbox \newbox\seqdbheadertmp
 \newdimen\seqdbrowht
 
-\def\sqhboxn#1{\hbox to1.6in{\seven\rm#1\hfil}}
-\def\sqhboxd#1{\hbox to1.6in{\quad#1\hfil}}
-\def\sqhboxp#1{\hbox to.7in{\nine\rm#1\hfil}}
+\def\sqhboxnH#1{\hbox to2.3in{\eight\rm#1\hfil}}
+\def\sqhboxpH#1{\hbox to1.2in{\eight\rm#1\hfil}}
+\def\sqhboxLH#1{\hbox to3in{\eight\rm#1\hfil}}
+\def\sqhboxn#1{\hbox to2.3in{\seven\rm#1\hfil}}
+\def\sqhboxd#1{\hbox to2in{\quad#1\hfil}}
+\def\sqhboxp#1{\hbox to1.2in{\nine\rm#1\hfil}}
 \def\sqhboxL#1{\hbox to3in{\nine\rm#1\hfil}}
-\def\sqhboxl#1{\hbox to3.5in{\seven\rm#1\hfil}}
+\def\sqhboxl#1{\hbox to3in{\seven\rm#1\hfil}}
 
 \def\beginseqdb{%\newpage
   \bgroup\offinterlineskip \lineskip1pt
   \ltfirstpage\the\pageno
   \setbox\seqdbheaderbox=\vbox{\vfuzz12pt%
-     \seqdbrowx{\sqhboxn{NAME/DECOMP}}%
-               {\sqhboxp{PUA}}%
-               {\sqhboxL{LIG/.liga}}%
+     \seqdbrowx{CHARNAME/GLYFNAME/DECOMP}%
+               {PUA}%
+               {LIG/.liga}%
    }%
    %\righthdrinfo{}%
    %\headersep20pt
@@ -501,12 +504,13 @@
     \ifnum\pageno>\ltfirstpage
       \lefthdrinfo{}%
       \righthdrinfo{}%
-      \headersep20pt
+      \headersep22pt
       \setbox\seqdbheadertmp=\vbox{%
         \kern-10pt
         \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
         \kern2pt
         \unvcopy\seqdbheaderbox
+        \vbox to2pt{\vfil}%
       }%
       \centrehdrinfo{\box\seqdbheadertmp}%
     \fi}
@@ -514,11 +518,12 @@
 \def\endseqdb{\seqdbheader\vfil\supereject\egroup}
 
 \def\seqdbrowx#1#2#3{%
-     \hrule height1.5pt
-     \hbox to.9\hsize{%
-            \vbox to\seqdbrowht{\vfil\sqhboxn{#1}\vfil}%
-     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxp{#2}\vfil}%
-     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxL{#3}\vfil}%
+   \hrule height1.5pt
+   \kern2pt
+   \hbox to\hsize{%
+            \vbox to\seqdbrowht{\vfil\sqhboxnH{\rm#1}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxpH{\rm#2}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxLH{\rm#3}\vfil}%
      \hfil
    }%
    \kern12pt
@@ -529,12 +534,13 @@
    \seqdbheader
 %   \setbox\seqdbbox\vbox{\hsize2in#3}%
 %   \seqdbrowht=\ht\seqdbbox
-   \seqdbrowht=.5in
+   \seqdbrowht=.55in
 %   \advance\seqdbrowht2pt % compensate for lineskips
-   \hbox to.9\hsize{%
+   \hbox to\hsize{%
             \vbox to\seqdbrowht{%
+              \sqhboxn{#1}%
               \vfil
-              \sqhboxn{#2}%
+              \sqhboxn{\quad#2}%
               \vfil
               \sqhboxd{#3}%
               \vfil}%
@@ -554,13 +560,13 @@
 
 \def\seqdbinnerrule{%
   \kern2pt
-  \hrule height.4pt depth0pt width.9\hsize
+  \hrule height.4pt % depth0pt width.9\hsize
   \vskip3pt plus1pt minus1pt
 }
 
 \def\seqdbtbodyrule{%
   \kern2pt
-  \hrule height1pt depth0pt width.9\hsize
+  \hrule height1pt % depth0pt width.9\hsize
   \vskip3pt plus1pt minus1pt
 }
 
@@ -582,7 +588,7 @@
 \def\diffd{\message{hvfee}\hvfee}
 
 \def\cvi{\pcseqi}
-\def\cvii{\pcseqii}
+\def\cvii{\message{cvii^^J}\pcseqii}
 \def\cviii{\pcseqiii}
 \def\cviv{\pcseqiv}
 \def\cvv{\pcseqv}
@@ -590,7 +596,7 @@
 \def\cvxcix{\pccvxcix}
 \def\cvxcviii{\pccvxcviii}
 
-\def\cv#1#2{
+\def\cv#1#2{%
   \ifnum#2=1\cvi
   \else
     \ifnum#2=2\cvii
@@ -605,7 +611,7 @@
             \else
               \ifnum#2=8\cvxcviii
               \else
-                \ifnum#2=9 \message{cvxcix^^J}\cvxcix \fi
+                \ifnum#2=9\cvxcix\fi
               \fi
             \fi
           \fi
@@ -627,7 +633,8 @@
 
 \def\titlesize{\fourteen}
 
-
 \catcode"332\active \def̲{\_{}}
+
+\def\code#1{{\Sanserif\nine\rm#1}}
 
 \endinput

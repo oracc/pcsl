@@ -56,16 +56,19 @@
       <p>The signs ASAR and AZ are the equivalent of containers.</p>
       <esp:sh>Unencoded Constituents</esp:sh>
       <p>The following exception signs contain unencoded consituents:
-      ENKUM (EZEN×ŠE), ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with
+      <!--ENKUM (EZEN×ŠE),--> ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with
       additional strokes, unclear with this is an UŠ or not), ZUBI~a
       (NA₂-nutillu).</p>
       <esp:sh>Analogy: BAPPIR Group</esp:sh>
       <p>The group of signs with the base BAPPIR has one member which
       is a container (BAPPIR~e) and the entire group is encoded by
       analogy.</p>
+      <!--
       <esp:sh>Analogy: ŠELU</esp:sh>
+
       <p>Most combinations of ŠE plus another sign are encoded as
       characters (e.g., TU) so an exception is made for ŠELU.</p>
+      -->
       <esp:sh>Analogy: Sheep Group</esp:sh>
       <p>The groups of signs with the base SILANITA, UDUNITA and UTUA
       represent various types (ages, genders) of sheep and since some
