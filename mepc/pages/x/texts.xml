@@ -20,6 +20,10 @@
       texts in the corpus of which <xi:include xml:base="." href="../../texts/tpcsl/c-4.cnt" parse="text"/> are
       attributed to Uruk IV and <xi:include xml:base="." href="../../texts/tpcsl/c-3.cnt" parse="text"/>, to the subsequent Uruk III period.</p>
 
+      <esp:sh>The Print Corpus</esp:sh>
+
+      <p>TO DO</p>
+      
       <esp:sh>The Digital Corpus</esp:sh>
       
       <p>The digital corpus includes the contents of the following major publications:</p>
@@ -73,7 +77,13 @@
       published/unpublished status:</p>
 
       <xi:include xml:base="." href="../../texts/tpc25/corpus.html"/>
-     
+
+      <esp:sh>PCSL and ED I-II</esp:sh>
+
+      <p>TO DO: Rationale for separating ED I-II from PCSL corpus
+      (diplomatics; plausibility that language of ED I-II is
+      Sumerian).</p>
+      
     </body>
   </html>
 </esp:page>

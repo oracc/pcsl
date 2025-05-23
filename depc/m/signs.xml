@@ -260,14 +260,32 @@
         </tbody>
       </table>
       <!--
-	  
       <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
 
       <p>Simple counts of the entire graphemic repertoire of the Uruk
       IV/III corpus are <esp:link page="csltab">provided in this
-      table</esp:link>.</p>
- 
+      table</esp:link>.</p> 
       -->
+      <esp:sh>Corpus-coverage of ACN/PC25 Encoded Graphemes</esp:sh>
+      <p>Although the strategically selected subset of the Uruk IV/III
+      corpus is only two-thirds of the entire corpus in terms of
+      manuscripts, the graphemic coverage provided by the combination
+      of ACN and PC25 is very high.</p>
+      <p>Of the 6296 texts in the
+      entire PCSL corpus, 161 contain
+      unencoded signs, i.e., 97.52%
+ of texts have
+      no unencoded graphemes.</p>
+      <p>The total number of instances of graphemes that are included
+      in the encoded repertoire is substantial: of
+      97761 instances
+      of 2038
+      graphemes, only 247
+      instances of 171
+      graphemes are not encoded.  99.75%
+ of instances of
+      graphemes in PCSL are represented in the encodings either
+      directly or as sequences.</p>
     </body>
   </html>
 </esp:page>

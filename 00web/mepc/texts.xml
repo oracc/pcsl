@@ -15,6 +15,8 @@
       <p>There are 6296
       texts in the corpus of which 1835 are
       attributed to Uruk IV and 4461, to the subsequent Uruk III period.</p>
+      <esp:sh>The Print Corpus</esp:sh>
+      <p>TO DO</p>
       <esp:sh>The Digital Corpus</esp:sh>
       <p>The digital corpus includes the contents of the following major publications:</p>
       <ul>
@@ -194,6 +196,10 @@
           </tr>
         </tbody>
       </table>
+      <esp:sh>PCSL and ED I-II</esp:sh>
+      <p>TO DO: Rationale for separating ED I-II from PCSL corpus
+      (diplomatics; plausibility that language of ED I-II is
+      Sumerian).</p>
     </body>
   </html>
 </esp:page>
