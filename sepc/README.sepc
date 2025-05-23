@@ -1,0 +1,34 @@
+SEPC -- Stuff for Encoding Proto-Cuneiform
+
+Steve Tinney -- stinney@upenn.edu
+
+Release Version: @@DATE@@
+
+This directory contains draft support files and documentation for
+creating a Proto-Cuneiform proposal for Unicode.
+
+sepc.tar.xz -- a tarball containing all of the following files
+
+depc.pdf -- documentation relating to the proposal and its auxiliary
+	    data
+
+repc.tsv -- the repertoire in tab-separated format
+
+pcsl-final.xml -- the XML data used to build most of the appendices in
+	   depc.pdf
+
+seq-final.tsv -- the sequences database in tab-separated format
+
+PCSL.ttf -- the font used for depc.pdf, the PCSL table, and the
+	   repertoire.  The font is remapped and augmented from an
+	   earlier font which was named PC24.ttf. Both PC24.ttf and
+	   PCSL.ttf owe a huge debt to the original work of Anshuman
+	   Pandey in turning Bob Englund's CDLI glyph collection into
+	   a font, and to Robin Leroy's work on Archaic Cuneiform
+	   Numerals.  PCSL.ttf has been augmented and revised
+	   extensively by Steve Tinney.
+
+pc25.map -- the map file that is used to create PCSL.ttf from
+	  PC24.ttf. Only necessary if you are working with the
+	  internal PCSL data; all of the external facing data has been
+	  remapped to the PCSL.ttf codepoints.
