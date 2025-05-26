@@ -10,22 +10,47 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 use Getopt::Long;
 
 my $col = -1;
-my $typ = '';
+my $sign = 0;
+my $glyf = 0;
 GetOptions(
     "col:i"=>\$col,
-    "typ:s"=>\$typ,
+    glyf=>\$glyf,
+    sign=>\$sign,
     );
 
-die "$0: must give column to map with -c option. Stop\n"
+die "$0: must give column (counting from 0) to map with -c option. Stop\n"
     unless $col >= 0;
 
-die "$0: must give type s(ign) or g(lyf) for conversion with -t option. Stop.\n"
-    unless $typ;
+die "$0: must give -s (sign) or -g (glyf). Stop.\n"
+    unless $sign || $glyf;
+
+die "$0: can't give both -s and -g. Stop\n"
+    if $sign && $glyf;
 
 
 my %Os = (); my %Og = (); load_pcsl_oid();
 
-
+while (<>) {
+    chomp;
+    my @f = split(/\t/,$_);
+    my $k = $f[$col];
+    if ($k =~ /^o[0-9]{7}/) {
+	if ($sign) {
+	    if ($Os{$k}) {
+		$f[$col] = $Os{$k};
+	    } else {
+		warn "no Os for $k in\t$_\n";
+	    }
+	} elsif ($glyf) {
+	    if ($Og{$k}) {
+		$f[$col] = $Og{$k};
+	    } else {
+		warn "no Og for $k in\t$_\n";
+	    }
+	}
+    }
+    print join("\t", @f), "\n";
+}
 
 1;
 
