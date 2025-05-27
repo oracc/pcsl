@@ -18,8 +18,8 @@ GetOptions(
 
 my %gfcheat = (
     o0903571=>'o0900195',
-    o0903580=>'o0900336',
-    o0903581=>'o0900338',
+    o0903580=>'o0900337',
+    o0903581=>'o0900399',
     );
 
 my %g1 = ();
@@ -78,7 +78,12 @@ foreach (@pc25) {
 	unless ($b) {
 	    $b = $g1{$omr{$o}} if $omr{$o};
 	    unless ($b) {
-		$b = $gfcheat{$o};
+		my $c = $gfcheat{$o} || $gfcheat{$om{$o}} || $gfcheat{$omr{$o}};
+		if ($c && $c ne $o) {
+		    my $g1 = $g1{$c} || '<none>';
+		    warn "found cheat $c from $o with g1=$g1\n";
+		}
+		$b = $g1{$c};
 	    }
 	}
     }
@@ -226,5 +231,5 @@ sub load_glyf_final {
 	}
 	$go{$u} = $o;
     }
-    # print Dumper \%g1; exit 1;
+    #print Dumper \%g1; exit 1;
 }

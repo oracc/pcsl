@@ -27,20 +27,20 @@
         <tbody>
           <tr>
             <th>Uruk/num</th>
-            <td>140/4523</td>
-            <td>121/2291</td>
+            <td>159/5160</td>
+            <td>92/1654</td>
             <td>177/6814 </td>
-            <td>173/9542</td>
-            <td>133/5048</td>
+            <td>188/11708</td>
+            <td>106/2882</td>
             <td>197/14590</td>
           </tr>
           <tr>
             <th>Uruk/idg</th>
-            <td>802/5849</td>
-            <td>540/2497</td>
+            <td>861/6562</td>
+            <td>443/1784</td>
             <td>978/8346 </td>
-            <td>941/15500</td>
-            <td>842/12123</td>
+            <td>1084/20654</td>
+            <td>643/6969</td>
             <td>1184/27623</td>
           </tr>
           <tr>
@@ -99,38 +99,38 @@
           </tr>
           <tr>
             <th>Misc/num</th>
-            <td>27/60</td>
-            <td>9/17</td>
+            <td>31/70</td>
+            <td>2/7</td>
             <td>31/77 </td>
-            <td>135/2640</td>
-            <td>143/3338</td>
+            <td>169/5235</td>
+            <td>55/743</td>
             <td>169/5978</td>
           </tr>
           <tr>
             <th>Misc/idg</th>
-            <td>43/64</td>
-            <td>25/34</td>
+            <td>46/72</td>
+            <td>21/26</td>
             <td>61/98 </td>
-            <td>533/4339</td>
-            <td>580/5203</td>
+            <td>688/8036</td>
+            <td>329/1506</td>
             <td>776/9542</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>143/4583</td>
-            <td>122/2308</td>
+            <td>161/5230</td>
+            <td>92/1661</td>
             <td>178/6891 </td>
-            <td>219/16624 </td>
-            <td>208/12368</td>
+            <td>239/21385 </td>
+            <td>175/7944</td>
             <td>256/28992</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>809/5913</td>
-            <td>545/2531</td>
+            <td>868/6634</td>
+            <td>447/1810</td>
             <td>988/8444 </td>
-            <td>1198/26857 </td>
-            <td>1173/25117</td>
+            <td>1359/35708 </td>
+            <td>961/16704</td>
             <td>1580/51974</td>
           </tr>
         </tbody>
@@ -151,20 +151,20 @@
         <tbody>
           <tr>
             <th>Uruk/num</th>
-            <td>140/4523</td>
-            <td>82/655</td>
+            <td>159/5160</td>
+            <td>11/18</td>
             <td>159/5178 </td>
-            <td>173/9542</td>
-            <td>103/2167</td>
+            <td>188/11708</td>
+            <td>1/1</td>
             <td>188/11709</td>
           </tr>
           <tr>
             <th>Uruk/idg</th>
-            <td>802/5849</td>
-            <td>248/748</td>
+            <td>861/6562</td>
+            <td>23/35</td>
             <td>864/6597 </td>
-            <td>941/15500</td>
-            <td>624/5191</td>
+            <td>1084/20654</td>
+            <td>18/37</td>
             <td>1084/20691</td>
           </tr>
           <tr>
@@ -223,38 +223,38 @@
           </tr>
           <tr>
             <th>Misc/num</th>
-            <td>27/60</td>
-            <td>8/10</td>
+            <td>31/70</td>
+            <td>0/0</td>
             <td>31/70 </td>
-            <td>134/2630</td>
-            <td>141/2631</td>
+            <td>168/5213</td>
+            <td>3/48</td>
             <td>168/5261</td>
           </tr>
           <tr>
             <th>Misc/idg</th>
-            <td>43/64</td>
-            <td>7/8</td>
+            <td>46/72</td>
+            <td>0/0</td>
             <td>46/72 </td>
-            <td>528/4297</td>
-            <td>460/3777</td>
+            <td>683/7975</td>
+            <td>34/99</td>
             <td>688/8074</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>143/4583</td>
-            <td>84/665</td>
+            <td>161/5230</td>
+            <td>11/18</td>
             <td>161/5248 </td>
-            <td>219/16614 </td>
-            <td>174/4895</td>
+            <td>239/21363 </td>
+            <td>45/146</td>
             <td>242/21509</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>809/5913</td>
-            <td>250/756</td>
+            <td>868/6634</td>
+            <td>23/35</td>
             <td>871/6669 </td>
-            <td>1194/26815 </td>
-            <td>782/9240</td>
+            <td>1354/35647 </td>
+            <td>140/408</td>
             <td>1362/36055</td>
           </tr>
         </tbody>
@@ -272,16 +272,18 @@
       manuscripts, the graphemic coverage provided by the combination
       of ACN and PC25 is very high.</p>
       <p>Of the 6296 texts in the
-      entire PCSL corpus, <xi:include xml:base="." href="../../texts/tpcsl/pc25not.cnt" parse="text"/> contain
-      unencoded signs, i.e., <xi:include xml:base="." href="../../texts/tpcsl/tcov.pct" parse="text"/> of texts have
+      entire PCSL corpus, 162 contain
+      unencoded signs, i.e., 97.51%
+ of texts have
       no unencoded graphemes.</p>
       <p>The total number of instances of graphemes that are included
       in the encoded repertoire is substantial: of
-      <xi:include xml:base="." href="../../texts/tpcsl/pcsl-ginst.cnt" parse="text"/> instances
-      of <xi:include xml:base="." href="../../texts/tpcsl/pcsl-gsign.cnt" parse="text"/>
-      graphemes, only <xi:include xml:base="." href="../../texts/tpcsl/pc25not-ginst.cnt" parse="text"/>
-      instances of <xi:include xml:base="." href="../../texts/tpcsl/pc25not-gsign.cnt" parse="text"/>
-      graphemes are not encoded.  <xi:include xml:base="." href="../../texts/tpcsl/gcov.pct" parse="text"/> of instances of
+      97825 instances
+      of 2038
+      graphemes, only 248
+      instances of 172
+      graphemes are not encoded.  99.75%
+ of instances of
       graphemes in PCSL are represented in the encodings either
       directly or as sequences.</p>
     </body>

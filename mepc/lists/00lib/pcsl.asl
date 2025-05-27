@@ -1148,7 +1148,7 @@
 @end sign
 
 @sign |DUG~b×1(N58)|
-@oid o0900405
+@oid o0903578
 @end sign
 
 @sign |(DUG~b&DUG~b)×1(N58)|
@@ -4334,7 +4334,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901716
+@oid o0901715
 @end sign
 
 @sign SAR~a
@@ -5652,7 +5652,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903390
+@oid o0903666
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|
@@ -8290,7 +8290,7 @@
 
 @sign 1(N30CA)
 @aka 1(N30C~a)
-@oid o0903662
+@oid o0903562
 @end sign
 
 @sign 1(N30CB)
