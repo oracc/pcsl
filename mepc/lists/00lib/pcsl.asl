@@ -3598,9 +3598,9 @@
 @end sign
 
 @sign |1(N58).BAD|
-@aka |BAD+DIŠ~a|
 @aka |1(N58).BAD~a|
-@oid o0903281
+@aka |BAD+DIŠ~a|
+@oid o0903282
 @end sign
 
 @sign |(1(N58).BAD)~b|
@@ -8290,7 +8290,7 @@
 
 @sign 1(N30CA)
 @aka 1(N30C~a)
-@oid o0903562
+@oid o0903662
 @end sign
 
 @sign 1(N30CB)

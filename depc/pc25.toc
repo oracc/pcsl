@@ -19,21 +19,21 @@
 \tocentry 1:t:218:\char \appendixno ,;
 {PC25 Not Encoded: Uruk IV/III not in Sub-corpus} 
 \endtocentry 
-\tocentry 1:t:229:\char \appendixno ,;
+\tocentry 1:t:230:\char \appendixno ,;
 {PC25 Not Encoded: ED I-II not in Sub-corpus} 
 \endtocentry 
-\tocentry 1:t:234:\char \appendixno ,;
+\tocentry 1:t:235:\char \appendixno ,;
 {PC25 Not Encoded: Delete} 
 \endtocentry 
-\tocentry 1:t:235:\char \appendixno ,;
+\tocentry 1:t:236:\char \appendixno ,;
 {PC25 Not Encoded: Number (non-ACN)} 
 \endtocentry 
-\tocentry 1:t:239:\char \appendixno ,;
+\tocentry 1:t:240:\char \appendixno ,;
 {PC25 Not Encoded: Sequence} 
 \endtocentry 
-\tocentry 1:t:250:\char \appendixno ,;
+\tocentry 1:t:251:\char \appendixno ,;
 {PC25 Encoded Exceptional Sequences} 
 \endtocentry 
-\tocentry 1:t:252:\char \appendixno ,;
+\tocentry 1:t:253:\char \appendixno ,;
 {Sequences Data} 
 \endtocentry 
