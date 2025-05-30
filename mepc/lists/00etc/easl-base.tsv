@@ -116,7 +116,7 @@ o0900191		|(BU~a&BU~a).NA₂~a|	I	|(BU~a&BU~a).NA2~a|	𒜐,𒜑	/pcsl/easl/image
 o0900193	d	|(BU~a&BU~a).NA₂~b|	I	|(BU~a&BU~a).NA2~b|	󲱣	/pcsl/easl/images/o0900193.png
 o0900197	#	|(BU~a&BU~a).X|	I	|(BU~a&BU~a).X|	𒜒	/pcsl/easl/images/o0900197.png
 o0900183	n	|BU~a~v1×A|	I	|BU~axA|	𒜔	/pcsl/easl/images/o0900183.png
-o0903398	nc	|(BU~a~v1%BU~a~v1).NA₂~a@n|	I	|(BU~a&BU~a).NA2~a@n|	𒜕	/pcsl/easl/images/o0903398.png
+o0903398	nc	|(BU~a~v1%BU~a~v1).NA₂~a@n|	I	|(BU~a&BU~a).NA2~a@n|	𒜕,󲱣	/pcsl/easl/images/o0903398.png
 o0900177		BU~b	I	BU~b	𒜖	/pcsl/easl/images/o0900177.png
 o0900181	.n	|BU~b.NA₂~a~v1|	I	|BU~b.NA2~a|	𒜗	/pcsl/easl/images/o0900181.png
 o0900205		BU₃	I	BU3	𒜘	/pcsl/easl/images/o0900205.png
@@ -298,7 +298,7 @@ o0900529		EN₂	I	EN2	𒟣	/pcsl/easl/images/o0900529.png
 o0900531	.	|EN₂.E₂~a|	I	|EN2.E2~a|	𒟤	/pcsl/easl/images/o0900531.png
 o0900532	.	|EN₂.E₂~b|	I	|EN2.E2~b|	𒟥	/pcsl/easl/images/o0900532.png
 o0900533	:	ENDIB	I	ENDIB	𒟦	/pcsl/easl/images/o0900533.png
-o0900534	:	ENGIZ	I	ENGIZ	𒟧	/pcsl/easl/images/o0900534.png
+o0900534	:	ENGIZ	I	ENGIZ	𒟧;󳄎,󳄏	/pcsl/easl/images/o0900534.png
 o0900535	:	ENKUM	I	ENKUM	𒟨,𒟩	/pcsl/easl/images/o0900535.png
 o0900537	:	ENLIL	I	ENLIL	𒟪	/pcsl/easl/images/o0900537.png
 o0900538	1-.	ENSI	I	ENSI	󲟃	/pcsl/easl/images/o0900538.png
