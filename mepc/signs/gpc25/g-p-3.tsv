@@ -113,7 +113,7 @@ o0900233	c	|DAR~a×A|	|DAR~a×A|	1
 o0900237	s	DARA₃~c	DARA₃~c	4
 o0900239	s	DARA₃~d	DARA₃~d	1
 o0900241	c	|DARA₃~c×KAR₂|	|DARA₃~c×KAR₂|	1
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|	3
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|	3
 o0900247	c	|DARA₃~d×(KAR₂.ŠE~a)|	|DARA₃~d×(KAR₂.ŠE~a)|	1
 o0900249	s	DARA₄~a1	DARA₄~a1	23
 o0900252	s	DARA₄~b	DARA₄~b	1
@@ -177,6 +177,7 @@ o0900391	c	|DUG~b×MAŠ|	|DUG~b×MAŠ|	11
 o0900394	c	|DUG~a×1(N57)|	|DUG~a×1(N57)|	8
 o0900395	c	|DUG~b×1(N57)|	|DUG~b×1(N57)|	3
 o0900401	c	|DUG~b×(1(N57).KU₃~a)|	|DUG~b×(1(N57).KU₃~a)|	3
+o0900404	c	|DUG~b×1(N58)|	|DUG~b×1(N58)|	1
 o0900407	c	|DUG~a×NAGA~a|	|DUG~a×NAGA~a|	1
 o0900408	c	|DUG~b×NAGA~a|	|DUG~b×NAGA~a|	6
 o0900410	c	|DUG~b×NAM₂|	|DUG~b×NAM₂|	1
@@ -1560,7 +1561,6 @@ o0903573	c	|DU₆~a×1(N58)|	|DU₆~a×DIŠ|	1
 o0903574	c	|DUG~b×GA~a|	|DUG~b×GA~a|	1
 o0903575	c	|DUG~b×GEŠTU~a|	|DUG~b×GEŠTU~a|	5
 o0903576	c	|DUG~b×AB₂|	|DUG~b×AB₂|	1
-o0903578	c	|DUG~b×1(N58)|	|DUG~b×1(N58)|	1
 o0903580	s	DUG~c	DUG~c	123
 o0903581	c	|DUG~c×1(N57)|	|DUG~c×1(N57)|	38
 o0903582	c	|EZEN~a×EN~b|	|EZEN~a×EN~b|	1

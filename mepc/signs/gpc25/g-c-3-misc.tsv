@@ -58,7 +58,7 @@ o0900228	s	DAR~a	DAR~a	6
 o0900229	s	DAR~b	DAR~b	8
 o0900230	s	DAR~c	DAR~c	3
 o0900241	c	|DARA₃~c×KAR₂|	|DARA₃~c×KAR₂|	1
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|	1
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|	1
 o0900249	s	DARA₄~a1	DARA₄~a1	3
 o0900254	s	DARA₄~c1	DARA₄~c1	1
 o0900255	s	DARA₄~c2	DARA₄~c2	10
@@ -88,6 +88,7 @@ o0900331	s	DUG~a	DUG~a	52
 o0900334	s	DUG~b	DUG~b	3
 o0900370	c	|DUG~b×HI|	|DUG~b×HI|	2
 o0900394	c	|DUG~a×1(N57)|	|DUG~a×1(N57)|	2
+o0900404	c	|DUG~b×1(N58)|	|DUG~b×1(N58)|	1
 o0900447	c	|DUG~a×U₂~a|	|DUG~a×U₂~a|	1
 o0900454	c	|DUG~b×(UDU~a×TAR~b)|	|DUG~b×(UDU~a×TAR~b)|	2
 o0900483	s	DUR~a	DUR~a	1
@@ -845,7 +846,6 @@ o0903347	n	4(N42A)	4(N42~a)	5
 o0903368	s	X	X	452
 o0903564	c	X₂	|2(N57).DU₆~a@n|	1
 o0903570	c	|BU~a×A|	|BU~a×A|	1
-o0903578	c	|DUG~b×1(N58)|	|DUG~b×1(N58)|	1
 o0903580	s	DUG~c	DUG~c	1
 o0903581	c	|DUG~c×1(N57)|	|DUG~c×1(N57)|	1
 o0903582	c	|EZEN~a×EN~b|	|EZEN~a×EN~b|	1

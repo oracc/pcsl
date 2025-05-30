@@ -5551,12 +5551,12 @@ o0900239	s	DARA₃~d	DARA₃~d
 o0900241	c	|DARA₃~c×KAR₂|	|DARA₃~c×KAR₂|
 o0900241	c	|DARA₃~c×KAR₂|	|DARA₃~c×KAR₂|
 o0900241	c	|DARA₃~c×KAR₂|	|DARA₃~c×KAR₂|
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
-o0900243	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
+o0900242	c	|DARA₃~d×KAR₂~b|	|DARA₃~d×KAR₂|
 o0900247	c	|DARA₃~d×(KAR₂.ŠE~a)|	|DARA₃~d×(KAR₂.ŠE~a)|
 o0900249	s	DARA₄~a1	DARA₄~a1
 o0900249	s	DARA₄~a1	DARA₄~a1
@@ -7082,6 +7082,7 @@ o0900401	c	|DUG~b×(1(N57).KU₃~a)|	|DUG~b×(1(N57).KU₃~a)|
 o0900401	c	|DUG~b×(1(N57).KU₃~a)|	|DUG~b×(1(N57).KU₃~a)|
 o0900401	c	|DUG~b×(1(N57).KU₃~a)|	|DUG~b×(1(N57).KU₃~a)|
 o0900403	c	|DUG~b×3(N57)|	|DUG~b×3(N57)|
+o0900404	c	|DUG~b×1(N58)|	|DUG~b×1(N58)|
 o0900407	c	|DUG~a×NAGA~a|	|DUG~a×NAGA~a|
 o0900408	c	|DUG~b×NAGA~a|	|DUG~b×NAGA~a|
 o0900408	c	|DUG~b×NAGA~a|	|DUG~b×NAGA~a|
@@ -80536,7 +80537,6 @@ o0903575	c	|DUG~b×GEŠTU~a|	|DUG~b×GEŠTU~a|
 o0903575	c	|DUG~b×GEŠTU~a|	|DUG~b×GEŠTU~a|
 o0903575	c	|DUG~b×GEŠTU~a|	|DUG~b×GEŠTU~a|
 o0903576	c	|DUG~b×AB₂|	|DUG~b×AB₂|
-o0903578	c	|DUG~b×1(N58)|	|DUG~b×1(N58)|
 o0903580	s	DUG~c	DUG~c
 o0903580	s	DUG~c	DUG~c
 o0903580	s	DUG~c	DUG~c

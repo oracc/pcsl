@@ -647,7 +647,7 @@
 @aka |DARA₃~d×KAR₂|
 @aka |DARA₃~d×KAR₂|~v1
 @aka |DARA₃~d×KAR₂|~v2
-@oid o0900243
+@oid o0900242
 @end sign
 
 @sign DARA₄~a1
@@ -1152,7 +1152,7 @@
 @end sign
 
 @sign |DUG~b×1(N58)|
-@oid o0903578
+@oid o0900404
 @end sign
 
 @sign |(DUG~b&DUG~b)×1(N58)|
@@ -1174,10 +1174,6 @@
 
 @sign DUG~d
 @oid o0900480
-@end sign
-
-@sign DUG~e
-@oid o0900478
 @end sign
 
 @sign DUGUD
