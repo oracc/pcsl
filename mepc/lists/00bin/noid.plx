@@ -9,7 +9,9 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $ignoremissing = 0;
 GetOptions(
+    ignore=>\$ignoremissing,
     );
 
 #throwaway script to map mepc/lists/00etc to new OIDs
@@ -51,7 +53,7 @@ foreach (@Ono) {
 
 foreach (@f) {
     warn "$0: $_ not in Os/Og/Ono\n"
-	unless $seen{$_};
+	unless $seen{$_} || $ignoremissing;
 }
 
 foreach my $f (sort keys %Os) {

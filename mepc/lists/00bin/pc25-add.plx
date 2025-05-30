@@ -15,6 +15,12 @@ use Getopt::Long;
 
 my $font = '../../fepc/PC24.ttx.xz';
 
+my %ignore_non_hex = ();
+@ignore_non_hex{
+    qw/multiply period plus underscore uni2080 uni2081 uni2082
+    uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089 uni2218 .notdef uni25A1/
+} = ();
+
 my $verbose = 0;
 GetOptions(
     verbose=>\$verbose,
@@ -130,7 +136,8 @@ foreach (@c) {
 		}
 	    }
 	} else {
-	    warn "non-hex TTGlyph name $u\n" unless $u =~ /uni25A1|\.notdef/;
+	    warn "non-hex TTGlyph name $u\n" 
+		unless exists $ignore_non_hex{$u};
 	}
     }
 }
