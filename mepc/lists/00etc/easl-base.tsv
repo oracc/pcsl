@@ -264,8 +264,7 @@ o0900476	n	|(DUG~b~v1&DUG~b~v1)×1(N58)|	I	|(DUG~b&DUG~b)x1(N58)|	𒞹	/pcsl/eas
 o0900336		DUG~c~v1	I	DUG~c	𒞼,𒞿	/pcsl/easl/images/o0900336.png
 o0900397		|DUG~c×1(N57)|	I	|DUG~cx1(N57)|	𒞾,𒞽,𒟀	/pcsl/easl/images/o0900398.png
 o0900479		DUG~c@t	I	DUG~c@t	𒞻	/pcsl/easl/images/o0900479.png
-o0900338	c	DUG~d	I	DUG~d	𒟁	/pcsl/easl/images/o0900338.png
-o0900478	a	DUG~e	DUGe	DUG~e	𒝴	-
+o0900338	c	DUG~d	I	DUG~d	𒟁;𒝴	/pcsl/easl/images/o0900338.png
 o0900481		DUGUD	I	DUGUD	𒟂	/pcsl/easl/images/o0900481.png
 o0900483		DUR~a	I	DUR~a	𒟃	/pcsl/easl/images/o0900483.png
 o0900484		DUR~b	I	DUR~b	𒟄	/pcsl/easl/images/o0900484.png
@@ -844,7 +843,7 @@ o0903230	.	|2(N57).SU~a|	I	|2(N57).SU~a|	𒷺	/pcsl/easl/images/o0903230.png
 o0903231	.	|2(N57).ŠUBUR|	I	|2(N57).SZUBUR|	𒷻	/pcsl/easl/images/o0903231.png
 o0903235	.	|3(N57).AMAR|	I	|3(N57).AMAR|	𒷼	/pcsl/easl/images/o0903235.png
 o0903239	.	|3(N57).BARA₃|	I	|3(N57).BARA3|	𒷽	/pcsl/easl/images/o0903239.png
-o0903241	.	|3(N57).E₂~b|	I	|3(N57).E2~b|	𒷾	/pcsl/easl/images/o0903241.png
+o0903241	.	|3(N57).E₂~b|	I	|3(N57).E2~b|	𒷾;󳁢	/pcsl/easl/images/o0903241.png
 o0903243	.	|3(N57).GAR|	I	|3(N57).GAR|	𒷿	/pcsl/easl/images/o0903243.png
 o0903245	.	|3(N57).NUNUZ~a1|	I	|3(N57).NUNUZ~a1|	𒸀	/pcsl/easl/images/o0903245.png
 o0903246	.	|3(N57).NUNUZ~c|	I	|3(N57).NUNUZ~c|	𒸁	/pcsl/easl/images/o0903246.png
@@ -1101,7 +1100,7 @@ o0901858		|SILA₃~c×ZATU687|	I	|SILA3~cxZATU687|	𒬑	/pcsl/easl/images/o09018
 o0901832		|SILA₃~d×NI~a|	I	|SILA3~dxNI~a|	𒬒	/pcsl/easl/images/o0901832.png
 o0901860		SILA₄~a	I	SILA4~a	𒬓	/pcsl/easl/images/o0901860.png
 o0901861		SILA₄~b	I	SILA4~b	𒬔	/pcsl/easl/images/o0901861.png
-o0901862		SILA₄~c	I	SILA4~c	𒬕	/pcsl/easl/images/o0901862.png
+o0901862		SILA₄~c	I	SILA4~c	𒬕;󳀀	/pcsl/easl/images/o0901862.png
 o0901864		SILA₄~d	I	SILA4~d	𒬖	/pcsl/easl/images/o0901864.png
 o0901865	!A	SILANITA	I	SILANITA	𒬗	/pcsl/easl/images/o0901865.png
 o0901866		SIMUG	I	SIMUG	𒬘,𒬙	/pcsl/easl/images/o0901866.png
@@ -1633,9 +1632,9 @@ o0902687		ZATU749~a	I	ZATU749~a	𒵬,𒵭,𒵮	/pcsl/easl/images/o0902687.png
 o0902690		ZATU749~b	I	ZATU749~b	𒵯	/pcsl/easl/images/o0902690.png
 o0902691		ZATU749~c	I	ZATU749~c	𒵰	/pcsl/easl/images/o0902691.png
 o0902692		ZATU750	I	ZATU750	𒵱,𒵲,𒵳,𒵴	/pcsl/easl/images/o0902692.png
-o0902697		ZATU751~a	I	ZATU751~a	𒵵	/pcsl/easl/images/o0902697.png
+o0902697		ZATU751~a	I	ZATU751~a	𒵵;󳂪	/pcsl/easl/images/o0902697.png
 o0902698		ZATU751~b	I	ZATU751~b	𒵶	/pcsl/easl/images/o0902698.png
-o0903383		ZATU751~c	I	ZATU751~c	󳀏	/pcsl/easl/images/o0902698.png
+o0903383		ZATU751~c	I	ZATU751~c	󳀏	-
 o0902699		ZATU752	I	ZATU752	𒵷,𒵸	/pcsl/easl/images/o0902699.png
 o0902701		ZATU753	I	ZATU753	𒵹	/pcsl/easl/images/o0902701.png
 o0902702		ZATU754	I	ZATU754	𒵺	/pcsl/easl/images/o0902702.png

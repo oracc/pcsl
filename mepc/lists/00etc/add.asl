@@ -345,16 +345,6 @@ s@list U+F307E
 @useq xF0112.x127E3
 @end sign
 
-@sign |1(N57).MUŠEN|
-@oid o0903215
-@useq xF0110.x12A05
-@end sign
-
-@sign |2(N57).MUŠEN|
-@oid o0903228
-@useq xF0111.x12A05
-@end sign
-
 @sign |3(N57).SANGA~a|
 @aka |3(N57).SANGA|
 @oid o0903250

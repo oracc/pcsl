@@ -33,7 +33,11 @@ foreach (@p) {
 my %m = (); my @m = `cut -f2-3 00etc/pc25-map.tsv`; chomp @m;
 foreach (@m) {
     my($f,$t) = split(/\t/,$_);
-    $m{$f} = $t;
+    if ($f) {
+	$m{$f} = $t;
+    } else {
+	warn "$0: syntax error in 00etc/pc25-map.tsv: $_\n";
+    }
 }
 
 open(M,">$mapfile") || die; select M;

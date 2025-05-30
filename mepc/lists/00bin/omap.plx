@@ -21,7 +21,7 @@ GetOptions(
     );
 
 die "$0: must give column (counting from 0) to map with -c option. Stop\n"
-    unless $col >= 0;
+    unless $col >= 0 || $all;
 
 die "$0: must give -s (sign) or -g (glyf). Stop.\n"
     unless $sign || $glyf;
@@ -34,11 +34,13 @@ die "$0: can't use -g with -a. Stop\n"
 
 my %Os = (); my %Og = (); load_pcsl_oid();
 
-while (<>) {
+my $f = shift;
+open(F,$f);
+while (<F>) {
     if (/^#/ || /^\s*$/) {
 	print;
     } elsif ($all) {
-	s/(o09[0-7][0-9]{4})/Os($1)/eg;
+	s/(o09[0-7][0-9]{4})/Os($1,$f)/eg;
 	print;
     } else {
 	chomp;
@@ -49,20 +51,20 @@ while (<>) {
 		if ($Os{$k}) {
 		    $f[$col] = $Os{$k};
 		} else {
-		    warn "no Os for $k in\t$_\n";
+		    warn "$f:$.: no Os for $k in\t$_\n";
 		}
 	    } elsif ($glyf) {
 		if ($Og{$k}) {
 		    $f[$col] = $Og{$k};
 		} else {
-		    warn "no Og for $k in\t$_\n";
+		    warn "$f:$.: no Og for $k in\t$_\n";
 		}
 	    }
 	}
 	print join("\t", @f), "\n";
     }
 }
-
+close(F);
 1;
 
 ################################################################################
@@ -83,12 +85,12 @@ sub load_pcsl_oid {
 
 sub Os {
     my $or = $Os{$_[0]};
-    warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+    warn "$_[1]:$.: no pcsl.oid sign entry for $_[0]\n" unless $or;
     return $or || $_[0];
 }
 
 sub Og {
     my $or = $Og{$_[0]};
-    warn "$0: $_[1]: no pcsl.oid glyf entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+    warn "$_[1]:$.: no pcsl.oid glyf entry for $_[0]\n" unless $or;
     return $or || $_[0];
 }

@@ -172,7 +172,7 @@ foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
 		++$seen{$pc24};
 	    } else {
 		# These are characters that were in the PC24 encoding but not in pcsl-final.tsv
-		printf STDERR "$o\t$pc24\t%X\n", $xxx
+		printf STDERR "PC24-not-PCSL: $o\t$pc24\t%X\n", $xxx
 		    unless (exists($pfoid{$o})
 			    || ($om{$o} && exists($pfoid{$om{$o}}))
 			    || ($omr{$o} && exists($pfoid{$omr{$o}})));
@@ -192,6 +192,13 @@ my $block6 = 0xF2D00;
 my @xacn = `cat 00etc/acn-ap23-ap24-pc25.lst`; chomp @xacn;
 foreach my $x (@xacn) {
     printf "-\t$x\t%X\n", $block6++;
+    ++$seen{$x};
+}
+
+# Block 7: pass-throughs
+my @pass = `cat 00etc/pc25-map-passthru.lst`; chomp @pass;
+foreach my $x (@pass) {
+    printf "-\t$x\t$x\n";
     ++$seen{$x};
 }
 

@@ -647,7 +647,7 @@
 @aka |DARA₃~d×KAR₂|
 @aka |DARA₃~d×KAR₂|~v1
 @aka |DARA₃~d×KAR₂|~v2
-@oid o0900242
+@oid o0900243
 @end sign
 
 @sign DARA₄~a1
@@ -926,6 +926,10 @@
 @oid o0900343
 @end sign
 
+@sign |DUG~b×BA|
+@oid o0900345
+@end sign
+
 @sign |DUG~b×BALA~a|
 @oid o0900347
 @end sign
@@ -1148,7 +1152,7 @@
 @end sign
 
 @sign |DUG~b×1(N58)|
-@oid o0900405
+@oid o0903578
 @end sign
 
 @sign |(DUG~b&DUG~b)×1(N58)|
@@ -3796,7 +3800,6 @@
 @end sign
 
 @sign |NI~b×8(N57)|
-@aka |8(N57).NI|
 @oid o0903277
 @end sign
 
@@ -4334,7 +4337,7 @@
 @end sign
 
 @sign SANGA~e
-@oid o0901715
+@oid o0901716
 @end sign
 
 @sign SAR~a
@@ -5652,7 +5655,7 @@
 @end sign
 
 @sign |U₄×(1(N14).3(N01))|
-@oid o0903390
+@oid o0903666
 @end sign
 
 @sign |U₄×(1(N14).3(N01)).1(N14).4(N08)|
@@ -7812,7 +7815,7 @@
 @end sign
 
 @sign 1(N08~v)
-@oid o0902911
+@oid o0903300
 @end sign
 
 @sign 1(N08@f)
@@ -9016,7 +9019,7 @@
 @end sign
 
 @sign 7(N59)
-@oid o0903300
+@oid o0902911
 @end sign
 
 @sign 1(N60)

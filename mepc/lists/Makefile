@@ -26,7 +26,7 @@ IMGDEPS=images/atu3/.images images/atu5/.images images/cusas/.images images/easl
 SLDEPS=00etc/atu3-final.tsv 00etc/atu5-final.tsv 00etc/msvo1-final.tsv 00etc/msvo4-final.tsv
 SLHTML=00web/atu3-tab.html 00web/atu5-tab.html 00web/msvo1-tab.html 00web/msvo4-tab.html
 SLXML=00etc/atu3-final.xml 00etc/atu5-final.xml 00etc/msvo1-final.xml 00etc/msvo4-final.xml
-PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst
+PC25DEPS=00etc/pcsl-final.tsv 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pc24.tsv 00etc/acn-ap23-ap24-pc25.lst 00etc/pc25-map-passthru.lst
 XMLDEPS=00bin/final-xml.plx 00bin/final-preambles.xsl 00etc/propgh-sf.tsv
 NOXML=00etc/no_broken.xml 00etc/no_corpus.xml 00etc/no_delete.xml 00etc/no_sequence.xml 00etc/no_number.xml 00etc/no_numberxacn.xml 00etc/no_sequencexexc.xml 00etc/no_edi.xml 00etc/no_uruk5.xml
 NOHTML=00web/no_broken.html 00web/no_corpus.html 00web/no_delete.html 00web/no_sequence.html 00web/no_number.html 00web/no_numberxacn.html 00web/no_sequencexexc.html 00web/no_edi.html 00web/no_uruk5.html
@@ -74,9 +74,6 @@ core: 00etc/cusas-final.tsv 00etc/easl-final.tsv 00etc/num-final.tsv 00etc/pcsl-
 
 00etc/num-final.tsv: 00etc/num-base.tsv
 	00bin/sl-number.plx -1 -n EANM001 <$< >$@
-
-00etc/num-base.tsv: ../../00etc/acn-repertoire.tsv ../../00etc/vsp-oid-pua-acn.tsv 00etc/num-map.tsv ../../00etc/pc-pua.tab 00bin/num-base.plx
-	00bin/num-base.plx | 00bin/sl-sort.plx -c 2 - >$@
 
 00etc/pcsl-final.tsv: Makefile ${DVDEPS}
 	00bin/pcsl-final.plx
