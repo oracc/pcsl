@@ -173,7 +173,7 @@ pc25: Makefile 00etc/pc25rep.lst 00etc/pc25-final.tsv 00etc/pc25-map.tsv 00etc/p
 
 pcsl: Makefile 00etc/pcsl-final.tsv 00lib/pcsl.asl install-pcsl
 
-00lib/pcsl.asl: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/num.asl 00etc/compoundonly.asl
+00lib/pcsl.asl: 00etc/glyf-final.tsv 00etc/seq-final.tsv 00etc/pcsl-final.tsv Makefile 00bin/pcsl-asl.plx 00etc/header.asl 00etc/compoundonly.asl
 	00bin/pcsl-asl.plx
 
 install-pcsl:
@@ -290,10 +290,10 @@ clean-csl:
 	(cd 00etc ; rm -vf csldist*.tsv)
 
 clean-pc25:
-	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv)
+	(cd 00etc ; rm -vf pc25-final.tsv pc25-final.xml pc25-map.tsv pc25-add.tsv pc25rep.lst no_*.tsv)
 
 clean-pcsl:
-	rm -vf 00lib/pcsl.asl
+	rm -vf 00lib/pcsl.asl 00etc/unames.tsv
 
 clean-xml:
 	rm -vf ${SLXML} ${DVXML} ${NOXML}

@@ -10,10 +10,12 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 use Getopt::Long;
 
 my $col = -1;
+my $all = 0;
 my $sign = 0;
 my $glyf = 0;
 GetOptions(
     "col:i"=>\$col,
+    all=>\$all,
     glyf=>\$glyf,
     sign=>\$sign,
     );
@@ -27,29 +29,38 @@ die "$0: must give -s (sign) or -g (glyf). Stop.\n"
 die "$0: can't give both -s and -g. Stop\n"
     if $sign && $glyf;
 
+die "$0: can't use -g with -a. Stop\n"
+    if $all and $glyf;
 
 my %Os = (); my %Og = (); load_pcsl_oid();
 
 while (<>) {
-    chomp;
-    my @f = split(/\t/,$_);
-    my $k = $f[$col];
-    if ($k =~ /^o[0-9]{7}/) {
-	if ($sign) {
-	    if ($Os{$k}) {
-		$f[$col] = $Os{$k};
-	    } else {
-		warn "no Os for $k in\t$_\n";
-	    }
-	} elsif ($glyf) {
-	    if ($Og{$k}) {
-		$f[$col] = $Og{$k};
-	    } else {
-		warn "no Og for $k in\t$_\n";
+    if (/^#/ || /^\s*$/) {
+	print;
+    } elsif ($all) {
+	s/(o09[0-7][0-9]{4})/Os($1)/eg;
+	print;
+    } else {
+	chomp;
+	my @f = split(/\t/,$_);
+	my $k = $f[$col];
+	if ($k =~ /^o[0-9]{7}/) {
+	    if ($sign) {
+		if ($Os{$k}) {
+		    $f[$col] = $Os{$k};
+		} else {
+		    warn "no Os for $k in\t$_\n";
+		}
+	    } elsif ($glyf) {
+		if ($Og{$k}) {
+		    $f[$col] = $Og{$k};
+		} else {
+		    warn "no Og for $k in\t$_\n";
+		}
 	    }
 	}
+	print join("\t", @f), "\n";
     }
-    print join("\t", @f), "\n";
 }
 
 1;
