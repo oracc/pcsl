@@ -13,18 +13,21 @@ my $col = -1;
 my $all = 0;
 my $sign = 0;
 my $glyf = 0;
+my $zatu = 0;
+
 GetOptions(
     "col:i"=>\$col,
     all=>\$all,
     glyf=>\$glyf,
     sign=>\$sign,
+    zatu=>\$zatu,
     );
 
 die "$0: must give column (counting from 0) to map with -c option. Stop\n"
-    unless $col >= 0 || $all;
+    unless $col >= 0 || $all || $zatu;
 
 die "$0: must give -s (sign) or -g (glyf). Stop.\n"
-    unless $sign || $glyf;
+    unless $sign || $glyf || $zatu;
 
 die "$0: can't give both -s and -g. Stop\n"
     if $sign && $glyf;
@@ -42,6 +45,14 @@ while (<F>) {
     } elsif ($all) {
 	s/(o09[0-7][0-9]{4})/Os($1,$f)/eg;
 	print;
+    } elsif ($zatu) {
+	my($Z,@o) = split(/\s+/,$_);
+	my @n = zmap(@o);
+	warn "$f:$.: $Z has no mappable OIDs\n"
+	    unless $#n >= 0;
+	my %n = (); @n{@n} = ();
+	@n = sort keys %n;
+	print "$Z\t@n\n";
     } else {
 	chomp;
 	my @f = split(/\t/,$_);
@@ -93,4 +104,13 @@ sub Og {
     my $or = $Og{$_[0]};
     warn "$_[1]:$.: no pcsl.oid glyf entry for $_[0]\n" unless $or;
     return $or || $_[0];
+}
+
+sub zmap {
+    my @r = ();
+    foreach my $o (@_) {
+	my $n = $Os{$o} || $Og{$o};
+	push @r, $n if $n;
+    }
+    return @r;
 }

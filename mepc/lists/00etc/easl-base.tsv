@@ -825,9 +825,9 @@ o0901417		MUŠ	I	MUSZ	𒧾	/pcsl/easl/images/o0901417.png
 o0901419		MUŠ₃~a	I	MUSZ3~a	𒧿,𒨂,𒨃	/pcsl/easl/images/o0901419.png
 o0901424		MUŠ₃~a@g	I	MUSZ3~a@g	𒨀,𒨁	/pcsl/easl/images/o0901424.png
 o0901422		MUŠ₃~b	I	MUSZ3~b	𒨄	/pcsl/easl/images/o0901422.png
-o0901426		MUŠEN	I	MUSZEN	𒨅	/pcsl/easl/images/o0901426.png
-o0901429	.	|MUŠEN.UR₃~b2|	I	|MUSZEN.UR3~b2|	𒨆	/pcsl/easl/images/o0901429.png
-o0901434	n	|MUŠEN×PAP~a|	I	|MUSZENxPAP~a|	󲶧	/pcsl/easl/images/o0901434.png
+o0901426		MUŠEN	I	MUSZEN	𒨅;󳄒	/pcsl/easl/images/o0901426.png
+o0901429	.	|MUŠEN.UR₃~b2|	I	|MUSZEN.UR3~b2|	𒨆;󳄑	/pcsl/easl/images/o0901429.png
+o0901434	n	|MUŠEN×PAP~a|	I	|MUSZENxPAP~a|	󲶧	-
 o0901435	#	|MUŠEN×X|	I	|MUSZENxX|	𒨇	/pcsl/easl/images/o0901435.png
 o0901430	@.	|1(N57).MUŠEN|	I	|MUSZENx1(N57)|	𒨈;󰄐_𒨅	/pcsl/easl/images/o0901430.png
 o0901431	@.	|2(N57).MUŠEN|	I	|MUSZENx2(N57)|	𒨉;󰄑_𒨅	/pcsl/easl/images/o0901431.png
@@ -1252,7 +1252,7 @@ o0902111		TU~a	I	TU~a	𒯁	/pcsl/easl/images/o0902111.png
 o0902112		TU~b	I	TU~b	𒯂	/pcsl/easl/images/o0902112.png
 o0902114		TU~c	I	TU~c	𒯃	/pcsl/easl/images/o0902114.png
 o0902116		TUG₂~a	I	TUG2~a	𒯄	/pcsl/easl/images/o0902116.png
-o0902121	.	|TUG₂~a.BAD&BAD|	I	|TUG2~a.(BAD&BAD)|	𒯅	/pcsl/easl/images/o0902121.png
+o0902121	.	|TUG₂~a.BAD&BAD|	I	|TUG2~a.(BAD&BAD)|	𒯅;󳄐	/pcsl/easl/images/o0902121.png
 o0902123		TUG₂~a@g	I	TUG2~a@g	𒯆,𒯇	/pcsl/easl/images/o0902123.png
 o0902117		TUG₂~b	I	TUG2~b	𒯈	/pcsl/easl/images/o0902117.png
 o0902118		TUG₂~c	I	TUG2~c	𒯉	/pcsl/easl/images/o0902118.png
@@ -1386,7 +1386,7 @@ o0902315		UR₃~a2	I	UR3~a2	𒱔	/pcsl/easl/images/o0902315.png
 o0902316		UR₃~a3	I	UR3~a3	𒱕	/pcsl/easl/images/o0902316.png
 o0902317		UR₃~b1	I	UR3~b1	𒱖	/pcsl/easl/images/o0902317.png
 o0902321		|UR₃~b1×MAŠ|	I	|UR3~b1xMASZ|	𒱗	/pcsl/easl/images/o0902321.png
-o0902318		UR₃~b2	I	UR3~b2	𒱘	/pcsl/easl/images/o0902318.png
+o0902318		UR₃~b2	I	UR3~b2	𒱘;󳄓	/pcsl/easl/images/o0902318.png
 o0902323		UR₄~a	I	UR4~a	𒱙	/pcsl/easl/images/o0902323.png
 o0902324		UR₄~b	I	UR4~b	𒱚	/pcsl/easl/images/o0902324.png
 o0902325		UR₄~c	I	UR4~c	𒱛	/pcsl/easl/images/o0902325.png
