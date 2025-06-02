@@ -24,7 +24,7 @@ $oldoids = 1 if $bare;
 # are post-converted by utr; all input is still in PC24.
 #
 
-my %Os = (); my %Og = (); load_pcsl_oid();
+my %Os = (); my %Og = (); my %Or = (); load_pcsl_oid();
 
 my $pcslranges = '';
 
@@ -162,7 +162,8 @@ sub asl_sign {
 	    }
 	}
     }
-    if ($oldoids) {
+    
+    if ($oldoids || $om =~ /^o098/) {
 	print "\@oid $om\n";
     } else {
 	my $O = $Os{$om};
@@ -208,44 +209,49 @@ sub asl_uni {
 	    # print "\@inote \@useq $us\n";
 	}
 
-	if ($uc) {
-	    my $ch = sprintf("%X", ord($uc));
-	    my $co = $u{$ch};
-	    my $cn = $n{$co};
-	    unless ($cn) {
-		if ($n{$oidmap{$co}}) {
-		    $cn = $n{$oidmap{$co}};
-		}
-	    }
-	    if ($cn) {
-		my $ocn = $cn;
-		$cn = pc25_name($cn);
-		if ($xuname{$uc}) {
-		    print "\@uname $xuname{$uc}\n";
-		} elsif ($cn =~ /ZATU/) {
-		    my $un = $unames{$cn};
-		    $un =~ s/~([a-z]+)/-\U$1/;
-		    $un =~ s/\@g/ GUNU/;
-		    $un =~ s/\@t/ TENU/;
-		    warn "bad UNAME char in $cn=$un\n" if $un =~ /[~\@]/;
-		    print "\@uname $un\n";
-		} elsif ($unames{$cn}) {
-		    print "\@uname $unames{$cn}\n";
-		} elsif ($unames{$ocn}) {
-		    print "\@uname $unames{$ocn}\n";
-		} else {
-		    my $xu = `gdlx -p pcsl -U '$cn' | cut -f2`; chomp $xu;
-		    if ($xu =~ /PROTO/) {
-			print "\@uname $xu\n";
-		    } else {
-			print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
-			warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
-			++$X;
+	if ($o =~ /^o098/) {
+	    print "\@uname $unames{$o}\n";
+	} else {
+	
+	    if ($uc) {
+		my $ch = sprintf("%X", ord($uc));
+		my $co = $u{$ch};
+		my $cn = $n{$co};
+		unless ($cn || $co =~ /^o099/) {
+		    if ($n{$oidmap{$co}}) {
+			$cn = $n{$oidmap{$co}};
 		    }
 		}
-#		asl_pglyf($co,$cn,$uc,0);
-	    } else {
-		warn "$0: no name for OID=$co HEX=$ch\n";
+		if ($cn) {
+		    my $ocn = $cn;
+		    $cn = pc25_name($cn);
+		    if ($xuname{$uc}) {
+			print "\@uname $xuname{$uc}\n";
+		    } elsif ($cn =~ /ZATU/) {
+			my $un = $unames{$cn};
+			$un =~ s/~([a-z]+)/-\U$1/;
+			$un =~ s/\@g/ GUNU/;
+			$un =~ s/\@t/ TENU/;
+			warn "bad UNAME char in $cn=$un\n" if $un =~ /[~\@]/;
+			print "\@uname $un\n";
+		    } elsif ($unames{$cn}) {
+			print "\@uname $unames{$cn}\n";
+		    } elsif ($unames{$ocn}) {
+			print "\@uname $unames{$ocn}\n";
+		    } else {
+			my $xu = `gdlx -p pcsl -U '$cn' | cut -f2`; chomp $xu;
+			if ($xu =~ /PROTO/) {
+			    print "\@uname $xu\n";
+			} else {
+			    print "\@uname PROTO-CUNEIFORM SIGN X$X\n";
+			    warn "uname: $co = $uc = $cn failed as X$X\n" unless $cn =~ /^[0-9]/ || $cn =~ /^EMPTY/;
+			    ++$X;
+			}
+		    }
+		    #		asl_pglyf($co,$cn,$uc,0);
+		} else {
+		    warn "$0: no name for OID=$co HEX=$ch\n";
+		}
 	    }
 	}
     }
@@ -301,9 +307,13 @@ sub asl_pglyf {
 		$mh = $m{$s{'h'}};
 	    }
 	    my $O = $s{'o'};
-	    unless ($oldoids) {
-		$O = $Og{$s{'o'}};
-		warn "$0: no O(g) for $s{'o'}\n" unless $O;
+	    if ($O =~ /^o098/) {
+		$O = $Or{$O};
+	    } else {
+		unless ($oldoids || $o =~ /^o099/) {
+		    $O = $Og{$s{'o'}};
+		    warn "$0: no O(g) for $s{'o'}\n" unless $O;
+		}
 	    }
 	    printf "\@glyf $nq~%d $ueq$s1 $mh $O ~%02X\n", $tag, $tag;
 	} else {
@@ -316,7 +326,7 @@ sub asl_pglyf {
 	    my($o,$h,$n,$t) = @{$glyf{$c}};
 	    my $mh = $m{$h};
 	    my $O = $o;
-	    unless ($oldoids) {
+	    unless ($oldoids || $o =~ /^o099/) {
 		$O = $Og{$o};
 		warn "$0: no O(g) for $o\n" unless $O;
 	    }
@@ -355,6 +365,10 @@ sub load_glyf {
 }
 
 sub load_oid {
+    
+}
+
+sub load_oid_tab {
     my @o = `grep ^o09 $ENV{'ORACC'}/oid/oid.tab | cut -f1,3`; chomp @o;
     foreach (@o) {
 	my($o,$n) = split(/\t/,$_); $n{$o} = $n;
@@ -386,12 +400,23 @@ sub load_seq {
 }
 
 sub load_unames {
-    my @un = `cut -f3 00etc/pcsl-final.tsv | gdlx -p pcsl -U | sed 's/BESIDE/WITH/' | sed 's/BESIDE/AND/'`;
-    open(U,'>00etc/unames.tsv'); print U @un; close(U);
+    my @un = `cut -f1,3 00etc/pcsl-final.tsv | gdlx -k 2 -p pcsl -U | sed 's/BESIDE/WITH/' | sed 's/BESIDE/AND/'`;
+    open(U,'>00etc/unames.tsv');
+    foreach my $x (@un) {
+	chomp $x;
+	my($o,$n,$un) = split(/\t/,$x);
+	$un =~ s/NUMBER/NUMERIC SIGN/;
+	$un =~ s/~([a-z]+)/-\U$1/;
+	$un =~ s/\@g/ GUNU/;
+	$un =~ s/\@t/ TENU/;
+	warn "bad UNAME char in $un\n" if $un =~ /[~\@]/;
+	print U "$o\t$n\t$un\n";
+    }
+    close(U);
     chomp @un;
     foreach (@un) {
-	my($n,$un) = split(/\t/,$_);
-	$unames{$n} = $un;
+	my($o,$n,$un) = split(/\t/,$_);
+	$unames{$o} = $un;
     }
 }
 
@@ -400,9 +425,9 @@ sub load_unicode {
     foreach (@u) { my($o,$u) = split(/\t/,$_); $u{$u} = $o; }
     my @a = `cat 00etc/ap24-codes.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
-    @a = `cut -f1-2 ../../00etc/add-data.tsv`; chomp @a;
+    @a = `cut -f1-2 00etc/add-data.tsv`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
-    @a = `cut -f1,3 ../../00etc/pc-pua.tab`; chomp @a;
+    @a = `cut -f1,3 00etc/pc-pua.tab`; chomp @a;
     foreach (@a) { my($o,$u) = split(/\t/,$_); $u{$u} = $o unless $u{$u}; }
 }
 
@@ -433,6 +458,7 @@ sub load_pcsl_oid {
 	    foreach my $o (@o) {
 		$Os{$o} = $s; # map OID o in sign context
 		$Og{$o} = $g; # map OID o in glyf context
+		$Or{$s} = $g if $g =~ /^o099/ && $n =~ /~1$/; # map sign name to refglyph
 	    }
 	}
 	close(P);

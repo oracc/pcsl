@@ -60,7 +60,7 @@ open(M,">$mapfile"); select M;
 # Block 0: ACN characters passed through without mapping
 
 #my @acn = `grep '	12[56]' 00etc/pc24.tsv`; chomp @acn;
-my @acn = `cut -f1,3 ../../00etc/pcsl-acn-repertoire.tsv`; chomp @acn;
+my @acn = `cut -f1,3 00etc/8pcsl-acn-repertoire.tsv`; chomp @acn;
 foreach (@acn) {
     my($o,$u) = split(/\t/,$_);
     if (hex($u) < 0x12690) {
