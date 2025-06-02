@@ -7,12 +7,12 @@ MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
 	../00web/pepc/principles.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
-	x/intro.xml x/pc25.xml \
+	x/intro.xml x/depc.xml \
 	../mepc/texts/tpcsl/notcov.html \
 	../mepc/lists/00etc/seqdb.xml \
 	${ORACC}/lib/fonts/PCSL.ttf
 
-default: pc25.pdf
+default: depc.pdf
 
 deps:
 	(cd ../mepc; make)
@@ -20,14 +20,14 @@ deps:
 	(cd ../repc; make)
 	(cd ../fepc; make)
 
-pc25.pdf: pc25.tex pc25mac.tex
-	oracctex pc25.tex
+depc.pdf: depc.tex depcmac.tex
+	oracctex depc.tex
 
-pc25.tex: m/pc25.xml b/html2tex.xsl
-	xsltproc -xinclude b/html2tex.xsl m/pc25.xml | sed 's#home/stinney#Users/stinney#g' >pc25.tex
+depc.tex: m/depc.xml b/html2tex.xsl
+	xsltproc -xinclude b/html2tex.xsl $< | sed 's#home/stinney#Users/stinney#g' >$@
 
-m/pc25.xml: ${MDEPS}
+m/depc.xml: ${MDEPS}
 	b/marshall.sh
 
 clean:
-	rm -f pc25.tex pc25.pdf pc25.log xetex.log m/pc25.xml
+	rm -f depc.tex depc.pdf depc.log xetex.log m/depc.xml

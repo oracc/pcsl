@@ -21,10 +21,12 @@
 
       <xi:include xml:base="." href="../../signs/gpcsl/gstats.html"/>
 
+      <!--
       <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
       
       <xi:include xml:base="." href="../../signs/gpc25/gstats.html"/>
-
+      -->
+      
       <!--
       <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
 

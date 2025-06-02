@@ -55,7 +55,12 @@
       variants as opposed to the contrastive variants marked with
       subscript letter+number sequences.</p>
 
-      <!-- ALSO ENGLUND'S SIGN-NAME-IS-SIMPLY-MNEMONIC QUOTE -->
+      <p>Although most of character readings use sign names that
+      recall SAC signs, Englund is clear that "until the language
+      affinity of the archaic texts is established, these readings
+      remain entirely conventional and often serve only mnemonic
+      purposes, whereas the meaning of many signs is now quite
+      clear" (ATU5 p.19).</p>
       
       <p>Importantly, Englund is explicit in the introduction that the
       reference forms of the signs ("graphemes" in Englund's
@@ -71,33 +76,69 @@
 
       <esp:sh>Sign List Cautions</esp:sh>
 
+      <p>Prior versions of a PC proposal have been based on the
+      CDLI-gh collection of signs and assume that list entries are
+      primary source of Unicode characters.  However, sign lists have
+      certain characteristics that can make them unsuitable for using
+      to define a character repertoire:</p>
+
       <ul>
-	<li>Proposals so far based on lists, especially CDLI-gh and
-	assume list entries are primary source of Unicode
-	characters</li>
 
-	<li>Sign Lists offer one perspective on a repertoire</li>
+	<li>Sign lists offer one perspective on a repertoire; they are
+	not necessarily exhaustive catalogues of every sign in a
+	corpus.</li>
 
-	<li>Can't assume that every sign list entry should be encoded</li>
+	<li>Sign lists often have entries that are convenient for
+	descriptive purposes, or for users, but which do not constitue
+	a 1:1 correspondence with the Unicode approach to characters.
+	<ul>
+	  <li>Entries may contain several signs under one
+	  heading--this is done in CDLI-gh when the several members
+	  given are considered non-contrastive.</li>
+	  <li>
+	    <p>Entries may combine sequences of signs if the sequence
+	    is common or interesting.</p>
+
+	    <p>Sometimes these sequences correspond to later cuneiform
+	    sign combinations which have known semantics in
+	    Sumero-Akkadian Cuneiform (SAC) despite the fact that
+	    there is no evidence that the PC sign shares those
+	    semantics or is even necessarily an antecedant of the SAC
+	    sign in anything but form and structure.</p>
+	    
+	    <p>Signs are also sometimes grouped into sequences when
+	    there is a suspected semantic basis for the grouping, even
+	    though the grouping might be considered phrasal rather
+	    than being a concatenation of components with specific
+	    semantics: examples include the combinations of N57 signs
+	    with ideograms where the notation may indicate the age of
+	    an animal or some other multiplicative relationship of the
+	    number and a commodity.  Thus, |1(N57).AB₂| may mean "a
+	    one-year-old cow" and could equally well be notated as
+	    1(N57) AB₂--in fact, the corpus instances of such
+	    sequences often occur in bothforms.</p>
+	  </li>
+	</ul>
+        </li>
 
 	<li>Sign forms are abstractions; two-dimensional sketches of a
 	three-dimensional writing system which tend to offer typical
-	forms</li>
-
- 	<li>Sign Lists do not define the use of signs in a corpus</li>
-
-	<li>Sign Lists do not necessarily capture the full range of
-	glyph-variation for any individual character; just because a
-	sign doesn't have unmarked variants in CDLI-gh doesn't mean
-	such variants don't exist (Uruk IV EZEN~c)</li>
+	forms. This means that sign lists do not normally capture the
+	full range of glyph-variation for any individual character;
+	simply because a sign does not have unmarked variants in
+	CDLI-gh doesn't mean such variants don't exist.</li>
       </ul>
+
+      <!--
 
       <esp:sh>Sign Lists and Concordances</esp:sh>
 
       <p>Several tables covering the different levels of sign list
       used in PCSL are <esp:link
       page="mepcsloverview">on the sign list overview page.</esp:link>.</p>
-      
+
+      -->
+
     </body>
   </html>
 </esp:page>

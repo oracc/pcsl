@@ -8,74 +8,164 @@
 
       <esp:h>Principles for Encoding</esp:h>
 
-      <ul>
- 	<li>shift the basis of the encoding onto the PC corpus and
- 	usage, and use the corpus as a control on the lists; use
- 	the published lists and corpus as a control on CDLI-gh</li>
+      <p>Each character that occurs in the PC25 subset of the PCSL
+      corpus has been assessed according to the following principles
+      in order to determine its encodability.  Encoded signs are given
+      in Appendix A and B; the condensed version of the
+      Proto-Cuneiform Sign List, PCSL, is given Appendix C and
+      contains essential information relating to the encodability of
+      each sign.  Appendix D lists all of the manuscripts that have
+      unencoded signs and the signs which they are missing. Appendices
+      E to K give tables of signs excluded from PC25 under one of the
+      reasons for which they were excluded.</p>
 
-	<li>align names with CDLI-tc/CDLI-gh as much as possible, with
-	some exceptions where required to correct names or to improve
-	consistency of naming scheme; if in doubt, retain CDLI
-	names</li>
+      <p>In addition to the comments above on the corpus, signiary,
+      and sign lists, some additional issues influence the Principles.</p>
+      
+      <esp:sh>(Non-)Constrastive Usage</esp:sh>
+
+      <p>Previous proposals treated the whole of CDLI-gh as a flat
+      sample of sign forms and assigned codepoints to each form.  All
+      of the resources, however, are highly consistent in listing and
+      transliterating some variant sign forms as non-contrastive and
+      this practice is followed in PC25: the grouping of sign forms
+      under a sign sign name and the practice of transliterating
+      variant sign forms with a single transliteration are both
+      indicators of non-contrastive glyphs.</p>
+
+      <p>The scholarly assessment of when sign forms are
+      non-contrastive is based on several kinds of evidence. There is
+      a often a historical dimension where Uruk IV (earlier) and Uruk
+      III (later) forms are presumptively of the same sign: Uruk IV
+      forms tend to have more curves and more complex shapes.  For
+      many signs, this analysis is assisted by duplicate manuscripts
+      of word lists ("lexical texts") that give the same text with
+      variant sign forms.  Elsewhere, commodity lists of phrasal
+      constructs can give contextual information on the likelihood
+      that two distinct forms actually belong to the same sign.</p>
+      
+      <p>Transliteration practices in the CDLI corpus closely mirror
+      the contrastive/non-contrastive distinction.  For example, the
+      SAG sign has several different glyph forms but is always
+      transliterated <code>SAG</code>.  Conversely, <code>KUŠU₂</code>
+      is a base name that has six different allographs,
+      <code>KUŠU₂~a</code> to <code>KUŠU~f</code>: each of these
+      allographs has instances in the corpus.</p>
+
+      <esp:sh>(Non-)Contrastive Usage in Complex and Compound Signs</esp:sh>
+
+      <p>CDLI-tc and CDLI-gh do not always differentiate compound
+      constituents to the same extent as the independent versions of
+      the constituents.  For example, KAR₂ is separated as KAR₂~a and
+      KAR₂~b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
+      the only notations that occur are |DARA₃~c×KAR₂| and
+      |DARA₃~d×KAR₂|.  The encoding by default follows the CDLI
+      notations in such cases.</p>
+
+      <esp:sh>Sequences</esp:sh>
+
+      <p>Sequences are a class of compound signs which exhibit a low
+      degree of integration with each other.  In later cuneiform they
+      are written as a linear sequence in which the constituents and
+      order may vary.  In PC, they are written in linear form or as a
+      cluster because PC accounts are laid out in various combinations
+      of cases (or boxes).</p>
+
+      <p>The identification of a group of signs as a discrete sequence
+      can vary from one text editor to another, and from one sign list
+      to another.  As a result, sequences are a variable and
+      open-ended category which are not suited to encoding as
+      characters.  If a sequence such as |MUŠEN.ŠE| were encoded as a
+      character there would be two reasonable representations of the
+      data: the character encoding, and the encoding as the sequence
+      of consituents.</p>
+
+      <p>The handling of sequences in PCSL--including a list of
+      exceptions which are acutally encoded--is described in a
+      separate section later in this document.</p>
+      
+      <p>The principle imperatives are:</p>
+      
+      <ol>
+ 	<li>Treat the PC corpus as the primary source of truth about
+ 	the signiary and usage.  Use the corpus as a control on
+ 	the lists; use the published lists and corpus as a control on
+ 	CDLI-gh.</li>
+
+	<li>Align names with CDLI-tc/CDLI-gh as much as possible to
+	ensure that the encoding is closely aligned with existing
+	scholarly practice. Make exceptions where required to correct
+	names or to improve consistency of naming scheme; if in doubt,
+	retain the CDLI names.</li>
 	
-   	<li>take contrastive usage into account to the extent
-   	supported by contemporary scholarship</li>
+   	<li>Take contrastive usage into account to the extent
+   	supported by contemporary scholarship and do not encode
+   	non-contrative sign variants under their own codepoints.  The
+   	CDLI-tc corpus is the primary guide to non-constrastive usage:
+   	different sign forms which are transliterated the same are
+   	accepted as non-contrastive.</li>
 
-	<li>do not introduce finer-grained allograph notations than
+	<li>Accept that allograph notations in the corpus are
+	contrastive</li>
+	
+	<li>Do not introduce finer-grained allograph notations than
 	CDLI-tc/CDLI-gh is using.  The decisions made in the corpus
 	about whether sign variants are contrastive or not are made
 	not only on the basis of form but also context of various
 	kinds; specialists in the corpus should decide if further
 	division is needed in the future</li>
 
-	<li>allograph notations are by default assumed to be
-	contrastive but there are exceptions, e.g., ŠURUPPAK~a/b/c;
-	evaluate the treatment of ŠE~a and ŠE~a@t (90 vs 45 degrees)</li>
-	
-   	<li>do not assume that every sign list entry should be encoded
-   	as a character</li>
-
-	<li>consider distribution of components when encoding X×Y
-	versus X.Y or even Y.X; sometimes, especially for rare signs,
-	it is not clear whether the juxtaposition of components is
-	part of the sign structure or the distribution of individual
-	elements on the manuscript. In such cases it is preferable to
-	treat the signs as a sequence rather than a complex (e.g.,
-	|GEŠTU~a×ŠE~a@t| treated as |ŠE~a@t.GEŠTU~a| in PCSL).</li>
-	
-	<li>do not generally encode sequences; this includes sequences
-	which are named in CDLI-gh and CDLI-tc as single characters
-	but where the naming is an interpretive mnemonic for a sign
-	group such as <code>ŠAB</code> for <code>|PA.IB|</code> and
-	the like.</li>
-
-	<li>do make exceptions to sequences rule for items which are:
-	<ul>
-	  <li>not historically sequences but are later decomposed, i.e., city
-	  names and possibly others</li>
-	  <li>semantically integral and more convenient to
-	  encode as characters, i.e., N(N57)+U₄ year notations</li>
-	</ul></li>
-
-	<li>do not require a minimum number of occurrences for
+	<li>Do not require a minimum number of occurrences for
 	encoding: the corpus consists of mostly fragmentary
 	manuscripts over 5000 years old--if a sign clearly exists and
 	meets the other principles for encoding, it should be
 	encoded</li>
 
-	<li>do not encode signs which occur only in compounds</li>
+   	<li>Do not assume that every sign list entry should be encoded
+   	as a character</li>
 
-	<li>do not encode uncertain signs, especially those from
+	<li>Do not generally encode sequences; this includes sequences
+	which are named in CDLI-gh and CDLI-tc as single characters
+	("opaque sequences") but where the naming is an interpretive
+	mnemonic for a sign group such as <code>ŠAB</code> for
+	<code>|PA.IB|</code> and the like</li>
+
+	<li>Do make exceptions to the sequences rule for items which:
+	<ul>
+	  <li>are not historically sequences but are later decomposed,
+	  e.g., some city names</li>
+	  <li>would require the encoding of separate constituent
+	  characters for a single case</li>
+	  <li>form part of a group which contains a mixture of members
+	  where some members might otherwise be encoded as characters
+	  and others as sequence</li>
+	</ul></li>
+
+	<li>Consider distribution of components when encoding complex
+	(X×Y) versus compound (X.Y or Y.X); sometimes, especially for
+	rare signs, it is not clear whether the juxtaposition of
+	components is part of the sign structure or the distribution
+	of individual elements on the manuscript. In such cases it is
+	preferable to treat the signs as a sequence rather than a
+	complex.</li>
+	
+	<li>Do not separately encode signs which occur only in
+	complex signs</li>
+
+	<li>Do not encode uncertain signs, especially those from
 	unedited texts such as the Schoyen Umma material</li>
 
-	<li>do not encode broken signs; reserve them for the PUA</li>
-
-      </ul>
+	<li>Do not encode broken signs; include them in the PUA
+	instead.</li>
+      </ol>
 
       <esp:sh>Advantages of the Revised Approach</esp:sh>
 
+      <p>There are several advantages to the revised approach to PC encoding:</p>
+      
       <ul>
-   	<li>encoding better aligned with transliteration practice</li>
+   	<li>the encoding is better aligned with transliteration
+   	practice</li>
 	
 	<li>additional glyph variants can be added without impacting
 	the encoding; encoding every glyph variant would open PC to
@@ -87,108 +177,20 @@
 	encoded and what should not be</li>
 	
  	<li>new sequences can be added without impacting the
- 	encoding; especially important for potentially productive
- 	types N57+ANIMAL and U₄+DAY</li>
+ 	encoding; this is especially important for the productive
+ 	types involving N57 and time notations involving U₄</li>
+
+ 	<li>variant forms can be managed with font features rather
+ 	than needing encoding</li>
+
+	<li>the approach is generally more robust in regard to future
+	discoveries as a result of the above points; where absolutely
+	necessary unifications/disunifications could be considered if
+	they are clearly demonstrable improvements to the utility of
+	the encoding</li>
+	
       </ul>
-
-      <esp:sh>Mitigations of Issues with Revised Approach</esp:sh>
-
-      <ul>
-	<li>variant forms can be managed with font features</li>
-
-   	<li>disunifications possible when further research indicates
-   	them</li>
-
-	<li>unifications possible if some separately encoded
-	characters are later proved to be non-contrastive</li>
-      </ul>
-
-      <esp:sh>Constrastive Usage</esp:sh>
-
-      <ul>
-	<li>Prior assumption that we cannot identify any
-	contrastive/non-contrastive distinctions is not valid</li>
-
-	<li>Historical dimension--Uruk IV and Uruk III forms of same sign
-	(sometimes not a clear distinction)</li>
-
-	<li>Lexical Data -- Uruk IV vs Uruk III manuscripts</li>
-
-  	<li>Context -- commodity lists and lexical texts suggest
-  	contrastive usage when they have distinct entries for
-  	otherwise similar-looking signs</li>
-
-	<li>Transliteration Practice:
-	<ul>
-	  
-  	  <li>CDLI-tc can be used as a control on CDLI-gh: if CDLI-tc
-  	  does not differentiate variants this is an indicator that
-  	  the variation is non-contrastive</li>
-  
-  	  <li>SAG example -- CDLI-gh unmarked variants -- SAG has
-  	  three forms but they are not differentially labelled in
-  	  CDLI-gh because non-contrastive</li>
-
-  	  <li>ŠU₂ example ŠU₂: ŠU₂~a and ŠU₂~b marked in sign lists
-  	  but not in transliteration because non-contrastive</li>
-
-  	  <li>KUŠU₂ example--each of the variants has instances in CDLI-tc</li>
-	  
-     	  <!--<li>BU~a+KI example: do not encode when the disposition
-     	      of the sign is ad hoc not structural</li>-->
-	</ul>
-	</li>
-      </ul>
-
-      <esp:sh>Compounds</esp:sh>
-
-      <p>CDLI-tc and CDLI-gh do not always differentiate compound
-      constituents to the same extent as the independent versions of
-      the constituents.  For example, KAR₂ is separated as KAR₂~a and
-      KAR₂~b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
-      the only notations that occur are |DARA₃~c×KAR₂| and
-      |DARA₃~d×KAR₂|.  Where it is clear which version of a
-      compound-constituent is present in the compound, the compound
-      notation should be revised to be specific.  Where it is not
-      clear, the compound notation should be left as is, following the
-      CDLI perspective on contrastive/non-contrastive; it may be that
-      variants are considered contrastive when used independently but
-      non-contrastive when used as part of a compound.</p>
-
-      <esp:sh>Sequences</esp:sh>
-
-      <ul>
-	<li>Most sequences are collections of components</li>
-
-	<li>Some sequences are opaque, i.e., the CDLI-tc/CDLI-gh sign
-	name hides the fact that the sign is a sequence (e.g., ENGIZ,
-	ŠAB)</li>
-
-	<li>Several classes of sequences with possibly different handling:
-
-	<ul>
-	  <li>Some sequences are reanalysis of originally integral
-	  sign forms [esp city names]</li>
-
-   	  <li>Animal-ages are indicated by N(N57) followed by signs
-   	  which in some cases are known to be animals and in others
-   	  may be assumed to be based on this usage</li>
-
-  	  <li>Time measures where years are indicated as N(N57)+U₄,
-  	  months as U₄×N(N14|N08), and days as N(N08) following an U₄
-  	  notation</li>
-	</ul>
-	</li>
-
-	<li>Ordering and placement of sequence components is highly
-	variable and non-contrastive; relative positioning of elements
-	in a sequence occurs because the distribution of signs in
-	cases is not linear and is not an integral part of the
-	structure of the sequence, e.g., |GA~a.ZATU753|.  The
-	arrangement illustrated in CDLI-gh can be effected via
-	ligatures but does not need to be part of the encoding</li>
-      </ul>
-
+      
       <esp:sh>Reference Glyphs</esp:sh>
 
       <p>The introduction of 1:several relationships where an
@@ -216,10 +218,10 @@
       reorderings, or non-linear dispositions are always accessed by
       CVNN.</p>
 
-      <p>Important to understand that the selection of an RG does not
-      imply that the form is normative--the corpus is restricted and
-      sign form variation is considerable which means that the concept
-      of a normative form is often inapplicable to any given sign.</p>
+      <p>Note that the selection of a reference glyph does not imply
+      that the form is normative--the corpus is restricted and sign
+      form variation is considerable which means that even the concept
+      of a normative form is inapplicable to many signs.</p>
 
     </body>
   </html>

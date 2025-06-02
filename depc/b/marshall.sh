@@ -9,4 +9,4 @@ cp ${ORACC}/www/pcsl/pc25/no_*.html m
 cp ../mepc/lists/00etc/seqdb.xml m
 
 # Must come last because it xi:includes the preceding
-xl x/pc25.xml >m/pc25.xml
+xl x/depc.xml >m/depc.xml

@@ -1,0 +1,105 @@
+<tex:driver
+    xmlns:tex="http://oracc.org/ns/tex/1.0"
+    xmlns:xh="http://www.w3.org/1999/xhtml"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    >
+  <xh:h1 class="title">Documentation for Encoding Proto-Cuneiform</xh:h1>
+
+  <xh:h2>Steve Tinney, 2025-05-23</xh:h2>
+
+  <xi:include href="../x/intro.xml"/>
+
+  <xh:h1>Text Corpus</xh:h1>
+  
+  <xi:include href="../m/texts.xml"/>
+
+  <xh:h1>Graphemic Repertoire</xh:h1>
+
+  <xi:include href="../m/signs.xml"/>
+
+  <xh:h1>Sign Lists</xh:h1>
+
+  <xi:include href="../m/lists.xml"/>
+  
+  <xi:include href="../m/pepc.xml"/>
+
+  <xi:include href="../m/seqexc.xml"/>
+
+  <tex:text>\newpage</tex:text>
+
+  <tex:appendix>PC25 Code Charts</tex:appendix>
+
+  <xi:include href="../m/cpage1.xml"/>
+  <xi:include href="../m/cpage2.xml"/>
+  <xi:include href="../m/cpage3.xml"/>
+  <xi:include href="../m/cpage4.xml"/>
+  <xi:include href="../m/cpage5.xml"/>
+  <xi:include href="../m/cpage6.xml"/>
+
+  <tex:text>\newpage</tex:text>
+  
+  <tex:appendix>PC25 Character List</tex:appendix>
+  <xi:include href="../m/chartlist.html"/>
+  
+  <tex:appendix>PCSL Table</tex:appendix>
+
+  <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
+  convenient overview of the entire Proto-Cuneiform repertoire and its
+  various data sources.  The contents of the columns are as follows:</xh:p>
+
+  <xh:dl>
+    <xh:dt>PCSL</xh:dt>
+    <xh:dd>The core PCSL data: the sign name and category tag are at the
+    top of the case; the distribution, Oracc ID (OID) and ZATU number,
+    if any, are at the bottom of the case. If the sign is proposed for
+    encoding in PC25, the hex codepoint and reference glyph are given
+    in the middle of the case.</xh:dd>
+    <xh:dt>FONT</xh:dt>
+    <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.  Glyphs
+    coloured blue are not included in the CDLI-gh collection.</xh:dd>
+    <xh:dt>CDLI</xh:dt>
+    <xh:dd>The original CDLI-gh image, scaled from a 600dpi image set
+    downloaded from the CDLI website in 2016.</xh:dd>
+    <xh:dt>ATU3, ATU5, MSVO1, MSCO4, CUSAS</xh:dt>
+    <xh:dd>Glyphs as given in the sign lists of the relevant text
+    editions, but drawn from the PCSL font.  Glyphs in red differ in
+    naming from CDLI-gh; <xh:code>(o)</xh:code> means that the instance has
+    no variant code; <xh:code>(a), (b)</xh:code>, etc., means that the
+    instance has the given variant code.</xh:dd>
+  </xh:dl>
+
+  <tex:text>\bigskip&#xa;&#xa;</tex:text>
+  
+  <xi:include href="../m/pcsl-tab.html"/>
+
+  <tex:appendix>PCSL Non-PC25</tex:appendix>
+  <xi:include href="../m/notcov.html"/>  
+
+  <tex:appendix>PC25 Not Encoded: Broken</tex:appendix>
+  <xi:include href="../m/no_broken.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Uruk V not in Sub-corpus</tex:appendix>
+  <xi:include href="../m/no_uruk5.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Uruk IV/III not in Sub-corpus</tex:appendix>
+  <xi:include href="../m/no_corpus.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: ED I-II not in Sub-corpus</tex:appendix>
+  <xi:include href="../m/no_edi.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Delete</tex:appendix>
+  <xi:include href="../m/no_delete.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Number (non-ACN)</tex:appendix>
+  <xi:include href="../m/no_numberxacn.html"/>
+  
+  <tex:appendix>PC25 Not Encoded: Sequence</tex:appendix>
+  <xi:include href="../m/no_sequence.html"/>
+  
+  <tex:appendix>PC25 Encoded Exceptional Sequences</tex:appendix>
+  <xi:include href="../m/no_sequencexexc.html"/>
+
+  <tex:appendix>Sequences Data</tex:appendix>
+  <xi:include href="../m/seqdb.xml"/>
+
+</tex:driver>
