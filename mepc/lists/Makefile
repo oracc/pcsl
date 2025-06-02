@@ -35,7 +35,9 @@ ifeq "$(ORACC_MODE)" "multi"
 	sudo=sudo
 endif
 
-default: base core csldist pc25 pcsl html css js font
+default: core csldist pc25 pcsl html css js font
+
+# # base # not used since moving to new OIDs
 
 ###
 ### BASE
@@ -44,13 +46,18 @@ default: base core csldist pc25 pcsl html css js font
 ### absolutely complete to prevent downstream mapping errors.
 ###
 
-base: 00etc/pc24.tsv 00etc/scodes.tsv
+base: 00etc/scodes.tsv
 
-00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../../00etc/add-data.tsv ../../00etc/pc-pua.tab
-	00bin/pc24.plx >$@
+# # 00etc/pc24.tsv # pc24.tsv is static now
 
-00etc/scodes.tsv: 00etc/easl-base.tsv 00etc/num-base.tsv 00etc/corpus-base.tsv ../../00etc/add-data.tsv 00bin/scodes.sh
+# # 00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../../00etc/add-data.tsv ../../00etc/pc-pua.tab
+# # 	00bin/pc24.plx >$@
+
+00etc/scodes.tsv: 00etc/easl-base.tsv 00etc/num-base.tsv 00etc/corpus-base.tsv 00etc/add-data.tsv 00bin/scodes.sh
 	00bin/scodes.sh
+
+00etc/add-data.tsv: ../../00etc/add-data.tsv 00bin/omap.plx 00etc/pcsl.oid
+	00bin/omap.plx -g -c 0 ../../00etc/add-data.tsv >00etc/add-data.tsv
 
 ###
 ### CORE
@@ -82,7 +89,7 @@ glyfseq: 00etc/glyf-final.tsv 00etc/seq-final.tsv
 
 #00etc/seqdb.tsv
 
-00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pc24.tsv 00etc/pcsl-final.tsv
+00etc/glyf-final.tsv: 00bin/glyf-final.plx 00etc/pcsl-final.tsv 00etc/pc24.tsv
 	00bin/glyf-final.plx <$< >$@
 
 # We need to run seq-final.plx with -n(o-validation) first to ensure seq-final.tsv is built
@@ -278,7 +285,7 @@ images/%/.images: images/%/*.png
 ###
 
 clean-base:
-	(cd 00etc ; rm -vf pc24.tsv scodes.tsv)
+	(cd 00etc ; rm -vf scodes.tsv)
 
 clean-core:
 	(cd 00etc ; rm -vf easl-final.* cusas-final.* num-final.* pcsl-final.* seq-final.tsv glyf-final.tsv)

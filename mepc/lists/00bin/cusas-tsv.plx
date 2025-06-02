@@ -12,6 +12,15 @@ use Getopt::Long;
 GetOptions(
     );
 
+#my %gm = (); my @gm = `cut -f2-3 00etc/`;
+
+my %og = (); my @og = `cut -f1-2 00etc/pc24.tsv`; chomp @og;
+foreach (@og) {
+    my($o,$h) = split(/\t/,$_);
+    next if $o =~ /^o090/;
+    $og{$h} = $o;
+}
+
 my @s = `cat 00etc/scodes.tsv`; chomp @s;
 my %s = (); foreach(@s){my($o,$c)=split(/\t/,$_);$s{$o}=$c}
 
@@ -95,7 +104,12 @@ foreach my $h (sort { ${$c{$a}}{'sort'} <=> ${$c{$b}}{'sort'} } keys %c) {
 
 sub sc {
     my($o,$h,$p) = @_;
-    my $c = $s{$o};
-    warn "$o / $h / $p has no sort code\n" unless $c;
+    my $c = undef;
+    if ($og{$h}) {
+	$c = $s{$og{$h}};
+	warn "$0: sc(): $o / $h / $p has no sort code\n" unless $c;
+    } else {
+	warn "$0: sc(): $o / $h / $p has no OID \n";
+    }
     return $c || 0;
 }

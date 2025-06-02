@@ -26,14 +26,20 @@ GetOptions(
     verbose=>\$verbose,
     );
 
+my %pc25 = (); my @pc25 = `cut -f 2,4 00etc/pc25-final.tsv`; chomp @pc25;
+foreach (@pc25) {
+    my($u,$n) = split(/\t/,$_);
+    $pc25{$n} = $u;
+}
+
 my $mapfile='00etc/pc25-add.tsv';
 
 # load OID->PC24 map
-my %pc24 = (); my @p = `cat 00etc/pc24.tsv`; chomp @p;
-foreach (@p) {
-    my($o,$h) = split(/\t/,$_);
-    $pc24{$o} = $h;
-}
+#my %pc24 = (); my @p = `cat 00etc/pc24.tsv`; chomp @p;
+#foreach (@p) {
+#    my($o,$h) = split(/\t/,$_);
+#    $pc24{$o} = $h;
+#}
 
 # load PC24->PC25 map
 my %m = (); my @m = `cut -f2-3 00etc/pc25-map.tsv`; chomp @m;
@@ -103,8 +109,10 @@ foreach (@u43) {
     my($o,$n,$u4,$u3) = split(/\t/,$_);
     my $h4 = sprintf("%X", ord($u4));
     my $h3 = sprintf("%X", ord($u3));
-    print "u$m{$pc24{$o}}.ss04\t\@$m{$h4}\n";
-    print "u$m{$pc24{$o}}.ss03\t\@$m{$h3}\n";
+#    print "u$m{$pc24{$o}}.ss04\t\@$m{$h4}\n";
+#    print "u$m{$pc24{$o}}.ss03\t\@$m{$h3}\n";
+    print "u$pc25{$n}.ss04\t\@$m{$h4}\n";
+    print "u$pc25{$n}.ss03\t\@$m{$h3}\n";
 }
 
 # ADD 5: Scaled characters for code chart

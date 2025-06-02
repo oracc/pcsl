@@ -1,0 +1,3 @@
+grep '+$' ../../../00etc/atu3-fix.tsv | cut -f1 | sed 's/^/EALX/' | grep -f - ../../../00etc/atu3.tsv >plusses
+ls -1tr *.xcf >xcfs
+cut -f1,3 plusses | paste - xcfs

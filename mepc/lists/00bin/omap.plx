@@ -11,6 +11,7 @@ use Getopt::Long;
 
 my $col = -1;
 my $all = 0;
+my $cusas = 0;
 my $sign = 0;
 my $glyf = 0;
 my $zatu = 0;
@@ -38,6 +39,10 @@ die "$0: can't use -g with -a. Stop\n"
 my %Os = (); my %Og = (); load_pcsl_oid();
 
 my $f = shift;
+
+$cusas = $f =~ /cusas/i;
+warn "$0: cusas mode enabled\n" if $cusas;
+
 open(F,$f);
 while (<F>) {
     if (/^#/ || /^\s*$/) {
@@ -57,18 +62,22 @@ while (<F>) {
 	chomp;
 	my @f = split(/\t/,$_);
 	my $k = $f[$col];
-	if ($k =~ /^o[0-9]{7}/) {
+	my $cc = ($cusas ? '[-.=]?' : '');
+	if ($k =~ /^(o[0-9]{7})$/ || $cusas && $k =~ /^[-.=]?(.[0-9]{7})$/) {
+	    my $kk = $1;
+	    my $ko = '';
+	    $ko = $1 if $k =~ /^(.)o/;
 	    if ($sign) {
-		if ($Os{$k}) {
-		    $f[$col] = $Os{$k};
+		if ($Os{$kk}) {
+		    $f[$col] = "$ko$Os{$kk}";
 		} else {
-		    warn "$f:$.: no Os for $k in\t$_\n";
+		    warn "$f:$.: no Os for $kk in\t$_\n";
 		}
 	    } elsif ($glyf) {
-		if ($Og{$k}) {
-		    $f[$col] = $Og{$k};
+		if ($Og{$kk}) {
+		    $f[$col] = "$ko$Og{$kk}";
 		} else {
-		    warn "$f:$.: no Og for $k in\t$_\n";
+		    warn "$f:$.: no Og for $kk in\t$_\n";
 		}
 	    }
 	}

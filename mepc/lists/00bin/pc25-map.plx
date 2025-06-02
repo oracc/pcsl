@@ -9,7 +9,9 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 
 use Getopt::Long;
 
+my $ate = 0;
 GetOptions(
+    '8'=>\$ate, 
     );
 
 #
@@ -69,25 +71,31 @@ foreach (@acn) {
 
 # Block 1: Encoded characters mapped from PC24 to PC25
 
-my %pc25 = (); my @pc25 = `cut -f 1,2,4 00etc/pc25-final.tsv`; chomp @pc25;
+my %pc25 = (); my @pc25 = `cut -f 1,2,4,8 00etc/pc25-final.tsv`; chomp @pc25;
 foreach (@pc25) {
-    my($o,$u,$n) = split(/\t/,$_);
-    my $b = $g1{$o};
-    unless ($b) {
-	$b = $g1{$om{$o}} if $om{$o};
+    my($o,$u,$n,$r) = split(/\t/,$_);
+    if ($ate) {
+	my $h = sprintf("%X", ord($r));
+	$b = $g1{$r};
+	warn "$0: 8-mode: no hex for char $r=$h\n" unless $b;
+    } else {
+	my $b = $g1{$o};
 	unless ($b) {
-	    $b = $g1{$omr{$o}} if $omr{$o};
+	    $b = $g1{$om{$o}} if $om{$o};
 	    unless ($b) {
-		my $c = $gfcheat{$o} || $gfcheat{$om{$o}} || $gfcheat{$omr{$o}};
-		if ($c && $c ne $o) {
-		    my $g1 = $g1{$c} || '<none>';
-		    warn "found cheat $c from $o with g1=$g1\n";
+		$b = $g1{$omr{$o}} if $omr{$o};
+		unless ($b) {
+		    my $c = $gfcheat{$o} || $gfcheat{$om{$o}} || $gfcheat{$omr{$o}};
+		    if ($c && $c ne $o) {
+			my $g1 = $g1{$c} || '<none>';
+			warn "found cheat $c from $o with g1=$g1\n";
+		    }
+		    $b = $g1{$c};
 		}
-		$b = $g1{$c};
 	    }
 	}
+	warn "$0: no glyf-final g1 entry for $o\n" and next unless $b;
     }
-    warn "$0: no glyf-final g1 entry for $o\n" and next unless $b;
 #    my $oo = $om{$o} ? $om{$o} : $o;
 #    if ($pc24{$oo}) {
 	print "$o\t$b\t$u\n";
@@ -137,7 +145,9 @@ foreach my $s (@s) {
 
 # Block 4: Variant Stacking Patterns for PC24 numbers that are now in ACN
 
-my @vsp = `grep VSP ../../00etc/pc-pua.tab | cut -f1-3`; chomp @vsp;
+my $pcpua = $ate ? '00etc/pc-pua.tab' : '../../00etc/pc-pua.tab';
+warn "$0: using pcpua = $pcpua\n";
+my @vsp = `grep VSP $pcpua | cut -f1-3`; chomp @vsp;
 foreach my $v (@vsp) {
     my($o,$n,$u) = split(/\t/,$v);
     if ($seen{$pc24{$o}}) {
@@ -156,6 +166,7 @@ foreach my $v (@vsp) {
 # Block 5: Other characters from PC24 main or PUA remapped into PC25 PUA from #F2400
 
 foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
+    next if $pc24 =~ /^-$/; # artefact of removal from font
     my $o = $pc24{$pc24};
     unless ($seen{$pc24}) {
 	if ($pc24 =~ /^F0/) {
@@ -166,6 +177,7 @@ foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
 	    ++$seen{$pc24};
 	    ++$xxx;
 	} else {
+	    warn "$0: $pc24 bad hex\n" unless $pc24 =~ /^[0-9A-Z]+$/;
 	    my $c24 = hex($pc24);
 	    if ($c24 < 0x12690) {
 		print "$o\t$pc24\t$pc24\n";
@@ -173,7 +185,8 @@ foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
 	    } else {
 		# These are characters that were in the PC24 encoding but not in pcsl-final.tsv
 		printf STDERR "PC24-not-PCSL: $o\t$pc24\t%X\n", $xxx
-		    unless (exists($pfoid{$o})
+		    unless ($ate
+			    || exists($pfoid{$o})
 			    || ($om{$o} && exists($pfoid{$om{$o}}))
 			    || ($omr{$o} && exists($pfoid{$omr{$o}})));
 		printf "$o\t$pc24\t%X\n", $xxx;
@@ -210,7 +223,7 @@ close(M);
 
 # First: is anything in pc24.tsv not covered?
 foreach my $pc24 (sort grep(!/^o/,keys %pc24)) {
-    warn "$0: missed $pc24\n" unless $seen{$pc24};
+    warn "$0: missed $pc24\n" unless $seen{$pc24} || $pc24 eq '-';
 }
 
 # Second: is anything in PC24.ttf not covered?
@@ -229,14 +242,16 @@ foreach my $f (@f) {
 
 sub load_glyf_final {
     my @g = `cat 00etc/glyf-final.tsv`; chomp @g;
+    $ate = $g[0] =~ /o0990/;
     foreach my $g (@g) {
 	my($c,$o,$b,$u,$n,$t) = split(/\t/,$g);
 	if ($t =~ /~01/) {
-	    $g1{$o} = $u; # $b eq $u here
+	    $g1{$o} = $u; # $b eq $u here	    
 	} else {
 	    push @{$gx{$b}}, $u;
 	}
 	$go{$u} = $o;
+	$g1{$c} = $n; # for $ate mode
     }
     #print Dumper \%g1; exit 1;
 }

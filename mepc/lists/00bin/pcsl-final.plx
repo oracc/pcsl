@@ -302,7 +302,7 @@ sub pcsl_tsv {
 	}
 	if ($p{'ref'}) {
 	    my $oo = $pc24{$p{'ref'}};
-	    if ($oo) {
+	    if ($oo && $o !~ /^o098/) {
 		if ($oo ne $o) {
 		    warn "$0: changing OID of sign $p{'pc25'} from $o to $oo\n" if $verbose;
 		    $p{'oid'} = $oo;
