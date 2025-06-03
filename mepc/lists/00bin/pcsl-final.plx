@@ -330,8 +330,13 @@ sub pcsl_tsv {
 	}
 	if ($p{'src'} =~ /EANM|EASL/) {
 	    #$p{'row'} =~ s/^-$// if $p{'row'};
-	    $p{'row'} = $o unless $p{'row'};
-	    $p{'row'} =~ s#/pcsl/easl/images/(o\d+)\.png#$1#;
+	    # $p{'row'} = $o unless $p{'row'};
+	    # $p{'row'}
+	    if ($p{'row'}) {
+		$p{'row'} = $o unless $p{'row'} eq '-';
+	    } else {
+		$p{'row'} = $o;
+	    }
 	} else {
 	    $p{'row'} = '-';
 	}

@@ -5,8 +5,12 @@
     >
   <xh:h1 class="title">Documentation for Encoding Proto-Cuneiform</xh:h1>
 
-  <xh:h2>Steve Tinney, 2025-05-23</xh:h2>
+  <xh:h2>Steve Tinney, 2025-06-06</xh:h2>
 
+  <tex:text>\hsect</tex:text>
+  
+  <tex:text>\usetoc</tex:text>
+  
   <xi:include href="../x/intro.xml"/>
 
   <xh:h1>Text Corpus</xh:h1>
@@ -23,7 +27,7 @@
   
   <xi:include href="../m/pepc.xml"/>
 
-  <xi:include href="../m/seqexc.xml"/>
+  <xi:include href="../m/sequences.xml"/>
 
   <tex:text>\newpage</tex:text>
 
