@@ -3,13 +3,19 @@
     xmlns:xh="http://www.w3.org/1999/xhtml"
     xmlns:xi="http://www.w3.org/2001/XInclude"
     >
-  <xh:h1 class="title">Documentation for Encoding Proto-Cuneiform</xh:h1>
 
-  <xh:h2>Steve Tinney, 2025-06-06</xh:h2>
+  <tex:text>
+    \centerline{\fourteen\bf Documentation for Encoding Proto-Cuneiform}
+    \medskip
+    \centerline{\twelve\it Steve Tinney, 2025-06-06}
+    \bigskip
+  </tex:text>
 
-  <tex:text>\hsect</tex:text>
-  
+  <!--<tex:text>\hsect</tex:text>-->
+
   <tex:text>\usetoc</tex:text>
+
+  <!--<tex:text>\hlstart{name}{}{pcsl}Jump to PCSL table\hlend</tex:text>-->
   
   <xi:include href="../x/intro.xml"/>
 
@@ -43,10 +49,13 @@
   <tex:text>\newpage</tex:text>
   
   <tex:appendix>PC25 Character List</tex:appendix>
+
   <xi:include href="../m/chartlist.html"/>
   
   <tex:appendix>PCSL Table</tex:appendix>
 
+  <!--<tex:text>\hldest{xyz}{}{pcsl}</tex:text>-->
+  
   <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
   convenient overview of the entire Proto-Cuneiform repertoire and its
   various data sources.  The contents of the columns are as follows:</xh:p>
