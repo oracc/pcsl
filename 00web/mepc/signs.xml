@@ -75,9 +75,9 @@
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
-            <td>348/1873</td>
-            <td>586/7771</td>
-            <td>683/9644</td>
+            <td>348/1875</td>
+            <td>586/7773</td>
+            <td>683/9648</td>
           </tr>
           <tr>
             <th>Uqair/num</th>
@@ -112,8 +112,8 @@
             <td>21/26</td>
             <td>61/98 </td>
             <td>688/8036</td>
-            <td>329/1506</td>
-            <td>776/9542</td>
+            <td>329/1508</td>
+            <td>776/9544</td>
           </tr>
           <tr>
             <th>total</th>
@@ -129,136 +129,17 @@
             <td>868/6634</td>
             <td>447/1810</td>
             <td>988/8444 </td>
-            <td>1359/35708 </td>
-            <td>961/16704</td>
-            <td>1580/51974</td>
+            <td>1359/35710 </td>
+            <td>961/16714</td>
+            <td>1580/51980</td>
           </tr>
         </tbody>
       </table>
+      <!--
       <esp:ssh>PC25 Corpus Grapheme Distribution</esp:ssh>
-      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
-        <thead>
-          <tr>
-            <th/>
-            <th>IV/pub</th>
-            <th>IV/unp</th>
-            <th>IV/all</th>
-            <th>III/pub</th>
-            <th>III/unp</th>
-            <th>III/all</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Uruk/num</th>
-            <td>159/5160</td>
-            <td>11/18</td>
-            <td>159/5178 </td>
-            <td>188/11708</td>
-            <td>1/1</td>
-            <td>188/11709</td>
-          </tr>
-          <tr>
-            <th>Uruk/idg</th>
-            <td>861/6562</td>
-            <td>23/35</td>
-            <td>864/6597 </td>
-            <td>1084/20654</td>
-            <td>18/37</td>
-            <td>1084/20691</td>
-          </tr>
-          <tr>
-            <th>JN/num</th>
-            <td>0/0</td>
-            <td>0/0</td>
-            <td>0/0 </td>
-            <td>137/2523</td>
-            <td>5/7</td>
-            <td>138/2530</td>
-          </tr>
-          <tr>
-            <th>JN/idg</th>
-            <td>0/0</td>
-            <td>0/0</td>
-            <td>0/0 </td>
-            <td>451/4239</td>
-            <td>4/4</td>
-            <td>451/4243</td>
-          </tr>
-          <tr>
-            <th>Umma/num</th>
-            <td>0/0</td>
-            <td>0/0</td>
-            <td>0/0 </td>
-            <td>116/1483</td>
-            <td>37/82</td>
-            <td>121/1565</td>
-          </tr>
-          <tr>
-            <th>Umma/idg</th>
-            <td>0/0</td>
-            <td>0/0</td>
-            <td>0/0 </td>
-            <td>348/1873</td>
-            <td>105/252</td>
-            <td>372/2125</td>
-          </tr>
-          <tr>
-            <th>Uqair/num</th>
-            <td>0/0</td>
-            <td>0/0</td>
-            <td>0/0 </td>
-            <td>49/436</td>
-            <td>8/8</td>
-            <td>50/444</td>
-          </tr>
-          <tr>
-            <th>Uqair/idg</th>
-            <td>0/0</td>
-            <td>0/0</td>
-            <td>0/0 </td>
-            <td>239/906</td>
-            <td>10/16</td>
-            <td>241/922</td>
-          </tr>
-          <tr>
-            <th>Misc/num</th>
-            <td>31/70</td>
-            <td>0/0</td>
-            <td>31/70 </td>
-            <td>168/5213</td>
-            <td>3/48</td>
-            <td>168/5261</td>
-          </tr>
-          <tr>
-            <th>Misc/idg</th>
-            <td>46/72</td>
-            <td>0/0</td>
-            <td>46/72 </td>
-            <td>683/7975</td>
-            <td>34/99</td>
-            <td>688/8074</td>
-          </tr>
-          <tr>
-            <th>total</th>
-            <td>161/5230</td>
-            <td>11/18</td>
-            <td>161/5248 </td>
-            <td>239/21363 </td>
-            <td>45/146</td>
-            <td>241/21509</td>
-          </tr>
-          <tr>
-            <th>total</th>
-            <td>868/6634</td>
-            <td>23/35</td>
-            <td>871/6669 </td>
-            <td>1354/35647 </td>
-            <td>140/408</td>
-            <td>1362/36055</td>
-          </tr>
-        </tbody>
-      </table>
+      
+      <xi:include xml:base="." href="../../signs/gpc25/gstats.html"/>
+      -->
       <!--
       <esp:sh>Grapheme Counts by Subcorpus</esp:sh>
 
@@ -278,8 +159,8 @@
       no unencoded graphemes.</p>
       <p>The total number of instances of graphemes that are included
       in the encoded repertoire is substantial: of
-      97825 instances
-      of 2038
+      97837 instances
+      of 2036
       graphemes, only 248
       instances of 172
       graphemes are not encoded.  99.75%

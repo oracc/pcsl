@@ -84,6 +84,8 @@
       exceptions which are acutally encoded--is described in a
       separate section later in this document.</p>
       
+      <esp:sh>Principles</esp:sh>
+
       <p>The principle imperatives are:</p>
       
       <ol>

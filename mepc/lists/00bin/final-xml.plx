@@ -19,7 +19,7 @@ my $n = shift @ARGV;
 die "$0: must give X-final.tsv base. Stop.\n"
     unless $n;
 
-my %Os = (); my %Og = (); load_pcsl_oid();
+#my %Os = (); my %Og = (); load_pcsl_oid();
 
 #my %distcheat = (
 #    );
@@ -101,6 +101,7 @@ while (<N>) {
     my $xcdli = xmlify($cdli||'');
     my $xpc24 = xmlify($pc24||'');
     my $rattr = '';
+    $fn = '' unless $fn;
     unless ($r) {
 	if ($t && $t =~ /©/ && $t !~ /[:.]/) {
 	    $r = $c;
@@ -623,27 +624,30 @@ sub subify {
 }
 
 sub load_pcsl_oid {
-    if (open(P,'00etc/pcsl.oid')) {
-	while (<P>) {
-	    chomp;
-	    my($n,$s,$g,@o) = split(/\s+/,$_);
-	    foreach my $o (@o) {
-		$Os{$o} = $s; # map OID o in sign context
-		$Og{$o} = $g; # map OID o in glyf context
-	    }
-	}
-	close(P);
-    }
+    return;
+    # if (open(P,'00etc/pcsl.oid')) {
+    # 	while (<P>) {
+    # 	    chomp;
+    # 	    my($n,$s,$g,@o) = split(/\s+/,$_);
+    # 	    foreach my $o (@o) {
+    # 		$Os{$o} = $s; # map OID o in sign context
+    # 		$Og{$o} = $g; # map OID o in glyf context
+    # 	    }
+    # 	}
+    # 	close(P);
+    # }
 }
 
 sub Os {
-    my $or = $Os{$_[0]};
-    warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
-    return $or || $_[0];
+    return $_[0];
+#    my $or = $Os{$_[0]};
+#    warn "$0: $_[1]: no pcsl.oid sign entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+#    return $or || $_[0];
 }
 
 sub Og {
-    my $or = $Og{$_[0]};
-    warn "$0: $_[1]: no pcsl.oid glyf entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
-    return $or || $_[0];
+    return $_[0];
+#    my $or = $Og{$_[0]};
+#    warn "$0: $_[1]: no pcsl.oid glyf entry for $_[0]\n" unless $or || $_[1] =~ /oid|zatu/;
+#    return $or || $_[0];
 }

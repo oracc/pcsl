@@ -839,7 +839,7 @@
 
   <xsl:template match="tex:driver">
     <xsl:text>\macrofile{html2tex}&#xa;</xsl:text>    
-    <xsl:text>\macrofile{pc25mac}&#xa;</xsl:text>
+    <xsl:text>\macrofile{depcmac}&#xa;</xsl:text>
     <xsl:text>\ten\rm&#xa;&#xa;</xsl:text>
     <xsl:apply-templates/>
     <xsl:text>\bye&#xa;</xsl:text>

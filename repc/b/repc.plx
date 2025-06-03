@@ -15,7 +15,7 @@ GetOptions(
 my @unames = `cat ../mepc/lists/00etc/unames.tsv`; chomp @unames;
 my %un = ();
 foreach (@unames) {
-    my($n,$u) = split(/\t/,$_);
+    my($o,$n,$u) = split(/\t/,$_);
     $un{$n} = $u;
 }
 

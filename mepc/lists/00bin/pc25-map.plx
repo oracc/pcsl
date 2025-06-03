@@ -24,7 +24,7 @@ my %gfcheat = (
     o0903581=>'o0900399',
     );
 
-my %g1 = ();
+my %g1 = (); my %g1r = ();
 my %gx = ();
 my %go = ();
 
@@ -76,7 +76,7 @@ foreach (@pc25) {
     my($o,$u,$n,$r) = split(/\t/,$_);
     if ($ate) {
 	my $h = sprintf("%X", ord($r));
-	$b = $g1{$r};
+	$b = $g1r{$r};
 	warn "$0: 8-mode: no hex for char $r=$h\n" unless $b;
     } else {
 	my $b = $g1{$o};
@@ -251,7 +251,7 @@ sub load_glyf_final {
 	    push @{$gx{$b}}, $u;
 	}
 	$go{$u} = $o;
-	$g1{$c} = $n; # for $ate mode
+	$g1r{$c} = $u; # for $ate mode
     }
     #print Dumper \%g1; exit 1;
 }

@@ -26,6 +26,8 @@ my %pcsl = ();
 my %pc24 = (); load_pc24();
 my %pc25 = ();
 
+my %seqnames = (); load_seqnames();
+
 open(L,'>pcsl-final.log');
 
 # load EASL into PCSL
@@ -176,6 +178,14 @@ sub load_rg {
     }
 }
 
+sub load_seqnames {
+    my @s = `cat 00etc/seq-name.tsv`; chomp @s;
+    foreach (@s) {
+	my($o,$n) = split(/\t/,$_);
+	$seqnames{$o} = $n;
+    }
+}
+
 sub load_sl {
     my $sl = shift;
     print L "loading $sl ...\n";
@@ -312,7 +322,8 @@ sub pcsl_tsv {
 	if ($o{$p{'pc25'}}) {
 	} else {
 	    if ($o{$o}) {
-		warn "pc25 $p{'pc25'} not in OID tab; $o = $o{$o}; src=$p{'src'}\n";
+		warn "pc25 $p{'pc25'} not in OID tab; $o = $o{$o}; src=$p{'src'}\n"
+		    unless $seqnames{$o} && $o{$o} eq $seqnames{$o};
 	    } else {
 		warn "pc25 neither $o nor $p{'pc25'} are in OID tab\n";
 	    }
