@@ -57,6 +57,9 @@
 	    </tr>
 	  </thead>
 	  <xsl:choose>
+	    <xsl:when test="sl/zatu">
+	      <xsl:apply-templates select="sl/*"/>
+	    </xsl:when>
 	    <xsl:when test="$mode=''">
 	      <xsl:apply-templates select="sl/sign"/>
 	    </xsl:when>
@@ -75,6 +78,38 @@
     </html>
   </xsl:template>
 
+  <xsl:template match="zatu">
+    <tbody class="zatu">
+      <tr>
+	<td><xsl:value-of select="@n"/></td>
+	<td>
+	  <table class="sign">
+	    <xsl:for-each select="sign">
+	      <xsl:call-template name="sign-sub"/>
+	    </xsl:for-each>
+	  </table>
+	</td>
+      </tr>
+    </tbody>
+  </xsl:template>
+
+  <xsl:template match="zref">
+    <tbody class="zref">
+      <tr>
+	<td><xsl:value-of select="@n"/></td>
+	<td colspan="6"><xsl:value-of select="text()"/></td>
+      </tr>
+    </tbody>
+  </xsl:template>
+
+  <xsl:template match="zref">
+    <tbody class="zatu">
+      <xsl:for-each select="sign">
+	<xsl:call-template name="sign-sub"/>
+      </xsl:for-each>
+    </tbody>
+  </xsl:template>
+
   <xsl:template match="sign">
     <tbody class="sign">
       <xsl:if test="aka">
@@ -87,190 +122,199 @@
 	  <xsl:value-of select="@cdiff"/>
 	</xsl:attribute>
       </xsl:if>
-      <xsl:for-each select="s">
-	<tr>
-	  <xsl:variable name="sq-class">
+      <xsl:call-template name="sign-sub"/>
+    </tbody>
+  </xsl:template>
+  
+  <xsl:template match="sign-sub">
+    <xsl:for-each select="s">
+      <tr>
+	<xsl:variable name="sq-class">
+	  <xsl:choose>
+	    <xsl:when test="../@seq='.'">
+	      <xsl:text>sq-seq</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="../@seq=':'">
+	      <xsl:text>sq-opq</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="../@seq='!'">
+	      <xsl:text>sq-chr</xsl:text>
+	    </xsl:when>
+	  </xsl:choose>
+	</xsl:variable>
+	<xsl:variable name="not-class">
+	  <xsl:choose>
+	    <xsl:when test="../@not='1'">
+	      <xsl:text>not</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="../@none='1'">
+	      <xsl:text>none</xsl:text>
+	    </xsl:when>
+	    <xsl:when test="../@gvar='1'">
+	      <xsl:text>gvar</xsl:text>
+	    </xsl:when>
+	  </xsl:choose>	  
+	</xsl:variable>
+	<xsl:variable name="class" select="concat($sq-class, ' ', $not-class)"/>
+	<xsl:if test="string-length($class &gt; 1)">
+	  <xsl:attribute name="class">
+	    <xsl:value-of select="$class"/>
+	  </xsl:attribute>
+	</xsl:if>
+	<xsl:if test="count(preceding-sibling::*)=0">
+	  <th class="lname"> <!-- rowspan="{count(../*)}" -->
+	    <xsl:value-of select="../@xml:id"/>
+	  </th>
+	</xsl:if>
+	<td>
+	  <a href="/pcsl/{../@oid}" target="_blank">
+	    <div class="names vbox">
+	      <div class="sname"><xsl:value-of select="../@p"/></div>
+	      <div class="uname"><xsl:value-of select="../@oid"/></div>
+	      <xsl:if test="../@tags">
+		<div class="stags">
+		  <xsl:copy-of select="../@data-hrt"/>
+		  <xsl:value-of select="../@tags"/>
+		</div>
+	      </xsl:if>
+	      <xsl:if test="../@c">
+		<div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
+		<div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h25,']')"/></span></div>
+	      </xsl:if>
+	      <xsl:if test="../@zatu">
+		<div class="zatu"><xsl:value-of select="../@zatu"/></div>
+	      </xsl:if>
+	      <xsl:if test="../@dist">
+		<div class="dist">
+		  <xsl:copy-of select="../@data-distt|../@data-dist4|../@data-dist3"/>
+		  <xsl:value-of select="../@dist"/>
+		</div>
+	      </xsl:if>
+	      <div class="notes"><p><xsl:value-of select="n"/></p></div>
+	    </div>
+	  </a>
+	</td>
+	<td class="chars">
+	  <div class="chars vbox">
 	    <xsl:choose>
-	      <xsl:when test="../@seq='.'">
-		<xsl:text>sq-seq</xsl:text>
+	      <xsl:when test="ff">
+		<xsl:for-each select="ff">
+		  <xsl:choose>
+		    <xsl:when test="$input='no_sequence' and f/q">
+		      <!--<xsl:message>chars/no_sequence and f/q</xsl:message>-->
+		      <xsl:call-template name="seq"/>
+		    </xsl:when>
+		    <xsl:otherwise>
+		      <div class="fchr">
+			<span class="ofs-pc ofs-200">
+			  <xsl:for-each select ="f">
+			    <xsl:if test="@t">
+			      <span class="chars-tag"><xsl:value-of select="@t"/></span>
+			    </xsl:if>
+			    <xsl:value-of select="@c"/>
+			  </xsl:for-each>
+			</span>
+		      </div>
+		      <div class="fhex">
+			<span class="ucode">
+			  <xsl:text>[</xsl:text>
+			  <xsl:for-each select ="f">
+			    <xsl:value-of select="@u25"/>
+			    <xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
+			  </xsl:for-each>
+			  <xsl:text>]</xsl:text>
+			</span>
+		      </div>
+		    </xsl:otherwise>
+		  </xsl:choose>
+		</xsl:for-each>
 	      </xsl:when>
-	      <xsl:when test="../@seq=':'">
-		<xsl:text>sq-opq</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="../@seq='!'">
-		<xsl:text>sq-chr</xsl:text>
-	      </xsl:when>
-	    </xsl:choose>
-	  </xsl:variable>
-	  <xsl:variable name="not-class">
-	    <xsl:choose>
-	      <xsl:when test="../@not='1'">
-		<xsl:text>not</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="../@none='1'">
-		<xsl:text>none</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="../@gvar='1'">
-		<xsl:text>gvar</xsl:text>
-	      </xsl:when>
-	    </xsl:choose>	  
-	  </xsl:variable>
-	  <xsl:variable name="class" select="concat($sq-class, ' ', $not-class)"/>
-	  <xsl:if test="string-length($class &gt; 1)">
-	    <xsl:attribute name="class">
-	      <xsl:value-of select="$class"/>
-	    </xsl:attribute>
-	  </xsl:if>
-	  <xsl:if test="count(preceding-sibling::*)=0">
-	    <th class="lname"> <!-- rowspan="{count(../*)}" -->
-	      <xsl:value-of select="../@xml:id"/>
-	    </th>
-	  </xsl:if>
-	  <td>
-	    <a href="/pcsl/{../@oid}" target="_blank">
-	      <div class="names vbox">
-		<div class="sname"><xsl:value-of select="../@p"/></div>
-		<div class="uname"><xsl:value-of select="../@oid"/></div>
-		<xsl:if test="../@tags">
-		  <div class="stags">
-		    <xsl:copy-of select="../@data-hrt"/>
-		    <xsl:value-of select="../@tags"/>
-		  </div>
-		</xsl:if>
-		<xsl:if test="../@c">
-		  <div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
-		  <div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h25,']')"/></span></div>
-		</xsl:if>
-		<xsl:if test="../@zatu">
-		  <div class="zatu"><xsl:value-of select="../@zatu"/></div>
-		</xsl:if>
-		<xsl:if test="../@dist">
-		  <div class="dist">
-		    <xsl:copy-of select="../@data-distt|../@data-dist4|../@data-dist3"/>
-		    <xsl:value-of select="../@dist"/>
-		  </div>
-		</xsl:if>
-		<div class="notes"><p><xsl:value-of select="n"/></p></div>
-	      </div>
-	    </a>
-	  </td>
-	  <td class="chars">
-	    <div class="chars vbox">
-	      <xsl:choose>
-		<xsl:when test="ff">
-		  <xsl:for-each select="ff">
-		    <xsl:choose>
-		      <xsl:when test="$input='no_sequence' and f/q">
-			<!--<xsl:message>chars/no_sequence and f/q</xsl:message>-->
-			<xsl:call-template name="seq"/>
-		      </xsl:when>
-		      <xsl:otherwise>
-			<div class="fchr">
-			  <span class="ofs-pc ofs-200">
-			    <xsl:for-each select ="f">
-			      <xsl:if test="@t">
-				<span class="chars-tag"><xsl:value-of select="@t"/></span>
-			      </xsl:if>
-			      <xsl:value-of select="@c"/>
-			    </xsl:for-each>
-			  </span>
-			</div>
-			<div class="fhex">
-			  <span class="ucode">
-			    <xsl:text>[</xsl:text>
-			    <xsl:for-each select ="f">
-			      <xsl:value-of select="@u25"/>
-			      <xsl:if test="not(position()=last())"><xsl:text>_</xsl:text></xsl:if>
-			    </xsl:for-each>
-			    <xsl:text>]</xsl:text>
-			  </span>
-			</div>
-		      </xsl:otherwise>
-		    </xsl:choose>
-		  </xsl:for-each>
-		</xsl:when>
-		<xsl:when test="f">
-		  <xsl:for-each select="f">
-		    <div class="fchr">
-		      <span class="ofs-pc ofs-200">
-			<xsl:if test="@newgh='1'">
-			  <xsl:attribute name="data-newgh"><xsl:text>1</xsl:text></xsl:attribute>
-			</xsl:if>
-			<xsl:if test="@t">
-			  <span class="chars-tag">
-			    <xsl:value-of select="@t"/>
-			  </span>
-			</xsl:if>
-			<xsl:value-of select="@c"/>
-		       </span>
-		    </div>
-		    <div class="fhex">
-		      <span class="ucode"><xsl:value-of select="concat('[',@u25,']')"/></span>
-		    </div>
-		  </xsl:for-each>
-		</xsl:when>
-		<xsl:otherwise>
-		  <div>
-		    <span class="{@class}">
+	      <xsl:when test="f">
+		<xsl:for-each select="f">
+		  <div class="fchr">
+		    <span class="ofs-pc ofs-200">
+		      <xsl:if test="@newgh='1'">
+			<xsl:attribute name="data-newgh"><xsl:text>1</xsl:text></xsl:attribute>
+		      </xsl:if>
+		      <xsl:if test="@t">
+			<span class="chars-tag">
+			  <xsl:value-of select="@t"/>
+			</span>
+		      </xsl:if>
 		      <xsl:value-of select="@c"/>
 		    </span>
 		  </div>
-		</xsl:otherwise>
-	      </xsl:choose>
-	    </div>
-	  </td>
-	  
-	  <xsl:if test="count(preceding-sibling::*[not(self::aka)])=0">
-	    <xsl:choose>
-	      <xsl:when test="$SL='PCSL'">
-		<td>
-		  <div class="cdligh vbox">
-		    <xsl:copy-of select="../@data-sf"/>
-		    <xsl:if test="../@row">
-		      <img class="lrow" src="/pcsl/easl/images/{../@row}.png" data-row="{../@row}"/>
-		    </xsl:if>
+		  <div class="fhex">
+		    <span class="ucode"><xsl:value-of select="concat('[',@u25,']')"/></span>
 		  </div>
-		</td>
+		</xsl:for-each>
 	      </xsl:when>
 	      <xsl:otherwise>
-		<td class="lrow"> <!-- rowspan="{count(../*)}" -->
-		  <a href="javascript://" onclick="easlPopup('{../@oid}')">
-		    <xsl:choose>
-		      <xsl:when test="starts-with(../@row,'/')">
-			<img class="lrow" src="{../@row}"/>
-		      </xsl:when>
-		      <xsl:when test="../@row = '-'"/>
-		      <xsl:otherwise>
-			<!--<img class="lrow" width="600px" src="/osl/{../@row}"/>-->
-		      </xsl:otherwise>
-		    </xsl:choose>
-		    <xsl:if test="$SL='EASL'">
-		      <div class="rname">
-			<span><xsl:value-of select="../@lp"/></span>
-		      </div>
-		    </xsl:if>
-		  </a>
-		</td>
+		<div>
+		  <span class="{@class}">
+		    <xsl:value-of select="@c"/>
+		  </span>
+		</div>
 	      </xsl:otherwise>
 	    </xsl:choose>
-	  </xsl:if>
-	  <xsl:if test="$SL='EASL' or $SL='PCSL' or starts-with($SL,'no_')">
-	    <xsl:choose>
-	      <xsl:when test="../sl">
-		<xsl:apply-templates select="../sl"/>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<td/><td/><td/><td/>
-		<xsl:if test="$SL='PCSL'"><td/></xsl:if>
-	      </xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:if>
-	  <xsl:if test="$SL='PC25'">
-	    <td class="sources"><xsl:value-of select="../@src"/></td>
-	  </xsl:if>
-	</tr>
-      </xsl:for-each>
-    </tbody>
+	  </div>
+	</td>
+	
+	<xsl:if test="count(preceding-sibling::*[not(self::aka)])=0">
+	  <xsl:choose>
+	    <xsl:when test="$SL='PCSL'">
+	      <td>
+		<div class="cdligh vbox">
+		  <xsl:copy-of select="../@data-sf"/>
+		  <xsl:if test="../@row">
+		    <img class="lrow" src="/pcsl/easl/images/{../@row}.png" data-row="{../@row}"/>
+		  </xsl:if>
+		</div>
+	      </td>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <td class="lrow"> <!-- rowspan="{count(../*)}" -->
+		<a href="javascript://" onclick="easlPopup('{../@oid}')">
+		  <xsl:choose>
+		    <xsl:when test="starts-with(../@row,'/')">
+		      <img class="lrow" src="{../@row}"/>
+		    </xsl:when>
+		    <xsl:when test="../@row = '-'"/>
+		    <xsl:otherwise>
+		      <!--<img class="lrow" width="600px" src="/osl/{../@row}"/>-->
+		    </xsl:otherwise>
+		  </xsl:choose>
+		  <xsl:if test="$SL='EASL'">
+		    <div class="rname">
+		      <span><xsl:value-of select="../@lp"/></span>
+		    </div>
+		  </xsl:if>
+		</a>
+	      </td>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:if>
+	<xsl:if test="$SL='EASL' or $SL='PCSL' or starts-with($SL,'no_')">
+	  <xsl:choose>
+	    <xsl:when test="ancestor::zatu">
+	      <xsl:if test="../sl">
+		<xsl:apply-templates select="../sl[position()&lt;5]"/> <!--omit CUSAS with ZATU-->
+	      </xsl:if>
+	    </xsl:when>
+	    <xsl:when test="../sl">
+	      <xsl:apply-templates select="../sl"/>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <td/><td/><td/><td/>
+	      <xsl:if test="$SL='PCSL'"><td/></xsl:if>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:if>
+	<xsl:if test="$SL='PC25'">
+	  <td class="sources"><xsl:value-of select="../@src"/></td>
+	</xsl:if>
+      </tr>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="sl">
