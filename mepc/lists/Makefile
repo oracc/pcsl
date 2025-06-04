@@ -12,7 +12,7 @@
 ### TODO: 00web/sequences.html from 00etc/seq-final.tsv
 
 O2=${HOME}/o2
-SLfont=PC24.ttf
+SLfont=PCSL.ttf
 WWW=${ORACC}/www
 PCSL=${WWW}/pcsl
 MEPCSL=${PCSL}/mepc/sl
@@ -240,13 +240,16 @@ xml: ${SLXML} ${DVXML}
 ### calling utr to map PC24 to PC25.
 ###
 
-html: ${SLHTML} ${DVHTML} pc25no-html
+html: 00web/zatu.html ${SLHTML} ${DVHTML} pc25no-html
+
+00web/zatu.html: 00etc/ZATU-list.tsv 00etc/ZATU-lref.tsv 00etc/pcsl-final.tsv 00bin/zatu.sh
+	00bin/zatu.sh
 
 00web/%-tab.html: 00etc/%-final.xml 00bin/final-html.sh 00bin/final-HTML.xsl
 	mkdir -p 00web
 	00bin/final-html.sh $*
 	${sudo} mkdir -p ${MEPCSL}
-	${sudo} cp -v 00web/$*-tab.html ${MEPCSL}
+	${sudo} cp -v 00web/$*-tab.html 00web/zatu.html ${MEPCSL}
 	${sudo} chmod -R +r ${MEPCSL}
 
 00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl

@@ -11,7 +11,7 @@ use Getopt::Long;
 
 GetOptions(
     );
-
+my %seen = ();
 my %z = (); my @z = `cat 00etc/ZATU-list.tsv`; chomp @z;
 foreach (@z) {
     my($z,@o) = split(/\s+/,$_);
@@ -29,22 +29,28 @@ foreach (@z) {
     }
 }
 
-print '<sl n="zatu" xmlns:xi="http://www.w3.org/2001/XInclude">';
+print '<sl n="zatu">';
 
 foreach (sort keys %z) {
-    print '<zatu n="'.$_.'">';
+    print '<z>';
+    my @zz = split(/\s/,$_);
+    foreach my $zz (@zz) {
+	print "<zatu n=\"$zz\"/>";
+    }
     my @z = @{$z{$_}};
     if ($z[0] =~ /^o/) {
 	foreach my $o (sort @z) {
-	    print "<xi:include xml:base=\".\" href=\"00etc/pcsl-final.xml\"";
-	    print " xpointer=\"xpointer(id('$o'))\"/>";
+	    next if $seen{$o}++;
+	    #	    print "<xi:include xml:base=\".\" href=\"00etc/pcsl-final.xml\"";
+	    #	    print " xpointer=\"xpointer(id('$o'))\"/>";
+	    print "<sign oid=\"$o\"/>" if $o =~ /^o098/;
 	}
     } else {
 	my $xz = xmlify($z[0]);
 	$xz =~ s/^#//;
 	print "<zref>$xz</zref>";
     }
-    print '</zatu>';
+    print '</z>';
 }
 print '</sl>';
 
