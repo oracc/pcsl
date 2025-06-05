@@ -68,6 +68,7 @@ my %sl = (); load_sl() if $easlflag || $pcslflag || $no_flag;
 my %dist = (); load_dist() if $easlflag || $pcslflag; load_dist_all() if $cusasflag;
 my %oidmap = (); load_oidmap() if $pcslflag;
 my %pc25 = (); load_pc25();
+my %pc25tsv = (); load_pc25tsv(); # note pc25 here means hex map; pc25tsv means oid to hex
 my %sf = (); load_sf() if $pcslflag;
 my %unames = (); load_unames() if $pcslflag;
 my %zatu = (); load_zatu() if $pcslflag;
@@ -102,6 +103,14 @@ while (<N>) {
     my $xpc24 = xmlify($pc24||'');
     my $rattr = '';
     $fn = '' unless $fn;
+
+    my $pc25attr = '';
+    if ($pc25tsv{$o}) {
+	my $p25h = $pc25tsv{$o};
+	my $p25c = sprintf("%c",hex($p25h));
+	$pc25attr = " pc25=\"$p25h\" pc25-rg=\"$p25c\"";
+    }
+    
     unless ($r) {
 	if ($t && $t =~ /©/ && $t !~ /[:.]/) {
 	    $r = $c;
@@ -131,7 +140,7 @@ while (<N>) {
     } else {
 	my $hrt = ($dist{Os($o,'dist')} ? "UNP" : "ZERO");
 	$t = " tags=\"\" data-hrt=\"$hrt\"";
-    }
+    }    
     if ($h24) {
 	unless ($t =~ /PC25/) {
 	    my $h25 = $pc25{$h24};
@@ -170,7 +179,7 @@ while (<N>) {
 	    if $roid;
 	my $pcslx = pcsl_xattr($o,$pc24);
 	my $O = Os($o);
-	print "<sign xml:id=\"$O\" oid=\"$O\"$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
+	print "<sign xml:id=\"$O\" oid=\"$O\"$pc25attr$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
 	if ($pcslflag && $aka{Os($o,'aka')}) {
 	    print '<aka>';
 	    my $naka = 0;
@@ -182,7 +191,7 @@ while (<N>) {
 	    print '</aka>';
 	}
     } else {
-	print "<sign xml:id=\"$n\" oid=\"$o\"$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
+	print "<sign xml:id=\"$n\" oid=\"$o\"$pc25attr$t p=\"$xp\" lo=\"$xlo\" lp=\"$xlp\" row=\"$fn\" glyf=\"$c\"$dist>";
     }
     chars($c);
     sl($o,$roid,$p) if $easlflag || $pcslflag || $pc25flag || $no_flag;
@@ -389,6 +398,14 @@ sub load_oidmap {
     my @o = `cat 00etc/pcsl-oid.map`; chomp @o;
     foreach (@o) {
 	my($o,$m) = split(/\s+/,$_); $oidmap{Os($o,'oidmap')} = $m;
+    }
+}
+
+sub load_pc25tsv {
+    my @p = `cut -f1-2 00etc/pc25-final.tsv`; chomp @p;
+    foreach (@p) {
+	my($o,$u) = split(/\t/,$_);
+	$pc25tsv{$o} = $u;
     }
 }
 

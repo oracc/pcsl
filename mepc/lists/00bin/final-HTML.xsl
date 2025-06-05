@@ -105,7 +105,7 @@
   </xsl:template>
 
   <xsl:template match="sign">
-    <tbody class="sign">
+    <tbody class="sign" id="@oid">
       <xsl:if test="aka">
 	<xsl:attribute name="data-aka">
 	  <xsl:value-of select="aka"/>
@@ -156,14 +156,17 @@
 	  </xsl:attribute>
 	</xsl:if>
 	<xsl:choose>
-	  <xsl:when test="../@zatu">
-	    <td>
-	      <div class="zatu vbox">
-		<xsl:for-each select="../@zatu">
-		  <div><xsl:value-of select="../@zatu"/></div>
-		</xsl:for-each>
-	      </div>
-	    </td>
+	  <xsl:when test="ancestor::z/zatu">
+	    <xsl:if test="count(../preceding-sibling::sign)=0">
+	      <xsl:variable name="rows" select="count(ancestor::z/sign)"/>
+	      <td rowspan="{$rows}">
+		<div class="zatu vbox">
+		  <xsl:for-each select="ancestor::z/zatu">
+		    <div><xsl:value-of select="@n"/></div>
+		  </xsl:for-each>
+		</div>
+	      </td>
+	    </xsl:if>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <xsl:if test="count(preceding-sibling::*)=0">
@@ -177,14 +180,20 @@
 	  <a href="/pcsl/{../@oid}" target="_blank">
 	    <div class="names vbox">
 	      <div class="sname"><xsl:value-of select="../@p"/></div>
-	      <div class="uname"><xsl:value-of select="../@oid"/></div>
+	      <div class="uname">
+		<xsl:if test="../@pc25">
+		  <xsl:attribute name="data-pc25h"><xsl:value-of select="../@pc25"/></xsl:attribute>
+		  <xsl:attribute name="data-pc25g"><xsl:value-of select="../@pc25-rg"/></xsl:attribute>
+		</xsl:if>
+		<xsl:value-of select="../@oid"/>
+	      </div>
 	      <xsl:if test="../@tags">
 		<div class="stags">
 		  <xsl:copy-of select="../@data-hrt"/>
 		  <xsl:value-of select="../@tags"/>
 		</div>
 	      </xsl:if>
-	      <xsl:if test="../@c">
+	      <xsl:if test="../@c and ../@pc25">
 		<div class="rglyf"><span class="ofs-pc ofs-200"><xsl:value-of select="../@c"/></span></div>
 		<div class="rhex"><span class="ucode"><xsl:value-of select="concat('[',../@h25,']')"/></span></div>
 	      </xsl:if>

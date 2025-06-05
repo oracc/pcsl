@@ -240,7 +240,7 @@ xml: ${SLXML} ${DVXML}
 ### calling utr to map PC24 to PC25.
 ###
 
-html: 00web/zatu.html ${SLHTML} ${DVHTML} pc25no-html
+html: ${SLHTML} ${DVHTML} pc25no-html 00web/zatu.html
 
 00web/zatu.html: 00etc/ZATU-list.tsv 00etc/ZATU-lref.tsv 00etc/pcsl-final.tsv 00bin/zatu.sh
 	00bin/zatu.sh
