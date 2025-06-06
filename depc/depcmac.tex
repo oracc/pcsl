@@ -1,5 +1,7 @@
 \input newmcol
 
+\input app
+
 \font\slnmfont="Ungkam Basic Bold" at8pt
 \font\sltgfont="Ungkam Basic" at8pt
 
@@ -386,7 +388,7 @@
          \hfil}%
    \kern3pt
    \hrule height#9pt
-   \vskip3pt plus1pt minus1pt
+   \vskip3pt plus2pt minus2pt
    \akatoks{}\cdifftoks{}%
 }
 
@@ -668,7 +670,14 @@
         \centerline{\twelve\bf CONTENTS}%
         \nobreak\kern5pt
         \centerline{\hsize5.5in \kern.75in\vbox{\parskip0pt \use@toc}}\endgraf}
-        
+
+\let\use@app\useapp
+
+\def\useapp{%
+        \centerline{\twelve\bf LIST OF APPENDICES}%
+        \nobreak\kern5pt
+        \centerline{\hsize5.5in \kern.75in\vbox{\parskip0pt \use@app}}\endgraf}
+
 %\def\usetoc{\vbox{\leftskip1in\hsize5.5in \parskip0pt
 %        \hbox to\hsize{\hfil\kern1in\twelve\bf CONTENTS\hfil}%
 %        \bigskip\use@toc}}
@@ -754,9 +763,9 @@
   \vglue\aboveappendix\nointerlineskip
   \ifusenumber
      \def\next{%
-       \d@apphead\writetoc1t{\expandafter\char\the\appendixno}{#1}{}{appendix\the\appendixno}}%
+       \d@apphead\writeapp1t{\expandafter\char\the\appendixno}{#1}{}{appendix\the\appendixno}}%
   \else
-    \def\next{\usenumbertrue\writetoc1t{}{#1}{}{appendix\the\appendixno}}\fi
+    \def\next{\usenumbertrue\writeapp1t{}{#1}{}{appendix\the\appendixno}}\fi
   \next
   \appendixtitle{#1}%
   \hldest{xyz}{}{appendix\the\appendixno}%

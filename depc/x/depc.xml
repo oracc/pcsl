@@ -43,8 +43,6 @@
   
   <xi:include href="../m/pepc.xml"/>
 
-  <!--<tex:text>\endinput</tex:text>-->
-
   <xh:h1>Proposal Documents</xh:h1>
 
   <xh:p>The reference data for the proposal is in 'UnicodeData.txt', attached to this PDF.</xh:p>
@@ -67,18 +65,16 @@
 
   <xi:include href="../m/chartlist.html"/>
 
-  <tex:text>\endinput</tex:text>
+  <!--<tex:text>\endinput</tex:text> -->
 
-  <!--
-      
+  <xh:h1>Supporting Documents</xh:h1>
+
+  \useapp
+  
   <tex:appendix>PCSL Table</tex:appendix>
-
-  -->
   
   <!--<tex:text>\hldest{xyz}{}{pcsl}</tex:text>-->
 
-  <!--
-  
   <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
   convenient overview of the entire Proto-Cuneiform repertoire and its
   various data sources.  The contents of the columns are as follows:</xh:p>
@@ -140,7 +136,5 @@
 
   <tex:appendix>Implementation Notes on Sequences</tex:appendix>
   <xi:include href="../m/sequences.xml"/>
-
-  -->
 
 </tex:driver>

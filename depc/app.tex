@@ -1,0 +1,40 @@
+% This file is part of the Digital Assyriologist.  Copyright
+% (c) Steve Tinney, 1994, 1995.  It is distributed under the
+% Gnu General Public License as specified in /da/doc/COPYING.
+%
+% $Id: toc.tex,v 0.4 1996/05/27 16:19:43 s Exp $
+
+\newwrite\appfile \newif\ifappopen
+% write an entry to the app file. 
+% #1 = level (numeric, numbered from 1)
+% #2 = put page-num or not (t or f) [this argument is ignored]
+% #3 = label for text
+% #4 = text to write
+\def\writea@p#1#2#3#4#5#6{\edef\next{{#5}}%
+  \expandafter\writea@@\next{#1}{#2}{#3}{#4}{#6}}
+
+%% new 2025-06-03: #6 is hyperlink name
+\def\writea@@#1#2#3#4#5#6{%
+  \ifappopen\else\openapp\fi
+  \iftocpageno\def\next{\immediate\write\appfile%
+    {\noexpand\tocentry#2:t:\the\pageno:#6:#4,\iftocranges#1\fi;}%
+    \unexpandedwrite\appfile{#5}%
+    \write\appfile{\noexpand\endtocentry}}%
+  \else\def\next{\tocpagenotrue\immediate\write\appfile%
+    {\noexpand\tocentry#2:f::#4.\iftocranges#1\fi}%
+    \unexpandedwrite\appfile{#5}%
+    \immediate\write\appfile{\noexpand\endtocentry}}\fi
+  \next}
+
+\def\useapp{%
+  \iftocopen\closeapp\fi
+  \checkfile{\jobname.app}%
+  \ifitexists{\global\toc@lastlevel=-1 
+              \tocdimens\tochook\input\jobname.app\relax}\fi}
+\def\openapp{\immediate\openout\appfile=\jobname.app\relax\global\appopentrue}
+\def\closeapp{\immediate\closeout\appfile\global\appopenfalse}
+
+\def\writeapp{\ifdotocentry\def\next{\writea@p}\else\def\next{\skipt@c}\fi\next}
+\def\writeappb#1#2#3#4#5#6{\writeapp{#2}{#3}{#1}{#4}{#5}{#6}}
+
+\endinput
