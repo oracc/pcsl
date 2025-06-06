@@ -172,6 +172,11 @@ sub asl_sign {
     }
     unless ($bare) {
 	my $h = $pc25{$om};
+	$h = $pc25{$Or{$om}} unless $h;
+	unless ($h) {
+	    warn "$0: no Unicode for $om\n" unless $seqflag;
+	    $h = '';
+	}
 	if ($h) {
 	    if ($h =~ /^12/) {
 		printf "\@list U+$h\n";
@@ -458,7 +463,10 @@ sub load_pcsl_oid {
 	    foreach my $o (@o) {
 		$Os{$o} = $s; # map OID o in sign context
 		$Og{$o} = $g; # map OID o in glyf context
-		$Or{$s} = $g if $g =~ /^o099/ && $n =~ /~1$/; # map sign name to refglyph
+		if ($g =~ /^o099/ && $n =~ /~1$/) { # map sign name <=> refglyph
+		    $Or{$s} = $g;
+		    $Or{$g} = $s;
+		}
 	    }
 	}
 	close(P);

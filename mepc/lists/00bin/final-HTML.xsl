@@ -105,7 +105,7 @@
   </xsl:template>
 
   <xsl:template match="sign">
-    <tbody class="sign" id="@oid">
+    <tbody class="sign" id="{@oid}">
       <xsl:if test="aka">
 	<xsl:attribute name="data-aka">
 	  <xsl:value-of select="aka"/>
