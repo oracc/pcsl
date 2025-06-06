@@ -1,0 +1,58 @@
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml">
+  
+<h1>Materials for Encoding Proto-Cuneiform</h1>
+
+<p>This section of the proposal gives an overview of the
+Proto-Cuneiform (PC) corpus and character set.  Based on existing
+scholarship and published resources, it also defines some principles
+for assessing whether a given character should be considered encodable
+in Unicode at the present time.  Applying these principles to the
+complete Proto-Cuneiform character set, a proposed encodable
+repertoire is also provided.</p>
+
+<p>The complete repertoire is called here the Proto-Cuneiform Sign
+List (PCSL). The encodable subset and the associated documentation are
+called PC25, for Proto-Cuneiform 2025.</p>
+
+<p>The description and definition of PCSL and PC25 are intertwined,
+and we do not attempt to treat them in a separate, linear way. Rather,
+the PC corpus is taken as the foundation and criteria are established
+for the defining the subcorpus that should be fully represented in
+PC25.  Signs that occur <em>only</em> outside of this subcorpus are not
+considered encodable, but most of the texts that fall outside of this
+subcorpus are in fact fully covered by PC25 because the unencoded
+characters affect relatively few texts.</p>
+
+<p>The PC corpus as hosted on the Cuneiform Digital Library
+Initiative website at <esp:link url="https://cdli.earth"/> is the most
+important resource for encoding PC because it is defines current
+scholarly practice in the field.  PCSL and PC25 diverge from this
+corpus systematically only in the translation of the corpus to the
+Unicode notations used by Oracc, the <esp:link
+url="http://oracc.org/pcsl">Open Richly Annotated Cuneiform
+Corpus</esp:link>.  The PCSL corpus makes only minor adjustments to
+the CDLI corpus to correct for some minor notational
+inconsistencies.</p>
+
+<!--<p>The graphemic repertoire of the corpus is described briefly as
+part of the corpus description: this repertoire is fully represented
+in PCSL and subsetted for PC25 according to the principles described
+later in the document.</p>-->
+
+<p>Another major resource for encoding PC is the set of published sign
+lists as well as the collection of signs based on the work of Bob
+Englund that is available on the CDLI github repository.  These lists
+are described and were systematically treated during the creation of
+PCSL.  The individual alignments of sign lists with PCSL are not given
+here but are available online.  The individual sign lists are,
+however, integrated in the synoptic tabulation of PCSL given in
+Appendix C.</p>
+
+<p>The principles as well as an explanatory section on Sequences
+provide the rationale for selecting characters that occur in the PC25
+subcorpus for encoding.</p>
+
+<p>In Appendices A and B are PC25 code charts and a listing of the
+character repertoire.</p>
+
+</esp:page>

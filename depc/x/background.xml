@@ -1,0 +1,23 @@
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns:tex="http://oracc.org/ns/tex/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml">
+
+<h1>The Archaic Period in Mesopotamia</h1>
+
+<p>Proto-cuneiform script was invented in the second half of the third
+millennium BCE and used until the early part of the second millennium
+BCE, approximately 3500-2900 BCE, generally known as the Archaic
+Period. This period was extensively described and discussed, with
+special reference to texts and writing, by the late Robert K. Englund
+in his magisterial book-within-a-book "Texts from the Late Uruk
+Period", pages 1-233 in J. Bauer, R.K. Englund and M. Krebernik,
+<i>Mesopotamien: Spaturuk-Zeit und Frhudynastische Zeit</i> (Orbis
+Biblicus et Orientalis 160/1). Gottingen, 1998, available as an open
+access download at https://www.zora.uzh.ch/id/eprint/151545/.  The
+following sketch is based on Englund's discussion to which the reader
+is referred for a detailed account.</p>
+
+<tex:text
+    >\graphicsfigure{images/obo-chrono.png}{500}{5in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:text>
+
+</esp:page>

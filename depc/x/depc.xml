@@ -15,7 +15,7 @@
   
   <xi:include href="../x/abstract.xml"/>
 
-  <tex:text>\usetoc</tex:text>
+  <tex:text>\begingroup\nine\rm\usetoc\endgroup</tex:text>
 
   <xi:include href="../x/previous.xml"/>
  
@@ -25,17 +25,21 @@
  
   <xi:include href="../x/mepc-intro.xml"/>
 
-  <xh:h2>Text Corpus</xh:h2>
+  <xh:h2>Texts</xh:h2>
   
   <xi:include href="../m/texts.xml"/>
 
-  <xh:h2>Graphemic Repertoire</xh:h2>
+  <xh:h2>Signs</xh:h2>
 
   <xi:include href="../m/signs.xml"/>
 
-  <xh:h2>Sign Lists</xh:h2>
+  <xh:h2>Lists</xh:h2>
 
   <xi:include href="../m/lists.xml"/>
+  
+  <xh:h2>Coverage</xh:h2>
+
+  <xi:include href="../m/coverage.xml"/>
   
   <xi:include href="../m/pepc.xml"/>
 

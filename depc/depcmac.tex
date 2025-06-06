@@ -7,7 +7,7 @@
 %% \font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.5pt
 %% \font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
 
-\font\blungkam="Ungkam Basic:color=0000FF" at10pt
+\font\blungkam="Ungkam Basic:color=0000FF" at8pt
 
 \font\slnmfontw="Ungkam Basic Bold:color=00FF00" at8pt
 %\font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7pt
@@ -634,7 +634,7 @@
 
 \def\includegraphics#1#2{\XeTeXpicfile #1 scaled#2\relax}
 
-\def\graphicsfigure#1#2#3#4{\figure{}{#4}{\XeTeXpicfile #1 scaled #2}
+\def\graphicsfigure#1#2#3#4{\figure{}{#4}{\XeTeXpicfile #1 scaled #2}}
 
 \newcount\figurecount \figurecount1
 \newskip\figureskip \figureskip=0pt \relax
@@ -644,7 +644,7 @@
                   \hbox to\fullhsize{\hss\box0\hss}%
                   \vskip10pt
                   \noindent Figure \the\figurecount. #2\endgraf
-                  \vskip10pt\vfill
+                  \vskip10pt plus3pt minus3pt
                   \global\advance\figurecount1\relax}
 
 \def\cdlighnopng{\vbox{\vfil\hbox{(-)\hfil}\vfil}}
@@ -660,12 +660,13 @@
 
 \chapsecnumsfalse
 \sectionsintoctrue
+\subsectionsintoctrue
 
 \let\use@toc\usetoc
 
 \def\usetoc{%
         \centerline{\twelve\bf CONTENTS}%
-        \bigskip
+        \nobreak\kern5pt
         \centerline{\hsize5.5in \kern.75in\vbox{\parskip0pt \use@toc}}\endgraf}
         
 %\def\usetoc{\vbox{\leftskip1in\hsize5.5in \parskip0pt
@@ -673,6 +674,8 @@
 %        \bigskip\use@toc}}
 
 \def\tocintersamehook#1{\nointerlineskip\nobreak\vskip3pt}
+\def\tocinterlowerhook#1#2{\nointerlineskip\nobreak\vskip3pt}
+\def\tocinterhigherhook#1#2{\nointerlineskip\nobreak\vskip3pt}
 
 \enablehyperlinks
 
@@ -699,10 +702,13 @@
     \immediate\write\tocfile{\noexpand\endtocentry}}\fi
   \next}
 
-\def\toconeformat#1{\expandafter\uppercase{\blungkam#1}}
+\def\toconeformat#1{\expandafter\uppercase{\eight\rm\blungkam#1}}
+\def\toconenumformat#1{\hbox to\toconehang{\seven\bf#1\hss}}
+\def\toctwoformat#1{\expandafter\uppercase{\eight\rm\blungkam#1}}
+\def\toctwonumformat#1{\hbox to1.5\toconehang{\seven\bf#1\hss}}
 
 \def\toclevone#1:#2:#3:#4,#5;#6\endtocentry{\def\test{#1}\def\testthree{#4}%
-  \toconehang15pt
+  \toconehang10pt
   \gettocpagev@l{#2}%
   \leavevmode\noindent\rightskip\toconerightskip plus1fil
   \hlstart{name}{}{#3}%
@@ -714,6 +720,28 @@
 			  \hfill\fi
 			  \parfillskip-\toconerightskip plus-1fil\relax
 			  \toconepageformat{\tocpv@l}%
+			  \iftocranges\toczerorangeformat{#2}{\tocgetrange{1;#5}}\fi
+                          }%
+  \else\let\next\relax\fi
+  \next
+  \hlend
+  \endtocentry}
+
+\def\toclevtwo#1:#2:#3:#4,#5;#6\endtocentry{\def\test{#1}\def\testthree{#4}%
+  \toconehang10pt\relax
+  \toctwohang2.5\toconehang\relax
+  \gettocpagev@l{#2}%
+  \leavevmode\noindent\rightskip\toctworightskip plus1fil
+  \hlstart{name}{}{#3}%
+  \ifx\testthree\empty\else\kern10pt\toctwonumformat{#4}\fi
+  %\unskip
+  \hangindent\toctwohang
+  \toctwoformat{\strut\ignorespaces#6\unskip}%
+  \ifx\test\true\def\next{%
+                          \iftoctwodotfill\tocdotfill\else
+			  \hfill\fi
+			  \parfillskip-\toctworightskip plus-1fil\relax
+			  \toctwopageformat{\tocpv@l}%
 			  \iftocranges\toczerorangeformat{#2}{\tocgetrange{1;#5}}\fi
                           }%
   \else\let\next\relax\fi
@@ -740,6 +768,11 @@
 \def\sec@toc#1#2#3#4#5{\hldest{xyz}{}{section#4}%
   \ifusenumber\edef\next{{#4}}\else\edef\next{{\relax}}\fi%
   \expandafter\writetocb\next#1#5{#3}{#4}{section#4}}
+
+\def\subsection#1\par{\subsubsectct=0%
+  \@hdshell{\aboveheadingskip}{\belowheadingskip}{{\@sectfmt2{#1}}}}
+
+\def\subsectionformat#1#2{\bem#1\quad\ignorespaces#2\relax}
 
 \parindent0pt
 

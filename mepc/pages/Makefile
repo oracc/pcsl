@@ -22,7 +22,7 @@ mepc: web
 #	true
 #b/sequencedb.sh
 
-web: w/mepc.xml w/texts.xml  w/signs.xml w/lists.xml w/sl-overview.xml w/sequences.xml
+web: w/mepc.xml w/texts.xml w/signs.xml w/lists.xml w/coverage.xml w/sl-overview.xml w/sequences.xml
 
 #w/seqdb.xml
 #w/glyfs.xml

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
   <esp:name>Sign Lists</esp:name>
   <esp:title>Sign Lists</esp:title>
   <html>
@@ -65,7 +65,7 @@
       particular the texts from the earliest stage of writing exhibit,
       to varying degrees, a tolerance of graphemic variation.  (ATU5
       p.107)</blockquote>
-      <esp:sh>Sign List Cautions</esp:sh>
+      <esp:ssh>Sign List Cautions</esp:ssh>
       <p>Prior versions of a PC proposal have been based on the
       CDLI-gh collection of signs and assume that list entries are
       primary source of Unicode characters.  However, sign lists have

@@ -52,7 +52,7 @@
       <code>KUŠU₂~a</code> to <code>KUŠU~f</code>: each of these
       allographs has instances in the corpus.</p>
 
-      <esp:sh>(Non-)Contrastive Usage in Complex and Compound Signs</esp:sh>
+      <esp:ssh>(Non-)Contrastive Usage in Complex and Compound Signs</esp:ssh>
 
       <p>CDLI-tc and CDLI-gh do not always differentiate compound
       constituents to the same extent as the independent versions of
@@ -290,9 +290,9 @@
 
       </dl>
 
-      <esp:sh>List of Exceptions</esp:sh>
+      <esp:ssh>List of Exceptions</esp:ssh>
 
-      <esp:ssh>Reanalysis</esp:ssh>
+      <esp:sssh>Reanalysis</esp:sssh>
 
       <p>Two city-name signs, ADAB and ARARMA~a, have earlier forms
       which are distinct from their reanalysis to include an initial
@@ -307,18 +307,18 @@
       characters as common sign exceptions.</p>
       -->
       
-      <esp:ssh>Container Equivalency</esp:ssh>
+      <esp:sssh>Container Equivalency</esp:sssh>
 
       <p>The signs ASAR and AZ are the equivalent of containers.</p>
       
-      <esp:ssh>Unencoded Constituents</esp:ssh>
+      <esp:sssh>Unencoded Constituents</esp:sssh>
 
       <p>The following exception signs contain unencoded consituents:
       <!--ENKUM (EZEN×ŠE),--> ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with
       additional strokes, unclear with this is an UŠ or not), ZUBI~a
       (NA₂-nutillu).</p>
       
-      <esp:ssh>Analogy: BAPPIR Group</esp:ssh>
+      <esp:sssh>Analogy: BAPPIR Group</esp:sssh>
 
       <p>The group of signs with the base BAPPIR has one member which
       is a container (BAPPIR~e) and the entire group is encoded by
@@ -331,14 +331,14 @@
       characters (e.g., TU) so an exception is made for ŠELU.</p>
       -->
       
-      <esp:ssh>Analogy: Sheep Group</esp:ssh>
+      <esp:sssh>Analogy: Sheep Group</esp:sssh>
 
       <p>The groups of signs with the base SILANITA, UDUNITA and UTUA
       represent various types (ages, genders) of sheep and since some
       of them have unencoded constituents the members of all groups
       are encoded as characters.</p>
 
-      <esp:ssh>Analogy: UTUL Group</esp:ssh>
+      <esp:sssh>Analogy: UTUL Group</esp:sssh>
 
       <p>The UTUL group contains one member which includes an uncoded
       superposed reduplicated component (UTUL~c), so the entire group

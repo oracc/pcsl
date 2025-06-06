@@ -29,7 +29,7 @@ well‑defined repertoire that will enable the representation of
 Proto‑Cuneiform characters in plain text.</p>
     <tex:text>\end{display}</tex:text>
   </esp:page>
-  <tex:text>\usetoc</tex:text>
+  <tex:text>\begingroup\nine\rm\usetoc\endgroup</tex:text>
   <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <h1>Previous Proposals</h1>
     <p>This proposal supersedes the following documents:</p>
@@ -83,80 +83,91 @@ is referred for a detailed account.</p>
   </esp:page>
   <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns:tex="http://oracc.org/ns/tex/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <h1>Rationale for Separately Encoding Proto-Cuneiform</h1>
-    <p>When the encoding of cuneiform in Unicode was being discussed in the early 3rd millenium CE, Michael
-Everson and Karljürgen Feuerherm, submitted a document to the Unicode Technical Committee titled “Basic
-principles for the encoding of Sumero-Akkadian Cuneiform” (WG2 N2585, L2/03-162). In this document,
-the authors provided responses to several questions regarding the complex issue of encoding cuneiform. The
-following question directly related to the scope of ‘cuneiform’ was posed in the email-based “Cuneiform
-Discussion List”:</p>
-    <blockquote>“What exact period will we begin with in our encoding? (We have previously ruled out archaic
-cuneiform.)”</blockquote>
-    <p>The following response was provided by Everson and Feuerherm:</p>
-    <blockquote>It seems agreed by all that to attempt to cover the entire
-scope of Sumero-Akkadian or Mesopotamian Cuneiform with a single
-encoding effort would be too great a task for practical
-purposes. Accordingly, it is our view that the decision as to whether
-or not to rule out a unification of the archaic script should be
-deferred pending further study.</blockquote>
-    <p>Ultimately, cuneiform was encoded in Unicode using the script of the Ur III period. The rationale was based
-on the fact, stated by the above authors, that:</p>
-    <blockquote>In general, all other things being equal, it is our view that we should opt for the earlier period (Ur
-III) until and unless practical considerations during the actual processing of the material suggest
-otherwise.</blockquote>
-    <p>This is reflected in the description of the ‘Sumero-Akkadian Cuneiform’ block in The Unicode Standard,
-chapter 11 (p. 440):</p>
-    <blockquote>The base character repertoire for the Cuneiform block was distilled from the list of Ur III signs
-compiled by the Cuneiform Digital Library Initiative (UCLA) in union with the list constructed
-independently by Miguel Civil. This repertoire is comprehensive from the Ur III period onward.
-Old Akkadian and Archaic Cuneiform are not covered by the repertoire in this block. Signs
-specific to the Early Dynastic period are encoded separately in the Early Dynastic Cuneiform
-block.</blockquote>
-    <p>After ‘Sumero-Akkadian Cuneiform’ was encoded, little work was done on encoding Proto-Cuneiform,
-which are referred to in the above documents as the ‘Archaic’ script. In 2016, Michael Everson and Laura
-Hawkins submitted a preliminary encoding (WG2 N4760, L2/16-267). But, the issue was not taken up again
-until the submission by the present author of “Preliminary proposal to encode Proto-Cuneiform in Unicode”
-(L2/20-193). The renewed motivation in encoding the script in Unicode is driven by enabling the basic
-representation of ‘Archaic’ or Proto-Cuneiform signs in plain text.</p>
-    <p>Representing a script in ‘plain text’ means unambiguously representing the characters of a script in digital
-media such as text files, web pages, databases, email, etc. without the need for mark-up to specify the identity
-of the characters, or without the need for properly displaying the characters’ glyphs by changing the font for
-the text. Such text could be copied across platforms and applications, and the underlying data would be
-preserved.</p>
-    <p>Plain text representation requires that the characters of a script be assigned unique Unicode codepoints.
-Accordingly, characters of one script are distinguished from those of another through these codepoints. For
-example, with a distinctive encoding for Proto-Cuneiform in Unicode, the text of Nissen, Damerow, Englund
-(1993: 43), shown in fig. 1 here, would consist of Latin characters and Proto-Cuneiform characters. The
-identity of the Proto-Cuneiform signs would be bound to distinct character codes, not simply hacks that have
-been previously used, such as glyphs mapped to the Latin script and displayed by selecting a different Latin
-font than the surrounding text.</p>
-    <p>There are experts who suggest that Proto-Cuneiform be unified with Sumero-Akkadian Cuneiform. This
-approach would mean that whenever a user wished to represent an Archaic sign, they would instead use the
-Ur III character already encoded in Unicode. More generally speaking, if one were to use this approach
-to represent the aforementioned text of Nissen, Damerow, Englund, the plain text encoding would contain
-Sumero-Akkadian Cuneiform instead of the Archaic forms. So, in order to represent the Proto-Cuneiform
-signs that occur at the top of the page, for 𒩀 NAGA (= NAGA~a) a user would type 𒉀 U+12240 CUNEIFORM
-SIGN NAGA, and for 𒞶 DUB (= DUB~a) they would use 𒁾 U+1207E CUNEIFORM SIGN DUB. Then, the user would
-need to select a Proto-Cuneiform for displaying the intended form. This poses several issues, chief of which
-is conveyance of character identity. To scholars of Proto-Cuneiform and Sumero-Akkadian Cuneiform, the
-relationship between 𒩀 and 𒉀 may be obvious. But, this relationship is not explicit at the visual level.
-And it hinders the proper representation of Proto-Cuneiform in plain text.</p>
-    <p>Other benefits regarding the separate encoding of Proto-Cuneiform in Unicode have been provided by Niek
-Veldhuis (personal correpondence, February 2023). Veldhuis informed me that “encoding PC would be
-helpful in many ways, in more or less the same way that encoding historically related scripts such as Arabic,
-Hebrew, Syriac, etc. is useful.” He raised the following points:</p>
-    <tex:text>\begin{display}</tex:text>
-    <ol>
-      <li>For a good number of PC signs we know the historical relationship with later stages of cuneiform –
-for quite a few we do not.</li>
-      <li>In some cases we suspect that two (or more) PC signs may have merged into a cuneiform sign in a
-later stage. In quite a few cases we cannot be sure.</li>
-      <li>A good number of signs cannot be related to later stages of cuneiform.</li>
-      <li>The way the writing system works is quite different from later cuneiform.</li>
-      <li>Although most scholars today argue that the underlying language is
-Sumerian, the late Bob Englund, the scholar with the deepest knowledge
-of PC in the modern age, argued that the language was unknown.</li>
-    </ol>
-    <tex:text>\end{display}</tex:text>
+    <p>[RATIONALE TO COME FROM ROBIN, BUT ESSENTIALLY ANTICIPATED BY
+LECOMPTE'S EXPLANATION OF WHY LECOMPTE AND VERDERAME 2014 USE SAC
+TRANSLITERATION NOT PC (see quote below)]</p>
+    <esp:sh>ED I-II Excluded from the Proposal</esp:sh>
+    <p>It is generally recognized that there is a group of about 400
+      texts from the site of Ur which are later than Proto-Cuneiform
+      but earlier than the ED IIIa corpus from Fara (Šuruppak): these
+      are conventionally assigned to the Early Dynastic I-II period.
+      There are also about two dozen tablets and fragments from Uruk
+      that are assigned to the same period (Green; LeCompte nXXX).</p>
+    <p>Texts and signs from this period are excluded from the
+      proto-cuneiform proposal.</p>
+    <p>In Englund's exhaustive discussion of the Archaic texts, he
+      includes this period in his concluding remarks as the 8th phase
+      of proto-cuneiform:</p>
+    <blockquote>8. <i>Period of late proto-cuneiform</i>
+        <br/>
+	Ca. 2800-2700 B.C. (Early Dynastic 1), this period is
+	characterized by the earliest apparently multivalent use of
+	proto-cuneiform to write Sumerian words in personal names.
+	The archaic numerical systems were used, but in simplified
+	forms, and the lexical lists were copied and transmitted, but
+	no new lists were added. Tablets were as a rule clumsily
+	formed and inscribed. (Englund OBO 160/1 [1998], p.215).
+      </blockquote>
+    <p>Appearing about 15 years later, LeCompte and Verderame's
+      edition of ED I-II fragments from Ur observed that there are key
+      features of the writing system that depart from the earlier PC
+      practices, and by analysis of both personal names and the
+      contexts of the texts that they are written in Sumerian
+      language:</p>
+    <blockquote>We decided to follow in the transliteration the system that is
+      commonly accepted for Sumerian, thus in small type and in
+      accordance with the values of the signs available on the e-PSD
+      website or in aBZL. We did not adopt the codes applied to the
+      archaic texts from Uruk and Jemdet Nasr, although the
+      transliteration available for lexical tablets in ATU 310 follows
+      such a system for the ED I-II period. This choice is justified
+      by the fact that the signs in the texts from Ur do not seem to
+      present the same variants as their archaic forerunners: for
+      example, the different shapes of E₂ cannot be classified into
+      E₂~a, E₂~b...; furthermore, some signs have no variant, such as
+      DU₈, which is always drawn according to a standard and well
+      known shape. Second, as the language of these texts is
+      undoubtedly Sumerian, it would have been unnecessary to use such
+      values: instead of writing such cumbersome transliterations as
+      DUB~a-LU₂-NU-ŠE₃ or EN~a-GAN~a-GI4~a, it was accordingly more
+      convenient to propose directly Mes-lu₂-nu-še₃ and
+      En-ḫe₂-gi₄. (LeCompte and Verderame 2014, p.4)</blockquote>
+    <p>Another factor which marks the ED I-II corpus as transitional
+      between Uruk III/Jemdet Nasr and ED IIIa is the organization and
+      structure of tablets.  In a thorough survey of these
+      "diplomatics", LeCompte, based on the work of the original
+      editor of the ED I-II corpus from Ur, Burrows, summarizes the
+      situation as follows:</p>
+    <blockquote>As Burrows has already noted, archaic texts from Ur are intermediate in nature.
+Features common with Late Uruk/Jemdet Nasr tablets include:<br/>
+– an oblong shape, half rounded sides, larger tablets having a rectangular format.<br/>
+– a reverse generally left uninscribed.<br/>
+– the presence of clauses and subscripts freely disposed apart from or into the
+columns.<br/>
+– tablets from Ur displaying rows of lines inconsistent with the usual columns; this
+clearly comes from the horizontal lines subdivided into columns observable in a
+few of the Jemdet Nasr texts.<br/>
+<br/>
+On the other hand, the ED I–II texts are forerunners to the ED III tablets in regard to
+the following aspects:
+– surface, with a rather flat obverse and convex reverse.<br/>
+– a lack of subdivision of cases similar to the Late Uruk period.<br/>
+– total expressed as gu₂-an-še₃.<br/>
+<br/>
+Other features are very specific to the ED I–II period, such as the clumsy form of many
+tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote>
+    <p>After discussion among the proposal authors and Robin LeRoy,
+      we have determined that it is preferable to establish the end of
+      the Uruk III period as the cutoff for Unicode PC encoding, and
+      to assign the ED I-II signiary to Sumero-Akkadian Cuneiform.</p>
+    <esp:ssh>PC signs in ED I-II</esp:ssh>
+    <p>For characters that occur only in Proto-Cuneiform and ED
+      I-II, we do not propose to encode the character twice; instead,
+      as with the Archaic Cuneiform Numbers, we propose to treat
+      isolated PC signs in ED I-II texts as archaic holdovers.</p>
+    <p>Signs which occur only in ED I-II texts will be evaluated for
+      encoding in SAC in the future, as will signs that first occur in
+      ED I-II and recur in later periods.</p>
   </esp:page>
   <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml">
     <h1>Materials for Encoding Proto-Cuneiform</h1>
@@ -205,7 +216,7 @@ subcorpus for encoding.</p>
     <p>In Appendices A and B are PC25 code charts and a listing of the
 character repertoire.</p>
   </esp:page>
-  <xh:h2>Text Corpus</xh:h2>
+  <xh:h2>Texts</xh:h2>
   <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="../m/texts.xml">
     <esp:name>Corpus</esp:name>
     <esp:title>Corpus</esp:title>
@@ -223,7 +234,7 @@ character repertoire.</p>
       corpus of which 1835 are attributed
       to Uruk IV and 4461, to the
       subsequent Uruk III period.</p>
-        <esp:sh>The Print Corpus</esp:sh>
+        <esp:ssh>The Print Corpus</esp:ssh>
         <p>The principle modern publications of the Proto-Cuneiform corpus are:</p>
         <dl>
           <dt>ZATU</dt>
@@ -257,7 +268,7 @@ character repertoire.</p>
           <dt>CUSAS31</dt>
           <dd>S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.</dd>
         </dl>
-        <esp:sh>The Digital Corpus</esp:sh>
+        <esp:ssh>The Digital Corpus</esp:ssh>
         <p>The digital corpus includes the contents of the all of the
       above major publications:</p>
         <ul>
@@ -279,7 +290,7 @@ character repertoire.</p>
 	are in the CDLI set of transliterations but have not yet been
 	edited in print</li>-->
         </ul>
-        <esp:sh>PCSL Corpus</esp:sh>
+        <esp:ssh>PCSL Corpus</esp:ssh>
         <p>PCSL's version of CDLI-tc has the following composition
       divided by provenience, period, and published/unpublished
       status:</p>
@@ -352,7 +363,7 @@ character repertoire.</p>
             </tr>
           </tbody>
         </table>
-        <esp:sh>PC25 Corpus</esp:sh>
+        <esp:ssh>PC25 Corpus</esp:ssh>
         <p>About 1/3 of the PCSL corpus is available only in
       transliteration or photograph and has not yet been subjected to
       the rigorous assessment of a scholarly edition. These texts are
@@ -437,99 +448,17 @@ character repertoire.</p>
             </tr>
           </tbody>
         </table>
-        <esp:sh>ED I-II Excluded from the Proposal</esp:sh>
-        <p>It is generally recognized that there is a group of about 400
-      texts from the site of Ur which are later than Proto-Cuneiform
-      but earlier than the ED IIIa corpus from Fara (Šuruppak): these
-      are conventionally assigned to the Early Dynastic I-II period.
-      There are also about two dozen tablets and fragments from Uruk
-      that are assigned to the same period (Green; LeCompte nXXX).</p>
-        <p>Texts and signs from this period are excluded from the
-      proto-cuneiform proposal.</p>
-        <p>In Englund's exhaustive discussion of the Archaic texts, he
-      includes this period in his concluding remarks as the 8th phase
-      of proto-cuneiform:</p>
-        <blockquote>8. <i>Period of late proto-cuneiform</i>
-        <br/>
-	Ca. 2800-2700 B.C. (Early Dynastic 1), this period is
-	characterized by the earliest apparently multivalent use of
-	proto-cuneiform to write Sumerian words in personal names.
-	The archaic numerical systems were used, but in simplified
-	forms, and the lexical lists were copied and transmitted, but
-	no new lists were added. Tablets were as a rule clumsily
-	formed and inscribed. (Englund OBO 160/1 [1998], p.215).
-      </blockquote>
-        <p>Appearing about 15 years later, LeCompte and Verderame's
-      edition of ED I-II fragments from Ur observed that there are key
-      features of the writing system that depart from the earlier PC
-      practices, and by analysis of both personal names and the
-      contexts of the texts that they are written in Sumerian
-      language:</p>
-        <blockquote>We decided to follow in the transliteration the system that is
-      commonly accepted for Sumerian, thus in small type and in
-      accordance with the values of the signs available on the e-PSD
-      website or in aBZL. We did not adopt the codes applied to the
-      archaic texts from Uruk and Jemdet Nasr, although the
-      transliteration available for lexical tablets in ATU 310 follows
-      such a system for the ED I-II period. This choice is justified
-      by the fact that the signs in the texts from Ur do not seem to
-      present the same variants as their archaic forerunners: for
-      example, the different shapes of E₂ cannot be classified into
-      E₂~a, E₂~b...; furthermore, some signs have no variant, such as
-      DU₈, which is always drawn according to a standard and well
-      known shape. Second, as the language of these texts is
-      undoubtedly Sumerian, it would have been unnecessary to use such
-      values: instead of writing such cumbersome transliterations as
-      DUB~a-LU₂-NU-ŠE₃ or EN~a-GAN~a-GI4~a, it was accordingly more
-      convenient to propose directly Mes-lu₂-nu-še₃ and
-      En-ḫe₂-gi₄. (LeCompte and Verderame 2014, p.4)</blockquote>
-        <p>Another factor which marks the ED I-II corpus as transitional
-      between Uruk III/Jemdet Nasr and ED IIIa is the organization and
-      structure of tablets.  In a thorough survey of these
-      "diplomatics", LeCompte, based on the work of the original
-      editor of the ED I-II corpus from Ur, Burrows, summarizes the
-      situation as follows:</p>
-        <blockquote>As Burrows has already noted, archaic texts from Ur are intermediate in nature.
-Features common with Late Uruk/Jemdet Nasr tablets include:<br/>
-– an oblong shape, half rounded sides, larger tablets having a rectangular format.<br/>
-– a reverse generally left uninscribed.<br/>
-– the presence of clauses and subscripts freely disposed apart from or into the
-columns.<br/>
-– tablets from Ur displaying rows of lines inconsistent with the usual columns; this
-clearly comes from the horizontal lines subdivided into columns observable in a
-few of the Jemdet Nasr texts.<br/>
-<br/>
-On the other hand, the ED I–II texts are forerunners to the ED III tablets in regard to
-the following aspects:
-– surface, with a rather flat obverse and convex reverse.<br/>
-– a lack of subdivision of cases similar to the Late Uruk period.<br/>
-– total expressed as gu₂-an-še₃.<br/>
-<br/>
-Other features are very specific to the ED I–II period, such as the clumsy form of many
-tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote>
-        <p>After discussion among the proposal authors and Robin LeRoy,
-      we have determined that it is preferable to establish the end of
-      the Uruk III period as the cutoff for Unicode PC encoding, and
-      to assign the ED I-II signiary to Sumero-Akkadian Cuneiform.</p>
-        <esp:ssh>PC signs in ED I-II</esp:ssh>
-        <p>For characters that occur only in Proto-Cuneiform and ED
-      I-II, we do not propose to encode the character twice; instead,
-      as with the Archaic Cuneiform Numbers, we propose to treat
-      isolated PC signs in ED I-II texts as archaic holdovers.</p>
-        <p>Signs which occur only in ED I-II texts will be evaluated for
-      encoding in SAC in the future, as will signs that first occur in
-      ED I-II and recur in later periods.</p>
       </body>
     </html>
   </esp:page>
-  <xh:h2>Graphemic Repertoire</xh:h2>
+  <xh:h2>Signs</xh:h2>
   <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="../m/signs.xml">
     <esp:name>Graphemes</esp:name>
     <esp:title>Graphemes</esp:title>
     <html>
       <head/>
       <body>
-        <esp:sh>Grapheme Distribution</esp:sh>
+        <esp:ssh>Grapheme Distribution</esp:ssh>
         <p>A general impression of the amount of graphemic data in the
       various subcorpora is given in the table below.  In each case,
       the numbers are the count of distinct signs and the total number
@@ -671,31 +600,11 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
       IV/III corpus are <esp:link page="csltab">provided in this
       table</esp:link>.</p> 
       -->
-        <esp:sh>Corpus-coverage of ACN/PC25 Encoded Graphemes</esp:sh>
-        <p>Although the strategically selected subset of the Uruk IV/III
-      corpus is only two-thirds of the entire corpus in terms of
-      manuscripts, the graphemic coverage provided by the combination
-      of ACN and PC25 is very high.</p>
-        <p>Of the 6296 texts in the
-      entire PCSL corpus, 162 contain
-      unencoded signs, i.e., 97.51%
- of texts have
-      no unencoded graphemes.</p>
-        <p>The total number of instances of graphemes that are included
-      in the encoded repertoire is substantial: of
-      97838 instances
-      of 2036
-      graphemes, only 248
-      instances of 172
-      graphemes are not encoded.  99.75%
- of instances of
-      graphemes in PCSL are represented in the encodings either
-      directly or as sequences.</p>
       </body>
     </html>
   </esp:page>
-  <xh:h2>Sign Lists</xh:h2>
-  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0" xml:base="../m/lists.xml">
+  <xh:h2>Lists</xh:h2>
+  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xpd="http://oracc.org/ns/xpd/1.0" xml:base="../m/lists.xml">
     <esp:name>Sign Lists</esp:name>
     <esp:title>Sign Lists</esp:title>
     <html>
@@ -761,7 +670,7 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
       particular the texts from the earliest stage of writing exhibit,
       to varying degrees, a tolerance of graphemic variation.  (ATU5
       p.107)</blockquote>
-        <esp:sh>Sign List Cautions</esp:sh>
+        <esp:ssh>Sign List Cautions</esp:ssh>
         <p>Prior versions of a PC proposal have been based on the
       CDLI-gh collection of signs and assume that list entries are
       primary source of Unicode characters.  However, sign lists have
@@ -813,6 +722,35 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
       </body>
     </html>
   </esp:page>
+  <xh:h2>Coverage</xh:h2>
+  <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xml:base="../m/coverage.xml">
+    <esp:name>Sign Lists</esp:name>
+    <esp:title>Sign Lists</esp:title>
+    <html>
+      <head/>
+      <body>
+        <p>Although the strategically selected subset of the Uruk IV/III
+      corpus is only two-thirds of the entire corpus in terms of
+      manuscripts, the graphemic coverage provided by the combination
+      of ACN and PC25 is very high.</p>
+        <p>Of the 6296 texts in the
+      entire PCSL corpus, 162 contain
+      unencoded signs, i.e., 97.51%
+ of texts have
+      no unencoded graphemes.</p>
+        <p>The total number of instances of graphemes that are included
+      in the encoded repertoire is substantial: of
+      97838 instances
+      of 2036
+      graphemes, only 248
+      instances of 172
+      graphemes are not encoded.  99.75%
+ of instances of
+      graphemes in PCSL are represented in the encodings either
+      directly or as sequences.</p>
+      </body>
+    </html>
+  </esp:page>
   <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0" xml:base="../m/pepc.xml">
     <esp:name>Principles</esp:name>
     <esp:title>Revised Principles for Encoding Proto-Cuneiform</esp:title>
@@ -858,7 +796,7 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
       is a base name that has six different allographs,
       <code>KUŠU₂~a</code> to <code>KUŠU~f</code>: each of these
       allographs has instances in the corpus.</p>
-        <esp:sh>(Non-)Contrastive Usage in Complex and Compound Signs</esp:sh>
+        <esp:ssh>(Non-)Contrastive Usage in Complex and Compound Signs</esp:ssh>
         <p>CDLI-tc and CDLI-gh do not always differentiate compound
       constituents to the same extent as the independent versions of
       the constituents.  For example, KAR₂ is separated as KAR₂~a and
@@ -1043,8 +981,8 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
 	to avoid a possibly confusing mixture of encoded and unencoded
 	group members.</dd>
         </dl>
-        <esp:sh>List of Exceptions</esp:sh>
-        <esp:ssh>Reanalysis</esp:ssh>
+        <esp:ssh>List of Exceptions</esp:ssh>
+        <esp:sssh>Reanalysis</esp:sssh>
         <p>Two city-name signs, ADAB and ARARMA~a, have earlier forms
       which are distinct from their reanalysis to include an initial
       U₄ component.  Other city names may also have earlier integral
@@ -1056,14 +994,14 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
       <p>The signs LUGAL (GAL+LU) and LI (ŠE+ŠA) are encoded as
       characters as common sign exceptions.</p>
       -->
-        <esp:ssh>Container Equivalency</esp:ssh>
+        <esp:sssh>Container Equivalency</esp:sssh>
         <p>The signs ASAR and AZ are the equivalent of containers.</p>
-        <esp:ssh>Unencoded Constituents</esp:ssh>
+        <esp:sssh>Unencoded Constituents</esp:sssh>
         <p>The following exception signs contain unencoded consituents:
       <!--ENKUM (EZEN×ŠE),--> ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with
       additional strokes, unclear with this is an UŠ or not), ZUBI~a
       (NA₂-nutillu).</p>
-        <esp:ssh>Analogy: BAPPIR Group</esp:ssh>
+        <esp:sssh>Analogy: BAPPIR Group</esp:sssh>
         <p>The group of signs with the base BAPPIR has one member which
       is a container (BAPPIR~e) and the entire group is encoded by
       analogy.</p>
@@ -1073,12 +1011,12 @@ tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote
       <p>Most combinations of ŠE plus another sign are encoded as
       characters (e.g., TU) so an exception is made for ŠELU.</p>
       -->
-        <esp:ssh>Analogy: Sheep Group</esp:ssh>
+        <esp:sssh>Analogy: Sheep Group</esp:sssh>
         <p>The groups of signs with the base SILANITA, UDUNITA and UTUA
       represent various types (ages, genders) of sheep and since some
       of them have unencoded constituents the members of all groups
       are encoded as characters.</p>
-        <esp:ssh>Analogy: UTUL Group</esp:ssh>
+        <esp:sssh>Analogy: UTUL Group</esp:sssh>
         <p>The UTUL group contains one member which includes an uncoded
       superposed reduplicated component (UTUL~c), so the entire group
       is encoded as characters.</p>

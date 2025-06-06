@@ -1,0 +1,25 @@
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml">
+
+<h1>Background</h1>
+
+<p>This is a revised proposal to encode ‘Proto‑Cuneiform’ (ISO 15924
+Pcun) characters in Unicode. These characters belong to the earliest
+attested writing system, which emerged at the end of the 4th millenium
+BCE in Uruk, a region between the Tigris and Euphrates rivers, in what
+in commonly referred to as Mesopotamia. Proto‑Cuneiform is a
+pictographic script, with symbols etched or pressed onto clay
+surfaces. This writing system was used initially for administrative
+and accounting purposes. Over time, these pictographs were replaced
+with more abstract signs, which are known as ‘cuneiform’. Accordingly,
+this ancestral writing system is known as ‘proto‑cuneiform’. The
+‘Sumero‑Akkadian Cuneiform’ block in Unicode contains these cuneiform
+signs. Apart from the source materials, Proto‑Cuneiform signs are
+depicted in scholarly publications, both in tables and in running text
+(see ig. ??–??). Currently, these signs are displayed using images or
+fonts mapped to other script blocks due to the absence of a Unicode
+encoding. The aim of this proposal is to encode in Unicode a
+well‑defined repertoire that will enable the representation of
+Proto‑Cuneiform characters in plain text.</p>
+
+</esp:page>
