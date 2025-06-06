@@ -168,13 +168,13 @@
 	      </td>
 	    </xsl:if>
 	  </xsl:when>
-	  <xsl:otherwise>
+	  <xsl:when test="not($SL='PCSL')">
 	    <xsl:if test="count(preceding-sibling::*)=0">
 	      <td>
 		<xsl:value-of select="../*/@n"/>
 	      </td>
 	    </xsl:if>
-	  </xsl:otherwise>
+	  </xsl:when>
 	</xsl:choose>
 	<td>
 	  <a href="/pcsl/{../@oid}" target="_blank">
