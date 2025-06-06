@@ -5,39 +5,50 @@
     >
 
   <tex:text>
-    \centerline{\fourteen\bf Documentation for Encoding Proto-Cuneiform}
+    \centerline{\fourteen\bf Proposal to Encode Proto-Cuneiform}
     \medskip
-    \centerline{\twelve\it Steve Tinney, 2025-06-06}
+    \centerline{\twelve\it Anshuman Pandey and Steve Tinney, 2025-06-06}
     \bigskip
   </tex:text>
 
-  <!--<tex:text>\hsect</tex:text>-->
+  <!--<tex:text>\hlstart{name}{}{pcsl}Jump to PCSL table\hlend</tex:text>-->
+  
+  <xi:include href="../x/abstract.xml"/>
 
   <tex:text>\usetoc</tex:text>
 
-  <!--<tex:text>\hlstart{name}{}{pcsl}Jump to PCSL table\hlend</tex:text>-->
+  <xi:include href="../x/previous.xml"/>
+ 
+  <xi:include href="../x/background.xml"/>
   
-  <xi:include href="../x/intro.xml"/>
+  <xi:include href="../x/rationale.xml"/>
+ 
+  <xi:include href="../x/mepc-intro.xml"/>
 
-  <xh:h1>Text Corpus</xh:h1>
+  <xh:h2>Text Corpus</xh:h2>
   
   <xi:include href="../m/texts.xml"/>
 
-  <xh:h1>Graphemic Repertoire</xh:h1>
+  <xh:h2>Graphemic Repertoire</xh:h2>
 
   <xi:include href="../m/signs.xml"/>
 
-  <xh:h1>Sign Lists</xh:h1>
+  <xh:h2>Sign Lists</xh:h2>
 
   <xi:include href="../m/lists.xml"/>
   
   <xi:include href="../m/pepc.xml"/>
 
-  <xi:include href="../m/sequences.xml"/>
+  <!--<tex:text>\endinput</tex:text>-->
 
-  <tex:text>\newpage</tex:text>
+  <xh:h1>Proposal Documents</xh:h1>
 
-  <tex:appendix>PC25 Code Charts</tex:appendix>
+  <xh:p>The reference data for the proposal is in 'UnicodeData.txt', attached to this PDF.</xh:p>
+
+  <xh:p>Code charts and a character list are provided in the following
+  pages for informational purposes only.</xh:p>
+  
+  <xh:h2>Code Charts</xh:h2>
 
   <xi:include href="../m/cpage1.xml"/>
   <xi:include href="../m/cpage2.xml"/>
@@ -48,13 +59,21 @@
 
   <tex:text>\newpage</tex:text>
   
-  <tex:appendix>PC25 Character List</tex:appendix>
+  <xh:h2>Character List</xh:h2>
 
   <xi:include href="../m/chartlist.html"/>
-  
+
+  <tex:text>\endinput</tex:text>
+
+  <!--
+      
   <tex:appendix>PCSL Table</tex:appendix>
 
+  -->
+  
   <!--<tex:text>\hldest{xyz}{}{pcsl}</tex:text>-->
+
+  <!--
   
   <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
   convenient overview of the entire Proto-Cuneiform repertoire and its
@@ -114,5 +133,10 @@
 
   <tex:appendix>Sequences Data</tex:appendix>
   <xi:include href="../m/seqdb.xml"/>
+
+  <tex:appendix>Implementation Notes on Sequences</tex:appendix>
+  <xi:include href="../m/sequences.xml"/>
+
+  -->
 
 </tex:driver>

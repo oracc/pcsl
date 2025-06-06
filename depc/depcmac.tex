@@ -634,6 +634,19 @@
 
 \def\includegraphics#1#2{\XeTeXpicfile #1 scaled#2\relax}
 
+\def\graphicsfigure#1#2#3#4{\figure{}{#4}{\XeTeXpicfile #1 scaled #2}
+
+\newcount\figurecount \figurecount1
+\newskip\figureskip \figureskip=0pt \relax
+\def\figure#1#2#3{\kern\baselineskip % compensate for XeTeX image handling
+                  \parindent0pt \vskip\figureskip\relax
+                  \setbox0=\vbox{#3}%\message{fig \the\figurecount: \ht=\the\ht0 \dp=\the\dp0}%
+                  \hbox to\fullhsize{\hss\box0\hss}%
+                  \vskip10pt
+                  \noindent Figure \the\figurecount. #2\endgraf
+                  \vskip10pt\vfill
+                  \global\advance\figurecount1\relax}
+
 \def\cdlighnopng{\vbox{\vfil\hbox{(-)\hfil}\vfil}}
 
 \def\titlesize{\fourteen}
@@ -678,11 +691,11 @@
   \iftocopen\else\opentoc\fi
   \iftocpageno\def\next{\immediate\write\tocfile%
     {\noexpand\tocentry#2:t:\the\pageno:#6:#4,\iftocranges#1\fi;}%
-    \unexpandedwrite\tocfile{#5}%
-    \write\tocfile{\noexpand\endtocentry}}%
+    \immediate\write\tocfile{#5}%
+    \immediate\write\tocfile{\noexpand\endtocentry}}%
   \else\def\next{\tocpagenotrue\immediate\write\tocfile%
     {\noexpand\tocentry#2:f::#4.\iftocranges#1\fi}%
-    \unexpandedwrite\tocfile{#5}%
+    \immediate\write\tocfile{#5}%
     \immediate\write\tocfile{\noexpand\endtocentry}}\fi
   \next}
 
@@ -727,5 +740,7 @@
 \def\sec@toc#1#2#3#4#5{\hldest{xyz}{}{section#4}%
   \ifusenumber\edef\next{{#4}}\else\edef\next{{\relax}}\fi%
   \expandafter\writetocb\next#1#5{#3}{#4}{section#4}}
+
+\parindent0pt
 
 \endinput

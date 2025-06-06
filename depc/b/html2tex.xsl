@@ -226,9 +226,16 @@
     <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
   
-  <xsl:template match="h:h4">
-    <xsl:text>\Hhhhh</xsl:text>
-    <xsl:call-template name="class"/>
+  <xsl:template match="h:h4|esp:sssh">
+    <xsl:choose>
+      <xsl:when test="$h-sections='yes'">
+	<xsl:text>\subsubsubsection </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>\Hhhhh</xsl:text>
+	<xsl:call-template name="class"/>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:apply-templates/>
     <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>

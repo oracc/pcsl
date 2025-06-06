@@ -6,38 +6,10 @@
     <head/>
     <body>
 
-      <esp:h>Sequences</esp:h>
-      
-      <p>This section describes several related things: how sequences
-      should be encoded; how PCSL handles sequences; exceptions to the
-      principle that sequences should not be encoded; and one strategy
-      for implementing sequences and their glyph variants using simple
-      font features.</p>
+      <p>This section provides some background on how PCSL handles
+      sequences.</p>
 
-      <esp:sh>Sequences are not encoded</esp:sh>
-
-      <p>Following the Principles for Encoding Proto-Cuneiform, signs
-      which are composed sequences of multiple adjacent signs should
-      not be encoded.  The surface form of sequences can be variable
-      in the ordering, selection, and disposition of components, all
-      of which are are treated as glyph variations and not as discrete
-      characters.</p>
-
-      <p>In Proto-Cuneiform writing sequences are not
-      necessarily linear: because the manuscripts are organized in
-      cases (or boxes), signs are routinely juxtaposed in clusters in
-      which the components can be written above, below, or near each
-      other as well as being beside each other in a line.</p>
-
-      <esp:sh>Opaque sequences are not encoded</esp:sh>
-
-      <p>In standard transliteration practice for Proto-Cuneiform some
-      signs are given simple names which do not reflect their status
-      as a sequence, e.g., LUGAL is actually a sequence of LU₂ and
-      GAL. We call these sequences "opaque sequences" and, like
-      regular sequences, they are not encoded.</p>
-
-      <esp:sh>Sequences have constant character names</esp:sh>
+      <esp:ssh>Sequences have constant character names</esp:ssh>
 
       <p>In PCSL, the tag <code>@sign</code> is used for sign names
       and is dissociated from glyph names.  All of the variants of a
@@ -52,7 +24,7 @@
       sequence as |GAL~a.LU₂|, so that is used as the name of the
       character.</p>
 
-      <esp:sh>Glyphs have unique names</esp:sh>
+      <esp:ssh>Glyphs have unique names</esp:ssh>
 
       <p>PCSL uses a new tag, <code>@glyf</code> to clarify the
       separation of character names versus glyph names.  Glyph names
@@ -66,7 +38,7 @@
       <p>Glyph names only have to be unique among @glyf entries; a
       @sign and @glyf may have the same name.</p>
 
-      <esp:sh>How unique glyph names are constructed</esp:sh>
+      <esp:ssh>How unique glyph names are constructed</esp:ssh>
 
       <p>Unique glyph names are constructed by varying the order and
       joiners of the grapheme notation in a way that reflects the
@@ -94,7 +66,7 @@
       are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a distinct component)
       |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
 
-      <esp:sh>How glyph names are turned into ligatures</esp:sh>
+      <esp:ssh>How glyph names are turned into ligatures</esp:ssh>
 
       <p>Glyph names are turned into ligatures by taking the base
       component signs and joining them with the ZWJ, U+200D. Multiple
@@ -120,102 +92,6 @@
       should be specified as "+cv01,+salt=0", "+cv02,+salt=1",
       "+cv03,+salt=2" (specifying +liga is unnecessary with XeTeX;
       note that salt index is 0-based).</p>
-      
-      <esp:sh>Exceptional Sequences</esp:sh>
-      
-      <p>In principle, sign list entries which are sequences of
-      separate signs are not encoded in PC25. In practice, there are
-      several reasons for making exceptions to this policy:</p>
-
-      <dl>
-	<dt>Reanalysis</dt>
-	<dd>Proto-Cuneiform signs that are originally integral units
-	may be reanalyzed into separate constituents. Where this is
-	demonstrably the case, the original character is encoded and
-	the reanalyzed sequence is considered a glyph variant.</dd>
-
-	<!--
-	<dt>Common Signs</dt>
-	<dd>Some signs are allowed as exceptions because it would be
-	counter-intuitive not to encode them as characters.</dd>
-	-->
-	
-	<dt>Container Equivalency</dt>
-	<dd>Some signs are allowed as exceptions because the
-	juxtaposition of elements is the equivalent of a container
-	(TIMES) relationship.</dd>
-	
-	<dt>Unencoded Constituents</dt>
-	<dd>Some sequences contain constituents that are otherwise
-	unattested; in this case the choice is either to encode a sign
-	which may not be attested independently, or to encode the
-	sequence.  In general the option adopted is to encode the
-	sequence as a character.</dd>
-
-	<dt>Analogy</dt>
-	<dd>Some sequences are part of a group and would naturally be
-	considered by users of the encoding to be analogous to each
-	other. Where one or more members of a group fulfils either of
-	the previous conditions for encoding as a character, PC25
-	encodes the entire group as individual characters by analogy
-	to avoid a possibly confusing mixture of encoded and unencoded
-	group members.</dd>
-	  
-      </dl>
-
-      <esp:sh>List of Exceptions</esp:sh>
-
-      <esp:ssh>Reanalysis</esp:ssh>
-
-      <p>Two city-name signs, ADAB and ARARMA~a, have earlier forms
-      which are distinct from their reanalysis to include an initial
-      U₄ component.  Other city names may also have earlier integral
-      forms but without further evidence they are not proposed for
-      encoding as characters at this point.</p>
-
-      <!--
-      <esp:sh>Common Signs</esp:sh>
-
-      <p>The signs LUGAL (GAL+LU) and LI (ŠE+ŠA) are encoded as
-      characters as common sign exceptions.</p>
-      -->
-      
-      <esp:ssh>Container Equivalency</esp:ssh>
-
-      <p>The signs ASAR and AZ are the equivalent of containers.</p>
-      
-      <esp:ssh>Unencoded Constituents</esp:ssh>
-
-      <p>The following exception signs contain unencoded consituents:
-      <!--ENKUM (EZEN×ŠE),--> ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with
-      additional strokes, unclear with this is an UŠ or not), ZUBI~a
-      (NA₂-nutillu).</p>
-      
-      <esp:ssh>Analogy: BAPPIR Group</esp:ssh>
-
-      <p>The group of signs with the base BAPPIR has one member which
-      is a container (BAPPIR~e) and the entire group is encoded by
-      analogy.</p>
-
-      <!--
-      <esp:sh>Analogy: ŠELU</esp:sh>
-
-      <p>Most combinations of ŠE plus another sign are encoded as
-      characters (e.g., TU) so an exception is made for ŠELU.</p>
-      -->
-      
-      <esp:ssh>Analogy: Sheep Group</esp:ssh>
-
-      <p>The groups of signs with the base SILANITA, UDUNITA and UTUA
-      represent various types (ages, genders) of sheep and since some
-      of them have unencoded constituents the members of all groups
-      are encoded as characters.</p>
-
-      <esp:ssh>Analogy: UTUL Group</esp:ssh>
-
-      <p>The UTUL group contains one member which includes an uncoded
-      superposed reduplicated component (UTUL~c), so the entire group
-      is encoded as characters.</p>
       
     </body>
   </html>
