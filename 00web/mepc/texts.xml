@@ -17,9 +17,42 @@
       to Uruk IV and 4461, to the
       subsequent Uruk III period.</p>
       <esp:sh>The Print Corpus</esp:sh>
-      <p>TO DO</p>
+      <p>The principle modern publications of the Proto-Cuneiform corpus are:</p>
+      <dl>
+        <dt>ZATU</dt>
+        <dd>M.W. Green, Nissen, H. <i>Zeichenliste der Archaischen Texte aus Uruk</i>, ATU 2, Berlin 1987.</dd>
+        <dt>ATU3</dt>
+        <dd>R.K. Englund und Nissen, H., unter Mitarbeit von Peter Damerow,
+	"Die Lexikalischen Listen der Archaischen Texte aus Uruk" (ATU 3), Berlin 1993.</dd>
+        <dt>ATU5</dt>
+        <dd>R.K. Englund, <i>Archaic Administrative Texts from Uruk:
+	The Early Campaigns</i>, ATU 5, Berlin 1994.</dd>
+        <dt>ATU6</dt>
+        <dd>R.K. Englund and Nissen, H., <i>&gt;Archaische Verwaltungs-
+	texte aus Uruk: Vorderasiatische Museum II</i>, ATU 6, Berlin 2005.</dd>
+        <dt>ATU7</dt>
+        <dd>R.K. Englund and Nissen, H., <i>Archaische Verwaltungs-
+	texte aus Uruk: Die Heidelberger Sammlung</i>, ATU 7, Berlin
+	2001.</dd>
+        <dt>MSVO1</dt>
+        <dd>R.K. Englund and Grégoire, J.-P., <i>The Proto-Cuneiform
+	Texts from Jemdet Nasr</i>, MSVO 1, Berlin 1991.</dd>
+        <dt>MSVO3</dt>
+        <dd>R.K. Englund, <i>The Proto-Cuneiform Texts from the
+	Erlenmeyer Collection</i>, MSVO 3, Berlin forthcoming.</dd>
+        <dt>MSVO4</dt>
+        <dd>R.K. Englund, <i>Proto-Cuneiform Texts from Diverse Collections</i>, MSVO 4, Berlin 1996.</dd>
+        <dt>CUSAS01</dt>
+        <dd>S.F. Monaco, The Cornell University Archaic Tablets (CUSAS 1), Bethesda, MD, 2007.</dd>
+        <dt>CUSAS21</dt>
+        <dd>S.F. Monaco, Archaic Bullae and Tablets in the Cornell
+        University Collections (CUSAS 21), Bethesda, MD, 2014.</dd>
+        <dt>CUSAS31</dt>
+        <dd>S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.</dd>
+      </dl>
       <esp:sh>The Digital Corpus</esp:sh>
-      <p>The digital corpus includes the contents of the following major publications:</p>
+      <p>The digital corpus includes the contents of the all of the
+      above major publications:</p>
       <ul>
         <li>Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)</li>
         <li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
@@ -197,10 +230,88 @@
           </tr>
         </tbody>
       </table>
-      <esp:sh>PCSL and ED I-II</esp:sh>
-      <p>TO DO: Rationale for separating ED I-II from PCSL corpus
-      (diplomatics; plausibility that language of ED I-II is
-      Sumerian).</p>
+      <esp:sh>ED I-II Excluded from the Proposal</esp:sh>
+      <p>It is generally recognized that there is a group of about 400
+      texts from the site of Ur which are later than Proto-Cuneiform
+      but earlier than the ED IIIa corpus from Fara (Šuruppak): these
+      are conventionally assigned to the Early Dynastic I-II period.
+      There are also about two dozen tablets and fragments from Uruk
+      that are assigned to the same period (Green; LeCompte nXXX).</p>
+      <p>Texts and signs from this period are excluded from the
+      proto-cuneiform proposal.</p>
+      <p>In Englund's exhaustive discussion of the Archaic texts, he
+      includes this period in his concluding remarks as the 8th phase
+      of proto-cuneiform:</p>
+      <blockquote>8. <i>Period of late proto-cuneiform</i>
+        <br/>
+	Ca. 2800-2700 B.C. (Early Dynastic 1), this period is
+	characterized by the earliest apparently multivalent use of
+	proto-cuneiform to write Sumerian words in personal names.
+	The archaic numerical systems were used, but in simplified
+	forms, and the lexical lists were copied and transmitted, but
+	no new lists were added. Tablets were as a rule clumsily
+	formed and inscribed. (Englund OBO 160/1 [1998], p.215).
+      </blockquote>
+      <p>Appearing about 15 years later, LeCompte and Verderame's
+      edition of ED I-II fragments from Ur observed that there are key
+      features of the writing system that depart from the earlier PC
+      practices, and by analysis of both personal names and the
+      contexts of the texts that they are written in Sumerian
+      language:</p>
+      <blockquote>We decided to follow in the transliteration the system that is
+      commonly accepted for Sumerian, thus in small type and in
+      accordance with the values of the signs available on the e-PSD
+      website or in aBZL. We did not adopt the codes applied to the
+      archaic texts from Uruk and Jemdet Nasr, although the
+      transliteration available for lexical tablets in ATU 310 follows
+      such a system for the ED I-II period. This choice is justified
+      by the fact that the signs in the texts from Ur do not seem to
+      present the same variants as their archaic forerunners: for
+      example, the different shapes of E₂ cannot be classified into
+      E₂~a, E₂~b...; furthermore, some signs have no variant, such as
+      DU₈, which is always drawn according to a standard and well
+      known shape. Second, as the language of these texts is
+      undoubtedly Sumerian, it would have been unnecessary to use such
+      values: instead of writing such cumbersome transliterations as
+      DUB~a-LU₂-NU-ŠE₃ or EN~a-GAN~a-GI4~a, it was accordingly more
+      convenient to propose directly Mes-lu₂-nu-še₃ and
+      En-ḫe₂-gi₄. (LeCompte and Verderame 2014, p.4)</blockquote>
+      <p>Another factor which marks the ED I-II corpus as transitional
+      between Uruk III/Jemdet Nasr and ED IIIa is the organization and
+      structure of tablets.  In a thorough survey of these
+      "diplomatics", LeCompte, based on the work of the original
+      editor of the ED I-II corpus from Ur, Burrows, summarizes the
+      situation as follows:</p>
+      <blockquote>As Burrows has already noted, archaic texts from Ur are intermediate in nature.
+Features common with Late Uruk/Jemdet Nasr tablets include:<br/>
+– an oblong shape, half rounded sides, larger tablets having a rectangular format.<br/>
+– a reverse generally left uninscribed.<br/>
+– the presence of clauses and subscripts freely disposed apart from or into the
+columns.<br/>
+– tablets from Ur displaying rows of lines inconsistent with the usual columns; this
+clearly comes from the horizontal lines subdivided into columns observable in a
+few of the Jemdet Nasr texts.<br/>
+<br/>
+On the other hand, the ED I–II texts are forerunners to the ED III tablets in regard to
+the following aspects:
+– surface, with a rather flat obverse and convex reverse.<br/>
+– a lack of subdivision of cases similar to the Late Uruk period.<br/>
+– total expressed as gu₂-an-še₃.<br/>
+<br/>
+Other features are very specific to the ED I–II period, such as the clumsy form of many
+tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote>
+      <p>After discussion among the proposal authors and Robin LeRoy,
+      we have determined that it is preferable to establish the end of
+      the Uruk III period as the cutoff for Unicode PC encoding, and
+      to assign the ED I-II signiary to Sumero-Akkadian Cuneiform.</p>
+      <esp:ssh>PC signs in ED I-II</esp:ssh>
+      <p>For characters that occur only in Proto-Cuneiform and ED
+      I-II, we do not propose to encode the character twice; instead,
+      as with the Archaic Cuneiform Numbers, we propose to treat
+      isolated PC signs in ED I-II texts as archaic holdovers.</p>
+      <p>Signs which occur only in ED I-II texts will be evaluated for
+      encoding in SAC in the future, as will signs that first occur in
+      ED I-II and recur in later periods.</p>
     </body>
   </html>
 </esp:page>

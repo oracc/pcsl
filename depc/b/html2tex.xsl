@@ -49,6 +49,13 @@
     <xsl:text>}</xsl:text>
   </xsl:template>
 
+  <xsl:template match="h:i">
+    <xsl:text>{\it </xsl:text>
+    <xsl:call-template name="class"/>
+    <xsl:apply-templates/>
+    <xsl:text>}</xsl:text>
+  </xsl:template>
+
   <xsl:template match="h:div">
     <xsl:choose>
       <xsl:when test="contains(@class,'names')">
