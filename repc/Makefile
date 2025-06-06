@@ -4,6 +4,7 @@ repc.tsv: ../mepc/lists/00etc/unames.tsv ../mepc/lists/00etc/pc25-final.tsv \
 	rm -fr w
 	mkdir -p ../00web/repc w
 	b/repc.plx
+	b/unidata.sh
 	b/chart.sh
 	b/chartlist.plx
 	xl x/repc.xml >../00web/repc/repc.xml
@@ -20,4 +21,4 @@ repc.tsv: ../mepc/lists/00etc/unames.tsv ../mepc/lists/00etc/pc25-final.tsv \
 #	xl x/cpage7.xml >../00web/repc/cpage7.xml
 
 clean:
-	rm -f repc.tsv w/*
+	rm -f repc.tsv UnicodeData.txt w/*
