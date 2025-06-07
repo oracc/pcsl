@@ -1,0 +1,23 @@
+\font\pczatu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 11pt
+\def\beginzatupcsl{\begin{3column}%
+    %\offinterlineskip
+    \gutterrulestrue
+    \rightskip0pt plus1fil\relax
+    \parskip2pt plus1fil\relax
+}
+\def\endzatupcsl{\end{3column}\vfil\supereject}
+\newdimen\zheadwd \zheadwd.5in
+\newdimen\zchrht  \zchrht12pt
+\def\zentry{\leavevmode\hangindent\zheadwd}
+\def\zhead#1{\hboxtomin{\zheadwd}{\eight#1}}
+\def\zpcsl#1{#1\endgraf\goodbreak}
+\def\zchrnam#1#2{\lower2pt\vbox to\zchrht{\vfil\hbox{\pczatu#1}\vfil}%
+  \kern3pt
+  %\vbox to\zchrht{\vfil
+    \hbox{\Sans\seven\rm#2\hfil}%
+    %\vfil}
+}
+\def\zref#1{{\baselineskip9pt\relax\eight#1\endgraf}}
+\def\zsee#1{\seven#1\hss}
+\def\zcomma{, }
+\def\zspace{; }

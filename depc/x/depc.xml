@@ -146,6 +146,10 @@
   
   <xi:include href="../m/pcsl-tab.html"/>
 
+  <tex:appendix>ZATU-PCSL Conordance</tex:appendix>
+
+  <xi:include href="../m/zatu.html"/>
+  
   <tex:appendix>PCSL Non-PC25</tex:appendix>
 
   <xh:p>This table gives every text in the PC corpus that contains one

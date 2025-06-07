@@ -64,6 +64,9 @@
       <xsl:when test="contains(@class,'cdligh') and count(*)=0">
 	<xsl:text>\slnocdli</xsl:text>
       </xsl:when>
+      <xsl:when test="contains(@class,'zc-zatu-pcsl')">
+	<xsl:call-template name="zatu-pcsl"/>
+      </xsl:when>
       <xsl:when test="contains(@class,'vbox')">
 	<xsl:choose>
 	  <xsl:when test="ancestor::*[contains(@class,'codechart')]">
@@ -191,6 +194,8 @@
     <xsl:apply-templates/>
     <xsl:text>\Hendol&#xa;</xsl:text>
   </xsl:template>
+
+  <xsl:template match="h:h1[@class='no-tex']"/>
   
   <xsl:template match="h:h1|esp:h">
     <xsl:choose>
@@ -727,6 +732,48 @@
     <xsl:text>\hbox to.4in{\hss\pcssxx</xsl:text>
     <xsl:apply-templates/>
     <xsl:text>\hss}</xsl:text>
+  </xsl:template>
+
+  <xsl:template name="zatu-pcsl">
+    <xsl:text>\beginzatupcsl&#xa;</xsl:text>
+    <xsl:for-each select="h:div"><!--zc-entry-->
+      <xsl:text>\zentry</xsl:text>
+      <xsl:text>\zhead{</xsl:text>
+      <xsl:for-each select="h:div[@class='zc-zatu']">
+	<xsl:for-each select="*"><!--span with ZATU number-->
+	  <xsl:value-of select="."/>
+	  <xsl:if test="not(position()=last())"><xsl:text>\zcomma{}</xsl:text></xsl:if>
+	</xsl:for-each>
+      </xsl:for-each>
+      <xsl:text>}</xsl:text>
+      <xsl:for-each select="h:div[@class='zc-pcsl']">
+	<xsl:text>\zpcsl{</xsl:text>
+	<xsl:choose>
+	  <xsl:when test="*[@class='zc-zref']">
+	    <xsl:text>\zref{</xsl:text>
+	    <xsl:call-template name="textmap">
+	      <xsl:with-param name="t" select="*[@class='zc-zref']"/>
+	    </xsl:call-template>
+	    <xsl:text>}</xsl:text>
+	  </xsl:when>
+	  <xsl:when test="*[@class='zc-zsee']">
+	    <xsl:value-of select="concat('\zsee{',*[@class='zc-zsee']/text(),'}')"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:for-each select="*[@class='zc-sign']">
+	      <xsl:value-of select="concat('\zchrnam{',h:span[1],'}{')"/>
+	      <xsl:call-template name="textmap">
+		<xsl:with-param name="t" select="h:span[2]"/>
+	      </xsl:call-template>
+	      <xsl:text>}</xsl:text>
+	      <xsl:if test="not(position()=last())"><xsl:text>\zspace</xsl:text></xsl:if>
+	    </xsl:for-each>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:for-each>
+      <xsl:text>}%&#xa;</xsl:text> <!--\zentry is a marker with no curlies; the } is for \zpcsl-->
+    </xsl:for-each>
+    <xsl:text>\endzatupcsl&#xa;</xsl:text>
   </xsl:template>
   
   <!-- Ignored HTML tags -->

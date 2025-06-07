@@ -29,7 +29,9 @@
     as glyph variants</li>
     <li>.ss20 is a styleset that supports constrained width displays
     such as code charts; .ss20 only exists for reference glyphs that
-    are over 1200 units wide</li>
+    are over 1200 units wide.  The font is sized to use a maximum of
+    1200 units in the y axis so no scaling needed for taller signs,
+    only for wider signs.</li>
     <li>.liga entries to support the sequences as described in the
     Sequence Data appendix</li>
   </ul>
