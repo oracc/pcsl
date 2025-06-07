@@ -73,7 +73,7 @@
   possible of the decision-making process and outcomes that are
   associated with the proposal.</xh:p>
 
-  <tex:text>\begin{display}</tex:text>
+  <!--<tex:text>\begin{display}</tex:text>-->
 
   <xh:dl>
     
@@ -107,7 +107,7 @@
 
   </xh:dl>
 
-  <tex:text>\end{display}</tex:text>
+  <!--<tex:text>\end{display}</tex:text>-->
 
   <tex:text>\vfill\useapp\vfill</tex:text>
 
@@ -129,8 +129,10 @@
     encoding in PC25, the hex codepoint and reference glyph are given
     in the middle of the case.</xh:dd>
     <xh:dt>FONT</xh:dt>
-    <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.  Glyphs
-    coloured blue are not included in the CDLI-gh collection.</xh:dd>
+    <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.
+    Glyphs coloured blue are not included in the CDLI-gh
+    collection. Subscript numbers before glyphs indicate the CVNN code
+    for the variant, i.e., <xh:code>₁ = .cv01</xh:code></xh:dd>
     <xh:dt>CDLI</xh:dt>
     <xh:dd>The original CDLI-gh image, scaled from a 600dpi image set
     downloaded from the CDLI website in 2016.</xh:dd>
@@ -252,8 +254,8 @@
 
     <xh:li>In column three the input on the upper row is the Unicode
     character sequence corresponding to the ligature sequence in the
-    lower row: if this is working correctly the appearance of the
-    upper row should match the character in the column two.  Font
+    lower row: if the ligature is working correctly the appearance of
+    the upper row should match the character in column two.  Font
     switching is used to access glyph variants.</xh:li>
   </xh:ul>
   

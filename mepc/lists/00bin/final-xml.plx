@@ -541,8 +541,17 @@ sub pchar {
 		$tag = $ccc ? $glyftag{$ccc} : '';
 		if ($tag) {
 		    if ($tag."" =~ /^0-9$/) {
-			$tag = chr($tag-'0'+0x2080);
-			$tag = " t=\"$tag\"";
+			my $cvnn = ord($tag) - ord('0');
+			--$cvnn;
+			# warn "pchar tag = $tag => cvnn $cvnn\n";
+			if ($cvnn > 0) {
+			    $tag = chr($cvnn+0x2080);
+			    $tag = " t=\"$tag\"";
+			} else {
+			    $tag = '';
+			}
+		    } else {
+			$tag = '';
 		    }
 		} else {
 		    warn "$0: no glyftag for $ccc = $ch = $co = $cn\n";
@@ -576,8 +585,14 @@ sub pchar {
 	    my $cn = xmlify($n{$co});
 	    my $tag = $glyftag{$cc} || '';
 	    if ($tag."" =~ /^0-9$/) {
-		$tag = chr($tag-'0'+0x2080);
-		$tag = " t=\"$tag\"";
+		my $cvnn = ord($tag) - ord('0');
+		--$cvnn;
+		if ($cvnn > 0) {
+		    $tag = chr($cvnn+0x2080);
+		    $tag = " t=\"$tag\"";
+		} else {
+		    $tag = '';
+		}
 	    }
 	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"$ngh$tag/>";
 	} elsif ($ch eq '4F') {

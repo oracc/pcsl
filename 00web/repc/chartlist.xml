@@ -72,7 +72,7 @@
             <tr>
               <td class="ccl-hex">12694</td>
               <td class="ccl-chr">𒚔</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN A TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN A TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
@@ -121,7 +121,7 @@
             <tr>
               <td class="ccl-hex">1269B</td>
               <td class="ccl-chr">𒚛</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN AB-A TIMES ONE-N4</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN AB-A TIMES ONE N04</td>
             </tr>
           </tbody>
           <tbody>
@@ -149,7 +149,7 @@
             <tr>
               <td class="ccl-hex">1269F</td>
               <td class="ccl-chr">𒚟</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN AB2 TIMES TWO-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN AB2 TIMES TWO N14</td>
             </tr>
           </tbody>
           <tbody>
@@ -681,14 +681,14 @@
             <tr>
               <td class="ccl-hex">126EB</td>
               <td class="ccl-chr">𒛫</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A OVER BU-A WITH NA2-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A OVER BU-A NA2-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">126EC</td>
               <td class="ccl-chr">𒛬</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A WITH NA2-A NUTILLU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN BU-A CROSSING BU-A NA2-A NUTILLU</td>
             </tr>
           </tbody>
           <tbody>
@@ -1024,7 +1024,7 @@
             <tr>
               <td class="ccl-hex">1271C</td>
               <td class="ccl-chr">𒜜</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DIN TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DIN TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -1045,7 +1045,7 @@
             <tr>
               <td class="ccl-hex">1271F</td>
               <td class="ccl-chr">𒜟</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DU TIMES ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DU TIMES ONE N58 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -1066,7 +1066,7 @@
             <tr>
               <td class="ccl-hex">12722</td>
               <td class="ccl-chr">𒜢</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DU6-A TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DU6-A TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -1199,21 +1199,21 @@
             <tr>
               <td class="ccl-hex">12735</td>
               <td class="ccl-chr">𒜵</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUB NUTILLU-A TIMES ONE-N58 FORM A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUB NUTILLU-A TIMES ONE N58 FORM A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12736</td>
               <td class="ccl-chr">𒜶</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUB NUTILLU-A TIMES ONE-N58 FORM B</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUB NUTILLU-A TIMES ONE N58 FORM B</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12737</td>
               <td class="ccl-chr">𒜷</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUB NUTILLU-B TIMES ONE-N58-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUB NUTILLU-B TIMES ONE N58-A</td>
             </tr>
           </tbody>
           <tbody>
@@ -1262,7 +1262,7 @@
             <tr>
               <td class="ccl-hex">1273E</td>
               <td class="ccl-chr">𒜾</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-A TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-A TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -1612,28 +1612,28 @@
             <tr>
               <td class="ccl-hex">12770</td>
               <td class="ccl-chr">𒝰</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12771</td>
               <td class="ccl-chr">𒝱</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N57 PLUS KU3-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B TIMES ONE N57 PLUS KU3-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12772</td>
               <td class="ccl-chr">𒝲</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12773</td>
               <td class="ccl-chr">𒝳</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B OVER DUG-B TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-B OVER DUG-B TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -1647,7 +1647,7 @@
             <tr>
               <td class="ccl-hex">12775</td>
               <td class="ccl-chr">𒝵</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-C TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN DUG-C TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -1724,7 +1724,7 @@
             <tr>
               <td class="ccl-hex">12780</td>
               <td class="ccl-chr">𒞀</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN E2-A TIMES ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN E2-A TIMES ONE N58 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -1738,7 +1738,7 @@
             <tr>
               <td class="ccl-hex">12782</td>
               <td class="ccl-chr">𒞂</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN E2-B TIMES ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN E2-B TIMES ONE N58 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -1885,7 +1885,7 @@
             <tr>
               <td class="ccl-hex">12797</td>
               <td class="ccl-chr">𒞗</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN EZEN-A TIMES HI TIMES ONE-N57 PLUS AN</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN EZEN-A TIMES HI TIMES ONE N57 PLUS AN</td>
             </tr>
           </tbody>
           <tbody>
@@ -1969,7 +1969,7 @@
             <tr>
               <td class="ccl-hex">127A3</td>
               <td class="ccl-chr">𒞣</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN EZEN-B TIMES SIX N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -2039,7 +2039,7 @@
             <tr>
               <td class="ccl-hex">127AD</td>
               <td class="ccl-chr">𒞭</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GA-C TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GA-C TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
@@ -2228,14 +2228,14 @@
             <tr>
               <td class="ccl-hex">127C8</td>
               <td class="ccl-chr">𒟈</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GA2-A1 TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GA2-A1 TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">127C9</td>
               <td class="ccl-chr">𒟉</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GA2-A1 TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GA2-A1 TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -2480,7 +2480,7 @@
             <tr>
               <td class="ccl-hex">127EC</td>
               <td class="ccl-chr">𒟬</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GAN-C TIMES FOUR-N57 PLUS GAR</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GAN-C TIMES FOUR N57 PLUS GAR</td>
             </tr>
           </tbody>
           <tbody>
@@ -2655,14 +2655,14 @@
             <tr>
               <td class="ccl-hex">12805</td>
               <td class="ccl-chr">𒠅</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GI TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GI TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12806</td>
               <td class="ccl-chr">𒠆</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GI TIMES ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GI TIMES ONE N58 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -3124,7 +3124,7 @@
             <tr>
               <td class="ccl-hex">12848</td>
               <td class="ccl-chr">𒡈</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GURUSH-A TIMES TWO-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GURUSH-A TIMES TWO N14</td>
             </tr>
           </tbody>
           <tbody>
@@ -3138,14 +3138,14 @@
             <tr>
               <td class="ccl-hex">1284A</td>
               <td class="ccl-chr">𒡊</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GURUSH-B TIMES TWO-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GURUSH-B TIMES TWO N14</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">1284B</td>
               <td class="ccl-chr">𒡋</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GURUSH-C TIMES TWO-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN GURUSH-C TIMES TWO N14</td>
             </tr>
           </tbody>
           <tbody>
@@ -3194,14 +3194,14 @@
             <tr>
               <td class="ccl-hex">12852</td>
               <td class="ccl-chr">𒡒</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN HI TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN HI TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12853</td>
               <td class="ccl-chr">𒡓</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN HI TIMES ONE-N57 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN HI TIMES ONE N57 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -4041,14 +4041,14 @@
             <tr>
               <td class="ccl-hex">128CB</td>
               <td class="ccl-chr">𒣋</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN LAGAB-A TIMES TWO-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN LAGAB-A TIMES TWO N14</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">128CC</td>
               <td class="ccl-chr">𒣌</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN LAGAB-A TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN LAGAB-A TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -4237,7 +4237,7 @@
             <tr>
               <td class="ccl-hex">128E7</td>
               <td class="ccl-chr">𒣧</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN MA TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN MA TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -4650,21 +4650,21 @@
             <tr>
               <td class="ccl-hex">12922</td>
               <td class="ccl-chr">𒤢</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 WITH BAD</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE N58 BAD</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12923</td>
               <td class="ccl-chr">𒤣</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE-N58 PLUS BAD FORM B</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ONE N58 PLUS BAD FORM B</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12924</td>
               <td class="ccl-chr">𒤤</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN THREE-N58 WITH UR3-B1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN THREE N58 UR3-B1</td>
             </tr>
           </tbody>
           <tbody>
@@ -4797,7 +4797,7 @@
             <tr>
               <td class="ccl-hex">12937</td>
               <td class="ccl-chr">𒤷</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NAM2 TIMES ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NAM2 TIMES ONE N01</td>
             </tr>
           </tbody>
           <tbody>
@@ -4902,14 +4902,14 @@
             <tr>
               <td class="ccl-hex">12946</td>
               <td class="ccl-chr">𒥆</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NI-B TIMES FOUR-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NI-B TIMES FOUR N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12947</td>
               <td class="ccl-chr">𒥇</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NI-B TIMES EIGHT-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NI-B TIMES EIGHT N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -5084,7 +5084,7 @@
             <tr>
               <td class="ccl-hex">12960</td>
               <td class="ccl-chr">𒥠</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU659 TIMES ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU659 TIMES ONE N01</td>
             </tr>
           </tbody>
           <tbody>
@@ -5098,28 +5098,28 @@
             <tr>
               <td class="ccl-hex">12962</td>
               <td class="ccl-chr">𒥢</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12963</td>
               <td class="ccl-chr">𒥣</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES TWO-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES TWO N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12964</td>
               <td class="ccl-chr">𒥤</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N6 PLUS HI GUNU-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE N06 PLUS HI GUNU-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12965</td>
               <td class="ccl-chr">𒥥</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE-N8</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE N08</td>
             </tr>
           </tbody>
           <tbody>
@@ -5462,7 +5462,7 @@
             <tr>
               <td class="ccl-hex">12996</td>
               <td class="ccl-chr">𒦖</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SAG JOINING UKKIN-B TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SAG JOINING UKKIN-B TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -5525,7 +5525,7 @@
             <tr>
               <td class="ccl-hex">1299F</td>
               <td class="ccl-chr">𒦟</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SAL TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SAL TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -5651,7 +5651,7 @@
             <tr>
               <td class="ccl-hex">129B1</td>
               <td class="ccl-chr">𒦱</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SI TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SI TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -6029,7 +6029,7 @@
             <tr>
               <td class="ccl-hex">129E7</td>
               <td class="ccl-chr">𒧧</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SILA3-A TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SILA3-A TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -6127,7 +6127,7 @@
             <tr>
               <td class="ccl-hex">129F5</td>
               <td class="ccl-chr">𒧵</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SU-A TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SU-A TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -6659,7 +6659,7 @@
             <tr>
               <td class="ccl-hex">12A41</td>
               <td class="ccl-chr">𒩁</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE-N6</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHITA GUNU-A TIMES ONE N06</td>
             </tr>
           </tbody>
           <tbody>
@@ -6680,7 +6680,7 @@
             <tr>
               <td class="ccl-hex">12A44</td>
               <td class="ccl-chr">𒩄</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHU TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHU TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -6729,7 +6729,7 @@
             <tr>
               <td class="ccl-hex">12A4B</td>
               <td class="ccl-chr">𒩋</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHUR2 TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN SHUR2 TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -7072,175 +7072,175 @@
             <tr>
               <td class="ccl-hex">12A7C</td>
               <td class="ccl-chr">𒩼</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A7D</td>
               <td class="ccl-chr">𒩽</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N1 PLUS ONE-N24</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N01 PLUS ONE N24</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A7E</td>
               <td class="ccl-chr">𒩾</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A7F</td>
               <td class="ccl-chr">𒩿</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FOUR-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FOUR N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A80</td>
               <td class="ccl-chr">𒪀</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FIVE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FIVE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A81</td>
               <td class="ccl-chr">𒪁</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES SIX-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES SIX N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A82</td>
               <td class="ccl-chr">𒪂</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES EIGHT-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES EIGHT N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A83</td>
               <td class="ccl-chr">𒪃</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A84</td>
               <td class="ccl-chr">𒪄</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N14 PLUS ONE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A85</td>
               <td class="ccl-chr">𒪅</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS TWO-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N14 PLUS TWO N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A86</td>
               <td class="ccl-chr">𒪆</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS FOUR-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N14 PLUS FOUR N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A87</td>
               <td class="ccl-chr">𒪇</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N14 PLUS EIGHT-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N14 PLUS EIGHT N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A88</td>
               <td class="ccl-chr">𒪈</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES TWO-N14 PLUS FOUR-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES TWO N14 PLUS FOUR N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A89</td>
               <td class="ccl-chr">𒪉</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE-N14 PLUS TWO-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE N14 PLUS TWO N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A8A</td>
               <td class="ccl-chr">𒪊</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE-N14 PLUS SEVEN-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE N14 PLUS SEVEN N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A8B</td>
               <td class="ccl-chr">𒪋</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A8C</td>
               <td class="ccl-chr">𒪌</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES TWO-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES TWO N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A8D</td>
               <td class="ccl-chr">𒪍</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES THREE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A8E</td>
               <td class="ccl-chr">𒪎</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FOUR-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FOUR N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A8F</td>
               <td class="ccl-chr">𒪏</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FIVE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES FIVE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A90</td>
               <td class="ccl-chr">𒪐</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES SIX-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES SIX N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A91</td>
               <td class="ccl-chr">𒪑</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES SEVEN-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES SEVEN N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A92</td>
               <td class="ccl-chr">𒪒</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES EIGHT-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES EIGHT N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A93</td>
               <td class="ccl-chr">𒪓</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12A94</td>
               <td class="ccl-chr">𒪔</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN U4 TIMES ONE N58 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -7415,7 +7415,7 @@
             <tr>
               <td class="ccl-hex">12AAD</td>
               <td class="ccl-chr">𒪭</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES DIN PLUS ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES DIN PLUS ONE N01</td>
             </tr>
           </tbody>
           <tbody>
@@ -7436,21 +7436,21 @@
             <tr>
               <td class="ccl-hex">12AB0</td>
               <td class="ccl-chr">𒪰</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES TWO-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES TWO N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12AB1</td>
               <td class="ccl-chr">𒪱</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES THREE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES THREE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12AB2</td>
               <td class="ccl-chr">𒪲</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES FIVE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UKKIN-B TIMES FIVE N01</td>
             </tr>
           </tbody>
           <tbody>
@@ -7576,7 +7576,7 @@
             <tr>
               <td class="ccl-hex">12AC4</td>
               <td class="ccl-chr">𒫄</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UR2 TIMES ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN UR2 TIMES ONE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -7716,7 +7716,7 @@
             <tr>
               <td class="ccl-hex">12AD8</td>
               <td class="ccl-chr">𒫘</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN URU-A1 TIMES THREE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN URU-A1 TIMES THREE N57</td>
             </tr>
           </tbody>
           <tbody>
@@ -7730,7 +7730,7 @@
             <tr>
               <td class="ccl-hex">12ADA</td>
               <td class="ccl-chr">𒫚</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN URU-A2 TIMES ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN URU-A2 TIMES ONE N58</td>
             </tr>
           </tbody>
           <tbody>
@@ -8304,21 +8304,21 @@
             <tr>
               <td class="ccl-hex">12B2C</td>
               <td class="ccl-chr">𒬬</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N1</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE N01</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12B2D</td>
               <td class="ccl-chr">𒬭</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12B2E</td>
               <td class="ccl-chr">𒬮</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU659 TIMES ONE N58 TENU</td>
             </tr>
           </tbody>
           <tbody>
@@ -8332,7 +8332,7 @@
             <tr>
               <td class="ccl-hex">12B30</td>
               <td class="ccl-chr">𒬰</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU662 TIMES ONE-N14</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM SIGN ZATU662 TIMES ONE N14</td>
             </tr>
           </tbody>
           <tbody>
@@ -9578,168 +9578,168 @@
             <tr>
               <td class="ccl-hex">12BE2</td>
               <td class="ccl-chr">𒯢</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN TWO-LAGAB-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN TWO LAGAB-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE3</td>
               <td class="ccl-chr">𒯣</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN THREE-LAGAB-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN THREE LAGAB-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE4</td>
               <td class="ccl-chr">𒯤</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FOUR-LAGAB-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FOUR LAGAB-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE5</td>
               <td class="ccl-chr">𒯥</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN SIX-LAGAB-A</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN SIX LAGAB-A</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE6</td>
               <td class="ccl-chr">𒯦</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE7</td>
               <td class="ccl-chr">𒯧</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN TWO-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN TWO N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE8</td>
               <td class="ccl-chr">𒯨</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN THREE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN THREE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BE9</td>
               <td class="ccl-chr">𒯩</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FOUR-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FOUR N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BEA</td>
               <td class="ccl-chr">𒯪</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FIVE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FIVE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BEB</td>
               <td class="ccl-chr">𒯫</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN SIX-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN SIX N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BEC</td>
               <td class="ccl-chr">𒯬</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN SEVEN-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN SEVEN N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BED</td>
               <td class="ccl-chr">𒯭</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN EIGHT-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN EIGHT N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BEE</td>
               <td class="ccl-chr">𒯮</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN NINE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN NINE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BEF</td>
               <td class="ccl-chr">𒯯</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE-N57</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE N57</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF0</td>
               <td class="ccl-chr">𒯰</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF1</td>
               <td class="ccl-chr">𒯱</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN TWO-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN TWO N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF2</td>
               <td class="ccl-chr">𒯲</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN THREE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN THREE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF3</td>
               <td class="ccl-chr">𒯳</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FOUR-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FOUR N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF4</td>
               <td class="ccl-chr">𒯴</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FIVE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN FIVE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF5</td>
               <td class="ccl-chr">𒯵</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN EIGHT-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN EIGHT N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF6</td>
               <td class="ccl-chr">𒯶</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN NINE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN NINE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF7</td>
               <td class="ccl-chr">𒯷</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF8</td>
               <td class="ccl-chr">𒯸</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE-N58</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE N58</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <td class="ccl-hex">12BF9</td>
               <td class="ccl-chr">𒯹</td>
-              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE-N58 TENU</td>
+              <td class="ccl-uni">PROTO-CUNEIFORM NUMERIC SIGN ONE N58 TENU</td>
             </tr>
           </tbody>
         </table>

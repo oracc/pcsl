@@ -1,5 +1,5 @@
 repc.tsv: ../mepc/lists/00etc/unames.tsv ../mepc/lists/00etc/pc25-final.tsv \
-	b/chart.plx b/chart.sh Makefile x/repc.xml
+	b/chart.plx b/chart.sh Makefile x/repc.xml b/repc.plx
 	rm -fr ../00web/repc
 	rm -fr w
 	mkdir -p ../00web/repc w

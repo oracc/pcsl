@@ -132,7 +132,7 @@ sub seq_views {
 	    push @nv, $s;
 	    push @gn, $s;
 	    push @nn, $s;
-	    push @nl, joiner($s);
+	    # push @nl, joiner($s);
 	} elsif ($glyf{$s}) {
 	    push @nv, $glyf{$s};
 	    push @gn, $glyf{$s,'n'};
@@ -149,7 +149,7 @@ sub seq_views {
 		if ($glyf{$s} eq '₁𒣬∘₁𒣬') {
 		    my $hix1n57 = $glyf{$s}; $hix1n57 =~ s/^.(.).*$/$1/;
 		    $nam = sprintf("%X", ord($hix1n57));
-		    $nam = "${nam}_u200D_u${nam}";
+		    $nam = "${nam}_u${nam}";
 		} else {
 		    $nam = sprintf("%X", ord($glyf{$s}));
 		    $tag = '';
@@ -181,7 +181,7 @@ sub seq_views {
 }
 
 sub joiner {
-    return '200D'; # new liga uses only 200D
+    return ''; # new liga uses only 200D ## new new liga uses no u200D either
     my $x = shift;
     if ($x eq '.') { # ZWJ
 	return '200D';

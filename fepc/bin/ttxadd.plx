@@ -109,7 +109,8 @@ foreach (@t) {
 		}
 		my $c = "0x\L$a";
 		$c =~ s/xu/x/;
-		push @code, "<map code=\"$c\" name=\"$a\"/><!--xxx-->\n";
+		push @code, "<map code=\"$c\" name=\"$a\"/><!--xxx-->\n"
+		    unless $a =~ /\./;
 		push @ttglyph, <<EOF;
 <TTGlyph name=\"$a\" >
   <component glyphName=\"u$m\" x="8" y="0" $sf flags="0x1000"/>

@@ -3,18 +3,18 @@
     %\offinterlineskip
     \gutterrulestrue
     \rightskip0pt plus1fil\relax
-    \parskip2pt plus1fil\relax
+    \parskip2pt plus1fil minus2pt\relax
 }
 \def\endzatupcsl{\end{3column}\vfil\supereject}
 \newdimen\zheadwd \zheadwd.5in
-\newdimen\zchrht  \zchrht12pt
+\newdimen\zchrht  \zchrht9pt
 \def\zentry{\leavevmode\hangindent\zheadwd}
 \def\zhead#1{\hboxtomin{\zheadwd}{\eight#1}}
 \def\zpcsl#1{#1\endgraf\goodbreak}
-\def\zchrnam#1#2{\lower2pt\vbox to\zchrht{\vfil\hbox{\pczatu#1}\vfil}%
+\def\zchrnam#1#2{\vbox to\zchrht{\vfil\smash{\hbox{\pczatu#1}}}%
   \kern3pt
   %\vbox to\zchrht{\vfil
-    \hbox{\Sans\seven\rm#2\hfil}%
+    \hbox{\Sans\six\rm#2\hfil}%
     %\vfil}
 }
 \def\zref#1{{\baselineskip9pt\relax\eight#1\endgraf}}

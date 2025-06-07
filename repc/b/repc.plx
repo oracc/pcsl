@@ -25,6 +25,7 @@ foreach (@pc25) {
     my($o,$u,$n) = split(/\t/, $_);
     if ($un{$n}) {
 	my $un = $un{$n};
+	$un =~ s/ WITH / /g;
 	$n =~ s/\%/\%\%/g;
 	printf "$o\t$u\t%s\t$n\t$un\n", chr(hex($u));
     } else {
