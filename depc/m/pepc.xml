@@ -97,12 +97,12 @@
 	<li>Align names with CDLI-tc/CDLI-gh as much as possible to
 	ensure that the encoding is closely aligned with existing
 	scholarly practice. Make exceptions where required to correct
-	names or to improve consistency of naming scheme; if in doubt,
-	retain the CDLI names.</li>
+	names or to improve consistency of the naming scheme; if in
+	doubt, retain the CDLI names.</li>
 	
    	<li>Take contrastive usage into account to the extent
    	supported by contemporary scholarship and do not encode
-   	non-contrative sign variants under their own codepoints.  The
+   	non-contrastive sign variants under their own codepoints.  The
    	CDLI-tc corpus is the primary guide to non-constrastive usage:
    	different sign forms which are transliterated the same are
    	accepted as non-contrastive.</li>

@@ -177,9 +177,17 @@ while (<N>) {
 	my $row = $fn ? " row=\"$fn\"" : '';
 	$row .= " roid=\"$roid\""
 	    if $roid;
-	my $pcslx = pcsl_xattr($o,$pc24);
+	# my $pcslx = pcsl_xattr($o,$pc24);
 	my $O = Os($o);
-	print "<sign xml:id=\"$O\" oid=\"$O\"$pc25attr$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$pcslx$sfattr>";
+	print "<sign xml:id=\"$O\" oid=\"$O\"$pc25attr$t p=\"$xp\" pc24=\"$xpc24\" cdli=\"$xcdli\"$cdiff src=\"$src\"$rattr$row glyf=\"$c\"$dist$datadist$sfattr>";
+	if ($pcslflag && $zatu{$o}) {
+	    print '<zatu>';
+	    foreach my $z (sort @{$zatu{$o}}) {
+		my $xz = xmlify($z);
+		print "<z>$xz</z>";
+	    }
+	    print '</zatu>';
+	}
 	if ($pcslflag && $aka{Os($o,'aka')}) {
 	    print '<aka>';
 	    my $naka = 0;
@@ -475,9 +483,9 @@ sub load_zatu {
     foreach (@z) {
 	my($z,@o) = split(/\s/,$_);
 	foreach my $o (@o) {
-	    warn "load_zatu: $o has multiple ZATU numbers: $zatu{Os($o,'zatu')}; $z\n"
-		if $zatu{Os($o,'zatu')} && $zatu{Os($o,'zatu')} ne $z;
-	    $zatu{Os($o,'zatu')} = $z;
+	    warn "load_zatu: $o has multiple ZATU numbers: @{$zatu{$o}}; $z\n"
+		if $zatu{$o} && $zatu{$o} ne $z;
+	    push @{$zatu{$o}}, $z;
 	}
     }
 }

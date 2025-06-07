@@ -203,6 +203,13 @@
 		  <xsl:value-of select="../@dist"/>
 		</div>
 	      </xsl:if>
+	      <xsl:if test="../zatu">
+		<div class="zatu vtop">
+		  <xsl:for-each select="../zatu/z">
+		    <div><xsl:value-of select="."/></div>
+		  </xsl:for-each>
+		</div>
+	      </xsl:if>
 	      <div class="notes"><p><xsl:value-of select="n"/></p></div>
 	    </div>
 	  </a>
@@ -274,7 +281,7 @@
 	</td>
 
 	<xsl:if test="not($SL='ZATU')">
-	  <xsl:if test="count(preceding-sibling::*[not(self::aka)])=0">
+	  <xsl:if test="count(preceding-sibling::*[not(self::aka) and not(self::zatu)])=0">
 	    <xsl:choose>
 	      <xsl:when test="$SL='PCSL'">
 		<td>

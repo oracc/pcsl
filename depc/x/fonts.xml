@@ -1,0 +1,48 @@
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns:tex="http://oracc.org/ns/tex/1.0"	  
+	  xmlns="http://www.w3.org/1999/xhtml">
+
+  <p>The proposal is supported by two fonts:</p>
+
+  <h1>PCSL.ttf</h1>
+
+  <p>This is the font used for the PCSL table and other appendices in
+  the proposal.  The font is remapped and augmented from
+  an earlier font which was named PC24.ttf. Both PC24.ttf and PCSL.ttf
+  owe a huge debt to the original work of Anshuman Pandey in turning
+  Bob Englund's CDLI glyph collection into a font, and to Robin
+  Leroy's work on Archaic Cuneiform Numerals.  PCSL.ttf has been
+  augmented and revised extensively by Steve Tinney and currently
+  contains the following components:</p>
+  <ul>
+    <li>12550-12686 are derived from Robin LeRoy's Archaic Cuneiform Numerals font</li>
+    <li>12690-12BF9 are the reference glyphs for characters proposed for encoding here</li>
+    <li>F00DA-F012D are characters not proposed for encoding but listed in the OSL PUA</li>
+    <li>F2000-F22B1 are glyph variants; these are also included under
+    a .cvNN variant of the character of which they are a variant; in
+    the PCSL table the .cvNN codes are indicated by subscript numbers
+    before the glyph variants listed in the FONT column</li>
+    <li>F2400-F2DA4 are unencoded characters and characters preserved
+    from Anshuman Pandey's original PC font</li>
+    <li>.ss04/.ss03 give some Uruk IV/III variant forms but this has
+    not been done systematically; all .ss04 and .ss03 are also present
+    as glyph variants</li>
+    <li>.ss20 is a styleset that supports constrained width displays
+    such as code charts; .ss20 only exists for reference glyphs that
+    are over 1200 units wide</li>
+    <li>.liga entries to support the sequences as described in the
+    Sequence Data appendix</li>
+  </ul>
+
+  <h1>pc25-cc.ttf</h1>
+
+  <p>This font is designed only for use with the code chart and
+  character list. The font contains no PC characters which are not in
+  the proposed repertoire and uses no font features.  The scaled forms
+  that are in .ss20 in PCSL.ttf are placed directly in their reference
+  glyph code points in pc25-cc.ttf.</p>
+
+  <p>The font is used in the proposal for code charts and character
+  list and is also attached to the proposal PDF.</p>
+  
+</esp:page>

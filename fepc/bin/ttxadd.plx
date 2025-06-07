@@ -54,6 +54,7 @@ foreach (@m) {
 my @glyphid = ();
 my @mtx = ();
 my @ttglyph = ();
+my @code = ();
 
 my $status = 0;
 my %add = ();
@@ -106,6 +107,9 @@ foreach (@t) {
 		    warn "$0: failed to find <mtx/> for $u\n";
 		    push @mtx, "<mtx name=\"$a\" width=\"0\" lsb=\"0\"/>\n";
 		}
+		my $c = "0x\L$a";
+		$c =~ s/xu/x/;
+		push @code, "<map code=\"$c\" name=\"$a\"/><!--xxx-->\n";
 		push @ttglyph, <<EOF;
 <TTGlyph name=\"$a\" >
   <component glyphName=\"u$m\" x="8" y="0" $sf flags="0x1000"/>
@@ -139,6 +143,8 @@ if ($debug) {
 	    print @mtx;
 	} elsif (m#</glyf#) {
 	    print @ttglyph;
+	} elsif (m#</cmap_format_12#) {
+	    print @code if $#code >= 0;
 	}
 	print;
     }

@@ -79,6 +79,14 @@
 	<xsl:apply-templates mode="hbox"/>
 	<xsl:text>\vfil}%&#xa;</xsl:text>
       </xsl:when>
+      <xsl:when test="contains(@class,'vtop')">
+	<xsl:text>\vbox{\vfil</xsl:text>
+	<xsl:call-template name="class">
+	  <xsl:with-param name="nono" select="'vtop'"/>
+	</xsl:call-template>
+	<xsl:apply-templates mode="hbox"/>
+	<xsl:text>}%&#xa;</xsl:text> <!-- pro tip: vtop is not a vtop but we can the bottom \vfil -->
+      </xsl:when>
       <xsl:when test="@class">
 	<xsl:text>\bgroup</xsl:text>
 	<xsl:call-template name="class"/>
@@ -823,7 +831,7 @@
     <xsl:value-of select="*[@class='uname']/@data-pc25h"/>
     <!--<xsl:apply-templates mode="nosqb" select="*[@class='rhex']"/>-->
     <xsl:text>}{</xsl:text>
-    <xsl:apply-templates select="*[@class='zatu']"/>
+    <xsl:apply-templates select="*[contains(@class,'zatu')]"/>
     <xsl:text>}{</xsl:text>
     <!--<xsl:value-of select="*[@class='dist']"/>-->
     <xsl:call-template name="sl-dist"/>

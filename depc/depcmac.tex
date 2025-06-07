@@ -25,7 +25,10 @@
 \oidfont\dimen255=1em \showthe\dimen255
 
 \font\pcssXX="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 18pt
+
 \font\pcssxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 14pt
+\font\pccc="[/Users/stinney/orc/lib/fonts/pc25-cc.ttf]" at 14pt
+
 \font\pcssxxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 12pt
 \font\pcxviii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+liga" at 18pt
 
@@ -101,7 +104,8 @@
 \def\ofs#1#2#3{}
 \let\ofspc\pcxxv
 
-\def\ccchr{\pcssxx}
+%\def\ccchr{\pcssxx}
+\def\ccchr{\pccc}
 \def\ccuni{\helvx}
 \let\ccempty\relax
 
@@ -112,8 +116,8 @@
         \vbox{\hsize3.2in\parindent0pt
               \hbox to 3.2in{%
               \hbox to .4in{\helvy#1\hfil}%
-%              \hbox to .4in{\pcssxxx#2\hss}%
-              \hbox to .4in{\pcssxx#2\hss}%
+%              \hbox to .4in{\pcssxx#2\hss}%
+              \hbox to .4in{\pccc#2\hss}%
               \hbox to 2.4in{\hsize2.4in\vtop{\par\helvy\leavevmode\rightskip0pt plus1fil\relax#3\endgraf}}%
                             \hfil}}\vfil}
 \def\cclnum#1{{\helv#1}}
@@ -759,6 +763,7 @@
   \endtocentry}
 
 \def\appendix#1\par{\endgraf\newpage
+  \resetsects
   \xdef\appval{\appnumstyle\appendixno}%
   \vglue\aboveappendix\nointerlineskip
   \ifusenumber

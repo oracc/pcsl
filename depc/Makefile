@@ -7,7 +7,7 @@ MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
 	../00web/pepc/principles.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
-	x/abstract.xml x/previous.xml x/background.xml \
+	x/abstract.xml x/previous.xml x/background.xml x/fonts.xml \
 	x/rationale.xml x/mepc-intro.xml x/depc.xml \
 	../mepc/texts/tpcsl/notcov.html \
 	../mepc/lists/00etc/seqdb.xml \

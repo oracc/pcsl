@@ -11,12 +11,14 @@ use Getopt::Long;
 
 my %warned = ();
 
+my $ignore_missing = 0;
 my $mapfile = undef;
 my $outfile = undef;
 my $ttxfile = undef;
 my $verbose = 0;
 
 GetOptions(
+    ignore_missing=>\$ignore_missing,
     'map:s'=>\$mapfile,
     'out:s'=>\$outfile,
     'ttx:s'=>\$ttxfile,
@@ -68,8 +70,8 @@ while (<T>) {
 	    warn "map u$old_u to u$new_u\n" if $verbose;
 	} else {
 	    unless ($old_u =~ /^E01/) {
-		warn "no tab entry for $old_u\n"
-		    unless $warned{$old_u}++;
+		warn "[1] no tab entry for $old_u\n"
+		    unless $ignore_missing || $warned{$old_u}++;
 	    }
 	}
 	if (/code="0x([0-9A-F]{5})"/i) {
@@ -80,8 +82,8 @@ while (<T>) {
 		warn "map 0x$old_u to 0x$new_u\n" if $verbose;
 	    } else {
 		unless ($old_u =~ /^E01/i) {
-		    warn "no tab entry for code=$old_u\n"
-			unless $warned{"\U$old_u"}++;
+		    warn "[1] no tab entry for code=$old_u\n"
+			unless $ignore_missing || $warned{"\U$old_u"}++;
 		}
 	    }
 	}
@@ -123,8 +125,8 @@ sub umap {
 	warn "map u$old_u to u$new_u\n" if $verbose;
     } else {
 	unless ($old_u =~ /^E01/) {
-	    warn "no tab entry for $old_u\n"
-		unless $warned{$old_u}++;
+	    warn "[3] no tab entry for $old_u\n"
+		unless $ignore_missing || $warned{$old_u}++;
 	}
     }
 }

@@ -10,7 +10,7 @@
   <html>
     <head/>
     <body>
-      
+
       <esp:h>Sequences data table</esp:h>
 
       <p>In column one the character name (CHARNAME) and glyph names
@@ -26,10 +26,11 @@
       <p>In column three the input on the upper row is the Unicode
       character sequence corresponding to the ligature sequence in the
       lower row: if this is working correctly the appearance of the
-      upper row should match the character in the column two.  Font
-      switching is used to access glyph variants.</p>
+      upper row of column three should match the precomposed character
+      the column two.  Font switching is used to access glyph
+      variants.</p>
 
-      <tex:text>\bigskip</tex:text>
+      <tex:text>\vfill</tex:text>
       
       <xi:include xml:base="." href="../db/seqdb.xml"/>
 
