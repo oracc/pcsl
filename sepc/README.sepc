@@ -4,13 +4,14 @@ Steve Tinney -- stinney@upenn.edu
 
 Release Version: @@DATE@@
 
-This directory contains draft support files and documentation for
-creating a Proto-Cuneiform proposal for Unicode.
+This directory contains a draft proposal for encoding Proto-Cuneiform
+in Unicode authored by Anshuman Pandey and Steve Tinney, as well as
+some support files.
 
 sepc.tar.xz -- a tarball containing all of the following files
 
-depc.pdf -- documentation relating to the proposal and its auxiliary
-	    data
+pc25-draft-proposal.pdf -- the draft proposal; UnicodeData.txt and
+	   the pc25-cc.ttf font are attached to this PDF
 
 repc.tsv -- the repertoire in tab-separated format
 

@@ -9,7 +9,7 @@ sepcd=${ORACC}/www/pcsl/downloads/sepc
 mkdir -p $sepcd
 (cd $sepcd ; rm -fr $d; mkdir $d)
 cp -av m/* $sepcd/$d/ ; rm -f $sepcd/$d/distro-date
-b/index-downloads.plx -d $sepc/$d >$sepcd/$d/index.html
+b/index-downloads.plx -d $sepcd/$d >$sepcd/$d/index.html
 chmod -R o+r $sepcd
 (cd $sepcd/$d ; tar Jcvvf sepc.tar.xz *)
 (cd $sepcd ; rm -f current ; ln -sf $d current)

@@ -15,16 +15,17 @@ cp -v ../fepc/pc25.map m
 
 # pcsl-final.xml has new OIDs and a lot of extra annotation so it's
 # better to distribute that than make a .tsv
-cp -v ../mepc/lists/00etc/pcsl-final.xml m/
+cp -v ../mepc/lists/00etc/pcsl-final.xml m
 
-# repc.tsv needs OIDs mapped
-b/sepc-repc.plx
+# repc.tsv is now fine verbatime
+cp -v ../repc/repc.tsv m
 
-# sep-final.tsv needs OIDs, hex, and character mapping
+# seq-final.tsv needs OIDs, hex, and character mapping
 b/sepc-seqdb.plx
 
 # Font file
 cp -v ../fepc/PCSL.ttf m/
 
-# Documentation PDF
-cp -v ../depc/pc25.pdf m/depc.pdf
+# Proposal PDF
+d=`isogmt | tr -d -`
+cp -v ../depc/depc+udata.pdf m/pc25-draft-proposal-$d.pdf

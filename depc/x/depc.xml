@@ -7,7 +7,7 @@
   <tex:text>
     \centerline{\fourteen\bf Proposal to Encode Proto-Cuneiform}
     \medskip
-    \centerline{\twelve\it Anshuman Pandey and Steve Tinney, 2025-06-06}
+    \centerline{\twelve\it Anshuman Pandey and Steve Tinney, 2025-06-07}
     \bigskip
   </tex:text>
 
@@ -19,7 +19,7 @@
 
   <xi:include href="../x/previous.xml"/>
  
-  <xi:include href="../x/background.xml"/>
+  <xi:include href="../x/archaic.xml"/>
   
   <xi:include href="../x/rationale.xml"/>
  

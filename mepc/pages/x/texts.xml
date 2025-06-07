@@ -99,7 +99,7 @@
       <esp:ssh>PCSL Corpus</esp:ssh>
 
       <p>PCSL's version of CDLI-tc has the following composition
-      divided by provenience, period, and published/unpublished
+      divided by provenience, period, and published versus unpublished
       status:</p>
 
       <xi:include xml:base="." href="../../texts/tpcsl/corpus.html"/>
