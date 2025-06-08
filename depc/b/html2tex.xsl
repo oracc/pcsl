@@ -4,7 +4,8 @@
 	       xmlns:struct="http://oracc.org/ns/esp-struct/1.0"
 	       xmlns:tex="http://oracc.org/ns/tex/1.0"
 	       >
-  
+
+  <xsl:param name="latex" select="'no'"/>
   <xsl:param name="class-arg" select="',sqopq,sqseq,sqinv,sqchr,not,'"/>
   <xsl:param name="h-sections" select="'yes'"/>
   
@@ -58,6 +59,20 @@
 
   <xsl:template match="h:div">
     <xsl:choose>
+      <xsl:when test="@class='display'">
+	<xsl:choose>
+	  <xsl:when test="$latex='yes'">
+	    <xsl:text>\beginDisplay&#xa;</xsl:text>
+	    <xsl:apply-templates/>
+	    <xsl:text>\endDisplay&#xa;</xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:text>\begin{display}&#xa;</xsl:text>
+	    <xsl:apply-templates/>
+	    <xsl:text>\end{display}&#xa;</xsl:text>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
       <xsl:when test="contains(@class,'names')">
 	<xsl:call-template name="sl-names"/>
       </xsl:when>
@@ -146,10 +161,27 @@
   </xsl:template>
 
   <xsl:template match="h:dl">
-    <xsl:text>\Hd</xsl:text>
-    <xsl:text>l</xsl:text>
-    <xsl:apply-templates/>
-    <xsl:text>\Henddl&#xa;</xsl:text>
+    <xsl:choose>
+      <xsl:when test="$latex='yes'">
+	<xsl:text>\begin{description}&#xa;</xsl:text>
+	<xsl:for-each select="h:dt">
+	  <xsl:text>\item[</xsl:text>
+	  <xsl:call-template name="textmap">
+	    <xsl:with-param name="t" select="."/>
+	  </xsl:call-template>
+	  <xsl:text>] </xsl:text>
+	  <xsl:apply-templates select="following-sibling::h:dd[1]"/>
+	  <xsl:text>&#xa;&#xa;</xsl:text>
+	</xsl:for-each>
+	<xsl:text>\end{description}&#xa;</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>\Hd</xsl:text>
+	<xsl:text>l</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\Henddl&#xa;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="h:dd">
@@ -182,17 +214,33 @@
   </xsl:template>
 
   <xsl:template match="h:li">
-    <xsl:text>\Hli</xsl:text>
+    <xsl:choose>
+      <xsl:when test="$latex='yes'">
+	<xsl:text>\item </xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>\Hli </xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:call-template name="class"/>
     <xsl:apply-templates/>
     <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="h:ol">
-    <xsl:text>\Ho</xsl:text>
-    <xsl:text>l</xsl:text>
-    <xsl:apply-templates/>
-    <xsl:text>\Hendol&#xa;</xsl:text>
+    <xsl:choose>
+      <xsl:when test="$latex='yes'">
+	<xsl:text>\begin{enumerate}&#xa;</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\end{enumerate}&#xa;</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>\Ho</xsl:text>
+	<xsl:text>l</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\Hendol&#xa;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="h:h1[@class='no-tex']"/>
@@ -242,7 +290,14 @@
   <xsl:template match="h:h4|esp:sssh">
     <xsl:choose>
       <xsl:when test="$h-sections='yes'">
-	<xsl:text>\subsubsubsection </xsl:text>
+	<xsl:choose>
+	  <xsl:when test="$latex='yes'">
+	    <xsl:text>\paragraph </xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:text>\subsubsubsection </xsl:text>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:text>\Hhhhh</xsl:text>
@@ -461,9 +516,18 @@
   </xsl:template>
 
   <xsl:template match="h:ul">
-    <xsl:text>\Hul</xsl:text>
-    <xsl:apply-templates/>
-    <xsl:text>\Hendul&#xa;</xsl:text>
+    <xsl:choose>
+      <xsl:when test="$latex='yes'">
+	<xsl:text>\begin{itemize}&#xa;</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\end{itemize}&#xa;</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>\Hul</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\Hendul&#xa;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <!-- tables using \halign -->
@@ -929,11 +993,25 @@
   </xsl:template>
 
   <xsl:template match="tex:driver">
-    <xsl:text>\macrofile{html2tex}&#xa;</xsl:text>    
-    <xsl:text>\macrofile{depcmac}&#xa;</xsl:text>
-    <xsl:text>\ten\rm&#xa;&#xa;</xsl:text>
-    <xsl:apply-templates/>
-    <xsl:text>\bye&#xa;</xsl:text>
+    <xsl:choose>
+      <xsl:when test="$latex='yes'">
+	<xsl:text>\documentclass{book}</xsl:text>
+	<xsl:text>\usepackage{luaotfload}</xsl:text>
+	<xsl:text>\begin{document}&#xa;</xsl:text>
+	<!--<xsl:text>\input{html2tex}</xsl:text>-->
+	<!--<xsl:text>\input{depcmac}</xsl:text>-->
+	<xsl:text>\input{ldepcmac}</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\end{document}</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:text>\macrofile{html2tex}&#xa;</xsl:text>    
+	<xsl:text>\macrofile{depcmac}&#xa;</xsl:text>
+	<xsl:text>\ten\rm&#xa;&#xa;</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>\bye&#xa;</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="tex:text">

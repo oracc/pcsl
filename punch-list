@@ -1,5 +1,7 @@
 ŠEN~d glyphs need to go somewhere
 
-wrong MUŠEN×PAP glyph might be a good MUŠEN.UR₃--check and keep as glyfvar if so
+in sequence data appendix prescript numbers are off by +1; need to do
+same as in PCSL and use *.cv00 as unmarked, etc
 
-remove propgh "MUŠEN×PAP"
+
+

@@ -181,16 +181,15 @@
 
 \def\ucode#1{\Sans\eight\rm}
 
-\def\tablerule{\noalign{\allowbreak\hrule}}
-
 \def\cctnum#1{\vbox to1.5em{\hbox to\ccwd{\hfil\helv#1\hfil}\vfil}}
 \def\cclnum#1{\llap{\vbox to\ccht{\vfil\hbox{\helv#1\kern5pt}\vfil}}}
 
 \let\trhook\relax
 \def\tvrule{\vrule}
 \def\tvrulex{\vrule width1pt\relax}
-
+\def\tablerule{\noalign{\allowbreak\hrule}}
 \def\thead{\Sans\nine\rm}
+\def\theadrule{\noalign{\hrule height1pt}}
 
 \def\codechart{\def\thead{\Sans\nine\rm}%
 %  \def\trhook{\gdef\tvrule{\vrule width1pt\relax\gdef\tvrule{\vrule\relax}}}%
