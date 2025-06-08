@@ -1,0 +1,228 @@
+\newcount\pageno
+
+\newbox\pcslbox \newbox\pcslheaderbox \newbox\pcslheadertmp
+\newdimen\pcslrowht
+\newdimen\pcslquad \pcslquad.45em
+\newdimen\pcslquadb \pcslquadb0pt
+\newdimen\cdliwd \cdliwd=2.75pc
+\newdimen\slcwd \slcwd=3.65pc
+
+\def\nquadb{\hskip1pt\relax}
+\def\pquad{\hskip\pcslquad\relax}
+\def\pquadb{\hskip\pcslquadb\relax}
+\def\slcufont{\let\ucode\relax\helvz}
+\def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
+
+\newbox\nocobox \newbox\nocoheaderbox \newbox\nocoheadertmp
+\newdimen\nocorowht
+
+\def\nchbox#1{\hbox to.75in{\nine\rm#1\hss}}
+\def\nchboxmus#1{\hbox to1in{\nine\rm#1\hss}}
+\def\nchboxper#1{\hbox to.6in{\nine\rm#1\hss}}
+\def\nchboxm#1{\hbox to2.4in{\nine\rm#1\hfil}}
+
+\def\beginpcsltab{%\newpage
+  \bgroup\offinterlineskip \lineskip1pt
+%  \ltfirstpage\the\pageno
+  \setbox\pcslheaderbox=\vbox{\vfuzz12pt%
+  \pcslrowx{\hbox{PCSL}}%
+          {\slhbox{FONT}}%
+          {\hbox to\cdliwd{\hss CDLI\hss}}%
+          {\slhbox{ATU3}}%
+          {\slhbox{ATU5}}%
+          {\slhbox{MSVO1}}%
+          {\slhbox{MSVO4}}%
+          {\slhbox{CUSAS}}%
+          2}%
+   %\righthdrinfo{}%
+   %\headersep20pt
+   \copy\pcslheaderbox
+}
+
+\def\pcslheader{%
+    \ifnum\pageno>\ltfirstpage
+      \lefthdrinfo{}%
+      \righthdrinfo{}%
+      \headersep20pt
+      \setbox\pcslheadertmp=\vbox{%
+        \kern-12pt
+        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
+        \kern2pt
+        \unvcopy\pcslheaderbox
+      }%
+      \centrehdrinfo{\box\pcslheadertmp}%
+    \fi}
+
+\def\endpcsltab{\pcslheader\vfil\supereject\egroup}
+
+\def\pcslrowx#1#2#3#4#5#6#7#8#9{%
+   \hrule height1.5pt
+   \hbox to\hsize{%
+         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \kern.425em
+         \kern.75pt
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#2\vfil}%
+         \kern.425em
+         \kern1pt
+         \kern.425em
+%         \vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \vbox to\pcslrowht{#3\vfil}%
+         \kern.2em
+         \kern.5pt
+         \kern.2em
+         \pquadb\vbox to\pcslrowht{\vfil#4\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
+         \hfil
+         }%
+   \kern12pt
+   \hrule height1.5pt
+}
+
+\catcode`\~=12
+\catcode`\|=12
+\catcode`\_=12
+
+\newbox\cdlibox
+\newdimen\cdlifuzz \cdlifuzz4pt
+\def\checkcdliheight#1#2{
+   \setbox\cdlibox=\vbox{#2}%
+   \ifdim\ht\cdlibox>#1%
+     \dimen255=\ht\cdlibox \advance\dimen255-#1
+     \ifdim\dimen255>\cdlifuzz
+       \message{\the\oidtoks: #2 CDLI ht \the\ht\cdlibox > \the#1 (dim255=\the\dimen255; cdlifuzz=\the\cdlifuzz^^J}%
+     \fi
+   \fi
+}
+
+\def\pcslrow#1#2#3#4#5#6#7#8#9{%
+   \pcslheader
+   \let\slnames\slnamesaunaturel
+   \setbox\pcslbox\vbox{\hsize2in#1}%
+   \pcslrowht=\ht\pcslbox % \advance\pcslrowht\dp\pcslbox
+   \setbox\pcslbox\vbox{#2}%
+   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi % \advance\pcslrowht\dp\pcslbox \fi
+   \advance\pcslrowht2pt % compensate for lineskips
+   \checkcdliheight\pcslrowht{#3}%
+   \let\slnames\slnamesrowht
+   \hbox to \hsize{%
+         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \kern.425em
+         \vrule height\pcslrowht
+         \kern.425em
+         \vbox to\pcslrowht{\vfil#2\vfil}%
+         \kern.425em
+         \vrule height\pcslrowht width1pt
+         \kern.425em
+         \vbox to\pcslrowht{\offinterlineskip\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \kern.2em
+         \vrule height\pcslrowht width.5pt
+         \kern.2em
+         \vbox to\pcslrowht{\vfil#4\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
+         \vrule height\pcslrowht width.5pt
+         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
+         \hfil}%
+   \kern3pt
+   \hrule height#9pt
+   \vskip3pt plus2pt minus2pt
+   \akatoks{}\cdifftoks{}%
+}
+
+%\def\slnm{\slnmfont}
+\def\sldist{\sldistfont}
+
+\def\slnamesaunaturel#1#2#3#4#5#6#7#8{%
+  \message{Processing #2^^J}
+  \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
+}
+
+\def\slnamesrowht#1#2#3#4#5#6#7#8{%
+  \vbox to\pcslrowht{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
+}
+
+\newbox\slrgbox \newbox\slnmbox \newtoks\oidtoks \newbox\cpbox
+\newtoks\sldistt \newtoks\sldistiv \newtoks\sldistiii
+\newtoks\akatoks \newtoks\cdifftoks
+\newbox\sldistbox \newbox\sldisttbox \newbox\sldistivbox \newbox\sldistiiibox
+\newbox\akabox \newbox\cdiffbox \newdimen\rgtopkern
+
+\def\slnamesx#1#2#3#4#5#6#7#8{%
+   \global\oidtoks{#2}%
+   \setbox\slnmbox=\hbox{#1}%
+   \setbox\slrgbox=\hbox{\pcxviii#4}%
+   \ifdim\wd\slnmbox>1.75in % this is the threshold for intrusion on the tag
+     \let\slnm\slnmfontx
+   \else
+     \let\slnm\slnmfont
+   \fi
+   \ifdim\wd\slnmbox>1.25in
+     \ifdim\wd\slrgbox>0pt
+       \rgtopkern=10pt
+     \else
+       \rgtopkern=0pt
+     \fi
+   \fi
+   \setbox\akabox=\hbox{\the\akatoks}%
+   \ifdim\wd\akabox>0pt
+      \setbox\akabox=\hbox{\vbox{\kern2pt\hsize2in \sltgfont
+                                 \parindent0pt \rightskip0pt plus1fil \hangindent27pt
+                                 \leavevmode\akafont\hbox to2.15em{\helvx AKA:\hfil}%
+                                 \sltgfont \the\akatoks\endgraf}}%
+   \fi
+   \setbox\cdiffbox=\hbox{\the\cdifftoks}%
+   \ifdim\wd\cdiffbox>0pt
+      \setbox\cdiffbox=\hbox{\vbox{\hsize2in \sltgfont
+                                 \parindent0pt \rightskip0pt plus1fil \hangindent1em
+                                 \leavevmode\akafont\hbox to2.15em{\helvx CDLI:\hfil}%
+                                 \sltgfont \the\cdifftoks\endgraf}}%
+   \fi
+   \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
+   \kern.5pt
+   \setbox\cpbox\hbox{#5}%
+   \hbox{\hbox to1in{\helvy#5\hfil}}% PC25 code point
+   \vbox{
+     \ifdim\rgtopkern>0pt\else\kern-10pt\fi
+   \hbox{\kern1in
+%         \smash{%
+         \hbox to.5in{%
+            \hss\kern.05in%
+            \vbox{\hbox{\pcxviii#4}\kern2pt}% PC25 reference glyph
+            \hss}%
+ %      }%
+   }%
+   }%
+   \vfil
+   \ifdim\wd\cpbox=0pt\kern5pt\fi
+   \ifdim\wd\akabox>0pt \box\akabox \kern1pt\fi
+   \ifdim\wd\cdiffbox>0pt \box\cdiffbox \kern1pt\fi
+   \hbox{%
+%     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode{#7}\par}%
+     #7%
+     \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil\zatufont#6}}}}%
+}
+
+\def\sldist{%
+   \setbox\sldisttbox\hbox{\the\sldistt}%
+   \setbox\sldistivbox\hbox{\the\sldistiv}%
+   \setbox\sldistiiibox\hbox{\the\sldistiii}%
+   \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern1pt}%
+   \vbox{\oidfont\hsize1in\parindent0pt\hangindent2.15em\rightskip0pt plus1fil
+         \leavevmode
+         \hbox to2.15em{\the\sldistt\hss}%
+         \ifdim\wd\sldisttbox>2.1em\hskip1pt\penalty-10000\fi
+         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern1pt\hfil}\the\sldistiv\hfil}%
+           \ifdim\wd\sldistiiibox>0pt;\hskip2pt\penalty0\fi
+         \fi
+         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern1pt\hfil}\the\sldistiii\hfil}\fi
+         \endgraf
+   }%
+}

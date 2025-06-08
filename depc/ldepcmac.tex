@@ -1,9 +1,59 @@
+\let\seq\relax
+\let\lname\relax
+\let\sname\relax
+\let\uname\relax
+\let\chars\relax
+\let\names\relax
+\let\glyph\relax
+\let\rglyf\relax
+\let\image\relax
+\let\notes\relax
+\let\stags\relax
+
+\let\sqdbcun\relax
+\let\sqdbpua\relax
+\let\sqseq\relax
+\let\sqinv\relax
+\let\sqchr\relax
+
+\let\imagefloat\relax
+\let\imagecaption\relax
+
+\let\remfor\relax
+\let\Hhhhh\relax
+
+\let\glyf\relax
+\let\fchr\relax
+\let\fhex\relax
+\let\dist\relax
+\let\rhex\relax
+
+\let\sl\relax
+\let\slc\relax
+\let\slcc\relax
+\let\cdligh\relax
+\let\zatu\relax
+\def\diffc{\let\ofspc\relax\pcfee}
+\def\diffd{\message{hvfee}\hvfee}
+
 \font\slnmfont="Ungkam Basic Bold" at8pt
 \font\sltgfont="Ungkam Basic" at8pt
 
 %% \font\slnmfontw="Ungkam Basic Bold:color=00FF00" at6.5pt
 %% \font\slnmfontx="Ungkam Basic Bold:color=FF0000" at7.5pt
 %% \font\slnmfonty="Ungkam Basic Bold:color=0000FF" at8.5pt
+
+\font\pcxxv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]" at 18pt
+
+\font\pccvi="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+cv01" at 18pt
+
+\font\pcssiii="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss03" at 18pt
+
+\font\pcssiv="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss04" at 18pt
+
+\font\pcssxx="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20" at 18pt
+
+\font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 9pt
 
 \font\blungkam="Ungkam Basic:color=0000FF" at8pt
 
@@ -58,7 +108,23 @@
 \font\helvy="Arial Narrow" at 8pt
 \font\helvz="Arial Narrow" at 7pt
 
+\def\ofs#1#2#3{}
+\let\ofspc\pcxxv
+\let\redpc\pcfee
+\let\newgh\pcblu
+
+\long\def\Ha#1#2{#2}
+
+\let\pageno\page
+
+\newcount\ltfirstpage
+
 \input codechart
+\input chartlist
+\input pcslmac
+\input nocomac
+\input seqdbmac
+\input zccmac
 
 \def\Hstrut{\vrule height12pt depth5pt width0pt}
 \def\tvrule{\vrule}
@@ -72,11 +138,46 @@
 \let\twelve\large
 \let\ten\normal
 \let\nine\small
+\let\seven\small
 \let\six\footnotesize
 
 \let\Sans\sf
 
 \def\Hsub#1{#1}
+
+\def\cvi{\pcseqi}
+\def\cvii{\pcseqii}
+\def\cviii{\pcseqiii}
+\def\cviv{\pcseqiv}
+\def\cvv{\pcseqv}
+\def\cvvi{\pccvvi}
+\def\cvxcix{\pccvxcix}
+\def\cvxcviii{\pccvxcviii}
+
+\def\cv#1#2{%
+  \ifnum#2=1\cvi
+  \else
+    \ifnum#2=2\cvii
+    \else
+      \ifnum#2=3\cviii
+      \else
+        \ifnum#2=4\cviv
+        \else
+          \ifnum#2=5\cvv
+          \else
+            \ifnum#2=6\cvvi
+            \else
+              \ifnum#2=8\cvxcviii
+              \else
+                \ifnum#2=9\cvxcix\fi
+              \fi
+            \fi
+          \fi
+        \fi
+      \fi
+    \fi
+  \fi
+}
 
 %\def\bigskip{\vskip10pt plus2pt minus3pt\relax}
 
@@ -85,9 +186,24 @@
 
 \let\usetoc\relax
 
+\let\supereject\relax
+
+\let\preamble\relax
+\let\sectionsintocfalse\relax
+\let\subsectionsintocfalse\relax
+\let\useapp\relax
+
 \def\graphicsfigure#1#2#3#4{}
 
+\def\includegraphics#1#2{}
+
+\let\ccempty\relax
+
 \def\code#1{{\small\sf#1}}
+
+\def\slnocdli{\vbox{\hbox to\cdliwd{\hfil}\vfil}}
+\def\slnodist{\vbox{\hbox to1in{\hfil}\vfil}}
+\def\slnoglyf{\vbox{\hbox to\slcwd{\hfil}\vfil}}
 
 \catcode"FE5F\active \let﹟\#
 \catcode"FE60\active \let﹠\&

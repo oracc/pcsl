@@ -1,0 +1,16 @@
+\def\beginchartlist{\begin{multicols}{2}\offinterlineskip}
+\def\endchartlist{\end{multicols}\vfil\supereject}
+
+\def\cclrow#1#2#3{%
+        \vbox{\hsize3.2in\parindent0pt
+              \hbox to 3.2in{%
+              \hbox to .4in{\helvy#1\hfil}%
+%              \hbox to .4in{\pcssxx#2\hss}%
+              \hbox to .4in{\pccc#2\hss}%
+              \hbox to 2.4in{\hsize2.4in\vtop{\par\helvy\leavevmode\rightskip0pt plus1fil\relax#3\endgraf}}%
+                            \hfil}}\vfil}
+\def\cclnum#1{{\helv#1}}
+\def\cclchr{\redpc}%\pcssxx}
+\def\ccluni{\Sans\eight\rm}
+
+\endinput

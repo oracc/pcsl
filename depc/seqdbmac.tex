@@ -1,0 +1,104 @@
+\newbox\seqdbbox \newbox\seqdbheaderbox \newbox\seqdbheadertmp
+\newdimen\seqdbrowht
+
+\def\sqhboxnH#1{\hbox to2.3in{\eight\rm#1\hfil}}
+\def\sqhboxpH#1{\hbox to1.2in{\eight\rm#1\hfil}}
+\def\sqhboxLH#1{\hbox to3in{\eight\rm#1\hfil}}
+\def\sqhboxn#1{\hbox to2.3in{\seven\rm#1\hfil}}
+\def\sqhboxd#1{\hbox to2in{\quad#1\hfil}}
+\def\sqhboxp#1{\hbox to1.2in{\nine\rm#1\hfil}}
+\def\sqhboxL#1{\hbox to3in{\nine\rm#1\hfil}}
+\def\sqhboxl#1{\hbox to3in{\seven\rm#1\hfil}}
+
+\def\beginseqdb{%\newpage
+  \bgroup\offinterlineskip \lineskip1pt
+  \ltfirstpage\the\pageno
+  \setbox\seqdbheaderbox=\vbox{\vfuzz12pt%
+     \seqdbrowx{CHARNAME/GLYFNAME/DECOMP}%
+               {PUA}%
+               {LIG/.liga}%
+   }%
+   %\righthdrinfo{}%
+   %\headersep20pt
+   \copy\seqdbheaderbox
+}
+
+\def\seqdbheader{%
+    \ifnum\pageno>\ltfirstpage
+      \lefthdrinfo{}%
+      \righthdrinfo{}%
+      \headersep22pt
+      \setbox\seqdbheadertmp=\vbox{%
+        \kern-10pt
+        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
+        \kern2pt
+        \unvcopy\seqdbheaderbox
+        \vbox to2pt{\vfil}%
+      }%
+      \centrehdrinfo{\box\seqdbheadertmp}%
+    \fi}
+
+\def\endseqdb{\seqdbheader\vfil\supereject\egroup}
+
+\def\seqdbrowx#1#2#3{%
+   \hrule height1.5pt
+   \kern2pt
+   \hbox to\hsize{%
+            \vbox to\seqdbrowht{\vfil\sqhboxnH{\rm#1}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxpH{\rm#2}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxLH{\rm#3}\vfil}%
+     \hfil
+   }%
+   \kern12pt
+   \hrule height1.5pt
+}
+
+\def\seqdbrow#1#2#3#4#5#6#7{%
+   \seqdbheader
+%   \setbox\seqdbbox\vbox{\hsize2in#3}%
+%   \seqdbrowht=\ht\seqdbbox
+   \seqdbrowht=.55in
+%   \advance\seqdbrowht2pt % compensate for lineskips
+   \hbox to\hsize{%
+            \vbox to\seqdbrowht{%
+              \sqhboxn{#1}%
+              \vfil
+              \sqhboxn{\quad#2}%
+              \vfil
+              \sqhboxd{#3}%
+              \vfil}%
+%            \vbox to\seqdbrowht{\vfil\sqhboxn{#1}\vfil}%
+%     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxd{#2}\vfil}%
+     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxp{#5}\vfil}%
+            \vbox to\seqdbrowht{%
+              \vfil
+              \sqhboxL{#6}%
+              \vfil
+              \sqhboxl{#7}%
+              \vfil}%
+     \hfil
+   }%
+   \kern2pt
+}
+
+\def\seqdbinnerrule{%
+  \kern2pt
+  \hrule height.1pt % depth0pt width.9\hsize
+  \vskip3pt plus1pt minus1pt
+}
+
+\def\seqdbtbodyrule{%
+  \kern2pt
+  \hrule height1pt % depth0pt width.9\hsize
+  \vskip3pt plus1pt minus1pt
+}
+
+\def\seqdbn{}
+\def\seqdbc{\pcseq}
+\def\seqdbd{\pcseq}
+\def\seqdbs{\pcseq}
+\def\seqdbh{\helvz}
+\def\seqdblc{\pcseq}
+\def\seqdbl{}
+
+\endinput
