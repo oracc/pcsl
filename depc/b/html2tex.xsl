@@ -1035,6 +1035,8 @@
 	  \hoffset=1in
 	  \voffset=1in
 	</xsl:text>
+	<xsl:text>\usepackage{fontspec}</xsl:text>
+	<xsl:text>\usepackage{realscripts}</xsl:text>
 	<xsl:text>\usepackage{luaotfload}</xsl:text>
 	<xsl:text>\usepackage{multicol}</xsl:text>
 	<xsl:text>\begin{document}&#xa;</xsl:text>
