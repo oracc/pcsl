@@ -344,9 +344,18 @@
 
   <xsl:template match="h:span[@class='chars-tag']">
     <xsl:if test="count(ancestor::h:div[2]/h:div[@class='fchr'])>1">
-      <xsl:text>\llap{\oidfont </xsl:text>
-      <xsl:value-of select="."/>
-      <xsl:text>\kern1pt}</xsl:text>
+      <xsl:choose>
+	<xsl:when test="$latex='yes'">
+	  <xsl:text>\makebox[0pt][r]{\oidfont </xsl:text>
+	  <xsl:value-of select="."/>
+	  <xsl:text>\kern1pt}</xsl:text>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:text>\llap{\oidfont </xsl:text>
+	  <xsl:value-of select="."/>
+	  <xsl:text>\kern1pt}</xsl:text>
+	</xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
   </xsl:template>
 
