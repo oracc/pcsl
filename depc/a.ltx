@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{luaotfload}
+\usepackage{fontspec}
+\usepackage{realscripts}
+
+\newfontfamily\pcfont{PCSL.ttf}
+
+\font\pc={file:PCSL.ttf:mode=harf;script=xsux;}
+\font\pci={file:PCSL.ttf:mode=harf;script=xsux;+cv01;}
+
+\begin{document}
+
+\rm A \pcfont 𒚐 \rm F207A \pcfont 󲁺 \char"F207A
+
+\rm cv01 \pci 𒚐
+
+\rm A \pc 𒚐 \rm F207A \pc 󲁺 \char"F207A
+
+\end{document}
