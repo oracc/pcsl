@@ -248,43 +248,49 @@
   <xsl:template match="h:h1|esp:h">
     <xsl:choose>
       <xsl:when test="$h-sections='yes'">
-	<xsl:text>\section </xsl:text>
+	<xsl:text>\section{</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>}</xsl:text>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:text>\Hh</xsl:text>
 	<xsl:call-template name="class"/>
+	<xsl:apply-templates/>
+	<xsl:text>&#xa;&#xa;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:apply-templates/>
-    <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="h:h2|esp:sh">
     <xsl:choose>
       <xsl:when test="$h-sections='yes'">
-	<xsl:text>\subsection </xsl:text>
+	<xsl:text>\subsection{</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>}</xsl:text>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:text>\Hhh</xsl:text>
 	<xsl:call-template name="class"/>
+	<xsl:apply-templates/>
+	<xsl:text>&#xa;&#xa;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:apply-templates/>
-    <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="h:h3|esp:ssh">
     <xsl:choose>
       <xsl:when test="$h-sections='yes'">
-	<xsl:text>\subsubsection </xsl:text>
+	<xsl:text>\subsubsection{</xsl:text>
+	<xsl:apply-templates/>
+	<xsl:text>}</xsl:text>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:text>\Hhhh</xsl:text>
 	<xsl:call-template name="class"/>
+	<xsl:apply-templates/>
+	<xsl:text>&#xa;&#xa;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:apply-templates/>
-    <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
   
   <xsl:template match="h:h4|esp:sssh">
@@ -292,7 +298,9 @@
       <xsl:when test="$h-sections='yes'">
 	<xsl:choose>
 	  <xsl:when test="$latex='yes'">
-	    <xsl:text>\paragraph </xsl:text>
+	    <xsl:text>\paragraph{</xsl:text>
+	    <xsl:apply-templates/>
+	    <xsl:text>}</xsl:text>
 	  </xsl:when>
 	  <xsl:otherwise>
 	    <xsl:text>\subsubsubsection </xsl:text>
@@ -302,10 +310,10 @@
       <xsl:otherwise>
 	<xsl:text>\Hhhhh</xsl:text>
 	<xsl:call-template name="class"/>
+	<xsl:apply-templates/>
+	<xsl:text>&#xa;&#xa;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
-    <xsl:apply-templates/>
-    <xsl:text>&#xa;&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="h:h5">
@@ -995,7 +1003,19 @@
   <xsl:template match="tex:driver">
     <xsl:choose>
       <xsl:when test="$latex='yes'">
-	<xsl:text>\documentclass{book}</xsl:text>
+	<xsl:text>
+	  \documentclass{book}
+	  \usepackage[
+	  letterpaper,
+	  total={6.5in,9in},
+          centering,
+	  showframe=true
+	  ]{geometry}
+	  \pagewidth=\paperwidth
+	  \pageheight=\paperheight
+	  \hoffset=1in
+	  \voffset=1in
+	</xsl:text>
 	<xsl:text>\usepackage{luaotfload}</xsl:text>
 	<xsl:text>\usepackage{multicol}</xsl:text>
 	<xsl:text>\begin{document}&#xa;</xsl:text>
