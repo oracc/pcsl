@@ -4,7 +4,7 @@
 
   <p>The proposal is supported by two fonts:</p>
 
-  <h1>PCSL.ttf</h1>
+  <h2>PCSL.ttf</h2>
 
   <p>This is the font used for the PCSL table and other appendices in
   the proposal.  The font is remapped and augmented from
@@ -36,7 +36,7 @@
     Sequence Data appendix</li>
   </ul>
 
-  <h1>pc25-cc.ttf</h1>
+  <h2>pc25-cc.ttf</h2>
 
   <p>This font is designed only for use with the code chart and
   character list. The font contains no PC characters which are not in

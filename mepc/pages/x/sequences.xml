@@ -9,7 +9,7 @@
       <p>This section provides some background on how PCSL handles
       sequences.</p>
 
-      <esp:h>Sequences have constant character names</esp:h>
+      <esp:sh>Sequences have constant character names</esp:sh>
 
       <p>In PCSL, the tag <code>@sign</code> is used for sign names
       and is dissociated from glyph names.  All of the variants of a
@@ -24,7 +24,7 @@
       sequence as |GAL~a.LU₂|, so that is used as the name of the
       character.</p>
 
-      <esp:h>Glyphs have unique names</esp:h>
+      <esp:sh>Glyphs have unique names</esp:sh>
 
       <p>PCSL uses a new tag, <code>@glyf</code> to clarify the
       separation of character names versus glyph names.  Glyph names
@@ -38,7 +38,7 @@
       <p>Glyph names only have to be unique among @glyf entries; a
       @sign and @glyf may have the same name.</p>
 
-      <esp:h>How unique glyph names are constructed</esp:h>
+      <esp:sh>How unique glyph names are constructed</esp:sh>
 
       <p>Unique glyph names are constructed by varying the order and
       joiners of the grapheme notation in a way that reflects the
@@ -66,7 +66,7 @@
       are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a distinct component)
       |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
 
-      <esp:h>How glyph names are turned into ligatures</esp:h>
+      <esp:sh>How glyph names are turned into ligatures</esp:sh>
 
       <p>Glyph names are turned into ligatures by taking the base
       component signs and joining them with the ZWJ, U+200D. Multiple
