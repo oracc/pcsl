@@ -1,5 +1,11 @@
 \input luafont
 
+\font\hveee="Helvetica:color=E5E5E5" at9pt
+\font\hveff="Helvetica:color=E6FAFC" at12pt
+\font\hvefd="Helvetica:color=E0FCDE" at12pt
+\font\hvfee="Helvetica:color=FF0000" at9pt
+\font\hvffe="Helvetica:color=FFFFE6" at12pt
+
 \let\seq\relax
 \let\lname\relax
 \let\sname\relax
@@ -11,7 +17,9 @@
 \let\image\relax
 \let\notes\relax
 \let\stags\relax
-
+\let\fseq\relax
+\let\fseqc\relax
+\let\fseqh\relax
 \let\sqdbcun\relax
 \let\sqdbpua\relax
 \let\sqseq\relax
@@ -20,6 +28,8 @@
 
 \let\imagefloat\relax
 \let\imagecaption\relax
+
+\def\ucode#1{\sf\eight\rm}
 
 \let\remfor\relax
 \let\Hhhhh\relax
@@ -42,6 +52,9 @@
 \font\sltgfont="Ungkam Basic" at8pt
 
 \font\mono="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSansMono.ttf]" at 9pt
+\font\sans="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 9pt
+\font\sansb="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 8pt
+\font\sansc="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 7pt
 
 \font\blungkam="Ungkam Basic:color=0000FF" at8pt
 
@@ -86,19 +99,22 @@
 \def\tvrulex{\vrule width1pt\relax}
 \def\tablerule{\noalign{\allowbreak\hrule}}
 \def\thead{\Sans\nine\rm}
-\def\theadrule{\noalign{\hrule height1pt}}
+\def\theadrule{\noalign{\hrule height1pt\relax}}
 \def\tbodybreak{\noalign{\allowbreak}}
 
 \let\fourteen\Large
 \let\twelve\large
 \let\ten\normal
 \let\nine\small
+\let\eight\small
 \let\seven\small
 \let\six\footnotesize
 
 \let\Sans\sf
 
 \def\Hsub#1{#1}
+
+\def\cdlighnopng{\vbox{\vfil\hbox{(-)\hfil}\vfil}}
 
 \def\cvi{\pcseqi}
 \def\cvii{\pcseqii}
@@ -150,11 +166,13 @@
 
 \def\graphicsfigure#1#2#3#4{}
 
-\def\includegraphics#1#2{}
+%\def\includegraphics#1#2{}
 
 \let\ccempty\relax
 
 \def\code#1{{\small\sf#1}}
+
+\let\NaN\relax
 
 \def\slnocdli{\vbox{\hbox to\cdliwd{\hfil}\vfil}}
 \def\slnodist{\vbox{\hbox to1in{\hfil}\vfil}}
@@ -164,5 +182,13 @@
 \catcode"FE60\active \let﹠\&
 \catcode"223C\active \def∼{{\Sans\six\rm\~{}}}
 \catcode"2052\active \def⁒{\%{}}
+
+% set a piece of text to occupy at least #1 much room, but to run into
+% following text if wider than that.
+\newskip\posthboxtominamount \newif\ifhboxtominwaslong
+\def\hboxtomin#1#2{\setbox0=\hbox{#2}%
+  \ifdim\wd0>#1\relax\global\hboxtominwaslongtrue\unhbox0 \unskip
+               \hskip\posthboxtominamount\ignorespaces
+  \else\global\hboxtominwaslongfalse\hbox to#1{\unhbox0\hfil}\fi}
 
 \endinput

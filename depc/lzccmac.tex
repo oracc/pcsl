@@ -1,23 +1,24 @@
-\font\pczatu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:+ss20,+liga" at 11pt
-\def\beginzatupcsl{\multicols{3}%
+\font\pczatu="[/Users/stinney/orc/lib/fonts/PCSL.ttf]:mode=harf;script=xsux;+ss20;+liga" at 11pt
+
+\def\beginzatupcsl{\begin{multicols}{3}%
     %\offinterlineskip
-    \gutterrulestrue
+    \columnseprule.4pt
+    \parindent0pt\relax
     \rightskip0pt plus1fil\relax
     \parskip2pt plus1fil minus2pt\relax
 }
 \def\endzatupcsl{\end{multicols}\vfil\supereject}
-\newdimen\zheadwd \zheadwd.5in
+
+\def\zcczatufont{\sansc}
+\def\zccsnamefont{\sansc}
+
+\newdimen\zheadwd \zheadwd.575in
 \newdimen\zchrht  \zchrht9pt
 \def\zentry{\leavevmode\hangindent\zheadwd}
-\def\zhead#1{\hboxtomin{\zheadwd}{\eight#1}}
+\def\zhead#1{\hboxtomin{\zheadwd}{\zcczatufont#1}}
 \def\zpcsl#1{#1\endgraf\goodbreak}
-\def\zchrnam#1#2{\vbox to\zchrht{\vfil\smash{\hbox{\pczatu#1}}}%
-  \kern3pt
-  %\vbox to\zchrht{\vfil
-    \hbox{\Sans\six\rm#2\hfil}%
-    %\vfil}
-}
-\def\zref#1{{\baselineskip9pt\relax\eight#1\endgraf}}
-\def\zsee#1{\seven#1\hss}
+\def\zchrnam#1#2{\hbox{\hbox{\pczatu#1}\kern3pt\hbox{\zccsnamefont#2\hfil}}}
+\def\zref#1{{\baselineskip9pt\relax\sansc#1\endgraf}}
+\def\zsee#1{\sansc#1\hss}
 \def\zcomma{, }
 \def\zspace{; }

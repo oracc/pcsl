@@ -144,7 +144,7 @@
 	  <xsl:text>\hss}%&#xa;</xsl:text>
 	</xsl:when>
 	<xsl:when test="@class='sl-c-u' or @class='fhex'">
-	  <xsl:text>\kern-1pt</xsl:text>
+	  <!--<xsl:text>\kern-1pt</xsl:text>-->
 	  <xsl:text>\hbox to\slcwd{\hfil</xsl:text>
 	  <xsl:text>\slcufont </xsl:text>
 	  <xsl:apply-templates mode="nosqb"/>
@@ -201,7 +201,21 @@
     <xsl:text>\hbox to\cdliwd{\hss</xsl:text>
     <xsl:choose>
       <xsl:when test="starts-with(@data-row,'o09')">
-	<xsl:value-of select="concat('\includegraphics{propgh/',@data-row,'.png}{',../@data-sf,'}')"/>
+	<xsl:choose>
+	  <xsl:when test="$latex='yes'">
+	    <xsl:variable name="sf" select="../@data-sf div 1000"/>
+	    <xsl:choose>
+	      <xsl:when test="string(number($sf))='NaN'">
+		<xsl:text>{\NaN}</xsl:text>
+	      </xsl:when>
+	      <xsl:otherwise>
+	      <xsl:value-of select="concat('\includegraphics[scale=',$sf,']{propgh/',@data-row,'.png}')"/></xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('\includegraphics{propgh/',@data-row,'.png}{',../@data-sf,'}')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:when>
       <xsl:when test="@data-row='-'">
 	<xsl:text>\cdlighnopng</xsl:text>
@@ -1000,7 +1014,9 @@
   <xsl:template match="tex:appendix">
     <xsl:choose>
       <xsl:when test="$latex='yes'">
-	<xsl:text>\appendix&#xa;&#xa;</xsl:text>
+	<xsl:if test="count(preceding-sibling::tex:appendix)=0">
+	  <xsl:text>\appendix&#xa;&#xa;</xsl:text>
+	</xsl:if>
 	<xsl:text>\section{</xsl:text>
 	<xsl:apply-templates/>
 	<xsl:text>}&#xa;&#xa;</xsl:text>
@@ -1036,7 +1052,7 @@
 	  \voffset=1in
 	</xsl:text>
 	<xsl:text>\usepackage{fontspec}</xsl:text>
-	<xsl:text>\usepackage{realscripts}</xsl:text>
+	<xsl:text>\usepackage{graphicx}</xsl:text>
 	<xsl:text>\usepackage{luaotfload}</xsl:text>
 	<xsl:text>\usepackage{multicol}</xsl:text>
 	<xsl:text>\begin{document}&#xa;</xsl:text>

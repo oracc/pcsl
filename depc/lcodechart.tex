@@ -1,0 +1,13 @@
+\newdimen\ccwd \ccwd=.375in\relax
+\newdimen\ccht \ccht=.52in\relax
+\newdimen\cccwd \cccwd=\ccwd\relax
+\newdimen\cccht \cccht=.39in\relax
+
+\def\codechart{\def\thead{\Sans\nine\rm}}
+\let\trhook\relax
+\def\cctnum#1{\vbox to1.5em{\hbox to\ccwd{\hfil\helv#1\hfil}\vfil}}
+\def\cclnum#1{\makebox[0pt][r]{\vbox to\ccht{\vfil\hbox{\helv\relax#1\kern5pt\relax}\vfil}}}
+\def\ccchr{\pccc}
+\def\ccuni{\helvx}
+
+\endinput
