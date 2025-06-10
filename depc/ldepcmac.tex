@@ -164,7 +164,7 @@
 \let\subsectionsintocfalse\relax
 \let\useapp\relax
 
-\def\graphicsfigure#1#2#3#4{}
+\def\xgraphicsfigure#1#2#3#4{}
 
 %\def\includegraphics#1#2{}
 
@@ -178,11 +178,6 @@
 \def\slnodist{\vbox{\hbox to1in{\hfil}\vfil}}
 \def\slnoglyf{\vbox{\hbox to\slcwd{\hfil}\vfil}}
 
-\catcode"FE5F\active \let﹟\#
-\catcode"FE60\active \let﹠\&
-\catcode"223C\active \def∼{{\Sans\six\rm\~{}}}
-\catcode"2052\active \def⁒{\%{}}
-
 % set a piece of text to occupy at least #1 much room, but to run into
 % following text if wider than that.
 \newskip\posthboxtominamount \newif\ifhboxtominwaslong
@@ -190,5 +185,12 @@
   \ifdim\wd0>#1\relax\global\hboxtominwaslongtrue\unhbox0 \unskip
                \hskip\posthboxtominamount\ignorespaces
   \else\global\hboxtominwaslongfalse\hbox to#1{\unhbox0\hfil}\fi}
+
+\def\ligunderscore{\vrule height0pt width4pt depth.75pt}
+\catcode"FF3F\active \def＿{\ligunderscore}
+\catcode"FE5F\active \let﹟\#
+\catcode"FE60\active \let﹠\&
+\catcode"223C\active \def∼{{\Sans\six\rm\~{}}}
+\catcode"2052\active \def⁒{\%{}}
 
 \endinput

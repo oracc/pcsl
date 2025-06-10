@@ -814,7 +814,7 @@
 
   <xsl:template name="textmap">
     <xsl:param name="t"/>
-    <xsl:value-of select="translate($t,'&amp;~%#_', '&#xfe60;&#x223c;&#x2052;&#xfe5f;&#x0332;')"/>
+    <xsl:value-of select="translate($t,'&amp;~%#_', '&#xfe60;&#x223c;&#x2052;&#xfe5f;&#xff3f;')"/>
   </xsl:template>
 
   <xsl:template match="text()">
@@ -1038,27 +1038,8 @@
   <xsl:template match="tex:driver">
     <xsl:choose>
       <xsl:when test="$latex='yes'">
-	<xsl:text>
-	  \documentclass{article}
-	  \usepackage[
-	  letterpaper,
-	  total={6.5in,9in},
-          centering,
-	  showframe=true
-	  ]{geometry}
-	  \pagewidth=\paperwidth
-	  \pageheight=\paperheight
-	  \hoffset=1in
-	  \voffset=1in
-	</xsl:text>
-	<xsl:text>\usepackage{fontspec}</xsl:text>
-	<xsl:text>\usepackage{graphicx}</xsl:text>
-	<xsl:text>\usepackage{luaotfload}</xsl:text>
-	<xsl:text>\usepackage{multicol}</xsl:text>
+	<xsl:text>\input{ldepc-preamble}</xsl:text>
 	<xsl:text>\begin{document}&#xa;</xsl:text>
-	<!--<xsl:text>\input{html2tex}</xsl:text>-->
-	<!--<xsl:text>\input{depcmac}</xsl:text>-->
-	<xsl:text>\input{ldepcmac}</xsl:text>
 	<xsl:apply-templates/>
 	<xsl:text>\end{document}</xsl:text>
       </xsl:when>
@@ -1070,6 +1051,18 @@
 	<xsl:text>\bye&#xa;</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tex:latex">
+    <xsl:if test="$latex='yes'">
+      <xsl:apply-templates/>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="tex:plain">
+    <xsl:if test="not($latex='yes')">
+      <xsl:apply-templates/>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template match="tex:text">
