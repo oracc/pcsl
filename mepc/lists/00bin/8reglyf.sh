@@ -5,5 +5,5 @@ make pcsl html
 make 00etc/seqdb.xml
 (cd ../texts ; ./b/pc25not.sh ; ./b/nothtml.sh)
 (cd ../../repc ; make)
-(cd ../../fepc ; make)
+#(cd ../../fepc ; make)
 

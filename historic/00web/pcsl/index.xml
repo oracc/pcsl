@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+  <esp:name>PCSL</esp:name>
+  <esp:title>Proto-Cuneiform Sign List</esp:title>
+  <html>
+    <head/>
+    <body>
+      <esp:image file="" description=""/>
+
+      <p>PCSL, the Proto-Cuneiform Sign List, combines a complete
+      corpus-based sign list of the CDLI Proto-Cuneiform corpus with
+      an inventory of Proto-Cuneiform signs derived from several
+      sources.</p>
+
+      <p>You can browse the signlist <esp:link
+      url="/pcsl/signlist">here</esp:link></p>
+
+      <esp:sh>PCSL File Format</esp:sh>
+
+      <p>PCSL is maintained in the Oracc ASL format as defined for
+      <esp:link
+      url="https://build-oracc.museum.upenn.edu/osl/asloslfileformat/">the
+      Oracc Sign List</esp:link>.</p>
+      
+      <esp:sh>PCSL Architecture</esp:sh>
+
+      <p>PCSL makes extensive use of the <code
+      class="example">~</code> (tilde) modifiers to denote subforms of
+      signs, and the data architecture separates base signs from
+      tilde-modified signs by using <code class="example">@sign</code>
+      only for base signs (those stripped of all tilde-modified
+      components) and <code class="example">@form</code> only for
+      tilde-modified signs.</p>
+
+      <p>By rule, if a <code class="example">@sign</code> has child
+      <code class="example">@form</code>s that with
+      tilde-modifications, then the parent sign is mapped to the child
+      with the <code class="example">~a</code> modifier.</p>
+
+      <p>Compound signs are gathered under a parent sign which is
+      formed of the unmodified bases; thus, <code
+      class="cookbook">|DUG~b×KUR~a|</code> has a parent sign <code
+      class="cookbook">|DUG×KUR|</code>, with a form <code
+      class="cookbook">|DUG~b×KUR~a|</code>. Because the parent-child
+      relationship can be complex, compound sign parents are not by
+      default mapped to a specific child form.  Instead, if a compound
+      parent occurs in the corpus the corresponding form can be
+      identified by collation and mapped as necessary.  If multiple
+      occurrences of a parent compound are found in the corpus with
+      differening child form correspondences, the corpus must be fixed
+      to resolve the ambiguity.</p>
+    </body>
+  </html>
+</esp:page>

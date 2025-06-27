@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+  <esp:name>PC25</esp:name>
+  <esp:title>PC25</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p style="color: red">If you are looking for current work on the
+      new version of the Unicode proposal for encoding
+      Proto-Cuneiform, nicknamed PC25, you will find it on <esp:link
+      url="/pcsl/pc25">the new development pages</esp:link>.</p>
+      
+      <p>The pages here are now historic: they were developed on or
+      about 2025-02-15 with some revisions in the following week.
+      They were frozen on 2025-02-22.</p>
+    </body>
+  </html>
+</esp:page>

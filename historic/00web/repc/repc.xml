@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Repertoire</esp:name>
+  <esp:title>Repertoire for Encoding Proto-Cuneiform</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>The complete unified list of the proposed PC25 repertoire is
+      <esp:link url="/pcsl/pc25/pc25-tab.html">available here</esp:link>.</p>
+      <p>The repertoire is created using the CDLI-PCSL text corpus and
+      unified PCSL sign list as starting points.  Signs are removed
+      from PCSL for the following reasons:</p>
+      <ol>
+        <li><span class="remfor">Corpus scope:</span> signs are first
+	removed because they do not occur in the PC25 subcorpus.  For
+	a list of these signs see <esp:link url="/pcsl/pc25/no_corpus.html">Appendix 2</esp:link>.</li>
+        <li><span class="remfor">Non-contrastive variants:</span>
+	XXX glyphs are not removed as such but do not enter into
+	consideration because PC25 does not encode non-contrastive
+	glyph variants. XXX ADD PAGE</li>
+        <li><span class="remfor">Ineligible Numbers:</span> signs are
+        removed because they are numbers that are either encoded
+        already in the Archaic Cuneiform Numbers proposal (ACN) or
+        because PC25 does not generally include numbers (exceptions
+        include the N57 and U₄-time sequences). For a list of these
+        signs, excluding those in ACN, see <esp:link url="/pcsl/pc25/no_numberxacn.html">Appendix
+        3</esp:link>.</li>
+        <li><span class="remfor">Sequences:</span> signs are removed
+	because they are sequences. PC25 makes no distinction between
+	opaque sequences--those whose label hides the fact that the
+	sign is a sequence--and simple sequences.  PC25 does propose
+	to encode several exceptional groups of sequences as described
+	in the <esp:link page="pc25seqexc">Sequence
+	Exceptions</esp:link> section.  A list of excluded sequences is
+	given in <esp:link url="/pcsl/pc25/no_sequence.html">Appendix
+	4</esp:link>.</li>
+        <li><span class="remfor">Broken signs:</span> 
+	are removed because they are damaged and partially incomplete.
+	A list of broken signs is given in <esp:link url="/pcsl/pc25/no_broken.html">Appendix 5</esp:link>.</li>
+        <li><span class="remfor">Deleted signs:</span> 
+	signs are deleted despited surviving the preceding conditions
+	because they are duplicates.  A list of deleted signs is given
+	in <esp:link url="/pcsl/pc25/no_broken.html">Appendix
+	6</esp:link>.</li>
+      </ol>
+      <esp:sh>Numbers</esp:sh>
+      <p>Although PC25 is primarily focussed on ideograms, <esp:link page="pc25numbers">some numbers, listed here</esp:link>, need to
+      be encoded to support N(N57) sequences.  This is a class of
+      additions to AP24, which omitted all numbers.</p>
+      <!--
+      
+      <esp:h>Notes on individual classes of inclusions</esp:h>
+
+      <esp:sh>Signs with non-contrastive variants</esp:sh>
+
+      <p>The 190 signs which have non-contrastive variants, with the
+      proposed reference glyph in initial position in the list, is
+      <esp:link page="repncv">given here</esp:link>.</p>
+      
+
+      -->
+      <!--
+	  <esp:sh>City Names</esp:sh>
+	  <p>A list of the signs which represent city names and are
+	  assigned codepoints rather than being treated as sequences is
+	  <esp:link page="repcity">given here</esp:link>.</p>
+      -->
+    </body>
+  </html>
+</esp:page>

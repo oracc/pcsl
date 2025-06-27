@@ -333,7 +333,7 @@ sub pcsl_tsv {
 	    # $p{'row'} = $o unless $p{'row'};
 	    # $p{'row'}
 	    if ($p{'row'}) {
-		$p{'row'} = $o unless $p{'row'} eq '-';
+		$p{'row'} = $o unless $p{'row'} eq '-' || $p{'row'} =~ m#/add/#;
 	    } else {
 		$p{'row'} = $o;
 	    }

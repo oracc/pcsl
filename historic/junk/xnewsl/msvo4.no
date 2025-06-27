@@ -1,0 +1,7 @@
+71: no pcsl: GAR+5N57 via GAR.5N57
+72: no pcsl: GAR+6N57 via GAR.6N57
+85: no pcsl: GIŠ+TE via GIŠ.TE
+197: no pcsl: SAL+KURa via SAL.KUR~a
+198: no pcsl: SAL+ŠU2 via SAL.ŠU₂
+237: no pcsl: ŠU2+ENa via ŠU₂.EN~a
+239: no pcsl: ŠUBUR+1N57 via ŠUBUR.1N57

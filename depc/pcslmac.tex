@@ -87,27 +87,31 @@
 \catcode`\_=12
 
 \newbox\cdlibox
-\newdimen\cdlifuzz \cdlifuzz4pt
+\newdimen\cdlifuzz \cdlifuzz0pt
 \def\checkcdliheight#1#2{
    \setbox\cdlibox=\vbox{#2}%
    \ifdim\ht\cdlibox>#1%
      \dimen255=\ht\cdlibox \advance\dimen255-#1
      \ifdim\dimen255>\cdlifuzz
-       \message{\the\oidtoks: #2 CDLI ht \the\ht\cdlibox > \the#1 (dim255=\the\dimen255; cdlifuzz=\the\cdlifuzz^^J}%
+       \message{\the\oidtoks: CDLI ht \the\ht\cdlibox‍ > \the#1 (dim255=\the\dimen255; cdlifuzz=\the\cdlifuzz)^^J}%
      \fi
    \fi
 }
 
+\newdimen\aht
+
 \def\pcslrow#1#2#3#4#5#6#7#8#9{%
    \pcslheader
    \let\slnames\slnamesaunaturel
-   \setbox\pcslbox\vbox{\hsize2in#1}%
-   \pcslrowht=\ht\pcslbox % \advance\pcslrowht\dp\pcslbox
+   \setbox\pcslbox\vbox{\hsize2in\relax#1\hfil}%
+   \pcslrowht=\ht\pcslbox
    \setbox\pcslbox\vbox{#2}%
-   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi % \advance\pcslrowht\dp\pcslbox \fi
+   \ifdim\ht\pcslbox>\pcslrowht \pcslrowht\ht\pcslbox \fi
    \advance\pcslrowht2pt % compensate for lineskips
+   \ifdim\pcslrowht<24pt \pcslrowht24pt\fi
    \checkcdliheight\pcslrowht{#3}%
    \let\slnames\slnamesrowht
+   \message{PCSL row height=\the\pcslrowht^^J}
    \hbox to \hsize{%
          \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
          \kern.425em
@@ -117,7 +121,7 @@
          \kern.425em
          \vrule height\pcslrowht width1pt
          \kern.425em
-         \vbox to\pcslrowht{\offinterlineskip\vfil#3\vbox to9pt{\vfil}\vfil}%
+         \vbox to\pcslrowht{\offinterlineskip\vfil#3\vbox to9pt{\vfil}\vss}%
          \kern.2em
          \vrule height\pcslrowht width.5pt
          \kern.2em
@@ -141,7 +145,7 @@
 \def\sldist{\sldistfont}
 
 \def\slnamesaunaturel#1#2#3#4#5#6#7#8{%
-  \message{Processing #2^^J}
+  \message{Processing #2^^J}%
   \vbox{\slnamesx{#1}{#2}{#3}{#4}{#5}{#6}{#7}{#8}}%
 }
 
@@ -185,20 +189,21 @@
                                  \leavevmode\akafont\hbox to2.15em{\helvx CDLI:\hfil}%
                                  \sltgfont \the\cdifftoks\endgraf}}%
    \fi
+   \bgroup%\offinterlineskip
    \hbox to2in{{\slnm#1}\hfil{\sltgfont#3}}% Sign name #1 and tag #3
    \kern.5pt
    \setbox\cpbox\hbox{#5}%
    \hbox{\hbox to1in{\helvy#5\hfil}}% PC25 code point
    \vbox{
      \ifdim\rgtopkern>0pt\else\kern-10pt\fi
-   \hbox{\kern1in
-%         \smash{%
-         \hbox to.5in{%
-            \hss\kern.05in%
-            \vbox{\hbox{\pcxviii#4}\kern2pt}% PC25 reference glyph
-            \hss}%
- %      }%
-   }%
+      \hbox{\kern1in
+         %\smash{%
+             \hbox to.5in{%
+                         \hss\kern.05in%
+                         \vbox{\hbox{\pcxviii#4}\kern2pt}% PC25 reference glyph
+                         \hss}%
+         %}%
+      }%
    }%
    \vfil
    \ifdim\wd\cpbox=0pt\kern5pt\fi
@@ -208,21 +213,22 @@
 %     \vbox{\hsize1in\hangindent1pc\parindent0pt\rightskip0pt plus1fil\sldist\leavevmode{#7}\par}%
      #7%
      \vbox{\hbox{\hbox to.5in{\kern.05in\oidfont#2\hfil}\hbox to.5in{\hfil\zatufont#6}}}}%
+     \egroup
 }
 
 \def\sldist{%
    \setbox\sldisttbox\hbox{\the\sldistt}%
-   \setbox\sldistivbox\hbox{\the\sldistiv}%
-   \setbox\sldistiiibox\hbox{\the\sldistiii}%
+   \setbox\sldistivbox\hbox{\oidfontx\offinterlineskip\the\sldistiv}\dp\sldistivbox0pt\relax%
+   \setbox\sldistiiibox\hbox{\oidfontx\offinterlineskip\the\sldistiii}\dp\sldistiiibox0pt\relax%
    \setbox\sldistbox\hbox{\oidfont\leavevmode IV:\kern1pt}%
    \vbox{\oidfont\hsize1in\parindent0pt\hangindent2.15em\rightskip0pt plus1fil
          \leavevmode
          \hbox to2.15em{\the\sldistt\hss}%
          \ifdim\wd\sldisttbox>2.1em\hskip1pt\penalty-10000\fi
-         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern1pt\hfil}\the\sldistiv\hfil}%
+         \ifdim\wd\sldistivbox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{IV:\kern1pt\hfil}\box\sldistivbox\hfil}%
            \ifdim\wd\sldistiiibox>0pt;\hskip2pt\penalty0\fi
          \fi
-         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern1pt\hfil}\the\sldistiii\hfil}\fi
+         \ifdim\wd\sldistiiibox>0pt\oidfontx\hbox{\hbox to\wd\sldistbox{III:\kern1pt\hfil}\box\sldistiiibox\hfil}\fi
          \endgraf
    }%
 }

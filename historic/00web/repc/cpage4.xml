@@ -1,0 +1,2641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Code Chart 4</esp:name>
+  <esp:title>Code Chart 4: 12900 - 129FF</esp:title>
+  <html>
+    <head/>
+    <body>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="codechart" xml:base=".">
+        <thead>
+          <tr>
+            <th/>
+            <th>1290</th>
+            <th>1291</th>
+            <th>1292</th>
+            <th>1293</th>
+            <th>1294</th>
+            <th>1295</th>
+            <th>1296</th>
+            <th>1297</th>
+            <th>1298</th>
+            <th>1299</th>
+            <th>129A</th>
+            <th>129B</th>
+            <th>129C</th>
+            <th>129D</th>
+            <th>129E</th>
+            <th>129F</th>
+          </tr>
+        </thead>
+        <tr>
+          <th>0</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MAR-B TIMES LAGAB-B PLUS SHE3">𒤀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12900</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUD3-A GUNU">𒤐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12910</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUSH3-B">𒤠</span>
+              </div>
+              <div>
+                <span class="cc-uni">12920</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAGAR-A">𒤰</span>
+              </div>
+              <div>
+                <span class="cc-uni">12930</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NE-D">𒥀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12940</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES AN">𒥐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12950</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU659 TIMES ONE N01">𒥠</span>
+              </div>
+              <div>
+                <span class="cc-uni">12960</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-A JOINING A">𒥰</span>
+              </div>
+              <div>
+                <span class="cc-uni">12970</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PAD-A">𒦀</span>
+              </div>
+              <div>
+                <span class="cc-uni">12980</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RI8-A">𒦐</span>
+              </div>
+              <div>
+                <span class="cc-uni">12990</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SANGA-A">𒦠</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES TUN3-A">𒦰</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-D1">𒧀</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES HI">𒧐</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SHE-A">𒧠</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E0</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA4-C">𒧰</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F0</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MAR-B TIMES SHE-A">𒤁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12901</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUD3-B">𒤑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12911</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUSHEN">𒤡</span>
+              </div>
+              <div>
+                <span class="cc-uni">12921</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAGAR-B">𒤱</span>
+              </div>
+              <div>
+                <span class="cc-uni">12931</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NESAG2-A">𒥁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12941</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES AN PLUS HI">𒥑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12951</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES ZATU710">𒥡</span>
+              </div>
+              <div>
+                <span class="cc-uni">12961</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-A JOINING EN-A">𒥱</span>
+              </div>
+              <div>
+                <span class="cc-uni">12971</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PAD-B">𒦁</span>
+              </div>
+              <div>
+                <span class="cc-uni">12981</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RI8-B">𒦑</span>
+              </div>
+              <div>
+                <span class="cc-uni">12991</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SANGA-B">𒦡</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES ONE N58">𒦱</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-D2">𒧁</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES IB-A">𒧑</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SHE-A TENU">𒧡</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E1</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA4-D">𒧱</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F1</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MASH">𒤂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12902</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUD3-C">𒤒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12912</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ONE N58 BAD">𒤢</span>
+              </div>
+              <div>
+                <span class="cc-uni">12922</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM-A">𒤲</span>
+              </div>
+              <div>
+                <span class="cc-uni">12932</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NESAG2-B">𒥂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12942</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES AN PLUS ME-A">𒥒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12952</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE N01">𒥢</span>
+              </div>
+              <div>
+                <span class="cc-uni">12962</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-A JOINING EN-B">𒥲</span>
+              </div>
+              <div>
+                <span class="cc-uni">12972</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PAP-A">𒦂</span>
+              </div>
+              <div>
+                <span class="cc-uni">12982</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RU">𒦒</span>
+              </div>
+              <div>
+                <span class="cc-uni">12992</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SANGA-C">𒦢</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI4-A">𒦲</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-D3">𒧂</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES KASH-A">𒧒</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SHU">𒧢</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E2</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILANITA">𒧲</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F2</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MASH2">𒤃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12903</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUD3-D">𒤓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12913</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ONE N58 PLUS BAD FORM B">𒤣</span>
+              </div>
+              <div>
+                <span class="cc-uni">12923</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM-B">𒤳</span>
+              </div>
+              <div>
+                <span class="cc-uni">12933</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NI-A">𒥃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12943</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES EZEN-B">𒥓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12953</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES TWO N01">𒥣</span>
+              </div>
+              <div>
+                <span class="cc-uni">12963</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-A JOINING EN-D">𒥳</span>
+              </div>
+              <div>
+                <span class="cc-uni">12973</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PAP-A TENU">𒦃</span>
+              </div>
+              <div>
+                <span class="cc-uni">12983</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SA-A">𒦓</span>
+              </div>
+              <div>
+                <span class="cc-uni">12993</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SANGA-E">𒦣</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI4-B">𒦳</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-D4">𒧃</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES KASH-C">𒧓</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SHU2">𒧣</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E3</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIMUG">𒧳</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F3</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MASH2 GUNU">𒤄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12904</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUL">𒤔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12914</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN THREE N58 UR3-B1">𒤤</span>
+              </div>
+              <div>
+                <span class="cc-uni">12924</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM-C">𒤴</span>
+              </div>
+              <div>
+                <span class="cc-uni">12934</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NI-A GUNU">𒥄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12944</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES GAAR-A1">𒥔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12954</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE N06 PLUS HI GUNU-A">𒥤</span>
+              </div>
+              <div>
+                <span class="cc-uni">12964</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-A JOINING NAM2">𒥴</span>
+              </div>
+              <div>
+                <span class="cc-uni">12974</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PAP-B">𒦄</span>
+              </div>
+              <div>
+                <span class="cc-uni">12984</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SA-C">𒦔</span>
+              </div>
+              <div>
+                <span class="cc-uni">12994</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAR-A">𒦤</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI4-C">𒦴</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-E">𒧄</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES KASH-D">𒧔</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU629">𒧤</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E4</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SU-A">𒧴</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F4</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ME-A">𒤅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12905</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUN-A1">𒤕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12915</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA-A">𒤥</span>
+              </div>
+              <div>
+                <span class="cc-uni">12925</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM-D">𒤵</span>
+              </div>
+              <div>
+                <span class="cc-uni">12935</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NI-B">𒥅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12945</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES GAR">𒥕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12955</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES ONE N08">𒥥</span>
+              </div>
+              <div>
+                <span class="cc-uni">12965</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-B">𒥵</span>
+              </div>
+              <div>
+                <span class="cc-uni">12975</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PIRIG-A1">𒦅</span>
+              </div>
+              <div>
+                <span class="cc-uni">12985</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG">𒦕</span>
+              </div>
+              <div>
+                <span class="cc-uni">12995</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAR-A TIMES SHE-A">𒦥</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI4-D">𒦵</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG4">𒧅</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES KU6-A">𒧕</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU646">𒧥</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E5</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SU-A TIMES ONE N58">𒧵</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F5</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ME-B">𒤆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12906</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUN-A2">𒤖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12916</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA-B">𒤦</span>
+              </div>
+              <div>
+                <span class="cc-uni">12926</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM2">𒤶</span>
+              </div>
+              <div>
+                <span class="cc-uni">12936</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NI-B TIMES FOUR N57">𒥆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12946</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES GISH">𒥖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12956</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIR-A">𒥦</span>
+              </div>
+              <div>
+                <span class="cc-uni">12966</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-B JOINING EN-A">𒥶</span>
+              </div>
+              <div>
+                <span class="cc-uni">12976</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PIRIG-A2">𒦆</span>
+              </div>
+              <div>
+                <span class="cc-uni">12986</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG JOINING UKKIN-B TIMES ONE N57">𒦖</span>
+              </div>
+              <div>
+                <span class="cc-uni">12996</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAR-B">𒦦</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI4-F">𒦶</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG7">𒧆</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES KUR-A">𒧖</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES ZATU659 PLUS TU-C">𒧦</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E6</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SU-B">𒧶</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F6</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN ME3">𒤇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12907</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUN-A3">𒤗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12917</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA-C">𒤧</span>
+              </div>
+              <div>
+                <span class="cc-uni">12927</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM2 TIMES ONE N01">𒤷</span>
+              </div>
+              <div>
+                <span class="cc-uni">12937</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NI-B TIMES EIGHT N57">𒥇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12947</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES GU4">𒥗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12957</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIR-A TIMES AN">𒥧</span>
+              </div>
+              <div>
+                <span class="cc-uni">12967</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-C">𒥷</span>
+              </div>
+              <div>
+                <span class="cc-uni">12977</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PIRIG-A3">𒦇</span>
+              </div>
+              <div>
+                <span class="cc-uni">12987</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG TIMES GESHTU-A">𒦗</span>
+              </div>
+              <div>
+                <span class="cc-uni">12997</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAR-C">𒦧</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG">𒦷</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A">𒧇</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES MA">𒧗</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES ONE N57">𒧧</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E7</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SU-C">𒧷</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F7</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MEN-A">𒤈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12908</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUN-A4">𒤘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12918</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA2-A">𒤨</span>
+              </div>
+              <div>
+                <span class="cc-uni">12928</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM2 GUNU">𒤸</span>
+              </div>
+              <div>
+                <span class="cc-uni">12938</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NI2">𒥈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12948</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES HI">𒥘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12958</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIR-B">𒥨</span>
+              </div>
+              <div>
+                <span class="cc-uni">12968</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-D">𒥸</span>
+              </div>
+              <div>
+                <span class="cc-uni">12978</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PIRIG-B1">𒦈</span>
+              </div>
+              <div>
+                <span class="cc-uni">12988</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG TIMES GESHTU-B">𒦘</span>
+              </div>
+              <div>
+                <span class="cc-uni">12998</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAR-D">𒦨</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-A1">𒦸</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES A">𒧈</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES MASH">𒧘</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-B">𒧨</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E8</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SU3">𒧸</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F8</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>9</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MEN-B">𒤉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12909</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUN-B">𒤙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12919</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA2-B1">𒤩</span>
+              </div>
+              <div>
+                <span class="cc-uni">12929</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAM2 TENU">𒤹</span>
+              </div>
+              <div>
+                <span class="cc-uni">12939</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIGIN">𒥉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12949</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS AN PLUS ME-A">𒥙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12959</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NU">𒥩</span>
+              </div>
+              <div>
+                <span class="cc-uni">12969</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUNUZ-A0">𒥹</span>
+              </div>
+              <div>
+                <span class="cc-uni">12979</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PIRIG-B1 JOINING DIN">𒦉</span>
+              </div>
+              <div>
+                <span class="cc-uni">12989</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG TIMES MA">𒦙</span>
+              </div>
+              <div>
+                <span class="cc-uni">12999</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI">𒦩</span>
+              </div>
+              <div>
+                <span class="cc-uni">129A9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-A2">𒦹</span>
+              </div>
+              <div>
+                <span class="cc-uni">129B9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES AMAR">𒧉</span>
+              </div>
+              <div>
+                <span class="cc-uni">129C9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES MUD3-B">𒧙</span>
+              </div>
+              <div>
+                <span class="cc-uni">129D9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-B TIMES GUG2">𒧩</span>
+              </div>
+              <div>
+                <span class="cc-uni">129E9</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUG">𒧹</span>
+              </div>
+              <div>
+                <span class="cc-uni">129F9</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>A</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MES">𒤊</span>
+              </div>
+              <div>
+                <span class="cc-uni">1290A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUNSHUB-A">𒤚</span>
+              </div>
+              <div>
+                <span class="cc-uni">1291A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA2-B2">𒤪</span>
+              </div>
+              <div>
+                <span class="cc-uni">1292A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NANSHE-A">𒤺</span>
+              </div>
+              <div>
+                <span class="cc-uni">1293A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIM-A">𒥊</span>
+              </div>
+              <div>
+                <span class="cc-uni">1294A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES HI PLUS ME-A">𒥚</span>
+              </div>
+              <div>
+                <span class="cc-uni">1295A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NU GUNU">𒥪</span>
+              </div>
+              <div>
+                <span class="cc-uni">1296A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUNUZ-A1">𒥺</span>
+              </div>
+              <div>
+                <span class="cc-uni">1297A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PIRIG-B2">𒦊</span>
+              </div>
+              <div>
+                <span class="cc-uni">1298A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG TIMES NAM2">𒦚</span>
+              </div>
+              <div>
+                <span class="cc-uni">1299A</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI JOINING AN">𒦪</span>
+              </div>
+              <div>
+                <span class="cc-uni">129AA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-A3">𒦺</span>
+              </div>
+              <div>
+                <span class="cc-uni">129BA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES DUG-A">𒧊</span>
+              </div>
+              <div>
+                <span class="cc-uni">129CA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES NAGA-A">𒧚</span>
+              </div>
+              <div>
+                <span class="cc-uni">129DA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-B TIMES NAGA-B">𒧪</span>
+              </div>
+              <div>
+                <span class="cc-uni">129EA</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUG5">𒧺</span>
+              </div>
+              <div>
+                <span class="cc-uni">129FA</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>B</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MIR-A">𒤋</span>
+              </div>
+              <div>
+                <span class="cc-uni">1290B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUNSHUB-B">𒤛</span>
+              </div>
+              <div>
+                <span class="cc-uni">1291B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NA2-C">𒤫</span>
+              </div>
+              <div>
+                <span class="cc-uni">1292B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NANSHE-B">𒤻</span>
+              </div>
+              <div>
+                <span class="cc-uni">1293B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIM-B1">𒥋</span>
+              </div>
+              <div>
+                <span class="cc-uni">1294B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES KASH-B">𒥛</span>
+              </div>
+              <div>
+                <span class="cc-uni">1295B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NU11">𒥫</span>
+              </div>
+              <div>
+                <span class="cc-uni">1296B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUNUZ-A2">𒥻</span>
+              </div>
+              <div>
+                <span class="cc-uni">1297B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PU2">𒦋</span>
+              </div>
+              <div>
+                <span class="cc-uni">1298B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG GUNU">𒦛</span>
+              </div>
+              <div>
+                <span class="cc-uni">1299B</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES EN-A">𒦫</span>
+              </div>
+              <div>
+                <span class="cc-uni">129AB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-A4">𒦻</span>
+              </div>
+              <div>
+                <span class="cc-uni">129BB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES GA-A">𒧋</span>
+              </div>
+              <div>
+                <span class="cc-uni">129CB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES NI-A">𒧛</span>
+              </div>
+              <div>
+                <span class="cc-uni">129DB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-A">𒧫</span>
+              </div>
+              <div>
+                <span class="cc-uni">129EB</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUH3">𒧻</span>
+              </div>
+              <div>
+                <span class="cc-uni">129FB</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>C</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MIR-B">𒤌</span>
+              </div>
+              <div>
+                <span class="cc-uni">1290C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUNU3">𒤜</span>
+              </div>
+              <div>
+                <span class="cc-uni">1291C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAB">𒤬</span>
+              </div>
+              <div>
+                <span class="cc-uni">1292C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAR">𒤼</span>
+              </div>
+              <div>
+                <span class="cc-uni">1293C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIM-B2">𒥌</span>
+              </div>
+              <div>
+                <span class="cc-uni">1294C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES MAR-A">𒥜</span>
+              </div>
+              <div>
+                <span class="cc-uni">1295C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NU11 OVER NU11">𒥬</span>
+              </div>
+              <div>
+                <span class="cc-uni">1296C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUNUZ-B1">𒥼</span>
+              </div>
+              <div>
+                <span class="cc-uni">1297C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RA">𒦌</span>
+              </div>
+              <div>
+                <span class="cc-uni">1298C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAG NUTILLU">𒦜</span>
+              </div>
+              <div>
+                <span class="cc-uni">1299C</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES GU4">𒦬</span>
+              </div>
+              <div>
+                <span class="cc-uni">129AC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-B">𒦼</span>
+              </div>
+              <div>
+                <span class="cc-uni">129BC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES GARA2-A">𒧌</span>
+              </div>
+              <div>
+                <span class="cc-uni">129CC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES NUN-B">𒧜</span>
+              </div>
+              <div>
+                <span class="cc-uni">129DC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-B TIMES NI-B">𒧬</span>
+              </div>
+              <div>
+                <span class="cc-uni">129EC</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUHUR">𒧼</span>
+              </div>
+              <div>
+                <span class="cc-uni">129FC</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>D</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MU">𒤍</span>
+              </div>
+              <div>
+                <span class="cc-uni">1290D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUSH">𒤝</span>
+              </div>
+              <div>
+                <span class="cc-uni">1291D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAGA-A">𒤭</span>
+              </div>
+              <div>
+                <span class="cc-uni">1292D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NE-A">𒤽</span>
+              </div>
+              <div>
+                <span class="cc-uni">1293D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIM-B3">𒥍</span>
+              </div>
+              <div>
+                <span class="cc-uni">1294D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES MAR-B">𒥝</span>
+              </div>
+              <div>
+                <span class="cc-uni">1295D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NU11 TENU">𒥭</span>
+              </div>
+              <div>
+                <span class="cc-uni">1296D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUNUZ-C">𒥽</span>
+              </div>
+              <div>
+                <span class="cc-uni">1297D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RAD-A">𒦍</span>
+              </div>
+              <div>
+                <span class="cc-uni">1298D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAGSHU">𒦝</span>
+              </div>
+              <div>
+                <span class="cc-uni">1299D</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES KU-B1">𒦭</span>
+              </div>
+              <div>
+                <span class="cc-uni">129AD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-B OVER SIG2-B">𒦽</span>
+              </div>
+              <div>
+                <span class="cc-uni">129BD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES GESHTU-A">𒧍</span>
+              </div>
+              <div>
+                <span class="cc-uni">129CD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SUHUR">𒧝</span>
+              </div>
+              <div>
+                <span class="cc-uni">129DD</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-C TIMES ZATU687">𒧭</span>
+              </div>
+              <div>
+                <span class="cc-uni">129ED</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUHUR GUNU">𒧽</span>
+              </div>
+              <div>
+                <span class="cc-uni">129FD</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>E</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUD">𒤎</span>
+              </div>
+              <div>
+                <span class="cc-uni">1290E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUSH3-A">𒤞</span>
+              </div>
+              <div>
+                <span class="cc-uni">1291E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAGA-A TIMES TAK4-A">𒤮</span>
+              </div>
+              <div>
+                <span class="cc-uni">1292E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NE-B">𒤾</span>
+              </div>
+              <div>
+                <span class="cc-uni">1293E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NIMGIR">𒥎</span>
+              </div>
+              <div>
+                <span class="cc-uni">1294E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES NUN-A">𒥞</span>
+              </div>
+              <div>
+                <span class="cc-uni">1295E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUMUN">𒥮</span>
+              </div>
+              <div>
+                <span class="cc-uni">1296E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PA-A">𒥾</span>
+              </div>
+              <div>
+                <span class="cc-uni">1297E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RAD-A GUNU">𒦎</span>
+              </div>
+              <div>
+                <span class="cc-uni">1298E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAL">𒦞</span>
+              </div>
+              <div>
+                <span class="cc-uni">1299E</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES SAL">𒦮</span>
+              </div>
+              <div>
+                <span class="cc-uni">129AE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-C1">𒦾</span>
+              </div>
+              <div>
+                <span class="cc-uni">129BE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES GESHTU-C3">𒧎</span>
+              </div>
+              <div>
+                <span class="cc-uni">129CE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SUM-A">𒧞</span>
+              </div>
+              <div>
+                <span class="cc-uni">129DE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA4-A">𒧮</span>
+              </div>
+              <div>
+                <span class="cc-uni">129EE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUHUR NUTILLU">𒧾</span>
+              </div>
+              <div>
+                <span class="cc-uni">129FE</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>F</th>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUD3-A">𒤏</span>
+              </div>
+              <div>
+                <span class="cc-uni">1290F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MUSH3-A GUNU">𒤟</span>
+              </div>
+              <div>
+                <span class="cc-uni">1291F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NAGA-B">𒤯</span>
+              </div>
+              <div>
+                <span class="cc-uni">1292F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NE-C">𒤿</span>
+              </div>
+              <div>
+                <span class="cc-uni">1293F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2">𒥏</span>
+              </div>
+              <div>
+                <span class="cc-uni">1294F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NINDA2 TIMES U4">𒥟</span>
+              </div>
+              <div>
+                <span class="cc-uni">1295F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN NUN-A">𒥯</span>
+              </div>
+              <div>
+                <span class="cc-uni">1296F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN PA-B">𒥿</span>
+              </div>
+              <div>
+                <span class="cc-uni">1297F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN RAD-B">𒦏</span>
+              </div>
+              <div>
+                <span class="cc-uni">1298F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SAL TIMES ONE N58">𒦟</span>
+              </div>
+              <div>
+                <span class="cc-uni">1299F</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SI TIMES SHE3">𒦯</span>
+              </div>
+              <div>
+                <span class="cc-uni">129AF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SIG2-C2">𒦿</span>
+              </div>
+              <div>
+                <span class="cc-uni">129BF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES HASHHUR">𒧏</span>
+              </div>
+              <div>
+                <span class="cc-uni">129CF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA3-A TIMES SUM-B">𒧟</span>
+              </div>
+              <div>
+                <span class="cc-uni">129DF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SILA4-B">𒧯</span>
+              </div>
+              <div>
+                <span class="cc-uni">129EF</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="vbox">
+              <div>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN SUHUR TENU">𒧿</span>
+              </div>
+              <div>
+                <span class="cc-uni">129FF</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </body>
+  </html>
+</esp:page>

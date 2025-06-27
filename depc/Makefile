@@ -23,12 +23,14 @@ deps:
 	(cd ../fepc; make)
 
 depc.pdf: depc.tex depcmac.tex Makefile
-	-oraccetex depc.tex
-	-oraccetex depc.tex
-	b/attach-udata.sh
+	b/ldepclua.sh
+#	-oraccetex depc.tex
+#	-oraccetex depc.tex
+#	b/attach-udata.sh
 
 depc.tex: m/depc.xml b/html2tex.xsl
-	xsltproc -xinclude b/html2tex.xsl $< | sed 's#home/stinney#Users/stinney#g' >$@
+	b/ldepcxml.sh | sed 's#home/stinney#Users/stinney#g' >$@ 
+#	xsltproc -xinclude b/html2tex.xsl $< | sed 's#home/stinney#Users/stinney#g' >$@
 
 m/depc.xml: ${MDEPS}
 	b/marshall.sh

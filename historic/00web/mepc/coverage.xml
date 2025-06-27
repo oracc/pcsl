@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Sign Lists</esp:name>
+  <esp:title>Sign Lists</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>Although the strategically selected subset of the Uruk IV/III
+      corpus is only two-thirds of the entire corpus in terms of
+      manuscripts, the graphemic coverage provided by the combination
+      of ACN and PC25 is very high.</p>
+      <p>Of the 6296 texts in the
+      entire PCSL corpus, 162 contain
+      unencoded signs, i.e., 97.51%
+ of texts have
+      no unencoded graphemes.</p>
+      <p>The total number of instances of graphemes that are included
+      in the encoded repertoire is substantial: of
+      97838 instances
+      of 2036
+      graphemes, only 248
+      instances of 172
+      graphemes are not encoded.  99.75%
+ of instances of
+      graphemes in PCSL are represented in the encodings either
+      directly or as sequences.</p>
+    </body>
+  </html>
+</esp:page>

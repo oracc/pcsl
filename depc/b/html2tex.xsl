@@ -979,7 +979,7 @@
     <xsl:call-template name="sl-dist"/>
     <xsl:text>}{</xsl:text>
     <xsl:value-of select="*[@class='notes']"/>
-    <xsl:text>}&#xa;</xsl:text>
+    <xsl:text>}%&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template name="sl-dist">

@@ -1,2 +1,2 @@
 #!/bin/sh
-TEXFONTS= luahbtex --output-format=pdf '&latex' $*
+TEXFONTS= luahbtex --interaction=nonstopmode --output-format=pdf '&latex' $*

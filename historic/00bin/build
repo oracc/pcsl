@@ -1,0 +1,6 @@
+#!/bin/sh
+oracc resources
+oracc update
+00bin/addpages.sh
+rm nohup.out
+nohup oracc build clean &
