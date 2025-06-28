@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+  <esp:name>Sequences</esp:name>
+  <esp:title>Sequences</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>This section provides some background on how PCSL handles
+      sequences.</p>
+      <esp:sh>Sequences have constant character names</esp:sh>
+      <p>In PCSL, the tag <code>@sign</code> is used for sign names
+      and is dissociated from glyph names.  All of the variants of a
+      sequences are grouped under a single <code>@sign</code>.  The
+      sign name is composed of a conventional ordering of the
+      sequence, with each component joined by periods ('.'). Each sign
+      name is unique among the set of sign names.</p>
+      <p>If there is an attested simple linear sequence for a sequence
+      character, that form is selected for the character name.  The
+      mnemonically named <code>LUGAL</code> occurs in a simple linear
+      sequence as |GAL~a.LU₂|, so that is used as the name of the
+      character.</p>
+      <esp:sh>Glyphs have unique names</esp:sh>
+      <p>PCSL uses a new tag, <code>@glyf</code> to clarify the
+      separation of character names versus glyph names.  Glyph names
+      consist of a name conforming to an extended set of rules for
+      grapheme naming and possibly a variant tag, consisting of a
+      tilde and a sequence of one or more digits.  One glyph name for
+      LUGAL is <code>|GAL~a.LU₂~a|~1</code>.  The variant tag is
+      stable and represents a variation on the basic glyph name (i.e.,
+      the name with all joiners mapped to '.').</p>
+      <p>Glyph names only have to be unique among @glyf entries; a
+      @sign and @glyf may have the same name.</p>
+      <esp:sh>How unique glyph names are constructed</esp:sh>
+      <p>Unique glyph names are constructed by varying the order and
+      joiners of the grapheme notation in a way that reflects the
+      variant's form. The joiners are '.' ("BESIDE"), '+' ("JOINING"),
+      and '∘' ("TURNING"), the ring operator. This last is an addition
+      to ATF notation to support the description of sign clustering.</p>
+      <p>Glyph names do not encode internal glyph variation, i.e.,
+      several variant forms of IB are used in the construction of ŠAB
+      (|PA.IB|).</p>
+      <p>Following the corpus-building rule that input text should not
+      be reordered, glyph names do not reorder components.  Where
+      there is a reasonable choice of how to describe the order of
+      components an order identical or closer to the sequence
+      character name is preferred.  Thus, in the case of character
+      <code>|PAP~a.IB~a|</code>, the glyph 𒭅 could reasonably be
+      described as |PAP~a.IB~a| or |IB~a∘PAP~a|.  The former is
+      preferred because it follows the character name.</p>
+      <p>Similarly, glyph names do not remap or normalize variant
+      components that are considered distinct signs in PCSL.  Thus,
+      for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a| and
+      |UŠ~b.KUR~a|; similarly, for |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
+      are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a distinct component)
+      |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
+      <esp:sh>How glyph names are turned into ligatures</esp:sh>
+      <p>Glyph names are turned into ligatures by taking the base
+      component signs and joining them with the ZWJ, U+200D. Multiple
+      glyph names may generate the same core ligature sequence, so
+      CVnn tags are added to the second and subsequent duplicate core
+      ligatures to disambiguate them.  Thus, |ŠE~a.NAM₂| has two glyph
+      forms, named |ŠE~a.NAM₂|~1 and |ŠE~a.NAM₂|~2. These are mapped,
+      schematically, to ŠE~a_u200D_NAM₂ and ŠE~a_u200D_NAM₂.cv01. The
+      CVnn used in the font is relative to the number of previous
+      duplicate siblings of the glyph name; in the case of the
+      character |GA~a.ZATU753| there are glyphs |GA~a.ZATU753|~1 and
+      |ZATU753.GA~a|~1; neither ligature therefore requires a CVnn.</p>
+      <p>Note that in order for this approach to work it is important
+      to specify the OpenType feature lookups in the correct order:
+      <code>liga</code> must come before <code>cv01 .. cvNN</code>,
+      and <code>salt</code> should come last. Unmarked
+      <code>liga</code> should be in the <code>liga</code> table;
+      <code>liga.cvNN</code> should be in the <code>salt</code>
+      table.</p>
+      <p>In <code>XeTeX</code>, the features for the cvNN ligatures
+      should be specified as "+cv01,+salt=0", "+cv02,+salt=1",
+      "+cv03,+salt=2" (specifying +liga is unnecessary with XeTeX;
+      note that salt index is 0-based).</p>
+    </body>
+  </html>
+</esp:page>

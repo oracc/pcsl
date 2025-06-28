@@ -1,0 +1,10 @@
+JOINING and PLUS seem to be used somewhat interchangeably in the
+names. PLUS seems to be the one that would be more consistent with
+cuneiform practice.
+
+WITH seems to correspond to ., but in cuneiform we just used
+juxtaposition, e.g., SHE HU for our duck, rather than SHE WITH HU.
+
+Besides being called NUMBER, the numeric signs have more hyphens than
+they should (NUMBER ONE-N57 should be NUMERIC SIGN ONE N57, like the
+provisionally assigned CUNEIFORM NUMERIC SIGN ONE N01).

@@ -1,0 +1,3960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sl n="zatu">
+  <z>
+    <zatu n="ZATU001"/>
+    <sign oid="o0980000"/>
+  </z>
+  <z>
+    <zatu n="ZATU002"/>
+    <sign oid="o0980003"/>
+  </z>
+  <z>
+    <zatu n="ZATU003"/>
+    <sign oid="o0980004"/>
+  </z>
+  <z>
+    <zatu n="ZATU004"/>
+    <sign oid="o0980006"/>
+  </z>
+  <z>
+    <zatu n="ZATU005"/>
+    <sign oid="o0980005"/>
+  </z>
+  <z>
+    <zatu n="ZATU006"/>
+    <sign oid="o0980009"/>
+  </z>
+  <z>
+    <zatu n="ZATU007"/>
+    <sign oid="o0980010"/>
+    <sign oid="o0980021"/>
+  </z>
+  <z>
+    <zatu n="ZATU008"/>
+    <sign oid="o0980022"/>
+  </z>
+  <z>
+    <zatu n="ZATU009"/>
+    <sign oid="o0980012"/>
+  </z>
+  <z>
+    <zatu n="ZATU010"/>
+    <sign oid="o0980017"/>
+  </z>
+  <z>
+    <zatu n="ZATU011"/>
+    <sign oid="o0980020"/>
+  </z>
+  <z>
+    <zatu n="ZATU012"/>
+    <sign oid="o0980025"/>
+  </z>
+  <z>
+    <zatu n="ZATU013"/>
+    <sign oid="o0980026"/>
+  </z>
+  <z>
+    <zatu n="ZATU014"/>
+    <sign oid="o0982203"/>
+  </z>
+  <z>
+    <zatu n="ZATU014a"/>
+    <zref>ZATU gives |2(N57)+AB₂| and |3(N57)+AB₂|; Corpus has |3(N57).AB₂|/|4(N57).AB₂| in ATU 1, 610 = P005961 ii 5-6 read 3(N57) AB₂ 4(N57) AB₂ in CDLI.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU015"/>
+    <sign oid="o0980028"/>
+  </z>
+  <z>
+    <zatu n="ZATU016"/>
+    <sign oid="o0980029"/>
+  </z>
+  <z>
+    <zatu n="ZATU017"/>
+    <sign oid="o0980030"/>
+  </z>
+  <z>
+    <zatu n="ZATU018"/>
+    <sign oid="o0980031"/>
+    <sign oid="o0980032"/>
+    <sign oid="o0980033"/>
+  </z>
+  <z>
+    <zatu n="ZATU019"/>
+    <sign oid="o0980034"/>
+  </z>
+  <z>
+    <zatu n="ZATU020"/>
+    <sign oid="o0980035"/>
+  </z>
+  <z>
+    <zatu n="ZATU021"/>
+    <sign oid="o0980967"/>
+  </z>
+  <z>
+    <zatu n="ZATU022"/>
+    <sign oid="o0980037"/>
+  </z>
+  <z>
+    <zatu n="ZATU023"/>
+    <sign oid="o0980038"/>
+    <sign oid="o0980039"/>
+  </z>
+  <z>
+    <zatu n="ZATU024"/>
+    <sign oid="o0980040"/>
+  </z>
+  <z>
+    <zatu n="ZATU025"/>
+    <sign oid="o0980041"/>
+    <sign oid="o0980042"/>
+    <sign oid="o0980043"/>
+    <sign oid="o0980044"/>
+    <sign oid="o0980045"/>
+  </z>
+  <z>
+    <zatu n="ZATU026"/>
+    <sign oid="o0980047"/>
+  </z>
+  <z>
+    <zatu n="ZATU027"/>
+    <sign oid="o0980048"/>
+    <sign oid="o0980049"/>
+  </z>
+  <z>
+    <zatu n="ZATU028"/>
+    <sign oid="o0980050"/>
+    <sign oid="o0980052"/>
+  </z>
+  <z>
+    <zatu n="ZATU029"/>
+    <sign oid="o0980053"/>
+  </z>
+  <z>
+    <zatu n="ZATU030"/>
+    <sign oid="o0980055"/>
+  </z>
+  <z>
+    <zatu n="ZATU031"/>
+    <sign oid="o0980058"/>
+  </z>
+  <z>
+    <zatu n="ZATU032"/>
+    <sign oid="o0980059"/>
+    <sign oid="o0980060"/>
+    <sign oid="o0980061"/>
+    <sign oid="o0980062"/>
+    <sign oid="o0980063"/>
+  </z>
+  <z>
+    <zatu n="ZATU033"/>
+    <sign oid="o0980065"/>
+    <sign oid="o0980067"/>
+    <sign oid="o0980068"/>
+  </z>
+  <z>
+    <zatu n="ZATU034"/>
+    <sign oid="o0980069"/>
+    <sign oid="o0980070"/>
+  </z>
+  <z>
+    <zatu n="ZATU035"/>
+    <sign oid="o0980071"/>
+  </z>
+  <z>
+    <zatu n="ZATU036"/>
+    <sign oid="o0980073"/>
+  </z>
+  <z>
+    <zatu n="ZATU037"/>
+    <sign oid="o0982172"/>
+  </z>
+  <z>
+    <zatu n="ZATU038"/>
+    <sign oid="o0980075"/>
+  </z>
+  <z>
+    <zatu n="ZATU039"/>
+    <sign oid="o0980076"/>
+  </z>
+  <z>
+    <zatu n="ZATU040"/>
+    <sign oid="o0980077"/>
+  </z>
+  <z>
+    <zatu n="ZATU041"/>
+    <sign oid="o0980078"/>
+  </z>
+  <z>
+    <zatu n="ZATU042"/>
+    <sign oid="o0980079"/>
+  </z>
+  <z>
+    <zatu n="ZATU043"/>
+    <sign oid="o0980877"/>
+    <sign oid="o0980878"/>
+  </z>
+  <z>
+    <zatu n="ZATU044"/>
+    <sign oid="o0980080"/>
+    <sign oid="o0980081"/>
+    <sign oid="o0980082"/>
+  </z>
+  <z>
+    <zatu n="ZATU045"/>
+    <sign oid="o0980083"/>
+    <sign oid="o0980084"/>
+    <sign oid="o0980085"/>
+  </z>
+  <z>
+    <zatu n="ZATU046"/>
+    <sign oid="o0980086"/>
+    <sign oid="o0980087"/>
+  </z>
+  <z>
+    <zatu n="ZATU047"/>
+    <sign oid="o0980088"/>
+  </z>
+  <z>
+    <zatu n="ZATU048"/>
+    <sign oid="o0980089"/>
+    <sign oid="o0980090"/>
+  </z>
+  <z>
+    <zatu n="ZATU049"/>
+    <sign oid="o0980091"/>
+    <sign oid="o0980093"/>
+    <sign oid="o0980094"/>
+    <sign oid="o0980095"/>
+  </z>
+  <z>
+    <zatu n="ZATU050"/>
+    <sign oid="o0980096"/>
+    <sign oid="o0980097"/>
+    <sign oid="o0980098"/>
+    <sign oid="o0980099"/>
+    <sign oid="o0980100"/>
+    <sign oid="o0980101"/>
+  </z>
+  <z>
+    <zatu n="ZATU051"/>
+    <sign oid="o0980102"/>
+  </z>
+  <z>
+    <zatu n="ZATU052"/>
+    <sign oid="o0980105"/>
+    <sign oid="o0980106"/>
+  </z>
+  <z>
+    <zatu n="ZATU053"/>
+    <sign oid="o0980107"/>
+  </z>
+  <z>
+    <zatu n="ZATU054"/>
+    <sign oid="o0980109"/>
+    <sign oid="o0980110"/>
+    <sign oid="o0980111"/>
+  </z>
+  <z>
+    <zatu n="ZATU055"/>
+    <sign oid="o0980112"/>
+    <sign oid="o0980113"/>
+    <sign oid="o0980114"/>
+  </z>
+  <z>
+    <zatu n="ZATU056"/>
+    <sign oid="o0980115"/>
+    <sign oid="o0980126"/>
+  </z>
+  <z>
+    <zatu n="ZATU057"/>
+    <sign oid="o0980120"/>
+  </z>
+  <z>
+    <zatu n="ZATU058"/>
+    <sign oid="o0980123"/>
+    <sign oid="o0982241"/>
+  </z>
+  <z>
+    <zatu n="ZATU059"/>
+    <sign oid="o0980117"/>
+  </z>
+  <z>
+    <zatu n="ZATU060"/>
+    <sign oid="o0980128"/>
+  </z>
+  <z>
+    <zatu n="ZATU061"/>
+    <sign oid="o0980129"/>
+  </z>
+  <z>
+    <zatu n="ZATU062"/>
+    <sign oid="o0980130"/>
+  </z>
+  <z>
+    <zatu n="ZATU063"/>
+    <sign oid="o0980132"/>
+    <sign oid="o0980133"/>
+    <sign oid="o0980134"/>
+    <sign oid="o0980135"/>
+  </z>
+  <z>
+    <zatu n="ZATU064"/>
+    <sign oid="o0980136"/>
+  </z>
+  <z>
+    <zatu n="ZATU065"/>
+    <sign oid="o0980137"/>
+    <sign oid="o0980139"/>
+    <sign oid="o0980140"/>
+    <sign oid="o0980141"/>
+  </z>
+  <z>
+    <zatu n="ZATU066"/>
+    <sign oid="o0980143"/>
+  </z>
+  <z>
+    <zatu n="ZATU067"/>
+    <sign oid="o0980144"/>
+  </z>
+  <z>
+    <zatu n="ZATU068"/>
+    <sign oid="o0980145"/>
+  </z>
+  <z>
+    <zatu n="ZATU069"/>
+    <sign oid="o0980146"/>
+    <sign oid="o0980148"/>
+    <sign oid="o0980149"/>
+    <sign oid="o0980150"/>
+  </z>
+  <z>
+    <zatu n="ZATU070"/>
+    <sign oid="o0980151"/>
+    <sign oid="o0980152"/>
+    <sign oid="o0980153"/>
+    <sign oid="o0980156"/>
+  </z>
+  <z>
+    <zatu n="ZATU071"/>
+    <sign oid="o0980154"/>
+    <sign oid="o0980158"/>
+  </z>
+  <z>
+    <zatu n="ZATU072"/>
+    <sign oid="o0980155"/>
+    <sign oid="o0980157"/>
+  </z>
+  <z>
+    <zatu n="ZATU073"/>
+    <sign oid="o0980159"/>
+    <sign oid="o0980160"/>
+    <sign oid="o0980161"/>
+    <sign oid="o0980162"/>
+    <sign oid="o0980163"/>
+    <sign oid="o0980164"/>
+    <sign oid="o0980165"/>
+    <sign oid="o0980166"/>
+    <sign oid="o0980167"/>
+    <sign oid="o0980168"/>
+    <sign oid="o0980169"/>
+  </z>
+  <z>
+    <zatu n="ZATU074"/>
+    <zref>ZATU074 DARA₄+BAD+BAD reread in ATU 3 p.154 W20421,2 = Lú Vorläufer (Tf.23) O0305 as RI₈~a? DARA₄~b.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU075"/>
+    <sign oid="o0980170"/>
+  </z>
+  <z>
+    <zatu n="ZATU076"/>
+    <sign oid="o0980172"/>
+  </z>
+  <z>
+    <zatu n="ZATU077"/>
+    <sign oid="o0980173"/>
+  </z>
+  <z>
+    <zatu n="ZATU078"/>
+    <sign oid="o0980174"/>
+    <sign oid="o0980177"/>
+    <sign oid="o0980178"/>
+  </z>
+  <z>
+    <zatu n="ZATU079"/>
+    <sign oid="o0980179"/>
+  </z>
+  <z>
+    <zatu n="ZATU080"/>
+    <sign oid="o0980181"/>
+  </z>
+  <z>
+    <zatu n="ZATU081"/>
+    <sign oid="o0982182"/>
+  </z>
+  <z>
+    <zatu n="ZATU082"/>
+    <sign oid="o0980182"/>
+  </z>
+  <z>
+    <zatu n="ZATU083"/>
+    <sign oid="o0980185"/>
+    <sign oid="o0980188"/>
+    <sign oid="o0980189"/>
+  </z>
+  <z>
+    <zatu n="ZATU084"/>
+    <sign oid="o0980190"/>
+  </z>
+  <z>
+    <zatu n="ZATU085"/>
+    <sign oid="o0980191"/>
+    <sign oid="o0980192"/>
+    <sign oid="o0980193"/>
+  </z>
+  <z>
+    <zatu n="ZATU086"/>
+    <sign oid="o0980200"/>
+    <sign oid="o0980201"/>
+    <sign oid="o0980203"/>
+    <sign oid="o0980204"/>
+    <sign oid="o0980205"/>
+    <sign oid="o0980206"/>
+    <sign oid="o0980207"/>
+  </z>
+  <z>
+    <zatu n="ZATU087"/>
+    <sign oid="o0980208"/>
+    <sign oid="o0980209"/>
+    <sign oid="o0980210"/>
+  </z>
+  <z>
+    <zatu n="ZATU088"/>
+    <sign oid="o0980212"/>
+    <sign oid="o0980222"/>
+    <sign oid="o0980284"/>
+    <sign oid="o0980287"/>
+  </z>
+  <z>
+    <zatu n="ZATU089"/>
+    <sign oid="o0980223"/>
+  </z>
+  <z>
+    <zatu n="ZATU090"/>
+    <sign oid="o0980224"/>
+    <sign oid="o0980225"/>
+  </z>
+  <z>
+    <zatu n="ZATU091"/>
+    <sign oid="o0980221"/>
+    <sign oid="o0980279"/>
+    <sign oid="o0980285"/>
+  </z>
+  <z>
+    <zatu n="ZATU092"/>
+    <sign oid="o0980280"/>
+  </z>
+  <z>
+    <zatu n="ZATU093"/>
+    <sign oid="o0980226"/>
+  </z>
+  <z>
+    <zatu n="ZATU094"/>
+    <sign oid="o0980227"/>
+  </z>
+  <z>
+    <zatu n="ZATU095"/>
+    <sign oid="o0980228"/>
+  </z>
+  <z>
+    <zatu n="ZATU096"/>
+    <sign oid="o0980229"/>
+  </z>
+  <z>
+    <zatu n="ZATU097"/>
+    <sign oid="o0980232"/>
+    <sign oid="o0980233"/>
+  </z>
+  <z>
+    <zatu n="ZATU098"/>
+    <sign oid="o0980234"/>
+    <sign oid="o0980235"/>
+  </z>
+  <z>
+    <zatu n="ZATU099"/>
+    <sign oid="o0980236"/>
+  </z>
+  <z>
+    <zatu n="ZATU100"/>
+    <sign oid="o0980237"/>
+  </z>
+  <z>
+    <zatu n="ZATU101"/>
+    <sign oid="o0980238"/>
+  </z>
+  <z>
+    <zatu n="ZATU102"/>
+    <sign oid="o0980239"/>
+  </z>
+  <z>
+    <zatu n="ZATU103"/>
+    <sign oid="o0980214"/>
+    <sign oid="o0980240"/>
+  </z>
+  <z>
+    <zatu n="ZATU104"/>
+    <sign oid="o0980215"/>
+    <sign oid="o0980241"/>
+  </z>
+  <z>
+    <zatu n="ZATU105"/>
+    <sign oid="o0980242"/>
+    <sign oid="o0980244"/>
+  </z>
+  <z>
+    <zatu n="ZATU106"/>
+    <sign oid="o0980216"/>
+    <sign oid="o0980246"/>
+  </z>
+  <z>
+    <zatu n="ZATU107"/>
+    <sign oid="o0980245"/>
+  </z>
+  <z>
+    <zatu n="ZATU108"/>
+    <sign oid="o0980247"/>
+  </z>
+  <z>
+    <zatu n="ZATU109"/>
+    <sign oid="o0980217"/>
+    <sign oid="o0980248"/>
+  </z>
+  <z>
+    <zatu n="ZATU110"/>
+    <sign oid="o0980251"/>
+  </z>
+  <z>
+    <zatu n="ZATU111"/>
+    <sign oid="o0980252"/>
+  </z>
+  <z>
+    <zatu n="ZATU112"/>
+    <sign oid="o0980253"/>
+  </z>
+  <z>
+    <zatu n="ZATU113"/>
+    <sign oid="o0980255"/>
+    <sign oid="o0980256"/>
+  </z>
+  <z>
+    <zatu n="ZATU114"/>
+    <sign oid="o0980257"/>
+  </z>
+  <z>
+    <zatu n="ZATU115"/>
+    <sign oid="o0980258"/>
+  </z>
+  <z>
+    <zatu n="ZATU116"/>
+    <sign oid="o0980259"/>
+  </z>
+  <z>
+    <zatu n="ZATU117"/>
+    <sign oid="o0980260"/>
+  </z>
+  <z>
+    <zatu n="ZATU118"/>
+    <sign oid="o0980261"/>
+  </z>
+  <z>
+    <zatu n="ZATU119"/>
+    <sign oid="o0980262"/>
+  </z>
+  <z>
+    <zatu n="ZATU120"/>
+    <sign oid="o0980263"/>
+  </z>
+  <z>
+    <zatu n="ZATU121"/>
+    <sign oid="o0980266"/>
+  </z>
+  <z>
+    <zatu n="ZATU122"/>
+    <sign oid="o0980218"/>
+    <sign oid="o0980219"/>
+    <sign oid="o0980267"/>
+    <sign oid="o0980268"/>
+  </z>
+  <z>
+    <zatu n="ZATU123"/>
+    <sign oid="o0980270"/>
+  </z>
+  <z>
+    <zatu n="ZATU124"/>
+    <sign oid="o0980274"/>
+  </z>
+  <z>
+    <zatu n="ZATU125"/>
+    <sign oid="o0980288"/>
+  </z>
+  <z>
+    <zatu n="ZATU126"/>
+    <sign oid="o0980289"/>
+    <sign oid="o0980290"/>
+  </z>
+  <z>
+    <zatu n="ZATU127"/>
+    <sign oid="o0980291"/>
+  </z>
+  <z>
+    <zatu n="ZATU128"/>
+    <sign oid="o0980292"/>
+    <sign oid="o0980293"/>
+    <sign oid="o0980294"/>
+    <sign oid="o0980295"/>
+  </z>
+  <z>
+    <zatu n="ZATU129"/>
+    <sign oid="o0980297"/>
+    <sign oid="o0980301"/>
+    <sign oid="o0980304"/>
+    <sign oid="o0980305"/>
+  </z>
+  <z>
+    <zatu n="ZATU130"/>
+    <sign oid="o0980708"/>
+    <sign oid="o0980711"/>
+  </z>
+  <z>
+    <zatu n="ZATU131"/>
+    <sign oid="o0980300"/>
+    <sign oid="o0980303"/>
+  </z>
+  <z>
+    <zatu n="ZATU132"/>
+    <sign oid="o0980306"/>
+    <sign oid="o0980307"/>
+  </z>
+  <z>
+    <zatu n="ZATU133"/>
+    <sign oid="o0980308"/>
+  </z>
+  <z>
+    <zatu n="ZATU134"/>
+    <sign oid="o0980309"/>
+    <sign oid="o0980310"/>
+    <sign oid="o0980312"/>
+    <sign oid="o0980314"/>
+  </z>
+  <z>
+    <zatu n="ZATU135"/>
+    <sign oid="o0980983"/>
+    <sign oid="o0980984"/>
+    <sign oid="o0980985"/>
+    <sign oid="o0980989"/>
+  </z>
+  <z>
+    <zatu n="ZATU136"/>
+    <zref>ZATU EN+UDU(?) read in CDLI as X in hapax ATU 1, 342=P001563 ATU 5, pl. 104, W 9656,es i 1.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU137"/>
+    <sign oid="o0980315"/>
+    <sign oid="o0980316"/>
+  </z>
+  <z>
+    <zatu n="ZATU138"/>
+    <sign oid="o0980317"/>
+  </z>
+  <z>
+    <zatu n="ZATU139"/>
+    <sign oid="o0980320"/>
+  </z>
+  <z>
+    <zatu n="ZATU140"/>
+    <sign oid="o0980321"/>
+  </z>
+  <z>
+    <zatu n="ZATU141"/>
+    <sign oid="o0980322"/>
+  </z>
+  <z>
+    <zatu n="ZATU142"/>
+    <sign oid="o0980323"/>
+  </z>
+  <z>
+    <zatu n="ZATU143"/>
+    <sign oid="o0980326"/>
+    <sign oid="o0980327"/>
+    <sign oid="o0980328"/>
+  </z>
+  <z>
+    <zatu n="ZATU144"/>
+    <sign oid="o0980329"/>
+  </z>
+  <z>
+    <zatu n="ZATU145"/>
+    <sign oid="o0980330"/>
+  </z>
+  <z>
+    <zatu n="ZATU146"/>
+    <sign oid="o0982174"/>
+  </z>
+  <z>
+    <zatu n="ZATU147"/>
+    <sign oid="o0980331"/>
+  </z>
+  <z>
+    <zatu n="ZATU148"/>
+    <sign oid="o0980332"/>
+  </z>
+  <z>
+    <zatu n="ZATU149"/>
+    <sign oid="o0980333"/>
+  </z>
+  <z>
+    <zatu n="ZATU150"/>
+    <sign oid="o0980334"/>
+    <sign oid="o0980350"/>
+    <sign oid="o0980353"/>
+    <sign oid="o0982242"/>
+  </z>
+  <z>
+    <zatu n="ZATU151"/>
+    <sign oid="o0980335"/>
+    <sign oid="o0980336"/>
+  </z>
+  <z>
+    <zatu n="ZATU152"/>
+    <sign oid="o0980338"/>
+  </z>
+  <z>
+    <zatu n="ZATU153"/>
+    <sign oid="o0980342"/>
+  </z>
+  <z>
+    <zatu n="ZATU154"/>
+    <sign oid="o0980343"/>
+  </z>
+  <z>
+    <zatu n="ZATU155"/>
+    <sign oid="o0980344"/>
+  </z>
+  <z>
+    <zatu n="ZATU156"/>
+    <sign oid="o0980346"/>
+  </z>
+  <z>
+    <zatu n="ZATU157"/>
+    <sign oid="o0980347"/>
+  </z>
+  <z>
+    <zatu n="ZATU158"/>
+    <sign oid="o0980354"/>
+    <sign oid="o0980355"/>
+    <sign oid="o0980356"/>
+    <sign oid="o0980357"/>
+  </z>
+  <z>
+    <zatu n="ZATU159"/>
+    <sign oid="o0980358"/>
+    <sign oid="o0980361"/>
+    <sign oid="o0980362"/>
+  </z>
+  <z>
+    <zatu n="ZATU160"/>
+    <sign oid="o0980364"/>
+  </z>
+  <z>
+    <zatu n="ZATU161"/>
+    <sign oid="o0980359"/>
+  </z>
+  <z>
+    <zatu n="ZATU162"/>
+    <sign oid="o0980365"/>
+    <sign oid="o0980403"/>
+    <sign oid="o0980412"/>
+    <sign oid="o0980414"/>
+    <sign oid="o0980415"/>
+    <sign oid="o0980422"/>
+  </z>
+  <z>
+    <zatu n="ZATU163"/>
+    <sign oid="o0981731"/>
+  </z>
+  <z>
+    <zatu n="ZATU164"/>
+    <sign oid="o0980401"/>
+  </z>
+  <z>
+    <zatu n="ZATU165"/>
+    <zref>Only in UET II as BAU328 = |GA₂×(1(N58).BAD)|.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU166"/>
+    <sign oid="o0980416"/>
+    <sign oid="o0980417"/>
+  </z>
+  <z>
+    <zatu n="ZATU167"/>
+    <sign oid="o0980373"/>
+  </z>
+  <z>
+    <zatu n="ZATU168"/>
+    <sign oid="o0980375"/>
+  </z>
+  <z>
+    <zatu n="ZATU169"/>
+    <sign oid="o0980409"/>
+  </z>
+  <z>
+    <zatu n="ZATU170"/>
+    <sign oid="o0980378"/>
+  </z>
+  <z>
+    <zatu n="ZATU171"/>
+    <sign oid="o0980379"/>
+  </z>
+  <z>
+    <zatu n="ZATU172"/>
+    <sign oid="o0980380"/>
+    <sign oid="o0980418"/>
+  </z>
+  <z>
+    <zatu n="ZATU173"/>
+    <sign oid="o0980381"/>
+    <sign oid="o0980419"/>
+  </z>
+  <z>
+    <zatu n="ZATU174"/>
+    <sign oid="o0980382"/>
+  </z>
+  <z>
+    <zatu n="ZATU175"/>
+    <sign oid="o0980759"/>
+  </z>
+  <z>
+    <zatu n="ZATU176"/>
+    <sign oid="o0980384"/>
+  </z>
+  <z>
+    <zatu n="ZATU177"/>
+    <sign oid="o0980385"/>
+  </z>
+  <z>
+    <zatu n="ZATU178"/>
+    <sign oid="o0980405"/>
+    <sign oid="o0980406"/>
+  </z>
+  <z>
+    <zatu n="ZATU179"/>
+    <sign oid="o0980391"/>
+    <sign oid="o0980407"/>
+  </z>
+  <z>
+    <zatu n="ZATU180"/>
+    <sign oid="o0980392"/>
+  </z>
+  <z>
+    <zatu n="ZATU181"/>
+    <sign oid="o0980395"/>
+  </z>
+  <z>
+    <zatu n="ZATU182"/>
+    <sign oid="o0980400"/>
+  </z>
+  <z>
+    <zatu n="ZATU183"/>
+    <sign oid="o0980398"/>
+  </z>
+  <z>
+    <zatu n="ZATU184"/>
+    <sign oid="o0980423"/>
+    <sign oid="o0980424"/>
+    <sign oid="o0980425"/>
+    <sign oid="o0980426"/>
+  </z>
+  <z>
+    <zatu n="ZATU185"/>
+    <sign oid="o0981688"/>
+  </z>
+  <z>
+    <zatu n="ZATU186"/>
+    <sign oid="o0980427"/>
+    <sign oid="o0980428"/>
+  </z>
+  <z>
+    <zatu n="ZATU187"/>
+    <sign oid="o0980429"/>
+  </z>
+  <z>
+    <zatu n="ZATU188"/>
+    <sign oid="o0980430"/>
+    <sign oid="o0980431"/>
+  </z>
+  <z>
+    <zatu n="ZATU189"/>
+    <sign oid="o0980432"/>
+    <sign oid="o0980433"/>
+  </z>
+  <z>
+    <zatu n="ZATU190"/>
+    <sign oid="o0980434"/>
+    <sign oid="o0980435"/>
+    <sign oid="o0980436"/>
+  </z>
+  <z>
+    <zatu n="ZATU191"/>
+    <sign oid="o0980439"/>
+  </z>
+  <z>
+    <zatu n="ZATU192"/>
+    <sign oid="o0980442"/>
+  </z>
+  <z>
+    <zatu n="ZATU193"/>
+    <sign oid="o0980443"/>
+  </z>
+  <z>
+    <zatu n="ZATU194"/>
+    <sign oid="o0980445"/>
+  </z>
+  <z>
+    <zatu n="ZATU195"/>
+    <sign oid="o0980453"/>
+  </z>
+  <z>
+    <zatu n="ZATU196"/>
+    <sign oid="o0980454"/>
+  </z>
+  <z>
+    <zatu n="ZATU197"/>
+    <sign oid="o0980455"/>
+    <sign oid="o0980456"/>
+    <sign oid="o0980457"/>
+  </z>
+  <z>
+    <zatu n="ZATU198"/>
+    <sign oid="o0980458"/>
+  </z>
+  <z>
+    <zatu n="ZATU199"/>
+    <sign oid="o0980459"/>
+    <sign oid="o0980460"/>
+  </z>
+  <z>
+    <zatu n="ZATU200"/>
+    <sign oid="o0980461"/>
+  </z>
+  <z>
+    <zatu n="ZATU201"/>
+    <sign oid="o0981042"/>
+  </z>
+  <z>
+    <zatu n="ZATU202"/>
+    <sign oid="o0980462"/>
+    <sign oid="o0980465"/>
+    <sign oid="o0980466"/>
+  </z>
+  <z>
+    <zatu n="ZATU203"/>
+    <sign oid="o0980467"/>
+    <sign oid="o0980469"/>
+    <sign oid="o0980470"/>
+    <sign oid="o0980471"/>
+  </z>
+  <z>
+    <zatu n="ZATU204"/>
+    <sign oid="o0980472"/>
+  </z>
+  <z>
+    <zatu n="ZATU205"/>
+    <zref>ATU 1, 28=P001294 ATU 5, pl. 068, W 9579,av read |GI&amp;GI| |GI×SIG₂~d1|;</zref>
+  </z>
+  <z>
+    <zatu n="ZATU206"/>
+    <sign oid="o0980485"/>
+  </z>
+  <z>
+    <zatu n="ZATU207"/>
+    <sign oid="o0980474"/>
+  </z>
+  <z>
+    <zatu n="ZATU208"/>
+    <sign oid="o0980476"/>
+  </z>
+  <z>
+    <zatu n="ZATU209"/>
+    <sign oid="o0980477"/>
+  </z>
+  <z>
+    <zatu n="ZATU210"/>
+    <sign oid="o0980478"/>
+  </z>
+  <z>
+    <zatu n="ZATU211"/>
+    <sign oid="o0980481"/>
+  </z>
+  <z>
+    <zatu n="ZATU212"/>
+    <sign oid="o0980489"/>
+    <sign oid="o0980492"/>
+  </z>
+  <z>
+    <zatu n="ZATU213"/>
+    <sign oid="o0980494"/>
+  </z>
+  <z>
+    <zatu n="ZATU214"/>
+    <sign oid="o0980495"/>
+  </z>
+  <z>
+    <zatu n="ZATU215"/>
+    <sign oid="o0980497"/>
+  </z>
+  <z>
+    <zatu n="ZATU216"/>
+    <sign oid="o0980500"/>
+    <sign oid="o0980502"/>
+    <sign oid="o0980504"/>
+    <sign oid="o0980505"/>
+  </z>
+  <z>
+    <zatu n="ZATU217"/>
+    <sign oid="o0980705"/>
+  </z>
+  <z>
+    <zatu n="ZATU218"/>
+    <sign oid="o0980506"/>
+    <sign oid="o0980507"/>
+  </z>
+  <z>
+    <zatu n="ZATU219"/>
+    <sign oid="o0980508"/>
+    <sign oid="o0980510"/>
+    <sign oid="o0980511"/>
+  </z>
+  <z>
+    <zatu n="ZATU220"/>
+    <sign oid="o0980509"/>
+  </z>
+  <z>
+    <zatu n="ZATU221"/>
+    <sign oid="o0980514"/>
+    <sign oid="o0980515"/>
+    <sign oid="o0980516"/>
+  </z>
+  <z>
+    <zatu n="ZATU222"/>
+    <sign oid="o0980518"/>
+    <sign oid="o0980519"/>
+  </z>
+  <z>
+    <zatu n="ZATU223"/>
+    <sign oid="o0980520"/>
+  </z>
+  <z>
+    <zatu n="ZATU224"/>
+    <sign oid="o0980522"/>
+    <sign oid="o0980523"/>
+    <sign oid="o0980524"/>
+  </z>
+  <z>
+    <zatu n="ZATU225"/>
+    <sign oid="o0980525"/>
+    <sign oid="o0980526"/>
+  </z>
+  <z>
+    <zatu n="ZATU226"/>
+    <sign oid="o0980521"/>
+  </z>
+  <z>
+    <zatu n="ZATU227"/>
+    <sign oid="o0980528"/>
+  </z>
+  <z>
+    <zatu n="ZATU228"/>
+    <sign oid="o0980530"/>
+    <sign oid="o0980532"/>
+  </z>
+  <z>
+    <zatu n="ZATU229"/>
+    <sign oid="o0980533"/>
+  </z>
+  <z>
+    <zatu n="ZATU230"/>
+    <sign oid="o0980534"/>
+    <sign oid="o0980535"/>
+    <sign oid="o0980536"/>
+    <sign oid="o0980537"/>
+    <sign oid="o0980538"/>
+    <sign oid="o0980539"/>
+  </z>
+  <z>
+    <zatu n="ZATU231"/>
+    <sign oid="o0980540"/>
+  </z>
+  <z>
+    <zatu n="ZATU232"/>
+    <sign oid="o0980541"/>
+  </z>
+  <z>
+    <zatu n="ZATU233"/>
+    <sign oid="o0980542"/>
+  </z>
+  <z>
+    <zatu n="ZATU234"/>
+    <sign oid="o0980543"/>
+  </z>
+  <z>
+    <zatu n="ZATU235"/>
+    <sign oid="o0980547"/>
+  </z>
+  <z>
+    <zatu n="ZATU236"/>
+    <sign oid="o0980548"/>
+    <sign oid="o0980549"/>
+    <sign oid="o0980550"/>
+    <sign oid="o0980551"/>
+  </z>
+  <z>
+    <zatu n="ZATU237"/>
+    <sign oid="o0980552"/>
+  </z>
+  <z>
+    <zatu n="ZATU238"/>
+    <sign oid="o0980553"/>
+  </z>
+  <z>
+    <zatu n="ZATU239"/>
+    <sign oid="o0980555"/>
+  </z>
+  <z>
+    <zatu n="ZATU240"/>
+    <sign oid="o0980557"/>
+    <sign oid="o0980559"/>
+    <sign oid="o0980560"/>
+    <sign oid="o0980561"/>
+  </z>
+  <z>
+    <zatu n="ZATU241"/>
+    <sign oid="o0980558"/>
+  </z>
+  <z>
+    <zatu n="ZATU242"/>
+    <sign oid="o0980562"/>
+  </z>
+  <z>
+    <zatu n="ZATU243"/>
+    <sign oid="o0980563"/>
+    <sign oid="o0980564"/>
+  </z>
+  <z>
+    <zatu n="ZATU244"/>
+    <sign oid="o0980565"/>
+  </z>
+  <z>
+    <zatu n="ZATU245"/>
+    <sign oid="o0980566"/>
+    <sign oid="o0980567"/>
+  </z>
+  <z>
+    <zatu n="ZATU246"/>
+    <sign oid="o0980568"/>
+  </z>
+  <z>
+    <zatu n="ZATU247"/>
+    <sign oid="o0980569"/>
+    <sign oid="o0980571"/>
+  </z>
+  <z>
+    <zatu n="ZATU248"/>
+    <sign oid="o0980570"/>
+    <sign oid="o0980572"/>
+    <sign oid="o0980573"/>
+  </z>
+  <z>
+    <zatu n="ZATU249"/>
+    <sign oid="o0980574"/>
+  </z>
+  <z>
+    <zatu n="ZATU250"/>
+    <sign oid="o0980575"/>
+  </z>
+  <z>
+    <zatu n="ZATU251"/>
+    <sign oid="o0980576"/>
+  </z>
+  <z>
+    <zatu n="ZATU252"/>
+    <sign oid="o0980577"/>
+  </z>
+  <z>
+    <zatu n="ZATU253"/>
+    <sign oid="o0980578"/>
+  </z>
+  <z>
+    <zatu n="ZATU254"/>
+    <sign oid="o0980579"/>
+    <sign oid="o0980589"/>
+  </z>
+  <z>
+    <zatu n="ZATU255"/>
+    <sign oid="o0980587"/>
+  </z>
+  <z>
+    <zatu n="ZATU256"/>
+    <sign oid="o0980580"/>
+  </z>
+  <z>
+    <zatu n="ZATU257"/>
+    <sign oid="o0980583"/>
+  </z>
+  <z>
+    <zatu n="ZATU258"/>
+    <sign oid="o0980590"/>
+    <sign oid="o0980591"/>
+    <sign oid="o0980592"/>
+  </z>
+  <z>
+    <zatu n="ZATU259"/>
+    <sign oid="o0980594"/>
+  </z>
+  <z>
+    <zatu n="ZATU260"/>
+    <sign oid="o0980595"/>
+    <sign oid="o0980597"/>
+    <sign oid="o0980598"/>
+  </z>
+  <z>
+    <zatu n="ZATU261"/>
+    <sign oid="o0980599"/>
+  </z>
+  <z>
+    <zatu n="ZATU262"/>
+    <sign oid="o0980603"/>
+  </z>
+  <z>
+    <zatu n="ZATU263"/>
+    <sign oid="o0980604"/>
+    <sign oid="o0980605"/>
+  </z>
+  <z>
+    <zatu n="ZATU264"/>
+    <sign oid="o0980606"/>
+    <sign oid="o0980608"/>
+  </z>
+  <z>
+    <zatu n="ZATU265"/>
+    <sign oid="o0980609"/>
+  </z>
+  <z>
+    <zatu n="ZATU266"/>
+    <sign oid="o0980610"/>
+  </z>
+  <z>
+    <zatu n="ZATU267"/>
+    <sign oid="o0980611"/>
+    <sign oid="o0980613"/>
+    <sign oid="o0980614"/>
+    <sign oid="o0980615"/>
+  </z>
+  <z>
+    <zatu n="ZATU268"/>
+    <sign oid="o0980616"/>
+  </z>
+  <z>
+    <zatu n="ZATU269"/>
+    <sign oid="o0980617"/>
+  </z>
+  <z>
+    <zatu n="ZATU270"/>
+    <sign oid="o0980618"/>
+    <sign oid="o0980619"/>
+    <sign oid="o0980620"/>
+  </z>
+  <z>
+    <zatu n="ZATU271"/>
+    <sign oid="o0980621"/>
+  </z>
+  <z>
+    <zatu n="ZATU272"/>
+    <zref>Read as sequence KA GI.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU273"/>
+    <sign oid="o0980623"/>
+  </z>
+  <z>
+    <zatu n="ZATU274"/>
+    <sign oid="o0980622"/>
+  </z>
+  <z>
+    <zatu n="ZATU275"/>
+    <sign oid="o0980624"/>
+    <sign oid="o0980625"/>
+    <sign oid="o0980626"/>
+  </z>
+  <z>
+    <zatu n="ZATU276"/>
+    <sign oid="o0980628"/>
+  </z>
+  <z>
+    <zatu n="ZATU277"/>
+    <sign oid="o0980629"/>
+  </z>
+  <z>
+    <zatu n="ZATU278"/>
+    <sign oid="o0980630"/>
+  </z>
+  <z>
+    <zatu n="ZATU279"/>
+    <sign oid="o0980631"/>
+    <sign oid="o0980632"/>
+    <sign oid="o0980633"/>
+    <sign oid="o0980634"/>
+  </z>
+  <z>
+    <zatu n="ZATU280"/>
+    <sign oid="o0980635"/>
+    <sign oid="o0980637"/>
+  </z>
+  <z>
+    <zatu n="ZATU281"/>
+    <sign oid="o0980638"/>
+    <sign oid="o0980639"/>
+    <sign oid="o0980640"/>
+  </z>
+  <z>
+    <zatu n="ZATU282"/>
+    <sign oid="o0980641"/>
+    <sign oid="o0980642"/>
+    <sign oid="o0980643"/>
+    <sign oid="o0980644"/>
+    <sign oid="o0980645"/>
+    <sign oid="o0980646"/>
+    <sign oid="o0980647"/>
+    <sign oid="o0980648"/>
+    <sign oid="o0980649"/>
+  </z>
+  <z>
+    <zatu n="ZATU283"/>
+    <sign oid="o0980650"/>
+  </z>
+  <z>
+    <zatu n="ZATU284"/>
+    <sign oid="o0980651"/>
+    <sign oid="o0980652"/>
+  </z>
+  <z>
+    <zatu n="ZATU285"/>
+    <sign oid="o0980653"/>
+  </z>
+  <z>
+    <zatu n="ZATU286"/>
+    <sign oid="o0980655"/>
+    <sign oid="o0980656"/>
+    <sign oid="o0980660"/>
+  </z>
+  <z>
+    <zatu n="ZATU287"/>
+    <sign oid="o0980659"/>
+  </z>
+  <z>
+    <zatu n="ZATU288"/>
+    <sign oid="o0980657"/>
+  </z>
+  <z>
+    <zatu n="ZATU289"/>
+    <sign oid="o0980662"/>
+  </z>
+  <z>
+    <zatu n="ZATU290"/>
+    <sign oid="o0980665"/>
+  </z>
+  <z>
+    <zatu n="ZATU291"/>
+    <sign oid="o0980667"/>
+    <sign oid="o0980668"/>
+    <sign oid="o0980669"/>
+    <sign oid="o0980670"/>
+    <sign oid="o0980671"/>
+  </z>
+  <z>
+    <zatu n="ZATU292"/>
+    <sign oid="o0980672"/>
+  </z>
+  <z>
+    <zatu n="ZATU293"/>
+    <sign oid="o0980673"/>
+    <sign oid="o0980674"/>
+    <sign oid="o0980675"/>
+    <sign oid="o0980676"/>
+    <sign oid="o0980677"/>
+  </z>
+  <z>
+    <zatu n="ZATU294"/>
+    <sign oid="o0980678"/>
+  </z>
+  <z>
+    <zatu n="ZATU295"/>
+    <sign oid="o0980680"/>
+    <sign oid="o0980681"/>
+    <sign oid="o0980682"/>
+    <sign oid="o0980683"/>
+    <sign oid="o0980685"/>
+  </z>
+  <z>
+    <zatu n="ZATU296"/>
+    <sign oid="o0980686"/>
+    <sign oid="o0980687"/>
+    <sign oid="o0980688"/>
+  </z>
+  <z>
+    <zatu n="ZATU297"/>
+    <sign oid="o0980689"/>
+  </z>
+  <z>
+    <zatu n="ZATU298"/>
+    <sign oid="o0980690"/>
+    <sign oid="o0980691"/>
+  </z>
+  <z>
+    <zatu n="ZATU299"/>
+    <sign oid="o0980692"/>
+  </z>
+  <z>
+    <zatu n="ZATU300"/>
+    <sign oid="o0980693"/>
+    <sign oid="o0980695"/>
+    <sign oid="o0980696"/>
+  </z>
+  <z>
+    <zatu n="ZATU301"/>
+    <sign oid="o0980697"/>
+    <sign oid="o0980698"/>
+  </z>
+  <z>
+    <zatu n="ZATU302"/>
+    <sign oid="o0980699"/>
+    <sign oid="o0980704"/>
+  </z>
+  <z>
+    <zatu n="ZATU303"/>
+    <sign oid="o0980702"/>
+  </z>
+  <z>
+    <zatu n="ZATU304"/>
+    <sign oid="o0980707"/>
+    <sign oid="o0980710"/>
+    <sign oid="o0980712"/>
+    <sign oid="o0980713"/>
+  </z>
+  <z>
+    <zatu n="ZATU305"/>
+    <sign oid="o0980716"/>
+    <sign oid="o0980717"/>
+    <sign oid="o0980718"/>
+    <sign oid="o0980719"/>
+    <sign oid="o0980720"/>
+    <sign oid="o0980721"/>
+  </z>
+  <z>
+    <zatu n="ZATU306"/>
+    <sign oid="o0980722"/>
+    <sign oid="o0980723"/>
+    <sign oid="o0980724"/>
+  </z>
+  <z>
+    <zatu n="ZATU307"/>
+    <sign oid="o0980726"/>
+  </z>
+  <z>
+    <zatu n="ZATU308"/>
+    <sign oid="o0980727"/>
+    <sign oid="o0980753"/>
+  </z>
+  <z>
+    <zatu n="ZATU309"/>
+    <sign oid="o0980755"/>
+  </z>
+  <z>
+    <zatu n="ZATU310"/>
+    <sign oid="o0980730"/>
+  </z>
+  <z>
+    <zatu n="ZATU311"/>
+    <sign oid="o0980756"/>
+  </z>
+  <z>
+    <zatu n="ZATU312"/>
+    <sign oid="o0980757"/>
+  </z>
+  <z>
+    <zatu n="ZATU313"/>
+    <sign oid="o0980732"/>
+  </z>
+  <z>
+    <zatu n="ZATU314"/>
+    <sign oid="o0980734"/>
+  </z>
+  <z>
+    <zatu n="ZATU315"/>
+    <sign oid="o0980737"/>
+  </z>
+  <z>
+    <zatu n="ZATU316"/>
+    <sign oid="o0980739"/>
+  </z>
+  <z>
+    <zatu n="ZATU317"/>
+    <sign oid="o0980740"/>
+    <sign oid="o0980760"/>
+  </z>
+  <z>
+    <zatu n="ZATU318"/>
+    <sign oid="o0980744"/>
+  </z>
+  <z>
+    <zatu n="ZATU319"/>
+    <sign oid="o0980745"/>
+  </z>
+  <z>
+    <zatu n="ZATU320"/>
+    <sign oid="o0980751"/>
+  </z>
+  <z>
+    <zatu n="ZATU321"/>
+    <sign oid="o0980750"/>
+  </z>
+  <z>
+    <zatu n="ZATU322"/>
+    <zref>|LAGAB×ZATU766|; collation on P004228 o i 4b suggests not all of LAGAB is present; read X in CDLI-tc</zref>
+  </z>
+  <z>
+    <zatu n="ZATU323"/>
+    <sign oid="o0980768"/>
+    <sign oid="o0980770"/>
+    <sign oid="o0980771"/>
+    <sign oid="o0980772"/>
+  </z>
+  <z>
+    <zatu n="ZATU324"/>
+    <sign oid="o0980773"/>
+  </z>
+  <z>
+    <zatu n="ZATU325"/>
+    <sign oid="o0980780"/>
+    <sign oid="o0980784"/>
+  </z>
+  <z>
+    <zatu n="ZATU326"/>
+    <sign oid="o0980781"/>
+  </z>
+  <z>
+    <zatu n="ZATU327"/>
+    <sign oid="o0980785"/>
+    <sign oid="o0980786"/>
+  </z>
+  <z>
+    <zatu n="ZATU328"/>
+    <sign oid="o0980788"/>
+    <sign oid="o0980789"/>
+  </z>
+  <z>
+    <zatu n="ZATU329"/>
+    <sign oid="o0980714"/>
+    <sign oid="o0980715"/>
+    <sign oid="o0980791"/>
+  </z>
+  <z>
+    <zatu n="ZATU330"/>
+    <sign oid="o0980794"/>
+  </z>
+  <z>
+    <zatu n="ZATU331"/>
+    <sign oid="o0980795"/>
+  </z>
+  <z>
+    <zatu n="ZATU332"/>
+    <sign oid="o0980796"/>
+  </z>
+  <z>
+    <zatu n="ZATU333"/>
+    <sign oid="o0980797"/>
+  </z>
+  <z>
+    <zatu n="ZATU334"/>
+    <sign oid="o0980799"/>
+  </z>
+  <z>
+    <zatu n="ZATU335"/>
+    <sign oid="o0980800"/>
+  </z>
+  <z>
+    <zatu n="ZATU336"/>
+    <sign oid="o0980801"/>
+  </z>
+  <z>
+    <zatu n="ZATU337"/>
+    <sign oid="o0980802"/>
+  </z>
+  <z>
+    <zatu n="ZATU338"/>
+    <sign oid="o0980803"/>
+  </z>
+  <z>
+    <zatu n="ZATU339"/>
+    <sign oid="o0980807"/>
+  </z>
+  <z>
+    <zatu n="ZATU340"/>
+    <sign oid="o0980808"/>
+    <sign oid="o0980809"/>
+  </z>
+  <z>
+    <zatu n="ZATU341"/>
+    <sign oid="o0980810"/>
+    <sign oid="o0980825"/>
+  </z>
+  <z>
+    <zatu n="ZATU342"/>
+    <sign oid="o0980812"/>
+  </z>
+  <z>
+    <zatu n="ZATU343"/>
+    <sign oid="o0980813"/>
+    <sign oid="o0980826"/>
+  </z>
+  <z>
+    <zatu n="ZATU344"/>
+    <sign oid="o0980814"/>
+    <sign oid="o0980827"/>
+  </z>
+  <z>
+    <zatu n="ZATU345"/>
+    <sign oid="o0980829"/>
+  </z>
+  <z>
+    <zatu n="ZATU346"/>
+    <sign oid="o0980816"/>
+  </z>
+  <z>
+    <zatu n="ZATU347"/>
+    <sign oid="o0980817"/>
+  </z>
+  <z>
+    <zatu n="ZATU348"/>
+    <sign oid="o0980819"/>
+  </z>
+  <z>
+    <zatu n="ZATU349"/>
+    <sign oid="o0980820"/>
+  </z>
+  <z>
+    <zatu n="ZATU350"/>
+    <sign oid="o0980821"/>
+  </z>
+  <z>
+    <zatu n="ZATU351"/>
+    <sign oid="o0980822"/>
+  </z>
+  <z>
+    <zatu n="ZATU352"/>
+    <sign oid="o0980830"/>
+    <sign oid="o0980833"/>
+  </z>
+  <z>
+    <zatu n="ZATU353"/>
+    <sign oid="o0980835"/>
+  </z>
+  <z>
+    <zatu n="ZATU354"/>
+    <sign oid="o0980836"/>
+  </z>
+  <z>
+    <zatu n="ZATU355"/>
+    <sign oid="o0980838"/>
+  </z>
+  <z>
+    <zatu n="ZATU356"/>
+    <zref>ZATU |MAŠ+GAN₂| read as MAŠ GAN₂ in CDLI-tc</zref>
+  </z>
+  <z>
+    <zatu n="ZATU357"/>
+    <sign oid="o0980839"/>
+  </z>
+  <z>
+    <zatu n="ZATU358"/>
+    <sign oid="o0980841"/>
+    <sign oid="o0980842"/>
+  </z>
+  <z>
+    <zatu n="ZATU359"/>
+    <sign oid="o0980843"/>
+  </z>
+  <z>
+    <zatu n="ZATU360"/>
+    <sign oid="o0980844"/>
+    <sign oid="o0980845"/>
+  </z>
+  <z>
+    <zatu n="ZATU361"/>
+    <sign oid="o0980846"/>
+  </z>
+  <z>
+    <zatu n="ZATU362"/>
+    <sign oid="o0980847"/>
+    <sign oid="o0980848"/>
+  </z>
+  <z>
+    <zatu n="ZATU363"/>
+    <sign oid="o0980849"/>
+  </z>
+  <z>
+    <zatu n="ZATU364"/>
+    <sign oid="o0980850"/>
+  </z>
+  <z>
+    <zatu n="ZATU365"/>
+    <sign oid="o0980851"/>
+    <sign oid="o0980854"/>
+    <sign oid="o0980855"/>
+    <sign oid="o0980856"/>
+  </z>
+  <z>
+    <zatu n="ZATU366"/>
+    <sign oid="o0980852"/>
+  </z>
+  <z>
+    <zatu n="ZATU367"/>
+    <sign oid="o0980857"/>
+  </z>
+  <z>
+    <zatu n="ZATU368"/>
+    <sign oid="o0980858"/>
+    <sign oid="o0980859"/>
+    <sign oid="o0980860"/>
+    <sign oid="o0980861"/>
+    <sign oid="o0980862"/>
+  </z>
+  <z>
+    <zatu n="ZATU369"/>
+    <sign oid="o0980863"/>
+    <sign oid="o0980864"/>
+  </z>
+  <z>
+    <zatu n="ZATU370"/>
+    <sign oid="o0980865"/>
+  </z>
+  <z>
+    <zatu n="ZATU371"/>
+    <sign oid="o0980866"/>
+  </z>
+  <z>
+    <zatu n="ZATU372"/>
+    <zref>ZATU MURUB₃ read ME~a EN~b LAGAR~b1 in hapax P000849=ATU 1, 480=ATU 5 pl. 17, W 6855, i 1, i.e., |ŠITA~b2@g×HI@g~a|</zref>
+  </z>
+  <z>
+    <zatu n="ZATU373"/>
+    <sign oid="o0980867"/>
+  </z>
+  <z>
+    <zatu n="ZATU374"/>
+    <sign oid="o0980868"/>
+    <sign oid="o0980870"/>
+  </z>
+  <z>
+    <zatu n="ZATU375"/>
+    <sign oid="o0980869"/>
+  </z>
+  <z>
+    <zatu n="ZATU376"/>
+    <sign oid="o0980871"/>
+  </z>
+  <z>
+    <zatu n="ZATU377"/>
+    <sign oid="o0980872"/>
+  </z>
+  <z>
+    <zatu n="ZATU378"/>
+    <sign oid="o0980880"/>
+    <sign oid="o0980881"/>
+    <sign oid="o0980882"/>
+    <sign oid="o0980883"/>
+  </z>
+  <z>
+    <zatu n="ZATU379"/>
+    <sign oid="o0980884"/>
+    <sign oid="o0980885"/>
+    <sign oid="o0980886"/>
+    <sign oid="o0980887"/>
+  </z>
+  <z>
+    <zatu n="ZATU380"/>
+    <sign oid="o0980888"/>
+  </z>
+  <z>
+    <zatu n="ZATU381"/>
+    <sign oid="o0980889"/>
+    <sign oid="o0980891"/>
+  </z>
+  <z>
+    <zatu n="ZATU382"/>
+    <sign oid="o0980892"/>
+    <sign oid="o0980893"/>
+  </z>
+  <z>
+    <zatu n="ZATU383"/>
+    <sign oid="o0980894"/>
+    <sign oid="o0980895"/>
+    <sign oid="o0980896"/>
+    <sign oid="o0980897"/>
+  </z>
+  <z>
+    <zatu n="ZATU384"/>
+    <sign oid="o0980898"/>
+  </z>
+  <z>
+    <zatu n="ZATU385"/>
+    <sign oid="o0980899"/>
+  </z>
+  <z>
+    <zatu n="ZATU386"/>
+    <sign oid="o0980900"/>
+  </z>
+  <z>
+    <zatu n="ZATU387"/>
+    <sign oid="o0980902"/>
+  </z>
+  <z>
+    <zatu n="ZATU388"/>
+    <sign oid="o0980903"/>
+    <sign oid="o0980904"/>
+  </z>
+  <z>
+    <zatu n="ZATU389"/>
+    <sign oid="o0980013"/>
+    <sign oid="o0980905"/>
+    <sign oid="o0980906"/>
+  </z>
+  <z>
+    <zatu n="ZATU390"/>
+    <sign oid="o0980907"/>
+  </z>
+  <z>
+    <zatu n="ZATU391"/>
+    <sign oid="o0980908"/>
+    <sign oid="o0980909"/>
+    <sign oid="o0980910"/>
+    <sign oid="o0980911"/>
+  </z>
+  <z>
+    <zatu n="ZATU392"/>
+    <sign oid="o0980912"/>
+  </z>
+  <z>
+    <zatu n="ZATU393"/>
+    <sign oid="o0980917"/>
+    <sign oid="o0980921"/>
+  </z>
+  <z>
+    <zatu n="ZATU394"/>
+    <sign oid="o0980920"/>
+  </z>
+  <z>
+    <zatu n="ZATU395"/>
+    <zref>See new copy of ATU 1, 143 in P001212=ATU 5, pl. 054, W 9335,i.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU396"/>
+    <sign oid="o0980925"/>
+  </z>
+  <z>
+    <zatu n="ZATU397"/>
+    <sign oid="o0980926"/>
+  </z>
+  <z>
+    <zatu n="ZATU398"/>
+    <sign oid="o0980927"/>
+    <sign oid="o0980928"/>
+    <sign oid="o0980929"/>
+    <sign oid="o0980930"/>
+    <sign oid="o0980931"/>
+  </z>
+  <z>
+    <zatu n="ZATU399"/>
+    <sign oid="o0980932"/>
+  </z>
+  <z>
+    <zatu n="ZATU400"/>
+    <sign oid="o0980933"/>
+  </z>
+  <z>
+    <zatu n="ZATU401"/>
+    <sign oid="o0980934"/>
+  </z>
+  <z>
+    <zatu n="ZATU402"/>
+    <sign oid="o0980939"/>
+  </z>
+  <z>
+    <zatu n="ZATU403"/>
+    <sign oid="o0980940"/>
+  </z>
+  <z>
+    <zatu n="ZATU404"/>
+    <sign oid="o0980942"/>
+  </z>
+  <z>
+    <zatu n="ZATU405"/>
+    <sign oid="o0980943"/>
+  </z>
+  <z>
+    <zatu n="ZATU406"/>
+    <sign oid="o0980937"/>
+    <sign oid="o0980947"/>
+    <sign oid="o0980948"/>
+    <sign oid="o0982243"/>
+  </z>
+  <z>
+    <zatu n="ZATU407"/>
+    <sign oid="o0980946"/>
+  </z>
+  <z>
+    <zatu n="ZATU408"/>
+    <sign oid="o0980951"/>
+    <sign oid="o0980952"/>
+  </z>
+  <z>
+    <zatu n="ZATU409"/>
+    <sign oid="o0980956"/>
+  </z>
+  <z>
+    <zatu n="ZATU410"/>
+    <sign oid="o0980958"/>
+    <sign oid="o0980959"/>
+  </z>
+  <z>
+    <zatu n="ZATU411"/>
+    <sign oid="o0980352"/>
+    <sign oid="o0980964"/>
+    <sign oid="o0980965"/>
+    <sign oid="o0980968"/>
+  </z>
+  <z>
+    <zatu n="ZATU412"/>
+    <sign oid="o0980969"/>
+  </z>
+  <z>
+    <zatu n="ZATU413"/>
+    <sign oid="o0980970"/>
+  </z>
+  <z>
+    <zatu n="ZATU414"/>
+    <sign oid="o0980971"/>
+    <sign oid="o0980973"/>
+  </z>
+  <z>
+    <zatu n="ZATU415"/>
+    <sign oid="o0980972"/>
+  </z>
+  <z>
+    <zatu n="ZATU416"/>
+    <zatu n="ZATU570"/>
+    <sign oid="o0980913"/>
+    <sign oid="o0980914"/>
+    <sign oid="o0980915"/>
+  </z>
+  <z>
+    <zatu n="ZATU417"/>
+    <sign oid="o0980974"/>
+  </z>
+  <z>
+    <zatu n="ZATU418"/>
+    <sign oid="o0980975"/>
+  </z>
+  <z>
+    <zatu n="ZATU419"/>
+    <sign oid="o0980976"/>
+  </z>
+  <z>
+    <zatu n="ZATU420"/>
+    <sign oid="o0980980"/>
+  </z>
+  <z>
+    <zatu n="ZATU421"/>
+    <sign oid="o0980981"/>
+    <sign oid="o0980987"/>
+    <sign oid="o0980990"/>
+    <sign oid="o0980991"/>
+  </z>
+  <z>
+    <zatu n="ZATU422"/>
+    <sign oid="o0980982"/>
+  </z>
+  <z>
+    <zatu n="ZATU423"/>
+    <sign oid="o0980992"/>
+    <sign oid="o0980993"/>
+    <sign oid="o0980995"/>
+    <sign oid="o0980996"/>
+    <sign oid="o0980997"/>
+    <sign oid="o0980998"/>
+  </z>
+  <z>
+    <zatu n="ZATU424"/>
+    <sign oid="o0982227"/>
+    <sign oid="o0982228"/>
+  </z>
+  <z>
+    <zatu n="ZATU425"/>
+    <sign oid="o0980999"/>
+    <sign oid="o0981000"/>
+  </z>
+  <z>
+    <zatu n="ZATU426"/>
+    <sign oid="o0981002"/>
+    <sign oid="o0981003"/>
+  </z>
+  <z>
+    <zatu n="ZATU427"/>
+    <sign oid="o0981004"/>
+    <sign oid="o0981006"/>
+  </z>
+  <z>
+    <zatu n="ZATU428"/>
+    <sign oid="o0981007"/>
+    <sign oid="o0981008"/>
+    <sign oid="o0981009"/>
+    <sign oid="o0981010"/>
+    <sign oid="o0981014"/>
+  </z>
+  <z>
+    <zatu n="ZATU429"/>
+    <sign oid="o0982229"/>
+  </z>
+  <z>
+    <zatu n="ZATU430"/>
+    <sign oid="o0981015"/>
+  </z>
+  <z>
+    <zatu n="ZATU431"/>
+    <sign oid="o0981016"/>
+  </z>
+  <z>
+    <zatu n="ZATU432"/>
+    <sign oid="o0981017"/>
+    <sign oid="o0981020"/>
+  </z>
+  <z>
+    <zatu n="ZATU433"/>
+    <sign oid="o0981018"/>
+  </z>
+  <z>
+    <zatu n="ZATU434"/>
+    <sign oid="o0981022"/>
+    <sign oid="o0981023"/>
+  </z>
+  <z>
+    <zatu n="ZATU435"/>
+    <sign oid="o0981024"/>
+  </z>
+  <z>
+    <zatu n="ZATU436"/>
+    <sign oid="o0981026"/>
+    <sign oid="o0981027"/>
+  </z>
+  <z>
+    <zatu n="ZATU437"/>
+    <sign oid="o0981028"/>
+  </z>
+  <z>
+    <zatu n="ZATU438"/>
+    <sign oid="o0981030"/>
+    <sign oid="o0981031"/>
+    <sign oid="o0981032"/>
+  </z>
+  <z>
+    <zatu n="ZATU439"/>
+    <sign oid="o0981034"/>
+  </z>
+  <z>
+    <zatu n="ZATU440"/>
+    <sign oid="o0981037"/>
+  </z>
+  <z>
+    <zatu n="ZATU441"/>
+    <sign oid="o0981039"/>
+  </z>
+  <z>
+    <zatu n="ZATU442"/>
+    <sign oid="o0981040"/>
+  </z>
+  <z>
+    <zatu n="ZATU443"/>
+    <sign oid="o0981041"/>
+  </z>
+  <z>
+    <zatu n="ZATU444"/>
+    <sign oid="o0981050"/>
+    <sign oid="o0981051"/>
+    <sign oid="o0981052"/>
+    <sign oid="o0981053"/>
+  </z>
+  <z>
+    <zatu n="ZATU445"/>
+    <sign oid="o0981054"/>
+    <sign oid="o0981056"/>
+    <sign oid="o0981057"/>
+    <sign oid="o0981058"/>
+  </z>
+  <z>
+    <zatu n="ZATU446"/>
+    <sign oid="o0980703"/>
+  </z>
+  <z>
+    <zatu n="ZATU447"/>
+    <sign oid="o0981059"/>
+  </z>
+  <z>
+    <zatu n="ZATU448"/>
+    <sign oid="o0981062"/>
+  </z>
+  <z>
+    <zatu n="ZATU449"/>
+    <sign oid="o0981065"/>
+  </z>
+  <z>
+    <zatu n="ZATU450"/>
+    <sign oid="o0981068"/>
+    <sign oid="o0981069"/>
+    <sign oid="o0981070"/>
+    <sign oid="o0981071"/>
+    <sign oid="o0981072"/>
+  </z>
+  <z>
+    <zatu n="ZATU451"/>
+    <sign oid="o0981073"/>
+    <sign oid="o0981074"/>
+  </z>
+  <z>
+    <zatu n="ZATU452"/>
+    <sign oid="o0981076"/>
+    <sign oid="o0981077"/>
+    <sign oid="o0981078"/>
+    <sign oid="o0981079"/>
+    <sign oid="o0981080"/>
+    <sign oid="o0981083"/>
+    <sign oid="o0981084"/>
+    <sign oid="o0981085"/>
+    <sign oid="o0981086"/>
+    <sign oid="o0981087"/>
+    <sign oid="o0981088"/>
+    <sign oid="o0981089"/>
+  </z>
+  <z>
+    <zatu n="ZATU453"/>
+    <sign oid="o0981081"/>
+  </z>
+  <z>
+    <zatu n="ZATU454"/>
+    <sign oid="o0981090"/>
+  </z>
+  <z>
+    <zatu n="ZATU455"/>
+    <sign oid="o0981091"/>
+  </z>
+  <z>
+    <zatu n="ZATU456"/>
+    <sign oid="o0981093"/>
+    <sign oid="o0981131"/>
+    <sign oid="o0981137"/>
+  </z>
+  <z>
+    <zatu n="ZATU457"/>
+    <sign oid="o0981094"/>
+  </z>
+  <z>
+    <zatu n="ZATU458"/>
+    <sign oid="o0981096"/>
+  </z>
+  <z>
+    <zatu n="ZATU459"/>
+    <sign oid="o0981098"/>
+  </z>
+  <z>
+    <zatu n="ZATU460"/>
+    <zatu n="ZATU472"/>
+    <sign oid="o0981116"/>
+    <sign oid="o0981135"/>
+    <sign oid="o0981136"/>
+    <sign oid="o0981140"/>
+  </z>
+  <z>
+    <zatu n="ZATU461"/>
+    <sign oid="o0981099"/>
+  </z>
+  <z>
+    <zatu n="ZATU462"/>
+    <zatu n="ZATU469"/>
+    <sign oid="o0981100"/>
+    <sign oid="o0981101"/>
+    <sign oid="o0981102"/>
+  </z>
+  <z>
+    <zatu n="ZATU463"/>
+    <sign oid="o0981103"/>
+  </z>
+  <z>
+    <zatu n="ZATU464"/>
+    <sign oid="o0981104"/>
+  </z>
+  <z>
+    <zatu n="ZATU465"/>
+    <sign oid="o0981105"/>
+  </z>
+  <z>
+    <zatu n="ZATU466"/>
+    <sign oid="o0981106"/>
+  </z>
+  <z>
+    <zatu n="ZATU467"/>
+    <sign oid="o0981107"/>
+    <sign oid="o0981108"/>
+    <sign oid="o0981109"/>
+  </z>
+  <z>
+    <zatu n="ZATU468"/>
+    <sign oid="o0981111"/>
+  </z>
+  <z>
+    <zatu n="ZATU469"/>
+    <zsee z="ZATU462"/>
+  </z>
+  <z>
+    <zatu n="ZATU470"/>
+    <sign oid="o0981113"/>
+  </z>
+  <z>
+    <zatu n="ZATU471"/>
+    <sign oid="o0981115"/>
+    <sign oid="o0981134"/>
+  </z>
+  <z>
+    <zatu n="ZATU472"/>
+    <zsee z="ZATU460"/>
+  </z>
+  <z>
+    <zatu n="ZATU473"/>
+    <sign oid="o0981112"/>
+  </z>
+  <z>
+    <zatu n="ZATU474"/>
+    <sign oid="o0981119"/>
+    <sign oid="o0981120"/>
+  </z>
+  <z>
+    <zatu n="ZATU475"/>
+    <sign oid="o0981121"/>
+  </z>
+  <z>
+    <zatu n="ZATU476"/>
+    <sign oid="o0981123"/>
+    <sign oid="o0981138"/>
+  </z>
+  <z>
+    <zatu n="ZATU477"/>
+    <sign oid="o0981124"/>
+  </z>
+  <z>
+    <zatu n="ZATU478"/>
+    <sign oid="o0981128"/>
+  </z>
+  <z>
+    <zatu n="ZATU479"/>
+    <zref>Delete, W 16012,b+ = P002571 now read UDU ŠITA.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU480"/>
+    <sign oid="o0981139"/>
+  </z>
+  <z>
+    <zatu n="ZATU481"/>
+    <sign oid="o0981129"/>
+    <sign oid="o0981130"/>
+  </z>
+  <z>
+    <zatu n="ZATU482"/>
+    <sign oid="o0981141"/>
+    <sign oid="o0981142"/>
+    <sign oid="o0981143"/>
+    <sign oid="o0981144"/>
+  </z>
+  <z>
+    <zatu n="ZATU483"/>
+    <sign oid="o0981145"/>
+  </z>
+  <z>
+    <zatu n="ZATU484"/>
+    <sign oid="o0981146"/>
+  </z>
+  <z>
+    <zatu n="ZATU485"/>
+    <sign oid="o0981148"/>
+    <sign oid="o0981150"/>
+    <sign oid="o0981151"/>
+  </z>
+  <z>
+    <zatu n="ZATU486"/>
+    <sign oid="o0981149"/>
+  </z>
+  <z>
+    <zatu n="ZATU487"/>
+    <sign oid="o0981152"/>
+  </z>
+  <z>
+    <zatu n="ZATU488"/>
+    <sign oid="o0981153"/>
+  </z>
+  <z>
+    <zatu n="ZATU489"/>
+    <sign oid="o0981154"/>
+  </z>
+  <z>
+    <zatu n="ZATU490"/>
+    <sign oid="o0981155"/>
+  </z>
+  <z>
+    <zatu n="ZATU491"/>
+    <sign oid="o0981156"/>
+  </z>
+  <z>
+    <zatu n="ZATU492"/>
+    <sign oid="o0981160"/>
+  </z>
+  <z>
+    <zatu n="ZATU493"/>
+    <sign oid="o0981161"/>
+  </z>
+  <z>
+    <zatu n="ZATU494"/>
+    <sign oid="o0981162"/>
+    <sign oid="o0981163"/>
+    <sign oid="o0981165"/>
+  </z>
+  <z>
+    <zatu n="ZATU495"/>
+    <sign oid="o0981166"/>
+    <sign oid="o0981167"/>
+    <sign oid="o0981168"/>
+    <sign oid="o0981169"/>
+  </z>
+  <z>
+    <zatu n="ZATU496"/>
+    <sign oid="o0981171"/>
+    <sign oid="o0981173"/>
+  </z>
+  <z>
+    <zatu n="ZATU497"/>
+    <sign oid="o0981174"/>
+  </z>
+  <z>
+    <zatu n="ZATU498"/>
+    <sign oid="o0981175"/>
+  </z>
+  <z>
+    <zatu n="ZATU499"/>
+    <sign oid="o0981176"/>
+  </z>
+  <z>
+    <zatu n="ZATU500"/>
+    <sign oid="o0981177"/>
+  </z>
+  <z>
+    <zatu n="ZATU501"/>
+    <sign oid="o0981178"/>
+    <sign oid="o0981179"/>
+  </z>
+  <z>
+    <zatu n="ZATU502"/>
+    <sign oid="o0981180"/>
+  </z>
+  <z>
+    <zatu n="ZATU503"/>
+    <sign oid="o0981181"/>
+    <sign oid="o0981182"/>
+    <sign oid="o0981184"/>
+    <sign oid="o0981185"/>
+    <sign oid="o0981186"/>
+  </z>
+  <z>
+    <zatu n="ZATU504"/>
+    <sign oid="o0981187"/>
+    <sign oid="o0981188"/>
+  </z>
+  <z>
+    <zatu n="ZATU505"/>
+    <zref>Delete, W 14777,e = P002181 now read GAL~a ŠAB~a AL.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU506"/>
+    <sign oid="o0981189"/>
+  </z>
+  <z>
+    <zatu n="ZATU507"/>
+    <sign oid="o0981190"/>
+  </z>
+  <z>
+    <zatu n="ZATU508"/>
+    <sign oid="o0981191"/>
+    <sign oid="o0981192"/>
+    <sign oid="o0981193"/>
+  </z>
+  <z>
+    <zatu n="ZATU509"/>
+    <sign oid="o0981194"/>
+    <sign oid="o0981195"/>
+    <sign oid="o0981196"/>
+  </z>
+  <z>
+    <zatu n="ZATU510"/>
+    <sign oid="o0981197"/>
+  </z>
+  <z>
+    <zatu n="ZATU511"/>
+    <sign oid="o0981200"/>
+    <sign oid="o0981206"/>
+    <sign oid="o0981207"/>
+  </z>
+  <z>
+    <zatu n="ZATU512"/>
+    <sign oid="o0981202"/>
+  </z>
+  <z>
+    <zatu n="ZATU513"/>
+    <sign oid="o0981203"/>
+  </z>
+  <z>
+    <zatu n="ZATU514"/>
+    <sign oid="o0981055"/>
+  </z>
+  <z>
+    <zatu n="ZATU515"/>
+    <sign oid="o0981204"/>
+  </z>
+  <z>
+    <zatu n="ZATU516"/>
+    <sign oid="o0981208"/>
+  </z>
+  <z>
+    <zatu n="ZATU517"/>
+    <zref>Delete, W 17586 = P002625 now read as 1(N01) KU₃.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU518"/>
+    <sign oid="o0981209"/>
+  </z>
+  <z>
+    <zatu n="ZATU519"/>
+    <sign oid="o0981210"/>
+  </z>
+  <z>
+    <zatu n="ZATU520"/>
+    <sign oid="o0981211"/>
+  </z>
+  <z>
+    <zatu n="ZATU521"/>
+    <sign oid="o0981212"/>
+    <sign oid="o0981213"/>
+    <sign oid="o0981214"/>
+    <sign oid="o0981216"/>
+    <sign oid="o0981218"/>
+  </z>
+  <z>
+    <zatu n="ZATU522"/>
+    <sign oid="o0981219"/>
+    <sign oid="o0981220"/>
+  </z>
+  <z>
+    <zatu n="ZATU523"/>
+    <sign oid="o0981221"/>
+    <sign oid="o0981222"/>
+  </z>
+  <z>
+    <zatu n="ZATU524"/>
+    <sign oid="o0981223"/>
+  </z>
+  <z>
+    <zatu n="ZATU525"/>
+    <sign oid="o0981225"/>
+    <sign oid="o0981226"/>
+  </z>
+  <z>
+    <zatu n="ZATU526"/>
+    <sign oid="o0981227"/>
+    <sign oid="o0981228"/>
+  </z>
+  <z>
+    <zatu n="ZATU527"/>
+    <sign oid="o0981229"/>
+    <sign oid="o0981235"/>
+    <sign oid="o0981236"/>
+    <sign oid="o0981237"/>
+    <sign oid="o0981238"/>
+    <sign oid="o0981240"/>
+  </z>
+  <z>
+    <zatu n="ZATU528"/>
+    <sign oid="o0981231"/>
+  </z>
+  <z>
+    <zatu n="ZATU529"/>
+    <sign oid="o0981230"/>
+  </z>
+  <z>
+    <zatu n="ZATU530"/>
+    <sign oid="o0981243"/>
+    <sign oid="o0981246"/>
+  </z>
+  <z>
+    <zatu n="ZATU531"/>
+    <sign oid="o0981244"/>
+  </z>
+  <z>
+    <zatu n="ZATU532"/>
+    <sign oid="o0981247"/>
+  </z>
+  <z>
+    <zatu n="ZATU533"/>
+    <sign oid="o0981250"/>
+  </z>
+  <z>
+    <zatu n="ZATU534"/>
+    <sign oid="o0981252"/>
+  </z>
+  <z>
+    <zatu n="ZATU535"/>
+    <sign oid="o0981254"/>
+    <sign oid="o0981255"/>
+  </z>
+  <z>
+    <zatu n="ZATU536"/>
+    <sign oid="o0981256"/>
+    <sign oid="o0981257"/>
+  </z>
+  <z>
+    <zatu n="ZATU537"/>
+    <zref>|ŠU₂.U₄| in ATU 206 read as AB₂ in P001387=ATU 5 pl.80, W 9655,o.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU538"/>
+    <sign oid="o0981266"/>
+  </z>
+  <z>
+    <zatu n="ZATU539"/>
+    <sign oid="o0981267"/>
+  </z>
+  <z>
+    <zatu n="ZATU540"/>
+    <sign oid="o0982235"/>
+    <sign oid="o0982237"/>
+  </z>
+  <z>
+    <zatu n="ZATU541"/>
+    <sign oid="o0981268"/>
+  </z>
+  <z>
+    <zatu n="ZATU542"/>
+    <zref>ŠUNIGIN taken as DA in CDLI.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU543"/>
+    <sign oid="o0981270"/>
+    <sign oid="o0981271"/>
+    <sign oid="o0981272"/>
+  </z>
+  <z>
+    <zatu n="ZATU544"/>
+    <sign oid="o0981273"/>
+    <sign oid="o0981274"/>
+  </z>
+  <z>
+    <zatu n="ZATU545"/>
+    <sign oid="o0981276"/>
+    <sign oid="o0981277"/>
+    <sign oid="o0981278"/>
+    <sign oid="o0981279"/>
+    <sign oid="o0981281"/>
+  </z>
+  <z>
+    <zatu n="ZATU546"/>
+    <sign oid="o0982173"/>
+  </z>
+  <z>
+    <zatu n="ZATU547"/>
+    <sign oid="o0981283"/>
+    <sign oid="o0981285"/>
+    <sign oid="o0981286"/>
+    <sign oid="o0981287"/>
+    <sign oid="o0981288"/>
+    <sign oid="o0981289"/>
+    <sign oid="o0981290"/>
+  </z>
+  <z>
+    <zatu n="ZATU548"/>
+    <sign oid="o0981291"/>
+    <sign oid="o0981293"/>
+  </z>
+  <z>
+    <zatu n="ZATU549"/>
+    <sign oid="o0981294"/>
+  </z>
+  <z>
+    <zatu n="ZATU550"/>
+    <sign oid="o0981296"/>
+  </z>
+  <z>
+    <zatu n="ZATU551"/>
+    <sign oid="o0981297"/>
+  </z>
+  <z>
+    <zatu n="ZATU552"/>
+    <sign oid="o0981301"/>
+  </z>
+  <z>
+    <zatu n="ZATU553"/>
+    <sign oid="o0981302"/>
+  </z>
+  <z>
+    <zatu n="ZATU554"/>
+    <sign oid="o0981303"/>
+    <sign oid="o0981304"/>
+    <sign oid="o0981305"/>
+  </z>
+  <z>
+    <zatu n="ZATU555"/>
+    <sign oid="o0981306"/>
+    <sign oid="o0981309"/>
+    <sign oid="o0981310"/>
+    <sign oid="o0981311"/>
+  </z>
+  <z>
+    <zatu n="ZATU556"/>
+    <zatu n="ZATU558"/>
+    <sign oid="o0981307"/>
+  </z>
+  <z>
+    <zatu n="ZATU557"/>
+    <sign oid="o0981308"/>
+  </z>
+  <z>
+    <zatu n="ZATU558"/>
+    <zsee z="ZATU556"/>
+  </z>
+  <z>
+    <zatu n="ZATU559"/>
+    <zref>Damaged, identification uncertain, possibly KAB.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU560"/>
+    <sign oid="o0981312"/>
+    <sign oid="o0981314"/>
+    <sign oid="o0981315"/>
+    <sign oid="o0981316"/>
+  </z>
+  <z>
+    <zatu n="ZATU561"/>
+    <sign oid="o0981317"/>
+    <sign oid="o0981318"/>
+    <sign oid="o0981319"/>
+  </z>
+  <z>
+    <zatu n="ZATU562"/>
+    <sign oid="o0981320"/>
+  </z>
+  <z>
+    <zatu n="ZATU563"/>
+    <sign oid="o0981323"/>
+    <sign oid="o0981326"/>
+    <sign oid="o0981328"/>
+  </z>
+  <z>
+    <zatu n="ZATU564"/>
+    <sign oid="o0981912"/>
+  </z>
+  <z>
+    <zatu n="ZATU565"/>
+    <sign oid="o0981329"/>
+    <sign oid="o0981330"/>
+    <sign oid="o0981331"/>
+  </z>
+  <z>
+    <zatu n="ZATU566"/>
+    <sign oid="o0981332"/>
+  </z>
+  <z>
+    <zatu n="ZATU567"/>
+    <sign oid="o0980664"/>
+  </z>
+  <z>
+    <zatu n="ZATU568"/>
+    <sign oid="o0981333"/>
+  </z>
+  <z>
+    <zatu n="ZATU569"/>
+    <sign oid="o0981352"/>
+  </z>
+  <z>
+    <zatu n="ZATU570"/>
+    <zsee z="ZATU416"/>
+  </z>
+  <z>
+    <zatu n="ZATU571"/>
+    <sign oid="o0981392"/>
+  </z>
+  <z>
+    <zatu n="ZATU572"/>
+    <sign oid="o0981394"/>
+  </z>
+  <z>
+    <zatu n="ZATU573"/>
+    <sign oid="o0981395"/>
+    <sign oid="o0981396"/>
+    <sign oid="o0981397"/>
+  </z>
+  <z>
+    <zatu n="ZATU574"/>
+    <sign oid="o0981398"/>
+    <sign oid="o0981400"/>
+    <sign oid="o0981401"/>
+  </z>
+  <z>
+    <zatu n="ZATU575"/>
+    <sign oid="o0981402"/>
+    <sign oid="o0981405"/>
+    <sign oid="o0981406"/>
+  </z>
+  <z>
+    <zatu n="ZATU576"/>
+    <sign oid="o0981403"/>
+    <sign oid="o0981404"/>
+  </z>
+  <z>
+    <zatu n="ZATU577"/>
+    <sign oid="o0982238"/>
+  </z>
+  <z>
+    <zatu n="ZATU578"/>
+    <sign oid="o0981407"/>
+    <sign oid="o0981408"/>
+    <sign oid="o0981409"/>
+  </z>
+  <z>
+    <zatu n="ZATU579"/>
+    <sign oid="o0981411"/>
+    <sign oid="o0981413"/>
+  </z>
+  <z>
+    <zatu n="ZATU580"/>
+    <sign oid="o0981414"/>
+    <sign oid="o0981415"/>
+    <sign oid="o0981425"/>
+    <sign oid="o0981426"/>
+  </z>
+  <z>
+    <zatu n="ZATU581"/>
+    <sign oid="o0981427"/>
+    <sign oid="o0981428"/>
+    <sign oid="o0981429"/>
+    <sign oid="o0981430"/>
+  </z>
+  <z>
+    <zatu n="ZATU582"/>
+    <sign oid="o0981431"/>
+  </z>
+  <z>
+    <zatu n="ZATU583"/>
+    <sign oid="o0981432"/>
+    <sign oid="o0981435"/>
+    <sign oid="o0981436"/>
+  </z>
+  <z>
+    <zatu n="ZATU584"/>
+    <sign oid="o0981433"/>
+  </z>
+  <z>
+    <zatu n="ZATU585"/>
+    <sign oid="o0981434"/>
+  </z>
+  <z>
+    <zatu n="ZATU586"/>
+    <sign oid="o0981437"/>
+    <sign oid="o0981440"/>
+    <sign oid="o0981441"/>
+  </z>
+  <z>
+    <zatu n="ZATU587"/>
+    <sign oid="o0981439"/>
+  </z>
+  <z>
+    <zatu n="ZATU588"/>
+    <sign oid="o0981442"/>
+  </z>
+  <z>
+    <zatu n="ZATU589"/>
+    <sign oid="o0981444"/>
+  </z>
+  <z>
+    <zatu n="ZATU590"/>
+    <sign oid="o0981443"/>
+  </z>
+  <z>
+    <zatu n="ZATU591"/>
+    <sign oid="o0981445"/>
+    <sign oid="o0981446"/>
+    <sign oid="o0981447"/>
+    <sign oid="o0981448"/>
+    <sign oid="o0981450"/>
+    <sign oid="o0981451"/>
+  </z>
+  <z>
+    <zatu n="ZATU592"/>
+    <sign oid="o0981452"/>
+    <sign oid="o0981453"/>
+    <sign oid="o0981454"/>
+  </z>
+  <z>
+    <zatu n="ZATU593"/>
+    <sign oid="o0981455"/>
+    <sign oid="o0981456"/>
+  </z>
+  <z>
+    <zatu n="ZATU594"/>
+    <sign oid="o0981457"/>
+  </z>
+  <z>
+    <zatu n="ZATU595"/>
+    <sign oid="o0981459"/>
+    <sign oid="o0981461"/>
+  </z>
+  <z>
+    <zatu n="ZATU596"/>
+    <sign oid="o0981462"/>
+  </z>
+  <z>
+    <zatu n="ZATU597"/>
+    <sign oid="o0981463"/>
+    <sign oid="o0981476"/>
+    <sign oid="o0981479"/>
+    <sign oid="o0981480"/>
+    <sign oid="o0981481"/>
+  </z>
+  <z>
+    <zatu n="ZATU598"/>
+    <sign oid="o0981465"/>
+  </z>
+  <z>
+    <zatu n="ZATU599"/>
+    <sign oid="o0981478"/>
+  </z>
+  <z>
+    <zatu n="ZATU600"/>
+    <sign oid="o0981469"/>
+  </z>
+  <z>
+    <zatu n="ZATU601"/>
+    <sign oid="o0981472"/>
+    <sign oid="o0981473"/>
+    <sign oid="o0981477"/>
+  </z>
+  <z>
+    <zatu n="ZATU602"/>
+    <sign oid="o0981482"/>
+    <sign oid="o0981483"/>
+    <sign oid="o0981484"/>
+  </z>
+  <z>
+    <zatu n="ZATU603"/>
+    <sign oid="o0981485"/>
+    <sign oid="o0981486"/>
+    <sign oid="o0981487"/>
+    <sign oid="o0981488"/>
+  </z>
+  <z>
+    <zatu n="ZATU604"/>
+    <sign oid="o0981489"/>
+    <sign oid="o0981491"/>
+  </z>
+  <z>
+    <zatu n="ZATU605"/>
+    <sign oid="o0981492"/>
+  </z>
+  <z>
+    <zatu n="ZATU606"/>
+    <sign oid="o0981848"/>
+  </z>
+  <z>
+    <zatu n="ZATU607"/>
+    <sign oid="o0981495"/>
+  </z>
+  <z>
+    <zatu n="ZATU608"/>
+    <sign oid="o0981497"/>
+    <sign oid="o0981498"/>
+  </z>
+  <z>
+    <zatu n="ZATU609"/>
+    <sign oid="o0981499"/>
+    <sign oid="o0981501"/>
+  </z>
+  <z>
+    <zatu n="ZATU610"/>
+    <sign oid="o0981502"/>
+    <sign oid="o0981503"/>
+    <sign oid="o0981504"/>
+    <sign oid="o0981505"/>
+  </z>
+  <z>
+    <zatu n="ZATU611"/>
+    <sign oid="o0981506"/>
+  </z>
+  <z>
+    <zatu n="ZATU612"/>
+    <sign oid="o0981509"/>
+  </z>
+  <z>
+    <zatu n="ZATU613"/>
+    <sign oid="o0981510"/>
+    <sign oid="o0981511"/>
+  </z>
+  <z>
+    <zatu n="ZATU614"/>
+    <sign oid="o0981117"/>
+  </z>
+  <z>
+    <zatu n="ZATU615"/>
+    <sign oid="o0981513"/>
+    <sign oid="o0981514"/>
+    <sign oid="o0981515"/>
+  </z>
+  <z>
+    <zatu n="ZATU616"/>
+    <sign oid="o0981516"/>
+    <sign oid="o0981517"/>
+    <sign oid="o0981518"/>
+    <sign oid="o0981519"/>
+  </z>
+  <z>
+    <zatu n="ZATU617"/>
+    <sign oid="o0981520"/>
+    <sign oid="o0981521"/>
+    <sign oid="o0981522"/>
+  </z>
+  <z>
+    <zatu n="ZATU618"/>
+    <sign oid="o0981862"/>
+  </z>
+  <z>
+    <zatu n="ZATU619"/>
+    <sign oid="o0981524"/>
+    <sign oid="o0981525"/>
+  </z>
+  <z>
+    <zatu n="ZATU620"/>
+    <sign oid="o0981526"/>
+  </z>
+  <z>
+    <zatu n="ZATU621"/>
+    <sign oid="o0981527"/>
+    <sign oid="o0981528"/>
+    <sign oid="o0981529"/>
+    <sign oid="o0981530"/>
+  </z>
+  <z>
+    <zatu n="ZATU622"/>
+    <sign oid="o0981531"/>
+  </z>
+  <z>
+    <zatu n="ZATU623"/>
+    <sign oid="o0981532"/>
+  </z>
+  <z>
+    <zatu n="ZATU624"/>
+    <sign oid="o0981533"/>
+    <sign oid="o0981534"/>
+    <sign oid="o0981535"/>
+  </z>
+  <z>
+    <zatu n="ZATU625"/>
+    <sign oid="o0981536"/>
+  </z>
+  <z>
+    <zatu n="ZATU626"/>
+    <sign oid="o0981537"/>
+    <sign oid="o0981538"/>
+    <sign oid="o0981539"/>
+  </z>
+  <z>
+    <zatu n="ZATU627"/>
+    <sign oid="o0981540"/>
+  </z>
+  <z>
+    <zatu n="ZATU628"/>
+    <sign oid="o0981541"/>
+    <sign oid="o0981542"/>
+  </z>
+  <z>
+    <zatu n="ZATU629"/>
+    <sign oid="o0981543"/>
+  </z>
+  <z>
+    <zatu n="ZATU630"/>
+    <sign oid="o0981544"/>
+  </z>
+  <z>
+    <zatu n="ZATU631"/>
+    <sign oid="o0981545"/>
+  </z>
+  <z>
+    <zatu n="ZATU632"/>
+    <sign oid="o0981546"/>
+    <sign oid="o0981547"/>
+    <sign oid="o0981548"/>
+  </z>
+  <z>
+    <zatu n="ZATU633"/>
+    <sign oid="o0981549"/>
+    <sign oid="o0981550"/>
+  </z>
+  <z>
+    <zatu n="ZATU634"/>
+    <sign oid="o0981551"/>
+  </z>
+  <z>
+    <zatu n="ZATU635"/>
+    <sign oid="o0981552"/>
+  </z>
+  <z>
+    <zatu n="ZATU636"/>
+    <sign oid="o0981553"/>
+  </z>
+  <z>
+    <zatu n="ZATU637"/>
+    <sign oid="o0981554"/>
+  </z>
+  <z>
+    <zatu n="ZATU639"/>
+    <sign oid="o0981555"/>
+  </z>
+  <z>
+    <zatu n="ZATU640"/>
+    <sign oid="o0981556"/>
+  </z>
+  <z>
+    <zatu n="ZATU641"/>
+    <sign oid="o0981557"/>
+  </z>
+  <z>
+    <zatu n="ZATU642"/>
+    <sign oid="o0981558"/>
+  </z>
+  <z>
+    <zatu n="ZATU643"/>
+    <sign oid="o0981559"/>
+  </z>
+  <z>
+    <zatu n="ZATU644"/>
+    <sign oid="o0981560"/>
+    <sign oid="o0981562"/>
+  </z>
+  <z>
+    <zatu n="ZATU645"/>
+    <sign oid="o0981561"/>
+  </z>
+  <z>
+    <zatu n="ZATU646"/>
+    <sign oid="o0981563"/>
+  </z>
+  <z>
+    <zatu n="ZATU647"/>
+    <sign oid="o0981564"/>
+  </z>
+  <z>
+    <zatu n="ZATU648"/>
+    <sign oid="o0981565"/>
+  </z>
+  <z>
+    <zatu n="ZATU649"/>
+    <sign oid="o0981566"/>
+  </z>
+  <z>
+    <zatu n="ZATU650"/>
+    <sign oid="o0981567"/>
+  </z>
+  <z>
+    <zatu n="ZATU651"/>
+    <sign oid="o0981568"/>
+  </z>
+  <z>
+    <zatu n="ZATU652"/>
+    <sign oid="o0981569"/>
+  </z>
+  <z>
+    <zatu n="ZATU653"/>
+    <sign oid="o0981570"/>
+  </z>
+  <z>
+    <zatu n="ZATU654"/>
+    <sign oid="o0981571"/>
+  </z>
+  <z>
+    <zatu n="ZATU655"/>
+    <sign oid="o0981572"/>
+  </z>
+  <z>
+    <zatu n="ZATU656"/>
+    <sign oid="o0981573"/>
+  </z>
+  <z>
+    <zatu n="ZATU657"/>
+    <sign oid="o0981574"/>
+  </z>
+  <z>
+    <zatu n="ZATU658"/>
+    <sign oid="o0981577"/>
+  </z>
+  <z>
+    <zatu n="ZATU659"/>
+    <sign oid="o0981578"/>
+  </z>
+  <z>
+    <zatu n="ZATU660"/>
+    <sign oid="o0981581"/>
+  </z>
+  <z>
+    <zatu n="ZATU661"/>
+    <sign oid="o0981580"/>
+  </z>
+  <z>
+    <zatu n="ZATU662"/>
+    <sign oid="o0981583"/>
+  </z>
+  <z>
+    <zatu n="ZATU663"/>
+    <sign oid="o0981584"/>
+  </z>
+  <z>
+    <zatu n="ZATU664"/>
+    <sign oid="o0981585"/>
+  </z>
+  <z>
+    <zatu n="ZATU665"/>
+    <sign oid="o0981586"/>
+  </z>
+  <z>
+    <zatu n="ZATU666"/>
+    <sign oid="o0981587"/>
+  </z>
+  <z>
+    <zatu n="ZATU667"/>
+    <sign oid="o0981588"/>
+  </z>
+  <z>
+    <zatu n="ZATU668"/>
+    <sign oid="o0981589"/>
+  </z>
+  <z>
+    <zatu n="ZATU669"/>
+    <sign oid="o0981590"/>
+  </z>
+  <z>
+    <zatu n="ZATU670"/>
+    <sign oid="o0981591"/>
+  </z>
+  <z>
+    <zatu n="ZATU671"/>
+    <zref>Damaged, identification uncertain.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU672"/>
+    <sign oid="o0981592"/>
+  </z>
+  <z>
+    <zatu n="ZATU674"/>
+    <sign oid="o0981593"/>
+  </z>
+  <z>
+    <zatu n="ZATU675"/>
+    <sign oid="o0981594"/>
+    <sign oid="o0981595"/>
+    <sign oid="o0981596"/>
+    <sign oid="o0981597"/>
+  </z>
+  <z>
+    <zatu n="ZATU676"/>
+    <sign oid="o0981598"/>
+    <sign oid="o0981599"/>
+  </z>
+  <z>
+    <zatu n="ZATU677"/>
+    <sign oid="o0981600"/>
+    <sign oid="o0981601"/>
+  </z>
+  <z>
+    <zatu n="ZATU678"/>
+    <sign oid="o0981602"/>
+  </z>
+  <z>
+    <zatu n="ZATU679"/>
+    <sign oid="o0981603"/>
+  </z>
+  <z>
+    <zatu n="ZATU680"/>
+    <sign oid="o0981604"/>
+    <sign oid="o0981605"/>
+    <sign oid="o0981606"/>
+    <sign oid="o0981607"/>
+    <sign oid="o0981608"/>
+  </z>
+  <z>
+    <zatu n="ZATU681"/>
+    <sign oid="o0981609"/>
+  </z>
+  <z>
+    <zatu n="ZATU682"/>
+    <sign oid="o0981610"/>
+  </z>
+  <z>
+    <zatu n="ZATU683"/>
+    <sign oid="o0981611"/>
+    <sign oid="o0981612"/>
+  </z>
+  <z>
+    <zatu n="ZATU684"/>
+    <sign oid="o0981614"/>
+  </z>
+  <z>
+    <zatu n="ZATU685"/>
+    <sign oid="o0981615"/>
+  </z>
+  <z>
+    <zatu n="ZATU686"/>
+    <sign oid="o0981616"/>
+    <sign oid="o0981617"/>
+    <sign oid="o0981618"/>
+  </z>
+  <z>
+    <zatu n="ZATU687"/>
+    <sign oid="o0981619"/>
+  </z>
+  <z>
+    <zatu n="ZATU688"/>
+    <sign oid="o0981620"/>
+    <sign oid="o0981621"/>
+  </z>
+  <z>
+    <zatu n="ZATU689"/>
+    <sign oid="o0981622"/>
+  </z>
+  <z>
+    <zatu n="ZATU690"/>
+    <sign oid="o0981623"/>
+  </z>
+  <z>
+    <zatu n="ZATU691"/>
+    <sign oid="o0981624"/>
+  </z>
+  <z>
+    <zatu n="ZATU692"/>
+    <sign oid="o0981625"/>
+  </z>
+  <z>
+    <zatu n="ZATU693"/>
+    <sign oid="o0981626"/>
+  </z>
+  <z>
+    <zatu n="ZATU694"/>
+    <sign oid="o0981628"/>
+    <sign oid="o0981629"/>
+    <sign oid="o0981630"/>
+    <sign oid="o0981631"/>
+    <sign oid="o0981633"/>
+  </z>
+  <z>
+    <zatu n="ZATU695"/>
+    <sign oid="o0981634"/>
+  </z>
+  <z>
+    <zatu n="ZATU696"/>
+    <sign oid="o0981635"/>
+  </z>
+  <z>
+    <zatu n="ZATU697"/>
+    <sign oid="o0981636"/>
+    <sign oid="o0981637"/>
+    <sign oid="o0981638"/>
+  </z>
+  <z>
+    <zatu n="ZATU698"/>
+    <sign oid="o0980199"/>
+  </z>
+  <z>
+    <zatu n="ZATU699"/>
+    <sign oid="o0981639"/>
+    <sign oid="o0981640"/>
+  </z>
+  <z>
+    <zatu n="ZATU700"/>
+    <sign oid="o0981641"/>
+  </z>
+  <z>
+    <zatu n="ZATU701"/>
+    <sign oid="o0981642"/>
+  </z>
+  <z>
+    <zatu n="ZATU702"/>
+    <sign oid="o0981643"/>
+  </z>
+  <z>
+    <zatu n="ZATU703"/>
+    <sign oid="o0981644"/>
+  </z>
+  <z>
+    <zatu n="ZATU704"/>
+    <sign oid="o0981645"/>
+  </z>
+  <z>
+    <zatu n="ZATU705"/>
+    <sign oid="o0981646"/>
+  </z>
+  <z>
+    <zatu n="ZATU706"/>
+    <sign oid="o0981647"/>
+  </z>
+  <z>
+    <zatu n="ZATU707"/>
+    <sign oid="o0981648"/>
+    <sign oid="o0981649"/>
+  </z>
+  <z>
+    <zatu n="ZATU708"/>
+    <sign oid="o0981650"/>
+  </z>
+  <z>
+    <zatu n="ZATU709"/>
+    <sign oid="o0981651"/>
+  </z>
+  <z>
+    <zatu n="ZATU710"/>
+    <sign oid="o0981652"/>
+  </z>
+  <z>
+    <zatu n="ZATU711"/>
+    <sign oid="o0981653"/>
+  </z>
+  <z>
+    <zatu n="ZATU712"/>
+    <sign oid="o0981654"/>
+  </z>
+  <z>
+    <zatu n="ZATU713"/>
+    <sign oid="o0981656"/>
+  </z>
+  <z>
+    <zatu n="ZATU714"/>
+    <sign oid="o0981657"/>
+  </z>
+  <z>
+    <zatu n="ZATU715"/>
+    <sign oid="o0981659"/>
+  </z>
+  <z>
+    <zatu n="ZATU716"/>
+    <sign oid="o0981658"/>
+  </z>
+  <z>
+    <zatu n="ZATU717"/>
+    <sign oid="o0981661"/>
+  </z>
+  <z>
+    <zatu n="ZATU718"/>
+    <sign oid="o0981662"/>
+  </z>
+  <z>
+    <zatu n="ZATU719"/>
+    <sign oid="o0981663"/>
+  </z>
+  <z>
+    <zatu n="ZATU720"/>
+    <sign oid="o0981664"/>
+  </z>
+  <z>
+    <zatu n="ZATU721"/>
+    <sign oid="o0981665"/>
+  </z>
+  <z>
+    <zatu n="ZATU722"/>
+    <sign oid="o0981666"/>
+  </z>
+  <z>
+    <zatu n="ZATU723"/>
+    <sign oid="o0981667"/>
+  </z>
+  <z>
+    <zatu n="ZATU724"/>
+    <sign oid="o0981668"/>
+  </z>
+  <z>
+    <zatu n="ZATU725"/>
+    <sign oid="o0981669"/>
+  </z>
+  <z>
+    <zatu n="ZATU726"/>
+    <sign oid="o0981670"/>
+    <sign oid="o0981671"/>
+    <sign oid="o0981672"/>
+  </z>
+  <z>
+    <zatu n="ZATU727"/>
+    <sign oid="o0981673"/>
+  </z>
+  <z>
+    <zatu n="ZATU728"/>
+    <sign oid="o0981674"/>
+  </z>
+  <z>
+    <zatu n="ZATU729"/>
+    <sign oid="o0981675"/>
+  </z>
+  <z>
+    <zatu n="ZATU730"/>
+    <sign oid="o0981676"/>
+  </z>
+  <z>
+    <zatu n="ZATU732"/>
+    <sign oid="o0981677"/>
+  </z>
+  <z>
+    <zatu n="ZATU733"/>
+    <sign oid="o0981678"/>
+  </z>
+  <z>
+    <zatu n="ZATU734"/>
+    <sign oid="o0981679"/>
+  </z>
+  <z>
+    <zatu n="ZATU735"/>
+    <sign oid="o0981680"/>
+    <sign oid="o0981681"/>
+    <sign oid="o0981682"/>
+  </z>
+  <z>
+    <zatu n="ZATU736"/>
+    <sign oid="o0981683"/>
+    <sign oid="o0981684"/>
+  </z>
+  <z>
+    <zatu n="ZATU737"/>
+    <sign oid="o0981685"/>
+  </z>
+  <z>
+    <zatu n="ZATU738"/>
+    <sign oid="o0981686"/>
+  </z>
+  <z>
+    <zatu n="ZATU739"/>
+    <sign oid="o0981689"/>
+  </z>
+  <z>
+    <zatu n="ZATU740"/>
+    <sign oid="o0981691"/>
+    <sign oid="o0981692"/>
+  </z>
+  <z>
+    <zatu n="ZATU741"/>
+    <sign oid="o0981693"/>
+  </z>
+  <z>
+    <zatu n="ZATU742"/>
+    <sign oid="o0981696"/>
+  </z>
+  <z>
+    <zatu n="ZATU743"/>
+    <sign oid="o0981697"/>
+  </z>
+  <z>
+    <zatu n="ZATU744"/>
+    <sign oid="o0981698"/>
+  </z>
+  <z>
+    <zatu n="ZATU745"/>
+    <sign oid="o0981699"/>
+  </z>
+  <z>
+    <zatu n="ZATU746"/>
+    <sign oid="o0981701"/>
+  </z>
+  <z>
+    <zatu n="ZATU747"/>
+    <sign oid="o0981702"/>
+  </z>
+  <z>
+    <zatu n="ZATU748"/>
+    <sign oid="o0981703"/>
+  </z>
+  <z>
+    <zatu n="ZATU749"/>
+    <sign oid="o0981706"/>
+    <sign oid="o0981707"/>
+    <sign oid="o0981708"/>
+  </z>
+  <z>
+    <zatu n="ZATU750"/>
+    <sign oid="o0981709"/>
+  </z>
+  <z>
+    <zatu n="ZATU751"/>
+    <sign oid="o0981710"/>
+    <sign oid="o0981711"/>
+  </z>
+  <z>
+    <zatu n="ZATU752"/>
+    <sign oid="o0981713"/>
+  </z>
+  <z>
+    <zatu n="ZATU753"/>
+    <sign oid="o0981714"/>
+  </z>
+  <z>
+    <zatu n="ZATU754"/>
+    <sign oid="o0981715"/>
+  </z>
+  <z>
+    <zatu n="ZATU755"/>
+    <sign oid="o0981716"/>
+    <sign oid="o0981717"/>
+  </z>
+  <z>
+    <zatu n="ZATU756"/>
+    <sign oid="o0981718"/>
+  </z>
+  <z>
+    <zatu n="ZATU757"/>
+    <sign oid="o0981719"/>
+  </z>
+  <z>
+    <zatu n="ZATU758"/>
+    <sign oid="o0981720"/>
+  </z>
+  <z>
+    <zatu n="ZATU759"/>
+    <sign oid="o0981721"/>
+  </z>
+  <z>
+    <zatu n="ZATU760"/>
+    <sign oid="o0981722"/>
+    <sign oid="o0981724"/>
+  </z>
+  <z>
+    <zatu n="ZATU761"/>
+    <sign oid="o0981727"/>
+  </z>
+  <z>
+    <zatu n="ZATU762"/>
+    <sign oid="o0981728"/>
+    <sign oid="o0981730"/>
+  </z>
+  <z>
+    <zatu n="ZATU763"/>
+    <sign oid="o0981729"/>
+  </z>
+  <z>
+    <zatu n="ZATU764"/>
+    <sign oid="o0981732"/>
+  </z>
+  <z>
+    <zatu n="ZATU765"/>
+    <sign oid="o0981733"/>
+  </z>
+  <z>
+    <zatu n="ZATU766"/>
+    <sign oid="o0981734"/>
+  </z>
+  <z>
+    <zatu n="ZATU767"/>
+    <sign oid="o0981735"/>
+  </z>
+  <z>
+    <zatu n="ZATU768"/>
+    <sign oid="o0981736"/>
+  </z>
+  <z>
+    <zatu n="ZATU769"/>
+    <sign oid="o0981737"/>
+  </z>
+  <z>
+    <zatu n="ZATU770"/>
+    <zref>Damaged; ATU 833 = ATU 1, 442 = P001011 ATU 5, pl. 034, W 9071,h; excluded from CDLI list.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU771"/>
+    <sign oid="o0981738"/>
+  </z>
+  <z>
+    <zatu n="ZATU772"/>
+    <sign oid="o0981739"/>
+  </z>
+  <z>
+    <zatu n="ZATU773"/>
+    <sign oid="o0981740"/>
+    <sign oid="o0981741"/>
+  </z>
+  <z>
+    <zatu n="ZATU774"/>
+    <sign oid="o0981742"/>
+  </z>
+  <z>
+    <zatu n="ZATU775"/>
+    <sign oid="o0981743"/>
+  </z>
+  <z>
+    <zatu n="ZATU776"/>
+    <sign oid="o0981744"/>
+  </z>
+  <z>
+    <zatu n="ZATU777"/>
+    <sign oid="o0981745"/>
+  </z>
+  <z>
+    <zatu n="ZATU778"/>
+    <sign oid="o0981746"/>
+  </z>
+  <z>
+    <zatu n="ZATU779"/>
+    <sign oid="o0981747"/>
+  </z>
+  <z>
+    <zatu n="ZATU780"/>
+    <sign oid="o0981748"/>
+  </z>
+  <z>
+    <zatu n="ZATU781"/>
+    <sign oid="o0981749"/>
+  </z>
+  <z>
+    <zatu n="ZATU782"/>
+    <sign oid="o0981750"/>
+  </z>
+  <z>
+    <zatu n="ZATU783"/>
+    <sign oid="o0981751"/>
+  </z>
+  <z>
+    <zatu n="ZATU784"/>
+    <sign oid="o0981752"/>
+  </z>
+  <z>
+    <zatu n="ZATU785"/>
+    <sign oid="o0981753"/>
+  </z>
+  <z>
+    <zatu n="ZATU786"/>
+    <sign oid="o0981754"/>
+  </z>
+  <z>
+    <zatu n="ZATU787"/>
+    <sign oid="o0981755"/>
+  </z>
+  <z>
+    <zatu n="ZATU788"/>
+    <sign oid="o0981756"/>
+  </z>
+  <z>
+    <zatu n="ZATU789"/>
+    <sign oid="o0981757"/>
+  </z>
+  <z>
+    <zatu n="ZATU790"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU791"/>
+    <sign oid="o0981758"/>
+  </z>
+  <z>
+    <zatu n="ZATU792"/>
+    <sign oid="o0981759"/>
+  </z>
+  <z>
+    <zatu n="ZATU793"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU794"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU795"/>
+    <sign oid="o0981760"/>
+  </z>
+  <z>
+    <zatu n="ZATU796"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU797"/>
+    <sign oid="o0981761"/>
+  </z>
+  <z>
+    <zatu n="ZATU798"/>
+    <sign oid="o0981762"/>
+  </z>
+  <z>
+    <zatu n="ZATU799"/>
+    <sign oid="o0981763"/>
+  </z>
+  <z>
+    <zatu n="ZATU800"/>
+    <sign oid="o0981764"/>
+  </z>
+  <z>
+    <zatu n="ZATU801"/>
+    <sign oid="o0981765"/>
+  </z>
+  <z>
+    <zatu n="ZATU802"/>
+    <sign oid="o0981766"/>
+    <sign oid="o0981767"/>
+  </z>
+  <z>
+    <zatu n="ZATU803"/>
+    <sign oid="o0981768"/>
+  </z>
+  <z>
+    <zatu n="ZATU804"/>
+    <sign oid="o0981769"/>
+  </z>
+  <z>
+    <zatu n="ZATU805"/>
+    <sign oid="o0981770"/>
+  </z>
+  <z>
+    <zatu n="ZATU806"/>
+    <sign oid="o0981771"/>
+  </z>
+  <z>
+    <zatu n="ZATU807"/>
+    <sign oid="o0981772"/>
+  </z>
+  <z>
+    <zatu n="ZATU808"/>
+    <sign oid="o0981773"/>
+  </z>
+  <z>
+    <zatu n="ZATU809"/>
+    <sign oid="o0981774"/>
+  </z>
+  <z>
+    <zatu n="ZATU810"/>
+    <sign oid="o0981775"/>
+  </z>
+  <z>
+    <zatu n="ZATU811"/>
+    <sign oid="o0981776"/>
+  </z>
+  <z>
+    <zatu n="ZATU812"/>
+    <sign oid="o0981777"/>
+  </z>
+  <z>
+    <zatu n="ZATU813"/>
+    <sign oid="o0981778"/>
+  </z>
+  <z>
+    <zatu n="ZATU814"/>
+    <sign oid="o0981779"/>
+  </z>
+  <z>
+    <zatu n="ZATU815"/>
+    <sign oid="o0981780"/>
+  </z>
+  <z>
+    <zatu n="ZATU816"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU817"/>
+    <sign oid="o0981781"/>
+  </z>
+  <z>
+    <zatu n="ZATU818"/>
+    <sign oid="o0981782"/>
+  </z>
+  <z>
+    <zatu n="ZATU819"/>
+    <sign oid="o0981783"/>
+  </z>
+  <z>
+    <zatu n="ZATU820"/>
+    <sign oid="o0981784"/>
+  </z>
+  <z>
+    <zatu n="ZATU821"/>
+    <sign oid="o0981785"/>
+  </z>
+  <z>
+    <zatu n="ZATU822"/>
+    <sign oid="o0981786"/>
+  </z>
+  <z>
+    <zatu n="ZATU823"/>
+    <sign oid="o0981787"/>
+  </z>
+  <z>
+    <zatu n="ZATU824"/>
+    <sign oid="o0981788"/>
+  </z>
+  <z>
+    <zatu n="ZATU825"/>
+    <sign oid="o0981789"/>
+  </z>
+  <z>
+    <zatu n="ZATU826"/>
+    <sign oid="o0981790"/>
+  </z>
+  <z>
+    <zatu n="ZATU827"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU828"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU829"/>
+    <sign oid="o0981791"/>
+  </z>
+  <z>
+    <zatu n="ZATU830"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU831"/>
+    <sign oid="o0981792"/>
+  </z>
+  <z>
+    <zatu n="ZATU832"/>
+    <sign oid="o0981794"/>
+  </z>
+  <z>
+    <zatu n="ZATU833"/>
+    <sign oid="o0981795"/>
+  </z>
+  <z>
+    <zatu n="ZATU834"/>
+    <sign oid="o0981796"/>
+  </z>
+  <z>
+    <zatu n="ZATU835"/>
+    <sign oid="o0981797"/>
+  </z>
+  <z>
+    <zatu n="ZATU836"/>
+    <sign oid="o0981798"/>
+  </z>
+  <z>
+    <zatu n="ZATU837"/>
+    <sign oid="o0981799"/>
+    <sign oid="o0981800"/>
+  </z>
+  <z>
+    <zatu n="ZATU838"/>
+    <sign oid="o0981801"/>
+  </z>
+  <z>
+    <zatu n="ZATU839"/>
+    <sign oid="o0981802"/>
+  </z>
+  <z>
+    <zatu n="ZATU840"/>
+    <sign oid="o0981803"/>
+  </z>
+  <z>
+    <zatu n="ZATU841"/>
+    <sign oid="o0981804"/>
+  </z>
+  <z>
+    <zatu n="ZATU842"/>
+    <sign oid="o0981805"/>
+  </z>
+  <z>
+    <zatu n="ZATU843"/>
+    <sign oid="o0981806"/>
+  </z>
+  <z>
+    <zatu n="ZATU844"/>
+    <sign oid="o0981807"/>
+  </z>
+  <z>
+    <zatu n="ZATU845"/>
+    <sign oid="o0981808"/>
+  </z>
+  <z>
+    <zatu n="ZATU846"/>
+    <sign oid="o0981809"/>
+  </z>
+  <z>
+    <zatu n="ZATU847"/>
+    <sign oid="o0981810"/>
+  </z>
+  <z>
+    <zatu n="ZATU848"/>
+    <sign oid="o0981811"/>
+  </z>
+  <z>
+    <zatu n="ZATU849"/>
+    <sign oid="o0981812"/>
+  </z>
+  <z>
+    <zatu n="ZATU850"/>
+    <sign oid="o0981813"/>
+  </z>
+  <z>
+    <zatu n="ZATU851"/>
+    <sign oid="o0981814"/>
+  </z>
+  <z>
+    <zatu n="ZATU852"/>
+    <sign oid="o0981815"/>
+  </z>
+  <z>
+    <zatu n="ZATU853"/>
+    <sign oid="o0981816"/>
+  </z>
+  <z>
+    <zatu n="ZATU854"/>
+    <sign oid="o0981817"/>
+  </z>
+  <z>
+    <zatu n="ZATU855"/>
+    <sign oid="o0981818"/>
+  </z>
+  <z>
+    <zatu n="ZATU856"/>
+    <sign oid="o0981819"/>
+  </z>
+  <z>
+    <zatu n="ZATU857"/>
+    <sign oid="o0981820"/>
+  </z>
+  <z>
+    <zatu n="ZATU858"/>
+    <sign oid="o0981821"/>
+  </z>
+  <z>
+    <zatu n="ZATU859"/>
+    <sign oid="o0981822"/>
+  </z>
+</sl>

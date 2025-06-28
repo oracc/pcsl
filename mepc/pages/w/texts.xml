@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <esp:name>Corpus</esp:name>
+  <esp:title>Corpus</esp:title>
+  <html>
+    <head/>
+    <body>
+      <p>The PC text Corpus is defined by the CDLI corpus of
+      Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
+      for use by PCSL: we call this <code>CDLI-tc</code>; note that
+      CDLI-tc is used here only in the PCSL version of the
+      corpus. This version has some minor modifications to the
+      transliteration and has been converted to use Unicode
+      transliteration conventions rather than the CDLI ASCII ones.</p>
+      <p>There are 6296 texts in the
+      corpus of which 1835 are attributed
+      to Uruk IV and 4461, to the
+      subsequent Uruk III period.</p>
+      <esp:ssh>The Print Corpus</esp:ssh>
+      <p>The principle modern publications of the Proto-Cuneiform corpus are:</p>
+      <dl>
+        <dt>ZATU</dt>
+        <dd>M.W. Green, Nissen, H. <i>Zeichenliste der Archaischen Texte aus Uruk</i>, ATU 2, Berlin 1987.</dd>
+        <dt>ATU3</dt>
+        <dd>R.K. Englund und Nissen, H., unter Mitarbeit von Peter Damerow,
+	"Die Lexikalischen Listen der Archaischen Texte aus Uruk" (ATU 3), Berlin 1993.</dd>
+        <dt>ATU5</dt>
+        <dd>R.K. Englund, <i>Archaic Administrative Texts from Uruk:
+	The Early Campaigns</i>, ATU 5, Berlin 1994.</dd>
+        <dt>ATU6</dt>
+        <dd>R.K. Englund and Nissen, H., <i>&gt;Archaische Verwaltungs-
+	texte aus Uruk: Vorderasiatische Museum II</i>, ATU 6, Berlin 2005.</dd>
+        <dt>ATU7</dt>
+        <dd>R.K. Englund and Nissen, H., <i>Archaische Verwaltungs-
+	texte aus Uruk: Die Heidelberger Sammlung</i>, ATU 7, Berlin
+	2001.</dd>
+        <dt>MSVO1</dt>
+        <dd>R.K. Englund and Grégoire, J.-P., <i>The Proto-Cuneiform
+	Texts from Jemdet Nasr</i>, MSVO 1, Berlin 1991.</dd>
+        <dt>MSVO3</dt>
+        <dd>R.K. Englund, <i>The Proto-Cuneiform Texts from the
+	Erlenmeyer Collection</i>, MSVO 3, Berlin forthcoming.</dd>
+        <dt>MSVO4</dt>
+        <dd>R.K. Englund, <i>Proto-Cuneiform Texts from Diverse Collections</i>, MSVO 4, Berlin 1996.</dd>
+        <dt>CUSAS01</dt>
+        <dd>S.F. Monaco, The Cornell University Archaic Tablets (CUSAS 1), Bethesda, MD, 2007.</dd>
+        <dt>CUSAS21</dt>
+        <dd>S.F. Monaco, Archaic Bullae and Tablets in the Cornell
+        University Collections (CUSAS 21), Bethesda, MD, 2014.</dd>
+        <dt>CUSAS31</dt>
+        <dd>S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.</dd>
+      </dl>
+      <esp:ssh>The Digital Corpus</esp:ssh>
+      <p>The digital corpus includes the contents of the all of the
+      above major publications:</p>
+      <ul>
+        <li>Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)</li>
+        <li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
+	these supercede ATU1</li>
+        <li>Jemdet Nasr (Uruk III) tablets from MSVO1; these supercede
+	Langdon, PI</li>
+        <li>Tablets from various locations from MSVO4; this includes
+	non-Uruk tablets which were included in ATU1</li>
+        <li>Tablets in private collections from various locations in
+	CUSAS1, CUSAS21, and CUSAS31; these post-date the ATU and MSVO
+	volumes</li>
+        <li>Tablets from the "Erlenmeyer Collection"; these were to be
+	published in MSVO3 which has not yet appeared; many of them
+	have been edited by Englund and others in various
+	publications, however</li>
+        <!--<li>Tablets in private collections primarily from Umma; these
+	are in the CDLI set of transliterations but have not yet been
+	edited in print</li>-->
+      </ul>
+      <esp:ssh>PCSL Corpus</esp:ssh>
+      <p>PCSL's version of CDLI-tc has the following composition
+      divided by provenience, period, and published versus unpublished
+      status:</p>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+        <thead>
+          <tr>
+            <th/>
+            <th>IV/pub</th>
+            <th>IV/unp</th>
+            <th>IV/all</th>
+            <th>III/pub</th>
+            <th>III/unp</th>
+            <th>III/all</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Uruk</th>
+            <td>1790</td>
+            <td>0</td>
+            <td>1790 </td>
+            <td>3097</td>
+            <td>0</td>
+            <td>3097</td>
+          </tr>
+          <tr>
+            <th>JN</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0 </td>
+            <td>269</td>
+            <td>0</td>
+            <td>269</td>
+          </tr>
+          <tr>
+            <th>Umma</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0 </td>
+            <td>398</td>
+            <td>0</td>
+            <td>398</td>
+          </tr>
+          <tr>
+            <th>Uqair</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0 </td>
+            <td>42</td>
+            <td>0</td>
+            <td>42</td>
+          </tr>
+          <tr>
+            <th>Misc</th>
+            <td>45</td>
+            <td>0</td>
+            <td>45 </td>
+            <td>655</td>
+            <td>0</td>
+            <td>655</td>
+          </tr>
+          <tr>
+            <th>total</th>
+            <td>1835</td>
+            <td>0</td>
+            <td>1835 </td>
+            <td>4461 </td>
+            <td>0</td>
+            <td>4461</td>
+          </tr>
+        </tbody>
+      </table>
+      <esp:ssh>PC25 Corpus</esp:ssh>
+      <p>About 1/3 of the PCSL corpus is available only in
+      transliteration or photograph and has not yet been subjected to
+      the rigorous assessment of a scholarly edition. These texts are
+      removed to create a subcorpus of well-studied text to serve as
+      the basis for the initial (and largest) phase of encoding of
+      Proto-Cuneiform.</p>
+      <p>The subsetting is based on the CDLI catalogue entries as of
+      February 2025.  It is possible that features of the CDLI data
+      may mean that a few texts that should have been omitted are
+      included in the PC25 corpus and vice versa. The impact of this
+      on the final repertoire is neglible, however, because of the
+      cross-checking between corpus and published sign lists.</p>
+      <p>PC25's subset of the PCSL corpus has the following
+      composition divided by provenience, period, and
+      published/unpublished status:</p>
+      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+        <thead>
+          <tr>
+            <th/>
+            <th>IV/pub</th>
+            <th>IV/unp</th>
+            <th>IV/all</th>
+            <th>III/pub</th>
+            <th>III/unp</th>
+            <th>III/all</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Uruk</th>
+            <td>1279</td>
+            <td>0</td>
+            <td>1279 </td>
+            <td>1973</td>
+            <td>0</td>
+            <td>1973</td>
+          </tr>
+          <tr>
+            <th>JN</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0 </td>
+            <td>237</td>
+            <td>0</td>
+            <td>237</td>
+          </tr>
+          <tr>
+            <th>Umma</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0 </td>
+            <td>93</td>
+            <td>0</td>
+            <td>93</td>
+          </tr>
+          <tr>
+            <th>Uqair</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0 </td>
+            <td>42</td>
+            <td>0</td>
+            <td>42</td>
+          </tr>
+          <tr>
+            <th>Misc</th>
+            <td>33</td>
+            <td>0</td>
+            <td>33 </td>
+            <td>585</td>
+            <td>2</td>
+            <td>587</td>
+          </tr>
+          <tr>
+            <th>total</th>
+            <td>1312</td>
+            <td>494</td>
+            <td>1312 </td>
+            <td>2930 </td>
+            <td>1485</td>
+            <td>2932</td>
+          </tr>
+        </tbody>
+      </table>
+    </body>
+  </html>
+</esp:page>

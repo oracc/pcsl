@@ -1,0 +1,3960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sl n="zatu">
+  <z>
+    <zatu n="ZATU001"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU002"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU003"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU004"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU005"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU006"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU007"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU008"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU009"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU010"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU011"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU012"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU013"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU014"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU014a"/>
+    <zref>ZATU gives |2(N57)+AB₂| and |3(N57)+AB₂|; Corpus has |3(N57).AB₂|/|4(N57).AB₂| in ATU 1, 610 = P005961 ii 5-6 read 3(N57) AB₂ 4(N57) AB₂ in CDLI.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU015"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU016"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU017"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU018"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU019"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU020"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU021"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU022"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU023"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU024"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU025"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU026"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU027"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU028"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU029"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU030"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU031"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU032"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU033"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU034"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU035"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU036"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU037"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU038"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU039"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU040"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU041"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU042"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU043"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU044"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU045"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU046"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU047"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU048"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU049"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU050"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU051"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU052"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU053"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU054"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU055"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU056"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU057"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU058"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU059"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU060"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU061"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU062"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU063"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU064"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU065"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU066"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU067"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU068"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU069"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU070"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU071"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU072"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU073"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU074"/>
+    <zref>ZATU074 DARA₄+BAD+BAD reread in ATU 3 p.154 W20421,2 = Lú Vorläufer (Tf.23) O0305 as RI₈~a? DARA₄~b.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU075"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU076"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU077"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU078"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU079"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU080"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU081"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU082"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU083"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU084"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU085"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU086"/>
+    
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU087"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU088"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU089"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU090"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU091"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU092"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU093"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU094"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU095"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU096"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU097"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU098"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU099"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU100"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU101"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU102"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU103"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU104"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU105"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU106"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU107"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU108"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU109"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU110"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU111"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU112"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU113"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU114"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU115"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU116"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU117"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU118"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU119"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU120"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU121"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU122"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU123"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU124"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU125"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU126"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU127"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU128"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU129"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU130"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU131"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU132"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU133"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU134"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU135"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU136"/>
+    <zref>ZATU EN+UDU(?) read in CDLI as X in hapax ATU 1, 342=P001563 ATU 5, pl. 104, W 9656,es i 1.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU137"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU138"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU139"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU140"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU141"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU142"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU143"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU144"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU145"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU146"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU147"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU148"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU149"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU150"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU151"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU152"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU153"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU154"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU155"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU156"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU157"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU158"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU159"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU160"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU161"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU162"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU163"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU164"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU165"/>
+    <zref>Only in UET II as BAU328 = |GA₂×(1(N58).BAD)|.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU166"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU167"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU168"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU169"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU170"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU171"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU172"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU173"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU174"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU175"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU176"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU177"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU178"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU179"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU180"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU181"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU182"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU183"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU184"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU185"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU186"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU187"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU188"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU189"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU190"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU191"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU192"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU193"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU194"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU195"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU196"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU197"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU198"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU199"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU200"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU201"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU202"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU203"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU204"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU205"/>
+    <zref>ATU 1, 28=P001294 ATU 5, pl. 068, W 9579,av read |GI&amp;GI| |GI×SIG₂~d1|;</zref>
+  </z>
+  <z>
+    <zatu n="ZATU206"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU207"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU208"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU209"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU210"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU211"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU212"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU213"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU214"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU215"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU216"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU217"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU218"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU219"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU220"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU221"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU222"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU223"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU224"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU225"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU226"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU227"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU228"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU229"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU230"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU231"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU232"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU233"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU234"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU235"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU236"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU237"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU238"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU239"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU240"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU241"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU242"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU243"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU244"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU245"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU246"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU247"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU248"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU249"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU250"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU251"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU252"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU253"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU254"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU255"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU256"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU257"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU258"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU259"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU260"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU261"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU262"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU263"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU264"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU265"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU266"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU267"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU268"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU269"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU270"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU271"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU272"/>
+    <zref>Read as sequence KA GI.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU273"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU274"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU275"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU276"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU277"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU278"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU279"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU280"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU281"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU282"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU283"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU284"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU285"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU286"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU287"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU288"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU289"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU290"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU291"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU292"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU293"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU294"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU295"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU296"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU297"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU298"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU299"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU300"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU301"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU302"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU303"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU304"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU305"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU306"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU307"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU308"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU309"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU310"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU311"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU312"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU313"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU314"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU315"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU316"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU317"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU318"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU319"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU320"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU321"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU322"/>
+    <zref>|LAGAB×ZATU766|; collation on P004228 o i 4b suggests not all of LAGAB is present; read X in CDLI-tc</zref>
+  </z>
+  <z>
+    <zatu n="ZATU323"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU324"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU325"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU326"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU327"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU328"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU329"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU330"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU331"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU332"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU333"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU334"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU335"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU336"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU337"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU338"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU339"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU340"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU341"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU342"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU343"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU344"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU345"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU346"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU347"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU348"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU349"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU350"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU351"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU352"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU353"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU354"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU355"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU356"/>
+    <zref>ZATU |MAŠ+GAN₂| read as MAŠ GAN₂ in CDLI-tc</zref>
+  </z>
+  <z>
+    <zatu n="ZATU357"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU358"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU359"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU360"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU361"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU362"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU363"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU364"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU365"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU366"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU367"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU368"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU369"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU370"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU371"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU372"/>
+    <zref>ZATU MURUB₃ read ME~a EN~b LAGAR~b1 in hapax P000849=ATU 1, 480=ATU 5 pl. 17, W 6855, i 1, i.e., |ŠITA~b2@g×HI@g~a|</zref>
+  </z>
+  <z>
+    <zatu n="ZATU373"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU374"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU375"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU376"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU377"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU378"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU379"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU380"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU381"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU382"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU383"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU384"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU385"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU386"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU387"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU388"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU389"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU390"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU391"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU392"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU393"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU394"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU395"/>
+    <zref>See new copy of ATU 1, 143 in P001212=ATU 5, pl. 054, W 9335,i.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU396"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU397"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU398"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU399"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU400"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU401"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU402"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU403"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU404"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU405"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU406"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU407"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU408"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU409"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU410"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU411"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU412"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU413"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU414"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU415"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU416"/>
+    <zatu n="ZATU570"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU417"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU418"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU419"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU420"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU421"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU422"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU423"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU424"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU425"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU426"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU427"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU428"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU429"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU430"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU431"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU432"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU433"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU434"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU435"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU436"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU437"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU438"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU439"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU440"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU441"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU442"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU443"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU444"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU445"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU446"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU447"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU448"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU449"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU450"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU451"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU452"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU453"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU454"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU455"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU456"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU457"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU458"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU459"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU460"/>
+    <zatu n="ZATU472"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU461"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU462"/>
+    <zatu n="ZATU469"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU463"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU464"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU465"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU466"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU467"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU468"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU469"/>
+    <zsee z="ZATU462"/>
+  </z>
+  <z>
+    <zatu n="ZATU470"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU471"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU472"/>
+    <zsee z="ZATU460"/>
+  </z>
+  <z>
+    <zatu n="ZATU473"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU474"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU475"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU476"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU477"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU478"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU479"/>
+    <zref>Delete, W 16012,b+ = P002571 now read UDU ŠITA.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU480"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU481"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU482"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU483"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU484"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU485"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU486"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU487"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU488"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU489"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU490"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU491"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU492"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU493"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU494"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU495"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU496"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU497"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU498"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU499"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU500"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU501"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU502"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU503"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU504"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU505"/>
+    <zref>Delete, W 14777,e = P002181 now read GAL~a ŠAB~a AL.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU506"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU507"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU508"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU509"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU510"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU511"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU512"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU513"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU514"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU515"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU516"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU517"/>
+    <zref>Delete, W 17586 = P002625 now read as 1(N01) KU₃.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU518"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU519"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU520"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU521"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU522"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU523"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU524"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU525"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU526"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU527"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU528"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU529"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU530"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU531"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU532"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU533"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU534"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU535"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU536"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU537"/>
+    <zref>|ŠU₂.U₄| in ATU 206 read as AB₂ in P001387=ATU 5 pl.80, W 9655,o.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU538"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU539"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU540"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU541"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU542"/>
+    <zref>ŠUNIGIN taken as DA in CDLI.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU543"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU544"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU545"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU546"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU547"/>
+    
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU548"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU549"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU550"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU551"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU552"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU553"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU554"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU555"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU556"/>
+    <zatu n="ZATU558"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU557"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU558"/>
+    <zsee z="ZATU556"/>
+  </z>
+  <z>
+    <zatu n="ZATU559"/>
+    <zref>Damaged, identification uncertain, possibly KAB.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU560"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU561"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU562"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU563"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU564"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU565"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU566"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU567"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU568"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU569"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU570"/>
+    <zsee z="ZATU416"/>
+  </z>
+  <z>
+    <zatu n="ZATU571"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU572"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU573"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU574"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU575"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU576"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU577"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU578"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU579"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU580"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU581"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU582"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU583"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU584"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU585"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU586"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU587"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU588"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU589"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU590"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU591"/>
+    
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU592"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU593"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU594"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU595"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU596"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU597"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU598"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU599"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU600"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU601"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU602"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU603"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU604"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU605"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU606"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU607"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU608"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU609"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU610"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU611"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU612"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU613"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU614"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU615"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU616"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU617"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU618"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU619"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU620"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU621"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU622"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU623"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU624"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU625"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU626"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU627"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU628"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU629"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU630"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU631"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU632"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU633"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU634"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU635"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU636"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU637"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU639"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU640"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU641"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU642"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU643"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU644"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU645"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU646"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU647"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU648"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU649"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU650"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU651"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU652"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU653"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU654"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU655"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU656"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU657"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU658"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU659"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU660"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU661"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU662"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU663"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU664"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU665"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU666"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU667"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU668"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU669"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU670"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU671"/>
+    <zref>Damaged, identification uncertain.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU672"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU674"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU675"/>
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU676"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU677"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU678"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU679"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU680"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU681"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU682"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU683"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU684"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU685"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU686"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU687"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU688"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU689"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU690"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU691"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU692"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU693"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU694"/>
+    
+    
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU695"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU696"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU697"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU698"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU699"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU700"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU701"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU702"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU703"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU704"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU705"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU706"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU707"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU708"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU709"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU710"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU711"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU712"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU713"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU714"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU715"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU716"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU717"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU718"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU719"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU720"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU721"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU722"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU723"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU724"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU725"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU726"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU727"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU728"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU729"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU730"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU732"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU733"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU734"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU735"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU736"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU737"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU738"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU739"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU740"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU741"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU742"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU743"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU744"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU745"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU746"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU747"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU748"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU749"/>
+    
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU750"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU751"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU752"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU753"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU754"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU755"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU756"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU757"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU758"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU759"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU760"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU761"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU762"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU763"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU764"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU765"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU766"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU767"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU768"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU769"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU770"/>
+    <zref>Damaged; ATU 833 = ATU 1, 442 = P001011 ATU 5, pl. 034, W 9071,h; excluded from CDLI list.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU771"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU772"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU773"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU774"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU775"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU776"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU777"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU778"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU779"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU780"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU781"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU782"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU783"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU784"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU785"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU786"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU787"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU788"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU789"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU790"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU791"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU792"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU793"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU794"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU795"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU796"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU797"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU798"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU799"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU800"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU801"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU802"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU803"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU804"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU805"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU806"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU807"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU808"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU809"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU810"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU811"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU812"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU813"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU814"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU815"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU816"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU817"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU818"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU819"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU820"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU821"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU822"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU823"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU824"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU825"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU826"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU827"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU828"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU829"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU830"/>
+    <zref>Vacat.</zref>
+  </z>
+  <z>
+    <zatu n="ZATU831"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU832"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU833"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU834"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU835"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU836"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU837"/>
+    
+    
+  </z>
+  <z>
+    <zatu n="ZATU838"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU839"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU840"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU841"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU842"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU843"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU844"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU845"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU846"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU847"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU848"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU849"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU850"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU851"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU852"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU853"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU854"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU855"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU856"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU857"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU858"/>
+    
+  </z>
+  <z>
+    <zatu n="ZATU859"/>
+    
+  </z>
+</sl>

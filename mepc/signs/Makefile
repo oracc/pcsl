@@ -9,22 +9,22 @@ pcsl: dirs gpcsl/gstats.html gpcsl/csl.tix
 
 pc25: dirs gpc25/gstats.html
 
-gpcsl/gstats.html: gpcsl/pcsl.tok b/gx.sh
-	b/gx.sh ../texts/tpcsl gpcsl pcsl
+gpcsl/gstats.html: gpcsl/pcsl.tok 00bin/gx.sh
+	00bin/gx.sh ../texts/tpcsl gpcsl pcsl
 
-gpc25/gstats.html: gpc25/pc25.tok b/gx.sh
-	b/gx.sh ../texts/tpc25 gpc25 pc25
+gpc25/gstats.html: gpc25/pc25.tok 00bin/gx.sh
+	00bin/gx.sh ../texts/tpc25 gpc25 pc25
 
 gpcsl/pcsl.tok: db/pcsl.tok
 	mkdir -p gpcsl
-	b/gp.sh $< >$@
+	00bin/gp.sh $< >$@
 
 gpcsl/csl.tix: db/pcsl.tok ../../00lib/toklists.lst ${SLDEP}
-	b/mk-csl-tix.sh
+	00bin/mk-csl-tix.sh
 
 gpc25/pc25.tok: db/pc25.tok ../../00lib/toklists.lst ${SLDEP}
 	mkdir -p gpc25
-	b/gp.sh $< >$@
+	00bin/gp.sh $< >$@
 
 db/pcsl.tok: db/pcsl.xtf
 	tokx -s <$< >$@

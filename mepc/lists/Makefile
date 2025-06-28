@@ -48,16 +48,12 @@ default: core csldist pc25 pcsl html css js font
 
 base: 00etc/scodes.tsv
 
-# # 00etc/pc24.tsv # pc24.tsv is static now
-
-# # 00etc/pc24.tsv: 00etc/unicode.tsv 00etc/ap24-codes.tsv ../../00etc/add-data.tsv ../../00etc/pc-pua.tab
-# # 	00bin/pc24.plx >$@
-
 00etc/scodes.tsv: 00etc/easl-base.tsv 00etc/num-base.tsv 00etc/corpus-base.tsv 00etc/add-data.tsv 00bin/scodes.sh
 	00bin/scodes.sh
 
-00etc/add-data.tsv: ../../00etc/add-data.tsv 00bin/omap.plx 00etc/pcsl.oid
-	00bin/omap.plx -g -c 0 ../../00etc/add-data.tsv >00etc/add-data.tsv
+# OIDs are now fixed to o098/o099
+#00etc/add-data.tsv: ../../00etc/add-data.tsv 00bin/omap.plx 00etc/pcsl.oid
+#	00bin/omap.plx -g -c 0 ../../00etc/add-data.tsv >00etc/add-data.tsv
 
 ###
 ### CORE

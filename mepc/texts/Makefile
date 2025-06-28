@@ -7,10 +7,10 @@ pcsl: dirs tpcsl/corpus.html
 
 pc25: dirs tpc25/corpus.html
 
-tpcsl/corpus.html: 00bin/corpus.sh ${ORACC}/pu00bin/pcsl/cat/cat.dbi
+tpcsl/corpus.html: 00bin/corpus.sh ${ORACC}/pub/pcsl/cat/cat.dbi
 	00bin/corpus.sh tpcsl pcsl
 
-tpc25/corpus.html: 00bin/corpus.sh  ${ORACC}/pu00bin/pcsl/pc25/cat/cat.dbi
+tpc25/corpus.html: 00bin/corpus.sh ${ORACC}/pub/pcsl/pc25/cat/cat.dbi
 	00bin/corpus.sh tpc25 pcsl/pc25
 
 tpcsl/pc25not.lst:

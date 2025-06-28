@@ -76,7 +76,7 @@ sub finish_row {
 }
 
 sub load_add_data {
-    my @pics = `cut -f2,4 ../../00etc/add-data.tsv`; chomp @pics;
+    my @pics = `cut -f2,4 00etc/add-data.tsv`; chomp @pics;
     foreach (@pics) {
 	my($h,$p) = split(/\t/,$_);
 	$pics{$h} = "/pcsl/images/add/thumb/$p" if $p;

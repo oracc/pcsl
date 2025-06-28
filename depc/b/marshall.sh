@@ -1,5 +1,5 @@
 #!/bin/sh
-cp ../00web/mepc/{texts,signs,lists,coverage,sequences}.xml m
+cp ../mepc/pages/w/{texts,signs,lists,coverage,sequences}.xml m
 cp ${ORACC}/www/pcsl/mepc/sl/zatu.html m
 cp ${ORACC}/www/pcsl/mepc/sl/pcsl-tab.html m
 cp ../00web/pepc/principles.xml m/pepc.xml

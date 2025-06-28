@@ -1,0 +1,227 @@
+#
+# This file is where sequence data is maintained.
+#
+
+#Column 1 is the OID of the base character (a o098xxxxx in new OIDS)
+#
+
+#Column 2 is the sign name for the base character
+#
+
+#Column 3 is an integral glyph to be used for the display of the ligature
+#
+
+#Column 4 is a descriptive version of the glyph in which the individual
+#components are the glyf variants exhibited by the integral glyph.
+#This column is used by seq-final.plx to generate the glyph name: a
+#glyph name consists of the base character of each glyph, a period
+#(which is effectively the base character of all joiners) and a tag.
+#The tag is variant number for the sequence of glyph names and is used
+#as the basis for the CVnn for the glyph's ligature.
+#
+
+o0980054	|AMAR.1(N02)|	𒛆	𒛅.𒖾
+o0980064	|AN.IM~a.GI₆|	󲜖	𒛌.𒣾.𒢎
+o0980066	|APIN~a.APIN~a|	𒛓	𒛒.𒛒
+o0980127	|BU~b.NA₂~a|	𒜗	𒜖.𒨏
+o0980131	|BULUG₃.DU₆~a|	󳁡	𒜚.𒝐
+o0980138	|DA~a.LIŠ|	𒜡	𒜠.𒦵
+o0980029	|DU.ME~a.NUN~a|	𒚭	𒝍.𒧢.𒩴
+o0980306	|DU.U₄.1(N14).1(N08)|	𒟓	𒝍.𒯡
+o0980298	|E₂~a.LIŠ|	𒟋	𒟊.𒦵
+o0980970	|E₂~a.NUN~a|	𒩩	𒟊.𒩴
+o0980302	|E₂~b.LIŠ|	𒟏	𒟎.𒦵
+o0980323	|EN~a.KID~a|	𒟪	𒟙.𒥁
+o0980321	|EN~a.ME~a.GI|	𒟧	𒟙.𒧢∘𒡸
+o0980321	|EN~a.ME~a.GI|	𒟧	𒟙.𒧢∘𒡸
+o0980321	|EN~a.ME~a.GI|	𒟧	𒟙∘𒧢.𒡸
+o0980320	|EN~a.ME~a.MU|	𒟦	𒟙.𒧢.𒧬
+o0980322	|EN~a.ŠE~a@t.EZEN~b.NUN~a.SIG₇|	𒟨	𒟙.󳄆∘𒩴.𒫤
+o0980322	|EN~a.ŠE~a@t.EZEN~b.NUN~a.SIG₇|	𒟩	𒟙.𒛦∘𒫣.𒧢.𒩴
+o0980318	|EN₂.E₂~a|	𒟤	𒟣.𒟊
+o0980319	|EN₂.E₂~b|	𒟥	𒟣.𒟎
+o0980902	|EŠDA.NAM₂|	𒨨	𒟰.𒨣
+o0980902	|EŠDA.NAM₂|	𒨧	𒟰+𒨣
+o0980359	|GA~a.ZATU753|	𒠐	𒠊.𒵹
+o0980359	|GA~a.ZATU753|	𒠌	𒵹.𒠊
+o0981495	|GAL~a.BUR₂|	𒲃	𒡎.𒜟
+o0980799	|GAL~a.LU₂|	𒦻	𒡎.𒦶
+o0980799	|GAL~a.LU₂|	𒦺	𒦶∘𒡎
+o0981199	|GAL~a.NI~a|	𒭑	𒡎.𒨺
+o0981198	|GAL~a.NIM~a|	𒭐	𒡎.𒩃
+o0980678	|GAL~a.UKKIN~a|	𒥌	𒡎.𒰱
+o0980678	|GAL~a.UKKIN~a|	𒥋	𒡎.𒰲
+o0980540	|GEŠTU~a.NAGA~a|	𒢻	𒡱.𒨖
+o0980498	|GI₆.NUNUZ~c|	󲠒	𒢎.𒪇
+o0980501	|GIR~a.KU₆~a|	𒢔	𒢓.𒥥
+o0980503	|GIR~b.GIR~b|	𒢗	𒢕.𒢕
+o0980912	|GIR₃~c.AB~a|	𒨵	𒢟.𒚘
+o0981301	|GIR₃~c.PIRIG~b1|	𒮿	𒢟.𒪘
+o0980521	|GIŠ.TE|	𒢨	𒢧.𒮹
+o0980529	|GIŠ@t.E₂~a|	󲵀	𒢮.𒟊
+o0980544	|GU₄.ZATU755~b|	𒢿	𒢾.𒵼
+o0980558	|GUKKAL~a.HI@g~a|	𒣎	𒣍.𒣰
+o0980581	|HI.LAGAB~a|	𒣪	𒣦.𒦀
+o0980580	|HI.SUHUR|	𒣩	𒣦.𒬣
+o0980580	|HI.SUHUR|	𒣧	𒣦.󳄇
+o0980580	|HI.SUHUR|	𒣨	𒣦.󳄈
++o0900969	|(HI×1(N57)).(HI×1(N57))|	󳂒	𒣬∘𒣬
+o0980586	|HI×1(N57).HI×1(N57)|	𒣭	𒣬.𒣬
+o0980612	|IR~a.GA₂~a1|	𒤄	𒤃.𒠕
+o0980622	|KA~a.ŠE~a|	𒤖	𒤔.𒭒
+o0980622	|KA~a.ŠE~a|	𒤗	𒤔.𒭗
+o0980636	|KAK~a.GA₂~a1|	𒤣	𒤢.𒠕
+o0980701	|KU₆~a.GIŠ|	𒥧	𒥥.𒢧
+o0980700	|KU₆~a.1(N02)|	𒥦	𒥥.𒖾
+o0980708	|KUR~a.E₂~a|	𒥭	𒥬.𒟊
+o0980709	|KUR~a.NUNUZ~a1|	𒥮	𒥬.𒪂
+o0981273	|KUR~a.RU|	𒮢	𒥬.𒪣
+o0981273	|KUR~a.RU|	𒮣	𒥬.𒪥
+o0980711	|KUR~b.E₂~a|	𒥰	𒥯.𒟊
+o0980754	|LAGAB~b.TE|		𒦗.𒮹
+o0980324	|ME~a.EN~a.ŠE~a.ŠA|	󲟃	𒧢.𒟙∘𒭒∘𒬷
+o0981510	|MUŠ₃~a.AB~a|	𒲑	𒨃.𒚘
+o0981176	|MUŠ₃~a.ERIN|	𒬶	𒨃.𒟯
+o0981511	|MUŠ₃~a.UNUG~a|	𒲒	𒨃.𒱄
+o0980872	|MUŠEN.UR₃~b2|	𒨆	𒨅.𒱘
+o0980872	|MUŠEN.UR₃~b2|	󳄑	𒨅.𒱘
+o0980876	|1(N02).RU|	𒷱	𒖾.𒪣
+o0980604	|NAGAR~a.BU~a|	𒣼	𒨜.𒜋
+o0980605	|NAGAR~a.BU~a|	𒣽	𒨝.𒜋
+o0980497	|NE~a.GI|	󳂳	󳂠∘𒡸
+o0980497	|NE~a.GI|	𒢒	𒨳∘𒡸
+o0980329	|NE~a.RU|	𒟮	𒨯.𒪥
+o0980918	|NI~a.RU|	𒨻	𒨺.𒪣
+o0980028	|NUN~a.ME~a|	𒚫	𒩴.𒧢
+o0980028	|NUN~a.ME~a|	𒚬	𒩴+𒧢
+o0980029	|NUN~a.ME~a.DU|	󳂭	𒩴.𒧢.𒝍
+o0980988	|NUN~b.U₄.U₄.1(N14).1(N08)|		𒩺.𒯡
+o0981187	|PA~a.IB~a|	𒭂	𒪋∘󳃳
+o0981187	|PA~a.IB~a|	𒭃	𒪋.𒣴
+o0981187	|PA~a.IB~a|	󳃆	𒪍∘𒣴
+o0980325	|PA~a.TE.SI|	󲟄	𒪍.𒮹.𒫇
+o0981147	|PA~a.UDU~a|	𒬚	𒪌.𒰥
+o0981147	|PA~a.UDU~a|	󳃃	𒪍.𒰥
+o0981188	|PAP~a.IB~a|	𒭅	𒪑.𒣴
+o0981187	|PAP~a.IB~a|	𒭄	󳃴∘𒪑
+o0981042	|SAL.KUR~a|	𒪶	𒪵.𒥬
+o0980866	|SAL.LAGAR~a|	𒧽	𒪵.𒦠
+o0981043	|SAL.LAM~b|	𒪷	𒪵.𒦭
+o0981044	|SAL.ME~a|		𒪵.𒧢
+o0980933	|SAL.NAM₂|	𒩉	𒪵.󳃻
+o0980969	|SAL.NAM₂.EZEN~b×ŠE~a.NUN~a.SIG₇|	𒩨	𒪵.󳃻.󳄆∘𒩴.𒫤
+o0981092	|SAL.SI|	󲨰	𒪵.𒫇
+o0980679	|SAL.SILA₄~c|	𒥍	𒪵.𒬕
+o0981045	|SAL.ŠU₂|	𒪸	𒪵.󳂐
+o0981046	|SAL.ZATU751~a|	󳀎	𒪵.𒵵
+o0981047	|SAL.ZATU751~b|	󳄄	𒪵.𒵶
+o0981048	|SAL.ZATU751~c|	󳄂	𒪵.󳀏
+o0981275	|SU~a.KUR~a.RU|	󲨒	𒬝.𒥬.𒪥
+o0981201	|ŠE~a.GAR|	󳁛	𒭒.𒡨
+o0981201	|ŠE~a.GAR|	󳁚	󳄋.𒡨
+o0981202	|ŠE~a.KIN₂~c|	𒭓	𒭒.𒥈
+o0981202	|ŠE~a@t.KIN₂~c|	󳃉	󳄋.𒥈
+o0981203	|ŠE~a.NAM₂|	𒭔	𒭒.󳃻
+o0981203	|ŠE~a.NAM₂|	𒭕	𒭒.𒨣
+o0980794	|ŠE~a.ŠA|	𒦳	𒭒∘𒬷
+o0980794	|ŠE~a.ŠA.|	𒦴	󳄅∘𒭒
+o0981211	ŠELU	𒭟	𒭒.𒣈
+o0980904	|ŠEŠ~a.NA~a|	𒨫	𒭭.𒨋
+o0980773	|ŠITA~a1.MUD₃~a|	𒦥	𒭻.𒧯
+o0981254	|ŠU₂.E₂~a|	𒮙	󳂐.𒟊
+o0981255	|ŠU₂.E₂~b|	𒮚	󳂐.𒟎
+o0981256	|ŠU₂.EN~a|	󳃌	󳃼.𒟘
+o0981256	|ŠU₂.EN~a|	𒮔	𒮑.𒟙
+o0981256	|ŠU₂.EN~a|	𒮓	𒮑.𒟗
+o0981257	|ŠU₂.EN~b|	𒮕	󳂐.𒟚
+o0981258	|ŠU₂.GIŠ|	𒮛	󳂐.𒢧
+o0981259	|ŠU₂.(HI×1(N57).HI×1(N57))|	𒮖	󳂐.󳂒
+o0981260	|ŠU₂.PAP~a|	󳀄	𒮘.𒪑
+o0981253	|ŠU₂.PAP~a.AN|	𒮒	𒮘.𒛌
+o0981261	|ŠU₂.URI₃~a|	𒮗	󳂐.𒱟
+o0981262	|ŠU₂.1(N02)|	𒮜	󳂐.𒖾
+o0981263	|ŠU₂.1(N24)|	󳀓	󳂐.𒖪
+o0981264	|ŠU₂.2(N57)|	󲷼	󳂐.󰄑
+o0980650	|TE.A|	𒤯	𒮹.𒚐
+o0981307	|TUG₂~a.BAD&BAD|	𒯅	𒯄.𒛠
+o0981307	|TUG₂~a.BAD&BAD|	󳄐	𒯆.𒛠
+o0981324	|TUR₃~a.5(N57).5(N57)|	󳀅	𒯘.󰄔
+o0980070	|U₄.AB~b|	𒛘	𒯡.𒚣
+o0981333	|U₄.ŠU₂|	𒯢	𒯡.󳂐
+o0981334	|U₄.1(N08)|	𒯣	𒯡.𒕙
+o0981335	|U₄.2(N08)|	𒯤	𒯡.𒕚
+o0981336	|U₄.3(N08)|	𒯥	𒯡.𒕛
+o0981337	|U₄.4(N08)|	𒯦	𒯡.𒕜
+o0981338	|U₄.5(N08)|	𒯧	𒯡.𒕝
+o0981339	|U₄.6(N08)|	𒯨	𒯡.𒕞
+o0981340	|U₄.7(N08)|	𒯩	𒯡.𒕟
+o0981341	|U₄.8(N08)|	𒯪	𒯡.𒕠
+o0981342	|U₄.1(N14)|	𒯫	𒯡.𒕢
+o0981343	|U₄.1(N14).1(N08)|		𒯡.𒕢.𒕙
+o0981344	|U₄.1(N14).3(N08)|	𒯬	𒯡.𒕢.𒕛
+o0981345	|U₄.1(N14).4(N08)|	𒯭	𒯡.𒕢.𒕜
+o0981346	|U₄.1(N14).5(N08)|	𒯮	𒯡.𒕢.𒕝
+o0981347	|U₄.1(N14).8(N08)|	𒯯	𒯡.𒕢.𒕠
+o0981348	|U₄.2(N14)|	𒯰	𒯡.𒕣
+o0981349	|U₄.1(N24)|	󳀆	𒯡.𒖪
+o0981353	|U₄×1(N01).5(N08)|	𒯴	𒯳.𒕝
+o0981357	|U₄×2(N01).2(N14)|	𒯷	𒯵.𒕣
+o0981358	|U₄×2(N01).2(N14).1(N08)|	𒯸	𒯵.𒕣.𒕙
+o0981360	|U₄×3(N01).3(N08)|	𒯺	𒯹.𒕛
+o0981362	|U₄×4(N01).2(N14)|	𒯼	𒯻.𒕣
+o0981364	|U₄×5(N01).1(N14)|	𒯾	𒯽.𒕢
+o0981374	|U₄×(1(N14).3(N01)).1(N14).4(N08).1(N14).4(N08)|	󳀉	󳂔.𒕢.𒕜
+o0981461	|URI₃~a.AB~a|	𒱡	𒱟.𒚘
+o0981460	|URI₃~a.IB~a|	󲺆	𒱟.𒣴
+o0980903	|URI₃~a.NA~a|	𒨪	𒱠∘𒨋
+o0980903	|URI₃~a.NA~a|	𒨩	𒱠.𒨋
+o0980903	|URI₃~a.NA~a|	󳂞	𒱟.𒨋
+o0981458	|URI₃~a.UNUG~a|	󲫋	𒱟.𒱄
+o0980616	|UŠ~a.KUR~a|	𒤈	󳃲.𒥬
+o0980616	|UŠ~a.KUR~a|	𒤉	𒲁.𒥬
+o0981658	|ZATU714.RU|	𒴷	𒴶.𒪣
+o0982202	|1(N57).AB₂|	𒷳	󰄐.𒚧
+o0982203	|2(N57).AB₂|	𒷸	󰄑.𒚧
+o0982204	|3(N57).AMAR|	𒷼	󰄒.𒛅
+o0982205	|4(N57).AMAR|	𒸄	󰄓.𒛅
+o0982206	|3(N57).AZ|		󰄒.𒛜
+o0982207	|3(N57).BAR×UŠ~a|	󳁝	󰄒.󳂕
+o0982208	|3(N57).BARA₃|	𒷽	󰄒.𒜂
+o0982209	|2(N57).BIR₃~a|	󳀩	󰄑.𒜆
+o0982210	|1(N57).BU₃|		󰄐.𒜘
+o0981508	|2(N57).DU₆~a@n|		󰄑.󳂉
+o0982211	|1(N57).E₂~a|	󳀧	󰄐.𒟊
+o0982212	|3(N57).E₂~b|	𒷾	󰄒.𒟎
+o0982213	|3(N57).EN₂|		󰄒.𒟣
+o0982215	|3(N57).GAR|	𒷿	󰄒.𒡨
+o0982216	|4(N57).GAR|	𒸅	󰄓.𒡨
+o0982217	|5(N57).GAR|	𒸈	󰄔.𒡨
+o0982218	|6(N57).GAR|	𒸊	󰃙.𒡨
+o0982219	|7(N57).GAR|	󳄉	󳄊.𒡨
+o0982220	|4(N57).KU₃~a|	𒸆	󰄓.𒥣
+o0982221	|5(N57).KU₃~a|	𒸉	󰄔.𒥣
+o0982222	|6(N57).KU₃~a|	𒸋	󰃙.𒥣
+o0982223	|2(N57).KU₆~a|	𒷹	󰄑.𒥥
+o0980071	|3(N57).LAM~a.KUR~a.RU|	𒛙	󰄒.𒦬.𒥬.𒪥
+o0982224	|1(N57).MUŠEN|	𒨈	󰄐.𒨅
+o0982225	|2(N57).MUŠEN|	𒨉	󰄑.𒨅
+o0982226	|3(N57).MUŠEN|	𒨊	󰄒.𒨅
+o0982227	|3(N57).NUNUZ~a1|	𒸀	󰄒.𒪂
+o0982228	|3(N57).NUNUZ~c|	𒸁	󰄒.𒪇
+o0982229	|3(N57).PIRIG~b1|	𒸂	󰄒.𒪘
+o0981274	|3(N57).RU|	𒮤	󰄒.𒪥
+o0981274	|3(N57).RU|	𒮥	󰄒.𒪣
+o0982230	|3(N57).SANGA~b|		󰄒.𒪼
+o0982231	|3(N57).SI|		󰄒.𒫇
+o0982232	|1(N57).SIG|	𒷴	󰄐.𒫏
+o0982233	|2(N57).SU~a|	𒷺	󰄑.𒬛
+o0982234	|1(N57).ŠAH₂~a|	𒷵	󰄐.𒭉
+o0982235	|1(N57).ŠUBUR|	𒷷	󳄌×󰄐
+o0982235	|1(N57).ŠUBUR|	𒷶	󰄐.𒮞
+o0982236	|2(N57).ŠUBUR|	𒷻	󰄑.𒮞
+o0982237	|3(N57).ŠUBUR|	𒸃	󰄒.𒮞
+o0982238	|3(N57).UDU~a|	󳁞	󰄒.𒰥
+o0982239	|2(N57).UDUNITA~a|	󳁜	󰄑.𒰪
+o0982240	|3(N57).UDUNITA~a|	󳁟	󰄒.𒰪
+o0981472	|1(N57).URU~a1|	𒱪	󰄐.𒱣
+o0981473	|2(N57).URU~a1|	𒱫	󰄑.𒱣

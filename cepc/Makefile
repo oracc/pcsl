@@ -2,19 +2,19 @@
 # Makefile for generating pcsl and pc25 atf and catalogue data
 #
 
-default: atf cat pub not out pc25
+default: dirs atf cat pub not out pc25
 
 atf: 00atf/pcsl.atf 00bin/pcslatf.plx
 
 cat: 00cat/pcsl.tsv
 
-pub: 00etc/pcsl-pub.lst 00etc/pcsl-unp.lst
+pub: 00lib/lists/pcsl-pub.lst 00lib/lists/pcsl-unp.lst
 
-not: 00etc/not-tablet.lst 00etc/not-in-atf.lst
+not: 00lib/lists/not-tablet.lst 00lib/lists/not-in-atf.lst
 
-out: 00etc/outlined.lst
+out: 00lib/outlined.lst
 
-pc25: 00atf/pcsl.atf 00cat/pcsl.tsv 00etc/pcsl-pub.lst
+pc25: 00atf/pcsl.atf 00cat/pcsl.tsv 00lib/lists/pcsl-pub.lst
 	00bin/pc25.sh
 
 00atf/pcsl.atf: 00src/pcsl.atf 00bin/pcslatf.plx Makefile
@@ -22,24 +22,29 @@ pc25: 00atf/pcsl.atf 00cat/pcsl.tsv 00etc/pcsl-pub.lst
 	tr -d '\r' <$< | 00bin/pcslatf.plx >$@
 	atfproject.plx -unicode -project pcsl
 	chmod -w $@
-	atfgrabpq.plx $@ | sort -u >00etc/pcsl-all.lst
+	atfgrabpq.plx $@ | sort -u >00lib/lists/pcsl-all.lst
 
 00cat/pcsl.tsv: 00src/pcsl.tsv Makefile
 	cp $< $@
 
-00etc/not-in-atf.lst: 00src/pcsl.atf 00src/pcsl.tsv Makefile
+00lib/lists/not-in-atf.lst: 00src/pcsl.atf 00src/pcsl.tsv Makefile
 	grep '&P' 00src/pcsl.atf | atfgrabpq.plx | sort -u >atf.lst
 	cut -f1 00src/pcsl.atf | sort -u >cat.lst
 	comm -23 cat.lst atf.lst >$@
 
-00etc/not-tablet.lst: 00src/pcsl.tsv Makefile
+00lib/lists/not-tablet.lst: 00src/pcsl.tsv Makefile
 	cut -f1,15 $< | grep -v tablet | cut -f1 | sort -u >$@
 
-00etc/outlined.lst: 00src/pcsl.atf Makefile
+00lib/outlined.lst: 00src/pcsl.atf Makefile
 	grep '&P' $< | atfgrabpq.plx | sort -u >$@
 
-00etc/pcsl-pub.lst: 00cat/pcsl.tsv Makefile
+00lib/lists/pcsl-pub.lst: 00cat/pcsl.tsv Makefile
 	cut -f1,5 $< | grep '	.' | cut -f1 | grep ^P >$@
 
-00etc/pcsl-unp.lst: 00cat/pcsl.tsv Makefile
+00lib/lists/pcsl-unp.lst: 00cat/pcsl.tsv Makefile
 	cut -f1,5 $< | grep "	$$" | cut -f1 | grep P >$@
+
+dirs:
+	mkdir -p 00lib/lists 00atf 00cat
+clean:
+	rm -fr 00lib/*.lst 00lib/lists 00atf 00cat
