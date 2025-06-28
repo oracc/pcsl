@@ -1,23 +1,17 @@
 #!/bin/sh
 #
 # Extract the published subset of texts from the full corpus
-#
-#
-# These lines build the list of texts which is in the pc25 corpus
-#
-# (see pcsl.sh for the old way of doing this; the new way is based on
-# extraction from an 2020 version of CDLI cat)
-#
-cat oldcat/p_*.tsv | cut -f1 | sort -u >pc25/use.lst
 
+# Clean slate
+rm -fr pc25 ; mkdir -p pc25
+
+# Generate pc25 atf from the the unicodified 00src/pcsl.atf
+# which is in 00atf/pcsl.atf
 #
-# This line on its own regenerates the pc25 atf from the source corpus25 atf
-#
-atfsplit.plx -cat -list pc25/use.lst 00atf/pcsl.atf \
+atfsplit.plx -cat -list 00etc/pcsl-pub.lst 00atf/pcsl.atf \
     | sed 's,#project: pcsl,#project: pcsl/pc25,' >pc25/pc25.atf
 
-#
-# These lines build the pc25 catalogue as well
+# Extractthe pc25 catalogue
 #
 head -1 00cat/pcsl.tsv >pc25/pc25.tsv
-grep -f pc25/use.lst 00cat/pcsl.tsv >>pc25/pc25.tsv
+grep -f 00etc/pcsl-pub.lst 00cat/pcsl.tsv >>pc25/pc25.tsv
