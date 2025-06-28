@@ -9,7 +9,7 @@
     <head/>
     <body>
 
-      <xi:include xml:base="." href="../w/cpage6.xml"/>
+      <xi:include xml:base="." href="../t/cpage6.xml"/>
       
     </body>
   </html>

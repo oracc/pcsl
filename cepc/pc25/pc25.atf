@@ -56895,36 +56895,6 @@ $ broken
 
 
 
-&P003977 = IM 073483
-#project: pcsl/pc25
-#atf: use unicode
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 2(N01) [...] , |SIG₂~b×1(N14)| 
-2. 3(N01) , SIG₂~b 
-3. 8(N01) [...] , SIG₂~b# [...] 
-@column 2 
-1. 2(N14) 5(N01) , ZATU662 
-2. 1(N14) 4(N01) [...] , [...] 
-@column 3 
-1. 4(N01) , ZATU662 
-2. 5(N01) , GADA~a? 
-3. 4(N01) [...] , GADA~b@g 
-@reverse 
-@column 1 
-1. 1(N01) [...] , |SIG₂~b×1(N14)| 
-2. 3(N01) , SIG₂~b 
-3. 7(N01) [...] , [...] 
-@column 2 
-1. 1(N14) [...] , [...] 
-2. 1(N14) , GADA~b@g 
-3. 1(N14) 1(N01) , UDU~a GAN~b EN~b EN~b LAM~b 
- 
-
-
-
 &P003984 = IM 134502
 #project: pcsl/pc25
 #atf: use unicode
@@ -58924,23 +58894,6 @@ $ rest broken
 
 
 
-&P004414 = IM 074344
-#project: pcsl/pc25
-#atf: use unicode
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N01) , NUN~a? SIG₂~b 
-2. 6(N01) , |NUN~a+EN~a| 
-3. 1(N01) , ZATU699~a 
-4. 2(N01) , ME~a 
-@column 2 
-1. 2(N01) , |EZEN~a×EN~a|? |EZEN~a×(U₂~b.A)|? 
- 
-
-
-
 &P004415 = ATU 7, pl. 076, W 21570
 #project: pcsl/pc25
 #atf: use unicode
@@ -59118,46 +59071,6 @@ $ rest broken
 3.a. 3(N14) 6(N01) , UR₃~a3 
 3.b. 1(N14) 3(N01) , ŠUBUR 
 4. , EN~a ZATU752 
- 
-
-
-
-&P004431 = W 21662,2
-#project: pcsl/pc25
-#atf: use unicode
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] , [...] X 
-@column 2 
-1. 4(N48) 2(N34) 3(N14) , KINGAL SANGA~a 
-2. 1(N34) , EN~a SAG TE 
-3. [...] , ERIM~a [...] 
-@column 3 
-1. [...] , ZATU629 UMUN₂ [...] 
-2. 2(N14) 9(N01) , BAHAR₂~a ZATU629 UMUN₂ 
-3. 1(N34) 1(N14) , HAŠHUR ZABALAM~a SAL KISAL~b1 
-4. 1(N34) 2(N14) [...] , [...] 
-@column 4 
-1. [...] 2(N14) [...] , [...] 
-@reverse 
-@column 1 
-1. [...] 2(N34) , SAL GURUŠ~a 
-2. [...] 1(N14) , |U₄×1(N01)| ŠITA~a1#? [...] 
-3. [...] , X KU₆~a [...] 
-@column 2 
-1.a1. 2(N01) , ZATU697~a 
-1.a2. 3(N14) , 
-1.b. , UNUG~a DU 
-2. 2(N45) 3(N48) , ŠU₂ DUR~b [...] 
-@column 3 
-1. [...] 2(N14) , DU [...] 
-2. [...] , DUR~b# [...] 
-3. 4(N14) 3(N01) , U₂~a DAR~d 
-@column 4 
-1.a. , |GA~a.ZATU753| 
-1.b. 1(N14) 2(N01) , SAG 
  
 
 
@@ -59674,31 +59587,6 @@ $ rest broken
 
 
 
-&P004464 = W 21839,3
-#project: pcsl/pc25
-#atf: use unicode
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. 1(N01) , SAR~a# X 
-2. 3(N01) , ZATU759 SAG 
-3. 4(N01) , X GU₄ 
-4. 1(N01) , |GAN~c×ŠE~a| ŠA 
-@column 2 
-1. 2(N01) [...] , [...] 
-2. 4(N01) [...] , [...] 
-3. 1(N01) [...] , [...] 
-@reverse 
-@column 1 
-1. [...] , [...] 
-2. 1(N01) , |GAN~c×ŠE~a| |U₄×1(N01)| ŠA KAŠ~b 
-3. 1(N01) , GA₂~a1 KAŠ~b |U₄×1(N01)| ŠA ŠE~a 
-4. 6(N01) , GALGA~b? TUR [...] 
- 
-
-
-
 &P004465 = W 21840
 #project: pcsl/pc25
 #atf: use unicode
@@ -59911,19 +59799,6 @@ $ rest broken
 4. 1(N01)# [...] , GAL~a#? [...] 
  
 
-
-
-&P004474 = IM 134960
-#project: pcsl/pc25
-#atf: use unicode
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-1. [...] 1(N01)#? , [...] 
-@column 2 
-1. , GIR~d [...] 
- 
 
 
 &P004475 = IM 134961
@@ -81136,161 +81011,6 @@ $ blank space
 @reverse 
 $ broken 
  
-
-
-&P252184 = CDLI Lexical 000265, ex. 11
-#project: pcsl/pc25
-#atf: use unicode
-#atf: lang qpc 
-@tablet 
-@obverse 
-@column 1 
-$ beginning broken 
-1'. 1(N01)# , X X 
-2'. 1(N01)# , X X 
-3'. 1(N01)# , X X 
-4'. [1(N01)] , X X 
-5'. [1(N01)] , X X 
-6'. [1(N01)] , X X 
-7'. [1(N01)] , X X 
-8'. 1(N01)# , X X 
-9'. 1(N01) , X SAR~a#? 
-10'. 1(N01) , EN~a# KIŠIK~a X 
-11'. 1(N01) , X X 
-12'. [1(N01) , X] X 
-13'. [1(N01) , X] NE~a#? 
-@column 2 
-$ beginning broken 
-1'. [1(N01)] , X GIR₂~a# 
-2'. 1(N01) , TUM~a 
-3'. 1(N01) , X TUM~a 
-4'. 1(N01) , UB 
-5'. 1(N01) , BAR UB 
-6'. [1(N01)] , KA~a#? TE~a 
-7'. 1(N01) , KA~a KI# 
-8'. 1(N01)# , GAR#? URU~a1 
-9'. 1(N01) , ŠUBUR#? KID~a 
-10'. 1(N01) , |1(N57)+ŠUBUR| ZAG~a 
-11'. 1(N01) , MUD₃~a#? X 
-12'. 1(N01) , X X 
-13'. 1(N01) , DU# X 
-@column 3 
-$ beginning broken 
-1'. [1(N01)] , X [X] 
-2'. [1(N01)] , EZINU~a 
-3'. 1(N01) , EN~a ŠE~a EZINU~a 
-4'. 1(N01) , MUŠEN DIM~a? EZINU~a 
-5'. 1(N01) , EN~a GA~a? DA~a 
-6'. 1(N01) , KA~a ZAG~a 
-# = MES~a 
-7'. 1(N01) , X KA~a ZAG~a 
-# = MES~a 
-8'. 1(N01) , ŠENNUR~a 
-9'. 1(N01) , |EZEN~a×SU~a| 
-10'. 1(N01) , GI UNUG~a 
-11'. 1(N01) , ŠAM₂ KI 
-12'. 1(N01) , TE KI 
-13'. [1(N01)] , NAGAR~b SU~a#? 
-14'. [1(N01)] , URI₃~a KI! 
-@column 4 
-$ beginning broken 
-1'. 1(N01)# , X GIR₂~a#? KI# 
-2'. 1(N01)# , X KI 
-3'. 1(N01)# , [X] SI# KI 
-4'. 1(N01)# , NIR~a KI 
-5'. 1(N01) , EN~a# GIR₂~a# KI 
-6'. 1(N01) , EN~a SI KI 
-7'. 1(N01) , DU KI 
-8'. 1(N01) , SUR#? NUNUZ~a1 KI 
-9'. 1(N01) , X KI 
-10'. 1(N01) , GAL~a SI KI 
-11'. 1(N01) , |ŠU₂+AN| GU₄# KI 
-12'. 1(N01) , EN~a# X KI 
-13'. 1(N01) , KI [X KI] 
-14'. 1(N01) , AŠ₂#? KI# 
-@column 5 
-$ beginning broken 
-1'. [1(N01)] , UZ~a#? KI 
-2'. 1(N01) , GAN₂# KI# 
-3'. 1(N01) , X KI 
-4'. 1(N01) , ŠU PAP~a# KI# 
-5'. 1(N01) , ERIM~a KI 
-6'. 1(N01) , X KUR~a KI 
-7'. 1(N01) , EN~a X MU#? KI 
-8'. 1(N01) , ABGAL# KI 
-9'. 1(N01) , AŠ NI~a? ZATU753? KI 
-10'. 1(N01) , AN KI 
-11'. 1(N01) , AN MUŠ₃~a# KI 
-12'. 1(N01) , NUN~a AB₂#? KI 
-13'. 1(N01) , NUN~a#? U₂~a KI 
-14'. 1(N01) , AN UR₂ KI# 
-15'. 1(N01) , AN# GA~a#? KI# 
-@column 6 
-$ beginning broken 
-1'. 1(N01) , [... KI] 
-2'. 1(N01) , DU#? X KI# 
-3'. 1(N01) , MAŠ₂ KI# 
-4'. 1(N01) , AN# X KI# 
-5'. 1(N01) , X X KI# 
-6'. 1(N01) , X X KI# 
-7'. 1(N01) , X KI# 
-8'. 1(N01) , X KI 
-9'. 1(N01) , LUM# A# KI# 
-10'. 1(N01) , KA~a SIG₂~b? KI# 
-11'. 1(N01) , UR₄~b KI# 
-12'. 1(N01) , EN~a# BAR? KI 
-13'. 1(N01) , X X AK~a KI 
-14'. 1(N01) , MUD₃~b#? KI 
-15'. 1(N01) , X X KI 
-@column 7 
-$ beginning broken 
-1'. [1(N01)] , X SAG KI# 
-2'. 1(N01) , ŠAH₂~a# KI 
-3'. 1(N01) , PAP~a SAG KI 
-4'. 1(N01) , GEŠTU~b# NU KI 
-5'. 1(N01) , ASAR KI 
-6'. 1(N01) , X PAP~a? KI 
-7'. 1(N01) , HI PAP~a ŠEN~a KI 
-8'. 1(N01) , ŠU PAP~a 3(N57) KI 
-9'. 1(N01) , EN~a |ŠE~a+NAM₂| KI 
-10'. 1(N01)# , X |MUŠEN.3(N58)| KI 
-11'. 1(N01)# , EN~a# X SANGA~a KI# 
-12'. 1(N01)# , X ŠA₃~a1 KI 
-@column 8 
-$ beginning broken 
-1'. 1(N01)# , [...] 
-2'. 1(N01) , EN~a# DU MAR~a 
-3'. 1(N01) , TI MAR~a 
-4'. 1(N01) , X MAR~a 
-5'. 1(N01) , TUG₂~a MAR~a 
-6'. 1(N01) , NAM₂#? GI MAR~a 
-7'. 1(N01) , GAR@g~b#? MAR~a 
-8'. 1(N01) , NAGA~a#? MAR~a 
-9'. 1(N01) , SAR~a#? MAR~a 
-10'. 1(N01) , KI MAR~a 
-11'. 1(N01) , X MAR~a 
-12'. 1(N01)# , X DIN#? MAR~a 
-13'. 1(N01)# , X UR~a#? MAR~a 
-@column 9 
-$ beginning broken 
-1'. 1(N01) , X X X 
-2'. 1(N01) , IDIGNA 
-3'. 1(N01) , ME~a UR₅~a 
-4'. 1(N01) , |EZEN~a×NIMGIR|? 
-# = DUGIN2 ? 
-5'. 1(N01) , 3(N57) X 
-6'. 1(N01) , SUG AK~a#? 
-7'. 1(N01) , TUN₃~c 
-8'. 1(N01) , KU₆~a#? 
-9'. 1(N01) , URI₃~a ŠITA~a1#? 
-10'. 1(N01) , EN~a GI₆# X 
-11'. 1(N01) , TUR X X 
-@reverse 
-$ blank space 
-1. X [...] 
-$ rest broken 
- 
-
 
 
 &P255074 = CUSAS 31, 167 

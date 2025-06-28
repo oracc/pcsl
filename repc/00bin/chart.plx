@@ -147,7 +147,7 @@ sub showpage {
 sub xml_begin {
     my ($pagenum, @p) = @_;
     my $fnum = $pagenum+1;
-    my $file = "w/cpage$fnum.xml";
+    my $file = "t/cpage$fnum.xml";
     print STDERR "$0: xml_begin writing $file\n";
     open(X,">$file") || die "$0: can't open XML output $file\n";
     select X;

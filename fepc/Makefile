@@ -27,10 +27,6 @@ clean:
 PCSL.ttf: PC25+.ttx bin/pc25-ttf.sh
 	bin/pc25-ttf.sh
 
-# This doesn't work so might as well not do it.
-#PC25+GSUB.ttx: PC25+.ttx
-#	bin/ttxgsub.plx -t $< -o $@
-
 PC25+.ttx: PC25.ttx bin/ttxadd.plx
 	bin/ttxadd.plx -a pc25.add -t $< -o $@
 

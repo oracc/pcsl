@@ -2,9 +2,9 @@
 # Makefile for Documentation for Encoding Proto-Cuneiform
 #
 
-MDEPS=../00web/mepc/texts.xml ../00web/mepc/signs.xml ../00web/mepc/lists.xml \
-	${ORACC}/www/pcsl/mepc/sl/pcsl-tab.html \
-	../00web/pepc/principles.xml \
+MDEPS=../mepc/pages/w/texts.xml ../mepc/pages/w/signs.xml \
+	../mepc/pages/w/lists.xml ../mepc/lists/00web/pcsl-tab.html \
+	../pepc/principles.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
 	x/abstract.xml x/previous.xml x/archaic.xml x/fonts.xml \
@@ -22,18 +22,18 @@ deps:
 	(cd ../repc; make)
 	(cd ../fepc; make)
 
-depc.pdf: depc.tex depcmac.tex Makefile
-	b/ldepclua.sh
+depc.pdf: depc.ltx ldepcmac.tex Makefile
+	00bin/ldepclua.sh
+	00bin/attach-udata.sh
 #	-oraccetex depc.tex
 #	-oraccetex depc.tex
-#	b/attach-udata.sh
 
-depc.tex: m/depc.xml b/html2tex.xsl
-	b/ldepcxml.sh | sed 's#home/stinney#Users/stinney#g' >$@ 
+depc.ltx: m/depc.xml 00bin/html2tex.xsl
+	00bin/ldepcxml.sh | sed 's#home/stinney#Users/stinney#g' >$@ 
 #	xsltproc -xinclude b/html2tex.xsl $< | sed 's#home/stinney#Users/stinney#g' >$@
 
 m/depc.xml: ${MDEPS}
-	b/marshall.sh
+	00bin/marshall.sh
 
 clean:
 	rm -f depc.tex depc.pdf depc.log xetex.log m/depc.xml
