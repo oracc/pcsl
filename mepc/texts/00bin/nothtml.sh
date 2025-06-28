@@ -13,4 +13,4 @@ grep -c . tpcsl/notcov-oid.lst | tr -d '\n' >tpcsl/notcov-oid.cnt
 
 grep -F -f tpcsl/notcov-oid.lst ../lists/00etc/pcsl-final.tsv >tpcsl/notcov-final.tsv
 
-b/nothtml.plx | utr -s ../lists/00etc/pc25.map >tpcsl/notcov.html
+00bin/nothtml.plx | utr -s ../lists/00etc/pc25.map >tpcsl/notcov.html

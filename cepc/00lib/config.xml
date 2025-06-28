@@ -1,4 +1,4 @@
-<project n="pcsl/corpus25" 
+<project n="pcsl"
     xmlns="http://oracc.org/ns/xpd/1.0"
     xmlns:xpd="http://oracc.org/ns/xpd/1.0">
   <name>Proto-Cuneiform Sign List</name>

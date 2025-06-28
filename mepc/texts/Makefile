@@ -7,14 +7,14 @@ pcsl: dirs tpcsl/corpus.html
 
 pc25: dirs tpc25/corpus.html
 
-tpcsl/corpus.html: b/corpus.sh ${ORACC}/pub/pcsl/cat/cat.dbi
-	b/corpus.sh tpcsl pcsl
+tpcsl/corpus.html: 00bin/corpus.sh ${ORACC}/pu00bin/pcsl/cat/cat.dbi
+	00bin/corpus.sh tpcsl pcsl
 
-tpc25/corpus.html: b/corpus.sh  ${ORACC}/pub/pcsl/pc25/cat/cat.dbi
-	b/corpus.sh tpc25 pcsl/pc25
+tpc25/corpus.html: 00bin/corpus.sh  ${ORACC}/pu00bin/pcsl/pc25/cat/cat.dbi
+	00bin/corpus.sh tpc25 pcsl/pc25
 
 tpcsl/pc25not.lst:
-	b/pc25not.sh
+	00bin/pc25not.sh
 
 clean:
 	rm -fr tpcsl tpc25
