@@ -1,0 +1,3248 @@
+&P000753 = ATU 5, pl. 004, W 6245,c
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) 9(N01)# , 
+@column 2 
+1. 5(N01) , 
+2. 3(N01)# , 
+@bottom 
+@column 1 
+1. 3(N01)? , 
+2. 1(N01) , 
+@reverse 
+@column 1 
+1. 6(N01) , 
+@column 2 
+1. 5(N01) , 
+
+&P000754 = ATU 5, pl. 004, W 6245,d1
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N01)# [...] , 
+@column 2 
+1. 2(N01)# [...] , 
+@bottom 
+@column 1 
+1. 2(N01) , 
+@reverse 
+@column 1 
+1. [...] 1(N01)# , 
+ 
+
+&P000755 = ATU 5, pl. 004, W 6245,d2
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 4(N14)# 4(N01)# , 
+ 
+
+&P000793 = ATU 5, pl. 011, W 6613,a
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1.a. 4(N01) , 
+1.b. 1(N01) , 
+ 
+
+&P000794 = ATU 5, pl. 011, W 6613,b
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01)? , 
+@column 2 
+1. 2(N01)? , 
+@bottom 
+@column 1 
+1. 1(N01)? , 
+ 
+
+&P000795 = ATU 5, pl. 011, W 6613,c
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01) , 
+ 
+
+&P000796 = ATU 5, pl. 011, W 6613,d
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 5(N01)# , 
+@column 2 
+1. [...] 5(N01)# , 
+@reverse 
+@column 1 
+1. [...] 1(N01)# , 
+2. [...] 2(N01)# , 
+ 
+
+&P000797 = ATU 5, pl. 009, W 6613,e
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N14)# [...] , [...] 
+@reverse 
+@column 1 
+1. 3(N14)#? , [...] 
+ 
+
+&P000798 = ATU 5, pl. 011, W 6613,f
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , [...] X 
+2. 2(N01) , 
+ 
+
+&P000799 = ATU 5, pl. 011, W 6613,g
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N01)# [...] , [...] 
+ 
+
+&P000800 = ATU 5, pl. 012, W 6613,h
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 2(N01)# [...] , 
+@column 2 
+1. [...] 1(N01)# [...] , 
+ 
+
+&P000801 = ATU 5, pl. 012, W 6613,?
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 4(N01)# [...] , 
+ 
+
+&P000803 = ATU 5, pl. 012, W 6704
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 2(N01)# , 
+2. [...] 3(N01) , 
+ 
+
+&P000842 = ATU 5, pl. 016, W 6782,a
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 2(N14)# 5(N01)# , DUG~b#? 
+ 
+
+&P000843 = ATU 5, pl. 016, W 6782,b
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01)# [...] , 
+ 
+
+&P000845 = ATU 5, pl. 016, W 6808
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N01) , 
+ 
+
+&P000847 = ATU 5, pl. 016, W 6841
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01)# , 
+2. 2(N01) , 
+ 
+
+&P000852 = ATU 5, pl. 017, W 6881,b
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N34)# 1(N14)# 4(N01)# , UDU~a X 
+@reverse 
+@column 1 
+1. 9(N01)# , UDU~a# 
+ 
+
+&P000899 = ATU 5, pl. 020, W 6883,a
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N34)# 4(N14) 3(N01)# , 
+ 
+
+&P000901 = ATU 5, pl. 021, W 6883,e
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 2(N01) , [...] 
+ 
+
+&P000902 = ATU 5, pl. 021, W 6883,g
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N34) 5(N01)# , 
+ 
+
+&P000904 = ATU 5, pl. 021, W 6883,i
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 2(N01)# , 
+ 
+
+&P000905 = ATU 5, pl. 021, W 6883,l
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N34)# 2(N14)# 2(N01)# [...] , 
+ 
+
+&P000906 = ATU 5, pl. 021, W 6883,m
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N34)# 2(N14)# [...] , 
+@reverse 
+@column 1 
+1. 3(N01) , 
+ 
+
+&P000913 = ATU 5, pl. 022, W 6883,t2
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N14) 2(N01)# [...] , [...] 
+ 
+
+&P000918 = ATU 5, pl. 022, W 6883,?
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) 2(N01) [...] , [...] 
+ 
+
+&P000929 = ATU 5, pl. 024, W 7038
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N01@r)? , 
+@column 2 
+1. 7(N01) , 
+ 
+
+&P000930 = ATU 5, pl. 024, W 7067,a
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N01) , 
+ 
+
+&P000932 = ATU 5, pl. 024, W 7067,c
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 4(N01)# , [...] 
+ 
+
+&P000935 = ATU 5, pl. 024, W 7067,f
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N14)# [...] , 
+ 
+
+&P000940 = ATU 5, pl. 025, W 7092,b
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N14)# [...] , [...] 
+ 
+
+&P000941 = ATU 5, pl. 025, W 7092,c
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14)# 3(N01)# [...] , [...] 
+ 
+
+&P000942 = ATU 5, pl. 025, W 7092,d
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 5(N01)# , 
+@bottom 
+@column 1 
+1. [...] 2(N01)# , 
+ 
+
+&P000944 = ATU 5, pl. 025, W 7092,f
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01) [...] , 
+@column 2 
+1. 2(N01) [...] , 
+ 
+
+&P000949 = ATU 5, pl. 025, W 7092,l1
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14)# [...] 2(N01)# [...] , [...] 
+ 
+
+&P000952 = ATU 5, pl. 025, W 7092,o
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14)# 3(N01)# [...] , 
+@column 2 
+1. 4(N01)# [...] , 
+@bottom 
+@column 1 
+1. 1(N01) [...] , 
+ 
+
+&P000954 = ATU 5, pl. 026, W 7204,a+
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14)# 2(N01)# [...] , [...] 
+ 
+
+&P000957 = ATU 5, pl. 026, W 7204,d
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , [...] 
+@bottom 
+@column 1 
+1. 5(N23)# [...] , [...] 
+@reverse 
+@column 1 
+1. [...] , [...] 
+ 
+
+&P000970 = ATU 5, pl. 028, W 7272,a
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 4(N01)# , 
+@column 2 
+1. [...] 4(N01)# , 
+ 
+
+&P000971 = ATU 5, pl. 028, W 7272,b
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 3(N01)# , 
+2. 2(N01) , 
+@column 2 
+1. 2(N01)# , 
+@column 3 
+1. 2(N01) , 
+@reverse 
+@column 1 
+1. 4(N01)# [...] , 
+ 
+
+&P000972 = ATU 5, pl. 029, W 7272,c
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 4(N01) , 
+2. 2(N01) , 
+@column 2 
+1. 7(N01)# , 
+2. 2(N01)# , 
+@bottom 
+@column 1 
+1. 2(N01)# , 
+@column 2 
+1. [...] 2(N01)# , 
+ 
+
+&P000973 = ATU 5, pl. 029, W 7272,d
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 4(N01)# , 
+@column 2 
+1. 5(N01)# , 
+ 
+
+&P000974 = ATU 5, pl. 029, W 7272,e
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) [...] 5(N01)# , 
+ 
+
+&P000975 = ATU 5, pl. 029, W 7272,f
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01)# [...] , 
+@column 2 
+1. 2(N01) , 
+2. 1(N01)# [...] , 
+ 
+
+&P000976 = ATU 5, pl. 029, W 7272,g
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N01)# , 
+ 
+
+&P000987 = ATU 5, pl. 031, W 7357
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 8(N01) , 
+@bottom 
+@column 1 
+1. [...] 2(N14)#? , 
+@column 2 
+1. 4(N01)#? [...] , 
+@column 3 
+1. 1(N01) , 
+2. 2(N01) , 
+@reverse 
+@column 1 
+1. 6(N01)# [...] , 
+@column 2 
+1. 2(N14) 2(N01) , 
+ 
+
+&P000992 = ATU 5, pl. 031, W 7882
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 5(N14)#? , 
+ 
+
+&P001013 = ATU 5, pl. 034, W 9071,k
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , [...] 
+@column 2 
+1. 1(N01) [...] , [...] 
+ 
+
+&P001014 = ATU 5, pl. 034, W 9071,l
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N01)# , [...] 
+ 
+
+&P001016 = ATU 5, pl. 034, W 9071,n
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , [...] 
+ 
+
+&P001225 = ATU 5, pl. 055, W 9335,w
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 6(N01)# [...] , 
+@column 2 
+1. 7(N01) , 
+@bottom 
+@column 1 
+1. 5(N01) , 
+@reverse 
+@column 1 
+1. [...] , 
+2. 2(N01) , 
+ 
+
+&P001311 = ATU 5, pl. 070, W 9579,bo
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01) , 
+ 
+
+&P001545 = ATU 5, pl. 101, W 9656,ea+
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) , [...] 
+ 
+
+&P001546 = ATU 5, pl. 101, W 9656,eb
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N14)# [...] 6(N01)# , [...] 
+ 
+
+&P001547 = ATU 5, pl. 101, W 9656,ec
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N14)# [...] , [...] 
+@reverse 
+@column 1 
+1. [...] , X [...] 
+ 
+
+&P001548 = ATU 5, pl. 101, W 9656,ed
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 2(N01)# , [...] 
+ 
+
+&P001549 = ATU 5, pl. 101, W 9656,ee
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , [...] 
+ 
+
+&P001690 = ATU 5, pl. 119, VAT 17821
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 3(N01)# , [...] 
+ 
+
+&P004402 = ATU 5, pl. 121, W 21452
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 4(N14)? , 
+ 
+
+&P005067 = ATU 5, pl. 121, 1851-1-1, 217
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N14) 3(N01) , 
+ 
+
+&P005303 = MSVO 1, 236
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 8(N01)# , 
+ 
+
+&P005304 = MSVO 1, 237
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N14) , 
+2. 3(N14) , 
+ 
+
+&P006269 = MS 3053
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 7(N14) 2(N22) 2(N01)? , 
+@reverse 
+@column 1 
+1. , 
+ 
+
+&P009448 = Iran 13, 009 02
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N14) 3(N01) , DUG~b? 
+#tr.en: 33 (dairy fat) vessels (?). 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no legend) 
+ 
+
+&P452290 = MS 0188/139
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@object sealing 
+@surface a 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342580 = MS 0188/089
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N? , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342617 = MS 0188/126
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N45) , 
+# triangular tablet, series of lines drawn across reverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342618 = MS 0188/127
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34) , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342619 = MS 0188/128
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34) , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342629 = MS 0188/138
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@object sealing 
+@surface a 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342614 = MS 0188/123
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34) , 
+# triangular tablet, series of lines drawn across reverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342588 = MS 0188/097
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) 6(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342587 = MS 0188/096
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N 2(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342597 = MS 0188/106
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N? , X? 
+# N a series of lightly impressed N45's 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342594 = MS 0188/103
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , X? 
+# potentially a drawing of some sort, same as P3425945 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+&P342627 = MS 0188/136 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. , X X 
+# tag with hole, with drawings of various objects in lieu of signs 
+@reverse 
+$ blank space 
+
+&P342625 = MS 0188/134 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N45) ,  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342624 = MS 0188/133 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N45) 1(N34) ,  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342623 = MS 0188/132 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N ,  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342607 = MS 0188/116
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34)#? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342598 = MS 0188/107
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 3(N34) , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342599 = MS 0188/108
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34)# , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342593 = MS 0188/102
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 3(N34)? , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342591 = MS 0188/100
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342600 = MS 0188/109
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N45)# 1(N01) , 
+# triangular tablet, series of lines drawn across obverse  
+# N01 angled 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342585 = MS 0188/094
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342586 = MS 0188/095
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342590 = MS 0188/099
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. [N] 1(N14) N , 
+2. 4(N01)#? , 
+@reverse 
+1. 1(N34) 1(N14)#? 4(N01) , 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342589 = MS 0188/098
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N14) 4(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342605 = MS 0188/114
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342603 = MS 0188/112
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 9(N14) 1(N01) , 
+# round tablet, half circle positioning of N14's 
+@reverse 
+$ blank space 
+
+&P342581 = MS 0188/090
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342582 = MS 0188/091
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N45) 3(N14)#? , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342583 = MS 0188/092
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N14) 2(N01)#? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342584 = MS 0188/093
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P200007 = MS 5051
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N14) , 
+@reverse 
+@column 1 
+1. , 
+ 
+
+&P200008 = MS 4647
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N14) 4(N01) , 
+@reverse 
+@column 1 
+1. , 
+ 
+
+&P200009 = MS 4649
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 6(N14) , 
+@column 2 
+1. [...] 1(N14) , 
+@reverse 
+@column 1 
+1. , 
+ 
+
+&P200010 = MS 4648
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 12(N14) , 
+@reverse 
+@column 1 
+1. , 
+ 
+
+&P200038 = MW 0188/001
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N45)#? 2(N14)? 3(N01) n , 
+2. 1(N45) 4(N14)#? n , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200039 = MW 0188/002
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N01) , X 
+2. 7(N01) , X 
+3. 4(N01)? , X 
+4. 4(N01) , X 
+5. 1(N14)? 2(N01) , X 
+@column 2 
+1. 9(N01)? , X 
+2. 4(N01) , X 
+3. 1(N01) , X 
+@column 3 
+1. [...] 
+2. [N?] 2(N01)# , X 
+3. 1(N14) 1(N01) , X 
+4. 7(N01) , X 
+5. 7(N01) , X 
+7. [...] 
+@reverse 
+1. 5(N14)? 5(N01)? , X 
+ 
+
+&P200040 = MW 0188/003
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 4(N01)? , 
+@column 2 
+1. 1(N01) , X 
+2. N? , X 
+3. [...] 
+@column 3 
+1. 2(N01)? , X 
+@reverse 
+$ blank space 
+ 
+
+&P200041 = MW 0188/010
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) 8(N01) , X 
+2. 2(N01) N? , X AN X 
+3.a. [...] 
+3.b. [X] X 
+3.c. 6(N01) , [X] 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200042 = MW 0188/011
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 8(N01) , 
+@reverse 
+1. 2(N14) 2(N01) , X 
+# X is visible 
+ 
+
+&P200043 = MW 0188/012
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N01)# , ZATU753 
+@column 2 
+1. 6(N01)#? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200044 = MW 0188/013
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N01) , SIG₂~b 
+2. 5(N01) , X 
+3. 1(N01) , UDU~a? 
+@bottom 
+1. 7(N01) , 
+@column 2 
+1. 8(N01)#? , X 
+2. 8(N01)#? , X 
+@reverse 
+1. 4(N14) 4(N01) , SIG₂~b SIG₂~e? X ME~a 
+ 
+
+&P200045 = MW 0188/014
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 
+2. 2(N14) , 
+@column 2 
+1. [...] 
+2. 5(N14) , 
+3. 2(N14) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200046 = MW 0188/018
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , X 
+2. 6(N01) , X 
+@column 2 
+1. 2(N14)? , X 
+2. 1(N14) 4(N01)#? , 
+@reverse 
+1. 4(N01) , GADA~a#? 
+$ blank space 
+ 
+
+&P200047 = MW 0188/023
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14)#? , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200048 = MW 0188/026
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N01)? , X 
+2. 2(N01) , X 
+@column 2 
+1. 1(N01) , 
+$ blank space 
+@reverse 
+@column 1 
+1. 2(N01) , 
+@column 2 
+1. [...] 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200049 = MW 0188/027
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] , X 
+2. 2(N01) , X 
+@column 2 
+1. 9(N01)#? , DUG~b 
+$ blank space 
+@reverse 
+$ blank space 
+ 
+
+&P200050 = MW 0188/028
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) , X X X 
+# recognizable, but not identifiable ideograms 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P200051 = MW 0188/031
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N01) , SIG₂~b 
+2. 7(N01)#? , TUG₂~a 
+3. 4(N01)#? X 
+4. 5(N01)# X 
+@column 2 
+1. 1(N14) 2(N01)? , X 
+2. 2(N01)#? , X 
+3. N 1(N01) , X 
+@reverse 
+1. 4(N14)#? 5(N01)#? , X 
+ 
+
+&P200052 = MW 0188/044
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N01) , X 
+# sign recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342620 = MS 0188/129
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , 
+# triangular tablet  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342621 = MS 0188/130
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , 
+# triangular tablet, series of lines drawn across obverse 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342622 = MS 0188/131 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N45) ,  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342615 = MS 0188/124
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34) , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342616 = MS 0188/125
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34)# , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342602 = MS 0188/111
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N45) 2(N14) 5(N01) ,
+# round tablet 
+@reverse 
+$ blank space 
+
+&P342601 = MS 0188/110
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 3(N34)#? , 
+# triangular tablet, series of lines drawn across obverse  
+# N01 angled 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342608 = MS 0188/117
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342609 = MS 0188/118
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34)#? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342610 = MS 0188/119
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 3(N34) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342612 = MS 0188/121
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N , 
+# round tablet 
+@reverse 
+$ blank space 
+
+&P342613 = MS 0188/122
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+@column 1 
+1. 6(N01) , 
+@column 2 
+1. 1(N01) , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342611 = MS 0188/120
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N , 
+# triangular tablet, series of lines drawn across obverse  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342566 = MS 0188/075
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+@column 1 
+1. 3(N01)#? , X? 
+2. 2(N01)#? , X? 
+@column 2 
+1. N , X? 
+2. 2(N01)#? , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342567 = MS 0188/076
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. N? , X? 
+2. N? , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342568 = MS 0188/077
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. N , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342569 = MS 0188/078
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+@column 1 
+1. 1(N34) 1(N01) , UDU~a 
+@column 2 
+1. 5(N14) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342570 = MS 0188/079
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. N , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P235754 = Fs Kraus 012-025, no. 01
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N34) 7(N14) 5(N01)# , 
+ 
+
+&P235755 = Fs Kraus 012-025, no. 02
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N34)? 10(N14) 3(N01) , 
+ 
+
+&P235756 = Fs Kraus 012-025, no. 03
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N45) 4(N14) , 
+ 
+
+&P235757 = Fs Kraus 012-025, no. 04
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N34)? 1(N45) 7(N14) 2(N01)? , 
+ 
+
+&P235758 = Fs Kraus 012-025, no. 05
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. , 
+ 
+
+&P235759 = Fs Kraus 012-025, no. 06
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N34)# 22(N14) 5(N01)# , 
+ 
+
+&P235760 = Fs Kraus 012-025, no. 07
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 10(N14) , 
+ 
+
+&P235761 = Fs Kraus 012-025, no. 08
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N14) 5(N01) , 
+ 
+
+&P235762 = Fs Kraus 012-025, no. 09
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N01) , 
+ 
+
+&P235763 = Fs Kraus 012-025, no. 10
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N45)? 4(N01) , 
+ 
+
+&P235764 = Fs Kraus 012-025, no. 11
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. , 
+ 
+
+&P235765 = Fs Kraus 012-025, no. 12
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 1(N01) , 
+ 
+
+&P235767 = Syria 42, 012
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 11(N14) 3(N01) , 
+ 
+
+&P235768 = OIM A21310
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) 5(N01) , 
+ 
+
+&P235769 = BagM 14, 034
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N14)# [...] , 
+ 
+
+&P235770 = Before Writing fig. 88
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) , 
+2. 4(N01) , 
+3. 3(N01) , 
+ 
+
+&P342606 = MS 0188/115
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P249252 = Fs Kraus 012-025, no. 13
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N14) , 
+ 
+
+&P342604 = MS 0188/113
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N01) 1(N39@b)? , 
+@reverse 
+$ blank space 
+
+&P283931 = Before Writing fig. 87
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N45)? 1(N14) , 
+2. 4(N14) , 
+ 
+
+&P283932 = M II 130
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N45)? , 
+ 
+
+&P283933 = unknown
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N01) 2(N39~b) 1(N24) , 
+ 
+
+&P342628 = MS 0188/137
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@object sealing 
+@surface a 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P325364 = CUSAS 01, 003
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N14) 1(N01)? , 
+@column 2 
+2. 7(N01) , 
+@reverse 
+$ blank 
+ 
+
+&P342571 = MS 0188/080
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 1(N01) , 
+2. 5(N01)? , 
+3. N? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342527 = MW 0188/035
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N34) 1(N45) , 
+@reverse 
+1. 8(N14) , 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342528 = MW 0188/036
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342529 = MW 0188/037
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 5(N34) 2(N45) 8(N14) 1(N01)? 1(N39~b) , 
+@reverse 
+$ blank space 
+$ (notch on top edge) 
+ 
+
+&P342530 = MW 0188/038
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N48) 4(N34) 2(N14) , 
+@reverse 
+1. 1(N50)? 3(N34) , 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342556 = MW 0188/065
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N01)#? , X 
+2. 1(N14)#? 3(N01) , X 
+$ rest broken 
+@column 2 
+1. 1(N01)#? , X 
+2. N , X 
+$ rest broken 
+@column 3 
+1. 1(N01) , X 
+2. 1(N01) , X 
+3. 1(N01) , X 
+$ rest broken 
+@reverse 
+$ beginning broken 
+1'. 1(N14)# 1(N01) , [...] 
+ 
+
+&P342572 = MS 0188/081
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 5(N14)# 1(N01)#? , 
+@reverse 
+1. 5(N14)# 1(N01) , 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342563 = MS 0188/072
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 5(N01) , X? 
+2. 4(N01)? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342573 = MS 0188/082
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 2(N14) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342564 = MS 0188/073
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 1(N48) 2(N34) 4(N14) 2(N01) , X? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342562 = MS 0188/071
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 1(N14) 3(N01) , X X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342577 = MS 0188/086
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. , IB~a? 
+@reverse 
+$ blank space 
+1. 3(N01)#? , 
+# to right 
+
+&P342578 = MS 0188/087
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 1(N14) 4(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342579 = MS 0188/088
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34)? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342574 = MS 0188/083
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 1(N34) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342575 = MS 0188/084
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 2(N14) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342576 = MS 0188/085
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. N? , 
+2. 1(N48)#? , 
+@reverse 
+1. N? 1(N14)#? , 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P252149 = MS 3140
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 8(N01) 
+2. 9(N01) 
+# calculation: 8n × 9n = .72 iku? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342595 = MS 0188/104
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 1(N34) , X? 
+# potentially a drawing of some sort, same as P3425944
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+&P342592 = MS 0188/101
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N01) , 
+@reverse 
+1. 1(N14) 2(N01)? , 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P342596 = MS 0188/105
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. 2(N34)? N? , X? 
+# potentially a drawing of some sort 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+&P342626 = MS 0188/135 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse 
+1. , X X 
+# tag with hole, with drawing of kneeling human before sheepfold with reed bundles as in seals 
+@reverse 
+$ blank space 
+
+&P342565 = MS 0188/074
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1.a. 5(N14)#? ,  
+1.b. 4(N14)# ,  
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+
+&P252159 = MS 3148
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 4(N14) , 
+$ blank space 
+# seal impression 
+@reverse 
+$ blank space 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P252150 = MS 3141
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N14) , 
+2. 4(N14) 2(N01) , 
+@column 2 
+1. 2(N14) , 
+@column 3 
+1. 1(N01)? , 
+@reverse 
+$ blank space 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P252151 = MS 3142
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N34) 5(N14) , 
+$ blank space 
+# seal impression 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P252152 = MS 3143
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N34)#? 4(N14) 5(N01) , 
+@reverse 
+$ blank space 
+ 
+
+&P252153 = MS 3144
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14) 4(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P252154 = MS 3145
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 4(N01) , 
+@column 2 
+1. 1(N01)? , 
+@reverse 
+$ blank space 
+ 
+
+&P252155 = MS 3146
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+$ blank space 
+@column 2 
+1. 9(N01) , 
+2. 1(N14) [N?] , 
+@reverse 
+$ blank space 
+ 
+
+&P252156 = MS 3147/1
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N48) 2(N34) 2(N45) 3(N14) 3(N01) , 
+@reverse 
+$ blank space 
+ 
+
+&P252157 = MS 3147/2
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 6(N34) 1(N45) 3(N14) 5(N01) , ŠE~a 
+@reverse 
+$ blank space 
+ 
+
+&P252158 = MS 3147/3
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14) 5(N01) , ŠE~a 
+@reverse 
+$ blank space 
+ 
+
+&P387697 = CUSAS 31, 003
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N14) 4(N02) , 
+@reverse 
+$ blank space 
+ 
+
+&P411600 = CUSAS 21, 035
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 4(N02)# N? , 
+@reverse 
+1. 3(N01) , PU₂? 
+ 
+
+&P411630 = CUSAS 21, 036
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N01) , DUR~b 
+2. , ZATU659 BAHAR₂~a 
+@column 2 
+1. 2(N01) [...] ŠE~b 
+@reverse 
+$ blank space 
+ 
+
+&P235766 = Fifty Years of Mesopotamian Discovery 65
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N01) 2(N39~t)? , 
+@reverse 
+$ blank space 
+ 
+
+&P453285 = Chogha Mish 3, 776
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@object bulla 
+@surface a 
+1. 1(N45~t)? 2(N14~t)? 5(N39~t)? , 
+$ blank space 
+# seal impressions 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342507 = MW 0188/004
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N14) , X ZATU753 
+@column 3 
+1. 2(N01)? , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342508 = MW 0188/005
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N14)? 1(N01) , 
+@column 2 
+1. 2(N01) 1(N39~a)? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342509 = MW 0188/006
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N14)? 1(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342510 = MW 0188/007
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N34) 4(N14) 2(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342511 = MW 0188/008
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+$ (potentially all erasures) 
+@column 1 
+1. 3(N14)? 1(N01) , X 
+2. N , 
+# erased? 
+@column 2 
+1. 1(N14) N , 
+2. 2(N01)? , 
+3. 3(N14)? , LAGAB~b? 
+@reverse 
+$ blank space 
+ 
+
+&P342512 = MW 0188/009
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 3(N01) , SUHUR 
+2. 5(N01) , SUHUR 
+@column 2 
+1. 2(N01) , [...] 
+2. [...] 
+@column 3 
+1. 2(N01) , SUHUR ME~a 
+$ rest broken 
+@reverse 
+1. 2(N14) 5(N01)#? , 
+ 
+
+&P342513 = MW 0188/015
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 8(N01) , TUG₂~a 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342514 = MW 0188/016
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) 8(N01) , DUG~b? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342515 = MW 0188/017
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342516 = MW 0188/019
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14) 3(N01) , |AB~b×X| [X] 
+@reverse 
+$ blank space 
+ 
+
+&P342517 = MW 0188/020
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N01) , NIM~d? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342518 = MW 0188/021
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N48) 5(N14) 3(N01) , [X] 
+2. 1(N14) N? , 
+@reverse 
+$ blank space 
+ 
+
+&P342519 = MW 0188/022
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N01)#? , X 
+@reverse 
+$ blank space 
+ 
+
+&P342520 = MW 0188/024
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N14)#? , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342521 = MW 0188/025
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) 2(N01) , 
+2. 2(N01) , 
+@column 2 
+1. 2(N01) , 
+$ blank space 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342522 = MW 0188/029
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. [...] 
+@column 2 
+1. [...] 
+2. 1(N45) 3(N39~b) , 
+# N45 possibly ideogram, then proto-proto-Elamite 
+@reverse 
+$ blank space 
+ 
+
+&P342523 = MS 0188/030
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 3(N14) 3(N01) , X X 
+# recognizable but not identifiable signs  
+@reverse 
+$ blank space 
+ 
+
+&P342524 = MW 0188/032
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. N , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342525 = MS 0188/033 
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+@column 1 
+1. N , X 
+2. N 6(N01)#? , 
+@column 2 
+1. [...] 
+2. 4(N01)#? , 
+@reverse 
+@column 1 
+1. 1(N14) 5(N01) , 
+@column 2 
+1. 6(N01)#? , ZATU659@t?
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342526 = MW 0188/034
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 5(N14) , MAŠ 
+@column 2 
+1. 2(N01) , AB₂@g? NE~a 
+@reverse 
+@column 1 
+1. 1(N01) , ŠU₂ 
+2. 1(N01) , X 
+@column 2 
+1. 1(N14) 4(N01) , NUN~d? 
+ 
+
+&P342531 = MW 0188/039
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N01) , X ZATU758? X 
+@reverse 
+$ blank space 
+ 
+
+&P342532 = MW 0188/040
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 5(N14) , NIR~a? 
+@reverse 
+$ blank space 
+ 
+
+&P342533 = MW 0188/041
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 2(N01) , SIG~b 
+2. 1(N01) , DUR₂ 
+3. 9(N01) , X 
+4. N , X 
+@column 2 
+1. 4(N01) , ME~a 
+2. 4(N01) , X 
+3. 1(N01) , X 
+4. N , [X] 
+@column 3 
+1. , X [...] 
+$ rest broken 
+@reverse 
+@column 1 
+1. 1(N01)? , X 
+2. 4(N01) , SIG~b 
+3. 1(N01) , |LAGAB~a×ZATU753| 
+4. 1(N01) , |LAGAB~a×LA₂~a| 
+5. 1(N01) , X 
+6. 4(N01) , ZATU753 
+@column 2 
+1. 2(N01)# , [...] 
+2. 5(N01)? , X 
+3. 1(N01) , ZATU644~a 
+4. 2(N01) , ŠU₂ 
+5. 1(N14) 2(N01) , X [...] 
+@column 3 
+$ beginning broken 
+$ blank space 
+$ rest broken 
+ 
+
+&P342534 = MW 0188/042
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N01) , X DUG~b 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342535 = MW 0188/043
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14) , X NE~a 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342536 = MW 0188/045
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N01) , ZATU697~a UKKIN~d 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342537 = MW 0188/046
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) 5(N01) , X 
+@reverse 
+$ blank space 
+ 
+
+&P342539 = MW 0188/048
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14) , ZATU700? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342538 = MW 0188/047
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N01) , ZATU697~a UKKIN~d 
+@reverse 
+$ blank space 
+ 
+
+&P342540 = MW 0188/049
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N45) , X 
+# sign recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342541 = MW 0188/050
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) 4(N01) 4(N39~b) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342542 = MW 0188/051
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 4(N01)? , X X X X 
+# signs recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342543 = MW 0188/052
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. N , X 
+@reverse 
+$ blank space 
+ 
+
+&P342544 = MW 0188/053
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N01) , BU~a? MA₂? 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342545 = MW 0188/054
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 4(N01) 2(N39~b)? , X X 
+# signs recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@bottom 
+1. 1(N34) , 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342546 = MW 0188/055
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 1(N14) 1(N01) 2(N39~b) , X 
+# sign recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342547 = MS 0188/056
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. 1(N01) , |ZATU737@t×PAP~a| IB~b? 
+@reverse 
+$ blank space 
+ 
+
+&P342548 = MW 0188/057
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 4(N14) 4(N01) 4(N39~b)? , X 
+# sign recognizable, not identifiable 
+@reverse 
+1. 9(N01)? , X 
+ 
+
+&P342549 = MW 0188/058
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N01) , X X 
+# signs recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342550 = MW 0188/059
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. N 2(N01) , LAGAB~a X X 
+# signs recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342551 = MW 0188/060
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 5(N01)? , LAGAB~a X 
+# sign recognizable, not identifiable 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342552 = MW 0188/061
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 4(N14) 1(N01) , LAGAB~a X 
+@reverse 
+$ blank space 
+ 
+
+&P342553 = MW 0188/062
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N01) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342554 = MW 0188/063
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14) 6(N01) , 
+@reverse 
+@column 1 
+1. 2(N14) , [...] 
+@column 2 
+1. [...] 
+2. 1(N14) , [...] 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342555 = MW 0188/064
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+$ beginning broken 
+1'. 3(N34)#? 5(N14)# 4(N01) [N?] , [...] 
+@reverse 
+@column 1 
+$ blank space 
+$ rest broken 
+ 
+
+&P342557 = MW 0188/066
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N14)# , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342558 = MW 0188/067
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 2(N34) 1(N45) 8(N14) , 
+@reverse 
+$ blank space 
+ 
+
+&P342559 = MS 0188/068
+#project: pctc
+#atf: use unicode
+#atf: lang qpc
+@tablet 
+@obverse
+1. N 2(N01)#? , [...] 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342560 = MW 0188/069
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. N , X 
+2. 1(N01) , 
+3. 4(N39~b) , 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+
+&P342561 = MW 0188/070
+#project: pctc
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+1. 3(N14) , X 
+@reverse 
+$ blank space 
+# seal impression 
+@seal 1 
+$ (no linguistic content) 
+ 
+

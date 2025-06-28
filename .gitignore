@@ -1,3 +1,6 @@
+atf.lst
+cat.lst
+field.num
 *.cnt.*
 *.err
 *.backup
