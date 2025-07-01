@@ -22,6 +22,10 @@ GetOptions(
 
 my $pua = 'F1000'; my @add = ();
 
+my %pc24 = (); load_pc24();
+my %seen = ();
+my $top = 'F6000';
+
 my %mtx = (); load_mtx();
 
 # load PC24->PC25 map
@@ -40,6 +44,7 @@ open(M,">$mapfile") || die; select M;
 my %pc25 = (); my @pc25 = `cut -f 2 00etc/pc25-final.tsv`; chomp @pc25;
 foreach my $u25 (@pc25) {
     my $u = $r{$u25};
+    ++$seen{$u};
     # $u is a PC24 code point from glyf-final.tsv
     my $sf = scale_u($u); # scale here
     if ($sf) {
@@ -48,6 +53,13 @@ foreach my $u25 (@pc25) {
 	++$pua;
     } else {
 	print "$u\t$u25\n";
+    }
+}
+foreach my $u (sort keys %pc24) {
+    $u =~ s/^u//;
+    unless ($seen{$u}) {
+	print "$u\t$top\n";
+	++$top;
     }
 }
 close(M);
@@ -69,6 +81,11 @@ sub load_mtx {
 	@{$mtx{$u}} = ($xmax,$xmin,$ymax,$ymin);
     }
     # print Dumper \%mtx; exit 1;
+}
+
+sub load_pc24 {
+    my @pc24 = `grep 'u[0-9A-F]' 00etc/PC24.lst`; chomp @pc24;
+    @pc24{@pc24} = ();
 }
 
 sub scale_u {

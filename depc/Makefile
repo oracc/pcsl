@@ -36,4 +36,4 @@ m/depc.xml: ${MDEPS}
 	00bin/marshall.sh
 
 clean:
-	rm -f depc.tex depc.pdf depc.log xetex.log m/depc.xml
+	rm -f depc.ltx depc.pdf depc.log m/depc.xml

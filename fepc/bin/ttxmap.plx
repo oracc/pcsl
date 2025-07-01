@@ -11,9 +11,13 @@ use Getopt::Long;
 
 my %warned = ();
 
+#my $top = 'F6000'; # we move characters here if they aren't in the map
+#my %top = ();
+
 my $ignore_missing = 0;
 my $mapfile = undef;
 my $outfile = undef;
+my $ss20 = 0;
 my $ttxfile = undef;
 my $verbose = 0;
 
@@ -21,12 +25,21 @@ GetOptions(
     ignore_missing=>\$ignore_missing,
     'map:s'=>\$mapfile,
     'out:s'=>\$outfile,
+    'ss20'=>\$ss20,
     'ttx:s'=>\$ttxfile,
     verbose=>\$verbose,
     );
 
 die "Usage: $0 -m [MAP] -t [TTX] -o [OUT]\n"
     unless $mapfile && $outfile && $ttxfile;
+
+my %ss20 = ();
+if ($ss20) {
+    my @ss20 = `grep ^u12 pc25-cc.add | cut -d. -f1 | sed 's/^u//'`; chomp @ss20;
+    @ss20{@ss20} = ();
+}
+
+#print Dumper \%ss20; exit 1;
 
 my $status = 0;
 my %new = ();
@@ -61,29 +74,50 @@ open(O,">$outfile") || die "$0: unable to write to $outfile. Stop.\n";
 select O;
 while (<T>) {
     my $orig = $_;
-    if (/(?:name|glyph)="u([0-9A-F]{5})(\.cv\d+)?"/) {
+    if ($ss20 && /(?:name|glyph)="u([0-9A-F]{5})\.ss20"/) {
+	s/\.ss20//;
+    } elsif (/(?:name|glyph)="u([0-9A-F]{5})(\.cv\d+)?"/) {
 	my $old_u = $1;
 	my $cvnn = $2 || '';
 	my $new_u = $tab{"\U$old_u"};
 	if ($new_u) {
-	    s/"u$old_u"/"u$new_u$cvnn"/;
-	    warn "map u$old_u to u$new_u\n" if $verbose;
+	    unless ($ss20 && /code=/ && exists($ss20{$old_u})) {
+		s/"u$old_u"/"u$new_u$cvnn"/;
+		warn "map u$old_u to u$new_u\n" if $verbose;
+	    }
 	} else {
 	    unless ($old_u =~ /^E01/) {
-		warn "[1] no tab entry for $old_u\n"
-		    unless $ignore_missing || $warned{$old_u}++;
+		if ($ignore_missing) {
+		    # we actually lose these at the top of the font
+#		    $top{$old_u} = $top++
+#			unless $top{$old_u};
+		    # s/"u$old_u"/"u$top{$old_u}"/;
+		} else {
+		    warn "[1] no tab entry for $old_u\n"
+			unless $warned{$old_u}++;
+		}
 	    }
 	}
 	if (/code="0x([0-9A-F]{5})"/i) {
 	    $old_u = $1;
-	    $new_u = $tab{"\U$old_u"};
-	    if ($new_u) {
-		s/"0x$old_u"/"0x$new_u"/;
-		warn "map 0x$old_u to 0x$new_u\n" if $verbose;
-	    } else {
-		unless ($old_u =~ /^E01/i) {
-		    warn "[1] no tab entry for code=$old_u\n"
-			unless $ignore_missing || $warned{"\U$old_u"}++;
+	    if (!$ss20 || !exists($ss20{$old_u})) {
+		$new_u = $tab{"\U$old_u"};
+		if ($new_u) {
+		    warn "code=$old_u => $new_u\n";
+		    s/"0x$old_u"/"0x$new_u"/;
+		    warn "map 0x$old_u to 0x$new_u\n" if $verbose;
+		} else {
+		    unless ($old_u =~ /^E01/i) {
+			if ($ignore_missing) {
+			    # we actually lose these at the top of the font
+			    #			$top{$old_u} = $top++
+			    #			    unless $top{$old_u};
+			    # s/"0x$old_u"/"0x$top{$old_u}"/;
+			} else {
+			    warn "[1] no tab entry for code=$old_u\n"
+				unless $warned{"\U$old_u"}++;
+			}
+		    }
 		}
 	    }
 	}
