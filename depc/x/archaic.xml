@@ -1,0 +1,229 @@
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns:tex="http://oracc.org/ns/tex/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml">
+
+<h1>The Archaic Period in Mesopotamia</h1>
+
+<p>Proto-cuneiform script was invented in the second half of the third
+millennium BCE and used until the early part of the second millennium
+BCE, approximately 3500-2900 BCE, generally known as the Archaic
+Period. This period was extensively described and discussed, with
+special reference to texts and writing, by the late Robert K. Englund
+in his magisterial book-within-a-book "Texts from the Late Uruk
+Period", pages 1-233 in J. Bauer, R.K. Englund and M. Krebernik,
+<i>Mesopotamien: Spaturuk-Zeit und Frhudynastische Zeit</i> (Orbis
+Biblicus et Orientalis 160/1). Gottingen, 1998, available as an open
+access download at https://www.zora.uzh.ch/id/eprint/151545/.  The
+following sketch is based on Englund's discussion to which the reader
+is referred for a detailed account.</p>
+
+<h2>Birth of Cities</h2>
+
+<p>The flourishing of urbanization in southern Mesopotamia during the
+fourth millennium BCE gave rise to several major centres of which the
+best known and most excavated is that of Uruk.  Major institutional
+buildings, new artistic forms illustrating the importance of the ruler
+and the relationship of the ruler and the gods, and the invention of
+writing are all features of socio-political developments in the first
+cities.</p>
+
+<p>Networks of canals connected important centres and the distribution
+of material culture and writing show that the world of the Archaic
+Uruk period was characterized by significant interaction between
+communities.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \includegraphics[scale=.5]{images/benati-map.png}%
+    \caption{Map of southern
+  Iraq showing canal networks and key settlements of the late fourth
+  and early third millennia BCE (after Benati,
+  https://cdli.earth/articles/cdlj/2015-2)}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+  \xgraphicsfigure{images/benati-map.png}{500}{5in}{Map of southern
+  Iraq showing canal networks and key settlements of the late fourth
+  and early third millennia BCE (after Benati,
+  https://cdli.earth/articles/cdlj/2015-2)}</tex:plain></tex:text>
+
+<h2>History</h2>
+
+<p>We cannot write a political history of the late fourth millennium,
+and the lack of archaeological context for key Uruk period finds means
+that we must resort to dating the tablet finds by relative
+palegraphical criteria rather than by documented archaeological
+findspots.</p>
+
+<p>As Englund demonstrates, however, archaic administrative texts
+reflect organized agriculture, animal husbandry, and other
+production. The documents evidence social hierarchy and specialization
+and some texts can be understood as inventories of labourers, possibly
+slaves captured in military operations.</p>
+
+<p>The sporadic nature of both archaeological excavations and text
+corpora is another impediment to a continuous history of these early
+periods.  Figure 2 provides a schematic overview of the sequence of
+major text finds in the 'Writing Phase' column. Only small groups of
+texts are omitted from the Late Uruk/Jemdet Nasr period (Uqair,
+Larsa).  For ED I--II we have only the ED I-II Ur texts and a few
+dozen tablets from Uruk which are later than archaic.  Then the record
+is silent until Fara (Šuruppak).</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \includegraphics[scale=.5]{images/obo-chrono.png}
+    \caption{Chronological overview of early Mesopotamia from Englund p.23.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/obo-chrono.png}{500}{3in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:plain></tex:text>
+
+<h2>Major Text Corpora</h2>
+
+<p>The largest and most important group of archaic texts was excavated
+in the city of Uruk. The tablets were found in secondary context,
+meaning that the relative dating of tablets to Uruk IV or Uruk III is
+not based on stratigraphy but on formal and palaeographic features.</p>
+
+<h3>Administrative Texts</h3>
+
+<p>The bulk of the archaic tablets are administrative documents.  They
+exhibit varying degrees of complexity from simple tags or
+one-transaction memos to multi-transactional summaries with a
+relatively complex organization of cases as indicated in figures 3 and 4.</p>
+
+<tex:text>
+    <tex:latex>
+      \begin{figure}[h]
+      \centering
+      \includegraphics[scale=.6]{images/obo-diplo.png}
+      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
+      \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
+
+<p>This form of spatial division of the tablets into cases which are
+often quite narrow gives rise to an important feature of the writing
+of combinations of signs, which may be place beside, above, or
+otherwise near each other as space permits, and may be written in
+varying order depending partly on the space available in the box into
+which the signs have to fit.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \includegraphics[scale=.4]{images/P005252.png}
+    \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
+
+<h3>Lexical Lists</h3>
+
+<p>The other important--but numerically far fewer--group of texts are
+the word lists that Assyriologists generally refer to as 'Lexical
+Texts'.  These appear in the earlist phases of writing and are
+especially well evidenced in Uruk III texts. Importantly, many of
+these lexical lists continue into the Early Dynastic period, where
+manuscripts from Fara and Abu Ṣalabīkh write the same content but in
+contemporary cuneiform.  This provides the best evidence for the
+alignment of PC and SAC, but an account of these alignments is beyond
+the scope of Unicode.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \includegraphics[scale=.4]{images/obo-lucompo.png}
+    \centering
+    \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+\graphicsfigure{images/obo-lucompo.png}{275}{3in}{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}  </tex:plain>
+</tex:text>
+
+<p>The disciplinary practice with lexical lists, which are attested
+mostly in small fragments containing only a few lines of the text, is
+to create composites which allow for an overview of the list and in
+which each individual entry is evidenced by one or more manuscripts. A
+sample composite is given in the figure above, and examples of lexical
+tablets are below.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \includegraphics[scale=.4]{images/lex.png}
+    \caption{Sample lexical tablets: P000006, P000011, P000025}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/lex.png}{250}{5in}{Sample lexical tablets: P000006, P000011, P000025.}
+  </tex:plain>
+</tex:text>
+
+<h2>Writing Phases</h2>
+
+<p>The precise analysis of writing phases in the Uruk texts is
+hampered by the lack of tablet finds in primary archaeological
+context. The general assumption is that earlier sign forms are more
+curved; have a greater variety of angles; or are drawn with a pointed
+stylus rather than being constructed of cuneiform strokes.  Englund's
+discussion of this is accompanied by a figure which is unfortunately
+absent from the PDF of the book; his Figure 22 is reproduced here.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[p]
+    \centering
+    \includegraphics[scale=4]{images/obo-p69.png}
+    \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/obo-p69.png}{3000}{3in}{Englund's overview of Uruk IV/Uruk III sign forms.}</tex:plain></tex:text>
+
+<h2>Vocabulary</h2>
+
+<p>The language of the archaic corpus is uncertain: many would accept
+that it is Sumerian, but for Englund and others this remains
+stubbornly unprovable.  Despite this, continuities between PC and
+later cuneiform, contextual inferences drawn from counting and
+measuring systems, and the similarity of some signs to the objects
+they picture all combine to allow the general sense of many signs or
+groups of signs to be divined.  Two of Englund's figures are chosen
+here to illustrate this point, but the entirety of "Texts from the
+Late Uruk Period" is in a sense his demonstration that the archaic
+corpus--contrary to what some might think--is increasingly well
+understood.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \includegraphics[scale=.3125]{images/obo-ovo.png}
+    \caption{Signs for ovi-caprids, after Englund.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+\xgraphicsfigure{images/obo-ovo.png}{300}{3in}{Signs for ovi-caprids, after Englund.}</tex:plain></tex:text>
+
+<tex:text>
+    <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \includegraphics[scale=.35]{images/obo-dairy.png}
+    \caption{Signs for dairy products, after Englund.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+\xgraphicsfigure{images/obo-dairy.png}{300}{3in}{Signs for dairy products, after Englund.}</tex:plain></tex:text>
+
+</esp:page>
