@@ -22,6 +22,7 @@ if ($h) {
 	++$i;
 	my($o,$h,$r) = split(/\s+/,$_);
 	if ($h && $r) {
+	    $o =~ s/:$//;
 	    my $sf = $r/$h; $sf *= 1000;
 	    printf "$o\t$h/$r\t%d\n", $sf;
 	} else {

@@ -175,7 +175,15 @@ while (<N>) {
     }
     if ($pcslflag || $pc25flag) {
 	if ($fn) {
-	    $fn = '' unless (-r "propgh/$fn.png" || $fn =~ s#^.*?/add/thumb/#add/#);
+	    if ($fn =~ /add/) {
+		if ($fn =~ /NOT|XXX|FONT|-$/) {
+		    $fn = '';
+		} else {
+		    $fn =~ s#^.*?/add/thumb/#add/#;
+		}
+	    } else {
+		$fn = '' unless -r "propgh/$fn.png";
+	    }
 	}
 	my $row = $fn ? " row=\"$fn\"" : '';
 	$row .= " roid=\"$roid\""
@@ -438,7 +446,9 @@ sub load_sf {
 	my($o,$sf) = split(/\t/,$_);
 	if ($sf) {
 	    if ($sf{$o}) {
-		warn "00etc/propgh-sf.tsv: duplicate entry $o\n";
+		# warn "00etc/propgh-sf.tsv: duplicate entry $o\n";
+		$sf{$o} = $sf
+		    if $sf < $sf{$o};
 	    } else {
 		$sf{$o} = $sf;
 	    }
