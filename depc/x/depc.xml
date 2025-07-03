@@ -15,7 +15,10 @@
   
   <xi:include href="../x/abstract.xml"/>
 
-  <tex:text>\begingroup\nine\rm\usetoc\endgroup</tex:text>
+  <tex:text>
+    <tex:latex>\tableofcontents</tex:latex>
+    <tex:tex>\begingroup\nine\rm\usetoc\endgroup</tex:tex>
+  </tex:text>
 
   <xi:include href="../x/previous.xml"/>
  
@@ -59,7 +62,7 @@
   <xi:include href="../m/cpage5.xml"/>
   <xi:include href="../m/cpage6.xml"/>
 
-  <tex:text>\newpage</tex:text>
+  <tex:text><tex:tex>\newpage</tex:tex></tex:text>
   
   <xh:h2>Character List</xh:h2>
 

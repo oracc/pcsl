@@ -1074,8 +1074,31 @@
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="tex:text">
-    <xsl:apply-templates/>
+  <xsl:template match="tex:text">    
+    <xsl:choose>
+      <xsl:when test="$latex='yes'">
+	<xsl:choose>
+	  <xsl:when test="tex:latex">
+	    <xsl:apply-templates select="tex:latex"/>
+	  </xsl:when>
+	  <xsl:when test="tex:tex"/>
+	  <xsl:otherwise>
+	    <xsl:apply-templates/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:choose>
+	  <xsl:when test="tex:tex">
+	    <xsl:apply-templates/>
+	  </xsl:when>
+	  <xsl:when test="tex:latex"/>
+	  <xsl:otherwise>
+	    <xsl:apply-templates/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- ESP -->
