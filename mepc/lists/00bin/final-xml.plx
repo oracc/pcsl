@@ -174,6 +174,9 @@ while (<N>) {
 	}
     }
     if ($pcslflag || $pc25flag) {
+	if ($fn) {
+	    $fn = '' unless (-r "propgh/$fn.png" || $fn =~ s#^.*?/add/thumb/#add/#);
+	}
 	my $row = $fn ? " row=\"$fn\"" : '';
 	$row .= " roid=\"$roid\""
 	    if $roid;

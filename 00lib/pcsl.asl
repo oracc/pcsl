@@ -3290,13 +3290,6 @@
 @glyf |GA₂~a1×1(N57)|~1 𒟉 127C9 o0990489 ~01
 @end sign
 
-@sign |GA₂~a1×3(N57)|
-@oid o0980402
-@upua U+F2426
-@uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES THREE N57
-@glyf |GA₂~a1×3(N57)|~1 󲐦 F2426 o0990490 ~01
-@end sign
-
 @sign GA₂~a2
 @oid o0980403
 @list U+127CA

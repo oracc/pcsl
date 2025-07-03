@@ -5,12 +5,18 @@
   centering,
   showframe=true
 ]{geometry}
+
 \pagewidth=\paperwidth
 \pageheight=\paperheight
-\hoffset=1in
-\voffset=1in
+%\hoffset=1in
+%\voffset=1in
 
 \usepackage{fontspec}
+\setmainfont{UngBkBasR.ttf}[
+BoldFont = UngBkBasB.ttf ,
+ItalicFont = UngBkBasI.ttf ,
+BoldItalicFont = UngBkBasBI.ttf ]
+\setsansfont{DejaVuSans.ttf}
 \usepackage{graphicx}
 \usepackage{luaotfload}
 \usepackage{multicol}

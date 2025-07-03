@@ -209,7 +209,8 @@
 		<xsl:text>{\NaN}</xsl:text>
 	      </xsl:when>
 	      <xsl:otherwise>
-	      <xsl:value-of select="concat('\includegraphics[scale=',$sf,']{propgh/',@data-row,'.png}')"/></xsl:otherwise>
+		<xsl:value-of select="concat('\includegraphics[scale=',$sf,']{propgh/',@data-row,'.png}')"/>
+	      </xsl:otherwise>
 	    </xsl:choose>
 	  </xsl:when>
 	  <xsl:otherwise>
@@ -220,8 +221,16 @@
       <xsl:when test="@data-row='-'">
 	<xsl:text>\cdlighnopng</xsl:text>
       </xsl:when>
-      <xsl:when test="contains(@data-row,'/add/')">
-	<xsl:value-of select="concat('\includegraphics{../../',@data-row,'}{',../@data-sf,'}')"/>
+      <xsl:when test="starts-with(@data-row,'add/')">
+	<xsl:variable name="sf" select="../@data-sf div 1000"/>
+	<xsl:choose>
+	  <xsl:when test="string(number($sf))='NaN'">
+	    <xsl:text>{\NaN}</xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('\includegraphics[scale=',$sf,']{',@data-row,'}')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:when>
     </xsl:choose>
     <xsl:text>\hss}</xsl:text>

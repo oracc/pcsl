@@ -1,0 +1,11 @@
+@font-face {
+   font-family: 'PC';
+   src: url('/pcsl/fonts/PC-all.ttf');
+}
+
+.ofs-pc { font-family: "PC"; }
+
+.ofs-150 { font-size: 150%; }
+.ofs-200 { font-size: 200%; }
+
+.pcslpc { font-family: "PC"; font-size: 200%; }

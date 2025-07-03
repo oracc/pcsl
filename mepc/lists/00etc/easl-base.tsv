@@ -377,7 +377,6 @@ o0980398		|GA₂~a1×U₄|	I	|GA2~a1xU4|	𒠱	/pcsl/easl/images/o0900707.png
 o0980399	1-#	|GA₂~a1×X|	I	|GA2~a1xX|	𒠲	/pcsl/easl/images/o0900709.png
 o0980400		|GA₂~a1×1(N14)|	I	|GA2~a1x1(N14)|	𒠳	/pcsl/easl/images/o0900666.png
 o0980401		|GA₂~a1×1(N57)|	I	|GA2~a1x1(N57)|	𒠴	/pcsl/easl/images/o0900668.png
-o0980402		|GA₂~a1×3(N57)|	I	|GA2~a2x3(N57)|	𒠵	/pcsl/easl/images/o0900671.png
 o0980403		GA₂~a2	I	GA2~a2	𒠶	/pcsl/easl/images/o0900617.png
 o0980404		|GA₂~a2×GU₄|	I	|GA2~a2xGU4|	𒠷	/pcsl/easl/images/o0900644.png
 o0980405		|GA₂~a2×NI~a|	I	|GA2~a2xNI~a|	𒠸	/pcsl/easl/images/o0900677.png
@@ -386,6 +385,7 @@ o0980407		|GA₂~a2×SUHUR|	I	|GA2~a2xSUHUR|	𒠺	/pcsl/easl/images/o0900692.png
 o0980408	n	|GA₂~a2×ŠE₃~v1|	I	|GA2~a2xSZE3|	𒠻	/pcsl/easl/images/o0900703.png
 o0980409	n	|GA₂~a2×(ŠE₃~v1.GU₄)|	I	|GA2~a2x(GU4.SZE3)|	𒠼	/pcsl/easl/images/o0900646.png
 o0980410	#	|GA₂~a2×X|	I	|GA2~a2xX|	𒠽	/pcsl/easl/images/o0900711.png
+o0980411		|GA₂~a2×3(N57)|	I	|GA2~a2x3(N57)|	󳃾	/pcsl/easl/images/o0900671.png
 o0980412		GA₂~a3	I	GA2~a3	𒠾	/pcsl/easl/images/o0900618.png
 o0980413	#	|GA₂~a3×X|	I	|GA2~a3xX|	𒠿	/pcsl/easl/images/o0900712.png
 o0980414		GA₂~a4	I	GA2~a4	𒡀	/pcsl/easl/images/o0900619.png
