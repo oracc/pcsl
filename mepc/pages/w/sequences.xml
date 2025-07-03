@@ -44,9 +44,11 @@
       there is a reasonable choice of how to describe the order of
       components an order identical or closer to the sequence
       character name is preferred.  Thus, in the case of character
-      <code>|PAP~a.IB~a|</code>, the glyph 𒭅 could reasonably be
-      described as |PAP~a.IB~a| or |IB~a∘PAP~a|.  The former is
-      preferred because it follows the character name.</p>
+      <code>|PAP~a.IB~a|</code>, the glyph
+      <span class="ofs-pc ofs-200">𒭅 </span>
+      could reasonably be described as |PAP~a.IB~a|
+      or |IB~a∘PAP~a|.  The former is preferred because it follows the
+      character name.</p>
       <p>Similarly, glyph names do not remap or normalize variant
       components that are considered distinct signs in PCSL.  Thus,
       for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a| and

@@ -3,7 +3,8 @@
 #
 
 MDEPS=../mepc/pages/w/texts.xml ../mepc/pages/w/signs.xml \
-	../mepc/pages/w/lists.xml ../mepc/lists/00web/pcsl-tab.html \
+	../mepc/pages/w/lists.xml ../mepc/pages/w/sequences.xml \
+	../mepc/lists/00web/pcsl-tab.html \
 	../pepc/principles.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
