@@ -70,6 +70,8 @@
 
   <!--<tex:text>\endinput</tex:text> -->
 
+  <tex:text>\printbibliography</tex:text>
+  
   <xh:h1>Supporting Documents</xh:h1>
 
   <xh:p>Here we provide supporting documentation which exposes as much as

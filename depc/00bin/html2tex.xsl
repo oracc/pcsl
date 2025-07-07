@@ -1,6 +1,7 @@
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 	       xmlns:h="http://www.w3.org/1999/xhtml"
 	       xmlns:esp="http://oracc.org/ns/esp/1.0"
+	       xmlns:eb="http://oracc.org/ns/esp-biblatex/1.0"
 	       xmlns:struct="http://oracc.org/ns/esp-struct/1.0"
 	       xmlns:tex="http://oracc.org/ns/tex/1.0"
 	       >
@@ -166,9 +167,16 @@
 	<xsl:text>\begin{description}&#xa;</xsl:text>
 	<xsl:for-each select="h:dt">
 	  <xsl:text>\item[</xsl:text>
-	  <xsl:call-template name="textmap">
-	    <xsl:with-param name="t" select="."/>
-	  </xsl:call-template>
+	  <xsl:choose>
+	    <xsl:when test="*">
+	      <xsl:apply-templates/>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:call-template name="textmap">
+		<xsl:with-param name="t" select="."/>
+	      </xsl:call-template>
+	    </xsl:otherwise>
+	  </xsl:choose>
 	  <xsl:text>] </xsl:text>
 	  <xsl:apply-templates select="following-sibling::h:dd[1]"/>
 	  <xsl:text>&#xa;&#xa;</xsl:text>
@@ -901,7 +909,15 @@
   </xsl:template>
   
   <xsl:template match="*">
-    <xsl:message>Unnamespaced tag <xsl:value-of select="local-name(.)"/></xsl:message>
+    <xsl:choose>
+      <xsl:when test="local-name(.)='cite'">
+	<xsl:message>Unnamespaced tag <xsl:value-of select="local-name(.)"
+	/> key=<xsl:value-of select="@key"/></xsl:message>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message>Unnamespaced tag <xsl:value-of select="local-name(.)"/></xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
 <!--  <xsl:template match="text()"/> -->
@@ -1101,6 +1117,34 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- ESP-BIBLATEX -->
+
+  <xsl:template match="eb:cite">
+    <xsl:if test="$latex='yes'">
+      <xsl:text>\cite</xsl:text>
+      <xsl:if test="@pp">
+	<xsl:text>[</xsl:text>
+	<xsl:value-of select="@pp"/>
+	<xsl:text>]</xsl:text>
+      </xsl:if>
+      <xsl:text>{</xsl:text>
+      <xsl:value-of select="@key"/>
+      <xsl:text>}</xsl:text>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="eb:nocite">
+    <xsl:if test="$latex='yes'">
+      <xsl:text>\nocite{</xsl:text>
+      <xsl:value-of select="@key"/>
+      <xsl:text>}</xsl:text>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="eb:references">
+    <xsl:text>\printbibliography&#xa;&#xa;</xsl:text>
+  </xsl:template>
+
   <!-- ESP -->
 
   <xsl:template match="esp:page|esp:link">
