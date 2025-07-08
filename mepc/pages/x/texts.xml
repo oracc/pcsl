@@ -10,9 +10,9 @@
     <head/>
     <body>
       <p>The PC text Corpus is defined by the CDLI corpus of
-      Proto-Cuneiform texts of Uruk IV and Uruk III data, as adapted
-      for use by PCSL: we call this <code>CDLI-tc</code>; note that
-      CDLI-tc is used here only in the PCSL version of the
+      Proto-Cuneiform texts of Uruk V, Uruk IV, and Uruk III date, as
+      adapted for use by PCSL: we call this <code>CDLI-tc</code>; note
+      that CDLI-tc is used here only in the PCSL version of the
       corpus. This version has some minor modifications to the
       transliteration and has been converted to use Unicode
       transliteration conventions rather than the CDLI ASCII ones.</p>
@@ -20,9 +20,11 @@
       <p>There are <xi:include xml:base="."
       href="../../texts/tpcsl/c.cnt" parse="text"/> texts in the
       corpus of which <xi:include xml:base="."
+      href="../../texts/tpcsl/c-5.cnt" parse="text"/> are attributed
+      to Uruk V; <xi:include xml:base="."
       href="../../texts/tpcsl/c-4.cnt" parse="text"/> are attributed
       to Uruk IV and <xi:include xml:base="."
-      href="../../texts/tpcsl/c-3.cnt" parse="text"/>, to the
+      href="../../texts/tpcsl/c-3.cnt" parse="text"/> to the
       subsequent Uruk III period.</p>
 
       <esp:ssh>The Print Corpus</esp:ssh>
@@ -79,7 +81,7 @@
       
       <ul>
 	<li>Uruk lexical tablets from ATU3 (Uruk IV and Uruk III)</li>
-	<li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk IV and Uruk III);
+	<li>Uruk administrative tablets from ATU5, ATU6, ATU7 (Uruk V, Uruk IV and Uruk III);
 	these supercede ATU1</li>
 	<li>Jemdet Nasr (Uruk III) tablets from MSVO1; these supercede
 	Langdon, PI</li>

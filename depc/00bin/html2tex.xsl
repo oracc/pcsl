@@ -535,8 +535,16 @@
   </xsl:template>
   
   <xsl:template match="h:table">
-    <xsl:text>\bigskip&#xa;</xsl:text>
+    <!--<xsl:text>\bigskip&#xa;</xsl:text>-->
     <xsl:choose>
+      <xsl:when test="contains(@class,'gdist')">
+	<xsl:text>\centerline{\vbox{\offinterlineskip\tabskip0pt&#xa;</xsl:text>
+	<xsl:apply-templates mode="halign" select=".">
+	  <xsl:with-param name="ruled" select="'yes'"/>
+	  <xsl:with-param name="style" select="'gdist'"/>
+	</xsl:apply-templates>
+	<xsl:text>}}</xsl:text>	
+      </xsl:when>
       <xsl:when test="contains(@class,'pretty') or contains(@class,'borders') ">
 	<xsl:text>\centerline{\vbox{\offinterlineskip\tabskip0pt&#xa;</xsl:text>
 	<xsl:apply-templates mode="halign" select=".">
@@ -561,6 +569,7 @@
 	<xsl:apply-templates mode="halign" select="."/>
       </xsl:otherwise>
     </xsl:choose>
+    <xsl:text>\bigskip&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="h:ul">
@@ -583,6 +592,7 @@
   <xsl:template mode="halign" match="h:table">
     <xsl:param name="ruled" select="'no'"/>
     <xsl:param name="rulerules" select="'none'"/>
+    <xsl:param name="style" select="'default'"/>
     <xsl:param name="csname"/>
     <xsl:variable name="p-row">
       <xsl:choose>
@@ -602,17 +612,20 @@
 	  <xsl:with-param name="preamble-row" select="$p-row"/>
 	  <xsl:with-param name="ruled" select="$ruled"/>
 	  <xsl:with-param name="rulerules" select="$rulerules"/>
+	  <xsl:with-param name="style" select="$style"/>
 	</xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:call-template name="halign-preamble">
 	  <xsl:with-param name="rulerules" select="$rulerules"/>
+	  <xsl:with-param name="style" select="$style"/>
 	</xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:apply-templates mode="halign">
       <xsl:with-param name="ruled" select="$ruled"/>
       <xsl:with-param name="rulerules" select="$rulerules"/>
+      <xsl:with-param name="style" select="$style"/>
     </xsl:apply-templates>
     <xsl:text>}&#xa;</xsl:text>
   </xsl:template>
@@ -760,6 +773,7 @@
     <xsl:param name="preamble-row" select="1"/>
     <xsl:param name="ruled"/>
     <xsl:param name="rulerules"/>
+    <xsl:param name="style"/>
     <!--<xsl:message>halign-preamble rulerules=<xsl:value-of select="$rulerules"/></xsl:message>-->
     <xsl:for-each select=".//h:tr[position()=$preamble-row]">
       <xsl:if test="position()=1">
@@ -793,7 +807,14 @@
 		  <xsl:if test="$ruled='yes'">
 		    <xsl:text>\tvrule</xsl:text>
 		  </xsl:if>
-		  <xsl:text>#\tabskip0pt\cr</xsl:text>
+		  <xsl:choose>
+		    <xsl:when test="$style='gdist'">
+		      <xsl:text>{\gdistfont#}\tabskip0pt\cr</xsl:text>
+		    </xsl:when>
+		    <xsl:otherwise>
+		      <xsl:text>#\tabskip0pt\cr</xsl:text>
+		    </xsl:otherwise>
+		  </xsl:choose>
 		  <xsl:if test="$ruled='yes' and not($rulerules='cc')">
 		    <xsl:text>\tablerule</xsl:text>
 		  </xsl:if>
@@ -801,12 +822,15 @@
 		</xsl:when>
 		<xsl:otherwise>
 		  <xsl:text>\hfil</xsl:text>
-		  <xsl:if test="not($rulerules='cc') and not($rulerules='sltab')">
+		  <xsl:if test="not($rulerules='cc') and not($rulerules='sltab') and not($style='gdist')">
 		    <xsl:text>\quad</xsl:text>
 		  </xsl:if>
 		  <xsl:choose>
 		    <xsl:when test="$rulerules='cc' or $rulerules='sltab'">
 		      <xsl:text>\tabskip0pt%&#xa;&amp;</xsl:text>
+		    </xsl:when>
+		    <xsl:when test="$style='gdist'">
+		      <xsl:text>\tabskip2pt plus1pt%&#xa;&amp;</xsl:text>
 		    </xsl:when>
 		    <xsl:otherwise>
 		      <xsl:text>\tabskip3pt plus1pt%&#xa;&amp;</xsl:text>

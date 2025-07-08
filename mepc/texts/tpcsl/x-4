@@ -4,9 +4,11 @@ P000005	CDLI Lexical 000002, ex. 172	Uruk (mod. Warka)	VAT 15153	W 09206,k						
 P000006	CDLI Lexical 000002, ex. 173	Uruk (mod. Warka)	VAT 15003	W 09656,h1						Uruk IV
 P000007	CDLI Lexical 000002, ex. 174	Uruk (mod. Warka)	VAT 15111	W 09656,x						Uruk IV
 P000121	CDLI Lexical Archaic Unidentified, ex. 024	Uruk (mod. Warka)	VAT 16731	W 15920,a4						Uruk IV
+P000122	CDLI Lexical 000023, ex. 040	Uruk (mod. Warka)	IM 023439,11	W 15920,b6						Uruk III
 P000131	CDLI Lexical 000026, ex. 045	Uruk (mod. Warka)	IM —	W 16621,a						Uruk IV
 P000448	CDLI Lexical 000002, ex. 170	Uruk (mod. Warka)	IM 134357	W 20421,1						Uruk IV
 P000449	CDLI Lexical 000002, ex. 171	Uruk (mod. Warka)	IM 134358	W 20421,2						Uruk IV
+P000456	ATU 3, pl. 036, W 20497	Uruk (mod. Warka)	IM 134420	W 20497						Uruk III
 P000493	CDLI Lexical 000023, ex. 093	Uruk (mod. Warka)	IM 074286	W 21060,05 + W 21060,06 ?						Uruk IV
 P000495	CDLI Lexical 000023, ex. 092	Uruk (mod. Warka)	IM 134691	W 21060,16						Uruk IV
 P000730	ATU 5, pl. 001, W 1872,1	Uruk (mod. Warka)	VAT 15316	W 01872,1						Uruk IV
@@ -42,10 +44,12 @@ P000773	ATU 5, pl. 008, W 6502,d	Uruk (mod. Warka)	VAT 15256	W 06502,d						Uruk
 P000774	VA — ?	Uruk (mod. Warka)	VA — ?	W 06502,e						Uruk IV
 P000775	ATU 5, pl. 008, W 6502,f	Uruk (mod. Warka)	VAT 14853	W 06502,f						Uruk IV
 P000776	ATU 5, pl. 009, W 6502,g	Uruk (mod. Warka)	VAT 14869	W 06502,g						Uruk IV
+P000778	ATU 5, pl. 009, W 6572,b	Uruk (mod. Warka)	VAT 15272	W 06572,b						Uruk III
 P000779	ATU 5, pl. 009, W 6572,c	Uruk (mod. Warka)	VAT 15086	W 06572,c						Uruk IV
 P000780	ATU 5, pl. 009, W 6572,d	Uruk (mod. Warka)	VAT 15324	W 06572,d						Uruk IV
 P000781	ATU 5, pl. 009, W 6572,e	Uruk (mod. Warka)	VAT 15271	W 06572,e						Uruk IV
 P000782	ATU 5, pl. 009, W 6572,f	Uruk (mod. Warka)	VAT 21358	W 06572,f						Uruk IV
+P000784	ATU 5, pl. 009, W 6573,b	Uruk (mod. Warka)	VAT 15247	W 06573,b						Uruk III
 P000785	ATU 5, pl. 010, W 6573,c	Uruk (mod. Warka)	VAT 15326	W 06573,c						Uruk IV
 P000786	ATU 5, pl. 010, W 6584	Uruk (mod. Warka)	VAT 15162	W 06584						Uruk IV
 P000787	ATU 5, pl. 010, W 6601	Uruk (mod. Warka)	VAT 14889	W 06601						Uruk IV
@@ -54,6 +58,7 @@ P000790	ATU 5, pl. 010, W 6612,a	Uruk (mod. Warka)	IM 025684	W 06612,a						Uruk
 P000791	ATU 5, pl. 011, W 6612,b	Uruk (mod. Warka)	VAT 14852	W 06612,b						Uruk IV
 P000792	ATU 5, pl. 011, W 6612,c	Uruk (mod. Warka)	VAT 14919	W 06612,c						Uruk IV
 P000802	ATU 5, pl. 012, W 6616	Uruk (mod. Warka)	VAT 15119	W 06616						Uruk IV
+P000803	ATU 5, pl. 012, W 6704	Uruk (mod. Warka)	VAT 17815	W 06704						Uruk V
 P000804	ATU 5, pl. 012, W 6705,a	Uruk (mod. Warka)	VAT 14696	W 06705,a						Uruk IV
 P000805	ATU 5, pl. 012, W 6705,b	Uruk (mod. Warka)	VAT 14875	W 06705,b						Uruk IV
 P000806	ATU 5, pl. 012, W 6705,c	Uruk (mod. Warka)	VAT 15079	W 06705,c						Uruk IV
@@ -90,10 +95,16 @@ P000838	ATU 5, pl. 015, W 6760,c	Uruk (mod. Warka)	VAT 14920	W 06760,c						Uruk
 P000839	ATU 5, pl. 015, W 6760,d	Uruk (mod. Warka)	VAT 15211	W 06760,d						Uruk IV
 P000840	ATU 5, pl. 016, W 6760,e	Uruk (mod. Warka)	VAT 15178	W 06760,e						Uruk IV
 P000841	ATU 5, pl. 016, W 6760,f	Uruk (mod. Warka)	VAT 15362	W 06760,f						Uruk IV
+P000842	ATU 5, pl. 016, W 6782,a	Uruk (mod. Warka)	VAT 15085	W 06782,a						Uruk V
+P000843	ATU 5, pl. 016, W 6782,b	Uruk (mod. Warka)	VAT 17816	W 06782,b						Uruk V
 P000844	ATU 5, pl. 016, W 6786,d	Uruk (mod. Warka)	VAT 15361	W 06786,d						Uruk IV
+P000845	ATU 5, pl. 016, W 6808	Uruk (mod. Warka)	VAT 15277	W 06808						Uruk V
 P000846	ATU 5, pl. 016, W 6820	Uruk (mod. Warka)	VAT 15182	W 06820						Uruk IV
+P000847	ATU 5, pl. 016, W 6841	Uruk (mod. Warka)	VAT 17817	W 06841						Uruk V
 P000849	ATU 5, pl. 017, W 6855	Uruk (mod. Warka)	VAT 15109	W 06855						Uruk IV
 P000850	ATU 5, pl. 017, W 6860	Uruk (mod. Warka)	VAT 15081	W 06860						Uruk IV
+P000851	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,a						Uruk III
+P000852	ATU 5, pl. 017, W 6881,b	Uruk (mod. Warka)	VA 13629	W 06881,b						Uruk V
 P000853	ATU 5, pl. 017, W 6881,c+	Uruk (mod. Warka)	VAT 15370 + VAT 15373	W 06881,c + W 06881,f						Uruk IV
 P000854	ATU 5, pl. 017, W 6881,d	Uruk (mod. Warka)	VAT 15367	W 06881,d						Uruk IV
 P000855	ATU 5, pl. 017, W 6881,e	Uruk (mod. Warka)	VAT 21359	W 06881,e						Uruk IV
@@ -108,6 +119,18 @@ P000864	ATU 5, pl. 018, W 6881,m	Uruk (mod. Warka)	VA 13629	W 06881,m						Uruk 
 P000865	ATU 5, pl. 018, W 6881,n	Uruk (mod. Warka)	VAT 15369	W 06881,n						Uruk IV
 P000866	ATU 5, pl. 018, W 6881,o1	Uruk (mod. Warka)	VAT 15323	W 06881,o1						Uruk IV
 P000867	ATU 5, pl. 018, W 6881,o2+	Uruk (mod. Warka)	VA 13629	W 06881,o2 + W 06881,ab						Uruk IV
+P000868	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,p						Uruk III
+P000869	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,q						Uruk III
+P000870	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,r						Uruk III
+P000871	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,s						Uruk III
+P000872	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,t						Uruk III
+P000873	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,u						Uruk III
+P000874	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,v						Uruk III
+P000875	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,w						Uruk III
+P000876	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,x						Uruk III
+P000877	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,y						Uruk III
+P000878	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,z						Uruk III
+P000879	VA — ?	Uruk (mod. Warka)	VA — ?	W 06881,aa						Uruk III
 P000881	ATU 5, pl. 019, W 6882,a	Uruk (mod. Warka)	VAT 14949	W 06882,a						Uruk IV
 P000882	ATU 5, pl. 019, W 6882,b1	Uruk (mod. Warka)	VAT 14866	W 06882,b1						Uruk IV
 P000883	ATU 5, pl. 019, W 6882,b2	Uruk (mod. Warka)	VAT 15090	W 06882,b2						Uruk IV
@@ -116,6 +139,7 @@ P000885	ATU 5, pl. 019, W 6882,d	Uruk (mod. Warka)	VAT 14863	W 06882,d						Uruk
 P000886	ATU 5, pl. 019, W 6882,e+	Uruk (mod. Warka)	VAT 15285	W 06882,e + W 06882,k						Uruk IV
 P000887	ATU 5, pl. 020, W 6882,f	Uruk (mod. Warka)	VAT 15350	W 06882,f						Uruk IV
 P000888	ATU 5, pl. 020, W 6882,g	Uruk (mod. Warka)	VAT 15286	W 06882,g						Uruk IV
+P000889	VA — ?	Uruk (mod. Warka)	VA — ?	W 06882,h						Uruk III
 P000890	ATU 5, pl. 020, W 6882,i	Uruk (mod. Warka)	VAT 15329	W 06882,i						Uruk IV
 P000892	ATU 5, pl. 020, W 6882,l	Uruk (mod. Warka)	VAT 15301	W 06882,l						Uruk IV
 P000893	ATU 5, pl. 020, W 6882,x1	Uruk (mod. Warka)	VAT 21283	W 06882,x1						Uruk IV
@@ -124,40 +148,63 @@ P000895	ATU 5, pl. 020, W 6882,x3	Uruk (mod. Warka)	VAT 21283	W 06882,x3						Ur
 P000896	ATU 5, pl. 020, W 6882,x4	Uruk (mod. Warka)	VAT 21280	W 06882,x4						Uruk IV
 P000897	ATU 5, pl. 020, W 6882,x5	Uruk (mod. Warka)	VAT 21281	W 06882,x5						Uruk IV
 P000898	ATU 5, pl. 020, W 6882,x6	Uruk (mod. Warka)	VAT 21282	W 06882,x6						Uruk IV
+P000899	ATU 5, pl. 020, W 6883,a	Uruk (mod. Warka)	VA 13630	W 06883,a						Uruk V
 P000900	ATU 5, pl. 020, W 6883,b	Uruk (mod. Warka)	VA 13630	W 06883,b						Uruk IV
+P000901	ATU 5, pl. 021, W 6883,e	Uruk (mod. Warka)	VA 13630	W 06883,e						Uruk V
+P000902	ATU 5, pl. 021, W 6883,g	Uruk (mod. Warka)	VA 13622	W 06883,g						Uruk V
 P000903	ATU 5, pl. 021, W 6883,h	Uruk (mod. Warka)	VA 13630	W 06883,h						Uruk IV
+P000904	ATU 5, pl. 021, W 6883,i	Uruk (mod. Warka)	VAT 17822	W 06883,i						Uruk V
+P000905	ATU 5, pl. 021, W 6883,l	Uruk (mod. Warka)	VAT 15332	W 06883,l						Uruk V
+P000906	ATU 5, pl. 021, W 6883,m	Uruk (mod. Warka)	VA 13630	W 06883,m						Uruk V
 P000907	ATU 5, pl. 021, W 6883,n	Uruk (mod. Warka)	VA 13630	W 06883,n						Uruk IV
 P000908	ATU 5, pl. 021, W 6883,o1	Uruk (mod. Warka)	VA 13630	W 06883,o1						Uruk IV
 P000909	ATU 5, pl. 021, W 6883,o2	Uruk (mod. Warka)	VA 13630	W 06883,o2						Uruk IV
 P000910	ATU 5, pl. 021, W 6883,r	Uruk (mod. Warka)	VA 13630	W 06883,r						Uruk IV
 P000911	ATU 5, pl. 022, W 6883,s	Uruk (mod. Warka)	VA 13630	W 06883,s						Uruk IV
 P000912	ATU 5, pl. 022, W 6883,t1	Uruk (mod. Warka)	VA 13630	W 06883,t1						Uruk IV
+P000913	ATU 5, pl. 022, W 6883,t2	Uruk (mod. Warka)	VA 13630	W 06883,t2						Uruk V
 P000914	ATU 5, pl. 022, W 6883,v	Uruk (mod. Warka)	VAT 21402	W 06883,v						Uruk IV
 P000915	ATU 5, pl. 022, W 6883,y	Uruk (mod. Warka)	VA 13630	W 06883,y						Uruk IV
 P000916	ATU 5, pl. 022, W 6883,aa	Uruk (mod. Warka)	VAT 21385	W 06883,aa						Uruk IV
 P000917	ATU 5, pl. 022, W 6883,ab	Uruk (mod. Warka)	VAT 21411	W 06883,ab						Uruk IV
+P000918	ATU 5, pl. 022, W 6883,?	Uruk (mod. Warka)	VA 13630	W 06883,?						Uruk V
 P000919	ATU 5, pl. 022, W 6884	Uruk (mod. Warka)	VAT 17842	W 06884						Uruk IV
 P000920	ATU 5, pl. 022, W 6940,a	Uruk (mod. Warka)	VAT 15248	W 06940,a						Uruk IV
 P000921	ATU 5, pl. 022, W 6940,b	Uruk (mod. Warka)	VAT 15257	W 06940,b						Uruk IV
 P000922	ATU 5, pl. 023, W 6940,c	Uruk (mod. Warka)	VAT 15294	W 06940,c						Uruk IV
+P000923	VA — ?	Uruk (mod. Warka)	VA — ?	W 06966,a						Uruk III
 P000924	ATU 5, pl. 023, W 6966,b	Uruk (mod. Warka)	VAT 14908	W 06966,b						Uruk IV
 P000925	ATU 5, pl. 023, W 6984,a	Uruk (mod. Warka)	VAT 14845	W 06984,a						Uruk IV
 P000926	ATU 5, pl. 023, W 6984,b	Uruk (mod. Warka)	VAT 14950	W 06984,b						Uruk IV
 P000927	ATU 5, pl. 023, W 7000	Uruk (mod. Warka)	VAT 15206	W 07000						Uruk IV
 P000928	ATU 5, pl. 023, W 7024	Uruk (mod. Warka)	VAT 15014	W 07024						Uruk IV
+P000930	ATU 5, pl. 024, W 7067,a	Uruk (mod. Warka)	VA 13625	W 07067,a						Uruk V
 P000931	ATU 5, pl. 024, W 7067,b	Uruk (mod. Warka)	VA 13625	W 07067,b						Uruk IV
+P000932	ATU 5, pl. 024, W 7067,c	Uruk (mod. Warka)	VA 13625	W 07067,c						Uruk V
 P000933	ATU 5, pl. 024, W 7067,d	Uruk (mod. Warka)	VA 13625	W 07067,d						Uruk IV
 P000934	ATU 5, pl. 024, W 7067,e	Uruk (mod. Warka)	VAT 21357	W 07067,e						Uruk IV
+P000935	ATU 5, pl. 024, W 7067,f	Uruk (mod. Warka)	VA 13625	W 07067,f						Uruk V
 P000936	ATU 5, pl. 024, W 7067,h	Uruk (mod. Warka)	VAT 21360	W 07067,h						Uruk IV
 P000937	ATU 5, pl. 024, W 7067,i	Uruk (mod. Warka)	VAT 21406	W 07067,i						Uruk IV
 P000938	ATU 5, pl. 024, W 7068,a	Uruk (mod. Warka)	VAT 15172	W 07068,a						Uruk IV
 P000939	ATU 5, pl. 024, W 7068,b	Uruk (mod. Warka)	VAT 15089	W 07068,b						Uruk IV
+P000940	ATU 5, pl. 025, W 7092,b	Uruk (mod. Warka)	VA 13631	W 07092,b						Uruk V
+P000941	ATU 5, pl. 025, W 7092,c	Uruk (mod. Warka)	VA 13631	W 07092,c						Uruk V
+P000942	ATU 5, pl. 025, W 7092,d	Uruk (mod. Warka)	VAT 17854	W 07092,d						Uruk V
 P000943	ATU 5, pl. 025, W 7092,e	Uruk (mod. Warka)	VAT 21340	W 07092,e						Uruk IV
+P000944	ATU 5, pl. 025, W 7092,f	Uruk (mod. Warka)	VAT 15358	W 07092,f						Uruk V
 P000945	ATU 5, pl. 025, W 7092,g	Uruk (mod. Warka)	VAT 21341	W 07092,g						Uruk IV
+P000946	VA — ?	Uruk (mod. Warka)	VA — ?	W 07092,h						Uruk III
 P000947	ATU 5, pl. 025, W 7092,i	Uruk (mod. Warka)	VA 13631	W 07092,i						Uruk IV
+P000948	VA — ?	Uruk (mod. Warka)	VA — ?	W 07092,k						Uruk III
+P000949	ATU 5, pl. 025, W 7092,l1	Uruk (mod. Warka)	VAT 17849	W 07092,l1						Uruk V
 P000950	ATU 5, pl. 026, W 7092,l2	Uruk (mod. Warka)	VAT 21364	W 07092,l2						Uruk IV
+P000951	VA — ?	Uruk (mod. Warka)	VA — ?	W 07092,n						Uruk III
+P000952	ATU 5, pl. 025, W 7092,o	Uruk (mod. Warka)	VAT 17841	W 07092,o						Uruk V
 P000953	ATU 5, pl. 026, W 7092,p	Uruk (mod. Warka)	VAT 21392	W 07092,p						Uruk IV
+P000954	ATU 5, pl. 026, W 7204,a+	Uruk (mod. Warka)	VA 13632	W 07204,a + W 07204,c						Uruk V
 P000955	VA — ?	Uruk (mod. Warka)	VA — ?	W 07204,b						Uruk IV
+P000957	ATU 5, pl. 026, W 7204,d	Uruk (mod. Warka)	VAT 15359	W 07204,d						Uruk V
 P000958	ATU 5, pl. 026, W 7227,a	Uruk (mod. Warka)	VAT 15002	W 07227,a						Uruk IV
 P000959	ATU 5, pl. 026, W 7227,b	Uruk (mod. Warka)	VAT 14851	W 07227,b						Uruk IV
 P000960	ATU 5, pl. 027, W 7227,c	Uruk (mod. Warka)	VAT 15132	W 07227,c						Uruk IV
@@ -170,13 +217,23 @@ P000966	ATU 5, pl. 028, W 7227,i	Uruk (mod. Warka)	VAT 15084	W 07227,i						Uruk
 P000967	ATU 5, pl. 028, W 7227,k	Uruk (mod. Warka)	VAT 15124	W 07227,k						Uruk IV
 P000968	ATU 5, pl. 028, W 7227,l	Uruk (mod. Warka)	VAT 15341	W 07227,l						Uruk IV
 P000969	ATU 5, pl. 028, W 7227,m	Uruk (mod. Warka)	VAT 15041	W 07227,m						Uruk IV
+P000970	ATU 5, pl. 028, W 7272,a	Uruk (mod. Warka)	VAT 17812	W 07272,a						Uruk V
+P000971	ATU 5, pl. 028, W 7272,b	Uruk (mod. Warka)	VAT 17825	W 07272,b						Uruk V
+P000972	ATU 5, pl. 029, W 7272,c	Uruk (mod. Warka)	VAT 17826	W 07272,c						Uruk V
+P000973	ATU 5, pl. 029, W 7272,d	Uruk (mod. Warka)	VAT 17810	W 07272,d						Uruk V
+P000974	ATU 5, pl. 029, W 7272,e	Uruk (mod. Warka)	VAT 17836	W 07272,e						Uruk V
+P000975	ATU 5, pl. 029, W 7272,f	Uruk (mod. Warka)	VAT 17853	W 07272,f						Uruk V
+P000976	ATU 5, pl. 029, W 7272,g	Uruk (mod. Warka)	VAT 17848	W 07272,g						Uruk V
 P000977	ATU 5, pl. 029, W 7272,h	Uruk (mod. Warka)	VAT 21284	W 07272,h						Uruk IV
 P000978	ATU 5, pl. 030, W 7272,i	Uruk (mod. Warka)	VAT 21285	W 07272,i						Uruk IV
+P000979	VA — ?	Uruk (mod. Warka)	VA — ?	W 07272,k						Uruk III
+P000980	VA — ?	Uruk (mod. Warka)	VA — ?	W 07272,l						Uruk III
 P000981	ATU 5, pl. 030, W 7298	Uruk (mod. Warka)	VAT 21286	W 07298						Uruk IV
 P000982	ATU 5, pl. 030, W 7329,a	Uruk (mod. Warka)	VAT 15065	W 07329,a						Uruk IV
 P000983	ATU 5, pl. 030, W 7329,b+	Uruk (mod. Warka)	VAT 15087 + VAT 15319	W 07329,b + W 07329,c						Uruk IV
 P000988	ATU 5, pl. 031, W 7406	Uruk (mod. Warka)	VAT 15240	W 07406						Uruk IV
 P000990	ATU 5, pl. 031, W 7880	Uruk (mod. Warka)	VAT 14905	W 07880						Uruk IV
+P000991	ATU 5, pl. 031, W 7881	Uruk (mod. Warka)	VAT 21343	W 07881						Uruk III
 P000993	ATU 5, pl. 031, W 7883	Uruk (mod. Warka)	VA 13623	W 07883						Uruk IV
 P000994	VA 13623	Uruk (mod. Warka)	VA 13623	W 07884						Uruk IV
 P000995	ATU 5, pl. 032, W 8063	Uruk (mod. Warka)	VAT 15217	W 08063						Uruk IV
@@ -821,6 +878,8 @@ P001835	ATU 6, pl. 018, W 12121	Uruk (mod. Warka)	VAT 16751	W 12121						Uruk IV
 P001836	ATU 6, pl. 018, W 12122	Uruk (mod. Warka)	VAT 16746	W 12122						Uruk IV
 P001837	ATU 6, pl. 018, W 12123	Uruk (mod. Warka)	VAT 16939	W 12123						Uruk IV
 P001838	ATU 6, pl. 018, W 12124,a+	Uruk (mod. Warka)	VAT 16928 + VAT 16964	W 12124,a + W 12124,b						Uruk IV
+P001840	ATU 6, pl. 019, W 12124,c	Uruk (mod. Warka)	VAT 21451	W 12124,c						Uruk III
+P001841	ATU 6, pl. 019, W 12124,d	Uruk (mod. Warka)	VAT 21452	W 12124,d						Uruk III
 P001846	ATU 6, pl. 019, W 12137,e	Uruk (mod. Warka)	VAT 17883, d	W 12137,e						Uruk IV
 P001851	ATU 6, pl. 019, W 12138	Uruk (mod. Warka)	VAT 16897	W 12138						Uruk IV
 P001863	ATU 6, pl. 020, W 12256,n	Uruk (mod. Warka)	VAT 17874	W 12256,n						Uruk IV
@@ -840,6 +899,7 @@ P001900	ATU 6, pl. 025, W 13662,q+	Uruk (mod. Warka)	VAT 16843	W 13662,q1 + W 13
 P001911	ATU 6, pl. 026, W 13662,w2	Uruk (mod. Warka)	VAT 17765, a	W 13662,w2						Uruk IV
 P001912	ATU 6, pl. 026, W 13662,x1	Uruk (mod. Warka)	VAT 17762, b	W 13662,x1						Uruk IV
 P001917	ATU 6, pl. 026, W 13701	Uruk (mod. Warka)	VAT 17762, c	W 13701						Uruk IV
+P001918	ATU 3, pl. 082, W 13917	Uruk (mod. Warka)	VAT 17631	W 13917						Uruk III
 P001919	ATU 6, pl. 027, W 13946,a	Uruk (mod. Warka)	VAT 16735	W 13946,a						Uruk IV
 P001920	ATU 6, pl. 027, W 13946,b	Uruk (mod. Warka)	VAT 16762	W 13946,b						Uruk IV
 P001921	ATU 6, pl. 027, W 13946,c	Uruk (mod. Warka)	VAT 17855	W 13946,c						Uruk IV
@@ -977,6 +1037,10 @@ P002555	VA — ?	Uruk (mod. Warka)	VA — ?	W 15920,a6						Uruk IV
 P002556	ATU 6, pl. 084, W 15920,a7	Uruk (mod. Warka)	VAT 16793	W 15920,a7						Uruk IV
 P002557	ATU 6, pl. 084, W 15920,a8	Uruk (mod. Warka)	VAT 16862	W 15920,a8						Uruk IV
 P002558	ATU 6, pl. 084, W 15920,a9	Uruk (mod. Warka)	VAT 16871	W 15920,a9						Uruk IV
+P002559	IM 023454,1	Uruk (mod. Warka)	IM 023454,1	W 15920,b2						Uruk III
+P002560	IM 023454,2	Uruk (mod. Warka)	IM 023454,2	W 15920,b3						Uruk III
+P002561	IM 023454,3	Uruk (mod. Warka)	IM 023454,3	W 15920,b4						Uruk III
+P002562	ATU 3, pl. 082, W 15920,b5	Uruk (mod. Warka)	IM 023454,4	W 15920,b5						Uruk III
 P002569	ATU 6, pl. 084, W 15968	Uruk (mod. Warka)	VAT 21506	W 15968						Uruk IV
 P002577	ATU 5, pl. 121, W 16050	Uruk (mod. Warka)	VA 14887	W 16050						Uruk IV
 P002578	VA — ?	Uruk (mod. Warka)	VA — ?	W 16114						Uruk IV
@@ -1011,6 +1075,7 @@ P002896	ATU 6, pl. 008, W 17973,g	Uruk (mod. Warka)	VAT 17824	W 17973,g						Uru
 P002898	ATU 6, pl. 008, W 17981,a	Uruk (mod. Warka)	VAT 17863	W 17981,a						Uruk IV
 P002899	IM 045908	Uruk (mod. Warka)	IM 045908	W 17981,b						Uruk IV
 P002900	IM 046158	Uruk (mod. Warka)	IM 046158	W 17981,c						Uruk IV
+P002915	ATU 7, pl. 002, W 19163	Uruk (mod. Warka)	HD: W 19163	W 19163						Uruk III
 P002919	ATU 7, pl. 002, W 19295	Uruk (mod. Warka)	HD: W 19295	W 19295						Uruk IV
 P002922	ATU 7, pl. 002, W 19361,1	Uruk (mod. Warka)	HD: W 19361,1	W 19361,01						Uruk IV
 P002923	IM 133606	Uruk (mod. Warka)	IM 133606	W 19361,02						Uruk IV
@@ -1277,6 +1342,7 @@ P003281	ATU 7, pl. 023, W 19592,s	Uruk (mod. Warka)	HD: W 19592,s	W 19592,s					
 P003282	IM 133517	Uruk (mod. Warka)	IM 133517	W 19592,u						Uruk IV
 P003283	W 19592,w	Uruk (mod. Warka)	IM —	W 19592,w						Uruk IV
 P003284	W 19597	Uruk (mod. Warka)	IM —	W 19597						Uruk IV
+P003286	ATU 7, pl. 023, W 19635,a	Uruk (mod. Warka)	HD: W 19635,a	W 19635,a						Uruk III
 P003287	ATU 7, pl. 023, W 19635,b	Uruk (mod. Warka)	HD: W 19635,b	W 19635,b						Uruk IV
 P003289	ATU 7, pl. 023, W 19637	Uruk (mod. Warka)	HD: W 19637	W 19637						Uruk IV
 P003290	ATU 7, pl. 023, W 19638	Uruk (mod. Warka)	HD: W 19638	W 19638						Uruk IV
@@ -1384,6 +1450,7 @@ P003471	ATU 7, pl. 037, W 20214,4+	Uruk (mod. Warka)	HD: W 20214,4+	W 20214,4 + 
 P003472	ATU 7, pl. 038, W 20214,5	Uruk (mod. Warka)	HD: W 20214,5	W 20214,5						Uruk IV
 P003475	ATU 7, pl. 038, W 20214,8	Uruk (mod. Warka)	HD: W 20214,8	W 20214,8						Uruk IV
 P003481	ATU 7, pl. 038, W 20236,2	Uruk (mod. Warka)	HD: W 20236,2	W 20236,2						Uruk IV
+P003482	ATU 7, pl. 038, W 20237	Uruk (mod. Warka)	HD: W 20237	W 20237						Uruk III
 P003484	ATU 7, pl. 039, W 20239	Uruk (mod. Warka)	HD: W 20239	W 20239						Uruk IV
 P003486	W 20241	Uruk (mod. Warka)	IM —	W 20241						Uruk IV
 P003487	ATU 3, pl. 083, W 20242	Uruk (mod. Warka)	IM —	W 20242						Uruk IV
@@ -1407,6 +1474,7 @@ P003800	IM 134419	Uruk (mod. Warka)	IM 134419	W 20496,3						Uruk IV
 P003801	ATU 7, pl. 066, W 20498	Uruk (mod. Warka)	HD: W 20498	W 20498						Uruk IV
 P003802	ATU 7, pl. 066, W 20499,1	Uruk (mod. Warka)	HD: W 20499,1	W 20499,1						Uruk IV
 P003804	ATU 7, pl. 066, W 20500+	Uruk (mod. Warka)	HD: W 20500+	W 20500 + W 20500,b						Uruk IV
+P003805	ATU 7, pl. 067, W 20500,a	Uruk (mod. Warka)	HD: W 20500,a	W 20500,a						Uruk III
 P003847	ATU 7, pl. 072, W 20516	Uruk (mod. Warka)	HD: W 20516	W 20516						Uruk IV
 P003851	IM 134425	Uruk (mod. Warka)	IM 134425	W 20519						Uruk IV
 P003852	IM 134426	Uruk (mod. Warka)	IM 134426	W 20520						Uruk IV
@@ -1784,7 +1852,10 @@ P005026	IM 046238	Uruk (mod. Warka)	IM 046238	W — ?						Uruk IV
 P005027	IM 046618,a	Uruk (mod. Warka)	IM 046618,a	W — ?						Uruk IV
 P005028	IM 046618,b	Uruk (mod. Warka)	IM 046618,b	W — ?						Uruk IV
 P005029	IM 046619	Uruk (mod. Warka)	IM 046619	W — ?						Uruk IV
+P005308	MSVO 1, 241	Kish (mod. Tell Uhaimir)	Ashm 1929-0836	Ashm 1929,836						Uruk III
 P005477	MSVO 4, 75	Uruk (mod. Warka)	BM —							Uruk IV
+P005478	MSVO 4, 76	Uruk (mod. Warka)	Erm 14000							Uruk III
+P005480	MSVO 4, 78	uncertain (mod. uncertain)	Goucher 869							Uruk III
 P006288	MS 4485	uncertain (mod. uncertain)	MS 4485							Uruk IV
 P006316	MS 4530	uncertain (mod. uncertain)	MS 4530							Uruk IV
 P227620	W 10220	Uruk (mod. Warka)	VAT —	W 10220						Uruk IV
@@ -1797,6 +1868,7 @@ P325163	CUSAS 01, 002	uncertain (mod. uncertain)	CUNES 50-08-082							Uruk IV
 P325222	CUSAS 01, 005	uncertain (mod. uncertain)	CUNES 50-11-006							Uruk IV
 P325365	CUSAS 01, 006	uncertain (mod. uncertain)	CUNES 51-02-004							Uruk IV
 P328791	CUSAS 01, 004	uncertain (mod. uncertain)	CUNES 53-01-025							Uruk IV
+P411619	CUSAS 21, 038	uncertain (mod. uncertain)	CUNES 52-06-031							Uruk III
 P411867	CUSAS 21, 041	uncertain (mod. uncertain)	CUNES 53-00-001							Uruk IV
 P411868	CUSAS 21, 042	uncertain (mod. uncertain)	CUNES 53-00-002							Uruk IV
 P411869	CUSAS 21, 062	uncertain (mod. uncertain)	CUNES 53-00-003							Uruk IV

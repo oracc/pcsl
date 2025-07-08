@@ -71,6 +71,7 @@
   <!--<tex:text>\endinput</tex:text> -->
 
   <tex:text>\printbibliography</tex:text>
+  <tex:text>\addcontentsline{toc}{section}{References}</tex:text>
   
   <!--<xh:h1>Supporting Documents</xh:h1>-->
 

@@ -12,10 +12,13 @@
       of instances of signs, with numerical signs and ideograms being
       given in separate rows.</p>
       <esp:ssh>PCSL Corpus Grapheme Distribution</esp:ssh>
-      <table xmlns="http://www.w3.org/1999/xhtml" class="borders" xml:base=".">
+      <table xmlns="http://www.w3.org/1999/xhtml" class="borders gdist" xml:base=".">
         <thead>
           <tr>
             <th/>
+            <th>V/pub</th>
+            <th>V/unp</th>
+            <th>V/all</th>
             <th>IV/pub</th>
             <th>IV/unp</th>
             <th>IV/all</th>
@@ -27,24 +30,33 @@
         <tbody>
           <tr>
             <th>Uruk/num</th>
-            <td>160/5281</td>
-            <td>91/1533</td>
-            <td>177/6814 </td>
-            <td>188/12109</td>
+            <td>23/152</td>
+            <td>0/0</td>
+            <td>23/152 </td>
+            <td>163/5390</td>
+            <td>91/1536</td>
+            <td>180/6926 </td>
+            <td>214/15031</td>
             <td>106/2481</td>
-            <td>197/14590</td>
+            <td>223/17512</td>
           </tr>
           <tr>
             <th>Uruk/idg</th>
-            <td>872/6706</td>
-            <td>421/1640</td>
-            <td>978/8346 </td>
-            <td>1093/21413</td>
+            <td>19/24</td>
+            <td>0/0</td>
+            <td>19/24 </td>
+            <td>874/6761</td>
+            <td>422/1646</td>
+            <td>981/8407 </td>
+            <td>1347/25296</td>
             <td>622/6210</td>
-            <td>1184/27623</td>
+            <td>1422/31506</td>
           </tr>
           <tr>
             <th>JN/num</th>
+            <td>3/3</td>
+            <td>0/0</td>
+            <td>3/3 </td>
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
@@ -57,12 +69,18 @@
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
             <td>451/4243</td>
             <td>0/0</td>
             <td>451/4243</td>
           </tr>
           <tr>
             <th>Umma/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
@@ -75,12 +93,18 @@
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
             <td>387/2305</td>
             <td>575/7343</td>
             <td>683/9648</td>
           </tr>
           <tr>
             <th>Uqair/num</th>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
@@ -93,45 +117,60 @@
             <td>0/0</td>
             <td>0/0</td>
             <td>0/0 </td>
+            <td>0/0</td>
+            <td>0/0</td>
+            <td>0/0 </td>
             <td>241/922</td>
             <td>0/0</td>
             <td>241/922</td>
           </tr>
           <tr>
             <th>Misc/num</th>
-            <td>31/70</td>
+            <td>23/45</td>
+            <td>18/30</td>
+            <td>27/75 </td>
+            <td>50/155</td>
             <td>2/7</td>
-            <td>31/77 </td>
+            <td>50/162 </td>
             <td>169/5229</td>
             <td>56/749</td>
             <td>169/5978</td>
           </tr>
           <tr>
             <th>Misc/idg</th>
-            <td>46/72</td>
+            <td>1/1</td>
+            <td>1/2</td>
+            <td>2/3 </td>
+            <td>54/88</td>
             <td>21/26</td>
-            <td>61/98 </td>
+            <td>68/114 </td>
             <td>689/8074</td>
             <td>330/1470</td>
             <td>776/9544</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>162/5351</td>
-            <td>91/1540</td>
-            <td>178/6891 </td>
-            <td>241/21907 </td>
+            <td>33/200</td>
+            <td>18/30</td>
+            <td>34/230 </td>
+            <td>169/5545</td>
+            <td>91/1543</td>
+            <td>184/7088 </td>
+            <td>262/24829 </td>
             <td>163/7085</td>
-            <td>254/28992</td>
+            <td>275/31914</td>
           </tr>
           <tr>
             <th>total</th>
-            <td>879/6778</td>
-            <td>425/1666</td>
-            <td>988/8444 </td>
-            <td>1373/36957 </td>
+            <td>19/25</td>
+            <td>1/2</td>
+            <td>20/27 </td>
+            <td>883/6849</td>
+            <td>426/1672</td>
+            <td>991/8521 </td>
+            <td>1589/40840 </td>
             <td>915/15023</td>
-            <td>1580/51980</td>
+            <td>1775/55863</td>
           </tr>
         </tbody>
       </table>

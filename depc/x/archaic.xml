@@ -36,8 +36,7 @@ communities.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[scale=.5]{images/benati-map.png}%
-    \caption{Map of southern
+    \includegraphics[scale=.3]{images/benati-map.png}\caption{Map of southern
   Iraq showing canal networks and key settlements of the late fourth
   and early third millennia BCE (after Benati,
   https://cdli.earth/articles/cdlj/2015-2)}
@@ -76,7 +75,7 @@ is silent until Fara (Šuruppak).</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[scale=.5]{images/obo-chrono.png}
+    \includegraphics[scale=.3]{images/obo-chrono.png}
     \caption{Chronological overview of early Mesopotamia from Englund p.23.}
     \end{figure}
   </tex:latex>
@@ -101,7 +100,7 @@ relatively complex organization of cases as indicated in figures 3 and 4.</p>
     <tex:latex>
       \begin{figure}[h]
       \centering
-      \includegraphics[scale=.6]{images/obo-diplo.png}
+      \includegraphics[scale=.3]{images/obo-diplo.png}
       \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
       \end{figure}
   </tex:latex>
@@ -118,7 +117,7 @@ which the signs have to fit.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
-    \includegraphics[scale=.4]{images/P005252.png}
+    \includegraphics[scale=.3]{images/P005252.png}
     \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}
   </tex:latex>
@@ -140,7 +139,7 @@ the scope of Unicode.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
-    \includegraphics[scale=.4]{images/obo-lucompo.png}
+    \includegraphics[scale=.3]{images/obo-lucompo.png}
     \centering
     \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
     \end{figure}
@@ -160,7 +159,7 @@ tablets are below.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[scale=.4]{images/lex.png}
+    \includegraphics[scale=.3]{images/lex.png}
     \caption{Sample lexical tablets: P000006, P000011, P000025}
     \end{figure}
   </tex:latex>
@@ -208,7 +207,7 @@ understood.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[scale=.3125]{images/obo-ovo.png}
+    \includegraphics[scale=.3]{images/obo-ovo.png}
     \caption{Signs for ovi-caprids, after Englund.}
     \end{figure}
   </tex:latex>
@@ -219,7 +218,7 @@ understood.</p>
     <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[scale=.35]{images/obo-dairy.png}
+    \includegraphics[scale=.3]{images/obo-dairy.png}
     \caption{Signs for dairy products, after Englund.}
     \end{figure}
   </tex:latex>

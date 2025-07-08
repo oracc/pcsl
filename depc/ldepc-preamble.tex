@@ -41,11 +41,80 @@ BoldItalicFont = UngBkBasBI.ttf ]
 }
 \DeclareBibliographyAlias{artwork}{report}
 
+\newcommand\UTCdoc[1]{\href{https://www.unicode.org/cgi-bin/GetMatchingDocs.pl?#1}{#1}}
+\newcommand\WGtwodoc[1]{\href{http://www.unicode.org/cgi-bin/GetMatchingWG2Docs.pl?#1}{#1}}
+
+\DeclareFieldFormat{doi}{%
+  \newline
+  \mkbibacro{DOI}\addcolon\space
+    \ifhyperref
+      {\href{https://doi.org/#1}{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:cnki}{%
+  \newline
+  \mkbibacro{CNKI}\addcolon\space
+    \ifhyperref
+      {\href{http://www.cnki.com.cn/Article/CJFDTOTAL-#1.htm}{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:utc}{%
+  \newline
+  \mkbibacro{UTC}\addcolon\space
+    \ifhyperref
+      {\UTCdoc{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:wg2}{%
+  \newline
+  \mkbibacro{ISO/IEC JTC~1/SC~2/WG~2}\addcolon\space
+    \ifhyperref
+      {\WGtwodoc{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:cdli}{%
+  \newline
+  \mkbibacro{CDLI}\addcolon\space
+    \ifhyperref
+      {\href{https://cdli.earth/#1}{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:ebda}{%
+  \newline
+  Eb\textsc{da}\addcolon\space
+    \ifhyperref
+      {\href{http://ebda.cnr.it/tablet/view/#1}{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:oracc}{%
+  \newline
+  \mkbibacro{ORACC}\addcolon\space
+    \ifhyperref
+      {\href{http://oracc.org/#1}{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint:etcsl}{%
+  \newline
+  \mkbibacro{ETCSL}
+    \ifhyperref
+      {transliteration: \href{https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=c.#1\&display=Crit\&charenc=gtilde}{c.#1};
+       translation: \href{https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=t.#1\&display=Crit\&charenc=gtilde}{t.#1}}
+      {transliteration: {c.#1}
+       translation: {t.#1}}}
+\DeclareFieldFormat{eprint:louvre}{%
+  \newline
+  Louvre Collections\addcolon\space
+    \ifhyperref
+      {\href{https://collections.louvre.fr/#1}{#1}}
+      {#1}}
+\DeclareFieldFormat{eprint}{%
+  \newline
+    \ifhyperref
+      {\href{#1}{\nolinkurl{#1}}}
+      {\nolinkurl{#1}}}
+\DeclareFieldFormat{isbn}{%
+  \newline
+  \mkbibacro{ISBN}\addcolon\space#1}
+
 \usepackage{graphicx}
 \usepackage{luaotfload}
 \usepackage{multicol}
 
 \usepackage[bookmarksopen=true,bookmarks=true]{hyperref}
-\usepackage{bookmark}
+
+%\usepackage{bookmark}
 
 \input{ldepcmac}

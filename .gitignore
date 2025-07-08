@@ -34,3 +34,17 @@ log
 00etc/pc25/w/*
 PC25+.ttf
 signlist/
+*.app
+*.aux
+*.bbl*
+*.bcf
+*.blg
+*.fdb*
+*.fls
+*.ltx
+*.run.xml
+*.toc
+m/
+*.fdb
+old/
+depc.pdf
