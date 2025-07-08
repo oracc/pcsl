@@ -1,0 +1,126 @@
+﻿Rationale for Separately Encoding Proto-Cuneiform
+
+At the meeting of the Initiative for Cuneiform Encoding in 2000, it
+was determined that “the encoding of proto-cuneiform is initially, but
+not neces⟨s⟩arily ultimately, beyond the purview of the project
+cuneiform encoding” \cite{L2/00-398}. When the principles for encoding
+the cuneiform script were set out in \cite{L2/03-162}, the question of
+unification with the script of the archaic period was left open.
+
+The initial scope of the encoding covered the cuneiform script as used
+from the Ur III period through the first millennium, although a few
+distinctions only apparent in the Early Dynastic period, such as 𒅎 IM
+vs. 𒉎 NI₂, and a few characters used only in the Early Dynastic
+period, such as 𒍡 ZAMₓ(ELLes 396), were also captured in the initial
+encoding in Unicode Version 5.0. The scope of the cuneiform script was
+expanded two and a half centuries back in time in Unicode Version 8.0
+with the addition of the Early Dynastic Cuneiform block, based on the
+Early Dynastic IIIa repertoire in \cite{LAK}; see the
+proposal \cite{L2/12-208}.
+
+At first glance, it may therefore seem possible to expand the scope of
+the cuneiform script further to the fourth millennium. The expansion
+of the glyphic range would be minor compared to its current extent;
+consider the variety of glyphs for U+1214B 𒅋 CUNEIFORM SIGN IL, from
+Early Dynastic IIIb {\oraccrsp 𒅋} to Old Babylonian {\someobfont 𒅋}
+and Neo-Assyrian {\somenafont 𒅋}. Indeed the glyphs of some
+proto-cuneiform signs would lie within the glyphic range of some
+archaizing Early Dynastic inscriptions: compare the sign 𒅋 on the
+shoulder of the ED IIIb statue of 𒂗𒋾𒅋 \cite{P225850} with the
+reference glyph proposed for U+1285F 𒡟 PROTO-CUNEIFORM SIGN IL.
+
+% NOTE(egg): One would expect Oracc LAK to make for another good
+% example here, but it does not have the ED IIIa LAK500, and instead
+% uses an OAkk glyph (LAK501=REC314) for 𒅋.
+
+This impression of unifiability is reinforced by the treatment of the
+Uruk and Jemdet Nasr forms as another column in the
+diachronic \cite{MÉA}, and the concordances with \cite{LAK} and
+multiple Sumerian readings for each sign given
+in \cite[167--346]{ATU2}, as in any other cuneiform sign list.
+
+However, a discontinuity in the approach to sign identity in
+proto-cuneiform appears in \cite[347\psqq]{ATU2}. Wary of letting a
+Sumerian reading based on third millennium texts hide distinctions
+specific to the fourth millennium corpus, Englund makes major changes
+to the identification of signs, which have been followed in
+proto-cuneiform studies since:
+
+1. Switching to a system of opaque sign names without interpretation,
+for instance, always GAR for the proposed U+127EF 𒟯 PROTO-CUNEIFORM
+SIGN GAR regardless of context rather than a context-dependent reading
+gar (heap), niŋ₂ (thing), or ninda (bread) and interchangeable GAR,
+NIŊ₂, or NINDA when referring to the abstract sign for U+120FB 𒃻
+CUNEIFORM SIGN GAR.
+
+2. Avoiding sign names based on Sumerian readings of sign sequences,
+so that 𒤡𒨟 is generally transliterated as a sequence, MUŠEN ŠEa,
+rather than UZa.
+
+3. Classifying allographs, for instance, KAŠa through KAŠd for
+variants of signs representing pots, whose cuneiform reflex is likely
+U+12049 𒁉 CUNEIFORM SIGN BI (=KAŠ).
+
+The classification of allographs can reveal semantic contrasts; for
+instance, the signs 𒢄 KAŠa and 𒢅 KAŠb appear to correspond to pots
+containing different substances, see \cite[168]{OBO160/1}, even though
+the linguistic distinction is unknown. In other cases, no semantic
+contrast can be identified, as between 𒢅 KAŠb and 𒢇 KAŠc. Effectively,
+from a character encoding standpoint, this approach to character
+identity is more akin to the one used for undeciphered scripts, and is
+contradictory to the model for a fully-deciphered script, where
+orthographic distinctions are encodable, but stylistic ones are not,
+even when they are somewhat systematic.
+
+The avoidance of readings is also incompatible with a unified model,
+because it conflicts with the diachronic handling of mergers and
+splits. For signs that split in later phases of cuneiform, but have
+identical appearances in the early third millennium, such as 𒈩 MES and
+𒁾 DUB, an interoperable encoding is obtained based on the reading: a
+sign read mes is encoded as U+12229, and a sign read dub is encoded as
+U+1207E. However, if the proto-cuneiform approach is followed and the
+sign is invariably transliterated as DUB, the resulting encoding may
+be incompatible with the one based on a Sumerian reading; see the
+example of the personal name 𒈩𒇽𒉡𒂠 mes-lu₂-nu-še₃ in Section \ref{ED
+I-II Excluded from the Proposal}.
+
+The same holds for the avoidance of readings of sign sequences; an
+interoperable encoding of cuneiform 𒉭𒊻𒄷 is achieved by reading it as
+nunuz uzmušen “duck eggs”, and accordingly using the UZ sign, U+122BB
+𒊻, whereas 𝑛𒋡𒊺𒄷𒊺 is read as 𝑛 sila₃ še mušen niga “𝑛 sila of barley
+for fattening the birds”, and thus encoded using the sequence ⟨U+122BA
+𒊺, U+12137 𒄷⟩. In general, this means that in the cuneiform script,
+interoperability is retained regardless of whether a particular diri
+is encoded as a sequence, like 𒋛𒀀 or 𒄷𒋛, or atomically, like 𒊻 or
+𒎏. In contrast, most transliterations of proto-cuneiform texts
+involving ducks transliterate them as a sequence, MUŠEN ŠEa. Even
+ignoring this inconsistency of encoding between fourth and third
+millennium texts in a putative unified encoding, a further problem
+would arise from the occasional transliteration that lets itself be
+influence by a Sumerian reading: a few transliterations, primarily
+those of composite lexical texts, use compound readings such as
+UZa. If these were encoded as cuneiform, the composites would then use
+the atomic signs, and would have an encoding inconsistent with their
+witnesses.
+
+Finally, the opaque labels used as sign names, while initially based
+on an educated guess at the cuneiform reflex, need to be stable, and
+are therefore retained even when they prove to be incorrect as
+mappings to cuneiform signs; for instance, the proto-cuneiform sign 𒨾
+ŠITAb3 turns out not to be related to 𒋖 ŠITA, but instead to 𒔌
+SILAₓ(LAK636) \cite[220]{Wagensonner2016}; proto-cuneiform 𒡰 KAB is
+not the ancestor of cuneiform 𒆏 KAB, but instead that of 𒄸 ḪUB₂ and
+𒌇TUKU \cite[274]{Wagensonner2016}, a misnomer perhaps attributable to
+the second millennium 𒆏–𒄸 merger. The actual relation between
+proto-cuneiform and cuneiform signs is often more complex than a
+one-to-one mapping; see for instance \cite[217]{Wagensonner2016} on
+the development of proto-cuneiform 𒡠 IMa and 𒡡 NI₂ into cuneiform 𒋼
+TE, 𒅎 IM, and 𒉎 NI₂, or \cite[220]{Wagensonner2016} on the three
+proto-cuneiform ancestors of 𒔌 LAK636. In many cases, it is still
+poorly understood and may remain so.
+
+These structural incompatibilities in the analysis of character
+identity, which stem from a now well-established approach to the
+fourth millennium texts ultimately motivated by the avoidance of
+assumptions about their language, therefore require a disunified
+approach.
