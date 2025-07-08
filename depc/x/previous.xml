@@ -1,4 +1,5 @@
 <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns:eb="http://oracc.org/ns/esp-biblatex/1.0"
 	  xmlns="http://www.w3.org/1999/xhtml">
 
   <h1>Previous Proposals</h1>
@@ -6,24 +7,24 @@
   <p>This proposal supersedes the following documents:</p>
   
   <ul>
-    <li>L2/16‑267: “Preliminary proposal to encode Proto‑Cuneiform in the SMP” (Everson &amp; Hawkins)</li>
-    <li>L2/17‑157: “Proposal to encode Proto‑Cuneiform in the SMP of the UCS” (Everson &amp; Hawkins)</li>
-    <li>L2/19‑284: “Proposal to Encode Proto‑Cuneiform in the SMP of the UCS” (Hawkins)</li>
-    <li>L2/20‑193: “Preliminary proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
-    <li>L2/22‑239: “Revised proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
-    <li>L2/23‑190: “Revised proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
+    <li><eb:cite key="L2/16-267"/> = L2/16‑267: “Preliminary proposal to encode Proto‑Cuneiform in the SMP” (Everson &amp; Hawkins)</li>
+    <li><eb:cite key="L2/17-157"/> = L2/17‑157: “Proposal to encode Proto‑Cuneiform in the SMP of the UCS” (Everson &amp; Hawkins)</li>
+    <li><eb:cite key="L2/19-284"/> = L2/19‑284: “Proposal to Encode Proto‑Cuneiform in the SMP of the UCS” (Hawkins)</li>
+    <li><eb:cite key="L2/20-193"/> = L2/20‑193: “Preliminary proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
+    <li><eb:cite key="L2/22-239"/> = L2/22‑239: “Revised proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
+    <li><eb:cite key="L2/23-190"/> = L2/23‑190: “Revised proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
   </ul>
   
   <p>This revision supercedes recommendations made by Stephen Tinney in the following document related to
   the composition of the scholarly and Unicode repertoires:</p>
 
   <ul>
-    <li>L2/24‑211: “Comments on L2/23‑190 Revised proposal to encode Proto‑Cuneiform in Unicode”</li>
+    <li><eb:cite key="L2/24-211"/> = L2/24‑211: “Comments on L2/23‑190 Revised proposal to encode Proto‑Cuneiform in Unicode”</li>
   </ul>
 
   <p>Most numerical signs have been moved to:</p>
   <ul>
-    <li>L2/24‑210: “Archaic Cuneiform Numerals” (Leroy)</li>
+    <li><eb:cite key="L2/24-210"/> = L2/24‑210: “Archaic Cuneiform Numerals” (Leroy)</li>
   </ul>
   
 <p>Major changes and enhancements from the previous proposal (L2/23‑190) include:</p>

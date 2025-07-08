@@ -7,45 +7,43 @@
     <body>
       <esp:ssh>Historic Lists</esp:ssh>
       <p>The earliest list of Proto-Cuneiform signs is Stephen
-      Langdon's <eb:cite key="PI"/>, a list of the Jemdet Nasr tablets
-      published in 1928. Less than ten years later, in 1936, Adam
-      Falkenstein published the first list of signs from the archaic
-      Uruk texts in <eb:cite key="ATU1"/>.  Falkenstein referenced
-      Langdon's list using the abbreviation <code>PI</code>.</p>
+      Langdon's PI <eb:cite key="PI"/>, a list accompanying the Jemdet
+      Nasr tablets published in 1928. Less than ten years later, in
+      1936, Adam Falkenstein published the first list of signs from
+      the archaic Uruk texts in ATU <eb:cite key="ATU1"/>.  Falkenstein
+      referenced Langdon's list using the abbreviation
+      <code>PI</code>.</p>
       <esp:ssh>The Intended Standard List</esp:ssh>
-      <p>The Berlin Uruk projected intended <eb:cite key="ATU2"/>,
-      more commonly known as <code>ZATU</code>, to be the new standard
-      list.  Published in XXXX, the work lists many different sign
-      forms for most signs, dividing them into Uruk IV and Uruk III,
-      and alphabetizing the entries by the mnemonic sign names used
-      within the project.</p>
+      <p>The Berlin Uruk projected intended ATU2 <eb:cite key="ATU2"/>, more commonly known as <code>ZATU</code>, to be
+      the new standard list.  Published in 1987, the work lists many
+      different sign forms for most signs, dividing them into Uruk IV
+      and Uruk III, and alphabetizing the entries by the mnemonic sign
+      names used within the project.  Entries in ZATU make some use of
+      a division into alloforms labeled, e.g., a and b as in the case
+      of AB, but use of these divisions is sporadic and the examples
+      are subsumed under their head signs.</p>
       <p>However, by the time the list had been prepared, the project
-      team already doubted that the groupings of variant sign-forms
-      were an adequate reflection of likely semantic distinctions
-      reflected by the sign-forms, as mentioned by Bob Englund in that
-      volume (<eb:cite key="ATU2" pp="327f."/>).</p>
+      team had already begun to doubt that the groupings of variant
+      sign-forms were an adequate reflection of likely semantic
+      distinctions reflected by the sign-forms, as mentioned by Bob
+      Englund in that volume (<eb:cite key="ATU2" pp="327f."/>).</p>
       <esp:ssh>Revisionist Lists</esp:ssh>
-      <p>In a series of publications appearing subsequent to
-      <code>ZATU</code>, Englund provided sign lists specific to the
-      sub-corpora edited in the volumes.</p>
+      <p>Between 1991 and 1996, In a series of publications appearing
+      subsequent to <code>ZATU</code>, Englund provided sign lists
+      specific to the sub-corpora edited in the volumes which
+      essentially replace all previous lists.</p>
       <p>The four lists and their coverage are:</p>
       <dl>
-        <dt>LLATU<eb:nocite key="ATU3"/></dt>
-        <dd>Lexical lists from Uruk, but with some extraneous signs or
+        <dt>LLATU</dt>
+        <dd><eb:cite key="ATU3"/>: Lexical lists from Uruk, but with some extraneous signs or
 	forms from ED duplicates, replacing ZATU's coverage of lexical
 	lists</dd>
-        <dt>
-          <eb:cite key="ATU5"/>
-        </dt>
-        <dd>Administrative texts from Uruk, replacing ATU1 signlist and ZATU</dd>
-        <dt>
-          <eb:cite key="MSVO1"/>
-        </dt>
-        <dd>Administative texts from Jemdet Nasr, replacing PI and ZATU</dd>
-        <dt>
-          <eb:cite key="MSVO4"/>
-        </dt>
-        <dd>Administrative texs from various proveniences, replacing ZATU</dd>
+        <dt>ATU5</dt>
+        <dd><eb:cite key="ATU5"/>: Administrative texts from Uruk, replacing ATU1 signlist and ZATU</dd>
+        <dt>MSVO1</dt>
+        <dd><eb:cite key="MSVO1"/>: Administative texts from Jemdet Nasr, replacing PI and ZATU</dd>
+        <dt>MSVO4</dt>
+        <dd><eb:cite key="MSVO4"/>: Administrative texs from various proveniences, replacing ZATU</dd>
       </dl>
       <p>The sign lists are based on exhaustive scholarly
       reassessments of individual portions of the PC corpus and make
@@ -54,6 +52,8 @@
       <code>AB<sub>b</sub></code>.  At the same time, these lists
       gather non-contrastive sign variants under their respective
       parent signs and this is taken into account in PC25.</p>
+      <p>Englund's subsequent corpus-edition volumes ATU6 <eb:cite key="ATU6"/> and ATU7 <eb:cite key="ATU7"/>, contain grapheme
+      indices without images of the individual signs.</p>
       <esp:ssh>The Digital List</esp:ssh>
       <p>CDLI-gh is not 100% complete with respect to the PC corpus;
       includes some signs from ED duplicates of PC lexical texts; and

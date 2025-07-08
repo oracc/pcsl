@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns:eb="http://oracc.org/ns/esp-biblatex/1.0"
 	  xmlns="http://www.w3.org/1999/xhtml"
 	  xmlns:xh="http://www.w3.org/1999/xhtml"
 	  xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -26,22 +27,22 @@
 
       <esp:ssh>The Print Corpus</esp:ssh>
 
-      <p>The principle modern publications of the Proto-Cuneiform corpus are:</p>
+      <p>The principal modern publications of the Proto-Cuneiform corpus are:</p>
       
       <dl>
-	<dt>ZATU</dt>
-	<dd>M.W. Green, Nissen, H. <i>Zeichenliste der Archaischen Texte aus Uruk</i>, ATU 2, Berlin 1987.</dd>
+	<dt>ATU2=ZATU</dt>
+	<dd><eb:cite key="ATU2"/>: M.W. Green, Nissen, H. <i>Zeichenliste der Archaischen Texte aus Uruk</i>, ATU 2, Berlin 1987.</dd>
 
-	<dt>ATU3</dt>
-	<dd>R.K. Englund und Nissen, H., unter Mitarbeit von Peter Damerow,
+	<dt>ATU3=LLATU</dt>
+	<dd><eb:cite key="ATU3"/>: R.K. Englund und Nissen, H., unter Mitarbeit von Peter Damerow,
 	"Die Lexikalischen Listen der Archaischen Texte aus Uruk" (ATU 3), Berlin 1993.</dd>
 
 	<dt>ATU5</dt>
-	<dd>R.K. Englund, <i>Archaic Administrative Texts from Uruk:
+	<dd><eb:cite key="ATU5"/>: R.K. Englund, <i>Archaic Administrative Texts from Uruk:
 	The Early Campaigns</i>, ATU 5, Berlin 1994.</dd>
 
 	<dt>ATU6</dt>
-	<dd>R.K. Englund and Nissen, H., <i>>Archaische Verwaltungs-
+	<dd><eb:cite key="ATU6"/>: R.K. Englund and Nissen, H., <i>>Archaische Verwaltungs-
 	texte aus Uruk: Vorderasiatische Museum II</i>, ATU 6, Berlin 2005.</dd>
 
 	<dt>ATU7</dt>
@@ -50,25 +51,25 @@
 	2001.</dd>
 
 	<dt>MSVO1</dt>
-	<dd>R.K. Englund and Grégoire, J.-P., <i>The Proto-Cuneiform
+	<dd><eb:cite key="MSVO1"/>: R.K. Englund and Grégoire, J.-P., <i>The Proto-Cuneiform
 	Texts from Jemdet Nasr</i>, MSVO 1, Berlin 1991.</dd>
 
 	<dt>MSVO3</dt>
-	<dd>R.K. Englund, <i>The Proto-Cuneiform Texts from the
+	<dd><eb:cite key="MSVO3"/>: R.K. Englund, <i>The Proto-Cuneiform Texts from the
 	Erlenmeyer Collection</i>, MSVO 3, Berlin forthcoming.</dd>
 	
 	<dt>MSVO4</dt>
-	<dd>R.K. Englund, <i>Proto-Cuneiform Texts from Diverse Collections</i>, MSVO 4, Berlin 1996.</dd>
+	<dd><eb:cite key="MSVO1"/>: R.K. Englund, <i>Proto-Cuneiform Texts from Diverse Collections</i>, MSVO 4, Berlin 1996.</dd>
 
 	<dt>CUSAS01</dt>
-	<dd>S.F. Monaco, The Cornell University Archaic Tablets (CUSAS 1), Bethesda, MD, 2007.</dd>
+	<dd><eb:cite key="CUSAS01"/>: S.F. Monaco, The Cornell University Archaic Tablets (CUSAS 1), Bethesda, MD, 2007.</dd>
 
 	<dt>CUSAS21</dt>
-	<dd>S.F. Monaco, Archaic Bullae and Tablets in the Cornell
+	<dd><eb:cite key="CUSAS21"/>: S.F. Monaco, Archaic Bullae and Tablets in the Cornell
         University Collections (CUSAS 21), Bethesda, MD, 2014.</dd>
 	
 	<dt>CUSAS31</dt>
-	<dd>S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.</dd>
+	<dd><eb:cite key="CUSAS31"/>: S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.</dd>
       </dl>
       
       <esp:ssh>The Digital Corpus</esp:ssh>

@@ -62,7 +62,7 @@
   <xi:include href="../m/cpage5.xml"/>
   <xi:include href="../m/cpage6.xml"/>
 
-  <tex:text><tex:tex>\newpage</tex:tex></tex:text>
+  <tex:text>\newpage</tex:text>
   
   <xh:h2>Character List</xh:h2>
 

@@ -25,7 +25,7 @@ deps:
 
 depc.pdf: depc.ltx ldepcmac.tex Makefile
 #	00bin/ldepclua.sh
-	latexmk
+	latexmk >latexmk.log 2>&1
 	00bin/attach-udata.sh
 
 depc.ltx: m/depc.xml 00bin/html2tex.xsl
@@ -35,4 +35,5 @@ m/depc.xml: ${MDEPS}
 	00bin/marshall.sh
 
 clean:
+	latexmk -f -C
 	rm -f depc.ltx depc.pdf depc.log m/depc.xml
