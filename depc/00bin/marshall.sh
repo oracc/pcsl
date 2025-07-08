@@ -13,8 +13,9 @@ cp ../repc/w/chartlist.html m
 cp ../mepc/texts/tpcsl/notcov.html m
 cp ../mepc/lists/00web/no_*.html m
 cp ../mepc/lists/00etc/seqdb.xml m
+grep -v '^%' x/rationale.tex >m/rationale.tex
 
-# Must come last because it xi:includes the preceding
+# Must come last because it xi:includes most of the preceding
 xl x/depc.xml >m/depc.xml
 
 # Make it harder to edit files in the marshalling area

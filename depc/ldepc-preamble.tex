@@ -20,6 +20,27 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \addbibresource{depc.bib}
 \addbibresource{rl-unicode.bib}
 
+\DeclareSourcemap{
+  \maps{
+    \map{
+      \step[fieldsource=keywords, match=\regexp{reference}, final]
+      \step[fieldsource=entrykey, final]
+      \step[fieldset=shorthand, origfieldval]
+    }
+    \map{
+      \step[fieldsource=keywords, match=\regexp{unicode}, final]
+      \step[fieldsource=eprint, final]
+      \step[fieldset=shorthand, origfieldval]
+    }
+    \map{
+      \pertype{artwork}
+      \step[fieldsource=eprint, final]
+      \step[fieldset=shorthand, origfieldval]
+    }
+  }
+}
+\DeclareBibliographyAlias{artwork}{report}
+
 \usepackage{graphicx}
 \usepackage{luaotfload}
 \usepackage{multicol}

@@ -1,11 +1,13 @@
 <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
 	  xmlns:tex="http://oracc.org/ns/tex/1.0"
+	  xmlns:xi="http://www.w3.org/2001/XInclude"
 	  xmlns="http://www.w3.org/1999/xhtml">
 
   <h1>Rationale for Separately Encoding Proto-Cuneiform</h1>
 
-  <tex:text>\include{rationale}</tex:text>
-
+  <!--<tex:text>\include{m/rationale}</tex:text>-->
+  <xi:include xml:base="." href="../m/rationale.tex" parse="text"/>
+ 
   <esp:sh>ED I-II Excluded from the Proposal</esp:sh>
 
   <p>It is generally recognized that there is a group of about 400

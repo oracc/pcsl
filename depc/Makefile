@@ -36,4 +36,4 @@ m/depc.xml: ${MDEPS}
 
 clean:
 	latexmk -f -C
-	rm -f depc.ltx depc.pdf depc.log m/depc.xml *.bbl
+	rm -f depc.ltx depc.pdf depc.log m/depc.xml *.bbl *.bcf
