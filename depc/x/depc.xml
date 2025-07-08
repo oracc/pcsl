@@ -72,10 +72,14 @@
 
   <tex:text>\printbibliography</tex:text>
   
-  <xh:h1>Supporting Documents</xh:h1>
+  <!--<xh:h1>Supporting Documents</xh:h1>-->
 
+  <tex:text>\section*{Appendices}</tex:text>
+
+  <tex:text>\addcontentsline{toc}{section}{Appendices}</tex:text>
+    
   <xh:p>Here we provide supporting documentation which exposes as much as
-  possible of the decision-making process and outcomes that are
+  possible of the decision-making processes and outcomes that are
   associated with the proposal.</xh:p>
 
   <!--<tex:text>\begin{display}</tex:text>-->
@@ -114,9 +118,9 @@
 
   <!--<tex:text>\end{display}</tex:text>-->
 
-  <tex:text>\vfill\useapp\vfill</tex:text>
+  <!--<tex:text>\vfill\useapp\vfill</tex:text>-->
 
-  <tex:text>\sectionsintocfalse\subsectionsintocfalse</tex:text> 
+  <!--<tex:text>\sectionsintocfalse\subsectionsintocfalse</tex:text> -->
 
   <tex:appendix>PCSL Table</tex:appendix>
   
