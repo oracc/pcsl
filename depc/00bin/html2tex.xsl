@@ -9,6 +9,8 @@
   <xsl:param name="latex" select="'no'"/>
   <xsl:param name="class-arg" select="',sqopq,sqseq,sqinv,sqchr,not,'"/>
   <xsl:param name="h-sections" select="'yes'"/>
+
+  <xsl:include href="aka-cdiff.xsl"/>
   
   <xsl:output method="text" encoding="UTF-8"/>
 

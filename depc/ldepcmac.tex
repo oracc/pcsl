@@ -59,6 +59,7 @@
 \font\sans="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 9pt
 \font\sansb="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 8pt
 \font\sansc="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 7pt
+\font\sansd="[/Users/stinney/orc/lib/fonts/dejavu/DejaVuSans.ttf]" at 6pt
 
 \font\mainfont="Ungkam Book Basic" at10pt
 \baselineskip12pt plus1pt minus.5pt
@@ -201,5 +202,27 @@
 \catcode"2052\active \def⁒{\%{}}
 
 \def\ringop{∘}\catcode"2218\active \def∘{{\Sans\six\rm\ringop}}
+
+\def\beginakacdiff{\begin{multicols}{2}%
+    \columnseprule.4pt
+    \parindent0pt\relax
+    \parskip2pt plus1fil minus2pt\relax
+}
+\def\endakacdiff{\end{multicols}\vfil\supereject}
+
+\newbox\akacdiffbox
+\def\akacdiff#1#2#3{
+  \setbox\akacdiffbox=\hbox{#1}%
+  \ifdim\wd\akacdiffbox>1.545in
+    \let\acfont\sansd
+  \else
+    \let\acfont\sansc
+  \fi
+  \vbox{\acfont\hsize3.4in
+    \leavevmode
+    \hbox to1.55in{#1\hfil}%
+    \hbox to.15in{\hss#2\hss}%
+    \hbox to1.7in{#3\hfil}}\endgraf
+}
 
 \endinput

@@ -4,12 +4,12 @@
 
 MDEPS=../mepc/pages/w/texts.xml ../mepc/pages/w/signs.xml \
 	../mepc/pages/w/lists.xml ../mepc/pages/w/sequences.xml \
-	../mepc/lists/00web/pcsl-tab.html \
+	../mepc/lists/00web/pcsl-tab.html ../mepc/lists/00etc/aka-cdiff.xml \
 	../pepc/principles.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
 	x/abstract.xml x/previous.xml x/archaic.xml x/fonts.xml \
-	x/rationale.xml x/mepc-intro.xml x/depc.xml \
+	x/rationale.xml x/mepc-intro.xml x/depc.xml x/rationale.tex \
 	../mepc/texts/tpcsl/notcov.html \
 	../mepc/lists/00etc/seqdb.xml \
 	${ORACC}/lib/fonts/PCSL.ttf \

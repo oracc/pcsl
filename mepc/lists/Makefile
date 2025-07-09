@@ -212,6 +212,7 @@ xml: ${SLXML} ${DVXML}
 
 00etc/pcsl-final.xml: 00etc/pcsl-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
 	00bin/final-xml.plx pcsl
+	00bin/aka-cdiff.plx >00etc/aka-cdiff.xml
 
 00etc/pc25-final.xml: 00etc/pc25-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
 	00bin/final-xml.plx pc25

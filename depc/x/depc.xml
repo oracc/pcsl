@@ -162,6 +162,10 @@
 
   <xi:include href="../m/zatu.html"/>
   
+  <tex:appendix>Index of Alternate CDLI Sign Names</tex:appendix>
+
+  <xi:include href="../m/aka-cdiff.xml"/>
+  
   <tex:appendix>PCSL Non-PC25</tex:appendix>
 
   <xh:p>This table gives every text in the PC corpus that contains one
