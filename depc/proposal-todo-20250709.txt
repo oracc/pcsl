@@ -1,0 +1,109 @@
+Title/maketitle
+	name order
+	name e-mails?
+	L2/25-XXX placeholder
+
+Abstract
+	Add # of new signs/block codes and percentage coverage
+
+TOC
+	change URL font/colour/boxing
+	suppress sections in Appendices
+
+General
+	consolidate all sequences discussions into one appendix
+	get sections/appendices in headers?
+	revise all citations to use \cite
+	Orientation discussion and Selz
+	Names discussion, mention RL bit in Rationale also; address URI₃/ŠEŠ
+	Update Oracc PUA doco for F2XXX glyph variants
+
+Section 1
+	Overfull box in first bullet
+	Steve Tinney not Stephen
+	Don't say 'scholarly' repertoire
+
+Section 2
+	Add more \cite in all sections
+	Figure captions aren't narrowed
+	Use distinct font/size for Figure captions to set them off from text
+	Figure 4 is no longer centred
+	Figure 7 can be bigger
+	Left-quote marks are backwards in single and double forms
+
+Section 4
+	Initiative website at XXXX is the most
+	'minor adjustments' => 'small adjustments'
+
+Section 4.1
+	7224 texts is weird; where is that coming from???
+
+Section 4.1.4
+	'total' row in PC25 texts table is wrongly using PCSL stats
+
+Section 4.3.1
+	Give title of Langdon's PI plus abbreviation
+
+Section 4.3.5
+	Oracc project *PCSL* [Tin24]
+
+Section 4.3.7
+	constitu*t*e
+
+Section 5.2, 5.6 and appendices M and N need consolidation
+	refer to consolidated discussion in Principle 8 and 9.
+
+Section 5.3 #11
+	say "occur only as components of complex signs"
+
+Section 5.5
+	Double-check reference glyphs to make sure they are
+	Uruk Uruk III where possible
+
+Section 6
+	Mention chart font here as well.
+
+Appendix A
+	New page and fix header
+	Explain AKA: and CDLI: and reference new Appendix B
+	Explain prescript numbers in FONT column if not already done
+	Explain TAG codes -sq and -bk etc.
+	EZINU~b CDLI-gh too big
+	GA₂~a1×X disunify GA₂~a1×X₁
+	GUM~b CDLI-gh too big
+	NESAG~b CDLI-gh too big
+	Where do ŠEN~d glyphs go??? And what of ŠEN~d×A?
+	ŠU₂.AN FONT column is wrong; o0981343; o0981374
+	seq processing diagnostics need dealing with
+	what is ZATU858 CDLI-gh??
+	9(N06) FONT too wide
+	3(N23)/7(N23) CDLI-gh too wide
+	5,6,7(N23) CDLI-gh too wide
+	7,8,9(N34@f) FONT too wide
+	5(N48) CDLI-gh too wide
+	8,10(N57) CDLI-gh too wide
+
+
+Appendix C
+	Explain what this is and notations
+	Fix |×N(57).GAR| (in cepc translator?)
+
+Appendix D
+	Columns are wrong now--at least, unpub column is different
+
+Appendix F
+	What happened to Uruk V new signs?
+	
+Appendix K
+
+	Is this really necessary? Just use (modify?) Appendix M? Could
+	just include list of SLs seq occurs in in App M?
+
+Appendix M
+	Experiment with omitting CHARNAME from second and sqq rows
+	Add OID
+	F228B overfull box in CHARNAME (reduce font size?)
+
+Appendix N
+	resolve overfull boxes and bad glyph; merge with general sequences
+	discussion

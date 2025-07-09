@@ -17,7 +17,7 @@
   but earlier than the ED IIIa corpus from Fara (Šuruppak): these
   are conventionally assigned to the Early Dynastic I-II period.
   There are also about two dozen tablets and fragments from Uruk
-  that are assigned to the same period (Green; LeCompte nXXX).</p>
+  that are assigned to the same period (Green; Lecompte nXXX).</p>
 
   <p>Texts and signs from this period are excluded from the
   proto-cuneiform proposal.</p>
@@ -37,7 +37,7 @@
   formed and inscribed. (Englund OBO 160/1 [1998], p.215).
   </blockquote>
 
-  <p>Appearing about 15 years later, LeCompte and Verderame's
+  <p>Appearing about 15 years later, Lecompte and Verderame's
   edition of ED I-II fragments from Ur observed that there are key
   features of the writing system that depart from the earlier PC
   practices, and by analysis of both personal names and the
@@ -61,12 +61,12 @@
   values: instead of writing such cumbersome transliterations as
   DUB~a-LU₂-NU-ŠE₃ or EN~a-GAN~a-GI4~a, it was accordingly more
   convenient to propose directly Mes-lu₂-nu-še₃ and
-  En-ḫe₂-gi₄. (LeCompte and Verderame 2014, p.4)</blockquote>
+  En-ḫe₂-gi₄. (Lecompte and Verderame 2014, p.4)</blockquote>
 
   <p>Another factor which marks the ED I-II corpus as transitional
   between Uruk III/Jemdet Nasr and ED IIIa is the organization and
   structure of tablets.  In a thorough survey of these
-  "diplomatics", LeCompte, based on the work of the original
+  "diplomatics", Lecompte, based on the work of the original
   editor of the ED I-II corpus from Ur, Burrows, summarizes the
   situation as follows:</p>
 
@@ -87,19 +87,21 @@
   – total expressed as gu₂-an-še₃.<br/>
   <br/>
   Other features are very specific to the ED I–II period, such as the clumsy form of many
-  tablets and the random disposition of columns. (LeCompte 2016: 142).</blockquote>
+  tablets and the random disposition of columns. (Lecompte 2016: 142).</blockquote>
 
-  <p>After discussion among the proposal authors and Robin LeRoy,
+  <p>After discussion among the proposal authors and Robin Leroy,
   we have determined that it is preferable to establish the end of
   the Uruk III period as the cutoff for Unicode PC encoding, and
   to assign the ED I-II signiary to Sumero-Akkadian Cuneiform.</p>
 
   <esp:ssh>PC signs in ED I-II</esp:ssh>
   
-  <p>For characters that occur only in Proto-Cuneiform and ED
-  I-II, we do not propose to encode the character twice; instead,
-  as with the Archaic Cuneiform Numbers, we propose to treat
-  isolated PC signs in ED I-II texts as archaic holdovers.</p>
+  <p>For characters that occur only in Proto-Cuneiform and ED I-II, we
+  do not propose to encode the character twice; instead, as with the
+  Archaic Cuneiform Numbers, we propose to treat isolated PC signs in
+  ED I-II texts as archaic holdovers.  An assignment of
+  <code>Script_Extensions=Pcun Xsux</code> will be proposed for these signs in
+  future documents as they are identified.</p>
 
   <p>Signs which occur only in ED I-II texts will be evaluated for
   encoding in SAC in the future, as will signs that first occur in
