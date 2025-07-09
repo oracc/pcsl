@@ -526,7 +526,8 @@ sub pc25vscdli {
     $n = "|$n|" if $pipes;
     if ($p ne $n) {
 	my $np = $n;
-	$np =~ tr/|//d; # ignore difference if only pipes
+	# 20250708 AP asks to keep pipe-difference
+	# $np =~ tr/|//d; # ignore difference if only pipes
 	if ($p ne $np) {
 	    print CD "$p\t$n\t$orig\n";
 	    my $xn = xmlify($n);

@@ -23,16 +23,16 @@
 
   <xsl:template name="o-c">
     <xsl:variable name="IVp">
-      <xsl:value-of select="sum(c1[1]/c2/c3[1][string(number(@c))!='NaN']/@c)"/>
-    </xsl:variable>
-    <xsl:variable name="IVu">
-      <xsl:value-of select="sum(c1[1]/c2/c3[2][string(number(@c))!='NaN']/@c)"/>
-    </xsl:variable>
-    <xsl:variable name="IIIp">
       <xsl:value-of select="sum(c1[2]/c2/c3[1][string(number(@c))!='NaN']/@c)"/>
     </xsl:variable>
-    <xsl:variable name="IIIu">
+    <xsl:variable name="IVu">
       <xsl:value-of select="sum(c1[2]/c2/c3[2][string(number(@c))!='NaN']/@c)"/>
+    </xsl:variable>
+    <xsl:variable name="IIIp">
+      <xsl:value-of select="sum(c1[3]/c2/c3[1][string(number(@c))!='NaN']/@c)"/>
+    </xsl:variable>
+    <xsl:variable name="IIIu">
+      <xsl:value-of select="sum(c1[3]/c2/c3[2][string(number(@c))!='NaN']/@c)"/>
     </xsl:variable>
     <xsl:if test="$IVp > 0 or $IVu > 0">
       <xsl:text>&#x9;IV: </xsl:text>

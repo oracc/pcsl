@@ -113,6 +113,7 @@
       </xsl:if>
       <xsl:if test="@cdiff">
 	<xsl:attribute name="data-cdiff">
+	  <xsl:if test="string-length(@roid)=0"><xsl:text>*</xsl:text></xsl:if>
 	  <xsl:value-of select="@cdiff"/>
 	</xsl:attribute>
       </xsl:if>
