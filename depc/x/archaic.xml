@@ -9,7 +9,7 @@ millennium BCE and used until the early part of the second millennium
 BCE, approximately 3500-2900 BCE, generally known as the Archaic
 Period. This period was extensively described and discussed, with
 special reference to texts and writing, by the late Robert K. Englund
-in his magisterial book-within-a-book "Texts from the Late Uruk
+in his magisterial book-within-a-book “Texts from the Late Uruk
 Period", pages 1-233 in J. Bauer, R.K. Englund and M. Krebernik,
 <i>Mesopotamien: Spaturuk-Zeit und Frhudynastische Zeit</i> (Orbis
 Biblicus et Orientalis 160/1). Gottingen, 1998, available as an open
@@ -36,7 +36,8 @@ communities.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[width=.5\linewidth,scale=.3]{images/benati-map.png}\caption{Map of southern
+    \includegraphics[scale=.3]{images/benati-map.png}
+    \caption[width=.5\linewidth]{Map of southern
   Iraq showing canal networks and key settlements of the late fourth
   and early third millennia BCE (after Benati,
   https://cdli.earth/articles/cdlj/2015-2)}
@@ -78,8 +79,8 @@ are later than archaic.  Then the record is silent until Fara
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[width=.5\linewidth,scale=.3]{images/obo-chrono.png}
-    \caption{Chronological overview of early Mesopotamia from Englund p.23.}
+    \includegraphics[scale=.3]{images/obo-chrono.png}
+    \caption[width=.5\linewidth]{Chronological overview of early Mesopotamia from Englund p.23.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -105,8 +106,8 @@ relatively complex organization of cases as indicated in figures 3 and 4.</p>
     <tex:latex>
       \begin{figure}[h]
       \centering
-      \includegraphics[width=.5\linewidth,scale=.3]{images/obo-diplo.png}
-      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
+      \includegraphics[scale=.3]{images/obo-diplo.png}
+      \caption[width=.5\linewidth]{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
       \end{figure}
   </tex:latex>
   <tex:plain>
@@ -122,8 +123,8 @@ which the signs have to fit.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
-    \includegraphics[width=.5\linewidth,scale=.3]{images/P005252.png}
-    \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
+    \includegraphics[scale=.3]{images/P005252.png}
+    \caption[width=.5\linewidth]{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -144,9 +145,9 @@ the scope of Unicode.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
-    \includegraphics[width=.5\linewidth,scale=.3]{images/obo-lucompo.png}
+    \includegraphics[scale=.3]{images/obo-lucompo.png}
     \centering
-    \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
+    \caption[width=.5\linewidth]{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -164,8 +165,8 @@ tablets are below.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[width=.5\linewidth,scale=.3]{images/lex.png}
-    \caption{Sample lexical tablets: P000006, P000011, P000025}
+    \includegraphics[scale=.3]{images/lex.png}
+    \caption[width=.5\linewidth]{Sample lexical tablets: P000006, P000011, P000025}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -181,14 +182,14 @@ context. The general assumption is that earlier sign forms are more
 curved; have a greater variety of angles; or are drawn with a pointed
 stylus rather than being constructed of cuneiform strokes.  Englund's
 discussion of this is accompanied by a figure which is unfortunately
-absent from the PDF of the book; his Figure 22 is reproduced here.</p>
+absent from the PDF of the book; his Figure 22 is reproduced here..</p>
 
 <tex:text>
   <tex:latex>
     \begin{figure}[p]
     \centering
-    \includegraphics[width=.5\linewidth,scale=4]{images/obo-p69.png}
-    \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
+    \includegraphics[scale=4]{images/obo-p69.png}
+    \caption[width=.5\linewidth]{Englund's overview of Uruk IV/Uruk III sign forms.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -203,7 +204,7 @@ later cuneiform, contextual inferences drawn from counting and
 measuring systems, and the similarity of some signs to the objects
 they picture all combine to allow the general sense of many signs or
 groups of signs to be divined.  Two of Englund's figures are chosen
-here to illustrate this point, but the entirety of "Texts from the
+here to illustrate this point, but the entirety of “Texts from the
 Late Uruk Period" is in a sense his demonstration that the archaic
 corpus--contrary to what some might think--is increasingly well
 understood.</p>
@@ -212,8 +213,8 @@ understood.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[width=.5\linewidth,scale=.3]{images/obo-ovo.png}
-    \caption{Signs for ovi-caprids, after Englund.}
+    \includegraphics[scale=.3]{images/obo-ovo.png}
+    \caption[width=.5\linewidth]{Signs for ovi-caprids, after Englund.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -223,8 +224,8 @@ understood.</p>
     <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[width=.5\linewidth,scale=.3]{images/obo-dairy.png}
-    \caption{Signs for dairy products, after Englund.}
+    \includegraphics[scale=.3]{images/obo-dairy.png}
+    \caption[width=.5\linewidth]{Signs for dairy products, after Englund.}
     \end{figure}
   </tex:latex>
   <tex:plain>

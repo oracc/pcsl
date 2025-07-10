@@ -1088,6 +1088,9 @@
 
   <xsl:template match="tex:driver">
     <xsl:choose>
+      <xsl:when test="@class='sub'">
+	<xsl:apply-templates/>
+      </xsl:when>
       <xsl:when test="$latex='yes'">
 	<xsl:text>\input{ldepc-preamble}</xsl:text>
 	<xsl:text>\begin{document}&#xa;</xsl:text>

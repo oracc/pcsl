@@ -17,7 +17,8 @@ General
 	Orientation discussion and Selz
 	Names discussion, mention RL bit in Rationale also; address URI₃/ŠEŠ
 	Update Oracc PUA doco for F2XXX glyph variants
-
+	Statement on alignment of Pcun and Xsux
+	
 Section 1
 	Overfull box in first bullet
 	Steve Tinney not Stephen

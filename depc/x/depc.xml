@@ -5,20 +5,63 @@
     >
 
   <tex:text>
+    <tex:latex>\maketitle</tex:latex>
+    <tex:tex>
     \centerline{\fourteen\bf Proposal to Encode Proto-Cuneiform}
     \medskip
     \centerline{\twelve\it Anshuman Pandey and Steve Tinney, 2025-06-07}
     \bigskip
+    </tex:tex>
   </tex:text>
 
   <!--<tex:text>\hlstart{name}{}{pcsl}Jump to PCSL table\hlend</tex:text>-->
   
-  <xi:include href="../x/abstract.xml"/>
-
   <tex:text>
     <tex:latex>\tableofcontents</tex:latex>
     <tex:tex>\begingroup\nine\rm\usetoc\endgroup</tex:tex>
   </tex:text>
+
+  <tex:text>
+    <tex:latex>
+  \section*{Acknowledgements}
+  \addcontentsline{toc}{section}{Acknowledgements}
+
+  This proposal would not have come about without the prior work of
+  many people, whom it would be impractical to name exhaustively here
+  although most of their names occur \emph{passim} in the References
+  section of this document.
+  
+  The Berlin/UCLA team led by Robert Englund and Peter Damerow, which
+  itself gave rise to CDLI \cite{CDLI}, most recently managed by Émilie
+  Pagé-Perron and Jacob Dahl and others, carried out foundational work
+  on the print and digital resources on which all work on
+  Proto-Cuneiform is based.
+
+  Michael Everson, Laura Hawkins and Debbie Anderson carried out and
+  fostered work on Proto-Cuneiform for Unicode under the auspices of
+  the Script Encoding Initiative
+  \cite{L2/16-267,L2/17-157,L2/19-284}. More recently, Anshuman Pandey
+  laid the basis for the current proposal in several important
+  proposal documents of his own \cite{L2/20-193,L2/22-239,L2/23-190}.
+
+  Steve Tinney authored the bulk of the current proposal and created
+  the Oracc PCSL project \cite{PCSL}, the digital corpus (based on
+  CDLI) and resources from which the appendices are derived.
+
+  Robin Leroy authored the section \hyperref[rationale]{``Rationale for
+  Separately Encoding Proto-Cuneiform''} and frequently shared his
+  expertise on cuneiform, Unicode, and LaTeX.
+
+  The PCSL font was initially created by Anshuman Pandey based on Bob
+  Englund's collection of signs and was an essential basis for the
+  current proposal. The font was revised and augmented by Steve
+  Tinney.
+    </tex:latex>
+  </tex:text>
+  
+  \section{Summary}
+  
+  <xi:include href="../x/abstract.xml"/>
 
   <xi:include href="../x/previous.xml"/>
  
@@ -71,218 +114,8 @@
   <!--<tex:text>\endinput</tex:text> -->
 
   <tex:text>\printbibliography</tex:text>
-  <tex:text>\addcontentsline{toc}{section}{References}</tex:text>
+  <tex:text>\addcontentsline{toc}{section}{References}</tex:text>  
+
+  <!--<xi:include href="depc-appendices.xml"/>-->
   
-  <!--<xh:h1>Supporting Documents</xh:h1>-->
-
-  <tex:text>\section*{Appendices}</tex:text>
-
-  <tex:text>\addcontentsline{toc}{section}{Appendices}</tex:text>
-    
-  <xh:p>Here we provide supporting documentation which exposes as much as
-  possible of the decision-making processes and outcomes that are
-  associated with the proposal.</xh:p>
-
-  <!--<tex:text>\begin{display}</tex:text>-->
-
-  <xh:dl>
-    
-    <xh:dt>PCSL</xh:dt>
-
-    <xh:dd>Appendix A gives the Proto-Cuneiform Sign List
-    (http://oracc.org/pcsl) is condensed into a table which gives
-    information on the entire PC signiary.  The corpus instances are
-    represented by distributional summaries; alignment with ZATU is
-    provided in the main character box, and the published per-volume
-    sign lists are represented in their own columns.</xh:dd>
-
-    <xh:dt>Deferred Characters</xh:dt>
-
-    <xh:dd>Appendix B lists all of the characters that are not encoded
-    because they occur only in unpublished texts.</xh:dd>
-
-    <xh:dt>Excluded Characters</xh:dt>
-
-    <xh:dd>Appendices C to I give tables of characters according to the
-    rationale for their exclusion.</xh:dd>
-
-    <xh:dt>Sequences</xh:dt>
-
-    <xh:dd>Various relevant data about sequences are in Appendix J to L.</xh:dd>
-
-    <xh:dt>Fonts</xh:dt>
-
-    <xh:dd>A brief description of the fonts provided with the proposal is
-    given in Appendix M.</xh:dd>
-
-  </xh:dl>
-
-  <!--<tex:text>\end{display}</tex:text>-->
-
-  <!--<tex:text>\vfill\useapp\vfill</tex:text>-->
-
-  <!--<tex:text>\sectionsintocfalse\subsectionsintocfalse</tex:text> -->
-
-  <tex:appendix>PCSL Table</tex:appendix>
-  
-  <!--<tex:text>\hldest{xyz}{}{pcsl}</tex:text>-->
-
-  <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
-  convenient overview of the entire Proto-Cuneiform repertoire and its
-  various data sources.  The contents of the columns are as follows:</xh:p>
-
-  <xh:dl>
-    <xh:dt>PCSL</xh:dt>
-    <xh:dd>The core PCSL data: the sign name and category tag are at the
-    top of the case; the distribution, Oracc ID (OID) and ZATU number,
-    if any, are at the bottom of the case. If the sign is proposed for
-    encoding in PC25, the hex codepoint and reference glyph are given
-    in the middle of the case.</xh:dd>
-    <xh:dt>FONT</xh:dt>
-    <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.
-    Glyphs coloured blue are not included in the CDLI-gh
-    collection. Subscript numbers before glyphs indicate the CVNN code
-    for the variant, i.e., <xh:code>₁ = .cv01</xh:code></xh:dd>
-    <xh:dt>CDLI</xh:dt>
-    <xh:dd>The original CDLI-gh image, scaled from a 600dpi image set
-    downloaded from the CDLI website in 2016.</xh:dd>
-    <xh:dt>ATU3, ATU5, MSVO1, MSCO4, CUSAS</xh:dt>
-    <xh:dd>Glyphs as given in the sign lists of the relevant text
-    editions, but drawn from the PCSL font.  Glyphs in red differ in
-    naming from CDLI-gh; <xh:code>(o)</xh:code> means that the instance has
-    no variant code; <xh:code>(a), (b)</xh:code>, etc., means that the
-    instance has the given variant code.</xh:dd>
-  </xh:dl>
-
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/pcsl-tab.html"/>
-
-  <tex:appendix>ZATU-PCSL Concordance</tex:appendix>
-
-  <xi:include href="../m/zatu.html"/>
-  
-  <tex:appendix>Index of Alternate CDLI Sign Names</tex:appendix>
-
-  <xi:include href="../m/aka-cdiff.xml"/>
-  
-  <tex:appendix>PCSL Non-PC25</tex:appendix>
-
-  <xh:p>This table gives every text in the PC corpus that contains one
-  or more unencoded signs, along with a list in the 'Missing' column
-  of the specific signs which are not in the PC25 encoding.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-
-  <xi:include href="../m/notcov.html"/>  
-
-  <tex:appendix>PC25 Not Encoded: Broken</tex:appendix>
-
-  <xh:p>This table gives signs which are not encoded because the only
-  occur in instances which are incomplete.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_broken.html"/>
-  
-  <tex:appendix>PC25 Not Encoded: Uruk V not in Sub-corpus</tex:appendix>
-
-  <xh:p>This table gives signs excluded because they only occur in Uruk V.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_uruk5.html"/>
-  
-  <tex:appendix>PC25 Not Encoded: Uruk IV/III not in Sub-corpus</tex:appendix>
-
-  <xh:p>This table gives signs which do occur in Uruk IV and III but
-  do not occur within the restricted PC25 corpus; this set is largely
-  the same as that in Appendix B.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_corpus.html"/>
-  
-  <tex:appendix>PC25 Not Encoded: ED I-II not in Sub-corpus</tex:appendix>
-
-  <xh:p>This table gives signs excluded because they only occur in ED I--II</xh:p>
-
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_edi.html"/>
-  
-  <tex:appendix>PC25 Not Encoded: Delete</tex:appendix>
-
-  <xh:p>This table gives signs which occur in CDLI-gh but have been
-  deleted from the CDLI-tc.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_delete.html"/>
-  
-  <tex:appendix>PC25 Not Encoded: Number (non-ACN)</tex:appendix>
-
-  <xh:p>This table gives numbers which are neither in Archaic
-  Cuneiform Numbers or in PC25.  Some of these may be candidates for
-  future encoding.  The abbreviation 'OOR' indicates numbers which are
-  Out Of Range with regard to their respective system.  'OOR5'
-  indicates an Out Of Range number occurring in Uruk V texts. The tag
-  'Pelm' indicates numbers which are likely to be encoded as
-  Proto-Elamite.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_numberxacn.html"/>
-  
-  <tex:appendix>PC25 Not Encoded: Sequence</tex:appendix>
-
-  <xh:p>This table gives sequences which are not encoded.</xh:p>
-
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_sequence.html"/>
-  
-  <tex:appendix>PC25 Encoded Exceptional Sequences</tex:appendix>
-
-  <xh:p>This table gives sequences which are encoded because they have
-  some exceptional characteristic.</xh:p>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/no_sequencexexc.html"/>
-
-  <tex:appendix>Sequences Data</tex:appendix>
-
-  <xh:p>This table summarizes the naming, composition, and ligaturing of sequences:</xh:p>
-
-  <xh:ul>
-    <xh:li>In column one the character name (CHARNAME) and glyph names
-    (GLYFNAME) are given along with the decomposition of the ligature
-    into the base characters; in this decomposition the different
-    joiners are used rather than mapping them all to '.'.</xh:li>
-
-    <xh:li>In column two the precomposed single ligature character in
-    the PUA is shown with its hex code; some ligatures do not have a
-    precomposed version, in which case a '0' appears in this
-    column.</xh:li>
-
-    <xh:li>In column three the input on the upper row is the Unicode
-    character sequence corresponding to the ligature sequence in the
-    lower row: if the ligature is working correctly the appearance of
-    the upper row should match the character in column two.  Font
-    switching is used to access glyph variants.</xh:li>
-  </xh:ul>
-  
-  <tex:text>\bigskip&#xa;&#xa;</tex:text>
-  
-  <xi:include href="../m/seqdb.xml"/>
-
-  <tex:appendix>Implementation Notes on Sequences</tex:appendix>
-
-  <xi:include href="../m/sequences.xml"/>
-
-  <tex:appendix>Fonts for the Proposal</tex:appendix>
-  
-  <xi:include href="../x/fonts.xml"/>
-
 </tex:driver>

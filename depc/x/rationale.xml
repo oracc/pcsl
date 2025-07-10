@@ -4,7 +4,7 @@
 	  xmlns="http://www.w3.org/1999/xhtml">
 
   <h1>Rationale for Separately Encoding Proto-Cuneiform</h1>
-
+  <tex:text>\label{rationale}</tex:text>
   <!--<tex:text>\include{m/rationale}</tex:text>-->
   <xi:include xml:base="." href="../m/rationale.tex" parse="text"/>
  

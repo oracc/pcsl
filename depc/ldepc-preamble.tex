@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[10pt, letter, twoside]{article}
 \usepackage[
   letterpaper,
   total={6.5in,9in},
@@ -115,6 +115,21 @@ BoldItalicFont = UngBkBasBI.ttf ]
 
 \usepackage[bookmarksopen=true,bookmarks=true]{hyperref}
 
-%\usepackage{bookmark}
 
 \input{ldepcmac}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\newcommand{\thisDocumentNumber}{L2/25-XXX}
+\newcommand{\thisDocumentTitle}{Proposal to Encode Proto-Cuneiform}
+\newcommand{\thisDocumentShortTitle}{Proto-Cuneiform}
+\fancyfoot{}
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[CO]{\thisDocumentNumber}
+\fancyhead[CE]{\thisDocumentShortTitle}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\title{\thisDocumentTitle}
+\author{Steve Tinney, Anshuman Pandey, and Robin Leroy}
+
