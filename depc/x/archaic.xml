@@ -22,7 +22,7 @@ account.</p>
     \includegraphics[scale=.4]{images/benati-map.png}
     \caption{Map of southern
   Iraq showing canal networks and key settlements of the late fourth
-  and early third millennia BCE (from Benati2015)}
+  and early third millennia BCE (from \cite{Benati2015})}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -83,30 +83,34 @@ awaiting excavation.</p>
     \centering
     \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.49]{images/obo-chrono.png}
-    \caption{Chronological overview of early Mesopotamia from Englund p.23.}
+    \caption{Chronological overview of early Mesopotamia from \cite[23]{Englund1998}}
     \end{figure}
   </tex:latex>
   <tex:plain>
     \xgraphicsfigure{images/obo-chrono.png}{500}{3in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:plain></tex:text>
 
 <p>Figure 2 provides a schematic overview of the sequence of major
-text finds in the 'Writing Phase' column. The entry 'Clay bullae and
+text finds in the `Writing Phase' column. The entry `Clay bullae and
 numerical tablets' in the Writing Phase column is the equivalent of
 the periodic classification Uruk V.  Only small groups of texts are
 omitted from the subsequent Late Uruk (Uruk IV and Uruk III) into the
 Jemdet Nasr period (examples include Uqair, Larsa).  For ED I--II we
-have only the ED I-II Ur texts and a few dozen tablets from Uruk which
-are later than archaic.  Then the record is silent until Fara
-(Šuruppak).</p>
+have the ED I--II Ur texts \cite{Burrows1935,LecompteVerderame2013}; a few
+tablets from Uruk which are later than archaic \cite{Green1982}; and
+some tablets from Fara that are earlier than ED IIIa
+\cite{Krebernik2014}.  Then the record is silent until Fara
+(Šuruppak) \cite{Krebernik1998}.</p>
 
 <p>The largest and most important group of archaic texts was excavated
 in the city of Uruk. The tablets were found in secondary context,
 meaning that the relative dating of tablets to Uruk IV or the later
 Uruk III is not based on stratigraphy but on formal and palaeographic
 features.  About 100 tablets and bullae are assigned to the Uruk V
-period which precedes Uruk IV by an uncertain amount of time.</p>
+period which precedes Uruk IV by an uncertain amount of time.  The
+Uruk period text corpus is described in more detail in section
+\ref{texts}.</p>
 
-<p>As Englund demonstrates these archaic administrative texts reflect
+<p>As Englund demonstrates the archaic text corpus reflects
 organized agriculture, animal husbandry, and other production. The
 documents evidence social hierarchy and specialization, including the
 birth of scribal culture in early Mesopotamia.</p>
@@ -122,30 +126,46 @@ military operations
 <p>The bulk of the archaic tablets are administrative documents. They
 exhibit varying degrees of complexity from simple tags or
 one-transaction memos to multi-transactional summaries with a
-relatively complex organization of cases as indicated in figures 3 and 4.</p>
+relatively complex organization of cases as indicated in figures 3 and
+4.</p>
+
+<p>A number of studies have analysed subgroups of the administrative
+texts, with the result that the content and methodologies of the
+archaic accounting records are well understood.</p>
+
+<p>An early example is Margeret Green's work on animal husbandry
+\cite{Green1980}, which is complemented by Englund's work on dairy
+metrology \cite{Englund1991} and production \cite{Englund1995} and the
+herding of pigs and other animals \cite{Englund1995-1}, as well as
+J. Cale Johnson's essays on butchering \cite{Johnson2016} and ritual
+meat distribution \cite{Johnson2019}.</p>
+
+<p>Other studies have examined grain accounting \cite{Englund2001} and
+time designations \cite[XXX]{Englund1988}.  One of the earliest
+dossiers of activity of a named individual, Kušim the brewer, is
+studied by Peter Damerow and Bob Englund in
+\cite{DamerowEnglund1993}.</p>
+
+<p>In another important contribution with far-reaching implications,
+Englund also forged new paths in the identification of personal names
+of labourers--probably captured slaves--in a small group of tablets
+from Uruk and Umma \cite{Englund2009}.</p>
 
 <tex:text>
     <tex:latex>
-      \begin{figure}[h]
+      \begin{figure}[!htb]
       \centering
       \captionsetup{width=.5\linewidth}
-      \includegraphics[scale=.3]{images/obo-diplo.png}
+      \includegraphics[scale=.45]{images/obo-diplo.png}
       \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
       \end{figure}
   </tex:latex>
   <tex:plain>
     \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
 
-<p>This form of spatial division of the tablets into cases which are
-often quite narrow gives rise to an important feature of the writing
-of combinations of signs, which may be place beside, above, or
-otherwise near each other as space permits, and may be written in
-varying order depending partly on the space available in the box into
-which the signs have to fit.</p>
-
 <tex:text>
   <tex:latex>
-    \begin{figure}[h]
+    \begin{figure}[!htb]
     \centering
     \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.3]{images/P005252.png}
@@ -155,10 +175,29 @@ which the signs have to fit.</p>
   <tex:plain>
     \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
 
+<tex:text>
+  <tex:latex>
+    \begin{figure}[!htb]
+    \centering
+    \captionsetup{width=.5\linewidth}
+    \includegraphics[scale=.35]{images/P005252.png}
+    \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
+
+<p>This form of spatial division of the tablets into cases which are
+often quite narrow gives rise to an important feature of the writing
+of combinations of signs, which may be placed beside, above, or
+otherwise near each other as space permits, and may be written in
+varying order depending partly on the space available in the box into
+which the signs have to fit.</p>
+
 <h3>Lexical Lists</h3>
 
 <p>The other important--but numerically far fewer--group of texts are
-the word lists that Assyriologists generally refer to as 'Lexical
+the word lists that Assyriologists generally refer to as `Lexical
 Texts'.  These appear in the earlist phases of writing and are
 especially well evidenced in Uruk III texts. Importantly, many of
 these lexical lists continue into the Early Dynastic period, where
@@ -169,9 +208,9 @@ the scope of Unicode.</p>
 
 <tex:text>
   <tex:latex>
-    \begin{figure}[h]
+    \begin{figure}[!htb]
     \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.3]{images/obo-lucompo.png}
+    \includegraphics[scale=.4]{images/obo-lucompo.png}
     \centering
     \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
     \end{figure}
@@ -180,19 +219,12 @@ the scope of Unicode.</p>
 \graphicsfigure{images/obo-lucompo.png}{275}{3in}{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}  </tex:plain>
 </tex:text>
 
-<p>The disciplinary practice with lexical lists, which are attested
-mostly in small fragments containing only a few lines of the text, is
-to create composites which allow for an overview of the list and in
-which each individual entry is evidenced by one or more manuscripts. A
-sample composite is given in the figure above, and examples of lexical
-tablets are below.</p>
-
 <tex:text>
   <tex:latex>
-    \begin{figure}[h]
+    \begin{figure}[!htb]
     \centering
     \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.3]{images/lex.png}
+    \includegraphics[scale=.4]{images/lex.png}
     \caption{Sample lexical tablets: P000006, P000011, P000025}
     \end{figure}
   </tex:latex>
@@ -200,6 +232,13 @@ tablets are below.</p>
     \xgraphicsfigure{images/lex.png}{250}{5in}{Sample lexical tablets: P000006, P000011, P000025.}
   </tex:plain>
 </tex:text>
+
+<p>The disciplinary practice with lexical lists, which are attested
+mostly in small fragments containing only a few lines of the text, is
+to create composites which allow for an overview of the list and in
+which each individual entry is evidenced by one or more manuscripts. A
+sample composite is given in the figure above, and examples of lexical
+tablets are below.</p>
 
 <h2>Writing Phases</h2>
 

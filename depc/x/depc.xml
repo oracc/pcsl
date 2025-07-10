@@ -70,10 +70,12 @@
   <xi:include href="../x/mepc-intro.xml"/>
 
   <xh:h2>Texts</xh:h2>
+  <tex:latex>\label{texts}</tex:latex>
   
   <xi:include href="../m/texts.xml"/>
 
   <xh:h2>Signs</xh:h2>
+  <tex:latex>\label{signs}</tex:latex>
 
   <xi:include href="../m/signs.xml"/>
 
