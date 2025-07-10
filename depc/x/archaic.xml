@@ -105,10 +105,10 @@ some tablets from Fara that are earlier than ED IIIa
 in the city of Uruk. The tablets were found in secondary context,
 meaning that the relative dating of tablets to Uruk IV or the later
 Uruk III is not based on stratigraphy but on formal and palaeographic
-features.  About 100 tablets and bullae are assigned to the Uruk V
-period which precedes Uruk IV by an uncertain amount of time.  The
-Uruk period text corpus is described in more detail in section
-\ref{texts}.</p>
+features \cite[318-323]{Nissen1986}.  About 100 tablets and bullae are
+assigned to the Uruk V period which precedes Uruk IV by an uncertain
+amount of time.  The Uruk period text corpus is described in more
+detail in section \ref{texts}.</p>
 
 <p>As Englund demonstrates the archaic text corpus reflects
 organized agriculture, animal husbandry, and other production. The
@@ -187,13 +187,6 @@ from Uruk and Umma \cite{Englund2009}.</p>
   <tex:plain>
     \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
 
-<p>This form of spatial division of the tablets into cases which are
-often quite narrow gives rise to an important feature of the writing
-of combinations of signs, which may be placed beside, above, or
-otherwise near each other as space permits, and may be written in
-varying order depending partly on the space available in the box into
-which the signs have to fit.</p>
-
 <h3>Lexical Lists</h3>
 
 <p>The other important--but numerically far fewer--group of texts are
@@ -237,64 +230,106 @@ the scope of Unicode.</p>
 mostly in small fragments containing only a few lines of the text, is
 to create composites which allow for an overview of the list and in
 which each individual entry is evidenced by one or more manuscripts. A
-sample composite is given in the figure above, and examples of lexical
-tablets are below.</p>
+sample composite and some typical manuscripts are given in the figure
+\ref{lexfig}.</p>
 
-<h2>Writing Phases</h2>
+<h2>Writing</h2>
+
+<h3>Technology, Technique, Phases</h3>
+
+<p>Proto-Cuneiform tablets are made of refined and formed clay, which
+was inscribed when still slightly moist, establishing a practice that
+continued for millennia to come \cite{Taylor2011}.  The earliest
+tablets were inscribed with a pointed instrument--likely a sharpened
+reed--with circular indentations made with a round tool, presumably
+the other end of the stylus. The pointed tool was replaced with a
+triangular-ended stylus which was impressed into, and in some cases
+then dragged lightly across, the surface of the clay to produce the
+characteristic triangular indentations with a deep head and a shallow
+tail that give rise to the term `cuneiform'
+\cite{Green1981,Nissen1986}.</p>
+
+<tex:latex>
+  \begin{figure}[h]
+  \centering
+  \begin{minipage}{0.4\textwidth}
+  \includegraphics[scale=.4]{images/nissen-WA-tech.png}
+  \caption{Styli and sign development from \cite[320]{Nissen1986}}
+  \end{minipage}
+  \begin{minipage}{0.575\textwidth}
+  \includegraphics[scale=3]{images/obo-p69-cropped.png}
+  \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
+  \end{minipage}
+  \end{figure}
+</tex:latex>
 
 <p>The precise analysis of writing phases in the Uruk texts is
-hampered by the lack of tablet finds in primary archaeological
-context. The general assumption is that earlier sign forms are more
-curved; have a greater variety of angles; or are drawn with a pointed
-stylus rather than being constructed of cuneiform strokes.  Englund's
-discussion of this is accompanied by a figure which is unfortunately
-absent from the PDF of the book; his Figure 22 is reproduced here..</p>
+hampered by the lack of tablet finds in primary archaeological context
+\cite[318-323]{Nissen1986}. The general assumption is that earlier
+sign forms are more curved; have a greater variety of angles; or are
+drawn with a pointed stylus rather than being constructed of cuneiform
+strokes.  Englund's discussion of this is accomplished with a figure
+which is unfortunately absent from the PDF of the book; his Figure 22
+is reproduced here \cite[69]{Englund1998}.</p>
 
-<tex:text>
-  <tex:latex>
-    \begin{figure}[p]
-    \centering
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=4]{images/obo-p69.png}
-    \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
-    \end{figure}
-  </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/obo-p69.png}{3000}{3in}{Englund's overview of Uruk IV/Uruk III sign forms.}</tex:plain></tex:text>
+<tex:latex>
+  \begin{figure}[h]
+  \centering
+  \captionsetup{width=.5\linewidth}
+  \end{figure}
+</tex:latex>
 
-<h2>Vocabulary</h2>
+<h3>Orientation and Disposition</h3>
+
+<p>One longstanding point of discussion in the study of
+Proto-Cuneiform and its descendants is the orientation of the script,
+a discussion rooted in the fact that the later cuneiform versions of
+signs as normally represented in hand copies and published images are
+rotated 90 degrees from the expected natural orientation of their
+pictographic forebears.  Thus the sign SAG, head, with forms {\pcseq
+𒦘}, {\pcseq 󲅨}, {\pcseq 󲅩} approximately matches the cuneiform <span
+class="oraccnoto">𒊕</span>. A more naturalistic rendering of SAG,
+however, would be \rotatebox[origin=c]{270}{\pcseq 󲅨}, and this
+orientation is preferred in some recent literature, e.g.,
+\cite{Selz2025}.  In this proposal we follow conventional disciplinary
+practice as adopted in the standard corpus publications of
+Proto-Cuneiform and the CDLI.</p>
+
+<p>The spatial division of Proto-Cuneiform administrative and lexical
+tablets into cases which are often quite narrow gives rise to an
+important feature of the disposition of combinations of signs, which
+may be placed beside, above, or otherwise near each other as space
+permits, and may be written in varying order depending partly on the
+space available in the box into which the signs have to fit.  This has
+an important impact on the determination and treatment of sequences,
+as explained in \ref{sequences}.</p>
+
+<h3>Semantics</h3>
 
 <p>The language of the archaic corpus is uncertain: many would accept
 that it is Sumerian, but for Englund and others this remains
-stubbornly unprovable.  Despite this, continuities between PC and
-later cuneiform, contextual inferences drawn from counting and
-measuring systems, and the similarity of some signs to the objects
-they picture all combine to allow the general sense of many signs or
-groups of signs to be divined.  Two of Englund's figures are chosen
-here to illustrate this point, but the entirety of “Texts from the
-Late Uruk Period" is in a sense his demonstration that the archaic
-corpus--contrary to what some might think--is increasingly well
-understood.</p>
+stubbornly unprovable (see recently \cite{Keetman2020}.  Despite this,
+continuities between PC and later cuneiform, contextual inferences
+drawn from counting and measuring systems, and the similarity of some
+signs to the objects they picture all combine to allow the general
+sense of many signs or groups of signs to be divined.  Two of
+Englund's figures are chosen here to illustrate this point, but the
+entirety of “Texts from the Late Uruk Period" is in a sense his
+demonstration that the archaic corpus--contrary to what some might
+think--is increasingly well understood.</p>
 
-<tex:text>
-  <tex:latex>
-    \begin{figure}[h]
-      \centering
-      \begin{minipage}{0.475\textwidth}
-        \includegraphics[scale=.25]{images/obo-ovo.png}
-        \caption{Signs for ovi-caprids, after Englund.}
-      \end{minipage}
-      \begin{minipage}{0.475\textwidth}
-        \includegraphics[scale=.3]{images/obo-dairy.png}
-        \caption{Signs for dairy products, after Englund.}
-      \end{minipage}
-    \end{figure}
-  </tex:latex>
-  <tex:plain>
-\xgraphicsfigure{images/obo-ovo.png}{300}{3in}{Signs for ovi-caprids, after Englund.}</tex:plain></tex:text>
-
-<tex:text>
-  <tex:plain>
-\xgraphicsfigure{images/obo-dairy.png}{300}{3in}{Signs for dairy products, after Englund.}</tex:plain></tex:text>
+<tex:latex>
+  \begin{figure}[h]
+  \centering
+  \begin{minipage}{0.475\textwidth}
+  \includegraphics[scale=.25]{images/obo-ovo.png}
+  \caption{Signs for ovi-caprids, after Englund.}
+  \end{minipage}
+  \begin{minipage}{0.475\textwidth}
+  \includegraphics[scale=.3]{images/obo-dairy.png}
+  \caption{Signs for dairy products, after Englund.}
+  \end{minipage}
+  \end{figure}
+</tex:latex>
 
 </esp:page>

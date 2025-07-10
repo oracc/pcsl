@@ -19,7 +19,7 @@ General
 	Left-quote marks are backwards in single and double forms
 
 Section 1
-	Overfull box in first bullet
+	-Overfull box in first bullet
 	Steve Tinney not Stephen
 	Don't say 'scholarly' repertoire
 
@@ -30,31 +30,31 @@ Section 3
 	-Figure 4 is no longer centred
 	-Figure 7 can be bigger
 	3.3.1 sub in graphic with more admin examples where summation placeholder is
-	Instead of 'Writing; Vocabulary' have '3.4 Writing and Language' with subh 3.4.1 etc.:
-		Technology
-		Script phases
-		Orientation discussion and Selz
-		Names discussion, mention RL bit in Rationale also; address URI₃/ŠEŠ
-		Statement on alignment of Pcun and Xsux (because it is foregrounded by Selz's new thing)
+	-Instead of 'Writing; Vocabulary' have '3.4 Writing and Language' with subh 3.4.1 etc.:
+		-Technology
+		-Script phases
+		-Orientation discussion and Selz
 		Possibly compress big Englund figure and vocab figures onto one page
 
 Section 4
+	in Names discussion address URI₃/ŠEŠ and ref Selz2025
+	add 4.2	Statement on alignment of Pcun and Xsux (because it is foregrounded by Selz's new thing)
+
+Section 5.1
 	Initiative website at XXXX is the most
 	'minor adjustments' => 'small adjustments'
-
-Section 4.1
 	7224 texts is weird; where is that coming from???
 
-Section 4.1.4
+Section 5.1.4
 	'total' row in PC25 texts table is wrongly using PCSL stats
 
-Section 4.3.1
+Section 5.3.1
 	Give title of Langdon's PI plus abbreviation
 
-Section 4.3.5
+Section 5.3.5
 	Oracc project *PCSL* [Tin24]
 
-Section 4.3.7
+Section 5.3.7
 	constitu*t*e
 
 Section 5.2, 5.6 and appendices M and N need consolidation
@@ -67,7 +67,7 @@ Section 5.5
 	Double-check reference glyphs to make sure they are
 	Uruk Uruk III where possible
 
-Section 6
+Section 7
 	Mention chart font here as well.
 
 Appendix A

@@ -15,12 +15,9 @@
     <li><eb:cite key="L2/23-190"/> = L2/23‑190: “Revised proposal to encode Proto‑Cuneiform in Unicode” (Pandey)</li>
   </ul>
   
-  <p>This revision supersedes recommendations made by Stephen Tinney in the following document related to
-  the composition of the scholarly and Unicode repertoires:</p>
-
-  <ul>
-    <li><eb:cite key="L2/24-211"/> = L2/24‑211: “Comments on L2/23‑190 Revised proposal to encode Proto‑Cuneiform in Unicode”</li>
-  </ul>
+  <p>This revision supersedes recommendations made by Steve Tinney in
+  <eb:cite key="L2/24-211"/> = L2/24‑211: “Comments on L2/23‑190
+  Revised proposal to encode Proto‑Cuneiform in Unicode”.</p>
 
   <p>Most numerical signs have been moved to:</p>
   <ul>
