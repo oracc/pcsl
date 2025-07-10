@@ -10,12 +10,26 @@ BCE, approximately 3500-2900 BCE, generally known as the Archaic
 Period. This period was extensively described and discussed, with
 special reference to texts and writing, by the late Robert K. Englund
 in his magisterial book-within-a-book “Texts from the Late Uruk
-Period", pages 1-233 in J. Bauer, R.K. Englund and M. Krebernik,
-<i>Mesopotamien: Spaturuk-Zeit und Frhudynastische Zeit</i> (Orbis
-Biblicus et Orientalis 160/1). Gottingen, 1998, available as an open
-access download at https://www.zora.uzh.ch/id/eprint/151545/.  The
-following sketch is based on Englund's discussion to which the reader
-is referred for a detailed account.</p>
+Period" \cite{Englund1998}.  The following sketch is based largely on
+Englund's discussion to which the reader is referred for a detailed
+account.</p>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \captionsetup{width=.5\linewidth}
+    \includegraphics[scale=.4]{images/benati-map.png}
+    \caption{Map of southern
+  Iraq showing canal networks and key settlements of the late fourth
+  and early third millennia BCE (from Benati2015)}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+  \xgraphicsfigure{images/benati-map.png}{500}{5in}{Map of southern
+  Iraq showing canal networks and key settlements of the late fourth
+  and early third millennia BCE (after Benati,
+  https://cdli.earth/articles/cdlj/2015-2)}</tex:plain></tex:text>
 
 <h2>Birth of Cities</h2>
 
@@ -30,63 +44,60 @@ cities.</p>
 <p>Networks of canals connected important centres and the distribution
 of material culture and writing show that the world of the Archaic
 Uruk period was characterized by significant interaction between
-communities.</p>
-
-<tex:text>
-  <tex:latex>
-    \begin{figure}[h]
-    \centering
-    \includegraphics[scale=.3]{images/benati-map.png}
-    \caption[width=.5\linewidth]{Map of southern
-  Iraq showing canal networks and key settlements of the late fourth
-  and early third millennia BCE (after Benati,
-  https://cdli.earth/articles/cdlj/2015-2)}
-    \end{figure}
-  </tex:latex>
-  <tex:plain>
-  \xgraphicsfigure{images/benati-map.png}{500}{5in}{Map of southern
-  Iraq showing canal networks and key settlements of the late fourth
-  and early third millennia BCE (after Benati,
-  https://cdli.earth/articles/cdlj/2015-2)}</tex:plain></tex:text>
+communities, not only within southern Mesopotamia but in ``Uruk
+enclaves'' in the Susiana plain of modern Iran and in modern Syria and
+Türkiye where Uruk architecture, visual arts, and administrative
+systems indicate the presence of Uruk colonies for trading or resource
+extraction \cite{Algaze1993,Algaze2005}.</p>
 
 <h2>History</h2>
 
 <p>We cannot write a political history of the late fourth millennium,
-and the lack of archaeological context for key Uruk period finds means
-that we must resort to dating the tablet finds by relative
+and the lack of archaeological context for key Uruk period textual
+finds means that we must resort to dating the tablet finds by relative
 palegraphical criteria rather than by documented archaeological
 findspots.</p>
 
-<p>As Englund demonstrates, however, archaic administrative texts
-reflect organized agriculture, animal husbandry, and other
-production. The documents evidence social hierarchy and specialization
-and some texts can be understood as inventories of labourers, possibly
-slaves captured in military operations.</p>
-
 <p>The sporadic nature of both archaeological excavations and text
 corpora is another impediment to a continuous history of these early
-periods.  Figure 2 provides a schematic overview of the sequence of
-major text finds in the 'Writing Phase' column. The entry 'Clay bullae
-and numerical tablets' in the Writing Phase column is the equivalent
-of the periodic classification Uruk V.  Only small groups of texts are
-omitted from the subsequent Late Uruk (Uruk IV and Uruk III) into the
-Jemdet Nasr period (examples include Uqair, Larsa).  For ED I--II we
-have only the ED I-II Ur texts and a few dozen tablets from Uruk which
-are later than archaic.  Then the record is silent until Fara
-(Šuruppak).</p>
+periods, as Algaze notes in his excellent synthesis of the Uruk period
+primarily from the archaeological perspective \cite{Algaze2013}.
+Algaze reviews the surface survey data, excavations, and (in less
+detail) the textual finds from all parts of the Uruk world and
+presents a coherent picture of a cyclical efflorescence and decline of
+major cities in the south each with their own networks of smaller
+settlements in a hierarchy up to four levels deep.  In addition, as
+mentioned above, there is extensive evidence of relatively far-flung
+colonial outcroppings. Considering the extent of these hundreds of
+settlements active, albeit often episodically or intermittently, over
+five to six hundred years, the text-corpus of less than 7000 documents
+from a handful of sites presumably only represents a small subset of
+the ancient textual material generated and, in some cases, still
+awaiting excavation.</p>
+
+<h2>Major Text Corpora</h2>
 
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \includegraphics[scale=.3]{images/obo-chrono.png}
-    \caption[width=.5\linewidth]{Chronological overview of early Mesopotamia from Englund p.23.}
+    \captionsetup{width=.5\linewidth}
+    \includegraphics[scale=.49]{images/obo-chrono.png}
+    \caption{Chronological overview of early Mesopotamia from Englund p.23.}
     \end{figure}
   </tex:latex>
   <tex:plain>
     \xgraphicsfigure{images/obo-chrono.png}{500}{3in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:plain></tex:text>
 
-<h2>Major Text Corpora</h2>
+<p>Figure 2 provides a schematic overview of the sequence of major
+text finds in the 'Writing Phase' column. The entry 'Clay bullae and
+numerical tablets' in the Writing Phase column is the equivalent of
+the periodic classification Uruk V.  Only small groups of texts are
+omitted from the subsequent Late Uruk (Uruk IV and Uruk III) into the
+Jemdet Nasr period (examples include Uqair, Larsa).  For ED I--II we
+have only the ED I-II Ur texts and a few dozen tablets from Uruk which
+are later than archaic.  Then the record is silent until Fara
+(Šuruppak).</p>
 
 <p>The largest and most important group of archaic texts was excavated
 in the city of Uruk. The tablets were found in secondary context,
@@ -95,7 +106,18 @@ Uruk III is not based on stratigraphy but on formal and palaeographic
 features.  About 100 tablets and bullae are assigned to the Uruk V
 period which precedes Uruk IV by an uncertain amount of time.</p>
 
+<p>As Englund demonstrates these archaic administrative texts reflect
+organized agriculture, animal husbandry, and other production. The
+documents evidence social hierarchy and specialization, including the
+birth of scribal culture in early Mesopotamia.</p>
+
 <h3>Administrative Texts</h3>
+
+<!--
+    and some texts can be
+understood as inventories of labourers, possibly slaves captured in
+military operations
+-->
 
 <p>The bulk of the archaic tablets are administrative documents. They
 exhibit varying degrees of complexity from simple tags or
@@ -106,8 +128,9 @@ relatively complex organization of cases as indicated in figures 3 and 4.</p>
     <tex:latex>
       \begin{figure}[h]
       \centering
+      \captionsetup{width=.5\linewidth}
       \includegraphics[scale=.3]{images/obo-diplo.png}
-      \caption[width=.5\linewidth]{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
+      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
       \end{figure}
   </tex:latex>
   <tex:plain>
@@ -123,8 +146,10 @@ which the signs have to fit.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
+    \centering
+    \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.3]{images/P005252.png}
-    \caption[width=.5\linewidth]{The complex summation MSVO 1, 185 with Englund's analysis.}
+    \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -145,9 +170,10 @@ the scope of Unicode.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
+    \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.3]{images/obo-lucompo.png}
     \centering
-    \caption[width=.5\linewidth]{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
+    \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -165,8 +191,9 @@ tablets are below.</p>
   <tex:latex>
     \begin{figure}[h]
     \centering
+    \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.3]{images/lex.png}
-    \caption[width=.5\linewidth]{Sample lexical tablets: P000006, P000011, P000025}
+    \caption{Sample lexical tablets: P000006, P000011, P000025}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -188,8 +215,9 @@ absent from the PDF of the book; his Figure 22 is reproduced here..</p>
   <tex:latex>
     \begin{figure}[p]
     \centering
+    \captionsetup{width=.5\linewidth}
     \includegraphics[scale=4]{images/obo-p69.png}
-    \caption[width=.5\linewidth]{Englund's overview of Uruk IV/Uruk III sign forms.}
+    \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
     \end{figure}
   </tex:latex>
   <tex:plain>
@@ -212,22 +240,21 @@ understood.</p>
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
-    \centering
-    \includegraphics[scale=.3]{images/obo-ovo.png}
-    \caption[width=.5\linewidth]{Signs for ovi-caprids, after Englund.}
+      \centering
+      \begin{minipage}{0.475\textwidth}
+        \includegraphics[scale=.25]{images/obo-ovo.png}
+        \caption{Signs for ovi-caprids, after Englund.}
+      \end{minipage}
+      \begin{minipage}{0.475\textwidth}
+        \includegraphics[scale=.3]{images/obo-dairy.png}
+        \caption{Signs for dairy products, after Englund.}
+      \end{minipage}
     \end{figure}
   </tex:latex>
   <tex:plain>
 \xgraphicsfigure{images/obo-ovo.png}{300}{3in}{Signs for ovi-caprids, after Englund.}</tex:plain></tex:text>
 
 <tex:text>
-    <tex:latex>
-    \begin{figure}[h]
-    \centering
-    \includegraphics[scale=.3]{images/obo-dairy.png}
-    \caption[width=.5\linewidth]{Signs for dairy products, after Englund.}
-    \end{figure}
-  </tex:latex>
   <tex:plain>
 \xgraphicsfigure{images/obo-dairy.png}{300}{3in}{Signs for dairy products, after Englund.}</tex:plain></tex:text>
 

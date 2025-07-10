@@ -13,8 +13,6 @@
     \bigskip
     </tex:tex>
   </tex:text>
-
-  <!--<tex:text>\hlstart{name}{}{pcsl}Jump to PCSL table\hlend</tex:text>-->
   
   <tex:text>
     <tex:latex>\tableofcontents</tex:latex>
@@ -91,10 +89,12 @@
 
   <xh:h1>Proposal Documents</xh:h1>
 
-  <xh:p>The reference data for the proposal is in 'UnicodeData.txt', attached to this PDF.</xh:p>
+  <xh:p>The reference data for the proposal is in `UnicodeData.txt', attached to this PDF.</xh:p>
 
   <xh:p>Code charts and a character list are provided in the following
   pages for informational purposes only.</xh:p>
+  
+  <tex:text>\vfill\supereject</tex:text>
   
   <xh:h2>Code Charts</xh:h2>
 
@@ -105,7 +105,7 @@
   <xi:include href="../m/cpage5.xml"/>
   <xi:include href="../m/cpage6.xml"/>
 
-  <tex:text>\newpage</tex:text>
+  <tex:text>\vfill\supereject</tex:text>
   
   <xh:h2>Character List</xh:h2>
 
