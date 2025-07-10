@@ -65,11 +65,18 @@
 
   <xh:dl>
     <xh:dt>PCSL</xh:dt>
-    <xh:dd>The core PCSL data: the sign name and category tag are at the
+    <xh:dd><xh:p>The core PCSL data: the sign name and category tag are at the
     top of the case; the distribution, Oracc ID (OID) and ZATU number,
     if any, are at the bottom of the case. If the sign is proposed for
     encoding in PC25, the hex codepoint and reference glyph are given
-    in the middle of the case.</xh:dd>
+    in the middle of the case.</xh:p>
+    <xh:p>CDLI names either from print sources or in the CDLI-gh name
+    list that have been adapted to PCSL conventions appear in this
+    block with the prefix <code>CDLI:</code>.</xh:p>
+    <xh:p>CDLI names used in the transliterated corpus which are
+    handled using aliases in the validation data appear in this block
+    with the prefix <code>AKA:</code>.</xh:p>
+    </xh:dd>
     <xh:dt>FONT</xh:dt>
     <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.
     Glyphs coloured blue are not included in the CDLI-gh
@@ -95,6 +102,22 @@
   <xi:include href="../m/zatu.html"/>
   
   <tex:appendix>Index of Alternate CDLI Sign Names</tex:appendix>
+
+  <xh:p>This index covers two kinds of differences between CDLI names
+  and PCSL names (ignoring the differences that result from
+  re-encoding the CDLI names in Unicode rather than as ASCII).</xh:p>
+
+  <xh:p>Changes made to the CDLI names are indicated with a
+  greater-than (becomes) symbol, <code>&gt;</code>. These are CDLI
+  names either in print or in the CDLI-gh name list that have been
+  adapted to PCSL conventions.  These appear in the PCSL table in the
+  main sign block with the prefix <code>CDLI:</code>.</xh:p>
+
+  <xh:p>CDLI names used in the transliterated corpus have not
+  generally been normalized to PCSL forms.  These are handled using
+  aliases in the validation data, which appear in the PCSL table in
+  the main block with the prefix <code>AKA:</code>.  Aliases in this
+  index are indicated with the equals sign, <code>=</code>.</xh:p>
 
   <xi:include href="../m/aka-cdiff.xml"/>
   
