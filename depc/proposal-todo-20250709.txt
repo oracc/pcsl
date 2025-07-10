@@ -11,7 +11,7 @@ TOC
 	suppress sections in Appendices
 
 General
-	consolidate all sequences discussions into one appendix
+	-consolidate all sequences discussions into one appendix
 	get sections/appendices in headers?
 	revise all citations to use \cite
 	Update Oracc PUA doco for F2XXX glyph variants
@@ -101,10 +101,10 @@ Appendix D
 Appendix F
 	What happened to Uruk V new signs?
 	
-Appendix K
+-Appendix K
 
-	Is this really necessary? Just use (modify?) Appendix M? Could
-	just include list of SLs seq occurs in in App M?
+	-Is this really necessary? Just use (modify?) Appendix M? Could
+	-just include list of SLs seq occurs in in App M?
 
 Appendix M
 	Experiment with omitting CHARNAME from second and sqq rows
@@ -112,5 +112,5 @@ Appendix M
 	F228B overfull box in CHARNAME (reduce font size?)
 
 Appendix N
-	resolve overfull boxes and bad glyph; merge with general sequences
-	discussion
+	resolve overfull boxes and bad glyph
+	-merge with general sequences discussion--NO: leave as its own appendix

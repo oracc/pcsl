@@ -88,7 +88,7 @@
 
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
-  <xi:include href="../m/pcsl-tab.html"/>
+<!--  <xi:include href="../m/pcsl-tab.html"/> -->
 
   <tex:appendix>ZATU-PCSL Concordance</tex:appendix>
 
@@ -101,7 +101,7 @@
   <tex:appendix>PCSL Non-PC25</tex:appendix>
 
   <xh:p>This table gives every text in the PC corpus that contains one
-  or more unencoded signs, along with a list in the 'Missing' column
+  or more unencoded signs, along with a list in the `Missing' column
   of the specific signs which are not in the PC25 encoding.</xh:p>
   
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
@@ -156,16 +156,17 @@
 
   <xh:p>This table gives numbers which are neither in Archaic
   Cuneiform Numbers or in PC25.  Some of these may be candidates for
-  future encoding.  The abbreviation 'OOR' indicates numbers which are
-  Out Of Range with regard to their respective system.  'OOR5'
+  future encoding.  The abbreviation `OOR' indicates numbers which are
+  Out Of Range with regard to their respective system.  `OOR5'
   indicates an Out Of Range number occurring in Uruk V texts. The tag
-  'Pelm' indicates numbers which are likely to be encoded as
+  `Pelm' indicates numbers which are likely to be encoded as
   Proto-Elamite.</xh:p>
   
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
   <xi:include href="../m/no_numberxacn.html"/>
-  
+
+  <!--
   <tex:appendix>PC25 Not Encoded: Sequence</tex:appendix>
 
   <xh:p>This table gives sequences which are not encoded.</xh:p>
@@ -173,12 +174,54 @@
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
   <xi:include href="../m/no_sequence.html"/>
+
+  -->
   
-  <tex:appendix>PC25 Encoded Exceptional Sequences</tex:appendix>
+  <tex:appendix>PC25 Sequences Encoded as Exceptions</tex:appendix>
 
   <xh:p>This table gives sequences which are encoded because they have
-  some exceptional characteristic.</xh:p>
+  some exceptional characteristic against the principle that sequences
+  are not encoded.</xh:p>
   
+  <xh:h2>Reasons for Exceptions</xh:h2>
+
+  <xh:h3>Reanalysis</xh:h3>
+
+  <xh:p>Two city-name signs, ADAB and ARARMA~a, have earlier forms
+  which are distinct from their reanalysis to include an initial
+  U₄ component.  Other city names may also have earlier integral
+  forms but without further evidence they are not proposed for
+  encoding as characters at this point.</xh:p>
+
+  <xh:h3>Container Equivalency</xh:h3>
+
+  <xh:p>The signs ASAR and AZ are the equivalent of containers.</xh:p>
+  
+  <xh:h3>Unencoded Constituents</xh:h3>
+
+  <xh:p>The following exception signs contain unencoded consituents:
+  ME₃ (EŠDA-tenu), ŠAGINA (modified UŠ form with additional strokes,
+  unclear with this is an UŠ or not), ZUBI~a (NA₂-nutillu).</xh:p>
+  
+  <xh:h3>Analogy: BAPPIR Group</xh:h3>
+
+  <xh:p>The group of signs with the base BAPPIR has one member which
+  is a container (BAPPIR~e) and the entire group is encoded by
+  analogy.</xh:p>
+      
+  <xh:h3>Analogy: Sheep Group</xh:h3>
+
+  <xh:p>The groups of signs with the base SILANITA, UDUNITA and UTUA
+  represent various types (ages, genders) of sheep and since some
+  of them have unencoded constituents the members of all groups
+  are encoded as characters.</xh:p>
+
+  <xh:h3>Analogy: UTUL Group</xh:h3>
+
+  <xh:p>The UTUL group contains one member which includes an uncoded
+  superposed reduplicated component (UTUL~c), so the entire group
+  is encoded as characters.</xh:p>
+   
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
   <xi:include href="../m/no_sequencexexc.html"/>
@@ -191,11 +234,11 @@
     <xh:li>In column one the character name (CHARNAME) and glyph names
     (GLYFNAME) are given along with the decomposition of the ligature
     into the base characters; in this decomposition the different
-    joiners are used rather than mapping them all to '.'.</xh:li>
+    joiners are used rather than mapping them all to `.'.</xh:li>
 
     <xh:li>In column two the precomposed single ligature character in
     the PUA is shown with its hex code; some ligatures do not have a
-    precomposed version, in which case a '0' appears in this
+    precomposed version, in which case a `0' appears in this
     column.</xh:li>
 
     <xh:li>In column three the input on the upper row is the Unicode

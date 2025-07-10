@@ -113,11 +113,9 @@
 
   <xi:include href="../m/chartlist.html"/>
 
-  <!--<tex:text>\endinput</tex:text> -->
-
   <tex:text>\printbibliography</tex:text>
   <tex:text>\addcontentsline{toc}{section}{References}</tex:text>  
 
-  <!--<xi:include href="depc-appendices.xml"/>-->
+  <xi:include href="depc-appendices.xml"/>
   
 </tex:driver>
