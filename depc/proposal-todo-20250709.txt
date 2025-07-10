@@ -6,10 +6,6 @@
 Abstract
 	Add # of new signs/block codes and percentage coverage
 
-TOC
-	change URL font/colour/boxing
-	suppress sections in Appendices
-
 General
 	-consolidate all sequences discussions into one appendix
 	get sections/appendices in headers?
@@ -48,31 +44,27 @@ Section 5.1
 Section 5.1.4
 	'total' row in PC25 texts table is wrongly using PCSL stats
 
-Section 5.3.1
-	Give title of Langdon's PI plus abbreviation
+-Section 5.3.1
+-	Give title of Langdon's PI plus abbreviation
 
-Section 5.3.5
-	Oracc project *PCSL* [Tin24]
+-Section 5.3.5
+-	Oracc project *PCSL* [Tin24]
 
-Section 5.3.7
-	constitu*t*e
+-Section 5.3.7
+-	constitu*t*e
 
-Section 5.2, 5.6 and appendices M and N need consolidation
-	refer to consolidated discussion in Principle 8 and 9.
+-Section 5.2, 5.6 and appendices M and N need consolidation
+-	refer to consolidated discussion in Principle 8 and 9.
 
-Section 5.3 #11
-	say "occur only as components of complex signs"
-
-Section 5.5
-	Double-check reference glyphs to make sure they are
-	Uruk Uruk III where possible
+-Section 5.3 #11
+-	say "occur only as components of complex signs"
 
 Section 7
 	Mention chart font here as well.
 
 Appendix A
 	New page and fix header
-	Explain AKA: and CDLI: and reference new Appendix B
+	-Explain AKA: and CDLI: and reference new Appendix B
 	Explain prescript numbers in FONT column if not already done
 	Explain TAG codes -sq and -bk etc.
 	EZINU~b CDLI-gh too big
@@ -92,7 +84,7 @@ Appendix A
 
 
 Appendix C
-	Explain what this is and notations
+	-Explain what this is and notations
 	Fix |×N(57).GAR| (in cepc translator?)
 
 Appendix D
