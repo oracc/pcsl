@@ -1,0 +1,7 @@
+TOC
+	change URL font/colour/boxing
+	suppress sections in Appendices
+
+Section 6.5
+	Double-check reference glyphs to make sure they are
+	Uruk Uruk III where possible
