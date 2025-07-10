@@ -192,12 +192,26 @@ from Uruk and Umma \cite{Englund2009}.</p>
 <p>The other important--but numerically far fewer--group of texts are
 the word lists that Assyriologists generally refer to as `Lexical
 Texts'.  These appear in the earlist phases of writing and are
-especially well evidenced in Uruk III texts. Importantly, many of
-these lexical lists continue into the Early Dynastic period, where
-manuscripts from Fara and Abu Ṣalabīkh write the same content but in
-contemporary cuneiform.  This provides the best evidence for the
-alignment of PC and SAC, but an account of these alignments is beyond
-the scope of Unicode.</p>
+especially well evidenced in Uruk III texts.</p>
+
+<p>The best attested of these is the list of professions and
+occupations usually called `Archaic Lu A', `Professions', or some
+combination thereof.  More than 60 fragments of this list have been
+identified, from which an almost complete composite text can be
+reconstructed.  The creation of a composite text is a common
+disciplinary practice with lexical lists which are attested mostly in
+small fragments containing only a few lines of the text: combining
+these overlapping fragments, which exhibit a generally if not
+perfectly consistent order and selection of lines, results in a
+reconstructed text which facilitates working with the data.</p>
+
+<p>The range of archaic lexical texts is modest but invaluable.  The
+lists are primarily thematic, covering Vessels and Garments (the
+second-best attested list after Professions); Metals; Wood; Cattle;
+Officials; Cities; Geography; Fish; Food; Birds; and Plants.  There
+are also some word lists which are not strictly thematic.  An
+excellent overview is given by Niek Veldhuis in
+\cite[27-59]{Veldhuis2014}.</p>
 
 <tex:text>
   <tex:latex>
@@ -226,12 +240,11 @@ the scope of Unicode.</p>
   </tex:plain>
 </tex:text>
 
-<p>The disciplinary practice with lexical lists, which are attested
-mostly in small fragments containing only a few lines of the text, is
-to create composites which allow for an overview of the list and in
-which each individual entry is evidenced by one or more manuscripts. A
-sample composite and some typical manuscripts are given in the figure
-\ref{lexfig}.</p>
+<p>An important feature of the archaic lexical lists is that some of
+them continue into the Early Dynastic period, where manuscripts from
+Fara and Abu Ṣalabīkh write the same content but in contemporary
+cuneiform---see \cite{LecompteDiss,Wagensonner2016,} with previous
+literature.</p>
 
 <h2>Writing</h2>
 

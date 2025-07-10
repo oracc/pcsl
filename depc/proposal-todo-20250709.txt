@@ -20,8 +20,8 @@ General
 
 Section 1
 	-Overfull box in first bullet
-	Steve Tinney not Stephen
-	Don't say 'scholarly' repertoire
+	-Steve Tinney not Stephen
+	-Don't say 'scholarly' repertoire
 
 Section 3
 	-Add more \cite in all sections
@@ -37,8 +37,8 @@ Section 3
 		Possibly compress big Englund figure and vocab figures onto one page
 
 Section 4
-	in Names discussion address URI₃/ŠEŠ and ref Selz2025
-	add 4.2	Statement on alignment of Pcun and Xsux (because it is foregrounded by Selz's new thing)
+	-in Names discussion address URI₃/ŠEŠ and ref Selz2025
+	-add 4.2	Statement on alignment of Pcun and Xsux (because it is foregrounded by Selz's new thing)
 
 Section 5.1
 	Initiative website at XXXX is the most

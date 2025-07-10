@@ -106,6 +106,29 @@
   <p>Signs which occur only in ED I-II texts will be evaluated for
   encoding in SAC in the future, as will signs that first occur in
   ED I-II and recur in later periods.</p>
+
+  <esp:ssh>Pcun and Xsux Relationships Not in Unicode Scope</esp:ssh>
+
+  <p>The development of the cuneiform script from Proto-Cuneiform to
+  Sumero-Akkadian Cuneiform is naturally a matter of considerable
+  interest particularly because of the hope that better understanding
+  of this development might assist in improvements in the decipherment
+  and interpretation of both PC and ED texts. Scholarly discussion of
+  this development can be expected to remain active and to exhibit
+  ongoing shifts in perspectives and understanding
+  \cite{Wagensonner2016,Selz2025}.</p>
+
+  <p>The proposal to encode Proto-Cuneiform does not provide a
+  concordance of Pcun and Xsux signs for several reasons.  One is that
+  the proposal is a systematic disunification of Pcun and Xsux, which
+  does not depend on the two writing systems mutually informing each
+  other.  Another is that assertions concerning individual
+  relationships of PC and ED signs exhibit varying degrees of certainty or
+  plausibility: reducing these to a standard is currently impractical
+  and may always be so.  Relatedly, a further reason is that any
+  concordance provided here would inevitably require frequent updating
+  of the standard.  For all of these reasons, alignment of the Pcun
+  and Xsux repertoires is left as an exercise for the scholarly
+  community.</p>
   
 </esp:page>
-
