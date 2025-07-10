@@ -34,11 +34,11 @@ Section 3
 
 Section 4
 	-in Names discussion address URI₃/ŠEŠ and ref Selz2025
-	-add 4.2	Statement on alignment of Pcun and Xsux (because it is foregrounded by Selz's new thing)
+	-add 4.2 Statement on alignment of Pcun and Xsux (because it is foregrounded by Selz's new thing)
 
 Section 5.1
-	Initiative website at XXXX is the most
-	'minor adjustments' => 'small adjustments'
+	-Initiative website at XXXX is the most
+	-'minor adjustments' => 'small adjustments'
 	7224 texts is weird; where is that coming from???
 
 Section 5.1.4

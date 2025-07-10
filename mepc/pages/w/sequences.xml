@@ -12,7 +12,7 @@
       and is dissociated from glyph names.  All of the variants of a
       sequences are grouped under a single <code>@sign</code>.  The
       sign name is composed of a conventional ordering of the
-      sequence, with each component joined by periods ('.'). Each sign
+      sequence, with each component joined by periods (`.'). Each sign
       name is unique among the set of sign names.</p>
       <p>If there is an attested simple linear sequence for a sequence
       character, that form is selected for the character name.  The
@@ -27,14 +27,14 @@
       tilde and a sequence of one or more digits.  One glyph name for
       LUGAL is <code>|GAL~a.LU₂~a|~1</code>.  The variant tag is
       stable and represents a variation on the basic glyph name (i.e.,
-      the name with all joiners mapped to '.').</p>
+      the name with all joiners mapped to `.').</p>
       <p>Glyph names only have to be unique among @glyf entries; a
       @sign and @glyf may have the same name.</p>
       <esp:sh>How unique glyph names are constructed</esp:sh>
       <p>Unique glyph names are constructed by varying the order and
       joiners of the grapheme notation in a way that reflects the
-      variant's form. The joiners are '.' ("BESIDE"), '+' ("JOINING"),
-      and '∘' ("TURNING"), the ring operator. This last is an addition
+      variant's form. The joiners are `.' (``BESIDE''), `+' (``JOINING''),
+      and '∘' (``TURNING''), the ring operator. This last is an addition
       to ATF notation to support the description of sign clustering.</p>
       <p>Glyph names do not encode internal glyph variation, i.e.,
       several variant forms of IB are used in the construction of ŠAB

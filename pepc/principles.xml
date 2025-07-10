@@ -39,7 +39,7 @@
       III (later) forms are presumptively of the same sign: Uruk IV
       forms tend to have more curves and more complex shapes.  For
       many signs, this analysis is assisted by duplicate manuscripts
-      of word lists ("lexical texts") that give the same text with
+      of word lists (`lexical texts'') that give the same text with
       variant sign forms.  Elsewhere, commodity lists of phrasal
       constructs can give contextual information on the likelihood
       that two distinct forms actually belong to the same sign.</p>
@@ -141,7 +141,7 @@
 	transliteration practice for Proto-Cuneiform some signs are given
 	simple names which do not reflect their status as a sequence, e.g.,
 	LUGAL is actually a sequence of GAL₂ and LU₂, or LU₂ and GAL. We call
-	these sequences "opaque sequences" and, like regular sequences, they
+	these sequences ``opaque sequences'' and, like regular sequences, they
 	are not encoded.</li>
 
 	<li>Do make exceptions to the sequences rule for the following reasons:
@@ -186,8 +186,8 @@
 	preferable to treat the signs as a sequence rather than a
 	complex.</li>
 	
-	<li>Do not separately encode signs which occur only in
-	complex signs</li>
+	<li>Do not separately encode signs which occur only as
+	components of complex signs</li>
 
 	<li>Do not encode uncertain signs, especially those from
 	unedited texts such as the Schoyen Umma material</li>

@@ -23,14 +23,15 @@ considered encodable, but most of the texts that fall outside of this
 subcorpus are in fact fully covered by PC25 because the unencoded
 characters affect relatively few texts.</p>
 
-<p>The PC corpus as hosted on the Cuneiform Digitial Library
-Initiative website at <esp:link url="https://cdli.earth"/> is the most
-important resource for encoding PC because it is defines current
+<p>The PC corpus as hosted on the Cuneiform Digital Library Initiative
+website at <esp:link
+url="https://cdli.earth">https://cdli.earth</esp:link> is the most
+important resource for encoding PC because it defines current
 scholarly practice in the field.  PCSL and PC25 diverge from this
 corpus systematically only in the translation of the corpus to the
 Unicode notations used by Oracc, the <esp:link
 url="http://oracc.org/pcsl">Open Richly Annotated Cuneiform
-Corpus</esp:link>.  The PCSL corpus makes only minor adjustments to
+Corpus</esp:link>.  The PCSL corpus makes only small adjustments to
 the CDLI corpus to correct for some minor notational
 inconsistencies.</p>
 
