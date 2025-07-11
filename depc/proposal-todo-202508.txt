@@ -1,3 +1,6 @@
+Title/maketitle
+	name e-mails?
+
 TOC
 	change URL font/colour/boxing
 	suppress sections in Appendices
@@ -18,3 +21,38 @@ Appendices: What happened to Uruk V non-encoded signs? Explore restoring that ap
 
 note ref to post-Uruk Uruk tablets in LecompteVerderame2013 for 4.1
 
+General
+	get sections/appendices in headers?
+	Update Oracc PUA doco for F2XXX glyph variants
+	Numbers in PCSL; selection; grouping of N57-X; U4-time
+
+Appendix A
+	Explain prescript numbers in FONT column if not already done
+	Explain TAG codes -sq and -bk etc.
+	EZINU~b CDLI-gh too big
+	GA₂~a1×X disunify GA₂~a1×X₁
+	GUM~b CDLI-gh too big
+	NESAG~b CDLI-gh too big
+	Where do ŠEN~d glyphs go??? And what of ŠEN~d×A?
+	ŠU₂.AN FONT column is wrong; o0981343; o0981374
+	seq processing diagnostics need dealing with
+	what is ZATU858 CDLI-gh??
+	9(N06) FONT too wide
+	3(N23)/7(N23) CDLI-gh too wide
+	5,6,7(N23) CDLI-gh too wide
+	7,8,9(N34@f) FONT too wide
+	5(N48) CDLI-gh too wide
+	8,10(N57) CDLI-gh too wide
+
+Appendix C
+	-Explain what this is and notations
+	Fix |×N(57).GAR| (in cepc translator?)
+
+Appendix SEQ
+	Experiment with omitting CHARNAME from second and sqq rows
+	Add OID
+	F228B overfull box in CHARNAME (reduce font size?)
+
+Appendix Fonts
+	resolve overfull boxes and bad glyph
+	reference ASL discussion in OSL
