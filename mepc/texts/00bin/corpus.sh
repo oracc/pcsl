@@ -22,13 +22,13 @@ cd $dir
 
 rm -f [cgpux]-* gl-*.tok
 
-$qx $p='uruk iii' | $c | sort >c-3
-$qx $p='uruk iv'  | $c | sort >c-4
-$qx $p='uruk v'   | $c | sort >c-5
+$qx $p:'uruk_iii' | $c | sort >c-3
+$qx $p:'uruk_iv'  | $c | sort >c-4
+$qx $p:'uruk_v'   | $c | sort >c-5
 sort c-[345] >c
-$qx $p='uruk iii' | xmdfields.plx >x-3
-$qx $p='uruk iv'  | xmdfields.plx >x-4
-$qx $p='uruk v'   | xmdfields.plx >x-5
+$qx $p:'uruk_iii' | xmdfields.plx >x-3
+$qx $p:'uruk_iv'  | xmdfields.plx >x-4
+$qx $p:'uruk_v'   | xmdfields.plx >x-5
 
 for a in Warka Jokha Jemdet Uqair ; do
     if [ "$a" = "Warka" ]; then
@@ -50,7 +50,14 @@ sort -u c-3-* | comm -23 c-3 - >c-3-misc
 sort -u c-4-* | comm -23 c-4 - >c-4-misc
 sort -u c-5-* | comm -23 c-5 - >c-5-misc
 
-../00bin/mk-u.sh
+if [ "$prj" = "pcsl" ]; then
+    ../00bin/mk-u.sh
+else
+    cat </dev/null >c-3-misc-u
+    cat </dev/null >u-5
+    cat </dev/null >u-4
+    cat </dev/null >u-3
+fi
 
 # compute published texts
 comm -23 c-3 u-3 >p-3

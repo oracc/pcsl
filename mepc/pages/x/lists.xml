@@ -13,13 +13,14 @@
 
       <esp:ssh>Historic Lists</esp:ssh>
 
-      <p>The earliest list of Proto-Cuneiform signs is Stephen
-      Langdon's {\emph Pictographic Inscriptions from Jemdet Nasr}
-      <eb:cite key="PI"/>, a list accompanying the Jemdet Nasr tablets
-      published in 1928. Less than ten years later, in 1936, Adam
-      Falkenstein published the first list of signs from the archaic
-      Uruk texts in ATU <eb:cite key="ATU1"/>.  Falkenstein referenced
-      Langdon's list using the abbreviation <code>PI</code>.</p>
+      <p>The earliest list of Proto-Cuneiform signs is to be found in
+      Stephen Langdon's \emph{Pictographic Inscriptions from Jemdet
+      Nasr} <eb:cite key="PI"/>, which contains a list accompanying
+      the Jemdet Nasr tablets published by him in 1928. Less than ten
+      years later, in 1936, Adam Falkenstein published the first list
+      of signs from the archaic Uruk texts in ATU <eb:cite
+      key="ATU1"/>.  Falkenstein referenced Langdon's list using the
+      abbreviation <code>PI</code>.</p>
       
       <esp:ssh>The Intended Standard List</esp:ssh>
 

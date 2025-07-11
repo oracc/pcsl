@@ -114,7 +114,8 @@
 
   <xh:p>This table gives every text in the PC corpus that contains one
   or more unencoded signs, along with a list in the `Missing' column
-  of the specific signs which are not in the PC25 encoding.</xh:p>
+  of the specific signs which are not included in the proposed PC25
+  encoding.</xh:p>
   
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
 
@@ -128,7 +129,8 @@
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
   <xi:include href="../m/no_broken.html"/>
-  
+
+  <!--
   <tex:appendix>PC25 Not Encoded: Uruk V not in Sub-corpus</tex:appendix>
 
   <xh:p>This table gives signs excluded because they only occur in Uruk V.</xh:p>
@@ -136,7 +138,8 @@
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
   <xi:include href="../m/no_uruk5.html"/>
-  
+  -->
+
   <tex:appendix>PC25 Not Encoded: Uruk IV/III not in Sub-corpus</tex:appendix>
 
   <xh:p>This table gives signs which do occur in Uruk IV and III but

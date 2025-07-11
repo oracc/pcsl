@@ -13,23 +13,24 @@ use Getopt::Long;
 GetOptions(
     );
 
-my @c1 = qw/mus per pub pro his/;
-my @c2 = qw/per pro mus/;
+my @c1 = qw/mus pro per pub/;
+#my @c2 = qw/per pro mus/;
 
 my %cat = (); my @cat1 = `cat tpcsl/notcov-cat1.tsv`; chomp @cat1;
 
 foreach (@cat1) {
     my($p,@f) = split(/\t/,$_);
+    push @f, '-';
     @{$cat{$p}}{@c1} = @f;
 }
 
-my @cat2 = `cat tpcsl/notcov-cat2.tsv`; chomp @cat2;
-foreach (@cat2) {
-    my ($p,@f) = split(/\t/,$_);
-    unless ($cat{$p}) {
-	@{$cat{$p}}{@c2} = @f;
-    }
-}
+#my @cat2 = `cat tpcsl/notcov-cat2.tsv`; chomp @cat2;
+#foreach (@cat2) {
+#    my ($p,@f) = split(/\t/,$_);
+#    unless ($cat{$p}) {
+#	@{$cat{$p}}{@c2} = @f;
+#    }
+#}
 
 my %sl = (); my @sl = `cut -f1,2,3,7 tpcsl/notcov-final.tsv`; chomp @sl;
 foreach (@sl) {

@@ -5,11 +5,13 @@
   <div class="display">
 
     <p>This is a new proposal to encode 1392 ‘Proto‑Cuneiform’
-    (\cite{ISO15924} Pcun) characters in Unicode. These characters
-    belong to the earliest attested writing system, which emerged at
-    the end of the 4th millenium BCE in Uruk, a region between the
-    Tigris and Euphrates rivers, in what in commonly referred to as
-    Mesopotamia.</p>
+    (\cite{ISO15924} Pcun) characters in the Unicode range
+    12690-12BFF. These characters belong to the earliest attested
+    writing system, which emerged at the end of the 4th millenium BCE
+    in Uruk, a region between the Tigris and Euphrates rivers, in what
+    in commonly referred to as Mesopotamia. The encoding would cover
+    more than 99% of all instances of graphemes in the corpus
+    (\ref{coverage}).</p>
 
     <p>Proto‑Cuneiform is a pictographic script, with symbols etched
     or pressed onto clay surfaces. This writing system was used

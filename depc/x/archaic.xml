@@ -168,18 +168,6 @@ from Uruk and Umma \cite{Englund2009}.</p>
     \begin{figure}[!htb]
     \centering
     \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.3]{images/P005252.png}
-    \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
-    \end{figure}
-  </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
-
-<tex:text>
-  <tex:latex>
-    \begin{figure}[!htb]
-    \centering
-    \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.35]{images/P005252.png}
     \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}

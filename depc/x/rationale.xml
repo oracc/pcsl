@@ -5,11 +5,10 @@
 
   <h1>Rationale for Separately Encoding Proto-Cuneiform</h1>
   <tex:text>\label{rationale}</tex:text>
-  <!--<tex:text>\include{m/rationale}</tex:text>-->
+  
   <xi:include xml:base="." href="../m/rationale.tex" parse="text"/>
  
   <esp:sh>ED I-II Excluded from the Proposal</esp:sh>
-
   <tex:text>\label{EDexcluded}</tex:text>
   
   <p>It is generally recognized that there is a group of about 400
@@ -17,7 +16,7 @@
   but earlier than the ED IIIa corpus from Fara (Šuruppak): these
   are conventionally assigned to the Early Dynastic I-II period.
   There are also about two dozen tablets and fragments from Uruk
-  that are assigned to the same period (Green; Lecompte nXXX).</p>
+  that are assigned to the same period \cite{Green1982,LecompteVerderame2013}.</p>
 
   <p>Texts and signs from this period are excluded from the
   proto-cuneiform proposal.</p>
@@ -34,7 +33,7 @@
   The archaic numerical systems were used, but in simplified
   forms, and the lexical lists were copied and transmitted, but
   no new lists were added. Tablets were as a rule clumsily
-  formed and inscribed. (Englund OBO 160/1 [1998], p.215).
+  formed and inscribed. \cite[215]{Englund1998}
   </blockquote>
 
   <p>Appearing about 15 years later, Lecompte and Verderame's
@@ -61,7 +60,7 @@
   values: instead of writing such cumbersome transliterations as
   DUB~a-LU₂-NU-ŠE₃ or EN~a-GAN~a-GI4~a, it was accordingly more
   convenient to propose directly Mes-lu₂-nu-še₃ and
-  En-ḫe₂-gi₄. (Lecompte and Verderame 2014, p.4)</blockquote>
+  En-ḫe₂-gi₄. \cite[4]{LecompteVerderame2013}</blockquote>
 
   <p>Another factor which marks the ED I-II corpus as transitional
   between Uruk III/Jemdet Nasr and ED IIIa is the organization and
@@ -87,12 +86,12 @@
   – total expressed as gu₂-an-še₃.<br/>
   <br/>
   Other features are very specific to the ED I–II period, such as the clumsy form of many
-  tablets and the random disposition of columns. (Lecompte 2016: 142).</blockquote>
+  tablets and the random disposition of columns. \cite[142]{Lecompte2016}.</blockquote>
 
-  <p>After discussion among the proposal authors and Robin Leroy,
-  we have determined that it is preferable to establish the end of
-  the Uruk III period as the cutoff for Unicode PC encoding, and
-  to assign the ED I-II signiary to Sumero-Akkadian Cuneiform.</p>
+  <p>After discussion among the proposal authors, we have determined
+  that it is preferable to establish the end of the Uruk III period as
+  the cutoff for Unicode PC encoding, and to assign the ED I-II
+  signiary to Sumero-Akkadian Cuneiform.</p>
 
   <esp:ssh>PC signs in ED I-II</esp:ssh>
   

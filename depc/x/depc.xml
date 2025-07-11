@@ -84,7 +84,8 @@
   <xi:include href="../m/lists.xml"/>
   
   <xh:h2>Coverage</xh:h2>
-
+  <tex:text>\label{coverage}</tex:text>
+  
   <xi:include href="../m/coverage.xml"/>
   
   <xi:include href="../m/pepc.xml"/>

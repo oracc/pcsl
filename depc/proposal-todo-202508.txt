@@ -11,3 +11,10 @@ Should attached UnicodeData.txt be renamed NamesList.txt?
 Disunify |GA₂~a1×X| and (creating new non-encoded sign entry) |GA₂~a1×X₁|
 
 Figure out why chartlist isn't obeying offinterlineskip
+
+Appendices: What happened to Uruk V non-encoded signs? Explore restoring that appendix
+
+3.3.1 sub in graphic with more admin examples where summation is to make it a full page
+
+note ref to post-Uruk Uruk tablets in LecompteVerderame2013 for 4.1
+
