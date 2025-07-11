@@ -101,7 +101,7 @@
   <xh:p>Code charts and a character list are provided in the following
   pages for informational purposes only.</xh:p>
   
-  <tex:text>\vfill\supereject</tex:text>
+  <tex:text>\clearpage</tex:text>
   
   <xh:h2>Code Charts</xh:h2>
 
@@ -112,7 +112,7 @@
   <xi:include href="../m/cpage5.xml"/>
   <xi:include href="../m/cpage6.xml"/>
 
-  <tex:text>\vfill\supereject</tex:text>
+  <tex:text>\clearpage</tex:text>
   
   <xh:h2>Character List</xh:h2>
 

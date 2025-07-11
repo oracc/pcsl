@@ -8,3 +8,6 @@ Section 6.5
 
 Should attached UnicodeData.txt be renamed NamesList.txt?
 
+Disunify |GA₂~a1×X| and (creating new non-encoded sign entry) |GA₂~a1×X₁|
+
+Figure out why chartlist isn't obeying offinterlineskip

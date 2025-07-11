@@ -2,6 +2,7 @@
     xmlns:tex="http://oracc.org/ns/tex/1.0"
     xmlns:xh="http://www.w3.org/1999/xhtml"
     xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xix="http://www.w3.org/2001/XIncludeNot"
     class="sub"
     >
 
@@ -121,7 +122,7 @@
 
   <tex:appendix>PC25 Not Encoded: Broken</tex:appendix>
 
-  <xh:p>This table gives signs which are not encoded because the only
+  <xh:p>This table gives signs which are not encoded because they only
   occur in instances which are incomplete.</xh:p>
   
   <tex:text>\bigskip&#xa;&#xa;</tex:text>

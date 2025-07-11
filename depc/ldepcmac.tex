@@ -97,9 +97,9 @@
 
 \input lcodechart
 \input chartlist
-\input pcslmac
-\input nocomac
-\input seqdbmac
+\input pcslmac  \pcsltabinit
+\input nocomac  \nocotabinit
+\input seqdbmac \seqdbtabinit
 \input lzccmac
 
 \def\Hstrut{\vrule height12pt depth5pt width0pt}
@@ -163,10 +163,6 @@
 \def\beginDisplay{\begingroup\narrower}
 \def\endDisplay{\endgroup}
 
-\let\usetoc\relax
-
-\let\supereject\relax
-
 \let\preamble\relax
 \let\sectionsintocfalse\relax
 \let\subsectionsintocfalse\relax
@@ -208,7 +204,7 @@
     \parindent0pt\relax
     \parskip2pt plus1fil minus2pt\relax
 }
-\def\endakacdiff{\end{multicols}\vfil\supereject}
+\def\endakacdiff{\end{multicols}\clearpage}
 
 \newbox\akacdiffbox
 \def\akacdiff#1#2#3{

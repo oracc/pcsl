@@ -1,8 +1,8 @@
-\newcount\pageno
+\newcount\ltfirstpage \ltfirstpage=100000 
 
-\newbox\pcslbox \newbox\pcslheaderbox \newbox\pcslheadertmp
-\newdimen\pcslrowht
-\newdimen\pcslquad \pcslquad.45em
+\newbox\pcslbox \newbox\pcslheaderbox
+\newdimen\pcslrowht \newdimen\pcslhdrht
+\newdimen\pcslquad \pcslquad4.5pt
 \newdimen\pcslquadb \pcslquadb0pt
 \newdimen\cdliwd \cdliwd=2.75pc
 \newdimen\slcwd \slcwd=3.65pc
@@ -13,74 +13,64 @@
 \def\slcufont{\let\ucode\relax\helvz}
 \def\slhbox#1{\hbox to\slcwd{\hfil#1\hfil}}
 
-\newbox\nocobox \newbox\nocoheaderbox \newbox\nocoheadertmp
-\newdimen\nocorowht
-
-\def\nchbox#1{\hbox to.75in{\nine\rm#1\hss}}
-\def\nchboxmus#1{\hbox to1in{\nine\rm#1\hss}}
-\def\nchboxper#1{\hbox to.6in{\nine\rm#1\hss}}
-\def\nchboxm#1{\hbox to2.4in{\nine\rm#1\hfil}}
-
-\def\beginpcsltab{%\newpage
-  \bgroup\offinterlineskip \lineskip1pt
-%  \ltfirstpage\the\pageno
-  \setbox\pcslheaderbox=\vbox{\vfuzz12pt%
+\def\pcsltabinit{
+  \pcslhdrht=10pt
+  \global\setbox\pcslheaderbox=\vbox{%
   \pcslrowx{\hbox{PCSL}}%
-          {\slhbox{FONT}}%
+          {\hdrslhbox{FONT}}%
           {\hbox to\cdliwd{\hss CDLI\hss}}%
-          {\slhbox{ATU3}}%
-          {\slhbox{ATU5}}%
-          {\slhbox{MSVO1}}%
-          {\slhbox{MSVO4}}%
-          {\slhbox{CUSAS}}%
+          {\hdrslhbox{ATU3}}%
+          {\hdrslhbox{ATU5}}%
+          {\hdrslhbox{MSVO1}}%
+          {\hdrslhbox{MSVO4}}%
+          {\hdrslhbox{CUSAS}}%
           2}%
-   %\righthdrinfo{}%
-   %\headersep20pt
-   \copy\pcslheaderbox
 }
-
-\def\pcslheader{%
-    \ifnum\pageno>\ltfirstpage
-      \lefthdrinfo{}%
-      \righthdrinfo{}%
-      \headersep20pt
-      \setbox\pcslheadertmp=\vbox{%
-        \kern-12pt
-        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
-        \kern2pt
-        \unvcopy\pcslheaderbox
-      }%
-      \centrehdrinfo{\box\pcslheadertmp}%
-    \fi}
-
-\def\endpcsltab{\pcslheader\vfil\supereject\egroup}
+\def\hdrslhbox#1{\hbox to\slcwd{\hss#1\hss}}
 
 \def\pcslrowx#1#2#3#4#5#6#7#8#9{%
-   \hrule height1.5pt
+   \hrule height1.5pt width6.5in
+   \kern1pt
    \hbox to\hsize{%
-         \vbox to\pcslrowht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
-         \kern.425em
+         \vbox to\pcslhdrht{\vfil\hbox to2in{\hsize2in\relax#1\hfil}\vfil}%
+         \kern4.25pt
          \kern.75pt
-         \kern.425em
-         \vbox to\pcslrowht{\vfil#2\vfil}%
-         \kern.425em
+         \kern4.25pt
+         \vbox to\pcslhdrht{\vfil#2\vfil}%
+         \kern4.25pt
          \kern1pt
-         \kern.425em
-%         \vbox to\pcslrowht{\vfil#3\vbox to9pt{\vfil}\vfil}%
-         \vbox to\pcslrowht{#3\vfil}%
-         \kern.2em
+         \kern4.25pt
+         \vbox to\pcslhdrht{\vfil#3\vfil}%
+         \kern2pt
          \kern.5pt
-         \kern.2em
-         \pquadb\vbox to\pcslrowht{\vfil#4\vfil}%
-         \pquadb\vbox to\pcslrowht{\vfil#5\vfil}%
-         \pquadb\vbox to\pcslrowht{\vfil#6\vfil}%
-         \pquadb\vbox to\pcslrowht{\vfil#7\vfil}%
-         \pquadb\vbox to\pcslrowht{\vfil#8\vfil}%
-         \hfil
+         \kern2pt
+         \pquadb\vbox to\pcslhdrht{\vfil#4\vfil}%
+         \pquadb\vbox to\pcslhdrht{\vfil#5\vfil}%
+         \pquadb\vbox to\pcslhdrht{\vfil#6\vfil}%
+         \pquadb\vbox to\pcslhdrht{\vfil#7\vfil}%
+         \pquadb\vbox to\pcslhdrht{\vfil#8\vfil}%
+         \hss
          }%
-   \kern12pt
-   \hrule height1.5pt
+   \kern1pt
+   \hrule height1.5pt width6.5in
 }
+
+\def\usepcslheaderbox{\copy\pcslheaderbox}
+
+\def\fancypcslheader{
+  \ifnum\value{page}>\ltfirstpage
+    \vbox to0pt{\kern10pt\currheaderbox\vss}%
+  \fi
+}
+
+\def\beginpcsltab{
+  \bgroup\offinterlineskip \lineskip1pt
+  \ltfirstpage\value{page}%
+  \copy\pcslheaderbox
+  \let\currheaderbox\usepcslheaderbox
+}
+
+\def\endpcsltab{\clearpage\egroup}
 
 \catcode`\~=12
 \catcode`\|=12
@@ -101,7 +91,6 @@
 \newdimen\aht
 
 \def\pcslrow#1#2#3#4#5#6#7#8#9{%
-   \pcslheader
    \let\slnames\slnamesaunaturel
    \setbox\pcslbox\vbox{\hsize2in\relax#1\hfil}%
    \pcslrowht=\ht\pcslbox

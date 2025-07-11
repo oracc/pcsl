@@ -1,60 +1,46 @@
-\newbox\seqdbbox \newbox\seqdbheaderbox \newbox\seqdbheadertmp
-\newdimen\seqdbrowht
+\newbox\seqdbbox \newbox\seqdbheaderbox \newdimen\seqdbrowht
 
-\def\sqhboxnH#1{\hbox to2.3in{\eight\rm#1\hfil}}
-\def\sqhboxpH#1{\hbox to1.2in{\eight\rm#1\hfil}}
-\def\sqhboxLH#1{\hbox to3in{\eight\rm#1\hfil}}
-\def\sqhboxn#1{\hbox to2.3in{\seven\rm#1\hfil}}
+\def\sqhboxnH#1{\hbox to2.3in{\footnotesize#1\hfil}}
+\def\sqhboxpH#1{\hbox to1.2in{\footnotesize#1\hfil}}
+\def\sqhboxLH#1{\hbox to3in{\footnotesize#1\hfil}}
+\def\sqhboxn#1{\hbox to2.3in{\scriptsize#1\hfil}}
 \def\sqhboxd#1{\hbox to2in{\quad#1\hfil}}
-\def\sqhboxp#1{\hbox to1.2in{\nine\rm#1\hfil}}
-\def\sqhboxL#1{\hbox to3in{\nine\rm#1\hfil}}
-\def\sqhboxl#1{\hbox to3in{\seven\rm#1\hfil}}
+\def\sqhboxp#1{\hbox to1.2in{\small#1\hfil}}
+\def\sqhboxL#1{\hbox to3in{\small#1\hfil}}
+\def\sqhboxl#1{\hbox to3in{\scriptsize#1\hfil}}
 
-\def\beginseqdb{%\newpage
-  \bgroup\offinterlineskip \lineskip1pt
-  \ltfirstpage\the\pageno
+\def\useseqdbheaderbox{\copy\seqdbheaderbox}
+
+\def\seqdbtabinit{%
   \setbox\seqdbheaderbox=\vbox{\vfuzz12pt%
      \seqdbrowx{CHARNAME/GLYFNAME/DECOMP}%
                {PUA}%
                {LIG/.liga}%
    }%
-   %\righthdrinfo{}%
-   %\headersep20pt
-   \copy\seqdbheaderbox
 }
-
-\def\seqdbheader{%
-    \ifnum\pageno>\ltfirstpage
-      \lefthdrinfo{}%
-      \righthdrinfo{}%
-      \headersep22pt
-      \setbox\seqdbheadertmp=\vbox{%
-        \kern-10pt
-        \hbox to\hsize{\eight\it\the\runheadtoks\hfil\Sans\nine\rm\folio}%
-        \kern2pt
-        \unvcopy\seqdbheaderbox
-        \vbox to2pt{\vfil}%
-      }%
-      \centrehdrinfo{\box\seqdbheadertmp}%
-    \fi}
-
-\def\endseqdb{\seqdbheader\vfil\supereject\egroup}
-
 \def\seqdbrowx#1#2#3{%
-   \hrule height1.5pt
-   \kern2pt
+   \hrule height1.5pt width6.5in
+   \kern1pt
    \hbox to\hsize{%
-            \vbox to\seqdbrowht{\vfil\sqhboxnH{\rm#1}\vfil}%
-     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxpH{\rm#2}\vfil}%
-     \nquadb\vbox to\seqdbrowht{\vfil\sqhboxLH{\rm#3}\vfil}%
-     \hfil
+            \vbox to\pcslhdrht{\vfil\sqhboxnH{\rm#1}\vfil}%
+     \nquadb\vbox to\pcslhdrht{\vfil\sqhboxpH{\rm#2}\vfil}%
+     \nquadb\vbox to\pcslhdrht{\vfil\sqhboxLH{\rm#3}\vfil}%
+     \hss
    }%
-   \kern12pt
-   \hrule height1.5pt
+   \kern1pt
+   \hrule height1.5pt width6.5in
 }
+
+\def\beginseqdb{%\newpage
+  \bgroup\offinterlineskip \lineskip1pt
+  \ltfirstpage\value{page}%
+  \copy\seqdbheaderbox
+  \let\currheaderbox\useseqdbheaderbox
+}
+
+\def\endseqdb{\clearpage\egroup}
 
 \def\seqdbrow#1#2#3#4#5#6#7{%
-   \seqdbheader
 %   \setbox\seqdbbox\vbox{\hsize2in#3}%
 %   \seqdbrowht=\ht\seqdbbox
    \seqdbrowht=.55in

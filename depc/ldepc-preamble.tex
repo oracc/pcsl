@@ -1,4 +1,4 @@
-\documentclass[10pt, letter, twoside]{article}
+\documentclass[10pt]{article}
 \usepackage[
   letterpaper,
   total={6.5in,9in},
@@ -126,9 +126,11 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \newcommand{\thisDocumentShortTitle}{Proto-Cuneiform}
 \fancyfoot{}
 \fancyhead{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[CO]{\thisDocumentNumber}
-\fancyhead[CE]{\thisDocumentShortTitle}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\fancypcslheader}
+\fancyhead[C]{\thisDocumentNumber: \thisDocumentShortTitle}
+%\fancyhead[CO]{\vbox{\vbox{\thisDocumentNumber}\fancypcslheader}}
+%\fancyhead[CE]{\vbox{\vbox{\thisDocumentShortTitle}\fancypcslheader}}
 \renewcommand{\headrulewidth}{0.4pt}
 
 \title{\thisDocumentTitle}

@@ -4,6 +4,7 @@
 	       xmlns:eb="http://oracc.org/ns/esp-biblatex/1.0"
 	       xmlns:struct="http://oracc.org/ns/esp-struct/1.0"
 	       xmlns:tex="http://oracc.org/ns/tex/1.0"
+	       xmlns:xix="http://www.w3.org/2001/XIncludeNot"
 	       >
 
   <xsl:param name="latex" select="'no'"/>
@@ -1196,4 +1197,8 @@
     <xsl:message>Unhandled ESP-STRUCT tag <xsl:value-of select="local-name(.)"/></xsl:message>
   </xsl:template>
 
+  <!-- Hack for suppressing inclusion of some inputs -->
+
+  <xsl:template match="xix:include"/>
+  
 </xsl:transform>
