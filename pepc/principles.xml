@@ -64,7 +64,7 @@
 
       <esp:sh>Sequences</esp:sh>
 
-      <p>Sequences are a class of compound signs which exhibit a low
+      <p>Sequences\label{sequences} are a class of compound signs which exhibit a low
       degree of integration with each other.  In later cuneiform they
       are written as a linear sequence in which the constituents and
       order may vary.  In PC, they are written in linear form or as a

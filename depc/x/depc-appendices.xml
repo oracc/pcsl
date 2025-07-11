@@ -5,8 +5,6 @@
     class="sub"
     >
 
-  <!--<xh:h1>Supporting Documents</xh:h1>-->
-
   <tex:text>\section*{Appendices}</tex:text>
 
   <tex:text>\addcontentsline{toc}{section}{Appendices}</tex:text>
@@ -14,8 +12,6 @@
   <xh:p>Here we provide supporting documentation which exposes as much as
   possible of the decision-making processes and outcomes that are
   associated with the proposal.</xh:p>
-
-  <!--<tex:text>\begin{display}</tex:text>-->
 
   <xh:dl>
     
@@ -49,16 +45,8 @@
 
   </xh:dl>
 
-  <!--<tex:text>\end{display}</tex:text>-->
-
-  <!--<tex:text>\vfill\useapp\vfill</tex:text>-->
-
-  <!--<tex:text>\sectionsintocfalse\subsectionsintocfalse</tex:text> -->
-
   <tex:appendix>PCSL Table</tex:appendix>
   
-  <!--<tex:text>\hldest{xyz}{}{pcsl}</tex:text>-->
-
   <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
   convenient overview of the entire Proto-Cuneiform repertoire and its
   various data sources.  The contents of the columns are as follows:</xh:p>
@@ -95,7 +83,7 @@
 
   <tex:text>\bigskip&#xa;&#xa;</tex:text>
   
-<!--  <xi:include href="../m/pcsl-tab.html"/> -->
+  <xi:include href="../m/pcsl-tab.html"/>
 
   <tex:appendix>ZATU-PCSL Concordance</tex:appendix>
 

@@ -91,7 +91,12 @@
 
   <xh:h1>Proposal Documents</xh:h1>
 
-  <xh:p>The reference data for the proposal is in `UnicodeData.txt', attached to this PDF.</xh:p>
+  <xh:p>The reference data for the proposal is in `UnicodeData.txt',
+  attached to this PDF.</xh:p>
+
+  <xh:p>A special purpose code-chart font `pc25-cc.ttf', is also
+  attached to the proposal. See Appendix XXX for further
+  details.</xh:p>
 
   <xh:p>Code charts and a character list are provided in the following
   pages for informational purposes only.</xh:p>
