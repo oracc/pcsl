@@ -1,3 +1,7 @@
+font
+	move F1xxx out of where Oracc PUA puts @useq, which is already up to
+	F1CCE; this means Pcun should probably go up into the F2 or F3 zone
+
 Title/maketitle
 	name e-mails?
 
@@ -19,12 +23,15 @@ Appendices: What happened to Uruk V non-encoded signs? Explore restoring that ap
 
 3.3.1 sub in graphic with more admin examples where summation is to make it a full page
 
+3.3.x lexical graphic ref P-num texts properly
+
 note ref to post-Uruk Uruk tablets in LecompteVerderame2013 for 4.1
 
 General
 	get sections/appendices in headers?
 	Update Oracc PUA doco for F2XXX glyph variants
 	Numbers in PCSL; selection; grouping of N57-X; U4-time
+	Do we mention that this proposal is PC25 anywhere?
 
 Appendix A
 	Explain prescript numbers in FONT column if not already done

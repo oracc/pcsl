@@ -2,15 +2,6 @@
 @signlist pcsl
 @domain pc
 
-@inote	uage meanings:
-	0=do not encode
-	1=AP;
-	2=add from CUSAS;
-	3=add from BAU;
-	4=new but encode as useq;
-	8 confirmed
-	9 possibly add
-
 @listdef ATU -
 @lit	Adam Falkenstein, "Archaische Texte aus Uruk" (ATU 1), Berlin 1936.
 @note	Signs in ATU 1 are referred to as, e.g., ATU001; texts in ATU are referred to as, e.g., ATU 1, 1.
