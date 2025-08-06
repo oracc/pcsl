@@ -18,6 +18,13 @@ default: cepc mepc fepc repc depc
 	true
 
 #
+# The web version of pcsl is based on the corpus in cepc which is also
+# the home for 00lib/config.xml.
+#
+pcsl:
+	oracc build clean
+
+#
 # CEPC
 #
 # PCSL uses a catalogue and corpus that are maintained in cepc:
