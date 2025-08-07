@@ -1,3 +1,4 @@
+o0980000	e		-
 o0980000	s	A	A
 o0980000	s	A	A
 o0980000	s	A	A
@@ -186,6 +187,23 @@ o0980001	c	|A×AB₂|	|A×AB₂|
 o0980001	c	|A×AB₂|	|A×AB₂|
 o0980001	c	|A×AB₂|	|A×AB₂|
 o0980008	s	A@t	A@t
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
+o0980010	e		-
 o0980010	s	AB~a	AB~a
 o0980010	s	AB~a	AB~a
 o0980010	s	AB~a	AB~a
@@ -302,6 +320,7 @@ o0980021	s	AB~b	AB~b
 o0980022	c	|AB~b×A|	|AB~b×A|
 o0980023	c	|AB~b×KU₆~a|	|AB~b×KU₆~a|
 o0980024	c	|AB~b×ŠA₃~a1|	|AB~b×ŠA₃~a1|
+o0980025	e		-
 o0980025	s	AB₂	AB₂
 o0980025	s	AB₂	AB₂
 o0980025	s	AB₂	AB₂
@@ -470,6 +489,7 @@ o0980050	s	AMA~a	AMA~a
 o0980050	s	AMA~a	AMA~a
 o0980050	s	AMA~a	AMA~a
 o0980051	c	|AMA~a×E₂~a|	|AMA~a×E₂~a|
+o0980053	e		-
 o0980053	s	AMAR	AMAR
 o0980053	s	AMAR	AMAR
 o0980053	s	AMAR	AMAR
@@ -501,6 +521,8 @@ o0980053	s	AMAR	AMAR
 o0980053	s	AMAR	AMAR
 o0980053	s	AMAR	AMAR
 o0980053	s	AMAR	AMAR
+o0980058	e		-
+o0980058	e		-
 o0980058	s	AN	AN
 o0980058	s	AN	AN
 o0980058	s	AN	AN
@@ -1071,11 +1093,39 @@ o0980077	s	BA	BA
 o0980077	s	BA	BA
 o0980077	s	BA	BA
 o0980077	s	BA	BA
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
+o0980078	e		-
 o0980078	s	BAD	BAD
 o0980078	s	BAD	BAD
 o0980078	s	BAD	BAD
 o0980078	s	BAD	BAD
 o0980078	s	BAD	BAD
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
+o0980079	e		-
 o0980081	s	BAD₃~b1	BAD₃~b1
 o0980081	s	BAD₃~b1	BAD₃~b1
 o0980081	s	BAD₃~b1	BAD₃~b1
@@ -1247,6 +1297,7 @@ o0980105	s	BARA₂~a	BARA₂~a
 o0980105	s	BARA₂~a	BARA₂~a
 o0980105	s	BARA₂~a	BARA₂~a
 o0980105	s	BARA₂~a	BARA₂~a
+o0980107	e		-
 o0980107	s	BARA₃	BARA₃
 o0980107	s	BARA₃	BARA₃
 o0980109	s	BIR~a	BIR~a
@@ -1421,6 +1472,7 @@ o0980117	c	|BU~a+DU₆~a|	|BU~a+DU₆~a|
 o0980117	c	|BU~a+DU₆~a|	|BU~a+DU₆~a|
 o0980121	c	|BU~a×GIŠ@t|	|BU~a×GIŠ@t|
 o0980122	c	|BU~a×1(N58)|	|BU~a×1(N58)|
+o0980126	e		-
 o0980127	c	|BU~b.NA₂~a|	|BU~b.NA₂~a|
 o0980128	s	BU₃	BU₃
 o0980128	s	BU₃	BU₃
@@ -1442,6 +1494,8 @@ o0980132	s	BUR~a	BUR~a
 o0980132	s	BUR~a	BUR~a
 o0980132	s	BUR~a	BUR~a
 o0980132	s	BUR~a	BUR~a
+o0980136	e		-
+o0980136	e		-
 o0980136	s	BUR₂	BUR₂
 o0980136	s	BUR₂	BUR₂
 o0980136	s	BUR₂	BUR₂
@@ -1453,6 +1507,7 @@ o0980136	s	BUR₂	BUR₂
 o0980136	s	BUR₂	BUR₂
 o0980136	s	BUR₂	BUR₂
 o0980136	s	BUR₂	BUR₂
+o0980137	e		-
 o0980137	s	DA~a	DA~a
 o0980137	s	DA~a	DA~a
 o0980137	s	DA~a	DA~a
@@ -1688,6 +1743,7 @@ o0980179	s	DIN	DIN
 o0980179	s	DIN	DIN
 o0980179	s	DIN	DIN
 o0980181	s	DIN@t	DIN@t
+o0980182	e		-
 o0980182	s	DU	DU
 o0980182	s	DU	DU
 o0980182	s	DU	DU
@@ -1858,10 +1914,10 @@ o0980197	c	|DU₈~c×UDU~a|	|DU₈~c×UDU~a|
 o0980197	c	|DU₈~c×UDU~a|	|DU₈~c×UDU~a|
 o0980197	c	|DU₈~c×UDU~a|	|DU₈~c×UDU~a|
 o0980197	c	|DU₈~c×UDU~a|	|DU₈~c×UDU~a|
-o0980199	s	DU₈~c@g	DU₈~c@g
-o0980199	s	DU₈~c@g	DU₈~c@g
-o0980199	s	DU₈~c@g	DU₈~c@g
 o0980199	s	DU₈~c@g	DU₈@g~c
+o0980199	s	DU₈~c@g	DU₈~c@g
+o0980199	s	DU₈~c@g	DU₈~c@g
+o0980199	s	DU₈~c@g	DU₈~c@g
 o0980200	s	DUB~a	DUB~a
 o0980200	s	DUB~a	DUB~a
 o0980200	s	DUB~a	DUB~a
@@ -2093,6 +2149,13 @@ o0980293	s	E~b	E~b
 o0980293	s	E~b	E~b
 o0980293	s	E~b	E~b
 o0980293	s	E~b	E~b
+o0980297	e		-
+o0980297	e		-
+o0980297	e		-
+o0980297	e		-
+o0980297	e		-
+o0980297	e		-
+o0980297	e		-
 o0980297	s	E₂~a	E₂
 o0980297	s	E₂~a	E₂~a
 o0980297	s	E₂~a	E₂~a
@@ -2230,6 +2293,25 @@ o0980297	s	E₂~a	E₂~a
 o0980297	s	E₂~a	E₂~a
 o0980298	c	|E₂~a.LIŠ|	|E₂~a.LIŠ|
 o0980299	c	|E₂~a×3(N58)|	|E₂~a×3(N58)|
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
+o0980301	e		-
 o0980301	s	E₂~b	E₂~b
 o0980301	s	E₂~b	E₂~b
 o0980301	s	E₂~b	E₂~b
@@ -2302,6 +2384,16 @@ o0980301	s	E₂~b	E₂~b
 o0980302	c	|E₂~b.LIŠ|	|E₂~b.LIŠ|
 o0980303	c	|E₂~b×1(N58@t)|	|E₂~b×1(N57)@t|
 o0980306	s	|DU.U₄.1(N14).1(N08)|	E₃~a
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
+o0980309	e		-
 o0980309	s	EN~a	EN
 o0980309	s	EN~a	EN~a
 o0980309	s	EN~a	EN~a
@@ -2789,6 +2881,23 @@ o0980310	s	EN~b	EN~b
 o0980310	s	EN~b	EN~b
 o0980310	s	EN~b	EN~b
 o0980310	s	EN~b	EN~b
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
+o0980317	e		-
 o0980317	s	EN₂	EN₂
 o0980317	s	EN₂	EN₂
 o0980317	s	EN₂	EN₂
@@ -2900,6 +3009,23 @@ o0980330	s	ERIN	ERIN
 o0980330	s	ERIN	ERIN
 o0980330	s	ERIN	ERIN
 o0980330	s	ERIN	ERIN
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
+o0980331	e		-
 o0980331	s	EŠDA	EŠDA
 o0980331	s	EŠDA	EŠDA
 o0980331	s	EŠDA	EŠDA
@@ -2944,6 +3070,10 @@ o0980350	s	EZEN~b	EZEN~b
 o0980350	s	EZEN~b	EZEN~b
 o0980350	s	EZEN~b	EZEN~b
 o0980350	s	EZEN~b	EZEN~b
+o0980351	e		-
+o0980351	e		-
+o0980351	e		-
+o0980351	e		-
 o0980353	s	EZEN~b@t	EZEN~b@t
 o0980353	s	EZEN~b@t	EZEN~b@t
 o0980353	s	EZEN~b@t	EZEN~c
@@ -2954,6 +3084,27 @@ o0980354	s	EZINU~a	EZINU~a
 o0980354	s	EZINU~a	EZINU~a
 o0980354	s	EZINU~a	EZINU~a
 o0980357	s	EZINU~d	EZINU~d
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
+o0980358	e		-
 o0980358	s	GA~a	GA~a
 o0980358	s	GA~a	GA~a
 o0980358	s	GA~a	GA~a
@@ -3150,6 +3301,23 @@ o0980427	s	GADA~a	GADA~a
 o0980427	s	GADA~a	GADA~a
 o0980427	s	GADA~a	GADA~a
 o0980429	s	GADA~b@g	GADA~b@g
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
+o0980430	e		-
 o0980430	s	GAL~a	GAL~a
 o0980430	s	GAL~a	GAL~a
 o0980430	s	GAL~a	GAL~a
@@ -3511,6 +3679,7 @@ o0980453	s	GAN₂	GAN₂
 o0980453	s	GAN₂	GAN₂
 o0980453	s	GAN₂	GAN₂
 o0980453	s	GAN₂	GAN₂
+o0980454	e		-
 o0980454	s	GAR	GAR
 o0980454	s	GAR	GAR
 o0980454	s	GAR	GAR
@@ -3606,6 +3775,7 @@ o0980460	s	GARA₂~b	GARA₂~b
 o0980461	s	GAZI	GAZI
 o0980462	s	GEŠTIN~a	GEŠTIN~a
 o0980462	s	GEŠTIN~a	GEŠTIN~a
+o0980467	e		-
 o0980467	s	GEŠTU~a	GEŠTU~a
 o0980467	s	GEŠTU~a	GEŠTU~a
 o0980467	s	GEŠTU~a	GEŠTU~a
@@ -3637,6 +3807,7 @@ o0980469	s	GEŠTU~b	GEŠTU~b
 o0980469	s	GEŠTU~b	GEŠTU~b
 o0980469	s	GEŠTU~b	GEŠTU~b
 o0980469	s	GEŠTU~b	GEŠTU~b
+o0980472	e		-
 o0980472	s	GI	GI
 o0980472	s	GI	GI
 o0980472	s	GI	GI
@@ -3985,12 +4156,15 @@ o0980515	s	GIR₃@g~b	GIR₃@g~b
 o0980515	s	GIR₃@g~b	GIR₃@g~b
 o0980515	s	GIR₃@g~b	GIR₃@g~b
 o0980515	s	GIR₃@g~b	GIR₃@g~b
+o0980516	s	GIR₃@g~c	GIR₃@g~c
+o0980516	s	GIR₃@g~c	GIR₃@g~c
+o0980516	s	GIR₃@g~c	GIR₃@g~c
+o0980516	s	GIR₃@g~c	GIR₃@g~c
+o0980516	s	GIR₃@g~c	GIR₃@g~c
 o0980516	s	GIR₃@g~c	GIR₃~c@g
-o0980516	s	GIR₃@g~c	GIR₃@g~c
-o0980516	s	GIR₃@g~c	GIR₃@g~c
-o0980516	s	GIR₃@g~c	GIR₃@g~c
-o0980516	s	GIR₃@g~c	GIR₃@g~c
-o0980516	s	GIR₃@g~c	GIR₃@g~c
+o0980520	e		-
+o0980520	e		-
+o0980520	e		-
 o0980520	s	GIŠ	GIŠ
 o0980520	s	GIŠ	GIŠ
 o0980520	s	GIŠ	GIŠ
@@ -4231,6 +4405,7 @@ o0980548	s	GUB₃~a	GUB₃~a
 o0980548	s	GUB₃~a	GUB₃~a
 o0980548	s	GUB₃~a	GUB₃~a
 o0980549	s	GUB₃~b	GUB₃~b
+o0980552	e		-
 o0980552	s	GUG₂	GUG₂
 o0980552	s	GUG₂	GUG₂
 o0980552	s	GUG₂	GUG₂
@@ -4346,6 +4521,9 @@ o0980577	s	HAŠHUR	HAŠHUR
 o0980577	s	HAŠHUR	HAŠHUR
 o0980577	s	HAŠHUR	HAŠHUR
 o0980577	s	HAŠHUR	HAŠHUR
+o0980579	e		-
+o0980579	e		-
+o0980579	e		-
 o0980579	s	HI	HI
 o0980579	s	HI	HI
 o0980579	s	HI	HI
@@ -4508,6 +4686,16 @@ o0980594	s	I	I
 o0980594	s	I	I
 o0980594	s	I	I
 o0980594	s	I	I
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
+o0980595	e		-
 o0980595	s	IB~a	IB~a
 o0980595	s	IB~a	IB~a
 o0980595	s	IB~a	IB~a
@@ -5536,6 +5724,35 @@ o0980702	c	|KU₆~a+KU₆~a|	|KU₆~a+KU₆~a|
 o0980702	c	|KU₆~a+KU₆~a|	|KU₆~a+KU₆~a|
 o0980702	c	|KU₆~a+KU₆~a|	|KU₆~a+KU₆~a|
 o0980703	s	KU₆~a@s	KU₆~a@s
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
+o0980707	e		-
 o0980707	s	KUR~a	KUR~a
 o0980707	s	KUR~a	KUR~a
 o0980707	s	KUR~a	KUR~a
@@ -5727,6 +5944,8 @@ o0980753	s	LAGAB~b	LAGAB~b
 o0980762	c	|LAGAB~b×SUH₃|	|LAGAB~b×SUH₃|
 o0980765	c	|LAGAB~b×X|	|LAGAB~b×X|
 o0980767	c	|LAGAB~b&LAGAB~b|	|LAGAB~b&LAGAB~b|
+o0980768	e		-
+o0980768	e		-
 o0980768	s	LAGAR~a	LAGAR~a
 o0980768	s	LAGAR~a	LAGAR~a
 o0980768	s	LAGAR~a	LAGAR~a
@@ -5749,6 +5968,8 @@ o0980785	s	LAL₃~a	LAL₃~a
 o0980785	s	LAL₃~a	LAL₃~a
 o0980786	s	LAL₃~b	LAL₃~b
 o0980788	s	LAM~a	LAM~a
+o0980789	e		-
+o0980789	e		-
 o0980789	s	LAM~b	LAM~b
 o0980789	s	LAM~b	LAM~b
 o0980789	s	LAM~b	LAM~b
@@ -5766,10 +5987,17 @@ o0980789	s	LAM~b	LAM~b
 o0980789	s	LAM~b	LAM~b
 o0980789	s	LAM~b	LAM~b
 o0980789	s	LAM~b	LAM~b
+o0980795	e		-
+o0980795	e		-
+o0980795	e		-
 o0980795	s	LIŠ	LIŠ
 o0980795	s	LIŠ	LIŠ
 o0980795	s	LIŠ	LIŠ
 o0980795	s	LIŠ	LIŠ
+o0980796	e		-
+o0980796	e		-
+o0980796	e		-
+o0980796	e		-
 o0980796	s	LU₂	LU₂
 o0980796	s	LU₂	LU₂
 o0980796	s	LU₂	LU₂
@@ -6055,6 +6283,16 @@ o0980839	s	MAŠ₂	MAŠ₂
 o0980839	s	MAŠ₂	MAŠ₂
 o0980839	s	MAŠ₂	MAŠ₂
 o0980839	s	MAŠ₂	MAŠNITA
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
+o0980841	e		-
 o0980841	s	ME~a	ME~a
 o0980841	s	ME~a	ME~a
 o0980841	s	ME~a	ME~a
@@ -6227,6 +6465,8 @@ o0980850	s	MUD	MUD
 o0980850	s	MUD	MUD
 o0980850	s	MUD	MUD
 o0980850	s	MUD	MUD
+o0980851	e		-
+o0980851	e		-
 o0980851	s	MUD₃~a	MUD₃~a
 o0980851	s	MUD₃~a	MUD₃~a
 o0980851	s	MUD₃~a	MUD₃~a
@@ -6281,6 +6521,24 @@ o0980864	s	MUNŠUB~b	MUNŠUB~b
 o0980865	s	MUNU₃	MUNU₃
 o0980866	s	|SAL.LAGAR~a|	MURUB₂
 o0980866	s	|SAL.LAGAR~a|	MURUB₂
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
+o0980868	e		-
 o0980868	s	MUŠ₃~a	MUŠ₃~a
 o0980868	s	MUŠ₃~a	MUŠ₃~a
 o0980868	s	MUŠ₃~a	MUŠ₃~a
@@ -6329,6 +6587,10 @@ o0980868	s	MUŠ₃~a	MUŠ₃~a
 o0980868	s	MUŠ₃~a	MUŠ₃~a
 o0980868	s	MUŠ₃~a	MUŠ₃~a
 o0980868	s	MUŠ₃~a	MUŠ₃~a
+o0980871	e		-
+o0980871	e		-
+o0980871	e		-
+o0980871	e		-
 o0980871	s	MUŠEN	MUŠEN
 o0980871	s	MUŠEN	MUŠEN
 o0980871	s	MUŠEN	MUŠEN
@@ -6426,6 +6688,11 @@ o0980877	c	|1(N58).BAD|	|1(N58).BAD~a|
 o0980877	c	|1(N58).BAD|	|1(N58).BAD~a|
 o0980877	c	|1(N58).BAD|	|1(N58).BAD~a|
 o0980877	c	|1(N58).BAD|	|BAD+DIŠ~a|
+o0980880	e		-
+o0980880	e		-
+o0980880	e		-
+o0980880	e		-
+o0980880	e		-
 o0980880	s	NA~a	NA
 o0980880	s	NA~a	NA~a
 o0980880	s	NA~a	NA~a
@@ -6494,6 +6761,7 @@ o0980880	s	NA~a	NA~a
 o0980881	s	NA~b	NA~b
 o0980881	s	NA~b	NA~b
 o0980883	s	NA~d	NA~d
+o0980884	e		-
 o0980884	s	NA₂~a	NA₂~a
 o0980884	s	NA₂~a	NA₂~a
 o0980884	s	NA₂~a	NA₂~a
@@ -6525,6 +6793,7 @@ o0980888	s	NAB	NAB
 o0980888	s	NAB	NAB
 o0980888	s	NAB	NAB
 o0980888	s	NAB	NAB
+o0980889	e		-
 o0980889	s	NAGA~a	NAGA~a
 o0980889	s	NAGA~a	NAGA~a
 o0980889	s	NAGA~a	NAGA~a
@@ -6584,6 +6853,100 @@ o0980894	s	NAM~a	NAM~a
 o0980894	s	NAM~a	NAM~a
 o0980897	s	NAM~d	NAM~d
 o0980897	s	NAM~d	NAM~d
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
+o0980898	e		-
 o0980898	s	NAM₂	NAM₂
 o0980898	s	NAM₂	NAM₂
 o0980898	s	NAM₂	NAM₂
@@ -6795,6 +7158,10 @@ o0980907	s	NAR	NAR
 o0980907	s	NAR	NAR
 o0980907	s	NAR	NAR
 o0980907	s	NAR	NAR
+o0980908	e		-
+o0980908	e		-
+o0980908	e		-
+o0980908	e		-
 o0980908	s	NE~a	NE~a
 o0980908	s	NE~a	NE~a
 o0980908	s	NE~a	NE~a
@@ -6891,6 +7258,7 @@ o0980913	s	NESAG₂~a	NESAG₂~a
 o0980914	s	NESAG₂~a2	NISAG~a3
 o0980915	s	NESAG₂~b	NESAG₂~b
 o0980916	s	NESAG₂~b@t	NESAG₂~b@t
+o0980917	e		-
 o0980917	s	NI~a	NI~a
 o0980917	s	NI~a	NI~a
 o0980917	s	NI~a	NI~a
@@ -7228,6 +7596,19 @@ o0980979	s	NUMUN	NUMUN
 o0980979	s	NUMUN	NUMUN
 o0980980	s	NUMUN₂	NUMUN₂
 o0980980	s	NUMUN₂	NUMUN₂
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
+o0980981	e		-
 o0980981	s	NUN~a	NUN~a
 o0980981	s	NUN~a	NUN~a
 o0980981	s	NUN~a	NUN~a
@@ -7451,6 +7832,9 @@ o0980992	s	NUNUZ~a0	NUNUZ~a0
 o0980992	s	NUNUZ~a0	NUNUZ~a0
 o0980992	s	NUNUZ~a0	NUNUZ~a0
 o0980992	s	NUNUZ~a0	NUNUZ~a0
+o0980993	e		-
+o0980993	e		-
+o0980993	e		-
 o0980993	s	NUNUZ~a1	NUNUZ~a1
 o0980993	s	NUNUZ~a1	NUNUZ~a1
 o0980993	s	NUNUZ~a1	NUNUZ~a1
@@ -7523,6 +7907,7 @@ o0980995	s	NUNUZ~a2	NUNUZ~a2
 o0980995	s	NUNUZ~a2	NUNUZ~a2
 o0980995	s	NUNUZ~a2	NUNUZ~a2
 o0980997	s	NUNUZ~b2	NUNUZ~b2
+o0980998	e		-
 o0980998	s	NUNUZ~c	NUNUZ~c
 o0980998	s	NUNUZ~c	NUNUZ~c
 o0980998	s	NUNUZ~c	NUNUZ~c
@@ -7533,6 +7918,16 @@ o0980998	s	NUNUZ~c	NUNUZ~c
 o0980998	s	NUNUZ~c	NUNUZ~c
 o0980998	s	NUNUZ~c	NUNUZ~c
 o0980998	s	NUNUZ~c	NUNUZ~c
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
+o0980999	e		-
 o0980999	s	PA~a	PA~a
 o0980999	s	PA~a	PA~a
 o0980999	s	PA~a	PA~a
@@ -7902,6 +8297,14 @@ o0981004	s	PAP~a	PAP~a
 o0981004	s	PAP~a	PAP~a
 o0981004	s	PAP~a	PAP~a
 o0981004	s	PAP~a	PAP~a
+o0981010	e		-
+o0981010	e		-
+o0981010	e		-
+o0981010	e		-
+o0981010	e		-
+o0981010	e		-
+o0981010	e		-
+o0981010	e		-
 o0981010	s	PIRIG~b1	PIRIG~b1
 o0981010	s	PIRIG~b1	PIRIG~b1
 o0981010	s	PIRIG~b1	PIRIG~b1
@@ -8081,6 +8484,22 @@ o0981019	s	RAD~a@t	RAD~a@t
 o0981022	s	RI₈~a	RI₈~a
 o0981022	s	RI₈~a	RI₈~a
 o0981022	s	RI₈~a	RI₈~a
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
+o0981024	e		-
 o0981024	s	RU	RU
 o0981024	s	RU	RU
 o0981024	s	RU	RU
@@ -8300,6 +8719,75 @@ o0981040	s	SAGŠU	SAGŠU
 o0981040	s	SAGŠU	SAGŠU
 o0981040	s	SAGŠU	SAGŠU
 o0981040	s	SAGŠU	SAGŠU
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
+o0981041	e		-
 o0981041	s	SAL	SAL
 o0981041	s	SAL	SAL
 o0981041	s	SAL	SAL
@@ -9022,6 +9510,10 @@ o0981080	s	SIG₂~b	SIG₂~b
 o0981086	s	SIG₂~d2	SIG₂~d2
 o0981089	s	SIG₂~e	SIG₂~e
 o0981089	s	SIG₂~e	SIG₂~e
+o0981091	e		-
+o0981091	e		-
+o0981091	e		-
+o0981091	e		-
 o0981091	s	SIG₇	SIG₇
 o0981091	s	SIG₇	SIG₇
 o0981091	s	SIG₇	SIG₇
@@ -9126,6 +9618,21 @@ o0981142	s	SILA₄~b	SILA₄~b
 o0981142	s	SILA₄~b	SILA₄~b
 o0981142	s	SILA₄~b	SILA₄~b
 o0981142	s	SILA₄~b	SILA₄~b
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
+o0981143	e		-
 o0981143	s	SILA₄~c	SILA₄~c
 o0981143	s	SILA₄~c	SILA₄~c
 o0981143	s	SILA₄~c	SILA₄~c
@@ -9277,6 +9784,9 @@ o0981154	s	SUG₅	SUG₅
 o0981154	s	SUG₅	SUG₅
 o0981154	s	SUG₅	SUG₅~a
 o0981155	s	SUH₃	SUH₃
+o0981156	e		-
+o0981156	e		-
+o0981156	e		-
 o0981156	s	SUHUR	SUHUR
 o0981156	s	SUHUR	SUHUR
 o0981156	s	SUHUR	SUHUR
@@ -9536,6 +10046,49 @@ o0981197	s	ŠAM₂	ŠAM₂
 o0981197	s	ŠAM₂	ŠAM₂
 o0981197	s	ŠAM₂	ŠAM₂
 o0981199	s	|GAL~a.NI~a|	ŠANDANA~b
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
+o0981200	e		-
 o0981200	s	ŠE~a	ŠE~a
 o0981200	s	ŠE~a	ŠE~a
 o0981200	s	ŠE~a	ŠE~a
@@ -9731,46 +10284,46 @@ o0981200	s	ŠE~a	ŠE~a
 o0981200	s	ŠE~a	ŠE~a
 o0981200	s	ŠE~a	ŠE~a
 o0981200	s	ŠE~a	ŠE~a
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
+o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
 o0981203	c	|ŠE~a.NAM₂|	|ŠE~a+NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
-o0981203	c	|ŠE~a.NAM₂|	|ŠE~a.NAM₂|
 o0981204	c	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|
 o0981204	c	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|
 o0981204	c	|ŠE~a&ŠE~a|	|ŠE~a&ŠE~a|
@@ -9858,6 +10411,8 @@ o0981226	s	ŠIM~b	ŠIM~b
 o0981227	s	ŠIR~a	ŠIR~a
 o0981228	s	ŠIR~b	ŠIR~b
 o0981228	s	ŠIR~b	ŠIR~b
+o0981229	e		-
+o0981229	e		-
 o0981229	s	ŠITA~a1	ŠITA~a1
 o0981229	s	ŠITA~a1	ŠITA~a1
 o0981229	s	ŠITA~a1	ŠITA~a1
@@ -10132,6 +10687,20 @@ o0981247	s	ŠU	ŠU
 o0981247	s	ŠU	ŠU
 o0981249	c	|ŠU&ŠU|	|ŠU&ŠU|
 o0981249	c	|ŠU&ŠU|	|ŠU&ŠU|
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
+o0981252	e		-
 o0981252	s	ŠU₂	ŠU₂
 o0981252	s	ŠU₂	ŠU₂
 o0981252	s	ŠU₂	ŠU₂
@@ -10167,8 +10736,8 @@ o0981252	s	ŠU₂	ŠU₂
 o0981252	s	ŠU₂	ŠU₂
 o0981252	s	ŠU₂	ŠU₂
 o0981252	s	ŠU₂	ŠU₂
-o0981253	c	|ŠU₂.AN|	|ŠU₂+AN|
 o0981253	c	|ŠU₂.AN|	|ŠU₂.AN|
+o0981253	c	|ŠU₂.AN|	|ŠU₂+AN|
 o0981254	c	|ŠU₂.E₂~a|	|ŠU₂.E₂~a|
 o0981255	c	|ŠU₂.E₂~b|	|ŠU₂.E₂~b|
 o0981255	c	|ŠU₂.E₂~b|	|ŠU₂.E₂~b|
@@ -10179,6 +10748,16 @@ o0981256	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0981256	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0981256	c	|ŠU₂.EN~a|	|ŠU₂.EN~a|
 o0981262	c	|ŠU₂.1(N02)|	|ŠU₂.1(N02)|
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
+o0981267	e		-
 o0981267	s	ŠUBUR	ŠUBUR
 o0981267	s	ŠUBUR	ŠUBUR
 o0981267	s	ŠUBUR	ŠUBUR
@@ -10380,6 +10959,10 @@ o0981294	s	TAR~a	TAR~a
 o0981294	s	TAR~a	TAR~a
 o0981294	s	TAR~a	TAR~a
 o0981294	s	TAR~a	TAR~a
+o0981296	e		-
+o0981296	e		-
+o0981296	e		-
+o0981296	e		-
 o0981296	s	TE	TE
 o0981296	s	TE	TE
 o0981296	s	TE	TE
@@ -10513,6 +11096,16 @@ o0981303	s	TU~a	TU~a
 o0981303	s	TU~a	TU~a
 o0981304	s	TU~b	TU~b
 o0981304	s	TU~b	TU~b
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
+o0981306	e		-
 o0981306	s	TUG₂~a	TUG₂~a
 o0981306	s	TUG₂~a	TUG₂~a
 o0981306	s	TUG₂~a	TUG₂~a
@@ -10903,6 +11496,31 @@ o0981330	s	U₂~b	U₂~b
 o0981330	s	U₂~b	U₂~b
 o0981330	s	U₂~b	U₂~b
 o0981330	s	U₂~b	U₂~b
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
+o0981332	e		-
 o0981332	s	U₄	U₄
 o0981332	s	U₄	U₄
 o0981332	s	U₄	U₄
@@ -11022,10 +11640,13 @@ o0981352	c	|U₄×1(N01)|	|U₄×1(N01)|
 o0981352	c	|U₄×1(N01)|	|U₄×1(N01)|
 o0981352	c	|U₄×1(N01)|	|U₄×1(N01)|
 o0981352	c	|U₄×1(N01)|	|U₄×1(N01)|
+o0981352	e		-
 o0981353	c	|U₄×1(N01).5(N08)|	|U₄×1(N01).5(N08)|
 o0981355	c	|U₄×2(N01)|	|U₄×2(N01)|
 o0981359	c	|U₄×3(N01)|	|U₄×3(N01)|
+o0981359	e		-
 o0981360	c	|U₄×3(N01).3(N08)|	|U₄×3(N01).3(N08)|
+o0981361	e		-
 o0981362	c	|U₄×4(N01).2(N14)|	|U₄×4(N01).2(N14)|
 o0981363	c	|U₄×5(N01)|	|U₄×5(N01)|
 o0981365	c	|U₄×6(N01)|	|U₄×6(N01)|
@@ -11035,6 +11656,7 @@ o0981370	c	|U₄×1(N14)|	|U₄×1(N14)|
 o0981370	c	|U₄×1(N14)|	|U₄×1(N14)|
 o0981370	c	|U₄×1(N14)|	|U₄×1(N14)|
 o0981370	c	|U₄×1(N14)|	|U₄×1(N14)|
+o0981373	e		-
 o0981374	c	|U₄×(1(N14).3(N01)).1(N14).4(N08)|	|U₄×(1(N14).3(N01)).(1(N14).4(N08))|
 o0981381	c	|U₄×1(N57)|	|U₄×1(N57)|
 o0981381	c	|U₄×1(N57)|	|U₄×1(N57)|
@@ -11498,6 +12120,16 @@ o0981411	s	UH₃~a	UH₃~a
 o0981411	s	UH₃~a	UH₃~a
 o0981411	s	UH₃~a	UH₃~a
 o0981411	s	UH₃~a	UH₃~a
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
+o0981414	e		-
 o0981414	s	UKKIN~a	UKKIN~a
 o0981414	s	UKKIN~a	UKKIN~a
 o0981414	s	UKKIN~a	UKKIN~a
@@ -11560,6 +12192,7 @@ o0981431	s	UMUN₂	UMUN₂
 o0981431	s	UMUN₂	UMUN₂
 o0981431	s	UMUN₂	UMUN₂
 o0981431	s	UMUN₂	UMUN₂
+o0981432	e		-
 o0981432	s	UNUG~a	UNUG~a
 o0981432	s	UNUG~a	UNUG~a
 o0981432	s	UNUG~a	UNUG~a
@@ -11704,6 +12337,11 @@ o0981457	s	URI	URI
 o0981457	s	URI	URI
 o0981457	s	URI	URI
 o0981457	s	URI	URI
+o0981459	e		-
+o0981459	e		-
+o0981459	e		-
+o0981459	e		-
+o0981459	e		-
 o0981459	s	URI₃~a	URI₃~a
 o0981459	s	URI₃~a	URI₃~a
 o0981459	s	URI₃~a	URI₃~a
@@ -11813,6 +12451,10 @@ o0981483	s	URUDU~c	URUDU~c
 o0981488	s	URUDU@g~d	URUDU@g~d
 o0981488	s	URUDU@g~d	URUDU@g~d
 o0981488	s	URUDU@g~d	URUDU@g~d
+o0981489	e		-
+o0981489	e		-
+o0981489	e		-
+o0981489	e		-
 o0981489	s	UŠ~a	UŠ~a
 o0981489	s	UŠ~a	UŠ~a
 o0981489	s	UŠ~a	UŠ~a
@@ -12340,6 +12982,27 @@ o0981713	s	ZATU752	ZATU752
 o0981713	s	ZATU752	ZATU752
 o0981713	s	ZATU752	ZATU752
 o0981713	s	ZATU752	ZATU752
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
+o0981714	e		-
 o0981714	s	ZATU753	ZATU753
 o0981714	s	ZATU753	ZATU753
 o0981714	s	ZATU753	ZATU753
@@ -17001,6 +17664,7 @@ o0981836	n	9(N01)	9(N01)
 o0981836	n	9(N01)	9(N01)
 o0981836	n	9(N01)	9(N01)
 o0981836	n	9(N01)	9(N01)
+o0981848	e		-
 o0981848	n	1(N02)	1(N02)
 o0981848	n	1(N02)	1(N02)
 o0981848	n	1(N02)	1(N02)
@@ -17151,6 +17815,23 @@ o0981877	n	1(N06)	1(N06)
 o0981877	n	1(N06)	1(N06)
 o0981877	n	1(N06)	1(N06)
 o0981877	n	1(N06)	1(N06)
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
+o0981892	e		-
 o0981892	n	1(N08)	1(N08)
 o0981892	n	1(N08)	1(N08)
 o0981892	n	1(N08)	1(N08)
@@ -17214,6 +17895,9 @@ o0981893	n	2(N08)	2(N08)
 o0981893	n	2(N08)	2(N08)
 o0981893	n	2(N08)	2(N08)
 o0981893	n	2(N08)	2(N08)
+o0981894	e		-
+o0981894	e		-
+o0981894	e		-
 o0981894	n	3(N08)	3(N08)
 o0981894	n	3(N08)	3(N08)
 o0981894	n	3(N08)	3(N08)
@@ -17222,11 +17906,17 @@ o0981894	n	3(N08)	3(N08)
 o0981894	n	3(N08)	3(N08)
 o0981894	n	3(N08)	3(N08)
 o0981894	n	3(N08)	3(N08)
+o0981895	e		-
 o0981895	n	4(N08)	4(N08)
 o0981895	n	4(N08)	4(N08)
+o0981896	e		-
+o0981896	e		-
+o0981896	e		-
+o0981896	e		-
 o0981896	n	5(N08)	5(N08)
 o0981896	n	5(N08)	5(N08)
 o0981897	n	6(N08)	6(N08)
+o0981898	e		-
 o0981901	n	1(N08~b)	1(N08~b)
 o0981902	n	2(N08~b)	2(N08~b)
 o0981902	n	2(N08~b)	2(N08~b)
@@ -17234,6 +17924,10 @@ o0981902	n	2(N08~b)	2(N08~b)
 o0981903	n	3(N08~b)	3(N08~b)
 o0981904	n	4(N08~b)	4(N08~b)
 o0981905	n	4(N08~c)	4(N08~c)
+o0981912	e		-
+o0981912	e		-
+o0981912	e		-
+o0981912	e		-
 o0981912	n	1(N14)	1(N14)
 o0981912	n	1(N14)	1(N14)
 o0981912	n	1(N14)	1(N14)
@@ -17742,6 +18436,7 @@ o0981912	n	1(N14)	1(N14)
 o0981912	n	1(N14)	1(N14)
 o0981912	n	1(N14)	1(N14)
 o0981912	n	1(N14)	1(N14)
+o0981913	e		-
 o0981913	n	2(N14)	2(N14)
 o0981913	n	2(N14)	2(N14)
 o0981913	n	2(N14)	2(N14)
@@ -19419,6 +20114,17 @@ o0982164	n	1(N54)	1(N54)
 o0982164	n	1(N54)	1(N54)
 o0982164	n	1(N54)	1(N54)
 o0982164	n	1(N54)	1(N54)
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
+o0982172	e		-
 o0982172	n	1(N57)	1(N57)
 o0982172	n	1(N57)	1(N57)
 o0982172	n	1(N57)	1(N57)
@@ -19546,6 +20252,7 @@ o0982172	n	1(N57)	1(N57)
 o0982172	n	1(N57)	1(N57)
 o0982172	n	1(N57)	1(N57)
 o0982172	s	1(N57)	AŠ
+o0982173	e		-
 o0982173	n	2(N57)	2(N57)
 o0982173	n	2(N57)	2(N57)
 o0982173	n	2(N57)	2(N57)
@@ -19580,6 +20287,23 @@ o0982173	n	2(N57)	2(N57)
 o0982173	n	2(N57)	2(N57)
 o0982173	n	2(N57)	2(N57)
 o0982173	n	2(N57)	2(N57)
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
+o0982174	e		-
 o0982174	n	3(N57)	3(N57)
 o0982174	n	3(N57)	3(N57)
 o0982174	n	3(N57)	3(N57)
@@ -19721,9 +20445,28 @@ o0982176	n	5(N57)	5(N57)
 o0982176	n	5(N57)	5(N57)
 o0982176	n	5(N57)	5(N57)
 o0982176	n	5(N57)	5(N57)
+o0982177	e		-
 o0982177	n	6(N57)	6(N57)
 o0982177	n	6(N57)	6(N57)
 o0982179	n	8(N57)	8(N57)
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
+o0982182	e		-
 o0982182	n	1(N58)	1(N58)
 o0982182	n	1(N58)	1(N58)
 o0982182	n	1(N58)	1(N58)
@@ -19744,6 +20487,7 @@ o0982182	n	1(N58)	1(N58)
 o0982182	s	1(N58)	DIŠ
 o0982183	n	2(N58)	2(N58)
 o0982183	n	2(N58)	2(N58)
+o0982184	e		-
 o0982184	n	3(N58)	3(N58)
 o0982184	n	3(N58)	3(N58)
 o0982185	n	4(N58)	4(N58)
@@ -19777,16 +20521,16 @@ o0982229	c	|3(N57).PIRIG~b1|	|3(N57).PIRIG~b1|
 o0982229	c	|3(N57).PIRIG~b1|	|3(N57).PIRIG~b1|
 o0982229	c	|3(N57).PIRIG~b1|	|3(N57).PIRIG~b1|
 o0982229	c	|3(N57).PIRIG~b1|	|3(N57).PIRIG~b1|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
+o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
 o0982235	c	|1(N57).ŠUBUR|	|1(N57)+ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
-o0982235	c	|1(N57).ŠUBUR|	|1(N57).ŠUBUR|
 o0982246	s	X	X
 o0982246	s	X	X
 o0982246	s	X	X

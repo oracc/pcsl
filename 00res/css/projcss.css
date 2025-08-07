@@ -1,0 +1,98 @@
+@import url(/css/fonts.css);
+@import url(/pcsl/css/borders.css);
+
+h1 { font-size: 120%; font-weight: bold; }
+h2 { font-size: 110%; font-weight: bold; }
+
+.ce { margin: 0px !important; }
+
+.slname { font-size: 80%; }
+.slucun { line-height: 2; }
+
+.pretty .spacer { color: #f5f5f5; }
+
+.ns-frac { font-size: 80%; }
+
+@media print { #p4CuneifyBar { display: none; } }
+
+.broken {
+  background-image: url('https://build-oracc.museum.upenn.edu/breaks.png');
+  background-repeat: repeat;
+}
+
+/* Standalone cuneify pages have #p4Pager.dcfy */
+#p4Pager.dcfy #p4XtfData { flex: 1 1 40%; display: inline-block; vertical-align: top;
+			   overflow-y: unset; }
+
+#p4Item>#p4Cuneify {
+    flex: 1 1 20%; display: inline-block; vertical-align: top; overflow-y: auto; }
+
+#p4XtfMeta { flex: 0 0 15%; display: inline-block; vertical-align: top;
+	     border-right: solid lightgray 1px;
+	     height: 85%; overflow-y: auto; }
+
+#p4XtfData { flex: 1 1 40%; display: inline-block; vertical-align: top;
+	     height: 85%; overflow-y: auto; }
+
+#p4Images { flex: 1 1 25%; display: inline-block; vertical-align: top; overflow-y: auto; }
+
+.cuneify-label { vertical-align: top; width: 15%; }
+
+.cuneify-content { text-align: left; vertical-align: top;
+		   border-bottom: solid 1px lavender; }
+
+.lname { text-align: left; vertical-align: middle; }
+.names { vertical-align: top; }
+.sname,.stags { text-align: left; }
+.uname { text-align: left; color: gray; font-size: 90%; }
+.dist { text-align: left; color: gray; padding-top: .5em; }
+.sources { text-align: left; width: 80px; }
+
+.src { text-align; left; padding-left: 1em; }
+
+.rglyf { text-align: left; padding-left: .5em; padding-top: .25em; }
+.rhex { text-align: left; }
+
+.glyph { text-align: right; }
+.image { vertical-align: top; }
+div.rname { padding-top: 5px; }
+.rname span { text-align: left; font-family: sans-serif; font-size: 70%; color: gray; }
+.notes { font-size: 80%; text-align: left; }
+.inner td { border-bottom: 0px !important; }
+
+.fs-275 { font-size: 275%; }
+
+td a { text-decoration: none; }
+
+.sq-seq { background-color: #edfcee; }
+.sq-opq { background-color: #ffe8e8; }
+.sq-chr { background-color: #fffbe8; }
+.sq-inv { background-color: #e6ebfa; }
+
+.seq { background-color: #edfcee; }
+.not { background-color: #efefef; }
+.none { background-color: #fee7e7; }
+.gvar { background-color: #dcebff; }
+
+.fseq:not(:last-child) { border-bottom: solid 1px gray; }
+
+.ivs { font-family: sans-serif; font-size: 60%; }
+
+.chars div+div { padding-top: .25em; }
+
+.preamble { width: 80%; margin: auto; }
+
+td.lrow { padding-left: 5px; text-align: left; vertical-align: top; }
+
+/* img.lrow { height: 80; } */
+
+.newglyf { color: purple; }
+.diffc { color: red; }
+.diffd { font-size: 90%; }
+.ucode { font-size: 80%; }
+.ucode2 { font-size: 70%; }
+.ucode3 { text-align: left; font-size: 80%; }
+.ucode4 { text-align: left; font-size: 70%; } 
+
+.sl-cc-c { display: inline-block; }
+.sl-cc-u { display: inline-block; font-size: 70%; }

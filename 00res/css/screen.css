@@ -1,0 +1,941 @@
+html {
+	font-size: 0.9em;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 1em 0;
+	font-size: 1em;
+	font-family: Verdana, "Trebuchet MS", helvetica, sans-serif;
+	line-height: 1.6em;
+	color: #333;
+	background: #fff;
+}
+
+code {
+	font-family: "Courier New", Courier, mono;
+	font-size: 1.2em;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol ol {
+	list-style-type: upper-alpha;
+}
+
+ul li,
+ol li {
+	margin: 0 0 0.3em 0;
+}
+
+pre.listing {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	background-color: #f5f5dc;
+	color: black;
+}
+
+pre.example {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	background-color: #eee;
+	color: black;
+}
+
+pre.cookbook {
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	background-color: #daf3e0;
+	color: black;
+}
+
+td.cookbook {
+	background-color: #daf3e0;
+	color: black;
+	vertical-align: middle;
+}
+
+.cookbook {
+	background-color: #daf3e0;
+	color: black;
+}
+
+.example {
+	background-color: #eee;
+	color: black;
+}
+
+.transcript {
+	background-color: #e0e0e0;
+	padding: 1em;
+}
+
+p.firstpara {
+	font-weight: bold;
+}
+
+p {
+	margin: 0 0 1.3em;
+}
+
+blockquote {
+	margin: 0 2em 1.3em;
+	font-size: 0.9em;
+}
+
+input {
+	font-size: inherit;
+}
+
+div.imagefloat {
+	margin: 0 0 0.5em 1em;
+	float: right;
+	clear: right;
+	page-break-inside: avoid;
+}
+
+body:dir(rtl) .imagefloat {
+	float: left;
+	clear: left;
+	margin: 0 1em 0.5em 0;
+}
+
+div.imageinline {
+	margin: 1em 0;
+	page-break-inside: avoid;
+}
+
+/* Consider moving this element to large-viewport.css ? */
+div.imagefloat img {
+	display: block;
+	/* This width:100% is needed to make images grow to the width of their grid div; */
+	/* If used with inline images it makes all images 100% instead of respecting the grid class */
+	/*width:100%;*/
+	/* Commented out sjt 20191223 */
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+/* Consider moving this element to large-viewport.css ? */
+div.imageinline img {
+	display: block;
+	/* Removed width:100% from inline images as it makes all images 100% instead of respecting the grid class */
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+/* Styling for prettier tables. RH 9.7.2009 */
+body:dir(rtl) th {
+	text-align: right;
+}
+
+table.pretty {
+	/*margin: 2em 2em 2em 3em; */
+	background: #f5f5f5;
+	border-collapse: collapse;
+}
+
+table.pretty th,
+table.pretty td {
+	border: 1px #c0c0c0 solid;
+	padding: 0.2em;
+	vertical-align: top;
+}
+
+table.pretty th {
+	background: #dcdcdc;
+	text-align: left;
+	font-weight: normal;
+}
+
+body:dir(rtl) table.pretty th {
+	text-align: right;
+}
+
+table.pretty caption {
+	margin-left: inherit;
+	margin-right: inherit;
+}
+
+img {
+	border-width: 0;
+}
+
+form {
+	margin: 0;
+}
+
+div.imagecaption {
+	margin: 0.5em 0 1.25em;
+	font-size: 0.9em;
+	line-height: normal;
+}
+
+.imagecaption p {
+	width: 95%;
+}
+
+h1 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin: 1.5em 0 1.3em;
+}
+
+h2 {
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin: 1.7em 0 0.7em;
+}
+
+h3 {
+	font-size: 1em;
+	line-height: 1.1em;
+	margin: 1.7em 0 0.7em;
+	font-weight: normal;
+
+	&:not(body:dir(rtl)) {
+		font-style: italic;
+	}
+}
+
+li h2,
+li h3 {
+	margin-top: 0;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding: 0 0 0.5em 0;
+}
+
+span.externallinktext {
+	display: none;
+}
+
+span.glossarylink,
+span.techtermslink,
+span.indexlink,
+span.textsizelink,
+span.switcherlink {
+	border: 1px solid #cccccc;
+	color: #333;
+	background: #fff;
+}
+
+span.glossarylink a,
+span.techtermslink a,
+span.indexlink a,
+span.textsizelink a,
+span.switcherlink a {
+	text-decoration: none;
+}
+
+span.glossarylink,
+span.techtermslink,
+span.indexlink {
+	margin-left: 0.3em;
+	font-size: 0.7em;
+	vertical-align: top;
+}
+
+span.glossaryterm,
+span.techterms,
+span.indexterm {
+	border-bottom: 1px solid #cccccc;
+}
+
+.highlighted {
+	background: #a0b7e0;
+}
+
+a:link {
+	color: #000;
+	background-color: transparent;
+}
+
+a:visited {
+	color: #900;
+	background-color: transparent;
+}
+
+a:link:hover,
+a:visited:hover {
+	color: #fff;
+	background: #000;
+}
+
+#Banner {
+	width: 100%;
+	text-align: center;
+}
+
+#Content.dd {
+	margin-inline: 2.5em;
+}
+
+
+#menu-button {
+	cursor: pointer;
+	font-size: 1.5rem;
+	padding-inline-start: 1rem;
+}
+
+
+#Menu a {
+	text-decoration: none;
+}
+
+#Menu a.open:hover,
+#Menu a.closed:hover {
+	color: #900;
+	background-color: #a0b7e0;
+}
+
+#Menu a.open {
+	background: #a0b7e0;
+}
+
+#Menu ul {
+	padding: 0;
+	margin: 0;
+	color: #111;
+	list-style-type: none;
+}
+
+/* this is for displaying the dropdown */
+#Menu.dd ul {
+	display: none;
+	position: absolute;
+}
+
+#Menu.dd:hover ul {
+	display: block;
+	position: absolute;
+	border-radius: 5px;
+	background-color: #fcfaf1;
+}
+
+#Menu li {
+	padding: 0;
+	margin: 0;
+	list-style-image: url(/img/blank.gif);
+	/* IE Win does weird stuff with list-style-type: none */
+}
+
+#Menu li.only {
+	font-weight: normal;
+}
+
+#SelfInMenu {
+	font-weight: bold;
+}
+
+#SelfInMenu.open {
+	background-color: #a0b7e0;
+}
+
+/* @media block for small viewports (max 624px) */
+@media screen and (max-width: 624px) {
+	.pc30 {
+		width: 100%;
+	}
+
+	/* remove LH indent for lists */
+	ul,
+	ol {
+		margin-left: 5%;
+		padding-left: 0;
+	}
+
+	table.pretty {
+		margin: 2em 0;
+	}
+
+	#Breadcrumb {
+		display: none;
+	}
+
+	#Banner {
+		text-align: center;
+	}
+
+	#Header {
+		padding: 0.5em 4%;
+		background: #000;
+		margin: 0.3em 0 0;
+		height: 3.5em;
+		border-bottom: 0.5em solid #a0b7e0;
+	}
+
+	#HeadTitle {
+		font-size: 1.2em;
+		color: #ffffff;
+		/* #fff */
+	}
+
+	#HeadTitle a:link,
+	#HeadTitle a:visited {
+		color: #ffffff;
+		background: #000;
+		text-decoration: none;
+	}
+
+	#HeadSubtitle {
+		font-style: italic;
+		font-weight: normal;
+		font-size: 1.2em;
+		color: #ffffff;
+		/* #fff */
+	}
+
+	#Menu {
+		width: 95%;
+		margin: 0.1px 0 0.1px 0;
+		padding: 0;
+		color: #fff;
+		position: relative;
+	}
+
+	#menu-button.classic {
+		display: block;
+	}
+
+	#Menu.dd-always.hidden,
+	#Menu.dd-mobile.hidden {
+		left: -100vw;
+	}
+
+	body:dir(rtl) .dd-always.hidden,
+	body:dir(rtl) .dd-mobile.hidden {
+		right: 100vw;
+	}
+
+	.dd-always ul,
+	.dd-mobile ul,
+	.classic ul {
+		display: block
+	}
+
+	.hidden ul {
+		display: none;
+	}
+
+	#MenuCaption {
+		margin-left: 5%;
+		margin-bottom: 0.5em;
+		padding-left: 0;
+		font-size: 0.9em;
+		font-weight: bold;
+		width: 95%;
+		border-bottom: 2px solid #a0b7e0;
+	}
+
+	#Menu ul {
+		padding: 0.5rem;
+		margin: 0;
+		color: #111;
+		background: #fcfaf1;
+		list-style-type: none;
+		position: absolute;
+		min-width: fit-content;
+	}
+
+	#Menu ul ul {
+		padding: 0.25em 0 0 4em;
+		margin-bottom: 0.25em;
+		border: 1px solid #a0b7e0;
+		border-top: 0;
+	}
+
+	#Menu ul ul ul {
+		border-right: 0;
+		padding: 0.25em 0 0 1em;
+	}
+
+	#Menu ul a,
+	ul #SelfInMenu {
+		display: block;
+		padding: 0.35em 1em 0.35em 5%;
+		line-height: normal;
+	}
+
+	#Menu ul ul a,
+	ul ul #SelfInMenu {
+		padding: 0.35em 1em 0.35em 5%;
+	}
+
+	#Content {
+		padding-inline: 4%;
+	}
+
+	#AccessLinks {
+		display: none;
+	}
+
+	#ReferenceLinks {
+		display: none;
+	}
+
+	#BackToTop {
+		text-align: right;
+		margin: 0 5%;
+	}
+
+	#EndContentSpace {
+		clear: both;
+		height: 1em;
+	}
+
+	#FooterWhole {
+		border-bottom: solid 1px #000;
+		margin: 0 5% 0.2em 5%;
+		clear: both;
+		height: 1em;
+	}
+
+	#FooterLeft {
+		padding: 0 1em 0 5%;
+	}
+
+	#FooterRight {
+		float: right;
+		padding: 0 6em 0 5%;
+	}
+}/* @media block for larger viewport sizes (625px and above)*/
+@media screen and (min-width: 625px) {
+	.pc05 {
+		width: 05%;
+	}
+
+	.pc10 {
+		width: 10%;
+	}
+
+	.pc15 {
+		width: 15%;
+	}
+
+	.pc20 {
+		width: 20%;
+	}
+
+	.pc25 {
+		width: 25%;
+	}
+
+	.pc30 {
+		width: 30%;
+	}
+
+	.pc35 {
+		width: 35%;
+	}
+
+	.pc40 {
+		width: 40%;
+	}
+
+	.pc45 {
+		width: 45%;
+	}
+
+	.pc50 {
+		width: 50%;
+	}
+
+	.pc55 {
+		width: 65%;
+	}
+
+	.pc60 {
+		width: 70%;
+	}
+
+	.pc65 {
+		width: 65%;
+	}
+
+	.pc70 {
+		width: 70%;
+	}
+
+	.pc75 {
+		width: 75%;
+	}
+
+	.pc80 {
+		width: 80%;
+	}
+
+	.pc85 {
+		width: 85%;
+	}
+
+	.pc90 {
+		width: 90%;
+	}
+
+	.pc95 {
+		width: 95%;
+	}
+
+	.pc100 {
+		width: 100%;
+	}
+
+	ul.biblio {
+		list-style: none;
+		margin-left: 5%;
+		padding-left: 0;
+	}
+
+	ul.biblio li {
+		margin-bottom: 1em;
+	}
+
+	table.pretty {
+		margin: 2em 1em;
+	}
+
+	dl {
+		margin: 1em 2em 1em 2em;
+	}
+
+	#Header {
+		padding: 0px;
+		background: #000;
+		margin: 0px;
+		height: 3.6em;
+		border-top: 4px solid #a0b7e0;
+		border-bottom: 4px solid #a0b7e0;
+	}
+
+	#HeadTitle {
+		margin: 0px;
+		padding: 0px;
+		padding-left: 1.5em;
+		position: relative;
+		top: 0.5em;
+		font-size: 1.6em;
+		color: #ffffff;
+		/* #fff */
+	}
+
+	body:dir(rtl) #HeadTitle {
+		padding-right: 1.5em;
+		vertical-align: middle;
+	}
+
+	#HeadTitle a:link,
+	#HeadTitle a:visited {
+		color: #ffffff;
+		/* #fff */
+		background: #000;
+		text-decoration: none;
+	}
+
+	#HeadSubtitle {
+		font-style: italic;
+		font-weight: normal;
+		font-size: 1.2em;
+		color: #ffffff;
+		/* #fff */
+	}
+
+	/* without the dd class */
+	#Content:not([class]) {
+		margin-inline: 6%;
+	}
+
+	#Menu {
+		float: left;
+		width: 20%;
+		margin: 0.1px 0 0.1px 0;
+		padding: 0.5em 1em;
+		color: #000;
+		background-color: #fcfaf1;
+		border: 2px solid #f4e6b8;
+	}
+
+	#Menu.dd-always {
+		position: absolute;
+		transition: left 0.5s ease;
+		left: 0;
+	}
+
+	#Menu.dd-always.hidden {
+		left: -100vw;
+	}
+
+	#menu-button.classic {
+		display: none;
+	}
+
+	#Menu.classic {
+		margin-inline-end: 1rem;
+		height: 100vh;
+	}
+
+	body:dir(rtl) #Menu.dd-always {
+		right: -1rem;
+		transition: right 0.5s ease;
+	}
+
+	body:dir(rtl) #Menu.dd-always.hidden {
+		right: -100vw;
+	}
+
+	#MenuCaption {
+		margin-bottom: 0.5em;
+		padding-left: 0;
+		font-size: 0.9em;
+		font-weight: bold;
+		width: 70%;
+		border-bottom: 2px solid #a0b7e0;
+	}
+
+	#Menu ul ul {
+		padding: 0.25em 0 0 4em;
+		margin-bottom: 0.25em;
+		border: 1px solid #a0b7e0;
+		border-top: 0;
+	}
+
+	#Menu ul ul ul {
+		border-right: 0;
+		padding: 0.25em 0 0 1em;
+	}
+
+	#Menu ul a,
+	ul #SelfInMenu {
+		display: block;
+		padding-block: 0.5rem;
+		line-height: normal;
+		margin-inline: 0.4rem;
+	}
+
+	#Menu ul ul a,
+	ul ul #SelfInMenu {
+		padding-block: 0.5rem;
+		margin-inline: 0.4rem;
+	}
+
+	#AccessLinks {
+		padding: 0 1em 0 4%;
+		float: left;
+	}
+
+	#ReferenceLinks {
+		padding: 0 4%;
+		text-align: right;
+	}
+
+	#BackToTop {
+		text-align: right;
+		margin: 0 4%;
+	}
+
+	#EndContentSpace {
+		clear: both;
+		height: 1em;
+	}
+
+	#FooterWhole {
+		border-bottom: solid 1px #000;
+		margin: 0 0 0.2em;
+		clear: both;
+		height: 1em;
+	}
+
+	#FooterLeft {
+		padding: 0 4%;
+	}
+
+	#FooterRight {
+		float: right;
+		padding: 0 4%;
+	}
+
+	#switcherul {
+		margin-left: 3em;
+		margin-bottom: 0.5em;
+		padding-left: 0;
+		font-size: 0.9em;
+		font-weight: bold;
+		width: 70%;
+		border-bottom: 2px solid #a0b7e0;
+	}
+}
+#Search {
+	float: right;
+	padding: 0.5em 6em 0.5em 1em;
+	margin: 0.3em 0 0 -3px;
+	height: 2.75em;
+	border-bottom: 0.5em solid #a0b7e0;
+}
+
+#Search label {
+	font-weight: bold;
+	color: #ffffff;
+	/* #fff */
+}
+
+#StyleSheetWarning {
+	display: none;
+}
+
+#SiteMap a {
+	text-decoration: none;
+}
+
+#SiteMap ul {
+	margin: 0;
+	padding-left: 2em;
+	list-style: none;
+}
+
+#SiteMap>ul {
+	padding-left: 0;
+}
+
+#SiteMap h2 {
+	margin: 0.3em 0;
+}
+
+#SiteMap h3 {
+	margin: 0.2em 0;
+}
+
+#SiteMap div {
+	margin: 0.1em 0;
+}
+
+#AccessKeys {
+	border: 0;
+	margin: 0 1em;
+	padding: 0;
+}
+
+#AccessKeys th,
+#AccessKeys td {
+	padding: 0 1em;
+	text-align: left;
+}
+
+#AccessKeys th {
+	border-bottom: solid 2px #333333;
+	/* #333 */
+}
+
+#AccessKeys tr.odd {
+	background: #eeeeee;
+	/* #000 */
+}
+
+#Index h2,
+#Glossary h2,
+#Techterms h2 {
+	float: left;
+	margin: 0;
+	color: #900;
+}
+
+#Vocablist h2 {
+	margin: 0;
+	line-height: 1.3em;
+	color: #333333;
+	/* #333 */
+}
+
+#Vocablist h2.empty {
+	margin: 0 0 2.5em;
+	line-height: 1.3em;
+	color: #ccc;
+}
+
+#Index h3,
+#Glossary dl,
+#Techterms dl {
+	margin: 0 0 0 3em;
+}
+
+#Index ul,
+#Vocablist ul {
+	list-style-type: none;
+	margin: 0 0 1em 4em;
+	padding: 0;
+}
+
+#Glossary dt {
+	font-weight: bold;
+}
+
+#Techterms dt {
+	font-weight: bold;
+}
+
+#Authors {
+	clear: both;
+	border-top: dotted 1px #000;
+	margin: 2.5em 0 0;
+	padding: 1em 0 0;
+	font-size: 0.9em;
+
+	&:not(body:dir(rtl)) {
+		font-style: italic;
+	}
+}
+
+#CiteAs {
+	font-size: 0.9em;
+	word-wrap: break-word;
+}
+
+#Alphabet {
+	margin: 0 0 1em;
+	color: #ccc;
+}
+
+#Alphabet a {
+	text-decoration: none;
+}
+
+#URL {
+	display: none;
+}
+
+/* This is needed for visitorguide doco of new P3 icon-centric UI */
+.p3icon {
+	background-color: white;
+	height: 18px;
+	width: 18px;
+	border: 2px solid silver;
+	padding: 2px;
+	border-radius: 9px;
+}

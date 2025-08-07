@@ -249,6 +249,9 @@ html: ${SLHTML} ${DVHTML} pc25no-html 00web/zatu.html
 	${sudo} cp -v 00web/$*-tab.html 00web/zatu.html ${MEPCSL}
 	${sudo} chmod -R +r ${MEPCSL}
 
+00web/no_broken.html: 00etc/no_broken.xml
+	00bin/pc25no-html.sh $<
+
 00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl
 	00bin/pc25no-html.sh $<
 

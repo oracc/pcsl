@@ -1,0 +1,14 @@
+.banner { background-color: #000;
+    color: #a0b7e0; }
+.border-top    { border-top: 1px solid #900; }
+.border-bot    { border-bottom: 1px solid #900; }
+.border-left   { border-left: 1px solid #900; }
+.border-right  { border-right: 1px solid #900; }
+.heading { background-color: #000;
+    color: #fff; }
+a[onclick]:hover { background-color: #011f5b;
+    color: #a0b7e0; }
+a[href]:hover { background-color: #011f5b;
+    color: #a0b7e0; }
+a:link { color: #00CC00; }
+a:link[href] { color: #00CC00; }
