@@ -1,0 +1,7 @@
+* Final repo clean-ups and make oracc/pcsl.git public
+
+* Final pcsl project clean-ups and make pcsl public on oracc.museum
+
+* oracc.org/pcsl/signlist/o098XXXXX links in PCSL tables
+
+* Cuneify fixes to support .ss04/.ss03 (also needed for ED IIIa and LAK font)

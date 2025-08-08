@@ -21,8 +21,8 @@ Should attached UnicodeData.txt be renamed NamesList.txt?
 LaTeX: Figure out why chartlist isn't obeying offinterlineskip
 
 -Appendices: What happened to Uruk V non-encoded signs? Explore restoring that appendix
-	Answer: looks like the new catalogue rescinds some of the Uruk V periodizations, whether by design or accident.
-		This one is just going to be let go; no Uruk V appendix now.
+	**Answer: looks like the new catalogue rescinds some of the Uruk V periodizations, whether by design or accident.
+	**This one is just going to be let go; no Uruk V appendix now.
 
 3.3.1 sub in graphic with more admin examples where summation is to make it a full page
 
@@ -51,11 +51,10 @@ Appendix A
 	-ŠU₂.AN FONT column is wrong; o0981343; o0981374
 	-Explain prescript numbers in FONT column if not already done
 	-Explain TAG codes -sq and -bk etc.
+	-9(N06) FONT too wide
+	-7,8,9(N34@f) FONT too wide
 
 	seq processing diagnostics need dealing with
-	9(N06) FONT too wide
-	7,8,9(N34@f) FONT too wide
-
 	BAR×URI₃/BAR×UŠ are the only NOT tags
 	FONT column only gives codepoint of first constituent when using _ notation, e.g., |3(N57).AZ| etc.
 
@@ -63,13 +62,14 @@ Appendix A
 	-Explain what this is and notations
 	-Fix |×N(57).GAR| (in cepc translator?) No, in in final-xml.plx, suppress x->× when /(?<!\|)x/
 
-Appendix SEQ
+-Appendix SEQ
 	-Experiment with omitting CHARNAME from second and sqq rows
 	-Add OID
 	-F228B overfull box in CHARNAME (reduce font size?)
 	** no need; sign-name is buggy and last two components can be struck
-	KITI exception rationale; de-exception as |BU~b.KALAM~a| and add MAGUR~b to encoding?
+	-KITI exception rationale; de-exception as |BU~b.KALAM~a| and add MAGUR~b to encoding?
 
 -Appendix Fonts
 	-resolve overfull boxes and bad glyph
 	-reference ASL discussion in OSL
+	-revise XeTeX ref to reference LuaHBTeX and check font specs as used in LuaHBTeX

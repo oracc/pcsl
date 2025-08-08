@@ -225,7 +225,9 @@
 
   <xh:h3>Container Equivalency</xh:h3>
 
-  <xh:p>The signs ASAR and AZ are the equivalent of containers.</xh:p>
+  <xh:p>The signs ASAR and AZ are treated as the equivalent of
+  containers because the secondary signs are reduced in size and
+  relocated relative to the main sign.</xh:p>
   
   <xh:h3>Unencoded Constituents</xh:h3>
 
