@@ -34,7 +34,7 @@ my $last_h = '';
 foreach (@b) {
     my $tag = '';
     my $equals = s/^=//;
-    if (s/^([-.])//) {
+    if (s/^([-.#])//) {
 	$tag = $1;
     } elsif (s/^=//) {
 	$equals = 1;

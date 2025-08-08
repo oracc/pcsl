@@ -232,7 +232,7 @@ sub cdli2uni {
     my $c = shift;
     $c =~ s/([A-Z][A-Z]+\d+)/subify($1)/eg;
     $c =~ s/([AEIU]\d)(?![0-9])/subify($1)/eg;
-    $c =~ s/x([A-Z0-9\(])/×$1/g;
+    $c =~ s/(?<!\|)x([A-Z0-9\(])/×$1/g; # don't convert |x(N57)| to |×(N57)|
     1 while $c =~ s/'\)/′)/;
     $c =~ s/GA'AR/GAʾAR/g;
     $c =~ s/SZ/Š/g;

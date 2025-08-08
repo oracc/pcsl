@@ -59,6 +59,21 @@
     if any, are at the bottom of the case. If the sign is proposed for
     encoding in PC25, the hex codepoint and reference glyph are given
     in the middle of the case.</xh:p>
+    <xh:p>The tag codes are as follows:
+    ACN=Archaic Cuneiform Numbers; 
+    DEL=delete;
+    EDI=ED I/II; 
+    NOT=not encoded;
+    NUM=number;
+    OOR=out-of-range number;
+    OOR5=out-of-range Uruk V number;
+    PC25-bk=PC25-eligible but broken so no codepoint;
+    PC25-sq=PC25-eligible but sequene so no codepoint;
+    PC25=PC25 encoded;
+    Pelm=planned for Proto-Elamite;
+    UNP=occurs in unpublished texts only;
+    ZERO=zero occurrences.
+ </xh:p>
     <xh:p>CDLI names either from print sources or in the CDLI-gh name
     list that have been adapted to PCSL conventions appear in this
     block with the prefix <xh:code>CDLI:</xh:code>.</xh:p>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xpd="http://oracc.org/ns/xpd/1.0">
+<esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
+	  xmlns:tex="http://oracc.org/ns/tex/1.0"
+	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:xh="http://www.w3.org/1999/xhtml"
+	  xmlns:xpd="http://oracc.org/ns/xpd/1.0">
   <esp:name>Sequences</esp:name>
   <esp:title>Sequences</esp:title>
   <html>
@@ -7,7 +11,12 @@
     <body>
 
       <p>This section provides some background on how PCSL handles
-      sequences.</p>
+      sequences.  The core PCSL data file <esp:link
+      url="https://github.com/oracc/pcsl/blob/main/00lib/pcsl.asl"> is
+      available from the PCSL github repo as pcsl.asl</esp:link>.  It
+      is generated in the <esp:link
+      url="http://oracc.org/osl/ASLOSLFileFormat/index.html">ASL
+      format</esp:link> as documented in the Oracc Sign List.</p>
 
       <esp:sh>Sequences have constant character names</esp:sh>
 
@@ -60,12 +69,14 @@
       |PAP~a.IB~a| or |IB~a∘PAP~a|.  The former is preferred because
       it follows the character name.</p>
 
-      <p>Similarly, glyph names do not remap or normalize variant
-      components that are considered distinct signs in PCSL.  Thus,
-      for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a| and
-      |UŠ~b.KUR~a|; similarly, for |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇| there
-      are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a distinct
-      component) |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.</p>
+      <p><tex:text>{\setlength\emergencystretch{1em}
+      </tex:text>Similarly, glyph names do not remap or normalize
+      variant components that are considered distinct signs in PCSL.
+      Thus, for character |UŠ~a.KUR~a| there are glyphs |UŠ~a.KUR~a|
+      and |UŠ~b.KUR~a|; for the sequence named |EN~a.EZEN~b×ŠE~a.NUN~a.SIG₇|
+      there are glyphs |EN~a.EZEN~b×ŠE~a@t∘NUN~a.SIG₇| and (with a
+      distinct component)
+      |EN~a.BAHAR₂~b∘SIG₇.ME~a.NUN~a|.<tex:text>\par}</tex:text></p>
 
       <esp:sh>How glyph names are turned into ligatures</esp:sh>
 
