@@ -13,3 +13,6 @@
 
 * Update Oracc PUA doco for F2XXX glyph variants
 
+* Update date of document and remove `draft' from header
+
+* Page through entire PDF looking for final fixes

@@ -3,17 +3,13 @@
 	 F1CCE; this means Pcun should probably go up into the F2 or F3 zone
 	 ** presciently, there are no F1XXX in PC ...
 
-Section 6.5
-	Double-check reference glyphs to make sure they are
-	Uruk Uruk III where possible
-
 -Disunify |GA₂~a1×X| and (creating new non-encoded sign entry) |GA₂~a1×X₁|
 
 -Appendices: What happened to Uruk V non-encoded signs? Explore restoring that appendix
 	**Answer: looks like the new catalogue rescinds some of the Uruk V periodizations, whether by design or accident.
 	**This one is just going to be let go; no Uruk V appendix now.
 
-3.3.1 sub in graphic with more admin examples where summation is to make it a full page
+-3.3.1 sub in graphic with more admin examples where summation is to make it a full page
 
 -3.3.x lexical graphic ref P-num texts properly
 
@@ -21,11 +17,11 @@ Section 6.5
 
 -Names list: 10(N57) wrongly ONE N57; similarly 10(N58) and 12(N58) ** fixed in lib/gvl/gvl_uname_tree.c
 
-General
+-General
 	-Numbers in PC25; selection; grouping of N57-X; U4-time
 	-Do we mention that this proposal is PC25 anywhere? ** Yes
 
-Appendix A
+-Appendix A
 	-EZINU~b CDLI-gh too big
 	-GUM~b CDLI-gh too big
 	-NESAG~b CDLI-gh too big
@@ -42,10 +38,6 @@ Appendix A
 	-Explain TAG codes -sq and -bk etc.
 	-9(N06) FONT too wide
 	-7,8,9(N34@f) FONT too wide
-
-	seq processing diagnostics need dealing with
-	BAR×URI₃/BAR×UŠ are the only NOT tags
-	FONT column only gives codepoint of first constituent when using _ notation, e.g., |3(N57).AZ| etc.
 
 -Appendix C
 	-Explain what this is and notations
