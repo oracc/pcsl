@@ -117,6 +117,13 @@
   
   <xh:h2>Character List</xh:h2>
 
+  <xh:p>The character names follow the general approach used in prior
+  Unicode cuneiform character naming. The terms JOINING and PLUS are
+  used with distinct semantics: JOINING is used for '+' in sign names;
+  PLUS is used to indicate grouping of multiple characters within the
+  same container (as in Sumero-Akkadian cuneiform unicode
+  names).</xh:p>
+  
   <xi:include href="../m/chartlist.html"/>
 
   <tex:text>\printbibliography</tex:text>

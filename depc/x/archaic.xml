@@ -117,12 +117,6 @@ birth of scribal culture in early Mesopotamia.</p>
 
 <h3>Administrative Texts</h3>
 
-<!--
-    and some texts can be
-understood as inventories of labourers, possibly slaves captured in
-military operations
--->
-
 <p>The bulk of the archaic tablets are administrative documents. They
 exhibit varying degrees of complexity from simple tags or
 one-transaction memos to multi-transactional summaries with a
@@ -141,7 +135,7 @@ J. Cale Johnson's essays on butchering \cite{Johnson2016} and ritual
 meat distribution \cite{Johnson2019}.</p>
 
 <p>Other studies have examined grain accounting \cite{Englund2001} and
-time designations \cite[XXX]{Englund1988}.  One of the earliest
+time designations \cite[121-127]{Englund1998}.  One of the earliest
 dossiers of activity of a named individual, Kušim the brewer, is
 studied by Peter Damerow and Bob Englund in
 \cite{DamerowEnglund1993}.</p>
@@ -168,6 +162,19 @@ from Uruk and Umma \cite{Englund2009}.</p>
     \begin{figure}[!htb]
     \centering
     \captionsetup{width=.5\linewidth}
+    \includegraphics[scale=.35]{images/depc-005340.png}
+    \caption{Beer dossier account of Kushim
+    \cite{P005340} with copy and explanation by Bob Englund and Peter Damerow
+    \cite[37]{DamerowEnglund1993}.}
+    \end{figure}
+  </tex:latex>
+</tex:text>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[!htb]
+    \centering
+    \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.35]{images/P005252.png}
     \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}
@@ -175,10 +182,25 @@ from Uruk and Umma \cite{Englund2009}.</p>
   <tex:plain>
     \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
 
+<tex:text>
+  <tex:latex>
+    \begin{figure}[!htb]
+    \centering
+    \captionsetup{width=.5\linewidth}
+    \includegraphics[scale=.35]{images/depc-003500.png}
+    \caption{Personnel list
+    \cite{P003500} with Englund's copy and transliteration
+    \cite[13]{Englund2009}.  The expressions AL, EN~a TUR, 1(N57)×U4
+    TUR, BULUG₃, U₂~a A and ŠU are probably age qualifications of
+    individuals.}
+    \end{figure}
+  </tex:latex>
+</tex:text>
+
 <h3>Lexical Lists</h3>
 
-<p>The other important--but numerically far fewer--group of texts are
-the word lists that Assyriologists generally refer to as `Lexical
+<p>The other important--but numerically far smaller--group of texts
+are the word lists that Assyriologists generally refer to as `Lexical
 Texts'.  These appear in the earlist phases of writing and are
 especially well evidenced in Uruk III texts.</p>
 
@@ -220,7 +242,7 @@ excellent overview is given by Niek Veldhuis in
     \centering
     \captionsetup{width=.5\linewidth}
     \includegraphics[scale=.4]{images/lex.png}
-    \caption{Sample lexical tablets: P000006, P000011, P000025}
+    \caption{Sample lexical tablets: Professions \cite{P000006}, \cite{P000011}; Archaic Vocabulary \cite{P000025}}
     \end{figure}
   </tex:latex>
   <tex:plain>

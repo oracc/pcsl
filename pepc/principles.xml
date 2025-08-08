@@ -62,6 +62,40 @@
       |DARA₃~d×KAR₂|.  The encoding by default follows the CDLI
       notations in such cases.</p>
 
+      <esp:sh>Numbers</esp:sh>
+
+      <p>Most PC numbers have been included in \cite{L2/24-210}. PC25
+      includes an additional four series of numbers or number-like
+      signs.  These were left for the PC proposal because they are not
+      part of the basic systems of counting and metrology.</p>
+
+      <dl>
+	<dt>N57 and N57@t</dt>
+	<dd><p>The horizontal tally marks used in a variety of
+	contexts including animal ages in years; occasionally in
+	number sequences such as 1(N34) 2(N14) 1(N57) [P003421].</p>
+	<p>In the PCSL table combinations of n(N57) with ideograms are
+	collected at the end of the table so they can be conveniently
+	compared.</p></dd>
+	<dt>N58 and N58@t</dt>
+	<dd>The vertical tally marks, mostly used in compounds or
+	sequences such as <code>|1(N58).BAD|</code> but also
+	occasionally used in number sequences such as 1(N34) 4(N14)
+	1(N58) [P003434]</dd>
+	<dt>LAGAB</dt>
+	<dd>The ideogram LAGAB~a occurs in stacks of up to 6(LAGAB~a)
+	and are included in PC25. 5(LAGAB~a) is unattested and is
+	omitted because the function of this sequence is not
+	clear.</dd>
+	<dt>UD</dt>
+	<dd>Temporal notations with U₄ ``day''
+	\cite[121-122]{Englund1998} are included in PCSL in their
+	natural sort locations after U₄. Day notations of the form
+	|U₄.n(N08)| are treated as sequences; month notations of the
+	form |U₄×n(N01) and year notations of the form |U₄×n(N57)| are
+	assigned codepoints in PC25.</dd>
+      </dl>
+      
       <esp:sh>Sequences</esp:sh>
 
       <p>Sequences\label{sequences} are a class of compound signs which exhibit a low
@@ -194,6 +228,9 @@
 
 	<li>Do not encode broken signs; include them in the PUA
 	instead.</li>
+
+	<li>Do not encode numbers which are outside of normal ranges
+	for a number type.</li>
       </ol>
 
       <esp:sh>Advantages of the Revised Approach</esp:sh>

@@ -3,22 +3,11 @@
 	 F1CCE; this means Pcun should probably go up into the F2 or F3 zone
 	 ** presciently, there are no F1XXX in PC ...
 
-Title/maketitle
-	name e-mails?
-
-TOC
-	LaTeX: change URL font/colour/boxing
-	LaTeX: suppress sections in Appendices
-
 Section 6.5
 	Double-check reference glyphs to make sure they are
 	Uruk Uruk III where possible
 
-Should attached UnicodeData.txt be renamed NamesList.txt?
-
 -Disunify |GA₂~a1×X| and (creating new non-encoded sign entry) |GA₂~a1×X₁|
-
-LaTeX: Figure out why chartlist isn't obeying offinterlineskip
 
 -Appendices: What happened to Uruk V non-encoded signs? Explore restoring that appendix
 	**Answer: looks like the new catalogue rescinds some of the Uruk V periodizations, whether by design or accident.
@@ -26,14 +15,14 @@ LaTeX: Figure out why chartlist isn't obeying offinterlineskip
 
 3.3.1 sub in graphic with more admin examples where summation is to make it a full page
 
-3.3.x lexical graphic ref P-num texts properly
+-3.3.x lexical graphic ref P-num texts properly
 
-note ref to post-Uruk Uruk tablets in LecompteVerderame2013 for 4.1
+-note ref to post-Uruk Uruk tablets in LecompteVerderame2013 for 4.1
+
+-Names list: 10(N57) wrongly ONE N57; similarly 10(N58) and 12(N58) ** fixed in lib/gvl/gvl_uname_tree.c
 
 General
-	LaTeX: get sections/appendices in headers?
-	Update Oracc PUA doco for F2XXX glyph variants
-	Numbers in PCSL; selection; grouping of N57-X; U4-time
+	-Numbers in PC25; selection; grouping of N57-X; U4-time
 	-Do we mention that this proposal is PC25 anywhere? ** Yes
 
 Appendix A
