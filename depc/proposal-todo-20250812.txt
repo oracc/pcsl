@@ -5,10 +5,8 @@ TOC
 	LaTeX: change URL font/colour/boxing
 	LaTeX: suppress sections in Appendices
 
-PDF
-	Should attached UnicodeData.txt be renamed NamesList.txt?
-
-
+-PDF
+	-Should attached UnicodeData.txt be renamed NamesList.txt? ** no--RL
 
 General
 	LaTeX: get sections/appendices in headers?
@@ -27,4 +25,5 @@ Appendix A
 
 	seq processing diagnostics need dealing with
 	BAR×URI₃/BAR×UŠ are the only NOT tags
-	FONT column only gives codepoint of first constituent when using _ notation, e.g., |3(N57).AZ| etc.
+	FONT column only gives codepoint of first constituent when
+	     using _ notation, e.g., |3(N57).AZ| etc.
