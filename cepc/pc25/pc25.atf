@@ -51242,6 +51242,19 @@ $ blank space
 
 
 
+&P003492 = IM 067375
+#project: pcsl/pc25
+#atf: use unicode
+#atf: lang qpc 
+@tablet 
+@obverse 
+@column 1 
+1. 1(N14) 5(N01) , GADA~a ERIM~a MAGUR~b 
+2. 6(N01) , GADA~a UD₅~a ERIM~a 
+ 
+
+
+
 &P003493 = IM 067376
 #project: pcsl/pc25
 #atf: use unicode
@@ -81483,7 +81496,7 @@ $ blank space
 1. [...] , [...] 
 2. 4(N01) [1(N08)] , HAŠHUR 
 3. 2(N01) , MA ZATU735~b 
-4. 2(N01)# , |GA₂~a1×X| 
+4. 2(N01)# , |GA₂~a1×X1| 
 5. NI~a RU 2(N57) SU~a GIBIL [GU₇] 
 @reverse 
 $ blank 

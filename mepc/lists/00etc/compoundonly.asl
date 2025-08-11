@@ -38,3 +38,4 @@
 @compoundonly ŠITA~b1@g
 @compoundonly ŠITA~b2@g
 @compoundonly ŠUR₂
+@compoundonly X₁

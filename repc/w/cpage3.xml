@@ -142,7 +142,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR-B">𒢰</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR-C">𒢰</span>
               </div>
               <div>
                 <span class="cc-uni">128B0</span>
@@ -152,7 +152,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES KU6-A JOINING KU6-A">𒣀</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES KUSHU2-A TENU">𒣀</span>
               </div>
               <div>
                 <span class="cc-uni">128C0</span>
@@ -162,7 +162,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES HI">𒣐</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES KUR-E">𒣐</span>
               </div>
               <div>
                 <span class="cc-uni">128D0</span>
@@ -172,7 +172,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-A">𒣠</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-B">𒣠</span>
               </div>
               <div>
                 <span class="cc-uni">128E0</span>
@@ -305,7 +305,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR-C">𒢱</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR GUNU-A">𒢱</span>
               </div>
               <div>
                 <span class="cc-uni">128B1</span>
@@ -315,7 +315,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES KUSHU2-A TENU">𒣁</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES ME-A">𒣁</span>
               </div>
               <div>
                 <span class="cc-uni">128C1</span>
@@ -325,7 +325,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES KUR-E">𒣑</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES PA-A">𒣑</span>
               </div>
               <div>
                 <span class="cc-uni">128D1</span>
@@ -335,7 +335,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-B">𒣡</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-B REVERSED">𒣡</span>
               </div>
               <div>
                 <span class="cc-uni">128E1</span>
@@ -468,7 +468,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR GUNU-A">𒢲</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR GUNU-B">𒢲</span>
               </div>
               <div>
                 <span class="cc-uni">128B2</span>
@@ -478,7 +478,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES ME-A">𒣂</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES NUN-B">𒣂</span>
               </div>
               <div>
                 <span class="cc-uni">128C2</span>
@@ -488,7 +488,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES PA-A">𒣒</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES U4">𒣒</span>
               </div>
               <div>
                 <span class="cc-uni">128D2</span>
@@ -498,7 +498,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-B REVERSED">𒣢</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-B TENU">𒣢</span>
               </div>
               <div>
                 <span class="cc-uni">128E2</span>
@@ -631,7 +631,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR GUNU-B">𒢳</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-A">𒢳</span>
               </div>
               <div>
                 <span class="cc-uni">128B3</span>
@@ -641,7 +641,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES NUN-B">𒣃</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES PA-A">𒣃</span>
               </div>
               <div>
                 <span class="cc-uni">128C3</span>
@@ -651,7 +651,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES U4">𒣓</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B OVER LAGAB-B">𒣓</span>
               </div>
               <div>
                 <span class="cc-uni">128D3</span>
@@ -661,7 +661,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-B TENU">𒣣</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LISH">𒣣</span>
               </div>
               <div>
                 <span class="cc-uni">128E3</span>
@@ -794,7 +794,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-A">𒢴</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-B">𒢴</span>
               </div>
               <div>
                 <span class="cc-uni">128B4</span>
@@ -804,7 +804,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES PA-A">𒣄</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SIG7">𒣄</span>
               </div>
               <div>
                 <span class="cc-uni">128C4</span>
@@ -814,7 +814,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B OVER LAGAB-B">𒣔</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-A">𒣔</span>
               </div>
               <div>
                 <span class="cc-uni">128D4</span>
@@ -824,7 +824,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LISH">𒣤</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LU2">𒣤</span>
               </div>
               <div>
                 <span class="cc-uni">128E4</span>
@@ -947,7 +947,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KITI">𒢥</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU-A">𒢥</span>
               </div>
               <div>
                 <span class="cc-uni">128A5</span>
@@ -957,7 +957,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-B">𒢵</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-C">𒢵</span>
               </div>
               <div>
                 <span class="cc-uni">128B5</span>
@@ -967,7 +967,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SIG7">𒣅</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SU-A">𒣅</span>
               </div>
               <div>
                 <span class="cc-uni">128C5</span>
@@ -977,7 +977,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-A">𒣕</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-A REVERSED">𒣕</span>
               </div>
               <div>
                 <span class="cc-uni">128D5</span>
@@ -987,7 +987,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LU2">𒣥</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LUM">𒣥</span>
               </div>
               <div>
                 <span class="cc-uni">128E5</span>
@@ -1110,7 +1110,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU-A">𒢦</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU-B1">𒢦</span>
               </div>
               <div>
                 <span class="cc-uni">128A6</span>
@@ -1120,7 +1120,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-C">𒢶</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-D">𒢶</span>
               </div>
               <div>
                 <span class="cc-uni">128B6</span>
@@ -1130,7 +1130,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SU-A">𒣆</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SHA">𒣆</span>
               </div>
               <div>
                 <span class="cc-uni">128C6</span>
@@ -1140,7 +1140,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-A REVERSED">𒣖</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-B1">𒣖</span>
               </div>
               <div>
                 <span class="cc-uni">128D6</span>
@@ -1150,7 +1150,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LUM">𒣦</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA">𒣦</span>
               </div>
               <div>
                 <span class="cc-uni">128E6</span>
@@ -1273,7 +1273,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU-B1">𒢧</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU-B2">𒢧</span>
               </div>
               <div>
                 <span class="cc-uni">128A7</span>
@@ -1283,7 +1283,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-D">𒢷</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-E">𒢷</span>
               </div>
               <div>
                 <span class="cc-uni">128B7</span>
@@ -1293,7 +1293,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SHA">𒣇</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SHITA-A1">𒣇</span>
               </div>
               <div>
                 <span class="cc-uni">128C7</span>
@@ -1303,7 +1303,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-B1">𒣗</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-B2">𒣗</span>
               </div>
               <div>
                 <span class="cc-uni">128D7</span>
@@ -1313,7 +1313,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA">𒣧</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA TIMES A">𒣧</span>
               </div>
               <div>
                 <span class="cc-uni">128E7</span>
@@ -1436,7 +1436,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU-B2">𒢨</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU3-A">𒢨</span>
               </div>
               <div>
                 <span class="cc-uni">128A8</span>
@@ -1446,7 +1446,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-E">𒢸</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-F">𒢸</span>
               </div>
               <div>
                 <span class="cc-uni">128B8</span>
@@ -1456,7 +1456,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES SHITA-A1">𒣈</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES TI">𒣈</span>
               </div>
               <div>
                 <span class="cc-uni">128C8</span>
@@ -1466,7 +1466,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-B2">𒣘</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-C">𒣘</span>
               </div>
               <div>
                 <span class="cc-uni">128D8</span>
@@ -1476,7 +1476,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA TIMES A">𒣨</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA TIMES MA">𒣨</span>
               </div>
               <div>
                 <span class="cc-uni">128E8</span>
@@ -1599,7 +1599,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU3-A">𒢩</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU3-C">𒢩</span>
               </div>
               <div>
                 <span class="cc-uni">128A9</span>
@@ -1609,7 +1609,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUSHU2-F">𒢹</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LA-B">𒢹</span>
               </div>
               <div>
                 <span class="cc-uni">128B9</span>
@@ -1619,7 +1619,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES TI">𒣉</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES U4">𒣉</span>
               </div>
               <div>
                 <span class="cc-uni">128C9</span>
@@ -1629,7 +1629,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAR-C">𒣙</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-A">𒣙</span>
               </div>
               <div>
                 <span class="cc-uni">128D9</span>
@@ -1639,7 +1639,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA TIMES MA">𒣩</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA TIMES ONE N58">𒣩</span>
               </div>
               <div>
                 <span class="cc-uni">128E9</span>
@@ -1762,7 +1762,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU3-C">𒢪</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-A">𒢪</span>
               </div>
               <div>
                 <span class="cc-uni">128AA</span>
@@ -1772,7 +1772,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LA-B">𒢺</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LA-D">𒢺</span>
               </div>
               <div>
                 <span class="cc-uni">128BA</span>
@@ -1782,7 +1782,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES U4">𒣊</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES UB">𒣊</span>
               </div>
               <div>
                 <span class="cc-uni">128CA</span>
@@ -1792,7 +1792,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-A">𒣚</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-A TIMES NAGA-A">𒣚</span>
               </div>
               <div>
                 <span class="cc-uni">128DA</span>
@@ -1802,7 +1802,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA TIMES ONE N58">𒣪</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA2">𒣪</span>
               </div>
               <div>
                 <span class="cc-uni">128EA</span>
@@ -1925,7 +1925,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-A">𒢫</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-A JOINING KU6-A">𒢫</span>
               </div>
               <div>
                 <span class="cc-uni">128AB</span>
@@ -1935,7 +1935,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LA-D">𒢻</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LA2">𒢻</span>
               </div>
               <div>
                 <span class="cc-uni">128BB</span>
@@ -1945,7 +1945,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES UB">𒣋</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES ZATU753">𒣋</span>
               </div>
               <div>
                 <span class="cc-uni">128CB</span>
@@ -1955,7 +1955,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-A TIMES NAGA-A">𒣛</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-A TIMES NIM-B2">𒣛</span>
               </div>
               <div>
                 <span class="cc-uni">128DB</span>
@@ -1965,7 +1965,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MA2">𒣫</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MAGUR-A">𒣫</span>
               </div>
               <div>
                 <span class="cc-uni">128EB</span>
@@ -2088,7 +2088,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-A JOINING KU6-A">𒢬</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-C">𒢬</span>
               </div>
               <div>
                 <span class="cc-uni">128AC</span>
@@ -2098,7 +2098,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LA2">𒢼</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A">𒢼</span>
               </div>
               <div>
                 <span class="cc-uni">128BC</span>
@@ -2108,7 +2108,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES ZATU753">𒣌</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES TWO N14">𒣌</span>
               </div>
               <div>
                 <span class="cc-uni">128CC</span>
@@ -2118,7 +2118,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-A TIMES NIM-B2">𒣜</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-B">𒣜</span>
               </div>
               <div>
                 <span class="cc-uni">128DC</span>
@@ -2128,7 +2128,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MAGUR-A">𒣬</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN MAGUR-B">𒣬</span>
               </div>
               <div>
                 <span class="cc-uni">128EC</span>
@@ -2251,7 +2251,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-C">𒢭</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-D">𒢭</span>
               </div>
               <div>
                 <span class="cc-uni">128AD</span>
@@ -2261,7 +2261,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A">𒢽</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES DU6-A">𒢽</span>
               </div>
               <div>
                 <span class="cc-uni">128BD</span>
@@ -2271,7 +2271,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES TWO N14">𒣍</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES ONE N58">𒣍</span>
               </div>
               <div>
                 <span class="cc-uni">128CD</span>
@@ -2281,7 +2281,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL2-B">𒣝</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL3-A">𒣝</span>
               </div>
               <div>
                 <span class="cc-uni">128DD</span>
@@ -2414,7 +2414,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KU6-D">𒢮</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR-A">𒢮</span>
               </div>
               <div>
                 <span class="cc-uni">128AE</span>
@@ -2424,7 +2424,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES DU6-A">𒢾</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES KU6-A">𒢾</span>
               </div>
               <div>
                 <span class="cc-uni">128BE</span>
@@ -2434,7 +2434,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES ONE N58">𒣎</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B">𒣎</span>
               </div>
               <div>
                 <span class="cc-uni">128CE</span>
@@ -2444,7 +2444,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL3-A">𒣞</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL3-B">𒣞</span>
               </div>
               <div>
                 <span class="cc-uni">128DE</span>
@@ -2577,7 +2577,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR-A">𒢯</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN KUR-B">𒢯</span>
               </div>
               <div>
                 <span class="cc-uni">128AF</span>
@@ -2587,7 +2587,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES KU6-A">𒢿</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-A TIMES KU6-A JOINING KU6-A">𒢿</span>
               </div>
               <div>
                 <span class="cc-uni">128BF</span>
@@ -2597,7 +2597,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B">𒣏</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAGAB-B TIMES HI">𒣏</span>
               </div>
               <div>
                 <span class="cc-uni">128CF</span>
@@ -2607,7 +2607,7 @@
           <td>
             <div class="vbox">
               <div>
-                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAL3-B">𒣟</span>
+                <span class="cc-chr" title="PROTO-CUNEIFORM SIGN LAM-A">𒣟</span>
               </div>
               <div>
                 <span class="cc-uni">128DF</span>

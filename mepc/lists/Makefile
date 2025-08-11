@@ -18,6 +18,12 @@ PCSL=${WWW}/pcsl
 MEPCSL=${PCSL}/mepc/sl
 SUDO=$(${ORACC_MODE}="single"&&"sudo")
 
+00etc/no_%.xml: 00etc/no_%.tsv
+	00bin/final-xml.plx $<
+
+00web/no_%.html: 00etc/no_%.xml
+	00bin/pc25no-html.sh $<
+
 CSLDEPS=../signs/gpcsl/csl.tix ../../00lib/pcsl-template.txt 00bin/csldist-pcsl.xsl 00bin/csldist-all.xsl Makefile
 DVDEPS=00etc/pc24.tsv 00etc/easl-final.tsv 00etc/cusas-final.tsv 00bin/pcsl-final.plx 00etc/num-final.tsv
 DVHTML=00web/easl-tab.html 00web/pcsl-tab.html 00web/pc25-tab.html 00web/num-tab.html 00web/cusas-tab.html
@@ -217,9 +223,6 @@ xml: ${SLXML} ${DVXML}
 00etc/pc25-final.xml: 00etc/pc25-final.tsv ${XMLDEPS} 00etc/csldist.tsv ${SLDEPS}
 	00bin/final-xml.plx pc25
 
-00etc/no_%.xml: 00etc/no_%.tsv
-	00bin/final-xml.plx $<
-
 # Note that 00etc/seqdb.xml is generated in PC25 encoding
 00etc/seqdb.xml: 00etc/seq-final.tsv 00bin/seqdb-xml.plx 00etc/pc25.map
 	00bin/seqdb-xml.plx | utr -s 00etc/pc25.map >$@
@@ -249,13 +252,7 @@ html: ${SLHTML} ${DVHTML} pc25no-html 00web/zatu.html
 	${sudo} cp -v 00web/$*-tab.html 00web/zatu.html ${MEPCSL}
 	${sudo} chmod -R +r ${MEPCSL}
 
-00web/no_broken.html: 00etc/no_broken.xml
-	00bin/pc25no-html.sh $<
-
-00web/no_%.html: 00etc/no_%.xml 00bin/final-HTML.xsl
-	00bin/pc25no-html.sh $<
-
-pc25no-html: ${NOHTML}
+pc25no-html: ${NOXML} ${NOHTML}
 	${sudo} cp $^ ${PCSL}/pc25
 	${sudo} chmod -R +r ${PCSL}/pc25
 

@@ -38,10 +38,10 @@ pc25: 00atf/pcsl.atf 00cat/pcsl.tsv 00lib/lists/pcsl-pub.lst
 00lib/outlined.lst: 00src/pcsl.atf Makefile
 	grep '&P' $< | atfgrabpq.plx | sort -u >$@
 
-00lib/lists/pcsl-pub.lst: 00cat/pcsl.tsv Makefile
+00lib/lists/pcsl-pub.lst: 00cat/pcsl.tsv 00etc/pubkey-remove.lst Makefile
 	cut -f1,5 $< | grep '	.' | cut -f1 | grep ^P | grep -v -f 00etc/pubkey-remove.lst >$@
 
-00lib/lists/pcsl-unp.lst: 00cat/pcsl.tsv Makefile
+00lib/lists/pcsl-unp.lst: 00cat/pcsl.tsv 00etc/pubkey-remove.lst Makefile
 	cut -f1,5 $< | grep "	$$" | cut -f1 | grep P | cat - 00etc/pubkey-remove.lst | sort -u >$@
 
 dirs:
