@@ -81,7 +81,7 @@
       <esp:sh>Usage notes</esp:sh>
       <esp:ssh>LuaHBTeX</esp:ssh>
       <p>In <code>LuaHBTeX</code> (the recommended TeX engine for
-      using the PC25 font), all <code>\font</code> inputs should
+      using the PC25 font), all <code>\textbackslash{}font</code> inputs should
       include ``mode=harf;script=xsux''.  The features for the cvNN
       ligatures should be specified as ``+cv01,+salt=0'',
       ``+cv02,+salt=1'', ``+cv03,+salt=2'' (specifying +liga is

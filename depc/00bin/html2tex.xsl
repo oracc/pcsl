@@ -373,7 +373,7 @@
   <xsl:template match="h:pre">
     <xsl:text>\begin{verbatim}</xsl:text>
     <xsl:apply-templates/>
-    <xsl:text>&#xa;@end{verbatim}&#xa;</xsl:text>
+    <xsl:text>&#xa;\end{verbatim}&#xa;</xsl:text>
   </xsl:template>
 
   <xsl:template match="h:span[@class='chars-tag']">
