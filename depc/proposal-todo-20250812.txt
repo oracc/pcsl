@@ -27,3 +27,8 @@ Appendix A
 	BAR×URI₃/BAR×UŠ are the only NOT tags
 	FONT column only gives codepoint of first constituent when
 	     using _ notation, e.g., |3(N57).AZ| etc.
+	GA₂~a1×X₁ is showing ZERO occurrences
+
+Appendix B
+
+	overfull boxes ZATU346; ZATU410
