@@ -252,6 +252,8 @@ sub chars {
 	} else {
 	    if ($pcslflag || $pc25flag) {
 		pchar($c,'',$oc);
+	    } elsif ($c =~ /_/) {
+		pchar($c,'',$oc);
 	    } else {
 		my @cc = grep(length,split(/(.)/,$c));
 		foreach my $cc (@cc) {
@@ -586,6 +588,25 @@ sub pchar {
 	    warn "$.: (1): hex $ch not in 00etc/unicode.tsv\n";
 	}
     } else {
+	my $useq = '';
+	if ($cc =~ /_/) {
+	    # create useq for X_Y--only works for two or three char
+	    # sequences but that's all PC has at time of writing
+	    warn "$0: $cc longer than three Pcun chars\n" if length($cc) > 5;
+	    warn "$0: trying underscore splitting in $cc\n";
+	    my($c1,$c2,$c3) = ($cc =~ /^(.)_(.)_(.)$/);
+	    ($c1,$c2) = ($cc =~ /^(.)_(.)$/)
+		unless $c3;
+	    my $u1 = $pc25{sprintf("%X", ord($c1))};
+	    my $u2 = $pc25{sprintf("%X", ord($c2))};
+	    if ($c3) {
+		my $u3 = $pc25{sprintf("%X", ord($c3))};
+		$useq = " useq=\"${u1}_${u2}_${u3}\" useqlen=\"3\"";
+	    } else {
+		$useq = " useq=\"${u1}_${u2}\" useqlen=\"2\"";
+	    }
+	}
+    
 	my $ch = sprintf("%X",ord($cc));
 	my $ch25 = $pc25{$ch};
 	unless ($ch25) {
@@ -608,7 +629,14 @@ sub pchar {
 		    $tag = '';
 		}
 	    }
-	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\" u25=\"$ch25\"$ngh$tag/>";
+	    my $u25;
+	    if ($useq) {
+		$u25 = $useq;
+		$u25 =~ s/seq/25/;
+	    } else {
+		$u25 = " u25=\"$ch25\"";
+	    }
+	    print "<$f o=\"$co\" sn=\"$cn\" c=\"$cc\" u=\"$ch\"$u25$useq$ngh$tag/>";
 	} elsif ($ch eq '4F') {
 	    print "<$f sn=\"O\" c=\"O\"/>";
 	} elsif ($ch eq '200D') {

@@ -25,7 +25,7 @@
 @lit	M. W. Green und Hans J. Nissen, unter Mitarbeit von Peter Damerow und Robert K. Englund,
 	"Zeichenliste der Archaischen Texte aus Uruk" (ATU 2), Berlin 1987.
 
-@listdef U+ 0x12550-0x12686 0x12690-0x12BFF 0xF00DA-0xF00EF 0xF00F4-0xF010F 0xF0124-0xF012D 0xF2000-0xF22B0 0xF2400-0xF2544 0xF2D00-0xF2DA4 0xF5500-0xF5501
+@listdef U+ 0x12550-0x12686 0x12690-0x12BFF 0xF00DA-0xF00EF 0xF00F4-0xF010F 0xF0124-0xF012D 0xF2000-0xF22AF 0xF2400-0xF2545 0xF2D00-0xF2DA4 0xF5500-0xF5501
 @lit CP 12550-12686 are Archaic Cuneiform Numerals; 12690-12E10 are
 	AP24; For AP23 characters which were dropped in AP24 and not
 	picked up in ACN, the codepoints F2580-F2EC6 are used, i.e.,
@@ -649,9 +649,9 @@
 @sign |3(N57).LAM~a.KUR~a.RU|
 @aka ARATTA
 @oid o0980071
-@upua U+F22A0
+@upua U+F229F
 @list ZATU035
-@glyf ARATTA~1 󲊠 F22A0 o0990089 ~01
+@glyf ARATTA~1 󲊟 F229F o0990089 ~01
 @end sign
 
 @sign ASAL₂
@@ -3274,6 +3274,7 @@
 
 @sign |GA₂~a1×X₁|
 @oid o0982286
+@upua U+F2529
 @uname PROTO-CUNEIFORM SIGN GA2-A1 TIMES X1
 @glyf |GA₂~a1×X₁|~1 󲔩 F2529 o0990487 ~01
 @end sign
@@ -7025,6 +7026,7 @@
 @sign |MUŠEN.3(N58)|
 @oid o0980873
 @upua U+F2519
+@glyf |MUŠEN.3(N58)|~1 𒤤‍𒯸 0 o0991050 ~01
 @end sign
 
 @sign |MUŠEN×PAP~a|
@@ -9788,12 +9790,6 @@
 @glyf ŠEN~c@t~1 𒨭 12A2D o0991484 ~01
 @end sign
 
-@sign ŠEN~d
-@oid o0981216
-@upua U+F219B
-@list ZATU521
-@end sign
-
 @sign ŠEN~e
 @oid o0981218
 @list U+12A2E
@@ -11750,17 +11746,17 @@
 @sign |1(N57).URU~a1|
 @aka |URU~a1×1(N57)|
 @oid o0981472
-@upua U+F22AF
+@upua U+F22AE
 @list ZATU601
-@glyf |URU~a1×1(N57)|~1 󲊯 F22AF o0991788 ~01
+@glyf |URU~a1×1(N57)|~1 󲊮 F22AE o0991788 ~01
 @end sign
 
 @sign |2(N57).URU~a1|
 @aka |URU~a1×2(N57)|
 @oid o0981473
-@upua U+F22B0
+@upua U+F22AF
 @list ZATU601
-@glyf |URU~a1×2(N57)|~1 󲊰 F22B0 o0991789 ~01
+@glyf |URU~a1×2(N57)|~1 󲊯 F22AF o0991789 ~01
 @end sign
 
 @sign |URU~a1×3(N57)|
@@ -17541,79 +17537,80 @@
 
 @sign |7(N57).GAR|
 @oid o0982219
-@upua U+F229B
+@upua U+F2545
+@glyf |7(N57).GAR|~1 𒯲‍𒟯 0 o0992737 ~01
 @end sign
 
 @sign |4(N57).KU₃~a|
 @aka |4(N57).KU₃|
 @oid o0982220
-@upua U+F229C
-@glyf |4(N57).KU₃~a|~1 󲊜 F229C o0992738 ~01
+@upua U+F229B
+@glyf |4(N57).KU₃~a|~1 󲊛 F229B o0992738 ~01
 @end sign
 
 @sign |5(N57).KU₃~a|
 @aka |5(N57).KU₃|
 @oid o0982221
-@upua U+F229D
-@glyf |5(N57).KU₃~a|~1 󲊝 F229D o0992739 ~01
+@upua U+F229C
+@glyf |5(N57).KU₃~a|~1 󲊜 F229C o0992739 ~01
 @end sign
 
 @sign |6(N57).KU₃~a|
 @aka |6(N57).KU₃|
 @oid o0982222
-@upua U+F229E
-@glyf |6(N57).KU₃~a|~1 󲊞 F229E o0992740 ~01
+@upua U+F229D
+@glyf |6(N57).KU₃~a|~1 󲊝 F229D o0992740 ~01
 @end sign
 
 @sign |2(N57).KU₆~a|
 @aka |2(N57).KU₆|
 @oid o0982223
-@upua U+F229F
-@glyf |2(N57).KU₆~a|~1 󲊟 F229F o0992741 ~01
+@upua U+F229E
+@glyf |2(N57).KU₆~a|~1 󲊞 F229E o0992741 ~01
 @end sign
 
 @sign |1(N57).MUŠEN|
 @aka |MUŠEN×1(N57)|
 @oid o0982224
-@glyf |1(N57).MUŠEN|~1 󲊡 F22A1 o0992743 ~01
-@glyf |1(N57).MUŠEN|~2 󲊡=𒯬‍𒤤 0 o0992742 ~02
+@glyf |1(N57).MUŠEN|~1 󲊠 F22A0 o0992743 ~01
+@glyf |1(N57).MUŠEN|~2 󲊠=𒯬‍𒤤 0 o0992742 ~02
 @end sign
 
 @sign |2(N57).MUŠEN|
 @aka |MUŠEN×2(N57)|
 @oid o0982225
-@glyf |2(N57).MUŠEN|~1 󲊢 F22A2 o0992745 ~01
-@glyf |2(N57).MUŠEN|~2 󲊢=𒯭‍𒤤 0 o0992744 ~02
+@glyf |2(N57).MUŠEN|~1 󲊡 F22A1 o0992745 ~01
+@glyf |2(N57).MUŠEN|~2 󲊡=𒯭‍𒤤 0 o0992744 ~02
 @end sign
 
 @sign |3(N57).MUŠEN|
 @aka |MUŠEN×3(N57)|
 @oid o0982226
-@upua U+F22A3
-@glyf |3(N57).MUŠEN|~1 󲊣 F22A3 o0992746 ~01
+@upua U+F22A2
+@glyf |3(N57).MUŠEN|~1 󲊢 F22A2 o0992746 ~01
 @end sign
 
 @sign |3(N57).NUNUZ~a1|
 @aka |3(N57).NUNUZ|
 @oid o0982227
-@upua U+F22A4
+@upua U+F22A3
 @list ZATU424
-@glyf |3(N57).NUNUZ~a1|~1 󲊤 F22A4 o0992747 ~01
+@glyf |3(N57).NUNUZ~a1|~1 󲊣 F22A3 o0992747 ~01
 @end sign
 
 @sign |3(N57).NUNUZ~c|
 @oid o0982228
-@upua U+F22A5
+@upua U+F22A4
 @list ZATU424
-@glyf |3(N57).NUNUZ~c|~1 󲊥 F22A5 o0992748 ~01
+@glyf |3(N57).NUNUZ~c|~1 󲊤 F22A4 o0992748 ~01
 @end sign
 
 @sign |3(N57).PIRIG~b1|
 @aka |3(N57).PIRIG|
 @oid o0982229
-@upua U+F22A6
+@upua U+F22A5
 @list ZATU429
-@glyf |3(N57).PIRIG~b1|~1 󲊦 F22A6 o0992749 ~01
+@glyf |3(N57).PIRIG~b1|~1 󲊥 F22A5 o0992749 ~01
 @end sign
 
 @sign |3(N57).SANGA~a|
@@ -17629,21 +17626,21 @@
 @sign |1(N57).SIG|
 @aka |SIG×1(N57)|
 @oid o0982232
-@upua U+F22A7
-@glyf |1(N57).SIG|~1 󲊧 F22A7 o0992752 ~01
+@upua U+F22A6
+@glyf |1(N57).SIG|~1 󲊦 F22A6 o0992752 ~01
 @end sign
 
 @sign |2(N57).SU~a|
 @aka |2(N57).SU|
 @oid o0982233
-@upua U+F22A8
-@glyf |2(N57).SU~a|~1 󲊨 F22A8 o0992753 ~01
+@upua U+F22A7
+@glyf |2(N57).SU~a|~1 󲊧 F22A7 o0992753 ~01
 @end sign
 
 @sign |1(N57).ŠAH₂~a|
 @oid o0982234
-@upua U+F22A9
-@glyf |1(N57).ŠAH₂~a|~1 󲊩 F22A9 o0992754 ~01
+@upua U+F22A8
+@glyf |1(N57).ŠAH₂~a|~1 󲊨 F22A8 o0992754 ~01
 @end sign
 
 @sign |1(N57).ŠUBUR|
@@ -17656,37 +17653,37 @@
 
 @sign |2(N57).ŠUBUR|
 @oid o0982236
-@upua U+F22AA
-@glyf |2(N57).ŠUBUR|~1 󲊪 F22AA o0992757 ~01
+@upua U+F22A9
+@glyf |2(N57).ŠUBUR|~1 󲊩 F22A9 o0992757 ~01
 @end sign
 
 @sign |3(N57).ŠUBUR|
 @oid o0982237
-@upua U+F22AB
+@upua U+F22AA
 @list ZATU540
-@glyf |3(N57).ŠUBUR|~1 󲊫 F22AB o0992758 ~01
+@glyf |3(N57).ŠUBUR|~1 󲊪 F22AA o0992758 ~01
 @end sign
 
 @sign |3(N57).UDU~a|
 @aka |3(N57).UDU|
 @oid o0982238
-@upua U+F22AC
+@upua U+F22AB
 @list ZATU577
-@glyf |3(N57).UDU~a|~1 󲊬 F22AC o0992759 ~01
+@glyf |3(N57).UDU~a|~1 󲊫 F22AB o0992759 ~01
 @end sign
 
 @sign |2(N57).UDUNITA~a|
 @aka |2(N57).UDUNITA|
 @oid o0982239
-@upua U+F22AD
-@glyf |2(N57).UDUNITA~a|~1 󲊭 F22AD o0992760 ~01
+@upua U+F22AC
+@glyf |2(N57).UDUNITA~a|~1 󲊬 F22AC o0992760 ~01
 @end sign
 
 @sign |3(N57).UDUNITA~a|
 @aka |3(N57).UDUNITA|
 @oid o0982240
-@upua U+F22AE
-@glyf |3(N57).UDUNITA~a|~1 󲊮 F22AE o0992761 ~01
+@upua U+F22AD
+@glyf |3(N57).UDUNITA~a|~1 󲊭 F22AD o0992761 ~01
 @end sign
 
 @lref ZATU014a

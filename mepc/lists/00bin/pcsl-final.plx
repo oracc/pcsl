@@ -307,7 +307,8 @@ sub pcsl_tsv {
 	    } else {
 		$rg =~ s/(.).*$/$1/;
 	    }
-	    warn "refglyph	$o	$p{'pc25'}	$rg	$p{'char'}\n" unless $nc < 2;
+	    warn "refglyph	$o	$p{'pc25'}	$rg	$p{'char'}\n"
+		unless $nc < 2 || $p{'tag'} =~ /d/;
 	    $p{'ref'} = $rg;
 	}
 	if ($p{'ref'}) {
