@@ -149,10 +149,10 @@
 	</xsl:when>
 	<xsl:when test="@class='sl-c-u' or @class='fhex'">
 	  <!--<xsl:text>\kern-1pt</xsl:text>-->
-	  <xsl:text>\hbox to\slcwd{\hfil</xsl:text>
+	  <xsl:text>\hbox to\slcwd{\hss</xsl:text>
 	  <xsl:text>\slcufont </xsl:text>
 	  <xsl:apply-templates mode="nosqb"/>
-	  <xsl:text>\hfil}%&#xa;</xsl:text>
+	  <xsl:text>\hss}%&#xa;</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
 	  <xsl:text>\hbox{</xsl:text>

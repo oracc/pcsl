@@ -27,7 +27,7 @@ Appendix A
 	-FONT column only gives codepoint of first constituent when
 	     using _ notation, e.g., |3(N57).AZ| etc.
 	-GA₂~a1×X₁ is showing ZERO occurrences
-	FONT column where sequence has 3 glyphs has overfull unicode box
+	-FONT column where sequence has 3 glyphs has overfull unicode box
 
 -Appendix B
 
