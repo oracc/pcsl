@@ -2,6 +2,7 @@
 <esp:page xmlns:esp="http://oracc.org/ns/esp/1.0"
 	  xmlns:eb="http://oracc.org/ns/esp-biblatex/1.0"
 	  xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:tex="http://oracc.org/ns/tex/1.0"
 	  xmlns:xh="http://www.w3.org/1999/xhtml"
 	  xmlns:xi="http://www.w3.org/2001/XInclude">
   <esp:name>Corpus</esp:name>
@@ -30,6 +31,8 @@
       <esp:ssh>The Print Corpus</esp:ssh>
 
       <p>The principal modern publications of the Proto-Cuneiform corpus are:</p>
+
+      <tex:text>\bgroup\hfuzz20pt</tex:text>
       
       <dl>
 	<dt>ATU2=ZATU</dt>
@@ -73,6 +76,8 @@
 	<dt>CUSAS31</dt>
 	<dd><eb:cite key="CUSAS31"/>: S.F. Monaco, Archaic Cuneiform Tablets from Private Collections (CUSAS 31), Bethesda, MD, 2016.</dd>
       </dl>
+
+      <tex:text>\egroup</tex:text>
       
       <esp:ssh>The Digital Corpus</esp:ssh>
       
@@ -105,6 +110,8 @@
       divided by provenience, period, and published versus unpublished
       status:</p>
 
+      <tex:text>\bigskip</tex:text>
+
       <xi:include xml:base="." href="../../texts/tpcsl/corpus.html"/>
 
       <esp:ssh>PC25 Corpus</esp:ssh>
@@ -126,6 +133,8 @@
       <p>PC25's subset of the PCSL corpus has the following
       composition divided by provenience, period, and
       published/unpublished status:</p>
+
+      <tex:text>\bigskip</tex:text>
 
       <xi:include xml:base="." href="../../texts/tpc25/corpus.html"/>
 

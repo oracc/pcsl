@@ -16,6 +16,9 @@ MDEPS=../mepc/pages/w/texts.xml ../mepc/pages/w/signs.xml \
 	${ORACC}/lib/fonts/PCSL.ttf \
 	images/*.png
 
+MACDEPS=ldepcmac.tex ldepc-preamble.tex lcodechart.tex pcslmac.tex \
+	nocomac.tex seqdbmac.tex lzccmac.tex chartlist.tex
+
 default: depc.pdf
 
 deps:
@@ -24,7 +27,7 @@ deps:
 	(cd ../repc; make)
 	(cd ../fepc; make)
 
-depc.pdf: depc.ltx ldepcmac.tex ldepc-preamble.tex Makefile
+depc.pdf: depc.ltx Makefile ${MACDEPS}
 	latexmk >latexmk.log 2>&1
 	00bin/attach-udata.sh
 

@@ -296,17 +296,14 @@ is reproduced here \cite[69]{Englund1998}.</p>
 
 <h3>Orientation and Disposition</h3>
 
-<tex:text>
-    <tex:latex>
-      \begin{figure}[!htb]
-      \centering
-      \captionsetup{width=.75\linewidth}
-      \includegraphics[scale=.75]{images/obo-diplo.png}
-      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
-      \end{figure}
-  </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
+<tex:latex>
+  \begin{figure}[!htb]
+  \centering
+  \captionsetup{width=.75\linewidth}
+  \includegraphics[scale=.25]{images/roaf-cuneiform.png}
+  \caption{Traditional presentation of development of cuneiform showing rotation of script between rows three and four. \cite[70]{RoafAtlas}}
+  \end{figure}
+</tex:latex>
 
 <p>One longstanding point of discussion in the study of
 Proto-Cuneiform and its descendants is the orientation of the script,
@@ -321,6 +318,18 @@ orientation is preferred in some recent literature, e.g.,
 \cite{Selz2025}.  In this proposal we follow conventional disciplinary
 practice as adopted in the standard corpus publications of
 Proto-Cuneiform and the CDLI.</p>
+
+<tex:text>
+    <tex:latex>
+      \begin{figure}[!htb]
+      \centering
+      \captionsetup{width=.75\linewidth}
+      \includegraphics[scale=.65]{images/obo-diplo.png}
+      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
+      \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
 
 <p>The spatial division of Proto-Cuneiform administrative and lexical
 tablets into cases which are often quite narrow gives rise to an
@@ -348,12 +357,12 @@ think--is increasingly well understood.</p>
 <tex:latex>
   \begin{figure}[h]
   \centering
-  \begin{minipage}{0.475\textwidth}
-  \includegraphics[scale=.25]{images/obo-ovo.png}
+  \begin{minipage}{0.49\textwidth}
+  \includegraphics[width=0.98\textwidth]{images/obo-ovo.png}
   \caption{Signs for ovi-caprids, after Englund.}
   \end{minipage}
-  \begin{minipage}{0.475\textwidth}
-  \includegraphics[scale=.3]{images/obo-dairy.png}
+  \begin{minipage}{0.49\textwidth}
+  \includegraphics[width=0.98\textwidth]{images/obo-dairy.png}
   \caption{Signs for dairy products, after Englund.}
   \end{minipage}
   \end{figure}

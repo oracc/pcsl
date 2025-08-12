@@ -1,4 +1,4 @@
-\def\beginchartlist{\begin{multicols}{2}}\parindent0pt \hfuzz2pt % \offinterlineskip
+\def\beginchartlist{\begin{multicols}{2}}\parindent0pt \hfuzz2pt \parskip0pt plus1pt
 \def\endchartlist{\end{multicols}\clearpage}
 
 \def\cclrow#1#2#3{%
@@ -6,7 +6,7 @@
               \hbox to 3.2in{%
               \hbox to .4in{\helvy#1\hfil}%
               \hbox to .4in{\pccc#2\hss}%
-              \hbox to 2.4in{\hsize2.4in\vtop{\ccluni\leavevmode\offinterlineskipx
+              \hbox to 2.4in{\hsize2.4in\vtop{\ccluni\leavevmode\offinterlineskipx \lineskip1pt
                                               \rightskip0pt plus1fil\relax#3\endgraf}}%
                             \hfil}}\endgraf}
 \def\cclchr{\redpc}%\pcssxx}
