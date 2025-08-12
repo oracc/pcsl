@@ -1900,6 +1900,14 @@
 @glyf |DUG~b×ANŠE~d|~1 𒝂 12742 o0990280 ~01
 @end sign
 
+@sign |DUG~b×BA|
+@oid o0980226
+@upua U+F252E
+@list ZATU093
+@uname PROTO-CUNEIFORM SIGN DUG-B TIMES BA
+@glyf |DUG~b×BA|~1 󲔮 F252E o0990281 ~01
+@end sign
+
 @sign |DUG~b×BALA~a|
 @oid o0980227
 @list U+12743

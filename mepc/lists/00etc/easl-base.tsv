@@ -206,6 +206,7 @@ o0980221		|DUG~a×1(N57)|	I	|DUG~ax1(N57)|	𒝳	/pcsl/easl/images/o0900394.png
 o0980222		DUG~b	I	DUG~b	𒞭,𒝷	/pcsl/easl/images/o0900334.png
 o0980224		|DUG~b×ANŠE~b|	I	|DUG~bxANSZE~b|	𒝸	/pcsl/easl/images/o0900342.png
 o0980225		|DUG~b×ANŠE~d|	I	|DUG~bxANSZE~d|	𒝹	/pcsl/easl/images/o0900343.png
+o0980226	#	|DUG~b×BA|	I	|DUG~bxBA|	󳁣	-
 o0980227		|DUG~b×BALA~a|	I	|DUG~bxBALA~a|	𒝺	/pcsl/easl/images/o0900347.png
 o0980228		|DUG~b×BIR₃~c|	I	|DUG~bxBIR3~c|	𒝻	/pcsl/easl/images/o0900349.png
 o0980229		|DUG~b×DIN|	I	|DUG~bxDIN|	𒞯,𒝼	/pcsl/easl/images/o0900351.png
@@ -1167,7 +1168,7 @@ o0981212		ŠEN~a	I	SZEN~a	𒭠,𒭡	/pcsl/easl/images/o0901969.png
 o0981213		ŠEN~b	I	SZEN~b	𒭢,𒭣	/pcsl/easl/images/o0901971.png
 o0981214		ŠEN~c	I	SZEN~c	𒭤	/pcsl/easl/images/o0901973.png
 o0981215		ŠEN~c@t	I	SZEN~c@t	𒭥	/pcsl/easl/images/o0901981.png
-o0981216		ŠEN~d	I	SZEN~d		/pcsl/easl/images/o0901974.png
+o0981216	d	ŠEN~d	I	SZEN~d	𒭦,𒭨,𒭩	/pcsl/easl/images/o0901974.png
 o0981217		|ŠEN~e×A|	I	|SZEN~dxA|	𒭧	/pcsl/easl/images/o0901979.png
 o0981218		ŠEN~e	I	SZEN~e	𒭪,𒭦,𒭨,𒭩	/pcsl/easl/images/o0901977.png
 o0981219		ŠENNUR~a	I	SZENNUR~a	𒭫	/pcsl/easl/images/o0901983.png

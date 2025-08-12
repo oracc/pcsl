@@ -113,7 +113,9 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \usepackage{luaotfload}
 \usepackage{multicol}
 
-\usepackage[bookmarksopen=true]{hyperref}
+\usepackage{wrapfig}
+
+\usepackage[bookmarksopen=true,hidelinks]{hyperref}
 
 \usepackage[font=small]{caption}
 
@@ -128,9 +130,8 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \fancyhead{}
 \fancyhead[R]{\thepage}
 \fancyhead[L]{\fancypcslheader}
-\fancyhead[C]{\small\thisDocumentNumber: \thisDocumentShortTitle [Draft 2025-08-11]}
-%\fancyhead[CO]{\vbox{\vbox{\thisDocumentNumber}\fancypcslheader}}
-%\fancyhead[CE]{\vbox{\vbox{\thisDocumentShortTitle}\fancypcslheader}}
+\fancyhead[C]{\small\thisDocumentNumber: \thisDocumentShortTitle
+  [Draft 2025-08-12] :: \nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0.4pt}
 
 \title{\thisDocumentTitle}

@@ -9,6 +9,8 @@ use lib "$ENV{'ORACC_BUILDS'}/lib";
 use ORACC::XML;
 use Getopt::Long;
 
+my @overlong = qw/ZATU021 ZATU346 ZATU410/; my %overlong = (); @overlong{@overlong} = ();
+
 my $verbose = 0;
 my $zl = '00etc/ZATU-list.tsv';
 GetOptions(
@@ -61,7 +63,8 @@ foreach my $z (sort keys %z) {
     }
     
     foreach my $zzz (@zz) {
-	print "<zatu n=\"$zzz\"/>";	
+	my $o = exists $overlong{$z} ? " over=\"1\"" : '';
+	print "<zatu n=\"$zzz\"$o/>";
     }
     my @z = marshall_oids(@zz);
     # my @z = @{$z{$z}};

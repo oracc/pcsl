@@ -23,6 +23,8 @@ while (<>) {
 	# niche notations used for a handful of numbers
 	s/(N\d+)'′/$1″/g;
 	s/(N\d+)'/$1′/g;
+	# ~a1xX1| sequence leaves 1 unsubscripted
+	s/×X1/×X₁/;
 	# oxx needs to understand the (....)a notation but until then we remove it
 	s/\)a/\)/g;
     } elsif (/^>>/) {

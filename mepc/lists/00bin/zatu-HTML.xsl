@@ -25,7 +25,9 @@
     <div class="zc-entry">
       <div class="zc-zatu">
 	<xsl:for-each select="zatu">
-	  <span><xsl:value-of select="@n"/></span>
+	  <span>
+	    <xsl:value-of select="@n"/>
+	  </span>
 	</xsl:for-each>
       </div>
       <div class="zc-pcsl">
@@ -41,7 +43,12 @@
 	      <!--<xsl:sort data-type="number" use="@sort"/>-->
 	      <div class="zc-sign">
 		<span class="ofs-pc"><xsl:value-of select="@c"/></span>
-		<span><xsl:value-of select="@p"/></span>
+		<span>
+		  <xsl:if test="../zatu/@over">
+		    <xsl:attribute name="class"><xsl:text>zatu-over</xsl:text></xsl:attribute>
+		  </xsl:if>
+		  <xsl:value-of select="@p"/>
+		</span>
 	      </div>
 	    </xsl:for-each>
 	  </xsl:otherwise>

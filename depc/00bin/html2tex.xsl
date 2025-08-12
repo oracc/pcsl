@@ -906,6 +906,7 @@
 	  <xsl:otherwise>
 	    <xsl:for-each select="*[@class='zc-sign']">
 	      <xsl:value-of select="concat('\zchrnam{',h:span[1],'}{')"/>
+	      <xsl:if test="h:span[2]/@class='zatu-over'"><xsl:text>\sansd </xsl:text></xsl:if>
 	      <xsl:call-template name="textmap">
 		<xsl:with-param name="t" select="h:span[2]"/>
 	      </xsl:call-template>

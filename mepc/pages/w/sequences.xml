@@ -110,7 +110,7 @@
     font-feature-settings: "ss03";
     }
 ... additonal .ssNN for each value required ..
-      </pre>
+</pre>
       <p>Note that in CSS SALT indexes from 1.</p>
     </body>
   </html>

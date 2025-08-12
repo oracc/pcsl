@@ -5,6 +5,7 @@
 MDEPS=../mepc/pages/w/texts.xml ../mepc/pages/w/signs.xml \
 	../mepc/pages/w/lists.xml ../mepc/pages/w/sequences.xml \
 	../mepc/lists/00web/pcsl-tab.html ../mepc/lists/00etc/aka-cdiff.xml \
+	../mepc/lists/00web/zatu.html \
 	../pepc/principles.xml \
 	../repc/w/cpage*.xml \
 	../repc/w/chartlist.html \
@@ -23,8 +24,7 @@ deps:
 	(cd ../repc; make)
 	(cd ../fepc; make)
 
-depc.pdf: depc.ltx ldepcmac.tex Makefile
-#	00bin/ldepclua.sh
+depc.pdf: depc.ltx ldepcmac.tex ldepc-preamble.tex Makefile
 	latexmk >latexmk.log 2>&1
 	00bin/attach-udata.sh
 

@@ -4,21 +4,11 @@
 
 <h1>The Archaic Period in Mesopotamia</h1>
 
-<p>Proto-cuneiform script was invented in the second half of the third
-millennium BCE and used until the early part of the second millennium
-BCE, approximately 3500-2900 BCE, generally known as the Archaic
-Period. This period was extensively described and discussed, with
-special reference to texts and writing, by the late Robert K. Englund
-in his magisterial book-within-a-book “Texts from the Late Uruk
-Period" \cite{Englund1998}.  The following sketch is based largely on
-Englund's discussion to which the reader is referred for a detailed
-account.</p>
-
 <tex:text>
   <tex:latex>
     \begin{figure}[h]
     \centering
-    \captionsetup{width=.5\linewidth}
+    \captionsetup{width=.75\linewidth}
     \includegraphics[scale=.4]{images/benati-map.png}
     \caption{Map of southern
   Iraq showing canal networks and key settlements of the late fourth
@@ -30,6 +20,16 @@ account.</p>
   Iraq showing canal networks and key settlements of the late fourth
   and early third millennia BCE (after Benati,
   https://cdli.earth/articles/cdlj/2015-2)}</tex:plain></tex:text>
+
+<p>Proto-cuneiform script was invented in southern Iraq in the second
+half of the third millennium BCE and used until the early part of the
+second millennium BCE, approximately 3500-2900 BCE, generally known as
+the Archaic Period. This period was extensively described and
+discussed, with special reference to texts and writing, by the late
+Robert K. Englund in his magisterial book-within-a-book “Texts from
+the Late Uruk Period" \cite{Englund1998}.  The following sketch is
+based largely on Englund's discussion to which the reader is referred
+for a detailed account.</p>
 
 <h2>Birth of Cities</h2>
 
@@ -51,6 +51,18 @@ systems indicate the presence of Uruk colonies for trading or resource
 extraction \cite{Algaze1993,Algaze2005}.</p>
 
 <h2>History</h2>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[h]
+    \centering
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.49]{images/obo-chrono.png}
+    \caption{Chronological overview of early Mesopotamia from \cite[23]{Englund1998}}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/obo-chrono.png}{500}{3in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:plain></tex:text>
 
 <p>We cannot write a political history of the late fourth millennium,
 and the lack of archaeological context for key Uruk period textual
@@ -76,18 +88,6 @@ the ancient textual material generated and, in some cases, still
 awaiting excavation.</p>
 
 <h2>Major Text Corpora</h2>
-
-<tex:text>
-  <tex:latex>
-    \begin{figure}[h]
-    \centering
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.49]{images/obo-chrono.png}
-    \caption{Chronological overview of early Mesopotamia from \cite[23]{Englund1998}}
-    \end{figure}
-  </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/obo-chrono.png}{500}{3in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:plain></tex:text>
 
 <p>Figure 2 provides a schematic overview of the sequence of major
 text finds in the `Writing Phase' column. The entry `Clay bullae and
@@ -116,6 +116,19 @@ documents evidence social hierarchy and specialization, including the
 birth of scribal culture in early Mesopotamia.</p>
 
 <h3>Administrative Texts</h3>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[!htb]
+    \centering
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.3]{images/depc-P005340.png}
+    \caption{Beer dossier account of Kushim
+    \cite{P005340} with copy and explanation by Bob Englund and Peter Damerow
+    \cite[37]{DamerowEnglund1993}.}
+    \end{figure}
+  </tex:latex>
+</tex:text>
 
 <p>The bulk of the archaic tablets are administrative documents. They
 exhibit varying degrees of complexity from simple tags or
@@ -146,36 +159,11 @@ of labourers--probably captured slaves--in a small group of tablets
 from Uruk and Umma \cite{Englund2009}.</p>
 
 <tex:text>
-    <tex:latex>
-      \begin{figure}[!htb]
-      \centering
-      \captionsetup{width=.5\linewidth}
-      \includegraphics[scale=.45]{images/obo-diplo.png}
-      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
-      \end{figure}
-  </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
-
-<tex:text>
   <tex:latex>
     \begin{figure}[!htb]
     \centering
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.35]{images/depc-P005340.png}
-    \caption{Beer dossier account of Kushim
-    \cite{P005340} with copy and explanation by Bob Englund and Peter Damerow
-    \cite[37]{DamerowEnglund1993}.}
-    \end{figure}
-  </tex:latex>
-</tex:text>
-
-<tex:text>
-  <tex:latex>
-    \begin{figure}[!htb]
-    \centering
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.35]{images/P005252.png}
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.33]{images/P005252.png}
     \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}
   </tex:latex>
@@ -186,8 +174,8 @@ from Uruk and Umma \cite{Englund2009}.</p>
   <tex:latex>
     \begin{figure}[!htb]
     \centering
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.35]{images/depc-P003500.png}
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.6]{images/depc-P003500.png}
     \caption{Personnel list
     \cite{P003500} with Englund's copy and transliteration
     \cite[13]{Englund2009}.  The expressions AL, EN~a TUR, 1(N57)×U4
@@ -198,6 +186,20 @@ from Uruk and Umma \cite{Englund2009}.</p>
 </tex:text>
 
 <h3>Lexical Lists</h3>
+
+<tex:text>
+  <tex:latex>
+    \begin{figure}[!htb]
+    \centering
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.4]{images/lex.png}
+    \caption{Sample lexical tablets: Professions \cite{P000006}, \cite{P000011}; Archaic Vocabulary \cite{P000025}}
+    \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/lex.png}{250}{5in}{Sample lexical tablets: P000006, P000011, P000025.}
+  </tex:plain>
+</tex:text>
 
 <p>The other important--but numerically far smaller--group of texts
 are the word lists that Assyriologists generally refer to as `Lexical
@@ -226,8 +228,8 @@ excellent overview is given by Niek Veldhuis in
 <tex:text>
   <tex:latex>
     \begin{figure}[!htb]
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.4]{images/obo-lucompo.png}
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.6]{images/obo-lucompo.png}
     \centering
     \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
     \end{figure}
@@ -236,29 +238,23 @@ excellent overview is given by Niek Veldhuis in
 \graphicsfigure{images/obo-lucompo.png}{275}{3in}{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}  </tex:plain>
 </tex:text>
 
-<tex:text>
-  <tex:latex>
-    \begin{figure}[!htb]
-    \centering
-    \captionsetup{width=.5\linewidth}
-    \includegraphics[scale=.4]{images/lex.png}
-    \caption{Sample lexical tablets: Professions \cite{P000006}, \cite{P000011}; Archaic Vocabulary \cite{P000025}}
-    \end{figure}
-  </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/lex.png}{250}{5in}{Sample lexical tablets: P000006, P000011, P000025.}
-  </tex:plain>
-</tex:text>
-
-<p>An important feature of the archaic lexical lists is that some of
-them continue into the Early Dynastic period, where manuscripts from
-Fara and Abu Ṣalabīkh write the same content but in contemporary
-cuneiform---see \cite{LecompteDiss,Wagensonner2016,} with previous
-literature.</p>
+<p>Importantly, some of the archaic lexical lists continue into
+Early Dynastic, where tablets from Fara and Abu Ṣalabīkh
+write the same content but in contemporary cuneiform---see
+\cite{LecompteDiss,Wagensonner2016,} with previous literature.</p>
 
 <h2>Writing</h2>
 
 <h3>Technology, Technique, Phases</h3>
+
+<tex:latex>
+  \begin{wrapfigure}[10]{r}{0.3333\textwidth}
+  \centering
+  \kern-10pt
+  \includegraphics[width=0.3\textwidth]{images/nissen-WA-tech.png}
+  \caption{Styli and sign development from \cite[320]{Nissen1986}}
+  \end{wrapfigure}
+</tex:latex>
 
 <p>Proto-Cuneiform tablets are made of refined and formed clay, which
 was inscribed when still slightly moist, establishing a practice that
@@ -275,14 +271,8 @@ tail that give rise to the term `cuneiform'
 <tex:latex>
   \begin{figure}[h]
   \centering
-  \begin{minipage}{0.4\textwidth}
-  \includegraphics[scale=.4]{images/nissen-WA-tech.png}
-  \caption{Styli and sign development from \cite[320]{Nissen1986}}
-  \end{minipage}
-  \begin{minipage}{0.575\textwidth}
   \includegraphics[scale=3]{images/obo-p69-cropped.png}
   \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
-  \end{minipage}
   \end{figure}
 </tex:latex>
 
@@ -295,14 +285,28 @@ strokes.  Englund's discussion of this is accomplished with a figure
 which is unfortunately absent from the PDF of the book; his Figure 22
 is reproduced here \cite[69]{Englund1998}.</p>
 
+<!--
 <tex:latex>
   \begin{figure}[h]
   \centering
-  \captionsetup{width=.5\linewidth}
+  \captionsetup{width=.75\linewidth}
   \end{figure}
 </tex:latex>
+-->
 
 <h3>Orientation and Disposition</h3>
+
+<tex:text>
+    <tex:latex>
+      \begin{figure}[!htb]
+      \centering
+      \captionsetup{width=.75\linewidth}
+      \includegraphics[scale=.75]{images/obo-diplo.png}
+      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
+      \end{figure}
+  </tex:latex>
+  <tex:plain>
+    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
 
 <p>One longstanding point of discussion in the study of
 Proto-Cuneiform and its descendants is the orientation of the script,
