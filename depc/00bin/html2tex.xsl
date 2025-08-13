@@ -451,7 +451,7 @@
 	<xsl:if test="count(preceding-sibling::h:tr)=0">
 	  <xsl:apply-templates select="h:td[1]" mode="sltab"/>
 	  <xsl:text> (</xsl:text>
-	  <xsl:value-of select="@data-oid"/>
+	  <xsl:value-of select="h:td[1]/@data-oid"/>
 	  <xsl:text>)</xsl:text>
 	</xsl:if>
 	<xsl:text>}{</xsl:text>

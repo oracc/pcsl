@@ -115,7 +115,16 @@ BoldItalicFont = UngBkBasBI.ttf ]
 
 \usepackage{wrapfig}
 
-\usepackage[bookmarksopen=true,hidelinks]{hyperref}
+\usepackage[svgnames]{xcolor}
+\usepackage[bookmarksopen=true,colorlinks=true]{hyperref}
+
+\hypersetup{
+    colorlinks,
+    citecolor=MediumSlateBlue,
+    filecolor=red,
+    linkcolor=MediumSeaGreen,
+    urlcolor=magenta
+}
 
 \usepackage[font=small]{caption}
 
@@ -136,9 +145,38 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \fancyhead[R]{\thepage}
 \fancyhead[L]{\fancypcslheader}
 \fancyhead[C]{\small\thisDocumentNumber: \thisDocumentShortTitle
-  [Draft 2025-08-12] :: \nouppercase{\leftmark}}
+  [Draft \today] :: \nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0.4pt}
 
-\title{\thisDocumentTitle}
-\author{Steve Tinney, Anshuman Pandey, and Robin Leroy}
 
+\usepackage[english]{datetime2}
+
+\makeatletter
+\renewcommand\@date{{%
+  \vspace{-2\baselineskip}%
+
+  \large\centering
+
+  \begin{tabular}{@{}c@{}}
+    Steve Tinney, \\
+    \small stinney@upenn.edu
+  \end{tabular}%
+  \quad
+  \begin{tabular}{@{}c@{}}
+    Anshuman Pandey, \\
+    \small pandey@umich.edu
+  \end{tabular}
+  \quad
+  \begin{tabular}{@{}c@{}}
+    {\small and}\quad Robin Leroy \\
+    \qquad\small eggrobin@unicode.org
+  \end{tabular}
+  
+  \vspace{\baselineskip}%
+
+  \normalsize\it\today
+}}
+\makeatother
+
+\title{\thisDocumentTitle}
+\author{}%Steve Tinney, Anshuman Pandey, and Robin Leroy}

@@ -633,6 +633,7 @@ sub pchar {
 	    if ($useq) {
 		$u25 = $useq;
 		$u25 =~ s/seq/25/;
+		$u25 =~ s/\s.*$//;
 	    } else {
 		$u25 = " u25=\"$ch25\"";
 	    }

@@ -5,18 +5,15 @@
     >
 
   <tex:text>
-    <tex:latex>\maketitle</tex:latex>
-    <tex:tex>
-    \centerline{\fourteen\bf Proposal to Encode Proto-Cuneiform}
-    \medskip
-    \centerline{\twelve\it Anshuman Pandey and Steve Tinney, 2025-06-07}
-    \bigskip
-    </tex:tex>
+    <tex:latex>\DTMsetdatestyle{iso}\maketitle</tex:latex>
   </tex:text>
   
   <tex:text>
-    <tex:latex>\tableofcontents</tex:latex>
-    <tex:tex>\begingroup\nine\rm\usetoc\endgroup</tex:tex>
+    <tex:latex>
+      \phantomsection
+      \addcontentsline{toc}{section}{Title Page}
+      \tableofcontents
+    </tex:latex>
   </tex:text>
 
   <tex:text>
@@ -40,7 +37,9 @@
   the Script Encoding Initiative
   \cite{L2/16-267,L2/17-157,L2/19-284}. More recently, Anshuman Pandey
   laid the basis for the current proposal in several important
-  proposal documents of his own \cite{L2/20-193,L2/22-239,L2/23-190}.
+  proposal documents of his own \cite{L2/20-193,L2/22-239,L2/23-190}
+  and Robin Leroy was the principal author of a companion proposal to
+  this one, Archaic Cuneiform Numerals (ACN) \cite{L2/24-210}.
 
   Steve Tinney authored the bulk of the current proposal and created
   the Oracc PCSL project \cite{PCSL}, the digital corpus (based on
