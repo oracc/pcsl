@@ -94,6 +94,10 @@
   the cutoff for Unicode PC encoding, and to assign the ED I-II
   signiary to Sumero-Akkadian Cuneiform.</p>
 
+  <p>Unencoded signs which occur only in ED I-II texts will therefore
+  be evaluated for encoding in SAC in the future, as will signs that
+  first occur in ED I-II and recur in later periods.</p>
+
   <esp:ssh>PC signs in ED I-II</esp:ssh>
   
   <p>For characters that occur only in Proto-Cuneiform and ED I-II, we
@@ -102,10 +106,6 @@
   ED I-II texts as archaic holdovers.  An assignment of
   <code>Script_Extensions=Pcun Xsux</code> will be proposed for these signs in
   future documents as they are identified.</p>
-
-  <p>Signs which occur only in ED I-II texts will be evaluated for
-  encoding in SAC in the future, as will signs that first occur in
-  ED I-II and recur in later periods.</p>
 
   <esp:ssh>Pcun and Xsux Relationships Not in Unicode Scope</esp:ssh>
 
