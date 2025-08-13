@@ -61,8 +61,7 @@ extraction \cite{Algaze1993,Algaze2005}.</p>
     \caption{Chronological overview of early Mesopotamia from \cite[23]{Englund1998}}
     \end{figure}
   </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/obo-chrono.png}{500}{3in}{Chronological overview of early Mesopotamia from Englund p.23.}</tex:plain></tex:text>
+</tex:text>
 
 <p>We cannot write a political history of the late fourth millennium,
 and the lack of archaeological context for key Uruk period textual
@@ -167,8 +166,7 @@ from Uruk and Umma \cite{Englund2009}.</p>
     \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
     \end{figure}
   </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/P005252.png}{425}{5in}{The complex summation MSVO 1, 185 with Englund's analysis.}</tex:plain></tex:text>
+</tex:text>
 
 <tex:text>
   <tex:latex>
@@ -189,16 +187,11 @@ from Uruk and Umma \cite{Englund2009}.</p>
 
 <tex:text>
   <tex:latex>
-    \begin{figure}[!htb]
-    \centering
-    \captionsetup{width=.75\linewidth}
+    \begin{figure}[!htb] \centering \captionsetup{width=.75\linewidth}
     \includegraphics[scale=.4]{images/lex.png}
-    \caption{Sample lexical tablets: Professions \cite{P000006}, \cite{P000011}; Archaic Vocabulary \cite{P000025}}
-    \end{figure}
+    \caption{Sample lexical tablets: Professions \cite{P000006}, \cite{P000011};
+    Archaic Vocabulary \cite{P000025}} \end{figure}
   </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/lex.png}{250}{5in}{Sample lexical tablets: P000006, P000011, P000025.}
-  </tex:plain>
 </tex:text>
 
 <p>The other important--but numerically far smaller--group of texts
@@ -227,15 +220,17 @@ excellent overview is given by Niek Veldhuis in
 
 <tex:text>
   <tex:latex>
-    \begin{figure}[!htb]
-    \captionsetup{width=.75\linewidth}
-    \includegraphics[scale=.6]{images/obo-lucompo.png}
-    \centering
-    \caption{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}
-    \end{figure}
+    \begin{figure}[!htb] \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.6]{images/obo-lucompo.png} \centering
+    \caption{Englund's composite of the professions/occupations list,
+    Lu. Shaded areas are entries that cannot be fully reconstructed
+    from the extant manuscripts.}  \end{figure}
   </tex:latex>
   <tex:plain>
-\graphicsfigure{images/obo-lucompo.png}{275}{3in}{Englund's composite of the professions/occupations list, Lu. Shaded areas are entries that cannot be fully reconstructed from the extant manuscripts.}  </tex:plain>
+\graphicsfigure{images/obo-lucompo.png}{275}{3in}{Englund's composite
+of the professions/occupations list, Lu. Shaded areas are entries that
+cannot be fully reconstructed from the extant manuscripts.}
+</tex:plain>
 </tex:text>
 
 <p>Importantly, some of the archaic lexical lists continue into
@@ -297,12 +292,11 @@ is reproduced here \cite[69]{Englund1998}.</p>
 <h3>Orientation and Disposition</h3>
 
 <tex:latex>
-  \begin{figure}[!htb]
-  \centering
-  \captionsetup{width=.75\linewidth}
+  \begin{figure}[!htb] \centering \captionsetup{width=.75\linewidth}
   \includegraphics[scale=.25]{images/roaf-cuneiform.png}
-  \caption{Traditional presentation of development of cuneiform showing rotation of script between rows three and four. \cite[70]{RoafAtlas}}
-  \end{figure}
+  \caption{Traditional presentation of development of cuneiform
+  showing rotation of script between rows three and
+  four. \cite[70]{RoafAtlas}} \end{figure}
 </tex:latex>
 
 <p>One longstanding point of discussion in the study of
@@ -310,8 +304,8 @@ Proto-Cuneiform and its descendants is the orientation of the script,
 a discussion rooted in the fact that the later cuneiform versions of
 signs as normally represented in hand copies and published images are
 rotated 90 degrees from the expected natural orientation of their
-pictographic forebears.  Thus the sign SAG, head, with forms {\pcseq
-𒦘}, {\pcseq 󲅨}, {\pcseq 󲅩} approximately matches the cuneiform <span
+pictographic forebears.  Thus the sign SAG, head, with forms {\pcseq 󲅧}, {\pcseq
+𒦘}, {\pcseq 󲅨}  approximately matches the cuneiform <span
 class="oraccnoto">𒊕</span>. A more naturalistic rendering of SAG,
 however, would be \rotatebox[origin=c]{270}{\pcseq 󲅨}, and this
 orientation is preferred in some recent literature, e.g.,
@@ -321,15 +315,18 @@ Proto-Cuneiform and the CDLI.</p>
 
 <tex:text>
     <tex:latex>
-      \begin{figure}[!htb]
-      \centering
+      \begin{figure}[!htb] \centering
       \captionsetup{width=.75\linewidth}
       \includegraphics[scale=.65]{images/obo-diplo.png}
-      \caption{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}
-      \end{figure}
+      \caption{Sample tablet organizations; the CDLI transliterations
+      utilize dotted line numbers to address cases of the form 1a.b2
+      etc.}  \end{figure}
   </tex:latex>
   <tex:plain>
-    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet organizations; the CDLI transliterations utilize dotted line numbers to address cases of the form 1a.b2 etc.}</tex:plain></tex:text>
+    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet
+    organizations; the CDLI transliterations utilize dotted line
+    numbers to address cases of the form 1a.b2
+    etc.}</tex:plain></tex:text>
 
 <p>The spatial division of Proto-Cuneiform administrative and lexical
 tablets into cases which are often quite narrow gives rise to an
