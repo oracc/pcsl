@@ -52,14 +52,9 @@ following are minimum requirements:
 * A functional installation of https://github.com/oracc/oracc2.git
 * LuaHBTeX and LaTeX (easiest to use TeXLive)
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
 ## Authors
 
-Contributors names and contact info
+PCSL created and maintained by Steve Tinney
 
 ## License
 
@@ -70,5 +65,5 @@ This project is licensed under the CC0 License - see the LICENSE.md file for det
 PCSL would have been impossible without ...
 
 * Bob Englund and the Uruk text corpus team
-* CDLI
+* https://cdli.earth CDLI
 * My proposal collaborators, Anshuman Pandey and Robin Leroy
