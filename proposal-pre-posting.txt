@@ -1,0 +1,5 @@
+* remove `draft' from header
+
+* Page through entire PDF looking for final-final fixes
+
+* Update Oracc PUA doco to list F2XXX glyph variants
