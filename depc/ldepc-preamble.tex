@@ -112,19 +112,23 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \usepackage{graphicx}
 \usepackage{luaotfload}
 \usepackage{multicol}
-
 \usepackage{wrapfig}
-
 \usepackage[svgnames]{xcolor}
+\usepackage{tocloft}
 \usepackage[bookmarksopen=true,colorlinks=true]{hyperref}
+
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
 
 \hypersetup{
     colorlinks,
     citecolor=MediumSlateBlue,
     filecolor=red,
-    linkcolor=MediumSeaGreen,
+    linkcolor=LightSlateGrey,
     urlcolor=magenta
 }
+
+%    linkcolor=MediumSeaGreen,
 
 \usepackage[font=small]{caption}
 
@@ -138,7 +142,7 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \newcommand{\thisDocumentNumber}{L2/25-211}
-\newcommand{\thisDocumentTitle}{Proposal to Encode Proto-Cuneiform}
+\newcommand{\thisDocumentTitle}{L2/25-211: Proposal to Encode Proto-Cuneiform}
 \newcommand{\thisDocumentShortTitle}{Proto-Cuneiform}
 \fancyfoot{}
 \fancyhead{}
@@ -157,25 +161,39 @@ BoldItalicFont = UngBkBasBI.ttf ]
 
   \large\centering
 
-  \begin{tabular}{@{}c@{}}
-    Steve Tinney, \\
+  \begin{tabular}{@{}c@{}}%
+    Steve Tinney \\
     \small stinney@upenn.edu
   \end{tabular}%
   \quad
-  \begin{tabular}{@{}c@{}}
-    Anshuman Pandey, \\
+  \begin{tabular}{@{}c@{}}%
+    Anshuman Pandey \\
     \small pandey@umich.edu
-  \end{tabular}
+  \end{tabular}%
   \quad
-  \begin{tabular}{@{}c@{}}
-    {\small and}\quad Robin Leroy \\
-    \qquad\small eggrobin@unicode.org
+  \begin{tabular}{@{}c@{}}%
+    Robin Leroy \\
+    \small eggrobin@unicode.org
   \end{tabular}
   
   \vspace{\baselineskip}%
 
   \normalsize\it\today
 }}
+
+\def\pcsltagcodes{%
+  \bgroup\small
+  \begin{tabular}[t]{ll}%
+    ACN=Archaic Cuneiform Numbers & PC25-bk=PC25-eligible but broken so no codepoint \\
+    DEL=delete & PC25-sq=PC25-eligible but sequence so no codepoint \\
+    EDI=ED I/II & PC25=PC25 encoded \\
+    NOT=not encoded & Pelm=planned for Proto-Elamite \\
+    NUM=number & UNP=occurs in unpublished texts only \\
+    OOR=out-of-range number & ZERO=zero occurrences.\\
+    OOR5=out-of-range Uruk V number
+  \end{tabular}\egroup
+}
+
 \makeatother
 
 \title{\thisDocumentTitle}

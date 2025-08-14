@@ -154,7 +154,7 @@
   </z>
   <z>
     <zatu n="ZATU034"/>
-    <sign oid="o0980069" pc25="126C0" pc25-rg="𒛀" tags="©!D" seq="!" data-hrt="PC25" p="ARARMA₂~a" pc24="ARARMA₂~a" cdli="ARARMA2~a" src="EASL0068 EALX031" c="𒛖" h="126D6" h25="126D6" row="o0980069" roid="o0980069" glyf="𒛗,𒛖" dist="12×: III: 6p." data-distt="12×" data-dist4="" data-dist3="6p" data-sf="912"><zatu><z>ZATU034</z></zatu><s><f o="o0990086" sn="ARARMA₂~a~2" c="𒛗" u="126D7" u25="F208C" t="₁"/><f o="o0990087" sn="ARARMA₂~a~1" c="𒛖" u="126D6" u25="126C0"/></s><sl><s sl="atu3"><c c="𒛖" h="126D6" h25="126C0"/></s><s/><s/><s/><s/></sl></sign>
+    <sign oid="o0980069" pc25="126C0" pc25-rg="𒛀" tags="©!D" seq="!" data-hrt="PC25" p="ARARMA₂~a" pc24="ARARMA₂~a" cdli="ARARMA2~a" src="EASL0068 EALX031" c="𒛖" h="126D6" h25="126D6" row="o0980069" roid="o0980069" glyf="𒛗,𒛖" dist="12×: III: 6p." data-distt="12×" data-dist4="" data-dist3="6p" data-sf="900"><zatu><z>ZATU034</z></zatu><s><f o="o0990086" sn="ARARMA₂~a~2" c="𒛗" u="126D7" u25="F208C" t="₁"/><f o="o0990087" sn="ARARMA₂~a~1" c="𒛖" u="126D6" u25="126C0"/></s><sl><s sl="atu3"><c c="𒛖" h="126D6" h25="126C0"/></s><s/><s/><s/><s/></sl></sign>
     <sign oid="o0980070" tags="©:" seq=":" data-hrt="PC25-sq" p="ARARMA₂~b" pc24="ARARMA₂~b" cdli="ARARMA2~b" src="EASL0069 EAAR022" c="𒛘" h="126D8" h25="126D8" row="o0980070" roid="o0980070" glyf="𒛘" dist="2×: IV: 1p; III: 1p." data-distt="2×" data-dist4="1p" data-dist3="1p" data-sf="1000"><zatu><z>ZATU034</z></zatu><s><f o="o0990088" sn="ARARMA₂~b~1" c="𒛘" u="126D8" u25="F2273"/></s><sl><s/><s sl="atu5"><c c="𒛘" h="126D8" h25="F2273"/></s><s/><s/><s/></sl></sign>
   </z>
   <z>
@@ -557,7 +557,7 @@
   </z>
   <z>
     <zatu n="ZATU116"/>
-    <sign oid="o0980259" tags="++" data-hrt="UNP" p="|DUG~b×SUKUD~d|" pc24="|DUG~b×SUKUD~d|" cdli="-" src="EASL0244" c="󳁕" h="F3055" h25="F252C" row="add/DUGxSUKUD.png" glyf="󳁕" dist="1×" data-distt="1×" data-dist4="" data-dist3="" data-sf="900"><zatu><z>ZATU116</z></zatu><s><f o="o0990318" sn="|DUG~b×SUKUD~d|~1" c="󳁕" u="F3055" u25="F252C"/></s></sign>
+    <sign oid="o0980259" tags="++" data-hrt="UNP" p="|DUG~b×SUKUD~d|" pc24="|DUG~b×SUKUD~d|" cdli="-" src="EASL0244" c="󳁕" h="F3055" h25="F252C" row="add/DUGxSUKUD.png" glyf="󳁕" dist="1×" data-distt="1×" data-dist4="" data-dist3="" data-sf="800"><zatu><z>ZATU116</z></zatu><s><f o="o0990318" sn="|DUG~b×SUKUD~d|~1" c="󳁕" u="F3055" u25="F252C"/></s></sign>
   </z>
   <z>
     <zatu n="ZATU117"/>
@@ -1148,7 +1148,7 @@
   <z>
     <zatu n="ZATU243"/>
     <sign oid="o0980563" pc25="12842" pc25-rg="𒡂" tags="©" data-hrt="PC25" p="GUM~a" pc24="GUM~a" cdli="GUM~a" src="EASL0540 EAAR166" c="𒣓" h="128D3" h25="128D3" row="o0980563" roid="o0980563" glyf="𒣓" dist="16×: IV: 13p; III: 1p." data-distt="16×" data-dist4="13p" data-dist3="1p" data-sf="1000"><zatu><z>ZATU243</z></zatu><s><f o="o0990674" sn="GUM~a~1" c="𒣓" u="128D3" u25="12842"/></s><sl><s/><s sl="atu5"><c c="𒣓" h="128D3" h25="12842"/></s><s/><s/><s/></sl></sign>
-    <sign oid="o0980564" pc25="12843" pc25-rg="𒡃" tags="©" data-hrt="PC25" p="GUM~b" pc24="GUM~b" cdli="GUM~b" src="EASL0541 EALX245 EAAR167 EAJN107 EAVR096" c="𒣔" h="128D4" h25="128D4" row="o0980564" roid="o0980564" glyf="𒣔,𒣗" dist="41×: IV: 3p; III: 25p." data-distt="41×" data-dist4="3p" data-dist3="25p" data-sf="800"><zatu><z>ZATU243</z></zatu><s><f o="o0990675" sn="GUM~b~1" c="𒣔" u="128D4" u25="12843"/><f o="o0990676" sn="GUM~b~2" c="𒣗" u="128D7" u25="F20EF" t="₁"/></s><sl><s sl="atu3"><c c="𒣗" h="128D7" h25="F20EF"/></s><s sl="atu5"><c c="𒣔" h="128D4" h25="12843"/></s><s sl="msvo1"><c c="𒣗" h="128D7" h25="F20EF"/></s><s sl="msvo4"><c c="𒣔" h="128D4" h25="12843"/></s><s/></sl></sign>
+    <sign oid="o0980564" pc25="12843" pc25-rg="𒡃" tags="©" data-hrt="PC25" p="GUM~b" pc24="GUM~b" cdli="GUM~b" src="EASL0541 EALX245 EAAR167 EAJN107 EAVR096" c="𒣔" h="128D4" h25="128D4" row="o0980564" roid="o0980564" glyf="𒣔,𒣗" dist="41×: IV: 3p; III: 25p." data-distt="41×" data-dist4="3p" data-dist3="25p" data-sf="750"><zatu><z>ZATU243</z></zatu><s><f o="o0990675" sn="GUM~b~1" c="𒣔" u="128D4" u25="12843"/><f o="o0990676" sn="GUM~b~2" c="𒣗" u="128D7" u25="F20EF" t="₁"/></s><sl><s sl="atu3"><c c="𒣗" h="128D7" h25="F20EF"/></s><s sl="atu5"><c c="𒣔" h="128D4" h25="12843"/></s><s sl="msvo1"><c c="𒣗" h="128D7" h25="F20EF"/></s><s sl="msvo4"><c c="𒣔" h="128D4" h25="12843"/></s><s/></sl></sign>
   </z>
   <z>
     <zatu n="ZATU244"/>
@@ -1578,7 +1578,7 @@
   </z>
   <z>
     <zatu n="ZATU332"/>
-    <sign oid="o0980796" pc25="128E4" pc25-rg="𒣤" tags="©" data-hrt="PC25" p="LU₂" pc24="LU₂" cdli="LU2" src="EASL0766 EALX341 EAAR226 EAJN157 EAVR139" c="𒦶" h="129B6" h25="129B6" row="o0980796" roid="o0980796" glyf="𒦹,𒦶,𒦸" dist="58×: IV: 1p; III: 30p." data-distt="58×" data-dist4="1p" data-dist3="30p" data-sf="907"><zatu><z>ZATU332</z></zatu><s><f o="o0990955" sn="LU₂~2" c="𒦹" u="129B9" u25="F2127" t="₁"/><f o="o0990956" sn="LU₂~1" c="𒦶" u="129B6" u25="128E4"/><f o="o0990957" sn="LU₂~3" c="𒦸" u="129B8" u25="F2128" t="₂"/></s><sl><s sl="atu3"><c c="𒦶" h="129B6" h25="128E4"/></s><s sl="atu5"><c c="𒦹" h="129B9" h25="F2127"/></s><s sl="msvo1"><c c="𒦶" h="129B6" h25="128E4"/></s><s sl="msvo4"><c c="𒦶" h="129B6" h25="128E4"/></s><s/></sl></sign>
+    <sign oid="o0980796" pc25="128E4" pc25-rg="𒣤" tags="©" data-hrt="PC25" p="LU₂" pc24="LU₂" cdli="LU2" src="EASL0766 EALX341 EAAR226 EAJN157 EAVR139" c="𒦶" h="129B6" h25="129B6" row="o0980796" roid="o0980796" glyf="𒦹,𒦶,𒦸" dist="58×: IV: 1p; III: 30p." data-distt="58×" data-dist4="1p" data-dist3="30p" data-sf="850"><zatu><z>ZATU332</z></zatu><s><f o="o0990955" sn="LU₂~2" c="𒦹" u="129B9" u25="F2127" t="₁"/><f o="o0990956" sn="LU₂~1" c="𒦶" u="129B6" u25="128E4"/><f o="o0990957" sn="LU₂~3" c="𒦸" u="129B8" u25="F2128" t="₂"/></s><sl><s sl="atu3"><c c="𒦶" h="129B6" h25="128E4"/></s><s sl="atu5"><c c="𒦹" h="129B9" h25="F2127"/></s><s sl="msvo1"><c c="𒦶" h="129B6" h25="128E4"/></s><s sl="msvo4"><c c="𒦶" h="129B6" h25="128E4"/></s><s/></sl></sign>
   </z>
   <z>
     <zatu n="ZATU333"/>
@@ -2116,7 +2116,7 @@
   </z>
   <z>
     <zatu n="ZATU447"/>
-    <sign oid="o0981059" pc25="129AC" pc25-rg="𒦬" tags="©" data-hrt="PC25" p="SI" pc24="SI" cdli="SI" src="EASL1021 EALX446 EAAR318 EAJN217 EAVR201" c="𒫇" h="12AC7" h25="12AC7" row="o0981059" roid="o0981059" glyf="𒫄,𒫇" dist="389×: IV: 23p; III: 204p." data-distt="389×" data-dist4="23p" data-dist3="204p" data-sf="775"><zatu><z>ZATU447</z></zatu><s><f o="o0991285" sn="SI~2" c="𒫄" u="12AC4" u25="F216C" t="₁"/><f o="o0991286" sn="SI~1" c="𒫇" u="12AC7" u25="129AC"/></s><sl><s sl="atu3"><c c="𒫄" h="12AC4" h25="F216C"/></s><s sl="atu5"><c c="𒫄" h="12AC4" h25="F216C"/></s><s sl="msvo1"><c c="𒫄" h="12AC4" h25="F216C"/></s><s sl="msvo4"><c c="𒫄" h="12AC4" h25="F216C"/></s><s/></sl></sign>
+    <sign oid="o0981059" pc25="129AC" pc25-rg="𒦬" tags="©" data-hrt="PC25" p="SI" pc24="SI" cdli="SI" src="EASL1021 EALX446 EAAR318 EAJN217 EAVR201" c="𒫇" h="12AC7" h25="12AC7" row="o0981059" roid="o0981059" glyf="𒫄,𒫇" dist="389×: IV: 23p; III: 204p." data-distt="389×" data-dist4="23p" data-dist3="204p" data-sf="725"><zatu><z>ZATU447</z></zatu><s><f o="o0991285" sn="SI~2" c="𒫄" u="12AC4" u25="F216C" t="₁"/><f o="o0991286" sn="SI~1" c="𒫇" u="12AC7" u25="129AC"/></s><sl><s sl="atu3"><c c="𒫄" h="12AC4" h25="F216C"/></s><s sl="atu5"><c c="𒫄" h="12AC4" h25="F216C"/></s><s sl="msvo1"><c c="𒫄" h="12AC4" h25="F216C"/></s><s sl="msvo4"><c c="𒫄" h="12AC4" h25="F216C"/></s><s/></sl></sign>
   </z>
   <z>
     <zatu n="ZATU448"/>
@@ -2132,7 +2132,7 @@
     <sign oid="o0981069" pc25="129B6" pc25-rg="𒦶" tags="©" data-hrt="PC25" p="SI₄~b" pc24="SI₄~b" cdli="SI4~b" src="EASL1025 EAAR320" c="𒫉" h="12AC9" h25="12AC9" row="o0981069" roid="o0981069" glyf="𒫉" dist="1×: IV: 1p." data-distt="1×" data-dist4="1p" data-dist3="" data-sf="1000"><zatu><z>ZATU450</z></zatu><s><f o="o0991296" sn="SI₄~b~1" c="𒫉" u="12AC9" u25="129B6"/></s><sl><s/><s sl="atu5"><c c="𒫉" h="12AC9" h25="129B6"/></s><s/><s/><s/></sl></sign>
     <sign oid="o0981070" pc25="129B7" pc25-rg="𒦷" tags="©" data-hrt="PC25" p="SI₄~c" pc24="SI₄~c" cdli="SI4~c" src="EASL1026 EAAR321" c="𒫊" h="12ACA" h25="12ACA" row="o0981070" roid="o0981070" glyf="𒫊" dist="1×: IV: 1p." data-distt="1×" data-dist4="1p" data-dist3="" data-sf="1000"><zatu><z>ZATU450</z></zatu><s><f o="o0991297" sn="SI₄~c~1" c="𒫊" u="12ACA" u25="129B7"/></s><sl><s/><s sl="atu5"><c c="𒫊" h="12ACA" h25="129B7"/></s><s/><s/><s/></sl></sign>
     <sign oid="o0981071" pc25="129B8" pc25-rg="𒦸" tags="©" data-hrt="PC25" p="SI₄~d" pc24="SI₄~d" cdli="SI4~d" src="EASL1027 EAAR322 EAJN218" c="𒫋" h="12ACB" h25="12ACB" row="o0981071" roid="o0981071" glyf="𒫋,𒫌" dist="4×: IV: 1p; III: 3p." data-distt="4×" data-dist4="1p" data-dist3="3p" data-sf="779"><zatu><z>ZATU450</z></zatu><s><f o="o0991298" sn="SI₄~d~1" c="𒫋" u="12ACB" u25="129B8"/><f o="o0991299" sn="SI₄~d~2" c="𒫌" u="12ACC" u25="F216D" t="₁"/></s><sl><s/><s sl="atu5"><c c="𒫋" h="12ACB" h25="129B8"/></s><s sl="msvo1"><c c="𒫌" h="12ACC" h25="F216D"/></s><s/><s/></sl></sign>
-    <sign oid="o0981072" pc25="129B9" pc25-rg="𒦹" tags="©" data-hrt="PC25" p="SI₄~f" pc24="SI₄~f" cdli="SI4~f" src="EASL1028 EAJN219 EAVR202" c="𒫍" h="12ACD" h25="12ACD" row="o0981072" roid="o0981072" glyf="𒫍,𒫎" dist="73×: III: 57p." data-distt="73×" data-dist4="" data-dist3="57p" data-sf="836"><zatu><z>ZATU450</z></zatu><s><f o="o0991300" sn="SI₄~f~1" c="𒫍" u="12ACD" u25="129B9"/><f o="o0991301" sn="SI₄~f~2" c="𒫎" u="12ACE" u25="F216E" t="₁"/></s><sl><s/><s/><s sl="msvo1"><c c="𒫎" h="12ACE" h25="F216E"/></s><s sl="msvo4"><c c="𒫍" h="12ACD" h25="129B9"/></s><s/></sl></sign>
+    <sign oid="o0981072" pc25="129B9" pc25-rg="𒦹" tags="©" data-hrt="PC25" p="SI₄~f" pc24="SI₄~f" cdli="SI4~f" src="EASL1028 EAJN219 EAVR202" c="𒫍" h="12ACD" h25="12ACD" row="o0981072" roid="o0981072" glyf="𒫍,𒫎" dist="73×: III: 57p." data-distt="73×" data-dist4="" data-dist3="57p" data-sf="750"><zatu><z>ZATU450</z></zatu><s><f o="o0991300" sn="SI₄~f~1" c="𒫍" u="12ACD" u25="129B9"/><f o="o0991301" sn="SI₄~f~2" c="𒫎" u="12ACE" u25="F216E" t="₁"/></s><sl><s/><s/><s sl="msvo1"><c c="𒫎" h="12ACE" h25="F216E"/></s><s sl="msvo4"><c c="𒫍" h="12ACD" h25="129B9"/></s><s/></sl></sign>
   </z>
   <z>
     <zatu n="ZATU451"/>
@@ -2434,7 +2434,7 @@
   </z>
   <z>
     <zatu n="ZATU513"/>
-    <sign oid="o0981203" tags="©." seq="." data-hrt="PC25-sq" p="|ŠE~a.NAM₂|" pc24="|ŠE~a.NAM₂|" cdli="|SZE~a.NAM2|" src="EASL1154 EALX511 EAAR363 EAJN248 EAVR222" c="𒭔" h="12B54" h25="12B54" row="o0981203" roid="o0981203" glyf="𒭔,𒭕" dist="109×: IV: 10p; III: 56p." data-distt="109×" data-dist4="10p" data-dist3="56p" data-sf="833"><zatu><z>ZATU513</z></zatu><aka>|ŠE~a×NAM₂| |ŠE~a×NAM₂|</aka><s><f o="o0991463" sn="|ŠE~a.NAM₂|~1" c="𒭔" u="12B54" u25="F2191"/><f o="o0991464" sn="|ŠE~a.NAM₂|~2" c="𒭕" u="12B55" u25="F2192" t="₁"/></s><sl><s sl="atu3"><c c="𒭕" h="12B55" h25="F2192"/></s><s sl="atu5"><c c="𒭔" h="12B54" h25="F2191"/></s><s sl="msvo1"><c c="𒭕" h="12B55" h25="F2192"/></s><s sl="msvo4"><c c="𒭔" h="12B54" h25="F2191"/></s><s/></sl></sign>
+    <sign oid="o0981203" tags="©." seq="." data-hrt="PC25-sq" p="|ŠE~a.NAM₂|" pc24="|ŠE~a.NAM₂|" cdli="|SZE~a.NAM2|" src="EASL1154 EALX511 EAAR363 EAJN248 EAVR222" c="𒭔" h="12B54" h25="12B54" row="o0981203" roid="o0981203" glyf="𒭔,𒭕" dist="109×: IV: 10p; III: 56p." data-distt="109×" data-dist4="10p" data-dist3="56p" data-sf="750"><zatu><z>ZATU513</z></zatu><aka>|ŠE~a×NAM₂| |ŠE~a×NAM₂|</aka><s><f o="o0991463" sn="|ŠE~a.NAM₂|~1" c="𒭔" u="12B54" u25="F2191"/><f o="o0991464" sn="|ŠE~a.NAM₂|~2" c="𒭕" u="12B55" u25="F2192" t="₁"/></s><sl><s sl="atu3"><c c="𒭕" h="12B55" h25="F2192"/></s><s sl="atu5"><c c="𒭔" h="12B54" h25="F2191"/></s><s sl="msvo1"><c c="𒭕" h="12B55" h25="F2192"/></s><s sl="msvo4"><c c="𒭔" h="12B54" h25="F2191"/></s><s/></sl></sign>
   </z>
   <z>
     <zatu n="ZATU514"/>

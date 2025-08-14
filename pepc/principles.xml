@@ -6,7 +6,7 @@
     <head/>
     <body>
 
-      <esp:h>Principles for Encoding</esp:h>
+      <esp:h>Principles for Encoding Proto-Cuneiform</esp:h>
 
       <p>Each character that occurs in the PC25 subset of the PCSL
       corpus has been assessed according to the following principles
@@ -114,8 +114,8 @@
       data: the character encoding, and the encoding as the sequence
       of consituents.</p>
 
-      <p>Appendix XXX details exceptional sequences which are proposed
-      for encoding.  Appendix YYY outlines implementation details for
+      <p>Appendix \ref{APPexc} details exceptional sequences which are proposed
+      for encoding.  Appendix \ref{APPimpl} outlines implementation details for
       sequences in PCSL and the accompanying font.</p>
       
       <esp:sh>Principles</esp:sh>

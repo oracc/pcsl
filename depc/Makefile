@@ -11,6 +11,7 @@ MDEPS=../mepc/pages/w/texts.xml ../mepc/pages/w/signs.xml \
 	../repc/w/chartlist.html \
 	x/abstract.xml x/previous.xml x/archaic.xml x/fonts.xml \
 	x/rationale.xml x/mepc-intro.xml x/depc.xml x/rationale.tex \
+	x/depc-appendices.xml \
 	../mepc/texts/tpcsl/notcov.html \
 	../mepc/lists/00etc/seqdb.xml \
 	${ORACC}/lib/fonts/PCSL.ttf \
@@ -28,7 +29,7 @@ deps:
 	(cd ../fepc; make)
 
 depc.pdf: depc.ltx Makefile ${MACDEPS}
-	latexmk >latexmk.log 2>&1
+	latexmk 2>&1 | tee latexmk.log
 	00bin/attach-udata.sh
 
 depc.ltx: m/depc.xml 00bin/html2tex.xsl

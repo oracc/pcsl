@@ -105,15 +105,26 @@
 
       <esp:ssh>LuaHBTeX</esp:ssh>
       
-      <p>In <code>LuaHBTeX</code> (the recommended TeX engine for
-      using the PC25 font), all <code>\textbackslash{}font</code> inputs should
-      include ``mode=harf;script=xsux''.  The features for the cvNN
+      <p>The recommended TeX engine for use with PCSL.ttf is
+      <code>LuaHBTeX</code>.  <code>\textbackslash{}font</code> inputs
+      require ``mode=harf;script=xsux''.  The features for the cvNN
       ligatures should be specified as ``+cv01,+salt=0'',
       ``+cv02,+salt=1'', ``+cv03,+salt=2'' (specifying +liga is
-      unnecessary; note that salt index is 0-based in
-      LuaHBTeX).</p>
+      unnecessary; note that salt index is 0-based in LuaHBTeX).</p>
 
-      <esp:sh>HTML/CSS</esp:sh>
+      <p>Examples from the production of this document:</p>
+
+<pre>
+\font\pcxxv={file:PCSL.ttf:mode=harf;script=xsux;} at 18pt
+\font\pccvi={file:PCSL.ttf:mode=harf;script=xsux;+cv01} at 18pt
+\font\pcssiii={file:PCSL.ttf:mode=harf;script=xsux;+ss03} at 18pt
+\font\pceee={file:PCSL.ttf:mode=harf;script=xsux;+ss20;color=E5E5E5} at18pt
+\font\pcseqi={file:PCSL.ttf:mode=harf;script=xsux;+cv01;+salt=0} at 14pt
+% salt numbers from zero here, from 1 in the font so .3 (saltiii) = +salt=2
+\font\oracclaksaltiii={file:Oracc-LAK.ttf:mode=harf;script=xsux;+salt=2} at 14pt
+</pre>
+
+      <esp:ssh>HTML/CSS</esp:ssh>
 
       <p>To use PCSL as a webfont and enable
       <code>class="ofs-pc"</code> the following CSS can be used:</p>
@@ -125,19 +136,19 @@
 .ofs-pc {
   font-family: "Oracc PC";
   font-variant-ligatures: common-ligatures;
-  }
+}
 .cv01 {
     font-feature-settings: "cv01";
 }
-... additonal .cvNN for each value required ..
+/* ... additional .cvNN for each value required ... */
 .salt1 {
     font-feature-settings: "salt" 1;
 }
-... additional .salt for each value required ...
+/* ... additional .salt for each value required ... */
 .ss03 {
     font-feature-settings: "ss03";
-    }
-... additonal .ssNN for each value required ..
+}
+/* ... additional .ssNN for each value required ... */
 </pre>
 
       <p>Note that in CSS SALT indexes from 1.</p>

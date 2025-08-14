@@ -6,13 +6,14 @@
 
 * oracc.org/pcsl/signlist/o098XXXXX links in PCSL tables
 
+* Update Oracc PUA doco for F2XXX glyph variants
+
+* Page through entire PDF looking for final fixes
+
 * Cuneify fixes to support .ss04/.ss03 (also needed for ED IIIa and LAK font)
 
 * Cuneify fixes to ensure that sign-to-signlist links go to pcsl not
   osl as appropriate
 
-* Update Oracc PUA doco for F2XXX glyph variants
-
 * Update date of document and remove `draft' from header
 
-* Page through entire PDF looking for final fixes

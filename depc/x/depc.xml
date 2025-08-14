@@ -12,7 +12,7 @@
     <tex:latex>
       \phantomsection
       \addcontentsline{toc}{section}{Title Page}
-      \tableofcontents
+      \bgroup\parskip1pt plus1pt minus1pt \tableofcontents\egroup
     </tex:latex>
   </tex:text>
 
@@ -95,7 +95,7 @@
   attached to this PDF.</xh:p>
 
   <xh:p>A special purpose code-chart font `pc25-cc.ttf', is also
-  attached to the proposal. See Appendix XXX for further
+  attached to the proposal. See Appendix \ref{APPfonts} for further
   details.</xh:p>
 
   <xh:p>Code charts and a character list are provided in the following
@@ -118,7 +118,7 @@
 
   <xh:p>The character names follow the general approach used in prior
   Unicode cuneiform character naming. The terms JOINING and PLUS are
-  used with distinct semantics: JOINING is used for '+' in sign names;
+  used with distinct semantics: JOINING is used for `+' in sign names;
   PLUS is used to indicate grouping of multiple characters within the
   same container (as in Sumero-Akkadian cuneiform unicode
   names).</xh:p>

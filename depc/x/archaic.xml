@@ -57,7 +57,7 @@ extraction \cite{Algaze1993,Algaze2005}.</p>
     \begin{figure}[h]
     \centering
     \captionsetup{width=.75\linewidth}
-    \includegraphics[scale=.49]{images/obo-chrono.png}
+    \includegraphics[scale=.55]{images/obo-chrono.png}
     \caption{Chronological overview of early Mesopotamia from \cite[23]{Englund1998}}
     \end{figure}
   </tex:latex>
@@ -163,7 +163,8 @@ from Uruk and Umma \cite{Englund2009}.</p>
     \centering
     \captionsetup{width=.75\linewidth}
     \includegraphics[scale=.33]{images/P005252.png}
-    \caption{The complex summation MSVO 1, 185 with Englund's analysis.}
+    \caption{The complex summation \cite{P005252} = MSVO 1, 185 with
+    Englund's analysis \cite[63]{Englund1998}.}
     \end{figure}
   </tex:latex>
 </tex:text>
@@ -173,7 +174,7 @@ from Uruk and Umma \cite{Englund2009}.</p>
     \begin{figure}[!htb]
     \centering
     \captionsetup{width=.75\linewidth}
-    \includegraphics[scale=.6]{images/depc-P003500.png}
+    \includegraphics[scale=.5]{images/depc-P003500.png}
     \caption{Personnel list
     \cite{P003500} with Englund's copy and transliteration
     \cite[13]{Englund2009}.  The expressions AL, EN~a TUR, 1(N57)×U4
@@ -221,10 +222,10 @@ excellent overview is given by Niek Veldhuis in
 <tex:text>
   <tex:latex>
     \begin{figure}[!htb] \captionsetup{width=.75\linewidth}
-    \includegraphics[scale=.6]{images/obo-lucompo.png} \centering
+    \includegraphics[scale=.4]{images/obo-lucompo.png} \centering
     \caption{Englund's composite of the professions/occupations list,
     Lu. Shaded areas are entries that cannot be fully reconstructed
-    from the extant manuscripts.}  \end{figure}
+    from the extant manuscripts \cite[104]{Englund1998}.}\end{figure}
   </tex:latex>
   <tex:plain>
 \graphicsfigure{images/obo-lucompo.png}{275}{3in}{Englund's composite
@@ -267,7 +268,7 @@ tail that give rise to the term `cuneiform'
   \begin{figure}[h]
   \centering
   \includegraphics[scale=3]{images/obo-p69-cropped.png}
-  \caption{Englund's overview of Uruk IV/Uruk III sign forms.}
+  \caption{Englund's overview of Uruk IV/Uruk III sign forms \cite[69]{Englund1998}.}
   \end{figure}
 </tex:latex>
 
@@ -279,15 +280,6 @@ drawn with a pointed stylus rather than being constructed of cuneiform
 strokes.  Englund's discussion of this is accomplished with a figure
 which is unfortunately absent from the PDF of the book; his Figure 22
 is reproduced here \cite[69]{Englund1998}.</p>
-
-<!--
-<tex:latex>
-  \begin{figure}[h]
-  \centering
-  \captionsetup{width=.75\linewidth}
-  \end{figure}
-</tex:latex>
--->
 
 <h3>Orientation and Disposition</h3>
 
@@ -314,19 +306,15 @@ practice as adopted in the standard corpus publications of
 Proto-Cuneiform and the CDLI.</p>
 
 <tex:text>
-    <tex:latex>
-      \begin{figure}[!htb] \centering
-      \captionsetup{width=.75\linewidth}
-      \includegraphics[scale=.65]{images/obo-diplo.png}
-      \caption{Sample tablet organizations; the CDLI transliterations
-      utilize dotted line numbers to address cases of the form 1a.b2
-      etc.}  \end{figure}
+  <tex:latex>
+    \begin{figure}[!htb] \centering
+    \captionsetup{width=.75\linewidth}
+    \includegraphics[scale=.65]{images/obo-diplo.png}
+    \caption{Sample tablet organizations; the CDLI transliterations
+    utilize dotted line numbers to address cases of the form 1a.b2
+    etc. Extract of \cite[58]{Englund1998}.}\end{figure}
   </tex:latex>
-  <tex:plain>
-    \xgraphicsfigure{images/obo-diplo.png}{400}{3in}{Sample tablet
-    organizations; the CDLI transliterations utilize dotted line
-    numbers to address cases of the form 1a.b2
-    etc.}</tex:plain></tex:text>
+</tex:text>
 
 <p>The spatial division of Proto-Cuneiform administrative and lexical
 tablets into cases which are often quite narrow gives rise to an
@@ -356,11 +344,11 @@ think--is increasingly well understood.</p>
   \centering
   \begin{minipage}{0.49\textwidth}
   \includegraphics[width=0.98\textwidth]{images/obo-ovo.png}
-  \caption{Signs for ovi-caprids, after Englund.}
+  \caption{Signs for ovi-caprids, \cite[149]{Englund1998}.}
   \end{minipage}
   \begin{minipage}{0.49\textwidth}
   \includegraphics[width=0.98\textwidth]{images/obo-dairy.png}
-  \caption{Signs for dairy products, after Englund.}
+  \caption{Signs for dairy products, \cite[168]{Englund1998}.}
   \end{minipage}
   \end{figure}
 </tex:latex>

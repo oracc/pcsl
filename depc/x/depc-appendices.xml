@@ -6,6 +6,8 @@
     class="sub"
     >
 
+  <tex:text>\clearpage</tex:text>
+
   <tex:text>\section*{Appendices}</tex:text>
 
   <tex:text>\addcontentsline{toc}{section}{Appendices}</tex:text>
@@ -30,9 +32,14 @@
     <xh:dd>Appendix B lists all of the characters that are not encoded
     because they occur only in unpublished texts.</xh:dd>
 
+    <xh:dt>CDLI Names and PCSL</xh:dt>
+
+    <xh:dd>Appendix C provides a concordance of characters whose PCSL
+    names differ substantively from the CDLI names..</xh:dd>
+
     <xh:dt>Excluded Characters</xh:dt>
 
-    <xh:dd>Appendices C to I give tables of characters according to the
+    <xh:dd>Appendices D to I give tables of characters according to the
     rationale for their exclusion.</xh:dd>
 
     <xh:dt>Sequences</xh:dt>
@@ -46,7 +53,10 @@
 
   </xh:dl>
 
+  <tex:latex>\clearpage</tex:latex>
+
   <tex:appendix>PCSL Table</tex:appendix>
+  <tex:latex>\label{APPpcsl}</tex:latex>
   
   <xh:p>The PCSL Table condenses the Proto-Cuneiform Sign List into a
   convenient overview of the entire Proto-Cuneiform repertoire and its
@@ -54,32 +64,26 @@
 
   <xh:dl>
     <xh:dt>PCSL</xh:dt>
-    <xh:dd><xh:p>The core PCSL data: the sign name and category tag are at the
-    top of the case; the distribution, Oracc ID (OID) and ZATU number,
-    if any, are at the bottom of the case. If the sign is proposed for
-    encoding in PC25, the hex codepoint and reference glyph are given
-    in the middle of the case.</xh:p>
-    <xh:p>The tag codes are as follows:
-    ACN=Archaic Cuneiform Numbers; 
-    DEL=delete;
-    EDI=ED I/II; 
-    NOT=not encoded;
-    NUM=number;
-    OOR=out-of-range number;
-    OOR5=out-of-range Uruk V number;
-    PC25-bk=PC25-eligible but broken so no codepoint;
-    PC25-sq=PC25-eligible but sequene so no codepoint;
-    PC25=PC25 encoded;
-    Pelm=planned for Proto-Elamite;
-    UNP=occurs in unpublished texts only;
-    ZERO=zero occurrences.
- </xh:p>
-    <xh:p>CDLI names either from print sources or in the CDLI-gh name
-    list that have been adapted to PCSL conventions appear in this
-    block with the prefix <xh:code>CDLI:</xh:code>.</xh:p>
-    <xh:p>CDLI names used in the transliterated corpus which are
-    handled using aliases in the validation data appear in this block
-    with the prefix <xh:code>AKA:</xh:code>.</xh:p>
+    <xh:dd><xh:p>The core PCSL data:</xh:p>
+
+    <xh:ul>
+      <xh:li>the sign name and category tag are at the
+      top of the case</xh:li>
+      <xh:li>the distribution, Oracc ID (OID) and ZATU number,
+      if any, are at the bottom of the case</xh:li>
+      <xh:li>If the sign is proposed for encoding in PC25, the hex
+      codepoint and reference glyph are given in the middle of the
+      case.</xh:li>
+      <xh:li><xh:p>The tag codes are as follows:</xh:p>
+      <tex:latex>\pcsltagcodes</tex:latex>
+      </xh:li>
+      <xh:li>CDLI names either from print sources or in the CDLI-gh name
+      list that have been adapted to PCSL conventions appear in this
+      block with the prefix <xh:code>CDLI:</xh:code>.</xh:li>
+      <xh:li>CDLI names used in the transliterated corpus which are
+      handled using aliases in the validation data appear in this block
+      with the prefix <xh:code>AKA:</xh:code>.</xh:li>
+    </xh:ul>
     </xh:dd>
     <xh:dt>FONT</xh:dt>
     <xh:dd>The glyphs as given in PCSL.ttf, with their codepoints.
@@ -102,10 +106,12 @@
   <xi:include href="../m/pcsl-tab.html"/>
 
   <tex:appendix>ZATU-PCSL Concordance</tex:appendix>
+  <tex:latex>\label{APPzatul}</tex:latex>
 
   <xi:include href="../m/zatu.html"/>
   
   <tex:appendix>Index of Alternate CDLI Sign Names</tex:appendix>
+  <tex:latex>\label{APPcdli}</tex:latex>
 
   <xh:p>This index covers two kinds of differences between CDLI names
   and PCSL names (ignoring the differences that result from
@@ -126,6 +132,7 @@
   <xi:include href="../m/aka-cdiff.xml"/>
   
   <tex:appendix>PCSL Non-PC25</tex:appendix>
+  <tex:latex>\label{APPnonpc25}</tex:latex>
 
   <xh:p>This table gives every text in the PC corpus that contains one
   or more unencoded signs, along with a list in the `Missing' column
@@ -137,6 +144,7 @@
   <xi:include href="../m/notcov.html"/>  
 
   <tex:appendix>PC25 Not Encoded: Broken</tex:appendix>
+  <tex:latex>\label{APPnotpc25brk}</tex:latex>
 
   <xh:p>This table gives signs which are not encoded because they only
   occur in instances which are incomplete.</xh:p>
@@ -156,6 +164,7 @@
   -->
 
   <tex:appendix>PC25 Not Encoded: Uruk IV/III not in Sub-corpus</tex:appendix>
+  <tex:latex>\label{APPnotpc25uruk}</tex:latex>
 
   <xh:p>This table gives signs which do occur in Uruk IV and III but
   do not occur within the restricted PC25 corpus; this set is largely
@@ -166,6 +175,7 @@
   <xi:include href="../m/no_corpus.html"/>
   
   <tex:appendix>PC25 Not Encoded: ED I-II not in Sub-corpus</tex:appendix>
+  <tex:latex>\label{APPnotpc25ed1}</tex:latex>
 
   <xh:p>This table gives signs excluded because they only occur in ED I--II</xh:p>
 
@@ -174,6 +184,7 @@
   <xi:include href="../m/no_edi.html"/>
   
   <tex:appendix>PC25 Not Encoded: Delete</tex:appendix>
+  <tex:latex>\label{APPnotpc25del}</tex:latex>
 
   <xh:p>This table gives signs which occur in CDLI-gh but have been
   deleted from the CDLI-tc.</xh:p>
@@ -183,6 +194,7 @@
   <xi:include href="../m/no_delete.html"/>
   
   <tex:appendix>PC25 Not Encoded: Number (non-ACN)</tex:appendix>
+  <tex:latex>\label{APPnotpc25num}</tex:latex>
 
   <xh:p>This table gives numbers which are neither in Archaic
   Cuneiform Numbers or in PC25.  Some of these may be candidates for
@@ -208,6 +220,7 @@
   -->
   
   <tex:appendix>PC25 Sequences Encoded as Exceptions</tex:appendix>
+  <tex:latex>\label{APPexc}</tex:latex>
 
   <xh:p>This table gives sequences which are encoded because they have
   some exceptional characteristic against the principle that sequences
@@ -259,6 +272,7 @@
   <xi:include href="../m/no_sequencexexc.html"/>
 
   <tex:appendix>Sequences Data</tex:appendix>
+  <tex:latex>\label{APPseqdata}</tex:latex>
 
   <xh:p>This table summarizes the naming, composition, and ligaturing of sequences:</xh:p>
 
@@ -285,10 +299,14 @@
   <xi:include href="../m/seqdb.xml"/>
 
   <tex:appendix>Implementation Notes on Sequences</tex:appendix>
+  <tex:latex>\label{APPimpl}</tex:latex>
 
   <xi:include href="../m/sequences.xml"/>
 
+  <tex:latex>\clearpage</tex:latex>
+  
   <tex:appendix>Fonts for the Proposal</tex:appendix>
+  <tex:latex>\label{APPfonts}</tex:latex>
   
   <xi:include href="../x/fonts.xml"/>
 
