@@ -77,6 +77,9 @@
       <xh:li><xh:p>The tag codes are as follows:</xh:p>
       <tex:latex>\pcsltagcodes</tex:latex>
       </xh:li>
+      <xh:li>In the distribution summary, IV and III stand for Uruk IV
+      and III periods, respectively; `p' and `u' for published and
+      unpublished. Uruk V instances are not included.</xh:li>
       <xh:li>CDLI names either from print sources or in the CDLI-gh name
       list that have been adapted to PCSL conventions appear in this
       block with the prefix <xh:code>CDLI:</xh:code>.</xh:li>
