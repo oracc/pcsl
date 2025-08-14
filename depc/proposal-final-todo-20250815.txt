@@ -1,14 +1,14 @@
-* Update Oracc PUA doco to reference F2XXX glyph variants; correct
-  claim re: F1XXX in oracc-pua.xml
-
-* Add PCSL font page to OSL
+* Page through entire PDF looking for final fixes
 
 * Cuneify fixes to support .ss04/.ss03 (also needed for ED IIIa and LAK font)
 
-* Page through entire PDF looking for final fixes
+* Update Oracc PUA doco to reference F2XXX glyph variants; correct
+  claim re: F1XXX in oracc-pua.xml
 
 * spurious Content-type: text/html; charset=utf-8
   Access-Control-Allow-Origin: * in PCSL instances
+
+-* Add PCSL font page to OSL
 
 -* Final repo clean-ups; add README.md and note that encoding of most
   files is PC24; make oracc/pcsl.git public
