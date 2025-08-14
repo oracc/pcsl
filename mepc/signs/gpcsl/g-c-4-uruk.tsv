@@ -118,6 +118,7 @@ o0980219	c	|DUG~a×U₂~b|	|DUG~a×U₂~b|	1
 o0980221	c	|DUG~a×1(N57)|	|DUG~a×1(N57)|	1
 o0980222	s	DUG~b	DUG~b	48
 o0980223	c	|DUG~b×AB₂|	|DUG~b×AB₂|	1
+o0980226	c	|DUG~b×BA|	|DUG~b×BA|	1
 o0980229	c	|DUG~b×DIN|	|DUG~b×DIN|	5
 o0980230	c	|(DUG~b×DIN)@r|	|DUG~b@r×DIN|	1
 o0980238	c	|DUG~b×HI|	|DUG~b×HI|	3
@@ -125,7 +126,7 @@ o0980239	c	|DUG~b×HI@g~a|	|DUG~b×HI@g~a|	7
 o0980247	c	|DUG~b×MAŠ|	|DUG~b×MAŠ|	4
 o0980261	c	|DUG~b×ŠE~a|	|DUG~b×ŠE~a|	5
 o0980272	c	|DUG~b×X|	|DUG~b×X|	6
-o0980279	c	|DUG~b×1(N57)|	|DUG~b×1(N57)|	6
+o0980279	c	|DUG~b×1(N57)|	|DUG~b×1(N57)|	5
 o0980283	c	|(DUG~b&DUG~b)×1(N58)|	|DUG~b&(DUG~b×1(N58))|	1
 o0980284	s	DUG~c	DUG~c	57
 o0980285	c	|DUG~c×1(N57)|	|DUG~c×1(N57)|	25

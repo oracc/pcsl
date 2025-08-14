@@ -2,7 +2,15 @@
 # Makefile for generating pcsl and pc25 atf and catalogue data
 #
 
-default: dirs atf cat pub not out pc25
+default: dirs atf cat pub not out pc25 project
+
+# Target to copy updated files to pcsl project dirs--oracc build
+# doesn't work with links
+project:
+	cp -uv 00atf/pcsl.atf ../00atf
+	cp -uv 00cat/pcsl.tsv ../00cat
+	rm -fr ../00lib/lists
+	cp -uva 00lib/* ../00lib
 
 atf: 00atf/pcsl.atf 00bin/pcslatf.plx
 
@@ -46,5 +54,6 @@ pc25: 00atf/pcsl.atf 00cat/pcsl.tsv 00lib/lists/pcsl-pub.lst
 
 dirs:
 	mkdir -p 00lib/lists 00atf 00cat
+
 clean:
 	rm -fr 00lib/*.lst 00lib/lists 00atf 00cat

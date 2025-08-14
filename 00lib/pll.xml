@@ -1,1 +1,7 @@
-../cepc/00lib/pll.xml
+<pll>
+   <list menu="All PCSL Texts" file="pcsl-all.lst"/>
+   <list menu="PCSL Published Texts" file="pcsl-pub.lst"/>
+   <list menu="PCSL Unpublished Texts" file="pcsl-unp.lst"/>
+   <list menu="PCSL Untransliterated Texts" file="not-in-atf.lst"/>
+   <list menu="PCSL Not Tablets" file="not-tablet.lst"/>
+</pll>

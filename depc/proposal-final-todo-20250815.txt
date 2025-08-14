@@ -1,10 +1,16 @@
+* unpub in PCSL appendix distribution
+
+* PCSL.ttf in oracc web folder
+
+* pcsl front page/portal not working
+
 * Final repo clean-ups; add README.md and note that encoding of most
   files is PC24; make oracc/pcsl.git public
 
-* Final pcsl project clean-ups and make pcsl public on oracc.museum;
+-* Final pcsl project clean-ups and make pcsl public on oracc.museum;
   change PCSL URL in depc.bib to http://oracc.org/pcsl
 
-* oracc.org/pcsl/signlist/o098XXXXX links in PCSL tables
+-* oracc.org/pcsl/o098XXXXX links in PCSL tables
 
 * Update Oracc PUA doco for F2XXX glyph variants
 

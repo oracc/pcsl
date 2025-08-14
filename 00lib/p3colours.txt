@@ -4,7 +4,7 @@ colour-def-light   	#a0b7e0
 colour-def-very-light  	#fff
 colour-def-bright 	#011f5b
 colour-def-pale  	#a0b7e0
-colour-def-link  	#00CC00
+colour-def-link  	#3cb371
 
 colour-bind-dark	banner-bg heading-bg
 colour-bind-mid 	border
