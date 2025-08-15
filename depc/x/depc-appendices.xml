@@ -69,8 +69,9 @@
     <xh:ul>
       <xh:li>the sign name and category tag are at the
       top of the case</xh:li>
-      <xh:li>the distribution, Oracc ID (OID) and ZATU number,
-      if any, are at the bottom of the case</xh:li>
+      <xh:li>the distribution, Oracc ID (OID) and ZATU number, if any,
+      are at the bottom of the case. The OID links to the PCSL project
+      which in turn gives access to all instances of the sign.</xh:li>
       <xh:li>If the sign is proposed for encoding in PC25, the hex
       codepoint and reference glyph are given in the middle of the
       case.</xh:li>

@@ -2,6 +2,10 @@
 
 * Cuneify fixes to support .ss04/.ss03 (also needed for ED IIIa and LAK font)
 
+* Review U+XXXXX references to PC25 to make sure they haven't changed with sub of KITI and MAGUR~b
+
+* Double-check reference glyphs to make sure they are Uruk Uruk III where possible
+
 * Update Oracc PUA doco to reference F2XXX glyph variants; correct
   claim re: F1XXX in oracc-pua.xml
 

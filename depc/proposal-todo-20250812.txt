@@ -12,12 +12,9 @@ General
 	-LaTeX: get sections/appendices in headers?
 	-Review x-refs to Appendices; use x-refs in places
 	       -where App letters are hard-coded
-	Review U+XXXXX references to PC25 to make sure they
-	       haven't changed with sub of KITI and MAGUR~b
 	-Grep XXX and solve results
 
 Charts
-	Double-check reference glyphs to make sure they are Uruk Uruk III where possible
 	-LaTeX: Figure out why chartlist isn't obeying offinterlineskip
 
 Appendix A

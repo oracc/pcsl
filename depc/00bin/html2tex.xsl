@@ -1183,8 +1183,16 @@
 
   <!-- ESP -->
 
-  <xsl:template match="esp:page|esp:link">
+  <xsl:template match="esp:page">
     <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="esp:link">
+    <xsl:text>\href{</xsl:text>
+    <xsl:value-of select="@url"/>
+    <xsl:text>}{</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>}</xsl:text>
   </xsl:template>
   
   <xsl:template match="esp:name|esp:title"/>
