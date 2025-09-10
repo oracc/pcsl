@@ -174,7 +174,7 @@
 	<li>Do not generally encode opaque sequences. In standard
 	transliteration practice for Proto-Cuneiform some signs are given
 	simple names which do not reflect their status as a sequence, e.g.,
-	LUGAL is actually a sequence of GAL₂ and LU₂, or LU₂ and GAL. We call
+	LUGAL is actually a sequence of GAL and LU₂, or LU₂ and GAL. We call
 	these sequences ``opaque sequences'' and, like regular sequences, they
 	are not encoded.</li>
 
