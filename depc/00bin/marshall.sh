@@ -14,6 +14,7 @@ cp ../repc/w/chartlist.html m
 cp ../mepc/texts/tpcsl/notcov.html m
 cp ../mepc/lists/00web/no_*.html m
 cp ../mepc/lists/00etc/seqdb.xml m
+grep -v '^%' x/acknowledgements.tex >m/acknowledgements.tex
 grep -v '^%' x/rationale.tex >m/rationale.tex
 
 # Must come last because it xi:includes most of the preceding

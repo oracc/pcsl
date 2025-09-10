@@ -16,46 +16,8 @@
     </tex:latex>
   </tex:text>
 
-  <tex:text>
-    <tex:latex>
-  \section*{Acknowledgements}
-  \addcontentsline{toc}{section}{Acknowledgements}
+  <xi:include xml:base="." href="../m/rationale.tex" parse="text"/>
 
-  This proposal would not have come about without the prior work of
-  many people, whom it would be impractical to name exhaustively here
-  although most of their names occur \emph{passim} in the References
-  section of this document.
-  
-  The Berlin/UCLA team led by Robert Englund and Peter Damerow, which
-  itself gave rise to CDLI \cite{CDLI}, most recently managed by Émilie
-  Pagé-Perron and Jacob Dahl and others, carried out foundational work
-  on the print and digital resources on which all work on
-  Proto-Cuneiform is based.
-
-  Michael Everson, Laura Hawkins and Debbie Anderson carried out and
-  fostered work on Proto-Cuneiform for Unicode under the auspices of
-  the Script Encoding Initiative
-  \cite{L2/16-267,L2/17-157,L2/19-284}. More recently, Anshuman Pandey
-  laid the basis for the current proposal in several important
-  proposal documents of his own \cite{L2/20-193,L2/22-239,L2/23-190}
-  and Robin Leroy was the principal author of a companion proposal to
-  this one, Archaic Cuneiform Numerals (ACN) \cite{L2/24-210}.
-
-  Steve Tinney authored the bulk of the current proposal and created
-  the Oracc PCSL project \cite{PCSL}, the digital corpus (based on
-  CDLI) and resources from which the appendices are derived.
-
-  Robin Leroy authored the section \hyperref[rationale]{``Rationale for
-  Separately Encoding Proto-Cuneiform''} and frequently shared his
-  expertise on cuneiform, Unicode, and LaTeX.
-
-  The PCSL font was initially created by Anshuman Pandey based on Bob
-  Englund's collection of signs and was an essential basis for the
-  current proposal. The font was revised and augmented by Steve
-  Tinney.
-    </tex:latex>
-  </tex:text>
-  
   \section{Summary}
   
   <xi:include href="../x/abstract.xml"/>
