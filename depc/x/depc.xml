@@ -8,15 +8,7 @@
     <tex:latex>\DTMsetdatestyle{iso}\maketitle</tex:latex>
   </tex:text>
   
-  <tex:text>
-    <tex:latex>
-      \phantomsection
-      \addcontentsline{toc}{section}{Title Page}
-      \bgroup\parskip1pt plus1pt minus1pt \tableofcontents\egroup
-    </tex:latex>
-  </tex:text>
-
-  <xi:include xml:base="." href="../m/rationale.tex" parse="text"/>
+  <xi:include xml:base="." href="../m/acknowledgements.tex" parse="text"/>
 
   \section{Summary}
   
@@ -82,7 +74,7 @@
   Unicode cuneiform character naming. The terms JOINING and PLUS are
   used with distinct semantics: JOINING is used for `+' in sign names;
   PLUS is used to indicate grouping of multiple characters within the
-  same container (as in Sumero-Akkadian cuneiform unicode
+  same container (as in Sumero-Akkadian cuneiform Unicode
   names).</xh:p>
   
   <xi:include href="../m/chartlist.html"/>
