@@ -49,8 +49,8 @@ There are two encodings used in the repo: PC24 and PC25.  Most files
 are in PC24, which is the encoding of the font used for the 2024 work
 on PCSL.  In exceptional cases, flagged in the Makefiles, outputs are
 generated in PC25; most outputs used by the proposal are remapped into
-PC25 using a program named `utr' and a map file
-`mepc/lists/00etc/pc25.map'.  The PCSL font is generated from the PC24
+PC25 using a program named 'utr' and a map file
+'mepc/lists/00etc/pc25.map'.  The PCSL font is generated from the PC24
 font using the same map.
 
 ## Dependencies
