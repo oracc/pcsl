@@ -11,12 +11,12 @@
       <p>Each character that occurs in the PC25 subset of the PCSL
       corpus has been assessed according to the following principles
       in order to determine its encodability.  Encoded signs are given
-      in Appendix A and B; the condensed version of the
-      Proto-Cuneiform Sign List, PCSL, is given Appendix C and
+      in the following section; the condensed version of the
+      Proto-Cuneiform Sign List, PCSL, is given Appendix A and
       contains essential information relating to the encodability of
       each sign.  Appendix D lists all of the manuscripts that have
       unencoded signs and the signs which they are missing. Appendices
-      E to K give tables of signs excluded from PC25 under one of the
+      E to I give tables of signs excluded from PC25 under one of the
       reasons for which they were excluded.</p>
 
       <p>In addition to the comments above on the corpus, signiary,
@@ -25,8 +25,9 @@
       <esp:sh>(Non-)Constrastive Usage</esp:sh>
 
       <p>Previous proposals treated the whole of CDLI-gh as a flat
-      sample of sign forms and assigned codepoints to each form.  All
-      of the resources, however, are highly consistent in listing and
+      sample of sign forms and assigned codepoints to each form.  The
+      print resources which post-date ZATU as well as the digital
+      resources, however, are highly consistent in listing and
       transliterating some variant sign forms as non-contrastive and
       this practice is followed in PC25: the grouping of sign forms
       under a sign sign name and the practice of transliterating
@@ -54,13 +55,13 @@
 
       <esp:ssh>(Non-)Contrastive Usage in Complex and Compound Signs</esp:ssh>
 
-      <p>CDLI-tc and CDLI-gh do not always differentiate compound
-      constituents to the same extent as the independent versions of
-      the constituents.  For example, KAR₂ is separated as KAR₂~a and
-      KAR₂~b in CDLI-tc and CDLI-gh, but in the DARA₃×KAR₂ compounds
-      the only notations that occur are |DARA₃~c×KAR₂| and
-      |DARA₃~d×KAR₂|.  The encoding by default follows the CDLI
-      notations in such cases.</p>
+      <p>The CDLI text corpus, CDLI-tc, and CDLI-gh do not always
+      differentiate compound constituents to the same extent as the
+      independent versions of the constituents.  For example, KAR₂ is
+      separated as KAR₂~a and KAR₂~b in CDLI-tc and CDLI-gh, but in
+      the DARA₃×KAR₂ compounds the only notations that occur are
+      |DARA₃~c×KAR₂| and |DARA₃~d×KAR₂|.  The encoding by default
+      follows the CDLI notations in such cases.</p>
 
       <esp:sh>Numbers</esp:sh>
 
@@ -163,7 +164,7 @@
 
 	<li>Do not generally encode sequences.  In Proto-Cuneiform
 	writing sequences are not necessarily linear because the
-	manuscripts are organized in cases (or boxes), signs are
+	manuscripts are organized in cases (or boxes). Signs are
 	routinely juxtaposed in clusters in which the components can
 	be written above, below, or near each other as well as being
 	beside each other in a line. The surface form of sequences can
