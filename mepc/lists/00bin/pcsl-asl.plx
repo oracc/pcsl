@@ -31,6 +31,8 @@ my $pcslranges = '';
 $pcslranges = `cut -f3 00etc/pc25-map.tsv | sort | 00bin/listdef-uni-ranges.plx`
     unless $bare;
 
+my %seqglyf = ();
+
 my %zatu = (); my %znotes = (); my %nozatu = (); my %zseen = (); load_zatu();
 
 # load PC24->PC25 map
@@ -115,8 +117,12 @@ sub asl_chars {
 	asl_uni($n,$o,$c)
 	    unless $seqflag;
 	my $glyf_index = 1;
-	foreach my $cc (@c) {
-	    asl_pglyf($o,$n,$cc,$glyf_index++);
+	if ($seqglyf{$o}) {
+	    print @{$seqglyf{$o}}; # we compute @glyf directly from seq-final.tsv now
+	} else {
+	    foreach my $cc (@c) {
+		asl_pglyf($o,$n,$cc,$glyf_index++);
+	    }
 	}
     }
 }
@@ -139,9 +145,10 @@ sub asl_sign {
 	}
     }
     print "\@sign $sn\n";
-    print "\@aka $xaka\n" if $xaka;
+    print "\@aka $xaka\n" if $xaka && $xaka ne $sn;
     if ($aka{$o}) {
 	foreach my $a (@{$aka{$o}}) {
+	    next if $a eq $sn;
 	    unless ($aseen{$a}++) {
 		print "\@aka $a\n";
 		push @nn, $a;
@@ -181,7 +188,7 @@ sub asl_sign {
 	    if ($h =~ /^12/) {
 		printf "\@list U+$h\n";
 	    } else {
-		printf "\@upua U+$h\n";
+		printf "\@upua U+$h\n" unless $seqglyf{$om};
 	    }
 	}
 	asl_zatu($om,$omr,@nn);
@@ -289,44 +296,45 @@ sub asl_zatu {
 
 sub asl_pglyf {
     my($o,$n,$c,$tag) = @_;
-    if (length $c > 1) {
-	my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
-	unless ($cc) {
-	    $cc = $c unless $cc; # it's OK not to have a precomposed glyph in the PUA and just have X_Y
-	    $cc =~ tr/_/./; # we switched conventions to use . instead of _ in seq-base
-	}
-	# my $fh = sprintf("%X", ord $cc);
-	# my $fo = $u{$fh};
-	# my $fn = $n{$fo};
-	# print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
-	if ($seq{$cc}) {
-	    #my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
-	    my %s = %{$seq{$cc}};
-	    # print Dumper \%s;
-	    my $nq = $s{'n'}; $nq =~ s/\%/%%/g;
-	    my $ueq = $s{'u'} ? "$s{'u'}=" : '';
-	    my $s1 = $s{'s1'}; $s1 =~ tr/./‍/; # x200d
-	    $s{'t'} = '' unless $s{'t'};
-	    my $mh = '0';
-	    if ($s{'h'} && $s{'h'} ne '0') {
-		$mh = $m{$s{'h'}};
-	    }
-	    my $O = $s{'o'};
-	    if ($O =~ /^o098/) {
-		$O = $Or{$O};
-	    } else {
-		unless ($oldoids || $o =~ /^o099/) {
-		    $O = $Og{$s{'o'}};
-		    warn "$0: no O(g) for $s{'o'}\n" unless $O;
-		}
-	    }
-	    printf "\@glyf $nq~%d $ueq$s1 $mh $O ~%02X\n", $tag, $tag;
-	} else {
-	    warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
-	    my $sc = $c; $sc =~ tr/\./‍/;
-	    warn "seq-base\t$o\t\t$sc\t$n\n";
-	}
-    } else {
+#    if ($seqglyf{$o}) { # length $c > 1) {
+#	print @{$seqglyf{$o}}; # we compute @glyf directly from seq-final.tsv now
+	# # my($cc,$cq) = ($c =~ /^(.*?)=(.*?)$/);
+	# # unless ($cc) {
+	# #     $cc = $c unless $cc; # it's OK not to have a precomposed glyph in the PUA and just have X_Y
+	# #     $cc =~ tr/_/./; # we switched conventions to use . instead of _ in seq-base
+	# # }
+	# # # my $fh = sprintf("%X", ord $cc);
+	# # # my $fo = $u{$fh};
+	# # # my $fn = $n{$fo};
+	# # # print "\@form $fn\n\@oid $fo\n\@ucun $cc\n";
+	# # if ($seq{$cc}) {
+	# #     #my($o,$u,$h,$s1,$s2,$n,$l,$s3) = @{$seq{$cc}};
+	# #     my %s = %{$seq{$cc}};
+	# #     # print Dumper \%s;
+	# #     my $nq = $s{'n'}; $nq =~ s/\%/%%/g;
+	# #     my $ueq = $s{'u'} ? "$s{'u'}=" : '';
+	# #     my $s1 = $s{'s1'}; $s1 =~ tr/./‍/; # x200d
+	# #     $s{'t'} = '' unless $s{'t'};
+	# #     my $mh = '0';
+	# #     if ($s{'h'} && $s{'h'} ne '0') {
+	# # 	$mh = $m{$s{'h'}};
+	# #     }
+	# #     my $O = $s{'o'};
+	# #     if ($O =~ /^o098/) {
+	# # 	$O = $Or{$O};
+	# #     } else {
+	# # 	unless ($oldoids || $o =~ /^o099/) {
+	# # 	    $O = $Og{$s{'o'}};
+	# # 	    warn "$0: no O(g) for $s{'o'}\n" unless $O;
+	# # 	}
+	# #     }
+	# #     printf "\@glyf $nq~%d $ueq$s1 $mh $O ~%02X\n", $tag, $tag;
+	# # } else {
+	# #     warn "pglyf: $n: $cc (<$c) not in seq-final.tsv\n";
+	# #     my $sc = $c; $sc =~ tr/\./‍/;
+	# #     warn "seq-base\t$o\t\t$sc\t$n\n";
+	# # }
+ #   } else {
 	if ($glyf{$c}) {
 	    my($o,$h,$n,$t) = @{$glyf{$c}};
 	    my $mh = $m{$h};
@@ -335,7 +343,7 @@ sub asl_pglyf {
 		$O = $Og{$o};
 		warn "$0: no O(g) for $o\n" unless $O;
 	    }
-	    print "\@glyf $n $c $mh $O $t\n";
+	    print "\@glyf $n $c $mh $O\n";
 	} else {
 	    my $h = sprintf("%X", ord $c);
 	    my $go = $u{$h};
@@ -348,9 +356,9 @@ sub asl_pglyf {
 		$O = $Og{$go};
 		warn "$0: no O(g) for $go\n" unless $O;
 	    }
-	    printf "\@glyf $nq~%d $c $mh $go ~%02X\n", $tag, $tag;
+	    printf "\@glyf $nq~%d $c $mh $go\n", $tag;
 	}
-    }
+#    }
 }
 
 sub load_aka {
@@ -366,17 +374,14 @@ sub load_glyf {
 	my($c,$o,$ph,$h,$n,$t) = split(/\t/,$_);
 	$t = '~01' unless $t;
 	$glyf{$c} = [ $o, $h, $n , $t ];
+	$glyf{$c,'o09'} = $o;
     }
 }
 
 sub load_oid {
-    
-}
-
-sub load_oid_tab {
     my @o = `grep ^o09 $ENV{'ORACC'}/oid/oid.tab | cut -f1,3`; chomp @o;
     foreach (@o) {
-	my($o,$n) = split(/\t/,$_); $n{$o} = $n;
+	my($o,$n) = split(/\t/,$_); $n{$o} = $n; $n{$n} = $o;
     }
 }
 
@@ -391,7 +396,7 @@ sub load_seq {
     my @s = `cat 00etc/seq-final.tsv`; chomp @s;
     foreach (@s) {
 #	my($o,$u,$h,$s1,$s2,$n,$l,$s3) = split(/\t/,$_);
-	my %s = (); @s{qw/o u s1 s2 n l/} = split(/\t/,$_);
+	my %s = (); @s{qw/o u s1 s2 n g l/} = split(/\t/,$_);
 	my $s = { %s };
 	if ($s{'u'}) {
 	    $seq{$s{'u'}} = $s;
@@ -400,8 +405,49 @@ sub load_seq {
 	    $s{'u'} = '';
 	}
 	$seq{$s{'s1'}} = $seq{$s{'s2'}} = $s;
+
+	unless ($bare) {
+	    my $o099 = ($s{'u'} ? $glyf{$s{'u'},'o09'} : '');
+	    unless ($o099) {
+		$o099 = $n{$s{'n'}} || $n{$s{'n'}.'~1'};
+		unless ($o099) {
+		    warn "no o099 for $s{'o'} = $s{'n'} = '$s{'u'}'\n";
+		    $o099 = '';
+		}
+	    }
+	    my $ucun = $s{'s1'}; $ucun =~ tr/.+∘×//d;
+	    my $otf = $s{'l'};
+	    if ($otf =~ /\.liga\./) {
+		$otf =~ s/^.*?\.liga//;
+		if ($otf =~ m/^\.[cs]/) {
+		    $otf =~ s/^\.//;
+		}
+	    } else {
+		$otf = "";
+	    }
+	    my $ueq = $s{'u'} ? "$s{'u'}=" : "";
+	    my $hex = '';
+	    my $l24 = $s{'l'}; $l24 =~ s/\.liga.*//;
+	    my @l24 = split(/_/,$l24);
+	    my @l25 = ();
+	    foreach my $l24 (@l24) {
+		$l24 =~ tr/u//d;
+		push @l25, "x$m{$l24}";
+	    }
+	    my $x = join('.', @l25);
+	    if ($s{'u'}) {
+		my $x24 = sprintf("%X",ord($s{'u'}));
+		my $x25 = $m{$x24};
+		$hex = "$x25=$x";
+	    } else {
+		$hex = "0=$x";
+	    }
+	    my $g = "\@glyf $s{'g'} $ueq$ucun $hex $o099 $otf\n";
+	    push @{$seqglyf{$s{'o'}}}, $g;
+	}
     }
     open(S,'>seq.dump'); print S Dumper \%seq; close(S);
+    open(S,'>seq.glyf'); print S Dumper \%seqglyf; close(S);
 }
 
 sub load_unames {

@@ -26,6 +26,8 @@ my %pcsl = ();
 my %pc24 = (); load_pc24();
 my %pc25 = ();
 
+my %aka = (); load_aka();
+
 my %seqnames = (); load_seqnames();
 
 open(L,'>pcsl-final.log');
@@ -88,6 +90,13 @@ sub charcommas {
 	    }
 	}
 	return join(',', @n);
+    }
+}
+
+sub load_aka {
+    my @a = `cat 00etc/aka.tsv`; chomp @a;
+    foreach (@a) {
+	my($o,$a) = split(/\t/,$_); ++${$aka{$o}}{$a};
     }
 }
 
@@ -206,19 +215,31 @@ sub load_sl {
 
 sub pc25_names {
     foreach my $o (sort keys %pcsl) {
-	my $pc24 = ${$pcsl{$o}}{'pc24'};
-	my $pc25 = $pc24;
-	$pc25 =~ s/~v[0-9]+//g;
-	$pc25 =~ s/([^AEIU])(ŠU₂~[ab])/$1ŠU₂/g unless $pc24 =~ /GIŠ×ŠU₂/;
-	$pc25 =~ s/SAG\@n×GEŠTU/SAG×GEŠTU/;
-	$pc25 =~ s/PAP\@t/PAP~a\@t/;
-	if ($pc25{$pc25}) {
-	    warn "duplicate name $pc25 is $o and $pc25{$pc25}; src=${$pcsl{$o}}{'src'}\n";
+	if (${$pcsl{$o}}{'tag'} =~ /:/) {
+	    if ($seqnames{$o}) {
+		${$pcsl{$o}}{'pc25'} = $seqnames{$o};
+		${$pcsl{$o}}{'cdli'} = ${$pcsl{$o}}{'pc24'};
+		$pc25{$seqnames{$o}} = $o;
+		warn "aka\t$o\t${$pcsl{$o}}{'pc24'}\n"
+		    unless ${$aka{$o}}{${$pcsl{$o}}{'pc24'}};
+	    } else {
+		warn "opaque sign ${$pcsl{$o}}{'pc24'} not in 00etc/seq-names.tsv\n";
+	    }
 	} else {
-	    $pc25{$pc25} = $o;
+	    my $pc24 = ${$pcsl{$o}}{'pc24'};
+	    my $pc25 = $pc24;
+	    $pc25 =~ s/~v[0-9]+//g;
+	    $pc25 =~ s/([^AEIU])(ŠU₂~[ab])/$1ŠU₂/g unless $pc24 =~ /GIŠ×ŠU₂/;
+	    $pc25 =~ s/SAG\@n×GEŠTU/SAG×GEŠTU/;
+	    $pc25 =~ s/PAP\@t/PAP~a\@t/;
+	    if ($pc25{$pc25}) {
+		warn "duplicate name $pc25 is $o and $pc25{$pc25}; src=${$pcsl{$o}}{'src'}\n";
+	    } else {
+		$pc25{$pc25} = $o;
+	    }
+	    ${$pcsl{$o}}{'pc25'} = $pc25;
+	    ${$pcsl{$o}}{'cdli'} = ${$pcsl{$o}}{'fnnm'} || ${$pcsl{$o}}{'pbpc'};
 	}
-	${$pcsl{$o}}{'pc25'} = $pc25;
-	${$pcsl{$o}}{'cdli'} = ${$pcsl{$o}}{'fnnm'} ||  ${$pcsl{$o}}{'pbpc'};
     }
 }
 
