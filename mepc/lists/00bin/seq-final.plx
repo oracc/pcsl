@@ -18,6 +18,12 @@ GetOptions(
     val=>\$validationonly,
     );
 
+my %sname = (); my @sns = `cut -f1,3 00etc/pcsl-final.tsv`; chomp @sns;
+foreach (@sns) {
+    my($o,$n) = split(/\t/,$_);
+    $sname{$o} = $n;
+}
+
 my %liga_cvnn = ();
 my %seen_gn = ();
 
@@ -97,6 +103,8 @@ while (<S>) {
     if ($addglyf) {
 	$glyf{$c} = $xv;
     }
+
+    $n = $sname{$o} if $sname{$o};
     
     print "$o\t$c\t$s\t$xv\t$n\t$gn\t$xl\n";
 }
