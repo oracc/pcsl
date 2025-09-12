@@ -822,6 +822,8 @@ o0980123	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0980123	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0980123	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
 o0980123	c	|(BU~a&BU~a).NA₂~a|	|(BU~a&BU~a).NA₂~a|
+o0980126	e		-
+o0980126	e		-
 o0980126	s	BU~b	BU~b
 o0980126	s	BU~b	BU~b
 o0980126	s	BU~b	BU~b
@@ -2809,6 +2811,8 @@ o0980635	s	KAK~a	KAK~a
 o0980635	s	KAK~a	KAK~a
 o0980639	s	KAL~b1	KAL~b1
 o0980640	s	KAL~b2	KAL~b2
+o0980641	e		-
+o0980641	e		-
 o0980641	s	KALAM~a	KALAM~a
 o0980641	s	KALAM~a	KALAM~a
 o0980641	s	KALAM~a	KALAM~a
@@ -3121,8 +3125,8 @@ o0980689	s	KIŠ	KIŠ
 o0980690	s	KIŠIK~a	KIŠIK~a
 o0980690	s	KIŠIK~a	KIŠIK~a
 o0980690	s	KIŠIK~a	KIŠIK~a
-o0980692	s	KITI	KITI
-o0980692	s	KITI	KITI
+o0980692	s	|BU~b.KALAM~a|	KITI
+o0980692	s	|BU~b.KALAM~a|	KITI
 o0980693	s	KU~a	KU~a
 o0980693	s	KU~a	KU~a
 o0980695	s	KU~b1	KU~b1
@@ -13280,4 +13284,4 @@ o0982271	e		-
 o0982271	e		-
 o0982271	e		-
 o0982271	e		-
-o0982286	c	X₁	|GA₂~a1×X₁|
+o0982286	c	|GA₂~a1×X₁|	|GA₂~a1×X₁|

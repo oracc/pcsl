@@ -13,7 +13,7 @@
       <esp:sh>Sequences have constant character names</esp:sh>
       <p>In PCSL, the tag <code>@sign</code> is used for sign names
       and is dissociated from glyph names.  All of the variants of a
-      sequences are grouped under a single <code>@sign</code>.  The
+      sequence are grouped under a single <code>@sign</code>.  The
       sign name is composed of a conventional ordering of the
       sequence, with each component joined by periods (`.'). Each sign
       name is unique among the set of sign names.</p>

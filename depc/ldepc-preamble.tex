@@ -112,6 +112,7 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \usepackage{graphicx}
 \usepackage{luaotfload}
 \usepackage{multicol}
+\usepackage{float}
 \usepackage{wrapfig}
 \usepackage[svgnames]{xcolor}
 \usepackage{tocloft}
@@ -148,8 +149,8 @@ BoldItalicFont = UngBkBasBI.ttf ]
 \fancyhead{}
 \fancyhead[R]{\thepage}
 \fancyhead[L]{\fancypcslheader}
-\fancyhead[C]{\small\thisDocumentNumber: \thisDocumentShortTitle
-  [Draft \today] :: \nouppercase{\leftmark}}
+\fancyhead[C]{\small\thisDocumentNumber: \thisDocumentShortTitle{}%
+  \kern10pt::\kern10pt\nouppercase{\leftmark}}
 \renewcommand{\headrulewidth}{0.4pt}
 
 \usepackage[english]{datetime2}

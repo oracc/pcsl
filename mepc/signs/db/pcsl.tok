@@ -23730,7 +23730,9 @@ L	13209	P000433.16	o iii 1
 W	P000433.16.1
 g	o0981828..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
 W	P000433.16.2
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 L	13211	P000433.17	o iii 2
 W	P000433.17.1
 g	o0981828..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
@@ -93130,7 +93132,9 @@ K	sphase	000011/Uruk III
 Y	xtf
 L	48295	P002708.4	o i 1
 W	P002708.4.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P002708.4.2
 T	pcsl	P002709	IM 046006
 K	period	000011/Uruk III
@@ -122400,7 +122404,9 @@ W	P003624.20.2
 g	o0981247..	@pcsl%pc:s/ŠU=ŠU--#wn%qpc:#u%:#a1#a1#u0#+k-------	ŠU
 L	61520	P003624.21	o i 4.e1
 W	P003624.21.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P003624.21.2
 g	o0982174..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N57)
 L	61521	P003624.22	o i 4.e2
@@ -145146,7 +145152,9 @@ W	P004315.4.3
 g	o0981392..	@pcsl%pc:s/U₈=U₈--#wn%qpc:#u%:#a1#a1#u0#+k?------	U₈
 L	71764	P004315.6	o ii 1
 W	P004315.6.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P004315.6.2
 g	o0981028..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#+k-------	SAG
 W	P004315.6.3
@@ -157713,7 +157721,9 @@ W	P004631.7.3
 g	o0981829..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N01)
 W	P004631.7.4
 W	P004631.7.5
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P004631.7.6
 g	o0980182..	@pcsl%pc:s/DU=DU--#wn%qpc:#u%:#a1#a1#u0#+k-------	DU
 W	P004631.7.7
@@ -199733,7 +199743,9 @@ g	o0980839..	@pcsl%pc:s/MAŠ₂=MAŠ₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	MAŠ₂
 W	P005423.19.3
 L	92050	P005423.21	r ii 1
 W	P005423.21.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P005423.21.2
 g	o0980838..	@pcsl%pc:s/MAŠ=MAŠ--#wn%qpc:#u%:#a1#a1#u0#+k?------	MAŠ
 W	P005423.21.3
@@ -199749,7 +199761,9 @@ g	o0981028..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#.k-------	SAG
 W	P005423.23.3
 L	92053	P005423.24	r iii 2
 W	P005423.24.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P005423.24.2
 g	o0980999..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	PA~a
 W	P005423.24.3
@@ -199974,7 +199988,9 @@ W	P005425.15.3
 g	o0981028..	@pcsl%pc:s/SAG=SAG--#wn%qpc:#u%:#a1#a1#u0#.k-------	SAG
 L	92114	P005425.16	o iii 3
 W	P005425.16.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k-------	-
 W	P005425.16.2
 g	o0980999..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	PA~a
 W	P005425.16.3
@@ -200085,7 +200101,9 @@ W	P005426.21.3
 g	o0981059..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI
 L	92142	P005426.22	o iii 3
 W	P005426.22.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k-------	-
 W	P005426.22.2
 W	P005426.22.3
 g	o0980695..	@pcsl%pc:s/=KU~b1--#wn%qpc:#u%:#a1#a1#u0#+k-------	KU~b1
@@ -200098,7 +200116,9 @@ g	o0981017..	@pcsl%pc:s/=RAD~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	RAD~a
 W	P005426.22.7
 L	92145	P005426.25	r i 1
 W	P005426.25.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P005426.25.2
 g	o0980999..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	PA~a
 L	92146	P005426.26	r i 2
@@ -200266,7 +200286,9 @@ g	o0981024..	@pcsl%pc:s/RU=RU--#wn%qpc:#u%:#a1#a1#u0#.k?------	RU
 W	P005427.30.4
 g	o0980115..	@pcsl%pc:s/=BU~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	BU~a
 W	P005427.30.5
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k-------	-
 W	P005427.30.6
 g	o0980999..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#.k-------	PA~a
 W	P005427.30.7
@@ -200290,7 +200312,9 @@ g	o0982176..	@pcsl%pc:n/5(N57)=5(N57)--#wn%qpc:#u%:#a1#a1#u0#+k-------	5(N57)
 W	P005427.34.2
 g	o0980025..	@pcsl%pc:s/AB₂=AB₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	AB₂
 W	P005427.34.3
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k-------	-
 W	P005427.34.4
 g	o0980999..	@pcsl%pc:s/=PA~a--#wn%qpc:#u%:#a1#a1#u0#.k?------	PA~a
 L	92189	P005427.35	r ii 4
@@ -200308,7 +200332,9 @@ g	o0981442..	@pcsl%pc:s/UR₂=UR₂--#wn%qpc:#u%:#a1#a1#u0#.k-------	UR₂
 W	P005427.36.4
 L	92192	P005427.38	r iii 1
 W	P005427.38.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P005427.38.2
 g	o0980574..	@pcsl%pc:s/GURUŠDA=GURUŠDA--#wn%qpc:#u%:#a1#a1#u0#.k-------	GURUŠDA
 L	92193	P005427.39	r iii 2
@@ -201819,7 +201845,9 @@ L	92613	P005443.6	o i 3
 W	P005443.6.1
 g	o0981828..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
 W	P005443.6.2
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k?------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k?------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k?------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k?------	-
 L	92614	P005443.7	o i 4
 W	P005443.7.1
 g	o0981828..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
@@ -201931,7 +201959,9 @@ L	92641	P005444.7	o i 4
 W	P005444.7.1
 g	o0981828..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
 W	P005444.7.2
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k?------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k?------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k?------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k?------	-
 L	92642	P005444.8	o i 5
 W	P005444.8.1
 g	o0981828..	@pcsl%pc:n/1(N01)=1(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N01)
@@ -205326,7 +205356,9 @@ L	93574	P005573.43	o ii 1.b01
 W	P005573.43.1
 g	o0980562..	@pcsl%pc:s/GUL=GUL--#wn%qpc:#u%:#a1#a1#u0#+m-------	GUL
 W	P005573.43.2
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+m-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+m-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+m-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+m-------	-
 L	93575	P005573.44	o ii 1.b02
 W	P005573.44.1
 g	o0980331..	@pcsl%pc:s/EŠDA=EŠDA--#wn%qpc:#u%:#a1#a1#u0#+m-------	EŠDA
@@ -211357,7 +211389,9 @@ g	o0981059..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI
 W	P006053.29.4
 g	o0981296..	@pcsl%pc:s/TE=TE--#wn%qpc:#u%:#a1#a1#u0#+k-------	TE
 W	P006053.29.5
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 L	95227	P006053.30	o ii 1.b1
 W	P006053.30.1
 g	o0980309..	@pcsl%pc:s/=EN~a--#wn%qpc:#u%:#a1#a1#u0#+m-------	EN~a
@@ -211382,7 +211416,9 @@ g	o0981059..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI
 W	P006053.32.4
 g	o0981296..	@pcsl%pc:s/TE=TE--#wn%qpc:#u%:#a1#a1#u0#+k-------	TE
 W	P006053.32.5
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P006053.32.6
 g	o0981760..	@pcsl%pc:s/ZATU795=ZATU795--#wn%qpc:#u%:#a1#a1#u0#+k-------	ZATU795
 W	P006053.32.7
@@ -211412,7 +211448,9 @@ L	95233	P006053.36	r i 2
 W	P006053.36.1
 g	o0981017..	@pcsl%pc:s/=RAD~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	RAD~a
 W	P006053.36.2
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P006053.36.3
 g	o0981059..	@pcsl%pc:s/SI=SI--#wn%qpc:#u%:#a1#a1#u0#+k-------	SI
 W	P006053.36.4
@@ -212867,7 +212905,9 @@ g	o0980043..	@pcsl%pc:s/=ALAN~c--#wn%qpc:#u%:#a1#a1#u0#+k-------	ALAN~c
 W	P006056.73.7
 g	o0981432..	@pcsl%pc:s/=UNUG~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	UNUG~a
 W	P006056.73.8
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 W	P006056.73.9
 g	o0981017..	@pcsl%pc:s/=RAD~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	RAD~a
 W	P006056.73.10
@@ -218882,7 +218922,9 @@ W	P006105.27.3
 g	o0981004..	@pcsl%pc:s/=PAP~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	PAP~a
 L	97154	P006105.28	o iii 3.b
 W	P006105.28.1
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+m-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+m-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+m-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+m-------	-
 W	P006105.28.2
 g	o0982174..	@pcsl%pc:n/3(N57)=3(N57)--#wn%qpc:#u%:#a1#a1#u0#+m-------	3(N57)
 L	97155	P006105.29	o iii 3.c
@@ -223973,7 +224015,9 @@ g	o0982212..	@pcsl%pc:c/=|3(N57).E₂~b|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|3(N57
 g	o0982174..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#e0#+k-------	-
 g	o0980301..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#e0#+k-------	-
 W	P006173.10.3
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 L	98899	P006173.11	o ii 2
 W	P006173.11.1
 g	o0981917..	@pcsl%pc:n/6(N14)=6(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	6(N14)
@@ -225435,7 +225479,9 @@ L	99402	P006190.4	o i 1
 W	P006190.4.1
 W	P006190.4.2
 W	P006190.4.3
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k-------	-
 L	99404	P006190.6	o ii 1.a
 W	P006190.6.1
 W	P006190.6.2
@@ -229372,7 +229418,9 @@ W	P006254.20.2
 W	P006254.20.3
 g	o0981004..	@pcsl%pc:s/=PAP~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	PAP~a
 W	P006254.20.4
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 L	100956	P006254.21	o ii 2.b1
 W	P006254.21.1
 W	P006254.21.2
@@ -229485,7 +229533,9 @@ g	o0981912..	@pcsl%pc:n/1(N14)=1(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	1(N14)
 W	P006254.36.2
 g	o0981831..	@pcsl%pc:n/4(N01)=4(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	4(N01)
 W	P006254.36.3
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#.k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#.k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#.k-------	-
 W	P006254.36.4
 L	100972	P006254.37	r i 2.b1
 W	P006254.37.1
@@ -232404,7 +232454,9 @@ g	o0981913..	@pcsl%pc:n/2(N14)=2(N14)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N14)
 W	P006277.5.2
 g	o0981829..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	2(N01)
 W	P006277.5.3
-g	o0980692..	@pcsl%pc:s/KITI=KITI--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980692..	@pcsl%pc:s/KITI=|BU~b.KALAM~a|--#wn%qpc:#u%:#a1#a1#u0#+k-------	KITI
+g	o0980126..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^0#a1#u0#+k-------	-
+g	o0980641..	@pcsl%pc:e/=--#wn%qpc:#u%:#a1^1#a1#u0#+k-------	-
 L	101758	P006277.6	o i 3
 W	P006277.6.1
 g	o0981830..	@pcsl%pc:n/3(N01)=3(N01)--#wn%qpc:#u%:#a1#a1#u0#+k-------	3(N01)
@@ -256446,7 +256498,7 @@ L	108936	P325064.34	o iii 4
 W	P325064.34.1
 g	o0981829..	@pcsl%pc:n/2(N01)=2(N01)--#wn%qpc:#u%:#a1#a1#u0#.k-------	2(N01)
 W	P325064.34.2
-g	o0982286..	@pcsl%pc:c/X₁=X₁--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GA₂~a1×X₁|
+g	o0982286..	@pcsl%pc:c/X₁=|GA₂~a1×X₁|--#wn%qpc:#u%:#a1#a1#e0#+k-------	|GA₂~a1×X₁|
 L	108937	P325064.35	o iii 5
 W	P325064.35.1
 g	o0980917..	@pcsl%pc:s/=NI~a--#wn%qpc:#u%:#a1#a1#u0#+k-------	NI~a
