@@ -44,7 +44,8 @@
   <xi:include href="../m/pepc.xml"/>
 
   <xh:h1>Proposal Documents</xh:h1>
-
+  <tex:text>\label{documents}</tex:text>
+  
   <xh:p>The reference data for the proposal is in `UnicodeData.txt',
   attached to this PDF.</xh:p>
 

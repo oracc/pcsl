@@ -31,8 +31,10 @@
   <li>Alignment of the encoding with established disciplinary
   practices</li>
   <li>Use of all available published and digital data for
-  Proto-Cuneiform rather than sole reliance on the CDLI-gh collection
-  of sign images</li>
+  Proto-Cuneiform rather than sole reliance on Bob England's
+  collection of sign images available in a CDLI GitHub repository
+  \cite{CDLI-gh} (abbreviated throughout this document as
+  CDLI-gh)</li>
   <li>Several hundred previously encoded characters are treated as
   non-contrastive variants, following disciplinary standards, and are
   not encoded separately</li>
